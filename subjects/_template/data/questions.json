@@ -1,0 +1,8 @@
+[
+  {
+    "id": "demo-001", "source": "113 考古", "chapter": "ch1", "type": "mcq", "num": 1,
+    "stem": "範例題目？",
+    "options": [{"k": "A", "t": "選項一"}, {"k": "B", "t": "選項二"}],
+    "answer": ["A"], "explain": "詳解", "topics": ["範例考點"], "pattern": "選正確／單一概念題"
+  }
+]

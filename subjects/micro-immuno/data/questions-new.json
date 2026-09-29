@@ -1,0 +1,3544 @@
+[
+ {
+  "id": "new-001",
+  "source": "模擬新題",
+  "chapter": "bact-structure",
+  "type": "mcq",
+  "stem": "Which of the following statements about the Gram-negative cell envelope is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Lipid A is embedded in the outer membrane and is responsible for endotoxic activity"
+   },
+   {
+    "k": "B",
+    "t": "Porins are proteins located in the outer membrane"
+   },
+   {
+    "k": "C",
+    "t": "The periplasmic space may contain β-lactamase"
+   },
+   {
+    "k": "D",
+    "t": "Teichoic acids anchor the outer membrane to the peptidoglycan layer"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Teichoic acid 只存在於 G(+)。G(−) 外膜靠 lipoprotein（Braun lipoprotein）連接 PDG。",
+  "topics": [
+   "細胞壁／革蘭氏染色"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "basedOn": "k113-bact-33"
+ },
+ {
+  "id": "new-002",
+  "source": "模擬新題",
+  "chapter": "bact-structure",
+  "type": "mcq",
+  "stem": "Which pair of bacterial structure and function is CORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Fimbriae – motility"
+   },
+   {
+    "k": "B",
+    "t": "Inclusion body – protein synthesis"
+   },
+   {
+    "k": "C",
+    "t": "Capsule – antiphagocytic"
+   },
+   {
+    "k": "D",
+    "t": "Axial filament – conjugation"
+   },
+   {
+    "k": "E",
+    "t": "Plasmid – required for survival"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Capsule 抗吞噬、抗原性差；fimbriae 黏附；inclusion 儲存；axial filament 是 spirochete 運動；plasmid 非生存必需。",
+  "topics": [
+   "細菌構造與功能"
+  ],
+  "pattern": "配對題",
+  "basedOn": "k113-bact-44"
+ },
+ {
+  "id": "new-003",
+  "source": "模擬新題",
+  "chapter": "bact-structure",
+  "type": "mcq",
+  "stem": "關於人體微生物相（microbiota）的敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "同一個體不同部位的菌種組成不同"
+   },
+   {
+    "k": "B",
+    "t": "不同個體間菌種差異大，但整體功能相似（functional redundancy）"
+   },
+   {
+    "k": "C",
+    "t": "共有菌種數：口腔 > 鼻腔 > 腸道 > 皮膚 > 陰道"
+   },
+   {
+    "k": "D",
+    "t": "Dysbiosis 只與腸道疾病有關，與代謝疾病無關"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Dysbiosis 與肥胖、糖尿病、憂鬱、癌症等有關。",
+  "topics": [
+   "人體微生物相"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "basedOn": "k113-bact-39"
+ },
+ {
+  "id": "new-004",
+  "source": "模擬新題",
+  "chapter": "bact-structure",
+  "type": "mcq",
+  "stem": "細菌在哪一個生長期對 β-lactam 抗生素最敏感，且可用來計算 generation time？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Lag phase"
+   },
+   {
+    "k": "B",
+    "t": "Exponential (log) phase"
+   },
+   {
+    "k": "C",
+    "t": "Stationary phase"
+   },
+   {
+    "k": "D",
+    "t": "Death phase"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Log phase 細菌快速分裂、持續合成細胞壁，因此對抑制 PDG 合成的藥最敏感。",
+  "topics": [
+   "生長曲線與代謝"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-bact-46"
+ },
+ {
+  "id": "new-005",
+  "source": "模擬新題",
+  "chapter": "bact-structure",
+  "type": "mcq",
+  "stem": "目前臨床微生物實驗室以蛋白質圖譜快速鑑定細菌，所使用的技術是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "16S rRNA sequencing"
+   },
+   {
+    "k": "B",
+    "t": "MALDI-TOF mass spectrometry"
+   },
+   {
+    "k": "C",
+    "t": "Serotyping"
+   },
+   {
+    "k": "D",
+    "t": "Phage typing"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Slides：「Current: protein profiling to identify bacteria – MALDI-TOF MS」。",
+  "topics": [
+   "細菌分類鑑定"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-006",
+  "source": "模擬新題",
+  "chapter": "bact-structure",
+  "type": "mcq",
+  "stem": "Which of the following bacteria is NOT properly classified by Gram staining because of its cell wall?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Staphylococcus aureus"
+   },
+   {
+    "k": "B",
+    "t": "Escherichia coli"
+   },
+   {
+    "k": "C",
+    "t": "Mycobacterium tuberculosis"
+   },
+   {
+    "k": "D",
+    "t": "Streptococcus pyogenes"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "MTB 細胞壁含 mycolic acid → 需 acid-fast stain；Mycoplasma（無壁）、Chlamydia（無 PDG）也是例外。",
+  "topics": [
+   "細胞壁／革蘭氏染色"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-007",
+  "source": "模擬新題",
+  "chapter": "bact-structure",
+  "type": "mcq",
+  "stem": "In bacteria, the electron transport chain that generates most ATP is located in the:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Mitochondrial inner membrane"
+   },
+   {
+    "k": "B",
+    "t": "Cytoplasmic (plasma) membrane"
+   },
+   {
+    "k": "C",
+    "t": "Outer membrane"
+   },
+   {
+    "k": "D",
+    "t": "Nucleoid"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "細菌無粒線體；ETC 與 oxidative phosphorylation 在細胞膜。",
+  "topics": [
+   "生長曲線與代謝"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-bact-09"
+ },
+ {
+  "id": "new-008",
+  "source": "模擬新題",
+  "chapter": "bact-structure",
+  "type": "mcq",
+  "stem": "下列科學家與貢獻的配對，何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Lister – 以洗手降低產褥熱"
+   },
+   {
+    "k": "B",
+    "t": "Ehrlich – Salvarsan 606 治療梅毒"
+   },
+   {
+    "k": "C",
+    "t": "Enders – 發現 penicillin"
+   },
+   {
+    "k": "D",
+    "t": "Semmelweis – 以 phenol 消毒手術器械"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Semmelweis 洗手、Lister phenol、Fleming penicillin、Enders 首次培養病毒。",
+  "topics": [
+   "微生物學史／柯霍假說"
+  ],
+  "pattern": "配對題",
+  "basedOn": "k113-bact-40"
+ },
+ {
+  "id": "new-009",
+  "source": "模擬新題",
+  "chapter": "bact-genetics",
+  "type": "mcq",
+  "stem": "The coding region of a gene is 300 nucleotides long (including start and stop codons). A single-nucleotide insertion occurs after nucleotide 151. What is the most likely effect?",
+  "options": [
+   {
+    "k": "A",
+    "t": "No change in the protein"
+   },
+   {
+    "k": "B",
+    "t": "Only amino acid 51 is changed"
+   },
+   {
+    "k": "C",
+    "t": "The first 50 amino acids are unchanged; downstream amino acids are altered"
+   },
+   {
+    "k": "D",
+    "t": "The first 51 amino acids are changed"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "151 = 第 51 個密碼子的第 1 個 nt，插入在其後 → 第 51 個密碼子起讀框改變；前 50 個 aa 不受影響。",
+  "topics": [
+   "突變"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-bact-10"
+ },
+ {
+  "id": "new-010",
+  "source": "模擬新題",
+  "chapter": "bact-genetics",
+  "type": "mcq",
+  "stem": "Transfer of bacterial DNA from a donor to a recipient mediated by a bacteriophage is called:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Transformation"
+   },
+   {
+    "k": "B",
+    "t": "Conjugation"
+   },
+   {
+    "k": "C",
+    "t": "Transduction"
+   },
+   {
+    "k": "D",
+    "t": "Transposition"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Transduction = 噬菌體媒介；generalized 或 specialized。",
+  "topics": [
+   "水平基因轉移"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-bact-20"
+ },
+ {
+  "id": "new-011",
+  "source": "模擬新題",
+  "chapter": "bact-genetics",
+  "type": "mcq",
+  "stem": "關於大腸桿菌 lac operon 的敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "屬於 inducible operon，預設狀態為關閉"
+   },
+   {
+    "k": "B",
+    "t": "Allolactose 使 repressor 失去活性"
+   },
+   {
+    "k": "C",
+    "t": "葡萄糖濃度高時 cAMP-CAP 複合物增加，促進轉錄"
+   },
+   {
+    "k": "D",
+    "t": "乳糖存在與否決定 operon 是否打開"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "葡萄糖低 → cAMP↑ → cAMP-CAP 結合 promoter（positive regulation）。",
+  "topics": [
+   "DNA 複製與基因表現"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-012",
+  "source": "模擬新題",
+  "chapter": "bact-genetics",
+  "type": "mcq",
+  "stem": "In the tryptophan operon, when tryptophan is abundant:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Tryptophan binds the operator directly"
+   },
+   {
+    "k": "B",
+    "t": "Tryptophan acts as a corepressor that activates the repressor to bind the operator"
+   },
+   {
+    "k": "C",
+    "t": "Region 2–3 forms an anti-terminator hairpin"
+   },
+   {
+    "k": "D",
+    "t": "The ribosome stalls at the Trp codons"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Trp 高：corepressor + repressor → operator；attenuation 時 region 3–4 形成 terminator。",
+  "topics": [
+   "DNA 複製與基因表現"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-bact-48"
+ },
+ {
+  "id": "new-013",
+  "source": "模擬新題",
+  "chapter": "bact-genetics",
+  "type": "mcq",
+  "stem": "A mutation converting a purine to a pyrimidine is called:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Transition"
+   },
+   {
+    "k": "B",
+    "t": "Transversion"
+   },
+   {
+    "k": "C",
+    "t": "Frameshift"
+   },
+   {
+    "k": "D",
+    "t": "Silent mutation"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Transition：purine↔purine 或 pyrimidine↔pyrimidine；Transversion：purine↔pyrimidine。",
+  "topics": [
+   "突變"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-014",
+  "source": "模擬新題",
+  "chapter": "bact-genetics",
+  "type": "mcq",
+  "stem": "Which statement about bacterial DNA replication is INCORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Replication starts at oriC and proceeds bidirectionally"
+   },
+   {
+    "k": "B",
+    "t": "It is semi-conservative"
+   },
+   {
+    "k": "C",
+    "t": "DNA polymerase I removes RNA primers"
+   },
+   {
+    "k": "D",
+    "t": "The lagging strand is replicated from 3' to 5' by DNA polymerase III"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "DNA 合成只能 5'→3'；lagging strand 以 Okazaki fragments 不連續合成。",
+  "topics": [
+   "DNA 複製與基因表現"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "basedOn": "k113-bact-47"
+ },
+ {
+  "id": "new-015",
+  "source": "模擬新題",
+  "chapter": "bact-genetics",
+  "type": "mcq",
+  "stem": "以 16S rRNA amplicon sequencing 分析腸道菌相時，最常選擇擴增的變異區為？",
+  "options": [
+   {
+    "k": "A",
+    "t": "V1–V2"
+   },
+   {
+    "k": "B",
+    "t": "V3–V4"
+   },
+   {
+    "k": "C",
+    "t": "V6–V7"
+   },
+   {
+    "k": "D",
+    "t": "V8–V9"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "16S rRNA 有 V1–V9，糞便檢體常用 V3–V4。",
+  "topics": [
+   "水平基因轉移"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-016",
+  "source": "模擬新題",
+  "chapter": "bact-genetics",
+  "type": "mcq",
+  "stem": "In CRISPR-Cas9 genome editing, precise insertion of a donor DNA template depends on which repair pathway?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Non-homologous end joining (NHEJ)"
+   },
+   {
+    "k": "B",
+    "t": "Homology-directed repair (HDR)"
+   },
+   {
+    "k": "C",
+    "t": "Photolyase-mediated direct repair"
+   },
+   {
+    "k": "D",
+    "t": "Error-prone repair"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "NHEJ → gene disruption；HDR + donor → gene editing。",
+  "topics": [
+   "DNA 複製與基因表現"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-017",
+  "source": "模擬新題",
+  "chapter": "sterilization",
+  "type": "mcq",
+  "stem": "下列哪一種滅菌監測方式「能證明」滅菌成功？",
+  "options": [
+   {
+    "k": "A",
+    "t": "壓力與溫度計"
+   },
+   {
+    "k": "B",
+    "t": "滅菌膠帶（chemical indicator）"
+   },
+   {
+    "k": "C",
+    "t": "含 Bacillus stearothermophilus 孢子的生物指示劑"
+   },
+   {
+    "k": "D",
+    "t": "操作紀錄表"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "只有 biological indicator 能證明滅菌；B. stearothermophilus 用於濕熱。",
+  "topics": [
+   "滅菌與消毒"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-018",
+  "source": "模擬新題",
+  "chapter": "sterilization",
+  "type": "mcq",
+  "stem": "生物指示劑與滅菌法的配對，何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "B. subtilis – 濕熱"
+   },
+   {
+    "k": "B",
+    "t": "B. pumilus – radiation"
+   },
+   {
+    "k": "C",
+    "t": "B. stearothermophilus – ETO"
+   },
+   {
+    "k": "D",
+    "t": "B. subtilis – radiation"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "B. subtilis：乾熱、ETO；B. pumilus：radiation；B. stearothermophilus：濕熱。",
+  "topics": [
+   "滅菌與消毒"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "new-019",
+  "source": "模擬新題",
+  "chapter": "sterilization",
+  "type": "mcq",
+  "stem": "Which statement about glutaraldehyde is INCORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "It is a high-level, sporicidal agent"
+   },
+   {
+    "k": "B",
+    "t": "It is more active at acidic pH"
+   },
+   {
+    "k": "C",
+    "t": "It is inactivated by organic material, so items must be cleaned first"
+   },
+   {
+    "k": "D",
+    "t": "It is used for endoscopes"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Glutaraldehyde 在鹼性（2% + 0.3% NaHCO₃）才活化，活化後保存 14 天。",
+  "topics": [
+   "滅菌與消毒"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-020",
+  "source": "模擬新題",
+  "chapter": "sterilization",
+  "type": "mcq",
+  "stem": "手術前刷手常用 0.4% 的哪一種防腐劑？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Povidone-iodine"
+   },
+   {
+    "k": "B",
+    "t": "Chlorhexidine"
+   },
+   {
+    "k": "C",
+    "t": "Phenol"
+   },
+   {
+    "k": "D",
+    "t": "Glutaraldehyde"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Chlorhexidine：0.2% 漱口、0.4% 刷手、2% 消毒；屬 biguanide。",
+  "topics": [
+   "滅菌與消毒"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-bact-51"
+ },
+ {
+  "id": "new-021",
+  "source": "模擬新題",
+  "chapter": "sterilization",
+  "type": "mcq",
+  "stem": "某醫院欲處理對熱與濕氣都敏感的腹腔鏡金屬與塑膠器械，希望快速且不留毒性殘留，最適合的方法是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Autoclave 121°C"
+   },
+   {
+    "k": "B",
+    "t": "Plasma gas sterilization"
+   },
+   {
+    "k": "C",
+    "t": "Boiling 100°C 30 min"
+   },
+   {
+    "k": "D",
+    "t": "UV 照射"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Plasma（離子化 H₂O₂ / peracetic acid）適用金屬、塑膠、關節鏡、腹腔鏡器械，但昂貴。",
+  "topics": [
+   "滅菌與消毒"
+  ],
+  "pattern": "臨床情境題",
+  "basedOn": "k113-mid111-15"
+ },
+ {
+  "id": "new-022",
+  "source": "模擬新題",
+  "chapter": "sterilization",
+  "type": "mcq",
+  "stem": "關於消毒劑等級的敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "High-level 可殺死孢子與 M. tuberculosis"
+   },
+   {
+    "k": "B",
+    "t": "Intermediate-level 可殺死 M. tuberculosis"
+   },
+   {
+    "k": "C",
+    "t": "Low-level 可殺死 M. tuberculosis 但不能殺孢子"
+   },
+   {
+    "k": "D",
+    "t": "70% alcohol 屬 intermediate-level"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Low-level 無法殺 MTB 與孢子。",
+  "topics": [
+   "滅菌與消毒"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-023",
+  "source": "模擬新題",
+  "chapter": "pathogenesis",
+  "type": "mcq",
+  "stem": "Which statement about superantigens is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "They bind MHC class II outside the peptide-binding groove"
+   },
+   {
+    "k": "B",
+    "t": "They activate a large fraction of T cells non-specifically"
+   },
+   {
+    "k": "C",
+    "t": "They must be processed by APCs before presentation"
+   },
+   {
+    "k": "D",
+    "t": "TSST-1 is an example"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "超級抗原不需 APC 處理，直接跨接 MHC II 與 TCR Vβ。",
+  "topics": [
+   "超級抗原"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "basedOn": "k113-mid111-76"
+ },
+ {
+  "id": "new-024",
+  "source": "模擬新題",
+  "chapter": "pathogenesis",
+  "type": "mcq",
+  "stem": "臨床上檢測注射液是否含有內毒素（endotoxin），常用的方法是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "ELISA"
+   },
+   {
+    "k": "B",
+    "t": "Limulus amebocyte lysate (LAL) assay"
+   },
+   {
+    "k": "C",
+    "t": "Elek test"
+   },
+   {
+    "k": "D",
+    "t": "Widal test"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "LAL：鱟血 amebocyte 遇 endotoxin 凝集。",
+  "topics": [
+   "毒素（內/外毒素、AB toxin）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-025",
+  "source": "模擬新題",
+  "chapter": "pathogenesis",
+  "type": "mcq",
+  "stem": "細菌逃避宿主免疫的機制配對，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "S. aureus – Protein A 結合 IgG Fc"
+   },
+   {
+    "k": "B",
+    "t": "N. gonorrhoeae – IgA protease"
+   },
+   {
+    "k": "C",
+    "t": "S. pyogenes – C5a peptidase"
+   },
+   {
+    "k": "D",
+    "t": "M. tuberculosis – 產生 coagulase 形成血塊屏障"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Coagulase 是 S. aureus；MTB 阻止 phagolysosome 融合、形成 granuloma。",
+  "topics": [
+   "免疫逃脫"
+  ],
+  "pattern": "配對題",
+  "basedOn": "k113-mid111-19"
+ },
+ {
+  "id": "new-026",
+  "source": "模擬新題",
+  "chapter": "pathogenesis",
+  "type": "mcq",
+  "stem": "Endotoxin (Lipid A) induces fever mainly by binding which receptor complex on macrophages?",
+  "options": [
+   {
+    "k": "A",
+    "t": "CD14 / TLR4"
+   },
+   {
+    "k": "B",
+    "t": "TLR5"
+   },
+   {
+    "k": "C",
+    "t": "CD16"
+   },
+   {
+    "k": "D",
+    "t": "MHC class II"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "LPS → CD14 + TLR4 → IL-1、TNF-α、IL-6 → fever。",
+  "topics": [
+   "毒素（內/外毒素、AB toxin）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-027",
+  "source": "模擬新題",
+  "chapter": "pathogenesis",
+  "type": "mcq",
+  "stem": "Which bacterium uses a type III secretion system and actin polymerization to spread directly from cell to cell?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Staphylococcus aureus"
+   },
+   {
+    "k": "B",
+    "t": "Shigella"
+   },
+   {
+    "k": "C",
+    "t": "Streptococcus pneumoniae"
+   },
+   {
+    "k": "D",
+    "t": "Clostridium tetani"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Shigella、Listeria 利用 actin 在胞內移動並傳給鄰細胞。",
+  "topics": [
+   "免疫逃脫"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-028",
+  "source": "模擬新題",
+  "chapter": "immuno-basic",
+  "type": "mcq",
+  "stem": "下列 CD 分子與細胞的配對，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "CD3 – 所有 T 細胞"
+   },
+   {
+    "k": "B",
+    "t": "CD19 – B 細胞"
+   },
+   {
+    "k": "C",
+    "t": "CD56 – NK 細胞"
+   },
+   {
+    "k": "D",
+    "t": "CD8 – helper T 細胞"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "CD4 = helper T；CD8 = cytotoxic T。",
+  "topics": [
+   "先天 vs 後天免疫"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "new-029",
+  "source": "模擬新題",
+  "chapter": "immuno-basic",
+  "type": "mcq",
+  "stem": "Which is NOT a feature of the adaptive immune response?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Specificity"
+   },
+   {
+    "k": "B",
+    "t": "Memory"
+   },
+   {
+    "k": "C",
+    "t": "Self-limitation"
+   },
+   {
+    "k": "D",
+    "t": "Response identical on first and tenth exposure"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "先天免疫才是每次反應都一樣（無記憶）。",
+  "topics": [
+   "先天 vs 後天免疫"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-030",
+  "source": "模擬新題",
+  "chapter": "immuno-basic",
+  "type": "mcq",
+  "stem": "A nude (nu/nu) mouse cannot mount a normal immune response mainly because it lacks:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Bone marrow"
+   },
+   {
+    "k": "B",
+    "t": "Thymus"
+   },
+   {
+    "k": "C",
+    "t": "Spleen"
+   },
+   {
+    "k": "D",
+    "t": "Lymph nodes"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Nude mouse：thymic dysgenesis（athymic）→ 缺 T 細胞。",
+  "topics": [
+   "先天 vs 後天免疫"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-031",
+  "source": "模擬新題",
+  "chapter": "immuno-basic",
+  "type": "mcq",
+  "stem": "在脾臟中，T 細胞主要位於哪一個區域？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Red pulp"
+   },
+   {
+    "k": "B",
+    "t": "Periarteriolar lymphoid sheath (PALS)"
+   },
+   {
+    "k": "C",
+    "t": "Germinal center"
+   },
+   {
+    "k": "D",
+    "t": "Marginal zone"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "脾臟 PALS = T 區；follicle / germinal center = B 區。淋巴結 T 區為 paracortex。",
+  "topics": [
+   "先天 vs 後天免疫"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-032",
+  "source": "模擬新題",
+  "chapter": "immuno-basic",
+  "type": "mcq",
+  "stem": "Which cell type is NOT considered a phagocyte?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Neutrophil"
+   },
+   {
+    "k": "B",
+    "t": "Macrophage"
+   },
+   {
+    "k": "C",
+    "t": "Basophil"
+   },
+   {
+    "k": "D",
+    "t": "Dendritic cell"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Phagocytes：neutrophil、eosinophil、monocyte/macrophage、DC；basophil 不屬於。",
+  "topics": [
+   "先天 vs 後天免疫"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-033",
+  "source": "模擬新題",
+  "chapter": "immuno-basic",
+  "type": "mcq",
+  "stem": "Chimeric antigen receptor (CAR) T cells used for B-ALL typically contain all of the following EXCEPT:",
+  "options": [
+   {
+    "k": "A",
+    "t": "anti-CD19 scFv"
+   },
+   {
+    "k": "B",
+    "t": "4-1BB costimulatory domain"
+   },
+   {
+    "k": "C",
+    "t": "CD3ζ signaling domain"
+   },
+   {
+    "k": "D",
+    "t": "CTLA-4"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "CTLA-4 是 immune checkpoint，不是 CAR 構造。",
+  "topics": [
+   "先天 vs 後天免疫"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "basedOn": "k113-mid111-46"
+ },
+ {
+  "id": "new-034",
+  "source": "模擬新題",
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "Which complement fragment forms the C3 convertase of the classical pathway together with C4b?",
+  "options": [
+   {
+    "k": "A",
+    "t": "C2a"
+   },
+   {
+    "k": "B",
+    "t": "C2b"
+   },
+   {
+    "k": "C",
+    "t": "C3a"
+   },
+   {
+    "k": "D",
+    "t": "Bb"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Classical / lectin C3 convertase = C4b2a；alternative = C3bBb。",
+  "topics": [
+   "補體系統"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-innate-19"
+ },
+ {
+  "id": "new-035",
+  "source": "模擬新題",
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "Which statement about the alternative pathway is NOT true?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Factor B and factor D are involved"
+   },
+   {
+    "k": "B",
+    "t": "C3bBb is its C3 convertase"
+   },
+   {
+    "k": "C",
+    "t": "Antigen–antibody complexes are required to initiate it"
+   },
+   {
+    "k": "D",
+    "t": "Spontaneous hydrolysis of C3 can form C3(H₂O)Bb"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "替代路徑不需要抗體。",
+  "topics": [
+   "補體系統"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "basedOn": "k113-innate-43"
+ },
+ {
+  "id": "new-036",
+  "source": "模擬新題",
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "Which complement fragments are the main chemotactic / anaphylatoxin molecules?",
+  "options": [
+   {
+    "k": "A",
+    "t": "C3b and C4b"
+   },
+   {
+    "k": "B",
+    "t": "C3a and C5a"
+   },
+   {
+    "k": "C",
+    "t": "C5b and C6"
+   },
+   {
+    "k": "D",
+    "t": "C1q and C1r"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "C3a、C5a 小分子易擴散，結合 C3aR / C5aR。",
+  "topics": [
+   "補體系統"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-innate-12"
+ },
+ {
+  "id": "new-037",
+  "source": "模擬新題",
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "Which of the following is NOT an opsonic receptor on phagocytes?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Mannose receptor"
+   },
+   {
+    "k": "B",
+    "t": "FcγRI"
+   },
+   {
+    "k": "C",
+    "t": "CR3"
+   },
+   {
+    "k": "D",
+    "t": "CD94/NKG2A"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "CD94/NKG2A 是 NK 的抑制性受體。",
+  "topics": [
+   "調理作用／opsonic receptor"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "basedOn": "k113-innate-10"
+ },
+ {
+  "id": "new-038",
+  "source": "模擬新題",
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "Toll-like receptor 與 ligand 的配對，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "TLR3 – dsRNA"
+   },
+   {
+    "k": "B",
+    "t": "TLR4 – LPS"
+   },
+   {
+    "k": "C",
+    "t": "TLR5 – flagellin"
+   },
+   {
+    "k": "D",
+    "t": "TLR9 – lipoteichoic acid"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "TLR9 辨識 unmethylated CpG DNA；lipoteichoic acid 是 TLR2:TLR6。",
+  "topics": [
+   "TLR／PRR"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "new-039",
+  "source": "模擬新題",
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "The inhibitory receptors KIR-2D and KIR-3D (long) on NK cells recognize:",
+  "options": [
+   {
+    "k": "A",
+    "t": "HLA-E"
+   },
+   {
+    "k": "B",
+    "t": "HLA-C"
+   },
+   {
+    "k": "C",
+    "t": "HLA-DR"
+   },
+   {
+    "k": "D",
+    "t": "CD1d"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "KIR → HLA-C；CD94/NKG2A → HLA-E。",
+  "topics": [
+   "NK 細胞與抑制性受體"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-innate-48"
+ },
+ {
+  "id": "new-040",
+  "source": "模擬新題",
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "Which is NOT directly used by CTLs or NK cells to kill target cells?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Perforin"
+   },
+   {
+    "k": "B",
+    "t": "Granzymes"
+   },
+   {
+    "k": "C",
+    "t": "Fas ligand"
+   },
+   {
+    "k": "D",
+    "t": "IL-4"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "毒殺三途徑：FasL–Fas、TNF/LT、perforin/granzymes。IL-4 是 TH2 cytokine。",
+  "topics": [
+   "細胞毒殺（perforin/Fas）"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "basedOn": "k113-innate-46"
+ },
+ {
+  "id": "new-041",
+  "source": "模擬新題",
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "Which statement about leukocyte migration is NOT true?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Selectins bind carbohydrates to slow circulating leukocytes"
+   },
+   {
+    "k": "B",
+    "t": "Chemokines activate integrins on leukocytes"
+   },
+   {
+    "k": "C",
+    "t": "LFA-1 binds ICAM-1"
+   },
+   {
+    "k": "D",
+    "t": "Integrins are single-chain molecules and mediate rolling"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Integrin 由 α、β 兩條鏈組成、負責 firm adhesion；rolling 是 selectin。",
+  "topics": [
+   "白血球遷移（selectin→chemokine→integrin）"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "basedOn": "k113-innate-47"
+ },
+ {
+  "id": "new-042",
+  "source": "模擬新題",
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "某病毒會使受感染細胞的 MHC class I 表現量下降以躲避 CD8 T 細胞。此時最可能負責清除這些細胞的是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "CD4 T 細胞"
+   },
+   {
+    "k": "B",
+    "t": "B 細胞"
+   },
+   {
+    "k": "C",
+    "t": "NK 細胞"
+   },
+   {
+    "k": "D",
+    "t": "Mast cell"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "NK 細胞偵測 MHC I 缺失（missing self）。",
+  "topics": [
+   "NK 細胞與抑制性受體"
+  ],
+  "pattern": "臨床情境題",
+  "basedOn": "k113-innate-27"
+ },
+ {
+  "id": "new-043",
+  "source": "模擬新題",
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "Which immunoglobulin is found at the highest concentration in human serum?",
+  "options": [
+   {
+    "k": "A",
+    "t": "IgA"
+   },
+   {
+    "k": "B",
+    "t": "IgG"
+   },
+   {
+    "k": "C",
+    "t": "IgM"
+   },
+   {
+    "k": "D",
+    "t": "IgE"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "IgG 佔 70–75%。",
+  "topics": [
+   "抗體類別與功能"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-044",
+  "source": "模擬新題",
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "新生兒出生後主要由哪兩種抗體獲得被動免疫保護？",
+  "options": [
+   {
+    "k": "A",
+    "t": "IgA 與 IgD"
+   },
+   {
+    "k": "B",
+    "t": "IgG 與 IgA"
+   },
+   {
+    "k": "C",
+    "t": "IgM 與 IgE"
+   },
+   {
+    "k": "D",
+    "t": "IgG 與 IgM"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "IgG 經胎盤、IgA 經母乳。",
+  "topics": [
+   "抗體類別與功能"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-agab-30"
+ },
+ {
+  "id": "new-045",
+  "source": "模擬新題",
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "Which statement about antibody structure is INCORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Light chains are encoded by V, J and C gene segments"
+   },
+   {
+    "k": "B",
+    "t": "IgM and IgE lack a hinge region"
+   },
+   {
+    "k": "C",
+    "t": "The class of an antibody is determined by its light chain"
+   },
+   {
+    "k": "D",
+    "t": "CDR3 is the most variable region"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Class / subclass 由 heavy chain 決定。",
+  "topics": [
+   "抗體結構"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "basedOn": "k113-agab-06"
+ },
+ {
+  "id": "new-046",
+  "source": "模擬新題",
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "A patient has an elevated titer of IgM against a pathogen but no IgG. This most likely indicates:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Previous vaccination"
+   },
+   {
+    "k": "B",
+    "t": "Current (primary) infection"
+   },
+   {
+    "k": "C",
+    "t": "Passive maternal immunity"
+   },
+   {
+    "k": "D",
+    "t": "Allergy"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "IgM 為初次反應主力 → 目前感染指標。",
+  "topics": [
+   "抗體類別與功能"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-tact-22"
+ },
+ {
+  "id": "new-047",
+  "source": "模擬新題",
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "根據 allelic exclusion，若 B 細胞的 κ 輕鏈重組已成功，接下來會？",
+  "options": [
+   {
+    "k": "A",
+    "t": "開始 λ 輕鏈重組"
+   },
+   {
+    "k": "B",
+    "t": "抑制 λ 輕鏈重組"
+   },
+   {
+    "k": "C",
+    "t": "重新進行 μ 重鏈重組"
+   },
+   {
+    "k": "D",
+    "t": "κ 與 λ 同時表現"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "順序 μ → κ → λ；κ 成功就抑制 λ。",
+  "topics": [
+   "抗體多樣性（VDJ/SHM）"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-agab-21"
+ },
+ {
+  "id": "new-048",
+  "source": "模擬新題",
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "The secretory component of secretory IgA is derived from:",
+  "options": [
+   {
+    "k": "A",
+    "t": "The J chain produced by plasma cells"
+   },
+   {
+    "k": "B",
+    "t": "The poly-Ig receptor of epithelial cells"
+   },
+   {
+    "k": "C",
+    "t": "Complement C3"
+   },
+   {
+    "k": "D",
+    "t": "Fc receptor on mast cells"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "poly-Ig receptor 在 transcytosis 後被切下，殘留部分即 secretory component。",
+  "topics": [
+   "抗體結構"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-agab-24"
+ },
+ {
+  "id": "new-049",
+  "source": "模擬新題",
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "關於 somatic hypermutation 的敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "發生於成熟 B 細胞受抗原活化後"
+   },
+   {
+    "k": "B",
+    "t": "發生在 germinal center"
+   },
+   {
+    "k": "C",
+    "t": "會同時發生於 T 細胞受體"
+   },
+   {
+    "k": "D",
+    "t": "與 affinity maturation 有關"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "TCR 沒有 SHM。",
+  "topics": [
+   "抗體多樣性（VDJ/SHM）"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "basedOn": "k113-agab-18"
+ },
+ {
+  "id": "new-050",
+  "source": "模擬新題",
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "Which antibody binds FcεRI on mast cells and basophils?",
+  "options": [
+   {
+    "k": "A",
+    "t": "IgA"
+   },
+   {
+    "k": "B",
+    "t": "IgD"
+   },
+   {
+    "k": "C",
+    "t": "IgE"
+   },
+   {
+    "k": "D",
+    "t": "IgG"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "IgE 高親和力結合 FcεRI → 過敏反應。",
+  "topics": [
+   "抗體類別與功能"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-agab-28"
+ },
+ {
+  "id": "new-051",
+  "source": "模擬新題",
+  "chapter": "mhc",
+  "type": "mcq",
+  "stem": "Which statement about MHC class I is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "It consists of an α chain and β2-microglobulin"
+   },
+   {
+    "k": "B",
+    "t": "Its peptide-binding groove is formed by α1 and α2"
+   },
+   {
+    "k": "C",
+    "t": "It presents peptides of 8–10 amino acids"
+   },
+   {
+    "k": "D",
+    "t": "It is expressed on red blood cells"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "MHC I 表現於所有有核細胞；紅血球沒有。",
+  "topics": [
+   "MHC 構造與表現"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "basedOn": "k113-tdev-03"
+ },
+ {
+  "id": "new-052",
+  "source": "模擬新題",
+  "chapter": "mhc",
+  "type": "mcq",
+  "stem": "In the MHC class II pathway, which molecule catalyzes the removal of CLIP from the peptide-binding groove?",
+  "options": [
+   {
+    "k": "A",
+    "t": "TAP"
+   },
+   {
+    "k": "B",
+    "t": "Tapasin"
+   },
+   {
+    "k": "C",
+    "t": "HLA-DM"
+   },
+   {
+    "k": "D",
+    "t": "HLA-DO"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "HLA-DM 催化 CLIP 換成抗原 peptide；HLA-DO 抑制 HLA-DM。",
+  "topics": [
+   "抗原處理與呈現（TAP）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-053",
+  "source": "模擬新題",
+  "chapter": "mhc",
+  "type": "mcq",
+  "stem": "The invariant chain (Ii) associated with newly synthesized MHC class II molecules functions to:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Transport peptides from cytosol to ER"
+   },
+   {
+    "k": "B",
+    "t": "Prevent binding of ER peptides and direct MHC II to endosomes"
+   },
+   {
+    "k": "C",
+    "t": "Degrade exogenous proteins"
+   },
+   {
+    "k": "D",
+    "t": "Bind CD4"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Ii 佔住槽、導向 endocytic pathway；在 MIIC 被切到只剩 CLIP。",
+  "topics": [
+   "抗原處理與呈現（TAP）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-054",
+  "source": "模擬新題",
+  "chapter": "mhc",
+  "type": "mcq",
+  "stem": "MHC 分子與 co-receptor 結合位置的配對，何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "CD8 – MHC I α3"
+   },
+   {
+    "k": "B",
+    "t": "CD8 – MHC II β2"
+   },
+   {
+    "k": "C",
+    "t": "CD4 – MHC I α3"
+   },
+   {
+    "k": "D",
+    "t": "CD4 – MHC II α1"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "CD8 → MHC I α3；CD4 → MHC II β2。",
+  "topics": [
+   "MHC 構造與表現"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "new-055",
+  "source": "模擬新題",
+  "chapter": "mhc",
+  "type": "mcq",
+  "stem": "Dendritic cells can present extracellular antigens on MHC class I molecules to activate CD8⁺ T cells. This process is called:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Autophagy"
+   },
+   {
+    "k": "B",
+    "t": "Cross-presentation"
+   },
+   {
+    "k": "C",
+    "t": "Allelic exclusion"
+   },
+   {
+    "k": "D",
+    "t": "Class switching"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Cross-presentation 是 DC 的特殊能力。",
+  "topics": [
+   "抗原處理與呈現（TAP）"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-tdev-12"
+ },
+ {
+  "id": "new-056",
+  "source": "模擬新題",
+  "chapter": "mhc",
+  "type": "mcq",
+  "stem": "Which statement about MHC polymorphism is INCORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "MHC genes are co-dominantly expressed"
+   },
+   {
+    "k": "B",
+    "t": "MHC diversity arises from somatic DNA rearrangement by RAG1/RAG2"
+   },
+   {
+    "k": "C",
+    "t": "MHC diversity mainly differs between individuals"
+   },
+   {
+    "k": "D",
+    "t": "MHC polymorphism contributes to transplant rejection"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "MHC 多樣性是遺傳（inherited），不需 RAG 重組；BCR/TCR 才是 somatic rearrangement。",
+  "topics": [
+   "MHC 構造與表現"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "basedOn": "k113-mid111-75"
+ },
+ {
+  "id": "new-057",
+  "source": "模擬新題",
+  "chapter": "mhc",
+  "type": "mcq",
+  "stem": "Peptides generated by the proteasome are transported into the ER by:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Calnexin"
+   },
+   {
+    "k": "B",
+    "t": "TAP-1/TAP-2 (ATP-dependent)"
+   },
+   {
+    "k": "C",
+    "t": "Invariant chain"
+   },
+   {
+    "k": "D",
+    "t": "HLA-DM"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "TAP 在 ER 膜，偏好 8–16 aa、C 端疏水 / 鹼性。",
+  "topics": [
+   "抗原處理與呈現（TAP）"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-tdev-04"
+ },
+ {
+  "id": "new-058",
+  "source": "模擬新題",
+  "chapter": "mhc",
+  "type": "mcq",
+  "stem": "The human MHC (HLA) genes are located on chromosome:",
+  "options": [
+   {
+    "k": "A",
+    "t": "6"
+   },
+   {
+    "k": "B",
+    "t": "17"
+   },
+   {
+    "k": "C",
+    "t": "14"
+   },
+   {
+    "k": "D",
+    "t": "2"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "人類 HLA 在第 6 號；小鼠 H-2 在第 17 號。",
+  "topics": [
+   "MHC 構造與表現"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-059",
+  "source": "模擬新題",
+  "chapter": "tcell-dev",
+  "type": "mcq",
+  "stem": "Positive selection of thymocytes mainly ensures:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Self-tolerance"
+   },
+   {
+    "k": "B",
+    "t": "MHC restriction"
+   },
+   {
+    "k": "C",
+    "t": "Class switching"
+   },
+   {
+    "k": "D",
+    "t": "Somatic hypermutation"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Positive selection → MHC restriction；negative selection → self-tolerance。",
+  "topics": [
+   "胸腺選擇"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-tdev-10"
+ },
+ {
+  "id": "new-060",
+  "source": "模擬新題",
+  "chapter": "tcell-dev",
+  "type": "mcq",
+  "stem": "Which statement about γδ T cells is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "They are not MHC-restricted"
+   },
+   {
+    "k": "B",
+    "t": "Most are CD4⁻CD8⁻ or CD8⁺"
+   },
+   {
+    "k": "C",
+    "t": "They are enriched in mucosal epithelia"
+   },
+   {
+    "k": "D",
+    "t": "They are derived from mature αβ T cells"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "γδ T 來自骨髓前驅細胞、在胸腺發育，不是 αβ 衍生。",
+  "topics": [
+   "TCR 與 γδ T 細胞"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "basedOn": "k113-mid111-73"
+ },
+ {
+  "id": "new-061",
+  "source": "模擬新題",
+  "chapter": "tcell-dev",
+  "type": "mcq",
+  "stem": "Negative selection in the thymus mainly occurs in which region and is mediated by which cells?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Cortex; cortical thymic epithelial cells"
+   },
+   {
+    "k": "B",
+    "t": "Medulla; mTECs and bone-marrow-derived dendritic cells"
+   },
+   {
+    "k": "C",
+    "t": "Subcapsular zone; B cells"
+   },
+   {
+    "k": "D",
+    "t": "Blood; neutrophils"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "cTECs → positive；mTECs、DC、macrophage → negative。",
+  "topics": [
+   "胸腺選擇"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-mid111-72"
+ },
+ {
+  "id": "new-062",
+  "source": "模擬新題",
+  "chapter": "tcell-dev",
+  "type": "mcq",
+  "stem": "If a naïve T cell receives signal 1 (TCR–pMHC) without signal 2 (CD28–B7), it becomes:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Fully activated"
+   },
+   {
+    "k": "B",
+    "t": "Anergic"
+   },
+   {
+    "k": "C",
+    "t": "A memory cell"
+   },
+   {
+    "k": "D",
+    "t": "A plasma cell"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "缺乏共刺激 → T cell anergy。",
+  "topics": [
+   "共刺激（CD28/B7/CTLA-4）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-063",
+  "source": "模擬新題",
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "TH 亞群與其主要分泌細胞激素的配對，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "TH1 – IFN-γ"
+   },
+   {
+    "k": "B",
+    "t": "TH2 – IL-4"
+   },
+   {
+    "k": "C",
+    "t": "TH17 – IL-17"
+   },
+   {
+    "k": "D",
+    "t": "Treg – IL-12"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Treg 分泌 TGF-β、IL-10；IL-12 由 APC 分泌、誘導 TH1。",
+  "topics": [
+   "TH 分化與細胞激素"
+  ],
+  "pattern": "配對題",
+  "basedOn": "k113-tact-07"
+ },
+ {
+  "id": "new-064",
+  "source": "模擬新題",
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "Which cytokine combination drives naïve CD4⁺ T cells toward TH17 differentiation?",
+  "options": [
+   {
+    "k": "A",
+    "t": "IL-12 + IFN-γ"
+   },
+   {
+    "k": "B",
+    "t": "IL-4 alone"
+   },
+   {
+    "k": "C",
+    "t": "TGF-β + IL-6"
+   },
+   {
+    "k": "D",
+    "t": "IL-10 + TGF-β"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "TGF-β + IL-6（IL-21、IL-23）→ TH17。",
+  "topics": [
+   "TH 分化與細胞激素"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-tact-41"
+ },
+ {
+  "id": "new-065",
+  "source": "模擬新題",
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "一名男童反覆細菌感染，血清 IgM 升高但 IgG、IgA、IgE 很低，CD4 T 細胞數量正常。最可能的缺陷分子是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "CD28"
+   },
+   {
+    "k": "B",
+    "t": "CD40 ligand"
+   },
+   {
+    "k": "C",
+    "t": "CTLA-4"
+   },
+   {
+    "k": "D",
+    "t": "MHC class I"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "X-linked hyper-IgM：CD40L 缺陷 → 無法 class switch。",
+  "topics": [
+   "B 細胞活化／class switch／生發中心"
+  ],
+  "pattern": "臨床情境題",
+  "basedOn": "k113-tact-14"
+ },
+ {
+  "id": "new-066",
+  "source": "模擬新題",
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "Class switch recombination and somatic hypermutation both require which enzyme?",
+  "options": [
+   {
+    "k": "A",
+    "t": "RAG1"
+   },
+   {
+    "k": "B",
+    "t": "TdT"
+   },
+   {
+    "k": "C",
+    "t": "AID (activation-induced cytidine deaminase)"
+   },
+   {
+    "k": "D",
+    "t": "Artemis"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "AID 將 C 脫胺成 U。",
+  "topics": [
+   "B 細胞活化／class switch／生發中心"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-067",
+  "source": "模擬新題",
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "Antibody responses to T-independent (TI-2) polysaccharide antigens are characterized by:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Strong memory and IgG dominance"
+   },
+   {
+    "k": "B",
+    "t": "Mainly IgM and little memory"
+   },
+   {
+    "k": "C",
+    "t": "Requirement for CD40–CD40L interaction"
+   },
+   {
+    "k": "D",
+    "t": "Presentation on MHC II to TFH cells"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "TI 抗原無法 class switch、無記憶，主要 IgM。",
+  "topics": [
+   "B 細胞活化／class switch／生發中心"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-tact-12"
+ },
+ {
+  "id": "new-068",
+  "source": "模擬新題",
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "Which cytokine is mainly secreted by T follicular helper (TFH) cells?",
+  "options": [
+   {
+    "k": "A",
+    "t": "IL-17"
+   },
+   {
+    "k": "B",
+    "t": "IL-21"
+   },
+   {
+    "k": "C",
+    "t": "IL-5"
+   },
+   {
+    "k": "D",
+    "t": "IFN-β"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "TFH → IL-21（→ STAT3，促 B 細胞增殖與 germinal center）。",
+  "topics": [
+   "TH 分化與細胞激素"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-mid111-48"
+ },
+ {
+  "id": "new-069",
+  "source": "模擬新題",
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "Granzymes delivered by CTLs induce apoptosis mainly through:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Activating caspases (e.g. caspase-3) and cleaving BID"
+   },
+   {
+    "k": "B",
+    "t": "Binding TLR4"
+   },
+   {
+    "k": "C",
+    "t": "Activating complement C1q"
+   },
+   {
+    "k": "D",
+    "t": "Blocking MHC I expression"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Granzyme B → BID → tBID（粒線體）、pro-caspase 3 → caspase 3 → CAD 切 DNA。",
+  "topics": [
+   "細胞毒殺（perforin/Fas）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-070",
+  "source": "模擬新題",
+  "chapter": "infection-immunity",
+  "type": "mcq",
+  "stem": "Chronic granulomatous disease (CGD) is most commonly caused by a mutation in:",
+  "options": [
+   {
+    "k": "A",
+    "t": "p47phox"
+   },
+   {
+    "k": "B",
+    "t": "gp91phox"
+   },
+   {
+    "k": "C",
+    "t": "Myeloperoxidase"
+   },
+   {
+    "k": "D",
+    "t": "TLR4"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "X-linked gp91 約 65%；p47 約 25%。",
+  "topics": [
+   "吞噬與 ROS／CGD"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-071",
+  "source": "模擬新題",
+  "chapter": "infection-immunity",
+  "type": "mcq",
+  "stem": "Patients with CGD are especially susceptible to infection by:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Catalase-negative streptococci"
+   },
+   {
+    "k": "B",
+    "t": "Catalase-positive organisms such as S. aureus"
+   },
+   {
+    "k": "C",
+    "t": "Enveloped viruses"
+   },
+   {
+    "k": "D",
+    "t": "Helminths"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Catalase⁺ 菌會分解自身產生的 H₂O₂，病人吞噬細胞又不能產 ROS。",
+  "topics": [
+   "吞噬與 ROS／CGD"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-072",
+  "source": "模擬新題",
+  "chapter": "infection-immunity",
+  "type": "mcq",
+  "stem": "Activation of the NLRP3 inflammasome leads to processing of pro-IL-1β by:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Caspase-3"
+   },
+   {
+    "k": "B",
+    "t": "Caspase-1"
+   },
+   {
+    "k": "C",
+    "t": "Granzyme B"
+   },
+   {
+    "k": "D",
+    "t": "Furin"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Inflammasome → caspase-1 → IL-1β、IL-18；caspase-1 媒介 pyroptosis。",
+  "topics": [
+   "Inflammasome／pyroptosis"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-073",
+  "source": "模擬新題",
+  "chapter": "infection-immunity",
+  "type": "mcq",
+  "stem": "Which TLR signals independently of MyD88 (via TRIF) to induce type I interferon against RNA viruses?",
+  "options": [
+   {
+    "k": "A",
+    "t": "TLR2"
+   },
+   {
+    "k": "B",
+    "t": "TLR3"
+   },
+   {
+    "k": "C",
+    "t": "TLR5"
+   },
+   {
+    "k": "D",
+    "t": "TLR9"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "TLR3 不經 MyD88。",
+  "topics": [
+   "TLR／PRR"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-074",
+  "source": "模擬新題",
+  "chapter": "infection-immunity",
+  "type": "mcq",
+  "stem": "Antimicrobial peptides such as defensins kill bacteria mainly because they are:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Negatively charged and bind host cells"
+   },
+   {
+    "k": "B",
+    "t": "Positively charged and disrupt negatively charged bacterial membranes"
+   },
+   {
+    "k": "C",
+    "t": "Enzymes that degrade peptidoglycan"
+   },
+   {
+    "k": "D",
+    "t": "Antibodies"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "AMPs 富含 Arg、Lys → 帶正電。",
+  "topics": [
+   "抗微生物肽 AMPs"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-075",
+  "source": "模擬新題",
+  "chapter": "staph-strep",
+  "type": "mcq",
+  "stem": "A 70-year-old man has lobar pneumonia. Sputum shows Gram-positive lancet-shaped diplococci, α-hemolytic, catalase-negative, optochin-sensitive and bile-soluble. The most important virulence factor is:",
+  "options": [
+   {
+    "k": "A",
+    "t": "M protein"
+   },
+   {
+    "k": "B",
+    "t": "Polysaccharide capsule"
+   },
+   {
+    "k": "C",
+    "t": "Coagulase"
+   },
+   {
+    "k": "D",
+    "t": "TSST-1"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "S. pneumoniae：capsule 抗吞噬、疫苗成分。",
+  "topics": [
+   "S. pneumoniae"
+  ],
+  "pattern": "臨床情境題",
+  "basedOn": "k113-staph2-18"
+ },
+ {
+  "id": "new-076",
+  "source": "模擬新題",
+  "chapter": "staph-strep",
+  "type": "mcq",
+  "stem": "一名新生兒出生一週內發生敗血症與腦膜炎，培養出 catalase(−)、β 溶血、CAMP test(+) 的 G(+) 球菌，最可能是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Streptococcus pyogenes"
+   },
+   {
+    "k": "B",
+    "t": "Streptococcus agalactiae"
+   },
+   {
+    "k": "C",
+    "t": "Enterococcus faecalis"
+   },
+   {
+    "k": "D",
+    "t": "Staphylococcus aureus"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "GBS：新生兒腦膜炎、CAMP(+)。",
+  "topics": [
+   "S. agalactiae (GBS)"
+  ],
+  "pattern": "臨床情境題",
+  "basedOn": "k113-staph1-05"
+ },
+ {
+  "id": "new-077",
+  "source": "模擬新題",
+  "chapter": "staph-strep",
+  "type": "mcq",
+  "stem": "Which of the following is NOT produced by Staphylococcus aureus?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Protein A"
+   },
+   {
+    "k": "B",
+    "t": "Coagulase"
+   },
+   {
+    "k": "C",
+    "t": "Exfoliative toxin"
+   },
+   {
+    "k": "D",
+    "t": "Streptolysin O"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Streptolysin O 是 S. pyogenes。",
+  "topics": [
+   "S. aureus"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "basedOn": "k113-staph2-13"
+ },
+ {
+  "id": "new-078",
+  "source": "模擬新題",
+  "chapter": "staph-strep",
+  "type": "mcq",
+  "stem": "A child develops acute glomerulonephritis 2–3 weeks after a streptococcal skin infection. This complication is best described as:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Suppurative, caused by direct invasion"
+   },
+   {
+    "k": "B",
+    "t": "Non-suppurative, immune-complex mediated"
+   },
+   {
+    "k": "C",
+    "t": "Toxin-mediated superantigen disease"
+   },
+   {
+    "k": "D",
+    "t": "Caused by Streptococcus agalactiae"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "PSGN 為非化膿性後遺症（免疫複合體）。",
+  "topics": [
+   "S. pyogenes (GAS)"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-staph2-11"
+ },
+ {
+  "id": "new-079",
+  "source": "模擬新題",
+  "chapter": "staph-strep",
+  "type": "mcq",
+  "stem": "A catheterized elderly inpatient develops UTI. The isolate is catalase-negative, Gram-positive cocci that grow in 6.5% NaCl and bile-esculin, and is resistant to vancomycin. The organism is most likely:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Viridans streptococci"
+   },
+   {
+    "k": "B",
+    "t": "Enterococcus faecium"
+   },
+   {
+    "k": "C",
+    "t": "Streptococcus pyogenes"
+   },
+   {
+    "k": "D",
+    "t": "Staphylococcus epidermidis"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Enterococcus：耐鹽膽、院內 UTI、VRE。",
+  "topics": [
+   "Enterococcus／Viridans"
+  ],
+  "pattern": "臨床情境題",
+  "basedOn": "k113-staph2-02"
+ },
+ {
+  "id": "new-080",
+  "source": "模擬新題",
+  "chapter": "staph-strep",
+  "type": "mcq",
+  "stem": "Staphylococcal food poisoning with vomiting 2–6 hours after a meal is caused by:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Ingestion of a preformed heat-stable enterotoxin"
+   },
+   {
+    "k": "B",
+    "t": "Invasion of the intestinal mucosa"
+   },
+   {
+    "k": "C",
+    "t": "Endotoxin release"
+   },
+   {
+    "k": "D",
+    "t": "Colonization followed by TSST-1 production"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "吃到預先形成、耐熱的 enterotoxin（superantigen）。",
+  "topics": [
+   "S. aureus"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-staph2-05"
+ },
+ {
+  "id": "new-081",
+  "source": "模擬新題",
+  "chapter": "staph-strep",
+  "type": "mcq",
+  "stem": "疾病與病原的配對，何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Scalded skin syndrome – S. pyogenes"
+   },
+   {
+    "k": "B",
+    "t": "Scarlet fever – S. pyogenes"
+   },
+   {
+    "k": "C",
+    "t": "Rheumatic fever – S. aureus"
+   },
+   {
+    "k": "D",
+    "t": "Subacute endocarditis – S. agalactiae"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "SSSS → S. aureus；Rheumatic fever → GAS；Subacute endocarditis → Viridans。",
+  "topics": [
+   "S. pyogenes (GAS)",
+   "S. aureus"
+  ],
+  "pattern": "配對題",
+  "basedOn": "k113-staph2-14"
+ },
+ {
+  "id": "new-082",
+  "source": "模擬新題",
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "E. coli 致病型與特徵的配對，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "ETEC – 旅行者腹瀉、LT 與 ST"
+   },
+   {
+    "k": "B",
+    "t": "EHEC – Shiga toxin、HUS"
+   },
+   {
+    "k": "C",
+    "t": "EPEC – Shiga toxin、血便"
+   },
+   {
+    "k": "D",
+    "t": "UPEC – P pili、泌尿道感染"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "EPEC 沒有 Shiga toxin（與 EHEC 差在這裡）。",
+  "topics": [
+   "E. coli 致病型"
+  ],
+  "pattern": "配對題",
+  "basedOn": "k113-entero-03"
+ },
+ {
+  "id": "new-083",
+  "source": "模擬新題",
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "一群幼兒園學童出現發燒、腹痛、少量帶血黏液便與裡急後重。糞便培養出不發酵乳糖、無運動性、不產 H₂S 的 G(−) 桿菌，最可能是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Salmonella enteritidis"
+   },
+   {
+    "k": "B",
+    "t": "Shigella sonnei"
+   },
+   {
+    "k": "C",
+    "t": "Escherichia coli (ETEC)"
+   },
+   {
+    "k": "D",
+    "t": "Proteus mirabilis"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Shigella：乳糖(−)、無運動、H₂S(−)、低感染劑量、人傳人。",
+  "topics": [
+   "Shigella"
+  ],
+  "pattern": "臨床情境題",
+  "basedOn": "k113-entero-13"
+ },
+ {
+  "id": "new-084",
+  "source": "模擬新題",
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "Which statement about Salmonella is INCORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "It has peritrichous flagella"
+   },
+   {
+    "k": "B",
+    "t": "S. Typhi carriers often harbor the organism in the gallbladder"
+   },
+   {
+    "k": "C",
+    "t": "Fewer than 100 organisms are usually sufficient to cause gastroenteritis"
+   },
+   {
+    "k": "D",
+    "t": "It can survive within macrophages and spread systemically"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Salmonella 需約 10⁵ CFU；<100 CFU 是 Shigella。",
+  "topics": [
+   "Salmonella"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "basedOn": "k113-entero-01"
+ },
+ {
+  "id": "new-085",
+  "source": "模擬新題",
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "Shiga toxin inhibits protein synthesis by:",
+  "options": [
+   {
+    "k": "A",
+    "t": "ADP-ribosylating EF-2"
+   },
+   {
+    "k": "B",
+    "t": "Cleaving an adenine in 28S rRNA of the 60S ribosomal subunit"
+   },
+   {
+    "k": "C",
+    "t": "Increasing cAMP"
+   },
+   {
+    "k": "D",
+    "t": "Increasing cGMP"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Shiga / Shiga-like toxin 作用在 60S；EF-2 是白喉毒素與 Pseudomonas exotoxin A。",
+  "topics": [
+   "E. coli 致病型"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-mid111-31"
+ },
+ {
+  "id": "new-086",
+  "source": "模擬新題",
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "Which organism can grow at 4°C and is associated with pseudoappendicitis?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Yersinia enterocolitica"
+   },
+   {
+    "k": "B",
+    "t": "Yersinia pestis"
+   },
+   {
+    "k": "C",
+    "t": "Shigella dysenteriae"
+   },
+   {
+    "k": "D",
+    "t": "Klebsiella pneumoniae"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Y. enterocolitica：cold enrichment、假性闌尾炎、reactive arthritis。",
+  "topics": [
+   "Yersinia／plague"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-087",
+  "source": "模擬新題",
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "All members of Enterobacteriaceae share the following EXCEPT:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Glucose fermentation"
+   },
+   {
+    "k": "B",
+    "t": "Oxidase negative"
+   },
+   {
+    "k": "C",
+    "t": "Gram-negative rods"
+   },
+   {
+    "k": "D",
+    "t": "Lactose fermentation"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "乳糖發酵用來區分（E. coli、Klebsiella +；Salmonella、Shigella −）。",
+  "topics": [
+   "細胞壁／革蘭氏染色"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "basedOn": "k113-entero-20"
+ },
+ {
+  "id": "new-088",
+  "source": "模擬新題",
+  "chapter": "bacillus",
+  "type": "mcq",
+  "stem": "Regarding Bacillus anthracis, which statement is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Its capsule is composed of poly-D-glutamic acid"
+   },
+   {
+    "k": "B",
+    "t": "Edema toxin = protective antigen + edema factor"
+   },
+   {
+    "k": "C",
+    "t": "It is highly motile due to peritrichous flagella"
+   },
+   {
+    "k": "D",
+    "t": "Cutaneous anthrax is the most common form"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "B. anthracis 不動（無鞭毛）；B. cereus 會動。",
+  "topics": [
+   "Bacillus anthracis"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "basedOn": "k113-bacillus-01"
+ },
+ {
+  "id": "new-089",
+  "source": "模擬新題",
+  "chapter": "bacillus",
+  "type": "mcq",
+  "stem": "一家人在餐廳吃完炒飯約 2 小時後出現噁心、嘔吐。最可能的致病菌與毒素性質為？",
+  "options": [
+   {
+    "k": "A",
+    "t": "B. cereus，heat-stable emetic toxin"
+   },
+   {
+    "k": "B",
+    "t": "B. cereus，heat-labile diarrheal toxin"
+   },
+   {
+    "k": "C",
+    "t": "S. aureus，TSST-1"
+   },
+   {
+    "k": "D",
+    "t": "Clostridium perfringens，α-toxin"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "米飯、<6 小時、嘔吐 → emetic form，耐熱、耐蛋白酶。",
+  "topics": [
+   "Bacillus cereus"
+  ],
+  "pattern": "臨床情境題",
+  "basedOn": "k113-bacillus-11"
+ },
+ {
+  "id": "new-090",
+  "source": "模擬新題",
+  "chapter": "bacillus",
+  "type": "mcq",
+  "stem": "Which Listeria virulence factor induces host actin polymerization for intracellular movement?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Internalin A"
+   },
+   {
+    "k": "B",
+    "t": "Listeriolysin O"
+   },
+   {
+    "k": "C",
+    "t": "ActA"
+   },
+   {
+    "k": "D",
+    "t": "Protein A"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "InlA/B 入侵、LLO 溶解液泡、ActA 聚合 actin。",
+  "topics": [
+   "Listeria"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-bacillus-10"
+ },
+ {
+  "id": "new-091",
+  "source": "模擬新題",
+  "chapter": "bacillus",
+  "type": "mcq",
+  "stem": "A 6-year-old unvaccinated child has sore throat and a gray pseudomembrane over the tonsils. The toxin responsible acts by:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Cleaving 60S rRNA"
+   },
+   {
+    "k": "B",
+    "t": "ADP-ribosylating elongation factor-2"
+   },
+   {
+    "k": "C",
+    "t": "Increasing cAMP"
+   },
+   {
+    "k": "D",
+    "t": "Blocking acetylcholine release"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Diphtheria toxin → EF-2 ADP-ribosylation。",
+  "topics": [
+   "C. diphtheriae"
+  ],
+  "pattern": "臨床情境題",
+  "basedOn": "k113-bacillus-07"
+ },
+ {
+  "id": "new-092",
+  "source": "模擬新題",
+  "chapter": "bacillus",
+  "type": "mcq",
+  "stem": "Which statement about Listeria monocytogenes is INCORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "It shows tumbling motility at 20–25°C"
+   },
+   {
+    "k": "B",
+    "t": "It can cross the placenta"
+   },
+   {
+    "k": "C",
+    "t": "Humoral immunity is the main defense"
+   },
+   {
+    "k": "D",
+    "t": "It grows at refrigerator temperature"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "胞內菌 → 細胞免疫為主。",
+  "topics": [
+   "Listeria"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "basedOn": "k113-bacillus-18"
+ },
+ {
+  "id": "new-093",
+  "source": "模擬新題",
+  "chapter": "bacillus",
+  "type": "mcq",
+  "stem": "The Elek test is used to detect:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Antibody against diphtheria toxin in the patient"
+   },
+   {
+    "k": "B",
+    "t": "Toxin production by an isolate (toxigenicity)"
+   },
+   {
+    "k": "C",
+    "t": "Listeria in food"
+   },
+   {
+    "k": "D",
+    "t": "Anthrax spores"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Elek test（immunodiffusion）判斷菌株是否產毒；Schick test 才測體內抗體。",
+  "topics": [
+   "C. diphtheriae"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-bacillus-12"
+ },
+ {
+  "id": "new-094",
+  "source": "模擬新題",
+  "chapter": "neisseria",
+  "type": "mcq",
+  "stem": "Which statement about Helicobacter pylori is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "It is urease-positive"
+   },
+   {
+    "k": "B",
+    "t": "VacA and CagA are virulence factors"
+   },
+   {
+    "k": "C",
+    "t": "It is a zoonotic pathogen acquired from poultry"
+   },
+   {
+    "k": "D",
+    "t": "It is associated with gastric adenocarcinoma"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "H. pylori 人為唯一宿主；家禽相關的是 Campylobacter jejuni。",
+  "topics": [
+   "H. pylori／Campylobacter"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "basedOn": "k113-neis-17"
+ },
+ {
+  "id": "new-095",
+  "source": "模擬新題",
+  "chapter": "neisseria",
+  "type": "mcq",
+  "stem": "The main component of the Neisseria meningitidis vaccine is:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Pili"
+   },
+   {
+    "k": "B",
+    "t": "Lipooligosaccharide"
+   },
+   {
+    "k": "C",
+    "t": "Polysaccharide capsule"
+   },
+   {
+    "k": "D",
+    "t": "Opa protein"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "莢膜多醣疫苗（conjugate）。",
+  "topics": [
+   "Neisseria"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-neis-09"
+ },
+ {
+  "id": "new-096",
+  "source": "模擬新題",
+  "chapter": "neisseria",
+  "type": "mcq",
+  "stem": "Which statement about Pseudomonas aeruginosa is INCORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "It produces pyocyanin"
+   },
+   {
+    "k": "B",
+    "t": "Exotoxin A inhibits EF-2"
+   },
+   {
+    "k": "C",
+    "t": "It commonly infects burn wounds and cystic fibrosis lungs"
+   },
+   {
+    "k": "D",
+    "t": "It forms endospores that resist disinfectants"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Pseudomonas 不產孢子；對消毒劑的抗性來自外膜與 biofilm。",
+  "topics": [
+   "Pseudomonas"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "basedOn": "k113-neis-12"
+ },
+ {
+  "id": "new-097",
+  "source": "模擬新題",
+  "chapter": "neisseria",
+  "type": "mcq",
+  "stem": "一名肝硬化病人生食生蠔後 24 小時內出現高燒、下肢出血性水泡與敗血性休克，最可能的病原是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Vibrio parahaemolyticus"
+   },
+   {
+    "k": "B",
+    "t": "Vibrio vulnificus"
+   },
+   {
+    "k": "C",
+    "t": "Vibrio cholerae O1"
+   },
+   {
+    "k": "D",
+    "t": "Helicobacter pylori"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "V. vulnificus：肝病高危、原發性敗血症。",
+  "topics": [
+   "Vibrio"
+  ],
+  "pattern": "臨床情境題",
+  "basedOn": "k113-mid111-36"
+ },
+ {
+  "id": "new-098",
+  "source": "模擬新題",
+  "chapter": "neisseria",
+  "type": "mcq",
+  "stem": "Guillain-Barré syndrome is a well-known complication of infection with:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Campylobacter jejuni"
+   },
+   {
+    "k": "B",
+    "t": "Helicobacter pylori"
+   },
+   {
+    "k": "C",
+    "t": "Neisseria gonorrhoeae"
+   },
+   {
+    "k": "D",
+    "t": "Vibrio cholerae"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "C. jejuni O:19 molecular mimicry。",
+  "topics": [
+   "H. pylori／Campylobacter"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-neis-17"
+ },
+ {
+  "id": "new-099",
+  "source": "模擬新題",
+  "chapter": "neisseria",
+  "type": "mcq",
+  "stem": "Which is NOT a virulence factor of Neisseria gonorrhoeae?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Pili"
+   },
+   {
+    "k": "B",
+    "t": "Opa (protein II)"
+   },
+   {
+    "k": "C",
+    "t": "IgA1 protease"
+   },
+   {
+    "k": "D",
+    "t": "Flagella"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Neisseria 無鞭毛。",
+  "topics": [
+   "Neisseria"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "basedOn": "k113-neis-10"
+ },
+ {
+  "id": "new-100",
+  "source": "模擬新題",
+  "chapter": "fungi",
+  "type": "mcq",
+  "stem": "Which antifungal drug acts by inhibiting β-1,3-glucan synthesis in the fungal cell wall?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Amphotericin B"
+   },
+   {
+    "k": "B",
+    "t": "Fluconazole"
+   },
+   {
+    "k": "C",
+    "t": "Caspofungin"
+   },
+   {
+    "k": "D",
+    "t": "Terbinafine"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Echinocandins → glucan；azole → 14-α-demethylase；terbinafine → squalene epoxidase；amphotericin → ergosterol 打孔。",
+  "topics": [
+   "抗真菌藥物"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-mid111-43"
+ },
+ {
+  "id": "new-101",
+  "source": "模擬新題",
+  "chapter": "fungi",
+  "type": "mcq",
+  "stem": "一名園丁被玫瑰刺傷手指數週後，沿前臂出現一連串結節與潰瘍。培養在 25°C 為有隔菌絲、分生孢子呈玫瑰花飾排列，37°C 為酵母菌。最可能為？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Cryptococcus neoformans"
+   },
+   {
+    "k": "B",
+    "t": "Sporothrix schenckii"
+   },
+   {
+    "k": "C",
+    "t": "Candida albicans"
+   },
+   {
+    "k": "D",
+    "t": "Aspergillus fumigatus"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Lymphocutaneous sporotrichosis，溫度雙型性。",
+  "topics": [
+   "皮膚／皮下／系統性黴菌"
+  ],
+  "pattern": "臨床情境題",
+  "basedOn": "k113-fungi-38"
+ },
+ {
+  "id": "new-102",
+  "source": "模擬新題",
+  "chapter": "fungi",
+  "type": "mcq",
+  "stem": "Which statement about Cryptococcus neoformans is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "It has a thick polysaccharide capsule"
+   },
+   {
+    "k": "B",
+    "t": "It is found in pigeon droppings"
+   },
+   {
+    "k": "C",
+    "t": "It usually enters via the gastrointestinal tract"
+   },
+   {
+    "k": "D",
+    "t": "India ink staining is used for CSF examination"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "經呼吸道吸入 → 肺 → 腦膜炎。",
+  "topics": [
+   "Cryptococcus／Candida"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "basedOn": "k113-fungi-45"
+ },
+ {
+  "id": "new-103",
+  "source": "模擬新題",
+  "chapter": "fungi",
+  "type": "mcq",
+  "stem": "A fungus with coenocytic (aseptate) hyphae that produces sporangiospores belongs to:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Ascomycota"
+   },
+   {
+    "k": "B",
+    "t": "Basidiomycota"
+   },
+   {
+    "k": "C",
+    "t": "Zygomycota"
+   },
+   {
+    "k": "D",
+    "t": "Deuteromycota"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Zygomycota：無隔菌絲、孢子囊孢子、接合孢子。",
+  "topics": [
+   "真菌構造與分類"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-fungi-35"
+ },
+ {
+  "id": "new-104",
+  "source": "模擬新題",
+  "chapter": "fungi",
+  "type": "mcq",
+  "stem": "Which of the following is NOT a general characteristic of fungi?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Eukaryotic"
+   },
+   {
+    "k": "B",
+    "t": "Cell membrane contains ergosterol"
+   },
+   {
+    "k": "C",
+    "t": "Cell wall contains chitin and β-glucan"
+   },
+   {
+    "k": "D",
+    "t": "Optimal growth at pH 7.5–8"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "真菌偏好酸性 pH 4–6。",
+  "topics": [
+   "真菌構造與分類"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "basedOn": "k113-fungi-46"
+ },
+ {
+  "id": "new-105",
+  "source": "模擬新題",
+  "chapter": "fungi",
+  "type": "mcq",
+  "stem": "Candida albicans can be distinguished from other Candida species by producing germ tubes in:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Sabouraud agar"
+   },
+   {
+    "k": "B",
+    "t": "Serum"
+   },
+   {
+    "k": "C",
+    "t": "Tween-80 agar"
+   },
+   {
+    "k": "D",
+    "t": "Blood agar at 25°C"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Germ tube test 以血清培養。",
+  "topics": [
+   "Cryptococcus／Candida"
+  ],
+  "pattern": "選正確／單一概念題",
+  "basedOn": "k113-fungi-25"
+ }
+]

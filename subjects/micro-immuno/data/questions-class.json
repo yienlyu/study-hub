@@ -1,0 +1,499 @@
+[
+ {
+  "id": "class-001",
+  "source": "2026 課堂題",
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "白血球黏附於血管內皮上的三步驟（three-step model of leukocyte adhesion）所使用到的包括有：(a) chemokine (b) integrin (c) selectin，請按照白血球表現使用順序排列。",
+  "options": [
+   {
+    "k": "A",
+    "t": "c, b, a"
+   },
+   {
+    "k": "B",
+    "t": "b, c, a"
+   },
+   {
+    "k": "C",
+    "t": "c, a, b"
+   },
+   {
+    "k": "D",
+    "t": "a, c, b"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Tethering（selectin）→ Triggering（chemokine）→ Latching（integrin）。",
+  "topics": [
+   "白血球遷移（selectin→chemokine→integrin）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-002",
+  "source": "2026 課堂題",
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "下列何種產物具有調理作用（opsonization），可增強巨噬細胞、嗜中性球的吞噬作用？",
+  "options": [
+   {
+    "k": "A",
+    "t": "C3b"
+   },
+   {
+    "k": "B",
+    "t": "C5a"
+   },
+   {
+    "k": "C",
+    "t": "C5b"
+   },
+   {
+    "k": "D",
+    "t": "C4a"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "C3b（與 C4b）沉積在病原表面，被吞噬細胞的 complement receptor 辨識。C5a 為趨化；C5b 參與 MAC。",
+  "topics": [
+   "補體系統",
+   "調理作用／opsonic receptor"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-003",
+  "source": "2026 課堂題",
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "下列何者為補體（complement）的三種活化路徑之最初會合點？",
+  "options": [
+   {
+    "k": "A",
+    "t": "C1qC1rC1s complex"
+   },
+   {
+    "k": "B",
+    "t": "C4b"
+   },
+   {
+    "k": "C",
+    "t": "C3 convertase"
+   },
+   {
+    "k": "D",
+    "t": "C5 convertase"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "三路徑第一會合點為 C3 convertase（C4b2a 或 C3bBb），第二會合點為 C5 convertase。",
+  "topics": [
+   "補體系統"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-004",
+  "source": "2026 課堂題",
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "當補體系統啟動階梯式活化過程中會形成 membrane attack complex（MAC），請問 MAC 由哪些補體組成？",
+  "options": [
+   {
+    "k": "A",
+    "t": "C3a, C6, C7, C8, C9"
+   },
+   {
+    "k": "B",
+    "t": "C3b, C6, C7, C8, C9"
+   },
+   {
+    "k": "C",
+    "t": "C5b, C6, C7, C8, C9"
+   },
+   {
+    "k": "D",
+    "t": "C5a, C6, C7, C8, C9"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "MAC = C5b + C6 + C7 + C8 + 多個 C9。",
+  "topics": [
+   "補體系統"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-005",
+  "source": "2026 課堂題",
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "下列有關補體凝集路徑（lectin pathway）中的關鍵分子 mannan-binding lectin（MBL）的描述何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "可和細菌表面醣蛋白上的 mannose 結合"
+   },
+   {
+    "k": "B",
+    "t": "可與 MASP-1、MASP-2 以及 MASP-3 結合"
+   },
+   {
+    "k": "C",
+    "t": "其功能在補體系統中和 C1q 分子相似"
+   },
+   {
+    "k": "D",
+    "t": "其所參與的凝集路徑和替代路徑的作用機制較相似，與典型途徑較不同"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "MBL ≈ C1q，lectin pathway 與 classical pathway 相似（都產生 C4b2a）。",
+  "topics": [
+   "補體系統"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-006",
+  "source": "2026 課堂題",
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "偵測細菌 LPS 的主要受器為下列何者？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Toll-like receptor 9"
+   },
+   {
+    "k": "B",
+    "t": "Toll-like receptor 8"
+   },
+   {
+    "k": "C",
+    "t": "Toll-like receptor 6"
+   },
+   {
+    "k": "D",
+    "t": "Toll-like receptor 4"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "LPS → LBP → CD14 → TLR4。",
+  "topics": [
+   "TLR／PRR"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-007",
+  "source": "2026 課堂題",
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "下列哪個是屬於 NK 細胞上的抑制性接受體（inhibitory receptor）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "CD14"
+   },
+   {
+    "k": "B",
+    "t": "KIR-3D (short)"
+   },
+   {
+    "k": "C",
+    "t": "CD94/NKG2A"
+   },
+   {
+    "k": "D",
+    "t": "HLA-E"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "CD94/NKG2A（含 ITIM）辨識 HLA-E；KIR 需為 long tail 才有 ITIM；HLA-E 是 ligand。",
+  "topics": [
+   "NK 細胞與抑制性受體"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-008",
+  "source": "2026 課堂題",
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "對於先天性淋巴細胞（innate lymphoid cell）特性的敘述，下列何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "先天性淋巴細胞表面不表現專一性抗原接受器，其活化並非由辨識特定抗原誘發"
+   },
+   {
+    "k": "B",
+    "t": "自然殺手細胞屬於先天性淋巴細胞的成員"
+   },
+   {
+    "k": "C",
+    "t": "ILC1 可分泌 IFN-γ 來對抗病毒或胞外細菌"
+   },
+   {
+    "k": "D",
+    "t": "ILC2 可分泌 IL-4、IL-5、IL-13，可參與氣喘疾病的產生"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "ILC1 分泌 IFN-γ 對抗病毒與「胞內」病原；胞外細菌是 ILC3。",
+  "topics": [
+   "ILC 先天性淋巴細胞"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-009",
+  "source": "2026 課堂題",
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "可作為活化 B 淋巴細胞的抗原，其特性不包括下列哪一項？",
+  "options": [
+   {
+    "k": "A",
+    "t": "抗原上的 epitope 多為親水性"
+   },
+   {
+    "k": "B",
+    "t": "需有 MHC 分子參與和抗原以及 B 細胞上的受體結合"
+   },
+   {
+    "k": "C",
+    "t": "抗原上作為 B 細胞辨識的 peptides，其序列可為不連續的胺基酸序列"
+   },
+   {
+    "k": "D",
+    "t": "抗原可以是 protein、polysaccharide 或 lipid"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "BCR 直接辨識抗原，不需 MHC；TCR 才需要 MHC。",
+  "topics": [
+   "抗原／epitope"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-010",
+  "source": "2026 課堂題",
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "B 淋巴細胞的抗體基因進行可變區（variable region）重組，此過程發生於下列哪一器官？",
+  "options": [
+   {
+    "k": "A",
+    "t": "胸腺"
+   },
+   {
+    "k": "B",
+    "t": "骨髓"
+   },
+   {
+    "k": "C",
+    "t": "脾臟"
+   },
+   {
+    "k": "D",
+    "t": "腸道淋巴組織"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "B 細胞在骨髓發育並完成 V(D)J 重組。",
+  "topics": [
+   "抗體多樣性（VDJ/SHM）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-011",
+  "source": "2026 課堂題",
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "腸胃道中含有大量 IgA，在黏膜免疫反應中可有效阻斷病原菌入侵，相關敘述何者最正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "血清與腸胃道中 2 種 IgA 亞型的抗體比例一致"
+   },
+   {
+    "k": "B",
+    "t": "細胞激素 IL-12 可以促進 B 細胞分泌 IgA"
+   },
+   {
+    "k": "C",
+    "t": "分泌型 IgA 上的分泌片段（secretory component）是由上皮細胞合成的"
+   },
+   {
+    "k": "D",
+    "t": "病原菌抗原結合 IgA，可以有效啟動補體古典活化路徑"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(A) 血清 IgA1:IgA2 ≈ 10:1，腸道 IgA2 比例高；(B) TGF-β 促進 IgA class switch；(D) 古典路徑由 IgG、IgM 啟動。",
+  "topics": [
+   "抗體類別與功能",
+   "抗體結構"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-012",
+  "source": "2026 課堂題",
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "下列哪一項為免疫球蛋白基因重組（gene rearrangement）的起始步驟？",
+  "options": [
+   {
+    "k": "A",
+    "t": "重鏈之 V、J 剪接"
+   },
+   {
+    "k": "B",
+    "t": "重鏈之 V、D 剪接"
+   },
+   {
+    "k": "C",
+    "t": "重鏈之 D、J 剪接"
+   },
+   {
+    "k": "D",
+    "t": "輕鏈之 V、J 剪接"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "重鏈先 D-J joining，再 V-DJ joining；輕鏈之後才重組。",
+  "topics": [
+   "抗體多樣性（VDJ/SHM）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-013",
+  "source": "2026 課堂題",
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "V(D)J 重組過程有許多蛋白參與，下列有關這些蛋白和其功能的敘述何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "RAG-1 和 RAG-2：辨識 recombination signal sequences（RSS）之後產生 DNA 斷裂"
+   },
+   {
+    "k": "B",
+    "t": "DNA ligase IV：連結 DNA 的斷裂點"
+   },
+   {
+    "k": "C",
+    "t": "Artemis：具有 nuclease activity，可以打開 DNA hairpin 結構，產生 P-nucleotide"
+   },
+   {
+    "k": "D",
+    "t": "TdT：可以標記 DNA 的斷裂點或異常的結構"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "TdT 以不需模板的方式隨機加入 N-nucleotides，不是標記斷點。",
+  "topics": [
+   "抗體多樣性（VDJ/SHM）"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-014",
+  "source": "2026 課堂題",
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "下列何種細胞的抗原接受器會進行體細胞高度突變（somatic hypermutation）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "T 細胞"
+   },
+   {
+    "k": "B",
+    "t": "B 細胞"
+   },
+   {
+    "k": "C",
+    "t": "巨噬細胞"
+   },
+   {
+    "k": "D",
+    "t": "自然殺手細胞"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "只有 B 細胞在 germinal center 進行 SHM → affinity maturation。",
+  "topics": [
+   "抗體多樣性（VDJ/SHM）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-015",
+  "source": "2026 課堂題",
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "造成抗體多變性的機制（the mechanism of Ab diversity）不包括下列哪一項？",
+  "options": [
+   {
+    "k": "A",
+    "t": "junctional diversity"
+   },
+   {
+    "k": "B",
+    "t": "assorted heavy and light chains"
+   },
+   {
+    "k": "C",
+    "t": "V(D)J recombination"
+   },
+   {
+    "k": "D",
+    "t": "gene cross-over"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "六大機制：multiple germline V genes、V(D)J recombination、assorted H/L chains、gene conversion、junctional diversity、somatic point mutation。",
+  "topics": [
+   "抗體多樣性（VDJ/SHM）"
+  ],
+  "pattern": "選錯誤（否定）題"
+ }
+]

@@ -1,0 +1,15 @@
+{
+  "id": "your-subject-id",
+  "title": "科目名稱",
+  "short": "簡稱",
+  "term": "學期 / 考試",
+  "description": "一句話介紹",
+  "icon": "📘",
+  "questionFiles": ["data/questions.json"],
+  "groups": [
+    {"title": "第一部分", "chapters": ["ch1"]}
+  ],
+  "chapters": [
+    {"id": "ch1", "title": "第一章", "en": "Chapter 1", "teacher": "老師", "week": "W1", "slides": true}
+  ]
+}

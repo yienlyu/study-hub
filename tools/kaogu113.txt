@@ -1,0 +1,4350 @@
+Bacterial Structure, Classification, Genetics 
+and Metabolism
+微免考古小隊：蔡昌恩、劉宜瑄、鄭向晴、楊凱淇、吳昕妤 學藝：陳冠宇
+1.Which of the following is true for the contribution of Robert Koch?
+(A) Discover a new type of living organisms.
+(B) Establish the method of food preservation.
+(C) Prove microorganisms causing diseases.
+(D) Classify microorganisms by simple staining.
+2.Which of the following description of microbiota in the human body is FALSE?
+(A) Microbes vary in species at different sites in the same individual.
+(B) The compositions of microbes at the same site among individuals are variable.
+(C) Some chronic diseases may cause by dysbiosis of gut microbiology.
+(D) In microbiomes associated with human, the taxonomic diversity is great, also the functional properties
+are diversity.
+(E) Microbiota not only occupy spaces to prevent possible pathogens invasion but also produce some
+metabolites with its host.
+3.An increase in antibiotic resistance has been observed in Klebsiella pseudomonas, and E. coli strains
+isolated from patients in medical centers. Direct transfer of a plasmid between two bacteria is defined as
+which of the following and which of structure forms during process?
+(A) Competence/fimbriae
+(B) Conjugation/sex pili
+(C) Recombination/slime layer
+(D) Transduction/nanotube
+(E) Transformation/special transport channel
+4.Which of the following pairs between a bacterial structure and its functions is FALSE?
+(A) Cell membrane－Nutrient or waste transport
+(B) Flagella－Movement
+(C) Fimbriae－Adhesion to host cells
+(D) Inclusion body－Protein synthesis
+(E) Cell wall－Maintain bacterial shape
+5.Short answer questions
+A growth curve of bacteria culture is shown as following. Please SELECT and WRITE the phase which
+can be used to calculate the generation time of this.
+
+6.Which theory can prove the relationship between microorganisms and diseases?
+(A) Germ theory
+(B) Spontaneous generation theory
+(C) Koch’s postulate
+(D) Semmelweis theory
+7.Which of the following structures is present in prokaryotic cells?
+a. 70S Ribosomes b. Nuclear membrane c. Cell wall
+d. Diploid chromosomes
+(A) a＋b＋d
+e. Plasmids
+(B) a＋c＋e (C) a＋d＋f
+f. Mitochondria
+(D) b＋d＋f
+8.Which of the following structures mainly functions on adhesion to host cells?
+(A) Flagella (B) Fimbriae (C) Capsule (D) Peptidoglycan
+9.The major mechanism and location to produce ATP during glucose metabolism in bacteria are
+(A) oxidative phosphorylation, nucleoid
+(B) substrate level phosphorylation, cytoplasm
+(C) Phosphorylation
+(D) oxidative phosphorylation, cell membrane
+10. The coding region of a gene is 102 nucleotides long, including both start and stop codons. Which of the
+following is the most likely effect of a single nucleotide deletion at position 76 in the coding codon?
+(A) No effect on the polypeptide
+(B) Only active site affected
+(C) Changes in only the first 25 amino acids
+(D) Changes in only the last 8 amino acids
+11. The primary use of Koch’s postulate is to?
+(A) Clearly identify and characterize a particular microorganism.
+(B) Isolate microorganisms from diseased animals.
+(C) Develop vaccines for specific diseases.
+(D) Demonstrate that a disease is caused by a microorganism.
+12. Which of the following descriptions regarding Bacillus anthracis infections is INCORRECT?
+(A) The most common mode of transmission in humans is through the skin.
+(B) The most common mode of transmission in herbivores is through ingestion of spores.
+(C) The most common route of infection for livestock raising workers is through inhalation.
+(D) The most commonly used biochemical weapon infection routes are through inhalation.
+
+13. How do pili or fimbriae on the surface of bacterial cells usually affect the virulence mechanism of the host?
+(A) Attaches to a specific cell surface
+(B) Strengthens the cell’s mobile force
+(C) Resists phagocytosis
+(D) Enhances the role of endotoxins
+14. Of the genus Enterobacteriaceae’s LPS, which portion contains the greatest amount of variation that we
+can use to distinguish species and strains apart?
+(A) Lipid A (B) Core polysaccharide (C) O-antigen
+15. Which of the following is incorrect about Mycoplasma pneumonia?
+(A) Has birds as reservoir
+(B) Common cause of primary atypical pneumonia
+(C) Initially causes fever, malaise, sore throat, and headache
+(D) After 2 to 3 weeks develops into an unproductive cough and earache
+(E) Is a bacterial cell without a cell wall
+16. Of the below, which exists within gram negative bacteria, and not in gram positive bacteria?
+(A) Peptidoglycan (B) lipid A (C) Capsule (D) Flagella
+17. Which of the following belongs to non-spore forming gram-positive bacilli?
+(A) Clostridium
+(B) Propionibacterium
+(C) Listeria
+(D) Corynebacterium
+18. 下列何種細菌之spore 在菌體末端有如drumstick（鼓槌）shape?
+(A) Clostridium perfringens
+(B) Clostridium botulinum
+(C) Clostridium tetani
+(D) Clostridium difficile
+19. Is the following statement correct?
+“Prion disease can be transmitted by contaminated tissues and blood products and by germline.”
+(A) Yes (B) No
+20. Which of the following must be in direct contact with a virus for infection?
+(A) Transformation (B) Transduction (C) Transposition (D) Conjugation
+
+21. Which of the following structures do all bacteria have?
+(A) Capsule
+(B) Flagella
+(C) Plasmid
+(D) Cell membrane
+22. Lysozymes can break down which of the following structures?
+(A) Peptidoglycan
+(B) Nucleic acid
+(C) Lipopolysaccharide
+(D) Lipoprotein
+23. Which of the following is the most commonly used method for the definitive identification of the bacteria?
+(A) Morphological characteristics
+(B) Biochemical typing
+(C) Serological typing
+(D) Phage typing
+(E) Antibiogram patterns
+24. The most precise method for classifying bacteria is by analysis of
+(A) Genetic material
+(B) Whole-cell proteins
+(C) Whole-cell sugar
+(D) Whole-cell lipid
+(E) Enzyme typing
+25. Most bacterial species are approximately in diameter and are therefore visible using the light
+microscope.
+(A) 10 μm (B) 100 μm (C) 1 μm (D) 1000 μm
+26. Which of the following is unique to gram-positive bacteria？
+(A) Lipoteichoic acid (B) Capsule (C) Flagellum (D) Porins
+27. The peptide cross-link in bacterial cell wall is formed between the free amine of the diamino amino acid in
+the third position of the peptide and the
+(A) L-lysine
+(B) L-alanine
+(C) D-glutamate
+(D) D-alanine
+(E) Glucosamine
+
+28. The structural sections of LPS are not included
+(A) Lipid A (B) Corepolysaccharide (C) O-antigen (D) Murein
+29. Which of the following in bacterial structure is not proteinaceous？
+(A) Flagellum (B) Pilus (C) Capsule (D) Porin
+30. The mechanism of peptidoglycans synthesis can be divided into four steps. What is the fourth step？
+(A) Precursor assembly
+(B) Bactoprenol attachment
+(C) Transpeptidation
+(D) Translocation
+31. 於1928 年發現Penicillin 的英國科學家是
+(A) Paul Ehrlich
+(B) Robert Koch
+(C) Louis Pasteur
+(D) John Enders
+(E) Alexander Fleming
+32. The most important component in maintaining bacterial cell wall is
+(A) Peptidoglycan
+(B) cell outer membrane
+(C) periplasmic space
+(D) teichoic acid
+(E) Fimbriae
+33. Regarding gram negative bacterial structure, which of the following descriptions is incorrect
+(A) Periplasmic space contains many proteases, lipases, and other hydrolytic enzymes
+(B) Periplasmic space beta-lactamase is an antibiotic digesting enzyme
+(C) Having a cell membrane equals having greater resistance to antibiotics than gram positive
+(D) Porin-like polysaccharides found in the inner membrane regulate trafficking of small particles
+34. Which of the following description of microbiota in human body is TRUE？
+(A) Microbial species conserve at different sites in the same individual.
+(B) The compositions of microbes at the same site among individuals are similar.
+(C) Some chronic metabolic disorders may cause by dysbiosis of gut microbiome.
+(D) In microbiomes associated with human, the taxonomic diversity is great but their functional properties
+are conserved.
+(E) Microbiota only plays the role to occupy the surface space for prevention of pathogen invasion but not
+interacts with its host.
+
+35. The coding region of a gene is 363 nucleotides in length, including both start and stop codons. Which of
+the following would be the most likely effect of three nucleotides deletion at position 121-123 in the
+coding region？
+(A) No effect on the polypeptide
+(B) Only active site affected
+(C) Changes in only the first 40 amino acids
+(D) No polypeptide synthesis from amino acid position 41
+(E) No change in protein sequences except missing one amino acid at position 41
+36. Which of the following statement is false?
+(A) Lysozyme is an enzyme in human tears and mucus
+(B) The cytoplasmic membrane of most prokaryotes is surrounded by rigid peptidoglycans layers
+(C) Mycoplasmas have no cell wall at all
+(D) Teichoic acids are organic-soluble polymers of polyol phosphates, which have a fatty acid and are
+anchored in the cytoplasmic membrane.
+37. Which one of the followings statements about CO2 Supercritical Fluids is correct?
+(A) Only use in food sterilization.
+(B) Extraction of cell membrane lipids.
+(C) The pressure at least more than 34 atm and 45℃.
+(D) The pressure at least more than 54 atm and 45℃.
+(E) The pressure at least more than 74 atm and 45℃.
+38. The alpaca in the pasture was unfortunately infected with Bacillus anthracis and died, but its fur is not 
+discarded. How should it be processed into leather clothing without causing diseases to the processor?
+There are many methods except:
+(A) Gama-radiation
+(B) UV light
+(C) ETO
+(D) Glutaraldehyde
+(E) Plasma gas
+39. Which of the following descriptions of microbiota in human body is true?
+(A) Composition of microbial species is identical at different sites in the same individual.
+(B) Dysbiosis of gut microbiome is only associated with intestinal diseases.
+(C) The compositions of microbes the same site among individuals are identical.
+(D) In microbiomes associated with human, the taxonomic diversity is great, but their function properties are 
+similar.
+
+40. Which of the following pairs is matched correctly?
+(A) Ehrlich－aseptic surgery
+(B) Flemming－vaccination
+(C) Pasteur－prove of germ theory
+(D) Jenner－chemotherapy
+(E) Koch－discovery of Penicillin
+41. Which of the following structures is ONLY found in bacteria?
+(A) Phospholipid
+(B) Lysosome
+(C) Nucleoid
+(D) Ribosome
+(E) None of the above
+42. Which of the following is true about Gram negative cell wall?
+(A) It contains lipopolysaccharide in the outer membrane.
+(B) It is not porous and permeable.
+(C) The composition of cell wall is only peptidoglycan and teichoic acid.
+(D) It keeps bacteria survive only in an isotonic environment.
+(E) None of the above.
+43. Which of the following is not a chemical component of a bacterial cell wall?
+(A) Cellulose
+(B) Peptidoglycan
+(C) Teichoic acid
+(D) Peptide chains
+(E) N-acetylmuramic acid
+44. Which function of bacteria organelle is false?
+(A) Plasmid－extrachromosomal and gene exchange
+(B) Fimbriae－mobility
+(C) Cell wall－maintain shaped
+(D) Cell membrane－Nutrient exchange
+(E) Inclusion－nutrient storage
+
+45. Which of the following statements is true about endospores?
+(A) Endospores are for reproduction.
+(B) Endospores are easily stained in Gram stain.
+(C) Endospores help cells survive environment change.
+(D) Endospores contain high metabolic activity.
+46. During which growth phase will Gram positive bacteria be most susceptible to penicillin?
+(A) Lag phase
+(B) Log phase
+(C) Death phase
+(D) Stationary phase
+(E) Equally the same
+47. 關於DNA複製下列選項何者不正確？
+(A) DNA polymerase只參與一個方向的複製
+(B) Leading strand複製具連續性
+(C) Lagging strand的複製首先從RNA primer開始
+(D) Helicase and gyrase將DNA螺旋結構拆開
+(E) 一股DNA複製方向只會向單一方向進行
+48. Synthesis of repressive genes is stopped by:
+(A) Allosteric transit
+(B) End-production bind to promoter
+(C) Corepressor-repressor bind to operator
+(D) Substrate bind to repressor
+(E) Corepressor bind to operator
+49. Which of the following is true in bacterial gene expression?
+(A) mRNA and protein synthesis occur simultaneously.
+(B) mRNA needs to modify and translocate before protein synthesis.
+(C) The definition of operon is that genes arrange one-by one and transcript individually.
+(D) Most of metabolic genes in bacteria are regulated and express when the condition is correct.
+
+50. Genetic changes in bacteria can be brought about by:
+(A) Mutation
+(B) Conjugation
+(C) Transformation
+(D) Transduction
+(E) All of the above
+51. Which one of the followings is biguanide?
+(A) Hexachlorophene
+(B) Chlorhexidine
+(C) Phenol
+(D) Triclosan
+(E) All of the above
+
+Bacterial Structure, Classification, Genetics and Metabolism
+微免考古小隊：蔡昌恩、劉宜瑄、鄭向晴、楊凱淇、吳昕妤 學藝：陳冠宇
+選擇題
+1 2 3 4 5 6 7 8 9 10
+C D B D B C B B D D
+11 12 13 14 15 16 17 18 19 20
+D C A C A B BCD C A B
+21 22 23 24 25 26 27 28 29 30
+D A B A C A D D C C
+31 32 33 34 35 36 37 38 39 40
+E A D C/D E D E B D C
+41 42 43 44 45 46 47 48 49 50
+C A A B C B A C A E
+51
+B
+1. (C)
+柯霍發現炭疽桿菌（B. anthracis）與炭疽病（Anthrax）的關係並提出微生物致病理論，即柯
+霍假說（Koch’s Postulates）
+2. (D)
+儘管微生物的物種可能差很多，但整體功能其實大同小異（functional redundancy）
+3. (B)
+Conjugation：接合傳遞，donor透過實際接觸把質體傳給recipient，為抗藥性質體傳遞的主要機制
+Sex pili：在接合傳遞中結合兩交配中的細菌
+(A)勝任性competence：指勝任細胞接收環境中外來 DNA 的能力，而fimbriae則可以協助細菌附在其
+他細胞的表面，兩者無關
+(C)細菌間沒有這個交換方式（Recombination：基因重組；Slime layer：部分細菌的保護構造）
+(D)傳導Transduction：以噬菌體作為媒介，將宿主DNA運送到另一個細胞的基因交換方式。而選項中
+的nanotube是同物種或不同物種的兩細菌間傳遞胞質分子的橋樑，是一種自然界中可能的交換
+型式，但機制仍尚未完全了解。(Baidya et al, 2017)
+(E)轉型Transformation：從外界取得 DNA，若所吞入的與己身序列高度相似則會發生同源重組，此
+能力稱為competence
+
+4. (D)
+Inclusion body：與細菌生存有關，儲存能量以及特殊物質，老師稱它為小倉庫
+5. (B)
+exponential phase應為指數生長期（exponential phase of growth）：如E. coli每20分鐘分裂一次，為次
+一代
+6. (C)
+柯霍準則
+7. (B)
+原核生物基本常識：70S ribosome（30S+50S）、cell wall、plasmid（可有可無）
+8. (B)
+纖毛協助細菌附在宿主細胞的表面，如E. coli以fimbriae黏附到腸道上皮的D-mannose receptor
+9. (D)
+氧化磷酸化是ATP生成的最主要機制，而ETC是在細胞膜上
+10. (D)
+76除以3等於25餘1，前25個胺基酸不受影響，會更動的只有之後的胺基酸
+11. (D)
+探討疾病與微生物的關係
+12. (C)
+這題超出範圍了。炭疽桿菌是一種棒狀的革蘭氏陽性菌，感染途徑分為皮膚型、吸入型和腸胃型。
+95%的人都是經由皮膚感染的，而草食性動物則大多是經由攝食孢子得病。人類很少會經由吸入型傳
+播途徑受到感染，但用吸的相較於其他兩者，是最適合拿來設計成生化武器的途徑了。炭疽孢子被免
+疫細胞吞食，在吞噬細胞內，孢子轉變為桿菌，開始大量複製並且最後脹破被寄生的細胞，釋放大量
+細菌進入血液循環，並釋放具有毒素，包括保護細菌的抗原（PA）、水腫因子（EF）及致死因子
+（LF）三部分，攻擊許多特定的細胞和組織。
+
+13. (A)
+Pili 跟 fimbriae 都具有黏附的功能，像是 fimbriae 上就具有很多 lectins，可以跟特定醣類受器結
+合，其中 pili（尤指 type IV）一般是存在於革蘭氏陰性菌~另外黏附是細菌感染時的必要步驟
+14. (C)
+O 抗原具有抗原性,可用來區別不同血清型。Lipid A 為革蘭氏陰性菌的共通特徵，無種屬特異性
+15. (A)
+肺炎黴漿菌（Mycoplasma pneumoniae）會引起原發性非典型肺炎（又稱 walking pneumonia），臨床
+症狀表徵包括頭痛、全身倦怠、陣發性乾咳、發燒、咽喉痛、胸骨下疼痛以及紅疹紅斑,特色是明
+顯的咳嗽及發燒,但黴漿菌感染一般不會有「流鼻涕」的症狀。病程大約在三到四週之間,少數個
+案則會併發大葉性肺炎、肋膜積水,而極少數則伴隨有肝炎、關節炎、溶血性貧血、心肌炎、心包
+膜炎甚至腦膜腦炎的合併症。肺炎黴漿菌無細胞壁,故呈革蘭氏陰性,且形態容易變化,對滲透壓
+較為敏感,對抑制細胞壁合成的抗生素不敏感。寄生於人類或豬身上
+16. (B)
+lipid A 屬於 LPS,只有革蘭氏陰性菌有
+17. (B) (C) (D)
+有一些細菌能夠形成孢子。這些孢子，也稱為內生孢子，是營養細菌的休眠形式，對物理和化學影響
+有高度抵抗力。僅梭狀芽孢桿菌（Clostridium）為能產生內生孢子的厭氣性革蘭氏陽性菌，丙酸桿菌
+（Propionibacterium）、李斯特菌（Listeria）、棒狀桿菌（Corynebacterium）皆為不產孢子的革蘭氏
+陽性菌
+(詳見Bacillus_ Listeria_ Corynebacterium講義第三頁，老師曾說會產生孢子的就只有Bacillus and 
+Clostridia)
+18. (C)
+這題是之後的內容。只有 Clostridium tetani 是鼓棒狀的。產氣莢膜梭菌(Clostridium prefringens)、肉
+毒桿菌（Clostridiumbotulinum）、破傷風梭菌（Clostridium tetani）、困難梭菌（Clostridium 
+difficile）皆屬梭狀芽孢桿菌，是一類能產生內生孢子的厭氣性革蘭氏陽性菌。廣泛分布於自然界，
+以土壤中最多，菌體呈橢圓形。除了產氣莢膜梭菌無鞭毛外，大多有鞭毛。大部份可以水解糖、蛋白
+質，又可產生外毒素
+
+19. (A)
+prion 為錯誤摺疊蛋白且可以影響其他蛋白構型,能藉攝取已感染組織傳染或生殖細胞遺傳
+20. (B)
+(A) transformation:細菌從環境中吞入 DNA 片段並進行基因重組
+(B) transduction:以噬菌體作為媒介,將宿主 DNA 運送到另一個細胞的基因交換方式
+(C) transposition:又稱作 jumping genes,這些基因在 DNA 序列中隨機移動,造成突變或抗藥性
+(D) conjugation:兩個細菌透過性線毛水平傳遞 DNA 的過程(常考)
+21. (D)
+所有細菌都具有細胞膜、DNA、核糖體
+22. (A)
+溶體的 lysozyme 可以破壞革蘭氏陽性菌的細胞壁,成分就是肽聚醣
+23. (B)
+最精準的細菌分類方法是分析 DNA 或是質體等含有遺傳物質
+(A) Morphological characteristic形態特徵
+(B) Biochemical typing生化分型，利用細菌生長代謝的最終產物來分類，可鑑別至種
+(C) Serological typing血清分型，藉由抗原差異來區分不同血清型，可鑑別至亞種
+(D) Phage typing噬菌體分型，對細菌宿主具有專一性，因此鑑定細菌可被哪些特定噬菌體感染，可
+以推測出細菌屬於哪一類，也可鑑別至亞種
+(E) Antibiogram patterns抗生素圖譜，分別施予一種細菌不同的抗生素並依序紀錄，蒐集結果並建
+立資料庫，不同種的細菌其圖譜會有差異，故可藉此分類，可鑑別至亞種
+24. (A) 
+做全基因定序就可以把這隻細菌看光光囉〜
+25. (C)
+大多數細菌的直徑約為1微米（μm），真核細胞通常大約是10-100微米。
+
+26. (A) 
+(A) Lipoteichoic acid 跟peptidoglycan layer 互相交織在革蘭式陽性菌細菌的細胞壁上
+(B)(C)莢膜和鞭毛有無因菌種而異
+(D)Porin protein 則為革蘭氏陰性菌獨有，在OM 上
+27. (D) 
+Diamino amino acid：第三位的lysine 跟第四位的D-alanine 形成交叉連結
+28. (D) 
+脂多醣由三個部分組成，Lipid A、核心多醣、O抗原。Murein就是peptidoglycan，為革蘭氏陽性菌 細
+胞壁的成分，在革蘭氏陰性細菌中僅有10%或更少，厚厚的Murein 結構為造成革蘭氏陽性細菌 在革
+蘭氏染色中不會被酒精脫色的原因之一
+29. (C) 
+Capsule 由多醣組成
+30. (C) 
+本題超出範圍。peptidoglycan的合成大致上可分為四個步驟：
+Step 1：在胞內先將sugar 變成amino sugar，藉由UDP 的活化，使UDP-GlcNAc 進入Peptidoglycan 的
+合成路徑。Amino sugar 進一步變成UDP-NAM 
+Step 2：在胞內UDP-NAM 依序和alanine、glutamic、acid lysine（Gm＋）or DAP（Gm－）、Dalanine、 D-alanine 結合
+Step 3：NAM-peptide group 利用bactoprenol 的磷酸鍵結膜的內側，再結合NAG 形成雙糖衍生物，
+有些陽性菌會再加上五個胺基酸最後藉bactoprenol 將雙糖的peptidoglycan 轉到細胞膜外
+Step 4：在胞外Peptidoglycan 開始聚合。transpeptidase（轉胜肽酶）會協助把第五個胺基酸alanine 切
+掉，以連接peptidoglycan 次單元
+31. (E) 
+我們全人類的弗萊明老師
+32. (A) 
+(C)(D)(E)都不見得每隻細菌的cell wall 都有，就全部刪掉
+33. (D) 
+Porin 是可以調節分子通透的「蛋白質」，不是多醣，且應位於外膜
+
+34. (C) or (D) 
+(A) 錯誤。人體不同部位的微生物群具有不同的組成。例如，腸道、皮膚、口腔和生殖道中的微生物
+群差異顯著。這是因為這些部位的環境條件（如氧氣、pH值和營養物質）不同，因此會支持不同的
+微生物群落。因此，微生物物種不會在同一個體的不同部位保持一致。
+(B) 錯誤。儘管相同部位的微生物群可能會有一些共同的核心微生物（如腸道中的某些屬），但不同
+個體之間的微生物組成差異很大。這種差異受多種因素影響，包括年齡、飲食、生活環境、基因和健
+康狀況。因此，相同部位的微生物組成在不同個體之間並不完全相似。
+(C) 正確。腸道菌群失衡（dysbiosis） 被認為與許多慢性代謝疾病有關，如肥胖、糖尿病和非酒精
+性脂肪肝病。當腸道菌群的多樣性減少或特定的有益細菌數量減少時，可能會影響宿主的代謝功能，
+導致疾病的發展。
+(D) 正確。雖然不同個體間的菌群組成差異顯著，但其功能大同小異。
+(E) 錯誤。微生物群不僅僅是通過佔據宿主的表面空間來防止病原體入侵，它們還與宿主進行相互作
+用。這些相互作用包括產生有益的代謝物、幫助消化、促進免疫系統發育和維持腸道屏障功能。微生
+物與宿主之間的相互作用對於健康是至關重要的。
+35. (E) 
+第121〜123 的核甘酸剛好對應到的是第41個密碼子，所以其他的密碼子閱讀框架應該不會受影響，
+就這一個胺基酸不會被製造出來。
+36. (D) 
+(C) mycoplasmas沒有細胞壁，細胞膜上有固醇類，能在沒有細胞壁的情況下存活，但只能存活在等
+張溶液下，否則會因滲透壓變化而破裂。
+(D) 錯誤。Teichoic acids是由多元醇磷酸鹽組成的水溶性聚合物，而非有機可溶性，它們插入細菌的
+細胞壁，而不是細胞膜。
+37. (E)
+將二氧化碳壓縮至超過45度與臨界壓力（約73.8 atm）便可入超臨界流體的型態，可用於食物與醫療
+植體 Critical point of CO₂ is 31.1℃ and 73.8 atm
+
+38. (B)
+老師上課只有提到(A)可以，以下參考：WHO (2008) Anthrax in humans and animals 4 edition
+原文：UV should not be relied on alone for decontamination, but should be used in conjunction with wiping 
+the items to be decontaminated with towelling moistened with hypochlorite or possibly formalin.（p.135）
+(E) 原文：The theoretical options for sporicidal fumigants are formaldehyde, ethylene oxide, methyl 
+ bromide, hydrogen peroxide vapour and chlorine dioxide.（p.154）
+ （ethylene oxide即ETO；hydrogen peroxide vapour即plasma gas）
+原文：The principal disinfecting agents for destruction of anthrax spores are formaldehyde, glutaraldehyde 
+(at pH 8.0–8.5), hydrogen peroxide and peracetic acid.（p.154）
+故選(B)，僅經UV light處理難以完全去除炭疽桿菌
+39. (D)
+(A) 個體中每個部位的microbiota組成都不相同
+(B) 腸胃道的dysbiosis會影響的面相非常廣，包括代謝、免疫，甚至是癌症相關
+(C) 個體之間同個部位的microbiota組成不太相同
+(D) Species很不一樣（great taxonomic diversity），但代謝能力在個體間相似度非常高（functional 
+redundancy）
+40. (C)
+(A) Ehrlich－chemotherapy-antibacterial agent
+(B) Flemming－Penicillin
+(C) Jenner－smallpox vaccine
+(D) Koch－Koch’s postulates
+41. (C)
+擬核區（nucleoid）由染色體DNA、蛋白質（主要是轉錄因子蛋白質，非組蛋白但功能類似，使DNA
+分子維持超螺旋結構）以及RNA（主要是mRNA）構成
+42. (A)
+(B) 細菌的細胞壁是多孔且具通透性的
+(C) Teichoic acid是革蘭氏陽性菌的細胞壁成分
+(D) 細胞膜保護細菌在不同滲透壓的環境下存活
+43. (A)
+Cellulose是植物細胞壁的成分
+44. (B)
+Fimbriae主要功能為提供黏附效力，Flagella才是提供活動力
+
+45. (C)
+(A) 孢子的主要功能是度過惡劣環境
+(B) 孢子外有一層由蛋白質構成的endospore coat，不易被Gram stain染色
+(E) 為了存活應該是low metabolic activity
+46. (B)
+青黴素作用於肽聚糖（peptidoglycan）的轉化合成過程中，阻止它的合成，而細菌在進行二分裂法複
+製時需要合成新的細胞壁，因此對log phase的影響最大
+47. (A)
+雙向皆參與
+48. (C)
+在repressive operon中，產物通常作為corepressor結合repressor並binding在operator上，達到關閉基因表
+現的效果
+49. (A)
+(B) 兩者可同時進行
+(C) Operon中的基因轉錄是同時進行的
+(D) 細菌中約有60〜80%的基因是不被調控、持續表現的
+50. (E)
+51. (B)
+
+Chapter 2, 3：Innate Immunity
+組長： 陳佳筠 勘誤組員：徐彰廷 學藝：陳冠宇 授課老師：李岳倫 114. Sep.19
+1.Which one of the following is not true about the classical pathway of complement activation?
+(A) C2 is involved in the classical pathway.
+(B) Cleaved C2a fragments act to increase inflammation.
+(C) The C1 protein complex is initiated by antigen-antibody complexes.
+(D) The membrane attack complex (MAC) consists of the components C5b, 6, 7, 8, and a variable number 
+of C9 molecules.
+2.Which one of the following is not true?
+(A) C3bBb and C4b2a are the C3 convertases.
+(B) The alternative pathway is activated by the cleavage of C4 to C4b.
+(C) The lectin pathway for complement action is initiated by mannose on the pathogens.
+(D) C1 is a molecular complex consisting of C1q and two molecules each of C1r and C1s.
+3.Macrophages could internalize pathogens using the lipopolysaccharide (LPS) receptor (CD14) and ____?
+(A) TLR-2
+(B) TLR-4
+(C) TLR-5
+(D) TLR-9
+4.Which one of the following is true about cell-mediated cytotoxicity?
+(A) Cytotoxic T cells and natural killer (NK) cells recognize their targets in the same way.
+(B) NK cells recognize cells which fail to express MHC class II molecules.
+(C) The CD94/NKG2A is an inhibitory receptor which blocks NK cell-mediated cytotoxicity.
+(D) It is now known that the ligand for KIR2D is the HLA-E molecule.
+
+5.Which one of the following is involved in cell migration?
+(A) Fc receptor
+(B) TCR
+(C) Integrin
+(D) C1 complex
+6.Which one of the following is not the function of complement system?
+(A) Lysis
+(B) Chemotaxis
+(C) Neutralization
+(D) Opsonization
+7.Which one of the following is not true about the classical pathway of complement activation?
+(A) Factor B is not involved in the classical pathway.
+(B) Cleaved fragments of some of the proteins act to increase inflammation.
+(C) The C1 protein complex is initiated by antigen-antibody complexes.
+(D) C3 is the first protein activated in the classical pathway.
+8.The lectin pathway for complement action is initiated by .
+(A) Gram-negative cell walls
+(B) Lectins of the parasite
+(C) Mannose on the parasite
+(D) Mannose on the host membranes
+9.Which one of the following is the C3 convertase?
+(A) C3a
+(B) C3b
+(C) Bb
+(D) C3bBb
+
+10.Which one of the following does not belong to the opsonic receptors that express on phagocytes?
+(A) KIR-2D 
+(B) Mannose receptor
+(C) Fc receptor 
+(D) Complement receptor (CR)
+11.Which one of the following belongs to the inhibitory receptors that express on NK cells?
+(A) CD2
+(B) HLA-E
+(C) CD94/NKG2A
+(D) CD94/NKG2C
+12.In the complement activation pathway, C3 convertase can dissociate C3 to form large amounts of C3a and
+C3b. Which of the following is a function of C3b?
+(A) Macrophage and neutrophil cause local inflammations, which attracts macrophages and neutrophils.
+(B) C3b will be present on the surfaces of pathogens, making it easier for phagocytes to swallow.
+(C) Directly attacking the bacteria’s cell membrane.
+(D) Dissociate C4 into C4a and C4b.
+13.In the complement system, when the lectin pathway is infected with bacteria, the mannose in the
+carbohydrates and proteins that are located on the cell membrane will be activated. Which of the following
+has a similar molecular function with the complement system?
+(A) C1q
+(B) C2a
+(C) C3b
+(D) C4a
+14.Which of the following is part of the C3 convertase complement (C3 convertase)?
+(A) C5b67
+(B) C3a
+(C) C3b
+(D) C3bBb
+
+15.Complement is secreted by the liver cells and then released into the blood, which contains C1 to C9 nine
+small molecules. When it is activated, which molecules can create holes in the bacterial surface to induce
+disintegration?
+(A) C3
+(B) C3a, C5a
+(C) C4b2a
+(D) C5b-9
+16.Which of the following is part of the alternative pathway of complement activation’s C3 convertase?
+(A) C3a
+(B) C3b
+(C) C3bBb
+(D) C4b2a
+17.Which of the following is false about the MBL in the lectin pathway?
+(A) Can bond with the glycoproteins or carbohydrates located on the surface of bacteria.
+(B) An acute phase protein produced during a fever.
+(C) Function is similar to that of the C1q in the complement system.
+(D) Has similar mechanism of actions in the agglutination and alternative pathways.
+18.There are three pathways for complements. The start processes for all three is different, but they all be by
+way of a common complement component, which will then turn the subsequent reaction of the same
+series. The common component of the complement is .
+(A) C1
+(B) C3
+(C) C5
+(D) C9
+19.In both the classical pathway and lectin pathway, which of the following acts as the C3 convertase?
+(A) C5b-9
+(B) C3bBb
+(C) C4b2a
+(D) C1qr2s2
+
+20.Which of the following toll-like receptors (TLRs) located on the cell membrane can receive a stimulation
+from a lipopolysaccharide (LPS)?
+(A) TLR-3
+(B) TLR-4
+(C) TLR-5
+(D) TLR-7
+21.The body’s innate immune response via Toll-like receptor 4 will recognize what part of the bacteria?
+(A) Endotoxin
+(B) Ribosome
+(C) Capsule
+(D) Inclusion Body
+22.Toll-like receptors (TLRs) execute signal transduction, of the following that kind can exist within the soma
+(endosome), and be able to recognize double-stranded RNA viruses (dsRNA)?
+(A) TLR-3
+(B) TLR-4
+(C) TLR-5
+(D) TLR-7
+23.Which of the following is true about lipopolysaccharides?
+(A) 一般都是革蘭氏陽性（Gram positive）細菌的結構
+(B) 和宿主巨噬細胞表面的 CD16 分子結合
+(C) 也會刺激宿主細胞表面的 Toll-like receptor 4（TLR4）分子
+(D) 主要刺激宿主的 T 細胞分泌 TNF-α 與 IL-1
+24.Which of the following aren’t opsonins ?
+(A) Antibody
+(B) Complement C3b
+(C) Interleukin-1
+(D) C-reactive protein
+
+25.Which of the following is false about NK cells?
+(A) 發源於共同淋巴先驅細胞（common lymphoid progenitor cell）
+(B) 具有毒殺顆粒（cytotoxic granules），釋放其中之物質以執行毒殺作用
+(C) 能毒殺不表現或低度表現第一型 MHC（MHC class I）分子之異常細胞
+(D) 其作用屬於適應性免疫力（adaptive immunity）
+26.Which of the following is false about CTLs and NK cells?
+(A) 二者皆具有抗原特異性
+(B) 二者皆表現 Fas L
+(C) The activity of the second choice is associated with MHC class I
+(D) 不表現 MHC class I 分子的腫瘤細胞，可以逃過 CTL 的辨認，但無法逃過 NK cell 的追蹤
+27.Some viruses infect host cells via viral protein that can reduce the manufacture of the MHC class I cells
+and the degree of expression. In order to avoid poisoning of CD8 T cells, when this occurs, which of the
+following can the cells play in event of a major toxic infection?
+(A) CD4 T-cells（CD4 T 細胞）
+(B) B-cells（B 細胞）
+(C) NK cells（NK 細胞）
+(D) stem cells（幹細胞）
+28.Which of the following mature blood cells aren’t MHC class I?
+(A) B cells
+(B) Red blood cells
+(C) T-cells
+(D) Macrophages
+29.How do tumors evade the immune response?
+(A) By secreting inflammatory cytokines, such as IF-6, TNF-α.
+(B) By lowering the MHC class I secretion.
+(C) By increasing humoral immunity.
+(D) By increasing cell-mediated immunity.
+(E) By lowering the lymphocyte number.
+
+30.下列何種物質具有調理作用（opsonization），可增強 macrophage、neutrophils 的吞噬作用?
+(A) Complement
+(B) IL-1
+(C) TNF-α
+(D) Interferon
+31.吞噬細胞在進行吞噬作用時會用到調理接受體（opsonic receptors），請選出屬於調理接受體的?
+(A) CD94
+(B) mannose receptor
+(C) Selectin
+(D) 以上皆是
+32.在活化補體系統的三個路徑中，哪個路徑是不一定需要有抗體或抗體抗原複合體（Ag-Ab complex
+Dependent）存在才能進行的？
+(A) lectin pathway
+(B) alternative pathway
+(C) classical pathway
+(D) 以上皆需要
+33.先天性免疫系統不包括何種？
+(A) 吞噬細胞
+(B) 補體
+(C) T 細胞
+(D) NK 細胞
+34.白血球為黏附於血管內皮上的三步驟（three step model of leukocyte adhesion）所使用到的包括有:
+(a) chemokine、(b) integrin、(c) selectin 這些黏附分子以及趨化素，請按照白血球表現使用順序排
+列出來。
+(A) (c), (b), (a)
+(B) (b), (c), (a)
+(C) (c), (a), (b)
+(D) (a), (c), (b)
+
+35.下列何者為補體（complement）的三種活化路徑之最初會合點？
+(A) C1qC1rC1s complex
+(B) C4b
+(C) C3 convertase
+(D) C5 convertase
+36.當補體系統啟動階梯式的活化過程中會形成 membrane attack complex（MAC），請問 MAC 是由那
+些補體所組成的呢？
+(A) C3a, C6, C7, C8, C9
+(B) C3b, C6, C7, C8, C9
+(C) C5a, C6, C7, C8, C9
+(D) C5b, C6, C7, C8, C9
+37.下列有關補體系統的凝集路徑（lectin pathway）中的關鍵分子 mannose-binding lectin（MBL）的描
+述何者錯誤？
+(A) 可和細菌表面的醣蛋白上的 mannose 結合
+(B) 可與 MASP-1、MASP-2 以及 MASP-3 結合
+(C) 其功能在補體系統中和 C1q 分子相似
+(D) 其所參與的凝集路徑和替代路徑（alternative pathway）的作用機制較相似，與經典型路徑
+(classical pathway)較不同
+38.偵測細菌 LPS 的主要受器為下列何者？
+(A) Toll-like receptor 4
+(B) Toll-like receptor 6
+(C) Toll-like receptor 8
+(D) Toll-like receptor 9
+39.下列哪個是屬於 NK（natural killer）細胞上的抑制性接受體（inhibitory receptor）？
+(A) CD14
+(B) KIR-3D (short)
+(C) CD94/NKG2A
+(D) HLA-E
+
+40.對於先天性淋巴細胞（innate lymphoid cell）特性的敘述下列何者錯誤？
+(A) 先天性淋巴細胞表面不表現接受專一性抗原反應的反應接受器，因此其活化機制並非由辨識特
+定的抗原而誘發
+(B) 自然殺手細胞（natural killer cell）屬於先天性淋巴細胞的成員
+(C) ILC1 可分泌 IFN-γ 來對抗病毒或胞外細菌
+(D) ILC2 可分泌 IL-4、IL-5、IL-13，可參與氣喘疾病的產生
+41.Which one of the following statements is true?
+(A) The selectin consists of two not-covalently bound polypeptides (α and β).
+(B) TH2 cells and eosinophils express CCR5 which allows them to respond to eotaxin.
+(C) The CD94-NKG2A is an inhibitory receptor which blocks NK cell-mediated cytotoxicity.
+(D) It is now known that the ligand for KIR2D is the HLA-E molecule.
+42.Which one of the following statements is not true?
+(A) The classical complement activation pathway that acts as a positive feedback loop when C3 is split in
+the presence of an activator surface.
+(B) The membrane attack complex (MAC) consists of the complements C5b, 6, 7, 8 and a variable number
+of C9 molecules.
+(C) The lectin pathway for complement action is initiated by mannose on the pathogens.
+(D) C4b2a is the classical pathway C3 convertase.
+43.Which one of the following is not true about the alternative pathway of complement activation?
+(A) Factor D is involved in the alternative pathway.
+(B) The C3bBb complex is the C3 convertase of the alternative pathway.
+(C) The alternative pathway is not linked to the classical pathway.
+(D) C3 is the first protein activated in the alternative pathway.
+44.Which of the following does not belong to the opsonic receptors that express on phagocytes?
+(A) TLR
+(B) mannose receptor
+(C) Fc receptor
+(D) MHC class II
+
+45.下列何種細胞的抗原接受器（antigen receptor）會進行體細胞高度突變（somatic hypermutation）？
+(A) T 細胞
+(B) B 細胞
+(C) 巨噬細胞
+(D) 自然殺手細胞
+46.下列何者與毒殺性 T 細胞（cytotoxin T lymphocyte, CTL）的毒殺作用沒有直接關聯？
+(A) INF-γ
+(B) FasL
+(C) Perforin
+(D) Granzyme
+47.Which one of the following statements is not true?
+(A) Leukocyte migration to inflammation is controlled by both leukocytes and endothelium.
+(B) CR3 is an important selectin expressed on monocytes.
+(C) Different chemokines cause different types of leukocytes to accumulate.
+(D) In the first step of leukocyte adhesion, selectins bind to carbohydrates to slow the circulating 
+Leukocytes.
+48.Which one of the following statements is true?
+(A) The selectin consists of two not-covalently bound polypeptides (α and β).
+(B) Th2 cells and eosinophils express CCR5 which allows them to respond to eotaxin.
+(C) The CD94-KIR-2D is an inhibitory receptor which blocks NK cell-mediated cytotoxicity.
+(D) It is now known that the ligand for KIR-3D is the HLA-C molecule.
+49.Which one of the following statements is not correct?
+(A) The alternative complement activation pathway that acts as a positive feedback loop when C3 is split 
+in the presence of an activator surface.
+(B) The membrane attack complex (MAC)consists of the components C5a, 6, 7, 8, and a variable number 
+of C9 molecules.
+(C) The lectin pathway for complement action is initiated by mannose on the pathogens.
+(D) C4b2a is the classical pathway C3 Convertase.
+
+50.Which one of the following is not true about the alternative pathway of complement activation?
+(A) Factor D is involved in the alternative pathway.
+(B) The C3bBb complex is the C3 convertase of the alternative pathway.
+(C) The alternative pathway is linked to the classical pathway.
+(D) C4 is the first protein activated in the alternative pathway.
+51.Which one of the following does not belong to the opsonic receptors that express on phagocytes?
+(A) CD15 and toll-like receptor (TLR)
+(B) Mannose receptor
+(C) Fc receptor
+(D) Complement receptor
+52.Which one of the following is not true about antibodies?
+(A) The hinge region of antibody is rich in proline residues and gives IgG, IgD, and IgA segmental
+flexibility.
+(B) The κ and λ light-chain families contain V, J, and C gene segments.
+(C) A normal antibody molecule contains only one light-chain type, either κ or λ, never both.
+(D) T-cell epitopes may be composed of sequential or nonsequential amino acids
+53.以下哪個不是 innate immunity 的成員？
+(A) B cell
+(B) Dendritic cell
+(C) Macrophage
+(D) NK cell
+54.先天免疫反應產生時，會造成白血球趨化作用的受體為下列何者？
+(A) T cell receptor
+(B) B cell receptor
+(C) chemokine receptor
+(D) Fc receptor
+
+55.經過調理作用（opsonization）後，吞噬細胞用來結合病原體的調理素（opsonin）是哪個受器？
+(A) toll-like receptor
+(B) complement receptor
+(C) chemokine receptor
+(D) lectin-like receptor
+
+Chapter 2,3：Innate Immunity
+組長： 陳佳筠 勘誤組員：徐彰廷 學藝：陳冠宇 授課老師：李岳倫 114. Sep. 19
+ 
+簡答
+1 2 3 4 5 6 7 8 9 10
+B B B C C C D C D A
+11 12 13 14 15 16 17 18 19 20
+C B A D D C D B C B
+21 22 23 24 25 26 27 28 29 30
+A A C C D A C B B A
+31 32 33 34 35 36 37 38 39 40
+B B C C C D D A C C
+41 42 43 44 45 46 47 48 49 50
+C A C D B A B D B D
+51 52 53 54 55
+A D A C B
+詳解
+1.(B)
+(A) C2 和 C4b 結合形成 C4b2 後，C1q𝑟̅̅2̅̅𝑠̅2̅ 和 C4b2 作用，C4b2 裂解為 C4b2a（一種 C3 
+convertase）和 C2b。
+(B) C2a 主要的作用是酵素活性，不是發炎媒介。會引發 local inflammation 的是 C3a 、 C5a。
+(C) C1q 下方的球結合到抗原或是抗原抗體結合物後，構型改變使兩個 C1 互相活化。
+(D) C5b 和 C6、C7 結合成 C5b67，再和 C8、C9 結合成 C5b-9，即 MAC。
+＊詳見下附圖
+
+2.(B)
+Alternative pathway 需仰賴前兩個途徑（classical pathway & lectin pathway）產生 C4̅̅𝑏̅̅2̅̅𝑎̅
+（或 C3̅̅𝑏𝐵̅̅̅b、C3(H2O)Bb 等 C3 轉化酶），並作用在 C3 上，使其裂解成 C3a 和 C3b。
+3.(B)
+TLR-4 是唯一能與 LPS 結合的 Toll-Like Receptors，TLR-4 
+和 CD14 則是可辨認 LPS 的 Co-Receptors。
+體內的 LPS-BP（Lipopolysaccharide-binding protein）會結合
+病原體的脂多醣（LPS），LPS-BP 接著被傳給表面分子
+CD14 辨認，最後再傳遞給 TLR-4 活化吞噬細胞。
+4.(C)
+(A) Tc 細胞與 NK 細胞兩者辨識方式不同：
+Tc 細胞辨識 MHC I；
+NK 細胞的 NKG2A/CD94 辨識 HLA-E molecule；KIR-2D 和 KIR-3D 則辨識 HLA-C molecule
+(B) MHC class II molecules 應改為 MHC class I molecules
+(D) HLA-E molecule 應改為 HLA-C molecule
+
+5.(C)
+Cell migration involves 3 steps: Tethering (Selectin), Triggering (Chemokine), Latching (Integrin)
+(A) Fc receptor 可以抓住病原體上的 Antibody，為調理素受體(Opsonic receptor)
+(B) TCR1 與 CD8 可共同辨識細胞上的 MHC I 與其表現的抗原片段
+(C) Integrins bind to their ligands on the surface of endothelial cells, facilitating cell migration
+(D) C1 與 Lysis 作用的 Classical Pathway 活化路徑有關
+6.(C)
+補體系統（Complement）的功能有三：溶解作用
+（Lysis）、趨化作用（Chemotaxis）、調理作用
+（Opsonization），如右圖。
+(C)具有中和作用（Neutralization）的是抗體 Antibody
+
+7.(D) 
+(D)C3 應改為 C1。詳見 1. (C)
+8.(C)
+Lectin pathway 由 Mannose Binding 
+Lectin（MBL）接上病原體表面的
+Mannose and Fucose residues，或 ficolin 
+接到病原體表面上含 acetylated sugars 
+的寡糖上來啟動
+*MBL 不會和 host cell 作用
+9.(D)
+C3̅̅𝑏𝐵𝑏 ̅̅̅̅̅為 alternative pathway 會得到的 C3 convertase，而另一種 C3 convertase 為 classical & lectin
+pathway 會得到的 C4̅̅𝑏̅̅2̅̅𝑎̅
+10.(A)
+四種調理素受體（Opsonic receptor）為：甘露糖受體（Mannose receptor）、抗體恆定區受體（Fc
+Receptor）、補體受體（Complement receptor）、CD14 and Toll-like receptor 4（TLR4）
+(A) KIR-2D 為 NK 表面上的受體
+11.(C)
+(A) CD2、CD16、CD69 為 NK 受體，結合目標細胞上的配體，傳遞活化 NK 細胞的訊息
+(B) (C) HLA-E 可監控細胞是否因被感染而降低 MHC I 表現。
+作用機制為：HLA-E 與製造其他 MHC I 過程中切掉的 Leader Peptide 結合並呈現在細胞表
+面，抑制型受體上的 CD94 辨識 HLA-E 並與之結合，傳遞抑制 NK 細胞的訊息。所以 HLA-E 
+是與 CD94 配對的 ligand，而 CD94/NKG2A 才是 inhibitory receptors
+(D)CD94/NKG2C 為 non-inhibitory receptor，無功能
+
+12.(B)
+(A) 趨化作用（Chemotaxis）為 C3a 和 C5a 之功能
+(B) C3b 是調理素（C3b 與 C4b）之一，而 iC3b 則刺激吞噬作用（Phagocytosis）。
+C3b binds covalently through its thioester bond to adjacent molecules on the pathogen surface.
+(C) 溶解作用（Lysis）為 C5b-9（Membrane-Attack Complex，MAC）之功能
+(D) 為溶解作用中的 classical & lectin pathway 的步驟之一，是 C1𝑞𝑟̅̅̅̅2̅̅𝑠̅2̅
+13.(A)
+在 Classical Pathway 中，antigen（Ag）或 antigen-antibody complex（Ag-Ab，IgM 或 IgG1-3）活化
+C1q，然後 C1q 相繼活化 C1r 與 C1s，之後 C1 complex 分別活化 C4 和 C2。而在 Lectin Pathway 
+時，MBL 與 mannose 或 fucose 結合，同樣活化 C4 與 C2。故 MBL 與 C1q 類似
+14.(D)
+C3 convertase complement 包含 C3̅̅𝑏𝐵𝑏 ̅̅̅̅̅與 C4̅̅𝑏̅̅2̅̅𝑎̅。詳見 9. (D)
+15.(D)
+此題問 Membrane Attack Complex（MAC），為 C5b-9
+16.(C)
+Classical & Lectin Pathway 的 C3 convertase 為 C4̅̅𝑏̅̅2̅̅𝑎̅
+Alternative Pathway 的 C3 convertase 為 C3̅̅𝑏𝐵𝑏 ̅̅̅̅̅
+17.(D)
+(A) 正確。MBL 接上病原體表面的 Mannose and Fucose residues 可以啟動 lectin pathway
+(B) 正確。MBL is present at low concentrations in the plasma of most individuals, but in the presence of 
+infection, its production is increased during the acute-phase response.
+(C) 正確。詳見 13. (A)
+(D) 錯誤。lectin pathway 與 classical pathway 的作用機制較相似，MBL 和 C1q 分子相似，使 C4 分
+解，並引起下面一連串的反應，詳見 13. (A)
+
+18.(B)
+三種 pathway 最後都是活化 C3，並產生 membrane attack complex（MAC）
+19.(C)
+Classical & Lectin Pathway 的 C3 convertase 為 C4̅̅𝑏̅̅2̅̅𝑎̅
+Alternative Pathway 的 C3 convertase 為 C3̅̅𝑏𝐵𝑏 ̅̅̅̅̅
+20.(B) 
+每種 TLR 辨認不同的致病原成分與部位，只有 TLR-4 可以辨認 LPS。詳見 3.(B)
+21.(A)
+TLR-4 辨認 LPS 或 lipoteichoic acid，而革蘭氏陰性菌外膜的 LPS 就是內毒素（Endotoxin）
+An endotoxin of major medical importance is the lipopolysaccharide of the outer cell membrane of Gramnegative bacteria.
+22.(A)
+這題滿難的，只有 TLR-3 是辨識雙股 RNA，下面提供 Toll Like Receptor 的功能表給大家參考：
+
+23.(C)
+(A) Lipopolysaccharides 是革蘭氏陰性菌（Gram negative bacteria）外膜上的成分之一
+(B) CD16 在 NK 細胞（Nature Killer）上，用來與目標細胞上的配體結合，傳遞活化 NK 的訊息
+CD14 則在巨噬細胞(Macrophage)上,革蘭氏陰性菌外膜上的脂多糖類會與 LPS-BP 結合, 再與
+CD14 結合辨認,最後傳給 TLR4 以活化巨噬細胞
+(D) 主要刺激宿主的 macrophages 分泌 TNF-α 與 IL-1
+24.(C)
+(A) IgG 上的 Fab 可與抗原結合，之後 Fc 再與 Macrophage 或 NK 上的 FcR（Fc Receptor）結合，
+進行免疫反應
+(B) C3b、C4b 可與抗原結合，再分別與 Macrophage 或 NK 上的 CR3、CR4 受體結合進行免疫反應
+(C) Interleukin-1（IL-1，白介素-1），用來控制免疫和發炎反應，並非調理素（opsonin）的一種
+(D) C-reactive protein: When C-reactive protein binds to a bacterium, it is not only able to opsonize it but 
+can also activate the complement cascade by binding to C1q.【參考 109 屆考古】
+25.(D)
+NK 屬於先天免疫（Innate Immunity）。
+26.(A)
+T cell 有抗原特異性，而 NK cell 沒有抗原特異性
+CTLs 是 Cytotoxic T Lymphocytes 的簡稱，又稱 CD8+ T cells，也就是 Tc cells
+27.(C) 
+減少 MHC class I 的表現雖然可以逃過 CD8+ T cells（Tc），但是 NK 偏愛 MHC class I 表現少的細
+胞，所以被感染的細胞還是難逃一死
+28.(B)
+體內所有有核的細胞都有表現 MHC class I，所以成熟的紅血球不會有
+
+29.(B)
+〔參考百十一考古〕
+⚫ Vinay et al. 2015 有提到：“It is well established that another fundamental mechanism by which 
+tumors evade immune surveillance is by down-modulating antigen processing machinery affecting 
+the major histocompatibility complex (MHC) I pathway, proteasome subunits latent membrane 
+protein (LMP)2 and LMP7, transporter associated with antigen processing (TAP) protein, and 
+tapasin.” Adopted from “Immune evasion in cancer: Mechanistic basis and therapeutic strategies”
+⚫ Stewart & Abrams 2008 也有提到：“A frequent abnormality observed in many tumour cells 
+involves alterations in the expression of MHC molecules.”
+有興趣了解更多的同學可以參考：
+Vinay, D. S., Ryan, E. P., Pawelec, G., Talib, W. H., Stagg, J., Elkord, E., ... & Kwon, B. S. (2015, 
+December). Immune evasion in cancer: Mechanistic basis and therapeutic strategies. In Seminars in 
+cancer biology (Vol. 35, pp. S185-S198). Academic Press.
+Stewart, T. J., & Abrams, S. I. (2008). How tumours escape mass destruction. Oncogene, 27(45), 
+5894-5903.
+30.(A) 
+補體 C3b、C4b、iC3b（形成 C3b 時的中間產物，較少見）具有調理作用（Opsonization），可增
+強巨噬細胞（Macrophage）、嗜中性細胞（Neutrophil）的吞噬作用
+31.(B) 
+四種調理素受體（Opsonic receptor）：Mannose receptor、Fc receptor、Complement receptor、CD14
+and TLR4
+(A) CD94 可與 MHC class I 結合，用來調控 NK 的毒殺功能
+(B) Mannose receptor、Fc receptor、Complement receptor、CD14 and TLR4 都是 opsonic receptors
+(C) Selectin 為 cell adhesion molecules，在 Cell Migration 的 Tethering 步驟起作用
+32.(B)
+(A) 凝集素路徑需依靠 MBL 與抗原結合
+(B) 替代型路徑依靠 C4b2a 與 C3bBb 裂解 C3，且路徑上也不需要抗原以及抗體抗原結合物參與
+(C) 經典型路徑需依靠抗原抗體結合物啟動
+
+33.(C)
+T 細胞屬於後天性免疫（Adaptive Immunity）
+34.(C)
+Cell migration involves 3 steps: Tethering (Selectin), Triggering (Chemokine), Latching (Integrin)
+35.(C) 
+詳見 18. (B)
+(C) C3 轉化酶為第一會合點
+(D) C5 轉化酶為第二會合點
+36.(D)
+C5b 和 C6、C7 結合成 C5b67，再和 C8、C9 結合成 C5b-9，即為 MAC
+37.(D)
+(D) MBL 參與的 lectin pathway 和 classical pathway 的作用機制較相似，與 alternative pathway 較不
+同，詳見 13. (A)
+38.(A)
+Toll-like receptor 共有 13 種，要熟記每種 TLR 的功能，詳見 22.表格
+39.(C)
+(B) 應該為 long 而非 short，詳見 4.附圖
+
+40.(C)
+(C) ILC1 可分泌 IFN-γ 來對抗病毒或胞內細菌
+41.(C)
+(A) integrin 由 α、β 兩條多肽鏈所組成，不同的 αβ 鏈組合成不同的黏附因子，selectin 都是單體，
+並非是兩條肽鍵結合而成
+(B) TH2 和 eosinophil 上的 CCR3 可和 eotaxin 結合，TH1 和 macrophage 上的 CCR5 可和 MPB-1β
+結合
+(D) NK 有主要有兩類 inhibitory receptor，其中 CD94-NKG2A 能辨認膜上的 HLA-E 分子，而
+KIR2D 及 KIR3D 則能辨認膜上的 HLA-C 分子
+42.(A)
+(A) 應為 alternative pathway。其起始物 C3b 除了可由 classical pathway 和 lectin pathway 的共同 C3 
+convertase（C4b2a）催化，也可以從自己的 pathway 產生的 C3bBb 去催化
+43.(C)
+(C) alternative pathway 必須依賴 classical pathway 與 lectin pathway 被活化，得到 C3 轉化酶，才能
+啟動。必須先啟動之後才能利用自身產生的 C3bBb 催化 C3 的拆解
+44.(D)
+(D) MHC II 跟調理素無關
+45.(B)
+只有 B cell 會有 somatic hypermutation
+
+46.(A)
+Cytotoxic T cells 會表現 FasL, TNF, LT, perforin, granzymes
+47.(B)
+CR3 為 complement receptor，也是 integrin。Selectins 包括 P-selectin、E-selectin 和 L-selectin
+48.(D)
+KIR-3D 是 NK cell receptor， HLA-C 是他的 ligand。
+49.(B)
+(B)MAC 是由 C5b, 6, 7, 8, 9 組成
+50.(D)
+C3 才是 alternative pathway 的第一個蛋白，C4 只出現在 classical pathway
+51.(A)
+(A) 是 CD-14 不是 CD-15
+52.(D)
+T cell epitope 必須是一串完整(sequential)的蛋白片段
+53.(A)
+B cell 屬於適應性免疫（adaptive immunity）
+54.(C)
+在 Cell Migration 的觸發作用中，內皮細胞從 ER 生成或發炎組織分泌趨化激素（Chemokine）與白
+血球結合。
+
+55.(B)
+病原體上的補體會被 phagocyte 的 complement receptor（CR）辨認，使病原體更容易被 phagocyte
+吞噬。
+
+Antigen and Antibody & Antibody Diversity
+組長：陳佳筠 勘誤組員：徐彰廷 學藝：陳冠宇 授課老師：李岳倫
+1.Which one of the following is not true about antibodies?
+(A) Antibodies are highly specific for the three-dimensional conformation of the epitope.
+(B) There are five classes of antibodies-IgG, IgA, IgM, IgD and IgE. 
+(C) Circulating antibodies recognize antigen in serum and tissue fluids. 
+(D) Antibodies have a basic unit of two light chains and two heavy chains in a light-heavy-light-heavy 
+arrangement. 
+2.Antibody heavy and light chains undergo structural modification called ______ following antigen 
+stimulation which fine-tunes their affinity. 
+(A) somatic point mutation 
+(B) recombination of V-J and V-D-J gene segments 
+(C) gene conversion 
+(D) N-nucleotide addition 
+3.Which statement is incorrect about antibody? 
+(A) There are two domains in the light chain and four or five in the heavy chain, depending on their class. 
+(B) Hypervariable regions form the antigen-binding sites. 
+(C) Antibody light chains are encoded by V, D and J gene segments. 
+(D) In humans, IgG molecules of all subclasses cross the placenta and confer a high degree of passive 
+immunity to the newborn. 
+4.Which of the following immunoglobulin usually has polymeric form? 
+(A) IgM
+(B) IgD 
+(C) IgG
+(D) IgE 
+5.Which of the following antibodies is commonly associated with allergic diseases such as asthma and hay 
+fever? 
+(A) IgM
+(B) IgA
+(C) IgG
+(D) IgE 
+
+6.Which statement is incorrect about antibody? 
+(A) Heavy chains and light chains are linked together by disulfide bonds. 
+(B) The class and subclass of an antibody are determined by its light chain type. 
+(C) There are four human IgG subclasses (IgG1, IgG2, IgG3 and IgG4). 
+(D) IgM does not have a hinge region. 
+7.The antibodies found in mucous, saliva, and tears are __________. 
+(A) IgM
+(B) IgA
+(C) IgG
+(D) IgE
+8.Which one of the following antibodies is the predominant antibody in primary immune response? 
+(A) IgM
+(B) IgA
+(C) IgG
+(D) IgE 
+9.對於 B、T 細胞的抗原受體（Antigen Receptor），下列那一種敘述正確？
+(A) 抗原受體的基因在胚原型（Germline）時，蛋白質可被表現
+(B) 遭遇抗原刺激前，抗原受體已呈現於細胞膜上
+(C) 抗原受體接受刺激後，本身單獨即可傳遞訊息使細胞活化
+(D) 細胞活化後，其抗原受體皆可被分泌到細胞外
+10.下列那一種成熟的血球細胞沒有表現第一型主要組織相容性複合體（MHC class I）分子？
+(A) B 細胞
+(B) 紅血球
+(C) T 細胞
+(D) 巨噬細胞
+11.過敏氣喘病人血清中會測得哪一種抗體濃度比正常人高？且此種抗體與引起過敏有關？
+(A) IgA
+(B) IgG
+(C) IgM
+(D) IgE 
+
+12.下列何種抗體可有效抑制流行性感冒病毒入侵我們的呼吸道？
+(A) IgG
+(B) IgM
+(C) IgA 
+(D) IgE 
+13.被寄生蟲感染後，下列何種抗體會異常增加？
+(A) IgA
+(B) IgM
+(C) IgG
+(D) IgE 
+14.在 B 細胞發育及分化過程當中，會遵循 allelic exclusion 的法則來表現抗體，其抗體的基因表現順
+序為？
+(A) μ → λ → κ
+(B) λ → κ → μ
+(C) κ → μ → λ
+(D) μ → κ → λ 
+15.下列哪兩種抗體需要 J chain 來形成多元體的構造？
+(A) IgM, IgD
+(B) IgM, IgG
+(C) IgM, IgE
+(D) IgM, IgA 
+16.造成抗體多變性（Ab Diversity）的機制不包括下列哪項？
+(A) Junctional diversity 
+(B) Multiple germ line V genes 
+(C) Gene cross over 
+(D) Assorted heavy and light chain 
+17.在抗體結構上的 V region 是負責與抗原結合的地方，而 V region 在構造上又可細分為幾個區域，請
+問這些區域中的哪一部分胺基酸序列變異性（variability）最大？
+(A) CDR1
+(B) CDR2 
+(C) FR1
+(D) CDR3 
+
+18.請問 B 細胞利用 Somatic Point Mutation 機制來製造抗體的多變性，是發生在 B 細胞發育過程中的
+那一段時期？
+(A) 在 mature B cell 變為 activated B cell 
+(B) 在 immature B cell 變為 mature B cell 過程
+(C) 在 pre-B cell 變為 Immature B cell 過程
+(D) 在 pro-B cell 變為 pre-B cell 過程中
+19.下列兩種敘述正確情形為何？
+(1)T 細胞受器（TCR）α 及 β chain 之變異性，都可因 Junctional Diversity 而增加
+(2)此變異性增加是發生於第二高度變異區（The Secondary Hypervariable Region）
+(A) 1、2 都正確
+(B) 1、2 都錯誤
+(C) 1 錯誤，2 正確
+(D) 1 正確，2 錯誤
+20.B 型淋巴球抗體基因進行可變區（Variable Region）重組（Recombination），此過程發生於下列哪些
+器官？
+(A) 胸腺
+(B) 骨髓
+(C) 脾臟
+(D) 腸道淋巴組織
+21.在 B 型淋巴球發育分化過程當中，若有一 B 細胞表現抗體時，其 rearrangement of light chain κ gene 
+已表現成功，此時 B 細胞接下來會開始進行下列哪件事？
+(A) 誘發 heavy chain μ gene rearrangement 
+(B) 誘發 light chain λ gene rearrangement 
+(C) 抑制 light chain λ gene rearrangement 
+(D) 以上皆會同時發生
+22.哪種抗體可以作為啟動補體典型途徑（Classical Pathway of Complement）的活化者？
+(A) IgA
+(B) IgD
+(C) IgG
+(D) IgE 
+
+23.下列哪種抗體可透過母體胎盤進入嬰兒體內？
+(A) IgA
+(B) IgM
+(C) IgG
+(D) IgE 
+24.Epithelial cell 上的何種接收器可與 IgA 結合，並貢獻出 secretory component 的部分而黏附在 IgA 上？
+(A) Poly Ig receptor 
+(B) Fc receptor 
+(C) Complement receptor 
+(D) Mannose receptor 
+25.對於魚類、海鮮或是其他食物過敏者，在吃下這類食物後，會很快的出現全身性紅斑、甚至氣管收
+縮現象，這是由於下列何種抗體所引起？
+(A) IgA
+(B) IgD
+(C) IgE
+(D) IgG 
+26.當病人住院後，有不明原因所引起之嘔吐，腹部疼痛，且以血清學檢查下列何種抗體效價增加四倍
+以上時，可歸類為院內感染腸胃炎？
+(A) IgA
+(B) IgE
+(C) IgG
+(D) IgM
+27.有關不同類型（Isotype）免疫球蛋白在人體內分布的情形，下列敘述何者正確？
+(A) 血清中含量最高的是 IgA 
+(B) 腸胃道黏膜中含量最高的為 IgE 
+(C) 體組織液中有高含量的 IgG 
+(D) IgM 可以穿過胎盤，保護胎兒
+28.下列哪一種免疫球蛋白受器常表現在肥大細胞（Mast Cell）表面上引發過敏反應？
+(A) FcαRI
+(B) FcεRI 
+(C) FcγRI
+(D) FcγRIII 
+
+29.出生於溫哥華之加拿大籍華裔青年大衛，今年暑假第一次回臺灣探望高齡祖父母，搭機前接受過 2 
+次 B 型肝炎疫苗注射，他血清中對 B 型肝炎表面抗原的抗體最有可能的情形為何？
+(A) 第一次疫苗接種後第 5 天出現極高量 IgM 
+(B) 第一次疫苗接種後第 5 天出現極高量 IgG 
+(C) 第二次疫苗接種後第 5 天出現極高量 IgM 
+(D) 第二次疫苗接種後第 5 天出現極高量 IgG 
+30.下列哪 2 種免疫球蛋白（Immunoglobulin），可以提供新生兒對抗病原菌保護力？
+(A) IgA 與 IgD 
+(B) IgD 與 IgE 
+(C) IgE 與 IgG 
+(D) IgG 與 IgA
+
+Antigen and Antibody & Antibody Diversity
+組長：陳佳筠 勘誤組員：徐彰廷 學藝：陳冠宇 授課老師：李岳倫
+簡答
+1 2 3 4 5 6 7 8 9 10
+D A C A D B B A B B
+11 12 13 14 15 16 17 18 19 20
+D C D D D C D A D B
+21 22 23 24 25 26 27 28 29 30
+C C C A C C C B D D
+詳解
+1.(D)
+抗體是由兩條 Heavy chain 和 Light chain 組成沒錯，但順序並非 light-heavy-light-heavy，而是
+light-heavy-heavy-light。
+＊詳見下圖：
+
+2.(A) 
+(A)、(B)、(C)都是造成抗體多樣性（結構改變）的因素，但題目是想問能篩選增加對抗原親和力
+的方法，因此選 Somatic point mutation（hypermutation）最為合適。
+＊註：Somatic point mutation：B 細胞受到抗原刺激後，開始出現零星點突變，之後的親和力成熟
+過程（Affinity maturation）時，產生有害突變的 B 細胞會死亡，進而篩選出有益突變、親和力較
+高的 B 細胞，而這些存活的 B 細胞會發生 hypermutation，增加親和力，此過程即為 somatic point 
+mutation。
+3.(C) 
+(C)V, D & J gene segments 是 heavy chain。應改為 V, J & C gene segments 
+4.(A) 
+IgM 通常都以五倍體（Pentamer）的方式出現，只有在作為 BCR 一部份並出現在膜上時為單體
+5.(D)
+IgE 基本在人體不太會出現，再被寄生蟲感染或發生過敏反應時才會被人體製造，因此在題目看到
+過敏就可以先考慮 IgE
+＊註：IgE 和過敏關係：肥大細胞上的 IgE 結合過敏原（allergen）時會被活化，便會進行去顆粒 化
+（Degranulation），釋出顆粒囊泡中的發炎物質，如組織胺（Histamine），引發過敏反應。
+6.(B)
+(B)根據下圖表格，抗體的 class 和 subclass 主要是 heavy chain 而非 light chain 
+7.(B) 
+(B)像黏液、唾液和眼淚這種漿黏液（Seromucous Secretions）中的主要抗體為 IgA 
+＊註：IgA1：鼻腔分泌物（Nasal Secretions）、淚液、唾液、乳汁；IgA2：結腸分泌物
+8.(A) 
+雖然 IgG 是血清中含量最多的抗體，然而題目問的是初級免疫反應（Primary Immune 
+Response）最主要的抗體，因此應該選 IgM，而非次級免疫反應的主要抗體 IgG。
+＊註 1：IgM 為第一次免疫反應（Primary Immune Response）的主要抗體，約占血液所有抗體數量
+的 10%，且在反應後會因清除作用而使其在血液中的濃度降低，可作為感染指標。
+＊註 2：IgG 為第二次免疫反應中的主要抗體，可用來判斷病人是否為第一次感染病原。
+
+9.(B)
+(A) 會先經 V-J & V-D-J 基因重組（包含基因重組、轉錄、RNA 剪接、轉譯）修飾後，其蛋白質
+才可表現。
+(C)通常需 helper T cell 的幫忙才可傳遞訊息使細胞活化。
+(D) BCR（B cell receptor）有 membrane form 和 secret form，像 IgD 插在 B 細胞的細胞膜上就是
+membrane form，不會被分泌到細胞外
+10.(B)
+所有有核的細胞都會表現 MHC class I，因此無核的紅血球並不會表現
+11.(D) 
+IgE 與過敏反應有關，如哮喘和花粉熱患者的 IgE 水平通常較高。
+12.(C) 
+IgA 存在於漿黏液分泌物中（如呼吸道），作為第一道免疫防線，抵禦病原體。
+13.(D) 
+IgE 不僅與過敏反應有關，還在寄生蟲感染的免疫反應中發揮作用。
+14.(D)
+B 細胞的重鏈（μ）基因先重組，接著進行 κ 輕鏈，若 κ 重組失敗則進行 λ 輕鏈的重組。
+15.(D) 
+IgM 通常以五聚體形式存在；IgA 可形成二、三聚體，兩者都需要 J chain 來連接多個抗體單體
+16.(C)
+抗體多樣性的主要機制包括 Multiple germline V genes, V-J & V-D-J recombination, Assorted heavy and 
+light chain, Gene conversion , Junctional diversity 和 Somatic point mutation，而基因交叉互換不是其
+中之一。
+17.(D) 
+CDR3 是抗原結合部位中變異性最高的部分，負責與抗原的特異性結合。
+18.(A)
+體細胞點突變發生於成熟 B 細胞受到抗原刺激後，進一步提高抗體親和力。
+19.(D) 
+T 細胞受器的變異性主要來自 V(D)J 重組和連接多樣性，這些變異集中在第三可變區。
+
+20.(B) 
+B 細胞在骨髓中進行 V(D)J 重組，產生抗體的可變區，並在此階段成熟。
+21.(C)
+若 κ gene 已表現成功，則不用再重組 λ gene。所以會抑制 λ gene rearrangement 
+22.(C) 
+IgM、IgG 皆可作為啟動 Classical Pathway of Complement 的活化者
+23.(C) 
+IgG 是唯一可以穿過 Placenta 的抗體，媽媽藉此提供保護胎兒的被動免疫（Passive Immunity），其
+同時也屬於一種 Innate Immunity 
+24.(A) 
+IgA 接上 poly Ig receptor 後，經由胞吞作用進入黏膜上皮細胞形成運輸泡，通過黏膜上皮組織進入
+luminal surface 後，結合過的 poly Ig receptor 裂解殘留在 IgA 上，形成 secretory component
+25.(C)
+過敏反應與 IgE 有關
+26.(C) 
+IgG 陽性代表「曾經感染」；如 HSV-1 IgG、VZV IgG 等。若有 IgG 效價，亦可比較「急性期」與
+「恢復期」之 IgG 效價，有 4 倍以上差異，代表「正在感染」；如 EBV VCA IgG 等。
+＊可參考以下網址：https://wd.vghtpe.gov.tw/path/Fpage.action?muid=7014&fid=7350
+27.(C) 
+(A)(D)為 IgG 
+(B)為 IgA 
+28.(B) 
+IgE 可與 basophil & mast cell 上的 FcεRI 結合。記法：ε 長的很像 E，所以 IgE 的 heavy chain 就是
+ε，所以就選一個有 ε 的選項，即(B) 
+29.(D) 
+接種後第五天還不會出現體液免疫，要大約兩周後才會出現大量 IgM 
+(D)第二次接種疫苗時，因已有 memory B cell，故 IgG 濃度可以快速達高峰
+30.(D) 
+在人體母乳內，含量最多的抗體是 IgA，而 IgG 又可穿過胎盤來到新生兒體內
+
+The Development of T Cell & Antigen Recognition
+微免考古小隊:蔡昌恩、劉宜瑄、鄭向晴、楊凱淇、吳昕妤 學藝：陳冠宇 授課老師：陳玫潔
+1.Which of the following statements about negative selection during lymphocyte development is most accurate?
+(A) The mechanism of negative selection is the death of cells whose antigen receptors are not stimulated by 
+self-antigens.
+(B) The mechanism of negative selection is apoptosis actively induced by antigen-receptor recognition of 
+self-antigens.
+(C) Negative selection ensures a self-MHC-restricted repertoire of T lymphocytes.
+(D) Negative selection occurs only in T cell maturation and not in B cell maturation.
+(E) The major mechanism of negative selection is inhibition of antigen receptor expression.
+2.γδ T cells may be important for recognition of common antigens at epithelial boundaries between the host 
+and the external environment. The γδ T cells differ from the αβ T cells in which one of the following ways?
+(A) γδ T cells recognize only nonprotein antigens.
+(B) γδ T cells are not MHC-restricted and do not recognize MHC-associated antigens.
+(C) The γδ TCR complex contains CD3γ or CD6δ but not CD3ε.
+(D) Most mature γδ T cells express either CD4 or CD8 but not both.
+(E) γδ T cells lack key biologic activities, including the ability to lyse target cells.
+3.Which of the following descriptions of class I molecules is NOT true?
+(A) The principal function of class I MHC molecules is to display peptides derived from cytosolic proteins 
+on the cell surface.
+(B) Class I MHC molecules bind to CD8 molecules on T cells.
+(C) Human class I MHC molecules include HLA-A, HLA-B, and HLA-C.
+(D) Class I MHC molecules are normally expressed only on dendritic cells and other professional antigen 
+presenting cells.
+(E) A cell expressed class I MHC molecules encoded by genes inherited from both parents.
+4.In the class I MHC pathway of antigen presentation, peptides generated in the cytosol are translocated into 
+the endoplasmic reticulum in which of the following ways?
+(A) By ATP-dependent transport via the transporter associated with antigen-processing (TAP) pump.
+(B) By passive diffusion
+(C) By receptor-mediated endocytosis
+(D) Through membrane pores
+(E) Via the proteasome
+
+5.What is thymic selection?
+(A) Destroys T cells that don’t recognize self-molecules of MHC
+(B) Destroys MHC molecules
+(C) Destroys CD4+ cells that attack self
+(D) Activates T cells
+6.Which of the following statement is incorrect about MHC class I?
+(A) Highly polymorphic than MHC class II genes
+(B) MHC class I genes are co-dominantly expressed
+(C) MHC class I present 8-10 amino acid peptide to CD8+ cells
+(D) In patients with MHC class I deficiency will have trouble to fight bacteria.
+7.Which of the following statement is incorrect about T cell receptor?
+(A) Usually complex with CD3 molecule for signal transduction
+(B) Rearrangement of TCR gene occurs in thymus
+(C) Due to the lack of somatic hypermutation, the diversity of TCR is much less than BCR
+(D) CDR3 regions of TCR is highly variable than CDR1 and CDR2
+8.The co-receptor for helper T and cytotoxic T cells are and .
+(A) CD3, CD8
+(B) CD8, CD3
+(C) CD4, CD8
+(D) CD4, CD3
+9.濾過性病毒利用細胞表面的分子當作進入接受體來選擇可感染的細胞。HIV 用 CD4 當作主要接受
+體，CXCR4 和 CCR5 當作共同接受體。所以 HIV 主要感染下列那一種細胞？
+(A) 細胞毒殺性 T 細胞
+(B) 輔助性 T 細胞
+(C) 活化的 B 細胞
+(D) 自然殺手（NK）細胞
+10. 下列有關胸腺教育的敘述，何者與自我耐受性（Self-tolerance）的形成最不相關？
+(A) 正向選擇（Positive Selection）
+(B) 負向選擇（Negative Selection）
+(C) 調節性 T 細胞（Regulatory T Cell）之發育
+(D) 胸腺 APCs 表現自體抗原（Self-antigen）
+
+11. 有位感染 Mycobacterium leprae（M. leprae）的病人前來就診，病人主要有皮膚發炎與神經系統發
+炎的症狀，血液中對抗 M. leprae 的抗體效價不高，巨噬細胞內的 M. leprae 也沒有很多，下列那種
+細胞比較可能與病人臨床症狀有關？
+(A) 第一型輔助 T 細胞（Type 1 helper T cell）
+(B) 第二型輔助 T 細胞（Type 2 helper T cell）
+(C) 第三型輔助 T 細胞（Type 3 helper T cell）
+(D) 調節性 T 細胞（Regulatory T cell）
+12. 在樹突細胞（Dendritic Cell）吞入抗原後，可藉由何分子呈現給 T cell？
+(A) 與 MHC class I
+(B) 與 MHC class II
+(C) 以上皆是
+(D) 以上皆非
+13. 內生性胜肽與 MHC class I 分子在細胞內何處結合後，送出表現在細胞表面？
+(A) 內質網（Endogenous reticulum）
+(B) 粒線體（Mitochondria）
+(C) 高基氏體（Golgi body）
+(D) 內噬體（Endosome）
+14. T 細胞受器 TCR 中的 δ 基因是坐落於哪一個基因片段中？
+(A) TCRα 的 V 及 J 片段中
+(B) TCRβ 的 D 及 J 片段中
+(C) TCRα 的 J 及 C 片段中
+(D) TCRγ 的 V 及 J 片段中
+
+The Development of T Cell & Antigen Recognition
+微免考古小隊:蔡昌恩、劉宜瑄、鄭向晴、楊凱淇、吳昕妤 學藝：陳冠宇 授課老師：陳玫潔
+選擇題
+1.(B)
+(A)(D)(E) Negative selection 的作用機制是針對未成熟的 T cell 或 B cell 對於自身抗原或是自體細胞
+上的 peptide 結合狀況做篩選，若親和力太強就會將其淘汰掉，故 T cell 與 B cell 皆具
+Negative selection
+(C)選項描述的是 Positive selection
+2.(B)
+(A) γδ T cells 不辨認 MHC，其辨認目標多為完整分子（磷脂質或整段蛋白質），例如針對癌細胞的
+IPP（Isopentenyl pyrophosphate，異戊烯基焦磷酸）或 MIC A/B（MHC I chain-related protein A 
+and protein B），進行辨認然後攻擊
+(C) TCR complex 為 TCR＋CD3，沒有 CD6。CD6 is a surface glycoprotein receptor, which has been
+previously shown to associate with CD3 and co-localize to the center of the IS in static conditions or 
+stable T cell-APC contacts.
+(D) 選項描述為 αβ T cells（補充：60%的 γδ T cell CD4－/CD8－；40%的 γδ T cell CD4－/CD8＋）
+(E) γδ T cells 仍有能力裂解細胞，但不需要抗原呈現細胞提供資訊
+3.(D)
+(D) MHC class I 分子在體內所有有核的細胞上都會出現，由胞毒 T 細胞上的 CD8 辨識
+1 2 3 4 5 6 7 8 9 10
+B B D A A D C C B A
+11 12 13 14
+A C A A
+
+4.(A)
+(A) 細胞質中未經處理的抗原和 DRIPs（Defected Ribosomal Products）會被 proteasome 切成片段，
+此時處理過的抗原就可以透過 TAP 進入 ER
+5.(A)
+(A) Thymic selection 包含 positive selection 與 negative selection
+(C) 在胸腺時 T cell 尚未完全分化，CD4、CD8 皆表現，沒有 CD4+ single positive 的 T Cell
+＊百九學長表示：(C)有疑義。在 thymic cortex 中，cortical epithelial cells 表現 MHC II 多於
+MHC I，所以表現 CD4 的多於 CD8 的；也就是說，在出 cortex 到 medulla 前，應該已經出現
+單陽性的 CD4，之後的 negative selection 就是在檢驗是否會與 self-antigen 作用，所以如果有的
+話就應該要 apoptosis 才對，因此我覺得這個答案也可以。附上一張我找到的圖：
+
+6.(D)
+(A) 由左圖可知，MHC class I 基因多樣性大於 MHC class II
+(D) 細胞免疫主要針對內生性抗原（右圖藍色區域），體液免疫主要針對外源性抗原（右圖黃色區
+域），此為主要答案（但 MHC class I deficiency 亦會影響 pathogen defense）
+7.(C)
+(C) TCR 的多樣性遠多於 BCR（約為 20000 倍），因為 TCR 的 J 很多
+
+8.(C)
+CD4、CD8 分別對應到 TH、TC
+9.(B)
+(B) CD4 為 Helper T cell 的 co-receptor，HIV 用 CD4 作為主要接受體就會影響到 Helper T cell
+10.(A)
+(A) Positive Selection 主要與 MHC restriction 有關
+(B) Negative Selection 主要與 self-tolerance 有關
+(C) 調節 T 細胞（Regulatory T Cell）曾被命名為抑制 T 細胞（Suppressor T Cell），會調控身體對於
+自身與外來抗原的免疫反應，並藉由抑制其他免疫細胞的功能來避免自體免疫疾病
+11.(A)
+(A) Mycobacterium leprae 有多種形式，傾向 TH2 型反應的時候，M. leprae 在體內廣泛散播，激烈
+的抗體反應對感染抑制無幫助，M. leprae 繼續在巨噬細胞內生長，此時血液中對抗 M. leprae
+的抗體效價高；傾向 TH1 型反應時，M. leprae 的生長受巨噬細胞的抑制
+12.(C)
+(C) 樹突細胞可同時表現 MHC I 與 MHC II（如右圖），所以超強
+13.(A)
+(A) 蛋白質片段會被 proteasome 在細胞質切成小片段，由 TAP 轉移至內質
+網，ERAAP 再將過長的多肽鏈再切割，使其與 MHC class I 結合（8〜10
+個 amino acids），詳見 4. (A)的附圖
+14.(A)
+Both the α and δ loci include V (variable), J (joining), and C (constant) segments, and 
+the δ locus also includes D (diversity) segments. The δ locus is situated within the α
+locus, between the α variable and α joining genes.
+首先，γ chain 相似於 α chain，都只有 V、J、C，但是 δ chain 相似於 β chain，有 V、D、J、C。
+在下圖中，我們可以觀察到 δ chain 的基因坐落在 α chain 的 V 與 J 之間，故答案應選(A)。
+而 γ chain 的基因就離群索居自己一區
+
+T cell Activation and Cell Cooperation in the Immune Responses
+微免考古小隊:蔡昌恩、劉宜瑄、鄭向晴、楊凱淇、吳昕妤 學藝：陳冠宇 授課老師：陳玫潔
+1.下列何者是殺手 T 淋巴細胞殺死標的細胞的主要機制之一？
+Which of the following is one of the main mechanisms for killer T lymphocytes to kill cells?
+(A) 一氧化氮（NO） (B) 補體（Complement）
+(C) Perforin (D) 氧自由基（O2
+－
+）
+2.抗體生成過程，B cell 進行 Class Switch 及 Affinity maturation 主要依賴何種細胞幫忙？
+Antibodies generation process, B cell goes through class switch and affinity maturation depends what kind 
+of cells?
+(A) CD4 T cell (B) CD8 T cell (C) NK cell (D) Macrophage
+3.下列何者誘使 T 細胞功能性分化為 TH1 細胞？
+Which of the following functional T cell to induce differentiation into TH1 cell?
+(A) IL-4 (B) IL-10 (C) IL-12 (D) IL-13
+4.B 細胞在 germinal center 中發育有以下何者現象發生？
+Which of the following plays a role in B cells in germinal center development?
+(1) 與 follicular dendritic cell 競爭結合 antigen 的能力（compete for binding to antigen）
+(2) Bcl-2 表現下降（Bcl-2 performance declines）
+(3) 進行 somatic hypermutation（cause somatic hypermutation）
+(4) 與 T cell 接觸 class switch（T cell class switch）
+(A) 以上皆是 (B) 2, 3, 4 (C) 1, 2, 3 (D) 1, 3, 4
+5.下列何種可使 T 淋巴細胞進行細胞凋亡（Apoptosis）？
+Which of the following can lead to apoptosis of T lymphocytes?
+(A) IL-1 (B) IL-2
+(C) FasL（Fas ligand） (D) TGF-β
+6.IL-2 is produced by TH cell, to ?
+(A) active macrophage
+(B) active antigen-presenting cells
+(C) cause phagocytosis
+(D) stimulate TH cell maturation
+(E) None of the above
+
+7.下列何者為 TH1 所分泌的 cytokines？
+Which of the following is secreted by TH1 cytokines?
+(A) IL-4 (B) IFN-γ (C) IL-12 (D) IL-10
+8.Which one of the following is secreted by TH1 cells?
+(A) Interleukin-4 (B) Interleukin-10
+(C) Interferon-beta (D) Interferon-gamma
+9.下列何者可誘使 T 細胞分化為功能性 TH1 細胞？
+Which of the following can induce T cell differentiation into functional TH1 cells?
+(1) IL-4 (2) IL-10 (3) IL-12 (4) IL-13
+(A) 1, 2 (B) 1, 3 (C) 3 (D) 4
+10. 下列哪一種細胞黏附分子（adhesion molecules）不屬於 integrin 這個家族？
+Which of the following cell adhesion molecule do not belong to integrin this family?
+(A) VLA-4 (B) LFA-1 (C) CCR3 (D) CR4
+11. IL-5 促使 isotype switch 為以下何種 antibody？
+(A) IgM (B) IgG1 (C) IgA (D) IgE
+12. 在沒有 T 細胞幫助下刺激產生的抗體，主要是下列哪種類型？
+When there are no T cells helping production of antibodies, what type will it be?
+(A) IgM (B) IgG (C) IgA (D) IgE
+13. 下列那一種細胞激素會抑制 TH1？
+Which of the following will inhibit TH1？
+(A) IFN-γ (B) TNF-α (C) IL-10 (D) IL-12
+14. 過量 IgM 的免疫徵狀（hyper-IgM）是由於下列何種分子缺乏所造成？
+Excess IgM immune symptom is due to a lack of these molecules caused by what?
+(A) CD40L (B) CD28 (C) CTLA-4 (D) FasL
+15. 下列關於 X-linked hyper-IgM syndrome 的敘述，何者錯誤？
+Which of the following X-linked hyper-IgM syndrome is wrong?
+(A) 抗體無法有正常的 isotype switching → cannot have an isotype switching
+(B) CD4+ T 細胞數目下降許多 CD4+ T declines
+(C) 因 CD40 ligand 缺陷而造成此疾病 CD40 ligand due to defects caused by this disease
+(D) 病人易有自體免疫反應發生 autoimmune response occurs
+
+16. Which of the following is true?
+(A) Beta interferon attacks invading viruses
+(B) Alpha interferon promotes phagocytosis
+(C) Alpha interferon acts against specific viruses
+(D) Alpha interferon is an antiviral protein
+(E) Gamma interferon causes bactericidal activity by macrophages
+17. Which one of the following causes transmembrane channels in target cells?
+(A) Perforin
+(B) IL-1
+(C) IL-2
+(D) Hapten
+(E) Antigen
+18. Which of the following recognizes antigens displayed on host cells with MHC II?
+(A) B cell
+(B) TH cell
+(C) TC cell
+(D) NK cell
+(E) Basophil
+19. The specificity of an antibody is due to .
+(A) the constant portions of the H and L chains
+(B) its valence
+(C) the H chains
+(D) the L chains
+.
+22. The presence of which of the following indicates a current infection rather than a pervious infection or 
+vaccination?
+(A) IgG (B) IgM (C) IgA (D) IgD (E) IgE
+(E) the variable portions of the H and L chains
+20.The antibodies found in mucus, saliva and tears are
+(A) IgG (B) IgM (C) IgA (D) IgD (E) IgE
+21.The additions to IgG, the antibodies that can fix complement are
+(A) IgG (B) IgM (C) IgA
+.
+(D) IgD (E) IgE
+
+23. Antigen-antibody binding may result in all the following except .
+(A) IL-2 production
+(B) opsonization of antigen
+(C) complement activation
+(D) agglutination of antigen
+(E) neutralization of the antigen
+24. Activation of C3a results in all the following except .
+(A) increase blood vessel permeability
+(B) attraction of phagocytes
+(C) acute inflammation
+(D) fever
+(E) None of the above
+25. The complement protein cascade is the same for the classical pathway, alternative pathway, and lectin 
+pathway beginning with the activation of .
+(A) C1 (B) C2 (C) C3 (D) C5 (E) C6
+26. All the following are true of IgG except .
+(A) It confers congenital immunity
+(B) It is the important factor of the secondary antibody response
+(C) It is the major circulating antibody
+(D) It is critically important in allergic reaction
+27.Class II MHC genes code for .
+(A) certain secreted complement components
+(B) self receptors recognized by natural killer cells
+(C) all HLA antigen
+(D) receptors located primarily on macrophages, dendritic cells and B cells
+(E) All of the choices are correct
+28. The membrane attack stage of the complement cascade involves .
+(A) initiation of the cascade
+(B) production of inflammatory cytokines
+(C) a ring-shaped protein digests holes in bacteria cell membrane and virus envelopes
+(D) cleaving of C3 to yield C3a and C3b
+(E) C1q binds to surface receptors on a membrane
+
+29. The immunoglobulin class that is the only one capable of crossing the placenta is .
+(A) IgA (B) IgD (C) IgE (D) IgG (E) IgM
+30. All the following are characteristics of IgM except .
+(A) It has 10 antigen binding site
+(B) It contains a central J chain
+(C) It is the first class synthesized by a plasma cell
+(D) It can fix complement
+(E) It is a dimer
+31. Which immunoglobulin classes can fix complement?
+(A) IgM only
+(B) IgG only
+(C) IgD only
+(D) IgE and IgA
+(E) IgM and IgG
+32. The immunoglobulin class that has an Fc region that binds to receptors on basophils and mast cell is .
+(A) IgA (B) IgD (C) IgE (D) IgG (E) IgM
+33.Cytotoxic T cell .
+(A) stimulate B cell proliferation
+(B) lack specificity for a target cell
+(C) secrete granzymes and perforins that damage target cells
+(D) secrete interleukin-2 to stimulate B and T cell
+(E) All choices are correct
+34. Which of the following antibodies can effectively inhibit influenza virus?
+(A) IgG (B) IgM (C) IgA (D) IgE
+35.下列何種可使 T 淋巴細胞進行程式凋亡（Apoptosis）？
+Which of the following can lead to apoptosis of T lymphocytes?
+(A) IL-1
+(B) IL-2
+(C) FasL (Fas ligand)
+(D) TGF-β
+
+36. When T lymphocyte contact with the antigen-presenting cell and activation, what does CTLA-4 molecule 
+contact with?
+(A) CD28 (B) CD4 (C) B7 (D) MHC class II
+37. Antibody generation process, B cell class switching, and affinity maturation requires which cells?
+(A) CD4 T cell (B) CD8 T cell (C) NK cell (D) Macrophage
+38. Which of the following is correct about germinal center?
+(A) 為 B cell 發育的特殊區域，因此不會有 B cell 的凋亡
+A special area for B cell development, so there is no apoptosis in B cells.
+(B) 被大量 γδ 細胞所包圍
+Surrounded by a large number of γδ cells.
+(C) 存在淋巴結中，抗原刺激後會消失
+Will disappear after the presence of lymph nodes, antigen stimulation.
+(D) 是抗體反應產生記憶的主要區域
+Antibody reaction is the main area of memory.
+39. Naive T lymphocyte activation in addition to passing the message through the TCR, which of the 
+following will take delivery of the second message reaches full activation?
+(A) CD2 (B) CD4 (C) CD19 (D) CD28
+40. Which cytokine is responsible for the class switching from IgM to IgE?
+(A) IFN-γ
+(B) TGF-β
+(C) IL-6
+(D) IL-4
+(E) IL-5
+41. Which cytokine, together with the proinflammatory cytokine IL-6, supports the differentiation of IL-17 
+producing T cells?
+(A) IFN-γ
+(B) TGF-β
+(C) IL-6
+(D) IL-4
+(E) IL-5
+
+T cell Activation and Cell Cooperation in the Immune Responses
+微免考古小隊:蔡昌恩、劉宜瑄、鄭向晴、楊凱淇、吳昕妤 學藝：陳冠宇 授課老師：陳玫潔
+選擇題
+1 2 3 4 5 6 7 8 9 10
+C A C D C D B D C C
+11 12 13 14 15 16 17 18 19 20
+D A C A B E A B E C
+21 22 23 24 25 26 27 28 29 30
+B B A D C D D C D E
+31 32 33 34 35 36 37 38 39 40
+E C C C C C A D D D
+41
+B
+1.(C)
+(C) 穿孔素（Perforin）是由胞毒 T 細胞或自然殺手細胞所分泌的細胞溶解蛋白質，它們會插入目
+標細胞的細胞膜中，形成孔隙
+2.(A)
+CD4 的 T 細胞是輔助 T 細胞，CD8 的 T 細胞是殺手 T 細胞，而促進 B 細胞分化的是輔助 T 細胞
+3.(C)
+IL-12 的功能之一是，使初始 T 細胞（naïve T cells）分化成 TH1，如下圖（很重要！）
+4.(D)
+(1) (3) (4) 正確
+(2) 錯誤。Bcl-2 (anti-apoptotic protein) 在細胞中扮演抑制細胞凋亡的角色，生發中心（germinal
+center）細胞被防止凋亡的訊號活化後，會釋放 Bcl-2 蛋白。
+
+5.(C)
+(C) 殺手 T 細胞會瞄準表現 Fas 的目標細胞，產生 Fas 配位（FasL）連結，促使目標細胞凋亡
+6.(D)
+IL-2 可以調節 Naïve CD4+ T 細胞分化為 TH1 與 TH2 的功能
+7.(B)
+(B) TH1 分泌 IFN-γ 活化巨噬細胞並幫助 B 細胞產生抗體
+8.(D)
+(D) TH1 分泌 IFN-γ 活化巨噬細胞並幫助 B 細胞產生抗體
+9.(C)
+(C) IL-12 誘使 Naïve CD4+ T cell 分化為 TH1
+10.(C)
+(A) (B) (D) VLA-4、LFA-1 與 CR4 都是整聯蛋白（Integrin）的一種
+(C) CCR3（CC Type Chemokine Receptor 3）不是細胞黏附分子（cell adhesion molecules），典型的
+Chemokine Receptor 結構如下圖所示，是有七個 transmembrane domains 的 G protein-coupled
+receptor
+11.(C)
+(C) IL-5 可以使老鼠的 B 細胞經免疫球蛋白類型轉換（isotype switch）變成產生 IgA 的漿細胞
+12.(A)
+(C) 免疫球蛋白受 T 細胞活化 class switch 之前，只表現 IgD 與 IgM
+13.(C)
+(A) (D) IFN-γ 與 IL-12 為刺激 Naïve T Cell 分化為 TH1 的細胞激素
+(C) IL-10 由 Treg 分泌，會抑制 T 細胞的分化與細胞激素分泌
+
+14.(A)
+(A) X-linked hyper-IgM syndrome（XHIM syndrome）：一種罕見的先天性免疫不全疾病，由影響 B
+細胞和 T 細胞相互作用的基因缺損而致。患者缺乏免疫球蛋白類型轉換的能力，IgM 抗體無法
+轉換成 IgG、IgA、IgE，因此在患者的血清中，IgG、IgA 抗體常數值低下，IgM 抗體的量則升
+高或正常。最常見的類型為 T 細胞上 CD40 ligand 基因突變，造成 T 細胞 CD40 配體無法與 B
+細胞 CD40 蛋白結合，此類型為 X 染色體隱性遺傳
+(B) CD28 缺乏將造成 TH cell 無法增殖
+(C) CTLA-4 只在調節 T 細胞（regulatory T cell）表現
+(D) FasL 與誘發細胞凋亡有關
+15.(B)
+(B) CD40L（CD154）不表現與輔助 T 細胞增殖無關，是基因缺損導致
+16.(E)
+(A) β 干擾素抑制病毒在細胞內的複製，而非直接攻擊病毒本身
+(B) α 干擾素無法促進吞噬作用，這是 γ 干擾素的工作
+(C) α 干擾素是通用的，不是針對特定病毒
+(D) 干擾素不是活化蛋白，而是抑制蛋白
+17.(A)
+(A) 穿孔素（Perforin）的功能是引起目標細胞的跨膜通道
+18.(B)
+(A) B cell 也有 MHC II 進行抗原呈現: presenting not recognizing
+(B) CD4+ cell
+19.(E)
+(E) 抗體的特異性是由重鏈和輕鏈的可變部分決定的
+20.(C)
+(A) IgA 由黏膜上皮細胞合成，為漿黏液的主要抗體
+21.(B)
+(B) 只有 IgG 與 IgM 可以活化補體
+22.(B)
+(B) 不需經免疫球蛋白類型轉換，B 細胞被輔助 T 細胞活化為漿細胞後，直接大量產生 IgM
+
+23.(A)
+(A) IL-2 由 T 細胞產生，與抗體無關
+24.(D)
+C3a 為過敏毒素（anaphylatoxins）
+C3a 在先天免疫中的作用，包括透過收縮內皮細胞來促使血管舒張，增加血管通透性以及刺激肥大
+細胞和嗜鹼性球的 degranulation，誘導嗜中性球、巨噬細胞和嗜酸性球降解病原體
+C3a 在適應性免疫中能調節白血球、B 細胞、單核球的增殖，也是 TH1 細胞生成所必需的訊號，並
+調控 TH1 表達 IL-10 和 IL-2 受體
+25.(C)
+三種補體的活化路徑都會產生 C3b
+26.(D)
+(A) congenital immunity 意指先天免疫性，其免疫力源於 IgG 自身抗體（autoantibody）
+(B) IgG 是再次免疫應答（secondary antibody response）的主要抗體，親合力高，在體內以高濃度
+遍布全身，是全身性體液免疫反應的主要效應分子之一
+(C) 同上
+(D) 過敏反應最主要的 IgE
+27.(D)
+MHC 基因會表現在抗原呈現細胞（APCs），而 MHC II 基因表現在少數細胞，如樹突細胞、巨噬
+細胞、B 細胞
+28.(C)
+Membrane attack 是指 C5-9 形成環狀 membrane attack complex（MAC）的階段
+29.(D)
+IgG 是唯一可以通過胎盤屏障進行運輸（placental transfer）的抗體
+30.(E)
+IgM 是個五聚物（pentamer），不是二聚物（dimer）
+31.(E)
+IgG、IgM 可以活化補體系統的典型途徑（classical pathway）
+32.(C)
+抗體皆適用於 Fab 跟 Fc 的分類，而 IgE 則可以與 Basophil 和 mast cell 的上的受體結合
+
+33.(C)
+胞毒 T 細胞活化之後，會分泌顆粒酶與穿孔素，分解受感染的細胞
+(B) 專一性辨識被感染的細胞，與之結合並釋放毒殺物質
+34.(C)
+IgA 主要的工作是抓抗原，常出現在肺或腸道等黏膜區域
+35.(C)
+(B) FasL 可以誘發細胞凋亡，且其效率遠大於 Perforin & Granzymes
+36.(C)
+第二訊號的負向調控：生物體內 CTLA-4 可以從抗原呈現細胞表面抓住或移除 B7-1 與 B7-2，因此
+便不會觸發初始 T 細胞上唯一的 B7 受器──CD28
+38.(D)
+(A) Affinity maturation 會使原本親和力太低的 B 細胞進行細胞凋亡
+(B) 主要是被 αβ T 細胞包圍
+(C) 會形成一個 senescent germinal center（老化），但不會消失
+(D) 生發中心（Germinal center）含有記憶 B 細胞（Memory B cells，MBCs）之類的漿細胞，能維
+持血漿抗體濃度，保持免疫系統的能力
+39.(D)
+CD28 是初始 T 細胞上唯一的 B7 受器。T 細胞的 TCR 與 MHC 抗原複合物連結時，若缺乏
+CD28，B7 交互作用會使得 T 細胞缺乏活動力
+40.(D)
+TFH產生的細胞激素會影響 T-dependent B 細胞抗體 Isotype Switch 的方向
+IL-4 可以促進 IgE 分泌，抑制 IgM 分泌
+
+41.(B)
+第三訊號：細胞激素影響 T 細胞的分化。TGF-β、IL-6、IL-23 促進 TH17 分泌 IL-17、IL-22
+簡單來說 IL-17 是一種細胞激素（cytokine），主要功能是活化噬中性球（neutrophil）離開 bone 
+marrow 舒適圈，去發炎的地方打怪吞細菌。而 IL-17 需要先被 TGF-β（Transforming Growth 
+Factor-β）結合 IL-6（或 IL-21）的複合物，分化（differentiate）才能啟動。
+＊IL-17 能被 CD8+ T cells、γδ T cells、Nature Killer T cells 和 Innate Lymphoid Cells（ILC）等細胞
+製造出來。
+＊詳情請拜讀 paper，連結：https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4530463/
+左圖圖說
+IL-17 透過一系列途徑使 neutrophil 出動，前往
+發炎區域（inflammation）執行抗菌功能。
+
+Staphylococcus, Streptococcus, & Enterococcus Part I
+組長：陳佳筠 勘誤組員：徐彰廷 學藝：陳冠宇 授課老師：鍾筱菁
+1.關於 Staphylococcus aureus 的特徵，下列何者錯誤？
+(A)Gram-Positive Cocci
+(B) 菌落會產生溶血
+(C) Catalase-Positive
+(D)the Fab Domain
+2.下列關於 Streptococcus pneumoniae 的敘述，何者錯誤？
+(A)會產生 Capsule，且為重要致病因子
+(B) 又稱 Pneumococcus，是引發肺炎的致病菌，透過接觸醫療院所而感染到
+(C) 常被感染的高危險群為嬰幼兒及大於 60 歲長者
+(D)是革蘭氏陽性球菌，常呈現雙球菌型態
+3.下列有關 Staphylococcus aureus 毒素的敘述，何者錯誤？
+(A)β-Toxin 會分解 Membrane 磷脂質構造而破壞細胞
+(B) γ-Toxin 為 Cytotoxin，會在人體細胞膜形成孔洞而破壞細胞
+(C) Enterotoxin 具熱不穩定性，主要會引起細菌性中毒
+(D)TSST-1 是 Superantigen，嚴重的時候會引起系統性休克
+4.下列有關 Scarlet fever 的敘述，何者錯誤？
+(A)是 Group A Streptococci 引發咽喉炎之併發症
+(B) 臨床上可見病患口腔中產生 Strawberry Tongue
+(C) 臨床上可見病患皮膚上產生 Pastia’s Lines
+(D)是由細菌感染之噬菌體溶解細菌後，釋放出 Pyrogenic Exotoxin 所造成
+5.某產婦分娩時發生早期破水，且產程長達 30 小時，胎兒出生 1 周後發現罹患腦膜炎，腦脊髓液檢
+體培養出觸媒（Catalase）陰性之革蘭氏陽性球菌，在血液瓊脂平板上菌落呈現β溶血，且 CAMP 
+試驗為陽性。此新生兒最可能感染哪一種病原菌？
+(A)Staphylococcus aureus
+(B) Streptococcus pyogenes
+(C) Enterococcus faecalis
+(D)Streptococcus agalactiae
+
+6.下列何者非葡萄球菌菌種（Staphylococcus Species）所造成的主要疾病？
+(A)食物中毒（Food Poisoning）
+(B) 膿皰瘡（Impetigo）
+(C) 皮膚燙傷樣綜合症（Scalded Skin Syndrome）
+(D)胃潰瘍（Gastric Ulcer）
+7.糞腸球菌（Enterococcus faecalis）最有可能引發下列哪種疾病？
+(A)肺炎（Pneumonia）
+(B) 腦膜炎（Meningitis）
+(C) 食物中毒（Food Poisoning）
+(D)泌尿道感染（Urinary Tract Infection）
+8.金黃色葡萄球菌（Staphylococcus aureus）最不可能產生下列何種酵素？
+(A)玻尿酸酶（Hyaluronidase）
+(B) 纖溶酶（Fibrinolysin）
+(C) 凝固酶（Coagulase）
+(D)C5a 蛋白酶（C5a Peptidase）
+9.有關 A 型鏈球菌（Group A Streptococci）之溶血素 O（Streptolysin O）的敘述，下列何者錯誤？
+(A)對氧氣敏感（Oxygen-Labile）
+(B) 其所引起的抗體（ASO）之效價，是診斷鏈球菌咽喉炎所引起的風濕熱（Rheumatic Fever）的
+重要依據
+(C) 在此細菌所引起的膿皮症（Pyoderma）病患中容易測得高效價的抗體（ASO）
+(D)與肺炎鏈球菌（S. pneumoniae）所產生之對氧氣敏感的毒素之抗原性有關
+10.下列哪一項是 Streptococcus pyogenes 的 Superantigen？
+(A) M-Protein
+(B) F-Protein
+(C) Heat-Labile Toxin（SpeA）
+(D) Streptolysin S
+11.肺炎鏈球菌（Streptococcus pneumoniae）能對青黴素（Penicillin）產生抗性，主要是因下列何者？
+(A) 產生青黴素分解酶（Penicillinase）
+(B) 青黴素結合蛋白質（Penicillin-Binding Protein）改變
+(C) 阻擋青黴素進入菌體
+(D) 細胞壁結構改變
+
+Staphylococcus, Streptococcus, & Enterococcus Part I
+組長：陳佳筠 勘誤組員：徐彰廷 學藝：陳冠宇 授課老師：鍾筱菁
+簡答
+1 2 3 4 5 6 7 8 9 10
+D B C D D D D D C C
+11
+B
+1.(D) 
+金黃色葡萄球菌（Staphylococcus aureus）為革蘭氏陽性菌（G＋Cocci），有過氧化氫酶（Catalase）
+且大多數有凝集酶（Coagulase）的菌種 
+(D) Fab domain 是抗體的結構部分，與細菌無關。
+2.(B) 
+肺炎鏈球菌（Streptococcus pneumoniae）是 Endogenous（內生性，自己感染自己），像 CoNS、腸球
+菌才是常見的院內感染（Nosocomial Infection）
+3.(C) 
+金黃色葡萄球菌(S. aureus)的腸毒素（Enterotoxin）是一種熱穩定毒素
+4.(D) 
+並非由噬菌體溶解細菌之後釋放出來的，而是原為噬菌體所有的 pyrogenic exotoxin 基因插入至細菌
+染色體，隨著細菌生長而表達出來的
+5.(D) 
+從過氧化氫酶（Catalase）陰性之革蘭氏陽性球菌可知是 Streptococci，再從β 溶血得知是
+Streptococcus pyogenes 或是 Streptococcus agalactiae，最後看到 CAMP 的反應呈陽性得知
+Streptococcus agalactiae 
+菌種 Catalase test Hemolysis on blood agar CAMP test
+Staphylococcus aureus 陽性 β溶血 陰性
+Streptococcus pyogenes 陰性 β溶血 陰性
+Enterococcus faecalis 陰性 γ溶血（無溶血） 陰性
+Streptococcus agalactiae陰性 β溶血 陽性
+6.(D) 
+胃潰瘍常見的致病因子是幽門螺旋桿菌（Helicobacter pylori）
+
+7.(D) 
+腸球菌為人體長存的腸內菌，存在於大腸及泌尿生殖道中，是院內感染的主要細菌之一，常見的 有
+泌尿道感染、腹膜感染、菌血症、心內膜炎
+8.(D) 
+C5a 蛋白酶（C5a Peptidase）是化膿性鏈球菌（Streptococcus pyogenes）降低補體反應的酵素
+9.(C) 
+因為膿皮症屬於皮膚性感染，看不到抗體的存在（因 ASO 會被膽固醇抑制，而皮膚上有膽固醇），
+所以無法測得抗體
+10.(C)
+化膿鏈球菌會產生一種對高溫不穩定的致熱素 speA（Streptococcal pyogenic exotoxin A），是一種超
+級抗原
+11.(B)
+「Penicillin-Binding Protein（PBP）改變」抗藥機轉的細菌包含 S. aureus（MRSA）、S. pneumoniae
+（PRSP），帶有抗藥性基因(如 mecA)的細菌會轉譯出另一型對 Penicillin 親和力較弱的蛋白質，使
+Penicillin 等 β-lactam 類藥物失效(因為無法被送進細菌去抑制細胞壁合成)
+
+Staphylococcus, Streptococcus & Enterococcus Part II
+組長：陳佳筠 勘誤組員：徐彰廷 學藝：陳冠宇 授課老師：鍾筱菁
+1.A 10-year-old child develops glomerulonephritis a week after he was treated for a sore throat. What is the 
+causal agent and this agent is identified by serotyping of the
+(A) Streptococcus agalactiae／capsule
+(B) Streptococcus pyogenes／M protein
+(C) Streptococcus mutans／OM proteins
+(D) Streptococcus epidermidis／pili
+(E) Streptococcus aureus／teichoic acids
+2.A 60-year-old woman is hospitalized following a stroke and develops a high-grade fever with chills. She is 
+catheterized due to urine incontinence and receives cephalosporin for treatment of pneumonia. Blood 
+cultures and Gram stain are performed by the laboratory. Organisms isolated are catalase-negative grampositive cocci that are capable of growth in 6.5% sodium chloride and resistant to. Vancomycin. Which of 
+the following is the most likely causal agent?
+(A) Enterococcus faecium
+(B) Staphylococcus aureus
+(C) Staphylococcus epidermidis
+(D) Streptococcus pyogenes
+(E) Viridans streptococci
+3.Which of the following pairs between a disease and its infectious agent is false?
+① Toxic shock syndrome−Streptococcus saprophyticus
+② Neonatal meningitis− Streptococcus agalactiae
+③ Bacterial pharyngitis− Streptococcus aureus
+④ Subacute endocarditis− Streptococcus mitis
+⑤ Necrotizing fasciitis−Streptococcus pyogenes
+(A) ①③④
+(B) ②③⑤
+(C) ②④⑤
+(D) ①③④⑤
+(E) ①②④⑤
+
+4.Bacteria can colonize at different sites of the human body. Which of the following pairs of a bacterium and 
+its natural habitat is TRUE?
+① Skin−Staphylococcus aureus
+② Oropharynx− Streptococcus pyogenes
+③ Large intestine−Enterococcus faecalis
+④ Mouth− Viridans streptococci
+(A) ①②
+(B) ②③
+(C) ③④
+(D) ②③④
+(E) ①②③④
+5.Staphylococcus food poisoning is caused by
+(A) Ingestion of preformed exotoxin
+(B) Colonization of a mucosal surface followed by the production of endotoxin.
+(C) Colonization of a wound or abscess followed by local exotoxin production.
+(D) All of the above
+6.Each of the following statements about the classification of Streptococci is correct except
+(A) Pneumococci（Streptococcus pneumonia）and the Viridans streptococci can be differentiated by the 
+bile solubility and their susceptibility to optochin
+(B) Viridans streptococci are identified by Lancefield grouping, which is based on the C carbohydrate in 
+the cell well
+(C) Pneumococci and the Viridans streptococci are all alpha-hemolytic
+7.The coagulase test can be used to differentiate
+(A) Pneumococci (Streptococcus pneumonia)
+(B) Staphylococcus aureus from Staphylococcus epidermidis
+(C) Streptococcus pyogenes from Streptococcus viridans
+(D) Streptococcus pyogenes from Staphylococcus epidermidis
+8.Viridans streptococci commonly cause
+(A) Pneumonia
+(B) Meningitis
+(C) Subacute endocarditis
+(D) Otitis media
+
+9.The symptoms in scarlet fever are due to
+(A) Streptolysin
+(B) Coagulase
+(C) Pyrogenic toxin
+(D) Alpha toxin
+10.The most severe Streptococcal diseases are caused by
+(A) Group A Streptococci
+(B) Group B Streptococci
+(C) Group C Streptococci
+(D) Pneumococci
+11.All of the following are clinical diseases of suppurative streptococcal infection except
+(A) Pharyngitis
+(B) Scarlet fever
+(C) Necrotizing fasciitis
+(D) Acute glomerulonephritis (AGN)
+12.A hospitalized elderly with an indwelling catheter develops an urinary tract infection (UTI). The laboratory 
+test detects gram-positive bacteria. Which of the following is the most probable cause
+(A) Staphylococcus aureus
+(B) Streptococcus pyogenes
+(C) Streptococcus agalactiae
+(D) Staphylococcus epidermidis
+13.Which of the following virulence factors is NOT produced by S. aureus?
+(A) Exfoliative toxin
+(B) IgA protease
+(C) DNase
+(D) Enterotoxin A
+14.Which of the following link between the disease and its infectious agent is WRONG?
+(A) Toxic shock syndrome−S. aureus
+(B) Bacterial pharyngitis−S. agalactiae
+(C) Bacterial pneumonia−S. pneumoniae
+(D) Subacute endocarditis−S. mitis
+
+15.Streptococcus genus can be classified into several groups by Lancefield methods. Which bacterial 
+structure is targeted in this methodology?
+(A) Carbohydrate in cell wall
+(B) Peptidoglycan in cell wall
+(C) Phospholipid in cell wall
+(D) Teichoic acids in cell wall
+16.Bacteria can colonize at different sites of the human body. Which of the following pairs of bacteria and its 
+normal location is NOT correct?
+(A) Nasal−S. aureus
+(B) Oropharynx−S. pyogenes
+(C) Skin−E. faecalis
+(D) Throat−S. pneumonia
+17.What is the antigen used to develop vaccines to prevent the presence of bacterial pneumonia in elder 
+people or infants?
+(A) Capsule
+(B) M-protein
+(C) Toxins
+(D) Pili
+18.A 10-year-old child develops pneumonia. The organisms isolated from the sputum are gram-positive cocci 
+that are alpha hemolytic on blood agar and sensitive to optochin. What is the causal agent and which 
+structure of the causal agent provides protection against phagocytosis?
+(A) Catalase
+(B) Capsule
+(C) Coagulase
+(D) M protein
+(E) Teichoic acid
+
+19.Which of the following pairs between a disease and its infectious agent is FALSE?
+① Toxic shock syndrome−Streptococcus saprophyticus
+② Neonatal meningitis−Streptococcus agalactiae
+③ Bacterial pharyngitis−Streptococcus aureus
+④ Subacute endocarditis−Streptococcus mitis
+⑤ Necrotizing fasciitis−Streptococcus pyogenes
+(A) ①③
+(B) ②③④
+(C) ①④⑤
+(D) ①③④
+(E) ①②⑤
+20.Staphylococcus aureus is one of the most common pathogens causing a broad-spectrum disease
+(A) What are the two key features to identify this pathogen?
+(B) Please write one toxin produced by this pathogen and this toxin associated disease.
+
+Staphylococcus, Streptococcus & Enterococcus Part II
+組長：陳佳筠 勘誤組員：徐彰廷 學藝：陳冠宇 授課老師：鍾筱菁
+簡答
+1 2 3 4 5 6 7 8 9 10
+B A X E A B B C C A
+11 12 13 14 15 16 17 18 19 20
+D D B B A C A B A 見詳解
+1.(B)
+關鍵字：sore throat, glomerulonephritis
+化膿性鏈球菌主要造成的感染部位是喉嚨跟皮膚，然後會由 class I 的 M protein 產生風濕熱
+(Rheumatic fever)(常見於咽喉炎之非化膿性併發症)或是由具有腎型(nephrogenic) M protein 的
+GAS 引發急性腎小球腎炎(Acute glomerulonephritis)(常見於皮膚感染的併發症)。
+(A) Streptococcus agalactiae：
+新生兒：腦膜炎、敗血症
+懷孕婦女：子宮內膜炎、泌尿生殖道感染
+成年人：菌血症、肺炎
+(B) Streptococcus pyogenes：
+喉嚨感染：鏈球菌型咽炎、猩紅熱(併發症)
+皮膚感染：膿疱病、膿疱瘡(局部感染)、丹毒、蜂窩性組織炎、壞死性筋膜炎
+(C) Streptococcus mutans：蛀牙
+(D) 正確名字是 Staphylococcus epidermidis；Staphylococcus epidermidis 引發心內膜炎、敗血症
+(E) 正確名字是 Staphylococcus aureus；Staphylococcus aureus 會引發以下臨床症狀:
+局部性皮膚感染：毛囊炎、癤、癰、膿疱
+ 全身系統感染：骨髓炎、菌血症、肺炎、敗血性關節炎
+2.(A)
+關鍵字：catalase positive, resistant to vancomycin
+(B)(C)都是 catalase-positive，所以可以先刪去。(A)(D)(E)都是 catalase-negative 且 gram-positive，而
+urine incontinence 代表泌尿道那邊被感染且對 vancomycin 有抗藥性，符合特徵的為腸球菌屬
+(Enterococcus)
+3.X
+① 錯誤，90%的 toxic shock syndrome（TSS）是由 Staphylococcus aureus（金黃色葡萄球菌）引起
+② 正確，GBS 最重要的臨床症狀就是 Neonatal meningitis，Streptococcus agalactiae（無乳鏈球菌）
+也屬於 GBS
+③ 錯誤，Bacterial pharyngitis 主要為 Streptococcus pyogenes（化膿性鏈球菌）引發
+④ 正確，Subacute endocarditis（亞急性心內膜炎）是由 Viridans Streptococci（草綠鏈球菌）的 mitis 
+Group（Streptococcus mitis）引起
+
+⑤ 正確，壞死性筋膜炎主要為 Streptococcus pyogenes（化膿性鏈球菌）引起
+這題跟第 19 題一模一樣，根據學長姐在醫學盃參考百七大學長的臨床經驗，這題正確選項應
+該要選①③所以第 19 題才是正確的，如果按照這一題的選項的話，沒有正確答案
+4.(E)
+①Staphylococcus aureus 的 natural habitat 是在鼻咽和皮膚
+②Streptococcus pyogenes 的 natural habitat 主要是在口咽部
+③Enterococcus faecalis 的 natural habitat 主要是在大腸
+④Viridans Streptococci 常見分布於口腔、口咽、消化道、生殖道
+小技巧：葡萄球菌大多分布在皮膚和黏膜，然後鏈球菌大部分是在口咽
+5.(A)
+Enterotoxin（腸毒素）是常見引發食物中毒的致病原，腸毒素發生在腸子，會刺激肥大細胞釋出發
+炎物質，造成腸胃蠕動增加、水分流失、噁心、嘔吐，另外腸毒素是一種 superantigen，而且是一種
+heat stable 的外毒素，加熱不一定能完全消滅
+6.(B)
+(A) 正確，分辨 Streptococcus pneumonia 肺炎鏈球菌與其他α-hemolytic species 的方法有三：
+I. Inulin fermentation：肺炎鏈球菌可以發酵 inulin
+II. Optochin test：肺炎鏈球菌對 optochin 比較敏感（optochin sensitive）
+III. Bile solubility test：肺炎鏈球菌會被膽鹽溶解
+(B) Lancefield grouping 是用在β-hemolysis，將β-hemolysis 再分為 A、B、C、F、G，Viridans 
+Streptococci 是α-hemolysis，因此這選項錯誤，不過後面的敘述是對的，是根據細菌細胞壁上
+的 C-carbohydrate 特殊醣蛋白的不同來進行分類的，但儘管如此，有錯就該選
+(C) Viridans Streptococci 就是一群α-hemolytic 與 nonhemolytic 鏈球菌組成，然而整體會被歸類在
+α-hemolytic
+7.(B)
+Coagulase test 是金黃色葡萄球菌特有，選(B)
+(A) 要分離肺炎鏈球菌可以參考第六題的(A)
+(C) S.pyogenes 是β−hemolysis，S. viridans 是α−hemolysis，看溶血即可
+(D) S.pyogenes 為 catalase(−)，S. epidermidis 為 catalase(+)
+ (Staphylococcus 皆為 catalase(+)，而 Sterptococcus 皆為 catalase(−)）
+8.(C)
+草綠鏈球菌可以分成 Mitis 跟 Mutans 等 groups
+Mitis group 會造成亞急性心內膜炎（Subacute endocarditis），因此(C)正確
+Mutans group 會造成蛀牙
+9.(C)
+Scarlet fever 是猩紅熱，是化膿性鏈球菌的喉嚨感染臨床疾病。pyrogenic toxin 就是 S.pyogenes 會分
+泌的化膿性外毒素（Streptococcal pyrogenic exotoxin, Spe）又稱發紅毒素（erythrogenic exotoxin）
+
+(A) 確實是化膿性鏈球菌的外毒素,但他是會讓細胞掛掉的東西（溶血、分解溶酶體）
+(B) 是金黃色葡萄球菌的酵素，是細胞表面蛋白，主要把可溶的 fibrinogen 變成不可溶的 fibrin
+(D) 是金黃色葡萄球菌的 toxins，會造成組織損傷
+10.(A)
+最嚴重的 Streptococcal diseases 包含猩紅熱、蜂窩性組織炎、壞死性筋膜炎等，都是由 GAS（主
+要是化膿性鏈球菌）引起的，因此選(A)
+11.(D)
+Suppurative 是化膿的意思，(A)咽頭炎、(B)猩紅熱、(C)壞死性筋膜炎都是由化膿性鏈球菌所引發
+的，但(D)急性腎絲球腎炎（Acute glomerulonephritis）是非化膿性的（nonsuppurative），多為皮膚感
+染後併發
+ 小提醒：化膿性鏈球菌的咽喉炎併發症風濕熱（Rheumatic fever）也是非化膿性的喔
+12.(D)
+關鍵字：hospitalized,UTI
+Catheter 是導管，題幹描述一個人裝導尿管得病。CoNS 大多會造成院內伺機性感染，常見於感染裝
+導尿管的患者(CoNS：不會製造 Coagulase 的葡萄球菌，基本上就是非金黃色葡萄球菌的葡萄球菌)
+Sterptococcus 需生長在較營養的環境，比較不會出現在院內伺機性感染的案例
+答案選(D)
+13.(B)
+致病因子（virulence factors）分為三種：結構、毒素、水解酶
+(A) Exfoliative toxin（脫皮毒素）為毒素的一種，可以分解 Serine 的一種酶，會造成脫皮症
+(B) IgA protease 是由肺炎鏈球菌分泌，分解出現在黏膜上的 IgA 抗體
+(C) DNase 可經由水解作用，將 DNA 骨架上的磷酸雙脂鍵切斷
+(D) Enterotoxin A 為 Staphylococcus aureus 常見毒素的一種
+14.(B)
+Bacterial pharyngitis 常見於 S. pyogenes 的感染
+15.(A)
+Lancefield method 是依據細菌細胞壁表面的特殊醣蛋白抗原（C-carbohydrate）的組成進行分類
+16.(C)
+(A) S. aureus 的 natural habitat 是在鼻咽和皮膚
+(B) S. pyogenes 的 natural habitat 主要是在口咽部
+(C) E. faecalis 的 natural habitat 主要是在大腸
+(D) S. pneumoniae 的 natural habitat 主要是在上呼吸道
+
+17.(A)
+肺炎鏈球菌的疫苗通常在秋季或冬季施打,疫苗由莢膜製作，選(A)。疫苗有兩種：PPV（2 歲以上的
+人）跟 PVC13（兩個月到五歲大的小小孩）
+通常疫苗都是利用菌體的莢膜的抗原製造的
+18.(B)
+關鍵字：pneumonia、gram-positive cocci、α-hemolytic、sensitive to optochin，因此可推測為感染 S. 
+pneumoniae
+(A) S. pneumoniae 是 Catalase(−)
+(B) 莢膜可以抑制吞噬作用
+(C) Coagulase 的功能是使血液凝集，出現在金黃色葡萄球菌
+(D) M protein 是 GAS 特有(可作為 GAS 分類依據)，S. pneumoniae 不屬於 GAS
+(E) Teichoic acid 出現在金黃色葡萄球菌細胞壁上
+※但這題似乎只需要知道 Capsule 負責抵抗 phagocytosis 就可以選答案了
+19.(A)
+請參考第四題
+20.如下所述
+(A) Catalase(+)、Coagulase(+)
+(B) Cytotoxin/組織損傷、Exfoliative toxins/脫皮症候群、Enterotoxin/食物中毒、TSST-1/全身性休
+克
+
+Enterobacteriaceae
+微免考古小隊:蔡昌恩、劉宜瑄、鄭向晴、楊凱淇、吳昕妤 學藝：陳冠宇 授課老師：鍾筱菁
+1.About family Enterobacteriaceae, which of following description is wrong?
+(A) Oxidase negative.
+(B) For Salmonella infection, fewer than 100 bacterial cells can be enough to cause an infection.
+(C) Uropathogenic E. coli can cause hemolytic uremic syndrome (HUS).
+(D) Proteus mirabilis can swarm.
+2.Which of the following bacterial component is gram-negative bacterial endotoxin?
+(A) Peptidoglycan
+(B) Lipid teichoic acid
+(C) Capsule
+(D) Lipopolysaccharide
+3.Which of the following enteropathogenic E. coli can cause hemolytic uremic syndrome (HUS)?
+(A) Enterotoxigenic E. coli, ETEC
+(B) Enterohemorrhagic E. coli, EHEC
+(C) Enteropathogenic E. coli, EPEC
+(D) Enteroaggregative E. coli, EAEC
+4.Which of the following is a shiga toxin-producing E. coli?
+(A) Enterohemorrhagic E. coli, EHEC
+(B) Enteropathogenic E. coli, EPEC
+(C) Enteroinvasive E. coli, EIEC
+(D) Enterotoxigenic E. coli, ETEC
+5.Which of the following toxin resembles Labile toxin of ETEC?
+(A) Diphtheria toxin
+(B) Stable toxin of ETEC
+(C) Cholera toxin
+(D) Tetanus toxin
+6.About Salmonella spp., which of following description is wrong?
+(A) Do not contain flagella.
+(B) More than 2500 unique serotypes.
+(C) Salmonella typhi infection can be diagnosed by Widal’s test.
+(D) Associated with raw egg-induced food poisoning.
+7.Which is the major pathogen for causing plague?
+(A) Salmonella typhi
+(B) Yersinia pestis
+(C) Yersinia enterocolitica
+
+(D) Vibrio parahaemolyticus
+
+8.A 65-year-old man develops dysuria（排尿困難）and hematuria（血尿）. A Gram stain of a urine
+sample shows gram-negative rods. Culture of the urine on EMB agar reveals lactose-negative without
+evidence of swarming motility. Which one of the following organisms is MOST likely to be the cause of 
+his urinary tract infection?
+(A) Streptococcus faecalis
+(B) Pseudomonos aeruginosa
+(C) Proteus vulgaris
+(D) Escherichia coli
+9.The pathogenesis of which one of the following organisms is MOST likely to involve invasion of the 
+intestinal mucosa?
+(A) Vibrio cholera
+(B) Shigella sonnei
+(C) Enterotoxigenic Escherichia coli
+(D) Clostridium botulinum
+(E) Bacteroides fragilis
+10. Each of the following statements concerning gram-negative rods is correct EXCEPT:
+(A) Escherichia coli is part of the normal flora of the colon; therefore, it does not cause diarrhea.
+(B) E. coli ferments lactose, whereas the enteric pathogens Shigella and Salmonella do not.
+(C) Klebsiella pneumoniae, although a cause of pneumonia, is part of the normal flora of the colon.
+(D) Proteus species are highly motile organisms that are found in the human colon and cause urinary tract 
+infections.
+(E) Salmonella is part of the normal flora in animal but is a pathogen of human.
+11. Each of the following statements concerning enterotoxins is correct EXCEPT:
+(A) Enterotoxins typically cause bloody diarrhea with leukocytes in the stool.
+(B) Staphylococcus aureus produces an enterotoxin that causes vomiting and diarrhea.
+(C) Vibrio cholera causes cholera by producing an enterotoxin that activates adenylate cyclase.
+(D) Escherichia coli enterotoxin activates adenylate cyclase, resulting diarrhea.
+(E) Bacillus cereus enterotoxin activates adenylate cyclase, resulting diarrhea.
+12. is frequently implicated in nosocomial infections and is an important cause of community 
+acquired pneumonia in adults.
+(A) Escherichia coli
+(B) Klebsiella
+(C) Salmonella
+(D) Proteus
+
+13. 某國小數十名學童在五日內先後下痢，症狀包括腹瀉、發燒、嘔吐、裡急後重（tenesmus）。其中
+十多名患者的糞便中，及該校師生用來洗手的地下水中，分離出一株不發酵乳糖，無運動性之腸
+內桿菌科（Enterobacteriaceae）細菌。衛生單位對患者施以家居隔離，清毒地下水，並對全校師生
+授予抗生素後，疫情幸未再擴大。下列菌屬中，何者最有可能是造成此次事件的元兇？
+(A) 埃希氏菌屬（Escherichia）
+(B) 沙門氏菌屬（Salmonella）
+(C) 志賀氏菌屬（Shigella）
+(D) 耶爾辛氏菌屬（Yersinia）
+14. 大腸桿菌（Escherichia coli）所引起各種不同型態的腹瀉症（diarrhea）主要取決於：
+(A) 共同感染的其他細菌之種類
+(B) 此菌的體表抗原性
+(C) 宿主的免疫力
+(D) 此菌所產生的毒力因素
+15. 一名從越南去美國旅遊的年輕女孩，因原因不明的持續發燒而至當地一家醫院就醫。醫師發現除
+了發燒，病人還有肝腫大、腹瀉的症狀，且在其中血液中分離到一株不發酵乳糖的腸內桿菌科
+（Enterobacteriaceae）細菌。病人在服用能殺死該菌的抗生素 4 天後，即退燒並出院。此菌最有可
+能屬於下列哪種菌屬？
+(A)假單胞桿菌屬（Psedomonas）
+(B)克雷白氏菌屬（Klebsiella）
+(C)變形桿菌屬（Proteus）
+(D) 沙門氏菌屬（Salmonella）
+16. 承上題，下列何者是此疾病的主要感染源？
+(A) 空調系統
+(B) 長期帶菌者
+(C) 地下水
+(D) 貓狗等寵物
+17. 腸道出血性大腸桿菌（Enterohemorrhagic Escherichia coli）所引起的嚴重併發症，最常見者為：
+(A) 腸穿孔（intestinal perforation）
+(B) 腦膜炎（meningitis）
+(C) 急性腎絲球腎炎（acute glomerulonephritis）
+(D) 溶血性尿毒症候群（hemolytic uremic syndrome）
+
+18. 會侵入腸壁細胞壁，並進一步擴散至鄰近細胞，造成受侵犯細胞死亡，而破壞大腸黏膜的細菌屬
+於下列何屬細菌？
+(A) 志賀氏菌屬（Shigella）
+(B) 霍亂弧菌屬（Vibrio）
+(C) 幽門桿菌屬（Helicobacter）
+(D) 沙門氏菌屬（Salmonella）
+19. 腸內桿菌科（Enterobacteriaceae）細菌對下列何種醣類的發酵能力，常被用來作為初步鑑定之用？
+(A) 葡萄糖（glucose）
+(B) 蔗糖（sucrose）
+(C) 乳糖（lactose）
+(D) 阿拉伯糖（arabinose）
+20. All Enterobacteriaceae share all of the following characteristics EXCEPT:
+(A) Non-spore forming
+(B) Ferment glucose
+(C) Gram-positive
+(D) Rod-shaped（bacilli）
+21. Which of the following about Salmonella is not correct?
+(A) The most common sources of human infections are poultry, egg, dairy products and foods prepared on 
+contaminated work surfaces.
+(B) They can cross the epithelial cell membrane of intestinal tract, but can’t enter the lymphatic system 
+and blood stream.
+(C) They can colonize virtually all animals and cause animal-to-animal spread.
+(D) They can enter epithelial cell of intestinal tract from M cell.
+22. Which of the following about Shigella is not correct?
+(A) They are not transmitted person to person.
+(B) They can cross the epithelial cell membrane of intestinal tract, but can’t enter the lymphatic system 
+and blood stream.
+(C) Shigellosis produces a smaller volume of feces, but with blood, mucus and inflammatory cells.
+(D) They can enter epithelial cell of intestinal tract from M cell.
+
+Enterobacteriaceae
+微免考古小隊:蔡昌恩、劉宜瑄、鄭向晴、楊凱淇、吳昕妤 學藝：陳冠宇 授課老師：鍾筱菁
+選擇題
+1.(B)
+沙門氏菌會寄生人體細胞，使非吞噬細胞開始吞噬，因此數量不夠時不會致病，需要 105 以上個細
+菌才會有症狀。然而人類體溫相當適合沙門氏菌繁殖，通常 1～3 天就能繁殖到能造成發病的數量
+Shigella: <100 CFU即可感染
+註：老師講義上 HUS 是寫在 EHEC
+2.(D)
+(A) 肽聚醣（Peptidoglycan）：細菌細胞壁材質
+(B) 脂磷壁酸（Lipid teichoic acid）：在革蘭氏陽性菌細胞壁上
+(C) 莢膜（Capsule）：某些細菌表面的黏液層，成分是多醣或胺基酸
+(D) 脂多醣（Lipopolysaccharide，LPS）：革蘭氏陰性菌內毒素
+3.(B)
+(A) ETEC 腸毒性大腸桿菌，產生腸毒素造成食物中毒
+(B) EHEC 腸道出血性大腸桿菌，會產生「類志賀氏毒素」（Shiga-like toxin，SLT）造成溶血性尿
+毒症候群（HUS）。感染特徵是血便與發燒，HUS 患者會少尿、水腫，以致痙攣，嚴重者會腎
+衰竭。傳染源為未煮熟的牛肉、被牛糞汙染的蔬果或未經巴氏消毒的牛奶
+(C) EPEC 腸內病原性大腸桿菌，造成水瀉，患者多為抵抗力差的兩歲以下幼兒。黏附因子和
+EHEC 一樣，但沒有 SLT，所以沒有出血症狀
+(D) EAEC 腸道附著性大腸桿菌，造成嬰兒腹瀉，嘔吐但不發燒。可能跟克隆氏症有關
+＊EIEC（Enteroinvasive E. coli）腸侵襲性大腸桿菌，形態和症狀都極其類似志賀桿菌
+4.(A)
+呈上題，產生 SLT 的是 EHEC
+1 2 3 4 5 6 7 8 9 10
+B D B A C A B B B A
+11 12 13 14 15 16 17 18 19 20
+A B C D D C D A C C
+21 22
+B A
+
+5.(C)
+(A) 白喉毒素，來自白喉桿菌（C. diphtheriae）
+(B) 熱穩定型毒素
+(C) 霍亂毒素
+＊ETEC 分泌的不耐熱毒素分為 LT-1 與 LT-2，主要致病者是 LT-1，功能與構造類似霍亂毒素
+(D) 破傷風毒素，來自破傷風梭菌（C. tetani）
+6.(D)
+(A) 有鞭毛
+(B) 沙門氏菌屬有邦戈沙門氏菌（S. bongori）與腸內沙門氏菌（S. enterica）兩種，屬內合計超過
+2600 個血清型（serotype）
+(C) 傷寒沙門氏菌可以用 Widal Test 檢測出來，而醫檢師實務使用的抗血清凝集試驗要找 Vi 抗原，
+程序更複雜
+(D) 沙門氏菌感染有 95%是食物中毒，生食肉蛋會大幅增加糞口傳染的機率
+7.(B)
+(A) 傷寒沙門氏菌
+(B) 鼠疫桿菌，即鼠疫成因。Yersinia 源於成功分離它的耶爾辛醫師（巴斯德的學生），pestis 是拉
+丁文形容詞「瘟疫的」
+(C) 小腸結腸耶氏菌
+(D) 腸炎弧菌（副溶血弧菌）
+8.(B)
+(A) 糞腸球菌（E. faecalis 或 S. faecalis）是革蘭氏陽性菌
+(B) 綠膿桿菌（P. aeruginosa）為革蘭氏陰性菌
+(C) 普通變形桿菌（P. vulgaris）會 swarm
+(D) 大腸桿菌（E. coli）會代謝乳糖(lactose-positive)
+9.(B)
+志賀菌屬有 S. dysenteriae、S. flexneri、S. boydii 和 S. sonnei 四種，都會入侵腸道上皮細胞
+(A) 霍亂弧菌（V. cholera）為糞口傳播。非本章範圍，但看到種小名應該能聯想到霍亂
+(C) 大腸桿菌 ETEC 會分泌腸毒素，但除非潰瘍，否則細菌本身不會穿入腸壁
+(D) 肉毒桿菌（C. botulinum）致命原因是肉毒桿菌毒素，為神經阻斷劑，讓人鬆弛到死
+(E) 脆弱類桿菌（B. fragilis）是腸道共生菌，通常無害，但若移動到血液中（例如手術感染）就會
+引發菌血症
+
+10.(A)
+大腸桿菌雖是正常菌叢，但 ETEC、EHEC、EPEC 皆會造成腹瀉
+(C) 克氏肺炎菌（K. pneumoniae）雖然會讓免疫力下降者生病，但確實存在你我的腸道中
+革蘭氏染色法當初就是為了區分肺炎鏈球菌（S. pneumoniae）與克氏肺炎菌所發明的
+11.(A)
+造成血便的原因是其他毒素（例如：Shiga Toxin、Shiga-Like Toxin、Verocytotoxin），而非腸毒素
+(B) 金黃色葡萄球菌（S. aureus）是革蘭氏陽性，會產生腸毒素，令人上吐下瀉
+(C) 霍亂毒素會活化腺苷酸環化酶（AC，EC 4.6.1.1），促使氯離子通道開啟，帶動其餘通道開啟，
+產生腹瀉，並打亂人體細胞調控
+(D) (E)原理同上
+(E) 為芽孢桿菌屬的仙人掌桿菌（B. cereus）
+12.(B)
+成人肺炎往往肇因自克氏肺炎菌，它屬於克氏菌屬（Klebsiella），另三個選項主要造成腹瀉嘔吐
+13.(C)
+不發酵乳糖，故非埃希氏菌屬（Escherichia），無運動性，故非沙門氏菌屬（Salmonella）
+題目說傳染途徑為糞口傳染，故推斷為志賀菌屬，選(C)
+耶氏菌雖然也有糞尿傳播的紀錄，但主要傳播途徑是血液與接觸，特別是冰箱──像是 Yersinia 
+enterocolitica，它們喜歡 1～4℃的環境，恰好就是冷藏室的溫度，通常因吃到受汙染的食物而由胃
+腸道進入人體
+14.(D)
+ETEC 與 EHEC 等大腸桿菌引起的症狀不同，是因為產生的毒素不同，體表抗原可用來區分亞種，
+但和致病機制無關
+15.(D)
+假單胞菌屬幾乎什麼都吃，克氏菌屬會代謝乳糖與檸檬酸。剩下變形桿菌屬與沙門氏菌屬，前者
+的症狀通常都在腸胃道、泌尿與血液，不太影響肝臟，後者才會造成肝腫大，選(D)
+16.(C)
+沙門氏菌感染有 95%是食物中毒
+17.(D)
+請參見第 3 題
+
+18.(A)
+請參見第 9 題，幽門桿菌屬（Helicobacter）的幽門螺旋桿菌（H. pylori）會造成胃潰瘍
+19.(C)
+實驗室常用 MacConkey agar 的顏色來辨別腸內病原體，不會代謝乳糖的菌落呈無色，會代謝乳糖
+的則呈粉紫色
+埃希氏菌屬與克氏菌屬會代謝乳糖，因而呈粉紫色
+代謝乳糖的能力是多系群（Polyphyletic group），分辨很實用，但不代表這兩屬細菌親緣關係較近
+20.(C)
+變形菌門是革蘭氏陰性菌。大家都是桿菌，不以孢子繁殖，且都能厭氧代謝葡萄糖
+21.(B)
+沙門氏菌被 macrophage 吃掉後可以進入血液與淋巴循環中，造成全身性的感染。動物間傳染、奶
+蛋肉傳染與微皺褶細胞（M cell）都是對的
+22.(A)
+賀氏菌可以人人糞口傳染
+
+Bacillus, Corynebacteria, Listeria
+微免考古小隊:蔡昌恩、劉宜瑄、鄭向晴、楊凱淇、吳昕妤 學藝：陳冠宇 授課老師：鍾筱菁
+1.Which is not the virulence factor in Bacillus anthracis?
+(A) Spores
+(B) Flagella
+(C) Edema toxin
+(D) Lethal toxin
+2.The major antigen of Bacillus anthracis vaccine is?
+(A) Protective Antigen (PA83)
+(B) Edema factor (EF)
+(C) Lethal factor (LF)
+(D) Capsule
+3.Which food would contain emetic form of Bacillus cereus enterotoxin?
+(A) Meat
+(B) Vegetable
+(C) Cola
+(D) Rice
+4.Which of the following bacteria can multiply in the food products, when stored in the refrigerator?
+(A) Bacillus anthracis
+(B) Bacillus cereus
+(C) Listeria monocytogenes
+(D) Erysipelothrix rhusiopathiae
+5.Which L.monocytogenes virulence is responsible for vacuolar lysis and helps bacteria enter into 
+cytoplasm?
+(A) Corynebacterium diphtheria
+(B) Bacillus anthracis
+(C) Listeria monocytogenes
+(D) Erysipelothrix rhusiopathiae
+6.Which of the following bacteria is not a zoonotic pathogen?
+(A) Corynebacterium diphtheria
+(B) Bacillus anthracis
+(C) Listeria monocytogenes
+(D) Erysipelothrix rhusiopathiae
+7.About diphtheria toxin, which of following description is wrong?
+(A) Can be identified by.
+(B) An A-B toxin.
+(C) Encoded by tox gene.
+(D) Inhibit cellular protein synthesis by binding 60S subunit of ribosome.
+
+8.DPT vaccine is the vaccine for preventing three infectious diseases, except:
+(A) Anthrax
+(B) Diphtheria
+(C) Pertussis
+(D) Tetanus
+
+9.Which one of the following is an important virulence factor for Bacillus anthracis?
+(A) Protective antigen (B) Spore (C) Pili
+(D) A toxin that inhibits peptide chain elongation factor EF-3 (E) Lecithinase
+10. Movement of Listeria monoctogenes inside of host cells is caused by?
+(A) Inducing host cell actin polymerization.
+(B) The formation of pili (fimbriae) on the listeriae surface.
+(C) Pseudopod formation.
+(D) The movement of listeria flagella.
+(E) Tumbling motility.
+11. Five hours after eating fried rice at a restaurant, a 24-year-old woman and her husband both developed 
+nausea, vomiting and diarrhea. Which one of the organisms is the most likely to be involved?
+(A) Clostridium perfringens
+(B) Enterotoxigenic E. coli
+(C) Bacillus cereus
+(D) Salmonella typhi
+12.Which of the following about Corynebacteria diphtheriae is not correct?
+(A) The toxicity of diphtheria is caused by an exotoxin
+(B) Treating first giving antitoxin then antibiotic
+(C) The baby was born two months for the first vaccination
+(D) By immunodiffusion test (Elek test) can detect whether a person has neutralizing antibodies against 
+the toxin
+13. An 8-year-old boy develops severe sore throat. On examination, a grayish exudate (pseudomembrane) is 
+seen over the tonsils and pharynx. The differential diagnosis of severe pharyngitis such as this includes 
+Group A streptococcal infection, Epstein-Barr virus infection, Neisseria gonorrhoeae pharyngitis and
+diphtheria. The cause of the boy’s pharyngitis is most likely to be:
+(A) A gram-negative bacillus. (B) A single stranded positive strand RNA.
+(C) A catalase-positive gram positive coccus that grows on clusters.
+(D) A club-shape gram positive bacterium. (E) A double stranded RNA virus.
+14.下列有關 Bacillus cereus 的敘述，何者錯誤？
+Of the following regarding Bacillus cereus, which is incorrect?
+(A) 需要特殊培養基，細菌在低溫培養效果較好（cold enrichment）
+(B) 具有 heat-stable proteolysis-resistant enterotoxin 會引起嘔吐
+(C) 具有 heat-labile enterotoxin 會引起腹瀉
+(D) 在宿主體內形成 capsule 的菌株可造成肺炎
+
+15.關於 Bacillus anthracis 毒素的敘述，哪一項錯誤？
+Regarding the toxin of Bacillus anthracis, which of the following is incorrect?
+(A) 是由一種質體所攜帶的基因導致
+(B) protective antigen＋edema factor＝edema toxin
+(C) protective antigen＋lethal factor＝lethal toxin
+(D) protective antigen 單獨作用毒性最強，對細胞破壞力最大
+16.下列何種細菌的特徵是初步判定為單核球增多性李斯特菌（Listeria monocytogenes）感染之重要依
+據？
+Which significant characteristic of bacteria listed below is the initial determinant of the infectious 
+mechanism for of Listeria monocytogenes?
+(A) 溶血性
+(B) 運動性
+(C) 染色法
+(D) 血清型
+17.下列關於 Bacillus anthracis 感染的敘述何者錯誤？
+Which of the following regarding the infection mechanism of Bacillus anthracis, which is incorrect?
+(A) 經由皮膚感染是人類最罕見的傳染方式
+(B) 在草食性動物最常見的感染途徑是食入孢子
+(C) 吸入性傳染是畜牧業從業人員常見的感染途徑
+(D) 生化武器攻擊最常用的是吸入性的感染途徑
+18.下列有關 Listeria monocytogenes 之敘述何者不正確？
+(A) Humoral immunity is important
+(B) Tumbling motility at 20-25°C
+(C) Important pathogen in veterinary
+(D) Intracellular pathogen
+19.下列有關 Cutaneous anthrax 之醫療方法何者不正確？
+(A) 投與 ciprofloxacin
+(B) 注射 antitoxin
+(C) Incision of skin lesion
+(D) 投與 amoxicillin
+20.下列何種疾病之症狀 mimic a viral respiratory illness and rapidly progress high fever？
+(A) cutaneous anthrax
+(B) inhalation anthrax
+(C) gastrointestinal anthrax
+(D) all of the above
+21.下列何者不屬於 Non-spore forming Gram-positive Bacilli？
+(A) Clostridium
+(B) Propionibacterum
+(C) Listeria
+(D) Corynebacterum
+
+Bacillus, Corynebacteria, Listeria
+微免考古小隊:蔡昌恩、劉宜瑄、鄭向晴、楊凱淇、吳昕妤 學藝：陳冠宇 授課老師：鍾筱菁
+選擇題
+1.(B)
+本題問哪個不是炭疽桿菌的致病因子
+(A) 是細菌的一種特殊休眠體，具有感染性，他們跑到體內後會被吞噬細胞吞噬，然後在吞噬細胞
+裡面複製，跟隨吞噬細胞進入血液循環後，就會快速繁殖、分泌毒素
+(B) 正解
+(C) 是由 PA63 跟 Edema Factor 組合而成的外毒素，會引起局部水腫並干擾巨噬細胞的吞噬作用
+(D) 是由 PA63 跟 Lethal Factor 組成而成的外毒素，會阻撓細胞訊息傳遞，特別針對殺巨噬細胞
+2.(A)
+要選一個具有抗原性的東西才能做疫苗，這樣體內才能產生抗體
+(A) 正解。PA83 負責結合到目標細胞的蛋白，結合後會變成 PA63＋PA20，其中 PA63 形成孔道，
+使細菌釋放毒素到細胞，可以做為抗原。若要研發炭疽病疫苗，會先針對 PA83 或 PA63，因為
+消滅這兩者就等於 EF 和 LF 也失去功用
+(B) 把 ATP 轉換成 cAMP，造成離子失衡，導致腹瀉或水腫，跟抗原性無關
+(C) 破壞促進細胞生長的 MEK 而造成細胞死亡，跟抗原性無關
+(D) 不同細菌的莢膜會有特定結構可作抗原（想想大腸桿菌的 K antigen），但抗原性弱，除非經過
+特殊處理，不然一般不會用來作為疫苗抗原
+【小提醒】不過肺炎鏈球菌的疫苗的確是用莢膜做的喔！
+【小補充】多醣莢膜製成類毒素可以增加抗原性來當疫苗喔！（白喉類毒素疫苗）
+【小比較】大多數細菌的 Capsule 是多醣；炭疽桿菌則是由胺基酸組成（poly-D-glutamic acid）
+1 2 3 4 5 6 7 8 9 10
+B A D C C A D A A A
+11 12 13 14 15 16 17 18 19 20
+C D D A D B A A C B
+21
+A
+
+3.(D)
+仙人掌桿菌（Bacillus cereus）造成的疾病可以分成消化道、眼部跟其他，本題考消化道：
+仙人掌桿菌的消化道致病因子可以分成 emetic form 跟 diarrheal form，都跟 enterotoxin 有關
+＊Emetic form：會嘔吐，症狀出現時間常小於 6 小時，為 heat stable，感染管道是米飯
+＊Diarrheal form：會腹瀉，症狀出現時間常大於 6 小時，為 heat labile，感染管道是肉、青菜、醬
+【小比較】金黃色葡萄球菌的 enterotoxin：heat stable，是一種超級抗原，會造成全身免疫反應
+4.(C)
+題目問可以在冰箱裡面繁殖的，秒選李斯特，答案選(C)
+(A) 炭疽桿菌
+(B) 仙人掌桿菌
+(C) 李斯特相當強大，是個生存能力很強的東西：
+♦ 有氧無氧都能存活（兼性厭氧）
+♦ 可以躲避免疫監控——住在細胞裡 intracellular pathogen
+♦ 可以活在 4℃，還有大範圍 pH 值，能活在胃酸跟膽汁中
+(D) 豬丹毒桿菌
+5.(C)
+題目問 vacuolar lysis 和 help bacteria enter into cytoplasm，答案選(C)
+(A) (B) 李斯特可以透過這和它細胞表面抗原結合進入細胞
+(C) 全名是 Listeriolysin O，是一個可以形成孔洞的胞溶素，能將膜破壞
+(D) 這個 ActA 會重新編排 actin，把 actin 加在菌菌屁股後面，然後藉著 actin 網路的推動在宿主細
+胞內運動
+6.(A)
+Zoonotic pathogen 的意思是人畜共通的病原體
+(A) 白喉棒狀桿菌，人類是他唯一宿主，所以他只會感染人，正解
+(B) 跟畜牧業相關的病，透過摸羊毛、吸入羊毛或是吃到沒煮熟的牛肉會被感染
+(C) 李斯特菌
+(D) 豬丹毒桿菌，由豬或火雞傳染
+
+7.(D)
+白喉毒素（Diphtheria toxic）：是一種 AB toxin，為外毒素，會
+與核醣體結合，抑制蛋白質的合成，可以由 Elek test 跟 PCRbased method 的體外測試（Toxigenicity test）來測出來
+(A) 正確
+(B) 正確
+(C) 是的，會有帶著 Tox 的噬菌體來找他玩（如右圖）
+(D) 不，他是催化延長因子 EF2 的白喉醯胺殘基
+（diphthamide，一個經過修飾的組胺酸殘基）的 ADP 核糖化（ADP-ribosylation），而將其失去
+活性，來抑制蛋白質合成。題幹敘述的是 Shiga toxin 和 Verocytotoxin
+8.(A)
+DPT 疫苗是白喉、百日咳、破傷風的三合一疫苗
+(A) 炭疽病
+(B) 白喉
+(C) 百日咳
+(D) 破傷風
+9.(A)
+(A) 炭疽桿菌的外毒素，有 Edema toxin（PA63＋EF）跟 Lethal toxin（PA63＋LF），看看組成，
+PA63，可見相當重要，PA63 是 PA83（Protective Antigen）分解來的，因此答案選(A)
+(B) 雖然他有感染性，但致病還是要交給 toxin
+(C) Pili 叫線毛，一般來說存在於陰性菌（炭疽是陽性菌），會執行較有特定性的黏附功能
+【小提醒】sex pilus 是執行水平式基因轉移會出現的東西，用來連接兩相異交配型的細菌
+(D) 應該要叫 EF-2，此為白喉的敘述
+(E) 這個在仙人掌桿菌的眼部感染出現過（Phospholipase C），跟炭疽無關
+10.(A)
+請參考第 5 題詳解
+(A) 正確
+(B) 兩者為黏附用
+(C) 此為偽足，是變形蟲等單細胞生物或是黏菌用來吃東西的
+(D) 鞭毛確實與移動有關，但在細胞內靠的還是 actin
+(E) tumbling motility 講的是鞭毛
+11.(C)
+仙人掌桿菌會拉肚子，代表可能連肉、蔬菜、醬都有問題
+關鍵字：fried rice、nausea、vomiting、diarrhea，一定是(C)
+Tox gene
+
+12.(D)
+請參考第 7 題詳解
+(A) 正確
+(B) 是的，會先給白喉毒素的類毒素，然後才是 Penicillin、Erythromycin 等抗生素
+(C) 正確
+(D) 錯誤，Elek test 判斷沉澱線是來測毒素的
+13.(D)
+看到 tonsils（扁桃腺）、grayish exudate（pseudomembrane）可以判斷是白喉
+(A) 是 positive
+(B) 這是在說某種病毒，教到病毒再討論吧
+(C) 這是指金黃色葡萄球菌
+(D) 不規則棒狀 club-shaped 的革蘭氏陽性是白喉的特徵
+(E) 這是在說某種病毒，教到病毒再討論吧
+14.(A)
+(A) 這個是李斯特菌的敘述
+(B) 參考第 3 題詳解
+(C) 參考第 3 題詳解
+(D) 參考老師 PPT「Severe pneumonia: Capsule-producing strains」
+15.(D)
+組成毒素有三種成份，分別是保護抗原（protective antigen）、致死因子（lethal factor）及水腫因子
+（edema factor）
+(A) 莢膜、水腫毒素和致死毒素為主要毒力因子，受到兩種大型質體（pXO1 及 pXO2）調控
+(B) 保護抗原有助於抵抗病原菌在體內引起的免疫反應，並可與水腫因子組成水腫毒素，造成組織
+水腫並且抑制嗜中性球免疫作用
+(C) 保護抗原與致死因子組成的致死毒素，會造成組織缺氧、肝臟衰竭、休克、抑制細胞激素與趨
+化因子表現和誘發巨噬細胞凋亡
+(D) 要有 EF 跟 LF 的參與才能將毒性最大化
+16.(B)
+(A) 李斯特菌的溶血型為輕微 β-hemolysis，但不是初步判定的依據
+(B) 此菌在室溫下具有運動性，會翻滾（tumbling movement），是初步判定此菌感染的依據
+(C) 染色只能判斷他是革蘭氏陽性菌，但短棒狀和肺炎鏈球菌長得很像，會搞混
+(D) 李斯特菌總共有 13 種血清型，使用血清型判斷已經是後面鑑定菌種而非「初步判定」了
+
+17.(A)
+炭疽病有以下三種型態：
+＊皮膚炭疽病：佔 90%，若沒進到血液中，則會有輕微發燒跟不適，可口服 penicillin 或
+amoxicillin，若是進入到血液沒接受治療的話，則會有 30%致死率
+接觸 —— 丘疹 papule —— 囊泡 vesicles —— 潰瘍 ulcer —— 痂 eschar
+＊腸胃炭疽病：最為罕見，經由食用帶炭疽內芽孢的未煮熟食物感染，致死率 50%，潰瘍性傷害
+的發生位置可以從嘴、喉嚨到和大腸小腸
+＊吸入（肺）炭疽病：又稱為羊毛工人病，可作為生化武器
+低燒、咳嗽、胸痛 —— 進入血液 —— 敗血性休克 —— 死亡
+(A) 錯誤，皮膚是最常見的，佔 90%
+18.(A)
+(A) 既然李斯特菌可以躲避免疫監控，住在巨噬細胞裡，代表體液免疫對其無效，相較於細胞媒介
+免疫對於患者來說較不重要，錯誤
+(B) 李斯特菌存活的範圍為 1～45℃，其鞭毛運動的方式正是 tumbling motility，正確
+(C) 他是 zoonotic，會感染很多種動物，所以獸醫領域的也要注意他們，正確
+(D) 正確
+19.(C)
+對於炭疽桿菌，需要及時投以抗生素或是抗毒素（antitoxin）才能有效治療，現行的治療方式為投
+與 ciprofloxacin 搭配一到兩種抗生素，或是服用口服盤尼西林（amoxicillin）
+(C) 會助長孢子傳播，更嚴重，錯誤
+20.(B)
+題目都寫 respiratory 了，當然選(B)
+inhalation anthrax 會在病程第二階段會快速惡化，在短時間內發高燒、水腫、淋巴結腫大，請參考
+第 17 題詳解
+21.(A)
+典型 spore-forming bacteria 有兩種：
+Bacillus 屬於革蘭氏陽性嗜氧菌，Clostridium 屬於革蘭氏陽性厭氧菌，會產生孢子
+問不屬於 Non-spore forming Gram-positive Bacilli，只能選(A)
+(C) (D) 注意！李斯特跟白喉都沒有孢子生成
+
+Neisseria & (Campylobacter) & Helicobacter & Pseudomonas
+組長：陳佳筠 勘誤組員：徐彰廷 學藝：陳冠宇 授課老師：鍾筱菁
+1.Which portion of lipopolysaccharide contains the endotoxin activity？
+(A) Lipid A
+(B) O antigen
+(C) Core polysaccharide
+(D) Mannose
+2.Which of the following pathogenic E. coli produces the Shiga-like enterotoxin？
+(A) ETEC
+(B) EHEC
+(C) EPEC
+(D) EAEC
+3.About family Enterobacteriaceae, which of the following description is False？
+(A) Shigella can cause dysentery.
+(B) For Salmonella infection, fewer than 100 bacterial cells can be enough to cause an infection.
+(C) Uropathogenic E. coli can cause hemolytic uremic syndrome (HUS)
+(D) Proteus mirabilis can swarm.
+4.Which is the major pathogen for causing plague？
+(A) Yersinia pestis
+(B) Yersinia enterocolitica
+(C) Vibrio parahaemolyticus
+(D) Campylobacter jejuni male patients with gonococcal urethritis
+5.Which of the following toxin resembles cholera toxin？
+(A) Diphtheria toxin 
+(B) Stable toxin of ETEC
+(C) Labile toxin of ETEC 
+(D) Tetanus toxin
+
+6.Which of the following bacteria is associated with food poisoning due to consumption of sea fish？
+(A) Vibrio alginolyticus 
+(B) Vibrio vulnificus
+(C) Vibrio parahaemolyticus 
+(D) Helicobacter pylori
+7.Which of the following bacteria causes zoonotic disease？
+(A) Helicobacter pylori 
+(B) Campylobacter jejuni
+(C) Neisseria meningitides 
+(D) Salmonella. Typhi
+8.Which of the following infection(s) can be caused by Pseudomonas aeruginosa？
+(A) Urinary tract infection
+(B) Wound and bum infection
+(C) Respiratory tract infection
+(D) All of the above
+9.Which is the major bacterial components for generating Neisseria meningitidis vaccine？
+(A) Lipooligosaccharide 
+(B) Flagella
+(C) Polysaccharide capsule 
+(D) Pili
+10.Which of the following is not the virulent factor of Neisseria gonorrhoeae？
+(A) Protein II
+(B) Lipooligosaccharide
+(C) Flagella
+(D) IgA1 protease
+11.What enzyme in Helicobacter pylori can be used for diagnosis of Helicobacter pylori infection？
+(A) Oxidase
+(B) Urease
+(C) Catalase
+(D) Protease
+
+12.Which of the following is not the virulence of Pseudomonas aeruginosa？
+(A) Pyocyanin
+(B) Multiple drug resistance
+(C) Exotoxin A
+(D) Spore forming
+13.Five hours after eating fried rice at a restaurant, a 24-year-old woman and her husband both developed 
+nausea, vomiting, and diarrhea. Which one of the following organisms is the MOST likely to be involved？
+(A) Clostridium perfringens
+(B) Enterotoxigenic Escherichia coli
+(C) Bacillus cereus
+(D) Salmonella. Typhi
+14.Which of following bacteria can cause zoonotic disease？
+(A) Salmonella. Typhi
+(B) Campylobacter jejuni
+(C) Neisseria gonorrhoeae
+(D) Neisseria meningitidis
+15.The followings are the virulence factors of Neisseria meningitides. Except？
+(A) Lipooligosaccharide
+(B) Capsule
+(C) IgA1 protease
+(D) Opa proteins
+16.Which of following statement about Pseudomonas aeruginosa is False？
+(A) An aerobic Gram negative rod
+(B) The major pathogen for causing pneumonia in the patients with cystic fibrosis
+(C) Pyocyanin is one of major toxins produced by P. aeruginosa
+(D) Exoenzyme S in P. aeruginosa is a protein synthesis inhibitor
+17.Which of following statement about Helicobacter pylori is True？
+(A) A zoonotic pathogen
+(B) One of the major pathogens for causing Guillain-Barre syndrome
+(C) Vacuolating cytotoxin A (VacA) is one of virulence factor for causing tissue damage
+(D) The noninvasive test for the diagnosis of H. pylori infection is detecting bacterial catalase enzyme
+
+18.Infertility is one of the important complications in the patients with infection of
+(A) Measles
+(B) Gonorrhea
+(C) Genital Herpes
+(D) Chronic pyelonephritis
+(E) Varicella zoster virus
+19.Pelvic inflammatory disease and tubo ovarian abscess in female patients are usually caused by
+(A) Cytomegalovirus
+(B) Herpes simplex virus
+(C) E. coli
+(D) Streptococcus
+(E) Gonorrhea
+20.Neisseria gonorrhoeae 的 pili 是最重要的致病因子，下列敘述何者正確？
+(A) 藉由基因重組方式產生不同抗原性的 pili，稱之為 pili phase variation
+(B) 藉由 slipped-strand mispairing 的機制，使 Neisseria gonorrhoeae 不產生 pili
+(C) 藉由基因重組的方式產生 L-form pili，稱之為 pili antigenic variation
+(D) 以上皆是
+21.最常造成尿道感染的細菌為何？
+(A) Salmonella. Typhi
+(B) Yersinia pestis
+(C) Neisseria gonorrhoeae
+(D) Escherichia coli
+22.下列何種細菌在微需氧（microaerophilic）環境下才可生長？
+(A) Aeromonas hydrophila
+(B) Helicobacter pylori
+(C) Vibrio parahaemolyticus
+(D) Escherichia coli
+23.All Neisseriaceae share all of the following characteristics EXCEPT：
+(A) Residents of mucous membranes of warm-blooded animals
+(B) Gram-positive diplococcic
+(C) Two primary human pathogens are Neisseria gonorrhoeae and Neisseria meningitidis
+(D) Pathogenic species require enriched complex media and CO2
+
+24.Which of the followings about Neisseria gonorrhoeae is NOT correct？
+(A) Does not survive more than 1-2 hours in environment
+(B) In top 5 STDs（Sexually Transmitted Diseases）
+(C) Virulence factors are pili and IgM protease
+(D) Infected newborns may suffer from blindness
+25.Which of the followings about Neisseria meningitidis is NOT correct？
+(A) Human is common reservoir in nasopharynx
+(B) High risk individuals are children ages 6 months to 3 years
+(C) Virulence factors are fimbriae, capsule and endotoxin
+(D) Bacteria cannot enter bloodstream
+26. Which of the followings about Pseudomonas aeruginosa is NOT correct？
+(A)They are gram-negative rods with a single polar flagellum
+(B) Many strains produce water soluble pigments
+(C) Frequent contamination of ventilators, IV solutions and anesthesia equipment
+(D)Sensitive to soaps, dyes, quaternary ammonium disinfectants, drugs and drying
+27. Helicobacter pylori：
+(A)Is the presumed cause of colon cancer
+(B) Is the cause of most cases of acute food poisoning in the U.S.
+(C) Is the cause of about 90% of peptic ulcers in the U.S.
+(D)Is urease-negative
+28. Which is the most common opportunity infection in HIV-infected individuals globally？
+(A)Mycobacterium tuberculosis
+(B) Haemophilus influenza
+(C) Pseudomonas aeruginosa
+(D)Acinetobacter baumannii
+29. Each of the following statements concerning gonorrhea is correct EXCEPT：
+(A)Infection in men is more frequently symptomatic than in women
+(B) A presumptive diagnosis can be made by finding gram-negative kidney-bean-shaped diplococci
+(C) within neutrophils in a urethral discharge
+(D)The definitive diagnosis can be made by detecting at least a 4-fold rise in antibody titer to N. 
+gonorrhoeae
+
+30. Infection by which of the following does NOT typically cause life-threatening illness？
+(A)Shigella
+(B) Campylobacter jejuni
+(C) Clostridium botulinum
+(D)Salmonella
+31. Three organisms, Streptococcus pneumonia, Neisseria meningitides, and Haemophilus influenza cause 
+the vast majority of cases of bacterial meningitis. What is the MOST important pathogenic component they 
+share？
+(A)Protein A
+(B) Capsule
+(C) Endotoxin
+(D)Beta-lactamase 
+32. Which is incorrect regarding colonizing with Helicobacter pylori？
+(A)Colonization is likely to affect the level of acid secretion in the stomach
+(B) The risk of gastric adenocarcinoma is increased in a person with a duodenal ulcer 
+(C) Helicobacter pylori persist for life of a person
+(D)Helicobacter pylori can be detected by rapid conversion of ingest urea to CO2
+33. Which of the following statements is NOT accurate regarding the diagnosis of Helicobacter pylori 
+infection？
+(A)Breath tests and stool tests can aid in diagnosis
+(B) Culture can be problematic and unreliable as a diagnostic tool
+(C) Histology is the “gold standard” of diagnosis
+(D)Serology should be a first-line diagnostic tool in low-prevalence areas
+
+Neisseria & (Campylobacter) & Helicobacter & Pseudomonas 詳解
+組長：陳佳筠 勘誤組員：徐彰廷 學藝：陳冠宇 授課老師：鍾筱菁
+簡答
+1 2 3 4 5 6 7 8 9 10
+A B BC A C C B D C C
+11 12 13 14 15 16 17 18 19 20
+B D C B D D C B E B
+21 22 23 24 25 26 27 28 29 30
+D B B C D D C A D B
+31 32 33
+B B D
+詳解
+1. (A)
+Lipid A is a lipid component of an endotoxin held responsible for the toxicity of gram-negative bacteria.
+Lipopolysaccharide（LPS）只存在於革蘭氏陰性菌，由醣和脂質組成，是陰性菌外膜的主要成分，
+為內毒素，由外而內分成 O antigen, core, Lipid A 三個部分。是腸桿菌的致病因子。
+(A) Lipid A：內毒素活性來源，因為它不是蛋白質，所以不容易去除。
+(B) O antigen：具有抗原性，有很多重複的 polysaccharide，很長。
+(C) Core polysaccharide：結構，分成 inner core 和 outer core 寡醣。許多細菌還含有非碳水化合物成
+份如氨基酸、磷酸鹽等，如綠膿桿菌有磷酸化的 inner core。
+(D) Mannose 不是 LPS 的組成份子
+註 1：只有 LPS 叫做內毒素，其他都是外毒素。可能會有人覺得說 lipooligosaccharide（LOS）也是
+內毒素，但廣義來說 LOS 也屬於 LPS，只是沒有 O antigen。只有 Neisseria 和 Haemophilus 的細胞
+壁由 LOS 構成，是敗血症和出血的原因。
+註 2：只有 LPS 引起的菌血症一定會發燒。
+2.(B) 
+(A) ETEC：造成腹瀉，但沒發燒。見第五題（B）（C）。
+(B) EHEC = Enterohemorrhagic E. coli = Shiga Toxin producing（E. coli STEC），會分泌 Shiga-like
+toxin
+(C) EPEC：和 EHEC 的主要差異在於沒有分泌 Shiga-like toxin
+(D) EAEC：孩童的水狀腹瀉，和（A）一樣不會伴隨發燒。
+
+3.(B)(C)
+(A)CFU 是菌落形成單位的縮寫，每一個細菌細胞在培養基上生長繁殖所形成的單一容易區別菌
+落。每菌落單位稱為 1 CFU。
+(B) Salmonella 的感染力為 105CFU 才會感染（比較：Shigella 只要 1~10CFU 就可能造成感染）
+CFU 是菌落形成單位的縮寫，每一個細菌細胞在培養基上生長繁殖所形成的單一容易區別菌
+落。每菌落單位稱為 1 CFU。
+(C) HUS（hemolytic-uremic syndrome）是 EHEC 的症狀，也就是血尿。
+(D)Proteus mirabilis：奇異變形桿菌，有許多鞭毛，可以在 agar plate 上 swarming（移行）。
+4.(A)
+Plague：鼠疫
+(A) Yersinia pestis 鼠疫桿菌：導致黑死病
+(B) Yersinia enterocolitica 小腸結腸炎耶氏桿菌：有 cold enrichment 特性（在 4°C）。由胃腸道進入
+人體，通常是吃到未煮熟的肉、喝到不乾淨的水或牛奶等所引起。症狀為水狀或有血的腹瀉和
+發燒。容易和盲腸炎（appendicitis）、細菌性痢疾（shigellosis）、沙門氏菌感染
+（salmonellosis）搞混。Reactive arthritis 也和它有關。
+(C) Vibrio parahaemolyticus：腸炎弧菌，吃未煮熟的海產所導致的，症狀為腹瀉（因神奈川溶血
+素）
+(D) Campylobacter jejuni：彎曲桿菌的部分，典型症狀為血便或細菌性痢疾（dysentery 
+syndrome），併發症為 Guillain-Barre syndrome。
+5.(C)
+(A) Diphtheria toxin 白喉毒素，來源為 Corynebacterium diphtheriae。
+(B) ETEC 有兩種腸毒素（屬外毒素，成分為蛋白質，腹瀉的主因）：Labile toxin（LT）和 Stable 
+toxin（ST）。LT enterotoxin 和 cholera toxin（Vibrio cholerae 所分泌）作用機制很像。
+(C) 同(B)
+(D) Tetanus toxin：破傷風毒素，症狀：注射部位有紅、熱、疼痛情形，可自行緩解，若是出現全
+身性的的過敏反應，可以造成呼吸、循環系統的衰竭。
+
+6. (C)
+關鍵字：食物中毒，食用海洋魚類
+(A) Vibrio alginolyticus：溶藻弧菌，好像沒教。造成在身體末端的傷口感染，還會造成軟組織及
+耳朵感染如中耳炎、外耳炎、結膜炎及傷口感染，有時引起敗血症。患者以男性居多，大都
+是從事海洋職業。但此菌通常是在人體有傷口或免疫力低時才會發病。它也存在於河豚等動
+物體內，產生神經河豚毒素。
+(B) Vibrio vulnificus：創傷弧菌/海洋弧菌，真的是死亡之菌，在美國有九成的弧菌感染死亡案例
+是這個菌所造成的。它的感染造成臨床上的病癥主要有兩種：原發性敗血症和續發性敗血症
+兩種。原發性敗血症由胃腸道感染所引起的，感染原因是食用未煮熟的海鮮，病人會有發
+熱、皮膚病變、寒顫、敗血症休克等症狀，死亡率高達 50%以上。續發性敗血症為傷口感
+染，當傷口碰到含有病菌的海水或被蝦蟹刺傷，造成紅腫、起水泡的症狀，之後出現蜂窩性
+組織炎，最後發展為嚴重的續發性敗血症造成死亡，死亡率約為 24%。高死亡危險群有糖尿
+病、肝臟疾病、慢性腎病患者，長期服用類固醇者等。
+(C) Vibrio parahaemolyticus：和食用生鮮海產有關。主要毒素為 Kanagawa hemolysin 神奈川溶血
+素，作用機制類似霍亂毒素，促使氯離子進入腸道造成腹瀉。是造成細菌性食物中毒原因的
+前幾名。
+(D) Helicobacter pylori：幽門螺旋桿菌，以人為唯一宿主，人對人糞口傳染。不造成急性食物中
+毒。
+7.(B)
+(A) Helicobacter pylori：以人為唯一宿主（reservoir host），不經由動物傳染
+(B) C. jejuni 是 zoonotic disease，因吃到未煮熟的雞鴨羊牛而感染。典型症狀為血便或細菌性痢疾
+（dysentery syndrome）
+(C) Neisseria meningitides：人為唯一宿主，傳染方式為人對人飛沫傳染，大多在鼻咽部
+（nasopharynx）感染
+(D) Salmonella. Typhi：人為唯一宿主，造成傷寒
+8.(D)
+Pseudomonas aeruginosa 綠膿桿菌是一種使免疫受損的伺機性感染病原菌（opportunistic 
+pathogen），一般影響肺部及泌尿道，或造成眼睛、燒傷、傷口及其他血液感染。常見於院內感
+染，對許多種抗生素具有抗藥性。
+9.(C)
+莢膜可當作抗原製作疫苗，因為它可以對抗先天性免疫（抗吞噬細胞吞噬），但也有可能作為抗原
+辨識，故可作為分型標準。
+
+10.(C) 
+Neisseria gonorrhoeae 淋病雙球菌的毒力因子：pilus（其中包含高度變異區，形成抗原多樣性）、
+IgA 1 protease、LOS（內毒素的主要因子）、Por proteins（protein I）、Opa proteins（protein II）
+（很重要）、Rmp proteins（protein III）、Capsule/capsule-like layer
+(C)Pilus 才對
+註：複習一下細菌三毛：flagella、pili、fimbriae
+11.(B)
+有 Urease 使 pH 值上升！Proteus mirabilis 也有 urease，會造成膀胱結石。
+＊非侵入性檢查為 urea breath test (C-14)
+12.(D) 
+(A)綠膿素（pyocyanin）是 Pseudomonas aeruginosa 分泌的藍綠色色素，同時也是毒素。含有超氧
+化物可以產生自由基去破壞組織細胞，並刺激 IL-8 分泌
+(B) 見第八題的(D)
+(C) Exotoxin A：作用目標為 EF2，在轉譯時阻止多肽鏈延長以抑制蛋白質合成。
+註：Diphtheria toxin（白喉毒素）的作用目標也是 EF2，像是 Corynebacterium diphtheriae
+(E) Pseudomonas aeruginosa 不會形成孢子。常見的產孢子菌有 Bacillus 跟 Clostridium
+13.(C)
+14.(B)
+15.(D)
+Neisseria meningitides（腦膜炎雙球菌）的毒性強，毒力因子（virulence factors）：pilus、IgA 1 
+protease、LOS、莢膜（polysaccharide capsule）。Opa proteins（protein II）是淋病雙球菌的毒力因
+子比較：Neisseria gonorrhoeae 的毒力因子：pilus（其中包含高度變異區，形成抗原多樣性）、
+IgA 1 protease、LOS（內毒素的主要因子）、Por proteins（protein I）、Opa proteins（protein II）
+（很重要)、Rmp proteins（protein III）、Capsule/capsule-like layer。
+註：加粗的代表腦膜炎雙球菌和淋病雙球菌相同的毒力因子
+16.(D)
+(A) Pseudomonas aeruginosa 是好氧（aerobic）、葛蘭氏陰性桿菌，但在缺氧環境可利用硝酸鹽作為
+電子受體進行厭氧呼吸。
+(B) cystic fibrosis 囊狀纖維化，老師上課有做補充，其患者容易受 Pseudomonas aeruginosa 和金黃
+色葡萄球菌感染
+(C) 見 12 題的(A)
+(E) Exoenzyme S 和 T：透過第三型分泌系統（Type III secretion system）破壞上皮細胞 Exotoxin 
+A 才是 Pseudomonas aeruginosa 影響蛋白質合成的毒素
+
+17.(C)
+VacA（Vacuolating cytotoxin）藉由空泡（Vacuoles）損害所有細胞。
+註：H. pylori 的毒力：
+Colonization
+Adhesin：BabA、SabA Urease Acid inhibitory protein
+Invasion：以下酵素可鑽進內壁
+Mucinase Phospholipase Proteinase
+Local tissue damage
+VacA CagA（Cytotoxin-associate gene）：藉 type IV 打入胃壁上皮細胞
+(A)錯，以人為唯一宿主
+(B) Guillain-Barre syndrome 是 C. jejuni 的併發症，是主要由 C. jejuni O:19 造成的自體免疫疾病
+(C) 正確
+(D)又出現了，可以顯示它很重要。非侵入性檢查為 urea breath test（C-14）
+18.(B)
+Gonorrhea 淋病是由 Neisseria gonorrhoeae 所引起之一種性傳染病。好犯於柱狀上皮細胞，如尿
+道、子宮頸管及直腸黏膜等。女性感染後數天可能發生尿道炎或子宮頸炎，但因症狀常不明顯，
+故不容易被注意到。約有 20%之病患因月經週期引起子宮內膜炎、輸卵管炎或骨盤腔腹膜炎，
+甚至造成子宮外孕或不孕症
+19.(E)
+介紹 主要是由群聚在 endocervix 的微生物傳染所致
+Pathogen 大部分是 sexually transmitted microorganisms：Neisseria gonorrhoeae（佔
+50%）、Chlamydia trachomatis（佔 20%），少部分為 respiratory pathogens：
+Group A Streptococci, Haemophilus influenzae, Pneumococci 和 endogenous 
+microorganisms
+Risk factors 性伴侶、接受過陰道手術、低社會知識水準
+感染 上生殖道發炎感染，如 tubo-ovarian abscess（TOA）、endometritis 等
+症狀 多發生在經期中或經期剛結束時。
+常見症狀：下腹鈍痛、有時伴隨發冷發熱、陰道分泌物增加
+Pelvic inflammatory disease（PID）：骨盆腔炎症；Tubo ovarian abscess（TOA）：輸卵管膿腫
+
+20.(B)
+(A)Neisseria gonorrhoeae 的 pilus 包含高度變異區，基因重組形成抗原多樣性，應該是 antigenic 
+variation（抗原變異）。
+(B) ]「slipped-strand mispairing」是短重複序列在複製時錯配，造成基因啟動子或起始密碼子讀框
+改變，使菌株暫時不表現 pili 或 capsule ，指 phase variation（表達型態切換）
+(C) pili antigenic variation 是 S-pilin 而非 L-pilin（參見 DNA transformation leads to pilin antigenic 
+variation in Neisseria gonorrhoeae）。
+21.(D)
+(D)泌尿道感染（urinary tract infections）有 80~85%是 E.coli 導致的
+註：Staphylococcus saprophyticus 佔泌尿道感染的 5~10%。
+22.(B)
+(A) Aeromonas hydrophila：水中產氧單胞菌，facultative anerobic ( 兼性厭氧 )
+(B) Helicobacter 和 Campylobacter 皆為 microaerophilic（微需氧）
+(C) Vibrio parahaemolyticus：facultative anaerobic（兼性厭氧）
+(D) E.coli：facultative anaerobic（兼性厭氧）
+23.(B)
+(B) Neisseriaceae 是革蘭氏陰性球菌
+24.(C)
+(A)對外界條件抵抗力差，在乾燥環境中 1~2 小時即可能死亡。
+(B) 由性交感染。
+(C) 毒力因子（Virulence factors）有 pili 和 IgA protease。
+(D)新生兒通過產道時遭受感染，得到結膜炎（conjunctivitis），若沒有妥善處理可能失明。
+25.(D)
+(A)人為 N. meningitidis 唯一宿主，傳染方式為人對人飛沫傳染，大多在鼻咽部（nasopharynx）
+感染
+(B) 在台灣，每十萬人口年齡個別發生率以 0 歲以下幼兒較高（0.59），其次為 1~2 歲幼兒
+（0.12），再其次為 3 歲兒童（0.06）
+(C) virulence：endotoxin（LPS）、polysaccharide capsule、IgA1 protease、pili
+(D)75%的腦膜炎個案可以在血液中分離出 N. meningitidis
+
+26.(D)
+(A) 正確，見上課講義。要留意的是它是好氧菌（aerobic）
+(B) 大多數綠膿桿菌會分泌兩種水溶性色素，一種為非螢光性、淡藍色的綠膿菌青素（pyocyanin）
+另一種則為黃綠色的螢綠素（Pyoverdin，又稱為 fluorescein）。
+(C) Pseudomonas aeruginosa 可以在醫院中生長，易污染呼吸器、靜脈注射夜、麻醉儀器等醫療用
+品
+(D) Pseudomonas aeruginosa 對 soap, dyes, quaternary ammonium disinfectants, drugs, and drying 有抗
+性
+27.(C)
+(A) H. pylori 是導致 Gastric cancer，不要因為它是糞口傳染就聯想到腸啦 XDD
+(B) H. pylori 不會導致食物中毒
+(C) peptic ulcers：胃潰瘍。阿 90%的部分…我查不到美國的資料，但台灣差不多 90%沒錯
+(D) H. pylori 是 urease-positive 
+28.(A)
+(A) Mycobacterium tuberculosis 是所有 HIV 感染者中比例最高的。
+29.(D)
+淋病的診斷：
+(1)直接塗片檢查：是最簡單且快速的檢驗方法，通常由男性尿道和女性子宮頸內取樣做格蘭氏染
+色，若在顯微鏡下發現嗜中性白血球細胞內有革蘭氏陰性之雙球菌，則可診斷為淋病，急性期主
+要分佈於細胞內，少數也可分佈在細胞外，慢性期則以細胞外為主。本法對有大量膿性分泌物的
+單純性急性淋菌性前尿道，尤其是男性淋菌性尿道炎檢出率可達 95%，對慢性淋病、女性淋病患
+者檢出率則較低。
+(2)細菌培養：有確診意義，但費時、操作繁瑣是其缺點。是將檢體（分泌物或尿液）接種在適當
+的培養基上，培養 24〜48 小時觀察是否有淋病雙球菌生長，但由於淋病雙球菌對溫度變化很敏
+感，在採集檢體後若無法立即進行培養就容易死亡，一旦細菌死亡就無法培養。
+(3) NAATs（Nucleic Acid Amplification Tests）：現今的 診斷金標準（Gold standard），是檢測尿液
+或分泌物中有沒有淋病雙球菌的 DNA 存在，最大的好處是可以檢測死菌，且只要少量細菌存在便
+可被檢測出，此方法可用於慢性、輕症及治療後患者的檢查，但需高精度設備，對檢驗人員素質
+要求較高，檢驗費用也較高。注意本檢查方法不能區分淋球菌是否存活，患者在治癒後的一段時
+間內，仍可能有死亡的淋球菌存在而持續陽性，所以對於治療後復查的患者，應在治療 3 周後復
+查。這個選項錯誤的原因尿道排出物應該是檢測病毒 DNA。 根據 2019 年衞生署統計，患淋病的
+男性數目是 1,370 位，人數是女性的 7.4 倍。男性感染後只有少數無症狀，症狀：排尿有刺痛灼熱
+感、尿道口有白、綠、黃色膿性分泌物。女性則多數無症狀，緩和的症狀容易誤診為膀胱尿道炎
+或是陰道感染。女性症狀：排尿有疼痛灼熱感、陰道分泌物增多 有異味、性交時感到痛。淋病若
+沒有妥善治療，除了會傳染給性伴侶，男性患者可能產生尿道狹窄及副睪炎，女性長期感染沒有
+治療則可能造成骨盆腔發炎、不孕、或子宮外孕，甚至發展成菌血症而表現為血管炎或關節炎。
+
+也可能在生產的過程傳染給新生兒，造成新生兒失明。看完以上長篇大論，做個總結：男生尿道
+炎，女生子宮頸炎，新生兒結膜炎。
+(A) 女性較多無症狀（課本 P245）
+(B) 老師上課講義是寫 coffee bean-shaped 啦，應該是同一個意思
+(C) urethral discharge 尿道排出物
+(D) 4-fold antibody rise 屬於血清學判定用語，「四倍抗體上升」常用於全身性感染或病毒感染；
+Gonorrhea 的診斷不靠血清學抗體上升。因為 N. gonorrhoeae 感染局限於黏膜表面，系統性抗
+體反應弱、不可靠。
+30.(B)
+症狀 致病因子、疾病 補充
+Shigella 高燒、腹瀉、血便
+（赤痢）、 腹痛
+痢疾志賀氏菌 （S. 
+dysenteriae）會製造
+Shiga toxin 引起溶血
+性尿 毒症候群
+（HUS）
+少於 100 隻細菌 即可
+造成感染
+C. jejuni 急性腸道發炎、血
+便、細菌 性痢疾、
+Guillain-Barre 
+syndrome
+敗血症（Gram（－）
+都可能 引起）、
+Guillain-Barre 
+syndrome
+免疫力低下的病人 才
+可能有致命的危險
+C. botulinum 不會發燒、神經學症
+狀對稱、 病人尚有意
+識、心搏速率為 正常
+或稍慢，且無低血
+壓、 視力模糊。一般
+不會有感覺 異常的症
+狀
+肉毒桿菌毒素共有
+A、B、Cα、Cβ、
+D、E、F、G 八
+型，其中 A 型、B
+型、E 型、
+F 型對人類有毒性，
+大劑量可致死
+被認為是目前世界上
+最致命的毒素，人體
+的半數致死（LD50）
+約為 1.3~2.1 ng/kg，
+而以呼吸攝入約在
+10~13 ng/kg
+Salmonella 傷寒（Typhoid 
+fever）： 高燒、腹
+痛、頭痛、玫瑰斑非
+傷寒沙門氏桿菌染：
+高燒、腹瀉
+毒力島 I、II，可隨著
+血液 造成系統性感染
+105 CFU 才會感染
+
+31.(B)
+問最重要的致病因子。可猜莢膜，由刪去法和共通點可知。
+(A) Protein A 是金黃色葡萄球菌的一種表面蛋白。
+(B) 正確
+(C) 內毒素，似乎 Gram（－）才有。
+(D) beta-lactamase 是某些細菌為了提供多重抗藥性對抗 beta-lactam 的酶。
+32.(B)
+(A) colonization：抑制胃酸
+(B) 老師上課時有說過有 H. pylori 且得到胃潰瘍的人比有 H. pylori 但沒有胃潰瘍的人較不會得胃
+癌， 目前原因不明，可能是因為發炎時產生抑制癌化的物質
+(C) H. pylori 沒治療的話是可以在人的胃中終生存活的！
+(D) 又是你了，這裡講的是 urea breath test (14C)。在尿素上標 14C，若病人體內有 H. pylori，喝下尿
+素後，H. pylori 會將尿素水解為氨和二氧化碳，由呼氣實驗可偵測到 14CO2。敏感度幾乎高達
+100%。
+33.(D) 
+(A) 診斷主要分成侵入性的檢查：活體組織切片（biopsy）和非侵入性檢查：urea breath test (14C)和
+血清檢測。血清檢測準確性較低是因為即使 H. pylori 已被消除，血中的抗 H. pylori 抗體卻仍然
+會持續六個月以上甚至達到一年才會消失，所以血清檢測沒辦法直接反應現在 H. pylori 感染的
+情形。urea breath test 準確度較高。Stool test：其實以前就有用糞便中 H. pylori 的培養或者以
+PCR 來檢測糞便中的 H. pylori，但因 為糞便中所含的雜質及細菌種類太多，準確性不高。
+近年來發明出一個叫做 HpSA 的檢測法，它是藉用酵素免疫分析法來偵測糞便中是否存有
+H. pylori
+(B) 同(A)
+(C) gold standard test：最佳診斷方法、黃金標準。侵入性檢查（經由胃鏡取胃黏膜檢體做尿素酶檢
+測，病理學檢查及細菌培養）為檢測 H. pylori 的 gold standard test，但有穿刺和麻醉的風險，
+病患不一定想要
+(D) 血清檢測屬於非侵入性檢查，準確度低，且只能測定血清中是否有幽門桿菌抗體。低盛行率國
+家經濟狀況不錯，用準確度較高的檢測應該比較好。（詳細檢測介紹見 A、B 選項）
+
+Fungal Structure and Mycosis
+微免考古小隊:蔡昌恩、劉宜瑄、鄭向晴、楊凱淇、吳昕妤 學藝：陳冠宇 授課老師：鍾筱菁
+1.A “filamentous fungus” means?
+(A) Single celled fungus
+(B) Fungus produces hyphae with septate
+(C) Related to fungus produce only hyphae
+(D) Equivalent to yeast
+(E) Fungus produces only sexual spores
+2.Which of the following fungal pathogen is a dimorphic fungus?
+(A) Sporothrix schenkii
+(B) Epidermophyton flocossum
+(C) Trichophyton rubrum
+(D) Microsporum canis
+3.What is the pathogen of the following picture?
+(A) Histoplasma capsulatum
+(B) Blastomyces dermatitidis
+(C) Trichophyton rubrum
+(D) Microsporum canis
+(E) Penicillium marneffei
+4.Which of the following antifungal drugs inhibited biosynthesis of 14-α-lanosterol demethylase in fungi?
+(A) Imidazoles (Ketoconzole)
+(B) Echinocandins (Caspofungin)
+(C) Flucytosine (5-FC)
+(D) Terbinafine (Lamisil)
+(E) Polyene (Amphotericin B)
+5.What are the main components in the cell wall in fungi?
+(A) Peptidoglycan and chitin
+(B) Chitin and 1-3 α-glycan
+(C) Chitin and 1-6 β-glycan
+(D) Chitin and 1-4 β-glycan
+(E) Chitin and 1-3 β-glycan
+6.What is the pathogen of the following picture?
+(A) Penicillium marneffei
+(B) Blastomyces dermatitidis
+(C) Trichophyton rubrum
+(D) Microsporum canis
+(E) Epidermophyton flocossum
+
+7.Anamorph means a fungus is in a state of:
+(A) Mycelium
+(B) Yeast-like reproduction
+(C) Sexual cycle
+(D) Asexual cycle
+8.What kind of spore is the following picture?
+(A) Blastospore
+(B) Conidia or phialospore
+(C) Sporangiospore
+(D) Arthrospore
+(E) Chlamydospore
+9.What is the pathogen in the following picture?
+(A) Histoplasma capsulatum
+(B) Baltomyces dermatitidis
+(C) Trichophton rubrum
+(D) Microsporum canis
+(E) Penicillum marneffei fimbriae
+10. What kind of spore is in the following picture?
+(A) Blastospore
+(B) Conidia or phialospore
+(C) Sporangiospore
+(D) Arthrospore
+(E) Chlamydospore
+11. What are the basic cell types in fungi?
+(A) Coenocytic hyphae and septate hyphae
+(B) Budding yeast and nuclear fission yeast
+(C) Yeast and hyphae
+(D) Pseudohyphae and coenocytic hyphae
+(E) Sexual cycle and asexual cycle
+12. The asexual Zygomycotina are usually in a form of:
+(A) Blastospore
+(B) Conidia or phialospore
+(C) Sporangiospore
+(D) Arthrospore
+13. The emerging pathogen infects AIDS in Southeast Asian and China is:
+(A) Blastomyces dermatitidis
+(B) Histoplasma capsulatum
+(C) Coccidiodes immitis
+
+(D) Paracoccidiodes
+brasiliensis
+(E) Penicillium marneffei
+
+14. The only pathogenic yeast in Basidiomycetes is:
+(A) Penicillium marneffei
+(B) Cryptococcus neoformans
+(C) Rhizopus stolonifer
+(D) Aspergillus fumigatus
+(E) Ganoderma tsuage
+15. Which of the following is a false description of fungi?
+(A) Cell walls are primarily composed of chitin and glucan.
+(B) They are either single-celled or multi-celled.
+(C) Prokaryotic.
+(D) Does not use chlorophyll.
+16. What is a commonly used method in histopathological sections for identifying fungal cells?
+(A) Gram stain
+(B) PAS stain
+(C) 孔雀綠 stain（Malachite Green）
+(D) Methylene blue stain
+17. 右圖是一種：
+(A) Arthrospore
+(B) Chlamydospore
+18. 右圖箭頭所示部份應稱呼為：
+(A) Spore
+(B) Septate hyphae
+(C) Coenocytic hyphae
+(D) Yeast Conidia
+(C) Phialospore
+(D) Blastospore
+19. 下列孢子屬於體細胞型（Thallic type）：
+(A) Phialospore
+(B) Chlamydospore
+(C) Sporangiospore
+(D) Blastospore
+(E) Conidia
+20. 下圖代表以下何種分類單位？
+(A) Zygomycotina
+(B) Basidiomycotina
+(C) Ascomycotina
+(D) Mastigomycotina
+(E) Deuteromycotina
+
+21. Chlamydospore 屬於：
+(A) 源於菌絲本身，細胞壁增厚
+(B) 源於菌絲本身，細胞壁不增厚
+(C) 源於孢子發生器，細胞壁增厚
+(D) 源於菌絲表面，細胞壁增厚
+22. 真菌分類中 Amastigomycota 所指的是：
+(A) 一般所稱為 Slime molds 之真菌
+(B) 具有鞭毛之真菌
+(C) 即酵母菌
+(D) 所謂 True fungi
+23. Dimorphism 之真菌常為：
+(A) 全身或皮下感染之真菌之特性
+(B) 由於培養基成份改變而形成不同之形態者
+(C) 為皮膚感染之真菌
+(D) 因為有大、小胞子同時出現而稱之
+24. Coenocytic 之真菌，如果有「有性世代」稱之為：
+(A) Zygomycotina
+(B) Basidiomycotina
+(C) Ascomycotina
+(D) Deuteromycotina
+25. Candida albicans 產生 Germ-tube 之培養基為：
+(A) Sabouraud’s agar
+(B) Serum agar
+(C) Tween-80 之培養基
+(D) 馬鈴薯之培養基
+26. Cryptococcus neoformans 之來源最多之處為：
+(A) 土壤 (B) 鳥糞 (C) 植物 (D) 動物體中
+27. Zygomycotina 之主要特徵為：
+(A) Septate hyphae
+(B) Produced sporangium
+(C) Produced ascus
+(D) Coenocytic mycelium
+(E) Produced arthroconidia
+28. 如以 Indian Ink 染色 Cryptococcus neoformans 可能得到下列何種顯微鏡影像？
+(A)
+(B)
+(C)
+(D)
+(E)
+
+29. 區別組織中真菌感染之 PAS 染色法對以下何者不可以呈色？
+(A) Starch
+(B) 1-4-α-Galactan
+(C) Cellulose
+(D) 1-6-β-mannan
+(E) Chitin
+30. 當一個菌種之菌絲具有 septum 但沒有 Clamp connection 在分類上可能屬於：
+(A) Only in Ascomycotina
+(B) Only in Zygomycotina
+(C) Zygomycotina or Ascomycotina
+(D) Basidiomycotina or Ascomycotina
+31. 以下何者為 Epidermophyton 之型態？
+(A)
+(B)
+(C)
+(D)
+(E)
+32. Candida albicans 一般不被認為是 dimorphic fungus 之原因為：
+(A) 具有菌絲期，但形成菌絲不受到溫度影響
+(B) 無菌絲期
+(C) 產生 Ascospore
+(D) Pseudohyphae 作為依據
+(E) Germ tube 作為依據
+33. 以下菌屬具有 Dimorphism 之性質？
+a. Candida albicans
+b. Cryptococcus neoformans
+c. Sporothrix schenkii
+d. Exophiala wemeckii
+(A) a, b, c, d (B) a, b, d (C) a, c, d (D) b, c
+34. 以下哪一種性質不是真菌界所共有的？
+(A) 細胞經常為絲狀
+(B) 具有細胞核
+(C) 細胞內不具葉綠素
+(D) 細胞膜組成不含固醇
+(E) 具有細胞壁
+35. 某一種真菌之菌絲為 Coenocytic hyphae，因此只能產生何種無性孢子？
+(A) Sporangiospore
+(B) Phialospore
+(C) Arthrospore
+(D) Chlamydospore
+(E) Blastospore
+36. 下列哪一種黴菌不屬於擔子菌綱（Basidiomycetes）？
+
+(A) Cryptococcus (B) Trichosporon (C) Aspergillus (D) Malassezia
+
+37. 下列何種黴菌為主要病原菌（primary pathogen）？
+(A) Aspergillus niger
+(B) Cryptococcus neoformans
+(C) Candida albicans
+(D) Paracoccidioides brasiliensis
+38. 一位 66 歲男性，教職退休一年後，覺得缺乏運動，於是買了腳踏車準備鍛鍊身體。但是第一次出
+遊就因閃避來車而撞上路邊綠籬，右手肘被樹枝穿刺約 2-3 cm 深之傷口，經送醫包紮後回家休
+養，傷口紅腫、潰瘍、痛楚並有似膿分泌物，再經醫生診治後給予 7 天口服 Tetracycline 但情況並
+無好轉，後換成口服 Cephalexin 也沒有改善。約 15 天後，右手肘及手臂出現直線排列多處之具滲
+出液潰瘍（Oozing ulcers）及節瘤（Nodules）。檢體經 25℃培養長出絲狀真菌，菌絲有分隔
+（Septate hyphae），分生孢子（Conidia）聚生於分生孢子柄的頂端以玫瑰花飾（Rosette）形狀排
+列，置於 37°C 之培養則長出酵母菌菌落。這位男士感染了哪種菌？
+(A) Conidiobolus coronatus
+(B) Sporothrix schenckii
+(C) Mycobacterium marinum
+(D) Staphylococcus aureus
+39. 構成真菌細胞壁之主要成分為何？
+(A) 幾丁質（Chitin）以及 α-1-4-葡萄聚醣（α-1-4-glucan）
+(B) 幾丁質（Chitin）以及 β-1-3-葡萄聚醣（β-1-3-glucan）
+(C) 肽聚醣（Peptidoglycan）以及 β-1-4-葡萄聚醣（β-1-4-glucan）
+(D) 幾丁質（Chitin）以及 α-1-6-葡萄聚醣（α-1-6-glucan）
+40. 一位微生物實驗室助理吳小姐 25 歲，右手食指指甲發展成類似灰指甲（Onychomycosis）症狀有 6
+個月，但感染指甲周邊皮膚並沒有脫皮、起水泡或搔癢。吳小姐自小學起就有咬指甲之習慣，最
+近發現指甲變得很醜，於是到醫院皮膚科就診。皮膚科醫師以指甲剪取樣，其中一部分在門診以
+10% KOH 處理並且以顯微鏡觀察，結果顯示指甲中有酵母菌（Yeast）、及長短不一之菌絲
+（Hyphae）。兩星期後指甲培養之結果出來，感染之病原菌很可能是一種平滑（Smooth）菌落、
+乳白色（Creamy）、出芽型酵母菌（Budding yeast）；有假菌絲（Pseudohyphae）及芽管（Germ 
+tube）產生，PCR 分析也證明該菌之種類。於是醫師就開 Terbinafine 口服處方，兩個月後吳小姐
+的指甲也就復原。該菌最可能是下列哪一病原？
+(A) Trichophyton rubrum
+(B) Epidermophyton floccosum
+(C) Microsporum canis
+(D) Candida albicans
+41. 新型隱球菌（Cryptococcus neoformans）型態上之特徵為何？
+(A) 無莢膜（without capsule）之兩型性（dimorphic）圓球狀酵母菌
+(B) 雪茄型酵母菌（cigar-shaped yeast），不具兩型性
+(C) 中裂型具有薄層莢膜兩型性（dimorphic）橢圓形酵母菌
+(D) 具寬厚莢膜圓球狀酵母菌
+
+42. 從病患肺部中取出之檢體切片經 Periodic acid-Schiff（PAS）染色後，發現有許多紫紅色之寬闊帶
+狀（Broad, ribbon-like），無隔膜菌絲（Coenocytic hyphae）穿過組織，診斷上極可能推向是哪一
+種真菌疾病？
+(A) 新型隱球菌症（Cryptococcosis）
+(B) 麴菌症（Aspergillosis）
+(C) 孢子絲菌症（Sporotrichosis）
+(D) 接合菌症（Zygomycosis）
+43. 真菌毒素對人類的危害通常不包括：
+(A) 致癌作用 (B) 過敏反應 (C) 慢性中毒 (D) 致畸胎作用
+44. 白色念珠菌（Candida albicans）引起的病變，不包括下列哪一項？
+(A) 溼疹 (B) 鵝口瘡 (C) 陰道炎 (D) 腦膜炎
+45. 關於新型隱球菌（Cryptococcus neoformans）致病性的描述，下列何者錯誤？
+(A) 主要致病物質是莢膜多糖
+(B) 大多數感染者症狀不明顯
+(C) 主要經腸胃道入侵人體
+(D) 抵抗力降低時，才易侵入人體
+46. 有關「真菌」的敘述，下列何者錯誤？
+(A) 有典型的細胞核
+(B) 細胞壁特有成分是幾丁質
+(C) 最適生長 pH 值為 4.0～6.0
+(D) 最適生長溫度為 37℃
+47. 真菌中最常見的無性孢子是何種孢子？
+(A) 分生孢子 (B) 芽生孢子 (C) 孢子囊孢子 (D) 厚膜孢子
+48. 新型隱球菌（Cryptococcus neoformans）的特徵，不包括下列哪一項？
+(A) 有莢膜
+(B) 能形成厚膜孢子
+(C) 引起皮膚黏膜感染
+(D) 通過呼吸道侵入
+49. 常存在鴿糞中，會造成腦膜炎之致病菌為：
+(A) 申克氏孢絲菌（Sporothrix schenckii）
+(B) 黃色麴菌（Aspergillus flavus）
+(C) 新型隱球菌（Cryptococcus neoformans）
+(D) 白色念珠菌（Candida albicans）
+50. 下列有關真菌中毒症的特徵，何者錯誤？
+(A) 真菌產生的毒素所引起
+(B) 發病有地區性
+(C) 發病有季節性
+(D) 具有傳染性
+51. 真菌菌絲的細胞壁結構不包括： (A) 葡聚糖層（polysaccharide layer）
+
+(B) 脂多醣層（lipopolysaccharide layer） (C) 醣蛋白（glycoprotein）
+(D) 幾丁質層（chitin layer）
+
+52. 愛滋病患者最常見的條件致病性真菌感染為：
+(A) 白色念珠菌（Candida albicans）引起的肺部感染
+(B) 新型隱球菌（Cryptococcus neoformans）引起的肺部感染
+(C) 卡氏肺囊蟲肺炎（Pneumocystis carinii pneumonia）
+(D) 毛癬菌（Trichophyton）引起的組織性壞死
+53. 單細胞真菌的繁殖方式是：
+(A) 二分裂
+(B) 出芽
+(C) 由孢子囊釋放孢子
+(D) 接合
+54. 下列哪一種真菌屬於淺部皮膚感染真菌？
+(A) 白色念珠菌（Candida albicans）
+(B) 新形隱球菌（Cryptococcus neoformans）
+(C) 白癬菌（Trichophyton tonsurans）
+(D) 申克氏孢絲菌（Sporothrix schenckii）
+55. Amphotericin B 破壞真菌細胞的主要標的是下列哪一項：
+(A) 細胞壁 (B) 細胞膜 (C) 核酸 (D) 能量傳遞
+56. 目前在治療真菌感染症時，仍有許多問題存在且全球真菌性感染人口數亦呈上升趨勢，其相關因
+素 並不包括下列哪一項：
+(A) 真菌的菌種明顯增加
+(B) 抗藥性真菌的產生
+(C) 免疫抑制藥物的大量使用
+(D) 愛滋病感染者大幅增加
+57. 白色念珠菌（Candida albicans）可引起的感染不包括下列哪一項：
+(A) 黏膜感染 (B) 皮膚感染 (C) 產毒性感染 (D) 臟器感染
+58. 檢查新型隱球菌（Cryptococcus neoformans）感染常用何種染色方法？
+(A) 革蘭氏染色法（Gram staining）
+(B) 抗酸染色法（Acid-fast staining）
+(C) 鍍銀染色法（Silver staining）
+(D) 墨汁染色法（India ink staining）
+59. 下列有關新型隱球菌（Cryptococcus neoformans）生物學性狀的描述，何者錯誤？
+(A) 可見寬厚的莢膜
+(B) 可形成假菌絲
+(C) 可產生芽生孢子
+(D) 可形成酵母型菌落
+60. 下列真菌中最易侵犯腦組織的是：
+(A) 申克氏孢絲菌（Sporothrix schenckii）
+(B) 紅色毛癬菌（Trichophyton rubrum）
+
+(C) 卡氏肺孢菌（Pneumocystis carinii）
+(D) 新型隱球菌（Cryptococcus neoformans）
+
+61. Define “fungi.”
+62. Explain the difference between the term “Candidiasis” and “Candidemia.”
+63. What is Lymphocutaneous sporotrichosis？
+恭喜你（妳）寫完 Fungal Structure and Mycosis 的考古題了～祝考試順利，分數衝高高●¨v
+
+Fungal Structure and Mycosis
+微免考古小隊:蔡昌恩、劉宜瑄、鄭向晴、楊凱淇、吳昕妤 學藝：陳冠宇 授課老師：鍾筱菁
+選擇題
+1.(C)
+Filamentous fungus 即絲狀黴菌，泛指有菌絲的真菌，包含黴菌與蕈類
+(A) (D)為酵母菌 yeast 的定義：單細胞真菌
+(B) 指擔子菌亞門跟子囊菌亞門
+(E) 並非只存在有性世代，而是找不到
+2.(A)
+兩型性細菌（Dimorphic fungus）是指會隨環境（如溫度、培養基成分、二氧化碳濃度等）有不同
+形態的細菌
+(A) 為造成皮下感染的一種 dimorphic fungi，野外是雛菊花瓣狀（daisy petal，或稱玫瑰花式 rosette）
+分生孢子，體內則是雪茄型酵母菌
+(B) (C) (D) 都是會造成皮膚感染的 mold
+3.(A)
+莢膜孢漿菌具銀白色菌絲，孢子為流星錘狀
+1 2 3 4 5 6 7 8 9 10
+C A A A E E D E D B
+11 12 13 14 15 16 17 18 19 20
+C C E B C B C B B A
+21 22 23 24 25 26 27 28 29 30
+A D B A B B D A E D
+31 32 33 34 35 36 37 38 39 40
+B A C D A C D B B D
+41 42 43 44 45 46 47 48 49 50
+D D D A C D A C C D
+51 52 53 54 55 56 57 58 59 60
+B C A or B C B A C D B D
+
+4.(A)
+Lanosterol 是動物和真菌合成類固醇時的中間產物
+(A) Imidazole 可抑制麥角固醇的合成（抑制 14-α-lanosterol demethylase）
+(B) Echinocandins 可抑制多醣（glycan）的合成
+(C) Flucytosine 可抑制核酸的合成（氟代胞嘧啶，抑制 DNA、RNA 合成）
+(D) Terbinafine 為 Allylamines 的衍生物，可抑制麥角固醇的合成（抑制 squalene epoxidase）
+(E) Polyene 如 Amphotericin B、Nystatin 可直接破壞細胞膜
+5.(E)
+glycan 是 1-3 β-glycan（主鏈）、1-6 β-glycan（側鏈）；chitin 是 1-4 β-N-acetylglucosamine
+6.(E)
+(C) 毛癬菌屬（Trichophyton）的特徵為臘腸狀大孢子（左）
+(D) 小孢癬菌屬（Microsporum）的特徵為梭狀大孢子（中）
+(E) 表皮癬菌屬（Epidermophyton）的特徵為棒狀大孢子（右）
+7.(D)
+真菌的生命週期可以分成無性的階段（anamorph）跟有性的階段（teleomorph），隨環境調整為有性
+世代（sexual cycle）跟無性世代（asexual cycle），答案選(D) asexual cycle
+(A) 菌絲體 mycelium，指真菌在無性世代營養生長部分（相對於有性世代中生殖生長部分的子實
+體 sporocarp、fruiting body，是有性產孢結構，其上附有子囊、擔子），由許多分枝的菌絲組成
+(B) yeast-like 通常是指擔子菌綱（像是新型隱球菌）或是子囊菌綱（像是白色念珠菌）
+8.(E)
+圖要看，英文要背
+(A) 芽生孢子 Blastospore：非囊狀、投射型 balistic
+(B) 瓶孢子 Phialospore：非囊狀、投射型 balistic
+(C) 囊孢子 Sporangiospore：囊狀、投射型 balistic
+(D) 分節孢子 Arthrospore：非囊狀、菌體型 thallic
+(E) 厚膜孢子 Chlamydospore：非囊狀、菌體型 thallic
+看起來是部分菌絲的尾端變厚，可參考右圖厚膜胞子，選(E)
+
+9.(D)
+關鍵是梭狀大孢子，就是很像荷魯斯之眼的那個中間的形狀，所以選 Microsporum 開頭的
+10.(B)
+孢子從保齡球狀的菌絲頂投出，可參考第 8 題詳解附圖，選(B)
+11.(C)
+真菌的基本組成包括細胞本身（yeast）和菌絲（hyphae），答案選(C)
+(A) 這個組合只有涵蓋 mold
+(B) 這個組合只有涵蓋 yeast
+(C) 正確
+(D) 這個組合不包含 Septate hyphae
+(E) 答非所問
+12.(C)
+本題考接合菌亞門（Zygomycota）的無性階段菌絲多為共通細胞菌絲體，有假根 rhizoids，並可向
+上長出囊孢柄跟囊孢，囊孢裡面有中軸 columella 和上千顆囊孢子，答案選(C)
+至於有性階段，其構造稱為接合子（Zygotes），其中大部分的核退化，其中一對核融合在中間形成
+接合孢子（Zygospore）
+13.(E)
+這五個選項都是會造成全身性感染的真菌，且都是 dimorphic fungi
+(A) 皮炎芽生菌，與莢膜孢漿菌相似，分布在北美
+(B) 莢膜孢漿菌，分布在北美密西西比區域、中南美、西非。在患者體內可見紫色酵母菌痕跡，在容
+易滋生孢子的環境易感染。孢子吸入進入肺臟後無法被吞噬細胞分解，會以 yeast 的形式大量增
+殖，並侵入各器官
+(C) 球蟲菌，分布於中美洲
+(D) 巴西擬球蟲菌，分布在巴西
+(E) 瑪氏青黴菌，分布在東南亞、中國南部，為青黴菌中唯一會致病的兩型性真菌，常見於 AIDS
+患者
+14.(B)
+新型隱球菌 Cryptococcus neoformans 或叫 Fillobasidiella neoformans，是擔子菌綱中唯一的致病
+菌，會引起隱球菌病，答案選(B)
+新型隱球菌具有很厚的莢膜，加入墨水後可以明顯看到 yeast 和外面包起來的 capsule，並在特殊培
+養基中培養長時間會長出擔子，因此被歸類在擔子菌亞門
+
+15.(C)
+(A) 正確，真菌的細胞壁是由幾丁質為網架，讓水和養分進出並阻隔外物，多醣為基質，使細胞壁富
+有彈性
+＊比較：細菌細胞壁
+ 革蘭氏陽性菌：多層且較厚的肽聚醣組成細胞壁，穿插橫向的磷壁酸和直向的脂磷壁酸
+ 革蘭氏陰性菌：細胞壁包含肽聚醣層與外膜，外膜有 LPS
+(B) 正確，single-celled 的真菌是 yeasts；multi-celled 是 molds
+(C) 是 Eukaryotic
+(D) 正確，真菌沒有葉綠素（Achlorophyllous）
+16.(B)
+(A) 這種染色法是利用細菌細胞壁成分的不同來將細菌分成兩類（我們複習一遍）
+ Step 1（舉起手，手心對手心）
+Primary Stain（初染劑）：結晶紫跟肽聚醣結合，變紫色
+ Step 2（手放下，原地轉一圈）
+Mordant（媒染劑）：Gram’s Iodine 加強染色
+ Step 3（牽起手，向右跳兩步）
+Decolorizing Agent（脫色劑）：95%酒精，陰性菌細胞壁外層脂質較多會被溶解，結晶紫被釋出
+ Step 4（有怪物，大家快逃阿）
+Counter Stain（複染劑）：safranin 番紅，把變無色的陰性菌再次染色方便觀察
+(B) PAS 染色法（Periodic Acid-Schiff stain）在組織學上，主要用來檢測組織中的醣類，過碘酸把醣
+類相鄰兩個碳上的羥基氧化成醛基，再用 Schiff 試劑和醛基反應使呈現紫紅色，通常用於黴菌
+病檢體組織切片染色的方法
+(C) 這是拿來染孢子的，不能選，會搭配 Safranin 番紅來使用，孢子相較菌體難以脫色，在染完孔雀
+綠後，水洗可以把菌體的 malachite green 洗掉，孢子的 malachite green 還是會繼續待著，最後再
+用 safranin 番紅把菌體複染，就完成了，細菌細胞呈現紅色，孢子則是綠色（e.g. B. subtilis）
+(D) 亞甲藍是個很好的染劑，可以很好的呈現細胞核，不過無法 identify fungi
+17.(C)
+孢子從保齡球狀的菌絲頂投出，也很像倒著的掃把，可參考第 8 題詳解附圖，選(C)
+18.(B)
+箭頭指的是菌絲，因此不能選(A)(D)。圖片中有 septum 構成的隔板，因此選(B)
+19.(B)
+菌體型包含 Arthrospore 與(B) Chlamydospore，投射型包含(D) Blastospore、(A) Phialospore 與(C) 
+Sporangiospore，因此答案選(B)
+
+20.(A)
+他們在進行有性生殖，中間那個東西叫接合孢子，是 Zygomycotina 的 Sexual state
+＊Amastigomycota 家族的 sexual state 整理：
+ Zygomycotina 接合菌亞門：有性構造稱為接合子 Zygote，一正一負接合生成接合孢子
+ Ascomycotina 子囊菌亞門：整體稱為子囊 Ascus，內有減數分裂的子囊孢子（4、8、16）
+ Basidiomycotina 擔子菌亞門：擔孢子會著生在擔子的小梗上，等到成熟後，就會掉下來
+21.(A)
+Chlamydospore 雖然叫厚膜孢子，但其實是細胞壁增厚的結果。部分菌絲末端細胞壁變厚，最後斷
+裂產生孢子，斷裂的部分是菌絲的一部份，像是投手和手，屬於 Thallic，所以要選菌絲本身不是
+選表面，答案選(A)
+22.(D)
+真菌界的分裂順序是是否一直具有細胞壁、有無遊走孢子、有無有性世代、菌絲有無隔板、有性 
+孢子著生處（其中畫底線的就是屬於 Amastigomycota 無鞭毛菌門的範圍）
+(A) Slime molds 是黏菌，在第一個分法就被分掉，不是一直具有細胞壁的就歸類在黏菌
+(B) 看中文就知道沒有鞭毛，而且這個鞭毛是指遊走孢子上有沒有鞭毛，分成（無）鞭毛菌門
+(C) 酵母菌是指單細胞真菌，是依照真菌的型態分的
+(D) 正確，我們討論真菌主要就是討論 Amastigomycota 無鞭毛菌門，又稱 True fungi
+23.(B)
+(A) 皮下感染多非 dimorphism，像是 Sporothrix schenkii
+(B) Dimorphism 是指在不同環境下會有不同形態
+(C) 皮膚感染多非 dimorphism，像是 Trichophyton、Microsporum 與 Epidermophyton
+(D) 錯誤，是因為在不同環境下會有不同形態
+24.(A)
+存在有性世代，代表不是不完全菌亞門；是 Coenocytic，代表屬於 Zygomycotina 接合菌亞門，而
+Basidiomycotina 與 Ascomycotina 是 Septate
+25.(B)
+Candida albicans（白色念珠菌）屬於出芽型酵母 budding yeast，以 CHROMagar 培養會呈綠色，長
+期培養後會產生厚膜及芽生孢子。若將一群念珠菌，以血清為培養基，白色念珠菌是唯一一個會
+長出 Germ-tube 的。另外，白色念珠菌是人體正常菌相，屬於 Opportunity Mycosis 伺機感染的真
+菌。綜合以上，答案選(B)
+
+26.(B)
+Cryptococcus neoformans 新型隱球菌（又叫 Filobasidiella neoformans）是唯一會致病的擔子菌，感
+染源為鴿糞，經肺部吸入後，會使小孩得到真菌腦膜炎
+27.(D)
+(A) 錯誤，接合菌亞門沒有隔板，而是具有 coenocytic 的菌絲
+(B) 這選項的確是 Zygomycotina 會有的東西，不過僅限於無性階段，應該還會有更好的選項
+(C) 錯誤，Ascus 是子囊菌亞門在有性階段會看到的東西，內有成對的子囊孢子（4、8、16）
+(D) 正確，Zygomycotina 有無分隔的菌絲
+(E) 可以把 arthroconidia 理解為 arthrospores（關節孢子），與球蟲菌 Coccidioides immitis 有關
+28.(A)
+Indian Ink 為負染色法，將背景染黑，由於莢膜很厚不會染上黑色，因而出現發亮似的效果
+29.(E)
+關於 PAS 染色，參考第 16 題的(B)，選一個不是醣類的，答案選(E)幾丁質
+幾丁質：一種含氮多醣，單體是葡萄糖胺 N-acetylglucosamine（GluNAc, NAG），以 1,4 β 鍵形成
+30.(D)
+有隔板，則不是接合菌亞門，(B)、(C)錯
+Clamp connection 鎖狀聯合，一般是在擔子菌亞門的無性階段看到，所以如果今天看到一個菌絲具
+有 septum 但沒有 clamp connection 的，Ascomycotina 是首選，但 Basidiomycotina 也可能會有。故
+本題答案除了子囊菌亞門外，也有可能是擔子菌亞門，答案選(D)
+31.(B)
+Epidermophyton 具有棒狀大孢子
+32.(A)
+白色念珠菌擁有酵母、假菌絲、菌絲共三態，但這三型會同時在體溫環境存在，沒有符合 dimorphism
+最標準的定義（但確實有一派的說法認為是）
+33.(C)
+一定要選 c.，刪去(B)，假設(A)對那就全部都對了，因此判斷 b 不對，故選(C)（歪理）
+a.白色念珠菌是雙態（查閱資料結果顯示，但還是有爭議啦～）
+b.新型隱球菌屬於 yeast（其實它也是有爭議，但就先不算）
+c.會造成皮下感染孢子絲菌病（Sporotrichosis）的真菌，為溫度兩型性（thermally dimorphic）真菌
+d.當科普吧！
+
+34.(D)
+(D) 錯誤，真菌的細胞膜組成分為磷脂質和麥角固醇 ergosterol。
+＊小提醒：細菌細胞膜沒有固醇類喔！
+35.(A)
+Coenocytic hyphae 代表是接合菌亞門 Zygomycotina，考他的無性階段
+他有假根 rhizoids，上面可以長出囊孢柄 sporangiophores 和囊孢 sporangium，囊孢裡面有中軸
+columella 跟上千顆的囊孢子 sporangiospore
+＊Asexual state 整理：
+ Zygomycotina 接合菌亞門：如上，囊孢子 sporangiospore
+ Ascomycotina 子囊菌亞門：有隔菌絲長出分生孢子柄 conidiophore 和瓶狀孢子柄 phialides，
+瓶狀孢子柄上面有分生孢子（或稱瓶孢子）conidia
+ Basidiomycotina 擔子菌亞門：菌絲通常具有鎖狀聯合（Clamp-connection）的構造，會進行
+出芽生殖或塊狀生殖，也會產生分生孢子，不過很少
+36.(C)
+103 年國考題
+(A) Cryptococcus neoformans 新型隱球菌，是唯一會致病的擔子菌
+(C) 是散囊菌綱 Eurotiomyete
+37.(D)
+(A) (B) (C)皆為伺機性感染（Opportunity Mycosis）
+＊Opportunity Mycosis 的真菌分別如下：
+ Candidiasis 念珠菌症（此症狀較為重要）
+ Cryptococcosis 隱球菌症
+ Aspergillosis 麴菌症
+ Zygomycosis 接合菌症
+38.(B)
+102 年國考題。從疾病角度來看，題幹敘述說穿刺約 2 到 3 公分，代表是皮下感染；從型態來看，
+在 25°C 時絲狀真菌，以玫瑰花飾（Rosette）形狀排列，又看到在 37°C 時會長出酵母菌菌落，代
+表他是雙型態真菌，由以上條件可知：是申克氏孢子絲菌 Sporothrix schenckii，選(B)
+＊申克氏孢子絲菌小整理：
+ 雙型態的真菌，在野外型態（25°C）是 daisy petal（rosette）conidia 雛菊花瓣狀分生孢子，
+體內型態（37°C）則是 cigar-shaped yeast 雪茄型酵母菌
+ 通常是因為被刺傷而造成皮下感染
+ 症狀是潰瘍或腫塊，並會隨淋巴系統轉移，因此又被稱為 lymphocutaneous sporotrichosis（淋
+巴皮下孢子絲狀菌症）
+
+39.(B)
+101 年國考題
+真菌細胞壁之主要成分為幾丁質以及 β-1-3-葡萄聚醣（β-1-3-glucan）
+40.(D)
+101 年國考題
+看到乳白色、出芽型酵母、假菌絲、芽管，應該可以猜這個就是 Candida albicans
+(A) (B) 雖然這兩種真菌也會造成指甲感染，但基本上造成 cutaneous infection 基本上都是 mold
+原文：Dermatophytes belong to the mold group of fungi and cause cutaneous infections.
+(C) 這種真菌比較少感染指甲，可以先排除
+41.(D)
+(A) 莢膜很厚，常用 Indian ink 染色
+(B) 雪茄型酵母是申克氏孢子絲菌體內型態
+(C) 非雙型態，新型隱球菌屬於 yeast
+42.(D)
+(A) 唯一會致病的擔子菌
+(B) 伺機感染的成員之一
+(C) 用囊孢子來進行無性的真菌，雖然接合菌是用這種無性孢子沒錯，但並不是所有無性孢子都是
+接合菌，所以不能選
+(D) 描述真菌菌絲大部分沒隔板的真菌
+43.(D)
+99 年國考題
+(A) 黃麴毒素有致癌性
+(B) 真菌毒素也可能引起過敏反應
+(C) 真菌毒素可能具有長期毒性，造成肝、腎損傷
+(D) 正確，但其實如果擴及到人類以外，致畸胎也是有可能的
+44.(A)
+99 年國考題
+(A) 濕疹有許多原因，主要是過敏或免疫失調，跟尿布疹不一樣
+(B) (C) (D) 均為 C. albicans 可能引起的病變
+45.(C)
+99 年國考題
+Cryptococcus neoformans 主要是從呼吸道吸入後感染、入侵
+
+46.(D)
+(A) (B) 為真菌的基本定義
+(C) 真菌喜歡偏酸性環境，對比細菌則較愛弱鹼性環境
+(D) 大部分真菌最佳生長溫度為 25°C 至 30°C。另外從真菌分類的角度來看，其實大部分真菌是跟
+醫學沒有關係的（整個界可能只有無鞭毛菌門 Amastigomycota 是跟醫學有關）。換句話說，大
+部分真菌不會在人體生活，既然不在人體生活，那我們就不能說他們的最適生長溫度是 37°C
+47.(A)
+98 年國考題。真菌中最常見的無性孢子為分生孢子，分生孢子就是 conidia，廣義來說就是分成
+ballistic、thallic 的無性孢子，所以答案選(A)
+48.(C)
+為伺機性感染真菌，免疫低下患者則可能受到感染而導致真菌性腦膜炎
+49.(C)
+97 年國考題。關鍵字：鴿糞、腦膜炎
+50.(D)
+96 年國考題
+(B) (C) 不同真菌有不同的最適生長環境、型態
+(D) 真菌或許會有孢子飄來飄去，但要剛好免疫不好，而且不同個體間對特定真菌毒素的敏感性也
+不同，所以傳染本身就不太成立
+51.(B)
+96 年國考題。LPS 是 gram-negative 才有的特徵
+52.(C)
+96 年國考題
+AIDS 病人的伺機性感染，最常見的是卡氏肺囊蟲（Pneumocystis carinii pneumonia）所造成的肺
+炎；另外白色念珠菌（Candida albicans）會造成鵝口瘡（oral thrush）、陰道炎、甚至食道炎或藉由
+血流侵入各個器官；新型隱球菌（Cryptococcus neoformans）則會造成腦膜炎、發燒、嘔吐；毛癬
+菌（Trichophyton）則屬於常見的皮膚黴菌，感染（如香港腳、灰指甲）不限於免疫低下者
+53.(A) or (B)
+96 年國考題。單細胞真菌的繁殖方法分成出芽型 budding 跟中裂型 fission
+(C) 一種無性生殖的方式（接合菌亞門）
+(D) 接合菌亞門的有性階段繁殖方式
+
+54.(C)
+95 年國考題。造成淺部皮膚感染小整理：Trichophyton、Microsporum、Epidermophyton 開頭的
+(A) 鵝口瘡、尿布疹、陰道感染、全身感染、菌血症
+(B) 能感染腦組織
+(D) 皮下經淋巴管感染
+55.(B)
+95 年國考題。Amphotericin B（兩性黴素 B）有分成親油（7 個 C＝C）與親水兩面，親油面接合
+ergosterol，親水面朝內。8 組 amphotericin B 與 ergosterol 在細胞膜上構成一個 pore，損毀細胞膜
+56.(A)
+95 年國考題。
+(A) 真菌種類沒有明顯再發現更多，突變可能會造成新種但突變大多有害，發生率也低
+(C) 因器官移植或其他需要使用這種藥物後，免疫下降使伺機感染型真菌有機可趁
+(D) 這題是民國 95 年的考題，當時的確是這樣，HIV 會使免疫下降，伺機感染型真菌就有機會造
+成感染，但 AIDS 一樣是全球性非常嚴重的問題
+57.(C)
+95 年國考題
+(C) 產毒性感染若理解為產出 mycotoxin 造成的病症，則 C. albicans 並非常見產高毒性毒素的真菌
+＊白色念珠菌造成的疾病有以下：鵝口瘡、尿布疹、陰道感染、全身感染、菌血症
+ Thrush（鵝口瘡）：好發於新生兒及年老體弱者，口腔或咽喉膜有白色斑片狀感染
+ Vulvovaginal candidiasis（外陰陰道念珠菌病）：好發於成年女性、糖尿病患者、孕婦或服用
+口服抗生素會改變正常的陰道微生物群者。陰道會有黃白色分泌物、發炎、疼痛性潰瘍、搔
+癢。為了預防，可以多喝蔓越莓汁，可以維持 pH 值並抑制壞菌附著
+ Onychomycosis（甲溝癬）
+ Intertriginous infection（擦傷感染）
+ Cutaneous candidiasis（皮膚念珠菌病）
+ Esophageal candidiasis（食道念珠菌病）：出現在 70%的 AIDS 患者，症狀為頭痛、出血性潰
+瘍、噁心、嘔吐等
+ Systemic candidal blood infection（全身性黴菌血症）：發生在易感染因手術、骨髓移植、晚期
+癌症或靜脈藥物成癮而長期虛弱的患者，感染位置發生在泌尿道、心內膜、腦。死亡率高於
+任何其他真菌病原體（40～60%，比敗血症還高）
+58.(D)
+最好是用 Indian ink。厚厚的 capsule 不會被染上去，看起來白白一團很可愛
+
+59.(B)
+94 年國考題
+新型隱球菌是一種 yeast，沒有假菌絲
+(B) 是 yeast-like 菌的敘述（來源存疑）
+60.(D)
+94 年國考題
+已經出現超級多遍囉！要記得呦～
+61. Fungi are eukaryotic organisms that are distinguished from other eukaryotes by a rigid cell wall composed 
+of chitin and glucan and a cell membrane in which ergosterol is substituted for cholesterol as the major 
+sterol component.
+62. Candidiasis 是 Candida spp.（spp.為種 species 的縮寫）造成的各種感染
+Candidemia 是 Candida spp.進入血液引起的菌血症，為 blood stream infections（BSI）
+63. Lymphocutaneous sporotrichosis 是由 Sporothrix schenkii 引起的皮下真菌感染，並由淋巴系統轉移
+
+111 微免期中考古
+微免考古小隊:蔡昌恩、劉宜瑄、鄭向晴、楊凱淇、吳昕妤 學藝：陳冠宇
+1.有關抗藥性的敘述，何者錯誤？
+(A) 抗藥性目前有越來越氾濫的趨勢，源自於濫用抗生素
+(B) 抗藥性有害人體健康
+(C) 抗藥性只有在南非美洲盛行，其他地方沒有
+(D) 可以用噬菌體的方式取代抗生素
+2.下列哪個結構導致敗血性休克？
+(A) LPS (B) Peptidoglycan (C) Porin (D) Pilus
+3.下列何者只存在於革蘭氏陰性箘，但不存在陽性菌？
+(A) Peptidoglycan (B) Lipid A (C) Flagella (D) Capsule
+4.關於 Koch 的敘述何者錯誤？
+(A) Plasmid－extrachromosomal and gene exchange
+(B) Fimbriae－mobility
+(C) Cell wall－maintain shaped
+(D) Cell membrane－Nutrient exchange
+(E) Inclusion－nutrient storage
+5.下列何者不是分辨細菌表現型（phenotype）的方式？
+(A) PCR 定序
+(B) 溶血型態鑑定
+(C) 利用碳源的不同
+(D) 血清型檢驗
+6.格蘭氏染色法陽性的原理為何？
+(A) 細胞膜吸收染劑
+(B) 活細菌將染劑吸入細胞質中
+(C) 固定加熱時露出可染色蛋白
+(D) 細菌細胞壁嵌入染劑
+7.何者為葛蘭氏陽性菌特有，陰性菌沒有？
+(A) Peptidoglycan (B) Teichoic acid (C) Lipid A (D) Capsule
+8.下列關於質體（plasmid）的敘述何者正確？
+(A) 可在細菌間傳遞帶有抗藥性相關基因
+(B) 與細菌染色體同步進行複製
+(C) 多為存在於細胞質內之線狀 RNA
+(D) 僅存在於革蘭氏陰性菌之細胞質中
+
+9.需氧性細菌之所以可以在有氧氣的環境下生長，主要的原因是？
+(A) 可在有氧條件下產生能量
+(B) 可在有氧條件下進行氧化還原作用
+(C) 可產生酵素移除在利用氧氣時所產生的氧化自由基
+(D) 可在有氧條件下合成巨分子
+10.對細菌生長曲線各階段的描述，下列何者錯誤？
+(A) 在起始延遲生長期，細菌完全不會生長，數目維持不變
+(B) 在指數生長期，細菌通常都是活的
+(C) 在穩定生長期較容易可以找到抗藥性植株
+(D) 細菌的世代時間（或倍增時間），可利用指數生長期來計算
+11.關於細菌基因調控，哪個是正確的？
+(A) 最後 translated 出的產物都是蛋白質
+(B) 執行同一生物功能的基因被聚集在同一 operon，而各基因是被獨立調控
+(C) translation 會在 transcription 後才進行
+(D) 抑制型（Repressive）基因調控常出現在胺基酸合成的基因座上，胺基酸結合並活化抑制因
+子，從而停止基因表現
+12.增加一個核苷酸會做成什麼突變？
+(A) silent mutation
+(B) null mutation
+(C) nonsense mutation
+(D) missense mutation
+13.下列哪個不是水平式基因轉移的方法？
+(A) transduction
+(B) translation
+(C) transformation
+(D) conjugation
+14.以下關於滅菌與消毒的敘述，何者錯誤？
+(A) 70%酒精的消毒效果比 95%酒精好
+(B) 戊二醛可以消除大部分細菌、黴菌、孢子
+(C) 高壓蒸氣滅菌法的操作是以 100 度持續 15 分鐘
+(D) 紫外線，因為其穿透度不高，因此需要直接照射以達到消毒效果
+
+15.醫材製造廠在製造不耐熱醫材，如 plastic implants、contact lenses 等物質時，何者為最佳的滅菌
+法，雖然設備昂貴但滅菌後不留有毒物質？
+(A) UV light
+(B) gama radiation
+(C) formaldehyde
+(D) Phenol
+16.哪個是醫院紗布最適當的滅菌方式？
+(A) 高壓蒸氣滅菌法
+(B) 戊二醛（glutaraldehyde）
+(C) 乾熱滅菌法（170℃，2hr）
+(D) UV 照射
+17.請問牛奶的殺菌方法是？
+(A) 高壓蒸氣殺菌法
+(B) 紫外線殺菌
+(C) 巴斯德殺菌法
+(D) 乾熱滅菌法
+18.有關 AB toxin，何者錯誤？
+(A) 分成兩個區域，其中 A 區域含有酵素
+(B) 分成兩個區域，其中 B 區域會黏到細胞表面
+(C) 革蘭氏陰性和陽性菌都可以分泌
+(D) 只和腹瀉有關
+19.下列何者不是細菌逃避宿主免疫的機制？
+(A) 抵抗 lysosome 的酵素作用
+(B) 逃離 lysosome，跑到細胞質去複製自己的基因
+(C) 逃避 phagolysosomes
+(D) 產生孢子
+20.關於超級抗原，下列何者正確？
+(A) 不同菌產生的超級抗原蛋白質組成皆相同
+(B) 不專一活化 macrophage
+(C) 刺激大量產生 cytokine
+(D) 需要被吞噬細胞分解並呈現在細胞表面
+21.關於內毒素和外毒素，何者正確？
+(A) 兩者皆由蛋白質構成
+(B) 兩者皆直接破壞宿主細胞
+(C) 外毒素常見於可移動的基因，如質體或噬菌體
+(D) 若檢測到病患血液中有內毒素，表示感染了格蘭氏陽性菌
+
+22.下列何者無法將金黃色葡萄球菌與表皮葡萄球菌區分出來？
+(A) 發酵甘露醇的能力
+(B) 溶血型態
+(C) 產生凝固酶的能力
+(D) 觸酶試驗
+23.在治療由化膿性鏈球菌引起的軟組織感染時，何者為醫護人員會面臨到的最大問題？
+(A) 該細菌對青黴素的抗藥性
+(B) 此種感染常伴隨多種細菌感染，不易處理
+(C) 感染後組織會快速壞死，併發敗血症
+(D) 常常重複感染，因此治療時長較長
+24.以下哪一項不是金黃葡萄球菌引發的疾病？
+(A) Rheumatic fever
+(B) Impetigo
+(C) Endocarditis
+(D) Toxic shock syndrome
+25.有關於無乳性鏈球桿菌，下列何者正確？
+(A) 屬於 gamma 溶血型的 GBS
+(B) 血清學檢測中 Lancefield grouping B group 位於細胞外的 capsule
+(C) 常在新生兒生產時感染
+(D) 以無感染性的菌落長於人體上呼吸道
+26.金黃葡萄球菌（Staphylococcus aureus）會分泌下列哪種物質中和抗體，抑制調和與趨化作用？
+(A) Enterotoxin A
+(B) Protein A
+(C) TSST-1
+(D) Exfoliative toxin
+27.一名 5 歲男童感染了細菌性肺炎，經培養發現呈現 α-hemolysis，且為 Catalase 陰性，試問是下列
+哪種細菌引起的？
+(A) 化膿性鏈球菌（Streptococcus pyogene）
+(B) 肺炎鏈球菌（Streptococcus pneumoniae）
+(C) 表皮葡萄球菌（Staphylococcus epidermis）
+(D) 金黃葡萄球菌（Staphylococcus aureus）
+28.哪種菌呈現高度抗藥性，會形成生物膜，並且耐高鹽與膽鹽？
+(A) 肺炎鏈球菌（Streptococcus pneumoniae）
+(B) 化膿性鏈球菌（Streptococcus pyogene）
+(C) 轉糖鏈球菌（Streptococcus mutans）
+(D) 糞腸球菌（Enterococcus faecalis）
+
+29.關於 S. pneumoniae 的敘述何者錯誤？
+(A) 現在已經有疫苗，故可以完全預防
+(B) 將患者血清與抗原混合，可以觀察到莢膜腫脹（Quellung reaction）
+(C) 會觀察到 α-hemolysis
+(D) Optochin 檢驗陽性
+30.下列何者並非腸內桿菌科（Enterobacteriaceae）常見的血清抗原？
+(A) LPS 的 O antigen
+(B) Flagella
+(C) Capsule
+(D) Teichoic acid
+31.下列何種細菌毒素的機制與其他不同？
+(A) Shigella 的 Shiga toxin
+(B) ETEC 的 LT toxin
+(C) Bacillus anthracis 的 Edema toxin
+(D) Vibrio cholerae 的 Cholera toxin
+32.關於腸桿菌科的敘述下列何者錯誤？
+(A) 皆為 G（－）
+(B) 初步可以用是否發酵葡萄糖分類
+(C) Oxidase（－）
+(D) 感染症狀主要因外毒素不同而異
+33.下列何者錯誤？
+(A) UPEC：可透過 P pili 黏附尿道上皮細胞，造成尿道炎
+(B) ETEC：可產生腸毒素引起旅行者腹瀉
+(C) EPEC：主要致病機制為細菌破壞腸壁上皮細胞，造成黏膜發炎引起腹瀉
+(D) EHEC：Shiga toxin，O157：H7
+34.下列關於痢疾志賀氏菌（Shigella dysenteria）的敘述，何者錯誤？
+(A) 會製造 Shiga toxin
+(B) 僅 100 CFU 即可感染
+(C) 常經由食用受感染的肉或乳製品方式得到
+(D) 具強侵入性，可能造成溶血性尿毒症候群（Hemolytic-uremic Syndrome）
+35.關於鼠疫的敘述何者錯誤？
+(A) 是由 Yersinia pestis 引起的
+(B) 主要由鼠類等嚙齒類動物咬到人類引起
+(C) 有可能以口沫人傳人的方式肺部傳染，甚至導致敗血症
+
+36.關於弧菌的敘述何者正確？
+(A) 有很強的抗酸能力，所以能在胃中生存
+(B) Vibrio cholerae 的每一種都會導致霍亂
+(C) Vibrio parahaemolyticus 可能感染傷口導致組織壞死
+(D) Vibrio vulnificus 常藉由食用被污染的海鮮（如生蠔）而感染人類
+37.下列關於炭疽桿菌的敘述何者錯誤？
+(A) 為具有孢子的革蘭氏陽性菌
+(B) 具有莢膜，能逃脫吞噬作用
+(C) 人與人之間最常見的傳播方式為皮膚傳染
+(D) 毒素為內毒素
+38.下列關於仙人掌桿菌的敘述何者錯誤？
+(A) 會引起炒飯症候群
+(B) 毒素為 heat labile，機轉為抑制蛋白質合成
+(C) 含有 Heat stable proteolysis resistance enterotoxin，會引起嘔吐
+39.下列關於真菌型態，何者錯誤？
+(A) 真菌為真核生物，有粒線體
+(B) 細胞膜上具有 ergosterol
+(C) Yeast form 可以進行出芽生殖
+(D) Mold form 下有 hyphae，並且沒能力感染人類
+40.下列關於可在健康人造成 systemic infections 的 true fungal pathogen 的敘述何者錯誤？
+(A) 通常為 Dimorphic
+(B) 常見於潮濕的海島性國家
+(C) 通常透過上呼吸道感染
+(D) 感染者大部分為輕微肺部感染，少部分造成嚴重的全身性感染而致死
+41.關於子囊菌門生活史的敘述何者錯誤？
+(A) 具有有性世代及無性世代
+(B) 無性生殖世代產生孢子囊孢子
+(C) 有性生殖世代產生子囊孢子
+(D) 有性生殖世代包括生質融合，核融合及減數分裂
+42.關於新型隱球菌何者錯誤？
+(A) 屬於擔子菌門
+(B) 常在鴿糞中發現
+(C) 常引發伺機性肺炎
+(D) 常用 Amphotericin B 及 fluconazole 治療
+
+43.下列何種藥物的作用機制與真菌細胞膜上的 ergosterol 較無關？
+(A) Ketoconazole
+(B) Echinocandins
+(C) Amphotericin B
+(D) Butenafine
+44. 可作為可活化 B 淋巴細胞的抗原，其特性不包括下列哪一項？
+(A) 抗原上的 epitope 多為親水性性質
+(B) 需有 MHC 分子參與和抗原以及 B 細胞上的受體相結合
+(C) 抗原上作為 B 細胞認知的 peptides，其序列可為具不連續性的氨基酸序列
+(D) 抗原可以是 protein, polysaccharide 或 lipid
+45.以下哪個不是 innate immunity 的成員？
+(A) B cell (B) Dendritic cell (C) Macrophage (D) NK cell
+46.利用 CAR-T 治療 ALL 不包括以下哪些分子？
+(A) anti-CD19
+(B) CTLA-4
+(C) 4-1BB
+(D) CD3 Zeta chain
+47.何者為最能連接初級免疫與次級免疫的細胞？
+(A) NK cell (B) Basophil (C) Neutrophils (D) Dendritic cell
+48.濾泡輔助性 T 細胞（T follicular helper cells, TFH cells）主要分泌的細胞素為何？
+(A) IL-21 (B) IL-22 (C) IL-23 (D) IL-27
+49.下列何種細胞激素並非由 TH2 細胞所分泌？
+(A) IL-4 (B) IL-5 (C) IL-12 (D) IL-13
+50.以下何者和胞毒性 T 細胞（cytotoxic T cell）的毒殺作用沒有直接關聯？
+(A) FasL (B) Perforin (C) Granzyme (D) IFN-γ
+51.下列何者並非由 CD8 T cell 分泌來執行細胞毒殺功能？
+(A) TNF-α (B) TGF-β (C) LT-α (D) IFN-γ
+
+52.胸腺依賴性（thymus-dependent）抗原（TD 抗原）及非胸腺依賴性（thymus-independent）抗原
+（TI 抗原）都可以活化 B 細胞產生抗體反應，有關 TD 及 TI 抗原的敘述何者錯誤？
+(A) 蛋白質抗原屬於 TD 抗原，而且 B 細胞的完全活化需要兩個訊號，第一個訊號由 B 細胞的
+MHC- peptide 和 T 細胞的 TCR 結合後所傳遞。第二個訊號則是由 B 細胞的 CD40 和 T 細胞的
+CD40 配體（CD40 ligand）結合後所傳遞
+(B) 脂多醣（lipopolysaccharide，LPS）不需要 T 細胞的幫忙也可以活化 B 細胞，是屬於第一型 TI
+抗原（TI-1）。高劑量的 LPS 會引起非專一性的抗體反應。相反的，低劑量的 LPS 則引起專一
+性抗體反應
+(C) TD 抗原和 TI-2 抗原都是藉由 BCR 來辨識，但 TI-1 抗原則可以由 BCR 或非 BCR 來辨識
+(D) 嬰兒容易受到具有莢膜的肺炎球菌的感染，其可能原因是嬰兒體內的 B 細胞尚未成熟的關係所
+導致
+53.下列關於調節型 T 細胞（regulatory T cells, Treg）的敘述何者正確？
+(A) 腫瘤可以調控 microenvironment 使 T cell 分化成 Treg 細胞，以逃脫免疫系統的追殺
+(B) Treg 細胞的功能的過度活化，是許多自體免疫疾病發病的重要因素
+(C) Treg 細胞都是在周邊淋巴組織分化而成
+(D) Treg 細胞表面帶有 CD8 的標記，可以幫助清除胞內病原感染
+54.Leukocyte 在進入周邊組織執行吞噬作用時會有：(a) chemokine (b) integrin (c) selectin 的參與，請依
+照使用的先後順序排列：
+(A) cba (B) abc (C) cab (D) bac
+55.先天免疫反應產生時，會造成白血球趨化作用的受體為下列何者？
+(A) T cell receptor
+(B) B cell receptor
+(C) chemokine receptor
+(D) Fc receptor
+56.經過調理作用（opsonization）後，吞噬細胞用來結合病原體的調理素（opsonin）是哪個受器？
+(A) toll-like receptor
+(B) complement receptor
+(C) chemokine receptor
+(D) lectin-like receptor
+57.關於先天性淋巴細胞（innate lymphoid cells, ILCs），下列何者錯誤？
+(A) 先天性淋巴細胞不具抗原特異性受體，因此無法辨識專一性受體
+(B) 自然殺手細胞（natural killer cell, NK cell）屬於先天性淋巴細胞
+(C) ILC-1 會分泌 IFN-𝛾，針對胞外細菌、病毒感染
+(D) ILC-2 會分泌 IL-4, IL-5, IL-13，在特定條件下會引起氣喘反應
+
+58.補體溶解途徑最初會合點為何？
+(A) C1qrs
+(B) C4b
+(C) C5 convertase
+(D) C3 convertase
+59.抗體敘述何者正確？
+(A) IgA 在血清含量最多
+(B) IgE 在腸黏膜含量最多
+(C) IgM 在體組織液含量最多
+(D) IgD 主要以 membrane form 存在 B 細胞表面
+60.下列何者不是抗體的 Fc 部分的功能？
+(A) 調理
+(B) 中和
+(C) 促進肥大細胞分泌 degranulation
+(D) 促進補體活化
+61.關於 IgA 敘述何者正確？
+(A) 兩種 IgA 亞型在身體中的比例一樣
+(B) IL12 可以促進 IgA
+(C) IgA 的分泌部分 secretary part 是上皮細胞製造的
+(D) 可以和抗原結合促進補體經典途徑
+62.下列關於 isotype 的敘述何者錯誤：
+(A) 血液中有高含量的 IgA
+(B) 體液中有高含量的 IgM
+(C) 腸道中有高含量的 IgA
+(D) IgG 可透過胎盤給與嬰兒
+
+63.下列關於 VDJ 的 Junctional Diversity 的敘述何者錯誤？
+(A) RAG：可辨認 RSS 並留下 intron sequence 與 DNA hairpin
+(B) Artemis：可以打開 hairpin 結構
+(C) 拆掉髮夾後被翻轉加入另一股的核苷酸稱作 P-nucleotide
+(D) TdT：可辨識 DNA 分子片段
+64.關於第一型過敏反應，何者錯誤？
+(A) 肥大細胞刺激目標細胞分泌 histamine, prostaglandin, leukotriene 造成氣管舒張，血管收縮
+(B) 過敏性鼻炎是因為吸到過敏原造成
+(C) 避免接觸過敏原是好的預防方式
+(D) 皮膚檢測可受到 IgE 的反應而有所影響（非完整選項）
+65.過敏性氣喘最可能會檢驗到那些數值升高？
+(A) IFN gamma 和 IgE
+(B) IL5 和 IgE
+(C) IFN gamma 和 IgA
+(D) IL5 和 IgA
+66.何者最能解釋都市地區過敏盛行率提高的現象？
+(A) 群體免疫
+(B) 連結辨識
+(C) 衛生假說
+(D) 正向選擇
+67.過敏原的敘述何者正確？
+(A) 不溶於水
+(B) 多為小分子蛋白
+(C) 不具酵素活性
+(D) 分子不穩定
+68.關於 type III 過敏反應何者正確？
+(A) 抗體辨識結合於細胞表面使得細胞壞死的過度免疫反應
+(B) 為 IgE 所介導
+(C) 為過度活化 Th1 及 CD8 T cell 造成
+(D) 與持續性病原體感染有關
+
+69.關於過敏反應何者錯誤？
+(A) Type II 與抗體辨識有關
+(B) Type II & Type III 皆有補體介入
+(C) 為避免新生兒溶血症（Hemolytic disease of the newborn），需給胎兒注射 anti-RhD 抗體
+(D) 亞瑟氏反應（Arthus reaction）與 Type III 過敏有關
+70.當無法吞噬微生物時，免疫系統會包圍其形成肉芽腫（Granuloma），問是何種細胞造成？
+(A) 上皮細胞（epithelial cells）
+(B) 類上皮細胞（epithelioid cell）
+(C) 漿細胞（plasma cell）
+(D) 死掉的嗜中性白血球及細菌碎片
+71.用 TCR transgenic mice 進行的實驗確定了發育中的 胸腺細胞在 positive selection 失敗後的命運。
+基於這些發現，對 MHC I、MHC II 有缺陷的小鼠，胸腺細胞的研究顯示下列何者？
+(A) 胸腺細胞數減少了 100 倍
+(B) 在 CD4－、CD8－階段的 T Cell 發育受阻
+(C) 胸腺細胞和外周 T cell 的數量和亞群正常
+(D) 胸腺細胞數量正常但沒有外周 T Cell
+(E) 在 CD4＋、CD8＋階段的 T cell 發育受阻
+72.雖然胸腺中的許多細胞類型能誘導發育中的自我反應胸腺細胞進行 negative selection，但 bone 
+marrow 來源的 APC（如 Macrophage 及 Dendritic Cell）似乎對這一個過程最爲重要。Bone Marrow
+來源的 APC 在誘導發育中的胸腺細胞 negative selection 過程中發揮突出的可能原因是下列何者？
+(A) BM 來源的 APC 是胸腺中最豐富的基質細胞
+(B) BM 來源的 APC 是非常善於誘導成熟 T cell 活化
+(C) BM 來源的 APC 有高度的吞噬能力，並且有專門的機制來 present MHC I and MHC II 上面的
+peptide
+(D) BM 來源的 APC 集中在 Thymic Medulla，那裡的 negative selection 最爲突出
+(E) BM 來源的 APC 起源於造血，所以發育中的胸腺細胞具有相同的遺傳組成
+73.Which of the following statements about γδ T cell development is not true?
+(A) γδ T cells are derived from a bone marrow stem cell precursor
+(B) γδ T cells theoretically could have greater diversity than αβ T cells, but in reality, they show very 
+limited diversity
+(C) γδ T cells are derived from αβ T cell
+(D) γδ T cells mature in the thymus
+(E) γδ T cells are not MHC-restricted
+
+74.一名患有 T 細胞活化免疫缺陷的男孩。該疾病和膜蛋白的遺傳缺陷有關。該蛋白細胞質尾端參與
+TCR 辨識抗原的胞內訊息傳遞，請問以下何種蛋白不符合敘述？
+(A) TCR alpha
+(B) CD3 gamma
+(C) CD3 ζ
+(D) CD4
+(E) CD3 epsilon
+75.The polymorphism of MHC genes differs from the diversity of the B-cell and T-cell antigen receptor in 
+that:
+(A) It involves DNA rearrangements at multiple gene segments in the MHC locus
+(B) It requires different enzymes than the RAG1/RAG2 recombinase required for antigen receptor 
+rearrangement
+(C) It results in a diverse repertoire of clonally distributed receptors on dendritic cells, rather than on 
+lymphocytes
+(D) It creates diversity between individuals in the population rather than within a single individual
+(E) It does not contribute to the transplant rejection responses that occur after organ transplantation 
+between unrelated individuals
+76.以下關於超級抗原的敘述何者錯誤？
+(A) 會引起中毒性休克
+(B) 非專一性活化 T 細胞
+(C) 需要 APC 先處理後才能活化 T 細胞
+(D) 結合於 APC 的 MHC II 上
+(E) 葡萄球菌的 enterotoxin 是一種超級抗原，可能引起食物中毒
+
+111 微免期中考古
+微免考古小隊:蔡昌恩、劉宜瑄、鄭向晴、楊凱淇、吳昕妤 學藝：陳冠宇
+1 2 3 4 5 6 7 8 9 10
+C A B B A D B A C A
+11 12 13 14 15 16 17 18 19 20
+D B B C B A C D D C
+21 22 23 24 25 26 27 28 29 30
+C D C A C B B D A D
+31 32 33 34 35 36 37 38 39 40
+A D C C B D D B D B
+41 42 43 44 45 46 47 48 49 50
+B C B B A B D A C D
+51 52 53 54 55 56 57 58 59 60
+B A A C C B C D D B
+61 62 63 64 65 66 67 68 69 70
+C A D A B C B D C B
+71 72 73 74 75 76
+E C C D D C
+1. Global 
+2. LPS
+3. Lipid A in LPS
+4. Fimbriae: adhesion; flagella: mobility
+5. PCR: genotype
+6. 細菌細胞壁嵌入染劑，可以查一下 gram stain 原理
+7. Teichoic acid only in G+ bacteria
+8. EASY
+9. 如果不能移除 ROS，bacteria 會死掉
+10. 細菌不會「完全」不會生長
+11. 可以查一下 Tryptophan repressible operon，普生有教
+12. Frameshift mutation=> null mutation
+13. Translation 是轉譯，horizontal gene transfer 有 transformation, transduction, conjugation, and 
+transfection
+
+14. 需 121 度或以上
+15. EASY
+16. EASY
+17. EASY
+18. Diphtheria toxin, shiga toxin, and shiga-like toxin 都是 AB toxin，但 Diphtheria toxin 就不會造成
+diarrhea
+19. Spore 與 environmental stress 比較有關
+20. 非專一性活化 T cell，產生大量 cytokine=> inflammation
+21. Endotoxin: LPS not protein, in G negative bacteria
+22. Both catalase positive: mannitol (aureus +, epidermis -), hemolytic (aureus beta, epidermis none), 
+coagulase (aureus +, epidermis -)
+23. S. pyogenes 會造成 necrotizing fasciitis
+24. Rheumatic fever 為 S. pyogenes 造成
+25. S. agalactiae 為 GBS，beta-hemolytic，血清學看 cell wall 的 C-carbohydrate，通常長在泌尿道、
+vagina (新生兒生出來的時候才有可能會感染)
+26. EASY
+27. Alpha hemolytic + catalase negative + pneumonia=> S. pneumoniae
+28. 耐高鹽、膽鹽=> Enterococcus
+29. Vaccine 無法完全預防所有 serotype
+30. Teichoic acid only in G+ bacteria
+31. Shiga toxin 抑制 protein synthesis by binding rRNA subunit, other increase cAMP
+32. G- bacteria=> no exotoxin
+33. EPEC 不會破壞腸道 cell
+34. Shigella 是 contaminated water，option C 為 Salmonella 描述
+35. 跳蚤咬的
+36. Only O1, O139 V. cholerae will make cholera toxin，option B 為 V. vulnificus 描述
+
+37. Exotoxin
+38. Heat-labile => diarrhea
+39. Mold form 有感染能力
+40. 特定地區 not just 海島國家
+41. 無性產 conidia 分生孢子
+42. Pneumoniae=> meningitis
+43. Echinocandin inhibit 1, 3 beta D glucan synthesis
+44. B cell 可以直接 recognize antigen (T independent)
+45. EASY 
+46. CTLA-4 為 immune checkpoint therapy
+47. EASY
+48. EASY
+49. EASY
+50. Interferon gamma activates macrophage
+51. TGF-beta 為 T reg 分泌，抑制免疫
+52. 描述皆為 signal 2，signal 1 為 BCR 結合 antigen
+53. T reg 抑制免疫
+54. Tethering (selectin)=> triggering (chemokine)=> adhesion (integrin)
+55. EASY
+56. EASY
+57. Intracellular pathogen=> ILC 1: interferon gamma; extracellular: IL3 3, Th17; parasite and allergy: ILC 
+2
+58. EASY
+59. EASY
+60. Neutralization 為 Fab
+61. EASY
+62. IgA 主要在黏膜
+63. TdT 無法辨識 DNA 片段，隨機加入 N nucleotide
+64. 氣管收縮，血管舒張
+65. IL5: eosinophil, IgE: mast cell
+66. 都市衛生太乾淨=> Type 1 hypersensitivity
+67. 溶於水、具酵素活性、分子穩定
+
+68. Type 1: mast cell, IgE; Type 2: antibody; Type 3: immune complex; Type 4: T cell mediated
+69. Anti-RhD antibody 給母親注射; Arthus reaction=> localized immune complex (IgG and antigen)沉澱
+=> complement activation=> localized inflammation
+70. epithelioid cell= macrophage
+71. Positive selection 受阻
+72. EASY
+73. EASY
+74. CD4 為 co-receptor，help stabilize T helper cells’ interaction with APC
+75. MHC polymorphism 個體間差異，B/T cell receptor diversity 個體內差異
+76. Superantigen 不需要 APC 即可非專一性活化 T cell
