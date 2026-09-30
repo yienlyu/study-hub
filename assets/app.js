@@ -430,8 +430,8 @@
       render(
         emptyState(
           "載入失敗",
-          `${esc(e.message)}。如果你是直接雙擊 index.html 開啟，請改用 GitHub Pages 網址或在資料夾執行 python3 -m http.server。`,
-          `<a class="btn" href="#/">回首頁</a>`,
+          `錯誤訊息：<span class="mono">${esc(e.message)}</span><br>剛更新網站時，瀏覽器可能還留著舊版檔案，請按「重新載入」或 <kbd>Ctrl</kbd>/<kbd>⌘</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd>。如果是直接雙擊 index.html 開啟，請改用 GitHub Pages 網址或執行 python3 -m http.server。`,
+          `<button class="btn primary" type="button" onclick="location.reload()">重新載入</button> <a class="btn" href="#/">回首頁</a>`,
         ),
       );
     }
