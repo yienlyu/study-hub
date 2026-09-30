@@ -34,7 +34,13 @@
 - **Neurotoxins**：botulinum（**flaccid** 麻痺）、tetanus（**spastic** 痙攣）。
 - **Enterotoxins（A-B）**：*Vibrio*（↑cAMP）。
 - **A-B toxin**：B（binding）結合受體 → receptor-mediated endocytosis → A（action）改變細胞功能（常抑制蛋白質合成）。G+、G− 都能分泌，**不只造成腹瀉**（例：diphtheria toxin）。
+
+<div data-fig="ab-toxin"></div>
+
 - **Superantigen**：**不需 APC 處理**，直接跨接 MHC II 與 TCR（Vβ）→ **非專一性活化大量 T 細胞 → 細胞激素風暴 → 休克**（TSST-1、*S. aureus* enterotoxin、SpeA）。
+
+<div data-fig="superantigen"></div>
+
 
 ## 5. Immunopathogenesis
 - 活化的嗜中性球、巨噬細胞、補體造成組織傷害。

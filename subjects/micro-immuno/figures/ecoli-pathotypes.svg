@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 346" role="img" aria-label="致病性大腸桿菌五型在腸細胞上的作用：ETEC 以 LT、ST 毒素造成水瀉；EPEC 以 intimin 與 Tir 造成 attaching and effacing；EHEC 另分泌 Shiga toxin 造成血便與 HUS；EIEC 侵入上皮；EAEC 疊磚式聚集">
+<defs><marker id="ec-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="ec-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="ec-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="ec-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<g class="hot" data-tip="<b>ETEC</b>：CFA 黏附，<b>不破壞、不侵入</b>腸細胞。<b>LT</b>（heat-labile，≈ cholera toxin）→ <b>cAMP↑</b>；<b>ST</b>（heat-stable）→ <b>cGMP↑</b> → Cl⁻、水分泌 → 水瀉，<b>不發燒</b>。" data-label="ETEC"><text x="20" y="24" class="tb" style="font-size:15px">ETEC</text></g>
+<text x="20" y="42" class="ts">旅行者腹瀉</text>
+<rect x="106" y="12" width="44" height="18" rx="9" class="bp"/><text x="128" y="25" text-anchor="middle" class="ts" style="fill:var(--ink-2);font-weight:600">水瀉</text>
+<rect x="40" y="100" width="96" height="96" rx="8" class="bp"/><ellipse cx="88" cy="170" rx="16" ry="11" class="fm" opacity=".7"/><path d="M44 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M50 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M56 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M62 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M68 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M74 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M80 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M86 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M92 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M98 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M104 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M110 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M116 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M122 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M128 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/>
+<rect x="57" y="69.5" width="22" height="9" rx="4.5" class="fk" transform="rotate(-8 68 74)"/><rect x="95" y="65.5" width="22" height="9" rx="4.5" class="fk" transform="rotate(6 106 70)"/>
+<path d="M68 79V88M106 75V88" class="ln" style="stroke-width:1"/>
+<circle cx="82" cy="94" r="3.2" class="fv"/>
+<circle cx="92" cy="106" r="3.2" class="fv"/>
+<circle cx="102" cy="96" r="3.2" class="fw"/>
+<circle cx="74" cy="110" r="3.2" class="fw"/>
+<text x="72" y="140" text-anchor="middle" class="tb" style="font-size:12px">cAMP↑ cGMP↑</text>
+<path d="M126 150V62" class="lv" marker-end="url(#ec-av)" style="stroke-width:1.4"/><text x="120" y="56" text-anchor="end" class="ts" style="fill:var(--violet)">Cl⁻、H₂O 分泌</text>
+<text x="20" y="246" class="ts" style="fill:var(--ink)">LT → cAMP↑</text>
+<text x="20" y="264" class="ts" style="fill:var(--ink-2)">ST → cGMP↑</text>
+<text x="20" y="282" class="ts" style="fill:var(--ink-2)">不破壞腸細胞、不發燒</text>
+<g class="hot" data-tip="<b>EPEC</b>：BFP、<b>intimin–Tir</b> → attaching &amp; effacing（微絨毛消失、長出 pedestal）；<b>沒有 Shiga toxin</b>，不侵入。" data-label="EPEC"><text x="168" y="24" class="tb" style="font-size:15px">EPEC</text></g>
+<text x="168" y="42" class="ts">嬰兒水瀉</text>
+<rect x="254" y="12" width="44" height="18" rx="9" class="bp"/><text x="276" y="25" text-anchor="middle" class="ts" style="fill:var(--ink-2);font-weight:600">水瀉</text>
+<rect x="188" y="100" width="96" height="96" rx="8" class="bp"/><ellipse cx="236" cy="170" rx="16" ry="11" class="fm" opacity=".7"/><path d="M192 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M198 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M204 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M210 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M216 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M258 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M264 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M270 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M276 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/>
+<path d="M218 100Q236 80 254 100" class="bp" style="stroke:none"/><path d="M216 100Q236 78 256 100" class="ln" style="stroke-width:1.4;stroke:var(--rule-strong)"/>
+<rect x="225" y="75.5" width="22" height="9" rx="4.5" class="fk" transform="rotate(0 236 80)"/>
+<text x="236" y="64" text-anchor="middle" class="ts">intimin–Tir</text>
+<text x="168" y="246" class="ts" style="fill:var(--ink)">intimin–Tir 黏附</text>
+<text x="168" y="264" class="ts" style="fill:var(--ink-2)">微絨毛被抹平（A/E）</text>
+<text x="168" y="282" class="ts" style="fill:var(--ink-2)">沒有 Shiga toxin</text>
+<path d="M160 8V300" class="lt dash"/>
+<g class="hot" data-tip="<b>EHEC / STEC（O157:H7）</b>：與 EPEC 一樣 A/E lesion，另外分泌 <b>Shiga toxin（Stx1/2 = verotoxin）</b>：B 次單元接 <b>Gb3</b>，A 次單元切 <b>60S（28S）rRNA</b> → 停止蛋白質合成；入血到腎 → <b>HUS</b>。常見來源：沒煮熟的牛肉。無發燒。" data-label="EHEC"><text x="316" y="24" class="tb" style="font-size:15px">EHEC</text></g>
+<text x="316" y="42" class="ts">出血性結腸炎、HUS</text>
+<rect x="402" y="12" width="44" height="18" rx="9" class="br"/><text x="424" y="25" text-anchor="middle" class="ts" style="fill:var(--safranin);font-weight:600">血便</text>
+<rect x="336" y="100" width="96" height="96" rx="8" class="bp"/><ellipse cx="384" cy="170" rx="16" ry="11" class="fm" opacity=".7"/><path d="M340 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M346 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M352 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M358 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M364 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M406 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M412 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M418 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M424 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/>
+<path d="M366 100Q384 80 402 100" class="bp" style="stroke:none"/><path d="M364 100Q384 78 404 100" class="ln" style="stroke-width:1.4;stroke:var(--rule-strong)"/>
+<rect x="373" y="75.5" width="22" height="9" rx="4.5" class="fk" transform="rotate(0 384 80)"/>
+<text x="384" y="64" text-anchor="middle" class="ts">intimin–Tir</text>
+<path d="M358 110l4 7h-8z" class="fr"/>
+<path d="M374 120l4 7h-8z" class="fr"/>
+<path d="M398 114l4 7h-8z" class="fr"/>
+<path d="M412 128l4 7h-8z" class="fr"/>
+<path d="M364 142l4 7h-8z" class="fr"/>
+<path d="M414 196V218" class="lr" marker-end="url(#ec-ar)" style="stroke-width:1.6"/><text x="420" y="214" class="ts" style="fill:var(--safranin)">入血</text>
+<text x="344" y="214" class="ts" style="fill:var(--safranin)">Stx</text>
+<text x="316" y="246" class="ts" style="fill:var(--ink)">A/E + Shiga toxin</text>
+<text x="316" y="264" class="ts" style="fill:var(--ink-2)">Stx → Gb3 → 切 60S</text>
+<text x="316" y="282" class="ts" style="fill:var(--ink-2)">入血 → 腎：HUS</text>
+<path d="M308 8V300" class="lt dash"/>
+<g class="hot" data-tip="<b>EIEC</b>：像 Shigella 一樣<b>侵入</b>結腸上皮、在細胞間擴散 → 痢疾、高燒。" data-label="EIEC"><text x="464" y="24" class="tb" style="font-size:15px">EIEC</text></g>
+<text x="464" y="42" class="ts">類志賀菌痢</text>
+<rect x="550" y="12" width="44" height="18" rx="9" class="br"/><text x="572" y="25" text-anchor="middle" class="ts" style="fill:var(--safranin);font-weight:600">血便</text>
+<rect x="484" y="100" width="96" height="96" rx="8" class="bp"/><ellipse cx="532" cy="170" rx="16" ry="11" class="fm" opacity=".7"/><path d="M488 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M494 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M500 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M506 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M512 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M518 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M524 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M530 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M536 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M542 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M548 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M554 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M560 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M566 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M572 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/>
+<rect x="503" y="119.5" width="22" height="9" rx="4.5" class="fk" transform="rotate(20 514 124)"/><rect x="531" y="127.5" width="22" height="9" rx="4.5" class="fk" transform="rotate(-15 542 132)"/><rect x="541" y="109.5" width="22" height="9" rx="4.5" class="fk" transform="rotate(40 552 114)"/>
+<path d="M570 150H586" class="ln" marker-end="url(#ec-a)" style="stroke-width:1.4"/>
+<rect x="489" y="75.5" width="22" height="9" rx="4.5" class="fk" transform="rotate(60 500 80)"/>
+<path d="M504 88Q508 98 514 112" class="ln dash" marker-end="url(#ec-a)" style="stroke-width:1.2"/>
+<text x="464" y="246" class="ts" style="fill:var(--ink)">侵入上皮、細胞間擴散</text>
+<text x="464" y="264" class="ts" style="fill:var(--ink-2)">像 Shigella</text>
+<text x="464" y="282" class="ts" style="fill:var(--ink-2)">發燒</text>
+<path d="M456 8V300" class="lt dash"/>
+<g class="hot" data-tip="<b>EAEC</b>：AAF 讓細菌像疊磚一樣<b>聚集</b>黏在表面、形成 biofilm；毒素 EAST（類 STa）。" data-label="EAEC"><text x="612" y="24" class="tb" style="font-size:15px">EAEC</text></g>
+<text x="612" y="42" class="ts">孩童持續水瀉</text>
+<rect x="698" y="12" width="44" height="18" rx="9" class="bp"/><text x="720" y="25" text-anchor="middle" class="ts" style="fill:var(--ink-2);font-weight:600">水瀉</text>
+<rect x="632" y="100" width="96" height="96" rx="8" class="bp"/><ellipse cx="680" cy="170" rx="16" ry="11" class="fm" opacity=".7"/><path d="M636 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M642 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M648 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M654 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M660 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M666 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M672 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M678 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M684 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M690 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M696 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M702 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M708 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M714 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/><path d="M720 100V90" class="ln" style="stroke-width:2;stroke-linecap:round;stroke:var(--rule-strong)"/>
+<rect x="636" y="62" width="88" height="28" rx="6" class="fw" opacity=".18"/>
+<rect x="639" y="79.5" width="22" height="9" rx="4.5" class="fk" transform="rotate(0 650 84)"/>
+<rect x="663" y="79.5" width="22" height="9" rx="4.5" class="fk" transform="rotate(0 674 84)"/>
+<rect x="687" y="79.5" width="22" height="9" rx="4.5" class="fk" transform="rotate(0 698 84)"/>
+<rect x="651" y="69.5" width="22" height="9" rx="4.5" class="fk" transform="rotate(0 662 74)"/>
+<rect x="675" y="69.5" width="22" height="9" rx="4.5" class="fk" transform="rotate(0 686 74)"/>
+<rect x="699" y="69.5" width="22" height="9" rx="4.5" class="fk" transform="rotate(0 710 74)"/>
+<rect x="663" y="59.5" width="22" height="9" rx="4.5" class="fk" transform="rotate(0 674 64)"/>
+<rect x="687" y="59.5" width="22" height="9" rx="4.5" class="fk" transform="rotate(0 698 64)"/>
+<text x="612" y="246" class="ts" style="fill:var(--ink)">AAF：疊磚式聚集</text>
+<text x="612" y="264" class="ts" style="fill:var(--ink-2)">EAST 毒素（類 ST）</text>
+<text x="612" y="282" class="ts" style="fill:var(--ink-2)">無發燒</text>
+<path d="M604 8V300" class="lt dash"/>
+<path d="M20 316H740" class="lt"/><text x="20" y="336" class="ts">腸道外：<tspan style="fill:var(--ink)">UPEC</tspan> 用 P pili 黏泌尿道 → UTI（90%）；<tspan style="fill:var(--ink)">K1</tspan> → 新生兒腦膜炎；<tspan style="fill:var(--ink)">AIEC</tspan> 與 Crohn's disease 相關</text>
+<g transform="translate(560 330)"><circle cx="0" cy="0" r="3.2" class="fv"/><text x="8" y="4" class="ts">LT</text><circle cx="36" cy="0" r="3.2" class="fw"/><text x="44" y="4" class="ts">ST</text><path d="M78 -4l4 7h-8z" class="fr"/><text x="88" y="4" class="ts">Shiga toxin</text></g>
+</svg>

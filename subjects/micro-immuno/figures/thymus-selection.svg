@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 334" role="img" aria-label="T 細胞在胸腺的發育路線與 affinity model：前驅細胞由皮髓交界進入、在被膜下經 DN1 到 DN4，於皮質成為 DP 並經正向選擇，到髓質成為 SP 並經負向選擇；親和力太低凋亡、中等正向選擇、中高成為 Treg、太高被刪除">
+<defs><marker id="th-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="th-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="th-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="th-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<text x="20" y="18" class="th">A · 胸腺中的路線</text>
+<rect x="20" y="30" width="110" height="136" class="fp" opacity=".55"/><rect x="130" y="30" width="340" height="136" class="fp"/><rect x="470" y="30" width="270" height="136" class="bx" style="stroke:none"/>
+<rect x="20" y="30" width="720" height="136" rx="4" class="none" style="stroke:var(--rule-strong)"/>
+<text x="28" y="46" class="ts">被膜下</text><text x="140" y="46" class="ts">皮質 cortex（cTEC）</text><text x="480" y="46" class="ts">髓質 medulla（mTEC、DC）</text>
+<path d="M470 30V166" class="lt dash"/>
+<path d="M470 190V124H70Q44 124 44 96Q44 62 76 62H700" class="ln" style="stroke-width:1.6" marker-end="url(#th-a)"/>
+<text x="478" y="188" class="ts">皮髓交界的小靜脈進入</text>
+<text x="706" y="58" class="ts">→ 周邊</text>
+<g class="hot" data-tip="<b>ETP</b>：c-kit⁺⁺ CD44⁺ CD25⁻。<b>Notch1</b> 決定走 T 細胞系（不走 NK、B、myeloid）。" data-label="DN1"><rect x="387.5" y="112" width="45" height="24" rx="12" class="bx"/><text x="410" y="129" text-anchor="middle" class="tb nou" style="font-size:12px">DN1</text></g>
+<g class="hot" data-tip="c-kit⁺⁺ CD44⁺ <b>CD25⁺</b>。<b>TCR γ、δ、β</b> 基因座開始重組（α 還沒）；決定 γδ 或 αβ。" data-label="DN2"><rect x="297.5" y="112" width="45" height="24" rx="12" class="bx"/><text x="320" y="129" text-anchor="middle" class="tb nou" style="font-size:12px">DN2</text></g>
+<g class="hot" data-tip="c-kit⁺ CD44⁻ CD25⁺。αβ 系（95%）。<b>β-selection</b>：β 鏈 + <b>pre-Tα</b> → pre-TCR → β 停止重組、細胞增殖。" data-label="DN3"><rect x="187.5" y="112" width="45" height="24" rx="12" class="bx"/><text x="210" y="129" text-anchor="middle" class="tb nou" style="font-size:12px">DN3</text></g>
+<g class="hot" data-tip="c-kit⁻ CD44⁻ CD25⁻。<b>TCR α</b> 基因座開始重組（可 rearrangement rescue）。" data-label="DN4"><rect x="77.5" y="112" width="45" height="24" rx="12" class="bx"/><text x="100" y="129" text-anchor="middle" class="tb nou" style="font-size:12px">DN4</text></g>
+<g class="hot" data-tip="雙陽性，表現 αβ TCR。在皮質與 <b>cTEC</b> 上的 self-pMHC 互動 → <b>positive selection</b>。" data-label="DP"><rect x="197.0" y="50" width="126" height="24" rx="12" class="bv"/><text x="260" y="67" text-anchor="middle" class="tb nou" style="font-size:12px">DP  CD4⁺CD8⁺</text></g>
+<g class="hot" data-tip="單陽性。在髓質遇到 <b>mTEC、DC</b> → <b>negative selection</b>；只有約 <b>2–5%</b> 的前驅細胞能走到這裡離開胸腺。" data-label="SP"><rect x="513.5" y="50" width="153" height="24" rx="12" class="bg"/><text x="590" y="67" text-anchor="middle" class="tb nou" style="font-size:12px">SP  CD4⁺ 或 CD8⁺</text></g>
+<text x="320" y="152" text-anchor="middle" class="ts">γδβ 開始重組</text><text x="210" y="152" text-anchor="middle" class="ts">β-selection</text><text x="100" y="152" text-anchor="middle" class="ts">α 開始重組</text>
+<text x="260" y="96" text-anchor="middle" class="ts" style="fill:var(--violet)">positive selection</text><text x="590" y="96" text-anchor="middle" class="ts" style="fill:var(--good)">negative selection</text>
+<text x="410" y="152" text-anchor="middle" class="ts">Notch1</text>
+<text x="20" y="188" class="ts">DN 期不需要 TCR；DP 之後的篩選都靠 TCR 訊號</text>
+<text x="20" y="216" class="th">B · AFFINITY MODEL（Fig. 8.25）</text>
+<path d="M20 230H736" class="ln" marker-end="url(#th-a)" style="stroke-width:1.2"/><text x="740" y="224" text-anchor="end" class="ts">TCR 對 self peptide:self MHC 的親和力 →</text>
+<rect x="20" y="244" width="144" height="44" rx="8" class="bp"/>
+<g class="hot" data-tip="沒有得到 TCR 存活訊號 → 凋亡（大多數胸腺細胞的命運）。" data-label="Death by neglect"><text x="30" y="263" class="tb" style="font-size:12.5px">Death by neglect</text></g>
+<text x="30" y="280" class="ts" style="fill:var(--ink-2)">沒有存活訊號</text>
+<text x="22" y="308" class="ts">無 / 太低</text><text x="22" y="325" class="ts" style="fill:var(--ink-2)">cTEC</text>
+<rect x="170" y="244" width="204" height="44" rx="8" class="bg"/>
+<g class="hot" data-tip="在皮質 <b>cTEC</b> 上得到 TCR 存活訊號 → <b>MHC restriction</b>。辨識 <b>MHC II → CD4⁺</b>、辨識 <b>MHC I → CD8⁺</b>（co-receptor 與 TCR 看同一種 MHC，Lck 訊號才夠強）。" data-label="Positive selection"><text x="180" y="263" class="tb" style="font-size:12.5px">Positive selection</text></g>
+<text x="180" y="280" class="ts" style="fill:var(--ink-2)">→ MHC restriction</text>
+<text x="172" y="308" class="ts">低～中等</text><text x="172" y="325" class="ts" style="fill:var(--ink-2)">cTEC；決定 CD4 / CD8</text>
+<rect x="380" y="244" width="164" height="44" rx="8" class="bv"/>
+<g class="hot" data-tip="中高親和力 → 走向 <b>Treg</b>、NKT、IEL、MAIT 等特殊細胞。" data-label="Alternative"><text x="390" y="263" class="tb" style="font-size:12.5px">Alternative</text></g>
+<text x="390" y="280" class="ts" style="fill:var(--ink-2)">→ Treg、NKT、IEL、MAIT</text>
+<text x="382" y="308" class="ts">中高</text><text x="382" y="325" class="ts" style="fill:var(--ink-2)">mTEC</text>
+<rect x="550" y="244" width="184" height="44" rx="8" class="br"/>
+<g class="hot" data-tip="親和力太高 = 會攻擊自己 → <b>clonal deletion</b> → <b>self-tolerance</b>。在髓質由 mTEC、DC、macrophage 執行。" data-label="Negative selection"><text x="560" y="263" class="tb" style="font-size:12.5px">Negative selection</text></g>
+<text x="560" y="280" class="ts" style="fill:var(--ink-2)">clonal deletion</text>
+<text x="552" y="308" class="ts">太高</text><text x="552" y="325" class="ts" style="fill:var(--ink-2)">mTEC、DC、macrophage</text>
+</svg>

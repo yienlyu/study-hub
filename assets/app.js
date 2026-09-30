@@ -6,6 +6,7 @@
  *   #/s/:sid/practice?...            練習設定 / 作答（start=1）/ 瀏覽（view=browse）
  *   #/s/:sid/q/:qid                  單題
  *   #/s/:sid/analysis                考題分析
+ *   #/s/:sid/sheet[/figs]            速記表 / 觀念圖庫
  *   #/report?...                     問題回報
  */
 (() => {
@@ -18,6 +19,7 @@
   const IS_MAC = /Mac|iPhone|iPad/.test(
     navigator.platform || navigator.userAgent,
   );
+  const IS_TOUCH = matchMedia("(hover: none)").matches;
 
   // ------------------------------------------------------------ icons (stroke, 24 grid)
   const P = {
@@ -57,6 +59,16 @@
     tag: '<path d="M3 12V3h9l9 9-9 9z"/><circle cx="7.5" cy="7.5" r="1.3"/>',
     trash: '<path d="M4 7h16M9 7V4h6v3M6 7l1 14h10l1-14"/>',
     bolt: '<path d="M13 2 4 14h7l-1 8 9-12h-7z"/>',
+    expand: '<path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/>',
+    image:
+      '<rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 17-5-5-9 8"/>',
+    cards:
+      '<rect x="7" y="3" width="13" height="16" rx="2"/><path d="M4 7v12a2 2 0 0 0 2 2h9"/>',
+    grid: '<rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>',
+    printer:
+      '<path d="M7 9V3h10v6M7 17H4v-7h16v7h-3"/><rect x="7" y="14" width="10" height="7"/>',
+    minus: '<path d="M5 12h14"/>',
+    plus: '<path d="M12 5v14M5 12h14"/>',
   };
   const ic = (n, cls = "") =>
     `<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${P[n] || ""}</svg>`;
@@ -200,6 +212,7 @@
       ),
     );
     const questions = lists.flat();
+    const figs = await fetchJSON(`${ent.path}/figures.json`).catch(() => []);
     const chMap = Object.fromEntries(
       meta.chapters.map((c, i) => [c.id, { ...c, idx: i + 1 }]),
     );
@@ -210,6 +223,13 @@
       questions,
       qById,
       chMap,
+      figs,
+      figById: (() => {
+        let n = 0;
+        return Object.fromEntries(
+          figs.map((f) => [f.id, { ...f, n: f.type === "slide" ? 0 : ++n }]),
+        );
+      })(),
       content: {},
     });
   }
@@ -341,7 +361,7 @@
     if (sid) {
       store.set("sh:lastSubject", sid);
       const s = DB.subjects[sid];
-      nav.innerHTML = `<a href="#/s/${sid}"${cur("subject")}>${esc(s?.meta.short || "總覽")}總覽</a><a href="#/s/${sid}/practice"${cur("practice")}>練習區</a><a href="#/s/${sid}/analysis"${cur("analysis")}>考題分析</a><a href="#/report?sid=${sid}"${cur("report")}>問題回報</a>`;
+      nav.innerHTML = `<a href="#/s/${sid}"${cur("subject")}>${esc(s?.meta.short || "總覽")}總覽</a><a href="#/s/${sid}/practice"${cur("practice")}>練習區</a><a href="#/s/${sid}/analysis"${cur("analysis")}>考題分析</a><a href="#/s/${sid}/sheet"${cur("sheet")}>速記・圖解</a><a href="#/report?sid=${sid}"${cur("report")}>問題回報</a>`;
     } else {
       nav.innerHTML = `<a href="#/"${cur("home")}>所有科目</a>${last ? `<a href="#/s/${last}/practice"${cur("practice")}>練習區</a>` : ""}<a href="#/report"${cur("report")}>問題回報</a>`;
     }
@@ -357,6 +377,7 @@
         ) +
         T(`#/s/${last}/practice`, "pen", "練習", "practice") +
         T(`#/s/${last}/analysis`, "chart", "分析", "analysis") +
+        T(`#/s/${last}/sheet`, "grid", "速記", "sheet") +
         `<a href="#" data-open-search>${ic("search")}<span>搜尋</span></a>`
       : "";
     const s = tb.querySelector("[data-open-search]");
@@ -395,6 +416,7 @@
     });
     cleanup = [];
     hideTip();
+    closeFigZoom(true);
     const { seg, q } = parseHash();
     const keepScroll = q.keep === "1";
     if (!keepScroll) scrollTo({ top: 0 });
@@ -406,7 +428,8 @@
         const sid = seg[1];
         if (seg.length === 2) return await pageSubject(sid);
         if (seg[2] === "c" && seg[3])
-          return await pageChapter(sid, seg[3], seg[4] || "summary");
+          return await pageChapter(sid, seg[3], seg[4] || "summary", q);
+        if (seg[2] === "sheet") return await pageSheet(sid, seg[3] || "", q);
         if (seg[2] === "practice") return await pagePractice(sid, q);
         if (seg[2] === "analysis") return await pageAnalysis(sid);
         if (seg[2] === "q" && seg[3]) {
@@ -474,6 +497,8 @@
       top = y + 14;
     if (left + r.width > innerWidth - 8) left = x - r.width - 14;
     if (top + r.height > innerHeight - 8) top = y - r.height - 14;
+    left = Math.max(8, Math.min(left, innerWidth - r.width - 8));
+    top = Math.max(8, top);
     tip.style.left = `${left}px`;
     tip.style.top = `${top}px`;
   }
@@ -494,6 +519,259 @@
       el.addEventListener("blur", hideTip);
     });
   }
+
+  addEventListener("scroll", hideTip, { passive: true });
+
+  // ------------------------------------------------------------ figures
+  // 觀念圖是手繪 SVG（subjects/<sid>/figures/<id>.svg），以 inline 方式插入，
+  // 顏色全部走 CSS 變數，所以會跟著深淺色模式切換。
+  // Markdown 內用 <div data-fig="id"></div> 插圖；清單與說明在 figures.json。
+  const svgCache = new Map();
+  function fetchSVG(subj, id) {
+    const k = `${subj.path}/figures/${id}.svg`;
+    if (!svgCache.has(k))
+      svgCache.set(
+        k,
+        fetchText(k).catch((e) => {
+          svgCache.delete(k);
+          throw e;
+        }),
+      );
+    return svgCache.get(k);
+  }
+  const figHint = () =>
+    `<span class="hint"><i></i>虛線底線的名詞可以${IS_TOUCH ? "點一下" : "滑過"}看說明</span>`;
+  const isSlide = (f) => f?.type === "slide";
+  const figLabel = (f) =>
+    isSlide(f) ? `Slides · p.${f.page}` : `Fig. ${pad2(f.n)}`;
+  const slideImg = (subj, f, cls = "") =>
+    `<img class="${cls}" src="${esc(subj.path)}/${esc(f.src)}" width="${f.w || 1400}" height="${f.h || 788}" loading="lazy" decoding="async" alt="${esc(`上課投影片：${f.title}（${f.deck} 第 ${f.page} 頁）`)}">`;
+  const slideCaption = (f) =>
+    `${f.caption ? `${f.caption} ` : ""}<span class="src">出自上課投影片 <span class="mono">${esc(f.deck)}</span> 第 ${esc(f.page)} 頁</span>`;
+  function figureHTML(subj, id) {
+    const f = subj.figById?.[id];
+    if (!f) return "";
+    const slide = isSlide(f);
+    return `<figure class="fig${slide ? " fig-slide" : ""}" data-fig-id="${esc(id)}" data-sid="${esc(subj.meta.id)}">
+      <div class="fig-head"><span class="eyebrow">${figLabel(f)}</span><b>${esc(f.title)}</b><button class="btn sm ghost" type="button" data-zoom="${esc(id)}" aria-label="放大「${esc(f.title)}」">${ic("expand")}<span class="hide-s">放大</span></button></div>
+      ${slide ? `<div class="fig-body">${slideImg(subj, f)}</div>` : `<div class="fig-body loading" data-src="${esc(id)}"></div>`}
+      <figcaption>${slide ? slideCaption(f) : `${f.caption || ""} ${figHint()}`}</figcaption></figure>`;
+  }
+  async function hydrateFigs(root, subj) {
+    $$("[data-fig]", root).forEach((el) => {
+      const h = figureHTML(subj, el.getAttribute("data-fig"));
+      if (h) el.outerHTML = h;
+      else el.remove();
+    });
+    await Promise.all(
+      $$(".fig-body[data-src]", root).map(async (b) => {
+        const id = b.dataset.src;
+        b.removeAttribute("data-src");
+        try {
+          b.innerHTML = await fetchSVG(subj, id);
+          // 圖庫縮圖整張是一顆按鈕：裡面不能再有可聚焦元素
+          if (b.closest(".thumb"))
+            $("svg", b)?.setAttribute("aria-hidden", "true");
+          else prepSVG(b);
+        } catch {
+          b.innerHTML =
+            '<p class="small muted" style="padding:24px;margin:0">這張圖載入失敗，請重新整理頁面。</p>';
+        }
+        b.classList.remove("loading");
+      }),
+    );
+  }
+  function prepSVG(root) {
+    const svg = $("svg", root);
+    if (!svg) return;
+    const hots = $$(".hot", svg);
+    if (hots.length) svg.setAttribute("role", "group");
+    hots.forEach((g) => {
+      const note = g.getAttribute("data-tip") || "";
+      const label = (
+        g.getAttribute("data-label") ||
+        $("text", g)?.textContent ||
+        ""
+      ).trim();
+      g.setAttribute("tabindex", "0");
+      g.setAttribute("role", "button");
+      // 虛線底線（SVG 文字不支援 dashed text-decoration，所以自己畫）
+      const t = $("text:not(.nou)", g);
+      if (t && !$(".uline", g)) {
+        try {
+          const bb = t.getBBox();
+          const ln = document.createElementNS(
+            "http://www.w3.org/2000/svg",
+            "path",
+          );
+          ln.setAttribute("class", "uline");
+          ln.setAttribute("d", `M${bb.x} ${bb.y + bb.height - 1}h${bb.width}`);
+          g.appendChild(ln);
+        } catch {
+          /* not rendered yet */
+        }
+      }
+      g.setAttribute("aria-label", `${label}：${note.replace(/<[^>]+>/g, "")}`);
+      g.setAttribute(
+        "data-tip",
+        `${label ? `<b>${esc(label)}</b><br>` : ""}${note}`,
+      );
+      g.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const r = g.getBoundingClientRect();
+        showTip(g.getAttribute("data-tip"), r.left + r.width / 2, r.bottom);
+      });
+      g.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          g.dispatchEvent(new Event("focus"));
+        }
+      });
+    });
+    bindTips(svg);
+  }
+  document.addEventListener("pointerdown", (e) => {
+    if (!e.target.closest?.(".hot")) hideTip();
+  });
+
+  // zoom view
+  let zoom = null;
+  function closeFigZoom(silent) {
+    if (!zoom) return;
+    zoom.el.remove();
+    removeEventListener("keydown", zoom.onKey);
+    document.documentElement.style.overflow = "";
+    const back = zoom.back;
+    zoom = null;
+    hideTip();
+    if (!silent) back?.focus?.();
+  }
+  async function openFigZoom(subj, id, back) {
+    const f = subj.figById?.[id];
+    if (!f) return;
+    closeFigZoom(true);
+    const el = document.createElement("div");
+    el.className = "figzoom";
+    el.setAttribute("role", "dialog");
+    el.setAttribute("aria-modal", "true");
+    el.setAttribute("aria-label", f.title);
+    el.innerHTML = `<div class="figzoom-bar"><span class="eyebrow hide-s">${figLabel(f)}</span><b>${esc(f.title)}</b><span class="spacer"></span>
+      <button class="btn sm" type="button" data-z="-1" aria-label="縮小">${ic("minus")}</button><span class="num" aria-live="polite">100%</span><button class="btn sm" type="button" data-z="1" aria-label="放大">${ic("plus")}</button>
+      <button class="btn sm primary" type="button" data-close aria-label="關閉">${ic("x")}<span class="hide-s">關閉</span></button></div>
+      <div class="figzoom-stage"><div class="fig-body" style="padding:0;overflow:visible"></div></div>
+      <div class="figzoom-cap">${isSlide(f) ? slideCaption(f) : `${f.caption || ""} ${figHint()}`}</div>`;
+    document.body.appendChild(el);
+    document.documentElement.style.overflow = "hidden";
+    const steps = [0.6, 0.8, 1, 1.25, 1.5, 2, 2.5, 3];
+    let k = 2;
+    const stage = $(".figzoom-stage", el);
+    const body = $(".fig-body", el);
+    const apply = () => {
+      const svg = $("svg, img", body);
+      if (!svg) return;
+      const natural = isSlide(f)
+        ? f.w || 1400
+        : (svg.viewBox?.baseVal?.width || 900) * 1.5;
+      // 手機上 SVG 預設畫到接近原始寬度，字才看得清楚，左右滑動看全圖
+      const fit = isSlide(f)
+        ? Math.min(stage.clientWidth - 8, natural)
+        : Math.max(
+            Math.min(stage.clientWidth - 8, natural),
+            Math.min(natural / 1.5, 720),
+          );
+      svg.style.width = `${Math.round(fit * steps[k])}px`;
+      svg.style.minWidth = "0";
+      svg.style.maxWidth = "none";
+      $(".num", el).textContent = `${Math.round(steps[k] * 100)}%`;
+    };
+    const onKey = (e) => {
+      if (e.key === "Escape") {
+        e.preventDefault();
+        closeFigZoom();
+      } else if (e.key === "+" || e.key === "=") {
+        k = Math.min(steps.length - 1, k + 1);
+        apply();
+      } else if (e.key === "-") {
+        k = Math.max(0, k - 1);
+        apply();
+      } else if (e.key === "Tab") {
+        const f = $$("button, [tabindex='0']", el);
+        const i = f.indexOf(document.activeElement);
+        if (e.shiftKey && i <= 0) {
+          e.preventDefault();
+          f[f.length - 1].focus();
+        } else if (!e.shiftKey && i === f.length - 1) {
+          e.preventDefault();
+          f[0].focus();
+        }
+      }
+    };
+    zoom = { el, onKey, back };
+    addEventListener("keydown", onKey);
+    el.addEventListener("click", (e) => {
+      const z = e.target.closest("[data-z]");
+      if (z) {
+        k = Math.max(0, Math.min(steps.length - 1, k + +z.dataset.z));
+        apply();
+      }
+      if (e.target.closest("[data-close]")) closeFigZoom();
+    });
+    $("[data-close]", el).focus();
+    try {
+      if (isSlide(f)) {
+        body.innerHTML = slideImg(subj, f);
+        $("img", body).loading = "eager";
+      } else {
+        body.innerHTML = await fetchSVG(subj, id);
+        prepSVG(body);
+      }
+      apply();
+    } catch {
+      body.innerHTML = '<p class="muted">這張圖載入失敗。</p>';
+    }
+  }
+  document.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-zoom]");
+    if (!b) return;
+    const sid = b.closest("[data-sid]")?.dataset.sid;
+    const subj = sid && DB.subjects[sid];
+    if (subj) openFigZoom(subj, b.dataset.zoom, b);
+  });
+
+  // 題目 → 相關觀念圖（依考點比對，同章節優先）
+  function figsFor(subj, q) {
+    const tops = new Set(q.topics || []);
+    return (subj.figs || [])
+      .filter((f) => (f.topics || []).some((t) => tops.has(t)))
+      .sort(
+        (a, b) =>
+          isSlide(a) - isSlide(b) ||
+          (b.chapter === q.chapter) - (a.chapter === q.chapter),
+      )
+      .filter((f, i, arr) => !isSlide(f) || arr.indexOf(f) < 3)
+      .slice(0, 3);
+  }
+  const figLinks = (subj, q) =>
+    figsFor(subj, q)
+      .map(
+        (f) =>
+          `<details class="fig-inline" data-sid="${esc(subj.meta.id)}" data-lazy-fig="${esc(f.id)}"><summary>${ic(isSlide(f) ? "slides" : "image")}${isSlide(f) ? "看上課 slides" : "看觀念圖"}：${esc(f.title)}</summary></details>`,
+      )
+      .join("");
+  document.addEventListener(
+    "toggle",
+    (e) => {
+      const d = e.target;
+      if (!d.matches?.("details[data-lazy-fig]") || !d.open) return;
+      const subj = DB.subjects[d.dataset.sid];
+      if (!subj) return;
+      const id = d.dataset.lazyFig;
+      d.removeAttribute("data-lazy-fig");
+      d.insertAdjacentHTML("beforeend", figureHTML(subj, id));
+      hydrateFigs(d, subj);
+    },
+    true,
+  );
 
   /** Horizontal bar chart. rows: [{label, segs:[{v, color, name}], href?}] */
   function barChart(rows, { series = null, tableCaption = "" } = {}) {
@@ -961,7 +1239,7 @@
     ["exam", "考點分析", "chart"],
     ["practice", "練習", "pen"],
   ];
-  async function pageChapter(sid, cid, tab) {
+  async function pageChapter(sid, cid, tab, q = {}) {
     const subj = await loadSubject(sid);
     const c = subj.chMap[cid];
     if (!c) throw new Error(`找不到章節「${cid}」`);
@@ -982,8 +1260,17 @@
     if (tab === "exam")
       body = `<div style="padding-top:36px">${chapterExamPanel(subj, cid)}<div class="reader" style="padding-top:48px"><aside class="toc" id="toc"></aside><article class="prose">${proseFrom(content.exam)}</article></div></div>`;
     else if (tab === "practice") body = chapterPracticePanel(subj, cid);
-    else
-      body = `<div class="reader"><aside class="toc" id="toc"></aside><article class="prose">${proseFrom(content[tab]) || `<div class="empty-state">這一頁還沒有內容。</div>`}</article></div>`;
+    else {
+      const slides =
+        tab === "slides"
+          ? (subj.figs || []).filter((f) => isSlide(f) && f.chapter === cid)
+          : [];
+      const strip = slides.length
+        ? `<section class="slide-strip" data-sid="${esc(sid)}" aria-label="本章上課 slides 圖"><div class="section-head" style="margin-bottom:12px"><div><div class="eyebrow">上課 slides 重點圖 · ${slides.length} 張</div></div><a class="small" href="#/s/${sid}/sheet/figs">全部觀念圖 →</a></div>
+          <div class="strip">${slides.map((f) => `<button type="button" class="strip-item" data-zoom="${esc(f.id)}" aria-label="放大投影片：${esc(f.title)}">${slideImg(subj, subj.figById[f.id])}<span><b>${esc(f.title)}</b><span class="mono">p.${f.page}</span></span></button>`).join("")}</div></section>`
+        : "";
+      body = `${strip}<div class="reader"><aside class="toc" id="toc"></aside><article class="prose">${proseFrom(content[tab]) || `<div class="empty-state">這一頁還沒有內容。</div>`}</article></div>`;
+    }
 
     render(
       `
@@ -1016,6 +1303,8 @@
       () => {
         buildToc();
         bindTips($app);
+        hydrateFigs($app, subj).then(() => q.find && findInPage(q.find));
+        if (q.fig && subj.figById[q.fig]) openFigZoom(subj, q.fig);
         $("#readBtn").addEventListener("click", (e) => {
           const r = getRead(sid);
           const on = !r.has(cid);
@@ -1029,6 +1318,27 @@
         });
       },
     );
+  }
+  // 搜尋結果跳到段落：比對去掉空白後的文字
+  const squash = (t) =>
+    String(t || "")
+      .replace(/\s+/g, "")
+      .toLowerCase();
+  function findInPage(needle) {
+    const want = squash(needle);
+    if (!want) return;
+    const el = $$(
+      ".prose :is(h2, h3, li, tr, p, blockquote), .sheet :is(h2, li, tr, p)",
+      $app,
+    ).find((e) => squash(e.textContent).includes(want));
+    if (!el) return;
+    el.scrollIntoView({
+      block: "center",
+      behavior: REDUCED ? "auto" : "smooth",
+    });
+    el.classList.remove("find-flash");
+    void el.offsetWidth;
+    el.classList.add("find-flash");
   }
   function proseFrom(md) {
     if (!md || !md.trim()) return "";
@@ -1144,7 +1454,7 @@
         <h3>依考點練習</h3><p class="sub">只想加強某個觀念？選一個考點直接開始。</p>
         <div class="chips">${topics.map(([t, n]) => `<a class="chip" href="${L({ ch: cid, topic: t, start: 1, n: 0, mode: "random" })}" style="color:inherit;text-decoration:none">${ic("tag")}${esc(t)}<span class="n">${n}</span></a>`).join("")}</div>
       </div>
-      <div style="margin-top:14px"><a class="btn" href="${L({ ch: cid, view: "browse", mode: "order" })}">${ic("eye")}瀏覽本章全部題目（含答案）</a></div>
+      <div class="toolbar" style="margin-top:14px"><a class="btn" href="${L({ ch: cid, view: "cards", mode: "random" })}">${ic("cards")}本章翻卡</a><a class="btn" href="${L({ ch: cid, view: "browse", mode: "order" })}">${ic("eye")}瀏覽本章全部題目（含答案）</a></div>
     </div>`;
   }
 
@@ -1193,6 +1503,7 @@
     const subj = await loadSubject(sid);
     setChrome(sid, "practice");
     if (q.view === "browse") return renderBrowse(subj, q);
+    if (q.view === "cards") return runCards(subj, buildPool(subj, q), q);
     if (q.start) return runSession(subj, buildPool(subj, q), q);
     return renderSetup(subj, q);
   }
@@ -1241,6 +1552,7 @@
             ${preset(L({ start: 1, n: 0, mode: "random", filter: "wrong" }), "rotate", `錯題本（${st.wrong}）`, "上次答錯的全部題目")}
             ${preset(L({ start: 1, n: 0, mode: "random", filter: "star" }), "star", `收藏題（${getStars(sid).size}）`, "練習時按 S 收藏")}
           </div>
+          <a class="card flash-cta" href="${L({ view: "cards", n: 20, mode: "random", ch: taught })}"><span class="ico">${ic("cards")}</span><span><b>翻卡模式</b><span>正面看題目、翻面看答案和觀念圖，自己判斷記得或不熟。適合考前快速過一輪。</span></span><span class="go">已上課範圍 20 張 ${ic("arrowR")}</span></a>
         </div>
         <form class="setup" id="pf" novalidate>
           <div>
@@ -1296,6 +1608,7 @@
             <button class="btn accent lg" type="submit">${ic("arrowR")}開始練習</button>
             <div class="hide-m setup-links">
               <button class="link-btn" type="button" id="browseBtn">${"瀏覽模式（看答案）"}</button>
+              <button class="link-btn" type="button" id="cardsBtn">翻卡模式</button>
               <button class="link-btn" type="button" id="resetBtn" style="color:var(--bad)">清除作答紀錄</button>
             </div>
           </aside>
@@ -1359,6 +1672,10 @@
         $("#browseBtn").addEventListener("click", () => {
           const o = read();
           location.hash = `#/s/${sid}/practice?${qs({ ...o, n: "", mode: "order", view: "browse" })}`;
+        });
+        $("#cardsBtn").addEventListener("click", () => {
+          const o = read();
+          location.hash = `#/s/${sid}/practice?${qs({ ...o, view: "cards" })}`;
         });
         $("#resetBtn").addEventListener("click", () => {
           if (
@@ -1502,7 +1819,7 @@
         verdict = `<div class="verdict ${tone}" role="status"><div class="verdict-head">${head}</div><div class="verdict-body">
           ${qq.answerText ? `<div class="answer-text"><div class="explain-title">參考答案</div>${esc(qq.answerText)}</div>` : ""}
           ${qq.explain ? `<div class="explain-title">詳解</div><div class="explain">${esc(qq.explain)}</div>` : qq.answerText ? "" : '<div class="muted">這題沒有附詳解。</div>'}
-          ${qq.note ? `<div class="note">${ic("alert")}<div>${esc(qq.note)}</div></div>` : ""}</div></div>`;
+          ${qq.note ? `<div class="note">${ic("alert")}<div>${esc(qq.note)}</div></div>` : ""}${figLinks(subj, qq)}</div></div>`;
       } else if (isShort && S.revealed === S.i) {
         verdict = `<div class="verdict neutral"><div class="verdict-head">${ic("eye")}參考答案</div><div class="verdict-body">
           ${qq.answerText ? `<div class="answer-text">${esc(qq.answerText)}</div>` : ""}${qq.explain ? `<div class="explain">${esc(qq.explain)}</div>` : ""}
@@ -1704,6 +2021,159 @@
     });
   }
 
+  // ------------------------------------------------------------ flashcards
+  function runCards(subj, pool, q) {
+    const sid = subj.meta.id;
+    pool = pool.filter((x) => x.answer?.length || x.answerText);
+    if (!pool.length) {
+      render(
+        emptyState(
+          "沒有可以翻的卡",
+          "換個範圍或放寬篩選條件試試看。",
+          `<a class="btn primary" href="#/s/${sid}/practice">回練習設定</a>`,
+        ),
+      );
+      return;
+    }
+    const S = { i: 0, flipped: false, res: pool.map(() => null) };
+    const tally = () =>
+      S.res.reduce((a, r) => (r === null ? a : (r ? a.y++ : a.n++, a)), {
+        y: 0,
+        n: 0,
+      });
+    const face = () => {
+      const x = pool[S.i];
+      const ans = x.answer || [];
+      const opts = (x.options || []).length
+        ? `<ol>${x.options.map((o) => `<li><span class="k">${o.k}</span><span>${esc(o.t)}</span></li>`).join("")}</ol>`
+        : "";
+      const optsBack = (x.options || []).length
+        ? `<ol>${x.options.map((o) => `<li class="${ans.includes(o.k) ? "ans" : ""}"><span class="k">${o.k}</span><span>${esc(o.t)}</span></li>`).join("")}</ol>`
+        : "";
+      const big = ans.length
+        ? ans
+            .map((k) => {
+              const o = (x.options || []).find((y) => y.k === k);
+              return o ? `(${k}) ${esc(o.t)}` : `(${k})`;
+            })
+            .join("　或　")
+        : x.answerText
+          ? ""
+          : "無正確選項";
+      return `<div class="flash-card${S.flipped ? " flipped" : ""}" id="fc">
+        <div class="flash-inner">
+          <section class="card flash-face front"${S.flipped ? " inert" : ""}>
+            ${qMeta(subj, x)}
+            <p class="q-stem">${esc(x.stem)}</p>${opts}
+            <div class="flip-hint"><button class="btn accent lg" type="button" id="flip">${ic("rotate")}翻面看答案<span class="kbd-hint hide-touch"><kbd>Space</kbd></span></button></div>
+          </section>
+          <section class="card flash-face back"${S.flipped ? "" : " inert"}>
+            <div class="eyebrow">答案</div>
+            ${big ? `<div class="flash-answer">${big}</div>` : ""}
+            ${x.answerText ? `<div class="answer-text">${esc(x.answerText)}</div>` : ""}
+            ${optsBack && ans.length ? `<details class="fig-inline" style="border:0;padding:0;margin:0 0 6px"><summary>全部選項</summary>${optsBack}</details>` : ""}
+            ${x.explain ? `<div class="explain-title" style="margin-top:14px">詳解</div><div class="explain">${esc(x.explain)}</div>` : ""}
+            ${x.note ? `<div class="note">${ic("alert")}<div>${esc(x.note)}</div></div>` : ""}
+            ${figLinks(subj, x)}
+          </section>
+        </div>
+      </div>
+      <div class="flash-actions" ${S.flipped ? "" : "hidden"}>
+        <button class="btn no" type="button" data-know="0">${ic("rotate")}還不熟<span class="kbd-hint hide-touch"><kbd>1</kbd></span></button>
+        <button class="btn yes" type="button" data-know="1">${ic("check")}記得<span class="kbd-hint hide-touch"><kbd>2</kbd></span></button>
+      </div>`;
+    };
+    const paint = () => {
+      const t = tally();
+      const n = pool.length;
+      $app.innerHTML = `<div class="enter"><div class="wrap"><div class="flash">
+        <div class="quiz-top">
+          <a class="btn ghost sm" href="#/s/${sid}/practice" aria-label="結束翻卡">${ic("x")}<span class="hide-s">結束</span></a>
+          <span class="prog"><b>${S.i + 1}</b> / ${n}</span>
+          <div class="quiz-stats">
+            <span title="記得" style="color:var(--good)">${ic("check")}<b class="num">${t.y}</b></span>
+            <span title="還不熟" style="color:var(--bad)">${ic("rotate")}<b class="num">${t.n}</b></span>
+          </div>
+        </div>
+        <div class="flash-bar" aria-hidden="true"><i style="width:${(t.y / n) * 100}%;background:var(--good)"></i><i style="width:${(t.n / n) * 100}%;background:var(--bad)"></i></div>
+        ${face()}
+        <div class="shortcut-hint" aria-hidden="true"><span><kbd>Space</kbd> 翻面</span><span><kbd>1</kbd> 還不熟</span><span><kbd>2</kbd> 記得</span><span><kbd>←</kbd><kbd>→</kbd> 上／下一張</span></div>
+      </div></div></div>`;
+      $("#flip")?.addEventListener("click", flip);
+      $$("[data-know]").forEach((b) =>
+        b.addEventListener("click", () => know(b.dataset.know === "1")),
+      );
+    };
+    const flip = () => {
+      S.flipped = !S.flipped;
+      $("#fc").classList.toggle("flipped", S.flipped);
+      $("#fc .front").inert = S.flipped;
+      $("#fc .back").inert = !S.flipped;
+      $(".flash-actions").hidden = !S.flipped;
+      if (S.flipped) $("[data-know='1']")?.focus({ preventScroll: true });
+    };
+    const go = (k) => {
+      if (k < 0) return;
+      if (k >= pool.length) return finish();
+      S.i = k;
+      S.flipped = false;
+      paint();
+      if (innerWidth < 760) scrollTo({ top: 0 });
+    };
+    const know = (ok) => {
+      S.res[S.i] = ok;
+      record(sid, pool[S.i].id, ok);
+      go(S.i + 1);
+    };
+    const onKey = (e) => {
+      if (
+        e.target.matches("input, textarea, select") ||
+        e.metaKey ||
+        e.ctrlKey ||
+        e.altKey ||
+        !$(".flash")
+      )
+        return;
+      if (e.key === " " && !e.target.closest("summary, .hot")) {
+        e.preventDefault();
+        flip();
+      } else if ((e.key === "1" || e.key === "2") && S.flipped) {
+        e.preventDefault();
+        know(e.key === "2");
+      } else if (e.key === "ArrowRight") {
+        e.preventDefault();
+        go(S.i + 1);
+      } else if (e.key === "ArrowLeft") {
+        e.preventDefault();
+        go(S.i - 1);
+      }
+    };
+    const finish = () => {
+      removeEventListener("keydown", onKey);
+      const t = tally();
+      const unsure = pool.filter((_, k) => S.res[k] === false);
+      render(`<div class="wrap"><div class="result">
+        <div class="card result-hero">
+          <div class="score-ring" style="--p:${pct(t.y, t.y + t.n)}"><div><b>${t.y}<small style="font-size:.4em"> / ${t.y + t.n}</small></b><span>記得</span></div></div>
+          <div>
+            <div class="eyebrow">Flashcards complete</div>
+            <h1 class="display h-m" style="margin:10px 0 6px">${t.n ? `還有 ${t.n} 張要再看` : t.y ? "全部記得！" : "還沒有翻卡"}</h1>
+            <p class="muted" style="margin:0 0 18px">「還不熟」的卡片已經加進錯題本，之後可以在練習區用作答模式再確認一次。</p>
+            <div class="toolbar">
+              ${unsure.length ? `<a class="btn accent" href="#/s/${sid}/practice?${qs({ ids: unsure.map((x) => x.id).join(","), view: "cards" })}">${ic("rotate")}只翻這 ${unsure.length} 張</a>` : ""}
+              <a class="btn primary" href="#/s/${sid}/practice?${qs({ ...q, view: "cards" })}">${ic("shuffle")}再翻一組</a>
+              <a class="btn" href="#/s/${sid}/practice">回練習區</a>
+            </div>
+          </div>
+        </div>
+        ${unsure.length ? `<div class="section" style="padding-top:40px"><div class="eyebrow" style="margin-bottom:12px">還不熟的卡片 · ${unsure.length}</div>${unsure.map((x) => browseCard(subj, x, true)).join("")}</div>` : ""}
+      </div></div>`);
+    };
+    paint();
+    addEventListener("keydown", onKey);
+    onLeave(() => removeEventListener("keydown", onKey));
+  }
+
   function browseCard(subj, q, open) {
     const ans = q.answer || [];
     return `<article class="card bq${open ? " open" : ""}">
@@ -1714,7 +2184,7 @@
         <div class="verdict neutral" style="margin-top:0"><div class="verdict-head">答案：${ans.length ? ansText(q) : q.answerText ? "見參考答案" : "無正確選項"}</div><div class="verdict-body">
         ${q.answerText ? `<div class="answer-text">${esc(q.answerText)}</div>` : ""}
         ${q.explain ? `<div class="explain">${esc(q.explain)}</div>` : '<div class="muted">這題沒有附詳解。</div>'}
-        ${q.note ? `<div class="note">${ic("alert")}<div>${esc(q.note)}</div></div>` : ""}
+        ${q.note ? `<div class="note">${ic("alert")}<div>${esc(q.note)}</div></div>` : ""}${figLinks(subj, q)}
         <div style="margin-top:12px;display:flex;gap:14px;font-size:.85rem"><a href="#/s/${subj.meta.id}/q/${q.id}">單獨練這題</a><a href="${reportHref(subj.meta.id, q)}">回報此題</a></div></div></div>
       </details></article>`;
   }
@@ -1750,6 +2220,117 @@
             d.closest(".bq").classList.toggle("open", d.open),
           ),
         );
+      },
+    );
+  }
+
+  // ------------------------------------------------------------ cheatsheet & figure gallery
+  async function loadSheet(subj) {
+    if (subj.sheet !== undefined) return subj.sheet;
+    let raw = "";
+    if (subj.meta.sheet)
+      raw = await fetchText(`${subj.path}/${subj.meta.sheet}`).catch(() => "");
+    // 以 "## " 切成卡片；卡片內 "@ch id,id" 與 "@fig id" 是連結設定
+    const cards = [];
+    let cur = null;
+    for (const line of raw.split("\n")) {
+      const h = line.match(/^##\s+(.+)$/);
+      if (h) {
+        cur = { title: h[1].trim(), ch: [], fig: [], md: "" };
+        cards.push(cur);
+        continue;
+      }
+      if (!cur) continue;
+      const m = line.match(/^@(ch|fig)\s+(.+)$/);
+      if (m) cur[m[1]].push(...m[2].split(",").map((x) => x.trim()));
+      else cur.md += line + "\n";
+    }
+    return (subj.sheet = cards);
+  }
+  async function pageSheet(sid, tab, q = {}) {
+    const subj = await loadSubject(sid);
+    setChrome(sid, "sheet");
+    const m = subj.meta;
+    const figs = subj.figs || [];
+    const cards = await loadSheet(subj);
+    const isFigs = tab === "figs";
+    let body;
+    if (isFigs) {
+      const byCh = m.chapters
+        .map((c) => ({
+          c: subj.chMap[c.id],
+          list: figs.filter((f) => f.chapter === c.id),
+        }))
+        .filter((g) => g.list.length)
+        .sort((a, b) => a.list.every(isSlide) - b.list.every(isSlide));
+      body = byCh
+        .map(
+          (g) => `<section class="section" style="padding-top:28px">
+          <div class="eyebrow" style="margin-bottom:12px">Ch.${pad2(g.c.idx)} · ${esc(g.c.title)}</div>
+          <div class="fig-gallery">${g.list
+            .slice()
+            .sort((a, b) => isSlide(a) - isSlide(b))
+            .map((f) => {
+              const F = subj.figById[f.id];
+              const slide = isSlide(F);
+              return `<article class="card fig-card${slide ? " is-slide" : ""}" data-sid="${esc(sid)}">
+              <button type="button" class="thumb" data-zoom="${esc(f.id)}" aria-label="放大「${esc(f.title)}」" style="pointer-events:auto;border:0;cursor:zoom-in;width:100%">${slide ? slideImg(subj, F) : `<div class="fig-body loading" data-src="${esc(f.id)}" style="padding:0;overflow:hidden;width:100%;height:100%"></div>`}</button>
+              <div class="meta"><span class="eyebrow">${figLabel(F)}${slide ? ` · ${esc(F.deck.split(" ")[0])}` : ""}</span><b>${esc(f.title)}</b></div>
+              <div class="foot">${slide ? `<a href="#/s/${sid}/c/${f.chapter}/slides">本章 slides 重點</a>` : `<a href="#/s/${sid}/c/${f.chapter}/summary?${qs({ find: f.title })}">在章節裡看</a>`}${(
+                f.topics || []
+              )
+                .slice(0, 1)
+                .map(
+                  (t) =>
+                    `<a href="#/s/${sid}/practice?${qs({ topic: t, start: 1, n: 0, mode: "random" })}">練「${esc(t)}」</a>`,
+                )
+                .join("")}</div>
+            </article>`;
+            })
+            .join("")}</div></section>`,
+        )
+        .join("");
+    } else {
+      body = cards.length
+        ? `<div class="sheet">${cards
+            .map(
+              (c, i) => `<section class="card" id="sheet-${i}">
+            <h2><span class="mono">${pad2(i + 1)}</span>${esc(c.title)}</h2>
+            <div class="prose">${mdToHTML(c.md)}</div>
+            ${c.fig.map((f) => (subj.figById[f] ? `<div data-sid="${esc(sid)}" style="margin-top:6px"><button class="btn sm noprint" type="button" data-zoom="${esc(f)}">${ic("image")}${esc(subj.figById[f].title)}</button></div>` : "")).join("")}
+            ${
+              c.ch.length
+                ? `<div class="go noprint">${c.ch
+                    .filter((id) => subj.chMap[id])
+                    .map(
+                      (id) =>
+                        `<a href="#/s/${sid}/c/${id}/summary">→ Ch.${pad2(subj.chMap[id].idx)} ${esc(subj.chMap[id].title)}</a>`,
+                    )
+                    .join("")}</div>`
+                : ""
+            }
+          </section>`,
+            )
+            .join("")}</div>`
+        : `<div class="card empty"><p>這個科目還沒有速記表。</p></div>`;
+    }
+    render(
+      `<div class="wrap">
+        <nav class="crumbs" aria-label="路徑"><a href="#/s/${sid}">${esc(m.title)}</a><span class="sep">/</span><span>${isFigs ? "觀念圖" : "速記表"}</span></nav>
+        <header class="section-head" style="padding-top:14px;align-items:end">
+          <div><div class="eyebrow">${isFigs ? `Figures · ${figs.filter((f) => !isSlide(f)).length} 張手繪觀念圖 · ${figs.filter(isSlide).length} 張上課 slides` : `Cheatsheet · ${cards.length} 張表`}</div>
+          <h1 class="display h-l" style="margin-top:12px">${isFigs ? "觀念圖庫" : "考前速記表"}</h1>
+          <p class="lede" style="margin-bottom:0">${isFigs ? "手繪觀念圖把最常考的機轉重新畫清楚（滑過虛線名詞看說明）；上課 slides 是老師原圖，對照著看。點任何一張都能放大。" : "考前十分鐘掃一遍：最常被拿來出題的對照表都濃縮在這裡。可以直接列印成 A4。"}</p></div>
+          <div class="toolbar noprint">
+            <nav class="seg" aria-label="切換"><a href="#/s/${sid}/sheet"${isFigs ? "" : ' aria-current="page"'}>${ic("grid")}速記表</a><a href="#/s/${sid}/sheet/figs"${isFigs ? ' aria-current="page"' : ""}>${ic("image")}觀念圖</a></nav>
+            ${isFigs ? "" : `<button class="btn" type="button" id="printBtn">${ic("printer")}列印</button>`}
+          </div>
+        </header>
+        <div class="sheet-wrap">${body}</div>
+      </div>`,
+      () => {
+        $("#printBtn")?.addEventListener("click", () => print());
+        hydrateFigs($app, subj).then(() => q.find && findInPage(q.find));
       },
     );
   }
@@ -1972,6 +2553,88 @@
         s: s.meta.title,
         href: `#/s/${sid}/practice?${qs({ filter: "wrong", start: 1, n: 0, mode: "random" })}`,
       });
+      items.push({
+        g: "頁面",
+        icon: "grid",
+        t: "考前速記表",
+        s: s.meta.title,
+        href: `#/s/${sid}/sheet`,
+        k: "cheatsheet 速記 列印",
+      });
+      items.push({
+        g: "頁面",
+        icon: "image",
+        t: "觀念圖庫",
+        s: s.meta.title,
+        href: `#/s/${sid}/sheet/figs`,
+        k: "figures 圖解 diagram",
+      });
+      items.push({
+        g: "頁面",
+        icon: "cards",
+        t: "翻卡模式",
+        s: s.meta.title,
+        href: `#/s/${sid}/practice?${qs({ view: "cards", n: 20, mode: "random" })}`,
+        k: "flashcards 閃卡 翻卡",
+      });
+      for (const f of s.figs || [])
+        items.push(
+          isSlide(f)
+            ? {
+                g: "觀念圖",
+                icon: "slides",
+                t: `${f.title}（上課 slides）`,
+                s: `${f.deck} · p.${f.page}`,
+                href: `#/s/${sid}/c/${f.chapter}/slides?${qs({ fig: f.id })}`,
+                k: (f.topics || []).join(" "),
+              }
+            : {
+                g: "觀念圖",
+                icon: "image",
+                t: f.title,
+                s: `Fig. ${pad2(s.figById[f.id].n)} · ${s.chMap[f.chapter]?.title || ""}`,
+                href: `#/s/${sid}/c/${f.chapter}/summary?${qs({ find: f.title })}`,
+                k: `${f.keywords || ""} ${(f.topics || []).join(" ")}`,
+              },
+        );
+      // 章節內文：每個標題、條列、表格列都能被搜到
+      const blocks = await Promise.all(
+        s.meta.chapters.map(async (c) => [c, await loadContent(s, c.id)]),
+      );
+      for (const [c, parts] of blocks)
+        for (const tab of ["summary", "slides", "exam"]) {
+          let sec = "";
+          for (const raw of (parts[tab] || "").split("\n")) {
+            const line = raw.trim();
+            if (!line || (/^(\||-{3,}|===|<)/.test(line) && !/^\|/.test(line)))
+              continue;
+            if (/^\|[\s|:-]+\|?$/.test(line)) continue;
+            const plain = mdPlain(line);
+            if (plain.length < 4) continue;
+            const hd = line.match(/^(#{2,3})\s+/);
+            if (hd) sec = plain;
+            if (/^#\s/.test(line)) continue;
+            const first = /^\|/.test(line)
+              ? mdPlain(line.split("|")[1] || "")
+              : plain;
+            items.push({
+              g: hd ? "段落" : "重點",
+              icon: hd ? "list" : "file",
+              t: plain,
+              s: `Ch.${pad2(s.chMap[c.id].idx)} ${c.title}${sec && !hd ? ` › ${sec}` : ""} · ${{ summary: "重點整理", slides: "上課 slides", exam: "考點分析" }[tab]}`,
+              href: `#/s/${sid}/c/${c.id}/${tab}?${qs({ find: first.slice(0, 40) })}`,
+            });
+          }
+        }
+      for (const card of await loadSheet(s))
+        items.push({
+          g: "段落",
+          icon: "grid",
+          t: `速記：${card.title}`,
+          s: s.meta.title,
+          href: `#/s/${sid}/sheet?${qs({ find: card.title })}`,
+          k: mdPlain(card.md).slice(0, 600),
+        });
       for (const c of s.meta.chapters)
         items.push({
           g: "章節",
@@ -2004,6 +2667,19 @@
     }
     return (cmdIndex = items);
   }
+  const mdPlain = (t) =>
+    String(t || "")
+      .replace(/^#{1,6}\s+/, "")
+      .replace(/^[-*]\s+|^\d+\.\s+|^>\s*/g, "")
+      .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+      .replace(/<br\s*\/?>/g, " ")
+      .replace(/<[^>]+>/g, "")
+      .replace(/\\(?=[*_`#|])/g, "")
+      .replace(/[*_`]/g, "")
+      .replace(/\|/g, " · ")
+      .replace(/^\s*·\s*|\s*·\s*$/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
   const hl = (text, terms) => {
     let h = esc(text);
     for (const t of terms) {
@@ -2025,7 +2701,7 @@
     const items = await buildIndex();
     cmdk.hidden = false;
     cmdk.innerHTML = `<div class="cmdk" role="dialog" aria-modal="true" aria-label="搜尋">
-      <div class="cmdk-input">${ic("search")}<input id="cmdkIn" type="text" placeholder="搜尋章節、考點或題目關鍵字…" autocomplete="off" role="combobox" aria-expanded="true" aria-controls="cmdkList"><kbd>Esc</kbd></div>
+      <div class="cmdk-input">${ic("search")}<input id="cmdkIn" type="text" placeholder="搜尋章節、重點、觀念圖或題目，例如 TLR4、CLIP…" autocomplete="off" role="combobox" aria-expanded="true" aria-controls="cmdkList"><kbd>Esc</kbd></div>
       <div class="cmdk-list" id="cmdkList" role="listbox"></div>
       <div class="cmdk-foot"><span><kbd>↑</kbd><kbd>↓</kbd> 選擇</span><span><kbd>Enter</kbd> 開啟</span><span><kbd>Esc</kbd> 關閉</span></div></div>`;
     const input = $("#cmdkIn");
@@ -2041,9 +2717,15 @@
           .slice(0, 14);
       else {
         // 英數關鍵字用字邊界比對（避免 IgA 命中 ligand），並依命中位置排序
-        const res = terms.map((t) =>
+        // 使用者打全大寫縮寫（MAC、TAP、CLIP）時要求完整字詞，避免 MAC 命中 macrophage
+        const raw = input.value.trim().split(/\s+/).filter(Boolean);
+        const res = terms.map((t, i) =>
           /^[\w-]+$/.test(t)
-            ? new RegExp(`(^|[^a-z0-9])${t.replace(/[-]/g, "\\-")}`, "i")
+            ? /^[A-Z0-9-]{2,6}$/.test(raw[i] || "") && /[A-Z]/.test(raw[i])
+              ? new RegExp(
+                  `(^|[^A-Za-z0-9])${raw[i].replace(/[-]/g, "\\-")}($|[^A-Za-z])`,
+                )
+              : new RegExp(`(^|[^a-z0-9])${t.replace(/[-]/g, "\\-")}`, "i")
             : null,
         );
         const has = (text, t, i) =>
@@ -2058,13 +2740,29 @@
           }
           return s;
         };
-        const lim = { 頁面: 4, 章節: 6, 考點: 6, 題目: 24 };
+        const lim = {
+          頁面: 4,
+          章節: 5,
+          觀念圖: 5,
+          段落: 5,
+          重點: 8,
+          考點: 5,
+          題目: 20,
+        };
         const byG = {};
         for (const x of items) {
           const sc = score(x);
           if (sc) (byG[x.g] = byG[x.g] || []).push([sc, x]);
         }
-        results = ["頁面", "章節", "考點", "題目"].flatMap((g) =>
+        results = [
+          "頁面",
+          "章節",
+          "觀念圖",
+          "段落",
+          "重點",
+          "考點",
+          "題目",
+        ].flatMap((g) =>
           (byG[g] || [])
             .sort((a, b) => b[0] - a[0])
             .slice(0, lim[g])

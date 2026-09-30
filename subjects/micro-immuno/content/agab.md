@@ -14,14 +14,21 @@
 | 抗原種類 | 蛋白、多醣、脂質 | 幾乎只有 peptide |
 | Epitope | **親水**、連續或不連續 | 連續線性 |
 
+<div data-fig="epitopes"></div>
+
 ## 2. 抗體基本結構
 - **醣蛋白**；2 條 heavy + 2 條 light，**雙硫鍵**連接，排列為 **L–H–H–L**（不是 L-H-L-H）。
 - Light chain：**κ 或 λ（一個抗體只有一種）**；由 **V、J、C** 片段編碼（**沒有 D**）。
 - Heavy chain：**V、D、J、C**；重鏈種類 γ、α、μ、ε、δ **決定 class 與 subclass**。
 - V domain（VL、VH）結合抗原；**CDR（hypervariable）** 形成結合位，**CDR3 變異最大**。
 - **Hinge region**：CH1–CH2 間，富含 proline，提供彈性（IgG、IgA、IgD 有）；**IgM、IgE 無 hinge**（4 個 CH）。
+
+<div data-fig="ig-domains"></div>
+
 - 木瓜酶切：**Fab**（結合抗原）、**Fc**（結合 FcR、補體）。
 - 功能：**Complement activation（IgM、IgG）**、**Opsonization（IgG–FcγR）**、**Neutralization（Fab）**。
+
+<div data-fig="ab-functions"></div>
 
 ## 3. 五種抗體 ⭐⭐
 
@@ -33,8 +40,13 @@
 | 活化補體 | ✅（IgG1–3） | ✅✅ | ❌ | ❌ | ❌ |
 | Hinge | ✅ | ❌ | ✅ | ✅ | ❌ |
 
+<div data-fig="ig-classes"></div>
+
 - IgG subclass 比例：IgG1 66%、IgG2 23%、IgG3 7%、IgG4 4%。
 - **Secretory component 由上皮細胞合成**：dimeric IgA 結合 **poly-Ig receptor** → transcytosis → 受體切下殘留 = secretory component（保護不被 protease 分解、協助運送）。
+
+<div data-fig="iga-transport"></div>
+
 - 血清 IgA1:IgA2 ≈ 10:1；腸道 IgA2 比例顯著增加。
 - **TGF-β 促進 IgA class switch**（不是 IL-12）。
 - 新生兒保護：**IgG（胎盤）+ IgA（母乳）**。
@@ -55,6 +67,8 @@
 6. **Somatic point mutation（hypermutation）** → affinity maturation
 
 > ❌ **Gene cross-over 不是**抗體多樣性機制。
+
+<div data-fig="vdj"></div>
 
 ### Junctional diversity 的分子
 | 分子 | 功能 |

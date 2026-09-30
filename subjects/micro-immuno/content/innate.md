@@ -21,6 +21,8 @@
 - Chemokine receptor：**CCR3**（TH2、eosinophil ↔ **eotaxin**）；**CCR5**（TH1、macrophage ↔ MIP-1β）。
 - MAdCAM：mucosal addressin。
 
+<div data-fig="extravasation"></div>
+
 ## 3. 補體系統 ⭐⭐⭐
 - 肝臟製造、30 多種可溶性蛋白、平時不活化、cascade 切割活化。
 
@@ -30,6 +32,8 @@
 | **Opsonization 調理** | **C3b**、C4b（iC3b）→ 被吞噬細胞 **CR** 辨識 |
 | **Chemotaxis / 發炎** | **C3a、C5a**（小分子易擴散，C3aR / C5aR；anaphylatoxin） |
 | **Lysis 溶解** | **MAC = C5b + C6 + C7 + C8 + 多個 C9** |
+
+<div data-fig="complement-functions"></div>
 
 > ⚠️ **Neutralization 是抗體的功能**，不是補體。C2a 是酵素片段、不是發炎介質。
 
@@ -47,6 +51,8 @@
 - **Alternative pathway 是 positive feedback loop**（C3bBb 再切 C3）；第一個被活化的蛋白是 **C3**（C4 只出現在 classical/lectin）。
 - 老師講法：alternative 的穩定啟動**依賴 classical/lectin 先產生 C3b**（所以考古選「alternative pathway is NOT linked to classical」為錯誤敘述）；但它本身**不需要抗體**。
 
+<div data-fig="complement"></div>
+
 ## 4. 單核吞噬細胞與 Opsonic receptors ⭐
 Macrophage：吞噬 → phagosome（酸化、H₂O₂、NO、TNF-α）→ 與 lysosome 融合 → phagolysosome → 部分 peptide 上 MHC II。
 
@@ -57,6 +63,12 @@ Macrophage：吞噬 → phagosome（酸化、H₂O₂、NO、TNF-α）→ 與 ly
 4. **CD14 + TLR4**（LPS → **LPS-binding protein → CD14 → TLR4**）
 
 > 不是 opsonic receptor：KIR（NK）、MHC II、CD94、selectin、TCR、CD15（正確是 CD14）。
+
+<div data-fig="phagocytosis"></div>
+
+<div data-fig="tlr4"></div>
+
+
 
 ### TLR 對照表
 | TLR | 位置 | Ligand |
@@ -82,6 +94,10 @@ Macrophage：吞噬 → phagosome（酸化、H₂O₂、NO、TNF-α）→ 與 ly
   - **KIR-2D、KIR-3D（long tail，有 ITIM）** ↔ **HLA-C**；short tail 無 ITIM → 非抑制性。
   - ⚠️ HLA-E / HLA-C 是 **ligand**，不是 receptor。
 - 紅血球**無 MHC I**（無核）。腫瘤逃避 CTL：**降低 MHC I**（但逃不過 NK）。
+
+<div data-fig="tc-vs-nk"></div>
+
+<div data-fig="nk-receptors"></div>
 
 ### 三種毒殺方式（Tc、NK 共通）
 1. **Direct**：FasL ↔ **Fas（CD95）** → apoptosis

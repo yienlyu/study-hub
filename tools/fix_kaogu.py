@@ -66,6 +66,7 @@ def chapter_for(q):
     if s == 'tdev':
         return 'mhc' if n in (3, 4, 6, 12, 13) else 'tcell-dev'
     if s == 'tact':
+        if n in (36, 39): return 'tcell-dev'  # CTLA-4 / CD28：9/30 上課內容
         if n in (18, 27): return 'mhc'
         if n in (24, 25, 28): return 'innate'
         if n == 16: return 'innate'
@@ -171,7 +172,7 @@ CH_TOPICS = {
     'innate': ['補體系統', 'TLR／PRR', 'NK 細胞與抑制性受體', '白血球遷移（selectin→chemokine→integrin）', '調理作用／opsonic receptor', '細胞毒殺（perforin/Fas）', 'ILC 先天性淋巴細胞', '先天 vs 後天免疫', 'MHC 構造與表現'],
     'agab': ['抗體類別與功能', '抗體結構', '抗體多樣性（VDJ/SHM）', '抗原／epitope'],
     'mhc': ['MHC 構造與表現', '抗原處理與呈現（TAP）'],
-    'tcell-dev': ['胸腺選擇', 'TCR 與 γδ T 細胞', 'MHC 構造與表現'],
+    'tcell-dev': ['胸腺選擇', 'TCR 與 γδ T 細胞', '共刺激（CD28/B7/CTLA-4）', 'MHC 構造與表現'],
     'tcell-act': ['TH 分化與細胞激素', '共刺激（CD28/B7/CTLA-4）', 'B 細胞活化／class switch／生發中心', '細胞毒殺（perforin/Fas）', '白血球遷移（selectin→chemokine→integrin）'],
     'hypersensitivity': ['過敏反應'],
     'staph-strep': ['S. aureus', 'S. pyogenes (GAS)', 'S. pneumoniae', 'S. agalactiae (GBS)', 'Enterococcus／Viridans'],

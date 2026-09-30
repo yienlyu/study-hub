@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 298" role="img" aria-label="五種抗體結構比較：IgG 單體、IgM 五聚體加 J 鏈、分泌型 IgA 二聚體加 J 鏈與 secretory component、IgD 與 IgE 單體，IgM 與 IgE 無 hinge">
+<defs><marker id="ig-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="ig-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="ig-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="ig-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<g transform="translate(80 92) rotate(0) scale(1.0)"><path d="M-3.5 30V0L-25 -27M3.5 30V0L25 -27" class="lv" style="stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round"/><path d="M-17 -2L-34 -23M17 -2L34 -23" class="lr" style="stroke-width:3.4;stroke-linecap:round"/><path d="M-6 3h12M-6 7h12" class="ln" style="stroke-width:1.2"/></g>
+<g transform="translate(230.0 56.0) rotate(0) scale(0.6)"><path d="M-3.5 40V0L-25 -27M3.5 40V0L25 -27" class="lv" style="stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round"/><path d="M-17 -2L-34 -23M17 -2L34 -23" class="lr" style="stroke-width:3.4;stroke-linecap:round"/></g>
+<g transform="translate(264.2 80.9) rotate(72) scale(0.6)"><path d="M-3.5 40V0L-25 -27M3.5 40V0L25 -27" class="lv" style="stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round"/><path d="M-17 -2L-34 -23M17 -2L34 -23" class="lr" style="stroke-width:3.4;stroke-linecap:round"/></g>
+<g transform="translate(251.2 121.1) rotate(144) scale(0.6)"><path d="M-3.5 40V0L-25 -27M3.5 40V0L25 -27" class="lv" style="stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round"/><path d="M-17 -2L-34 -23M17 -2L34 -23" class="lr" style="stroke-width:3.4;stroke-linecap:round"/></g>
+<g transform="translate(208.8 121.1) rotate(216) scale(0.6)"><path d="M-3.5 40V0L-25 -27M3.5 40V0L25 -27" class="lv" style="stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round"/><path d="M-17 -2L-34 -23M17 -2L34 -23" class="lr" style="stroke-width:3.4;stroke-linecap:round"/></g>
+<g transform="translate(195.8 80.9) rotate(288) scale(0.6)"><path d="M-3.5 40V0L-25 -27M3.5 40V0L25 -27" class="lv" style="stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round"/><path d="M-17 -2L-34 -23M17 -2L34 -23" class="lr" style="stroke-width:3.4;stroke-linecap:round"/></g>
+<circle cx="230" cy="92" r="5" class="fw"/>
+<g transform="translate(370 88) rotate(-90) scale(0.75)"><path d="M-3.5 30V0L-25 -27M3.5 30V0L25 -27" class="lv" style="stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round"/><path d="M-17 -2L-34 -23M17 -2L34 -23" class="lr" style="stroke-width:3.4;stroke-linecap:round"/><path d="M-6 3h12M-6 7h12" class="ln" style="stroke-width:1.2"/></g>
+<g transform="translate(430 88) rotate(90) scale(0.75)"><path d="M-3.5 30V0L-25 -27M3.5 30V0L25 -27" class="lv" style="stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round"/><path d="M-17 -2L-34 -23M17 -2L34 -23" class="lr" style="stroke-width:3.4;stroke-linecap:round"/><path d="M-6 3h12M-6 7h12" class="ln" style="stroke-width:1.2"/></g>
+<circle cx="400" cy="88" r="5" class="fw"/>
+<path d="M374 76Q400 64 426 76" class="lg" style="stroke-width:3.4;stroke-linecap:round"/>
+<g transform="translate(560 92) rotate(0) scale(1.0)"><path d="M-3.5 30V0L-25 -27M3.5 30V0L25 -27" class="lv" style="stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round"/><path d="M-17 -2L-34 -23M17 -2L34 -23" class="lr" style="stroke-width:3.4;stroke-linecap:round"/><path d="M-6 3h12M-6 7h12" class="ln" style="stroke-width:1.2"/></g>
+<g transform="translate(690 86) rotate(0) scale(1.0)"><path d="M-3.5 40V0L-25 -27M3.5 40V0L25 -27" class="lv" style="stroke-width:4.2;stroke-linecap:round;stroke-linejoin:round"/><path d="M-17 -2L-34 -23M17 -2L34 -23" class="lr" style="stroke-width:3.4;stroke-linecap:round"/></g>
+<text x="702" y="130" class="ts">CH4</text>
+<g class="hot" data-tip="<b>佔 70–75%</b>（最多）；<b>次級反應主力</b>；<b>唯一能通過胎盤</b>（所有 subclass）；活化補體（IgG1–3）、經 FcγR 調理。" data-label="IgG"><text x="80" y="178" text-anchor="middle" class="tb" style="font-size:15px">IgG</text></g>
+<text x="80" y="196" text-anchor="middle" class="ts">monomer</text>
+<text x="80" y="220" text-anchor="middle" class="ts" style="fill:var(--ink-2)">70–75%，最多</text>
+<text x="80" y="237" text-anchor="middle" class="ts" style="fill:var(--ink-2)">唯一過胎盤</text>
+<text x="80" y="254" text-anchor="middle" class="ts" style="fill:var(--ink-2)">次級反應主力</text>
+<g class="hot" data-tip="<b>初級反應主力</b>；<b>最強補體活化</b>；侷限在血管內，代表<b>現在的感染</b>。膜上是 monomer。<b>無 hinge</b>（4 個 CH）。" data-label="IgM"><text x="230" y="178" text-anchor="middle" class="tb" style="font-size:15px">IgM</text></g>
+<text x="230" y="196" text-anchor="middle" class="ts">pentamer + J chain</text>
+<text x="230" y="220" text-anchor="middle" class="ts" style="fill:var(--ink-2)">初級反應主力</text>
+<text x="230" y="237" text-anchor="middle" class="ts" style="fill:var(--ink-2)">最強補體活化</text>
+<text x="230" y="254" text-anchor="middle" class="ts" style="fill:var(--ink-2)">無 hinge</text>
+<g class="hot" data-tip="<b>黏膜分泌物主力</b>。血中多為 monomer；分泌型為 dimer + J chain + <b>secretory component</b>（上皮細胞的 poly-Ig receptor 切剩的部分，保護不被 protease 分解）。<b>TGF-β</b> 促進 class switch 到 IgA。" data-label="IgA"><text x="400" y="178" text-anchor="middle" class="tb" style="font-size:15px">IgA</text></g>
+<text x="400" y="196" text-anchor="middle" class="ts">dimer + J + SC</text>
+<text x="400" y="220" text-anchor="middle" class="ts" style="fill:var(--ink-2)">黏膜、乳汁</text>
+<text x="400" y="237" text-anchor="middle" class="ts" style="fill:var(--ink-2)">SC 由上皮製造</text>
+<text x="400" y="254" text-anchor="middle" class="ts" style="fill:var(--ink-2)">不活化補體</text>
+<g class="hot" data-tip="<1%；<b>B 細胞膜上的受體</b>（與 IgM 共表現於 mature B），分泌型功能不明。" data-label="IgD"><text x="560" y="178" text-anchor="middle" class="tb" style="font-size:15px">IgD</text></g>
+<text x="560" y="196" text-anchor="middle" class="ts">monomer</text>
+<text x="560" y="220" text-anchor="middle" class="ts" style="fill:var(--ink-2)">B 細胞膜受體</text>
+<text x="560" y="237" text-anchor="middle" class="ts" style="fill:var(--ink-2)">與 IgM 共表現</text>
+<g class="hot" data-tip="極少；<b>寄生蟲與過敏</b>，經 <b>FcεRI</b> 結合 mast cell / basophil；<b>無 hinge</b>（4 個 CH）。IL-4 → IgE。" data-label="IgE"><text x="690" y="178" text-anchor="middle" class="tb" style="font-size:15px">IgE</text></g>
+<text x="690" y="196" text-anchor="middle" class="ts">monomer</text>
+<text x="690" y="220" text-anchor="middle" class="ts" style="fill:var(--ink-2)">過敏、寄生蟲</text>
+<text x="690" y="237" text-anchor="middle" class="ts" style="fill:var(--ink-2)">FcεRI → mast cell</text>
+<text x="690" y="254" text-anchor="middle" class="ts" style="fill:var(--ink-2)">無 hinge</text>
+<path d="M155 26V264" class="lt dash"/>
+<path d="M315 26V264" class="lt dash"/>
+<path d="M480 26V264" class="lt dash"/>
+<path d="M625 26V264" class="lt dash"/>
+<g transform="translate(20 284)"><path d="M0 0h18" class="lv" style="stroke-width:4.2;stroke-linecap:round"/><text x="26" y="4" class="ts">重鏈 heavy chain（決定 class）</text><path d="M220 0h18" class="lr" style="stroke-width:3.4;stroke-linecap:round"/><text x="246" y="4" class="ts">輕鏈 κ 或 λ</text><circle cx="352" cy="0" r="5" class="fw"/><text x="364" y="4" class="ts">J chain</text><path d="M430 0h18" class="lg" style="stroke-width:3.4;stroke-linecap:round"/><text x="456" y="4" class="ts">secretory component</text><path d="M596 -3h12M596 1h12" class="ln" style="stroke-width:1.2"/><text x="616" y="4" class="ts">hinge</text></g>
+</svg>

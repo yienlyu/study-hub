@@ -2089,6 +2089,303 @@
  {
   "id": "new-063",
   "source": "模擬新題",
+  "chapter": "tcell-dev",
+  "type": "mcq",
+  "stem": "Compared with immunoglobulin genes, which diversity mechanism operates in TCR genes but NOT in immunoglobulin genes?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Somatic hypermutation"
+   },
+   {
+    "k": "B",
+    "t": "Multiple D segments joined in tandem (e.g. Vδ–Dδ–Dδ–Jδ)"
+   },
+   {
+    "k": "C",
+    "t": "N-nucleotide addition by TdT"
+   },
+   {
+    "k": "D",
+    "t": "Combinatorial association of two chains"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Ig 重鏈只能 VH–DH–JH；TCR δ 鏈常出現多 D 串接，β 鏈的 D 也常以三種讀框讀取。TCR 沒有 SHM。",
+  "topics": [
+   "TCR 與 γδ T 細胞"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-064",
+  "source": "模擬新題",
+  "chapter": "tcell-dev",
+  "type": "mcq",
+  "stem": "Which statement comparing αβ and γδ T cells is INCORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "αβ T cells make up 90–99% of CD3⁺ cells"
+   },
+   {
+    "k": "B",
+    "t": "Most γδ T cells are CD4⁻CD8⁻"
+   },
+   {
+    "k": "C",
+    "t": "γδ T cells recognize peptide presented by MHC class I"
+   },
+   {
+    "k": "D",
+    "t": "γδ T cells can recognize phospholipid antigens"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "γδ T 細胞沒有 MHC restriction，ligand 常是 phospholipid 等完整分子（Table 9-1）。",
+  "topics": [
+   "TCR 與 γδ T 細胞"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-065",
+  "source": "模擬新題",
+  "chapter": "tcell-dev",
+  "type": "mcq",
+  "stem": "在胸腺發育中，TCR α 基因座開始重組的階段是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "DN1（ETP）"
+   },
+   {
+    "k": "B",
+    "t": "DN2"
+   },
+   {
+    "k": "C",
+    "t": "DN4"
+   },
+   {
+    "k": "D",
+    "t": "Single positive"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "DN2：γ、δ、β 基因座重組；DN3：β-selection（pre-TCR）；DN4：α 基因座重組 → DP。",
+  "topics": [
+   "胸腺選擇"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-066",
+  "source": "模擬新題",
+  "chapter": "tcell-dev",
+  "type": "mcq",
+  "stem": "The pre-T-cell receptor expressed at the β-selection checkpoint consists of:",
+  "options": [
+   {
+    "k": "A",
+    "t": "TCRβ chain paired with a surrogate α chain (pTα) and CD3"
+   },
+   {
+    "k": "B",
+    "t": "TCRα chain paired with TCRβ"
+   },
+   {
+    "k": "C",
+    "t": "TCRγ paired with TCRδ"
+   },
+   {
+    "k": "D",
+    "t": "Igα and Igβ"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "β 鏈與 surrogate α（pTα）一起表現 → β 重組停止、細胞增殖、誘導 CD4/CD8、開始轉錄 α。",
+  "topics": [
+   "胸腺選擇"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-067",
+  "source": "模擬新題",
+  "chapter": "tcell-dev",
+  "type": "mcq",
+  "stem": "依 T 細胞篩選的 affinity model，下列配對何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "無法辨識 self peptide:self MHC – death by neglect"
+   },
+   {
+    "k": "B",
+    "t": "中低親和力 – positive selection"
+   },
+   {
+    "k": "C",
+    "t": "中高親和力 – alternative selection 形成 Treg、NKT"
+   },
+   {
+    "k": "D",
+    "t": "低親和力 – clonal deletion 形成 self-tolerance"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Clonal deletion（negative selection）發生在「親和力太高」時，由 mTEC 等細胞執行。",
+  "topics": [
+   "胸腺選擇"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "new-068",
+  "source": "模擬新題",
+  "chapter": "tcell-dev",
+  "type": "mcq",
+  "stem": "What happens to the TCRδ locus when a Vα gene segment rearranges to a Jα segment?",
+  "options": [
+   {
+    "k": "A",
+    "t": "It is duplicated"
+   },
+   {
+    "k": "B",
+    "t": "It is deleted"
+   },
+   {
+    "k": "C",
+    "t": "It is translocated to chromosome 7"
+   },
+   {
+    "k": "D",
+    "t": "It becomes the constant region of the α chain"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "δ 基因座位於 Vα 與 Jα 之間，Vα–Jα 重組會把 δ 刪除（Fig 5.20）。",
+  "topics": [
+   "TCR 與 γδ T 細胞"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-069",
+  "source": "模擬新題",
+  "chapter": "tcell-dev",
+  "type": "mcq",
+  "stem": "LFA-1 on T cells binds which molecule on antigen-presenting cells during the initial adhesion step?",
+  "options": [
+   {
+    "k": "A",
+    "t": "CD58"
+   },
+   {
+    "k": "B",
+    "t": "ICAM-1 (CD54)"
+   },
+   {
+    "k": "C",
+    "t": "B7 (CD80)"
+   },
+   {
+    "k": "D",
+    "t": "MHC class II"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "LFA-1（CD11a:CD18）↔ ICAM-1（CD54）、ICAM-2（CD102）；CD2 ↔ CD58。",
+  "topics": [
+   "共刺激（CD28/B7/CTLA-4）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-070",
+  "source": "模擬新題",
+  "chapter": "tcell-dev",
+  "type": "mcq",
+  "stem": "In TCR signaling, which kinase binds the phosphorylated ITAMs of the ζ chain after they are phosphorylated by Lck?",
+  "options": [
+   {
+    "k": "A",
+    "t": "ZAP-70"
+   },
+   {
+    "k": "B",
+    "t": "JAK1"
+   },
+   {
+    "k": "C",
+    "t": "Btk"
+   },
+   {
+    "k": "D",
+    "t": "PI3K"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "CD4/CD8 帶來 Lck → 磷酸化 ITAM → ZAP-70 結合並被活化 → 下游 NFAT 等 → IL-2。",
+  "topics": [
+   "共刺激（CD28/B7/CTLA-4）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-071",
+  "source": "模擬新題",
+  "chapter": "tcell-dev",
+  "type": "mcq",
+  "stem": "Which statement about co-stimulation is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "CD28–B7 signaling induces IL-2 and the high-affinity IL-2 receptor"
+   },
+   {
+    "k": "B",
+    "t": "CTLA-4 binds B7 with much higher avidity than CD28"
+   },
+   {
+    "k": "C",
+    "t": "Effector T cells still require B7 co-stimulation every time they kill a target"
+   },
+   {
+    "k": "D",
+    "t": "CD40 belongs to the TNF receptor superfamily"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "活化後的 effector T 細胞不再需要共刺激（Fig 9.29）。",
+  "topics": [
+   "共刺激（CD28/B7/CTLA-4）"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-072",
+  "source": "模擬新題",
   "chapter": "tcell-act",
   "type": "mcq",
   "stem": "TH 亞群與其主要分泌細胞激素的配對，何者錯誤？",
@@ -2121,7 +2418,7 @@
   "basedOn": "k113-tact-07"
  },
  {
-  "id": "new-064",
+  "id": "new-073",
   "source": "模擬新題",
   "chapter": "tcell-act",
   "type": "mcq",
@@ -2155,7 +2452,7 @@
   "basedOn": "k113-tact-41"
  },
  {
-  "id": "new-065",
+  "id": "new-074",
   "source": "模擬新題",
   "chapter": "tcell-act",
   "type": "mcq",
@@ -2189,7 +2486,7 @@
   "basedOn": "k113-tact-14"
  },
  {
-  "id": "new-066",
+  "id": "new-075",
   "source": "模擬新題",
   "chapter": "tcell-act",
   "type": "mcq",
@@ -2222,7 +2519,7 @@
   "pattern": "選正確／單一概念題"
  },
  {
-  "id": "new-067",
+  "id": "new-076",
   "source": "模擬新題",
   "chapter": "tcell-act",
   "type": "mcq",
@@ -2256,7 +2553,7 @@
   "basedOn": "k113-tact-12"
  },
  {
-  "id": "new-068",
+  "id": "new-077",
   "source": "模擬新題",
   "chapter": "tcell-act",
   "type": "mcq",
@@ -2290,7 +2587,7 @@
   "basedOn": "k113-mid111-48"
  },
  {
-  "id": "new-069",
+  "id": "new-078",
   "source": "模擬新題",
   "chapter": "tcell-act",
   "type": "mcq",
@@ -2323,7 +2620,7 @@
   "pattern": "選正確／單一概念題"
  },
  {
-  "id": "new-070",
+  "id": "new-079",
   "source": "模擬新題",
   "chapter": "infection-immunity",
   "type": "mcq",
@@ -2356,7 +2653,7 @@
   "pattern": "選正確／單一概念題"
  },
  {
-  "id": "new-071",
+  "id": "new-080",
   "source": "模擬新題",
   "chapter": "infection-immunity",
   "type": "mcq",
@@ -2389,7 +2686,7 @@
   "pattern": "選正確／單一概念題"
  },
  {
-  "id": "new-072",
+  "id": "new-081",
   "source": "模擬新題",
   "chapter": "infection-immunity",
   "type": "mcq",
@@ -2422,7 +2719,7 @@
   "pattern": "選正確／單一概念題"
  },
  {
-  "id": "new-073",
+  "id": "new-082",
   "source": "模擬新題",
   "chapter": "infection-immunity",
   "type": "mcq",
@@ -2455,7 +2752,7 @@
   "pattern": "選正確／單一概念題"
  },
  {
-  "id": "new-074",
+  "id": "new-083",
   "source": "模擬新題",
   "chapter": "infection-immunity",
   "type": "mcq",
@@ -2488,7 +2785,7 @@
   "pattern": "選正確／單一概念題"
  },
  {
-  "id": "new-075",
+  "id": "new-084",
   "source": "模擬新題",
   "chapter": "staph-strep",
   "type": "mcq",
@@ -2522,7 +2819,7 @@
   "basedOn": "k113-staph2-18"
  },
  {
-  "id": "new-076",
+  "id": "new-085",
   "source": "模擬新題",
   "chapter": "staph-strep",
   "type": "mcq",
@@ -2556,7 +2853,7 @@
   "basedOn": "k113-staph1-05"
  },
  {
-  "id": "new-077",
+  "id": "new-086",
   "source": "模擬新題",
   "chapter": "staph-strep",
   "type": "mcq",
@@ -2590,7 +2887,7 @@
   "basedOn": "k113-staph2-13"
  },
  {
-  "id": "new-078",
+  "id": "new-087",
   "source": "模擬新題",
   "chapter": "staph-strep",
   "type": "mcq",
@@ -2624,7 +2921,7 @@
   "basedOn": "k113-staph2-11"
  },
  {
-  "id": "new-079",
+  "id": "new-088",
   "source": "模擬新題",
   "chapter": "staph-strep",
   "type": "mcq",
@@ -2658,7 +2955,7 @@
   "basedOn": "k113-staph2-02"
  },
  {
-  "id": "new-080",
+  "id": "new-089",
   "source": "模擬新題",
   "chapter": "staph-strep",
   "type": "mcq",
@@ -2692,7 +2989,7 @@
   "basedOn": "k113-staph2-05"
  },
  {
-  "id": "new-081",
+  "id": "new-090",
   "source": "模擬新題",
   "chapter": "staph-strep",
   "type": "mcq",
@@ -2727,7 +3024,7 @@
   "basedOn": "k113-staph2-14"
  },
  {
-  "id": "new-082",
+  "id": "new-091",
   "source": "模擬新題",
   "chapter": "enterobacteriaceae",
   "type": "mcq",
@@ -2761,7 +3058,7 @@
   "basedOn": "k113-entero-03"
  },
  {
-  "id": "new-083",
+  "id": "new-092",
   "source": "模擬新題",
   "chapter": "enterobacteriaceae",
   "type": "mcq",
@@ -2795,7 +3092,7 @@
   "basedOn": "k113-entero-13"
  },
  {
-  "id": "new-084",
+  "id": "new-093",
   "source": "模擬新題",
   "chapter": "enterobacteriaceae",
   "type": "mcq",
@@ -2829,7 +3126,7 @@
   "basedOn": "k113-entero-01"
  },
  {
-  "id": "new-085",
+  "id": "new-094",
   "source": "模擬新題",
   "chapter": "enterobacteriaceae",
   "type": "mcq",
@@ -2863,7 +3160,7 @@
   "basedOn": "k113-mid111-31"
  },
  {
-  "id": "new-086",
+  "id": "new-095",
   "source": "模擬新題",
   "chapter": "enterobacteriaceae",
   "type": "mcq",
@@ -2896,7 +3193,7 @@
   "pattern": "選正確／單一概念題"
  },
  {
-  "id": "new-087",
+  "id": "new-096",
   "source": "模擬新題",
   "chapter": "enterobacteriaceae",
   "type": "mcq",
@@ -2930,7 +3227,7 @@
   "basedOn": "k113-entero-20"
  },
  {
-  "id": "new-088",
+  "id": "new-097",
   "source": "模擬新題",
   "chapter": "bacillus",
   "type": "mcq",
@@ -2964,7 +3261,7 @@
   "basedOn": "k113-bacillus-01"
  },
  {
-  "id": "new-089",
+  "id": "new-098",
   "source": "模擬新題",
   "chapter": "bacillus",
   "type": "mcq",
@@ -2998,7 +3295,7 @@
   "basedOn": "k113-bacillus-11"
  },
  {
-  "id": "new-090",
+  "id": "new-099",
   "source": "模擬新題",
   "chapter": "bacillus",
   "type": "mcq",
@@ -3032,7 +3329,7 @@
   "basedOn": "k113-bacillus-10"
  },
  {
-  "id": "new-091",
+  "id": "new-100",
   "source": "模擬新題",
   "chapter": "bacillus",
   "type": "mcq",
@@ -3066,7 +3363,7 @@
   "basedOn": "k113-bacillus-07"
  },
  {
-  "id": "new-092",
+  "id": "new-101",
   "source": "模擬新題",
   "chapter": "bacillus",
   "type": "mcq",
@@ -3100,7 +3397,7 @@
   "basedOn": "k113-bacillus-18"
  },
  {
-  "id": "new-093",
+  "id": "new-102",
   "source": "模擬新題",
   "chapter": "bacillus",
   "type": "mcq",
@@ -3134,7 +3431,7 @@
   "basedOn": "k113-bacillus-12"
  },
  {
-  "id": "new-094",
+  "id": "new-103",
   "source": "模擬新題",
   "chapter": "neisseria",
   "type": "mcq",
@@ -3168,7 +3465,7 @@
   "basedOn": "k113-neis-17"
  },
  {
-  "id": "new-095",
+  "id": "new-104",
   "source": "模擬新題",
   "chapter": "neisseria",
   "type": "mcq",
@@ -3202,7 +3499,7 @@
   "basedOn": "k113-neis-09"
  },
  {
-  "id": "new-096",
+  "id": "new-105",
   "source": "模擬新題",
   "chapter": "neisseria",
   "type": "mcq",
@@ -3236,7 +3533,7 @@
   "basedOn": "k113-neis-12"
  },
  {
-  "id": "new-097",
+  "id": "new-106",
   "source": "模擬新題",
   "chapter": "neisseria",
   "type": "mcq",
@@ -3270,7 +3567,7 @@
   "basedOn": "k113-mid111-36"
  },
  {
-  "id": "new-098",
+  "id": "new-107",
   "source": "模擬新題",
   "chapter": "neisseria",
   "type": "mcq",
@@ -3304,7 +3601,7 @@
   "basedOn": "k113-neis-17"
  },
  {
-  "id": "new-099",
+  "id": "new-108",
   "source": "模擬新題",
   "chapter": "neisseria",
   "type": "mcq",
@@ -3338,7 +3635,7 @@
   "basedOn": "k113-neis-10"
  },
  {
-  "id": "new-100",
+  "id": "new-109",
   "source": "模擬新題",
   "chapter": "fungi",
   "type": "mcq",
@@ -3372,7 +3669,7 @@
   "basedOn": "k113-mid111-43"
  },
  {
-  "id": "new-101",
+  "id": "new-110",
   "source": "模擬新題",
   "chapter": "fungi",
   "type": "mcq",
@@ -3406,7 +3703,7 @@
   "basedOn": "k113-fungi-38"
  },
  {
-  "id": "new-102",
+  "id": "new-111",
   "source": "模擬新題",
   "chapter": "fungi",
   "type": "mcq",
@@ -3440,7 +3737,7 @@
   "basedOn": "k113-fungi-45"
  },
  {
-  "id": "new-103",
+  "id": "new-112",
   "source": "模擬新題",
   "chapter": "fungi",
   "type": "mcq",
@@ -3474,7 +3771,7 @@
   "basedOn": "k113-fungi-35"
  },
  {
-  "id": "new-104",
+  "id": "new-113",
   "source": "模擬新題",
   "chapter": "fungi",
   "type": "mcq",
@@ -3508,7 +3805,7 @@
   "basedOn": "k113-fungi-46"
  },
  {
-  "id": "new-105",
+  "id": "new-114",
   "source": "模擬新題",
   "chapter": "fungi",
   "type": "mcq",

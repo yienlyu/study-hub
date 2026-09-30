@@ -4510,7 +4510,8 @@
   ],
   "explain": "T 細胞受器的變異性主要來自 V(D)J 重組和連接多樣性，這些變異集中在第三可變區。",
   "topics": [
-   "TCR 與 γδ T 細胞"
+   "TCR 與 γδ T 細胞",
+   "共刺激（CD28/B7/CTLA-4）"
   ],
   "pattern": "組合選擇題"
  },
@@ -6687,7 +6688,7 @@
   "source": "113 考古",
   "section": "T cell Activation and Cell Cooperation",
   "num": 36,
-  "chapter": "tcell-act",
+  "chapter": "tcell-dev",
   "type": "mcq",
   "stem": "When T lymphocyte contact with the antigen-presenting cell and activation, what does CTLA-4 molecule contact with?",
   "options": [
@@ -6713,6 +6714,7 @@
   ],
   "explain": "第二訊號的負向調控：生物體內 CTLA-4 可以從抗原呈現細胞表面抓住或移除 B7-1 與 B7-2，因此便不會觸發初始 T 細胞上唯一的 B7 受器──CD28",
   "topics": [
+   "MHC 構造與表現",
    "共刺激（CD28/B7/CTLA-4）"
   ],
   "pattern": "選正確／單一概念題"
@@ -6792,7 +6794,7 @@
   "source": "113 考古",
   "section": "T cell Activation and Cell Cooperation",
   "num": 39,
-  "chapter": "tcell-act",
+  "chapter": "tcell-dev",
   "type": "mcq",
   "stem": "Naive T lymphocyte activation in addition to passing the message through the TCR, which of the following will take delivery of the second message reaches full activation?",
   "options": [
@@ -6818,6 +6820,7 @@
   ],
   "explain": "CD28 是初始 T 細胞上唯一的 B7 受器。T 細胞的 TCR 與 MHC 抗原複合物連結時，若缺乏CD28，B7 交互作用會使得 T 細胞缺乏活動力",
   "topics": [
+   "TCR 與 γδ T 細胞",
    "共刺激（CD28/B7/CTLA-4）"
   ],
   "pattern": "選正確／單一概念題"

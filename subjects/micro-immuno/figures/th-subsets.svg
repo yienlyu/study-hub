@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 388" role="img" aria-label="CD4 T 細胞分化：IL-12 誘導 TH1（T-bet，分泌 IFN-γ），IL-4 誘導 TH2（GATA3，分泌 IL-4、IL-5、IL-13），TGF-β 加 IL-6 誘導 TH17（RORγt，分泌 IL-17、IL-22），IL-21 誘導 TFH（Bcl-6），TGF-β 誘導 Treg（FoxP3，分泌 TGF-β、IL-10）">
+<defs><marker id="tb-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="tb-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="tb-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="tb-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<text x="20" y="20" class="th">誘導 CYTOKINE（APC 給的 Signal ③）</text><text x="330" y="20" class="th">亞群 · 轉錄因子</text><text x="480" y="20" class="th">分泌</text><text x="610" y="20" class="th">功能</text>
+<circle cx="60" cy="190" r="34" class="bx" style="stroke-width:1.6"/><text x="60" y="186" text-anchor="middle" class="tb">naïve</text><text x="60" y="203" text-anchor="middle" class="ts">CD4⁺ T</text>
+<path d="M94 190Q150 190 200 70H300" class="ln" style="stroke-width:1.4" marker-end="url(#tb-a)"/>
+<text x="210" y="64" class="tb" style="font-size:12px">IL-12、IFN-γ</text>
+<rect x="306" y="48" width="150" height="44" rx="22" class="bv"/>
+<g class="hot" data-tip="<b>IL-12</b>（加 IFN-γ）→ <b>T-bet</b> → TH1：分泌 <b>IFN-γ</b>、IL-2、TNF → 活化 M1 macrophage，對付胞內病原。IL-4、<b>IL-10</b> 抑制 TH1。" data-label="TH1"><text x="326" y="75" class="tb" style="font-size:15px">TH1</text></g>
+<text x="392" y="75" class="ts" style="fill:var(--ink-2)">T-bet</text>
+<path d="M458 70H474" class="lt"/>
+<text x="480" y="67" class="tb" style="font-size:12px">IFN-γ、IL-2、TNF</text>
+<text x="610" y="67" style="font-size:12px">活化 M1 macrophage</text>
+<text x="610" y="84" class="ts">胞內病原</text>
+<path d="M94 190Q150 190 200 136H300" class="ln" style="stroke-width:1.4" marker-end="url(#tb-a)"/>
+<text x="210" y="130" class="tb" style="font-size:12px">IL-4</text>
+<rect x="306" y="114" width="150" height="44" rx="22" class="br"/>
+<g class="hot" data-tip="<b>IL-4</b> → <b>GATA3</b> → TH2：分泌 <b>IL-4、IL-5、IL-13</b>（IL-3、IL-9）。IL-4 → <b>IgE</b>；IL-5 → <b>eosinophil</b>；IL-13 → 黏液、平滑肌收縮；M2 macrophage。<b>TH2 不分泌 IL-12</b>。IFN-γ 抑制 TH2。" data-label="TH2"><text x="326" y="141" class="tb" style="font-size:15px">TH2</text></g>
+<text x="392" y="141" class="ts" style="fill:var(--ink-2)">GATA3</text>
+<path d="M458 136H474" class="lt"/>
+<text x="480" y="133" class="tb" style="font-size:12px">IL-4、IL-5、IL-13</text>
+<text x="610" y="133" style="font-size:12px">寄生蟲、過敏</text>
+<text x="610" y="150" class="ts">IL-4→IgE、IL-5→eosinophil</text>
+<path d="M94 190Q150 190 200 202H300" class="ln" style="stroke-width:1.4" marker-end="url(#tb-a)"/>
+<text x="210" y="196" class="tb" style="font-size:12px">TGF-β + IL-6</text>
+<rect x="306" y="180" width="150" height="44" rx="22" class="bw"/>
+<g class="hot" data-tip="<b>TGF-β + IL-6</b>（IL-23、IL-21）→ <b>RORγt</b> → TH17：<b>IL-17</b> → G-CSF → 招募 <b>neutrophil</b>；<b>IL-22</b> → 上皮更新。黏膜感染時 IL-6 → TH17。" data-label="TH17"><text x="326" y="207" class="tb" style="font-size:15px">TH17</text></g>
+<text x="392" y="207" class="ts" style="fill:var(--ink-2)">RORγt</text>
+<path d="M458 202H474" class="lt"/>
+<text x="480" y="199" class="tb" style="font-size:12px">IL-17、IL-22</text>
+<text x="610" y="199" style="font-size:12px">胞外細菌、真菌</text>
+<text x="610" y="216" class="ts">IL-17→G-CSF→neutrophil</text>
+<path d="M94 190Q150 190 200 268H300" class="ln" style="stroke-width:1.4" marker-end="url(#tb-a)"/>
+<text x="210" y="262" class="tb" style="font-size:12px">IL-6、IL-21</text>
+<rect x="306" y="246" width="150" height="44" rx="22" class="bg"/>
+<g class="hot" data-tip="IL-6、IL-21 → <b>Bcl-6</b> → TFH：主要分泌 <b>IL-21</b>（IL-4），在 germinal center 以 CD40L 幫 B 細胞 class switch 與 affinity maturation。" data-label="TFH"><text x="326" y="273" class="tb" style="font-size:15px">TFH</text></g>
+<text x="392" y="273" class="ts" style="fill:var(--ink-2)">Bcl-6</text>
+<path d="M458 268H474" class="lt"/>
+<text x="480" y="265" class="tb" style="font-size:12px">IL-21、IL-4</text>
+<text x="610" y="265" style="font-size:12px">幫 B 細胞</text>
+<text x="610" y="282" class="ts">germinal center</text>
+<path d="M94 190Q150 190 200 334H300" class="ln" style="stroke-width:1.4" marker-end="url(#tb-a)"/>
+<text x="210" y="328" class="tb" style="font-size:12px">TGF-β（at-RA）</text>
+<rect x="306" y="312" width="150" height="44" rx="22" class="bp"/>
+<g class="hot" data-tip="<b>TGF-β</b>（加 at-RA）→ <b>FoxP3</b> → Treg：分泌 <b>TGF-β、IL-10</b> → 抑制免疫、維持耐受。平時黏膜共生菌 → at-RA → pTreg。" data-label="Treg"><text x="326" y="339" class="tb" style="font-size:15px">Treg</text></g>
+<text x="392" y="339" class="ts" style="fill:var(--ink-2)">FoxP3</text>
+<path d="M458 334H474" class="lt"/>
+<text x="480" y="331" class="tb" style="font-size:12px">TGF-β、IL-10</text>
+<text x="610" y="331" style="font-size:12px">抑制免疫、耐受</text>
+<text x="20" y="376" class="ts">互相抑制：<tspan style="fill:var(--ink)">IFN-γ ⊣ TH2</tspan>　<tspan style="fill:var(--ink)">IL-4 ⊣ TH1</tspan>　<tspan style="fill:var(--ink)">IL-10 ⊣ TH1</tspan>　·　IL-2 是 T 細胞生長因子（自分泌）</text>
+</svg>

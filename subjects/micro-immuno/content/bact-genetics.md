@@ -50,13 +50,21 @@
 | **Transduction** | **噬菌體（phage）** | ❌ | generalized（任何片段）vs specialized（插入點附近） |
 | Transposition | Transposon（jumping gene） | — | 細胞內位置移動；transposase（site-specific） |
 
+<div data-fig="hgt"></div>
+
 - **Transposable elements**（Barbara McClintock，1983 諾貝爾）：IS（只帶 transposase、兩端反向重複）與 composite Tn（兩端 IS 夾抗藥基因）；不能自我複製。
+
+<div data-fig="transposon"></div>
+
 - 臨床：**MRSA + VRE 之 vanA → VRSA / MVRSA**。
 - ⚠️ Translation 不是 HGT。
 
 ## 7. 生物技術
 - **Recombinant DNA**：restriction enzyme 切 → ligase 接到 vector → 轉入 *E. coli*。
 - **PCR**：denaturation（90–95°C）→ annealing → extension（~72°C，Mg²⁺）；需 primers、dNTPs、thermostable polymerase、template；指數放大。
+
+<div data-fig="pcr"></div>
+
 - **Sanger**：**ddNTP（缺 3'-OH）終止延長**；dye-terminator + 毛細管電泳，讀長約 800 bp。
 - **NGS（illumina）**：massive、parallel、sequencing-by-synthesis。
 - **16S rRNA amplicon sequencing**：9 個變異區 V1–V9，常用 **V3–V4** → 分析菌相組成。

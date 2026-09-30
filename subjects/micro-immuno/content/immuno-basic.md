@@ -19,6 +19,8 @@
 - 先天屏障：Anatomic（皮膚、黏膜）、Physiological（溫度、低 pH、補體、**CRP**、cytokines、lysozyme、interferon）、Phagocytic、Inflammatory。
 - 三道防線（本課定義）：屏障 → 免疫分子 / 先天免疫細胞 → 專一性免疫。
 
+<div data-fig="clonal-selection"></div>
+
 ## 3. 造血與免疫細胞
 - **HSC**（骨髓）：undifferentiated、pluripotent、**self-renewal**；progenitors 不能自我更新、已決定方向。需 **bone marrow stromal cells + growth factors**。出生前造血在卵黃囊、肝、脾。
 - **Myeloid lineage**（多數先天細胞）：
@@ -30,6 +32,8 @@
 - **Lymphoid lineage**：B、T、**NK（large granular lymphocyte；perforin/granzyme；CD16 → ADCC）**、ILC。
   - Chediak-Higashi syndrome：NK、巨噬細胞、嗜中性球功能受損、淋巴瘤增加。
 - Phagocytes：neutrophil、eosinophil、monocyte/macrophage、DC（**不含 basophil**）。
+
+<div data-fig="immune-cells"></div>
 
 ## 4. 感測與發炎
 - **PAMPs**（病原體分子模式）被 sensor cell 上的 **PRRs**（TLRs、NOD…）辨識 → 分泌 **cytokines、chemokines** → 血管擴張、通透性↑、黏附分子↑ → 紅腫熱痛、募集 neutrophil、monocyte。
@@ -49,6 +53,8 @@
 - TH 分泌 IL-4、5、6、10 → 刺激 B；TC 分泌 IL-2、IFN-γ → 毒殺。
 - **BCR**：membrane Ig + **Igα（CD79a）/ Igβ（CD79b）**；周邊 B：IgM、IgD（以及 IgG/A/E）；腸黏膜 B：IgA。B 也是 APC（MHC II、CD40）。
 
+<div data-fig="bcr-tcr"></div>
+
 ## 6. Epitope（抗原決定位）
 | | B epitope | T epitope |
 |---|---|---|
@@ -62,6 +68,9 @@
 - **Secondary**：spleen、lymph nodes、tonsils、appendix、Peyer's patches、MALT（GALT、BALT）→ **clonal selection、產生專一性反應**。
   - **Spleen**（過濾血液、全身）：white pulp — **PALS = T 區**、follicle = B 區 → germinal center（memory B、**FDCs**、macrophage）、marginal zone；red pulp。
   - **Lymph node**（過濾淋巴、局部）：cortex follicle = B；**paracortex = T**；medulla 混合；naïve 淋巴球經 **HEV**（L-selectin）進入；2018 發現 **SPFs（subcapsular proliferative foci）**，memory B 在此待命。
+
+<div data-fig="lymph-node"></div>
+
   - **MALT / Peyer's patches**：無包膜；**M cell** 送入抗原；**IgA 分泌**。
 - 初次 vs 二次反應：二次較快、較強（記憶細胞）→ 疫苗原理。
 

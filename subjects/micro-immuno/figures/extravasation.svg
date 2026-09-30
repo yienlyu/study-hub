@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 306" role="img" aria-label="白血球移出血管三步驟：selectin 與醣類結合使白血球滾動，chemokine 活化，integrin 與 ICAM 緊密黏附後穿出血管">
+<defs><marker id="ex-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="ex-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="ex-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="ex-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<rect x="10" y="88" width="750" height="64" class="fp" opacity=".7"/>
+<path d="M356 108H436" class="ln" marker-end="url(#ex-a)"/><text x="360" y="100" class="ts">血流方向</text>
+<text x="20" y="104" class="th">血管腔</text><text x="20" y="196" class="th">組織</text>
+<rect x="10" y="152" width="112" height="24" rx="9" class="bp"/>
+<rect x="126" y="152" width="112" height="24" rx="9" class="bp"/>
+<rect x="242" y="152" width="112" height="24" rx="9" class="bp"/>
+<rect x="358" y="152" width="112" height="24" rx="9" class="bp"/>
+<rect x="474" y="152" width="112" height="24" rx="9" class="bp"/>
+<rect x="590" y="152" width="38" height="24" rx="9" class="bp"/>
+<rect x="652" y="152" width="108" height="24" rx="9" class="bp"/>
+<text x="68" y="168" text-anchor="middle" class="ts" style="fill:var(--ink-2)">內皮細胞</text>
+<g class="hot" data-tip="<b>Selectin</b>（內皮的 P-、E-selectin；白血球的 L-selectin）與白血球醣蛋白上的<b>醣類</b>低親和力結合 → 白血球在血管壁上滾動、減速。Selectin 是單一鏈。" data-label="① Tethering"><text x="110" y="30" text-anchor="middle" class="tb">① Tethering</text></g>
+<text x="110" y="48" text-anchor="middle" class="ts">滾動 rolling</text><text x="110" y="66" text-anchor="middle" class="ts" style="fill:var(--ink-2)">Selectin ↔ 醣類</text>
+<g class="hot" data-tip="內皮表面的 <b>chemokine</b> 結合白血球的 chemokine receptor（7 次跨膜 GPCR，如 CCR3、CCR5）→ 活化特定白血球，讓 integrin 變成高親和力構型。" data-label="② Triggering"><text x="290" y="30" text-anchor="middle" class="tb">② Triggering</text></g>
+<text x="290" y="48" text-anchor="middle" class="ts">活化</text><text x="290" y="66" text-anchor="middle" class="ts" style="fill:var(--ink-2)">Chemokine ↔ 受體</text>
+<g class="hot" data-tip="<b>Integrin</b>（白血球，α+β 兩條鏈非共價結合）如 LFA-1 ↔ ICAM-1、VLA-4 ↔ VCAM-1（Ig superfamily）→ 白血球停下、攤平。CR3、CR4 也是 integrin。" data-label="③ Latching"><text x="470" y="30" text-anchor="middle" class="tb">③ Latching</text></g>
+<text x="470" y="48" text-anchor="middle" class="ts">緊密黏附</text><text x="470" y="66" text-anchor="middle" class="ts" style="fill:var(--ink-2)">Integrin ↔ ICAM / VCAM</text>
+<g class="hot" data-tip="白血球從內皮細胞之間鑽出（diapedesis），沿著 chemokine 濃度梯度移到感染部位。急性發炎時 <b>neutrophil 先到</b>，之後才是 monocyte。" data-label="④ 穿出血管"><text x="640" y="30" text-anchor="middle" class="tb">④ 穿出血管</text></g>
+<text x="640" y="48" text-anchor="middle" class="ts">transmigration</text><text x="640" y="66" text-anchor="middle" class="ts" style="fill:var(--ink-2)">往感染處移動</text>
+<path d="M160 26H238" class="lt" marker-end="url(#ex-a)"/>
+<path d="M340 26H418" class="lt" marker-end="url(#ex-a)"/>
+<path d="M520 26H588" class="lt" marker-end="url(#ex-a)"/>
+<circle cx="110" cy="124" r="24" class="bx" style="stroke-width:1.5"/>
+<path d="M92 104a26 26 0 0 1 34 -2" class="ln" marker-end="url(#ex-a)" style="stroke-width:1.3"/>
+<path d="M96 152V146" class="lr" style="stroke-width:1.6"/><circle cx="96" cy="145" r="2.6" class="fr"/>
+<path d="M110 152V146" class="lr" style="stroke-width:1.6"/><circle cx="110" cy="145" r="2.6" class="fr"/>
+<path d="M124 152V146" class="lr" style="stroke-width:1.6"/><circle cx="124" cy="145" r="2.6" class="fr"/>
+<circle cx="290" cy="124" r="24" class="bx" style="stroke-width:1.5"/>
+<circle cx="272" cy="149" r="3.4" class="fv"/><path d="M272 146V142" class="lv" style="stroke-width:1.4"/>
+<circle cx="290" cy="149" r="3.4" class="fv"/><path d="M290 146V142" class="lv" style="stroke-width:1.4"/>
+<circle cx="308" cy="149" r="3.4" class="fv"/><path d="M308 146V142" class="lv" style="stroke-width:1.4"/>
+<path d="M283 118l6 -8v6h5l-6 8v-6z" class="fv"/>
+<ellipse cx="470" cy="138" rx="40" ry="14" class="bx" style="stroke-width:1.5"/>
+<path d="M442 150v-6M446 150v-6" class="lg" style="stroke-width:1.6"/><rect x="441" y="150" width="6" height="3" class="fg"/>
+<path d="M458 150v-6M462 150v-6" class="lg" style="stroke-width:1.6"/><rect x="457" y="150" width="6" height="3" class="fg"/>
+<path d="M474 150v-6M478 150v-6" class="lg" style="stroke-width:1.6"/><rect x="473" y="150" width="6" height="3" class="fg"/>
+<path d="M490 150v-6M494 150v-6" class="lg" style="stroke-width:1.6"/><rect x="489" y="150" width="6" height="3" class="fg"/>
+<path d="M640 112c14 0 16 18 8 40c-4 12 -4 24 6 40c8 14 -2 26 -14 26c-12 0 -22 -12 -14 -26c10 -16 10 -28 6 -40c-8 -22 -6 -40 8 -40z" class="bx" style="stroke-width:1.5"/>
+<path d="M660 222Q690 236 704 256" class="ln" marker-end="url(#ex-a)"/>
+<rect x="717" y="259" width="14" height="6" rx="3" class="fr" transform="rotate(20 724 262)"/>
+<rect x="733" y="269" width="14" height="6" rx="3" class="fr" transform="rotate(-30 740 272)"/>
+<rect x="711" y="277" width="14" height="6" rx="3" class="fr" transform="rotate(60 718 280)"/>
+<rect x="729" y="251" width="14" height="6" rx="3" class="fr" transform="rotate(10 736 254)"/>
+<text x="700" y="298" text-anchor="middle" class="ts">感染處</text>
+<g transform="translate(18 236)"><circle cx="6" cy="0" r="3" class="fr"/><text x="16" y="4" class="ts">醣類（selectin 的配體）</text><circle cx="6" cy="20" r="3.4" class="fv"/><text x="16" y="24" class="ts">chemokine</text><path d="M4 34v8M8 34v8" class="lg" style="stroke-width:1.6"/><text x="16" y="44" class="ts">integrin ↔ ICAM</text></g>
+<text x="250" y="262" class="ts">口訣 <tspan class="tb" style="fill:var(--ink)">S → C → I</tspan>：Selectin → Chemokine → Integrin（考古選項順序常被打亂）</text>
+</svg>

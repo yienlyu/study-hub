@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" role="img" aria-label="補體三條活化路徑：古典與凝集素路徑產生 C4b2a，替代路徑產生 C3bBb，兩者皆為 C3 convertase，切 C3 產生 C3a 與 C3b，再形成 C5 convertase，最後組成 MAC">
+<defs><marker id="cp-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="cp-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="cp-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="cp-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<g class="hot" data-tip="<b>C1q</b> 結合抗原或 <b>Ag–Ab 複合體</b>（IgM 最強；IgG1–3）。IgA、IgD、IgE 不活化補體。酵素為 <b>C1qr₂s₂</b>。" data-label="Classical 古典路徑"><text x="110" y="24" text-anchor="middle" class="tb">Classical</text></g>
+<text x="110" y="40" text-anchor="middle" class="ts">古典路徑</text>
+<rect x="18" y="50" width="184" height="44" rx="10" class="bx"/><text x="110" y="68" text-anchor="middle">Ag–Ab 複合體</text><text x="110" y="85" text-anchor="middle" class="ts">IgM、IgG1–3</text>
+<path d="M110 94V104" class="ln"/><text x="110" y="120" text-anchor="middle" class="tb" style="font-size:12px">C1q r₂s₂</text><text x="110" y="136" text-anchor="middle" class="ts">切 C4 → C4b、C2 → C2a</text>
+<g class="hot" data-tip="<b>MBL</b>（功能像 C1q，是 acute phase protein，只接病原不接宿主）結合 mannose/fucose；ficolin 結合 acetylated sugars。酵素為 <b>MASP-1、MASP-2</b>。機制與 <b>classical 較像</b>（不是 alternative）。" data-label="Lectin 凝集素路徑"><text x="340" y="24" text-anchor="middle" class="tb">Lectin</text></g>
+<text x="340" y="40" text-anchor="middle" class="ts">凝集素路徑</text>
+<rect x="248" y="50" width="184" height="44" rx="10" class="bx"/><text x="340" y="68" text-anchor="middle">MBL / ficolin</text><text x="340" y="85" text-anchor="middle" class="ts">病原表面 mannose、fucose</text>
+<path d="M340 94V104" class="ln"/><text x="340" y="120" text-anchor="middle" class="tb" style="font-size:12px">MASP-1、MASP-2</text><text x="340" y="136" text-anchor="middle" class="ts">切 C4、C2（同 classical）</text>
+<g class="hot" data-tip="C3 自發水解成 C3(H₂O)，或 C3b 黏上病原表面 → 結合 <b>factor B</b> → <b>factor D</b> 切 B → <b>C3bBb</b>。<b>不需要抗體</b>；是 positive feedback loop。第一個被活化的是 C3（C4 只出現在 classical / lectin）。" data-label="Alternative 替代路徑"><text x="610" y="24" text-anchor="middle" class="tb">Alternative</text></g>
+<text x="610" y="40" text-anchor="middle" class="ts">替代路徑</text>
+<rect x="518" y="50" width="184" height="44" rx="10" class="bx"/><text x="610" y="68" text-anchor="middle">C3(H₂O) 或 C3b</text><text x="610" y="85" text-anchor="middle" class="ts">自發水解、黏上病原表面</text>
+<path d="M610 94V104" class="ln"/><text x="610" y="120" text-anchor="middle" class="tb" style="font-size:12px">Factor B、Factor D</text><text x="610" y="136" text-anchor="middle" class="ts">C3b + B →（D 切）→ C3bBb</text>
+<path d="M110 142V156Q110 166 150 172" class="ln" marker-end="url(#cp-a)"/><path d="M340 142V156Q340 166 300 172" class="ln" marker-end="url(#cp-a)"/>
+<rect x="152" y="160" width="146" height="36" rx="10" class="bv"/><text x="225" y="183" text-anchor="middle" class="tb tv">C4b2a</text>
+<path d="M610 142V158" class="ln" marker-end="url(#cp-a)"/>
+<rect x="537" y="160" width="146" height="36" rx="10" class="bv"/><text x="610" y="183" text-anchor="middle" class="tb tv">C3bBb</text>
+<g class="hot" data-tip="C3 convertase 是三條路徑的<b>第一個會合點</b>（C3 是共同成分）。<br>Classical / Lectin：<b>C4b2a</b>；Alternative：<b>C3bBb</b>（C3(H₂O)Bb 很短命）。" data-label="C3 convertase"><text x="418" y="176" text-anchor="middle" class="tb">C3 convertase</text><text x="418" y="192" text-anchor="middle" class="ts nou">三條路徑第一會合點</text></g>
+<path d="M260 196Q300 224 388 232" class="ln" marker-end="url(#cp-a)"/><path d="M580 196Q540 224 450 232" class="ln" marker-end="url(#cp-a)"/>
+<circle cx="419" cy="234" r="22" class="bx" style="stroke-width:1.6"/><text x="419" y="239" text-anchor="middle" class="tb">C3</text>
+<path d="M397 234H300" class="lr" marker-end="url(#cp-ar)"/>
+<g class="hot" data-tip="小分子、易擴散 → 經 C3aR 引起<b>發炎、趨化</b>（anaphylatoxin）。" data-label="C3a"><text x="292" y="239" text-anchor="end" class="tb tr">C3a</text></g>
+<path d="M441 234H536" class="lv" marker-end="url(#cp-av)"/>
+<g class="hot" data-tip="大片段，黏在病原表面 → 被吞噬細胞的 CR 辨識 → <b>調理作用 opsonization</b>（iC3b、C4b 也可以）。<br>C3b 再與 factor B 結合 → 更多 C3bBb（<b>放大迴路</b>）；加入 C3 convertase → C5 convertase。" data-label="C3b"><text x="544" y="239" class="tb tv">C3b</text></g>
+<path d="M578 234H640Q660 234 660 214V200" class="lv dash" marker-end="url(#cp-av)"/><text x="668" y="226" class="ts" style="fill:var(--violet)">放大迴路</text>
+<path d="M419 256V276" class="ln" marker-end="url(#cp-a)"/><text x="428" y="270" class="ts">＋C3b</text>
+<rect x="300" y="278" width="238" height="36" rx="10" class="bx" style="stroke-width:1.5"/>
+<g class="hot" data-tip="第二個會合點。Classical / Lectin：<b>C4b2a3b</b>；Alternative：<b>C3bBb3b</b>。" data-label="C5 convertase"><text x="419" y="301" text-anchor="middle" class="tb">C5 convertase</text></g>
+<text x="550" y="294" class="ts">C4b2a3b（classical / lectin）</text><text x="550" y="310" class="ts">C3bBb3b（alternative）</text>
+<path d="M419 314V332" class="ln" marker-end="url(#cp-a)"/>
+<circle cx="419" cy="352" r="18" class="bx" style="stroke-width:1.6"/><text x="419" y="357" text-anchor="middle" class="tb">C5</text>
+<path d="M401 352H300" class="lr" marker-end="url(#cp-ar)"/>
+<g class="hot" data-tip="小分子，經 C5aR → <b>最強的趨化 / 發炎</b>訊號（anaphylatoxin）。" data-label="C5a"><text x="292" y="357" text-anchor="end" class="tb tr">C5a</text></g>
+<path d="M437 352H470" class="ln" marker-end="url(#cp-a)"/>
+<rect x="472" y="336" width="276" height="34" rx="10" class="bw"/>
+<g class="hot" data-tip="<b>C5b + C6 + C7 + C8 + 多個 C9</b> 在細胞膜上組成孔洞 → 溶解（對 Neisseria 特別重要）。" data-label="MAC 膜攻擊複合體"><text x="486" y="358" class="tb" style="fill:var(--warn)">MAC</text></g>
+<text x="524" y="358" class="ts" style="fill:var(--ink-2)">C5b · C6 · C7 · C8 · C9ₙ → 打洞溶解</text>
+<g transform="translate(20 236)"><text x="0" y="0" class="th">三大功能</text><rect x="0" y="12" width="10" height="10" rx="2" class="fv"/><text x="16" y="21" class="ts">調理：C3b（C4b）</text><rect x="0" y="32" width="10" height="10" rx="2" class="fr"/><text x="16" y="41" class="ts">發炎趨化：C3a、C5a</text><rect x="0" y="52" width="10" height="10" rx="2" class="fw"/><text x="16" y="61" class="ts">溶解：MAC</text><text x="0" y="90" class="ts">⚠ Neutralization 是抗體的</text><text x="0" y="106" class="ts">功能，不是補體</text></g>
+</svg>

@@ -6,29 +6,182 @@
   "description": "細菌學總論、免疫學基礎、各論細菌與真菌。整合 2026 上課 slides、113 共筆與 113/111 考古。",
   "color": "#2f7d6d",
   "icon": "🦠",
-  "questionFiles": ["data/questions-kaogu.json", "data/questions-new.json", "data/questions-class.json"],
+  "questionFiles": [
+    "data/questions-kaogu.json",
+    "data/questions-new.json",
+    "data/questions-class.json"
+  ],
   "groups": [
-    {"title": "細菌學總論（黃姿雯）", "chapters": ["bact-structure", "bact-genetics", "sterilization", "pathogenesis"]},
-    {"title": "免疫學（陳玫潔、李岳倫）", "chapters": ["immuno-basic", "innate", "agab", "mhc", "tcell-dev", "tcell-act", "infection-immunity", "hypersensitivity"]},
-    {"title": "細菌與真菌各論（鍾筱菁）", "chapters": ["staph-strep", "enterobacteriaceae", "bacillus", "neisseria", "fungi"]}
+    {
+      "title": "細菌學總論（黃姿雯）",
+      "chapters": [
+        "bact-structure",
+        "bact-genetics",
+        "sterilization",
+        "pathogenesis"
+      ]
+    },
+    {
+      "title": "免疫學（陳玫潔、李岳倫）",
+      "chapters": [
+        "immuno-basic",
+        "innate",
+        "agab",
+        "mhc",
+        "tcell-dev",
+        "tcell-act",
+        "infection-immunity",
+        "hypersensitivity"
+      ]
+    },
+    {
+      "title": "細菌與真菌各論（鍾筱菁）",
+      "chapters": [
+        "staph-strep",
+        "enterobacteriaceae",
+        "bacillus",
+        "neisseria",
+        "fungi"
+      ]
+    }
   ],
   "chapters": [
-    {"id": "bact-structure", "title": "細菌簡介、分類、構造與代謝", "en": "Bacterial structure, classification & metabolism", "teacher": "黃姿雯", "week": "W1-1", "slides": true},
-    {"id": "bact-genetics", "title": "細菌遺傳與生物技術", "en": "Bacterial genetics & biotechnology", "teacher": "黃姿雯", "week": "W1-2", "slides": true},
-    {"id": "sterilization", "title": "滅菌、消毒與防腐", "en": "Sterilization, disinfection & antisepsis", "teacher": "黃姿雯", "week": "W1-2", "slides": true},
-    {"id": "pathogenesis", "title": "細菌致病機轉", "en": "Mechanisms of bacterial pathogenesis", "teacher": "黃姿雯", "week": "W1–W3", "slides": true},
-    {"id": "immuno-basic", "title": "免疫學基本概念", "en": "Basic concepts in immunology", "teacher": "陳玫潔", "week": "W2-1", "slides": true},
-    {"id": "innate", "title": "先天免疫", "en": "Innate immunity", "teacher": "李岳倫", "week": "W2-2", "slides": true},
-    {"id": "agab", "title": "抗原、抗體與抗體多樣性", "en": "Antigen, antibody & antibody diversity", "teacher": "李岳倫", "week": "W3-1", "slides": true},
-    {"id": "mhc", "title": "MHC、抗原處理與呈現", "en": "MHC, antigen processing & presentation", "teacher": "陳玫潔", "week": "W4-1", "slides": true},
-    {"id": "tcell-dev", "title": "T 細胞發育與抗原辨識", "en": "T cell development & antigen recognition", "teacher": "陳玫潔", "week": "未上", "slides": false},
-    {"id": "tcell-act", "title": "T 細胞活化與免疫細胞合作", "en": "T cell activation & cell cooperation", "teacher": "陳玫潔", "week": "未上", "slides": false},
-    {"id": "infection-immunity", "title": "對抗感染的免疫反應", "en": "Immune response against infectious agents", "teacher": "林秋烽", "week": "未上", "slides": false},
-    {"id": "hypersensitivity", "title": "過敏反應", "en": "Hypersensitivity", "teacher": "—", "week": "未上", "slides": false},
-    {"id": "staph-strep", "title": "葡萄球菌、鏈球菌、腸球菌", "en": "Staphylococcus, Streptococcus & Enterococcus", "teacher": "鍾筱菁", "week": "未上", "slides": false},
-    {"id": "enterobacteriaceae", "title": "腸桿菌科", "en": "Enterobacteriaceae", "teacher": "鍾筱菁", "week": "未上", "slides": false},
-    {"id": "bacillus", "title": "Bacillus、Listeria、Corynebacterium", "en": "Bacillus, Listeria & Corynebacterium", "teacher": "鍾筱菁", "week": "未上", "slides": false},
-    {"id": "neisseria", "title": "Neisseria、Helicobacter、Pseudomonas、Vibrio", "en": "Neisseria, Helicobacter, Pseudomonas, Vibrio", "teacher": "鍾筱菁", "week": "未上", "slides": false},
-    {"id": "fungi", "title": "真菌構造與黴菌病", "en": "Fungal structure & mycosis", "teacher": "鍾筱菁", "week": "未上", "slides": false}
-  ]
+    {
+      "id": "bact-structure",
+      "title": "細菌簡介、分類、構造與代謝",
+      "en": "Bacterial structure, classification & metabolism",
+      "teacher": "黃姿雯",
+      "week": "W1-1",
+      "slides": true
+    },
+    {
+      "id": "bact-genetics",
+      "title": "細菌遺傳與生物技術",
+      "en": "Bacterial genetics & biotechnology",
+      "teacher": "黃姿雯",
+      "week": "W1-2",
+      "slides": true
+    },
+    {
+      "id": "sterilization",
+      "title": "滅菌、消毒與防腐",
+      "en": "Sterilization, disinfection & antisepsis",
+      "teacher": "黃姿雯",
+      "week": "W1-2",
+      "slides": true
+    },
+    {
+      "id": "pathogenesis",
+      "title": "細菌致病機轉",
+      "en": "Mechanisms of bacterial pathogenesis",
+      "teacher": "黃姿雯",
+      "week": "W1–W3",
+      "slides": true
+    },
+    {
+      "id": "immuno-basic",
+      "title": "免疫學基本概念",
+      "en": "Basic concepts in immunology",
+      "teacher": "陳玫潔",
+      "week": "W2-1",
+      "slides": true
+    },
+    {
+      "id": "innate",
+      "title": "先天免疫",
+      "en": "Innate immunity",
+      "teacher": "李岳倫",
+      "week": "W2-2",
+      "slides": true
+    },
+    {
+      "id": "agab",
+      "title": "抗原、抗體與抗體多樣性",
+      "en": "Antigen, antibody & antibody diversity",
+      "teacher": "李岳倫",
+      "week": "W3-1",
+      "slides": true
+    },
+    {
+      "id": "mhc",
+      "title": "MHC、抗原處理與呈現",
+      "en": "MHC, antigen processing & presentation",
+      "teacher": "陳玫潔",
+      "week": "W4-1",
+      "slides": true
+    },
+    {
+      "id": "tcell-dev",
+      "title": "TCR、T 細胞發育與訊息傳遞",
+      "en": "TCR, T cell development & TCR signaling",
+      "teacher": "陳玫潔",
+      "week": "W4-2",
+      "slides": true
+    },
+    {
+      "id": "tcell-act",
+      "title": "T 細胞活化與免疫細胞合作",
+      "en": "T cell activation & cell cooperation",
+      "teacher": "陳玫潔",
+      "week": "未上",
+      "slides": false
+    },
+    {
+      "id": "infection-immunity",
+      "title": "對抗感染的免疫反應",
+      "en": "Immune response against infectious agents",
+      "teacher": "林秋烽",
+      "week": "未上",
+      "slides": false
+    },
+    {
+      "id": "hypersensitivity",
+      "title": "過敏反應",
+      "en": "Hypersensitivity",
+      "teacher": "—",
+      "week": "未上",
+      "slides": false
+    },
+    {
+      "id": "staph-strep",
+      "title": "葡萄球菌、鏈球菌、腸球菌",
+      "en": "Staphylococcus, Streptococcus & Enterococcus",
+      "teacher": "鍾筱菁",
+      "week": "未上",
+      "slides": false
+    },
+    {
+      "id": "enterobacteriaceae",
+      "title": "腸桿菌科",
+      "en": "Enterobacteriaceae",
+      "teacher": "鍾筱菁",
+      "week": "未上",
+      "slides": false
+    },
+    {
+      "id": "bacillus",
+      "title": "Bacillus、Listeria、Corynebacterium",
+      "en": "Bacillus, Listeria & Corynebacterium",
+      "teacher": "鍾筱菁",
+      "week": "未上",
+      "slides": false
+    },
+    {
+      "id": "neisseria",
+      "title": "Neisseria、Helicobacter、Pseudomonas、Vibrio",
+      "en": "Neisseria, Helicobacter, Pseudomonas, Vibrio",
+      "teacher": "鍾筱菁",
+      "week": "未上",
+      "slides": false
+    },
+    {
+      "id": "fungi",
+      "title": "真菌構造與黴菌病",
+      "en": "Fungal structure & mycosis",
+      "teacher": "鍾筱菁",
+      "week": "未上",
+      "slides": false
+    }
+  ],
+  "sheet": "content/_sheet.md"
 }

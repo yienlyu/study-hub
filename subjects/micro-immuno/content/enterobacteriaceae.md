@@ -35,6 +35,8 @@
 | **EAEC** | 孩童水瀉、無發燒 | AAF | EAST（類 STa） | 聚集 |
 | **AIEC** | 與 **Crohn's disease** 相關 | — | 胞內繁殖 | — |
 
+<div data-fig="ecoli-pathotypes"></div>
+
 - K1 *E. coli* → 新生兒腦膜炎。
 - 不同腹瀉型態主要取決於**毒力因子**。
 - ↑cAMP 的毒素：**ETEC LT、cholera toxin、B. anthracis edema toxin、B. cereus 腹瀉型、pertussis toxin**；**Shiga toxin 不同（抑制蛋白合成）**。

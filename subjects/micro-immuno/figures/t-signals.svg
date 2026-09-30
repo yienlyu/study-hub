@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 378" role="img" aria-label="免疫突觸與 T 細胞活化三訊號：LFA-1 與 ICAM-1 黏附；訊號一為 TCR 辨識 MHC 與 peptide，經 Lck、ITAM、ZAP-70 活化 NFAT、AP-1、NF-κB 轉錄 IL-2；訊號二為 CD28 與 B7；CTLA-4 與 PD-1 為抑制性受體；訊號三為 cytokine">
+<defs><marker id="ts-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="ts-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="ts-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="ts-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<rect x="-20" y="30" width="190" height="344" rx="28" class="fp"/><rect x="250" y="30" width="520" height="344" rx="28" class="bx" style="stroke:none;fill:color-mix(in srgb, var(--violet) 5%, var(--card))"/>
+<path d="M170 44V360" class="ln" style="stroke-width:2"/><path d="M250 44V360" class="ln" style="stroke-width:2"/>
+<text x="24" y="22" class="tb">APC</text><text x="60" y="22" class="ts">（DC 等）</text><text x="258" y="22" class="tb">T 細胞</text><text x="310" y="22" class="ts">naïve CD4⁺</text>
+<path d="M170 62H206" class="ln" style="stroke-width:3"/><circle cx="210" cy="62" r="5" class="fm"/>
+<path d="M250 58H218M250 66H218" class="lg" style="stroke-width:2.6"/>
+<text x="160" y="66" text-anchor="end" class="ts">ICAM-1</text>
+<g class="hot" data-tip="<b>LFA-1</b>（CD11a:CD18 integrin）↔ <b>ICAM-1</b>（CD54）、ICAM-2；<b>CD2 ↔ CD58</b>。先黏住，讓 T 細胞有時間檢查 pMHC；TCR 辨識抗原後 LFA-1 構型改變、親和力上升。" data-label="黏附分子"><text x="258" y="66" class="tb" style="font-size:12px">LFA-1</text></g>
+<text x="330" y="66" class="ts">黏附：CD2 ↔ CD58 也參與；讓兩個細胞接觸得夠久（突觸周邊）</text>
+<path d="M170 108H196M170 128H196" class="lv" style="stroke-width:3"/><rect x="196" y="102" width="12" height="32" rx="4" class="bv"/><rect x="206" y="111" width="6" height="14" rx="2" class="fw"/>
+<path d="M250 110H222M250 126H222" class="ln" style="stroke-width:3"/><rect x="214" y="104" width="10" height="28" rx="4" class="bx" style="stroke-width:1.5"/>
+<rect x="236" y="87" width="16" height="10" rx="4" class="fm"/>
+<rect x="236" y="139" width="16" height="10" rx="4" class="fm"/>
+<path d="M250 158H214Q204 158 202 136" class="lr" style="stroke-width:2.4"/>
+<text x="160" y="116" text-anchor="end" class="ts">MHC II</text><text x="160" y="131" text-anchor="end" class="ts" style="fill:var(--warn)">+ peptide</text>
+<circle cx="210" cy="84" r="10" class="fv"/><text x="210" y="88" text-anchor="middle" class="tw tb" style="font-size:11px">1</text>
+<g class="hot" data-tip="<b>Signal ①（抗原專一）</b>：TCR 辨識 self MHC 上的 peptide。TCR 本身不能傳訊，靠 <b>CD3（γ、δ、ε₂）與 ζ₂</b> 上的 <b>ITAM</b>。" data-label="Signal 1"><text x="258" y="122" class="tb" style="font-size:12px">TCR–CD3</text></g>
+<text x="258" y="162" class="ts" style="fill:var(--safranin)">CD4 → 接 MHC II β2、帶 Lck</text>
+<rect x="336" y="101" width="40" height="26" rx="8" class="bx"/><text x="356.0" y="118" text-anchor="middle" class="tb" style="font-size:11.5px">Lck</text>
+<path d="M378 114H389" class="ln" marker-end="url(#ts-a)"/>
+<rect x="392" y="101" width="84" height="26" rx="8" class="bx"/><text x="434.0" y="118" text-anchor="middle" class="tb" style="font-size:11.5px">CD3/ζ ITAM</text>
+<path d="M478 114H489" class="ln" marker-end="url(#ts-a)"/>
+<rect x="492" y="101" width="56" height="26" rx="8" class="bx"/><text x="520.0" y="118" text-anchor="middle" class="tb" style="font-size:11.5px">ZAP-70</text>
+<path d="M550 114H561" class="ln" marker-end="url(#ts-a)"/>
+<rect x="564" y="101" width="116" height="26" rx="8" class="bx"/><text x="622.0" y="118" text-anchor="middle" class="tb" style="font-size:11.5px">NFAT·AP-1·NF-κB</text>
+<path d="M682 114H693" class="ln" marker-end="url(#ts-a)"/>
+<rect x="696" y="101" width="46" height="26" rx="8" class="bw"/><text x="719.0" y="118" text-anchor="middle" class="tb" style="font-size:11.5px">IL-2</text>
+<text x="548" y="95" text-anchor="middle" class="ts">PLC-γ、Ca²⁺、Ras</text>
+<g class="hot" data-tip="CD4/CD8 帶的 <b>Lck</b> 磷酸化 CD3 與 ζ 鏈上的 <b>ITAM</b> → <b>ZAP-70</b> 結合磷酸化的 ITAM 並被活化 → PLC-γ、Ca²⁺、Ras → 轉錄因子 <b>NFAT、AP-1、NF-κB</b> → <b>IL-2</b> 基因轉錄。" data-label="Signal 1 訊號路徑"><text x="336" y="144" class="ts">訊號路徑</text></g>
+<path d="M170 202H204" class="lv" style="stroke-width:3"/><circle cx="206" cy="202" r="5.5" class="fv"/>
+<path d="M250 202H222" class="lg" style="stroke-width:3"/><path d="M222 202l-8 -7M222 202l-8 7" class="lg" style="stroke-width:2.6"/>
+<text x="160" y="206" text-anchor="end" class="ts">B7（CD80/86）</text>
+<g class="hot" data-tip="<b>Signal ②（共刺激 = 存活）</b>：CD28 ↔ B7 → 誘導 <b>IL-2</b> 與高親和力 IL-2 受體 <b>CD25</b> → 增殖、存活。<br>沒有 Signal ② → <b>anergy</b>。其他共刺激：ICOS、CD40–CD40L、4-1BB、OX40（TNFR superfamily）。" data-label="Signal 2"><text x="258" y="206" class="tb" style="font-size:12px">CD28</text></g>
+<text x="330" y="206" class="ts">IL-2、CD25（IL-2Rα）↑ → 增殖存活；沒有 ② → anergy</text>
+<circle cx="210" cy="182" r="10" class="fv"/><text x="210" y="186" text-anchor="middle" class="tw tb" style="font-size:11px">2</text>
+<path d="M170 246H204" class="lv" style="stroke-width:3"/><circle cx="206" cy="246" r="5.5" class="fv"/>
+<path d="M250 246H222" class="lr" style="stroke-width:3"/><path d="M222 246l-8 -7M222 246l-8 7" class="lr" style="stroke-width:2.6"/>
+<text x="160" y="250" text-anchor="end" class="ts">B7</text>
+<g class="hot" data-tip="<b>CTLA-4（CD152）</b>對 B7 的親和力比 CD28 高 <b>20 倍以上</b> → 搶走 B7、關掉活化。2018 諾貝爾（James Allison）。" data-label="CTLA-4 抑制"><text x="258" y="250" class="tb" style="font-size:12px">CTLA-4</text></g>
+<text x="330" y="250" class="ts">親和力比 CD28 高 >20× → 搶走 B7、關閉活化</text>
+<path d="M170 290H204" class="lr" style="stroke-width:3"/><circle cx="206" cy="290" r="5.5" class="fr"/>
+<path d="M250 290H222" class="lr" style="stroke-width:3"/><path d="M222 290l-8 -7M222 290l-8 7" class="lr" style="stroke-width:2.6"/>
+<text x="160" y="294" text-anchor="end" class="ts">PD-L1</text>
+<g class="hot" data-tip="<b>PD-1</b> ↔ PD-L1 → 抑制 T 細胞；腫瘤表現 PD-L1 來躲避免疫。2018 諾貝爾（本庶佑）→ immune checkpoint blockade。" data-label="PD-1 抑制"><text x="258" y="294" class="tb" style="font-size:12px">PD-1</text></g>
+<text x="330" y="294" class="ts">抑制 T 細胞；腫瘤藉 PD-L1 躲避 → 檢查點抑制劑</text>
+<circle cx="184" cy="337" r="3.4" class="fw"/>
+<circle cx="198" cy="343" r="3.4" class="fw"/>
+<circle cx="212" cy="337" r="3.4" class="fw"/>
+<circle cx="226" cy="343" r="3.4" class="fw"/>
+<path d="M180 352H244" class="ln" marker-end="url(#ts-a)" style="stroke-width:1.2"/>
+<text x="160" y="344" text-anchor="end" class="ts">IL-12、IL-6…</text>
+<circle cx="210" cy="318" r="10" class="fw"/><text x="210" y="322" text-anchor="middle" class="tw tb" style="font-size:11px">3</text>
+<g class="hot" data-tip="<b>Signal ③（分化）</b>：APC 分泌的 cytokine 決定 T 細胞往哪個方向分化（IL-12 → TH1、IL-4 → TH2、TGF-β + IL-6 → TH17…）。" data-label="Signal 3"><text x="258" y="344" class="tb" style="font-size:12px">Cytokine R</text></g>
+<text x="330" y="344" class="ts">決定分化方向（TH1 / TH2 / TH17 / Treg…，見 T 細胞活化章）</text>
+<text x="330" y="362" class="ts" style="fill:var(--ink-2)">Effector T 細胞之後只要 Signal ① 就能作用（CTL 殺感染細胞不需要 B7）</text>
+</svg>

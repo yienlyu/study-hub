@@ -16,6 +16,8 @@
 - 黏膜共生菌：平時 at-RA → pTreg；感染時 IL-6 → TH17。
 - **IL-2**：T 細胞生長因子（自分泌），促 TH 增殖成熟。
 
+<div data-fig="th-subsets"></div>
+
 ## 2. CD8 CTL
 - 活化：DC 直接（大量 B7）或 CD4 幫助 DC（**cross-priming**、CD40L、IL-2、4-1BB）。
 - 在周邊只需 Signal 1；殺完立刻找下一個（serial killing）。
@@ -49,12 +51,16 @@
 | IL-21 | IgG3、IgG1、IgA |
 | **IL-5** | IgG1、**IgA** |
 
+<div data-fig="class-switch"></div>
+
 ## 6. X-linked hyper-IgM syndrome
 - **CD40L（CD154）缺陷**（T 細胞上）→ 無法 class switch → IgM 正常或升高、IgG/IgA/IgE 低；CD4 T 細胞數目**正常**；易反覆感染，亦可有自體免疫。
 
 ## 7. 抗體反應
 - Primary：lag → log（先 IgM 後 IgG）→ plateau → decline。
 - Secondary：lag 短、**IgG 為主**、親和力持續上升。
+
+<div data-fig="ab-response"></div>
 
 === slides ===
 # 上課 slides

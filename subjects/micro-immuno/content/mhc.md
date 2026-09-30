@@ -8,6 +8,11 @@
 - 人類 MHC = **HLA（第 6 號染色體）**；小鼠 = **H-2（第 17 號）**。
 - TCR 看 peptide 中間 + 周圍 MHC（大亨堡比喻）。
 
+<div data-fig="mhc-restriction"></div>
+
+<div data-fig="mhc-dual"></div>
+
+
 ## 2. MHC I vs MHC II ⭐⭐
 | | **MHC class I** | **MHC class II** |
 |---|---|---|
@@ -18,6 +23,8 @@
 | 辨識 T 細胞 | **CD8⁺ Tc**（CD8 結合 **α3**） | **CD4⁺ TH**（CD4 結合 **β2**） |
 | 表現 | **所有有核細胞**（紅血球沒有） | **APC**（DC、macrophage、B）、胸腺上皮 |
 | 基因 | **HLA-A、-B、-C** | **HLA-DP、-DQ、-DR**（A=α、B=β） |
+
+<div data-fig="mhc-structure"></div>
 
 > Class III 區域不是 MHC 分子，而是補體（factor B、C2、C4）與 **TNF、LT-α** 等。
 
@@ -42,6 +49,9 @@
 | **紅血球** | **−** | **−** |
 
 ## 5. 抗原處理與呈現 ⭐⭐
+
+<div data-fig="pathogen-compartments"></div>
+
 ### MHC I 路徑（cytosolic / endogenous）
 1. 細胞質蛋白（含 **DRiPs**）經 **ubiquitin–proteasome** 切成短 peptide（IFN-γ 誘導 immunoproteasome：**LMP2、LMP7**）。
 2. **TAP-1 / TAP-2**（ER 膜上的 **ATP-dependent** 運輸蛋白；偏好 8–16 aa、C 端疏水或鹼性；基因在 MHC 區、受 IFN 誘導）送入 ER。
@@ -53,7 +63,12 @@
 2. MHC II 在 ER 與 **invariant chain（Ii）** 結合（防止在 ER 裝載內源 peptide、導向 endosome）。
 3. 在 late endosome（**MIIC**）Ii 被切到剩 **CLIP** 佔住結合槽。
 4. **HLA-DM** 催化 CLIP 離開、換上抗原 peptide；**HLA-DO** 抑制 HLA-DM。
+
+<div data-fig="clip-hla-dm"></div>
+
 5. 表現於細胞膜 → CD4 T 細胞辨識。
+
+<div data-fig="mhc-pathways"></div>
 
 ### 例外路徑
 - **Cross-presentation**：**DC** 把外源抗原放上 **MHC I**（活化 CD8）。

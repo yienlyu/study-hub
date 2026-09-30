@@ -11,6 +11,8 @@
 - TCR 像一個**膜上的 Fab 片段**：α（40–50 kDa）、β（35–47 kDa），各有 V、C domain；V 上有 CDR1、2、3，**CDR3 位在抗原結合位中央、最多變**，負責接 MHC 槽裡的 peptide。
 - **Co-receptor CD4 / CD8**：結合 MHC、增加 avidity，並帶 **Lck** 參與訊息傳遞。
 
+<div data-fig="tcr-cd3"></div>
+
 ## 2. TCR 基因
 | | α 鏈 | β 鏈 | γ 鏈 | δ 鏈 |
 |---|---|---|---|---|
@@ -54,6 +56,9 @@
 - 胸腺結構：**皮質**（未成熟 thymocyte、cTEC、macrophage）→ **皮髓交界** → **髓質**（成熟 thymocyte、mTEC、DC、macrophage）。
 - 前驅細胞從**皮髓交界的小靜脈**進入，往**被膜下（subcapsular）**移動，再往髓質走。
 
+<div data-fig="thymus-zones"></div>
+
+
 ### 發育階段（CD 標記）
 | 階段 | 標記 | 位置 / 事件 |
 |---|---|---|
@@ -77,11 +82,17 @@
 
 - **Positive selection 決定 CD4 / CD8 命運**：TCR 辨識 cTEC 上的 **MHC II → CD4⁺ 成熟**；辨識 **MHC I → CD8⁺ 成熟**（co-receptor 與 TCR 辨識同一種 MHC，Lck 訊號才夠強）。
 
+<div data-fig="thymus-selection"></div>
+
+<div data-fig="positive-selection"></div>
+
 ## 6. TCR 訊息傳遞與 T 細胞活化 ⭐⭐
 ### Immunological synapse
 - 中心：**TCR、co-receptor**；周圍：**黏附分子**。
 - 初始黏附：**LFA-1（CD11a:CD18 integrin）↔ ICAM-1（CD54）、ICAM-2（CD102）**；**CD2 ↔ CD58**。TCR 辨識抗原後，LFA-1 構型改變、親和力增加。
 - 不同的 selectin 與 integrin 讓淋巴球進入不同淋巴組織（naïve T 以 **L-selectin** 經 HEV 進淋巴結）。
+
+<div data-fig="t-signal-summary"></div>
 
 ### 三種訊號
 | 訊號 | 分子 | 作用 |
@@ -91,8 +102,13 @@
 | **Signal ②** 共刺激（**存活**） | **CD28 ↔ B7（CD80/CD86）** | 沒有 → **anergy** |
 | **Signal ③** 細胞激素（**分化**） | IL-1、IL-2 / **CD25（IL-2Rα）** 等 | 決定分化方向 |
 
+<div data-fig="t-signals"></div>
+
 ### Signal ① 路徑
 **CD4/CD8 帶 Lck → Lck 磷酸化 CD3 與 ζ 的 ITAM → ZAP-70 結合 ζ 上磷酸化的 ITAM 並被活化 → 下游（PLC-γ、Ca²⁺、Ras）→ 轉錄因子 NFAT、AP-1、NF-κB → IL-2 基因轉錄**。
+
+<div data-fig="lck-zap70"></div>
+
 
 ### Signal ② 共刺激
 - **CD28–B7**：誘導 **IL-2** 與**高親和力 IL-2 受體（CD25）** 表現 → 增殖存活。
@@ -102,7 +118,12 @@
   - **CTLA-4（CD152）**：對 B7 的親和力比 CD28 **高 20 倍以上**，搶走 B7 → 關掉活化。
   - **PD-1**：與 PD-L1 結合抑制 T 細胞；腫瘤利用它躲避免疫。
   - **2018 諾貝爾**：James Allison（CTLA-4）、Tasuku Honjo（PD-1）→ immune checkpoint blockade。
+
+<div data-fig="checkpoints"></div>
+
 - **Effector T 細胞不再需要共刺激**：活化分化後只需 Signal ① 就能作用（所以 CTL 在周邊組織殺感染細胞不需要 B7）。
+
+<div data-fig="effector-no-costim"></div>
 
 === slides ===
 # W4-2 上課 slides 重點：TCR、T development、TCR signaling（陳玫潔，2026/9/30）

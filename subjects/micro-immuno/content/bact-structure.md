@@ -45,6 +45,8 @@
   - **Genotype（最精準）**：DNA hybridization、PCR、**16S rRNA 定序**
 - 排列：diplococci（成對）、streptococci（鏈狀）、staphylococci（葡萄串）。
 
+<div data-fig="bact-shapes"></div>
+
 ## 4. 細菌構造總表
 
 | 構造 | 必有？ | 成分 | 功能 / 考點 |
@@ -60,6 +62,11 @@
 | Axial filament | ❌ | endoflagella | Spirochetes，螺旋推進 |
 | Fimbriae / Pili | ❌ | pilin 蛋白 | **黏附**（fimbriae 較短較多）；**sex pilus → conjugation**（G−） |
 | Endospore | ❌ | 雙層 PDG、dipicolinic acid | **度過惡劣環境**（非繁殖）、代謝極低、不易 Gram 染色 |
+
+<div data-fig="bact-appendages"></div>
+
+<div data-fig="spore"></div>
+
 
 ## 5. 細胞壁：G(+) vs G(−)
 
@@ -80,11 +87,21 @@
   - *Chlamydia*：類 G−、但無 PDG
   - Spheroplast（G− 去壁留外膜）、Protoplast（G+ 完全去壁）、L-form（抗生素誘導）→ 易滲透壓裂解
 
+<div data-fig="cell-wall"></div>
+
+<div data-fig="gram-stain"></div>
+
 ## 6. 生長與代謝
 
 - 生長條件：溫度、**pH 6.5–7.5**、滲透壓、氧、營養（C、N、S、P）。
 - 氧需求：obligate aerobe、facultative anaerobe、**microaerophile（2–10% O₂）**、aerotolerant、obligate anaerobe。需氧菌能在有氧下活，是因為有酵素（catalase、SOD）清除 ROS。
+
+<div data-fig="oxygen"></div>
+
 - **生長曲線**：Lag（不分裂但代謝活躍，非「完全不生長」）→ **Log / Exponential（計算 generation time；對 penicillin 最敏感）** → Stationary → Death。
+
+<div data-fig="growth-curve"></div>
+
 - **Biofilm**：可逆附著 → 分泌 EPS（多醣、蛋白、DNA）→ 成熟；抗 UV 與抗生素。
 - ATP 產生：Substrate-level phosphorylation（細胞質）、**Oxidative phosphorylation（主要；ETC 在細胞膜）**、Photophosphorylation。
 - 1 NADH → 3 ATP；1 FADH₂ → 2 ATP。Aerobic respiration：Glycolysis → TCA → ETC。

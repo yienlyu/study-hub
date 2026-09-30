@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 326" role="img" aria-label="三種水平基因轉移比較：轉型吸收裸露 DNA、接合透過性線毛直接接觸傳遞質體、轉導由噬菌體攜帶宿主 DNA">
+<defs><marker id="hg-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="hg-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="hg-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="hg-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<g class="hot" data-tip="受體菌處於 <b>competent</b> 狀態時，直接吸收環境中的<b>裸露 DNA</b>（死菌釋出），再以同源重組併入染色體。<br>DNA 裸露 → <b>對 DNase / nuclease 敏感</b>。" data-label="Transformation 轉型"><text x="20" y="26" class="tb">Transformation</text><text x="124" y="26" class="ts nou">轉型</text></g>
+<g class="hot" data-tip="供體（F⁺）以 <b>sex pilus</b> 接觸受體（F⁻），複製一股質體 DNA 送過去 → 兩者都變 F⁺。<br><b>抗藥性質體傳遞最重要的途徑</b>（G− 用 sex pilus；G+ 靠黏性物質聚集）。" data-label="Conjugation 接合"><text x="275" y="26" class="tb">Conjugation</text><text x="361" y="26" class="ts nou">接合</text></g>
+<path d="M261 12V300" class="lt dash"/>
+<g class="hot" data-tip="<b>噬菌體</b>在包裝時誤裝宿主 DNA，再把它注入下一隻細菌。<br>Generalized：包到<b>任何</b>片段（lytic）；Specialized：只帶到 prophage <b>嵌入點附近</b>的基因（lysogenic 切出錯誤）。" data-label="Transduction 轉導"><text x="530" y="26" class="tb">Transduction</text><text x="620" y="26" class="ts nou">轉導</text></g>
+<path d="M516 12V300" class="lt dash"/>
+<rect x="20" y="70" width="84" height="50" rx="25" class="bx dash" style="stroke-width:1.5"/><text x="62.0" y="136" text-anchor="middle" class="ts">死亡供體菌</text>
+<path d="M38 88q4 -5 8 0t8 0t8 0" class="lr" style="stroke-width:2.2"/>
+<path d="M60 104q4 -5 8 0t8 0t8 0" class="lr" style="stroke-width:2.2"/>
+<path d="M42 112q4 -5 8 0t8 0t8 0" class="lr" style="stroke-width:2.2"/>
+<path d="M118 72q4 -5 8 0t8 0t8 0" class="lr" style="stroke-width:2.2"/>
+<path d="M124 100q4 -5 8 0t8 0t8 0" class="lr" style="stroke-width:2.2"/>
+<path d="M150 98H170" class="ln" marker-end="url(#hg-a)"/>
+<rect x="170" y="70" width="84" height="50" rx="25" class="bx" style="stroke-width:1.5"/><text x="212.0" y="136" text-anchor="middle" class="ts">competent 受體菌</text>
+<ellipse cx="212" cy="95" rx="20" ry="11" class="ln" style="stroke-width:1.6"/><path d="M200 86.3a20 11 0 0 1 22 -2" class="lr" style="stroke-width:3.2"/>
+<text x="137" y="60" text-anchor="middle" class="ts" style="fill:var(--safranin)">裸露 DNA</text>
+<rect x="275" y="70" width="84" height="50" rx="25" class="bx" style="stroke-width:1.5"/><text x="317.0" y="136" text-anchor="middle" class="ts">F⁺ 供體</text>
+<ellipse cx="309" cy="95" rx="20" ry="11" class="ln" style="stroke-width:1.6"/>
+<circle cx="341" cy="86" r="8" class="lv" style="stroke-width:2.4"/>
+<path d="M359 95H425" class="lv" style="stroke-width:5;stroke-linecap:round;opacity:.35"/>
+<path d="M367 95H421" class="lv" marker-end="url(#hg-av)" style="stroke-width:1.6"/>
+<text x="392" y="116" text-anchor="middle" class="ts" style="fill:var(--violet)">sex pilus</text>
+<rect x="425" y="70" width="84" height="50" rx="25" class="bx" style="stroke-width:1.5"/><text x="467.0" y="136" text-anchor="middle" class="ts">F⁻ 受體 → 變成 F⁺</text>
+<ellipse cx="459" cy="95" rx="20" ry="11" class="ln" style="stroke-width:1.6"/>
+<circle cx="491" cy="86" r="8" class="lv dash" style="stroke-width:2.4"/>
+<text x="341" y="64" text-anchor="middle" class="ts" style="fill:var(--violet)">質體</text>
+<rect x="530" y="110" width="84" height="50" rx="25" class="bx" style="stroke-width:1.5"/><text x="572.0" y="176" text-anchor="middle" class="ts">供體菌</text>
+<ellipse cx="572" cy="135" rx="20" ry="11" class="ln" style="stroke-width:1.6"/>
+<polygon points="647.0,42.0 657.4,48.0 657.4,60.0 647.0,66.0 636.6,60.0 636.6,48.0" class="bx" style="stroke-width:1.6"/><path d="M641 54q3 -4 6 0t6 0" class="lr" style="stroke-width:2"/><path d="M647 66V82M647 82l-7 7M647 82l7 7M647 82V90" class="ln" style="stroke-width:1.6"/>
+<path d="M590 108Q604 70 630 58" class="ln" marker-end="url(#hg-a)"/>
+<path d="M664 58Q690 70 704 108" class="ln" marker-end="url(#hg-a)"/>
+<text x="560" y="70" text-anchor="middle" class="ts">誤包宿主 DNA</text>
+<text x="736" y="70" text-anchor="middle" class="ts">注入</text>
+<rect x="680" y="110" width="84" height="50" rx="25" class="bx" style="stroke-width:1.5"/><text x="722.0" y="176" text-anchor="middle" class="ts">受體菌</text>
+<ellipse cx="722" cy="135" rx="20" ry="11" class="ln" style="stroke-width:1.6"/><path d="M710 126.3a20 11 0 0 1 22 -2" class="lr" style="stroke-width:3.2"/>
+<text x="647" y="112" text-anchor="middle" class="ts">bacteriophage</text>
+<path d="M20 198H254" class="lt"/>
+<text x="20" y="220" class="ts">媒介：環境中的裸露 DNA</text>
+<text x="20" y="244" class="ts"><tspan style="fill:var(--ink-3);font-weight:700">✗</tspan> 不需接觸</text>
+<text x="20" y="266" class="ts"><tspan style="fill:var(--good);font-weight:700">✓</tspan> DNase 可阻斷</text>
+<path d="M275 198H509" class="lt"/>
+<text x="275" y="220" class="ts">媒介：質體＋sex pilus</text>
+<text x="275" y="244" class="ts"><tspan style="fill:var(--good);font-weight:700">✓</tspan> 需要直接接觸</text>
+<text x="275" y="266" class="ts"><tspan style="fill:var(--ink-3);font-weight:700">✗</tspan> DNase 無法阻斷</text>
+<path d="M530 198H764" class="lt"/>
+<text x="530" y="220" class="ts">媒介：噬菌體</text>
+<text x="530" y="244" class="ts"><tspan style="fill:var(--ink-3);font-weight:700">✗</tspan> 不需接觸</text>
+<text x="530" y="266" class="ts"><tspan style="fill:var(--ink-3);font-weight:700">✗</tspan> DNase 無法阻斷</text>
+<path d="M20 294H764" class="lt"/>
+<text x="20" y="316" class="ts"><tspan class="tr" style="font-weight:700">━</tspan> 紅色 = 被轉移、最後併入受體染色體的供體基因（同源重組）</text>
+</svg>

@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 282" role="img" aria-label="Gram 陽性菌與陰性菌細胞壁剖面比較：G+ 有厚肽聚醣與磷壁酸；G− 有外膜、LPS、porin 與周質空間中的薄肽聚醣">
+<defs><marker id="cw-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="cw-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="cw-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="cw-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker>
+<pattern id="cw-pg" width="20" height="12" patternUnits="userSpaceOnUse" x="0" y="70"><path d="M0 6H20" class="lv" style="stroke-width:1.3"/><path d="M10 6V12" class="lv" style="stroke-width:.9"/></pattern>
+<pattern id="cw-bl1" width="10" height="34" patternUnits="userSpaceOnUse" x="0" y="206"><circle cx="5" cy="4.5" r="3.6" class="fk" opacity=".55"/><circle cx="5" cy="29.5" r="3.6" class="fk" opacity=".55"/><path d="M4 8.5v7.5M6 8.5v7.5M4 18v7.5M6 18v7.5" class="ln" style="stroke-width:.8"/></pattern>
+<pattern id="cw-bl2" width="10" height="34" patternUnits="userSpaceOnUse" x="0" y="112"><circle cx="5" cy="4.5" r="3.6" class="fk" opacity=".55"/><circle cx="5" cy="29.5" r="3.6" class="fk" opacity=".55"/><path d="M4 8.5v7.5M6 8.5v7.5M4 18v7.5M6 18v7.5" class="ln" style="stroke-width:.8"/></pattern>
+</defs>
+<circle cx="36" cy="22" r="6" class="fv"/><text x="48" y="27" class="tb">Gram (+)</text><text x="118" y="27" class="ts">厚 PDG 留住結晶紫 → 紫色</text>
+<circle cx="416" cy="22" r="6" class="fr"/><text x="428" y="27" class="tb">Gram (−)</text><text x="498" y="27" class="ts">薄 PDG 被酒精脫色 → 番紅復染成粉紅</text>
+<rect x="30" y="70" width="200" height="136" class="bv"/><rect x="30" y="70" width="200" height="136" fill="url(#cw-pg)"/>
+<path d="M60 214V56" class="ln" style="stroke-width:1.6"/>
+<circle cx="60" cy="200" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="60" cy="186" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="60" cy="172" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="60" cy="158" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="60" cy="144" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="60" cy="130" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="60" cy="116" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="60" cy="102" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="60" cy="88" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="60" cy="74" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="60" cy="60" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="60" cy="55" r="3.3" class="fk"/>
+<path d="M105 160V56" class="ln" style="stroke-width:1.6"/>
+<circle cx="105" cy="146" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="105" cy="132" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="105" cy="118" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="105" cy="104" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="105" cy="90" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="105" cy="76" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="105" cy="62" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="105" cy="55" r="3.3" class="fk"/>
+<path d="M150 214V56" class="ln" style="stroke-width:1.6"/>
+<circle cx="150" cy="200" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="150" cy="186" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="150" cy="172" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="150" cy="158" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="150" cy="144" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="150" cy="130" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="150" cy="116" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="150" cy="102" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="150" cy="88" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="150" cy="74" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="150" cy="60" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="150" cy="55" r="3.3" class="fk"/>
+<path d="M195 160V56" class="ln" style="stroke-width:1.6"/>
+<circle cx="195" cy="146" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="195" cy="132" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="195" cy="118" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="195" cy="104" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="195" cy="90" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="195" cy="76" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="195" cy="62" r="2.3" class="fc" stroke="currentColor" style="stroke:var(--ink-2)"/>
+<circle cx="195" cy="55" r="3.3" class="fk"/>
+<rect x="30" y="206" width="200" height="34" fill="url(#cw-bl1)"/>
+<text x="130" y="266" text-anchor="middle" class="tm">細胞質 cytoplasm</text>
+<path d="M238 56H200" class="lt"/><g class="hot" data-tip="G(+) 獨有、帶負電、具抗原特異性。<br>Lipoteichoic acid（LTA）錨在細胞膜上 → 被 <b>TLR2:TLR6</b> 辨識；wall teichoic acid 接在 PDG 上。" data-label="Teichoic acid"><text x="244" y="60">Teichoic acid</text><text x="244" y="76" class="ts">磷壁酸（G+ 獨有）</text></g>
+<path d="M238 138H231" class="lt"/><g class="hot" data-tip="NAG–NAM 交替，NAM 上接 tetrapeptide；第 3 位（L-Lys / DAP）與第 4 位 D-Ala 交叉連結（transpeptidation，PBPs 催化）。<br>→ β-lactam、vancomycin 的作用點；lysozyme 切 NAG–NAM 的 β-1,4 鍵。" data-label="Peptidoglycan"><text x="244" y="142">Peptidoglycan</text><text x="244" y="158" class="ts">厚、多層</text></g>
+<path d="M238 223H231" class="lt"/><g class="hot" data-tip="所有細菌都有。磷脂雙層、<b>無固醇</b>（以 hopanoids 代替；Mycoplasma 例外含 sterol）。<br>電子傳遞鏈與 ATP 產生處。" data-label="細胞膜 cell membrane"><text x="244" y="227">細胞膜</text><text x="244" y="243" class="ts">磷脂雙層、無固醇</text></g>
+<rect x="410" y="146" width="200" height="60" class="fp"/>
+<rect x="410" y="168" width="200" height="12" class="bv"/><rect x="410" y="168" width="200" height="12" fill="url(#cw-pg)"/>
+<rect x="410" y="112" width="200" height="34" fill="url(#cw-bl2)"/>
+<path d="M418 112V100" class="ln" style="stroke-width:1.4"/><circle cx="418" cy="103" r="3" class="fk"/>
+<circle cx="418" cy="94" r="3.1" class="br"/>
+<circle cx="418" cy="86.5" r="3.1" class="br"/>
+<circle cx="418" cy="79.0" r="3.1" class="br"/>
+<circle cx="418" cy="71.5" r="3.1" class="br"/>
+<circle cx="418" cy="64.0" r="3.1" class="br"/>
+<circle cx="418" cy="116.5" r="4.4" class="fr"/>
+<path d="M442 112V100" class="ln" style="stroke-width:1.4"/><circle cx="442" cy="103" r="3" class="fk"/>
+<circle cx="442" cy="94" r="3.1" class="br"/>
+<circle cx="442" cy="86.5" r="3.1" class="br"/>
+<circle cx="442" cy="116.5" r="4.4" class="fr"/>
+<path d="M466 112V100" class="ln" style="stroke-width:1.4"/><circle cx="466" cy="103" r="3" class="fk"/>
+<circle cx="466" cy="94" r="3.1" class="br"/>
+<circle cx="466" cy="86.5" r="3.1" class="br"/>
+<circle cx="466" cy="79.0" r="3.1" class="br"/>
+<circle cx="466" cy="71.5" r="3.1" class="br"/>
+<circle cx="466" cy="64.0" r="3.1" class="br"/>
+<circle cx="466" cy="116.5" r="4.4" class="fr"/>
+<path d="M538 112V100" class="ln" style="stroke-width:1.4"/><circle cx="538" cy="103" r="3" class="fk"/>
+<circle cx="538" cy="94" r="3.1" class="br"/>
+<circle cx="538" cy="86.5" r="3.1" class="br"/>
+<circle cx="538" cy="79.0" r="3.1" class="br"/>
+<circle cx="538" cy="116.5" r="4.4" class="fr"/>
+<path d="M562 112V100" class="ln" style="stroke-width:1.4"/><circle cx="562" cy="103" r="3" class="fk"/>
+<circle cx="562" cy="94" r="3.1" class="br"/>
+<circle cx="562" cy="86.5" r="3.1" class="br"/>
+<circle cx="562" cy="116.5" r="4.4" class="fr"/>
+<path d="M586 112V100" class="ln" style="stroke-width:1.4"/><circle cx="586" cy="103" r="3" class="fk"/>
+<circle cx="586" cy="94" r="3.1" class="br"/>
+<circle cx="586" cy="86.5" r="3.1" class="br"/>
+<circle cx="586" cy="79.0" r="3.1" class="br"/>
+<circle cx="586" cy="71.5" r="3.1" class="br"/>
+<circle cx="586" cy="64.0" r="3.1" class="br"/>
+<circle cx="586" cy="116.5" r="4.4" class="fr"/>
+<path d="M610 112V100" class="ln" style="stroke-width:1.4"/><circle cx="610" cy="103" r="3" class="fk"/>
+<circle cx="610" cy="94" r="3.1" class="br"/>
+<circle cx="610" cy="86.5" r="3.1" class="br"/>
+<circle cx="610" cy="79.0" r="3.1" class="br"/>
+<circle cx="610" cy="71.5" r="3.1" class="br"/>
+<circle cx="610" cy="116.5" r="4.4" class="fr"/>
+<g class="hot" data-tip="外膜上的<b>蛋白質</b>通道，讓小分子親水物質通過（也是某些抗生素進入 G− 的路徑）。" data-label="Porin"><rect x="491" y="105" width="22" height="46" rx="7" class="bw"/><path d="M502 110V146" class="lt"/><text x="502" y="164" text-anchor="middle" class="ts nou" style="fill:var(--warn)">porin</text></g>
+<path d="M446 146V168" class="ln" style="stroke-width:1.4"/><circle cx="446" cy="146" r="2" class="fw"/>
+<path d="M578 146V168" class="ln" style="stroke-width:1.4"/><circle cx="578" cy="146" r="2" class="fw"/>
+<circle cx="428" cy="194" r="3.4" class="fw"/>
+<circle cx="470" cy="190" r="3.4" class="fw"/>
+<circle cx="530" cy="196" r="3.4" class="fw"/>
+<circle cx="596" cy="191" r="3.4" class="fw"/>
+<rect x="410" y="206" width="200" height="34" fill="url(#cw-bl1)"/>
+<text x="510" y="266" text-anchor="middle" class="tm">細胞質 cytoplasm</text>
+<path d="M618 70H612" class="lt"/><g class="hot" data-tip="LPS 最外段，<b>變異最大</b> → 血清分型（例：E. coli <b>O</b>157:H7 的 O）。" data-label="O-antigen"><text x="624" y="74" class="tr">O-antigen</text></g>
+<path d="M618 100H612" class="lt"/><g class="hot" data-tip="Core polysaccharide，含 KDO；同一菌種相同。" data-label="Core polysaccharide"><text x="624" y="104">Core</text><text x="660" y="104" class="ts">含 KDO</text></g>
+<path d="M618 120H614" class="lt"/><g class="hot" data-tip="<b>內毒素（endotoxin）活性來源</b> → 發燒、休克、DIC。<br>LPS → LPS-binding protein → CD14 → <b>TLR4</b>。只有 G(−) 有 LPS。" data-label="Lipid A"><text x="624" y="124" class="tr tb">Lipid A</text><text x="624" y="140" class="ts">外膜外層</text></g>
+<path d="M618 174H612" class="lt"/><g class="hot" data-tip="外膜與細胞膜之間的周質空間：薄層 PDG（只佔 5–10%）、<b>β-lactamase</b>、protease 等水解酶；Braun lipoprotein 把外膜固定在 PDG 上。" data-label="Periplasmic space"><text x="624" y="178">Periplasm</text><text x="624" y="194" class="ts">薄 PDG、β-lactamase</text></g>
+<path d="M618 223H612" class="lt"/><g class="hot" data-tip="與 G(+) 相同：磷脂雙層、無固醇；ATP 產生處。" data-label="細胞膜 cell membrane"><text x="624" y="227">細胞膜</text></g>
+<path d="M380 44V250" class="lt dash"/>
+</svg>
