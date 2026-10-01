@@ -3,19 +3,15 @@
     "id": "cell-wall",
     "chapter": "bact-structure",
     "title": "G(+) vs G(−) 細胞壁剖面",
-    "topics": [
-      "細胞壁／革蘭氏染色"
-    ],
+    "topics": ["細胞壁／革蘭氏染色"],
     "keywords": "gram positive negative LPS lipid A O antigen porin periplasm teichoic peptidoglycan 內毒素",
     "caption": "G(+) 靠<strong>厚 peptidoglycan</strong> 和 teichoic acid；G(−) 多了<strong>外膜</strong>（LPS、porin）與夾在中間的周質空間。考古最常把兩邊的構造對調來出題。"
   },
   {
     "id": "bact-appendages",
     "chapter": "bact-structure",
-    "title": "鞭毛、線毛與趨化運動",
-    "topics": [
-      "細菌構造與功能"
-    ],
+    "title": "鞭毛（Flagella）、線毛（pili）與趨化運動（Chemotaxis）",
+    "topics": ["細菌構造與功能"],
     "keywords": "flagella flagellin fimbriae pili sex pilus axial filament run tumble chemotaxis H antigen",
     "caption": "Fimbriae 負責<strong>黏附</strong>、sex pilus 負責<strong>接合</strong>、鞭毛負責<strong>運動</strong>。鞭毛逆時針轉就直線前進，順時針轉就原地翻滾換方向。"
   },
@@ -23,9 +19,7 @@
     "id": "gram-stain",
     "chapter": "bact-structure",
     "title": "Gram 染色四步驟",
-    "topics": [
-      "細胞壁／革蘭氏染色"
-    ],
+    "topics": ["細胞壁／革蘭氏染色"],
     "keywords": "gram stain crystal violet iodine decolorizer safranin",
     "caption": "結晶紫 → 碘 → <strong>酒精脫色</strong> → 番紅復染：G(+) 的厚 PDG 留住紫色，G(−) 被脫色後染成粉紅。",
     "type": "slide",
@@ -39,9 +33,7 @@
     "id": "bact-shapes",
     "chapter": "bact-structure",
     "title": "細菌的形狀與排列",
-    "topics": [
-      "細菌分類鑑定"
-    ],
+    "topics": ["細菌分類鑑定"],
     "keywords": "coccus bacillus vibrio spirillum spirochete diplococci streptococci staphylococci",
     "caption": "排列取決於分裂平面：成對 <strong>diplococci</strong>、成鏈 <strong>streptococci</strong>、葡萄串 <strong>staphylococci</strong>。",
     "type": "slide",
@@ -55,9 +47,7 @@
     "id": "oxygen",
     "chapter": "bact-structure",
     "title": "氧氣需求與 SOD / catalase",
-    "topics": [
-      "生長曲線與代謝"
-    ],
+    "topics": ["生長曲線與代謝"],
     "keywords": "obligate aerobe anaerobe facultative aerotolerant microaerophile SOD catalase oxygen",
     "caption": "看菌長在試管哪一層：絕對需氧在頂端、絕對厭氧在底部、微需氧（<strong>2–10% O₂</strong>）在頂端下方。能在有氧下存活靠 SOD、catalase 清除 ROS。",
     "type": "slide",
@@ -71,9 +61,7 @@
     "id": "growth-curve",
     "chapter": "bact-structure",
     "title": "細菌生長曲線",
-    "topics": [
-      "生長曲線與代謝"
-    ],
+    "topics": ["生長曲線與代謝"],
     "keywords": "growth curve lag log exponential stationary death phase",
     "caption": "Lag（代謝活躍但不分裂）→ <strong>Log</strong>（算 generation time、對 penicillin 最敏感）→ Stationary → Death。",
     "type": "slide",
@@ -93,9 +81,7 @@
     "src": "figures/slides/spore.webp",
     "w": 1200,
     "h": 714,
-    "topics": [
-      "孢子"
-    ],
+    "topics": ["孢子"],
     "keywords": "endospore spore dipicolinic acid sporulation cortex",
     "caption": "孢子是<strong>休眠體</strong>（不是繁殖）：雙層 PDG（cortex）、dipicolinic acid，所以耐熱、耐乾、耐輻射與化學藥劑。"
   },
@@ -103,9 +89,7 @@
     "id": "hgt",
     "chapter": "bact-genetics",
     "title": "三種水平基因轉移",
-    "topics": [
-      "水平基因轉移"
-    ],
+    "topics": ["水平基因轉移"],
     "keywords": "transformation conjugation transduction HGT competence sex pilus phage plasmid DNase",
     "caption": "三種方式差在<strong>媒介</strong>和<strong>要不要接觸</strong>：轉型吸收裸露 DNA、接合靠 sex pilus 直接傳質體、轉導由噬菌體順便帶走宿主 DNA。"
   },
@@ -133,9 +117,7 @@
     "src": "figures/slides/pcr.webp",
     "w": 1200,
     "h": 612,
-    "topics": [
-      "DNA 複製與基因表現"
-    ],
+    "topics": ["DNA 複製與基因表現"],
     "keywords": "PCR primer denaturation annealing extension amplification",
     "caption": "變性 → 引子黏合 → 延長，每一輪把目標片段<strong>加倍</strong>（指數放大）；需要 primers、dNTPs、耐熱 polymerase 與 Mg²⁺。"
   },
@@ -143,9 +125,7 @@
     "id": "ab-toxin",
     "chapter": "pathogenesis",
     "title": "A-B 外毒素的作用步驟",
-    "topics": [
-      "毒素（內/外毒素、AB toxin）"
-    ],
+    "topics": ["毒素（內/外毒素、AB toxin）"],
     "keywords": "A-B toxin exotoxin binding action endocytosis",
     "caption": "<strong>B</strong> 接上受體 → receptor-mediated endocytosis → <strong>A</strong> 進入細胞質改變功能（常抑制蛋白質合成）。",
     "type": "slide",
@@ -165,9 +145,7 @@
     "src": "figures/slides/superantigen.webp",
     "w": 900,
     "h": 950,
-    "topics": [
-      "超級抗原"
-    ],
+    "topics": ["超級抗原"],
     "keywords": "superantigen TSST-1 enterotoxin SpeA MHC II TCR Vbeta",
     "caption": "Superantigen <strong>不需要 APC 處理</strong>，從外側把 MHC II 和 TCR（Vβ）夾在一起 → 大量 T 細胞非專一活化 → cytokine storm、休克。"
   },
@@ -189,9 +167,7 @@
     "id": "immune-cells",
     "chapter": "immuno-basic",
     "title": "先天與後天免疫細胞",
-    "topics": [
-      "先天 vs 後天免疫"
-    ],
+    "topics": ["先天 vs 後天免疫"],
     "keywords": "innate adaptive cells neutrophil eosinophil basophil monocyte dendritic cell B cell T cell",
     "caption": "<strong>Dendritic cell</strong> 是先天與後天免疫之間的橋樑：在周邊抓抗原、到淋巴結呈現給 T 細胞。",
     "type": "slide",
@@ -225,9 +201,7 @@
     "src": "figures/slides/lymph-node.webp",
     "w": 1200,
     "h": 720,
-    "topics": [
-      "先天 vs 後天免疫"
-    ],
+    "topics": ["先天 vs 後天免疫"],
     "keywords": "lymph node follicle germinal center paracortex medulla",
     "caption": "B 細胞在皮質的 <strong>follicle</strong>（活化後形成 germinal center），T 細胞在<strong>副皮質區</strong>；抗原由輸入淋巴管進來。"
   },
@@ -235,9 +209,7 @@
     "id": "extravasation",
     "chapter": "innate",
     "title": "白血球移出血管三步驟",
-    "topics": [
-      "白血球遷移（selectin→chemokine→integrin）"
-    ],
+    "topics": ["白血球遷移（selectin→chemokine→integrin）"],
     "keywords": "selectin chemokine integrin ICAM VCAM LFA-1 rolling tethering triggering latching extravasation",
     "caption": "順序是 <strong>Selectin → Chemokine → Integrin</strong>：先滾動減速，再被 chemokine 活化，最後 integrin 抓住 ICAM 停下來鑽出血管。"
   },
@@ -245,9 +217,7 @@
     "id": "complement",
     "chapter": "innate",
     "title": "補體三路徑與 MAC",
-    "topics": [
-      "補體系統"
-    ],
+    "topics": ["補體系統"],
     "keywords": "complement classical lectin alternative C3 convertase C5 convertase MAC C3a C3b C5a MBL C1q factor B D opsonization",
     "caption": "三條路徑起點不同，但都會合在 <strong>C3 convertase</strong>（C4b2a / C3bBb），接著形成 C5 convertase，最後組成 MAC。考古愛考各 convertase 的成分。"
   },
@@ -255,9 +225,7 @@
     "id": "complement-functions",
     "chapter": "innate",
     "title": "補體三大功能",
-    "topics": [
-      "補體系統"
-    ],
+    "topics": ["補體系統"],
     "keywords": "complement lysis chemotaxis opsonization",
     "caption": "<strong>溶解</strong>（MAC）、<strong>趨化</strong>（C3a、C5a）、<strong>調理</strong>（C3b）。",
     "type": "slide",
@@ -271,10 +239,7 @@
     "id": "tc-vs-nk",
     "chapter": "innate",
     "title": "Tc 與 NK 怎麼找目標",
-    "topics": [
-      "NK 細胞與抑制性受體",
-      "細胞毒殺（perforin/Fas）"
-    ],
+    "topics": ["NK 細胞與抑制性受體", "細胞毒殺（perforin/Fas）"],
     "keywords": "Tc NK cell MHC class I inhibitory receptor missing self CD16",
     "caption": "Tc 用 TCR 認 MHC I 上的 peptide；NK 的抑制性受體一看到 MHC I 就煞車，<strong>MHC I 下降</strong>（病毒感染、腫瘤）時才會殺。",
     "type": "slide",
@@ -288,9 +253,7 @@
     "id": "nk-receptors",
     "chapter": "innate",
     "title": "NK 抑制性 vs 非抑制性受體",
-    "topics": [
-      "NK 細胞與抑制性受體"
-    ],
+    "topics": ["NK 細胞與抑制性受體"],
     "keywords": "CD94 NKG2A NKG2C KIR ITIM HLA-E HLA-C",
     "caption": "有 <strong>ITIM</strong> 的才是抑制性：CD94/NKG2A（↔ HLA-E）、long-tail KIR（↔ HLA-C）；NKG2C 和 short-tail KIR 帶 K（lysine）、沒有 ITIM。",
     "type": "slide",
@@ -310,9 +273,7 @@
     "src": "figures/slides/phagocytosis.webp",
     "w": 1200,
     "h": 821,
-    "topics": [
-      "調理作用／opsonic receptor"
-    ],
+    "topics": ["調理作用／opsonic receptor"],
     "keywords": "phagocytosis opsonic receptor FcR CR MFR phagosome lysosome",
     "caption": "病原被 C3b / 抗體包住 → 經 <strong>FcR、CR、mannose receptor</strong> 抓住 → 吞入、phagosome 酸化 → 與 lysosome 融合消化，部分 peptide 放上 MHC II。"
   },
@@ -326,9 +287,7 @@
     "src": "figures/slides/tlr4.webp",
     "w": 880,
     "h": 877,
-    "topics": [
-      "TLR／PRR"
-    ],
+    "topics": ["TLR／PRR"],
     "keywords": "TLR4 CD14 LPS-binding protein MyD88 NF-kB",
     "caption": "LPS 先被 <strong>LPS-binding protein</strong> 抓住，交給 <strong>CD14</strong>，再活化 <strong>TLR4</strong> → MyD88 → NF-κB、AP-1 → 發炎 cytokine。"
   },
@@ -336,10 +295,7 @@
     "id": "ig-classes",
     "chapter": "agab",
     "title": "五種抗體的結構與特點",
-    "topics": [
-      "抗體類別與功能",
-      "抗體結構"
-    ],
+    "topics": ["抗體類別與功能", "抗體結構"],
     "keywords": "IgG IgM IgA IgD IgE pentamer dimer J chain secretory component hinge placenta",
     "caption": "IgM 是有 J chain 的五聚體、分泌型 IgA 是二聚體加 secretory component，其餘是單體；<strong>IgM、IgE 沒有 hinge</strong>。"
   },
@@ -347,9 +303,7 @@
     "id": "vdj",
     "chapter": "agab",
     "title": "V(D)J 重組與接合多樣性",
-    "topics": [
-      "抗體多樣性（VDJ/SHM）"
-    ],
+    "topics": ["抗體多樣性（VDJ/SHM）"],
     "keywords": "VDJ recombination RAG Artemis TdT P nucleotide N nucleotide RSS 12/23 junctional diversity CDR3 ligase",
     "caption": "重鏈<strong>先 D–J、再 V–DJ</strong>；接合處由 RAG 切開、Artemis 打開 hairpin（P）、TdT 隨機加鹼基（N），所以 CDR3 變化最大。"
   },
@@ -357,9 +311,7 @@
     "id": "epitopes",
     "chapter": "agab",
     "title": "Linear 與 conformational epitope",
-    "topics": [
-      "抗原／epitope"
-    ],
+    "topics": ["抗原／epitope"],
     "keywords": "epitope linear conformational continuous discontinuous",
     "caption": "抗體可以認<strong>連續</strong>（linear）或<strong>不連續</strong>（conformational）的 epitope；TCR 只認 linear peptide + MHC。",
     "type": "slide",
@@ -373,9 +325,7 @@
     "id": "ab-functions",
     "chapter": "agab",
     "title": "抗體的三種功能",
-    "topics": [
-      "抗體類別與功能"
-    ],
+    "topics": ["抗體類別與功能"],
     "keywords": "neutralization opsonization complement activation antibody function",
     "caption": "<strong>Neutralization</strong>（Fab 擋住毒素）、<strong>Opsonization</strong>（IgG–FcγR）、<strong>Complement activation</strong>（IgM、IgG）。",
     "type": "slide",
@@ -389,9 +339,7 @@
     "id": "iga-transport",
     "chapter": "agab",
     "title": "分泌型 IgA 穿過上皮",
-    "topics": [
-      "抗體類別與功能"
-    ],
+    "topics": ["抗體類別與功能"],
     "keywords": "IgA secretory component poly-Ig receptor transcytosis",
     "caption": "Dimeric IgA 接上上皮的 <strong>poly-Ig receptor</strong> → 穿過細胞 → 受體被切下留在 IgA 上 = <strong>secretory component</strong>。",
     "type": "slide",
@@ -411,9 +359,7 @@
     "src": "figures/slides/ig-domains.webp",
     "w": 1200,
     "h": 720,
-    "topics": [
-      "抗體結構"
-    ],
+    "topics": ["抗體結構"],
     "keywords": "immunoglobulin heavy light chain VH VL CH hinge Fab Fc disulfide",
     "caption": "2 條重鏈 + 2 條輕鏈以雙硫鍵相連（L–H–H–L）；<strong>V domain 結合抗原</strong>、C domain 負責生物活性；hinge 提供彈性。"
   },
@@ -421,9 +367,7 @@
     "id": "mhc-structure",
     "chapter": "mhc",
     "title": "MHC I vs MHC II 結構",
-    "topics": [
-      "MHC 構造與表現"
-    ],
+    "topics": ["MHC 構造與表現"],
     "keywords": "MHC class I class II alpha beta2 microglobulin peptide groove CD4 CD8 HLA",
     "caption": "MHC I 的槽由 α1+α2 組成、<strong>兩端封閉</strong>（8–10 aa）；MHC II 的槽由 α1+β1 組成、<strong>兩端開放</strong>（13–18 aa）。CD8 接 α3、CD4 接 β2。"
   },
@@ -431,9 +375,7 @@
     "id": "mhc-pathways",
     "chapter": "mhc",
     "title": "抗原處理的兩條路徑",
-    "topics": [
-      "抗原處理與呈現（TAP）"
-    ],
+    "topics": ["抗原處理與呈現（TAP）"],
     "keywords": "antigen processing proteasome TAP ER tapasin ERAAP invariant chain CLIP HLA-DM MIIC cross-presentation autophagy",
     "caption": "內源抗原走 <strong>proteasome → TAP → ER</strong> 上 MHC I；外源抗原走 <strong>endosome → MIIC</strong>，由 HLA-DM 把 CLIP 換成 peptide 上 MHC II。DC 的 cross-presentation 是例外。"
   },
@@ -441,9 +383,7 @@
     "id": "mhc-restriction",
     "chapter": "mhc",
     "title": "MHC restriction",
-    "topics": [
-      "MHC 構造與表現"
-    ],
+    "topics": ["MHC 構造與表現"],
     "keywords": "MHC restriction dual recognition self MHC Zinkernagel Doherty",
     "caption": "T 細胞同時看 MHC 與 peptide：peptide 對但 MHC 不同、或 MHC 對但 peptide 不同，都<strong>不會辨識</strong>。",
     "type": "slide",
@@ -457,9 +397,7 @@
     "id": "pathogen-compartments",
     "chapter": "mhc",
     "title": "病原在哪裡，決定走哪種 MHC",
-    "topics": [
-      "抗原處理與呈現（TAP）"
-    ],
+    "topics": ["抗原處理與呈現（TAP）"],
     "keywords": "cytosolic intravesicular extracellular pathogen endogenous exogenous",
     "caption": "細胞質病原 → <strong>MHC I → CD8</strong>（殺細胞）；囊泡內與細胞外病原 → <strong>MHC II → CD4</strong>（活化 macrophage、B 細胞）。",
     "type": "slide",
@@ -479,9 +417,7 @@
     "src": "figures/slides/mhc-dual.webp",
     "w": 1200,
     "h": 809,
-    "topics": [
-      "MHC 構造與表現"
-    ],
+    "topics": ["MHC 構造與表現"],
     "keywords": "MHC restriction dual recognition Zinkernagel Doherty CTL",
     "caption": "CTL 只殺「<strong>同一個 MHC</strong> + <strong>同一個 peptide</strong>」的目標：peptide 換了不殺、MHC 換了也不殺（1996 諾貝爾）。"
   },
@@ -495,9 +431,7 @@
     "src": "figures/slides/clip-hla-dm.webp",
     "w": 1200,
     "h": 714,
-    "topics": [
-      "抗原處理與呈現（TAP）"
-    ],
+    "topics": ["抗原處理與呈現（TAP）"],
     "keywords": "invariant chain CLIP HLA-DM HLA-DO MHC class II loading",
     "caption": "Ii 先佔住 MHC II 的槽，被切到只剩 <strong>CLIP</strong>；<strong>HLA-DM</strong> 把 CLIP 換成抗原 peptide，<strong>HLA-DO</strong> 抑制 HLA-DM。"
   },
@@ -505,9 +439,7 @@
     "id": "thymus-selection",
     "chapter": "tcell-dev",
     "title": "胸腺發育路線與 affinity model",
-    "topics": [
-      "胸腺選擇"
-    ],
+    "topics": ["胸腺選擇"],
     "keywords": "thymus DN1 DN2 DN3 DN4 DP SP positive selection negative selection cTEC mTEC beta selection pre-T alpha Treg affinity",
     "caption": "前驅細胞從皮髓交界進入，DN 期往被膜下走，DP 在皮質做 <strong>positive selection</strong>，SP 在髓質做 <strong>negative selection</strong>；結果由 TCR 對 self-pMHC 的親和力決定。"
   },
@@ -515,10 +447,7 @@
     "id": "t-signals",
     "chapter": "tcell-dev",
     "title": "免疫突觸與 T 細胞活化三訊號",
-    "topics": [
-      "共刺激（CD28/B7/CTLA-4）",
-      "TCR 與 γδ T 細胞"
-    ],
+    "topics": ["共刺激（CD28/B7/CTLA-4）", "TCR 與 γδ T 細胞"],
     "keywords": "immunological synapse signal 1 2 3 TCR CD3 ITAM Lck ZAP-70 NFAT CD28 B7 CTLA-4 PD-1 LFA-1 ICAM anergy IL-2",
     "caption": "Signal ① TCR 看 pMHC（決定專一性）、② CD28–B7（決定存活，沒有就 anergy）、③ cytokine（決定分化方向）。CTLA-4 和 PD-1 是煞車。"
   },
@@ -526,9 +455,7 @@
     "id": "tcr-cd3",
     "chapter": "tcell-dev",
     "title": "TCR–CD3 複合體",
-    "topics": [
-      "TCR 與 γδ T 細胞"
-    ],
+    "topics": ["TCR 與 γδ T 細胞"],
     "keywords": "TCR CD3 zeta ITAM CDR3 alpha beta",
     "caption": "TCR αβ 負責辨識（CDR3 在結合位中央）；訊號靠 <strong>CD3 與 ζ 鏈上的 ITAM</strong>。",
     "type": "slide",
@@ -542,9 +469,7 @@
     "id": "positive-selection",
     "chapter": "tcell-dev",
     "title": "Positive selection 決定 CD4 / CD8",
-    "topics": [
-      "胸腺選擇"
-    ],
+    "topics": ["胸腺選擇"],
     "keywords": "positive selection CD4 CD8 lineage cortical epithelial Lck",
     "caption": "TCR 在 cTEC 上認到 <strong>MHC II → CD4⁺</strong>；認到 <strong>MHC I → CD8⁺</strong>。",
     "type": "slide",
@@ -558,9 +483,7 @@
     "id": "t-signal-summary",
     "chapter": "tcell-dev",
     "title": "T 細胞活化訊號總整理",
-    "topics": [
-      "共刺激（CD28/B7/CTLA-4）"
-    ],
+    "topics": ["共刺激（CD28/B7/CTLA-4）"],
     "keywords": "signal 1 2 3 adhesion costimulation cytokine CD25",
     "caption": "黏附（LFA-1–ICAM）→ ① TCR–MHC → ② <strong>CD28–B7</strong> → ③ cytokine（IL-2–CD25）。",
     "type": "slide",
@@ -574,9 +497,7 @@
     "id": "checkpoints",
     "chapter": "tcell-dev",
     "title": "CTLA-4 與 PD-1：免疫煞車",
-    "topics": [
-      "共刺激（CD28/B7/CTLA-4）"
-    ],
+    "topics": ["共刺激（CD28/B7/CTLA-4）"],
     "keywords": "CTLA-4 PD-1 checkpoint Allison Honjo",
     "caption": "用抗體擋住 CTLA-4 或 PD-1 = <strong>放開煞車</strong>，讓 T 細胞攻擊癌細胞（2018 諾貝爾）。",
     "type": "slide",
@@ -590,9 +511,7 @@
     "id": "effector-no-costim",
     "chapter": "tcell-dev",
     "title": "Effector T 不再需要共刺激",
-    "topics": [
-      "共刺激（CD28/B7/CTLA-4）"
-    ],
+    "topics": ["共刺激（CD28/B7/CTLA-4）"],
     "keywords": "effector T cell costimulation naive",
     "caption": "Naïve T 需要 B7 共刺激；分化成 effector 後<strong>只要 Signal ①</strong> 就能殺感染細胞。",
     "type": "slide",
@@ -612,9 +531,7 @@
     "src": "figures/slides/thymus-zones.webp",
     "w": 1167,
     "h": 787,
-    "topics": [
-      "胸腺選擇"
-    ],
+    "topics": ["胸腺選擇"],
     "keywords": "thymus DN1 DN2 DN3 DN4 DP SP cortex medulla subcapsular",
     "caption": "DN1 從皮髓交界的小靜脈進來 → DN2、DN3 往<strong>被膜下</strong>走 → DP 在<strong>皮質</strong> → SP 在<strong>髓質</strong>。"
   },
@@ -628,10 +545,7 @@
     "src": "figures/slides/lck-zap70.webp",
     "w": 1000,
     "h": 521,
-    "topics": [
-      "TCR 與 γδ T 細胞",
-      "共刺激（CD28/B7/CTLA-4）"
-    ],
+    "topics": ["TCR 與 γδ T 細胞", "共刺激（CD28/B7/CTLA-4）"],
     "keywords": "Lck ZAP-70 ITAM CD3 zeta signal transduction",
     "caption": "CD4/CD8 帶的 <strong>Lck</strong> 磷酸化 CD3 與 ζ 的 <strong>ITAM</strong> → <strong>ZAP-70</strong> 接上並被活化 → adapter proteins 往下傳。"
   },
@@ -639,9 +553,7 @@
     "id": "th-subsets",
     "chapter": "tcell-act",
     "title": "CD4 TH 亞群分化",
-    "topics": [
-      "TH 分化與細胞激素"
-    ],
+    "topics": ["TH 分化與細胞激素"],
     "keywords": "TH1 TH2 TH17 TFH Treg IL-12 IL-4 IL-6 TGF-beta IFN-gamma IL-17 IL-21 IL-10 T-bet GATA3 RORgt FoxP3 Bcl-6",
     "caption": "共筆標註「<strong>下圖必考</strong>」：記住每一型的<strong>誘導 cytokine → 轉錄因子 → 分泌物</strong>。IL-12 → TH1 是考最多次的一條。"
   },
@@ -649,9 +561,7 @@
     "id": "class-switch",
     "chapter": "tcell-act",
     "title": "Class switch 與 cytokine 對應",
-    "topics": [
-      "B 細胞活化／class switch／生發中心"
-    ],
+    "topics": ["B 細胞活化／class switch／生發中心"],
     "keywords": "class switch isotype switch region AID CD40L CD40 hyper IgM IL-4 IgE TGF-beta IgA IFN-gamma",
     "caption": "Switch region 之間的 DNA 重組把中間切成環狀丟掉，<strong>只換 constant region、V 區不變</strong>。需要 CD40L–CD40，缺了就是 hyper-IgM。"
   },
@@ -659,9 +569,7 @@
     "id": "ab-response",
     "chapter": "tcell-act",
     "title": "初級與次級抗體反應",
-    "topics": [
-      "B 細胞活化／class switch／生發中心"
-    ],
+    "topics": ["B 細胞活化／class switch／生發中心"],
     "keywords": "primary secondary response memory lag phase IgG",
     "caption": "Secondary response 的 lag 短、抗體量高很多（<strong>IgG 為主</strong>）；對新抗原 B 仍然是初級反應。",
     "type": "slide",
@@ -675,9 +583,7 @@
     "id": "ecoli-pathotypes",
     "chapter": "enterobacteriaceae",
     "title": "致病性 E. coli 五型比較",
-    "topics": [
-      "E. coli 致病型"
-    ],
+    "topics": ["E. coli 致病型"],
     "keywords": "ETEC EPEC EHEC EIEC EAEC UPEC shiga toxin LT ST cAMP cGMP intimin Tir HUS O157:H7",
     "caption": "腹瀉型態取決於毒力因子：<strong>ETEC</strong> 靠毒素升 cAMP/cGMP（水瀉），<strong>EHEC</strong> 多了 Shiga toxin（血便、HUS），<strong>EIEC</strong> 會侵入。"
   }

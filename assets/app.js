@@ -547,7 +547,7 @@
   const slideImg = (subj, f, cls = "") =>
     `<img class="${cls}" src="${esc(subj.path)}/${esc(f.src)}" width="${f.w || 1400}" height="${f.h || 788}" loading="lazy" decoding="async" alt="${esc(`上課投影片：${f.title}（${f.deck} 第 ${f.page} 頁）`)}">`;
   const slideCaption = (f) =>
-    `${f.caption ? `${f.caption} ` : ""}<span class="src">出自上課 slides <span class="mono">${esc(f.deck)}</span> 第 ${esc(f.page)} 頁</span>`;
+    `${f.caption ? `${f.caption} ` : ""}<span class="src">出自上課 slides <span class="mono">${esc(f.deck)}</span> page ${esc(f.page)}</span>`;
   function figureHTML(subj, id) {
     const f = subj.figById?.[id];
     if (!f) return "";
