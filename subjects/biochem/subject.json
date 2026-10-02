@@ -1,0 +1,125 @@
+{
+  "id": "biochem",
+  "title": "生物化學",
+  "short": "生化",
+  "term": "115-1 期中考",
+  "description": "脂質代謝、訊息傳遞、器官間代謝整合，以及胺基酸與核苷酸代謝。整合 2026 上課 slides、113 共筆考古與國考課後練習題。",
+  "color": "#b0532a",
+  "icon": "🧪",
+  "questionFiles": [
+    "data/questions-gongbi.json",
+    "data/questions-class.json",
+    "data/questions-new.json"
+  ],
+  "sources": [
+    {
+      "key": "gongbi",
+      "label": "113 共筆考古",
+      "kind": "exam",
+      "pill": "violet"
+    },
+    {
+      "key": "class",
+      "label": "2026 課堂題",
+      "kind": "class",
+      "pill": "warn"
+    },
+    {
+      "key": "new",
+      "label": "模擬新題",
+      "kind": "new",
+      "pill": "good"
+    }
+  ],
+  "groups": [
+    {
+      "title": "脂質代謝與訊息傳遞（黃彥華）",
+      "chapters": [
+        "ch17",
+        "ch12",
+        "ch21"
+      ]
+    },
+    {
+      "title": "代謝整合、胺基酸與核苷酸代謝（陳顧中）",
+      "chapters": [
+        "ch23",
+        "ch18",
+        "ch22"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ch17",
+      "title": "脂肪酸分解代謝",
+      "en": "Ch17 · Fatty acid catabolism",
+      "teacher": "黃彥華",
+      "week": "W1",
+      "slides": true
+    },
+    {
+      "id": "ch12",
+      "title": "生化訊息傳遞",
+      "en": "Ch12 · Biochemical signaling",
+      "teacher": "黃彥華",
+      "week": "W2",
+      "slides": true
+    },
+    {
+      "id": "ch21",
+      "title": "脂質生合成",
+      "en": "Ch21 · Lipid biosynthesis",
+      "teacher": "黃彥華",
+      "week": "W3",
+      "slides": true
+    },
+    {
+      "id": "ch23",
+      "title": "器官間代謝整合與激素調控",
+      "en": "Ch23 · Interorgan coordination & hormonal regulation",
+      "teacher": "陳顧中",
+      "week": "W4",
+      "slides": true
+    },
+    {
+      "id": "ch18",
+      "title": "胺基酸氧化與尿素生成",
+      "en": "Ch18 · Amino acid oxidation & urea",
+      "teacher": "陳顧中",
+      "week": "未上",
+      "slides": false
+    },
+    {
+      "id": "ch22",
+      "title": "胺基酸、核苷酸生合成",
+      "en": "Ch22 · Biosynthesis of amino acids & nucleotides",
+      "teacher": "陳顧中",
+      "week": "未上",
+      "slides": false
+    }
+  ],
+  "sheet": "content/_sheet.md",
+  "insights": [
+    [
+      "否定題將近四成。",
+      "113 共筆 222 題中有 84 題是「incorrect／does not」，選項常把成對概念對調：L↔D 型、FAD↔NADPH、粒線體↔細胞質、IP₃↔DAG。"
+    ],
+    [
+      "酵素配對是最大宗。",
+      "PLP、BH₄、SAM、biotin、B₁₂ 該配哪個反應；藥物配標的（5-FU、methotrexate、statin、allopurinol）；疾病配缺乏的酵素。整理成表格最有效。"
+    ],
+    [
+      "Ch18、Ch22 題數最多但還沒上。",
+      "去年 Ch18 有 86 題、Ch22 有 47 題，佔共筆六成；現在先看重點整理與考古，上課後再對照 slides。"
+    ],
+    [
+      "Ch23 的國考題會整題出現。",
+      "陳顧中老師 slides 的課後練習題都是國考原題，第 4 週 slides 收錄 38 題（35 題屬 Ch23），重點在器官燃料、Cori cycle、insulin／glucagon。"
+    ],
+    [
+      "Ch12 沒有考古。",
+      "113 共筆沒有訊息傳遞的題目，練習區的 Ch12 題目以模擬新題為主，重點放在 cAMP、IP₃／DAG、insulin 受體三條路徑。"
+    ]
+  ]
+}

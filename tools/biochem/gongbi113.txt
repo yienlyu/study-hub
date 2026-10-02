@@ -1,0 +1,3458 @@
+                                      Ch17-1 Lipid Catabolism
+
+組長：洪碩謙                         學藝：陳政聖                        授課老師：黃彥華                       114.Sep.11
+選擇題
+1. Lipoprotein lipase acts in:
+ (A) Intestinal uptake of dietary fat.
+ (B) Intracellular lipid breakdown of lipoproteins.
+ (C) Hydrolysis of triacylglycerols of plasma lipoproteins to supply fatty acids.
+ (D) Lipoprotein breakdown to supply needed amino acids.
+
+2. Free fatty acids in the bloodstream are:
+ (A) Carried by the protein serum albumin
+ (B) Bound to hemoglobin
+ (C) Freely soluble in the aqueous phase of the blood
+ (D) Carried by LDL
+
+3. Which of the following compound is a carrier to take fatty acyl-CoA into mitochondria?
+ (A) Carnitine
+ (B) FAD
+ (C) Coenzyme A
+ (D) Cytochrome
+
+4. The glycerol produced from the hydrolysis of triacylglycerides enters glycolysis as
+ (A) Glucose
+ (B) Dihydroxyacetone phosphate
+ (C) Glucose-6-phosphate
+ (D) Glyceryl-CoA
+
+5. Free fatty acids in the bloodstream are:
+ (A) bound to hemoglobin.
+ (B) carried by protein serum albumin.
+ (C) freely soluble in the aqueous phase of the blood.
+ (D) nonexistent; the blood does not contain free fatty acids.
+ (E) present at levels that are independent of epinephrine.
+
+
+6. Which of these is able to cross the inner mitochondria membrane?
+ (A) Acetyl-CoA
+ (B) Fatty acyl-carnitine
+ (C) Fatty acyl-CoA
+ (D) Malonyl-CoA
+ (E) None of the above
+7. Dietary lipids are distributed by which of the following lipoproteins?
+ (A) Chylomicron
+ (B) low density lipoprotein
+ (C) low density lipoprotein
+ (D) High density lipoprotein
+8. Which of the following enzyme is responsible for transport of fatty acid into the mitochondria?
+ (A) long chain fatty acid specific acyl-CoA synthetase
+ (B) short chain fatty acid specific acyl-CoA synthetase
+ (C) carnitine acyltransferase I
+ (D) carnitine acyltransferase II
+9. Familial hypercholesterolemia is caused by a defect of which of following?
+ (A) mutation of HMG-CoA synthase
+ (B) mutation of LDL-receptor
+ (C) mutation of HMA-CoA reductase
+ (D) mutation of LDL synthase
+10. Which one is the critical enzyme for cholesterol biosynthesis? And where this enzyme could be
+detected?
+ (A) HMG-CoA synthase, Mitochondria
+ (B) HMG-CoA reductase, Mitochondria
+ (C) HMG-CoA synthase, Cytoplasm
+ (D) HMG-CoA reductase, Cytoplasm
+簡答
+選擇題
+  1          2        3        4         5        6        7        8         9       10
+   C         A        A        B        B         B        A        C         B        D
+
+
+詳解
+1. (C)
+ Lipoprotein lipase 分解乳糜微粒中的 TG 為甘油和脂肪酸，並運送進入細胞。
+
+
+2. (A)
+ 因為 Free fatty acid 不易溶於血液，因此需要附著在 Serum albumin 上溶於血中運送，經由細胞膜上
+ 的 fatty acid transporter 進入細胞質內。
+
+
+3. (A)
+ 能夠通過粒線體膜的物質不多，大多需透過與其他分子結合才能通過，而協助運送 Fatty acyl-CoA
+ 進入粒線體的分子是 Carnitine。
+
+
+4. (B)
+ 複習上學期！Glycerol 經過磷酸化之後變成 glycerol-3-phosphate，接著變成 dihydroxyacetone
+ phosphate（DHAP），進入糖解作用或糖質新生。
+5. (B)
+ 同第二題。
+
+
+6. (B)
+ 能通過粒線體膜的分子不多，其中包括 fatty acyl-carnitine、malate、citrate、pyruvate。
+
+
+7. (A)
+ 經食物攝取而得的脂肪，由乳糜微粒（chylomicron）負責運輸。
+
+
+8. (C)
+ carnitine acyltransferase I 可將 fatty acyl-CoA 上的輔酶 A 置換為 carnitine，形成 fatty acyl-carnitine，
+ 使脂肪酸能夠以此形式通過粒線體內膜。
+9. (B)
+ Familial hypercholesterolemia（FH）： 為一種遺傳性疾病，始因為負責製造 LDL receptor 的基因發
+ 生突變，使得 lipoprotein receptor 無法透過 receptor-mediated endocytosis 從血液中吸收 LDL，導致
+ 膽固醇在血液中濃度過高。
+10. (D)
+ HMG-CoA synthase 是酮體生成的酵素，位於粒線體。 （補充：HMG-CoA lyase 也是）
+ HMG-CoA reductase 則參與膽固醇的合成，位於細胞質
+                                    Chapter 17-2：Lipid Metabolism
+
+ 組長：楊傑愉                 學藝：陳政聖                     授課老師：黃彥華                                      114. Sep. 18
+
+1. Which of following compound does not involve in fatty acid β-oxidation?
+  (A) Carnitine
+  (B) NADP＋
+  (C) H2O
+  (D) CoA
+
+
+2. Which of the following compound is the cofactor for Propionyl-CoA catabolism?
+  (A) Methylcobalamin
+  (B) Pyridoxal phosphate
+  (C) Thiamin pyrophosphate
+  (D) Flavin adenine dinucleotide
+
+
+3. After β-oxidation, how many waters are needed for one molecular palmitoyl-CoA totally?
+  (A) 9
+  (B) 8
+  (C) 7
+  (D) 6
+
+
+4. Which of the following statements concerning the β-oxidation of fatty acids is true?
+  (A) About 1200 ATP molecules are ultimately produced per 20-carbon fatty acid oxidized.
+  (B) The free fatty acid must be converted to a thioester before the process of β-oxidation commences.
+  (C) One FADH2 and two NADH are produced for each acetyl-CoA.
+  (D) The free fatty acid must be carboxylated in the β position by a biotin-dependent reaction commences.
+
+
+5. The following fatty acid, in which the indicated carbon is labeled with 14C, is fed to an animal:
+  14CH3(CH2)9COOH. After allowing 30 minutes for fatty acid β-oxidation, the label would most likely
+  be recovered in:
+  (A) Acetyl-CoA
+  (B) Both acetyl-CoA and propionyl-CoA
+  (C) Palmitoyl-CoA
+  (D) Propionyl-CoA
+6. The carbon atoms from a fatty acid with an odd number of carbons will enter the citrus cycle by:
+  (A) Succinyl-CoA
+  (B) Fumarate
+  (C) Malate
+  (D) α-Ketoglutarate
+
+
+7. The major site of formation of acetoacetate from fatty acids is the:
+  (A) Intestinal mucosa
+  (B) Kidney
+  (C) Liver
+  (D) Muscle
+
+
+8. Free fatty acids in the bloodstream are:
+  (A) bound to hemoglobin.
+  (B) carried by protein serum albumin.
+  (C) freely soluble in the aqueous phase of the blood.
+  (D) nonexistent; the blood does not contain free fatty acids.
+  (E) present at levels that are independent of epinephrine.
+
+
+9. Saturated fatty acids are degraded by the stepwise reactions of β-oxidation, producing Acetyl-CoA, under
+  aerobic condition, how many ATP molecules would be produced as a consequence of removal of each
+  Acetyl-CoA?
+  (A) 2
+  (B) 3
+  (C) 4
+  (D) 5
+  (E) 6
+10. Which of the following is (are) true of the β-oxidation of long-chain fatty acids?
+   1.The enzyme complex that catalyzes the reaction contains biotin.
+   2.FADH2 serves as an electron carrier.
+   3.NADH serves as an electron carrier.
+   4.Oxidation of an 18-carbon fatty acid produces six molecules of propionyl-CoA.
+   5.Oxidation of a 15-carbon fatty acid produces at least one propionyl-CoA.
+   (A) 1, 2 and 3
+   (B) 1, 2 and 5
+   (C) 2, 3 and 4
+   (D) 2, 3 and 5
+   (E) 3 and 5 only
+
+
+11. Ketone bodies are formed in the liver and transported to the extrahepatic tissues mainly as:
+   (A) acetoacetyl-CoA
+   (B) acetone
+   (C) β-hydroxybutyric acid
+   (D) β-hydroxybutyryl-CoA
+   (E) lactic acid
+
+
+12. Which of the following is NOT true regarding the oxidation of 1 mol of palmitate (16:0) by the β oxidation
+   pathway?
+   (A) 1 mol of ATP is needed.
+   (B) 8 mol of acetyl-CoA are formed.
+   (C) 8 mol of FADH2 are formed.
+   (D) AMP and PPi are formed.
+   (E) The reactions occur in the mitochondria.
+
+
+13. Which of the following is NOT required in the synthesis of fatty acids?
+   (A) Acetyl-CoA
+   (B) Biotin
+   (C) HCO3-(CO2)
+   (D) Malonyl-CoA
+   (E) NADH
+14. The rate-limiting step in fatty acid synthesis is:
+   (A) Condensation of acetyl-CoA and malonyl-CoA
+   (B) Formation of acetyl-CoA from acetate
+   (C) Formation of malonyl-CoA from malonate and coenzyme A
+   (D) The reaction catalyzed by acetyl-CoA carboxylase
+   (E) The reduction of the acetoacetyl group to a β-Hydroxybutyryl group
+
+
+15. Which of these can be synthesized by plants but NOT by humans?
+   (A) Linoleate [18:2 (△9,12)]
+   (B) Palmitate (16:0)
+   (C) Phosphatidylcholine
+   (D) Pyruvate
+   (E) Stearate (18:0)
+
+
+16. Which of the following event occurs first in the process of transporting an LDL into a cell?
+   (A) formation of a coated pit with the aid of clathrin
+   (B) receptor-mediated endocytosis
+   (C) fusion of the clathrin-lined vesicles to produce an endosome
+   (D) interaction of apoprotein B-100 with the LDL receptor
+
+
+17. Which of the following represents the correct order of a cycle of β-oxidation event with a saturated fatty
+   acyl-CoA?
+   (A) FAD-coupled oxidation, hydration, NAD＋-coupled oxidation, thiolytic cleavage
+   (B) FAD-coupled oxidation, NAD＋-coupled oxidation, hydration, thiolytic cleavage
+   (C) NAD＋-coupled oxidation, FAD-coupled oxidation, hydration, thiolytic cleavage
+   (D) NAD＋-coupled oxidation, hydration, FAD-coupled oxidation, thiolytic cleavage
+
+
+18. Low levels of oxaloacetate with high levels of Acetyl-CoA cause the production of what metabolites,
+   particularly within the liver?
+   (A) acetate and ethanol
+   (B) acetoacetate and β-hydroxylbutyrate
+   (C) succinate-CoA and propionyl-CoA
+   (D) D-methylmalonyl-CoA and L-methylmalonyl-CoA
+19. Which of the following serves as a carrier to the Acetyl-CoA in fatty acid synthesis?
+   (A) OAA
+   (B) Pyruvate
+   (C) Citrate
+   (D) None of the above
+
+
+20. Vitamin B12 is the coenzyme for methionine synthase in the conversion of homocysteine to methionine.
+   Vitamin B12 could also be the coenzyme for which of the following enzyme?
+   (A) Methylmalonyl-CoA mutase
+   (B) Tyrosine hydroxylase
+   (C) Phenylalanine hydroxylase
+   (D) Pyruvate carboxylase
+21. The incorrect supplement regarding the enzyme which regulates the Palmitate biosynthesis from acetyl
+   CoA is:
+   (A) Acetyl-CoA carboxylase
+   (B) Need biotin as coenzyme
+   (C) Will be suppressed by insulin
+   (D) Located in cytoplasm
+
+
+22. Individuals with diets high in coconut oil consume large amounts of lauric acid (12:0). What are the β
+   oxidation products of lauric acid?
+   (A) 6 acetyl-CoA, 6 NADH, 6 FADH2, 1 ATP used for activation
+   (B) 6 acetyl-CoA, 5 NADH, 5 FADH2, 1 ATP used for activation
+   (C) 6 acetyl-CoA, 5 NADH, 5 FADH2, 2 ATP used for activation
+   (D) 6 acetyl-CoA, 6 NADH, 6 FADH2, 2 ATP used for activation
+
+
+23. Which of the following leads to the formation of atherosclerotic plaques?
+   (A) Non-specific interactions between LDL particles
+   (B) Oxidation of LDL particles resulting in cross linking with proteins
+   (C) Uptake of oxidized LDL particles by macrophages
+   (D) Excess uptake of LDL particles converting endothelial cells to foam cells
+24. If the 16-carbon saturated fatty acid palmitate is oxidized completely to carbon dioxide and water (via β
+   oxidation pathway and the citric acid cycle), and all of the energy-conserving products are used to drive
+   ATP synthesis in the mitochondrion, the net yield of ATP per molecule of palmitate is?
+   (A) 25
+   (B) 106
+   (C) 108
+   (D) 110
+
+
+25. Ketone bodies are formed in the liver and transported to the extrahepatic tissues mainly as:
+   (A) Acetoacetyl-CoA
+   (B) Acetone
+   (C) β-hydroxybutyric acid
+   (D) β-hydroxybutyric CoA
+
+
+26. In comparing fatty acid biosynthesis with β-oxidation of fatty acids, which of the following statement is
+   incorrect?
+   (A) A thioester derivative of crotonic acid (trans-2-butenoic acid) is an intermediate on the synthetic path,
+       but not in the degradative path.
+   (B) A thioester derivative of D-β-hydroxybutyrate is an intermediate in the synthetic path, not in the
+       degradative path.
+   (C) Fatty acid biosynthesis uses NADPH exclusively, whereas β-oxidation uses NAD+ exclusively.
+   (D) Fatty acid degradation is catalyzed by cytosolic enzymes; fatty acid synthesis by mitochondrial
+       enzymes
+
+
+27. Which of the lists is the enzyme (in order) required to transport a molecule of Acetyl-CoA from the
+   mitochondrion to the cytosol while returning the “Acetyl-CoA acceptor” back to the mitochondrion?
+   (A) Citrate synthase, citrate lyase, pyruvate carboxylase
+   (B) Citrate synthase, citrate lyase, malate dehydrogenase, pyruvate carboxylase
+   (C) Citrate synthase, citrate lyase, malate dehydrogenase, pyruvate carboxylase, malic enzyme
+   (D) Citrate synthase, citrate lyase, malate dehydrogenase
+  選擇題
+         1      2       3      4      5       6      7       8       9       10
+         B      A      C       B      D       A      C       B       C       D
+         11     12     13      14     15     16      17      18      19      20
+         C      C      E       D      A       D      A       B       C       A
+         21     22     23      24     25     26      27
+         C      C      C       B      C     ACD      D
+
+
+1. (B)
+  Carnitine 是 CoA 一開始要進入粒線體時使用的 shuttle 分子，而第二步水合作用時需要 H2O 參與，
+  故 Carnitine、H2O、CoA 都有包含在 β-oxidation 中。
+
+
+2. (A)
+    (A) Vitamin B12 是 Propionyl-CoA 代謝中 Methylmalonyl-CoA Mutase 的 cofactor，但是選項這裡
+          用了別稱 Methylcobalamin，是一天然形式的 Vitamin B12。
+    (B) 即 PLP，又稱 Vitamin B6，是轉胺酶和肝糖磷酸水解酶的輔酶。
+    (C) 即 TPP，為上學期 Pyruvate dehydrogenase 的 cofactor 之一。
+    (D) 即 FAD，在很多地方都有出現。為 Pyruvate dehydrogenase 的 cofactor 之一、TCA cycle、電子
+          傳遞鏈、β-oxidation 等地方都有他的身影，但這裡就是沒有。
+
+
+3. (C)
+                                    。Palmitoyl-CoA 有 16 個碳，每一次
+  每經過一次 β-oxidation 就會消耗一個水分子（可參考第五題）
+  脫掉兩個碳，總共會經過 7 個循環，就會消耗 7 個水分子。
+
+
+4. (B)
+    (A) 20 碳的脂肪酸產生的 ATP 計算：一開始產生 fatty acyl-CoA 的時候耗掉 2 個，再經過 9 次
+          的 β oxidation，產生 9 個 NADH 和 9 個 FADH2，還有 10 個 acetyl-CoA，每個 acetyl-CoA
+          經過 TCA cycle 可以產生 10 個 ATP，每個 NADH 和 FADH2 可以經過電子傳遞鏈分別產
+          生 2.5 和 1.5 個 ATP，最終計算式如下：9 × 2.5＋9 × 1.5＋10 × 10－2＝134。即 PLP，又稱
+          Vitamin B6，是轉胺酶和肝糖磷酸水解酶的輔酶。
+    (B) 正解。
+    (C) 每一個 acetyl-CoA 氧化會產生一個 FADH2 跟「三個」NADH。
+    (D) 只有奇數碳脂肪酸為了要成為雙數碳長鏈進行 β-oxidation 才要被 carboxylate（加上 COO－）
+                                                                。
+ 5. (D)
+   題目給的分子有 11 個碳，為奇數，β-oxidation 會從羰基那邊開始，標定的 C-14 會最後被脫去。
+   經過 4 個 β-oxidation 循環之後剩下 propionyl-CoA 再加上 COO-會變成 succinyl-CoA 進入 TCA
+   cycle 繼續氧化。
+
+
+ 6. (A)
+   奇數碳分子經 β-oxidation 後，剩下的 propionyl-CoA 會被 carboxylate 成 succinyl-CoA，才能進入
+   TCA cycle。
+
+
+ 7. (C)
+   Ketogenesis 主要是在肝臟細胞中進行，當 TCA cycle 無法進行時（比如說餓了很久讓 TCA cycle 的
+   原料都去 gluconeogenesis 的時候）就會使用肝臟細胞中的脂肪進行 ketogenesis。
+
+
+ 8. (B)
+   因為 Free fatty acid 不易溶於血液中，因此需要綁在 Serum albumin 上溶於血中運送，並經由細胞膜
+   上的 fatty acid transporter 進入細胞質內。
+
+
+ 9. (C)
+   一次 β-oxidation 產出一個 FADH2 跟一個 NADH，分別生成 1.5 和 2.5 個 ATP，相當於 4 個
+   ATP。
+
+
+10. (D)
+   1.錯，β-oxidation 參與的酵素是 acyl-CoA dehydrogenase，是以 FAD 作為 cofactor 而不是 biotin。
+   （biotin 主要作為 acetyl-CoA 經過 carboxylase 變 malonyl-CoA 的 cofactor）
+   4.錯，偶數碳分子會產生 9 個 acetyl-CoA 而不是 6 個 propionyl-CoA。
+
+
+11. (C)
+   Ketone body 主 要 以 acetoacetate 和 β -hydroxybutyrate 從 肝 臟 轉 運 至 肝 外 ， 而 題 目 中 的 β
+   hydroxybutyric acid 是 β-hydroxybutyrate 的共軛酸。
+
+
+12. (C)
+     (A) 從 palmitate 變成 palmitoyl-CoA 需要一莫耳 ATP。
+     (B) 16 個碳的 palmitate 會產生 8 莫耳 acetyl-CoA。
+     (C) 只有 7 莫耳 FADH2 會被產生。（經過 7 次 β-oxidation）
+     (D) ATP 從 palmitate 變成 palmitoyl-CoA 的過程會變成 AMP＋PPi。
+     (E) β-oxidation 就是在粒線體內發生的。
+13. (E)
+     (A) Acetyl-CoA 是 Fatty acid 合成的起始材料。
+     (B) biotin 是 acetyl-CoA 經過 carboxylase 變成 malonyl-CoA 的 cofactor。
+     (C) 是合成 malonyl-CoA 的碳源。
+     (D) 是 fatty acid 合成的中間體（intermediate），由 acetyl-CoA 和 bicarbonate 形成。
+     (E) fatty acid 的合成不需要 NADH。是 NADPH 才是該過程中使用的主要提供電子的人。或是直
+          接 下圖背起來，沒有 NADH！
+
+
+
+
+14. (D)
+   ACC（acetyl-CoA carboxylase）所催化的反應是脂肪酸合成的速率決定步驟，需要 ATP 參與。通常
+   速率決定步驟會有其調控因子，此處的調控因子有 AMPK、PKA、citrate、fatty acyl-CoA 等。
+
+
+15. (A)
+     (A) 人體可以合成不飽和脂肪酸，不能合成 Linoleate 的原因為它其中一個雙鍵在 12 與 13 號碳
+          之 間， 人體只能催化 9 號碳以內的 desaturation，超過 9 號碳人體就不能自己合成了。
+                                                            （老師
+          影片沒提到）
+     (B) 一種飽和脂肪酸，植物和人類都可以合成。
+     (C) Phosphatidylcholine 一種可由植物和人類合成 phospholipid。
+     (D) Pyruvate 可以由植物和人類合成，是一種參與糖解作用和細胞呼吸的分子。
+     (E) Stearate (18:0)是一種飽和脂肪酸，植物和人類都可以合成。
+
+
+16. (D)
+   血液中的 LDL 以 Apo B-100 與 LDL receptor 結合後，受體媒介包吞作用進入細胞形成囊泡。
+   （apoprotein B-100 是 LDL 顆粒表面的一種蛋白質，可與細胞表面的特定 LDL 受體結合。） 詳見
+   Ch17 PPT p.18。 前後順序是(D) → (A) → (B) → (C)。
+17. (A)
+   β-oxidation 四步驟：FAD-coupled dehydrogenation → Hydration → NAD＋-coupled dehydrogenation
+   → Thiolytic cleavage（詳見第 13 題的附圖，非常重要，背起來）
+
+
+18. (B)
+   當生物處飢餓狀態或葡萄糖含量低下時，肝臟會進行 Gluconeogenesis，肝臟細胞中的 Oxaloacetate
+   會被轉變成 Malate 並帶出粒線體重新合成葡萄糖，此時 Acetyl-CoA 會缺乏與其反應的原料，肝臟
+   便會將 Acetyl-CoA 轉化成水溶性的 Ketone bodies（Acetoacetate、β-hydroxybutyrate、Acetone）
+                                                                              ，肝
+   臟會釋放這些 Ketone bodies 到血液中，Ketone bodies 會被其他不會進行 Gluconeogenesis 的細胞重
+   新變成 Acetyl-CoA 來當作能量來源。
+
+
+19. (C)
+   在脂肪酸合成中，乙醯輔酶 A（acetyl-CoA）主要位於線粒體，但脂肪酸合成在細胞質中進行。由 於
+   乙醯輔酶 A 無法直接穿過線粒體膜，它會先與草醯乙酸（oxaloacetate）結合形成檸檬酸 （citrate）
+                                                           ，
+   然後檸檬酸進入細胞質，在那裡透過 citrate lyase 的作用（需 ATP）分解成乙醯輔酶 A，供脂肪酸合
+   成使用。因此，檸檬酸是乙醯輔酶 A 的運輸載體。
+
+
+20. (A)
+   維生素 B12 作為輔酶，負責將甲基丙二酰辅酶 A（methylmalonyl-CoA）轉化為琥珀酰辅酶 A
+   （Succinyl-CoA），如右圖紅色方框標示處。
+
+
+
+
+21. (C)
+   脂肪酸的合成會受到胰島素的促進，升糖素、腎上腺素等之抑制。ACC（acetyl-CoA carboxylase） 為
+   調控脂肪酸合成的關鍵酵素，由胰島素活化，催化 Acetyl-CoA 轉化成 Malonyl-CoA，啟動脂肪 酸
+   的生合成。ACC 的輔酶為 biotin，且脂肪酸合成發生於細胞質。
+22. (C)
+   月桂酸（Lauric acid, 12:0）是一種含 12 個碳的飽和脂肪酸。在 β-oxidation 過程中，每次循環會將
+   脂肪酸縮短 2 個碳，並產生 1 個乙醯輔酶 A、1 個 NADH 和 1 個 FADH2。由於月桂酸有 12 個
+   碳，因此需要經過 5 次（12 ÷ 2 − 1 = 5）β-氧化循環，才能完全分解成 6 個乙醯輔酶 A。另外，脂
+   肪酸進入 β-oxidation 之前，需先被活化為 lauryl-CoA，這個過程消耗 2 個 ATP。故選(C)。
+
+
+23. (C)
+   動脈粥狀硬化（atherosclerosis）與低密度脂蛋白（LDL）的氧化有關。當 LDL 顆粒被氧化後，這 些
+   氧化型 LDL 會被免疫系統中的巨噬細胞吞噬。巨噬細胞不斷攝取氧化型 LDL，最終轉化為泡沫 細
+   胞（foam cells）。泡沫細胞死亡時釋出脂質，會積聚在血管壁上，導致動脈粥狀硬化的形成。
+
+
+24. (B)
+   棕櫚酸（palmitate）轉化為 palmitoyl-CoA，需要消耗 2 個 ATP 當量，接著進行七次 β-oxidation
+            ，產生 7 FADH2、7 NADH 及 8 acetyl-CoA。1 NADH 在電子傳遞鏈中產生約 2.5 個
+   （16÷2−1＝7）
+   ATP，1 FADH2 在電子傳遞鏈中產生約 1.5 個 ATP，1 acetyl-CoA 進入檸檬酸循環可產生 10 ATP，
+   因此 ATP 淨產量為：7 × (2.5 + 1.5) + 8 × 10 − 2＝106
+
+
+25. (C)
+   酮體（Ketone bodies）主要以 β-羥基丁酸（β-hydroxybutyric acid）的形式從肝臟運輸到肝外組織。
+
+
+26. (A)(C)(D)
+     (A) 錯誤，trans-2-butenoic acid 的硫酯衍伸物就是 β-oxidation 去氫反應完的產物，也是 Fatty Acid
+          Synthase 相對應的中間產物，兩者都是反式。
+     (B) 正確，Fatty Acid Synthase 縮合反應完會產生 D-β-hydroxybutyrate，而 β-oxidation 對應的中
+          間
+     (C) 錯誤，β-Oxidation 除了 NAD+還有用到 FAD2+，所以錯誤。
+     (D) β-Oxidation 是受到粒線體內的酵素催化，fatty acid synthesis 則是受到細胞質的酵素催化。
+27. (D)
+   在將 Acetyl-CoA 從線粒體運輸到細胞質的過程中，並將乙醯輔酶 A 受體（Acetyl-CoA acceptor），
+   也就是 OAA 返回線粒體時，所需的酶如下：
+   （Acetyl-CoA 無法直接穿越線粒體內膜進入細胞質，必須與 OAA 結合形成檸檬酸（citrate）
+                                                       ，因此，
+   OAA 被稱為 Acetyl-CoA acceptor。）
+   (1) Citrate synthase：Acetyl-CoA 與 OAA 結合，形成檸檬酸（citrate）
+                                                         ，檸檬酸可以穿越線粒體膜到達
+   細胞質。
+   (2) Citrate lyase：在細胞質中，檸檬酸被分解為 Acetyl-CoA 和 OAA，Acetyl-CoA 被釋放供脂肪酸合
+   成使用。
+   (3) Malate dehydrogenase：將細胞質中的 OAA 還原為蘋果酸（malate），蘋果酸可以穿過線粒體膜返
+   回線粒體。
+   故此題選(D)。
+                                    Chapter 21 Lipid Biosynthesis
+
+組長：洪碩謙                          學藝：陳政聖                         授課老師：黃彥華                              114.Sep.25
+選擇題
+1. Which of these statements about eicosanoid synthesis is true?
+ (A) An early step in the path to thromboxanes is blocked by ibuprofen.
+ (B) Arachidonate is derived mainly by hydrolysis of triacylglycerols.
+ (C) Aspirin acts by blocking the synthesis of arachidonate.
+ (D) Plants can synthesize leukotrienes, but humans cannot.
+ (E) Thromboxanes are produced from arachidonate via the “linear” path.
+
+2. Which of these statements about the regulation of cholesterol synthesis is NOT true?
+ (A) Cholesterol acquired in the diet has essentially no effect on the synthesis of cholesterol in the liver.
+ (B) Failure to regulate cholesterol synthesis predisposes humans to atherosclerosis.
+ (C) High intracellular cholesterol stimulates formation of cholesterol esters.
+ (D) Insulin stimulates HMG-CoA reductase.
+ (E) Some metabolite or derivative of cholesterol inhibits HMG-CoA reductase.
+
+3. Which of the following derivate is not from cholesterol?
+ (A) Prostacyclin
+ (B) Progesterone
+ (C) Calcitriol
+ (D) Androgens
+
+4. In the synthesis of phosphatidylcholine from phosphatidylethanolamine, the methyl group donor is:
+ (A) A tetrahydrofolate derivative.
+ (B) Choline
+ (C) Methanol
+ (D) S-adneosylmethionine (AdoMet)
+ (E) Serine
+
+5. Eicosanoids are groups of compounds derived from reaction of oxygen with polyunsaturated fatty acids.
+   Choose correct answer for the property of these lipid metabolites from the following:
+ (A) Eicosanoids are usually stable in tissues.
+ (B) They act as a polymer molecule to affect the function of the remote tissues.
+ (C) Eicosanoids can only be synthesized in lymphoid tissues.
+ (D) They are produced intracellularly but do not accumulate within the cells.
+6. Which of the following phospholipid is produced in eukaryotes but not prokaryotes?
+ (A) Phosphatidylglycerol
+ (B) Phosphatidylserine
+ (C) Phosphatidylethanolamine
+ (D) Phosphatidylinositol
+
+7. Which of the following amino acids is critical for choline and phosphatidylcholine synthesis?
+ (A) Serine
+ (B) β-alanine
+ (C) Homocysteine
+ (D) Methionine
+
+8. Tay-Sachs disease is the result of a genetic defect in the metabolism of:
+ (A) Gangliosides
+ (B) Phosphatidylethanolamine
+ (C) Sterols
+ (D) Triacylglycerols
+
+9. Tay-Sachs disease is caused by a deficiency of ______ which results in an accumulation of ______.
+ (A) Sphingomyelinase; sphingomyelin
+ (B) Ceramidase; ceramide
+ (C) α-galactosidase A; GM1 ganglioside
+ (D) Lysosomal N-acetylhexosaminidase A; GM2 ganglioside
+
+10. Phospholipids are synthesized in the ______, then transferred to the ______ via transportation vesicles.
+ (A) Smooth endoplasmic reticulum; Golgi complex
+ (B) Rough endoplasmic reticulum, smooth endoplasmic reticulum
+ (C) Smooth endoplasmic reticulum; lysosome
+ (D) Golgi complex; smooth endoplasmic reticulum
+
+11. How is the activity of HMG-CoA reductase retraced?
+ (A) Allosteric inhibition by cholesterol
+ (B) Ubiquitination in response to sterol accumulation resulting in proteolysis
+ (C) Serine phosphorylation by an insulin-activated protein kinase
+ (D) Tyrosine phosphorylation by AMPK
+12. The synthesis of phosphatidylethanolamine in prokaryotes involves ______, while in mammals
+______occurs.
+ (A) Reaction of CDP-diacylglycerol with ethanolamine; decarboxylation of phosphatidylserine
+ (B) Decarboxylation of phosphatidylserine; reaction of CDP-ethanolamine with diacylglycerol
+ (C) Reaction of phosphoethanolamine with diacylglycerol; reaction of CDP-ethanolamine with
+     diacylglycerol
+ (D) Decarboxylation of phosphatidylserine; reaction of CDP-diacylglycerol with ethanolamine
+
+
+13. Tay-Sachs disease is the result of a genetic defect in the metabolism of:
+ (A) Gangliosides
+ (B) Phosphatidyl ethanolamine
+ (C) Sterols
+ (D) Triacylglycerols
+
+14. InsP3 binds to _____ channels in the endoplasmic reticulum while DAG activates _____.
+ (A) Na＋ ; protein kinase A
+ (B) Na＋ ; protein kinase C
+ (C) Ca2＋ ; protein kinase A
+ (D) Ca2＋ ; protein kinase C
+
+
+15. How is the activity of HMG-CoA reductase reduced?
+ (A) Allosteric inhibition by cholesterol
+ (B) Ubiquitination in response to sterol accumulation resulting in proteolysis
+ (C) Serine phosphorylation by an insulin-activated protein kinase
+ (D) Ubiquitination in response to sterol degradation resulting in proteolysis
+
+16. In the synthesis of phosphatidylcholine from phosphatidylethanolamine, the methyl group donor is:
+ (A) A tetrahydrofolate derivative
+ (B) Choline
+ (C) Methanol
+ (D) S-adenosylmethionine (AdoMet)
+
+17. In E. coli the synthesis of phosphatidylethanolamine directly involves:
+ (A) Acyl carrier protein.
+ (B) Biotin
+ (C) CDP-choline
+ (D) Serine D
+簡答
+選擇題
+  1        2       3      4       5       6       7       8      9       10
+   A       A      A       D       D       D      A        A      D       A
+   11     12      13      14      15     16      17
+   A       B      A       D       B       D      D
+
+
+詳解
+1. (A)
+ (A) NSAIDs 藥物：Aspirin、Ibuprofin、Naproxen。
+ Ibuprofen 會抑制 COX 的活性，使具環狀結構的 Thromboxane 無法被合成。
+ (B) Arachidonate 主要是來自 phospholipid 的分解（PLA2 或是 PLC+DGL+MGL 切下 R2 支鏈）。
+ (C) Aspirin 抑制環氧化酶 COX (Cyclooxygenase)。
+ COX 的功能是將 Arachidonate 轉化成 Prostaglandin 和 Thromboxane，非抑制 Arachidonate 的合
+ 成（其相關酵素為 phospholipase A2）。
+ (D) 白三烯素 (Leukotriene) 可在人體被 leukocyte 合成，過多會使氣管平滑肌過度收縮而氣喘。
+ (E) 血栓素 (Thromboxane) 需要環氧化酶 COX 形成環化作用。
+
+
+2. (A)
+ (A) 錯誤。增加膽固醇的攝取會降低 HMG-CoA reductase 的活性，減少膽固醇的合成。也減少 LDL
+ Receptors 的合成。
+ (B) 周圍組織的膽固醇過度累積可能造成粥狀動脈硬化。
+ (C) 透過活化 ACAT 來促進 cholesterol ester 的合成，形成可排出體外的形式。
+ (D) 胰島素會提高 HMG-CoA reductase 的活性。
+ (E) 例如合成膽固醇的中間產物 Lanosterol 就可以造成 HMG-CoA reductase 的分解。
+
+
+3. (A)
+ (A) 前列腺素，是 Eicosanoid 的產物，從不飽和脂肪酸而來。
+ (B) 孕酮，為固醇類激素的前驅物。
+ (C) 骨化三醇，是維生素 D 的活化形式，是一種親脂性類固醇衍生物。在正常的情況下由腎臟所製
+ 造，也是體內的一種激素，在調節血鈣與血磷濃度方面有著重要作用。
+ (D) 性激素。
+
+
+4. (D)
+ 從 PE 到 PC 多了三個甲基，且為單向反應。
+ 用 PE methyl transferase（PEMT）將三個 AdoMet 的甲基給 PE 形成 PC，
+ 此時 AdoMet 變成 AdoHcy。
+5. (D)
+ (A) Eicosanoids 很短命，很快就會被代謝成其他物質（turnover rate 很高）。
+ (B) Eicosanoids 為旁泌激素 (Paracrine Hormone)，化學訊號只影響附近的目標細胞。
+ (C) Eicosanoids 並不只在淋巴器官中被合成，Thromboxane 由血小板生成，甚至會影響凝血。
+ (D) 正確。
+
+
+6. (D)
+ PC (Phosphatidylcholine) 和 PI (Phosphatidylinositol) 只在真核可見。
+ (A)(B)(C)皆在原核與真核共有的合成途徑合成。（參見 ch19 PPT 第四頁）
+
+
+7. (A)
+ Choline 含有羥基，因此含有羥基的胺基酸與 choline 及 PC 的合成最為相關，故選 Serine（可參考
+ 第四題詳解附圖）。
+ 〈百八考古：Serine 脫去 CO2 → ethanolamine；ethanolamine 加上三個甲基 → choline〉
+
+
+8. (A)
+ Tay-Sachs disease 是 β-N-Acetylhexosaminidase 缺失，累積的物質是 GM2 ganglioside。
+ 〈補充：Niemann-Pick disease 是 sphingomyelinase 缺失，造成 sphingomyelin 堆積。〉
+
+
+9. (D)
+ 同上題。
+
+
+10. (A)
+ 磷脂質在 sER 合成，經囊泡 (vesicle) 運送至高基氏體修飾。
+ 〈補充：rER 上有核糖體與蛋白質合成相關。〉
+
+
+11. (A)
+ 高膽固醇的狀態下，Lanosterol（膽固醇前驅物，可代表膽固醇的合成量）會促使
+ HMG-CoA reductase 經一連串反應後接上 ubiquitin 並被標記，再送到 proteasome 進行水解，降低膽
+ 固醇合成而使其量下降。
+ 〈補充：老師說因為 Lanosterol 馬上就會變成 Cholesterol，所以有 Lanosterol 就代表已經有很多
+ Cholesterol 了〉
+
+
+12. (B)
+ 原核生物只能透過 phosphatidylserine 脫去 CO2 形成 phosphatidylethanolamine；真核生物除上述途
+ 徑，還可透過 CDP-ethanolamine 與 diacylglycerol 反應合成 phosphatidylethanolamine。
+
+
+13. (A)
+ Tay-Sachs disease 起因於 N-acetylhexosaminidase A 缺陷，造成 GM2（一種 ganglioside）的累積。
+14. (D)
+ IP3 和 DAG 是細胞中重要的二級傳訊者，IP3 可以打開 ER 的鈣離子通道，促使內質網中的鈣離子
+ 大量釋放流進細胞質，此為放大傳遞訊號的方法，接著 DAG 會活化 PKC。
+ PI(Phosphatidylinositol)+2ATP→PIP2→IP3+DAG
+
+
+
+
+15. (B)
+ 固醇類過多會導致 Insig bind 到 HMG-CoA reductase，然後 gp78 會釋放 ubiquitin 標記 HMG-CoA，
+ 使 HMG-CoA 被分解。
+16. (D)
+ adoMet 上的 methyl group 非常不穩定，容易提供甲基給 PE 上的 R-NH3＋。此反應涉及三個
+ adoMet。
+
+
+17. (D)
+ 原核生物 PE 須由 PS 脫羧而得，而 PS 又是由 CDP-diacylglycerol 與 serine 反應而得，因此需要
+ serine。
+                        Chapter 23：Interorgan and Intracellular Coordination of
+                                    Energy Metabolism in Vertebrates
+
+ 組長：楊傑愉、洪碩謙                         學藝：陳政聖                       授課老師：黃彥華                 114. Oct. 2, 9
+
+1. Which of the following hormone does not trigger mobilization of Stored Triacylglycerols to form ATP?
+  (A) Glucocorticoids
+  (B) Glucagon
+  (C) Epinephrine
+  (D) Insulin
+
+
+2. Which of the following enzyme needs pyridoxal phosphate to activate itself?
+  (A) Hexokinase
+  (B) Glycogen phosphorylase
+  (C) Phosphofructokinase-1
+  (D) Pyruvate dehydrogenase
+
+
+3. Which of the following statement about metabolism is correct?
+  (A) During starvation, ketone body are the important fuels for all the organs.
+  (B) Glycerol kinase could not be found in adipocyte.
+  (C) During resting, fatty acids are the preferred fuels for skeletal muscle.
+  (D) Glucose-6-phosphate exists only in liver, not in muscle.
+
+
+4. Which of the following statement about Cori cycle is incorrect?
+  (A) The lactate dehydrogenase needs NADH to form lactate from pyruvate.
+  (B) In Cori cycle, gluconeogenesis reaction occurs in liver.
+  (C) When muscle cells lack glucose, pyruvate could be turned into lactate for fuel.
+  (D) Lactate is delivered from muscle to liver to generate glucose.
+
+
+5. Which of the following mechanism could not be enhanced by insulin?
+  (A) Glycolysis
+  (B) Glucose uptake
+  (C) Gluconeogenesis
+  (D) Glycogen synthesis
+ 6. Dr. Chen wants to extract the GLUT2 mRNA from cells. Which of the following organs (tissues) he could
+   use by your suggestion? (1) Liver (2) Pancreas (3) Small intestine (4) Renal tubular (5) Heart
+   (A) (1), (2), and (3)
+   (B) (1), (2), (3), and (4)
+   (C) (1), (2), (3), and (5)
+   (D) All
+
+
+ 7. Which of the following statement about leptin is correct?
+   (A) Defective OB (obese) gene enhances leptin generation, which results in obesity formation.
+   (B) Leptin is released from hypothalamus, which is controlled by adipose tissue.
+   (C) Leptin could inhibit fat β-oxidation.
+   (D) Leptin could regulate body heat via norepinephrine.
+
+
+ 8. Which of the following statement about Glucagon and Epinephrine is correct?
+   (A) Glucagon could enhance glycogenolysis in liver.
+   (B) Glucagon could enhance glycolysis in liver.
+   (C) Epinephrine could inhibit glycolysis in muscle.
+   (D) Epinephrine could inhibit glycogenolysis in muscle.
+
+
+ 9. Which of the following molecular does not directly involve in Glucagon-stimulated triacylglycerol
+   hydrolysis?
+   (A) Protein kinase C
+   (B) cAMP
+   (C) Albumin
+   (D) G protein
+
+
+10. Which of the following mechanism could not be observed when you are in long term starvation?
+   (A) Insulin deficiency
+   (B) Gluconeogenesis
+   (C) Glycogenesis
+   (D) β-oxidation
+
+
+11. Which of the following description could not be the major cause resulting in type I diabetes mellitus
+   formation?
+   (A) Insulin deficiency
+   (B) Destruction of islet β cells
+   (C) Autoimmune disease
+   (D) Insulin resistance
+12. Which of the following statement about fuel metabolism of organs in vertebrates is “correct”?
+   (A) Brain tissues use the α-hydroxybutyrate as energy sources during long-term starvation.
+   (B) In aerobic exercises, the pyruvate will be converted to lactate in skeletal muscles cells.
+   (C) In the liver ketogenesis, less malonyl-CoA levels, and more ketone bodies generations.
+   (D) In the rest, skeletal muscles use glucoses as major energy sources.
+
+
+13. Which of the following statement about fuel metabolism of muscles is “incorrect”?
+   (A) Since the muscle cells lack the glucose-6-phophatase, glucose derivatives produced from muscle
+       glycogen    cannot be transported and utilized by other tissues.
+   (B) In the Cori cycle, the released lactate will be transported from skeletal muscles to the liver.
+   (C) In muscle cells, glucoses are directly generated from lactates by gluconeogenesis.
+   (D) In skeletal muscles, nitrogen-containing wastes from amino acid metabolism are cleared by glucose
+       alanine cycle.
+
+
+14. Which of the following statement about fuel metabolism is “incorrect”?
+   (A) When starvation, dephosphorylated glycogen phosphorylase in liver cells increases blood sugar
+       concentration.
+   (B) In the long-term starvation, glucagon could enhance ketogenesis in liver cells to generate ketone
+       bodies.
+   (C) The glycerol-3-phosphate could not be directly generated from glycerol in adipocytes which lack
+       glycerol kinases.
+   (D) The lactate is the end product of glycolysis in erythrocytes.
+
+
+15. In liver cells, which of the following molecule is not related to glycogen synthesis?
+   (A) Glucokinase
+   (B) Hexokinase IV
+   (C) Glycogen synthase
+   (D) Glucose transporter 4 (GLUT4)
+
+
+16. Which of the following statement about insulin is “correct”?
+   (A) Insulin inhibits glycolysis in liver and muscle cells.
+   (B) Voltage gated Ca2＋-channel is important for releasing insulin from pancreas beta cells.
+   (C) Insulin enhances activation of protein kinase A (PKA) in inhibiting gluconeogenesis.
+   (D) The Insulin receptor, belonging to a receptor serine/ threonine kinase, is maintained in dimer form
+       without stimulation.
+17. Which of the following hormone is encoded from ADIPOQ gene in adipose tissues? Deficiency in this
+   hormone results in obesity formation. Furthermore, this hormone could enhance fatty acid oxidation and
+   insulin sensitivity.
+   (A) Leptin
+   (B) Ghrelin
+   (C) Somatostatin
+   (D) Adiponectin
+
+
+18. Which of the following compound cannot enhance glycolysis in muscle cells?
+   (A) Cyclic AMP
+   (B) Epinephrine
+   (C) Adiponectin
+   (D) AMP-Activated Protein Kinase (AMPK)
+
+
+19. Which of the following phenomenon is not commonly found in type 1 diabetes mellitus patients?
+   (A) Insulin resistance
+   (B) Insulin deficiency
+   (C) Younger onset
+   (D) Autoimmune inflammation
+
+
+20. Which of the following statement about fuel metabolism of the organ in vertebrates is “correct”?
+   (A) Brain tissues use the β-hydroxybutyrate as energy sources during long-term starvation.
+   (B) In aerobic exercises, the NADH is generated from the conversion of pyruvate to lactate in skeletal
+       muscle cells.
+   (C) In the rest, heart muscles use the ketone bodies as energy sources.
+   (D) In the liver ketogenesis, less acetyl-CoA levels, and more ketone bodies generations.
+
+
+21. Which of the following statement about fuel metabolism of muscles is “correct”?
+   (A) Since the muscle cells lack glycogen phosphorylase, glucose produced from muscle glycogen cannot
+       be transported and used by other tissues.
+   (B) In the Cori cycle, the released alanine will be transported from skeletal muscles to the liver.
+   (C) In muscle cells, glucose is directly produced from lactate by gluconeogenesis.
+   (D) In skeletal muscles, nitrogen-containing wastes from amino acids are cleared by glucose-alanine cycle.
+22. Which of the following statement about fuel metabolism is “correct”?
+   (A) When starvation, activated glycogen synthase in liver cells is the most important enzyme to increase
+         blood sugar concentration.
+   (B) In the long-term starvation, insulin could enhance ketogenesis in liver cells to generate ketone bodies.
+   (C) The glycerol-3-phosphate could not be directly generated from glycerol in adipocytes.
+   (D) The 2, 3-biphosphoglycerate is the end product of glycolysis in erythrocytes.
+
+
+23. Which of the following statement about insulin is “incorrect”?
+   (A) Insulin induces fatty acids synthesis in liver cells.
+   (B) Insulin enhances glucose uptake in muscle cells through GLUT2 channel.
+   (C) The insulin receptor, belonging to a receptor tyrosine kinase, is maintained in dimerization without
+         stimulation.
+   (D) IRS-1 and PI 3-Kinase are important downstream regulators in insulin signaling.
+
+
+24. Which of the following statement about leptin is “correct”?
+   (A) Leptin is a 16-kD hypothalamus-derived enzyme. Leptin could inhibit fat synthesis.
+   (B) Leptin is produced from hypothalamus, and acts on adipose tissue.
+   (C) Leptin is a product of OB (obese) gene. Defective leptin levels result in obesity and leptin levels
+         increase.
+   (D) Leptin enhances thermogenin gene expression via inducing norepinephrine release.
+
+
+25. Which of the following compound cannot activate the glycogen phosphorylase?
+   (A) Cyclic AMP
+   (B) Insulin
+   (C) Protein kinase A
+   (D) Epinephrine
+
+
+26. During long-term starvation, which of the following compound concentration in human blood will exhibit
+   the    most significant increase?
+   (A) Urea nitrogen
+   (B) α-Hydroxybutyrate
+   (C) Acetoacetate
+   (D) Alanine
+27. In long-term starvation or diabetic patients, which of the following event could be found?
+   (A) Urea nitrogen
+   (B) α-Hydroxybutyrate
+   (C) Acetoacetate
+   (D) Alanine
+
+
+28. Which inner organ could produce ketone body more?
+   (A) Brain
+   (B) Heart
+   (C) Liver
+   (D) Muscle
+
+
+29. 29.During fasting, which of the following statement cannot be observed in liver cells?
+   (A) Inactive Glucose-6-Phosphatase
+   (B) Phosphorylated glycogen synthase
+   (C) Phosphorylated glycogen phosphorylase
+   (D) Activated carnitine palmitoyltransferase I
+
+
+30. Which of the following statement can be in muscle cell?
+   (A) Glycogen is converted to glucose
+   (B) Lactate is converted to glucose
+   (C) Glucose is converted to lactate
+   (D) Acetyl-CoA is converted to acetoacetate
+
+
+31. Although Insulin may inhibit AMP-activated protein kinase (AMPK) activity, both of them can enhance
+   which of the following same mechanism in specific organs?
+   (A) Fatty acid oxidation
+   (B) Glycogen synthesis
+   (C) Fatty acids synthesis
+   (D) Glycolysis
+
+
+32. Which of the following cycle plays an important role in the glycolysis of blood cells?
+   (A) γ-Glutamyl cycle
+   (B) Pentose phosphate pathway
+   (C) Glucose-alanine cycle
+   (D) Citric acid cycle
+33. Increasing cAMP will enhance several downstream mechanisms. Which of the following phenomenon is
+   incorrect?
+   (A) Increasing ketogenesis
+   (B) Increasing glycogenolysis
+   (C) Increasing glycolysis
+   (D) Increasing triacylglycerol mobilization
+
+
+34. Exceptionally higher blood levels of which compound can be measured in patient with Prader-Willi
+   syndrome?
+   (A) Adiponectin
+   (B) Serotonin
+   (C) Methylmalonic acid
+   (D) Ghrelin
+
+
+35. Which of the following phenomenon is not directly related to Type 1 Diabetes Mellitus?
+   (A) An insulin-dependent disease
+   (B) Insulin resistance
+   (C) Auto immune antibody
+   (D) Usually younger onset and thin
+
+
+36. Which of the following statement about creatine is incorrect?
+   (A) Phosphocreatine is the more active form than creatine to generate power.
+   (B) Phosphocreatine turns into creatine by dehydration.
+   (C) S-Adenosylmethionine involves in creatine formation.
+  選擇題
+         1          2       3        4        5        6        7        8        9    10
+         D         B        BC       C        C        B        D        A       A     C
+         11        12       13       14       15       16      17        18      19    20
+         D         C        C        A        D        B        D        C       A     A
+         21        22       23       24       25       26      27        28      29    30
+         D         C        B        D        B        C        C        C       A     C
+         31        32       33       34       35       36
+         D         B        C        D        B        B
+
+
+1. (D)
+  胰島素促進合成，抑制分解，所以不會將被儲存的 triacylglycerol 分解為 acetyl-CoA。
+    (A) 即糖皮質素，可促進糖質新生、脂肪分解。
+    (B) 即升糖素，提高血液中葡萄糖和脂肪酸的濃度。
+    (C) 即腎上腺皮質素，能活化肝臟與肌肉中的磷酸化酶激酶，使其中的肝糖轉化為葡萄糖。
+
+
+2. (B)
+  Pyridoxal-5-phosphate 簡稱 PLP，為轉氨、轉硫、脫羧、脫氨、脫硫、血基質合成、消旋作用、Tryptophan
+  代謝、氨基酸吸收及 Glycogen phosphorylase 的輔酶。
+
+
+3. (B)(C)
+    (A) 身體在短暫飢餓時，所有器官都可能會短暫使用酮體當能量。但長期飢餓時，酮體只會供給三
+          個 重要器官──大腦、心臟和骨骼肌，其餘器官會停擺，包括製造 酮體的肝臟。因此不是題目
+          所說 的所有器官
+    (B) Glycerol kinase 存在於肝臟，參與 Glycerol 的糖質新生。由於脂肪組織缺乏 Glycerol kinase，
+          所以 Glycerol 會被送到肝臟進行糖質新生。步驟如下：
+              1. Glycerol 透過 Glycerol kinase 磷酸化為 Glycerol-3-phosphate
+              2. Glycerol-3-phosphate 經由 Glycerol-3-phosphate dehydrogenase 氧化為 DHAP
+              3. DHAP 進入 gluconeogenesis
+    (C) 正確
+    (D) 應為 Glucose-6-phosphatase，Glucose-6-phosphate 可生成 NADPH。
+
+
+4. (C)
+  肌肉激烈運動時，因爲糖解作用的速率超過檸檬酸循環的代謝速率，所以剩餘的丙酮酸會被還原成乳
+  酸，並由血液從肌肉運到肝臟進行糖質新生。由此可知 Cori cycle 起因於 Pyruvate 過多，而非
+  Glucose 過少。
+ 5. (C)
+   胰島素會減少血糖（使用或儲存），因此不會促進糖質新生。
+
+
+ 6. (B)
+   可以用二乾姨嘗試雞汁協助背誦所在位置
+                                                        所在位置
+                   GLUT1                    胎兒組織、紅血球、血腦障壁組織內皮細胞
+                   GLUT2                  肝臟、胰臟 β 細胞、海馬迴、小腸內皮細胞、
+                                                            腎小管
+                   GLUT3                       腦、精子、胚胎、白血球、癌細胞
+                   GLUT4                          骨骼肌、心肌、脂肪細胞
+
+
+ 7. (D)
+     (A) OB gene 的缺陷會導致瘦素分泌量下降（而非上升），造成肥胖。
+     (B) 瘦素由脂肪組織分泌。
+     (C) 瘦素會促進 β-oxidation。
+     (D) 瘦素除了能作用於下視丘以抑制食慾，也能使下視丘經由交感神經系，分泌正腎上腺素，作用
+          於 脂肪細胞，活化 β3-adrenergic receptor 後，再增加脂肪細胞 UCP1 基因的表現，因此粒線
+          體內膜上的 thermogenin 也隨之增加。故瘦素能透過正腎上線素調控體熱。
+
+
+ 8. (A)
+   升糖素會促進肝臟的肝糖分解，並抑制其糖解作用。腎上腺素會促進肌肉的肝糖分解及糖解作用以產
+   生 ATP，使骨骼肌能在危急時產生爆發力。
+
+
+ 9. (A)
+     (A) 沒有參與，Protein kinase C 主要參與平滑肌收縮。
+     (B) Gs protein 活化 AC，將 ATP 轉變為 cAMP。
+     (C) Free form fatty acid 在血液中是由白蛋白（serum albumin）運送。
+     (D) 升糖素、腎上腺素與受體結合，刺激下游的 Gs protein 作用。
+
+
+10. (C)
+   長期饑餓下會促進生糖作用，將大分子代謝成小分子以提供細胞養分，故不會出現肝糖合成。
+
+
+11. (D)
+   第一型糖尿病又稱胰島素依賴型糖尿病，為自體免疫疾病。因體內出現會攻擊胰島 β 細胞的抗體
+   所致，故患者血液中胰島素含量很低。(D)為第二型糖尿病症狀。
+12. (C)
+     (A) 應為 β-hydroxybutyrate。
+     (B) 無氧情況下，丙酮酸才會轉為乳酸。
+     (C) 正確，Malonyl-CoA 下降，停止抑制 Carnitine transporter 1，將 fatty acid 送入粒線體，使 Acetyl
+          CoA 上升，進而促進酮體生成。
+     (D) 休息時，骨骼肌利用脂肪酸，腦利用葡萄糖。
+
+
+13. (C)
+   肌肉細胞的乳酸是透過 Cori cycle 回到肝臟，再重新合成葡萄糖，並不是如題目所述在肌肉細胞直接
+   進行糖質新生。
+
+
+14. (A)
+   Dephosphorylated glycogen phosphorylase（未磷酸化）是非活化態，無法進行肝糖分解提升血糖，題幹
+   敘述更改為 phosphorylated glycogen phosphorylase 即正確。
+
+
+15. (D)
+     (A) 主要在肝臟負責糖解作用第一步，將葡萄糖變成 G6P。
+     (B) 和選項(A)是同樣的東西 。
+     (C) 肝糖合成酶負責將 UDP-glucose 合成為肝糖 。
+     (D) 根據老師上課的口訣：二乾姨嘗試雞汁，主要在肝臟的葡萄糖運輸蛋白是 GLUT2。
+
+
+16. (B)
+     (A) 胰島素在肝臟中活化 Protein phosphate，使 PFK-2／FBP-2 去磷酸化產生活性，和 HK-IV 形成
+          複合體促進糖解作用進行，如此變成 G6P 之後再進一步變成肝糖。
+     (B) 葡萄糖經由 GLUT2 運送至胰臟 β 細胞，經由糖解作用產生 ATP，接著抑制 ATP-sensitive 鉀
+          離子 通道，造成細胞膜去極化，鈣離子就此流入細胞內，胰島素就會被釋放。
+     (C) 主要考的是胰島素和升糖素的調控機制，作用如下：
+          I.胰島素藉由活化 protein kinase B（PKB）後磷酸化 glycogen synthase kinase 3（GSK3）使其變
+          成不活化態，如此就無法進行肝糖合成酶的磷酸化作用，而肝糖合成酶就會處於非磷酸化態，也
+          就是活化態，進而促進肝糖合成。
+          II.升糖素的調控機制是藉由活化 protein kinase A（PKA）
+                                               ，使 glycogen phosphokinase A 磷酸化，
+          進而將肝糖磷酸解酶磷酸化，使其成為活化態，進而促進肝糖分解。
+     (D) 胰島素受體是一個 RTK（Receptor Tyrosine Kinase）。
+17. (D)
+     (A) 瘦素（Leptin）會抑制食慾，若缺乏瘦素會導致肥胖，但瘦素是由 Obese gene 基因轉譯而成。
+     (B) 由胃產生飢餓素（Ghrelin）會促進食慾，若飢餓素過多會小胖威力症，缺乏飢餓素會使人變瘦。
+     (C) 體抑素（Somatostatin）主要是由下視丘、胃腸、胰臟分泌，用來抑制生長激素，和肥胖無關。
+     (D) Adiponectin 會抑制食慾，若缺乏亦會導致肥胖，且其是由 ADIPOQ 基因轉譯而來，可抑制糖
+          質新生、脂肪生成、降低食慾。
+   Leptin 和 Adiponectin 的缺乏都會導致肥胖，但 ADIPOQ 基因和 insulin sensitivity 是 Adiponectin
+   的專有 名詞，故選(D)。
+
+
+18. (C)
+     (A) cAMP 在 Liver 會間接使 pyruvate kinase 失去活性，無法促進 glycolysis 使 glucose 送到血液
+          中，血糖上升，但肝臟以外，像這題的 muscle，cAMP 會促進 pyruvate kinase 有活性，促進
+          glycolysis。
+     (B) 腎上腺素（Epinephrine）會促使肝醣 glycogen 去分解產生能量，促進 glycolysis。
+     (C) 脂聯素主要是由脂肪組織產生的激素，參與調節葡萄糖代謝和胰島素敏感性，雖然它對肌肉細
+          胞 有一些影響，但它不會直接增強糖酵解。
+     (D) AMPK 可以透過活化參與 glycolysis 途徑的關鍵酵素，來刺激糖解作用。像是： ♦ AMPK 會
+          活化 glycolysis 途徑中的關鍵酶，如磷酸果糖激酶-1（PFK-1）
+                                               ，加速糖解作用的進行。 ♦ AMPK
+          會促進葡萄糖轉運蛋白 GLUT4 轉移到細胞膜上，增加細胞對葡萄糖的攝取，為 glycolysis 提
+          供更多的底物。
+   AMPK 就像細胞內的能量狀態感知器，當細胞能量不足時，ATP 濃度下降，AMP 濃度上升，AMPK
+   就會被活化，促進 glycolysis 產生能量 ATP。
+
+
+19. (A)
+   胰島素抗性的症狀應該是見於第二型糖尿病，第一型糖尿病可能是因為基因或環境因素使免疫系統
+   攻 擊自己的 β 胰島細胞，通常早發。
+
+
+20. (A)
+     (A) 正確。
+     (B) 正常狀況下肌肉細胞有氧的時候並不會進行乳酸發酵，而且乳酸發酵只會產生 ATP。
+     (C) 休息狀態下，身體應該有足夠的能量可以讓心肌細胞不使用酮體，但因心臟需要源源不絕的量，
+          所以這個選項其實不能算全錯。
+     (D) Ketogenesis 的時候應該是 acetyl-CoA 的含量相當高，才有原料可以合成酮體。
+
+
+21. (D)
+     (A) 肌肉細胞缺乏的是 glucose-6-phosphatase 才無法將自己儲存的肝糖轉運到其他地方。
+     (B) Cori cycle 是乳酸從肌肉細胞運送到肝臟，不是 alanine。
+     (C) 肌肉細胞製造的乳酸要經由 Cori cycle 回到肝臟才能重新合成葡萄糖。
+22. (C)
+     (A) 應該是 glycogen phosphorylase 才能分解肝糖作為血糖來源。
+     (B) 酮體是脂肪分解後的附屬反應，胰島素會促進脂肪合成並儲存，但這跟酮體生成是反方向的。
+     (C) 脂肪細胞中沒有 glycerol kinase，所以不會合成 glycerol-3-phosphate。
+     (D) 紅血球糖解的最終產物是丙酮酸，2, 3-BPG 是糖解中間產物 1, 3-BPG 來的，可調控血氧濃度。
+
+
+23. (B)
+   根據老師上課的口訣：二乾姨嘗試雞汁，主要在肌肉的葡萄糖運輸蛋白是 GLUT4 不是 GLUT2。
+
+
+24. (D)
+     (A) 瘦素是脂肪細胞（adipocyte）合成的，不是下視丘。
+     (B) 瘦素是脂肪細胞（adipocyte）合成作用於下視丘，順序反了。
+     (C) 人類的肥胖是源自於瘦素受體的缺陷造成瘦素抗性（Leptin resistance），而非瘦素的量。
+
+
+25. (B)
+   胰島素（Insulin）會活化肝醣合成酶（glycogen synthase）
+                                         ，並抑制（去磷酸化）肝醣磷酸水解酶 （glycogen
+   phosphorylase），將 G6P 合成肝醣，故選(B)。
+   其他選項：(A) Cyclic AMP 和 (C) Protein kinase A 都參與了糖原分解的訊號傳遞路徑，會促進
+   glycogen phosphorylase 的活化。(D) Epinephrine（腎上腺素）也會通過促進 cyclic AMP 的生成，進
+   一步活化 glycogen phosphorylase 以分解糖原。
+
+
+26. (C)
+   長期饑餓的人體內會有較多的酮體，酮體主要有 β-hydroxybutyrate、acetoacetate、acetone。而 β
+   hydroxybutyrate 的增加比 acetoacetate 更顯著，因其為主要產生能量者。
+
+
+27. (C)
+   同 26.
+
+
+28. (C)
+   主要製造酮體的器官就是肝臟。
+
+
+29. (A)
+   在禁食期間，肝細胞中的 Gluconeogenesis 和 Glycogenolysis 是主要的能量供應途徑。
+   (A)應該要是活化的 glucose-6-phosphatase，才能把肝糖變成的 G6P 變成葡萄糖。
+   (B) (C)磷酸化後使 glycogen synthase 去活化，glycogen phosphorylase 活化，以促進肝糖的分解。
+   (D) CPT-I 負責將長鏈脂肪酸運送至粒線體中進行 β-氧化，禁食期間脂肪酸氧化是肝臟產生能量的重
+   要途徑，因此該酶是活化狀態。
+30. (C)
+   在肌肉細胞中，當氧氣供應不足時（如劇烈運動時），葡萄糖被分解成丙酮酸，而丙酮酸進一步乳酸
+   發酵轉化為乳酸。因此，選項 (C) 是正確的。
+     (A) 在肌肉細胞中缺乏 glucose-6-phosphatase，也就是糖解作用第一步驟逆反應的酵素，因此肌肉中
+          的 肝糖變成 G6P 之後並不會變成葡萄糖。
+     (B) 乳酸會經由 Cori cycle 回到肝臟重新合成葡萄糖，此過程不會發生在肌肉細胞中。
+     (C) 正確。
+     (D) 此為酮體形成路徑（ketogenesis）
+                             ，在肝臟反應。
+
+
+31. (D)
+   AMPK 降血糖，負責產生能量但不負責儲存；胰島素也是降血糖，但也可以用儲存能量的方法。兩
+   者 交集為糖解作用。
+
+
+32. (B)
+   PPP 協助紅血球能量代謝，補充糖解所需原料。PPP 主要存在的意義除了產生核苷酸之外，NADPH
+   的產生也很重要。NADPH 在紅血球中去除多餘過氧化物，若無法去除這些過氧化物會造成溶血。
+
+
+33. (C)
+   cAMP 作為升糖素和腎上腺素的下游訊息傳遞者，通常會抑制糖解作用（磷酸化 PFK-2／FBPase-2）
+                                                       。
+   在肌肉細胞中為例外，因為活化肝糖磷酸解酶造成糖解反應物增加，且肌肉細胞中的糖解作用沒有受
+   到 PFK-2／FBPase-2 抑制，因此會加快糖解。
+
+
+34. (D)
+   小胖威力症是因為飢餓素（Ghrelin）分泌過多以致於進食過量，造成肥胖。
+
+
+35. (B)
+   此為第二型糖尿病會發生的主因，而非第一型。而其他選項(A)依賴胰島素、(C)自體免疫抗體的存在
+   和(D)年輕發病且較瘦為第一型的特徵。
+
+
+36. (B)
+   磷酸肌酸（Phosphocreatine, PCr）藉由去磷酸化（dephosphorylation）變成肌酸（Creatine, Cr），而不
+   是脫水（dehydration）
+                  。
+    Chapter 23-2 Hormonal Regulation and Integration of Mammalian Metabolism
+
+組長：洪碩謙                         學藝：陳政聖                        授課老師：陳顧中                          114.Oct.9
+選擇題
+1. Which of the following hormone does not trigger mobilization of Stored Triacylglycerols to form ATP?
+ (A) Glucocorticoids
+ (B) Glucagon
+ (C) Epinephrine
+ (D) Insulin
+
+2. Which of the following enzyme needs pyridoxal phosphate to activate itself?
+ (A) Hexokinase
+ (B) Glycogen phosphorylase
+ (C) Phosphofructokinase-1
+ (D) Pyruvate dehydrogenase
+
+3. Which of the following statement about metabolism is correct?
+ (A) During starvation, ketone body are the important fuels for all the organs.
+ (B) Glycerol kinase could not be found in adipocyte.
+ (C) During resting, fatty acids are the preferred fuels for skeletal muscle.
+ (D) Glucose-6-phosphate exists only in liver, not in muscle.
+
+4. Which of the following statement about Cori cycle is incorrect?
+ (A) The lactate dehydrogenase needs NADH to form lactate from pyruvate.
+ (B) In Cori cycle, gluconeogenesis reaction occurs in liver. ‘
+ (C) When muscle cells lack glucose, pyruvate could be turned into lactate for fuel.
+ (D) Lactate is delivered from muscle to liver to generate glucose.
+
+5. Which of the following mechanism could not be enhanced by insulin?
+ (A) Glycolysis
+ (B) Glucose uptake
+ (C) Gluconeogenesis
+ (D) Glycogen synthesis
+
+
+6. Dr. Chen wants to extract the GLUT2 mRNA from cells. Which of the following organs (tissues) he could
+use by your suggestion? (1) Liver (2) Pancreas (3) Small intestine (4) Renal tubular (5) Heart
+ (A) (1), (2), and (3)
+ (B) (1), (2), (3), and (4)
+ (C) (1), (2), (3), and (5)
+ (D) All
+7. Which of the following statement about leptin is incorrect?
+ (A) Defective OB (obese) gene enhances leptin generation, which results in obesity formation.
+ (B) Leptin is released from hypothalamus, which is controlled by adipose tissue.
+ (C) Leptin could inhibit fat β-oxidation.
+ (D) Leptin could regulate body heat via norepinephrine.
+
+8. Which of the following statement about Glucagon and Epinephrine is correct?
+ (A) Glucagon could enhance glycogenolysis in liver.
+ (B) Glucagon could enhance glycolysis in liver.
+ (C) Epinephrine could inhibit glycolysis in muscle.
+ (D) Epinephrine could inhibit glycogenolysis in muscle.
+
+9. Which of the following molecular does not directly involve in Glucagon-stimulated triacylglycerol
+   hydrolysis?
+ (A) Protein kinase C
+ (B) cAMP
+ (C) Albumin
+ (D) G protein
+
+10. Which of the following mechanism could not be observed when you are in long term starvation?
+ (A) Insulin deficiency
+ (B) Gluconeogenesis
+ (C) Glycogenesis
+ (D) β-oxidation
+
+11. Which of the following description could not be the major cause resulting in type I diabetes mellitus
+    formation?
+ (A) Insulin deficiency
+ (B) Destruction of islet β cells
+ (C) Autoimmune disease
+ (D) Insulin resistance
+
+12. Which of the following statement about fuel metabolism of organs in vertebrates is “correct”?
+ (A) Brain tissues use the α-hydroxybutyrate as energy sources during long-term starvation.
+ (B) In aerobic exercises, the pyruvate will be converted to lactate in skeletal muscles cells.
+ (C) In the liver ketogenesis, less malonyl-CoA levels, and more ketone bodies generations.
+ (D) In the rest, skeletal muscles use glucoses as major energy sources.
+
+13. Which of the following statement about fuel metabolism of muscles is “incorrect”?
+ (A) Since the muscle cells lack the glucose-6-phophatase, glucose derivatives produced from muscle
+      glycogen cannot be transported and utilized by other tissues.
+ (B) In the Cori cycle, the released lactate will be transported from skeletal muscles to the liver.
+ (C) In muscle cells, glucoses are directly generated from lactates by gluconeogenesis.
+ (D) In skeletal muscles, nitrogen-containing wastes from amino acid metabolism are cleared by glucose
+    alanine cycle.
+
+14. Which of the following statement about fuel metabolism is “incorrect”?
+ (A) When starvation, dephosphorylated glycogen phosphorylase in liver cells increases blood sugar
+   concentration.
+ (B) In the long-term starvation, glucagon could enhance ketogenesis in liver cells to generate ketone
+    bodies.
+ (C) The glycerol-3-phosphate could not be directly generated from glycerol in adipocytes which lack
+    glycerol kinases.
+ (D) The lactate is the end product of glycolysis in erythrocytes.
+
+15. In liver cells, which of the following molecule is not related to glycogen synthesis?
+ (A) Glucokinase
+ (B) Hexokinase IV
+ (C) Glycogen synthase
+ (D) Glucose transporter 4 (GLUT4)
+
+16. Which of the following statement about insulin is “correct”?
+ (A) Insulin inhibits glycolysis in liver and muscle cells.
+ (B) Voltage gated Ca2＋ -channel is important for releasing insulin from pancreas beta cells.
+ (C) Insulin enhances activation of protein kinase A (PKA) in inhibiting gluconeogenesis.
+ (D) The Insulin receptor, belonging to a receptor serine/ threonine kinase, is maintained in dimer form
+    Without stimulation.
+
+17. Which of the following hormone is encoded from ADIPOQ gene in adipose tissues? Deficiency in this
+hormone results in obesity formation. Furthermore, this hormone could enhance fatty acid oxidation and
+insulin sensitivity.
+  (A) Leptin
+  (B) Ghrelin
+  (C) Somatostatin
+  (D) Adiponectin
+
+18. Which of the following compound cannot enhance glycolysis in muscle cells?
+ (A) Cyclic AMP
+ (B) Epinephrine
+ (C) Adiponectin
+ (D) AMP-Activated Protein Kinase (AMPK)
+19. Which of the following phenomenon is not commonly found in type 1 diabetes mellitus patients?
+ (A) Insulin resistance
+ (B) Insulin deficiency
+ (C) Younger onset
+ (D) Autoimmune inflammation
+
+20. Which of the following statement about fuel metabolism of the organ in vertebrates is “correct”?
+ (A) Brain tissues use the β-hydroxybutyrate as energy sources during long-term starvation.
+ (B) In aerobic exercises, the NADH is generated from the conversion of pyruvate to lactate in skeletal
+    muscle cells.
+ (C) In the rest, heart muscles use the ketone bodies as energy sources.
+ (D) In the liver ketogenesis, less acetyl-CoA levels, and more ketone bodies generations.
+
+21. Which of the following statement about fuel metabolism of muscles is “correct”?
+ (A) Since the muscle cells lack glycogen phosphorylase, glucose produced from muscle glycogen cannot
+      be transported and used by other tissues.
+ (B) In the Cori cycle, the released alanine will be transported from skeletal muscles to the liver.
+ (C) In muscle cells, glucose is directly produced from lactate by gluconeogenesis.
+ (D) In skeletal muscles, nitrogen-containing wastes from amino acids are cleared by glucose-alanine cycle.
+
+22. Which of the following statement about fuel metabolism is “correct”?
+ (A) When starvation, activated glycogen synthase in liver cells is the most important enzyme to increase
+    blood sugar concentration.
+ (B) In the long-term starvation, insulin could enhance ketogenesis in liver cells to generate ketone bodies.
+ (C) The glycerol-3-phosphate could not be directly generated from glycerol in adipocytes.
+ (D) The 2, 3-biphosphoglycerate is the end product of glycolysis in erythrocytes.
+
+23. Which of the following statement about insulin is “incorrect”?
+ (A) Insulin induces fatty acids synthesis in liver cells.
+ (B) Insulin enhances glucose uptake in muscle cells through GLUT2 channel.
+ (C) The insulin receptor, belonging to a receptor tyrosine kinase, is maintained in dimerization without
+      stimulation.
+ (D) IRS-1 and PI 3-Kinase are important downstream regulators in insulin signaling.
+
+24. Which of the following statement about leptin is “correct”?
+ (A) Leptin is a 16-kD hypothalamus-derived enzyme. Leptin could inhibit fat synthesis.
+ (B) Leptin is produced from hypothalamus, and acts on adipose tissue.
+ (C) Leptin is a product of OB (obese) gene. Defective leptin levels results in obesity and leptin levels
+     increase.
+ (D) Leptin enhances thermogenin gene expression via inducing norepinephrine release.
+25. Which of the following compound cannot activate the glycogen phosphorylase?
+ (A) Cyclic AMP
+ (B) Insulin
+ (C) Protein kinase A
+ (D) Epinephrine
+
+26. During long-term starvation, which of the following compound concentration in human blood will
+    exhibit the most significant increase?
+ (A) Urea nitrogen
+ (B) α-Hydroxybutyrate
+ (C) Acetoacetate
+ (D) Alanine
+
+27. In long-term starvation or diabetic patients, which of the following event could be found?
+ (A) Urea nitrogen
+ (B) α-Hydroxybutyrate
+ (C) Acetoacetate
+ (D) Alanine
+
+28. Which inner organ could produce ketone body more?
+ (A) Brain
+ (B) Heart
+ (C) Liver
+ (D) Muscle
+
+29. During fasting, which of the following statement cannot be observed in liver cells?
+ (A) Inactive Glucose-6-Phosphatase
+ (B) Phosphorylated glycogen synthase
+ (C) Phosphorylated glycogen phosphorylase
+ (D) Activated carnitine palmitoyltransferase I
+
+30. Which of the following statement can be in muscle cell?
+ (A) Glycogen is converted to glucose
+ (B) Lactate is converted to glucose
+ (C) Glucose is converted to lactate
+ (D) Acetyl-CoA is converted to acetoacetate
+31. Although Insulin may inhibit AMP-activated protein kinase (AMPK) activity, both of them can enhance
+    which of the following same mechanism in specific organs?
+ (A) Fatty acid oxidation
+ (B) Glycogen synthesis
+ (C) Fatty acids synthesis
+ (D) Glycolysis
+
+32. Which of the following cycle plays an important role in the glycolysis of blood cells?
+ (A) γ-Glutamyl cycle
+ (B) Pentose phosphate pathway
+ (C) Glucose-alanine cycle
+ (D) Citric acid cycle
+
+33. Increasing cAMP will enhance several downstream mechanisms. Which of the following phenomenon is
+     incorrect?
+ (A) Increasing ketogenesis
+ (B) Increasing glycogenolysis
+ (C) Increasing glycolysis
+ (D) Increasing triacylglycerol mobilization
+
+34. Exceptionally higher blood levels of which compound can be measured in patient with Prader-Willi
+    syndrome?
+ (A) Adiponectin
+ (B) Serotonin
+ (C) Methylmalonic acid
+ (D) Grelin
+
+35. Which of the following phenomenon is not directly related to Type 1 Diabetes Mellitus?
+ (A) An insulin-dependent disease
+ (B) Insulin resistance
+ (C) Auto immune antibody
+ (D) Usually younger onset and thin
+
+36. .Which of the following statement about creatine is incorrect?
+ (A) Phosphocreatine is the more active form than creatine to generate power.
+ (B) Phosphocreatine turns into creatine by dehydration.
+ (C) S-Adenosylmethionine involves in creatine formation.
+
+
+
+
+簡答
+選擇題
+  1       2      3      4      5       6      7      8      9      10
+   D      B     BC      C      C      B     ABC      A      A      C
+  11     12      13     14     15     16     17     18      19     20
+   D      C      C      A      D      B       D      C      A      A
+  21     22      23     24     25     26     27     28      29     30
+   D      C      B      D      B      C       C      C      A      C
+  31     32      33     34     35     36
+   D      B      C      D      B      B
+
+
+詳解
+1. (D)
+ 胰島素促進合成，抑制分解，所以不會將被儲存的 triacylglycerol 分解為 acetyl-CoA。
+ (A) 即糖皮質素，可促進糖質新生、脂肪分解。
+ (B) 即升糖素，提高血液中葡萄糖和脂肪酸的濃度。
+ (C) 即腎上腺皮質素，能活化肝臟與肌肉中的磷酸化酶激酶，使其中的肝糖轉化為葡萄糖。
+
+
+2. (B)
+ Pyridoxal-5-phosphate 簡稱 PLP，為轉氨、轉硫、脫羧、脫氨、脫硫、血基質合成、消旋作用、
+ Tryptophan 代謝、氨基酸吸收及 Glycogen phosphorylase 的輔酶。
+
+
+3. (B)(C)
+ (A) 身體在短暫飢餓時，所有器官都可能會短暫使用酮體當能量。但長期飢餓時，酮體只會供給三
+ 個重要器官──大腦、心臟和骨骼肌，其餘器官會停擺，包括製造 酮體的肝臟。因此不是題目所
+ 說的所有器官
+ (B) Glycerol kinase 存在於肝臟，參與 Glycerol 的糖質新生。由於脂肪組織缺乏 Glycerol kinase，所
+ 以 Glycerol 會被送到肝臟進行糖質新生。步驟如下：
+ 1. Glycerol 透過 Glycerol kinase 磷酸化為 Glycerol-3-phosphate
+ 2. Glycerol-3-phosphate 經由 Glycerol-3-phosphate dehydrogenase 氧化為 DHAP
+ 3. DHAP 進入 gluconeogenesis
+ (C) 正確
+ (D) 應為 Glucose-6-phosphatase，Glucose-6-phosphate 可生成 NADPH。
+
+
+4. (C)
+ 肌肉激烈運動時，因爲糖解作用的速率超過檸檬酸循環的代謝速率，所以剩餘的丙酮酸會被還原成
+ 乳酸，並由血液從肌肉運到肝臟進行糖質新生。由此可知 Cori cycle 起因於 Pyruvate 過多，而非
+ Glucose 過少。
+
+
+5. (C)
+ 胰島素會減少血糖（使用或儲存），因此不會促進糖質新生。
+6. (B) 可以用二乾姨嘗試雞汁協助背誦細胞質
+                                    所在位置
+GLUT1                        胎兒組織、紅血球、血腦障壁組織內皮細胞
+GLUT2                     肝臟、胰臟 β 細胞、海馬迴、小腸內皮細胞、腎小管
+
+GLUT3                            腦、精子、胚胎、白血球、癌細胞
+GLUT4                                骨骼肌、心肌、脂肪細胞
+
+7. (A)(B)(C)
+ (A) OB gene 的缺陷會導致瘦素分泌量下降（而非上升），造成肥胖。
+ (B) 瘦素由脂肪組織分泌。
+ (C) 瘦素會促進β-oxidation。
+ (D) 瘦素除了能作用於下視丘以抑制食慾，也能使下視丘經由交感神經系，分泌正腎上腺素，作用
+      於脂肪細胞，活化β3-adrenergic receptor 後，再增加脂肪細胞 UCP1 基因的表現，因此粒線體
+      內膜上的 thermogenin 也隨之增加。故瘦素能透過正腎上線素調控體熱。
+
+
+8. (A)
+ 升糖素會促進肝臟的肝糖分解，並抑制其糖解作用。腎上腺素會促進肌肉的肝糖分解及糖解作用以
+ 產生 ATP，使骨骼肌能在危急時產生爆發力。
+
+
+9. (A)
+ (A) 沒有參與，Protein kinase C 主要參與平滑肌收縮。
+ (B) Gs protein 活化 AC，將 ATP 轉變為 cAMP。
+ (C) Free form fatty acid 在血液中是由白蛋白（serum albumin）運送。
+ (D) 升糖素、腎上腺素與受體結合，刺激下游的 Gs protein 作用。
+
+
+10. (C)
+ 長期饑餓下會促進生糖作用，將大分子代謝成小分子以提供細胞養分，故不會出現肝糖合成。
+
+
+11. (D)
+ 第一型糖尿病又稱胰島素依賴型糖尿病，為自體免疫疾病。因體內出現會攻擊胰島 β 細胞的抗體
+ 所致，故患者血液中胰島素含量很低。(D)為第二型糖尿病症狀。
+
+
+12. (C)
+ (A) 應為β-hydroxybutyrate。
+ (B) 無氧情況下，丙酮酸才會轉為乳酸。
+ (C) 正確，Malonyl-CoA 下降，停止抑制 Carnitine transporter 1，將 fatty acid 送入粒線體，使 Acetyl
+      CoA 上升，進而促進酮體生成。
+ (D) 休息時，骨骼肌利用脂肪酸，腦利用葡萄糖。
+13. (C)
+ 肌肉細胞的乳酸是透過 Cori cycle 回到肝臟，再重新合成葡萄糖，並不是如題目所述在肌肉細胞直
+ 接進行糖質新生。
+
+
+14. (A)
+ Dephosphorylated glycogen phosphorylase（未磷酸化）是非活化態，無法進行肝糖分解提升血糖，
+ 題幹敘述更改為 phosphorylated glycogen phosphorylase 即正確。
+
+
+15. (D)
+ (A)主要在肝臟負責糖解作用第一步，將葡萄糖變成 G6P。
+ (B)和選項(A)是同樣的東西 。
+ (C)肝糖合成酶負責將 UDP-glucose 合成為肝糖 。
+ (D)根據老師上課的口訣：二乾姨嘗試雞汁，主要在肝臟的葡萄糖運輸蛋白是 GLUT2。
+
+
+16. (B)
+ (A) 胰島素在肝臟中活化 Protein phosphate，使 PFK-2／FBP-2 去磷酸化產生活性，和 HK-IV 形成
+       複合體促進糖解作用進行，如此變成 G6P 之後再進一步變成肝糖。
+ (B) 葡萄糖經由 GLUT2 運送至胰臟 β 細胞，經由糖解作用產生 ATP，接著抑制 ATP-sensitive 鉀離
+       子通道，造成細胞膜去極化，鈣離子就此流入細胞內，胰島素就會被釋放。
+ (C) 主要考的是胰島素和升糖素的調控機制，作用如下：
+     I.胰島素藉由活化 protein kinase B（PKB）後磷酸化 glycogen synthase kinase 3（GSK3）使其變
+     成不活化態，如此就無法進行肝糖合成酶的磷酸化作用，而肝糖合成酶就會處於非磷酸化態，
+     也就是活化態，進而促進肝糖合成。
+     II.升糖素的調控機制是藉由活化 protein kinase A（PKA），使 glycogen phosphokinase A 磷酸化，
+     進而將肝糖磷酸解酶磷酸化，使其成為活化態，進而促進肝糖分解。
+ (D) 胰島素受體是一個 RTK（Receptor Tyrosine Kinase）。
+
+
+17. (D)
+ (A) 瘦素（Leptin）會抑制食慾，若缺乏瘦素會導致肥胖，但瘦素是由 Obese gene 基因轉譯而成。
+ (B) 由胃產生飢餓素（Ghrelin）會促進食慾，若飢餓素過多會小胖威力症，缺乏飢餓素會使人變
+      瘦。
+ (C) 體抑素（Somatostatin）主要是由下視丘、胃腸、胰臟分泌，用來抑制生長激素，和肥胖無關。
+ (D) Adiponectin 會抑制食慾，若缺乏亦會導致肥胖，且其是由 ADIPOQ 基因轉譯而來，功能如下：
+     抑制糖質新生、脂肪生成、降低食慾。
+  Leptin 和 Adiponectin 的缺乏都會導致肥胖，但 ADIPOQ 基因和 insulin sensitivity 是 Adiponectin 的
+ 專有名詞，故選(D)。
+18. (C)
+ (A) cAMP 在 Liver 會間接使 pyruvate kinase 失去活性，無法促進 glycolysis 使 glucose 送到血液
+     中，血糖上升，但肝臟以外，像這題的 muscle，cAMP 會促進 pyruvate kinase 有活性，促進
+     glycolysis。
+ (B) 腎上腺素（Epinephrine）會促使肝醣 glycogen 去分解產生能量，促進 glycolysis。
+ (C) 脂聯素主要是由脂肪組織產生的激素，參與調節葡萄糖代謝和胰島素敏感性，雖然它對肌肉細
+     胞有一些影響，但它不會直接增強糖酵解。
+ (D) AMPK 可以透過活化參與 glycolysis 途徑的關鍵酵素，來刺激糖解作用。像是：
+    ♦ AMPK 會活化 glycolysis 途徑中的關鍵酶，如磷酸果糖激酶-1（PFK-1），加速糖解作用的進
+     行。
+    ♦ AMPK 會促進葡萄糖轉運蛋白 GLUT4 轉移到細胞膜上，增加細胞對葡萄糖的攝取，為
+     glycolysis 提供更多的底物。
+    ♦ AMPK 就像細胞內的能量狀態感知器，當細胞能量不足時，ATP 濃度下降，AMP 濃度上升
+     AMPK 就會被活化，促進 glycolysis 產生能量 ATP。
+
+
+19. (A)
+ 胰島素抗性的症狀應該是見於第二型糖尿病，第一型糖尿病可能是因為基因或環境因素使免疫系統
+ 攻擊自己的 β 胰島細胞，通常早發。
+
+
+20. (A)
+ (B) 正常狀況下肌肉細胞有氧的時候並不會進行乳酸發酵，而且乳酸發酵只會產生 ATP。
+ (C) 休息狀態下，身體應該有足夠的能量可以讓心肌細胞不使用酮體，但因心臟需要源源不絕的
+      量，所以這個選項其實不能算全錯。
+ (D) Ketogenesis 的時候應該是 acetyl-CoA 的含量相當高，才有原料可以合成酮體。
+
+
+21. (D)
+ (A) 肌肉細胞缺乏的是 glucose-6-phosphatase 才無法將自己儲存的肝糖轉運到其他地方。
+ (B) Cori cycle 是乳酸從肌肉細胞運送到肝臟，不是 alanine。
+ (C) 肌肉細胞製造的乳酸要經由 Cori cycle 回到肝臟才能重新合成葡萄糖。
+
+
+22. (C)
+ (A) 應該是 glycogen phosphorylase 才能分解肝糖作為血糖來源。
+ (B) 酮體是脂肪分解後的附屬反應，胰島素會促進脂肪合成並儲存，但這跟酮體生成是反方向的。
+ (C) 脂肪細胞中沒有 glycerol kinase，所以不會合成 glycerol-3-phosphate。
+ (D) 紅血球糖解的最終產物是丙酮酸，2, 3-BPG 是糖解中間產物 1, 3-BPG 來的，可調控血氧濃度。
+
+
+23. (B)
+ 根據老師上課的口訣：二乾姨嘗試雞汁，主要在肌肉的葡萄糖運輸蛋白是 GLUT4 不是 GLUT2。
+24. (D)
+ (A) 瘦素是脂肪細胞（adipocyte）合成的，不是下視丘。
+ (B) 瘦素是脂肪細胞（adipocyte）合成作用於下視丘，順序反了。
+ (C) 人類的肥胖是源自於瘦素受體的缺陷造成瘦素抗性（Leptin resistance），而非瘦素的量。
+
+
+25. (B)
+ 胰島素（Insulin）會活化肝醣合成酶（glycogen synthase），並抑制（去磷酸化）肝醣磷酸水解酶
+ （glycogen phosphorylase），將 G6P 合成肝醣，故選(B)。
+ 其他選項：(A) Cyclic AMP 和 (C) Protein kinase A 都參與了糖原分解的訊號傳遞路徑，會促進
+ glycogen phosphorylase 的活化。(D) Epinephrine（腎上腺素）也會通過促進 cyclic AMP 的生成，進
+ 一步活化 glycogen phosphorylase 以分解糖原。
+
+
+26. (C)
+ 長期饑餓的人體內會有較多的酮體，酮體主要有β-hydroxybutyrate、acetoacetate、acetone。而β
+ hydroxybutyrate 的增加比 acetoacetate 更顯著，因其為主要產生能量者。
+
+
+27. (C)
+ 同 26.
+
+
+28. (C)
+ 主要製造酮體的器官就是肝臟。
+
+
+29. (A)
+ 在禁食期間，肝細胞中的 Gluconeogenesis 和 Glycogenolysis 是主要的能量供應途徑。
+ (A) 應該要是活化的 glucose-6-phosphatase，才能把肝糖變成的 G6P 變成葡萄糖。
+ (B) (C)磷酸化後使 glycogen synthase 去活化，glycogen phosphorylase 活化，以促進肝糖的分解。
+ (D) CPT-I 負責將長鏈脂肪酸運送至粒線體中進行β-氧化，禁食期間脂肪酸氧化是肝臟產生能量的
+     重要途徑，因此該酶是活化狀態。
+
+
+30. (C)
+ 在肌肉細胞中，當氧氣供應不足時（如劇烈運動時），葡萄糖被分解成丙酮酸，而丙酮酸進一步乳
+ 酸
+ 發酵轉化為乳酸。因此，選項 (C) 是正確的。
+ (A) 在肌肉細胞中缺乏 glucose-6-phosphatase，也就是糖解作用第一步驟逆反應的酵素，因此肌肉中
+      的肝糖變成 G6P 之後並不會變成葡萄糖。
+ (B) 乳酸會經由 Cori cycle 回到肝臟重新合成葡萄糖，此過程不會發生在肌肉細胞中。
+ (D) 此為酮體形成路徑（ketogenesis），在肝臟反應。
+
+
+31. (D)
+ AMPK 降血糖，負責產生能量但不負責儲存；胰島素也是降血糖，但也可以用儲存能量的方法。
+ 兩者交集為糖解作用。
+32. (B)
+ PPP 協助紅血球能量代謝，補充糖解所需原料。PPP 主要存在的意義除了產生核苷酸之外，
+ NADPH 的產生也很重要。NADPH 在紅血球中去除多餘過氧化物，若無法去除這些過氧化物會造
+成溶血。
+
+
+33. (C)
+ cAMP 作為升糖素和腎上腺素的下游訊息傳遞者，通常會抑制糖解作用（磷酸化 PFK-2／FBPase-
+ 2）。在肌肉細胞中為例外，因為活化肝糖磷酸解酶造成糖解反應物增加，且肌肉細胞中的糖解作用
+ 沒有受到 PFK-2／FBPase-2 抑制，因此會加快糖解。
+
+
+34. (D)
+小胖威力症是因為飢餓素（Ghrelin）分泌過多以致於進食過量，造成肥胖。
+
+
+35. (B)
+ 此為第二型糖尿病會發生的主因，而非第一型。而其他選項(A)依賴胰島素、(C)自體免疫抗體的存
+ 在和(D)年輕發病且較瘦為第一型的特徵。
+
+
+36. (B)
+ 磷酸肌酸（Phosphocreatine, PCr）藉由去磷酸化（dephosphorylation）變成肌酸（Creatine, Cr），而
+ 不是脫水（dehydration）。
+                  Chapter 18 Amino Acid Oxidation and the Production of Urea
+
+     組長：楊傑愉              組員：楊承憲、林高宇                    學藝：陳政聖                授課老師：陳顧中            114.Oct.16
+
+
+
+1. Which of the following description about heme catabolism is correct?
+ (A) CO2 and Fe2+ are released from heme catabolism
+ (B) Jaundice will be found when spleen is not fully developed.
+ (C) Urobilinogen is one of the products from heme catabolism.
+ (D) Albumin is needed for Biliverdin delivery from spleen to liver
+
+
+2. An oligopeptide sequence is RVYIKMPFA. After Trypsin digestion, which of the following product can be
+  found?
+ (A) PFA
+ (B) R
+ (C) VYIK
+ (D) A
+
+
+3. In amino acid catabolism, the first reaction for many amino acids is a:
+ (A) Transdeamination requiring pyridoxal phosphate (PLP)
+ (B) Decarboxylation requiring thiamine pyrophosphate (TPP)
+ (C) Reduction requiring NADPH and O2
+ (D) Transamination requiring pyridoxal phosphate (PLP)
+
+
+4. Which of the following mechanism can send amino group to be catabolized from skeletal cells to liver cells?
+ (A) Aspartate-argininosuccinate shunt
+ (B) Malate-aspartate shunt
+ (C) Urea cycle
+ (D) Glucose-alanine cycle
+
+
+5. Which of the following compound is not the intermediate during urea cycle?
+ (A) Pyruvate
+ (B) Ornithine
+ (C) Arginine
+ (D) Citrulline
+
+
+6.Which of these directly donates a nitrogen atom for the formation of urea during the urea cycle?
+  (A) Pyruvate
+  (B) Ornithine
+  (C) Arginine
+  (D) Citrulline
+
+
+7. Which of these amino acids are both ketogenic and glucogenic?
+   1. Valine 2. Isoleucine 3. Histidine 4. Arginine 5. Tyrosine
+  (A) 2 and 5
+  (B) 1, 3 and 5
+  (C) 2 and 4
+  (D) 2, 4 and 5
+
+
+8. Which of the following compound is the cofactor for pyruvate carboxylase?
+  (A) Biotin
+  (B) Niacin
+  (C) Folate
+  (D) Thiamine
+
+
+9. Which of the following compound cannot be converted to Oxaloacetate?
+  (A) Pyruvate
+  (B) Leucine
+  (C) Malate
+  (D) Aspartate
+
+
+10. Which of the following hormone’s precursor is Tyrosine?
+  (A) Melatonin
+  (B) Serotonin
+  (C) Aldosterone
+  (D) Epinephrine
+ 11. The defect in which of following enzyme can lead to Phenylketonuria formation?
+   (A) Dihydrobiopterin reductase
+   (B) Phenylalanine dehydrogenase
+   (C) Aminotransferase
+   (D) Fumarylacetoacetase
+
+12.Which of the following compound cannot be found in the urine of phenylketonuria patient?
+   (A) Phenylbutyrate
+   (B) Phenylpyruvate
+   (C) Phenylalanine
+   (D) Phenylacetate
+
+
+13. The defect in which of the following amino acid degradation does not lead to maple syrup urine disease
+   formation?
+   (A) Isoleucine
+   (B) Tyrosine
+   (C) Leucine
+   (D) Valine
+
+
+14. In the human genetic disease maple syrup urine disease, the metabolic defect involves:
+   (A) Oxidative decarboxylation.
+   (B) Synthesis of branched chain amino acids.
+   (C) Transamination of an amino acid.
+   (D) Uptake of branched chain amino acids into liver.
+15. Here is the peptide of “MDWLEKFHAPPYRTKAS”.
+   Which of the following enzyme you could use to get the peptide of “HAPPY”?
+
+                               Cleavage point
+    Trypsin                    Lys, Arg (C)
+    Chymotrypsin               Phe, Trp, Tyr (C)
+    Peptin                     Leu, Phe, Trp, Tyr (N)
+
+
+   (A) Trypsin
+   (B) Chymotrypsin
+   (C) Pepsin
+   (D) It’s impossible!
+
+
+16. Which of the following amino acids are more rich in blood than others？
+   (1) Alanine (2) Glutamate (3) Aspartate (4) Arginine (5) Glutamine
+   (A) (1) and (2)
+   (B) (1), (2) and (3)
+   (C) (1), (4) and (5)
+   (D) (1) and (5)
+
+17.Which of the following pair is incorrect?
+   (A) Pyridoxal 5-phosphate／vitamin B6
+   (B) Folic acid／vitamin B9
+   (C) Niacin／vitamin B3
+   (D) Phycobilins／vitamin B12
+
+
+18. Pyridoxal 5-phosphate does not directly involve in which of the following mechanism?
+  (A) Catecholamines synthesis
+  (B) Polyamines synthesis
+  (C) Transsulfuration from Homocysteine to Cysteine
+  (D) Heme synthesis
+19. Which of the following enzyme involves in “Glutamate turns into Glutamine” in peripheral liver?
+  (A) Glutamine synthase
+  (B) Glutaminase
+  (C) Glutamate dehydrogenase
+  (D) Glutamine synthetase
+
+
+20. Which of the following mechanism does not directly involve in glucose-alanine cycle?
+  (A) Transamination
+  (B) Glycolysis
+  (C) Glycogenolysis
+  (D) Gluconeogenesis
+
+
+21. Which of the following enzyme plays the major role in regulating oxidative deamination?
+  (A) Glutamate dehydrogenase
+  (B) Glutamine synthase
+  (C) Deaminase
+  (D) Aminotransferase
+
+
+22. Which of the following description about urea cycle is correct?
+  (A) NH4＋and CO2 are the materials to form carbamoyl phosphate by carbamoyl phosphate synthetase II.
+  (B) Fumarate is generated from Argininosuccinate by Arginase.
+  (C) Two enzymes in urea cycle need ATPs.
+  (D) Asn provides the second NH2 group for urea structure in urea cycle.
+
+
+23.Which of the following molecule(s) directly connect(s) the citric acid and urea cycle?
+   (1) Fumarate (2) Malate (3) Aspartate (4) α-ketoglutarate (5) alanine
+   (A) (1) only
+   (B) (1), (2) and (5)
+   (C) (1) and (3)
+   (D) (1), (3) and (5)
+24. Which of the following description about ubiquitination is correct?
+   (A) Ubiquitin is a small (76-residue) enzyme for degrading proteins in eukaryotic cells.
+   (B) Ubiquitination is an ATP-dependent reaction.
+   (C) Ubiquitin could interact with the lysine amino groups on target proteins.
+   (D) Proteasome participates in ubiquitination.
+
+
+25. Which of the following description about tetrahydrofolate (THF) is correct?
+   (A) THF is involved in Serine, Glycine, Cysteine, Histidine metabolism.
+   (B) 5,10-methylene-THF participates in dTMP generation.
+   (C) Folic acid could be converted to tetrahydrofolate. Defect in folic acid results in pernicious anemia
+       formation.
+   (D) 5-methyl-THF is needed for histidine metabolism.
+
+
+26. Tetrahydrobiopterin is not the cofactor for which of the following enzyme?
+   (A) Tyrosine hydroxylase
+   (B) Nitric oxide synthase
+   (C) Phenylalanine hydroxylase
+   (D) Pyruvate carboxylase
+
+
+27. Vitamin B12 involves in which of the following reaction(s)?
+   (1) Homocysteine to Methionine (2) Glutamate to Orthinine
+   (3) Methylmalonyl-CoA to Succinyl-CoA (4) Alanine to pyruvate
+   (A) (1) only
+   (B) (1) and (4)
+   (C) (1) and (2)
+   (D) (1) and (3)
+
+28.Which of the following amino acid does not belong to both ketogenic and glucogenic amino acid?
+   (A) tryptophan
+   (B) proline
+   (C) tyrosine
+   (D) isoleucine
+29. Which of the following vitamin defect results in pellagra formation?
+   (A) vitamin B3
+   (B) vitamin B6
+   (C) vitamin B9
+   (D) vitamin B12
+
+
+30. Which of the following pair of “disease vs. enzyme defect” is incorrect?
+   (A) Homocystinuria vs. Cystathionine b-synthase
+   (B) Phenylketonuria vs. Dihydrobiopterin reductase
+   (C) Albinism vs. Tyrosine hydroxylase
+   (D) Alkaptonuria vs. Homogentisate oxidase
+
+
+31. Which of the following pair of “derivative vs. amino acid” is incorrect?
+   (A) Dopamine vs. Tyrosine
+   (B) Creatine vs. Glycine
+   (C) Taurine vs. Cysteine
+   (D) γ-Aminobutyric acid (GABA) vs. Glutamine
+
+
+32. Which of the following compound could not be found in bloods of Phenylketouria (PKU) patients?
+   (A) phenylgentisate
+   (B) phenyllactate
+   (C) phenylpyruvate
+   (D) phenylacetate
+
+
+33. Which of the following description about glutathione is correct?
+   (A) Glutathione is generated by glutamine, cysteine and glycine.
+   (B) Reduced glutathione is the cofactor for glutathione reductase.
+   (C) Glutathione-mediated detoxification is regulated by glutathione S-transferase.
+   (D) Glutathione is needed for disulfide ligase to form disulfide bond.
+34. Decarboxylation could be found in which of the following reactions?
+    (1) Glutamate to γ-aminobutyric acid (GABA) (2) Histidine to Histamine
+    (3) Dopa to Dopamine (4)Ornithine to Spermidine (5) Cysteine to Taurine
+   (A) (1) and (2)
+   (B) (1), (2) and (3)
+   (C) (1), (2), (3) and (4)
+   (D) All of them
+
+
+35. Which of the following amino acid is not related to maple syrup disease formation?
+   (A) Leucine
+   (B) Isoleucine
+   (C) Proline
+   (D) Valine
+
+
+36. Which of the following amino acid is not the essential amino acid?
+   (A) Leucine
+   (B) Proline
+   (C) Histidine
+   (D) Methionine
+
+
+37. Which of the following amino acid is not the precursor for other amino acid synthesis in human body?
+   (A) Alanine
+   (B) Serine
+   (C) Aspartate
+   (D) Glutamine
+
+
+38. Which of the following derivate is not directly came from Glycine metabolism?
+   (A) Cysteine
+   (B) δ-Aminolevulinic acid
+   (C) Bile acids
+   (D) Purine
+39. Which of the following compound does not have the porphyrin structure?
+   (A) Cobalamins
+   (B) Phycocyanin
+   (C) Chlorophylls
+   (D) Heme
+
+
+40.Which of the following mechanism does not occur between mitochondria and cytosol?
+   (A) Gluconeogenesis
+   (B) Urea cycle
+   (C) Heme synthesis
+   (D) Oxidative deamination
+
+
+41. Glutamine releases two NH3 groups into urea cycle in liver through conversion of Glutamine to Glutamate
+   and Glutamate to α-Ketoglutarate. Which of the following enzymes involve in these two mechanisms in liver
+   cells?
+   (A) Glutamine synthetase and Glutamate dehydrogenase
+   (B) Glutamate decarboxylase and Glutamate dehydrogenase
+   (C) Glutaminase and Glutamate dehydrogenase
+   (D) Glutamine synthetase and Glutaminase
+
+
+42. Which of the following compound derived from citric acid cycle participates in argininosuccinate formation
+   in urea cycle?
+   (A) Fumarate
+   (B) Aspartate
+   (C) Arginine
+   (D) Ornithine
+
+
+43. Which of the following amino acids are directly generated from urea cycle?
+   1. Arginine 2. Aspartate 3. Glutamine 4. Alanine 5. Ornithine
+   (A) Only 1
+   (B) 1 and 5
+   (C) 1 and 2
+   (D) All of them
+44. The tetrahydrofolate does not participate in which of the following amino acid metabolism?
+   (A) Alanine
+   (B) Glycine
+   (C) Methionine
+   (D) Histidine
+
+45.Tetrahydrobiopterin (THB) is not the cofactor for which of the following enzyme?
+   (A) Nitric oxide synthase
+   (B) Tyrosine hydroxylase
+   (C) Tryptophan hydroxylase
+   (D) Pyruvate carboxylase
+
+
+46. Which of the following statement about Tyrosine metabolism is “incorrect”?
+   (A) Tyrosinase involves in the conversion of Tyrosine to Dopa
+   (B) Homogentisic acid dioxygenase involves in the conversion of Tyrosine to Fumarate and Acetoacetate
+   (C) Tryptophan hydroxylase involves in the conversion of Tyrosine to Serotonin
+   (D) Tyrosine hydroxylase involves in the conversion of Tyrosine to Dopa
+
+
+47. N-acetylglutamate is an important allosteric activator for carbamoyl phosphate synthetase I. Which of the
+   following compound does not directly participate in N-acetylglutamate formation?
+  (A) Alanine
+  (B) Glutamate
+  (C) Arginine
+  (D) Acetyl-CoA
+
+
+48. Vitamin B12 is the critical coenzyme for which of the following enzyme?
+   (A) δ-aminolevulinic acid synthase and Nitric oxide synthase
+   (B) δ-aminolevulinic acid synthase and Methylmalonyl-CoA mutase
+   (C) Methionine synthase and Nitric oxide synthase
+   (D) Methionine synthase and Methylmalonyl-CoA mutase
+49. Defect in which of the following amino acid metabolism, belonging to essential and ketogenic amino acid,
+   may result in maple syrup urine disease and Methylmalonic academia formation?
+   (A) Methionine
+   (B) Threonine
+   (C) Leucine
+   (D) Isoleucine
+
+
+50. Which of the following statement about phenylketonuria (PKU) is “correct”?
+  (A) Tetrahydrofolate is the coenzyme for Phenylalanine hydroxylase.
+  (B) By transamination, Phenylalanine is converted to Tyrosine.
+  (C) Defect in dihydrobiopterin reductase results in PKU formation.
+  (D) Phenylpyruvate, phenylacetate, and phenylephrine could be found in bloods of the PKU patients.
+
+
+51.Which of the following pair for “disease vs. defective enzyme” is “incorrect”?
+   (A) Albinism vs. Tyrosinase
+   (B) Maple syrup urine disease vs. Branched-chain aminotransferase
+   (C) Alkaptonuria vs. Homogentistic acid dioxygenase
+   (D) Homocystinuria vs. Cystathionine β-synthase
+
+
+52. Which of the following compounds are directly derived from Glycine metabolism?
+  1. Glutathione 2. Creatine 3. Bile acids 4. Porphyrin 5. Cysteine
+   (A) 1 and 2
+   (B) 1, 2 and 3
+   (C) 1, 2, 3 and 4
+   (D) All of them
+
+
+53. Through which of the following reaction in human body, the precursors of non-essential amino acids could
+   be generated from intermediates in citric acid cycle?
+   (A) Transamination
+   (B) Carboxylation
+   (C) Decarboxylation
+   (D) Transsulfuration
+54. Which of the following reaction does not directly participate in glucose-alanine cycle?
+   (A) Glycolysis
+   (B) Beta-oxidation
+   (C) Transamination
+   (D) Gluconeogenesis
+
+
+55. Releasing CO2 cannot be observed in which of the following reaction?
+   (A) Conservation of Histidine to Histamine
+   (B) Conservation of Succinyl-CoA＋Glycine to δ-aminolevulinic acid synthase
+   (C) Conservation of Glutamate to γ-Aminobutyrate (GABA)
+   (D) Conservation of Heme to Biliverdin
+
+
+56. Which of the following amino acid dose not directly involve in glutathione synthesis?
+   (A) Cysteine
+   (B) Glutamic acid
+   (C) Serine
+   (D) Glycine
+
+57.Which of the following pair is incorrect?
+   (A) Pyridoxal 5-phosphate／vitamin B6
+   (B) Folic acid／vitamin B9
+   (C) Niacin／vitamin B3
+   (D) Phycobilins／vitamin B12
+
+
+58. Pyridoxal 5-phosphate does not participate in which of the following reaction?
+   (A) Conversion of Norepinephrine to Epinephrine
+   (B) Conversion of α-ketoglutarate to Glutamate
+   (C) Conversion of Homocysteine to cysteine
+   (D) Conversion of Succinyl-CoA＋Glycine → δ-Aminolevulinate
+59. Which of the following enzyme releases the NH4 group from the conversion of Glutamine to Glutamate in
+                                                      ＋
+
+
+
+
+   liver cells?
+   (A) Glutamine synthetase
+   (B) Glutamate dehydrogenase
+   (C) Glutamine synthase
+   (D) Glutaminase
+
+
+60. Which of the following reaction does not directly participate in glucose-alanine cycle?
+   (A) Oxidative deamination
+   (B) Transamination
+   (C) Gluconeogenesis
+   (D) Glycolysis
+
+
+61. Which of the following compound participates in both polyamine synthesis and urea cycle?
+   (A) Tetrahydrobiopterin
+   (B) Carbamoyl phosphate
+   (C) S-adenosylmethionine
+   (D) Ornithine
+
+
+62. Which of the following amino acids directly participate in urea cycle?
+   1. Arginine 2. Aspartate 3. Glutamine 4. Alanine 5. Ornithine
+   (A) 1 and 2
+   (B) 1, 2, 3, and 4
+   (C) 1, 2, and 5
+   (D) 1, 2, 3, and 5
+
+63.Which of the following statement about urea cycle is “incorrect”?
+   (A) The urea cycle begins in mitochondria, and ends in cytosol of the liver cell.
+   (B) HCO3- and NH4+ are used as substrates for carbamoyl phosphate synthetase II as initiated reactions of urea
+       cycle.
+   (C) One urea cycle needs three ATPs consumption for the process.
+   (D) Fumarate is generated in the urea cycle, and links the citric acid cycle and urea cycle.
+64. The tetrahydrobiopterin does not participate in which of the following reaction?
+   (A) Conversion of phenylalanine to tyrosine
+   (B) Conversion of serine to glycine
+   (C) Conversion of tyrosine to DOPA
+   (D) Conversion of a guanidino nitrogen of arginine to nitric oxide
+
+
+65. Which of the following amino acid metabolism belongs to both glucogenic and ketogenic amino acid?
+   (A) Phenylalanine
+   (B) Leucine
+   (C) Arginine
+   (D) Proline
+
+
+66. Which of the following compound is not derived from tryptophan metabolism?
+   (A) Niacin
+   (B) Melanin
+   (C) Indoleacetate
+   (D) Serotonin
+
+
+67. Which of the following coenzyme participates in catecholamine synthesis?
+   (A) Tetrahydrofolate
+   (B) Thiamine pyrophosphate
+   (C) Pyridoxamine 5-phosphate
+   (D) S-adenosylmethionine
+
+
+68. Which of the following enzyme deficiency will result in phenylketonuria formation?
+   (A) Phenylalanine dioxygenase
+   (B) Phenylalanine decarboxylase
+   (C) Dihydrobiopterin reductase
+   (D) Dihydrobiopterin oxidase
+69.Defect in which of the following amino acid metabolism is highly related to methylmalonic academia and
+   maple syrup urine disease formation?
+   (A) Methionine
+   (B) Valine
+   (C) Leucine
+   (D) Lysine
+
+
+70. Which of the following gas molecules is generated from catabolism of heme?
+  (A) CO
+  (B) CO2
+  (C) N2
+  (D) O2
+
+
+71. Pyridoxal 5-phosphate is not the cofactor for which of the following enzyme?
+  (A) Serine dehydratase
+  (B) Acetyl-CoA carboxylase
+  (C) δ-Aminolevulinic acid synthase
+  (D) Cystathionine-β-synthase
+
+
+72. Comparing the Cori-cycle with glucose-alanine cycle, which of the following phenomenon is not involved in
+   both of these two cycles?
+  (A) Gluconeogenisis
+  (B) Glycolysis
+  (C) Transamination
+  (D) Pyruvate production
+
+
+73. Which of the following enzyme is not in the mitochondria of livers?
+  (A) Glutamine synthetase
+  (B) Carbamoyl phosphate synthetase I
+  (C) Ornithine transcarbamoylase
+  (D) Glutamate dehydrogenase
+74. Which of the following compound does not directly participate in the N-acetylglutamate formation?
+  (A) Acetyl-CoA
+  (B) Arginine
+  (C) Glutamate
+  (D) Glycine
+
+
+75.5,10-methylene-THF does not directly participate in which of the following compound metabolism?
+  (A) Methionine
+  (B) Serine
+  (C) dTMP
+  (D) (D) Glycine
+
+
+76. Tetrahydrobiopterin is not the cofactor of which of the following enzyme?
+  (A) Phenylalanine hydroxylase
+  (B) Nitric oxide synthase
+  (C) Tyrosinase
+  (D) Tyrosine hydroxylase
+
+
+77. Deficiency in specific factors may result in disease formation. However, which of the following combination
+   is NOT?
+   (A) Vitamin B12 vs. Methylmalonic academia
+   (B) Homogentisate vs. Alkaptonuria
+   (C) Tetrahydrobiopterin vs. Phenylketonuria
+   (D) Niacin vs. Pellagra
+
+
+78. Which of the following amino acid does not directly participate in the urea cycle?
+   (A) Arginine
+   (B) Ornithine
+   (C) Glutamate
+   (D) Asparagine
+79. This amino acid belongs to an essential, but not a branched-chain amino acid. Biotin is needed for this amino
+   acid metabolism to generate methylmalonyl-CoA, but this amino acid metabolism does not directly influence
+   the cofactor generation for methylation reactions. What is this amino acid?
+   (A) Tryptophan
+   (B) Threonine
+   (C) Tyrosine
+   (D) Methionine
+
+
+80.In patients with phenylketonuria, which of the following reaction results in the phenylpyruvate formation from
+   phenylalanine?
+   (E) Decarboxylation
+   (F) Transsulfuration
+   (G) Transamination
+   (H) Racemization
+
+
+81. Pyridoxal 5-phosphate is an important cofactor for transamination. It also participate in which of the following
+   reaction to generate catecholamines?
+   (A) Tyrosine to DOPA
+   (B) Dopamine to Norepinephrine
+   (C) Norepinephrine to Epinephrine
+   (D) DOPA to Dopamine
+
+
+82. Which of the following amino acid is a direct derivative from 3-phosphoglycerate, and is also a precursor for
+   other non-essential amino acids synthase?
+   (A) Serine
+   (B) Glycine
+   (C) Cysteine
+   (D) Alanine
+
+
+83. Which of the following statement is the physiological function of nitric oxide?
+   (A) Increase intracellular GTP levels
+   (B) Decrease intracellular GTP levels
+   (C) Enhance phosphodiesterase activity
+   (D) Enhance guanylyl cyclase activity
+84. Which of the following amino acid syntheses is not through shikimic acid pathways in plant cells?
+   (A) Tryptophan
+   (B) Tyrosine
+   (C) Threonine
+   (D) Phenylalanine
+
+
+85. Which of the following compound does not directly participate in porphyrin generation?
+   (A) Glutamate
+   (B) Arginine
+   (C) Glycine
+   (D) Succinyl-CoA
+
+
+86.Except transamination, pyridoxal 5-phosphate also participates in which of the following reaction?
+   (A) Conversion of pyruvate to Oxaloacetate
+   (B) Conversion of Histidine to Histamine
+   (C) Conversion of Phenylalanine to Tyrosine
+   (D) Conversion of Propionyl-CoA to Succinyl-CoA
+
+
+87. Serum albumin can delivery which of the following compound to liver for further heme catabolism?
+   (A) Bilirubin
+   (B) Biliverdin
+   (C) Bilirubin diglucuronide
+   (D) Urobilinogen
+簡答選擇題
+
+    1      2    3      4      5     6     7      8      9   10
+    C      BC   D      D      A    C      A      A     B    D
+
+   11      12   13     14     15   16     17    18     19   20
+
+    A      A    B      D      B    D      D      X     D    C
+
+   21      22   23     24     25   26     27    28     29   30
+    A      C    C      BC     B    D      D      B     A    C
+
+   31      32   33     34     35   36     37    38     39   40
+    D      A    C      D      C    B      A      A     B    D
+   41      42   43     44     45   46     47    48     49   50
+
+    C      B    B      A      D    C      A      D     D    C
+   51      52   53     54     55   56     57    58     59   60
+
+    B      C    A      B      D    C      D      A     D    A
+
+   61      62   63     64     65   66     67    68     69   70
+    D      C    B      B      A    B      D      C     B    A
+   71      72   73     74     75   76     77    78     79   80
+    B      C    A      D      A    C      B      D     B    C
+
+   81      82   83     84     85   86     87
+    D      A    D      C      B    B      A
+
+1.(C)
+ (A) Heme 分解是產生 Fe2+和 CO，沒有 CO2
+ (B) 脾臟改為肝臟
+ (C) Urobilinogen 是血紅素代謝完的 bilirubin 再經腸胃道細菌酵素作用才產生
+ (D) 會跟 Albumin 結合運輸的應該是膽色素（Bilirubin），而不是膽綠素（Biliverdin）
+
+
+2.(B)(C)
+ Trypsin（胰蛋白酶）的切割位點是 Lys(K)和 Arg(R)的羧基側，所以切割後會產生 R/VYIK/MPFA，
+ 所以(B)(C)都是切割後可能產生的胺基酸鏈
+
+
+3.(D)
+ 在胺基酸的代謝中第一步驟是轉胺作用（Transamination），反應物是 α-ketoglutarate 和胺基酸，分
+ 別變成 glutamate 和 α-keto acid，glutamate 再進一步送到肝臟代謝
+4.(D)
+ 在肌肉的胺基要送到肝臟代謝所需的傳送物質是 alanine，alanine 送到肝臟後，經由 pyruvate 變回
+ glucose 再回到肌肉，此即 glucose-alanine cycle
+
+5.(A)
+ 尿素循環四步驟：
+ (1) Ornithine 和由 NH3、CO2、ATP（磷酸基）合成的 carbamoyl-phosphate 組成 citrulline
+    ————從粒線體送至細胞質————（以下是在細胞質）
+ (2) Citrulline 和 aspartate 經由 ATP 催化後形成 argininosuccinate
+ (3) Argininosuccinate 分為 arginine 和 fumarate（此步驟是串接尿素循環以及 TCA cycle 重要步驟）
+ (4) Arginine 分離出尿素後又回到了 ornithine
+    ————從細胞質送至粒線體————
+
+
+6.(C)
+ 承第五題，arginine 是尿素中氮的提供者
+
+
+7.(A)
+ 同時 ketogenic 和 glucogenic 的胺基酸有 WTFYI（3TIP）五種，僅 ketogenic 僅有 LK（2L）兩種
+
+
+8.(A)
+ Biotin 是 Carboxylase 的重要輔酶之一
+
+
+9.(B)
+ (A) pyruvate 經由 pyruvate carboxylase 可以變成 OAA
+ (C)(D)在粒線體以及細胞質間的 malate-aspartate shuttle 中，malate 和 aspartate 互相轉換的中間產物
+ 就是 OAA，而這正串接了 TCA cycle 以及尿素循環
+10.(D)
+   (A)(B)是 tryptophan 的衍生物
+   (C)是脂類衍生的激素
+
+
+11. (A)
+   苯酮尿症（PKU）主要是因為 phenylalanine hydroxylase（和 Phenylalanine dehydrogenase 同義）缺
+   乏，使 phenylalanine 無法代謝成 tyrosine 造成。但是使 phenylalanine 代謝成 tyrosine 這個反應的輔
+   酶 BH4 反應後變成 dihydrobiopterin，要變回原先樣子要 dihydrobiopterin reductase 的催化，在缺乏
+   此酵素的催化之下一樣可能造成 PKU。
+
+12.(A)
+   PKU 患者的 phenylalanine 會被代謝成 phenylpyruvate 再變成 phenyllactate 和 phenylacetate，就是不
+   見 phenylbutyrate
+
+
+13. (B)
+   Maple syrup urine disease 是因為分支胺基酸（branched amino acid：Isoleucine、Leucine、Valine）被
+   代謝的過程中缺乏 Branched-Chain α-Keto acid Dehydrogenase Complex，造成 α-keto acid 累積，而選
+   項中的胺基酸只有 tyrosine 不是分支。
+
+
+14. (D)
+   承上題，Maple syrup urine disease 為分支胺基酸無法代謝釋放 CO2
+
+
+15. (B)
+   要切出 -F/HAPPY/R- 就要找切 F 和 Y 的 C 端，或 H 和 R 的 N 端酵素，(B)最適合
+
+
+16. (D)
+   從周圍組織送到肝臟代謝的氨主要是透過 glucose-alanine cycle 和轉胺作用後的 glutamine 透過血液
+   進行運送，因此這兩個胺基酸在血液中的含量會特別多
+
+
+17. (D)
+   維生素 B12 和 phycobilin 都是 porphyrin 的一種，而維生素 B12 的別稱是 cobalamin
+18. X
+   Pyridoxl-5-phosphate（P5P）的功能很多，包括以下功能：
+     Transamination              Decarboxylation        Deamination
+     Transsulfuration            Desulfuration          Heme synthesis
+     Racemization 消旋作用
+                   Tryptophan metabolism                Amino acid absorption
+   選項中的個反應皆需要 PLP 參與，其中：
+   (A) Dopa → Dopamine
+   (B) Ornithine → Putriscene → Spermidine
+   (C) Homocysteine → Cysteine
+   (D) Glycine → ALA（δ-aminoevulinic acid）
+
+
+19. (D)
+   (A) 沒 ATP 介入
+   (B) glutaminase 是 glutamine 送到肝臟後要變回 glutamate 的酵素
+   (C) glutamate 變 glutamine 是加胺基（amination），不是脫胺（deamination）
+   (D) glutamate 變 glutamine 的過程涉及 ATP 消耗
+20.(C)
+   Glucose-alanine cycle 是 alanine ⟷ pyruvate ⟷ glucose 的互相轉換，(C)為肝糖合成，氨要運送會透
+   過(A)轉胺作用變成 alanine，pyruvate 和 glucose 之間的轉換則是透過(B)(D)糖解和糖質新生
+
+
+21. (A)
+   在 glutamine 送到肝臟變回 glutamate 之後，就會透過 glutamate dehydrogenase 進行氧化脫胺
+   （oxidative deamination），形成 α-ketoglutarate
+
+
+22. (C)
+   見第五題詳解
+   (A) 第一步驟的催化酵素是 carbamoyl synthetase I，不是 II
+   (B) 第三步驟的酵素是 argininosuccinase 第四步驟的 arginase 使 Arginine 分解為 Urea 和 Ornithine
+   (C) 第一、二步驟中都需要 ATP
+   (D) 尿素結構中的第一個氮是由 Glutamate 氧化脫胺提供；第二個是 Aspartate 和 Citrulline 結合提供
+23. (C)
+   直接串接尿素循環與 TCA cycle 的是 asparttae 和 fumarate
+
+
+
+
+24. (B)(C)
+   (A) ubiquitin 不直接進行降解
+   (B) 正確
+   (C) 正確
+   (D) proteasome 分解被 ubiquitin 標記的蛋白質來自百八的另解：答案選(B)，題目打錯，選項應改為
+       “Ubiquitin could interact with the carboxyl groups on target protein”，這個敘述是錯的該是跟 lysine
+       amino group 反應
+25.(B)
+   (A) THF 是涉及 serine、glycine、histidine、methionine 的代謝，cysteine 沒有參與
+   (B) 正確
+   (C) 惡性貧血（pernicious anemia）是維生素 B12 缺乏，folic acid 缺乏只會造成 megaloblastic anemia
+   (D) 5-methyl-THF 是有關 methionine 的代謝
+
+
+26. (D)
+   BH4 是以下酵素的輔酶：WYF 三種胺基酸的 hydroxylase（加上-OH），還有 nitric oxide synthase，
+   選項中 carboxylase 的主要輔酶應該是 biotin
+27. (D)
+   (2) Glutamate to Orthinine 和 (4) Alanine to pyruvate 皆有 Pyridoxal-5-Phosphate 參與
+   註：(2) 有 ATP 參與，(3) 的詳細反應見脂質代謝
+
+
+28. (B)
+
+                           Amino acid
+
+  Ketogenic                Lys, Leu, Tyr, Trp, Thr, Ile, Phe
+
+  Glucogenic               Ala, Cys, Gly, Ser, Thr, Trp
+
+
+29. (A)
+   (A) 正解，維生素 B3 缺乏可能導致癩皮病（pellagra）
+   (B) 缺乏會神經病變和 Microcytic anaemia
+   (C) 缺乏會 Megaloblastic anemia (D) 缺乏會惡性貧血（pernicious anemia）
+   註：維生素 B3 是 NAD 與 NADP 的前驅物
+
+
+30. (C)
+   白化症是缺乏 tyrosinase
+
+
+31. (D)
+   Glutamate 經由 Glutamate acid decarboxylase＋Vitamin B6 就會演變成 GABA，故非 Gln 而是 Glu
+
+
+32. (A)
+   同第 12 題
+   PKU 患者的 phenylalanine 會被代謝成 phenylpyruvate，再變成 phenyllactate 和 phenylacetate
+
+
+
+33.(C)
+   (A) 為 Glutamate、Cysteine、Glycine
+   (B) Oxidized glutathione (GSSG) 經 Glutathione reductase（FAD 為 Cofactor）變成 reduced glutathione
+          (GSH)。其中，reduced glutathione 為 Glutathione reductase 的產物，會催化反應進行。Ps. 此反
+          應可去 ROS、幫助其他蛋白質形成雙硫鍵
+   (C) 正確
+   (D) 在鹼性環境下 Oxidized glutathione (GSSG) 幫助其他蛋白質形成雙硫鍵，而後變為 2 reduced
+          glutathione (GSH)，過程中不需要酵素幫忙
+34. (D)
+   (1) 經 glutamate decarboxylase 合成
+   (2) 經 histidine decarboxylase 合成
+   (3) 經 aromatic amino acid decarboxylase 合成
+   (4) 參考右大圖（百八共筆）
+   (5) 參考下小圖（百九共筆）
+
+
+
+
+35. (C)
+   Maple syrup disease 起 因 為 缺 乏 Branched amino acid 代 謝 時 需 要 的 Branched-chain α-keto acid
+   dehydrogenase complex，因此選非分枝氨基酸的選項。
+
+
+36. (B)
+   根據老師說的必需氨基酸口訣：3T2LIP+HMV，裡面沒有 Proline
+   （以下保留之前的詳解：）
+   自古以來只出現在考古的傳說——有一個神奇的必須胺基酸口訣：Kevin Made In Taiwan Fresh
+   Water, Home Run, LV，proline (P)沒有出現在神奇口訣，所以選(B)（參考百八）
+37. (A)
+   Alanine：可轉變成 Pyruvate，進一步參與許多胺基酸的合成 → 是其他 amino acid 的 precursor。
+   Serine：可轉變成 Glycine、Cysteine → 是 precursor。
+   Aspartate：可轉變成 Asparagine，並參與 Urea cycle、Pyrimidine 合成 → 是 precursor。
+   Glutamine：主要作為氮的運送形式，雖然功能重要，但它本身不直接用來合成其他 amino acid，反
+   而多是被分解提供氮源。
+38. (A)
+      請直接把左下圖記起來如右下圖，非直接合成
+      δ-氨基乙醯丙酸由 ALA synthase，以 glycine 和 succinyl-CoA 合成膽鹽由
+      cholesterol、glycine、taurine 合成
+      見 Ch 22 核苷酸合成
+
+
+
+
+39. (B)
+   含 porphyrin 結構的物質有 heme、chlorophyll、phycobilin、cobalamin 等，下圖為 phycocyanin 的結
+   構，最左邊那個環沒有芳香環的共振結構
+
+
+
+
+40. (D)
+   (A)糖質新生在部分情況會橫跨粒線體和細胞質，看從誰糖質新生
+   I.有氧：從 Pyruvate 開始
+   先在粒線體把 Pyruvate → OAA → Malate，Malate 才會跟 NADH 一起送出粒線體糖質新生 II.無氧：
+   從 Lactate 開始，糖質新生只在細胞質進行，不會橫跨兩者
+   Oxidative Deamination (Glutamate → α-ketoglutarate)
+41. (C)
+   被轉胺後的 Glutamine 送到肝臟時會經過 glutaminase 變成 glutamate，glutamate 再被 glutamate
+   dehydrogenase 氧化脫胺變 alpha-ketoglutarate
+
+
+42. (B)
+   Argininosuccinate 是尿素循環的第二步驟產生，反應物是 citrulline 和 aspartate，而 Aspartate 就是
+   TCA cycle 中 OAA 的衍生物
+
+
+43. (B)
+   Step 3：Argininosuccinate 經 Argininosuccinase 催化分解為 arginine 及 fumarate
+   Step 4：Arginine 經 Arginase 催化水解為 urea 及 ornithine
+
+
+44. (A)
+   (B) N5 ,N10 -methylene-THF 可將 glycine 轉為 serine；而 THF 可將 glycine 分解
+   (C) N5 -methyl-THF 可將 homocysteine 轉為 methionine (D) THF 可協助將
+   histidine 轉為 glutamate，如下圖
+45. (D)
+   BH4 主要參與下列胺基酸代謝反應：
+   (1) L-tryptophan (Trp) → 5-OH-Tryptophan (5-HTP)（酵素為 Tryptophan hydroxylase）
+   (2) L-phenylalanine (Phe) → L-Tyrosine (Tyr)（酵素為 Phenylalanine hydroxylase, PAH）
+   (3) L-arginine (Arg) 取代基末端的 N → nitric oxide (NO)（酵素為 nitric oxide synthase）
+
+
+
+
+   註：L-tyrosine（Tyr）→ L-DOPA（酵素為 tyrosine hydroxylase）
+ (E) Pyruvate carboxylase 之輔酶為 biotin
+
+
+46. (C)
+   應為 Tryptophan to Serotonin
+
+
+47. (A)
+   N-Acetylglutamate 是尿素循環促進物（為異位調節），可促進起始步驟
+   (1) glutamate 與 Acetyl-CoA 可合成 N-Acetylglutamate
+   (2) 酵素為 N-acetylglutamatesynthase
+   (3) Arginine 為此反應的 activator
+48. (D)
+   Methionine synthase 所需輔酶有 THF（vitamin B9）及 vitamin B12
+   Methylmalonyl-CoA mutase 將 propionyl-coA 轉換為 succinyl-coA，亦需 vitamin B12 作為輔酶 δ-
+   aminolevulinic acid synthase 所需輔酶為 PLP（vitamin B6）
+   Nitric oxide synthase 所需輔酶為 BH4
+
+
+49. (D)
+   (1) 因代謝異常（缺乏 Branched-chain α-keto acid dehydrogenase complex, BCKDC）而造成 maple
+          syrup urine disease 的胺基酸為 Branched-Chain Amino Acid，包括 valine、leucine、isoleucine
+   (2) 因代謝異常（缺乏 methylmalonyl-coA mutase）而造成 Methylmalonic academia 的胺基酸有
+       isoleucine、methionine、threonine、valine
+
+
+50. (C)
+   (A) 應為 BH4
+   (B) 應為 hydroxylation
+   (C) 正確，缺乏 phenylalanine hydroxylase 或是 dihydrobiopterin reductase 都會導致 phenylalanine 無
+          法 代 謝 成 tyrosine 而 堆 積 ， 使 其 改 走 轉 胺 反 應 （aminotransferase） 生 成 phenylacetate、
+          phenylpyruvate、phenyllactate，造成苯酮尿症
+
+   (D) 應為 Phenylpyruvate, phenylacetate, and phenyllactate
+
+
+
+
+51. (B)
+   應為 Branched-chain α-keto acid dehydrogenase complex（BCKDC）
+52. (D)
+   Glutathione：其結構由 Glycine、Glutamate、Cysteine 組成，因此直接來自 Glycine。
+   Creatine：合成起始反應是 Glycine 與 Arginine 結合，因此直接源自 Glycine。
+   Bile acids：在肝臟中與 Glycine 結合形成 Glycocholic acid 等形式，因此屬於 Glycine 的代謝產物。
+   Porphyrin（例如 heme）：第一步是 Glycine 與 Succinyl-CoA 結合形成 δ-ALA，因此直接來自 Glycine。
+   Cysteine：由 Serine 與 Methionine 的轉硫作用生成，不直接來自 Glycine。
+53. (A)
+   Ex. α-ketoglutarate 經 Transamination 變為 Glutamate
+
+
+54. (B)
+   (A) Glucose 經過 Glycolysis 形成 Pyruvate
+   (C) Pyruvate 經過 Transamination 形成 Alanine
+   (D) Pyruvate 經過 Gluconeogenesis 形成 Glucose
+
+
+55. (D)
+   Heme 放出 Fe2 和 CO 後會形成 biliverdin
+                ＋
+
+
+
+
+56. (C)
+   Glutathione 由 Glutamate, Cysteine, Glycine 組合而成
+
+
+
+
+57. (D)
+   應為 cobalamins，phycobilins 為藻膽素
+
+
+58. (A)
+   (A) 涉及甲基化，參與的輔酶為 ado-Met
+   (B) 轉胺作用（transamination）
+   (C) 轉硫作用（transsulfuration）
+   (D) 脫 CO2（decarboxylation）
+59. (D)
+   (A) Glutamine synthetase：由於 glutamate 無法在血液中運輸（會造成酸中毒），因此多數組織須先
+          透過此酵素將 glutamate 轉為 glutamine，才能進入血液。需要 ATP 及 NH4         ＋
+
+
+
+
+   (B) Glutamate dehydrogenase：使進入粒線體的 Glutamate 氧化脫胺（oxidative deamination）放出
+          NH4 （進入尿素循環），形成 α-ketoglutarate。需要 NAD 或 NADP (C) 無此物
+            ＋                                          ＋     ＋
+
+
+
+
+   (D) Glutaminase：Glutamine 到達肝臟粒線體後須透過此酵素轉為 Glutamate 以繼續代謝，過程中會
+          放出 NH4 （進入尿素循環）
+                ＋
+
+
+
+
+60. (A)
+   下圖為 glucose-alanine cycle。在 muscle 的部分可以看到 glycolysis，在 liver 的部分可以看到
+   gluconeogenesis，muscle 和 liver 的部分可以看到 transamination。而 oxidative deamination 通常是在
+   alanine 通過 glucose-alanine cycle 抵達 liver 之後才進行，並不在 glucose-alanine cycle 裏面。
+
+
+
+
+61. (D)
+   (A) Tetrahydrobiopterin 皆不參與
+   (B) Carbamoyl phosphate 只參與 urea cycle
+   (C) S-adenosylmethionine 只參與 polyamine synthesis
+   (D) Ornithine 參與 polyamine synthesis 和 urea cycle
+
+
+62. (C)
+   Aspartate、arginine 和 ornithine 都直接參與尿素循環
+63. (B)
+   應為 carbamoyl phosphate synthetase I（粒線體中），CPSII 存在於細胞質中，參與核苷酸生合成
+
+
+64. (B)
+   BH4 主要是作為 hydroxylase 的輔酶，協助將受質羥基化。參與的反應主要有：
+   (1) L-tryptophan（Trp）→ 5-OH-Tryptophan（5-HTP）（酵素為 Tryptophan hydroxylase）
+   (2) L-phenylalanine（Phe）→ L-Tyrosine（Tyr）（酵素為 Phenylalanine hydroxylase：PAH）
+   (3) L-arginine（Arg）取代基末端的 N → nitric oxide（NO）（酵素為 nitric oxide synthase)
+   (4) L-tyrosine（Tyr）→ L-DOPA（酵素為 tyrosine hydroxylase）
+   (B) 參與此反應的為 THF
+   口訣：3T2LIF 為 ketogenic，2L 為純 ketogenic，其餘為 glucogenic 和 ketogenic
+
+
+65. (A)
+   3T2LIP(F)，2L 是純生酮，其他既生酮又生醣
+
+
+66. (B)
+   Melanin（黑色素）衍生自 Tyrosine；Melatonin 才是衍生自 Tryptophan
+
+
+67. (D)
+   Catecholamine（兒茶酚胺）有四種，由左至右為合成順序：
+   Dopa（多巴）→ Dopamine → Norepinephrine（正腎上腺素）→ Epinephrine（腎上腺素）
+   合成所需輔酶有：Tetrahydrobiopterin、Pyridoxal-5-phosphate、S-adenosylmethionine
+
+
+68. (C)
+   缺乏 phenylalanine hydroxylase 或 dihydrobiopterin reductase 都會導致 phenylalanine 無法代謝成
+   tyrosine 而 堆 積 ， 使 其 改 走 轉 胺 反 應 （aminotransferase） 生 成 phenylacetate、phenylpyruvate、
+   phenyllactate，造成苯酮尿症
+
+
+69. (B)
+   類第 49 題
+   (1) 因代謝異常（缺乏 methylmalonyl-CoA mutase）而造成 Methylmalonic academia 的胺基酸有
+          isoleucine、methionine、threonine、valine（口訣：IMTV）
+   (2) 因代謝異常（缺乏 Branched-chain α-keto acid dehydrogenase complex，BCKDC）而造成 maple
+          syrup urine disease 的胺基酸為 Branched-Chain Amino Acid，包括 valine、leucine、isoleucine
+70. (A)
+   Hemoglobin 進入脾臟後分解出 globin 和 heme，heme 再分解為 biliverdin（直線型的 porphyrin），釋
+   出亞鐵離子及 CO
+
+
+71. (B)
+   PLP 是許多作用的輔酶：Transamination、Decarboxylation、Deamination、Transsulfuration、
+   Desulfuration、Heme synthesis、Racemization（消旋作用：L-form/D-form 互換）、Tryptophan
+   metabolism、Amino acid absorption
+   (A) 催化的反應是 L-絲氨酸的脫氨基化以產生丙酮酸，為 Deamination
+   (B) Carboxylation，所需輔酶為 biotin
+   (C) Decarboxylation
+   (D) Transsulfuration
+
+
+72. (C)
+   Transaminaiton 只在 glucose-alanine cycle 發生
+
+
+73. (A)
+   在組織中轉胺作用會將胺基轉給 Glutamate，但 Glutamate 為酸性胺基酸，若經血液運輸會造成酸中
+   毒，因此必須經由 Glutamine synthetase 將 Glutamate 再轉換成 Glutamine，才會輸出組織經血液流
+   入肝臟，而在肝臟的粒線體中有 Glutaminase，可將 Glutamine 再轉回 Glutamate，才有辦法往下走
+   尿素循環
+
+
+74. (D)
+   同第 47 題
+   N-Acetylglutamate 是尿素循環促進物 (為異位調節)，可促進起始步驟。
+   N-Acetylglutamate 是 carbamoyl phosphate synthetase I 的 allosteric cofactor。產生
+   N-Acetylglutamate 的過程需要 Arginine 作爲 activator。
+
+
+75. (A)
+   5,10-methylene-THF 可參與：(1) Serine 跟 glycine 的互換 (2) 使 dUMP → dTMP
+76. (C)
+   BH4 主要是作為 hydroxylase 的輔酶，協助將受質羥基化，參與的反應可見第 64 題詳解
+   註：需特別注意 Tyrosinase 是 hydroxylase，但沒有 BH4
+
+
+77. (B)
+   Alkaptonuria（黑尿症，AKU）是由於產生 Homogentisate 1,2-dioxygenase 的 HGD 基因變異而使患
+   者缺乏 homogentisate 1,2-dioxygenase，導致 Homogentisate 堆積在血液和組織中。Homogentisate 以
+   及它的氧化態（alkapton）會從尿液中排出，使尿液呈現黑色。因此 Homogentisate 並不是一個致病
+   的因子，而是疾病下的產物；致病因子應為 homogentisate 1,2-dioxygenase 的缺乏
+
+
+78. (D)
+   參與 Urea cycle 的胺基酸有：Glutamate、Ornithine、Aspartate、Arginine
+
+
+79. (B)
+   (1) 關鍵字：methylmalonyl-CoAmethylmalonyl-CoA 是由 propionyl-coA 代謝而來，而代謝途徑中會
+          產生 propionyl-coA 的胺基酸有 Isoleucine、Methionine、Threonine、Valine（口訣：IMTV），因
+          此只剩(B)(D)
+   (2) 甲基化反應的輔酶為 S-adenosylmethionine，methionine 直接參與其合成反應，故選(B)
+   (3) 人體必需胺基酸（8＋2）（後兩者在孩童因合成不足，須額外補充）：色胺酸（Tryptophan）、離
+          胺酸（Lysine）、甲硫胺酸（Methionine）、苯丙胺酸（Phenylalanine）、異白胺酸（Isoleucine）、
+          羥丁胺酸（Threonine）、纈胺酸（Valine）、白胺酸（Leucine）、組胺酸（Histidine）、精胺酸
+          （Arginine）
+          （口訣：WHIRL FM KTV 旋轉廣播卡拉 OK）
+
+
+80. (C)
+   PKU 患者中，phenylalanine 的 phenylpyruvate formation 是藉由 Transamination
+
+
+81. (D)
+   Dopa 藉由 P5P（也就是 PLP）變 Dopamine
+82. (A)
+   如右圖。
+
+
+
+
+83. (D)
+   (A) GTP 會減少
+   (B) cGMP 會增加
+   (C) phosphodiesterase（PDE5）作為水解 cGMP 的酵素活性下降
+   (D) NO 會與 guanylylcyclase 結合使酵素活化
+
+
+84. (C)
+   如圖，Shikimic acid pathways 可合成芳香族胺基酸，發生於細菌和植物內（人體外）
+
+
+
+
+85. (B)
+   動物、細菌利用 glycine 和 succinyl-CoA 以合成 pyrrole，植物則利用 glutamate
+
+
+86. (B)
+   (A) 為 Carboxylation，需要 biotin
+   (B) 為 Decarboxylation，需要 PLP
+   (C) 為 Hydroxylation，需要 BH4
+   (D) 要 Biotin（酵素：propionyl-coA carboxylase）；Vitamin B12（酵素：methyl malonyl-coA mutase）
+
+
+87. (A)
+   膽色素（Bilirubin）和膽綠素（Biliverdin）要分清楚
+              Chapter 22 Biosynthesis of Amino Acids, and Related Molecules
+
+組長：洪碩謙                        學藝：陳政聖                           授課老師：陳顧中       114.Oct.23
+選擇題
+1. Which of the following is the correct structure for PRPP?
+ (A)
+
+
+
+
+ (B)
+
+
+
+
+ (C)
+
+
+
+
+ (D)
+2. The ten enzyme activities that convert PRPP to inosinic acid (IMP) are part of a multienzyme complex
+   known as the
+ (A) IMP synthetase complex
+ (B) purinosome
+ (C) purine synthetase complex
+ (D) tetrahydorfolate synthase complex
+
+3. Which of the following is a product of xanthine dehydrogenase?
+ (A) hypoxanthine
+ (B) urea
+ (C) uric acid
+ (D) xanthosine
+
+4. Which enzyme of the pyrimidine synthesis pathway is the most highly regulated?
+ (A) carbamoyl phosphate synthetase
+ (B) UMP kinase
+ (C) CTP synthetase
+ (D) aspartate transcarbamoylase
+
+5. Which of the following best explains the enzyme(s) involve in ribonucleotide reduction?
+ (A) 1 enzyme for all 4 nucleotides
+ (B) 1 enzyme for pyrimidine nucleotides and 1 enzyme for purine nucleotides
+ (C) 1 enzyme for pyrimidine nucleotides, 1 for ADP and 1 for GDP
+ (D) 1 enzyme for purine nucleotides, 1 for CDP and 1 for UDP
+
+6. Which of the following describes the activity or regulation of E. coli ribonucleotide reductase is incorrect?
+ (A) the overall activity of the enzyme is controlled by ATP and dATP
+ (B) the specificity of the enzyme is controlled by all four dNTPs
+ (C) a tyrosine free radical participates in the reaction
+ (D) the reduction is a result of simple hydride transfer
+
+7. Which of the following describes the coenzyme involved with thymidylate synthase?
+ (A) 5,10-methylene-THF serves as both methylene donor and reducing agent
+ (B) 10-methyl-THF serves as the methyl donor
+ (C) 5-methyl-THF serves as the methyl donor
+ (D) S-adenosylmethionine serves as the methyl donor
+
+8. The following molecule is an irreversible inhibitor of which enzyme of nucleotide metabolism?
+ (A) thymidylate synthase
+ (B) ribonucleotide reductase
+ (C) thymidine kinase
+ (D) dAMP deaminase
+9. Which of following is the deficiency of Lesch-Nyhan Syndrome?
+ (A) Xanthine dehydrogenase
+ (B) Adenine deaminase
+ (C) HGPRT
+ (D) ribonucleotide reductase
+
+10. Which of following enzyme deficiency in human will induce SCID (severe-combined immunodeficiency
+    disease)?
+ (A) APRT
+ (B) PRPP synthetase
+ (C) HGPRT
+ (D) Adenine deaminase
+
+11. Which of following enzyme of HIV is the target of AZT?
+ (A) Reverse transcriptase
+ (B) Ribonucleotide reductase
+ (C) DNA polymerase
+ (D) primase
+
+12. Which of the following correctly describes the salvage pathway of nucleic acid metabolism?
+ (A) The process of pyrimidines converts to purine
+ (B) The process of uric acid converts to hypoxanthine
+ (C) The process of purines converts to pyrimidines
+ (D) The process of nucleoside or nucleus base converts to nucleotide
+
+13. Which of the following amino acids is involved in purine synthesis?
+ (A) Glutamate, Aspartate
+ (B) Glutamine, Glycine
+ (C) Asparagine, Aspartate
+ (D) Glycine, Glutamate
+
+14. Which of the following enzyme deficiency might not cause Gout?
+ (A) PRPP Synthase
+ (B) HGPRT (Hypoxanthine-guanine phosphoribosyl transferase)
+ (C) Glucose-6-phosphate phosphatase
+ (D) Adenosine deaminase
+15. Which of the following drug are not targeted to enzyme in dTMP synthesis?
+ (A) 5-Fluorouracil
+ (B) Arabinosyl adenine
+ (C) 5-fluorodeoxyuridine
+ (D) Trimethoprim
+
+16. Which of the following are converted by ribonucleotide reductase?
+ (A) dADP
+ (B) TDP
+ (C) dCDP
+ (D) GDP
+
+17. Which of the following molecule will inhibit GMP synthesis from IMP?
+ (A) AMP
+ (B) IMP
+ (C) CMP
+ (D) GMP
+
+18. Which of the enzyme attacked by viral infection might damage immune system to induce human
+    extinction?
+ (A) ATCase
+ (B) HGPRT (Hyperoxanthine-guanine phosphoribosyl transferase)
+ (C) Xanthine dehydrogenase
+ (D) Adenosine deaminase
+
+19. Which of the following molecule will inhibit enzyme activity of ribonucleotide reductase?
+ (A) ATP
+ (B) dATP
+ (C) CTP
+ (D) dCTP
+
+20. Which of the following nucleotide metabolism will convert to succinyl-CoA and entry into urea cycle?
+ (A) dGTP
+ (B) dTTP
+ (C) dCTP
+ (D) dATP
+
+21. Which of the following molecule is a prodrug?
+ (A) AZT
+ (B) FdUMP
+ (C) Aminopterin
+ (D) Methotrexate
+22. Which of the following structure is not involved in nucleotide?
+ (A) Glucose
+ (B) Nucleobase
+ (C) Phosphate
+ (D) Nucleoside
+
+23. Which of following is the metabolic product of purine?
+ (A) urea
+ (B) uric acid
+ (C) uracil
+ (D) deoxyuridine
+
+24. Which of following description of gout is incorrect?
+ (A) PRPP synthetase deficiency
+ (B) Production amount of uric acid
+ (C) Glucose-6 kinase deficiency
+ (D) HGPRT deficiency
+
+25. Which of following description of Lesch-Nyhan Syndrome is incorrect?
+ (A) A genetic gene mutation
+ (B) Production of amount of uric acid in neural cell
+ (C) PRPP synthetase deficiency
+ (D) Sex-linked recessive trait
+
+26. Which of following description of SCID (severe-combined immunodeficiency disease) is incorrect?
+ (A) A genetic gene mutation
+ (B) ADA gene deficiency
+ (C) Inhibition of ribonucleotide reductase
+ (D) Production amount of ATP
+
+27. Which of following is involved in the purine synthesis but not in pyrimidine synthesis?
+ (A) Glutamine
+ (B) Carbamoyl phosphate
+ (C) Aspartate
+ (D) Glycine
+
+28. Which of following is not needed in the dTMP synthesis?
+ (A) Thymidine kinase
+ (B) Tetrahydrofolate
+ (C) Dihydrofolate reductase
+ (D) dUMP
+29. Which of following enzyme can convert adenosine to Inosine?
+ (A) Adenosine deaminase
+ (B) Xanthine dehydrogenase
+ (C) AMP deaminase
+ (D) IMP dehydrogenase
+
+30. Which of following drug have different inhibition function with others?
+ (A) AZT
+ (B) 5-FU
+ (C) AraA
+ (D) Acyclovir
+
+31. Which of following is not the substrate of Ribonucleotide reductase?
+ (A) CDP
+ (B) TDP
+ (C) GDP
+ (D) ADP
+
+32. Which of following description of allopurinol is incorrect?
+ (A) It’s a Xanthine dehydrogenase inhibitor.
+ (B) It can reduce production of uric acid production.
+ (C) It’s used to treat gout.
+ (D) It’s a xanthine analog drug.
+
+33. Which of the following description of AZT is incorrect?
+ (A) It’s a nucleotide analog drug.
+ (B) It’s a prodrug.
+ (C) It has a high affinity with DNA polymerase.
+ (D) It’s modified in the C3-OH group of ribose.
+
+34. Which of the following description of the salvage pathway is incorrect?
+ (A) PRPP is involved
+ (B) is converted nucleoside and nucleobase to nucleotides
+ (C) is formed by a purinosome
+ (D) HGPRT is involved
+
+35. Which of the following drug is not an inhibitor of dihydrofolate reductase?
+ (A) Methotrexate
+ (B) Aminopterin
+ (C) 5-fluorouracil
+ (D) Trimethoprim
+36. Which of the following is not the metabolic product of purine?
+ (A) β-Alanine
+ (B) Uric acid
+ (C) Xanthine
+ (D) Inosine
+
+37. Which of the following enzyme dysfunction is not the cause of gout?
+ (A) PRPP synthetase consistently activation
+ (B) Xanthine dehydrogenase deficiency
+ (C) Glucose-6 phosphatase deficiency
+ (D) HGPRT deficiency
+
+38. Which of the following description of SCID (severe combined immunodeficiency disease) is correct?
+ (A) Uric acid accumulation
+ (B) Xanthine dehydrogenase deficiency
+ (C) Inhibition of DNA polymerase
+ (D) Production amount of ATP
+
+39. Which of the following amino acid is not involved in the synthesis of the purine ring?
+ (A) Glutamine
+ (B) Asparagine
+ (C) Aspartate
+ (D) Glycine
+
+40. Which of the following is involved in the synthesis of dTMP from dUMP?
+ (A) Thymidine kinase
+ (B) 5,10-Methylene-tetrahydrofolate
+ (C) Ribonucleotide reductase
+ (D) dTMP
+
+41. Which of the following is the substrate of ribonucleotide reductase?
+ (A) ADP
+ (B) dADP
+ (C) AMP
+ (D) dAMP
+
+42. Which of the following description of allopurinol is incorrect?
+ (A) It’s an inhibitor of Adenosine deaminase (ADA).
+ (B) It can reduce the production of uric acid.
+ (C) It’s used for the treatment of gout.
+ (D) It’s an analog drug of hypoxanthine.
+43. Which of the following description of AZT is incorrect?
+ (A) It’s a drug of nucleoside analog.
+ (B) It’s a prodrug.
+ (C) It has a high affinity with reverse transcription.
+ (D) It’s modified in C2-OH group of ribose.
+
+44. Which of the following description of the salvage pathway is correct?
+ (A) It needs PRPP to remove nucleobase.
+ (B) It is a process of reutilization of the purine base.
+ (C) It needs to form a purinosome with multiple enzymes.
+ (D) It converts nucleobase to mononucleotides
+
+45. Which of the following drug is the inhibitor of dihydrofolate reductase?
+ (A) AZT
+ (B) Aminopterin
+ (C) 5-fluorouracil
+ (D) Allopurinol
+
+46. Which of the following prodrug is converted by thymidine kinase of HSV to inhibit replication of virus?
+ (A) Ganciclovir
+ (B) Arabinosyladenine
+ (C) AZT
+ (D) Formycin B
+
+47. Which of the following drug have a different inhibition target from others?
+ (A) AZT
+ (B) 5-fluorouracil
+ (C) 5-Fluorrodeoxyuridine
+ (D) Pemetrexed (Alimta)
+簡答
+選擇題
+  1     2     3      4     5     6     7     8     9       10
+  A     B     C     CD     A     B     A     A     C       D
+  11    12    13    14    15     16    17    18    19      20
+  A     D     B     AD     B     D     D     D     B       B
+  21    22    23    24    25     26    27    28    29      30
+  A     A     B     AC     C     D     D     A     A       B
+  31    32    33    34    35     36    37    38    39      40
+  B     D     C     C      C     A     B     X     B       B
+  41    42    43    44    45     46    47
+  A     A     D     D      B     A     A
+
+
+詳解
+1. (A)
+ PRPP 比較特別的是在 1 號碳有兩個朝下的磷酸基，是由 PPP 的產物之一（Ribose-5-phosphate）和
+ ATP 透過 PRPP synthetase 所合成。
+
+
+2. (B)
+ PRPP 經由 10 個酵素可以合成 IMP，而這 10 個酵素形成一個酵素複合體叫做 purinosome。
+ （圖引用百八共筆）
+3. (C)
+ Xanthine dehydrogenase 出現在 purine 代謝成 uric acid 的過程中，需特別注意有兩個步驟會用到同
+ 一個酵素，此兩步驟分別為：hypoxanthine to xanthine，以及 xanthine to uric acid。
+ (A) Hypoxanthine 是一種天然的嘌呤衍生物，它的核苷酸肌苷酸是核酸的嘌呤核苷酸的合成前體
+ (B) Urea 是蛋白質經過消化作用分解後所產生的代謝產物
+ (C) Xanthosine 是黃嘌呤核苷，它能夠提高山羊和牛的乳腺幹細胞數量和產奶量
+
+
+
+
+4. (C)(D)
+ 在 pyrimidine 的合成過程中，有兩個步驟是受到調控的：aspartate＋carbamoyl phosphate，以及
+ UTP 變成 CTP，均會受到 CTP 抑制。本題優先選 aspartate transcarbamoylase
+
+
+
+
+5. (A)
+ Ribonucleotide reductase 是合成去氧核苷酸的重要酵素，由 ADP、GDP、CDP、UDP 作為原料合成
+ 去氧核苷酸。需要特別注意 dTTP 的合成不像其他的核苷酸那麼直接，需要由 dCDP 和 dUDP 轉成
+ dUMP 才能合成。
+
+
+6. (B)
+ 在 ribonucleotide reductase 之 specificity site 的調控中，可由 ATP、dATP、dGTP、dTTP 調控，而沒
+ 有 dCTP 參與調控。
+
+
+7. (A)
+ Thymidylate synthase 催化 dUMP 變成 dTMP 的反應，其中有 THF 系列分子的協助，可以和第 20
+ 章的概念結合。5,10-methylene-THF 提供一個碳給 dUMP 後變成 DHF，DHF 再經由 DHF reductase
+ 變回 THF（NADPH 作為輔酶），THF 透過 serine 給一個碳變回 5,10-methylene-THF。
+8. (A)
+ 圖片中的分子就是 5-FdUMP，會抑制 thymidylate synthase 的活性。
+
+
+9. (C)
+ Lesch-Nyhan Syndrome 是因為缺乏代謝含氮鹼基的酵素 HGPRT 所造成，是 X 染色體上的相關基
+ 因突變導致，使 Guanine 和 Hypoxanthine 無法走 Salvage Pathways 導致過多尿酸累積，而破壞神經
+ 系統。
+ (A) 缺乏 xanthine dehydrogenase 會造成血漿聚集以及過多尿液的生成。
+ (B) 缺乏 Adenine deaminase 造成腺苷脫氨酶缺乏
+
+
+10. (D)
+ 主要造成 immunodeficiency 的原因是 dNTP 無法順利被合成，因為免疫細胞需要被大量複製，其中
+ Adenine deaminase（ADA）缺乏會導致免疫缺陷的疾病。
+
+
+11. (A)
+ AZT 是一個假的 deoxythymidine，比正常 deoxythymidine 對於反轉錄酶的親和力更強，干擾病毒
+ 反轉錄酶的作用，因此可成為抗病毒藥物。
+
+
+12. (D)
+ Salvage pathway 是將核苷酸拆解的產物回收，再重新合成的過程。
+
+
+13. (B)
+ 透過 de novo synthesis 合成 purine 的氨基酸有 glycine, aspartate, glutamine，還有 10-formyl-THF 和
+ CO2 也參與其中。合成 pyrimidine 的零件則是 carbamoyl phosphate 和 aspartate。
+
+
+14. (A)(D)
+ 痛風（gout）的成因是尿酸過多堆積在關節處，造成痛風的因素可以歸類為以下幾種：
+ (1) PRPP synthetase 過多造成 NMP 一直產生。
+ (2) HGPRT 缺乏導致 hypoxanthine 和 guanine 往尿酸代謝的方向進行。
+ (3) G6Pase 缺乏導致 PPP 一直進行。
+
+
+15. (B)
+ (A) 抑制 Thymidylate synthase。
+ (B) Arabinosyl adenine 是拿來和 dATP 競爭抑制 DNA 合成的分子。
+ (C) 抑制 Thymidylate synthase。
+ (D) 抑制 DHF reductase。
+
+
+16. (D)
+ （A、U、C、G）DP 會被 ribonucleotide reductase 變成 d（A、U、C、G）DP。
+17. (D)
+ 在 purine 合成中，AMP 和 GMP 都會負回饋抑制自己從 IMP 的合成路徑。
+
+
+
+
+18. (D)
+ ADA deficiency 會造成核苷酸無法順利被合成，因而干擾免疫細胞的複製，造成免疫缺乏疾病。
+ (A) ATCase（Aspartate Carbamoyltransferase）： pyrimidine 合成的第一步驟。
+ (B) HGPRT：參與 purine 的 salvage pathway，將 hypoxanthine 和 guanine 轉為 IMP 和 GMP，若有
+     缺失將造成大量尿酸堆積。
+ (C) Xanthine Dehydrogenase：參與尿酸代謝，催化 hypoxanthine 變成 xanthine，以及 xanthine 變成
+     uric acid 的反應，若有缺失可能造成 xanthine 結石。
+
+
+19. (B)
+ dATP 如果接在 activity site 會抑制 ribonucleotide reductase，反之接上 ATP 會活化 ribonucleotide
+ reductase。
+
+
+20. (B)
+ Thymine 的代謝途徑會先變成 succinyl-CoA 進入 TCA cycle，是由大家很熟悉的 methlmalonyl-CoA
+ 和輔酶 VitB12 作用而來的。
+
+
+21. (A)
+ prodrug（前驅藥物）本身無藥理作用，需要到體內進行轉化之後才有功能，AZT 是其中一個。
+ (A)FdUMP 是藥物，若是 5-fluorouracil（FUra）或 5-Fluorodeoxyuridine（FdUrd）就是 prodrug
+ (B)(D)都是直接抑制 DHF reductase 的藥物
+ 詳見老師 PPT（CH22-p.83-84）
+
+
+22. (A)
+ 核苷酸由核糖、含氮鹼基、磷酸根組成。
+
+
+23. (B)
+ purine 的代謝產物是尿酸，所以選 uric acid。詳見老師 PPT（CH22-p.20）
+24. (A)(C)
+ (A)會造成痛風原因是 PRPP synthetase 過多，產生過多 Purine，代謝後造成尿酸堆積
+ (C)是 Glucose-6-phosphatase 缺陷，G6P 無法水解為葡萄糖，只能 PPP，合成更多 PRPP。
+
+
+25. (C)
+ Lesch-Nyhan Syndrome 是 hypoxanthine-guanine phosphoribosyltransferase, HGPRT 缺乏，使 Guanine
+ 和 Hypoxanthine 無法走 Salvage Pathways，導致尿酸堆積的疾病，是在 X 染色體上的相關基因突變
+ 所造成，可能造成痛風或是神經損傷等疾病。詳見老師 PPT（CH22-p.38）
+
+
+26. (D)
+ SCID 主要是因為基因缺陷造成 purine 相關代謝酵素 adenosine deaminase 缺乏，dATP 的濃度上
+ 升，抑制 ribonucleotide reductase，影響細胞的複製功能。高濃度的 dATP 導致 T 淋巴細胞缺乏
+ dNTPs。詳見老師 PPT（CH22-p.34）
+
+
+27. (D)
+ purine 的組成來源包含了 glycine, glutamine, aspartate；pyrimidine 的組成來源是 aspartate 和
+ carbamoyl phosphate，而 carbamoyl phosphate 是來自 glutamine 的代謝。
+ 詳見老師 PPT（CH22-p.8,46）
+
+
+28. (A)
+ 由 dUMP 合成 dTMP 的過程會用到 THF、dihydrofolate reductase，當然還有 dUMP，可參考下圖：
+        其實 Thymidine kinase 是 slavage pathway 生成 dTMP 的酵素，但你知道老師想考甚麼的
+29. (A)
+ ADA 是在 purine 代謝中將 adenosine 變成 inosine 的酵素
+ (B) Hypoxanthine 變 Xanthine、Xanthine 變 Uric acid 的酵素
+ (C) AMP 變 IMP 的酵素
+ (D) IMP 變 XMP 的酵素
+
+
+
+
+30. (B)
+ (A)(C)(D)都是透過合成核苷酸的相似物干擾 DNA 的合成（Chain termination）， 5-FU 則是透過抑
+ 制 thymidylate synthase 減少 dTMP 的合成來干擾 DNA 合成。
+
+
+31. (B)
+ Ribonucleotide reductase 的反應物是（A, U, C, G）DP，生成物是 d（A, U, C, G）DP。
+
+
+32. (D)
+ allopurinol 是用來治療痛風的藥物，作用機制是 allopurinol 經由 xanthine dehydrogenase 反應後的產
+ 物 alloxanthine 會抑制 xanthine dehydrogenase 的活性，進而減少尿酸的合成，抑制痛風的發作。注
+ 意他是 hypoxanthine 的 analog，不是 xanthine。
+
+
+33. (C)
+ AZT 對於反轉錄酶有較高的親和力，可以阻斷反轉錄的作用，因此可以做為抗病毒藥物，同時也
+ 是 prodrug（前驅藥物）。
+
+
+34. (C)
+ purinosome 是 purine de novo synthesis 的酵素複合物，原料是 PRPP。
+ (A) PRPP 加含氮鹼基會形成 NMP
+ (B) salvage pathway 就是把核苷酸的零件（核糖、含氮鹼基、磷酸根）重新組裝的過程
+ (D) HGPRT 是把 guanine 和 hypoxanthine 透過 salvage pathway 合成核苷酸的酵素，如果缺乏會導致
+ 反應往合成尿酸的方向進行。
+35. (C)
+ 5-fluorouracil 是藉由抑制 thymidylate synthase，進而抑制 dTMP 的合成。
+
+
+36. (A)
+ 參考右圖：
+ β-alanine 是 cytidine 和 uridine 的代謝產物。
+ 詳見老師 PPT（CH22-p.53）
+
+
+
+
+37. (B)
+ 如果是 xanthine dehydrogenase 缺乏的話就不會產生尿酸，更不會導致痛風。
+ 複習造成痛風的主要三個原因：
+ (1) PRPP synthase 太多導致 PRPP 過多
+ (2) G6Pase 缺乏導致 PPP 一直進行
+ (3) HGPRT 缺乏導致反應往尿酸合成方向
+
+
+38. (X)
+ SCID 主要原因是 ADA 缺乏，會造成 dATP 累積，抑制 Ribonucleotide reductase 的活性，與尿酸累
+ 積無關。
+
+
+39. (B)
+ purine 的組成來源包含了 glycine, glutamine, aspartate。
+40. (B)
+ 如右圖
+
+
+
+
+41. (A)
+ Ribonucleotide reductase 的反應物是（A，U，C，G）DP，會變成 d（A，U，C，G）DP。
+
+
+42. (A)
+ allopurinol 是用來治療痛風的藥物，作用機制是 allopurinol 經由 xanthine dehydrogenase 反應後的產
+ 物 alloxanthine 會抑制 xanthine dehydrogenase 的活性，進而減少尿酸的合成，抑制痛風發作。
+
+
+43. (D)
+ (A) AZT 是一個假的 deoxythymidine，所以只能稱為類似物（Analog）
+ (B) AZT 是前驅藥物（Prodrug）
+ (C) 比正常 deoxythymidine 對於反轉錄酶的親和力更強，干擾病毒反轉錄酶的作用，因此可成為抗
+ 病毒藥物。
+ (D) 跟正常 deoxythymidine（如下左圖）比起來 AZT 的 3 碳端有點不一樣。所以在合成時，會因為
+ 沒有 3’OH 而無法接下去。
+44. (D)
+ salvage pathway 就是把核苷酸的零件（核糖、含氮鹼基、磷酸根）重新組裝的過程。
+ (A) PRPP 是去掉原本的 PPi 加上含氮鹼基。
+ (B) 並不是只有 purine，pyrimidine 也是。
+ (C) purinosome 是 de novo synthesis 時使用的酵素複合物。
+
+
+45. (B)
+ 如右圖：
+
+
+
+
+46. (A)
+ (A) Gancoclovir 會透過 HSV 的 thymidine kinase 合成 dNTP 的相似物（analog），所以合成 DNA 的
+ 時候就會受到抑制(詳見微免 W9)
+ (B) araA 和 Gancoclovir 作用相似，但是它使用宿主細胞的 kinase 形成 araATP，而 araATP 對 HSV
+ 的 polymerase 有高親和力（selective inhibitor）
+ (C) AZT 沒有經過病毒的 thymidine kinase 作用，是經由粒線體中的 thymidine kinase 合成 dNTP 相
+ 似物，針對 HIV 反轉錄酶。
+ (D) Leishmania 用藥，會形成 adenosine 相似物，可以嵌入 RNA
+ Reference: PETRIE RAINEY AND DANIEL V. SANTI
+ Metabolism and mechanism of action of formycin B in Leishmania
+
+47. (A)
+ AZT 干擾的是反轉錄酶
+ (B) (C)干擾 thymidylate synthase
+ (D) Folate cofactor analog（antifolates），類似 5,10-Methylene-THF，但無法正常提供-CH3 並且對於
+ thymidylate synthase 的親和力大於 5,10-Methylene-THF
+

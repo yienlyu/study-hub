@@ -1,0 +1,307 @@
+[
+ {
+  "id": "fa-transport",
+  "chapter": "ch17",
+  "title": "脂質的消化、吸收與運輸",
+  "topics": [
+   "脂肪動員與運輸",
+   "脂蛋白與膽固醇恆定"
+  ],
+  "keywords": "bile salt micelle chylomicron lipoprotein lipase apoC-II albumin 乳糜微粒",
+  "caption": "膽鹽乳化 → 腸細胞重組 TG → <strong>乳糜微粒</strong>經淋巴入血 → 微血管的 <strong>lipoprotein lipase</strong>（apoC-II 活化）把 TG 切成脂肪酸給組織。"
+ },
+ {
+  "id": "slide-ch17-lipoprotein",
+  "chapter": "ch17",
+  "title": "脂蛋白的運輸路線",
+  "topics": [
+   "脂蛋白與膽固醇恆定"
+  ],
+  "keywords": "chylomicron VLDL IDL LDL HDL LDL receptor",
+  "caption": "外源（乳糜微粒）與內源（VLDL → IDL → LDL）兩條路線；LDL receptor 缺陷造成家族性高膽固醇血症。",
+  "type": "slide",
+  "src": "figures/slides/ch17-lipoprotein.webp",
+  "deck": "W1 Ch17 Lipid metabolism",
+  "page": "16",
+  "w": 1400,
+  "h": 1141
+ },
+ {
+  "id": "slide-ch17-mobilization",
+  "chapter": "ch17",
+  "title": "激素動員脂肪組織的 TG",
+  "topics": [
+   "脂肪動員與運輸"
+  ],
+  "keywords": "glucagon epinephrine PKA HSL perilipin ATGL MGL albumin",
+  "caption": "Glucagon／epinephrine → cAMP → <strong>PKA 磷酸化 HSL 與 perilipin</strong> → ATGL、HSL、MGL 依序水解 TG；脂肪酸由 <strong>albumin</strong> 運到肌肉。",
+  "type": "slide",
+  "src": "figures/slides/ch17-mobilization.webp",
+  "deck": "W1 Ch17 Lipid metabolism",
+  "page": "22",
+  "w": 1400,
+  "h": 840
+ },
+ {
+  "id": "carnitine-shuttle",
+  "chapter": "ch17",
+  "title": "Carnitine shuttle",
+  "topics": [
+   "Carnitine shuttle"
+  ],
+  "keywords": "carnitine CPT I CPT II translocase malonyl-CoA acyl-CoA synthetase",
+  "caption": "脂肪醯-CoA 不能直接進粒線體：<strong>CPT I</strong> 換成 acyl-carnitine → translocase → CPT II 換回 acyl-CoA。CPT I 被 <strong>malonyl-CoA</strong> 抑制。"
+ },
+ {
+  "id": "beta-oxidation",
+  "chapter": "ch17",
+  "title": "β-oxidation 四步驟與 ATP 帳本",
+  "topics": [
+   "β-oxidation 與 ATP 計算"
+  ],
+  "keywords": "acyl-CoA dehydrogenase FAD hydratase NAD thiolase palmitate 106 ATP",
+  "caption": "去氫（FAD）→ 水合 → 去氫（NAD⁺）→ 硫解，每輪切下一個 acetyl-CoA。Palmitate 淨產 <strong>106 ATP</strong>。"
+ },
+ {
+  "id": "odd-chain",
+  "chapter": "ch17",
+  "title": "奇數碳脂肪酸與 propionyl-CoA",
+  "topics": [
+   "奇數碳與 propionyl-CoA"
+  ],
+  "keywords": "propionyl-CoA carboxylase biotin methylmalonyl-CoA mutase B12 succinyl-CoA",
+  "caption": "最後剩下 <strong>propionyl-CoA</strong> → 羧化（biotin）→ methylmalonyl-CoA → mutase（<strong>B₁₂</strong>）→ succinyl-CoA 進 TCA。"
+ },
+ {
+  "id": "ketogenesis",
+  "chapter": "ch17",
+  "title": "酮體的生成與利用",
+  "topics": [
+   "酮體"
+  ],
+  "keywords": "HMG-CoA synthase lyase acetoacetate beta-hydroxybutyrate acetone thiophorase",
+  "caption": "肝粒線體合成（HMG-CoA synthase／lyase），肝外組織用 <strong>thiophorase</strong> 活化；<strong>肝臟自己不能用酮體</strong>。"
+ },
+ {
+  "id": "slide-ch12-four-types",
+  "chapter": "ch12",
+  "title": "四大類訊號轉導器",
+  "topics": [
+   "訊息傳遞特徵與受體類型"
+  ],
+  "keywords": "GPCR receptor tyrosine kinase gated ion channel nuclear receptor",
+  "caption": "① GPCR ② 受體酵素（RTK）③ 門控離子通道 ④ 核受體。",
+  "type": "slide",
+  "src": "figures/slides/ch12-four-types.webp",
+  "deck": "W2 Ch12 Biochemical Signaling",
+  "page": "6",
+  "w": 1400,
+  "h": 781
+ },
+ {
+  "id": "gpcr-camp",
+  "chapter": "ch12",
+  "title": "β-adrenergic 受體與 cAMP 路徑",
+  "topics": [
+   "GPCR 與 cAMP／PKA"
+  ],
+  "keywords": "epinephrine beta adrenergic Gs adenylyl cyclase cAMP PKA GTPase PDE betaARK arrestin",
+  "caption": "Epinephrine → GPCR → <strong>G<sub>s</sub>α-GTP</strong> → adenylyl cyclase → cAMP → <strong>PKA（R₂C₂，4 cAMP）</strong> → 肝醣分解。右側是四種關閉機制。"
+ },
+ {
+  "id": "second-messengers",
+  "chapter": "ch12",
+  "title": "IP₃／DAG／Ca²⁺ 與 cGMP",
+  "topics": [
+   "IP3／DAG／Ca²⁺",
+   "cGMP／NO"
+  ],
+  "keywords": "Gq phospholipase C PIP2 IP3 DAG PKC calcium guanylyl cyclase NO ANF cGMP PKG PDE5 sildenafil",
+  "caption": "PLC 把 PIP₂ 切成 <strong>IP₃（開 ER Ca²⁺ 通道）</strong>與 <strong>DAG（活化 PKC）</strong>；NO、ANF 經 guanylyl cyclase 產生 cGMP，sildenafil 抑制 PDE5。"
+ },
+ {
+  "id": "insulin-signaling",
+  "chapter": "ch12",
+  "title": "Insulin 受體的訊號路徑",
+  "topics": [
+   "RTK 與胰島素訊號"
+  ],
+  "keywords": "insulin receptor autophosphorylation IRS-1 Grb2 Sos Ras Raf MEK ERK PI3K PIP3 Akt GSK3 GLUT4",
+  "caption": "受體 Tyr 自體磷酸化 → IRS-1 → ① <strong>Ras–MAPK</strong>（生長）② <strong>PI3K → Akt</strong> → GLUT4 移位、GSK3 失活 → 肝醣合成。"
+ },
+ {
+  "id": "slide-ch12-insulin-rtk",
+  "chapter": "ch12",
+  "title": "Insulin 促進肝醣合成與 GLUT4 移位",
+  "topics": [
+   "RTK 與胰島素訊號"
+  ],
+  "keywords": "IRS1 PI3K PKB GSK3 glycogen synthase GLUT4 Rab RAC1",
+  "caption": "PKB（Akt）磷酸化 GSK3 使其失活 → glycogen synthase 保持活化；同時讓 GLUT4 囊泡移到細胞膜。",
+  "type": "slide",
+  "src": "figures/slides/ch12-insulin-rtk.webp",
+  "deck": "W2 Ch12 Biochemical Signaling",
+  "page": "31",
+  "w": 1400,
+  "h": 1122
+ },
+ {
+  "id": "fa-synthesis",
+  "chapter": "ch21",
+  "title": "脂肪酸合成：citrate shuttle、ACC 與 FAS",
+  "topics": [
+   "脂肪酸合成與 ACC",
+   "合成 vs 分解比較"
+  ],
+  "keywords": "citrate shuttle citrate lyase malic enzyme NADPH acetyl-CoA carboxylase malonyl-CoA fatty acid synthase palmitate",
+  "caption": "Acetyl-CoA 以 <strong>citrate</strong> 運出粒線體；<strong>ACC</strong>（biotin，限速）做 malonyl-CoA；FAS 每輪用 2 NADPH，7 輪得 palmitate。"
+ },
+ {
+  "id": "eicosanoids",
+  "chapter": "ch21",
+  "title": "Eicosanoids 的生成與 NSAIDs",
+  "topics": [
+   "Eicosanoids 與 NSAIDs"
+  ],
+  "keywords": "phospholipase A2 arachidonate cyclooxygenase COX prostaglandin thromboxane lipoxygenase leukotriene aspirin",
+  "caption": "PLA₂ 釋出 arachidonate → <strong>COX</strong>（prostaglandins、thromboxanes；NSAIDs 抑制）或 <strong>lipoxygenase</strong>（leukotrienes）。"
+ },
+ {
+  "id": "phospholipid-synthesis",
+  "chapter": "ch21",
+  "title": "甘油磷脂合成的兩種策略",
+  "topics": [
+   "磷脂質合成"
+  ],
+  "keywords": "phosphatidic acid CDP-diacylglycerol CDP-choline PI PS PE PC SAM methylation",
+  "caption": "共同起點 PA：① 活化 DAG（CDP-DAG → PI、PS）② 活化頭基（CDP-choline → PC）。PE 經 <strong>3 個 SAM</strong> 甲基化成 PC。"
+ },
+ {
+  "id": "slide-ch21-sphingolipid",
+  "chapter": "ch21",
+  "title": "鞘脂代謝的遺傳疾病",
+  "topics": [
+   "鞘脂與溶體疾病"
+  ],
+  "keywords": "Tay-Sachs hexosaminidase Niemann-Pick sphingomyelinase Gaucher Fabry",
+  "caption": "<strong>Tay-Sachs</strong>：hexosaminidase A → GM2；<strong>Niemann-Pick</strong>：sphingomyelinase → sphingomyelin。",
+  "type": "slide",
+  "src": "figures/slides/ch21-sphingolipid.webp",
+  "deck": "W3 Ch21 Lipid Biosynthesis",
+  "page": "45",
+  "w": 1400,
+  "h": 967
+ },
+ {
+  "id": "cholesterol-synthesis",
+  "chapter": "ch21",
+  "title": "膽固醇合成與 HMG-CoA reductase 調控",
+  "topics": [
+   "膽固醇合成與 HMG-CoA reductase"
+  ],
+  "keywords": "HMG-CoA reductase mevalonate isopentenyl pyrophosphate squalene lanosterol statin SREBP",
+  "caption": "Acetyl-CoA → HMG-CoA →（<strong>HMG-CoA reductase，限速、statins 抑制</strong>）→ mevalonate → IPP（5C）→ squalene（30C）→ cholesterol（27C）。"
+ },
+ {
+  "id": "organ-fuel",
+  "chapter": "ch23",
+  "title": "器官之間的燃料流動",
+  "topics": [
+   "各器官燃料代謝",
+   "Cori／葡萄糖-丙胺酸循環",
+   "酮體"
+  ],
+  "keywords": "liver brain muscle adipose red blood cell glucose ketone lactate alanine",
+  "caption": "肝臟輸出葡萄糖（飢餓時加酮體）；肌肉、紅血球把 <strong>lactate、alanine</strong> 送回肝；<strong>肌肉沒有 G6Pase</strong>，紅血球沒有粒線體。"
+ },
+ {
+  "id": "insulin-secretion",
+  "chapter": "ch23",
+  "title": "β 細胞的胰島素分泌",
+  "topics": [
+   "胰島素與 GLUT"
+  ],
+  "keywords": "beta cell GLUT2 ATP sensitive K channel depolarization calcium exocytosis incretin GLP-1 sulfonylurea",
+  "caption": "血糖 ↑ → ATP/ADP ↑ → <strong>K-ATP 通道關閉 → 去極化 → Ca²⁺ 流入</strong> → insulin 胞吐。"
+ },
+ {
+  "id": "slide-ch23-insulin-receptor",
+  "chapter": "ch23",
+  "title": "Insulin 受體的下游作用",
+  "topics": [
+   "胰島素與 GLUT"
+  ],
+  "keywords": "insulin receptor IRS PI3K Akt mTORC1 GSK3 GLUT4 Ras MAPK PPAR gamma",
+  "caption": "RTK → IRS → PI3K–Akt（GLUT4、mTORC1、GSK3）與 Ras–MAPK（生長）等多條路徑。",
+  "type": "slide",
+  "src": "figures/slides/ch23-insulin-receptor.webp",
+  "deck": "W4 Ch23-1 Hormonal regulation",
+  "page": "43",
+  "w": 1400,
+  "h": 1034
+ },
+ {
+  "id": "slide-ch23-cori",
+  "chapter": "ch23",
+  "title": "Cori cycle",
+  "topics": [
+   "Cori／葡萄糖-丙胺酸循環"
+  ],
+  "keywords": "Cori cycle lactate gluconeogenesis 6 ATP 2 ATP",
+  "caption": "肌肉糖解得 <strong>2 ATP</strong> → lactate → 肝臟糖質新生花 <strong>6 ATP</strong> → 葡萄糖回肌肉。",
+  "type": "slide",
+  "src": "figures/slides/ch23-cori.webp",
+  "deck": "W4 Ch23-1 Hormonal regulation",
+  "page": "14",
+  "w": 1400,
+  "h": 896
+ },
+ {
+  "id": "slide-ch23-leptin",
+  "chapter": "ch23",
+  "title": "Leptin：脂肪存量的訊號",
+  "topics": [
+   "瘦素與脂肪激素"
+  ],
+  "keywords": "leptin adipocyte arcuate nucleus POMC NPY AgRP leptin resistance",
+  "caption": "脂肪細胞分泌 leptin → 下視丘 arcuate nucleus（↑ POMC、↓ NPY/AgRP）→ 吃少、消耗多；多數肥胖者是 <strong>leptin resistance</strong>。",
+  "type": "slide",
+  "src": "figures/slides/ch23-leptin.webp",
+  "deck": "W4 Ch23-1 Hormonal regulation",
+  "page": "56",
+  "w": 1400,
+  "h": 1033
+ },
+ {
+  "id": "urea-cycle",
+  "chapter": "ch18",
+  "title": "尿素循環",
+  "topics": [
+   "尿素循環"
+  ],
+  "keywords": "carbamoyl phosphate synthetase NAG ornithine citrulline argininosuccinate arginine fumarate arginase urea",
+  "caption": "粒線體：CPS I（<strong>NAG</strong> 活化）→ citrulline；細胞質：+ <strong>aspartate</strong> → argininosuccinate → arginine + <strong>fumarate</strong> → urea。"
+ },
+ {
+  "id": "phe-tyr-diseases",
+  "chapter": "ch18",
+  "title": "Phe／Tyr 代謝與先天疾病",
+  "topics": [
+   "先天胺基酸代謝疾病",
+   "胺基酸衍生物"
+  ],
+  "keywords": "phenylketonuria phenylalanine hydroxylase BH4 albinism tyrosinase alkaptonuria homogentisate catecholamine dopamine",
+  "caption": "PAH（BH₄）缺 → <strong>PKU</strong>；tyrosinase 缺 → <strong>albinism</strong>；homogentisate dioxygenase 缺 → <strong>alkaptonuria</strong>。"
+ },
+ {
+  "id": "dtmp-cycle",
+  "chapter": "ch22",
+  "title": "dTMP 合成與抗代謝藥",
+  "topics": [
+   "Ribonucleotide reductase 與 dTMP",
+   "抗代謝藥物"
+  ],
+  "keywords": "ribonucleotide reductase dATP thymidylate synthase methylene THF DHFR methotrexate 5-FU trimethoprim",
+  "caption": "RNR 還原 NDP（dATP 抑制）；<strong>thymidylate synthase</strong>（5-FU 抑制）把 dUMP 變 dTMP、產生 DHF；<strong>DHFR</strong>（methotrexate、trimethoprim 抑制）再生 THF。"
+ }
+]

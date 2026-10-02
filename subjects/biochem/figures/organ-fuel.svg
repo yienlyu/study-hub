@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 452" role="img" aria-label="器官間燃料流動：肝臟輸出葡萄糖給腦、肌肉、紅血球，飢餓時輸出酮體給腦；脂肪組織輸出脂肪酸與 glycerol；肌肉與紅血球把 lactate、alanine 送回肝臟做糖質新生">
+<defs><marker id="of-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="of-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="of-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="of-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<rect x="285" y="170" width="190" height="108" rx="12" class="bw"/><g class="hot" data-tip="肝臟：唯一能大量<b>輸出葡萄糖</b>的器官（肝醣分解＋糖質新生），也輸出酮體與 VLDL。飢餓時腎也做糖質新生。" data-label="肝臟"><text x="297" y="192" class="tb" style="font-size:13.5px">肝臟</text></g><text x="297" y="212" class="ts" style="font-size:10.5px">代謝中樞；肝醣、TG</text><text x="297" y="228" class="ts" style="font-size:10.5px">糖質新生、生酮、脂肪酸合成</text><text x="297" y="244" class="ts" style="font-size:10.5px">glucokinase＋GLUT2 緩衝血糖</text><text x="297" y="260" class="ts" style="font-size:10.5px">有 glucose-6-phosphatase</text>
+<rect x="20" y="20" width="190" height="96" rx="12" class="bv"/><g class="hot" data-tip="腦：脂肪酸過不了血腦障壁。長期飢餓時用 β-hydroxybutyrate 取代大部分葡萄糖，節省肌肉蛋白。GLUT3（神經元）、GLUT1（血腦障壁）。" data-label="腦"><text x="32" y="42" class="tb" style="font-size:13.5px">腦</text></g><text x="32" y="62" class="ts" style="font-size:10.5px">只用葡萄糖（~120 g／天）</text><text x="32" y="78" class="ts" style="font-size:10.5px">飢餓時改用酮體</text><text x="32" y="94" class="ts" style="font-size:10.5px">耗全身 20% O₂；無燃料儲存</text>
+<rect x="20" y="312" width="190" height="96" rx="12" class="bg"/><g class="hot" data-tip="骨骼肌：<b>沒有 glucose-6-phosphatase</b>，肝醣只能自己用、不能補血糖。劇烈運動時無氧糖解 → lactate；胺基經 alanine 送到肝。GLUT4 受 insulin 調控。" data-label="骨骼肌"><text x="32" y="334" class="tb" style="font-size:13.5px">骨骼肌</text></g><text x="32" y="354" class="ts" style="font-size:10.5px">休息：脂肪酸；運動：葡萄糖</text><text x="32" y="370" class="ts" style="font-size:10.5px">全身 3/4 肝醣，但無 G6Pase</text><text x="32" y="386" class="ts" style="font-size:10.5px">phosphocreatine 爆發力</text>
+<rect x="550" y="20" width="190" height="96" rx="12" class="bp"/><g class="hot" data-tip="脂肪組織：空腹時 glucagon/epinephrine → PKA 磷酸化 HSL、perilipin → 脂解。FA 由 albumin 運送；glycerol 回肝做糖質新生。" data-label="脂肪組織"><text x="562" y="42" class="tb" style="font-size:13.5px">脂肪組織</text></g><text x="562" y="62" class="ts" style="font-size:10.5px">儲存 TG</text><text x="562" y="78" class="ts" style="font-size:10.5px">空腹：脂解 → FA＋glycerol</text><text x="562" y="94" class="ts" style="font-size:10.5px">棕色脂肪 UCP1 產熱</text>
+<rect x="550" y="312" width="190" height="96" rx="12" class="br"/><g class="hot" data-tip="紅血球：沒有粒線體，只能無氧糖解，產物 lactate 送回肝（Cori cycle）。GLUT1。" data-label="紅血球"><text x="562" y="334" class="tb" style="font-size:13.5px">紅血球</text></g><text x="562" y="354" class="ts" style="font-size:10.5px">沒有粒線體</text><text x="562" y="370" class="ts" style="font-size:10.5px">只靠無氧糖解 → lactate</text><text x="562" y="386" class="ts" style="font-size:10.5px">PPP 產 NADPH 維持 GSH</text>
+<path d="M300 170L212 110" class="lg" marker-end="url(#of-ag)" style="stroke-width:1.6"/>
+<text x="276" y="128" class="tb" style="font-size:11px;fill:var(--good)">葡萄糖</text>
+<text x="276" y="144" class="tb" style="font-size:11px;fill:var(--violet)">飢餓時：酮體</text>
+<path d="M548 96L462 168" class="lt" marker-end="url(#of-a)" style="stroke-width:1.6"/>
+<text x="514" y="148" class="ts">FA、glycerol</text>
+<text x="655" y="132" text-anchor="middle" class="ts" style="font-size:10px">FA（albumin）也送到肌肉、心</text>
+<path d="M290 278L204 312" class="lg" marker-end="url(#of-ag)" style="stroke-width:1.6"/>
+<text x="214" y="292" text-anchor="end" class="tb" style="font-size:11px;fill:var(--good)">葡萄糖</text>
+<path d="M212 352L322 280" class="lr" marker-end="url(#of-ar)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="<b>Cori cycle</b>：肌肉糖解得 2 ATP → lactate → 肝糖質新生花 6 ATP → 葡萄糖送回肌肉。<b>Glucose-alanine cycle</b>：pyruvate 轉胺成 alanine 運到肝 → 碳做糖質新生、氮進尿素循環。" data-label="Cori／glucose-alanine cycle"><text x="274" y="336" class="tb" style="font-size:11px;fill:var(--bad)">lactate、alanine</text></g>
+<path d="M470 278L556 312" class="lg" marker-end="url(#of-ag)" style="stroke-width:1.6"/>
+<text x="546" y="292" class="tb" style="font-size:11px;fill:var(--good)">葡萄糖</text>
+<path d="M548 352L438 280" class="lr" marker-end="url(#of-ar)" style="stroke-width:1.6"/>
+<text x="486" y="336" text-anchor="end" class="tb" style="font-size:11px;fill:var(--bad)">lactate</text>
+<text x="380" y="440" text-anchor="middle" class="ts" style="fill:var(--ink-2)">燃料使用順序：肝醣 → 三酸甘油酯 → 蛋白質</text>
+</svg>

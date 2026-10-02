@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 312" role="img" aria-label="奇數碳脂肪酸的終產物 propionyl-CoA 經 propionyl-CoA carboxylase（biotin）變成 D-methylmalonyl-CoA，經 epimerase 變 L 型，再由 methylmalonyl-CoA mutase（B12）轉成 succinyl-CoA 進入 TCA">
+<defs><marker id="od-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="od-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="od-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="od-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<rect x="20" y="60" width="140" height="48" rx="10" class="bw"/><text x="90" y="82" text-anchor="middle" class="tb" style="font-size:12.5px">Propionyl-CoA</text><text x="90" y="99" text-anchor="middle" class="ts">3C</text>
+<rect x="215" y="60" width="140" height="48" rx="10" class="bx"/><text x="285" y="82" text-anchor="middle" class="tb" style="font-size:12.5px">D-Methylmalonyl-CoA</text><text x="285" y="99" text-anchor="middle" class="ts">4C</text>
+<rect x="410" y="60" width="140" height="48" rx="10" class="bx"/><text x="480" y="82" text-anchor="middle" class="tb" style="font-size:12.5px">L-Methylmalonyl-CoA</text><text x="480" y="99" text-anchor="middle" class="ts">4C</text>
+<rect x="605" y="60" width="140" height="48" rx="10" class="bg"/><text x="675" y="82" text-anchor="middle" class="tb" style="font-size:12.5px">Succinyl-CoA</text><text x="675" y="99" text-anchor="middle" class="ts">→ TCA</text>
+<path d="M162 84H211" class="ln" marker-end="url(#od-a)" style="stroke-width:1.6"/>
+<rect x="163.5" y="90" width="48" height="20" rx="10" class="br"/><text x="187.5" y="104" text-anchor="middle" class="tb tr" style="font-size:11.5px">biotin</text>
+<g class="hot" data-tip="加一個羧基（carboxylation）。和 pyruvate carboxylase、acetyl-CoA carboxylase 一樣用 <b>biotin</b>。" data-label="propionyl-CoA carboxylase"><text x="187.5" y="32" text-anchor="middle" class="ts">propionyl-CoA carboxylase</text></g>
+<text x="187.5" y="48" text-anchor="middle" class="ts" style="fill:var(--ink-2)">+ HCO₃⁻、ATP</text>
+<path d="M357 84H406" class="ln" marker-end="url(#od-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="把 D 型轉成 L 型（mutase 只認 L 型）。" data-label="methylmalonyl-CoA epimerase"><text x="382.5" y="32" text-anchor="middle" class="ts">methylmalonyl-CoA epimerase</text></g>
+<text x="382.5" y="48" text-anchor="middle" class="ts" style="fill:var(--ink-2)">D → L</text>
+<path d="M552 84H601" class="ln" marker-end="url(#od-a)" style="stroke-width:1.6"/>
+<rect x="553.5" y="90" width="48" height="20" rx="10" class="bv"/><text x="577.5" y="104" text-anchor="middle" class="tb tv" style="font-size:11.5px">B₁₂</text>
+<g class="hot" data-tip="需要 <b>coenzyme B₁₂（5′-deoxyadenosylcobalamin）</b>，以自由基機制重排碳骨架。B₁₂ 缺乏 → methylmalonic acidemia。B₁₂ 的另一個酵素是 methionine synthase。" data-label="methylmalonyl-CoA mutase"><text x="577.5" y="32" text-anchor="middle" class="ts">methylmalonyl-CoA mutase</text></g>
+<text x="577.5" y="48" text-anchor="middle" class="ts" style="fill:var(--ink-2)">碳骨架重排</text>
+<text x="20" y="150" class="ts" style="fill:var(--ink-2)">奇數碳脂肪酸最後一輪 β-oxidation 剩下的 3 個碳；Ile、Met、Thr、Val（IMTV）的分解也會產生 propionyl-CoA。</text>
+<path d="M20 170H740" class="lt"/>
+<text x="20" y="194" class="tb" style="font-size:12.5px">例：¹⁴CH₃(CH₂)₉COOH（11 碳）</text>
+<circle cx="40" cy="228" r="11" class="fr"/>
+<text x="40" y="232" text-anchor="middle" class="tw" style="font-size:10px">C</text>
+<path d="M51 228H73" class="ln"/>
+<circle cx="84" cy="228" r="11" class="fv"/>
+<text x="84" y="232" text-anchor="middle" class="tw" style="font-size:10px">C</text>
+<path d="M95 228H117" class="ln"/>
+<circle cx="128" cy="228" r="11" class="fv"/>
+<text x="128" y="232" text-anchor="middle" class="tw" style="font-size:10px">C</text>
+<path d="M139 228H161" class="ln"/>
+<circle cx="172" cy="228" r="11" class="fm"/>
+<text x="172" y="232" text-anchor="middle" style="font-size:10px">C</text>
+<path d="M183 228H205" class="ln"/>
+<circle cx="216" cy="228" r="11" class="fm"/>
+<text x="216" y="232" text-anchor="middle" style="font-size:10px">C</text>
+<path d="M227 228H249" class="ln"/>
+<circle cx="260" cy="228" r="11" class="fm"/>
+<text x="260" y="232" text-anchor="middle" style="font-size:10px">C</text>
+<path d="M271 228H293" class="ln"/>
+<circle cx="304" cy="228" r="11" class="fm"/>
+<text x="304" y="232" text-anchor="middle" style="font-size:10px">C</text>
+<path d="M315 228H337" class="ln"/>
+<circle cx="348" cy="228" r="11" class="fm"/>
+<text x="348" y="232" text-anchor="middle" style="font-size:10px">C</text>
+<path d="M359 228H381" class="ln"/>
+<circle cx="392" cy="228" r="11" class="fm"/>
+<text x="392" y="232" text-anchor="middle" style="font-size:10px">C</text>
+<path d="M403 228H425" class="ln"/>
+<circle cx="436" cy="228" r="11" class="fm"/>
+<text x="436" y="232" text-anchor="middle" style="font-size:10px">C</text>
+<path d="M447 228H458" class="ln"/>
+<text x="460" y="233" class="tb" style="font-size:12px">COOH</text>
+<path d="M29 246V252H139V246" class="lr" style="stroke-width:1.4"/>
+<path d="M161 246V252H498V246" class="lt" style="stroke-width:1.4"/>
+<text x="84" y="270" text-anchor="middle" class="tr" style="font-size:11.5px">ω 端 3 個碳 → propionyl-CoA</text>
+<text x="330.4" y="270" text-anchor="middle" class="ts">8 個碳（含羧基碳）→ 4 輪切成 4 個 acetyl-CoA</text>
+<text x="20" y="298" class="ts" style="fill:var(--ink-2)">β-oxidation 從羧基端開始切，標記在 ω 端甲基的 ¹⁴C 最後留在 <tspan class="tb" style="fill:var(--ink)">propionyl-CoA</tspan>。</text>
+</svg>

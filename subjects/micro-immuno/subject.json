@@ -183,5 +183,27 @@
       "slides": false
     }
   ],
-  "sheet": "content/_sheet.md"
+  "sheet": "content/_sheet.md",
+  "insights": [
+    [
+      "同一概念換句話重複出。",
+      "補體 C3 convertase、MAC、TLR4–LPS、IgA／IgE 情境在同一份考古中出現 5–10 次，熟一題等於拿下一整組。"
+    ],
+    [
+      "否定題約佔三成。",
+      "選項常把兩個正確概念互換：fimbriae↔flagella、G(+)↔G(−)、C3a↔C3b。"
+    ],
+    [
+      "老師課堂題會原題出現。",
+      "李岳倫老師 slides 上的題目幾乎一字不差出現在 111、113 考古。"
+    ],
+    [
+      "各論以臨床情境＋實驗室鑑別為主。",
+      "catalase、溶血、CAMP、optochin、乳糖發酵是固定考法。"
+    ],
+    [
+      "真菌章約有 10 題看圖題。",
+      "孢子型態、皮癬菌大孢子需要搭配課本圖譜複習。"
+    ]
+  ]
 }

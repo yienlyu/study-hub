@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 396" role="img" aria-label="Eicosanoid 生成：膜磷脂經 phospholipase A2 釋出 arachidonate，cyclooxygenase 路徑生成 PGH2 再到 prostaglandins、thromboxanes，NSAIDs 抑制 COX；lipoxygenase 路徑生成 leukotrienes">
+<defs><marker id="ei-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="ei-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="ei-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="ei-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<rect x="250" y="14" width="260" height="36" rx="10" class="bx"/><text x="380.0" y="37.0" text-anchor="middle" class="tb" style="font-size:12px">膜磷脂（sn-2 位置）</text>
+<path d="M380 50V86" class="ln" marker-end="url(#ei-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="PLA₂ 從膜磷脂 sn-2 位置切下 arachidonate。<b>不是</b>從三酸甘油酯水解。Glucocorticoid 會間接抑制 PLA₂（抗發炎）。" data-label="Phospholipase A₂"><text x="392" y="72" class="ts">phospholipase A₂</text></g>
+<rect x="250" y="88" width="260" height="40" rx="10" class="bw"/><text x="380.0" y="103" text-anchor="middle" class="tb" style="font-size:12px">Arachidonate</text><text x="380.0" y="118" text-anchor="middle" class="ts">20:4 Δ5,8,11,14</text>
+<path d="M330 128L190 176" class="ln" marker-end="url(#ei-a)" style="stroke-width:1.6"/>
+<path d="M430 128L570 176" class="ln" marker-end="url(#ei-a)" style="stroke-width:1.6"/>
+<rect x="90" y="178" width="200" height="40" rx="10" class="br"/><text x="190" y="212" text-anchor="middle" class="ts">cyclic 路徑</text>
+<g class="hot" data-tip="COX-1（多數組織恆定表現）、COX-2（發炎時誘導）。產物 PGH₂ 再轉成各種 prostaglandin 與 thromboxane。" data-label="COX"><text x="190" y="195" text-anchor="middle" class="tb" style="font-size:12px">Cyclooxygenase（COX）</text></g>
+<path d="M30 198H86" class="lr" style="stroke-width:2"/><path d="M86 188V208" class="lr" style="stroke-width:2.4"/>
+<g class="hot" data-tip="Aspirin <b>不可逆乙醯化</b> COX 的 Ser；ibuprofen、naproxen、meclofenamate 競爭性抑制。Rofecoxib、celecoxib 選擇性抑制 COX-2。只擋 COX，<b>不擋 arachidonate 生成，也不擋 leukotriene</b>。" data-label="NSAIDs"><text x="28" y="180" class="tb" style="font-size:12px;fill:var(--bad)">NSAIDs</text></g>
+<text x="28" y="232" class="ts" style="font-size:10.5px">aspirin、ibuprofen</text><text x="28" y="246" class="ts" style="font-size:10.5px">naproxen</text>
+<path d="M190 218V250" class="ln" marker-end="url(#ei-a)" style="stroke-width:1.6"/>
+<rect x="140" y="252" width="100" height="36" rx="10" class="bx"/><text x="190.0" y="275.0" text-anchor="middle" class="tb" style="font-size:12px">PGH₂</text>
+<path d="M168 288L96 320" class="ln" marker-end="url(#ei-a)" style="stroke-width:1.6"/>
+<path d="M212 288L284 320" class="ln" marker-end="url(#ei-a)" style="stroke-width:1.6"/>
+<rect x="20" y="322" width="150" height="42" rx="10" class="bp"/><text x="95.0" y="337" text-anchor="middle" class="tb" style="font-size:12px">Prostaglandins</text><text x="95.0" y="352" text-anchor="middle" class="ts">發炎・發燒・疼痛</text>
+<text x="95" y="380" text-anchor="middle" class="ts">子宮收縮、睡眠、cAMP</text>
+<rect x="210" y="322" width="150" height="42" rx="10" class="bp"/><text x="285.0" y="337" text-anchor="middle" class="tb" style="font-size:12px">Thromboxanes</text><text x="285.0" y="352" text-anchor="middle" class="ts">血小板凝集</text>
+<text x="285" y="380" text-anchor="middle" class="ts">＋prostacyclin（血管）</text>
+<rect x="470" y="178" width="200" height="40" rx="10" class="bv"/><text x="570" y="212" text-anchor="middle" class="ts">linear 路徑</text>
+<g class="hot" data-tip="Lipoxygenase 在白血球把 arachidonate 轉成 leukotriene。<b>NSAIDs 不抑制</b>這條路徑。植物不能合成 leukotriene。" data-label="Lipoxygenase"><text x="570" y="195" text-anchor="middle" class="tb" style="font-size:12px">Lipoxygenase</text></g>
+<path d="M570 218V320" class="ln" marker-end="url(#ei-a)" style="stroke-width:1.6"/>
+<rect x="495" y="322" width="150" height="42" rx="10" class="bp"/><text x="570.0" y="337" text-anchor="middle" class="tb" style="font-size:12px">Leukotrienes</text><text x="570.0" y="352" text-anchor="middle" class="ts">白血球</text>
+<g class="hot" data-tip="Leukotriene D₄ 是強力的平滑肌收縮劑，過量造成氣喘發作；藥物 montelukast 阻斷其受體。" data-label="Leukotrienes"><text x="570" y="380" text-anchor="middle" class="ts">LTD₄ → 支氣管收縮（氣喘）</text></g>
+<text x="560" y="72" class="ts">局部荷爾蒙：濃度低、</text><text x="560" y="88" class="ts">作用在附近細胞、</text><text x="560" y="104" class="ts">半衰期短</text>
+</svg>

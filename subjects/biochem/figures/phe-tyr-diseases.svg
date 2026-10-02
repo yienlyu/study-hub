@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 424" role="img" aria-label="苯丙胺酸與酪胺酸代謝與疾病：phenylalanine hydroxylase（BH4）把 Phe 變 Tyr，缺乏造成 PKU，Phe 轉胺成 phenylpyruvate；Tyr 經 tyrosinase 成 melanin（缺乏為 albinism），經 DOPA、dopamine、norepinephrine、epinephrine 成兒茶酚胺，經 homogentisate dioxygenase 分解成 fumarate 與 acetoacetate（缺乏為 alkaptonuria）">
+<defs><marker id="pt-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="pt-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="pt-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="pt-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<rect x="20" y="40" width="140" height="40" rx="10" class="bw"/><text x="90.0" y="55" text-anchor="middle" class="tb" style="font-size:12px">Phenylalanine</text><text x="90.0" y="70" text-anchor="middle" class="ts">必需胺基酸</text>
+<path d="M160 60H328" class="ln" marker-end="url(#pt-a)" style="stroke-width:1.6"/>
+<path d="M250 51V69" class="lr" style="stroke-width:3"/>
+<g class="hot" data-tip="Phe → Tyr，需要 <b>BH₄（tetrahydrobiopterin）</b>與 O₂；BH₄ 用完變 dihydrobiopterin，再由 <b>dihydrobiopterin reductase</b>（NADH）再生。" data-label="Phenylalanine hydroxylase"><text x="244" y="30" text-anchor="middle" class="ts" style="font-size:10.5px">phenylalanine hydroxylase</text></g>
+<text x="206" y="52" text-anchor="middle" class="tv" style="font-size:10.5px">＋BH₄、O₂</text>
+<g class="hot" data-tip="<b>Phenylketonuria</b>：phenylalanine hydroxylase 缺乏（或 dihydrobiopterin reductase 缺乏，BH₄ 無法再生）→ Phe 堆積 → 轉胺成 <b>phenylpyruvate</b>；不治療會智能障礙。治療：低 Phe 飲食。" data-label="PKU"><text x="244" y="82" text-anchor="middle" class="tb tr" style="font-size:12px">✕ PKU</text></g><text x="244" y="99" text-anchor="middle" class="ts" style="font-size:10.5px">缺 PAH 或 BH₄ 再生</text>
+<rect x="330" y="40" width="130" height="40" rx="10" class="bw"/><text x="395.0" y="65.0" text-anchor="middle" class="tb" style="font-size:12px">Tyrosine</text>
+<path d="M460 60H598" class="ln" marker-end="url(#pt-a)" style="stroke-width:1.6"/>
+<path d="M530 51V69" class="lr" style="stroke-width:3"/>
+<g class="hot" data-tip="黑色素細胞的 tyrosinase：Tyr → DOPA → dopaquinone → <b>melanin</b>。" data-label="Tyrosinase"><text x="529" y="46" text-anchor="middle" class="ts" style="font-size:10.5px">tyrosinase</text></g>
+<g class="hot" data-tip="<b>白化症</b>：tyrosinase 缺乏 → 無法合成 melanin。" data-label="Albinism"><text x="529" y="82" text-anchor="Albinism" class="tb tr" style="font-size:12px">✕ Albinism</text></g><text x="529" y="99" text-anchor="Albinism" class="ts" style="font-size:10.5px">缺 tyrosinase</text>
+<rect x="600" y="40" width="140" height="40" rx="10" class="bx"/><text x="670.0" y="65.0" text-anchor="middle" class="tb" style="font-size:12px">Melanin</text>
+<path d="M90 80V148" class="lr" marker-end="url(#pt-ar)" style="stroke-width:1.6"/>
+<text x="98" y="120" class="tr" style="font-size:10.5px">轉胺</text>
+<rect x="20" y="150" width="180" height="44" rx="10" class="br"/><text x="110.0" y="165" text-anchor="middle" class="tb" style="font-size:12px">Phenylpyruvate</text><text x="110.0" y="180" text-anchor="middle" class="ts">→ phenyllactate、phenylacetate</text>
+<text x="110" y="212" text-anchor="middle" class="ts" style="font-size:10.5px">PKU 時從尿排出</text>
+<path d="M435 80V148" class="ln" marker-end="url(#pt-a)" style="stroke-width:1.6"/>
+<text x="446" y="120" class="ts" style="font-size:10.5px">Tyr hydroxylase（BH₄）</text>
+<rect x="400" y="150" width="70" height="36" rx="10" class="bx"/><text x="435.0" y="173.0" text-anchor="middle" class="tb" style="font-size:11px">DOPA</text>
+<path d="M470 168H493" class="ln" marker-end="url(#pt-a)" style="stroke-width:1.6"/>
+<rect x="495" y="150" width="90" height="36" rx="10" class="bx"/><text x="540.0" y="173.0" text-anchor="middle" class="tb" style="font-size:12px">Dopamine</text>
+<path d="M585 168H608" class="ln" marker-end="url(#pt-a)" style="stroke-width:1.6"/>
+<rect x="610" y="150" width="50" height="36" rx="10" class="bx"/><text x="635.0" y="173.0" text-anchor="middle" class="tb" style="font-size:11px">NE</text>
+<path d="M660 168H682" class="ln" marker-end="url(#pt-a)" style="stroke-width:1.6"/>
+<rect x="684" y="150" width="72" height="36" rx="10" class="bp"/><text x="720.0" y="173.0" text-anchor="middle" class="tb" style="font-size:11px">Epinephrine</text>
+<text x="482" y="202" text-anchor="middle" class="ts" style="font-size:10px">PLP</text><text x="672" y="202" text-anchor="middle" class="ts" style="font-size:10px">SAM</text>
+<g class="hot" data-tip="Tyr hydroxylase（BH₄）→ DOPA decarboxylase（<b>PLP</b>）→ dopamine β-hydroxylase → PNMT（<b>SAM</b> 提供甲基）→ epinephrine。" data-label="Catecholamine 合成"><text x="560" y="226" text-anchor="middle" class="tb" style="font-size:11.5px">Catecholamines</text></g>
+<path d="M365 80V248" class="ln" marker-end="url(#pt-a)" style="stroke-width:1.6"/>
+<text x="354" y="186" text-anchor="end" class="ts" style="font-size:10.5px">轉胺（PLP）→ …</text>
+<rect x="290" y="250" width="150" height="36" rx="10" class="bx"/><text x="365.0" y="273.0" text-anchor="middle" class="tb" style="font-size:12px">Homogentisate</text>
+<path d="M365 286V368" class="ln" marker-end="url(#pt-a)" style="stroke-width:1.6"/>
+<path d="M355 318H375" class="lr" style="stroke-width:3"/>
+<g class="hot" data-tip="Homogentisate 1,2-dioxygenase 打開苯環。" data-label="Homogentisate dioxygenase"><text x="378" y="310" class="ts" style="font-size:10.5px">homogentisate dioxygenase</text></g>
+<g class="hot" data-tip="<b>黑尿症</b>：homogentisate dioxygenase 缺乏 → homogentisate 從尿排出，氧化後變黑；關節軟骨色素沉著。" data-label="Alkaptonuria"><text x="378" y="336" class="tb tr" style="font-size:12px">✕ Alkaptonuria</text></g><text x="378" y="353" class="ts" style="font-size:10.5px">尿液放置後變黑</text>
+<rect x="275" y="370" width="180" height="42" rx="10" class="bg"/><text x="365.0" y="385" text-anchor="middle" class="tb" style="font-size:11.5px">Fumarate ＋ Acetoacetate</text><text x="365.0" y="400" text-anchor="middle" class="ts">生醣 ＋ 生酮</text>
+<rect x="20" y="240" width="240" height="146" rx="10" class="bw"/>
+<text x="34" y="262" class="th">其他胺基酸代謝疾病</text>
+<text x="34" y="290" class="tb" style="font-size:11.5px">MSUD（楓糖漿尿）</text><text x="34" y="305" class="ts" style="font-size:10.5px">BCKA dehydrogenase（Leu、Ile、Val）</text>
+<text x="34" y="324" class="tb" style="font-size:11.5px">Homocystinuria</text><text x="34" y="339" class="ts" style="font-size:10.5px">cystathionine β-synthase</text>
+<text x="34" y="358" class="tb" style="font-size:11.5px">Methylmalonic acidemia</text><text x="34" y="373" class="ts" style="font-size:10.5px">methylmalonyl-CoA mutase／B₁₂</text>
+</svg>

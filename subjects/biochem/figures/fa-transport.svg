@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-label="脂肪酸的三個來源與運輸：飲食脂質經 chylomicron 與 LPL；肝臟合成的 TG 以 VLDL 輸出並轉成 LDL，經 LDL receptor 內吞，HDL 把膽固醇送回肝；脂肪組織在 epinephrine、glucagon 刺激下經 PKA 與 HSL 脂解，脂肪酸以 albumin 運送">
+<defs><marker id="ft-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="ft-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="ft-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="ft-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<text x="20" y="24" class="tb" style="font-size:13px">① 飲食</text>
+<path d="M20 126H740" class="lt dash"/>
+<text x="20" y="144" class="tb" style="font-size:13px">② 肝臟合成</text>
+<path d="M20 246H740" class="lt dash"/>
+<text x="20" y="264" class="tb" style="font-size:13px">③ 脂肪組織儲存</text>
+
+<rect x="20" y="40" width="104" height="40" rx="10" class="bx"/><text x="72.0" y="57" text-anchor="middle" class="tb" style="font-size:12px">小腸</text><text x="72.0" y="73" text-anchor="middle" class="ts">膽鹽乳化、lipase</text>
+<path d="M124 60H160" class="ln" marker-end="url(#ft-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="密度最低、TG 最多（~85%）；只有 chylomicron 有 <b>ApoB-48</b>。經<b>淋巴管</b>進入血液。" data-label="Chylomicron"><rect x="162" y="40" width="128" height="40" rx="10" class="bw"/><text x="226.0" y="57" text-anchor="middle" class="tb" style="font-size:12px">Chylomicron</text><text x="226.0" y="73" text-anchor="middle" class="ts">B-48・C-II・經淋巴</text></g>
+<path d="M290 60H330" class="ln" marker-end="url(#ft-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="Lipoprotein lipase 錨在微血管內皮表面，被 <b>ApoC-II</b> 活化，水解脂蛋白中的 TG → glycerol + FFA。" data-label="Lipoprotein lipase"><rect x="332" y="40" width="128" height="40" rx="10" class="br"/><text x="396.0" y="57" text-anchor="middle" class="tb" style="font-size:12px">LPL（微血管）</text><text x="396.0" y="73" text-anchor="middle" class="ts">ApoC-II 活化</text></g>
+<path d="M460 60H500" class="ln" marker-end="url(#ft-a)" style="stroke-width:1.6"/>
+<rect x="502" y="40" width="118" height="40" rx="10" class="bx"/><text x="561.0" y="65" text-anchor="middle" class="tb" style="font-size:12px">FFA + glycerol</text>
+<path d="M620 60H640" class="ln" marker-end="url(#ft-a)" style="stroke-width:1.6"/>
+<rect x="642" y="40" width="98" height="40" rx="10" class="bg"/><text x="691.0" y="57" text-anchor="middle" class="tb" style="font-size:12px">肌肉：氧化</text><text x="691.0" y="73" text-anchor="middle" class="ts">脂肪：再儲存</text>
+<text x="332" y="98" class="ts">殘體（remnant）→ 肝臟以 ApoE 回收</text>
+<rect x="20" y="160" width="104" height="40" rx="10" class="bx"/><text x="72.0" y="177" text-anchor="middle" class="tb" style="font-size:12px">肝臟</text><text x="72.0" y="193" text-anchor="middle" class="ts">de novo 合成</text>
+<path d="M124 180H160" class="ln" marker-end="url(#ft-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="肝臟合成的 TG 以 VLDL 輸出（ApoB-100、C-II、E）。" data-label="VLDL"><rect x="162" y="160" width="80" height="40" rx="10" class="bw"/><text x="202.0" y="177" text-anchor="middle" class="tb" style="font-size:12px">VLDL</text><text x="202.0" y="193" text-anchor="middle" class="ts">B-100</text></g>
+<path d="M242 180H276" class="ln" marker-end="url(#ft-a)" style="stroke-width:1.6"/><text x="259.0" y="172" text-anchor="middle" class="ts">LPL</text>
+<rect x="278" y="160" width="64" height="40" rx="10" class="bx"/><text x="310.0" y="185" text-anchor="middle" class="tb" style="font-size:12px">IDL</text>
+<path d="M342 180H372" class="ln" marker-end="url(#ft-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="TG 少、膽固醇酯多；以 <b>ApoB-100</b> 結合 LDL receptor → receptor-mediated endocytosis。<br>氧化 LDL 被巨噬細胞 scavenger receptor 吞入 → 泡沫細胞 → <b>動脈硬化</b>（bad cholesterol）。" data-label="LDL"><rect x="374" y="160" width="86" height="40" rx="10" class="br"/><text x="417.0" y="177" text-anchor="middle" class="tb" style="font-size:12px">LDL</text><text x="417.0" y="193" text-anchor="middle" class="ts">B-100</text></g>
+<path d="M460 180H500" class="ln" marker-end="url(#ft-a)" style="stroke-width:1.6"/><text x="480.0" y="172" text-anchor="middle" class="ts">LDL-R</text>
+<rect x="502" y="160" width="118" height="40" rx="10" class="bx"/><text x="561.0" y="177" text-anchor="middle" class="tb" style="font-size:12px">周邊細胞、肝臟</text><text x="561.0" y="193" text-anchor="middle" class="ts">LDL receptor 內吞</text>
+<g class="hot" data-tip="Familial hypercholesterolemia：<b>LDL receptor 基因突變</b> → LDL 清不掉、血中膽固醇極高、黃色瘤、早發冠心病。" data-label="Familial hypercholesterolemia"><text x="642" y="176" class="tb tr" style="font-size:13px">FH</text></g><text x="668" y="176" class="ts">＝ LDL-R 突變</text>
+<g class="hot" data-tip="密度最高、蛋白質最多；<b>ApoA-I 活化 LCAT</b>，把周邊膽固醇酯化後送回肝臟（reverse cholesterol transport）→ good cholesterol。" data-label="HDL"><text x="642" y="200" class="tb tv" style="font-size:13px">HDL</text></g><text x="678" y="200" class="ts">送回肝臟</text>
+<path d="M640 208Q620 226 560 226H76V204" class="lv dash" marker-end="url(#ft-av)" style="stroke-width:1.3"/>
+<text x="330" y="220" text-anchor="middle" class="tv" style="font-size:11px">HDL（ApoA-I、LCAT）把膽固醇從周邊帶回肝臟</text>
+<g class="hot" data-tip="空腹或壓力時，經 G<tspan baseline-shift=&quot;sub&quot; style=&quot;font-size:8px&quot;>s</tspan> → adenylyl cyclase → <b>cAMP ↑ → PKA</b>。" data-label="荷爾蒙"><rect x="20" y="280" width="140" height="40" rx="10" class="bx"/><text x="90.0" y="297" text-anchor="middle" class="tb" style="font-size:12px">Epinephrine</text><text x="90.0" y="313" text-anchor="middle" class="ts">glucagon → cAMP</text></g>
+<path d="M160 300H190" class="ln" marker-end="url(#ft-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="PKA 磷酸化 <b>hormone-sensitive lipase（HSL）</b>與 perilipin（脂滴表面蛋白）。脂解順序：ATGL（TG→DAG）→ HSL（DAG→MAG）→ MGL（MAG→glycerol）。" data-label="PKA"><rect x="192" y="280" width="118" height="40" rx="10" class="br"/><text x="251.0" y="297" text-anchor="middle" class="tb" style="font-size:12px">PKA</text><text x="251.0" y="313" text-anchor="middle" class="ts">HSL、perilipin</text></g>
+<path d="M310 300H340" class="ln" marker-end="url(#ft-a)" style="stroke-width:1.6"/><text x="325.0" y="292" text-anchor="middle" class="ts">脂解</text>
+<rect x="342" y="280" width="118" height="40" rx="10" class="bw"/><text x="401.0" y="305" text-anchor="middle" class="tb" style="font-size:12px">FFA</text>
+<path d="M460 300H500" class="ln" marker-end="url(#ft-a)" style="stroke-width:1.6"/><text x="480.0" y="292" text-anchor="middle" class="ts">血液</text>
+<g class="hot" data-tip="游離脂肪酸不溶於水，在血中與 <b>serum albumin</b> 結合運送（不是 hemoglobin、不是 LDL、不是自由溶解）。" data-label="Serum albumin"><rect x="502" y="280" width="118" height="40" rx="10" class="bv"/><text x="561.0" y="297" text-anchor="middle" class="tb" style="font-size:12px">Serum albumin</text><text x="561.0" y="313" text-anchor="middle" class="ts">運送 FFA</text></g>
+<path d="M620 300H640" class="ln" marker-end="url(#ft-a)" style="stroke-width:1.6"/>
+<rect x="642" y="280" width="98" height="40" rx="10" class="bg"/><text x="691.0" y="297" text-anchor="middle" class="tb" style="font-size:12px">肌肉、心臟</text><text x="691.0" y="313" text-anchor="middle" class="ts">β-oxidation</text>
+<text x="342" y="342" class="ts">Glycerol → 肝臟 glycerol kinase → G3P → DHAP → 糖解／糖質新生</text>
+</svg>

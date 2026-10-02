@@ -1,0 +1,1324 @@
+[
+ {
+  "id": "new-001",
+  "source": "模擬新題",
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "The sensitivity of a signal-transduction system is determined mainly by:",
+  "options": [
+   {
+    "k": "A",
+    "t": "The affinity (Kd) of the receptor for its signal molecule"
+   },
+   {
+    "k": "B",
+    "t": "The number of kinases in the cascade"
+   },
+   {
+    "k": "C",
+    "t": "The rate at which the hormone is secreted"
+   },
+   {
+    "k": "D",
+    "t": "The number of second messengers produced"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Sensitivity 主要來自受體對訊號的高親和力（Kd 低）。課本也提到 cooperativity 與 cascade 放大會提高敏感度，但最根本的決定因素是受體親和力。",
+  "topics": [
+   "訊息傳遞特徵與受體類型"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-002",
+  "source": "模擬新題",
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "Which of the following receptors is a ligand-gated ion channel?",
+  "options": [
+   {
+    "k": "A",
+    "t": "β-adrenergic receptor"
+   },
+   {
+    "k": "B",
+    "t": "Nicotinic acetylcholine receptor"
+   },
+   {
+    "k": "C",
+    "t": "Insulin receptor"
+   },
+   {
+    "k": "D",
+    "t": "Estrogen receptor"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Nicotinic ACh receptor 是配體門控通道；β-adrenergic 是 GPCR，insulin receptor 是 RTK，estrogen receptor 是核受體。",
+  "topics": [
+   "訊息傳遞特徵與受體類型"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-003",
+  "source": "模擬新題",
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "Which pairing of receptor and receptor class is INCORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "ANF receptor — receptor guanylyl cyclase"
+   },
+   {
+    "k": "B",
+    "t": "Glucocorticoid receptor — nuclear receptor"
+   },
+   {
+    "k": "C",
+    "t": "Insulin receptor — G protein–coupled receptor"
+   },
+   {
+    "k": "D",
+    "t": "β-adrenergic receptor — G protein–coupled receptor"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Insulin receptor 是 receptor tyrosine kinase（受體酵素），不是 GPCR。",
+  "topics": [
+   "訊息傳遞特徵與受體類型"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "new-004",
+  "source": "模擬新題",
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "Which statement about the stimulatory G protein (Gs) is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "In the resting state, Gsα has GDP bound"
+   },
+   {
+    "k": "B",
+    "t": "The activated receptor promotes exchange of GDP for GTP on Gsα"
+   },
+   {
+    "k": "C",
+    "t": "Gsα-GTP dissociates from βγ and activates adenylyl cyclase"
+   },
+   {
+    "k": "D",
+    "t": "Gsα is switched off when cAMP phosphodiesterase hydrolyzes its bound GTP"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Gsα 靠自己內建的 GTPase 把 GTP 水解成 GDP 而關閉；cAMP phosphodiesterase 分解的是 cAMP。",
+  "topics": [
+   "GPCR 與 cAMP／PKA"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-005",
+  "source": "模擬新題",
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "How many molecules of cAMP are required to release both catalytic subunits of one PKA holoenzyme (R2C2)?",
+  "options": [
+   {
+    "k": "A",
+    "t": "1"
+   },
+   {
+    "k": "B",
+    "t": "2"
+   },
+   {
+    "k": "C",
+    "t": "4"
+   },
+   {
+    "k": "D",
+    "t": "8"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "每個 R 次單元結合 2 個 cAMP，兩個 R 共 4 個 → 釋出 2 個 C。所以 cAMP → PKA 這一步不放大。",
+  "topics": [
+   "GPCR 與 cAMP／PKA"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-006",
+  "source": "模擬新題",
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "Desensitization of the β-adrenergic receptor during prolonged exposure to epinephrine involves:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Increased synthesis of the receptor"
+   },
+   {
+    "k": "B",
+    "t": "Phosphorylation of the receptor by βARK followed by binding of β-arrestin"
+   },
+   {
+    "k": "C",
+    "t": "Phosphorylation of Gsα by protein kinase C"
+   },
+   {
+    "k": "D",
+    "t": "Activation of cGMP phosphodiesterase"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "βARK（GRK2）磷酸化受體 C 端 → β-arrestin 結合 → 受體被內吞；之後去磷酸化再送回膜上。",
+  "topics": [
+   "GPCR 與 cAMP／PKA"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-007",
+  "source": "模擬新題",
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "In liver cells, an inhibitor of cAMP phosphodiesterase (e.g., theophylline) would be expected to:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Decrease PKA activity"
+   },
+   {
+    "k": "B",
+    "t": "Inhibit the GTPase activity of Gsα"
+   },
+   {
+    "k": "C",
+    "t": "Prolong the stimulatory effect of glucagon or epinephrine on glycogen breakdown"
+   },
+   {
+    "k": "D",
+    "t": "Block activation of adenylyl cyclase"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "PDE 被抑制 → cAMP 分解變慢 → PKA 活化更久 → 肝醣分解持續。",
+  "topics": [
+   "GPCR 與 cAMP／PKA"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-008",
+  "source": "模擬新題",
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "Hydrolysis of PIP2 by phospholipase C generates:",
+  "options": [
+   {
+    "k": "A",
+    "t": "cAMP and cGMP"
+   },
+   {
+    "k": "B",
+    "t": "PIP3 and DAG"
+   },
+   {
+    "k": "C",
+    "t": "IP3, which activates protein kinase C, and DAG, which opens ER Ca²⁺ channels"
+   },
+   {
+    "k": "D",
+    "t": "IP3, which opens Ca²⁺ channels in the ER, and DAG, which together with Ca²⁺ activates protein kinase C"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "IP₃ 水溶、結合 ER 上的 Ca²⁺ 通道；DAG 留在膜上，與 Ca²⁺ 一起活化 PKC。常見陷阱是把兩者的作用對調。",
+  "topics": [
+   "IP3／DAG／Ca²⁺"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-009",
+  "source": "模擬新題",
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "Sildenafil (Viagra) enhances smooth-muscle relaxation by:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Inhibiting cGMP-specific phosphodiesterase (PDE5)"
+   },
+   {
+    "k": "B",
+    "t": "Releasing nitric oxide"
+   },
+   {
+    "k": "C",
+    "t": "Blocking protein kinase G"
+   },
+   {
+    "k": "D",
+    "t": "Activating soluble guanylyl cyclase"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "抑制 PDE5 → cGMP 分解變慢 → PKG 活化更久 → 血管舒張。",
+  "topics": [
+   "cGMP／NO"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-010",
+  "source": "模擬新題",
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "Which statement about nitric oxide (NO) signaling is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "NO activates a soluble, heme-containing guanylyl cyclase"
+   },
+   {
+    "k": "B",
+    "t": "NO is stable in blood and acts mainly on distant organs"
+   },
+   {
+    "k": "C",
+    "t": "The resulting cGMP activates protein kinase G and relaxes smooth muscle"
+   },
+   {
+    "k": "D",
+    "t": "NO is produced from arginine by NO synthase"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "NO 是氣體、半衰期很短，作用在鄰近細胞（局部反應）。",
+  "topics": [
+   "cGMP／NO"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-011",
+  "source": "模擬新題",
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "In vertebrate rod cells, absorption of light by rhodopsin leads to:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Release of IP3 from the disk membrane"
+   },
+   {
+    "k": "B",
+    "t": "Activation of adenylyl cyclase and a rise in cAMP"
+   },
+   {
+    "k": "C",
+    "t": "Activation of cGMP phosphodiesterase via transducin and a fall in cGMP"
+   },
+   {
+    "k": "D",
+    "t": "Opening of cGMP-gated Na⁺/Ca²⁺ channels"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "光 → rhodopsin（GPCR）→ transducin → cGMP PDE 活化 → cGMP ↓ → 通道關閉、細胞過極化。",
+  "topics": [
+   "GPCR 與 cAMP／PKA"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-012",
+  "source": "模擬新題",
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "Which statement about the insulin receptor is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "It is an (αβ)2 dimer whose β subunits have tyrosine kinase activity"
+   },
+   {
+    "k": "B",
+    "t": "Insulin binding triggers autophosphorylation of Tyr residues in the β subunits"
+   },
+   {
+    "k": "C",
+    "t": "Phosphorylated IRS-1 recruits proteins containing SH2 domains"
+   },
+   {
+    "k": "D",
+    "t": "It activates Gs to raise intracellular cAMP"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Insulin receptor 是 RTK，經 IRS-1 → PI3K／Ras 傳遞訊號，不經 Gs 和 cAMP。",
+  "topics": [
+   "RTK 與胰島素訊號"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-013",
+  "source": "模擬新題",
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "Which sequence correctly describes the insulin-activated MAPK cascade?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Grb2 → Sos → Ras → Raf → MEK → ERK"
+   },
+   {
+    "k": "B",
+    "t": "Sos → Grb2 → Raf → Ras → ERK → MEK"
+   },
+   {
+    "k": "C",
+    "t": "Ras → Grb2 → Sos → MEK → Raf → ERK"
+   },
+   {
+    "k": "D",
+    "t": "Grb2 → Ras → Sos → ERK → MEK → Raf"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Grb2（SH2）接上 IRS-1 → Sos（GEF）→ Ras-GTP → Raf（MAPKKK）→ MEK（MAPKK）→ ERK（MAPK）。",
+  "topics": [
+   "RTK 與胰島素訊號"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-014",
+  "source": "模擬新題",
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "Insulin stimulates glycogen synthesis in muscle mainly because protein kinase B (Akt):",
+  "options": [
+   {
+    "k": "A",
+    "t": "Phosphorylates and directly activates glycogen synthase"
+   },
+   {
+    "k": "B",
+    "t": "Phosphorylates and inactivates GSK3, so glycogen synthase remains dephosphorylated and active"
+   },
+   {
+    "k": "C",
+    "t": "Dephosphorylates GSK3"
+   },
+   {
+    "k": "D",
+    "t": "Activates glycogen phosphorylase"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "GSK3 平時磷酸化 glycogen synthase 使它失活；Akt 磷酸化 GSK3 → GSK3 失活 → GS 保持活化。",
+  "topics": [
+   "RTK 與胰島素訊號"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-015",
+  "source": "模擬新題",
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "The PH (pleckstrin homology) domain of proteins such as Akt and PDK1 binds:",
+  "options": [
+   {
+    "k": "A",
+    "t": "cAMP"
+   },
+   {
+    "k": "B",
+    "t": "Phosphotyrosine"
+   },
+   {
+    "k": "C",
+    "t": "PIP3"
+   },
+   {
+    "k": "D",
+    "t": "Phospho-Ser/Thr"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "PH domain 結合 PIP₃，把 Akt、PDK1 招到膜上；SH2、PTB 認得 pTyr；14-3-3 認得 pSer/Thr。",
+  "topics": [
+   "RTK 與胰島素訊號"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-016",
+  "source": "模擬新題",
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "Tamoxifen is used to treat estrogen-dependent breast cancer because it:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Blocks the progesterone receptor"
+   },
+   {
+    "k": "B",
+    "t": "Inhibits the BCR-ABL tyrosine kinase"
+   },
+   {
+    "k": "C",
+    "t": "Inhibits aromatase in the nucleus"
+   },
+   {
+    "k": "D",
+    "t": "Binds the estrogen receptor but fails to activate it"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Tamoxifen 與 estrogen 競爭 estrogen receptor 但不活化轉錄。阻斷 progesterone receptor 的是 RU486；BCR-ABL 是 Gleevec 的標的。",
+  "topics": [
+   "核受體與類固醇"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-017",
+  "source": "模擬新題",
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "Which statement about the G1/S checkpoint is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Cyclin B–CDK1 is the main complex driving the G1→S transition"
+   },
+   {
+    "k": "B",
+    "t": "DNA damage activates the kinases ATM/ATR"
+   },
+   {
+    "k": "C",
+    "t": "CDK-dependent phosphorylation of pRb releases E2F"
+   },
+   {
+    "k": "D",
+    "t": "After DNA damage, p53 induces p21, which inhibits CDK2–cyclin E"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "G1/S 由 cyclin E–CDK2（與 cyclin D–CDK4/6）推動；cyclin B–CDK1 負責進入 M 期。",
+  "topics": [
+   "細胞週期與癌症"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-018",
+  "source": "模擬新題",
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "The resting membrane potential of animal cells is established mainly by the Na⁺K⁺-ATPase, which for each ATP hydrolyzed moves:",
+  "options": [
+   {
+    "k": "A",
+    "t": "1 Na⁺ out and 1 K⁺ in"
+   },
+   {
+    "k": "B",
+    "t": "3 Na⁺ out and 2 K⁺ in"
+   },
+   {
+    "k": "C",
+    "t": "2 Na⁺ out and 3 K⁺ in"
+   },
+   {
+    "k": "D",
+    "t": "3 Na⁺ in and 2 K⁺ out"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "每個 ATP：3 Na⁺ 出、2 K⁺ 進 → 細胞內為負（約 −50 到 −70 mV）。",
+  "topics": [
+   "訊息傳遞特徵與受體類型"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-019",
+  "source": "模擬新題",
+  "chapter": "ch17",
+  "type": "mcq",
+  "stem": "How many ATP are produced (net) from the complete oxidation of one stearate (18:0)? (NADH = 2.5, FADH2 = 1.5, acetyl-CoA = 10 ATP)",
+  "options": [
+   {
+    "k": "A",
+    "t": "106"
+   },
+   {
+    "k": "B",
+    "t": "120"
+   },
+   {
+    "k": "C",
+    "t": "122"
+   },
+   {
+    "k": "D",
+    "t": "129"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "8 輪 β-oxidation：8 FADH₂ × 1.5 = 12、8 NADH × 2.5 = 20；9 acetyl-CoA × 10 = 90；共 122，扣活化 2 → 120。",
+  "topics": [
+   "β-oxidation 與 ATP 計算"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-020",
+  "source": "模擬新題",
+  "chapter": "ch17",
+  "type": "mcq",
+  "stem": "Which statement about the carnitine shuttle is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "The translocase exchanges acyl-carnitine for free carnitine"
+   },
+   {
+    "k": "B",
+    "t": "Carnitine acyltransferase I is on the outer mitochondrial membrane"
+   },
+   {
+    "k": "C",
+    "t": "Malonyl-CoA inhibits carnitine acyltransferase I"
+   },
+   {
+    "k": "D",
+    "t": "Fatty acyl-CoA crosses the inner mitochondrial membrane directly"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Fatty acyl-CoA 不能穿過內膜，必須先轉成 acyl-carnitine。",
+  "topics": [
+   "Carnitine shuttle"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-021",
+  "source": "模擬新題",
+  "chapter": "ch17",
+  "type": "mcq",
+  "stem": "Which tissue cannot use ketone bodies as fuel?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Liver"
+   },
+   {
+    "k": "B",
+    "t": "Heart muscle"
+   },
+   {
+    "k": "C",
+    "t": "Brain during prolonged starvation"
+   },
+   {
+    "k": "D",
+    "t": "Renal cortex"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "肝臟沒有 β-ketoacyl-CoA transferase（thiophorase），只合成、不使用酮體。",
+  "topics": [
+   "酮體"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-022",
+  "source": "模擬新題",
+  "chapter": "ch17",
+  "type": "mcq",
+  "stem": "In vitamin B12 deficiency, which step in the metabolism of odd-chain fatty acids is impaired?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Methylmalonyl-CoA epimerase"
+   },
+   {
+    "k": "B",
+    "t": "Methylmalonyl-CoA mutase"
+   },
+   {
+    "k": "C",
+    "t": "Thiolase"
+   },
+   {
+    "k": "D",
+    "t": "Propionyl-CoA carboxylase"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Methylmalonyl-CoA mutase 需要 coenzyme B₁₂（5′-deoxyadenosylcobalamin）；carboxylase 需要 biotin。",
+  "topics": [
+   "奇數碳與 propionyl-CoA"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-023",
+  "source": "模擬新題",
+  "chapter": "ch21",
+  "type": "mcq",
+  "stem": "Which comparison between fatty acid synthesis and β-oxidation is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Synthesis uses NADPH; β-oxidation produces FADH2 and NADH"
+   },
+   {
+    "k": "B",
+    "t": "The acyl carrier in synthesis is ACP; in β-oxidation it is CoA"
+   },
+   {
+    "k": "C",
+    "t": "Both pathways use L-β-hydroxyacyl intermediates"
+   },
+   {
+    "k": "D",
+    "t": "Synthesis occurs in the cytosol; β-oxidation in the mitochondrial matrix"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "合成的 β-hydroxyacyl 中間物是 D 型，β-oxidation 是 L 型。",
+  "topics": [
+   "合成 vs 分解比較"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-024",
+  "source": "模擬新題",
+  "chapter": "ch21",
+  "type": "mcq",
+  "stem": "The rate-limiting enzyme of fatty acid synthesis and its allosteric activator are:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Fatty acid synthase; palmitoyl-CoA"
+   },
+   {
+    "k": "B",
+    "t": "Citrate lyase; insulin"
+   },
+   {
+    "k": "C",
+    "t": "HMG-CoA reductase; mevalonate"
+   },
+   {
+    "k": "D",
+    "t": "Acetyl-CoA carboxylase; citrate"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "ACC 是限速酶，citrate 別構活化（促進聚合）、palmitoyl-CoA 回饋抑制。",
+  "topics": [
+   "脂肪酸合成與 ACC"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-025",
+  "source": "模擬新題",
+  "chapter": "ch21",
+  "type": "mcq",
+  "stem": "Statins lower plasma LDL cholesterol mainly because they:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Competitively inhibit HMG-CoA reductase, lowering intracellular cholesterol and increasing LDL-receptor expression"
+   },
+   {
+    "k": "B",
+    "t": "Activate ACAT"
+   },
+   {
+    "k": "C",
+    "t": "Inhibit SREBP processing"
+   },
+   {
+    "k": "D",
+    "t": "Block intestinal absorption of cholesterol"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "細胞內膽固醇 ↓ → SREBP 活化 → LDL receptor ↑ → 肝臟從血中清除更多 LDL。",
+  "topics": [
+   "膽固醇合成與 HMG-CoA reductase"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-026",
+  "source": "模擬新題",
+  "chapter": "ch21",
+  "type": "mcq",
+  "stem": "In the liver, conversion of phosphatidylethanolamine to phosphatidylcholine uses which methyl donor?",
+  "options": [
+   {
+    "k": "A",
+    "t": "N5-methyl-tetrahydrofolate"
+   },
+   {
+    "k": "B",
+    "t": "S-adenosylmethionine"
+   },
+   {
+    "k": "C",
+    "t": "Methylcobalamin"
+   },
+   {
+    "k": "D",
+    "t": "Biotin"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "PE 被 SAM 甲基化 3 次變成 PC。",
+  "topics": [
+   "磷脂質合成"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-027",
+  "source": "模擬新題",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "Sulfonylurea drugs used in type 2 diabetes stimulate insulin release from β cells by:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Increasing GLUT2 expression"
+   },
+   {
+    "k": "B",
+    "t": "Opening ATP-sensitive K⁺ channels"
+   },
+   {
+    "k": "C",
+    "t": "Closing ATP-sensitive K⁺ channels, depolarizing the membrane"
+   },
+   {
+    "k": "D",
+    "t": "Blocking voltage-gated Ca²⁺ channels"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "與 ATP 的效果相同：關閉 K-ATP → 去極化 → 電壓門控 Ca²⁺ 通道打開 → Ca²⁺ 流入 → 胞吐。",
+  "topics": [
+   "胰島素與 GLUT"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-028",
+  "source": "模擬新題",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "Muscle glycogen cannot be used to maintain blood glucose because muscle lacks:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Hexokinase"
+   },
+   {
+    "k": "B",
+    "t": "Glycogen phosphorylase"
+   },
+   {
+    "k": "C",
+    "t": "Phosphoglucomutase"
+   },
+   {
+    "k": "D",
+    "t": "Glucose-6-phosphatase"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "沒有 glucose-6-phosphatase，G6P 無法去磷酸化離開細胞，只能自己糖解。",
+  "topics": [
+   "各器官燃料代謝"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-029",
+  "source": "模擬新題",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "After several weeks of starvation, which of the following is TRUE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "The brain obtains a large part of its energy from ketone bodies"
+   },
+   {
+    "k": "B",
+    "t": "Liver glycogen synthesis is increased"
+   },
+   {
+    "k": "C",
+    "t": "Plasma insulin is elevated"
+   },
+   {
+    "k": "D",
+    "t": "Fatty acids cross the blood–brain barrier to fuel the brain"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "長期飢餓時腦改用 β-hydroxybutyrate，減少糖質新生的需求、節省肌肉蛋白。脂肪酸過不了血腦障壁。",
+  "topics": [
+   "飢餓與糖尿病",
+   "酮體"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-030",
+  "source": "模擬新題",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "A 14-year-old with weight loss, polyuria, and fruity-smelling breath has very low plasma C-peptide. Which description fits best?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Type 2 diabetes caused by insulin resistance"
+   },
+   {
+    "k": "B",
+    "t": "Type 1 diabetes caused by autoimmune destruction of β cells"
+   },
+   {
+    "k": "C",
+    "t": "Excess leptin"
+   },
+   {
+    "k": "D",
+    "t": "Glucagon deficiency"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "C-peptide 低代表自身 insulin 分泌少；年輕、偏瘦、酮酸中毒（acetone 味）→ T1DM。",
+  "topics": [
+   "飢餓與糖尿病"
+  ],
+  "pattern": "臨床情境題"
+ },
+ {
+  "id": "new-031",
+  "source": "模擬新題",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "Which statement about leptin is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "It is the product of the OB gene"
+   },
+   {
+    "k": "B",
+    "t": "It acts on the hypothalamus through a JAK-STAT pathway"
+   },
+   {
+    "k": "C",
+    "t": "Most obese individuals have abnormally low leptin levels"
+   },
+   {
+    "k": "D",
+    "t": "It is secreted by adipocytes"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "多數肥胖者 leptin 偏高，問題是 leptin resistance；只有少數 OB 基因缺陷者才缺 leptin。",
+  "topics": [
+   "瘦素與脂肪激素"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-032",
+  "source": "模擬新題",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "Activation of AMP-activated protein kinase (AMPK) in liver leads to:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Activation of HMG-CoA reductase"
+   },
+   {
+    "k": "B",
+    "t": "Increased fatty acid synthesis"
+   },
+   {
+    "k": "C",
+    "t": "Inhibition of fatty acid oxidation"
+   },
+   {
+    "k": "D",
+    "t": "Phosphorylation and inhibition of acetyl-CoA carboxylase"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "能量低時 AMPK 關掉耗能的合成（ACC、HMG-CoA reductase），malonyl-CoA ↓ → CPT I 解除抑制 → 脂肪酸氧化 ↑。",
+  "topics": [
+   "AMPK／輔酶"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-033",
+  "source": "模擬新題",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "The second nitrogen atom of urea is donated directly by:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Aspartate"
+   },
+   {
+    "k": "B",
+    "t": "Alanine"
+   },
+   {
+    "k": "C",
+    "t": "Glutamate"
+   },
+   {
+    "k": "D",
+    "t": "Glutamine"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "第一個 N 來自 NH₄⁺（carbamoyl phosphate），第二個由 aspartate 在 argininosuccinate synthetase 步驟加入。",
+  "topics": [
+   "尿素循環"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-034",
+  "source": "模擬新題",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "N-Acetylglutamate is an essential allosteric activator of:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Glutamate dehydrogenase"
+   },
+   {
+    "k": "B",
+    "t": "Carbamoyl phosphate synthetase I"
+   },
+   {
+    "k": "C",
+    "t": "Ornithine transcarbamoylase"
+   },
+   {
+    "k": "D",
+    "t": "Arginase"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "NAG 是 CPS I 的必需活化劑；NAG synthase 由 arginine 活化。",
+  "topics": [
+   "尿素循環"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-035",
+  "source": "模擬新題",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "Which reaction does NOT require pyridoxal phosphate?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Transamination of alanine"
+   },
+   {
+    "k": "B",
+    "t": "δ-Aminolevulinate synthase"
+   },
+   {
+    "k": "C",
+    "t": "Norepinephrine → epinephrine"
+   },
+   {
+    "k": "D",
+    "t": "DOPA → dopamine"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Norepinephrine → epinephrine 是甲基化，甲基來自 SAM。",
+  "topics": [
+   "轉胺與 PLP"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-036",
+  "source": "模擬新題",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "Which amino acids are exclusively ketogenic in humans?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Isoleucine and threonine"
+   },
+   {
+    "k": "B",
+    "t": "Phenylalanine and tyrosine"
+   },
+   {
+    "k": "C",
+    "t": "Tryptophan and valine"
+   },
+   {
+    "k": "D",
+    "t": "Leucine and lysine"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "只有 Leu、Lys 純生酮；Ile、Phe、Trp、Tyr、Thr 兩者皆是。",
+  "topics": [
+   "生酮／生醣胺基酸"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-037",
+  "source": "模擬新題",
+  "chapter": "ch22",
+  "type": "mcq",
+  "stem": "Methotrexate blocks DNA synthesis in rapidly dividing cells by inhibiting:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Dihydrofolate reductase"
+   },
+   {
+    "k": "B",
+    "t": "Ribonucleotide reductase"
+   },
+   {
+    "k": "C",
+    "t": "Thymidine kinase"
+   },
+   {
+    "k": "D",
+    "t": "Thymidylate synthase"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "DHFR 被抑制 → THF 無法再生 → 沒有 methylene-THF 給 thymidylate synthase → dTMP 停止合成。",
+  "topics": [
+   "抗代謝藥物",
+   "Ribonucleotide reductase 與 dTMP"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-038",
+  "source": "模擬新題",
+  "chapter": "ch22",
+  "type": "mcq",
+  "stem": "In adenosine deaminase (ADA) deficiency, lymphocytes fail to proliferate because:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Uric acid accumulates in lymph nodes"
+   },
+   {
+    "k": "B",
+    "t": "dATP accumulates and inhibits ribonucleotide reductase"
+   },
+   {
+    "k": "C",
+    "t": "PRPP synthetase is inhibited"
+   },
+   {
+    "k": "D",
+    "t": "HGPRT is overactive"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "ADA 缺乏 → dATP 堆積 → 抑制 RNR → 無 dNTP 合成 DNA → SCID。",
+  "topics": [
+   "Salvage、Lesch-Nyhan 與 SCID"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-039",
+  "source": "模擬新題",
+  "chapter": "ch22",
+  "type": "mcq",
+  "stem": "Allopurinol lowers uric acid production because it:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Increases renal excretion of urate"
+   },
+   {
+    "k": "B",
+    "t": "Is a xanthine analog that activates uricase"
+   },
+   {
+    "k": "C",
+    "t": "Is a hypoxanthine analog that inhibits xanthine oxidase"
+   },
+   {
+    "k": "D",
+    "t": "Inhibits PRPP synthetase"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Allopurinol 是 hypoxanthine 類似物，抑制 xanthine oxidase。",
+  "topics": [
+   "核苷酸分解與痛風"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-040",
+  "source": "模擬新題",
+  "chapter": "ch22",
+  "type": "mcq",
+  "stem": "A boy with hyperuricemia, choreoathetosis, and self-mutilating behavior most likely has a complete deficiency of:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Xanthine oxidase"
+   },
+   {
+    "k": "B",
+    "t": "Glucose-6-phosphatase"
+   },
+   {
+    "k": "C",
+    "t": "Adenosine deaminase"
+   },
+   {
+    "k": "D",
+    "t": "HGPRT (hypoxanthine-guanine phosphoribosyltransferase)"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Lesch-Nyhan syndrome：HGPRT 完全缺乏、X-linked recessive；salvage 失效 → PRPP 堆積、purine 合成與尿酸大增。",
+  "topics": [
+   "Salvage、Lesch-Nyhan 與 SCID"
+  ],
+  "pattern": "臨床情境題"
+ }
+]

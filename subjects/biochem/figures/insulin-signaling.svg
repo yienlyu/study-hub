@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 408" role="img" aria-label="Insulin 受體訊息：(αβ)2 受體自體磷酸化 Tyr 後磷酸化 IRS-1；一支經 Grb2、Sos、Ras、Raf、MEK、ERK 調控基因表現；另一支經 PI3K 產生 PIP3、PDK1 活化 Akt，Akt 磷酸化 GSK3 使其失活讓 glycogen synthase 活化，並使 GLUT4 移到細胞膜">
+<defs><marker id="is-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="is-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="is-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="is-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<rect x="20" y="66" width="720" height="34" class="bp"/>
+<text x="30" y="24" class="th">細胞外</text><text x="30" y="204" class="th">細胞質</text>
+<g class="hot" data-tip="Insulin receptor 是 <b>(αβ)₂</b>：α 次單元在細胞外結合 insulin，β 次單元跨膜、細胞內有 tyrosine kinase domain。" data-label="Insulin receptor"><rect x="60" y="32" width="70" height="30" rx="8" class="bw"/><text x="95" y="52" text-anchor="middle" class="tb" style="font-size:11px">α α</text></g>
+<text x="95" y="24" text-anchor="middle" class="tb" style="font-size:12px">Insulin</text>
+<rect x="68" y="62" width="20" height="74" rx="5" class="br"/><rect x="102" y="62" width="20" height="74" rx="5" class="br"/>
+<circle cx="58" cy="112" r="7" class="fr"/><text x="58" y="115.5" text-anchor="middle" class="tw" style="font-size:9px">P</text>
+<circle cx="132" cy="112" r="7" class="fr"/><text x="132" y="115.5" text-anchor="middle" class="tw" style="font-size:9px">P</text>
+<circle cx="58" cy="128" r="7" class="fr"/><text x="58" y="131.5" text-anchor="middle" class="tw" style="font-size:9px">P</text>
+<circle cx="132" cy="128" r="7" class="fr"/><text x="132" y="131.5" text-anchor="middle" class="tw" style="font-size:9px">P</text>
+<g class="hot" data-tip="結合 insulin 後兩個 β 次單元<b>互相磷酸化 Tyr</b>（autophosphorylation），activation loop 移開、讓出受質結合位，才能磷酸化 IRS-1。" data-label="Autophosphorylation"><text x="95" y="158" text-anchor="middle" class="tb" style="font-size:11px">β 自體磷酸化</text></g>
+<path d="M142 120H190" class="ln" marker-end="url(#is-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="Insulin receptor substrate-1：被受體磷酸化 Tyr 後，成為 SH2 蛋白（Grb2、PI3K）的停靠站，分出兩條路。" data-label="IRS-1"><rect x="192" y="102" width="80" height="36" rx="10" class="bv"/><text x="232" y="125" text-anchor="middle" class="tb" style="font-size:12px">IRS-1</text></g>
+<path d="M272 120H288" class="ln" marker-end="url(#is-a)" style="stroke-width:1.6"/>
+<rect x="290" y="102" width="56" height="36" rx="10" class="bx"/><text x="318.0" y="125.0" text-anchor="middle" class="tb" style="font-size:11.5px">Grb2</text>
+<path d="M346 120H358" class="ln" marker-end="url(#is-a)" style="stroke-width:1.6"/>
+<rect x="360" y="102" width="56" height="36" rx="10" class="bx"/><text x="388.0" y="125.0" text-anchor="middle" class="tb" style="font-size:11.5px">Sos</text>
+<path d="M416 120H428" class="ln" marker-end="url(#is-a)" style="stroke-width:1.6"/>
+<rect x="430" y="102" width="78" height="36" rx="10" class="bx"/><text x="469.0" y="125.0" text-anchor="middle" class="tb" style="font-size:11.5px">Ras-GTP</text>
+<path d="M508 120H518" class="ln" marker-end="url(#is-a)" style="stroke-width:1.6"/>
+<rect x="520" y="102" width="56" height="36" rx="10" class="bx"/><text x="548.0" y="125.0" text-anchor="middle" class="tb" style="font-size:11.5px">Raf</text>
+<path d="M576 120H588" class="ln" marker-end="url(#is-a)" style="stroke-width:1.6"/>
+<rect x="590" y="102" width="56" height="36" rx="10" class="bx"/><text x="618.0" y="125.0" text-anchor="middle" class="tb" style="font-size:11.5px">MEK</text>
+<path d="M646 120H658" class="ln" marker-end="url(#is-a)" style="stroke-width:1.6"/>
+<rect x="660" y="102" width="56" height="36" rx="10" class="bx"/><text x="688.0" y="125.0" text-anchor="middle" class="tb" style="font-size:11.5px">ERK</text>
+<g class="hot" data-tip="Grb2 以 <b>SH2</b> 接上 IRS-1 → Sos（<b>GEF</b>）讓 Ras 的 GDP 換成 GTP → Raf → MEK → ERK（MAPK）→ 進核磷酸化 Elk1 等轉錄因子。" data-label="MAPK 路徑"><text x="290" y="158" class="tb" style="font-size:11.5px">① MAPK cascade：細胞分裂、基因表現</text></g>
+<path d="M688 138V188" class="ln" marker-end="url(#is-a)" style="stroke-width:1.6"/>
+<text x="688" y="204" text-anchor="middle" class="ts">進核 → 轉錄</text>
+<path d="M232 138V192" class="ln" marker-end="url(#is-a)" style="stroke-width:1.6"/>
+<rect x="192" y="194" width="80" height="36" rx="10" class="bx"/><text x="232.0" y="217.0" text-anchor="middle" class="tb" style="font-size:12px">PI3K</text>
+<path d="M272 212H318" class="ln" marker-end="url(#is-a)" style="stroke-width:1.6"/>
+<text x="320" y="208" class="tb tv" style="font-size:12px">PIP₂ → PIP₃</text>
+<path d="M360 216V246" class="ln" marker-end="url(#is-a)" style="stroke-width:1.6"/>
+<text x="370" y="236" class="ts">PDK1</text>
+<g class="hot" data-tip="PIP₃ 把 PDK1 與 Akt（PH domain）招到膜上 → PDK1 磷酸化活化 Akt。" data-label="Akt"><rect x="310" y="248" width="100" height="38" rx="10" class="bw"/><text x="360" y="272" text-anchor="middle" class="tb" style="font-size:12px">PKB（Akt）</text></g>
+<path d="M410 267H458" class="ln" marker-end="url(#is-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="Akt 磷酸化 GSK3 → <b>GSK3 失活</b> → 不再磷酸化 glycogen synthase → glycogen synthase 保持去磷酸化（活化）。" data-label="GSK3"><rect x="460" y="248" width="90" height="38" rx="10" class="bx"/><text x="505" y="272" text-anchor="middle" class="tb" style="font-size:12px">GSK3</text></g>
+<text x="505" y="302" text-anchor="middle" class="tr" style="font-size:11px">被磷酸化 → 失活</text>
+<path d="M550 267H592" class="lr" style="stroke-width:1.6"/><path d="M592 257V277" class="lr" style="stroke-width:2.4"/>
+<rect x="598" y="248" width="142" height="42" rx="10" class="bg"/><text x="669.0" y="263" text-anchor="middle" class="tb" style="font-size:11.5px">Glycogen synthase</text><text x="669.0" y="278" text-anchor="middle" class="ts">去磷酸化＝活化</text>
+<text x="669" y="308" text-anchor="middle" class="tb" style="font-size:11.5px;fill:var(--good)">③ 肝醣合成 ↑</text>
+<path d="M330 286V334" class="ln" marker-end="url(#is-a)" style="stroke-width:1.6"/>
+<circle cx="300" cy="364" r="24" class="bw"/><text x="300" y="368" text-anchor="middle" class="tb" style="font-size:10px">GLUT4</text>
+<text x="336" y="354" class="ts">囊泡</text>
+<g class="hot" data-tip="GLUT4 平時存在細胞內的囊泡；insulin（經 Akt）讓囊泡與細胞膜融合 → <b>肌肉、脂肪</b>吸收葡萄糖增加。" data-label="GLUT4 移位"><text x="336" y="374" class="tb" style="font-size:11.5px">② GLUT4 移到細胞膜</text></g>
+<text x="336" y="392" class="ts">肌肉、脂肪的葡萄糖吸收 ↑</text>
+<text x="30" y="344" class="tb" style="font-size:11.5px">④ Cross talk：</text><text x="30" y="362" class="ts">受體磷酸化 β-AR 的 Tyr</text><text x="30" y="378" class="ts">→ GPCR 內吞</text>
+</svg>

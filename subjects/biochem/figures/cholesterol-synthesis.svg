@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 384" role="img" aria-label="膽固醇合成：3 個 acetyl-CoA 成 HMG-CoA，HMG-CoA reductase（限速，statins 抑制）還原成 mevalonate，活化為 5 碳 IPP，經 geranyl-PP、farnesyl-PP、squalene、lanosterol 到 cholesterol；右下列出 reductase 的四種調控">
+<defs><marker id="ch-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="ch-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="ch-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="ch-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<rect x="20" y="40" width="140" height="42" rx="10" class="bw"/><text x="90.0" y="55" text-anchor="middle" class="tb" style="font-size:12px">3 Acetyl-CoA</text><text x="90.0" y="70" text-anchor="middle" class="ts">2C × 3</text>
+<rect x="200" y="40" width="140" height="42" rx="10" class="bx"/><text x="270.0" y="55" text-anchor="middle" class="tb" style="font-size:12px">HMG-CoA</text><text x="270.0" y="70" text-anchor="middle" class="ts">6C</text>
+<rect x="400" y="40" width="140" height="42" rx="10" class="bx"/><text x="470.0" y="55" text-anchor="middle" class="tb" style="font-size:12px">Mevalonate</text><text x="470.0" y="70" text-anchor="middle" class="ts">6C</text>
+<rect x="580" y="40" width="140" height="42" rx="10" class="bx"/><text x="650.0" y="55" text-anchor="middle" class="tb" style="font-size:12px">IPP</text><text x="650.0" y="70" text-anchor="middle" class="ts">5C 活化異戊二烯</text>
+<path d="M160 61H198" class="ln" marker-end="url(#ch-a)" style="stroke-width:1.6"/>
+<path d="M340 61H398" class="lr" marker-end="url(#ch-ar)" style="stroke-width:2.4"/>
+<path d="M540 61H578" class="ln" marker-end="url(#ch-a)" style="stroke-width:1.6"/>
+<text x="570" y="52" text-anchor="end" class="ts" style="font-size:10.5px">3 ATP</text>
+<g class="hot" data-tip="<b>膽固醇合成的限速酶</b>，位在 ER 膜（活性區朝細胞質）；用 <b>2 NADPH</b> 把 HMG-CoA 還原成 mevalonate。" data-label="HMG-CoA reductase"><text x="370" y="28" text-anchor="middle" class="tb tr" style="font-size:12.5px">HMG-CoA reductase</text></g>
+<text x="350" y="100" text-anchor="middle" class="tv" style="font-size:11px">2 NADPH</text>
+<rect x="580" y="150" width="140" height="42" rx="10" class="bx"/><text x="650.0" y="165" text-anchor="middle" class="tb" style="font-size:12px">Geranyl-PP</text><text x="650.0" y="180" text-anchor="middle" class="ts">10C</text>
+<rect x="400" y="150" width="140" height="42" rx="10" class="bx"/><text x="470.0" y="165" text-anchor="middle" class="tb" style="font-size:12px">Farnesyl-PP</text><text x="470.0" y="180" text-anchor="middle" class="ts">15C</text>
+<rect x="200" y="150" width="140" height="42" rx="10" class="bx"/><text x="270.0" y="165" text-anchor="middle" class="tb" style="font-size:12px">Squalene</text><text x="270.0" y="180" text-anchor="middle" class="ts">30C</text>
+<rect x="20" y="150" width="140" height="42" rx="10" class="bx"/><text x="90.0" y="165" text-anchor="middle" class="tb" style="font-size:12px">Lanosterol</text><text x="90.0" y="180" text-anchor="middle" class="ts">第一個 sterol</text>
+<path d="M650 82V148" class="ln" marker-end="url(#ch-a)" style="stroke-width:1.6"/>
+<text x="656" y="120" class="ts">IPP＋DMAPP</text>
+<path d="M580 171H542" class="ln" marker-end="url(#ch-a)" style="stroke-width:1.6"/>
+<text x="561" y="163" text-anchor="middle" class="ts" style="font-size:10.5px">＋IPP</text>
+<path d="M400 171H342" class="ln" marker-end="url(#ch-a)" style="stroke-width:1.6"/>
+<text x="370" y="163" text-anchor="middle" class="ts" style="font-size:10.5px">2 個相接</text>
+<path d="M200 171H162" class="ln" marker-end="url(#ch-a)" style="stroke-width:1.6"/>
+<text x="180" y="163" text-anchor="middle" class="ts" style="font-size:10.5px">環化</text>
+<path d="M90 192V236" class="ln" marker-end="url(#ch-a)" style="stroke-width:1.6"/>
+<text x="98" y="218" class="ts">~20 步</text>
+<rect x="20" y="238" width="140" height="42" rx="10" class="bp"/><text x="90.0" y="253" text-anchor="middle" class="tb" style="font-size:12px">Cholesterol</text><text x="90.0" y="268" text-anchor="middle" class="ts">27C</text>
+<path d="M160 259H214" class="ln" marker-end="url(#ch-a)" style="stroke-width:1.6"/>
+<text x="222" y="248" class="ts">膽鹽・vitamin D・類固醇荷爾蒙</text>
+<text x="222" y="266" class="ts" style="font-size:10.5px">（cortisol、aldosterone、sex hormones）</text>
+<text x="222" y="284" class="ts" style="font-size:10.5px">多餘的由 ACAT 酯化儲存</text>
+<rect x="452" y="234" width="292" height="140" rx="10" class="bw"/>
+<text x="464" y="254" class="th">HMG-CoA reductase 的調控</text>
+<g class="hot" data-tip="insulin 去磷酸化（活化）；glucagon、AMPK 磷酸化（抑制）" data-label="荷爾蒙調控"><text x="464" y="278" class="tb" style="font-size:11.5px">① 荷爾蒙</text></g><text x="532" y="278" class="ts" style="font-size:10.5px">insulin（＋）、glucagon・AMPK（－）</text>
+<g class="hot" data-tip="膽固醇／lanosterol 多 → reductase 被 ubiquitin 標記 → proteasome 分解" data-label="Sterol 誘導降解"><text x="464" y="303" class="tb" style="font-size:11.5px">② 泛素化</text></g><text x="532" y="303" class="ts" style="font-size:10.5px">sterol 多 → 降解</text>
+<g class="hot" data-tip="膽固醇低 → <b>SREBP</b> 進核 → ↑ reductase 與 <b>LDL receptor</b> 基因" data-label="SREBP"><text x="464" y="328" class="tb" style="font-size:11.5px">③ 轉錄</text></g><text x="532" y="328" class="ts" style="font-size:10.5px">SREBP → reductase、LDLR ↑</text>
+<g class="hot" data-tip="結構類似 mevalonate、<b>競爭性抑制</b> reductase → 細胞內膽固醇 ↓ → <b>LDL receptor ↑</b> → 血中 LDL 清除更快。Lovastatin、simvastatin 是真菌 polyketide；atorvastatin 是合成藥。" data-label="Statins"><text x="464" y="353" class="tb tr" style="font-size:11.5px">④ Statins</text></g><text x="532" y="353" class="ts" style="font-size:10.5px">競爭性抑制 → LDLR ↑</text>
+<path d="M385 104V70" class="lr" style="stroke-width:1.6"/><path d="M377 70H393" class="lr" style="stroke-width:2.4"/>
+<text x="385" y="118" text-anchor="middle" class="tr" style="font-size:11px">statins</text>
+</svg>

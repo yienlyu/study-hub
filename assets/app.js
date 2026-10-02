@@ -1,13 +1,14 @@
 /* Study Hub — 靜態多科目複習站（無需 build，直接放 GitHub Pages）
  * 路由：
  *   #/                               首頁
+ *   #/practice                       練習區：先選科目
  *   #/s/:sid                         科目總覽
  *   #/s/:sid/c/:cid/:tab             章節（summary | slides | exam | practice）
  *   #/s/:sid/practice?...            練習設定 / 作答（start=1）/ 瀏覽（view=browse）
  *   #/s/:sid/q/:qid                  單題
  *   #/s/:sid/analysis                考題分析
  *   #/s/:sid/sheet[/figs]            速記表 / 觀念圖庫
- *   #/report?...                     問題回報
+ *   #/report?...                     回報 / 回饋
  */
 (() => {
   "use strict";
@@ -42,6 +43,7 @@
     alert: '<circle cx="12" cy="12" r="9"/><path d="M12 8v4.5M12 16h.01"/>',
     mail: '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/>',
     git: '<circle cx="6" cy="6" r="2.2"/><circle cx="6" cy="18" r="2.2"/><circle cx="18" cy="8" r="2.2"/><path d="M6 8.2v7.6M18 10.2c0 4-6 3-10.4 6.2"/>',
+    chat: '<path d="M4 5h16v11H9l-5 4z"/><path d="M8 9.5h8M8 12.5h5"/>',
     copy: '<rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h8"/>',
     target:
       '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r=".8"/>',
@@ -287,28 +289,36 @@
   };
   const getRead = (sid) => new Set(store.get(K.read(sid), []));
 
-  const SOURCES = [
-    { key: "k113", label: "113 考古", match: (q) => q.source === "113 考古" },
-    {
-      key: "k111",
-      label: "111 期中考古",
-      match: (q) => q.source === "111 期中考古",
-    },
-    {
-      key: "class",
-      label: "2026 課堂題",
-      match: (q) => q.source === "2026 課堂題",
-    },
-    { key: "new", label: "模擬新題", match: (q) => q.source === "模擬新題" },
+  // 題目來源：每個科目可在 subject.json 的 "sources" 自訂；沒寫就用下面的預設。
+  // kind：exam（考古）、class（課堂題）、new（模擬新題）
+  const DEFAULT_SOURCES = [
+    { key: "k113", label: "113 考古", kind: "exam", pill: "violet" },
+    { key: "k111", label: "111 期中考古", kind: "exam", pill: "line" },
+    { key: "class", label: "2026 課堂題", kind: "class", pill: "warn" },
+    { key: "new", label: "模擬新題", kind: "new", pill: "good" },
   ];
+  const SERIES = ["var(--series-1)", "var(--series-2)", "var(--ink-3)"];
+  const sourcesOf = (subj) =>
+    (subj?.meta?.sources || DEFAULT_SOURCES).map((s, i, all) => ({
+      ...s,
+      match: (q) => q.source === s.label,
+      color:
+        SERIES[all.filter((x) => x.kind === "exam").indexOf(s)] ||
+        "var(--ink-3)",
+    }));
+  const srcKeys = (subj, kind) =>
+    sourcesOf(subj)
+      .filter((s) => s.kind === kind)
+      .map((s) => s.key)
+      .join(",");
+  const srcColor = (subj, label) =>
+    sourcesOf(subj).find((s) => s.label === label)?.color || "var(--ink-3)";
   const isExam = (q) => /考古/.test(q.source);
   const pillFor = (src) =>
-    ({
-      "113 考古": "violet",
-      "111 期中考古": "line",
-      "2026 課堂題": "warn",
-      模擬新題: "good",
-    })[src] || "line";
+    Object.values(DB.subjects)
+      .flatMap((x) => sourcesOf(x))
+      .concat(DEFAULT_SOURCES)
+      .find((s) => s.label === src)?.pill || "line";
 
   function chapterStats(subj, cid) {
     const list = subj.questions.filter(
@@ -361,9 +371,9 @@
     if (sid) {
       store.set("sh:lastSubject", sid);
       const s = DB.subjects[sid];
-      nav.innerHTML = `<a href="#/s/${sid}"${cur("subject")}>${esc(s?.meta.short || "總覽")}總覽</a><a href="#/s/${sid}/practice"${cur("practice")}>練習區</a><a href="#/s/${sid}/analysis"${cur("analysis")}>考題分析</a><a href="#/s/${sid}/sheet"${cur("sheet")}>速記・圖解</a><a href="#/report?sid=${sid}"${cur("report")}>問題回報</a>`;
+      nav.innerHTML = `<a href="#/">所有科目</a><a href="#/s/${sid}"${cur("subject")}>${esc(s?.meta.short || "總覽")}總覽</a><a href="#/s/${sid}/practice"${cur("practice")}>練習區</a><a href="#/s/${sid}/analysis"${cur("analysis")}>考題分析</a><a href="#/s/${sid}/sheet"${cur("sheet")}>速記・圖解</a><a href="#/report?sid=${sid}"${cur("report")}>回報 / 回饋</a>`;
     } else {
-      nav.innerHTML = `<a href="#/"${cur("home")}>所有科目</a>${last ? `<a href="#/s/${last}/practice"${cur("practice")}>練習區</a>` : ""}<a href="#/report"${cur("report")}>問題回報</a>`;
+      nav.innerHTML = `<a href="#/"${cur("home")}>所有科目</a><a href="#/practice"${cur("practice")}>練習區</a><a href="#/report"${cur("report")}>回報 / 回饋</a>`;
     }
     const tb = $("#tabbar");
     const T = (href, icon, label, k) =>
@@ -375,7 +385,7 @@
           sid ? "總覽" : "首頁",
           sid ? "subject" : "home",
         ) +
-        T(`#/s/${last}/practice`, "pen", "練習", "practice") +
+        T(sid ? `#/s/${sid}/practice` : "#/practice", "pen", "練習", "practice") +
         T(`#/s/${last}/analysis`, "chart", "分析", "analysis") +
         T(`#/s/${last}/sheet`, "grid", "速記", "sheet") +
         `<a href="#" data-open-search>${ic("search")}<span>搜尋</span></a>`
@@ -424,6 +434,7 @@
       await loadIndex();
       if (!seg.length) return await pageHome();
       if (seg[0] === "report") return await pageReport(q);
+      if (seg[0] === "practice") return await pagePracticePick();
       if (seg[0] === "s" && seg[1]) {
         const sid = seg[1];
         if (seg.length === 2) return await pageSubject(sid);
@@ -1044,7 +1055,7 @@
           <div class="hero-actions">
             ${
               last
-                ? `<a class="btn primary lg" href="#/s/${last.meta.id}/practice">${ic("pen")}${hasPractice ? "繼續練習" : "開始練習"}</a>
+                ? `<a class="btn primary lg" href="${hasPractice ? `#/s/${last.meta.id}/practice` : "#/practice"}">${ic("pen")}${hasPractice ? "繼續練習" : "開始練習"}</a>
             <a class="btn lg" href="#/s/${last.meta.id}">${ic("book")}${esc(last.meta.short || last.meta.title)}總覽</a>`
                 : ""
             }
@@ -1059,10 +1070,7 @@
 
       <section class="wrap section">
         <div class="section-head"><div><div class="eyebrow">01 — 科目</div><h2 class="display h-m" style="margin-top:8px">選一個科目開始</h2></div></div>
-        <div style="display:grid;gap:14px">${cards}
-          <a class="card subject-card add" href="https://github.com/${esc(CFG.githubRepo || "")}#-新增一個科目" target="_blank" rel="noopener">
-            <div class="eyebrow">＋ 新增科目</div><div style="margin-top:8px"> </div></a>
-        </div>
+        <div style="display:grid;gap:14px">${cards}</div>
       </section>
 
       <section class="wrap section">
@@ -1390,10 +1398,7 @@
     if (!list.length)
       return `<div class="card panel"><h3>去年考古沒有這一章的題目</h3><p class="sub" style="margin:0">下方是依共筆與上課內容整理的預測考點。</p></div>`;
     const srcs = [...new Set(list.map((q) => q.source))];
-    const colors = {
-      "113 考古": "var(--series-1)",
-      "111 期中考古": "var(--series-2)",
-    };
+    const colors = Object.fromEntries(srcs.map((x) => [x, srcColor(subj, x)]));
     const topics = [
       ...countBy(list, (q) => (q.topics || []).filter((t) => t !== "其他")),
     ]
@@ -1445,9 +1450,9 @@
       `<a class="card preset" href="${href}"><span class="ico">${ic(icon)}</span><b>${title}</b><span>${sub}</span>${n !== undefined ? `<span class="mono" style="color:var(--ink)">${n} 題</span>` : ""}</a>`;
     return `<div style="padding-top:36px">
       <div class="presets">
-        ${P(L({ ch: cid, src: "k113,k111", mode: "order", start: 1, n: 0 }), "file", "考古題・依序", "照原考卷順序作答，看詳解", (by.get("113 考古") || 0) + (by.get("111 期中考古") || 0))}
+        ${P(L({ ch: cid, src: srcKeys(subj, "exam"), mode: "order", start: 1, n: 0 }), "file", "考古題・依序", "照原考卷順序作答，看詳解", list.filter(isExam).length)}
         ${P(L({ ch: cid, mode: "random", start: 1, n: 0 }), "shuffle", "本章全部・隨機", "考古、課堂題、模擬新題混合", list.length)}
-        ${P(L({ ch: cid, src: "class,new", mode: "random", start: 1, n: 0 }), "bolt", "課堂題＋模擬新題", "依考古出題模式編寫的新題", (by.get("2026 課堂題") || 0) + (by.get("模擬新題") || 0))}
+        ${P(L({ ch: cid, src: [srcKeys(subj, "class"), srcKeys(subj, "new")].filter(Boolean).join(","), mode: "random", start: 1, n: 0 }), "bolt", "課堂題＋模擬新題", "依考古出題模式編寫的新題", list.filter((x) => !isExam(x)).length)}
         ${P(L({ ch: cid, filter: "wrong", start: 1, n: 0 }), "rotate", "本章錯題", "只練上次答錯的題目", st.wrong)}
       </div>
       <div class="card panel" style="margin-top:14px">
@@ -1459,14 +1464,13 @@
   }
 
   // ------------------------------------------------------------ practice
-  function sourceMatcher(src) {
+  function sourceMatcher(subj, src) {
     if (!src) return () => true;
     const keys = new Set(src.split(","));
-    if (keys.has("exam")) {
-      keys.add("k113");
-      keys.add("k111");
-    }
-    return (q) => SOURCES.some((s) => keys.has(s.key) && s.match(q));
+    const all = sourcesOf(subj);
+    if (keys.has("exam"))
+      all.filter((s) => s.kind === "exam").forEach((s) => keys.add(s.key));
+    return (q) => all.some((s) => keys.has(s.key) && s.match(q));
   }
   function buildPool(subj, q) {
     const sid = subj.meta.id;
@@ -1475,7 +1479,7 @@
       return want.map((id) => subj.qById[id]).filter(Boolean);
     }
     const chs = q.ch ? new Set(q.ch.split(",")) : null;
-    const sm = sourceMatcher(q.src);
+    const sm = sourceMatcher(subj, q.src);
     const prog = getProg(sid);
     const stars = getStars(sid);
     const kw = (q.kw || "").trim().toLowerCase();
@@ -1499,6 +1503,40 @@
     return n > 0 ? pool.slice(0, n) : pool;
   }
 
+  // 練習區入口：先選科目
+  async function pagePracticePick() {
+    const subs = await loadAllSubjects();
+    setChrome(null, "practice");
+    const lastSid = store.get("sh:lastSubject", null);
+    const cards = subs
+      .map((s) => {
+        const st = subjectStats(s);
+        const isLast = s.meta.id === lastSid && st.done > 0;
+        return `<a class="card subject-card" href="#/s/${s.meta.id}/practice">
+        <div>
+          <div class="eyebrow">${esc(s.meta.term || "Subject")}${isLast ? " · 上次練習" : ""}</div>
+          <h3 class="display" style="margin-top:10px">${esc(s.meta.title)}</h3>
+        </div>
+        <span class="arrow" aria-hidden="true">${ic("arrowR")}</span>
+        <div class="facts">
+          <div class="fact"><b>${st.total}</b><span>練習題</span></div>
+          <div class="fact"><b>${st.done}</b><span>已作答</span></div>
+          <div class="fact"><b>${st.done ? `${st.acc}%` : "—"}</b><span>最近答對率</span></div>
+          <div class="fact"><b>${st.wrong}</b><span>錯題</span></div>
+        </div></a>`;
+      })
+      .join("");
+    render(`
+      <div class="wrap">
+        <header style="padding-top:28px">
+          <div class="eyebrow">Practice</div>
+          <h1 class="display h-l" style="margin-top:12px">練習區</h1>
+          <p class="lede">選一個科目開始練習。作答紀錄依科目分開保存。</p>
+        </header>
+        <div class="section" style="padding-top:32px"><div style="display:grid;gap:14px">${cards}</div></div>
+      </div>`);
+  }
+
   async function pagePractice(sid, q) {
     const subj = await loadSubject(sid);
     setChrome(sid, "practice");
@@ -1513,7 +1551,7 @@
     const m = subj.meta;
     const chSel = new Set(q.ch ? q.ch.split(",") : []);
     const srcSel = new Set(
-      q.src ? q.src.split(",") : SOURCES.map((s) => s.key),
+      q.src ? q.src.split(",") : sourcesOf(subj).map((s) => s.key),
     );
     const S = {
       mode: q.mode || "random",
@@ -1538,7 +1576,7 @@
     render(
       `
       <div class="wrap">
-        <nav class="crumbs" aria-label="路徑"><a href="#/s/${sid}">${esc(m.title)}</a><span class="sep">/</span><span>練習區</span></nav>
+        <nav class="crumbs" aria-label="路徑"><a href="#/practice">練習區</a><span class="sep">/</span><span>${esc(m.title)}</span>${(DB.index?.length || 0) > 1 ? `<a class="crumb-switch" href="#/practice">${ic("shuffle")}換科目</a>` : ""}</nav>
         <header style="padding-top:14px">
           <div class="eyebrow">Practice · 已作答 ${st.done} / ${st.total}</div>
           <h1 class="display h-l" style="margin-top:12px">練習區</h1>
@@ -1576,7 +1614,7 @@
             </fieldset>
             <fieldset class="fieldset">
               <legend>題目來源</legend>
-              <div class="chips">${SOURCES.map((s) => `<label class="chip"><input type="checkbox" name="src" value="${s.key}"${srcSel.has(s.key) ? " checked" : ""}>${box}${s.label}<span class="n">${subj.questions.filter((x) => s.match(x) && !x.imageOnly).length}</span></label>`).join("")}</div>
+              <div class="chips">${sourcesOf(subj).map((s) => `<label class="chip"><input type="checkbox" name="src" value="${s.key}"${srcSel.has(s.key) ? " checked" : ""}>${box}${s.label}<span class="n">${subj.questions.filter((x) => s.match(x) && !x.imageOnly).length}</span></label>`).join("")}</div>
             </fieldset>
             <div class="opts-grid">
               <div><div class="field-label">出題順序</div>${seg("mode", [
@@ -2342,10 +2380,7 @@
     const m = subj.meta;
     const exam = subj.questions.filter(isExam);
     const srcs = [...new Set(exam.map((q) => q.source))];
-    const colors = {
-      "113 考古": "var(--series-1)",
-      "111 期中考古": "var(--series-2)",
-    };
+    const colors = Object.fromEntries(srcs.map((x) => [x, srcColor(subj, x)]));
     const series = srcs.map((s) => ({
       name: s,
       color: colors[s] || "var(--ink-3)",
@@ -2409,14 +2444,11 @@
           })),
           { tableCaption: "題型" },
         )}
-          <h3 style="margin-top:28px">出題模式觀察</h3><p class="sub"></p>
-          <ol class="insights">
-            <li><span><b>同一概念換句話重複出。</b>補體 C3 convertase、MAC、TLR4–LPS、IgA／IgE 情境在同一份考古中出現 5–10 次，熟一題等於拿下一整組。</span></li>
-            <li><span><b>否定題約佔三成。</b>選項常把兩個正確概念互換：fimbriae↔flagella、G(+)↔G(−)、C3a↔C3b。</span></li>
-            <li><span><b>老師課堂題會原題出現。</b>李岳倫老師 slides 上的題目幾乎一字不差出現在 111、113 考古。</span></li>
-            <li><span><b>各論以臨床情境＋實驗室鑑別為主。</b>catalase、溶血、CAMP、optochin、乳糖發酵是固定考法。</span></li>
-            <li><span><b>真菌章約有 10 題看圖題。</b>孢子型態、皮癬菌大孢子需要搭配課本圖譜複習。</span></li>
-          </ol></div>
+          ${
+            (m.insights || []).length
+              ? `<h3 style="margin-top:28px">出題模式觀察</h3><ol class="insights">${m.insights.map(([b, t]) => `<li><span><b>${esc(b)}</b>${esc(t)}</span></li>`).join("")}</ol>`
+              : ""
+          }</div>
       </div>
     </div>`,
       () => bindTips($app),
@@ -2435,32 +2467,30 @@
     }
     setChrome(subj ? q.sid : null, "report");
     const qq = subj && q.qid ? subj.qById[q.qid] : null;
-    const repo = CFG.githubRepo;
     const mail = CFG.contactEmail;
+    const line = CFG.lineUrl;
     render(
       `<div class="wrap">
       <div class="report">
         <div>
-          <div class="eyebrow" style="padding-top:28px">Report</div>
-          <h1 class="display h-l" style="margin-top:12px">發現錯誤？<br>告訴我們。</h1>
-          <p class="lede">答案錯、詳解不清楚、錯字、網站壞掉，或者有想要的功能都可以回報。</p>
+          <div class="eyebrow" style="padding-top:28px">Report · Feedback</div>
+          <h1 class="display h-l" style="margin-top:12px">回報 / 回饋</h1>
+          <p class="lede">答案錯、詳解不清楚、錯字、網站壞掉，或是用起來的感想、想要的功能，都歡迎告訴我。</p>
           <ul class="channels">
-            <li><span class="ico">${ic("git")}</span><span><b>送到 GitHub Issues</b>需要 GitHub 帳號，所有人都看得到處理進度。${repo ? `<br><a href="https://github.com/${esc(repo)}/issues" target="_blank" rel="noopener">查看已回報的問題 ↗</a>` : ""}</span></li>
             ${mail ? `<li><span class="ico">${ic("mail")}</span><span><b>用 Email 寄送</b>會開啟你的郵件程式，內容自動帶入。</span></li>` : ""}
-            <li><span class="ico">${ic("copy")}</span><span><b>複製內容</b>貼到 LINE 或其他地方傳給維護者。</span></li>
+            <li><span class="ico">${ic("chat")}</span><span><b>用 LINE 傳送</b>${line ? "會開啟 LINE；填了說明的話，內容會先複製好，貼上送出就好。" : "填了說明的話，內容會先複製好，貼到 LINE 傳給我。"}</span></li>
           </ul>
         </div>
         <form class="card form" id="rf" style="margin-top:28px">
           ${qq ? `<div class="q-ref"><div class="mono">${esc(qq.source)} · ${esc(qq.id)} · 目前答案 ${esc((qq.answer || []).join("/") || "—")}</div><div style="margin-top:6px">${esc(qq.stem.slice(0, 180))}${qq.stem.length > 180 ? "…" : ""}</div></div>` : ""}
           <div class="opts-grid">
-            <label>類型<select class="input" name="type"><option>答案錯誤</option><option>詳解有誤或不清楚</option><option>題目文字錯誤 / 缺漏</option><option>重點整理內容錯誤</option><option>網站功能問題</option><option>建議 / 其他</option></select></label>
+            <label>類型<select class="input" name="type"><option>答案錯誤</option><option>詳解有誤或不清楚</option><option>題目文字錯誤 / 缺漏</option><option>重點整理內容錯誤</option><option>網站功能問題</option><option>使用回饋 / 功能建議</option><option>其他</option></select></label>
             <label>位置<input class="input" type="text" name="where" value="${esc(q.where || (qq ? `${qq.source} ${qq.id}` : ""))}" placeholder="例如：先天免疫／重點整理"></label>
           </div>
-          <label>說明<textarea class="input" name="desc" required placeholder="你認為正確的內容，最好附上出處或 slides 頁碼。例如：應該選 (C)，上課 slides p.25 寫到…"></textarea></label>
+          <label>說明<textarea class="input" name="desc" placeholder="回報錯誤：寫下你認為正確的內容，最好附上出處或 slides 頁碼。使用回饋：哪裡好用、哪裡卡卡的、想要什麼功能都可以。"></textarea></label>
           <div class="toolbar">
-            <button class="btn accent" type="submit">${ic("git")}送到 GitHub Issues</button>
-            ${mail ? `<button class="btn" type="button" id="mailBtn">${ic("mail")}用 Email 寄送</button>` : ""}
-            <button class="btn ghost" type="button" id="copyBtn">${ic("copy")}複製內容</button>
+            ${mail ? `<button class="btn accent" type="submit" id="mailBtn">${ic("mail")}用 Email 寄送</button>` : ""}
+            <button class="btn${mail ? "" : " accent"}" type="button" id="lineBtn">${ic("chat")}用 LINE 傳送</button>
           </div>
         </form>
       </div>
@@ -2485,32 +2515,26 @@
           ]
             .filter(Boolean)
             .join("\n");
-          return { title, body };
+          return { title, body: body.replace(/\*\*/g, "") };
         };
         form.addEventListener("submit", (e) => {
           e.preventDefault();
-          if (!form.reportValidity()) return;
-          if (!repo) return toast("尚未設定 GitHub repo（config.js）");
-          const { title, body } = compose();
-          window.open(
-            `https://github.com/${repo}/issues/new?${new URLSearchParams({ title, body, labels: "report" })}`,
-            "_blank",
-            "noopener",
-          );
-        });
-        $("#mailBtn")?.addEventListener("click", () => {
-          if (!form.reportValidity()) return;
+          if (!form.reportValidity() || !mail) return;
           const { title, body } = compose();
           location.href = `mailto:${mail}?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
         });
-        $("#copyBtn").addEventListener("click", async () => {
-          const { title, body } = compose();
-          try {
-            await navigator.clipboard.writeText(`${title}\n\n${body}`);
-            toast("已複製，可以貼給維護者");
-          } catch {
-            toast("複製失敗，請手動選取文字");
+        $("#lineBtn").addEventListener("click", async () => {
+          // LINE 無法預先帶入訊息給特定好友：有寫說明就先複製內容，再開啟 LINE
+          if (String(new FormData(form).get("desc") || "").trim()) {
+            const { title, body } = compose();
+            try {
+              await navigator.clipboard.writeText(`${title}\n\n${body}`);
+              toast(line ? "已複製，開啟 LINE 後貼上送出" : "已複製，貼到 LINE 傳給我");
+            } catch {
+              /* 複製失敗不影響開啟 LINE */
+            }
           }
+          if (line) window.open(line, "_blank", "noopener");
         });
       },
     );

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 458" role="img" aria-label="酮體生成與利用：肝臟粒線體以 thiolase、HMG-CoA synthase、HMG-CoA lyase 生成 acetoacetate，再還原成 β-hydroxybutyrate 或自發脫羧成 acetone；肝外組織以 thiophorase 把 acetoacetate 轉回 acetyl-CoA，肝臟缺此酵素">
+<defs><marker id="kt-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="kt-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="kt-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="kt-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<rect x="20" y="40" width="430" height="380" rx="18" style="fill:color-mix(in srgb, var(--warn) 7%, var(--card));stroke:var(--warn);stroke-width:1.2"/>
+<text x="36" y="30" class="th">肝細胞粒線體（合成）</text><text x="480" y="30" class="th">肝外組織（利用）</text>
+<rect x="470" y="40" width="270" height="380" rx="18" style="fill:color-mix(in srgb, var(--good) 7%, var(--card));stroke:var(--good);stroke-width:1.2"/>
+<rect x="40" y="58" width="170" height="36" rx="10" class="bx"/><text x="125.0" y="81" text-anchor="middle" class="tb" style="font-size:12.5px">2 Acetyl-CoA</text>
+<path d="M125 94V118" class="ln" marker-end="url(#kt-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="2 acetyl-CoA 縮合 → acetoacetyl-CoA（β-oxidation 最後一步的逆反應）。" data-label="Thiolase"><text x="135" y="111" class="ts">thiolase</text></g>
+<rect x="40" y="120" width="170" height="36" rx="10" class="bx"/><text x="125.0" y="143" text-anchor="middle" class="tb" style="font-size:12.5px">Acetoacetyl-CoA</text>
+<path d="M125 156V180" class="ln" marker-end="url(#kt-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="+ 第三個 acetyl-CoA → HMG-CoA。<b>粒線體</b>的 HMG-CoA synthase 用於生酮；細胞質的另一個同工酶用於膽固醇合成。" data-label="HMG-CoA synthase"><text x="135" y="173" class="ts">HMG-CoA synthase</text></g>
+<text x="262" y="173" class="tm" style="font-size:11px">＋ acetyl-CoA</text>
+<rect x="40" y="182" width="170" height="36" rx="10" class="bx"/><text x="125.0" y="198" text-anchor="middle" class="tb" style="font-size:12.5px">HMG-CoA</text><text x="125.0" y="212" text-anchor="middle" class="ts">6C</text>
+<path d="M125 218V242" class="ln" marker-end="url(#kt-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="切出 acetyl-CoA 與 <b>acetoacetate</b>（第一個生成的酮體）。" data-label="HMG-CoA lyase"><text x="135" y="235" class="ts">HMG-CoA lyase</text></g>
+<text x="240" y="235" class="tm" style="font-size:11px">－ acetyl-CoA</text>
+<rect x="40" y="244" width="170" height="36" rx="10" class="bw"/><text x="125.0" y="260" text-anchor="middle" class="tb" style="font-size:12.5px">Acetoacetate</text><text x="125.0" y="274" text-anchor="middle" class="ts">第一個酮體</text>
+<path d="M125 280V328" class="ln" marker-end="url(#kt-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="用 <b>NADH</b> 還原 acetoacetate。飢餓、糖尿病時 NADH/NAD⁺ 高 → β-hydroxybutyrate 比例大增。" data-label="β-Hydroxybutyrate dehydrogenase"><text x="135" y="298" class="ts">β-hydroxybutyrate DH</text></g>
+<text x="135" y="320" class="tr" style="font-size:11px">NADH → NAD⁺</text>
+<rect x="40" y="330" width="170" height="36" rx="10" class="bw"/><text x="125.0" y="346" text-anchor="middle" class="tb" style="font-size:12.5px">β-Hydroxybutyrate</text><text x="125.0" y="360" text-anchor="middle" class="ts">血中最多</text>
+<path d="M210 276H286Q298 276 300 290" class="ln dash" marker-end="url(#kt-a)" style="stroke-width:1.4"/>
+<rect x="276" y="294" width="160" height="36" rx="10" class="bp"/><text x="356.0" y="310" text-anchor="middle" class="tb" style="font-size:12.5px">Acetone</text><text x="356.0" y="324" text-anchor="middle" class="ts">自發脫羧・呼氣排出</text>
+<text x="36" y="394" class="ts">⚠ HMG-CoA synthase／lyase：粒線體（生酮）</text>
+<text x="36" y="410" class="ts">　 HMG-CoA reductase：細胞質（膽固醇）</text>
+<path d="M210 262H500" class="lg" marker-end="url(#kt-ag)" style="stroke-width:1.8"/>
+<path d="M210 348H500" class="lg" marker-end="url(#kt-ag)" style="stroke-width:1.8"/>
+<text x="380" y="256" class="ts" style="fill:var(--good)">血液</text>
+<rect x="500" y="330" width="220" height="36" rx="10" class="bx"/><text x="610.0" y="353" text-anchor="middle" class="tb" style="font-size:12.5px">β-Hydroxybutyrate</text>
+<path d="M610 330V282" class="ln" marker-end="url(#kt-a)" style="stroke-width:1.6"/>
+<text x="618" y="312" class="ts">NAD⁺ → NADH</text>
+<rect x="500" y="244" width="220" height="36" rx="10" class="bx"/><text x="610.0" y="267" text-anchor="middle" class="tb" style="font-size:12.5px">Acetoacetate</text>
+<path d="M610 244V218" class="ln" marker-end="url(#kt-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="<b>Succinyl-CoA:acetoacetate CoA transferase</b>（β-ketoacyl-CoA transferase）：從 succinyl-CoA 借一個 CoA。<b>肝臟沒有這個酵素</b> → 肝自己不能用酮體，只能輸出。" data-label="Thiophorase"><text x="618" y="234" class="ts">thiophorase</text></g>
+<rect x="500" y="180" width="220" height="36" rx="10" class="bx"/><text x="610.0" y="203" text-anchor="middle" class="tb" style="font-size:12.5px">Acetoacetyl-CoA</text>
+<path d="M610 180V154" class="ln" marker-end="url(#kt-a)" style="stroke-width:1.6"/>
+<text x="618" y="170" class="ts">thiolase</text>
+<rect x="500" y="116" width="220" height="36" rx="10" class="bg"/><text x="610.0" y="139" text-anchor="middle" class="tb" style="font-size:12.5px">2 Acetyl-CoA → TCA</text>
+<text x="490" y="74" class="ts">心肌、骨骼肌、腎皮質、</text><text x="490" y="92" class="ts">飢餓時的腦</text>
+<text x="36" y="446" class="ts" style="fill:var(--ink-2)">觸發：飢餓、未治療的糖尿病 → 糖質新生抽走 OAA → acetyl-CoA 無法進 TCA → 轉成酮體 → ketosis + acidosis ＝ ketoacidosis</text>
+</svg>

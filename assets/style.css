@@ -155,6 +155,16 @@ main#app { flex: 1; padding-bottom: 72px; outline: none; }
 .icon-btn svg { width: 18px; height: 18px; }
 .read-progress { position: absolute; left: 0; bottom: -1px; height: 2px; background: var(--violet); width: 0; transition: width .1s linear; }
 
+@media (max-width: 1080px) {
+  .search-trigger span, .search-trigger kbd { display: none; }
+  .search-trigger { min-width: 0; width: 38px; padding: 0; justify-content: center; flex: none; }
+}
+@media (max-width: 900px) {
+  .logo { font-size: 0; gap: 0; }
+  .mainnav { margin-left: 0; }
+  .mainnav a { padding: 7px 9px; }
+  .icon-btn { flex: none; }
+}
 /* mobile tab bar */
 .tabbar { display: none; }
 @media (max-width: 760px) {
@@ -218,6 +228,8 @@ a.pill:hover { text-decoration: none; border-color: var(--rule-strong); }
 .crumbs a { color: var(--ink-3); }
 .crumbs a:hover { color: var(--ink); }
 .crumbs .sep { opacity: .5; }
+.crumbs .crumb-switch { margin-left: auto; display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border: 1px solid var(--rule); border-radius: 999px; color: var(--ink-2); }
+.crumbs .crumb-switch svg { width: 14px; height: 14px; }
 
 .section { padding-top: clamp(40px, 6vw, 72px); }
 .section-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; margin-bottom: 20px; flex-wrap: wrap; }
@@ -264,8 +276,6 @@ a.pill:hover { text-decoration: none; border-color: var(--rule-strong); }
 .subject-card .facts { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid var(--rule); padding-top: 18px; gap: 12px; }
 .fact b { display: block; font-size: 1.6rem; font-weight: 600; letter-spacing: -.02em; line-height: 1.1; font-variant-numeric: tabular-nums; }
 .fact span { font-size: .78rem; color: var(--ink-3); }
-.subject-card.add { display: flex; flex-direction: column; justify-content: center; border-style: dashed; background: transparent; box-shadow: none; color: var(--ink-3); min-height: 160px; }
-.subject-card.add:hover { color: var(--ink); }
 @media (max-width: 560px) { .subject-card .facts { grid-template-columns: repeat(2, 1fr); } }
 
 .steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid var(--ink); }

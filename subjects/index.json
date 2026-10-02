@@ -1,3 +1,4 @@
 [
-  { "id": "micro-immuno", "path": "subjects/micro-immuno" }
+  { "id": "micro-immuno", "path": "subjects/micro-immuno" },
+  { "id": "biochem", "path": "subjects/biochem" }
 ]

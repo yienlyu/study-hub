@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 404" role="img" aria-label="甘油磷脂合成：glycerol-3-phosphate 加兩個脂肪醯基成 phosphatidic acid；策略一活化 DAG 成 CDP-diacylglycerol 再接 inositol、serine 等頭基生成 PI、PS，PS 脫羧成 PE；策略二 PA 去磷酸成 DAG，加上 CDP-choline 生成 PC；PE 經三次 SAM 甲基化成 PC">
+<defs><marker id="pl-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="pl-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="pl-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="pl-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<rect x="270" y="12" width="180" height="36" rx="10" class="bx"/><text x="360.0" y="35.0" text-anchor="middle" class="tb" style="font-size:12px">Glycerol-3-P</text>
+<path d="M360 48V80" class="ln" marker-end="url(#pl-a)" style="stroke-width:1.6"/>
+<text x="370" y="70" class="ts">＋2 acyl-CoA</text>
+<rect x="260" y="82" width="200" height="44" rx="10" class="bw"/><text x="360.0" y="118" text-anchor="middle" class="ts">共同起點</text><g class="hot" data-tip="PA 是三酸甘油酯與所有甘油磷脂的共同前驅物。合成在<b>平滑內質網</b>，再以運輸囊泡送到 Golgi、細胞膜。" data-label="PA"><text x="360.0" y="100" text-anchor="middle" class="tb" style="font-size:12px">Phosphatidic acid（PA）</text></g>
+<path d="M300 124L170 168" class="ln" marker-end="url(#pl-a)" style="stroke-width:1.6"/>
+<text x="214" y="138" text-anchor="end" class="ts">＋CTP</text>
+<text x="110" y="160" text-anchor="middle" class="th">策略 1：活化 DAG</text>
+<rect x="80" y="168" width="180" height="44" rx="10" class="bv"/><text x="170.0" y="204" text-anchor="middle" class="ts">細菌；真核做 PI、PG</text><g class="hot" data-tip="策略 1：PA + CTP → CDP-DAG，再接上頭基（inositol、glycerol-3-P、serine）。細菌所有磷脂都走這條；真核用來做 <b>PI、PG、cardiolipin</b>。" data-label="CDP-DAG 策略"><text x="170.0" y="186" text-anchor="middle" class="tb" style="font-size:12px">CDP-diacylglycerol</text></g>
+<path d="M110 212V262" class="ln" marker-end="url(#pl-a)" style="stroke-width:1.6"/>
+<text x="104" y="240" text-anchor="end" class="ts">＋inositol</text>
+<rect x="50" y="264" width="90" height="40" rx="10" class="bp"/><text x="95.0" y="279" text-anchor="middle" class="tb" style="font-size:12px">PI</text><text x="95.0" y="294" text-anchor="middle" class="ts">真核特有</text>
+<path d="M230 212V262" class="ln" marker-end="url(#pl-a)" style="stroke-width:1.6"/>
+<text x="236" y="240" class="ts">＋serine（細菌）</text>
+<rect x="185" y="264" width="90" height="40" rx="10" class="bp"/><text x="230.0" y="289.0" text-anchor="middle" class="tb" style="font-size:12px">PS</text>
+<path d="M230 304V352" class="ln" marker-end="url(#pl-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="PS 脫羧變成 PE：細菌的 PE 合成路徑；哺乳類也在<b>粒線體</b>用這一步。" data-label="PS decarboxylase"><text x="236" y="332" class="ts">PS decarboxylase</text></g>
+<rect x="185" y="354" width="90" height="36" rx="10" class="bp"/><text x="230.0" y="377.0" text-anchor="middle" class="tb" style="font-size:12px">PE</text>
+<text x="60" y="322" class="ts" style="font-size:10.5px">＋G3P → PG → cardiolipin</text>
+<path d="M420 124L540 168" class="ln" marker-end="url(#pl-a)" style="stroke-width:1.6"/>
+<text x="500" y="138" class="ts">phosphatase −Pᵢ</text>
+<text x="610" y="160" text-anchor="middle" class="th">策略 2：活化頭基</text>
+<rect x="490" y="170" width="100" height="40" rx="10" class="bx"/><text x="540.0" y="195.0" text-anchor="middle" class="tb" style="font-size:12px">DAG</text>
+<path d="M590 190H640" class="ln" marker-end="url(#pl-a)" style="stroke-width:1.6"/>
+<text x="615" y="182" text-anchor="middle" class="ts" style="font-size:10px">＋acyl</text>
+<rect x="642" y="170" width="60" height="40" rx="10" class="bw"/><text x="672.0" y="195.0" text-anchor="middle" class="tb" style="font-size:12px">TG</text>
+<text x="560" y="230" class="ts">Choline → phosphocholine</text>
+<g class="hot" data-tip="哺乳類 PC 的「CDP-頭基策略」：choline 先被磷酸化，再由 CTP:phosphocholine cytidylyltransferase 做成 <b>CDP-choline</b>，最後把 phosphocholine 轉到 DAG 上。這一步是限速步驟。" data-label="Cytidylyltransferase"><text x="560" y="250" class="tb" style="font-size:11.5px">CTP:phosphocholine</text><text x="560" y="268" class="tb" style="font-size:11.5px">cytidylyltransferase（限速）</text></g>
+<text x="560" y="288" class="tv" style="font-size:12px">→ CDP-choline</text>
+<path d="M540 210V352" class="ln" marker-end="url(#pl-a)" style="stroke-width:1.6"/>
+<path d="M590 296L562 352" class="ln" marker-end="url(#pl-a)" style="stroke-width:1.6"/>
+<rect x="500" y="354" width="110" height="40" rx="10" class="bp"/><text x="555.0" y="369" text-anchor="middle" class="tb" style="font-size:12px">PC</text><text x="555.0" y="384" text-anchor="middle" class="ts">真核特有</text>
+<path d="M275 372H498" class="lv" marker-end="url(#pl-av)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="PE 的胺基被 <b>S-adenosylmethionine</b> 甲基化 3 次 → PC（肝臟）。SAM 用完變成 S-adenosylhomocysteine。" data-label="PE 甲基化"><text x="386" y="360" text-anchor="middle" class="tb tv" style="font-size:12px">3 × SAM（AdoMet）</text></g>
+<text x="386" y="388" text-anchor="middle" class="ts">甲基化 3 次</text>
+<text x="462" y="30" class="ts" style="font-size:10.5px">哺乳類 PE 也可用 CDP-ethanolamine</text>
+</svg>

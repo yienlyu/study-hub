@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 384" role="img" aria-label="脂肪酸合成：粒線體 acetyl-CoA 與 OAA 合成 citrate 運出，細胞質 citrate lyase 釋出 acetyl-CoA，OAA 經 malate dehydrogenase 與 malic enzyme 回到粒線體並產生 NADPH；ACC 羧化 acetyl-CoA 成 malonyl-CoA，fatty acid synthase 經縮合、還原、脫水、還原 7 輪合成 palmitate">
+<defs><marker id="fs-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="fs-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="fs-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="fs-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<rect x="20" y="40" width="150" height="290" rx="30" style="fill:color-mix(in srgb, var(--warn) 7%, var(--card));stroke:var(--warn);stroke-width:1.3"/>
+<text x="95" y="30" text-anchor="middle" class="th">粒線體</text><text x="271" y="30" text-anchor="middle" class="th">細胞質：citrate shuttle</text><text x="575" y="30" text-anchor="middle" class="th">細胞質：合成</text>
+<rect x="35" y="64" width="120" height="36" rx="10" class="bx"/><text x="95.0" y="87" text-anchor="middle" class="tb" style="font-size:12px">Citrate</text>
+<rect x="35" y="164" width="120" height="36" rx="10" class="bx"/><text x="95.0" y="187" text-anchor="middle" class="tb" style="font-size:12px">Oxaloacetate</text>
+<rect x="35" y="264" width="120" height="36" rx="10" class="bx"/><text x="95.0" y="287" text-anchor="middle" class="tb" style="font-size:12px">Pyruvate</text>
+<path d="M95 164V102" class="ln" marker-end="url(#fs-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="粒線體：acetyl-CoA + OAA → citrate。Acetyl-CoA 不能穿過內膜，<b>citrate 是它的載體</b>。" data-label="Citrate synthase"><text x="101" y="132" class="ts">citrate synthase</text></g>
+<text x="101" y="147" class="tm" style="font-size:10.5px">＋acetyl-CoA</text>
+<path d="M95 264V202" class="ln" marker-end="url(#fs-a)" style="stroke-width:1.6"/>
+<text x="101" y="232" class="ts">pyruvate</text><text x="101" y="246" class="ts">carboxylase</text>
+<path d="M155 82H214" class="ln" marker-end="url(#fs-a)" style="stroke-width:1.6"/>
+<text x="184" y="74" text-anchor="middle" class="ts">運出</text>
+<rect x="216" y="64" width="110" height="36" rx="10" class="bx"/><text x="271.0" y="87" text-anchor="middle" class="tb" style="font-size:12px">Citrate</text>
+<path d="M326 82H408" class="ln" marker-end="url(#fs-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="ATP-citrate lyase（細胞質）：citrate + ATP + CoA → acetyl-CoA + OAA。" data-label="Citrate lyase"><text x="367" y="74" text-anchor="middle" class="ts">citrate lyase</text></g>
+<text x="367" y="98" text-anchor="middle" class="tm" style="font-size:10.5px">＋ATP</text>
+<path d="M271 100V162" class="ln" marker-end="url(#fs-a)" style="stroke-width:1.6"/>
+<rect x="216" y="164" width="110" height="36" rx="10" class="bx"/><text x="271.0" y="187" text-anchor="middle" class="tb" style="font-size:12px">OAA</text>
+<path d="M271 200V262" class="ln" marker-end="url(#fs-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="OAA + NADH → malate（malate dehydrogenase）。考古問「把 acetyl-CoA 送出、把 OAA 送回」的酵素順序：citrate synthase → citrate lyase → malate dehydrogenase。" data-label="Malate dehydrogenase"><text x="279" y="226" class="ts">malate DH</text></g>
+<text x="279" y="241" class="tm" style="font-size:10.5px">NADH → NAD⁺</text>
+<rect x="216" y="264" width="110" height="36" rx="10" class="bx"/><text x="271.0" y="287" text-anchor="middle" class="tb" style="font-size:12px">Malate</text>
+<path d="M216 282H157" class="ln" marker-end="url(#fs-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="Malate + NADP⁺ → pyruvate + CO₂ + <b>NADPH</b>：脂肪酸合成所需 NADPH 的來源之一（另一個是 pentose phosphate pathway）。" data-label="Malic enzyme"><text x="178" y="316" class="ts">malic enzyme</text></g>
+<text x="178" y="337" class="tv" style="font-size:11px">NADP⁺ → NADPH</text>
+<rect x="410" y="64" width="130" height="36" rx="10" class="bw"/><text x="475.0" y="87" text-anchor="middle" class="tb" style="font-size:12px">Acetyl-CoA</text>
+<path d="M475 100V124" class="ln" marker-end="url(#fs-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="<b>Acetyl-CoA carboxylase：脂肪酸合成的限速酶</b>。Biotin carboxylase + biotin carrier protein + transcarboxylase。<br>活化型：<b>去磷酸化</b>、聚合成長絲（citrate 促進）。" data-label="Acetyl-CoA carboxylase"><rect x="410" y="126" width="130" height="44" rx="10" class="br"/><text x="475" y="145" text-anchor="middle" class="tb" style="font-size:13px">ACC</text><text x="475" y="161" text-anchor="middle" class="ts nou">biotin・ATP・HCO₃⁻</text></g>
+<path d="M475 170V194" class="ln" marker-end="url(#fs-a)" style="stroke-width:1.6"/>
+<rect x="410" y="196" width="130" height="36" rx="10" class="bv"/><text x="475.0" y="211" text-anchor="middle" class="tb" style="font-size:12px">Malonyl-CoA</text><text x="475.0" y="226" text-anchor="middle" class="ts">3C</text>
+<text x="558" y="138" class="tb" style="font-size:11.5px;fill:var(--good)">＋ insulin（去磷酸化）</text>
+<text x="558" y="154" class="tb" style="font-size:11.5px;fill:var(--good)">＋ citrate（別構）</text>
+<text x="558" y="174" class="tb" style="font-size:11.5px;fill:var(--bad)">－ glucagon、epinephrine、</text>
+<text x="558" y="189" class="tb" style="font-size:11.5px;fill:var(--bad)">　 AMPK（磷酸化）</text>
+<text x="558" y="205" class="tb" style="font-size:11.5px;fill:var(--bad)">－ palmitoyl-CoA（回饋）</text>
+<path d="M552 132V208" class="lt"/>
+<text x="558" y="232" class="tr" style="font-size:11.5px">Malonyl-CoA ⊣ CPT I</text><text x="558" y="248" class="ts">（合成時不同時燒脂肪酸）</text>
+<path d="M475 232V252" class="ln" marker-end="url(#fs-a)" style="stroke-width:1.6"/>
+<circle cx="475" cy="302" r="46" class="none" style="stroke:var(--violet);stroke-width:1.6;stroke-dasharray:5 4"/>
+<g class="hot" data-tip="Fatty acid synthase：中間物接在 <b>ACP</b> 上；每一輪用 1 個 malonyl-CoA 加 2 個碳、耗 <b>2 NADPH</b>；β-hydroxy 中間物是 <b>D 型</b>。" data-label="Fatty acid synthase"><text x="475" y="300" text-anchor="middle" class="tb tv" style="font-size:14px">FAS</text></g>
+<text x="475" y="317" text-anchor="middle" class="ts">×7 輪</text>
+<text x="419" y="280" text-anchor="end" class="tb" style="font-size:11.5px">① 縮合</text><text x="419" y="294" text-anchor="end" class="ts" style="fill:var(--ink-3)">−CO₂</text>
+<text x="419" y="328" text-anchor="end" class="tb" style="font-size:11.5px">② 還原</text><text x="419" y="342" text-anchor="end" class="ts" style="fill:var(--violet)">NADPH</text>
+<text x="531" y="328" class="tb" style="font-size:11.5px">③ 脫水</text><text x="531" y="342" class="ts" style="fill:var(--ink-3)">−H₂O</text>
+<text x="531" y="280" class="tb" style="font-size:11.5px">④ 還原</text><text x="531" y="294" class="ts" style="fill:var(--violet)">NADPH</text>
+<path d="M527 302H640" class="ln" marker-end="url(#fs-a)" style="stroke-width:1.6"/>
+<rect x="642" y="284" width="98" height="36" rx="10" class="bg"/><text x="691.0" y="299" text-anchor="middle" class="tb" style="font-size:12px">Palmitate</text><text x="691.0" y="314" text-anchor="middle" class="ts">16:0</text>
+<text x="390" y="372" text-anchor="middle" class="ts" style="fill:var(--ink-2)">總反應：8 acetyl-CoA + 7 ATP + 14 NADPH → palmitate（16:0）</text>
+</svg>

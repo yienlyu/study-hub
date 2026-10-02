@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" role="img" aria-label="β-oxidation 四步驟：acyl-CoA dehydrogenase 以 FAD 去氫、enoyl-CoA hydratase 加水、β-hydroxyacyl-CoA dehydrogenase 以 NAD+ 去氫、thiolase 以 CoA 硫解出 acetyl-CoA；palmitate 經 7 輪產生 8 acetyl-CoA、7 FADH2、7 NADH，淨 106 ATP">
+<defs><marker id="bo-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="bo-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="bo-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="bo-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<rect x="40" y="22" width="300" height="46" rx="10" class="bx"/>
+<text x="54" y="42" class="tb" style="font-size:13px">Fatty acyl-CoA（C<tspan baseline-shift="sub" style="font-size:9px">n</tspan>）</text><text x="54" y="59" class="ts" style="font-family:var(--f-mono);font-size:11px">R–CH₂–CH₂–C(=O)–S-CoA</text>
+<rect x="40" y="112" width="300" height="46" rx="10" class="bx"/>
+<text x="54" y="132" class="tb" style="font-size:13px">trans-Δ²-Enoyl-CoA</text><text x="54" y="149" class="ts" style="font-family:var(--f-mono);font-size:11px">R–CH=CH–C(=O)–S-CoA</text>
+<rect x="40" y="202" width="300" height="46" rx="10" class="bx"/>
+<text x="54" y="222" class="tb" style="font-size:13px">L-β-Hydroxyacyl-CoA</text><text x="54" y="239" class="ts" style="font-family:var(--f-mono);font-size:11px">R–CH(OH)–CH₂–C(=O)–S-CoA</text>
+<rect x="40" y="292" width="300" height="46" rx="10" class="bx"/>
+<text x="54" y="312" class="tb" style="font-size:13px">β-Ketoacyl-CoA</text><text x="54" y="329" class="ts" style="font-family:var(--f-mono);font-size:11px">R–C(=O)–CH₂–C(=O)–S-CoA</text>
+<rect x="40" y="382" width="140" height="46" rx="10" class="bv"/><text x="52" y="402" class="tb" style="font-size:13px">Acyl-CoA（C<tspan baseline-shift="sub" style="font-size:9px">n−2</tspan>）</text><text x="52" y="419" class="ts">回到第 ① 步</text>
+<rect x="200" y="382" width="140" height="46" rx="10" class="bw"/><text x="212" y="402" class="tb" style="font-size:13px">Acetyl-CoA</text><text x="212" y="419" class="ts">→ TCA（10 ATP）</text>
+<path d="M130.0 70V108" class="ln" marker-end="url(#bo-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="產生 <b>trans</b> 雙鍵；電子經 ETF 交給呼吸鏈（1 FADH₂ ≈ 1.5 ATP）。" data-label="acyl-CoA dehydrogenase"><text x="144.0" y="87" class="tb" style="font-size:12.5px">① 去氫</text></g><text x="196.0" y="87" class="tb" style="font-size:12.5px;fill:var(--violet)">FAD → FADH₂</text>
+<text x="144.0" y="103" class="ts">acyl-CoA dehydrogenase</text>
+<path d="M130.0 160V198" class="ln" marker-end="url(#bo-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="加一分子水 → <b>L</b>-β-hydroxyacyl-CoA。每一輪消耗 1 個 H₂O（palmitate 共 7 個）。" data-label="enoyl-CoA hydratase"><text x="144.0" y="177" class="tb" style="font-size:12.5px">② 水合</text></g><text x="196.0" y="177" class="tb" style="font-size:12.5px;fill:var(--ink-2)">＋ H₂O</text>
+<text x="144.0" y="193" class="ts">enoyl-CoA hydratase</text>
+<path d="M130.0 250V288" class="ln" marker-end="url(#bo-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="β 碳的 OH 被氧化成酮基；1 NADH ≈ 2.5 ATP。" data-label="β-hydroxyacyl-CoA dehydrogenase"><text x="144.0" y="267" class="tb" style="font-size:12.5px">③ 去氫</text></g><text x="196.0" y="267" class="tb" style="font-size:12.5px;fill:var(--safranin)">NAD⁺ → NADH</text>
+<text x="144.0" y="283" class="ts">β-hydroxyacyl-CoA dehydrogenase</text>
+<path d="M130.0 340V378" class="ln" marker-end="url(#bo-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="CoA 攻擊 β-酮基 → 切下 <b>acetyl-CoA</b>，剩下少兩個碳的 acyl-CoA。" data-label="thiolase（acyl-CoA acetyltransferase）"><text x="144.0" y="357" class="tb" style="font-size:12.5px">④ 硫解</text></g><text x="196.0" y="357" class="tb" style="font-size:12.5px;fill:var(--ink-2)">＋ CoA-SH</text>
+<text x="144.0" y="373" class="ts">thiolase（acyl-CoA acetyltransferase）</text>
+<path d="M40 405H18V45H36" class="lv dash" style="stroke-width:1.4" marker-end="url(#bo-av)"/>
+<text x="12" y="230" text-anchor="middle" class="tv" style="font-size:11px" transform="rotate(-90 12 230)">下一輪</text>
+<path d="M410 18V430" class="lt dash"/>
+<text x="430" y="30" class="th">PALMITATE（16:0）ATP 帳本</text>
+<path d="M430 68H750" class="lt"/>
+<text x="430" y="60" style="font-size:12.5px">活化（ATP → AMP + 2Pi）</text><text x="620" y="60" class="ts"></text><text x="748" y="60" text-anchor="end" class="tb tr" style="font-size:13px">−2</text>
+<path d="M430 98H750" class="lt"/>
+<text x="430" y="90" style="font-size:12.5px">7 輪 β-oxidation</text><text x="620" y="90" class="ts">7 FADH₂ × 1.5</text><text x="748" y="90" text-anchor="end" class="tb " style="font-size:13px">10.5</text>
+<path d="M430 128H750" class="lt"/>
+<text x="430" y="120" style="font-size:12.5px"></text><text x="620" y="120" class="ts">7 NADH × 2.5</text><text x="748" y="120" text-anchor="end" class="tb " style="font-size:13px">17.5</text>
+<path d="M430 158H750" class="lt"/>
+<text x="430" y="150" style="font-size:12.5px">8 acetyl-CoA 進 TCA</text><text x="620" y="150" class="ts">8 × 10</text><text x="748" y="150" text-anchor="end" class="tb " style="font-size:13px">80</text>
+<path d="M430 168H750" class="ln" style="stroke-width:1.4"/>
+<text x="430" y="188" class="tb" style="font-size:14px">淨產生</text><text x="748" y="188" text-anchor="end" class="tb tv" style="font-size:18px">106 ATP</text>
+<text x="430" y="226" class="th">通式（偶數 n 個碳）</text>
+<text x="430" y="250" class="ts" style="font-size:12px">循環次數</text><text x="748" y="250" text-anchor="end" style="font-size:12.5px;font-family:var(--f-mono)">n/2 − 1</text>
+<text x="430" y="272" class="ts" style="font-size:12px">Acetyl-CoA</text><text x="748" y="272" text-anchor="end" style="font-size:12.5px;font-family:var(--f-mono)">n/2</text>
+<text x="430" y="294" class="ts" style="font-size:12px">FADH₂ = NADH = H₂O</text><text x="748" y="294" text-anchor="end" style="font-size:12.5px;font-family:var(--f-mono)">n/2 − 1</text>
+<text x="430" y="316" class="ts" style="font-size:12px">每一輪（不含 acetyl-CoA）</text><text x="748" y="316" text-anchor="end" style="font-size:12.5px;font-family:var(--f-mono)">4 ATP</text>
+<text x="430" y="350" class="ts">1 TCA = 3 NADH + 1 FADH₂ + 1 GTP = 10 ATP</text>
+</svg>

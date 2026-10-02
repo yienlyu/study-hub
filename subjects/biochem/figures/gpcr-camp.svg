@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-label="β-adrenergic 受體與 cAMP 路徑：epinephrine 結合 7 次跨膜受體，活化 Gs 蛋白（GDP 換 GTP），Gsα 活化 adenylyl cyclase 產生 cAMP，4 個 cAMP 釋放 PKA 的 2 個催化次單元，經 phosphorylase kinase、glycogen phosphorylase 分解肝醣；右側列出 GTPase、PDE、βARK/β-arrestin 等關閉機制">
+<defs><marker id="gp-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="gp-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="gp-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="gp-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<rect x="20" y="78" width="480" height="40" class="bp"/>
+<text x="30" y="28" class="th">細胞外</text><text x="30" y="142" class="th">細胞質</text>
+<text x="490" y="104" text-anchor="end" class="ts">細胞膜</text>
+<circle cx="100" cy="44" r="16" class="bw"/><text x="100" y="49" text-anchor="middle" class="tb" style="font-size:13px">E</text>
+<g class="hot" data-tip="肝：肝醣分解 → 血糖 ↑；肌肉：肝醣分解、糖解 ↑（戰或逃）。Isoproterenol 是 agonist；propranolol（β-blocker）是 antagonist。" data-label="Epinephrine"><text x="122" y="38" class="tb" style="font-size:12px">Epinephrine</text></g>
+<g class="hot" data-tip="β-adrenergic receptor：<b>7 次跨膜</b>的 GPCR。被 βARK 磷酸化後與 β-arrestin 結合 → 內吞（去敏感）。" data-label="β-adrenergic receptor"><rect x="76" y="70" width="48" height="56" rx="8" class="br"/><text x="100" y="103" text-anchor="middle" class="tb" style="font-size:11px">β-AR</text></g>
+<path d="M124 128L170 144" class="ln" marker-end="url(#gp-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="三聚體 G 蛋白：受體活化後 G_sα 的 <b>GDP 換成 GTP</b>，與 βγ 分離去活化 adenylyl cyclase。G_sα 內建 <b>GTPase</b>：把 GTP 水解成 GDP 就自己關掉。" data-label="G_s 蛋白"><rect x="172" y="126" width="104" height="46" rx="10" class="bv"/><text x="224" y="146" text-anchor="middle" class="tb" style="font-size:12px">Gsα・GTP</text></g>
+<text x="224" y="166" text-anchor="middle" class="ts">βγ 分離</text>
+<path d="M276 144L300 128" class="ln" marker-end="url(#gp-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="膜上的 adenylyl cyclase 被 G_sα-GTP 活化，把 ATP 變成 cAMP（第二傳訊者）。" data-label="Adenylyl cyclase"><rect x="302" y="70" width="116" height="56" rx="8" class="bg"/><text x="360" y="103" text-anchor="middle" class="tb" style="font-size:11px">Adenylyl cyclase</text></g>
+<path d="M360 128V158" class="ln" marker-end="url(#gp-a)" style="stroke-width:1.6"/>
+<text x="360" y="176" text-anchor="middle" class="tb tv" style="font-size:13px">ATP → cAMP</text>
+<path d="M360 184V210" class="ln" marker-end="url(#gp-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="Protein kinase A：<b>R₂C₂</b> 四聚體。每個 R 次單元結合 <b>2 個 cAMP</b>（共 4 個）→ 釋出 2 個有活性的 C 次單元。<b>這一步不放大</b>。AKAP 把 PKA 錨定在特定位置。" data-label="PKA"><rect x="290" y="212" width="140" height="50" rx="10" class="bw"/><text x="360" y="232" text-anchor="middle" class="tb" style="font-size:13px">PKA</text></g>
+<text x="360" y="252" text-anchor="middle" class="ts">R₂C₂ + 4 cAMP → 2 C</text>
+<path d="M360 262V300" class="ln" marker-end="url(#gp-a)" style="stroke-width:1.6"/>
+<rect x="270" y="302" width="180" height="40" rx="10" class="bx"/><text x="360" y="327" text-anchor="middle" class="tb" style="font-size:12px">Phosphorylase kinase</text>
+<path d="M270 322H222" class="ln" marker-end="url(#gp-a)" style="stroke-width:1.6"/>
+<rect x="20" y="302" width="200" height="40" rx="10" class="bx"/><text x="120" y="327" text-anchor="middle" class="tb" style="font-size:12px">Glycogen phosphorylase a</text>
+<path d="M120 342V368" class="ln" marker-end="url(#gp-a)" style="stroke-width:1.6"/>
+<text x="120" y="386" text-anchor="middle" class="tb" style="font-size:12px;fill:var(--good)">肝醣 → glucose-1-P → 血糖 ↑</text>
+<text x="30" y="228" class="th">放大（cascade）</text><text x="30" y="246" class="ts">1 個 epinephrine →</text><text x="30" y="262" class="ts">約 10⁵ 個葡萄糖</text>
+<text x="30" y="278" class="tr" style="font-size:11px">cAMP → PKA 不放大</text>
+<rect x="520" y="20" width="220" height="250" rx="10" class="bw"/>
+<text x="534" y="44" class="th">訊號怎麼關掉</text>
+<text x="534" y="78" class="tb" style="font-size:12px">① 激素離開受體</text>
+<text x="534" y="99" class="ts" style="font-size:10.5px">受體回到未結合狀態</text>
+<g class="hot" data-tip="G_sα 自己的 GTPase 把 GTP 水解成 GDP 後失活、與 βγ 重新結合。GEF 則促進 GDP 換成 GTP。" data-label="Gsα GTPase"><text x="534" y="126" class="tb" style="font-size:12px">② Gsα GTPase</text></g>
+<text x="534" y="147" class="ts" style="font-size:10.5px">GTP → GDP（RGS、GAP 加速）</text>
+<g class="hot" data-tip="cAMP phosphodiesterase 把 cAMP 分解；caffeine、theophylline 抑制 PDE → cAMP 停留更久。" data-label="cAMP PDE"><text x="534" y="174" class="tb" style="font-size:12px">③ cAMP PDE</text></g>
+<text x="534" y="195" class="ts" style="font-size:10.5px">cAMP → 5′-AMP</text>
+<g class="hot" data-tip="<b>βARK</b>（β-adrenergic receptor kinase，GRK2）磷酸化受體 C 端 Ser/Thr → <b>β-arrestin</b> 結合 → 受體被內吞，之後去磷酸化送回膜上。" data-label="去敏感"><text x="534" y="222" class="tb" style="font-size:12px">④ 去敏感</text></g>
+<text x="534" y="243" class="ts" style="font-size:10.5px">βARK 磷酸化受體 → β-arrestin</text>
+<text x="520" y="310" class="tb" style="font-size:11.5px">同一套機制：</text><text x="520" y="328" class="ts">光（rhodopsin → transducin</text><text x="520" y="344" class="ts">→ cGMP PDE → cGMP ↓）</text><text x="520" y="360" class="ts">氣味（Golf）、甜味（gustducin）</text>
+</svg>

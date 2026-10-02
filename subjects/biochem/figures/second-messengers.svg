@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 390" role="img" aria-label="第二傳訊者：A 為 Gq 活化 phospholipase C 切 PIP2 成 IP3 與 DAG，IP3 打開內質網 Ca2+ 通道，DAG 與 Ca2+ 活化 PKC；B 為 ANF 受體型與 NO 活化的可溶性 guanylyl cyclase 產生 cGMP 活化 PKG，PDE5 分解 cGMP，sildenafil 抑制 PDE5">
+<defs><marker id="sm-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="sm-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="sm-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="sm-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<rect x="20" y="60" width="720" height="34" class="bp"/>
+<text x="30" y="30" class="th">A. Gq → PLC → IP₃ ＋ DAG</text><text x="420" y="30" class="th">B. cGMP 路徑</text>
+<path d="M400 20V392" class="lt dash"/>
+<g class="hot" data-tip="結合 Gq 的 GPCR（例如 α1-adrenergic、muscarinic M1/M3、vasopressin V1）。" data-label="Gq 受體"><rect x="40" y="52" width="56" height="50" rx="8" class="br"/><text x="68" y="82" text-anchor="middle" class="tb" style="font-size:11px">GPCR</text></g>
+<path d="M96 102L118 116" class="ln" marker-end="url(#sm-a)" style="stroke-width:1.6"/>
+<rect x="108" y="118" width="52" height="30" rx="10" class="bv"/><text x="134.0" y="138.0" text-anchor="middle" class="tb" style="font-size:12px">Gq</text>
+<path d="M160 124L184 106" class="ln" marker-end="url(#sm-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="Phospholipase C 切 PIP₂ 的磷酸酯鍵（磷酸之前）→ <b>IP₃</b>（水溶，離開膜）＋ <b>DAG</b>（留在膜上）。" data-label="Phospholipase C"><rect x="186" y="52" width="56" height="50" rx="8" class="bg"/><text x="214" y="82" text-anchor="middle" class="tb" style="font-size:11px">PLC</text></g>
+<text x="268" y="82" class="tb" style="font-size:12px">PIP₂</text>
+<path d="M300 77H330" class="ln" marker-end="url(#sm-a)" style="stroke-width:1.6"/>
+<text x="334" y="82" class="tb tv" style="font-size:12px">DAG</text>
+<path d="M350 96V154" class="ln" marker-end="url(#sm-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="Protein kinase C：需要 <b>DAG ＋ Ca²⁺</b>（＋ phosphatidylserine）才活化。Phorbol ester 模仿 DAG。" data-label="PKC"><rect x="306" y="156" width="84" height="44" rx="10" class="bw"/><text x="348" y="176" text-anchor="middle" class="tb" style="font-size:13px">PKC</text></g>
+<text x="348" y="194" text-anchor="middle" class="ts">DAG＋Ca²⁺</text>
+<path d="M268 96L230 164" class="ln" marker-end="url(#sm-a)" style="stroke-width:1.6"/>
+<text x="214" y="180" text-anchor="middle" class="tb tv" style="font-size:13px">IP₃</text>
+<path d="M214 188V244" class="ln" marker-end="url(#sm-a)" style="stroke-width:1.6"/>
+<rect x="40" y="254" width="250" height="70" rx="34" style="fill:color-mix(in srgb, var(--warn) 9%, var(--card));stroke:var(--warn);stroke-width:1.3"/>
+<text x="70" y="298" class="ts">ER（儲存 Ca²⁺）</text>
+<g class="hot" data-tip="<b>IP₃ 結合 ER 膜上的 IP₃-gated Ca²⁺ 通道</b> → Ca²⁺ 釋入細胞質。Ca²⁺ 濃度會振盪（fura-2 染劑可測，200–500 nM）。" data-label="IP₃ receptor"><rect x="196" y="246" width="36" height="24" rx="5" class="bg"/><text x="214" y="263" text-anchor="middle" class="tb" style="font-size:10px">通道</text></g>
+<path d="M232 258Q270 258 290 246" class="lr" marker-end="url(#sm-ar)" style="stroke-width:1.6"/>
+<text x="294" y="250" class="tb tr" style="font-size:13px">Ca²⁺ ↑</text>
+<path d="M330 232L340 204" class="lr" marker-end="url(#sm-ar)" style="stroke-width:1.6"/>
+<text x="30" y="354" class="ts">考法：IP₃ 結合 ER 的 Ca²⁺ 通道；DAG 活化 PKC</text>
+<text x="30" y="372" class="ts">Ca²⁺ 也結合 calmodulin → CaM kinase</text>
+<g class="hot" data-tip="膜上的 receptor guanylyl cyclase：<b>ANF（atrial natriuretic factor）</b>、guanylin 的受體；細胞內是 guanylyl cyclase domain。" data-label="Receptor guanylyl cyclase"><rect x="430" y="52" width="78" height="50" rx="8" class="br"/><text x="469" y="82" text-anchor="middle" class="tb" style="font-size:11px">受體 GC</text></g>
+<text x="469" y="46" text-anchor="middle" class="tb" style="font-size:12px">ANF</text>
+<path d="M469 102V190" class="ln" marker-end="url(#sm-a)" style="stroke-width:1.6"/>
+<text x="560" y="46" class="ts">NO（由 Arg 經 NO synthase）</text>
+<path d="M610 56V134" class="ln" marker-end="url(#sm-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="可溶性 guanylyl cyclase 含 <b>heme</b>，NO 結合 heme 而活化它。NO 能自由擴散穿過細胞膜、半衰期很短。" data-label="Soluble guanylyl cyclase"><rect x="560" y="136" width="140" height="44" rx="10" class="bg"/><text x="630" y="156" text-anchor="middle" class="tb" style="font-size:12px">可溶性 GC</text></g>
+<text x="630" y="174" text-anchor="middle" class="ts">含 heme</text>
+<path d="M600 180L540 194" class="ln" marker-end="url(#sm-a)" style="stroke-width:1.6"/>
+<text x="510" y="212" text-anchor="middle" class="tb tv" style="font-size:13px">GTP → cGMP</text>
+<path d="M510 220V254" class="ln" marker-end="url(#sm-a)" style="stroke-width:1.6"/>
+<rect x="450" y="256" width="120" height="44" rx="10" class="bw"/><text x="510.0" y="271" text-anchor="middle" class="tb" style="font-size:12px">PKG</text><text x="510.0" y="286" text-anchor="middle" class="ts">平滑肌放鬆</text>
+<path d="M570 208H630" class="ln" marker-end="url(#sm-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="cGMP phosphodiesterase 把 cGMP 水解成 GMP，結束訊號。<b>Sildenafil（Viagra）、tadalafil（Cialis）</b>抑制 PDE5 → cGMP 留更久 → 血管舒張。" data-label="cGMP PDE"><text x="636" y="212" class="tb" style="font-size:12px">PDE5</text></g>
+<text x="636" y="230" class="ts">→ GMP</text>
+<text x="636" y="250" class="tr" style="font-size:11.5px">⊣ sildenafil</text><text x="636" y="266" class="tr" style="font-size:11.5px">⊣ tadalafil</text>
+<text x="420" y="354" class="ts">視覺：光 → rhodopsin → transducin</text><text x="420" y="372" class="ts">→ cGMP PDE 活化 → cGMP ↓ → 通道關閉</text>
+</svg>

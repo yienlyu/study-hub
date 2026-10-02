@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 424" role="img" aria-label="dTMP 合成：ribonucleotide reductase 把 NDP 還原成 dNDP（dATP 抑制），dUMP 由 thymidylate synthase 以 N5,N10-methylene-THF 甲基化成 dTMP 並產生 DHF（5-FU 抑制），DHFR 用 NADPH 把 DHF 還原成 THF（methotrexate、trimethoprim 抑制），serine hydroxymethyltransferase 再生 methylene-THF">
+<defs><marker id="dt-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="dt-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="dt-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="dt-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<rect x="20" y="30" width="150" height="44" rx="10" class="bx"/><text x="95.0" y="45" text-anchor="middle" class="tb" style="font-size:12px">NDP</text><text x="95.0" y="60" text-anchor="middle" class="ts">ADP、GDP、CDP、UDP</text>
+<path d="M170 52H318" class="ln" marker-end="url(#dt-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="<b>一個酵素還原四種 NDP</b>（2′-OH → H），tyrosyl free radical 機制；電子來自 thioredoxin／glutaredoxin（最終 NADPH）。<b>dATP 結合 activity site → 抑制整體活性</b>；ATP 活化；specificity site 決定還原哪一種。TDP 不是受質。" data-label="Ribonucleotide reductase"><text x="244" y="42" text-anchor="middle" class="tb" style="font-size:11.5px">ribonucleotide reductase</text></g>
+<text x="244" y="72" text-anchor="middle" class="tr" style="font-size:10.5px">⊣ dATP（activity site）</text>
+<rect x="320" y="30" width="120" height="44" rx="10" class="bx"/><text x="380.0" y="57.0" text-anchor="middle" class="tb" style="font-size:12px">dNDP</text>
+<text x="452" y="46" class="tb" style="font-size:12px">dUDP → dUMP</text><text x="452" y="64" class="ts" style="font-size:10.5px">（dCMP 脫胺也可得 dUMP）</text>
+<path d="M500 72V118" class="ln" marker-end="url(#dt-a)" style="stroke-width:1.6"/>
+<rect x="440" y="120" width="120" height="36" rx="10" class="bw"/><text x="500.0" y="143.0" text-anchor="middle" class="tb" style="font-size:12px">dUMP</text>
+<path d="M560 138H628" class="ln" marker-end="url(#dt-a)" style="stroke-width:2.2"/>
+<rect x="630" y="120" width="110" height="36" rx="10" class="bg"/><text x="685.0" y="143.0" text-anchor="middle" class="tb" style="font-size:12px">dTMP</text>
+<g class="hot" data-tip="Thymidylate synthase：dUMP + N⁵,N¹⁰-methylene-THF → dTMP + <b>DHF</b>（methylene-THF 同時提供一碳與電子，所以變成 DHF）。" data-label="Thymidylate synthase"><text x="594" y="110" text-anchor="middle" class="tb" style="font-size:11.5px">thymidylate synthase</text></g>
+<path d="M584 138H604" class="lr" style="stroke-width:3"/>
+<g class="hot" data-tip="5-Fluorouracil、5-fluorodeoxyuridine 在細胞內轉成 <b>FdUMP</b> → 與 thymidylate synthase 形成共價複合物（自殺性抑制）。" data-label="5-FU"><text x="594" y="92" text-anchor="middle" class="tr" style="font-size:11px">⊣ 5-FU（→ FdUMP）</text></g>
+<rect x="500" y="200" width="130" height="36" rx="10" class="bv"/><text x="565.0" y="223.0" text-anchor="middle" class="tb" style="font-size:11px">N⁵,N¹⁰-methylene-THF</text>
+<rect x="640" y="320" width="100" height="44" rx="10" class="bx"/><text x="690.0" y="335" text-anchor="middle" class="tb" style="font-size:12px">DHF</text><text x="690.0" y="350" text-anchor="middle" class="ts">dihydrofolate</text>
+<rect x="380" y="320" width="100" height="44" rx="10" class="bx"/><text x="430.0" y="335" text-anchor="middle" class="tb" style="font-size:12px">THF</text><text x="430.0" y="350" text-anchor="middle" class="ts">tetrahydrofolate</text>
+<path d="M590 200L594 160" class="lv" marker-end="url(#dt-av)" style="stroke-width:1.6"/>
+<text x="584" y="186" text-anchor="end" class="tv" style="font-size:10.5px">提供 CH₂</text>
+<path d="M680 156V318" class="lv" marker-end="url(#dt-av)" style="stroke-width:1.6"/>
+<path d="M638 352H482" class="ln" marker-end="url(#dt-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="Dihydrofolate reductase：DHF + NADPH → THF。抑制 DHFR 會讓 THF 用盡、dTMP 停止合成 → DNA 無法複製（快速分裂的癌細胞、細菌最受影響）。" data-label="DHFR"><text x="560" y="344" text-anchor="middle" class="tb" style="font-size:12px">DHFR</text></g>
+<path d="M550 352H570" class="lr" style="stroke-width:3"/>
+<text x="560" y="372" text-anchor="middle" class="ts" style="font-size:10.5px">NADPH → NADP⁺</text>
+<g class="hot" data-tip="Methotrexate、aminopterin 是葉酸類似物，抑制人類 DHFR（抗癌）；trimethoprim 對細菌 DHFR 選擇性高（抗菌，常與 sulfamethoxazole 併用）。" data-label="DHFR 抑制劑"><text x="560" y="394" text-anchor="middle" class="tr" style="font-size:11px">⊣ methotrexate、aminopterin（人）</text></g>
+<text x="560" y="412" text-anchor="middle" class="tr" style="font-size:11px">⊣ trimethoprim（細菌）</text>
+<path d="M440 318L520 238" class="ln" marker-end="url(#dt-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="Serine + THF → glycine + N⁵,N¹⁰-methylene-THF（PLP 依賴）。" data-label="Serine hydroxymethyltransferase"><text x="420" y="268" text-anchor="end" class="ts" style="font-size:10.5px">serine hydroxymethyl-</text><text x="420" y="282" text-anchor="end" class="ts" style="font-size:10.5px">transferase</text></g>
+<text x="420" y="300" text-anchor="end" class="tb" style="font-size:11px">Ser → Gly</text>
+<rect x="20" y="120" width="260" height="96" rx="10" class="bw"/>
+<text x="34" y="142" class="th">Salvage 與抗病毒藥</text>
+<text x="34" y="164" class="ts" style="font-size:10.5px">Thymidine →（thymidine kinase）→ dTMP</text>
+<text x="34" y="182" class="ts" style="font-size:10.5px">Acyclovir、ganciclovir 先被 HSV TK 磷酸化</text>
+<text x="34" y="200" class="ts" style="font-size:10.5px">AZT：HIV 反轉錄酶，鏈終止（prodrug）</text>
+</svg>

@@ -1,0 +1,1296 @@
+[
+ {
+  "id": "class-001",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.5",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "身體中持續存在燃料（fuel）可維持熱量恆定（caloric homeostasis），燃料使用的優先順序為下列何者？（112-1 牙醫師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "肝醣 > 蛋白質 > 三酸甘油脂"
+   },
+   {
+    "k": "B",
+    "t": "三酸甘油脂 > 肝醣 > 蛋白質"
+   },
+   {
+    "k": "C",
+    "t": "三酸甘油脂 > 蛋白質 > 肝醣"
+   },
+   {
+    "k": "D",
+    "t": "肝醣 > 三酸甘油脂 > 蛋白質"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "先用肝醣（約一天內用完），再動用脂肪（TG → 脂肪酸、酮體），蛋白質是最後手段（長期飢餓才大量分解肌肉蛋白）。",
+  "topics": [
+   "各器官燃料代謝"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-002",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.10",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "肌肉細胞因缺乏下列何種酵素，而無法釋出葡萄糖於血液中？（115-1 保健）",
+  "options": [
+   {
+    "k": "A",
+    "t": "Fumarase"
+   },
+   {
+    "k": "B",
+    "t": "Glucose-6-phosphatase"
+   },
+   {
+    "k": "C",
+    "t": "Hexokinase"
+   },
+   {
+    "k": "D",
+    "t": "Pyruvate dehydrogenase"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "肌肉沒有 glucose-6-phosphatase，肝醣分解產生的 G6P 只能自己進糖解，不能變成游離葡萄糖送進血液。只有肝（和腎）能。",
+  "topics": [
+   "各器官燃料代謝"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-003",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.10",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "肝臟是調整血糖的重要器官，當空腹時，肝醣轉換成葡萄糖過程中，需要下列何種酵素參與反應？（113-2 技）",
+  "options": [
+   {
+    "k": "A",
+    "t": "Glucose oxidase"
+   },
+   {
+    "k": "B",
+    "t": "Glycogen synthase"
+   },
+   {
+    "k": "C",
+    "t": "Hexokinase"
+   },
+   {
+    "k": "D",
+    "t": "Glucose-6-phosphatase"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "肝醣 →（glycogen phosphorylase）G1P → G6P →（glucose-6-phosphatase）葡萄糖釋入血液。",
+  "topics": [
+   "各器官燃料代謝"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-004",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.10",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "肌肉中因缺乏何種酵素，故肌肉中的肝醣無法轉變成為葡萄糖？（112-2 醫檢師、113-1 營養師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "Glucokinase"
+   },
+   {
+    "k": "B",
+    "t": "Phosphorylase a"
+   },
+   {
+    "k": "C",
+    "t": "Hexokinase"
+   },
+   {
+    "k": "D",
+    "t": "Glucose-6-phosphatase"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "同上：肌肉缺 glucose-6-phosphatase，肝醣只供肌肉自己用。",
+  "topics": [
+   "各器官燃料代謝"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-005",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.10",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "下列何者不是維持血糖的途徑？（113-1 營養師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "由飲食中吸收的糖類"
+   },
+   {
+    "k": "B",
+    "t": "半乳糖、果糖在肝中轉變成葡萄糖"
+   },
+   {
+    "k": "C",
+    "t": "肌肉中肝醣分解"
+   },
+   {
+    "k": "D",
+    "t": "糖質新生作用"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "肌肉肝醣分解只產生 G6P 供肌肉自用（缺 glucose-6-phosphatase），不能補充血糖。",
+  "topics": [
+   "各器官燃料代謝"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-006",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.12",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "無氧代謝時，將一莫耳（mole）的葡萄糖經由糖解作用（glycolysis）及酵素 lactate dehydrogenase 轉化成兩莫耳的乳酸（lactate），最終淨產生：（113-1 醫師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "一莫耳的 ATP"
+   },
+   {
+    "k": "B",
+    "t": "兩莫耳的 ATP"
+   },
+   {
+    "k": "C",
+    "t": "一莫耳的 ATP 以及兩莫耳的 NADH"
+   },
+   {
+    "k": "D",
+    "t": "兩莫耳的 ATP 以及兩莫耳的 NADH"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "糖解淨得 2 ATP + 2 NADH；但 2 NADH 被 LDH 用來把 pyruvate 還原成 lactate（再生 NAD⁺），所以淨產物只剩 2 ATP。",
+  "topics": [
+   "Cori／葡萄糖-丙胺酸循環"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-007",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.16",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "瓦氏效應（Warburg effect）是指下列那一種葡萄糖代謝途徑，其主要為癌細胞所利用？（115-2 醫檢師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "葡萄糖代謝成乳酸（lactic acid）"
+   },
+   {
+    "k": "B",
+    "t": "葡萄糖代謝成乙醇（ethanol）"
+   },
+   {
+    "k": "C",
+    "t": "葡萄糖代謝成乙醯輔酶A（acetyl-CoA）"
+   },
+   {
+    "k": "D",
+    "t": "葡萄糖代謝成NADH"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Warburg effect＝有氧糖解（aerobic glycolysis）：即使有氧氣，癌細胞仍大量把葡萄糖代謝成乳酸，以快速取得 ATP 與合成原料。",
+  "topics": [
+   "Cori／葡萄糖-丙胺酸循環"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-008",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.16",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "下列那一個反應有助於利用乳酸以維持血液中葡萄糖的含量？（113-2 技）",
+  "options": [
+   {
+    "k": "A",
+    "t": "肝醣分解（glycogenolysis）"
+   },
+   {
+    "k": "B",
+    "t": "糖解作用（glycolysis）"
+   },
+   {
+    "k": "C",
+    "t": "糖質新生（gluconeogenesis）"
+   },
+   {
+    "k": "D",
+    "t": "乳酸發酵作用（lactate fermentation）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Cori cycle：肌肉的乳酸送到肝，肝經 gluconeogenesis 把乳酸變回葡萄糖。",
+  "topics": [
+   "Cori／葡萄糖-丙胺酸循環"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-009",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.16",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "下列關於 Cori cycle 在體內不同組織進行反應的敘述，何者正確？（111-1 醫學）",
+  "options": [
+   {
+    "k": "A",
+    "t": "乳酸（lactate）由肝臟運送到骨骼肌"
+   },
+   {
+    "k": "B",
+    "t": "葡萄糖由骨骼肌運送到肝臟"
+   },
+   {
+    "k": "C",
+    "t": "肝臟經過糖質新生（gluconeogenesis）產生葡萄糖"
+   },
+   {
+    "k": "D",
+    "t": "骨骼肌經過糖質新生（gluconeogenesis）產生乳酸"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "方向：肌肉（糖解 → 乳酸）→ 血液 → 肝（糖質新生 → 葡萄糖）→ 血液 → 肌肉。肝花 6 ATP、肌肉得 2 ATP。",
+  "topics": [
+   "Cori／葡萄糖-丙胺酸循環"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-010",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.22",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "短跑選手在起跑數秒內的急速爆發是依賴肌肉中的何種物質再生 ATP？（111-2 營養師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "磷酸肌酸（creatine phosphate）"
+   },
+   {
+    "k": "B",
+    "t": "脂肪酸 β 氧化（fatty acid β-oxidation）"
+   },
+   {
+    "k": "C",
+    "t": "肝醣分解（glycogenolysis）"
+   },
+   {
+    "k": "D",
+    "t": "厭氧糖解（anaerobic glycolysis）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Phosphocreatine + ADP →（creatine kinase）→ creatine + ATP，最快的 ATP 緩衝，只夠撐幾秒；之後才是無氧糖解、再來是有氧代謝。",
+  "topics": [
+   "各器官燃料代謝"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-011",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.22",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "有關肌酸（creatine）、肌酸酐（creatinine）、磷酸肌酸（phosphocreatine），下列敘述何者錯誤？（111-1 醫檢）",
+  "options": [
+   {
+    "k": "A",
+    "t": "creatine 的生合成可在腎臟中進行"
+   },
+   {
+    "k": "B",
+    "t": "creatine 經脫水反應形成 creatinine"
+   },
+   {
+    "k": "C",
+    "t": "creatine 經 creatininase 作用產生 phosphocreatine"
+   },
+   {
+    "k": "D",
+    "t": "phosphocreatine 轉變成 creatinine 反應不需酵素催化"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Creatine 磷酸化成 phosphocreatine 靠的是 creatine kinase（不是 creatininase）。Creatine／phosphocreatine 會非酵素性脫水環化成 creatinine，經尿液排出（腎功能指標）。Creatine 由 arginine + glycine 在腎開始合成，在肝由 SAM 甲基化完成。",
+  "topics": [
+   "各器官燃料代謝"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-012",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.24",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "長期高量葡萄糖或果糖攝取，會導致肝臟何種脂質的堆積，造成非酒精性脂肪肝的生成？（113-2 保）",
+  "options": [
+   {
+    "k": "A",
+    "t": "蠟脂"
+   },
+   {
+    "k": "B",
+    "t": "磷脂質"
+   },
+   {
+    "k": "C",
+    "t": "三酸甘油酯"
+   },
+   {
+    "k": "D",
+    "t": "肌醇三磷酸"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "過量的醣在肝轉成 acetyl-CoA → 脂肪酸 → 三酸甘油酯（TG），若輸出（VLDL）不及就堆積成脂肪肝。",
+  "topics": [
+   "各器官燃料代謝"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-013",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.30",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "有關血中酮體（ketone body）的敘述，下列何者最不適當？（115-2 醫檢師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "丙酮（acetone）可由呼吸排出體外"
+   },
+   {
+    "k": "B",
+    "t": "乙醯輔酶A（acetyl-CoA）為酮體合成起始物"
+   },
+   {
+    "k": "C",
+    "t": "β-羥基丁酸（β-hydroxybutyrate）為最早生成的酮體"
+   },
+   {
+    "k": "D",
+    "t": "β-羥基丁酸（β-hydroxybutyrate）為濃度最高的酮體"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "最早生成的酮體是 acetoacetate（HMG-CoA lyase 的產物），再由 β-hydroxybutyrate dehydrogenase 用 NADH 還原成 β-hydroxybutyrate；acetone 由 acetoacetate 自發脫羧，經呼吸排出。",
+  "topics": [
+   "酮體"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-014",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.30",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "有關人體合成及利用 ketone bodies 的敘述，下列何者正確？（114-2 營養師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "肝臟細胞的細胞質為合成酮體的場所，所產生酮體再運送至肝外組織作能量來源"
+   },
+   {
+    "k": "B",
+    "t": "酮體合成材料是 acetyl-CoA 和 malonyl-CoA，生成的中間產物為 3-hydroxy-3-methylglutaryl-CoA（HMG-CoA）"
+   },
+   {
+    "k": "C",
+    "t": "人體產生的酮體包括 acetone、acetoacetate、β-hydroxylmethylbutyrate"
+   },
+   {
+    "k": "D",
+    "t": "酮體運送至肝外組織後會分解為 acetyl-CoA 而進入檸檬酸循環"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "(A) 酮體在肝的粒線體合成。(B) 原料只有 acetyl-CoA（malonyl-CoA 是脂肪酸合成的）。(C) 是 β-hydroxybutyrate，不是 β-hydroxymethylbutyrate。(D) 正確：肝外組織用 succinyl-CoA transferase（肝沒有）把 acetoacetate 變回 acetyl-CoA 進 TCA。",
+  "topics": [
+   "酮體"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-015",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.30",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "下列何者是造成酮酸血症最主要的酮體？（114-2 醫檢）",
+  "options": [
+   {
+    "k": "A",
+    "t": "α-ketoglutarate"
+   },
+   {
+    "k": "B",
+    "t": "acetoacetic acid"
+   },
+   {
+    "k": "C",
+    "t": "β-hydroxybutyric acid"
+   },
+   {
+    "k": "D",
+    "t": "acetone"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "血中濃度最高的酮體是 β-hydroxybutyrate，是酮酸血症的主角；acetone 不是酸。",
+  "topics": [
+   "酮體"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-016",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.30",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "下列那兩種酮體（ketone body）在健康人血液內，其濃度幾乎相同？（114-1 醫檢師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "丙酮（acetone）與乙醯乙酸（acetoacetate）"
+   },
+   {
+    "k": "B",
+    "t": "乙醯乙酸（acetoacetate）與β-羥基丁酸（β-hydroxybutyrate）"
+   },
+   {
+    "k": "C",
+    "t": "丙酮（acetone）與β-羥基丁酸（β-hydroxybutyrate）"
+   },
+   {
+    "k": "D",
+    "t": "β-羥基丁酸（β-hydroxybutyrate）與醋酸（acetate）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "健康人 acetoacetate 與 β-hydroxybutyrate 約 1:1；飢餓或糖尿病時 NADH/NAD⁺ 上升，β-hydroxybutyrate 比例大增。",
+  "topics": [
+   "酮體"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-017",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.31",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "在生化的轉換過程中，如果乙醯輔酶A（acetyl-CoA）過量，會尋求可行路徑形成酮體（ketone body），下列何者不屬於此類酮體分子？（114-1 醫檢師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "乙醯乙酸（acetoacetic acid）"
+   },
+   {
+    "k": "B",
+    "t": "β-羥基丁酸（β-hydroxybutyric acid）"
+   },
+   {
+    "k": "C",
+    "t": "丙酮（acetone）"
+   },
+   {
+    "k": "D",
+    "t": "乙醯丙酮（acetylacetone）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "三種酮體：acetoacetate、β-hydroxybutyrate、acetone。",
+  "topics": [
+   "酮體"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-018",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.31",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "下列何者不是肝臟的生理功能？（114-1 牙醫師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "產生胰島素（insulin）以調節新陳代謝"
+   },
+   {
+    "k": "B",
+    "t": "將胺基酸轉化為代謝燃料"
+   },
+   {
+    "k": "C",
+    "t": "解毒（detoxification）"
+   },
+   {
+    "k": "D",
+    "t": "糖質新生（gluconeogenesis）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "胰島素由胰臟蘭氏小島 β 細胞分泌，不是肝臟。",
+  "topics": [
+   "各器官燃料代謝"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-019",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.31",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "下列何者是酮體（ketone bodies）的成分？（113-2 牙）",
+  "options": [
+   {
+    "k": "A",
+    "t": "acetyl CoA"
+   },
+   {
+    "k": "B",
+    "t": "β-hydroxybutyrate"
+   },
+   {
+    "k": "C",
+    "t": "malonyl CoA"
+   },
+   {
+    "k": "D",
+    "t": "melanonate"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "三種酮體：acetoacetate、β-hydroxybutyrate、acetone。",
+  "topics": [
+   "酮體"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-020",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.31",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "酮體於肝臟合成後，會透過血液循環送至肝外組織，血液中的酮體主要型態為何？（113-2 保）",
+  "options": [
+   {
+    "k": "A",
+    "t": "乙醯輔酶A（acetyl-CoA）"
+   },
+   {
+    "k": "B",
+    "t": "乙醯乙酸（acetoacetate）"
+   },
+   {
+    "k": "C",
+    "t": "β-羥基丁酸（β-hydroxybutyric acid）"
+   },
+   {
+    "k": "D",
+    "t": "β-羥甲基丁酸（β-hydroxymethylbutyric acid）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "血中主要型態是 β-hydroxybutyrate（共筆 Ch17 也考過同一題英文版）。",
+  "topics": [
+   "酮體"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-021",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.32",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "關於酮體（ketone bodies）的敘述，下列何者錯誤？（113-1 牙醫師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "包括丙酮（acetone）、乙醯乙酸酯（acetoacetate）、β 羥基丁酸酯（β-hydroxybutyrate）"
+   },
+   {
+    "k": "B",
+    "t": "主要在小腸細胞之粒線體中合成"
+   },
+   {
+    "k": "C",
+    "t": "生合成涉及的酵素包括硫解酶（thiolase）、HMG-CoA 裂解酶（HMG-CoA lyase）和 HMG-CoA 合成酶（HMG-CoA synthase）"
+   },
+   {
+    "k": "D",
+    "t": "為飢餓時大腦的主要能量來源"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "酮體在肝細胞的粒線體合成，不是小腸。",
+  "topics": [
+   "酮體"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-022",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.32",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "下列何者與酮體（ketone body）過量產生的酸中毒（acidosis）無關？（112-2 醫檢師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "丙酮（acetone）"
+   },
+   {
+    "k": "B",
+    "t": "乙醯乙酸（acetoacetate）"
+   },
+   {
+    "k": "C",
+    "t": "β-羥基丁酸（β-hydroxybutyrate）"
+   },
+   {
+    "k": "D",
+    "t": "醋酸（acetate）"
+   }
+  ],
+  "answer": [
+   "A",
+   "D"
+  ],
+  "explain": "Acetoacetate 與 β-hydroxybutyrate 是酸，造成酮酸中毒；acetone 是中性分子（經呼吸排出），acetate 也不是酮體。",
+  "topics": [
+   "酮體"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "note": "slides 標「#」（國考公告送分）：acetone 和 acetate 都可以算「無關」，選 A 或 D 都算對。"
+ },
+ {
+  "id": "class-023",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.32",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "有關酮體（ketone bodies）的敘述，下列何者正確？（111-2 醫檢師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "acetyl-CoA 生成過多是酮體形成的主因"
+   },
+   {
+    "k": "B",
+    "t": "正常人體內的酮體以 acetoacetate 居多"
+   },
+   {
+    "k": "C",
+    "t": "食用澱粉類的食物較脂肪容易產生酮體"
+   },
+   {
+    "k": "D",
+    "t": "臨床上常以 acetoacetate 作為定量的對象"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Acetyl-CoA 過多（TCA 中間物被糖質新生抽走，OAA 不足）→ 轉向生酮。β-hydroxybutyrate 才是血中最多、也是臨床定量的主要對象；高脂低醣飲食才容易產生酮體。",
+  "topics": [
+   "酮體"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-024",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.35",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "有關醣類代謝之敘述，下列何者錯誤？（115-2 營養師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "糖解作用（glycolysis）與糖質新生作用（gluconeogenesis）均可發生於肝臟細胞中"
+   },
+   {
+    "k": "B",
+    "t": "1 分子葡萄糖經糖解作用可淨生成 4 分子 ATP 與 2 分子 NADH"
+   },
+   {
+    "k": "C",
+    "t": "紅血球因缺少粒線體，需依賴糖解作用生成乳酸的途徑來獲取能量"
+   },
+   {
+    "k": "D",
+    "t": "劇烈運動下，肌肉中的乳酸去氫酶（lactate dehydrogenase）可利用丙酮酸產生乳酸"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "糖解總共產生 4 ATP，但投資 2 ATP，淨得 2 ATP 與 2 NADH。",
+  "topics": [
+   "各器官燃料代謝"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-025",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.35",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "下列何者為紅血球生成三磷酸腺苷（ATP）之最主要途徑？（115-1 保健）",
+  "options": [
+   {
+    "k": "A",
+    "t": "糖解作用（glycolysis）"
+   },
+   {
+    "k": "B",
+    "t": "克氏循環（Krebs cycle）"
+   },
+   {
+    "k": "C",
+    "t": "氧化磷酸化（oxidative phosphorylation）"
+   },
+   {
+    "k": "D",
+    "t": "β-氧化作用（β-oxidation）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "紅血球沒有粒線體，只能靠糖解（終產物乳酸）。",
+  "topics": [
+   "各器官燃料代謝"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-026",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.35",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "人體於飲食攝取葡萄糖後的兩小時內，在各組織中的葡萄糖利用，下列何者錯誤？（114-2 營養師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "在腦部可被氧化而產生 ATP"
+   },
+   {
+    "k": "B",
+    "t": "在紅血球可進入糖解作用"
+   },
+   {
+    "k": "C",
+    "t": "在脂肪組織可成為合成三酸甘油酯的原料"
+   },
+   {
+    "k": "D",
+    "t": "在肝臟優先進入脂肪酸合成途徑"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "飯後肝臟優先把葡萄糖合成肝醣（glycogen），肝醣存滿後多餘的才轉成脂肪酸。",
+  "topics": [
+   "各器官燃料代謝"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-027",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.35",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "下列關於 glucose 在人類的紅血球中代謝的敘述，何者錯誤？（113-2 醫學）",
+  "options": [
+   {
+    "k": "A",
+    "t": "Glucose 代謝最終產物之一為 lactic acid"
+   },
+   {
+    "k": "B",
+    "t": "Pyruvate 可轉化為 acetyl-CoA 進一步代謝"
+   },
+   {
+    "k": "C",
+    "t": "提供 NADPH 使 glutathione 保持還原狀態"
+   },
+   {
+    "k": "D",
+    "t": "Glucose 也可以利用 pentose phosphate 途徑代謝"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "紅血球沒有粒線體，沒有 pyruvate dehydrogenase，pyruvate 只能變成 lactate。PPP 提供 NADPH 維持還原型 glutathione（G6PD 缺乏 → 溶血）。",
+  "topics": [
+   "各器官燃料代謝"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-028",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.41",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "有關胰島素功能之敘述，下列何者最不適當？（115-2 醫檢師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "刺激肝臟進行糖質新生作用"
+   },
+   {
+    "k": "B",
+    "t": "促進醣類轉變成肝醣或脂肪進行儲存"
+   },
+   {
+    "k": "C",
+    "t": "刺激蛋白質合成"
+   },
+   {
+    "k": "D",
+    "t": "刺激肌肉細胞吸收葡萄糖進行能量利用"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "胰島素「促進合成、抑制分解」：抑制糖質新生（是升糖素和 cortisol 促進糖質新生）。",
+  "topics": [
+   "胰島素與 GLUT"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-029",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.41",
+  "chapter": "ch21",
+  "type": "mcq",
+  "stem": "哺乳動物體內生合成膽固醇（cholesterol）的關鍵酵素 HMG-CoA reductase 會受到多層面及多種因素的調控。下列何者可增加 HMG-CoA reductase 的酵素反應，進而促成膽固醇的生合成？（114-1 營養師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "升糖素（glucagon）"
+   },
+   {
+    "k": "B",
+    "t": "胰島素（insulin）"
+   },
+   {
+    "k": "C",
+    "t": "低 ATP 含量（low ATP levels）"
+   },
+   {
+    "k": "D",
+    "t": "氧化固醇（oxysterol）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Insulin 使 HMG-CoA reductase 去磷酸化（活化）；glucagon 與 AMPK（低 ATP）使其磷酸化（抑制）；sterol（含 oxysterol）促進其泛素化降解、並抑制 SREBP。",
+  "topics": [
+   "膽固醇合成與 HMG-CoA reductase"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-030",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.41",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "下列何種荷爾蒙可促進脂質合成（lipogenesis）？（112-2 營養師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "腎上腺素（epinephrine）"
+   },
+   {
+    "k": "B",
+    "t": "糖皮質素（glucocorticoids）"
+   },
+   {
+    "k": "C",
+    "t": "生長激素（growth hormone）"
+   },
+   {
+    "k": "D",
+    "t": "胰島素（insulin）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "胰島素活化 ACC（去磷酸化）、促進脂肪酸與 TG 合成；其他三者偏向動員脂肪。",
+  "topics": [
+   "胰島素與 GLUT"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-031",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.44",
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "下列何者是直接透過 receptor tyrosine kinase 的活化來傳遞訊息？（115-1 牙醫）",
+  "options": [
+   {
+    "k": "A",
+    "t": "Insulin"
+   },
+   {
+    "k": "B",
+    "t": "Serotonin"
+   },
+   {
+    "k": "C",
+    "t": "Epinephrine"
+   },
+   {
+    "k": "D",
+    "t": "Acetylcholine"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Insulin receptor 是 RTK（α₂β₂ 四聚體，結合後 β 次單元自體磷酸化）。Epinephrine、多數 serotonin 受體走 GPCR；acetylcholine 的 nicotinic 受體是配體門控離子通道。",
+  "topics": [
+   "RTK 與胰島素訊號"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-032",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.44",
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "下列何種訊息分子通常不會直接結合於 G protein-coupled receptor（GPCR）來進行訊息傳遞？（112-2 醫師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "Angiotensin"
+   },
+   {
+    "k": "B",
+    "t": "Prostaglandin"
+   },
+   {
+    "k": "C",
+    "t": "Epinephrine"
+   },
+   {
+    "k": "D",
+    "t": "Insulin"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Insulin 結合 receptor tyrosine kinase；其他三者都透過 GPCR。",
+  "topics": [
+   "GPCR 與 cAMP／PKA"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-033",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.47",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "下列何者為胰島素調節的葡萄糖轉運體（glucose transporter）？（114-1 醫檢師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "GLUT1"
+   },
+   {
+    "k": "B",
+    "t": "GLUT2"
+   },
+   {
+    "k": "C",
+    "t": "GLUT3"
+   },
+   {
+    "k": "D",
+    "t": "GLUT4"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "GLUT4（骨骼肌、心肌、脂肪）平時存在細胞內囊泡，胰島素訊號（PI3K–Akt）使其移到細胞膜。",
+  "topics": [
+   "胰島素與 GLUT"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-034",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.47",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "關於促進葡萄糖轉運子-5（facilitative glucose transporter-5, GLUT5）的敘述，下列何者正確？（112-1、113-2 技）",
+  "options": [
+   {
+    "k": "A",
+    "t": "存在於血腦障壁（blood-brain-barrier）上幫助葡萄糖運送"
+   },
+   {
+    "k": "B",
+    "t": "需胰島素（insulin）協助葡萄糖運送入細胞"
+   },
+   {
+    "k": "C",
+    "t": "可將果糖送入腸道細胞內"
+   },
+   {
+    "k": "D",
+    "t": "負責運送葡萄糖進入蘭氏小島 β cells"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "GLUT5 是果糖轉運體（小腸、精子）。血腦障壁＝GLUT1；胰島素依賴＝GLUT4；β 細胞＝GLUT2。",
+  "topics": [
+   "胰島素與 GLUT"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-035",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.47",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "下列何種葡萄糖運輸蛋白（glucose transporter, GLUT）與腎臟細胞運輸尿酸鹽有關？（113-1 醫檢師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "GLUT1"
+   },
+   {
+    "k": "B",
+    "t": "GLUT3"
+   },
+   {
+    "k": "C",
+    "t": "GLUT5"
+   },
+   {
+    "k": "D",
+    "t": "GLUT9"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "GLUT9（SLC2A9）在肝、腎運輸尿酸鹽（urate），與腎性低尿酸血症有關。",
+  "topics": [
+   "胰島素與 GLUT"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-036",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.49",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "關於胰島素（insulin）訊息如何活化肝臟細胞的肝醣合成酶（glycogen synthase, GS）的活性，下列描述何者最合理？（114-2 醫學）",
+  "options": [
+   {
+    "k": "A",
+    "t": "造成 GSK3 去磷酸化，提高 GSK3 激酶活性，活化 GS"
+   },
+   {
+    "k": "B",
+    "t": "造成 GSK3 磷酸化，提高 GSK3 激酶活性，活化 GS"
+   },
+   {
+    "k": "C",
+    "t": "造成 GSK3 去磷酸化，抑制 GSK3 激酶活性，活化 GS"
+   },
+   {
+    "k": "D",
+    "t": "造成 GSK3 磷酸化，抑制 GSK3 激酶活性，活化 GS"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Insulin → PI3K → Akt（PKB）把 GSK3 的 Ser 磷酸化 → GSK3 失活 → 不再磷酸化（抑制）glycogen synthase，加上 PP1 去磷酸化 → GS 活化。",
+  "topics": [
+   "胰島素與 GLUT"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-037",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.57",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "瘦體素（leptin）經由訊息傳遞後，會增加下列何種蛋白質的合成，進而導致產熱效應（thermogenesis）？（115-1 保健）",
+  "options": [
+   {
+    "k": "A",
+    "t": "AMP-activated protein kinase（AMPK）"
+   },
+   {
+    "k": "B",
+    "t": "Uncoupling protein 1（UCP1）"
+   },
+   {
+    "k": "C",
+    "t": "Adenylyl cyclase"
+   },
+   {
+    "k": "D",
+    "t": "ATP synthase"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Leptin → 下視丘 → 交感神經 norepinephrine → 脂肪細胞 β3-adrenergic receptor → cAMP/PKA → UCP1（thermogenin）表現 ↑ → 產熱。",
+  "topics": [
+   "瘦素與脂肪激素"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-038",
+  "source": "2026 課堂題",
+  "section": "Ch23 slides p.57",
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "下列何種賀爾蒙是由脂肪組織所分泌，並具有降低食慾刺激代謝的功能？（112-1 醫檢師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "脂締素（adiponectin）"
+   },
+   {
+    "k": "B",
+    "t": "瘦素（leptin）"
+   },
+   {
+    "k": "C",
+    "t": "阻抗素（resistin）"
+   },
+   {
+    "k": "D",
+    "t": "抑制素（inhibin）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Leptin（OB gene 產物）作用在下視丘 arcuate nucleus：抑制食慾（↓NPY/AgRP、↑POMC）、增加能量消耗。",
+  "topics": [
+   "瘦素與脂肪激素"
+  ],
+  "pattern": "選正確／單一概念題"
+ }
+]
