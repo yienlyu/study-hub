@@ -1,0 +1,992 @@
+[
+ {
+  "id": "new-01",
+  "source": "模擬新題",
+  "chapter": "intro",
+  "type": "mcq",
+  "stem": "下列何者是兼性寄生蟲（facultative parasite）的代表？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Trichomonas"
+   },
+   {
+    "k": "B",
+    "t": "Strongyloides stercoralis"
+   },
+   {
+    "k": "C",
+    "t": "Enterobius vermicularis"
+   },
+   {
+    "k": "D",
+    "t": "Ascaris lumbricoides"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Strongyloides 可以在土壤中自由生活，也可以寄生在人體，是兼性寄生蟲的代表。Trichomonas 是 obligate parasite。",
+  "topics": [
+   "寄生蟲定義"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-02",
+  "source": "模擬新題",
+  "chapter": "intro",
+  "type": "mcq",
+  "stem": "某寄生蟲可以同時在人與貓體內發育為成蟲並產卵。依醫學寄生蟲學的定義，貓應稱為？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Final host"
+   },
+   {
+    "k": "B",
+    "t": "Intermediate host"
+   },
+   {
+    "k": "C",
+    "t": "Reservoir host"
+   },
+   {
+    "k": "D",
+    "t": "Paratenic host"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "有性生殖或發育為成蟲同時發生在人與其他哺乳動物身上時，人稱為 final host，其他哺乳動物稱為 reservoir host（保蟲宿主）。",
+  "topics": [
+   "宿主分類"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-03",
+  "source": "模擬新題",
+  "chapter": "intro",
+  "type": "mcq",
+  "stem": "中華肝吸蟲（Clonorchis sinensis）的感染期是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "糞便中的蟲卵"
+   },
+   {
+    "k": "B",
+    "t": "螺體內的尾蚴"
+   },
+   {
+    "k": "C",
+    "t": "淡水魚肉中的囊蚴（metacercaria）"
+   },
+   {
+    "k": "D",
+    "t": "膽管中的成蟲"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "人吃到淡水鯉科魚（第二中間宿主）身上的 metacercaria 而感染。糞便中的蟲卵是診斷期，不是感染期。",
+  "topics": [
+   "診斷期 vs 感染期"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-04",
+  "source": "模擬新題",
+  "chapter": "intro",
+  "type": "mcq",
+  "stem": "下列何者「不是」寄生蟲病的預防原則？",
+  "options": [
+   {
+    "k": "A",
+    "t": "治療病人與保蟲宿主"
+   },
+   {
+    "k": "B",
+    "t": "處理最終宿主的排泄物"
+   },
+   {
+    "k": "C",
+    "t": "控制病媒與中間宿主"
+   },
+   {
+    "k": "D",
+    "t": "對所有人常規施打寄生蟲疫苗"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "預防原則：治療病人與保蟲宿主、處理排泄物、控制病媒與中間宿主、預防性投藥。目前沒有可以常規施打的人用寄生蟲疫苗。",
+  "topics": [
+   "預防"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "new-05",
+  "source": "模擬新題",
+  "chapter": "sth",
+  "type": "mcq",
+  "stem": "人類最常見的蠕蟲感染是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "鉤蟲"
+   },
+   {
+    "k": "B",
+    "t": "鞭蟲"
+   },
+   {
+    "k": "C",
+    "t": "蛔蟲"
+   },
+   {
+    "k": "D",
+    "t": "蟯蟲"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "蛔蟲是人類最常見的蠕蟲感染，鉤蟲第二，鞭蟲是第三常見的線蟲。（蟯蟲是美國最常見的蠕蟲感染。）",
+  "topics": [
+   "STH 流病"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-06",
+  "source": "模擬新題",
+  "chapter": "sth",
+  "type": "mcq",
+  "stem": "一名幼童大量感染某線蟲後出現直腸脫垂，最可能的病原是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Ascaris lumbricoides"
+   },
+   {
+    "k": "B",
+    "t": "Trichuris trichiura"
+   },
+   {
+    "k": "C",
+    "t": "Necator americanus"
+   },
+   {
+    "k": "D",
+    "t": "Enterobius vermicularis"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "鞭蟲大量感染（尤其幼童）會造成腹痛、腹瀉、直腸脫垂與生長遲緩。",
+  "topics": [
+   "STH 臨床"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-07",
+  "source": "模擬新題",
+  "chapter": "sth",
+  "type": "mcq",
+  "stem": "Albendazole 的作用機轉為？",
+  "options": [
+   {
+    "k": "A",
+    "t": "結合 glutamate-gated chloride channel"
+   },
+   {
+    "k": "B",
+    "t": "結合 β-tubulin，抑制微管聚合"
+   },
+   {
+    "k": "C",
+    "t": "抑制乙醯膽鹼酯酶"
+   },
+   {
+    "k": "D",
+    "t": "干擾核酸合成"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Albendazole 結合 β-tubulin 的 colchicine-sensitive site，抑制微管聚合，並使蟲體吸收葡萄糖受損、耗盡肝醣。結合 glutamate-gated Cl⁻ channel 的是 Ivermectin。",
+  "topics": [
+   "治療藥物"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-08",
+  "source": "模擬新題",
+  "chapter": "sth",
+  "type": "mcq",
+  "stem": "臨床醫師夾出一段鉤蟲雄蟲尾端，發現兩根交尾刺在末端合而為一。最可能是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Ancylostoma duodenale"
+   },
+   {
+    "k": "B",
+    "t": "Necator americanus"
+   },
+   {
+    "k": "C",
+    "t": "Ancylostoma caninum"
+   },
+   {
+    "k": "D",
+    "t": "Ancylostoma braziliense"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "美洲鉤蟲的兩根交尾刺在末端合而為一，雌蟲沒有尾刺；十二指腸鉤蟲的交尾刺分開，雌蟲有尾刺。",
+  "topics": [
+   "鉤蟲形態"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-09",
+  "source": "模擬新題",
+  "chapter": "sth",
+  "type": "mcq",
+  "stem": "下列哪一種鉤蟲感染人時只造成皮膚幼蟲移行症（CLM），不會在人體發育為成蟲？",
+  "options": [
+   {
+    "k": "A",
+    "t": "A. duodenale"
+   },
+   {
+    "k": "B",
+    "t": "N. americanus"
+   },
+   {
+    "k": "C",
+    "t": "A. ceylanicum"
+   },
+   {
+    "k": "D",
+    "t": "A. braziliense"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "巴西鉤蟲只鑽皮膚造成 CLM，不會進一步發育；錫蘭鉤蟲可以在人體寄生。",
+  "topics": [
+   "鉤蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-10",
+  "source": "模擬新題",
+  "chapter": "sth",
+  "type": "mcq",
+  "stem": "鉤蟲感染最常見的症狀是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "腸阻塞"
+   },
+   {
+    "k": "B",
+    "t": "缺鐵性貧血"
+   },
+   {
+    "k": "C",
+    "t": "直腸脫垂"
+   },
+   {
+    "k": "D",
+    "t": "夜間肛門搔癢"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "成蟲咬住腸壁吸血造成失血，缺鐵性貧血最常見，還可能出現 pica（異食癖）。",
+  "topics": [
+   "鉤蟲臨床"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-11",
+  "source": "模擬新題",
+  "chapter": "enterobius-toxocara",
+  "type": "mcq",
+  "stem": "診斷蟯蟲感染的首選方法是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "糞便直接抹片"
+   },
+   {
+    "k": "B",
+    "t": "糞便濃縮法"
+   },
+   {
+    "k": "C",
+    "t": "早上排便與清洗前的肛圍膠帶擦拭法"
+   },
+   {
+    "k": "D",
+    "t": "血清抗體檢測"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "肛圍擦拭法（Scotch test）準確率超過 90%；糞便找到蟲卵的機會不到 5%。老師提醒：題目問糞便找蟲卵，絕對不要選。",
+  "topics": [
+   "蟯蟲診斷"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-12",
+  "source": "模擬新題",
+  "chapter": "enterobius-toxocara",
+  "type": "mcq",
+  "stem": "關於蟯蟲，下列敘述何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "人類是唯一宿主"
+   },
+   {
+    "k": "B",
+    "t": "溫帶比熱帶常見"
+   },
+   {
+    "k": "C",
+    "t": "首選藥物為 pyrantel pamoate"
+   },
+   {
+    "k": "D",
+    "t": "蟲卵左右對稱，表面有蛋白質外套膜"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "蟯蟲卵是不對稱的（像米粒，一邊扁一邊凸）、卵殼光滑乾淨。蛋白質外套膜是蛔蟲卵的特徵。",
+  "topics": [
+   "蟯蟲"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "new-13",
+  "source": "模擬新題",
+  "chapter": "enterobius-toxocara",
+  "type": "mcq",
+  "stem": "人感染犬蛔蟲（Toxocara canis）後，下列敘述何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "糞便中可以找到大量犬蛔蟲卵"
+   },
+   {
+    "k": "B",
+    "t": "人是犬蛔蟲的最終宿主"
+   },
+   {
+    "k": "C",
+    "t": "人是保幼宿主（paratenic host），幼蟲在體內移行但不發育為成蟲"
+   },
+   {
+    "k": "D",
+    "t": "主要以肛圍擦拭法診斷"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "人是犬蛔蟲的 paratenic host，幼蟲在體內移行（VLM、OLM、NT、covert），不會發育為成蟲，所以人的糞便沒有犬蛔蟲卵；診斷靠 TES-ELISA 或 Western blot。",
+  "topics": [
+   "犬蛔蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-14",
+  "source": "模擬新題",
+  "chapter": "enterobius-toxocara",
+  "type": "mcq",
+  "stem": "1950 年 Wilder 在被診斷為哪一種疾病而摘除的兒童眼球中，發現了犬蛔蟲幼蟲？",
+  "options": [
+   {
+    "k": "A",
+    "t": "白內障"
+   },
+   {
+    "k": "B",
+    "t": "視網膜母細胞瘤（retinoblastoma）"
+   },
+   {
+    "k": "C",
+    "t": "青光眼"
+   },
+   {
+    "k": "D",
+    "t": "視網膜剝離"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "眼部犬蛔蟲症常被誤認為 retinoblastoma；1956 年 Nichols 鑑定出是 Toxocara canis。",
+  "topics": [
+   "犬蛔蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-15",
+  "source": "模擬新題",
+  "chapter": "enterobius-toxocara",
+  "type": "mcq",
+  "stem": "下列何者「不在」美國 CDC 2014 年公布的 5 大被忽視寄生蟲感染（NPIs）之中？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Chagas disease"
+   },
+   {
+    "k": "B",
+    "t": "Toxocariasis"
+   },
+   {
+    "k": "C",
+    "t": "Toxoplasmosis"
+   },
+   {
+    "k": "D",
+    "t": "Malaria"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "5 大 NPIs：Chagas disease、cysticercosis、toxocariasis、toxoplasmosis、trichomoniasis。",
+  "topics": [
+   "犬蛔蟲"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "new-16",
+  "source": "模擬新題",
+  "chapter": "capillaria-strongyloides",
+  "type": "mcq",
+  "stem": "某人糞便中發現 Capillaria hepatica 的蟲卵，最可能的解釋是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "肝臟嚴重感染"
+   },
+   {
+    "k": "B",
+    "t": "過誤性寄生：吃了被感染動物的肝臟"
+   },
+   {
+    "k": "C",
+    "t": "腸道型毛線蟲病"
+   },
+   {
+    "k": "D",
+    "t": "自體感染"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "C. hepatica 的卵留在肝實質中，不會隨人的糞便排出。糞便有卵代表吃了被感染動物的肝臟（spurious finding）；真正的感染要靠肝臟切片診斷。",
+  "topics": [
+   "C. hepatica"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-17",
+  "source": "模擬新題",
+  "chapter": "capillaria-strongyloides",
+  "type": "mcq",
+  "stem": "腎臟移植後使用免疫抑制劑的病人，出現咯血、腦膜炎與革蘭氏陰性菌敗血症。最可能的寄生蟲是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Ascaris lumbricoides"
+   },
+   {
+    "k": "B",
+    "t": "Strongyloides stercoralis"
+   },
+   {
+    "k": "C",
+    "t": "Enterobius vermicularis"
+   },
+   {
+    "k": "D",
+    "t": "Trichuris trichiura"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "糞小桿線蟲在免疫抑制病人會發生 hyperinfection 或 disseminated infection：絲狀幼蟲破壞微血管造成出血，並把腸道革蘭氏陰性菌帶入組織造成敗血症。",
+  "topics": [
+   "糞小桿線蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-18",
+  "source": "模擬新題",
+  "chapter": "capillaria-strongyloides",
+  "type": "mcq",
+  "stem": "糞小桿線蟲（Strongyloides stercoralis）的首選治療藥物是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Pyrantel pamoate"
+   },
+   {
+    "k": "B",
+    "t": "Ivermectin"
+   },
+   {
+    "k": "C",
+    "t": "Praziquantel"
+   },
+   {
+    "k": "D",
+    "t": "DEC"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "無併發症的糞小桿線蟲症首選 Ivermectin，thiabendazole 為替代；有散布風險的病人都要治療。",
+  "topics": [
+   "糞小桿線蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-19",
+  "source": "模擬新題",
+  "chapter": "capillaria-strongyloides",
+  "type": "mcq",
+  "stem": "在洋菜平板培養中，第一天就出現規則波狀爬行痕跡的幼蟲最可能是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "鉤蟲"
+   },
+   {
+    "k": "B",
+    "t": "糞小桿線蟲"
+   },
+   {
+    "k": "C",
+    "t": "東方毛線蟲"
+   },
+   {
+    "k": "D",
+    "t": "蛔蟲"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "糞小桿線蟲第一天就出現清晰連續的波狀痕跡；鉤蟲要 3–5 天，痕跡不規則；東方毛線蟲的痕跡淡而不明顯。",
+  "topics": [
+   "糞小桿線蟲診斷"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-20",
+  "source": "模擬新題",
+  "chapter": "foodborne",
+  "type": "mcq",
+  "stem": "吃了沒煮熟的野豬肉後約 1 週，出現眼眶周圍水腫、肌肉痛、指甲下裂片狀出血與嗜酸性球增多。最可能的病原是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Anisakis simplex"
+   },
+   {
+    "k": "B",
+    "t": "Trichinella spiralis"
+   },
+   {
+    "k": "C",
+    "t": "Angiostrongylus cantonensis"
+   },
+   {
+    "k": "D",
+    "t": "Toxocara canis"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "旋毛蟲的幼蟲在感染後約 1 週移行到橫紋肌，造成眼眶與臉部水腫、肌肉痛、splinter hemorrhages 與嗜酸性球增多。",
+  "topics": [
+   "旋毛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-21",
+  "source": "模擬新題",
+  "chapter": "foodborne",
+  "type": "mcq",
+  "stem": "人類嗜酸性腦膜炎最常見的病因是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Gnathostoma spinigerum"
+   },
+   {
+    "k": "B",
+    "t": "Angiostrongylus cantonensis"
+   },
+   {
+    "k": "C",
+    "t": "Taenia solium"
+   },
+   {
+    "k": "D",
+    "t": "Toxoplasma gondii"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "廣東住血線蟲（rat lungworm）是嗜酸性腦膜炎最常見的病因；CSF 嗜酸性球增多（20–90%）。",
+  "topics": [
+   "廣東住血線蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-22",
+  "source": "模擬新題",
+  "chapter": "foodborne",
+  "type": "mcq",
+  "stem": "關於廣東住血線蟲，下列敘述何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "最終宿主是大鼠"
+   },
+   {
+    "k": "B",
+    "t": "非洲大蝸牛是中間宿主"
+   },
+   {
+    "k": "C",
+    "t": "淡水蝦、陸蟹、青蛙可作為保幼宿主"
+   },
+   {
+    "k": "D",
+    "t": "驅蟲藥是公認有效的標準治療"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "目前沒有公認有效的治療，而且不建議用驅蟲藥（仍有爭議）；多數病人會完全恢復。",
+  "topics": [
+   "廣東住血線蟲"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "new-23",
+  "source": "模擬新題",
+  "chapter": "foodborne",
+  "type": "mcq",
+  "stem": "胃部異尖線蟲症（anisakiasis）最佳的處置是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "口服 Albendazole"
+   },
+   {
+    "k": "B",
+    "t": "吃生魚片時多沾 wasabi"
+   },
+   {
+    "k": "C",
+    "t": "胃鏡取出幼蟲"
+   },
+   {
+    "k": "D",
+    "t": "口服類固醇"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "治療首選是內視鏡或手術取出幼蟲。Wasabi 殺不死幼蟲。",
+  "topics": [
+   "Anisakis"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-24",
+  "source": "模擬新題",
+  "chapter": "filaria",
+  "type": "mcq",
+  "stem": "河盲症（onchocerciasis）的病媒是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "蚊"
+   },
+   {
+    "k": "B",
+    "t": "黑蠅（Simulium）"
+   },
+   {
+    "k": "C",
+    "t": "斑虻（Chrysops）"
+   },
+   {
+    "k": "D",
+    "t": "蠓"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "蟠尾絲蟲由黑蠅傳播；淋巴絲蟲由蚊傳播；Loa loa 由斑虻（mango fly）傳播；M. perstans、M. streptocerca 由蠓傳播。",
+  "topics": [
+   "絲蟲病媒"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-25",
+  "source": "模擬新題",
+  "chapter": "filaria",
+  "type": "mcq",
+  "stem": "血片中看到一條有外鞘、尾端沒有尾核、體核排列整齊的微絲蚴，最可能是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Wuchereria bancrofti"
+   },
+   {
+    "k": "B",
+    "t": "Brugia malayi"
+   },
+   {
+    "k": "C",
+    "t": "Loa loa"
+   },
+   {
+    "k": "D",
+    "t": "Onchocerca volvulus"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "斑氏絲蟲：有鞘、無尾核。馬來絲蟲：有鞘、有尾核。Loa loa：有鞘、體核延伸到尾尖。蟠尾絲蟲：無鞘，而且在皮膚。",
+  "topics": [
+   "微絲蚴鑑別"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-26",
+  "source": "模擬新題",
+  "chapter": "filaria",
+  "type": "mcq",
+  "stem": "懷疑斑氏絲蟲感染時，最佳的採血時間是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "清晨 6–9 點"
+   },
+   {
+    "k": "B",
+    "t": "中午 12 點"
+   },
+   {
+    "k": "C",
+    "t": "下午 3–6 點"
+   },
+   {
+    "k": "D",
+    "t": "晚上 10 點到清晨 4 點"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "斑氏與馬來絲蟲是夜間週期性，微絲蚴在晚上 10 點到清晨 4 點密度最高。",
+  "topics": [
+   "絲蟲診斷"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-27",
+  "source": "模擬新題",
+  "chapter": "filaria",
+  "type": "mcq",
+  "stem": "Mazzotti test 用來輔助診斷哪一種寄生蟲感染？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Loa loa"
+   },
+   {
+    "k": "B",
+    "t": "Onchocerca volvulus"
+   },
+   {
+    "k": "C",
+    "t": "Wuchereria bancrofti"
+   },
+   {
+    "k": "D",
+    "t": "Brugia malayi"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "口服 50 mg DEC 後觀察皮膚過敏反應，用來輔助診斷蟠尾絲蟲，但可能造成嚴重副作用。老師說國考曾經考過。",
+  "topics": [
+   "蟠尾絲蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-28",
+  "source": "模擬新題",
+  "chapter": "filaria",
+  "type": "mcq",
+  "stem": "熱帶肺嗜酸性球症候群（tropical pulmonary eosinophilia）的特徵不包括？",
+  "options": [
+   {
+    "k": "A",
+    "t": "血中有大量微絲蚴"
+   },
+   {
+    "k": "B",
+    "t": "IgE 很高"
+   },
+   {
+    "k": "C",
+    "t": "嗜酸性球很高"
+   },
+   {
+    "k": "D",
+    "t": "與淋巴絲蟲感染有關"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "熱帶肺嗜酸性球症候群的特徵是血中「沒有」微絲蚴、IgE 很高、嗜酸性球很高。",
+  "topics": [
+   "淋巴絲蟲臨床"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "new-29",
+  "source": "模擬新題",
+  "chapter": "nematode-lab",
+  "type": "mcq",
+  "stem": "下列哪一種蟲卵呈桶狀、兩端有突出的透明極塞？",
+  "options": [
+   {
+    "k": "A",
+    "t": "蛔蟲受精卵"
+   },
+   {
+    "k": "B",
+    "t": "蟯蟲卵"
+   },
+   {
+    "k": "C",
+    "t": "鞭蟲卵"
+   },
+   {
+    "k": "D",
+    "t": "鉤蟲卵"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "鞭蟲卵是桶狀（橄欖球狀）、兩端有透明極塞、約 54 µm，是跑台常見的「重修卵」。",
+  "topics": [
+   "蟲卵鑑別"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-30",
+  "source": "模擬新題",
+  "chapter": "nematode-lab",
+  "type": "mcq",
+  "stem": "蛔蟲未受精卵與受精卵相比，下列何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "未受精卵較小、呈圓形"
+   },
+   {
+    "k": "B",
+    "t": "未受精卵較大（約 90 µm）、長橢圓形，內含退化油滴"
+   },
+   {
+    "k": "C",
+    "t": "未受精卵沒有蛋白質外套膜"
+   },
+   {
+    "k": "D",
+    "t": "未受精卵內含一條幼蟲"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "未受精卵約 90 µm，比受精卵（約 60 µm）大，呈長橢圓形或近長方形，內含退化的油滴；蛋白質外套膜仍在，但較鬆散。",
+  "topics": [
+   "蟲卵鑑別"
+  ],
+  "pattern": "選正確／單一概念題"
+ }
+]

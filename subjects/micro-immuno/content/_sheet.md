@@ -192,15 +192,26 @@
 | TH2 | **IL-4** | GATA3 | IL-4、IL-5、IL-13 |
 | TH17 | **TGF-β + IL-6** | RORγt | IL-17、IL-22 |
 | TFH | IL-6、IL-21 | Bcl-6 | **IL-21** |
-| Treg | TGF-β | **FoxP3** | TGF-β、IL-10 |
+| Treg | **TGF-β + IL-2** | **FoxP3** | TGF-β、IL-10 |
+
+- 對付：TH1 → 胞內菌（macrophage）；TH2 → 寄生蟲（eosinophil、mast cell）；**TH17 → 胞外菌、真菌（neutrophil）**。
+- 互相抑制：IL-4 ⊣ TH1、IFN-γ ⊣ TH2、兩者 ⊣ TH17；黏膜 at-RA → pTreg、IL-6 → TH17。
+
+## CTL
+@ch tcell-act
+@fig granzyme-apoptosis
+- 活化：DC 大量 B7 直接活化，或 **CD4 幫忙**（CD40L → APC ↑B7、4-1BBL）。
+- 武器：**perforin、granzymes、granulysin、FasL**；serial killing，不殺旁邊未感染細胞。
+- Granzyme B → **Bid → tBid → Bax** → cytochrome c；caspase 3 → I-CAD → **CAD 切 DNA**。
 
 ## Class switch · B 細胞
 @ch tcell-act
 @fig class-switch
 - 需要 **CD40L（TFH）↔ CD40（B）** + cytokine + **AID**；只換 constant region。
-- **IL-4 → IgG1、IgE**；IFN-γ → IgG3、IgG2a；**TGF-β → IgG2b、IgA**；IL-5 → IgG1、IgA。
+- **AID：C → U**（IL-4 + CD40 誘導）→ SHM 與 class switch；IgM/IgD 靠 **RNA splicing**。
+- **IL-4 → IgG1、IgE**；IFN-γ → IgG3、IgG2a；**TGF-β → IgG2b、IgA**；IL-21 → IgG3、IgG1、IgA；IL-5 → IgG1、IgA。
 - **CD40L 缺陷 → X-linked hyper-IgM**（CD4 T 數目正常）。
-- TI 抗原（LPS、莢膜多醣）→ 主要 **IgM**、無記憶；嬰兒對莢膜菌易感。
+- TI-1（LPS，polyclonal、TLR）、TI-2（polymeric 莢膜多醣）→ 主要 **IgM**、記憶差；嬰兒對莢膜菌易感。
 - Germinal center：SHM、class switch、**記憶 B 細胞**。
 
 ## 真菌

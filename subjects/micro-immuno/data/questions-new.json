@@ -3837,5 +3837,302 @@
   ],
   "pattern": "選正確／單一概念題",
   "basedOn": "k113-fungi-25"
+ },
+ {
+  "id": "new-115",
+  "source": "模擬新題",
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "In mucosal tissues, naïve CD4⁺ T cells exposed to TGF-β plus all-trans-retinoic acid (at-RA) from dendritic cells mainly differentiate into:",
+  "options": [
+   {
+    "k": "A",
+    "t": "TH1 cells"
+   },
+   {
+    "k": "B",
+    "t": "TH17 cells"
+   },
+   {
+    "k": "C",
+    "t": "Peripheral Treg (pTreg) cells"
+   },
+   {
+    "k": "D",
+    "t": "TFH cells"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Fig 9.37：共生菌環境 at-RA + TGF-β → pTreg；伺機性病原使 mDC 分泌 IL-6 → TH17。",
+  "topics": [
+   "TH 分化與細胞激素"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-116",
+  "source": "模擬新題",
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "CD4 TH 亞群與其主要對付的病原，下列配對何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "TH1 – Mycobacteria、Listeria"
+   },
+   {
+    "k": "B",
+    "t": "TH2 – 腸道寄生蟲（helminth）"
+   },
+   {
+    "k": "C",
+    "t": "TH17 – 胞外細菌與真菌（Klebsiella、Candida）"
+   },
+   {
+    "k": "D",
+    "t": "Treg – 病毒感染細胞的直接毒殺"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Fig 9.33：Treg 以 TGF-β、IL-10 抑制免疫反應，針對自身與共生菌抗原；毒殺是 CTL 的工作。",
+  "topics": [
+   "TH 分化與細胞激素"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "new-117",
+  "source": "模擬新題",
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "IL-17 produced by TH17 cells increases neutrophil numbers mainly by inducing stromal and myeloid cells to produce:",
+  "options": [
+   {
+    "k": "A",
+    "t": "IL-5"
+   },
+   {
+    "k": "B",
+    "t": "G-CSF"
+   },
+   {
+    "k": "C",
+    "t": "IL-4"
+   },
+   {
+    "k": "D",
+    "t": "IFN-γ"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Fig 11.16：IL-17 → G-CSF → 骨髓增產 neutrophil；IL-17 也誘導 chemokines 招募 neutrophil。",
+  "topics": [
+   "TH 分化與細胞激素"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-118",
+  "source": "模擬新題",
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "Which statement about TH2-mediated type 2 responses is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "IL-13 increases mucus production by goblet cells"
+   },
+   {
+    "k": "B",
+    "t": "IL-5 recruits and activates eosinophils"
+   },
+   {
+    "k": "C",
+    "t": "IL-4 and IL-13 promote alternatively activated (M2) macrophages"
+   },
+   {
+    "k": "D",
+    "t": "IFN-γ from TH2 cells drives classical M1 macrophage activation"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "IFN-γ 是 TH1 的產物（M1）；TH2 用 IL-4 + IL-13 → M2，負責組織修復。",
+  "topics": [
+   "TH 分化與細胞激素"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-119",
+  "source": "模擬新題",
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "After granzyme B enters a target cell, the correct order of events leading to DNA fragmentation is:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Bid → tBid → Bax pores → cytochrome c release → caspase 3 → I-CAD cleaved → CAD"
+   },
+   {
+    "k": "B",
+    "t": "Caspase 1 → IL-1β → pyroptosis"
+   },
+   {
+    "k": "C",
+    "t": "Fas → FADD → caspase 8 → C3b deposition"
+   },
+   {
+    "k": "D",
+    "t": "Perforin → MAC formation → osmotic lysis"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Fig 9.48：granzyme B 切 Bid 與 pro-caspase 3；tBid → Bax 寡聚化 → cytochrome c → apoptosome；caspase 3 切 I-CAD 釋出 CAD。",
+  "topics": [
+   "細胞毒殺（perforin/Fas）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-120",
+  "source": "模擬新題",
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "CD4⁺ effector T cells help activate naïve CD8⁺ T cells mainly by:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Secreting perforin into the CD8⁺ T cell"
+   },
+   {
+    "k": "B",
+    "t": "Using CD40L to stimulate the APC to increase B7 and 4-1BBL, and providing IL-2"
+   },
+   {
+    "k": "C",
+    "t": "Presenting peptide on their own MHC class I"
+   },
+   {
+    "k": "D",
+    "t": "Producing IL-10 to enhance CD8⁺ proliferation"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Fig 9.29：APC 刺激 CD4 表現 CD40L 與 IL-2；APC 經 CD40 被刺激後 ↑B7、4-1BBL → 共刺激 naïve CD8。",
+  "topics": [
+   "細胞毒殺（perforin/Fas）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-121",
+  "source": "模擬新題",
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "Before activation, follicular B cells and T-zone T cells are positioned by different chemokine receptors. After activation, B cells upregulate _____ and move toward the T-cell zone boundary.",
+  "options": [
+   {
+    "k": "A",
+    "t": "CXCR5"
+   },
+   {
+    "k": "B",
+    "t": "CCR7 and EBI2"
+   },
+   {
+    "k": "C",
+    "t": "CCR6"
+   },
+   {
+    "k": "D",
+    "t": "CXCR3"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Fig 10.5：活化前 B = CXCR5、T = CCR7；活化後 B ↑CCR7、EBI2，T ↑CXCR5 → 在 B/T 區交界相遇。",
+  "topics": [
+   "B 細胞活化／class switch／生發中心"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-122",
+  "source": "模擬新題",
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "Which statement about isotype switching is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "AID converts cytidine to uridine in switch regions"
+   },
+   {
+    "k": "B",
+    "t": "Switching changes the constant region but not antigen specificity"
+   },
+   {
+    "k": "C",
+    "t": "Co-expression of IgM and IgD on mature B cells requires DNA switch recombination"
+   },
+   {
+    "k": "D",
+    "t": "Cytokines direct switching by activating promoters upstream of specific switch regions"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "IgM 與 IgD 由同一條 transcript 的 differential RNA splicing 產生，Cδ 前沒有 switch region。",
+  "topics": [
+   "B 細胞活化／class switch／生發中心"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-123",
+  "source": "模擬新題",
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "TI-1 antigens such as LPS can activate B cells without T cell help mainly because they:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Are presented on MHC class II to TFH cells"
+   },
+   {
+    "k": "B",
+    "t": "Act as polyclonal B-cell activators through TLR signaling"
+   },
+   {
+    "k": "C",
+    "t": "Are polymeric proteins that cross-link CD40"
+   },
+   {
+    "k": "D",
+    "t": "Induce AID through IL-4"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Fig 10.2：TI-1 = polyclonal activator（TLR → MyD88 → NF-κB）；TI-2 = polymeric 分子大量交聯 BCR。兩者都以 IgM 為主、記憶差。",
+  "topics": [
+   "B 細胞活化／class switch／生發中心"
+  ],
+  "pattern": "選正確／單一概念題"
  }
 ]

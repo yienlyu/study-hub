@@ -1,0 +1,827 @@
+[
+ {
+  "id": "new-01",
+  "source": "模擬新題",
+  "chapter": "intro",
+  "type": "mcq",
+  "stem": "下列何者最能代表流行病學的「本質」？",
+  "options": [
+   {
+    "k": "A",
+    "t": "描述個別病人的臨床表現"
+   },
+   {
+    "k": "B",
+    "t": "在族群中進行比較"
+   },
+   {
+    "k": "C",
+    "t": "在動物身上證明因果關係"
+   },
+   {
+    "k": "D",
+    "t": "開立個人化治療"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "流行病學的本質是比較（Essence of epidemiology = Comparison），重點在找到適當的對照組。",
+  "topics": [
+   "流行病學定義"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-02",
+  "source": "模擬新題",
+  "chapter": "intro",
+  "type": "mcq",
+  "stem": "子宮頸抹片篩檢屬於哪一段預防？",
+  "options": [
+   {
+    "k": "A",
+    "t": "初段預防：健康促進"
+   },
+   {
+    "k": "B",
+    "t": "初段預防：特殊保護"
+   },
+   {
+    "k": "C",
+    "t": "次段預防"
+   },
+   {
+    "k": "D",
+    "t": "三段預防"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "篩檢是針對無症狀者的早期發現、早期治療，屬於次段預防。疫苗屬於初段的特殊保護；復健屬於三段預防。",
+  "topics": [
+   "三段預防"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-03",
+  "source": "模擬新題",
+  "chapter": "intro",
+  "type": "mcq",
+  "stem": "依研究光譜（research spectrum），下列敘述何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "基礎研究以隨機分派進行操作，能證明因果"
+   },
+   {
+    "k": "B",
+    "t": "流行病學研究以人類族群為對象，多為觀察性"
+   },
+   {
+    "k": "C",
+    "t": "流行病學研究能直接證明因果關係"
+   },
+   {
+    "k": "D",
+    "t": "臨床醫學以個人為對象，不屬於 population study"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "流行病學研究只能「推論（infer）」因果，「證明（demonstrate）」因果的是基礎研究。",
+  "topics": [
+   "研究光譜"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "new-04",
+  "source": "模擬新題",
+  "chapter": "intro",
+  "type": "mcq",
+  "stem": "台灣西南沿海的烏腳病，主要的病因是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "飲水中的氟過量"
+   },
+   {
+    "k": "B",
+    "t": "深水井水中的砷造成慢性砷中毒"
+   },
+   {
+    "k": "C",
+    "t": "鉛汙染"
+   },
+   {
+    "k": "D",
+    "t": "黃麴毒素"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "烏腳病是北門、學甲、布袋、義竹一帶的地方性周邊血管疾病，病因是飲用深水井水造成的慢性砷中毒。",
+  "topics": [
+   "經典案例"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-05",
+  "source": "模擬新題",
+  "chapter": "intro",
+  "type": "mcq",
+  "stem": "描述性流行病學中，「Time」的面向不包含下列何者？",
+  "options": [
+   {
+    "k": "A",
+    "t": "長期趨勢（secular trend）"
+   },
+   {
+    "k": "B",
+    "t": "週期性或季節性變化"
+   },
+   {
+    "k": "C",
+    "t": "短期波動"
+   },
+   {
+    "k": "D",
+    "t": "移民研究（migrant studies）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "移民研究屬於 Place 的面向。Time 包含 secular、cyclic／seasonal、short-term fluctuation。",
+  "topics": [
+   "描述性流病"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "new-06",
+  "source": "模擬新題",
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "某病原感染 200 名易感受者中的 100 人，其中 40 人出現臨床症狀，10 人死亡。該病原的致病力（pathogenicity）為？",
+  "options": [
+   {
+    "k": "A",
+    "t": "20%"
+   },
+   {
+    "k": "B",
+    "t": "25%"
+   },
+   {
+    "k": "C",
+    "t": "40%"
+   },
+   {
+    "k": "D",
+    "t": "50%"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "致病力 = 臨床疾病人數 ÷ 感染人數 = 40/100 = 40%。感染力 = 100/200 = 50%；毒性（致死率）= 10/40 = 25%。",
+  "topics": [
+   "病原三特性"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "new-07",
+  "source": "模擬新題",
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "把感染帶進族群的個案稱為？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Index case"
+   },
+   {
+    "k": "B",
+    "t": "Primary case"
+   },
+   {
+    "k": "C",
+    "t": "Secondary case"
+   },
+   {
+    "k": "D",
+    "t": "Carrier"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Primary case 是把感染帶進族群的個案；index case 是第一個被發現的個案，兩者不一定是同一人。",
+  "topics": [
+   "病例名稱"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-08",
+  "source": "模擬新題",
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "台灣已根除瘧疾。若某位無出國旅遊史、無接觸史的民眾被確診為瘧疾，這應該被視為？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Endemic"
+   },
+   {
+    "k": "B",
+    "t": "Epidemic"
+   },
+   {
+    "k": "C",
+    "t": "Pandemic"
+   },
+   {
+    "k": "D",
+    "t": "不需通報的散發個案"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Epidemic 的定義是超過正常預期（normal expectancy）。台灣本土瘧疾的預期值是 0，出現一例就算流行，要通報 CDC。",
+  "topics": [
+   "Endemic／Epidemic／Pandemic"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-09",
+  "source": "模擬新題",
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "某傳染病的 R0 = 4，要達到群體免疫，至少需要多少比例的人有免疫力？",
+  "options": [
+   {
+    "k": "A",
+    "t": "25%"
+   },
+   {
+    "k": "B",
+    "t": "50%"
+   },
+   {
+    "k": "C",
+    "t": "75%"
+   },
+   {
+    "k": "D",
+    "t": "80%"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "HIT = 1 − 1/R0 = 1 − 1/4 = 75%。",
+  "topics": [
+   "Herd immunity"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "new-10",
+  "source": "模擬新題",
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "下列何者「不是」集體免疫（herd immunity）成立的條件？",
+  "options": [
+   {
+    "k": "A",
+    "t": "病原只侷限於單一宿主物種"
+   },
+   {
+    "k": "B",
+    "t": "傳播相對直接"
+   },
+   {
+    "k": "C",
+    "t": "病原有動物保毒宿主（reservoir）"
+   },
+   {
+    "k": "D",
+    "t": "感染後能產生穩固的免疫力"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "有保毒宿主時，herd immunity 無法發揮作用。條件之一是沒有 reservoir。",
+  "topics": [
+   "Herd immunity"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "new-11",
+  "source": "模擬新題",
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "某次午宴後爆發腸胃炎，流行曲線快速上升、緩慢下降，所有病例都在一個潛伏期內發生。最可能的爆發型態是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Point source"
+   },
+   {
+    "k": "B",
+    "t": "Propagated"
+   },
+   {
+    "k": "C",
+    "t": "Continuous common source"
+   },
+   {
+    "k": "D",
+    "t": "Intermittent common source"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "單次短暫的共同暴露，所有病例都在一個潛伏期內，曲線快升慢降，是 point source。Propagated 會出現多波、間隔一個潛伏期。",
+  "topics": [
+   "流行曲線"
+  ],
+  "pattern": "判讀題"
+ },
+ {
+  "id": "new-12",
+  "source": "模擬新題",
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "家戶中有 2 位 primary cases，家中另外還有 10 名易感受者，之後其中 4 人發病。次級侵襲率（secondary attack rate）為？",
+  "options": [
+   {
+    "k": "A",
+    "t": "4/12"
+   },
+   {
+    "k": "B",
+    "t": "4/10"
+   },
+   {
+    "k": "C",
+    "t": "6/12"
+   },
+   {
+    "k": "D",
+    "t": "2/10"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "次級侵襲率的分子、分母都要扣掉 primary cases：4 ÷ 10 = 40%。",
+  "topics": [
+   "Attack rate"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "new-13",
+  "source": "模擬新題",
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "疾病沒有臨床表現，之後也不會發展成臨床疾病，常要靠血清抗體或培養來診斷，稱為？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Preclinical disease"
+   },
+   {
+    "k": "B",
+    "t": "Subclinical disease"
+   },
+   {
+    "k": "C",
+    "t": "Latent disease"
+   },
+   {
+    "k": "D",
+    "t": "Persistent disease"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Subclinical：不明顯，也不會變明顯。Preclinical 是之後一定會發展成臨床疾病；latent 是病毒核酸整合但沒有活躍複製。",
+  "topics": [
+   "疾病階段"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-14",
+  "source": "模擬新題",
+  "chapter": "morbidity",
+  "type": "mcq",
+  "stem": "一個 1,000 人的族群，年初已有 3 人罹病，這一年內新發生 2 人。這一年的發生率為？",
+  "options": [
+   {
+    "k": "A",
+    "t": "2/1000"
+   },
+   {
+    "k": "B",
+    "t": "2/997"
+   },
+   {
+    "k": "C",
+    "t": "5/1000"
+   },
+   {
+    "k": "D",
+    "t": "5/997"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "發生率的分母要扣掉已經有病（非 at risk）的 3 人 → 997；分子只算新個案 2 人。期盛行率才是 5/1000。",
+  "topics": [
+   "發生率計算"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "new-15",
+  "source": "模擬新題",
+  "chapter": "morbidity",
+  "type": "mcq",
+  "stem": "5 人同時進入研究，追蹤 5 年；分別有人在第 1、2、4 年發病，總共累計 17 人年。發生密度為？",
+  "options": [
+   {
+    "k": "A",
+    "t": "3/25 人年"
+   },
+   {
+    "k": "B",
+    "t": "3/17 人年"
+   },
+   {
+    "k": "C",
+    "t": "3/5"
+   },
+   {
+    "k": "D",
+    "t": "2/17 人年"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "發生密度 = 新個案 ÷ 總人時 = 3/17 人年。發病後就不再累加人時。",
+  "topics": [
+   "Incidence density"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "new-16",
+  "source": "模擬新題",
+  "chapter": "morbidity",
+  "type": "mcq",
+  "stem": "下列關於侵襲率（attack rate）的敘述，何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "必須明確寫出時間區間"
+   },
+   {
+    "k": "B",
+    "t": "嚴格來說是比例而不是率"
+   },
+   {
+    "k": "C",
+    "t": "分子包含新舊個案"
+   },
+   {
+    "k": "D",
+    "t": "分母使用人時"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "侵襲率不需要寫出時間區間（通常很短），嚴格來說是比例（proportion）。",
+  "topics": [
+   "Attack rate"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-17",
+  "source": "模擬新題",
+  "chapter": "morbidity",
+  "type": "mcq",
+  "stem": "糖尿病的發生率與盛行率最可能呈現哪種組合？",
+  "options": [
+   {
+    "k": "A",
+    "t": "高發生率、低盛行率"
+   },
+   {
+    "k": "B",
+    "t": "低發生率、高盛行率"
+   },
+   {
+    "k": "C",
+    "t": "發生率與盛行率都低"
+   },
+   {
+    "k": "D",
+    "t": "兩者相同"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "慢性病無法治癒但不太會死，病程長；依 P = I × D，盛行率會累積得很高。",
+  "topics": [
+   "P = I × D"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-18",
+  "source": "模擬新題",
+  "chapter": "morbidity",
+  "type": "mcq",
+  "stem": "下列何者是被動監測（passive surveillance）的特點？",
+  "options": [
+   {
+    "k": "A",
+    "t": "資料最正確"
+   },
+   {
+    "k": "B",
+    "t": "需要專責人員到醫院找個案"
+   },
+   {
+    "k": "C",
+    "t": "容易少報且不完整，但便宜容易建立"
+   },
+   {
+    "k": "D",
+    "t": "常用在 2014 年 Ebola 疫情"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "被動監測靠醫師通報，便宜容易，但會少報、不完整。Ebola 與 Zika 用的是主動監測。",
+  "topics": [
+   "Surveillance"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-19",
+  "source": "模擬新題",
+  "chapter": "mortality",
+  "type": "mcq",
+  "stem": "10 萬人中有 20 人罹患 X 病，一年內 18 人死於 X 病。X 病的致死率為？",
+  "options": [
+   {
+    "k": "A",
+    "t": "0.018%"
+   },
+   {
+    "k": "B",
+    "t": "0.18/1000"
+   },
+   {
+    "k": "C",
+    "t": "18%"
+   },
+   {
+    "k": "D",
+    "t": "90%"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "致死率 = 18/20 = 90%。死亡率才是 18/100,000 = 0.18/1000。",
+  "topics": [
+   "死亡率 vs 致死率"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "new-20",
+  "source": "模擬新題",
+  "chapter": "mortality",
+  "type": "mcq",
+  "stem": "社區 A 總死亡率 30/1000、心臟病比例死亡 10%；社區 B 總死亡率 15/1000、心臟病比例死亡 20%。下列何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "B 的心臟病死亡風險是 A 的 2 倍"
+   },
+   {
+    "k": "B",
+    "t": "兩社區的心臟病死亡率相同"
+   },
+   {
+    "k": "C",
+    "t": "A 的心臟病死亡率較高"
+   },
+   {
+    "k": "D",
+    "t": "無法計算心臟病死亡率"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "心臟病死亡率 = 總死亡率 × 比例死亡：A = 30 × 10% = 3/1000；B = 15 × 20% = 3/1000。比例不同不代表風險不同。",
+  "topics": [
+   "比例死亡"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "new-21",
+  "source": "模擬新題",
+  "chapter": "mortality",
+  "type": "mcq",
+  "stem": "以 75 歲為標準年齡，一名 1 歲嬰兒和一名 50 歲成人死於同一原因，總 YPLL 為？",
+  "options": [
+   {
+    "k": "A",
+    "t": "74"
+   },
+   {
+    "k": "B",
+    "t": "25"
+   },
+   {
+    "k": "C",
+    "t": "99"
+   },
+   {
+    "k": "D",
+    "t": "124"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(75 − 1) + (75 − 50) = 74 + 25 = 99。",
+  "topics": [
+   "YPLL"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "new-22",
+  "source": "模擬新題",
+  "chapter": "mortality",
+  "type": "mcq",
+  "stem": "研究某職業族群的死亡情形，但沒有各年齡層的死亡數。較適合使用哪種方法？",
+  "options": [
+   {
+    "k": "A",
+    "t": "直接年齡校正"
+   },
+   {
+    "k": "B",
+    "t": "間接年齡校正（SMR）"
+   },
+   {
+    "k": "C",
+    "t": "粗死亡率"
+   },
+   {
+    "k": "D",
+    "t": "比例死亡"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "沒有各年齡層死亡數時，用間接法：SMR = 觀察死亡數 ÷ 預期死亡數（預期數用標準族群的年齡別死亡率計算）。",
+  "topics": [
+   "年齡校正"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-23",
+  "source": "模擬新題",
+  "chapter": "mortality",
+  "type": "mcq",
+  "stem": "美國 55–64 歲糖尿病死亡率在 ICD-7 改為 ICD-8 時突然下降，這屬於？",
+  "options": [
+   {
+    "k": "A",
+    "t": "真實的發生率下降"
+   },
+   {
+    "k": "B",
+    "t": "存活率改善"
+   },
+   {
+    "k": "C",
+    "t": "人為因素：編碼規則改變"
+   },
+   {
+    "k": "D",
+    "t": "人口年齡組成改變"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "ICD 編碼規則改變屬於分子的人為（artifactual）因素。",
+  "topics": [
+   "解讀死亡率變化"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-24",
+  "source": "模擬新題",
+  "chapter": "mortality",
+  "type": "mcq",
+  "stem": "DALY 的組成為？",
+  "options": [
+   {
+    "k": "A",
+    "t": "YPLL ＋ 致死率"
+   },
+   {
+    "k": "B",
+    "t": "過早死亡損失的生命年（YLL）＋ 失能生活年（YLD）"
+   },
+   {
+    "k": "C",
+    "t": "發生率 × 病程"
+   },
+   {
+    "k": "D",
+    "t": "生活品質分數 × 存活年數"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "DALY = YLL + YLD；1 DALY 代表損失 1 年健康生命。",
+  "topics": [
+   "疾病負擔"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-25",
+  "source": "模擬新題",
+  "chapter": "mortality",
+  "type": "mcq",
+  "stem": "在什麼情況下，死亡率能很好地反映發生率？",
+  "options": [
+   {
+    "k": "A",
+    "t": "致死率低、病程長"
+   },
+   {
+    "k": "B",
+    "t": "致死率高、病程短"
+   },
+   {
+    "k": "C",
+    "t": "盛行率高"
+   },
+   {
+    "k": "D",
+    "t": "有完善的篩檢"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "致死率高且病程短的疾病（例如胰臟癌），死亡數接近新個案數。",
+  "topics": [
+   "死亡率 vs 發生率"
+  ],
+  "pattern": "選正確／單一概念題"
+ }
+]

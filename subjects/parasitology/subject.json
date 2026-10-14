@@ -1,0 +1,129 @@
+{
+  "id": "parasitology",
+  "title": "寄生蟲學",
+  "short": "寄生蟲",
+  "term": "115-1 期中考",
+  "examDate": "2026-11-03",
+  "description": "寄生蟲總論與線蟲各論：土源性蠕蟲、蟯蟲、犬蛔蟲、毛線蟲、糞小桿線蟲、食源性線蟲、血絲蟲，以及實驗課蟲卵鑑別。整合 2026 上課 slides、EverCam 逐字稿與實驗圖譜。",
+  "color": "#6b7a2f",
+  "icon": "🪱",
+  "questionFiles": [
+    "data/questions-new.json"
+  ],
+  "sources": [
+    {
+      "key": "new",
+      "label": "模擬新題",
+      "kind": "new",
+      "pill": "good"
+    }
+  ],
+  "groups": [
+    {
+      "title": "總論與腸道線蟲（范家堃）",
+      "chapters": [
+        "intro",
+        "sth",
+        "enterobius-toxocara",
+        "capillaria-strongyloides"
+      ]
+    },
+    {
+      "title": "組織線蟲",
+      "chapters": [
+        "foodborne",
+        "filaria"
+      ]
+    },
+    {
+      "title": "實驗課",
+      "chapters": [
+        "nematode-lab"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "intro",
+      "title": "寄生蟲總論",
+      "en": "Introduction to Parasitology",
+      "teacher": "范家堃",
+      "week": "W1",
+      "slides": true
+    },
+    {
+      "id": "sth",
+      "title": "土源性蠕蟲：蛔蟲、鞭蟲、鉤蟲",
+      "en": "Soil-transmitted Helminths",
+      "teacher": "范家堃",
+      "week": "W1",
+      "slides": true
+    },
+    {
+      "id": "enterobius-toxocara",
+      "title": "蟯蟲與犬蛔蟲",
+      "en": "Enterobius vermicularis & Toxocara canis",
+      "teacher": "范家堃",
+      "week": "W1",
+      "slides": true
+    },
+    {
+      "id": "capillaria-strongyloides",
+      "title": "毛線蟲與糞小桿線蟲",
+      "en": "Capillaria & Strongyloides stercoralis",
+      "teacher": "范家堃",
+      "week": "W2",
+      "slides": true
+    },
+    {
+      "id": "foodborne",
+      "title": "食源性線蟲：旋毛蟲、顎口線蟲、海獸胃線蟲、廣東住血線蟲",
+      "en": "Foodborne Nematodes",
+      "teacher": "范家堃",
+      "week": "W2–W3",
+      "slides": true
+    },
+    {
+      "id": "filaria",
+      "title": "血絲蟲",
+      "en": "Filaria",
+      "teacher": "范家堃",
+      "week": "W3",
+      "slides": true
+    },
+    {
+      "id": "nematode-lab",
+      "title": "線蟲實驗：蟲卵與蟲體鑑別",
+      "en": "Nematode Lab · Ova & Adult Identification",
+      "teacher": "實驗課",
+      "week": "W3",
+      "slides": true
+    }
+  ],
+  "insights": [
+    [
+      "期中考 11/3（二）18:30–19:40。",
+      "授課教師范家堃，協同教師鄭柏青、莊定武、詹凱淵。課外補充教材也在考試範圍內。"
+    ],
+    [
+      "生活史是一切的核心。",
+      "范老師說「把生活史了解了就及格了」：每隻蟲都要分清楚感染期與診斷期、感染途徑、最終宿主、中間宿主、保蟲宿主、保幼宿主。"
+    ],
+    [
+      "國考約 7 分，老師點名的國考題型。",
+      "蟯蟲診斷不要選糞便檢查（要用肛圍擦拭法）、血絲蟲的病媒配對、Mazzotti test、「吃淡水蝦會感染哪些寄生蟲」（別漏掉廣東住血線蟲）。"
+    ],
+    [
+      "整理「哪些寄生蟲跑到哪些部位」。",
+      "老師提醒期中考可能問移行部位：眼（犬蛔蟲、顎口線蟲、廣東住血線蟲、Loa loa）、腦（廣東住血線蟲、顎口線蟲、犬蛔蟲）、肌肉（旋毛蟲）、肺（蛔蟲、鉤蟲、糞小桿線蟲）。"
+    ],
+    [
+      "實驗跑台：學名全名＋五要點。",
+      "填空、問答、混合蟲卵都要寫學名全名。蟲卵依大小、顏色、形狀、內容物、附屬物判斷；鞭蟲卵是第一題常客，鉤蟲卵寫 hookworm 即可。"
+    ],
+    [
+      "目前沒有考古題。",
+      "練習區是依 slides 與上課內容編寫的模擬新題。"
+    ]
+  ]
+}

@@ -1,0 +1,362 @@
+[
+ {
+  "id": "class-01",
+  "source": "2026 課堂題",
+  "chapter": "morbidity",
+  "type": "mcq",
+  "stem": "At an initial examination in Oxford, Massachusetts, migraine headache was found in 5 of 1,000 men aged 30 to 35 years and in 10 of 1,000 women aged 30 to 35 years. The inference that women have a two times greater risk of developing migraine headache than do men in this age group is:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Correct"
+   },
+   {
+    "k": "B",
+    "t": "Incorrect, because a ratio has been used to compare male and female rates"
+   },
+   {
+    "k": "C",
+    "t": "Incorrect, because of failure to recognize the effect of age in the two groups"
+   },
+   {
+    "k": "D",
+    "t": "Incorrect, because no data for a comparison or control group are given"
+   },
+   {
+    "k": "E",
+    "t": "Incorrect, because of failure to distinguish between incidence and prevalence"
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "「initial examination」只能得到盛行率（prevalence）。罹病風險要用發生率（incidence）來回答，所以這個推論錯在沒有區分發生率與盛行率。",
+  "topics": [
+   "發生率 vs 盛行率"
+  ],
+  "pattern": "判斷推論",
+  "num": 1
+ },
+ {
+  "id": "class-02",
+  "source": "2026 課堂題",
+  "chapter": "morbidity",
+  "type": "short",
+  "num": 2,
+  "stem": "（簡答）A prevalence survey conducted from January 1 through December 31, 2012, identified 1,000 cases of schizophrenia in a city of 2 million persons. The incidence rate of schizophrenia in this population is 5/100,000 persons each year. What percentage of the 1,000 cases were newly diagnosed in 2012?",
+  "options": [],
+  "answer": [
+   "10%"
+  ],
+  "answerText": "10%",
+  "explain": "新個案數 = 5/100,000 × 2,000,000 = 100 人。100 ÷ 1,000 = 10%。",
+  "topics": [
+   "發生率計算"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "class-03",
+  "source": "2026 課堂題",
+  "chapter": "morbidity",
+  "type": "mcq",
+  "stem": "Which of the following is an advantage of active surveillance?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Requires less project staff"
+   },
+   {
+    "k": "B",
+    "t": "Is relatively inexpensive to employ"
+   },
+   {
+    "k": "C",
+    "t": "More accurate due to reduced reporting burden for health care providers"
+   },
+   {
+    "k": "D",
+    "t": "Relies on different disease definitions to account for all cases"
+   },
+   {
+    "k": "E",
+    "t": "Reporting systems can be developed quickly"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "主動監測由計畫人員親自到醫療院所找個案，醫療人員的通報負擔較輕，所以資料比較正確。缺點是人力多、昂貴、建立較慢；A、B、E 都是被動監測的特性。",
+  "topics": [
+   "Surveillance"
+  ],
+  "pattern": "選正確／單一概念題",
+  "num": 3
+ },
+ {
+  "id": "class-04",
+  "source": "2026 課堂題",
+  "chapter": "morbidity",
+  "type": "mcq",
+  "stem": "What would be the effect on age-specific incidence rates of uterine cancer if women with hysterectomies were excluded from the denominator of the calculations, assuming that there are some women in each age group who have had hysterectomies?",
+  "options": [
+   {
+    "k": "A",
+    "t": "The rates would remain the same"
+   },
+   {
+    "k": "B",
+    "t": "The rates would tend to decrease"
+   },
+   {
+    "k": "C",
+    "t": "The rates would tend to increase"
+   },
+   {
+    "k": "D",
+    "t": "The rates would increase in older groups and decrease in younger groups"
+   },
+   {
+    "k": "E",
+    "t": "It cannot be determined whether the rates would increase or decrease"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "切除子宮的女性不可能得子宮癌（不是 at risk），把她們從分母移除後分母變小，發生率會上升。沒校正時發生率是被低估的。",
+  "topics": [
+   "測量問題：分母"
+  ],
+  "pattern": "選正確／單一概念題",
+  "num": 4
+ },
+ {
+  "id": "class-05",
+  "source": "2026 課堂題",
+  "chapter": "morbidity",
+  "type": "mcq",
+  "stem": "A survey of the nonhospitalized adult US population (2008–2011) showed the percentage of persons with hypertension rising from 4% (18–29 y) to 64% (≥70 y). The researchers stated that there was an age-related increase in the risk of hypertension. The researchers' interpretation:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Is correct"
+   },
+   {
+    "k": "B",
+    "t": "Is incorrect because it was not based on rates"
+   },
+   {
+    "k": "C",
+    "t": "Is incorrect because incidence rates do not describe risk"
+   },
+   {
+    "k": "D",
+    "t": "Is incorrect because prevalence is used"
+   },
+   {
+    "k": "E",
+    "t": "Is incorrect because the calculations are not age-adjusted"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "一次調查得到的是盛行率，不能用來推論罹病風險，風險要看發生率。",
+  "topics": [
+   "發生率 vs 盛行率"
+  ],
+  "pattern": "判斷推論",
+  "num": 5
+ },
+ {
+  "id": "class-06",
+  "source": "2026 課堂題",
+  "chapter": "morbidity",
+  "type": "mcq",
+  "stem": "Population of Atlantis on March 30, 2012 = 183,000; new active TB cases between January 1 and June 30, 2012 = 26; active TB cases on the city register on June 30, 2012 = 264. The incidence rate of active TB for the 6-month period was:",
+  "options": [
+   {
+    "k": "A",
+    "t": "7 per 100,000 population"
+   },
+   {
+    "k": "B",
+    "t": "14 per 100,000 population"
+   },
+   {
+    "k": "C",
+    "t": "26 per 100,000 population"
+   },
+   {
+    "k": "D",
+    "t": "28 per 100,000 population"
+   },
+   {
+    "k": "E",
+    "t": "130 per 100,000 population"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "26 ÷ 183,000 × 100,000 ≈ 14.2，約每十萬人 14 例。",
+  "topics": [
+   "發生率計算"
+  ],
+  "pattern": "計算題",
+  "num": 6
+ },
+ {
+  "id": "class-07",
+  "source": "2026 課堂題",
+  "chapter": "morbidity",
+  "type": "mcq",
+  "stem": "Using the same Atlantis data (population 183,000; 264 active TB cases registered on June 30, 2012), the prevalence rate of active TB as of June 30, 2012 was:",
+  "options": [
+   {
+    "k": "A",
+    "t": "14 per 100,000 population"
+   },
+   {
+    "k": "B",
+    "t": "130 per 100,000 population"
+   },
+   {
+    "k": "C",
+    "t": "144 per 100,000 population"
+   },
+   {
+    "k": "D",
+    "t": "264 per 100,000 population"
+   },
+   {
+    "k": "E",
+    "t": "None of the above"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "點盛行率 = 264 ÷ 183,000 × 100,000 ≈ 144，約每十萬人 144 例。",
+  "topics": [
+   "盛行率計算"
+  ],
+  "pattern": "計算題",
+  "num": 7
+ },
+ {
+  "id": "class-08",
+  "source": "2026 課堂題",
+  "chapter": "morbidity",
+  "type": "mcq",
+  "stem": "Disease X has a duration of 15 years and a low incidence (5 per 100,000 person-years). Disease Y has a duration of 5 years and the same incidence. Comparing Disease X to Y in the same population, we would expect Disease X to have a:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Better cure rate"
+   },
+   {
+    "k": "B",
+    "t": "Lower prevalence"
+   },
+   {
+    "k": "C",
+    "t": "Higher prevalence"
+   },
+   {
+    "k": "D",
+    "t": "Higher incidence"
+   },
+   {
+    "k": "E",
+    "t": "Shorter average duration"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "P = I × D。發生率相同時，病程較長的 X 盛行率較高。",
+  "topics": [
+   "P = I × D"
+  ],
+  "pattern": "選正確／單一概念題",
+  "num": 8
+ },
+ {
+  "id": "class-09",
+  "source": "2026 課堂題",
+  "chapter": "mortality",
+  "type": "mcq",
+  "stem": "Disease A has an annual incidence of 225/100,000 and an annual mortality rate of 150/100,000. Disease B has an annual incidence of 500/100,000 and the same mortality rate. Neither has a cure. What would you conclude?",
+  "options": [
+   {
+    "k": "A",
+    "t": "The proportionate mortality is higher for disease A than disease B"
+   },
+   {
+    "k": "B",
+    "t": "The case fatality ratio is higher for disease B than disease A"
+   },
+   {
+    "k": "C",
+    "t": "Disease A has a higher prevalence than disease B"
+   },
+   {
+    "k": "D",
+    "t": "Disease B has a higher prevalence than disease A"
+   },
+   {
+    "k": "E",
+    "t": "YPLL is greater for disease B than disease A"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "兩者都無法治癒、死亡率相同，B 每年新增的個案較多、存活下來的病人也較多，所以 B 的盛行率較高。比例死亡相同；A 的致死率反而較高（150/225 vs 150/500）；YPLL 缺少死亡年齡的資料，無法判斷。",
+  "topics": [
+   "死亡率、致死率、盛行率"
+  ],
+  "pattern": "判斷推論",
+  "num": 9
+ },
+ {
+  "id": "class-10",
+  "source": "2026 課堂題",
+  "chapter": "morbidity",
+  "type": "mcq",
+  "stem": "During the first year after chikungunya virus was introduced into the Dominican Republic (population 10.4 million), 251,880 people were infected. Infection is rarely fatal. Which is correct?",
+  "options": [
+   {
+    "k": "A",
+    "t": "The incidence of chikungunya infection is 251,880 per year"
+   },
+   {
+    "k": "B",
+    "t": "The prevalence of chikungunya infections is 251,880"
+   },
+   {
+    "k": "C",
+    "t": "The mortality rate of chikungunya is 24.2 per 1,000 persons"
+   },
+   {
+    "k": "D",
+    "t": "The 1-year cumulative incidence of chikungunya is 24.2 per 1,000 persons"
+   },
+   {
+    "k": "E",
+    "t": "The cumulative survival from chikungunya infections is 24.2 per 1,000 persons"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "新傳入的疾病，族群裡每個人都是 at risk。251,880 ÷ 10,400,000 = 0.0242，也就是一年累積發生率每千人 24.2。A、B 只是人數不是率；這個病很少致死，所以 C 錯。",
+  "topics": [
+   "累積發生率"
+  ],
+  "pattern": "計算題",
+  "num": 10
+ }
+]

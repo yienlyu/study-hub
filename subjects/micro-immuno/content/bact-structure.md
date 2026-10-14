@@ -108,6 +108,47 @@
 - Anaerobic respiration：以 NO₃⁻、SO₄²⁻、CO₂ 作電子接受者（ATP 較少）；Fermentation：pyruvate → 代謝物（乳酸、乙醇、SCFAs）。
 - Amphibolic pathway：NAD⁺ → 異化；NADP⁺ → 同化。
 
+## 🎙️ 上課錄影重點（黃姿雯，09/09 + 09/11）
+
+### 微生物學史、抗藥性、微生物相（09/09）
+- 老師坦白：細菌總論國考大約只考 **1–2 題**，但 G+ / G− 等基本觀念直接影響臨床選藥，「最基本的知識才是最有用的」。
+- Leeuwenhoek 透鏡約放大 **200–300 倍**；Pasteur 幫釀酒的朋友解決「酒變醋」→ pasteurization（短暫加熱，用於液態食品）；Semmelweis 發現助產士接生前會洗手、醫師沒有 → 產褥熱比例不同（做對的事卻被邊緣化）；Lister 以化學消毒處理手術器械。
+- **Koch's postulates 的邏輯**：從病動物採檢 → 體外培養得 **pure culture** → 打入健康動物重現疾病 → **再從新病動物分離出同一菌**（排除中途被別的來源感染）。第一個證實的是炭疽桿菌 × 炭疽病。
+- Ehrlich 的砷化合物「magic bullet」其實也會傷人體；Fleming 放假回來看到黴菌周圍透明圈（和現在藥敏試驗概念相同），但 penicillin 是另外兩位化學家純化成藥；**Waksman** 從**土壤細菌的二級代謝物**找到 streptomycin（治 TB），之後抗生素大多用此法尋找。
+- **MegaPlate 實驗**：*E. coli* 在 0 → 1 → 10 → 100 → 1000 倍抗生素濃度梯度上，**11 天**就長到 1000 倍區 → 少數存活族群再放大 = 抗藥性產生。
+- Fleming 在 1940 年代諾貝爾演講就警告「抗生素不能吃一半」；1950–70 年代是抗生素黃金期，之後藥廠因**急性用藥、獲利低**而停止開發 → 現用藥多是 70 年代結構的官能基修飾；預估 **2050 年**抗藥菌死亡數超過癌症；人畜用藥要分家。
+- 「Superbug」是新聞用詞，定義隨年代改變（早期 MRSA 就被稱為超級細菌）。
+- 對策：監測（台灣國衛院做了 20 年，現在希望細到各醫院）、新抗生素（培養以前養不起來的菌）、**噬菌體療法**（以前因專一性太高、療效不一致被拋棄，現在反而用來「精準打擊」抗藥株、不傷腸道菌）、疫苗。
+- **Zosurabalpin**（Nature 2024 年 1 月）：50 年來第一個**新作用機轉**（抑制 LPS 運送 / 合成），針對 *A. baumannii*；不一定能用於其他菌。
+- **Microbiome**：以定序（非培養）鑑定；細菌數約人體細胞 **3 倍**、基因數 **100 倍**。不同人口腔、腸道菌組成差很多，但以**功能**看高度一致 → **functional redundancy**：「重點不是帶了哪支菌，而是這支菌在做什麼事」。
+- **Dysbiosis** 強調**組成**與**比例**都不同；*C. difficile* 反覆復發 → **FMT**（早期把健康人糞便裝膠囊吞，治癒率非常高；中國古籍「黃龍湯」、獸醫也用）。
+- Probiotics 功效是**菌株特異**（廠商專利）；宣稱功效需動物實驗證據、主管機關核定；次世代益生菌 *Akkermansia* 是**絕對厭氧菌**；Postbiotics：真正作用的是代謝物（經循環到腦等遠端器官）。
+- Archaea 與細菌長得一樣，但化學組成、作用機制完全不同 → 在「域」就分開；生活在高鹽、高熱、甲烷環境。肉眼極限約 **0.2 mm**；2022 年在澳洲海域發現 **1 cm** 大的細菌。
+
+### 分類、構造、生長代謝（09/11）
+- 學名：**屬、種用斜體**；屬以上（科、目、綱、門）用正體。分類名稱會因基因體定序而更名（如乳酸桿菌大量改名）。
+- 屬名常反映形狀：*Staphylococcus*（-coccus 球菌）、*Bacillus*（桿菌）；也有球桿菌、梭狀（*C. difficile*）、弧菌（*Vibrio cholerae*）、螺旋菌；有些菌天生多形性（臨床檢體更常見）。
+- **「麻煩請你牢記 Gram stain」**：crystal violet（結合 PDG）→ iodine 媒染 → **酒精脫色** → safranin 復染。G− 的 PDG 藏在外膜脂質層內且較薄 → 第一步就染得少、一脫色就掉。⚠️ 老化或變異的 *S. aureus* 可能染成粉紅色（PDG 狀態改變）。
+- **MALDI-TOF**：把菌落蛋白打碎、依質荷比得圖譜比對資料庫；**約 30 分鐘**出結果，比傳統生化法省一天 → 減少經驗療法猜錯。血清型 / 基因型多用於危險或難養的菌（出血性 *E. coli*、HIV、MTB）。
+- Capsule：菌落看起來**黏糊糊、亮亮的**；緻密 = capsule、鬆散 = slime layer；多醣抗原性差、抗吞噬。
+- Flagella 由 flagellin 組成、嵌在細胞膜；運動是「趨吉避凶」的 **chemotaxis**（走走停停、往濃度高處）；**H antigen**。Spirochete 的 axial filament 像螺絲起子邊轉邊前進。
+- Fimbriae 短而多；**pili 主要在 G−**，**sex pilus → conjugation**（下一章）。
+- ⭐ **細胞壁「前面都可以當做沒有聽見，但這個一定要聽到」**：PDG 像**編織物**（不是水泥牆）→ 有彈性、多孔、可通透。
+- **PBP 催化 transpeptidation**；**lysozyme**（眼淚、鼻腔）切 NAG–NAM 間的鍵 → 滲透壓脹破；**β-lactam 抑制 transpeptidation**；**vancomycin**（G+ 後線藥）綁住側鏈胜肽末端、使其無法交聯。「麻煩要記清楚，講抗生素時通通會連過來」。
+- G+ 另有 teichoic / lipoteichoic acid 加固；G− 外膜有 **porin**（小分子通道）。
+- ⭐⭐⭐ **LPS**（三顆星）：「有人說 G+ 有 LPS → 一定是錯的」。Lipid A → septic shock（進程極快，可在 **6 小時內**由健康到多重器官衰竭，且表徵因人而異）；Core 含 **KDO**（同菌種相同）；O antigen = **4–7 個糖重複 50–100 次**。O157:H7 的 O = O antigen、H = 鞭毛蛋白。
+- **β-lactamase 位在 periplasmic space**：抗生素經 porin 進來馬上被分解（「要記得位置」）。
+- 特例：*Mycobacterium*（mycolic acid → **acid-fast**：carbolfuchsin、acid alcohol 脫不掉）、*Mycoplasma*（無細胞壁、膜含 sterol）、*Chlamydia*（雙層膜但中間無 PDG）；protoplast 在**等張溶液**可存活（實驗室做 G+ 轉形會人工製造）；L-form 放回對的環境可恢復。
+- Inclusion body =「小倉庫」（polyphosphate、多醣 → 可做生物塑膠）；磁小體細菌被研究當成磁力導引的抗癌藥載體（冷知識）。
+- **Endospore**：*Bacillus*（炭疽桿菌那群）與 *C. difficile* 那群；複製染色體後層層包裹、**脫水、代謝靜止**，母細胞裂解後釋出，環境適合時 **germination** 長回桿菌。
+- 二分裂：新舊各半（DNA、細胞質、細胞壁）。
+- 病原菌都是 **mesophile**：最適 **35–37 °C**，10 °C 以下不長、50 °C 以上完全不長。⚠️ **冰箱是為了不讓病原菌長，不是為了不壞**：嗜冷菌在 0–10 °C 仍會長 → 便當放兩週還是會酸。
+- 氧需求：obligate aerobe 需有 SOD、catalase 解毒；*E. coli* = facultative anaerobe（腸道低氧也能活，只是長得慢）；**microaerophile 代表 = *H. pylori*（2–10% O₂）**；厭氧培養最簡易法 = 密封罐 + 蠟燭燒掉氧氣。腸道研究讓絕對厭氧菌越來越受重視。
+- 生長曲線：lag phase 肉眼清澈但在準備材料；**log phase**：*E. coli* 約 **20 分鐘**分裂一次，20 次（約 400 分鐘）→ 一隻變**百萬隻**；這時期菌體**最健康**，研究基因表達、酵素活性都取這期；**stationary phase 開始累積突變株**（可能出現抗藥）。「一定要特別記得 log phase 跟 stationary phase 代表的意思」。
+- **Biofilm**：越內層越缺氧缺營養 → 抗藥；會剝離散播 → 反覆感染；醫療管路（引流管、導尿管、呼吸管）是大問題；組織上的代表是**感染性心內膜炎**（鏈球菌章）。
+- 代謝：1 葡萄糖有氧呼吸 → **38 ATP，其中 34 個來自電子傳遞鏈**（oxidative phosphorylation）。無氧呼吸最終電子接受者可為 NO₃⁻、SO₄²⁻、**CO₂**（**國考考過**）。發酵只走 glycolysis，pyruvate 再被**還原**成菌種特有產物（酒精、乳酸、腸道 SCFAs → 調節免疫）。
+- 老師原話：「**Murray 那本有出現的，國考都可以考**」、「**我沒有講的就是不會考**」；合成代謝只需記 PDG 由 UDP-N-acetylglucosamine 合成。
+
 === slides ===
 
 # W1-1 上課 slides 重點（黃姿雯）
@@ -169,3 +210,9 @@
 - 大多為「Which is TRUE / FALSE」單選，選項常把兩個正確概念交換（例：fimbriae↔flagella、G+↔G−）。
 - 組合題（a–f 選三個正確）考原核 vs 真核構造。
 - 會出少量超出範圍的菌種細節（炭疽桿菌感染途徑、Clostridium 孢子形狀）——屬於各論章節，可先略過。
+
+## 🎙️ 老師課堂提示
+- 明講要記：**Gram stain 步驟與原理**、**細胞壁結構（PDG、PBP、lysozyme、β-lactam、vancomycin 作用點）**、**LPS 三部分（三顆星）**、**β-lactamase 在 periplasmic space**、**log vs stationary phase 的意義**。
+- 國考考過：無氧呼吸以 **CO₂** 為最終電子接受者。
+- 「Murray 有出現的國考都可以考；沒講的不會考」。
+- 小陷阱：冰箱冷藏是防病原菌生長、不是防腐壞；microaerophile 代表 *H. pylori*；MALDI-TOF 約 30 分鐘出結果。

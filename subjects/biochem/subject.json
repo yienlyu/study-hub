@@ -87,20 +87,24 @@
       "title": "胺基酸氧化與尿素生成",
       "en": "Ch18 · Amino acid oxidation & urea",
       "teacher": "陳顧中",
-      "week": "未上",
-      "slides": false
+      "week": "W5",
+      "slides": true
     },
     {
       "id": "ch22",
       "title": "胺基酸、核苷酸生合成",
       "en": "Ch22 · Biosynthesis of amino acids & nucleotides",
       "teacher": "陳顧中",
-      "week": "未上",
-      "slides": false
+      "week": "W5",
+      "slides": true
     }
   ],
   "sheet": "content/_sheet.md",
   "insights": [
+    [
+      "期中考配分：黃彥華 42 分、陳顧中 58 分。",
+      "黃彥華老師在 9/24 課堂宣布：Ch17、Ch21、Ch12 共 42 分；陳顧中老師的 Ch23、Ch18、Ch22 共 58 分。陳老師說期中考難度大約等於國考，講義的課後練習題都是國考原題。"
+    ],
     [
       "否定題將近四成。",
       "113 共筆 222 題中有 84 題是「incorrect／does not」，選項常把成對概念對調：L↔D 型、FAD↔NADPH、粒線體↔細胞質、IP₃↔DAG。"
@@ -110,8 +114,8 @@
       "PLP、BH₄、SAM、biotin、B₁₂ 該配哪個反應；藥物配標的（5-FU、methotrexate、statin、allopurinol）；疾病配缺乏的酵素。整理成表格最有效。"
     ],
     [
-      "Ch18、Ch22 題數最多但還沒上。",
-      "去年 Ch18 有 86 題、Ch22 有 47 題，佔共筆六成；現在先看重點整理與考古，上課後再對照 slides。"
+      "Ch18、Ch22 去年題數最多，現在已上完。",
+      "去年 Ch18 有 86 題、Ch22 有 47 題，佔共筆六成；陳顧中老師說 Ch18 是他三章中最愛考的（PKU 第一、黑尿症第三），Ch22 國考出現率最低，核苷酸部分期中考後才上。"
     ],
     [
       "Ch23 的國考題會整題出現。",

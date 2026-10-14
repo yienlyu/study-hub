@@ -31,6 +31,7 @@
         "tcell-dev",
         "tcell-act",
         "infection-immunity",
+        "immunodeficiency",
         "hypersensitivity"
       ]
     },
@@ -120,19 +121,27 @@
     },
     {
       "id": "tcell-act",
-      "title": "T 細胞活化與免疫細胞合作",
-      "en": "T cell activation & cell cooperation",
+      "title": "T 細胞媒介免疫與免疫細胞合作",
+      "en": "T cell-mediated immunity & cell cooperation",
       "teacher": "陳玫潔",
-      "week": "未上",
-      "slides": false
+      "week": "W4-2",
+      "slides": true
     },
     {
       "id": "infection-immunity",
       "title": "對抗感染的免疫反應",
       "en": "Immune response against infectious agents",
       "teacher": "林秋烽",
-      "week": "未上",
-      "slides": false
+      "week": "W5-1",
+      "slides": true
+    },
+    {
+      "id": "immunodeficiency",
+      "title": "免疫缺陷疾病",
+      "en": "Immunodeficiency diseases",
+      "teacher": "賴傳穎",
+      "week": "W18 遠距",
+      "slides": true
     },
     {
       "id": "hypersensitivity",
@@ -163,8 +172,8 @@
       "title": "Bacillus、Listeria、Corynebacterium",
       "en": "Bacillus, Listeria & Corynebacterium",
       "teacher": "鍾筱菁",
-      "week": "未上",
-      "slides": false
+      "week": "W6-1",
+      "slides": true
     },
     {
       "id": "neisseria",

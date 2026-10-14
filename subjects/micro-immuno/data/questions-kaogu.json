@@ -6648,42 +6648,6 @@
   "pattern": "選正確／單一概念題"
  },
  {
-  "id": "k113-tact-35",
-  "source": "113 考古",
-  "section": "T cell Activation and Cell Cooperation",
-  "num": 35,
-  "chapter": "tcell-act",
-  "type": "mcq",
-  "stem": "下列何種可使 T 淋巴細胞進行程式凋亡（Apoptosis）？ Which of the following can lead to apoptosis of T lymphocytes?",
-  "options": [
-   {
-    "k": "A",
-    "t": "IL-1"
-   },
-   {
-    "k": "B",
-    "t": "IL-2"
-   },
-   {
-    "k": "C",
-    "t": "FasL (Fas ligand)"
-   },
-   {
-    "k": "D",
-    "t": "TGF-β"
-   }
-  ],
-  "answer": [
-   "C"
-  ],
-  "explain": "(B) FasL 可以誘發細胞凋亡，且其效率遠大於 Perforin & Granzymes",
-  "topics": [
-   "細胞毒殺（perforin/Fas）",
-   "TH 分化與細胞激素"
-  ],
-  "pattern": "選正確／單一概念題"
- },
- {
   "id": "k113-tact-36",
   "source": "113 考古",
   "section": "T cell Activation and Cell Cooperation",
@@ -7375,47 +7339,6 @@
   "pattern": "臨床情境題"
  },
  {
-  "id": "k113-staph2-03",
-  "source": "113 考古",
-  "section": "Staphylococcus, Streptococcus & Enterococcus Part II",
-  "num": 3,
-  "chapter": "staph-strep",
-  "type": "mcq",
-  "stem": "Which of the following pairs between a disease and its infectious agent is false? ① Toxic shock syndrome−Streptococcus saprophyticus ② Neonatal meningitis− Streptococcus agalactiae ③ Bacterial pharyngitis− Streptococcus aureus ④ Subacute endocarditis− Streptococcus mitis ⑤ Necrotizing fasciitis−Streptococcus pyogenes",
-  "options": [
-   {
-    "k": "A",
-    "t": "①③④"
-   },
-   {
-    "k": "B",
-    "t": "②③⑤"
-   },
-   {
-    "k": "C",
-    "t": "②④⑤"
-   },
-   {
-    "k": "D",
-    "t": "①③④⑤"
-   },
-   {
-    "k": "E",
-    "t": "①②④⑤"
-   }
-  ],
-  "answer": [],
-  "explain": "① 錯誤，90%的 toxic shock syndrome（TSS）是由 Staphylococcus aureus（金黃色葡萄球菌）引起\n② 正確，GBS 最重要的臨床症狀就是 Neonatal meningitis，Streptococcus agalactiae（無乳鏈球菌）也屬於 GBS\n③ 錯誤，Bacterial pharyngitis 主要為 Streptococcus pyogenes（化膿性鏈球菌）引發\n④ 正確，Subacute endocarditis（亞急性心內膜炎）是由 Viridans Streptococci（草綠鏈球菌）的 mitis Group（Streptococcus mitis）引起\n⑤ 正確，壞死性筋膜炎主要為 Streptococcus pyogenes（化膿性鏈球菌）引起這題跟第 19 題一模一樣，根據學長姐在醫學盃參考百七大學長的臨床經驗，這題正確選項應該要選①③所以第 19 題才是正確的，如果按照這一題的選項的話，沒有正確答案",
-  "note": "原考古標為「X」（無正確答案）：錯誤的配對應為 ①③（見同題幹的第 19 題），本題選項中沒有 ①③，所以任何選項都不算對。",
-  "disputed": true,
-  "topics": [
-   "S. aureus",
-   "S. pyogenes (GAS)",
-   "S. agalactiae (GBS)"
-  ],
-  "pattern": "組合選擇題"
- },
- {
   "id": "k113-staph2-04",
   "source": "113 考古",
   "section": "Staphylococcus, Streptococcus & Enterococcus Part II",
@@ -7993,7 +7916,7 @@
   "answer": [
    "A"
   ],
-  "explain": "請參考第四題",
+  "explain": "① 錯誤，90% 的 toxic shock syndrome（TSS）是由 Staphylococcus aureus（金黃色葡萄球菌）引起\n② 正確，GBS 最重要的臨床症狀就是 Neonatal meningitis，Streptococcus agalactiae（無乳鏈球菌）也屬於 GBS\n③ 錯誤，Bacterial pharyngitis 主要為 Streptococcus pyogenes（化膿性鏈球菌）引發\n④ 正確，Subacute endocarditis（亞急性心內膜炎）是由 Viridans Streptococci（草綠鏈球菌）的 mitis Group（Streptococcus mitis）引起\n⑤ 正確，壞死性筋膜炎主要為 Streptococcus pyogenes（化膿性鏈球菌）引起。錯誤的配對為 ①③，選 (A)。",
   "topics": [
    "S. aureus",
    "S. pyogenes (GAS)",
@@ -10003,41 +9926,6 @@
    "Pseudomonas"
   ],
   "pattern": "選錯誤（否定）題"
- },
- {
-  "id": "k113-neis-13",
-  "source": "113 考古",
-  "section": "Neisseria, Campylobacter, Helicobacter, Pseudomonas",
-  "num": 13,
-  "chapter": "bacillus",
-  "type": "mcq",
-  "stem": "Five hours after eating fried rice at a restaurant, a 24-year-old woman and her husband both developed nausea, vomiting, and diarrhea. Which one of the following organisms is the MOST likely to be involved？",
-  "options": [
-   {
-    "k": "A",
-    "t": "Clostridium perfringens"
-   },
-   {
-    "k": "B",
-    "t": "Enterotoxigenic Escherichia coli"
-   },
-   {
-    "k": "C",
-    "t": "Bacillus cereus"
-   },
-   {
-    "k": "D",
-    "t": "Salmonella. Typhi"
-   }
-  ],
-  "answer": [
-   "C"
-  ],
-  "explain": "",
-  "topics": [
-   "Bacillus cereus"
-  ],
-  "pattern": "臨床情境題"
  },
  {
   "id": "k113-neis-14",
@@ -14563,43 +14451,6 @@
   "pattern": "選錯誤（否定）題"
  },
  {
-  "id": "k113-mid111-45",
-  "source": "111 期中考古",
-  "section": "111 微免期中考古",
-  "num": 45,
-  "chapter": "innate",
-  "type": "mcq",
-  "stem": "以下哪個不是 innate immunity 的成員？",
-  "options": [
-   {
-    "k": "A",
-    "t": "B cell"
-   },
-   {
-    "k": "B",
-    "t": "Dendritic cell"
-   },
-   {
-    "k": "C",
-    "t": "Macrophage"
-   },
-   {
-    "k": "D",
-    "t": "NK cell"
-   }
-  ],
-  "answer": [
-   "A"
-  ],
-  "explain": "EASY",
-  "topics": [
-   "先天 vs 後天免疫",
-   "補體系統",
-   "NK 細胞與抑制性受體"
-  ],
-  "pattern": "選錯誤（否定）題"
- },
- {
   "id": "k113-mid111-46",
   "source": "111 期中考古",
   "section": "111 微免期中考古",
@@ -14916,78 +14767,6 @@
    "白血球遷移（selectin→chemokine→integrin）"
   ],
   "pattern": "組合選擇題"
- },
- {
-  "id": "k113-mid111-55",
-  "source": "111 期中考古",
-  "section": "111 微免期中考古",
-  "num": 55,
-  "chapter": "innate",
-  "type": "mcq",
-  "stem": "先天免疫反應產生時，會造成白血球趨化作用的受體為下列何者？",
-  "options": [
-   {
-    "k": "A",
-    "t": "T cell receptor"
-   },
-   {
-    "k": "B",
-    "t": "B cell receptor"
-   },
-   {
-    "k": "C",
-    "t": "chemokine receptor"
-   },
-   {
-    "k": "D",
-    "t": "Fc receptor"
-   }
-  ],
-  "answer": [
-   "C"
-  ],
-  "explain": "EASY",
-  "topics": [
-   "白血球遷移（selectin→chemokine→integrin）"
-  ],
-  "pattern": "選正確／單一概念題"
- },
- {
-  "id": "k113-mid111-56",
-  "source": "111 期中考古",
-  "section": "111 微免期中考古",
-  "num": 56,
-  "chapter": "innate",
-  "type": "mcq",
-  "stem": "經過調理作用（opsonization）後，吞噬細胞用來結合病原體的調理素（opsonin）是哪個受器？",
-  "options": [
-   {
-    "k": "A",
-    "t": "toll-like receptor"
-   },
-   {
-    "k": "B",
-    "t": "complement receptor"
-   },
-   {
-    "k": "C",
-    "t": "chemokine receptor"
-   },
-   {
-    "k": "D",
-    "t": "lectin-like receptor"
-   }
-  ],
-  "answer": [
-   "B"
-  ],
-  "explain": "EASY",
-  "topics": [
-   "白血球遷移（selectin→chemokine→integrin）",
-   "補體系統",
-   "TLR／PRR"
-  ],
-  "pattern": "選正確／單一概念題"
  },
  {
   "id": "k113-mid111-57",

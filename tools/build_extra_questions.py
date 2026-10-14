@@ -304,11 +304,43 @@ NEW = [
      ['Eukaryotic', 'Cell membrane contains ergosterol', 'Cell wall contains chitin and β-glucan', 'Optimal growth at pH 7.5–8'], 'D', '真菌偏好酸性 pH 4–6。', 'k113-fungi-46'),
     ('fungi', POS, ['Cryptococcus／Candida'], 'Candida albicans can be distinguished from other Candida species by producing germ tubes in:',
      ['Sabouraud agar', 'Serum', 'Tween-80 agar', 'Blood agar at 25°C'], 'B', 'Germ tube test 以血清培養。', 'k113-fungi-25'),
+    # ---------------- tcell-act（W4-2 slides，接在最後以免既有題號位移）
+    ('tcell-act', POS, ['TH 分化與細胞激素'], 'In mucosal tissues, naïve CD4⁺ T cells exposed to TGF-β plus all-trans-retinoic acid (at-RA) from dendritic cells mainly differentiate into:',
+     ['TH1 cells', 'TH17 cells', 'Peripheral Treg (pTreg) cells', 'TFH cells'], 'C', 'Fig 9.37：共生菌環境 at-RA + TGF-β → pTreg；伺機性病原使 mDC 分泌 IL-6 → TH17。'),
+    ('tcell-act', PAIR, ['TH 分化與細胞激素'], 'CD4 TH 亞群與其主要對付的病原，下列配對何者錯誤？',
+     ['TH1 – Mycobacteria、Listeria', 'TH2 – 腸道寄生蟲（helminth）', 'TH17 – 胞外細菌與真菌（Klebsiella、Candida）', 'Treg – 病毒感染細胞的直接毒殺'], 'D', 'Fig 9.33：Treg 以 TGF-β、IL-10 抑制免疫反應，針對自身與共生菌抗原；毒殺是 CTL 的工作。'),
+    ('tcell-act', POS, ['TH 分化與細胞激素'], 'IL-17 produced by TH17 cells increases neutrophil numbers mainly by inducing stromal and myeloid cells to produce:',
+     ['IL-5', 'G-CSF', 'IL-4', 'IFN-γ'], 'B', 'Fig 11.16：IL-17 → G-CSF → 骨髓增產 neutrophil；IL-17 也誘導 chemokines 招募 neutrophil。'),
+    ('tcell-act', NEG, ['TH 分化與細胞激素'], 'Which statement about TH2-mediated type 2 responses is FALSE?',
+     ['IL-13 increases mucus production by goblet cells', 'IL-5 recruits and activates eosinophils', 'IL-4 and IL-13 promote alternatively activated (M2) macrophages', 'IFN-γ from TH2 cells drives classical M1 macrophage activation'], 'D', 'IFN-γ 是 TH1 的產物（M1）；TH2 用 IL-4 + IL-13 → M2，負責組織修復。'),
+    ('tcell-act', POS, ['細胞毒殺（perforin/Fas）'], 'After granzyme B enters a target cell, the correct order of events leading to DNA fragmentation is:',
+     ['Bid → tBid → Bax pores → cytochrome c release → caspase 3 → I-CAD cleaved → CAD', 'Caspase 1 → IL-1β → pyroptosis', 'Fas → FADD → caspase 8 → C3b deposition', 'Perforin → MAC formation → osmotic lysis'], 'A', 'Fig 9.48：granzyme B 切 Bid 與 pro-caspase 3；tBid → Bax 寡聚化 → cytochrome c → apoptosome；caspase 3 切 I-CAD 釋出 CAD。'),
+    ('tcell-act', POS, ['細胞毒殺（perforin/Fas）'], 'CD4⁺ effector T cells help activate naïve CD8⁺ T cells mainly by:',
+     ['Secreting perforin into the CD8⁺ T cell', 'Using CD40L to stimulate the APC to increase B7 and 4-1BBL, and providing IL-2', 'Presenting peptide on their own MHC class I', 'Producing IL-10 to enhance CD8⁺ proliferation'], 'B', 'Fig 9.29：APC 刺激 CD4 表現 CD40L 與 IL-2；APC 經 CD40 被刺激後 ↑B7、4-1BBL → 共刺激 naïve CD8。'),
+    ('tcell-act', POS, ['B 細胞活化／class switch／生發中心'], 'Before activation, follicular B cells and T-zone T cells are positioned by different chemokine receptors. After activation, B cells upregulate _____ and move toward the T-cell zone boundary.',
+     ['CXCR5', 'CCR7 and EBI2', 'CCR6', 'CXCR3'], 'B', 'Fig 10.5：活化前 B = CXCR5、T = CCR7；活化後 B ↑CCR7、EBI2，T ↑CXCR5 → 在 B/T 區交界相遇。'),
+    ('tcell-act', NEG, ['B 細胞活化／class switch／生發中心'], 'Which statement about isotype switching is FALSE?',
+     ['AID converts cytidine to uridine in switch regions', 'Switching changes the constant region but not antigen specificity', 'Co-expression of IgM and IgD on mature B cells requires DNA switch recombination', 'Cytokines direct switching by activating promoters upstream of specific switch regions'], 'C', 'IgM 與 IgD 由同一條 transcript 的 differential RNA splicing 產生，Cδ 前沒有 switch region。'),
+    ('tcell-act', POS, ['B 細胞活化／class switch／生發中心'], 'TI-1 antigens such as LPS can activate B cells without T cell help mainly because they:',
+     ['Are presented on MHC class II to TFH cells', 'Act as polyclonal B-cell activators through TLR signaling', 'Are polymeric proteins that cross-link CD40', 'Induce AID through IL-4'], 'B', 'Fig 10.2：TI-1 = polyclonal activator（TLR → MyD88 → NF-κB）；TI-2 = polymeric 分子大量交聯 BCR。兩者都以 IgM 為主、記憶差。'),
 ]
+
+
+CLASS_DUP_OF_KAOGU = {
+    'class-001',  # = k113-innate-34
+    'class-003',  # = k113-innate-35
+    'class-004',  # = k113-innate-36
+    'class-006',  # = k113-innate-38
+    'class-007',  # = k113-innate-39
+    'class-008',  # = k113-innate-40
+    'class-009',  # = k113-mid111-44
+}
 
 
 def main():
     cls = [mk('class', i + 1, '2026 課堂題', *t) for i, t in enumerate(CLASS)]
+    # 與考古重複的課堂題（同題幹同選項）不重複收錄；用 id 過濾以保持其餘題號不變
+    cls = [q for q in cls if q['id'] not in CLASS_DUP_OF_KAOGU]
     new = [mk('new', i + 1, '模擬新題', *t) for i, t in enumerate(NEW)]
     (DATA / 'questions-class.json').write_text(json.dumps(cls, ensure_ascii=False, indent=1), encoding='utf-8')
     (DATA / 'questions-new.json').write_text(json.dumps(new, ensure_ascii=False, indent=1), encoding='utf-8')

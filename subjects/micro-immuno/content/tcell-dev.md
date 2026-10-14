@@ -125,6 +125,34 @@
 
 <div data-fig="effector-no-costim"></div>
 
+## 🎙️ 上課錄影重點（陳玫潔，09/30）
+- 上課前提：自學 MHC 課（大亨堡怎麼做）；peptide 放上 MHC **不具專一性但一定要穩定**。TCR 是**細胞免疫專一性的來源**、雙重辨識；不符合條件的 T 細胞在發育中大量死亡，「**完全靠親和力決定，過猶不及都不可以**」。
+- TCR 和 BCR 的重組邏輯相同（RSS、RAG1/RAG2），老師「只講不一樣的地方」。**TCR 做完就不再改造** → 只能「先準備好、只篩選不改造」→ 多樣性必須比抗體更多；抗體則挑選後還會 somatic hypermutation 與 class switch。
+- αβ（約 95%，教科書幾乎都在講）辨識 peptide；**γδ 辨識的不是 peptide**（常是脂質 / phosphorylated antigen，認一個長得像 MHC 但不是 MHC 的分子，老師記得像 CD1d）→ **沒有 MHC restriction**；與**黏膜免疫**有關，偏向 CD8 / 毒殺功能；「上我的課就再也不會看到這個細胞了」。
+- **TCR complex = 白雪公主（TCR αβ，專一辨識但沒有胞內區、不能傳訊）+ 六個小矮人（CD3：εδ、εγ、ζζ，有時 ηη；負責傳訊）**；兩者以**正負電、非共價**結合（「你跟同學也很難共價鍵結」）。CD3 = T 細胞的定義 marker。
+- **Coreceptor**：CD4 結合 MHC II 的 **β2**（老師補充：精確來說還有一點 α2）；CD8 結合 MHC I 的 **α3**；決定與哪種 MHC 結合，並增加整體 **avidity**；β2m 壞掉 MHC I 也做不出來 → 免疫缺失。
+- TCR 有 CDR1、2、3；**CDR3 在正中間、變異最大（「C 位中的 C 位」）**，對應到基因上 **α 的 V–J 接合處、β 的 V–D–J 接合處**（junctional diversity 在這裡加花樣）。Tonegawa（1987 諾貝爾）發現抗體變異來源（gene segments）。
+- CD3 的 **ITAM** 靠 tyrosine 磷酸化傳訊（ITIM 是抑制）。
+- **Allelic exclusion**：TCR、BCR 都有，MHC 沒有（codominant）。重組失敗不會馬上放棄：還可以用**前面其他 V / 後面其他 J 再重組「敗部復活」**，試到不能試才換另一個 allele。
+- Segment 的起源推測是 **transposon**（玉米的花色、McClintock）。
+- **12/23 rule**：12 bp spacer 的 RSS 一定配 23 bp 的 → 確保 V–D–J 順序、不能跳過 D。TCR β / δ 的 D 兩側是 12 與 23（抗體 heavy chain 的 D 兩側都是 12）→ 老師說「**我不會很無良地考出來**」。
+- 基因位置：TCRα 在 **14 號染色體**（V、J、C）；β 為 V…D-J-C、D-J-C（**D 分散**）；**δ 基因藏在 α 基因座內**（V 與 J 之間）且 **D 全部聚在一起**。→ ① **α 一重組，δ 就被切掉** → 這顆細胞不可能變 γδ；② δ 的 D 相鄰且 12/23 可互接 → **multiple D**（β 的 D 太遠接不起來）。
+- **課堂投票：β 與 α 誰先重組？→ β 先**。β 做出來時以 **surrogate α（pTα）** 組成 pre-TCR 也能傳訊、讓細胞存活發育；α 重組完再取代 surrogate。「只要一個地方壞掉，細胞就會走向死亡」。
+- TCR 獨有：**D segment 三個 reading frame 都能讀**（抗體重組 9 種 frame 中只留 in-frame 的 1/9）、**multiple D（δ 獨有）**、**N-addition 在 TCR 較常見**（TdT）。總 repertoire：**抗體約 10¹³、TCR 約 10¹⁸（差 10⁵）**。為什麼要那麼多？因為發育時要死掉約 99%（以量取勝，像海龜生很多蛋）。
+- 抗體獨有的 somatic hypermutation 像「用砂紙精磨鑰匙」，與 FDC 搶抗原，搶得過拿到「免死金牌」→ 所以疫苗要打 **booster**（越來越強，像煉蠱）。**V(D)J 重組是亂數、不受調控；class switch 受 T 細胞 cytokine 控制**（cytokine 很短、易裂解、不會「遙指杏花村」→ 需要 T–B 直接接觸）。
+- **胸腺發育**：胸腺新生兒時比例最高、老了退化。**重組與挑選都在胸腺**。Thymocyte 像「巡迴演唱會」：從 medulla 附近進入 → 往 capsule → 再往內走（cortex → medulla）。胸腺不碰外來抗原 → 「考官」帶 self MHC + self peptide。
+- **AIRE** 基因讓全身基因都在胸腺表現（才能把會攻擊自己的殺掉）→ 壞掉 = 非常嚴重的免疫疾病；這屬於 **central tolerance**。考官有兩種：**cTEC**（主要做 positive selection）與 **mTEC**；兩者挑選的親和力不同。
+- 階段：**DN1–DN4（重組中，不需要 CD4 / CD8）→ DP（準備給考官迎頭痛擊）→ SP**；看當初跟哪個考官的 MHC II 或 MHC I 接觸決定 CD4 或 CD8；出胸腺時是 **mature but naive**。若有人說要抽周邊血研究 DP / DN 細胞「聽起來就匪夷所思」。γδ 在重組時就分出、不參加「資格考」。
+- **Affinity model（「重點就只有那張有兩個墓碑的圖」）**：完全不結合 = **no selection，死最多（90–99%）**（「漂浮的幽靈，留它幹嘛」）；中等親和力 = 存活（大部分對抗病原的細胞）；偏高 = 發育成 **Treg / NKT** 等（抑制型、數量少）；過高 = **negative selection、clonal deletion**。10¹⁸ 死 99% 還剩至少 10¹⁶。挑選沒做好 → autoimmunity 或 immunodeficiency。人的體質、荷爾蒙會變 → 需要 **peripheral tolerance**（Treg；老師提到近年有日本學者以此獲諾貝爾獎）。「概念一直在更新，掌握重點、不要拘泥細節」。
+- **三種訊號**：signal 1 = TCR + coreceptor（白雪公主與小矮人合作體）；signal 2 = 共刺激（像**手槍的保險栓**）——保險卡死時 TCR 能辨識也沒用（腫瘤微環境）；signal 3 = APC 的 cytokine 影響 T 細胞分化（sensor cell 概念，下一堂細講，「可以講兩個小時以上」）。
+- **免疫突觸**：先靠周邊**黏附分子（LFA-1–ICAM-1 等）**穩住兩個細胞（細胞膜像海中竹筏，蛋白會飄走；「你總要有機會接觸才能進一步了解」）→ TCR 才辨識專一性；TCR 活化會增加 integrin **親和力**（構形改變）。cytokine 是**彼此交換**的。
+- **L-selectin = 「守宮砂」**：naive T 才表現 → 經 **HEV** 進入淋巴結；活化後不再表現 → effector T 不能再回淋巴結（「去周邊乖乖做事，不然就戰死」）。
+- **只有 signal 1 沒有 signal 2 → anergy**：處於 G0、不增殖也不會死，「就是個殭屍」。
+- Signal 1 傳遞：coreceptor 上的 **Lck** 磷酸化 ITAM → **ZAP-70** → PLC、AKT 等 → **NFAT** → **IL-2** 與 **IL-2 receptor**（自己餵自己）。老師說「**不會很無良地挖洞問訊息傳導中間哪個分子最重要**」。
+- Signal 2：**CD28–B7 = 「簡配」（一定要有）**；ICOS、TNF 家族為「選配」——**CD40L（T）–CD40（B、macrophage）** 常見於 T–B 互相活化；CD8 常見 **4-1BB–4-1BBL**。
+- 負向：**CTLA-4 與 CD28 搶 B7，親和力高 20 倍**（「程咬金」）→ 活化後期表現來關掉反應；**PD-1–PD-L1** 另一個抑制訊號；兩者癌細胞都會利用 → 抗體阻斷 → T 細胞 reactivate（**2018 諾貝爾：Allison 因母親卵巢癌研究 CTLA-4、在 MD Anderson 愛吹口琴；本庶佑 PD-1、很常來台灣**），臨床已在用、也有 combination therapy。
+- **Effector T 到周邊只需 signal 1**（priming 在淋巴結才需要共刺激；周邊沒人給 signal 2）。
+
 === slides ===
 # W4-2 上課 slides 重點：TCR、T development、TCR signaling（陳玫潔，2026/9/30）
 
@@ -193,3 +221,7 @@
 ## 📝 出題模式
 - 陳玫潔老師的題目偏長、英文敘述（Abbas / Janeway 題庫風格），常見實驗情境題（TCR transgenic mice、缺陷小鼠）。
 - 表格型比較（αβ vs γδ、Ig vs TCR）很適合出「何者錯誤」。
+
+## 🎙️ 老師課堂提示
+- 老師說**不會考**：12/23 rule 的細節（「不會也沒關係，我們不會考這個東西」）、β/δ 的 D 兩側 RSS 差異、多樣性的確切次方數字、訊息傳導路徑中「哪個分子最重要」的挖洞題。
+- 老師強調的重點：**β 先於 α 重組（surrogate α）**、**α 重組會切掉 δ**、**CDR3 對應接合處**、**TCR 10¹⁸ > Ig 10¹³**、affinity model（「重點只有那張兩個墓碑的圖」）、AIRE 與 central tolerance、**anergy = 只有 signal 1**、CTLA-4 親和力 20 倍、effector T 不需 signal 2。

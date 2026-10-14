@@ -116,6 +116,26 @@ Macrophage：吞噬 → phagosome（酸化、H₂O₂、NO、TNF-α）→ 與 ly
 
 - 無抗原專一性受體；轉錄因子 **Id2**。
 
+## 🎙️ 上課錄影重點（李岳倫，09/18）
+- 時間軸：innate 十幾個小時內就發生；adaptive（B 產抗體、T 分化成 effector）要 **5–7 天**。
+- **白血球遷移三部曲**：白血球在大血管流很快，到**小靜脈**流速變慢 → ① **tethering**（selectin 抓住：E / P-selectin 在內皮，抓白血球上的醣類 ligand，如 neutrophil 的 **CD15**；L-selectin 在白血球、ligand 在內皮）→ ② **triggering**（內皮或受傷組織釋放 chemokine；**被抓住的細胞要有對應 chemokine receptor 才會反應**）→ ③ **latching**（integrin：**LFA-1、CR3** 結合 **ICAM-1** → 完全停下、從內皮縫隙鑽出）。順序 **selectin → chemokine → integrin**（課堂題答案 C）。
+- Chemokine receptor 配對例：Th1 / macrophage 的 **CCR5 ↔ MIP-1β**；Th2 / eosinophil / basophil 的 **CCR3 ↔ eotaxin**；neutrophil 的 **CXCR1 / CXCR2 ↔ IL-8**、GRO。
+- Integrin = α + β 鏈**非共價**結合；配體關係是**一對多**（LFA-1 認 ICAM-1/2/3；CR3 認 ICAM-1、**C3b、C4b**；ICAM-1 也被 LFA-1、CR3 認）→ 細胞交互作用不是一對一。
+- **補體**：肝臟製造、**30 種以上**的血清蛋白。**三大功能「一定要知道」**：溶解（打洞）、趨化（像香水吸引吞噬細胞）、調理。
+  - 調理素 = **C3b、C4b、iC3b**（吞噬細胞用 CR 抓住）；趨化 = **C3a、C5a**（片段很小、很快擴散）。
+  - 「上面都是點心」，**重頭戲是第三個功能：三條路徑**。
+- **Classical**：C1 = **C1q + 2 C1r + 2 C1s**；C1q 的頭（黃色球）認 antigen 或 **Ag–Ab complex（IgM、IgG1、G2、G3）** → C1r 互相活化 → 活化 C1s → 切 C4（得 C4b）→ C2 結合成 C4b2 → 切 C2 → **C4b2a = C3 convertase** → **C4b2a3b = C5 convertase** → C5b + C6–C9 = **MAC（C5b-9）**。
+- **Lectin**：**MBL**（認 mannose / fucose）與 **ficolins**（認 oligosaccharide）+ **MASP-1/2/3**（protease）；結構像 C1q → 路徑**幾乎跟 classical 一樣**；差別只在活化者：lectin 只認 antigen、**antibody independent**。
+- **Alternative** 兩種啟動：① 前兩路徑產生的 C4b2a 切出 C3b → factor B 結合 → **factor D 切 B** → **C3bBb**；② **C3 自發水解** → C3(H₂O) + Bb = **短命的 C3(H₂O)Bb**。所以 alternative 有**兩種 C3 convertase**；C5 convertase = **C3bBb3b**。
+- 陷阱：問「**最初**匯合點」= C3 convertase；「第二個匯合點」= C5 convertase。老師建議把三路徑總整圖「印 A4 貼床頭」。
+- **吞噬**：phagosome 酸化、釋放有毒物質與水解酶；碎片吐出或經 **MHC II** 呈現；同時產生 H₂O₂、NO、TNF-α。
+- **Opsonic receptors**：mannose receptor（頭端 cysteine-rich、尾端 **8 個 C-type lectin domains** 才是認 mannose 的部分）；Fc receptor（FcγRI/II/III 認 IgG 的 Fc）；**CR1、CR3、CR4** 在吞噬細胞上，其中 **CR3、CR4 也是 integrin**（一個分子多功能）。
+- **CD14 + TLR4「國考常常會考」**：LPS 先被 **LPS-binding protein** 抓住 → CD14 認 → 交給 TLR4。TLR 是家族（TLR8/9 認核酸、TLR5 認鞭毛）→ 老師建議自己用 Janeway 整理 TLR 表，國考不只考 TLR4。
+- **NK 加總訊號**：activating receptor（ligand 如 CD2、CD16、CD69）vs inhibitory receptor（認 **MHC I**）；健康細胞 MHC I 滿滿 → 抑制 > 活化 → 不殺；感染細胞 MHC I↓ → 活化 > 抑制 → 殺。
+- **正港的抑制性受體**：**CD94 + NKG2A**（有 **ITIM**，認 **HLA-E**）；CD94 + NKG2C 沒有 ITIM → 非抑制性。**長尾巴 KIR2D / KIR3D**（有 ITIM，認 **HLA-C**）才是抑制性；短尾巴不是。
+- NK / Tc 毒殺三方式：**FasL–Fas（CD95）**（肉搏戰）、**TNF、lymphotoxin**（毒氣）、**perforin（需 Ca²⁺，先打洞）+ granzyme（再丟進去）**（子彈）→ apoptosis。
+- **ILC**（老師給的 homework）：NK 與 ILC1 相似 → 病毒、**胞內**病原；ILC2 → 寄生蟲、**IL-4、IL-5、IL-13 參與過敏氣喘**；ILC3 → 胞外細菌。**ILC 沒有專一性受體**。老師說這題「**我曾經考過**」。
+
 === slides ===
 # W2-2 上課 slides 重點：Innate Immunity（Ch 2, 3，李岳倫）
 
@@ -156,3 +176,7 @@ Macrophage：吞噬 → phagosome（酸化、H₂O₂、NO、TNF-α）→ 與 ly
 ## 📝 出題模式
 - 李岳倫老師的課堂題**幾乎原封不動出現在考古**（111、113 都有），務必把 slides 上 8 題練熟。
 - 同一概念換句話說重複出題（C3 convertase 出了 6 種問法）→ 用本站「隨機練習」反覆刷。
+
+## 🎙️ 老師課堂提示
+- 錄影中練習的課堂題：三部曲排序（selectin → chemokine → integrin）、三路徑的**最初匯合點 = C3 convertase**、MAC = C5b-9、MBL 敘述何者錯（lectin 像 classical 而非 alternative）、LPS 受體 = TLR4、NK 抑制性受體 = CD94/NKG2A、ILC 敘述何者錯（**老師說曾經考過**）。
+- 老師明講：「**CD14 + TLR4 是國考常常會考的**」；補體三大功能「一定要知道」；alternative pathway 有**兩種** C3 convertase（C3bBb、C3(H₂O)Bb）。

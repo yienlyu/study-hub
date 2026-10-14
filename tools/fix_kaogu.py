@@ -28,7 +28,8 @@ F['k113-tact-19'] = dict(stem='The specificity of an antibody is due to ____.',
 F['k113-tact-21'] = dict(stem='In addition to IgG, the antibody that can fix complement is ____.',
                          options=opt(('A', 'IgG'), ('B', 'IgM'), ('C', 'IgA'), ('D', 'IgD'), ('E', 'IgE')))
 F['k113-staph2-03'] = dict(key='X', note='原考古標為「X」（無正確答案）：錯誤的配對應為 ①③（見同題幹的第 19 題），本題選項中沒有 ①③，所以任何選項都不算對。', disputed=True)
-F['k113-staph2-20'] = dict(type='short', stem='Staphylococcus aureus is one of the most common pathogens causing a broad-spectrum disease. (A) What are the two key features to identify this pathogen? (B) Please write one toxin produced by this pathogen and its associated disease.',
+F['k113-staph2-19'] = dict(explain='① 錯誤，90% 的 toxic shock syndrome（TSS）是由 Staphylococcus aureus（金黃色葡萄球菌）引起\n② 正確，GBS 最重要的臨床症狀就是 Neonatal meningitis，Streptococcus agalactiae（無乳鏈球菌）也屬於 GBS\n③ 錯誤，Bacterial pharyngitis 主要為 Streptococcus pyogenes（化膿性鏈球菌）引發\n④ 正確，Subacute endocarditis（亞急性心內膜炎）是由 Viridans Streptococci（草綠鏈球菌）的 mitis Group（Streptococcus mitis）引起\n⑤ 正確，壞死性筋膜炎主要為 Streptococcus pyogenes（化膿性鏈球菌）引起。錯誤的配對為 ①③，選 (A)。')
+F['k113-staph2-20'] =dict(type='short', stem='Staphylococcus aureus is one of the most common pathogens causing a broad-spectrum disease. (A) What are the two key features to identify this pathogen? (B) Please write one toxin produced by this pathogen and its associated disease.',
                            answer_text='(A) Catalase(+)、Coagulase(+)\n(B) 任一：Cytotoxin／組織損傷；Exfoliative toxin／燙傷樣皮膚症候群（SSSS）；Enterotoxin／食物中毒；TSST-1／毒性休克症候群', options=[])
 F['k113-neis-03'] = dict(note='原答案為 (B)(C) 皆錯：Salmonella 需約 10⁵ CFU 才致病（<100 CFU 是 Shigella）；HUS 是 EHEC 而非 UPEC。')
 F['k113-fungi-53'] = dict(note='原答案 (A) 或 (B)：單細胞真菌（酵母）以出芽（budding）或分裂（fission）繁殖。')
@@ -230,9 +231,21 @@ def unwrap(text):
     return '\n'.join(out)
 
 
+# 重複題：同一題在題庫中出現兩次，只保留一份（保留的那題列在註解）
+DROP = {
+    'k113-mid111-45',   # = k113-innate-53
+    'k113-mid111-55',   # = k113-innate-54
+    'k113-mid111-56',   # = k113-innate-55
+    'k113-tact-35',     # = k113-tact-05
+    'k113-neis-13',     # = k113-bacillus-11（fried rice → B. cereus）
+    'k113-staph2-03',   # = k113-staph2-19，且原題選項無正確答案
+}
+
 out = []
 for q in qs:
     qid = q['id']
+    if qid in DROP:
+        continue
     fx = F.get(qid, {})
     q.update({k: v for k, v in fx.items()})
     if qid in IMAGE_ONLY:

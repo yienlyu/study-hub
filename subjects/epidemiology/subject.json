@@ -1,0 +1,100 @@
+{
+  "id": "epidemiology",
+  "title": "流行病學",
+  "short": "流病",
+  "term": "115-1 期中考",
+  "examDate": "2026-11-10",
+  "description": "流行病學概論、描述性流病、疾病傳播動力學，以及疾病率與死亡率的測量。整合 2026 上課 slides、EverCam 逐字稿與 Gordis 課後練習題。",
+  "color": "#3d5a99",
+  "icon": "📊",
+  "questionFiles": [
+    "data/questions-class.json",
+    "data/questions-new.json"
+  ],
+  "sources": [
+    {
+      "key": "class",
+      "label": "2026 課堂題",
+      "kind": "class",
+      "pill": "warn"
+    },
+    {
+      "key": "new",
+      "label": "模擬新題",
+      "kind": "new",
+      "pill": "good"
+    }
+  ],
+  "groups": [
+    {
+      "title": "概論與傳染病流病",
+      "chapters": [
+        "intro",
+        "transmission"
+      ]
+    },
+    {
+      "title": "疾病發生的測量（謝芳宜）",
+      "chapters": [
+        "morbidity",
+        "mortality"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "intro",
+      "title": "概論與描述性流行病學",
+      "en": "Overview & Descriptive Epidemiology",
+      "teacher": "陳偉仁",
+      "week": "W1",
+      "slides": true
+    },
+    {
+      "id": "transmission",
+      "title": "疾病傳播動力學",
+      "en": "The Dynamics of Disease Transmission",
+      "teacher": "葉志清",
+      "week": "W2",
+      "slides": true
+    },
+    {
+      "id": "morbidity",
+      "title": "疾病率的測量（I）：Morbidity",
+      "en": "Measuring the Occurrence of Disease I · Morbidity",
+      "teacher": "謝芳宜",
+      "week": "W3",
+      "slides": true
+    },
+    {
+      "id": "mortality",
+      "title": "疾病率的測量（II）：Mortality",
+      "en": "Measuring the Occurrence of Disease II · Mortality",
+      "teacher": "謝芳宜",
+      "week": "W4",
+      "slides": true
+    }
+  ],
+  "insights": [
+    [
+      "評分：線上作答 12%、期中 40%、期末 40%。",
+      "I'm@TMU 線上作答共 6 次，每週五課後上線、作答到隔週四 23:59，切換視窗會被判為作答異常。期中考 11/10 晚間；期末考統一排考。W18 的內容不考。"
+    ],
+    [
+      "今年題目改成全中文。",
+      "陳偉仁老師說題幹全部改成中文、專有名詞附英文，只有取自論文或課本的圖表是英文。課本 Gordis 是國考指定用書。"
+    ],
+    [
+      "計算題集中在測量指標。",
+      "發生率（扣掉已有病者的分母）、人時、盛行率、P = I × D、病原三特性、HIT = 1 − 1/R0、致死率、比例死亡、YPLL、SMR，每一個公式都要會算。"
+    ],
+    [
+      "陷阱題：用盛行率推論風險。",
+      "謝芳宜老師反覆強調「聽到罹病風險就要想到發生率」。Gordis 練習題常問「這個推論對不對」，答案常是沒有區分發生率與盛行率，或把比例當成率。"
+    ],
+    [
+      "目前沒有考古題。",
+      "練習區收錄 Morbidity 課後練習 10 題（Gordis 原題，附解答）和依 slides 編寫的模擬新題。"
+    ]
+  ]
+}
