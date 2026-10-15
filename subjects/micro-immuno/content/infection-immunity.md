@@ -82,13 +82,71 @@
 - **慢性 / 潛伏感染**：病原負向調節免疫（類似腫瘤）；例：**HBV carrier 肝組織有大量 Treg 浸潤** → 抑制毒殺性細胞 → 病原「長居久安」。
 
 === slides ===
-# 上課 slides
+# 上課 slides 重點（20261007 宿主對感染之防衛，林秋烽，80 頁）
 
-> ✅ 本章已於 **2026/10/07** 上課（林秋烽），但上課 slides 尚未逐頁整理進來。錄影重點已整理在「重點整理」最後的「🎙️ 上課錄影重點」。去年考古沒有獨立題組，但相關概念散見於先天免疫與致病機轉。
+> 期中範圍 I13-14，配分 **7%**。很多頁只有圖（取自期刊），以下依頁面標題與文字整理；細節對照「重點整理」的錄影段落。
+
+| 頁 | 主題 | 重點 |
+|---|---|---|
+| p2–5 | 引言 | 防疫：isolation → vaccination；三個學習目標：比較 innate／adaptive 對抗感染、**microbial immunopathogenesis**、**病原的免疫脫逃** |
+| p6–7 | 第一道防線 | 物理：skin、mucus、ciliated epithelium、low pH、tears；化學／生物：**microbiota（probiotics、fecal transplantation）**、enzymes、**AMPs（defensins、cathelicidin、dermcidin）**、antimicrobial lipids、complement、cytokines |
+| p8–10 | **AMPs** ⭐ | 又稱 host defense peptides；**12–50 aa、帶正電（Arg／Lys／His）**；臨床用藥：bacitracin、boceprevir／telaprevir（HCV）、**enfuvirtide（HIV）**、oritavancin／teicoplanin |
+| p11–15 | 補體 | 約 30 個蛋白、蛋白水解連鎖；lectin／classical／alternative 三路徑；C3b 調理、C3a／C5a 發炎與趨化、C5b–C9 = MAC |
+| p16–18 | Innate vs adaptive | adaptive 的特徵：**specificity、diversity、memory、reactivity**（self／nonself） |
+| p19–21 | 胞外感染 | 在宿主細胞外複製（血液、呼吸道／腸胃道／泌尿生殖道腔、上皮表面）；**吞噬是主要的先天免疫**；上皮防禦 |
+| p22–25 | 辨識與殺菌 | 吞噬受體；**phagocyte NADPH oxidase（NOX）complex** |
+| p26–28 | **NETs** | neutrophil extracellular traps；NET 活化；neutrophil 的多重作用 |
+| p29–30 | Professional phagocytes | **抗體／C3b 調理**增強吞噬 |
+| p31 | **CGD** | primary immunodeficiency：NADPH oxidase **五個次單位任一缺陷** → 無 respiratory burst；肺炎、皮膚與器官膿瘍、化膿性關節炎、骨髓炎、菌血症／黴菌血症、淺層皮膚感染 |
+| p32–34 | 吞噬之後、DC | endosome → lysosome 與抗原呈現；**DC 表現的 TLR 與細胞質 PRR 比任何細胞都多**；TLR 訊號促進 DC 成熟 |
+| p35–41 | PAMP／DAMP／PRR | PRR 分類：膜上 **TLR、CLR**（Group I mannose receptor、Group II asialoglycoprotein receptor）；細胞質 **NLR（NOD）、RLR（RIG-I）**；審良静男（Akira） |
+| p42–43 | TLR 訊號、CLR | **MyD88** → kinases → **NF-κB**（發炎基因）、**IRF-3／7**（抗微生物、IFN） |
+| p44–46 | PAMP／DAMP 例 | ***Borrelia burgdorferi*（Lyme disease）**；DAMP 與 PRR |
+| p47–51 | 之後的 adaptive、自體免疫 | 體液免疫；抗體能否保護對抗 HIV；**post-streptococcal disorders**：急性風濕熱、**chorea**、肌痛、強迫症、tics、腎絲球腎炎 |
+| p52–60 | 胞內感染 | 病原須侵入細胞；Non-TLR PRRs；TLR 與 NLR 訊號；**NLR & inflammasome**（p57–59）；**pyroptosis**（p60） |
+| p61–63 | Innate × adaptive | **NK／T 對 macrophage 的 IL-12 反應 → 分泌 IFN-γ → 活化 macrophage 殺死吞入的微生物** |
+| p64 | **IFN-γ 缺陷** ⭐ | **成人型免疫缺乏（adult-onset immunodeficiency）**：TB、伺機性感染、**非 HIV／AIDS**；原因：**抗 IFN-γ 自體抗體**、IFN-γ 缺陷、遺傳、環境 |
+| p65–66 | 胞內殺菌 | NK 受體 **CD94、NKG2D** |
+| p67–69 | **Type I IFN** | **IPS-1**（IFN-β promoter stimulator-1）、**STING**（stimulator of IFN genes）；抗病毒 type I IFN |
+| p70–71 | **吞噬的脫逃** ⭐ | 抑制附著：**M protein、capsule、biofilm**（*S. pyogenes*、*S. pneumoniae*）；殺吞噬細胞：**leukocidins**（*S. aureus*）、**streptolysins**（*S. pyogenes*）；溶解吞噬細胞：MAC、pore-forming toxin（***Listeria***）；**逃出 phagosome：*Shigella*、*Rickettsia***；**阻止 phagosome–lysosome 融合：HIV、*M. tuberculosis***；**在 phagolysosome 內存活：*Coxiella burnetii*** |
+| p72–78 | 微生物／病毒的免疫脫逃 | 細菌與病毒脫逃策略總覽 |
+| p79 | 慢性病毒感染 | **immune failure（T cell exhaustion）** |
 
 === exam ===
 # 考點分析
 
+## 🔥 高頻考點（期中配分 7%，約 7 題；依共筆標示與老師強調預測）
+1. **AMPs**（老師「一定要記得」）：12–50 aa、**正電**、pore forming、defensin（**Paneth cell α-defensin**）、cathelicidin、dermcidin；也有免疫調節功能。
+2. **NOX 結構與 CGD**：膜上 gp91、p22；胞質 p40、p47、p67；**gp91（X-linked）最常見**；catalase(+) 菌與真菌；granuloma。
+3. **吞噬受體**（老師「務必記起來」）：mannose receptor、complement receptor、**CD36**、scavenger receptor、Dectin-1（β-glucan）、fMLP receptor。
+4. **PRR 分類與配對**：TLR2–PDG、**TLR4–LPS／HMGB1／OxPL**、TLR1/2–Lyme OspA、**TLR3–dsRNA（不經 MyD88，走 TRIF）**、TLR3／7／8／9 在 endosome；細胞質 NLR、RLR（RIG-I）、cGAS／STING。
+5. **Inflammasome**：signal 1＋2 → **caspase-1 → IL-1β、IL-18 → pyroptosis**；對照 caspase-3 apoptosis。
+6. **IL-12 ↔ IFN-γ 迴路**；**HIV 陰性反覆 TB／NTM → 抗 IFN-γ 自體抗體**。
+7. **免疫脫逃配對**（slides p71 表格最好出題）。
+8. NET／efferocytosis／pyroptosis 等名詞定義。
+
+## ⚠️ 陷阱整理
+| 容易選錯 | 正確 |
+|---|---|
+| AMP 帶負電 | **帶正電**（Arg、Lys、His），才能結合帶負電的細菌膜 |
+| CGD 是吞噬（吞入）缺陷 | 吞得進去、**殺不死**（無 respiratory burst） |
+| CGD 病人怕 catalase(−) 菌 | 怕 **catalase(+)**（*S. aureus*、*Aspergillus*）：catalase(−) 菌自己產的 H₂O₂ 反而能被借用 |
+| NOX 的 gp91 在細胞質 | **gp91、p22 在膜上**；p40、p47、p67 在細胞質 |
+| 所有 TLR 都經 MyD88 | **TLR3 只走 TRIF**；TLR4 兩條都走 |
+| TLR3／7／8／9 在細胞膜 | 在 **endosome** |
+| Pyroptosis 由 caspase-3 媒介、不發炎 | Pyroptosis = **caspase-1**、**發炎性**；caspase-3 = apoptosis（silent） |
+| Inflammasome 直接產生 IL-6 | 產生成熟 **IL-1β、IL-18** |
+| 淋巴球碰到 *E. coli* 不會活化 | **會**（T 也有 TLR4），但非特異性、**不會增殖** |
+| 所有抗體都能固定補體 | **不是所有抗體**都能固定補體 |
+| Efferocytosis 會引發發炎 | 釋放 **IL-10、TGF-β**、抑制發炎 |
+| *M. tuberculosis* 逃出 phagosome | TB、HIV 是**阻止 phagosome–lysosome 融合**；逃出 phagosome 的是 ***Shigella*、*Rickettsia***（*Listeria* 用 pore-forming toxin） |
+| SOCS3 由 IL-12 誘導 | **SOCS3 由 IL-10 誘導**，抑制 JAK–STAT |
+| Protein A 結合抗體 Fab | Protein A／G 抓的是 **Fc** |
+
+## 📝 出題模式
+- 去年本章沒有獨立題組，概念散在先天免疫與致病機轉；今年林老師新上課，預期**英文定義題**與**配對題**（TLR–ligand、病原–脫逃策略、caspase–死亡方式）。
+
+## 📌 共筆重點
 - 去年考古**沒有**本章獨立題組，但共筆標示的重點：**NOX 結構（gp91、p22、p40、p47、p67）**、**CGD（gp91 最常見、catalase+ 菌）**、**caspase-1 / inflammasome**、TLR 位置、IFN 分型。
 - 預期出題：「CGD 最常見突變」「哪個 TLR 不經 MyD88」「pyroptosis 由哪個 caspase 媒介」「ILC / NK 的角色」等定義題。
 - 本站「新題練習」有依共筆重點出的模擬題。

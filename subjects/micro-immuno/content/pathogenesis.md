@@ -110,3 +110,19 @@
 - 老師明講「要特別記得」：**A-B toxin 的構造與作用流程**、**胞內病原清單**。
 - LD50 比毒性：所需菌數越少越毒（*S. pneumoniae* 10² > *Salmonella* 10⁶）。
 - Zipper vs Trigger（T3SS、*Salmonella*、M cell）可能出配對。
+
+## ⚠️ 陷阱整理
+| 容易選錯 | 正確 |
+|---|---|
+| 感染第一步是 invasion | 第一步是 **adherence**（adhesin + 宿主 receptor） |
+| Endotoxin 由 G+ 與 G− 分泌 | **Endotoxin = G(−) LPS 的 lipid A**，菌死裂解才釋放；**exotoxin** 才是 G+、G− 都能分泌的蛋白 |
+| Endotoxin 以 TLR2 辨識 | **CD14 + TLR4** → IL-1、TNF-α、IL-6 → 發燒、休克、DIC；以 **LAL assay** 偵測 |
+| A-B toxin 只造成腹瀉 | 也包括 **diphtheria toxin**（抑制蛋白合成）等；G+、G− 都能分泌 |
+| Botulinum 造成痙攣性麻痺 | **Botulinum = flaccid**；**tetanus = spastic** |
+| Superantigen 需要 APC 處理後呈現 | **不需處理**，直接跨接 MHC II 與 TCR Vβ → 大量 T 活化、cytokine storm |
+| 產生孢子是逃避免疫的機制 | 孢子是對抗**環境壓力**，不是免疫逃避 |
+| Protein A 結合抗體 Fab | Protein A 抓 IgG **Fc** |
+| *S. pyogenes* C5a peptidase 增加趨化 | **切 C5a → 減少趨化** |
+| MTB 逃出 phagosome | MTB **阻止 phagolysosome 融合**、形成 granuloma |
+| Pathogenicity 與 virulence 同義 | Pathogenicity = **能不能**致病；virulence = **多毒**（交互的淨結果） |
+| Pathogenicity island 只在質體 | 可在**染色體或質體**，可整段經 transposon 轉移 |

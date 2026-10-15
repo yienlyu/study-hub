@@ -1,0 +1,633 @@
+[
+ {
+  "id": "k113mid-20",
+  "source": "113 期中考古",
+  "num": 20,
+  "chapter": "filaria",
+  "type": "mcq",
+  "stem": "有關河盲症（river blindness）之敘述，下列何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "受蚊子叮咬而受到 Wuchereria bancrofti microfilaria 感染所引起"
+   },
+   {
+    "k": "B",
+    "t": "可見 Calabar swellings"
+   },
+   {
+    "k": "C",
+    "t": "此病症常見於中西非與東南亞"
+   },
+   {
+    "k": "D",
+    "t": "失明的原因是 Onchocerca volvulus microfilariae 侵犯眼部，引起發炎反應"
+   },
+   {
+    "k": "E",
+    "t": "可藉由血液抹片檢測 microfilariae 輔助診斷"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "(A) 河盲症是 Onchocerca volvulus，由黑蠅（Simulium）傳播；W. bancrofti 是淋巴絲蟲（蚊子），而且傳給人的感染期是 L3，不是 microfilaria。\n(B) Calabar swelling 是 Loa loa（斑虻 Chrysops）。\n(C) 主要流行於撒哈拉以南非洲，另有葉門與中南美少數疫區；東南亞不是主要流行區。\n(D) ✅ microfilariae 在皮膚移行並侵犯眼睛，死亡時引起強烈發炎，反覆發作造成角膜病變而失明。\n(E) 經典診斷是 skin snip（皮膚切片）找 microfilariae，不是血液抹片；Mazzotti test 是另一個考點。",
+  "topics": [
+   "血絲蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113mid-22",
+  "source": "113 期中考古",
+  "num": 22,
+  "chapter": "trematodes",
+  "type": "mcq",
+  "stem": "吸蟲成長順序？",
+  "options": [
+   {
+    "k": "A",
+    "t": "cercaria → metacercaria → redia"
+   },
+   {
+    "k": "B",
+    "t": "egg → redia → adult"
+   },
+   {
+    "k": "C",
+    "t": "miracidium → sporocyst → cercaria"
+   },
+   {
+    "k": "D",
+    "t": "egg → cercaria → miracidium"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "典型吸蟲：egg → miracidium（纖毛幼蟲）→ sporocyst（胞狀幼蟲）→ redia（雷氏幼蟲）→ cercaria（尾動幼蟲）→ metacercaria（囊狀幼蟲）→ adult。\n只有 (C) 的先後順序正確（中間省略 redia 但沒有顛倒）。血吸蟲例外：沒有 redia 與 metacercaria，cercaria 直接鑽皮。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113mid-23",
+  "source": "113 期中考古",
+  "num": 23,
+  "chapter": "trematodes",
+  "type": "mcq",
+  "stem": "毛蚴孵化法（miracidial hatching test）主要可用於檢測下列何種寄生蟲？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Ascaris"
+   },
+   {
+    "k": "B",
+    "t": "Schistosoma"
+   },
+   {
+    "k": "C",
+    "t": "（原題選項缺失）"
+   },
+   {
+    "k": "D",
+    "t": "Paragonimus westermani"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "血吸蟲卵沒有卵蓋，糞便處理後放入清水，卵內已成熟的 miracidium 會孵出，可在光下觀察 → 毛蚴孵化法用於 Schistosoma（尤其 S. japonicum）。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "選正確／單一概念題",
+  "note": "原題 (C) 選項缺失。"
+ },
+ {
+  "id": "k113mid-24",
+  "source": "113 期中考古",
+  "num": 24,
+  "chapter": "trematodes",
+  "type": "mcq",
+  "stem": "下列何種寄生蟲感染時，患者檢體中可能出現 Charcot-Leyden crystals？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Dicrocoelium dendriticum"
+   },
+   {
+    "k": "B",
+    "t": "Fasciola hepatica"
+   },
+   {
+    "k": "C",
+    "t": "Fasciolopsis buski"
+   },
+   {
+    "k": "D",
+    "t": "Paragonimus westermani"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Paragonimus westermani（肺吸蟲）：咳嗽、胸痛、鐵鏽色血痰、嗜酸性球增多；痰液中可見蟲卵與 Charcot-Leyden crystals（嗜酸性球崩解產物）。易被誤診為肺結核。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113mid-25",
+  "source": "113 期中考古",
+  "num": 25,
+  "chapter": "trematodes",
+  "type": "mcq",
+  "stem": "下列何者與日本血吸蟲（Schistosoma japonicum）或其造成的疾病無關？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Swimmer’s itch"
+   },
+   {
+    "k": "B",
+    "t": "Granuloma"
+   },
+   {
+    "k": "C",
+    "t": "Metacercaria"
+   },
+   {
+    "k": "D",
+    "t": "Katayama fever"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(C) ✅ 血吸蟲沒有 metacercaria（囊狀幼蟲）：螺類釋出的分叉尾 cercaria 直接經皮膚鑽入，尾巴脫落變成童蟲（schistosomulum）。\n(A) Swimmer’s itch：cercaria 鑽皮時引起的皮膚炎（禽類血吸蟲最典型）。\n(B) 致病主因是蟲卵沉積在肝臟、腸壁 → 遲發型過敏 → 肉芽腫與纖維化。\n(D) Katayama fever：初次感染數週後、開始大量產卵時的急性全身性過敏與高燒。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113mid-26",
+  "source": "113 期中考古",
+  "num": 26,
+  "chapter": "trematodes",
+  "type": "mcq",
+  "stem": "Fasciola hepatica 是草食性動物常見寄生蟲，下列何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Halzoun 是因生食感染 Fasciola hepatica 成蟲的動物肝臟而造成"
+   },
+   {
+    "k": "B",
+    "t": "幼蟲經由膽管逆流而進入總膽管寄生，所以不會破壞肝組織"
+   },
+   {
+    "k": "C",
+    "t": "Fasciola hepatica 無法以 praziquantel 治療"
+   },
+   {
+    "k": "D",
+    "t": "人類係因食入遭囊狀幼蟲污染的水生植物而感染"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "(B) ✅ 錯：吃下 metacercaria → 十二指腸脫囊 → 穿過腸壁 → 腹腔 → 穿過肝被膜 → 在肝實質移行 → 最後進入膽管，所以會破壞肝實質。\n(A) 生吃含成蟲的動物肝臟 → 成蟲附著咽部 → Halzoun（經典考法）。\n(C) Fasciola 對 praziquantel 效果差，首選 triclabendazole。\n(D) 吃到附著 metacercariae 的水生植物（如 watercress 水芹）。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113mid-28",
+  "source": "113 期中考古",
+  "num": 28,
+  "chapter": "trematodes",
+  "type": "mcq",
+  "stem": "可產生假性感染（spurious infection）的寄生蟲為：",
+  "options": [
+   {
+    "k": "A",
+    "t": "Ascaris 和 Trichinella spiralis"
+   },
+   {
+    "k": "B",
+    "t": "T. spiralis 和 Dicrocoelium dendriticum"
+   },
+   {
+    "k": "C",
+    "t": "Capillaria philippinensis 和 Capillaria hepatica"
+   },
+   {
+    "k": "D",
+    "t": "Dicrocoelium dendriticum 和 Capillaria hepatica"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "假性感染：吃到受感染動物的肝臟，裡面的蟲卵只是「路過」腸道排出，人並沒有被感染。\nDicrocoelium dendriticum（吃到羊肝）與 Capillaria hepatica（吃到含卵的動物肝臟；真正感染要吃到胚胎化的卵）都會造成 spurious infection。\nC. philippinensis 是真正的腸道感染（還會 autoinfection）；Ascaris 是一般腸道感染；T. spiralis 是組織型，糞便不會有卵。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113mid-30",
+  "source": "113 期中考古",
+  "num": 30,
+  "chapter": "trematodes",
+  "type": "mcq",
+  "stem": "下列何者可判別 Clonorchis sinensis 和 Opisthorchis felineus？",
+  "options": [
+   {
+    "k": "A",
+    "t": "糞便中蟲卵大小"
+   },
+   {
+    "k": "B",
+    "t": "嗜酸性白血球數量"
+   },
+   {
+    "k": "C",
+    "t": "臨床症狀"
+   },
+   {
+    "k": "D",
+    "t": "患者居住的地區"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "兩者蟲卵都是小型、有卵蓋與「肩峰」的芝麻狀卵，大小、症狀（膽管炎、黃疸、膽管癌風險）與嗜酸性球反應都相似。\n最可靠的區分是地理分布／旅遊史：C. sinensis 在東亞、東南亞（台灣、中國、韓國、越南）；O. felineus 在歐洲與北亞（俄羅斯、西伯利亞、東歐）。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113mid-31",
+  "source": "113 期中考古",
+  "num": 31,
+  "chapter": "trematodes",
+  "type": "mcq",
+  "stem": "喝生水絕對不會感染下列哪個寄生蟲？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Fasciolopsis buski"
+   },
+   {
+    "k": "B",
+    "t": "Schistosoma mansoni"
+   },
+   {
+    "k": "C",
+    "t": "Fasciola hepatica"
+   },
+   {
+    "k": "D",
+    "t": "Paragonimus westermani"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Paragonimus westermani 的 metacercaria 在淡水蟹、蝦（第二中間宿主）的組織內，不會游離在水中 → 感染要靠生食或半生食蟹蝦（或轉續宿主的肉），喝生水不會感染。\nFasciolopsis、Fasciola 的 metacercaria 附著在水生植物上，也可能脫落浮在水裡；S. mansoni 的 cercaria 在水中游動，喝下時可經口腔黏膜鑽入。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113mid-32",
+  "source": "113 期中考古",
+  "num": 32,
+  "chapter": "trematodes",
+  "type": "mcq",
+  "stem": "關於吸蟲生活史特徵，何者為錯誤的描述？",
+  "options": [
+   {
+    "k": "A",
+    "t": "有最終宿主及中間宿主"
+   },
+   {
+    "k": "B",
+    "t": "幼蟲發育過程可在水中動物或水中植物進行"
+   },
+   {
+    "k": "C",
+    "t": "幼蟲發育至成蟲需經過脫皮"
+   },
+   {
+    "k": "D",
+    "t": "世代交替及宿主更換現象"
+   },
+   {
+    "k": "E",
+    "t": "幼蟲有無性增殖現象"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "脫皮（molting）是線蟲與節肢動物的特徵。吸蟲（扁形動物）靠變態與無性增殖（sporocyst、redia 在螺體內大量增殖）改變型態，不脫皮。\n吸蟲有世代交替（有性：成蟲；無性：螺體內幼蟲）與宿主更換（螺 → 第二中間宿主或水生植物 → 最終宿主）。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113mid-34",
+  "source": "113 期中考古",
+  "num": 34,
+  "chapter": "trematodes",
+  "type": "mcq",
+  "stem": "某人至中國旅遊，回台兩週後疑似感染 Schistosoma，可用的檢測方法為？",
+  "options": [
+   {
+    "k": "A",
+    "t": "direct stool smear examination for eggs"
+   },
+   {
+    "k": "B",
+    "t": "screening using immunological diagnostic methods"
+   },
+   {
+    "k": "C",
+    "t": "miracidium hatching method"
+   },
+   {
+    "k": "D",
+    "t": "intestinal mucosal biopsy"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "感染兩週時蟲體還是童蟲、尚未產卵（S. japonicum 約 4–5 週後才產卵）→ 糞便抹片、毛蚴孵化法、腸黏膜切片都找不到卵。\n此時宿主已對尾動幼蟲／童蟲抗原產生抗體 → 只能用免疫學（血清學）方法篩檢。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "臨床情境題"
+ },
+ {
+  "id": "k113mid-36",
+  "source": "113 期中考古",
+  "num": 36,
+  "chapter": "trematodes",
+  "type": "mcq",
+  "stem": "下列何者不會造成腦部病理傷害？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Heterophyes heterophyes"
+   },
+   {
+    "k": "B",
+    "t": "Schistosoma japonicum"
+   },
+   {
+    "k": "C",
+    "t": "Paragonimus westermani"
+   },
+   {
+    "k": "D",
+    "t": "Dicrocoelium dendriticum"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Dicrocoelium dendriticum 的蟲體與蟲卵侷限在肝膽系統，不會異位到腦。\n(A) Heterophyes：蟲卵可穿過腸黏膜進入血流，異位到心臟、腦、脊髓。\n(B) S. japonicum：所有血吸蟲中最容易讓蟲卵進入中樞神經（腦肉芽腫、癲癇）。\n(C) Paragonimus：童蟲移行時最常見的異位部位就是腦（膿瘍、囊腫）。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113mid-37",
+  "source": "113 期中考古",
+  "num": 37,
+  "chapter": "trematodes",
+  "type": "mcq",
+  "stem": "（配合題，選項 A–F 共用）成蟲體型最小的是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Fasciolopsis buski"
+   },
+   {
+    "k": "B",
+    "t": "Clonorchis sinensis"
+   },
+   {
+    "k": "C",
+    "t": "Heterophyes heterophyes"
+   },
+   {
+    "k": "D",
+    "t": "Fasciola hepatica"
+   },
+   {
+    "k": "E",
+    "t": "Eurytrema spp."
+   },
+   {
+    "k": "F",
+    "t": "Opisthorchis felineus"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Heterophyes heterophyes 體長僅約 1.0–1.7 mm，是人體寄生吸蟲中最小的（腸吸蟲）；最大的是 Fasciolopsis buski（薑片蟲）。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "k113mid-38",
+  "source": "113 期中考古",
+  "num": 38,
+  "chapter": "trematodes",
+  "type": "mcq",
+  "stem": "（配合題，選項 A–F 共用）吃水生植物可能感染？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Fasciolopsis buski"
+   },
+   {
+    "k": "B",
+    "t": "Clonorchis sinensis"
+   },
+   {
+    "k": "C",
+    "t": "Heterophyes heterophyes"
+   },
+   {
+    "k": "D",
+    "t": "Fasciola hepatica"
+   },
+   {
+    "k": "E",
+    "t": "Eurytrema spp."
+   },
+   {
+    "k": "F",
+    "t": "Opisthorchis felineus"
+   }
+  ],
+  "answer": [
+   "A",
+   "D"
+  ],
+  "explain": "附著在水生植物的 metacercaria：Fasciolopsis buski（荸薺、菱角、茭白筍）與 Fasciola hepatica（水芹 watercress）。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "配對題",
+  "note": "原檔詳解只寫 (A)；Fasciola hepatica 也是吃水生植物感染（見第 26 題），本站 A、D 都算對。"
+ },
+ {
+  "id": "k113mid-39",
+  "source": "113 期中考古",
+  "num": 39,
+  "chapter": "trematodes",
+  "type": "mcq",
+  "stem": "（配合題，選項 A–F 共用）哪些中間宿主是昆蟲？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Fasciolopsis buski"
+   },
+   {
+    "k": "B",
+    "t": "Clonorchis sinensis"
+   },
+   {
+    "k": "C",
+    "t": "Heterophyes heterophyes"
+   },
+   {
+    "k": "D",
+    "t": "Fasciola hepatica"
+   },
+   {
+    "k": "E",
+    "t": "Eurytrema spp."
+   },
+   {
+    "k": "F",
+    "t": "Opisthorchis felineus"
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "Eurytrema（胰吸蟲，如 E. pancreaticum）：第一中間宿主是陸生蝸牛，第二中間宿主是草螽（蝗蟲類昆蟲）。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "k113mid-40",
+  "source": "113 期中考古",
+  "num": 40,
+  "chapter": "trematodes",
+  "type": "mcq",
+  "stem": "（配合題，選項 A–F 共用）用 Praziquantel 治療效果差的是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Fasciolopsis buski"
+   },
+   {
+    "k": "B",
+    "t": "Clonorchis sinensis"
+   },
+   {
+    "k": "C",
+    "t": "Heterophyes heterophyes"
+   },
+   {
+    "k": "D",
+    "t": "Fasciola hepatica"
+   },
+   {
+    "k": "E",
+    "t": "Eurytrema spp."
+   },
+   {
+    "k": "F",
+    "t": "Opisthorchis felineus"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Fasciola hepatica 對 praziquantel 反應差，首選 triclabendazole；其他吸蟲多以 praziquantel 治療。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "k113mid-41",
+  "source": "113 期中考古",
+  "num": 41,
+  "chapter": "trematodes",
+  "type": "mcq",
+  "stem": "（配合題，選項 A–F 共用）吃生魚片可能感染？（複選）",
+  "options": [
+   {
+    "k": "A",
+    "t": "Fasciolopsis buski"
+   },
+   {
+    "k": "B",
+    "t": "Clonorchis sinensis"
+   },
+   {
+    "k": "C",
+    "t": "Heterophyes heterophyes"
+   },
+   {
+    "k": "D",
+    "t": "Fasciola hepatica"
+   },
+   {
+    "k": "E",
+    "t": "Eurytrema spp."
+   },
+   {
+    "k": "F",
+    "t": "Opisthorchis felineus"
+   }
+  ],
+  "answer": [
+   "B",
+   "C",
+   "F"
+  ],
+  "explain": "第二中間宿主是魚的吸蟲：Clonorchis sinensis（淡水魚，草魚、鯉魚）、Heterophyes heterophyes（淡水／半鹹水魚，吳郭魚、烏魚）、Opisthorchis felineus（淡水魚）。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "配對題"
+ }
+]

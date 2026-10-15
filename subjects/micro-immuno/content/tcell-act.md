@@ -333,3 +333,27 @@
 - 老師明講要背：**fate-specifying cytokine 圖**（IL-12 → TH1、IL-4 → TH2、IL-6 → TFH、TGF-β + IL-2 → pTreg、TGF-β + IL-6 + IL-23 → TH17，與各自分泌的 cytokine）、**cytokine → isotype 表**（「只能接受它」）。
 - 老師說可以放過：Fig 9.43 中 LT-α 等細節、凋亡 cascade 細節（Bcl family「記不起來就算了」）、AID 修復酵素細節（「略懂即可」）、Treg 功能（沒打算講）。
 - 易考觀念：TH 分化是單行道且互相抑制；**CD4 幫 CD8 發生在次級淋巴組織**；CTL 在周邊只需 signal 1、serial killing；**IgM→IgD 與 membrane→secreted 是 RNA splicing**，其他 isotype 是 DNA 重組；**AID 把 C 變 U**、由 IL-4 + CD40 誘導；TI 抗原只有 IgM、記憶差；自然界 > 90% 為 TD 抗原。
+
+## 📒 115 共筆對照（W4-2）
+- **Immune tolerance** 那部分老師放 PDF 補充、上課沒講（自己看）。
+- **T–B cell interactions（次級淋巴組織中的相遇順序）**：共筆註記「**根本沒考過，老師也很隨便帶過**」，可放最後讀。重點只要記：B 細胞 **CXCR5**（CXCL13，留在濾泡）、T 細胞 **CCR7**（CCL19／21）；活化後 B ↑CCR7 往 T 區、T ↑CXCR5 往濾泡。
+- AID 之後 staggered nicks 變 double-strand break 的詳細機制**不需深入**，知道最後造成 class-switch recombination 即可。
+
+## ⚠️ 陷阱整理
+| 容易選錯 | 正確 |
+|---|---|
+| IL-4 → TH1 | **IL-12 → TH1**（考 4 次）；IL-4 → TH2 |
+| TH2 分泌 IL-12 | IL-12 由 **APC** 分泌；TH1 分泌 **IFN-γ**；TH2 分泌 IL-4、5、13 |
+| TH17 由 TGF-β 單獨誘導 | **TGF-β + IL-6（+ IL-23）→ TH17**；**TGF-β + IL-2 → pTreg** |
+| TFH 主要分泌 IL-4 | **TFH 主要分泌 IL-21**；Bcl-6 決定 TFH |
+| Hyper-IgM 是 CD4 T 數目下降 | 是 **CD40L 缺陷**，CD4 數目正常 |
+| Class switch 不需要 T 細胞 | Class switch **需要 CD4 T（CD40L + cytokine）** |
+| IL-5 是 IgA class switch 的關鍵 | **TGF-β** 是 IgA switch 的關鍵（考古也出現 IL-5 → IgA，選項中要比較）；**IL-4 → IgE** |
+| IgM 與 IgD 共表現靠 DNA 重組 | **RNA splicing**（membrane vs secreted 也是）；其他 isotype 才是 DNA switch recombination |
+| AID 把 U 變成 C | **AID 把 C 去胺成 U**，由 IL-4 + CD40 誘導 |
+| TI 抗原產生大量 IgG 與記憶 | TI 抗原以 **IgM** 為主、**記憶差** |
+| Germinal center 沒有 B 細胞凋亡 | Germinal center **有大量凋亡**（篩選高親和力） |
+| CD4 幫 CD8 發生在周邊組織 | 在**次級淋巴組織**（CD40L → APC ↑B7、4-1BBL） |
+| TH17 主要對付病毒 | **TH17 → 胞外菌（Klebsiella）與真菌（Candida）**，經 IL-17 → G-CSF → neutrophil |
+| M1 macrophage 由 IL-4 誘導 | **M1 = IFN-γ、CD40L（TH1）**；**M2 = IL-4 + IL-13（TH2）** |
+| Perforin 誘發凋亡、FasL 打洞 | **Perforin 打洞**讓 granzyme 進入；**FasL** 結合 Fas 誘發凋亡 |

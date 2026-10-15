@@ -179,3 +179,23 @@
 - 嘔吐型 vs 腹瀉型：< 6 h、heat-stable、米飯 vs > 6 h、heat-labile、蔬菜肉類。
 - Edema toxin 的機制「同 cholera toxin、ETEC LT（↑cAMP）」是常見考法；疫苗抗原 = PA。
 - *Erysipelothrix*：「15 年國考沒考過」。
+
+## ⚠️ 陷阱整理
+| 容易選錯 | 正確 |
+|---|---|
+| *Listeria*、*Corynebacterium* 會產孢子 | 產孢子的 G(+) 桿菌只有 ***Bacillus*（需氧）與 *Clostridium*（厭氧）** |
+| *B. anthracis* 有鞭毛會動 | ***B. anthracis* 不動**；*B. cereus* 會動 |
+| 炭疽莢膜是多醣 | **poly-D-glutamic acid（胜肽）**，由 pXO2 編碼；毒素在 **pXO1** |
+| PA 單獨就有毒性 | PA 單獨**無毒**；**PA + EF = edema toxin、PA + LF = lethal toxin** |
+| EF 是 zinc protease | **EF = adenylate cyclase（↑cAMP、水腫）**；**LF = zinc protease（切 MEK）** |
+| 炭疽最常見是吸入型 | **皮膚型 > 90%**（黑色焦痂）；吸入型（wool-sorter's）致死率最高；腸胃型最罕見 |
+| 皮膚炭疽要切開引流 | **不可切開**（會散播） |
+| *B. cereus* 嘔吐型毒素怕熱 | 嘔吐型（炒飯、< 6 h）**耐熱、耐蛋白酶**；腹瀉型（> 6 h）怕熱 |
+| *Listeria* 在 37 °C 動得最好 | **20–25 °C tumbling motility**；37 °C 運動差；**4 °C 可生長** |
+| *Listeria* 靠抗體清除 | 胞內菌 → **細胞免疫**重要 |
+| LLO 讓 *Listeria* 進入細胞 | **Internalin** 進入；**LLO 溶解液泡**；**ActA** 聚合 actin 胞間移動 |
+| 所有 *C. diphtheriae* 都產毒 | 只有被帶 ***tox* gene 的 β-phage 溶原化**的菌株 |
+| 白喉毒素結合 60S | 白喉毒素 **ADP-ribosylate EF-2**（同 *Pseudomonas* exotoxin A）；60S 是 Shiga toxin |
+| Schick test 偵測毒素產生 | **Elek test** 偵測菌株是否產毒；Schick test 測抗體（已淘汰） |
+| 白喉先給抗生素 | **先給 antitoxin**，再給抗生素 |
+| 白喉是人畜共通 | **人類是唯一宿主** |

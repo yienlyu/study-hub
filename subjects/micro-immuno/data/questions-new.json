@@ -4134,5 +4134,600 @@
    "B 細胞活化／class switch／生發中心"
   ],
   "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-124",
+  "source": "模擬新題",
+  "chapter": "infection-immunity",
+  "type": "mcq",
+  "stem": "Which statement about antimicrobial peptides (AMPs) is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "They are typically 12–50 amino acids long"
+   },
+   {
+    "k": "B",
+    "t": "They are rich in negatively charged residues such as aspartate and glutamate"
+   },
+   {
+    "k": "C",
+    "t": "Defensins, cathelicidin and dermcidin are examples"
+   },
+   {
+    "k": "D",
+    "t": "Besides killing microbes, they can modulate immune responses such as chemotaxis and TLR signaling"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "AMP 多帶正電（Arg、Lys、His）→ 結合帶負電的細菌膜 → 穿孔（類似 MAC）。老師：「AMP 一定要記得」；也有趨化、調節 TLR 的免疫調節功能。α-defensin 由 Paneth cell、neutrophil 產生；dermcidin 來自汗腺上皮。",
+  "topics": [
+   "抗微生物肽 AMPs"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-125",
+  "source": "模擬新題",
+  "chapter": "infection-immunity",
+  "type": "mcq",
+  "stem": "Regarding the phagocyte NADPH oxidase (NOX2) complex, which statement is INCORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "gp91phox and p22phox are membrane components"
+   },
+   {
+    "k": "B",
+    "t": "p40, p47 and p67 translocate from the cytosol after activation"
+   },
+   {
+    "k": "C",
+    "t": "A defect in any subunit can cause chronic granulomatous disease"
+   },
+   {
+    "k": "D",
+    "t": "Patients with CGD cannot ingest bacteria"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "CGD 病人的吞噬細胞吞得進去、殺不死（沒有 respiratory burst）→ 只好形成 granuloma。NOX 膜上 gp91、p22；胞質 p40、p47、p67 活化後移位組裝。gp91（X-linked）最常見。",
+  "topics": [
+   "吞噬與 ROS／CGD"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-126",
+  "source": "模擬新題",
+  "chapter": "infection-immunity",
+  "type": "mcq",
+  "stem": "Which pairing of pattern recognition receptor and ligand/model is INCORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "TLR1/TLR2 — OspA of Borrelia burgdorferi (Lyme disease)"
+   },
+   {
+    "k": "B",
+    "t": "TLR4 — LPS and oxidized phospholipids in acid-induced lung injury"
+   },
+   {
+    "k": "C",
+    "t": "TLR3 — double-stranded RNA (West Nile virus model)"
+   },
+   {
+    "k": "D",
+    "t": "RIG-I — bacterial peptidoglycan in the cytosol"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "RIG-I（RLR）辨識細胞質病毒 RNA；細胞質的 peptidoglycan 由 NOD1／NOD2（NLR） 辨識。老師舉的研究例：Lyme OspA–TLR1/2、West Nile–TLR3、吸入性嗆傷 OxPL–TLR4。",
+  "topics": [
+   "TLR／PRR"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "new-127",
+  "source": "模擬新題",
+  "chapter": "infection-immunity",
+  "type": "mcq",
+  "stem": "Which statement best distinguishes pyroptosis from apoptosis?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Pyroptosis is mediated by caspase-3 and is immunologically silent"
+   },
+   {
+    "k": "B",
+    "t": "Pyroptosis is mediated by caspase-1, releases IL-1β/IL-18 and is pro-inflammatory"
+   },
+   {
+    "k": "C",
+    "t": "Apoptosis releases DAMPs through membrane rupture"
+   },
+   {
+    "k": "D",
+    "t": "Both are triggered only by death receptors"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Caspase-1（inflammasome）→ 成熟 IL-1β、IL-18 → pyroptosis（發炎性）；caspase-8（death receptor）／caspase-9（粒線體）→ caspase-3 → apoptosis：膜完整、形成凋亡小體被 efferocytosis，silent。",
+  "topics": [
+   "Inflammasome／pyroptosis"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-128",
+  "source": "模擬新題",
+  "chapter": "infection-immunity",
+  "type": "mcq",
+  "stem": "A 45-year-old HIV-negative adult has recurrent nontuberculous mycobacterial infections and disseminated tuberculosis. Which mechanism is most likely?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Terminal complement (C5–C9) deficiency"
+   },
+   {
+    "k": "B",
+    "t": "Anti-IFN-γ autoantibodies (adult-onset immunodeficiency)"
+   },
+   {
+    "k": "C",
+    "t": "Selective IgA deficiency"
+   },
+   {
+    "k": "D",
+    "t": "Defective AMP production by Paneth cells"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "成人型免疫缺乏：HIV 陰性卻像 AIDS 一樣反覆 TB、NTM → IFN-γ 訊號缺失，最常見是抗 IFN-γ 自體抗體（也可能是基因或下游轉錄因子缺陷）。治療要針對產生自體抗體的 B 細胞，只殺菌會一直復發。",
+  "topics": [
+   "IFN-γ／IL-12"
+  ],
+  "pattern": "臨床情境題"
+ },
+ {
+  "id": "new-129",
+  "source": "模擬新題",
+  "chapter": "infection-immunity",
+  "type": "mcq",
+  "stem": "Which pairing of pathogen and evasion strategy against phagocytosis is INCORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Shigella, Rickettsia — escape from the phagosome"
+   },
+   {
+    "k": "B",
+    "t": "Mycobacterium tuberculosis — prevents phagosome–lysosome fusion"
+   },
+   {
+    "k": "C",
+    "t": "Coxiella burnetii — survives inside the phagolysosome"
+   },
+   {
+    "k": "D",
+    "t": "Streptococcus pyogenes — prevents phagosome–lysosome fusion as its main strategy"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Slides p71：GAS 主要靠 M protein、capsule 抑制附著、streptolysin 殺吞噬細胞（還有 DNase 切 NET、C4bp、SpeB）。阻止 phagosome–lysosome 融合的是 HIV、M. tuberculosis；逃出 phagosome：Shigella、Rickettsia；在 phagolysosome 存活：Coxiella。",
+  "topics": [
+   "免疫逃脫"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "new-130",
+  "source": "模擬新題",
+  "chapter": "infection-immunity",
+  "type": "mcq",
+  "stem": "Which statement about neutrophil death and clearance is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "NETs consist of extruded DNA with granule proteins that trap microbes"
+   },
+   {
+    "k": "B",
+    "t": "Group A Streptococcus escapes NETs with DNase"
+   },
+   {
+    "k": "C",
+    "t": "Efferocytosis of apoptotic cells releases IL-10 and TGF-β and dampens inflammation"
+   },
+   {
+    "k": "D",
+    "t": "NET formation carries no risk because no self antigen is exposed"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "NETosis 的代價是暴露 self antigen，與自體免疫、敗血症的 DIC 有關；後來發現 eosinophil、上皮細胞也會 → 統稱 ETosis。Efferocytosis 不完整也可能造成自體免疫。",
+  "topics": [
+   "NET／efferocytosis"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-131",
+  "source": "模擬新題",
+  "chapter": "infection-immunity",
+  "type": "mcq",
+  "stem": "Which statement about immune evasion by Group A Streptococcus (S. pyogenes) is INCORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "M protein binds C4b-binding protein to reduce C3b deposition"
+   },
+   {
+    "k": "B",
+    "t": "SpeB is a cysteine protease that can cleave IgG"
+   },
+   {
+    "k": "C",
+    "t": "Protein A/G binds the Fab portion of antibodies to neutralize them"
+   },
+   {
+    "k": "D",
+    "t": "Streptolysins can kill phagocytes"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Protein A／G 抓抗體的 Fc，使抗體反向結合、無法調理（Fab 抓不到菌）。M protein–C4bp 抑制補體、SpeB 切 IgG、DNase 切 NET、streptolysin 殺吞噬細胞 → 老師說 GAS 是「全套脫逃」。",
+  "topics": [
+   "免疫逃脫"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-132",
+  "source": "模擬新題",
+  "chapter": "immunodeficiency",
+  "type": "mcq",
+  "stem": "A male infant has recurrent opportunistic infections. Peripheral blood shows absent T cells and NK cells, but normal numbers of B cells (T− B+ NK−). Which gene is most likely mutated?",
+  "options": [
+   {
+    "k": "A",
+    "t": "RAG1"
+   },
+   {
+    "k": "B",
+    "t": "IL2RG (common γ chain)"
+   },
+   {
+    "k": "C",
+    "t": "FOXN1"
+   },
+   {
+    "k": "D",
+    "t": "BTK"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "γc 是 IL-2、4、7、9、15、21 受體的共同次單位：失去 IL-7 訊號 → T 不能發育；失去 IL-15 訊號 → NK 不能發育；人類 B 細胞發育不需要它 → B+。X-linked，所以是男嬰。RAG1/2 是 T− B− NK+；FOXN1 是 T− B+ NK+（胸腺環境）；BTK 是 XLA（只缺 B）。",
+  "topics": [
+   "SCID"
+  ],
+  "pattern": "臨床情境題"
+ },
+ {
+  "id": "new-133",
+  "source": "模擬新題",
+  "chapter": "immunodeficiency",
+  "type": "mcq",
+  "stem": "Which pairing of SCID defect and peripheral T/B/NK phenotype is INCORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "RAG1/2 deficiency — T− B− NK+"
+   },
+   {
+    "k": "B",
+    "t": "IL2RG deficiency — T− B+ NK−"
+   },
+   {
+    "k": "C",
+    "t": "FOXN1 deficiency — T− B− NK−"
+   },
+   {
+    "k": "D",
+    "t": "ADA deficiency — lymphocytes broadly affected by toxic purine metabolites"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "FOXN1 缺陷壞的是胸腺上皮／stromal 微環境，T 前驅細胞本身正常，B、NK 發育不受影響 → T− B+ NK+。NK 不需要 V(D)J，所以 RAG 缺陷仍 NK+。ADA 缺乏時有毒 purine 代謝物累積，發育中的淋巴球普遍受害。",
+  "topics": [
+   "SCID"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "new-134",
+  "source": "模擬新題",
+  "chapter": "immunodeficiency",
+  "type": "mcq",
+  "stem": "Which statement about X-linked agammaglobulinemia (XLA) is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "It is caused by Bruton's tyrosine kinase (BTK) deficiency"
+   },
+   {
+    "k": "B",
+    "t": "B-cell development arrests at the pre-B cell stage"
+   },
+   {
+    "k": "C",
+    "t": "T-cell development is severely impaired"
+   },
+   {
+    "k": "D",
+    "t": "Patients suffer recurrent infections with encapsulated pyogenic bacteria and enteroviruses"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "BTK 負責 pre-BCR signaling → 缺陷時卡在 pre-B，幾乎沒有成熟 B 與抗體；T 細胞發育正常。抗體缺乏 → 有莢膜化膿菌（S. pneumoniae、H. influenzae）與 enterovirus 反覆感染。",
+  "topics": [
+   "抗體缺陷"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-135",
+  "source": "模擬新題",
+  "chapter": "immunodeficiency",
+  "type": "mcq",
+  "stem": "Regarding X-linked hyper-IgM syndrome, which statement is INCORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "The defective molecule is CD40 ligand on activated T cells"
+   },
+   {
+    "k": "B",
+    "t": "Germinal centers and class switching fail, so IgG and IgA are low"
+   },
+   {
+    "k": "C",
+    "t": "Serum IgM is normal or elevated"
+   },
+   {
+    "k": "D",
+    "t": "Macrophage activation is normal, so opportunistic infections do not occur"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "CD40L 同時傳訊給 B 細胞（germinal center、class switch）和 macrophage（活化）。缺 CD40L → 只有 IgM，macrophage 也活化不良 → 容易伺機性感染（如 Pneumocystis）。",
+  "topics": [
+   "抗體缺陷"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-136",
+  "source": "模擬新題",
+  "chapter": "immunodeficiency",
+  "type": "mcq",
+  "stem": "Which statement about selective IgA deficiency is correct?",
+  "options": [
+   {
+    "k": "A",
+    "t": "IgM and IgG are also absent"
+   },
+   {
+    "k": "B",
+    "t": "Many affected individuals are asymptomatic; symptomatic ones mainly have sinopulmonary/mucosal infections"
+   },
+   {
+    "k": "C",
+    "t": "It is caused by RAG deficiency"
+   },
+   {
+    "k": "D",
+    "t": "It is the classic cause of Neisseria susceptibility"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Selective IgA deficiency：IgA 低或沒有，IgM、IgG 正常；很多人沒有症狀，有症狀者以呼吸道、黏膜（sinopulmonary）感染為主。CVID 則是 late B-cell 分化異質性缺陷、IgG 通常降低。Neisseria 對應 C5–C9。",
+  "topics": [
+   "抗體缺陷"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-137",
+  "source": "模擬新題",
+  "chapter": "immunodeficiency",
+  "type": "mcq",
+  "stem": "Which pairing of complement deficiency and typical consequence is correct?",
+  "options": [
+   {
+    "k": "A",
+    "t": "C5–C9 (MAC) deficiency — recurrent Neisseria infection"
+   },
+   {
+    "k": "B",
+    "t": "C3 deficiency — immune-complex disease only, no infection"
+   },
+   {
+    "k": "C",
+    "t": "C1/C2/C4 deficiency — Neisseria meningitis"
+   },
+   {
+    "k": "D",
+    "t": "C9 deficiency — absent opsonization"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "三種模式：① C1、C2、C4 → immune complex／凋亡細胞清除差 → immune-complex disease ② C3（早期／alternative）→ 沒有 C3b opsonization → 反覆化膿菌感染 ③ C5–C9（MAC） → Neisseria。",
+  "topics": [
+   "補體缺陷"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "new-138",
+  "source": "模擬新題",
+  "chapter": "immunodeficiency",
+  "type": "mcq",
+  "stem": "A child has recurrent bacterial infections with delayed umbilical cord separation. Blood neutrophil counts are very high, yet infected sites show little or no pus. The most likely defect is in:",
+  "options": [
+   {
+    "k": "A",
+    "t": "NADPH oxidase (NOX2)"
+   },
+   {
+    "k": "B",
+    "t": "β2 integrin CD18"
+   },
+   {
+    "k": "C",
+    "t": "Neutrophil elastase (ELANE)"
+   },
+   {
+    "k": "D",
+    "t": "C5–C9"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "LAD-1 = CD18（β2 integrin）缺陷：neutrophil 在血中數目正常甚至很高，但無法黏附、extravasation 到組織 → 沒有膿（膿就是死掉的白血球）。對照：neutropenia（ELANE）= 細胞太少；CGD（NOX2）= 吞得進去但殺不死、形成 granuloma。",
+  "topics": [
+   "吞噬細胞缺陷"
+  ],
+  "pattern": "臨床情境題"
+ },
+ {
+  "id": "new-139",
+  "source": "模擬新題",
+  "chapter": "immunodeficiency",
+  "type": "mcq",
+  "stem": "In the \"phagocyte defect triad\", chronic granulomatous disease (CGD) represents a defect in:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Cell quantity"
+   },
+   {
+    "k": "B",
+    "t": "Recruitment to tissue"
+   },
+   {
+    "k": "C",
+    "t": "Intracellular killing due to absent respiratory burst"
+   },
+   {
+    "k": "D",
+    "t": "Antigen presentation on MHC class II"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Neutropenia = 數量；LAD = 招募（到不了）；CGD = NOX2 缺陷 → 沒有 respiratory burst（ROS）→ 吞噬正常但殺不死 → 持續感染與 granuloma。",
+  "topics": [
+   "吞噬細胞缺陷"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-140",
+  "source": "模擬新題",
+  "chapter": "immunodeficiency",
+  "type": "mcq",
+  "stem": "Which pairing of cytokine-pathway defect and selective susceptibility is correct?",
+  "options": [
+   {
+    "k": "A",
+    "t": "IL-12/IFN-γ axis — chronic mucocutaneous candidiasis"
+   },
+   {
+    "k": "B",
+    "t": "TH17/IL-17 (e.g., STAT3 deficiency, Job syndrome) — chronic mucocutaneous candidiasis"
+   },
+   {
+    "k": "C",
+    "t": "IL-17 — mycobacteria"
+   },
+   {
+    "k": "D",
+    "t": "IFN-γ receptor — Neisseria"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Type 1：IL-12 → NK／TH1 產 IFN-γ → 活化 macrophage，缺陷 → mycobacteria 等胞內菌。Type 3：TH17／ILC3 產 IL-17 → 黏膜上皮抗真菌，缺陷（STAT3、Job syndrome）→ 黏膜皮膚念珠菌。",
+  "topics": [
+   "Cytokine 路徑缺陷"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "new-141",
+  "source": "模擬新題",
+  "chapter": "immunodeficiency",
+  "type": "mcq",
+  "stem": "Which statement about immune dysregulation and treatment of immunodeficiency is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Perforin defects cause familial hemophagocytic lymphohistiocytosis with hyperinflammation"
+   },
+   {
+    "k": "B",
+    "t": "XLP (SAP deficiency) leads to failure to control EBV-infected B cells"
+   },
+   {
+    "k": "C",
+    "t": "Graft-versus-host disease after HSCT is caused by recipient T cells attacking donor stem cells"
+   },
+   {
+    "k": "D",
+    "t": "Immunoglobulin replacement, HSCT and gene therapy correspond to \"replace, reconstitute, correct\""
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "GVHD = 捐贈者（donor）的 T 細胞攻擊受者組織；受者殘存免疫攻擊捐贈細胞叫 graft rejection。Perforin 缺陷 → 殺不掉標的 → 持續活化 → FHL（不只是免疫缺陷，而是過度發炎）；XLP → EBV lymphoproliferation。",
+  "topics": [
+   "免疫失調",
+   "治療"
+  ],
+  "pattern": "選錯誤（否定）題"
  }
 ]

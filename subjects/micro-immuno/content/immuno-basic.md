@@ -150,3 +150,19 @@
 - 易考觀念：PAMP–PRR 雖是專一結合但屬 **innate**；**Professional APC = macrophage、DC、B**；只有 B 細胞有 affinity maturation（TCR 不突變）；NK 殺 **MHC I 缺失**的細胞。
 - Nude mouse = 無胸腺 → 無 T（連帶 B 功能差）；xenograft / allograft / isograft 名詞。
 - B vs T epitope：只有 T epitope 可寫成胺基酸序列。
+
+## ⚠️ 陷阱整理
+| 容易選錯 | 正確 |
+|---|---|
+| Innate immunity 有記憶與專一性 | 只有 **adaptive** 有 specificity、diversity、**memory**、self-limitation |
+| Basophil 屬吞噬細胞 | 吞噬細胞：neutrophil、eosinophil、monocyte／macrophage、DC；**不含 basophil** |
+| 抗原呈現最強的是 macrophage | **Dendritic cell** 抗原呈現最強（MHC I＋II），吞噬較弱 |
+| CD3 在 B 細胞上 | **CD3 = 所有 T 細胞**；B = CD19／20／22；NK = CD16／56 |
+| CD4 辨識 MHC I | **4 × 2 = 8 × 1**：CD4–MHC II、CD8–MHC I |
+| γδ T 細胞佔多數 | **αβ 約 95%**；γδ 約 5%、在黏膜上皮 |
+| T epitope 可為不連續立體結構 | T epitope 是**連續線性 peptide + MHC**；B epitope 才可不連續、可為醣脂 DNA |
+| B 細胞在胸腺成熟 | **B 在骨髓**（鳥類 bursa of Fabricius）、**T 在胸腺** |
+| 脾臟 PALS 是 B 區 | **PALS = T 區**；follicle = B 區；淋巴結 **paracortex = T** |
+| Progenitor 可自我更新 | **只有 HSC** 能 self-renew（需 stromal cell 接觸＋生長因子） |
+| Nude mouse 沒有 B 細胞 | Nude mouse **無胸腺 → 無 T 細胞** |
+| CTLA-4／PD-1 抗體是活化劑 | 是 **immune checkpoint blockade**（解除煞車）；Allison = CTLA-4、Honjo = PD-1 |

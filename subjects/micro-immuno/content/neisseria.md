@@ -77,3 +77,22 @@
 
 ## 📝 出題模式
 - 英文單選為主、「NOT correct」比例高；多題跨章（E. coli、B. cereus 重複出現在此章）。
+
+## ⚠️ 陷阱整理
+| 容易選錯 | 正確 |
+|---|---|
+| *Neisseria* 的毒力因子是 IgM protease、鞭毛 | **IgA1 protease**、pili、LOS；**沒有鞭毛** |
+| *N. gonorrhoeae* 有多醣莢膜可做疫苗 | 莢膜疫苗是 ***N. meningitidis***；淋病沒有疫苗 |
+| 淋病診斷靠血清抗體 4 倍上升 | **NAAT 是金標準**；男性尿道分泌物嗜中性球內 G(−) 雙球菌 |
+| 女性淋病多有症狀 | 女性**多無症狀** → PID、不孕、子宮外孕；男性多有症狀 |
+| 腦膜炎雙球菌有其他動物宿主 | **人唯一宿主**、鼻咽帶菌、飛沫 |
+| *H. pylori* 嚴格厭氧、人畜共通 | **microaerophilic**、urease (+)、**人唯一宿主** |
+| *H. pylori* 與大腸癌相關 | 與**胃癌、MALT lymphoma**、消化性潰瘍相關 |
+| *H. pylori* 診斷金標準是血清學 | **切片組織學**；血清學在低盛行區不宜第一線 |
+| *Campylobacter* 併發 HUS | ***C. jejuni* → Guillain-Barré**（分子擬態）；HUS 是 EHEC |
+| *Pseudomonas* 是厭氧菌 | **好氧**（可用 nitrate 厭氧呼吸）、單一極鞭毛、oxidase (+) |
+| ExoS／ExoT 抑制蛋白合成 | **Exotoxin A** ADP-ribosylate EF-2；ExoS／T 經 T3SS 破壞上皮 |
+| 所有 *V. cholerae* 都產霍亂毒素 | **只有 O1、O139** |
+| 霍亂毒素增加 cGMP | 霍亂毒素 **↑cAMP**（Gs 持續活化） |
+| *V. vulnificus* 主要造成水瀉 | 生蠔 → **原發性敗血症**、傷口壞死性感染；**肝病**高危 |
+| *V. parahaemolyticus* 用 TCBS 呈黃色、Kanagawa 不耐熱 | Kanagawa hemolysin **heat-stable**；生海鮮食物中毒 |

@@ -154,3 +154,22 @@
 ## 📝 出題模式
 - 情境題：「某國小學童腹瀉、裡急後重，不發酵乳糖、無運動」→ Shigella；「越南女孩持續發燒、肝腫大、不發酵乳糖」→ Salmonella。
 - E. coli 表格一定要背（共筆標「粗體必背」）。
+
+## ⚠️ 陷阱整理
+| 容易選錯 | 正確 |
+|---|---|
+| 腸桿菌科 oxidase (+) | **oxidase (−)**、catalase (+)、發酵 glucose、還原 nitrate（*Vibrio*、*Pseudomonas* 才是 oxidase +） |
+| *Salmonella*、*Shigella* 在 MacConkey 呈粉紅 | 兩者**不發酵乳糖 → 無色**；粉紫的是 *E. coli*、*Klebsiella*、*Enterobacter* |
+| *Shigella* 有鞭毛、產 H₂S | ***Shigella* 無鞭毛、H₂S (−)**；*Salmonella* 有周鞭毛、H₂S (+) |
+| *Shigella* 感染劑量很高 | ***Shigella* 10–100 CFU**；*Salmonella* 約 10⁵；*V. cholerae* > 10⁷ |
+| Teichoic acid 是腸桿菌抗原 | Teichoic acid 是 **G(+)**；腸桿菌是 O（LPS）、K（莢膜；*Salmonella* 為 Vi）、H（鞭毛） |
+| ETEC 造成血便 | ETEC：**旅行者水瀉、不發燒**（LT ↑cAMP、ST ↑cGMP） |
+| EPEC 產 Shiga toxin | **EPEC 無 Shiga toxin**；EHEC（O157:H7）才有 → HUS |
+| Shiga toxin 增加 cAMP | Shiga toxin **切 60S rRNA → 抑制蛋白合成**（B 次單元接 Gb3） |
+| UPEC 用 BFP 黏附 | UPEC 用 **P pili**（腎盂腎炎）；BFP 是 EPEC／EHEC |
+| 傷寒第一週驗糞便 | **第 1 週血液培養**、第 3 週糞便；帶原者藏在**膽囊** |
+| 非傷寒沙門氏菌只在人類 | 非傷寒型來自**生蛋、家禽**；**人唯一宿主是 *S.* Typhi 與 *Shigella*** |
+| *S. dysenteriae* 不產毒素 | *S. dysenteriae* type 1 產 **Shiga toxin**（最嚴重，可 HUS） |
+| 鼠疫由蚊子傳播 | 鼠 → **跳蚤**叮咬；肺鼠疫可人傳人飛沫 |
+| *Y. enterocolitica* 需高溫才長 | **4 °C 可生長**（冰箱食物）；假性闌尾炎 |
+| *Proteus* 不動 | *Proteus* **swarming**、urease（腎結石） |

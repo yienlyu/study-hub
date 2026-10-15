@@ -1,7 +1,7 @@
 === summary ===
 # 免疫缺陷疾病（賴傳穎）
 
-> 本章依 2026 非同步遠距錄影（W18，期中考範圍）的逐字稿整理；尚無共筆與考古對照。
+> 🎙️ 本章依 2026 非同步遠距錄影（賴傳穎，W18，期中考範圍）的逐字稿與 slides 整理；尚無共筆，考古只有 hyper-IgM、CGD 相關題。期中配分 **3%**。
 
 ## 1. 怎麼懷疑免疫缺陷？
 - **反覆、嚴重、難治（recalcitrant）**的感染；**不常見的伺機性（opportunistic）感染**；有**固定的感染型態**。
@@ -80,14 +80,66 @@
 - 不同機制：細胞太少、到不了感染處、殺不死、訊號有問題 → 觀察 phenotype 推測，再以 **genetic test** 確診（不能鐵口直斷）。
 
 === slides ===
-# 上課 slides
+# 上課 slides 重點（1151_免疫缺陷疾病，賴傳穎，29 頁）
 
-> ✅ 本章為 **W18 非同步遠距課程**（賴傳穎），屬期中考範圍；上課 slides 尚未逐頁整理進來。上方「重點整理」依錄影逐字稿整理。
+> W18 非同步遠距課程，屬期中考範圍（I15，配分 3%）。圖多取自 Janeway's Immunobiology 10e Ch13。老師說明：疾病**依免疫機制**重新串講，不照表格逐列講。
+
+| 頁 | 主題 | 重點 |
+|---|---|---|
+| p2 | 何時懷疑免疫缺陷 | 反覆、異常嚴重或持續的感染；不常見／伺機性感染；有特徵性的感染型態。**Think mechanistically：感染型態 → 哪一支免疫出問題** |
+| p3 | Primary vs secondary | Primary＝**inborn／genetic**，影響免疫發育、訊號或功能，可在兒童或成人才表現；secondary＝**acquired**（外在因素、潛在疾病、醫療介入） |
+| p4–6 | 七大類 | combined、antibody、phagocyte、selective innate／cytokine pathway、immune dysregulation、complement、other inborn |
+| p7 | 感染型態定位 ⭐ | 有莢膜化膿菌 → **抗體、C3／補體、吞噬細胞**；**Neisseria → C5–C9（MAC）**；伺機性病毒、真菌 → **T 細胞／combined**；mycobacteria／胞內菌 → **IL-12／IFN-γ**；黏膜皮膚 Candida → **TH17／IL-17** |
+| p8 | SCID 與 ADA | 早期 T 發育缺陷 → 細胞性＋體液性都垮（T-dependent 抗體也沒了）；**ADA deficiency：有毒 purine 代謝物累積**，發育中淋巴球特別脆弱 |
+| p9 | X-linked SCID（IL2RG） | γc 共用於 **IL-2、4、7、9、15、21** 受體；**IL-7 → T−、IL-15 → NK−、人類 B 發育保留 → T− B+ NK−** |
+| p10 | RAG1／2 | V(D)J 無法重組 → TCR、BCR 都沒有 → **T− B− NK+**（NK 不需 V(D)J） |
+| p11 | FOXN1 | 胸腺上皮／stroma 發育失敗；T 前驅細胞**本身正常**但沒有環境 → **T− B+ NK+**（extrinsic defect） |
+| p12 | 用 T／B／NK profile 定位 | γc：共用 cytokine 受體訊號；RAG：V(D)J；FOXN1：胸腺微環境 |
+| p13 | 為何抗體缺陷 → 化膿菌 | 抗體結合莢膜 → Fc 辨識＋classical 補體 → opsonization；例 **S. pneumoniae、H. influenzae** |
+| p14 | **XLA（BTK）** | pre-BCR 訊號缺失 → **卡在 pre-B** → 幾乎沒有成熟 B、Ig 大降；**T 正常**；反覆**化膿菌與 enterovirus** 感染 |
+| p15 | **X-linked hyper-IgM（CD40L）** | B 細胞與 macrophage 都收不到 CD40 訊號 → 無 germinal center、無 class switch → **IgM 正常或高、IgG／IgA 低**；macrophage 活化差 → **伺機性感染** |
+| p16 | CVID、selective IgA deficiency | CVID：late B 分化異質性缺陷，**IgG 通常降低**；selective IgA：IgA 低或無、**IgM、IgG 保留，很多人無症狀**；主要影響 sinopulmonary、黏膜防禦 |
+| p17 | 補體缺陷三模式 | C1／C2／C4 → immune-complex 病；C3／早期 alternative → 化膿菌；**C5–C9 → Neisseria** |
+| p18–20 | 吞噬細胞三部曲 ⭐ | **Neutropenia = 數量太少**（congenital neutropenia）；**LAD-1 = CD18（β2 integrin）→ 血中有、進不了組織 → 幾乎沒有膿**；**CGD = NOX2 → 無 respiratory burst → 吞得到殺不死、granuloma** |
+| p21 | IL-12／IFN-γ 軸 | macrophage／DC → IL-12 → NK、TH1 → IFN-γ → 活化 macrophage；缺陷 → **mycobacteria 等胞內菌**；是選擇性路徑缺陷，**不是**淋巴球發育全面失敗 |
+| p22 | TH17／IL-17 | TH17、ILC3 → IL-17 → 黏膜上皮抗真菌；缺陷 → **chronic mucocutaneous candidiasis（CMC）**；代表 **STAT3 deficiency／Job syndrome** |
+| p23 | Cytotoxic granule 缺陷 | perforin 或 granule exocytosis 缺陷 → 殺不掉活化的標的 → 持續活化 → **FHL**（hyperinflammation、可有噬血）；「殺不死造成**過度發炎**，而不只是免疫缺陷」 |
+| p24 | **XLP（SAP）** | T／NK 對 EBV 感染的 B 細胞控制失敗 → 嚴重免疫失調、**lymphoproliferation** |
+| p25 | Secondary immunodeficiency | 後天、非遺傳；是感染與死亡的**主要**誘因 |
+| p26 | 治療三層次 | **Replace**（Ig replacement）→ **Reconstitute**（HSCT）→ **Correct**（gene therapy） |
+| p27 | HSCT | donor HSC 植入骨髓重建各系；**MHC 相合**減少衝突；兩大障礙：**GVHD（donor T 攻擊受者）**、**graft rejection（受者免疫攻擊 donor 細胞）** |
+| p28 | Take-home | 感染型態定位 → 機制（太少、到不了、殺不死、訊號缺陷）→ **phenotype 只能縮小範圍，不能單獨確診** → 依失敗層級選治療 |
 
 === exam ===
 # 考點分析
 
-> 本章是今年新增的遠距課程，去年考古沒有對應題組；以下依錄影中老師的強調整理。
+> 本章是今年新增的遠距課程（期中配分 **3%，約 3 題**），去年考古沒有對應題組；以下依 slides 與錄影整理。練習區「模擬新題」有本章 10 題。相關考古：113 考古 **hyper-IgM 兩題**（缺 CD40L）在〈T 細胞媒介免疫〉；CGD 在〈對抗感染的免疫反應〉。
+
+## 🔥 高頻考點（預測）
+1. **SCID 的 T／B／NK 配對**（最好出題、最容易混）。
+2. **XLA = BTK、卡 pre-B、T 正常**；**hyper-IgM = CD40L、只有 IgM、伺機性感染**。
+3. **感染型態 ↔ 缺陷**對照表（化膿菌、Neisseria、伺機性、mycobacteria、Candida）。
+4. **吞噬細胞三部曲**：neutropenia／LAD（沒有膿）／CGD（granuloma）。
+5. **HSCT 的 GVHD vs graft rejection** 方向。
+
+## ⚠️ 陷阱整理
+| 容易選錯 | 正確 |
+|---|---|
+| IL2RG（γc）缺陷 → B 細胞也沒有 | 人類 **B 發育保留**：T− **B+** NK− |
+| RAG 缺陷 → NK 也沒有 | NK 不需 V(D)J：T− B− **NK+** |
+| FOXN1 缺陷是 T 前驅細胞本身壞掉 | 壞的是**胸腺上皮微環境**（extrinsic），前驅細胞正常 |
+| XLA 的 T 細胞也受影響 | **T 正常**；卡在 **pre-B** |
+| Hyper-IgM 是 B 細胞基因缺陷 | X-linked 型是 **T 細胞上的 CD40L**；macrophage 也活化不良 |
+| Selective IgA deficiency 時 IgG、IgM 也低 | **IgM、IgG 保留**，很多人無症狀 |
+| C3 缺陷 → Neisseria | C3 → **化膿菌**；**C5–C9** 才是 Neisseria |
+| LAD 時血中 neutrophil 很少 | 血中**有（甚至很多）**，只是進不了組織 → **沒有膿** |
+| CGD 吞噬功能缺陷 | 吞噬**正常**，是**殺不死**（無 ROS） |
+| IL-12／IFN-γ 缺陷 → Candida | IFN-γ → **mycobacteria**；**IL-17（STAT3）→ Candida** |
+| Perforin 缺陷只會造成感染 | 主要是**過度發炎（FHL）** |
+| GVHD 是受者攻擊捐贈細胞 | GVHD = **donor T 攻擊受者**；受者攻擊 donor = **graft rejection** |
+
+## 📝 出題模式
+- 依去年免疫題的風格，預期以**英文選錯誤**與**配對題**為主；SCID profile、感染型態對照最適合出成配對題。
 
 ## 🎯 可能出題
 1. **SCID 的 T / B / NK profile 配對**：IL2RG（T−B+NK−）、RAG1/2（T−B−NK+）、FOXN1（T−B+NK+，胸腺環境）、ADA（有毒 purine 代謝物）。

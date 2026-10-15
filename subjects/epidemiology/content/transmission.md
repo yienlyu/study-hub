@@ -175,3 +175,22 @@
 ## 📚 考古題（109／110／114 期中，共 19 題：114 7 題、110 8 題、109 4 題）
 - 最常考：流行曲線（5）、Herd immunity（4）、潛伏期（2）、Attack rate（2）、Endemic／Epidemic／Pandemic（2）、傳染病流病特色（1）。
 - 練習區可以只選「考古」來源練習。
+
+## ⚠️ 陷阱整理
+| 容易選錯 | 正確 |
+|---|---|
+| Index case = primary case | **Index case = 第一個被發現**的；**primary case = 把感染帶進族群**的（不一定是同一人） |
+| 致病力的分母是易感受者 | **感染力**：感染 ÷ 易感受者；**致病力**：發病 ÷ **感染者**；**毒性**：死亡 ÷ **發病者** |
+| 受到感染就會發病 | **受到感染不一定發病**（冰山下的次臨床感染） |
+| Preclinical = subclinical | **Preclinical 注定會發病**；**subclinical 不會發病**（靠血清或培養才知道） |
+| Latent infection 病毒持續複製 | Latent：核酸整合、**沒有活躍複製** |
+| Epidemic 是指病例很多 | Epidemic = **明顯超過正常預期**；台灣出現 1 例本土瘧疾就算 epidemic |
+| 登革熱在台灣南部是 epidemic | 南部 **endemic**、北部 **epidemic** |
+| Point source 曲線緩升急降 | Point source：**快速上升、緩慢下降**，病例落在**一個潛伏期內** |
+| Propagated 只有一個高峰 | Propagated：人傳人、**多波**、波間隔一個潛伏期 |
+| R0 越大病毒越毒 | R0 代表**傳播速度**，與毒性無關 |
+| R0 = 1 會擴散成 epidemic | **R0 < 1 消失、= 1 endemic、> 1 epidemic**；**Rt < 1 = 受控制** |
+| 群體免疫閾值 = 1/R0 | **HIT = 1 − 1/R0**（R0 = 2 → 50%；麻疹 → 92–94%） |
+| 有保毒宿主時群體免疫一樣有效 | 群體免疫四條件：**單一宿主物種、直接傳播、無 reservoir、感染後穩固免疫** |
+| Secondary attack rate 分母含 primary case | 分子、分母都要**扣掉 primary cases** |
+| 侵襲率最高的食物就是元兇 | 比較**有吃 vs 沒吃**的侵襲率，**差距最大**者才是 |

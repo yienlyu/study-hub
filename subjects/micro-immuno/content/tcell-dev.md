@@ -225,3 +225,19 @@
 ## 🎙️ 老師課堂提示
 - 老師說**不會考**：12/23 rule 的細節（「不會也沒關係，我們不會考這個東西」）、β/δ 的 D 兩側 RSS 差異、多樣性的確切次方數字、訊息傳導路徑中「哪個分子最重要」的挖洞題。
 - 老師強調的重點：**β 先於 α 重組（surrogate α）**、**α 重組會切掉 δ**、**CDR3 對應接合處**、**TCR 10¹⁸ > Ig 10¹³**、affinity model（「重點只有那張兩個墓碑的圖」）、AIRE 與 central tolerance、**anergy = 只有 signal 1**、CTLA-4 親和力 20 倍、effector T 不需 signal 2。
+
+## ⚠️ 陷阱整理
+| 容易選錯 | 正確 |
+|---|---|
+| Positive selection 與 self-tolerance 最相關 | Positive selection 決定 **MHC restriction**；**negative selection** 才是 self-tolerance（主動凋亡） |
+| TCR 沒有 SHM，所以多樣性比 BCR 小 | TCR 約 **10¹⁸ > Ig 約 5×10¹³**（junctional diversity 大） |
+| α 鏈先重組 | **β 先重組（DN2–3）**，與 **pTα（surrogate α）** 組成 pre-TCR → β-selection；α 在 DN4／DP |
+| δ 基因在 β 基因座 | **δ 在 α 基因座的 V 與 J 之間** → α 重組會**切掉 δ** |
+| γδ T 由 αβ T 衍生、受 MHC 限制 | γδ **不受 MHC 限制**、不是 αβ 衍生；配體可為 phospholipid |
+| CD4 有 ITAM 參與 TCR 訊息 | CD3γ、δ、ε、ζ 有 ITAM；**CD4 是考古答案「不參與胞內訊息」** |
+| MHC 缺陷小鼠卡在 DN | MHC I／II 缺陷 → **卡在 DP**（無法 positive selection） |
+| Naïve T 第二訊號是 CTLA-4 | 第二訊號是 **CD28–B7**；CTLA-4 也結合 B7，但**親和力高約 20 倍**、傳抑制訊號 |
+| Anergy 是缺 signal 1 | **Anergy = 只有 signal 1、沒有 signal 2** |
+| ZAP-70 磷酸化 ITAM | **Lck** 磷酸化 ITAM → **ZAP-70** 結合 → … → NFAT → IL-2 |
+| Effector T 仍需共刺激 | **Effector T 不需共刺激**（CTL 在周邊只需 signal 1） |
+| LFA-1 結合 CD58 | **LFA-1（CD11a:CD18）–ICAM-1／-2**；**CD2–CD58（LFA-3）** |

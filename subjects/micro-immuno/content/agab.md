@@ -152,3 +152,10 @@
 - 國考考過：抗體認抗原的位置 = V domain；補體結合抗體的位置 = **Fc**；B 細胞發育中的抗體表現順序（μ 先、mIgM → mIgM + mIgD）。
 - 錄影中的課堂題：B 細胞抗原特性「不包括」需 MHC；V region 重組在 bone marrow；IgA 敘述何者正確（secretory component 由上皮製造；**TGF-β** 促 IgA；IgA1 / IgA2 在血清與腸道比例不是 1:1）；最先的重組步驟 = heavy chain D–J；somatic hypermutation 只有 B 細胞。
 - 易混：抗體三功能（中和、調理、活化補體）vs 補體三功能（溶解、趨化、調理）；沒有 hinge 的是 **IgM、IgE**。
+
+## 📒 115 共筆對照（W03-1）
+- **IgD：老師說不會考。**
+- 老師強調：**secretory component 是上皮細胞做的**，不是 B cell／plasma cell。
+- 促進 IgA class switching 的關鍵 cytokine 是 **TGF-β**。
+- **IgG 是唯一能通過胎盤的抗體**（四個 subclass 都可以；國考常考）。
+- 算抗體多樣性時：**κ 與 λ 的可能數要相加、不是相乘**；注意 V gene 與 V domain 是不同層級。
