@@ -4,14 +4,33 @@
   "short": "流病",
   "term": "115-1 期中考",
   "examDate": "2026-11-10",
-  "description": "流行病學概論、描述性流病、疾病傳播動力學，以及疾病率與死亡率的測量。整合 2026 上課 slides、EverCam 逐字稿與 Gordis 課後練習題。",
+  "description": "流行病學概論、描述性流病、疾病傳播、疾病率與死亡率，以及篩檢效度、預後與臨床試驗。整合 2026 上課 slides、EverCam 逐字稿、百十三共筆與 109／110／114 期中考古。",
   "color": "#3d5a99",
   "icon": "📊",
   "questionFiles": [
+    "data/questions-kaogu.json",
     "data/questions-class.json",
     "data/questions-new.json"
   ],
   "sources": [
+    {
+      "key": "k114",
+      "label": "114 期中考古",
+      "kind": "exam",
+      "pill": "violet"
+    },
+    {
+      "key": "k110",
+      "label": "110 期中考古",
+      "kind": "exam",
+      "pill": "line"
+    },
+    {
+      "key": "k109",
+      "label": "109 期中考古",
+      "kind": "exam",
+      "pill": "line"
+    },
     {
       "key": "class",
       "label": "2026 課堂題",
@@ -38,6 +57,14 @@
       "chapters": [
         "morbidity",
         "mortality"
+      ]
+    },
+    {
+      "title": "期中考範圍：篩檢、預後與臨床試驗（尚未上課）",
+      "chapters": [
+        "screening",
+        "prognosis",
+        "rct"
       ]
     }
   ],
@@ -73,6 +100,30 @@
       "teacher": "謝芳宜",
       "week": "W4",
       "slides": true
+    },
+    {
+      "id": "screening",
+      "title": "診斷與篩檢試驗的效度與信度",
+      "en": "Validity & Reliability of Diagnostic and Screening Tests",
+      "teacher": "—",
+      "week": "未上",
+      "slides": false
+    },
+    {
+      "id": "prognosis",
+      "title": "疾病自然史與預後",
+      "en": "Natural History of Disease · Prognosis",
+      "teacher": "白其卉（去年）",
+      "week": "未上",
+      "slides": false
+    },
+    {
+      "id": "rct",
+      "title": "隨機臨床試驗",
+      "en": "Randomized Trials",
+      "teacher": "白其卉（去年）",
+      "week": "未上",
+      "slides": false
     }
   ],
   "insights": [
@@ -85,16 +136,20 @@
       "陳偉仁老師說題幹全部改成中文、專有名詞附英文，只有取自論文或課本的圖表是英文。課本 Gordis 是國考指定用書。"
     ],
     [
+      "考古題每年重複。",
+      "110 與 114 期中的臨床試驗、存活分析題幾乎一模一樣（single blind、隨機不必 1:1、三盲組合、aspirin × 紅麴 factorial、Phase 4、K-M 0.875／0.417、NNT = 5），一定要做。"
+    ],
+    [
+      "期中範圍到 Ch7。",
+      "去年期中考 Ch1–Ch7：概論、疾病率、死亡率、傳播、篩檢效度與信度、預後、臨床試驗。後三章今年還沒上，先依百十三共筆整理。114 期中還有填充題（四捨五入到小數第三位，答錯全錯）。"
+    ],
+    [
       "計算題集中在測量指標。",
       "發生率（扣掉已有病者的分母）、人時、盛行率、P = I × D、病原三特性、HIT = 1 − 1/R0、致死率、比例死亡、YPLL、SMR，每一個公式都要會算。"
     ],
     [
       "陷阱題：用盛行率推論風險。",
       "謝芳宜老師反覆強調「聽到罹病風險就要想到發生率」。Gordis 練習題常問「這個推論對不對」，答案常是沒有區分發生率與盛行率，或把比例當成率。"
-    ],
-    [
-      "目前沒有考古題。",
-      "練習區收錄 Morbidity 課後練習 10 題（Gordis 原題，附解答）和依 slides 編寫的模擬新題。"
     ]
   ]
 }

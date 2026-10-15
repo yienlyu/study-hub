@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 316" role="img" aria-label="死亡率、致死率與比例死亡的分母不同：十萬人中二十人患 X 病、十八人死於 X 病；死亡率為十八除以十萬，即每千人 0.18；致死率為十八除以二十，即 90%；比例死亡是死於 X 的人數除以所有死亡人數，是比例不是率。">
+
+<text x="10" y="20" class="th">三個指標差在分母</text>
+<rect x="20" y="36" width="330" height="250" rx="14" class="bp"/>
+<text x="34" y="58" class="tb" style="font-size:12px">全體人口 100,000（年中人口）</text>
+<rect x="120" y="96" width="200" height="120" rx="12" class="bv"/>
+<text x="134" y="118" class="tb tv" style="font-size:12px">X 病患者 20 人</text>
+<rect x="170" y="140" width="130" height="60" rx="10" class="br"/>
+<text x="184" y="164" class="tb tr" style="font-size:12px">死於 X 病 18 人</text>
+<rect x="40" y="236" width="290" height="36" rx="10" class="bw"/>
+<text x="54" y="259" class="tb" style="font-size:12px">所有死亡（各種死因）</text>
+<rect x="372" y="50" width="398" height="68" rx="10" class="bx"/>
+<g class="hot" data-tip="<b>死亡率</b>：分母是全體（年中）人口，回答「這個族群死於 X 的風險」。分母中的每個人都必須有可能進入分子。" data-label="死亡率 Mortality rate"><text x="386" y="72" class="tb" style="font-size:12px">死亡率 Mortality rate</text></g>
+<text x="386" y="92" style="font-size:12px">18 ÷ 100,000 = 0.18 / 1000</text>
+<text x="386" y="110" class="ts">分母：全部人口（年中）</text>
+<rect x="372" y="130" width="398" height="68" rx="10" class="bx"/>
+<g class="hot" data-tip="<b>致死率</b>：分母是<b>病人</b>，代表疾病的嚴重度；適合急性、短期疾病。" data-label="致死率 Case-fatality"><text x="386" y="152" class="tb" style="font-size:12px">致死率 Case-fatality</text></g>
+<text x="386" y="172" style="font-size:12px">18 ÷ 20 = 90%</text>
+<text x="386" y="190" class="ts">分母：有 X 病的人 → 嚴重度</text>
+<rect x="372" y="210" width="398" height="68" rx="10" class="bx"/>
+<g class="hot" data-tip="<b>比例死亡</b>：「所有死亡中有多少比例是 X 造成」。分母（總死亡）變大時，比例會下降，即使 X 的死亡率沒變 → 不能用來比較兩群人的風險。" data-label="比例死亡 Proportionate mortality"><text x="386" y="232" class="tb" style="font-size:12px">比例死亡 Proportionate mortality</text></g>
+<text x="386" y="252" style="font-size:12px">死於 X ÷ 所有死亡</text>
+<text x="386" y="270" class="ts">分母：總死亡數 → 是比例不是率</text>
+<text x="20" y="306" class="ts">陷阱：社區 A 總死亡率 30/1000、心臟病佔 10%；社區 B 15/1000、佔 20% → 兩邊心臟病死亡率都是 3/1000</text>
+</svg>

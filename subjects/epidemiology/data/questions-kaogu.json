@@ -1,0 +1,3326 @@
+[
+ {
+  "id": "k114-01",
+  "source": "114 期中考古",
+  "num": 1,
+  "chapter": "intro",
+  "type": "mcq",
+  "stem": "In the definition of epidemiology, the terms “distribution” and “determinants” together refer to:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Knowledge, attitudes, and practices related to health"
+   },
+   {
+    "k": "B",
+    "t": "Frequency, patterns, and causes of health events"
+   },
+   {
+    "k": "C",
+    "t": "The natural history of disease and its prevention"
+   },
+   {
+    "k": "D",
+    "t": "Dissemination of information to those who need to know"
+   },
+   {
+    "k": "E",
+    "t": "Public health services"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Distribution 是健康事件的頻率與模式（person／time／place），determinants 是造成這些事件的原因。",
+  "topics": [
+   "流行病學定義"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-02",
+  "source": "114 期中考古",
+  "num": 2,
+  "chapter": "intro",
+  "type": "mcq",
+  "stem": "Which of the following statements regarding the three levels and five stages of preventive medicine in the COVID-19 pandemic is CORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Wearing masks in the general population belongs to the first level of primary prevention, health promotion."
+   },
+   {
+    "k": "B",
+    "t": "Vaccination in the general population belongs to the first level of primary prevention, health promotion."
+   },
+   {
+    "k": "C",
+    "t": "Screening high-risk communities using throat swabs among asymptomatic individuals belongs to secondary prevention."
+   },
+   {
+    "k": "D",
+    "t": "Prescribing Remdesivir for patients who have been diagnosed with COVID-19 belongs to secondary prevention."
+   },
+   {
+    "k": "E",
+    "t": "Screening and treatment for people who have obvious COVID-19 symptoms belong to secondary prevention."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "對無症狀者篩檢屬於次段預防（早期發現）。戴口罩、接種疫苗是初段預防的「特殊保護」，不是健康促進；已確診者給藥是治療，有明顯症狀者已不是篩檢對象。",
+  "topics": [
+   "三段預防"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-03",
+  "source": "114 期中考古",
+  "num": 3,
+  "chapter": "intro",
+  "type": "mcq",
+  "stem": "Which of the following is the primary difference between a clinical approach and an epidemiologic approach?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Clinical research quantifies the magnitude of the biological basis of disease, which has little relevance to the epidemiologic approach."
+   },
+   {
+    "k": "B",
+    "t": "The epidemiologic approach examines disease occurrence among populations, whereas the clinical approach examines disease occurrence among individuals."
+   },
+   {
+    "k": "C",
+    "t": "The epidemiologic approach describes specific signs and symptoms and prescribes individual treatment, whereas clinical observations assess the causality between symptoms and disease."
+   },
+   {
+    "k": "D",
+    "t": "A randomized controlled trial belongs to clinical medicine but not to the epidemiologic approach, as the intervention is conducted."
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "流行病學以族群為對象，臨床醫學以個人為對象。RCT 也是流行病學的研究設計。",
+  "topics": [
+   "研究光譜"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-04",
+  "source": "114 期中考古",
+  "num": 4,
+  "chapter": "intro",
+  "type": "mcq",
+  "stem": "Which of the following statements is CORRECT regarding basic and epidemiologic research?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Multiple factors need to be considered in an epidemiologic study."
+   },
+   {
+    "k": "B",
+    "t": "Both basic and epidemiologic research require random assignment."
+   },
+   {
+    "k": "C",
+    "t": "While epidemiologic studies primarily focus on human populations, animals can be used as alternatives in epidemiologic research."
+   },
+   {
+    "k": "D",
+    "t": "Both basic and epidemiologic research provide strong evidence for causal relationships."
+   },
+   {
+    "k": "E",
+    "t": "People can intentionally be exposed to toxic substances in epidemiologic research, as in basic animal research."
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "流病研究要用多變項模型同時考慮多個因子；基礎研究才是隨機分派、一兩個因子、證明因果。流病研究不能用動物替代，也不能故意讓人暴露毒物。",
+  "topics": [
+   "研究光譜"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-05",
+  "source": "114 期中考古",
+  "num": 5,
+  "chapter": "intro",
+  "type": "mcq",
+  "stem": "Which of the following studies does NOT fall within the scope of descriptive epidemiology?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Investigation of dengue infection in southern Taiwan"
+   },
+   {
+    "k": "B",
+    "t": "Analysis of seasonal variation of enterovirus infections in children"
+   },
+   {
+    "k": "C",
+    "t": "Assessment of the geographical distribution of COVID-19 cases"
+   },
+   {
+    "k": "D",
+    "t": "Comparison of cancer incidence across countries"
+   },
+   {
+    "k": "E",
+    "t": "Examination of the association between air pollution and COVID-19 in low-income areas"
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "探討暴露（空汙）與疾病的「相關」屬於分析性流行病學；其他選項是描述 person／time／place。",
+  "topics": [
+   "描述性流病"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-06",
+  "source": "114 期中考古",
+  "num": 6,
+  "chapter": "intro",
+  "type": "mcq",
+  "stem": "Béjot 等人估計法國缺血性腦血管事件（CVEs）的人數，依研究期間、性別與年齡呈現（需原圖）。下列依圖的敘述何者 INCORRECT？",
+  "options": [
+   {
+    "k": "A",
+    "t": "The number of CVE cases among men appeared stable across study periods."
+   },
+   {
+    "k": "B",
+    "t": "The number of CVE cases among women was relatively higher during 2017-2018 than in other study periods."
+   },
+   {
+    "k": "C",
+    "t": "The number of CVE cases among women was mainly driven by those aged ≥80 years, regardless of study periods."
+   },
+   {
+    "k": "D",
+    "t": "The incidence of CVEs was higher among women than among men during 2017-2018."
+   },
+   {
+    "k": "E",
+    "t": "The number of CVE cases among women was higher than among men during 2017-2018."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "圖只呈現「人數」，沒有分母，不能推論「發生率」比較高。",
+  "topics": [
+   "人數 vs 率"
+  ],
+  "pattern": "判讀題",
+  "imageOnly": true
+ },
+ {
+  "id": "k114-07",
+  "source": "114 期中考古",
+  "num": 7,
+  "chapter": "intro",
+  "type": "mcq",
+  "stem": "The figure shows the monthly time series of influenza cases and samples tested from hospital-based sentinel surveillance in Bangladesh, 2010–2019. What kinds of trends are observed by visualizing?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Trends for secular and place"
+   },
+   {
+    "k": "B",
+    "t": "Trends for age and seasonal"
+   },
+   {
+    "k": "C",
+    "t": "Trends for secular and seasonal"
+   },
+   {
+    "k": "D",
+    "t": "Trends for secular and place"
+   },
+   {
+    "k": "E",
+    "t": "Trends for secular and age"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "10 年的逐月資料：可以看長期趨勢（secular）與季節性（seasonal），沒有地點或年齡的資訊。",
+  "topics": [
+   "描述性流病：Time"
+  ],
+  "pattern": "判讀題"
+ },
+ {
+  "id": "k114-08",
+  "source": "114 期中考古",
+  "num": 8,
+  "chapter": "intro",
+  "type": "mcq",
+  "stem": "Blackfoot disease is a peripheral vascular disorder that primarily affects the feet. It occurred during 1950–1960 in the coastal area of Taiwan and was limited to certain specific communities. What type of disease best describes Blackfoot disease?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Pandemic disease"
+   },
+   {
+    "k": "B",
+    "t": "Endemic disease"
+   },
+   {
+    "k": "C",
+    "t": "Vector-borne disease"
+   },
+   {
+    "k": "D",
+    "t": "Infectious disease"
+   },
+   {
+    "k": "E",
+    "t": "Blood-borne infectious disease"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "烏腳病侷限在北門、學甲、布袋、義竹等地，是慢性砷中毒造成的地方性（endemic）疾病，不是傳染病。（原題寫「southeastern」，實際是西南沿海。）",
+  "topics": [
+   "經典案例"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-09",
+  "source": "114 期中考古",
+  "num": 9,
+  "chapter": "mortality",
+  "type": "mcq",
+  "stem": "在一家安養中心發生新冠肺炎群聚事件，已知該安養中心目前居住 40 名老人，這波疫情共 20 人被感染，隨後出現 4 人死亡。請問 0.1 最有可能為下列何種指標？",
+  "options": [
+   {
+    "k": "A",
+    "t": "致死率（fatality rate）"
+   },
+   {
+    "k": "B",
+    "t": "死亡率（mortality rate）"
+   },
+   {
+    "k": "C",
+    "t": "發生率（incidence rate）"
+   },
+   {
+    "k": "D",
+    "t": "侵襲率（attack rate）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "4 ÷ 40 = 0.1 是以全部住民為分母的死亡率。致死率 = 4/20 = 0.2；侵襲率 = 20/40 = 0.5。",
+  "topics": [
+   "死亡率 vs 致死率"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k114-10",
+  "source": "114 期中考古",
+  "num": 10,
+  "chapter": "morbidity",
+  "type": "mcq",
+  "stem": "族群中的疾病盛行率會隨著時間起伏。盛行率的起伏「不會」受到下列何項因素影響？",
+  "options": [
+   {
+    "k": "A",
+    "t": "疾病發生率"
+   },
+   {
+    "k": "B",
+    "t": "疾病的治癒率"
+   },
+   {
+    "k": "C",
+    "t": "病人的存活率"
+   },
+   {
+    "k": "D",
+    "t": "疾病篩檢工具的陽性預測值"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "盛行率由新個案流入（發生率）與死亡、痊癒流出決定；PPV 是篩檢工具的特性，反而是受盛行率影響。",
+  "topics": [
+   "盛行率"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-11",
+  "source": "114 期中考古",
+  "num": 11,
+  "chapter": "morbidity",
+  "type": "mcq",
+  "stem": "以下何者為計算某城市疾病發生率（incidence rate）的分母？",
+  "options": [
+   {
+    "k": "A",
+    "t": "該城市的總人時（person-time）數"
+   },
+   {
+    "k": "B",
+    "t": "該城市的年中人口數"
+   },
+   {
+    "k": "C",
+    "t": "該城市風險族群之總觀察人時（person-time）數"
+   },
+   {
+    "k": "D",
+    "t": "該城市的總人數"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "發生密度的分母是 at risk 族群的總觀察人時；已經有病的人不能放進分母。",
+  "topics": [
+   "發生率"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-12",
+  "source": "114 期中考古",
+  "num": 12,
+  "chapter": "mortality",
+  "type": "mcq",
+  "stem": "下列有關年齡直接標準化死亡率（age adjusted mortality rate）的敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "可比較不同國家的死亡風險"
+   },
+   {
+    "k": "B",
+    "t": "可校正人口年齡結構不同所造成的干擾"
+   },
+   {
+    "k": "C",
+    "t": "經過標準化後所算出來的死亡率可視為該族群真正的死亡率"
+   },
+   {
+    "k": "D",
+    "t": "年齡直接標準化的作法可套用在發生率"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "標準化率是套用標準人口算出的假想值，只能用來比較，不是族群真正的死亡率。",
+  "topics": [
+   "年齡校正"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-13",
+  "source": "114 期中考古",
+  "num": 13,
+  "chapter": "morbidity",
+  "type": "mcq",
+  "stem": "有關發生率（incidence rate）與盛行率（prevalence）之敘述，下列何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "發生率可透過單次調查來測量，只要確定該次測量是否為初次發現"
+   },
+   {
+    "k": "B",
+    "t": "醫療技術的進步可以提升治癒率，在疾病發生率不改變的情形下，反而會使得疾病盛行率上升"
+   },
+   {
+    "k": "C",
+    "t": "在疾病的病程長短固定的前提下，發生率跟盛行率之間會呈負相關"
+   },
+   {
+    "k": "D",
+    "t": "發生率的計算，是由發病人數除以總人數"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "題目的意思是醫療進步讓病人活得更久（病程延長），依 P = I × D，盛行率上升。發生率要兩次調查；病程固定時兩者正相關；分母是 at risk 的人。",
+  "topics": [
+   "P = I × D"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-14",
+  "source": "114 期中考古",
+  "num": 14,
+  "chapter": "mortality",
+  "type": "mcq",
+  "stem": "想要計算 2021 年臺灣肺腺癌死亡分率（proportionate mortality），分子是 2021 年臺灣肺腺癌死亡個案數，則其分母為下列何者？",
+  "options": [
+   {
+    "k": "A",
+    "t": "2021 年臺灣全人口數"
+   },
+   {
+    "k": "B",
+    "t": "2021 年臺灣死亡人口數"
+   },
+   {
+    "k": "C",
+    "t": "2021 年臺灣有機會得到肺腺癌，但尚未罹患的人口數"
+   },
+   {
+    "k": "D",
+    "t": "2021 年臺灣罹患肺腺癌的個案數"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "比例死亡的分母是同期所有死亡人數。",
+  "topics": [
+   "比例死亡"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-15",
+  "source": "114 期中考古",
+  "num": 15,
+  "chapter": "morbidity",
+  "type": "mcq",
+  "stem": "以下關於疾病發生率（incidence）的描述，何者有誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "計算子宮頸癌發生率時若研究一開始未將子宮切除術的個案排除會導致子宮頸癌發生率被低估"
+   },
+   {
+    "k": "B",
+    "t": "發生密度（incidence density）適合使用在研究族群有失去追蹤或是死亡"
+   },
+   {
+    "k": "C",
+    "t": "篩檢的推動可以使發生率下降"
+   },
+   {
+    "k": "D",
+    "t": "發生率維持大於零，盛行率（prevalence）就會逐漸上升"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "篩檢會找出更多病例，短期內發生率反而上升（考古答案為 C）。",
+  "topics": [
+   "發生率"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-16",
+  "source": "114 期中考古",
+  "num": 16,
+  "chapter": "mortality",
+  "type": "mcq",
+  "stem": "有關死亡率採用年齡標準化的計算，以及比較人口老化程度差異大之不同國家年齡標準化死亡率之敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "對於同一個國家而言，年齡標準化死亡率採用 direct age adjustment method 會隨著標準人口選擇之不同而有不同"
+   },
+   {
+    "k": "B",
+    "t": "兩個國家的粗死亡率（crude mortality rate）即使相同，也無法判定其死亡風險是否相同"
+   },
+   {
+    "k": "C",
+    "t": "兩國死亡率比較時，礙於人口小之國家其年齡別死亡率可能較不穩定，因此傾向採用人口多之國家的年齡別死亡率來計算標準化死亡比（SMR）"
+   },
+   {
+    "k": "D",
+    "t": "兩國的粗死亡率不同，但各年齡別死亡率相同，比較時採標準族群選自第三地區之人口，兩國之直接年齡標準化死亡率不一定相同"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "各年齡別死亡率相同時，不論標準人口選誰，直接標準化後的率一定相同。",
+  "topics": [
+   "年齡校正"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-17",
+  "source": "114 期中考古",
+  "num": 17,
+  "chapter": "morbidity",
+  "type": "mcq",
+  "stem": "某研究者在某鄉鎮進行 50 歲以上之子宮頸癌初步調查，該鄉鎮 50 歲以上婦女有 2,600 位，其中 245 位自我報告曾罹患子宮頸癌，另有 355 位子宮已切除。追蹤此群婦女 10 年後，共有 20 名罹患子宮頸癌。追蹤期間的子宮頸癌累積發生率為何？",
+  "options": [
+   {
+    "k": "A",
+    "t": "每千人有 7.69 人"
+   },
+   {
+    "k": "B",
+    "t": "每千人有 8.49 人"
+   },
+   {
+    "k": "C",
+    "t": "每千人有 10.00 人"
+   },
+   {
+    "k": "D",
+    "t": "每千人有 118.04 人"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "at risk = 2,600 − 245（已罹病）− 355（子宮切除）= 2,000；20 ÷ 2,000 = 每千人 10 人。",
+  "topics": [
+   "發生率計算"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k114-18",
+  "source": "114 期中考古",
+  "num": 18,
+  "chapter": "morbidity",
+  "type": "mcq",
+  "stem": "假設糖尿病的危險因子不變，但醫療治療水準提升，當糖尿病的篩檢計畫積極推動且成效斐然，該疾病之發生率與死亡率有何改變？",
+  "options": [
+   {
+    "k": "A",
+    "t": "發生率不變，死亡率下降"
+   },
+   {
+    "k": "B",
+    "t": "發生率上升，死亡率下降"
+   },
+   {
+    "k": "C",
+    "t": "發生率下降，死亡率下降"
+   },
+   {
+    "k": "D",
+    "t": "以上皆非"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "篩檢找出更多病例 → 發生率上升；治療進步 → 死亡率下降。",
+  "topics": [
+   "發生率"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-19",
+  "source": "114 期中考古",
+  "num": 19,
+  "chapter": "morbidity",
+  "type": "mcq",
+  "stem": "在一項流行病學調查中，研究者觀察 100 名血清抗體為陰性的個案，一年之後其中有 30% 的人血清抗體轉成陽性。此「30%」所代表的流行病學意義為？",
+  "options": [
+   {
+    "k": "A",
+    "t": "發生率"
+   },
+   {
+    "k": "B",
+    "t": "盛行率"
+   },
+   {
+    "k": "C",
+    "t": "致死率"
+   },
+   {
+    "k": "D",
+    "t": "二次侵襲率"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "原本都是陰性（at risk），一年後新轉陽 = 新個案 → 累積發生率。",
+  "topics": [
+   "發生率"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-20",
+  "source": "114 期中考古",
+  "num": 20,
+  "chapter": "mortality",
+  "type": "mcq",
+  "stem": "下列敘述何者有誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "若死亡率排名心血管疾病在癌症之前，但以 YPLL 排名時癌症在心血管疾病之前，可推測癌症死亡族群的年齡層較輕"
+   },
+   {
+    "k": "B",
+    "t": "在進行一次性的全國調查時僅可獲得疾病盛行率，但無法獲得疾病發生率"
+   },
+   {
+    "k": "C",
+    "t": "若兩社區之心血管疾病死亡分率（proportionate mortality）相同，可推測此兩社區的死亡風險亦相同"
+   },
+   {
+    "k": "D",
+    "t": "被動偵測（passive surveillance）具有較容易啟動調查的優勢，但缺點為資料可能較不完整，易有遺漏值"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "比例死亡相同，總死亡率可能不同，所以死亡風險不一定相同。",
+  "topics": [
+   "比例死亡"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-21",
+  "source": "114 期中考古",
+  "num": 21,
+  "chapter": "mortality",
+  "type": "mcq",
+  "stem": "當衛生政策規劃者想同時考量失能與早死所造成的疾病負擔，以作為後續疾病研究經費的分配，下列何者為最適合的量測指標？",
+  "options": [
+   {
+    "k": "A",
+    "t": "YPLL（years of potential life lost）"
+   },
+   {
+    "k": "B",
+    "t": "DALY（disability-adjusted life year）"
+   },
+   {
+    "k": "C",
+    "t": "Mortality rate"
+   },
+   {
+    "k": "D",
+    "t": "Case fatality rate"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "DALY = YLL（早死）＋ YLD（失能）。YPLL 只看早死。",
+  "topics": [
+   "疾病負擔"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-22",
+  "source": "114 期中考古",
+  "num": 22,
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "關於傳染病流行病學（Infectious Disease Epidemiology），下列何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "研究對象僅限人類（humans only）"
+   },
+   {
+    "k": "B",
+    "t": "病例本身不會影響他人暴露風險"
+   },
+   {
+    "k": "C",
+    "t": "傳染病的致病原因通常未知"
+   },
+   {
+    "k": "D",
+    "t": "一個病例（case）可能成為他人的暴露風險"
+   },
+   {
+    "k": "E",
+    "t": "不涉及傳染媒介（vector or vehicles）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "傳染病流病的特色：一個 case 本身就是危險因子；病因通常已知；涉及人、病原與媒介。",
+  "topics": [
+   "傳染病流病特色"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-23",
+  "source": "114 期中考古",
+  "num": 23,
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "下列何者為「毒性（Virulence）」的正確定義？",
+  "options": [
+   {
+    "k": "A",
+    "t": "number infected / number susceptible"
+   },
+   {
+    "k": "B",
+    "t": "number with clinical disease / number infected"
+   },
+   {
+    "k": "C",
+    "t": "number of deaths / number with disease"
+   },
+   {
+    "k": "D",
+    "t": "proportion immune in a population"
+   },
+   {
+    "k": "E",
+    "t": "number exposed / total number in population"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Virulence（致死率）= 死亡數 ÷ 發病數。A 是 infectivity，B 是 pathogenicity。",
+  "topics": [
+   "病原三特性"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-24",
+  "source": "114 期中考古",
+  "num": 24,
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "下列何者情境「無法」形成群體免疫（herd immunity）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "病原僅能在人與人間直接傳播"
+   },
+   {
+    "k": "B",
+    "t": "病原只感染一種宿主物種"
+   },
+   {
+    "k": "C",
+    "t": "病原具有重要的傳染窩（reservoir）"
+   },
+   {
+    "k": "D",
+    "t": "感染後可產生持久免疫"
+   },
+   {
+    "k": "E",
+    "t": "族群中免疫覆蓋率達到群體免疫閾值（threshold）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "有 reservoir 時病原可以躲在傳染窩伺機傳播，herd immunity 無法成立。",
+  "topics": [
+   "Herd immunity"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-25",
+  "source": "114 期中考古",
+  "num": 25,
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "一次餐會造成急性腸胃炎，病例在一個潛伏期內集中發生，流行曲線呈尖峰後漸降，最可能為何種疫情型態？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Propagated outbreak（連鎖感染）"
+   },
+   {
+    "k": "B",
+    "t": "Continuous common source（持續共同來源）"
+   },
+   {
+    "k": "C",
+    "t": "Intermittent exposure（間斷共同來源）"
+   },
+   {
+    "k": "D",
+    "t": "Endemic pattern（地方性流行）"
+   },
+   {
+    "k": "E",
+    "t": "Point source outbreak（點源共同來源）"
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "單次短暫暴露、所有病例在一個潛伏期內、快升慢降 → point source。",
+  "topics": [
+   "流行曲線"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-26",
+  "source": "114 期中考古",
+  "num": 26,
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "若基本再生數（R0）= 4，則群體免疫閾值（HIT）= ？",
+  "options": [
+   {
+    "k": "A",
+    "t": "25%"
+   },
+   {
+    "k": "B",
+    "t": "50%"
+   },
+   {
+    "k": "C",
+    "t": "60%"
+   },
+   {
+    "k": "D",
+    "t": "75%"
+   },
+   {
+    "k": "E",
+    "t": "90%"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "HIT = 1 − 1/R0 = 1 − 1/4 = 75%。",
+  "topics": [
+   "Herd immunity"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k114-27",
+  "source": "114 期中考古",
+  "num": 27,
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "關於潛伏期（incubation period）的敘述，下列何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "指感染後立刻出現臨床症狀的時間"
+   },
+   {
+    "k": "B",
+    "t": "感染後出現臨床症狀前的無症狀期間"
+   },
+   {
+    "k": "C",
+    "t": "僅受宿主年齡影響"
+   },
+   {
+    "k": "D",
+    "t": "與感染劑量無關"
+   },
+   {
+    "k": "E",
+    "t": "僅見於病毒不見於細菌"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "潛伏期是從感染到出現臨床症狀的時間，受病原複製時間、複製部位與劑量影響。",
+  "topics": [
+   "潛伏期"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-28",
+  "source": "114 期中考古",
+  "num": 28,
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "「二次侵襲率（secondary attack rate）」的正確解釋為何？",
+  "options": [
+   {
+    "k": "A",
+    "t": "所有人中發病者佔比"
+   },
+   {
+    "k": "B",
+    "t": "初次暴露後立刻感染者比例"
+   },
+   {
+    "k": "C",
+    "t": "暴露於 primary case 的易感者中發病比例"
+   },
+   {
+    "k": "D",
+    "t": "所有進食某食物者中發病比例"
+   },
+   {
+    "k": "E",
+    "t": "在一地持續存在疾病的程度"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "二次侵襲率是易感受者接觸 primary case 後的發病比例（分子分母都扣掉 primary cases）。D 是 food-specific attack rate。",
+  "topics": [
+   "Attack rate"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-30",
+  "source": "114 期中考古",
+  "num": 30,
+  "chapter": "screening",
+  "type": "mcq",
+  "stem": "某醫院為提升糖尿病篩檢效率，將血糖陽性界值（cut-point）由 200 mg/dL 降為 100 mg/dL。若此醫院人群糖尿病盛行率高，下列最可能的結果為：",
+  "options": [
+   {
+    "k": "A",
+    "t": "敏感度降低，特異度提高"
+   },
+   {
+    "k": "B",
+    "t": "敏感度提高，但陽性預測值（PPV）下降"
+   },
+   {
+    "k": "C",
+    "t": "敏感度與 PPV 皆提高"
+   },
+   {
+    "k": "D",
+    "t": "特異度與 PPV 皆提高"
+   },
+   {
+    "k": "E",
+    "t": "陰性預測值（NPV）下降"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "切點降低 → 抓到更多病人（敏感度 ↑），但偽陽性也變多（特異度 ↓、PPV ↓）。",
+  "topics": [
+   "切點"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-31",
+  "source": "114 期中考古",
+  "num": 31,
+  "chapter": "screening",
+  "type": "mcq",
+  "stem": "若同一人先以低成本的 Test A 篩出陽性，再用精密的 Test B 確認。此篩檢策略最可能造成：",
+  "options": [
+   {
+    "k": "A",
+    "t": "淨敏感度（net sensitivity）下降、淨特異度（net specificity）上升"
+   },
+   {
+    "k": "B",
+    "t": "淨敏感度上升、淨特異度下降"
+   },
+   {
+    "k": "C",
+    "t": "兩者同時上升"
+   },
+   {
+    "k": "D",
+    "t": "兩者同時下降"
+   },
+   {
+    "k": "E",
+    "t": "兩者不變"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "序列篩檢：兩次都陽性才算陽性 → 淨敏感度下降、淨特異度上升。",
+  "topics": [
+   "序列 vs 平行"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-32",
+  "source": "114 期中考古",
+  "num": 32,
+  "chapter": "screening",
+  "type": "mcq",
+  "stem": "若對同一名患者同時使用兩種篩檢法（Test A 敏感度 80%、特異度 60%；Test B 敏感度 90%、特異度 90%），下列推論何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "兩者同時使用會使淨敏感度高於 90%"
+   },
+   {
+    "k": "B",
+    "t": "兩者同時使用可消除假陽性"
+   },
+   {
+    "k": "C",
+    "t": "兩者同時使用將提升淨特異度至 > 90%"
+   },
+   {
+    "k": "D",
+    "t": "兩者同時使用會減少淨敏感度"
+   },
+   {
+    "k": "E",
+    "t": "兩者同時使用結果與任一單獨測試相同"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "平行篩檢：淨敏感度 = 0.8 + 0.9 − 0.8 × 0.9 = 98%；淨特異度 = 0.6 × 0.9 = 54%。",
+  "topics": [
+   "序列 vs 平行"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k114-33",
+  "source": "114 期中考古",
+  "num": 33,
+  "chapter": "screening",
+  "type": "mcq",
+  "stem": "若一篩檢試驗的敏感度與特異度固定，當疾病盛行率由 1% 上升至 10% 時，陽性預測值（PPV）與陰性預測值（NPV）分別如何變化？",
+  "options": [
+   {
+    "k": "A",
+    "t": "PPV 不變、NPV 上升"
+   },
+   {
+    "k": "B",
+    "t": "PPV 上升、NPV 不變"
+   },
+   {
+    "k": "C",
+    "t": "PPV 下降、NPV 上升"
+   },
+   {
+    "k": "D",
+    "t": "PPV 上升、NPV 下降"
+   },
+   {
+    "k": "E",
+    "t": "兩者皆不變"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "盛行率上升 → PPV 上升、NPV 下降。",
+  "topics": [
+   "預測值"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-34",
+  "source": "114 期中考古",
+  "num": 34,
+  "chapter": "screening",
+  "type": "mcq",
+  "stem": "兩位放射科醫師各自判讀 100 張胸部 X 光片，結果一致率為 90%，但 Kappa 值僅 0.45。最合理的解釋為：",
+  "options": [
+   {
+    "k": "A",
+    "t": "觀察者之間幾乎完全一致"
+   },
+   {
+    "k": "B",
+    "t": "由於疾病盛行率極低，機率一致（chance agreement）較高"
+   },
+   {
+    "k": "C",
+    "t": "Kappa 被高盛行率高估"
+   },
+   {
+    "k": "D",
+    "t": "其中一位觀察者習慣性給出不同判讀，造成一致性下降"
+   },
+   {
+    "k": "E",
+    "t": "該測試信度極佳"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "大部分片子都是陰性時，靠機率就會很一致（Pc 很高），所以 κ = (P₀ − Pc)/(1 − Pc) 被拉低。",
+  "topics": [
+   "Kappa"
+  ],
+  "pattern": "判讀題"
+ },
+ {
+  "id": "k114-35",
+  "source": "114 期中考古",
+  "num": 35,
+  "chapter": "screening",
+  "type": "mcq",
+  "stem": "某新型快篩試驗在低盛行社區中敏感度 95%、特異度 95%。若陽性結果送至醫院確診時，只有 40% 被證實為真陽性。依據此現象，下列推論何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "該快篩測試之敏感度實際遠低於 95%"
+   },
+   {
+    "k": "B",
+    "t": "在低盛行族群中，PPV 會顯著下降"
+   },
+   {
+    "k": "C",
+    "t": "提高特異度將導致 PPV 下降"
+   },
+   {
+    "k": "D",
+    "t": "測試之信度（reliability）不佳"
+   },
+   {
+    "k": "E",
+    "t": "該測試不具任何公共衛生價值"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "40% 就是 PPV；盛行率低時，即使敏感度、特異度都高，PPV 仍會很低。提高特異度反而會提高 PPV。",
+  "topics": [
+   "預測值"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-36",
+  "source": "114 期中考古",
+  "num": 36,
+  "chapter": "rct",
+  "type": "mcq",
+  "stem": "研究者在規劃臨床試驗時，下面哪種技巧「不適當」？",
+  "options": [
+   {
+    "k": "A",
+    "t": "按照事先擬定的納入排除標準來收取研究個案"
+   },
+   {
+    "k": "B",
+    "t": "將各案隨機分派到對照組和標準治療組"
+   },
+   {
+    "k": "C",
+    "t": "為了讓執行試驗者不知道個案的組別，執行時使用 single blind"
+   },
+   {
+    "k": "D",
+    "t": "為了確認受試者是否每日使用藥物，因此要求個案作用藥紀錄"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "single blind 只讓受試者不知道組別；要讓執行試驗者也不知道，必須用 double blind。",
+  "topics": [
+   "盲性"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-37",
+  "source": "114 期中考古",
+  "num": 37,
+  "chapter": "rct",
+  "type": "mcq",
+  "stem": "關於隨機分派的敘述，下面何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "可以降低指派治療組別時的選擇性誤差（selection bias）"
+   },
+   {
+    "k": "B",
+    "t": "隨機分派只能採用 1:1 的機率進行分派"
+   },
+   {
+    "k": "C",
+    "t": "無法進行隨機分派，還是能夠執行臨床試驗"
+   },
+   {
+    "k": "D",
+    "t": "搭配盲性能讓試驗品質更佳"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "隨機分派的機率不一定要 1:1（也有非固定機率分派）。",
+  "topics": [
+   "隨機分派"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-38",
+  "source": "114 期中考古",
+  "num": 38,
+  "chapter": "rct",
+  "type": "mcq",
+  "stem": "使用三盲（triple-blind）設計時，下面哪種研究人員組合符合定義？",
+  "options": [
+   {
+    "k": "A",
+    "t": "照顧醫師、藥師及護理師"
+   },
+   {
+    "k": "B",
+    "t": "病例、對照及計畫主持醫師"
+   },
+   {
+    "k": "C",
+    "t": "收集資料的研究護理師、測量超音波的檢查技師及判讀報告醫師"
+   },
+   {
+    "k": "D",
+    "t": "病人、照顧醫師及統計分析師"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "三盲 = 受試者＋施測者＋資料處理（統計分析）者。",
+  "topics": [
+   "盲性"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-39",
+  "source": "114 期中考古",
+  "num": 39,
+  "chapter": "rct",
+  "type": "mcq",
+  "stem": "某研究者使用交叉試驗（crossover design）研究 A 藥與 B 營養素對於保持骨質密度的效果，以下描述何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "可以去除介入方式順序的影響"
+   },
+   {
+    "k": "B",
+    "t": "必須考慮先進行 A 藥介入後，對於下一階段（攝取 B 營養素）的殘餘影響（residual effects）"
+   },
+   {
+    "k": "C",
+    "t": "需觀察個案是否遵守藥品或營養素的遵從性（compliance）"
+   },
+   {
+    "k": "D",
+    "t": "可以依據運動量做分層隨機分派（stratified randomization）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "交叉試驗反而要擔心順序與殘餘效應（carryover），所以中間要停藥；它本身不能去除順序影響。",
+  "topics": [
+   "交叉試驗"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-40",
+  "source": "114 期中考古",
+  "num": 40,
+  "chapter": "rct",
+  "type": "mcq",
+  "stem": "下面敘述何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Phase 1 試驗用來測試新成分的藥理毒理"
+   },
+   {
+    "k": "B",
+    "t": "Phase 2 試驗通常是小型試驗，用來測試藥品有效劑量"
+   },
+   {
+    "k": "C",
+    "t": "Phase 3 試驗是大型試驗，用來測試藥品中長期成效及副作用"
+   },
+   {
+    "k": "D",
+    "t": "Phase 4 試驗需要比 Phase 3 更大的樣本，完成後藥品才能上市"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Phase 3 完成就能上市；Phase 4 是上市後監測。",
+  "topics": [
+   "新藥試驗分期"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-41",
+  "source": "114 期中考古",
+  "num": 41,
+  "chapter": "rct",
+  "type": "mcq",
+  "stem": "某藥學系老師想了解 Aspirin 與紅麴單獨使用或合併使用時，兩成分在凝血功能的主效果及可能的交互作用，你會建議下面哪個設計？",
+  "options": [
+   {
+    "k": "A",
+    "t": "將個案隨機分派至 Aspirin 和紅麴兩組，獲得結果後再將兩組互換"
+   },
+   {
+    "k": "B",
+    "t": "將個案隨機分派至 Aspirin、紅麴兩組，並進行 double blind"
+   },
+   {
+    "k": "C",
+    "t": "先進行未用藥前凝血功能測量，提供 Aspirin 和紅麴給個案，並進行用藥後測量"
+   },
+   {
+    "k": "D",
+    "t": "建立 Aspirin 和紅麴的 factorial design，並以隨機分派方式分組"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "要同時看兩者的主效果與交互作用 → 因子型設計（factorial design）。A 是交叉試驗。",
+  "topics": [
+   "因子型設計"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-42",
+  "source": "114 期中考古",
+  "num": 42,
+  "chapter": "rct",
+  "type": "mcq",
+  "stem": "以下何者「不是」第三期臨床試驗的優點？",
+  "options": [
+   {
+    "k": "A",
+    "t": "結果適合外推，因此常用於藥理研究"
+   },
+   {
+    "k": "B",
+    "t": "隨機分派雙盲同期對照臨床試驗是最具證據力的研究設計，兼具時序性"
+   },
+   {
+    "k": "C",
+    "t": "試驗設計可以同時觀察多種健康結果"
+   },
+   {
+    "k": "D",
+    "t": "可以根據研究問題採用兩種以上介入，也可觀察特殊劑量的成效"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "臨床試驗的限制之一就是外推性有限（考古答案 A）。",
+  "topics": [
+   "臨床試驗優勢與限制"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-43",
+  "source": "114 期中考古",
+  "num": 43,
+  "chapter": "prognosis",
+  "type": "mcq",
+  "stem": "圖為 300 名病人手術後觀察 8 年的存活狀況（需原圖），存活中點（median survival time）會落在哪段時間內？",
+  "options": [
+   {
+    "k": "A",
+    "t": "1–1.7 年"
+   },
+   {
+    "k": "B",
+    "t": "2–2.4 年"
+   },
+   {
+    "k": "C",
+    "t": "3–3.9 年"
+   },
+   {
+    "k": "D",
+    "t": "6–6.4 年"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "看存活曲線降到 50% 時對應的時間。",
+  "topics": [
+   "存活中位數"
+  ],
+  "pattern": "判讀題",
+  "imageOnly": true
+ },
+ {
+  "id": "k114-44-1",
+  "source": "114 期中考古",
+  "num": 44,
+  "chapter": "prognosis",
+  "type": "short",
+  "stem": "（填充，四捨五入到小數第三位）某外科醫師收集 2015–2019 年間 461 名進行肝癌手術合併標靶治療的病人，假設所有病人都有完成追蹤：\n治療年  人數  第1年  第2年  第3年  第4年  第5年（各週年仍存活人數）\n2015    95    78    64    51    42    34\n2016    87    70    56    48    38\n2017    92    76    65    52\n2018    89    72    68\n2019    98    80\nTotal  461   376   253   151    80    34\n(1) 重點手術的 5 年存活率（比例，不需 life table 精準估計）？",
+  "options": [],
+  "answer": [
+   "0.358"
+  ],
+  "answerText": "0.358",
+  "explain": "只有 2015 年的 95 人有完整 5 年追蹤，其中 34 人存活：34 ÷ 95 = 0.358。",
+  "topics": [
+   "五年存活率"
+  ],
+  "pattern": "填充題"
+ },
+ {
+  "id": "k114-44-2",
+  "source": "114 期中考古",
+  "num": 44,
+  "chapter": "prognosis",
+  "type": "short",
+  "stem": "（填充，四捨五入到小數第三位）某外科醫師收集 2015–2019 年間 461 名進行肝癌手術合併標靶治療的病人，假設所有病人都有完成追蹤：\n治療年  人數  第1年  第2年  第3年  第4年  第5年（各週年仍存活人數）\n2015    95    78    64    51    42    34\n2016    87    70    56    48    38\n2017    92    76    65    52\n2018    89    72    68\n2019    98    80\nTotal  461   376   253   151    80    34\n(2) 以 life table method 計算病人第 3 年的存活機率（the probability for the 3rd year）？",
+  "options": [],
+  "answer": [
+   "0.816"
+  ],
+  "answerText": "0.816",
+  "explain": "第 3 年存活人數 151 ÷（第 2 年存活 253 − 沒有第 3 年紀錄的 2018 年 68 人）= 151 ÷ 185 = 0.816。",
+  "topics": [
+   "生命表"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k114-44-3",
+  "source": "114 期中考古",
+  "num": 44,
+  "chapter": "prognosis",
+  "type": "short",
+  "stem": "（填充，四捨五入到小數第三位）某外科醫師收集 2015–2019 年間 461 名進行肝癌手術合併標靶治療的病人，假設所有病人都有完成追蹤：\n治療年  人數  第1年  第2年  第3年  第4年  第5年（各週年仍存活人數）\n2015    95    78    64    51    42    34\n2016    87    70    56    48    38\n2017    92    76    65    52\n2018    89    72    68\n2019    98    80\nTotal  461   376   253   151    80    34\n(3) 病人存活累積滿 3 年的機率（the probability of surviving for 3 years）？",
+  "options": [],
+  "answer": [
+   "0.569"
+  ],
+  "answerText": "0.569",
+  "explain": "P₁ = 376/461、P₂ = 253/(376 − 80)、P₃ = 151/(253 − 68)；累乘 ≈ 0.569。",
+  "topics": [
+   "生命表"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k114-44-4",
+  "source": "114 期中考古",
+  "num": 44,
+  "chapter": "prognosis",
+  "type": "short",
+  "stem": "（填充）肝臟移植病人：\n週數  當時存活人數  當時死亡人數\n1     8     1\n2     7     1\n4     6     1\n12    3     1\n24    1     1\n(4) 以 Kaplan-Meier method 算出第 1 週的病人存活率？",
+  "options": [],
+  "answer": [
+   "0.875"
+  ],
+  "answerText": "0.875",
+  "explain": "第 1 週 8 人中死 1 人：7/8 = 0.875。",
+  "topics": [
+   "Kaplan-Meier"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k114-44-5",
+  "source": "114 期中考古",
+  "num": 44,
+  "chapter": "prognosis",
+  "type": "short",
+  "stem": "（填充）肝臟移植病人：\n週數  當時存活人數  當時死亡人數\n1     8     1\n2     7     1\n4     6     1\n12    3     1\n24    1     1\n(5) 以 Kaplan-Meier method 算出病人累計到第 12 週的存活率？",
+  "options": [],
+  "answer": [
+   "0.417"
+  ],
+  "answerText": "0.417",
+  "explain": "7/8 × 6/7 × 5/6 × 2/3 = 0.417。",
+  "topics": [
+   "Kaplan-Meier"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k114-44-6",
+  "source": "114 期中考古",
+  "num": 44,
+  "chapter": "rct",
+  "type": "short",
+  "stem": "（填充）和只有手術的病人相比，以標靶治療輔助肝癌病人時，3 個月的惡化率由 60% 降為 40%。使用標靶治療時每減少一個惡化所需治療的病人數（NNT）為多少人？",
+  "options": [],
+  "answer": [
+   "5"
+  ],
+  "answerText": "5",
+  "explain": "NNT = 1 ÷ (0.6 − 0.4) = 5。",
+  "topics": [
+   "NNT"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k110-I-1a",
+  "source": "110 期中考古",
+  "num": 1,
+  "chapter": "mortality",
+  "type": "mcq",
+  "stem": "A 城市與 B 鄉鎮的年齡別人口與死亡數：\n年齡     A 人口   A 死亡   B 人口\n<40     15,000     75     1,000\n40–60   55,000  1,100     3,500\n≥60     30,000  1,500     6,000\nTotal  100,000  2,675    10,500（B 鄉鎮總死亡 750 人）\n(1) A 城市 ≥60 歲的年齡別死亡率為？（%）",
+  "options": [
+   {
+    "k": "A",
+    "t": "0.05"
+   },
+   {
+    "k": "B",
+    "t": "5"
+   },
+   {
+    "k": "C",
+    "t": "1.5"
+   },
+   {
+    "k": "D",
+    "t": "0.015"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "1,500 ÷ 30,000 = 5%。",
+  "topics": [
+   "年齡別死亡率"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k110-I-1b",
+  "source": "110 期中考古",
+  "num": 1,
+  "chapter": "mortality",
+  "type": "mcq",
+  "stem": "A 城市與 B 鄉鎮的年齡別人口與死亡數：\n年齡     A 人口   A 死亡   B 人口\n<40     15,000     75     1,000\n40–60   55,000  1,100     3,500\n≥60     30,000  1,500     6,000\nTotal  100,000  2,675    10,500（B 鄉鎮總死亡 750 人）\n(2) A 城市的粗死亡率為？（%）",
+  "options": [
+   {
+    "k": "A",
+    "t": "0.01"
+   },
+   {
+    "k": "B",
+    "t": "0.03"
+   },
+   {
+    "k": "C",
+    "t": "1.34"
+   },
+   {
+    "k": "D",
+    "t": "2.68"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "2,675 ÷ 100,000 ≈ 2.68%。",
+  "topics": [
+   "粗死亡率"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k110-I-1c",
+  "source": "110 期中考古",
+  "num": 1,
+  "chapter": "mortality",
+  "type": "mcq",
+  "stem": "A 城市與 B 鄉鎮的年齡別人口與死亡數：\n年齡     A 人口   A 死亡   B 人口\n<40     15,000     75     1,000\n40–60   55,000  1,100     3,500\n≥60     30,000  1,500     6,000\nTotal  100,000  2,675    10,500（B 鄉鎮總死亡 750 人）\n(3) 假設 A 城市死於心臟病的人數為 535 人，該城市的心臟病死亡分率為？（%）",
+  "options": [
+   {
+    "k": "A",
+    "t": "0.20"
+   },
+   {
+    "k": "B",
+    "t": "0.63"
+   },
+   {
+    "k": "C",
+    "t": "20.00"
+   },
+   {
+    "k": "D",
+    "t": "63.00"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "比例死亡 = 535 ÷ 2,675 = 20%。",
+  "topics": [
+   "比例死亡"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k110-I-1d",
+  "source": "110 期中考古",
+  "num": 1,
+  "chapter": "mortality",
+  "type": "mcq",
+  "stem": "A 城市與 B 鄉鎮的年齡別人口與死亡數：\n年齡     A 人口   A 死亡   B 人口\n<40     15,000     75     1,000\n40–60   55,000  1,100     3,500\n≥60     30,000  1,500     6,000\nTotal  100,000  2,675    10,500（B 鄉鎮總死亡 750 人）\n(4) 若使用間接標準化（SMR）比較兩地區的死亡風險，SMR 的值與判斷為何？",
+  "options": [
+   {
+    "k": "A",
+    "t": "SMR = 200，A 城市的死亡風險 < B 鄉鎮"
+   },
+   {
+    "k": "B",
+    "t": "SMR = 200，A 城市的死亡風險 > B 鄉鎮"
+   },
+   {
+    "k": "C",
+    "t": "SMR = 238，A 城市的死亡風險 < B 鄉鎮"
+   },
+   {
+    "k": "D",
+    "t": "SMR = 50，A 城市的死亡風險 < B 鄉鎮"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "用 A 城市的年齡別死亡率算 B 的預期死亡：1,000 × 0.5% + 3,500 × 2% + 6,000 × 5% = 5 + 70 + 300 = 375；SMR = 750 ÷ 375 = 200% → B 鄉鎮風險較高。",
+  "topics": [
+   "SMR"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k110-I-2",
+  "source": "110 期中考古",
+  "num": 2,
+  "chapter": "morbidity",
+  "type": "mcq",
+  "stem": "欲了解某社區老人罹患退化性關節炎的情況，以作為規劃復健中心的依據，何種測量可提供最有用的參考資料？",
+  "options": [
+   {
+    "k": "A",
+    "t": "發生率（incidence rate）"
+   },
+   {
+    "k": "B",
+    "t": "盛行率（prevalence rate）"
+   },
+   {
+    "k": "C",
+    "t": "死亡率（mortality rate）"
+   },
+   {
+    "k": "D",
+    "t": "致死率（case-fatality rate）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "規劃醫療資源要知道目前有多少病人 → 盛行率（疾病負擔）。",
+  "topics": [
+   "盛行率"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k110-I-3",
+  "source": "110 期中考古",
+  "num": 3,
+  "chapter": "mortality",
+  "type": "mcq",
+  "stem": "下列何者為沒有「分母」的指標？",
+  "options": [
+   {
+    "k": "A",
+    "t": "潛在生命損失年數"
+   },
+   {
+    "k": "B",
+    "t": "標準化死亡率"
+   },
+   {
+    "k": "C",
+    "t": "累積發生率"
+   },
+   {
+    "k": "D",
+    "t": "A 與 B"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "YPLL 是把每個死者的（標準年齡 − 死亡年齡）加總，沒有分母。",
+  "topics": [
+   "YPLL"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k110-I-4",
+  "source": "110 期中考古",
+  "num": 4,
+  "chapter": "morbidity",
+  "type": "mcq",
+  "stem": "某藥廠研發出更有效治療高血壓的新藥，並已列為健保給付用藥。在其他與血壓相關的因素不變下，未來台灣地區高血壓的「發生率」會有什麼變化？",
+  "options": [
+   {
+    "k": "A",
+    "t": "持續下降"
+   },
+   {
+    "k": "B",
+    "t": "先下降，而後會再轉為上升"
+   },
+   {
+    "k": "C",
+    "t": "先上升，而後會再轉為下降"
+   },
+   {
+    "k": "D",
+    "t": "沒有變化"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "發生率的分子是新個案；治療已罹病者不會改變新發病的人數。",
+  "topics": [
+   "發生率"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k110-II-1",
+  "source": "110 期中考古",
+  "num": 5,
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "根據老師的講義內容，何者不是影響疾病傳播的要素？",
+  "options": [
+   {
+    "k": "A",
+    "t": "宿主"
+   },
+   {
+    "k": "B",
+    "t": "病原"
+   },
+   {
+    "k": "C",
+    "t": "環境"
+   },
+   {
+    "k": "D",
+    "t": "病媒"
+   },
+   {
+    "k": "E",
+    "t": "以上皆有可能是"
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "宿主、病原、環境是三角，病媒有時也會加入，四者都是影響傳播的要素。",
+  "topics": [
+   "流行病學三角"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k110-II-2",
+  "source": "110 期中考古",
+  "num": 6,
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "在傳染病爆發的調查中，繪製流行曲線（epidemic curve）會很有幫助，因為：",
+  "options": [
+   {
+    "k": "A",
+    "t": "它有助於確定發生了什麼類型的爆發（例如單一來源、人與人之間）"
+   },
+   {
+    "k": "B",
+    "t": "它顯示是否發生了群體免疫"
+   },
+   {
+    "k": "C",
+    "t": "它有助於確定潛伏期中位數"
+   },
+   {
+    "k": "D",
+    "t": "A 和 C"
+   },
+   {
+    "k": "E",
+    "t": "A、B 和 C"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "流行曲線可判斷爆發型態、估計潛伏期；無法直接顯示群體免疫。",
+  "topics": [
+   "流行曲線"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k110-II-3",
+  "source": "110 期中考古",
+  "num": 7,
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "以下哪條流行曲線代表連鎖感染爆發（propagated outbreak）？（需原圖）",
+  "options": [
+   {
+    "k": "A",
+    "t": "Fig A"
+   },
+   {
+    "k": "B",
+    "t": "Fig B"
+   },
+   {
+    "k": "C",
+    "t": "Fig C"
+   },
+   {
+    "k": "D",
+    "t": "Fig D"
+   },
+   {
+    "k": "E",
+    "t": "以上都不是"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Propagated：多波、峰值逐漸升高、間隔一個潛伏期。",
+  "topics": [
+   "流行曲線"
+  ],
+  "pattern": "判讀題",
+  "imageOnly": true
+ },
+ {
+  "id": "k110-II-4",
+  "source": "110 期中考古",
+  "num": 8,
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "Epidemic 意味著一種疾病：",
+  "options": [
+   {
+    "k": "A",
+    "t": "發生明顯超出正常期望值"
+   },
+   {
+    "k": "B",
+    "t": "經常性地存在於人群中"
+   },
+   {
+    "k": "C",
+    "t": "同時影響許多國家"
+   },
+   {
+    "k": "D",
+    "t": "表現出季節性模式"
+   },
+   {
+    "k": "E",
+    "t": "在動物中普遍存在"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Epidemic = 超過正常預期；B 是 endemic；C 是 pandemic。",
+  "topics": [
+   "Endemic／Epidemic／Pandemic"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k110-II-5",
+  "source": "110 期中考古",
+  "num": 9,
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "在女性人口佔一半的 10,000 人社區中進行子宮頸篩檢，發現有 200 名居民 HPV 陽性。HPV 的侵襲率（attack rate）是多少？",
+  "options": [
+   {
+    "k": "A",
+    "t": "1%"
+   },
+   {
+    "k": "B",
+    "t": "2%"
+   },
+   {
+    "k": "C",
+    "t": "4%"
+   },
+   {
+    "k": "D",
+    "t": "8%"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "有風險的是女性 5,000 人：200 ÷ 5,000 = 4%。",
+  "topics": [
+   "Attack rate"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k110-II-6",
+  "source": "110 期中考古",
+  "num": 10,
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "何者不是群體免疫（herd immunity）成立的條件？",
+  "options": [
+   {
+    "k": "A",
+    "t": "疾病病原必須限制在單一宿主物種中"
+   },
+   {
+    "k": "B",
+    "t": "具有快篩試劑和疫苗"
+   },
+   {
+    "k": "C",
+    "t": "不能具有傳染窩"
+   },
+   {
+    "k": "D",
+    "t": "感染必須能誘導足夠的免疫力"
+   },
+   {
+    "k": "E",
+    "t": "傳播必須從宿主物種的一個成員直接傳播到另一個成員"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "四個條件是 A、C、D、E；有沒有快篩試劑與群體免疫的成立無關。",
+  "topics": [
+   "Herd immunity"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k110-II-7",
+  "source": "110 期中考古",
+  "num": 11,
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "何者不是影響潛伏期的因素？",
+  "options": [
+   {
+    "k": "A",
+    "t": "可能反映了病原充分複製所需的時間"
+   },
+   {
+    "k": "B",
+    "t": "可能涉及病原需要在特定身體部位複製"
+   },
+   {
+    "k": "C",
+    "t": "感染時接受的病原劑量也可能影響時間長度"
+   },
+   {
+    "k": "D",
+    "t": "宿主的健康狀況"
+   },
+   {
+    "k": "E",
+    "t": "這段期間宿主身體會有臨床症狀"
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "潛伏期的定義就是還沒有臨床症狀。",
+  "topics": [
+   "潛伏期"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k110-II-9",
+  "source": "110 期中考古",
+  "num": 13,
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "食用兩種食物的人數與病人數（病人數／總人數）：\n             吃鮪魚     沒吃鮪魚\n吃蛋沙拉     60/75      75/100\n沒吃蛋沙拉   68/200     15/50\n根據上表，以下哪種食物（或組合）最有可能具有傳染性？",
+  "options": [
+   {
+    "k": "A",
+    "t": "僅蛋沙拉"
+   },
+   {
+    "k": "B",
+    "t": "僅鮪魚"
+   },
+   {
+    "k": "C",
+    "t": "既不是鮪魚也不是蛋沙拉"
+   },
+   {
+    "k": "D",
+    "t": "同時吃鮪魚和蛋沙拉"
+   },
+   {
+    "k": "E",
+    "t": "根據給定的數據無法計算"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "吃蛋沙拉 (60+75)/(75+100) = 77%，沒吃 (68+15)/(200+50) = 33%；吃鮪魚 47%、沒吃 60%。差距大的是蛋沙拉。",
+  "topics": [
+   "Food-specific attack rate"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k110-II-10",
+  "source": "110 期中考古",
+  "num": 14,
+  "chapter": "screening",
+  "type": "mcq",
+  "stem": "3,000 名經切片證實為乳腺癌的女性與 6,000 名年齡和種族匹配的對照女性接受體格檢查篩檢，其中 2,460 名病例與 1,200 名對照的檢查結果呈陽性。（考古詳解以 2,400 名病例陽性計算）體格檢查的敏感度為：",
+  "options": [
+   {
+    "k": "A",
+    "t": "85%"
+   },
+   {
+    "k": "B",
+    "t": "80%"
+   },
+   {
+    "k": "C",
+    "t": "15%"
+   },
+   {
+    "k": "D",
+    "t": "20%"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "敏感度 = 2,400 ÷ 3,000 = 80%（若用題幹的 2,460 則為 82%，考古答案為 80%）。",
+  "topics": [
+   "敏感度"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k110-II-11",
+  "source": "110 期中考古",
+  "num": 15,
+  "chapter": "screening",
+  "type": "mcq",
+  "stem": "3,000 名經切片證實為乳腺癌的女性與 6,000 名年齡和種族匹配的對照女性接受體格檢查篩檢，其中 2,460 名病例與 1,200 名對照的檢查結果呈陽性。體格檢查的特異度為：",
+  "options": [
+   {
+    "k": "A",
+    "t": "85%"
+   },
+   {
+    "k": "B",
+    "t": "80%"
+   },
+   {
+    "k": "C",
+    "t": "15%"
+   },
+   {
+    "k": "D",
+    "t": "20%"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "特異度 = (6,000 − 1,200) ÷ 6,000 = 80%。",
+  "topics": [
+   "特異度"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k110-II-12",
+  "source": "110 期中考古",
+  "num": 16,
+  "chapter": "screening",
+  "type": "mcq",
+  "stem": "500 名疑似聽力問題的人接受體格檢查與聽力測試，其中 300 人確實有聽力問題：\n體格檢查：有病者陽性 240、陰性 60；沒病者陽性 40、陰性 160\n聽力測試：有病者陽性 280、陰性 20；沒病者陽性 60、陰性 140\n與體格檢查相比，聽力測試為：",
+  "options": [
+   {
+    "k": "A",
+    "t": "同樣敏感性和特異性"
+   },
+   {
+    "k": "B",
+    "t": "敏感性較好、特異性較好"
+   },
+   {
+    "k": "C",
+    "t": "敏感性較好，特異性較差"
+   },
+   {
+    "k": "D",
+    "t": "敏感性較差，特異性較好"
+   },
+   {
+    "k": "E",
+    "t": "敏感性和特異性皆較差"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "敏感度：體檢 240/300 = 80%、聽力 280/300 = 93%；特異度：體檢 160/200 = 80%、聽力 140/200 = 70%。",
+  "topics": [
+   "敏感度、特異度"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k110-II-13",
+  "source": "110 期中考古",
+  "num": 17,
+  "chapter": "screening",
+  "type": "mcq",
+  "stem": "500 名疑似聽力問題的人接受體格檢查與聽力測試，其中 300 人確實有聽力問題：\n體格檢查：有病者陽性 240、陰性 60；沒病者陽性 40、陰性 160\n聽力測試：有病者陽性 280、陰性 20；沒病者陽性 60、陰性 140\n兩項測試同時進行時的淨敏感度（net sensitivity）為：",
+  "options": [
+   {
+    "k": "A",
+    "t": "98.9%"
+   },
+   {
+    "k": "B",
+    "t": "86.5%"
+   },
+   {
+    "k": "C",
+    "t": "72%"
+   },
+   {
+    "k": "D",
+    "t": "56%"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "平行篩檢：0.8 + 0.933 − 0.8 × 0.933 = 98.9%。",
+  "topics": [
+   "序列 vs 平行"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k110-II-14",
+  "source": "110 期中考古",
+  "num": 18,
+  "chapter": "screening",
+  "type": "mcq",
+  "stem": "Hemoccult 試驗的敏感度和特異度皆為 80%。如果台北市結腸癌盛行率為 10/1,000，該檢測的陽性預測值是多少？",
+  "options": [
+   {
+    "k": "A",
+    "t": "3.889%"
+   },
+   {
+    "k": "B",
+    "t": "96.12%"
+   },
+   {
+    "k": "C",
+    "t": "0.25%"
+   },
+   {
+    "k": "D",
+    "t": "99.75%"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "PPV = 0.8 × 0.01 ÷ (0.8 × 0.01 + 0.2 × 0.99) = 3.889%。",
+  "topics": [
+   "預測值"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k110-II-15",
+  "source": "110 期中考古",
+  "num": 19,
+  "chapter": "screening",
+  "type": "mcq",
+  "stem": "Hemoccult 陰性者不再檢查；陽性者再用 Hemoccult II 測第二個糞便樣本，兩次都陽性才轉介深入評估。這種篩選方法對淨敏感度和淨特異度有何影響？",
+  "options": [
+   {
+    "k": "A",
+    "t": "淨敏感度和淨特異度均增加"
+   },
+   {
+    "k": "B",
+    "t": "淨敏感度增加，淨特異度降低"
+   },
+   {
+    "k": "C",
+    "t": "淨敏感度降低，淨特異度增加"
+   },
+   {
+    "k": "D",
+    "t": "淨敏感度不變，淨特異度增加"
+   },
+   {
+    "k": "E",
+    "t": "無法從數據中確定"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "序列篩檢 → 淨敏感度下降、淨特異度上升。",
+  "topics": [
+   "序列 vs 平行"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k110-II-16",
+  "source": "110 期中考古",
+  "num": 20,
+  "chapter": "screening",
+  "type": "mcq",
+  "stem": "下列打靶圖何者代表信度差、但效度好（bad reliability but good validity）？（需原圖）",
+  "options": [
+   {
+    "k": "A",
+    "t": "圖 A"
+   },
+   {
+    "k": "B",
+    "t": "圖 B"
+   },
+   {
+    "k": "C",
+    "t": "圖 C"
+   },
+   {
+    "k": "D",
+    "t": "圖 D"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "信度好 = 點集中；效度好 = 平均落在靶心。",
+  "topics": [
+   "效度與信度"
+  ],
+  "pattern": "判讀題",
+  "imageOnly": true
+ },
+ {
+  "id": "k110-III-1",
+  "source": "110 期中考古",
+  "num": 21,
+  "chapter": "rct",
+  "type": "mcq",
+  "stem": "研究者在規劃臨床試驗時，下面哪種技巧「不適當」？",
+  "options": [
+   {
+    "k": "A",
+    "t": "按照事先擬定的納入排除標準來收取研究個案"
+   },
+   {
+    "k": "B",
+    "t": "將各案隨機分派到對照組和標準治療組"
+   },
+   {
+    "k": "C",
+    "t": "為了避免執行試驗者可能產生執行上的不同，使用 single blind 讓病人不知道自己的組別"
+   },
+   {
+    "k": "D",
+    "t": "為了確認受試者是否每日使用藥物，要求個案作用藥紀錄"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "要避免執行者的差異，應該用 double blind。",
+  "topics": [
+   "盲性"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k110-III-2",
+  "source": "110 期中考古",
+  "num": 22,
+  "chapter": "rct",
+  "type": "mcq",
+  "stem": "關於隨機分派的敘述，下面何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "可以降低指派治療組別時的選擇性誤差"
+   },
+   {
+    "k": "B",
+    "t": "隨機分派只能採用 1:1 的機率進行分派"
+   },
+   {
+    "k": "C",
+    "t": "無法進行隨機分派，還是能夠執行臨床試驗"
+   },
+   {
+    "k": "D",
+    "t": "搭配盲性讓試驗品質更佳"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "隨機分派的機率不一定要 1:1。",
+  "topics": [
+   "隨機分派"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k110-III-3",
+  "source": "110 期中考古",
+  "num": 23,
+  "chapter": "rct",
+  "type": "mcq",
+  "stem": "使用雙盲（double-blind）設計時，下面哪種組合符合定義？",
+  "options": [
+   {
+    "k": "A",
+    "t": "照顧醫師及護理師"
+   },
+   {
+    "k": "B",
+    "t": "病例及對照"
+   },
+   {
+    "k": "C",
+    "t": "資料收集者及資料測量者"
+   },
+   {
+    "k": "D",
+    "t": "病人及照顧醫師"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "雙盲 = 受試者＋施測者。",
+  "topics": [
+   "盲性"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k110-III-4",
+  "source": "110 期中考古",
+  "num": 24,
+  "chapter": "rct",
+  "type": "mcq",
+  "stem": "某研究者使用交叉試驗（crossover design）研究手噴酒精與用手開門後門把上 COVID-19 病毒量，下列描述何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "可以去除介入手段順序的影響"
+   },
+   {
+    "k": "B",
+    "t": "須考慮先進行酒精噴灑後，對下一階段（不噴酒精）的殘餘影響"
+   },
+   {
+    "k": "C",
+    "t": "需要依據門把材質做分層隨機分派"
+   },
+   {
+    "k": "D",
+    "t": "不需觀察個案是否遵守酒精噴灑的遵從性"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "交叉試驗仍然要觀察遵從性。（考古答案 D。）",
+  "topics": [
+   "交叉試驗"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k110-III-5",
+  "source": "110 期中考古",
+  "num": 25,
+  "chapter": "rct",
+  "type": "mcq",
+  "stem": "某藥學系老師想了解 aspirin 與紅麴單獨或合併使用時，兩成分在凝血功能的主效果及可能的交互作用，你會建議哪個設計？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Aspirin 和紅麴的 factorial design，並以隨機分派方式分組"
+   },
+   {
+    "k": "B",
+    "t": "將個案隨機分派至 aspirin、紅麴兩組，並進行 double blind"
+   },
+   {
+    "k": "C",
+    "t": "先測未用藥前凝血功能，提供 aspirin 和紅麴後再測"
+   },
+   {
+    "k": "D",
+    "t": "隨機分派至兩組，結果出來後再互換"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "主效果＋交互作用 → 因子型設計。D 是預期性交叉試驗。",
+  "topics": [
+   "因子型設計"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k110-III-6",
+  "source": "110 期中考古",
+  "num": 26,
+  "chapter": "rct",
+  "type": "mcq",
+  "stem": "以下何者「不是」臨床試驗的優點？",
+  "options": [
+   {
+    "k": "A",
+    "t": "臨床試驗結果適合外推，因此常用於藥理研究"
+   },
+   {
+    "k": "B",
+    "t": "隨機分派雙盲同期對照試驗是最具證據力的研究設計，兼具時序性"
+   },
+   {
+    "k": "C",
+    "t": "試驗設計可以同時觀察多種健康結果"
+   },
+   {
+    "k": "D",
+    "t": "可以根據研究問題採用兩種以上介入，也可觀察特殊劑量的成效"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "考古答案 D：臨床試驗通常只能處理一種介入。（A 的外推性也是限制，114 年同題答案為 A。）",
+  "topics": [
+   "臨床試驗優勢與限制"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k110-III-7",
+  "source": "110 期中考古",
+  "num": 27,
+  "chapter": "rct",
+  "type": "mcq",
+  "stem": "下面敘述何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Phase 1 試驗用來測試新成分的藥理毒性"
+   },
+   {
+    "k": "B",
+    "t": "Phase 2 試驗通常是小型試驗，用來測試藥品有效劑量"
+   },
+   {
+    "k": "C",
+    "t": "Phase 3 試驗是大型試驗，用來測試藥品中長期成效及副作用"
+   },
+   {
+    "k": "D",
+    "t": "Phase 4 試驗需要比 Phase 3 更大的樣本，完成後藥品才能上市"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Phase 3 完成就能上市。",
+  "topics": [
+   "新藥試驗分期"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k110-III-8",
+  "source": "110 期中考古",
+  "num": 28,
+  "chapter": "prognosis",
+  "type": "mcq",
+  "stem": "圖為 300 名病人手術後觀察 2 年的存活狀況（需原圖），存活中點會落在哪個時段？",
+  "options": [
+   {
+    "k": "A",
+    "t": "2–4.9 個月"
+   },
+   {
+    "k": "B",
+    "t": "5–7.9 個月"
+   },
+   {
+    "k": "C",
+    "t": "8–10.9 個月"
+   },
+   {
+    "k": "D",
+    "t": "14–15 個月"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "看存活率剩 50% 時的時間。",
+  "topics": [
+   "存活中位數"
+  ],
+  "pattern": "判讀題",
+  "imageOnly": true
+ },
+ {
+  "id": "k110-III-12",
+  "source": "110 期中考古",
+  "num": 29,
+  "chapter": "prognosis",
+  "type": "mcq",
+  "stem": "週數  存活人數  死亡人數\n1     8     1\n2     7     1\n4     6     1\n12    3     1\n24    1     1\n以 K-M 法算出第一週病人的存活率：",
+  "options": [
+   {
+    "k": "A",
+    "t": "0.875"
+   },
+   {
+    "k": "B",
+    "t": "0.857"
+   },
+   {
+    "k": "C",
+    "t": "0.75"
+   },
+   {
+    "k": "D",
+    "t": "0.667"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "7/8 = 0.875。",
+  "topics": [
+   "Kaplan-Meier"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k110-III-13",
+  "source": "110 期中考古",
+  "num": 30,
+  "chapter": "prognosis",
+  "type": "mcq",
+  "stem": "週數  存活人數  死亡人數\n1     8     1\n2     7     1\n4     6     1\n12    3     1\n24    1     1\n以 K-M 法算出病人累積到第 12 週的存活率：",
+  "options": [
+   {
+    "k": "A",
+    "t": "0.857"
+   },
+   {
+    "k": "B",
+    "t": "0.75"
+   },
+   {
+    "k": "C",
+    "t": "0.667"
+   },
+   {
+    "k": "D",
+    "t": "0.417"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "7/8 × 6/7 × 5/6 × 2/3 = 0.417。",
+  "topics": [
+   "Kaplan-Meier"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k110-III-14",
+  "source": "110 期中考古",
+  "num": 31,
+  "chapter": "rct",
+  "type": "mcq",
+  "stem": "和只有手術的病人相比，以標靶治療輔助肝癌病人時，3 個月的惡化率由 60% 降為 40%。每減少一個惡化所需治療的病人數為：",
+  "options": [
+   {
+    "k": "A",
+    "t": "5"
+   },
+   {
+    "k": "B",
+    "t": "6"
+   },
+   {
+    "k": "C",
+    "t": "7"
+   },
+   {
+    "k": "D",
+    "t": "8"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "NNT = 1 ÷ (0.6 − 0.4) = 5。",
+  "topics": [
+   "NNT"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k109-01",
+  "source": "109 期中考古",
+  "num": 1,
+  "chapter": "morbidity",
+  "type": "short",
+  "stem": "（計算）甲工廠 1,000 位員工，2000/1/1 C 肝篩檢有 50 位抗體陽性；2001/1/1 再次篩檢（含上次陽性者）共 60 位陽性，期間無人死亡或失去追蹤。\n(1) 2000 與 2001 年的盛行率？\n(2) 甲工廠 C 肝的發生率？",
+  "options": [],
+  "answer": [
+   "(1) 5%、6%；(2) 10.53‰"
+  ],
+  "answerText": "(1) 5%、6%；(2) 10.53‰",
+  "explain": "盛行率：50/1,000 = 5%、60/1,000 = 6%。發生率：新個案 10 人 ÷ at risk（1,000 − 50）= 10.53‰。",
+  "topics": [
+   "發生率計算"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k109-02",
+  "source": "109 期中考古",
+  "num": 2,
+  "chapter": "mortality",
+  "type": "short",
+  "stem": "（簡答）YPLL 與 DALY 的全名為？",
+  "options": [],
+  "answer": [
+   "Years of potential life lost；Disability-adjusted life year"
+  ],
+  "answerText": "Years of potential life lost；Disability-adjusted life year",
+  "explain": "YPLL 衡量過早死亡；DALY = YLL + YLD。",
+  "topics": [
+   "YPLL",
+   "疾病負擔"
+  ],
+  "pattern": "簡答題"
+ },
+ {
+  "id": "k109-03",
+  "source": "109 期中考古",
+  "num": 3,
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "下列哪個圖形是 propagated 型疾病的流行曲線？（需原圖）",
+  "options": [
+   {
+    "k": "A",
+    "t": "圖 A"
+   },
+   {
+    "k": "B",
+    "t": "圖 B"
+   },
+   {
+    "k": "C",
+    "t": "圖 C"
+   },
+   {
+    "k": "D",
+    "t": "圖 D"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "一波未平一波又起、峰值逐漸升高。",
+  "topics": [
+   "流行曲線"
+  ],
+  "pattern": "判讀題",
+  "imageOnly": true
+ },
+ {
+  "id": "k109-04",
+  "source": "109 期中考古",
+  "num": 4,
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "Endemic means that a disease…",
+  "options": [
+   {
+    "k": "A",
+    "t": "occurs clearly in excess of normal expectancy"
+   },
+   {
+    "k": "B",
+    "t": "is habitually present in human population"
+   },
+   {
+    "k": "C",
+    "t": "affects a large number of countries simultaneously and exhibits a seasonal pattern"
+   },
+   {
+    "k": "D",
+    "t": "is prevalent among animals"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Endemic = 在特定地區常態性存在（南部登革熱）。",
+  "topics": [
+   "Endemic／Epidemic／Pandemic"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k109-05",
+  "source": "109 期中考古",
+  "num": 5,
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "Which of the following is characteristic of a single exposure, common vehicle outbreak?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Frequent secondary cases"
+   },
+   {
+    "k": "B",
+    "t": "Increasing severity with increasing age"
+   },
+   {
+    "k": "C",
+    "t": "Explosive"
+   },
+   {
+    "k": "D",
+    "t": "Cases include both people who have been exposed and those who were not exposed"
+   },
+   {
+    "k": "E",
+    "t": "All of the above"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "單次共同暴露（例如食物中毒）會出現一個爆炸性的峰值，之後不再延伸。",
+  "topics": [
+   "流行曲線"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k109-06",
+  "source": "109 期中考古",
+  "num": 6,
+  "chapter": "screening",
+  "type": "short",
+  "stem": "（計算）以觸診篩檢乳癌：2,500 名切片證實的乳癌病人與 5,000 名年齡與種族配對的對照女性。觸診陽性者：病例 1,200 名、對照 1,000 名。\n(1) 敏感度？(2) 特異度？",
+  "options": [],
+  "answer": [
+   "(1) 48%；(2) 80%"
+  ],
+  "answerText": "(1) 48%；(2) 80%",
+  "explain": "敏感度 = 1,200 ÷ 2,500 = 48%；特異度 = (5,000 − 1,000) ÷ 5,000 = 80%。",
+  "topics": [
+   "敏感度、特異度"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k109-07",
+  "source": "109 期中考古",
+  "num": 7,
+  "chapter": "transmission",
+  "type": "mcq",
+  "stem": "Which of the following situation does NOT exist for herd immunity?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Disease agents must be restricted to a single host species"
+   },
+   {
+    "k": "B",
+    "t": "Transmission must be relatively direct from one member of the host species to another"
+   },
+   {
+    "k": "C",
+    "t": "Can operate on disease having a reservoir"
+   },
+   {
+    "k": "D",
+    "t": "Must induce solid immunity"
+   },
+   {
+    "k": "E",
+    "t": "All of above do"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "有 reservoir 時 herd immunity 無法運作。",
+  "topics": [
+   "Herd immunity"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k109-08",
+  "source": "109 期中考古",
+  "num": 8,
+  "chapter": "screening",
+  "type": "mcq",
+  "stem": "下列打靶圖何者是低效度、高信度？（需原圖）",
+  "options": [
+   {
+    "k": "A",
+    "t": "圖 A"
+   },
+   {
+    "k": "B",
+    "t": "圖 B"
+   },
+   {
+    "k": "C",
+    "t": "圖 C"
+   },
+   {
+    "k": "D",
+    "t": "圖 D"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "點很集中但偏離靶心 = 信度高、效度低。",
+  "topics": [
+   "效度與信度"
+  ],
+  "pattern": "判讀題",
+  "imageOnly": true
+ },
+ {
+  "id": "k109-09",
+  "source": "109 期中考古",
+  "num": 9,
+  "chapter": "prognosis",
+  "type": "mcq",
+  "stem": "精神病院病人出院後的存活情況（無失去追蹤；表格依考古原樣）：\n出院年  人數  第一年  第二年  第三年\n2018    180    160    120     88\n2019    120     88     62\n2020    300    325\ntotal   650    573    182     88\n第二年的存活率為？",
+  "options": [
+   {
+    "k": "A",
+    "t": "0.88"
+   },
+   {
+    "k": "B",
+    "t": "0.73"
+   },
+   {
+    "k": "C",
+    "t": "0.47"
+   },
+   {
+    "k": "D",
+    "t": "0.55"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "第二年存活 182 ÷（第一年存活 573 − 沒有第二年紀錄的 325）= 0.73。",
+  "topics": [
+   "生命表"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k109-10",
+  "source": "109 期中考古",
+  "num": 10,
+  "chapter": "prognosis",
+  "type": "mcq",
+  "stem": "精神病院病人出院後的存活情況（無失去追蹤；表格依考古原樣）：\n出院年  人數  第一年  第二年  第三年\n2018    180    160    120     88\n2019    120     88     62\n2020    300    325\ntotal   650    573    182     88\n第二年存活率跟第三年存活率之間的比較，以及代表的意義？",
+  "options": [
+   {
+    "k": "A",
+    "t": "第二年存活率大於第三年存活率"
+   },
+   {
+    "k": "B",
+    "t": "第二年存活率跟第三年存活率相等，代表出院後受到的治療沒有改變"
+   },
+   {
+    "k": "C",
+    "t": "第二年存活率小於第三年存活率"
+   },
+   {
+    "k": "D",
+    "t": "從題目中無法看出"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "第二年 = 182 ÷ 248 = 0.734；第三年 = 88 ÷ (182 − 62) = 0.733。兩者幾乎相同，考古答案為 A（第二年略大）。",
+  "topics": [
+   "生命表"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k109-11",
+  "source": "109 期中考古",
+  "num": 11,
+  "chapter": "prognosis",
+  "type": "mcq",
+  "stem": "精神病院病人出院後的存活情況（無失去追蹤；表格依考古原樣）：\n出院年  人數  第一年  第二年  第三年\n2018    180    160    120     88\n2019    120     88     62\n2020    300    325\ntotal   650    573    182     88\n活滿三年的存活率為多少？",
+  "options": [
+   {
+    "k": "A",
+    "t": "0.88"
+   },
+   {
+    "k": "B",
+    "t": "0.73"
+   },
+   {
+    "k": "C",
+    "t": "0.47"
+   },
+   {
+    "k": "D",
+    "t": "0.55"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(573/650) × [182/(573 − 325)] × [88/(182 − 62)] ≈ 0.47。",
+  "topics": [
+   "生命表"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k109-12",
+  "source": "109 期中考古",
+  "num": 12,
+  "chapter": "rct",
+  "type": "mcq",
+  "stem": "150 mg 阿司匹靈預防 3 個月腦中風的試驗中，服藥組 3 個月內中風比例 5%，未服藥組 20%。NNT 為多少？",
+  "options": [
+   {
+    "k": "A",
+    "t": "5"
+   },
+   {
+    "k": "B",
+    "t": "3"
+   },
+   {
+    "k": "C",
+    "t": "7"
+   },
+   {
+    "k": "D",
+    "t": "20"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "NNT = 1 ÷ (0.20 − 0.05) = 6.67 ≈ 7。",
+  "topics": [
+   "NNT"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k109-13",
+  "source": "109 期中考古",
+  "num": 13,
+  "chapter": "rct",
+  "type": "mcq",
+  "stem": "關於隨機分派臨床試驗的優點，下面何者為非？",
+  "options": [
+   {
+    "k": "A",
+    "t": "介入組與對照組可比性增加"
+   },
+   {
+    "k": "B",
+    "t": "外在效度增加"
+   },
+   {
+    "k": "C",
+    "t": "減少受試者自我選擇的機會"
+   },
+   {
+    "k": "D",
+    "t": "無法預測下一個受試者所屬組別"
+   },
+   {
+    "k": "E",
+    "t": "受試者的療效評估不受醫師主觀判斷的影響"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "隨機分派提升的是內在效度，不是外在效度（外推性）。",
+  "topics": [
+   "隨機分派"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k109-14",
+  "source": "109 期中考古",
+  "num": 14,
+  "chapter": "prognosis",
+  "type": "mcq",
+  "stem": "關於相對存活率（relative survival），下列何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "適用於一等親"
+   },
+   {
+    "k": "B",
+    "t": "適用於年老族群"
+   },
+   {
+    "k": "C",
+    "t": "適用於男性"
+   },
+   {
+    "k": "D",
+    "t": "通常是指某人群的觀察存活率與預期存活率相除的結果"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "相對存活率 = 觀察存活率 ÷ 預期存活率。",
+  "topics": [
+   "相對存活率"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k109-15",
+  "source": "109 期中考古",
+  "num": 15,
+  "chapter": "screening",
+  "type": "mcq",
+  "stem": "下列何者會影響 PPV？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Sensitivity"
+   },
+   {
+    "k": "B",
+    "t": "Specificity"
+   },
+   {
+    "k": "C",
+    "t": "Prevalence"
+   },
+   {
+    "k": "D",
+    "t": "All of the above"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "PPV 同時受敏感度、特異度與盛行率影響。",
+  "topics": [
+   "預測值"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k109-16",
+  "source": "109 期中考古",
+  "num": 16,
+  "chapter": "rct",
+  "type": "mcq",
+  "stem": "下列何者「不是」臨床試驗的優點？",
+  "options": [
+   {
+    "k": "A",
+    "t": "臨床試驗結果具外推性，常用於藥物試驗"
+   },
+   {
+    "k": "B",
+    "t": "為最具證據力的研究設計，兼具時序及因果"
+   },
+   {
+    "k": "C",
+    "t": "可以同時觀察多種健康結果"
+   },
+   {
+    "k": "D",
+    "t": "可以根據研究設計同時有兩種以上介入，適合觀察特殊劑量"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "臨床試驗通常只能處理一種介入（考古答案 D）。",
+  "topics": [
+   "臨床試驗優勢與限制"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k109-17",
+  "source": "109 期中考古",
+  "num": 17,
+  "chapter": "prognosis",
+  "type": "mcq",
+  "stem": "若使用診斷時間作為預後測量的時間起點、治癒時間作為終點，下列何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "受診斷工具影響"
+   },
+   {
+    "k": "B",
+    "t": "受診治者影響"
+   },
+   {
+    "k": "C",
+    "t": "受病人影響"
+   },
+   {
+    "k": "D",
+    "t": "不適用長期觀察"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "以診斷為起點受病人就醫時間與診斷工具影響；以治癒為終點受病人與診治者主觀影響。「不適用長期觀察」是以死亡為終點的限制。",
+  "topics": [
+   "預後起點與終點"
+  ],
+  "pattern": "選錯誤／否定題"
+ }
+]

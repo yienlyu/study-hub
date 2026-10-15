@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 354" role="img" aria-label="真菌基本型態：酵母是單細胞出芽；假菌絲是出芽沒分開，例如念珠菌；有隔菌絲見於子囊菌、擔子菌、不完全菌；無隔菌絲寬而直角分枝，見於接合菌。雙型性真菌在 25 度為黴菌、37 度為酵母。無性孢子分投射型與體細胞型。">
+
+<text x="10" y="20" class="th">基本型態：酵母、菌絲、雙型性</text>
+<rect x="10" y="32" width="180" height="150" rx="12" class="bp"/>
+<text x="24" y="54" class="tb" style="font-size:12px">酵母 Yeast</text>
+<ellipse cx="80" cy="110" rx="26" ry="20" class="bv"/>
+<ellipse cx="112" cy="94" rx="12" ry="10" class="bv"/>
+<text x="24" y="160" class="ts">單細胞、出芽生殖</text>
+<text x="24" y="176" class="ts">blastospore（Cryptococcus）</text>
+<rect x="200" y="32" width="180" height="150" rx="12" class="bp"/>
+<text x="214" y="54" class="tb" style="font-size:12px">假菌絲 Pseudohyphae</text>
+<ellipse cx="232" cy="110" rx="18" ry="9" class="bv" transform="rotate(-10 232 110)"/>
+<ellipse cx="266" cy="104" rx="18" ry="9" class="bv" transform="rotate(-10 266 104)"/>
+<ellipse cx="300" cy="98" rx="18" ry="9" class="bv" transform="rotate(-10 300 98)"/>
+<ellipse cx="334" cy="92" rx="18" ry="9" class="bv" transform="rotate(-10 334 92)"/>
+<text x="214" y="160" class="ts">出芽沒分開、接點縮窄</text>
+<text x="214" y="176" class="ts">Candida albicans</text>
+<rect x="390" y="32" width="180" height="150" rx="12" class="bp"/>
+<text x="404" y="54" class="tb" style="font-size:12px">有隔菌絲 Septate</text>
+<rect x="404" y="98" width="150" height="16" rx="8" class="bw"/>
+<path d="M424 98v16" class="ln"/>
+<path d="M450 98v16" class="ln"/>
+<path d="M476 98v16" class="ln"/>
+<path d="M502 98v16" class="ln"/>
+<path d="M528 98v16" class="ln"/>
+<text x="404" y="160" class="ts">Asco、Basidio、Deutero</text>
+<text x="404" y="176" class="ts">Aspergillus：45° 二分叉</text>
+<rect x="580" y="32" width="190" height="150" rx="12" class="bp"/>
+<text x="594" y="54" class="tb" style="font-size:12px">無隔菌絲 Coenocytic</text>
+<rect x="594" y="98" width="160" height="22" rx="11" class="br"/>
+<circle cx="610" cy="109" r="3" class="fr"/>
+<circle cx="632" cy="109" r="3" class="fr"/>
+<circle cx="654" cy="109" r="3" class="fr"/>
+<circle cx="676" cy="109" r="3" class="fr"/>
+<circle cx="698" cy="109" r="3" class="fr"/>
+<circle cx="720" cy="109" r="3" class="fr"/>
+<circle cx="742" cy="109" r="3" class="fr"/>
+<text x="594" y="160" class="ts">寬、無隔、直角分枝</text>
+<text x="594" y="176" class="ts">Zygomycota：Mucor 等</text>
+<rect x="10" y="196" width="370" height="128" rx="12" class="bw"/>
+<text x="24" y="218" class="tb" style="font-size:12px">雙型性 Dimorphism：看溫度</text>
+<text x="24" y="244" style="font-size:12px">25°C（環境）→ 黴菌 mold（菌絲＋孢子，具感染力）</text>
+<text x="24" y="266" style="font-size:12px">37°C（人體）→ 酵母 yeast</text>
+<text x="24" y="290" class="ts">Histoplasma、Blastomyces、Coccidioides、</text>
+<text x="24" y="306" class="ts">Paracoccidioides、Talaromyces、Sporothrix</text>
+<rect x="400" y="196" width="370" height="128" rx="12" class="bp"/>
+<text x="414" y="218" class="tb" style="font-size:12px">無性孢子</text>
+<text x="414" y="242" style="font-size:12px">Blastic：blastospore（出芽）、conidia／phialospore</text>
+<text x="414" y="260" style="font-size:12px">　（瓶梗頂端，最常見）、sporangiospore（囊內）</text>
+<text x="414" y="284" style="font-size:12px">Thallic：arthrospore（菌絲斷裂，Coccidioides）、</text>
+<text x="414" y="302" style="font-size:12px">　chlamydospore（菌絲本身細胞壁增厚）</text>
+<text x="10" y="344" class="ts">細胞壁 chitin＋β-glucan（沒有 peptidoglycan、LPS）· 細胞膜 ergosterol → 抗真菌藥標的</text>
+</svg>

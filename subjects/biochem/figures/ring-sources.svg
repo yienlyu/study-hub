@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 440" role="img" aria-label="核苷酸環的原子來源：purine 的 N1 來自 aspartate，C2 與 C8 來自 N10-formyl-THF，N3 與 N9 來自 glutamine，C4、C5、N7 來自 glycine，C6 來自二氧化碳；pyrimidine 的 C2 與 N3 來自 carbamoyl phosphate，其餘 N1、C4、C5、C6 來自 aspartate。purine 在 PRPP 上蓋環，第一個產物是 IMP；pyrimidine 先做環再接 PRPP，第一個產物是 UMP。">
+
+<text x="10" y="20" class="th">環上每個原子從哪裡來 · Purine 在 PRPP 上蓋環，Pyrimidine 先做環再接 PRPP</text>
+<text x="40" y="52" class="tb" style="font-size:13px">Purine（A、G）</text>
+<path d="M106 150L106 205" class="ln" style="stroke-width:2"/>
+<path d="M106 205L152 232" class="ln" style="stroke-width:2"/>
+<path d="M152 232L198 205" class="ln" style="stroke-width:2"/>
+<path d="M198 205L198 150" class="ln" style="stroke-width:2"/>
+<path d="M198 150L152 122" class="ln" style="stroke-width:2"/>
+<path d="M152 122L106 150" class="ln" style="stroke-width:2"/>
+<path d="M198 150L246 132" class="ln" style="stroke-width:2"/>
+<path d="M246 132L274 178" class="ln" style="stroke-width:2"/>
+<path d="M274 178L246 224" class="ln" style="stroke-width:2"/>
+<path d="M246 224L198 205" class="ln" style="stroke-width:2"/>
+<circle cx="106" cy="150" r="15" class="fc" style="stroke:var(--safranin);stroke-width:2.4"/>
+<text x="106" y="154.5" text-anchor="middle" class="tb" style="font-size:11.5px;fill:var(--safranin)">N1</text>
+<circle cx="106" cy="205" r="15" class="fc" style="stroke:var(--warn);stroke-width:2.4"/>
+<text x="106" y="209.5" text-anchor="middle" class="tb" style="font-size:11.5px;fill:var(--warn)">C2</text>
+<circle cx="152" cy="232" r="15" class="fc" style="stroke:var(--violet);stroke-width:2.4"/>
+<text x="152" y="236.5" text-anchor="middle" class="tb" style="font-size:11.5px;fill:var(--violet)">N3</text>
+<circle cx="198" cy="205" r="15" class="fc" style="stroke:var(--good);stroke-width:2.4"/>
+<text x="198" y="209.5" text-anchor="middle" class="tb" style="font-size:11.5px;fill:var(--good)">C4</text>
+<circle cx="198" cy="150" r="15" class="fc" style="stroke:var(--good);stroke-width:2.4"/>
+<text x="198" y="154.5" text-anchor="middle" class="tb" style="font-size:11.5px;fill:var(--good)">C5</text>
+<circle cx="152" cy="122" r="15" class="fc" style="stroke:var(--ink-3);stroke-width:2.4"/>
+<text x="152" y="126.5" text-anchor="middle" class="tb" style="font-size:11.5px;fill:var(--ink-3)">C6</text>
+<circle cx="246" cy="132" r="15" class="fc" style="stroke:var(--good);stroke-width:2.4"/>
+<text x="246" y="136.5" text-anchor="middle" class="tb" style="font-size:11.5px;fill:var(--good)">N7</text>
+<circle cx="274" cy="178" r="15" class="fc" style="stroke:var(--warn);stroke-width:2.4"/>
+<text x="274" y="182.5" text-anchor="middle" class="tb" style="font-size:11.5px;fill:var(--warn)">C8</text>
+<circle cx="246" cy="224" r="15" class="fc" style="stroke:var(--violet);stroke-width:2.4"/>
+<text x="246" y="228.5" text-anchor="middle" class="tb" style="font-size:11.5px;fill:var(--violet)">N9</text>
+<path d="M246 239V262" class="ln dash"/>
+<text x="246" y="278" text-anchor="middle" class="ts">接在 PRPP 的 ribose 上</text>
+<circle cx="48" cy="296" r="6" class="fc" style="stroke:var(--good);stroke-width:2.4"/>
+<text x="62" y="300" style="font-size:12px">Glycine：C4、C5、N7（整顆接上）</text>
+<circle cx="48" cy="316" r="6" class="fc" style="stroke:var(--violet);stroke-width:2.4"/>
+<text x="62" y="320" style="font-size:12px">Glutamine（amide N）：N3、N9</text>
+<circle cx="48" cy="336" r="6" class="fc" style="stroke:var(--safranin);stroke-width:2.4"/>
+<text x="62" y="340" style="font-size:12px">Aspartate：N1</text>
+<circle cx="48" cy="356" r="6" class="fc" style="stroke:var(--warn);stroke-width:2.4"/>
+<text x="62" y="360" style="font-size:12px">N¹⁰-formyl-THF：C2、C8</text>
+<circle cx="48" cy="376" r="6" class="fc" style="stroke:var(--ink-3);stroke-width:2.4"/>
+<text x="62" y="380" style="font-size:12px">CO₂：C6</text>
+<text x="420" y="52" class="tb" style="font-size:13px">Pyrimidine（C、U、T）</text>
+<path d="M476 150L476 205" class="ln" style="stroke-width:2"/>
+<path d="M476 205L522 232" class="ln" style="stroke-width:2"/>
+<path d="M522 232L568 205" class="ln" style="stroke-width:2"/>
+<path d="M568 205L568 150" class="ln" style="stroke-width:2"/>
+<path d="M568 150L522 122" class="ln" style="stroke-width:2"/>
+<path d="M522 122L476 150" class="ln" style="stroke-width:2"/>
+<circle cx="476" cy="150" r="15" class="fc" style="stroke:var(--violet);stroke-width:2.4"/>
+<text x="476" y="154.5" text-anchor="middle" class="tb" style="font-size:11.5px;fill:var(--violet)">N3</text>
+<circle cx="476" cy="205" r="15" class="fc" style="stroke:var(--violet);stroke-width:2.4"/>
+<text x="476" y="209.5" text-anchor="middle" class="tb" style="font-size:11.5px;fill:var(--violet)">C2</text>
+<circle cx="522" cy="232" r="15" class="fc" style="stroke:var(--safranin);stroke-width:2.4"/>
+<text x="522" y="236.5" text-anchor="middle" class="tb" style="font-size:11.5px;fill:var(--safranin)">N1</text>
+<circle cx="568" cy="205" r="15" class="fc" style="stroke:var(--safranin);stroke-width:2.4"/>
+<text x="568" y="209.5" text-anchor="middle" class="tb" style="font-size:11.5px;fill:var(--safranin)">C6</text>
+<circle cx="568" cy="150" r="15" class="fc" style="stroke:var(--safranin);stroke-width:2.4"/>
+<text x="568" y="154.5" text-anchor="middle" class="tb" style="font-size:11.5px;fill:var(--safranin)">C5</text>
+<circle cx="522" cy="122" r="15" class="fc" style="stroke:var(--safranin);stroke-width:2.4"/>
+<text x="522" y="126.5" text-anchor="middle" class="tb" style="font-size:11.5px;fill:var(--safranin)">C4</text>
+<path d="M522 247V262" class="ln dash"/>
+<text x="522" y="278" text-anchor="middle" class="ts">orotate 做好後才接 PRPP</text>
+<circle cx="428" cy="296" r="6" class="fc" style="stroke:var(--violet);stroke-width:2.4"/>
+<text x="442" y="300" style="font-size:12px">Carbamoyl phosphate（CPS II，用 glutamine）：C2、N3</text>
+<circle cx="428" cy="316" r="6" class="fc" style="stroke:var(--safranin);stroke-width:2.4"/>
+<text x="442" y="320" style="font-size:12px">Aspartate：N1、C4、C5、C6</text>
+<rect x="420" y="350" width="350" height="66" rx="10" class="bp"/>
+<text x="432" y="372" class="th">考點</text>
+<text x="432" y="392" style="font-size:12px">Glycine 只有 purine 用；gln、asp 兩者都用</text>
+<text x="432" y="410" class="ts">Asparagine 兩者都不用</text>
+<g class="hot" data-tip="Purine 第一個完整產物是 <b>IMP</b>（10 個酵素組成 purinosome）；IMP → AMP 用 <b>GTP</b>、IMP → GMP 用 <b>ATP</b>，交叉平衡。Pyrimidine：CPS II（細胞質）→ ATCase → … → orotate + PRPP → <b>UMP</b>。" data-label="第一個產物"><rect x="40" y="404" width="350" height="26" rx="8" class="bv"/><text x="52" y="422" class="tb" style="font-size:12px">第一個產物：Purine → IMP　Pyrimidine → UMP</text></g>
+</svg>

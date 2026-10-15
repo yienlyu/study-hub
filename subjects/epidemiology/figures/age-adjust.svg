@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 380" role="img" aria-label="年齡校正：直接法把各族群的年齡別死亡率套到同一個標準人口，算出預期死亡數再除以標準人口；間接法用標準族群的年齡別死亡率乘上研究族群人數得到預期死亡數，標準化死亡比等於觀察死亡數除以預期死亡數。">
+<defs><marker id="aa-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker></defs>
+<text x="10" y="20" class="th">年齡校正：讓年齡結構不同的族群可以比較</text>
+<rect x="20" y="36" width="360" height="312" rx="14" class="fp"/>
+<g class="hot" data-tip="<b>直接法</b>：把各族群自己的<b>年齡別死亡率</b>套到同一個<b>標準人口</b>上。例：粗率 4.7 vs 8.7，校正後 1830 vs 2238 /100,000。" data-label="直接法 Direct"><text x="36" y="62" class="tb tv">直接法 Direct</text></g>
+<rect x="36" y="80" width="328" height="36" rx="8" class="bv"/>
+<text x="50" y="103" style="font-size:12px">研究族群的年齡別死亡率</text>
+<path d="M200 116V126" class="ln" marker-end="url(#aa-a)"/>
+<rect x="36" y="128" width="328" height="36" rx="8" class="bx"/>
+<text x="50" y="151" style="font-size:12px">× 標準人口各年齡層人數</text>
+<path d="M200 164V174" class="ln" marker-end="url(#aa-a)"/>
+<rect x="36" y="176" width="328" height="36" rx="8" class="bx"/>
+<text x="50" y="199" style="font-size:12px">= 各年齡層預期死亡數，加總</text>
+<path d="M200 212V222" class="ln" marker-end="url(#aa-a)"/>
+<rect x="36" y="224" width="328" height="36" rx="8" class="bx"/>
+<text x="50" y="247" style="font-size:12px">÷ 標準人口總數</text>
+<path d="M200 260V274" class="ln" marker-end="url(#aa-a)"/>
+<rect x="36" y="278" width="328" height="36" rx="8" class="br"/>
+<text x="50" y="301" class="tb tr" style="font-size:12px">年齡校正死亡率</text>
+<text x="36" y="336" class="ts">需要：各年齡層的死亡率</text>
+<rect x="400" y="36" width="360" height="312" rx="14" class="fp"/>
+<g class="hot" data-tip="<b>間接法</b>：反過來，用<b>標準族群</b>的年齡別死亡率乘上研究族群的人數，得到「如果他們和標準族群一樣，應該死幾個」。<b>SMR = 觀察 ÷ 預期</b>。" data-label="間接法 Indirect（SMR）"><text x="416" y="62" class="tb " style="fill:var(--warn)">間接法 Indirect（SMR）</text></g>
+<rect x="416" y="80" width="328" height="36" rx="8" class="bw"/>
+<text x="430" y="103" style="font-size:12px">標準族群的年齡別死亡率</text>
+<path d="M580 116V126" class="ln" marker-end="url(#aa-a)"/>
+<rect x="416" y="128" width="328" height="36" rx="8" class="bx"/>
+<text x="430" y="151" style="font-size:12px">× 研究族群各年齡層人數</text>
+<path d="M580 164V174" class="ln" marker-end="url(#aa-a)"/>
+<rect x="416" y="176" width="328" height="36" rx="8" class="bx"/>
+<text x="430" y="199" style="font-size:12px">= 預期死亡數，加總</text>
+<path d="M580 212V222" class="ln" marker-end="url(#aa-a)"/>
+<rect x="416" y="224" width="328" height="36" rx="8" class="bx"/>
+<text x="430" y="247" style="font-size:12px">觀察死亡數 ÷ 預期死亡數</text>
+<path d="M580 260V274" class="ln" marker-end="url(#aa-a)"/>
+<rect x="416" y="278" width="328" height="36" rx="8" class="br"/>
+<text x="430" y="301" class="tb tr" style="font-size:12px">SMR（> 1：死得比預期多）</text>
+<text x="416" y="336" class="ts">用在：研究族群年齡別死亡數不知道或太少（職業族群）</text>
+<text x="20" y="370" class="ts">例：巴爾的摩 2015 粗死亡率 白人 9.95 > 黑人 7.35 /1000，但多數年齡層黑人較高 → 白人族群較老，粗率會誤導。</text>
+</svg>

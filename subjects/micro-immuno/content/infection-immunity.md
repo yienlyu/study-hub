@@ -16,6 +16,12 @@
 - **Efferocytosis**（胞葬）：清除凋亡細胞 → IL-10、TGF-β，不發炎。
 - 抗體與 C3b 促進調理作用。
 
+<div data-fig="slide-infection-sites"></div>
+
+<div data-fig="slide-ros-killing"></div>
+
+<div data-fig="slide-nox"></div>
+
 ## 3. PRRs、PAMPs、DAMPs
 - PAMPs（病原分子）、**DAMPs**（受損細胞釋出，如 **HMGB1** → TLR4）。
 - Membrane PRRs：**TLRs**（TLR3、7、8、9 在 endosome；**TLR3 不經 MyD88**，走 TRIF → IRF3）、**CLRs**（mannose receptor、**Dectin-1（β-glucan，真菌）**、DC-SIGN）、scavenger receptor、lipid receptor（CD36）。
@@ -23,6 +29,8 @@
 - 研究例：Lyme disease（*Borrelia*）靠 TLR1/2；West Nile virus 靠 TLR3；肺損傷 OxPLs 靠 TLR4。
 - DC 擁有幾乎所有 PRRs；CD4 T 也有 TLR2、TLR4。
 - 2011 諾貝爾：Hoffmann（果蠅 Toll）。
+
+<div data-fig="slide-prrs"></div>
 
 ## 4. 胞內感染
 - **Inflammasome（NLRP3）**：Signal 1（TLR4 → NF-κB → pro-IL-1β、pro-IL-18、NLRP3）+ Signal 2（ATP–P2X7、尿酸結晶、PAMP/DAMP）→ **caspase-1** → **IL-1β、IL-18**。

@@ -1,0 +1,1652 @@
+[
+ {
+  "id": "k114-03",
+  "source": "114 期中考古",
+  "num": 3,
+  "chapter": "bact-structure",
+  "type": "mcq",
+  "stem": "下列敘述何者最適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "所有細菌皆有鞭毛flagellum"
+   },
+   {
+    "k": "B",
+    "t": "細菌皆具有粒線體，為產生ATP的重要胞器"
+   },
+   {
+    "k": "C",
+    "t": "胜肽聚糖peptidoglycan只有革蘭氏陰性菌具有"
+   },
+   {
+    "k": "D",
+    "t": "僅革蘭氏陰性菌具有periplasmic space"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）Periplasmic space 位於 G(−) 菌的外膜與細胞膜之間。不是所有細菌都有鞭毛；細菌沒有粒線體；G(+) 的 peptidoglycan 更厚。",
+  "topics": [
+   "細菌構造"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-04",
+  "source": "114 期中考古",
+  "num": 4,
+  "chapter": "bact-structure",
+  "type": "mcq",
+  "stem": "關於革蘭氏染色法何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "染劑染色細胞外膜"
+   },
+   {
+    "k": "B",
+    "t": "細胞壁嵌入第一個染劑"
+   },
+   {
+    "k": "C",
+    "t": "細胞質吸入染劑而染色"
+   },
+   {
+    "k": "D",
+    "t": "加熱固定時蛋白染色"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）Crystal violet–iodine 複合物被 G(+) 厚的 peptidoglycan 細胞壁留住，酒精脫色後仍呈紫色。",
+  "topics": [
+   "細菌構造"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-05",
+  "source": "114 期中考古",
+  "num": 5,
+  "chapter": "bact-structure",
+  "type": "mcq",
+  "stem": "下列有關細菌的構造何者敘述錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "革蘭氏陽性菌含有一層厚厚的肽聚糖(peptidoglycan）"
+   },
+   {
+    "k": "B",
+    "t": "莢膜（capsule）可以協助細菌抵抗吞噬作用"
+   },
+   {
+    "k": "C",
+    "t": "纖毛（fimbriae)可以幫助細菌移動"
+   },
+   {
+    "k": "D",
+    "t": "生物膜（biofilm）使細菌更容易附著在表面上"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）Fimbriae（pili）負責黏附；負責移動的是鞭毛。",
+  "topics": [
+   "細菌構造"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-06",
+  "source": "114 期中考古",
+  "num": 6,
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "出血性大腸桿菌血清型O157:H7，其中H指的是下列何者？",
+  "options": [
+   {
+    "k": "A",
+    "t": "莢膜（capsule）"
+   },
+   {
+    "k": "B",
+    "t": "鞭毛(flagella)"
+   },
+   {
+    "k": "C",
+    "t": "脂多糖（lipopolysaccharide）"
+   },
+   {
+    "k": "D",
+    "t": "核心多糖(core polysaccharide )"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）O 抗原 = LPS 的 O 多醣；H 抗原 = 鞭毛（flagellin）；K 抗原 = 莢膜。",
+  "topics": [
+   "腸桿菌科"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-11",
+  "source": "114 期中考古",
+  "num": 11,
+  "chapter": "sterilization",
+  "type": "mcq",
+  "stem": "高壓蒸氣滅菌法的滅菌原理為何？",
+  "options": [
+   {
+    "k": "A",
+    "t": "低溫長時"
+   },
+   {
+    "k": "B",
+    "t": "水蒸汽高溫"
+   },
+   {
+    "k": "C",
+    "t": "乾燥高溫"
+   },
+   {
+    "k": "D",
+    "t": "非游離輻射"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）高壓蒸氣滅菌（121 °C、15 psi）靠飽和水蒸汽的高溫使蛋白質變性。",
+  "topics": [
+   "滅菌消毒"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-12",
+  "source": "114 期中考古",
+  "num": 12,
+  "chapter": "sterilization",
+  "type": "mcq",
+  "stem": "對於熱敏感的醫療器材，最適合的滅菌方法為何？",
+  "options": [
+   {
+    "k": "A",
+    "t": "乾熱滅菌"
+   },
+   {
+    "k": "B",
+    "t": "紫外線滅菌"
+   },
+   {
+    "k": "C",
+    "t": "高壓蒸氣滅菌"
+   },
+   {
+    "k": "D",
+    "t": "Ethylene Oxide"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）Ethylene oxide 是低溫氣體滅菌，適合怕熱的醫療器材。",
+  "topics": [
+   "滅菌消毒"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-13",
+  "source": "114 期中考古",
+  "num": 13,
+  "chapter": "sterilization",
+  "type": "mcq",
+  "stem": "下列哪種是醫院手術房常用於清潔手部或消毒病人皮膚的化學品",
+  "options": [
+   {
+    "k": "A",
+    "t": "稀釋漂白水"
+   },
+   {
+    "k": "B",
+    "t": "高濃度雙氧水"
+   },
+   {
+    "k": "C",
+    "t": "環己定"
+   },
+   {
+    "k": "D",
+    "t": "加馬射線直接照射"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）Chlorhexidine（環己定）常用於手術前刷手與病人皮膚消毒。",
+  "topics": [
+   "滅菌消毒"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-14",
+  "source": "114 期中考古",
+  "num": 14,
+  "chapter": "pathogenesis",
+  "type": "mcq",
+  "stem": "細菌逃脫宿主免疫反應的機制不包含下列何者",
+  "options": [
+   {
+    "k": "A",
+    "t": "分泌蛋白質酶降解宿主核糖體"
+   },
+   {
+    "k": "B",
+    "t": "抑制lysosome 內酵素反應"
+   },
+   {
+    "k": "C",
+    "t": "逃脫lysosome並在宿主細胞質進行複製"
+   },
+   {
+    "k": "D",
+    "t": "抑制phagolysosome結合"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）逃避吞噬的方式：抑制 phagosome–lysosome 融合、抵抗溶酶體酵素、逃到細胞質複製（Listeria）。降解宿主核糖體不是常見機制。",
+  "topics": [
+   "致病機轉"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-15",
+  "source": "114 期中考古",
+  "num": 15,
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "溶菌酶(Lysozyme)是透過什麼方式協助消滅細菌？",
+  "options": [
+   {
+    "k": "A",
+    "t": "破壞細胞膜完整性"
+   },
+   {
+    "k": "B",
+    "t": "抑制電子傳遞鏈"
+   },
+   {
+    "k": "C",
+    "t": "降解細胞壁中的peptidoglycan"
+   },
+   {
+    "k": "D",
+    "t": "切割pili，讓細菌無法黏附"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）Lysozyme 水解 peptidoglycan 的 β-1,4 鍵（NAM–NAG）。",
+  "topics": [
+   "先天免疫"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-16",
+  "source": "114 期中考古",
+  "num": 16,
+  "chapter": "pathogenesis",
+  "type": "mcq",
+  "stem": "下列何者會引起全身性的過度免疫反應？",
+  "options": [
+   {
+    "k": "A",
+    "t": "superantigen"
+   },
+   {
+    "k": "B",
+    "t": "exotoxin"
+   },
+   {
+    "k": "C",
+    "t": "cytotoxin"
+   },
+   {
+    "k": "D",
+    "t": "A-B toxin"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）Superantigen 跨接 MHC II 與 TCR Vβ，非專一活化大量 T 細胞 → cytokine storm（例：TSST-1）。",
+  "topics": [
+   "致病機轉"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-19",
+  "source": "114 期中考古",
+  "num": 19,
+  "chapter": "staph-strep",
+  "type": "mcq",
+  "stem": "在Staphylococcus aureus中，可以用免疫球蛋白的 Fc結合，逃脫宿主吞噬，是何者構造？",
+  "options": [
+   {
+    "k": "A",
+    "t": "M protein"
+   },
+   {
+    "k": "B",
+    "t": "Protein A"
+   },
+   {
+    "k": "C",
+    "t": "lipopolysaccharide"
+   },
+   {
+    "k": "D",
+    "t": "Coagulase"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）Protein A 結合 IgG 的 Fc 端，使抗體方向倒置，阻止調理吞噬。",
+  "topics": [
+   "葡萄球菌、鏈球菌"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-20",
+  "source": "114 期中考古",
+  "num": 20,
+  "chapter": "staph-strep",
+  "type": "mcq",
+  "stem": "鏈球菌引起的急性風濕熱與下列何者機制有關？",
+  "options": [
+   {
+    "k": "A",
+    "t": "細菌入侵中樞神經"
+   },
+   {
+    "k": "B",
+    "t": "細菌入侵心肌細胞"
+   },
+   {
+    "k": "C",
+    "t": "毒素引起局部發炎"
+   },
+   {
+    "k": "D",
+    "t": "自體免疫反應"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）A 群鏈球菌 M protein 與心肌抗原的分子相似性 → 自體免疫（急性風濕熱）。",
+  "topics": [
+   "葡萄球菌、鏈球菌"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-21",
+  "source": "114 期中考古",
+  "num": 21,
+  "chapter": "staph-strep",
+  "type": "mcq",
+  "stem": "關於S.pneumoniae 之敘述 下列何者錯誤",
+  "options": [
+   {
+    "k": "A",
+    "t": "引發肺炎(pneumonia)，且不存在正常人的咽喉"
+   },
+   {
+    "k": "B",
+    "t": "抵抗吞噬的莢膜是重要的致病因子"
+   },
+   {
+    "k": "C",
+    "t": "在血液培養中呈現半溶血"
+   },
+   {
+    "k": "D",
+    "t": "是臨床上細菌性肺炎的致病菌"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）S. pneumoniae 可以是正常人咽喉的菌叢；莢膜是主要毒力因子，血液培養呈 α 溶血（半溶血）。",
+  "topics": [
+   "葡萄球菌、鏈球菌"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-22",
+  "source": "114 期中考古",
+  "num": 22,
+  "chapter": "staph-strep",
+  "type": "mcq",
+  "stem": "腸球菌streptococcus 在院內感染常見，跟其何種特性有關？",
+  "options": [
+   {
+    "k": "A",
+    "t": "對抗生素具多重抗藥性"
+   },
+   {
+    "k": "B",
+    "t": "高度移動性，能在細胞間移動"
+   },
+   {
+    "k": "C",
+    "t": "會產生毒素，造成嚴重的全身發炎反應"
+   },
+   {
+    "k": "D",
+    "t": "利用莢膜形成生物膜，抵抗宿主免疫系統"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）Enterococcus 院內感染與多重抗藥性（例：VRE）有關。",
+  "topics": [
+   "葡萄球菌、鏈球菌"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-25",
+  "source": "114 期中考古",
+  "num": 25,
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "下列致病性大腸桿菌與其分泌的毒素，何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Uropathogenic E.coli分泌hemolysin"
+   },
+   {
+    "k": "B",
+    "t": "Enterotoxigenic E.coli分泌shiga toxin"
+   },
+   {
+    "k": "C",
+    "t": "Enterophathogenic E.coli分泌LT toxin"
+   },
+   {
+    "k": "D",
+    "t": "Enteroaggregative E.coli不會產生毒素"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）UPEC 產生 hemolysin；ETEC 產生 LT／ST；Shiga toxin 是 EHEC；EAEC 也會產生毒素。",
+  "topics": [
+   "腸桿菌科"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-27",
+  "source": "114 期中考古",
+  "num": 27,
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "哪種細菌致病所需的量最小",
+  "options": [
+   {
+    "k": "A",
+    "t": "Salmonella"
+   },
+   {
+    "k": "B",
+    "t": "Shigella"
+   },
+   {
+    "k": "C",
+    "t": "Yersinia"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）Shigella 只要 10–100 個菌就能致病，是三者中最低的。",
+  "topics": [
+   "腸桿菌科"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-28",
+  "source": "114 期中考古",
+  "num": 28,
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "下列關於鼠疫何者正確",
+  "options": [
+   {
+    "k": "A",
+    "t": "菌名為 Yersinia pestis"
+   },
+   {
+    "k": "B",
+    "t": "致病的原因是吸入受感染老鼠的糞便"
+   },
+   {
+    "k": "C",
+    "t": "如果沒有治療肺炎無法治癒到100%"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）鼠疫桿菌 Yersinia pestis 經跳蚤叮咬傳播（肺鼠疫可飛沫人傳人），不是吸入老鼠糞便。",
+  "topics": [
+   "腸桿菌科"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-30",
+  "source": "114 期中考古",
+  "num": 30,
+  "chapter": "neisseria",
+  "type": "mcq",
+  "stem": "綠膿桿菌（Pseudomonas aeruginosa）的 alginase 有什麼作用？",
+  "options": [
+   {
+    "k": "A",
+    "t": "生物膜間質（biofilm matrix）"
+   },
+   {
+    "k": "B",
+    "t": "分解蛋白質"
+   },
+   {
+    "k": "C",
+    "t": "形成超氧化體"
+   },
+   {
+    "k": "D",
+    "t": "抑制蛋白質合成"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）P. aeruginosa 的 alginate（多醣）構成生物膜基質，囊性纖維化病人特別重要。",
+  "topics": [
+   "其他 G(−) 菌"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-31",
+  "source": "114 期中考古",
+  "num": 31,
+  "chapter": "bacillus",
+  "type": "mcq",
+  "stem": "關於炭疽桿菌（Bacillus anthracis），何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "為Gran negative"
+   },
+   {
+    "k": "B",
+    "t": "多醣構成的莢膜使其可以抵抗吞噬"
+   },
+   {
+    "k": "C",
+    "t": "Emeda toxin是AB toxin"
+   },
+   {
+    "k": "D",
+    "t": "吸入式是最常見的感染方式"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）Anthrax 的 edema toxin（PA＋EF）與 lethal toxin 都是 A-B toxin。B. anthracis 是 G(+)、莢膜是 poly-D-glutamic acid 胜肽，最常見的是皮膚型。",
+  "topics": [
+   "Bacillus 等 G(+) 桿菌"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-32",
+  "source": "114 期中考古",
+  "num": 32,
+  "chapter": "bacillus",
+  "type": "mcq",
+  "stem": "關於白喉毒素（Diphtheria toxin），何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "AB Toxin"
+   },
+   {
+    "k": "B",
+    "t": "由Beta 噬菌體的tox基因轉譯而來"
+   },
+   {
+    "k": "C",
+    "t": "可以抑制宿主細胞的蛋白質合成"
+   },
+   {
+    "k": "D",
+    "t": "Elek檢測可以測試是否有中和白喉毒素的抗體"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）Elek test 是用抗毒素測**菌株是否產毒**；測中和抗體的是 Schick test（已不用）。",
+  "topics": [
+   "Bacillus 等 G(+) 桿菌"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-33",
+  "source": "114 期中考古",
+  "num": 33,
+  "chapter": "bacillus",
+  "type": "mcq",
+  "stem": "下列有關仙人掌桿菌（Bacillus cereus)的敘述何者錯誤",
+  "options": [
+   {
+    "k": "A",
+    "t": "嘔吐型毒素為耐熱型毒素"
+   },
+   {
+    "k": "B",
+    "t": "米飯為嘔吐型"
+   },
+   {
+    "k": "C",
+    "t": "嘔吐型毒素發作時間平均為9hr後"
+   },
+   {
+    "k": "D",
+    "t": "腹瀉型毒素為20~36hr 發作"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）嘔吐型毒素耐熱、與米飯有關，潛伏期約 1–6 小時（平均約 2 小時），不是 9 小時。腹瀉型潛伏期 > 6 小時、病程約 20–36 小時。",
+  "topics": [
+   "Bacillus 等 G(+) 桿菌"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-34",
+  "source": "114 期中考古",
+  "num": 34,
+  "chapter": "bacillus",
+  "type": "mcq",
+  "stem": "炭疽桿菌的edema toxin和霍亂毒素的共同之處",
+  "options": [
+   {
+    "k": "A",
+    "t": "都抑制寄主__"
+   },
+   {
+    "k": "B",
+    "t": "都抑制合成蛋白"
+   },
+   {
+    "k": "C",
+    "t": "都使cAMP上升"
+   },
+   {
+    "k": "D",
+    "t": "都造成腹瀉"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）Edema factor 是 adenylate cyclase；cholera toxin 使 Gs 持續活化，兩者都使 cAMP 上升。",
+  "topics": [
+   "Bacillus 等 G(+) 桿菌"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-35",
+  "source": "114 期中考古",
+  "num": 35,
+  "chapter": "neisseria",
+  "type": "mcq",
+  "stem": "關於h pylori 的敘述何者正確",
+  "options": [
+   {
+    "k": "A",
+    "t": "絕對厭氧"
+   },
+   {
+    "k": "B",
+    "t": "常因攝食未煮熟的雞鴨豬牛而傳染"
+   },
+   {
+    "k": "C",
+    "t": "會引發巴利氏症候群（Guillain-Barré syndrome，GBS）"
+   },
+   {
+    "k": "D",
+    "t": "具有端從鞭毛所以有高移動性"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）H. pylori 微需氧、有端叢鞭毛、移動性高。吃未煮熟禽肉與 Guillain-Barré 症候群是 Campylobacter jejuni。",
+  "topics": [
+   "其他 G(−) 菌"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-37",
+  "source": "114 期中考古",
+  "num": 37,
+  "chapter": "fungi",
+  "type": "mcq",
+  "stem": "一位病患受到真菌感染，在顯微鏡下呈現厚壁，棕色圓形細胞，有暗色菌絲，可能是下列何者？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Tinea versicolor 花斑癬"
+   },
+   {
+    "k": "B",
+    "t": "sporotrichosis 孢子菌絲病"
+   },
+   {
+    "k": "C",
+    "t": "Chromoblastomycosis 著色芽生菌絲病"
+   },
+   {
+    "k": "D",
+    "t": "Histoplasmosis 組織胞漿菌病"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）Chromoblastomycosis：組織中可見厚壁、棕色、圓形的 sclerotic bodies（Medlar bodies），是暗色真菌。",
+  "topics": [
+   "真菌"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-38",
+  "source": "114 期中考古",
+  "num": 38,
+  "chapter": "fungi",
+  "type": "mcq",
+  "stem": "抗真菌藥物中，polyenes藥物的作用為何",
+  "options": [
+   {
+    "k": "A",
+    "t": "直接與麥角固醇(ergosterol)結合造成細胞膜穿孔"
+   },
+   {
+    "k": "B",
+    "t": "抑制ergosterol合成"
+   },
+   {
+    "k": "C",
+    "t": "抑制幾丁質細胞壁β-glucans合成"
+   },
+   {
+    "k": "D",
+    "t": "作為核苷酸類似物抑制真菌複製"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）Polyenes（amphotericin B、nystatin）直接與 ergosterol 結合，在細胞膜形成孔洞。抑制 ergosterol 合成的是 azoles；抑制 β-glucan 的是 echinocandins。",
+  "topics": [
+   "真菌"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-39",
+  "source": "114 期中考古",
+  "num": 39,
+  "chapter": "immuno-basic",
+  "type": "mcq",
+  "stem": "可以連接先天免疫與後天免疫的細胞",
+  "options": [
+   {
+    "k": "A",
+    "t": "巨噬"
+   },
+   {
+    "k": "B",
+    "t": "嗜中性"
+   },
+   {
+    "k": "C",
+    "t": "樹突"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）樹突細胞是最主要的抗原呈現細胞，連結先天與後天免疫。",
+  "topics": [
+   "免疫學基本概念"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-40",
+  "source": "114 期中考古",
+  "num": 40,
+  "chapter": "tcell-dev",
+  "type": "mcq",
+  "stem": "有關於positive selection哪個選項是正確的",
+  "options": [
+   {
+    "k": "A",
+    "t": "能辨識自我MHC的，TCR訊號達中等以上，會被保留"
+   },
+   {
+    "k": "B",
+    "t": "不能辨識自我MHC的會被保留"
+   },
+   {
+    "k": "C",
+    "t": "可以被自我辨識的會被Apotosis"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）Positive selection：能辨識自我 MHC、訊號適中的胸腺細胞存活；不能辨識的死於 neglect。",
+  "topics": [
+   "T 細胞發育"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-41",
+  "source": "114 期中考古",
+  "num": 41,
+  "chapter": "fungi",
+  "type": "mcq",
+  "stem": "關於 Cryptococcus neoformans（新型隱球菌），下列何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "屬於 Basidiomycota"
+   },
+   {
+    "k": "B",
+    "t": "可能造成腦膜炎"
+   },
+   {
+    "k": "C",
+    "t": "可由 germ tube assay 鑑定"
+   },
+   {
+    "k": "D",
+    "t": "在 Niger seed agar 上會呈棕黑色菌落"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）Germ tube test 用來鑑定 Candida albicans。Cryptococcus 屬擔子菌門，會造成腦膜炎，在 Niger seed agar 上因 phenoloxidase 呈棕黑色。",
+  "topics": [
+   "真菌"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-42",
+  "source": "114 期中考古",
+  "num": 42,
+  "chapter": "immuno-basic",
+  "type": "mcq",
+  "stem": "造血幹細胞（Hematopoietic stem cells, HSCs）在胚胎發育過程中不會在下列何者發現：",
+  "options": [
+   {
+    "k": "A",
+    "t": "Yolk sac"
+   },
+   {
+    "k": "B",
+    "t": "Fetal liver"
+   },
+   {
+    "k": "C",
+    "t": "Fetal heart"
+   },
+   {
+    "k": "D",
+    "t": "Bone marrow"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）胚胎造血依序在卵黃囊、胎兒肝（脾）、骨髓；心臟不是造血器官。",
+  "topics": [
+   "免疫學基本概念"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-45",
+  "source": "114 期中考古",
+  "num": 45,
+  "chapter": "mhc",
+  "type": "mcq",
+  "stem": "有關B cell、Dendritic cell、Macrophage的敘述，何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "三者皆表現MHC class II、B7，所以被稱為抗原呈現細胞"
+   },
+   {
+    "k": "B",
+    "t": "三者皆表現MHC class II，但不表現MHC class I"
+   },
+   {
+    "k": "C",
+    "t": "三者皆活化T cell，但以B cell最容易活化 naïve T cell"
+   },
+   {
+    "k": "D",
+    "t": "三者平常接維持不成熟狀態在周邊巡邏，遇到抗原後會分化進入成熟狀態，遷移至附近淋巴組織"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）B 細胞、樹突細胞、巨噬細胞都表現 MHC II 與 B7（共刺激分子），是專業 APC。活化 naïve T 細胞最強的是樹突細胞。",
+  "topics": [
+   "MHC 與抗原呈現"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-46",
+  "source": "114 期中考古",
+  "num": 46,
+  "chapter": "tcell-dev",
+  "type": "mcq",
+  "stem": "關於T細胞的TCR抗原結合位置，何者具最大變異度？",
+  "options": [
+   {
+    "k": "A",
+    "t": "CDR1"
+   },
+   {
+    "k": "B",
+    "t": "CDR2"
+   },
+   {
+    "k": "C",
+    "t": "CDR3"
+   },
+   {
+    "k": "D",
+    "t": "CDR4"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）CDR3 由 V(D)J 接合處形成（含 N、P 核苷酸），變異度最大。",
+  "topics": [
+   "T 細胞發育"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-49",
+  "source": "114 期中考古",
+  "num": 49,
+  "chapter": "tcell-dev",
+  "type": "mcq",
+  "stem": "下列何者是T細胞發育過程”positive selection”的最適當敘述？",
+  "options": [
+   {
+    "k": "A",
+    "t": "胸腺上皮細胞表現AIRE，此蛋白可以促進組織特異性抗原（tissue-specific）的表現，以利T細胞進行篩選。"
+   },
+   {
+    "k": "B",
+    "t": "當線細胞辨識到胸腺上皮細胞表表面的MHC-peptide，此可以引發中等以上訊號，使其得以存活。"
+   },
+   {
+    "k": "C",
+    "t": "當胸線細胞無法辨識到胸線上皮細胞表面的MHC-peptide，則可以被選擇出來繼續發育。"
+   },
+   {
+    "k": "D",
+    "t": "當胸線細胞辨識到自己的MHC分子時，胸線細胞就會進行細胞凋亡（apotosis）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）Positive selection 是胸腺皮質上皮細胞的自我 MHC-peptide 給予適中訊號而存活。AIRE 相關的是 negative selection。",
+  "topics": [
+   "T 細胞發育"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-50",
+  "source": "114 期中考古",
+  "num": 50,
+  "chapter": "immuno-basic",
+  "type": "mcq",
+  "stem": "下列何者為涵蓋先天性免疫與後天性免疫之抗原呈現細胞？",
+  "options": [
+   {
+    "k": "A",
+    "t": "NK cell"
+   },
+   {
+    "k": "B",
+    "t": "basophils"
+   },
+   {
+    "k": "C",
+    "t": "neutralphil"
+   },
+   {
+    "k": "D",
+    "t": "dendritic cell"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）樹突細胞同時參與先天免疫並活化後天免疫。",
+  "topics": [
+   "免疫學基本概念"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-51",
+  "source": "114 期中考古",
+  "num": 51,
+  "chapter": "tcell-dev",
+  "type": "mcq",
+  "stem": "T細胞受體（TCR）的多樣性是因為：（1）V region 有多個基因片段 （2）V(D)J 重組（3）RAG1、RAG2的基因表現（4）AIRE基因表現（5）Terminal deoxynucleotidyl transferase（TdT）的基因表現（6）Class switch recombination（7）N addition",
+  "options": [
+   {
+    "k": "A",
+    "t": "(1)(2)(3)(5)(7)"
+   },
+   {
+    "k": "B",
+    "t": "(1)(2)(3)(6)(7)"
+   },
+   {
+    "k": "C",
+    "t": "(1)(2)(3)(4)(5)"
+   },
+   {
+    "k": "D",
+    "t": "(1)(2)(3)(5)(6)"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）TCR 多樣性來自多個 V 片段、V(D)J 重組（RAG1／2）、TdT 加 N 核苷酸。AIRE 與 negative selection 有關；class switch 只發生在 B 細胞。",
+  "topics": [
+   "T 細胞發育"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-52",
+  "source": "114 期中考古",
+  "num": 52,
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "Follicular helper T cell（TFH）所分泌的的細胞激素為何？",
+  "options": [
+   {
+    "k": "A",
+    "t": "IL-21"
+   },
+   {
+    "k": "B",
+    "t": "IL-22"
+   },
+   {
+    "k": "C",
+    "t": "IL-23"
+   },
+   {
+    "k": "D",
+    "t": "IL-27"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）Tfh 分泌 IL-21（並表現 CD40L）幫助生發中心 B 細胞。",
+  "topics": [
+   "T 細胞活化"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-57",
+  "source": "114 期中考古",
+  "num": 57,
+  "chapter": "mhc",
+  "type": "mcq",
+  "stem": "下列關於MHC II的敘述哪個錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "其co-receptor為CD4"
+   },
+   {
+    "k": "B",
+    "t": "由 α 及 β 構成"
+   },
+   {
+    "k": "C",
+    "t": "通常表現於嗜中性球(neutrophil)上"
+   },
+   {
+    "k": "D",
+    "t": "也表現於胸腺中的上皮細胞上 (Thymic epithelial cells)"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）MHC II 表現在專業 APC 與胸腺上皮細胞，不表現在嗜中性球；co-receptor 是 CD4。",
+  "topics": [
+   "MHC 與抗原呈現"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-58",
+  "source": "114 期中考古",
+  "num": 58,
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "親合力成熟作用（affinity maturation）是抗體對抗原的親合力增強的主要原因，有關親合力成熟作用的敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "活化的B細胞在生發中心（germinal center）進行體細胞超突變（somatic hypermutation），在Ig基因的變異區（variable region）和固定區（constant region）造成胺基酸序列的改變"
+   },
+   {
+    "k": "B",
+    "t": "體細胞超突變（somatic hypermutation）需要AID（activation-induced cytidine deaminase）一種脫胺酵素的參與，主要是作用在胞嘧啶（cytosine, C）上使之轉變為尿嘧啶（uridine, U），再經過DNA修復作用引起突變"
+   },
+   {
+    "k": "C",
+    "t": "活化的B細胞的抗原接受器（BCR）會因為超突變的結果造成對抗原親合力的改變，可能會減弱BCR對抗原的結合力，但也可能會增加親合力"
+   },
+   {
+    "k": "D",
+    "t": "經過濾泡樹突細胞（follicular dendritic cell）上抗原的篩選後，只有親合力高的B細胞存活並大量增生，其餘親合力弱的B細胞則由於缺乏抗原刺激而凋亡"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）體細胞超突變只發生在**可變區**，不發生在固定區。",
+  "topics": [
+   "抗原抗體"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-61",
+  "source": "114 期中考古",
+  "num": 61,
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "CD4+的T細胞有很多分型，請問會分泌IL-17的CD4+T細胞有何功能？",
+  "options": [
+   {
+    "k": "A",
+    "t": "殺胞內細菌"
+   },
+   {
+    "k": "B",
+    "t": "清胞外細菌"
+   },
+   {
+    "k": "C",
+    "t": "移除寄生蟲"
+   },
+   {
+    "k": "D",
+    "t": "阻止T細胞過度活化"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）Th17 分泌 IL-17，招募嗜中性球對抗胞外細菌與真菌。",
+  "topics": [
+   "T 細胞活化"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-62",
+  "source": "114 期中考古",
+  "num": 62,
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "先天性免疫中，能接受訊息促免疫細胞趨化反應者為何?",
+  "options": [
+   {
+    "k": "A",
+    "t": "T-cell receptor"
+   },
+   {
+    "k": "B",
+    "t": "B-cell receptor"
+   },
+   {
+    "k": "C",
+    "t": "chemokine receptor"
+   },
+   {
+    "k": "D",
+    "t": "Toll-like receptor"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）趨化反應由 chemokine receptor（GPCR）接收 chemokine 訊號。",
+  "topics": [
+   "先天免疫"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-65",
+  "source": "114 期中考古",
+  "num": 65,
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "下列何者是補體三條路徑的交會點？",
+  "options": [
+   {
+    "k": "A",
+    "t": "C1qr2s2"
+   },
+   {
+    "k": "B",
+    "t": "C3convertase"
+   },
+   {
+    "k": "C",
+    "t": "C4"
+   },
+   {
+    "k": "D",
+    "t": "C5"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）三條補體路徑都匯集在 C3 convertase（C3 的切割）。",
+  "topics": [
+   "先天免疫"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-66",
+  "source": "114 期中考古",
+  "num": 66,
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "一名60歲的男性患者，有黃疸而看診。其有30年的飲酒習慣，血液中B型肝炎抗體呈現陽性，且血中AST ALT上升，補體濃度下降。請問關於補體的敘述下列何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "補體能抑制吞噬作用"
+   },
+   {
+    "k": "B",
+    "t": "補體與發炎反應無關"
+   },
+   {
+    "k": "C",
+    "t": "補體能溶解細胞膜"
+   },
+   {
+    "k": "D",
+    "t": "補體能啟動IgE抗體"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）補體最終形成 MAC 溶解細胞膜；補體會促進吞噬（調理作用）與發炎。",
+  "topics": [
+   "先天免疫"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-67",
+  "source": "114 期中考古",
+  "num": 67,
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "請問membrane-attack complex（MAC）由何者組成？",
+  "options": [
+   {
+    "k": "A",
+    "t": "C5a、C6、C7、C8、C9"
+   },
+   {
+    "k": "B",
+    "t": "C5b、C6、C7、C8、C9"
+   },
+   {
+    "k": "C",
+    "t": "C4a、C6、C7、C8、C9"
+   },
+   {
+    "k": "D",
+    "t": "C4b、C6、C7、C8、C9"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）MAC = C5b、C6、C7、C8、C9（多個 C9 聚合成孔洞）。",
+  "topics": [
+   "先天免疫"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-69",
+  "source": "114 期中考古",
+  "num": 69,
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "下列哪一個屬於表現在自然殺手細胞（NK cell）上的抑制型受體？",
+  "options": [
+   {
+    "k": "A",
+    "t": "CD14"
+   },
+   {
+    "k": "B",
+    "t": "KIR-3D (short)"
+   },
+   {
+    "k": "C",
+    "t": "HLA-E"
+   },
+   {
+    "k": "D",
+    "t": "CD94/NKG2A"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）CD94/NKG2A 辨識 HLA-E，是 NK 細胞的抑制型受體。KIR 短尾（S）是活化型；HLA-E 是配體不是受體；CD14 是 LPS 共受體。",
+  "topics": [
+   "先天免疫"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-70",
+  "source": "114 期中考古",
+  "num": 70,
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "可作為可活化 B 淋巴細胞的抗原，其特性不包括下列哪一項?",
+  "options": [
+   {
+    "k": "A",
+    "t": "抗原上的 epitope 多為親水性性質"
+   },
+   {
+    "k": "B",
+    "t": "需有 MHC 分子參與和抗原以及 B 細胞上的受體相結合"
+   },
+   {
+    "k": "C",
+    "t": "抗原上作為 B 細胞認知的 peptides,其序列可為具不連續性的氨基酸序列"
+   },
+   {
+    "k": "D",
+    "t": "抗原可以是 protein、polysaccharide 或 lipid"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）B 細胞直接辨識抗原的構形決定位（可為不連續序列，蛋白、多醣、脂質都可以），不需要 MHC。",
+  "topics": [
+   "抗原抗體"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-71",
+  "source": "114 期中考古",
+  "num": 71,
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "腸胃道中含有大量的IgA抗體，請問相關敘述何者最正確?",
+  "options": [
+   {
+    "k": "A",
+    "t": "血清與腸胃中的IgA抗體亞型比例一致"
+   },
+   {
+    "k": "B",
+    "t": "IL-12可促進B cell分泌IgA"
+   },
+   {
+    "k": "C",
+    "t": "病原菌抗原與IgA結合，可啟動經典補體途徑"
+   },
+   {
+    "k": "D",
+    "t": "分泌型IgA上的分泌片段是由上皮細胞合成的"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）分泌片段（secretory component）來自上皮細胞的 poly-Ig receptor。IgA 不活化經典補體路徑；TGF-β（不是 IL-12）促進 IgA class switch。",
+  "topics": [
+   "抗原抗體"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-72",
+  "source": "114 期中考古",
+  "num": 72,
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "關於抗體，下列敘述何者錯誤?",
+  "options": [
+   {
+    "k": "A",
+    "t": "IgM能通過胎盤提供嬰兒被動免疫"
+   },
+   {
+    "k": "B",
+    "t": "成熟的B淋巴球可製造特異性的免疫球蛋白"
+   },
+   {
+    "k": "C",
+    "t": "IgE濃度增加代表個體產生過敏或受寄生蟲感染"
+   },
+   {
+    "k": "D",
+    "t": "抗體均由兩對多肽鏈組成，包括兩條重鏈兩條輕鏈"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）能通過胎盤的是 IgG，不是 IgM。",
+  "topics": [
+   "抗原抗體"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-73",
+  "source": "114 期中考古",
+  "num": 73,
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "V(D)J重組過程有許多蛋白參與，有關這些蛋白的敘述何者錯誤?",
+  "options": [
+   {
+    "k": "A",
+    "t": "RAG-1 和 RAG-2: 辨識RSS後產生DNA斷裂"
+   },
+   {
+    "k": "B",
+    "t": "Artemis: 具 nuclease activity 可打開 DNA hairpin 產生 P-nucleotide"
+   },
+   {
+    "k": "C",
+    "t": "TdT: 可標記 DNA 斷裂點或異常結構"
+   },
+   {
+    "k": "D",
+    "t": "DNA Ligase IV: 連結 DNA 斷裂點"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）TdT 在接合處隨機加入 N 核苷酸，不是「標記」斷裂點。",
+  "topics": [
+   "抗原抗體"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-78",
+  "source": "114 期中考古",
+  "num": 78,
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "下列關於先天免疫受體（PRRs, pattern recognition receptors）的敘述，何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "PRRs辨識細菌特異抗原"
+   },
+   {
+    "k": "B",
+    "t": "PRRs位於細胞膜外側"
+   },
+   {
+    "k": "C",
+    "t": "PRRs可辨識PAMPs與DAMPs"
+   },
+   {
+    "k": "D",
+    "t": "PRRs僅存在於吞噬細胞中"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）PRRs 辨識 PAMPs 與 DAMPs；可在細胞膜、內體或細胞質；不只存在於吞噬細胞。",
+  "topics": [
+   "先天免疫"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-79",
+  "source": "114 期中考古",
+  "num": 79,
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "關於發炎小體（inflammasome）的敘述，下列何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "可由NLRP3或AIM2誘導形成"
+   },
+   {
+    "k": "B",
+    "t": "主要活化caspase-3"
+   },
+   {
+    "k": "C",
+    "t": "存在於樹突細胞中"
+   },
+   {
+    "k": "D",
+    "t": "不參與IL-1β與IL-18的產生"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）Inflammasome 可由 NLRP3、AIM2 等形成，活化 caspase-1 → 產生 IL-1β、IL-18。（樹突細胞中也有，但題目最佳答案為 A。）",
+  "topics": [
+   "先天免疫"
+  ],
+  "pattern": "選正確／單一概念題"
+ }
+]

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 530" role="img" aria-label="常考蟲卵相對大小示意，依同一比例尺繪製：小型有橫川吸蟲、中華肝吸蟲、菲律賓毛線蟲、鞭蟲、蟯蟲、糞小桿線蟲、鉤蟲、蛔蟲受孕卵；中型有犬蛔蟲、衛氏肺吸蟲、蛔蟲未受孕卵、日本血吸蟲；大型有牛羊肝吸蟲、布氏薑片蟲、曼氏血吸蟲、埃及血吸蟲。">
+<text x="10" y="20" class="th">同一比例尺 · 紫字＝線蟲　紅字＝吸蟲</text>
+<path d="M640 14H697.5" class="ln" style="stroke-width:2"/><text x="703.5" y="18" class="ts">50 µm</text>
+<text x="10" y="46" class="th">小型 · ≤ 60 µm</text>
+<g class="hot" data-tip="<b>橫川吸蟲</b>：約 28 × 17 µm。小、卵蓋沒有明顯的肩、後端小突起。" data-label="橫川吸蟲"><ellipse cx="57.5" cy="84.0" rx="16.1" ry="9.8" class="bw"/><path d="M44.4,77.9 Q46.4,84.0 44.4,90.1" class="ln" style="stroke:var(--warn)"/><circle cx="74.6" cy="84.0" r="1.5" class="fw"/><text x="57.5" y="126.0" text-anchor="middle" class="tb tr" style="font-size:12px">橫川吸蟲</text></g>
+<text x="57.5" y="140.0" text-anchor="middle" class="ts">28×17 µm</text>
+<text x="57.5" y="154.0" text-anchor="middle" class="ts">卵蓋無肩</text>
+<g class="hot" data-tip="<b>中華肝吸蟲</b>：約 30 × 16 µm。卵蓋坐在明顯的肩上、後端小突起；吸蟲卵最小。" data-label="中華肝吸蟲"><ellipse cx="152.5" cy="84.0" rx="17.2" ry="9.2" class="bw"/><path d="M138.2,78.3 Q140.2,84.0 138.2,89.7" class="ln" style="stroke:var(--warn)"/><circle cx="170.8" cy="84.0" r="1.5" class="fw"/><text x="152.5" y="126.0" text-anchor="middle" class="tb tr" style="font-size:12px">中華肝吸蟲</text></g>
+<text x="152.5" y="140.0" text-anchor="middle" class="ts">30×16 µm</text>
+<text x="152.5" y="154.0" text-anchor="middle" class="ts">卵蓋有肩</text>
+<g class="hot" data-tip="<b>菲律賓毛線蟲</b>：約 40 × 20 µm。花生形、殼有放射紋、兩端淺極塞。" data-label="菲律賓毛線蟲"><ellipse cx="247.5" cy="84.0" rx="23.0" ry="11.5" class="bw"/><circle cx="223.7" cy="84.0" r="2" class="fc" style="stroke:var(--warn);stroke-width:1"/><circle cx="271.3" cy="84.0" r="2" class="fc" style="stroke:var(--warn);stroke-width:1"/><text x="247.5" y="126.0" text-anchor="middle" class="tb tv" style="font-size:12px">菲律賓毛線蟲</text></g>
+<text x="247.5" y="140.0" text-anchor="middle" class="ts">40×20 µm</text>
+<text x="247.5" y="154.0" text-anchor="middle" class="ts">花生形</text>
+<g class="hot" data-tip="<b>鞭蟲</b>：約 54 × 22 µm。桶狀、兩端明顯的無色極塞。" data-label="鞭蟲"><ellipse cx="342.5" cy="84.0" rx="31.0" ry="12.6" class="bw"/><circle cx="310.1" cy="84.0" r="3.4" class="fc" style="stroke:var(--warn);stroke-width:1"/><circle cx="374.9" cy="84.0" r="3.4" class="fc" style="stroke:var(--warn);stroke-width:1"/><text x="342.5" y="126.0" text-anchor="middle" class="tb tv" style="font-size:12px">鞭蟲</text></g>
+<text x="342.5" y="140.0" text-anchor="middle" class="ts">54×22 µm</text>
+<text x="342.5" y="154.0" text-anchor="middle" class="ts">兩端極塞</text>
+<g class="hot" data-tip="<b>蟯蟲</b>：約 55 × 26 µm。一側扁平一側凸、無色透明，卵內常有幼蟲。" data-label="蟯蟲"><path d="M405.9,89.2 Q405.9,65.3 437.5,69.0 Q469.1,70.5 469.1,87.0 Q456.5,95.2 437.5,94.8 Q415.4,94.8 405.9,89.2Z" class="bx"/><text x="437.5" y="126.0" text-anchor="middle" class="tb tv" style="font-size:12px">蟯蟲</text></g>
+<text x="437.5" y="140.0" text-anchor="middle" class="ts">55×26 µm</text>
+<text x="437.5" y="154.0" text-anchor="middle" class="ts">一側扁平</text>
+<g class="hot" data-tip="<b>糞小桿線蟲</b>：約 54 × 32 µm。薄殼；卵在腸黏膜就孵化，糞便通常只看到桿狀幼蟲。" data-label="糞小桿線蟲"><ellipse cx="532.5" cy="84.0" rx="31.0" ry="18.4" class="bx" style="stroke-width:.8"/><text x="532.5" y="126.0" text-anchor="middle" class="tb tv" style="font-size:12px">糞小桿線蟲</text></g>
+<text x="532.5" y="140.0" text-anchor="middle" class="ts">54×32 µm</text>
+<text x="532.5" y="154.0" text-anchor="middle" class="ts">多只見幼蟲</text>
+<g class="hot" data-tip="<b>鉤蟲</b>：約 60 × 40 µm。薄殼、無色透明、內有 2–8 個分裂細胞。" data-label="鉤蟲"><ellipse cx="627.5" cy="84.0" rx="34.5" ry="23.0" class="bx" style="stroke-width:.8"/><circle cx="619.5" cy="79.0" r="5.5" class="fp" style="stroke:var(--ink-3);stroke-width:.6"/><circle cx="631.5" cy="78.0" r="5.5" class="fp" style="stroke:var(--ink-3);stroke-width:.6"/><circle cx="623.5" cy="90.0" r="5.5" class="fp" style="stroke:var(--ink-3);stroke-width:.6"/><circle cx="635.5" cy="89.0" r="5.5" class="fp" style="stroke:var(--ink-3);stroke-width:.6"/><text x="627.5" y="126.0" text-anchor="middle" class="tb tv" style="font-size:12px">鉤蟲</text></g>
+<text x="627.5" y="140.0" text-anchor="middle" class="ts">60×40 µm</text>
+<text x="627.5" y="154.0" text-anchor="middle" class="ts">薄殼透明</text>
+<g class="hot" data-tip="<b>蛔蟲受孕卵</b>：約 60 × 45 µm。厚殼＋凹凸蛋白質外套膜。以它（約 60 µm）當比例尺：大型 &gt;100 µm、小型 &lt;45 µm。" data-label="蛔蟲受孕卵"><ellipse cx="722.5" cy="84.0" rx="34.5" ry="25.9" class="bw" style="stroke-width:3.2;stroke-dasharray:2.4 1.6"/><text x="722.5" y="126.0" text-anchor="middle" class="tb tv" style="font-size:12px">蛔蟲受孕卵</text></g>
+<text x="722.5" y="140.0" text-anchor="middle" class="ts">60×45 µm</text>
+<text x="722.5" y="154.0" text-anchor="middle" class="ts">比例尺</text>
+<text x="10" y="186" class="th">中型 · 60–100 µm</text>
+<g class="hot" data-tip="犬蛔蟲卵在<b>狗糞</b>裡；人是非適合宿主，人的糞便不會有。" data-label="犬蛔蟲"><ellipse cx="105.0" cy="244.0" rx="47.1" ry="47.1" class="bw" style="stroke-width:2.6;stroke-dasharray:1.5 2.5"/><text x="105.0" y="306.0" text-anchor="middle" class="tb tv" style="font-size:12px">犬蛔蟲</text></g>
+<text x="105.0" y="320.0" text-anchor="middle" class="ts">82×82 µm</text>
+<text x="105.0" y="334.0" text-anchor="middle" class="ts">球形、表面凹洞</text>
+<g class="hot" data-tip="<b>衛氏肺吸蟲</b>：約 85 × 53 µm。卵蓋有肩、後端增厚。" data-label="衛氏肺吸蟲"><ellipse cx="295.0" cy="244.0" rx="48.9" ry="30.5" class="bw"/><path d="M253.9,225.1 Q255.9,244.0 253.9,262.9" class="ln" style="stroke:var(--warn)"/><path d="M342.4,228.8 Q344.9,244.0 342.4,259.2" style="fill:none;stroke:var(--warn);stroke-width:3.5"/><text x="295.0" y="306.0" text-anchor="middle" class="tb tr" style="font-size:12px">衛氏肺吸蟲</text></g>
+<text x="295.0" y="320.0" text-anchor="middle" class="ts">85×53 µm</text>
+<text x="295.0" y="334.0" text-anchor="middle" class="ts">卵蓋有肩、後端增厚</text>
+<g class="hot" data-tip="<b>蛔蟲未受孕卵</b>：約 90 × 40 µm。長橢圓、薄殼。" data-label="蛔蟲未受孕卵"><ellipse cx="485.0" cy="244.0" rx="51.7" ry="23.0" class="bw" style="stroke-width:3.2;stroke-dasharray:2.4 1.6"/><text x="485.0" y="306.0" text-anchor="middle" class="tb tv" style="font-size:12px">蛔蟲未受孕卵</text></g>
+<text x="485.0" y="320.0" text-anchor="middle" class="ts">90×40 µm</text>
+<text x="485.0" y="334.0" text-anchor="middle" class="ts">長橢圓、薄殼</text>
+<g class="hot" data-tip="<b>日本血吸蟲</b>：約 90 × 70 µm。側邊小刺、無卵蓋。" data-label="日本血吸蟲"><ellipse cx="675.0" cy="244.0" rx="51.7" ry="40.2" class="bw"/><path d="M700.5,211.2 Q706.5,202.2 709.5,213.2" class="fw"/><text x="675.0" y="306.0" text-anchor="middle" class="tb tr" style="font-size:12px">日本血吸蟲</text></g>
+<text x="675.0" y="320.0" text-anchor="middle" class="ts">90×70 µm</text>
+<text x="675.0" y="334.0" text-anchor="middle" class="ts">側邊小刺、無卵蓋</text>
+<text x="10" y="360" class="th">大型 · > 130 µm（蛔蟲卵的兩倍以上）</text>
+<g class="hot" data-tip="<b>牛羊肝吸蟲</b>：約 140 × 75 µm。大、薄殼、卵蓋小。" data-label="牛羊肝吸蟲"><ellipse cx="105.0" cy="424.0" rx="80.5" ry="43.1" class="bw"/><path d="M37.4,397.3 Q39.4,424.0 37.4,450.7" class="ln" style="stroke:var(--warn)"/><text x="105.0" y="486.0" text-anchor="middle" class="tb tr" style="font-size:12px">牛羊肝吸蟲</text></g>
+<text x="105.0" y="500.0" text-anchor="middle" class="ts">140×75 µm</text>
+<text x="105.0" y="514.0" text-anchor="middle" class="ts">大、薄殼、卵蓋小</text>
+<g class="hot" data-tip="<b>布氏薑片蟲</b>：約 140 × 80 µm。與牛羊肝吸蟲幾乎相同。" data-label="布氏薑片蟲"><ellipse cx="295.0" cy="424.0" rx="80.5" ry="46.0" class="bw"/><path d="M227.4,395.5 Q229.4,424.0 227.4,452.5" class="ln" style="stroke:var(--warn)"/><text x="295.0" y="486.0" text-anchor="middle" class="tb tr" style="font-size:12px">布氏薑片蟲</text></g>
+<text x="295.0" y="500.0" text-anchor="middle" class="ts">140×80 µm</text>
+<text x="295.0" y="514.0" text-anchor="middle" class="ts">與牛羊肝吸蟲幾乎相同</text>
+<g class="hot" data-tip="<b>曼氏血吸蟲</b>：約 140 × 60 µm。大側刺。" data-label="曼氏血吸蟲"><ellipse cx="485.0" cy="424.0" rx="80.5" ry="34.5" class="bw"/><path d="M515.2,453.7 L525.2,470.7 L526.2,451.7Z" class="fw"/><text x="485.0" y="486.0" text-anchor="middle" class="tb tr" style="font-size:12px">曼氏血吸蟲</text></g>
+<text x="485.0" y="500.0" text-anchor="middle" class="ts">140×60 µm</text>
+<text x="485.0" y="514.0" text-anchor="middle" class="ts">大側刺</text>
+<g class="hot" data-tip="唯一在<b>尿液</b>找到的常見蟲卵。" data-label="埃及血吸蟲"><path d="M592.8,424.0 C592.8,379.1 703.8,384.3 751.2,422.0 L765.2,424.0 L751.2,426.0 C703.8,463.7 592.8,468.9 592.8,424.0Z" class="bw"/><text x="675.0" y="486.0" text-anchor="middle" class="tb tr" style="font-size:12px">埃及血吸蟲</text></g>
+<text x="675.0" y="500.0" text-anchor="middle" class="ts">143×60 µm</text>
+<text x="675.0" y="514.0" text-anchor="middle" class="ts">尾端刺；尿液</text>
+</svg>

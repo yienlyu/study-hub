@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 360" role="img" aria-label="四種微絲蚴比較：班氏絲蟲有鞘、尾端無核、夜間在血液、家蚊傳播；馬來絲蟲有鞘、尾端兩顆核、夜間在血液、曼蚊傳播；羅阿絲蟲有鞘、核連續到尾尖、白天在血液、斑虻傳播；蟠尾絲蟲無鞘、尾端無核、在皮膚、黑蠅傳播。">
+<text x="10" y="20" class="th">看三件事：有沒有鞘 · 尾端的核 · 在哪裡、什麼時候找</text>
+<rect x="10" y="32" width="180" height="320" rx="12" class="bx"/>
+<g class="hot" data-tip="<b>班氏絲蟲</b>：有鞘、身體彎曲柔和、<b>尾端沒有核</b>；<b>夜間週期性</b>（微絲蚴白天躲在肺微血管）。台灣過去 90% 以上的淋巴絲蟲病是班氏。象皮病多在下肢、陰囊；乳糜尿。" data-label="班氏絲蟲"><text x="22" y="54" class="tb">班氏絲蟲</text></g>
+<text x="22" y="70" class="ts"><tspan font-style="italic">Wuchereria bancrofti</tspan></text>
+<path d="M24.0,122.0 L32.0,122.0 L34.3,124.2 L36.5,126.3 L38.8,128.4 L41.1,130.2 L43.3,131.9 L45.6,133.3 L47.9,134.5 L50.1,135.3 L52.4,135.8 L54.7,136.0 L56.9,135.8 L59.2,135.3 L61.5,134.5 L63.7,133.3 L66.0,131.9 L68.3,130.2 L70.5,128.4 L72.8,126.3 L75.1,124.2 L77.3,122.0 L79.6,119.8 L81.9,117.7 L84.1,115.6 L86.4,113.8 L88.7,112.1 L90.9,110.7 L93.2,109.5 L95.5,108.7 L97.7,108.2 L100.0,108.0 L102.3,108.2 L104.5,108.7 L106.8,109.5 L109.1,110.7 L111.3,112.1 L113.6,113.8 L115.9,115.6 L118.1,117.7 L120.4,119.8 L122.7,122.0 L124.9,124.2 L127.2,126.3 L129.5,128.4 L131.7,130.2 L134.0,131.9 L136.3,133.3 L138.5,134.5 L140.8,135.3 L143.1,135.8 L145.3,136.0 L147.6,135.8 L149.9,135.3 L152.1,134.5 L154.4,133.3 L156.7,131.9 L158.9,130.2 L161.2,128.4 L163.5,126.3 L165.7,124.2 L168.0,122.0 L177.0,122.0" style="fill:none;stroke:var(--violet-soft);stroke-width:15;stroke-linecap:round;stroke-linejoin:round"/>
+<path d="M32.0,122.0 L34.3,124.2 L36.5,126.3 L38.8,128.4 L41.1,130.2 L43.3,131.9 L45.6,133.3 L47.9,134.5 L50.1,135.3 L52.4,135.8 L54.7,136.0 L56.9,135.8 L59.2,135.3 L61.5,134.5 L63.7,133.3 L66.0,131.9 L68.3,130.2 L70.5,128.4 L72.8,126.3 L75.1,124.2 L77.3,122.0 L79.6,119.8 L81.9,117.7 L84.1,115.6 L86.4,113.8 L88.7,112.1 L90.9,110.7 L93.2,109.5 L95.5,108.7 L97.7,108.2 L100.0,108.0 L102.3,108.2 L104.5,108.7 L106.8,109.5 L109.1,110.7 L111.3,112.1 L113.6,113.8 L115.9,115.6 L118.1,117.7 L120.4,119.8 L122.7,122.0 L124.9,124.2 L127.2,126.3 L129.5,128.4 L131.7,130.2 L134.0,131.9 L136.3,133.3 L138.5,134.5 L140.8,135.3 L143.1,135.8 L145.3,136.0 L147.6,135.8 L149.9,135.3 L152.1,134.5 L154.4,133.3 L156.7,131.9 L158.9,130.2 L161.2,128.4 L163.5,126.3 L165.7,124.2 L168.0,122.0" style="fill:none;stroke:color-mix(in srgb, var(--violet) 35%, var(--card));stroke-width:8;stroke-linecap:round;stroke-linejoin:round"/>
+<circle cx="36.5" cy="126.3" r="2.1" class="fv"/>
+<circle cx="41.1" cy="130.2" r="2.1" class="fv"/>
+<circle cx="45.6" cy="133.3" r="2.1" class="fv"/>
+<circle cx="50.1" cy="135.3" r="2.1" class="fv"/>
+<circle cx="54.7" cy="136.0" r="2.1" class="fv"/>
+<circle cx="59.2" cy="135.3" r="2.1" class="fv"/>
+<circle cx="63.7" cy="133.3" r="2.1" class="fv"/>
+<circle cx="68.3" cy="130.2" r="2.1" class="fv"/>
+<circle cx="72.8" cy="126.3" r="2.1" class="fv"/>
+<circle cx="77.3" cy="122.0" r="2.1" class="fv"/>
+<circle cx="81.9" cy="117.7" r="2.1" class="fv"/>
+<circle cx="86.4" cy="113.8" r="2.1" class="fv"/>
+<circle cx="90.9" cy="110.7" r="2.1" class="fv"/>
+<circle cx="95.5" cy="108.7" r="2.1" class="fv"/>
+<circle cx="100.0" cy="108.0" r="2.1" class="fv"/>
+<circle cx="104.5" cy="108.7" r="2.1" class="fv"/>
+<circle cx="109.1" cy="110.7" r="2.1" class="fv"/>
+<circle cx="113.6" cy="113.8" r="2.1" class="fv"/>
+<circle cx="118.1" cy="117.7" r="2.1" class="fv"/>
+<circle cx="122.7" cy="122.0" r="2.1" class="fv"/>
+<circle cx="127.2" cy="126.3" r="2.1" class="fv"/>
+<circle cx="131.7" cy="130.2" r="2.1" class="fv"/>
+<circle cx="136.3" cy="133.3" r="2.1" class="fv"/>
+<circle cx="140.8" cy="135.3" r="2.1" class="fv"/>
+<circle cx="145.3" cy="136.0" r="2.1" class="fv"/>
+<circle cx="162.0" cy="122.0" r="15" class="none" style="stroke:var(--safranin);stroke-width:1.2;stroke-dasharray:3 2"/>
+<text x="28.0" y="108.0" class="ts">頭</text><text x="154.0" y="152.0" class="ts tr">尾</text>
+<text x="22" y="186" class="th">鞘</text>
+<text x="22" y="202" class="tb">有鞘</text>
+<text x="22" y="220" class="th">尾端</text>
+<text x="22" y="236" class="tb">尾端無核</text>
+<text x="22" y="254" class="th">檢體與時間</text>
+<text x="22" y="270">夜間 22–2 點，血液</text>
+<text x="22" y="288" class="th">病媒</text>
+<text x="22" y="304">家蚊 Culex、斑蚊、瘧蚊</text>
+<text x="22" y="322" class="th">成蟲在哪</text>
+<text x="22" y="338">淋巴管 → 象皮病、乳糜尿</text>
+<rect x="200" y="32" width="180" height="320" rx="12" class="bx"/>
+<g class="hot" data-tip="<b>馬來絲蟲</b>：有鞘（Giemsa 染成粉紅）、彎曲較多較僵硬、<b>尾端有兩顆分開的核</b>；夜間週期性。象皮病多在膝蓋以下，很少侵犯生殖器。" data-label="馬來絲蟲"><text x="212" y="54" class="tb">馬來絲蟲</text></g>
+<text x="212" y="70" class="ts"><tspan font-style="italic">Brugia malayi</tspan></text>
+<path d="M214.0,122.0 L222.0,122.0 L224.3,125.1 L226.5,127.9 L228.8,130.1 L231.1,131.5 L233.3,132.0 L235.6,131.5 L237.9,130.1 L240.1,127.9 L242.4,125.1 L244.7,122.0 L246.9,118.9 L249.2,116.1 L251.5,113.9 L253.7,112.5 L256.0,112.0 L258.3,112.5 L260.5,113.9 L262.8,116.1 L265.1,118.9 L267.3,122.0 L269.6,125.1 L271.9,127.9 L274.1,130.1 L276.4,131.5 L278.7,132.0 L280.9,131.5 L283.2,130.1 L285.5,127.9 L287.7,125.1 L290.0,122.0 L292.3,118.9 L294.5,116.1 L296.8,113.9 L299.1,112.5 L301.3,112.0 L303.6,112.5 L305.9,113.9 L308.1,116.1 L310.4,118.9 L312.7,122.0 L314.9,125.1 L317.2,127.9 L319.5,130.1 L321.7,131.5 L324.0,132.0 L326.3,131.5 L328.5,130.1 L330.8,127.9 L333.1,125.1 L335.3,122.0 L337.6,118.9 L339.9,116.1 L342.1,113.9 L344.4,112.5 L346.7,112.0 L348.9,112.5 L351.2,113.9 L353.5,116.1 L355.7,118.9 L358.0,122.0 L367.0,122.0" style="fill:none;stroke:var(--violet-soft);stroke-width:15;stroke-linecap:round;stroke-linejoin:round"/>
+<path d="M222.0,122.0 L224.3,125.1 L226.5,127.9 L228.8,130.1 L231.1,131.5 L233.3,132.0 L235.6,131.5 L237.9,130.1 L240.1,127.9 L242.4,125.1 L244.7,122.0 L246.9,118.9 L249.2,116.1 L251.5,113.9 L253.7,112.5 L256.0,112.0 L258.3,112.5 L260.5,113.9 L262.8,116.1 L265.1,118.9 L267.3,122.0 L269.6,125.1 L271.9,127.9 L274.1,130.1 L276.4,131.5 L278.7,132.0 L280.9,131.5 L283.2,130.1 L285.5,127.9 L287.7,125.1 L290.0,122.0 L292.3,118.9 L294.5,116.1 L296.8,113.9 L299.1,112.5 L301.3,112.0 L303.6,112.5 L305.9,113.9 L308.1,116.1 L310.4,118.9 L312.7,122.0 L314.9,125.1 L317.2,127.9 L319.5,130.1 L321.7,131.5 L324.0,132.0 L326.3,131.5 L328.5,130.1 L330.8,127.9 L333.1,125.1 L335.3,122.0 L337.6,118.9 L339.9,116.1 L342.1,113.9 L344.4,112.5 L346.7,112.0 L348.9,112.5 L351.2,113.9 L353.5,116.1 L355.7,118.9 L358.0,122.0" style="fill:none;stroke:color-mix(in srgb, var(--violet) 35%, var(--card));stroke-width:8;stroke-linecap:round;stroke-linejoin:round"/>
+<circle cx="226.5" cy="127.9" r="2.1" class="fv"/>
+<circle cx="231.1" cy="131.5" r="2.1" class="fv"/>
+<circle cx="235.6" cy="131.5" r="2.1" class="fv"/>
+<circle cx="240.1" cy="127.9" r="2.1" class="fv"/>
+<circle cx="244.7" cy="122.0" r="2.1" class="fv"/>
+<circle cx="249.2" cy="116.1" r="2.1" class="fv"/>
+<circle cx="253.7" cy="112.5" r="2.1" class="fv"/>
+<circle cx="258.3" cy="112.5" r="2.1" class="fv"/>
+<circle cx="262.8" cy="116.1" r="2.1" class="fv"/>
+<circle cx="267.3" cy="122.0" r="2.1" class="fv"/>
+<circle cx="271.9" cy="127.9" r="2.1" class="fv"/>
+<circle cx="276.4" cy="131.5" r="2.1" class="fv"/>
+<circle cx="280.9" cy="131.5" r="2.1" class="fv"/>
+<circle cx="285.5" cy="127.9" r="2.1" class="fv"/>
+<circle cx="290.0" cy="122.0" r="2.1" class="fv"/>
+<circle cx="294.5" cy="116.1" r="2.1" class="fv"/>
+<circle cx="299.1" cy="112.5" r="2.1" class="fv"/>
+<circle cx="303.6" cy="112.5" r="2.1" class="fv"/>
+<circle cx="308.1" cy="116.1" r="2.1" class="fv"/>
+<circle cx="312.7" cy="122.0" r="2.1" class="fv"/>
+<circle cx="317.2" cy="127.9" r="2.1" class="fv"/>
+<circle cx="321.7" cy="131.5" r="2.1" class="fv"/>
+<circle cx="326.3" cy="131.5" r="2.1" class="fv"/>
+<circle cx="330.8" cy="127.9" r="2.1" class="fv"/>
+<circle cx="335.3" cy="122.0" r="2.1" class="fv"/>
+<circle cx="348.9" cy="112.5" r="2.4" class="fr"/>
+<circle cx="355.7" cy="118.9" r="2.4" class="fr"/>
+<circle cx="352.0" cy="122.0" r="15" class="none" style="stroke:var(--safranin);stroke-width:1.2;stroke-dasharray:3 2"/>
+<text x="218.0" y="108.0" class="ts">頭</text><text x="344.0" y="152.0" class="ts tr">尾</text>
+<text x="212" y="186" class="th">鞘</text>
+<text x="212" y="202" class="tb">有鞘（Giemsa 染粉紅）</text>
+<text x="212" y="220" class="th">尾端</text>
+<text x="212" y="236" class="tb">尾端兩顆分開的核</text>
+<text x="212" y="254" class="th">檢體與時間</text>
+<text x="212" y="270">夜間，血液</text>
+<text x="212" y="288" class="th">病媒</text>
+<text x="212" y="304">曼蚊 Mansonia、瘧蚊</text>
+<text x="212" y="322" class="th">成蟲在哪</text>
+<text x="212" y="338">淋巴管 → 象皮病（膝以下）</text>
+<rect x="390" y="32" width="180" height="320" rx="12" class="bx"/>
+<g class="hot" data-tip="<b>羅阿絲蟲（非洲眼蟲）</b>：有鞘、<b>核一路排到尾巴尖端</b>；<b>白天週期性</b>，病媒斑虻白天叮人。成蟲在皮下遊走 → <b>Calabar swelling</b>，爬過眼結膜下最有名。" data-label="羅阿絲蟲"><text x="402" y="54" class="tb">羅阿絲蟲</text></g>
+<text x="402" y="70" class="ts"><tspan font-style="italic">Loa loa</tspan></text>
+<path d="M404.0,122.0 L412.0,122.0 L414.3,123.5 L416.5,125.0 L418.8,126.4 L421.1,127.8 L423.3,129.1 L425.6,130.2 L427.9,131.2 L430.1,132.1 L432.4,132.9 L434.7,133.4 L436.9,133.8 L439.2,134.0 L441.5,134.0 L443.7,133.8 L446.0,133.4 L448.3,132.9 L450.5,132.1 L452.8,131.2 L455.1,130.2 L457.3,129.1 L459.6,127.8 L461.9,126.4 L464.1,125.0 L466.4,123.5 L468.7,122.0 L470.9,120.5 L473.2,119.0 L475.5,117.6 L477.7,116.2 L480.0,114.9 L482.3,113.8 L484.5,112.8 L486.8,111.9 L489.1,111.1 L491.3,110.6 L493.6,110.2 L495.9,110.0 L498.1,110.0 L500.4,110.2 L502.7,110.6 L504.9,111.1 L507.2,111.9 L509.5,112.8 L511.7,113.8 L514.0,114.9 L516.3,116.2 L518.5,117.6 L520.8,119.0 L523.1,120.5 L525.3,122.0 L527.6,123.5 L529.9,125.0 L532.1,126.4 L534.4,127.8 L536.7,129.1 L538.9,130.2 L541.2,131.2 L543.5,132.1 L545.7,132.9 L548.0,133.4 L557.0,133.4" style="fill:none;stroke:var(--violet-soft);stroke-width:15;stroke-linecap:round;stroke-linejoin:round"/>
+<path d="M412.0,122.0 L414.3,123.5 L416.5,125.0 L418.8,126.4 L421.1,127.8 L423.3,129.1 L425.6,130.2 L427.9,131.2 L430.1,132.1 L432.4,132.9 L434.7,133.4 L436.9,133.8 L439.2,134.0 L441.5,134.0 L443.7,133.8 L446.0,133.4 L448.3,132.9 L450.5,132.1 L452.8,131.2 L455.1,130.2 L457.3,129.1 L459.6,127.8 L461.9,126.4 L464.1,125.0 L466.4,123.5 L468.7,122.0 L470.9,120.5 L473.2,119.0 L475.5,117.6 L477.7,116.2 L480.0,114.9 L482.3,113.8 L484.5,112.8 L486.8,111.9 L489.1,111.1 L491.3,110.6 L493.6,110.2 L495.9,110.0 L498.1,110.0 L500.4,110.2 L502.7,110.6 L504.9,111.1 L507.2,111.9 L509.5,112.8 L511.7,113.8 L514.0,114.9 L516.3,116.2 L518.5,117.6 L520.8,119.0 L523.1,120.5 L525.3,122.0 L527.6,123.5 L529.9,125.0 L532.1,126.4 L534.4,127.8 L536.7,129.1 L538.9,130.2 L541.2,131.2 L543.5,132.1 L545.7,132.9 L548.0,133.4" style="fill:none;stroke:color-mix(in srgb, var(--violet) 35%, var(--card));stroke-width:8;stroke-linecap:round;stroke-linejoin:round"/>
+<circle cx="416.5" cy="125.0" r="2.1" class="fv"/>
+<circle cx="421.1" cy="127.8" r="2.1" class="fv"/>
+<circle cx="425.6" cy="130.2" r="2.1" class="fv"/>
+<circle cx="430.1" cy="132.1" r="2.1" class="fv"/>
+<circle cx="434.7" cy="133.4" r="2.1" class="fv"/>
+<circle cx="439.2" cy="134.0" r="2.1" class="fv"/>
+<circle cx="443.7" cy="133.8" r="2.1" class="fv"/>
+<circle cx="448.3" cy="132.9" r="2.1" class="fv"/>
+<circle cx="452.8" cy="131.2" r="2.1" class="fv"/>
+<circle cx="457.3" cy="129.1" r="2.1" class="fv"/>
+<circle cx="461.9" cy="126.4" r="2.1" class="fv"/>
+<circle cx="466.4" cy="123.5" r="2.1" class="fv"/>
+<circle cx="470.9" cy="120.5" r="2.1" class="fv"/>
+<circle cx="475.5" cy="117.6" r="2.1" class="fv"/>
+<circle cx="480.0" cy="114.9" r="2.1" class="fv"/>
+<circle cx="484.5" cy="112.8" r="2.1" class="fv"/>
+<circle cx="489.1" cy="111.1" r="2.1" class="fv"/>
+<circle cx="493.6" cy="110.2" r="2.1" class="fv"/>
+<circle cx="498.1" cy="110.0" r="2.1" class="fv"/>
+<circle cx="502.7" cy="110.6" r="2.1" class="fv"/>
+<circle cx="507.2" cy="111.9" r="2.1" class="fv"/>
+<circle cx="511.7" cy="113.8" r="2.1" class="fv"/>
+<circle cx="516.3" cy="116.2" r="2.1" class="fv"/>
+<circle cx="520.8" cy="119.0" r="2.1" class="fv"/>
+<circle cx="525.3" cy="122.0" r="2.1" class="fv"/>
+<circle cx="529.9" cy="125.0" r="2.1" class="fv"/>
+<circle cx="534.4" cy="127.8" r="2.1" class="fv"/>
+<circle cx="538.9" cy="130.2" r="2.1" class="fv"/>
+<circle cx="543.5" cy="132.1" r="2.1" class="fv"/>
+<circle cx="542.0" cy="133.4" r="15" class="none" style="stroke:var(--safranin);stroke-width:1.2;stroke-dasharray:3 2"/>
+<text x="408.0" y="108.0" class="ts">頭</text><text x="534.0" y="163.4" class="ts tr">尾</text>
+<text x="402" y="186" class="th">鞘</text>
+<text x="402" y="202" class="tb">有鞘</text>
+<text x="402" y="220" class="th">尾端</text>
+<text x="402" y="236" class="tb">核連續到尾尖</text>
+<text x="402" y="254" class="th">檢體與時間</text>
+<text x="402" y="270">白天，血液</text>
+<text x="402" y="288" class="th">病媒</text>
+<text x="402" y="304">斑虻 Chrysops（白天叮）</text>
+<text x="402" y="322" class="th">成蟲在哪</text>
+<text x="402" y="338">皮下遊走、眼結膜下</text>
+<rect x="580" y="32" width="180" height="320" rx="12" class="bx"/>
+<g class="hot" data-tip="<b>蟠尾絲蟲</b>：<b>無鞘</b>、微絲蚴在<b>皮膚</b>不在血液 → 診斷用<b>皮膚切片（skin snip）</b>、Mazzotti test；病媒黑蠅在湍急河流繁殖 → <b>河盲症</b>（微絲蚴死在眼睛引起發炎）。治療 ivermectin。" data-label="蟠尾絲蟲"><text x="592" y="54" class="tb">蟠尾絲蟲</text></g>
+<text x="592" y="70" class="ts"><tspan font-style="italic">Onchocerca volvulus</tspan></text>
+<path d="M602.0,122.0 L604.3,123.1 L606.5,124.2 L608.8,125.3 L611.1,126.3 L613.3,127.3 L615.6,128.2 L617.9,128.9 L620.1,129.6 L622.4,130.1 L624.7,130.6 L626.9,130.8 L629.2,131.0 L631.5,131.0 L633.7,130.8 L636.0,130.6 L638.3,130.1 L640.5,129.6 L642.8,128.9 L645.1,128.2 L647.3,127.3 L649.6,126.3 L651.9,125.3 L654.1,124.2 L656.4,123.1 L658.7,122.0 L660.9,120.9 L663.2,119.8 L665.5,118.7 L667.7,117.7 L670.0,116.7 L672.3,115.8 L674.5,115.1 L676.8,114.4 L679.1,113.9 L681.3,113.4 L683.6,113.2 L685.9,113.0 L688.1,113.0 L690.4,113.2 L692.7,113.4 L694.9,113.9 L697.2,114.4 L699.5,115.1 L701.7,115.8 L704.0,116.7 L706.3,117.7 L708.5,118.7 L710.8,119.8 L713.1,120.9 L715.3,122.0 L717.6,123.1 L719.9,124.2 L722.1,125.3 L724.4,126.3 L726.7,127.3 L728.9,128.2 L731.2,128.9 L733.5,129.6 L735.7,130.1 L738.0,130.6" style="fill:none;stroke:color-mix(in srgb, var(--violet) 35%, var(--card));stroke-width:8;stroke-linecap:round;stroke-linejoin:round"/>
+<circle cx="606.5" cy="124.2" r="2.1" class="fv"/>
+<circle cx="611.1" cy="126.3" r="2.1" class="fv"/>
+<circle cx="615.6" cy="128.2" r="2.1" class="fv"/>
+<circle cx="620.1" cy="129.6" r="2.1" class="fv"/>
+<circle cx="624.7" cy="130.6" r="2.1" class="fv"/>
+<circle cx="629.2" cy="131.0" r="2.1" class="fv"/>
+<circle cx="633.7" cy="130.8" r="2.1" class="fv"/>
+<circle cx="638.3" cy="130.1" r="2.1" class="fv"/>
+<circle cx="642.8" cy="128.9" r="2.1" class="fv"/>
+<circle cx="647.3" cy="127.3" r="2.1" class="fv"/>
+<circle cx="651.9" cy="125.3" r="2.1" class="fv"/>
+<circle cx="656.4" cy="123.1" r="2.1" class="fv"/>
+<circle cx="660.9" cy="120.9" r="2.1" class="fv"/>
+<circle cx="665.5" cy="118.7" r="2.1" class="fv"/>
+<circle cx="670.0" cy="116.7" r="2.1" class="fv"/>
+<circle cx="674.5" cy="115.1" r="2.1" class="fv"/>
+<circle cx="679.1" cy="113.9" r="2.1" class="fv"/>
+<circle cx="683.6" cy="113.2" r="2.1" class="fv"/>
+<circle cx="688.1" cy="113.0" r="2.1" class="fv"/>
+<circle cx="692.7" cy="113.4" r="2.1" class="fv"/>
+<circle cx="697.2" cy="114.4" r="2.1" class="fv"/>
+<circle cx="701.7" cy="115.8" r="2.1" class="fv"/>
+<circle cx="706.3" cy="117.7" r="2.1" class="fv"/>
+<circle cx="710.8" cy="119.8" r="2.1" class="fv"/>
+<circle cx="715.3" cy="122.0" r="2.1" class="fv"/>
+<circle cx="732.0" cy="130.6" r="15" class="none" style="stroke:var(--safranin);stroke-width:1.2;stroke-dasharray:3 2"/>
+<text x="598.0" y="108.0" class="ts">頭</text><text x="724.0" y="160.6" class="ts tr">尾</text>
+<text x="592" y="186" class="th">鞘</text>
+<text x="592" y="202" class="tb tr">無鞘</text>
+<text x="592" y="220" class="th">尾端</text>
+<text x="592" y="236" class="tb">尾端無核</text>
+<text x="592" y="254" class="th">檢體與時間</text>
+<text x="592" y="270">皮膚切片（不在血液）</text>
+<text x="592" y="288" class="th">病媒</text>
+<text x="592" y="304">黑蠅 Simulium（河邊）</text>
+<text x="592" y="322" class="th">成蟲在哪</text>
+<text x="592" y="338">皮下結節 → 河盲症</text>
+</svg>

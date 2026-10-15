@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 478" role="img" aria-label="吸蟲一般生活史：人體內成蟲產卵，卵隨糞便、痰或尿排出，在水中孵出纖毛幼蟲或被螺吞下；在第一中間宿主螺體內依序發育為胞狀幼蟲、雷氏幼蟲、尾動幼蟲；尾動幼蟲離開螺，在第二中間宿主或水生植物上形成囊狀幼蟲，人生吃後感染。血吸蟲例外：沒有雷氏幼蟲與囊狀幼蟲，尾動幼蟲直接鑽入皮膚。下方表格列出各種吸蟲的感染來源。">
+<defs><marker id="tc-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="tc-r" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker></defs>
+<text x="10" y="20" class="th">卵 → 纖毛幼蟲 → 胞狀 → 雷氏 → 尾動 → 囊狀幼蟲 → 成蟲</text>
+<g class="hot" data-tip="成蟲寄生在人體：<b>腸</b>（薑片蟲、橫川、異形、棘口）、<b>肺</b>（衛氏肺吸蟲）、<b>膽管</b>（中華肝吸蟲、牛羊肝吸蟲）、<b>血管</b>（血吸蟲）。除了血吸蟲都是<b>雌雄同體</b>。" data-label="成蟲（最終宿主）">
+<rect x="10" y="36" width="150" height="74" rx="12" class="bv"/>
+<text x="24" y="60" class="tb">成蟲 · 人體</text>
+</g>
+<text x="24" y="78" class="ts">腸、肺、膽管、血管</text>
+<text x="24" y="94" class="ts">多為雌雄同體</text>
+<path d="M160 73H196" class="ln" marker-end="url(#tc-a)"/>
+<g class="hot" data-tip="卵隨<b>糞便</b>（多數）、<b>痰</b>（衛氏肺吸蟲）或<b>尿</b>（埃及血吸蟲）排出。除了血吸蟲，吸蟲卵都有<b>卵蓋（operculum）</b>。" data-label="蟲卵">
+<rect x="198" y="36" width="150" height="74" rx="12" class="bx"/>
+<text x="212" y="60" class="tb">卵 Egg</text>
+</g>
+<text x="212" y="78" class="ts">糞、痰（肺）、尿（埃及）</text>
+<text x="212" y="94" class="ts">血吸蟲以外都有卵蓋</text>
+<path d="M348 73H384" class="ln" marker-end="url(#tc-a)"/>
+<g class="hot" data-tip="<b>纖毛幼蟲（miracidium）</b>：有纖毛會游泳，在水中孵出後主動鑽進螺（牛羊肝吸蟲、肺吸蟲、血吸蟲）。<b>中華肝吸蟲、橫川吸蟲、槍狀肝吸蟲</b>的卵已含成熟纖毛幼蟲，要<b>被螺吞下</b>才孵化。" data-label="纖毛幼蟲 miracidium">
+<rect x="386" y="36" width="170" height="74" rx="12" class="bx"/>
+<text x="400" y="60" class="tb">纖毛幼蟲</text>
+</g>
+<text x="400" y="78" class="ts">miracidium · 水中孵出</text>
+<text x="400" y="94" class="ts">或卵被螺吞下才孵化</text>
+<path d="M556 73H586" class="ln" marker-end="url(#tc-a)"/>
+<g class="hot" data-tip="<b>第一中間宿主一定是螺</b>，在螺裡進行<b>無性增殖</b>（一隻纖毛幼蟲 → 上千隻尾動幼蟲）：胞狀幼蟲（sporocyst）→ 雷氏幼蟲（redia）→ 尾動幼蟲（cercaria）。" data-label="第一中間宿主：螺">
+<rect x="588" y="36" width="182" height="200" rx="12" class="bw"/>
+<text x="602" y="60" class="tb">第一中間宿主：螺</text>
+</g>
+<text x="602" y="78" class="ts" style="fill:var(--warn)">無性增殖 · 數量放大</text>
+<rect x="604" y="92" width="150" height="34" rx="8" class="bx"/><text x="679" y="114" text-anchor="middle">胞狀幼蟲 sporocyst</text>
+<path d="M679 126V140" class="ln" marker-end="url(#tc-a)"/>
+<g class="hot" data-tip="<b>雷氏幼蟲（redia）</b>：有口和腸，在螺體內產生下一代。<b>血吸蟲沒有這一期</b>（母胞狀幼蟲 → 子胞狀幼蟲 → 尾動幼蟲）；槍狀肝吸蟲也沒有。" data-label="雷氏幼蟲 redia">
+<rect x="604" y="142" width="150" height="34" rx="8" class="bx"/><text x="679" y="164" text-anchor="middle">雷氏幼蟲 redia</text>
+</g>
+<path d="M679 176V190" class="ln" marker-end="url(#tc-a)"/>
+<rect x="604" y="192" width="150" height="34" rx="8" class="bx"/><text x="679" y="214" text-anchor="middle">尾動幼蟲 cercaria</text>
+<path d="M679 236V266" class="ln" marker-end="url(#tc-a)"/>
+<g class="hot" data-tip="<b>尾動幼蟲（cercaria）</b>：有尾巴，離開螺在水中游，找第二中間宿主或附著在水生植物上。" data-label="尾動幼蟲離開螺">
+<rect x="588" y="268" width="182" height="60" rx="12" class="bx"/>
+<text x="602" y="292" class="tb">尾動幼蟲離開螺</text>
+</g>
+<text x="602" y="312" class="ts">在水中游</text>
+<path d="M588 298H546" class="ln" marker-end="url(#tc-a)"/>
+<g class="hot" data-tip="<b>囊狀幼蟲（metacercaria）</b>：尾動幼蟲掉尾巴、包囊，是<b>感染期</b>。在第二中間宿主（魚、蟹、螞蟻、蚱蜢）體內，或附著在水生植物（菱角、荸薺、水芹）上。" data-label="囊狀幼蟲 metacercaria（感染期）">
+<rect x="350" y="268" width="194" height="60" rx="12" class="br"/>
+<text x="364" y="292" class="tb tr">囊狀幼蟲 · 感染期</text>
+</g>
+<text x="364" y="312" class="ts">第二中間宿主或水生植物</text>
+<path d="M350 298H306" class="ln" marker-end="url(#tc-a)"/>
+<rect x="160" y="268" width="144" height="60" rx="12" class="bx"/>
+<text x="174" y="292" class="tb">人生吃</text>
+<text x="174" y="312" class="ts">→ 十二指腸脫囊</text>
+<path d="M232 268V150Q232 128 200 122L164 108" class="ln" marker-end="url(#tc-a)"/>
+<text x="240" y="200" class="ts">移行到寄生部位</text>
+<g class="hot" data-tip="<b>血吸蟲是例外</b>：① 雌雄異體 ② 卵無卵蓋 ③ 螺內沒有雷氏幼蟲 ④ <b>沒有囊狀幼蟲、沒有第二中間宿主</b> ⑤ 尾動幼蟲（分叉尾）<b>直接鑽皮膚</b>，脫尾變成 schistosomula → 血流。鳥類血吸蟲的尾動幼蟲鑽進人皮膚但無法發育 → <b>swimmer's itch（泳者之癢）</b>。" data-label="血吸蟲的捷徑">
+<path d="M770 300Q776 300 776 312V340H86V112" class="lr dash" marker-end="url(#tc-r)"/>
+<text x="300" y="360" class="tb tr" style="font-size:12px">血吸蟲：沒有雷氏、囊狀幼蟲，尾動幼蟲直接鑽皮膚</text>
+</g>
+<text x="300" y="377" class="ts tr" text-anchor="start">→ 鳥類血吸蟲鑽皮膚但無法發育 = swimmer's itch</text>
+<text x="10" y="400" class="th">吃什麼得什麼 · 第二中間宿主</text>
+<rect x="10" y="408" width="760" height="64" rx="10" class="bp"/>
+<text x="22" y="428" class="ts"><tspan class="tb" style="font-size:11px">淡水魚</tspan>：中華肝吸蟲、泰國肝吸蟲、橫川吸蟲、異形吸蟲</text>
+<text x="400" y="428" class="ts"><tspan class="tb" style="font-size:11px">淡水蟹、蝲蛄</tspan>：衛氏肺吸蟲（第一 川蜷）</text>
+<text x="22" y="448" class="ts"><tspan class="tb" style="font-size:11px">水生植物</tspan>：薑片蟲（菱角、荸薺）、牛羊肝吸蟲（水芹）</text>
+<text x="400" y="448" class="ts"><tspan class="tb" style="font-size:11px">螞蟻</tspan>：槍狀肝吸蟲　<tspan class="tb" style="font-size:11px">蚱蜢</tspan>：胰吸蟲（第一 陸螺）</text>
+<text x="22" y="466" class="ts"><tspan class="tb" style="font-size:11px">螺、蛙、魚</tspan>：棘口吸蟲（第二中間宿主不挑）</text>
+<text x="400" y="466" class="ts"><tspan class="tb tr" style="font-size:11px">不用吃</tspan>：血吸蟲 → 尾動幼蟲鑽皮膚</text>
+</svg>

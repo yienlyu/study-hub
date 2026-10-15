@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 330" role="img" aria-label="前導時間偏差：篩檢讓診斷提早三年，但死亡時間不變，從診斷算起的存活時間看起來從三年變六年。Will Rogers 現象：新的診斷工具把有微轉移的病人從第一期改判到第二期，兩期的存活率都上升，但病人實際上沒有活更久。">
+<defs><marker id="lt-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker></defs>
+<text x="10" y="20" class="th">Lead time bias：存活「看起來」變長，死亡時間其實沒變</text>
+<text x="110" y="75" text-anchor="end" class="tb" style="font-size:12px">一般就醫才診斷</text>
+<path d="M120.0 70H678.0" class="lt" style="stroke-width:6;stroke-linecap:round"/>
+<circle cx="120.0" cy="70" r="6" class="fm"/>
+<circle cx="678.0" cy="70" r="6" class="fk"/>
+<path d="M492.0 56V84" class="lr" style="stroke-width:3"/>
+<text x="492.0" y="50" text-anchor="middle" class="ts">診斷</text>
+<path d="M492.0 92H678.0" class="lr" marker-end="url(#lt-a)"/>
+<text x="585.0" y="108" text-anchor="middle" class="ts">量到的存活 3 年</text>
+<text x="110" y="145" text-anchor="end" class="tb" style="font-size:12px">篩檢提早發現</text>
+<path d="M120.0 140H678.0" class="lt" style="stroke-width:6;stroke-linecap:round"/>
+<circle cx="120.0" cy="140" r="6" class="fm"/>
+<circle cx="678.0" cy="140" r="6" class="fk"/>
+<path d="M306.0 126V154" class="lv" style="stroke-width:3"/>
+<text x="306.0" y="120" text-anchor="middle" class="ts">診斷</text>
+<path d="M306.0 162H678.0" class="lv" marker-end="url(#lt-a)"/>
+<text x="492.0" y="178" text-anchor="middle" class="ts">量到的存活 6 年</text>
+<text x="120.0" y="52" text-anchor="middle" class="ts">生物學起點</text>
+<text x="678.0" y="52" text-anchor="middle" class="ts">死亡</text>
+<path d="M306.0 196H492.0" class="lg" style="stroke-width:3"/>
+<text x="399.0" y="214" text-anchor="middle" class="ts" style="fill:var(--good)">lead time 3 年（多出來的只是提早知道）</text>
+<text x="10" y="238" class="th">Will Rogers 現象（分期遷移 stage migration）</text>
+<rect x="20" y="250" width="200" height="70" rx="10" class="bw"/>
+<text x="34" y="272" class="tb" style="font-size:12px">舊診斷工具</text>
+<text x="34" y="290" class="ts">Stage 1 裡混了微轉移的人</text>
+<text x="34" y="306" class="ts">（其實預後較差）</text>
+<path d="M222 285H270" class="ln" marker-end="url(#lt-a)"/>
+<text x="246" y="278" text-anchor="middle" class="ts">新影像</text>
+<rect x="272" y="250" width="230" height="70" rx="10" class="bv"/>
+<text x="286" y="272" class="tb" style="font-size:12px">微轉移被改判成 Stage 2</text>
+<text x="286" y="290" class="ts">Stage 1 剩下真正早期 → 存活↑</text>
+<text x="286" y="306" class="ts">Stage 2 多了較輕的人 → 存活↑</text>
+<rect x="520" y="250" width="250" height="70" rx="10" class="br"/>
+<text x="534" y="272" class="tb tr" style="font-size:12px">兩期存活率都上升</text>
+<text x="534" y="290" class="ts">但每個病人都沒有活得更久</text>
+<text x="534" y="306" class="ts">→ 比較不同年代的分期存活要小心</text>
+</svg>

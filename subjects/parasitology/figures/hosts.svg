@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 330" role="img" aria-label="宿主的四種類型：最終宿主有成蟲或有性生殖；中間宿主有幼蟲或無性生殖；保蟲宿主是人以外的最終宿主；保幼宿主中幼蟲不發育只是搬運。下方列出人同時是最終與中間宿主的旋毛蟲，以及人是非適合宿主造成幼蟲移行症的例子。">
+<defs><marker id="ho-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker></defs>
+<text x="10" y="20" class="th">四種宿主 · 看「蟲在這裡是什麼階段」</text>
+<g class="hot" data-tip="成蟲寄生、進行<b>有性生殖</b>的宿主。例：人是蛔蟲、鉤蟲、中華肝吸蟲的最終宿主；鼠是廣東住血線蟲的最終宿主。" data-label="最終宿主 Definitive host">
+<rect x="10" y="34" width="180" height="168" rx="12" class="bv"/>
+<text x="24" y="60" class="tb">最終宿主</text><text x="24" y="76" class="ts">Definitive host (DH)</text>
+</g>
+<text x="24" y="104" class="tb tv">成蟲 · 有性生殖</text>
+<text x="24" y="130" class="ts">人 → 蛔蟲、鉤蟲、肝吸蟲</text>
+<text x="24" y="148" class="ts">鼠 → 廣東住血線蟲</text>
+<text x="24" y="166" class="ts">貓狗 → 犬蛔蟲、顎口線蟲</text>
+<g class="hot" data-tip="幼蟲寄生、進行<b>無性生殖或發育</b>的宿主；要再被下一個宿主吃掉或叮咬。吸蟲的第一中間宿主一定是<b>螺</b>；絲蟲的蚊、黑蠅同時是病媒與中間宿主。" data-label="中間宿主 Intermediate host">
+<rect x="200" y="34" width="180" height="168" rx="12" class="bw"/>
+<text x="214" y="60" class="tb">中間宿主</text><text x="214" y="76" class="ts">Intermediate host (IH)</text>
+</g>
+<text x="214" y="104" class="tb" style="fill:var(--warn)">幼蟲 · 無性生殖／發育</text>
+<text x="214" y="130" class="ts">螺 → 所有吸蟲（第一）</text>
+<text x="214" y="148" class="ts">魚、蟹 → 肝、肺吸蟲（第二）</text>
+<text x="214" y="166" class="ts">蚊、黑蠅 → 血絲蟲</text>
+<text x="214" y="184" class="ts">蝸牛、蛞蝓 → 廣東住血線蟲</text>
+<g class="hot" data-tip="<b>人以外</b>、同樣能讓成蟲寄生的最終宿主；讓寄生蟲在自然界一直存在，是防治困難的原因。例：貓狗之於中華肝吸蟲，牛、豬、鼠之於日本血吸蟲。" data-label="保蟲宿主 Reservoir host">
+<rect x="390" y="34" width="180" height="168" rx="12" class="bg"/>
+<text x="404" y="60" class="tb">保蟲宿主</text><text x="404" y="76" class="ts">Reservoir host (RH)</text>
+</g>
+<text x="404" y="104" class="tb" style="fill:var(--good)">人以外的最終宿主</text>
+<text x="404" y="130" class="ts">貓、狗 → 中華肝吸蟲</text>
+<text x="404" y="148" class="ts">牛、豬、鼠 → 日本血吸蟲</text>
+<text x="404" y="166" class="ts">→ 人畜共通、難以根除</text>
+<g class="hot" data-tip="幼蟲進入後<b>不發育、不繁殖</b>，只是暫時待著等被下一個宿主吃掉；也叫運輸宿主（transport host）。例：淡水蝦、蛙之於廣東住血線蟲（考古：淡水明蝦是保幼宿主不是中間宿主），蛇、鴨之於顎口線蟲。" data-label="保幼宿主 Paratenic host">
+<rect x="580" y="34" width="190" height="168" rx="12" class="br"/>
+<text x="594" y="60" class="tb">保幼宿主</text><text x="594" y="76" class="ts">Paratenic host</text>
+</g>
+<text x="594" y="104" class="tb tr">幼蟲不發育 · 只是搬運</text>
+<text x="594" y="130" class="ts">淡水蝦、蛙 → 廣東住血線蟲</text>
+<text x="594" y="148" class="ts">蛇、鴨 → 顎口線蟲</text>
+<text x="594" y="166" class="ts">（不是中間宿主！考古常考）</text>
+<text x="10" y="232" class="th">例外 · 人在生活史裡的特殊角色</text>
+<g class="hot" data-tip="<b>旋毛蟲</b>：人（和豬）吃到肌肉裡的被囊幼蟲 → 小腸變成成蟲（最終宿主）→ 新生幼蟲經血流跑到自己的橫紋肌被囊（中間宿主）。同一個宿主兩種身分。" data-label="同時是最終與中間宿主">
+<rect x="10" y="244" width="370" height="76" rx="12" class="bp"/>
+<text x="24" y="268" class="tb">同時是最終＋中間宿主</text>
+</g>
+<text x="24" y="290" class="ts">旋毛蟲：小腸裡是成蟲，自己的肌肉裡是被囊幼蟲</text>
+<text x="24" y="307" class="ts">→ 人、豬、鼠都一樣；確診靠肌肉切片</text>
+<g class="hot" data-tip="人不是牠的正常宿主，幼蟲<b>無法發育為成蟲</b>，在體內亂竄：犬蛔蟲（VLM、OLM）、廣東住血線蟲（嗜酸性腦膜炎）、顎口線蟲（皮下遊走腫塊）、犬鉤蟲（皮膚幼蟲移行症）。所以這些病人的<b>糞便找不到蟲卵</b>。" data-label="非適合宿主 Dead-end host">
+<rect x="390" y="244" width="380" height="76" rx="12" class="bp"/>
+<text x="404" y="268" class="tb">人是非適合宿主（dead-end）</text>
+</g>
+<text x="404" y="290" class="ts">犬蛔蟲、廣東住血線蟲、顎口線蟲、犬鉤蟲</text>
+<text x="404" y="307" class="ts">→ 幼蟲在人體移行（larva migrans），糞便沒有蟲卵</text>
+</svg>

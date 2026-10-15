@@ -24,11 +24,19 @@
 | **RAG1 / RAG2 deficiency** | **V(D)J recombination 失敗** → TCR、BCR 都做不出來 | **−** | **−** | **+**（NK 沒有 V(D)J） |
 | **FOXN1 deficiency** | **胸腺上皮 / stromal 微環境**發育失敗；pro-T、pre-T 本身正常但沒有環境 | **−** | **+** | **+** |
 
+<div data-fig="immunodeficiency-map"></div>
+
+<div data-fig="slide-scid-map"></div>
+
 ## 3. 抗體缺陷 → 有莢膜的化膿菌反覆感染
 - 抗體結合**多醣莢膜** + C3b → **opsonization** → neutrophil 吞噬；缺抗體 → 反覆 **pyogenic（化膿性）** 細菌感染，常見 ***S. pneumoniae*、*H. influenzae***（呼吸道）。
 - **X-linked agammaglobulinemia（XLA）**：**BTK（Bruton's tyrosine kinase）**缺陷 → **pre-BCR signaling 異常 → 卡在 pre-B** → 沒有成熟 B、沒有抗體；T 細胞正常，但細菌清除很大部分依賴抗體。
 - **X-linked hyper-IgM syndrome**：**CD40L 缺陷**（男性）→ germinal center 無法形成、**沒有 class switch → 只有 IgM**（沒有 IgG、IgA）；macrophage 也無法被 CD40L 活化 → APC 功能差 → 易伺機性感染。
 - **CVID（common variable immunodeficiency）**：common = 常見、variable = 異質性；先天、成因不清楚；B 細胞分化到 plasma cell 的步驟出問題；可為 **selective IgA deficiency**（IgM、IgG 通常仍有）或 IgG 降低 → **黏膜（呼吸道）同一菌、甚至同一菌株反覆感染**（缺 IgA 無法保護 mucosal site）。
+
+<div data-fig="slide-xla"></div>
+
+<div data-fig="slide-hyper-igm"></div>
 
 ## 4. 補體缺陷
 | 缺陷 | 影響 | 典型後果 |

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 312" role="img" aria-label="篩檢的二乘二表：a 真陽性、b 偽陽性、c 偽陰性、d 真陰性。敏感度 a 除以 a 加 c，特異度 d 除以 b 加 d，是直的看、不受盛行率影響；陽性預測值 a 除以 a 加 b，陰性預測值 d 除以 c 加 d，是橫的看、受盛行率影響。">
+
+<text x="10" y="20" class="th">真實狀態（黃金標準）直的看 · 檢驗結果橫的看</text>
+<text x="225.0" y="56" text-anchor="middle" class="tb">有病 D⁺</text>
+<text x="375.0" y="56" text-anchor="middle" class="tb">沒病 D⁻</text>
+<text x="138" y="115.0" text-anchor="end" class="tb">檢驗陽性 T⁺</text>
+<text x="138" y="195.0" text-anchor="end" class="tb">檢驗陰性 T⁻</text>
+<g class="hot" data-tip="<b>真陽性</b>：有病而且驗出來。" data-label="真陽性 TP"><rect x="150" y="70" width="150" height="80" class="bg"/><text x="225.0" y="106" text-anchor="middle" class="tb" style="font-size:22px">a</text><text x="225.0" y="128" text-anchor="middle" class="ts">真陽性 TP</text></g>
+<g class="hot" data-tip="<b>偽陽性</b>：沒病卻被說有病 → 不必要的追蹤檢查、焦慮、醫療資源負擔。" data-label="偽陽性 FP"><rect x="300" y="70" width="150" height="80" class="br"/><text x="375.0" y="106" text-anchor="middle" class="tb" style="font-size:22px">b</text><text x="375.0" y="128" text-anchor="middle" class="ts">偽陽性 FP</text></g>
+<g class="hot" data-tip="<b>偽陰性</b>：有病卻沒驗出來 → 錯失治療時機、疾病惡化或繼續傳染。" data-label="偽陰性 FN"><rect x="150" y="150" width="150" height="80" class="br"/><text x="225.0" y="186" text-anchor="middle" class="tb" style="font-size:22px">c</text><text x="225.0" y="208" text-anchor="middle" class="ts">偽陰性 FN</text></g>
+<g class="hot" data-tip="<b>真陰性</b>：沒病也驗出陰性。" data-label="真陰性 TN"><rect x="300" y="150" width="150" height="80" class="bg"/><text x="375.0" y="186" text-anchor="middle" class="tb" style="font-size:22px">d</text><text x="375.0" y="208" text-anchor="middle" class="ts">真陰性 TN</text></g>
+<path d="M158 240V248H292V240" class="lv"/>
+<g class="hot" data-tip="<b>敏感度</b>：<b>有病的人</b>裡驗出陽性的比例。高敏感度的檢驗陰性 → 可以排除疾病（SnNout）。不受盛行率影響。" data-label="敏感度 Sensitivity"><text x="225.0" y="268" text-anchor="middle" class="tb tv" style="font-size:12px">敏感度 Sensitivity</text></g>
+<text x="225.0" y="286" text-anchor="middle">a ÷ (a + c)</text>
+<path d="M308 240V248H442V240" class="lv"/>
+<g class="hot" data-tip="<b>特異度</b>：<b>沒病的人</b>裡驗出陰性的比例。高特異度的檢驗陽性 → 可以確診（SpPin）。不受盛行率影響。" data-label="特異度 Specificity"><text x="375.0" y="268" text-anchor="middle" class="tb tv" style="font-size:12px">特異度 Specificity</text></g>
+<text x="375.0" y="286" text-anchor="middle">d ÷ (b + d)</text>
+<path d="M460 78H468V142H460" class="lr"/>
+<g class="hot" data-tip="<b>PPV</b>：<b>驗出陽性的人</b>裡真的有病的比例 — 病人最想知道的「我真的有病嗎？」。<b>受盛行率影響</b>：盛行率越低 PPV 越低。" data-label="陽性預測值 PPV"><text x="478" y="108.0" class="tb tr" style="font-size:12px">陽性預測值 PPV</text></g>
+<text x="478" y="126.0">a ÷ (a + b)</text>
+<path d="M460 158H468V222H460" class="lr"/>
+<g class="hot" data-tip="<b>NPV</b>：<b>驗出陰性的人</b>裡真的沒病的比例。盛行率越高 NPV 越低。" data-label="陰性預測值 NPV"><text x="478" y="188.0" class="tb tr" style="font-size:12px">陰性預測值 NPV</text></g>
+<text x="478" y="206.0">d ÷ (c + d)</text>
+<rect x="590" y="60" width="180" height="170" rx="12" class="bp"/>
+<text x="604" y="84" class="th">怎麼記</text>
+<text x="604" y="108" class="tb tv" style="font-size:12px">直的（Se、Sp）</text>
+<text x="604" y="126" class="ts">看「真實」→ 檢驗本身的特性</text>
+<text x="604" y="142" class="ts">不受盛行率影響</text>
+<text x="604" y="170" class="tb tr" style="font-size:12px">橫的（PPV、NPV）</text>
+<text x="604" y="188" class="ts">看「結果」→ 臨床意義</text>
+<text x="604" y="204" class="ts">盛行率↑ → PPV↑、NPV↓</text>
+<text x="150" y="300" class="ts">例：Hemoccult Se = Sp = 80%、盛行率 1% → PPV = 0.8×0.01 ÷ (0.8×0.01 + 0.2×0.99) ≈ 3.9%</text>
+</svg>

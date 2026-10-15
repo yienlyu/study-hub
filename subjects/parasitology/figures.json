@@ -1,0 +1,616 @@
+[
+ {
+  "id": "hosts",
+  "chapter": "intro",
+  "title": "宿主的種類：誰身上有成蟲、誰只有幼蟲",
+  "topics": [
+   "宿主分類"
+  ],
+  "keywords": "definitive host intermediate host reservoir host paratenic host 最終宿主 中間宿主 保蟲宿主 保幼宿主",
+  "caption": "<strong>最終宿主</strong>：成蟲／有性生殖；<strong>中間宿主</strong>：幼蟲／無性生殖；<strong>保蟲宿主</strong>：人以外的最終宿主；<strong>保幼宿主</strong>：幼蟲不發育、只是等著被吃。"
+ },
+ {
+  "id": "lung-migration",
+  "chapter": "intro",
+  "title": "會經過肺的線蟲：心肺移行路線",
+  "topics": [
+   "生活史"
+  ],
+  "keywords": "Loeffler syndrome lung migration Ascaris hookworm Strongyloides filariform larva trachea 心肺移行",
+  "caption": "<strong>蛔蟲、鉤蟲、糞小桿線蟲</strong>的幼蟲都走「血流 → 右心 → 肺 → 氣管 → 吞下 → 小腸」，移行時可造成 <strong>Loeffler syndrome</strong>（嗜酸性肺炎）。蟯蟲、鞭蟲不經過肺。"
+ },
+ {
+  "id": "slide-ascaris-egg",
+  "chapter": "sth",
+  "title": "蛔蟲受孕卵：厚殼＋蛋白質外套膜",
+  "topics": [
+   "蛔蟲"
+  ],
+  "keywords": "Ascaris fertilized egg decorticated protein coat mammillated",
+  "caption": "受孕卵約 60 × 45 µm、圓形厚殼、外面有凹凸的<strong>蛋白質外套膜</strong>；外套膜脫落的叫 decorticated egg。",
+  "type": "slide",
+  "src": "figures/slides/ascaris-egg.webp",
+  "deck": "線蟲圖譜（1 線蟲圖檔）",
+  "page": "3",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "slide-ascaris-unfert",
+  "chapter": "sth",
+  "title": "蛔蟲未受孕卵：長橢圓、薄殼",
+  "topics": [
+   "蛔蟲"
+  ],
+  "keywords": "Ascaris unfertilized egg elongated",
+  "caption": "未受孕卵約 90 × 40 µm、較長、殼薄、內部是雜亂的顆粒；浮游法會沉下去。",
+  "type": "slide",
+  "src": "figures/slides/ascaris-unfert.webp",
+  "deck": "線蟲圖譜（1 線蟲圖檔）",
+  "page": "4",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "slide-trichuris-egg",
+  "chapter": "sth",
+  "title": "鞭蟲卵：兩端有塞的橄欖球",
+  "topics": [
+   "鞭蟲"
+  ],
+  "keywords": "Trichuris egg barrel polar plug",
+  "caption": "約 54 × 22 µm，桶狀、<strong>兩端各一個無色的極塞（polar plug）</strong>、殼黃褐色。",
+  "type": "slide",
+  "src": "figures/slides/trichuris-egg.webp",
+  "deck": "線蟲圖譜（1 線蟲圖檔）",
+  "page": "13",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "slide-hookworm-egg",
+  "chapter": "sth",
+  "title": "鉤蟲卵：薄殼透明、內有分裂細胞",
+  "topics": [
+   "鉤蟲"
+  ],
+  "keywords": "hookworm egg thin shell cleavage rhabditiform larva",
+  "caption": "約 60 × 40 µm、橢圓、<strong>殼很薄且無色透明</strong>，裡面是 2–8 個分裂中的細胞。跑台寫 hookworm 即可。",
+  "type": "slide",
+  "src": "figures/slides/hookworm-egg.webp",
+  "deck": "線蟲圖譜（1 線蟲圖檔）",
+  "page": "14",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "slide-necator-mouth",
+  "chapter": "sth",
+  "title": "美洲鉤蟲口囊：一對切板",
+  "topics": [
+   "鉤蟲"
+  ],
+  "keywords": "Necator americanus cutting plates buccal capsule",
+  "caption": "<em>Necator americanus</em> 口囊是<strong>切板（cutting plates）</strong>；十二指腸鉤蟲則是兩對牙齒。",
+  "type": "slide",
+  "src": "figures/slides/necator-mouth.webp",
+  "deck": "線蟲圖譜（1 線蟲圖檔）",
+  "page": "16",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "slide-duodenale-mouth",
+  "chapter": "sth",
+  "title": "十二指腸鉤蟲口囊：兩對牙齒",
+  "topics": [
+   "鉤蟲"
+  ],
+  "keywords": "Ancylostoma duodenale teeth buccal capsule",
+  "caption": "<em>Ancylostoma duodenale</em>：<strong>兩對大小相近的牙齒</strong>；雌蟲尾端有尾刺。",
+  "type": "slide",
+  "src": "figures/slides/duodenale-mouth.webp",
+  "deck": "線蟲圖譜（1 線蟲圖檔）",
+  "page": "19",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "slide-enterobius-adult",
+  "chapter": "enterobius-toxocara",
+  "title": "蟯蟲雌蟲：食道球與尖尾",
+  "topics": [
+   "蟯蟲"
+  ],
+  "keywords": "Enterobius vermicularis female esophageal bulb cephalic alae pinworm",
+  "caption": "8–13 mm，前端有<strong>頸翼（cephalic alae）</strong>與<strong>食道球</strong>、尾巴長而尖；夜間爬到肛門周圍產卵。",
+  "type": "slide",
+  "src": "figures/slides/enterobius-adult.webp",
+  "deck": "線蟲圖譜（1 線蟲圖檔）",
+  "page": "6",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "slide-enterobius-egg",
+  "chapter": "enterobius-toxocara",
+  "title": "蟯蟲卵：一邊扁平的 D 字形",
+  "topics": [
+   "蟯蟲"
+  ],
+  "keywords": "Enterobius egg asymmetrical flattened one side L3 larva",
+  "caption": "約 55 × 26 µm、無色透明、<strong>一側扁平一側凸（左右不對稱）</strong>，卵內常已有幼蟲。",
+  "type": "slide",
+  "src": "figures/slides/enterobius-egg.webp",
+  "deck": "線蟲圖譜（1 線蟲圖檔）",
+  "page": "7",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "slide-scotch-tape",
+  "chapter": "enterobius-toxocara",
+  "title": "肛圍擦拭法（Scotch tape test）",
+  "topics": [
+   "蟯蟲"
+  ],
+  "keywords": "Scotch tape test adhesive tape perianal swab diagnosis",
+  "caption": "蟯蟲卵產在肛門周圍、<strong>糞便很少找到</strong>，所以要在早上起床、排便洗澡前用透明膠帶黏肛圍。",
+  "type": "slide",
+  "src": "figures/slides/scotch-tape.webp",
+  "deck": "線蟲圖譜（1 線蟲圖檔）",
+  "page": "8",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "slide-toxocara-egg",
+  "chapter": "enterobius-toxocara",
+  "title": "犬蛔蟲卵：球形厚殼、表面有凹洞",
+  "topics": [
+   "犬蛔蟲"
+  ],
+  "keywords": "Toxocara canis egg pitted shell",
+  "caption": "80–85 µm、球形厚殼、蛋白膜表面像高爾夫球的<strong>凹洞（pitted）</strong>。人吃到卵 → VLM／OLM，<strong>人的糞便不會出現犬蛔蟲卵</strong>。",
+  "type": "slide",
+  "src": "figures/slides/toxocara-egg.webp",
+  "deck": "線蟲圖譜（1 線蟲圖檔）",
+  "page": "30",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "strongyloides-cycle",
+  "chapter": "capillaria-strongyloides",
+  "title": "糞小桿線蟲：自由生活、寄生與自體感染",
+  "topics": [
+   "糞小桿線蟲"
+  ],
+  "keywords": "Strongyloides stercoralis free-living cycle autoinfection hyperinfection disseminated rhabditiform filariform larva steroid HTLV-1",
+  "caption": "土壤裡可以<strong>自由生活好幾代</strong>；在人體腸道孵化的桿狀幼蟲若直接變成絲狀幼蟲 → <strong>自體感染</strong>。用類固醇或 HTLV-1 → <strong>過度感染、播散</strong>。糞便看到的是<strong>幼蟲</strong>不是卵。"
+ },
+ {
+  "id": "slide-strongyloides",
+  "chapter": "capillaria-strongyloides",
+  "title": "糞小桿線蟲：生活史與蟲卵",
+  "topics": [
+   "糞小桿線蟲"
+  ],
+  "keywords": "Strongyloides egg parthenogenesis free living autoinfection CDC",
+  "caption": "卵約 54 × 32 µm、薄殼，在腸黏膜就孵化，所以糞便檢查找的是桿狀幼蟲。孤雌生殖、自由生活型 vs 寄生型。",
+  "type": "slide",
+  "src": "figures/slides/strongyloides.webp",
+  "deck": "線蟲圖譜（1 線蟲圖檔）",
+  "page": "26",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "slide-cphil-cycle",
+  "chapter": "capillaria-strongyloides",
+  "title": "菲律賓毛線蟲生活史（CDC）",
+  "topics": [
+   "菲律賓毛線蟲"
+  ],
+  "keywords": "Capillaria philippinensis life cycle fish autoinfection",
+  "caption": "吃生的淡水魚 → 小腸黏膜成蟲 → 產兩種卵：有殼的隨糞便排出、<strong>無殼的在腸內孵化 → 自體感染</strong>，所以蟲數越來越多、嚴重腹瀉。",
+  "type": "slide",
+  "src": "figures/slides/cphil-cycle.webp",
+  "deck": "0914 Capillaria、Strongyloides、Foodborne nematodes",
+  "page": "3",
+  "w": 965,
+  "h": 1231
+ },
+ {
+  "id": "slide-cphil-egg",
+  "chapter": "capillaria-strongyloides",
+  "title": "菲律賓毛線蟲卵：花生狀、兩端淺塞",
+  "topics": [
+   "菲律賓毛線蟲"
+  ],
+  "keywords": "Capillaria philippinensis egg peanut striated shell polar prominence",
+  "caption": "35–45 µm、<strong>花生形</strong>、殼有放射紋、兩端的極塞很淺（和鞭蟲卵的明顯極塞不同）。",
+  "type": "slide",
+  "src": "figures/slides/cphil-egg.webp",
+  "deck": "線蟲圖譜（1 線蟲圖檔）",
+  "page": "39",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "slide-chep-egg",
+  "chapter": "capillaria-strongyloides",
+  "title": "肝毛線蟲卵：在肝組織裡找到",
+  "topics": [
+   "肝毛線蟲"
+  ],
+  "keywords": "Capillaria hepatica egg liver rat spurious infection",
+  "caption": "50–70 µm、殼厚有放射紋、兩端淺極塞。真正感染時卵留在<strong>肝臟</strong>；糞便看到卵多半是吃了鼠肝的<strong>假感染</strong>。",
+  "type": "slide",
+  "src": "figures/slides/chep-egg.webp",
+  "deck": "線蟲圖譜（1 線蟲圖檔）",
+  "page": "38",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "slide-trichinella-cycle",
+  "chapter": "foodborne",
+  "title": "旋毛蟲生活史（CDC）",
+  "topics": [
+   "旋毛蟲"
+  ],
+  "keywords": "Trichinella spiralis life cycle domestic sylvatic pig encysted larva",
+  "caption": "人與豬<strong>同時是最終宿主也是中間宿主</strong>：吃到肌肉裡的被囊幼蟲 → 小腸成蟲 → 胎生幼蟲經血流到<strong>橫紋肌</strong>被囊。",
+  "type": "slide",
+  "src": "figures/slides/trichinella-cycle.webp",
+  "deck": "0914 Capillaria、Strongyloides、Foodborne nematodes",
+  "page": "28",
+  "w": 551,
+  "h": 548
+ },
+ {
+  "id": "slide-trichinella-larva",
+  "chapter": "foodborne",
+  "title": "旋毛蟲被囊幼蟲（肌肉切片）",
+  "topics": [
+   "旋毛蟲"
+  ],
+  "keywords": "Trichinella encysted larva nurse cell striated muscle biopsy",
+  "caption": "肌肉切片可見捲曲的幼蟲包在 <strong>nurse cell</strong> 裡；確診靠<strong>肌肉切片</strong>。",
+  "type": "slide",
+  "src": "figures/slides/trichinella-larva.webp",
+  "deck": "線蟲圖譜（1 線蟲圖檔）",
+  "page": "28",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "slide-gnathostoma-cycle",
+  "chapter": "foodborne",
+  "title": "顎口線蟲生活史（CDC）",
+  "topics": [
+   "顎口線蟲"
+  ],
+  "keywords": "Gnathostoma life cycle copepod fish frog paratenic host cat dog",
+  "caption": "劍水蚤 → 魚、蛙（第二中間宿主）→ 貓狗是最終宿主；人吃生魚或蛙是<strong>非適合宿主</strong>，幼蟲在皮下移行（移動性腫塊）。",
+  "type": "slide",
+  "src": "figures/slides/gnathostoma-cycle.webp",
+  "deck": "0914 Capillaria、Strongyloides、Foodborne nematodes",
+  "page": "39",
+  "w": 1046,
+  "h": 1329
+ },
+ {
+  "id": "slide-anisakis",
+  "chapter": "foodborne",
+  "title": "海獸胃線蟲第三期幼蟲",
+  "topics": [
+   "海獸胃線蟲"
+  ],
+  "keywords": "Anisakis L3 larva marine fish squid whale",
+  "caption": "人吃生的海魚、魷魚吃到 <strong>L3</strong>，幼蟲鑽胃壁 → 劇烈胃痛；胃鏡直接夾出。",
+  "type": "slide",
+  "src": "figures/slides/anisakis.webp",
+  "deck": "線蟲圖譜（1 線蟲圖檔）",
+  "page": "37",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "slide-acanton-cycle",
+  "chapter": "foodborne",
+  "title": "廣東住血線蟲生活史（CDC）",
+  "topics": [
+   "廣東住血線蟲"
+  ],
+  "keywords": "Angiostrongylus cantonensis life cycle rat snail slug eosinophilic meningitis",
+  "caption": "成蟲在<strong>鼠的肺動脈</strong>；中間宿主是<strong>非洲大蝸牛</strong>、蛞蝓；人吃到 L3 → 幼蟲跑到腦 → <strong>嗜酸性腦膜炎</strong>。",
+  "type": "slide",
+  "src": "figures/slides/acanton-cycle.webp",
+  "deck": "0914 Capillaria、Strongyloides、Foodborne nematodes",
+  "page": "70",
+  "w": 965,
+  "h": 769
+ },
+ {
+  "id": "slide-acanton-snail",
+  "chapter": "foodborne",
+  "title": "廣東住血線蟲的中間宿主：非洲大蝸牛",
+  "topics": [
+   "廣東住血線蟲"
+  ],
+  "keywords": "Achatina fulica African giant snail intermediate host L3",
+  "caption": "非洲大蝸牛（<em>Achatina fulica</em>）的肺囊裡有第三期幼蟲；台灣南部、移工、原住民生食蝸牛的病例。",
+  "type": "slide",
+  "src": "figures/slides/acanton-snail.webp",
+  "deck": "線蟲圖譜（1 線蟲圖檔）",
+  "page": "36",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "slide-acanton-adult",
+  "chapter": "foodborne",
+  "title": "廣東住血線蟲雌蟲：Barber's pole",
+  "topics": [
+   "廣東住血線蟲"
+  ],
+  "keywords": "Angiostrongylus female barber's pole uterus intestine",
+  "caption": "雌蟲白色子宮纏繞紅色腸道，看起來像<strong>理髮廳旋轉燈（barber's pole）</strong>。",
+  "type": "slide",
+  "src": "figures/slides/acanton-adult.webp",
+  "deck": "線蟲圖譜（1 線蟲圖檔）",
+  "page": "33",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "microfilariae",
+  "chapter": "filaria",
+  "title": "四種微絲蚴怎麼分",
+  "topics": [
+   "微絲蚴鑑別"
+  ],
+  "keywords": "microfilaria sheath tail nuclei nocturnal periodicity Wuchereria Brugia Loa Onchocerca Mansonella",
+  "caption": "看三件事：<strong>有沒有鞘</strong>、<strong>尾端有沒有核</strong>、<strong>在哪裡找</strong>（血液夜間／血液白天／皮膚）。班氏：有鞘、尾無核、夜間；馬來：有鞘、尾端兩顆核；羅阿：有鞘、尾核到底、白天；蟠尾：無鞘、在皮膚。"
+ },
+ {
+  "id": "slide-wb-mf",
+  "chapter": "filaria",
+  "title": "班氏絲蟲微絲蚴：有鞘、尾端無核",
+  "topics": [
+   "淋巴絲蟲"
+  ],
+  "keywords": "Wuchereria bancrofti microfilaria sheathed no nuclei tail Culex",
+  "caption": "有鞘、身體柔和彎曲、<strong>尾端沒有核</strong>；病媒以<strong>家蚊（Culex）</strong>為主，夜間週期性。",
+  "type": "slide",
+  "src": "figures/slides/wb-mf.webp",
+  "deck": "線蟲圖譜（1 線蟲圖檔）",
+  "page": "40",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "slide-bm-mf",
+  "chapter": "filaria",
+  "title": "馬來絲蟲微絲蚴：尾端兩顆核",
+  "topics": [
+   "淋巴絲蟲"
+  ],
+  "keywords": "Brugia malayi microfilaria sheathed two terminal nuclei Mansonia",
+  "caption": "有鞘、彎曲較僵硬、<strong>尾端有兩顆分開的核</strong>；病媒是<strong>曼蚊（Mansonia）</strong>等。",
+  "type": "slide",
+  "src": "figures/slides/bm-mf.webp",
+  "deck": "線蟲圖譜（1 線蟲圖檔）",
+  "page": "41",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "slide-onchocerca-cycle",
+  "chapter": "filaria",
+  "title": "蟠尾絲蟲生活史（CDC）",
+  "topics": [
+   "蟠尾絲蟲"
+  ],
+  "keywords": "Onchocerca volvulus life cycle blackfly Simulium skin nodule river blindness",
+  "caption": "<strong>黑蠅（Simulium）</strong>在河邊繁殖；成蟲在皮下結節，微絲蚴在<strong>皮膚</strong>（皮膚切片診斷），跑進眼睛 → 河盲症。",
+  "type": "slide",
+  "src": "figures/slides/onchocerca-cycle.webp",
+  "deck": "0922 Trichinella、Anisakis、A. cantonensis、Filaria",
+  "page": "66",
+  "w": 524,
+  "h": 435
+ },
+ {
+  "id": "trematode-cycle",
+  "chapter": "trematodes",
+  "title": "吸蟲的一般生活史與血吸蟲的例外",
+  "topics": [
+   "吸蟲總論"
+  ],
+  "keywords": "trematode life cycle miracidium sporocyst redia cercaria metacercaria snail schistosome exception",
+  "caption": "卵 → <strong>纖毛幼蟲</strong>（水中）→ 螺內 <strong>胞狀幼蟲 → 雷氏幼蟲 → 尾動幼蟲</strong> → 第二中間宿主或水生植物上的<strong>囊狀幼蟲</strong> → 人吃進去。<strong>血吸蟲</strong>例外：沒有雷氏幼蟲、沒有囊狀幼蟲，尾動幼蟲直接鑽皮膚。"
+ },
+ {
+  "id": "schisto-eggs",
+  "chapter": "trematodes",
+  "title": "三種血吸蟲蟲卵：看刺的位置",
+  "topics": [
+   "血吸蟲"
+  ],
+  "keywords": "Schistosoma japonicum mansoni haematobium egg spine lateral terminal urine feces",
+  "caption": "<strong>日本</strong>：小、圓、側邊小刺（常看不到）、糞便；<strong>曼氏</strong>：大側刺、糞便；<strong>埃及</strong>：尾端刺、<strong>尿液</strong>。三種都沒有卵蓋。"
+ },
+ {
+  "id": "slide-trematode-ova",
+  "chapter": "trematodes",
+  "title": "吸蟲蟲卵原色等比圖譜",
+  "topics": [
+   "吸蟲總論"
+  ],
+  "keywords": "trematode eggs to scale Clonorchis Fasciola Paragonimus Schistosoma operculum",
+  "caption": "同一比例尺比大小：最大的是<strong>牛羊肝吸蟲、薑片蟲</strong>（約 140 µm），最小的是<strong>中華肝吸蟲、橫川吸蟲</strong>（約 30 µm）。除了血吸蟲（10–12），都有卵蓋。",
+  "type": "slide",
+  "src": "figures/slides/trematode-ova.webp",
+  "deck": "人體常見寄生蟲蟲卵原色等比圖譜",
+  "page": "1",
+  "w": 1400,
+  "h": 795
+ },
+ {
+  "id": "slide-fbuski-egg",
+  "chapter": "trematodes",
+  "title": "布氏薑片蟲卵：大而薄殼、卵蓋不明顯",
+  "topics": [
+   "腸吸蟲"
+  ],
+  "keywords": "Fasciolopsis buski egg large operculum",
+  "caption": "約 140 × 80 µm、淡黃色、卵蓋小而不明顯；和牛羊肝吸蟲卵幾乎分不出來。",
+  "type": "slide",
+  "src": "figures/slides/fbuski-egg.webp",
+  "deck": "吸蟲圖譜（2 吸蟲圖檔）",
+  "page": "4",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "slide-pw-egg",
+  "chapter": "trematodes",
+  "title": "衛氏肺吸蟲卵：卵蓋有肩、後端增厚",
+  "topics": [
+   "肺吸蟲"
+  ],
+  "keywords": "Paragonimus westermani egg operculum shoulder thickened abopercular sputum",
+  "caption": "約 85 × 53 µm、金黃褐色、卵蓋扁平有肩、<strong>後端殼增厚</strong>、左右不太對稱；在<strong>痰</strong>或糞便找。",
+  "type": "slide",
+  "src": "figures/slides/pw-egg.webp",
+  "deck": "吸蟲圖譜（2 吸蟲圖檔）",
+  "page": "16",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "slide-pw-crab",
+  "chapter": "trematodes",
+  "title": "衛氏肺吸蟲第二中間宿主：澤蟹",
+  "topics": [
+   "肺吸蟲"
+  ],
+  "keywords": "Paragonimus second intermediate host crab Potamon metacercaria",
+  "caption": "第一中間宿主川蜷、第二中間宿主<strong>淡水蟹（澤蟹）</strong>；吃醉蟹、生蟹感染。",
+  "type": "slide",
+  "src": "figures/slides/pw-crab.webp",
+  "deck": "吸蟲圖譜（2 吸蟲圖檔）",
+  "page": "19",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "slide-cs-egg",
+  "chapter": "trematodes",
+  "title": "中華肝吸蟲卵：小、卵蓋有肩、後端小突起",
+  "topics": [
+   "肝吸蟲"
+  ],
+  "keywords": "Clonorchis sinensis egg small operculum shoulder knob",
+  "caption": "約 30 × 16 µm（吸蟲卵最小之一）、黃褐色、<strong>卵蓋坐在肩上</strong>、後端常有小突起，內含成熟纖毛幼蟲。",
+  "type": "slide",
+  "src": "figures/slides/cs-egg.webp",
+  "deck": "吸蟲圖譜（2 吸蟲圖檔）",
+  "page": "23",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "slide-schisto-pair",
+  "chapter": "trematodes",
+  "title": "血吸蟲雌雄異體：雌蟲住在雄蟲抱雌溝",
+  "topics": [
+   "血吸蟲"
+  ],
+  "keywords": "Schistosoma gynecophoral canal male female dioecious",
+  "caption": "吸蟲裡唯一<strong>雌雄異體</strong>的；雌蟲細長，躺在雄蟲腹面的<strong>抱雌溝</strong>裡。",
+  "type": "slide",
+  "src": "figures/slides/schisto-pair.webp",
+  "deck": "吸蟲圖譜（2 吸蟲圖檔）",
+  "page": "47",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "slide-sj-egg",
+  "chapter": "trematodes",
+  "title": "日本血吸蟲卵：圓、側邊小刺",
+  "topics": [
+   "血吸蟲"
+  ],
+  "keywords": "Schistosoma japonicum egg minute lateral spine",
+  "caption": "約 90 × 70 µm、卵圓形、<strong>側邊小刺常被雜質蓋住看不到</strong>；糞便檢查。中間宿主釘螺（Oncomelania）。",
+  "type": "slide",
+  "src": "figures/slides/sj-egg.webp",
+  "deck": "吸蟲圖譜（2 吸蟲圖檔）",
+  "page": "39",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "slide-sh-egg",
+  "chapter": "trematodes",
+  "title": "埃及血吸蟲卵：尾端刺、在尿液",
+  "topics": [
+   "血吸蟲"
+  ],
+  "keywords": "Schistosoma haematobium egg terminal spine urine bladder Bulinus",
+  "caption": "約 143 × 60 µm、<strong>尾端刺</strong>、在<strong>尿液</strong>找到（成蟲在膀胱靜脈叢）。中間宿主 Bulinus。",
+  "type": "slide",
+  "src": "figures/slides/sh-egg.webp",
+  "deck": "吸蟲圖譜（2 吸蟲圖檔）",
+  "page": "43",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "slide-sm-egg",
+  "chapter": "trematodes",
+  "title": "曼氏血吸蟲卵：大側刺",
+  "topics": [
+   "血吸蟲"
+  ],
+  "keywords": "Schistosoma mansoni egg large lateral spine Biomphalaria",
+  "caption": "約 140 × 60 µm、<strong>靠近後端的大側刺</strong>；糞便檢查。中間宿主 Biomphalaria。",
+  "type": "slide",
+  "src": "figures/slides/sm-egg.webp",
+  "deck": "吸蟲圖譜（2 吸蟲圖檔）",
+  "page": "48",
+  "w": 1400,
+  "h": 960
+ },
+ {
+  "id": "egg-sizes",
+  "chapter": "nematode-lab",
+  "title": "常考蟲卵的相對大小（等比例示意）",
+  "topics": [
+   "蟲卵鑑別"
+  ],
+  "keywords": "egg size comparison Ascaris hookworm Trichuris Enterobius Capillaria Clonorchis Fasciola Paragonimus Schistosoma",
+  "caption": "以<strong>受孕蛔蟲卵（60 µm）</strong>當比例尺：比它大兩倍以上的是牛羊肝吸蟲、薑片蟲、曼氏／埃及血吸蟲；只有一半的是中華肝吸蟲、橫川吸蟲。"
+ },
+ {
+  "id": "slide-nematode-ova",
+  "chapter": "nematode-lab",
+  "title": "線蟲蟲卵原色等比圖譜",
+  "topics": [
+   "蟲卵鑑別"
+  ],
+  "keywords": "nematode eggs to scale Ascaris Trichuris Enterobius Toxocara hookworm Capillaria Strongyloides",
+  "caption": "1 蛔蟲受孕卵、2 未受孕卵、3 蟯蟲、4 犬蛔蟲、5 鞭蟲、6 鉤蟲、7 肝毛線蟲、8 菲律賓毛線蟲、9 糞小桿線蟲。同一比例尺，比大小、顏色、殼的厚薄。",
+  "type": "slide",
+  "src": "figures/slides/nematode-ova.webp",
+  "deck": "人體常見寄生蟲蟲卵原色等比圖譜",
+  "page": "1",
+  "w": 1400,
+  "h": 468
+ }
+]

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 412" role="img" aria-label="臨床試驗的變形與分期：預期性交叉試驗兩組先後互換治療、中間停藥，要注意殘餘效應；因子型設計同時比較 aspirin 與 beta-carotene 的主效果與交互作用；新藥試驗分期一到四期，第三期完成後上市，第四期是上市後監測。">
+<defs><marker id="td-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker></defs>
+<text x="10" y="20" class="th">預期性交叉試驗（planned crossover）</text>
+<text x="20" y="62" class="tb" style="font-size:12px">A 組</text>
+<rect x="70" y="36" width="150" height="38" rx="8" class="bv"/>
+<text x="145" y="60" text-anchor="middle" style="font-size:12px">治療 X</text>
+<rect x="230" y="36" width="90" height="38" rx="8" class="bp"/>
+<text x="275" y="60" text-anchor="middle" class="ts">停藥 washout</text>
+<rect x="330" y="36" width="150" height="38" rx="8" class="bw"/>
+<text x="405" y="60" text-anchor="middle" style="font-size:12px">治療 Y</text>
+<text x="20" y="112" class="tb" style="font-size:12px">B 組</text>
+<rect x="70" y="86" width="150" height="38" rx="8" class="bw"/>
+<text x="145" y="110" text-anchor="middle" style="font-size:12px">治療 Y</text>
+<rect x="230" y="86" width="90" height="38" rx="8" class="bp"/>
+<text x="275" y="110" text-anchor="middle" class="ts">停藥 washout</text>
+<rect x="330" y="86" width="150" height="38" rx="8" class="bv"/>
+<text x="405" y="110" text-anchor="middle" style="font-size:12px">治療 X</text>
+<g class="hot" data-tip="前一期的藥效殘留到下一期 = <b>殘餘效應（carryover）</b>，所以中間要有停藥期。好處：每個人自己當自己的對照。" data-label="殘餘效應"><text x="500" y="60" class="tb tr" style="font-size:12px">要擔心殘餘效應（carryover）</text></g>
+<text x="500" y="80" class="ts">每個人都當自己的對照</text>
+<text x="500" y="98" class="ts">非預期交叉：病人自行換組 → 錯誤分類</text>
+<text x="500" y="116" class="ts">（例：手術組拒絕手術）</text>
+<text x="10" y="158" class="th">因子型設計（factorial）· 一次回答兩個問題</text>
+<text x="215.0" y="178" text-anchor="middle" class="tb" style="font-size:12px">Aspirin ＋</text>
+<text x="345.0" y="178" text-anchor="middle" class="tb" style="font-size:12px">Aspirin −（安慰劑）</text>
+<text x="140" y="213.0" text-anchor="end" class="tb" style="font-size:12px">β-carotene ＋</text>
+<text x="140" y="259.0" text-anchor="end" class="tb" style="font-size:12px">β-carotene −</text>
+<rect x="150" y="186" width="130" height="46" class="bv"/>
+<text x="215.0" y="213.0" text-anchor="middle" style="font-size:12px">兩種都吃</text>
+<rect x="280" y="186" width="130" height="46" class="bw"/>
+<text x="345.0" y="213.0" text-anchor="middle" style="font-size:12px">只吃 β-carotene</text>
+<rect x="150" y="232" width="130" height="46" class="bw"/>
+<text x="215.0" y="259.0" text-anchor="middle" style="font-size:12px">只吃 aspirin</text>
+<rect x="280" y="232" width="130" height="46" class="bp"/>
+<text x="345.0" y="259.0" text-anchor="middle" style="font-size:12px">兩種都安慰劑</text>
+<g class="hot" data-tip="左欄 vs 右欄 → aspirin 的<b>主效果</b>；上列 vs 下列 → β-carotene 的主效果；四格一起看 → 兩者有沒有<b>交互作用</b>。考古也出過 aspirin × 紅麴。" data-label="因子型設計"><text x="440" y="206" style="font-size:12px">直的比 → aspirin 主效果</text></g>
+<text x="440" y="226" style="font-size:12px">橫的比 → β-carotene 主效果</text>
+<text x="440" y="246" class="tb" style="font-size:12px">四格一起看 → 交互作用</text>
+<text x="440" y="266" class="ts">（Physicians' Health Study；考古：aspirin × 紅麴）</text>
+<text x="10" y="310" class="th">新藥試驗分期</text>
+<rect x="20" y="322" width="160" height="62" rx="10" class="bx"/>
+<text x="34" y="344" class="tb" style="font-size:12px">Phase 1</text>
+<text x="34" y="362" style="font-size:12px">毒性、藥理</text>
+<text x="34" y="378" class="ts">20–80 人</text>
+<path d="M182 353H206" class="ln" marker-end="url(#td-a)"/>
+<rect x="210" y="322" width="160" height="62" rx="10" class="bx"/>
+<text x="224" y="344" class="tb" style="font-size:12px">Phase 2</text>
+<text x="224" y="362" style="font-size:12px">有效性、找劑量</text>
+<text x="224" y="378" class="ts">100–200 人</text>
+<path d="M372 353H396" class="ln" marker-end="url(#td-a)"/>
+<rect x="400" y="322" width="160" height="62" rx="10" class="bv"/>
+<text x="414" y="344" class="tb" style="font-size:12px">Phase 3</text>
+<text x="414" y="362" style="font-size:12px">大型 RCT</text>
+<text x="414" y="378" class="ts">效果與安全</text>
+<path d="M562 353H586" class="ln" marker-end="url(#td-a)"/>
+<rect x="590" y="322" width="160" height="62" rx="10" class="bg"/>
+<text x="604" y="344" class="tb" style="font-size:12px">Phase 4</text>
+<text x="604" y="362" style="font-size:12px">上市後監測</text>
+<text x="604" y="378" class="ts">罕見副作用</text>
+<path d="M578 316V392" class="lg dash"/>
+<text x="574" y="404" text-anchor="end" class="ts" style="fill:var(--good)">通過 Phase 3 → 上市</text>
+</svg>

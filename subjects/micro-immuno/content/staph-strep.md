@@ -26,6 +26,8 @@ G(+) cocci
 | S. agalactiae | − | β | **+** |
 | E. faecalis | − | γ | − |
 
+<div data-fig="gpc-id"></div>
+
 ## 2. *Staphylococcus aureus*
 - 棲息：**鼻咽、皮膚**。
 - 毒力：**Protein A**（抓 IgG Fc，抑制調理與趨化）、**coagulase**（fibrinogen → fibrin 屏障）、catalase、hyaluronidase、fibrinolysin、DNase、lipase；teichoic acid。

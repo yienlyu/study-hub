@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 390" role="img" aria-label="三種血吸蟲蟲卵等比例比較：日本血吸蟲卵約 90 乘 70 微米、側邊小刺、在糞便；曼氏血吸蟲卵約 140 乘 60 微米、大側刺、在糞便；埃及血吸蟲卵約 143 乘 60 微米、尾端刺、在尿液。三種都沒有卵蓋，內含成熟纖毛幼蟲。">
+<text x="10" y="20" class="th">等比例 · 都沒有卵蓋 · 內含成熟纖毛幼蟲</text>
+<rect x="8" y="32" width="244" height="350" rx="12" class="bx"/>
+<ellipse cx="132.0" cy="110.0" rx="56.2" ry="43.8" class="bw"/>
+<path d="M159.9,74.2 Q165.9,64.2 168.9,76.2" class="fw" style="stroke:var(--warn);stroke-width:1.2"/>
+<ellipse cx="129.0" cy="110.0" rx="34.9" ry="22.8" class="fp" style="stroke:var(--warn);stroke-width:.8;stroke-dasharray:2 2"/>
+<g class="hot" data-tip="<b>日本血吸蟲卵</b>：約 90 × 70 µm，最圓最小，<b>側邊小刺（knob）常被雜質蓋住看不到</b>。每天產卵量最多（約 3000 個）→ 症狀最嚴重；保蟲宿主多（牛、豬、鼠）。" data-label="日本血吸蟲卵"><text x="22" y="196" class="tb">日本血吸蟲</text></g>
+<text x="22" y="212" class="ts"><tspan font-style="italic">Schistosoma japonicum</tspan> · 90×70 µm</text>
+<text x="22" y="232"  class="tb tr" style="font-size:12px">側邊小刺（常看不到）</text>
+<text x="22" y="258" class="th">檢體</text><text x="88" y="258" style="font-size:12px">糞便</text>
+<text x="22" y="283" class="th">成蟲</text><text x="88" y="283" style="font-size:12px">上腸繫膜靜脈</text>
+<text x="22" y="308" class="th">中間宿主</text><text x="88" y="308" style="font-size:12px">釘螺 Oncomelania</text>
+<text x="22" y="333" class="th">分布</text><text x="88" y="333" style="font-size:12px">中國、菲律賓、印尼</text>
+<text x="22" y="358" class="th">病變</text><text x="88" y="358" style="font-size:12px">肝纖維化、門脈高壓（最嚴重）</text>
+<rect x="264" y="32" width="244" height="350" rx="12" class="bx"/>
+<ellipse cx="388.0" cy="110.0" rx="87.5" ry="37.5" class="bw"/>
+<path d="M420.4,142.4 L431.4,163.4 L433.4,140.4Z" class="fw"/>
+<ellipse cx="385.0" cy="110.0" rx="54.2" ry="19.5" class="fp" style="stroke:var(--warn);stroke-width:.8;stroke-dasharray:2 2"/>
+<g class="hot" data-tip="<b>曼氏血吸蟲卵</b>：約 140 × 60 µm，<b>靠近後端有一根大側刺</b>。成蟲在下腸繫膜靜脈，卵卡在腸壁與肝。" data-label="曼氏血吸蟲卵"><text x="278" y="196" class="tb">曼氏血吸蟲</text></g>
+<text x="278" y="212" class="ts"><tspan font-style="italic">Schistosoma mansoni</tspan> · 140×60 µm</text>
+<text x="278" y="232"  class="tb tr" style="font-size:12px">大側刺</text>
+<text x="278" y="258" class="th">檢體</text><text x="344" y="258" style="font-size:12px">糞便</text>
+<text x="278" y="283" class="th">成蟲</text><text x="344" y="283" style="font-size:12px">下腸繫膜靜脈</text>
+<text x="278" y="308" class="th">中間宿主</text><text x="344" y="308" style="font-size:12px">扁卷螺 Biomphalaria</text>
+<text x="278" y="333" class="th">分布</text><text x="344" y="333" style="font-size:12px">非洲、南美、加勒比海</text>
+<text x="278" y="358" class="th">病變</text><text x="344" y="358" style="font-size:12px">腸、肝（Symmers 纖維化）</text>
+<rect x="520" y="32" width="244" height="350" rx="12" class="bx"/>
+<path d="M554.6,110.0 C554.6,61.2 675.3,66.9 733.4,108.0 L747.4,110.0 L733.4,112.0 C675.3,153.1 554.6,158.8 554.6,110.0Z" class="bw"/>
+<ellipse cx="641.0" cy="110.0" rx="55.4" ry="19.5" class="fp" style="stroke:var(--warn);stroke-width:.8;stroke-dasharray:2 2"/>
+<g class="hot" data-tip="<b>埃及血吸蟲卵</b>：約 143 × 60 µm，<b>尾端刺（terminal spine）</b>，在<b>尿液</b>找到。成蟲在膀胱靜脈叢 → 血尿、膀胱纖維化鈣化、<b>鱗狀細胞癌</b>。" data-label="埃及血吸蟲卵"><text x="534" y="196" class="tb">埃及血吸蟲</text></g>
+<text x="534" y="212" class="ts"><tspan font-style="italic">Schistosoma haematobium</tspan> · 143×60 µm</text>
+<text x="534" y="232"  class="tb tr" style="font-size:12px">尾端刺</text>
+<text x="534" y="258" class="th">檢體</text><text x="600" y="258"  class="tb tr" style="font-size:12px">尿液（中午最多）</text>
+<text x="534" y="283" class="th">成蟲</text><text x="600" y="283" style="font-size:12px">膀胱靜脈叢</text>
+<text x="534" y="308" class="th">中間宿主</text><text x="600" y="308" style="font-size:12px">泡螺 Bulinus</text>
+<text x="534" y="333" class="th">分布</text><text x="600" y="333" style="font-size:12px">非洲、中東</text>
+<text x="534" y="358" class="th">病變</text><text x="600" y="358" style="font-size:12px">血尿、膀胱鱗狀細胞癌</text>
+<path d="M640 172H702.5" class="ln" style="stroke-width:2"/><text x="671.2" y="168" text-anchor="middle" class="ts">50 µm</text>
+</svg>

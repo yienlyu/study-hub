@@ -1,0 +1,1464 @@
+[
+ {
+  "id": "k114-04",
+  "source": "114 期中考古",
+  "num": 4,
+  "chapter": "ch17",
+  "type": "mcq",
+  "stem": "In patients with vitamin B12 deficiency, which compound is broken down the least efficiently?（記題者註：題幹太長，只記下考點）",
+  "options": [
+   {
+    "k": "A",
+    "t": "CH₃(CH₂)₁₀COOH"
+   },
+   {
+    "k": "B",
+    "t": "CH₃(CH₂)₁₁COOH"
+   },
+   {
+    "k": "C",
+    "t": "CH₃(CH₂)₁₂COOH"
+   },
+   {
+    "k": "D",
+    "t": "CH₃(CH₂)₁₄COOH"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "（考古未附答案，網站依課本判斷）奇數碳脂肪酸 β-oxidation 最後產生 propionyl-CoA，要經 methylmalonyl-CoA mutase（需要 B₁₂）才能變成 succinyl-CoA。只有 B 是 13 碳的奇數碳脂肪酸。",
+  "topics": [
+   "奇數碳脂肪酸"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-05",
+  "source": "114 期中考古",
+  "num": 5,
+  "chapter": "ch17",
+  "type": "mcq",
+  "stem": "If palmitate (16:0) is oxidized completely to CO₂ and H₂O via β-oxidation and the citric acid cycle, and all energy-conserving products drive ATP synthesis, the net yield of ATP per palmitate is?",
+  "options": [
+   {
+    "k": "A",
+    "t": "25"
+   },
+   {
+    "k": "B",
+    "t": "106"
+   },
+   {
+    "k": "C",
+    "t": "108"
+   },
+   {
+    "k": "D",
+    "t": "110"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "（考古未附答案，網站依課本判斷）7 輪 β-oxidation 產生 7 FADH₂、7 NADH、8 acetyl-CoA → 108 ATP；活化脂肪酸消耗 2 個高能磷酸鍵 → 淨 106。",
+  "topics": [
+   "β-oxidation ATP"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-06",
+  "source": "114 期中考古",
+  "num": 6,
+  "chapter": "ch17",
+  "type": "mcq",
+  "stem": "Where are ketone bodies synthesized?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Cytosol"
+   },
+   {
+    "k": "B",
+    "t": "Mitochondrial matrix"
+   },
+   {
+    "k": "C",
+    "t": "Mitochondrial intermembrane space"
+   },
+   {
+    "k": "D",
+    "t": "Endoplasmic reticulum"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "（考古未附答案，網站依課本判斷）肝細胞粒線體基質中由 acetyl-CoA 合成（HMG-CoA synthase 粒線體型）。",
+  "topics": [
+   "酮體"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-07",
+  "source": "114 期中考古",
+  "num": 7,
+  "chapter": "ch17",
+  "type": "mcq",
+  "stem": "Free fatty acids in the bloodstream are:",
+  "options": [
+   {
+    "k": "A",
+    "t": "bound to hemoglobin."
+   },
+   {
+    "k": "B",
+    "t": "carried by the protein serum albumin."
+   },
+   {
+    "k": "C",
+    "t": "freely soluble in the aqueous phase of the blood."
+   },
+   {
+    "k": "D",
+    "t": "present at levels that are independent of epinephrine."
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "（考古未附答案，網站依課本判斷）游離脂肪酸在血中與 serum albumin 結合運送；其濃度受 epinephrine、glucagon 調控。",
+  "topics": [
+   "脂肪酸運送"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-08",
+  "source": "114 期中考古",
+  "num": 8,
+  "chapter": "ch17",
+  "type": "mcq",
+  "stem": "Which pathway is likely to be affected by a deficiency in carnitine?",
+  "options": [
+   {
+    "k": "A",
+    "t": "α oxidation"
+   },
+   {
+    "k": "B",
+    "t": "β oxidation"
+   },
+   {
+    "k": "C",
+    "t": "Uptake of fatty acids from the bloodstream"
+   },
+   {
+    "k": "D",
+    "t": "All of the answers are correct"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "（考古未附答案，網站依課本判斷）Carnitine shuttle 把長鏈脂肪醯基送進粒線體做 β-oxidation。",
+  "topics": [
+   "Carnitine shuttle"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-09",
+  "source": "114 期中考古",
+  "num": 9,
+  "chapter": "ch21",
+  "type": "mcq",
+  "stem": "Which list ranks the compounds in order from the fewest to the greatest number of carbon atoms?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Acetate, cholesterol, mevalonate, squalene"
+   },
+   {
+    "k": "B",
+    "t": "Acetate, mevalonate, squalene, cholesterol"
+   },
+   {
+    "k": "C",
+    "t": "Mevalonate, cholesterol, squalene, acetate"
+   },
+   {
+    "k": "D",
+    "t": "Acetate, mevalonate, cholesterol, squalene"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "（考古未附答案，網站依課本判斷）Acetate C2 → mevalonate C6 → cholesterol C27 → squalene C30（squalene 環化後去掉 3 個碳變成膽固醇）。",
+  "topics": [
+   "膽固醇合成"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-10",
+  "source": "114 期中考古",
+  "num": 10,
+  "chapter": "ch17",
+  "type": "mcq",
+  "stem": "Which hormones stimulate the mobilization/release of fatty acids from adipose tissue to meet energy demands?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Insulin and epinephrine"
+   },
+   {
+    "k": "B",
+    "t": "Glucagon and epinephrine"
+   },
+   {
+    "k": "C",
+    "t": "Insulin and glucagon"
+   },
+   {
+    "k": "D",
+    "t": "Cortisol and insulin"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "（考古未附答案，網站依課本判斷）Glucagon、epinephrine → cAMP → PKA 磷酸化 perilipin 與 hormone-sensitive lipase → 脂肪分解；insulin 抑制。",
+  "topics": [
+   "脂肪動員"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-11",
+  "source": "114 期中考古",
+  "num": 11,
+  "chapter": "ch21",
+  "type": "mcq",
+  "stem": "Which compound is NOT an intermediate in the transfer of acetyl groups from mitochondria to the cytosol?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Citrate"
+   },
+   {
+    "k": "B",
+    "t": "Malate"
+   },
+   {
+    "k": "C",
+    "t": "Oxaloacetate"
+   },
+   {
+    "k": "D",
+    "t": "Fumarate"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "（考古未附答案，網站依課本判斷）Citrate shuttle：citrate 出粒線體 → citrate lyase 切成 acetyl-CoA＋OAA → OAA 還原成 malate → malic enzyme 變 pyruvate 回粒線體。Fumarate 不參與。",
+  "topics": [
+   "Citrate shuttle"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-12",
+  "source": "114 期中考古",
+  "num": 12,
+  "chapter": "ch21",
+  "type": "mcq",
+  "stem": "The rate-limiting step in fatty acid synthesis is:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Condensation of acetyl-CoA and malonyl-CoA"
+   },
+   {
+    "k": "B",
+    "t": "Formation of acetyl-CoA from acetate"
+   },
+   {
+    "k": "C",
+    "t": "Formation of malonyl-CoA from malonate and coenzyme A"
+   },
+   {
+    "k": "D",
+    "t": "The reaction catalyzed by acetyl-CoA carboxylase"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "（考古未附答案，網站依課本判斷）Acetyl-CoA carboxylase（需要 biotin）把 acetyl-CoA 變成 malonyl-CoA，是脂肪酸合成的速率限制步驟。",
+  "topics": [
+   "脂肪酸合成調控"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-13",
+  "source": "114 期中考古",
+  "num": 13,
+  "chapter": "ch17",
+  "type": "mcq",
+  "stem": "Chylomicrons carry _____ in _____.",
+  "options": [
+   {
+    "k": "A",
+    "t": "Triglycerides; cell"
+   },
+   {
+    "k": "B",
+    "t": "Triglycerides; blood"
+   },
+   {
+    "k": "C",
+    "t": "Cholesterols; blood"
+   },
+   {
+    "k": "D",
+    "t": "Fatty acid; blood"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "（考古未附答案，網站依課本判斷）乳糜微粒把飲食中的三酸甘油酯經淋巴、血液運到肌肉與脂肪組織。",
+  "topics": [
+   "脂蛋白"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-14",
+  "source": "114 期中考古",
+  "num": 14,
+  "chapter": "ch21",
+  "type": "mcq",
+  "stem": "Which one is the critical enzyme for cholesterol biosynthesis, and where can this enzyme be detected?",
+  "options": [
+   {
+    "k": "A",
+    "t": "HMG-CoA synthase, mitochondria"
+   },
+   {
+    "k": "B",
+    "t": "HMG-CoA reductase, mitochondria"
+   },
+   {
+    "k": "C",
+    "t": "HMG-CoA synthase, cytoplasm"
+   },
+   {
+    "k": "D",
+    "t": "HMG-CoA reductase, cytoplasm"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "（考古未附答案，網站依課本判斷）HMG-CoA reductase 是膽固醇合成的速率限制酵素（statin 標的），位在 ER 膜、活性端朝細胞質；粒線體的 HMG-CoA synthase 用於酮體合成。",
+  "topics": [
+   "膽固醇合成"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-15",
+  "source": "114 期中考古",
+  "num": 15,
+  "chapter": "ch21",
+  "type": "mcq",
+  "stem": "Which of the following events occurs first in the process of transporting an LDL into a cell?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Formation of a coated pit with the aid of clathrin"
+   },
+   {
+    "k": "B",
+    "t": "Receptor-mediated endocytosis"
+   },
+   {
+    "k": "C",
+    "t": "Fusion of the clathrin-lined vesicles to produce an endosome"
+   },
+   {
+    "k": "D",
+    "t": "Interaction of apo B-100 with LDL receptors"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "（考古未附答案，網站依課本判斷）LDL 的 apoB-100 先與 LDL receptor 結合，接著 clathrin coated pit → 胞吞 → endosome。",
+  "topics": [
+   "LDL 受體"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-16",
+  "source": "114 期中考古",
+  "num": 16,
+  "chapter": "ch21",
+  "type": "mcq",
+  "stem": "Which amino acid is crucial for choline and PC synthesis?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Serine"
+   },
+   {
+    "k": "B",
+    "t": "β-alanine"
+   },
+   {
+    "k": "C",
+    "t": "Homocysteine"
+   },
+   {
+    "k": "D",
+    "t": "Methionine"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "（考古未附答案，網站依課本判斷）PE 經三次甲基化（甲基供體是由 methionine 產生的 SAM）變成 PC；choline 也由此而來。（serine 是 PS→PE 的起點，若老師強調 PS 路徑可能另有答案。）",
+  "topics": [
+   "磷脂合成"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-18",
+  "source": "114 期中考古",
+  "num": 18,
+  "chapter": "ch17",
+  "type": "mcq",
+  "stem": "What is the major regulation point for transporting fatty acids into mitochondria?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Long-chain FA specific acyl-CoA synthetase"
+   },
+   {
+    "k": "B",
+    "t": "Medium-chain FA specific acyl-CoA synthetase"
+   },
+   {
+    "k": "C",
+    "t": "Carnitine palmitoyltransferase I"
+   },
+   {
+    "k": "D",
+    "t": "Carnitine palmitoyltransferase II"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "（考古未附答案，網站依課本判斷）CPT I 被 malonyl-CoA 抑制，是脂肪酸進入粒線體的主要調控點。",
+  "topics": [
+   "Carnitine shuttle"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-22",
+  "source": "114 期中考古",
+  "num": 22,
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "Which of the following statements about the Cori cycle is CORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Alanine is the intermediate molecule in Cori cycle."
+   },
+   {
+    "k": "B",
+    "t": "Lactate produced in liver is converted back to glucose in muscle."
+   },
+   {
+    "k": "C",
+    "t": "It connects anaerobic glycolysis in muscle with gluconeogenesis in liver."
+   },
+   {
+    "k": "D",
+    "t": "It produces 36 ATP per glucose molecule."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "肌肉無氧糖解產生 lactate → 肝臟糖質新生回到 glucose。Alanine 是 glucose–alanine cycle；Cori cycle 淨消耗 ATP。",
+  "topics": [
+   "Cori cycle"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-23",
+  "source": "114 期中考古",
+  "num": 23,
+  "chapter": "ch17",
+  "type": "mcq",
+  "stem": "Which of the following substances inhibits ketone body synthesis?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Low glucose"
+   },
+   {
+    "k": "B",
+    "t": "High malonyl-CoA"
+   },
+   {
+    "k": "C",
+    "t": "High NADH/NAD⁺ ratio"
+   },
+   {
+    "k": "D",
+    "t": "AMPK activation"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Malonyl-CoA 抑制 CPT I → 脂肪酸無法進粒線體 → 酮體生成減少。",
+  "topics": [
+   "酮體"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-24",
+  "source": "114 期中考古",
+  "num": 24,
+  "chapter": "ch17",
+  "type": "mcq",
+  "stem": "Which ketone body is exhaled rather than used for energy?",
+  "options": [
+   {
+    "k": "A",
+    "t": "β-Hydroxybutyrate"
+   },
+   {
+    "k": "B",
+    "t": "Acetoacetate"
+   },
+   {
+    "k": "C",
+    "t": "Acetone"
+   },
+   {
+    "k": "D",
+    "t": "Propionate"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Acetone 由 acetoacetate 自發去羧產生，經呼氣排出（酮酸中毒的水果味）。",
+  "topics": [
+   "酮體"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-25",
+  "source": "114 期中考古",
+  "num": 25,
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "Which channel closure triggers insulin secretion in pancreatic β-cells?",
+  "options": [
+   {
+    "k": "A",
+    "t": "ATP-gated K⁺ channel"
+   },
+   {
+    "k": "B",
+    "t": "Na⁺/K⁺ pump"
+   },
+   {
+    "k": "C",
+    "t": "Voltage-gated Ca²⁺ channel"
+   },
+   {
+    "k": "D",
+    "t": "GLUT4 channel"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "血糖 ↑ → ATP ↑ → 關閉 ATP-gated K⁺ channel → 去極化 → 電位依賴性 Ca²⁺ 通道打開 → 胰島素分泌。",
+  "topics": [
+   "胰島素分泌"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-26",
+  "source": "114 期中考古",
+  "num": 26,
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "Which statement about insulin receptor activation is CORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Insulin receptor exists as a monomer before activation."
+   },
+   {
+    "k": "B",
+    "t": "Insulin receptor must dimerize to become active."
+   },
+   {
+    "k": "C",
+    "t": "Insulin receptor activates adenylate cyclase directly."
+   },
+   {
+    "k": "D",
+    "t": "Insulin receptor is pre-formed as a dimer before ligand binding."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "胰島素受體本來就是 (αβ)₂ 二聚體，結合胰島素後自我磷酸化（和 EGF 受體需要配體誘導二聚化不同）。",
+  "topics": [
+   "胰島素受體"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-27",
+  "source": "114 期中考古",
+  "num": 27,
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "The downstream effect of Akt activation includes:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Activation of GSK3β"
+   },
+   {
+    "k": "B",
+    "t": "Inhibition of GSK3β via Ser9 phosphorylation"
+   },
+   {
+    "k": "C",
+    "t": "Activation of PKA"
+   },
+   {
+    "k": "D",
+    "t": "Activation of adenylate cyclase"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Akt（PKB）磷酸化 GSK3β Ser9 使其失活 → glycogen synthase 不被抑制 → 肝醣合成。",
+  "topics": [
+   "胰島素訊息"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-28",
+  "source": "114 期中考古",
+  "num": 28,
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "Which GLUT isoform is insulin-dependent?",
+  "options": [
+   {
+    "k": "A",
+    "t": "GLUT1"
+   },
+   {
+    "k": "B",
+    "t": "GLUT2"
+   },
+   {
+    "k": "C",
+    "t": "GLUT4"
+   },
+   {
+    "k": "D",
+    "t": "GLUT5"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "GLUT4 在肌肉與脂肪，受胰島素刺激移到細胞膜。",
+  "topics": [
+   "GLUT"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-29",
+  "source": "114 期中考古",
+  "num": 29,
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "Which of the following CORRECTLY pairs hormone and effect?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Glucagon – activates gluconeogenesis"
+   },
+   {
+    "k": "B",
+    "t": "Insulin – activates glycogen phosphorylase"
+   },
+   {
+    "k": "C",
+    "t": "Epinephrine – inhibits muscle glycolysis"
+   },
+   {
+    "k": "D",
+    "t": "Leptin – stimulates appetite"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Glucagon 促進肝臟糖質新生；insulin 抑制 glycogen phosphorylase；epinephrine 促進肌肉糖解；leptin 抑制食慾。",
+  "topics": [
+   "激素作用"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-30",
+  "source": "114 期中考古",
+  "num": 30,
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "Which of the following statements about AMPK is INCORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Activated during energy deficiency or hypoxia."
+   },
+   {
+    "k": "B",
+    "t": "Stimulates fatty acid oxidation and glycolysis."
+   },
+   {
+    "k": "C",
+    "t": "Is activated by adiponectin and ghrelin."
+   },
+   {
+    "k": "D",
+    "t": "Activates mTOR to promote anabolism."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "AMPK 在能量不足時活化、促進分解代謝，並**抑制** mTORC1。",
+  "topics": [
+   "AMPK"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-31",
+  "source": "114 期中考古",
+  "num": 31,
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "Which of the following is NOT a characteristic of GLP-1?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Increases insulin secretion"
+   },
+   {
+    "k": "B",
+    "t": "Suppresses glucagon release"
+   },
+   {
+    "k": "C",
+    "t": "Slows gastric emptying"
+   },
+   {
+    "k": "D",
+    "t": "Stimulates appetite"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "GLP-1 增加胰島素、抑制升糖素、延緩胃排空、**抑制**食慾。",
+  "topics": [
+   "腸泌素"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-32",
+  "source": "114 期中考古",
+  "num": 32,
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "Which molecule activates carbamoyl phosphate synthetase I?",
+  "options": [
+   {
+    "k": "A",
+    "t": "N-acetylglutamate"
+   },
+   {
+    "k": "B",
+    "t": "Aspartate"
+   },
+   {
+    "k": "C",
+    "t": "Fumarate"
+   },
+   {
+    "k": "D",
+    "t": "Glutamine"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "N-acetylglutamate 是 CPS I 的必要活化劑（尿素循環調控）。",
+  "topics": [
+   "尿素循環"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-33",
+  "source": "114 期中考古",
+  "num": 33,
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "Which amino acid transports nitrogen waste from muscle to liver?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Alanine"
+   },
+   {
+    "k": "B",
+    "t": "Glutamine"
+   },
+   {
+    "k": "C",
+    "t": "Arginine"
+   },
+   {
+    "k": "D",
+    "t": "Aspartate"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Glucose–alanine cycle：肌肉把胺基轉給 pyruvate 形成 alanine 送到肝。（Glutamine 是多數組織的氨載體。）",
+  "topics": [
+   "氮的運送"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-34",
+  "source": "114 期中考古",
+  "num": 34,
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "Which of the following amino acids is purely ketogenic?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Valine"
+   },
+   {
+    "k": "B",
+    "t": "Alanine"
+   },
+   {
+    "k": "C",
+    "t": "Leucine"
+   },
+   {
+    "k": "D",
+    "t": "Serine"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "純生酮胺基酸只有 leucine 與 lysine。",
+  "topics": [
+   "生酮／生醣胺基酸"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-35",
+  "source": "114 期中考古",
+  "num": 35,
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "Which cofactor is required for methylmalonyl-CoA mutase?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Biotin"
+   },
+   {
+    "k": "B",
+    "t": "Vitamin B₁₂"
+   },
+   {
+    "k": "C",
+    "t": "Tetrahydrofolate"
+   },
+   {
+    "k": "D",
+    "t": "PLP"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Methylmalonyl-CoA mutase 需要 5'-deoxyadenosylcobalamin（B₁₂）。",
+  "topics": [
+   "輔因子"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-36",
+  "source": "114 期中考古",
+  "num": 36,
+  "chapter": "ch22",
+  "type": "mcq",
+  "stem": "The coenzyme of ALA synthase is:",
+  "options": [
+   {
+    "k": "A",
+    "t": "FAD"
+   },
+   {
+    "k": "B",
+    "t": "Biotin"
+   },
+   {
+    "k": "C",
+    "t": "TPP"
+   },
+   {
+    "k": "D",
+    "t": "PLP"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "ALA synthase（succinyl-CoA＋glycine）需要 PLP，是血基質合成的速率限制酵素。",
+  "topics": [
+   "血基質合成"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-37",
+  "source": "114 期中考古",
+  "num": 37,
+  "chapter": "ch22",
+  "type": "mcq",
+  "stem": "Which vitamin deficiency leads to pellagra?",
+  "options": [
+   {
+    "k": "A",
+    "t": "B₁"
+   },
+   {
+    "k": "B",
+    "t": "B₂"
+   },
+   {
+    "k": "C",
+    "t": "B₃"
+   },
+   {
+    "k": "D",
+    "t": "B₆"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Pellagra 是 niacin（B₃）缺乏；tryptophan 可轉成 niacin。",
+  "topics": [
+   "胺基酸衍生物"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-38",
+  "source": "114 期中考古",
+  "num": 38,
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "Which cofactor is required by branched-chain α-keto acid dehydrogenase?",
+  "options": [
+   {
+    "k": "A",
+    "t": "PLP"
+   },
+   {
+    "k": "B",
+    "t": "TPP"
+   },
+   {
+    "k": "C",
+    "t": "BH₄"
+   },
+   {
+    "k": "D",
+    "t": "Biotin"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "BCKDH 和 PDH 一樣需要 TPP、lipoate、FAD、NAD⁺、CoA；缺乏 → 楓糖尿症。",
+  "topics": [
+   "輔因子"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-39",
+  "source": "114 期中考古",
+  "num": 39,
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "BH₄ is NOT a cofactor required for which of the following enzymes?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Tyrosine hydroxylase"
+   },
+   {
+    "k": "B",
+    "t": "Pyruvate carboxylase"
+   },
+   {
+    "k": "C",
+    "t": "Nitric oxide synthase"
+   },
+   {
+    "k": "D",
+    "t": "Phenylalanine hydroxylase"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Pyruvate carboxylase 需要 biotin；其他三個都需要 BH₄。",
+  "topics": [
+   "輔因子"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-40",
+  "source": "114 期中考古",
+  "num": 40,
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "Which pair of amino acids are both branched-chain?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Valine, Isoleucine"
+   },
+   {
+    "k": "B",
+    "t": "Serine, Alanine"
+   },
+   {
+    "k": "C",
+    "t": "Histidine, Arginine"
+   },
+   {
+    "k": "D",
+    "t": "Glycine, Cysteine"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "BCAA：valine、leucine、isoleucine。",
+  "topics": [
+   "BCAA"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-41",
+  "source": "114 期中考古",
+  "num": 41,
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "Sildenafil (Viagra) exerts its effect by inhibiting:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Adenylyl cyclase"
+   },
+   {
+    "k": "B",
+    "t": "Guanylyl cyclase"
+   },
+   {
+    "k": "C",
+    "t": "Phosphatase"
+   },
+   {
+    "k": "D",
+    "t": "Phosphodiesterase"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "抑制 cGMP phosphodiesterase（PDE5）→ cGMP 維持 → 平滑肌放鬆。",
+  "topics": [
+   "cGMP 訊息"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-42",
+  "source": "114 期中考古",
+  "num": 42,
+  "chapter": "ch22",
+  "type": "mcq",
+  "stem": "Which amino acid derivative is mainly used for bile salt synthesis?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Creatine"
+   },
+   {
+    "k": "B",
+    "t": "Taurine"
+   },
+   {
+    "k": "C",
+    "t": "Spermidine"
+   },
+   {
+    "k": "D",
+    "t": "Ornithine"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Taurine（由 cysteine 而來）和 glycine 與膽酸結合形成膽鹽。",
+  "topics": [
+   "胺基酸衍生物"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-43",
+  "source": "114 期中考古",
+  "num": 43,
+  "chapter": "ch22",
+  "type": "mcq",
+  "stem": "In heme catabolism, which enzyme converts biliverdin to bilirubin?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Biliverdin reductase"
+   },
+   {
+    "k": "B",
+    "t": "Heme oxygenase"
+   },
+   {
+    "k": "C",
+    "t": "UDP-glucuronyltransferase"
+   },
+   {
+    "k": "D",
+    "t": "Ferrochelatase"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Heme oxygenase：heme → biliverdin；biliverdin reductase：biliverdin → bilirubin。",
+  "topics": [
+   "血基質分解"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-44",
+  "source": "114 期中考古",
+  "num": 44,
+  "chapter": "ch22",
+  "type": "mcq",
+  "stem": "Which of the following is the correct match between amino acid and its main derivative?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Arginine – Creatine"
+   },
+   {
+    "k": "B",
+    "t": "Glycine – GABA"
+   },
+   {
+    "k": "C",
+    "t": "Tyrosine – Niacin"
+   },
+   {
+    "k": "D",
+    "t": "Methionine – Histamine"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Creatine 由 glycine＋arginine（＋SAM）合成；GABA 來自 glutamate；niacin 來自 tryptophan；histamine 來自 histidine。",
+  "topics": [
+   "胺基酸衍生物"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-45",
+  "source": "114 期中考古",
+  "num": 45,
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "When epinephrine binds to β-adrenergic receptors on hepatocytes, which of the following occurs first?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Activation of adenylate cyclase"
+   },
+   {
+    "k": "B",
+    "t": "Activation of protein kinase A"
+   },
+   {
+    "k": "C",
+    "t": "Gs protein binds GTP"
+   },
+   {
+    "k": "D",
+    "t": "Phosphorylation of glycogen phosphorylase"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "受體活化 → Gs 的 GDP 換成 GTP → 活化 adenylyl cyclase → cAMP → PKA → phosphorylase。",
+  "topics": [
+   "GPCR 訊息"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-46",
+  "source": "114 期中考古",
+  "num": 46,
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "Insulin resistance in type II diabetes often involves serine phosphorylation of the insulin receptor (substrate). This modification:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Activates receptor tyrosine kinase activity"
+   },
+   {
+    "k": "B",
+    "t": "Stimulates glycogen synthase"
+   },
+   {
+    "k": "C",
+    "t": "Enhances GLUT4 translocation"
+   },
+   {
+    "k": "D",
+    "t": "Blocks downstream PI3K–Akt signaling"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "絲胺酸磷酸化阻斷 IRS 的酪胺酸磷酸化 → PI3K–Akt 訊息被擋住 → 胰島素阻抗。",
+  "topics": [
+   "胰島素阻抗"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-47",
+  "source": "114 期中考古",
+  "num": 47,
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "A mutation causing constitutive activation of mTORC1 would most likely result in:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Enhanced lipolysis"
+   },
+   {
+    "k": "B",
+    "t": "Decreased protein synthesis"
+   },
+   {
+    "k": "C",
+    "t": "Persistent anabolic signaling"
+   },
+   {
+    "k": "D",
+    "t": "Increased AMPK activation"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "mTORC1 促進蛋白質合成等合成代謝。",
+  "topics": [
+   "mTOR"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-48",
+  "source": "114 期中考古",
+  "num": 48,
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "Which of the following tissues relies exclusively on anaerobic glycolysis for ATP production?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Brain"
+   },
+   {
+    "k": "B",
+    "t": "Red blood cells"
+   },
+   {
+    "k": "C",
+    "t": "Heart"
+   },
+   {
+    "k": "D",
+    "t": "Kidney cortex"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "紅血球沒有粒線體，只能靠無氧糖解。",
+  "topics": [
+   "器官燃料"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-49",
+  "source": "114 期中考古",
+  "num": 49,
+  "chapter": "ch23",
+  "type": "mcq",
+  "stem": "A mutation in GLUT2 would most directly affect which process?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Hepatic glucose uptake and release"
+   },
+   {
+    "k": "B",
+    "t": "Muscle glucose storage"
+   },
+   {
+    "k": "C",
+    "t": "Adipose lipolysis"
+   },
+   {
+    "k": "D",
+    "t": "Intestinal fructose absorption"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "GLUT2 在肝臟（與胰臟 β 細胞、腸道基底側），負責肝臟雙向運送葡萄糖。",
+  "topics": [
+   "GLUT"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-50",
+  "source": "114 期中考古",
+  "num": 50,
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "Which of the following reactions requires biotin as a cofactor?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Phenylalanine → Tyrosine"
+   },
+   {
+    "k": "B",
+    "t": "Methylmalonyl-CoA → Succinyl-CoA"
+   },
+   {
+    "k": "C",
+    "t": "Homocysteine → Methionine"
+   },
+   {
+    "k": "D",
+    "t": "Propionyl-CoA → Methylmalonyl-CoA"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Propionyl-CoA carboxylase 需要 biotin；PAH 需要 BH₄；mutase 需要 B₁₂；methionine synthase 需要 B₁₂ 與 THF。",
+  "topics": [
+   "輔因子"
+  ],
+  "pattern": "選正確／單一概念題"
+ }
+]

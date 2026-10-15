@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 344" role="img" aria-label="A-B 毒素：炭疽毒素由 PA 形成孔道，PA 加 EF 是水腫毒素（adenylate cyclase 使 cAMP 上升），PA 加 LF 是致死毒素（鋅蛋白酶切 MEK）；白喉毒素 B 次單元結合受體、胞吞後 A 次單元進入細胞質，ADP-ribosylation EF-2 使蛋白質合成停止，與綠膿桿菌外毒素 A 相同。">
+<defs><marker id="ab-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker></defs>
+<text x="10" y="20" class="th">A-B 毒素：B 負責進門、A 負責搞破壞</text>
+<rect x="10" y="32" width="370" height="300" rx="14" class="bp"/>
+<text x="24" y="56" class="tb" style="font-size:13px">炭疽毒素（pXO1 質體）</text>
+<g class="hot" data-tip="<b>PA（protective antigen）</b>：結合受體後被切成 <b>PA63</b>，七個聚成孔道，把 EF、LF 送進細胞。PA 單獨沒有毒性，是<b>疫苗抗原</b>。" data-label="PA"><rect x="30" y="72" width="100" height="44" rx="9" class="bv"/><text x="80" y="92" text-anchor="middle" class="tb" style="font-size:12px">PA → PA63</text><text x="80" y="108" text-anchor="middle" class="ts">B：進門（孔道）</text></g>
+<path d="M130 86L178 70" class="ln" marker-end="url(#ab-a)"/>
+<path d="M130 102L178 150" class="ln" marker-end="url(#ab-a)"/>
+<text x="150" y="128" class="tb">＋</text>
+<g class="hot" data-tip="<b>Edema toxin = PA + EF</b>：EF 是 calmodulin 依賴的 adenylate cyclase → 細胞內 <b>cAMP↑</b> → 水腫。" data-label="Edema toxin"><rect x="180" y="46" width="186" height="60" rx="9" class="bw"/><text x="194" y="68" class="tb" style="font-size:12px">Edema toxin = PA + EF</text><text x="194" y="88" class="ts">EF＝adenylate cyclase</text></g>
+<g class="hot" data-tip="<b>Lethal toxin = PA + LF</b>：LF 是鋅蛋白酶，切斷 <b>MEK</b> → 巨噬細胞死亡、休克。" data-label="Lethal toxin"><rect x="180" y="126" width="186" height="60" rx="9" class="br"/><text x="194" y="148" class="tb tr" style="font-size:12px">Lethal toxin = PA + LF</text><text x="194" y="168" class="ts">LF：zinc protease 切 MEK</text></g>
+<text x="24" y="214" class="ts">Capsule：poly-D-glutamic acid（胜肽）→ 抗吞噬（pXO2）</text>
+<text x="24" y="240" class="th">三型</text>
+<text x="24" y="260" style="font-size:12px">皮膚型 >90%：黑色焦痂 eschar</text>
+<text x="24" y="280" style="font-size:12px">腸胃型：最少見、致死 >50%</text>
+<text x="24" y="300" style="font-size:12px">吸入型（wool-sorter's）：縱膈淋巴結腫、~100%</text>
+<text x="24" y="322" class="ts">治療 ciprofloxacin／doxycycline；不可切開焦痂</text>
+<rect x="400" y="32" width="370" height="300" rx="14" class="bp"/>
+<text x="414" y="56" class="tb" style="font-size:13px">白喉毒素（β-phage 的 tox 基因）</text>
+<rect x="420" y="72" width="210" height="32" rx="8" class="bv"/>
+<text x="525" y="93" text-anchor="middle" class="tb" style="font-size:12px">B 次單元結合受體</text>
+<path d="M525 104V114" class="ln" marker-end="url(#ab-a)"/>
+<rect x="420" y="116" width="210" height="32" rx="8" class="bx"/>
+<text x="525" y="137" text-anchor="middle" class="tb" style="font-size:12px">胞吞 → endosome 酸化</text>
+<path d="M525 148V158" class="ln" marker-end="url(#ab-a)"/>
+<rect x="420" y="160" width="210" height="32" rx="8" class="bx"/>
+<text x="525" y="181" text-anchor="middle" class="tb" style="font-size:12px">A 次單元進入細胞質</text>
+<path d="M525 192V202" class="ln" marker-end="url(#ab-a)"/>
+<rect x="420" y="204" width="210" height="32" rx="8" class="br"/>
+<text x="525" y="225" text-anchor="middle" class="tb" style="font-size:12px">ADP-ribosylation of EF-2</text>
+<path d="M525 236V246" class="ln" marker-end="url(#ab-a)"/>
+<rect x="420" y="248" width="210" height="32" rx="8" class="br"/>
+<text x="525" y="269" text-anchor="middle" class="tb" style="font-size:12px">蛋白質合成停止 → 細胞死亡</text>
+<g class="hot" data-tip="<b>EF-2 ADP-ribosylation</b>：白喉毒素與 <b>Pseudomonas exotoxin A</b> 機轉相同。⚠️ Shiga toxin 是切 <b>60S rRNA</b>，不是 EF-2。" data-label="EF-2"><text x="644" y="205" class="ts tr">同 Pseudomonas</text><text x="644" y="221" class="ts tr">exotoxin A</text></g>
+<text x="414" y="300" class="ts">只有被 β-phage 溶原化的菌株才產毒</text>
+<text x="414" y="318" class="ts">灰色偽膜、心肌炎；先給 antitoxin 再抗生素；Elek test</text>
+</svg>

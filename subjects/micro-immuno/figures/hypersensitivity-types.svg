@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 356" role="img" aria-label="四型過敏反應：第一型由 IgE 與 mast cell 介導、幾分鐘內發生；第二型是 IgG 或 IgM 對細胞表面抗原造成細胞破壞；第三型是免疫複合物沉積引起補體活化；第四型是 T 細胞與 macrophage 介導的遲發型反應，24 到 72 小時。">
+
+<text x="10" y="20" class="th">四型過敏 · 前三型靠抗體，第四型靠 T 細胞</text>
+<rect x="10" y="32" width="182" height="296" rx="12" class="bp"/>
+<g class="hot" data-tip="<b>Type I</b>：TH2（IL-4、<b>IL-5</b>、IL-13）→ B 細胞 class switch 成 <b>IgE</b> → 黏在 mast cell 的 FcεRI；再次接觸過敏原交聯 → 去顆粒。氣喘 → IL-5 + IgE（考古）。" data-label="Type I"><rect x="20" y="42" width="162" height="50" rx="9" class="bv"/><text x="32" y="64" class="tb" style="font-size:15px">Type I</text><text x="32" y="82" class="ts">立即型 Immediate</text></g>
+<text x="22" y="114" class="tb" style="font-size:12px">IgE · mast cell</text>
+<text x="22" y="138" class="ts">過敏原交聯 FcεRI 上的 IgE</text>
+<text x="22" y="156" class="ts">→ 去顆粒：histamine、</text>
+<text x="22" y="174" class="ts">　leukotriene、PG</text>
+<text x="22" y="192" class="ts">→ 支氣管收縮、血管舒張</text>
+<text x="22" y="232" class="th">多久出現</text>
+<text x="22" y="250" style="font-size:12px">幾分鐘</text>
+<text x="22" y="278" class="th">例子</text>
+<text x="22" y="296"></text>
+<text x="22" y="296"></text>
+<text x="22" y="296"></text>
+<text x="22" y="296" style="font-size:11.5px">過敏性鼻炎、氣喘</text>
+<text x="22" y="312" style="font-size:11.5px">anaphylaxis</text>
+<rect x="202" y="32" width="182" height="296" rx="12" class="bp"/>
+<g class="hot" data-tip="<b>Type II</b>：抗體直接結合<b>細胞或基質上的抗原</b>。新生兒溶血（Rh）：給 <b>Rh(−) 母親</b>打 anti-RhD 預防。Graves 是刺激型（抗 TSH receptor）。" data-label="Type II"><rect x="212" y="42" width="162" height="50" rx="9" class="bw"/><text x="224" y="64" class="tb" style="font-size:15px">Type II</text><text x="224" y="82" class="ts">抗體毒殺型</text></g>
+<text x="214" y="114" class="tb" style="font-size:12px">IgG／IgM 對細胞表面</text>
+<text x="214" y="138" class="ts">抗體黏在細胞表面抗原</text>
+<text x="214" y="156" class="ts">→ 補體、ADCC、調理</text>
+<text x="214" y="174" class="ts">→ 細胞被破壞</text>
+<text x="214" y="232" class="th">多久出現</text>
+<text x="214" y="250" style="font-size:12px">數小時</text>
+<text x="214" y="278" class="th">例子</text>
+<text x="214" y="296"></text>
+<text x="214" y="296"></text>
+<text x="214" y="296"></text>
+<text x="214" y="296" style="font-size:11.5px">輸血反應、新生兒溶血</text>
+<text x="214" y="312" style="font-size:11.5px">Graves</text>
+<rect x="394" y="32" width="182" height="296" rx="12" class="bp"/>
+<g class="hot" data-tip="<b>Type III</b>：<b>可溶性</b>抗原與抗體形成複合物，沉積在血管壁、腎絲球、關節。Arthus 是局部、serum sickness 是全身；持續性感染也會。" data-label="Type III"><rect x="404" y="42" width="162" height="50" rx="9" class="br"/><text x="416" y="64" class="tb" style="font-size:15px">Type III</text><text x="416" y="82" class="ts">免疫複合體型</text></g>
+<text x="406" y="114" class="tb" style="font-size:12px">Ag–Ab 複合物沉積</text>
+<text x="406" y="138" class="ts">可溶性抗原＋抗體</text>
+<text x="406" y="156" class="ts">→ 複合物沉積在血管、腎</text>
+<text x="406" y="174" class="ts">→ 補體活化 → 發炎</text>
+<text x="406" y="232" class="th">多久出現</text>
+<text x="406" y="250" style="font-size:12px">數小時–天</text>
+<text x="406" y="278" class="th">例子</text>
+<text x="406" y="296"></text>
+<text x="406" y="296"></text>
+<text x="406" y="296"></text>
+<text x="406" y="296"></text>
+<text x="406" y="296" style="font-size:11.5px">Arthus、serum sickness</text>
+<text x="406" y="312" style="font-size:11.5px">PSGN、SLE</text>
+<rect x="586" y="32" width="182" height="296" rx="12" class="bp"/>
+<g class="hot" data-tip="<b>Type IV</b>：<b>不靠抗體</b>。肉芽腫：清不掉的微生物被 <b>epithelioid cells</b>（活化的 macrophage）與多核巨細胞包圍。" data-label="Type IV"><rect x="596" y="42" width="162" height="50" rx="9" class="bg"/><text x="608" y="64" class="tb" style="font-size:15px">Type IV</text><text x="608" y="82" class="ts">遲發型 Delayed</text></g>
+<text x="598" y="114" class="tb" style="font-size:12px">TH1、CD8 T、macrophage</text>
+<text x="598" y="138" class="ts">致敏 T 細胞再遇抗原</text>
+<text x="598" y="156" class="ts">→ IFN-γ 活化 macrophage</text>
+<text x="598" y="174" class="ts">　或 CTL 直接毒殺</text>
+<text x="598" y="232" class="th">多久出現</text>
+<text x="598" y="250" style="font-size:12px">24–72 小時</text>
+<text x="598" y="278" class="th">例子</text>
+<text x="598" y="296"></text>
+<text x="598" y="296"></text>
+<text x="598" y="296"></text>
+<text x="598" y="296" style="font-size:11.5px">結核菌素試驗、接觸性皮膚炎</text>
+<text x="598" y="312" style="font-size:11.5px">肉芽腫</text>
+<text x="10" y="346" class="ts">記法 ACID：Anaphylactic、Cytotoxic、Immune complex、Delayed</text>
+</svg>

@@ -27,6 +27,10 @@
 
 - 濕熱注意：蒸氣要接觸物品表面、物品不怕熱/濕、**不能有空氣**；液體瓶要鬆蓋、冷到 80°C 再開。
 
+<div data-fig="slide-control-methods"></div>
+
+<div data-fig="slide-autoclave"></div>
+
 ## 3. 化學方法
 - **Alkylating**：**Ethylene oxide（ETO）**（>10.8°C 為氣體、易爆 → 用 CO₂/N₂ 稀釋、低溫、可大量、需通氣時間）、**Aldehydes**（glutaraldehyde / formaldehyde，**cold sterilization**）。
 - **Oxidizing**：O₃、**peracetic acid（產物無毒）**、**H₂O₂（10–25%、55–60°C）**、**Plasma gas**（ionized H₂O₂ / peracetic acid；取代 ETO；**塑膠植入物、隱形眼鏡、人工裝置**；貴）。
@@ -39,6 +43,10 @@
 | High | G+、G−、**spores**、**M. tuberculosis** |
 | Intermediate | **M. tuberculosis**、多數病毒與真菌，少數孢子 |
 | Low | 多數細菌與真菌，**不能殺 MTB 與孢子** |
+
+<div data-fig="resistance-ladder"></div>
+
+<div data-fig="slide-disinfectant-levels"></div>
 
 ## 5. 常用消毒 / 防腐劑
 - **Alcohol（70%，intermediate）**：溶解膜脂、凝固蛋白；**70% 比 95% 有效**；揮發快無殘留、易燃、被有機物失活。

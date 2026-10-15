@@ -1055,8 +1055,7 @@
           <div class="hero-actions">
             ${
               last
-                ? `<a class="btn primary lg" href="${hasPractice ? `#/s/${last.meta.id}/practice` : "#/practice"}">${ic("pen")}${hasPractice ? "繼續練習" : "開始練習"}</a>
-            <a class="btn lg" href="#/s/${last.meta.id}">${ic("book")}${esc(last.meta.short || last.meta.title)}總覽</a>`
+                ? `<a class="btn primary lg" href="${hasPractice ? `#/s/${last.meta.id}/practice` : "#/practice"}">${ic("pen")}${hasPractice ? "繼續練習" : "開始練習"}</a>`
                 : ""
             }
           </div>

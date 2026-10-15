@@ -24,6 +24,8 @@
 - 治療：**ciprofloxacin / doxycycline** + 1–2 種抗生素；皮膚型可口服 amoxicillin；暴露後預防 60 天；**不可切開皮膚病灶**（會散播）。
 - 疫苗：失活 PA，18 個月 6 劑。
 
+<div data-fig="ab-toxins"></div>
+
 ## 2. *Bacillus cereus*
 - G(+)、產孢子、**有鞭毛會動**、土壤無所不在。
 - **炒飯症候群**：
@@ -33,6 +35,8 @@
   | 潛伏 | **<6 h**（約 2 h） | >6 h（6–9 h） |
   | 毒素 | **heat-stable、proteolysis-resistant** | **heat-labile**（↑cAMP / 孔洞） |
 - 眼部感染（土壤污染異物）、**產莢膜菌株 → 嚴重肺炎**、導管感染。
+
+<div data-fig="slide-cereus-forms"></div>
 
 ## 3. *Listeria monocytogenes* ⭐
 - G(+) 短桿菌、**不產孢子**、兼性厭氧、**weak β-hemolysis**、**CAMP (+)（with S. aureus）**。
@@ -46,6 +50,8 @@
 - 感染：孕婦（**經胎盤** → 流產、新生兒敗血症 / 腦膜炎）、免疫低下（腦膜炎）；人畜共通、獸醫重要病原。
 - 治療：**ampicillin / penicillin + gentamicin**；無疫苗。
 
+<div data-fig="slide-listeria-cycle"></div>
+
 ## 4. *Corynebacterium diphtheriae* ⭐
 - G(+)、不產孢子、**club-shaped（棒狀、不規則）**；**人類唯一宿主**（非人畜共通）；飛沫。
 - **只有被帶 *tox* gene 的 β-phage 溶原化的菌株才產毒**。
@@ -54,6 +60,8 @@
 - 診斷：**Elek test（immunodiffusion，偵測毒素是否產生）**、PCR；Schick test（測抗體，已淘汰）；tellurite agar。
 - 治療：**先給 antitoxin，再給抗生素**（penicillin、erythromycin）。
 - 預防：**DPT（Diphtheria、Pertussis、Tetanus）**，出生 2 個月開始；toxoid。
+
+<div data-fig="slide-ab-toxin-table"></div>
 
 ## 5. *Erysipelothrix rhusiopathiae*（老師說不考）
 - G(+)、不產孢子、microaerophilic、人畜共通（豬）；類丹毒 erysipeloid。

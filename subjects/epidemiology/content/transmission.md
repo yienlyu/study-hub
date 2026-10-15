@@ -22,6 +22,8 @@
 - **宿主（host）**、**病原（agent）**、**環境（environment）**，再加上**媒介（vector）**。
 - 幾乎所有疾病都是遺傳與環境因素交互作用的結果，只是比例不同。
 
+<div data-fig="slide-triad"></div>
+
 ## 4. 病原的三個重要特性 ⭐⭐⭐（公式要記）
 | 特性 | 定義 | 公式（×100） |
 |---|---|---|
@@ -30,6 +32,10 @@
 | **毒性 Virulence**（**致死率 case fatality**） | 造成**死亡**的能力 | 死亡人數 ÷ **有疾病**人數 |
 
 > 分母依序往下一層：易感受者 → 感染者 → 發病者。**受到感染不一定會發病。**
+
+<div data-fig="infectivity"></div>
+
+<div data-fig="slide-infection-classes"></div>
 
 ## 5. 傳播途徑（Modes of transmission）⭐⭐
 - **直接傳播**：人對人接觸、飛沫（打噴嚏的飛沫散布）。
@@ -51,11 +57,15 @@
   - **Latent**：病毒核酸整合進細胞核，**沒有活躍複製**。
 - **Carrier（帶原者）**：身上帶有病原但沒有發病，仍可傳染給別人；可短期也可長期。例：**Typhoid Mary**（帶 *Salmonella typhi*，至少 10 次傷寒爆發、51 例、3 死，1938 年過世）。
 
+<div data-fig="slide-iceberg"></div>
+
 ## 7. Endemic／Epidemic／Pandemic ⭐⭐⭐
 - **Endemic（地方性）**：疾病在某地區**常態性存在**。
 - **Epidemic（流行）**：社區中同類疾病**明顯超過正常預期（normal expectancy）**，來自共同或連鎖來源。
 - **Pandemic（大流行）**：**全球性**的 epidemic。
 - 老師的例子：COVID 一開始在武漢是 endemic → epidemic → pandemic。**登革熱在台灣北部發生 = epidemic，在南部 = endemic**；台灣出現**本土瘧疾**就算 epidemic（台灣已根除瘧疾，平常的預期是 0）。
+
+<div data-fig="slide-endemic-epidemic"></div>
 
 ## 8. 流行曲線（Epidemic curve）⭐⭐⭐
 - 例子：**1952 年倫敦霧霾**（死亡數隨 SO₂ 濃度上升）。
@@ -65,6 +75,14 @@
   - **Point source（點源）**：暴露期很短，**所有病例都落在一個潛伏期內**；曲線**快速上升、緩慢下降**。
   - **Propagated（連鎖感染）**：人傳人，持續時間比 common source 長，可能有**多波**，每一波間隔一個潛伏期，高峰逐漸升高。
 - 例子：**SARS 香港 2003（淘大花園）**；郵輪上的**諾羅病毒**急性腸胃炎（單次暴露、共同媒介）。
+
+<div data-fig="slide-point-source"></div>
+
+<div data-fig="slide-propagated"></div>
+
+<div data-fig="slide-cruise"></div>
+
+<div data-fig="slide-sars-hk"></div>
 
 ## 9. 爆發的三大決定因素 ⭐⭐⭐（老師：「這要記一下」）
 **集體免疫力（herd immunity）、潛伏期（incubation period）、侵襲率（attack rate）**
@@ -82,16 +100,24 @@
 - **群體免疫閾值 HIT = 1 − 1/R0**：R0 = 2 → 50%；麻疹 R0 12–18 → 92–94%；COVID Delta R0 5.1 → 約 80%；流感 R0 1.3 → 23%。
 - 例：美國 1958–61 年小兒麻痺疫苗的**實際**麻痺病例比**預期**少（herd immunity 的效果）。
 
+<div data-fig="herd-threshold"></div>
+
+<div data-fig="slide-herd-polio"></div>
+
 ### 9-2 潛伏期（Incubation period）
 - 定義：從**受到感染**到**出現臨床症狀**的時間，期間完全沒有症狀。
 - 影響潛伏期的因素：病原**複製**到足夠數量所需的時間、病原在體內**複製的部位**、感染時的**劑量**。
 - 可以從流行曲線讀出潛伏期：例如 1986 年 Wales 醫學會議的 *Salmonella typhimurium* 爆發，潛伏期高峰約在第 16 小時。
+
+<div data-fig="slide-incubation"></div>
 
 ### 9-3 侵襲率（Attack rate）
 - **Attack rate** = 有風險且發病的人數 ÷ **有風險的總人數**。
 - **Food-specific attack rate** = 吃某食物且生病的人數 ÷ 吃該食物的總人數。
 - **Secondary attack rate**：易感受者接觸 primary case 後的侵襲率，**分子、分母都要扣掉 primary cases**。
 - 找出可疑食物：比較「有吃」與「沒吃」的侵襲率，**差距最大**的就是嫌疑食物。老師的例子：蛋沙拉三明治與飲料交叉分析，有吃蛋沙拉的侵襲率 75–80%，沒吃的只有 20 多% → **蛋沙拉**才是元兇。
+
+<div data-fig="slide-food-attack"></div>
 
 ## 10. Who／When／Where ⭐
 - **Who**：性別、年齡、種族，例如美國**淋病**（依性別的趨勢）；**百日咳**以**小於 1 歲**嬰兒最多。
@@ -145,3 +171,7 @@
 ## 🎙️ 老師課堂提示
 - 「爆發的三大決定因素這要記一下」：herd immunity、incubation period、attack rate。
 - 中國 SARS 致死率的數據「看看就好」。
+
+## 📚 考古題（109／110／114 期中，共 19 題：114 7 題、110 8 題、109 4 題）
+- 最常考：流行曲線（5）、Herd immunity（4）、潛伏期（2）、Attack rate（2）、Endemic／Epidemic／Pandemic（2）、傳染病流病特色（1）。
+- 練習區可以只選「考古」來源練習。

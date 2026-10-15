@@ -24,6 +24,10 @@
 - **LPS / endotoxin**：Lipid A → 發燒、休克、**DIC**；只有 LPS 叫 endotoxin。
 - Capsule（抗吞噬、全身跑透透）、antigenic phase variation、exotoxins、**Type III secretion system**、抗藥性質體（sex pili 傳遞）。
 
+<div data-fig="slide-entero-antigens"></div>
+
+<div data-fig="slide-lps-effects"></div>
+
 ## 4. 致病性 *E. coli* ⭐⭐⭐
 | 型 | 疾病 | 黏附 | 毒素 / 機制 | 關鍵字 |
 |---|---|---|---|---|
@@ -41,6 +45,10 @@
 - 不同腹瀉型態主要取決於**毒力因子**。
 - ↑cAMP 的毒素：**ETEC LT、cholera toxin、B. anthracis edema toxin、B. cereus 腹瀉型、pertussis toxin**；**Shiga toxin 不同（抑制蛋白合成）**。
 
+<div data-fig="slide-epec-pedestal"></div>
+
+<div data-fig="slide-ecoli-virulence"></div>
+
 ## 5. *Salmonella*
 - 有 **peritrichous flagella**（與 *Shigella* 區別）、>2500 血清型；命名 *S. enterica* serotype Typhi → *S.* Typhi。
 - **感染劑量高：~10⁵ CFU**（*Shigella* 只要 10–100）。
@@ -52,6 +60,8 @@
 - **無鞭毛**、乳糖 (−)、H₂S (−)；**10–100 CFU 即致病**；**人唯一宿主、人傳人**（糞口、污染水）。
 - 四群：A *S. dysenteriae*（**Shiga toxin**，最嚴重 → HUS）、B *flexneri*、C *boydii*、D *sonnei*。
 - **高度侵襲結腸上皮**（M cell → 細胞間擴散）→ 痢疾：少量、帶血、黏液、白血球的糞便，**tenesmus**；誘導 macrophage 凋亡。
+
+<div data-fig="slide-shiga-toxin"></div>
 
 ## 7. *Yersinia*
 - **Y. pestis → 鼠疫（plague）**：鼠 → **跳蚤叮咬**；F1 capsule（抗吞噬）、Pla protease（分解 C3b、C5a）；Yops（T3SS）。

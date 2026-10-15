@@ -294,6 +294,221 @@
   "caption": "PAH（BH₄）缺 → <strong>PKU</strong>；tyrosinase 缺 → <strong>albinism</strong>；homogentisate dioxygenase 缺 → <strong>alkaptonuria</strong>。"
  },
  {
+  "id": "slide-ch18-catabolism",
+  "chapter": "ch18",
+  "title": "胺基酸分解總覽",
+  "topics": [
+   "蛋白質消化與泛素",
+   "胺基的去除"
+  ],
+  "keywords": "amino acid catabolism amino group carbon skeleton urea cycle citric acid cycle aspartate-argininosuccinate shunt",
+  "caption": "胺基酸拆成兩半：<strong>胺基</strong> → NH₄⁺ → 尿素循環；<strong>碳骨架</strong> → α-酮酸 → TCA、糖質新生或酮體。",
+  "type": "slide",
+  "src": "figures/slides/ch18-catabolism.webp",
+  "deck": "Ch18-1 Amino acid oxidation（Ch23-2 後半）",
+  "page": "46",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-ch18-transamination",
+  "chapter": "ch18",
+  "title": "轉胺作用：胺基交給 α-ketoglutarate",
+  "topics": [
+   "胺基的去除"
+  ],
+  "keywords": "aminotransferase transaminase PLP alpha-ketoglutarate glutamate ALT AST GPT GOT",
+  "caption": "所有 aminotransferase 都用 <strong>PLP</strong>、都把胺基交給 <strong>α-KG → glutamate</strong>。ALT（GPT）、AST（GOT）是肝、心受損的指標。",
+  "type": "slide",
+  "src": "figures/slides/ch18-transamination.webp",
+  "deck": "Ch18-1 Amino acid oxidation（Ch23-2 後半）",
+  "page": "48",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-ch18-gdh",
+  "chapter": "ch18",
+  "title": "Glutamate dehydrogenase：在肝臟放出 NH₄⁺",
+  "topics": [
+   "胺基的去除"
+  ],
+  "keywords": "glutamate dehydrogenase oxidative deamination NAD NADP mitochondria transdeamination hyperinsulinism hyperammonemia",
+  "caption": "肝粒線體的 <strong>GDH</strong> 把 glutamate 氧化脫胺成 α-KG + NH₄⁺（可用 NAD⁺ 或 NADP⁺）；轉胺＋GDH = <strong>transdeamination</strong>。GDH 持續活化 → 高胰島素高血氨症候群。",
+  "type": "slide",
+  "src": "figures/slides/ch18-gdh.webp",
+  "deck": "Ch18-1 Amino acid oxidation（Ch23-2 後半）",
+  "page": "63",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-ch18-glutamine",
+  "chapter": "ch18",
+  "title": "Glutamine 把氨運到肝",
+  "topics": [
+   "氨的運輸"
+  ],
+  "keywords": "glutamine synthetase glutaminase ammonia transport liver kidney",
+  "caption": "多數組織用 <strong>glutamine synthetase</strong>（耗 ATP）把有毒的 NH₄⁺ 裝進 glutamine；到了肝粒線體由 <strong>glutaminase</strong> 放出來進尿素循環。",
+  "type": "slide",
+  "src": "figures/slides/ch18-glutamine.webp",
+  "deck": "Ch18-1 Amino acid oxidation（Ch23-2 後半）",
+  "page": "57",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-ch18-glucose-alanine",
+  "chapter": "ch18",
+  "title": "Glucose-alanine cycle：肌肉的氨用 alanine 運",
+  "topics": [
+   "氨的運輸"
+  ],
+  "keywords": "glucose alanine cycle muscle pyruvate ALT liver gluconeogenesis",
+  "caption": "肌肉把胺基轉給 <strong>pyruvate → alanine</strong> 送到肝；肝再轉回 pyruvate 做糖質新生，葡萄糖送回肌肉（和 Cori cycle 對照）。",
+  "type": "slide",
+  "src": "figures/slides/ch18-glucose-alanine.webp",
+  "deck": "Ch18-1 Amino acid oxidation（Ch23-2 後半）",
+  "page": "60",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-ch18-bicycle",
+  "chapter": "ch18",
+  "title": "尿素循環與 TCA 的「Krebs bicycle」",
+  "topics": [
+   "尿素循環"
+  ],
+  "keywords": "aspartate argininosuccinate shunt fumarate malate oxaloacetate urea cycle citric acid cycle linked 3 ATP",
+  "caption": "尿素循環放出的 <strong>fumarate</strong> → malate → OAA → 轉胺成 <strong>aspartate</strong> 再送回尿素循環。做一個尿素用 3 ATP（4 個高能鍵）。",
+  "type": "slide",
+  "src": "figures/slides/ch18-bicycle.webp",
+  "deck": "Ch18-1 Amino acid oxidation（Ch23-2 後半）",
+  "page": "75",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-ch18-carbon-fates",
+  "chapter": "ch18",
+  "title": "碳骨架的七個去向：生醣 vs 生酮",
+  "topics": [
+   "碳骨架的去向"
+  ],
+  "keywords": "glucogenic ketogenic amino acids pyruvate oxaloacetate alpha-ketoglutarate succinyl-CoA fumarate acetyl-CoA acetoacetyl-CoA",
+  "caption": "進 pyruvate、α-KG、succinyl-CoA、fumarate、OAA → <strong>生醣</strong>；進 acetyl-CoA、acetoacetyl-CoA → <strong>生酮</strong>。⚠️ 圖中「Ketogenic (only)」框列了 Phe、Trp、Tyr，但<strong>純生酮只有 Leu、Lys</strong>，其餘是兩者皆是。",
+  "type": "slide",
+  "src": "figures/slides/ch18-carbon-fates.webp",
+  "deck": "Ch18-2 Amino acid catabolism",
+  "page": "30",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-ch18-thf",
+  "chapter": "ch18",
+  "title": "四氫葉酸攜帶的一碳單位",
+  "topics": [
+   "一碳單位與輔酶"
+  ],
+  "keywords": "tetrahydrofolate THF one carbon methyl methylene formyl serine hydroxymethyltransferase",
+  "caption": "THF 依氧化程度攜帶 –CH₃（最還原）、–CH₂–、–CHO（最氧化）等一碳單位；serine → glycine 是主要來源，用在 purine 與 thymidylate 合成。",
+  "type": "slide",
+  "src": "figures/slides/ch18-thf.webp",
+  "deck": "Ch18-2 Amino acid catabolism",
+  "page": "13",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-ch18-methyl-cycle",
+  "chapter": "ch18",
+  "title": "甲基循環：SAM 與 homocysteine",
+  "topics": [
+   "一碳單位與輔酶"
+  ],
+  "keywords": "SAM S-adenosylmethionine SAH homocysteine methionine B12 betaine choline methylation",
+  "caption": "Methionine → <strong>SAM</strong>（萬用甲基供體）→ SAH → <strong>homocysteine</strong> → 用 N⁵-methyl-THF 與 <strong>B₁₂</strong>（或 betaine）甲基化回 methionine。",
+  "type": "slide",
+  "src": "figures/slides/ch18-methyl-cycle.webp",
+  "deck": "Ch18-2 Amino acid catabolism",
+  "page": "20",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-ch18-heme-synthesis",
+  "chapter": "ch18",
+  "title": "Heme 合成：粒線體 → 細胞質 → 粒線體",
+  "topics": [
+   "Heme 代謝"
+  ],
+  "keywords": "heme synthesis delta-aminolevulinic acid synthase ALA PLP succinyl-CoA glycine porphobilinogen protoporphyrin ferrochelatase",
+  "caption": "Succinyl-CoA + glycine →（<strong>ALA synthase，PLP，限速、被 heme 回饋抑制</strong>）→ ALA → 細胞質 PBG → … → 回粒線體，ferrochelatase 放進 Fe²⁺。",
+  "type": "slide",
+  "src": "figures/slides/ch18-heme-synthesis.webp",
+  "deck": "Ch18-3、Ch22 Nitrogenous compounds",
+  "page": "69",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-ch18-porphyrias",
+  "chapter": "ch18",
+  "title": "各步驟酵素缺陷對應的紫質症",
+  "topics": [
+   "Heme 代謝"
+  ],
+  "keywords": "porphyria acute intermittent porphyria porphyria cutanea tarda erythropoietic protoporphyria",
+  "caption": "Heme 合成路徑每一步缺一個酵素就是一種紫質症；最常考 <strong>acute intermittent porphyria</strong>（PBG deaminase）與 <strong>porphyria cutanea tarda</strong>（uroporphyrinogen decarboxylase）。",
+  "type": "slide",
+  "src": "figures/slides/ch18-porphyrias.webp",
+  "deck": "Ch18-3、Ch22 Nitrogenous compounds",
+  "page": "71",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-ch18-heme-degradation",
+  "chapter": "ch18",
+  "title": "Heme 分解：biliverdin → bilirubin",
+  "topics": [
+   "Heme 代謝"
+  ],
+  "keywords": "heme oxygenase biliverdin reductase unconjugated bilirubin conjugated UDP glucuronyltransferase CO",
+  "caption": "巨噬細胞：<strong>heme oxygenase</strong>（放出 CO、Fe²⁺）→ biliverdin（綠）→ biliverdin reductase → <strong>未結合 bilirubin</strong>（接 albumin）→ 肝臟 UDP-glucuronyltransferase → 結合型 bilirubin。",
+  "type": "slide",
+  "src": "figures/slides/ch18-heme-degradation.webp",
+  "deck": "Ch18-3、Ch22 Nitrogenous compounds",
+  "page": "73",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "ring-sources",
+  "chapter": "ch22",
+  "title": "Purine 與 pyrimidine 環的原子來源",
+  "topics": [
+   "Purine de novo 合成",
+   "Pyrimidine de novo 合成"
+  ],
+  "keywords": "purine ring glycine glutamine aspartate formyl THF CO2 pyrimidine carbamoyl phosphate CPS II IMP UMP PRPP",
+  "caption": "Purine：<strong>glycine（C4、C5、N7）</strong>、glutamine（N3、N9）、aspartate（N1）、formyl-THF（C2、C8）、CO₂（C6），在 PRPP 上蓋出 <strong>IMP</strong>；pyrimidine 先做環（carbamoyl phosphate＋aspartate）再接 PRPP → <strong>UMP</strong>。"
+ },
+ {
+  "id": "purine-degradation",
+  "chapter": "ch22",
+  "title": "Purine 分解、回收與相關疾病",
+  "topics": [
+   "核苷酸分解與痛風",
+   "Salvage pathway 與相關疾病"
+  ],
+  "keywords": "xanthine oxidase allopurinol uric acid gout adenosine deaminase ADA SCID HGPRT Lesch-Nyhan salvage PRPP",
+  "caption": "Hypoxanthine → xanthine → <strong>尿酸</strong>（xanthine oxidase，allopurinol 抑制）；<strong>HGPRT</strong> 回收 hypoxanthine、guanine（缺 → Lesch-Nyhan）；<strong>ADA</strong> 缺 → SCID。"
+ },
+ {
   "id": "dtmp-cycle",
   "chapter": "ch22",
   "title": "dTMP 合成與抗代謝藥",

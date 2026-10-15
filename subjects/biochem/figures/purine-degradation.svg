@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 432" role="img" aria-label="Purine 分解與回收：AMP 經 AMP deaminase 成 IMP，adenosine 經 ADA 成 inosine，再成 hypoxanthine；guanosine 成 guanine 再經 guanine deaminase 成 xanthine；hypoxanthine 與 xanthine 經 xanthine oxidase 成尿酸，allopurinol 抑制 xanthine oxidase。HGPRT 用 PRPP 把 hypoxanthine 與 guanine 回收成 IMP 與 GMP，完全缺乏為 Lesch-Nyhan；ADA 缺乏造成 SCID。">
+<defs><marker id="pd-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="pd-g" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker><marker id="pd-r" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker></defs>
+<text x="10" y="20" class="th">Purine 分解到尿酸 · 綠色虛線是回收（salvage）</text>
+<rect x="20" y="40" width="90" height="30" rx="8" class="bx"/>
+<text x="65.0" y="60" text-anchor="middle" class="tb" style="font-size:12px">AMP</text>
+<rect x="20" y="120" width="90" height="30" rx="8" class="bx"/>
+<text x="65.0" y="140" text-anchor="middle" class="tb" style="font-size:12px">IMP</text>
+<rect x="20" y="210" width="90" height="30" rx="8" class="bx"/>
+<text x="65.0" y="230" text-anchor="middle" class="tb" style="font-size:12px">GMP</text>
+<rect x="170" y="40" width="110" height="30" rx="8" class="bx"/>
+<text x="225.0" y="60" text-anchor="middle" class="tb" style="font-size:12px">adenosine</text>
+<rect x="170" y="120" width="110" height="30" rx="8" class="bx"/>
+<text x="225.0" y="140" text-anchor="middle" class="tb" style="font-size:12px">inosine</text>
+<rect x="170" y="210" width="110" height="30" rx="8" class="bx"/>
+<text x="225.0" y="230" text-anchor="middle" class="tb" style="font-size:12px">guanosine</text>
+<rect x="340" y="120" width="120" height="30" rx="8" class="bw"/>
+<text x="400.0" y="140" text-anchor="middle" class="tb" style="font-size:12px">hypoxanthine</text>
+<rect x="340" y="210" width="120" height="30" rx="8" class="bx"/>
+<text x="400.0" y="230" text-anchor="middle" class="tb" style="font-size:12px">guanine</text>
+<rect x="520" y="165" width="100" height="30" rx="8" class="bw"/>
+<text x="570.0" y="185" text-anchor="middle" class="tb" style="font-size:12px">xanthine</text>
+<rect x="670" y="165" width="100" height="30" rx="8" class="br"/>
+<text x="720.0" y="185" text-anchor="middle" class="tb" style="font-size:12px">尿酸</text>
+<path d="M65 70V118" class="ln" marker-end="url(#pd-a)"/>
+<text x="72" y="98" class="ts">AMP deaminase</text>
+<path d="M110 55H168" class="ln" marker-end="url(#pd-a)"/>
+<path d="M110 135H168" class="ln" marker-end="url(#pd-a)"/>
+<path d="M110 225H168" class="ln" marker-end="url(#pd-a)"/>
+<g class="hot" data-tip="<b>ADA（adenosine deaminase）</b>：adenosine → inosine。<b>ADA 缺乏</b> → dATP 堆積 → 抑制 ribonucleotide reductase → 淋巴球做不出 DNA → <b>SCID</b>。不會造成痛風。" data-label="ADA"><path d="M225 70V118" class="lr" style="stroke-width:2.2" marker-end="url(#pd-r)"/><text x="232" y="98" class="tb tr" style="font-size:12px">ADA</text></g>
+<text x="234" y="112" class="ts tr">缺 → SCID</text>
+<path d="M280 135H338" class="ln" marker-end="url(#pd-a)"/>
+<path d="M280 225H338" class="ln" marker-end="url(#pd-a)"/>
+<path d="M460 135Q500 135 520 168" class="ln" marker-end="url(#pd-a)"/>
+<path d="M460 225Q500 225 520 192" class="ln" marker-end="url(#pd-a)"/>
+<text x="470" y="250" class="ts">guanine deaminase</text>
+<g class="hot" data-tip="<b>Xanthine oxidase（dehydrogenase）</b>：hypoxanthine → xanthine → uric acid，兩步都是它。<b>Allopurinol 是 hypoxanthine 類似物</b>，抑制 xanthine oxidase → 尿酸↓（治療痛風）。" data-label="Xanthine oxidase"><path d="M620 180H668" class="lr" style="stroke-width:2.2" marker-end="url(#pd-r)"/><text x="644" y="150" text-anchor="middle" class="tb tr" style="font-size:12px">XO</text></g>
+<text x="480" y="116" class="tb tr" style="font-size:12px">XO</text>
+<rect x="560" y="82" width="210" height="44" rx="9" class="br"/>
+<text x="572" y="100" class="tb tr" style="font-size:12px">Allopurinol 抑制 XO</text>
+<text x="572" y="117" class="ts">（hypoxanthine 類似物）</text>
+<g class="hot" data-tip="<b>HGPRT</b>：hypoxanthine → IMP、guanine → GMP（+ PRPP）。<b>完全缺乏 = Lesch-Nyhan</b>（X-linked recessive）：尿酸大量堆積、自殘行為；部分缺乏 → 痛風。" data-label="HGPRT"><path d="M400 150V168Q400 176 390 176H66V152" class="lg dash" marker-end="url(#pd-g)"/><path d="M400 240V286Q400 294 390 294H66V242" class="lg dash" marker-end="url(#pd-g)"/><text x="230" y="190" text-anchor="middle" class="tb" style="font-size:12px;fill:var(--good)">HGPRT ＋ PRPP</text><text x="230" y="310" text-anchor="middle" class="tb" style="font-size:12px;fill:var(--good)">HGPRT ＋ PRPP</text></g>
+<text x="230" y="204" text-anchor="middle" class="ts" style="fill:var(--good)">缺 → Lesch-Nyhan</text>
+<rect x="20" y="330" width="360" height="92" rx="10" class="bp"/>
+<text x="32" y="352" class="th">痛風（gout）的原因</text>
+<text x="32" y="372" style="font-size:12px">PRPP synthetase 活性過高 → 合成太多</text>
+<text x="32" y="390" style="font-size:12px">HGPRT 部分缺乏 → 回收不了只好分解</text>
+<text x="32" y="408" style="font-size:12px">G6Pase 缺乏（von Gierke）、排泄不足</text>
+<rect x="400" y="330" width="370" height="92" rx="10" class="bp"/>
+<text x="412" y="352" class="th">Pyrimidine 的分解</text>
+<text x="412" y="372" style="font-size:12px">C、U → β-alanine；T → β-aminoisobutyrate</text>
+<text x="412" y="390" style="font-size:12px">最後 NH₄⁺、CO₂（可溶，不會堆積）</text>
+<text x="412" y="408" class="ts">人類 purine 終產物是尿酸（不再分解）</text>
+</svg>

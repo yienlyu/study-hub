@@ -3,11 +3,12 @@
   "title": "微生物與免疫學",
   "short": "微免",
   "term": "114-1 期中考",
-  "description": "細菌學總論、免疫學基礎、各論細菌與真菌。整合 2026 上課 slides、113 共筆與 113/111 考古。",
+  "description": "細菌學總論、免疫學基礎、各論細菌與真菌。整合 2026 上課 slides、113 共筆、113／111 考古與 114 期中記題。",
   "color": "#2f7d6d",
   "icon": "🦠",
   "questionFiles": [
     "data/questions-kaogu.json",
+    "data/questions-k114.json",
     "data/questions-new.json",
     "data/questions-class.json"
   ],
@@ -195,6 +196,10 @@
   "sheet": "content/_sheet.md",
   "insights": [
     [
+      "114 期中考古（去年期中考記題）。",
+      "學長姐考後記下約 90 題，練習區收錄其中選項完整、答案明確的 49 題（記題沒有附答案，網站依課本判斷）。去年範圍到真菌與部分病毒學（病毒題未收錄，原檔在 slides/micro-immuno/共筆考古/）。"
+    ],
+    [
       "同一概念換句話重複出。",
       "補體 C3 convertase、MAC、TLR4–LPS、IgA／IgE 情境在同一份考古中出現 5–10 次，熟一題等於拿下一整組。"
     ],
@@ -214,5 +219,37 @@
       "真菌章約有 10 題看圖題。",
       "孢子型態、皮癬菌大孢子需要搭配課本圖譜複習。"
     ]
+  ],
+  "sources": [
+    {
+      "key": "k113",
+      "label": "113 考古",
+      "kind": "exam",
+      "pill": "violet"
+    },
+    {
+      "key": "k114",
+      "label": "114 期中考古",
+      "kind": "exam",
+      "pill": "line"
+    },
+    {
+      "key": "k111",
+      "label": "111 期中考古",
+      "kind": "exam",
+      "pill": "line"
+    },
+    {
+      "key": "class",
+      "label": "2026 課堂題",
+      "kind": "class",
+      "pill": "warn"
+    },
+    {
+      "key": "new",
+      "label": "模擬新題",
+      "kind": "new",
+      "pill": "good"
+    }
   ]
 }

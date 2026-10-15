@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 312" role="img" aria-label="病原三特性的分母一層一層往下：感染力是感染者除以暴露的易感受者；致病力是發病者除以感染者；毒性即致死率，是死亡除以發病者。">
+
+<text x="10" y="20" class="th">分母一層一層往下：易感受者 → 感染者 → 發病者</text>
+<rect x="20" y="36" width="740" height="250" rx="14" class="bp"/>
+<text x="34" y="58" class="tb" style="font-size:12px">暴露的易感受者</text>
+<rect x="150" y="70" width="600" height="206" rx="14" class="bw"/>
+<text x="164" y="92" class="tb" style="font-size:12px">感染者（含不顯性感染）</text>
+<rect x="300" y="104" width="440" height="162" rx="14" class="bv"/>
+<text x="314" y="126" class="tb" style="font-size:12px">臨床病例（發病）</text>
+<rect x="470" y="140" width="260" height="116" rx="14" class="br"/>
+<text x="484" y="162" class="tb" style="font-size:12px">重症／死亡</text>
+<g class="hot" data-tip="<b>感染力</b>：病原造成<b>感染</b>的能力。麻疹、水痘感染力很高。" data-label="感染力 Infectivity"><text x="34" y="120" class="tb" style="font-size:12px">感染力 Infectivity</text></g>
+<text x="34" y="138" class="ts">感染 ÷ 易感受者</text>
+<g class="hot" data-tip="<b>致病力</b>：感染後造成<b>臨床疾病</b>的能力。小兒麻痺致病力很低（大多不顯性感染）；受到感染不一定會發病。" data-label="致病力 Pathogenicity"><text x="164" y="160" class="tb" style="font-size:12px">致病力 Pathogenicity</text></g>
+<text x="164" y="178" class="ts">發病 ÷ 感染</text>
+<g class="hot" data-tip="<b>毒性（致死率）</b>：發病者中死亡或重症的比例。狂犬病毒性極高。" data-label="毒性 Virulence"><text x="314" y="196" class="tb" style="font-size:12px">毒性 Virulence</text></g>
+<text x="314" y="214" class="ts">死亡 ÷ 發病（＝致死率）</text>
+<text x="484" y="196" class="ts">Class C：狂犬病</text>
+<text x="484" y="212" class="ts">幾乎都致死</text>
+<text x="20" y="300" class="ts">Gordis Fig 2-5：Class A 不顯性感染多（結核）；B 臨床病例多但死亡少（麻疹）；C 感染幾乎都致死（狂犬病）</text>
+</svg>

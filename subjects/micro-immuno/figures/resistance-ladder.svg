@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 330" role="img" aria-label="微生物對消毒劑的抵抗力由高到低：普利昂、細菌孢子、分枝桿菌、無套膜小病毒、真菌、一般細菌、有套膜病毒。滅菌與高等級消毒劑能殺孢子，中等級能殺結核菌，低等級不能殺結核菌與孢子。">
+
+<text x="10" y="20" class="th">越上面越難殺 · 消毒劑等級看能殺到哪一層</text>
+<g class="hot" data-tip="<b>Prion</b>：沒有核酸的錯誤摺疊蛋白，一般滅菌條件也殺不完；要延長高壓滅菌時間或用 NaOH、次氯酸鈉。" data-label="Prion（普利昂）"><rect x="20" y="36" width="520" height="34" rx="8" class="br"/><text x="34" y="58" class="tb" style="font-size:12px">Prion（普利昂）</text></g>
+<text x="234" y="58" class="ts">需特殊處理：高溫高壓延長、NaOH</text>
+<g class="hot" data-tip="<b>內孢子</b>：皮層含 dipicolinic acid 與 Ca²⁺、脫水 → 耐熱、耐化學。<b>能殺孢子 = 滅菌等級</b>（高壓蒸氣 121°C、ethylene oxide、glutaraldehyde 長時間）。" data-label="細菌孢子 Bacterial spores"><rect x="20" y="76" width="520" height="34" rx="8" class="br"/><text x="34" y="98" class="tb" style="font-size:12px">細菌孢子 Bacterial spores</text></g>
+<text x="234" y="98" class="ts">Bacillus、Clostridium</text>
+<g class="hot" data-tip="<b>結核菌</b>：細胞壁富含 mycolic acid（蠟質），對消毒劑抵抗力高；能殺 MTB 是<b>中等級</b>消毒劑的門檻。" data-label="分枝桿菌 Mycobacteria"><rect x="20" y="116" width="520" height="34" rx="8" class="bw"/><text x="34" y="138" class="tb" style="font-size:12px">分枝桿菌 Mycobacteria</text></g>
+<text x="234" y="138" class="ts">M. tuberculosis（蠟質細胞壁）</text>
+<g class="hot" data-tip="<b>無套膜（親水性）小病毒</b>：沒有脂質套膜，酒精、清潔劑效果差。" data-label="無套膜小病毒"><rect x="20" y="156" width="520" height="34" rx="8" class="bw"/><text x="34" y="178" class="tb" style="font-size:12px">無套膜小病毒</text></g>
+<text x="234" y="178" class="ts">polio、norovirus、HAV</text>
+<g class="hot" data-tip="真菌（含孢子）中等難度。" data-label="真菌 Fungi"><rect x="20" y="196" width="520" height="34" rx="8" class="bx"/><text x="34" y="218" class="tb" style="font-size:12px">真菌 Fungi</text></g>
+<g class="hot" data-tip="<b>繁殖體細菌</b>：低等級消毒劑就能殺。" data-label="一般細菌（繁殖體）"><rect x="20" y="236" width="520" height="34" rx="8" class="bx"/><text x="34" y="258" class="tb" style="font-size:12px">一般細菌（繁殖體）</text></g>
+<text x="234" y="258" class="ts">Staphylococcus、Pseudomonas…</text>
+<g class="hot" data-tip="<b>有套膜（脂質）病毒</b>：最好殺，酒精、肥皂、清潔劑就能破壞套膜。" data-label="有套膜病毒"><rect x="20" y="276" width="520" height="34" rx="8" class="bg"/><text x="34" y="298" class="tb" style="font-size:12px">有套膜病毒</text></g>
+<text x="234" y="298" class="ts">HIV、HBV、influenza、COVID-19</text>
+<path d="M560 80V306" class="lr" style="stroke-width:3"/>
+<path d="M560 80h8" class="lr" style="stroke-width:3"/>
+<text x="612" y="94" class="tb tr" style="font-size:11.5px">滅菌／高等級 ↓</text>
+<path d="M578 120V306" class="lv" style="stroke-width:3"/>
+<path d="M578 120h8" class="lv" style="stroke-width:3"/>
+<text x="612" y="134" class="tb tv" style="font-size:11.5px">中等級 ↓</text>
+<path d="M596 200V306" class="lg" style="stroke-width:3"/>
+<path d="M596 200h8" class="lg" style="stroke-width:3"/>
+<text x="612" y="214" class="tb " style="font-size:11.5px;fill:var(--good)">低等級 ↓</text>
+<text x="612" y="302" class="ts">↓ 這層以下都殺得到</text>
+<text x="20" y="326" class="ts">高：G±、孢子、MTB　中：MTB、多數病毒真菌、少數孢子　低：多數細菌真菌，不能殺 MTB 與孢子</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 354" role="img" aria-label="免疫缺陷地圖：ADA 缺陷影響所有淋巴球；common gamma chain 缺陷沒有 T 與 NK；RAG 缺陷沒有 T 與 B；FOXN1 缺陷胸腺長不出來；BTK 缺陷卡在 pre-B；CD40L 缺陷無法 class switch；CVID 與 IgA 缺乏。吞噬細胞太少、到不了（LAD）、殺不死（CGD）；C3 缺陷化膿菌感染，C5 到 C9 缺陷 Neisseria 感染；IL-12 與干擾素 gamma 缺陷怕分枝桿菌，IL-17 缺陷怕念珠菌。">
+<defs><marker id="id-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker></defs>
+<text x="10" y="20" class="th">從造血幹細胞往下走 · 卡在哪一步 → 少了哪些細胞 → 怕哪種感染</text>
+<rect x="20" y="40" width="120" height="30" rx="8" class="bv"/><text x="80.0" y="60" text-anchor="middle" class="tb" style="font-size:12px">造血幹細胞</text>
+<g class="hot" data-tip="<b>ADA deficiency</b>：有毒 purine 代謝物累積，所有發育中的淋巴球都受害 → <b>T−B−NK−</b>。" data-label="ADA"><circle cx="152" cy="55" r="7" class="fr"/><text x="152" y="59" text-anchor="middle" class="tw" style="font-size:9px">✕</text><text x="162" y="59" class="tb tr" style="font-size:11.5px">ADA</text></g>
+<path d="M80 70L80 96" class="ln" marker-end="url(#id-a)"/>
+<rect x="20" y="98" width="120" height="30" rx="8" class="bx"/><text x="80.0" y="118" text-anchor="middle" class="tb" style="font-size:12px">淋巴前驅細胞</text>
+<path d="M140 113L230 113" class="ln" marker-end="url(#id-a)"/>
+<path d="M80 128L80 196" class="ln" marker-end="url(#id-a)"/>
+<path d="M140 120L230 172" class="ln" marker-end="url(#id-a)"/>
+<g class="hot" data-tip="<b>X-linked SCID</b>：common γ chain（IL2RG）是 IL-7、IL-15 等受體共同成分 → IL-7 缺 → 沒有 T；IL-15 缺 → 沒有 NK → <b>T−B+NK−</b>（B 有但沒 T 幫忙也不會做抗體）。" data-label="γc"><circle cx="162" cy="152" r="7" class="fr"/><text x="162" y="156" text-anchor="middle" class="tw" style="font-size:9px">✕</text><text x="172" y="156" class="tb tr" style="font-size:11.5px">γc</text></g>
+<rect x="232" y="98" width="110" height="30" rx="8" class="bx"/><text x="287.0" y="118" text-anchor="middle" class="tb" style="font-size:12px">胸腺 pro-T</text>
+<path d="M342 113L380 113" class="ln" marker-end="url(#id-a)"/>
+<rect x="382" y="98" width="110" height="30" rx="8" class="bg"/><text x="437.0" y="118" text-anchor="middle" class="tb" style="font-size:12px">成熟 T 細胞</text>
+<g class="hot" data-tip="<b>FOXN1</b>：胸腺上皮（微環境）長不出來；pro-T 本身正常但沒地方發育 → <b>T−B+NK+</b>。" data-label="FOXN1"><circle cx="287" cy="90" r="7" class="fr"/><text x="287" y="94" text-anchor="middle" class="tw" style="font-size:9px">✕</text><text x="297" y="94" class="tb tr" style="font-size:11.5px">FOXN1</text></g>
+<g class="hot" data-tip="<b>RAG1/2</b>：V(D)J recombination 失敗 → TCR、BCR 都做不出來 → <b>T−B−NK+</b>（NK 不需要 V(D)J）。" data-label="RAG1/2"><circle cx="362" cy="136" r="7" class="fr"/><text x="362" y="140" text-anchor="middle" class="tw" style="font-size:9px">✕</text><text x="372" y="140" class="tb tr" style="font-size:11.5px">RAG1/2</text></g>
+<rect x="232" y="158" width="110" height="30" rx="8" class="bg"/><text x="287.0" y="178" text-anchor="middle" class="tb" style="font-size:12px">NK 細胞</text>
+<rect x="20" y="198" width="120" height="30" rx="8" class="bx"/><text x="80.0" y="218" text-anchor="middle" class="tb" style="font-size:12px">pre-B</text>
+<path d="M140 213L230 213" class="ln" marker-end="url(#id-a)"/>
+<rect x="232" y="198" width="110" height="30" rx="8" class="bg"/><text x="287.0" y="218" text-anchor="middle" class="tb" style="font-size:12px">成熟 B（IgM）</text>
+<path d="M342 213L380 213" class="ln" marker-end="url(#id-a)"/>
+<rect x="382" y="198" width="110" height="30" rx="8" class="bx"/><text x="437.0" y="218" text-anchor="middle" class="tb" style="font-size:12px">class switch</text>
+<path d="M492 213L530 213" class="ln" marker-end="url(#id-a)"/>
+<rect x="532" y="198" width="110" height="30" rx="8" class="bg"/><text x="587.0" y="218" text-anchor="middle" class="tb" style="font-size:12px">漿細胞 IgG/IgA</text>
+<g class="hot" data-tip="<b>XLA</b>：BTK 缺陷 → pre-BCR 訊號異常 → <b>卡在 pre-B</b>，沒有成熟 B 與抗體；T 正常。" data-label="BTK（XLA）"><circle cx="186" cy="236" r="7" class="fr"/><text x="186" y="240" text-anchor="middle" class="tw" style="font-size:9px">✕</text><text x="196" y="240" class="tb tr" style="font-size:11.5px">BTK（XLA）</text></g>
+<g class="hot" data-tip="<b>X-linked hyper-IgM</b>：CD40L 缺陷 → germinal center 無法形成、<b>不能 class switch → 只有 IgM</b>；macrophage 也活化不了 → 伺機性感染。" data-label="CD40L（Hyper-IgM）"><circle cx="437" cy="236" r="7" class="fr"/><text x="437" y="240" text-anchor="middle" class="tw" style="font-size:9px">✕</text><text x="447" y="240" class="tb tr" style="font-size:11.5px">CD40L（Hyper-IgM）</text></g>
+<g class="hot" data-tip="<b>CVID</b>：B → 漿細胞分化異常、成因不明；<b>selective IgA deficiency</b> → 黏膜同一菌反覆感染。" data-label="CVID／IgA 缺乏"><circle cx="587" cy="236" r="7" class="fr"/><text x="587" y="240" text-anchor="middle" class="tw" style="font-size:9px">✕</text><text x="597" y="240" class="tb tr" style="font-size:11.5px">CVID／IgA 缺乏</text></g>
+<rect x="530" y="40" width="240" height="132" rx="12" class="bp"/>
+<text x="544" y="62" class="tb" style="font-size:12px">吞噬細胞三部曲</text>
+<g class="hot" data-tip="<b>Neutropenia</b>：ELANE、G6PC3 缺陷 → neutrophil 太少 → 反覆嚴重化膿菌感染。" data-label="太少：neutropenia"><circle cx="552" cy="86" r="7" class="fr"/><text x="552" y="90" text-anchor="middle" class="tw" style="font-size:9px">✕</text><text x="562" y="90" class="tb tr" style="font-size:11.5px">太少：neutropenia</text></g>
+<g class="hot" data-tip="<b>LAD-1</b>：β2 integrin <b>CD18</b> 缺陷 → 血中 neutrophil 數目正常甚至很高，但出不了血管 → <b>反覆感染卻沒有膿</b>。" data-label="到不了：LAD-1（CD18）"><circle cx="552" cy="112" r="7" class="fr"/><text x="552" y="116" text-anchor="middle" class="tw" style="font-size:9px">✕</text><text x="562" y="116" class="tb tr" style="font-size:11.5px">到不了：LAD-1（CD18）</text></g>
+<g class="hot" data-tip="<b>CGD</b>：NADPH oxidase（NOX2，最常見 gp91phox，X-linked）→ 沒有 respiratory burst → 吞了殺不死 → <b>肉芽腫</b>。" data-label="殺不死：CGD（NOX2）"><circle cx="552" cy="138" r="7" class="fr"/><text x="552" y="142" text-anchor="middle" class="tw" style="font-size:9px">✕</text><text x="562" y="142" class="tb tr" style="font-size:11.5px">殺不死：CGD（NOX2）</text></g>
+<text x="544" y="162" class="ts">→ 反覆化膿菌感染</text>
+<rect x="20" y="262" width="360" height="62" rx="12" class="bp"/>
+<text x="34" y="284" class="tb" style="font-size:12px">補體</text>
+<g class="hot" data-tip="<b>C3 缺陷</b>：沒有 C3b 調理 → 反覆化膿菌感染。C1、C2、C4 缺陷 → 免疫複合物、凋亡細胞清不掉（類 SLE）。" data-label="C3 → 化膿菌"><circle cx="42" cy="306" r="7" class="fr"/><text x="42" y="310" text-anchor="middle" class="tw" style="font-size:9px">✕</text><text x="52" y="310" class="tb tr" style="font-size:11.5px">C3 → 化膿菌</text></g>
+<g class="hot" data-tip="<b>C5–C9</b>：MAC 做不出來 → 反覆 <b>Neisseria</b>（腦膜炎雙球菌、淋病雙球菌）感染。" data-label="C5–C9（MAC）→ Neisseria"><circle cx="196" cy="306" r="7" class="fr"/><text x="196" y="310" text-anchor="middle" class="tw" style="font-size:9px">✕</text><text x="206" y="310" class="tb tr" style="font-size:11.5px">C5–C9（MAC）→ Neisseria</text></g>
+<rect x="400" y="262" width="370" height="62" rx="12" class="bp"/>
+<text x="414" y="284" class="tb" style="font-size:12px">Cytokine 迴路</text>
+<g class="hot" data-tip="<b>Type 1 迴路</b>：macrophage 的 IL-12 → NK、TH1 的 IFN-γ → 回頭活化 macrophage；缺陷 → <b>結核菌</b>等胞內菌。" data-label="IL-12/IFN-γ → 分枝桿菌"><circle cx="422" cy="306" r="7" class="fr"/><text x="422" y="310" text-anchor="middle" class="tw" style="font-size:9px">✕</text><text x="432" y="310" class="tb tr" style="font-size:11.5px">IL-12/IFN-γ → 分枝桿菌</text></g>
+<g class="hot" data-tip="<b>Type 3 迴路</b>：TH17、ILC3 的 IL-17 負責黏膜抗真菌；缺陷（STAT3，Job syndrome）→ <b>黏膜皮膚念珠菌感染</b>。" data-label="IL-17/STAT3 → 念珠菌"><circle cx="600" cy="306" r="7" class="fr"/><text x="600" y="310" text-anchor="middle" class="tw" style="font-size:9px">✕</text><text x="610" y="310" class="tb tr" style="font-size:11.5px">IL-17/STAT3 → 念珠菌</text></g>
+<text x="10" y="344" class="ts">感染型態 → 缺陷：化膿菌 → 抗體、補體、吞噬細胞；伺機性 → T 細胞／SCID；分枝桿菌 → IL-12/IFN-γ；念珠菌 → IL-17；Neisseria → MAC</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 394" role="img" aria-label="隨機臨床試驗流程：目標族群依納入排除標準選取、知情同意後隨機分派到治療組與同期對照組，並維持盲性；追蹤兩組事件率，依原分組分析，計算絕對風險降低、相對風險降低與需治療人數。例：惡化率 60% 對 40%，需治療人數為 5。">
+<defs><marker id="rc-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker></defs>
+<text x="10" y="20" class="th">隨機分派 · 盲性 · 同期對照</text>
+<g class="hot" data-tip="納入與排除標準要明確、客觀、可複製；排除太多人 → <b>外推性</b>下降。" data-label="選取個案"><rect x="20" y="40" width="170" height="46" rx="9" class="bx"/><text x="105.0" y="60" text-anchor="middle" class="tb" style="font-size:12px">目標族群</text></g>
+<text x="105.0" y="76" text-anchor="middle" class="ts">納入／排除標準（protocol）</text>
+<rect x="20" y="110" width="170" height="46" rx="9" class="bx"/><text x="105.0" y="130" text-anchor="middle" class="tb" style="font-size:12px">知情同意</text>
+<text x="105.0" y="146" text-anchor="middle" class="ts">符合倫理</text>
+<g class="hot" data-tip="<b>隨機</b>：醫療人員沒有選擇權 → 避免<b>選擇偏差</b>，讓已知與未知的因素在兩組平均分布。<b>分層隨機</b>：先依性別、年齡等分層再隨機。" data-label="隨機分派"><rect x="20" y="180" width="170" height="52" rx="9" class="bv"/><text x="105.0" y="200" text-anchor="middle" class="tb" style="font-size:12px">隨機分派</text></g>
+<text x="105.0" y="216" text-anchor="middle" class="ts">可分層；不一定 1:1</text>
+<path d="M105 86V108" class="ln" marker-end="url(#rc-a)"/>
+<path d="M105 156V178" class="ln" marker-end="url(#rc-a)"/>
+<path d="M190 196Q214 196 214 160V100Q214 72 240 72" class="ln" marker-end="url(#rc-a)"/>
+<path d="M190 216Q214 216 214 250V270Q214 292 240 292" class="ln" marker-end="url(#rc-a)"/>
+<rect x="242" y="48" width="180" height="50" rx="9" class="bg"/><text x="332.0" y="68" text-anchor="middle" class="tb" style="font-size:12px">治療組</text>
+<text x="332.0" y="84" text-anchor="middle" class="ts">新藥</text>
+<g class="hot" data-tip="<b>同期對照</b>：和治療組在同一時間追蹤 → 避免歷史對照的時間偏差。安慰劑不一定能維持盲性（副作用會洩漏組別）。" data-label="同期對照"><rect x="242" y="268" width="180" height="50" rx="9" class="bw"/><text x="332.0" y="288" text-anchor="middle" class="tb" style="font-size:12px">對照組</text></g>
+<text x="332.0" y="304" text-anchor="middle" class="ts">安慰劑或標準治療（同期）</text>
+<g class="hot" data-tip="<b>單盲</b>：受試者不知道；<b>雙盲</b>：受試者＋施測者（醫師、護理師、醫檢、藥師）；<b>三盲</b>：再加上資料分析者。沒有盲性 → 主觀的測量偏差（外科試驗常見）。" data-label="盲性"><rect x="440" y="150" width="96" height="66" rx="9" class="bp"/><text x="488" y="176" text-anchor="middle" class="tb" style="font-size:12px">盲性</text></g>
+<text x="488" y="194" text-anchor="middle" class="ts">單／雙／三盲</text>
+<path d="M422 73H556" class="ln" marker-end="url(#rc-a)"/>
+<path d="M422 293H556" class="ln" marker-end="url(#rc-a)"/>
+<rect x="558" y="48" width="200" height="50" rx="9" class="bx"/><text x="658.0" y="68" text-anchor="middle" class="tb" style="font-size:12px">追蹤結果</text>
+<text x="658.0" y="84" text-anchor="middle" class="ts">事件率 EER</text>
+<rect x="558" y="268" width="200" height="50" rx="9" class="bx"/><text x="658.0" y="288" text-anchor="middle" class="tb" style="font-size:12px">追蹤結果</text>
+<text x="658.0" y="304" text-anchor="middle" class="ts">事件率 CER</text>
+<g class="hot" data-tip="<b>遵從性</b>：Coronary Drug Project 中，安慰劑組的 good complier 死亡率也比較低（15.1% vs 28.3%）→ 遵從性本身就和預後有關。所以要<b>依原本分組分析（intention-to-treat）</b>，不能只挑有乖乖吃藥的人。" data-label="遵從性與 ITT"><rect x="558" y="132" width="200" height="104" rx="9" class="br"/><text x="658" y="154" text-anchor="middle" class="tb tr" style="font-size:12px">依原分組比較（ITT）</text></g>
+<text x="568" y="176" style="font-size:12px">ARR = CER − EER</text>
+<text x="568" y="196" style="font-size:12px">RRR = ARR ÷ CER</text>
+<text x="568" y="216" class="tb" style="font-size:12px">NNT = 1 ÷ ARR</text>
+<path d="M658 98V130" class="ln" marker-end="url(#rc-a)"/>
+<path d="M658 268V238" class="ln" marker-end="url(#rc-a)"/>
+<rect x="20" y="340" width="740" height="44" rx="10" class="bp"/>
+<text x="34" y="366" style="font-size:12px">例（110、114 考古）：惡化率 對照 60% vs 標靶 40% → ARR 20% → NNT = 1 ÷ 0.2 = 5（治療 5 人才能少 1 人惡化）</text>
+</svg>

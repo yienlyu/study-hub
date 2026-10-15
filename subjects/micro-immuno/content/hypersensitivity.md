@@ -16,6 +16,8 @@
 - **Granuloma**：無法清除的微生物被 **epithelioid cells（活化的 macrophage）** 與 multinucleated giant cell 包圍。
 - 預防：避免接觸過敏原；診斷：皮膚試驗（受 IgE 影響）。
 
+<div data-fig="hypersensitivity-types"></div>
+
 === slides ===
 # 上課 slides
 

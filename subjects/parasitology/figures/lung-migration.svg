@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 330" role="img" aria-label="心肺移行路線：蛔蟲是吞入受孕卵後在小腸孵化、穿腸壁經門脈到肝；鉤蟲與糞小桿線蟲是絲狀幼蟲鑽皮膚進入靜脈。之後都經右心到肺，幼蟲從微血管進入肺泡，造成 Loeffler 症候群，再沿支氣管、氣管到咽被吞下，回到小腸長成成蟲。蟯蟲、鞭蟲不經過肺。">
+<defs><marker id="lm-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="lm-r" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker></defs>
+<text x="10" y="20" class="th">兩個入口 → 同一條心肺路線 → 回到小腸</text>
+<g class="hot" data-tip="<b>蛔蟲</b>：吞入<b>受孕卵</b>（內含幼蟲）→ 小腸孵化 → 幼蟲穿過腸壁 → <b>門脈 → 肝</b> → 肝靜脈、下腔靜脈 → 右心。犬蛔蟲在人體也會走類似路線，但到不了小腸發育（VLM）。" data-label="經口：蛔蟲">
+<rect x="10" y="36" width="170" height="70" rx="10" class="bv"/>
+<text x="22" y="60" class="tb">經口：吞入受孕卵</text>
+</g>
+<text x="22" y="78" class="ts">蛔蟲 Ascaris</text>
+<text x="22" y="94" class="ts">小腸孵化→穿腸壁→門脈→肝</text>
+<g class="hot" data-tip="<b>鉤蟲</b>（美洲鉤蟲只能這樣感染；十二指腸鉤蟲也可經口）與<b>糞小桿線蟲</b>：土壤裡的<b>絲狀幼蟲</b>（filariform, L3）鑽過皮膚 → 皮下小靜脈 → 右心。入侵處可有 ground itch。" data-label="經皮：鉤蟲、糞小桿線蟲">
+<rect x="10" y="124" width="170" height="70" rx="10" class="bw"/>
+<text x="22" y="148" class="tb">經皮：絲狀幼蟲鑽皮膚</text>
+</g>
+<text x="22" y="166" class="ts">鉤蟲、糞小桿線蟲</text>
+<text x="22" y="182" class="ts">（入侵處 ground itch）</text>
+<path d="M180 71Q200 71 206 100" class="ln" marker-end="url(#lm-a)"/>
+<path d="M180 159Q200 159 206 130" class="ln" marker-end="url(#lm-a)"/>
+<rect x="208" y="96" width="92" height="38" rx="10" class="bx"/><text x="254" y="120" text-anchor="middle" class="tb">靜脈血流</text>
+<path d="M300 115H318" class="ln" marker-end="url(#lm-a)"/>
+<rect x="320" y="96" width="70" height="38" rx="10" class="bx"/><text x="355" y="120" text-anchor="middle" class="tb">右心</text>
+<path d="M390 115H408" class="ln" marker-end="url(#lm-a)"/>
+<g class="hot" data-tip="幼蟲卡在肺微血管 → 鑽進<b>肺泡</b>，在這裡蛻皮長大。大量幼蟲 → <b>Loeffler syndrome</b>：咳嗽、喘、發燒、<b>嗜酸性白血球↑</b>、X 光短暫游走性浸潤；痰裡可有幼蟲與 Charcot-Leyden crystals。" data-label="肺：Loeffler syndrome">
+<rect x="410" y="80" width="170" height="70" rx="10" class="br"/>
+<text x="424" y="104" class="tb">肺：微血管 → 肺泡</text>
+</g>
+<text x="424" y="122" class="ts tr">Loeffler syndrome</text>
+<text x="424" y="138" class="ts">咳嗽、嗜酸性球↑、短暫浸潤</text>
+<path d="M580 115H598" class="ln" marker-end="url(#lm-a)"/>
+<rect x="600" y="80" width="170" height="70" rx="10" class="bx"/>
+<text x="614" y="104" class="tb">支氣管 → 氣管 → 咽</text>
+<text x="614" y="122" class="ts">隨痰往上爬</text>
+<text x="614" y="138" class="ts">→ 被吞下</text>
+<path d="M685 150V188" class="ln" marker-end="url(#lm-a)"/>
+<g class="hot" data-tip="回到<b>小腸</b>才發育為成蟲、交配產卵；從感染到糞便出現蟲卵約 2–3 個月（蛔蟲）。" data-label="小腸：成蟲">
+<rect x="560" y="190" width="210" height="52" rx="10" class="bg"/>
+<text x="574" y="212" class="tb">小腸：發育為成蟲</text>
+</g>
+<text x="574" y="230" class="ts">產卵 → 糞便找到蟲卵</text>
+<path d="M560 216H200Q186 216 186 200" class="lg dash" marker-end="url(#lm-a)"/>
+<text x="380" y="208" text-anchor="middle" class="ts">蟲卵排出 → 土壤 → 下一個人</text>
+<text x="10" y="270" class="th">不經過肺</text>
+<g class="hot" data-tip="<b>蟯蟲、鞭蟲</b>：吞下的卵在腸內孵化，幼蟲直接在腸道（盲腸附近）發育，<b>不進血流</b>。<b>旋毛蟲</b>：新生幼蟲雖然進血流，但目的地是<b>橫紋肌</b>。考古題：「幼蟲移行不經過肺：蟯蟲、鞭蟲」。" data-label="不經過肺的線蟲">
+<rect x="10" y="280" width="760" height="42" rx="10" class="bp"/>
+<text x="24" y="306" class="tb">蟯蟲、鞭蟲</text>
+</g>
+<text x="104" y="306" class="ts">卵吞下後直接在腸道發育，不進血流。　旋毛蟲：幼蟲進血流，但去的是橫紋肌（不是肺）。</text>
+</svg>

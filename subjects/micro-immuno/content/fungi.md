@@ -16,6 +16,8 @@
   - *Candida albicans*：yeast、pseudohyphae、hyphae 在 37°C 同時存在 → 一般**不視為典型 dimorphic**。
   - *Cryptococcus*：yeast（不算 dimorphic）。
 
+<div data-fig="fungal-forms"></div>
+
 ## 2. 生活史與分類
 - **Anamorph = 無性世代**；teleomorph = 有性世代。
 - Amastigomycota（無鞭毛菌門）= **true fungi**；slime molds 最先被分出。

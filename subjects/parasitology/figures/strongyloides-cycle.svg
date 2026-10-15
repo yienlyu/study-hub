@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 370" role="img" aria-label="糞小桿線蟲生活史：土壤中桿狀幼蟲可直接變成具感染力的絲狀幼蟲，或發育為自由生活成蟲繁殖多代。絲狀幼蟲鑽皮膚、經肺吞下，在小腸黏膜成為孤雌生殖的寄生型雌蟲；卵在黏膜內孵化成桿狀幼蟲隨糞便排出。若桿狀幼蟲在腸內直接變成絲狀幼蟲，再穿腸壁或肛周皮膚入侵，就是自體感染；使用類固醇或感染 HTLV-1 時會變成過度感染與播散。">
+<defs><marker id="sc-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="sc-r" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="sc-g" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<rect x="6" y="28" width="300" height="270" rx="16" class="fp"/>
+<text x="20" y="20" class="th">土壤 · 體外</text><text x="340" y="20" class="th">人體</text>
+<g class="hot" data-tip="<b>桿狀幼蟲（rhabditiform, L1）</b>：食道有球、口腔短；<b>沒有感染力</b>。糞便檢查看到的就是牠（不是卵）。" data-label="桿狀幼蟲">
+<rect x="22" y="56" width="128" height="50" rx="10" class="bx"/><text x="86" y="78" text-anchor="middle" class="tb">桿狀幼蟲 L1</text>
+</g><text x="86" y="96" text-anchor="middle" class="ts">無感染力</text>
+<g class="hot" data-tip="<b>間接（異質）發育</b>：環境好（溫暖潮濕）時發育成<b>自由生活的雌雄成蟲</b>，在土壤裡交配產卵，可以繁殖好幾代，不需要宿主。這是線蟲裡很少見的特性（考古：「幼蟲在土壤可發育為自由生活成蟲並產生子代」→ 糞小桿線蟲）。" data-label="自由生活世代">
+<rect x="176" y="56" width="116" height="50" rx="10" class="bg"/><text x="234" y="78" text-anchor="middle" class="tb">自由生活成蟲</text>
+</g><text x="234" y="96" text-anchor="middle" class="ts">♂♀ 交配，可好幾代</text>
+<rect x="176" y="146" width="116" height="40" rx="10" class="bx"/><text x="234" y="171" text-anchor="middle" class="ts">產卵 → 孵出 L1</text>
+<path d="M150 74H174" class="lg" marker-end="url(#sc-g)"/><text x="162" y="68" text-anchor="middle" class="ts">間接</text>
+<path d="M234 106V144" class="ln" marker-end="url(#sc-a)"/>
+<path d="M176 166H122Q112 166 112 150V108" class="ln" marker-end="url(#sc-a)"/>
+<path d="M58 106V226" class="ln" marker-end="url(#sc-a)"/><text x="64" y="200" class="ts">直接</text>
+<g class="hot" data-tip="<b>絲狀幼蟲（filariform, L3）</b>：食道長、尾端分叉（notched tail）；<b>唯一的感染期</b>，赤腳踩泥土時鑽入皮膚。" data-label="絲狀幼蟲 L3">
+<rect x="22" y="228" width="150" height="56" rx="10" class="bw"/><text x="97" y="252" text-anchor="middle" class="tb">絲狀幼蟲 L3</text>
+</g><text x="97" y="272" text-anchor="middle" class="ts" style="fill:var(--warn)">感染期 · 鑽皮膚</text>
+<path d="M172 256H346" class="ln" marker-end="url(#sc-a)"/>
+<g class="hot" data-tip="鑽入皮膚 → 靜脈 → 右心 → <b>肺</b>（可有 Loeffler 樣症狀）→ 氣管 → 吞下 → 小腸。" data-label="心肺移行">
+<rect x="348" y="228" width="180" height="56" rx="10" class="bx"/><text x="438" y="252" text-anchor="middle" class="tb">血流 → 肺 → 吞下</text>
+</g><text x="438" y="272" text-anchor="middle" class="ts">心肺移行</text>
+<path d="M528 256H556" class="ln" marker-end="url(#sc-a)"/>
+<g class="hot" data-tip="寄生型只有<b>雌蟲</b>，埋在十二指腸、空腸<b>黏膜</b>裡，以<b>孤雌生殖（parthenogenesis）</b>產卵。症狀：腹瀉、上腹痛、吸收不良。" data-label="寄生型雌蟲">
+<rect x="558" y="228" width="212" height="56" rx="10" class="bv"/><text x="664" y="252" text-anchor="middle" class="tb">小腸黏膜：寄生型雌蟲</text>
+</g><text x="664" y="272" text-anchor="middle" class="ts tv">只有雌蟲 · 孤雌生殖</text>
+<path d="M664 228V196" class="ln" marker-end="url(#sc-a)"/>
+<g class="hot" data-tip="卵在<b>黏膜內就孵化</b>，所以糞便裡幾乎看不到卵，看到的是<b>桿狀幼蟲</b>。診斷：糞便直接抹片、Baermann 法、洋菜平板培養、十二指腸液；血清學。" data-label="在腸內孵化">
+<rect x="558" y="146" width="212" height="48" rx="10" class="bx"/><text x="664" y="167" text-anchor="middle" class="tb">卵在黏膜孵化 → L1</text>
+</g><text x="664" y="184" text-anchor="middle" class="ts">糞便找幼蟲，不是卵</text>
+<path d="M664 146V44H96Q86 44 86 54" class="ln" marker-end="url(#sc-a)"/>
+<text x="460" y="38" text-anchor="middle" class="ts">大部分 L1 隨糞便排出 → 回到土壤</text>
+<g class="hot" data-tip="<b>自體感染（autoinfection）</b>：L1 在腸內（或肛門周圍）<b>直接變成 L3</b>，穿過腸壁或肛周皮膚再進血流 → 不用離開宿主就能一直感染下去，所以離開流行區<b>幾十年</b>後仍可能發病。會自體感染的線蟲：糞小桿線蟲、蟯蟲、菲律賓毛線蟲。" data-label="自體感染">
+<rect x="348" y="146" width="180" height="48" rx="10" class="br"/><text x="438" y="167" text-anchor="middle" class="tb tr">腸內直接變成 L3</text>
+</g><text x="438" y="184" text-anchor="middle" class="ts tr">自體感染 · 穿腸壁／肛周</text>
+<path d="M558 170H530" class="lr" marker-end="url(#sc-r)"/>
+<path d="M438 194V226" class="lr" marker-end="url(#sc-r)"/>
+<g class="hot" data-tip="<b>過度感染（hyperinfection）與播散（disseminated strongyloidiasis）</b>：使用<b>類固醇</b>、感染 <b>HTLV-1</b>、器官移植、營養不良 → 自體感染失控，大量幼蟲跑到肺、肝、腦等器官；幼蟲把<b>腸道細菌帶進血流 → G(−) 敗血症、腦膜炎</b>，死亡率很高。痰裡可找到幼蟲。考古：「長期服用類固醇的病人感染糞小桿線蟲」。" data-label="過度感染與播散">
+<rect x="348" y="306" width="422" height="56" rx="10" class="br"/>
+<text x="362" y="330" class="tb tr">類固醇、HTLV-1、免疫抑制 → 過度感染、播散</text>
+</g>
+<text x="362" y="350" class="ts">幼蟲帶著腸菌進血 → G(−) 敗血症、腦膜炎；痰裡可見幼蟲</text>
+<text x="20" y="330" class="th">治療</text>
+<text x="20" y="350" class="ts">Ivermectin（首選）、albendazole</text>
+</svg>

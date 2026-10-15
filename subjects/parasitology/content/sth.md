@@ -14,6 +14,8 @@
 | 蟲卵 | 受精卵約 60 µm、厚殼、**蛋白質外套膜** | **桶狀、兩端透明極塞**，約 54 µm | 薄殼、透明、內有胚細胞，約 60 µm |
 | 治療 | **Albendazole、Mebendazole** 或 Ivermectin | **Mebendazole**（首選），Albendazole | **Albendazole**；Mebendazole、pyrantel pamoate |
 
+<div data-fig="lung-migration"></div>
+
 ## 1. 蛔蟲 *Ascaris lumbricoides* ⭐⭐⭐
 - **最大的人類腸道線蟲**：雌蟲 20–35 cm（粗如鉛筆）；雄蟲較細，尾端**向內捲曲**、有兩根交尾刺。乳白色帶粉紅，表皮有細環紋。
 - 分布：全球，**人類最常見的蠕蟲感染**；熱帶、亞熱帶與衛生不良地區盛行率最高。
@@ -26,6 +28,10 @@
 - 治療：**Albendazole**、Mebendazole 或 Ivermectin，通常 1–3 天。
   - **Albendazole 機轉**：結合 **β-tubulin 的 colchicine-sensitive site**，抑制微管聚合；並使幼蟲與成蟲**吸收葡萄糖受損、耗盡肝醣**。
 
+<div data-fig="slide-ascaris-egg"></div>
+
+<div data-fig="slide-ascaris-unfert"></div>
+
 ## 2. 鞭蟲 *Trichuris trichiura* ⭐⭐
 - 又稱 **human whipworm**；**第 3 常見**的人類線蟲，全球約 8 億人感染，好發在熱帶、衛生差的地區與兒童。
 - 構造：**前細後粗**；食道由一串**念珠狀細胞（stichocytes）**構成 **stichosome**；屬於 **Aphasmid nematode**（沒有尾端化學感受器），生殖器官只有單套；雄蟲只有一根交尾刺。
@@ -33,6 +39,8 @@
 - 診斷：糞便找蟲卵；輕度感染建議**濃縮法**；嚴重度與蟲負荷有關，可用 **Kato-Katz** 定量。
 - **蟲卵**：**桶狀（barrel shape）**、**兩端有不染色的透明極塞（polar plugs）**、50–54 × 22–23 µm、黃棕色；排出時**尚未胚胎化**。
 - 治療：**Mebendazole 首選**，Albendazole 為替代。
+
+<div data-fig="slide-trichuris-egg"></div>
 
 ## 3. 鉤蟲 Hookworms ⭐⭐⭐
 - 人類鉤蟲：**十二指腸鉤蟲 *Ancylostoma duodenale***（♀ 1.0–1.3 cm）與**美洲鉤蟲 *Necator americanus***（♀ 0.9–1.1 cm）。
@@ -56,6 +64,12 @@
   - 幼蟲經過肺部時的呼吸道症狀。
 - 診斷：**糞便找蟲卵**；蟲卵中型（56–76 × 36–40 µm）、薄殼。**各種鉤蟲卵無法區分，只要寫 "hookworm" 就可以。**
 - 治療：流行區輕度感染常不治療；美國用 **Albendazole**，也可用 Mebendazole 或 pyrantel pamoate。
+
+<div data-fig="slide-hookworm-egg"></div>
+
+<div data-fig="slide-necator-mouth"></div>
+
+<div data-fig="slide-duodenale-mouth"></div>
 
 ## 🎙️ 上課錄影重點（范家堃）
 - 十二指腸鉤蟲的「兩對大小相似的牙齒」會鉤住小腸、破壞 enterocyte 後吸血。
@@ -91,3 +105,7 @@
 
 ## 🎙️ 老師課堂提示
 - 鉤蟲卵寫 "hookworm" 就給分，不需要分種。
+
+## 📚 考古題（共 23 題：113 考古 18、109 期中考古 5）
+- 題型：選正確／單一概念題 17、選錯誤／否定題 5、簡答題 1。
+- 練習區可以只勾選某一年的來源；多選、配合與手寫題會直接顯示參考答案。109、110 和 113 完全重複的題目只收一次。

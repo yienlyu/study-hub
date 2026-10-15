@@ -19,6 +19,12 @@
 - **治療**：**Pyrantel pamoate 首選**（老師也提到 Mebendazole）；**全家一起治療**；注意個人衛生、清洗並曝曬寢具衣物。
 - 范老師 2017 年在**馬紹爾群島（RMI）**幼稚園篩檢：平均 **22.4%**（男 24.5%、女 19.9%）。
 
+<div data-fig="slide-enterobius-adult"></div>
+
+<div data-fig="slide-enterobius-egg"></div>
+
+<div data-fig="slide-scotch-tape"></div>
+
 ## 2. 犬蛔蟲 *Toxocara canis* ⭐⭐⭐
 - **被忽視的人畜共通疾病（NZDs）**；美國 CDC **2014 年**列為 5 大**被忽視的寄生蟲感染（NPIs）**之一：**Chagas disease、cysticercosis（neurocysticercosis）、toxocariasis、toxoplasmosis、trichomoniasis**。
 - 歷史：**1950 年 Wilder** 檢查被診斷為**視網膜母細胞瘤（retinoblastoma）**而摘除的兒童眼球，發現線蟲幼蟲；**1956 年 Nichols** 鑑定為 *T. canis*。後續發現公園土壤、後院**沙坑**被犬蛔蟲卵嚴重汙染。
@@ -41,6 +47,8 @@
 - 血清盛行率：聖多美 99%、馬紹爾 86%；台北大學生 8.4%；台灣山地地區約 76.6%。
 - 台灣病例：14 歲男孩**眼部犬蛔蟲症**（馬偕，2008–09），Mebendazole＋類固醇效果不穩，改用 **Albendazole＋類固醇**約 45 天後痊癒。
 - 范老師的假說：**腦犬蛔蟲症可能悄悄進展為神經退化性疾病（阿茲海默症）**（Clin Microbiol Rev 2015）。
+
+<div data-fig="slide-toxocara-egg"></div>
 
 ## 🎙️ 上課錄影重點（范家堃）
 - 肛圍擦拭法「最準確，95%」，「如果題目問你糞便裡面找蟲卵，絕對不要去選它，這也是國考會出的題目」。
@@ -83,3 +91,7 @@
 
 ## 🎙️ 老師課堂提示
 - 「糞便找蟯蟲卵，絕對不要選」——國考會出。
+
+## 📚 考古題（共 16 題：113 考古 12、109 期中考古 4）
+- 題型：選正確／單一概念題 10、選錯誤／否定題 4、簡答題 2。
+- 練習區可以只勾選某一年的來源；多選、配合與手寫題會直接顯示參考答案。109、110 和 113 完全重複的題目只收一次。

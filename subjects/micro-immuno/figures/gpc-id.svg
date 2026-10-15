@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 334" role="img" aria-label="革蘭氏陽性球菌鑑別流程：catalase 陽性是葡萄球菌，再以 coagulase 分為 S. aureus 與凝固酶陰性葡萄球菌；catalase 陰性是鏈球菌或腸球菌，β 溶血依 Lancefield 分為 A 群（bacitracin 敏感）與 B 群（CAMP 陽性），α 溶血以 optochin 分為肺炎鏈球菌與草綠色鏈球菌，γ 溶血為腸球菌。">
+<defs><marker id="gp-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker></defs>
+<text x="10" y="20" class="th">G(+) 球菌鑑別：先 catalase，再看溶血</text>
+<rect x="310" y="34" width="160" height="34" rx="9" class="bv"/><text x="390.0" y="55.0" text-anchor="middle" class="tb" style="font-size:12px">G(+) 球菌</text>
+<path d="M370 68L190 100" class="ln" marker-end="url(#gp-a)"/>
+<path d="M410 68L560 100" class="ln" marker-end="url(#gp-a)"/>
+<text x="200" y="80" class="ts">Catalase +</text>
+<text x="500" y="80" class="ts">Catalase −</text>
+<g class="hot" data-tip="<b>Catalase</b>：把 H₂O₂ 分解成水和氧氣（冒泡）。葡萄球菌 +、鏈球菌 −。" data-label="Catalase"><rect x="100" y="102" width="190" height="44" rx="9" class="bx"/><text x="195.0" y="121" text-anchor="middle" class="tb" style="font-size:12px">Staphylococcus</text></g>
+<text x="195.0" y="137" text-anchor="middle" class="ts">葡萄串狀</text>
+<rect x="470" y="102" width="190" height="44" rx="9" class="bx"/><text x="565.0" y="121" text-anchor="middle" class="tb" style="font-size:12px">Streptococcus／Enterococcus</text>
+<text x="565.0" y="137" text-anchor="middle" class="ts">鏈狀</text>
+<path d="M150 146L80 178" class="ln" marker-end="url(#gp-a)"/>
+<path d="M240 146L290 178" class="ln" marker-end="url(#gp-a)"/>
+<text x="30" y="166" class="ts">Coagulase +</text>
+<text x="272" y="166" class="ts">Coagulase −</text>
+<g class="hot" data-tip="<b>S. aureus</b>：coagulase +、mannitol 發酵（MSA 變黃）、β 溶血、金黃色菌落。" data-label="S. aureus"><rect x="10" y="180" width="150" height="50" rx="9" class="br"/><text x="85.0" y="199" text-anchor="middle" class="tb" style="font-size:12px">S. aureus</text></g>
+<text x="85.0" y="215" text-anchor="middle" class="ts">β 溶血、mannitol +</text>
+<g class="hot" data-tip="<b>Coagulase 陰性葡萄球菌</b>：S. epidermidis（biofilm → 導管、人工瓣膜）；S. saprophyticus（年輕女性 UTI，novobiocin 抗性）。" data-label="CoNS"><rect x="200" y="180" width="190" height="50" rx="9" class="bx"/><text x="295.0" y="199" text-anchor="middle" class="tb" style="font-size:12px">CoNS</text></g>
+<text x="295.0" y="215" text-anchor="middle" class="ts">S. epidermidis（導管、瓣膜）</text>
+<path d="M500 146L450 178" class="ln" marker-end="url(#gp-a)"/>
+<text x="479.0" y="158.0" class="ts">β</text>
+<path d="M565 146L590 178" class="ln" marker-end="url(#gp-a)"/>
+<text x="581.5" y="158.0" class="ts">α</text>
+<path d="M630 146L720 178" class="ln" marker-end="url(#gp-a)"/>
+<text x="679.0" y="158.0" class="ts">γ</text>
+<rect x="400" y="180" width="110" height="50" rx="9" class="bx"/><text x="455.0" y="199" text-anchor="middle" class="tb" style="font-size:12px">Lancefield</text>
+<text x="455.0" y="215" text-anchor="middle" class="ts">C-carbohydrate</text>
+<rect x="530" y="180" width="120" height="50" rx="9" class="bx"/><text x="590.0" y="209.0" text-anchor="middle" class="tb" style="font-size:12px">Optochin？</text>
+<g class="hot" data-tip="<b>Enterococcus</b>（faecalis、faecium）：γ 溶血（不溶血），能在 <b>6.5% NaCl</b> 與膽汁七葉苷培養基生長；抗藥性強（VRE）。" data-label="Enterococcus"><rect x="668" y="180" width="108" height="50" rx="9" class="bg"/><text x="722.0" y="199" text-anchor="middle" class="tb" style="font-size:12px">Enterococcus</text></g>
+<text x="722.0" y="215" text-anchor="middle" class="ts">6.5% NaCl 可長</text>
+<path d="M430 230L400 262" class="ln" marker-end="url(#gp-a)"/>
+<text x="419.0" y="242.0" class="ts">A</text>
+<path d="M480 230L510 262" class="ln" marker-end="url(#gp-a)"/>
+<text x="499.0" y="242.0" class="ts">B</text>
+<path d="M570 230L600 262" class="ln" marker-end="url(#gp-a)"/>
+<text x="589.0" y="242.0" class="ts">敏感</text>
+<path d="M620 230L700 262" class="ln" marker-end="url(#gp-a)"/>
+<text x="664.0" y="242.0" class="ts">抗性</text>
+<g class="hot" data-tip="<b>S. pyogenes（GAS）</b>：bacitracin 敏感、PYR +；咽炎、膿痂疹、猩紅熱、STSS；之後的<b>風濕熱、腎絲球腎炎</b>。" data-label="S. pyogenes"><rect x="330" y="264" width="130" height="56" rx="9" class="br"/><text x="395.0" y="283" text-anchor="middle" class="tb" style="font-size:12px">S. pyogenes</text></g>
+<text x="395.0" y="299" text-anchor="middle" class="ts">GAS · bacitracin 敏感</text>
+<g class="hot" data-tip="<b>S. agalactiae（GBS）</b>：<b>CAMP test +</b>（與 S. aureus 一起讓溶血變箭頭狀）、hippurate +；新生兒敗血症、腦膜炎 → 孕婦 35–37 週篩檢。" data-label="S. agalactiae"><rect x="470" y="264" width="120" height="56" rx="9" class="bw"/><text x="530.0" y="283" text-anchor="middle" class="tb" style="font-size:12px">S. agalactiae</text></g>
+<text x="530.0" y="299" text-anchor="middle" class="ts">GBS · CAMP +</text>
+<g class="hot" data-tip="<b>S. pneumoniae</b>：α 溶血、<b>optochin 敏感、bile soluble</b>、Quellung +（莢膜腫脹）；矛頭狀雙球菌；肺炎、中耳炎、腦膜炎。" data-label="S. pneumoniae"><rect x="600" y="264" width="80" height="56" rx="9" class="bv"/><text x="640.0" y="283" text-anchor="middle" class="tb" style="font-size:12px">肺炎鏈球菌</text></g>
+<text x="640.0" y="299" text-anchor="middle" class="ts">膽汁溶解、莢膜</text>
+<g class="hot" data-tip="<b>Viridans streptococci</b>：α 溶血、optochin 抗性；mitis → 亞急性心內膜炎；mutans → 蛀牙。" data-label="Viridans"><rect x="690" y="264" width="86" height="56" rx="9" class="bx"/><text x="733.0" y="283" text-anchor="middle" class="tb" style="font-size:12px">Viridans</text></g>
+<text x="733.0" y="299" text-anchor="middle" class="ts">mitis、mutans</text>
+<text x="10" y="270" class="th">溶血型</text>
+<text x="10" y="290" class="ts">β：完全溶血（透明）</text>
+<text x="10" y="306" class="ts">α：部分溶血（綠色）</text>
+<text x="10" y="322" class="ts">γ：不溶血</text>
+</svg>

@@ -46,6 +46,8 @@
 
 - Vibrio 不耐酸（需高菌量才過胃）。
 
+<div data-fig="slide-cholera-toxin"></div>
+
 ## 6. 其他
 - 細菌性腦膜炎三大菌（*S. pneumoniae*、*N. meningitidis*、*H. influenzae*）**共通最重要毒力 = capsule**。
 - HIV 感染者全球最常見伺機感染：**Mycobacterium tuberculosis**。

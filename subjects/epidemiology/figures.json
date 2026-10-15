@@ -1,0 +1,586 @@
+[
+ {
+  "id": "slide-epi-transition",
+  "chapter": "intro",
+  "title": "流行病學轉變：美國十大死因 1900 → 2020",
+  "topics": [
+   "流行病學轉變"
+  ],
+  "keywords": "epidemiologic transition leading causes of death infectious chronic disease 1900 2010 2020",
+  "caption": "1900 年前幾名是<strong>肺炎、結核、腸胃炎</strong>等傳染病；之後換成<strong>心臟病、癌症</strong>等慢性病（2020 年 COVID-19 又擠進前段）。",
+  "type": "slide",
+  "src": "figures/slides/epi-transition.webp",
+  "deck": "0911 Overview & Descriptive Epidemiology",
+  "page": "18",
+  "w": 1400,
+  "h": 990
+ },
+ {
+  "id": "slide-prevention",
+  "chapter": "intro",
+  "title": "疾病自然史與三段預防",
+  "topics": [
+   "三段預防"
+  ],
+  "keywords": "primary secondary tertiary prevention natural history screening detectable preclinical",
+  "caption": "<strong>初段</strong>：生物學起點之前（健康的人，疫苗、減少危險因子）；<strong>次段</strong>：可偵測但無症狀時（篩檢、早期治療）；<strong>三段</strong>：發病後減少失能與併發症（復健）。",
+  "type": "slide",
+  "src": "figures/slides/prevention.webp",
+  "deck": "0911 Overview & Descriptive Epidemiology",
+  "page": "22",
+  "w": 1400,
+  "h": 990
+ },
+ {
+  "id": "slide-research-spectrum",
+  "chapter": "intro",
+  "title": "研究光譜：基礎研究、流行病學、臨床醫學",
+  "topics": [
+   "研究光譜"
+  ],
+  "keywords": "research spectrum basic research epidemiologic studies clinical medicine randomized observational",
+  "caption": "流行病學研究的對象是<strong>人類族群</strong>，多為<strong>觀察性</strong>（自我選擇的暴露），推論<strong>因果</strong>但要處理多重因子；基礎研究在細胞動物上隨機操作。",
+  "type": "slide",
+  "src": "figures/slides/research-spectrum.webp",
+  "deck": "0911 Overview & Descriptive Epidemiology",
+  "page": "26",
+  "w": 1400,
+  "h": 990
+ },
+ {
+  "id": "slide-snow-cholera",
+  "chapter": "intro",
+  "title": "John Snow 與 1854 倫敦霍亂",
+  "topics": [
+   "經典案例"
+  ],
+  "keywords": "John Snow cholera Broad Street pump spot map Soho water supply",
+  "caption": "Snow 把死亡個案點在地圖上（spot map），發現集中在 <strong>Broad Street 水泵</strong>附近，並比較不同自來水公司住戶的死亡率 → 現代流行病學之父。",
+  "type": "slide",
+  "src": "figures/slides/snow-cholera.webp",
+  "deck": "0911 Overview & Descriptive Epidemiology",
+  "page": "38",
+  "w": 1400,
+  "h": 990
+ },
+ {
+  "id": "slide-blackfoot",
+  "chapter": "intro",
+  "title": "台灣西南沿海烏腳病",
+  "topics": [
+   "經典案例"
+  ],
+  "keywords": "blackfoot disease arsenic artesian well southwest Taiwan endemic",
+  "caption": "1950–60 年代嘉南沿海的地方病：飲用<strong>含砷深井水</strong>造成周邊血管病變、乾性壞疽。台灣描述性流行病學的經典例子。",
+  "type": "slide",
+  "src": "figures/slides/blackfoot.webp",
+  "deck": "0911 Overview & Descriptive Epidemiology",
+  "page": "39",
+  "w": 1400,
+  "h": 990
+ },
+ {
+  "id": "slide-triad",
+  "chapter": "transmission",
+  "title": "流行病學三角",
+  "topics": [
+   "流行病學三角"
+  ],
+  "keywords": "epidemiologic triad host agent environment vector",
+  "caption": "宿主（host）、病原（agent）、環境（environment）三者交互作用，<strong>病媒（vector）</strong>在中間連接。",
+  "type": "slide",
+  "src": "figures/slides/triad.webp",
+  "deck": "Dynamics of Disease Transmission",
+  "page": "7",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "infectivity",
+  "chapter": "transmission",
+  "title": "感染力、致病力、毒性：分母一層一層往下",
+  "topics": [
+   "病原特性"
+  ],
+  "keywords": "infectivity pathogenicity virulence case fatality subclinical inapparent infection",
+  "caption": "感染力 = 感染 ÷ 易感受者；致病力 = 發病 ÷ 感染；毒性（致死率）= 死亡 ÷ 發病。<strong>受到感染不一定會發病</strong>。"
+ },
+ {
+  "id": "slide-iceberg",
+  "chapter": "transmission",
+  "title": "冰山概念：看得到的只是臨床病例",
+  "topics": [
+   "冰山概念"
+  ],
+  "keywords": "iceberg concept clinical subclinical infection cell response host response",
+  "caption": "水面上是<strong>臨床疾病</strong>（典型、重症、死亡）；水面下是<strong>不顯性感染、帶原</strong>。只靠臨床通報會低估感染規模。",
+  "type": "slide",
+  "src": "figures/slides/iceberg.webp",
+  "deck": "Dynamics of Disease Transmission",
+  "page": "13",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-infection-classes",
+  "chapter": "transmission",
+  "title": "三種感染嚴重度分布",
+  "topics": [
+   "病原特性"
+  ],
+  "keywords": "class A tuberculosis inapparent class B measles class C rabies fatal",
+  "caption": "<strong>A 結核</strong>：多為不顯性感染；<strong>B 麻疹</strong>：多為臨床病例、死亡少；<strong>C 狂犬病</strong>：感染幾乎都致死。",
+  "type": "slide",
+  "src": "figures/slides/infection-classes.webp",
+  "deck": "Dynamics of Disease Transmission",
+  "page": "14",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-endemic-epidemic",
+  "chapter": "transmission",
+  "title": "Endemic vs Epidemic",
+  "topics": [
+   "流行型態"
+  ],
+  "keywords": "endemic epidemic pandemic normal expectancy epidemic curve",
+  "caption": "<strong>Endemic</strong>：平常就存在的基準量；<strong>Epidemic</strong>：明顯超過<strong>正常預期</strong>；<strong>Pandemic</strong>：全球大流行。",
+  "type": "slide",
+  "src": "figures/slides/endemic-epidemic.webp",
+  "deck": "Dynamics of Disease Transmission",
+  "page": "17",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-point-source",
+  "chapter": "transmission",
+  "title": "點源爆發的流行曲線",
+  "topics": [
+   "流行曲線"
+  ],
+  "keywords": "point source outbreak epidemic curve single exposure incubation period",
+  "caption": "共同來源、<strong>一次暴露</strong>：曲線<strong>陡升緩降</strong>，所有病例落在一個潛伏期之內。",
+  "type": "slide",
+  "src": "figures/slides/point-source.webp",
+  "deck": "Dynamics of Disease Transmission",
+  "page": "27",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-propagated",
+  "chapter": "transmission",
+  "title": "連鎖傳播的流行曲線",
+  "topics": [
+   "流行曲線"
+  ],
+  "keywords": "propagated outbreak person to person multiple waves",
+  "caption": "人傳人：<strong>一波接一波</strong>、間隔約一個潛伏期，持續時間比共同來源久，峰值越來越高。",
+  "type": "slide",
+  "src": "figures/slides/propagated.webp",
+  "deck": "Dynamics of Disease Transmission",
+  "page": "29",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-cruise",
+  "chapter": "transmission",
+  "title": "郵輪腸胃炎爆發（諾羅病毒）",
+  "topics": [
+   "流行曲線"
+  ],
+  "keywords": "cruise ship norovirus acute gastroenteritis outbreak epidemic curve passengers crew",
+  "caption": "2002 年 14 天郵輪：旅客與船員的急性腸胃炎病例依發病日期畫成流行曲線（Gordis Fig 2-8）。",
+  "type": "slide",
+  "src": "figures/slides/cruise.webp",
+  "deck": "Dynamics of Disease Transmission",
+  "page": "30",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "herd-threshold",
+  "chapter": "transmission",
+  "title": "群體免疫閾值與 R₀",
+  "topics": [
+   "集體免疫力"
+  ],
+  "keywords": "herd immunity threshold R0 basic reproduction number Rt measles influenza COVID",
+  "caption": "<strong>HIT = 1 − 1/R₀</strong>：R₀ 越大，需要免疫的比例越高（麻疹 92–94%、流感 23%）。<strong>Rt 持續 &lt; 1</strong> 代表疫情受控。"
+ },
+ {
+  "id": "slide-herd-polio",
+  "chapter": "transmission",
+  "title": "群體免疫：小兒麻痺的預期 vs 實際病例",
+  "topics": [
+   "集體免疫力"
+  ],
+  "keywords": "herd immunity paralytic poliomyelitis expected observed 1958 1961",
+  "caption": "美國 1958–61 年小兒麻痺：實際病例比只依疫苗接種者推算的<strong>預期</strong>還少 → 沒打疫苗的人也受到保護。",
+  "type": "slide",
+  "src": "figures/slides/herd-polio.webp",
+  "deck": "Dynamics of Disease Transmission",
+  "page": "36",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-sars-hk",
+  "chapter": "transmission",
+  "title": "2003 香港 SARS 流行曲線",
+  "topics": [
+   "流行曲線"
+  ],
+  "keywords": "SARS Hong Kong 2003 epidemic curve Amoy Gardens superspreading",
+  "caption": "依感染場所分色：三月底<strong>淘大花園</strong>的群聚造成尖峰，其餘是社區與醫院內傳播。",
+  "type": "slide",
+  "src": "figures/slides/sars-hk.webp",
+  "deck": "Dynamics of Disease Transmission",
+  "page": "38",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-incubation",
+  "chapter": "transmission",
+  "title": "潛伏期分布：沙門氏菌食物中毒",
+  "topics": [
+   "潛伏期"
+  ],
+  "keywords": "incubation period distribution Salmonella typhimurium right skewed log normal",
+  "caption": "191 位與會者的潛伏期：<strong>右偏分布</strong>，大多數在一兩天內發病，少數拖很久（Gordis Fig 2-11）。",
+  "type": "slide",
+  "src": "figures/slides/incubation.webp",
+  "deck": "Dynamics of Disease Transmission",
+  "page": "41",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-food-attack",
+  "chapter": "transmission",
+  "title": "食物別侵襲率表",
+  "topics": [
+   "侵襲率"
+  ],
+  "keywords": "food specific attack rate table outbreak investigation egg salad",
+  "caption": "1974 年 Dade County 監獄鏈球菌爆發：<strong>蛋沙拉三明治</strong>吃的人 77.9%、沒吃的 37.0%，差距最大 → 最可疑（飲料 67.8% vs 44.0%）。",
+  "type": "slide",
+  "src": "figures/slides/food-attack.webp",
+  "deck": "Dynamics of Disease Transmission",
+  "page": "44",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-natural-history-data",
+  "chapter": "morbidity",
+  "title": "疾病自然史與資料來源",
+  "topics": [
+   "疾病自然史與資料來源"
+  ],
+  "keywords": "natural history disease onset symptoms seek care diagnosis treatment sources of data interviews physician records hospital",
+  "caption": "同一個病人從發病、出現症狀、就醫、診斷到治療，每一段能留下的資料不同：訪談、醫師紀錄、住院紀錄抓到的人越來越少。",
+  "type": "slide",
+  "src": "figures/slides/natural-history-data.webp",
+  "deck": "Measuring the Occurrence of Disease I：Morbidity",
+  "page": "8",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-person-years",
+  "chapter": "morbidity",
+  "title": "人年（person-years）怎麼算",
+  "topics": [
+   "發生密度"
+  ],
+  "keywords": "person years person time incidence density follow up",
+  "caption": "5 個人各追蹤 5 年 = <strong>25 人年</strong>；每個人觀察多久就貢獻多少人時，中途發病、失訪就停止計算。",
+  "type": "slide",
+  "src": "figures/slides/person-years.webp",
+  "deck": "Measuring the Occurrence of Disease I：Morbidity",
+  "page": "14",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-new-cases",
+  "chapter": "morbidity",
+  "title": "找出真正的新個案",
+  "topics": [
+   "發生率"
+  ],
+  "keywords": "incidence new cases baseline screening prevalent cases follow up one year",
+  "caption": "先在基線篩掉<strong>已經有病的人（盛行個案）</strong>，只追蹤沒病的人，一年後新發生的才是<strong>新個案</strong>。",
+  "type": "slide",
+  "src": "figures/slides/new-cases.webp",
+  "deck": "Measuring the Occurrence of Disease I：Morbidity",
+  "page": "18",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-inc-prev-example",
+  "chapter": "morbidity",
+  "title": "發生率與盛行率計算例",
+  "topics": [
+   "盛行率"
+  ],
+  "keywords": "incidence prevalence example period prevalence point prevalence died cured",
+  "caption": "每條線是一個病人的病程：一年內新發生的算發生率；某時間點仍在病中的算點盛行率，一整年內曾經有病的算期間盛行率。",
+  "type": "slide",
+  "src": "figures/slides/inc-prev-example.webp",
+  "deck": "Measuring the Occurrence of Disease I：Morbidity",
+  "page": "25",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-flask-in",
+  "chapter": "morbidity",
+  "title": "盛行率燒瓶：發生率 ↑ → 盛行率 ↑",
+  "topics": [
+   "發生率與盛行率的關係"
+  ],
+  "keywords": "prevalence pool flask incidence inflow",
+  "caption": "燒瓶裡的水是<strong>盛行個案</strong>，倒進來的是<strong>新發生</strong>；進來的速度變快，瓶裡就變多。",
+  "type": "slide",
+  "src": "figures/slides/flask-in.webp",
+  "deck": "Measuring the Occurrence of Disease I：Morbidity",
+  "page": "28",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-flask-out",
+  "chapter": "morbidity",
+  "title": "盛行率燒瓶：死亡、治癒流出",
+  "topics": [
+   "發生率與盛行率的關係"
+  ],
+  "keywords": "prevalence flask deaths cures outflow duration",
+  "caption": "死亡或治癒都會讓個案流出 → <strong>盛行率 ≈ 發生率 × 病程</strong>：慢性難治（糖尿病）盛行率高；短期可治（感冒）盛行率低。",
+  "type": "slide",
+  "src": "figures/slides/flask-out.webp",
+  "deck": "Measuring the Occurrence of Disease I：Morbidity",
+  "page": "30",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "rate-denominators",
+  "chapter": "mortality",
+  "title": "死亡率、致死率、比例死亡：差在分母",
+  "topics": [
+   "死亡率",
+   "致死率",
+   "比例死亡"
+  ],
+  "keywords": "mortality rate case fatality proportionate mortality denominator",
+  "caption": "同樣 18 人死於 X 病：除以全體人口 → <strong>死亡率</strong>；除以 X 病人 → <strong>致死率</strong>；除以所有死亡 → <strong>比例死亡</strong>（比例，不是率）。"
+ },
+ {
+  "id": "slide-ypll",
+  "chapter": "mortality",
+  "title": "YPLL 的算法",
+  "topics": [
+   "YPLL"
+  ],
+  "keywords": "years of potential life lost YPLL predetermined age 75",
+  "caption": "預定年齡（例 75 歲）減去死亡年齡，再全部加總：嬰兒死亡貢獻 74 年、50 歲死亡貢獻 25 年 → <strong>強調早死</strong>。",
+  "type": "slide",
+  "src": "figures/slides/ypll.webp",
+  "deck": "Measuring the Occurrence of Disease II：Mortality",
+  "page": "21",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-thyroid",
+  "chapter": "mortality",
+  "title": "甲狀腺癌：發生率上升，死亡率不變",
+  "topics": [
+   "甲狀腺癌"
+  ],
+  "keywords": "thyroid cancer incidence mortality overdiagnosis ultrasound papillary",
+  "caption": "發生率一路上升、死亡率幾乎持平 → 多半是<strong>診斷技術進步</strong>抓到更多小的乳突癌（過度診斷），不是真的變多。",
+  "type": "slide",
+  "src": "figures/slides/thyroid.webp",
+  "deck": "Measuring the Occurrence of Disease II：Mortality",
+  "page": "33",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-icd-change",
+  "chapter": "mortality",
+  "title": "ICD 改版造成的死亡率斷層",
+  "topics": [
+   "死亡證明與 ICD"
+  ],
+  "keywords": "ICD 7 ICD 8 coding change diabetes death rate artifact",
+  "caption": "糖尿病死亡率在 ICD-7 → ICD-8 時突然下降：<strong>編碼規則改了</strong>，不是疾病真的減少（人為的變化）。",
+  "type": "slide",
+  "src": "figures/slides/icd-change.webp",
+  "deck": "Measuring the Occurrence of Disease II：Mortality",
+  "page": "39",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "age-adjust",
+  "chapter": "mortality",
+  "title": "直接法 vs 間接法（SMR）",
+  "topics": [
+   "年齡校正"
+  ],
+  "keywords": "direct age adjustment standard population indirect standardized mortality ratio SMR expected deaths",
+  "caption": "<strong>直接法</strong>：自己的年齡別率 × 標準人口；<strong>間接法</strong>：標準族群的年齡別率 × 自己的人數 → 預期死亡數，<strong>SMR = 觀察 ÷ 預期</strong>。"
+ },
+ {
+  "id": "slide-direct-adjust",
+  "chapter": "mortality",
+  "title": "直接法計算例",
+  "topics": [
+   "年齡校正"
+  ],
+  "keywords": "direct age adjustment hypothetical example standard population expected deaths",
+  "caption": "把兩個時期各年齡層的死亡率套到同一個標準人口，加總預期死亡數後再比較（Gordis Table 4.8）。",
+  "type": "slide",
+  "src": "figures/slides/direct-adjust.webp",
+  "deck": "Measuring the Occurrence of Disease II：Mortality",
+  "page": "46",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-smr",
+  "chapter": "mortality",
+  "title": "SMR 計算例",
+  "topics": [
+   "年齡校正"
+  ],
+  "keywords": "standardized mortality ratio SMR white workers expected observed",
+  "caption": "各年齡層人數 × 標準族群的年齡別死亡率 = 預期死亡數；觀察死亡數 ÷ 預期死亡數 = SMR（Gordis Table 4.10）。",
+  "type": "slide",
+  "src": "figures/slides/smr.webp",
+  "deck": "Measuring the Occurrence of Disease II：Mortality",
+  "page": "49",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-daly",
+  "chapter": "mortality",
+  "title": "DALY：早死＋失能",
+  "topics": [
+   "其他疾病衝擊指標"
+  ],
+  "keywords": "DALY disability adjusted life years YLL YLD",
+  "caption": "<strong>DALY = 早死損失的年數＋失能狀態下的年數</strong>；1 DALY = 損失 1 年健康生活。",
+  "type": "slide",
+  "src": "figures/slides/daly.webp",
+  "deck": "Measuring the Occurrence of Disease II：Mortality",
+  "page": "55",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "two-by-two",
+  "chapter": "screening",
+  "title": "篩檢的二乘二表",
+  "topics": [
+   "效度",
+   "預測值"
+  ],
+  "keywords": "sensitivity specificity PPV NPV true positive false positive false negative true negative 2x2 table",
+  "caption": "<strong>直的看</strong>（Se = a/(a+c)、Sp = d/(b+d)）是檢驗本身的特性；<strong>橫的看</strong>（PPV = a/(a+b)、NPV = d/(c+d)）受盛行率影響。"
+ },
+ {
+  "id": "cutoff",
+  "chapter": "screening",
+  "title": "切點怎麼選：敏感度與特異度的取捨",
+  "topics": [
+   "效度"
+  ],
+  "keywords": "cut point cutoff sensitivity specificity trade off overlapping distribution blood glucose",
+  "caption": "降低切點 → <strong>敏感度 ↑、特異度 ↓</strong>；提高切點 → 相反。兩群人的分布重疊，不可能同時 100%。"
+ },
+ {
+  "id": "multi-testing",
+  "chapter": "screening",
+  "title": "序列篩檢 vs 平行篩檢",
+  "topics": [
+   "多重測試"
+  ],
+  "keywords": "sequential two-stage simultaneous parallel testing net sensitivity net specificity",
+  "caption": "<strong>序列</strong>：兩次都陽性才算 → 淨 Se ↓、淨 Sp ↑；<strong>平行</strong>：任一陽性就算 → 淨 Se ↑、淨 Sp ↓。"
+ },
+ {
+  "id": "ppv-prevalence",
+  "chapter": "screening",
+  "title": "PPV 隨盛行率變化",
+  "topics": [
+   "預測值"
+  ],
+  "keywords": "positive predictive value prevalence Hemoccult specificity rare disease",
+  "caption": "盛行率 1% 時，Se = Sp = 80% 的檢驗 PPV 只有 <strong>3.9%</strong>；疾病罕見時特異度最關鍵。"
+ },
+ {
+  "id": "validity-reliability",
+  "chapter": "screening",
+  "title": "效度與信度：打靶圖",
+  "topics": [
+   "效度與信度的關係"
+  ],
+  "keywords": "validity reliability accuracy precision target",
+  "caption": "<strong>效度</strong>是準不準（離靶心多遠），<strong>信度</strong>是穩不穩（點多集中）：集中但偏離靶心 = 信度高、效度低。"
+ },
+ {
+  "id": "km-curve",
+  "chapter": "prognosis",
+  "title": "Kaplan-Meier 存活曲線",
+  "topics": [
+   "Kaplan-Meier 法",
+   "生命表法"
+  ],
+  "keywords": "Kaplan-Meier survival curve censored median survival cumulative survival life table",
+  "caption": "有人死亡才重算，累積存活率 = 各時間點存活率連乘：7/8 × 6/7 × 5/6 × 2/3 = <strong>0.417</strong>。設限者不算死亡，但之後退出分母。"
+ },
+ {
+  "id": "lead-time",
+  "chapter": "prognosis",
+  "title": "Lead time bias 與 Will Rogers 現象",
+  "topics": [
+   "影響預後分析的因素"
+  ],
+  "keywords": "lead time bias screening survival stage migration Will Rogers phenomenon",
+  "caption": "篩檢讓診斷提早，<strong>存活看起來變長但死亡時間沒變</strong>；新診斷工具造成分期遷移，兩期存活率都上升。"
+ },
+ {
+  "id": "rct-flow",
+  "chapter": "rct",
+  "title": "隨機臨床試驗流程與 NNT",
+  "topics": [
+   "RCT 設計",
+   "結果的呈現"
+  ],
+  "keywords": "randomized controlled trial randomization blinding concurrent control intention to treat ARR RRR NNT compliance",
+  "caption": "隨機（防選擇偏差）＋盲性（防測量偏差）＋同期對照（防時間偏差）；依原分組分析，<strong>NNT = 1 ÷ ARR</strong>。"
+ },
+ {
+  "id": "trial-designs",
+  "chapter": "rct",
+  "title": "交叉試驗、因子型設計與新藥分期",
+  "topics": [
+   "RCT 的變形",
+   "新藥試驗分期"
+  ],
+  "keywords": "crossover washout carryover factorial design aspirin beta carotene phase 1 2 3 4",
+  "caption": "交叉試驗要停藥並注意<strong>殘餘效應</strong>；因子型一次看兩個主效果與<strong>交互作用</strong>；Phase 3 完成可上市，Phase 4 是上市後監測。"
+ }
+]

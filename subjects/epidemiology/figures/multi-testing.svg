@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 340" role="img" aria-label="序列篩檢與平行篩檢：序列篩檢只對第一階段陽性者做第二項檢查，兩次都陽性才算陽性，淨敏感度下降、淨特異度上升；平行篩檢同時做兩項，任一陽性就算陽性，淨敏感度上升、淨特異度下降。">
+<defs><marker id="mt-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker></defs>
+<text x="10" y="20" class="th">兩個檢驗怎麼組合</text>
+<rect x="8" y="30" width="376" height="300" rx="14" class="fp"/>
+<text x="22" y="54" class="tb tv">序列篩檢 Sequential（two-stage）</text>
+<rect x="30" y="70" width="110" height="46" rx="9" class="bx"/>
+<text x="85.0" y="97.0" text-anchor="middle" class="tb" style="font-size:12px">全部受檢者</text>
+<rect x="170" y="70" width="110" height="46" rx="9" class="bx"/>
+<text x="225.0" y="92" text-anchor="middle" class="tb" style="font-size:12px">Test 1</text>
+<text x="225.0" y="108" text-anchor="middle" class="ts">便宜、低侵入</text>
+<rect x="170" y="150" width="110" height="46" rx="9" class="bv"/>
+<text x="225.0" y="172" text-anchor="middle" class="tb" style="font-size:12px">Test 2</text>
+<text x="225.0" y="188" text-anchor="middle" class="ts">只驗 T1 陽性者</text>
+<rect x="292" y="150" width="66" height="46" rx="9" class="br"/>
+<text x="325.0" y="177.0" text-anchor="middle" class="tb" style="font-size:12px">陽性</text>
+<rect x="292" y="70" width="66" height="46" rx="9" class="bg"/>
+<text x="325.0" y="97.0" text-anchor="middle" class="tb" style="font-size:12px">陰性</text>
+<path d="M140 93H168" class="ln" marker-end="url(#mt-a)"/>
+<path d="M225 116V148" class="ln" marker-end="url(#mt-a)"/>
+<text x="232" y="136" class="tb">+</text>
+<path d="M280 88H290" class="ln" marker-end="url(#mt-a)"/>
+<text x="283" y="82" class="tb">−</text>
+<path d="M280 173H290" class="ln" marker-end="url(#mt-a)"/>
+<text x="282" y="167" class="tb">+</text>
+<path d="M225 196V214Q225 222 240 222H364Q372 222 372 212V101Q372 93 364 93H360" class="ln" marker-end="url(#mt-a)"/>
+<text x="246" y="238" class="ts">T2 − → 陰性</text>
+<text x="22" y="270" class="tb" style="font-size:12px">兩次都陽性才算陽性</text>
+<text x="22" y="290" style="font-size:12px">淨 Se = Se₁ × Se₂ ↓</text>
+<text x="200" y="290" style="font-size:12px">淨 Sp = Sp₁ + Sp₂ − Sp₁Sp₂ ↑</text>
+<text x="22" y="312" class="ts">例：血糖 → OGTT：淨 Se 63%、淨 Sp 98%</text>
+<text x="22" y="326" class="ts">公衛群體篩檢（快篩 → PCR）</text>
+<rect x="396" y="30" width="376" height="300" rx="14" class="fp"/>
+<text x="410" y="54" class="tb tr">平行篩檢 Simultaneous（parallel）</text>
+<rect x="416" y="110" width="110" height="46" rx="9" class="bx"/>
+<text x="471.0" y="137.0" text-anchor="middle" class="tb" style="font-size:12px">全部受檢者</text>
+<rect x="556" y="70" width="100" height="46" rx="9" class="bx"/>
+<text x="606.0" y="97.0" text-anchor="middle" class="tb" style="font-size:12px">Test A</text>
+<rect x="556" y="150" width="100" height="46" rx="9" class="bx"/>
+<text x="606.0" y="177.0" text-anchor="middle" class="tb" style="font-size:12px">Test B</text>
+<rect x="680" y="110" width="80" height="46" rx="9" class="br"/>
+<text x="720.0" y="132" text-anchor="middle" class="tb" style="font-size:12px">任一陽性</text>
+<text x="720.0" y="148" text-anchor="middle" class="ts">→ 陽性</text>
+<path d="M526 125L554 100" class="ln" marker-end="url(#mt-a)"/>
+<path d="M526 141L554 166" class="ln" marker-end="url(#mt-a)"/>
+<path d="M656 93L680 120" class="ln" marker-end="url(#mt-a)"/>
+<path d="M656 173L680 148" class="ln" marker-end="url(#mt-a)"/>
+<text x="570" y="230" class="ts">兩個都陰性才算陰性</text>
+<text x="410" y="270" class="tb" style="font-size:12px">任一陽性就算陽性</text>
+<text x="410" y="290" style="font-size:12px">淨 Se = Se₁ + Se₂ − Se₁Se₂ ↑</text>
+<text x="620" y="290" style="font-size:12px">淨 Sp = Sp₁ × Sp₂ ↓</text>
+<text x="410" y="312" class="ts">例：A（80%/60%）＋ B（90%/90%）：淨 Se 98%、淨 Sp 54%</text>
+<text x="410" y="326" class="ts">臨床、醫院端快速診斷，不想漏掉</text>
+</svg>
