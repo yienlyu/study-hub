@@ -1,5 +1,22 @@
 [
  {
+  "id": "slide-ch17-overview",
+  "chapter": "ch17",
+  "title": "中間代謝總覽：脂肪酸與 TG 的位置",
+  "topics": [
+   "β-oxidation 與 ATP 計算",
+   "脂肪動員與運輸"
+  ],
+  "keywords": "intermediary metabolism lipids glycerol fatty acids acetyl-CoA citric acid cycle FADH2 NADH oxidative phosphorylation Figure 17.1",
+  "caption": "Figure 17.1：脂質分解成 <strong>glycerol</strong>（進糖解／糖質新生）與<strong>脂肪酸</strong>（β-oxidation → <strong>acetyl-CoA</strong> → TCA）；β-oxidation 本身也直接產生 <strong>FADH₂、NADH</strong> 送電子傳遞鏈。手寫：FADH₂、NADH、GTP。",
+  "type": "slide",
+  "src": "figures/slides/ch17-overview.webp",
+  "deck": "W1 Ch17 Lipid metabolism",
+  "page": "4",
+  "w": 1000,
+  "h": 1243
+ },
+ {
   "id": "fa-transport",
   "chapter": "ch17",
   "title": "脂質的消化、吸收與運輸",

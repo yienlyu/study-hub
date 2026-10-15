@@ -10,6 +10,7 @@
     "data/questions-gongbi.json",
     "data/questions-k114.json",
     "data/questions-class.json",
+    "data/questions-prac.json",
     "data/questions-new.json"
   ],
   "sources": [
@@ -30,6 +31,12 @@
       "label": "2026 課堂題",
       "kind": "class",
       "pill": "warn"
+    },
+    {
+      "key": "prac",
+      "label": "陳顧中練習題",
+      "kind": "class",
+      "pill": "bad"
     },
     {
       "key": "new",
@@ -111,6 +118,10 @@
     [
       "期中考配分：黃彥華 42 分、陳顧中 58 分。",
       "黃彥華老師在 9/24 課堂宣布：Ch17、Ch21、Ch12 共 42 分；陳顧中老師的 Ch23、Ch18、Ch22 共 58 分。陳老師說期中考難度大約等於國考，講義的課後練習題都是國考原題。"
+    ],
+    [
+      "陳顧中：一百多題練習題一定要寫；黃彥華：考題很考古。",
+      "10/15 陳顧中老師再三強調他上傳的《Ch18、22、23 練習題》（一百多題）一定要寫完；也提到黃彥華老師負責的範圍（Ch17、Ch12、Ch21）出題很考古，113 共筆與 114 期中考古要熟。"
     ],
     [
       "114 期中考古：陳顧中部分有官方答案。",
