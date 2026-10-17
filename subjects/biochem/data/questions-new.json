@@ -851,7 +851,7 @@
   "answer": [
    "B"
   ],
-  "explain": "PE 被 SAM 甲基化 3 次變成 PC。",
+  "explain": "肝臟中 PE → PC：phosphatidylethanolamine N-methyltransferase（PEMT）連續三次甲基化，甲基供應者是 S-adenosylmethionine（SAM，AdoMet，來自 methionine + ATP）→ 選 B。每給出一個甲基，SAM 變成 S-adenosylhomocysteine。\n(A) N⁵-methyl-THF 是把甲基交給 homocysteine 再生 methionine（methionine synthase，需 B₁₂），不直接甲基化 PE。(C) Methylcobalamin 是 methionine synthase 的輔酶。(D) Biotin 是 carboxylase 的輔酶，攜帶 CO₂。",
   "topics": [
    "磷脂質合成"
   ],

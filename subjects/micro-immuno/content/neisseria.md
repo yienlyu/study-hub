@@ -56,7 +56,27 @@
 === slides ===
 # 上課 slides
 
-> 🕒 本章**尚未上課**（依去年進度約 W8）。弧菌已出現在鍾筱菁老師 10/11 公布的講義「腸桿菌及弧菌.pptx」，重點如下（完整表格見「腸桿菌科」章的上課 slides）。
+> 🕒 本章**尚未上課**。2026 年 **Neisseria 改由黃姿雯老師**上（講義「[講義] 葡萄球菌、鏈球菌與腸球菌、奈瑟氏菌」，10/17 公布）；弧菌在鍾筱菁老師的「腸桿菌及弧菌.pptx」，10/23 上課（完整表格見「腸桿菌科」章的上課 slides）。*Pseudomonas*、*Campylobacter* 的講義尚未公布。
+
+## *Neisseria*（黃姿雯講義，Murray Ch.23）
+| 項目 | slides 重點 |
+|---|---|
+| 菌屬 | 35 種，多為黏膜共生菌；致病種只有 ***N. gonorrhoeae*（淋病雙球菌）** 與 ***N. meningitidis*（腦膜炎雙球菌）**；**人是唯一 reservoir** |
+| 特性 | G(−) 好氧雙球菌；不會動、不產孢子；**全部 oxidase (+)**、多數 catalase (+)；**natural competency**（幫助修復嗜中性球 ROS 造成的 DNA 損傷） |
+| 培養 | 非致病種：nutrient、blood agar 都長；***N. meningitidis*：nutrient ±、blood +++**；***N. gonorrhoeae*：nutrient、blood 都不長，要 chocolate agar**；**絕對好氧**、怕乾燥與血液中的脂肪酸、金屬 → 淋菌要用運送培養拭子；挑剔程度 **gonococcus > meningococcus**；35–37 °C，**怕冷**；淋菌需 **5% CO₂**；選擇性：**modified Thayer-Martin**（chocolate + vancomycin、colistin、nystatin、trimethoprim） |
+| 毒力因子 | **Pili**（附著、抗嗜中性球殺菌；phase 與 antigenic variation）；**Por（PorB）**：干擾吞噬、幫助入侵、抗血清殺菌；**Opa**：結合上皮與吞噬細胞；**Rmp**：干擾血清殺菌；**鐵攝取蛋白**（transferrin 受體）；**LOS**（lipid A + core，**無 O antigen**）→ 刺激 **TNF-α**；**IgA1 protease**；**capsule 只有 *N. meningitidis*** |
+| 表面抗原變化 | **Phase variation**：基因 ON/OFF（莢膜、pili；入侵時要關掉莢膜）；**Antigenic variation**：pili 經程式化重組依序換抗原 → 「領先」免疫反應 → **淋病可重複感染、不產生免疫，pili 疫苗失敗** |
+| 致病步驟 | **黏附**（pili、Opa、LOS）→ **逃避**（進入黏膜細胞與嗜中性球內繁殖）→ **入侵**（transcytosis 到黏膜下層） |
+| 淋病 | 每年約 8,800 萬例；**男**：化膿性尿道炎、排尿痛（**95% 有症狀**）；**女**：子宮頸炎、**PID、不孕**（**約一半有症狀**，無症狀者是 reservoir）；咽炎、**播散性感染**（女性 1–3%，男性罕見：敗血性關節炎、皮膚病灶）；**新生兒眼炎** → 1% silver nitrate、1% tetracycline 或 0.5% erythromycin 眼藥膏預防 |
+| 淋病診斷 | **Gram stain**：有症狀男性尿道炎 > 90% 有效，**對女性子宮頸炎不敏感**（例外：嗜中性球內 G(−) 雙球菌）；喉、肛門因有共生 Neisseria 不準；**NAAT = 金標準**（常與披衣菌一起驗），但**測不出抗藥性**；培養用 modified Thayer-Martin |
+| 淋病治療 | **不建議 penicillin**；**ceftriaxone + azithromycin**；抗藥：低程度 = 染色體 **PBP 突變**；高程度 = **plasmid 上的 penicillinase（可轉移）**；**抗原多樣 → 沒有疫苗**；安全性行為、追蹤性伴侶、新生兒眼部預防 |
+| 腦膜炎雙球菌疾病 | 每年約 50 萬例；**流行性腦脊髓膜炎**（突發頭痛、發燒、頸部僵硬）；**腦膜炎雙球菌血症**：快速進展敗血症、**瘀斑（petechial rash）**、多重器官衰竭；**空氣傳播、約 10% 帶菌**；不立即治療死亡率高 |
+| 莢膜 | 多醣莢膜 **13 個血清群**、抗吞噬、用於分型（A、B、C、W135、Y）；**四價疫苗 A、C、W135、Y**；**B 型免疫原性差、與人類神經組織抗原相似 → 沒有疫苗** |
+| 腦膜炎雙球菌診斷 | **CSF Gram stain** 有效；莢膜抗原檢測（CSF、血、尿）比 Gram stain 不敏感、尿液偽陽性 → 價值有限；CSF、血、痰培養 |
+| 腦膜炎雙球菌治療 | **ceftriaxone 或 cefotaxime**（敏感才用 penicillin）；**很少有 plasmid → 很少有 β-lactamase**；密切接觸者化學預防：**rifampin、ciprofloxacin 或 ceftriaxone**；A、C、Y、W135 多醣與結合型疫苗 |
+| 比較 | 共同：**LOS（endotoxin）**、pili 變異、OMP 變異（Por／Opa／Rmp）、IgA protease、鐵攝取；**淋菌無莢膜、抗藥較常見**；**腦膜炎菌有多醣莢膜、抗藥罕見** |
+| 流行病學比較 | 淋菌：病原菌；生殖道、口咽、肛門黏膜；**性傳染**；多性伴年輕人（女 15–19 歲、男 20–24 歲）；全球、美國高；**無疫苗**。腦膜炎菌：正常菌／病原菌；口咽黏膜；**飛沫**；**> 2 個月嬰兒、6 個月–2 歲高峰**，以及群居年輕人（宿舍、軍營）；非洲「**腦膜炎帶**」；**在上呼吸道不致病，入血才致病**；有疫苗（非全部血清型） |
+| 相關菌屬 | 生長慢、挑剔、伺機性：***Eikenella corrodens***（小 GNB）：**人咬傷、打架拳傷**、亞急性心內膜炎；***Kingella kingae***（小 G(−) 球桿菌）：亞急性心內膜炎 |
 
 ## *Vibrio*（講義「腸桿菌及弧菌」）
 - 共同特性：**彎曲桿菌**、**oxidase (+)**、有鞘的極鞭毛、**需要鹽**、耐鹽鹼；**TCBS agar**。
@@ -84,8 +104,12 @@
 | *Neisseria* 的毒力因子是 IgM protease、鞭毛 | **IgA1 protease**、pili、LOS；**沒有鞭毛** |
 | *N. gonorrhoeae* 有多醣莢膜可做疫苗 | 莢膜疫苗是 ***N. meningitidis***；淋病沒有疫苗 |
 | 淋病診斷靠血清抗體 4 倍上升 | **NAAT 是金標準**；男性尿道分泌物嗜中性球內 G(−) 雙球菌 |
-| 女性淋病多有症狀 | 女性**多無症狀** → PID、不孕、子宮外孕；男性多有症狀 |
+| 女性淋病多有症狀 | 黃姿雯講義：**女性約一半有症狀**（無症狀者是 reservoir）、**男性 95% 有症狀** → 女性 PID、不孕、子宮外孕 |
 | 腦膜炎雙球菌有其他動物宿主 | **人唯一宿主**、鼻咽帶菌、飛沫 |
+| 淋病用 penicillin 治療 | **ceftriaxone + azithromycin**；高程度抗藥 = plasmid penicillinase，低程度 = PBP 突變 |
+| 腦膜炎雙球菌 B 型有多醣疫苗 | 四價疫苗 **A、C、W135、Y**；**B 型免疫原性差、像人類神經抗原 → 無多醣疫苗** |
+| *N. gonorrhoeae* 可在一般 blood agar 生長 | 淋菌要 **chocolate agar／modified Thayer-Martin + 5% CO₂**；腦膜炎菌 blood agar 可長 |
+| 腦膜炎雙球菌常帶 β-lactamase | 腦膜炎菌**很少有 plasmid、很少產 β-lactamase**；接觸者預防用 rifampin、ciprofloxacin 或 ceftriaxone |
 | *H. pylori* 嚴格厭氧、人畜共通 | **microaerophilic**、urease (+)、**人唯一宿主** |
 | *H. pylori* 與大腸癌相關 | 與**胃癌、MALT lymphoma**、消化性潰瘍相關 |
 | *H. pylori* 診斷金標準是血清學 | **切片組織學**；血清學在低盛行區不宜第一線 |

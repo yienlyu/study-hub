@@ -156,7 +156,7 @@
       "id": "staph-strep",
       "title": "葡萄球菌、鏈球菌、腸球菌",
       "en": "Staphylococcus, Streptococcus & Enterococcus",
-      "teacher": "鍾筱菁",
+      "teacher": "黃姿雯",
       "week": "未上",
       "slides": false
     },
@@ -165,8 +165,8 @@
       "title": "腸桿菌科",
       "en": "Enterobacteriaceae",
       "teacher": "鍾筱菁",
-      "week": "未上",
-      "slides": false
+      "week": "W6-2",
+      "slides": true
     },
     {
       "id": "bacillus",
@@ -180,7 +180,7 @@
       "id": "neisseria",
       "title": "Neisseria、Helicobacter、Pseudomonas、Vibrio",
       "en": "Neisseria, Helicobacter, Pseudomonas, Vibrio",
-      "teacher": "鍾筱菁",
+      "teacher": "黃姿雯／鍾筱菁",
       "week": "未上",
       "slides": false
     },

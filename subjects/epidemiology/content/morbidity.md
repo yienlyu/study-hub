@@ -76,6 +76,8 @@
 - **糖尿病**（慢性、無法治癒、不太會死）→ **low incidence、high prevalence**。
 - **普通感冒**（病程短、會好）→ **high incidence、low prevalence**。
 - **公式：Prevalence = Incidence × Duration**
+  - 精確式（人口穩定、I 與 P 變化不大）：**P ÷ (1 − P) = I × D**；疾病少見（**P ≤ 0.05**）時才簡化成 P ≈ I × D（115 共筆 W4）。
+  - 盛行率的分母**不考慮時間** → 單位不會是人年（與發生率不同）；分子含新舊病例。
   - 病程相同時，發生率越高 → 盛行率越高。
   - 發生率相同時，病程越長 → 盛行率越高。
 - **Hitown／Lotown 胸部 X 光例子**（各 1,000 人）：

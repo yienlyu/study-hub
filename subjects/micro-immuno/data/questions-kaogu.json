@@ -203,7 +203,7 @@
   "answer": [
    "C"
   ],
-  "explain": "柯霍準則",
+  "explain": "Koch's postulates（柯霍準則）用來證明某微生物是某疾病的病因：① 病原存在於每一個病例 ② 可從病人分離並純培養 ③ 純培養接種到健康宿主會產生相同疾病 ④ 可從實驗宿主再分離出相同病原 → 選 C。\n(A) Germ theory（Pasteur）是「疾病由微生物引起」的概念，但「證明」的方法是 Koch 準則。(B) 自然發生說已被 Pasteur 推翻。(D) Semmelweis 以洗手降低產褥熱。",
   "topics": [
    "微生物學史／柯霍假說"
   ],
@@ -381,7 +381,7 @@
   "answer": [
    "D"
   ],
-  "explain": "探討疾病與微生物的關係",
+  "explain": "Koch's postulates 的主要用途是證明某疾病是由某一特定微生物引起（建立病原與疾病的因果）→ 選 D。\n(A) 鑑定微生物特性靠生化、血清、基因方法。(B) 分離只是準則中的一個步驟。(C) 疫苗開發不是準則的目的。新觀念補充：有些疾病由整個菌落失衡（dysbiosis）造成，無法用「一菌一病」解釋。",
   "topics": [
    "微生物學史／柯霍假說"
   ],
@@ -557,7 +557,7 @@
   "answer": [
    "B"
   ],
-  "explain": "lipid A 屬於 LPS,只有革蘭氏陰性菌有",
+  "explain": "Lipid A 是 LPS（內毒素）的毒性部分，LPS 只存在於革蘭氏陰性菌的外膜 → 選 B。\n(A) Peptidoglycan 兩者都有（G+ 厚、G− 薄）。(C) Capsule、(D) Flagella 兩類細菌都可能有，也不是每隻都有。G+ 獨有的則是 teichoic／lipoteichoic acid。",
   "topics": [
    "細胞壁／革蘭氏染色",
    "細菌構造與功能"
@@ -729,7 +729,7 @@
   "answer": [
    "D"
   ],
-  "explain": "所有細菌都具有細胞膜、DNA、核糖體",
+  "explain": "所有細菌都具有的構造：細胞膜（cell membrane）、核區 DNA（nucleoid）、70S 核糖體、細胞質 → 選 D（Mycoplasma 沒有細胞壁，但仍有細胞膜）。\nCapsule、flagella、plasmid、pili、spore 都是「不一定有」的構造。",
   "topics": [
    "細菌構造與功能"
   ],
@@ -843,7 +843,7 @@
   "answer": [
    "A"
   ],
-  "explain": "做全基因定序就可以把這隻細菌看光光囉〜",
+  "explain": "最精確的分類方式是分析遺傳物質：16S rRNA 定序、全基因體定序、DNA–DNA 雜交 → 選 A。\n全菌蛋白、醣、脂質、酵素（biochemical typing）分析屬表現型（phenotype），會受培養條件影響；臨床最常用來定種的是生化鑑定（與 MALDI-TOF），但精確度不如基因。",
   "topics": [
    "細菌分類鑑定"
   ],
@@ -1023,7 +1023,7 @@
   "answer": [
    "C"
   ],
-  "explain": "Capsule 由多醣組成",
+  "explain": "Capsule（莢膜）多由多醣組成（例外：炭疽桿菌是 poly-D-glutamic acid 胜肽），是選項中唯一不是蛋白質的構造 → 選 C。\nFlagellum（flagellin）、pilus（pilin）、porin（外膜通道蛋白）都是蛋白質。",
   "topics": [
    "細胞壁／革蘭氏染色",
    "細菌構造與功能"
@@ -1098,7 +1098,7 @@
   "answer": [
    "E"
   ],
-  "explain": "我們全人類的弗萊明老師",
+  "explain": "1928 年 Alexander Fleming 發現青黴菌（Penicillium）分泌的 penicillin 能抑制葡萄球菌 → 選 E。\n人物配對：Paul Ehrlich — 化學治療（Salvarsan 治梅毒，magic bullet）；Robert Koch — Koch's postulates、結核菌、炭疽；Louis Pasteur — germ theory、巴斯德滅菌法、狂犬病疫苗；John Enders — 首次在組織培養中培養小兒麻痺病毒。",
   "topics": [
    "微生物學史／柯霍假說"
   ],
@@ -1559,7 +1559,7 @@
   "answer": [
    "A"
   ],
-  "explain": "Cellulose是植物細胞壁的成分",
+  "explain": "細菌細胞壁成分：peptidoglycan（由 N-acetylglucosamine 與 N-acetylmuramic acid 交替，以 peptide chains 交聯）、G+ 的 teichoic acid、G− 的外膜與 LPS。\nCellulose（纖維素）是植物細胞壁的成分，不在細菌細胞壁 → 選 A（真菌細胞壁則是 chitin、β-glucan）。",
   "topics": [
    "細胞壁／革蘭氏染色"
   ],
@@ -1713,7 +1713,7 @@
   "answer": [
    "A"
   ],
-  "explain": "雙向皆參與",
+  "explain": "細菌 DNA 複製從 origin 開始雙向進行（bidirectional），兩個複製叉都有 DNA polymerase 參與 → (A)「只參與一個方向」錯誤 → 選 A。\n(B) leading strand 連續合成；(C) lagging strand 以 RNA primer 起始、形成 Okazaki fragments；(D) helicase 解開雙股、gyrase（topoisomerase II）解除超螺旋。(E) 單一股的合成方向一定是 5′→3′，所以每一股只朝一個方向延長，敘述正確。",
   "topics": [
    "DNA 複製與基因表現"
   ],
@@ -1826,7 +1826,7 @@
   "answer": [
    "E"
   ],
-  "explain": "",
+  "explain": "細菌遺傳變化的方式：(A) 突變（點突變、插入、刪除）；水平基因轉移三種：(B) 接合 conjugation（經 sex pilus 傳遞 plasmid，需細胞接觸）、(C) 轉形 transformation（吸收環境中裸露 DNA）、(D) 轉導 transduction（噬菌體攜帶 DNA）。四者都能造成遺傳改變 → 選 E。轉位子（transposon）也可在基因組內移動。",
   "topics": [
    "突變",
    "水平基因轉移"
@@ -1866,7 +1866,7 @@
   "answer": [
    "B"
   ],
-  "explain": "",
+  "explain": "Chlorhexidine 屬 biguanide（雙胍類），常用於手部消毒、手術前皮膚準備、漱口水，作用是破壞細胞膜 → 選 B。\nHexachlorophene、phenol、triclosan 都屬酚類（phenolics）。",
   "topics": [
    "滅菌與消毒"
   ],
@@ -2115,7 +2115,7 @@
   "answer": [
    "D"
   ],
-  "explain": "(D)C3 應改為 C1。詳見 1. (C)",
+  "explain": "(A) 正確：factor B 屬於 alternative pathway，classical pathway 不需要。\n(B) 正確：部分裂解片段（C3a、C5a，anaphylatoxins）會促進發炎。\n(C) 正確：C1 複合物（C1q 結合抗原抗體複合物上的 Fc，C1r、C1s 隨之活化）啟動 classical pathway。\n(D) 錯誤：classical pathway 第一個被活化的是 C1，不是 C3（C3 是三條路徑的匯合點；在 alternative pathway 中 C3 才是第一個）→ 選 D。",
   "topics": [
    "補體系統"
   ],
@@ -3434,7 +3434,7 @@
   "answer": [
    "D"
   ],
-  "explain": "(D) MHC II 跟調理素無關",
+  "explain": "吞噬細胞的 opsonic receptors：Fc receptor（結合 IgG 調理）、complement receptor（CR1、CR3 結合 C3b、iC3b）、mannose receptor、scavenger receptor、CD14、TLR 等辨識病原的受體。\nMHC class II 是把胜肽呈現給 CD4 T 細胞的分子，與調理吞噬無關 → 選 D。",
   "topics": [
    "TLR／PRR",
    "調理作用／opsonic receptor",
@@ -3686,7 +3686,7 @@
   "answer": [
    "A"
   ],
-  "explain": "(A) 是 CD-14 不是 CD-15",
+  "explain": "Opsonic／吞噬相關受體：mannose receptor、Fc receptor、complement receptor、CD14（LPS 的共受體）與 TLR。\n(A) 的錯誤在「CD15」：應為 CD14；CD15 是嗜中性球表面的醣類抗原（Lewis X），不是 opsonic receptor → 選 A。",
   "topics": [
    "補體系統",
    "TLR／PRR",
@@ -4721,7 +4721,7 @@
   "answer": [
    "C"
   ],
-  "explain": "過敏反應與 IgE 有關",
+  "explain": "吃下海鮮後很快出現全身紅斑、蕁麻疹、氣管收縮 → 第一型（立即型）過敏：過敏原與肥大細胞、嗜鹼性球表面 FcεRI 上的 IgE 結合並交聯 → 去顆粒釋放 histamine、leukotriene、prostaglandin → 血管擴張通透、支氣管平滑肌收縮 → 選 C。\nIgA 負責黏膜免疫、IgD 主要在 naïve B 細胞表面、IgG 參與第二、三型過敏與 ADCC。",
   "topics": [
    "抗體類別與功能"
   ],
@@ -4791,7 +4791,7 @@
   "answer": [
    "C"
   ],
-  "explain": "(A)(D)為 IgG\n(B)為 IgA",
+  "explain": "(A) 錯誤：血清中含量最高的是 IgG（約 75%），不是 IgA。\n(B) 錯誤：腸胃道黏膜中最多的是分泌型 IgA（dimer + secretory component），不是 IgE。\n(C) 正確：IgG 分子小、能從血管擴散到組織液，組織液中含量高 → 選 C。\n(D) 錯誤：能通過胎盤的是 IgG（經 FcRn），IgM 是五聚體，不能通過胎盤。",
   "topics": [
    "抗體類別與功能"
   ],
@@ -5198,7 +5198,7 @@
   "answer": [
    "C"
   ],
-  "explain": "CD4、CD8 分別對應到 TH、TC",
+  "explain": "Helper T 細胞的 co-receptor 是 CD4（結合 MHC II），cytotoxic T 細胞的 co-receptor 是 CD8（結合 MHC I）→ 選 C。口訣 4 × 2 = 8 × 1。\nCD3 是所有 T 細胞上與 TCR 一起傳遞訊號的複合體（含 ITAM），不是 co-receptor。",
   "topics": [
    "TCR 與 γδ T 細胞"
   ],
@@ -6178,7 +6178,7 @@
   "answer": [
    "B"
   ],
-  "explain": "(B) 只有 IgG 與 IgM 可以活化補體",
+  "explain": "能以 classical pathway 活化（固定）補體的抗體是 IgM 與 IgG（IgG3 > IgG1 > IgG2，IgG4 幾乎不行）。IgM 五聚體一個分子就能結合 C1q，是最強的補體活化抗體 → 選 B。\nIgA、IgD、IgE 不經 classical pathway 固定補體。",
   "topics": [
    "抗體類別與功能"
   ],
@@ -6217,7 +6217,7 @@
   "answer": [
    "A"
   ],
-  "explain": "(A) IL-2 由 T 細胞產生，與抗體無關",
+  "explain": "抗原–抗體結合後的效應：中和（neutralization，阻擋病原或毒素結合受體）、調理（opsonization，促進吞噬）、補體活化（classical pathway）、凝集（agglutination）、ADCC。\nIL-2 是活化 T 細胞分泌的生長因子，不是抗原抗體結合的結果 → 選 A。",
   "topics": [
    "抗體類別與功能"
   ],
@@ -6295,7 +6295,7 @@
   "answer": [
    "C"
   ],
-  "explain": "三種補體的活化路徑都會產生 C3b",
+  "explain": "三條補體路徑的起點不同（classical：C1 結合抗原抗體複合物；lectin：MBL 結合醣；alternative：C3 自發水解），但都會形成 C3 convertase（C4b2a 或 C3bBb）切開 C3 → C3a + C3b，從 C3 的活化開始走同一條路（C5 convertase → C5b–C9 MAC）→ 選 C。",
   "topics": [
    "補體系統"
   ],
@@ -8077,7 +8077,7 @@
   "answer": [
    "A"
   ],
-  "explain": "呈上題，產生 SLT 的是 EHEC",
+  "explain": "產生 Shiga toxin（Shiga-like toxin、verotoxin，Stx1／Stx2）的是 EHEC（STEC），代表血清型 O157:H7，造成出血性結腸炎與溶血性尿毒症候群（HUS）→ 選 A。\nEPEC 用 BFP 與 intimin 造成 attaching & effacing 病灶，不產 Shiga toxin；EIEC 侵入上皮造成類痢疾；ETEC 產 LT（↑cAMP）與 ST（↑cGMP），造成旅行者水瀉。",
   "topics": [
    "毒素（內/外毒素、AB toxin）",
    "E. coli 致病型"
@@ -8521,7 +8521,7 @@
   "answer": [
    "C"
   ],
-  "explain": "沙門氏菌感染有 95%是食物中毒",
+  "explain": "承上題（越南旅遊、持續發燒、肝腫大、血液培養出不發酵乳糖的腸桿菌 → 傷寒 Salmonella Typhi）。\n傷寒經糞口傳染：人是唯一宿主，病人與長期帶菌者（膽囊帶菌，Typhoid Mary）的糞便污染水源與食物，人喝了被污染的水（如地下水、井水）而感染。考古答案為 (C) 地下水，指的是傳播的媒介（vehicle）；長期帶菌者則是病原的來源（reservoir），選項 B 也常被視為重要感染源，作答時以題目給的答案為準。空調系統是 Legionella，寵物不是傷寒的宿主。",
   "topics": [
    "Salmonella"
   ],
@@ -8556,7 +8556,7 @@
   "answer": [
    "D"
   ],
-  "explain": "請參見第 3 題",
+  "explain": "EHEC（O157:H7）產生 Shiga toxin：B 次單元結合腎小球內皮與腸上皮的 Gb3 受體，A 次單元切 28S rRNA（60S）抑制蛋白質合成 → 內皮損傷、微血管血栓 → 溶血性尿毒症候群（HUS）：微血管病性溶血性貧血、血小板減少、急性腎衰竭，以兒童最常見 → 選 D。",
   "topics": [
    "E. coli 致病型"
   ],
@@ -8733,7 +8733,7 @@
   "answer": [
    "A"
   ],
-  "explain": "賀氏菌可以人人糞口傳染",
+  "explain": "(A) 錯誤：Shigella 以人為唯一宿主，經糞口、人傳人傳播，感染劑量很低（10–100 隻）→ 選 A。\n(B) 正確：Shigella 侵入結腸上皮並在細胞間擴散，但很少進入血流（與 Salmonella Typhi 不同）。\n(C) 正確：痢疾的糞便量少，含血、黏液與發炎細胞，伴 tenesmus。\n(D) 正確：經 M cell 進入，再從基底側侵入上皮細胞。",
   "topics": [
    "Shigella"
   ],
@@ -9956,7 +9956,7 @@
   "answer": [
    "B"
   ],
-  "explain": "",
+  "explain": "人畜共通（zoonotic）：Campylobacter jejuni 的保菌宿主是家禽與家畜，人吃未煮熟的雞肉或喝生乳感染（併發 Guillain-Barré syndrome）→ 選 B。\nSalmonella Typhi、Neisseria gonorrhoeae、Neisseria meningitidis 都以人為唯一宿主。",
   "topics": [
    "Neisseria",
    "H. pylori／Campylobacter"
@@ -12440,7 +12440,7 @@
   "answer": [
    "C"
   ],
-  "explain": "97 年國考題。關鍵字：鴿糞、腦膜炎",
+  "explain": "新型隱球菌（Cryptococcus neoformans）：有厚多醣莢膜的酵母菌，常存在鴿糞污染的土壤中；經呼吸道吸入 → 肺（常無症狀）→ 血行散播到中樞神經 → 腦膜炎，好發於 AIDS 等免疫低下者；腦脊髓液以墨汁染色（India ink）看莢膜 → 選 C。\n申克氏孢絲菌：玫瑰刺傷、淋巴皮膚感染；黃色麴菌：黃麴毒素、肺麴菌病；白色念珠菌：黏膜念珠菌病（鵝口瘡）。",
   "topics": [
    "Cryptococcus／Candida",
    "皮膚／皮下／系統性黴菌"
@@ -12834,7 +12834,7 @@
   "answer": [
    "D"
   ],
-  "explain": "94 年國考題已經出現超級多遍囉！要記得呦～",
+  "explain": "最易侵犯腦組織（腦膜炎）的真菌是新型隱球菌（Cryptococcus neoformans）：吸入鴿糞中的菌 → 肺 → 血行散播到中樞神經；以墨汁染色、隱球菌莢膜抗原檢測診斷，治療 amphotericin B + flucytosine，之後 fluconazole → 選 D（國考常出）。\nSporothrix：皮膚淋巴型；Trichophyton rubrum：皮癬菌（足癬、甲癬）；Pneumocystis：AIDS 病人的間質性肺炎。",
   "topics": [
    "真菌構造與分類",
    "Cryptococcus／Candida",
@@ -12922,7 +12922,7 @@
   "answer": [
    "C"
   ],
-  "explain": "Global",
+  "explain": "(A) 正確：抗藥性越來越嚴重，主因是抗生素濫用（醫療與畜牧）。(B) 正確：抗藥菌感染難治、死亡率高。\n(C) 錯誤：抗藥性是全球性問題，每個國家都有，不只南非美洲 → 選 C。\n(D) 正確：噬菌體療法（phage therapy）是替代抗生素的研究方向之一。",
   "topics": [
    "微生物學史／柯霍假說"
   ],
@@ -12957,7 +12957,7 @@
   "answer": [
    "A"
   ],
-  "explain": "LPS",
+  "explain": "LPS（脂多醣）的 lipid A 是內毒素：與 LBP、CD14 結合後經 TLR4 活化巨噬細胞 → 大量 IL-1、TNF-α、IL-6 → 發燒、血管擴張、低血壓、DIC → 敗血性休克 → 選 A。\nPeptidoglycan 可經 TLR2、NOD 引起發炎，但典型的內毒素休克是 LPS；porin、pilus 不是休克的主因。",
   "topics": [
    "細胞壁／革蘭氏染色",
    "細菌構造與功能"
@@ -12993,7 +12993,7 @@
   "answer": [
    "B"
   ],
-  "explain": "Lipid A in LPS",
+  "explain": "Lipid A 是 LPS 的一部分，LPS 只存在於革蘭氏陰性菌外膜 → 選 B。\nPeptidoglycan 兩者都有（G+ 厚、G− 薄）；flagella、capsule 兩類都可能有。",
   "topics": [
    "細胞壁／革蘭氏染色",
    "細菌構造與功能"
@@ -13070,7 +13070,7 @@
   "answer": [
    "A"
   ],
-  "explain": "PCR: genotype",
+  "explain": "表現型（phenotype）鑑定看細菌表現出來的性質：溶血型態、碳源利用（生化反應）、血清型（抗原）、形態、染色。\nPCR 定序分析的是 DNA 序列，屬基因型（genotype）方法 → 選 A。",
   "topics": [
    "細菌分類鑑定"
   ],
@@ -13176,7 +13176,7 @@
   "answer": [
    "A"
   ],
-  "explain": "EASY",
+  "explain": "(A) 正確：質體可經接合（conjugation）等方式在細菌間傳遞，常帶抗藥性（R plasmid）與毒力基因 → 選 A。\n(B) 錯誤：質體獨立於染色體自行複製（有自己的 origin），不一定與染色體同步。\n(C) 錯誤：質體多為環狀雙股 DNA，不是線狀 RNA。\n(D) 錯誤：革蘭氏陽性與陰性菌都可能有質體。",
   "topics": [
    "細菌構造與功能",
    "DNA 複製與基因表現"
@@ -13212,7 +13212,7 @@
   "answer": [
    "C"
   ],
-  "explain": "如果不能移除 ROS，bacteria 會死掉",
+  "explain": "利用氧氣進行有氧呼吸時會產生毒性的活性氧（superoxide、H₂O₂、hydroxyl radical）。需氧菌能在有氧環境生存，是因為具有 superoxide dismutase（SOD）、catalase、peroxidase 等酵素清除這些自由基 → 選 C。\n嚴格厭氧菌缺乏這些酵素，所以氧氣對它們有毒。",
   "topics": [
    "生長曲線與代謝"
   ],
@@ -13247,7 +13247,7 @@
   "answer": [
    "A"
   ],
-  "explain": "細菌不會「完全」不會生長",
+  "explain": "(A) 錯誤：延遲期（lag phase）細菌在適應環境、合成酵素，分裂少但不是「完全不生長」（縱軸是 log，看似水平但仍有變化）→ 選 A。\n(B) 正確：對數期細菌活躍分裂、多為活菌，對作用於細胞壁的抗生素（如 penicillin）最敏感。\n(C) 正確：穩定期營養耗盡、壓力大，較易出現存活下來的耐受或抗藥株。\n(D) 正確：世代時間（倍增時間）用對數期計算。",
   "topics": [
    "生長曲線與代謝"
   ],
@@ -13388,7 +13388,7 @@
   "answer": [
    "C"
   ],
-  "explain": "需 121 度或以上",
+  "explain": "(A) 正確：70% 酒精比 95% 有效，因為有水才能使蛋白質變性，且揮發較慢、能滲透。\n(B) 正確：戊二醛（glutaraldehyde）是高效消毒劑，延長時間可殺孢子（化學滅菌劑）。\n(C) 錯誤：高壓蒸氣滅菌（autoclave）是 121 °C、15 psi、約 15 分鐘以上，不是 100 °C → 選 C。\n(D) 正確：紫外線穿透力差，只能作用在直接照射的表面。",
   "topics": [
    "滅菌與消毒"
   ],
@@ -13423,7 +13423,7 @@
   "answer": [
    "B"
   ],
-  "explain": "EASY",
+  "explain": "不耐熱的塑膠植入物、隱形眼鏡等醫材，工業上最常用游離輻射（gamma radiation）滅菌：穿透力強，可在包裝完成後滅菌，不留有毒殘留，但設備昂貴 → 選 B。\nUV 穿透力差；formaldehyde 有毒性殘留；phenol 只是消毒劑，不能滅菌。",
   "topics": [
    "滅菌與消毒"
   ],
@@ -13458,7 +13458,7 @@
   "answer": [
    "A"
   ],
-  "explain": "EASY",
+  "explain": "醫院紗布、布類、手術器械等耐熱耐濕的物品，最適當的滅菌方式是高壓蒸氣滅菌（121 °C、15 psi、約 15–20 分鐘），可殺死孢子、穿透布料 → 選 A。\n乾熱（170 °C、2 小時）適用玻璃、金屬、粉末、油類，會讓布類焦化；戊二醛用於不耐熱的內視鏡；UV 只能處理表面。",
   "topics": [
    "滅菌與消毒"
   ],
@@ -13493,7 +13493,7 @@
   "answer": [
    "C"
   ],
-  "explain": "EASY",
+  "explain": "牛奶用巴斯德殺菌法（pasteurization，如 63 °C 30 分鐘或 72 °C 15 秒）：殺死病原菌（如 Brucella、Mycobacterium、Listeria、Salmonella）並減少腐敗菌，但不是滅菌，以保留風味與營養 → 選 C。\n高壓蒸氣與乾熱會破壞牛奶品質；紫外線穿透不了液體。",
   "topics": [
    "滅菌與消毒"
   ],
@@ -13811,7 +13811,7 @@
   "answer": [
    "B"
   ],
-  "explain": "EASY",
+  "explain": "Protein A 是金黃色葡萄球菌細胞壁上的蛋白，會結合 IgG 的 Fc 區：抗體被「反向」抓住，Fc 無法與吞噬細胞的 Fc receptor 或補體 C1q 作用 → 抑制調理吞噬與補體活化（減少趨化）→ 選 B。\nEnterotoxin A：食物中毒（耐熱，也是 superantigen）；TSST-1：毒性休克症候群；exfoliative toxin：燙傷樣皮膚症候群（SSSS）。",
   "topics": [
    "S. aureus"
   ],
@@ -13883,7 +13883,7 @@
   "answer": [
    "D"
   ],
-  "explain": "耐高鹽、膽鹽=> Enterococcus",
+  "explain": "腸球菌（Enterococcus faecalis）特徵：可在 6.5% NaCl 與 40% 膽鹽中生長（bile esculin 陽性）、會形成生物膜、對多種抗生素天生或後天抗藥（VRE）→ 選 D。\n肺炎鏈球菌：optochin 敏感、膽汁溶解；化膿性鏈球菌：bacitracin 敏感；轉糖鏈球菌：產 dextran 造成齲齒。",
   "topics": [
    "S. pyogenes (GAS)",
    "S. pneumoniae",
@@ -14062,7 +14062,7 @@
   "answer": [
    "C"
   ],
-  "explain": "EPEC 不會破壞腸道 cell",
+  "explain": "(A) 正確：UPEC 以 P pili 黏附尿路上皮，造成泌尿道感染與腎盂腎炎。(B) 正確：ETEC 產腸毒素（LT、ST），造成旅行者腹瀉。\n(C) 錯誤：EPEC 以 BFP 與 intimin–Tir 造成 attaching and effacing（微絨毛抹平、形成 pedestal），不侵入、也不破壞上皮細胞引起發炎；嬰兒水瀉 → 選 C。\n(D) 正確：EHEC 產 Shiga toxin，代表 O157:H7。",
   "topics": [
    "毒素（內/外毒素、AB toxin）",
    "E. coli 致病型"
@@ -14130,7 +14130,7 @@
   "answer": [
    "B"
   ],
-  "explain": "跳蚤咬的",
+  "explain": "(A) 正確：鼠疫由 Yersinia pestis 引起。\n(B) 錯誤：鼠疫是由跳蚤（鼠蚤）叮咬傳給人，不是鼠類直接咬人 → 選 B。\n(C) 正確：肺鼠疫可經飛沫人傳人，進展為敗血性鼠疫，死亡率接近 100%。",
   "topics": [
    "Yersinia／plague"
   ],
@@ -14200,7 +14200,7 @@
   "answer": [
    "D"
   ],
-  "explain": "Exotoxin",
+  "explain": "(A) 正確：炭疽桿菌是會產孢子的革蘭氏陽性大桿菌。(B) 正確：莢膜是 poly-D-glutamic acid（胜肽），能抗吞噬。(C) 敘述為考古原文，炭疽最常見的型態是皮膚炭疽（>90%）。\n(D) 錯誤：炭疽毒素是外毒素（exotoxin）：PA + EF（edema toxin，↑cAMP）、PA + LF（lethal toxin，切 MEK）；革蘭氏陽性菌沒有 LPS 內毒素 → 選 D。",
   "topics": [
    "孢子",
    "Bacillus anthracis"
@@ -14232,7 +14232,7 @@
   "answer": [
    "B"
   ],
-  "explain": "Heat-labile => diarrhea",
+  "explain": "仙人掌桿菌（Bacillus cereus）食物中毒兩型：\n嘔吐型（炒飯症候群）：cereulide，耐熱（heat-stable）、耐蛋白酶，潛伏期 < 6 小時。\n腹瀉型：heat-labile 腸毒素，增加 cAMP／形成孔洞而造成腹瀉，潛伏期 > 6 小時，常見於肉類、醬汁。\n(B) 錯在「抑制蛋白質合成」：heat-labile 毒素造成的是腹瀉，機轉不是抑制蛋白質合成 → 選 B。",
   "topics": [
    "Bacillus cereus"
   ],
@@ -14267,7 +14267,7 @@
   "answer": [
    "D"
   ],
-  "explain": "Mold form 有感染能力",
+  "explain": "(A) 正確：真菌是真核生物，有粒線體與細胞核。(B) 正確：細胞膜含 ergosterol（azole、amphotericin B 的標的）。(C) 正確：酵母型（yeast form）以出芽生殖。\n(D) 錯誤：黴菌型（mold form）有菌絲（hyphae），能感染人，例如 Aspergillus、皮癬菌，雙型性真菌的 mold form 產生的孢子是吸入感染的來源 → 選 D。",
   "topics": [
    "真菌構造與分類"
   ],
@@ -14302,7 +14302,7 @@
   "answer": [
    "B"
   ],
-  "explain": "特定地區 not just 海島國家",
+  "explain": "可在健康人造成全身感染的 true（primary）pathogenic fungi，如 Histoplasma、Coccidioides、Blastomyces、Paracoccidioides：\n(A) 正確：通常是雙型性（dimorphic，環境中為 mold、體內為 yeast 或 spherule）。(C) 正確：經呼吸道吸入孢子。(D) 正確：多數只有輕微肺部感染，少數散播致死。\n(B) 錯誤：它們分布於特定地理區域（如 Coccidioides 在美國西南部沙漠、Histoplasma 在俄亥俄河谷），不是「潮濕的海島性國家」→ 選 B。",
   "topics": [
    "真菌構造與分類"
   ],
@@ -14337,7 +14337,7 @@
   "answer": [
    "B"
   ],
-  "explain": "無性產 conidia 分生孢子",
+  "explain": "子囊菌門（Ascomycota）：有性生殖產生子囊孢子（ascospore），過程包含質融合（plasmogamy）、核融合（karyogamy）、減數分裂；無性生殖產生分生孢子（conidia）。\n(B) 錯在「孢子囊孢子（sporangiospore）」：那是接合菌門（Zygomycota，如 Mucor、Rhizopus）的無性孢子 → 選 B。",
   "topics": [
    "真菌構造與分類"
   ],
@@ -14372,7 +14372,7 @@
   "answer": [
    "C"
   ],
-  "explain": "Pneumoniae=> meningitis",
+  "explain": "(A) 正確：Cryptococcus neoformans 屬擔子菌門（Basidiomycota）。(B) 正確：常在鴿糞中發現。(D) 正確：治療 amphotericin B（+ flucytosine），之後 fluconazole 維持。\n(C) 錯誤：它經吸入感染肺部（多無症狀），但最典型、最常見的嚴重表現是中樞神經的腦膜炎，不是「常引發伺機性肺炎」（伺機性肺炎典型是 Pneumocystis jirovecii）→ 選 C。",
   "topics": [
    "Cryptococcus／Candida",
    "抗真菌藥物"
@@ -14514,7 +14514,7 @@
   "answer": [
    "D"
   ],
-  "explain": "EASY",
+  "explain": "樹突狀細胞（dendritic cell）在周邊組織以 PRR 偵測病原（先天免疫）、攝取抗原後成熟、遷移到淋巴結，以 MHC I 與 MHC II 呈現抗原並提供共刺激（B7），活化 naïve T 細胞（後天免疫），是連接先天與後天免疫最重要的細胞 → 選 D。\nNK、嗜中性球、嗜鹼性球屬先天免疫的效應細胞。",
   "topics": [
    "先天 vs 後天免疫"
   ],
@@ -14549,7 +14549,7 @@
   "answer": [
    "A"
   ],
-  "explain": "EASY",
+  "explain": "濾泡輔助型 T 細胞（TFH，轉錄因子 Bcl-6，表現 CXCR5、ICOS、PD-1）在生發中心協助 B 細胞，主要分泌 IL-21（也分泌 IL-4），促進 B 細胞增殖、class switch、affinity maturation 與 plasma cell 分化 → 選 A。\nIL-22：TH17／TH22、ILC3（上皮防禦）；IL-23：維持 TH17；IL-27：IL-12 家族，調節 TH1、抑制 TH17。",
   "topics": [
    "TH 分化與細胞激素"
   ],
@@ -14584,7 +14584,7 @@
   "answer": [
    "C"
   ],
-  "explain": "EASY",
+  "explain": "TH2 分泌 IL-4、IL-5、IL-13（以及 IL-10）：IL-4 促 IgE class switch 與 TH2 分化、IL-5 活化嗜酸性球、IL-13 促黏液與 M2 巨噬細胞。\nIL-12 由 APC（樹突狀細胞、巨噬細胞）分泌，誘導 TH1 分化，不是 TH2 的產物 → 選 C。",
   "topics": [
    "TH 分化與細胞激素"
   ],
@@ -14655,7 +14655,7 @@
   "answer": [
    "B"
   ],
-  "explain": "TGF-beta 為 T reg 分泌，抑制免疫",
+  "explain": "CD8 毒殺型 T 細胞執行毒殺與抗病毒時分泌 IFN-γ、TNF-α、LT-α（lymphotoxin），並以 perforin／granzyme 與 FasL 殺死標的。\nTGF-β 主要由 Treg 等分泌，是抑制性細胞激素，不是 CD8 T 細胞用來毒殺的分子 → 選 B。",
   "topics": [
    "細胞毒殺（perforin/Fas）",
    "TH 分化與細胞激素"
@@ -14727,7 +14727,7 @@
   "answer": [
    "A"
   ],
-  "explain": "T reg 抑制免疫",
+  "explain": "(A) 正確：腫瘤微環境中的 TGF-β、IL-10 等可誘導 T 細胞分化成 Treg，抑制抗腫瘤免疫以逃脫追殺 → 選 A。\n(B) 錯誤：自體免疫疾病是 Treg 功能不足（如 FOXP3 突變的 IPEX），不是過度活化。\n(C) 錯誤：Treg 有胸腺生成的 tTreg（natural）與周邊誘導的 pTreg 兩種。\n(D) 錯誤：典型 Treg 是 CD4⁺CD25⁺FOXP3⁺，功能是抑制免疫，不是清除胞內病原。",
   "topics": [
    "TH 分化與細胞激素"
   ],
@@ -14833,7 +14833,7 @@
   "answer": [
    "D"
   ],
-  "explain": "EASY",
+  "explain": "三條補體路徑的起點不同，但最初的會合點是形成 C3 convertase（classical／lectin：C4b2a；alternative：C3bBb）切開 C3 → 選 D。之後再形成 C5 convertase、C5b–C9 MAC。\nC1qrs 只屬於 classical pathway；C4b 屬於 classical 與 lectin。",
   "topics": [
    "補體系統"
   ],
@@ -14868,7 +14868,7 @@
   "answer": [
    "D"
   ],
-  "explain": "EASY",
+  "explain": "(A) 錯誤：血清中最多的是 IgG。(B) 錯誤：腸黏膜中最多的是分泌型 IgA。(C) 錯誤：體組織液中含量高的是 IgG（IgM 五聚體很大，主要留在血管內）。\n(D) 正確：IgD 幾乎都以膜型（membrane form）與 IgM 一起表現在成熟 naïve B 細胞表面，血清中含量極低 → 選 D。",
   "topics": [
    "抗體類別與功能"
   ],
@@ -14903,7 +14903,7 @@
   "answer": [
    "B"
   ],
-  "explain": "Neutralization 為 Fab",
+  "explain": "抗體的 Fab 部分負責結合抗原，中和作用（neutralization，阻擋病毒或毒素結合受體）只需要 Fab → (B) 不是 Fc 的功能，選 B。\nFc 的功能：與吞噬細胞 Fc receptor 結合 → 調理吞噬；IgE 的 Fc 結合肥大細胞 FcεRI → 去顆粒；IgG、IgM 的 Fc 結合 C1q → 活化補體；FcRn 讓 IgG 通過胎盤。",
   "topics": [
    "抗體結構"
   ],
@@ -14938,7 +14938,7 @@
   "answer": [
    "C"
   ],
-  "explain": "EASY",
+  "explain": "(A) 錯誤：IgA1 與 IgA2 比例不同（血清以 IgA1 為主，黏膜分泌液中 IgA2 比例較高）。\n(B) 錯誤：促進 IgA class switching 的關鍵是 TGF-β（IL-5、IL-10 輔助），不是 IL-12（IL-12 誘導 TH1）。\n(C) 正確：分泌片段（secretory component）由上皮細胞製造：dimeric IgA 結合上皮的 poly-Ig receptor，經 transcytosis 送到管腔，受體被切下的部分留在 IgA 上 → 選 C。\n(D) 錯誤：IgA 不活化 classical pathway。",
   "topics": [
    "抗體類別與功能"
   ],
@@ -14973,7 +14973,7 @@
   "answer": [
    "A"
   ],
-  "explain": "IgA 主要在黏膜",
+  "explain": "(A) 錯誤：血液中含量最高的是 IgG，IgA 主要在黏膜分泌液（唾液、淚液、母乳、腸道）→ 選 A。\n(B) 考古給的答案是 A；IgM 主要在血管內、初次免疫反應最先出現。(C) 正確：腸道中以分泌型 IgA 為主。(D) 正確：IgG 經 FcRn 通過胎盤給胎兒被動免疫。",
   "topics": [
    "抗體類別與功能"
   ],
@@ -15043,7 +15043,7 @@
   "answer": [
    "A"
   ],
-  "explain": "氣管收縮，血管舒張",
+  "explain": "第一型過敏：過敏原交聯肥大細胞上的 IgE → 釋放 histamine、prostaglandin、leukotriene → 支氣管平滑肌收縮（氣管收縮）、血管擴張與通透性增加（紅腫、低血壓）。\n(A) 把方向寫反（氣管舒張、血管收縮）→ 錯誤，選 A。(B) 吸入過敏原造成過敏性鼻炎；(C) 避免接觸過敏原是基本預防；(D) 皮膚點刺測試依賴 IgE 反應。",
   "topics": [
    "過敏反應"
   ],
@@ -15148,7 +15148,7 @@
   "answer": [
    "B"
   ],
-  "explain": "溶於水、具酵素活性、分子穩定",
+  "explain": "典型過敏原的特性：多為小分子量、可溶於水的蛋白質（或醣蛋白），分子穩定、常具酵素活性（如塵蟎的 Der p 1 是 protease，能破壞上皮屏障），以低劑量經黏膜進入 → 選 B。\n(A) 應為可溶於水；(C) 常具有酵素活性；(D) 分子穩定。",
   "topics": [
    "過敏反應"
   ],
@@ -15292,7 +15292,7 @@
   "answer": [
    "E"
   ],
-  "explain": "Positive selection 受阻",
+  "explain": "MHC I 與 MHC II 都缺陷的小鼠，胸腺細胞無法通過 positive selection（DP 細胞的 TCR 必須能弱辨識自身 MHC 才能存活並決定走 CD4 或 CD8）→ 發育卡在 CD4⁺CD8⁺（double positive, DP）階段，周邊幾乎沒有成熟 T 細胞 → 選 E。\nDN（CD4⁻CD8⁻）階段的發育不需要 MHC，所以 (B) 錯。",
   "topics": [
    "MHC 構造與表現",
    "胸腺選擇",
@@ -15333,7 +15333,7 @@
   "answer": [
    "C"
   ],
-  "explain": "EASY",
+  "explain": "Negative selection 要讓發育中的胸腺細胞「看到」各種自身胜肽–MHC。骨髓來源的 APC（樹突狀細胞、巨噬細胞）同時高度表現 MHC I 與 MHC II 與共刺激分子，具吞噬能力，能把攝入的自身抗原呈現在 MHC II，並經 cross-presentation 呈現在 MHC I → 能有效刪除 CD4 與 CD8 兩種自我反應性細胞 → 選 C。\n胸腺髓質上皮（mTEC，AIRE）負責呈現組織特異性抗原，也參與 negative selection。",
   "topics": [
    "MHC 構造與表現",
    "胸腺選擇"
@@ -15373,7 +15373,7 @@
   "answer": [
    "C"
   ],
-  "explain": "EASY",
+  "explain": "γδ T 細胞：(A) 來自骨髓的造血前驅細胞；(D) 在胸腺成熟（較 αβ 早出現）；(E) 不受 MHC 限制，可直接辨識磷酸抗原、脂質等；(B) 理論上 δ 鏈多樣性可以很大，但實際上組織中的 γδ T 細胞多樣性有限、常集中在特定 Vγ／Vδ。\n(C) 錯誤：γδ 與 αβ 是在 DN 階段分岔的兩條獨立譜系，γδ 不是由 αβ T 細胞衍生 → 選 C。",
   "topics": [
    "MHC 構造與表現",
    "TCR 與 γδ T 細胞"

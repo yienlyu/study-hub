@@ -605,7 +605,7 @@
   "answer": [
    "A"
   ],
-  "explain": "胰島素由胰臟蘭氏小島 β 細胞分泌，不是肝臟。",
+  "explain": "肝臟的生理功能：糖質新生與肝醣分解維持血糖、把胺基酸轉成代謝燃料（脫胺後碳骨架進 TCA 或糖質新生，氨進尿素循環）、解毒（藥物、酒精、氨）、合成血漿蛋白、膽汁與酮體。\n(A) 胰島素由胰臟蘭氏小島 β 細胞分泌，不是肝臟 → 錯誤，選 A。肝臟是胰島素作用的標的器官（GLUT2、促進肝醣合成），但不會製造胰島素。",
   "topics": [
    "各器官燃料代謝"
   ],
@@ -707,7 +707,7 @@
   "answer": [
    "B"
   ],
-  "explain": "酮體在肝細胞的粒線體合成，不是小腸。",
+  "explain": "(A) 正確：三種酮體是 acetoacetate、β-hydroxybutyrate、acetone（acetone 由 acetoacetate 自發去羧，經呼氣排出）。\n(B) 錯誤：酮體在肝細胞的粒線體合成，不是小腸 → 選 B。\n(C) 正確：thiolase（2 acetyl-CoA → acetoacetyl-CoA）→ HMG-CoA synthase → HMG-CoA lyase → acetoacetate。\n(D) 正確：長期飢餓時大腦改以酮體（β-hydroxybutyrate）為主要燃料，但仍需部分葡萄糖。肝臟缺 SCOT，自己不用酮體。",
   "topics": [
    "酮體"
   ],
@@ -845,7 +845,7 @@
   "answer": [
    "A"
   ],
-  "explain": "紅血球沒有粒線體，只能靠糖解（終產物乳酸）。",
+  "explain": "成熟紅血球沒有粒線體 → 不能進行 Krebs cycle、氧化磷酸化與 β-oxidation，ATP 只能靠糖解（終產物 lactate，再生 NAD⁺）。紅血球的糖解支路還產生 2,3-BPG（降低血紅素對氧親和力），五碳糖磷酸途徑提供 NADPH 維持還原態 glutathione。",
   "topics": [
    "各器官燃料代謝"
   ],

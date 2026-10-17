@@ -174,7 +174,7 @@
   "answer": [
    "B"
   ],
-  "explain": "同第二題。",
+  "explain": "游離脂肪酸（FFA）疏水，不能大量溶在血漿 → 與 serum albumin 結合運送（一個 albumin 約可攜帶 7 個 FFA），送到心臟、骨骼肌做 β-oxidation。\n(A) hemoglobin 運氧，不運脂肪酸。(C) 不能自由溶解。(D) 血中確實有 FFA（脂肪組織動員而來）。(E) FFA 濃度受 epinephrine、glucagon 調控：cAMP → PKA 磷酸化 perilipin 與 HSL → 脂肪分解上升。本題與 Ch17-1 第 2 題、Ch17-2 第 8 題是同一題（albumin 考了 3 次）。",
   "topics": [
    "脂肪動員與運輸"
   ],
@@ -2854,7 +2854,7 @@
   "answer": [
    "C"
   ],
-  "explain": "同 26.",
+  "explain": "長期飢餓或糖尿病（胰島素缺乏）時：脂肪大量分解 → 肝臟 β-oxidation 產生大量 acetyl-CoA，OAA 被拉去糖質新生 → acetyl-CoA 轉向生成酮體 → 血中 acetoacetate、β-hydroxybutyrate 上升（ketosis，嚴重時 ketoacidosis）→ 選 C。\n(B) 酮體是 β-hydroxybutyrate，不是 α-hydroxybutyrate。(A)(D) 尿素氮、alanine 是蛋白質分解的產物，不是本題要的特徵。",
   "topics": [
    "飢餓與糖尿病",
    "Cori／葡萄糖-丙胺酸循環"
@@ -2890,7 +2890,7 @@
   "answer": [
    "C"
   ],
-  "explain": "主要製造酮體的器官就是肝臟。",
+  "explain": "酮體在肝細胞粒線體由 acetyl-CoA 合成（HMG-CoA synthase、HMG-CoA lyase），肝臟是唯一大量製造酮體的器官 → 選 C。肝臟缺少 SCOT（succinyl-CoA:3-ketoacid CoA transferase），所以自己不能利用酮體，酮體輸出給大腦、心臟、骨骼肌使用。",
   "topics": [
    "飢餓與糖尿病",
    "各器官燃料代謝"
@@ -3425,7 +3425,7 @@
   "answer": [
    "C"
   ],
-  "explain": "承第五題，arginine 是尿素中氮的提供者",
+  "explain": "尿素循環最後一步：arginine →（arginase）→ urea + ornithine，所以直接把含氮基團交給尿素的是 arginine → 選 C。\n追本溯源，尿素的兩個氮一個來自 NH₄⁺（經 carbamoyl phosphate 進入 citrulline），另一個來自 aspartate（在 argininosuccinate 合成時加入），兩者都先併入 arginine 再隨 arginase 釋出。Ornithine 是循環載體，最後再生；pyruvate 不參與。",
   "topics": [
    "尿素循環"
   ],
@@ -4276,7 +4276,7 @@
   "answer": [
    "C"
   ],
-  "explain": "白化症是缺乏 tyrosinase",
+  "explain": "(A) 正確：Homocystinuria — cystathionine β-synthase（需 PLP）。\n(B) 正確：PKU 可由 phenylalanine hydroxylase 或 dihydrobiopterin（dihydropteridine）reductase 缺陷造成（BH₄ 無法再生）。\n(C) 錯誤：白化症（albinism）是 tyrosinase 缺陷（Tyr → DOPA → melanin），不是 tyrosine hydroxylase（那是神經內合成 catecholamine 的酵素）→ 選 C。\n(D) 正確：Alkaptonuria — homogentisate oxidase（dioxygenase），黑尿。",
   "topics": [
    "先天胺基酸代謝疾病"
   ],
@@ -7059,7 +7059,7 @@
   "answer": [
    "A"
   ],
-  "explain": "核苷酸由核糖、含氮鹼基、磷酸根組成。",
+  "explain": "核苷酸（nucleotide）= 含氮鹼基（nucleobase）+ 五碳糖（ribose 或 deoxyribose）+ 磷酸根；鹼基 + 五碳糖 = 核苷（nucleoside），所以 nucleoside 也是核苷酸的一部分。\nGlucose 是六碳糖，不在核苷酸結構中 → 選 A。",
   "topics": [
    "核苷酸結構"
   ],

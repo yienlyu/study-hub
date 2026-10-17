@@ -93,10 +93,10 @@ q(29, "ch23", "Which of the following CORRECTLY pairs hormone and effect?",
   "Glucagon 促進肝臟糖質新生；insulin 抑制 glycogen phosphorylase；epinephrine 促進肌肉糖解；leptin 抑制食慾。", "激素作用")
 q(30, "ch23", "Which of the following statements about AMPK is INCORRECT?",
   ["Activated during energy deficiency or hypoxia.", "Stimulates fatty acid oxidation and glycolysis.", "Is activated by adiponectin and ghrelin.", "Activates mTOR to promote anabolism."], "D",
-  "AMPK 在能量不足時活化、促進分解代謝，並**抑制** mTORC1。", "AMPK")
+  "AMPK 在能量不足時活化、促進分解代謝，並抑制 mTORC1。", "AMPK")
 q(31, "ch23", "Which of the following is NOT a characteristic of GLP-1?",
   ["Increases insulin secretion", "Suppresses glucagon release", "Slows gastric emptying", "Stimulates appetite"], "D",
-  "GLP-1 增加胰島素、抑制升糖素、延緩胃排空、**抑制**食慾。", "腸泌素")
+  "GLP-1 增加胰島素、抑制升糖素、延緩胃排空、抑制食慾。", "腸泌素")
 q(32, "ch18", "Which molecule activates carbamoyl phosphate synthetase I?", ["N-acetylglutamate", "Aspartate", "Fumarate", "Glutamine"], "A",
   "N-acetylglutamate 是 CPS I 的必要活化劑（尿素循環調控）。", "尿素循環")
 q(33, "ch18", "Which amino acid transports nitrogen waste from muscle to liver?", ["Alanine", "Glutamine", "Arginine", "Aspartate"], "A",

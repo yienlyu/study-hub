@@ -735,7 +735,7 @@
   "answer": [
    "C"
   ],
-  "explain": "Low-level 無法殺 MTB 與孢子。",
+  "explain": "消毒劑等級：high-level 可殺細菌、病毒、真菌、結核菌，延長時間可殺孢子（如 glutaraldehyde、hydrogen peroxide）；intermediate-level 可殺結核菌、多數病毒與真菌，但不能殺孢子（如 70% 酒精、碘、chlorine 化合物、phenolics）；low-level 只能殺一般細菌與部分病毒，不能殺結核菌與孢子（如 quaternary ammonium compounds）。\n(C) 錯在「low-level 可殺 M. tuberculosis」→ 選 C。",
   "topics": [
    "滅菌與消毒"
   ],
@@ -968,7 +968,7 @@
   "answer": [
    "D"
   ],
-  "explain": "先天免疫才是每次反應都一樣（無記憶）。",
+  "explain": "後天（adaptive）免疫的特徵：specificity（專一性）、diversity、memory（記憶，第二次反應更快更強）、specialization、self-limitation（反應結束後回到靜止）、nonreactivity to self。\n(D)「第一次與第十次暴露反應完全相同」是先天免疫的特性（沒有記憶），不是後天免疫 → 選 D。",
   "topics": [
    "先天 vs 後天免疫"
   ],
@@ -1168,7 +1168,7 @@
   "answer": [
    "C"
   ],
-  "explain": "替代路徑不需要抗體。",
+  "explain": "Alternative pathway：血中 C3 自發水解成 C3(H₂O)，結合 factor B，經 factor D 切割形成液相 C3 convertase C3(H₂O)Bb → 產生 C3b 沉積在病原表面 → C3bBb（properdin 穩定）放大。\n(A)(B)(D) 正確。(C) 錯誤：替代路徑不需要抗原抗體複合物（那是 classical pathway 的起點），因此是最早啟動的先天防線 → 選 C。",
   "topics": [
    "補體系統"
   ],
@@ -1236,7 +1236,7 @@
   "answer": [
    "D"
   ],
-  "explain": "CD94/NKG2A 是 NK 的抑制性受體。",
+  "explain": "吞噬細胞的 opsonic receptors：mannose receptor（辨識微生物醣）、FcγRI（結合 IgG 調理）、CR3（CD11b/CD18，結合 iC3b）。\nCD94/NKG2A 是 NK 細胞上辨識 HLA-E 的抑制性受體，與調理吞噬無關 → 選 D。",
   "topics": [
    "調理作用／opsonic receptor"
   ],
@@ -1439,7 +1439,7 @@
   "answer": [
    "B"
   ],
-  "explain": "IgG 佔 70–75%。",
+  "explain": "人類血清中免疫球蛋白含量：IgG 約 70–75%（最多，半衰期約 21 天）> IgA 約 15–20% > IgM 約 5–10% > IgD < 1% > IgE（極少）→ 選 B。注意黏膜分泌液中最多的是分泌型 IgA。",
   "topics": [
    "抗體類別與功能"
   ],
@@ -1472,7 +1472,7 @@
   "answer": [
    "B"
   ],
-  "explain": "IgG 經胎盤、IgA 經母乳。",
+  "explain": "新生兒被動免疫的兩個來源：IgG 經胎盤（FcRn 主動運輸），出生時血中已有母親的 IgG；分泌型 IgA 經母乳（尤其初乳）保護腸道黏膜 → 選 B。\nIgM 不能通過胎盤，新生兒臍帶血中 IgM 升高反而代表子宮內感染。",
   "topics": [
    "抗體類別與功能"
   ],
@@ -1540,7 +1540,7 @@
   "answer": [
    "B"
   ],
-  "explain": "IgM 為初次反應主力 → 目前感染指標。",
+  "explain": "初次感染時最先產生的是 IgM（約 7–10 天），之後才 class switch 成 IgG；IgM 高、IgG 尚未出現 → 代表正在發生的初次（急性）感染 → 選 B。\n以前打過疫苗或曾經感染，再次接觸時以 IgG 為主；母親給的被動免疫是 IgG（IgM 不過胎盤）；過敏與 IgE 有關。",
   "topics": [
    "抗體類別與功能"
   ],
@@ -1574,7 +1574,7 @@
   "answer": [
    "B"
   ],
-  "explain": "順序 μ → κ → λ；κ 成功就抑制 λ。",
+  "explain": "Allelic exclusion（等位基因排斥）與 isotype exclusion：B 細胞輕鏈重組的順序通常是 κ 先、λ 後；κ 重組成功並與重鏈組成功能性 BCR 後，會送出訊號停止進一步重組（包括 λ），確保每個 B 細胞只表現一種專一性 → 選 B。只有 κ 兩個 allele 都失敗時才會去重組 λ。",
   "topics": [
    "抗體多樣性（VDJ/SHM）"
   ],
@@ -1642,7 +1642,7 @@
   "answer": [
    "C"
   ],
-  "explain": "TCR 沒有 SHM。",
+  "explain": "Somatic hypermutation（SHM）發生在成熟 B 細胞受抗原活化後，在生發中心（germinal center）由 AID 引發，在 V 區產生點突變，再經 FDC 與 TFH 篩選高親和力的 B 細胞 → affinity maturation。\nT 細胞受體不會發生 SHM（避免產生自我反應性），所以 (C) 錯誤 → 選 C。TCR 多樣性主要來自 V(D)J 重組與 junctional diversity。",
   "topics": [
    "抗體多樣性（VDJ/SHM）"
   ],
@@ -1676,7 +1676,7 @@
   "answer": [
    "C"
   ],
-  "explain": "IgE 高親和力結合 FcεRI → 過敏反應。",
+  "explain": "IgE 以極高親和力結合肥大細胞與嗜鹼性球上的 FcεRI，即使沒有抗原也一直「坐」在細胞表面；過敏原交聯相鄰 IgE → 去顆粒（histamine 等）→ 第一型過敏 → 選 C。\nIgG 結合 FcγR（吞噬、ADCC），IgA 結合 FcαR 與 poly-Ig receptor。",
   "topics": [
    "抗體類別與功能"
   ],
@@ -1710,7 +1710,7 @@
   "answer": [
    "D"
   ],
-  "explain": "MHC I 表現於所有有核細胞；紅血球沒有。",
+  "explain": "(A) 正確：MHC I = 多型性的 α 鏈（α1、α2、α3）+ 非 MHC 編碼的 β2-microglobulin。\n(B) 正確：胜肽溝由 α1 與 α2 組成，兩端封閉。\n(C) 正確：呈現 8–10 個胺基酸的胜肽給 CD8 T 細胞（MHC II 胜肽溝兩端開放，可容納 13–25 個胺基酸）。\n(D) 錯誤：MHC I 表現在幾乎所有有核細胞，成熟紅血球沒有細胞核，不表現 MHC I → 選 D。",
   "topics": [
    "MHC 構造與表現"
   ],
@@ -2080,7 +2080,7 @@
   "answer": [
    "B"
   ],
-  "explain": "缺乏共刺激 → T cell anergy。",
+  "explain": "Naïve T 細胞活化需要 signal 1（TCR 辨識 peptide–MHC）+ signal 2（共刺激：CD28 結合 APC 上的 B7-1/B7-2）。只有 signal 1、沒有 signal 2 → T 細胞進入無反應狀態（anergy），之後再遇到抗原也不會活化，這是周邊耐受的機制之一 → 選 B。",
   "topics": [
    "共刺激（CD28/B7/CTLA-4）"
   ],
@@ -2512,7 +2512,7 @@
   "answer": [
    "C"
   ],
-  "explain": "AID 將 C 脫胺成 U。",
+  "explain": "AID（activation-induced cytidine deaminase）把 DNA 上的 cytidine 去胺成 uridine（C → U），之後由 UNG、APE1 與 mismatch repair 處理：在 switch region 造成雙股斷裂 → class switch recombination；在 V 區造成點突變 → somatic hypermutation。兩者都需要 AID → 選 C（AID 缺陷 → hyper-IgM type 2）。\nRAG1／2、TdT、Artemis 參與的是 V(D)J 重組。",
   "topics": [
    "B 細胞活化／class switch／生發中心"
   ],
@@ -2745,7 +2745,7 @@
   "answer": [
    "B"
   ],
-  "explain": "TLR3 不經 MyD88。",
+  "explain": "TLR3 位於 endosome，辨識病毒 dsRNA，是唯一完全不經 MyD88、只走 TRIF 的 TLR → TRIF → TBK1 → IRF3 → 產生 type I interferon（IFN-α／β）抗病毒 → 選 B。\nTLR4 兩條都走（MyD88 與 TRIF）；TLR2（脂蛋白、PDG）、TLR5（flagellin）、TLR9（CpG DNA）都經 MyD88（TLR9 在 pDC 經 MyD88–IRF7 產生 IFN-α）。",
   "topics": [
    "TLR／PRR"
   ],
@@ -2778,7 +2778,7 @@
   "answer": [
    "B"
   ],
-  "explain": "AMPs 富含 Arg、Lys → 帶正電。",
+  "explain": "抗微生物胜肽（如 defensins、cathelicidin）長 12–50 個胺基酸、富含 Arg、Lys、His → 帶正電，會被帶負電的細菌膜（LPS、teichoic acid、磷脂）吸引並插入，形成孔洞、破壞膜 → 細菌死亡 → 選 B。宿主細胞膜外層以中性磷脂與膽固醇為主，較不受影響。",
   "topics": [
    "抗微生物肽 AMPs"
   ],
@@ -2845,7 +2845,7 @@
   "answer": [
    "B"
   ],
-  "explain": "GBS：新生兒腦膜炎、CAMP(+)。",
+  "explain": "新生兒一週內敗血症、腦膜炎（早發型）＋ catalase（−）、β 溶血、CAMP test（+）的革蘭氏陽性球菌 → B 群鏈球菌 Streptococcus agalactiae（GBS），來自母親產道帶菌，產前篩檢陽性者生產時給 penicillin 預防 → 選 B。\nS. pyogenes 為 A 群、bacitracin 敏感；Enterococcus 多為 γ 溶血、耐鹽與膽鹽；S. aureus 是 catalase（+）。",
   "topics": [
    "S. agalactiae (GBS)"
   ],
@@ -2913,7 +2913,7 @@
   "answer": [
    "B"
   ],
-  "explain": "PSGN 為非化膿性後遺症（免疫複合體）。",
+  "explain": "鏈球菌感染（A 群 S. pyogenes）後的後遺症分兩類：化膿性（直接侵犯，如膿瘍）與非化膿性（免疫媒介）。皮膚或咽喉感染後 2–3 週出現的急性腎絲球腎炎（PSGN）是非化膿性後遺症：抗原抗體免疫複合體沉積在腎絲球 → 補體活化發炎 → 選 B。\n急性風濕熱則是 M protein 與心臟組織的分子擬態（只在咽喉感染後）；superantigen 造成的是鏈球菌毒性休克症候群；S. agalactiae 是 B 群。",
   "topics": [
    "S. pyogenes (GAS)"
   ],
@@ -3389,7 +3389,7 @@
   "answer": [
    "C"
   ],
-  "explain": "胞內菌 → 細胞免疫為主。",
+  "explain": "(A) 正確：Listeria 在 20–25 °C 有 tumbling motility（37 °C 運動差）。(B) 正確：可經胎盤感染胎兒 → 流產、新生兒敗血症與腦膜炎。(D) 正確：4 °C 冰箱溫度可生長（cold enrichment）。\n(C) 錯誤：Listeria 是兼性胞內菌（internalin 進入、LLO 溶解液泡、ActA 聚合 actin 在細胞間擴散，不必出細胞），抗體碰不到 → 主要靠細胞性免疫（TH1、IFN-γ 活化巨噬細胞、CD8 CTL）→ 選 C。",
   "topics": [
    "Listeria"
   ],
@@ -3491,7 +3491,7 @@
   "answer": [
    "C"
   ],
-  "explain": "莢膜多醣疫苗（conjugate）。",
+  "explain": "腦膜炎雙球菌（N. meningitidis）的主要毒力因子是多醣莢膜，疫苗成分就是莢膜多醣（A、C、W、Y 群，與蛋白質結合成 conjugate vaccine 以引發 T 細胞依賴的反應）；B 群莢膜與人類神經組織相似，改用外膜蛋白疫苗 → 選 C。\nPili 會抗原變異、LOS 是內毒素、Opa 是淋病雙球菌的黏附蛋白，都不是現行疫苗的主要成分。",
   "topics": [
    "Neisseria"
   ],
@@ -3627,7 +3627,7 @@
   "answer": [
    "D"
   ],
-  "explain": "Neisseria 無鞭毛。",
+  "explain": "淋病雙球菌（N. gonorrhoeae）的毒力因子：pili（黏附，會抗原變異與相位變異）、Opa（protein II，黏附與侵入）、Por（protein I）、Rmp（protein III）、IgA1 protease、LOS。\nNeisseria 是不會運動的雙球菌，沒有鞭毛 → 選 D。",
   "topics": [
    "Neisseria"
   ],
@@ -3729,7 +3729,7 @@
   "answer": [
    "C"
   ],
-  "explain": "經呼吸道吸入 → 肺 → 腦膜炎。",
+  "explain": "(A) 正確：Cryptococcus neoformans 有厚多醣莢膜（主要毒力因子）。(B) 正確：存在鴿糞污染的土壤。(D) 正確：腦脊髓液以墨汁染色（India ink）可見莢膜形成的透明暈圈，也可驗莢膜抗原。\n(C) 錯誤：它經呼吸道吸入（肺部初感染），再血行散播到中樞神經造成腦膜炎，不是經腸胃道 → 選 C。",
   "topics": [
    "Cryptococcus／Candida"
   ],
@@ -3797,7 +3797,7 @@
   "answer": [
    "D"
   ],
-  "explain": "真菌偏好酸性 pH 4–6。",
+  "explain": "真菌的一般特性：真核生物（有核、粒線體）、細胞膜含 ergosterol（取代膽固醇，抗真菌藥標的）、細胞壁含 chitin 與 β-glucan、異營、多數為好氧或兼性。\n真菌偏好酸性環境（約 pH 5–6），Sabouraud agar 就是偏酸性（pH 約 5.6）以抑制細菌 → (D)「最適 pH 7.5–8」錯誤，選 D。",
   "topics": [
    "真菌構造與分類"
   ],
@@ -3831,7 +3831,7 @@
   "answer": [
    "B"
   ],
-  "explain": "Germ tube test 以血清培養。",
+  "explain": "Germ tube test：把酵母菌放在血清（人或動物血清）中 37 °C 培養 2–3 小時，C. albicans（及 C. dubliniensis）會長出芽管（germ tube），可與其他 Candida 區分 → 選 B。\nSabouraud agar 是一般真菌培養基；cornmeal／Tween-80 agar 用來看 chlamydospore 與假菌絲；血液培養基不是這個試驗用的。",
   "topics": [
    "Cryptococcus／Candida"
   ],
@@ -4729,5 +4729,636 @@
    "治療"
   ],
   "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-142",
+  "source": "模擬新題",
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "Regarding enterotoxigenic E. coli (ETEC), which statement is INCORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "LT is an A-B toxin similar to cholera toxin and raises cAMP"
+   },
+   {
+    "k": "B",
+    "t": "ST is heat-stable and raises cGMP"
+   },
+   {
+    "k": "C",
+    "t": "It is a common cause of traveler's diarrhea"
+   },
+   {
+    "k": "D",
+    "t": "Its enterotoxins destroy intestinal epithelial cells and cause bloody stools"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "ETEC 的 LT（↑cAMP）與 ST（↑cGMP）都只讓 Cl⁻ 與水分泌出來，不破壞腸上皮，所以是水瀉、糞便沒有血。老師上課說這是國考題。會破壞上皮、造成血便的是 EHEC 的 Shiga toxin。",
+  "topics": [
+   "E. coli 致病型",
+   "毒素（內/外毒素、AB toxin）"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-143",
+  "source": "模擬新題",
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "In the attaching-and-effacing lesion of EPEC/EHEC, where are intimin and Tir located?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Both on the bacterial surface"
+   },
+   {
+    "k": "B",
+    "t": "Intimin on the bacterium; Tir is injected by the secretion system and displayed on the host cell surface"
+   },
+   {
+    "k": "C",
+    "t": "Intimin on the host cell; Tir on the bacterium"
+   },
+   {
+    "k": "D",
+    "t": "Both are host cell proteins induced by Shiga toxin"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "細菌先用 bundle-forming pili 黏上去，再用 secretion system 把 Tir（translocated intimin receptor）打進宿主細胞、表現在細胞表面，細菌表面的 intimin 接上 Tir → 形成基座、完整黏附。EHEC 與 EPEC 師出同門，共用這套黏附因子；EHEC 多了 Shiga toxin。",
+  "topics": [
+   "E. coli 致病型"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-144",
+  "source": "模擬新題",
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "一名 6 歲孩童吃了未熟的漢堡肉後出現血便，數天後出現溶血性貧血、血小板低下與急性腎衰竭，分離出 O157:H7。關於此菌的敘述何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "毒素作用機制與霍亂毒素相同，增加 cAMP"
+   },
+   {
+    "k": "B",
+    "t": "毒素又稱 verocytotoxin，A 次單元作用於 60S ribosome 抑制蛋白質合成"
+   },
+   {
+    "k": "C",
+    "t": "此菌沒有 intimin，無法緊密黏附腸上皮"
+   },
+   {
+    "k": "D",
+    "t": "此菌與 EPEC 相同，兩者都產生 Shiga toxin"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "EHEC = STEC，代表株 O157:H7（O = LPS 第 157 型、H = flagellin 第 7 型）。Shiga toxin = Stx1/Stx2 = verocytotoxin，A-B toxin，A 作用於 60S ribosome 抑制蛋白合成 → 細胞死亡 → 血便、HUS。EHEC 有 intimin；EPEC 沒有 Shiga toxin。",
+  "topics": [
+   "E. coli 致病型",
+   "毒素（內/外毒素、AB toxin）"
+  ],
+  "pattern": "臨床情境題"
+ },
+ {
+  "id": "new-145",
+  "source": "模擬新題",
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "一名旅客返台後持續高燒一週，腹部出現玫瑰疹，懷疑傷寒（Salmonella Typhi）。發病第一週最適合用哪一種檢體分離細菌？",
+  "options": [
+   {
+    "k": "A",
+    "t": "血液"
+   },
+   {
+    "k": "B",
+    "t": "糞便"
+   },
+   {
+    "k": "C",
+    "t": "尿液"
+   },
+   {
+    "k": "D",
+    "t": "膽汁"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "S. Typhi 吃入後穿過小腸、被 macrophage 帶到淋巴結、肝、脾、骨髓 → 全身性疾病，最後才住進膽囊慢慢排菌。所以第一週約 90% 從血液分離，約第三週才從糞便培養得到。老師說這題連考兩三年仍有人錯。",
+  "topics": [
+   "Salmonella"
+  ],
+  "pattern": "臨床情境題"
+ },
+ {
+  "id": "new-146",
+  "source": "模擬新題",
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "Regarding lipopolysaccharide (LPS) of Gram-negative bacteria, which statement is INCORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Lipid A carries the toxic activity"
+   },
+   {
+    "k": "B",
+    "t": "The O antigen is used for serotyping"
+   },
+   {
+    "k": "C",
+    "t": "LPS activates platelets and the coagulation system, which can lead to DIC"
+   },
+   {
+    "k": "D",
+    "t": "The O antigen is the toxic portion responsible for fever and shock"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "LPS 三部分：Lipid A（毒性所在）、core polysaccharide、O antigen（約 40 個重複糖單位，暴露在最外面 → 抗原、血清分型）。只有 LPS 叫 endotoxin；它活化白血球、血小板與凝血 → 發燒、DIC、septic shock。",
+  "topics": [
+   "毒素（內/外毒素、AB toxin）",
+   "細胞壁／革蘭氏染色"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-147",
+  "source": "模擬新題",
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "關於革蘭氏陰性菌造成的敗血症，下列敘述何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "LPS 是所有革蘭氏陰性菌共有的致病因子，可造成敗血症"
+   },
+   {
+    "k": "B",
+    "t": "病程中凝血系統被活化，可能出現 DIC"
+   },
+   {
+    "k": "C",
+    "t": "治療除了抗生素，還需要輸液、升壓等支持性療法"
+   },
+   {
+    "k": "D",
+    "t": "只要給予足量抗生素即可逆轉敗血性休克，不需其他治療"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "敗血症是宿主免疫反應過強造成的（美國 CDC 視為發炎／免疫疾病）。抗生素仍要給，但不夠：要加上支持性療法（輸液、輸血、強心劑）、免疫抑制劑與抗凝血藥物。",
+  "topics": [
+   "毒素（內/外毒素、AB toxin）"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-148",
+  "source": "模擬新題",
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "關於腸道菌與腸內桿菌科的敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "腸道菌相失衡與過敏、自體免疫疾病、肥胖有關"
+   },
+   {
+    "k": "B",
+    "t": "使用廣效抗生素清除所有腸道細菌對健康最有利"
+   },
+   {
+    "k": "C",
+    "t": "腸內桿菌科多為兼性厭氧菌"
+   },
+   {
+    "k": "D",
+    "t": "Pseudomonas aeruginosa 為好氧菌，常見於肺部感染"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "老師說這是國考題：現在的觀念是要維持好菌，把腸道細菌全部殺光是錯的。腸道沒有氧 → 腸內菌是兼性厭氧、微厭氧或絕對厭氧；住在肺、皮膚的菌（如 P. aeruginosa）是好氧菌。",
+  "topics": [
+   "腸桿菌科"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-149",
+  "source": "模擬新題",
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "Which of the following is NOT a human-only pathogen (no animal reservoir)?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Salmonella Typhi"
+   },
+   {
+    "k": "B",
+    "t": "Shigella dysenteriae"
+   },
+   {
+    "k": "C",
+    "t": "Vibrio cholerae"
+   },
+   {
+    "k": "D",
+    "t": "Salmonella Typhimurium"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "以人為唯一宿主、糞口傳染：傷寒（S. Typhi）、痢疾（Shigella）、霍亂（V. cholerae）。Typhimurium 的 murine 是老鼠，非傷寒型沙門氏菌來自受感染的雞與蛋，是自限性食物中毒、不用通報。",
+  "topics": [
+   "Salmonella",
+   "Shigella"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-150",
+  "source": "模擬新題",
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "Why can Shigella spread directly person-to-person (including through sexual contact), while non-typhoidal Salmonella usually requires contaminated food?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Its infectious dose is very low (fewer than 100 organisms)"
+   },
+   {
+    "k": "B",
+    "t": "It has peritrichous flagella"
+   },
+   {
+    "k": "C",
+    "t": "It produces H₂S"
+   },
+   {
+    "k": "D",
+    "t": "It has a large animal reservoir"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Shigella 少於 100 顆就能感染，所以能真正人傳人（已開發國家以人傳人、同志間性行為為主）；Salmonella 約需 10⁵ CFU。Shigella 沒有鞭毛、不產 H₂S、人是唯一宿主。",
+  "topics": [
+   "Shigella"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-151",
+  "source": "模擬新題",
+  "chapter": "staph-strep",
+  "type": "mcq",
+  "stem": "Regarding staphylococcal scalded skin syndrome (SSSS), which statement is INCORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Exfoliative toxins are serine proteases"
+   },
+   {
+    "k": "B",
+    "t": "The target protein is desmoglein-1"
+   },
+   {
+    "k": "C",
+    "t": "Large numbers of staphylococci and neutrophils are found in the separated epidermal layer"
+   },
+   {
+    "k": "D",
+    "t": "ETA is heat-stable, whereas ETB is heat-labile and plasmid-encoded"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "講義：exfoliative toxin 切 desmoglein-1，使表皮顆粒層角質細胞分離；病灶表皮層既沒有葡萄球菌也沒有白血球（毒素從遠處感染部位來）。ETA heat-stable、與 phage 相關；ETB heat-labile、在 plasmid。",
+  "topics": [
+   "S. aureus"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-152",
+  "source": "模擬新題",
+  "chapter": "staph-strep",
+  "type": "mcq",
+  "stem": "Regarding Streptococcus pyogenes, which statement is INCORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Streptolysin O is oxygen-labile and antigenic"
+   },
+   {
+    "k": "B",
+    "t": "ASO titers may stay low after impetigo because SLO is inhibited by skin cholesterol"
+   },
+   {
+    "k": "C",
+    "t": "Rheumatic fever follows skin infection more often than pharyngitis"
+   },
+   {
+    "k": "D",
+    "t": "Anti-DNase B is useful for diagnosing post-streptococcal glomerulonephritis"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "風濕熱只接在咽炎之後（class I M protein）；急性腎絲球腎炎才是皮膚感染後比咽炎後多。SLO 被皮膚膽固醇抑制 → 膿皰病後 ASO 常不升高，改測 anti-DNase B。SLS 是 oxygen-stable、造成 β 溶血。",
+  "topics": [
+   "S. pyogenes (GAS)"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-153",
+  "source": "模擬新題",
+  "chapter": "staph-strep",
+  "type": "mcq",
+  "stem": "Which statement about neonatal group B streptococcal disease is correct?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Early-onset disease develops between 1 week and 3 months of age"
+   },
+   {
+    "k": "B",
+    "t": "Late-onset disease is mostly serotype III and is acquired from exogenous sources"
+   },
+   {
+    "k": "C",
+    "t": "GBS is bacitracin-sensitive and CAMP-negative"
+   },
+   {
+    "k": "D",
+    "t": "Pregnant women are screened at 20 weeks of gestation"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "早發型：子宮內或出生時感染、第一週內發病（Ia、III、V）；晚發型：1 週到 3 個月、外來感染（母親或其他嬰兒）、多為 III 型。GBS bacitracin 抗性、CAMP (+)、hippurate 水解；孕婦在 35–37 週篩檢。",
+  "topics": [
+   "S. agalactiae (GBS)"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-154",
+  "source": "模擬新題",
+  "chapter": "staph-strep",
+  "type": "mcq",
+  "stem": "Regarding Streptococcus pneumoniae, which statement is INCORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "It is optochin-sensitive and bile-soluble"
+   },
+   {
+    "k": "B",
+    "t": "PCV13 conjugates capsular polysaccharides to a nontoxic diphtheria toxin mutant"
+   },
+   {
+    "k": "C",
+    "t": "PPV23 is the vaccine recommended for infants younger than 2 years"
+   },
+   {
+    "k": "D",
+    "t": "Disease manifestations are mainly caused by the host inflammatory response rather than toxins"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "PPV23 是單純多醣疫苗，只用於 2 歲以上的高風險者與成人；嬰幼兒（6 週到 5 歲）用結合型 PCV13（台灣 104 年起常規接種，2、4、12–15 個月）。肺炎鏈球菌沒有毒素，症狀來自宿主發炎反應。",
+  "topics": [
+   "S. pneumoniae"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-155",
+  "source": "模擬新題",
+  "chapter": "staph-strep",
+  "type": "mcq",
+  "stem": "Community-associated MRSA (CA-MRSA) typically:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Is derived from hospital strains and resistant to nearly all antibiotics"
+   },
+   {
+    "k": "B",
+    "t": "Carries SCCmec type IV and Panton-Valentine leukocidin, and remains susceptible to most non-β-lactam antibiotics"
+   },
+   {
+    "k": "C",
+    "t": "Lacks the mecA gene"
+   },
+   {
+    "k": "D",
+    "t": "Mainly causes urinary tract infections in catheterized patients"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "講義：CA-MRSA 與 HA-MRSA 無關，各國菌株不同（美國 USA300、亞洲 ST59），帶 SCCmec IV 與 PVL，造成皮膚感染與嚴重肺炎；除 β-lactam 外對多數抗生素仍敏感。多重抗藥的是 HA-MRSA。",
+  "topics": [
+   "S. aureus"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-156",
+  "source": "模擬新題",
+  "chapter": "staph-strep",
+  "type": "mcq",
+  "stem": "Which statement about Enterococcus is INCORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "It was formerly classified as group D streptococci"
+   },
+   {
+    "k": "B",
+    "t": "It is PYR-positive and grows in high NaCl and bile"
+   },
+   {
+    "k": "C",
+    "t": "It is intrinsically resistant to cephalosporins"
+   },
+   {
+    "k": "D",
+    "t": "It is usually optochin-sensitive and bile-soluble"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Optochin 敏感、被膽汁溶解是 S. pneumoniae。Enterococcus 1984 年獨立成屬（舊稱 group D streptococci），PYR (+)、optochin 抗性、不被膽汁溶解，先天對 oxacillin、cephalosporin 抗藥，後天可抗 vancomycin。",
+  "topics": [
+   "Enterococcus／Viridans"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-157",
+  "source": "模擬新題",
+  "chapter": "neisseria",
+  "type": "mcq",
+  "stem": "Regarding Neisseria meningitidis and N. gonorrhoeae, which statement is INCORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Only N. meningitidis has a polysaccharide capsule"
+   },
+   {
+    "k": "B",
+    "t": "The tetravalent meningococcal vaccine covers serogroups A, C, W135 and Y"
+   },
+   {
+    "k": "C",
+    "t": "The serogroup B polysaccharide is highly immunogenic and is included in the tetravalent vaccine"
+   },
+   {
+    "k": "D",
+    "t": "Both possess LOS and IgA1 protease"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "B 型莢膜免疫原性差、又與人類神經組織抗原相似 → 沒有多醣疫苗，四價疫苗是 A、C、W135、Y。淋菌沒有莢膜、也沒有疫苗（抗原變異）。兩者共有 LOS、pili、Por／Opa／Rmp、IgA1 protease。",
+  "topics": [
+   "Neisseria"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-158",
+  "source": "模擬新題",
+  "chapter": "neisseria",
+  "type": "mcq",
+  "stem": "According to the lecture handout, the recommended treatment for gonorrhea is:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Penicillin G"
+   },
+   {
+    "k": "B",
+    "t": "Ceftriaxone plus azithromycin"
+   },
+   {
+    "k": "C",
+    "t": "Vancomycin alone"
+   },
+   {
+    "k": "D",
+    "t": "Rifampin alone"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "淋病不建議 penicillin：低程度抗藥來自染色體 PBP 突變，高程度抗藥來自 plasmid 上可轉移的 penicillinase。治療用 ceftriaxone + azithromycin。Rifampin 是腦膜炎雙球菌接觸者的預防用藥。",
+  "topics": [
+   "Neisseria"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-159",
+  "source": "模擬新題",
+  "chapter": "neisseria",
+  "type": "mcq",
+  "stem": "一名住宿舍的大學新生突發高燒、頭痛、頸部僵硬，皮膚出現瘀斑，CSF 可見嗜中性球內 G(−) 雙球菌。對同寢室友最適當的處置是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "給予 rifampin、ciprofloxacin 或 ceftriaxone 化學預防"
+   },
+   {
+    "k": "B",
+    "t": "使用 1% silver nitrate 預防"
+   },
+   {
+    "k": "C",
+    "t": "不需處理，此菌不會人傳人"
+   },
+   {
+    "k": "D",
+    "t": "每月注射長效 penicillin"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "N. meningitidis：飛沫傳播、約 10% 帶菌，群居年輕人（宿舍、軍營）是高危群。密切接觸者建議化學預防：rifampin、ciprofloxacin 或 ceftriaxone。Silver nitrate 是預防淋菌新生兒眼炎。",
+  "topics": [
+   "Neisseria"
+  ],
+  "pattern": "臨床情境題"
+ },
+ {
+  "id": "new-160",
+  "source": "模擬新題",
+  "chapter": "neisseria",
+  "type": "mcq",
+  "stem": "Which Neisseria-related organism is classically associated with human-bite and fistfight wound infections?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Eikenella corrodens"
+   },
+   {
+    "k": "B",
+    "t": "Kingella kingae"
+   },
+   {
+    "k": "C",
+    "t": "Neisseria meningitidis"
+   },
+   {
+    "k": "D",
+    "t": "Neisseria gonorrhoeae"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Eikenella corrodens（小 GNB、口腔菌）：人咬傷、打架拳頭傷把口腔菌帶進深部組織；也會造成亞急性心內膜炎。Kingella kingae（小 G(−) 球桿菌）也與亞急性心內膜炎有關。",
+  "topics": [
+   "其他 G(−) 菌"
+  ],
+  "pattern": "選正確／單一概念題"
  }
 ]

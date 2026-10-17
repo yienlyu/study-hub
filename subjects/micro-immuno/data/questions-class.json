@@ -93,7 +93,7 @@
   "answer": [
    "B"
   ],
-  "explain": "B 細胞在骨髓發育並完成 V(D)J 重組。",
+  "explain": "B 細胞在骨髓（bone marrow）發育，pro-B 階段完成重鏈 V(D)J 重組、pre-B 階段完成輕鏈 VJ 重組（由 RAG1/RAG2 執行），產生多樣的 BCR → 選 B。\n(A) 胸腺是 T 細胞發育與 TCR 重組的地方。(C) 脾臟、(D) 腸道淋巴組織是次級淋巴器官：成熟 B 細胞在這裡遇到抗原，進行的是 class switch 與 somatic hypermutation，不是 V(D)J 重組。",
   "topics": [
    "抗體多樣性（VDJ/SHM）"
   ],
