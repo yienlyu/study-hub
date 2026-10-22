@@ -894,3 +894,9 @@ a.icon-btn { text-decoration: none; }
 .gsi-hit { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; overflow: hidden; opacity: 0; }
 .gsi-btn:hover .btn.primary { background: var(--violet); border-color: var(--violet); color: var(--on-accent); box-shadow: var(--shadow-1); }
 .gsi-btn:focus-within { outline: 2px solid var(--violet); outline-offset: 2px; }
+.acct-email-btns { display: flex; gap: 8px; flex-wrap: wrap; }
+.acct-alt { margin: 10px 0 0; }
+.linkish { padding: 0; border: 0; background: none; color: var(--ink-2, inherit); font: inherit; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+.linkish:hover { color: var(--violet); }
+.linkish:disabled { opacity: .5; cursor: default; }
+#pwForm { flex-basis: 100%; margin-top: 0; }

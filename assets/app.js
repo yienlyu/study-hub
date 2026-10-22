@@ -495,6 +495,48 @@
       });
       if (error) throw error;
     },
+    // Email + 密碼。Supabase 的錯誤訊息是英文，常見的翻成中文
+    authErr(e) {
+      const m = e?.message || String(e);
+      const T = {
+        "Invalid login credentials": "Email 或密碼錯誤",
+        "User already registered": "這個 Email 已經註冊過，請直接登入",
+        "Email not confirmed": "Email 還沒驗證，請先點確認信裡的連結",
+      };
+      return new Error(
+        T[m] ||
+          (/at least \d+ characters/.test(m) ? "密碼太短，至少要 6 個字元" : m),
+      );
+    },
+    async signInPassword(email, password) {
+      await this.ready;
+      if (!this.sb) throw new Error(this.error || "登入元件尚未載入");
+      const { error } = await this.sb.auth.signInWithPassword({
+        email,
+        password,
+      });
+      if (error) throw this.authErr(error);
+    },
+    // 回傳 true 表示已直接登入；false 表示要先點確認信
+    async signUp(email, password) {
+      await this.ready;
+      if (!this.sb) throw new Error(this.error || "登入元件尚未載入");
+      ss.set("sh:auth:back", location.hash || "#/");
+      const { data, error } = await this.sb.auth.signUp({
+        email,
+        password,
+        options: { emailRedirectTo: location.origin + location.pathname },
+      });
+      if (error) throw this.authErr(error);
+      // 已註冊過的 Email 在開啟驗證信時不會報錯，只會回傳沒有 identities 的 user
+      if (data.user && !data.user.identities?.length)
+        throw this.authErr({ message: "User already registered" });
+      return !!data.session;
+    },
+    async setPassword(password) {
+      const { error } = await this.sb.auth.updateUser({ password });
+      if (error) throw this.authErr(error);
+    },
     // Google Identity Services：在本站頁面拿到 Google 的 ID token，再交給 Supabase 換成登入狀態
     _gsi: null,
     gsi() {
@@ -2975,7 +3017,8 @@
         )
         .join("");
       const email = prov.includes("email")
-        ? `<form class="acct-email" id="emailLogin"><label class="sr-only" for="loginEmail">Email</label><input id="loginEmail" type="email" required autocomplete="email" placeholder="you@example.com"><button class="btn" type="submit">${ic("mail")}寄登入連結</button></form>`
+        ? `<form class="acct-email" id="emailLogin"><label class="sr-only" for="loginEmail">Email</label><input id="loginEmail" type="email" required autocomplete="email" placeholder="Email"><label class="sr-only" for="loginPw">密碼</label><input id="loginPw" type="password" required minlength="6" autocomplete="current-password" placeholder="密碼（至少 6 個字元）"><div class="acct-email-btns"><button class="btn" type="submit" value="in">${ic("user")}登入</button><button class="btn ghost" type="submit" value="up">註冊新帳號</button></div></form>
+          <p class="small acct-alt"><button class="linkish" type="button" id="magicBtn">忘記密碼？改用 Email 登入連結</button></p>`
         : "";
       return `<div class="card panel acct"><div class="acct-ico">${ic("cloud")}</div><div style="min-width:0;flex:1"><h3>登入，保存你的學習軌跡</h3><p class="sub">登入後，每一題的作答紀錄會存到你的帳號，換手機或電腦也看得到。${pend ? `這台裝置有 <b>${pend}</b> 筆紀錄還沒上傳，登入後會自動存到你的帳號。` : ""}</p>
         <div class="acct-actions">${oauth}</div>${email}
@@ -2992,7 +3035,8 @@
             : "尚未同步";
     return `<div class="card panel acct"><div class="acct-ico">${av ? `<img src="${esc(av)}" alt="" referrerpolicy="no-referrer">` : ic("user")}</div><div style="min-width:0;flex:1">
       <h3>${esc(userName(u))}</h3><p class="sub" style="margin:0">${u.email && u.email !== userName(u) ? `${esc(u.email)} · ` : ""}<span class="acct-status">${st}</span></p></div>
-      <div class="acct-actions"><button class="btn sm" type="button" id="syncBtn"${Cloud.busy ? " disabled" : ""}>${ic("rotate")}立即同步</button><button class="btn sm ghost" type="button" id="logoutBtn">${ic("logout")}登出</button></div></div>`;
+      <div class="acct-actions"><button class="btn sm" type="button" id="syncBtn"${Cloud.busy ? " disabled" : ""}>${ic("rotate")}立即同步</button><button class="btn sm ghost" type="button" id="pwBtn">${ic("pen")}設定密碼</button><button class="btn sm ghost" type="button" id="logoutBtn">${ic("logout")}登出</button></div>
+      <form class="acct-email" id="pwForm" hidden><label class="sr-only" for="newPw">新密碼</label><input type="email" autocomplete="username" value="${esc(u.email || "")}" hidden><input id="newPw" type="password" required minlength="6" autocomplete="new-password" placeholder="新密碼（至少 6 個字元）"><button class="btn" type="submit">${ic("check")}儲存密碼</button></form></div>`;
   }
 
   function heatmap(days, weeks = 26) {
@@ -3240,14 +3284,59 @@
       e.preventDefault();
       const f = e.currentTarget;
       const v = $("#loginEmail", f).value.trim();
-      const btn = $("button", f);
+      const pw = $("#loginPw", f).value;
+      const up = e.submitter?.value === "up";
+      const btns = $$("button", f);
+      btns.forEach((b) => (b.disabled = true));
+      try {
+        if (!up) {
+          await Cloud.signInPassword(v, pw);
+          toast("登入成功");
+        } else if (await Cloud.signUp(v, pw)) toast("註冊完成，已登入");
+        else
+          f.outerHTML = `<p class="small" style="margin:14px 0 0">${ic("mail")} 確認信已寄到 <b>${esc(v)}</b>。點信裡的連結完成註冊，之後就能用 Email 和密碼登入。</p>`;
+      } catch (err) {
+        btns.forEach((b) => (b.disabled = false));
+        toast(`${up ? "註冊" : "登入"}失敗：${err.message || err}`);
+      }
+    });
+    // 沒設過密碼（以前用登入連結）或忘記密碼：寄登入連結，登入後再到「設定密碼」改
+    $("#magicBtn")?.addEventListener("click", async (e) => {
+      const btn = e.currentTarget;
+      const inp = $("#loginEmail");
+      const v = inp.value.trim();
+      if (!v || !inp.checkValidity()) {
+        inp.focus();
+        return toast("請先在上方輸入 Email");
+      }
       btn.disabled = true;
       try {
         await Cloud.signIn("email", v);
-        f.outerHTML = `<p class="small" style="margin:14px 0 0">${ic("mail")} 登入連結已寄到 <b>${esc(v)}</b>。請用<b>這個瀏覽器</b>打開信裡的連結（在其他瀏覽器或 App 內開啟會登入失敗）。</p>`;
+        btn.parentElement.innerHTML = `${ic("mail")} 登入連結已寄到 <b>${esc(v)}</b>。請用<b>這個瀏覽器</b>打開信裡的連結（在其他瀏覽器或 App 內開啟會登入失敗），登入後可以按「設定密碼」。`;
       } catch (err) {
         btn.disabled = false;
         toast(`寄送失敗：${err.message || err}`);
+      }
+    });
+    $("#pwBtn")?.addEventListener("click", () => {
+      const f = $("#pwForm");
+      f.hidden = !f.hidden;
+      if (!f.hidden) $("#newPw", f).focus();
+    });
+    $("#pwForm")?.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const f = e.currentTarget;
+      const btn = $("button", f);
+      btn.disabled = true;
+      try {
+        await Cloud.setPassword($("#newPw", f).value);
+        f.hidden = true;
+        f.reset();
+        toast("密碼已設定，下次可以用 Email 和密碼登入");
+      } catch (err) {
+        toast(`設定失敗：${err.message || err}`);
+      } finally {
+        btn.disabled = false;
       }
     });
     $("#syncBtn")?.addEventListener("click", () => Cloud.sync());

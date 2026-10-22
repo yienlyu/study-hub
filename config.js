@@ -13,7 +13,7 @@ window.STUDY_HUB_CONFIG = {
   // anon key 本來就是公開用的，資料靠 supabase/schema.sql 的權限規則保護，可以放心 commit。
   supabaseUrl: "https://rjjatolwgptadejokoxm.supabase.co",
   supabaseAnonKey: "sb_publishable_nkvjHvXOuzZQlj3p1YRwfw_DB-wKdu7",
-  // 登入頁要顯示的方式：google、github（需在 Supabase 開啟對應 provider）、email（寄登入連結）
+  // 登入頁要顯示的方式：google、github（需在 Supabase 開啟對應 provider）、email（Email + 密碼登入；忘記密碼時可改寄登入連結）
   authProviders: ["google", "email"],
   // Google Cloud 的 OAuth Client ID（跟 Supabase Google provider 填的同一個）。
   // 填了就改用 Google 自己的登入按鈕，登入畫面顯示本站網域而不是 xxxx.supabase.co；留空則走 Supabase 轉址登入。

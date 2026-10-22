@@ -32,7 +32,8 @@
 
 **Authentication → Sign In / Providers**：
 
-- **Email**：預設已開啟，不用設定。登入時輸入 Email，信箱會收到登入連結。
+- **Email**：預設已開啟。登入頁用 Email + 密碼註冊、登入；忘記密碼可改寄登入連結，登入後在「設定密碼」改密碼。
+  預設註冊時會寄確認信；若想註冊完直接登入，把 Email provider 的 **Confirm email** 關掉。
   免費方案每小時能寄的信有限（幾封），自己用沒問題；很多人一起用時建議改用 Google。
 - **Google**（建議）：
   1. 到 <https://console.cloud.google.com> → 建立專案 → **APIs & Services → OAuth consent screen**，User type 選 External，填 App 名稱與 Email。
