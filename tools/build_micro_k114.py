@@ -3,7 +3,8 @@
 
 來源：slides/micro-immuno/共筆考古/百十三/微免/1141微免期中記題.xlsx（學長姐考後記題，沒有答案欄）
 - 答案與詳解由網站依課本判斷，詳解開頭會註明。
-- 略過：沒記到的題、選項缺漏或有多個正確選項無法判斷的題（26、29、36、53、54、77、83–85），以及本學期章節沒有的病毒學（86–91）。
+- 略過：沒記到的題、選項缺漏或有多個正確選項無法判斷的題（26、29、36、53、54、77、83–85），以及 87（多個選項都對）。
+- 病毒學 86、88–91 於 10/22 補進（新增「病毒」章）；86 是排序題，改成簡答。
 執行：python3 tools/build_micro_k114.py（在 repo 根目錄）
 """
 import json, re, zipfile
@@ -64,11 +65,20 @@ KEY = {
     73: ("agab", "C", "TdT 在接合處隨機加入 N 核苷酸，不是「標記」斷裂點。"),
     78: ("innate", "C", "PRRs 辨識 PAMPs 與 DAMPs；可在細胞膜、內體或細胞質；不只存在於吞噬細胞。"),
     79: ("innate", "A", "Inflammasome 可由 NLRP3、AIM2 等形成，活化 caspase-1 → 產生 IL-1β、IL-18。（樹突細胞中也有，但題目最佳答案為 A。）"),
+    88: ("viruses", "C", "噬菌斑（plaque）計數的單位是 PFU（plaque-forming units）；CFU 是細菌菌落，TCID 是組織培養感染劑量。"),
+    89: ("viruses", "C", "B 型肝炎病毒是持續型（persistent／chronic）感染，病毒持續產生；潛伏型的代表是單純皰疹（唇皰疹）與水痘帶狀皰疹病毒（帶狀皰疹）。"),
+    90: ("viruses", "D", "Acyclovir 對未感染細胞幾乎無毒（要靠病毒的 thymidine kinase 才能活化），所以可以當預防性治療，避免免疫低下者復發；但無法清除潛伏感染。"),
+    91: ("viruses", "A", "Remdesivir 是核苷酸類似物，阻斷 RNA polymerase。Paxlovid 是 protease（Mpro）抑制劑；Molnupiravir 也是核苷酸類似物、不切割蛋白；EUA 仍需安全性資料，而且 EUA 不等於正式核准。"),
+}
+# 簡答（排序題）：題號: (章節, 參考答案, 詳解)
+SHORT = {
+    86: ("viruses", "Attachment → Entry → Uncoating → Biosynthesis →（Maturation）→ Release",
+         "動物病毒：接觸（受體）→ 進入（receptor-mediated endocytosis 或 membrane fusion）→ 脫殼（溶酶體酵素分解 capsid）→ 生合成（DNA 病毒在細胞核、RNA 病毒在細胞質）→ 成熟組裝 → 釋放（有套膜者出芽、無套膜者破膜）。"),
 }
 TOPIC = {"bact-structure": "細菌構造", "sterilization": "滅菌消毒", "pathogenesis": "致病機轉", "innate": "先天免疫",
          "staph-strep": "葡萄球菌、鏈球菌", "enterobacteriaceae": "腸桿菌科", "neisseria": "其他 G(−) 菌", "bacillus": "Bacillus 等 G(+) 桿菌",
          "fungi": "真菌", "immuno-basic": "免疫學基本概念", "tcell-dev": "T 細胞發育", "tcell-act": "T 細胞活化",
-         "mhc": "MHC 與抗原呈現", "agab": "抗原抗體"}
+         "mhc": "MHC 與抗原呈現", "agab": "抗原抗體", "viruses": "病毒學總論"}
 
 
 def rows():
@@ -96,6 +106,13 @@ for c in rows():
     try:
         n = int(float(c.get("A", "x")))
     except ValueError:
+        continue
+    if n in SHORT and c.get("C"):
+        ch, ans, exp = SHORT[n]
+        steps = "、".join(clean(c[col]) for col in "DEFGH" if c.get(col))
+        Q.append({"id": f"k114-{n:02d}", "source": SRC, "num": n, "chapter": ch, "type": "short",
+                  "stem": f"（排序）{c['C'].strip()}：{steps}", "options": [], "answer": [], "answerText": ans,
+                  "explain": NOKEY + exp, "topics": [TOPIC[ch]], "pattern": "簡答題"})
         continue
     if n not in KEY or not c.get("C"):
         continue

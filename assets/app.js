@@ -9,6 +9,7 @@
  *   #/s/:sid/analysis                考題分析
  *   #/s/:sid/sheet[/figs]            速記表 / 觀念圖庫
  *   #/report?...                     回報 / 回饋
+ *   #/me                             學習軌跡 / 登入
  */
 (() => {
   "use strict";
@@ -71,6 +72,10 @@
       '<path d="M7 9V3h10v6M7 17H4v-7h16v7h-3"/><rect x="7" y="14" width="10" height="7"/>',
     minus: '<path d="M5 12h14"/>',
     plus: '<path d="M12 5v14M5 12h14"/>',
+    user: '<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/>',
+    cloud: '<path d="M7 18a5 5 0 0 1-.6-9.96A6 6 0 0 1 18 9a4.5 4.5 0 0 1-.5 9z"/>',
+    download: '<path d="M12 4v11M7 10l5 5 5-5M5 20h14"/>',
+    logout: '<path d="M15 4h4v16h-4M10 8l-4 4 4 4M6 12h10"/>',
   };
   const ic = (n, cls = "") =>
     `<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${P[n] || ""}</svg>`;
@@ -90,6 +95,7 @@
           "'": "&#39;",
         })[c],
     );
+  let onStoreSet = () => {};
   const store = {
     get(k, d) {
       try {
@@ -105,6 +111,7 @@
       } catch {
         /* private mode */
       }
+      onStoreSet(k);
     },
   };
   const shuffle = (a) => {
@@ -269,16 +276,48 @@
     star: (s) => `sh:${s}:stars`,
     read: (s) => `sh:${s}:read`,
     last: (s) => `sh:${s}:lastChapter`,
+    reset: (s) => `sh:${s}:resetT`,
   };
   const getProg = (sid) => store.get(K.prog(sid), {});
-  const record = (sid, qid, ok) => {
+  const record = (sid, qid, ok, { ms = null, mode = "mcq" } = {}) => {
+    const now = Date.now();
     const p = getProg(sid);
     const r = p[qid] || { c: 0, w: 0 };
     ok ? r.c++ : r.w++;
     r.last = ok ? "c" : "w";
-    r.t = Date.now();
+    r.t = now;
     p[qid] = r;
     store.set(K.prog(sid), p);
+    logAttempt([
+      uuid(),
+      sid,
+      qid,
+      ok ? 1 : 0,
+      now,
+      ms > 0 && ms < 30 * 60e3 ? Math.round(ms) : null,
+      mode,
+    ]);
+  };
+
+  // 逐筆作答紀錄（學習軌跡、記憶曲線用）。每筆：[id, sid, qid, ok, t, ms, mode]
+  // 本機只留最近 LOG_MAX 筆；登入後完整紀錄存在 Supabase。
+  const LOG = "sh:log";
+  const PENDING = "sh:log:pending";
+  const LOG_MAX = 20000;
+  const uuid = () =>
+    crypto.randomUUID?.() ||
+    "10000000-1000-4000-8000-100000000000".replace(/[018]/g, (c) =>
+      (c ^ (crypto.getRandomValues(new Uint8Array(1))[0] & (15 >> (c / 4)))).toString(16),
+    );
+  const getLog = () => store.get(LOG, []);
+  const logAttempt = (e) => {
+    const log = getLog();
+    log.push(e);
+    store.set(LOG, log.slice(-LOG_MAX));
+    const pend = store.get(PENDING, []);
+    pend.push(e);
+    store.set(PENDING, pend.slice(-LOG_MAX));
+    Cloud.flushSoon();
   };
   const getStars = (sid) => new Set(store.get(K.star(sid), []));
   const toggleStar = (sid, qid) => {
@@ -288,6 +327,365 @@
     return s.has(qid);
   };
   const getRead = (sid) => new Set(store.get(K.read(sid), []));
+
+  // ------------------------------------------------------------ cloud（Supabase 登入 / 同步）
+  // 沒填 config.js 的 supabaseUrl / supabaseAnonKey 時整段不啟用，網站照常只用本機紀錄。
+  const SUPABASE_JS =
+    "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js";
+  const loadScript = (src) =>
+    new Promise((res, rej) => {
+      const s = document.createElement("script");
+      s.src = src;
+      s.async = true;
+      s.onload = res;
+      s.onerror = () => rej(new Error(`載入失敗：${src}`));
+      document.head.appendChild(s);
+    });
+  const ss = {
+    get: (k) => {
+      try {
+        return sessionStorage.getItem(k);
+      } catch {
+        return null;
+      }
+    },
+    set: (k, v) => {
+      try {
+        v == null ? sessionStorage.removeItem(k) : sessionStorage.setItem(k, v);
+      } catch {
+        /* */
+      }
+    },
+  };
+  // 合併本機與雲端狀態：每題取較新的紀錄；收藏 / 已讀取較晚修改的一方；清除紀錄（reset）之前的進度一律丟掉。
+  function mergeState(L, R) {
+    const M = { prog: {}, stars: {}, read: {}, reset: {}, T: {} };
+    const T = (o, k) => o.T?.[k] || 0;
+    for (const k of new Set([
+      ...Object.keys(L.T || {}),
+      ...Object.keys(R.T || {}),
+    ]))
+      M.T[k] = Math.max(T(L, k), T(R, k));
+    const sids = new Set(
+      ["prog", "stars", "read"].flatMap((f) => [
+        ...Object.keys(L[f] || {}),
+        ...Object.keys(R[f] || {}),
+      ]),
+    );
+    for (const s of sids) {
+      const rs = Math.max(L.reset?.[s] || 0, R.reset?.[s] || 0);
+      if (rs) M.reset[s] = rs;
+      const a = L.prog?.[s] || {},
+        b = R.prog?.[s] || {},
+        p = {};
+      for (const q of new Set([...Object.keys(a), ...Object.keys(b)])) {
+        const x = a[q],
+          y = b[q];
+        const w = !y || (x && (x.t || 0) >= (y.t || 0)) ? x : y;
+        if (w && (w.t || 0) >= rs) p[q] = w;
+      }
+      M.prog[s] = p;
+      for (const kind of ["stars", "read"]) {
+        const k = `${kind}:${s}`,
+          la = L[kind]?.[s],
+          ra = R[kind]?.[s];
+        M[kind][s] = !ra
+          ? la || []
+          : !la
+            ? ra
+            : T(L, k) > T(R, k)
+              ? la
+              : T(R, k) > T(L, k)
+                ? ra
+                : [...new Set([...la, ...ra])];
+      }
+    }
+    return M;
+  }
+  const Cloud = {
+    on: !!(CFG.supabaseUrl && CFG.supabaseAnonKey),
+    sb: null,
+    user: null,
+    ready: Promise.resolve(),
+    busy: false,
+    applying: false,
+    status: "", // "" | "syncing" | "error"
+    error: "",
+    lastSync: store.get("sh:cloud:lastSync", null),
+    _ft: 0,
+    _st: 0,
+    emit(changed = false) {
+      paintAcct();
+      dispatchEvent(new CustomEvent("sh:cloud", { detail: { changed } }));
+    },
+    fail(e) {
+      console.error(e);
+      this.status = "error";
+      this.error = e?.message || String(e);
+      this.emit();
+    },
+    init() {
+      if (!this.on) return;
+      this.ready = (async () => {
+        try {
+          await loadScript(SUPABASE_JS);
+          this.sb = window.supabase.createClient(
+            CFG.supabaseUrl,
+            CFG.supabaseAnonKey,
+            {
+              auth: {
+                flowType: "pkce",
+                detectSessionInUrl: true,
+                persistSession: true,
+                autoRefreshToken: true,
+              },
+            },
+          );
+          // getSession 會等 ?code= 換成登入狀態後才回來
+          const { data } = await this.sb.auth.getSession();
+          this.user = data.session?.user || null;
+          const u = new URL(location.href);
+          const err =
+            u.searchParams.get("error_description") ||
+            u.searchParams.get("error");
+          if (u.searchParams.has("code") || err) {
+            const back = ss.get("sh:auth:back") || "#/me";
+            ss.set("sh:auth:back", null);
+            history.replaceState(null, "", u.pathname + back);
+            if (err) toast(`登入失敗：${err}`);
+            else if (this.user) toast("登入成功");
+            route();
+          }
+          this.sb.auth.onAuthStateChange((ev, session) => {
+            const prev = this.user?.id;
+            this.user = session?.user || null;
+            // 不能在這個 callback 裡直接 await supabase 呼叫，延到下一輪
+            if (this.user && this.user.id !== prev)
+              setTimeout(() => this.sync(), 0);
+            this.emit();
+          });
+          this.emit();
+          if (this.user) this.sync();
+        } catch (e) {
+          this.fail(e);
+        }
+      })();
+    },
+    async signIn(provider, email) {
+      await this.ready;
+      if (!this.sb) throw new Error(this.error || "登入元件尚未載入");
+      const redirectTo = location.origin + location.pathname;
+      ss.set("sh:auth:back", location.hash || "#/");
+      if (provider === "email") {
+        const { error } = await this.sb.auth.signInWithOtp({
+          email,
+          options: { emailRedirectTo: redirectTo },
+        });
+        if (error) throw error;
+        return;
+      }
+      const { error } = await this.sb.auth.signInWithOAuth({
+        provider,
+        options: { redirectTo },
+      });
+      if (error) throw error;
+    },
+    async signOut() {
+      await this.flush().catch(() => {});
+      await this.sb.auth.signOut();
+      this.user = null;
+      this.emit();
+    },
+    flushSoon() {
+      if (!this.user) return;
+      clearTimeout(this._ft);
+      this._ft = setTimeout(
+        () => this.flush().catch((e) => this.fail(e)),
+        2500,
+      );
+    },
+    stateSoon() {
+      if (!this.user) return;
+      clearTimeout(this._st);
+      this._st = setTimeout(() => {
+        if (this.busy) return this.stateSoon();
+        this.syncState().catch((e) => this.fail(e));
+      }, 4000);
+    },
+    // 上傳還沒送出的逐筆紀錄（id 由本機產生，重送不會重複）
+    async flush() {
+      if (!this.user) return;
+      const pend = store.get(PENDING, []);
+      for (let i = 0; i < pend.length; i += 500) {
+        const chunk = pend.slice(i, i + 500);
+        const { error } = await this.sb.from("attempts").upsert(
+          chunk.map(([id, subject, qid, ok, t, ms, mode]) => ({
+            id,
+            subject,
+            qid,
+            ok: !!ok,
+            ms,
+            mode,
+            answered_at: new Date(t).toISOString(),
+          })),
+          { onConflict: "id", ignoreDuplicates: true },
+        );
+        if (error) throw error;
+        const done = new Set(chunk.map((e) => e[0]));
+        store.set(
+          PENDING,
+          store.get(PENDING, []).filter((e) => !done.has(e[0])),
+        );
+      }
+    },
+    // 下載其他裝置的逐筆紀錄（依上傳時間往後接；第一次只抓最近 180 天）
+    async pullAttempts() {
+      const ck = `sh:cloud:cursor:${this.user.id}`;
+      let cursor =
+        store.get(ck, null) ||
+        new Date(Date.now() - 180 * 864e5).toISOString();
+      const got = [];
+      for (;;) {
+        const { data, error } = await this.sb
+          .from("attempts")
+          .select("id,subject,qid,ok,ms,mode,answered_at,created_at")
+          .gte("created_at", cursor)
+          .order("created_at")
+          .limit(1000);
+        if (error) throw error;
+        got.push(...data);
+        if (data.length) cursor = data[data.length - 1].created_at;
+        if (data.length < 1000) break;
+      }
+      const log = getLog();
+      const have = new Set(log.map((e) => e[0]));
+      let added = 0;
+      for (const r of got)
+        if (!have.has(r.id)) {
+          have.add(r.id);
+          log.push([
+            r.id,
+            r.subject,
+            r.qid,
+            r.ok ? 1 : 0,
+            Date.parse(r.answered_at),
+            r.ms,
+            r.mode,
+          ]);
+          added++;
+        }
+      if (added) {
+        log.sort((a, b) => a[4] - b[4]);
+        store.set(LOG, log.slice(-LOG_MAX));
+      }
+      store.set(ck, cursor);
+      return added > 0;
+    },
+    localState() {
+      const o = {
+        prog: {},
+        stars: {},
+        read: {},
+        reset: {},
+        T: store.get("sh:T", {}),
+      };
+      for (const { id: s } of DB.index || []) {
+        o.prog[s] = getProg(s);
+        o.stars[s] = [...getStars(s)];
+        o.read[s] = [...getRead(s)];
+        const r = store.get(K.reset(s), 0);
+        if (r) o.reset[s] = r;
+      }
+      return o;
+    },
+    async syncState() {
+      if (!this.user) return false;
+      await loadIndex();
+      const { data, error } = await this.sb
+        .from("user_state")
+        .select("data")
+        .maybeSingle();
+      if (error) throw error;
+      const L = this.localState();
+      const M = mergeState(L, data?.data || {});
+      const changed = JSON.stringify(L) !== JSON.stringify(M);
+      this.applying = true;
+      try {
+        for (const s of Object.keys(M.prog)) {
+          store.set(K.prog(s), M.prog[s]);
+          store.set(K.star(s), M.stars[s]);
+          store.set(K.read(s), M.read[s]);
+          if (M.reset[s]) store.set(K.reset(s), M.reset[s]);
+        }
+        store.set("sh:T", M.T);
+      } finally {
+        this.applying = false;
+      }
+      const { error: e2 } = await this.sb.from("user_state").upsert({
+        user_id: this.user.id,
+        data: M,
+        updated_at: new Date().toISOString(),
+      });
+      if (e2) throw e2;
+      return changed;
+    },
+    async sync() {
+      if (!this.user || this.busy) return;
+      this.busy = true;
+      this.status = "syncing";
+      this.emit();
+      let changed = false;
+      try {
+        await this.flush();
+        changed = (await this.pullAttempts()) || changed;
+        changed = (await this.syncState()) || changed;
+        this.lastSync = Date.now();
+        store.set("sh:cloud:lastSync", this.lastSync);
+        this.status = "";
+        this.error = "";
+      } catch (e) {
+        console.error(e);
+        this.status = "error";
+        this.error = e?.message || String(e);
+      } finally {
+        this.busy = false;
+        this.emit(changed);
+      }
+    },
+  };
+  onStoreSet = (k) => {
+    if (Cloud.applying) return;
+    const m = k.match(/^sh:([^:]+):(progress|stars|read|resetT)$/);
+    if (!m) return;
+    if (m[2] === "stars" || m[2] === "read") {
+      const T = store.get("sh:T", {});
+      T[`${m[2]}:${m[1]}`] = Date.now();
+      store.set("sh:T", T);
+    }
+    Cloud.stateSoon();
+  };
+  document.addEventListener("visibilitychange", () => {
+    if (!Cloud.user) return;
+    if (document.hidden) Cloud.flush().catch(() => {});
+    else if (Date.now() - (Cloud.lastSync || 0) > 60e3) Cloud.sync();
+  });
+  const userName = (u) =>
+    u?.user_metadata?.full_name || u?.user_metadata?.name || u?.email || "";
+  function paintAcct() {
+    const b = $("#acctBtn");
+    if (!b) return;
+    const u = Cloud.user;
+    b.classList.toggle("signed", !!u);
+    b.classList.toggle("err", Cloud.status === "error");
+    b.setAttribute(
+      "aria-label",
+      u ? `學習軌跡（已登入：${userName(u)}）` : "學習軌跡與登入",
+    );
+    const av = u?.user_metadata?.avatar_url;
+    b.innerHTML = av
+      ? `<img src="${esc(av)}" alt="" referrerpolicy="no-referrer">`
+      : ic("user");
+  }
 
   // 題目來源：每個科目可在 subject.json 的 "sources" 自訂；沒寫就用下面的預設。
   // kind：exam（考古）、class（課堂題）、new（模擬新題）
@@ -373,7 +771,7 @@
       const s = DB.subjects[sid];
       nav.innerHTML = `<a href="#/">所有科目</a><a href="#/s/${sid}"${cur("subject")}>${esc(s?.meta.short || "總覽")}總覽</a><a href="#/s/${sid}/practice"${cur("practice")}>練習區</a><a href="#/s/${sid}/analysis"${cur("analysis")}>考題分析</a><a href="#/s/${sid}/sheet"${cur("sheet")}>速記・圖解</a><a href="#/report?sid=${sid}"${cur("report")}>回報 / 回饋</a>`;
     } else {
-      nav.innerHTML = `<a href="#/"${cur("home")}>所有科目</a><a href="#/practice"${cur("practice")}>練習區</a><a href="#/report"${cur("report")}>回報 / 回饋</a>`;
+      nav.innerHTML = `<a href="#/"${cur("home")}>所有科目</a><a href="#/practice"${cur("practice")}>練習區</a><a href="#/me"${cur("me")}>學習軌跡</a><a href="#/report"${cur("report")}>回報 / 回饋</a>`;
     }
     const tb = $("#tabbar");
     const T = (href, icon, label, k) =>
@@ -434,6 +832,7 @@
       await loadIndex();
       if (!seg.length) return await pageHome();
       if (seg[0] === "report") return await pageReport(q);
+      if (seg[0] === "me") return await pageMe();
       if (seg[0] === "practice") return await pagePracticePick();
       if (seg[0] === "s" && seg[1]) {
         const sid = seg[1];
@@ -1717,9 +2116,12 @@
         $("#resetBtn").addEventListener("click", () => {
           if (
             confirm(
-              "確定要清除這台裝置上本科目的所有作答紀錄與收藏嗎？這個動作無法復原。",
+              Cloud.user
+                ? "確定要清除本科目的作答紀錄與收藏嗎？已登入，其他裝置上的進度也會一起清除（學習軌跡的逐筆紀錄會保留）。這個動作無法復原。"
+                : "確定要清除這台裝置上本科目的所有作答紀錄與收藏嗎？（學習軌跡的逐筆紀錄會保留）這個動作無法復原。",
             )
           ) {
+            store.set(K.reset(sid), Date.now());
             store.set(K.prog(sid), {});
             store.set(K.star(sid), []);
             toast("已清除作答紀錄");
@@ -1774,6 +2176,7 @@
       streak: 0,
       best: 0,
       t0: Date.now(),
+      qt: Date.now(),
     };
     let timer = 0;
     const counts = () =>
@@ -1908,6 +2311,7 @@
       if (k < 0) return;
       if (k >= pool.length) return finish();
       S.i = k;
+      S.qt = Date.now();
       paint(false);
       $("#qslot").scrollIntoView({ block: "nearest" });
       if (innerWidth < 760) scrollTo({ top: 0 });
@@ -1920,7 +2324,7 @@
       S.last = S.i;
       S.streak = ok ? S.streak + 1 : 0;
       S.best = Math.max(S.best, S.streak);
-      record(sid, qq.id, ok);
+      record(sid, qq.id, ok, { ms: Date.now() - S.qt, mode: "mcq" });
       paint(false);
       $("#next")?.focus({ preventScroll: true });
     };
@@ -1929,7 +2333,7 @@
       S.ans[S.i] = { k: null, ok, self: true };
       S.last = S.i;
       S.streak = ok ? S.streak + 1 : 0;
-      record(sid, qq.id, ok);
+      record(sid, qq.id, ok, { ms: Date.now() - S.qt, mode: "self" });
       paint(false);
       $("#next")?.focus({ preventScroll: true });
     };
@@ -2072,7 +2476,7 @@
       );
       return;
     }
-    const S = { i: 0, flipped: false, res: pool.map(() => null) };
+    const S = { i: 0, flipped: false, res: pool.map(() => null), qt: Date.now() };
     const tally = () =>
       S.res.reduce((a, r) => (r === null ? a : (r ? a.y++ : a.n++, a)), {
         y: 0,
@@ -2154,12 +2558,13 @@
       if (k >= pool.length) return finish();
       S.i = k;
       S.flipped = false;
+      S.qt = Date.now();
       paint();
       if (innerWidth < 760) scrollTo({ top: 0 });
     };
     const know = (ok) => {
       S.res[S.i] = ok;
-      record(sid, pool[S.i].id, ok);
+      record(sid, pool[S.i].id, ok, { ms: Date.now() - S.qt, mode: "card" });
       go(S.i + 1);
     };
     const onKey = (e) => {
@@ -2453,6 +2858,333 @@
       () => bindTips($app),
     );
   }
+
+  // ------------------------------------------------------------ 學習軌跡 / 登入
+  // 答對率長條：rows = [{ label, n, c, href? }]，樣本少於 min 的列淡化
+  function pctChart(rows, { caption = "", min = 5 } = {}) {
+    const body = rows
+      .map((r) => {
+        const p = pct(r.c, r.n);
+        const v = r.n ? `${p}%` : "—";
+        const tip = `<b>${esc(r.label)}</b><div class="row">答對率 ${v}</div><div class="row" style="opacity:.7">${r.n} 次作答${r.n && r.n < min ? "（樣本少，僅供參考）" : ""}</div>`;
+        const tag = r.href ? "a" : "div";
+        return `<${tag} class="chart-row${r.n < min ? " few" : ""}" ${r.href ? `href="${r.href}"` : ""} tabindex="0" data-tip="${esc(tip)}" style="color:inherit;text-decoration:none"><span class="lab">${esc(r.label)}</span><span style="display:block"><span class="track" style="width:${p}%">${p ? `<i style="flex:1;background:var(--series-1)"></i>` : ""}</span></span><span class="val">${v}</span></${tag}>`;
+      })
+      .join("");
+    const table = `<details class="data-table"><summary>以表格檢視${caption ? `（${esc(caption)}）` : ""}</summary><table><thead><tr><th>項目</th><th>作答次數</th><th>答對</th><th>答對率</th></tr></thead><tbody>${rows.map((r) => `<tr><td>${esc(r.label)}</td><td class="n">${r.n}</td><td class="n">${r.c}</td><td class="n">${r.n ? `${pct(r.c, r.n)}%` : "—"}</td></tr>`).join("")}</tbody></table></details>`;
+    return `<div class="chart">${body}</div>${table}`;
+  }
+
+  const DAY = 864e5;
+  const dayKey = (t) => {
+    const d = new Date(t);
+    return `${d.getFullYear()}-${pad2(d.getMonth() + 1)}-${pad2(d.getDate())}`;
+  };
+  const fmtWhen = (t) => {
+    const d = new Date(t);
+    return `${d.getMonth() + 1}/${d.getDate()} ${pad2(d.getHours())}:${pad2(d.getMinutes())}`;
+  };
+
+  function acctPanel() {
+    const pend = store.get(PENDING, []).length;
+    if (!Cloud.on)
+      return `<div class="card panel acct"><div class="acct-ico">${ic("cloud")}</div><div><h3>雲端同步尚未設定</h3><p class="sub" style="margin:0">目前紀錄只存在這台裝置。在 <span class="mono">config.js</span> 填入 Supabase 設定後，這裡會出現登入按鈕，作答紀錄就能跨裝置保存。設定步驟見 <a href="https://github.com/${esc(CFG.githubRepo || "")}/blob/main/supabase/README.md" target="_blank" rel="noopener">supabase/README.md</a>。</p></div></div>`;
+    const u = Cloud.user;
+    if (!u) {
+      const prov = CFG.authProviders || ["google", "email"];
+      const LBL = { google: "Google", github: "GitHub", apple: "Apple" };
+      const oauth = prov
+        .filter((p) => p !== "email")
+        .map(
+          (p) =>
+            `<button class="btn primary" type="button" data-login="${esc(p)}">${ic("user")}用 ${esc(LBL[p] || p)} 登入</button>`,
+        )
+        .join("");
+      const email = prov.includes("email")
+        ? `<form class="acct-email" id="emailLogin"><label class="sr-only" for="loginEmail">Email</label><input id="loginEmail" type="email" required autocomplete="email" placeholder="you@example.com"><button class="btn" type="submit">${ic("mail")}寄登入連結</button></form>`
+        : "";
+      return `<div class="card panel acct"><div class="acct-ico">${ic("cloud")}</div><div style="min-width:0;flex:1"><h3>登入，保存你的學習軌跡</h3><p class="sub">登入後，每一題的作答紀錄會存到你的帳號，換手機或電腦也看得到。${pend ? `這台裝置有 <b>${pend}</b> 筆紀錄還沒上傳，登入後會自動存到你的帳號。` : ""}</p>
+        <div class="acct-actions">${oauth}</div>${email}
+        ${Cloud.status === "error" ? `<p class="small" style="color:var(--bad);margin:12px 0 0">${ic("alert")} ${esc(Cloud.error)}</p>` : ""}</div></div>`;
+    }
+    const av = u.user_metadata?.avatar_url;
+    const st =
+      Cloud.status === "syncing"
+        ? "同步中…"
+        : Cloud.status === "error"
+          ? `<span style="color:var(--bad)">${ic("alert")} 同步失敗：${esc(Cloud.error)}</span>`
+          : Cloud.lastSync
+            ? `${ic("check")} 已同步 · ${fmtWhen(Cloud.lastSync)}${pend ? ` · ${pend} 筆待上傳` : ""}`
+            : "尚未同步";
+    return `<div class="card panel acct"><div class="acct-ico">${av ? `<img src="${esc(av)}" alt="" referrerpolicy="no-referrer">` : ic("user")}</div><div style="min-width:0;flex:1">
+      <h3>${esc(userName(u))}</h3><p class="sub" style="margin:0">${u.email && u.email !== userName(u) ? `${esc(u.email)} · ` : ""}<span class="acct-status">${st}</span></p></div>
+      <div class="acct-actions"><button class="btn sm" type="button" id="syncBtn"${Cloud.busy ? " disabled" : ""}>${ic("rotate")}立即同步</button><button class="btn sm ghost" type="button" id="logoutBtn">${ic("logout")}登出</button></div></div>`;
+  }
+
+  function heatmap(days, weeks = 26) {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const at = (i) =>
+      new Date(today.getFullYear(), today.getMonth(), today.getDate() - i);
+    const start = at(today.getDay() + 7 * (weeks - 1)); // 第一欄的星期日
+    const lv = (n) => (!n ? 0 : n < 10 ? 1 : n < 30 ? 2 : n < 60 ? 3 : 4);
+    let cols = "",
+      months = "",
+      lastM = -1;
+    for (let w = 0; w < weeks; w++) {
+      let cells = "";
+      const first = new Date(
+        start.getFullYear(),
+        start.getMonth(),
+        start.getDate() + w * 7,
+      );
+      const m = first.getMonth();
+      months += `<span>${m !== lastM ? `${m + 1}月` : ""}</span>`;
+      lastM = m;
+      for (let d = 0; d < 7; d++) {
+        const day = new Date(
+          first.getFullYear(),
+          first.getMonth(),
+          first.getDate() + d,
+        );
+        if (day > today) {
+          cells += `<i class="off"></i>`;
+          continue;
+        }
+        const k = dayKey(day);
+        const x = days.get(k) || { n: 0, c: 0 };
+        const tip = `<b>${day.getMonth() + 1}/${day.getDate()}（${"日一二三四五六"[day.getDay()]}）</b><div class="row">${x.n ? `${x.n} 題 · 答對 ${pct(x.c, x.n)}%` : "沒有練習"}</div>`;
+        cells += `<i class="l${lv(x.n)}" tabindex="0" data-tip="${esc(tip)}" aria-label="${k}：${x.n} 題"></i>`;
+      }
+      cols += `<span class="heat-col">${cells}</span>`;
+    }
+    const rows = [...days.entries()]
+      .filter(([k]) => k >= dayKey(start))
+      .sort((a, b) => (a[0] < b[0] ? 1 : -1));
+    return `<div class="heat-scroll"><div class="heat">
+      <div class="heat-months" aria-hidden="true"><span></span>${months}</div>
+      <div class="heat-body"><span class="heat-days" aria-hidden="true"><span></span><span>一</span><span></span><span>三</span><span></span><span>五</span><span></span></span>${cols}</div>
+    </div></div>
+    <div class="heat-legend" aria-hidden="true">少<i class="l0"></i><i class="l1"></i><i class="l2"></i><i class="l3"></i><i class="l4"></i>多<span class="muted">（1–9 · 10–29 · 30–59 · 60+ 題）</span></div>
+    <details class="data-table"><summary>以表格檢視（每日練習）</summary><table><thead><tr><th>日期</th><th>題數</th><th>答對率</th></tr></thead><tbody>${rows.map(([k, x]) => `<tr><td>${k}</td><td class="n">${x.n}</td><td class="n">${pct(x.c, x.n)}%</td></tr>`).join("") || `<tr><td colspan="3" class="muted">還沒有紀錄</td></tr>`}</tbody></table></details>`;
+  }
+
+  function downloadLogCSV(log) {
+    const cell = (v) => {
+      const t = v == null ? "" : String(v);
+      return /[",\n]/.test(t) ? `"${t.replace(/"/g, '""')}"` : t;
+    };
+    const csv =
+      "﻿id,subject,qid,ok,answered_at,ms,mode\n" +
+      log
+        .map((e) =>
+          [e[0], e[1], e[2], e[3], new Date(e[4]).toISOString(), e[5], e[6]]
+            .map(cell)
+            .join(","),
+        )
+        .join("\n");
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([csv], { type: "text/csv" }));
+    a.download = `study-hub-log-${dayKey(Date.now())}.csv`;
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  }
+
+  async function pageMe() {
+    const subs = await loadAllSubjects();
+    setChrome(null, "me");
+    const byId = Object.fromEntries(subs.map((s) => [s.meta.id, s]));
+    const log = getLog();
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const at = (i) =>
+      new Date(today.getFullYear(), today.getMonth(), today.getDate() - i);
+
+    const days = new Map();
+    for (const e of log) {
+      const k = dayKey(e[4]);
+      const d = days.get(k) || { n: 0, c: 0 };
+      d.n++;
+      d.c += e[3];
+      days.set(k, d);
+    }
+    let streak = 0;
+    for (let i = days.has(dayKey(today)) ? 0 : 1; days.has(dayKey(at(i))); i++)
+      streak++;
+    const wk = log.filter((e) => e[4] >= +at(6));
+    const wkC = wk.reduce((a, e) => a + e[3], 0);
+
+    // 每週答對 / 答錯
+    const W = 12;
+    const sun = at(today.getDay());
+    const weekRows = [];
+    for (let w = W - 1; w >= 0; w--) {
+      const a = new Date(sun.getFullYear(), sun.getMonth(), sun.getDate() - 7 * w);
+      const b = +a + 7 * DAY;
+      const es = log.filter((e) => e[4] >= +a && e[4] < b);
+      const c = es.reduce((x, e) => x + e[3], 0);
+      weekRows.push({
+        label: w ? `${a.getMonth() + 1}/${a.getDate()} 那週` : "本週",
+        segs: [
+          { name: "答對", color: "var(--series-1)", v: c },
+          { name: "答錯", color: "var(--series-2)", v: es.length - c },
+        ],
+      });
+    }
+
+    // 記憶曲線（距上次做同一題多久 → 答對率）與學習曲線（第幾次做 → 答對率）
+    const byQ = new Map();
+    for (const e of log) {
+      const k = `${e[1]}|${e[2]}`;
+      if (!byQ.has(k)) byQ.set(k, []);
+      byQ.get(k).push(e);
+    }
+    const GAPS = [
+      ["不到 1 天", 1],
+      ["1–3 天", 3],
+      ["3–7 天", 7],
+      ["7–14 天", 14],
+      ["14–30 天", 30],
+      ["30 天以上", Infinity],
+    ];
+    const gap = GAPS.map(([label]) => ({ label, n: 0, c: 0 }));
+    const NTH = ["第 1 次", "第 2 次", "第 3 次", "第 4 次", "第 5 次以上"];
+    const nth = NTH.map((label) => ({ label, n: 0, c: 0 }));
+    let reviewed = 0;
+    for (const arr of byQ.values()) {
+      arr.sort((a, b) => a[4] - b[4]);
+      if (arr.length > 1) reviewed++;
+      arr.forEach((e, i) => {
+        const r = nth[Math.min(i, NTH.length - 1)];
+        r.n++;
+        r.c += e[3];
+        if (!i) return;
+        const g = (e[4] - arr[i - 1][4]) / DAY;
+        const b = gap[GAPS.findIndex(([, lim]) => g < lim)];
+        b.n++;
+        b.c += e[3];
+      });
+    }
+
+    const subjRows = subs
+      .map((s) => {
+        const es = log.filter((e) => e[1] === s.meta.id);
+        return {
+          label: s.meta.short || s.meta.title,
+          href: `#/s/${s.meta.id}`,
+          n: es.length,
+          c: es.reduce((a, e) => a + e[3], 0),
+        };
+      })
+      .filter((r) => r.n);
+
+    const recent = log
+      .slice(-12)
+      .reverse()
+      .map((e) => {
+        const s = byId[e[1]];
+        const q = s?.qById[e[2]];
+        const stem = q ? q.stem.replace(/\s+/g, " ").slice(0, 160) : e[2];
+        return `<a class="recent-row" href="#/s/${esc(e[1])}/q/${esc(e[2])}">
+          <span class="res ${e[3] ? "ok" : "no"}">${ic(e[3] ? "check" : "x")}${e[3] ? "答對" : "答錯"}</span>
+          <span class="stem">${esc(stem)}</span>
+          <span class="meta">${esc(s?.meta.short || e[1])} · ${fmtWhen(e[4])}</span></a>`;
+      })
+      .join("");
+
+    const legacy = subs.reduce((a, s) => a + subjectStats(s).done, 0);
+    const empty = !log.length;
+    render(
+      `<div class="wrap">
+      <header style="padding-top:14px">
+        <div class="eyebrow">Learning log · 學習軌跡</div>
+        <h1 class="display h-l" style="margin-top:12px">每一題，<br>都留下痕跡。</h1>
+        <p class="lede">每次作答都會記下時間與對錯。累積下來，就能看到自己哪天讀最多、隔多久會忘、哪一科最需要回頭複習。</p>
+      </header>
+      <div id="acct" style="margin-top:28px">${acctPanel()}</div>
+      ${
+        empty
+          ? `<div class="card empty" style="margin-top:14px"><div class="eyebrow">還沒有逐筆紀錄</div><h2 class="display">從下一題開始記錄</h2><p>學習軌跡從這次更新後開始累積${legacy ? `；之前做過的 ${legacy} 題只有「最後一次對錯」，沒有每次的時間，所以不會出現在圖表裡` : ""}。</p><a class="btn primary" href="#/practice">${ic("pen")}去練習</a></div>`
+          : `
+      <div class="tiles" style="margin-top:14px">
+        <div class="tile"><div class="v">${log.length}</div><div class="l">總作答次數</div></div>
+        <div class="tile"><div class="v">${days.size}<small>天</small></div><div class="l">有練習的日子</div></div>
+        <div class="tile"><div class="v">${streak}<small>天</small></div><div class="l">目前連續練習</div></div>
+        <div class="tile"><div class="v">${wk.length ? pct(wkC, wk.length) : "—"}${wk.length ? "<small>%</small>" : ""}</div><div class="l">近 7 天答對率（${wk.length} 題）</div></div>
+      </div>
+      <div class="card panel" style="margin-top:14px"><h3>練習日曆</h3><p class="sub">最近半年，每一格是一天，顏色越深代表那天做越多題</p>${heatmap(days)}</div>
+      <div class="card panel" style="margin-top:14px"><h3>每週作答</h3><p class="sub">最近 12 週，答對與答錯的題數</p>${barChart(weekRows, { series: weekRows[0].segs.map(({ name, color }) => ({ name, color })), tableCaption: "每週作答" })}</div>
+      <div class="grid2" style="margin-top:14px">
+        <div class="card panel"><h3>記憶曲線</h3><p class="sub">同一題隔多久再做，答對率是多少。越往下掉得少，代表記得越牢。已重複練習 ${reviewed} 題；淡色列樣本少於 5 次。</p>${pctChart(gap, { caption: "記憶曲線" })}</div>
+        <div class="card panel"><h3>學習曲線</h3><p class="sub">同一題做到第幾次時的答對率。越往下越高，代表重複練習有效。</p>${pctChart(nth, { caption: "學習曲線" })}</div>
+      </div>
+      <div class="grid2" style="margin-top:14px">
+        <div class="card panel"><h3>各科答對率</h3><p class="sub">所有作答次數合計，點一列進入該科</p>${pctChart(subjRows, { caption: "各科" })}</div>
+        <div class="card panel"><h3>最近作答</h3><p class="sub">點一題可以再做一次</p><div class="recent">${recent}</div></div>
+      </div>`
+      }
+      <p class="small muted" style="margin-top:28px;display:flex;gap:14px;flex-wrap:wrap;align-items:center">
+        ${log.length ? `<button class="btn sm" type="button" id="csvBtn">${ic("download")}下載作答紀錄（CSV）</button>` : ""}
+        <span>這台裝置保留最近 ${LOG_MAX.toLocaleString()} 筆${Cloud.user ? "；完整紀錄在雲端，可在 Supabase 用 SQL 分析" : ""}。</span>
+      </p>
+    </div>`,
+      () => {
+        bindTips($app);
+        bindAcct();
+        const hs = $(".heat-scroll");
+        if (hs) hs.scrollLeft = hs.scrollWidth; // 手機上先看到最近幾週
+        $("#csvBtn")?.addEventListener("click", () => downloadLogCSV(getLog()));
+      },
+    );
+  }
+  function bindAcct() {
+    $$("[data-login]").forEach((b) =>
+      b.addEventListener("click", async () => {
+        b.disabled = true;
+        try {
+          await Cloud.signIn(b.dataset.login);
+        } catch (e) {
+          b.disabled = false;
+          toast(`登入失敗：${e.message || e}`);
+        }
+      }),
+    );
+    $("#emailLogin")?.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const f = e.currentTarget;
+      const v = $("#loginEmail", f).value.trim();
+      const btn = $("button", f);
+      btn.disabled = true;
+      try {
+        await Cloud.signIn("email", v);
+        f.outerHTML = `<p class="small" style="margin:14px 0 0">${ic("mail")} 登入連結已寄到 <b>${esc(v)}</b>。請用<b>這個瀏覽器</b>打開信裡的連結（在其他瀏覽器或 App 內開啟會登入失敗）。</p>`;
+      } catch (err) {
+        btn.disabled = false;
+        toast(`寄送失敗：${err.message || err}`);
+      }
+    });
+    $("#syncBtn")?.addEventListener("click", () => Cloud.sync());
+    $("#logoutBtn")?.addEventListener("click", async () => {
+      await Cloud.signOut();
+      toast("已登出；這台裝置上的紀錄仍會保留");
+    });
+  }
+  // 登入狀態或同步結果改變時：學習軌跡頁重畫；首頁在資料有變時重畫
+  addEventListener("sh:cloud", (e) => {
+    const { seg } = parseHash();
+    if (seg[0] === "me") {
+      if (e.detail.changed) {
+        const y = scrollY;
+        pageMe().then(() => scrollTo({ top: y }));
+      } else {
+        const box = $("#acct");
+        if (box) {
+          box.innerHTML = acctPanel();
+          bindAcct();
+        }
+      }
+    } else if (!seg.length && e.detail.changed) pageHome();
+  });
 
   // ------------------------------------------------------------ report
   async function pageReport(q) {
@@ -2878,7 +3610,11 @@
   });
 
   // boot: wait for marked (deferred) then route
-  const boot = () => route();
+  const boot = () => {
+    route();
+    paintAcct();
+    Cloud.init();
+  };
   if (window.marked) boot();
   else addEventListener("load", boot, { once: true });
 })();

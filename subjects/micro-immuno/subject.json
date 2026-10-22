@@ -3,7 +3,7 @@
   "title": "微生物與免疫學",
   "short": "微免",
   "term": "115-1 期中考",
-  "description": "細菌學總論、免疫學基礎、各論細菌與真菌。整合 2026 上課 slides、113 共筆、113／111 考古與 114 期中記題。",
+  "description": "細菌學總論、免疫學基礎、各論細菌、真菌與病毒學總論。整合 2026 上課 slides 與錄影、113 共筆、113／111 考古與 114 期中記題。",
   "color": "#2f7d6d",
   "icon": "🦠",
   "questionFiles": [
@@ -37,13 +37,14 @@
       ]
     },
     {
-      "title": "細菌與真菌各論（鍾筱菁）",
+      "title": "細菌、真菌與病毒各論（黃姿雯、鍾筱菁、吳珊瑩）",
       "chapters": [
         "staph-strep",
         "enterobacteriaceae",
         "bacillus",
         "neisseria",
-        "fungi"
+        "fungi",
+        "viruses"
       ]
     }
   ],
@@ -157,15 +158,15 @@
       "title": "葡萄球菌、鏈球菌、腸球菌",
       "en": "Staphylococcus, Streptococcus & Enterococcus",
       "teacher": "黃姿雯",
-      "week": "未上",
-      "slides": false
+      "week": "W7-2（10/21）",
+      "slides": true
     },
     {
       "id": "enterobacteriaceae",
       "title": "腸桿菌科",
       "en": "Enterobacteriaceae",
       "teacher": "鍾筱菁",
-      "week": "W6-2",
+      "week": "W6-2、W7（10/16、10/22）",
       "slides": true
     },
     {
@@ -178,18 +179,26 @@
     },
     {
       "id": "neisseria",
-      "title": "Neisseria、Helicobacter、Pseudomonas、Vibrio",
-      "en": "Neisseria, Helicobacter, Pseudomonas, Vibrio",
+      "title": "Neisseria、Campylobacter、Helicobacter、Pseudomonas、Vibrio",
+      "en": "Neisseria, Campylobacter, Helicobacter, Pseudomonas, Vibrio",
       "teacher": "黃姿雯／鍾筱菁",
-      "week": "未上",
-      "slides": false
+      "week": "W7（10/21、10/22）",
+      "slides": true
     },
     {
       "id": "fungi",
       "title": "真菌構造與黴菌病",
       "en": "Fungal structure & mycosis",
       "teacher": "鍾筱菁",
-      "week": "未上",
+      "week": "W8（講義已公布）",
+      "slides": false
+    },
+    {
+      "id": "viruses",
+      "title": "病毒構造、複製、分類與抗病毒藥物",
+      "en": "Viral structure, replication, classification & antiviral agents",
+      "teacher": "吳珊瑩",
+      "week": "W8（10/30）",
       "slides": false
     }
   ],
@@ -201,7 +210,7 @@
     ],
     [
       "114 期中考古（去年期中考記題）。",
-      "學長姐考後記下約 90 題，練習區收錄其中選項完整、答案明確的 49 題（記題沒有附答案，網站依課本判斷）。去年範圍到真菌與部分病毒學（病毒題未收錄，原檔在 slides/micro-immuno/共筆考古/）。"
+      "學長姐考後記下約 90 題，練習區收錄其中選項完整、答案明確的 54 題（記題沒有附答案，網站依課本判斷），含 5 題病毒學（原檔在 slides/micro-immuno/共筆考古/）。"
     ],
     [
       "同一概念換句話重複出。",

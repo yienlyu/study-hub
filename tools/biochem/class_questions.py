@@ -1,4 +1,5 @@
-"""2026 課堂題：陳顧中老師 Ch23 slides 上的「課後練習題」（多為國考題，答案依 slides 標示）。
+"""2026 課堂題：陳顧中老師 Ch23 slides 上的「課後練習題」（多為國考題，答案依 slides 標示），
+以及 1151 生化共筆 W4（Ch23-1）終審版補充的【練習題】（section 標「Ch23-1 共筆」）。
 用法：python3 tools/biochem/class_questions.py → subjects/biochem/data/questions-class.json
 每題：(章節, 考點, 題幹, [選項A..D], 答案, 詳解, slides 頁碼)
 """
@@ -119,12 +120,58 @@ Q = [
  ('ch23', ['瘦素與脂肪激素'], '下列何種賀爾蒙是由脂肪組織所分泌，並具有降低食慾刺激代謝的功能？（112-1 醫檢師）',
   ['脂締素（adiponectin）', '瘦素（leptin）', '阻抗素（resistin）', '抑制素（inhibin）'], 'B',
   'Leptin（OB gene 產物）作用在下視丘 arcuate nucleus：抑制食慾（↓NPY/AgRP、↑POMC）、增加能量消耗。', 57),
+ # ── 以下 15 題取自 1151 生化共筆 W4（Ch23-1）終審版的【練習題】（10/22 補進；國考題，答案依共筆）
+ ('ch23', ['胰島素與 GLUT'], '有關胰島素（insulin）的敘述，下列何者錯誤？（112-1 醫檢師）',
+  ['proinsulin 儲存於蘭氏小島 β cells', 'insulin 分子結構由 51 個胺基酸組成，其中包含 A 鏈與 B 鏈', 'insulin 分子結構中之 A 鏈與 B 鏈經由氫鍵連結', 'proinsulin 可分解成 insulin 與 C-peptide'], 'C',
+  'A 鏈（21 aa）與 B 鏈（30 aa）靠兩個雙硫鍵（disulfide bond）連結，不是氫鍵。Proinsulin 在 β 細胞分泌顆粒中切掉 C-peptide 成為 insulin，兩者等量分泌（C-peptide 可評估內生性胰島素）。', 'Ch23-1 共筆'),
+ ('ch23', ['飢餓與糖尿病'], '下列何者最可能是胰島素分泌或作用不足（insulin deficiency）造成的變化？（111-1 醫學）',
+  ['肝臟肝糖合成增加', '肌肉葡萄糖吸收增加', '肝臟合成酮體增加', '脂肪合成增加'], 'C',
+  '缺胰島素時升糖素相對占優勢：脂肪分解 ↑ → 大量脂肪酸進肝 β-oxidation → acetyl-CoA 過量 → 酮體 ↑（第一型糖尿病的 DKA）。其餘三項都是胰島素作用的結果，缺乏時會下降。', 'Ch23-1 共筆'),
+ ('ch23', ['胰島素與 GLUT'], '下列何者不是胰島素的功能？（110-1 醫檢師）',
+  ['促進蛋白質合成', '促進酮酸合成', '促進脂肪合成', '促進肝糖合成'], 'B',
+  '胰島素是合成代謝激素：促進肝醣、脂肪、蛋白質合成；抑制脂肪分解與生酮作用（malonyl-CoA ↑ 抑制 CPT-1，脂肪酸不進粒線體）。', 'Ch23-1 共筆'),
+ ('ch23', ['胰島素與 GLUT'], '關於胰島素對醣類代謝的調節，下列敘述何者正確？（110-2 營養師）',
+  ['降低肝臟中肝糖合成酶（glycogen synthase）活性', '增加肝臟中葡萄糖激酶（glucokinase）活性', '降低肝臟與肌肉中丙酮酸去氫酶（pyruvate dehydrogenase complex）活性', '增加肝臟與肌肉中肝糖磷酸化酶（glycogen phosphorylase）活性'], 'B',
+  '胰島素增加 glucokinase 表現（肝臟吃飽時大量攝取葡萄糖）、活化 glycogen synthase 與 PDH（PDH phosphatase）、抑制 glycogen phosphorylase。', 'Ch23-1 共筆'),
+ ('ch23', ['升糖素、腎上腺素與 cAMP'], '當血糖過低時，胰臟（pancreas）會釋放下列何種物質？（112-2 牙醫師）',
+  ['胰島素（insulin）', '升糖素（glucagon）', '腎上腺素（epinephrine）', '胰蛋白酶（trypsin）'], 'B',
+  '低血糖 → 胰臟 α 細胞分泌 glucagon（肝醣分解、糖質新生）。腎上腺素由腎上腺髓質分泌；trypsin 是外分泌消化酶。', 'Ch23-1 共筆'),
+ ('ch23', ['升糖素、腎上腺素與 cAMP'], 'G 蛋白（G protein）需依序與下列何者結合活化後，進行訊息傳遞？（114-2 營養師）',
+  ['GTP；adenylate cyclase', 'GTP；GTPase', 'GDP；adenylate cyclase', 'GDP；GTPase'], 'A',
+  '激素接上 GPCR → Gsα 釋出 GDP、結合 GTP 而活化 → 去活化 adenylyl cyclase → cAMP ↑。Gα 本身的 GTPase 活性把 GTP 水解成 GDP 才是「關掉」訊號。', 'Ch23-1 共筆'),
+ ('ch23', ['升糖素、腎上腺素與 cAMP'], '下列受體系統何者最常透過環腺苷酸（cAMP）當作訊號傳遞之第二信差（second messenger）？（114-1 醫師）',
+  ['G 蛋白偶聯受體（G protein-coupled receptor）', '受體酪胺酸激酶（receptor tyrosine kinase）', '核受體（nuclear receptor）', '配體門控離子通道（ligand-gated ion channel）'], 'A',
+  'GPCR → Gs／Gi → adenylyl cyclase → cAMP → PKA（glucagon、epinephrine 都走這條）。RTK（如 insulin receptor）走自體磷酸化與 PI3K、MAPK；核受體直接調控基因。', 'Ch23-1 共筆'),
+ ('ch23', ['升糖素、腎上腺素與 cAMP'], '下列何種分子是細胞內重要的第二傳訊者（second messenger）？（114-1 營養師）',
+  ['ATP', 'AMP', 'dATP', 'cAMP'], 'D',
+  'cAMP 由 adenylyl cyclase 把 ATP 環化而成，活化 PKA；由 phosphodiesterase 分解成 AMP 終止訊號。其他常見第二傳訊者：cGMP、IP₃、DAG、Ca²⁺。', 'Ch23-1 共筆'),
+ ('ch23', ['胰島素與 GLUT'], '脂肪組織中 hormone-sensitive lipase（HSL）可將三酸甘油酯分解釋出脂肪酸，下列何種荷爾蒙可抑制 HSL 活性？（113-1 營養師）',
+  ['Adrenocorticotropic hormone（ACTH）', 'Epinephrine', 'Glucagon', 'Insulin'], 'D',
+  'Epinephrine、glucagon（與 ACTH）經 cAMP–PKA 磷酸化活化 HSL 與 perilipin → 脂解。Insulin 活化 phosphodiesterase 降低 cAMP、並使 HSL 去磷酸化 → 抑制脂解。', 'Ch23-1 共筆'),
+ ('ch23', ['各器官燃料代謝'], '關於肝醣的敘述，下列何者錯誤？（112-2 營養師）',
+  ['von Gierke 氏症是一種肝醣儲存疾病，肝醣會聚集在肝細胞及腎小管', 'cAMP 是主要調控或整合肝醣分解及肝醣合成的重要因子', '肌肉與肝臟中的肝醣，分解的最終產物均為葡萄糖，用以維持血糖濃度', '經 12~18 小時的禁食後，肝臟中的肝醣幾乎耗盡'], 'C',
+  '肌肉缺 glucose-6-phosphatase，肌肉肝醣分解只到 G6P，供肌肉自己糖解，不能維持血糖；只有肝（和腎）能釋出葡萄糖。von Gierke（第 I 型）正是缺 glucose-6-phosphatase，肝腎堆積肝醣。', 'Ch23-1 共筆'),
+ ('ch23', ['升糖素、腎上腺素與 cAMP'], '關於升糖素（glucagon）的作用機制，下列敘述何者正確？（112-1 營養師）',
+  ['使 glycogen synthase 磷酸化而具活性', '使 glycogen phosphorylase 磷酸化而不具活性', '使 cyclic AMP 濃度提高而增加 fructose-2,6-bisphosphate 之含量', '活化 phosphoenolpyruvate carboxykinase 之基因轉錄'], 'D',
+  'Glucagon → cAMP → PKA：glycogen synthase 磷酸化 → 失活；phosphorylase 磷酸化 → 活化；PFK-2 磷酸化 → FBPase-2 作用 → F-2,6-BP 下降（抑制糖解、促進糖質新生）；並經 CREB 增加 PEPCK 轉錄。', 'Ch23-1 共筆'),
+ ('ch23', ['升糖素、腎上腺素與 cAMP'], '下列關於 protein kinase A 的敘述，何者正確？（112-1 醫師）',
+  ['結合 cyclic GMP 而活化', '結合 AMP 而活化', '結合 cyclic AMP 而活化', '其活化可促進細胞內脂肪酸的生合成（fatty acid biosynthesis）'], 'C',
+  'cAMP 結合 PKA 的調節次單元（R），釋出催化次單元（C）而活化。cGMP 活化的是 PKG；AMP 活化的是 AMPK。PKA 會磷酸化抑制 acetyl-CoA carboxylase → 抑制脂肪酸合成。', 'Ch23-1 共筆'),
+ ('ch23', ['升糖素、腎上腺素與 cAMP'], '當血液中的升糖激素（glucagon）濃度上升，則下列那一個肝細胞酶活性不會上升？（111-1 牙醫師）',
+  ['腺苷酸環化酶（adenylyl cyclase）', '蛋白激酶 A（protein kinase A，PKA）', '磷酸果糖激酶-2（phosphofructokinase-2）', '肝醣磷酸酶（glycogen phosphorylase）'], 'C',
+  'PKA 磷酸化雙功能酶 PFK-2／FBPase-2 → PFK-2 活性下降、FBPase-2 上升 → F-2,6-BP 減少 → 糖解變慢、糖質新生加快。', 'Ch23-1 共筆'),
+ ('ch23', ['胰島素與 GLUT'], '下列關於胰島素（insulin）的敘述，何者正確？（111-2 牙醫師）',
+  ['胰島素會促進 hormone-sensitive lipase 的活性', '胰島素會促進 β-oxidation 反應', '胰島素會促進酮體（ketone body）的生成', '胰島素會促進 acetyl-CoA carboxylase 的活性'], 'D',
+  '胰島素使 ACC 去磷酸化而活化 → malonyl-CoA ↑ → 脂肪酸合成 ↑、同時抑制 CPT-1（β-oxidation 與生酮都下降）。HSL 則被胰島素抑制。', 'Ch23-1 共筆'),
+ ('ch23', ['各器官燃料代謝'], '血液中游離的脂肪酸（free fatty acid）依靠下列何者協助運送？（111-2 牙醫師）',
+  ['膽固醇（cholesterol）', '膽鹽（bile salt）', '血清蛋白（serum albumin）', '紅血球（red blood cell）'], 'C',
+  '脂肪組織脂解釋出的游離脂肪酸不溶於水，與血清白蛋白（albumin）結合運送到肌肉、心臟、肝利用。三酸甘油酯則由脂蛋白（chylomicron、VLDL）運送。', 'Ch23-1 共筆'),
 ]
 
 out = []
 for i, row in enumerate(Q, 1):
     ch, topics, stem, opts, ans, exp, page = row[:7]
-    q = {'id': f'class-{i:03d}', 'source': '2026 課堂題', 'section': f'Ch23 slides p.{page}', 'chapter': ch, 'type': 'mcq',
+    q = {'id': f'class-{i:03d}', 'source': '2026 課堂題', 'section': page if isinstance(page, str) else f'Ch23 slides p.{page}', 'chapter': ch, 'type': 'mcq',
          'stem': stem, 'options': [{'k': 'ABCD'[j], 't': t} for j, t in enumerate(opts)], 'answer': list(ans),
          'explain': exp, 'topics': topics,
          'pattern': '選錯誤（否定）題' if any(w in stem for w in ('錯誤', '不是', '不適當', '無關', '不屬於', '不會')) else '選正確／單一概念題'}

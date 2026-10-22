@@ -56,7 +56,7 @@
 === slides ===
 # 上課 slides
 
-> 🕒 本章**尚未上課**。2026 年 **Neisseria 改由黃姿雯老師**上（講義「[講義] 葡萄球菌、鏈球菌與腸球菌、奈瑟氏菌」，10/17 公布）；弧菌在鍾筱菁老師的「腸桿菌及弧菌.pptx」，10/23 上課（完整表格見「腸桿菌科」章的上課 slides）。*Pseudomonas*、*Campylobacter* 的講義尚未公布。
+> ✅ 全章已上完。**Neisseria**：10/21 黃姿雯（與葡萄、鏈球菌同一堂）；**弧菌**：10/22 鍾筱菁（颱風假改同步遠距，「腸桿菌及弧菌-2」）；***Campylobacter*、*Helicobacter*、*Pseudomonas*、*Burkholderia***：10/22 鍾筱菁，講義「螺旋桿菌、綠膿桿菌.pptx」（10/18 公布）。鍾老師強調：**腸桿菌科、弧菌、彎曲桿菌、幽門桿菌、綠膿桿菌要一起記、一起比較**，考試也是綜合比較。
 
 ## *Neisseria*（黃姿雯講義，Murray Ch.23）
 | 項目 | slides 重點 |
@@ -78,11 +78,46 @@
 | 流行病學比較 | 淋菌：病原菌；生殖道、口咽、肛門黏膜；**性傳染**；多性伴年輕人（女 15–19 歲、男 20–24 歲）；全球、美國高；**無疫苗**。腦膜炎菌：正常菌／病原菌；口咽黏膜；**飛沫**；**> 2 個月嬰兒、6 個月–2 歲高峰**，以及群居年輕人（宿舍、軍營）；非洲「**腦膜炎帶**」；**在上呼吸道不致病，入血才致病**；有疫苗（非全部血清型） |
 | 相關菌屬 | 生長慢、挑剔、伺機性：***Eikenella corrodens***（小 GNB）：**人咬傷、打架拳傷**、亞急性心內膜炎；***Kingella kingae***（小 G(−) 球桿菌）：亞急性心內膜炎 |
 
+**🎙️ Neisseria 錄影重點（10/21）**：淋病雙球菌**有 fimbriae**、腦膜炎雙球菌**有莢膜**；檢體中常見**被吞進細胞內的咖啡豆形雙球**；**怕低溫 → 送檢千萬不要冰**；natural competency 幫助修復 ROS 造成的 DNA 損傷；毒力因子**都在外膜**（Por、Opa、LOS、鐵攝取），pili 與 Opa 的 **phase variation（開關）**、**antigenic variation（重組換成分）** → **淋病沒有疫苗**；淋菌**高盛行、低致死**（美國嚴重、台灣相對低），腦膜炎菌**低盛行、高致死**；淋菌抗藥兩機制：**自身 PBP 突變**、**外來 penicillinase**（美國 CDC 重點監測）；腦膜炎雙球菌血症 → **四肢瘀斑**、急診急重症；**密切接觸者預防性投藥**；**ACWY 疫苗**台灣非常規；女性淋病**一半以上無症狀 → 主要傳播者**，男性多有症狀 → 要追蹤性伴侶；**母親淋病 → 新生兒結膜炎 → 抗生素眼藥預防**。
+
+## *Campylobacter* 與 *Helicobacter*（螺旋形 G(−)，講義「螺旋桿菌、綠膿桿菌」）
+| 項目 | slides 重點 |
+|---|---|
+| 共同特性 | **microaerophilic（5% O₂，太多太少都不行）**；**oxidase (+)、catalase (+)**；**nonfermentative（不用糖當碳源）**；*H. pylori* 早期叫 *Campylobacter pylori* |
+| *C. jejuni*（空腸彎曲桿菌） | 螺旋形、**海鷗翅膀狀（gull's wings）**；不產孢子、**單一或雙極鞭毛、會動**；**42 °C 長得比 37 °C 好**（雞的體溫 42 °C）；**人畜共通**：吃**未熟雞鴨牛羊肉**；急性腸胃炎、**血便或痢疾**、腹絞痛、發燒，嚴重可敗血症 |
+| Guillain-Barré syndrome | **自體免疫**；***C. jejuni* O:19 的 LPS 與神經 ganglioside 交叉反應** → 攻擊髓鞘、四肢無力，嚴重影響呼吸心臟；治療：類固醇、免疫抑制、血漿置換；**流感疫苗**也有約十萬分之一案例 |
+| 其他 *Campylobacter* | *C. coli*：腸胃炎；*C. fetus*：心血管；***C. upsaliensis*（狗）也與 GBS 有關**（國考考過：**jejuni 與 upsaliensis** 兩隻都會造成 GBS） |
+| *H. pylori* | 螺旋形、**端叢鞭毛、運動性極強（corkscrew）**；microaerophilic；**人是唯一自然宿主**、人傳人（糞口）；胃炎、**消化性潰瘍**、**胃腺癌**、**MALT lymphoma**；台灣盛行率約 **50%**（共食、夜市文化） |
+| 人是唯一宿主（老師整理表） | **糞口**：*Shigella*、*Salmonella* Typhi、*V. cholerae*、***H. pylori***；**呼吸道**：*S. pyogenes*、*S. pneumoniae*、*N. meningitidis*、*C. diphtheriae*、*B. pertussis*、*M. pneumoniae*、*M. tuberculosis*；**性傳染**：*N. gonorrhoeae*、*T. pallidum*、*C. trachomatis* |
+| 發現史 | **2005 諾貝爾獎（Marshall、Warren）**；難養（微氧，加血清、炭、澱粉、蛋黃）、沒有動物模型 → **Marshall 自己喝下菌液**證明 Koch's postulates，再用抗生素治好 → 潰瘍是感染症，不只是胃酸 |
+| 毒力：移生 | adhesin **BabA、SabA**；acid inhibitory protein；**urease (+++)**：urea → NH₃ + HCO₃⁻ → pH ↑ 耐胃酸（老師對照：膀胱裡產 urease 的是 *Proteus*） |
+| 毒力：入侵 | mucinase、phospholipase、proteinase |
+| 毒力：組織傷害 | **VacA**：細胞內產生空泡殺細胞；**CagA**：經 **type IV secretion system** 打入胃上皮（**講義寫 type VI 是錯的**），干擾 cytoskeleton、誘導 **IL-8**（**既是 cytokine 也是 chemokine，國考考過**）→ 招募嗜中性球 → protease、ROS → 發炎 |
+| 胃癌 | 慢性胃炎 → 纖維化、腸型上皮增生；**CagA (+)**、**IL-1 (+++)** 風險高 |
+| 診斷 | 難養，**不從糞便培養**（易誤診）；**侵入性：biopsy（確診，高敏感高特異）**、biopsy urease test；**非侵入性：¹³C / ¹⁴C urea breath test（篩檢）**、糞便抗原 |
+| 治療 | **PPI（增強抗生素作用）+ macrolide + β-lactam**，約一個月 |
+
+## *Pseudomonas aeruginosa*（綠膿桿菌）與 *Burkholderia*
+| 項目 | slides 重點 |
+|---|---|
+| 特性 | G(−)、常成對；**好氧，氧化葡萄糖而不發酵**（可走完整 TCA cycle）；營養需求極簡單（水 + 少量糖就能活）→ 水、土、醫院到處都有；老師提醒教科書說「絕對好氧」不精確，**厭氧環境也能生存**（nitrate 呼吸） |
+| 鑑別 | **β 溶血**；**綠色色素**：**pyocyanin（藍綠）**、**pyoverdin（黃綠、螢光）**、pyorubin（紅棕）；**葡萄味** |
+| 疫學 | 對多數常用抗生素抗藥 → **用抗生素治療中的病人、免疫低下者伺機感染**、院內感染主因 |
+| 感染部位 | **肺：cystic fibrosis 病人主要病原**（CFTR，第 7 對染色體，白人常見）；**皮膚：燒燙傷傷口**（八仙塵爆）、**游泳 → 毛囊炎**；UTI；**耳：swimmer's ear**；**眼：隱形眼鏡 → 角膜潰瘍**；菌血症、心內膜炎。想到綠膿桿菌就想到**水** |
+| 毒力：黏附 | flagella、pili、LPS；**alginate**（黏稠多醣 → **biofilm** 基質，**國考考過**）→ 抗生素抗性 |
+| 毒力：毒素 | **Exotoxin A：ADP-ribosylate EF-2 抑制 peptide elongation，與白喉毒素同機制**（國考考過）；對照 **Shiga toxin / Stx**：切 60S rRNA 的 adenine；pyocyanin 產 superoxide、H₂O₂、誘導 IL-8 |
+| 毒力：酵素 | **LasA（serine protease）+ LasB（zinc metalloprotease）→ elastase** → 出血性病灶、抑制補體與嗜中性球趨化；alkaline protease；phospholipase C；**ExoS、ExoT：type III secretion → 破壞上皮** |
+| 抗藥 | **intrinsic + adaptive**；**ampC β-lactamase** |
+| *Burkholderia*（舊屬 *Pseudomonas*） | 潮濕環境、伺機性；***B. cepacia***；***B. pseudomallei* → 類鼻疽（melioidosis）**：土壤、**汙水**、東南亞、澳洲；皮膚與吸入感染；酗酒、糖尿病、慢性腎肺病高危；各處膿瘍；**高傳染性、可作生物武器**；台灣**颱風淹水後**病例增加（2024 起明顯上升）。老師說**不會考，但「搞不好國考會考」**；***B. gladioli***：植物病原，產 **bongkrek acid（米酵菌酸）**、抑制粒線體 → 寶林茶室食物中毒（**不考**） |
+
+> 🎙️ 錄影補充（10/22）：彎曲桿菌與幽門桿菌要一起記（**微氧、oxidase (+)、不用糖**）；*Pseudomonas* 是老師「心目中的超級細菌」，**黃字＝會考**：不發酵糖、alginate/biofilm、Exotoxin A 與白喉毒素同機制、多重抗藥；其他酵素「自己看看」。
+
 ## *Vibrio*（講義「腸桿菌及弧菌」）
 - 共同特性：**彎曲桿菌**、**oxidase (+)**、有鞘的極鞭毛、**需要鹽**、耐鹽鹼；**TCBS agar**。
 - ***V. cholerae***：**O1、O139 產霍亂毒素**（↑cAMP → **米湯樣腹瀉**）；毒素基因在 **CTXφ** 噬菌體；**TCP 菌毛**；感染劑量 **> 10⁷**；**人為唯一宿主**，經汙染的食物與水；O1 無莢膜。
 - ***V. parahaemolyticus***：生海鮮 → 胃腸炎；**Kanagawa hemolysin**（heat-stable）。
 - ***V. vulnificus***：**肝病患者**高死亡率；海水或魚刺傷口 → 壞死性感染、水泡性皮膚炎；生蠔 → 敗血症；多醣莢膜。
+- 🎙️ 10/22 錄影：**從弧菌開始之後的 G(−) 菌都是 oxidase (+)**（腸桿菌科才是 oxidase (−)）；弧菌**耐鹼、需要膽鹽 → TCBS**，三隻在 TCBS 顏色不同；**感染力：*Shigella* 1–10 顆 > 傷寒 10⁵ > 霍亂 10⁷（最弱，要很髒的水）**；霍亂毒素與 ETEC LT 都是 **AB toxin、↑cAMP**；**除了 LPS（內毒素）以外，腸毒素、霍亂毒素、破傷風毒素都是外毒素**；Kanagawa hemolysin 只溶 **人 O 型血與兔血**（「我不曉得為什麼常考」）；*V. vulnificus*：**已開發國家主要弧菌**，肝癌、肝硬化、酒精性肝病者高危，**人不傳人**，雲嘉南常見。
 
 === exam ===
 # 考點分析

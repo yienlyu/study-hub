@@ -80,7 +80,7 @@ G(+) cocci
 === slides ===
 # 上課 slides
 
-> 🕒 本章**尚未上課**。黃姿雯老師 10/17 公布講義「[講義] 葡萄球菌、鏈球菌與腸球菌、奈瑟氏菌」（79 頁，Murray Ch.18、19、23），以下依講義整理；Neisseria 部分在「Neisseria、Helicobacter、Pseudomonas、Vibrio」章。上課錄影出來後再補。
+> ✅ 2026/10/21 上課（黃姿雯，錄影 + 逐字稿已公布）。以下依講義「[講義] 葡萄球菌、鏈球菌與腸球菌、奈瑟氏菌」（79 頁，Murray Ch.18、19、23）整理；Neisseria 部分在「Neisseria、Helicobacter、Pseudomonas、Vibrio」章。錄影重點在本頁最後。
 
 ## 總覽：好氧 G(+) 球菌
 - **Catalase（H₂O₂ → H₂O + O₂）**：Staphylococci (+)、Streptococci (−)。
@@ -173,6 +173,34 @@ G(+) cocci
 | 疾病 | 人與動物腸道菌（*E. faecalis* 每克糞便 10⁵–10⁷）；**院內感染**：導尿管與器械相關 UTI、腹膜感染（多菌混合）、菌血症、心內膜炎 |
 | 檢驗 | blood agar 上**多不溶血**；**optochin 抗性、不被膽汁溶解、PYR (+)** |
 | 治療 | 多數抗生素在臨床濃度**不殺菌**；**aminoglycoside + β-lactam（ampicillin）或 vancomycin 協同**；抗藥時用 linezolid、daptomycin、tigecycline；限制抗生素使用與感染控制 |
+
+## 🎙️ 錄影重點（10/21，黃姿雯）
+| 主題 | 老師上課強調 |
+|---|---|
+| 考試範圍提醒 | **抗生素治療原則上不考**（三年級整合課程再學、guideline 會變），老師特別說會考的才要背；實驗室鑑定現在都用蛋白質圖譜（MALDI-TOF），但**傳統生化鑑定「考試還是會考」** |
+| 球菌總覽 | 名字有 coccus 就是球菌；醫療重要的 G(+) 球菌只有 *Staphylococcus*、*Streptococcus*（+ *Enterococcus*）；*Neisseria* 名字沒有 coccus 但是 G(−) 球菌，致病種只有兩隻；**catalase** 一個測試就分開葡萄與鏈球菌 |
+| 葡萄球菌生理 | **兼性厭氧、耐高鹽**（選擇性培養基把鹽濃度拉高）、耐 pH 與溫度 → **環境中容易留存** → 感控重點；*S. aureus* 移生在**鼻腔前側**；血盤上全溶血是 **α toxin**，外圈放冰箱後才溶的是 **β toxin**（hot-cold） |
+| 毒力因子分兩階段 | 結構型（Protein A、coagulase、黏附蛋白）在 **exponential phase** 隨生長產生；分泌型毒素與酵素受 **quorum sensing** 調控，在 **stationary phase** 菌量夠多才一起分泌 |
+| Peptidoglycan | 也能誘導 cytokine、造成類似內毒素的發膿反應，但**力道不如 G(−) 的 LPS** |
+| Protein A | *S. aureus* 特有（「身分證」），結合抗體 **Fc region** → 中和抗體 |
+| Cytotoxin 四型 | α：全溶血、組織破壞主角；β：**sphingomyelinase**，不立刻破膜；δ：像**界面活性劑**、無特異性；γ 與 **PVL**：多個次單元在宿主膜上**打洞**，概念像補體 MAC |
+| 三種「特定菌株帶特定毒、引起特定病」 | **Exfoliative toxin**（protease 切 **desmoglein 1** → SSSS，嬰幼兒；病灶**採檢常看不到細菌**）；**Enterotoxin**（**heat-stable，100 °C 30 分鐘才破壞**；superantigen；**A 型最常見**；老師提醒「食物中毒千萬不要漏掉金黃色葡萄球菌」）；**TSST-1**（superantigen；**衛生棉條**案例；**> 90% TSS** 由 *S. aureus*，但該菌株**不造成一般傷口感染**） |
+| 酵素 | **DNase**：打斷黏稠 DNA、**逃脫嗜中性球 NETs**；**coagulase**（bound + free）把 fibrinogen 變 fibrin「築城牆」，作用跟 **fibrinolysin 相反** |
+| 皮膚感染 | 甲溝炎、毛囊炎 → 癤 → 癰；**impetigo 特別注意：新生兒、嬰兒房群聚**（醫護手部清潔） |
+| 系統性感染 | 菌血症、**急性心內膜炎**（手術成功但術後感染）、肺炎；**容易忽略的：骨髓炎、敗血性關節炎**（案例：共用化妝刷 → 骨髓炎 → 下半身癱瘓） |
+| CoNS | ***S. epidermidis***：產黏性物質與 **biofilm → 管路、人工裝置**；***S. saprophyticus***：**年輕、性生活頻繁女性 UTI**（老師反問：UTI 第一名仍是 **E. coli**，saprophyticus 只在這個特定族群最常見） |
+| MRSA 機制 | 經水平基因轉移、**site-specific recombination** 取得 **SCCmec cassette** 上的 **mecA** → 做出對 β-lactam 親和力差的 **PBP2a**；**HA-MRSA 多重抗藥**；**CA-MRSA** 帶 **PVL** → 嚴重肺炎，但**對常規抗生素較敏感**；台灣 THARS 監測，醫院 MRSA 比例已降到 **60% 以下**；最後線藥 **vancomycin** |
+| 感控 | 勤洗手、醫護常是傳播者（「staff → staph」）、**識別證**是常見留存處；**被動 vs 主動監測**：北醫附醫對進 ICU 病人做**鼻腔前側 MRSA 篩檢** → **mupirocin 抹鼻 + 頸部以下 chlorhexidine 擦澡**去移生（台灣多數醫院不做，擔心 mupirocin 抗藥） |
+| 葡萄球菌三盤鑑定 | **Mannitol salt agar**（*S. aureus* 發酵、CoNS 不行）；**DNase agar**；**Novobiocin**：CoNS 中**只有 *S. saprophyticus* 抗性**；快篩：coagulase + Protein A **乳膠凝集** |
+| 鏈球菌分類 | 溶血：β 全溶血、α 草綠、γ 不溶血；**viridans 是形容詞不是菌種名**；**optochin**：*S. pneumoniae* 敏感、其他草綠抗性；**bacitracin**：GAS 敏感、GBS 抗性；Lancefield 依細胞壁 **C carbohydrate**（區分 β 溶血菌） |
+| GAS 毒力 | **玻尿酸莢膜 = 偽裝、低抗原性**；**M protein 抑制補體**；**C5a peptidase 只有 GAS 有**；**SpeA–E**：**heat-labile、在噬菌體、superantigen** → 壞死性筋膜炎、STSS、**猩紅熱紅疹**；**SLS** 造成全溶血、oxygen-stable；**SLO** 具抗原性 → **ASO**；**Streptokinase** 強到可當**溶血栓藥** |
+| GAS 疾病 | 細菌性咽頭炎（**腫脹明顯 + 白苔**偏細菌性）→ 未治療可併發**猩紅熱**（軀幹紅疹、**草莓舌**、帕氏線）；兒童口周結痂 **pyoderma**；成人**丹毒（紅腫邊界清楚，臉與腳）** vs **蜂窩性組織炎（無邊界）** → **壞死性筋膜炎**（外表只紅腫，切開肌肉已糜爛；媒體稱「噬肉菌」） |
+| 非化膿性併發症 | **抗體交叉反應**攻擊自身組織：**class I M protein → 風濕熱**（心臟、關節）；**腎型 M protein → 急性腎絲球腎炎**；用 **ASO** 判斷是否為鏈球菌感染後併發症 |
+| GBS | 新生兒**腦膜炎、敗血症**；**早發型：出生 1 週內；晚發型：1 週–3 個月**；存活者常有**神經後遺症**；女性生殖道 10–30% 帶菌、**自然產時**感染 → **懷孕 35–37 週 PCR 篩檢**、陽性者產中抗生素；**CAMP 加強 *S. aureus* β toxin 的溶血**；GAS、GBS **都沒有疫苗** |
+| Viridans | 口腔最多 → **牙科手術前預防性抗生素**；mitis 群 → **亞急性心內膜炎**（低燒反覆、找不到原因 → 問有無近期牙科治療；瓣膜上 **vegetation 贅生物**）；***S. mutans* → 蛀牙** |
+| *S. pneumoniae* | **七到八成細菌性肺炎**；厚多醣莢膜 > 90 型；**沒有明確毒素**，有 IgA protease、pneumolysin（類 SLO）；**嬌嫩、約一半養不出來 → 不會是院內感染，是社區、自己感染自己**；常併發在**流感季** → 長者流感疫苗與肺炎鏈球菌疫苗一起打；大葉性肺炎、血痰、胸痛；**4 歲以下與 60–65 歲以上**；**莢膜腫脹試驗（Quellung）**；**國考考過：penicillin 抗藥 = 自身 PBP 突變**（不是外來 mecA）；**PPV23（純多醣，2 歲以上、長者）vs PCV13（接類白喉毒素，6 週以上，常規疫苗）** |
+| *Enterococcus* | 約 30 年前獨立成屬；**好養**（耐 pH、溫度、**高鹽與膽鹽**）；***E. faecalis* 較常見、*E. faecium* 較抗藥**；biofilm + **天生抗藥**；導尿管 UTI、多菌腹膜炎、心內膜炎；**VRE** 在醫學中心約 **40%**；van 基因可能水平轉移到 MRSA → **VRSA（目前極罕見）** |
+| 老師的臨床練習題 | ① 員工午餐後嘔吐 → *S. aureus* **耐熱 enterotoxin**；② 人工裝置、catalase (+)、coagulase (−) → ***S. epidermidis* biofilm**；③ 男童咽頭炎後心雜音 → 測 **ASO**，機制為**抗體交叉反應**；④ 母親淋病 → 新生兒**結膜炎** → 出生時抗生素眼藥預防。老師說國考越來越常「**轉兩三個彎**」：先猜菌、再問機轉 |
 
 === exam ===
 # 考點分析

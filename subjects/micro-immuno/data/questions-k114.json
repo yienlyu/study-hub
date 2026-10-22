@@ -1648,5 +1648,157 @@
    "先天免疫"
   ],
   "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-86",
+  "source": "114 期中考古",
+  "num": 86,
+  "chapter": "viruses",
+  "type": "short",
+  "stem": "（排序）排序Animal viral multiplication 的順序：Entry、Attachment、Uncoating、Biosynthesis、Release",
+  "options": [],
+  "answer": [],
+  "answerText": "Attachment → Entry → Uncoating → Biosynthesis →（Maturation）→ Release",
+  "explain": "（記題沒有附答案，網站依課本判斷）動物病毒：接觸（受體）→ 進入（receptor-mediated endocytosis 或 membrane fusion）→ 脫殼（溶酶體酵素分解 capsid）→ 生合成（DNA 病毒在細胞核、RNA 病毒在細胞質）→ 成熟組裝 → 釋放（有套膜者出芽、無套膜者破膜）。",
+  "topics": [
+   "病毒學總論"
+  ],
+  "pattern": "簡答題"
+ },
+ {
+  "id": "k114-88",
+  "source": "114 期中考古",
+  "num": 88,
+  "chapter": "viruses",
+  "type": "mcq",
+  "stem": "1mL的病毒液可以產生250明顯菌斑，則以下何者可以表示病毒量",
+  "options": [
+   {
+    "k": "A",
+    "t": "250 CFU/mL"
+   },
+   {
+    "k": "B",
+    "t": "250 MPN/mL"
+   },
+   {
+    "k": "C",
+    "t": "250 PFU/mL"
+   },
+   {
+    "k": "D",
+    "t": "250 TCID10/mL"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）噬菌斑（plaque）計數的單位是 PFU（plaque-forming units）；CFU 是細菌菌落，TCID 是組織培養感染劑量。",
+  "topics": [
+   "病毒學總論"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-89",
+  "source": "114 期中考古",
+  "num": 89,
+  "chapter": "viruses",
+  "type": "mcq",
+  "stem": "Which of the following statements about latent and persistent viral infections is incorrect?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Latent viral infections: There are no symptoms during the latency."
+   },
+   {
+    "k": "B",
+    "t": "Persistent viral infections: Virus continuously released."
+   },
+   {
+    "k": "C",
+    "t": "Hepatits B Virus is the latent viral infection."
+   },
+   {
+    "k": "D",
+    "t": "Varicellovirus (Herpesvirus) is the latent viral infection."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）B 型肝炎病毒是持續型（persistent／chronic）感染，病毒持續產生；潛伏型的代表是單純皰疹（唇皰疹）與水痘帶狀皰疹病毒（帶狀皰疹）。",
+  "topics": [
+   "病毒學總論"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-90",
+  "source": "114 期中考古",
+  "num": 90,
+  "chapter": "viruses",
+  "type": "mcq",
+  "stem": "下列關於抗病毒藥物Acyclovir何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "化學結構中沒有3’-hydroxyl group，造成病毒DNA無法延長。"
+   },
+   {
+    "k": "B",
+    "t": "需要透過病毒thymidine kinase磷酸化後才有藥理活性。"
+   },
+   {
+    "k": "C",
+    "t": "是一種核苷酸類似物。"
+   },
+   {
+    "k": "D",
+    "t": "因為對宿主毒性大，因此沒有預防性治療的用途。"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）Acyclovir 對未感染細胞幾乎無毒（要靠病毒的 thymidine kinase 才能活化），所以可以當預防性治療，避免免疫低下者復發；但無法清除潛伏感染。",
+  "topics": [
+   "病毒學總論"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-91",
+  "source": "114 期中考古",
+  "num": 91,
+  "chapter": "viruses",
+  "type": "mcq",
+  "stem": "下列關於新冠肺炎的藥物，何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Remdesivir是一種RNA-dependent-RNA polymerase抑制劑。"
+   },
+   {
+    "k": "B",
+    "t": "Paxlovid 是一種核苷酸類似物。"
+   },
+   {
+    "k": "C",
+    "t": "Molnupiravir 直接切割病毒蛋白質。"
+   },
+   {
+    "k": "D",
+    "t": "經過EUA核准的藥物不需提供安全性資料即可上架。"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "（記題沒有附答案，網站依課本判斷）Remdesivir 是核苷酸類似物，阻斷 RNA polymerase。Paxlovid 是 protease（Mpro）抑制劑；Molnupiravir 也是核苷酸類似物、不切割蛋白；EUA 仍需安全性資料，而且 EUA 不等於正式核准。",
+  "topics": [
+   "病毒學總論"
+  ],
+  "pattern": "選正確／單一概念題"
  }
 ]
