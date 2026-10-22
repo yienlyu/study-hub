@@ -73,7 +73,8 @@
     minus: '<path d="M5 12h14"/>',
     plus: '<path d="M12 5v14M5 12h14"/>',
     user: '<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/>',
-    cloud: '<path d="M7 18a5 5 0 0 1-.6-9.96A6 6 0 0 1 18 9a4.5 4.5 0 0 1-.5 9z"/>',
+    cloud:
+      '<path d="M7 18a5 5 0 0 1-.6-9.96A6 6 0 0 1 18 9a4.5 4.5 0 0 1-.5 9z"/>',
     download: '<path d="M12 4v11M7 10l5 5 5-5M5 20h14"/>',
     logout: '<path d="M15 4h4v16h-4M10 8l-4 4 4 4M6 12h10"/>',
   };
@@ -307,7 +308,10 @@
   const uuid = () =>
     crypto.randomUUID?.() ||
     "10000000-1000-4000-8000-100000000000".replace(/[018]/g, (c) =>
-      (c ^ (crypto.getRandomValues(new Uint8Array(1))[0] & (15 >> (c / 4)))).toString(16),
+      (
+        c ^
+        (crypto.getRandomValues(new Uint8Array(1))[0] & (15 >> (c / 4)))
+      ).toString(16),
     );
   const getLog = () => store.get(LOG, []);
   const logAttempt = (e) => {
@@ -542,8 +546,7 @@
     async pullAttempts() {
       const ck = `sh:cloud:cursor:${this.user.id}`;
       let cursor =
-        store.get(ck, null) ||
-        new Date(Date.now() - 180 * 864e5).toISOString();
+        store.get(ck, null) || new Date(Date.now() - 180 * 864e5).toISOString();
       const got = [];
       for (;;) {
         const { data, error } = await this.sb
@@ -783,7 +786,12 @@
           sid ? "總覽" : "首頁",
           sid ? "subject" : "home",
         ) +
-        T(sid ? `#/s/${sid}/practice` : "#/practice", "pen", "練習", "practice") +
+        T(
+          sid ? `#/s/${sid}/practice` : "#/practice",
+          "pen",
+          "練習",
+          "practice",
+        ) +
         T(`#/s/${last}/analysis`, "chart", "分析", "analysis") +
         T(`#/s/${last}/sheet`, "grid", "速記", "sheet") +
         `<a href="#" data-open-search>${ic("search")}<span>搜尋</span></a>`
@@ -2012,7 +2020,12 @@
             </fieldset>
             <fieldset class="fieldset">
               <legend>題目來源</legend>
-              <div class="chips">${sourcesOf(subj).map((s) => `<label class="chip"><input type="checkbox" name="src" value="${s.key}"${srcSel.has(s.key) ? " checked" : ""}>${box}${s.label}<span class="n">${subj.questions.filter((x) => s.match(x) && !x.imageOnly).length}</span></label>`).join("")}</div>
+              <div class="chips">${sourcesOf(subj)
+                .map(
+                  (s) =>
+                    `<label class="chip"><input type="checkbox" name="src" value="${s.key}"${srcSel.has(s.key) ? " checked" : ""}>${box}${s.label}<span class="n">${subj.questions.filter((x) => s.match(x) && !x.imageOnly).length}</span></label>`,
+                )
+                .join("")}</div>
             </fieldset>
             <div class="opts-grid">
               <div><div class="field-label">出題順序</div>${seg("mode", [
@@ -2476,7 +2489,12 @@
       );
       return;
     }
-    const S = { i: 0, flipped: false, res: pool.map(() => null), qt: Date.now() };
+    const S = {
+      i: 0,
+      flipped: false,
+      res: pool.map(() => null),
+      qt: Date.now(),
+    };
     const tally = () =>
       S.res.reduce((a, r) => (r === null ? a : (r ? a.y++ : a.n++, a)), {
         y: 0,
@@ -2888,7 +2906,7 @@
   function acctPanel() {
     const pend = store.get(PENDING, []).length;
     if (!Cloud.on)
-      return `<div class="card panel acct"><div class="acct-ico">${ic("cloud")}</div><div><h3>雲端同步尚未設定</h3><p class="sub" style="margin:0">目前紀錄只存在這台裝置。在 <span class="mono">config.js</span> 填入 Supabase 設定後，這裡會出現登入按鈕，作答紀錄就能跨裝置保存。設定步驟見 <a href="https://github.com/${esc(CFG.githubRepo || "")}/blob/main/supabase/README.md" target="_blank" rel="noopener">supabase/README.md</a>。</p></div></div>`;
+      return `<div class="card panel acct"><div class="acct-ico">${ic("cloud")}</div><div><h3>雲端同步尚未設定</h3><p class="sub" style="margin:0">目前紀錄只存在這台裝置。在 <span class="mono">config.js</span> 填入 Supabase 設定後，這裡會出現登入按鈕，作答紀錄就能跨裝置保存。</p></div></div>`;
     const u = Cloud.user;
     if (!u) {
       const prov = CFG.authProviders || ["google", "email"];
@@ -3019,7 +3037,11 @@
     const sun = at(today.getDay());
     const weekRows = [];
     for (let w = W - 1; w >= 0; w--) {
-      const a = new Date(sun.getFullYear(), sun.getMonth(), sun.getDate() - 7 * w);
+      const a = new Date(
+        sun.getFullYear(),
+        sun.getMonth(),
+        sun.getDate() - 7 * w,
+      );
       const b = +a + 7 * DAY;
       const es = log.filter((e) => e[4] >= +a && e[4] < b);
       const c = es.reduce((x, e) => x + e[3], 0);
@@ -3260,7 +3282,11 @@
             const { title, body } = compose();
             try {
               await navigator.clipboard.writeText(`${title}\n\n${body}`);
-              toast(line ? "已複製，開啟 LINE 後貼上送出" : "已複製，貼到 LINE 傳給我");
+              toast(
+                line
+                  ? "已複製，開啟 LINE 後貼上送出"
+                  : "已複製，貼到 LINE 傳給我",
+              );
             } catch {
               /* 複製失敗不影響開啟 LINE */
             }
