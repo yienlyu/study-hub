@@ -535,16 +535,17 @@
         throw e;
       }));
     },
+    // Google 的按鈕是 iframe 改不了樣式：做成透明疊在本站按鈕上，看到的是本站按鈕、點到的是 Google 的
     async renderGoogle(el) {
       await this.gsi();
       if (!el.isConnected) return;
-      el.textContent = "";
-      google.accounts.id.renderButton(el, {
-        theme: currentTheme() === "dark" ? "filled_black" : "outline",
+      const hit = $(".gsi-hit", el);
+      google.accounts.id.renderButton(hit, {
         size: "large",
         shape: "pill",
         text: "signin_with",
         locale: "zh-TW",
+        width: Math.min(400, Math.max(200, Math.ceil(el.offsetWidth))),
       });
     },
     async signOut() {
@@ -2969,7 +2970,7 @@
         .filter((p) => p !== "email")
         .map((p) =>
           p === "google" && CFG.googleClientId
-            ? `<div id="gsiBtn" class="gsi-btn"><button class="btn primary" type="button" disabled>${ic("user")}用 Google 登入</button></div>`
+            ? `<div id="gsiBtn" class="gsi-btn"><span class="btn primary" aria-hidden="true">${ic("user")}用 Google 登入</span><div class="gsi-hit"></div></div>`
             : `<button class="btn primary" type="button" data-login="${esc(p)}">${ic("user")}用 ${esc(LBL[p] || p)} 登入</button>`,
         )
         .join("");
