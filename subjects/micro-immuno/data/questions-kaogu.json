@@ -6185,6 +6185,45 @@
   "pattern": "選正確／單一概念題"
  },
  {
+  "id": "k113-tact-22",
+  "source": "113 考古",
+  "section": "T cell Activation and Cell Cooperation",
+  "num": 22,
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "The presence of which of the following indicates a current infection rather than a previous infection or vaccination?",
+  "options": [
+   {
+    "k": "A",
+    "t": "IgG"
+   },
+   {
+    "k": "B",
+    "t": "IgM"
+   },
+   {
+    "k": "C",
+    "t": "IgA"
+   },
+   {
+    "k": "D",
+    "t": "IgD"
+   },
+   {
+    "k": "E",
+    "t": "IgE"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "初次感染時 B 細胞還沒做類型轉換（class switch），活化成漿細胞後先大量產生 IgM，所以 IgM 升高代表正在感染。\nIgG 在感染後期才出現、可維持很久，只能代表曾經感染或打過疫苗。",
+  "topics": [
+   "抗體類別與功能"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
   "id": "k113-tact-23",
   "source": "113 考古",
   "section": "T cell Activation and Cell Cooperation",

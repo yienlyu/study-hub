@@ -3,7 +3,7 @@
 
 來源：slides/parasitology/共筆考古/百十三資料/考古期中/（題）與（解）PDF
 需要 pymupdf（import fitz）。執行：python3 tools/build_para_kaogu.py（在 repo 根目錄）
-- 配合題略過（需要對照表）；單選題 → mcq；多選題 → short（選項寫在題幹，參考答案顯示正確選項，避免被當成「任一個對就算對」）
+- 吸蟲配合題 1–14 手動輸入（見檔案下方 match()，答案依 1151 寄蟲考古 Book1）；線蟲沒有配合題。單選題 → mcq；多選題 → short（選項寫在題幹，參考答案顯示正確選項，避免被當成「任一個對就算對」）
 - 題目或選項需要原圖的 → imageOnly（不進練習）
 """
 import json, os, re
@@ -165,6 +165,63 @@ for qname, aname, prefix, fixed in SETS:
         if re.search(r"下圖|如圖", seg):
             q["imageOnly"] = True
         Q.append(q)
+
+# 吸蟲配合題（w5~6 Trematodes 配合題 1–14，答案與詳解依 1151 寄蟲考古 Book1）。
+# 單一答案 → mcq，A–O 共用選項；多個答案 → short（選項寫在題幹，避免被當成「任一個對就算對」）
+TRE = ["Fasciolopsis buski", "Metagonimus yokogawai", "Heterophyes heterophyes", "Gastrodiscoides hominis",
+       "Eurytrema spp.", "Opisthorchis felineus", "Clonorchis sinensis", "Opisthorchis viverrini", "Echinostoma spp.",
+       "Fasciola hepatica", "Dicrocoelium dendriticum", "Paragonimus westermani", "Schistosoma japonicum",
+       "Schistosoma haematobium", "Schistosoma mansoni"]
+HOST = ["Paragonimus westermani", "Eurytrema spp.", "Dicrocoelium dendriticum", "Clonorchis sinensis", "Fasciola hepatica"]
+KEYS = "ABCDEFGHIJKLMNO"
+
+
+def match(n, opts, stem, ans, exp, note=None):
+    q = {"id": f"k113-tre-p{n:02d}", "source": SOURCE, "num": n, "chapter": "trematodes", "stem": stem,
+         "explain": exp, "topics": [], "pattern": "配對題"}
+    if len(ans) == 1:
+        q.update(type="mcq", stem="（配合題）" + stem, options=[{"k": k, "t": t} for k, t in zip(KEYS, opts)],
+                 answer=[ans])
+    else:
+        listing = "\n".join(f"({k}) {t}" for k, t in zip(KEYS, opts))
+        q.update(type="short", stem=f"（配合題，可複選）{stem}\n{listing}", options=[], answer=[],
+                 answerText="、".join(f"({k}) {opts[KEYS.index(k)]}" for k in ans))
+    if note:
+        q["note"] = note
+    Q.append(q)
+
+
+match(1, TRE, "下列吸蟲中，體型最大的是？", "A",
+      "Fasciolopsis buski（薑片蟲）長 2–7.5 cm，是寄生在人體最大的吸蟲，蟲卵也是人體寄生蟲卵中最大的。")
+match(2, TRE, "下列吸蟲中，會經由食用水生植物而感染的是？", "ADIJ",
+      "以水生植物為感染來源（metacercaria 附著在植物表面）：F. buski（菱角、荸薺、茭白筍）、Gastrodiscoides hominis、"
+      "Echinostoma spp.（宿主多樣，水生植物也是其一）、Fasciola hepatica（水芹 watercress）。")
+match(3, TRE, "下列吸蟲中，寄生在大腸的是？", "D",
+      "Gastrodiscoides hominis（人雙口吸蟲）是少數寄生在盲腸、升結腸的腸吸蟲。薑片蟲數量多時可擴散到胃與大腸，但主要寄生在小腸上段。")
+match(4, TRE, "下列吸蟲中，中間宿主可以是昆蟲的是？", "EIK",
+      "Eurytrema（胰吸蟲）：第二中間宿主是蝗蟲類（草螽）。Dicrocoelium dendriticum（槍狀肝吸蟲）：第二中間宿主是螞蟻。"
+      "Echinostoma 的第二中間宿主種類很多，昆蟲幼蟲也算在內。")
+match(5, TRE, "下列吸蟲中，用 praziquantel 治療無效的是？", "J",
+      "Fasciola hepatica 對 praziquantel 反應差，首選 triclabendazole（舊用 bithionol）；其他吸蟲多以 praziquantel 治療。")
+match(6, TRE, "下列吸蟲中，體型最小的是？", "C",
+      "Heterophyes heterophyes（異形異形吸蟲）約 1–1.7 × 0.3–0.4 mm，是人體最小的吸蟲；Metagonimus yokogawai 稍大（1–2.5 mm）。")
+match(7, TRE, "下列吸蟲中，會經由食用螃蟹感染的是？", "L",
+      "Paragonimus westermani（衛氏肺吸蟲）：第一中間宿主是川蜷螺，第二中間宿主是淡水蟹、蝦；生吃或吃醉蟹會感染。")
+match(8, TRE, "下列吸蟲中，第二中間宿主為魚的是？", "BCFGH",
+      "以魚為第二中間宿主：Metagonimus yokogawai（淡水魚）、Heterophyes heterophyes（烏魚等鹹淡水魚）、"
+      "Opisthorchis felineus、Clonorchis sinensis、O. viverrini（淡水魚，鯉科為主）。",
+      note="原考古另註：Echinostoma spp. 少數以魚為第二中間宿主，選 (I) 也可接受。")
+match(9, TRE, "下列吸蟲中，可能引發腦部病理損傷的是？", "BCJLMNO",
+      "異形吸蟲（B、C）：蟲卵可穿過腸壁進入血流，異位到腦、脊髓、心肌。\nFasciola hepatica（J）：幼蟲移行時可異位到肺、皮下、眼睛或腦。\n"
+      "Paragonimus westermani（L）：最常見的異位部位是腦（膿瘍、囊腫）。\n血吸蟲（M、N、O）：蟲卵可異位沉積在中樞神經，S. japonicum 最常見。")
+for n, ans, host, exp in [
+    (10, "C", "螞蟻（ant）", "Dicrocoelium dendriticum：第一中間宿主是陸生蝸牛，第二中間宿主是螞蟻；人是誤食螞蟻而感染。"),
+    (11, "E", "水中植物（aquatic plants）", "Fasciola hepatica：cercaria 在水芹等水生植物上形成 metacercaria，不需要第二中間宿主動物。"),
+    (12, "B", "蝗蟲（grasshoppers）", "Eurytrema spp.（胰吸蟲）：第一中間宿主是陸生蝸牛，第二中間宿主是蝗蟲類（草螽）。"),
+    (13, "D", "淡水魚（fish）", "Clonorchis sinensis：第一中間宿主是螺（Parafossarulus），第二中間宿主是淡水魚（草魚、鯉魚等）。"),
+    (14, "A", "毛蟹（crab）", "Paragonimus westermani：第二中間宿主是淡水蟹、蝦（毛蟹、澤蟹等）。"),
+]:
+    match(n, HOST, f"中間宿主「{host}」對應的是哪一種寄生蟲？", ans, exp)
 
 # 考點標籤：用章節名稱當作粗分類；跨三章以上的歸到總論「線蟲綜合比較」
 TOPIC = {"intro": "總論：宿主與寄生型態", "sth": "土源性蠕蟲", "enterobius-toxocara": "蟯蟲與犬蛔蟲",

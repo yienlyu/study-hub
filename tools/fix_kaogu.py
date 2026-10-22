@@ -280,6 +280,20 @@ for q in qs:
     rec['pattern'] = pattern_for(q)
     out.append(rec)
 
+# kaogu113.txt 這段順序錯亂，解析時漏掉的題（1151 版考古 W4（下）第 22 題同一題，補回來）
+EXTRA = [
+    {'after': 'k113-tact-21', 'id': 'k113-tact-22', 'source': '113 考古',
+     'section': 'T cell Activation and Cell Cooperation', 'num': 22, 'chapter': 'agab', 'type': 'mcq',
+     'stem': 'The presence of which of the following indicates a current infection rather than a previous infection or vaccination?',
+     'options': [{'k': k, 't': t} for k, t in zip('ABCDE', ['IgG', 'IgM', 'IgA', 'IgD', 'IgE'])],
+     'answer': ['B'],
+     'explain': '初次感染時 B 細胞還沒做類型轉換（class switch），活化成漿細胞後先大量產生 IgM，所以 IgM 升高代表正在感染。\nIgG 在感染後期才出現、可維持很久，只能代表曾經感染或打過疫苗。',
+     'topics': ['抗體類別與功能'], 'pattern': '選正確／單一概念題'},
+]
+for x in EXTRA:
+    at = next(i for i, r in enumerate(out) if r['id'] == x['after'])
+    out.insert(at + 1, {k: v for k, v in x.items() if k != 'after'})
+
 dst = HERE.parent / 'subjects' / 'micro-immuno' / 'data' / 'questions-kaogu.json'
 dst.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding='utf-8')
 

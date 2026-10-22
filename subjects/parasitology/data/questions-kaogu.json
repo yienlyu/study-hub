@@ -6305,5 +6305,650 @@
    "吸蟲"
   ],
   "pattern": "簡答題"
+ },
+ {
+  "id": "k113-tre-p01",
+  "source": "113 考古",
+  "num": 1,
+  "chapter": "trematodes",
+  "stem": "（配合題）下列吸蟲中，體型最大的是？",
+  "explain": "Fasciolopsis buski（薑片蟲）長 2–7.5 cm，是寄生在人體最大的吸蟲，蟲卵也是人體寄生蟲卵中最大的。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "配對題",
+  "type": "mcq",
+  "options": [
+   {
+    "k": "A",
+    "t": "Fasciolopsis buski"
+   },
+   {
+    "k": "B",
+    "t": "Metagonimus yokogawai"
+   },
+   {
+    "k": "C",
+    "t": "Heterophyes heterophyes"
+   },
+   {
+    "k": "D",
+    "t": "Gastrodiscoides hominis"
+   },
+   {
+    "k": "E",
+    "t": "Eurytrema spp."
+   },
+   {
+    "k": "F",
+    "t": "Opisthorchis felineus"
+   },
+   {
+    "k": "G",
+    "t": "Clonorchis sinensis"
+   },
+   {
+    "k": "H",
+    "t": "Opisthorchis viverrini"
+   },
+   {
+    "k": "I",
+    "t": "Echinostoma spp."
+   },
+   {
+    "k": "J",
+    "t": "Fasciola hepatica"
+   },
+   {
+    "k": "K",
+    "t": "Dicrocoelium dendriticum"
+   },
+   {
+    "k": "L",
+    "t": "Paragonimus westermani"
+   },
+   {
+    "k": "M",
+    "t": "Schistosoma japonicum"
+   },
+   {
+    "k": "N",
+    "t": "Schistosoma haematobium"
+   },
+   {
+    "k": "O",
+    "t": "Schistosoma mansoni"
+   }
+  ],
+  "answer": [
+   "A"
+  ]
+ },
+ {
+  "id": "k113-tre-p02",
+  "source": "113 考古",
+  "num": 2,
+  "chapter": "trematodes",
+  "stem": "（配合題，可複選）下列吸蟲中，會經由食用水生植物而感染的是？\n(A) Fasciolopsis buski\n(B) Metagonimus yokogawai\n(C) Heterophyes heterophyes\n(D) Gastrodiscoides hominis\n(E) Eurytrema spp.\n(F) Opisthorchis felineus\n(G) Clonorchis sinensis\n(H) Opisthorchis viverrini\n(I) Echinostoma spp.\n(J) Fasciola hepatica\n(K) Dicrocoelium dendriticum\n(L) Paragonimus westermani\n(M) Schistosoma japonicum\n(N) Schistosoma haematobium\n(O) Schistosoma mansoni",
+  "explain": "以水生植物為感染來源（metacercaria 附著在植物表面）：F. buski（菱角、荸薺、茭白筍）、Gastrodiscoides hominis、Echinostoma spp.（宿主多樣，水生植物也是其一）、Fasciola hepatica（水芹 watercress）。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "配對題",
+  "type": "short",
+  "options": [],
+  "answer": [],
+  "answerText": "(A) Fasciolopsis buski、(D) Gastrodiscoides hominis、(I) Echinostoma spp.、(J) Fasciola hepatica"
+ },
+ {
+  "id": "k113-tre-p03",
+  "source": "113 考古",
+  "num": 3,
+  "chapter": "trematodes",
+  "stem": "（配合題）下列吸蟲中，寄生在大腸的是？",
+  "explain": "Gastrodiscoides hominis（人雙口吸蟲）是少數寄生在盲腸、升結腸的腸吸蟲。薑片蟲數量多時可擴散到胃與大腸，但主要寄生在小腸上段。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "配對題",
+  "type": "mcq",
+  "options": [
+   {
+    "k": "A",
+    "t": "Fasciolopsis buski"
+   },
+   {
+    "k": "B",
+    "t": "Metagonimus yokogawai"
+   },
+   {
+    "k": "C",
+    "t": "Heterophyes heterophyes"
+   },
+   {
+    "k": "D",
+    "t": "Gastrodiscoides hominis"
+   },
+   {
+    "k": "E",
+    "t": "Eurytrema spp."
+   },
+   {
+    "k": "F",
+    "t": "Opisthorchis felineus"
+   },
+   {
+    "k": "G",
+    "t": "Clonorchis sinensis"
+   },
+   {
+    "k": "H",
+    "t": "Opisthorchis viverrini"
+   },
+   {
+    "k": "I",
+    "t": "Echinostoma spp."
+   },
+   {
+    "k": "J",
+    "t": "Fasciola hepatica"
+   },
+   {
+    "k": "K",
+    "t": "Dicrocoelium dendriticum"
+   },
+   {
+    "k": "L",
+    "t": "Paragonimus westermani"
+   },
+   {
+    "k": "M",
+    "t": "Schistosoma japonicum"
+   },
+   {
+    "k": "N",
+    "t": "Schistosoma haematobium"
+   },
+   {
+    "k": "O",
+    "t": "Schistosoma mansoni"
+   }
+  ],
+  "answer": [
+   "D"
+  ]
+ },
+ {
+  "id": "k113-tre-p04",
+  "source": "113 考古",
+  "num": 4,
+  "chapter": "trematodes",
+  "stem": "（配合題，可複選）下列吸蟲中，中間宿主可以是昆蟲的是？\n(A) Fasciolopsis buski\n(B) Metagonimus yokogawai\n(C) Heterophyes heterophyes\n(D) Gastrodiscoides hominis\n(E) Eurytrema spp.\n(F) Opisthorchis felineus\n(G) Clonorchis sinensis\n(H) Opisthorchis viverrini\n(I) Echinostoma spp.\n(J) Fasciola hepatica\n(K) Dicrocoelium dendriticum\n(L) Paragonimus westermani\n(M) Schistosoma japonicum\n(N) Schistosoma haematobium\n(O) Schistosoma mansoni",
+  "explain": "Eurytrema（胰吸蟲）：第二中間宿主是蝗蟲類（草螽）。Dicrocoelium dendriticum（槍狀肝吸蟲）：第二中間宿主是螞蟻。Echinostoma 的第二中間宿主種類很多，昆蟲幼蟲也算在內。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "配對題",
+  "type": "short",
+  "options": [],
+  "answer": [],
+  "answerText": "(E) Eurytrema spp.、(I) Echinostoma spp.、(K) Dicrocoelium dendriticum"
+ },
+ {
+  "id": "k113-tre-p05",
+  "source": "113 考古",
+  "num": 5,
+  "chapter": "trematodes",
+  "stem": "（配合題）下列吸蟲中，用 praziquantel 治療無效的是？",
+  "explain": "Fasciola hepatica 對 praziquantel 反應差，首選 triclabendazole（舊用 bithionol）；其他吸蟲多以 praziquantel 治療。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "配對題",
+  "type": "mcq",
+  "options": [
+   {
+    "k": "A",
+    "t": "Fasciolopsis buski"
+   },
+   {
+    "k": "B",
+    "t": "Metagonimus yokogawai"
+   },
+   {
+    "k": "C",
+    "t": "Heterophyes heterophyes"
+   },
+   {
+    "k": "D",
+    "t": "Gastrodiscoides hominis"
+   },
+   {
+    "k": "E",
+    "t": "Eurytrema spp."
+   },
+   {
+    "k": "F",
+    "t": "Opisthorchis felineus"
+   },
+   {
+    "k": "G",
+    "t": "Clonorchis sinensis"
+   },
+   {
+    "k": "H",
+    "t": "Opisthorchis viverrini"
+   },
+   {
+    "k": "I",
+    "t": "Echinostoma spp."
+   },
+   {
+    "k": "J",
+    "t": "Fasciola hepatica"
+   },
+   {
+    "k": "K",
+    "t": "Dicrocoelium dendriticum"
+   },
+   {
+    "k": "L",
+    "t": "Paragonimus westermani"
+   },
+   {
+    "k": "M",
+    "t": "Schistosoma japonicum"
+   },
+   {
+    "k": "N",
+    "t": "Schistosoma haematobium"
+   },
+   {
+    "k": "O",
+    "t": "Schistosoma mansoni"
+   }
+  ],
+  "answer": [
+   "J"
+  ]
+ },
+ {
+  "id": "k113-tre-p06",
+  "source": "113 考古",
+  "num": 6,
+  "chapter": "trematodes",
+  "stem": "（配合題）下列吸蟲中，體型最小的是？",
+  "explain": "Heterophyes heterophyes（異形異形吸蟲）約 1–1.7 × 0.3–0.4 mm，是人體最小的吸蟲；Metagonimus yokogawai 稍大（1–2.5 mm）。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "配對題",
+  "type": "mcq",
+  "options": [
+   {
+    "k": "A",
+    "t": "Fasciolopsis buski"
+   },
+   {
+    "k": "B",
+    "t": "Metagonimus yokogawai"
+   },
+   {
+    "k": "C",
+    "t": "Heterophyes heterophyes"
+   },
+   {
+    "k": "D",
+    "t": "Gastrodiscoides hominis"
+   },
+   {
+    "k": "E",
+    "t": "Eurytrema spp."
+   },
+   {
+    "k": "F",
+    "t": "Opisthorchis felineus"
+   },
+   {
+    "k": "G",
+    "t": "Clonorchis sinensis"
+   },
+   {
+    "k": "H",
+    "t": "Opisthorchis viverrini"
+   },
+   {
+    "k": "I",
+    "t": "Echinostoma spp."
+   },
+   {
+    "k": "J",
+    "t": "Fasciola hepatica"
+   },
+   {
+    "k": "K",
+    "t": "Dicrocoelium dendriticum"
+   },
+   {
+    "k": "L",
+    "t": "Paragonimus westermani"
+   },
+   {
+    "k": "M",
+    "t": "Schistosoma japonicum"
+   },
+   {
+    "k": "N",
+    "t": "Schistosoma haematobium"
+   },
+   {
+    "k": "O",
+    "t": "Schistosoma mansoni"
+   }
+  ],
+  "answer": [
+   "C"
+  ]
+ },
+ {
+  "id": "k113-tre-p07",
+  "source": "113 考古",
+  "num": 7,
+  "chapter": "trematodes",
+  "stem": "（配合題）下列吸蟲中，會經由食用螃蟹感染的是？",
+  "explain": "Paragonimus westermani（衛氏肺吸蟲）：第一中間宿主是川蜷螺，第二中間宿主是淡水蟹、蝦；生吃或吃醉蟹會感染。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "配對題",
+  "type": "mcq",
+  "options": [
+   {
+    "k": "A",
+    "t": "Fasciolopsis buski"
+   },
+   {
+    "k": "B",
+    "t": "Metagonimus yokogawai"
+   },
+   {
+    "k": "C",
+    "t": "Heterophyes heterophyes"
+   },
+   {
+    "k": "D",
+    "t": "Gastrodiscoides hominis"
+   },
+   {
+    "k": "E",
+    "t": "Eurytrema spp."
+   },
+   {
+    "k": "F",
+    "t": "Opisthorchis felineus"
+   },
+   {
+    "k": "G",
+    "t": "Clonorchis sinensis"
+   },
+   {
+    "k": "H",
+    "t": "Opisthorchis viverrini"
+   },
+   {
+    "k": "I",
+    "t": "Echinostoma spp."
+   },
+   {
+    "k": "J",
+    "t": "Fasciola hepatica"
+   },
+   {
+    "k": "K",
+    "t": "Dicrocoelium dendriticum"
+   },
+   {
+    "k": "L",
+    "t": "Paragonimus westermani"
+   },
+   {
+    "k": "M",
+    "t": "Schistosoma japonicum"
+   },
+   {
+    "k": "N",
+    "t": "Schistosoma haematobium"
+   },
+   {
+    "k": "O",
+    "t": "Schistosoma mansoni"
+   }
+  ],
+  "answer": [
+   "L"
+  ]
+ },
+ {
+  "id": "k113-tre-p08",
+  "source": "113 考古",
+  "num": 8,
+  "chapter": "trematodes",
+  "stem": "（配合題，可複選）下列吸蟲中，第二中間宿主為魚的是？\n(A) Fasciolopsis buski\n(B) Metagonimus yokogawai\n(C) Heterophyes heterophyes\n(D) Gastrodiscoides hominis\n(E) Eurytrema spp.\n(F) Opisthorchis felineus\n(G) Clonorchis sinensis\n(H) Opisthorchis viverrini\n(I) Echinostoma spp.\n(J) Fasciola hepatica\n(K) Dicrocoelium dendriticum\n(L) Paragonimus westermani\n(M) Schistosoma japonicum\n(N) Schistosoma haematobium\n(O) Schistosoma mansoni",
+  "explain": "以魚為第二中間宿主：Metagonimus yokogawai（淡水魚）、Heterophyes heterophyes（烏魚等鹹淡水魚）、Opisthorchis felineus、Clonorchis sinensis、O. viverrini（淡水魚，鯉科為主）。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "配對題",
+  "type": "short",
+  "options": [],
+  "answer": [],
+  "answerText": "(B) Metagonimus yokogawai、(C) Heterophyes heterophyes、(F) Opisthorchis felineus、(G) Clonorchis sinensis、(H) Opisthorchis viverrini",
+  "note": "原考古另註：Echinostoma spp. 少數以魚為第二中間宿主，選 (I) 也可接受。"
+ },
+ {
+  "id": "k113-tre-p09",
+  "source": "113 考古",
+  "num": 9,
+  "chapter": "trematodes",
+  "stem": "（配合題，可複選）下列吸蟲中，可能引發腦部病理損傷的是？\n(A) Fasciolopsis buski\n(B) Metagonimus yokogawai\n(C) Heterophyes heterophyes\n(D) Gastrodiscoides hominis\n(E) Eurytrema spp.\n(F) Opisthorchis felineus\n(G) Clonorchis sinensis\n(H) Opisthorchis viverrini\n(I) Echinostoma spp.\n(J) Fasciola hepatica\n(K) Dicrocoelium dendriticum\n(L) Paragonimus westermani\n(M) Schistosoma japonicum\n(N) Schistosoma haematobium\n(O) Schistosoma mansoni",
+  "explain": "異形吸蟲（B、C）：蟲卵可穿過腸壁進入血流，異位到腦、脊髓、心肌。\nFasciola hepatica（J）：幼蟲移行時可異位到肺、皮下、眼睛或腦。\nParagonimus westermani（L）：最常見的異位部位是腦（膿瘍、囊腫）。\n血吸蟲（M、N、O）：蟲卵可異位沉積在中樞神經，S. japonicum 最常見。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "配對題",
+  "type": "short",
+  "options": [],
+  "answer": [],
+  "answerText": "(B) Metagonimus yokogawai、(C) Heterophyes heterophyes、(J) Fasciola hepatica、(L) Paragonimus westermani、(M) Schistosoma japonicum、(N) Schistosoma haematobium、(O) Schistosoma mansoni"
+ },
+ {
+  "id": "k113-tre-p10",
+  "source": "113 考古",
+  "num": 10,
+  "chapter": "trematodes",
+  "stem": "（配合題）中間宿主「螞蟻（ant）」對應的是哪一種寄生蟲？",
+  "explain": "Dicrocoelium dendriticum：第一中間宿主是陸生蝸牛，第二中間宿主是螞蟻；人是誤食螞蟻而感染。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "配對題",
+  "type": "mcq",
+  "options": [
+   {
+    "k": "A",
+    "t": "Paragonimus westermani"
+   },
+   {
+    "k": "B",
+    "t": "Eurytrema spp."
+   },
+   {
+    "k": "C",
+    "t": "Dicrocoelium dendriticum"
+   },
+   {
+    "k": "D",
+    "t": "Clonorchis sinensis"
+   },
+   {
+    "k": "E",
+    "t": "Fasciola hepatica"
+   }
+  ],
+  "answer": [
+   "C"
+  ]
+ },
+ {
+  "id": "k113-tre-p11",
+  "source": "113 考古",
+  "num": 11,
+  "chapter": "trematodes",
+  "stem": "（配合題）中間宿主「水中植物（aquatic plants）」對應的是哪一種寄生蟲？",
+  "explain": "Fasciola hepatica：cercaria 在水芹等水生植物上形成 metacercaria，不需要第二中間宿主動物。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "配對題",
+  "type": "mcq",
+  "options": [
+   {
+    "k": "A",
+    "t": "Paragonimus westermani"
+   },
+   {
+    "k": "B",
+    "t": "Eurytrema spp."
+   },
+   {
+    "k": "C",
+    "t": "Dicrocoelium dendriticum"
+   },
+   {
+    "k": "D",
+    "t": "Clonorchis sinensis"
+   },
+   {
+    "k": "E",
+    "t": "Fasciola hepatica"
+   }
+  ],
+  "answer": [
+   "E"
+  ]
+ },
+ {
+  "id": "k113-tre-p12",
+  "source": "113 考古",
+  "num": 12,
+  "chapter": "trematodes",
+  "stem": "（配合題）中間宿主「蝗蟲（grasshoppers）」對應的是哪一種寄生蟲？",
+  "explain": "Eurytrema spp.（胰吸蟲）：第一中間宿主是陸生蝸牛，第二中間宿主是蝗蟲類（草螽）。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "配對題",
+  "type": "mcq",
+  "options": [
+   {
+    "k": "A",
+    "t": "Paragonimus westermani"
+   },
+   {
+    "k": "B",
+    "t": "Eurytrema spp."
+   },
+   {
+    "k": "C",
+    "t": "Dicrocoelium dendriticum"
+   },
+   {
+    "k": "D",
+    "t": "Clonorchis sinensis"
+   },
+   {
+    "k": "E",
+    "t": "Fasciola hepatica"
+   }
+  ],
+  "answer": [
+   "B"
+  ]
+ },
+ {
+  "id": "k113-tre-p13",
+  "source": "113 考古",
+  "num": 13,
+  "chapter": "trematodes",
+  "stem": "（配合題）中間宿主「淡水魚（fish）」對應的是哪一種寄生蟲？",
+  "explain": "Clonorchis sinensis：第一中間宿主是螺（Parafossarulus），第二中間宿主是淡水魚（草魚、鯉魚等）。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "配對題",
+  "type": "mcq",
+  "options": [
+   {
+    "k": "A",
+    "t": "Paragonimus westermani"
+   },
+   {
+    "k": "B",
+    "t": "Eurytrema spp."
+   },
+   {
+    "k": "C",
+    "t": "Dicrocoelium dendriticum"
+   },
+   {
+    "k": "D",
+    "t": "Clonorchis sinensis"
+   },
+   {
+    "k": "E",
+    "t": "Fasciola hepatica"
+   }
+  ],
+  "answer": [
+   "D"
+  ]
+ },
+ {
+  "id": "k113-tre-p14",
+  "source": "113 考古",
+  "num": 14,
+  "chapter": "trematodes",
+  "stem": "（配合題）中間宿主「毛蟹（crab）」對應的是哪一種寄生蟲？",
+  "explain": "Paragonimus westermani：第二中間宿主是淡水蟹、蝦（毛蟹、澤蟹等）。",
+  "topics": [
+   "吸蟲"
+  ],
+  "pattern": "配對題",
+  "type": "mcq",
+  "options": [
+   {
+    "k": "A",
+    "t": "Paragonimus westermani"
+   },
+   {
+    "k": "B",
+    "t": "Eurytrema spp."
+   },
+   {
+    "k": "C",
+    "t": "Dicrocoelium dendriticum"
+   },
+   {
+    "k": "D",
+    "t": "Clonorchis sinensis"
+   },
+   {
+    "k": "E",
+    "t": "Fasciola hepatica"
+   }
+  ],
+  "answer": [
+   "A"
+  ]
  }
 ]

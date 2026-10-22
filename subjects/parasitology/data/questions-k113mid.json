@@ -1,5 +1,449 @@
 [
  {
+  "id": "k113mid-01",
+  "source": "113 期中考古",
+  "num": 1,
+  "chapter": "sth",
+  "type": "mcq",
+  "stem": "關於 Trichuris trichiura 感染人體的敘述，下列何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "幼蟲到腸道後經血液循環到胃發育至成蟲"
+   },
+   {
+    "k": "B",
+    "t": "成蟲寄生在大腸"
+   },
+   {
+    "k": "C",
+    "t": "會引發自體感染（autoinfection）"
+   },
+   {
+    "k": "D",
+    "t": "幼童輕度感染極可能造成直腸脫垂"
+   },
+   {
+    "k": "E",
+    "t": "成蟲頭部粗大常埋於腸黏膜中，故較難治療"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "(B) ✅ 吞入胚胎化蟲卵 → 小腸孵出幼蟲 → 移到大腸（盲腸、升結腸）發育為成蟲，不經血液循環（A 錯）。\n(C) 鞭蟲沒有 autoinfection；常考會 autoinfection 的是 S. stercoralis、C. philippinensis、E. vermicularis。\n(D) 直腸脫垂是「重度」感染的表現，輕度感染通常無症狀。\n(E) 蟲體前細後粗（前 3/5 細如鞭），是細的頭部埋進黏膜。",
+  "topics": [
+   "土源性蠕蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113mid-02",
+  "source": "113 期中考古",
+  "num": 2,
+  "chapter": "intro",
+  "type": "mcq",
+  "stem": "下列哪一種寄生蟲會跑到腦？",
+  "options": [
+   {
+    "k": "A",
+    "t": "G. spinigerum"
+   },
+   {
+    "k": "B",
+    "t": "C. hepatica"
+   },
+   {
+    "k": "C",
+    "t": "T. trichiura"
+   },
+   {
+    "k": "D",
+    "t": "A. simplex"
+   },
+   {
+    "k": "E",
+    "t": "N. americanus"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "(A) ✅ Gnathostoma spinigerum 在人體無法發育為成蟲，幼蟲在組織中持續移行，可侵犯中樞神經（嗜酸性腦膜腦炎、出血）。\n(B) C. hepatica 寄生在肝臟。(C) T. trichiura 在大腸。(D) Anisakis 侵犯胃腸壁。(E) N. americanus 在小腸。",
+  "topics": [
+   "線蟲綜合比較"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113mid-03",
+  "source": "113 期中考古",
+  "num": 3,
+  "chapter": "intro",
+  "type": "mcq",
+  "stem": "台灣曾經是寄生蟲病肆虐的國家，但下列何者寄生蟲感染卻不曾在台灣流行或發現過？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Ascaris lumbricoides"
+   },
+   {
+    "k": "B",
+    "t": "Ancylostoma duodenale"
+   },
+   {
+    "k": "C",
+    "t": "Brugia malayi"
+   },
+   {
+    "k": "D",
+    "t": "Wuchereria bancrofti"
+   },
+   {
+    "k": "E",
+    "t": "Capillaria philippinensis"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(C) ✅ Brugia malayi 分布在中國長江以南、東南亞、南亞，台灣沒有流行過。\n(A)(B) 蛔蟲、十二指腸鉤蟲過去在台灣農村極為盛行。(D) 班氏絲蟲曾流行於台灣南部、澎湖、金門，已根除。(E) C. philippinensis 在台灣有生食淡水魚蝦的本土及境外移入病例。",
+  "topics": [
+   "線蟲綜合比較"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113mid-04",
+  "source": "113 期中考古",
+  "num": 4,
+  "chapter": "intro",
+  "type": "mcq",
+  "stem": "下列何者寄生蟲的組合皆可侵犯內臟、腦部或眼睛造成傷害？",
+  "options": [
+   {
+    "k": "A",
+    "t": "L. loa + T. canis"
+   },
+   {
+    "k": "B",
+    "t": "W. bancrofti + G. spinigerum"
+   },
+   {
+    "k": "C",
+    "t": "T. spiralis + A. caninum"
+   },
+   {
+    "k": "D",
+    "t": "E. vermicularis + S. stercoralis"
+   },
+   {
+    "k": "E",
+    "t": "T. canis + G. spinigerum"
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "(E) ✅ T. canis 造成 VLM（肝、肺、腦）與 OLM（眼）；G. spinigerum 幼蟲在組織遊走，常侵犯中樞神經與眼睛。\n(A) L. loa 主要在皮下與眼結膜下，不以侵犯內臟、腦為特徵。(B) W. bancrofti 寄生淋巴系統。(C) A. caninum 主要造成皮膚幼蟲移行症（CLM）。(D) 蟯蟲侷限在盲腸與肛門周圍。",
+  "topics": [
+   "線蟲綜合比較"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113mid-05",
+  "source": "113 期中考古",
+  "num": 5,
+  "chapter": "intro",
+  "type": "mcq",
+  "stem": "下列關於 WHO 網站上寄生蟲的敘述，何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "WHO 公布的 22 種熱帶疾病其中 8 種是寄生蟲造成"
+   },
+   {
+    "k": "B",
+    "t": "聯合國 194 個會員國中 30 國受到寄生蟲肆虐"
+   },
+   {
+    "k": "C",
+    "t": "寄生蟲雖致死率低，但容易造成殘疾（如失明、生殖器官纖維化等）"
+   },
+   {
+    "k": "D",
+    "t": "英、美因收入高、公衛條件良好，已無寄生蟲病病患"
+   },
+   {
+    "k": "E",
+    "t": "法、德等國家因有許多熱帶疾病研究所，故寄生蟲疾病盛行"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(C) ✅ 被忽視熱帶疾病（NTDs）多數致死率不高，但致殘率高、慢性併發症多（河盲症失明、血吸蟲生殖器官纖維化、象皮病）。\n(A) NTDs 超過 20 種，寄生蟲造成的超過 10 種。(B) 受影響國家遠多於 30 國。(D) 歐美高收入國家仍有寄生蟲病。(E) 設有熱帶醫學研究所不是寄生蟲病盛行的原因。",
+  "topics": [
+   "總論：宿主與寄生型態"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113mid-06",
+  "source": "113 期中考古",
+  "num": 6,
+  "chapter": "capillaria-strongyloides",
+  "type": "mcq",
+  "stem": "糞便檢體中看到一種橢圓形蟲卵：殼厚、表面有放射狀紋路、兩端各有一個極塞（原題附圖）。關於這種寄生蟲，下列敘述何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "為 O. volvulus 的蟲卵"
+   },
+   {
+    "k": "B",
+    "t": "為 C. hepatica 的蟲卵"
+   },
+   {
+    "k": "C",
+    "t": "是 spurious infection"
+   },
+   {
+    "k": "D",
+    "t": "若醫檢人員誤食此寄生蟲（糞便中的卵）會造成感染"
+   }
+  ],
+  "answer": [
+   "B",
+   "C"
+  ],
+  "explain": "(B) 殼厚有放射紋、兩端有極塞 → Capillaria hepatica 的卵。\n(C) C. hepatica 成蟲在鼠類肝臟產卵，卵不會進入消化道；人吃到含卵的動物肝臟，卵只是原封不動通過腸道排出 → 假性感染（spurious infection）。\n(A) O. volvulus 卵胎生，產出的是 microfilariae，糞便中看不到卵。\n(D) 糞便中的新鮮卵還沒在土壤中胚胎化，吃下也不會感染。",
+  "topics": [
+   "毛線蟲與糞小桿線蟲"
+  ],
+  "pattern": "選正確／單一概念題",
+  "note": "原考古答案為 B/C，兩者都算對。原題附蟲卵照片，本站改以文字描述。"
+ },
+ {
+  "id": "k113mid-09",
+  "source": "113 期中考古",
+  "num": 9,
+  "chapter": "capillaria-strongyloides",
+  "type": "mcq",
+  "stem": "關於 C. philippinensis 之敘述，何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "屬於一種 arthropoda-transmitted parasite"
+   },
+   {
+    "k": "B",
+    "t": "可造成患者嚴重腹瀉乃肇因於 autoinfection"
+   },
+   {
+    "k": "C",
+    "t": "感染期為第三期幼蟲（L3 larva）"
+   },
+   {
+    "k": "D",
+    "t": "食道主要由肌肉組織構成"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "(B) ✅ C. philippinensis 可在腸道內 autoinfection，蟲數大增 → 嚴重腹瀉、蛋白質與電解質流失（腸毛細線蟲症）。\n(A) 感染途徑是生食淡水魚，不靠節肢動物傳播。(C) 感染期是魚體內的感染性幼蟲，不是 L3。(D) 毛細線蟲的食道是由 stichocytes 組成的 stichosome（念珠狀食道），不是肌肉性食道。",
+  "topics": [
+   "毛線蟲與糞小桿線蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113mid-12",
+  "source": "113 期中考古",
+  "num": 12,
+  "chapter": "enterobius-toxocara",
+  "type": "mcq",
+  "stem": "關於蟯蟲（E. vermicularis）的再感染與診斷，以下哪一項是錯誤的？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Retroinfection 和 autoinfection 皆屬於再次感染"
+   },
+   {
+    "k": "B",
+    "t": "手觸肛門 → 手帶 E. vermicularis 的卵 → 手放嘴裡 → 感染，為 autoinfection"
+   },
+   {
+    "k": "C",
+    "t": "E. vermicularis 的卵在肛門孵化 → 幼蟲爬回肛門、陰道 → 感染，為 retroinfection"
+   },
+   {
+    "k": "D",
+    "t": "診斷是否被蟯蟲感染，用糞便檢驗比肛門擦拭法有效"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "(D) ✅ 錯：雌蟲夜間爬到肛門口產卵，卵很少出現在糞便中 → 應在早上起床後用透明膠帶肛門擦拭法（cellophane tape）採檢。\n(B) 抓肛門後把卵帶回嘴裡 = autoinfection；(C) 卵在肛周孵化、幼蟲爬回腸道 = retroinfection，兩者都是同一宿主的再次感染。",
+  "topics": [
+   "蟯蟲與犬蛔蟲"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "note": "原題 (B) 選項從缺，本站刪去後重新編號（原答案 (E) 即本站 (D)）。"
+ },
+ {
+  "id": "k113mid-13",
+  "source": "113 期中考古",
+  "num": 13,
+  "chapter": "intro",
+  "type": "mcq",
+  "stem": "以下哪種寄生蟲感染最適合以人體糞便作為檢體？",
+  "options": [
+   {
+    "k": "A",
+    "t": "W. bancrofti"
+   },
+   {
+    "k": "B",
+    "t": "Anisakis spp."
+   },
+   {
+    "k": "C",
+    "t": "C. hepatica"
+   },
+   {
+    "k": "D",
+    "t": "N. americanus"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "(D) ✅ 鉤蟲成蟲在小腸產卵，卵隨糞便排出 → 糞便檢查找蟲卵。\n(A) W. bancrofti：夜間採血做血液抹片找 microfilariae。(B) Anisakis：幼蟲鑽在胃腸壁，用內視鏡檢查並夾出。(C) C. hepatica：肝臟切片找成蟲與卵（糞便中的卵是假性感染）。",
+  "topics": [
+   "線蟲綜合比較"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113mid-14",
+  "source": "113 期中考古",
+  "num": 14,
+  "chapter": "enterobius-toxocara",
+  "type": "mcq",
+  "stem": "關於 T. canis 的敘述，何者不正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "狗是其最終宿主"
+   },
+   {
+    "k": "B",
+    "t": "在沙地上嬉戲、吃生菜或是跟寵物狗接觸時可能會誤食蟲卵"
+   },
+   {
+    "k": "C",
+    "t": "VLM、OLM 為感染 toxocariasis 的可能症狀"
+   },
+   {
+    "k": "D",
+    "t": "因為其症狀非特定，故無法依據症狀確定是否感染 toxocariasis"
+   },
+   {
+    "k": "E",
+    "t": "台灣目前沒有感染 T. canis 的案例"
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "(E) ✅ 錯：台灣已有犬蛔蟲症病例。\n(A) 狗是最終宿主，人是保幼宿主（幼蟲不會發育為成蟲）。(B) 誤食土壤、生菜或狗毛上的胚胎化蟲卵而感染。(C) 幼蟲在人體組織移行 → VLM、OLM。(D) 症狀不具特異性，需靠血清學（ELISA）輔助診斷。",
+  "topics": [
+   "蟯蟲與犬蛔蟲"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113mid-16",
+  "source": "113 期中考古",
+  "num": 16,
+  "chapter": "intro",
+  "type": "mcq",
+  "stem": "以下哪個選項是 2014 年被美國 CDC 列入需加以緊密防控的五大寄生蟲病？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Toxoplasmosis + Ascariasis + Chagas disease + Strongyloidiasis + Toxocariasis"
+   },
+   {
+    "k": "B",
+    "t": "Chagas disease + Ascariasis + Trichomoniasis + Toxoplasmosis + Cysticercosis"
+   },
+   {
+    "k": "C",
+    "t": "Chagas disease + Ascariasis + Trichomoniasis + Toxoplasmosis + Strongyloidiasis"
+   },
+   {
+    "k": "D",
+    "t": "Toxoplasmosis + Trichomoniasis + Cysticercosis + Chagas disease + Toxocariasis"
+   },
+   {
+    "k": "E",
+    "t": "Strongyloidiasis + Trichomoniasis + Cysticercosis + Chagas disease + Toxocariasis"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "美國 CDC 2014 年列為優先防治的五種被忽視寄生蟲感染（NPIs）：弓形蟲症（Toxoplasmosis）、陰道滴蟲症（Trichomoniasis）、囊尾蟲症（Cysticercosis）、查加斯病（Chagas disease）、犬貓蛔蟲症（Toxocariasis）。蛔蟲症與糞小桿線蟲症不在其中。",
+  "topics": [
+   "總論：宿主與寄生型態"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113mid-19",
+  "source": "113 期中考古",
+  "num": 19,
+  "chapter": "filaria",
+  "type": "mcq",
+  "stem": "一位醫學生寫下一般血絲蟲的生活史，請問他哪裡寫錯了？",
+  "options": [
+   {
+    "k": "A",
+    "t": "第三期幼蟲（L3）藉病媒叮咬進入人體"
+   },
+   {
+    "k": "B",
+    "t": "進入血液（以 O. volvulus 或 L. loa 為主）或皮下組織（以 W. bancrofti 和 B. malayi 為主）"
+   },
+   {
+    "k": "C",
+    "t": "在人體內發育成熟為成蟲，產出微絲蚴"
+   },
+   {
+    "k": "D",
+    "t": "病媒叮咬人體時吸入微絲蚴"
+   },
+   {
+    "k": "E",
+    "t": "微絲蚴在病媒體內發育成第三期幼蟲，聚集於口器"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "(B) ✅ 寫反了：W. bancrofti、B. malayi 是淋巴絲蟲（成蟲在淋巴系統、微絲蚴在血液）；L. loa、O. volvulus 的成蟲在皮下組織。\n其他步驟正確：病媒叮咬送入 L3 → 在人體發育為成蟲並產出微絲蚴 → 病媒吸血時吸入微絲蚴 → 在病媒體內發育為 L3、移到口器。",
+  "topics": [
+   "血絲蟲"
+  ],
+  "pattern": "選錯誤（否定）題",
+  "note": "原題 (C)–(E) 選項有錯字與缺字，本站依詳解整理文字，答案不變。"
+ },
+ {
   "id": "k113mid-20",
   "source": "113 期中考古",
   "num": 20,
