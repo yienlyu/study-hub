@@ -889,3 +889,4 @@ a.icon-btn { text-decoration: none; }
 .recent-row .stem { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .recent-row .meta { color: var(--ink-3); font-size: .76rem; font-family: var(--f-mono); }
 .acct > div:nth-child(2) { flex: 1 1 260px; min-width: 0; }
+.gsi-btn { min-height: 44px; display: flex; align-items: center; }

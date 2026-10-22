@@ -336,6 +336,7 @@
   // 沒填 config.js 的 supabaseUrl / supabaseAnonKey 時整段不啟用，網站照常只用本機紀錄。
   const SUPABASE_JS =
     "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js";
+  const GSI_JS = "https://accounts.google.com/gsi/client";
   const loadScript = (src) =>
     new Promise((res, rej) => {
       const s = document.createElement("script");
@@ -494,8 +495,61 @@
       });
       if (error) throw error;
     },
+    // Google Identity Services：在本站頁面拿到 Google 的 ID token，再交給 Supabase 換成登入狀態
+    _gsi: null,
+    gsi() {
+      return (this._gsi ||= (async () => {
+        await loadScript(GSI_JS);
+        // Google 收雜湊後的 nonce，Supabase 收原始值再自己比對
+        const raw = btoa(
+          String.fromCharCode(...crypto.getRandomValues(new Uint8Array(24))),
+        );
+        const buf = await crypto.subtle.digest(
+          "SHA-256",
+          new TextEncoder().encode(raw),
+        );
+        const hashed = [...new Uint8Array(buf)]
+          .map((b) => b.toString(16).padStart(2, "0"))
+          .join("");
+        google.accounts.id.initialize({
+          client_id: CFG.googleClientId,
+          nonce: hashed,
+          use_fedcm_for_button: true,
+          callback: async ({ credential }) => {
+            try {
+              await this.ready;
+              const { error } = await this.sb.auth.signInWithIdToken({
+                provider: "google",
+                token: credential,
+                nonce: raw,
+              });
+              if (error) throw error;
+              toast("登入成功");
+            } catch (e) {
+              toast(`登入失敗：${e.message || e}`);
+            }
+          },
+        });
+      })().catch((e) => {
+        this._gsi = null;
+        throw e;
+      }));
+    },
+    async renderGoogle(el) {
+      await this.gsi();
+      if (!el.isConnected) return;
+      el.textContent = "";
+      google.accounts.id.renderButton(el, {
+        theme: currentTheme() === "dark" ? "filled_black" : "outline",
+        size: "large",
+        shape: "pill",
+        text: "signin_with",
+        locale: "zh-TW",
+      });
+    },
     async signOut() {
       await this.flush().catch(() => {});
+      if (window.google?.accounts?.id) google.accounts.id.disableAutoSelect();
       await this.sb.auth.signOut();
       this.user = null;
       this.emit();
@@ -2913,9 +2967,10 @@
       const LBL = { google: "Google", github: "GitHub", apple: "Apple" };
       const oauth = prov
         .filter((p) => p !== "email")
-        .map(
-          (p) =>
-            `<button class="btn primary" type="button" data-login="${esc(p)}">${ic("user")}用 ${esc(LBL[p] || p)} 登入</button>`,
+        .map((p) =>
+          p === "google" && CFG.googleClientId
+            ? `<div id="gsiBtn" class="gsi-btn"><button class="btn primary" type="button" disabled>${ic("user")}用 Google 登入</button></div>`
+            : `<button class="btn primary" type="button" data-login="${esc(p)}">${ic("user")}用 ${esc(LBL[p] || p)} 登入</button>`,
         )
         .join("");
       const email = prov.includes("email")
@@ -3159,18 +3214,27 @@
       },
     );
   }
+  function bindLogin(b) {
+    b.addEventListener("click", async () => {
+      b.disabled = true;
+      try {
+        await Cloud.signIn(b.dataset.login);
+      } catch (e) {
+        b.disabled = false;
+        toast(`登入失敗：${e.message || e}`);
+      }
+    });
+  }
   function bindAcct() {
-    $$("[data-login]").forEach((b) =>
-      b.addEventListener("click", async () => {
-        b.disabled = true;
-        try {
-          await Cloud.signIn(b.dataset.login);
-        } catch (e) {
-          b.disabled = false;
-          toast(`登入失敗：${e.message || e}`);
-        }
-      }),
-    );
+    const gb = $("#gsiBtn");
+    if (gb)
+      Cloud.renderGoogle(gb).catch((e) => {
+        console.error(e);
+        // Google 按鈕載入失敗（例如被擋）時退回 Supabase 轉址登入
+        gb.innerHTML = `<button class="btn primary" type="button" data-login="google">${ic("user")}用 Google 登入</button>`;
+        bindLogin($("button", gb));
+      });
+    $$("[data-login]").forEach(bindLogin);
     $("#emailLogin")?.addEventListener("submit", async (e) => {
       e.preventDefault();
       const f = e.currentTarget;

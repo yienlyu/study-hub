@@ -15,4 +15,8 @@ window.STUDY_HUB_CONFIG = {
   supabaseAnonKey: "sb_publishable_nkvjHvXOuzZQlj3p1YRwfw_DB-wKdu7",
   // 登入頁要顯示的方式：google、github（需在 Supabase 開啟對應 provider）、email（寄登入連結）
   authProviders: ["google", "email"],
+  // Google Cloud 的 OAuth Client ID（跟 Supabase Google provider 填的同一個）。
+  // 填了就改用 Google 自己的登入按鈕，登入畫面顯示本站網域而不是 xxxx.supabase.co；留空則走 Supabase 轉址登入。
+  googleClientId:
+    "563317688270-v72lvdfqi26u1jerbrm7etvfbrd6h96k.apps.googleusercontent.com",
 };

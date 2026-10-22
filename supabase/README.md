@@ -39,6 +39,9 @@
   2. **Credentials → Create credentials → OAuth client ID**，類型選 **Web application**。
   3. **Authorized redirect URIs** 填 Supabase Google provider 頁面上顯示的 Callback URL（長得像 `https://xxxx.supabase.co/auth/v1/callback`）。
   4. 把 Client ID、Client Secret 貼回 Supabase 的 Google provider，按 Save。
+  5. （建議）讓登入畫面顯示本站網域而不是 `xxxx.supabase.co`：
+     - 同一個 OAuth client 的 **Authorized JavaScript origins** 加上 `https://yienlyu.github.io`（本機測試再加 `http://localhost:8000`，origin 不含路徑）。
+     - 把 Client ID 填進 `config.js` 的 `googleClientId`。網站就會改用 Google 自己的登入按鈕。
 - **GitHub**（可選）：GitHub → Settings → Developer settings → OAuth Apps → New，Callback URL 一樣填 Supabase 給的那個。
 
 `config.js` 的 `authProviders` 決定登入頁顯示哪些按鈕，例如 `["google", "email"]` 或 `["github"]`。
