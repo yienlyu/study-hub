@@ -11,8 +11,8 @@ window.STUDY_HUB_CONFIG = {
   // 登入與學習軌跡（Supabase）。兩個都留空字串就不顯示登入，紀錄只存在這台裝置。
   // 在 Supabase 後台 Project Settings → API 找：Project URL 與 anon public key（新版後台叫 publishable key）。
   // anon key 本來就是公開用的，資料靠 supabase/schema.sql 的權限規則保護，可以放心 commit。
-  supabaseUrl: "https://rjjatolwgptadejokoxm.superbase.co",
-  supabaseAnonKey: "nkvjHvXOuzZQlj3p1YRwfw_DB-wKdu7",
+  supabaseUrl: "https://rjjatolwgptadejokoxm.supabase.co",
+  supabaseAnonKey: "sb_publishable_nkvjHvXOuzZQlj3p1YRwfw_DB-wKdu7",
   // 登入頁要顯示的方式：google、github（需在 Supabase 開啟對應 provider）、email（寄登入連結）
   authProviders: ["google", "email"],
 };
