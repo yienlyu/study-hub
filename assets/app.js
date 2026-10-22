@@ -537,6 +537,64 @@
       const { error } = await this.sb.auth.updateUser({ password });
       if (error) throw this.authErr(error);
     },
+    // 自訂頭像：裁成正方形縮到 256px，存到 Storage 的 avatars/<user id>/，網址記在 user_metadata.custom_avatar
+    // （不用 avatar_url：Google 登入每次都會把它蓋回 Google 的頭像）
+    async setAvatar(file) {
+      if (!/^image\//.test(file.type)) throw new Error("請選擇圖片檔");
+      if (file.size > 20e6) throw new Error("圖片太大（上限 20 MB）");
+      let img;
+      try {
+        img = await createImageBitmap(file);
+      } catch {
+        throw new Error("讀不了這張圖片，請換成 JPG 或 PNG");
+      }
+      const S = 256,
+        side = Math.min(img.width, img.height),
+        cv = document.createElement("canvas");
+      cv.width = cv.height = S;
+      cv
+        .getContext("2d")
+        .drawImage(
+          img,
+          (img.width - side) / 2,
+          (img.height - side) / 2,
+          side,
+          side,
+          0,
+          0,
+          S,
+          S,
+        );
+      const blob = await new Promise((r) => cv.toBlob(r, "image/jpeg", 0.88));
+      const path = `${this.user.id}/avatar.jpg`;
+      const bucket = this.sb.storage.from("avatars");
+      const up = await bucket.upload(path, blob, {
+        upsert: true,
+        contentType: "image/jpeg",
+        cacheControl: "3600",
+      });
+      if (up.error)
+        throw /bucket not found/i.test(up.error.message)
+          ? new Error(
+              "還沒建立頭像儲存空間：請在 Supabase SQL Editor 執行 supabase/schema.sql",
+            )
+          : up.error;
+      const url = `${bucket.getPublicUrl(path).data.publicUrl}?v=${Date.now()}`;
+      const { error } = await this.sb.auth.updateUser({
+        data: { custom_avatar: url },
+      });
+      if (error) throw error;
+    },
+    async clearAvatar() {
+      const { error } = await this.sb.auth.updateUser({
+        data: { custom_avatar: null },
+      });
+      if (error) throw error;
+      await this.sb.storage
+        .from("avatars")
+        .remove([`${this.user.id}/avatar.jpg`])
+        .catch(() => {});
+    },
     // Google Identity Services：在本站頁面拿到 Google 的 ID token，再交給 Supabase 換成登入狀態
     _gsi: null,
     gsi() {
@@ -771,6 +829,8 @@
   });
   const userName = (u) =>
     u?.user_metadata?.full_name || u?.user_metadata?.name || u?.email || "";
+  const userAvatar = (u) =>
+    u?.user_metadata?.custom_avatar || u?.user_metadata?.avatar_url || "";
   function paintAcct() {
     const b = $("#acctBtn");
     if (!b) return;
@@ -781,7 +841,7 @@
       "aria-label",
       u ? `學習軌跡（已登入：${userName(u)}）` : "學習軌跡與登入",
     );
-    const av = u?.user_metadata?.avatar_url;
+    const av = userAvatar(u);
     b.innerHTML = av
       ? `<img src="${esc(av)}" alt="" referrerpolicy="no-referrer">`
       : ic("user");
@@ -3024,7 +3084,7 @@
         <div class="acct-actions">${oauth}</div>${email}
         ${Cloud.status === "error" ? `<p class="small" style="color:var(--bad);margin:12px 0 0">${ic("alert")} ${esc(Cloud.error)}</p>` : ""}</div></div>`;
     }
-    const av = u.user_metadata?.avatar_url;
+    const av = userAvatar(u);
     const st =
       Cloud.status === "syncing"
         ? "同步中…"
@@ -3033,9 +3093,9 @@
           : Cloud.lastSync
             ? `${ic("check")} 已同步 · ${fmtWhen(Cloud.lastSync)}${pend ? ` · ${pend} 筆待上傳` : ""}`
             : "尚未同步";
-    return `<div class="card panel acct"><div class="acct-ico">${av ? `<img src="${esc(av)}" alt="" referrerpolicy="no-referrer">` : ic("user")}</div><div style="min-width:0;flex:1">
+    return `<div class="card panel acct"><button class="acct-ico acct-av" type="button" id="avatarBtn" title="更換頭像" aria-label="更換頭像">${av ? `<img src="${esc(av)}" alt="" referrerpolicy="no-referrer">` : ic("user")}<span class="acct-av-badge">${ic("pen")}</span></button><input type="file" id="avatarFile" accept="image/*" hidden><div style="min-width:0;flex:1">
       <h3>${esc(userName(u))}</h3><p class="sub" style="margin:0">${u.email && u.email !== userName(u) ? `${esc(u.email)} · ` : ""}<span class="acct-status">${st}</span></p></div>
-      <div class="acct-actions"><button class="btn sm" type="button" id="syncBtn"${Cloud.busy ? " disabled" : ""}>${ic("rotate")}立即同步</button><button class="btn sm ghost" type="button" id="pwBtn">${ic("pen")}設定密碼</button><button class="btn sm ghost" type="button" id="logoutBtn">${ic("logout")}登出</button></div>
+      <div class="acct-actions"><button class="btn sm" type="button" id="syncBtn"${Cloud.busy ? " disabled" : ""}>${ic("rotate")}立即同步</button><button class="btn sm ghost" type="button" id="pwBtn" aria-expanded="false" aria-controls="pwForm">${ic("pen")}設定密碼</button>${u.user_metadata?.custom_avatar ? `<button class="btn sm ghost" type="button" id="avatarReset">${ic("rotate")}恢復預設頭像</button>` : ""}<button class="btn sm ghost" type="button" id="logoutBtn">${ic("logout")}登出</button></div>
       <form class="acct-email" id="pwForm" hidden><label class="sr-only" for="newPw">新密碼</label><input type="email" autocomplete="username" value="${esc(u.email || "")}" hidden><input id="newPw" type="password" required minlength="6" autocomplete="new-password" placeholder="新密碼（至少 6 個字元）"><button class="btn" type="submit">${ic("check")}儲存密碼</button></form></div>`;
   }
 
@@ -3318,10 +3378,38 @@
         toast(`寄送失敗：${err.message || err}`);
       }
     });
-    $("#pwBtn")?.addEventListener("click", () => {
+    $("#pwBtn")?.addEventListener("click", (e) => {
       const f = $("#pwForm");
       f.hidden = !f.hidden;
+      e.currentTarget.setAttribute("aria-expanded", String(!f.hidden));
       if (!f.hidden) $("#newPw", f).focus();
+    });
+    $("#avatarBtn")?.addEventListener("click", () => $("#avatarFile").click());
+    $("#avatarFile")?.addEventListener("change", async (e) => {
+      const file = e.currentTarget.files[0];
+      if (!file) return;
+      const btn = $("#avatarBtn");
+      btn.classList.add("busy");
+      btn.disabled = true;
+      try {
+        await Cloud.setAvatar(file);
+        toast("頭像已更新");
+      } catch (err) {
+        console.error(err);
+        toast(`更換失敗：${err.message || err}`);
+        btn.classList.remove("busy");
+        btn.disabled = false;
+      }
+    });
+    $("#avatarReset")?.addEventListener("click", async (e) => {
+      e.currentTarget.disabled = true;
+      try {
+        await Cloud.clearAvatar();
+        toast("已恢復預設頭像");
+      } catch (err) {
+        e.currentTarget.disabled = false;
+        toast(`操作失敗：${err.message || err}`);
+      }
     });
     $("#pwForm")?.addEventListener("submit", async (e) => {
       e.preventDefault();

@@ -900,3 +900,11 @@ a.icon-btn { text-decoration: none; }
 .linkish:hover { color: var(--violet); }
 .linkish:disabled { opacity: .5; cursor: default; }
 #pwForm { flex-basis: 100%; margin-top: 0; }
+#pwForm[hidden] { display: none; }
+.acct-av { position: relative; padding: 0; border: 0; cursor: pointer; overflow: visible; }
+.acct-av img { border-radius: 999px; }
+.acct-av-badge { position: absolute; right: -2px; bottom: -2px; width: 20px; height: 20px; border-radius: 999px; display: grid; place-items: center; background: var(--ink); color: var(--paper); box-shadow: 0 0 0 2px var(--card); }
+.acct-av-badge svg { width: 11px; height: 11px; }
+.acct-av:hover .acct-av-badge { background: var(--violet); color: var(--on-accent); }
+.acct-av:focus-visible { outline: 2px solid var(--violet); outline-offset: 2px; }
+.acct-av.busy { opacity: .5; cursor: progress; }

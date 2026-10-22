@@ -70,6 +70,34 @@ select
 from public.attempts a
 window w as (partition by a.user_id, a.subject, a.qid order by a.answered_at);
 
+-- ------------------------------------------------------------ 4. 自訂頭像（Storage）
+-- 公開 bucket：頭像網址任何人都能看；只有本人能上傳、覆蓋、刪除自己資料夾 avatars/<user id>/ 裡的檔案。
+insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_types)
+values ('avatars', 'avatars', true, 2097152, array['image/jpeg', 'image/png', 'image/webp'])
+on conflict (id) do update
+  set public = excluded.public,
+      file_size_limit = excluded.file_size_limit,
+      allowed_mime_types = excluded.allowed_mime_types;
+
+drop policy if exists "avatars: insert own" on storage.objects;
+drop policy if exists "avatars: update own" on storage.objects;
+drop policy if exists "avatars: delete own" on storage.objects;
+drop policy if exists "avatars: read own"   on storage.objects;
+create policy "avatars: insert own" on storage.objects
+  for insert to authenticated
+  with check (bucket_id = 'avatars' and (storage.foldername(name))[1] = auth.uid()::text);
+create policy "avatars: update own" on storage.objects
+  for update to authenticated
+  using (bucket_id = 'avatars' and (storage.foldername(name))[1] = auth.uid()::text)
+  with check (bucket_id = 'avatars' and (storage.foldername(name))[1] = auth.uid()::text);
+create policy "avatars: delete own" on storage.objects
+  for delete to authenticated
+  using (bucket_id = 'avatars' and (storage.foldername(name))[1] = auth.uid()::text);
+-- upsert 覆蓋舊檔時要先讀得到自己的檔案
+create policy "avatars: read own" on storage.objects
+  for select to authenticated
+  using (bucket_id = 'avatars' and (storage.foldername(name))[1] = auth.uid()::text);
+
 -- ------------------------------------------------------------ 範例查詢（不用執行，要分析時複製到 SQL Editor）
 -- 遺忘曲線：距上次幾天 → 答對率
 -- select
