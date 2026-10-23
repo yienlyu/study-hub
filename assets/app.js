@@ -560,19 +560,17 @@
         side = Math.min(img.width, img.height),
         cv = document.createElement("canvas");
       cv.width = cv.height = S;
-      cv
-        .getContext("2d")
-        .drawImage(
-          img,
-          (img.width - side) / 2,
-          (img.height - side) / 2,
-          side,
-          side,
-          0,
-          0,
-          S,
-          S,
-        );
+      cv.getContext("2d").drawImage(
+        img,
+        (img.width - side) / 2,
+        (img.height - side) / 2,
+        side,
+        side,
+        0,
+        0,
+        S,
+        S,
+      );
       const blob = await new Promise((r) => cv.toBlob(r, "image/jpeg", 0.88));
       const path = `${this.user.id}/avatar.jpg`;
       const bucket = this.sb.storage.from("avatars");
@@ -2110,7 +2108,7 @@
       id: "sudoku",
       name: "數獨",
       en: "Sudoku",
-      blurb: "經典 9×9，提示數壓到最少，只靠「唯一候選數」解不完。",
+      blurb: "經典 9×9。",
       rules:
         "每一橫列、每一直行、每個 3×3 宮都要剛好放進 1–9 各一次。填錯的數字會變紅並記一次錯誤。",
     },
@@ -2189,7 +2187,9 @@
         }, 30),
       );
     try {
-      gameWorker = new Worker(document.querySelector('script[src*="games.js"]').src);
+      gameWorker = new Worker(
+        document.querySelector('script[src*="games.js"]').src,
+      );
     } catch {
       return direct();
     }
@@ -2302,7 +2302,9 @@
         <p class="small muted">${best && Math.round(S.elapsed) <= best ? "這是你目前最快的紀錄。" : best ? `最佳紀錄 ${fmtTime(best)}。` : ""}休息夠了就回去讀書吧。</p>
         <div class="game-tools"><button class="btn primary" type="button" data-again>${ic("shuffle")}再來一盤</button><a class="btn" href="#/">回首頁</a></div>
       </div>`;
-      side.querySelector("[data-again]").addEventListener("click", () => fresh());
+      side
+        .querySelector("[data-again]")
+        .addEventListener("click", () => fresh());
     };
     const finish = () => {
       S.done = true;
@@ -2479,7 +2481,8 @@
     };
     const clearPeers = (ch, i, d) => {
       for (const j of GM.peers[i])
-        if (S.notes[j] & (1 << d)) setCell(ch, j, S.vals[j], S.notes[j] & ~(1 << d));
+        if (S.notes[j] & (1 << d))
+          setCell(ch, j, S.vals[j], S.notes[j] & ~(1 << d));
     };
     const commit = (ch, track = true) => {
       if (track && ch.length) undo.push(ch);
@@ -2518,7 +2521,7 @@
       const ch = undo.pop();
       if (!ch || S.done) return;
       for (const [i, v, n] of ch.reverse())
-        if (!S.locked[i]) (S.vals[i] = v), (S.notes[i] = n);
+        if (!S.locked[i]) ((S.vals[i] = v), (S.notes[i] = n));
       ui.save();
       paint();
     };
@@ -2584,7 +2587,13 @@
         const i = S.sel < 0 ? 40 : S.sel,
           d = MOVE[e.key],
           n = i + d;
-        if (n < 0 || n > 80 || (d === -1 && i % 9 === 0) || (d === 1 && i % 9 === 8)) return;
+        if (
+          n < 0 ||
+          n > 80 ||
+          (d === -1 && i % 9 === 0) ||
+          (d === 1 && i % 9 === 8)
+        )
+          return;
         S.sel = n;
         paint();
       } else if (["Backspace", "Delete", "0"].includes(e.key)) {
@@ -2619,7 +2628,8 @@
     board.setAttribute("aria-label", `數織 ${W}×${H} 盤面`);
     board.tabIndex = 0;
     board.style.gridTemplateColumns = `auto repeat(${W}, var(--cs))`;
-    const clue = (c) => (c.length ? c : [0]).map((n) => `<span>${n}</span>`).join("");
+    const clue = (c) =>
+      (c.length ? c : [0]).map((n) => `<span>${n}</span>`).join("");
     const edge = (n, N) => (n % 5 === 4 && n < N - 1 ? " bx" : "");
     let html = `<div class="ng-corner"></div>`;
     S.cols.forEach((c, x) => {
@@ -2652,7 +2662,8 @@
       board.style.setProperty("--cs", `${Math.max(15, Math.min(30, cs))}px`);
     };
     const runs = (idx) => NG.runsOf(idx.map((i) => (S.cells[i] === 1 ? 1 : 0)));
-    const same = (a, b) => (a.length ? a : [0]).join() === (b.length ? b : [0]).join();
+    const same = (a, b) =>
+      (a.length ? a : [0]).join() === (b.length ? b : [0]).join();
     const paint = () => {
       const err = new Set(S.err);
       cells.forEach((el, i) => {
@@ -2662,22 +2673,33 @@
         el.classList.toggle("err", err.has(i));
         el.classList.toggle("flash", i === flash);
         el.classList.toggle("cur", i === cur);
-        el.classList.toggle("hl", cur >= 0 && (row(i) === row(cur) || col(i) === col(cur)));
+        el.classList.toggle(
+          "hl",
+          cur >= 0 && (row(i) === row(cur) || col(i) === col(cur)),
+        );
       });
       for (let y = 0; y < H; y++) {
         const idx = [...Array(W)].map((_, x) => y * W + x);
         rowClues[y].classList.toggle("done", same(runs(idx), S.rows[y]));
-        rowClues[y].classList.toggle("hint", hl?.kind === "row" && hl.idx === y);
+        rowClues[y].classList.toggle(
+          "hint",
+          hl?.kind === "row" && hl.idx === y,
+        );
       }
       for (let x = 0; x < W; x++) {
         const idx = [...Array(H)].map((_, y) => y * W + x);
         colClues[x].classList.toggle("done", same(runs(idx), S.cols[x]));
-        colClues[x].classList.toggle("hint", hl?.kind === "col" && hl.idx === x);
+        colClues[x].classList.toggle(
+          "hint",
+          hl?.kind === "col" && hl.idx === x,
+        );
       }
       ui.stats();
     };
     const solved = () =>
-      S.solution.every((s, i) => (s === 1 ? S.cells[i] === 1 : S.cells[i] !== 1));
+      S.solution.every((s, i) =>
+        s === 1 ? S.cells[i] === 1 : S.cells[i] !== 1,
+      );
     const commit = (ch, track = true) => {
       if (track && ch.length) undo.push(ch);
       ui.save();
@@ -2706,7 +2728,8 @@
       const step = stroke.axis === "c" ? W : 1;
       const to = stroke.axis === "c" ? row(i) * W + c0 : r0 * W + col(i);
       for (let j = i0; ; j += to >= i0 ? step : -step) {
-        if (act === 0 ? S.cells[j] === v : S.cells[j] === 0) setCell(ch, j, act);
+        if (act === 0 ? S.cells[j] === v : S.cells[j] === 0)
+          setCell(ch, j, act);
         if (j === to) break;
       }
       cur = to;
@@ -2754,14 +2777,17 @@
       if (S.done) return;
       const wrong = [];
       S.cells.forEach((v, i) => {
-        if ((v === 1 && !S.solution[i]) || (v === 2 && S.solution[i])) wrong.push(i);
+        if ((v === 1 && !S.solution[i]) || (v === 2 && S.solution[i]))
+          wrong.push(i);
       });
       S.hints++;
       hl = null;
       if (wrong.length) {
         S.err = wrong;
         flash = -1;
-        ui.msg(`有 <b>${wrong.length}</b> 格放錯了，已用紅色標出來。改掉之後再按一次提示，就會告訴你下一步。`);
+        ui.msg(
+          `有 <b>${wrong.length}</b> 格放錯了，已用紅色標出來。改掉之後再按一次提示，就會告訴你下一步。`,
+        );
         commit([], false);
         return;
       }
@@ -2788,7 +2814,10 @@
     const setMode = (m) => {
       mode = m;
       $$(".ng-mode button", side).forEach((b) =>
-        b.setAttribute("aria-pressed", +b.dataset.mode === m ? "true" : "false"),
+        b.setAttribute(
+          "aria-pressed",
+          +b.dataset.mode === m ? "true" : "false",
+        ),
       );
     };
     const keyMark = (v) => {
@@ -2807,7 +2836,12 @@
         }
         return;
       }
-      const MOVE = { ArrowUp: [-1, 0], ArrowDown: [1, 0], ArrowLeft: [0, -1], ArrowRight: [0, 1] };
+      const MOVE = {
+        ArrowUp: [-1, 0],
+        ArrowDown: [1, 0],
+        ArrowLeft: [0, -1],
+        ArrowRight: [0, 1],
+      };
       if (MOVE[e.key]) {
         e.preventDefault();
         if (cur < 0) cur = 0;
@@ -2817,8 +2851,18 @@
           cur = y * W + x;
         }
         paint();
-      } else if (e.key === " " || e.key === "Enter" || e.key === "f" || e.key === "F") {
-        if (e.key === " " && e.target !== board && e.target.matches("button, a")) return;
+      } else if (
+        e.key === " " ||
+        e.key === "Enter" ||
+        e.key === "f" ||
+        e.key === "F"
+      ) {
+        if (
+          e.key === " " &&
+          e.target !== board &&
+          e.target.matches("button, a")
+        )
+          return;
         e.preventDefault();
         keyMark(1);
       } else if (e.key === "x" || e.key === "X") keyMark(2);
