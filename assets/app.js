@@ -1422,9 +1422,9 @@
       rs: cssVar("--rule-strong"),
       card: cssVar("--card"),
       p2: cssVar("--paper-2"),
-      v: cssVar("--violet"),
-      s: cssVar("--safranin"),
-      g: cssVar("--good"),
+      cc: cssVar("--colony-c"),
+      cw: cssVar("--colony-w"),
+      cs: cssVar("--colony-seed"),
     });
     let C = col();
     const onTheme = () => {
@@ -1506,7 +1506,7 @@
         const breathe = REDUCED ? 1 : 1 + Math.sin(t * 1.2 + c.j * 9) * 0.03;
         const r = c.r * (W / 480) * e * breathe;
         if (r <= 0.2) return;
-        const colr = c.kind === "c" ? C.v : c.kind === "w" ? C.s : C.ink3;
+        const colr = c.kind === "c" ? C.cc : c.kind === "w" ? C.cw : C.cs;
         ctx.globalAlpha = c.kind === "seed" ? 0.12 : 0.16;
         ctx.fillStyle = colr;
         ctx.beginPath();
@@ -1654,7 +1654,7 @@
         <figure class="plate-fig">
           <div class="plate-wrap"><canvas id="plate" role="img" aria-label="${hasPractice ? `你的練習菌落：已作答 ${totals.done} 題，其中 ${totals.right} 題答對、${totals.wrong} 題答錯` : "示意培養皿，開始練習後會依作答紀錄長出菌落"}"></canvas></div>
           <figcaption><span>${hasPractice ? `你的練習菌落 — 已作答 <b class="num">${totals.done}</b> 題` : ""}
-            ${hasPractice ? `<span class="plate-legend"><span><i style="background:var(--violet)"></i>答對 ${totals.right}</span><span><i style="background:var(--safranin)"></i>答錯 ${totals.wrong}</span></span>` : ""}</span></figcaption>
+            ${hasPractice ? `<span class="plate-legend"><span><i style="background:var(--colony-c)"></i>答對 ${totals.right}</span><span><i style="background:var(--colony-w)"></i>答錯 ${totals.wrong}</span></span>` : ""}</span></figcaption>
         </figure>
       </section>
 
