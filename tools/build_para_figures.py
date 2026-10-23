@@ -3,6 +3,7 @@
 
 來源（都在 slides/parasitology/）：
 - 1線蟲圖檔.pdf、2吸蟲圖檔.pdf：學科圖譜，整頁就是一張「蟲卵／蟲體＋大小形狀顏色」投影片
+- 吸蟲實驗.pdf：實驗課「吸蟲實驗」ppt 另存的 PDF（整頁）
 - Mixed ova 圖譜.pdf：原色等比蟲卵圖譜，裁成線蟲、吸蟲兩塊
 - 上課 pptx：直接取出投影片裡的 CDC 生活史圖（ppt/media）
 手繪 SVG 放在 subjects/parasitology/figures/<id>.svg，這裡只寫說明。
@@ -18,10 +19,11 @@ OUT = f"{ROOT}/figures/slides"
 W = 1400
 
 NEM, TRE, MIX = "1線蟲圖檔.pdf", "2吸蟲圖檔.pdf", "Mixed ova 圖譜.pdf"
+LAB = "吸蟲實驗.pdf"  # 實驗課「吸蟲實驗」.ppt 用 PowerPoint 另存的 PDF
 P0907 = "20260907-北醫醫學系-M2-Introduction_  STHs_ Toxocara canis_ Enterobius vermicularis.pptx"
 P0914 = "20260914-北醫醫學系-M2-Capillaria_ Strongyloides stercoralis_ Foodborne Nematodes.pptx"
 P0922 = "20250922-M2-Trichinella_ Anisakis_ Angiostrongylus cantonensis_ Filaria.pptx"
-DECK = {NEM: "線蟲圖譜（1 線蟲圖檔）", TRE: "吸蟲圖譜（2 吸蟲圖檔）", MIX: "人體常見寄生蟲蟲卵原色等比圖譜",
+DECK = {LAB: "吸蟲實驗（實驗課 slides）", NEM: "線蟲圖譜（1 線蟲圖檔）", TRE: "吸蟲圖譜（2 吸蟲圖檔）", MIX: "人體常見寄生蟲蟲卵原色等比圖譜",
         P0914: "0914 Capillaria、Strongyloides、Foodborne nematodes", P0922: "0922 Trichinella、Anisakis、A. cantonensis、Filaria"}
 
 
@@ -61,6 +63,8 @@ def slide(id, ch, title, topics, kw, cap, src, page, box=None, media=None):
     return dict(id=id, chapter=ch, title=title, topics=topics, keywords=kw, caption=cap,
                 type="slide", src=f"figures/slides/{name}.webp", deck=DECK[src], page=str(page), w=w, h=h)
 
+
+FULL = (0, 0, 1, 1)
 
 F = [
  # ---------------- 總論
@@ -155,6 +159,55 @@ F = [
        "Schistosoma haematobium egg terminal spine urine bladder Bulinus", "約 143 × 60 µm、<strong>尾端刺</strong>、在<strong>尿液</strong>找到（成蟲在膀胱靜脈叢）。中間宿主 Bulinus。", TRE, 43),
  slide("slide-sm-egg", "trematodes", "曼氏血吸蟲卵：大側刺", ["血吸蟲"],
        "Schistosoma mansoni egg large lateral spine Biomphalaria", "約 140 × 60 µm、<strong>靠近後端的大側刺</strong>；糞便檢查。中間宿主 Biomphalaria。", TRE, 48),
+ # ---------------- 吸蟲實驗（實驗課 slides，整頁）
+ slide("slide-lab-fbuski-adult", "trematodes", "薑片蟲成蟲：樹枝狀睪丸前後排", ["腸吸蟲"],
+       "Fasciolopsis buski adult acetabulum testes dendritic uterus vitellaria", "人體最大的吸蟲；腹吸盤（acetabulum）大、緊靠口吸盤；<strong>兩個樹枝狀睪丸前後排</strong>佔後半段，卵黃腺在兩側。", LAB, 3, box=FULL),
+ slide("slide-lab-metagonimus", "trematodes", "橫川異形吸蟲：腹吸盤偏右、無生殖吸盤", ["腸吸蟲"],
+       "Metagonimus yokogawai adult ventral sucker right no genital sucker testes 45 degree", "<strong>沒有生殖吸盤</strong>；腹吸盤在<strong>中線右側</strong>；兩個睪丸在蟲體後端呈 45° 弧線；卵黃腺在後 1/3 兩側。", LAB, 8, box=FULL),
+ slide("slide-lab-heterophyes", "trematodes", "異形異形吸蟲：多一個生殖吸盤", ["腸吸蟲"],
+       "Heterophyes heterophyes adult genital sucker gonotyl testes", "腹吸盤下側有一個<strong>大型生殖吸盤</strong>（共三個吸盤）；一對對稱並立的睪丸在蟲體後半。", LAB, 9, box=FULL),
+ slide("slide-lab-heterophyid-eggs", "trematodes", "異形 vs 橫川蟲卵", ["腸吸蟲"],
+       "Heterophyes Metagonimus egg comparison miracidium shoulder", "異形 23–30 × 14–17 µm、無肩峰、卵蓋對側殼厚有小棘、<strong>纖毛幼蟲明顯</strong>；橫川 28–32 × 14–18 µm、殼厚不光滑、纖毛幼蟲不明顯。", LAB, 10, box=FULL),
+ slide("slide-lab-echinostoma", "trematodes", "伊羅棘口吸蟲成蟲", ["腸吸蟲"],
+       "Echinostoma ilocanum adult testes tandem collar spines", "細長、頭端有棘；<strong>兩個圓形睪丸前後排</strong>在後半段，子宮充滿蟲卵。", LAB, 13, box=FULL),
+ slide("slide-lab-echinostoma-egg", "trematodes", "棘口吸蟲卵：像薑片蟲卵、常未成熟", ["腸吸蟲"],
+       "Echinostoma egg immature operculum", "81–154 × 53–95 µm、淡黃色、殼薄、卵蓋對側略增厚；排出時<strong>常未成熟</strong>（一個卵細胞＋許多卵黃細胞），形態接近薑片蟲卵。", LAB, 14, box=FULL),
+ slide("slide-lab-gastrodiscoides", "trematodes", "人雙口吸蟲：角錐形、後端大吸盤", ["腸吸蟲"],
+       "Gastrodiscoides hominis adult pyramidal acetabulum", "紅棕色、表皮光滑、<strong>角錐形</strong>，5–7 × 3–4 mm；後端寬大處有大型腹吸盤（acetabulum）；睪丸大、分葉、前後排；寄生<strong>大腸</strong>。", LAB, 16, box=FULL),
+ slide("slide-lab-gh-fb-eggs", "trematodes", "人雙口吸蟲卵 vs 薑片蟲卵", ["腸吸蟲"],
+       "Gastrodiscoides hominis egg Fasciolopsis buski egg comparison", "兩者都是淡黃、大型、薄殼有卵蓋；人雙口吸蟲卵較偏稜角、內容物較稀疏。", LAB, 17, box=FULL),
+ slide("slide-lab-eurytrema", "trematodes", "胰臟吸蟲成蟲：睪丸在卵巢前", ["腸吸蟲"],
+       "Eurytrema pancreaticum adult testes anterior to ovary pancreatic duct", "陸生吸蟲、寄生胰管；體中央兩個圓形睪丸、<strong>睪丸在卵巢之前</strong>，子宮佔滿後半。", LAB, 19, box=FULL),
+ slide("slide-lab-eurytrema-egg", "trematodes", "胰臟吸蟲卵：殼厚色深", ["腸吸蟲"],
+       "Eurytrema egg thick shell dark", "43–68 × 27–35 µm；陸生吸蟲卵<strong>殼厚、顏色深</strong>（抗乾燥）。", LAB, 20, box=FULL),
+ slide("slide-lab-pw-adult", "trematodes", "衛氏肺吸蟲成蟲：咖啡豆、睪丸並列", ["肺吸蟲"],
+       "Paragonimus westermani adult coffee bean ovary testes side by side", "卵圓、像<strong>咖啡豆</strong>；口吸盤與腹吸盤約等大；卵巢與子宮在腹吸盤後、<strong>兩個分葉睪丸左右並列在後 1/3</strong>。", LAB, 23, box=FULL),
+ slide("slide-lab-opisthorchiid", "trematodes", "中華肝吸蟲、泰國肝吸蟲、貓肝吸蟲成蟲", ["肝吸蟲"],
+       "Clonorchis sinensis Opisthorchis viverrini felineus adult testes", "三種後睪科肝吸蟲看<strong>睪丸</strong>：中華＝珊瑚狀（深分支）；泰國＝小花狀、深裂；貓＝大花狀、淺裂。", LAB, 29, box=FULL),
+ slide("slide-lab-dicrocoelium", "trematodes", "槍狀肝吸蟲成蟲：睪丸在卵巢前", ["肝吸蟲"],
+       "Dicrocoelium dendriticum adult lancet testes anterior ovary", "細長如<strong>槍頭（lancet）</strong>；兩個睪丸在腹吸盤後方、<strong>卵巢在睪丸之後</strong>；子宮佔滿後半。", LAB, 33, box=FULL),
+ slide("slide-lab-dicrocoelium-egg", "trematodes", "槍狀肝吸蟲卵：不對稱、殼厚、含纖毛幼蟲", ["肝吸蟲"],
+       "Dicrocoelium dendriticum egg asymmetric thick shell miracidium", "38–45 × 22–30 µm、黃褐至深黃褐色、<strong>不對稱</strong>、卵蓋傾斜、殼厚、<strong>內含纖毛幼蟲</strong>。", LAB, 34, box=FULL),
+ slide("slide-lab-fasciola-adult", "trematodes", "牛羊肝吸蟲成蟲：頭錐、樹枝狀腸支", ["肝吸蟲"],
+       "Fasciola hepatica adult cephalic cone branched ceca testes", "葉片狀、<strong>前端有頭錐（cephalic cone）</strong>；腸支與睪丸都是<strong>樹枝狀分支</strong>，佔滿蟲體。", LAB, 36, box=FULL),
+ slide("slide-lab-fb-fh-eggs", "trematodes", "薑片蟲卵 vs 牛羊肝吸蟲卵", ["腸吸蟲", "肝吸蟲"],
+       "Fasciolopsis buski egg Fasciola hepatica egg comparison", "兩者都約 130–150 µm、淡黃、卵蓋不明顯，<strong>幾乎無法區分</strong> → 要靠飲食史、旅遊史判斷。", LAB, 37, box=FULL),
+ slide("slide-lab-cercaria", "trematodes", "血吸蟲尾動幼蟲：尾巴分叉", ["血吸蟲"],
+       "Schistosoma cercaria forked tail", "尾巴末端<strong>分叉</strong> → 一定是血吸蟲尾蚴（直接鑽皮膚）；肺吸蟲尾蚴尾巴短小。", LAB, 41, box=FULL),
+ slide("slide-lab-schisto-table", "trematodes", "三種血吸蟲成蟲型態比較表", ["血吸蟲"],
+       "Schistosoma haematobium mansoni japonicum adult comparison tubercles testes ovary eggs per day lifespan", "紅箭頭是重點列：<strong>表皮結節、腸道聯合處、睪丸數目、卵巢位置、蟲卵形狀、每日產卵量</strong>。", LAB, 42, box=FULL),
+ slide("slide-lab-schisto-testes", "trematodes", "血吸蟲雄蟲睪丸數目", ["血吸蟲"],
+       "Schistosoma male testes number japonicum mansoni haematobium", "日本 6–7（平均 7，排成一列）、埃及 4–6、曼森 6–9（散佈）。", LAB, 43, box=FULL),
+ slide("slide-lab-schisto-ovary", "trematodes", "血吸蟲雌蟲卵巢位置", ["血吸蟲"],
+       "Schistosoma female ovary position", "日本＝<strong>體中部</strong>、埃及＝<strong>中線之後</strong>、曼森＝<strong>中線之前</strong>。", LAB, 44, box=FULL),
+ slide("slide-lab-sm-tubercles", "trematodes", "曼森血吸蟲：體表結節明顯", ["血吸蟲"],
+       "Schistosoma mansoni tegument tubercles prominent", "雄蟲體表<strong>結節明顯</strong>（電顯下更清楚）。", LAB, 45, box=FULL),
+ slide("slide-lab-sh-tubercles", "trematodes", "埃及血吸蟲：體表結節細小", ["血吸蟲"],
+       "Schistosoma haematobium tegument fine tubercles", "體表結節<strong>細小</strong>。", LAB, 46, box=FULL),
+ slide("slide-lab-sj-smooth", "trematodes", "日本血吸蟲：體表平滑", ["血吸蟲"],
+       "Schistosoma japonicum smooth tegument", "體表<strong>平滑、沒有結節</strong>。", LAB, 47, box=FULL),
+ slide("slide-lab-schisto-snails", "trematodes", "三種血吸蟲的中間宿主螺", ["血吸蟲"],
+       "Oncomelania hupensis Biomphalaria Bulinus snail intermediate host", "日本＝<strong>湖北釘螺 Oncomelania</strong>（尖塔形）、曼森＝<strong>雙臍扁螺 Biomphalaria</strong>（扁盤形）、埃及＝<strong>小泡螺 Bulinus</strong>。", LAB, 51, box=FULL),
  # ---------------- 實驗
  svg("egg-sizes", "nematode-lab", "常考蟲卵的相對大小（等比例示意）", ["蟲卵鑑別"],
      "egg size comparison Ascaris hookworm Trichuris Enterobius Capillaria Clonorchis Fasciola Paragonimus Schistosoma",

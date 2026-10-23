@@ -1,7 +1,7 @@
 === summary ===
 # 吸蟲（Trematodes）重點整理
 
-> ✅ 本章已由**鄭柏青**老師上課（115 年 10 月，slides：for2h-1 吸蟲總論＋腸吸蟲＋肺吸蟲、for2h-2 肝吸蟲＋血吸蟲）。以下整合百十三共筆、今年 slides、**115 共筆 week5** 與同學的「期中考吸蟲整理（簡易版）」比較大表。
+> ✅ 本章已由**鄭柏青**老師上課（115 年 10 月，slides：for2h-1 吸蟲總論＋腸吸蟲＋肺吸蟲、for2h-2 肝吸蟲＋血吸蟲；實驗課 slides「吸蟲實驗」）。以下整合百十三共筆、今年 slides、**115 共筆 week5** 與同學的「期中考吸蟲整理（簡易版）」比較大表。
 > 老師提醒：**考試特別喜歡考例外（血吸蟲）**；要知道**吃什麼會得什麼**。今年腸吸蟲的定位：**核心＝薑片蟲；鑑別群＝橫川／異形吸蟲（小、魚媒、卵易混淆）；認得就好＝棘口吸蟲**（罕見腸吸蟲移到補充教材）。
 
 ## 1. 吸蟲總論 ⭐⭐⭐
@@ -177,6 +177,91 @@
 | *S. japonicum* | 雄：**睪丸整齊一列 6–8 個在頭端**、有 gynecophoral canal；★ 雌比雄小、**卵巢在體中部**；★ IH **釘螺 *Oncomelania***（淺咖啡色） |
 | *S. haematobium* | 雄：4–5 個睪丸一列；雌：**卵巢在後 1/2**；IH **小泡螺 *Bulinus***（開口很大） |
 | ★ *S. mansoni* | 雄有 gynecophoral canal（C 形）；雌：**卵巢在前 1/2**；**看到兩隻抱在一起 → S. mansoni**；IH **雙臍扁螺 *Biomphalaria***（跟球一樣） |
+
+### 吸蟲實驗 slides（鄭柏青，實驗課）：蟲卵與成蟲鑑別 ⭐⭐
+| 蟲卵 | 大小 | 顏色、形狀 | 怎麼認 |
+|---|---|---|---|
+| **薑片蟲** *F. buski* | **130–140 × 80–85 µm**（**人體最大寄生蟲卵**） | 淡黃色、卵圓形 | **殼薄透明、卵蓋小而不明顯**；與牛羊肝吸蟲卵相似 |
+| **棘口吸蟲** *E. ilocanum* | 81–154 × 53–95 µm | 淡黃色、橢圓或卵圓 | **形態接近薑片蟲卵**；殼薄、**卵蓋對側略增厚**；排出時常未成熟 → 內含 1 個卵細胞＋許多卵黃細胞 |
+| **異形異形吸蟲** *H. heterophyes* | 23–30 × 14–17 µm | 黃棕至褐色、橢圓至卵形 | **無肩峰**；卵蓋對側殼厚、有小棘；**內含明顯的纖毛幼蟲** |
+| **橫川異形吸蟲** *M. yokogawai* | 28–32 × 14–18 µm | 黃褐至褐色、橢圓至卵形 | 卵殼厚、表面不光滑；**纖毛幼蟲不明顯** |
+| **胰臟吸蟲** *Eurytrema* | 43–68 × 27–35 µm | — | 陸生吸蟲卵，殼厚色深 |
+| **槍狀肝吸蟲** *D. dendriticum* | 38–45 × 22–30 µm | 黃褐至深黃褐色、**不對稱**卵形 | **卵蓋傾斜**、卵殼厚、**內含纖毛幼蟲** |
+| **日本血吸蟲** | 55–85 × 40–60 µm（三種中最小） | — | 小側刺 |
+| **曼森血吸蟲** | 114–180 × 44–73 µm | — | 大側刺 |
+| **埃及血吸蟲** | 112–170 × 40–70 µm | — | 大尾刺 |
+
+<div data-fig="slide-lab-heterophyid-eggs"></div>
+
+<div data-fig="slide-lab-echinostoma-egg"></div>
+
+<div data-fig="slide-lab-gh-fb-eggs"></div>
+
+<div data-fig="slide-lab-fb-fh-eggs"></div>
+
+<div data-fig="slide-lab-eurytrema-egg"></div>
+
+<div data-fig="slide-lab-dicrocoelium-egg"></div>
+
+- **橫川 vs 異形（成蟲）**：橫川**無生殖吸盤**、腹吸盤在**中線右側**（有人合稱「腹殖吸盤」）、兩個睪丸在蟲體後端呈 **45° 弧線**、卵黃腺分布在**後 1/3 兩側**；異形則在腹吸盤下側有一個**大型生殖吸盤**、兩個對稱並立的睪丸在蟲體後半。
+
+<div data-fig="slide-lab-metagonimus"></div>
+
+<div data-fig="slide-lab-heterophyes"></div>
+
+<div data-fig="slide-lab-fbuski-adult"></div>
+
+<div data-fig="slide-lab-echinostoma"></div>
+- **人雙口吸蟲** *G. hominis*：**紅棕色、表皮光滑、角錐形**，5–7 × 3–4 mm；口吸盤小而呈球狀，腹吸盤（acetabulum，「基部臼」）在後端寬大處；有明顯凹陷與背面突起；**睪丸大、分葉、前後排列**。
+
+<div data-fig="slide-lab-gastrodiscoides"></div>
+
+<div data-fig="slide-lab-eurytrema"></div>
+
+<div data-fig="slide-lab-pw-adult"></div>
+
+<div data-fig="slide-lab-opisthorchiid"></div>
+
+<div data-fig="slide-lab-dicrocoelium"></div>
+
+<div data-fig="slide-lab-fasciola-adult"></div>
+
+- **肺吸蟲的尾蚴尾巴短小**；**血吸蟲尾蚴尾巴分叉**。
+
+<div data-fig="slide-lab-cercaria"></div>
+
+**血吸蟲成蟲型態比較（slide 42；⬅ 為老師以紅箭頭標出的列）**
+| | 埃及 *S. haematobium* | 曼森 *S. mansoni* | 日本 *S. japonicum* |
+|---|---|---|---|
+| 雄蟲 長 × 寬 | 10–15 × 0.8–1 mm | 8–10 × 0.8–1 mm | 12–22 × 0.5–0.55 mm |
+| 雌蟲 長 × 寬 | 12–20 × 0.25 mm | 8–17 × 0.25 mm | 12–28 × 0.3 mm |
+| ⬅ 表皮結節 | 細小 | **明顯** | **無（平滑）** |
+| ⬅ 腸道聯合處 | 體中部 | **體前 1/3** | **體後 1/3** |
+| ⬅ 睪丸數目 | **4–5** | **6–9** | **6–8（平均 7）** |
+| ⬅ 卵巢位置 | 體中線**之後** | 體中線**之前** | 體**中部** |
+| 子宮內卵數 | 20–30 | **1–4** | **50–300** |
+| ⬅ 蟲卵形狀 | 紡錘形、**尾刺長** | 長卵圓、**側刺長而大** | 圓形、**側刺短小** |
+| 蟲卵大小 | 112–170 × 40–70 µm | 114–180 × 45–73 µm | 55–85 × 40–60 µm |
+| ⬅ 每天產卵量 | 數百 | 數百 | **3000–4000** |
+| 壽命 | 20–25 年 | 10–15 年 | 15–20 年 |
+
+- 另一張 slide（睪丸數目）寫埃及 4–6、日本 6–7（平均 7，排成一列）、曼森 6–9（散佈）；以比較表的 4–5 為準。中間宿主：日本＝湖北釘螺、曼森＝雙臍扁螺、埃及＝小泡螺。
+
+<div data-fig="slide-lab-schisto-table"></div>
+
+<div data-fig="slide-lab-schisto-testes"></div>
+
+<div data-fig="slide-lab-schisto-ovary"></div>
+
+<div data-fig="slide-lab-sm-tubercles"></div>
+
+<div data-fig="slide-lab-sh-tubercles"></div>
+
+<div data-fig="slide-lab-sj-smooth"></div>
+
+<div data-fig="slide-lab-schisto-snails"></div>
+
+- 實驗課影片：血吸蟲纖毛幼蟲孵化、*S. mansoni* 活體雌雄合抱、棘口吸蟲尾蚴。
 
 === slides ===
 # 上課 slides 重點（鄭柏青，for2h-1、for2h-2）

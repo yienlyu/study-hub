@@ -588,6 +588,391 @@
   "h": 960
  },
  {
+  "id": "slide-lab-fbuski-adult",
+  "chapter": "trematodes",
+  "title": "薑片蟲成蟲：樹枝狀睪丸前後排",
+  "topics": [
+   "腸吸蟲"
+  ],
+  "keywords": "Fasciolopsis buski adult acetabulum testes dendritic uterus vitellaria",
+  "caption": "人體最大的吸蟲；腹吸盤（acetabulum）大、緊靠口吸盤；<strong>兩個樹枝狀睪丸前後排</strong>佔後半段，卵黃腺在兩側。",
+  "type": "slide",
+  "src": "figures/slides/lab-fbuski-adult.webp",
+  "deck": "吸蟲實驗（實驗課 slides）",
+  "page": "3",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-lab-metagonimus",
+  "chapter": "trematodes",
+  "title": "橫川異形吸蟲：腹吸盤偏右、無生殖吸盤",
+  "topics": [
+   "腸吸蟲"
+  ],
+  "keywords": "Metagonimus yokogawai adult ventral sucker right no genital sucker testes 45 degree",
+  "caption": "<strong>沒有生殖吸盤</strong>；腹吸盤在<strong>中線右側</strong>；兩個睪丸在蟲體後端呈 45° 弧線；卵黃腺在後 1/3 兩側。",
+  "type": "slide",
+  "src": "figures/slides/lab-metagonimus.webp",
+  "deck": "吸蟲實驗（實驗課 slides）",
+  "page": "8",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-lab-heterophyes",
+  "chapter": "trematodes",
+  "title": "異形異形吸蟲：多一個生殖吸盤",
+  "topics": [
+   "腸吸蟲"
+  ],
+  "keywords": "Heterophyes heterophyes adult genital sucker gonotyl testes",
+  "caption": "腹吸盤下側有一個<strong>大型生殖吸盤</strong>（共三個吸盤）；一對對稱並立的睪丸在蟲體後半。",
+  "type": "slide",
+  "src": "figures/slides/lab-heterophyes.webp",
+  "deck": "吸蟲實驗（實驗課 slides）",
+  "page": "9",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-lab-heterophyid-eggs",
+  "chapter": "trematodes",
+  "title": "異形 vs 橫川蟲卵",
+  "topics": [
+   "腸吸蟲"
+  ],
+  "keywords": "Heterophyes Metagonimus egg comparison miracidium shoulder",
+  "caption": "異形 23–30 × 14–17 µm、無肩峰、卵蓋對側殼厚有小棘、<strong>纖毛幼蟲明顯</strong>；橫川 28–32 × 14–18 µm、殼厚不光滑、纖毛幼蟲不明顯。",
+  "type": "slide",
+  "src": "figures/slides/lab-heterophyid-eggs.webp",
+  "deck": "吸蟲實驗（實驗課 slides）",
+  "page": "10",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-lab-echinostoma",
+  "chapter": "trematodes",
+  "title": "伊羅棘口吸蟲成蟲",
+  "topics": [
+   "腸吸蟲"
+  ],
+  "keywords": "Echinostoma ilocanum adult testes tandem collar spines",
+  "caption": "細長、頭端有棘；<strong>兩個圓形睪丸前後排</strong>在後半段，子宮充滿蟲卵。",
+  "type": "slide",
+  "src": "figures/slides/lab-echinostoma.webp",
+  "deck": "吸蟲實驗（實驗課 slides）",
+  "page": "13",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-lab-echinostoma-egg",
+  "chapter": "trematodes",
+  "title": "棘口吸蟲卵：像薑片蟲卵、常未成熟",
+  "topics": [
+   "腸吸蟲"
+  ],
+  "keywords": "Echinostoma egg immature operculum",
+  "caption": "81–154 × 53–95 µm、淡黃色、殼薄、卵蓋對側略增厚；排出時<strong>常未成熟</strong>（一個卵細胞＋許多卵黃細胞），形態接近薑片蟲卵。",
+  "type": "slide",
+  "src": "figures/slides/lab-echinostoma-egg.webp",
+  "deck": "吸蟲實驗（實驗課 slides）",
+  "page": "14",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-lab-gastrodiscoides",
+  "chapter": "trematodes",
+  "title": "人雙口吸蟲：角錐形、後端大吸盤",
+  "topics": [
+   "腸吸蟲"
+  ],
+  "keywords": "Gastrodiscoides hominis adult pyramidal acetabulum",
+  "caption": "紅棕色、表皮光滑、<strong>角錐形</strong>，5–7 × 3–4 mm；後端寬大處有大型腹吸盤（acetabulum）；睪丸大、分葉、前後排；寄生<strong>大腸</strong>。",
+  "type": "slide",
+  "src": "figures/slides/lab-gastrodiscoides.webp",
+  "deck": "吸蟲實驗（實驗課 slides）",
+  "page": "16",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-lab-gh-fb-eggs",
+  "chapter": "trematodes",
+  "title": "人雙口吸蟲卵 vs 薑片蟲卵",
+  "topics": [
+   "腸吸蟲"
+  ],
+  "keywords": "Gastrodiscoides hominis egg Fasciolopsis buski egg comparison",
+  "caption": "兩者都是淡黃、大型、薄殼有卵蓋；人雙口吸蟲卵較偏稜角、內容物較稀疏。",
+  "type": "slide",
+  "src": "figures/slides/lab-gh-fb-eggs.webp",
+  "deck": "吸蟲實驗（實驗課 slides）",
+  "page": "17",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-lab-eurytrema",
+  "chapter": "trematodes",
+  "title": "胰臟吸蟲成蟲：睪丸在卵巢前",
+  "topics": [
+   "腸吸蟲"
+  ],
+  "keywords": "Eurytrema pancreaticum adult testes anterior to ovary pancreatic duct",
+  "caption": "陸生吸蟲、寄生胰管；體中央兩個圓形睪丸、<strong>睪丸在卵巢之前</strong>，子宮佔滿後半。",
+  "type": "slide",
+  "src": "figures/slides/lab-eurytrema.webp",
+  "deck": "吸蟲實驗（實驗課 slides）",
+  "page": "19",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-lab-eurytrema-egg",
+  "chapter": "trematodes",
+  "title": "胰臟吸蟲卵：殼厚色深",
+  "topics": [
+   "腸吸蟲"
+  ],
+  "keywords": "Eurytrema egg thick shell dark",
+  "caption": "43–68 × 27–35 µm；陸生吸蟲卵<strong>殼厚、顏色深</strong>（抗乾燥）。",
+  "type": "slide",
+  "src": "figures/slides/lab-eurytrema-egg.webp",
+  "deck": "吸蟲實驗（實驗課 slides）",
+  "page": "20",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-lab-pw-adult",
+  "chapter": "trematodes",
+  "title": "衛氏肺吸蟲成蟲：咖啡豆、睪丸並列",
+  "topics": [
+   "肺吸蟲"
+  ],
+  "keywords": "Paragonimus westermani adult coffee bean ovary testes side by side",
+  "caption": "卵圓、像<strong>咖啡豆</strong>；口吸盤與腹吸盤約等大；卵巢與子宮在腹吸盤後、<strong>兩個分葉睪丸左右並列在後 1/3</strong>。",
+  "type": "slide",
+  "src": "figures/slides/lab-pw-adult.webp",
+  "deck": "吸蟲實驗（實驗課 slides）",
+  "page": "23",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-lab-opisthorchiid",
+  "chapter": "trematodes",
+  "title": "中華肝吸蟲、泰國肝吸蟲、貓肝吸蟲成蟲",
+  "topics": [
+   "肝吸蟲"
+  ],
+  "keywords": "Clonorchis sinensis Opisthorchis viverrini felineus adult testes",
+  "caption": "三種後睪科肝吸蟲看<strong>睪丸</strong>：中華＝珊瑚狀（深分支）；泰國＝小花狀、深裂；貓＝大花狀、淺裂。",
+  "type": "slide",
+  "src": "figures/slides/lab-opisthorchiid.webp",
+  "deck": "吸蟲實驗（實驗課 slides）",
+  "page": "29",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-lab-dicrocoelium",
+  "chapter": "trematodes",
+  "title": "槍狀肝吸蟲成蟲：睪丸在卵巢前",
+  "topics": [
+   "肝吸蟲"
+  ],
+  "keywords": "Dicrocoelium dendriticum adult lancet testes anterior ovary",
+  "caption": "細長如<strong>槍頭（lancet）</strong>；兩個睪丸在腹吸盤後方、<strong>卵巢在睪丸之後</strong>；子宮佔滿後半。",
+  "type": "slide",
+  "src": "figures/slides/lab-dicrocoelium.webp",
+  "deck": "吸蟲實驗（實驗課 slides）",
+  "page": "33",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-lab-dicrocoelium-egg",
+  "chapter": "trematodes",
+  "title": "槍狀肝吸蟲卵：不對稱、殼厚、含纖毛幼蟲",
+  "topics": [
+   "肝吸蟲"
+  ],
+  "keywords": "Dicrocoelium dendriticum egg asymmetric thick shell miracidium",
+  "caption": "38–45 × 22–30 µm、黃褐至深黃褐色、<strong>不對稱</strong>、卵蓋傾斜、殼厚、<strong>內含纖毛幼蟲</strong>。",
+  "type": "slide",
+  "src": "figures/slides/lab-dicrocoelium-egg.webp",
+  "deck": "吸蟲實驗（實驗課 slides）",
+  "page": "34",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-lab-fasciola-adult",
+  "chapter": "trematodes",
+  "title": "牛羊肝吸蟲成蟲：頭錐、樹枝狀腸支",
+  "topics": [
+   "肝吸蟲"
+  ],
+  "keywords": "Fasciola hepatica adult cephalic cone branched ceca testes",
+  "caption": "葉片狀、<strong>前端有頭錐（cephalic cone）</strong>；腸支與睪丸都是<strong>樹枝狀分支</strong>，佔滿蟲體。",
+  "type": "slide",
+  "src": "figures/slides/lab-fasciola-adult.webp",
+  "deck": "吸蟲實驗（實驗課 slides）",
+  "page": "36",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-lab-fb-fh-eggs",
+  "chapter": "trematodes",
+  "title": "薑片蟲卵 vs 牛羊肝吸蟲卵",
+  "topics": [
+   "腸吸蟲",
+   "肝吸蟲"
+  ],
+  "keywords": "Fasciolopsis buski egg Fasciola hepatica egg comparison",
+  "caption": "兩者都約 130–150 µm、淡黃、卵蓋不明顯，<strong>幾乎無法區分</strong> → 要靠飲食史、旅遊史判斷。",
+  "type": "slide",
+  "src": "figures/slides/lab-fb-fh-eggs.webp",
+  "deck": "吸蟲實驗（實驗課 slides）",
+  "page": "37",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-lab-cercaria",
+  "chapter": "trematodes",
+  "title": "血吸蟲尾動幼蟲：尾巴分叉",
+  "topics": [
+   "血吸蟲"
+  ],
+  "keywords": "Schistosoma cercaria forked tail",
+  "caption": "尾巴末端<strong>分叉</strong> → 一定是血吸蟲尾蚴（直接鑽皮膚）；肺吸蟲尾蚴尾巴短小。",
+  "type": "slide",
+  "src": "figures/slides/lab-cercaria.webp",
+  "deck": "吸蟲實驗（實驗課 slides）",
+  "page": "41",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-lab-schisto-table",
+  "chapter": "trematodes",
+  "title": "三種血吸蟲成蟲型態比較表",
+  "topics": [
+   "血吸蟲"
+  ],
+  "keywords": "Schistosoma haematobium mansoni japonicum adult comparison tubercles testes ovary eggs per day lifespan",
+  "caption": "紅箭頭是重點列：<strong>表皮結節、腸道聯合處、睪丸數目、卵巢位置、蟲卵形狀、每日產卵量</strong>。",
+  "type": "slide",
+  "src": "figures/slides/lab-schisto-table.webp",
+  "deck": "吸蟲實驗（實驗課 slides）",
+  "page": "42",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-lab-schisto-testes",
+  "chapter": "trematodes",
+  "title": "血吸蟲雄蟲睪丸數目",
+  "topics": [
+   "血吸蟲"
+  ],
+  "keywords": "Schistosoma male testes number japonicum mansoni haematobium",
+  "caption": "日本 6–7（平均 7，排成一列）、埃及 4–6、曼森 6–9（散佈）。",
+  "type": "slide",
+  "src": "figures/slides/lab-schisto-testes.webp",
+  "deck": "吸蟲實驗（實驗課 slides）",
+  "page": "43",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-lab-schisto-ovary",
+  "chapter": "trematodes",
+  "title": "血吸蟲雌蟲卵巢位置",
+  "topics": [
+   "血吸蟲"
+  ],
+  "keywords": "Schistosoma female ovary position",
+  "caption": "日本＝<strong>體中部</strong>、埃及＝<strong>中線之後</strong>、曼森＝<strong>中線之前</strong>。",
+  "type": "slide",
+  "src": "figures/slides/lab-schisto-ovary.webp",
+  "deck": "吸蟲實驗（實驗課 slides）",
+  "page": "44",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-lab-sm-tubercles",
+  "chapter": "trematodes",
+  "title": "曼森血吸蟲：體表結節明顯",
+  "topics": [
+   "血吸蟲"
+  ],
+  "keywords": "Schistosoma mansoni tegument tubercles prominent",
+  "caption": "雄蟲體表<strong>結節明顯</strong>（電顯下更清楚）。",
+  "type": "slide",
+  "src": "figures/slides/lab-sm-tubercles.webp",
+  "deck": "吸蟲實驗（實驗課 slides）",
+  "page": "45",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-lab-sh-tubercles",
+  "chapter": "trematodes",
+  "title": "埃及血吸蟲：體表結節細小",
+  "topics": [
+   "血吸蟲"
+  ],
+  "keywords": "Schistosoma haematobium tegument fine tubercles",
+  "caption": "體表結節<strong>細小</strong>。",
+  "type": "slide",
+  "src": "figures/slides/lab-sh-tubercles.webp",
+  "deck": "吸蟲實驗（實驗課 slides）",
+  "page": "46",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-lab-sj-smooth",
+  "chapter": "trematodes",
+  "title": "日本血吸蟲：體表平滑",
+  "topics": [
+   "血吸蟲"
+  ],
+  "keywords": "Schistosoma japonicum smooth tegument",
+  "caption": "體表<strong>平滑、沒有結節</strong>。",
+  "type": "slide",
+  "src": "figures/slides/lab-sj-smooth.webp",
+  "deck": "吸蟲實驗（實驗課 slides）",
+  "page": "47",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-lab-schisto-snails",
+  "chapter": "trematodes",
+  "title": "三種血吸蟲的中間宿主螺",
+  "topics": [
+   "血吸蟲"
+  ],
+  "keywords": "Oncomelania hupensis Biomphalaria Bulinus snail intermediate host",
+  "caption": "日本＝<strong>湖北釘螺 Oncomelania</strong>（尖塔形）、曼森＝<strong>雙臍扁螺 Biomphalaria</strong>（扁盤形）、埃及＝<strong>小泡螺 Bulinus</strong>。",
+  "type": "slide",
+  "src": "figures/slides/lab-schisto-snails.webp",
+  "deck": "吸蟲實驗（實驗課 slides）",
+  "page": "51",
+  "w": 1400,
+  "h": 1050
+ },
+ {
   "id": "egg-sizes",
   "chapter": "nematode-lab",
   "title": "常考蟲卵的相對大小（等比例示意）",
