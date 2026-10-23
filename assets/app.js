@@ -2393,7 +2393,7 @@
       return `<div class="wrap"><div class="quiz">
         <div class="quiz-top">
           <a class="btn ghost sm" href="#/s/${sid}/practice" aria-label="結束練習">${ic("x")}<span class="hide-s">結束</span></a>
-          <span class="prog"><b>${S.i + 1}</b> / ${pool.length}</span>
+          <span class="quiz-nav">${pool.length > 1 ? `<button class="btn sm ghost" type="button" id="prevTop" aria-label="上一題"${S.i > 0 ? "" : " disabled"}>${ic("arrowL")}</button>` : ""}<span class="prog"><b>${S.i + 1}</b> / ${pool.length}</span>${pool.length > 1 ? `<button class="btn sm ghost" type="button" id="nextTop" aria-label="${S.i === pool.length - 1 ? "看結果" : "下一題"}">${ic("arrowR")}</button>` : ""}</span>
           <div class="quiz-stats">
             <span title="答對" style="color:var(--good)">${ic("check")}<b class="num">${c.c}</b></span>
             <span title="答錯" style="color:var(--bad)">${ic("x")}<b class="num">${c.w}</b></span>
@@ -2548,6 +2548,8 @@
       );
       $("#next").addEventListener("click", () => go(S.i + 1));
       $("#prev")?.addEventListener("click", () => go(S.i - 1));
+      $("#nextTop")?.addEventListener("click", () => go(S.i + 1));
+      $("#prevTop")?.addEventListener("click", () => go(S.i - 1));
       $("#star").addEventListener("click", (e) => {
         const on = toggleStar(sid, pool[S.i].id);
         const b = e.currentTarget;
