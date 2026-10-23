@@ -919,3 +919,118 @@ a.icon-btn { text-decoration: none; }
 .acct-av:hover .acct-av-badge { background: var(--violet); color: var(--on-accent); }
 .acct-av:focus-visible { outline: 2px solid var(--violet); outline-offset: 2px; }
 .acct-av.busy { opacity: .5; cursor: progress; }
+
+/* ------------------------------------------------------------ 小遊戲 */
+.game-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.game-card { padding: 22px; display: flex; flex-direction: column; gap: 6px; color: var(--ink); transition: transform .2s var(--ease), box-shadow .2s, border-color .2s; }
+.game-card:hover { text-decoration: none; transform: translateY(-3px); box-shadow: var(--shadow-2); border-color: var(--rule-strong); }
+.game-art { width: 64px; height: 64px; color: var(--ink); margin-bottom: 10px; }
+.game-art svg { width: 100%; height: 100%; }
+.game-card h3 { font-family: var(--f-serif); font-weight: 400; font-size: 1.8rem; line-height: 1.15; margin: 2px 0 0; }
+.game-card p { margin: 0; color: var(--ink-3); font-size: .9rem; }
+.game-card-meta { margin-top: auto; padding-top: 14px; display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+.game-card .go { margin-left: auto; font-size: .86rem; font-weight: 600; color: var(--violet); display: inline-flex; gap: 6px; align-items: center; }
+.game-card .go svg { width: 15px; height: 15px; transition: transform .2s var(--ease); }
+.game-card:hover .go svg { transform: translateX(3px); }
+.game-note { display: flex; gap: 8px; align-items: flex-start; color: var(--ink-2); margin: 16px 0 0; }
+.game-note svg { width: 17px; height: 17px; margin-top: 3px; color: var(--violet); flex: none; }
+@media (max-width: 860px) { .game-cards { grid-template-columns: 1fr; } .game-card { display: grid; grid-template-columns: 56px minmax(0, 1fr); column-gap: 16px; } .game-card > :not(.game-art) { grid-column: 2; } .game-art { grid-row: 1 / span 4; width: 56px; height: 56px; } }
+
+.game-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px 32px; flex-wrap: wrap; padding-top: 14px; }
+.game-stats { display: flex; gap: clamp(16px, 3vw, 32px); align-items: flex-end; flex-wrap: wrap; }
+.game-stats .fact b { font-size: clamp(1.4rem, 2.4vw, 1.9rem); }
+.game-layout { display: grid; grid-template-columns: minmax(0, 560px) minmax(260px, 340px); gap: clamp(20px, 4vw, 48px); margin-top: 28px; align-items: start; }
+.game-board-wrap { min-width: 0; }
+.game-side { display: grid; gap: 14px; align-content: start; }
+.game-msg { font-size: .9rem; color: var(--ink-2); background: var(--violet-soft); border-radius: var(--r-m); padding: 12px 14px; line-height: 1.6; }
+.game-msg b { color: var(--ink); }
+.game-tools { display: flex; gap: 8px; flex-wrap: wrap; }
+.game-tools .btn { flex: 1 1 auto; justify-content: center; }
+.game-tools .btn.on { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.game-keys { margin: 0; line-height: 1.9; }
+.game-rules { margin-top: 28px; max-width: 760px; border-top: 1px solid var(--rule); padding-top: 14px; }
+.game-rules summary { cursor: pointer; font-weight: 600; display: inline-flex; gap: 8px; align-items: center; }
+.game-rules p { color: var(--ink-2); margin: 10px 0 0; }
+.game-loading { min-height: 320px; display: grid; place-content: center; text-align: center; }
+.game-loading .boot { padding: 0 0 12px; }
+.game-win { padding: 22px; display: grid; gap: 10px; }
+.game-win .display { margin: 0; }
+.game-win-facts { display: flex; gap: 24px; }
+.game-win p { margin: 0; }
+@media (max-width: 900px) { .game-layout { grid-template-columns: minmax(0, 1fr); } .game-board-wrap { max-width: 560px; width: 100%; margin: 0 auto; } }
+
+/* 數獨 / 殺手數獨 */
+.sd-board { container-type: inline-size; display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); aspect-ratio: 1; width: 100%; border: 2px solid var(--ink); border-radius: 6px; overflow: hidden; background: var(--card); user-select: none; -webkit-user-select: none; }
+.sd-cell { position: relative; border: 0; border-right: 1px solid var(--rule); border-bottom: 1px solid var(--rule); background: transparent; padding: 0; cursor: pointer; color: var(--violet-ink); display: grid; place-items: center; min-width: 0; -webkit-tap-highlight-color: transparent; }
+.sd-cell:nth-child(9n) { border-right: 0; }
+.sd-cell:nth-child(n+73) { border-bottom: 0; }
+.sd-cell.bx-r { border-right: 2px solid var(--ink-2); }
+.sd-cell.bx-b { border-bottom: 2px solid var(--ink-2); }
+.sd-cell.peer { background: color-mix(in srgb, var(--paper-2) 75%, transparent); }
+.sd-cell.same { background: color-mix(in srgb, var(--violet) 16%, var(--card)); }
+.sd-cell.sel { background: color-mix(in srgb, var(--violet) 28%, var(--card)); }
+.sd-cell.given { color: var(--ink); }
+.sd-cell.hinted { color: var(--good); }
+.sd-cell.err { color: var(--bad); }
+.sd-cell.err .v { text-decoration: underline wavy color-mix(in srgb, var(--bad) 60%, transparent); text-underline-offset: .12em; text-decoration-thickness: 1px; }
+.sd-cell.flash { animation: sdflash 1.2s var(--ease); }
+@keyframes sdflash { 0%, 40% { background: color-mix(in srgb, var(--good) 30%, var(--card)); } }
+.sd-in { position: relative; z-index: 1; width: 100%; height: 100%; display: grid; place-items: center; }
+.sd-cell .v { font-family: var(--f-sans); font-size: 6.4cqi; font-weight: 500; line-height: 1; }
+.sd-cell.given .v { font-weight: 650; }
+.sd-cell .nt { display: grid; grid-template-columns: repeat(3, 1fr); width: 100%; height: 100%; padding: 1.5cqi 1cqi 1cqi; }
+.sd-cell .nt i { font-style: normal; font-size: 2.5cqi; line-height: 1; color: var(--ink-3); display: grid; place-items: center; font-variant-numeric: tabular-nums; }
+.sd-board.killer .sd-cell .nt { padding-top: 2.6cqi; }
+.cage { position: absolute; inset: -1px; pointer-events: none; border: 0 dashed color-mix(in srgb, var(--ink) 55%, transparent); }
+.cage.t { top: 3px; border-top-width: 1.2px; }
+.cage.r { right: 3px; border-right-width: 1.2px; }
+.cage.b { bottom: 3px; border-bottom-width: 1.2px; }
+.cage.l { left: 3px; border-left-width: 1.2px; }
+.cg-sum { position: absolute; top: 1px; left: 2px; z-index: 2; font-family: var(--f-mono); font-size: max(8px, 2.1cqi); line-height: 1; padding: 1px 1.5px; color: var(--ink-2); background: var(--card); border-radius: 2px; pointer-events: none; }
+.sd-cell.peer .cg-sum, .sd-cell.same .cg-sum, .sd-cell.sel .cg-sum { background: transparent; }
+.sd-board.solved { border-color: var(--good); }
+.sd-board.solved .sd-cell { cursor: default; color: var(--ink); }
+.sd-pad { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.sd-key { position: relative; height: 54px; border-radius: var(--r-m); border: 1px solid var(--rule); background: var(--card); cursor: pointer; display: grid; place-items: center; transition: border-color .15s, box-shadow .15s, transform .1s; }
+.sd-key:hover { border-color: var(--rule-strong); box-shadow: var(--shadow-1); }
+.sd-key:active { transform: translateY(1px); }
+.sd-key b { font-size: 1.35rem; font-weight: 600; color: var(--violet-ink); }
+.sd-key small { position: absolute; top: 4px; right: 7px; font-size: .66rem; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.sd-key:disabled { opacity: .3; cursor: default; box-shadow: none; }
+@media (max-width: 900px) {
+  .sd-pad { grid-template-columns: repeat(9, minmax(0, 1fr)); gap: 4px; }
+  .sd-key { height: 50px; border-radius: 10px; }
+  .sd-key small { top: 2px; right: 4px; font-size: .6rem; }
+}
+
+/* 數織 */
+.ng-board { --cs: 24px; display: grid; width: max-content; max-width: 100%; margin: 0 auto; user-select: none; -webkit-user-select: none; outline: none; font-variant-numeric: tabular-nums; }
+.ng-board:focus-visible { outline: 2px solid var(--violet); outline-offset: 6px; border-radius: 4px; }
+.ng-corner { border-right: 2px solid var(--ink); border-bottom: 2px solid var(--ink); }
+.ng-clue { display: flex; color: var(--ink-2); font-size: calc(var(--cs) * .5); line-height: 1.15; transition: color .2s, background .2s; }
+.ng-clue.col { flex-direction: column; justify-content: flex-end; align-items: center; padding-bottom: 4px; gap: 1px; border-bottom: 2px solid var(--ink); }
+.ng-clue.row { justify-content: flex-end; align-items: center; gap: .45em; padding: 0 6px 0 4px; border-right: 2px solid var(--ink); }
+.ng-clue.done { color: color-mix(in srgb, var(--ink-3) 55%, transparent); }
+.ng-clue.hint { color: var(--violet-ink); background: var(--violet-soft); font-weight: 650; }
+.ng-clue.col.bx { box-shadow: inset -1px 0 0 var(--ink-3); }
+.ng-clue.row.bx { box-shadow: inset 0 -1px 0 var(--ink-3); }
+.ng-cell { width: var(--cs); height: var(--cs); background: var(--card); border-right: 1px solid var(--rule); border-bottom: 1px solid var(--rule); cursor: pointer; position: relative; display: grid; place-items: center; touch-action: none; }
+.ng-cell.bx-r { border-right: 1.5px solid var(--ink-3); }
+.ng-cell.bx-b { border-bottom: 1.5px solid var(--ink-3); }
+.ng-cell.hl { background: color-mix(in srgb, var(--violet) 7%, var(--card)); }
+.ng-cell.f { background: var(--ink); }
+.ng-cell.x::after { content: ""; width: 46%; height: 46%; background: linear-gradient(45deg, transparent 44%, var(--ink-3) 44% 56%, transparent 56%), linear-gradient(-45deg, transparent 44%, var(--ink-3) 44% 56%, transparent 56%); }
+.ng-cell.cur { box-shadow: inset 0 0 0 2px var(--violet); }
+.ng-cell.err { box-shadow: inset 0 0 0 2px var(--bad); }
+.ng-cell.err.f { background: var(--bad); }
+.ng-cell.flash { animation: ngflash 1.2s var(--ease); }
+@keyframes ngflash { 0%, 40% { box-shadow: inset 0 0 0 3px var(--good); } }
+.ng-board.solved .ng-cell { cursor: default; border-color: transparent; }
+.ng-board.solved .ng-cell.f { background: var(--violet); }
+.ng-board.solved .ng-cell.x::after { opacity: 0; }
+.ng-mode { width: 100%; }
+.ng-mode button { flex: 1; justify-content: center; gap: 8px; }
+.ng-sw { width: 13px; height: 13px; display: inline-block; border: 1px solid var(--ink-3); border-radius: 2px; }
+.ng-sw.f { background: var(--ink); border-color: var(--ink); }
+.ng-sw.x { background: linear-gradient(45deg, transparent 42%, var(--ink-3) 42% 58%, transparent 58%), linear-gradient(-45deg, transparent 42%, var(--ink-3) 42% 58%, transparent 58%); }
+@media (prefers-reduced-motion: reduce) { .sd-cell.flash, .ng-cell.flash { animation: none; } }

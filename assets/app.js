@@ -10,6 +10,7 @@
  *   #/s/:sid/sheet[/figs]            速記表 / 觀念圖庫
  *   #/report?...                     回報 / 回饋
  *   #/me                             學習軌跡 / 登入
+ *   #/play[/:game]                   小遊戲（sudoku | killer | nonogram）
  */
 (() => {
   "use strict";
@@ -942,7 +943,7 @@
       const s = DB.subjects[sid];
       nav.innerHTML = `<a href="#/">所有科目</a><a href="#/s/${sid}"${cur("subject")}>${esc(s?.meta.short || "總覽")}總覽</a><a href="#/s/${sid}/practice"${cur("practice")}>練習區</a><a href="#/s/${sid}/analysis"${cur("analysis")}>考題分析</a><a href="#/s/${sid}/sheet"${cur("sheet")}>速記・圖解</a><a href="#/report?sid=${sid}"${cur("report")}>回報 / 回饋</a>`;
     } else {
-      nav.innerHTML = `<a href="#/"${cur("home")}>所有科目</a><a href="#/practice"${cur("practice")}>練習區</a><a href="#/me"${cur("me")}>學習軌跡</a><a href="#/report"${cur("report")}>回報 / 回饋</a>`;
+      nav.innerHTML = `<a href="#/"${cur("home")}>所有科目</a><a href="#/practice"${cur("practice")}>練習區</a><a href="#/me"${cur("me")}>學習軌跡</a><a href="#/play"${cur("play")}>小遊戲</a><a href="#/report"${cur("report")}>回報 / 回饋</a>`;
     }
     const tb = $("#tabbar");
     const T = (href, icon, label, k) =>
@@ -1026,6 +1027,9 @@
       if (seg[0] === "report") return await pageReport(q);
       if (seg[0] === "me") return await pageMe();
       if (seg[0] === "practice") return await pagePracticePick();
+      if (seg[0] === "play" && !seg[1]) return await pageGames();
+      if (seg[0] === "play" && GAMES.some((g) => g.id === seg[1]))
+        return await pageGame(seg[1]);
       if (seg[0] === "s" && seg[1]) {
         const sid = seg[1];
         if (seg.length === 2) return await pageSubject(sid);
@@ -1671,6 +1675,12 @@
           <div class="step"><div class="mono">03</div><h3>考點分析</h3><p>哪些考點最常考、用什麼方式考，一眼看出優先順序。</p></div>
           <div class="step"><div class="mono">04</div><h3>練習</h3><p>考古題、課堂題、模擬新題，即時詳解與錯題本。</p></div>
         </div>
+      </section>
+
+      <section class="wrap section">
+        <div class="section-head"><div><div class="eyebrow">03 — 休息一下</div><h2 class="display h-m" style="margin-top:8px">讀累了？來玩小遊戲</h2></div><a class="btn sm ghost" href="#/play">全部遊戲${ic("arrowR")}</a></div>
+        ${gameCards()}
+        ${gameHintNote}
       </section>`,
       () => {
         const cv = $("#plate");
@@ -2094,6 +2104,757 @@
   }
 
   // 練習區入口：先選科目
+  // ------------------------------------------------------------ pages: 小遊戲（出題邏輯在 games.js）
+  const GAMES = [
+    {
+      id: "sudoku",
+      name: "數獨",
+      en: "Sudoku",
+      blurb: "經典 9×9，提示數壓到最少，只靠「唯一候選數」解不完。",
+      rules:
+        "每一橫列、每一直行、每個 3×3 宮都要剛好放進 1–9 各一次。填錯的數字會變紅並記一次錯誤。",
+    },
+    {
+      id: "killer",
+      name: "殺手數獨",
+      en: "Killer Sudoku",
+      blurb: "盤面一個數字都不給，只有虛線籠子和總和。",
+      rules:
+        "規則同數獨；另外每個虛線籠子裡的數字加起來要等於左上角的總和，籠子裡的數字也不能重複。小技巧：任何一橫列、一直行、一宮加起來都是 45。",
+    },
+    {
+      id: "nonogram",
+      name: "數織",
+      en: "Nonogram",
+      blurb: "15×15 的方格，照著每一行的數字線索畫出圖案。",
+      rules:
+        "格子外的數字代表那一橫列（由左到右）或那一直行（由上到下）依序有幾段連續塗黑的格子，每段之間至少隔一格空白。每一盤都只靠逐行推理就能解完，不用猜。",
+    },
+  ];
+  const GAME_ART = {
+    sudoku: `<svg viewBox="0 0 60 60"><rect x="1" y="1" width="58" height="58" rx="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20.3 1v58M39.7 1v58M1 20.3h58M1 39.7h58" stroke="currentColor" stroke-width="1" opacity=".35"/><g font-family="var(--f-serif)" font-size="13" text-anchor="middle" fill="currentColor"><text x="10.7" y="15">5</text><text x="49.3" y="15">3</text><text x="30" y="34.5" fill="var(--violet)">7</text><text x="10.7" y="54">1</text><text x="49.3" y="54" fill="var(--violet)">9</text></g></svg>`,
+    killer: `<svg viewBox="0 0 60 60"><rect x="1" y="1" width="58" height="58" rx="4" fill="none" stroke="currentColor" stroke-width="2"/><g fill="none" stroke="currentColor" stroke-width="1.1" stroke-dasharray="2.5 2" opacity=".75"><path d="M5 5h31v12H17v14H5z"/><path d="M40 5h15v31H40z"/><path d="M21 21h15v15H21zM5 35h12v20H5z"/><path d="M21 40h34v15H21z"/></g><g font-family="var(--f-mono)" font-size="5.5" fill="var(--violet)"><text x="7" y="11">17</text><text x="42" y="11">9</text><text x="23" y="27">6</text><text x="7" y="41">11</text><text x="23" y="46">20</text></g></svg>`,
+    nonogram: `<svg viewBox="0 0 60 60"><rect x="1" y="1" width="58" height="58" rx="4" fill="none" stroke="currentColor" stroke-width="2"/><g fill="currentColor"><rect x="13" y="8" width="8" height="8"/><rect x="39" y="8" width="8" height="8"/><rect x="8" y="16" width="44" height="8" fill="var(--violet)"/><rect x="8" y="24" width="44" height="8" fill="var(--violet)"/><rect x="13" y="32" width="34" height="8"/><rect x="21" y="40" width="18" height="6"/><rect x="26" y="46" width="8" height="6"/></g></svg>`,
+  };
+  const gameKey = (id) => `sh:game:${id}`;
+  const gameCards = () =>
+    `<div class="game-cards">${GAMES.map((g) => {
+      const s = store.get(gameKey(g.id), null),
+        best = store.get("sh:game:best", {})[g.id];
+      const meta = [
+        s && !s.done
+          ? `<span class="pill violet"><span class="dot"></span>進行中 ${fmtTime(s.elapsed)}</span>`
+          : "",
+        best ? `<span class="pill line">最佳 ${fmtTime(best)}</span>` : "",
+      ].join("");
+      return `<a class="card game-card" href="#/play/${g.id}">
+        <div class="game-art" aria-hidden="true">${GAME_ART[g.id]}</div>
+        <div class="eyebrow"><b>${g.en}</b> · Expert</div>
+        <h3>${g.name}</h3>
+        <p>${g.blurb}</p>
+        <div class="game-card-meta">${meta}<span class="go">${s && !s.done ? "繼續玩" : "開始"} ${ic("arrowR")}</span></div>
+      </a>`;
+    }).join("")}</div>`;
+  const gameHintNote = `<p class="game-note small">${ic("help")}<span>三種都只有 <b>Expert</b> 難度。卡關時按「提示」，會告訴你下一步可以從哪一格推起；數織的提示還會先幫你找出放錯的格子。</span></p>`;
+
+  async function pageGames() {
+    setChrome(null, "play");
+    render(`
+      <div class="wrap">
+        <header style="padding-top:28px">
+          <div class="eyebrow">Take a break</div>
+          <h1 class="display h-l" style="margin-top:12px">讀累了？來玩小遊戲</h1>
+          <p class="lede">三種邏輯謎題，每盤都是隨機產生、保證唯一解。進度自動存在這台裝置，下次回來可以接著玩。</p>
+        </header>
+        <div class="section" style="padding-top:32px">${gameCards()}${gameHintNote}</div>
+      </div>`);
+  }
+
+  // 出題放在 Web Worker，殺手數獨要算好一陣子也不會卡住畫面；Worker 開不起來（例如 file://）就直接算
+  let gameWorker = null;
+  const stopGameWorker = () => {
+    gameWorker?.terminate();
+    gameWorker = null;
+  };
+  function generateGame(id) {
+    stopGameWorker();
+    const direct = () =>
+      new Promise((res, rej) =>
+        setTimeout(() => {
+          try {
+            res(window.SH_GAMES[id].generate());
+          } catch (e) {
+            rej(e);
+          }
+        }, 30),
+      );
+    try {
+      gameWorker = new Worker(document.querySelector('script[src*="games.js"]').src);
+    } catch {
+      return direct();
+    }
+    const w = gameWorker;
+    return new Promise((res, rej) => {
+      w.onmessage = (e) => {
+        stopGameWorker();
+        e.data.ok ? res(e.data.game) : rej(new Error(e.data.error));
+      };
+      w.onerror = (e) => {
+        e.preventDefault();
+        stopGameWorker();
+        direct().then(res, rej);
+      };
+      w.postMessage(id);
+    });
+  }
+
+  function newGameState(id, g) {
+    const base = { hints: 0, elapsed: 0, done: false };
+    if (id === "nonogram")
+      return { ...g, ...base, cells: Array(g.W * g.H).fill(0), err: [] };
+    const puzzle = g.puzzle || Array(81).fill(0);
+    return {
+      ...base,
+      puzzle,
+      solution: g.solution,
+      cages: g.cages || null,
+      vals: puzzle.slice(),
+      notes: Array(81).fill(0),
+      locked: Array(81).fill(0),
+      mistakes: 0,
+      sel: -1,
+      notesMode: false,
+    };
+  }
+
+  async function pageGame(id) {
+    const meta = GAMES.find((g) => g.id === id);
+    setChrome(null, "play");
+    const sudokuLike = id !== "nonogram";
+    render(`
+      <div class="wrap">
+        <nav class="crumbs" aria-label="路徑"><a href="#/play">小遊戲</a><span class="sep">/</span><span>${meta.name}</span></nav>
+        <header class="game-head">
+          <div>
+            <div class="eyebrow"><b>${meta.en}</b> · Expert</div>
+            <h1 class="display h-l" style="margin-top:12px">${meta.name}</h1>
+          </div>
+          <div class="game-stats">
+            <div class="fact"><b class="num" id="gTime">0:00</b><span>時間</span></div>
+            <div class="fact"><b class="num" id="gHints">0</b><span>提示</span></div>
+            ${sudokuLike ? `<div class="fact"><b class="num" id="gMiss">0</b><span>錯誤</span></div>` : ""}
+            <button class="btn sm" type="button" id="gNew">${ic("shuffle")}新的一盤</button>
+          </div>
+        </header>
+        <div class="game-layout">
+          <div class="game-board-wrap"><div id="gBoard"></div></div>
+          <aside class="game-side" id="gSide"></aside>
+        </div>
+        <details class="game-rules"><summary>${ic("help")}玩法</summary><p>${meta.rules}</p></details>
+      </div>`);
+
+    const board = $("#gBoard"),
+      side = $("#gSide"),
+      newBtn = $("#gNew");
+    let S = store.get(gameKey(id), null);
+    let alive = true,
+      dispose = null,
+      last = 0,
+      ticks = 0;
+    const save = () => S && store.set(gameKey(id), S);
+    const tick = () => {
+      const now = performance.now();
+      if (S && !S.done && last && !document.hidden) S.elapsed += now - last;
+      last = document.hidden ? 0 : now;
+      $("#gTime").textContent = fmtTime(S?.elapsed || 0);
+      if (++ticks % 10 === 0) save();
+    };
+    const timer = setInterval(tick, 500);
+    const onVis = () => {
+      tick();
+      save();
+    };
+    document.addEventListener("visibilitychange", onVis);
+    onLeave(() => {
+      alive = false;
+      clearInterval(timer);
+      document.removeEventListener("visibilitychange", onVis);
+      tick();
+      save();
+      dispose?.();
+      stopGameWorker();
+    });
+
+    const stats = () => {
+      $("#gHints").textContent = S.hints;
+      if (sudokuLike) $("#gMiss").textContent = S.mistakes;
+    };
+    const winPanel = () => {
+      const best = store.get("sh:game:best", {})[id];
+      side.innerHTML = `<div class="card game-win">
+        <div class="eyebrow">Solved</div>
+        <h2 class="display h-m">完成！</h2>
+        <div class="game-win-facts">
+          <div class="fact"><b class="num">${fmtTime(S.elapsed)}</b><span>用時</span></div>
+          <div class="fact"><b class="num">${S.hints}</b><span>提示</span></div>
+          ${sudokuLike ? `<div class="fact"><b class="num">${S.mistakes}</b><span>錯誤</span></div>` : ""}
+        </div>
+        <p class="small muted">${best && Math.round(S.elapsed) <= best ? "這是你目前最快的紀錄。" : best ? `最佳紀錄 ${fmtTime(best)}。` : ""}休息夠了就回去讀書吧。</p>
+        <div class="game-tools"><button class="btn primary" type="button" data-again>${ic("shuffle")}再來一盤</button><a class="btn" href="#/">回首頁</a></div>
+      </div>`;
+      side.querySelector("[data-again]").addEventListener("click", () => fresh());
+    };
+    const finish = () => {
+      S.done = true;
+      S.sel = -1;
+      tick();
+      save();
+      const best = store.get("sh:game:best", {});
+      if (!best[id] || S.elapsed < best[id]) {
+        best[id] = Math.round(S.elapsed);
+        store.set("sh:game:best", best);
+      }
+      board.classList.add("solved");
+      winPanel();
+      toast(`完成！用時 ${fmtTime(S.elapsed)}`);
+    };
+    const ui = {
+      board,
+      side,
+      save,
+      stats,
+      finish,
+      msg: (html) => {
+        const m = $("#gMsg");
+        if (m) m.innerHTML = html;
+      },
+    };
+    const start = () => {
+      dispose?.();
+      board.classList.remove("solved");
+      newBtn.disabled = false;
+      stats();
+      dispose = (sudokuLike ? mountSudoku : mountNonogram)(id, S, ui);
+      if (S.done) {
+        board.classList.add("solved");
+        winPanel();
+      }
+    };
+    const fresh = async () => {
+      dispose?.();
+      dispose = null;
+      S = null;
+      newBtn.disabled = true;
+      board.className = "game-loading";
+      board.innerHTML = `<div class="boot" aria-label="出題中"><span></span><span></span><span></span></div><p class="small muted">${id === "killer" ? "正在出一盤唯一解的殺手數獨，可能要幾秒⋯" : "出題中⋯"}</p>`;
+      side.innerHTML = "";
+      let g;
+      try {
+        g = await generateGame(id);
+      } catch (e) {
+        if (!alive) return;
+        board.innerHTML = `<p>出題失敗：<span class="mono">${esc(e.message)}</span></p><button class="btn" type="button" id="gRetry">${ic("rotate")}再試一次</button>`;
+        $("#gRetry").addEventListener("click", () => fresh());
+        return;
+      }
+      if (!alive) return;
+      S = newGameState(id, g);
+      save();
+      start();
+    };
+    let armed = 0;
+    newBtn.addEventListener("click", () => {
+      if (S && !S.done && S.elapsed > 15e3 && !armed) {
+        newBtn.innerHTML = `${ic("alert")}再按一次放棄這盤`;
+        armed = setTimeout(() => {
+          armed = 0;
+          newBtn.innerHTML = `${ic("shuffle")}新的一盤`;
+        }, 3000);
+        return;
+      }
+      clearTimeout(armed);
+      armed = 0;
+      newBtn.innerHTML = `${ic("shuffle")}新的一盤`;
+      fresh();
+    });
+    if (S) start();
+    else fresh();
+  }
+
+  const gameKeyOK = (e) =>
+    $("#cmdk").hidden && !e.target.matches?.("input, textarea, select");
+
+  // 數獨 / 殺手數獨：回傳 dispose
+  function mountSudoku(id, S, ui) {
+    const GM = window.SH_GAMES,
+      killer = id === "killer",
+      { board, side } = ui;
+    const cageOf = new Int16Array(81).fill(-1),
+      cageHead = new Map();
+    if (killer)
+      S.cages.forEach((c, k) => {
+        c.cells.forEach((i) => (cageOf[i] = k));
+        cageHead.set(c.cells[0], c.sum);
+      });
+    board.className = `sd-board${killer ? " killer" : ""}`;
+    board.setAttribute("role", "grid");
+    board.setAttribute("aria-label", killer ? "殺手數獨盤面" : "數獨盤面");
+    board.innerHTML = [...Array(81)]
+      .map((_, i) => {
+        const r = (i / 9) | 0,
+          c = i % 9;
+        let cls = "sd-cell";
+        if (c === 2 || c === 5) cls += " bx-r";
+        if (r === 2 || r === 5) cls += " bx-b";
+        let cage = "";
+        if (killer) {
+          const same = (j, ok) => ok && cageOf[j] === cageOf[i];
+          const sides = [
+            !same(i - 9, r > 0) && "t",
+            !same(i + 1, c < 8) && "r",
+            !same(i + 9, r < 8) && "b",
+            !same(i - 1, c > 0) && "l",
+          ].filter(Boolean);
+          cage = `<span class="cage ${sides.join(" ")}"></span>${cageHead.has(i) ? `<span class="cg-sum">${cageHead.get(i)}</span>` : ""}`;
+        }
+        return `<button type="button" class="${cls}" data-i="${i}" tabindex="-1">${cage}<span class="sd-in"></span></button>`;
+      })
+      .join("");
+    side.innerHTML = `
+      <div class="game-msg" id="gMsg" aria-live="polite">${killer ? "先找總和很小或很大的籠子（例如 2 格 = 3 只能是 1、2），再用「每一宮總和 45」去推。" : "點一格，再按數字或用鍵盤輸入。"}</div>
+      <div class="sd-pad">${[1, 2, 3, 4, 5, 6, 7, 8, 9].map((d) => `<button type="button" class="sd-key" data-d="${d}"><b>${d}</b><small></small></button>`).join("")}</div>
+      <div class="game-tools">
+        <button class="btn" type="button" id="gUndo">${ic("rotate")}復原</button>
+        <button class="btn" type="button" id="gErase">${ic("x")}擦除</button>
+        <button class="btn" type="button" id="gNotes" aria-pressed="false">${ic("pen")}筆記</button>
+        <button class="btn accent" type="button" id="gHint">${ic("bolt")}提示</button>
+      </div>
+      <p class="small muted game-keys hide-touch">鍵盤：數字鍵填入、<kbd>Shift</kbd>+數字寫筆記、<kbd>N</kbd> 切換筆記、方向鍵移動、<kbd>Backspace</kbd> 擦除、<kbd>H</kbd> 提示、<kbd>${IS_MAC ? "⌘" : "Ctrl"}</kbd>+<kbd>Z</kbd> 復原</p>`;
+    const cells = $$(".sd-cell", board),
+      keys = $$(".sd-key", side);
+    const undo = [];
+    let flash = -1;
+
+    const paint = () => {
+      const sv = S.sel >= 0 ? S.vals[S.sel] : 0;
+      const peers = new Set(S.sel >= 0 ? GM.peers[S.sel] : []);
+      cells.forEach((el, i) => {
+        const v = S.vals[i],
+          given = S.puzzle[i] > 0;
+        el.classList.toggle("given", given);
+        el.classList.toggle("hinted", !given && !!S.locked[i]);
+        el.classList.toggle("err", !!v && v !== S.solution[i]);
+        el.classList.toggle("sel", i === S.sel);
+        el.classList.toggle("peer", peers.has(i));
+        el.classList.toggle("same", !!sv && v === sv && i !== S.sel);
+        el.classList.toggle("flash", i === flash);
+        el.lastElementChild.innerHTML = v
+          ? `<span class="v">${v}</span>`
+          : S.notes[i]
+            ? `<span class="nt">${[1, 2, 3, 4, 5, 6, 7, 8, 9].map((d) => `<i>${S.notes[i] & (1 << d) ? d : ""}</i>`).join("")}</span>`
+            : "";
+        el.setAttribute(
+          "aria-label",
+          `第 ${((i / 9) | 0) + 1} 橫列第 ${(i % 9) + 1} 直行${killer && cageHead.has(i) ? `，籠子總和 ${cageHead.get(i)}` : ""}：${v || "空白"}`,
+        );
+      });
+      const left = Array(10).fill(9);
+      S.vals.forEach((v, i) => v && v === S.solution[i] && left[v]--);
+      keys.forEach((k) => {
+        const d = +k.dataset.d;
+        k.querySelector("small").textContent = left[d] || "";
+        k.disabled = !left[d] || S.done;
+      });
+      const nb = $("#gNotes");
+      if (nb) {
+        nb.setAttribute("aria-pressed", S.notesMode ? "true" : "false");
+        nb.classList.toggle("on", S.notesMode);
+      }
+      ui.stats();
+    };
+    const setCell = (ch, i, v, n) => {
+      ch.push([i, S.vals[i], S.notes[i]]);
+      S.vals[i] = v;
+      S.notes[i] = n;
+    };
+    const clearPeers = (ch, i, d) => {
+      for (const j of GM.peers[i])
+        if (S.notes[j] & (1 << d)) setCell(ch, j, S.vals[j], S.notes[j] & ~(1 << d));
+    };
+    const commit = (ch, track = true) => {
+      if (track && ch.length) undo.push(ch);
+      ui.save();
+      paint();
+      if (S.vals.every((v, i) => v === S.solution[i])) {
+        ui.finish();
+        paint();
+      }
+    };
+    const editable = (i) => !S.done && i >= 0 && !S.puzzle[i] && !S.locked[i];
+    const input = (d, asNote = S.notesMode) => {
+      const i = S.sel;
+      if (!editable(i)) return;
+      const ch = [];
+      if (asNote) {
+        if (S.vals[i]) return;
+        setCell(ch, i, 0, S.notes[i] ^ (1 << d));
+      } else if (S.vals[i] === d) setCell(ch, i, 0, 0);
+      else {
+        setCell(ch, i, d, 0);
+        if (d !== S.solution[i]) S.mistakes++;
+        else clearPeers(ch, i, d);
+      }
+      flash = -1;
+      commit(ch);
+    };
+    const erase = () => {
+      const i = S.sel;
+      if (!editable(i) || (!S.vals[i] && !S.notes[i])) return;
+      const ch = [];
+      setCell(ch, i, 0, 0);
+      commit(ch);
+    };
+    const doUndo = () => {
+      const ch = undo.pop();
+      if (!ch || S.done) return;
+      for (const [i, v, n] of ch.reverse())
+        if (!S.locked[i]) (S.vals[i] = v), (S.notes[i] = n);
+      ui.save();
+      paint();
+    };
+    const toggleNotes = () => {
+      S.notesMode = !S.notesMode;
+      paint();
+    };
+    const hint = () => {
+      if (S.done) return;
+      const grid = S.vals.map((v, i) => (v === S.solution[i] ? v : 0));
+      const prefer = S.sel >= 0 && !grid[S.sel] ? S.sel : -1;
+      const h = killer
+        ? GM.killer.hint(grid, S.solution, S.cages, prefer)
+        : GM.sudoku.hint(grid, S.solution, prefer);
+      if (!h) return;
+      const ch = [];
+      setCell(ch, h.i, h.d, 0);
+      clearPeers(ch, h.i, h.d);
+      S.locked[h.i] = 1;
+      S.hints++;
+      S.sel = flash = h.i;
+      const where = `第 ${((h.i / 9) | 0) + 1} 橫列第 ${(h.i % 9) + 1} 直行`;
+      ui.msg(
+        h.why === "naked"
+          ? `<b>${where}</b>：把同一橫列、直行、宮${killer ? "和籠子總和" : ""}已有的數字刪掉後，這格只剩 <b>${h.d}</b>。`
+          : h.why === "hidden"
+            ? `<b>${h.d}</b> 在這一${h.unit}裡只剩 <b>${where}</b> 能放。`
+            : `這一步需要進階技巧，直接揭曉 <b>${where}</b> 是 <b>${h.d}</b>。`,
+      );
+      commit(ch, false);
+    };
+
+    const onClick = (e) => {
+      const el = e.target.closest(".sd-cell");
+      if (!el || S.done) return;
+      S.sel = +el.dataset.i;
+      flash = -1;
+      paint();
+    };
+    board.addEventListener("click", onClick);
+    keys.forEach((k) => k.addEventListener("click", () => input(+k.dataset.d)));
+    $("#gUndo").addEventListener("click", doUndo);
+    $("#gErase").addEventListener("click", erase);
+    $("#gNotes").addEventListener("click", toggleNotes);
+    $("#gHint").addEventListener("click", hint);
+    const MOVE = { ArrowUp: -9, ArrowDown: 9, ArrowLeft: -1, ArrowRight: 1 };
+    const onKey = (e) => {
+      if (!gameKeyOK(e) || S.done) return;
+      if (e.metaKey || e.ctrlKey) {
+        if (e.key.toLowerCase() === "z") {
+          e.preventDefault();
+          doUndo();
+        }
+        return;
+      }
+      if (e.altKey) return;
+      const m = /^(?:Digit|Numpad)([1-9])$/.exec(e.code);
+      if (m) {
+        e.preventDefault();
+        input(+m[1], e.shiftKey || S.notesMode);
+      } else if (MOVE[e.key]) {
+        e.preventDefault();
+        const i = S.sel < 0 ? 40 : S.sel,
+          d = MOVE[e.key],
+          n = i + d;
+        if (n < 0 || n > 80 || (d === -1 && i % 9 === 0) || (d === 1 && i % 9 === 8)) return;
+        S.sel = n;
+        paint();
+      } else if (["Backspace", "Delete", "0"].includes(e.key)) {
+        e.preventDefault();
+        erase();
+      } else if (e.key === "n" || e.key === "N") toggleNotes();
+      else if (e.key === "h" || e.key === "H") hint();
+    };
+    addEventListener("keydown", onKey);
+    paint();
+    return () => {
+      removeEventListener("keydown", onKey);
+      board.removeEventListener("click", onClick);
+    };
+  }
+
+  // 數織：cells 0 = 未填、1 = 塗黑、2 = 打叉
+  function mountNonogram(id, S, ui) {
+    const NG = window.SH_GAMES.nonogram,
+      { board, side } = ui,
+      { W, H } = S;
+    const row = (i) => (i / W) | 0,
+      col = (i) => i % W;
+    let mode = 1,
+      cur = -1,
+      flash = -1,
+      hl = null;
+    const undo = [];
+    const maxR = Math.max(...S.rows.map((r) => r.length || 1));
+    board.className = "ng-board";
+    board.setAttribute("role", "grid");
+    board.setAttribute("aria-label", `數織 ${W}×${H} 盤面`);
+    board.tabIndex = 0;
+    board.style.gridTemplateColumns = `auto repeat(${W}, var(--cs))`;
+    const clue = (c) => (c.length ? c : [0]).map((n) => `<span>${n}</span>`).join("");
+    const edge = (n, N) => (n % 5 === 4 && n < N - 1 ? " bx" : "");
+    let html = `<div class="ng-corner"></div>`;
+    S.cols.forEach((c, x) => {
+      html += `<div class="ng-clue col${edge(x, W)}" data-col="${x}">${clue(c)}</div>`;
+    });
+    for (let y = 0; y < H; y++) {
+      html += `<div class="ng-clue row${edge(y, H)}" data-row="${y}">${clue(S.rows[y])}</div>`;
+      for (let x = 0; x < W; x++)
+        html += `<div class="ng-cell${edge(x, W) ? " bx-r" : ""}${edge(y, H) ? " bx-b" : ""}" data-i="${y * W + x}"></div>`;
+    }
+    board.innerHTML = html;
+    side.innerHTML = `
+      <div class="game-msg" id="gMsg" aria-live="polite">先從數字加起來接近 15 的行下手，例如 15 格裡的「8」中間 1 格一定是黑的。</div>
+      <div class="seg ng-mode" role="group" aria-label="點格子時">
+        <button type="button" data-mode="1" aria-pressed="true"><i class="ng-sw f"></i>塗黑</button>
+        <button type="button" data-mode="2" aria-pressed="false"><i class="ng-sw x"></i>打叉</button>
+      </div>
+      <div class="game-tools">
+        <button class="btn" type="button" id="gUndo">${ic("rotate")}復原</button>
+        <button class="btn accent" type="button" id="gHint">${ic("bolt")}提示</button>
+      </div>
+      <p class="small muted game-keys">按住拖曳可以一次畫一整排${IS_TOUCH ? "" : "；右鍵直接打叉。鍵盤：方向鍵移動、<kbd>Space</kbd> 塗黑、<kbd>X</kbd> 打叉、<kbd>Backspace</kbd> 清除、<kbd>H</kbd> 提示"}。</p>`;
+    const cells = $$(".ng-cell", board),
+      rowClues = $$(".ng-clue.row", board),
+      colClues = $$(".ng-clue.col", board);
+
+    const fit = () => {
+      const avail = board.parentElement.clientWidth;
+      const cs = Math.floor(avail / (W + maxR * 0.62 + 0.8));
+      board.style.setProperty("--cs", `${Math.max(15, Math.min(30, cs))}px`);
+    };
+    const runs = (idx) => NG.runsOf(idx.map((i) => (S.cells[i] === 1 ? 1 : 0)));
+    const same = (a, b) => (a.length ? a : [0]).join() === (b.length ? b : [0]).join();
+    const paint = () => {
+      const err = new Set(S.err);
+      cells.forEach((el, i) => {
+        const v = S.cells[i];
+        el.classList.toggle("f", v === 1);
+        el.classList.toggle("x", v === 2);
+        el.classList.toggle("err", err.has(i));
+        el.classList.toggle("flash", i === flash);
+        el.classList.toggle("cur", i === cur);
+        el.classList.toggle("hl", cur >= 0 && (row(i) === row(cur) || col(i) === col(cur)));
+      });
+      for (let y = 0; y < H; y++) {
+        const idx = [...Array(W)].map((_, x) => y * W + x);
+        rowClues[y].classList.toggle("done", same(runs(idx), S.rows[y]));
+        rowClues[y].classList.toggle("hint", hl?.kind === "row" && hl.idx === y);
+      }
+      for (let x = 0; x < W; x++) {
+        const idx = [...Array(H)].map((_, y) => y * W + x);
+        colClues[x].classList.toggle("done", same(runs(idx), S.cols[x]));
+        colClues[x].classList.toggle("hint", hl?.kind === "col" && hl.idx === x);
+      }
+      ui.stats();
+    };
+    const solved = () =>
+      S.solution.every((s, i) => (s === 1 ? S.cells[i] === 1 : S.cells[i] !== 1));
+    const commit = (ch, track = true) => {
+      if (track && ch.length) undo.push(ch);
+      ui.save();
+      paint();
+      if (solved()) {
+        cur = -1;
+        ui.finish();
+        paint();
+      }
+    };
+    const setCell = (ch, i, v) => {
+      if (S.cells[i] === v) return;
+      ch.push([i, S.cells[i]]);
+      S.cells[i] = v;
+    };
+
+    // 拖曳：鎖定在起點那一橫列或直行；塗的時候只動空格，清的時候只清同一種記號
+    let stroke = null;
+    const strokeTo = (i) => {
+      const { i0, v, act, ch } = stroke;
+      const r0 = row(i0),
+        c0 = col(i0);
+      if (!stroke.axis && i !== i0)
+        stroke.axis =
+          Math.abs(row(i) - r0) <= Math.abs(col(i) - c0) ? "r" : "c";
+      const step = stroke.axis === "c" ? W : 1;
+      const to = stroke.axis === "c" ? row(i) * W + c0 : r0 * W + col(i);
+      for (let j = i0; ; j += to >= i0 ? step : -step) {
+        if (act === 0 ? S.cells[j] === v : S.cells[j] === 0) setCell(ch, j, act);
+        if (j === to) break;
+      }
+      cur = to;
+      paint();
+    };
+    const cellAt = (e) => {
+      const el = document.elementFromPoint(e.clientX, e.clientY);
+      return el && el.closest ? el.closest(".ng-cell") : null;
+    };
+    const onDown = (e) => {
+      const el = e.target.closest(".ng-cell");
+      if (!el || S.done || (e.button !== 0 && e.button !== 2)) return;
+      e.preventDefault();
+      const i = +el.dataset.i,
+        v = e.button === 2 ? 2 : mode;
+      const act = S.cells[i] === v ? 0 : v;
+      stroke = { i0: i, v, act, ch: [], axis: null };
+      S.err = [];
+      flash = -1;
+      setCell(stroke.ch, i, act);
+      cur = i;
+      paint();
+      board.setPointerCapture(e.pointerId);
+    };
+    const onMove = (e) => {
+      if (!stroke) return;
+      const el = cellAt(e);
+      if (el) strokeTo(+el.dataset.i);
+    };
+    const onUp = () => {
+      if (!stroke) return;
+      const ch = stroke.ch;
+      stroke = null;
+      commit(ch);
+    };
+    const doUndo = () => {
+      const ch = undo.pop();
+      if (!ch || S.done) return;
+      for (const [i, v] of ch.reverse()) S.cells[i] = v;
+      S.err = [];
+      ui.save();
+      paint();
+    };
+    const hint = () => {
+      if (S.done) return;
+      const wrong = [];
+      S.cells.forEach((v, i) => {
+        if ((v === 1 && !S.solution[i]) || (v === 2 && S.solution[i])) wrong.push(i);
+      });
+      S.hints++;
+      hl = null;
+      if (wrong.length) {
+        S.err = wrong;
+        flash = -1;
+        ui.msg(`有 <b>${wrong.length}</b> 格放錯了，已用紅色標出來。改掉之後再按一次提示，就會告訴你下一步。`);
+        commit([], false);
+        return;
+      }
+      const known = S.cells.map((v) => (v === 1 ? 1 : v === 2 ? 0 : -1));
+      const st = NG.propagate(S.rows, S.cols, known, true);
+      let i, why;
+      if (st) {
+        i = st.at;
+        hl = st.line;
+        const name = st.line.kind === "row" ? "橫列" : "直行";
+        why = `看第 <b>${st.line.idx + 1}</b> ${name}的線索（已標出）：不管怎麼排，這格都一定是${st.grid[i] ? "<b>黑的</b>" : "<b>空白</b>"}。`;
+      } else {
+        i = S.cells.findIndex((v) => v === 0);
+        why = "直接揭曉一格。";
+      }
+      if (i < 0) return;
+      const ch = [];
+      setCell(ch, i, S.solution[i] ? 1 : 2);
+      S.err = [];
+      flash = cur = i;
+      ui.msg(why);
+      commit(ch, false);
+    };
+    const setMode = (m) => {
+      mode = m;
+      $$(".ng-mode button", side).forEach((b) =>
+        b.setAttribute("aria-pressed", +b.dataset.mode === m ? "true" : "false"),
+      );
+    };
+    const keyMark = (v) => {
+      if (cur < 0 || S.done) return;
+      const ch = [];
+      setCell(ch, cur, S.cells[cur] === v ? 0 : v);
+      S.err = [];
+      commit(ch);
+    };
+    const onKey = (e) => {
+      if (!gameKeyOK(e) || S.done) return;
+      if (e.metaKey || e.ctrlKey) {
+        if (e.key.toLowerCase() === "z") {
+          e.preventDefault();
+          doUndo();
+        }
+        return;
+      }
+      const MOVE = { ArrowUp: [-1, 0], ArrowDown: [1, 0], ArrowLeft: [0, -1], ArrowRight: [0, 1] };
+      if (MOVE[e.key]) {
+        e.preventDefault();
+        if (cur < 0) cur = 0;
+        else {
+          const y = Math.min(H - 1, Math.max(0, row(cur) + MOVE[e.key][0])),
+            x = Math.min(W - 1, Math.max(0, col(cur) + MOVE[e.key][1]));
+          cur = y * W + x;
+        }
+        paint();
+      } else if (e.key === " " || e.key === "Enter" || e.key === "f" || e.key === "F") {
+        if (e.key === " " && e.target !== board && e.target.matches("button, a")) return;
+        e.preventDefault();
+        keyMark(1);
+      } else if (e.key === "x" || e.key === "X") keyMark(2);
+      else if (e.key === "Backspace" || e.key === "Delete") {
+        e.preventDefault();
+        keyMark(S.cells[cur] || 0);
+      } else if (e.key === "h" || e.key === "H") hint();
+    };
+    const noMenu = (e) => {
+      if (e.target.closest(".ng-cell")) e.preventDefault();
+    };
+    board.addEventListener("pointerdown", onDown);
+    board.addEventListener("pointermove", onMove);
+    board.addEventListener("pointerup", onUp);
+    board.addEventListener("pointercancel", onUp);
+    board.addEventListener("contextmenu", noMenu);
+    $$(".ng-mode button", side).forEach((b) =>
+      b.addEventListener("click", () => setMode(+b.dataset.mode)),
+    );
+    $("#gUndo").addEventListener("click", doUndo);
+    $("#gHint").addEventListener("click", hint);
+    addEventListener("keydown", onKey);
+    addEventListener("resize", fit);
+    fit();
+    paint();
+    return () => {
+      removeEventListener("keydown", onKey);
+      removeEventListener("resize", fit);
+      board.removeEventListener("pointerdown", onDown);
+      board.removeEventListener("pointermove", onMove);
+      board.removeEventListener("pointerup", onUp);
+      board.removeEventListener("pointercancel", onUp);
+      board.removeEventListener("contextmenu", noMenu);
+    };
+  }
+
   async function pagePracticePick() {
     const subs = await loadAllSubjects();
     setChrome(null, "practice");
