@@ -1,7 +1,7 @@
 === summary ===
 # 免疫缺陷疾病（賴傳穎）
 
-> 🎙️ 本章依 2026 非同步遠距錄影（賴傳穎，W18，期中考範圍）的逐字稿與 slides 整理；尚無共筆，考古只有 hyper-IgM、CGD 相關題。期中配分 **3%**。
+> 🎙️ 本章依 2026 非同步遠距錄影（賴傳穎，W18，期中考範圍）的逐字稿與 slides 整理，並對照 115 共筆（Ch18-2）；考古只有 hyper-IgM、CGD 相關題。期中配分 **3%**。
 
 ## 1. 怎麼懷疑免疫缺陷？
 - **反覆、嚴重、難治（recalcitrant）**的感染；**不常見的伺機性（opportunistic）感染**；有**固定的感染型態**。
@@ -149,6 +149,14 @@
 5. **Cytokine 迴路**：IL-12 / IFN-γ 缺陷 → **TB、NTM**；IL-17 / **STAT3（Job syndrome）** → **mucocutaneous candidiasis**。
 6. **Perforin 缺陷 → FHL（hyperinflammation）**；**XLP（SAP）→ EBV lymphoproliferation**。
 7. **治療三層次**：replace（IVIG）、reconstitute（HSCT）、correct（gene therapy / CRISPR）；HSCT 併發症 GVHD vs graft rejection。
+
+## 📒 115 共筆對照（Ch18-2）
+- **遺傳模式**：X-linked SCID（IL2RG）為 **X 染色體隱性**（患者多為男性）；**RAG1/2、FOXN1** 缺陷都是**體染色體隱性**。XLA、X-linked hyper-IgM、XLP 也都是 X-linked。
+- 次發性（後天）免疫缺陷**遠比原發性常見**，是感染與死亡的重要誘因。
+- **FHL 的分型**（細胞毒性顆粒路徑各步驟）：**perforin → FHL2**、Munc13-4（priming）→ FHL3、syntaxin 11 → FHL4、Munc18-2 → FHL5；顆粒運輸／停靠缺陷：**LYST → Chédiak–Higashi**、**Rab27a → Griscelli**。
+- **STAT3 缺陷（Job syndrome）＝高 IgE 症候群**：IL-17 產生細胞減少 → CMC，並易有**金黃色葡萄球菌**與**麴菌**感染；APECED（**AIRE** 異常）病人會產生中和 IL-17A／F 的自體抗體，也表現為 CMC。
+- XLP 另一型 **XIAP 缺陷**：抑制凋亡 caspase 的功能受損；EBV 感染後可出現猛爆性傳染性單核球增多症、淋巴瘤、低丙種球蛋白血症。
+- 課本補充：「泡泡男孩」**David Vetter** 是 X-linked SCID 病人，12 歲時死於骨髓移植併發症。
 
 ## 🔗 跨章連結
 - IFN-γ 缺陷 / 抗 IFN-γ 自體抗體（成人型免疫缺乏）、CGD（NOX 次單位）→ 見〈對抗感染的免疫反應〉。

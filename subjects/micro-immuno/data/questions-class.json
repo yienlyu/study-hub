@@ -264,5 +264,170 @@
    "抗體多樣性（VDJ/SHM）"
   ],
   "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-016",
+  "source": "2026 課堂題",
+  "chapter": "neisseria",
+  "type": "mcq",
+  "stem": "下列哪一項是淋病奈瑟菌（Neisseria gonorrhoeae）導致的主要疾病？",
+  "options": [
+   {
+    "k": "A",
+    "t": "肺炎"
+   },
+   {
+    "k": "B",
+    "t": "腦膜炎"
+   },
+   {
+    "k": "C",
+    "t": "尿道炎、子宮頸炎"
+   },
+   {
+    "k": "D",
+    "t": "心內膜炎"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "（球菌練習題）淋病雙球菌經性行為傳染，男性主要是尿道炎，女性是子宮頸炎；新生兒經產道感染可致結膜炎。腦膜炎是 N. meningitidis。",
+  "topics": [
+   "Neisseria"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-017",
+  "source": "2026 課堂題",
+  "chapter": "neisseria",
+  "type": "mcq",
+  "stem": "腦膜炎奈瑟菌（Neisseria meningitidis）最常見的傳播途徑是什麼？",
+  "options": [
+   {
+    "k": "A",
+    "t": "性接觸"
+   },
+   {
+    "k": "B",
+    "t": "污染水源"
+   },
+   {
+    "k": "C",
+    "t": "呼吸道飛沫"
+   },
+   {
+    "k": "D",
+    "t": "輸血"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "（球菌練習題）人是唯一宿主，經呼吸道飛沫在鼻咽部定殖（健康帶菌者），少數入侵血流造成腦膜炎、敗血症。",
+  "topics": [
+   "Neisseria"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-018",
+  "source": "2026 課堂題",
+  "chapter": "neisseria",
+  "type": "mcq",
+  "stem": "奈瑟菌屬（Neisseria）的菌毛（pili）主要功能是什麼？",
+  "options": [
+   {
+    "k": "A",
+    "t": "抵抗吞噬作用"
+   },
+   {
+    "k": "B",
+    "t": "附著在宿主細胞上"
+   },
+   {
+    "k": "C",
+    "t": "產生毒素"
+   },
+   {
+    "k": "D",
+    "t": "抑制免疫細胞"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "（球菌練習題）Pili 讓細菌黏附在黏膜上皮（致病第一步），並可經 phase／antigenic variation 逃避抗體。抗吞噬主要靠莢膜（N. meningitidis）。",
+  "topics": [
+   "Neisseria"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-019",
+  "source": "2026 課堂題",
+  "chapter": "neisseria",
+  "type": "mcq",
+  "stem": "診斷淋病奈瑟菌感染的金標準測試方法是什麼？",
+  "options": [
+   {
+    "k": "A",
+    "t": "革蘭氏染色"
+   },
+   {
+    "k": "B",
+    "t": "培養"
+   },
+   {
+    "k": "C",
+    "t": "核酸擴增檢測（NAATs）"
+   },
+   {
+    "k": "D",
+    "t": "抗原檢測"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "（球菌練習題）NAAT 敏感度與特異度最高，是目前的金標準。Gram stain 對有症狀男性尿道炎很有用（嗜中性球內 G(−) 雙球菌），但對女性子宮頸炎不敏感。",
+  "topics": [
+   "Neisseria"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-020",
+  "source": "2026 課堂題",
+  "chapter": "neisseria",
+  "type": "mcq",
+  "stem": "下列哪項是腦膜炎奈瑟菌（Neisseria meningitidis）特有的毒力因子，但淋病奈瑟菌沒有？",
+  "options": [
+   {
+    "k": "A",
+    "t": "寡糖脂（LOS）"
+   },
+   {
+    "k": "B",
+    "t": "多醣莢膜"
+   },
+   {
+    "k": "C",
+    "t": "IgA 蛋白酶"
+   },
+   {
+    "k": "D",
+    "t": "菌毛變異"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "（球菌練習題）多醣莢膜只有 N. meningitidis 有（抗吞噬，也是疫苗成分）；LOS、IgA1 protease、pili 變異是兩者共有。",
+  "topics": [
+   "Neisseria"
+  ],
+  "pattern": "選正確／單一概念題"
  }
 ]

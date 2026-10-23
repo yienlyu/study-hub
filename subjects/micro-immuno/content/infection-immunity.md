@@ -1,5 +1,5 @@
 === summary ===
-# 對抗感染的免疫反應（依 113 共筆整理，林秋烽）
+# 對抗感染的免疫反應（依 113 共筆整理、對照 115 共筆，林秋烽）
 
 ## 1. 第一道防線
 - 物理：皮膚、黏液、纖毛上皮（咳嗽）、低 pH、眼淚、免疫特權區（水晶體、睪丸）。
@@ -150,6 +150,15 @@
 - 去年考古**沒有**本章獨立題組，但共筆標示的重點：**NOX 結構（gp91、p22、p40、p47、p67）**、**CGD（gp91 最常見、catalase+ 菌）**、**caspase-1 / inflammasome**、TLR 位置、IFN 分型。
 - 預期出題：「CGD 最常見突變」「哪個 TLR 不經 MyD88」「pyroptosis 由哪個 caspase 媒介」「ILC / NK 的角色」等定義題。
 - 本站「新題練習」有依共筆重點出的模擬題。
+
+## 📒 115 共筆對照（W5-1）
+- **IFN 的來源**（老師補充）：**IFN-γ（type II）幾乎所有免疫細胞**都會產生；**IFN-α／β（type I）幾乎所有體細胞（RBC 除外）**都會產生。
+- **成人型免疫不全（adult-onset immunodeficiency）**：病人 **HIV 陰性**，但和 HIV 病人一樣易得結核；原因可能是 IFN-γ 基因突變、IFN-γ 訊號失敗（無法產生 ROS），或**抗 IFN-γ 自體抗體**。
+- **S. aureus 的逃脫工具**：**Protein A**（抓 IgG Fc）、**CHIPS**（干擾 C5a receptor，抑制趨化）、**SCIN**（抑制 C3 convertase）、**PVL** 等白血球毒素、**catalase**；MprF、Dlt 增加對陽離子抗菌胜肽的抗性。GAS 另有 **ScpA／ScpC**（切 C5a、IL-8）、EndoS（修飾 IgG 醣鏈）。
+- **吞噬體裡的三種求生法**：逃出吞噬體（**Shigella、Rickettsia**）、阻止吞噬體與溶酶體融合（**M. tuberculosis**）、在吞噬溶酶體裡照樣存活（**Coxiella burnetii**）。
+- **登革熱 ADE**：四種血清型，對其他型的抗體能結合卻**中和不了** → 病毒–抗體複合體經 **Fcγ receptor** 進入免疫細胞，感染反而增加（重症相關機制之一）。
+- 慢性病毒感染（HBV、HCV）的 **T cell exhaustion**：增殖力、細胞激素分泌、毒殺能力都下降，不是免疫系統完全停擺。
+- 自體免疫補充：**vaccinosis**——傷寒、小兒麻痺、B 肝等疫苗可能引發關節炎。
 
 ## 🎙️ 老師課堂提示
 - 老師明講要記：**AMP**（「一定要記得」）、**吞噬受體**（「務必把它記起來」）、**NLRP / inflammasome**（「一定要有點印象」）。

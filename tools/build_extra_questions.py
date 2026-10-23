@@ -55,6 +55,18 @@ CLASS = [
      ['T 細胞', 'B 細胞', '巨噬細胞', '自然殺手細胞'], 'B', '只有 B 細胞在 germinal center 進行 SHM → affinity maturation。'),
     ('agab', NEG, ['抗體多樣性（VDJ/SHM）'], '造成抗體多變性的機制（the mechanism of Ab diversity）不包括下列哪一項？',
      ['junctional diversity', 'assorted heavy and light chains', 'V(D)J recombination', 'gene cross-over'], 'D', '六大機制：multiple germline V genes、V(D)J recombination、assorted H/L chains、gene conversion、junctional diversity、somatic point mutation。'),
+    # ---------------- I'm@TMU「球菌練習題」（黃姿雯，10/23 補進；答案依測驗批改）
+    # 第 4–9、11–13、15、16 題與 113 考古 k113-staph1-01～11 相同，不重複收錄；以下為新出現的 Neisseria 5 題
+    ('neisseria', POS, ['Neisseria'], '下列哪一項是淋病奈瑟菌（Neisseria gonorrhoeae）導致的主要疾病？',
+     ['肺炎', '腦膜炎', '尿道炎、子宮頸炎', '心內膜炎'], 'C', '（球菌練習題）淋病雙球菌經性行為傳染，男性主要是尿道炎，女性是子宮頸炎；新生兒經產道感染可致結膜炎。腦膜炎是 N. meningitidis。'),
+    ('neisseria', POS, ['Neisseria'], '腦膜炎奈瑟菌（Neisseria meningitidis）最常見的傳播途徑是什麼？',
+     ['性接觸', '污染水源', '呼吸道飛沫', '輸血'], 'C', '（球菌練習題）人是唯一宿主，經呼吸道飛沫在鼻咽部定殖（健康帶菌者），少數入侵血流造成腦膜炎、敗血症。'),
+    ('neisseria', POS, ['Neisseria'], '奈瑟菌屬（Neisseria）的菌毛（pili）主要功能是什麼？',
+     ['抵抗吞噬作用', '附著在宿主細胞上', '產生毒素', '抑制免疫細胞'], 'B', '（球菌練習題）Pili 讓細菌黏附在黏膜上皮（致病第一步），並可經 phase／antigenic variation 逃避抗體。抗吞噬主要靠莢膜（N. meningitidis）。'),
+    ('neisseria', POS, ['Neisseria'], '診斷淋病奈瑟菌感染的金標準測試方法是什麼？',
+     ['革蘭氏染色', '培養', '核酸擴增檢測（NAATs）', '抗原檢測'], 'C', '（球菌練習題）NAAT 敏感度與特異度最高，是目前的金標準。Gram stain 對有症狀男性尿道炎很有用（嗜中性球內 G(−) 雙球菌），但對女性子宮頸炎不敏感。'),
+    ('neisseria', POS, ['Neisseria'], '下列哪項是腦膜炎奈瑟菌（Neisseria meningitidis）特有的毒力因子，但淋病奈瑟菌沒有？',
+     ['寡糖脂（LOS）', '多醣莢膜', 'IgA 蛋白酶', '菌毛變異'], 'B', '（球菌練習題）多醣莢膜只有 N. meningitidis 有（抗吞噬，也是疫苗成分）；LOS、IgA1 protease、pili 變異是兩者共有。'),
 ]
 
 # ---------------------------------------------------------------------- new
