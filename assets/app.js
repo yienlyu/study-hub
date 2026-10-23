@@ -533,6 +533,13 @@
         throw this.authErr({ message: "User already registered" });
       return !!data.session;
     },
+    // 自訂名稱存在 user_metadata.display_name（full_name / name 會被 Google 登入蓋回去）
+    async setName(name) {
+      const { error } = await this.sb.auth.updateUser({
+        data: { display_name: name || null },
+      });
+      if (error) throw error;
+    },
     async setPassword(password) {
       const { error } = await this.sb.auth.updateUser({ password });
       if (error) throw this.authErr(error);
@@ -828,7 +835,11 @@
     else if (Date.now() - (Cloud.lastSync || 0) > 60e3) Cloud.sync();
   });
   const userName = (u) =>
-    u?.user_metadata?.full_name || u?.user_metadata?.name || u?.email || "";
+    u?.user_metadata?.display_name ||
+    u?.user_metadata?.full_name ||
+    u?.user_metadata?.name ||
+    u?.email ||
+    "";
   const userAvatar = (u) =>
     u?.user_metadata?.custom_avatar || u?.user_metadata?.avatar_url || "";
   function paintAcct() {
@@ -966,6 +977,22 @@
   // ------------------------------------------------------------ router
   let cleanup = [];
   const onLeave = (fn) => cleanup.push(fn);
+  // 作答 / 翻卡時手機底部選單不要擋題目：往下捲收起，往上捲或捲到底再出現
+  function autoHideTabbar() {
+    let y0 = scrollY;
+    const f = () => {
+      const y = scrollY,
+        atEnd = y + innerHeight >= document.documentElement.scrollHeight - 8;
+      if (Math.abs(y - y0) < 6 && !atEnd) return;
+      document.body.classList.toggle("tb-hide", y > y0 && y > 40 && !atEnd);
+      y0 = y;
+    };
+    addEventListener("scroll", f, { passive: true });
+    onLeave(() => {
+      removeEventListener("scroll", f);
+      document.body.classList.remove("tb-hide");
+    });
+  }
   function parseHash() {
     const h = location.hash.replace(/^#/, "") || "/";
     const [path, q] = h.split("?");
@@ -2340,6 +2367,7 @@
       );
       return;
     }
+    autoHideTabbar();
     const S = {
       i: 0,
       ans: pool.map(() => null),
@@ -2646,6 +2674,7 @@
       );
       return;
     }
+    autoHideTabbar();
     const S = {
       i: 0,
       flipped: false,
@@ -3095,7 +3124,8 @@
             : "尚未同步";
     return `<div class="card panel acct"><button class="acct-ico acct-av" type="button" id="avatarBtn" title="更換頭像" aria-label="更換頭像">${av ? `<img src="${esc(av)}" alt="" referrerpolicy="no-referrer">` : ic("user")}<span class="acct-av-badge">${ic("pen")}</span></button><input type="file" id="avatarFile" accept="image/*" hidden><div style="min-width:0;flex:1">
       <h3>${esc(userName(u))}</h3><p class="sub" style="margin:0">${u.email && u.email !== userName(u) ? `${esc(u.email)} · ` : ""}<span class="acct-status">${st}</span></p></div>
-      <div class="acct-actions"><button class="btn sm" type="button" id="syncBtn"${Cloud.busy ? " disabled" : ""}>${ic("rotate")}立即同步</button><button class="btn sm ghost" type="button" id="pwBtn" aria-expanded="false" aria-controls="pwForm">${ic("pen")}設定密碼</button>${u.user_metadata?.custom_avatar ? `<button class="btn sm ghost" type="button" id="avatarReset">${ic("rotate")}恢復預設頭像</button>` : ""}<button class="btn sm ghost" type="button" id="logoutBtn">${ic("logout")}登出</button></div>
+      <div class="acct-actions"><button class="btn sm" type="button" id="syncBtn"${Cloud.busy ? " disabled" : ""}>${ic("rotate")}立即同步</button><button class="btn sm ghost" type="button" id="nameBtn" aria-expanded="false" aria-controls="nameForm">${ic("user")}更改名稱</button><button class="btn sm ghost" type="button" id="pwBtn" aria-expanded="false" aria-controls="pwForm">${ic("pen")}設定密碼</button>${u.user_metadata?.custom_avatar ? `<button class="btn sm ghost" type="button" id="avatarReset">${ic("rotate")}恢復預設頭像</button>` : ""}<button class="btn sm ghost" type="button" id="logoutBtn">${ic("logout")}登出</button></div>
+      <form class="acct-email" id="nameForm" hidden><label class="sr-only" for="newName">顯示名稱</label><input id="newName" type="text" maxlength="40" autocomplete="nickname" value="${esc(userName(u))}" placeholder="顯示名稱（留空恢復預設）"><button class="btn" type="submit">${ic("check")}儲存名稱</button></form>
       <form class="acct-email" id="pwForm" hidden><label class="sr-only" for="newPw">新密碼</label><input type="email" autocomplete="username" value="${esc(u.email || "")}" hidden><input id="newPw" type="password" required minlength="6" autocomplete="new-password" placeholder="新密碼（至少 6 個字元）"><button class="btn" type="submit">${ic("check")}儲存密碼</button></form></div>`;
   }
 
@@ -3376,6 +3406,25 @@
       } catch (err) {
         btn.disabled = false;
         toast(`寄送失敗：${err.message || err}`);
+      }
+    });
+    $("#nameBtn")?.addEventListener("click", (e) => {
+      const f = $("#nameForm");
+      f.hidden = !f.hidden;
+      e.currentTarget.setAttribute("aria-expanded", String(!f.hidden));
+      if (!f.hidden) $("#newName", f).select();
+    });
+    $("#nameForm")?.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const f = e.currentTarget;
+      const btn = $("button", f);
+      btn.disabled = true;
+      try {
+        await Cloud.setName($("#newName", f).value.trim());
+        toast("名稱已更新");
+      } catch (err) {
+        toast(`更改失敗：${err.message || err}`);
+        btn.disabled = false;
       }
     });
     $("#pwBtn")?.addEventListener("click", (e) => {
