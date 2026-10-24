@@ -3648,7 +3648,7 @@
     autoHideTabbar();
     const pool = S.ids.map((id) => subj.qById[id]);
     let timer = 0,
-      confirmAt = 0;
+      confirming = false;
     const answered = () => S.ans.filter((x) => x !== null).length;
     const left = () => Math.max(0, S.dl - Date.now());
     const dots = () =>
@@ -3664,7 +3664,7 @@
         <div class="quiz-stats">
           <span title="已作答">${ic("pen")}<b class="num">${answered()}</b></span>
           <span title="剩餘時間" class="mock-clock${left() < 5 * 60e3 ? " low" : ""}">${ic("clock")}<span class="num" id="clock">${fmtTime(left())}</span></span>
-          <button class="btn sm primary" type="button" id="submitTop">交卷</button>
+          <button class="btn sm primary" type="button" id="submitTop">${confirming ? "確認交卷" : "交卷"}</button>
         </div>
       </div>`;
     const card = () => {
@@ -3684,11 +3684,12 @@
           <button class="btn sm ghost" type="button" id="flag" aria-pressed="${S.flag[S.i]}">${ic("flag")}${S.flag[S.i] ? "取消標記" : "標記這題"}</button>
           <span class="spacer"></span>
           ${S.i > 0 ? `<button class="btn sm" type="button" id="prev" aria-label="上一題">${ic("arrowL")}</button>` : ""}
-          ${last ? `<button class="btn primary" type="button" id="submit">交卷${ic("arrowR")}</button>` : `<button class="btn ${a ? "primary" : ""}" type="button" id="next">${a ? "下一題" : "跳過"}${ic("arrowR")}</button>`}
+          ${last ? `<button class="btn primary" type="button" id="submit">${confirming ? "確認交卷" : "交卷"}${ic("arrowR")}</button>` : `<button class="btn ${a ? "primary" : ""}" type="button" id="next">${a ? "下一題" : "跳過"}${ic("arrowR")}</button>`}
         </div>
       </article>`;
     };
-    const paint = () => {
+    const paint = (keepConfirm) => {
+      if (!keepConfirm) confirming = false;
       $app.innerHTML = `<div class="wrap"><div class="quiz">${top()}${dots()}<div id="qslot">${card()}</div>
         <div class="shortcut-hint" aria-hidden="true"><span><kbd>A</kbd>–<kbd>E</kbd> 作答</span><span><kbd>←</kbd><kbd>→</kbd> 上／下一題</span><span><kbd>F</kbd> 標記</span></div></div></div>`;
       $$("[data-go]").forEach((b) =>
@@ -3723,10 +3724,11 @@
     const trySubmit = () => {
       const miss = pool.length - answered();
       const flagged = S.flag.filter(Boolean).length;
-      if ((miss || flagged) && Date.now() - confirmAt > 4000) {
-        confirmAt = Date.now();
+      if ((miss || flagged) && !confirming) {
+        confirming = true;
+        paint(true);
         toast(
-          `${miss ? `還有 ${miss} 題沒作答` : ""}${miss && flagged ? "、" : ""}${flagged ? `${flagged} 題有標記` : ""}，再按一次「交卷」確認`,
+          `${miss ? `還有 ${miss} 題沒作答` : ""}${miss && flagged ? "、" : ""}${flagged ? `${flagged} 題有標記` : ""}，按「確認交卷」送出`,
         );
         return;
       }
