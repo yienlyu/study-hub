@@ -1064,3 +1064,12 @@ a.icon-btn { text-decoration: none; }
 /* 404 頁的骰子彩蛋：淡淡的，滑過才看得清楚 */
 .egg-dice { display: inline-block; margin-left: 14px; font-size: 1.1rem; opacity: .18; text-decoration: none; vertical-align: middle; transition: opacity .3s, transform .4s var(--ease); }
 .egg-dice:hover, .egg-dice:focus-visible { opacity: 1; transform: rotate(180deg); text-decoration: none; }
+
+.sheet-wrap.roots .nb { white-space: nowrap; }
+/* 字根表自我測驗：遮住「意思」欄與例字後面的中文（…），點一列翻開 */
+.sheet-wrap.roots.masked .prose tbody tr { cursor: pointer; }
+.sheet-wrap.roots.masked .prose tr:not(.shown) td:nth-child(2) { color: transparent; background: var(--paper-2); border-radius: 6px; user-select: none; }
+.sheet-wrap.roots.masked .prose tr:not(.shown) td:nth-child(2) * { color: transparent; }
+.sheet-wrap.roots.masked .prose tr:not(.shown) .gloss { color: transparent; background: var(--paper-2); border-radius: 4px; user-select: none; }
+.sheet-wrap.roots.masked .prose tr:not(.shown):hover td:nth-child(2) { background: var(--violet-soft); }
+@media print { .sheet-wrap.roots.masked .prose tr td:nth-child(2), .sheet-wrap.roots.masked .prose tr td:nth-child(2) *, .sheet-wrap.roots.masked .prose .gloss { color: inherit !important; background: none !important; } }

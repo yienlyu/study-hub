@@ -4080,11 +4080,13 @@
   }
 
   // ------------------------------------------------------------ cheatsheet & figure gallery
-  async function loadSheet(subj) {
-    if (subj.sheet !== undefined) return subj.sheet;
+  // key：sheet（考前速記表）或 roots（字根字首表），兩種檔案格式相同
+  async function loadSheet(subj, key = "sheet") {
+    subj.cards = subj.cards || {};
+    if (subj.cards[key] !== undefined) return subj.cards[key];
     let raw = "";
-    if (subj.meta.sheet)
-      raw = await fetchText(`${subj.path}/${subj.meta.sheet}`).catch(() => "");
+    if (subj.meta[key])
+      raw = await fetchText(`${subj.path}/${subj.meta[key]}`).catch(() => "");
     // 以 "## " 切成卡片；卡片內 "@ch id,id" 與 "@fig id" 是連結設定
     const cards = [];
     let cur = null;
@@ -4100,15 +4102,37 @@
       if (m) cur[m[1]].push(...m[2].split(",").map((x) => x.trim()));
       else cur.md += line + "\n";
     }
-    return (subj.sheet = cards);
+    return (subj.cards[key] = cards);
   }
   async function pageSheet(sid, tab, q = {}) {
     const subj = await loadSubject(sid);
     setChrome(sid, "sheet");
     const m = subj.meta;
     const figs = subj.figs || [];
-    const cards = await loadSheet(subj);
-    const isFigs = tab === "figs";
+    if (!tab && !m.sheet && m.roots) tab = "roots";
+    const isFigs = tab === "figs",
+      isRoots = tab === "roots";
+    const cards = await loadSheet(subj, isRoots ? "roots" : "sheet");
+    const view = isFigs
+      ? {
+          crumb: "觀念圖",
+          eyebrow: `Figures · ${figs.filter((f) => !isSlide(f)).length} 張手繪觀念圖 · ${figs.filter(isSlide).length} 張上課 slides`,
+          h1: "觀念圖庫",
+          lede: "手繪觀念圖把最常考的機轉重新畫清楚（滑過虛線名詞看說明）；上課 slides 是老師原圖，對照著看。點任何一張都能放大。",
+        }
+      : isRoots
+        ? {
+            crumb: "字根字首",
+            eyebrow: `Word roots · ${cards.length} 張表`,
+            h1: "專有名詞字根字首背誦表",
+            lede: "拆開字根，學名和專有名詞就能看字猜意思，不用整個字硬背。例字都取自本科的重點整理與考古。按「遮住意思」可以自我測驗，點一格看答案。",
+          }
+        : {
+            crumb: "速記表",
+            eyebrow: `Cheatsheet · ${cards.length} 張表`,
+            h1: "考前速記表",
+            lede: "考前十分鐘掃一遍：最常被拿來出題的對照表都濃縮在這裡。",
+          };
     let body;
     if (isFigs) {
       const byCh = m.chapters
@@ -4167,24 +4191,62 @@
           </section>`,
             )
             .join("")}</div>`
-        : `<div class="card empty"><p>這個科目還沒有速記表。</p></div>`;
+        : `<div class="card empty"><p>這個科目還沒有${isRoots ? "字根字首表" : "速記表"}。</p></div>`;
     }
     render(
       `<div class="wrap">
-        <nav class="crumbs" aria-label="路徑"><a href="#/s/${sid}">${esc(m.title)}</a><span class="sep">/</span><span>${isFigs ? "觀念圖" : "速記表"}</span></nav>
+        <nav class="crumbs" aria-label="路徑"><a href="#/s/${sid}">${esc(m.title)}</a><span class="sep">/</span><span>${view.crumb}</span></nav>
         <header class="section-head" style="padding-top:14px;align-items:end">
-          <div><div class="eyebrow">${isFigs ? `Figures · ${figs.filter((f) => !isSlide(f)).length} 張手繪觀念圖 · ${figs.filter(isSlide).length} 張上課 slides` : `Cheatsheet · ${cards.length} 張表`}</div>
-          <h1 class="display h-l" style="margin-top:12px">${isFigs ? "觀念圖庫" : "考前速記表"}</h1>
-          <p class="lede" style="margin-bottom:0">${isFigs ? "手繪觀念圖把最常考的機轉重新畫清楚（滑過虛線名詞看說明）；上課 slides 是老師原圖，對照著看。點任何一張都能放大。" : "考前十分鐘掃一遍：最常被拿來出題的對照表都濃縮在這裡。可以直接列印成 A4。"}</p></div>
+          <div><div class="eyebrow">${view.eyebrow}</div>
+          <h1 class="display h-l" style="margin-top:12px">${view.h1}</h1>
+          <p class="lede" style="margin-bottom:0">${view.lede}</p></div>
           <div class="toolbar noprint">
-            <nav class="seg" aria-label="切換"><a href="#/s/${sid}/sheet"${isFigs ? "" : ' aria-current="page"'}>${ic("grid")}速記表</a><a href="#/s/${sid}/sheet/figs"${isFigs ? ' aria-current="page"' : ""}>${ic("image")}觀念圖</a></nav>
+            <nav class="seg" aria-label="切換">${m.sheet ? `<a href="#/s/${sid}/sheet"${!isFigs && !isRoots ? ' aria-current="page"' : ""}>${ic("grid")}速記表</a>` : ""}${m.roots ? `<a href="#/s/${sid}/sheet/roots"${isRoots ? ' aria-current="page"' : ""}>${ic("book")}字根字首</a>` : ""}<a href="#/s/${sid}/sheet/figs"${isFigs ? ' aria-current="page"' : ""}>${ic("image")}觀念圖</a></nav>
+            ${isRoots && cards.length ? `<button class="btn" type="button" id="maskBtn" aria-pressed="false">${ic("eye")}遮住意思</button>` : ""}
             ${isFigs ? "" : `<button class="btn" type="button" id="printBtn">${ic("printer")}列印</button>`}
           </div>
         </header>
-        <div class="sheet-wrap">${body}</div>
+        <div class="sheet-wrap${isRoots ? " roots" : ""}">${body}</div>
       </div>`,
       () => {
         $("#printBtn")?.addEventListener("click", () => print());
+        // 字根表自我測驗：遮住「意思」欄和例字後面的中文（…），點一列翻開
+        const wrap = $(".sheet-wrap.roots");
+        if (wrap) {
+          // 帶連字號的字根（-iasis、nemat-）不要在「-」後面斷行
+          const walker = document.createTreeWalker(wrap, NodeFilter.SHOW_TEXT);
+          const hy = /[\p{L}\p{N}]*(?:-[\p{L}\p{N}]*)+/gu;
+          const nodes = [];
+          while (walker.nextNode()) nodes.push(walker.currentNode);
+          for (const node of nodes) {
+            if (
+              !node.parentElement.closest("td") ||
+              !node.nodeValue.includes("-")
+            )
+              continue;
+            const span = document.createElement("span");
+            span.innerHTML = esc(node.nodeValue).replace(hy, (x) =>
+              /[\p{L}\p{N}]/u.test(x) ? `<span class="nb">${x}</span>` : x,
+            );
+            node.replaceWith(...span.childNodes);
+          }
+          $$(".prose td:nth-child(3)", wrap).forEach((td) => {
+            td.innerHTML = td.innerHTML.replace(
+              /（[^（）]*）/g,
+              (x) => `<span class="gloss">${x}</span>`,
+            );
+          });
+        }
+        $("#maskBtn")?.addEventListener("click", (e) => {
+          const on = wrap.classList.toggle("masked");
+          e.currentTarget.setAttribute("aria-pressed", on);
+          $$("tr.shown", wrap).forEach((tr) => tr.classList.remove("shown"));
+        });
+        wrap?.addEventListener("click", (e) => {
+          const tr = e.target.closest("tbody tr");
+          if (tr && wrap.classList.contains("masked"))
+            tr.classList.toggle("shown");
+        });
         hydrateFigs($app, subj).then(() => q.find && findInPage(q.find));
       },
     );
@@ -4869,6 +4931,15 @@
         href: `#/s/${sid}/sheet`,
         k: "cheatsheet 速記 列印",
       });
+      if (s.meta.roots)
+        items.push({
+          g: "頁面",
+          icon: "book",
+          t: "字根字首背誦表",
+          s: s.meta.title,
+          href: `#/s/${sid}/sheet/roots`,
+          k: "字根 字首 字尾 roots prefix suffix 專有名詞 背誦",
+        });
       items.push({
         g: "頁面",
         icon: "image",
@@ -4943,6 +5014,27 @@
           href: `#/s/${sid}/sheet?${qs({ find: card.title })}`,
           k: mdPlain(card.md).slice(0, 600),
         });
+      // 字根表：每一列（字根｜意思｜例字）各是一筆
+      for (const card of await loadSheet(s, "roots"))
+        for (const line of card.md.split("\n")) {
+          const cells = line
+            .split("|")
+            .slice(1, -1)
+            .map((x) => mdPlain(x).trim());
+          if (
+            cells.length < 3 ||
+            cells[0] === "字根" ||
+            /^[-:\s]+$/.test(cells[0])
+          )
+            continue;
+          items.push({
+            g: "重點",
+            icon: "book",
+            t: `字根 ${cells[0]}：${cells[1]}`,
+            s: `${s.meta.title} · ${cells[2]}`,
+            href: `#/s/${sid}/sheet/roots?${qs({ find: cells[0].slice(0, 40) })}`,
+          });
+        }
       for (const c of s.meta.chapters)
         items.push({
           g: "章節",
@@ -5186,14 +5278,17 @@
     });
   };
   {
-    const KONAMI = "ArrowUp ArrowUp ArrowDown ArrowDown ArrowLeft ArrowRight ArrowLeft ArrowRight b a";
+    const KONAMI =
+      "ArrowUp ArrowUp ArrowDown ArrowDown ArrowLeft ArrowRight ArrowLeft ArrowRight b a";
     let typed = "",
       keys = [];
     addEventListener("keydown", (e) => {
       if (e.metaKey || e.ctrlKey || e.altKey) return;
       if (!cmdk.hidden || e.target.matches?.("input, textarea, select")) return;
       if (location.hash.startsWith("#/play") || $("#qslot")) return;
-      keys = [...keys, e.key.length === 1 ? e.key.toLowerCase() : e.key].slice(-10);
+      keys = [...keys, e.key.length === 1 ? e.key.toLowerCase() : e.key].slice(
+        -10,
+      );
       if (keys.join(" ") === KONAMI) {
         keys = [];
         return findEgg("🕹️ ↑↑↓↓←→←→BA，老玩家喔");

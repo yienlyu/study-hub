@@ -7,6 +7,7 @@
   "description": "流行病學概論、描述性流病、疾病傳播、疾病率與死亡率，以及篩檢效度、預後與臨床試驗。整合 2026 上課 slides、EverCam 逐字稿、百十三共筆與 109／110／114 期中考古。",
   "color": "#3d5a99",
   "icon": "📊",
+  "roots": "content/_roots.md",
   "questionFiles": [
     "data/questions-kaogu.json",
     "data/questions-k1151.json",

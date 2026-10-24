@@ -7,6 +7,7 @@
   "description": "寄生蟲總論、線蟲各論與吸蟲：土源性蠕蟲、蟯蟲、犬蛔蟲、毛線蟲、糞小桿線蟲、食源性線蟲、血絲蟲、吸蟲，以及實驗課蟲卵鑑別。整合 2026 上課 slides、EverCam 逐字稿、百十三共筆與考古。",
   "color": "#6b7a2f",
   "icon": "🪱",
+  "roots": "content/_roots.md",
   "questionFiles": [
     "data/questions-kaogu.json",
     "data/questions-k113mid.json",
