@@ -939,7 +939,7 @@
     if (sid) {
       store.set("sh:lastSubject", sid);
       const s = DB.subjects[sid];
-      nav.innerHTML = `<a href="#/">所有科目</a><a href="#/s/${sid}"${cur("subject")}>${esc(s?.meta.short || "總覽")}總覽</a><a href="#/s/${sid}/practice"${cur("practice")}>練習區</a><a href="#/s/${sid}/analysis"${cur("analysis")}>考題分析</a><a href="#/s/${sid}/sheet"${cur("sheet")}>速記・圖解</a><a href="#/report?sid=${sid}"${cur("report")}>回報 / 回饋</a>`;
+      nav.innerHTML = `<a href="#/">所有科目</a><a href="#/s/${sid}"${cur("subject")}>${esc(s?.meta.short || "總覽")}總覽</a><a href="#/s/${sid}/practice"${cur("practice")}>練習區</a>${s?.meta.mock ? `<a href="#/s/${sid}/mock"${cur("mock")}>模擬考</a>` : ""}<a href="#/s/${sid}/analysis"${cur("analysis")}>考題分析</a><a href="#/s/${sid}/sheet"${cur("sheet")}>速記・圖解</a><a href="#/report?sid=${sid}"${cur("report")}>回報 / 回饋</a>`;
     } else {
       nav.innerHTML = `<a href="#/"${cur("home")}>所有科目</a><a href="#/practice"${cur("practice")}>練習區</a><a href="#/me"${cur("me")}>學習軌跡</a><a href="#/report"${cur("report")}>回報 / 回饋</a>`;
     }
@@ -1035,6 +1035,7 @@
           return await pageChapter(sid, seg[3], seg[4] || "summary", q);
         if (seg[2] === "sheet") return await pageSheet(sid, seg[3] || "", q);
         if (seg[2] === "practice") return await pagePractice(sid, q);
+        if (seg[2] === "mock") return await pageMock(sid, q);
         if (seg[2] === "analysis") return await pageAnalysis(sid);
         if (seg[2] === "q" && seg[3]) {
           const subj = await loadSubject(sid);
@@ -2990,6 +2991,7 @@
             ${preset(L({ start: 1, n: 0, mode: "random", filter: "star" }), "star", `收藏題（${getStars(sid).size}）`, "練習時按 S 收藏")}
           </div>
           <a class="card flash-cta" href="${L({ view: "cards", n: 20, mode: "random", ch: taught })}"><span class="ico">${ic("cards")}</span><span><b>翻卡模式</b><span>正面看題目、翻面看答案和觀念圖，自己判斷記得或不熟。適合考前快速過一輪。</span></span><span class="go">已上課範圍 20 張 ${ic("arrowR")}</span></a>
+          ${m.mock ? `<a class="card flash-cta" href="#/s/${sid}/mock"><span class="ico">${ic("clock")}</span><span><b>${esc(m.mock.title || "模擬考")}</b><span>照老師公告的範圍與配分出一份完整考卷，限時 ${m.mock.minutes} 分鐘，交卷後才看分數與詳解。</span></span><span class="go">去考一份 ${ic("arrowR")}</span></a>` : ""}
         </div>
         <form class="setup" id="pf" novalidate>
           <div>
@@ -3469,6 +3471,370 @@
       clearInterval(timer);
       removeEventListener("keydown", onKey);
     });
+  }
+
+  // ------------------------------------------------------------ mock exam
+  // subject.json 的 "mock"：老師公告的範圍與配分。sections[].from 每一項是
+  // "章節 id"、"章節 id:考點1|考點2"（只取這些考點）或 "章節 id:!考點1|考點2"（排除這些考點）
+  const mockKey = (sid) => `sh:${sid}:mock`;
+  const mockHistKey = (sid) => `sh:${sid}:mockHist`;
+  const mockOK = (q) =>
+    q.type === "mcq" &&
+    !q.imageOnly &&
+    (q.options || []).length >= 2 &&
+    (q.answer || []).length > 0;
+  function mockSectionPool(subj, sec) {
+    const rules = sec.from.map((f) => {
+      const [ch, t = ""] = f.split(":");
+      const neg = t.startsWith("!");
+      const set = new Set((neg ? t.slice(1) : t).split("|").filter(Boolean));
+      return { ch, neg, set };
+    });
+    return subj.questions.filter(
+      (q) =>
+        mockOK(q) &&
+        rules.some((r) => {
+          if (q.chapter !== r.ch) return false;
+          if (!r.set.size) return true;
+          const hit = (q.topics || []).some((t) => r.set.has(t));
+          return r.neg ? !hit : hit;
+        }),
+    );
+  }
+  // 每個單元：約 newRatio 的模擬新題，其餘從考古／課堂原題隨機抽；不夠就互相補
+  function mockDraw(subj) {
+    const M = subj.meta.mock;
+    const src = sourcesOf(subj);
+    const isNew = (q) => src.find((s) => s.match(q))?.kind === "new";
+    const used = new Set();
+    const ids = [],
+      sec = [];
+    M.sections.forEach((s, si) => {
+      const pool = shuffle(
+        mockSectionPool(subj, s).filter((q) => !used.has(q.id)),
+      );
+      const nw = pool.filter(isNew),
+        old = pool.filter((q) => !isNew(q));
+      const nNew = Math.min(nw.length, Math.round(s.n * (M.newRatio ?? 0.2)));
+      const pick = [...old.slice(0, s.n - nNew), ...nw.slice(0, nNew)];
+      if (pick.length < s.n)
+        pick.push(...nw.slice(nNew, nNew + s.n - pick.length));
+      for (const q of shuffle(pick)) {
+        used.add(q.id);
+        ids.push(q.id);
+        sec.push(si);
+      }
+    });
+    return {
+      ids,
+      sec,
+      ans: ids.map(() => null),
+      flag: ids.map(() => false),
+      i: 0,
+      t0: Date.now(),
+      dl: Date.now() + M.minutes * 60e3,
+    };
+  }
+  function mockScore(subj, st) {
+    const M = subj.meta.mock;
+    const secs = M.sections.map((s) => ({
+      title: s.title,
+      points: s.points,
+      n: 0,
+      right: 0,
+      got: 0,
+    }));
+    st.sec.forEach((si) => secs[si].n++);
+    st.ids.forEach((id, k) => {
+      const q = subj.qById[id],
+        x = secs[st.sec[k]];
+      if (q && (q.answer || []).includes(st.ans[k])) {
+        x.right++;
+        x.got += x.points / x.n;
+      }
+    });
+    const total = secs.filter((x) => x.n).reduce((a, x) => a + x.points, 0);
+    const got = secs.reduce((a, x) => a + x.got, 0);
+    return { secs, total, got };
+  }
+  const fmtPts = (v) => (Math.round(v * 10) / 10).toString();
+
+  async function pageMock(sid, q) {
+    const subj = await loadSubject(sid);
+    setChrome(sid, "mock");
+    const M = subj.meta.mock;
+    if (!M)
+      return render(
+        emptyState(
+          "這個科目還沒有模擬考",
+          "老師公告考試範圍與配分後就會加上。",
+          `<a class="btn primary" href="#/s/${sid}/practice">去練習區</a>`,
+        ),
+      );
+    if (q.start) return runMock(subj, q.start === "new");
+    const cur = store.get(mockKey(sid), null);
+    const hist = store.get(mockHistKey(sid), []);
+    const nQ = M.sections.reduce((a, s) => a + s.n, 0);
+    const total = M.sections.reduce((a, s) => a + s.points, 0);
+    const rows = M.sections
+      .map((s) => {
+        const pool = mockSectionPool(subj, s);
+        const chs = [...new Set(s.from.map((f) => f.split(":")[0]))]
+          .map((c) => subj.chMap[c]?.title)
+          .filter(Boolean);
+        return `<tr><td><b>${esc(s.title)}</b><div class="small muted">${esc(chs.join("、"))}</div></td><td class="n">${s.points}</td><td class="n">${Math.min(s.n, pool.length)}</td><td class="n muted">${pool.length}</td></tr>`;
+      })
+      .join("");
+    const left = cur ? cur.dl - Date.now() : 0;
+    render(`
+      <div class="wrap">
+        <nav class="crumbs" aria-label="路徑"><a href="#/s/${sid}">${esc(subj.meta.title)}</a><span class="sep">/</span><span>模擬考</span></nav>
+        <header style="padding-top:14px">
+          <div class="eyebrow">Mock exam${M.when ? ` · 正式考試 ${esc(M.when)}` : ""}</div>
+          <h1 class="display h-l" style="margin-top:12px">${esc(M.title || "模擬考")}</h1>
+          <p class="lede">照老師公告的範圍和配分出一份完整考卷：題目從考古與課堂原題隨機抽，約兩成混入模擬新題。作答時不顯示答案，交卷後才看分數和詳解，每次抽到的題目都不一樣。</p>
+        </header>
+        <div class="section mock-intro" style="padding-top:28px">
+          <div class="card panel">
+            <div class="mock-facts">
+              <div class="fact"><b>${M.minutes}</b><span>分鐘</span></div>
+              <div class="fact"><b>${nQ}</b><span>題單選</span></div>
+              <div class="fact"><b>${total}</b><span>滿分</span></div>
+            </div>
+            <div class="toolbar" style="margin-top:20px">
+              ${
+                cur
+                  ? `<a class="btn accent lg" href="#/s/${sid}/mock?start=1">${ic("arrowR")}繼續作答${left > 0 ? `（剩 ${fmtTime(left)}）` : "（時間到，交卷）"}</a><a class="btn" href="#/s/${sid}/mock?start=new">${ic("shuffle")}放棄這份，重新抽題</a>`
+                  : `<a class="btn accent lg" href="#/s/${sid}/mock?start=new">${ic("clock")}開始模擬考</a>`
+              }
+            </div>
+            <p class="small muted" style="margin:16px 0 0">中途離開或重新整理都會保留進度，計時不會暫停。<span class="hide-touch">鍵盤：<kbd>A</kbd>–<kbd>E</kbd> 作答、<kbd>←</kbd><kbd>→</kbd> 換題、<kbd>F</kbd> 標記。</span></p>
+          </div>
+          <div class="card panel" style="margin-top:14px">
+            <h3>範圍與配分</h3>
+            <p class="sub">${esc(M.note || "")}</p>
+            <div class="mock-table-wrap"><table class="mock-table">
+              <thead><tr><th>單元</th><th class="n">配分</th><th class="n">題數</th><th class="n">題庫</th></tr></thead>
+              <tbody>${rows}</tbody>
+            </table></div>
+          </div>
+          ${
+            hist.length
+              ? `<div class="card panel" style="margin-top:14px"><h3>歷次成績</h3><div class="mock-table-wrap"><table class="mock-table">
+              <thead><tr><th>日期</th><th class="n">得分</th><th class="n">答對</th><th class="n">用時</th></tr></thead>
+              <tbody>${hist
+                .slice(-8)
+                .reverse()
+                .map(
+                  (h) =>
+                    `<tr><td>${new Date(h.t).toLocaleString("zh-TW", { month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" })}</td><td class="n"><b>${fmtPts(h.got)}</b> / ${h.total}</td><td class="n">${h.right} / ${h.n}</td><td class="n">${fmtTime(h.ms)}</td></tr>`,
+                )
+                .join("")}</tbody></table></div></div>`
+              : ""
+          }
+        </div>
+      </div>`);
+  }
+
+  function runMock(subj, fresh) {
+    const sid = subj.meta.id;
+    const M = subj.meta.mock;
+    let S = fresh ? null : store.get(mockKey(sid), null);
+    if (S && S.ids.some((id) => !subj.qById[id])) S = null;
+    if (!S) S = mockDraw(subj);
+    const save = () => store.set(mockKey(sid), S);
+    save();
+    if (fresh) history.replaceState(null, "", `#/s/${sid}/mock?start=1`);
+    autoHideTabbar();
+    const pool = S.ids.map((id) => subj.qById[id]);
+    let timer = 0,
+      confirmAt = 0;
+    const answered = () => S.ans.filter((x) => x !== null).length;
+    const left = () => Math.max(0, S.dl - Date.now());
+    const dots = () =>
+      `<div class="dots" role="group" aria-label="題目導覽">${pool
+        .map(
+          (_, k) =>
+            `<button type="button" class="${k === S.i ? "cur" : S.flag[k] ? "f" : S.ans[k] !== null ? "a" : ""}" data-go="${k}" aria-label="第 ${k + 1} 題${S.ans[k] !== null ? "，已作答" : "，未作答"}${S.flag[k] ? "，已標記" : ""}"></button>`,
+        )
+        .join("")}</div>`;
+    const top = () => `<div class="quiz-top">
+        <a class="btn ghost sm" href="#/s/${sid}/mock" aria-label="離開（保留進度）">${ic("x")}<span class="hide-s">離開</span></a>
+        <span class="prog"><b>${S.i + 1}</b> / ${pool.length}</span>
+        <div class="quiz-stats">
+          <span title="已作答">${ic("pen")}<b class="num">${answered()}</b></span>
+          <span title="剩餘時間" class="mock-clock${left() < 5 * 60e3 ? " low" : ""}">${ic("clock")}<span class="num" id="clock">${fmtTime(left())}</span></span>
+          <button class="btn sm primary" type="button" id="submitTop">交卷</button>
+        </div>
+      </div>`;
+    const card = () => {
+      const qq = pool[S.i],
+        a = S.ans[S.i];
+      const last = S.i === pool.length - 1;
+      return `<article class="card qcard" aria-labelledby="qstem">
+        <div class="q-meta"><span class="pill line">${esc(M.sections[S.sec[S.i]].title)}</span>${S.flag[S.i] ? `<span class="pill warn">${ic("flag")}已標記</span>` : ""}</div>
+        <p class="q-stem" id="qstem">${esc(qq.stem)}</p>
+        <div class="options" role="radiogroup" aria-label="選項">${qq.options
+          .map(
+            (o) =>
+              `<button type="button" role="radio" aria-checked="${a === o.k}" class="option${a === o.k ? " picked" : ""}" data-k="${o.k}"><span class="key">${o.k}</span><span class="txt">${esc(o.t)}</span></button>`,
+          )
+          .join("")}</div>
+        <div class="q-foot">
+          <button class="btn sm ghost" type="button" id="flag" aria-pressed="${S.flag[S.i]}">${ic("flag")}${S.flag[S.i] ? "取消標記" : "標記這題"}</button>
+          <span class="spacer"></span>
+          ${S.i > 0 ? `<button class="btn sm" type="button" id="prev" aria-label="上一題">${ic("arrowL")}</button>` : ""}
+          ${last ? `<button class="btn primary" type="button" id="submit">交卷${ic("arrowR")}</button>` : `<button class="btn ${a ? "primary" : ""}" type="button" id="next">${a ? "下一題" : "跳過"}${ic("arrowR")}</button>`}
+        </div>
+      </article>`;
+    };
+    const paint = () => {
+      $app.innerHTML = `<div class="wrap"><div class="quiz">${top()}${dots()}<div id="qslot">${card()}</div>
+        <div class="shortcut-hint" aria-hidden="true"><span><kbd>A</kbd>–<kbd>E</kbd> 作答</span><span><kbd>←</kbd><kbd>→</kbd> 上／下一題</span><span><kbd>F</kbd> 標記</span></div></div></div>`;
+      $$("[data-go]").forEach((b) =>
+        b.addEventListener("click", () => go(+b.dataset.go)),
+      );
+      $$(".option").forEach((b) =>
+        b.addEventListener("click", () => pick(b.dataset.k)),
+      );
+      $("#next")?.addEventListener("click", () => go(S.i + 1));
+      $("#prev")?.addEventListener("click", () => go(S.i - 1));
+      $("#flag").addEventListener("click", toggleFlag);
+      $("#submit")?.addEventListener("click", trySubmit);
+      $("#submitTop").addEventListener("click", trySubmit);
+    };
+    const go = (k) => {
+      if (k < 0 || k >= pool.length) return;
+      S.i = k;
+      save();
+      paint();
+      if (innerWidth < 760) scrollTo({ top: 0 });
+    };
+    const pick = (k) => {
+      S.ans[S.i] = S.ans[S.i] === k ? null : k;
+      save();
+      paint();
+    };
+    const toggleFlag = () => {
+      S.flag[S.i] = !S.flag[S.i];
+      save();
+      paint();
+    };
+    const trySubmit = () => {
+      const miss = pool.length - answered();
+      const flagged = S.flag.filter(Boolean).length;
+      if ((miss || flagged) && Date.now() - confirmAt > 4000) {
+        confirmAt = Date.now();
+        toast(
+          `${miss ? `還有 ${miss} 題沒作答` : ""}${miss && flagged ? "、" : ""}${flagged ? `${flagged} 題有標記` : ""}，再按一次「交卷」確認`,
+        );
+        return;
+      }
+      finish(false);
+    };
+    const onKey = (e) => {
+      if (
+        e.target.matches("input, textarea, select") ||
+        e.metaKey ||
+        e.ctrlKey ||
+        e.altKey ||
+        !$("#qslot")
+      )
+        return;
+      const k = e.key.toUpperCase();
+      const key = { 1: "A", 2: "B", 3: "C", 4: "D", 5: "E" }[k] || k;
+      if ($(`.option[data-k="${key}"]`)) {
+        e.preventDefault();
+        pick(key);
+      } else if (e.key === "ArrowRight" || e.key === "Enter") {
+        if (e.key === "Enter" && document.activeElement?.tagName === "BUTTON")
+          return;
+        e.preventDefault();
+        go(S.i + 1);
+      } else if (e.key === "ArrowLeft") {
+        e.preventDefault();
+        go(S.i - 1);
+      } else if (key === "F") {
+        e.preventDefault();
+        toggleFlag();
+      }
+    };
+    const stop = () => {
+      clearInterval(timer);
+      removeEventListener("keydown", onKey);
+    };
+    const finish = (timeUp) => {
+      stop();
+      const ms = Math.min(Date.now(), S.dl) - S.t0;
+      const { secs, total, got } = mockScore(subj, S);
+      const right = secs.reduce((a, x) => a + x.right, 0);
+      pool.forEach((qq, k) => {
+        if (S.ans[k] !== null)
+          record(sid, qq.id, qq.answer.includes(S.ans[k]), { mode: "mock" });
+      });
+      const hist = store.get(mockHistKey(sid), []);
+      hist.push({ t: Date.now(), got, total, right, n: pool.length, ms });
+      store.set(mockHistKey(sid), hist.slice(-30));
+      store.set(mockKey(sid), null);
+      const p = total ? Math.round((got / total) * 100) : 0;
+      const miss = pool
+        .map((qq, k) => ({ qq, a: S.ans[k] }))
+        .filter((x) => !x.qq.answer.includes(x.a));
+      const title =
+        p >= 85
+          ? "穩穩過關"
+          : p >= 70
+            ? "表現不錯"
+            : p >= 60
+              ? "低空飛過"
+              : "還要再加油";
+      render(
+        `<div class="wrap"><div class="result">
+        <div class="card result-hero">
+          <div class="score-ring" style="--p:${p}"><div><b>${fmtPts(got)}</b><span>/ ${total} 分</span></div></div>
+          <div>
+            <div class="eyebrow">Mock exam · ${timeUp ? "時間到自動交卷" : `用時 ${fmtTime(ms)}`}</div>
+            <h1 class="display h-m" style="margin:10px 0 6px">${title}</h1>
+            <p class="muted" style="margin:0 0 18px">答對 <b class="num" style="color:var(--ink)">${right}</b> / ${pool.length} 題${pool.length - answered() ? `，${pool.length - answered()} 題沒作答` : ""}。作答結果已記進練習紀錄與錯題本。</p>
+            <div class="toolbar">
+              ${miss.length ? `<a class="btn accent" href="#/s/${sid}/practice?${qs({ ids: miss.map((x) => x.qq.id).join(","), start: 1 })}">${ic("rotate")}重做這 ${miss.length} 題</a>` : ""}
+              <a class="btn primary" href="#/s/${sid}/mock?start=new">${ic("shuffle")}再考一份</a>
+              <a class="btn" href="#/s/${sid}/mock">回模擬考</a>
+            </div>
+          </div>
+        </div>
+        <div class="card panel" style="margin-top:14px"><h3>各單元得分</h3>
+          <div class="mock-table-wrap"><table class="mock-table">
+            <thead><tr><th>單元</th><th class="n">答對</th><th class="n">得分</th></tr></thead>
+            <tbody>${secs
+              .filter((x) => x.n)
+              .map(
+                (x) =>
+                  `<tr><td>${esc(x.title)}<div class="mock-bar" aria-hidden="true"><i style="width:${(x.right / x.n) * 100}%"></i></div></td><td class="n">${x.right} / ${x.n}</td><td class="n"><b>${fmtPts(x.got)}</b> / ${x.points}</td></tr>`,
+              )
+              .join("")}</tbody>
+          </table></div>
+        </div>
+        ${miss.length ? `<div class="section" style="padding-top:40px"><div class="eyebrow" style="margin-bottom:12px">答錯或沒作答 · ${miss.length}</div>${miss.map((x) => `<div class="mock-yours">${x.a ? `你選 (${x.a})` : "沒作答"}</div>${browseCard(subj, x.qq, true)}`).join("")}</div>` : ""}
+      </div></div>`,
+        () => bindTips($app),
+      );
+    };
+    if (!left()) return finish(true);
+    paint();
+    timer = setInterval(() => {
+      const el = $("#clock");
+      if (!left()) {
+        toast("時間到，已自動交卷");
+        return finish(true);
+      }
+      if (el) {
+        el.textContent = fmtTime(left());
+        el.parentElement.classList.toggle("low", left() < 5 * 60e3);
+      }
+    }, 1000);
+    addEventListener("keydown", onKey);
+    onLeave(stop);
   }
 
   // ------------------------------------------------------------ flashcards
@@ -4440,6 +4806,15 @@
         s: s.meta.title,
         href: `#/s/${sid}/practice`,
       });
+      if (s.meta.mock)
+        items.push({
+          g: "頁面",
+          icon: "clock",
+          t: "模擬考",
+          s: s.meta.title,
+          k: "mock exam 期中 考試",
+          href: `#/s/${sid}/mock`,
+        });
       items.push({
         g: "頁面",
         icon: "chart",

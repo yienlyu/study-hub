@@ -75,6 +75,50 @@
       ]
     }
   ],
+  "mock": {
+    "title": "期中模擬考",
+    "when": "11/10（二）17:10–18:30",
+    "minutes": 80,
+    "note": "配分依 I'm@TMU 10/22 公告：陳老師 30、謝老師 28、葉老師 14、白老師 28；範圍第 1–9 週。篩檢章（尚未上課）暫列在陳偉仁老師。正式考試另有填空題，這裡只出選擇題。",
+    "sections": [
+      {
+        "title": "陳偉仁：概論、篩檢效度與信度",
+        "points": 30,
+        "n": 15,
+        "from": [
+          "intro",
+          "screening"
+        ]
+      },
+      {
+        "title": "謝芳宜：疾病率、死亡率",
+        "points": 28,
+        "n": 14,
+        "from": [
+          "morbidity",
+          "mortality"
+        ]
+      },
+      {
+        "title": "葉志清：疾病傳播",
+        "points": 14,
+        "n": 7,
+        "from": [
+          "transmission"
+        ]
+      },
+      {
+        "title": "白其卉：預後、臨床試驗",
+        "points": 28,
+        "n": 14,
+        "from": [
+          "prognosis",
+          "rct"
+        ]
+      }
+    ],
+    "newRatio": 0.2
+  },
   "chapters": [
     {
       "id": "intro",

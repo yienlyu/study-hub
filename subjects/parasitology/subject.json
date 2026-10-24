@@ -75,6 +75,36 @@
       ]
     }
   ],
+  "mock": {
+    "title": "期中模擬考",
+    "when": "11/3（二）18:30–19:40",
+    "minutes": 70,
+    "note": "I'm@TMU 還沒公告配分（9/21 公告說詳細考訊會在考前一週公布），先依授課時數抓線蟲 60、吸蟲 40。課外補充教材也在範圍內。",
+    "sections": [
+      {
+        "title": "范家堃：總論與線蟲",
+        "points": 60,
+        "n": 30,
+        "from": [
+          "intro",
+          "sth",
+          "enterobius-toxocara",
+          "capillaria-strongyloides",
+          "foodborne",
+          "filaria"
+        ]
+      },
+      {
+        "title": "鄭柏青：吸蟲",
+        "points": 40,
+        "n": 20,
+        "from": [
+          "trematodes"
+        ]
+      }
+    ],
+    "newRatio": 0.2
+  },
   "chapters": [
     {
       "id": "intro",

@@ -48,6 +48,166 @@
       ]
     }
   ],
+  "mock": {
+    "title": "期中模擬考",
+    "when": "11/4（三）18:10–19:20",
+    "minutes": 70,
+    "note": "配分依 I'm@TMU 10/13 公告（單選 106 分：微生物 56、免疫 50），過敏不在範圍內。每題分數＝該單元配分 ÷ 題數。",
+    "sections": [
+      {
+        "title": "細菌構造",
+        "points": 6,
+        "n": 3,
+        "from": [
+          "bact-structure"
+        ]
+      },
+      {
+        "title": "代謝遺傳＋滅菌",
+        "points": 7,
+        "n": 4,
+        "from": [
+          "bact-genetics",
+          "sterilization"
+        ]
+      },
+      {
+        "title": "致病機制",
+        "points": 3,
+        "n": 2,
+        "from": [
+          "pathogenesis"
+        ]
+      },
+      {
+        "title": "腸內菌、弧菌",
+        "points": 7,
+        "n": 4,
+        "from": [
+          "enterobacteriaceae",
+          "neisseria:Vibrio"
+        ]
+      },
+      {
+        "title": "桿菌、李斯特菌、棒狀桿菌",
+        "points": 7,
+        "n": 4,
+        "from": [
+          "bacillus"
+        ]
+      },
+      {
+        "title": "葡萄球菌、鏈球菌、奈瑟氏菌",
+        "points": 7,
+        "n": 4,
+        "from": [
+          "staph-strep",
+          "neisseria:Neisseria"
+        ]
+      },
+      {
+        "title": "綠膿桿菌、彎曲桿菌",
+        "points": 4,
+        "n": 2,
+        "from": [
+          "neisseria:Pseudomonas|H. pylori／Campylobacter"
+        ]
+      },
+      {
+        "title": "真菌構造與抗真菌藥",
+        "points": 3,
+        "n": 2,
+        "from": [
+          "fungi:真菌構造與分類|抗真菌藥物"
+        ]
+      },
+      {
+        "title": "真菌感染",
+        "points": 6,
+        "n": 3,
+        "from": [
+          "fungi:!真菌構造與分類|抗真菌藥物"
+        ]
+      },
+      {
+        "title": "病毒構造、複製、分類與抗病毒藥",
+        "points": 6,
+        "n": 3,
+        "from": [
+          "viruses"
+        ]
+      },
+      {
+        "title": "免疫基本概念",
+        "points": 6,
+        "n": 3,
+        "from": [
+          "immuno-basic"
+        ]
+      },
+      {
+        "title": "先天免疫",
+        "points": 7,
+        "n": 4,
+        "from": [
+          "innate"
+        ]
+      },
+      {
+        "title": "B 細胞與體液性免疫",
+        "points": 7,
+        "n": 4,
+        "from": [
+          "agab",
+          "tcell-act:B 細胞活化／class switch／生發中心"
+        ]
+      },
+      {
+        "title": "抗原呈現與 MHC",
+        "points": 7,
+        "n": 4,
+        "from": [
+          "mhc"
+        ]
+      },
+      {
+        "title": "T 細胞與細胞性免疫",
+        "points": 7,
+        "n": 4,
+        "from": [
+          "tcell-dev:!共刺激（CD28/B7/CTLA-4）",
+          "tcell-act:細胞毒殺（perforin/Fas）|T 細胞活化|白血球遷移（selectin→chemokine→integrin）"
+        ]
+      },
+      {
+        "title": "免疫調節",
+        "points": 6,
+        "n": 3,
+        "from": [
+          "tcell-act:TH 分化與細胞激素|共刺激（CD28/B7/CTLA-4）",
+          "tcell-dev:共刺激（CD28/B7/CTLA-4）",
+          "immuno-basic:共刺激（CD28/B7/CTLA-4）"
+        ]
+      },
+      {
+        "title": "宿主對感染之防衛",
+        "points": 7,
+        "n": 4,
+        "from": [
+          "infection-immunity"
+        ]
+      },
+      {
+        "title": "免疫缺陷",
+        "points": 3,
+        "n": 2,
+        "from": [
+          "immunodeficiency"
+        ]
+      }
+    ],
+    "newRatio": 0.2
+  },
   "chapters": [
     {
       "id": "bact-structure",

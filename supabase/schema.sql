@@ -11,7 +11,7 @@ create table if not exists public.attempts (
   subject     text not null,                          -- 科目 id，例如 biochem
   qid         text not null,                          -- 題目 id
   ok          boolean not null,                       -- 答對 / 答錯
-  mode        text,                                   -- mcq（選擇）| self（自評）| card（字卡）
+  mode        text,                                   -- mcq（選擇）| self（自評）| card（字卡）| mock（模擬考）
   ms          integer,                                -- 從看到題目到作答的毫秒數
   answered_at timestamptz not null,                   -- 作答時間（裝置時間）
   created_at  timestamptz not null default now()      -- 上傳時間

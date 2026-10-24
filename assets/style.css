@@ -1034,3 +1034,21 @@ a.icon-btn { text-decoration: none; }
 .ng-sw.f { background: var(--ink); border-color: var(--ink); }
 .ng-sw.x { background: linear-gradient(45deg, transparent 42%, var(--ink-3) 42% 58%, transparent 58%), linear-gradient(-45deg, transparent 42%, var(--ink-3) 42% 58%, transparent 58%); }
 @media (prefers-reduced-motion: reduce) { .sd-cell.flash, .ng-cell.flash { animation: none; } }
+
+/* ------------------------------------------------------------ mock exam */
+.dots button.a { background: var(--ink-3); }
+.dots button.f { background: var(--warn); }
+.option.picked { border-color: var(--violet); background: var(--violet-soft); }
+.option.picked .key { background: var(--violet); color: #fff; }
+.mock-clock.low { color: var(--bad); }
+.mock-facts { display: flex; gap: clamp(20px, 5vw, 48px); flex-wrap: wrap; }
+.mock-facts .fact b { display: block; font-family: var(--f-serif); font-size: 2rem; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.mock-facts .fact span { font-size: .8rem; color: var(--ink-3); }
+.mock-table-wrap { overflow-x: auto; margin-top: 10px; }
+.mock-table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+.mock-table th { text-align: left; font-weight: 500; font-size: .78rem; color: var(--ink-3); padding: 6px 8px; border-bottom: 1px solid var(--rule-strong); }
+.mock-table td { padding: 10px 8px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.mock-table .n { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.mock-bar { height: 4px; border-radius: 999px; background: var(--rule); margin-top: 6px; max-width: 240px; overflow: hidden; }
+.mock-bar i { display: block; height: 100%; background: var(--good); }
+.mock-yours { font-size: .82rem; color: var(--bad); margin: 18px 0 6px; font-weight: 500; }
