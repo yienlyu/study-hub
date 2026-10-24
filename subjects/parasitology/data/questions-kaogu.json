@@ -788,7 +788,7 @@
   "answer": [
    "B"
   ],
-  "explain": "此病狀描述為感染鞭蟲之特徵。 ※嚴重感染才有臨床症狀（幼童較易發生） 小腸(幼蟲) 造成腸胃道疾病：腹痛、腹瀉、下痢、消化不良 盲腸(成蟲) 提肛肌麻痺，造成直腸脫垂(Rectal Prolapse) 吸血相關 會利用牙齒咬盲腸的上皮細胞，藉由吸吮流出的血液維生 吸血量：最強（遠超過鉤蟲，T. trichiura>A. duodenale>N. americanus） 造成缺鐵性貧血（IDA）、杵狀指（Clubbing）、生長遲緩(Growth Retardation)",
+  "explain": "此病狀描述為感染鞭蟲之特徵。 ※嚴重感染才有臨床症狀（幼童較易發生） 小腸(幼蟲) 造成腸胃道疾病：腹痛、腹瀉、下痢、消化不良 盲腸(成蟲) 提肛肌麻痺，造成直腸脫垂(Rectal Prolapse) 吸血相關 會利用牙齒咬盲腸的上皮細胞，藉由吸吮流出的血液維生 吸血量：每隻蟲每天只約 0.005 ml，遠低於鉤蟲（A. duodenale > N. americanus > T. trichiura）；靠「蟲數多」才會失血 造成缺鐵性貧血（IDA）、杵狀指（Clubbing）、生長遲緩(Growth Retardation)",
   "topics": [
    "土源性蠕蟲"
   ],
@@ -1014,9 +1014,9 @@
    }
   ],
   "answer": [
-   "A"
+   "C"
   ],
-  "explain": "每隻寄生蟲每日可造成血流失量── Necator americanus:：0.03 ml;； Ancylostoma duodenale：0.2 ml；T. trichiura： 8.6 ml。",
+  "explain": "答案 (C)。每隻蟲每天造成的失血量：Ancylostoma duodenale 約 0.2 ml ＞ Necator americanus 約 0.03 ml ＞ Trichuris trichiura 約 0.005 ml。「感染相同的嚴重」= 同樣蟲數比較，所以十二指腸鉤蟲最多、鞭蟲最少（鞭蟲比美洲鉤蟲少 6–10 倍、比十二指腸鉤蟲少 30–50 倍；Layrisse 1967）。\n鞭蟲只有在非常重度的感染（大量蟲體，多為幼童，Trichuris dysentery syndrome）才會造成缺鐵性貧血，同時有慢性血便、直腸脫垂、杵狀指、生長遲緩。\n出處：上課 slides W1（STHs）p.56 圖說：A. duodenale 每天可吸 0.2 ml，多於 N. americanus；p.55 鉤蟲最常見症狀為缺鐵性貧血。115 共筆 week1（審核v3）p.17：「吸血量遠低於鉤蟲（A. duodenale＞N. americanus＞T. trichiura）」；1151 寄蟲考古 Book1 p.31 本題答案為 (C)。\n※ 113 考古解答原本給 (A)，並寫鞭蟲 8.6 ml——這個數字是重度感染病人「整個人」一天的總失血量（文獻範圍約 0.8–8.6 ml/天），不是每隻蟲，因此答案有誤。",
   "topics": [
    "土源性蠕蟲"
   ],

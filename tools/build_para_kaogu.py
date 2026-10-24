@@ -229,8 +229,13 @@ TOPIC = {"intro": "總論：宿主與寄生型態", "sth": "土源性蠕蟲", "e
          "trematodes": "吸蟲"}
 # 關鍵字判斷錯的題目，手動指定（compare = 線蟲綜合比較）
 OVERRIDE = {"k113-nem-08": "intro", "k113-nem-10": "compare", "k113-nem-13": "intro", "k113-nem-w04": "compare"}
+# 113 解答本身有誤的題目，手動更正答案（詳解在 tools/explain_overrides.json）
+# k113-nem-28：每隻蟲失血量 A. duodenale 0.2 ＞ N. americanus 0.03 ＞ T. trichiura 0.005 ml → (C)，原解答 (A)
+ANSWER_FIX = {"k113-nem-28": ["C"]}
 for q in Q:
     q["chapter"] = OVERRIDE.get(q["id"], q["chapter"])
+    if q["id"] in ANSWER_FIX:
+        q["answer"] = ANSWER_FIX[q["id"]]
     if q["chapter"] == "compare":
         q["chapter"], q["topics"] = "intro", ["線蟲綜合比較"]
     else:

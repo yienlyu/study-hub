@@ -54,7 +54,7 @@
    "k113-bact-43": "細菌細胞壁成分：peptidoglycan（由 N-acetylglucosamine 與 N-acetylmuramic acid 交替，以 peptide chains 交聯）、G+ 的 teichoic acid、G− 的外膜與 LPS。\nCellulose（纖維素）是植物細胞壁的成分，不在細菌細胞壁 → 選 A（真菌細胞壁則是 chitin、β-glucan）。",
    "k113-bact-47": "細菌 DNA 複製從 origin 開始雙向進行（bidirectional），兩個複製叉都有 DNA polymerase 參與 → (A)「只參與一個方向」錯誤 → 選 A。\n(B) leading strand 連續合成；(C) lagging strand 以 RNA primer 起始、形成 Okazaki fragments；(D) helicase 解開雙股、gyrase（topoisomerase II）解除超螺旋。(E) 單一股的合成方向一定是 5′→3′，所以每一股只朝一個方向延長，敘述正確。",
    "k113-bact-50": "細菌遺傳變化的方式：(A) 突變（點突變、插入、刪除）；水平基因轉移三種：(B) 接合 conjugation（經 sex pilus 傳遞 plasmid，需細胞接觸）、(C) 轉形 transformation（吸收環境中裸露 DNA）、(D) 轉導 transduction（噬菌體攜帶 DNA）。四者都能造成遺傳改變 → 選 E。轉位子（transposon）也可在基因組內移動。",
-   "k113-bact-51": "Chlorhexidine 屬 biguanide（雙胍類），常用於手部消毒、手術前皮膚準備、漱口水，作用是破壞細胞膜 → 選 B。\nHexachlorophene、phenol、triclosan 都屬酚類（phenolics）。",
+   "k113-bact-51": "Chlorhexidine 屬 biguanide（雙胍類：分子裡有兩個胍基），帶正電、吸附並破壞帶負電的細菌細胞膜；低毒、作用快、不被深層組織吸收，殺 G+ 與 G− 但不殺芽孢。常用濃度：0.2% 漱口抗牙菌斑、0.4% 手術前刷手、2% 消毒 → 選 B。\nHexachlorophene、phenol、triclosan 都屬酚類（phenolics）。",
    "k113-innate-07": "(A) 正確：factor B 屬於 alternative pathway，classical pathway 不需要。\n(B) 正確：部分裂解片段（C3a、C5a，anaphylatoxins）會促進發炎。\n(C) 正確：C1 複合物（C1q 結合抗原抗體複合物上的 Fc，C1r、C1s 隨之活化）啟動 classical pathway。\n(D) 錯誤：classical pathway 第一個被活化的是 C1，不是 C3（C3 是三條路徑的匯合點；在 alternative pathway 中 C3 才是第一個）→ 選 D。",
    "k113-innate-44": "吞噬細胞的 opsonic receptors：Fc receptor（結合 IgG 調理）、complement receptor（CR1、CR3 結合 C3b、iC3b）、mannose receptor、scavenger receptor、CD14、TLR 等辨識病原的受體。\nMHC class II 是把胜肽呈現給 CD4 T 細胞的分子，與調理吞噬無關 → 選 D。",
    "k113-innate-51": "Opsonic／吞噬相關受體：mannose receptor、Fc receptor、complement receptor、CD14（LPS 的共受體）與 TLR。\n(A) 的錯誤在「CD15」：應為 CD14；CD15 是嗜中性球表面的醣類抗原（Lewis X），不是 opsonic receptor → 選 A。",
@@ -79,7 +79,7 @@
    "k113-mid111-09": "利用氧氣進行有氧呼吸時會產生毒性的活性氧（superoxide、H₂O₂、hydroxyl radical）。需氧菌能在有氧環境生存，是因為具有 superoxide dismutase（SOD）、catalase、peroxidase 等酵素清除這些自由基 → 選 C。\n嚴格厭氧菌缺乏這些酵素，所以氧氣對它們有毒。",
    "k113-mid111-10": "(A) 錯誤：延遲期（lag phase）細菌在適應環境、合成酵素，分裂少但不是「完全不生長」（縱軸是 log，看似水平但仍有變化）→ 選 A。\n(B) 正確：對數期細菌活躍分裂、多為活菌，對作用於細胞壁的抗生素（如 penicillin）最敏感。\n(C) 正確：穩定期營養耗盡、壓力大，較易出現存活下來的耐受或抗藥株。\n(D) 正確：世代時間（倍增時間）用對數期計算。",
    "k113-mid111-14": "(A) 正確：70% 酒精比 95% 有效，因為有水才能使蛋白質變性，且揮發較慢、能滲透。\n(B) 正確：戊二醛（glutaraldehyde）是高效消毒劑，延長時間可殺孢子（化學滅菌劑）。\n(C) 錯誤：高壓蒸氣滅菌（autoclave）是 121 °C、15 psi、約 15 分鐘以上，不是 100 °C → 選 C。\n(D) 正確：紫外線穿透力差，只能作用在直接照射的表面。",
-   "k113-mid111-15": "不耐熱的塑膠植入物、隱形眼鏡等醫材，工業上最常用游離輻射（gamma radiation）滅菌：穿透力強，可在包裝完成後滅菌，不留有毒殘留，但設備昂貴 → 選 B。\nUV 穿透力差；formaldehyde 有毒性殘留；phenol 只是消毒劑，不能滅菌。",
+   "k113-mid111-15": "不耐熱的塑膠植入物、隱形眼鏡等醫材，工業上最常用游離輻射（gamma radiation）滅菌：穿透力強，可在包裝完成後隔著包裝照射；不需加熱；不留有毒殘留；但放射源與設備昂貴，要在專門的照射廠進行 → 選 B。生物指示劑用 B. pumilus。\nUV 穿透力差、只能消毒；formaldehyde 有毒性殘留；phenol 只是消毒劑，不能滅菌。",
    "k113-mid111-16": "醫院紗布、布類、手術器械等耐熱耐濕的物品，最適當的滅菌方式是高壓蒸氣滅菌（121 °C、15 psi、約 15–20 分鐘），可殺死孢子、穿透布料 → 選 A。\n乾熱（170 °C、2 小時）適用玻璃、金屬、粉末、油類，會讓布類焦化；戊二醛用於不耐熱的內視鏡；UV 只能處理表面。",
    "k113-mid111-17": "牛奶用巴斯德殺菌法（pasteurization，如 63 °C 30 分鐘或 72 °C 15 秒）：殺死病原菌（如 Brucella、Mycobacterium、Listeria、Salmonella）並減少腐敗菌，但不是滅菌，以保留風味與營養 → 選 C。\n高壓蒸氣與乾熱會破壞牛奶品質；紫外線穿透不了液體。",
    "k113-mid111-26": "Protein A 是金黃色葡萄球菌細胞壁上的蛋白，會結合 IgG 的 Fc 區：抗體被「反向」抓住，Fc 無法與吞噬細胞的 Fc receptor 或補體 C1q 作用 → 抑制調理吞噬與補體活化（減少趨化）→ 選 B。\nEnterotoxin A：食物中毒（耐熱，也是 superantigen）；TSST-1：毒性休克症候群；exfoliative toxin：燙傷樣皮膚症候群（SSSS）。",
@@ -171,7 +171,9 @@
    "k113-nem-w06": "廣東住血線蟲的感染期是第三期幼蟲（L3）：在中間宿主（非洲大蝸牛、福壽螺、蛞蝓）體內由 L1 發育而成。人生吃螺肉、保幼宿主（淡水蝦、陸蟹、青蛙），或吃到被螺黏液污染的生菜而吃入 L3 → 幼蟲移行到中樞神經 → 嗜酸性腦膜炎。",
    "k113-nem-w13": "廣東住血線蟲又名鼠肺線蟲（rat lungworm）：最終宿主是大鼠，成蟲寄生在大鼠的肺動脈（和右心）。卵在肺微血管孵出 L1 → 經氣管吞下隨糞便排出 → 被螺吃下發育為 L3 → 大鼠吃螺後幼蟲先到腦發育，再經靜脈回到肺動脈成熟。人是意外宿主，幼蟲停在腦部不會成熟。",
    "k113-tre-w07": "會感染人類或動物並造成危害的吸蟲都屬雙殖目（Digenea）：有性世代（成蟲在最終宿主產卵）與無性世代（胞狀幼蟲、雷氏幼蟲在第一中間宿主螺體內增殖）交替，生活史需要一個以上的中間宿主。單殖目（Monogenea）、盾腹目（Aspidogastrea）生活史簡單，多寄生魚蝦與貝類，不在課程範圍。",
-   "k113-tre-w08": "Halzoun syndrome：生吃含牛羊肝吸蟲（Fasciola hepatica）成蟲的牛羊肝臟，未咀嚼碎的成蟲吸附在咽喉黏膜 → 局部水腫、吞嚥困難、呼吸困難，甚至暫時性窒息。牛羊肝吸蟲的其他重點：吃附著囊蚴的水生植物（水芹）感染、幼蟲穿肝實質移行（traumatic hepatitis）、PZQ 療效差，用 triclabendazole 或 bithionol。"
+   "k113-tre-w08": "Halzoun syndrome：生吃含牛羊肝吸蟲（Fasciola hepatica）成蟲的牛羊肝臟，未咀嚼碎的成蟲吸附在咽喉黏膜 → 局部水腫、吞嚥困難、呼吸困難，甚至暫時性窒息。牛羊肝吸蟲的其他重點：吃附著囊蚴的水生植物（水芹）感染、幼蟲穿肝實質移行（traumatic hepatitis）、PZQ 療效差，用 triclabendazole 或 bithionol。",
+   "k113-nem-22": "此病狀描述為感染鞭蟲之特徵。 ※嚴重感染才有臨床症狀（幼童較易發生） 小腸(幼蟲) 造成腸胃道疾病：腹痛、腹瀉、下痢、消化不良 盲腸(成蟲) 提肛肌麻痺，造成直腸脫垂(Rectal Prolapse) 吸血相關 會利用牙齒咬盲腸的上皮細胞，藉由吸吮流出的血液維生 吸血量：每隻蟲每天只約 0.005 ml，遠低於鉤蟲（A. duodenale > N. americanus > T. trichiura）；靠「蟲數多」才會失血 造成缺鐵性貧血（IDA）、杵狀指（Clubbing）、生長遲緩(Growth Retardation)",
+   "k113-nem-28": "答案 (C)。每隻蟲每天造成的失血量：Ancylostoma duodenale 約 0.2 ml ＞ Necator americanus 約 0.03 ml ＞ Trichuris trichiura 約 0.005 ml。「感染相同的嚴重」= 同樣蟲數比較，所以十二指腸鉤蟲最多、鞭蟲最少（鞭蟲比美洲鉤蟲少 6–10 倍、比十二指腸鉤蟲少 30–50 倍；Layrisse 1967）。\n鞭蟲只有在非常重度的感染（大量蟲體，多為幼童，Trichuris dysentery syndrome）才會造成缺鐵性貧血，同時有慢性血便、直腸脫垂、杵狀指、生長遲緩。\n出處：上課 slides W1（STHs）p.56 圖說：A. duodenale 每天可吸 0.2 ml，多於 N. americanus；p.55 鉤蟲最常見症狀為缺鐵性貧血。115 共筆 week1（審核v3）p.17：「吸血量遠低於鉤蟲（A. duodenale＞N. americanus＞T. trichiura）」；1151 寄蟲考古 Book1 p.31 本題答案為 (C)。\n※ 113 考古解答原本給 (A)，並寫鞭蟲 8.6 ml——這個數字是重度感染病人「整個人」一天的總失血量（文獻範圍約 0.8–8.6 ml/天），不是每隻蟲，因此答案有誤。"
   }
  }
 }
