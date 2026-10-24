@@ -58,22 +58,15 @@
     },
     {
       "title": "組織線蟲",
-      "chapters": [
-        "foodborne",
-        "filaria"
-      ]
+      "chapters": ["foodborne", "filaria"]
     },
     {
-      "title": "吸蟲（尚未上課）",
-      "chapters": [
-        "trematodes"
-      ]
+      "title": "吸蟲",
+      "chapters": ["trematodes"]
     },
     {
       "title": "實驗課",
-      "chapters": [
-        "nematode-lab"
-      ]
+      "chapters": ["nematode-lab"]
     }
   ],
   "mock": {
@@ -99,9 +92,7 @@
         "title": "鄭柏青：吸蟲",
         "points": 40,
         "n": 20,
-        "from": [
-          "trematodes"
-        ]
+        "from": ["trematodes"]
       }
     ],
     "newRatio": 0.2
