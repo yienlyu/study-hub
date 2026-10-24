@@ -452,6 +452,55 @@
   "caption": "LPS 先被 <strong>LPS-binding protein</strong> 抓住，交給 <strong>CD14</strong>，再活化 <strong>TLR4</strong> → MyD88 → NF-κB、AP-1 → 發炎 cytokine。"
  },
  {
+  "id": "mannose-receptor",
+  "chapter": "innate",
+  "title": "Opsonic receptor (1)：Mannose receptor",
+  "topics": [
+   "調理作用／opsonic receptor"
+  ],
+  "keywords": "mannose receptor C-type lectin domain cysteine-rich mannosylated ligand opsonic receptor",
+  "caption": "頭端 cysteine-rich lectin domain 認硫酸化醣類；下面 <strong>8 個 C-type lectin domains</strong> 才是認 <strong>mannose</strong>（mannosylated ligand）的部分。",
+  "type": "slide",
+  "src": "figures/slides/mannose-receptor.webp",
+  "deck": "W2-2 Innate immunity",
+  "page": "33",
+  "w": 1400,
+  "h": 1449
+ },
+ {
+  "id": "fc-receptor",
+  "chapter": "innate",
+  "title": "Opsonic receptor (2)：Fcγ receptors",
+  "topics": [
+   "調理作用／opsonic receptor"
+  ],
+  "keywords": "Fc receptor FcγRI CD64 FcγRIIa CD32 FcγRIIIa FcγRIIIb CD16 GPI anchor IgG monocyte neutrophil",
+  "caption": "抓被 <strong>IgG</strong> 包住的病原：FcγRI（<strong>CD64</strong>）→ monocyte；FcγRIIa（<strong>CD32</strong>）→ monocyte／neutrophil；FcγRIIIa（<strong>CD16</strong>）→ monocyte；FcγRIIIb（CD16，<strong>GPI anchor</strong>）→ neutrophil。",
+  "type": "slide",
+  "src": "figures/slides/fc-receptor.webp",
+  "deck": "W2-2 Innate immunity",
+  "page": "34",
+  "w": 1400,
+  "h": 1102
+ },
+ {
+  "id": "complement-receptor",
+  "chapter": "innate",
+  "title": "Opsonic receptor (3)：Complement receptors CR1–4",
+  "topics": [
+   "調理作用／opsonic receptor",
+   "補體系統"
+  ],
+  "keywords": "complement receptor CR1 CD35 CR2 CD21 CR3 CD11b CD18 CR4 CD11c integrin CCP repeat FDC",
+  "caption": "CR1（<strong>CD35</strong>）在吞噬細胞、紅血球；CR2（<strong>CD21</strong>）在 <strong>B 細胞、FDC</strong>（不在吞噬細胞上）；<strong>CR3（CD11b/CD18）、CR4（CD11c/CD18）是 integrin</strong>，在單核吞噬細胞與 NK。",
+  "type": "slide",
+  "src": "figures/slides/complement-receptor.webp",
+  "deck": "W2-2 Innate immunity",
+  "page": "35",
+  "w": 1400,
+  "h": 748
+ },
+ {
   "id": "ig-classes",
   "chapter": "agab",
   "title": "五種抗體的結構與特點",

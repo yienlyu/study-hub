@@ -19,7 +19,8 @@ IMDEF = "1151_免疫缺陷疾病.pdf"
 HOST = "20261007 宿主對感染之防衛.pptx"
 BACI = "Bacillus_ Listeria_ Corynebacterium.pptx"
 ENTE = "腸桿菌及弧菌.pptx"
-DECK = {STER: "Sterilization, disinfection & antisepsis", IMDEF: "W18 免疫缺陷疾病", HOST: "1007 宿主對感染之防衛",
+INNATE = "Innate immunity 講義2026.pdf"
+DECK = {INNATE: "W2-2 Innate immunity", STER: "Sterilization, disinfection & antisepsis", IMDEF: "W18 免疫缺陷疾病", HOST: "1007 宿主對感染之防衛",
         BACI: "Bacillus, Listeria, Corynebacterium", ENTE: "腸桿菌科與弧菌"}
 
 
@@ -77,6 +78,16 @@ NEW = [
  slide("slide-disinfectant-levels", "sterilization", "消毒劑等級與使用時機", ["消毒劑等級"],
        "high intermediate low level disinfectant critical semicritical noncritical Spaulding",
        "<strong>Critical</strong>（進入無菌組織：手術器械）→ 滅菌；<strong>Semicritical</strong>（接觸黏膜：內視鏡）→ 高等級消毒；<strong>Noncritical</strong>（完整皮膚：血壓計）→ 低中等級。", STER, 15),
+ # ---------------- 先天免疫：四種 opsonic receptors（p32 總覽 phagocytosis、p36 tlr4 已在 figures.json）
+ slide("mannose-receptor", "innate", "Opsonic receptor (1)：Mannose receptor", ["調理作用／opsonic receptor"],
+       "mannose receptor C-type lectin domain cysteine-rich mannosylated ligand opsonic receptor",
+       "頭端 cysteine-rich lectin domain 認硫酸化醣類；下面 <strong>8 個 C-type lectin domains</strong> 才是認 <strong>mannose</strong>（mannosylated ligand）的部分。", INNATE, 33, (0.255, 0.17, 0.77, 0.94)),
+ slide("fc-receptor", "innate", "Opsonic receptor (2)：Fcγ receptors", ["調理作用／opsonic receptor"],
+       "Fc receptor FcγRI CD64 FcγRIIa CD32 FcγRIIIa FcγRIIIb CD16 GPI anchor IgG monocyte neutrophil",
+       "抓被 <strong>IgG</strong> 包住的病原：FcγRI（<strong>CD64</strong>）→ monocyte；FcγRIIa（<strong>CD32</strong>）→ monocyte／neutrophil；FcγRIIIa（<strong>CD16</strong>）→ monocyte；FcγRIIIb（CD16，<strong>GPI anchor</strong>）→ neutrophil。", INNATE, 34, (0.27, 0.14, 1.0, 0.97)),
+ slide("complement-receptor", "innate", "Opsonic receptor (3)：Complement receptors CR1–4", ["調理作用／opsonic receptor", "補體系統"],
+       "complement receptor CR1 CD35 CR2 CD21 CR3 CD11b CD18 CR4 CD11c integrin CCP repeat FDC",
+       "CR1（<strong>CD35</strong>）在吞噬細胞、紅血球；CR2（<strong>CD21</strong>）在 <strong>B 細胞、FDC</strong>（不在吞噬細胞上）；<strong>CR3（CD11b/CD18）、CR4（CD11c/CD18）是 integrin</strong>，在單核吞噬細胞與 NK。", INNATE, 35, (0.05, 0.20, 0.97, 0.91)),
  # ---------------- 對抗感染的免疫反應
  slide("slide-infection-sites", "infection-immunity", "感染部位決定防禦機制", ["胞外感染", "胞內感染"],
        "extracellular intracellular cytoplasmic vesicular complement macrophage antimicrobial peptides NK cells activated macrophages",

@@ -66,6 +66,34 @@ Macrophage：吞噬 → phagosome（酸化、H₂O₂、NO、TNF-α）→ 與 ly
 
 <div data-fig="phagocytosis"></div>
 
+**(1) Mannose receptor**：頭端 cysteine-rich domain；**8 個 C-type lectin domains** 才是認 mannose 的部分。
+
+<div data-fig="mannose-receptor"></div>
+
+**(2) Fc receptor**：抓 IgG 包住的病原。
+
+| 受體 | CD | 細胞 |
+|---|---|---|
+| FcγRI | **CD64** | monocyte |
+| FcγRIIa | **CD32** | monocyte / neutrophil |
+| FcγRIIIa | **CD16** | monocyte |
+| FcγRIIIb | **CD16**（**GPI anchor**） | neutrophil |
+
+<div data-fig="fc-receptor"></div>
+
+**(3) Complement receptor**
+
+| 受體 | CD | 表現在 |
+|---|---|---|
+| CR1 | **CD35** | 吞噬細胞、紅血球、淋巴球 |
+| CR2 | **CD21** | **B cell、FDC**（不在吞噬細胞上） |
+| CR3 | **CD11b / CD18**（integrin） | 單核吞噬細胞、NK |
+| CR4 | **CD11c / CD18**（integrin） | 單核吞噬細胞、NK |
+
+<div data-fig="complement-receptor"></div>
+
+**(4) CD14 + TLR4**：LPS → LPS-binding protein → CD14 → TLR4 → MyD88 → NF-κB。
+
 <div data-fig="tlr4"></div>
 
 
