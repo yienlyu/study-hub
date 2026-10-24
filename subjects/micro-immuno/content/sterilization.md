@@ -27,6 +27,29 @@
 
 - 濕熱注意：蒸氣要接觸物品表面、物品不怕熱/濕、**不能有空氣**；液體瓶要鬆蓋、冷到 80°C 再開。
 
+### 游離輻射（γ ray）滅菌 ⭐
+- **原理**：能量高到能把電子打出原子軌道（游離）→ **直接打斷雙股 DNA**，斷點太多、細菌修不回來；同時讓水分子游離產生**自由基**，間接傷害 DNA 與蛋白。連 **endospore** 都殺得死 → 屬於**滅菌**。
+- **種類**：**γ ray**（最常用，放射源為鈷-60）、X-ray、cathode ray（陰極射線＝電子束）。
+- **優點**：
+  - **穿透力強** → 可以**隔著包裝照射**，包好、封好再滅菌，拆封前都保持無菌。
+  - **不需要加熱**（低溫滅菌）→ 適合**怕熱的塑膠**。
+  - **沒有毒性殘留**（ETO 要通氣、formaldehyde 有殘毒）。
+- **缺點**：設備與放射源昂貴，要在專門的照射工廠做，醫院裡不會自己照；**不能用在人身上**（會傷害活組織）。
+- **用途**：
+  - 一次性**無菌包裝耗材**：棉棒、紗布、注射器、手套、縫線、導管。
+  - 不耐熱的**塑膠植入物、隱形眼鏡**等醫材（111 考古答案）。
+  - **食品**：老師舉例**進口水果**照 γ ray 延長保鮮、不會運送途中發霉。
+- **監測**：生物指示劑用 ***B. pumilus***（對輻射抗性高）。
+
+| | 游離輻射 | 非游離輻射 |
+|---|---|---|
+| 種類 | **γ ray**、X-ray、cathode ray | **UV** |
+| 能量／穿透力 | 高／**強**，可穿透包裝 | 低／**差**，要**直接照射**表面 |
+| 傷害 DNA 的方式 | **打斷 dsDNA**＋自由基 | 相鄰 **pyrimidine 形成 dimer**（共價鍵）→ 複製出錯 |
+| 等級 | **滅菌** | **消毒** |
+| 常見用途 | 包裝好的無菌耗材、塑膠植入物、食品 | 生物安全櫃、空氣與表面 |
+| 對人 | 不能照人 | 也傷人（皮膚、眼睛） |
+
 <div data-fig="slide-control-methods"></div>
 
 <div data-fig="slide-autoclave"></div>
@@ -52,8 +75,30 @@
 - **Alcohol（70%，intermediate）**：溶解膜脂、凝固蛋白；**70% 比 95% 有效**；揮發快無殘留、易燃、被有機物失活。
 - **Phenolics（low–intermediate）**：不易被有機物降解 → 粗消毒；殺病毒、孢子差。
 - **Halogens**：氯（漂白水；自來水、泳池）、**Povidone-iodine**（穩定、對組織無毒、貴）。
-- **Chlorhexidine（biguanide）**：一個氯 + 兩個 phenolic rings；低毒、快速、不深入組織；殺 G+ G− 但**不殺孢子**；0.2%（漱口抗牙菌斑）、0.4%（刷手）、2%（消毒）。
+- **Chlorhexidine（biguanide）**：一個氯 + 兩個 phenolic rings；低毒、快速、不深入組織；殺 G+ G− 但**不殺孢子**；0.2%（漱口抗牙菌斑）、0.4%（刷手）、2%（消毒）。詳見下方。
 - Quaternary ammonium（cationic detergents）：破壞膜。
+
+### Biguanide（雙胍類）：chlorhexidine ⭐
+- **名字**：bi-（二）＋ guanide（胍基）→ 分子裡有**兩個胍基**連在一起。代表藥就是 **chlorhexidine**（環己定、氯己定），結構是兩端各一個**含氯的苯環**、中間是雙胍基與碳鏈。slides 寫成「**chlorine and two phenolic rings**」，考試照這個說法即可。
+- **作用機制**：分子**帶正電（cationic）** → 吸附在帶負電的細菌細胞膜上 → 破壞膜、讓細胞內容物漏出；高濃度時讓細胞質凝結。低濃度抑菌、高濃度殺菌。
+- **特性**（slides）：
+  - **低毒性、作用快**，**幾乎不會被吸收到深層組織** → 可以安心用在皮膚與黏膜（所以是**防腐劑**）。
+  - 殺 **G+ 與 G−**，但**不殺芽孢**；屬 **low–intermediate level**。
+  - 會附著在皮膚上一段時間、持續作用（殘留效果），這點比酒精好。
+
+| 濃度（今年 slides 新增，可能出配對題） | 用途 |
+|---|---|
+| **0.2%** chlorhexidine gluconate | **漱口水**、抗牙菌斑（antiplaque） |
+| **0.4%**（加清潔劑） | **手術前刷手**（surgical scrub） |
+| **2%** | 消毒 |
+
+- **臨床**（老師：「這個你要記得」）：
+  - 醫院最常聽到的防腐劑，常和 **povidone-iodine 交替使用**。
+  - 感染控制會幫病人**全身擦 chlorhexidine**，降低被抗藥菌感染的機會。
+  - 手術前刷手、病人皮膚消毒。
+- ⚠️ **易混**：
+  - **Hexachlorophene、triclosan、phenol 都是酚類（phenolics）**，不是 biguanide（113 考古）。
+  - 糖尿病藥 **metformin** 也屬 biguanide，同名但是不同用途，別搞混。
 
 ## 6. 滅菌監測
 - Mechanical（溫度、壓力表）→ Chemical / process indicator（滅菌膠帶，**只證明有跑過流程**）→ **Biological indicator（唯一能證明滅菌）**：
@@ -88,11 +133,11 @@
 - Dry heat（p.6）：incineration、hot-air oven 150–180°C（160–170°C 60–90 min，加風扇均溫）。
 - Moist heat（p.7）：autoclave 121°C 10–40 min（15 psi）、flash 134°C 3 min（2.04 bar）、boiling 100°C 30 min；**Air should not be present!**；autoclave safety。
 - Pasteurization（p.8）：LTLT / HTST / UHT。
-- Radiation（p.10–11）：ionizing（滅菌）vs UV（消毒、pyrimidine dimers）。
+- Radiation（p.10–11）：**ionizing**（p.10：deep penetrating power、能把電子打出軌道、break DNA；gamma rays、X-rays、cathode rays；用於 **medical supplies 與 food products** → 滅菌）vs **nonionizing UV**（p.11：穿透力小、must be directly exposed、pyrimidine dimers、harm for human tissue → 消毒）。
 - Filtration（p.12）：0.22–0.45 μm、HEPA、BSC。
 - Chemical agents（p.13–15）：alkylating、oxidizing、halogens、phenolics、QACs、alcohols；**high / intermediate / low level**。
 - Sterilants（p.16–21）：ETO（>10.8°C gas、explosive、dilute with CO₂/N₂）、glutaraldehyde（alkaline、14-day shelf life、endoscope）、oxidizing agents、**plasma**（expensive、metal/plastic、arthroscopic）、**supercritical CO₂（45°C、implants）**。
-- Disinfectants & antiseptics（p.22–23）：alcohol 70% > 95%、phenolics、halogens（povidone-iodine）、**chlorhexidine 三種濃度**。
+- Disinfectants & antiseptics（p.22–23）：alcohol 70% > 95%、phenolics、halogens（povidone-iodine）、**chlorhexidine**（p.23：chlorine and two phenolic rings、low toxicity、rapid action、not absorbed into deeper tissues、G+ 與 G− 但不殺 spores、low–intermediate level；**0.2% 漱口抗牙菌斑、0.4% 刷手、2% 消毒**）。
 - Monitoring（p.24）：mechanical / chemical / **biological（B. subtilis、B. pumilus、B. stearothermophilus）**。
 - Practical concerns（p.25）。
 
@@ -108,10 +153,12 @@
 2. **Autoclave 條件 121°C**（「100°C 15 分鐘」是錯的）。
 3. **70% 酒精比 95% 有效**。
 4. **Supercritical CO₂ 條件**：>73.8 atm、45°C（考過數字選擇題）。
-5. **Biguanide = Chlorhexidine**（hexachlorophene、triclosan 是 phenolics）。
+5. **Biguanide（雙胍類）= Chlorhexidine**（hexachlorophene、triclosan、phenol 是 phenolics）；chlorhexidine 0.2／0.4／2% 配對用途。
+6. **γ ray 為什麼能滅菌**：游離輻射打斷 dsDNA、穿透力強可隔著包裝照、不需加熱、無毒性殘留 → 包裝好的無菌耗材、塑膠植入物；**不能照在人身上**。
 
 ## ⚠️ 陷阱
 - UV：需直接照射、會傷人 → 屬消毒不是滅菌。
+- γ ray 是**滅菌物品**用的，不能拿來消毒手或皮膚（選項「加馬射線直接照射」皮膚 → 錯）。
 - Chemical indicator 不能證明滅菌成功。
 - Glutaraldehyde 在「鹼性」才活化（不是酸性）。
 

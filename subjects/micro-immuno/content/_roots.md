@@ -55,6 +55,8 @@
 | -cidal／-static | 殺死／抑制 | bactericidal、bacteriostatic |
 | sept-／a- | 腐敗／沒有 | sepsis、antisepsis、asepsis |
 | steril- | 無菌 | sterilization（連芽孢都殺） |
+| bi- + guanide | 二 + 胍基 | biguanide（雙胍類）：chlorhexidine |
+| ion- + -izing | 離子 → 把電子打出來 | ionizing radiation（γ ray，滅菌）vs nonionizing（UV，消毒） |
 
 ## 致病與毒素
 

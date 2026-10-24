@@ -1368,7 +1368,7 @@
   "answer": [
    "B"
   ],
-  "explain": "老師上課只有提到(A)可以，以下參考：WHO (2008) Anthrax in humans and animals 4 edition\n原文：UV should not be relied on alone for decontamination, but should be used in conjunction with wiping the items to be decontaminated with towelling moistened with hypochlorite or possibly formalin.（p.135）\n(E) 原文：The theoretical options for sporicidal fumigants are formaldehyde, ethylene oxide, methyl bromide, hydrogen peroxide vapour and chlorine dioxide.（p.154）（ethylene oxide即ETO；hydrogen peroxide vapour即plasma gas）\n原文：The principal disinfecting agents for destruction of anthrax spores are formaldehyde, glutaraldehyde (at pH 8.0–8.5), hydrogen peroxide and peracetic acid.（p.154）故選(B)，僅經UV light處理難以完全去除炭疽桿菌",
+  "explain": "炭疽桿菌（B. anthracis）會形成抗性極高的芽孢，皮毛要做成衣物，必須用能殺芽孢、又能處理不耐熱皮革的方法。\n(A) Gamma radiation：可以。游離輻射穿透力強、打斷 dsDNA，連芽孢都殺得死，而且不用加熱、沒有毒性殘留，老師上課也說可以。\n(B) UV light：不行 → 選 B。UV 是非游離輻射，穿透力差、只作用在直接照到的表面，毛皮的皺褶與毛根照不到，只能達到消毒等級、殺不乾淨芽孢。WHO（2008）Anthrax in humans and animals 也說 UV 不能單獨用於除污（p.135）。\n(C) ETO：可以。環氧乙烷是低溫氣體滅菌劑（alkylating），可殺芽孢、能滲進皮毛。\n(D) Glutaraldehyde：可以。鹼性（pH 8.0–8.5）時可殺芽孢，是化學滅菌劑（WHO p.154）。\n(E) Plasma gas：可以。離子化 H₂O₂／過醋酸屬氧化型滅菌劑，WHO 列出的殺芽孢燻蒸劑包含 hydrogen peroxide vapour（p.154）。",
   "topics": [
    "滅菌與消毒"
   ],
@@ -1868,7 +1868,7 @@
   "answer": [
    "B"
   ],
-  "explain": "Chlorhexidine 屬 biguanide（雙胍類），常用於手部消毒、手術前皮膚準備、漱口水，作用是破壞細胞膜 → 選 B。\nHexachlorophene、phenol、triclosan 都屬酚類（phenolics）。",
+  "explain": "Chlorhexidine 屬 biguanide（雙胍類：分子裡有兩個胍基），帶正電、吸附並破壞帶負電的細菌細胞膜；低毒、作用快、不被深層組織吸收，殺 G+ 與 G− 但不殺芽孢。常用濃度：0.2% 漱口抗牙菌斑、0.4% 手術前刷手、2% 消毒 → 選 B。\nHexachlorophene、phenol、triclosan 都屬酚類（phenolics）。",
   "topics": [
    "滅菌與消毒"
   ],
@@ -13465,7 +13465,7 @@
   "answer": [
    "B"
   ],
-  "explain": "不耐熱的塑膠植入物、隱形眼鏡等醫材，工業上最常用游離輻射（gamma radiation）滅菌：穿透力強，可在包裝完成後滅菌，不留有毒殘留，但設備昂貴 → 選 B。\nUV 穿透力差；formaldehyde 有毒性殘留；phenol 只是消毒劑，不能滅菌。",
+  "explain": "不耐熱的塑膠植入物、隱形眼鏡等醫材，工業上最常用游離輻射（gamma radiation）滅菌：穿透力強，可在包裝完成後隔著包裝照射；不需加熱；不留有毒殘留；但放射源與設備昂貴，要在專門的照射廠進行 → 選 B。生物指示劑用 B. pumilus。\nUV 穿透力差、只能消毒；formaldehyde 有毒性殘留；phenol 只是消毒劑，不能滅菌。",
   "topics": [
    "滅菌與消毒"
   ],

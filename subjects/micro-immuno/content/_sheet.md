@@ -36,7 +36,9 @@
 | Disinfection | ✗（high-level 例外） | 無生命物品 |
 | Antisepsis | ✗ | 皮膚、活組織 |
 
-- Autoclave **121°C、15 psi**；乾熱 160–170°C；UV → pyrimidine dimer（穿透差）。
+- Autoclave **121°C、15 psi**；乾熱 160–170°C。
+- **γ ray（游離輻射）= 滅菌**：打斷 dsDNA、可隔包裝照、不用加熱、無殘毒 → 無菌耗材、塑膠植入物、進口水果；**UV（非游離）= 消毒**：pyrimidine dimer、穿透差、要直接照。
+- **Chlorhexidine = biguanide（雙胍類）**：帶正電破壞膜、殺 G+ G− 不殺芽孢；**0.2% 漱口、0.4% 刷手、2% 消毒**；hexachlorophene、triclosan 是酚類。
 - 生物指標：**濕熱 B. stearothermophilus**、乾熱 / ETO B. subtilis、輻射 B. pumilus。
 - 70% 酒精比 95% 有效；glutaraldehyde 鹼性活化、用於內視鏡。
 

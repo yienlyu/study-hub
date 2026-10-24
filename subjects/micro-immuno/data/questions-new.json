@@ -603,7 +603,7 @@
   "answer": [
    "B"
   ],
-  "explain": "B. subtilis：乾熱、ETO；B. pumilus：radiation；B. stearothermophilus：濕熱。",
+  "explain": "B. subtilis：乾熱、ETO；B. pumilus：radiation；B. stearothermophilus：濕熱。\nRadiation 指的是游離輻射（γ ray）滅菌，B. pumilus 對輻射抗性高，所以拿來當指示劑。",
   "topics": [
    "滅菌與消毒"
   ],
@@ -630,13 +630,13 @@
    },
    {
     "k": "D",
-    "t": "It is used for endoscopes"
+    "t": "It is commonly used to disinfect endoscopes（內視鏡）"
    }
   ],
   "answer": [
    "B"
   ],
-  "explain": "Glutaraldehyde 在鹼性（2% + 0.3% NaHCO₃）才活化，活化後保存 14 天。",
+  "explain": "(A) 正確：glutaraldehyde 是 high-level 消毒劑，延長浸泡時間可殺芽孢（sporicidal），屬化學滅菌劑（cold sterilization）。\n(B) 錯誤 → 選 B：glutaraldehyde 要在鹼性才活化（2% + 0.3% NaHCO₃），不是酸性；活化後保存 14 天。\n(C) 正確：會被有機物（血液、黏液）失活，所以器械要先清洗乾淨再浸泡。\n(D) 正確：endoscopes 是內視鏡（不是 endospores 芽孢）。內視鏡不耐高溫，臨床上最常泡 glutaraldehyde／OPA，泡完要用清水沖乾淨。",
   "topics": [
    "滅菌與消毒"
   ],
@@ -669,7 +669,7 @@
   "answer": [
    "B"
   ],
-  "explain": "Chlorhexidine：0.2% 漱口、0.4% 刷手、2% 消毒；屬 biguanide。",
+  "explain": "Chlorhexidine：0.2% 漱口、0.4% 刷手、2% 消毒；屬 biguanide。\nBiguanide（雙胍類）帶正電、破壞細菌細胞膜；殺 G+ 與 G− 但不殺芽孢，常與 povidone-iodine 交替使用。",
   "topics": [
    "滅菌與消毒"
   ],
