@@ -1049,7 +1049,7 @@
         emptyState(
           "找不到這一頁",
           "網址可能打錯了，或這個頁面已經移動。",
-          `<a class="btn primary" href="#/">${ic("home")}回首頁</a>`,
+          `<a class="btn primary" href="#/">${ic("home")}回首頁</a><a class="egg-dice" href="#/play" aria-label="迷路了？來玩小遊戲" title="迷路了？">🎲</a>`,
         ),
       );
     } catch (e) {
@@ -3451,6 +3451,7 @@
             <div class="toolbar">
               ${wrongQs.length ? `<a class="btn accent" href="#/s/${sid}/practice?${qs({ ids: wrongQs.map((x) => x.id).join(","), start: 1 })}">${ic("rotate")}重做這 ${wrongQs.length} 題錯題</a>` : ""}
               <a class="btn primary" href="#/s/${sid}/practice">${ic("shuffle")}再練一組</a>
+              ${c.done >= 10 && c.w === 0 ? `<a class="btn ghost" href="#/play">🎮 全對！獎勵你玩一盤</a>` : ""}
               <a class="btn" href="#/s/${sid}">回總覽</a>
             </div>
           </div>
@@ -3812,6 +3813,7 @@
             <div class="toolbar">
               ${miss.length ? `<a class="btn accent" href="#/s/${sid}/practice?${qs({ ids: miss.map((x) => x.qq.id).join(","), start: 1 })}">${ic("rotate")}重做這 ${miss.length} 題</a>` : ""}
               <a class="btn primary" href="#/s/${sid}/mock?start=new">${ic("shuffle")}再考一份</a>
+              ${p >= 90 ? `<a class="btn ghost" href="#/play">🎮 考這麼好，獎勵你玩一盤</a>` : ""}
               <a class="btn" href="#/s/${sid}/mock">回模擬考</a>
             </div>
           </div>
@@ -5146,28 +5148,46 @@
   });
 
   // ------------------------------------------------------------ easter eggs → #/play
-  // 入口：連點首頁培養皿 5 下、連點頁尾「Study Hub」3 下、在頁面上直接打 play、搜尋「遊戲」
+  // 入口：連點首頁培養皿 5 下、連點頁尾「Study Hub」3 下、連點左上 logo 7 下、在頁面上直接打 play、
+  // Konami code（↑↑↓↓←→←→BA）、連續切換深淺色 6 次、搜尋「遊戲」、404 頁的骰子、
+  // 練習全對（10 題以上）或模擬考 90 分以上的結果頁
   function findEgg(msg) {
     toast(msg);
     setTimeout(() => (location.hash = "#/play"), 700);
   }
+  // 在 ms 內連續觸發 times 次就開彩蛋
+  const rapid = (el, times, ms, msg) => {
+    let n = 0,
+      h = 0;
+    el?.addEventListener("click", () => {
+      clearTimeout(h);
+      h = setTimeout(() => (n = 0), ms);
+      if (++n === times) {
+        n = 0;
+        findEgg(msg);
+      }
+    });
+  };
   {
-    let typed = "";
+    const KONAMI = "ArrowUp ArrowUp ArrowDown ArrowDown ArrowLeft ArrowRight ArrowLeft ArrowRight b a";
+    let typed = "",
+      keys = [];
     addEventListener("keydown", (e) => {
-      if (e.metaKey || e.ctrlKey || e.altKey || e.key.length !== 1) return;
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
       if (!cmdk.hidden || e.target.matches?.("input, textarea, select")) return;
-      if (location.hash.startsWith("#/play")) return;
+      if (location.hash.startsWith("#/play") || $("#qslot")) return;
+      keys = [...keys, e.key.length === 1 ? e.key.toLowerCase() : e.key].slice(-10);
+      if (keys.join(" ") === KONAMI) {
+        keys = [];
+        return findEgg("🕹️ ↑↑↓↓←→←→BA，老玩家喔");
+      }
+      if (e.key.length !== 1) return;
       typed = (typed + e.key.toLowerCase()).slice(-4);
       if (typed === "play") findEgg("🎮 被你發現了！");
     });
-    const sig = $(".site-footer .sig");
-    let n = 0,
-      h = 0;
-    sig?.addEventListener("click", () => {
-      clearTimeout(h);
-      h = setTimeout(() => (n = 0), 600);
-      if (++n === 3) findEgg("✨ 你找到彩蛋了");
-    });
+    rapid($(".site-footer .sig"), 3, 600, "✨ 你找到彩蛋了");
+    rapid($(".masthead .logo"), 7, 700, "🔬 菌落太多了，出去透透氣吧");
+    rapid(themeBtn, 6, 900, "🌗 眼睛累了嗎？來玩點別的");
   }
 
   // boot: wait for marked (deferred) then route

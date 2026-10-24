@@ -1055,3 +1055,7 @@ a.icon-btn { text-decoration: none; }
 .mock-bar { height: 4px; border-radius: 999px; background: var(--rule); margin-top: 6px; max-width: 240px; overflow: hidden; }
 .mock-bar i { display: block; height: 100%; background: var(--good); }
 .mock-yours { font-size: .82rem; color: var(--bad); margin: 18px 0 6px; font-weight: 500; }
+
+/* 404 頁的骰子彩蛋：淡淡的，滑過才看得清楚 */
+.egg-dice { display: inline-block; margin-left: 14px; font-size: 1.1rem; opacity: .18; text-decoration: none; vertical-align: middle; transition: opacity .3s, transform .4s var(--ease); }
+.egg-dice:hover, .egg-dice:focus-visible { opacity: 1; transform: rotate(180deg); text-decoration: none; }
