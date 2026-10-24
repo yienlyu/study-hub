@@ -321,6 +321,36 @@
   "caption": "B 細胞在皮質的 <strong>follicle</strong>（活化後形成 germinal center），T 細胞在<strong>副皮質區</strong>；抗原由輸入淋巴管進來。"
  },
  {
+  "id": "car-structure",
+  "chapter": "immuno-basic",
+  "title": "CAR-T：CAR 的構造與重點",
+  "topics": [],
+  "keywords": "CAR-T chimeric antigen receptor scFv anti-CD19 4-1BB CD28 CD3 zeta ITAM CTLA-4 MHC restriction CRS cytokine release syndrome Kymriah Yescarta",
+  "caption": "🔥 <strong>高頻考點</strong>：CAR = <strong>scFv（anti-CD19）+ 4-1BB + CD3ζ</strong>，像抗體一樣直接認表面抗原 → <strong>繞過 MHC</strong>；<strong>CTLA-4 不是 CAR 的零件</strong>。最常見副作用 = <strong>CRS</strong>。"
+ },
+ {
+  "id": "car-t-production",
+  "chapter": "immuno-basic",
+  "title": "製造超級士兵：CAR-T 細胞",
+  "topics": [],
+  "keywords": "CAR-T production retroviral vector chimeric antigen receptor super-soldier",
+  "caption": "病人自己的 T 細胞被 <strong>retroviral vector</strong> 轉入 CAR 基因 → 長出 Chimeric Antigen Receptor 的「超級士兵」。",
+  "type": "slide",
+  "src": "figures/slides/car-t-production.webp",
+  "deck": "W2-1 Basic concepts in immunology",
+  "page": "76",
+  "w": 1400,
+  "h": 692
+ },
+ {
+  "id": "ici",
+  "chapter": "immuno-basic",
+  "title": "免疫檢查點抑制劑：CTLA-4 vs PD-1",
+  "topics": [],
+  "keywords": "immune checkpoint inhibitor ICI blockade CTLA-4 PD-1 PD-L1 B7 CD28 ipilimumab pembrolizumab nivolumab Keytruda Opdivo irAE Allison Honjo exhaustion",
+  "caption": "🔥 <strong>高頻考點</strong>：<strong>CTLA-4 ↔ B7</strong>（淋巴結、活化早期，Allison）、<strong>PD-1 ↔ PD-L1</strong>（腫瘤旁、作用期，本庶佑）。用抗體擋住煞車 → T 細胞 reactivate；代價是 <strong>irAE</strong>（自體免疫）。"
+ },
+ {
   "id": "extravasation",
   "chapter": "innate",
   "title": "白血球移出血管三步驟",

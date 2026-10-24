@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 376" role="img" aria-label="免疫檢查點抑制劑：左為 CTLA-4，在淋巴結活化早期與 CD28 搶 APC 上的 B7，anti-CTLA-4 抗體擋住後 B7 留給 CD28；右為 PD-1，在腫瘤旁作用期與腫瘤細胞的 PD-L1 結合使 T 細胞停擺，anti-PD-1 或 anti-PD-L1 抗體擋住後 T 細胞恢復殺腫瘤；副作用為 irAE 自體免疫">
+<text x="20" y="22" class="th">① CTLA-4：淋巴結・活化早期（priming）</text>
+<text x="410" y="22" class="th">② PD-1：腫瘤旁・作用期（effector）</text>
+<path d="M394 30V290" class="lt"/>
+<rect x="-10" y="44" width="120" height="186" rx="22" class="fp"/><rect x="270" y="44" width="114" height="186" rx="22" class="bx" style="stroke:none;fill:color-mix(in srgb, var(--violet) 6%, var(--card))"/>
+<path d="M110 56V218M270 56V218" class="ln" style="stroke-width:2"/>
+<text x="16" y="70" class="tb">APC（DC）</text><text x="278" y="70" class="tb">naïve T</text>
+<path d="M110 96H148M110 104H148" class="lv" style="stroke-width:2.6"/><rect x="148" y="92" width="10" height="16" rx="3" class="fw"/>
+<path d="M270 96H172M270 104H172" class="ln" style="stroke-width:2.6"/><rect x="160" y="91" width="12" height="18" rx="4" class="bx"/>
+<text x="104" y="104" text-anchor="end" class="ts">MHC II</text><text x="278" y="104" class="tb" style="font-size:12px">TCR</text><text x="190" y="124" text-anchor="middle" class="ts">signal ①</text>
+<path d="M110 150H148" class="lv" style="stroke-width:3"/><circle cx="154" cy="150" r="6" class="fv"/>
+<path d="M270 150H172" class="lg" style="stroke-width:3"/><path d="M172 150l-8 -7M172 150l-8 7" class="lg" style="stroke-width:2.6"/>
+<text x="104" y="154" text-anchor="end" class="ts">B7</text>
+<g class="hot" data-tip="<b>CD28 ↔ B7（CD80/86）= Signal ②</b>：naïve T 細胞活化必需。CTLA-4 被擋住之後，B7 才能留給 CD28。" data-label="CD28"><text x="278" y="149" class="tb" style="font-size:12px">CD28</text></g>
+<text x="278" y="165" class="ts">→ signal ② 活化</text>
+<path d="M110 205H148" class="lv" style="stroke-width:3"/><circle cx="154" cy="205" r="6" class="fv"/>
+<path d="M270 205H222" class="lr" style="stroke-width:3"/><path d="M222 205l-8 -7M222 205l-8 7" class="lr" style="stroke-width:2.6"/>
+<path d="M182 205H197M197 205L208 196M197 205L208 214" style="stroke:var(--warn);stroke-width:3;fill:none;stroke-linecap:round"/>
+<text x="196" y="188" text-anchor="middle" class="ts" style="fill:var(--warn)">anti-CTLA-4</text>
+<text x="104" y="209" text-anchor="end" class="ts">B7</text>
+<g class="hot" data-tip="<b>CTLA-4（CD152）</b>：T 細胞活化後才表現（Treg 則一直表現），對 B7 的親和力比 CD28 <b>高 20 倍以上</b> → 搶走 B7、關掉活化。腫瘤環境利用它讓 T 細胞起不來。<br>2018 諾貝爾 <b>James Allison</b>（MD Anderson；因為母親罹患卵巢癌而投入）。" data-label="CTLA-4"><text x="278" y="204" class="tb tr" style="font-size:12px">CTLA-4</text></g>
+<text x="278" y="220" class="ts">煞車（被抗體擋住）</text>
+<text x="20" y="256" class="ts" style="fill:var(--ink)">擋住 CTLA-4 → B7 留給 CD28 → T 細胞大量活化</text>
+<text x="20" y="276" class="ts">藥：anti-CTLA-4 = <tspan class="tb" style="fill:var(--ink)">ipilimumab</tspan>（Yervoy）</text>
+<rect x="404" y="44" width="96" height="186" rx="22" class="fp"/><rect x="660" y="44" width="130" height="186" rx="22" class="bx" style="stroke:none;fill:color-mix(in srgb, var(--violet) 6%, var(--card))"/>
+<path d="M500 56V218M660 56V218" class="ln" style="stroke-width:2"/>
+<text x="410" y="70" class="tb">腫瘤細胞</text><text x="668" y="70" class="tb">CTL</text><text x="700" y="70" class="ts">（效應 T）</text>
+<path d="M500 96H538M500 104H538" class="lv" style="stroke-width:2.6"/><rect x="538" y="92" width="10" height="16" rx="3" class="fw"/>
+<path d="M660 96H562M660 104H562" class="ln" style="stroke-width:2.6"/><rect x="550" y="91" width="12" height="18" rx="4" class="bx"/>
+<text x="494" y="104" text-anchor="end" class="ts">MHC I</text><text x="668" y="104" class="tb" style="font-size:12px">TCR</text><text x="580" y="124" text-anchor="middle" class="ts">認得腫瘤</text>
+<path d="M500 150H538" class="lr" style="stroke-width:3"/><circle cx="544" cy="150" r="6" class="fr"/>
+<path d="M660 150H562" class="lr" style="stroke-width:3"/><path d="M562 150l-8 -7M562 150l-8 7" class="lr" style="stroke-width:2.6"/>
+<text x="494" y="154" text-anchor="end" class="ts">PD-L1</text>
+<g class="hot" data-tip="<b>PD-1（CD279）</b> ↔ <b>PD-L1</b>：T 細胞長期受刺激後表現 PD-1；腫瘤（與發炎組織）表現 PD-L1 → T 細胞「認得但不會動」（老師：變成<b>殭屍</b>；= exhaustion）。<br>2018 諾貝爾 <b>本庶佑（Tasuku Honjo）</b>。" data-label="PD-1"><text x="668" y="149" class="tb tr" style="font-size:12px">PD-1</text></g>
+<text x="668" y="165" class="ts">→ T 細胞停擺</text>
+<path d="M500 205H538" class="lr" style="stroke-width:3"/><circle cx="544" cy="205" r="6" class="fr"/>
+<path d="M660 205H612" class="lr" style="stroke-width:3"/><path d="M612 205l-8 -7M612 205l-8 7" class="lr" style="stroke-width:2.6"/>
+<path d="M572 205H587M587 205L598 196M587 205L598 214" style="stroke:var(--warn);stroke-width:3;fill:none;stroke-linecap:round"/>
+<text x="586" y="188" text-anchor="middle" class="ts" style="fill:var(--warn)">anti-PD-1</text>
+<text x="494" y="209" text-anchor="end" class="ts">PD-L1</text>
+<text x="668" y="204" class="tb tr" style="font-size:12px">PD-1</text>
+<text x="668" y="220" class="ts">被擋 → 復活</text>
+<text x="410" y="256" class="ts" style="fill:var(--ink)">擋住 PD-1／PD-L1 → T 細胞 reactivate、殺腫瘤</text>
+<text x="410" y="276" class="ts">藥：anti-PD-1（<tspan class="tb" style="fill:var(--ink)">Keytruda、Opdivo</tspan>）、anti-PD-L1</text>
+<g class="hot" data-tip="<b>irAE</b>（immune-related adverse events）：煞車本來是用來維持 <b>peripheral tolerance</b> 的，放掉之後 T 細胞也會攻擊自己 → 結腸炎（腹瀉）、皮膚炎、肝炎、甲狀腺炎、肺炎、垂體炎。anti-CTLA-4 比 anti-PD-1 更常見、更嚴重；合併使用最多。" data-label="irAE"><rect x="20" y="300" width="420" height="66" rx="10" class="bw"/><text x="32" y="320" class="tb nou" style="font-size:12.5px">副作用：irAE（免疫相關不良反應）</text><text x="32" y="338" class="ts nou">煞車放掉 → 打到自己：結腸炎、皮膚炎、肝炎、甲狀腺炎</text><text x="32" y="355" class="ts nou">anti-CTLA-4 比 anti-PD-1 更常見、更嚴重</text></g>
+<rect x="456" y="300" width="314" height="66" rx="10" class="bv"/>
+<text x="468" y="320" class="tb" style="font-size:12.5px">vs CAR-T（別搞混）</text>
+<text x="468" y="338" class="ts">ICI：放開病人原有 T 細胞的煞車</text>
+<text x="468" y="355" class="ts">CAR-T：改裝 T 細胞；CTLA-4 不在 CAR 上</text>
+</svg>

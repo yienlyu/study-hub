@@ -75,11 +75,35 @@
 - 初次 vs 二次反應：二次較快、較強（記憶細胞）→ 疫苗原理。
 
 ## 8. 免疫學應用（slides 最後幾頁）
-- **Immune checkpoint blockade**（2018 諾貝爾：James Allison — **CTLA-4**；Tasuku Honjo — **PD-1**）：Keytruda（pembrolizumab）、Opdivo（nivolumab）。
+- **Immune checkpoint blockade**（2018 諾貝爾：James Allison — **CTLA-4**；Tasuku Honjo — **PD-1**）：Keytruda（pembrolizumab）、Opdivo（nivolumab）→ 詳見下方第 9 節。
 - **Herceptin**（2019 Lasker）：第一個阻斷致癌蛋白 **HER2** 的單株抗體 → 乳癌。
 - **Modified mRNA vaccine**（2021 Lasker：Karikó、Weissman）→ COVID-19。
 - COVID-19 Dashboard（2022 Lasker：Lauren Gardner）。
 - **CAR-T**（Carl June）：Kymriah（2017，B-ALL，≤25 歲）、Yescarta（大 B 細胞淋巴瘤）；CAR = 抗體 scFv（如 **anti-CD19**）+ 共刺激域（**4-1BB**）+ **CD3ζ**；繞過 MHC 限制。
+  - 🔥 **高頻考點**：CAR 的三個零件 = **scFv（anti-CD19）+ 4-1BB + CD3ζ**；考古常把 **CTLA-4**（checkpoint）混進選項當錯誤答案。最常見副作用 = **CRS**（用 IL-6 抗體處理）。
+
+<div data-fig="car-t-production"></div>
+
+<div data-fig="car-structure"></div>
+
+## 9. 免疫檢查點療法（Immune checkpoint inhibitor, ICI）
+- **Checkpoint = T 細胞的煞車**：抑制性的「signal ②」，平常用來在反應結束時關機、維持 peripheral tolerance。腫瘤利用它 → T 細胞**認得腫瘤但不會動**（老師：「保險死卡著你的 trigger」、T 細胞變**殭屍**）。
+- **ICI = 用單株抗體把煞車擋掉** → T 細胞 **reactivate** 去殺腫瘤（= immune checkpoint **blockade**，不是直接活化劑）。2018 諾貝爾。
+- 老師補充：兩者都已在臨床使用，現在還有 **combination therapy**（合併其他療法）。
+
+| | **CTLA-4**（CD152） | **PD-1**（CD279） |
+|---|---|---|
+| 配體 | **B7**（CD80／CD86），親和力比 CD28 **高 >20 倍** | **PD-L1**（腫瘤、發炎組織）、PD-L2 |
+| 作用地點／時機 | **淋巴結**、活化**早期**（priming） | **周邊組織／腫瘤旁**、作用期（effector） |
+| 怎麼踩煞車 | 跟 CD28 **搶 B7** → 拿掉 signal ② | 抑制 TCR／CD28 下游訊號 → T 細胞 exhaustion |
+| 抗體藥 | anti-CTLA-4：**ipilimumab**（Yervoy） | anti-PD-1：**pembrolizumab**（Keytruda）、**nivolumab**（Opdivo）；anti-PD-L1：atezolizumab 等 |
+| 2018 諾貝爾 | **James Allison**（MD Anderson，母親罹患卵巢癌） | **本庶佑（Tasuku Honjo）**（很常來台灣） |
+
+<div data-fig="ici"></div>
+
+- **副作用 = irAE（immune-related adverse events）**：煞車放掉後 T 細胞也攻擊自己 → **自體免疫**：結腸炎、皮膚炎、肝炎、甲狀腺炎、肺炎、垂體炎；anti-CTLA-4 比 anti-PD-1 更常見、更嚴重。
+- **ICI vs CAR-T**：ICI 是**放開病人原有 T 細胞的煞車**（抗體藥）；CAR-T 是**把 T 細胞拿出來改裝**（細胞治療）。**CTLA-4 是 ICI 的標靶，不是 CAR 的零件**（111 期中考古）。
+- 機轉細節（CD28／B7、CTLA-4 的 20 倍親和力）見「T 細胞發育與 TCR 訊號」章的 signal ② 段落。
 
 ## 🎙️ 上課錄影重點（陳玫潔，09/16）
 - 教科書 = **Janeway**（研究所程度，建議讀原文）。新版最重要的觀念：**sensor cell** —— 非專一性細胞初次接觸病原時的分子變化，會**形塑之後的專一性免疫**（APC 分泌的 cytokine 決定 T 細胞分化方向）→ 從先天到後天「從一而終」、是一個 **module** 的概念。
@@ -138,9 +162,10 @@
 1. **先天免疫成員**：B 細胞、T 細胞「不是」先天免疫（考過 3 次）；NK、DC、macrophage、補體是。
 2. **連接先天與後天的細胞 = Dendritic cell**（111 考古）。
 3. **CD 標記**：CD3（T）、CD4/CD8 配 MHC II/I、CD16/56（NK）、CD19/20（B）。
-4. **CAR-T 構成**：anti-CD19、4-1BB、CD3ζ；**CTLA-4 不屬於 CAR**（是 checkpoint）。
+4. **CAR-T 構成**：anti-CD19、4-1BB、CD3ζ；**CTLA-4 不屬於 CAR**（是 checkpoint）；最常見副作用 **CRS**（見「免疫學應用」的 CAR 構造圖）。
 5. **B vs T epitope**：B 細胞不需 MHC、可辨識不連續序列與非蛋白抗原（李岳倫課堂題也出）。
 6. 淋巴器官：B / T 在脾臟、淋巴結的分區（PALS、paracortex）。
+7. **Immune checkpoint inhibitor**：**CTLA-4 ↔ B7**（Allison）、**PD-1 ↔ PD-L1**（本庶佑），抗體擋住煞車 = blockade；副作用 **irAE**（自體免疫）；別和 CAR-T 混淆（見第 9 節）。
 
 ## 📝 出題模式
 - 這章本身考古題不多（多被歸在其他章節），但**概念貫穿全部免疫題**。今年 slides 新增許多「諾貝爾 / Lasker 獎」與 CAR-T、nude mouse、SPFs 內容 → 可能出記憶型單選題。

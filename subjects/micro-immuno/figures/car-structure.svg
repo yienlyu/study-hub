@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 372" role="img" aria-label="CAR 的構造與 CAR-T 重點：胞外 scFv（anti-CD19）直接辨識腫瘤細胞表面的 CD19，不需 MHC；經 hinge 與跨膜區，胞內為共刺激域 4-1BB 或 CD28（Signal 2）與 CD3ζ（Signal 1）；CTLA-4 不是 CAR 的組成；製作流程為取病人 T 細胞、病毒載體轉入 CAR 基因、體外擴增、輸回病人；最常見副作用 CRS">
+<defs><marker id="car-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker></defs>
+<text x="20" y="22" class="th">CAR 的構造（高頻考點）</text>
+<rect x="20" y="34" width="380" height="36" rx="12" class="fp"/>
+<text x="32" y="57" class="ts">腫瘤細胞（B-ALL／B 細胞淋巴瘤）</text>
+<path d="M130 70V88" class="lv" style="stroke-width:2.4"/><circle cx="130" cy="94" r="7" class="fv"/>
+<g class="hot" data-tip="<b>CD19</b> 是 B 細胞標記（CD19／20／22 = B）。B-ALL 與 B 細胞淋巴瘤都表現 CD19 → Kymriah、Yescarta 的標靶。它是<b>細胞表面完整的蛋白</b>，不必先切成 peptide 放上 MHC。" data-label="CD19"><text x="176" y="98" class="tb tv">CD19</text></g>
+<text x="222" y="98" class="ts">B 細胞表面抗原（標靶）</text>
+<rect x="105" y="103" width="23" height="32" rx="7" class="bv"/><rect x="132" y="103" width="23" height="32" rx="7" class="bv"/>
+<text x="116.5" y="123" text-anchor="middle" class="ts" style="font-size:9.5px">VH</text><text x="143.5" y="123" text-anchor="middle" class="ts" style="font-size:9.5px">VL</text>
+<g class="hot" data-tip="<b>scFv</b>（single-chain variable fragment）= 抗體的 <b>VH + VL</b> 用一段 linker 接成一條鏈。像抗體一樣<b>直接</b>辨識細胞表面抗原 → <b>不需要 MHC</b>（跳脫 MHC restriction）。" data-label="scFv"><text x="176" y="122" class="tb">scFv（anti-CD19）</text></g>
+<text x="176" y="138" class="ts">抗體 VH + VL 單鏈 → 不需 MHC</text>
+<path d="M130 135V174" class="ln" style="stroke-width:2.6"/>
+<text x="176" y="160" class="ts">Hinge（鉸鏈）</text>
+<text x="24" y="150" class="tm" style="font-size:11px">胞外</text>
+<rect x="20" y="174" width="140" height="18" class="fp"/><path d="M20 174H160M20 192H160" class="ln"/>
+<rect x="124" y="170" width="12" height="26" rx="3" class="bx"/>
+<text x="28" y="187" class="ts">T 細胞膜</text>
+<text x="176" y="187" class="ts">跨膜區</text>
+<text x="24" y="232" class="tm" style="font-size:11px">胞內</text>
+<path d="M130 196V208" class="ln" style="stroke-width:2.6"/>
+<rect x="98" y="208" width="64" height="30" rx="8" class="bg"/><text x="130" y="228" text-anchor="middle" class="tb">4-1BB</text>
+<circle cx="84" cy="223" r="10" class="fg"/><text x="84" y="227" text-anchor="middle" class="tw tb" style="font-size:11px">2</text>
+<g class="hot" data-tip="<b>共刺激域 = Signal ②</b>（存活、增殖、持久）。正常 T 細胞要靠 APC 的 B7 給 CD28 訊號；CAR <b>直接內建</b>。<br>考古答案是 <b>4-1BB</b>（CD137，Kymriah 用）；Yescarta 用 <b>CD28</b>。" data-label="共刺激域"><text x="176" y="222" class="tb">共刺激域 = Signal ②</text></g>
+<text x="176" y="238" class="ts">4-1BB（Kymriah）或 CD28（Yescarta）</text>
+<path d="M130 238V250" class="ln" style="stroke-width:2.6"/>
+<rect x="98" y="250" width="64" height="44" rx="8" class="bw"/><text x="130" y="270" text-anchor="middle" class="tb">CD3ζ</text>
+<text x="130" y="285" text-anchor="middle" class="ts" style="font-size:10px">ITAM ×3</text>
+<circle cx="84" cy="272" r="10" class="fv"/><text x="84" y="276" text-anchor="middle" class="tw tb" style="font-size:11px">1</text>
+<g class="hot" data-tip="<b>CD3ζ = Signal ①（活化）</b>：和正常 TCR–CD3 複合體用同一條 ζ 鏈，上面有 3 個 <b>ITAM</b> → 磷酸化後接 <b>ZAP-70</b> → 殺傷、分泌 IL-2。" data-label="CD3ζ"><text x="176" y="268" class="tb">CD3ζ = Signal ①（活化）</text></g>
+<text x="176" y="284" class="ts">ITAM → ZAP-70 → 殺死腫瘤細胞</text>
+<g class="hot" data-tip="<b>CTLA-4</b>（CD152）是<b>抑制性</b> checkpoint：搶走 B7、關掉 T 細胞（2018 諾貝爾 James Allison）。考古把它混進選項：「下列何者<b>不是</b> CAR 的組成？」→ CTLA-4。" data-label="CTLA-4 陷阱"><rect x="20" y="312" width="380" height="30" rx="10" class="br"/><text x="32" y="332" class="tb nou tr" style="font-size:12.5px">✗ CTLA-4 不是 CAR 的零件（它是抑制性 checkpoint）</text></g>
+<text x="20" y="362" class="ts">CAR = scFv（anti-CD19）+ 4-1BB + CD3ζ：考古選項就是這三個</text>
+<path d="M418 30V352" class="lt"/>
+<text x="436" y="22" class="th">CAR vs 正常 TCR</text>
+<text x="436" y="48" class="ts">　</text><text x="536" y="48" class="tb" style="font-size:12px">TCR</text><text x="656" y="48" class="tb tv" style="font-size:12px">CAR</text>
+<path d="M436 56H770" class="lt"/>
+<text x="436" y="76" class="ts">辨識對象</text><text x="536" y="76" class="ts" style="fill:var(--ink)">MHC + peptide</text><text x="656" y="76" class="ts" style="fill:var(--ink)">表面完整抗原</text>
+<path d="M436 86H770" class="lt"/>
+<text x="436" y="106" class="ts">MHC 限制</text><text x="536" y="106" class="ts" style="fill:var(--ink)">有</text><text x="656" y="106" class="tb tv" style="font-size:12px">沒有（繞過）</text>
+<path d="M436 116H770" class="lt"/>
+<text x="436" y="136" class="ts">Signal ②</text><text x="536" y="136" class="ts" style="fill:var(--ink)">靠 APC 的 B7</text><text x="656" y="136" class="ts" style="fill:var(--ink)">內建 4-1BB／CD28</text>
+<path d="M436 146H770" class="lt"/>
+<text x="436" y="174" class="th">製作流程（slides p.76）</text>
+<rect x="436" y="186" width="74" height="42" rx="8" class="bx"/><text x="473" y="204" text-anchor="middle" class="tb" style="font-size:12px">抽血</text><text x="473" y="220" text-anchor="middle" class="ts">取 T 細胞</text>
+<path d="M512 207H520" class="ln" marker-end="url(#car-a)"/>
+<g class="hot" data-tip="slides 畫的是 <b>retroviral vector</b>（反轉錄病毒）把 CAR 基因嵌進 T 細胞的 DNA；Kymriah 實際用 lentivirus（也屬反轉錄病毒科）。老師比喻：改造成「傭兵／超級士兵」。" data-label="病毒載體"><rect x="524" y="186" width="74" height="42" rx="8" class="bv"/><text x="561" y="204" text-anchor="middle" class="tb nou" style="font-size:12px">病毒載體</text><text x="561" y="220" text-anchor="middle" class="ts nou">轉入 CAR</text></g>
+<path d="M600 207H608" class="ln" marker-end="url(#car-a)"/>
+<rect x="612" y="186" width="74" height="42" rx="8" class="bx"/><text x="649" y="204" text-anchor="middle" class="tb" style="font-size:12px">體外擴增</text><text x="649" y="220" text-anchor="middle" class="ts">大量培養</text>
+<path d="M688 207H696" class="ln" marker-end="url(#car-a)"/>
+<rect x="700" y="186" width="70" height="42" rx="8" class="bx"/><text x="735" y="204" text-anchor="middle" class="tb" style="font-size:12px">輸回病人</text><text x="735" y="220" text-anchor="middle" class="ts">自體細胞</text>
+<g class="hot" data-tip="<b>CRS</b>（cytokine release syndrome，細胞激素風暴）= <b>最常見副作用</b>（115 共筆）。CAR-T 大量活化 → IL-6 等飆高 → 高燒、低血壓。第一位 6 歲病童就是這樣，用 <b>IL-6 抗體</b>（tocilizumab，阻斷 IL-6 受體）救回。" data-label="CRS"><rect x="436" y="248" width="334" height="48" rx="10" class="bw"/><text x="448" y="268" class="tb nou" style="font-size:12.5px">最常見副作用：CRS（cytokine release syndrome）</text><text x="448" y="286" class="ts nou">高燒、低血壓 → IL-6 抗體（tocilizumab）救回第一位病童</text></g>
+<text x="436" y="322" class="ts"><tspan class="tb" style="fill:var(--ink)">Kymriah</tspan>（2017，Novartis／Carl June）：B-ALL，≤ 25 歲</text>
+<text x="436" y="342" class="ts"><tspan class="tb" style="fill:var(--ink)">Yescarta</tspan>（2017，Kite）：成人大 B 細胞淋巴瘤</text>
+</svg>
