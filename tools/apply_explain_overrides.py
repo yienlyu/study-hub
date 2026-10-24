@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """把 tools/explain_overrides.json 的詳解補到各科題庫（依題號覆寫 explain）。
 
-題庫 JSON 由各 build_*.py 產生；重跑任何 builder 之後，要再跑一次這支，補寫的詳解才不會消失。
+題庫 JSON 由各 build_*.py 產生；重跑任何 builder 之後，要先跑 apply_question_fixes.py（答案、選項、多選題、附圖），
+再跑這支，修正與補寫的詳解才不會消失。
 explain_overrides.json 的格式：{"科目資料夾": {"questions-xxx.json": {"題號 id": "詳解（純文字）"}}}
 執行：python3 tools/apply_explain_overrides.py（在 repo 根目錄）
 """

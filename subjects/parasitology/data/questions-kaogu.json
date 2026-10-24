@@ -2788,9 +2788,9 @@
    }
   ],
   "answer": [
-   "C"
+   "B"
   ],
-  "explain": "主要為抗體偵測（antibody detection）。在肌肉切片不易觀察到蟲體。",
+  "explain": "答案 (B) 肌肉生檢。\n・0922 投影片 p.6 Laboratory Diagnosis：旋毛蟲症依臨床症狀與嗜酸性球增多懷疑後，「can be confirmed by specific diagnostic tests, including 1. antibody detection, 2. muscle biopsy, 3. microscopy」。\n・老師上課（09/22 錄影）：「發現到某些部位很酸痛的時候，那有可能會做一個 biopsy…做組織切片，我們用 HE staining，如果運氣非常好的話呢，那有可能就看到 encysted larva，那這就是一個確診」；講到抗體則說「台灣並沒有任何一個實驗室可以來做…可能就要準備買一些診斷性的 commercial 的 ELISA kit 來做 screening 之用」，最後再強調「肌肉的 biopsy…用 HE staining 就可以看到有這個被囊蚴，那就是一個確診的一個狀態」。\n→ 依本課程：肌肉生檢看到被囊幼蟲＝確診；特異抗體檢測是篩檢用 → 選 B。\n(A) 臨床症狀只能懷疑；(D) 血液中看不到幼蟲作為診斷依據；(E) 生吃豬肉只是暴露史。\n同類題：k109a-40「使用肌肉活體切片，對於下列何種寄生蟲的診斷最有幫助？」答案也是 T. spiralis。\n※ 原本網站答案 (C)、詳解「肌肉切片不易觀察到蟲體」與上課內容不符，已更正。",
   "topics": [
    "食源性線蟲"
   ],
@@ -2898,9 +2898,9 @@
    }
   ],
   "answer": [
-   "D"
+   "C"
   ],
-  "explain": "心肌炎會出現在Encysted stage（被囊期）。",
+  "explain": "答案 (C) 蔓延性皮膚炎。\n依 0922 投影片 p.5 Clinical Features（Trichinella spiralis）：\n・幼蟲移行進入肌肉（larval migration into muscle tissues，感染後約一週）可造成：眼眶與臉部水腫（B）、結膜炎、發燒、肌肉痛、指甲下裂片狀出血（splinter hemorrhages，A）、皮疹與嗜酸性球增多。\n・同一段也寫「Occasional life-threatening manifestations include myocarditis, central nervous system involvement, and pneumonitis」→ 心肌炎（D）就是發生在幼蟲移行／肌肉侵犯期的嚴重併發症。\n・被囊期（encystment）只造成肌肉痛與無力，之後症狀逐漸緩解，投影片沒有把心肌炎放在被囊期。\n(C) 蔓延性皮膚炎（creeping eruption）是皮膚幼蟲移行症（CLM）的典型表現，見於犬鉤蟲、巴西鉤蟲、糞小桿線蟲，不是旋毛蟲症的症狀（投影片的 rashes 是一般皮疹，不是蔓延性皮膚炎）→ 選 C。\n※ 原本網站答案 (D)、詳解「心肌炎會出現在被囊期」與投影片不符，已更正。",
   "topics": [
    "食源性線蟲"
   ],
@@ -3469,384 +3469,977 @@
   "source": "113 考古",
   "num": 1,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（多選題）可侵犯眼睛的線蟲是：\n(A) A. cantonensis\n(B) T. canis\n(C) L. loa\n(D) O. volvulus\n(E) T. callipaeda",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：全選（ABCDE）",
+  "type": "mcq",
+  "stem": "（多選題）可侵犯眼睛的線蟲是：",
+  "options": [
+   {
+    "k": "A",
+    "t": "A. cantonensis"
+   },
+   {
+    "k": "B",
+    "t": "T. canis"
+   },
+   {
+    "k": "C",
+    "t": "L. loa"
+   },
+   {
+    "k": "D",
+    "t": "O. volvulus"
+   },
+   {
+    "k": "E",
+    "t": "T. callipaeda"
+   }
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
   "explain": "全 (A)廣東住血線蟲：幼蟲隨著血液循環侵入葡萄膜、虹膜、睫狀體等組織，導致發炎甚至失明 (B)犬蛔蟲：可能攻擊眼睛（OLM），臨床上需注意誤診為視網膜胚細胞瘤（retinoblastoma） (C)羅阿絲蟲：俗稱眼蟲（eye worm），跑到眼睛可能造成搔癢 (D)蟠尾絲蟲：到達眼睛可能引發強烈免疫反應，造成Keratitis、River Blindness (E)東方眼蟲：成蟲會寄生於眼瞼、淚囊，或稱為「結膜吸吮線蟲」",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k113-nem-m02",
   "source": "113 考古",
   "num": 2,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（多選題）生活史中具autoinfection 之parasite 是：\n(A) N. americanus\n(B) S. stercoralis\n(C) C. philippinensis\n(D) T. spiralis\n(E) G. spinigerum",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(B)、(C)",
+  "type": "mcq",
+  "stem": "（多選題）生活史中具autoinfection 之parasite 是：",
+  "options": [
+   {
+    "k": "A",
+    "t": "N. americanus"
+   },
+   {
+    "k": "B",
+    "t": "S. stercoralis"
+   },
+   {
+    "k": "C",
+    "t": "C. philippinensis"
+   },
+   {
+    "k": "D",
+    "t": "T. spiralis"
+   },
+   {
+    "k": "E",
+    "t": "G. spinigerum"
+   }
+  ],
+  "answer": [
+   "B",
+   "C"
+  ],
   "explain": "(C) (B)(C) Nematode 至今具有autoinfection 特性者，有E. vermicularis、C. philippinensis、S. stercoralis (E) Gnathostomaspinigerum（顎棘口線蟲）：人類並非其最終宿主，在人類身上必不會出現 autoinfection",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k113-nem-m03",
   "source": "113 考古",
   "num": 3,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（多選題）下列何者可引起「人畜共通寄生蟲病」（parasitic zoonosis）：\n(A) T. canis\n(B) T. spiralis\n(C) W. bancrofti\n(D) C. hepatica\n(E) A. caninum",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(A)、(B)、(D)、(E)",
+  "type": "mcq",
+  "stem": "（多選題）下列何者可引起「人畜共通寄生蟲病」（parasitic zoonosis）：",
+  "options": [
+   {
+    "k": "A",
+    "t": "T. canis"
+   },
+   {
+    "k": "B",
+    "t": "T. spiralis"
+   },
+   {
+    "k": "C",
+    "t": "W. bancrofti"
+   },
+   {
+    "k": "D",
+    "t": "C. hepatica"
+   },
+   {
+    "k": "E",
+    "t": "A. caninum"
+   }
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D",
+   "E"
+  ],
   "explain": "(B)(D)(E) parasitic zoonoses，選擇能夠同時感染動物及人類的寄生蟲。 (A)「犬」蛔蟲 (B)住肉旋毛蟲：豬及鼠為保蟲宿主、中間宿主，人透過生食豬肉感染，為住肉旋毛蟲的最終宿主 (C)只以人類作為最終宿主 (D)肝毛細線蟲：大鼠為最終宿主，人類為其保幼宿主。儘管蟲隻不會在人體內發育成蟲，但侵犯 人類肝臟組織會生成肉芽腫（granuloma）導致肝纖維化、肝炎或肝硬化。 (E)「犬」鉤蟲",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k113-nem-m04",
   "source": "113 考古",
   "num": 4,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（多選題）下列何者寄生蟲其感染期（infective stage）是embryonated eggs：\n(A) A. cantonensis\n(B) T. spiralis\n(C) T. trichiura\n(D) B. malayi\n(E) S. haematobium",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(C)",
+  "type": "mcq",
+  "stem": "（多選題）下列何者寄生蟲其感染期（infective stage）是embryonated eggs：",
+  "options": [
+   {
+    "k": "A",
+    "t": "A. cantonensis"
+   },
+   {
+    "k": "B",
+    "t": "T. spiralis"
+   },
+   {
+    "k": "C",
+    "t": "T. trichiura"
+   },
+   {
+    "k": "D",
+    "t": "B. malayi"
+   },
+   {
+    "k": "E",
+    "t": "S. haematobium"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
   "explain": "(A) 廣東住血線蟲：L3 larvae 為其感染期 (B) 住肉旋毛蟲：Encysted larvae（被囊蚴） (C) 正解 (D) 馬來絲蟲：Microfilaria（L3） (E) 埃及血吸蟲：Cercaria（尾端分岔的尾蚴）由皮膚鑽入",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k113-nem-m05",
   "source": "113 考古",
   "num": 5,
   "chapter": "capillaria-strongyloides",
-  "type": "short",
-  "stem": "（多選題）下列哪些寄生蟲的感染可能會造成腹瀉（diarrhea）：\n(A) A. lumbricoides\n(B) T. trichiura\n(C) C. philippinensis\n(D) D. medinensis\n(E) S. stercoralis",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(A)、(B)、(C)、(E)",
+  "type": "mcq",
+  "stem": "（多選題）下列哪些寄生蟲的感染可能會造成腹瀉（diarrhea）：",
+  "options": [
+   {
+    "k": "A",
+    "t": "A. lumbricoides"
+   },
+   {
+    "k": "B",
+    "t": "T. trichiura"
+   },
+   {
+    "k": "C",
+    "t": "C. philippinensis"
+   },
+   {
+    "k": "D",
+    "t": "D. medinensis"
+   },
+   {
+    "k": "E",
+    "t": "S. stercoralis"
+   }
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "E"
+  ],
   "explain": "(B)(C)(E) Dracunculus medinensis 麥地那龍線蟲：L3 larvae 侵入體內，在腹腔發育成蟲，並於鑽出體外時造 成水皰與疼痛；並不會導致腹瀉。",
   "topics": [
    "毛線蟲與糞小桿線蟲"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k113-nem-m06",
   "source": "113 考古",
   "num": 6,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（多選題）可造成cutaneous larva migrans（CLM）之寄生蟲是下列何者：\n(A) A. caninum\n(B) G. spinigerum\n(C) A. simplex\n(D) W. bancrofti\n(E) S. stercoralis",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(A)、(B)、(E)",
+  "type": "mcq",
+  "stem": "（多選題）可造成cutaneous larva migrans（CLM）之寄生蟲是下列何者：",
+  "options": [
+   {
+    "k": "A",
+    "t": "A. caninum"
+   },
+   {
+    "k": "B",
+    "t": "G. spinigerum"
+   },
+   {
+    "k": "C",
+    "t": "A. simplex"
+   },
+   {
+    "k": "D",
+    "t": "W. bancrofti"
+   },
+   {
+    "k": "E",
+    "t": "S. stercoralis"
+   }
+  ],
+  "answer": [
+   "A",
+   "B",
+   "E"
+  ],
   "explain": "(B)(E) (A) 犬鉤蟲：CLM（皮下幼蟲移行症） (B) 顎棘口線蟲：會造成Cutaneous gnathostomiasis，亦會移行到各器官 (C) 海獸胃線蟲：誤食受汙染的魚，到胃和小腸寄生 (D) 班氏絲蟲：造成Lymphatic filariasis (E) 糞小桿線蟲：Filariform larvae 由皮膚入侵，造成CLM",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k113-nem-m07",
   "source": "113 考古",
   "num": 7,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（多選題）下列何者寄生蟲的感染可侵犯腦部：\n(A) A. lumbricoides\n(B) C. hepatica\n(C) T. spiralis\n(D) A. simplex\n(E) T. canis",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(C)、(E)",
+  "type": "mcq",
+  "stem": "（多選題）下列何者寄生蟲的感染可侵犯腦部：",
+  "options": [
+   {
+    "k": "A",
+    "t": "A. lumbricoides"
+   },
+   {
+    "k": "B",
+    "t": "C. hepatica"
+   },
+   {
+    "k": "C",
+    "t": "T. spiralis"
+   },
+   {
+    "k": "D",
+    "t": "A. simplex"
+   },
+   {
+    "k": "E",
+    "t": "T. canis"
+   }
+  ],
+  "answer": [
+   "C",
+   "E"
+  ],
   "explain": "(E) (A) 蛔蟲多數寄生在腸道環境當中，發生異位寄生的位置多為膽管、胰臟及食道 (B) 肝毛細線蟲：由腸道鑽至肝臟寄生 (C) 住肉旋毛蟲：被囊蚴侵入心肌、中樞神經將導致較嚴重的臨床症狀包括心肌炎、腦炎 (D) 海獸胃線蟲：以胃、腸道做為寄生位置 (E) 犬蛔蟲：神經性犬蛔蟲症（NT, neurological toxocariasis）",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k113-nem-m08",
   "source": "113 考古",
   "num": 8,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（多選題）下列何者寄生蟲的感染可侵犯心臟：\n(A) T. canis\n(B) G. spinigerum\n(C) T. spiralis\n(D) B. malayi\n(E) E. vermicularis",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(A)、(B)、(C)",
+  "type": "mcq",
+  "stem": "（多選題）下列何者寄生蟲的感染可侵犯心臟：",
+  "options": [
+   {
+    "k": "A",
+    "t": "T. canis"
+   },
+   {
+    "k": "B",
+    "t": "G. spinigerum"
+   },
+   {
+    "k": "C",
+    "t": "T. spiralis"
+   },
+   {
+    "k": "D",
+    "t": "B. malayi"
+   },
+   {
+    "k": "E",
+    "t": "E. vermicularis"
+   }
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C"
+  ],
   "explain": "(B)(C) (A) 犬蛔蟲：生物子彈，幼蟲在內臟中移行可能侵入心臟（VLM） (B) 顎棘口線蟲：造成Visceral gnathostomiasis，侵入各種內臟器官 (C) 住肉旋毛蟲被囊期侵犯心肌引起發炎 (D) 馬來絲蟲：主要造成lymphatic filariasis，不會侵犯到心臟 (E) 蟯蟲：以腸胃道為主要寄生處",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k113-nem-m09",
   "source": "113 考古",
   "num": 9,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（多選題）下列敘述何者正確：\n(A) T. canis ── infective stage is microfilaria\n(B) T. trichiura ── 嚴重感染可導致rectal prolapsed\n(C) T. spiralis ── 感染期為encysted larvae\n(D) 吃入生或未烤熟的鴨肉可感染G. spinigerum\n(E) D. medinensis 是目前已知最長的線蟲",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(B)、(C)、(D)、(E)",
+  "type": "mcq",
+  "stem": "（多選題）下列敘述何者正確：",
+  "options": [
+   {
+    "k": "A",
+    "t": "T. canis ── infective stage is microfilaria"
+   },
+   {
+    "k": "B",
+    "t": "T. trichiura ── 嚴重感染可導致rectal prolapsed"
+   },
+   {
+    "k": "C",
+    "t": "T. spiralis ── 感染期為encysted larvae"
+   },
+   {
+    "k": "D",
+    "t": "吃入生或未烤熟的鴨肉可感染G. spinigerum"
+   },
+   {
+    "k": "E",
+    "t": "D. medinensis 是目前已知最長的線蟲"
+   }
+  ],
+  "answer": [
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
   "explain": "(C)(D)(E) (A) 犬蛔蟲生活史有兩個感染期：embryonated egg 中的L3 larvae（人在環境中接觸得到），或者為 encapsulated larvae（食用未煮熟肉品） (D) 顎棘口線蟲的感染多來自食用未煮熟之體內含有第三期幼蟲的淡水魚、家禽類、蛇等 (E) 上課講義指出，最長的線蟲為Ascaris lumbricoides。然而，答案與CDC 資料皆顯示 Dracunculus medinensis 更長。（雌蛔蟲約20～35 cm，雌麥地那龍線蟲約70～120 cm）",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k113-nem-m10",
   "source": "113 考古",
   "num": 10,
   "chapter": "filaria",
-  "type": "short",
-  "stem": "（多選題）下列哪些寄生蟲之傳播不需要節肢動物Vector 的幫助：\n(A) T. canis\n(B) B. malayi\n(C) D. medinensis\n(D) W. bancrofti\n(E) T. callipaeda",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(A)",
+  "type": "mcq",
+  "stem": "（多選題）下列哪些寄生蟲之傳播不需要節肢動物Vector 的幫助：",
+  "options": [
+   {
+    "k": "A",
+    "t": "T. canis"
+   },
+   {
+    "k": "B",
+    "t": "B. malayi"
+   },
+   {
+    "k": "C",
+    "t": "D. medinensis"
+   },
+   {
+    "k": "D",
+    "t": "W. bancrofti"
+   },
+   {
+    "k": "E",
+    "t": "T. callipaeda"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
   "explain": "節肢動物為血吸蟲傳播的vector (A)犬蛔蟲以感染性蟲卵或被囊蚴為其傳染途徑 (B)馬來絲蟲的傳播需透過蚊子（Aedes、Mansonia、Anopheles） (C)麥地那線蟲：以水蚤（copepod，節肢動物的一種）作為中間宿主 (D)班氏絲蟲的傳播需透過蚊子（Culex、Aedes、Mansonia、Anopheles） (E)東方眼蟲：原先寄生於最終宿主（通常為犬科動物）的眼瞼、淚囊。下一代的L1 會透過淚液， 進入攝食淚液為食的蠅類體內，逐步發育至L3，然後回到最終宿主的眼睛附屬組織長大成蟲",
   "topics": [
    "血絲蟲"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k113-nem-m11",
   "source": "113 考古",
   "num": 11,
   "chapter": "capillaria-strongyloides",
-  "type": "short",
-  "stem": "（多選題）關於S. stercoralis 之敘述何者正確？\n(A) 屬於一種soil-transmitted parasite\n(B) 造成患者嚴重腹瀉乃肇因於autoinfection 的發生\n(C) 感染期是R-form larvae\n(D) 食道主要由stichocyte 所構成\n(E) AIDS 或免疫力低下者感染容易導致死亡",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(A)、(B)、(E)",
+  "type": "mcq",
+  "stem": "（多選題）關於S. stercoralis 之敘述何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "屬於一種soil-transmitted parasite"
+   },
+   {
+    "k": "B",
+    "t": "造成患者嚴重腹瀉乃肇因於autoinfection 的發生"
+   },
+   {
+    "k": "C",
+    "t": "感染期是R-form larvae"
+   },
+   {
+    "k": "D",
+    "t": "食道主要由stichocyte 所構成"
+   },
+   {
+    "k": "E",
+    "t": "AIDS 或免疫力低下者感染容易導致死亡"
+   }
+  ],
+  "answer": [
+   "A",
+   "B",
+   "E"
+  ],
   "explain": "(B)(E) (A) 再複習一次此次範圍中具有autoinfection 特性者為E. vermicularis、C. philippinensis、S. stercoralis (B) 感染期為Filariform larvae (D) 教學至今，具有stichosome esophagus 的寄生蟲有T. trichiura、T. spiralis、C. philippinensis 等。 (E) 可能發生Disseminated Strongyloidiasis（瀰漫性糞小桿線蟲症），對免疫缺乏的患者有致命威脅",
   "topics": [
    "毛線蟲與糞小桿線蟲"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k113-nem-m12",
   "source": "113 考古",
   "num": 12,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（多選題）下列何者寄生蟲以人類為最終宿主，且發育至成蟲的生活史中，幼蟲需經血液循環的方式完成：\n(A) B. malayi\n(B) T. canis\n(C) T. spiralis\n(D) S. stercoralis\n(E) N. americanus",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(A)、(D)、(E)",
+  "type": "mcq",
+  "stem": "（多選題）下列何者寄生蟲以人類為最終宿主，且發育至成蟲的生活史中，幼蟲需經血液循環的方式完成：",
+  "options": [
+   {
+    "k": "A",
+    "t": "B. malayi"
+   },
+   {
+    "k": "B",
+    "t": "T. canis"
+   },
+   {
+    "k": "C",
+    "t": "T. spiralis"
+   },
+   {
+    "k": "D",
+    "t": "S. stercoralis"
+   },
+   {
+    "k": "E",
+    "t": "N. americanus"
+   }
+  ],
+  "answer": [
+   "A",
+   "D",
+   "E"
+  ],
   "explain": "(D)(E) (B) 犬蛔蟲會透過血液循環至全身，但人類非其最終宿主。 (C) 幼蟲被吃下肚之後，發育為成蟲的過程不須經血液循環，成蟲交配後產下的幼蟲進入血液循環 來到肌肉組織中形成encysted larva，不會繼續發育成蟲",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k113-nem-m13",
   "source": "113 考古",
   "num": 13,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（多選題）下列哪些屬於AIDS 常見的伺機性線蟲感染：\n(A) A. cantonensis\n(B) S. stercoralis\n(C) W. bancrofti\n(D) D. medinensis\n(E) T. trichiura",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(B)",
+  "type": "mcq",
+  "stem": "（多選題）下列哪些屬於AIDS 常見的伺機性線蟲感染：",
+  "options": [
+   {
+    "k": "A",
+    "t": "A. cantonensis"
+   },
+   {
+    "k": "B",
+    "t": "S. stercoralis"
+   },
+   {
+    "k": "C",
+    "t": "W. bancrofti"
+   },
+   {
+    "k": "D",
+    "t": "D. medinensis"
+   },
+   {
+    "k": "E",
+    "t": "T. trichiura"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
   "explain": "伺機性感染（Opportunistic infection）：一些具自限性的病原體侵入後，因宿主的免疫反應而無法致 病。宿主免疫功能健全時，輕症為主；宿主免疫功能缺損時（例如感染愛滋、接受化療、器官移 植或年老），病原體趁機大量繁殖，導致重症。S. stercoralis 引發的Disseminated Strongyloidiasis， 可能發生於免疫缺乏的患者，導致多重併發症以及敗血病。 文獻補充：伴隨AIDS 常見的伺機性感染還有以下列舉的寄生蟲 “The parasitic species that most often cause the opportunistic infections in the human body are Toxoplasma gondii, Cryptosporidium parvum, Isospora belli, Cyclospora cayetanensis, Microsporidia, Cryptococcus neoformans, Pneumocystis carinii or jiroveci, and Entamoeba.” (Opportunistic parasitic infections in patients with human immunodeficiency virus/acquired immunodeficiency syndrome: A review https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7245710/)",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k113-nem-m14",
   "source": "113 考古",
   "num": 14,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（多選題）下列何者屬於soil-transmitted parasites：\n(A) C. philippinensis\n(B) T. trichiura\n(C) B. malayi\n(D) S. stercoralis\n(E) A. lumbricoides",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(B)、(D)、(E)",
+  "type": "mcq",
+  "stem": "（多選題）下列何者屬於soil-transmitted parasites：",
+  "options": [
+   {
+    "k": "A",
+    "t": "C. philippinensis"
+   },
+   {
+    "k": "B",
+    "t": "T. trichiura"
+   },
+   {
+    "k": "C",
+    "t": "B. malayi"
+   },
+   {
+    "k": "D",
+    "t": "S. stercoralis"
+   },
+   {
+    "k": "E",
+    "t": "A. lumbricoides"
+   }
+  ],
+  "answer": [
+   "B",
+   "D",
+   "E"
+  ],
   "explain": "(D)(E) soil-transmitted helminths 包括蛔蟲、鉤蟲、鞭蟲及糞小桿蟲 (A) 透過誤食魚類傳播 (C) 透過蚊子傳播",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k113-nem-m15",
   "source": "113 考古",
   "num": 15,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（多選題）下列何種線蟲感染目前或曾經流行於台灣地區（和金門與馬祖）：\n(A) E. vermicularis\n(B) C. hepatica\n(C) A. lumbricoides\n(D) W. bancrofti\n(E) T. spiralis",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(A)、(C)、(D)、(E)",
+  "type": "mcq",
+  "stem": "（多選題）下列何種線蟲感染目前或曾經流行於台灣地區（和金門與馬祖）：",
+  "options": [
+   {
+    "k": "A",
+    "t": "E. vermicularis"
+   },
+   {
+    "k": "B",
+    "t": "C. hepatica"
+   },
+   {
+    "k": "C",
+    "t": "A. lumbricoides"
+   },
+   {
+    "k": "D",
+    "t": "W. bancrofti"
+   },
+   {
+    "k": "E",
+    "t": "T. spiralis"
+   }
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D",
+   "E"
+  ],
   "explain": "(C)(D)(E) (A) 蟯蟲分布於世界各地 (B) 肝毛細線蟲以大鼠為主要宿主，人類案例較少見 (C) 蛔蟲亦分布於世界各地，熱帶、亞熱帶盛行率則相對較高 (D) 台灣CDC 網站指出臺灣本島和金門、澎湖的居民在1960 年之前有感染淋巴絲蟲病的風險，但 自1958 年起，經由執行長期的防治計畫，淋巴絲蟲病病例數逐年下降。目前臺灣已無淋巴絲 蟲病病例。（https://www.cdc.gov.tw/Disease/SubIndex/sj0UyYO8dh8ynsjIrNzH-g） (E) 住肉旋毛蟲多分布於溫帶地區，常見於歐州、南北美洲、紐西蘭，亞洲亦有蹤跡。2009 年疾 病管制局公佈台灣首例，八位民眾在生吃鱉後而受到旋毛蟲入侵的案例。",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k113-nem-m16",
   "source": "113 考古",
   "num": 16,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（多選題）下列選項何者為WHO（世界衛生組織）所宣布「六大熱帶醫學疾病」的重要致病原？\n(A) S. stercoralis\n(B) S. japonicum\n(C) O. volvulus\n(D) T. trichiura\n(E) T. spiralis",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(B)、(C)",
+  "type": "mcq",
+  "stem": "（多選題）下列選項何者為WHO（世界衛生組織）所宣布「六大熱帶醫學疾病」的重要致病原？",
+  "options": [
+   {
+    "k": "A",
+    "t": "S. stercoralis"
+   },
+   {
+    "k": "B",
+    "t": "S. japonicum"
+   },
+   {
+    "k": "C",
+    "t": "O. volvulus"
+   },
+   {
+    "k": "D",
+    "t": "T. trichiura"
+   },
+   {
+    "k": "E",
+    "t": "T. spiralis"
+   }
+  ],
+  "answer": [
+   "B",
+   "C"
+  ],
   "explain": "(C) 六大熱帶醫學疾病：Leprosy（痲瘋桿菌）、Malaria（瘧原蟲）、Filariasis（絲蟲）、Trypanosomiasis （錐蟲）、Schistosomiasis（血吸蟲）、Leishmaniasis（利什曼原蟲）。對應本題選屬於絲蟲的(B)日 本血絲蟲與(C)蟠尾絲蟲。",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k113-nem-m17",
   "source": "113 考古",
   "num": 17,
   "chapter": "foodborne",
-  "type": "short",
-  "stem": "（多選題）可經由生食豬肉而引起寄生蟲感染的是：\n(A) P. westermani\n(B) T. spiralis\n(C) G. spinigerum\n(D) A. costaricensis\n(E) D. medinensis",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(B)",
+  "type": "mcq",
+  "stem": "（多選題）可經由生食豬肉而引起寄生蟲感染的是：",
+  "options": [
+   {
+    "k": "A",
+    "t": "P. westermani"
+   },
+   {
+    "k": "B",
+    "t": "T. spiralis"
+   },
+   {
+    "k": "C",
+    "t": "G. spinigerum"
+   },
+   {
+    "k": "D",
+    "t": "A. costaricensis"
+   },
+   {
+    "k": "E",
+    "t": "D. medinensis"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
   "explain": "(A) 衛氏肺吸蟲：以誤食淡水甲殼類（例如醉蝦、醉蟹）為主 (C) 顎棘口線蟲：以生食淡水魚或未煮熟隻家禽類感染為主。豬是顎棘口線蟲的最終宿主，但其體 內成蟲對人類無感染力。 (D) 哥斯大黎加住血線蟲哥斯大黎加住血線蟲（A. costaricensis），為一種絲狀線蟲，長約14～35 mm，存在於棉花鼠盲腸腸系膜動脈，為棉花鼠（cotton rat）和一些其他大鼠之寄生蟲，主要 於美洲，中間宿主為陸棲軟體動物，囓齒類動物食入經軟體動物分泌物含感染性仔蟲污染之食 物或水，或經由食入感染性軟體動物而感染。人類亦經由同樣方式感染，例如經由食入含有小 蛞蝓或其分泌物之未清洗乾淨之蔬菜，引起腹腔住血線蟲症。 (E) 麥地那龍線蟲：喝下被劍水蚤污染的水（原文：ingestion of water contaminated by the presence of infected copepods, the intermediate host）",
   "topics": [
    "食源性線蟲"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k113-nem-m18",
   "source": "113 考古",
   "num": 18,
   "chapter": "filaria",
-  "type": "short",
-  "stem": "（多選題）引起River blindness 病原的敘述何者正確：\n(A) 被mosquito 叮咬而受到B. malayi 微絲蚴感染所引起\n(B) 可見calabar swellings\n(C) 此病症常見於中西非洲與中南美洲\n(D) 失明的原因是因O. volvulus 微絲蚴入侵眼部導致發炎反應所引起\n(E) 可藉Mazzotti test 檢驗來輔助判斷",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(C)、(D)、(E)",
+  "type": "mcq",
+  "stem": "（多選題）引起River blindness 病原的敘述何者正確：",
+  "options": [
+   {
+    "k": "A",
+    "t": "被mosquito 叮咬而受到B. malayi 微絲蚴感染所引起"
+   },
+   {
+    "k": "B",
+    "t": "可見calabar swellings"
+   },
+   {
+    "k": "C",
+    "t": "此病症常見於中西非洲與中南美洲"
+   },
+   {
+    "k": "D",
+    "t": "失明的原因是因O. volvulus 微絲蚴入侵眼部導致發炎反應所引起"
+   },
+   {
+    "k": "E",
+    "t": "可藉Mazzotti test 檢驗來輔助判斷"
+   }
+  ],
+  "answer": [
+   "C",
+   "D",
+   "E"
+  ],
   "explain": "(D)(E) (A) 人受到Blackfly（Simulium）叮咬導致O. volvulus 微絲蚴進入血液循環。 (B) Calabar swelling 發生於Loa. loa 感染 (E) 雖然為可行的做法，但WHO 不建議，可能引發強烈過敏",
   "topics": [
    "血絲蟲"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k113-nem-m19",
   "source": "113 考古",
   "num": 19,
   "chapter": "filaria",
-  "type": "short",
-  "stem": "（多選題）關於各種Filaria 的敘述何者正確：\n(A) B. malayi 的vector 是mosquito\n(B) L. loa 的vector 是deer fly\n(C) 感染期皆是L3 stage\n(D) 曾經於台灣流行的是B. malayi\n(E) W. bancrofti 的vector 是midges",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(A)、(B)、(C)",
+  "type": "mcq",
+  "stem": "（多選題）關於各種Filaria 的敘述何者正確：",
+  "options": [
+   {
+    "k": "A",
+    "t": "B. malayi 的vector 是mosquito"
+   },
+   {
+    "k": "B",
+    "t": "L. loa 的vector 是deer fly"
+   },
+   {
+    "k": "C",
+    "t": "感染期皆是L3 stage"
+   },
+   {
+    "k": "D",
+    "t": "曾經於台灣流行的是B. malayi"
+   },
+   {
+    "k": "E",
+    "t": "W. bancrofti 的vector 是midges"
+   }
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C"
+  ],
   "explain": "(B)(C) (D) 台灣曾經流行過的是W. bancrofti (E) W. bancrofti 的vector 是蚊子（包括Culex、Aedes、Mansonia、Anopheles）",
   "topics": [
    "血絲蟲"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k113-nem-m20",
   "source": "113 考古",
   "num": 20,
   "chapter": "filaria",
-  "type": "short",
-  "stem": "（多選題）以下對於W. bancrofti 的敘述何者不正確：\n(A) 傳播的媒介為螞蟻\n(B) Microfilaria 於患者血液中出現的最高濃度時間通常是在AM10：00～PM2：00\n(C) 常導致lymphangitis\n(D) 慢性期可見elephantiasis 發生且好發於上肢\n(E) 易導致tropical eosinophilia 的發生",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(A)、(B)、(D)",
+  "type": "mcq",
+  "stem": "（多選題）以下對於W. bancrofti 的敘述何者不正確：",
+  "options": [
+   {
+    "k": "A",
+    "t": "傳播的媒介為螞蟻"
+   },
+   {
+    "k": "B",
+    "t": "Microfilaria 於患者血液中出現的最高濃度時間通常是在AM10：00～PM2：00"
+   },
+   {
+    "k": "C",
+    "t": "常導致lymphangitis"
+   },
+   {
+    "k": "D",
+    "t": "慢性期可見elephantiasis 發生且好發於上肢"
+   },
+   {
+    "k": "E",
+    "t": "易導致tropical eosinophilia 的發生"
+   }
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
   "explain": "(B)(D) (A)W. bancrofti 的傳播媒介應是蚊子；D. dendriticum（槍狀肝吸蟲）才是以螞蟻做為傳播媒介 (B)W. bancrofti 的Periodicity 為Nocturnal periodic form（夜行性），小心AM 與PM 的陷阱 (D)Elephantiasis 好發於下肢、陰囊、外陰部",
   "topics": [
    "血絲蟲"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k113-nem-m21",
   "source": "113 考古",
   "num": 21,
   "chapter": "foodborne",
-  "type": "short",
-  "stem": "（多選題）關於T. spiralis 的敘述何者正確：\n(A) 豬是此寄生蟲的中間宿主\n(B) 中東回教國家民眾因不食豬肉，所以不會有感染此寄生蟲的病患\n(C) 可見患者眼眶出現水腫\n(D) 幼蟲移行時可造成患者出現splinter hemorrhages\n(E) 可偵測患者血清是否出現抗T. spiralis 的IgG 抗體來輔助判斷",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(C)、(D)、(E)",
+  "type": "mcq",
+  "stem": "（多選題）關於T. spiralis 的敘述何者正確：",
+  "options": [
+   {
+    "k": "A",
+    "t": "豬是此寄生蟲的中間宿主"
+   },
+   {
+    "k": "B",
+    "t": "中東回教國家民眾因不食豬肉，所以不會有感染此寄生蟲的病患"
+   },
+   {
+    "k": "C",
+    "t": "可見患者眼眶出現水腫"
+   },
+   {
+    "k": "D",
+    "t": "幼蟲移行時可造成患者出現splinter hemorrhages"
+   },
+   {
+    "k": "E",
+    "t": "可偵測患者血清是否出現抗T. spiralis 的IgG 抗體來輔助判斷"
+   }
+  ],
+  "answer": [
+   "C",
+   "D",
+   "E"
+  ],
   "explain": "(D)(E) (A) 豬為最終宿主 (B) 仍可能因食用鼠類或熊等動物而感染",
   "topics": [
    "食源性線蟲"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k113-nem-m22",
   "source": "113 考古",
   "num": 22,
   "chapter": "foodborne",
-  "type": "short",
-  "stem": "（多選題）可經由生食鴨肉而引起寄生蟲感染的是：\n(A) P. westemani\n(B) T. spiralis\n(C) G. spinigerum\n(D) A. simplex\n(E) T. canis",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(C)、(E)",
+  "type": "mcq",
+  "stem": "（多選題）可經由生食鴨肉而引起寄生蟲感染的是：",
+  "options": [
+   {
+    "k": "A",
+    "t": "P. westemani"
+   },
+   {
+    "k": "B",
+    "t": "T. spiralis"
+   },
+   {
+    "k": "C",
+    "t": "G. spinigerum"
+   },
+   {
+    "k": "D",
+    "t": "A. simplex"
+   },
+   {
+    "k": "E",
+    "t": "T. canis"
+   }
+  ],
+  "answer": [
+   "C",
+   "E"
+  ],
   "explain": "(E) P. westemani 的第一中間宿主包含川蜷、瘤蜷，而第二中間宿主則包括淡水蟹和淡水蝦。 T. spiralis 最常出現於豬肉中。 水蚤為G. spinigerum 第一中間宿主、淡水魚和青蛙為第二中間宿主，而鳥、家禽、青蛙以及蛇等 等都有可能成為paratenic host（保幼宿主）。 海獸胃線蟲，通常出現於魚肉中。 犬蛔蟲寄生於犬及狐狸小腸，但除了第15 題詳解提到的動物，鴨子亦可做為其保幼宿主。 吃鴨子：G. spinigerum、T. canis 吃豬肉：T. solium、T. asiatica、T. gondii、T. spiralis 吃魚肉：C. philipinesis、A. simplex",
   "topics": [
    "食源性線蟲"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k113-nem-m23",
   "source": "113 考古",
   "num": 23,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（多選題）下列哪些寄生蟲的感染可能會造成腹瀉（diarrhea）：\n(A) A. lumbricoides\n(B) T. trichiura\n(C) T. canis\n(D) S. stercoralis\n(E) 以上皆是",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(A)、(B)、(D)",
+  "type": "mcq",
+  "stem": "（多選題）下列哪些寄生蟲的感染可能會造成腹瀉（diarrhea）：",
+  "options": [
+   {
+    "k": "A",
+    "t": "A. lumbricoides"
+   },
+   {
+    "k": "B",
+    "t": "T. trichiura"
+   },
+   {
+    "k": "C",
+    "t": "T. canis"
+   },
+   {
+    "k": "D",
+    "t": "S. stercoralis"
+   },
+   {
+    "k": "E",
+    "t": "以上皆是"
+   }
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
   "explain": "(B)(D) 大部分人感染犬蛔蟲通常沒有症狀，而嚴重的話感染的話會有VLM、OLM 的症狀。另外蛔蟲在 輕度感染下，學齡前的幼兒會有乳糖不耐症的情形，嚴重感染的話會有腸道阻塞、腹部疼痛等問 題，而根據范老師QA 回覆，蛔蟲感染小腸會造成腹瀉。另外兩種寄生蟲均有機會造成腹瀉。 腹瀉：T. ctricjura、A. limbricoides、S. stecoralis、C. philipinesis、A. simplex CLM：G. spinigerum、S. stercoralis、Ancylostoma spp.",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k113-nem-m24",
   "source": "113 考古",
   "num": 24,
   "chapter": "foodborne",
-  "type": "short",
-  "stem": "（多選題）有關廣東住血線蟲（Angiostrongylus cantonensis）感染人體的敘述，何者為正確？\n(A) 成蟲寄生在肺動脈間\n(B) 可以藉由糞便檢查確診\n(C) 臨床可見Eosinophil 明顯增多\n(D) 主要因食用螺肉罐頭而受到感染\n(E) 預後病人CNS 受損",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(C)、(E)",
+  "type": "mcq",
+  "stem": "（多選題）有關廣東住血線蟲（Angiostrongylus cantonensis）感染人體的敘述，何者為正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "成蟲寄生在肺動脈間"
+   },
+   {
+    "k": "B",
+    "t": "可以藉由糞便檢查確診"
+   },
+   {
+    "k": "C",
+    "t": "臨床可見Eosinophil 明顯增多"
+   },
+   {
+    "k": "D",
+    "t": "主要因食用螺肉罐頭而受到感染"
+   },
+   {
+    "k": "E",
+    "t": "預後病人CNS 受損"
+   }
+  ],
+  "answer": [
+   "C",
+   "E"
+  ],
   "explain": "(E) (A) 成蟲不會寄生在人類的肺動脈（但有極少數會移行到肺部引發肺炎）。L3 幼蟲被食入後，會 穿過腸道的血管經血液循環到腦膜生長。 (B) 應為抽取腦脊髓液（主要方法）。 (C) 食用受寄生／污染且「未煮熟」的生蝸牛或福壽螺、受幼蟲污染的生菜而感染。手遭蝸牛黏液 污染也有可能間接食入廣東住血線蟲幼蟲，導致感染。",
   "topics": [
    "食源性線蟲"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k113-nem-w01",
@@ -6389,16 +6982,82 @@
   "source": "113 考古",
   "num": 2,
   "chapter": "trematodes",
-  "stem": "（配合題，可複選）下列吸蟲中，會經由食用水生植物而感染的是？\n(A) Fasciolopsis buski\n(B) Metagonimus yokogawai\n(C) Heterophyes heterophyes\n(D) Gastrodiscoides hominis\n(E) Eurytrema spp.\n(F) Opisthorchis felineus\n(G) Clonorchis sinensis\n(H) Opisthorchis viverrini\n(I) Echinostoma spp.\n(J) Fasciola hepatica\n(K) Dicrocoelium dendriticum\n(L) Paragonimus westermani\n(M) Schistosoma japonicum\n(N) Schistosoma haematobium\n(O) Schistosoma mansoni",
+  "stem": "（配合題，可複選）下列吸蟲中，會經由食用水生植物而感染的是？",
   "explain": "以水生植物為感染來源（metacercaria 附著在植物表面）：F. buski（菱角、荸薺、茭白筍）、Gastrodiscoides hominis、Echinostoma spp.（宿主多樣，水生植物也是其一）、Fasciola hepatica（水芹 watercress）。",
   "topics": [
    "吸蟲"
   ],
   "pattern": "配對題",
-  "type": "short",
-  "options": [],
-  "answer": [],
-  "answerText": "(A) Fasciolopsis buski、(D) Gastrodiscoides hominis、(I) Echinostoma spp.、(J) Fasciola hepatica"
+  "type": "mcq",
+  "options": [
+   {
+    "k": "A",
+    "t": "Fasciolopsis buski"
+   },
+   {
+    "k": "B",
+    "t": "Metagonimus yokogawai"
+   },
+   {
+    "k": "C",
+    "t": "Heterophyes heterophyes"
+   },
+   {
+    "k": "D",
+    "t": "Gastrodiscoides hominis"
+   },
+   {
+    "k": "E",
+    "t": "Eurytrema spp."
+   },
+   {
+    "k": "F",
+    "t": "Opisthorchis felineus"
+   },
+   {
+    "k": "G",
+    "t": "Clonorchis sinensis"
+   },
+   {
+    "k": "H",
+    "t": "Opisthorchis viverrini"
+   },
+   {
+    "k": "I",
+    "t": "Echinostoma spp."
+   },
+   {
+    "k": "J",
+    "t": "Fasciola hepatica"
+   },
+   {
+    "k": "K",
+    "t": "Dicrocoelium dendriticum"
+   },
+   {
+    "k": "L",
+    "t": "Paragonimus westermani"
+   },
+   {
+    "k": "M",
+    "t": "Schistosoma japonicum"
+   },
+   {
+    "k": "N",
+    "t": "Schistosoma haematobium"
+   },
+   {
+    "k": "O",
+    "t": "Schistosoma mansoni"
+   }
+  ],
+  "answer": [
+   "A",
+   "D",
+   "I",
+   "J"
+  ],
+  "multi": true
  },
  {
   "id": "k113-tre-p03",
@@ -6483,16 +7142,81 @@
   "source": "113 考古",
   "num": 4,
   "chapter": "trematodes",
-  "stem": "（配合題，可複選）下列吸蟲中，中間宿主可以是昆蟲的是？\n(A) Fasciolopsis buski\n(B) Metagonimus yokogawai\n(C) Heterophyes heterophyes\n(D) Gastrodiscoides hominis\n(E) Eurytrema spp.\n(F) Opisthorchis felineus\n(G) Clonorchis sinensis\n(H) Opisthorchis viverrini\n(I) Echinostoma spp.\n(J) Fasciola hepatica\n(K) Dicrocoelium dendriticum\n(L) Paragonimus westermani\n(M) Schistosoma japonicum\n(N) Schistosoma haematobium\n(O) Schistosoma mansoni",
+  "stem": "（配合題，可複選）下列吸蟲中，中間宿主可以是昆蟲的是？",
   "explain": "Eurytrema（胰吸蟲）：第二中間宿主是蝗蟲類（草螽）。Dicrocoelium dendriticum（槍狀肝吸蟲）：第二中間宿主是螞蟻。Echinostoma 的第二中間宿主種類很多，昆蟲幼蟲也算在內。",
   "topics": [
    "吸蟲"
   ],
   "pattern": "配對題",
-  "type": "short",
-  "options": [],
-  "answer": [],
-  "answerText": "(E) Eurytrema spp.、(I) Echinostoma spp.、(K) Dicrocoelium dendriticum"
+  "type": "mcq",
+  "options": [
+   {
+    "k": "A",
+    "t": "Fasciolopsis buski"
+   },
+   {
+    "k": "B",
+    "t": "Metagonimus yokogawai"
+   },
+   {
+    "k": "C",
+    "t": "Heterophyes heterophyes"
+   },
+   {
+    "k": "D",
+    "t": "Gastrodiscoides hominis"
+   },
+   {
+    "k": "E",
+    "t": "Eurytrema spp."
+   },
+   {
+    "k": "F",
+    "t": "Opisthorchis felineus"
+   },
+   {
+    "k": "G",
+    "t": "Clonorchis sinensis"
+   },
+   {
+    "k": "H",
+    "t": "Opisthorchis viverrini"
+   },
+   {
+    "k": "I",
+    "t": "Echinostoma spp."
+   },
+   {
+    "k": "J",
+    "t": "Fasciola hepatica"
+   },
+   {
+    "k": "K",
+    "t": "Dicrocoelium dendriticum"
+   },
+   {
+    "k": "L",
+    "t": "Paragonimus westermani"
+   },
+   {
+    "k": "M",
+    "t": "Schistosoma japonicum"
+   },
+   {
+    "k": "N",
+    "t": "Schistosoma haematobium"
+   },
+   {
+    "k": "O",
+    "t": "Schistosoma mansoni"
+   }
+  ],
+  "answer": [
+   "E",
+   "I",
+   "K"
+  ],
+  "multi": true
  },
  {
   "id": "k113-tre-p05",
@@ -6733,33 +7457,169 @@
   "source": "113 考古",
   "num": 8,
   "chapter": "trematodes",
-  "stem": "（配合題，可複選）下列吸蟲中，第二中間宿主為魚的是？\n(A) Fasciolopsis buski\n(B) Metagonimus yokogawai\n(C) Heterophyes heterophyes\n(D) Gastrodiscoides hominis\n(E) Eurytrema spp.\n(F) Opisthorchis felineus\n(G) Clonorchis sinensis\n(H) Opisthorchis viverrini\n(I) Echinostoma spp.\n(J) Fasciola hepatica\n(K) Dicrocoelium dendriticum\n(L) Paragonimus westermani\n(M) Schistosoma japonicum\n(N) Schistosoma haematobium\n(O) Schistosoma mansoni",
+  "stem": "（配合題，可複選）下列吸蟲中，第二中間宿主為魚的是？",
   "explain": "以魚為第二中間宿主：Metagonimus yokogawai（淡水魚）、Heterophyes heterophyes（烏魚等鹹淡水魚）、Opisthorchis felineus、Clonorchis sinensis、O. viverrini（淡水魚，鯉科為主）。",
   "topics": [
    "吸蟲"
   ],
   "pattern": "配對題",
-  "type": "short",
-  "options": [],
-  "answer": [],
-  "answerText": "(B) Metagonimus yokogawai、(C) Heterophyes heterophyes、(F) Opisthorchis felineus、(G) Clonorchis sinensis、(H) Opisthorchis viverrini",
-  "note": "原考古另註：Echinostoma spp. 少數以魚為第二中間宿主，選 (I) 也可接受。"
+  "type": "mcq",
+  "options": [
+   {
+    "k": "A",
+    "t": "Fasciolopsis buski"
+   },
+   {
+    "k": "B",
+    "t": "Metagonimus yokogawai"
+   },
+   {
+    "k": "C",
+    "t": "Heterophyes heterophyes"
+   },
+   {
+    "k": "D",
+    "t": "Gastrodiscoides hominis"
+   },
+   {
+    "k": "E",
+    "t": "Eurytrema spp."
+   },
+   {
+    "k": "F",
+    "t": "Opisthorchis felineus"
+   },
+   {
+    "k": "G",
+    "t": "Clonorchis sinensis"
+   },
+   {
+    "k": "H",
+    "t": "Opisthorchis viverrini"
+   },
+   {
+    "k": "I",
+    "t": "Echinostoma spp."
+   },
+   {
+    "k": "J",
+    "t": "Fasciola hepatica"
+   },
+   {
+    "k": "K",
+    "t": "Dicrocoelium dendriticum"
+   },
+   {
+    "k": "L",
+    "t": "Paragonimus westermani"
+   },
+   {
+    "k": "M",
+    "t": "Schistosoma japonicum"
+   },
+   {
+    "k": "N",
+    "t": "Schistosoma haematobium"
+   },
+   {
+    "k": "O",
+    "t": "Schistosoma mansoni"
+   }
+  ],
+  "answer": [
+   "B",
+   "C",
+   "F",
+   "G",
+   "H"
+  ],
+  "note": "原考古另註：Echinostoma spp. 少數以魚為第二中間宿主，選 (I) 也可接受。",
+  "multi": true
  },
  {
   "id": "k113-tre-p09",
   "source": "113 考古",
   "num": 9,
   "chapter": "trematodes",
-  "stem": "（配合題，可複選）下列吸蟲中，可能引發腦部病理損傷的是？\n(A) Fasciolopsis buski\n(B) Metagonimus yokogawai\n(C) Heterophyes heterophyes\n(D) Gastrodiscoides hominis\n(E) Eurytrema spp.\n(F) Opisthorchis felineus\n(G) Clonorchis sinensis\n(H) Opisthorchis viverrini\n(I) Echinostoma spp.\n(J) Fasciola hepatica\n(K) Dicrocoelium dendriticum\n(L) Paragonimus westermani\n(M) Schistosoma japonicum\n(N) Schistosoma haematobium\n(O) Schistosoma mansoni",
+  "stem": "（配合題，可複選）下列吸蟲中，可能引發腦部病理損傷的是？",
   "explain": "異形吸蟲（B、C）：蟲卵可穿過腸壁進入血流，異位到腦、脊髓、心肌。\nFasciola hepatica（J）：幼蟲移行時可異位到肺、皮下、眼睛或腦。\nParagonimus westermani（L）：最常見的異位部位是腦（膿瘍、囊腫）。\n血吸蟲（M、N、O）：蟲卵可異位沉積在中樞神經，S. japonicum 最常見。",
   "topics": [
    "吸蟲"
   ],
   "pattern": "配對題",
-  "type": "short",
-  "options": [],
-  "answer": [],
-  "answerText": "(B) Metagonimus yokogawai、(C) Heterophyes heterophyes、(J) Fasciola hepatica、(L) Paragonimus westermani、(M) Schistosoma japonicum、(N) Schistosoma haematobium、(O) Schistosoma mansoni"
+  "type": "mcq",
+  "options": [
+   {
+    "k": "A",
+    "t": "Fasciolopsis buski"
+   },
+   {
+    "k": "B",
+    "t": "Metagonimus yokogawai"
+   },
+   {
+    "k": "C",
+    "t": "Heterophyes heterophyes"
+   },
+   {
+    "k": "D",
+    "t": "Gastrodiscoides hominis"
+   },
+   {
+    "k": "E",
+    "t": "Eurytrema spp."
+   },
+   {
+    "k": "F",
+    "t": "Opisthorchis felineus"
+   },
+   {
+    "k": "G",
+    "t": "Clonorchis sinensis"
+   },
+   {
+    "k": "H",
+    "t": "Opisthorchis viverrini"
+   },
+   {
+    "k": "I",
+    "t": "Echinostoma spp."
+   },
+   {
+    "k": "J",
+    "t": "Fasciola hepatica"
+   },
+   {
+    "k": "K",
+    "t": "Dicrocoelium dendriticum"
+   },
+   {
+    "k": "L",
+    "t": "Paragonimus westermani"
+   },
+   {
+    "k": "M",
+    "t": "Schistosoma japonicum"
+   },
+   {
+    "k": "N",
+    "t": "Schistosoma haematobium"
+   },
+   {
+    "k": "O",
+    "t": "Schistosoma mansoni"
+   }
+  ],
+  "answer": [
+   "B",
+   "C",
+   "J",
+   "L",
+   "M",
+   "N",
+   "O"
+  ],
+  "multi": true
  },
  {
   "id": "k113-tre-p10",

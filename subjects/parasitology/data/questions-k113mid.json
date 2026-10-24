@@ -944,7 +944,8 @@
    "吸蟲"
   ],
   "pattern": "配對題",
-  "note": "原檔詳解只寫 (A)；Fasciola hepatica 也是吃水生植物感染（見第 26 題），本站 A、D 都算對。"
+  "note": "原檔詳解只寫 (A)；Fasciola hepatica 也是吃水生植物感染（見第 26 題），本站 A、D 都算對。",
+  "multi": true
  },
  {
   "id": "k113mid-39",
@@ -1072,6 +1073,7 @@
   "topics": [
    "吸蟲"
   ],
-  "pattern": "配對題"
+  "pattern": "配對題",
+  "multi": true
  }
 ]

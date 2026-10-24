@@ -1,0 +1,67 @@
+{
+ "parasitology": {
+  "questions-k109.json": {
+   "k109m-m06": {"answer": ["A", "C", "D"]},
+   "k109m-m07": {"answer": ["A", "D", "E"]},
+   "k109m-m08": {"answer": ["A", "B", "D"]},
+   "k109m-m09": {"answer": ["C", "D", "E"]},
+   "k109m-m10": {"answer": ["D"]},
+   "k109m-m11": {"answer": ["B", "C", "D"]},
+   "k109b-18": {
+    "options": [
+     {"k": "A", "t": "甲圖"},
+     {"k": "B", "t": "乙圖"},
+     {"k": "C", "t": "丙圖"},
+     {"k": "D", "t": "丁圖"},
+     {"k": "E", "t": "皆非"}
+    ],
+    "img": ["figures/questions/k109b-18.webp"]
+   },
+   "k109b-19": {"img": ["figures/questions/k109b-19.webp"], "imageOnly": null},
+   "k109b-20": {"img": ["figures/questions/k109b-20.webp"], "imageOnly": null},
+   "k110-03": {"answer": ["A", "C"]}
+  },
+  "questions-kaogu.json": {
+   "k113-nem-79": {"answer": ["C"]},
+   "k113-nem-76": {"answer": ["B"]}
+  },
+  "questions-k113mid.json": {
+   "k113mid-38": {"multi": true},
+   "k113mid-41": {"multi": true}
+  }
+ },
+ "micro-immuno": {
+  "questions-kaogu.json": {
+   "k113-fungi-17": {
+    "options": [
+     {"k": "A", "t": "Arthrospore"},
+     {"k": "B", "t": "Chlamydospore"},
+     {"k": "C", "t": "Phialospore"},
+     {"k": "D", "t": "Blastospore"}
+    ],
+    "img": ["figures/questions/k113-fungi-17.webp"],
+    "imageOnly": null
+   },
+   "k113-tact-16": {"answer": ["D", "E"]},
+   "k113-mid111-62": {"answer": ["A", "B"]}
+  }
+ },
+ "biochem": {
+  "questions-gongbi.json": {
+   "g18-18": {"noAnswer": true},
+   "g22-38": {"noAnswer": true},
+   "g21-07": {"answer": ["D"]},
+   "g17_1-07": {
+    "options": [
+     {"k": "A", "t": "Chylomicron"},
+     {"k": "B", "t": "low density lipoprotein"},
+     {"k": "C", "t": "very low density lipoprotein (VLDL)"},
+     {"k": "D", "t": "High density lipoprotein"}
+    ]
+   }
+  },
+  "questions-k114.json": {
+   "k114-16": {"answer": ["D"]}
+  }
+ }
+}

@@ -2693,20 +2693,20 @@
     "t": "甲圖"
    },
    {
-    "k": "D",
-    "t": "丁圖"
-   },
-   {
     "k": "B",
     "t": "乙圖"
    },
    {
-    "k": "E",
-    "t": "皆非"
-   },
-   {
     "k": "C",
     "t": "丙圖"
+   },
+   {
+    "k": "D",
+    "t": "丁圖"
+   },
+   {
+    "k": "E",
+    "t": "皆非"
    }
   ],
   "answer": [
@@ -2716,7 +2716,10 @@
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "選錯誤／否定題"
+  "pattern": "選錯誤／否定題",
+  "img": [
+   "figures/questions/k109b-18.webp"
+  ]
  },
  {
   "id": "k109b-19",
@@ -2755,7 +2758,9 @@
    "土源性蠕蟲"
   ],
   "pattern": "選錯誤／否定題",
-  "imageOnly": true
+  "img": [
+   "figures/questions/k109b-19.webp"
+  ]
  },
  {
   "id": "k109b-20",
@@ -2794,7 +2799,9 @@
    "食源性線蟲"
   ],
   "pattern": "選錯誤／否定題",
-  "imageOnly": true
+  "img": [
+   "figures/questions/k109b-20.webp"
+  ]
  },
  {
   "id": "k109b-23",
@@ -3395,96 +3402,244 @@
   "source": "109 期中考古",
   "num": 1,
   "chapter": "capillaria-strongyloides",
-  "type": "short",
-  "stem": "（多選題）生活史中具autoinfection 之線蟲是？\n(A) T. spiralis\n(B) S. stercoralis\n(C) C. philippinensis\n(D) T. canis\n(E) N. americanus",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(B)、(C)",
+  "type": "mcq",
+  "stem": "（多選題）生活史中具autoinfection 之線蟲是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "T. spiralis"
+   },
+   {
+    "k": "B",
+    "t": "S. stercoralis"
+   },
+   {
+    "k": "C",
+    "t": "C. philippinensis"
+   },
+   {
+    "k": "D",
+    "t": "T. canis"
+   },
+   {
+    "k": "E",
+    "t": "N. americanus"
+   }
+  ],
+  "answer": [
+   "B",
+   "C"
+  ],
   "explain": "（參考112 考古）\n會autoinfection：Enterobius vermicularis、Strongyloides stercoralis、Capillaria philippinenesis",
   "topics": [
    "毛線蟲與糞小桿線蟲"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k109b-m02",
   "source": "109 期中考古",
   "num": 2,
   "chapter": "trematodes",
-  "type": "short",
-  "stem": "（多選題）下列吸蟲在台灣曾經流行過的是？\n(A) Dicrocoelium dendriticum\n(B) Heterophyes heterophyes\n(C) Paragonimus westermani\n(D) Fasciola hepatica\n(E) Fasciolopsis buski",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(C)、(E)",
+  "type": "mcq",
+  "stem": "（多選題）下列吸蟲在台灣曾經流行過的是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Dicrocoelium dendriticum"
+   },
+   {
+    "k": "B",
+    "t": "Heterophyes heterophyes"
+   },
+   {
+    "k": "C",
+    "t": "Paragonimus westermani"
+   },
+   {
+    "k": "D",
+    "t": "Fasciola hepatica"
+   },
+   {
+    "k": "E",
+    "t": "Fasciolopsis buski"
+   }
+  ],
+  "answer": [
+   "C",
+   "E"
+  ],
   "explain": "（參考112 考古）\n除了本題選項外，還有橫川異形吸蟲（Metagonimus yokogawai）\n註：(A)和(D)這兩隻蟲蟲主要出現於牛羊出產國，台灣目前查不到相關病例，即使有零星個案可能也未達「流行」的範疇，供大家參考\n(D) 我認同之前考古寫的人類個案零星，在台灣不到流行的程度",
   "topics": [
    "吸蟲"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k109b-m03",
   "source": "109 期中考古",
   "num": 3,
   "chapter": "foodborne",
-  "type": "short",
-  "stem": "（多選題）關於近來移工、原住民與台灣南部民眾感染寄生蟲所導致之Eosinophilic meningitis，下列敘述何者 正確？\n(A) 主要因他們生食非洲大蝸牛而感染A. duodenale 所導致\n(B) 病患週邊血液內eosinophil 的量可能會異常增加\n(C) 病患腦壓可見異常降低，引起頸部僵直\n(D) 此寄生蟲的感染型為L3（the third stage larvae）\n(E) 可抽取病患腦脊髓液（CSF）檢查是否出現幼蟲",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(B)、(D)",
+  "type": "mcq",
+  "stem": "（多選題）關於近來移工、原住民與台灣南部民眾感染寄生蟲所導致之Eosinophilic meningitis，下列敘述何者 正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "主要因他們生食非洲大蝸牛而感染A. duodenale 所導致"
+   },
+   {
+    "k": "B",
+    "t": "病患週邊血液內eosinophil 的量可能會異常增加"
+   },
+   {
+    "k": "C",
+    "t": "病患腦壓可見異常降低，引起頸部僵直"
+   },
+   {
+    "k": "D",
+    "t": "此寄生蟲的感染型為L3（the third stage larvae）"
+   },
+   {
+    "k": "E",
+    "t": "可抽取病患腦脊髓液（CSF）檢查是否出現幼蟲"
+   }
+  ],
+  "answer": [
+   "B",
+   "D"
+  ],
   "explain": "（能力不夠，GPT 好用）\n(A) 「Eosinophilic meningitis」要聯想到是Angiostrongylus cantonensis\n(B) 「Eosinophilic meningitis」提示很明顯了\n(C) 腦膜發炎→血管通透性上升→嗜酸性球與發炎液體滲入蛛網膜下腔→CSF 量增加→腦壓升高\n(D) 詳解35.再看一次\n(E) 我查不到幼蟲，只看到Charcot-Leyden crystals，我把它刪了但之前的答案有，大家自行想像",
   "topics": [
    "食源性線蟲"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k109b-m04",
   "source": "109 期中考古",
   "num": 4,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（多選題）下列何者parasite 可引起「zoonotic parasitosis」？\n(A) E. vermicularis\n(B) T. spiralis\n(C) A. caninum\n(D) T. canis\n(E) C. hepatica",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(B)、(C)、(D)、(E)",
+  "type": "mcq",
+  "stem": "（多選題）下列何者parasite 可引起「zoonotic parasitosis」？",
+  "options": [
+   {
+    "k": "A",
+    "t": "E. vermicularis"
+   },
+   {
+    "k": "B",
+    "t": "T. spiralis"
+   },
+   {
+    "k": "C",
+    "t": "A. caninum"
+   },
+   {
+    "k": "D",
+    "t": "T. canis"
+   },
+   {
+    "k": "E",
+    "t": "C. hepatica"
+   }
+  ],
+  "answer": [
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
   "explain": "E. vermicularis 為人專一寄生，其他都會同時感染人和動物，屬於人畜共通傳染病",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k109b-m05",
   "source": "109 期中考古",
   "num": 5,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（多選題）可經由生食蔬菜而引起寄生蟲感染的是？\n(A) T. spiralis\n(B) A. lumbricoides\n(C) A. duodenale\n(D) C. philippinensis\n(E) A. cantonensis",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(B)、(C)、(E)",
+  "type": "mcq",
+  "stem": "（多選題）可經由生食蔬菜而引起寄生蟲感染的是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "T. spiralis"
+   },
+   {
+    "k": "B",
+    "t": "A. lumbricoides"
+   },
+   {
+    "k": "C",
+    "t": "A. duodenale"
+   },
+   {
+    "k": "D",
+    "t": "C. philippinensis"
+   },
+   {
+    "k": "E",
+    "t": "A. cantonensis"
+   }
+  ],
+  "answer": [
+   "B",
+   "C",
+   "E"
+  ],
   "explain": "（參考112 考古）\n(A) 藉由食用encysted larva 的未煮熟肉類\n(B) Ascaris lumbricoides 的卵可以附著在菜葉上\n(C) 與Necator americanus 不同，Ancylostoma duodenale 可藉由吞食感染\n(D) 經由食用含有L3 larva 的生魚感染Capillaria philippinensis\n(E) Achatina fulica 上的Angiostrongylus cantonensis 可以藉由從軟體動物身上附著到菜葉",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k109b-m06",
   "source": "109 期中考古",
   "num": 6,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（多選題）可侵犯腦部的線蟲是？\n(A) T. canis\n(B) E. vermicularis\n(C) L. loa\n(D) A. cantonensis\n(E) O. volvulus (這隻應該是Ancylostoma doudenale)",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(A)、(C)、(D)",
+  "type": "mcq",
+  "stem": "（多選題）可侵犯腦部的線蟲是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "T. canis"
+   },
+   {
+    "k": "B",
+    "t": "E. vermicularis"
+   },
+   {
+    "k": "C",
+    "t": "L. loa"
+   },
+   {
+    "k": "D",
+    "t": "A. cantonensis"
+   },
+   {
+    "k": "E",
+    "t": "O. volvulus (這隻應該是Ancylostoma doudenale)"
+   }
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D"
+  ],
   "explain": "（參考112 考古）\n(A) Toxocara canis 會移行到大腦（Neural toxocariasis, NT）造成癲癇\n(B) Enterobius vermicularis 僅會在消化道中存活\n(C) Loa loa 會利用microfilaria 階段在組織內竄來竄去，包含中樞神經（很少見）\n(D) Angiostrongylus cantonensis 在L3 larva 階段入侵人體後，便會穿過十二指腸進入血液循環，抵達中樞神經系統成熟，到腦部經由腦部靜脈回到心臟與肺動脈。過程中造成eosinophilic meningitis\n(E) Onchocerca volvulus 主要感染位置為皮下組織與眼睛",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k109m-01",
@@ -5066,96 +5221,244 @@
   "source": "109 期中考古",
   "num": 6,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（多選題）可侵犯腦部的線蟲是？\n(A) T. canis\n(B) E. vermicularis\n(C) L. loa\n(D) A. cantonensis\n(E) O. volvulus",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(B)、(C)、(E)",
-  "explain": "Toxocara canis 會移行到大腦（Neural toxocariasis, NT）造成癲癇\n(B) Enterobius vermicularis 僅會在消化道中存活\n(C) Loa loa 會利用microfilaria 階段在組織內竄來竄去，包含中樞神經\n(D) Angiostrongylus cantonensis 在L3 larva 階段入侵人體後，便會穿過十二指腸進入血液循環，抵達中樞神經系統成熟，到腦部經由腦部靜脈回到心臟與肺動脈。過程中造成eosinophilic meningitis\n(E) Onchocerca volvulus 主要感染位置為皮下組織與眼",
+  "type": "mcq",
+  "stem": "（多選題）可侵犯腦部的線蟲是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "T. canis"
+   },
+   {
+    "k": "B",
+    "t": "E. vermicularis"
+   },
+   {
+    "k": "C",
+    "t": "L. loa"
+   },
+   {
+    "k": "D",
+    "t": "A. cantonensis"
+   },
+   {
+    "k": "E",
+    "t": "O. volvulus"
+   }
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D"
+  ],
+  "explain": "答案 (A)(C)(D)。\n(A) ✅ Toxocara canis：幼蟲移行到中樞神經造成神經性犬蛔蟲症（Neural toxocariasis, NT），可引起癲癇。0907 投影片 p.83「some may pass through… reaching the lungs, muscles, eyes and/or the central nervous system thus causing VLM, OLM, and NT」、p.86「CNS involvement」、p.100–101 老師的 Cerebral toxocariasis 假說。\n(B) ❌ Enterobius vermicularis：只在消化道（盲腸、肛門周圍），不侵犯腦。\n(C) ✅ Loa loa：微絲蚴可在組織中移行，包含中樞神經（Loa 腦病變；0922 投影片 p.81 提到治療 O. volvulus 與 L. loa 共同感染時可能出現嚴重副作用）。\n(D) ✅ Angiostrongylus cantonensis：L3 幼蟲進入人體後到中樞神經，造成嗜酸性腦膜炎（0922 投影片 p.27「Eosinophilic meningitis are caused by the presence of larvae in the brain」）。\n(E) ❌ Onchocerca volvulus：主要在皮下組織與眼睛（河盲症），不侵犯腦。\n※ 原本網站答案 (B)(C)(E) 與這份詳解矛盾，已更正；另一份 109 考古同題 k109b-m06 答案也是 (A)(C)(D)。",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k109m-m07",
   "source": "109 期中考古",
   "num": 7,
   "chapter": "capillaria-strongyloides",
-  "type": "short",
-  "stem": "（多選題）生活史中不具autoinfection 之線蟲是？\n(A) N. americanus\n(B) S. stercoralis\n(C) C. philippinensis\n(D) T. canis\n(E) B. malayi",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(A)、(C)、(D)",
-  "explain": "具autoinfection 的線蟲為S. stercoralis, C. philippinensis, E. vermicularis",
+  "type": "mcq",
+  "stem": "（多選題）生活史中不具autoinfection 之線蟲是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "N. americanus"
+   },
+   {
+    "k": "B",
+    "t": "S. stercoralis"
+   },
+   {
+    "k": "C",
+    "t": "C. philippinensis"
+   },
+   {
+    "k": "D",
+    "t": "T. canis"
+   },
+   {
+    "k": "E",
+    "t": "B. malayi"
+   }
+  ],
+  "answer": [
+   "A",
+   "D",
+   "E"
+  ],
+  "explain": "答案 (A)(D)(E)：題目問「不具」autoinfection 的線蟲。\n具 autoinfection 的線蟲：Strongyloides stercoralis、Capillaria philippinensis、Enterobius vermicularis。\n(A) ✅ N. americanus：絲狀幼蟲要在土壤中發育，沒有 autoinfection。\n(B) ❌ S. stercoralis：有 internal／external autoinfection（0914 投影片 p.12「its potential for autoinfection and multiplication within the host」）。\n(C) ❌ C. philippinensis：有 autoinfection，因此腹瀉會越來越嚴重（0914 投影片 p.4「may become severe because of autoinfection」）。\n(D) ✅ T. canis：人是保幼宿主，幼蟲不會發育為成蟲，沒有 autoinfection。\n(E) ✅ B. malayi：需要蚊子傳播，沒有 autoinfection。\n※ 原本網站答案 (A)(C)(D) 把會 autoinfection 的 C. philippinensis 算進去、又漏了 B. malayi，已更正；與 k109b-m01（具 autoinfection 的是 S. stercoralis、C. philippinensis）一致。",
   "topics": [
    "毛線蟲與糞小桿線蟲"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k109m-m08",
   "source": "109 期中考古",
   "num": 8,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（多選題）下列何者parasite 可引起「zoonotic parasitosis」？\n(A) T. canis\n(B) T. spiralis\n(C) W. bancrofti\n(D) C. hepatica\n(E) B. malayi",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(A)、(D)、(E)",
-  "explain": "T. canis 最終宿主為犬類，T. spiralis 可感染豬和鼠，C. hepatica 最終宿主為老鼠",
+  "type": "mcq",
+  "stem": "（多選題）下列何者parasite 可引起「zoonotic parasitosis」？",
+  "options": [
+   {
+    "k": "A",
+    "t": "T. canis"
+   },
+   {
+    "k": "B",
+    "t": "T. spiralis"
+   },
+   {
+    "k": "C",
+    "t": "W. bancrofti"
+   },
+   {
+    "k": "D",
+    "t": "C. hepatica"
+   },
+   {
+    "k": "E",
+    "t": "B. malayi"
+   }
+  ],
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "explain": "答案 (A)(B)(D)：人畜共通（zoonotic）＝寄生蟲可以在人與其他脊椎動物之間傳播。\n(A) ✅ T. canis：最終宿主是狗，人誤食蟲卵感染；0907 投影片 p.75 把犬蛔蟲症列為「被忽視的人畜共通傳染疾病（Neglected zoonotic diseases, NZDs）」。\n(B) ✅ T. spiralis：豬、鼠等動物與人之間傳播；0922 投影片 p.3「Rats and rodents are primarily responsible…」，人吃到含被囊幼蟲的動物肉而感染。\n(C) ❌ W. bancrofti：只感染人（淋巴絲蟲），靠蚊子在人與人之間傳播。\n(D) ✅ C. hepatica：成蟲寄生在大鼠等動物的肝臟（0914 投影片 p.6「adult worms reside in the liver of various animals, especially rats」）。\n(E) ❌ B. malayi：依課堂內容，B. malayi 和 W. bancrofti 一起被介紹為人類淋巴絲蟲（0922 投影片 p.33 Filaria、p.35 病媒、p.36 分布於亞洲），上課沒有提到動物宿主，因此不選。\n※ 原本網站答案 (A)(D)(E) 漏了 T. spiralis，已更正（與 k109b-m04、k113-nem-m03 一致）。\n\n【補充：B. malayi 與動物宿主】\n課本上 B. malayi 分為夜間週期型與亞週期型（subperiodic）；亞週期型可以感染貓、猴子等動物，所以教科書會把它列為人畜共通的血絲蟲。這部分上課與投影片都沒有提到，考試依本課程內容作答即可，知道有這個例外就好。",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k109m-m09",
   "source": "109 期中考古",
   "num": 9,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（多選題）可經由生食蔬菜而引起寄生蟲感染的是？\n(A) C. philippinensis\n(B) T. spiralis\n(C) T. canis\n(D) A. duodenale\n(E) T. trichiura",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(A)、(B)、(D)",
-  "explain": "主要詢問哪些是可以透過吞食感染的soil-transmitted helminths。C. philippinensis 感染途徑為生食淡水魚，T. spiralis 感染途徑主要是生食受感染的豬肉。A. duodenal 除了可以透過F-form larvae 鑽入之外也可透過口腔感染",
+  "type": "mcq",
+  "stem": "（多選題）可經由生食蔬菜而引起寄生蟲感染的是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "C. philippinensis"
+   },
+   {
+    "k": "B",
+    "t": "T. spiralis"
+   },
+   {
+    "k": "C",
+    "t": "T. canis"
+   },
+   {
+    "k": "D",
+    "t": "A. duodenale"
+   },
+   {
+    "k": "E",
+    "t": "T. trichiura"
+   }
+  ],
+  "answer": [
+   "C",
+   "D",
+   "E"
+  ],
+  "explain": "答案 (C)(D)(E)：生食蔬菜時吃進附著在菜上的感染期（胚胎化蟲卵或幼蟲）。\n(A) ❌ C. philippinensis：生食淡水魚感染。\n(B) ❌ T. spiralis：生食含被囊幼蟲的肉類（豬肉）感染（0922 投影片 p.3「Acquired by ingesting meat containing cysts」）。\n(C) ✅ T. canis：誤食土壤、生菜上的胚胎化蟲卵（0907 投影片 p.78「accidental ingestion of embryonated T. canis… eggs」）。\n(D) ✅ A. duodenale：除了絲狀幼蟲鑽皮膚，也可以經口感染（吃到附著在蔬菜上的幼蟲）。\n(E) ✅ T. trichiura：吃入污染土壤或蔬菜上的胚胎化蟲卵（0907 投影片 p.41：衛生條件差的地區）。\n※ 原本網站答案 (A)(B)(D) 與這份詳解矛盾，已更正；同類題 k109b-m05 也不選 T. spiralis、C. philippinensis。",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k109m-m10",
   "source": "109 期中考古",
   "num": 10,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（多選題）下列何者寄生蟲的感染可侵犯腦部？\n(A) C. philippinensis\n(B) C. hepatica\n(C) T. trichiura\n(D) T. canis\n(E) N. americanus",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(C)、(D)、(E)",
-  "explain": "可侵犯腦部的有T. canis, T. spiralis, A. cantonensis, S. stercoralis, G. spinigerum, P. westermani, schistosomes",
+  "type": "mcq",
+  "stem": "（多選題）下列何者寄生蟲的感染可侵犯腦部？",
+  "options": [
+   {
+    "k": "A",
+    "t": "C. philippinensis"
+   },
+   {
+    "k": "B",
+    "t": "C. hepatica"
+   },
+   {
+    "k": "C",
+    "t": "T. trichiura"
+   },
+   {
+    "k": "D",
+    "t": "T. canis"
+   },
+   {
+    "k": "E",
+    "t": "N. americanus"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "答案 (D)：選項中只有 T. canis 會侵犯腦部。\n可侵犯腦部的線蟲有 T. canis、T. spiralis、A. cantonensis、S. stercoralis、G. spinigerum（吸蟲：P. westermani、血吸蟲）。\n(A) ❌ C. philippinensis：寄生在小腸（0914 投影片 p.2「causes human intestinal capillariasis」、p.5 從糞便或腸切片診斷）。\n(B) ❌ C. hepatica：寄生在肝臟（0914 投影片 p.2「hepatic capillariasis」、p.7 急性／亞急性肝炎、p.8 肝臟切片診斷）。p.7 雖提到「possible dissemination to other organs」，但沒有指腦部。\n(C) ❌ T. trichiura：寄生在大腸（0907 投影片 p.41–45：直腸脫垂、生長遲緩）。\n(D) ✅ T. canis：神經性犬蛔蟲症（NT）（0907 投影片 p.83、p.86 CNS involvement、p.100–101 Cerebral toxocariasis）。\n(E) ❌ N. americanus：寄生在小腸（0907 投影片 p.46、p.55 缺鐵性貧血）。\n※ 原本網站答案 (C)(D)(E) 有誤，已更正。",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k109m-m11",
   "source": "109 期中考古",
   "num": 11,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（多選題）可侵犯眼部的線蟲是？\n(A) A. duodenale\n(B) T. canis\n(C) L. loa\n(D) O. volvulus\n(E) C. hepatica",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(D)",
-  "explain": "可侵犯眼部的有T. canis, Gnathostoma spp., A. cantonensis, L. loa, O. volvulus",
+  "type": "mcq",
+  "stem": "（多選題）可侵犯眼部的線蟲是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "A. duodenale"
+   },
+   {
+    "k": "B",
+    "t": "T. canis"
+   },
+   {
+    "k": "C",
+    "t": "L. loa"
+   },
+   {
+    "k": "D",
+    "t": "O. volvulus"
+   },
+   {
+    "k": "E",
+    "t": "C. hepatica"
+   }
+  ],
+  "answer": [
+   "B",
+   "C",
+   "D"
+  ],
+  "explain": "答案 (B)(C)(D)。\n可侵犯眼部的線蟲有 T. canis、Gnathostoma spp.、A. cantonensis、L. loa、O. volvulus（另有 Thelazia callipaeda）。\n(A) ❌ A. duodenale：投影片沒有提到侵犯眼睛。\n(B) ✅ T. canis：眼部犬蛔蟲症（OLM）。0907 投影片 p.77（1950 年 Wilder 在被當成 retinoblastoma 摘除的兒童眼球中發現犬蛔蟲幼蟲）、p.83–84（人體犬蛔蟲症四大類型：VLM、OLM、NT、covert）、p.86（Eyes involvement）。\n(C) ✅ L. loa：非洲眼蟲，成蟲會移行到眼結膜下（0922 投影片 p.53「羅阿絲蟲（Loa loa）非洲眼蟲」）。\n(D) ✅ O. volvulus：河盲症，微絲蚴侵犯眼睛（0922 投影片 p.63 River Blindness、p.69 skin and eyes）。\n(E) ❌ C. hepatica：寄生在肝臟，投影片沒有提到侵犯眼睛。\n※ 原本網站答案只有 (D)，已更正；113 考古同題 k113-nem-m01 也把 T. canis、L. loa、O. volvulus 都算進去。\n（投影片代號：0907 投影片＝20260907 Introduction／STHs／Toxocara／Enterobius；0914 投影片＝20260914 Capillaria／Strongyloides／Foodborne nematodes；0922 投影片＝20250922 Trichinella／Anisakis／Angiostrongylus／Filaria）",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "多選題"
+  "pattern": "多選題",
+  "multi": true
  },
  {
   "id": "k110-02",
@@ -5221,9 +5524,10 @@
    }
   ],
   "answer": [
-   "A"
+   "A",
+   "C"
   ],
-  "explain": "(A) 蟯蟲\n(B) 蛔蟲\n(C) 衛氏肺吸蟲\n(D) 中華肝吸蟲\n中小、左右不對稱\n內有折疊的幼蟲\n橢圓、棕黃、厚殼\n黏性波動蛋白膜\n中大、金黃色、橢圓\n一端平卵蓋一端厚底\n小、瓶狀、黃棕色\n前窄卵蓋，後鈍突起\n內含成熟纖毛幼蟲\n我其實選不出來嗚嗚嗚，(A)(C)都可以的感覺嗎？\n(A) 是歷年流傳下來的答案，卵殼厚薄不均可能是指他不對稱的結構\n(C) 老師上課有提到：「左右不對稱、上下不對稱……尖端的地方特別厚」 然後講義上完全沒有相關敘述，給大家參考，再麻煩大家幫我勘誤了orz",
+  "explain": "答案 (A) 或 (C) 都算對。\n「卵殼厚薄不均」要和「形狀左右不對稱」分開看：\n・(A) 蟯蟲：1線蟲圖檔 p.7「asymmetrical with one side flattened, other side convex」「thin eggshell（薄卵殼）」→ 形狀不對稱，但卵殼整圈都薄。\n・(B) 蛔蟲：蟲卵祕笈 p.17，厚殼＋蛋白質外殼，厚度均勻。\n・(C) 衛氏肺吸蟲：2吸蟲圖檔 p.16「thick shell」「Posterior end is thickened」；蟲卵祕笈 p.5、p.19「中大型、金黃色、底部有增厚、頂部有卵蓋、左右不對稱」→ 卵蓋對側增厚，卵殼厚薄不均。\n・(D) 中華肝吸蟲：小、瓶狀、有卵蓋與肩峰、後端小突起，沒有卵殼增厚。\n(A) 是歷年流傳下來的考古答案，應是把蟯蟲卵「一邊扁一邊凸」的不對稱當成厚薄不均；但依講義，真正卵殼一端增厚的是 (C) 衛氏肺吸蟲（老師上課也提到「尖端的地方特別厚」）。兩個都列為正確答案。",
   "topics": [
    "吸蟲"
   ],
@@ -5300,111 +5604,582 @@
   "source": "110 期中考古",
   "num": 1,
   "chapter": "trematodes",
-  "type": "short",
-  "stem": "（配合題，可複選）上述吸蟲可能引發腦部病理損傷的為？\n(A) Fasciolopsis buski\n(B) Metagonimus yokogawai\n(C) Heterophyes heterophyes\n(D) Gastrodiscoides hominis\n(E) Eurytrema spp.\n(F) Opisthorchis felineus\n(G) Clonorchis sinensis\n(H) Opisthorchis viverrini\n(I) Echinostoma spp.\n(J) Fasciola hepatica\n(K) Dicrocoelium dendriticum\n(L) Paragonimus westermani\n(M) Schsitosoma japonicum\n(N) Schistosoma haematobium\n(O) Schistosoma mansoni",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(B)、(C)、(L)、(M)、(N)、(O)",
+  "type": "mcq",
+  "stem": "（配合題，可複選）上述吸蟲可能引發腦部病理損傷的為？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Fasciolopsis buski"
+   },
+   {
+    "k": "B",
+    "t": "Metagonimus yokogawai"
+   },
+   {
+    "k": "C",
+    "t": "Heterophyes heterophyes"
+   },
+   {
+    "k": "D",
+    "t": "Gastrodiscoides hominis"
+   },
+   {
+    "k": "E",
+    "t": "Eurytrema spp."
+   },
+   {
+    "k": "F",
+    "t": "Opisthorchis felineus"
+   },
+   {
+    "k": "G",
+    "t": "Clonorchis sinensis"
+   },
+   {
+    "k": "H",
+    "t": "Opisthorchis viverrini"
+   },
+   {
+    "k": "I",
+    "t": "Echinostoma spp."
+   },
+   {
+    "k": "J",
+    "t": "Fasciola hepatica"
+   },
+   {
+    "k": "K",
+    "t": "Dicrocoelium dendriticum"
+   },
+   {
+    "k": "L",
+    "t": "Paragonimus westermani"
+   },
+   {
+    "k": "M",
+    "t": "Schsitosoma japonicum"
+   },
+   {
+    "k": "N",
+    "t": "Schistosoma haematobium"
+   },
+   {
+    "k": "O",
+    "t": "Schistosoma mansoni"
+   }
+  ],
+  "answer": [
+   "B",
+   "C",
+   "L",
+   "M",
+   "N",
+   "O"
+  ],
   "explain": "橫川異形吸蟲、異形異形吸蟲（蟲卵可進入腸壁血管並隨血流到達腦）、衛氏肺吸蟲、日本血吸蟲、曼森血吸蟲、埃及血吸蟲（異位寄生）\n（括號內的選項是 110 解答與傳承考古不同之處；解答者註明配合題答案僅供參考）",
   "topics": [
    "吸蟲"
   ],
-  "pattern": "配合題"
+  "pattern": "配合題",
+  "multi": true
  },
  {
   "id": "k110-x12",
   "source": "110 期中考古",
   "num": 2,
   "chapter": "trematodes",
-  "type": "short",
-  "stem": "（配合題，可複選）上述吸蟲寄生在小腸的為？\n(A) Fasciolopsis buski\n(B) Metagonimus yokogawai\n(C) Heterophyes heterophyes\n(D) Gastrodiscoides hominis\n(E) Eurytrema spp.\n(F) Opisthorchis felineus\n(G) Clonorchis sinensis\n(H) Opisthorchis viverrini\n(I) Echinostoma spp.\n(J) Fasciola hepatica\n(K) Dicrocoelium dendriticum\n(L) Paragonimus westermani\n(M) Schsitosoma japonicum\n(N) Schistosoma haematobium\n(O) Schistosoma mansoni",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(A)、(B)、(C)、(I)",
+  "type": "mcq",
+  "stem": "（配合題，可複選）上述吸蟲寄生在小腸的為？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Fasciolopsis buski"
+   },
+   {
+    "k": "B",
+    "t": "Metagonimus yokogawai"
+   },
+   {
+    "k": "C",
+    "t": "Heterophyes heterophyes"
+   },
+   {
+    "k": "D",
+    "t": "Gastrodiscoides hominis"
+   },
+   {
+    "k": "E",
+    "t": "Eurytrema spp."
+   },
+   {
+    "k": "F",
+    "t": "Opisthorchis felineus"
+   },
+   {
+    "k": "G",
+    "t": "Clonorchis sinensis"
+   },
+   {
+    "k": "H",
+    "t": "Opisthorchis viverrini"
+   },
+   {
+    "k": "I",
+    "t": "Echinostoma spp."
+   },
+   {
+    "k": "J",
+    "t": "Fasciola hepatica"
+   },
+   {
+    "k": "K",
+    "t": "Dicrocoelium dendriticum"
+   },
+   {
+    "k": "L",
+    "t": "Paragonimus westermani"
+   },
+   {
+    "k": "M",
+    "t": "Schsitosoma japonicum"
+   },
+   {
+    "k": "N",
+    "t": "Schistosoma haematobium"
+   },
+   {
+    "k": "O",
+    "t": "Schistosoma mansoni"
+   }
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "I"
+  ],
   "explain": "（參考108 共筆）\n腸吸蟲：薑片蟲、橫川異形吸蟲（空腸、迴腸上段）、異形異形吸蟲（十二指腸至盲腸）、棘口吸蟲（小腸上段絨毛間）\n（括號內的選項是 110 解答與傳承考古不同之處；解答者註明配合題答案僅供參考）",
   "topics": [
    "吸蟲"
   ],
-  "pattern": "配合題"
+  "pattern": "配合題",
+  "multi": true
  },
  {
   "id": "k110-x13",
   "source": "110 期中考古",
   "num": 3,
   "chapter": "trematodes",
-  "type": "short",
-  "stem": "（配合題，可複選）上述吸蟲哪些為雌雄異體？\n(A) Fasciolopsis buski\n(B) Metagonimus yokogawai\n(C) Heterophyes heterophyes\n(D) Gastrodiscoides hominis\n(E) Eurytrema spp.\n(F) Opisthorchis felineus\n(G) Clonorchis sinensis\n(H) Opisthorchis viverrini\n(I) Echinostoma spp.\n(J) Fasciola hepatica\n(K) Dicrocoelium dendriticum\n(L) Paragonimus westermani\n(M) Schsitosoma japonicum\n(N) Schistosoma haematobium\n(O) Schistosoma mansoni",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(M)、(N)、(O)",
+  "type": "mcq",
+  "stem": "（配合題，可複選）上述吸蟲哪些為雌雄異體？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Fasciolopsis buski"
+   },
+   {
+    "k": "B",
+    "t": "Metagonimus yokogawai"
+   },
+   {
+    "k": "C",
+    "t": "Heterophyes heterophyes"
+   },
+   {
+    "k": "D",
+    "t": "Gastrodiscoides hominis"
+   },
+   {
+    "k": "E",
+    "t": "Eurytrema spp."
+   },
+   {
+    "k": "F",
+    "t": "Opisthorchis felineus"
+   },
+   {
+    "k": "G",
+    "t": "Clonorchis sinensis"
+   },
+   {
+    "k": "H",
+    "t": "Opisthorchis viverrini"
+   },
+   {
+    "k": "I",
+    "t": "Echinostoma spp."
+   },
+   {
+    "k": "J",
+    "t": "Fasciola hepatica"
+   },
+   {
+    "k": "K",
+    "t": "Dicrocoelium dendriticum"
+   },
+   {
+    "k": "L",
+    "t": "Paragonimus westermani"
+   },
+   {
+    "k": "M",
+    "t": "Schsitosoma japonicum"
+   },
+   {
+    "k": "N",
+    "t": "Schistosoma haematobium"
+   },
+   {
+    "k": "O",
+    "t": "Schistosoma mansoni"
+   }
+  ],
+  "answer": [
+   "M",
+   "N",
+   "O"
+  ],
   "explain": "血吸蟲：日本血吸蟲、曼森血吸蟲、埃及血吸蟲\n（括號內的選項是 110 解答與傳承考古不同之處；解答者註明配合題答案僅供參考）",
   "topics": [
    "吸蟲"
   ],
-  "pattern": "配合題"
+  "pattern": "配合題",
+  "multi": true
  },
  {
   "id": "k110-x21",
   "source": "110 期中考古",
   "num": 1,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（配合題，可複選）上述線蟲在台灣曾經流行過的為？\n(A) Ascaris lumbricoides\n(B) Ancylostoma spp.\n(C) Trichuris trichiura\n(D) Enterobius vermicularis\n(E) Toxocara canis\n(F) Capillaria philippinensis\n(G) Capillaria hepatica\n(H) Strongyloides stercoralis\n(I) Trichinella spiralis\n(J) Gnathostoma spinigerum\n(K) Anisakis simplex\n(L) Angiostrongylus cantonensis\n(M) Wuchereria bancrofti\n(N) Brugia malayi\n(O) Loa loa\n(P) Onchocerca volvulus",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(A)、(B)、(C)、(D)、(H)、(L)、(M)",
+  "type": "mcq",
+  "stem": "（配合題，可複選）上述線蟲在台灣曾經流行過的為？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Ascaris lumbricoides"
+   },
+   {
+    "k": "B",
+    "t": "Ancylostoma spp."
+   },
+   {
+    "k": "C",
+    "t": "Trichuris trichiura"
+   },
+   {
+    "k": "D",
+    "t": "Enterobius vermicularis"
+   },
+   {
+    "k": "E",
+    "t": "Toxocara canis"
+   },
+   {
+    "k": "F",
+    "t": "Capillaria philippinensis"
+   },
+   {
+    "k": "G",
+    "t": "Capillaria hepatica"
+   },
+   {
+    "k": "H",
+    "t": "Strongyloides stercoralis"
+   },
+   {
+    "k": "I",
+    "t": "Trichinella spiralis"
+   },
+   {
+    "k": "J",
+    "t": "Gnathostoma spinigerum"
+   },
+   {
+    "k": "K",
+    "t": "Anisakis simplex"
+   },
+   {
+    "k": "L",
+    "t": "Angiostrongylus cantonensis"
+   },
+   {
+    "k": "M",
+    "t": "Wuchereria bancrofti"
+   },
+   {
+    "k": "N",
+    "t": "Brugia malayi"
+   },
+   {
+    "k": "O",
+    "t": "Loa loa\n(P) Onchocerca volvulus"
+   }
+  ],
+  "answer": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "H",
+   "L",
+   "M"
+  ],
   "explain": "蛔蟲、鉤蟲、鞭蟲、蟯蟲（CDC：臺灣地區自 1972 年起，即開始學童之寄生蟲防治計畫，包括：蛔蟲、鉤蟲、鞭蟲及蟯蟲等計畫性之防治工作）、糞小桿線蟲（台灣有流行紀錄，可參考以寄生蟲病做為二十世紀臺灣環境變遷的一項指標：初步探討）、廣東住血線蟲（講義：臺灣南部本土疾病）、班氏絲蟲（CDC：臺灣本島和金門、澎湖的居民在1960 年之前有感染淋巴絲蟲病的風險，90%以上是班氏絲蟲）\n（括號內的選項是 110 解答與傳承考古不同之處；解答者註明配合題答案僅供參考）",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "配合題"
+  "pattern": "配合題",
+  "multi": true
  },
  {
   "id": "k110-x22",
   "source": "110 期中考古",
   "num": 2,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（配合題，可複選）可侵犯腦部的線蟲是？\n(A) Ascaris lumbricoides\n(B) Ancylostoma spp.\n(C) Trichuris trichiura\n(D) Enterobius vermicularis\n(E) Toxocara canis\n(F) Capillaria philippinensis\n(G) Capillaria hepatica\n(H) Strongyloides stercoralis\n(I) Trichinella spiralis\n(J) Gnathostoma spinigerum\n(K) Anisakis simplex\n(L) Angiostrongylus cantonensis\n(M) Wuchereria bancrofti\n(N) Brugia malayi\n(O) Loa loa\n(P) Onchocerca volvulus",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(E)、(H)、(I)、(J)、(L)、(O)",
+  "type": "mcq",
+  "stem": "（配合題，可複選）可侵犯腦部的線蟲是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Ascaris lumbricoides"
+   },
+   {
+    "k": "B",
+    "t": "Ancylostoma spp."
+   },
+   {
+    "k": "C",
+    "t": "Trichuris trichiura"
+   },
+   {
+    "k": "D",
+    "t": "Enterobius vermicularis"
+   },
+   {
+    "k": "E",
+    "t": "Toxocara canis"
+   },
+   {
+    "k": "F",
+    "t": "Capillaria philippinensis"
+   },
+   {
+    "k": "G",
+    "t": "Capillaria hepatica"
+   },
+   {
+    "k": "H",
+    "t": "Strongyloides stercoralis"
+   },
+   {
+    "k": "I",
+    "t": "Trichinella spiralis"
+   },
+   {
+    "k": "J",
+    "t": "Gnathostoma spinigerum"
+   },
+   {
+    "k": "K",
+    "t": "Anisakis simplex"
+   },
+   {
+    "k": "L",
+    "t": "Angiostrongylus cantonensis"
+   },
+   {
+    "k": "M",
+    "t": "Wuchereria bancrofti"
+   },
+   {
+    "k": "N",
+    "t": "Brugia malayi"
+   },
+   {
+    "k": "O",
+    "t": "Loa loa\n(P) Onchocerca volvulus"
+   }
+  ],
+  "answer": [
+   "E",
+   "H",
+   "I",
+   "J",
+   "L",
+   "O"
+  ],
   "explain": "犬蛔蟲、棘顎口線蟲（NLM）、糞小桿線蟲、住肉旋毛蟲（Central Nervous System Manifestations）、廣東住血線蟲（Eosinophilic Meningitis）、羅阿絲蟲（會利用microfilaria 階段在組織內竄來竄去，包含中樞神經）\n（括號內的選項是 110 解答與傳承考古不同之處；解答者註明配合題答案僅供參考）",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "配合題"
+  "pattern": "配合題",
+  "multi": true
  },
  {
   "id": "k110-x23",
   "source": "110 期中考古",
   "num": 3,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（配合題，可複選）生活史中具autoinfection 之線蟲為？\n(A) Ascaris lumbricoides\n(B) Ancylostoma spp.\n(C) Trichuris trichiura\n(D) Enterobius vermicularis\n(E) Toxocara canis\n(F) Capillaria philippinensis\n(G) Capillaria hepatica\n(H) Strongyloides stercoralis\n(I) Trichinella spiralis\n(J) Gnathostoma spinigerum\n(K) Anisakis simplex\n(L) Angiostrongylus cantonensis\n(M) Wuchereria bancrofti\n(N) Brugia malayi\n(O) Loa loa\n(P) Onchocerca volvulus",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(D)、(F)、(H)",
+  "type": "mcq",
+  "stem": "（配合題，可複選）生活史中具autoinfection 之線蟲為？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Ascaris lumbricoides"
+   },
+   {
+    "k": "B",
+    "t": "Ancylostoma spp."
+   },
+   {
+    "k": "C",
+    "t": "Trichuris trichiura"
+   },
+   {
+    "k": "D",
+    "t": "Enterobius vermicularis"
+   },
+   {
+    "k": "E",
+    "t": "Toxocara canis"
+   },
+   {
+    "k": "F",
+    "t": "Capillaria philippinensis"
+   },
+   {
+    "k": "G",
+    "t": "Capillaria hepatica"
+   },
+   {
+    "k": "H",
+    "t": "Strongyloides stercoralis"
+   },
+   {
+    "k": "I",
+    "t": "Trichinella spiralis"
+   },
+   {
+    "k": "J",
+    "t": "Gnathostoma spinigerum"
+   },
+   {
+    "k": "K",
+    "t": "Anisakis simplex"
+   },
+   {
+    "k": "L",
+    "t": "Angiostrongylus cantonensis"
+   },
+   {
+    "k": "M",
+    "t": "Wuchereria bancrofti"
+   },
+   {
+    "k": "N",
+    "t": "Brugia malayi"
+   },
+   {
+    "k": "O",
+    "t": "Loa loa\n(P) Onchocerca volvulus"
+   }
+  ],
+  "answer": [
+   "D",
+   "F",
+   "H"
+  ],
   "explain": "會autoinfection 的線蟲就三種：蟯蟲、糞小桿線蟲、菲律賓毛線蟲\n（括號內的選項是 110 解答與傳承考古不同之處；解答者註明配合題答案僅供參考）",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "配合題"
+  "pattern": "配合題",
+  "multi": true
  },
  {
   "id": "k110-x24",
   "source": "110 期中考古",
   "num": 4,
   "chapter": "intro",
-  "type": "short",
-  "stem": "（配合題，可複選）上述線蟲哪些為人畜共通？\n(A) Ascaris lumbricoides\n(B) Ancylostoma spp.\n(C) Trichuris trichiura\n(D) Enterobius vermicularis\n(E) Toxocara canis\n(F) Capillaria philippinensis\n(G) Capillaria hepatica\n(H) Strongyloides stercoralis\n(I) Trichinella spiralis\n(J) Gnathostoma spinigerum\n(K) Anisakis simplex\n(L) Angiostrongylus cantonensis\n(M) Wuchereria bancrofti\n(N) Brugia malayi\n(O) Loa loa\n(P) Onchocerca volvulus",
-  "options": [],
-  "answer": [],
-  "answerText": "正確選項：(B)、(E)、(G)、(H)、(I)、(J)、(K)、(L)",
+  "type": "mcq",
+  "stem": "（配合題，可複選）上述線蟲哪些為人畜共通？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Ascaris lumbricoides"
+   },
+   {
+    "k": "B",
+    "t": "Ancylostoma spp."
+   },
+   {
+    "k": "C",
+    "t": "Trichuris trichiura"
+   },
+   {
+    "k": "D",
+    "t": "Enterobius vermicularis"
+   },
+   {
+    "k": "E",
+    "t": "Toxocara canis"
+   },
+   {
+    "k": "F",
+    "t": "Capillaria philippinensis"
+   },
+   {
+    "k": "G",
+    "t": "Capillaria hepatica"
+   },
+   {
+    "k": "H",
+    "t": "Strongyloides stercoralis"
+   },
+   {
+    "k": "I",
+    "t": "Trichinella spiralis"
+   },
+   {
+    "k": "J",
+    "t": "Gnathostoma spinigerum"
+   },
+   {
+    "k": "K",
+    "t": "Anisakis simplex"
+   },
+   {
+    "k": "L",
+    "t": "Angiostrongylus cantonensis"
+   },
+   {
+    "k": "M",
+    "t": "Wuchereria bancrofti"
+   },
+   {
+    "k": "N",
+    "t": "Brugia malayi"
+   },
+   {
+    "k": "O",
+    "t": "Loa loa\n(P) Onchocerca volvulus"
+   }
+  ],
+  "answer": [
+   "B",
+   "E",
+   "G",
+   "H",
+   "I",
+   "J",
+   "K",
+   "L"
+  ],
   "explain": "犬鉤蟲（犬、人）、犬蛔蟲（犬、人）、菲律賓毛線蟲（鳥、魚、人）、肝毛線蟲（鼠、人）、糞小桿線蟲（犬、人）、住肉旋毛蟲（豬、人）、棘顎口線蟲（魚、狗、貓、豬、人）、海獸胃線蟲（魚、海洋哺乳類、人）、廣東住血線蟲（鼠、爬蟲類、青蛙、人）\n（括號內的選項是 110 解答與傳承考古不同之處；解答者註明配合題答案僅供參考）",
   "topics": [
    "線蟲綜合比較"
   ],
-  "pattern": "配合題"
+  "pattern": "配合題",
+  "multi": true
  }
 ]

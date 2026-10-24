@@ -580,6 +580,13 @@ select.input { appearance: none; background-image: url("data:image/svg+xml,%3Csv
 .option.wrong .key { background: var(--bad); color: #fff; }
 .option.wrong .mark { opacity: 1; color: var(--bad); }
 .option.dim { opacity: .55; }
+/* 多選題：漏選的正確選項用虛線框標出 */
+.option.correct.missed { border-style: dashed; background: transparent; }
+.option.correct.missed .key { background: var(--good-soft); color: var(--good); }
+.multi-bar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-top: 14px; }
+.multi-bar .btn { margin-left: auto; }
+.q-imgs { display: grid; gap: 10px; margin: -8px 0 20px; }
+.q-imgs img { display: block; max-width: 100%; height: auto; border-radius: var(--r-m); border: 1px solid var(--rule); background: #fff; }
 @keyframes pop { 0% { transform: scale(.4); } 70% { transform: scale(1.15); } 100% { transform: scale(1); } }
 @keyframes shake { 0%, 100% { transform: none; } 25% { transform: translateX(-4px); } 75% { transform: translateX(4px); } }
 .verdict { margin-top: 22px; border-radius: 18px; overflow: hidden; border: 1px solid var(--rule); animation: rise .35s var(--ease); }

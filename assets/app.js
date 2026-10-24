@@ -3183,10 +3183,23 @@
   }
   const reportHref = (sid, q) =>
     `#/report?${qs({ sid, qid: q.id, where: `${q.source} ${q.id}` })}`;
+  // answer 有多個時：一般題表示「任一個都算對」；multi（多選題）要全部選對才算對。
+  // noAnswer：題目有誤、沒有正確選項，選了只顯示詳解、不計分。
   const ansText = (q) =>
-    (q.answer || []).length
-      ? q.answer.map((a) => `(${a})`).join(" 或 ")
+    !q.noAnswer && (q.answer || []).length
+      ? q.answer.map((a) => `(${a})`).join(q.multi ? "、" : " 或 ")
       : "無正確選項";
+  const isRight = (q, picked) => {
+    const ans = q.answer || [];
+    if (!q.multi) return ans.includes(picked);
+    const p = Array.isArray(picked) ? picked : [];
+    return p.length === ans.length && p.every((k) => ans.includes(k));
+  };
+  // 題目附圖（q.img：相對於科目資料夾的路徑）
+  const qImgs = (subj, q) =>
+    (q.img || []).length
+      ? `<div class="q-imgs">${q.img.map((src) => `<img src="${esc(subj.path)}/${esc(src)}" alt="題目附圖" loading="lazy" decoding="async">`).join("")}</div>`
+      : "";
 
   function runSession(subj, pool, q) {
     const sid = subj.meta.id;
@@ -3214,6 +3227,7 @@
       best: 0,
       t0: Date.now(),
       qt: Date.now(),
+      sel: new Set(),
     };
     let timer = 0;
     const counts = () =>
@@ -3221,7 +3235,7 @@
         (a, x) => {
           if (x) {
             a.done++;
-            x.ok ? a.c++ : a.w++;
+            if (!x.na) x.ok ? a.c++ : a.w++;
           }
           return a;
         },
@@ -3249,7 +3263,7 @@
                     k === S.i
                       ? "cur"
                       : a
-                        ? a.self
+                        ? a.self || a.na
                           ? a.ok
                             ? "c"
                             : "s"
@@ -3271,28 +3285,38 @@
       const a = S.ans[S.i];
       const stars = getStars(sid);
       const isShort = qq.type === "short" || !(qq.options || []).length;
+      const multi = !!qq.multi && !isShort;
       const ans = qq.answer || [];
+      const picked = a ? [].concat(a.k ?? []) : [];
       const opts = isShort
         ? ""
-        : `<div class="options" role="group" aria-label="選項">${qq.options
+        : `<div class="options" role="group" aria-label="${multi ? "選項（可複選）" : "選項"}">${qq.options
             .map((o) => {
               let cls = "";
               if (a) {
-                if (ans.includes(o.k)) cls = "correct";
-                else if (a.k === o.k) cls = "wrong";
+                if (qq.noAnswer) cls = picked.includes(o.k) ? "picked" : "dim";
+                else if (ans.includes(o.k))
+                  cls = multi && !picked.includes(o.k) ? "correct missed" : "correct";
+                else if (picked.includes(o.k)) cls = "wrong";
                 else cls = "dim";
-              }
-              return `<button type="button" class="option ${cls}" data-k="${o.k}"${a ? " disabled" : ""}><span class="key">${o.k}</span><span class="txt">${esc(o.t)}</span>${ic(cls === "wrong" ? "x" : "check", "mark")}</button>`;
+              } else if (multi && S.sel.has(o.k)) cls = "picked";
+              return `<button type="button" class="option ${cls}" data-k="${o.k}"${multi && !a ? ` aria-pressed="${S.sel.has(o.k)}"` : ""}${a ? " disabled" : ""}><span class="key">${o.k}</span><span class="txt">${esc(o.t)}</span>${ic(cls === "wrong" ? "x" : "check", "mark")}</button>`;
             })
             .join("")}</div>`;
+      const multiBar =
+        multi && !a
+          ? `<div class="multi-bar"><span class="small muted">多選題：選出所有正確的選項再送出，全部選對才算對。</span><button class="btn accent" type="button" id="submitMulti"${S.sel.size ? "" : " disabled"}>${ic("check")}確認答案送出</button></div>`
+          : "";
       let verdict = "";
       if (a) {
-        const tone = a.self ? "neutral" : a.ok ? "good" : "bad";
-        const head = a.self
-          ? `${ic("check")}已自我評分：${a.ok ? "我會了" : "還不熟"}`
-          : a.ok
-            ? `${ic("check")}答對了${S.streak >= 3 && S.i === S.last ? `・連對 ${S.streak} 題` : ""}`
-            : `${ic("x")}答錯了，正確答案是 ${ansText(qq)}`;
+        const tone = a.self || a.na ? "neutral" : a.ok ? "good" : "bad";
+        const head = a.na
+          ? `${ic("alert")}這題沒有正確選項（題目有誤），不列入計分`
+          : a.self
+            ? `${ic("check")}已自我評分：${a.ok ? "我會了" : "還不熟"}`
+            : a.ok
+              ? `${ic("check")}答對了${S.streak >= 3 && S.i === S.last ? `・連對 ${S.streak} 題` : ""}`
+              : `${ic("x")}答錯了，正確答案是 ${ansText(qq)}`;
         verdict = `<div class="verdict ${tone}" role="status"><div class="verdict-head">${head}</div><div class="verdict-body">
           ${qq.answerText ? `<div class="answer-text"><div class="explain-title">參考答案</div>${esc(qq.answerText)}</div>` : ""}
           ${qq.explain ? `<div class="explain-title">詳解</div><div class="explain">${esc(qq.explain)}</div>` : qq.answerText ? "" : '<div class="muted">這題沒有附詳解。</div>'}
@@ -3310,7 +3334,7 @@
       return `<article class="card qcard" aria-labelledby="qstem">
         ${qMeta(subj, qq)}
         <p class="q-stem" id="qstem">${esc(qq.stem)}</p>
-        ${opts}${shortBox}
+        ${qImgs(subj, qq)}${opts}${multiBar}${shortBox}
         <div aria-live="polite">${verdict}</div>
         <div class="q-foot">
           <button class="btn sm ghost" type="button" id="star" aria-pressed="${stars.has(qq.id)}">${stars.has(qq.id) ? icFill("star") : ic("star")}${stars.has(qq.id) ? "已收藏" : "收藏"}</button>
@@ -3349,6 +3373,7 @@
       if (k >= pool.length) return finish();
       S.i = k;
       S.qt = Date.now();
+      S.sel = new Set();
       paint(false);
       $("#qslot").scrollIntoView({ block: "nearest" });
       if (innerWidth < 760) scrollTo({ top: 0 });
@@ -3356,12 +3381,30 @@
     const answer = (k) => {
       const qq = pool[S.i];
       if (S.ans[S.i]) return;
-      const ok = (qq.answer || []).includes(k);
-      S.ans[S.i] = { k, ok };
+      if (qq.multi) {
+        S.sel.has(k) ? S.sel.delete(k) : S.sel.add(k);
+        paint(false);
+        $(`.option[data-k="${k}"]`)?.focus({ preventScroll: true });
+        return;
+      }
+      submit(k);
+    };
+    const submit = (k) => {
+      const qq = pool[S.i];
+      if (S.ans[S.i]) return;
+      if (qq.noAnswer) {
+        S.ans[S.i] = { k, ok: false, na: true };
+      } else {
+        const ok = isRight(qq, k);
+        S.ans[S.i] = { k, ok };
+        S.streak = ok ? S.streak + 1 : 0;
+        S.best = Math.max(S.best, S.streak);
+        record(sid, qq.id, ok, {
+          ms: Date.now() - S.qt,
+          mode: qq.multi ? "multi" : "mcq",
+        });
+      }
       S.last = S.i;
-      S.streak = ok ? S.streak + 1 : 0;
-      S.best = Math.max(S.best, S.streak);
-      record(sid, qq.id, ok, { ms: Date.now() - S.qt, mode: "mcq" });
       paint(false);
       $("#next")?.focus({ preventScroll: true });
     };
@@ -3377,6 +3420,9 @@
     const bindCard = () => {
       $$(".option").forEach((b) =>
         b.addEventListener("click", () => answer(b.dataset.k)),
+      );
+      $("#submitMulti")?.addEventListener("click", () =>
+        submit([...S.sel].sort()),
       );
       $("#reveal")?.addEventListener("click", () => {
         S.revealed = S.i;
@@ -3417,6 +3463,14 @@
       }
       if (
         e.key === "Enter" &&
+        document.activeElement?.tagName !== "A" &&
+        $("#submitMulti") &&
+        !$("#submitMulti").disabled
+      ) {
+        e.preventDefault();
+        $("#submitMulti").click();
+      } else if (
+        e.key === "Enter" &&
         document.activeElement?.tagName !== "BUTTON" &&
         document.activeElement?.tagName !== "A"
       ) {
@@ -3437,8 +3491,10 @@
       clearInterval(timer);
       removeEventListener("keydown", onKey);
       const c = counts();
-      const p = pct(c.c, c.done);
-      const wrongQs = pool.filter((_, k) => S.ans[k] && !S.ans[k].ok);
+      const p = pct(c.c, c.c + c.w);
+      const wrongQs = pool.filter(
+        (_, k) => S.ans[k] && !S.ans[k].ok && !S.ans[k].na,
+      );
       const skipped = pool.length - c.done;
       const topicMiss = [
         ...countBy(wrongQs, (x) =>
@@ -3510,6 +3566,8 @@
   const mockOK = (q) =>
     q.type === "mcq" &&
     !q.imageOnly &&
+    !q.multi &&
+    !q.noAnswer &&
     (q.options || []).length >= 2 &&
     (q.answer || []).length > 0;
   function mockSectionPool(subj, sec) {
@@ -3703,6 +3761,7 @@
       return `<article class="card qcard" aria-labelledby="qstem">
         <div class="q-meta"><span class="pill line">${esc(M.sections[S.sec[S.i]].title)}</span>${S.flag[S.i] ? `<span class="pill warn">${ic("flag")}已標記</span>` : ""}</div>
         <p class="q-stem" id="qstem">${esc(qq.stem)}</p>
+        ${qImgs(subj, qq)}
         <div class="options" role="radiogroup" aria-label="選項">${qq.options
           .map(
             (o) =>
@@ -3904,13 +3963,13 @@
       const optsBack = (x.options || []).length
         ? `<ol>${x.options.map((o) => `<li class="${ans.includes(o.k) ? "ans" : ""}"><span class="k">${o.k}</span><span>${esc(o.t)}</span></li>`).join("")}</ol>`
         : "";
-      const big = ans.length
+      const big = ans.length && !x.noAnswer
         ? ans
             .map((k) => {
               const o = (x.options || []).find((y) => y.k === k);
               return o ? `(${k}) ${esc(o.t)}` : `(${k})`;
             })
-            .join("　或　")
+            .join(x.multi ? "<br>" : "　或　")
         : x.answerText
           ? ""
           : "無正確選項";
@@ -3918,7 +3977,7 @@
         <div class="flash-inner">
           <section class="card flash-face front"${S.flipped ? " inert" : ""}>
             ${qMeta(subj, x)}
-            <p class="q-stem">${esc(x.stem)}</p>${opts}
+            <p class="q-stem">${esc(x.stem)}</p>${qImgs(subj, x)}${opts}
             <div class="flip-hint"><button class="btn accent lg" type="button" id="flip">${ic("rotate")}翻面看答案<span class="kbd-hint hide-touch"><kbd>Space</kbd></span></button></div>
           </section>
           <section class="card flash-face back"${S.flipped ? "" : " inert"}>
@@ -4033,10 +4092,10 @@
     const ans = q.answer || [];
     return `<article class="card bq${open ? " open" : ""}">
       ${qMeta(subj, q)}
-      <p class="q-stem">${esc(q.stem)}</p>
-      ${(q.options || []).length ? `<ol>${q.options.map((o) => `<li class="${ans.includes(o.k) ? "ans" : ""}"><span class="k">${o.k}</span><span>${esc(o.t)}</span></li>`).join("")}</ol>` : ""}
+      <p class="q-stem">${esc(q.stem)}</p>${qImgs(subj, q)}
+      ${(q.options || []).length ? `<ol>${q.options.map((o) => `<li class="${ans.includes(o.k) && !q.noAnswer ? "ans" : ""}"><span class="k">${o.k}</span><span>${esc(o.t)}</span></li>`).join("")}</ol>` : ""}
       <details${open ? " open" : ""}><summary>${ic("eye")}答案與詳解</summary>
-        <div class="verdict neutral" style="margin-top:0"><div class="verdict-head">答案：${ans.length ? ansText(q) : q.answerText ? "見參考答案" : "無正確選項"}</div><div class="verdict-body">
+        <div class="verdict neutral" style="margin-top:0"><div class="verdict-head">答案：${ans.length || q.noAnswer ? `${ansText(q)}${q.multi ? "（多選題）" : ""}` : q.answerText ? "見參考答案" : "無正確選項"}</div><div class="verdict-body">
         ${q.answerText ? `<div class="answer-text">${esc(q.answerText)}</div>` : ""}
         ${q.explain ? `<div class="explain">${esc(q.explain)}</div>` : '<div class="muted">這題沒有附詳解。</div>'}
         ${q.note ? `<div class="note">${ic("alert")}<div>${esc(q.note)}</div></div>` : ""}${figLinks(subj, q)}

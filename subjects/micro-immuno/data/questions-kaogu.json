@@ -5982,9 +5982,10 @@
    }
   ],
   "answer": [
+   "D",
    "E"
   ],
-  "explain": "(A) β 干擾素抑制病毒在細胞內的複製，而非直接攻擊病毒本身\n(B) α 干擾素無法促進吞噬作用，這是 γ 干擾素的工作\n(C) α 干擾素是通用的，不是針對特定病毒\n(D) 干擾素不是活化蛋白，而是抑制蛋白",
+  "explain": "答案 (D) 或 (E) 都算對。\n(A) 錯：β 干擾素是抑制病毒在細胞內複製，不是直接攻擊病毒。\n(B) 錯：促進吞噬、活化巨噬細胞的是 γ 干擾素，不是 α 干擾素。\n(C) 錯：α 干擾素不具病毒專一性，對多種病毒都有作用。\n(D) 正確：α 干擾素是抗病毒蛋白（type I IFN）。\n・20261030 Microbiology – Viruses and antiviral 投影片 p.54：「Interferon (IFN)-α and IFN-β: To suppress protein synthesis」，列在抗病毒機轉（抑制病毒蛋白合成）；p.56 也把 interferon 列為抗病毒治療。\n・20261007 宿主對感染之防衛 投影片 p.69：「Antiviral type 1 IFNs」。\n(E) 正確：γ 干擾素活化巨噬細胞，增強其殺菌能力（T 細胞媒介免疫投影片：IFN-γ 由 TH1 分泌、活化 macrophage）。\n※ 考古答案為 (E)；原本詳解說 (D) 錯是因為「干擾素不是活化蛋白，而是抑制蛋白」並不成立，依課程投影片 (D) 也是正確敘述，兩者都算對。",
   "topics": [
    "補體系統"
   ],
@@ -8011,7 +8012,7 @@
   "answer": [
    "B"
   ],
-  "explain": "沙門氏菌會寄生人體細胞，使非吞噬細胞開始吞噬，因此數量不夠時不會致病，需要 105 以上個細菌才會有症狀。然而人類體溫相當適合沙門氏菌繁殖，通常 1～3 天就能繁殖到能造成發病的數量\nShigella: <100 CFU即可感染\n註：老師講義上 HUS 是寫在 EHEC",
+  "explain": "沙門氏菌會寄生人體細胞，使非吞噬細胞開始吞噬，因此數量不夠時不會致病，需要 105 以上個細菌才會有症狀。然而人類體溫相當適合沙門氏菌繁殖，通常 1～3 天就能繁殖到能造成發病的數量\nShigella: <100 CFU即可感染\n註：老師講義上 HUS 是寫在 EHEC\n\n【補充：(C) 也是錯誤敘述】\n溶血性尿毒症候群（HUS）是產 Shiga toxin 的大腸桿菌（EHEC／STEC，代表株 O157:H7）造成的，不是 UPEC：\n・腸桿菌及弧菌投影片 p.13：致病性大腸桿菌分為泌尿道的 UPEC 與腸道的 ETEC、EHEC（STEC，O157:H7）、EPEC、EIEC、EAEC 等；p.20 台灣的 EHEC 病例報導。\n・p.14：UPEC 造成約 90% 的泌尿道感染，靠 P pili 黏附尿路上皮、分泌 hemolysin，沒有 Shiga toxin、不會造成 HUS。\n・文獻上 UPEC（屬腸道外致病型 ExPEC）與 EHEC 是不同的致病型：EHEC 的毒力因子（Shiga toxin、LEE）在典型 ExPEC 菌株中沒有，UPEC 的 P fimbriae、α-hemolysin 在 EHEC 也通常不表現。少數從尿液分離到的是帶有 EHEC 標記的 HUS 相關菌株，而不是 UPEC 本身。\n・(B) 的部分：投影片 p.23 Salmonella infection 需要 10⁵ CFU（Shigella 只要 10–100 個菌）。\n同題 k113-neis-03 的答案是 (B)(C)。",
   "topics": [
    "E. coli 致病型",
    "Salmonella"
@@ -8562,7 +8563,7 @@
   "answer": [
    "C"
   ],
-  "explain": "承上題（越南旅遊、持續發燒、肝腫大、血液培養出不發酵乳糖的腸桿菌 → 傷寒 Salmonella Typhi）。\n傷寒經糞口傳染：人是唯一宿主，病人與長期帶菌者（膽囊帶菌，Typhoid Mary）的糞便污染水源與食物，人喝了被污染的水（如地下水、井水）而感染。考古答案為 (C) 地下水，指的是傳播的媒介（vehicle）；長期帶菌者則是病原的來源（reservoir），選項 B 也常被視為重要感染源，作答時以題目給的答案為準。空調系統是 Legionella，寵物不是傷寒的宿主。",
+  "explain": "承上題（越南旅遊、持續發燒、肝腫大、血液培養出不發酵乳糖的腸桿菌 → 傷寒 Salmonella Typhi）。考古答案為 (C) 地下水。\n「感染源」可以有兩種意思，作答時要分清楚：\n・傳播媒介（vehicle）→ (C) 地下水：老師上課說傷寒、霍亂、痢疾「這三個都是以人當唯一宿主」，不容易直接人傳人，「通常都是要污染到很髒很髒的水、污水，或是很髒很髒的食物，你才有可能感染到」。被病人或帶菌者糞便污染的水（地下水、井水）是主要的傳播媒介。\n・病原來源（reservoir）→ (B) 長期帶菌者：腸桿菌及弧菌投影片 p.24「Typhoid Mary，健康帶原（3%），人為唯一宿主」；S. Typhi 最後住在膽囊，持續從糞便排菌。\n考古以傳播媒介的角度給 (C)；如果題目問的是「保菌者／病原來源」，答案就是 (B)。\n(A) 空調系統是 Legionella；(D) 寵物不是傷寒的宿主（人為唯一宿主）。",
   "topics": [
    "Salmonella"
   ],
@@ -11306,17 +11307,27 @@
    {
     "k": "B",
     "t": "Chlamydospore"
+   },
+   {
+    "k": "C",
+    "t": "Phialospore"
+   },
+   {
+    "k": "D",
+    "t": "Blastospore"
    }
   ],
   "answer": [
    "C"
   ],
   "explain": "孢子從保齡球狀的菌絲頂投出，也很像倒著的掃把，可參考第 8 題詳解附圖，選(C)",
-  "imageOnly": true,
   "topics": [
    "其他"
   ],
-  "pattern": "選正確／單一概念題"
+  "pattern": "選正確／單一概念題",
+  "img": [
+   "figures/questions/k113-fungi-17.webp"
+  ]
  },
  {
   "id": "k113-fungi-18",
@@ -14069,7 +14080,7 @@
   "answer": [
    "D"
   ],
-  "explain": "G- bacteria=> no exotoxin",
+  "explain": "答案 (D)。\n(A) 正確：腸桿菌科都是革蘭氏陰性桿菌。\n(B) 正確：腸桿菌科的定義特徵之一就是發酵葡萄糖（腸桿菌及弧菌投影片 p.6：Catalase (+)、Oxidase (−)、Fermenting glucose，再用 MacConkey agar 看乳糖發酵、Hektoen agar 看 H₂S 區分 Salmonella、Shigella）。初步分類時用「是否發酵葡萄糖」把腸桿菌科和不發酵葡萄糖的革蘭氏陰性桿菌（如 Pseudomonas）分開。\n(C) 正確：Oxidase 陰性（p.6）。\n(D) 錯誤 → 選 D：腸桿菌科共同、最主要的致病因子是 LPS 內毒素（p.8 Lipid A、DIC；p.9 發燒、白血球與凝血活化、休克），感染症狀不是「主要因外毒素不同而異」。\n⚠️ 注意：革蘭氏陰性菌仍然會產生外毒素，原本詳解寫「G- bacteria ⇒ no exotoxin」是錯的。投影片 p.10 Pathogenic virulence (II) 就把 Exotoxins 列為腸桿菌科的毒力因子，例如 ETEC 的 LT toxin（p.15，和霍亂毒素一樣使 cAMP 上升）、Shigella 與 EHEC 的 Shiga toxin（p.28）。",
   "topics": [
    "毒素（內/外毒素、AB toxin）"
   ],
@@ -15013,9 +15024,10 @@
    }
   ],
   "answer": [
-   "A"
+   "A",
+   "B"
   ],
-  "explain": "(A) 錯誤：血液中含量最高的是 IgG，IgA 主要在黏膜分泌液（唾液、淚液、母乳、腸道）→ 選 A。\n(B) 考古給的答案是 A；IgM 主要在血管內、初次免疫反應最先出現。(C) 正確：腸道中以分泌型 IgA 為主。(D) 正確：IgG 經 FcRn 通過胎盤給胎兒被動免疫。",
+  "explain": "答案 (A) 或 (B) 都算對（題目問錯誤的敘述）。\n(A) 錯誤：血液中含量最高的是 IgG（約 75%），IgA 主要在黏膜分泌液（唾液、淚液、母乳、腸道）。\n(B) 錯誤：IgM 是大型五聚體，主要留在血管內，不是體液（組織液）中含量高的抗體。Ag-Ab 投影片 p.15：「IgM accounts for about 10% of the Ig pool… IgM is largely confined to the intravascular pool」。組織液中含量高的是 IgG（同題型 k113-agab-27 正確答案「體組織液中有高含量的 IgG」；k113-mid111-59 也把「IgM 在體組織液含量最多」視為錯誤）。\n(C) 正確：腸道中以分泌型 IgA 為主。\n(D) 正確：IgG 經 FcRn 通過胎盤給胎兒被動免疫。\n※ 考古給的答案是 (A)；依投影片 (B) 也是錯誤敘述，兩者都算對。",
   "topics": [
    "抗體類別與功能"
   ],

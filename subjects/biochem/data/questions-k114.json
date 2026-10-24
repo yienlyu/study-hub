@@ -435,7 +435,7 @@
   "answer": [
    "D"
   ],
-  "explain": "（考古未附答案，網站依課本判斷）PE 經三次甲基化（甲基供體是由 methionine 產生的 SAM）變成 PC；choline 也由此而來。（serine 是 PS→PE 的起點，若老師強調 PS 路徑可能另有答案。）",
+  "explain": "答案 (D) Methionine。\nPC（phosphatidylcholine）與 choline 合成中，choline 和 ethanolamine 的差別是 N 上的三個甲基，這三個甲基都由 S-adenosylmethionine（SAM、AdoMet，由 methionine + ATP 形成）提供。\n【課程投影片】2026 Chapter 21 Lipid Biosynthesis\n・p.33 Synthesis of PC and PE in mammals；p.34 CTP:phosphocholine cytidylyltransferase 形成 CDP-choline。\n・p.36–37：「S-Adenosyl-L-methionine (AdoMet) is the methyl group donor in synthesis of phosphatidylcholine and numerous other methylated metabolites.」\n【老師上課（Ch21-II，09/24 錄影）】\n・「Ethanolamine 跟 Choline 之間，它多的就是甲基化，三個甲基在這個 N+ 上面…SAM，S-Adenosylmethionine 扮演重要的角色」。\n・講 PS、PE、PC 三角關係時：PE → PC 由 PEMT（phosphatidylethanolamine N-methyltransferase）把 AdoMet 的甲基轉給 PE，單一方向，「比較常考的事實上就是第三個方向，因為呢，它涉及到甲基的轉移」。\n・「又有人考你說，胺基酸當中哪一個胺基酸最重要於甲基轉移，那你就要知道是 methionine」；「adenosylmethionine 是重要的甲基 group 的 donor，兩分題」。AdoMet 給出甲基後變成 S-adenosylhomocysteine → homocysteine。\n【Serine 的角色】\n・p.35：第二條合成 PE、PC 的路徑由 phosphatidylserine（PS）開始，PS decarboxylase 把 PS 脫羧成 PE（或以 PE-serine transferase 交換頭基），所以 serine 提供的是 ethanolamine／PE 的骨架，再由 AdoMet 甲基化成 PC。\n・百八考古曾以「Serine 脫去 CO₂ → ethanolamine；ethanolamine 加上三個甲基 → choline」選 Serine；但依本課程的投影片與上課重點（甲基供體 AdoMet），本題答案是 Methionine。\n(B) β-alanine 是 pyrimidine 分解產物；(C) homocysteine 是 AdoMet 給出甲基後的產物，不提供甲基。",
   "topics": [
    "磷脂合成"
   ],

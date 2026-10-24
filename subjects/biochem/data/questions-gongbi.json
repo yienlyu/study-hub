@@ -240,7 +240,7 @@
    },
    {
     "k": "C",
-    "t": "low density lipoprotein"
+    "t": "very low density lipoprotein (VLDL)"
    },
    {
     "k": "D",
@@ -250,7 +250,7 @@
   "answer": [
    "A"
   ],
-  "explain": "經食物攝取而得的脂肪，由乳糜微粒（chylomicron）負責運輸。",
+  "explain": "經食物攝取而得的脂肪（dietary lipids，主要是 TG），在小腸上皮細胞包裝成乳糜微粒（chylomicron），經淋巴、血液運送到肌肉與脂肪組織 → 選 A。\nVLDL 運送的是肝臟合成的 TG；LDL 運送膽固醇到周邊組織；HDL 把膽固醇送回肝臟。\n※ 原題（共筆考古 Book1）的 (B)(C) 都印成「low density lipoprotein」，網站把 (C) 改成最可能的原選項 very low density lipoprotein（VLDL）。",
   "topics": [
    "脂蛋白與膽固醇恆定",
    "脂肪動員與運輸"
@@ -1562,9 +1562,9 @@
    }
   ],
   "answer": [
-   "A"
+   "D"
   ],
-  "explain": "Choline 含有羥基，因此含有羥基的胺基酸與 choline 及 PC 的合成最為相關，故選 Serine。\n〈百八考古：Serine 脫去 CO2 → ethanolamine；ethanolamine 加上三個甲基 → choline〉",
+  "explain": "答案 (D) Methionine。\nPC（phosphatidylcholine）與 choline 合成中，choline 和 ethanolamine 的差別是 N 上的三個甲基，這三個甲基都由 S-adenosylmethionine（SAM、AdoMet，由 methionine + ATP 形成）提供。\n【課程投影片】2026 Chapter 21 Lipid Biosynthesis\n・p.33 Synthesis of PC and PE in mammals；p.34 CTP:phosphocholine cytidylyltransferase 形成 CDP-choline。\n・p.36–37：「S-Adenosyl-L-methionine (AdoMet) is the methyl group donor in synthesis of phosphatidylcholine and numerous other methylated metabolites.」\n【老師上課（Ch21-II，09/24 錄影）】\n・「Ethanolamine 跟 Choline 之間，它多的就是甲基化，三個甲基在這個 N+ 上面…SAM，S-Adenosylmethionine 扮演重要的角色」。\n・講 PS、PE、PC 三角關係時：PE → PC 由 PEMT（phosphatidylethanolamine N-methyltransferase）把 AdoMet 的甲基轉給 PE，單一方向，「比較常考的事實上就是第三個方向，因為呢，它涉及到甲基的轉移」。\n・「又有人考你說，胺基酸當中哪一個胺基酸最重要於甲基轉移，那你就要知道是 methionine」；「adenosylmethionine 是重要的甲基 group 的 donor，兩分題」。AdoMet 給出甲基後變成 S-adenosylhomocysteine → homocysteine。\n【Serine 的角色】\n・p.35：第二條合成 PE、PC 的路徑由 phosphatidylserine（PS）開始，PS decarboxylase 把 PS 脫羧成 PE（或以 PE-serine transferase 交換頭基），所以 serine 提供的是 ethanolamine／PE 的骨架，再由 AdoMet 甲基化成 PC。\n・百八考古曾以「Serine 脫去 CO₂ → ethanolamine；ethanolamine 加上三個甲基 → choline」選 Serine；但依本課程的投影片與上課重點（甲基供體 AdoMet），本題答案是 Methionine。\n(B) β-alanine 是 pyrimidine 分解產物；(C) homocysteine 是 AdoMet 給出甲基後的產物，不提供甲基。",
   "topics": [
    "磷脂質合成"
   ],
@@ -3849,13 +3849,14 @@
    }
   ],
   "answer": [],
-  "explain": "Pyridoxl-5-phosphate（P5P）的功能很多，包括以下功能：\nTransamination              Decarboxylation        Deamination Transsulfuration            Desulfuration          Heme synthesis Racemization 消旋作用Tryptophan metabolism                Amino acid absorption選項中的個反應皆需要 PLP 參與，其中：\n(A) Dopa → Dopamine\n(B) Ornithine → Putriscene → Spermidine\n(C) Homocysteine → Cysteine\n(D) Glycine → ALA（δ-aminoevulinic acid）",
+  "explain": "⚠️ 本題沒有正確選項：共筆考古（生化考古 Book2）這題的答案是「X」，四個反應都需要 PLP。\nPyridoxl-5-phosphate（P5P）的功能很多，包括以下功能：\nTransamination              Decarboxylation        Deamination Transsulfuration            Desulfuration          Heme synthesis Racemization 消旋作用Tryptophan metabolism                Amino acid absorption選項中的個反應皆需要 PLP 參與，其中：\n(A) Dopa → Dopamine\n(B) Ornithine → Putriscene → Spermidine\n(C) Homocysteine → Cysteine\n(D) Glycine → ALA（δ-aminoevulinic acid）",
   "note": "共筆標「X」：四個選項（catecholamine 的 DOPA decarboxylase、polyamine 的 ornithine decarboxylase、轉硫作用、heme 合成的 ALA synthase）都需要 PLP，本題沒有正確答案。",
   "topics": [
    "轉胺與 PLP",
    "胺基酸衍生物"
   ],
-  "pattern": "選錯誤（否定）題"
+  "pattern": "選錯誤（否定）題",
+  "noAnswer": true
  },
  {
   "id": "g18-19",
@@ -7629,13 +7630,14 @@
    }
   ],
   "answer": [],
-  "explain": "SCID 主要原因是 ADA 缺乏，會造成 dATP 累積，抑制 Ribonucleotide reductase 的活性，與尿酸累積無關。",
+  "explain": "⚠️ 本題沒有正確選項：113 共筆考古（生化（二）期中考範圍 Book2 第 38 題）答案為「(X)」。\nSCID 主要原因是 ADA 缺乏，會造成 dATP 累積，抑制 ribonucleotide reductase 的活性，使淋巴球無法合成 dNTP、無法增殖；與尿酸累積無關。\n(A) 尿酸累積、(B) xanthine dehydrogenase 缺乏：都是痛風／嘌呤分解的概念，與 SCID 無關。\n(C) 被抑制的是 ribonucleotide reductase，不是 DNA polymerase；如果選項寫「Inhibition of ribonucleotide reductase」才是正確敘述（見反向題 g22-26）。\n(D) 敘述不成立。",
   "note": "共筆標「X」：四個選項都不正確。SCID（ADA 缺乏）→ dATP 堆積 → 抑制 ribonucleotide reductase（不是 DNA polymerase），與尿酸、xanthine dehydrogenase 無關。",
   "topics": [
    "核苷酸分解與痛風",
    "Salvage、Lesch-Nyhan 與 SCID"
   ],
-  "pattern": "臨床情境題"
+  "pattern": "臨床情境題",
+  "noAnswer": true
  },
  {
   "id": "g22-39",
