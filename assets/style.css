@@ -137,7 +137,10 @@ main#app { flex: 1; padding-bottom: 72px; outline: none; }
 .logo { display: inline-flex; align-items: center; gap: 10px; color: var(--ink); font-weight: 650; letter-spacing: -.01em; font-size: 1.02rem; white-space: nowrap; }
 .logo:hover { text-decoration: none; }
 .logo svg { width: 28px; height: 28px; }
-.mainnav { display: flex; gap: 2px; margin-left: 8px; }
+/* 選單太長時自己橫向捲動，不要去擠壓右邊的搜尋與圓形按鈕 */
+.mainnav { display: flex; gap: 2px; margin-left: 8px; padding: 4px 2px; min-width: 0; overflow-x: auto; scrollbar-width: none; }
+.mainnav::-webkit-scrollbar { display: none; }
+.logo, .search-trigger, .icon-btn { flex: none; }
 .mainnav a {
   position: relative; padding: 7px 12px; border-radius: 999px; color: var(--ink-2); font-size: .92rem; white-space: nowrap;
   transition: color .15s, background .15s;
@@ -309,6 +312,8 @@ a.pill:hover { text-decoration: none; border-color: var(--rule-strong); }
 @media (max-width: 860px) { .page-head { grid-template-columns: 1fr; } }
 
 .next-up { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 32px; }
+.next-up.tools { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 14px; }
+.next-up.tools .next-card { min-height: 0; }
 .next-card { padding: 20px 22px; display: flex; flex-direction: column; gap: 6px; color: var(--ink); transition: transform .2s var(--ease), box-shadow .2s, border-color .2s; min-height: 148px; }
 .next-card:hover { text-decoration: none; transform: translateY(-2px); box-shadow: var(--shadow-2); border-color: var(--rule-strong); }
 .next-card .eyebrow { display: flex; gap: 8px; align-items: center; }

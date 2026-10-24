@@ -939,7 +939,7 @@
     if (sid) {
       store.set("sh:lastSubject", sid);
       const s = DB.subjects[sid];
-      nav.innerHTML = `<a href="#/">所有科目</a><a href="#/s/${sid}"${cur("subject")}>${esc(s?.meta.short || "總覽")}總覽</a><a href="#/s/${sid}/practice"${cur("practice")}>練習區</a>${s?.meta.mock ? `<a href="#/s/${sid}/mock"${cur("mock")}>模擬考</a>` : ""}<a href="#/s/${sid}/analysis"${cur("analysis")}>考題分析</a><a href="#/s/${sid}/sheet"${cur("sheet")}>速記・圖解</a><a href="#/report?sid=${sid}"${cur("report")}>回報 / 回饋</a>`;
+      nav.innerHTML = `<a href="#/">所有科目</a><a href="#/s/${sid}"${cur("subject")}>${esc(s?.meta.short || "總覽")}總覽</a><a href="#/s/${sid}/practice"${cur("practice")}>練習區</a><a href="#/s/${sid}/sheet"${cur("sheet")}>速記・圖解</a><a href="#/report?sid=${sid}"${cur("report")}>回報 / 回饋</a>`;
     } else {
       nav.innerHTML = `<a href="#/"${cur("home")}>所有科目</a><a href="#/practice"${cur("practice")}>練習區</a><a href="#/me"${cur("me")}>學習軌跡</a><a href="#/report"${cur("report")}>回報 / 回饋</a>`;
     }
@@ -1780,6 +1780,13 @@
         .join("");
     }
 
+    const mockCur = m.mock && store.get(mockKey(sid), null);
+    const mockLast = m.mock && store.get(mockHistKey(sid), []).at(-1);
+    const mockLine = mockCur
+      ? "上次的考卷還沒交，計時還在跑。"
+      : mockLast
+        ? `上次 ${fmtPts(mockLast.got)} / ${mockLast.total} 分。照老師公告的範圍與配分出題，交卷才看分數。`
+        : "照老師公告的範圍與配分出一份完整考卷，交卷後才看分數與詳解。";
     render(
       `
       <div class="wrap">
@@ -1825,6 +1832,16 @@
             <span class="eyebrow">${ic("target")}優先補強</span><h3>${esc(priority.c.title)}</h3><p>考古 ${priority.s.exam} 題、目前掌握 ${priority.s.mastery}% — CP 值最高的一章。</p><span class="go">看考點分析 ${ic("arrowR")}</span></a>`
               : ""
           }
+        </div>
+        <div class="next-up tools">
+          ${
+            m.mock
+              ? `<a class="card next-card" href="#/s/${sid}/mock">
+            <span class="eyebrow">${ic("clock")}${esc(m.mock.title || "模擬考")}</span><h3>限時 ${m.mock.minutes} 分鐘・${m.mock.sections.reduce((a, x) => a + x.n, 0)} 題</h3><p>${mockLine}</p><span class="go">${mockCur ? "繼續作答" : "去考一份"} ${ic("arrowR")}</span></a>`
+              : ""
+          }
+          <a class="card next-card" href="#/s/${sid}/analysis">
+            <span class="eyebrow">${ic("chart")}考題分析</span><h3>哪些考點最常考</h3><p>依考古統計各章題數、出題方式與高頻考點，一眼看出優先順序。</p><span class="go">看分析 ${ic("arrowR")}</span></a>
         </div>
 
         <section class="section" style="padding-top:56px">
