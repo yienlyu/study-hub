@@ -1,9 +1,9 @@
 /* Study Hub — 小遊戲的出題與解題（純邏輯，不碰 DOM）
  * window.SH_GAMES = { sudoku, killer, nonogram }；也可當 Web Worker 在背景出題
  * 三種都只出 expert：
- *   數獨      唯一解、最少提示數（逐格挖到再挖就不唯一），且只用唯一候選數 / 隱性唯一解不能解完
- *   殺手數獨  沒有提示數字、籠子 2–5 格，唯一解
- *   數織      15×15，唯一解且只靠逐行推理就能解完（不用猜）
+ *   數獨      唯一解、只用唯一候選數 / 隱性唯一解不能解完；挖到最少後再補回幾格（約 27 格提示）
+ *   殺手數獨  籠子 2–5 格（偏小）、另給 5 格提示數字，唯一解
+ *   數織      15×15，唯一解且只靠逐行推理就能解完（不用猜），取中等推理輪數的那盤
  */
 (() => {
   "use strict";
@@ -298,13 +298,21 @@
         best = { puzzle: p, solution: sol, clues, hard };
       if (hard && clues <= 25) break;
     }
-    return { puzzle: best.puzzle, solution: best.solution };
+    // 稍微放水：在「仍然不能只靠 singles 解完」的前提下補回提示，直到約 27 格
+    const p = best.puzzle;
+    for (const i of shuffle([...Array(81).keys()])) {
+      if (p.filter(Boolean).length >= 27) break;
+      if (p[i]) continue;
+      p[i] = best.solution[i];
+      if (best.hard && singlesSolve(p)) p[i] = 0;
+    }
+    return { puzzle: p, solution: best.solution };
   }
 
   // ------------------------------------------------------------ 殺手數獨
   // 在 free 的格子上長出新籠子（2–5 格、籠內數字不重複），寫回 cageOf
   function growCages(sol, cageOf, free, next) {
-    const sizes = [2, 2, 3, 3, 3, 3, 4, 4, 4, 5];
+    const sizes = [2, 2, 2, 3, 3, 3, 3, 4, 4, 5];
     const cages = new Map();
     for (const start of shuffle(free)) {
       if (cageOf[start] >= 0) continue;
@@ -370,7 +378,15 @@
         } catch {
           break; // 解太久 → 換一盤
         }
-        if (sols.length === 1) return { cages, solution: sol };
+        if (sols.length === 1) {
+          // 另給 5 格提示，每格在不同的宮
+          const puzzle = Array(81).fill(0);
+          for (const b of shuffle([...Array(9).keys()]).slice(0, 5)) {
+            const i = UNITS[18 + b][rand(9)];
+            puzzle[i] = sol[i];
+          }
+          return { cages, puzzle, solution: sol };
+        }
         const diff = new Set();
         for (let i = 0; i < 81; i++) if (sols[0][i] !== sols[1][i]) diff.add(cageOf[i]);
         const free = [];
@@ -486,21 +502,21 @@
     }
     return step ? null : g;
   }
-  // 填色比例壓低、多出幾盤挑「要推最多輪」的那盤，當作 expert
+  // 填色比例略低、多出幾盤，挑「推理輪數」排第三多的那盤：仍要推好幾輪，但不會是最卡的
   function genNonogram(W = 15, H = 15) {
-    let best = null;
-    for (let tries = 0, found = 0; found < 8 && tries < 4000; tries++) {
-      const p = 0.47 + Math.random() * 0.06;
+    const found = [];
+    for (let tries = 0; found.length < 8 && tries < 4000; tries++) {
+      const p = 0.5 + Math.random() * 0.06;
       const sol = [...Array(W * H)].map(() => (Math.random() < p ? 1 : 0));
       const rows = [...Array(H)].map((_, r) => runsOf(rowOf(sol, W, r)));
       const cols = [...Array(W)].map((_, c) => runsOf(colOf(sol, W, H, c)));
       const g = nonoPropagate(rows, cols, Array(W * H).fill(-1));
       if (!g || g.some((v) => v < 0)) continue;
-      found++;
-      if (!best || nonoPropagate.rounds > best.rounds)
-        best = { W, H, rows, cols, solution: sol, rounds: nonoPropagate.rounds };
+      found.push({ W, H, rows, cols, solution: sol, rounds: nonoPropagate.rounds });
     }
-    if (!best) throw new Error("nonogram generation failed");
+    if (!found.length) throw new Error("nonogram generation failed");
+    found.sort((a, b) => b.rounds - a.rounds);
+    const best = found[Math.min(2, found.length - 1)];
     delete best.rounds;
     return best;
   }

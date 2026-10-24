@@ -10,7 +10,7 @@
  *   #/s/:sid/sheet[/figs]            速記表 / 觀念圖庫
  *   #/report?...                     回報 / 回饋
  *   #/me                             學習軌跡 / 登入
- *   #/play[/:game]                   小遊戲（sudoku | killer | nonogram）
+ *   #/play[/:game]                   小遊戲（sudoku | killer | nonogram）；彩蛋，選單不列，入口見 easter eggs
  */
 (() => {
   "use strict";
@@ -941,7 +941,7 @@
       const s = DB.subjects[sid];
       nav.innerHTML = `<a href="#/">所有科目</a><a href="#/s/${sid}"${cur("subject")}>${esc(s?.meta.short || "總覽")}總覽</a><a href="#/s/${sid}/practice"${cur("practice")}>練習區</a><a href="#/s/${sid}/analysis"${cur("analysis")}>考題分析</a><a href="#/s/${sid}/sheet"${cur("sheet")}>速記・圖解</a><a href="#/report?sid=${sid}"${cur("report")}>回報 / 回饋</a>`;
     } else {
-      nav.innerHTML = `<a href="#/"${cur("home")}>所有科目</a><a href="#/practice"${cur("practice")}>練習區</a><a href="#/me"${cur("me")}>學習軌跡</a><a href="#/play"${cur("play")}>小遊戲</a><a href="#/report"${cur("report")}>回報 / 回饋</a>`;
+      nav.innerHTML = `<a href="#/"${cur("home")}>所有科目</a><a href="#/practice"${cur("practice")}>練習區</a><a href="#/me"${cur("me")}>學習軌跡</a><a href="#/report"${cur("report")}>回報 / 回饋</a>`;
     }
     const tb = $("#tabbar");
     const T = (href, icon, label, k) =>
@@ -1673,16 +1673,20 @@
           <div class="step"><div class="mono">03</div><h3>考點分析</h3><p>哪些考點最常考、用什麼方式考，一眼看出優先順序。</p></div>
           <div class="step"><div class="mono">04</div><h3>練習</h3><p>考古題、課堂題、模擬新題，即時詳解與錯題本。</p></div>
         </div>
-      </section>
-
-      <section class="wrap section">
-        <div class="section-head"><div><div class="eyebrow">03 — 休息一下</div><h2 class="display h-m" style="margin-top:8px">讀累了？來玩小遊戲</h2></div><a class="btn sm ghost" href="#/play">全部遊戲${ic("arrowR")}</a></div>
-        ${gameCards()}
-        ${gameHintNote}
       </section>`,
       () => {
         const cv = $("#plate");
-        if (cv) mountPlate(cv, coloniesFromProgress(subs));
+        if (cv) {
+          mountPlate(cv, coloniesFromProgress(subs));
+          // 彩蛋：連點培養皿 5 下
+          let n = 0,
+            h = 0;
+          cv.addEventListener("click", () => {
+            clearTimeout(h);
+            h = setTimeout(() => (n = 0), 600);
+            if (++n === 5) findEgg("🧫 培養皿裡長出了⋯⋯小遊戲！");
+          });
+        }
       },
     );
   }
@@ -2116,7 +2120,7 @@
       id: "killer",
       name: "殺手數獨",
       en: "Killer Sudoku",
-      blurb: "盤面只給虛線籠子和總和。",
+      blurb: "虛線籠子和總和，外加零星幾個提示數字。",
       rules:
         "規則同數獨；另外每個虛線籠子裡的數字加起來要等於左上角的總和，籠子裡的數字也不能重複。小技巧：任何一橫列、一直行、一宮加起來都是 45。",
     },
@@ -4401,7 +4405,25 @@
   async function buildIndex() {
     if (cmdIndex) return cmdIndex;
     const subs = await loadAllSubjects();
-    const items = [];
+    // 彩蛋：只有搜「遊戲 / 數獨 / 數織 / game…」才會出現
+    const items = [
+      {
+        g: "彩蛋",
+        icon: "grid",
+        t: "🎮 讀累了？來玩小遊戲",
+        s: "你發現了隱藏頁面",
+        k: "遊戲 小遊戲 玩 休息 game games play puzzle 彩蛋 egg",
+        href: "#/play",
+      },
+      ...GAMES.map((g) => ({
+        g: "彩蛋",
+        icon: "grid",
+        t: `${g.name} ${g.en}`,
+        s: "Expert · 隱藏小遊戲",
+        k: `${g.blurb} 遊戲 game`,
+        href: `#/play/${g.id}`,
+      })),
+    ];
     for (const s of subs) {
       const sid = s.meta.id;
       items.push({
@@ -4627,6 +4649,7 @@
           重點: 8,
           考點: 5,
           題目: 20,
+          彩蛋: 4,
         };
         const byG = {};
         for (const x of items) {
@@ -4641,6 +4664,7 @@
           "重點",
           "考點",
           "題目",
+          "彩蛋",
         ].flatMap((g) =>
           (byG[g] || [])
             .sort((a, b) => b[0] - a[0])
@@ -4732,6 +4756,31 @@
       openPalette();
     } else if (e.key === "Escape" && !cmdk.hidden) closePalette();
   });
+
+  // ------------------------------------------------------------ easter eggs → #/play
+  // 入口：連點首頁培養皿 5 下、連點頁尾「Study Hub」3 下、在頁面上直接打 play、搜尋「遊戲」
+  function findEgg(msg) {
+    toast(msg);
+    setTimeout(() => (location.hash = "#/play"), 700);
+  }
+  {
+    let typed = "";
+    addEventListener("keydown", (e) => {
+      if (e.metaKey || e.ctrlKey || e.altKey || e.key.length !== 1) return;
+      if (!cmdk.hidden || e.target.matches?.("input, textarea, select")) return;
+      if (location.hash.startsWith("#/play")) return;
+      typed = (typed + e.key.toLowerCase()).slice(-4);
+      if (typed === "play") findEgg("🎮 被你發現了！");
+    });
+    const sig = $(".site-footer .sig");
+    let n = 0,
+      h = 0;
+    sig?.addEventListener("click", () => {
+      clearTimeout(h);
+      h = setTimeout(() => (n = 0), 600);
+      if (++n === 3) findEgg("✨ 你找到彩蛋了");
+    });
+  }
 
   // boot: wait for marked (deferred) then route
   const boot = () => {
