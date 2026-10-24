@@ -26,6 +26,12 @@
   - Trp（**corepressor**）+ inactive repressor → active repressor 結合 operator → 關。
   - **Attenuation**：Trp 高 → 核糖體通過 → region 3–4 hairpin（terminator）；Trp 低 → 核糖體卡在 region 1 → 2–3 anti-terminator → 繼續轉錄。
 
+<div data-fig="lac-operon"></div>
+
+<div data-fig="repressible-operon"></div>
+
+<div data-fig="trp-operon"></div>
+
 ## 4. 重組
 - **Homologous（general）recombination**：最常見，需序列相似，RecA。
 - **Non-homologous**：少見於原核。

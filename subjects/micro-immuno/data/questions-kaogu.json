@@ -1754,7 +1754,8 @@
   ],
   "explain": "在repressive operon中，產物通常作為corepressor結合repressor並binding在operator上，達到關閉基因表現的效果",
   "topics": [
-   "DNA 複製與基因表現"
+   "DNA 複製與基因表現",
+   "Operon 基因調控"
   ],
   "pattern": "選正確／單一概念題"
  },
@@ -1789,7 +1790,8 @@
   ],
   "explain": "(B) 兩者可同時進行\n(C) Operon中的基因轉錄是同時進行的\n(D) 細菌中約有60〜80%的基因是不被調控、持續表現的",
   "topics": [
-   "DNA 複製與基因表現"
+   "DNA 複製與基因表現",
+   "Operon 基因調控"
   ],
   "pattern": "選正確／單一概念題"
  },
@@ -13323,7 +13325,8 @@
   ],
   "explain": "可以查一下 Tryptophan repressible operon，普生有教",
   "topics": [
-   "DNA 複製與基因表現"
+   "DNA 複製與基因表現",
+   "Operon 基因調控"
   ],
   "pattern": "選正確／單一概念題"
  },

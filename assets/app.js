@@ -1085,6 +1085,17 @@
           t.replaceWith(w);
           w.appendChild(t);
         }
+        // 短儲存格（例：「✅ 直接接觸」、細菌名）不換行，避免字被拆到兩行
+        $$("td", t).forEach((td) => {
+          const n = td.textContent.trim().length;
+          if (n <= (td.cellIndex === 0 ? 16 : 12)) td.classList.add("nw");
+        });
+        // 不換行反而撐出橫向捲軸的話，就放回去讓它換行
+        requestAnimationFrame(() => {
+          const w = t.parentElement;
+          if (w.clientWidth && w.scrollWidth > w.clientWidth + 1)
+            $$("td.nw", t).forEach((td) => td.classList.remove("nw"));
+        });
       });
       $$("h2, h3", p).forEach((h, i) => {
         h.id = slug(h.textContent, i);

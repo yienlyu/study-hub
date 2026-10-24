@@ -370,7 +370,8 @@
   ],
   "explain": "葡萄糖低 → cAMP↑ → cAMP-CAP 結合 promoter（positive regulation）。",
   "topics": [
-   "DNA 複製與基因表現"
+   "DNA 複製與基因表現",
+   "Operon 基因調控"
   ],
   "pattern": "選錯誤（否定）題"
  },
@@ -403,7 +404,8 @@
   ],
   "explain": "Trp 高：corepressor + repressor → operator；attenuation 時 region 3–4 形成 terminator。",
   "topics": [
-   "DNA 複製與基因表現"
+   "DNA 複製與基因表現",
+   "Operon 基因調控"
   ],
   "pattern": "選正確／單一概念題",
   "basedOn": "k113-bact-48"

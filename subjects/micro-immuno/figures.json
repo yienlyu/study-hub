@@ -110,6 +110,36 @@
   "caption": "三種方式差在<strong>媒介</strong>和<strong>要不要接觸</strong>：轉型吸收裸露 DNA、接合靠 sex pilus 直接傳質體、轉導由噬菌體順便帶走宿主 DNA。"
  },
  {
+  "id": "lac-operon",
+  "chapter": "bact-genetics",
+  "title": "Lac operon：乳糖是開關、葡萄糖是音量",
+  "topics": [
+   "Operon 基因調控"
+  ],
+  "keywords": "lac operon lacI lacZ lacY lacA repressor operator allolactose inducer IPTG CAP cAMP catabolite repression glucose lactose inducible",
+  "caption": "<strong>沒有乳糖</strong>：repressor 結合 operator → 關；<strong>有乳糖</strong>：allolactose 讓 repressor 脫離。葡萄糖決定多寡：<strong>葡萄糖少 → cAMP↑ → cAMP–CAP 結合</strong> → 大量轉錄；葡萄糖多時 cAMP–CAP 減少。"
+ },
+ {
+  "id": "repressible-operon",
+  "chapter": "bact-genetics",
+  "title": "可抑制型（repressible）operon 的開關",
+  "topics": [
+   "Operon 基因調控"
+  ],
+  "keywords": "repressible repressive operon corepressor aporepressor repressor operator end product feedback inducible lac trp",
+  "caption": "終產物不足時 repressor 沒有活性、基因照常轉錄；產物累積後當 <strong>corepressor</strong> 與 repressor 結合，<strong>複合體結合 operator</strong> 擋住 RNA polymerase。考古陷阱：corepressor 不會自己結合 operator。"
+ },
+ {
+  "id": "trp-operon",
+  "chapter": "bact-genetics",
+  "title": "Tryptophan operon：repression 與 attenuation",
+  "topics": [
+   "Operon 基因調控"
+  ],
+  "keywords": "tryptophan trp operon trpR TrpR corepressor attenuation leader region terminator anti-terminator hairpin ribosome stall",
+  "caption": "兩層調控：Trp 多時 <strong>Trp + TrpR 結合 operator</strong> 關掉轉錄；漏過去的轉錄再由 <strong>attenuation</strong> 決定，Trp 多時 <strong>3–4 終止髮夾</strong>提早結束，Trp 少時核糖體卡在 region 1、<strong>2–3 抗終止</strong>讓轉錄繼續。"
+ },
+ {
   "id": "transposon",
   "chapter": "bact-genetics",
   "title": "IS 與 composite transposon",
