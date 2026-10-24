@@ -1903,7 +1903,7 @@
   "answer": [
    "B"
   ],
-  "explain": "(A) C2 和 C4b 結合形成 C4b2 後，C1q𝑟̅̅2̅̅𝑠̅2̅ 和 C4b2 作用，C4b2 裂解為 C4b2a（一種 C3 convertase）和 C2b。\n(B) C2a 主要的作用是酵素活性，不是發炎媒介。會引發 local inflammation 的是 C3a 、 C5a。\n(C) C1q 下方的球結合到抗原或是抗原抗體結合物後，構型改變使兩個 C1 互相活化。\n(D) C5b 和 C6、C7 結合成 C5b67，再和 C8、C9 結合成 C5b-9，即 MAC。\n＊詳見下附圖",
+  "explain": "(A) C2 和 C4b 結合形成 C4b2 後，C1qr₂s₂ 和 C4b2 作用，C4b2 裂解為 C4b2a（一種 C3 convertase）和 C2b。\n(B) C2a 主要的作用是酵素活性，不是發炎媒介。會引發 local inflammation 的是 C3a 、 C5a。\n(C) C1q 下方的球結合到抗原或是抗原抗體結合物後，構型改變使兩個 C1 互相活化。\n(D) C5b 和 C6、C7 結合成 C5b67，再和 C8、C9 結合成 C5b-9，即 MAC。\n＊詳見下附圖",
   "topics": [
    "補體系統"
   ],
@@ -1938,7 +1938,7 @@
   "answer": [
    "B"
   ],
-  "explain": "Alternative pathway 需仰賴前兩個途徑（classical pathway & lectin pathway）產生 C4̅̅𝑏̅̅2̅̅𝑎̅（或 C3̅̅𝑏𝐵̅̅̅b、C3(H2O)Bb 等 C3 轉化酶），並作用在 C3 上，使其裂解成 C3a 和 C3b。",
+  "explain": "Alternative pathway 需仰賴前兩個途徑（classical pathway & lectin pathway）產生 C4b2a（或 C3bBb、C3(H2O)Bb 等 C3 轉化酶），並作用在 C3 上，使其裂解成 C3a 和 C3b。",
   "topics": [
    "補體系統"
   ],
@@ -2187,7 +2187,7 @@
   "answer": [
    "D"
   ],
-  "explain": "C3̅̅𝑏𝐵𝑏 ̅̅̅̅̅為 alternative pathway 會得到的 C3 convertase，而另一種 C3 convertase 為 classical & lectin pathway 會得到的 C4̅̅𝑏̅̅2̅̅𝑎̅",
+  "explain": "C3bBb為 alternative pathway 會得到的 C3 convertase，而另一種 C3 convertase 為 classical & lectin pathway 會得到的 C4b2a",
   "topics": [
    "補體系統"
   ],
@@ -2295,7 +2295,7 @@
   "answer": [
    "B"
   ],
-  "explain": "(A) 趨化作用（Chemotaxis）為 C3a 和 C5a 之功能\n(B) C3b 是調理素（C3b 與 C4b）之一，而 iC3b 則刺激吞噬作用（Phagocytosis）。C3b binds covalently through its thioester bond to adjacent molecules on the pathogen surface.\n(C) 溶解作用（Lysis）為 C5b-9（Membrane-Attack Complex，MAC）之功能\n(D) 為溶解作用中的 classical & lectin pathway 的步驟之一，是 C1𝑞𝑟̅̅̅̅2̅̅𝑠̅2̅",
+  "explain": "(A) 趨化作用（Chemotaxis）為 C3a 和 C5a 之功能\n(B) C3b 是調理素（C3b 與 C4b）之一，而 iC3b 則刺激吞噬作用（Phagocytosis）。C3b binds covalently through its thioester bond to adjacent molecules on the pathogen surface.\n(C) 溶解作用（Lysis）為 C5b-9（Membrane-Attack Complex，MAC）之功能\n(D) 為溶解作用中的 classical & lectin pathway 的步驟之一，是 C1qr₂s₂",
   "topics": [
    "補體系統"
   ],
@@ -2365,7 +2365,7 @@
   "answer": [
    "D"
   ],
-  "explain": "C3 convertase complement 包含 C3̅̅𝑏𝐵𝑏 ̅̅̅̅̅與 C4̅̅𝑏̅̅2̅̅𝑎̅。詳見 9. (D)",
+  "explain": "C3 convertase complement 包含 C3bBb與 C4b2a。詳見 9. (D)",
   "topics": [
    "補體系統"
   ],
@@ -2435,7 +2435,7 @@
   "answer": [
    "C"
   ],
-  "explain": "Classical & Lectin Pathway 的 C3 convertase 為 C4̅̅𝑏̅̅2̅̅𝑎̅Alternative Pathway 的 C3 convertase 為 C3̅̅𝑏𝐵𝑏 ̅̅̅̅̅",
+  "explain": "Classical & Lectin Pathway 的 C3 convertase 為 C4b2a；Alternative Pathway 的 C3 convertase 為 C3bBb",
   "topics": [
    "補體系統"
   ],
@@ -2540,7 +2540,7 @@
   "answer": [
    "C"
   ],
-  "explain": "Classical & Lectin Pathway 的 C3 convertase 為 C4̅̅𝑏̅̅2̅̅𝑎̅Alternative Pathway 的 C3 convertase 為 C3̅̅𝑏𝐵𝑏 ̅̅̅̅̅",
+  "explain": "Classical & Lectin Pathway 的 C3 convertase 為 C4b2a；Alternative Pathway 的 C3 convertase 為 C3bBb",
   "topics": [
    "補體系統"
   ],
@@ -14840,7 +14840,7 @@
    },
    {
     "k": "C",
-    "t": "ILC-1 會分泌 IFN-𝛾，針對胞外細菌、病毒感染"
+    "t": "ILC-1 會分泌 IFN-γ，針對胞外細菌、病毒感染"
    },
    {
     "k": "D",
