@@ -33,6 +33,7 @@
     arrowL: '<path d="M19 12H5M11 6l-6 6 6 6"/>',
     arrowUR: '<path d="M7 17 17 7M8 7h9v9"/>',
     chevR: '<path d="m9 6 6 6-6 6"/>',
+    chevL: '<path d="m15 6-6 6 6 6"/>',
     check: '<path d="m5 12.5 4.5 4.5L19 7.5"/>',
     x: '<path d="M6 6l12 12M18 6 6 18"/>',
     book: '<path d="M2 5h7a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H2zM22 5h-7a3 3 0 0 0-3 3v12a2 2 0 0 1 2-2h8z"/>',
@@ -1930,6 +1931,9 @@
       </div>
       <div class="ch-tabs"><div class="wrap"><nav class="seg" aria-label="章節分頁">
         ${TABS.map(([k, t, icn]) => `<a href="#/s/${sid}/c/${cid}/${k}"${k === tab ? ' aria-current="page"' : ""}>${ic(icn)}${t}</a>`).join("")}
+      </nav><nav class="seg ch-step" aria-label="切換章節">
+        ${prev ? `<a href="#/s/${sid}/c/${prev.id}/${tab}" title="上一章：Ch.${pad2(prev.idx)} ${esc(prev.title)}" aria-label="上一章：${esc(prev.title)}">${ic("chevL")}<span>上一章</span></a>` : `<span class="off" aria-hidden="true">${ic("chevL")}<span>上一章</span></span>`}
+        ${next ? `<a href="#/s/${sid}/c/${next.id}/${tab}" title="下一章：Ch.${pad2(next.idx)} ${esc(next.title)}" aria-label="下一章：${esc(next.title)}"><span>下一章</span>${ic("chevR")}</a>` : `<span class="off" aria-hidden="true"><span>下一章</span>${ic("chevR")}</span>`}
       </nav></div></div>
       <div class="wrap">
         ${body}
