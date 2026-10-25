@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 718 278" role="img" aria-label="犬蛔蟲生活史：成蟲在狗的小腸，卵隨狗糞排出，在土壤中 2–5 週胚胎化。人吃入胚胎化卵，或吃生的雞、羊、兔等保幼宿主組織，幼蟲在體內移行但不會長成成蟲，造成內臟、眼、神經型犬蛔蟲症。">
+<defs><marker id="toxocara-cycle-fg" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker><marker id="toxocara-cycle-fk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="toxocara-cycle-fr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker><marker id="toxocara-cycle-fv" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<rect x="6" y="24" width="346" height="74" rx="14" class="fp"/>
+<text x="12" y="18" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">狗（最終宿主）</text>
+<rect x="6" y="122" width="346" height="74" rx="14" class="fp"/>
+<text x="12" y="116" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">土壤</text>
+<rect x="366" y="24" width="346" height="172" rx="14" class="fp"/>
+<text x="372" y="18" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">人（保幼宿主）</text>
+<path d="M89 90L89 130" class="ln" marker-end="url(#toxocara-cycle-fk)"/>
+<path d="M166 159L192 159" class="ln" marker-end="url(#toxocara-cycle-fk)"/>
+<text x="179" y="153" text-anchor="middle" class="ts" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">土壤</text>
+<path d="M269 130L269 90" class="ln" marker-end="url(#toxocara-cycle-fk)"/>
+<path d="M192 61L166 61" class="ln" marker-end="url(#toxocara-cycle-fk)"/>
+<path d="M346 159L372 159" class="ln" marker-end="url(#toxocara-cycle-fk)"/>
+<path d="M552 159L459 159Q449 159 449 149L449 90" class="ln" marker-end="url(#toxocara-cycle-fk)"/>
+<path d="M449 130L449 90" class="ln" marker-end="url(#toxocara-cycle-fk)"/>
+<path d="M526 61L552 61" class="lr dash" marker-end="url(#toxocara-cycle-fr)"/>
+<g class="hot" data-tip="<i>T. canis</i> 在狗、<i>T. cati</i> 在貓。幼犬還可經<b>胎盤、乳汁</b>感染。" data-label="狗小腸成蟲"><rect x="14" y="34" width="150" height="54" rx="10" class="bv"/><text x="89" y="56" text-anchor="middle" class="tb">狗小腸成蟲</text></g>
+<text x="89" y="75" text-anchor="middle" class="ts">幼犬感染最重</text>
+<rect x="194" y="34" width="150" height="54" rx="10" class="bx"/><text x="269" y="56" text-anchor="middle" class="tb">狗吃入胚胎化卵</text>
+<text x="269" y="75" text-anchor="middle" class="ts">或吃到保幼宿主</text>
+<g class="hot" data-tip="80–85 µm、蛋白膜表面像高爾夫球的<b>凹洞</b>。" data-label="卵隨狗糞排出"><rect x="14" y="132" width="150" height="54" rx="10" class="bx"/><text x="89" y="154" text-anchor="middle" class="tb">卵隨狗糞排出</text></g>
+<text x="89" y="173" text-anchor="middle" class="ts">球形厚殼、表面凹洞</text>
+<g class="hot" data-tip="公園土壤、<b>沙坑</b>常被汙染。蟲卵排出後約 2–5 週才有感染力，可存活至少 1 年。" data-label="胚胎化卵"><rect x="194" y="132" width="150" height="54" rx="10" class="bw"/><text x="269" y="154" text-anchor="middle" class="tb">胚胎化卵</text></g>
+<text x="269" y="173" text-anchor="middle" class="ts">2–5 週 · 可活 1 年</text>
+<g class="hot" data-tip="誤食被汙染的土壤、食物、水中的胚胎化卵；小孩玩沙最常見。" data-label="人吃入"><rect x="374" y="132" width="150" height="54" rx="10" class="bx"/><text x="449" y="154" text-anchor="middle" class="tb">人吃入</text></g>
+<text x="449" y="173" text-anchor="middle" class="ts">沙坑、生菜、手</text>
+<g class="hot" data-tip="日本、韓國病例多半是吃生的雞肝、牛肝等保幼宿主組織裡的幼蟲。" data-label="生吃雞、羊、兔肝"><rect x="554" y="132" width="150" height="54" rx="10" class="bw"/><text x="629" y="154" text-anchor="middle" class="tb">生吃雞、羊、兔肝</text></g>
+<text x="629" y="173" text-anchor="middle" class="ts">保幼宿主組織</text>
+<g class="hot" data-tip="人是<b>保幼宿主</b>：幼蟲（350–445 µm）像<b>生物子彈</b>，多停在<b>肝</b>，也去肺、肌肉、眼、腦。<b>人的糞便找不到犬蛔蟲卵</b>。" data-label="幼蟲在體內亂鑽"><rect x="374" y="34" width="150" height="54" rx="10" class="br"/><text x="449" y="56" text-anchor="middle" class="tb">幼蟲在體內亂鑽</text></g>
+<text x="449" y="75" text-anchor="middle" class="ts">不會長成成蟲</text>
+<g class="hot" data-tip="<b>內臟幼蟲移行症（VLM）</b>、<b>眼部（OLM）</b>：可能失明，常被誤認為 retinoblastoma；<b>神經性（NT）</b>；<b>隱蔽性</b>。" data-label="VLM・OLM・NT"><rect x="554" y="34" width="150" height="54" rx="10" class="br"/><text x="629" y="56" text-anchor="middle" class="tb">VLM・OLM・NT</text></g>
+<text x="629" y="75" text-anchor="middle" class="ts">＋隱蔽型 · 四大類型</text>
+<text x="14" y="220" class="th">診斷</text><text x="78" y="220" class="ts">TES-ELISA（有交叉反應）→ TES-Western blot 24–35 kDa 確認；PCR</text>
+<text x="14" y="240" class="th">治療</text><text x="78" y="240" class="ts">Albendazole ＋ 類固醇（眼部）</text>
+<rect x="374" y="251" width="14" height="10" rx="3" class="bw"/><text x="394" y="260" class="ts">感染期</text>
+<rect x="486" y="251" width="14" height="10" rx="3" class="bv"/><text x="506" y="260" class="ts">成蟲寄生處</text>
+<rect x="598" y="251" width="14" height="10" rx="3" class="br"/><text x="618" y="260" class="ts">致病／臨床</text>
+</svg>

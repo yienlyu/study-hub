@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 798 464" role="img" aria-label="血絲蟲生活史與三類血絲蟲比較：病媒吸血時注入第三期幼蟲，在人體長成成蟲，雌蟲產微絲蚴，病媒再吸血時吸走微絲蚴，在病媒體內 1 到 2 週發育成第三期幼蟲。淋巴絲蟲由蚊傳播、成蟲在淋巴管、微絲蚴夜間在血液；羅阿絲蟲由斑虻傳播、成蟲在皮下移行、微絲蚴白天在血液；蟠尾絲蟲由黑蠅傳播、成蟲在皮下結節、微絲蚴在皮膚與眼睛。">
+<defs><marker id="filaria-cycle-fg" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker><marker id="filaria-cycle-fk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="filaria-cycle-fr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker><marker id="filaria-cycle-fv" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<rect x="6" y="54" width="786" height="74" rx="14" class="fp"/>
+<text x="12" y="48" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">共同的生活史</text>
+<rect x="6" y="152" width="786" height="74" rx="14" class="fp"/>
+<text x="12" y="146" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">淋巴絲蟲 W. bancrofti、B. malayi</text>
+<rect x="6" y="250" width="786" height="74" rx="14" class="fp"/>
+<text x="12" y="244" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">羅阿絲蟲 Loa loa（非洲眼蟲）</text>
+<rect x="6" y="348" width="786" height="74" rx="14" class="fp"/>
+<text x="12" y="342" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">蟠尾絲蟲 Onchocerca volvulus</text>
+<path d="M186 91L212 91" class="ln" marker-end="url(#filaria-cycle-fk)"/>
+<path d="M386 91L412 91" class="ln" marker-end="url(#filaria-cycle-fk)"/>
+<path d="M586 91L612 91" class="ln" marker-end="url(#filaria-cycle-fk)"/>
+<path d="M699 62L699 42Q699 32 689 32L109 32Q99 32 99 42L99 62" class="ln" marker-end="url(#filaria-cycle-fk)"/>
+<text x="111" y="27" text-anchor="start" class="ts" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">再去叮下一個人</text>
+<path d="M186 189L212 189" class="lt" marker-end="url(#filaria-cycle-fk)"/>
+<path d="M386 189L412 189" class="lt" marker-end="url(#filaria-cycle-fk)"/>
+<path d="M586 189L612 189" class="lt" marker-end="url(#filaria-cycle-fk)"/>
+<path d="M186 287L212 287" class="lt" marker-end="url(#filaria-cycle-fk)"/>
+<path d="M386 287L412 287" class="lt" marker-end="url(#filaria-cycle-fk)"/>
+<path d="M586 287L612 287" class="lt" marker-end="url(#filaria-cycle-fk)"/>
+<path d="M186 385L212 385" class="lt" marker-end="url(#filaria-cycle-fk)"/>
+<path d="M386 385L412 385" class="lt" marker-end="url(#filaria-cycle-fk)"/>
+<path d="M586 385L612 385" class="lt" marker-end="url(#filaria-cycle-fk)"/>
+<g class="hot" data-tip="所有血絲蟲都靠<b>節肢動物</b>傳播，感染期都是<b>第三期幼蟲</b>。" data-label="病媒叮咬注入 L3"><rect x="14" y="64" width="170" height="54" rx="10" class="bw"/><text x="99" y="86" text-anchor="middle" class="tb">病媒叮咬注入 L3</text></g>
+<text x="99" y="105" text-anchor="middle" class="ts">感染期都是 L3</text>
+<rect x="214" y="64" width="170" height="54" rx="10" class="bv"/><text x="299" y="86" text-anchor="middle" class="tb">人體組織內成蟲</text>
+<text x="299" y="105" text-anchor="middle" class="ts">活好幾年</text>
+<rect x="414" y="64" width="170" height="54" rx="10" class="bx"/><text x="499" y="86" text-anchor="middle" class="tb">雌蟲產微絲蚴</text>
+<text x="499" y="105" text-anchor="middle" class="ts">是幼蟲、不是卵</text>
+<g class="hot" data-tip="黑蠅體內的 L3 要到<b>唾腺</b>成熟才有感染力。<i>Onchocerca</i> 在人體長成成蟲可能要 18 個月。" data-label="病媒吸血吸走微絲蚴"><rect x="614" y="64" width="170" height="54" rx="10" class="bx"/><text x="699" y="86" text-anchor="middle" class="tb">病媒吸血吸走微絲蚴</text></g>
+<text x="699" y="105" text-anchor="middle" class="ts">1–2 週變成 L3</text>
+<g class="hot" data-tip="班氏：家蚊 <i>Culex</i> 為主；馬來：曼蚊 <i>Mansonia</i>。" data-label="蚊"><rect x="14" y="162" width="170" height="54" rx="10" class="bx"/><text x="99" y="184" text-anchor="middle" class="tb">蚊</text></g>
+<text x="99" y="203" text-anchor="middle" class="ts">家蚊、斑蚊、曼蚊、瘧蚊</text>
+<g class="hot" data-tip="成蟲死亡、鈣化 → 淋巴管阻塞 → 淋巴曲張。" data-label="淋巴管、淋巴結"><rect x="214" y="162" width="170" height="54" rx="10" class="bv"/><text x="299" y="184" text-anchor="middle" class="tb">淋巴管、淋巴結</text></g>
+<text x="299" y="203" text-anchor="middle" class="ts">台灣曾流行（金門）</text>
+<g class="hot" data-tip="班氏：有鞘、尾端無核；馬來：有鞘、尾端兩顆核。厚血片 Giemsa、Knott 濃縮法。" data-label="血液 · 夜間"><rect x="414" y="162" width="170" height="54" rx="10" class="bx"/><text x="499" y="184" text-anchor="middle" class="tb">血液 · 夜間</text></g>
+<text x="499" y="203" text-anchor="middle" class="ts">10 pm–4 am 採血</text>
+<g class="hot" data-tip="急性：淋巴管炎、絲蟲熱；慢性：<b>象皮病</b>、<b>乳糜尿</b>（班氏）。熱帶肺嗜酸性球症候群：血中沒有微絲蚴、IgE 很高。" data-label="象皮病、乳糜尿"><rect x="614" y="162" width="170" height="54" rx="10" class="br"/><text x="699" y="184" text-anchor="middle" class="tb">象皮病、乳糜尿</text></g>
+<text x="699" y="203" text-anchor="middle" class="ts">DEC 殺成蟲＋微絲蚴</text>
+<g class="hot" data-tip="<i>C. silicea</i>、<i>C. dimidiata</i>；只在西非、中非的森林沼澤。" data-label="斑虻 Chrysops"><rect x="14" y="260" width="170" height="54" rx="10" class="bx"/><text x="99" y="282" text-anchor="middle" class="tb">斑虻 Chrysops</text></g>
+<text x="99" y="301" text-anchor="middle" class="ts">白天叮咬 · mango fly</text>
+<g class="hot" data-tip="成蟲在皮下到處爬，爬過<b>結膜</b>時肉眼可見。" data-label="皮下組織，會移行"><rect x="214" y="260" width="170" height="54" rx="10" class="bv"/><text x="299" y="282" text-anchor="middle" class="tb">皮下組織，會移行</text></g>
+<text x="299" y="301" text-anchor="middle" class="ts">爬過結膜＝眼蟲</text>
+<g class="hot" data-tip="<b>日間週期性</b>：白天採血。" data-label="血液 · 白天"><rect x="414" y="260" width="170" height="54" rx="10" class="bx"/><text x="499" y="282" text-anchor="middle" class="tb">血液 · 白天</text></g>
+<text x="499" y="301" text-anchor="middle" class="ts">有鞘、尾核到底</text>
+<g class="hot" data-tip="<b>Calabar swelling</b>（四肢暫時性腫脹）；重度微絲蚴血症時用 DEC 可能引起<b>致命腦炎</b>。" data-label="Calabar swelling"><rect x="614" y="260" width="170" height="54" rx="10" class="br"/><text x="699" y="282" text-anchor="middle" class="tb">Calabar swelling</text></g>
+<text x="699" y="301" text-anchor="middle" class="ts">DEC 可能致命腦炎</text>
+<g class="hot" data-tip="黑蠅在湍急的河流繁殖 → 病患集中在<b>大河附近</b>。" data-label="黑蠅 Simulium"><rect x="14" y="358" width="170" height="54" rx="10" class="bx"/><text x="99" y="380" text-anchor="middle" class="tb">黑蠅 Simulium</text></g>
+<text x="99" y="399" text-anchor="middle" class="ts">白天叮咬 · 河邊繁殖</text>
+<g class="hot" data-tip="結節位置：非洲在下軀幹、下肢；中美洲在頭頸。" data-label="皮下結節"><rect x="214" y="358" width="170" height="54" rx="10" class="bv"/><text x="299" y="380" text-anchor="middle" class="tb">皮下結節</text></g>
+<text x="299" y="399" text-anchor="middle" class="ts">onchocercoma</text>
+<g class="hot" data-tip="<b>不在血液</b>：皮膚切片（skin snip）；Mazzotti test（50 mg DEC）可能有嚴重反應。" data-label="皮膚、眼睛"><rect x="414" y="358" width="170" height="54" rx="10" class="bx"/><text x="499" y="380" text-anchor="middle" class="tb">皮膚、眼睛</text></g>
+<text x="499" y="399" text-anchor="middle" class="ts">無鞘 · skin snip</text>
+<g class="hot" data-tip="失明主要是微絲蚴與共生菌 <i>Wolbachia</i> 引起的發炎。" data-label="河盲症、皮膚炎"><rect x="614" y="358" width="170" height="54" rx="10" class="br"/><text x="699" y="380" text-anchor="middle" class="tb">河盲症、皮膚炎</text></g>
+<text x="699" y="399" text-anchor="middle" class="ts">Ivermectin 只殺微絲蚴</text>
+<rect x="454" y="437" width="14" height="10" rx="3" class="bw"/><text x="474" y="446" class="ts">感染期</text>
+<rect x="566" y="437" width="14" height="10" rx="3" class="bv"/><text x="586" y="446" class="ts">成蟲寄生處</text>
+<rect x="678" y="437" width="14" height="10" rx="3" class="br"/><text x="698" y="446" class="ts">致病／臨床</text>
+</svg>

@@ -52,6 +52,10 @@
   | ***Loa loa*** | **有** | **有**（體核**連續**延伸到尾尖） | |
   | ***O. volvulus*** | **無** | — | 在皮膚，不在血液 |
 
+<div data-fig="filaria-cycle"></div>
+
+<div data-fig="slide-filaria-cycle"></div>
+
 <div data-fig="microfilariae"></div>
 
 <div data-fig="slide-wb-mf"></div>
@@ -85,6 +89,8 @@
 - **治療**：**Ivermectin**（成人單次 0.2 mg/kg；**只對微絲蚴有效**；有抗藥性）；DEC；手術取蟲。
   - **Ivermectin 機轉**：avermectin 類，和無脊椎動物神經與肌肉細胞的 **glutamate-gated chloride channel** 高親和力結合 → 氯離子通透增加、細胞**過極化** → 寄生蟲**麻痺死亡**。
 - **注意**：*Loa loa* 與 *O. volvulus* **合併感染**時，治療可能出現嚴重副作用。
+
+<div data-fig="slide-loa-cycle"></div>
 
 <div data-fig="slide-onchocerca-cycle"></div>
 

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 718 278" role="img" aria-label="廣東住血線蟲生活史：成蟲在鼠的肺動脈，卵孵出第一期幼蟲經氣管吞下隨鼠糞排出，被螺、蛞蝓吃進去發育成第三期幼蟲。鼠吃螺後幼蟲先到腦發育再回肺動脈。人吃生螺、保幼宿主或被黏液汙染的生菜，幼蟲跑到腦造成嗜酸性腦膜炎，不會成熟。">
+<defs><marker id="acanton-cycle-fg" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker><marker id="acanton-cycle-fk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="acanton-cycle-fr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker><marker id="acanton-cycle-fv" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<rect x="6" y="24" width="346" height="172" rx="14" class="fp"/>
+<text x="12" y="18" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">鼠（最終宿主）</text>
+<rect x="366" y="24" width="346" height="74" rx="14" class="fp"/>
+<text x="372" y="18" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">中間宿主與保幼宿主</text>
+<rect x="366" y="122" width="346" height="74" rx="14" class="fp"/>
+<text x="372" y="116" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">人（非適合宿主）</text>
+<path d="M166 61L192 61" class="ln" marker-end="url(#acanton-cycle-fk)"/>
+<path d="M346 61L372 61" class="ln" marker-end="url(#acanton-cycle-fk)"/>
+<path d="M526 61L552 61" class="ln" marker-end="url(#acanton-cycle-fk)"/>
+<text x="539" y="55" text-anchor="middle" class="ts" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">被吃</text>
+<path d="M629 90L629 130" class="ln" marker-end="url(#acanton-cycle-fk)"/>
+<path d="M552 159L526 159" class="ln" marker-end="url(#acanton-cycle-fk)"/>
+<path d="M449 90L449 95Q449 100 439 100L129 100Q119 100 119 110L119 130" class="ln" marker-end="url(#acanton-cycle-fk)"/>
+<text x="209" y="113" text-anchor="start" class="ts" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">鼠吃螺</text>
+<path d="M89 130L89 90" class="ln" marker-end="url(#acanton-cycle-fk)"/>
+<g class="hot" data-tip="卵卡在肺動脈末梢孵出 L1 → 穿進肺泡 → 氣管 → 吞下 → <b>L1 隨鼠糞排出</b>。" data-label="鼠肺動脈：成蟲"><rect x="14" y="34" width="150" height="54" rx="10" class="bv"/><text x="89" y="56" text-anchor="middle" class="tb">鼠肺動脈：成蟲</text></g>
+<text x="89" y="75" text-anchor="middle" class="ts">rat lungworm</text>
+<rect x="194" y="34" width="150" height="54" rx="10" class="bx"/><text x="269" y="66" text-anchor="middle" class="tb">L1 隨鼠糞排出</text>
+<g class="hot" data-tip="<b>非洲大蝸牛 <i>Achatina fulica</i></b>、福壽螺 <i>Pila</i>、蛞蝓。L3 也在螺的<b>黏液</b>裡，會汙染生菜。" data-label="螺、蛞蝓：L1 → L3"><rect x="374" y="34" width="150" height="54" rx="10" class="bw"/><text x="449" y="56" text-anchor="middle" class="tb">螺、蛞蝓：L1 → L3</text></g>
+<text x="449" y="75" text-anchor="middle" class="ts">非洲大蝸牛 · 感染期</text>
+<g class="hot" data-tip="「吃淡水蝦會得哪些寄生蟲？」別漏掉廣東住血線蟲。" data-label="保幼宿主"><rect x="554" y="34" width="150" height="54" rx="10" class="bw"/><text x="629" y="56" text-anchor="middle" class="tb">保幼宿主</text></g>
+<text x="629" y="75" text-anchor="middle" class="ts">淡水蝦、陸蟹、青蛙</text>
+<rect x="554" y="132" width="150" height="54" rx="10" class="bx"/><text x="629" y="154" text-anchor="middle" class="tb">人生吃</text>
+<text x="629" y="173" text-anchor="middle" class="ts">螺、蝦、蟹、生菜</text>
+<g class="hot" data-tip="潛伏期 1–5 週；頭痛、頸僵硬、腦神經麻痺。<b>CSF 嗜酸性球增多</b>是診斷關鍵。多數自癒，<b>不建議用驅蟲藥</b>。" data-label="幼蟲到腦 → 死在腦"><rect x="374" y="132" width="150" height="54" rx="10" class="br"/><text x="449" y="154" text-anchor="middle" class="tb">幼蟲到腦 → 死在腦</text></g>
+<text x="449" y="173" text-anchor="middle" class="ts">嗜酸性腦膜炎</text>
+<g class="hot" data-tip="在鼠的 CNS 發育 2–3 週 → 蜘蛛膜下腔 → 靜脈 → 肺動脈成熟；感染 40–60 天後鼠糞出現 L1。" data-label="鼠：幼蟲先到腦發育"><rect x="14" y="132" width="150" height="54" rx="10" class="bx"/><text x="89" y="154" text-anchor="middle" class="tb">鼠：幼蟲先到腦發育</text></g>
+<text x="89" y="173" text-anchor="middle" class="ts">再經靜脈回肺動脈</text>
+<text x="14" y="220" class="th">診斷</text><text x="78" y="220" class="ts">CSF 嗜酸性球 &gt; 10%（常 20–90%）、Charcot-Leyden 結晶；血清學</text>
+<text x="14" y="240" class="th">預防</text><text x="78" y="240" class="ts">不生吃螺、蝦、蟹；摸蝸牛後用肥皂洗手</text>
+<rect x="374" y="251" width="14" height="10" rx="3" class="bw"/><text x="394" y="260" class="ts">感染期</text>
+<rect x="486" y="251" width="14" height="10" rx="3" class="bv"/><text x="506" y="260" class="ts">成蟲寄生處</text>
+<rect x="598" y="251" width="14" height="10" rx="3" class="br"/><text x="618" y="260" class="ts">致病／臨床</text>
+</svg>

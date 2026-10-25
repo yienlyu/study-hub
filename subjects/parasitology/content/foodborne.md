@@ -23,6 +23,8 @@
 - **治療**：及早用 **Mebendazole 或 Albendazole** 殺死成蟲、阻止繼續產幼蟲；幼蟲在骨骼肌定居後（感染後 3–4 週）可能無法完全清除。副作用：**骨髓抑制**，長期治療要追蹤 CBC；**孕婦與 2 歲以下兒童不建議使用**。嚴重時加**類固醇**。
 - **預防（USDA 溫度）**：整塊肉（不含禽肉與野味）**63 °C（145 °F）**；絞肉與所有野味 **71 °C（160 °F）**；禽肉 **74 °C（165 °F）**。
 
+<div data-fig="trichinella-cycle"></div>
+
 <div data-fig="slide-trichinella-cycle"></div>
 
 <div data-fig="slide-trichinella-larva"></div>
@@ -38,6 +40,8 @@
 - **診斷＝治療**：**取出蟲體並鑑定**。
 - 台灣病例：有錢人**生吞泥鰍**養生而感染；泰國廚師病例。
 
+<div data-fig="gnathostoma-cycle"></div>
+
 <div data-fig="slide-gnathostoma-cycle"></div>
 
 ## 3. 海獸胃線蟲 *Anisakis simplex* ⭐⭐⭐
@@ -49,6 +53,10 @@
   - 四大類型：**胃型（最常見，好發於胃體大彎）**、腸型、腸外型、**過敏型**。慢性通常無症狀。
 - **診斷與治療**：**胃鏡**看到並取出幼蟲；或手術切除組織做病理。**治療首選是內視鏡或手術取出**。
 - 范老師的研究：**Wasabi 殺不死幼蟲**（wasabi 醬約 26–42 分鐘才達 LD50），一般沾一下完全沒用。
+
+<div data-fig="anisakis-cycle"></div>
+
+<div data-fig="slide-anisakis-cycle"></div>
 
 <div data-fig="slide-anisakis"></div>
 
@@ -71,7 +79,11 @@
 - **治療**：**沒有公認有效的治療**；**不建議用驅蟲藥**（仍有爭議）。
 - 預防：教小朋友不要摸路上的蝸牛，摸到要用肥皂洗手。
 
+<div data-fig="acanton-cycle"></div>
+
 <div data-fig="slide-acanton-cycle"></div>
+
+<div data-fig="slide-acanton-hosts"></div>
 
 <div data-fig="slide-acanton-snail"></div>
 

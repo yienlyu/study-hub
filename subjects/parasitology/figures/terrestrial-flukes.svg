@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 848 376" role="img" aria-label="陸生吸蟲生活史：槍狀肝吸蟲的卵被陸螺吃進去，尾動幼蟲包在黏液球裡排出，被螞蟻吃下形成囊狀幼蟲，牛羊吃草時吃到螞蟻；人吃到螞蟻才是真感染，吃到病肝而在糞便見卵是假感染。胰臟吸蟲的第二中間宿主是蝗蟲，成蟲寄生在牛羊的胰管。">
+<defs><marker id="terrestrial-flukes-fg" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker><marker id="terrestrial-flukes-fk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="terrestrial-flukes-fr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker><marker id="terrestrial-flukes-fv" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<rect x="6" y="24" width="836" height="172" rx="14" class="fp"/>
+<text x="12" y="18" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">槍狀肝吸蟲 Dicrocoelium dendriticum</text>
+<rect x="6" y="220" width="836" height="74" rx="14" class="fp"/>
+<text x="12" y="214" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">胰臟吸蟲 Eurytrema pancreaticum</text>
+<path d="M156 61L182 61" class="ln" marker-end="url(#terrestrial-flukes-fk)"/>
+<path d="M326 61L352 61" class="ln" marker-end="url(#terrestrial-flukes-fk)"/>
+<path d="M496 61L522 61" class="ln" marker-end="url(#terrestrial-flukes-fk)"/>
+<path d="M666 61L692 61" class="ln" marker-end="url(#terrestrial-flukes-fk)"/>
+<path d="M764 90L764 130" class="ln dash" marker-end="url(#terrestrial-flukes-fk)"/>
+<path d="M156 257L182 257" class="ln" marker-end="url(#terrestrial-flukes-fk)"/>
+<path d="M326 257L352 257" class="ln" marker-end="url(#terrestrial-flukes-fk)"/>
+<path d="M496 257L522 257" class="ln" marker-end="url(#terrestrial-flukes-fk)"/>
+<path d="M666 257L692 257" class="ln" marker-end="url(#terrestrial-flukes-fk)"/>
+<g class="hot" data-tip="38–45 × 22–30 µm、深黃褐色、<b>不對稱</b>、卵蓋傾斜、殼厚、內含纖毛幼蟲（陸生吸蟲的卵要抗乾燥）。" data-label="卵隨糞便排出"><rect x="14" y="34" width="140" height="54" rx="10" class="bx"/><text x="84" y="56" text-anchor="middle" class="tb">卵隨糞便排出</text></g>
+<text x="84" y="75" text-anchor="middle" class="ts">殼厚、含纖毛幼蟲</text>
+<rect x="184" y="34" width="140" height="54" rx="10" class="bx"/><text x="254" y="56" text-anchor="middle" class="tb">1st IH：陸螺吃卵</text>
+<text x="254" y="75" text-anchor="middle" class="ts">沒有雷氏幼蟲</text>
+<rect x="354" y="34" width="140" height="54" rx="10" class="bx"/><text x="424" y="56" text-anchor="middle" class="tb">尾蚴包在黏液球排出</text>
+<text x="424" y="75" text-anchor="middle" class="ts">黏在草上</text>
+<g class="hot" data-tip="被感染的螞蟻晚上會爬到草尖、咬住不放，等著被吃草的牛羊吃掉。" data-label="2nd IH：螞蟻"><rect x="524" y="34" width="140" height="54" rx="10" class="bw"/><text x="594" y="56" text-anchor="middle" class="tb">2nd IH：螞蟻</text></g>
+<text x="594" y="75" text-anchor="middle" class="ts">囊狀幼蟲 · 感染期</text>
+<g class="hot" data-tip="成蟲細長如<b>槍頭</b>、睪丸在卵巢前；寄生在膽管。" data-label="牛羊吃到螞蟻"><rect x="694" y="34" width="140" height="54" rx="10" class="bv"/><text x="764" y="56" text-anchor="middle" class="tb">牛羊吃到螞蟻</text></g>
+<text x="764" y="75" text-anchor="middle" class="ts">成蟲在膽管</text>
+<rect x="694" y="132" width="140" height="54" rx="10" class="bx"/><text x="764" y="154" text-anchor="middle" class="tb">人：吃到螞蟻＝真感染</text>
+<text x="764" y="173" text-anchor="middle" class="ts">很少見</text>
+<g class="hot" data-tip="吃到被感染動物的肝，卵直接通過腸道 → <b>spurious infection</b>；要停吃肝臟幾天後重驗，或用膽汁找卵。" data-label="吃到病肝 → 糞便見卵"><rect x="524" y="132" width="140" height="54" rx="10" class="br"/><text x="594" y="154" text-anchor="middle" class="tb">吃到病肝 → 糞便見卵</text></g>
+<text x="594" y="173" text-anchor="middle" class="ts">假感染</text>
+<rect x="14" y="230" width="140" height="54" rx="10" class="bx"/><text x="84" y="252" text-anchor="middle" class="tb">卵隨糞便排出</text>
+<text x="84" y="271" text-anchor="middle" class="ts">殼厚、顏色深</text>
+<rect x="184" y="230" width="140" height="54" rx="10" class="bx"/><text x="254" y="252" text-anchor="middle" class="tb">1st IH：陸螺</text>
+<text x="254" y="271" text-anchor="middle" class="ts">蝸牛 Bradybaena</text>
+<rect x="354" y="230" width="140" height="54" rx="10" class="bx"/><text x="424" y="262" text-anchor="middle" class="tb">尾蚴附著在草上</text>
+<rect x="524" y="230" width="140" height="54" rx="10" class="bw"/><text x="594" y="252" text-anchor="middle" class="tb">2nd IH：蝗蟲</text>
+<text x="594" y="271" text-anchor="middle" class="ts">感染期</text>
+<g class="hot" data-tip="睪丸在卵巢前、子宮佔滿後半；人很少感染。" data-label="牛羊吃到蝗蟲"><rect x="694" y="230" width="140" height="54" rx="10" class="bv"/><text x="764" y="252" text-anchor="middle" class="tb">牛羊吃到蝗蟲</text></g>
+<text x="764" y="271" text-anchor="middle" class="ts">成蟲在胰管</text>
+<text x="14" y="318" class="th">記法</text><text x="78" y="318" class="ts">陸生吸蟲 = 陸螺 ＋ 昆蟲：槍狀肝吸蟲吃螞蟻、胰臟吸蟲吃蝗蟲</text>
+<text x="14" y="338" class="th">治療</text><text x="78" y="338" class="ts">Praziquantel</text>
+<rect x="504" y="349" width="14" height="10" rx="3" class="bw"/><text x="524" y="358" class="ts">感染期</text>
+<rect x="616" y="349" width="14" height="10" rx="3" class="bv"/><text x="636" y="358" class="ts">成蟲寄生處</text>
+<rect x="728" y="349" width="14" height="10" rx="3" class="br"/><text x="748" y="358" class="ts">致病／臨床</text>
+</svg>

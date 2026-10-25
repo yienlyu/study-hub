@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 718 238" role="img" aria-label="蟯蟲生活史：吃入感染性蟲卵，小腸孵化，在盲腸附近長成成蟲；懷孕雌蟲夜間爬到肛門周圍產卵，卵約 6 小時就有感染力，抓癢後經手到口自體再感染。人是唯一宿主。">
+<defs><marker id="enterobius-cycle-fg" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker><marker id="enterobius-cycle-fk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="enterobius-cycle-fr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker><marker id="enterobius-cycle-fv" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<rect x="6" y="24" width="526" height="74" rx="14" class="fp"/>
+<text x="12" y="18" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">腸道</text>
+<rect x="6" y="122" width="526" height="74" rx="14" class="fp"/>
+<text x="12" y="116" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">肛門周圍 · 手 · 寢具</text>
+<path d="M166 61L192 61" class="ln" marker-end="url(#enterobius-cycle-fk)"/>
+<path d="M346 61L372 61" class="ln" marker-end="url(#enterobius-cycle-fk)"/>
+<path d="M449 90L449 130" class="ln" marker-end="url(#enterobius-cycle-fk)"/>
+<text x="455" y="110" text-anchor="start" class="ts" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">夜間</text>
+<path d="M372 159L346 159" class="ln" marker-end="url(#enterobius-cycle-fk)"/>
+<path d="M192 159L166 159" class="ln" marker-end="url(#enterobius-cycle-fk)"/>
+<path d="M89 130L89 90" class="ln" marker-end="url(#enterobius-cycle-fk)"/>
+<path d="M526 159L552 159" class="ln dash" marker-end="url(#enterobius-cycle-fk)"/>
+<g class="hot" data-tip="卵沾在手指、指甲、寢具、衣物、灰塵上 → 吃進或吸入。人是<b>唯一宿主</b>，所以家人、同學之間很容易互相傳染。" data-label="吃入感染性卵"><rect x="14" y="34" width="150" height="54" rx="10" class="bw"/><text x="89" y="56" text-anchor="middle" class="tb">吃入感染性卵</text></g>
+<text x="89" y="75" text-anchor="middle" class="ts">手 → 口、灰塵</text>
+<rect x="194" y="34" width="150" height="54" rx="10" class="bx"/><text x="269" y="56" text-anchor="middle" class="tb">小腸孵化</text>
+<text x="269" y="75" text-anchor="middle" class="ts">往下移動</text>
+<g class="hot" data-tip="♀ 8–13 mm、♂ 2–5 mm；有<b>頸翼</b>與<b>食道球</b>。不經過肺。" data-label="盲腸附近成蟲"><rect x="374" y="34" width="150" height="54" rx="10" class="bv"/><text x="449" y="56" text-anchor="middle" class="tb">盲腸附近成蟲</text></g>
+<text x="449" y="75" text-anchor="middle" class="ts">♂ 交配後死亡</text>
+<g class="hot" data-tip="懷孕的雌蟲<b>晚上爬到肛門外</b>產卵 → <b>夜間肛門搔癢</b>、抓破續發感染；偶爾跑進女性生殖道或闌尾。" data-label="雌蟲夜間爬出產卵"><rect x="374" y="132" width="150" height="54" rx="10" class="br"/><text x="449" y="154" text-anchor="middle" class="tb">雌蟲夜間爬出產卵</text></g>
+<text x="449" y="173" text-anchor="middle" class="ts">肛門周圍</text>
+<g class="hot" data-tip="約 55 × 26 µm、<b>一側扁平一側凸</b>、透明，內有幼蟲。卵在肛門周圍孵出的幼蟲也可能<b>爬回肛門（retroinfection）</b>。" data-label="卵 6 小時有感染力"><rect x="194" y="132" width="150" height="54" rx="10" class="bx"/><text x="269" y="154" text-anchor="middle" class="tb">卵 6 小時有感染力</text></g>
+<text x="269" y="173" text-anchor="middle" class="ts">D 字形、不對稱</text>
+<g class="hot" data-tip="不需要土壤，直接手 → 口就能再感染，所以要<b>全家一起治療</b>、剪指甲、洗曬寢具。" data-label="抓癢 → 自體再感染"><rect x="14" y="132" width="150" height="54" rx="10" class="br"/><text x="89" y="154" text-anchor="middle" class="tb">抓癢 → 自體再感染</text></g>
+<text x="89" y="173" text-anchor="middle" class="ts">手指、指甲</text>
+<g class="hot" data-tip="<b>Scotch tape test</b>，準確率 > 90%。卵產在肛門外，<b>糞便找到卵的機會 < 5%</b> → 題目問糞便檢查不要選。" data-label="診斷：肛圍擦拭法"><rect x="554" y="132" width="150" height="54" rx="10" class="bp"/><text x="629" y="154" text-anchor="middle" class="tb">診斷：肛圍擦拭法</text></g>
+<text x="629" y="173" text-anchor="middle" class="ts">早上、排便洗澡前</text>
+<rect x="554" y="34" width="150" height="54" rx="10" class="bp"/><text x="629" y="56" text-anchor="middle" class="tb">Pyrantel pamoate</text>
+<text x="629" y="75" text-anchor="middle" class="ts">治療 · 全家一起吃</text>
+<rect x="374" y="211" width="14" height="10" rx="3" class="bw"/><text x="394" y="220" class="ts">感染期</text>
+<rect x="486" y="211" width="14" height="10" rx="3" class="bv"/><text x="506" y="220" class="ts">成蟲寄生處</text>
+<rect x="598" y="211" width="14" height="10" rx="3" class="br"/><text x="618" y="220" class="ts">致病／臨床</text>
+</svg>

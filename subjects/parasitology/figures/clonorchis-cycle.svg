@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 718 278" role="img" aria-label="中華肝吸蟲生活史：吃生的鯉科淡水魚，囊狀幼蟲在十二指腸脫囊，沿總膽管往上到肝內膽管長成成蟲。卵隨糞便排出，要被滿州泥螺吃進去才孵化，尾動幼蟲離開螺後鑽進淡水魚的魚鱗下或肌肉形成囊狀幼蟲。">
+<defs><marker id="clonorchis-cycle-fg" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker><marker id="clonorchis-cycle-fk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="clonorchis-cycle-fr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker><marker id="clonorchis-cycle-fv" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<rect x="6" y="24" width="706" height="74" rx="14" class="fp"/>
+<text x="12" y="18" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">人（貓、狗是保蟲宿主）</text>
+<rect x="6" y="122" width="526" height="74" rx="14" class="fp"/>
+<text x="12" y="116" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">淡水環境</text>
+<path d="M166 61L192 61" class="ln" marker-end="url(#clonorchis-cycle-fk)"/>
+<path d="M346 61L372 61" class="ln" marker-end="url(#clonorchis-cycle-fk)"/>
+<path d="M526 61L552 61" class="lr dash" marker-end="url(#clonorchis-cycle-fr)"/>
+<path d="M449 90L449 130" class="ln" marker-end="url(#clonorchis-cycle-fk)"/>
+<path d="M372 159L346 159" class="ln" marker-end="url(#clonorchis-cycle-fk)"/>
+<path d="M192 159L166 159" class="ln" marker-end="url(#clonorchis-cycle-fk)"/>
+<path d="M89 130L89 90" class="ln" marker-end="url(#clonorchis-cycle-fk)"/>
+<g class="hot" data-tip="2nd IH <b>鯉科淡水魚</b>（約 100 種）；生魚片、魚生粥。醃、燻、乾燥、冷凍不一定能殺死。" data-label="生吃鯉科淡水魚"><rect x="14" y="34" width="150" height="54" rx="10" class="bw"/><text x="89" y="56" text-anchor="middle" class="tb">生吃鯉科淡水魚</text></g>
+<text x="89" y="75" text-anchor="middle" class="ts">魚肉內囊狀幼蟲</text>
+<rect x="194" y="34" width="150" height="54" rx="10" class="bx"/><text x="269" y="56" text-anchor="middle" class="tb">十二指腸脫囊</text>
+<text x="269" y="75" text-anchor="middle" class="ts">沿總膽管上行</text>
+<g class="hot" data-tip="寄生在<b>膽管</b>（不是肝實質）；一天產 2400–4000 顆卵。三種後睪科肝吸蟲靠<b>睪丸</b>分：中華＝珊瑚狀。" data-label="肝內膽管成蟲"><rect x="374" y="34" width="150" height="54" rx="10" class="bv"/><text x="449" y="56" text-anchor="middle" class="tb">肝內膽管成蟲</text></g>
+<text x="449" y="75" text-anchor="middle" class="ts">可活 15 年以上</text>
+<g class="hot" data-tip="膽管增生、阻塞、膽結石；長期感染 → <b>膽管癌</b>。兒童時期感染 → 營養不良、<b>侏儒症</b>。" data-label="膽管炎、膽管癌"><rect x="554" y="34" width="150" height="54" rx="10" class="br"/><text x="629" y="56" text-anchor="middle" class="tb">膽管炎、膽管癌</text></g>
+<text x="629" y="75" text-anchor="middle" class="ts">兒童：侏儒症</text>
+<g class="hot" data-tip="約 30 × 16 µm，吸蟲卵最小之一；內有成熟纖毛幼蟲。和異形、橫川吸蟲卵很像 → 問飲食與旅遊史。" data-label="卵隨糞便排出"><rect x="374" y="132" width="150" height="54" rx="10" class="bx"/><text x="449" y="154" text-anchor="middle" class="tb">卵隨糞便排出</text></g>
+<text x="449" y="173" text-anchor="middle" class="ts">小、卵蓋有肩、後端小突起</text>
+<g class="hot" data-tip="卵<b>不在水中孵化</b>，要被<b>滿州泥螺</b>（<i>Parafossarulus manchouricus</i>）吃進去才孵出纖毛幼蟲。" data-label="1st IH：滿州泥螺"><rect x="194" y="132" width="150" height="54" rx="10" class="bx"/><text x="269" y="154" text-anchor="middle" class="tb">1st IH：滿州泥螺</text></g>
+<text x="269" y="173" text-anchor="middle" class="ts">螺吃卵後才孵化</text>
+<rect x="14" y="132" width="150" height="54" rx="10" class="bx"/><text x="89" y="154" text-anchor="middle" class="tb">尾動幼蟲鑽入魚</text>
+<text x="89" y="173" text-anchor="middle" class="ts">魚鱗下、肌肉</text>
+<g class="hot" data-tip="<i>Opisthorchis felineus</i>（貓）、<i>O. viverrini</i>（泰國）：睪丸是花狀（大而淺裂／小而深裂）。泰國肝吸蟲也是膽管癌的致癌物。" data-label="同科：貓肝、泰國肝"><rect x="554" y="132" width="150" height="54" rx="10" class="bp"/><text x="629" y="154" text-anchor="middle" class="tb">同科：貓肝、泰國肝</text></g>
+<text x="629" y="173" text-anchor="middle" class="ts">生活史相同</text>
+<text x="14" y="220" class="th">診斷</text><text x="78" y="220" class="ts">糞便或十二指腸液找卵</text>
+<text x="14" y="240" class="th">治療</text><text x="78" y="240" class="ts">Praziquantel</text>
+<rect x="374" y="251" width="14" height="10" rx="3" class="bw"/><text x="394" y="260" class="ts">感染期</text>
+<rect x="486" y="251" width="14" height="10" rx="3" class="bv"/><text x="506" y="260" class="ts">成蟲寄生處</text>
+<rect x="598" y="251" width="14" height="10" rx="3" class="br"/><text x="618" y="260" class="ts">致病／臨床</text>
+</svg>

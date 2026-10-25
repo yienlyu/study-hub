@@ -30,6 +30,8 @@
 
 <div data-fig="trematode-cycle"></div>
 
+<div data-fig="slide-trematode-stages"></div>
+
 <div data-fig="slide-trematode-ova"></div>
 
 ## 2. 腸吸蟲（Intestinal flukes）⭐⭐
@@ -44,6 +46,18 @@
 
 - **薑片蟲 vs 牛羊肝吸蟲**（兩隻大型吸蟲）：牛羊肝吸蟲有**明顯頭錐**、**腸道有許多側分支**、腹吸盤只比口吸盤稍大；薑片蟲頭錐不明顯、腸道不再分支。
 
+<div data-fig="intestinal-flukes"></div>
+
+<div data-fig="slide-fbuski-cycle"></div>
+
+<div data-fig="slide-heterophyid-cycle"></div>
+
+<div data-fig="slide-echinostoma-cycle"></div>
+
+<div data-fig="slide-gastrodiscoides-cycle"></div>
+
+<div data-fig="slide-eurytrema-cycle"></div>
+
 <div data-fig="slide-fbuski-egg"></div>
 
 ## 3. 肺吸蟲：衛氏肺吸蟲 *Paragonimus westermani* ⭐⭐⭐
@@ -54,6 +68,10 @@
 - 症狀**像結核病**：咳嗽、血痰、胸痛；痰中有蟲卵與 **Charcot-Leyden 結晶**；嗜酸性球上升。
 - 異位寄生：**腦部最嚴重**（佔位性病灶、癲癇），多發生在 30 歲以下。
 - 診斷：痰、糞便、胃液找蟲卵（卵蓋在較平的一端）；皮內試驗、ELISA；X 光常誤診為 TB。治療：Praziquantel（Bithionol 較差）。
+
+<div data-fig="paragonimus-cycle"></div>
+
+<div data-fig="slide-pw-cycle"></div>
 
 <div data-fig="slide-pw-egg"></div>
 
@@ -67,6 +85,18 @@
 | **牛羊肝吸蟲 *Fasciola hepatica***（巨型肝吸蟲 *F. gigantica*） | **汙染的水生植物** | 1st **椎實螺**；2nd 水生植物（**非必要**） | 保蟲宿主牛羊；囊蚴**穿腸壁 → 腹腔 → 穿肝被膜 → 肝實質移行 → 膽管**（急性期 traumatic hepatitis）；**Halzoun**（生吃動物肝）；肝外異位（皮下結節、肺膿瘍）；**PZQ 療效不佳 → Triclabendazole／Bithionol** |
 
 - 中華肝吸蟲：兒童時期感染 → 脾腫大、營養不良、**侏儒症**。診斷：糞便或十二指腸液找蟲卵，三種卵極相似，要問盛行區。
+
+<div data-fig="clonorchis-cycle"></div>
+
+<div data-fig="slide-cs-cycle"></div>
+
+<div data-fig="fasciola-cycle"></div>
+
+<div data-fig="slide-fasciola-cycle"></div>
+
+<div data-fig="terrestrial-flukes"></div>
+
+<div data-fig="slide-dicrocoelium-cycle"></div>
 
 <div data-fig="slide-cs-egg"></div>
 
@@ -82,6 +112,10 @@
 - **片山熱（Katayama fever）**：感染 1–3 個月後的急性期，免疫複合體沉積引起過敏。
 - **蟲卵造成肉芽腫**（主要致病原因）。
 - 治療：Praziquantel；Artemether；Oxamniquine（只針對曼森，效果差）。
+
+<div data-fig="schisto-cycle"></div>
+
+<div data-fig="slide-schisto-cycle"></div>
 
 <div data-fig="schisto-eggs"></div>
 

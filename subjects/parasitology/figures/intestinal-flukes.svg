@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 758 650" role="img" aria-label="腸吸蟲生活史比較：共同流程是卵隨糞便、纖毛幼蟲進入第一中間宿主螺、尾動幼蟲在第二中間宿主形成囊狀幼蟲、人吃入。薑片蟲：扁捲螺、水生植物、小腸。異形吸蟲與橫川吸蟲：淡水螺、淡水魚、小腸。棘口吸蟲：淡水螺、螺蛙魚與水生植物、小腸。人雙口吸蟲：淡水螺、水生植物、大腸。胰臟吸蟲：陸螺、蝗蟲、胰管。">
+<defs><marker id="intestinal-flukes-fg" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker><marker id="intestinal-flukes-fk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="intestinal-flukes-fr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker><marker id="intestinal-flukes-fv" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<rect x="6" y="24" width="746" height="74" rx="14" class="fp"/>
+<text x="12" y="18" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">共同流程</text>
+<rect x="6" y="122" width="746" height="466" rx="14" class="fp"/>
+<text x="12" y="116" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">各蟲比較：第一中間宿主 → 吃什麼得病 → 寄生部位 → 重點</text>
+<path d="M176 61L202 61" class="ln" marker-end="url(#intestinal-flukes-fk)"/>
+<path d="M366 61L392 61" class="ln" marker-end="url(#intestinal-flukes-fk)"/>
+<path d="M556 61L582 61" class="ln" marker-end="url(#intestinal-flukes-fk)"/>
+<path d="M176 159L202 159" class="lt" marker-end="url(#intestinal-flukes-fk)"/>
+<path d="M366 159L392 159" class="lt" marker-end="url(#intestinal-flukes-fk)"/>
+<path d="M556 159L582 159" class="lt" marker-end="url(#intestinal-flukes-fk)"/>
+<path d="M176 257L202 257" class="lt" marker-end="url(#intestinal-flukes-fk)"/>
+<path d="M366 257L392 257" class="lt" marker-end="url(#intestinal-flukes-fk)"/>
+<path d="M556 257L582 257" class="lt" marker-end="url(#intestinal-flukes-fk)"/>
+<path d="M176 355L202 355" class="lt" marker-end="url(#intestinal-flukes-fk)"/>
+<path d="M366 355L392 355" class="lt" marker-end="url(#intestinal-flukes-fk)"/>
+<path d="M556 355L582 355" class="lt" marker-end="url(#intestinal-flukes-fk)"/>
+<path d="M176 453L202 453" class="lt" marker-end="url(#intestinal-flukes-fk)"/>
+<path d="M366 453L392 453" class="lt" marker-end="url(#intestinal-flukes-fk)"/>
+<path d="M556 453L582 453" class="lt" marker-end="url(#intestinal-flukes-fk)"/>
+<path d="M176 551L202 551" class="lt" marker-end="url(#intestinal-flukes-fk)"/>
+<path d="M366 551L392 551" class="lt" marker-end="url(#intestinal-flukes-fk)"/>
+<path d="M556 551L582 551" class="lt" marker-end="url(#intestinal-flukes-fk)"/>
+<rect x="14" y="34" width="160" height="54" rx="10" class="bx"/><text x="94" y="56" text-anchor="middle" class="tb">卵隨糞便入水</text>
+<text x="94" y="75" text-anchor="middle" class="ts">有卵蓋</text>
+<rect x="204" y="34" width="160" height="54" rx="10" class="bx"/><text x="284" y="56" text-anchor="middle" class="tb">1st IH：螺</text>
+<text x="284" y="75" text-anchor="middle" class="ts">胞狀 → 雷氏 → 尾動幼蟲</text>
+<rect x="394" y="34" width="160" height="54" rx="10" class="bw"/><text x="474" y="56" text-anchor="middle" class="tb">2nd IH：囊狀幼蟲</text>
+<text x="474" y="75" text-anchor="middle" class="ts">感染期</text>
+<rect x="584" y="34" width="160" height="54" rx="10" class="bv"/><text x="664" y="66" text-anchor="middle" class="tb">人吃入 → 腸道成蟲</text>
+<rect x="14" y="132" width="160" height="54" rx="10" class="bp"/><text x="94" y="164" text-anchor="middle" class="tb">薑片蟲 F. buski</text>
+<g class="hot" data-tip="<i>Fasciolopsis buski</i>；1st IH <b>扁捲螺</b>（<i>Segmentina</i>、<i>Hippeutis</i>）。" data-label="扁捲螺"><rect x="204" y="132" width="160" height="54" rx="10" class="bx"/><text x="284" y="164" text-anchor="middle" class="tb">扁捲螺</text></g>
+<g class="hot" data-tip="<b>菱角、荸薺、筊白筍</b>：用牙齒剝皮時吃進表面的囊狀幼蟲；保蟲宿主<b>豬</b>（吃水生植物餵豬）。" data-label="水生植物"><rect x="394" y="132" width="160" height="54" rx="10" class="bw"/><text x="474" y="154" text-anchor="middle" class="tb">水生植物</text></g>
+<text x="474" y="173" text-anchor="middle" class="ts">感染來源</text>
+<g class="hot" data-tip="成蟲 3–7 cm，腹吸盤大；大量感染 → 腹痛、腸阻塞、<b>臉部水腫</b>。卵 130–140 µm，和牛羊肝吸蟲卵分不出來。" data-label="小腸"><rect x="584" y="132" width="160" height="54" rx="10" class="bv"/><text x="664" y="154" text-anchor="middle" class="tb">小腸</text></g>
+<text x="664" y="173" text-anchor="middle" class="ts">最大的吸蟲、最大的卵</text>
+<rect x="14" y="230" width="160" height="54" rx="10" class="bp"/><text x="94" y="262" text-anchor="middle" class="tb">異形・橫川吸蟲</text>
+<g class="hot" data-tip="<i>Metagonimus yokogawai</i>、<i>Heterophyes heterophyes</i>；1st IH 川蜷等淡水螺。" data-label="淡水螺"><rect x="204" y="230" width="160" height="54" rx="10" class="bx"/><text x="284" y="262" text-anchor="middle" class="tb">淡水螺</text></g>
+<g class="hot" data-tip="生吃<b>淡水魚</b>（香魚、烏魚），囊狀幼蟲在魚鱗下或肌肉裡。" data-label="淡水魚（鱗下）"><rect x="394" y="230" width="160" height="54" rx="10" class="bw"/><text x="474" y="252" text-anchor="middle" class="tb">淡水魚（鱗下）</text></g>
+<text x="474" y="271" text-anchor="middle" class="ts">感染來源</text>
+<g class="hot" data-tip="橫川：<b>腹吸盤偏右</b>、無生殖吸盤；異形：<b>多一個生殖吸盤</b>。蟲很小，卵經腸壁血管異位到<b>腦、心肌</b>。" data-label="小腸"><rect x="584" y="230" width="160" height="54" rx="10" class="bv"/><text x="664" y="252" text-anchor="middle" class="tb">小腸</text></g>
+<text x="664" y="271" text-anchor="middle" class="ts">最小；卵可異位到腦、心</text>
+<rect x="14" y="328" width="160" height="54" rx="10" class="bp"/><text x="94" y="360" text-anchor="middle" class="tb">棘口吸蟲</text>
+<g class="hot" data-tip="<i>Echinostoma ilocanum</i>；螺內有<b>兩代雷氏幼蟲</b>。" data-label="淡水螺"><rect x="204" y="328" width="160" height="54" rx="10" class="bx"/><text x="284" y="360" text-anchor="middle" class="tb">淡水螺</text></g>
+<g class="hot" data-tip="第二中間宿主要求不嚴格：尾蚴可以在雷氏幼蟲裡、原來的螺、其他螺、蛙、魚，甚至植物上結囊。" data-label="螺、蛙、魚、水生植物"><rect x="394" y="328" width="160" height="54" rx="10" class="bw"/><text x="474" y="350" text-anchor="middle" class="tb">螺、蛙、魚、水生植物</text></g>
+<text x="474" y="369" text-anchor="middle" class="ts">感染來源</text>
+<g class="hot" data-tip="頭端<b>馬蹄形頭冠＋兩列頭棘</b>；卵像薑片蟲卵，排出時常未成熟。" data-label="小腸"><rect x="584" y="328" width="160" height="54" rx="10" class="bv"/><text x="664" y="350" text-anchor="middle" class="tb">小腸</text></g>
+<text x="664" y="369" text-anchor="middle" class="ts">2nd IH 不挑；頭冠有棘</text>
+<rect x="14" y="426" width="160" height="54" rx="10" class="bp"/><text x="94" y="458" text-anchor="middle" class="tb">人雙口吸蟲</text>
+<g class="hot" data-tip="<i>Gastrodiscoides hominis</i>；印度阿薩姆最早發現。" data-label="淡水螺"><rect x="204" y="426" width="160" height="54" rx="10" class="bx"/><text x="284" y="458" text-anchor="middle" class="tb">淡水螺</text></g>
+<g class="hot" data-tip="生活史和薑片蟲相似：吃水生植物上的囊狀幼蟲。" data-label="水生植物"><rect x="394" y="426" width="160" height="54" rx="10" class="bw"/><text x="474" y="448" text-anchor="middle" class="tb">水生植物</text></g>
+<text x="474" y="467" text-anchor="middle" class="ts">感染來源</text>
+<g class="hot" data-tip="唯一寄生在<b>大腸</b>的；角錐形、後端大腹吸盤。治療 praziquantel。" data-label="大腸（盲腸）"><rect x="584" y="426" width="160" height="54" rx="10" class="bv"/><text x="664" y="448" text-anchor="middle" class="tb">大腸（盲腸）</text></g>
+<text x="664" y="467" text-anchor="middle" class="ts">角錐形；保蟲宿主豬、鹿</text>
+<rect x="14" y="524" width="160" height="54" rx="10" class="bp"/><text x="94" y="556" text-anchor="middle" class="tb">胰臟吸蟲</text>
+<g class="hot" data-tip="<i>Eurytrema pancreaticum</i>；1st IH 陸生蝸牛（<i>Bradybaena</i>）。" data-label="陸螺"><rect x="204" y="524" width="160" height="54" rx="10" class="bx"/><text x="284" y="556" text-anchor="middle" class="tb">陸螺</text></g>
+<g class="hot" data-tip="2nd IH <b>蝗蟲</b>；牛羊吃草時吃到，人很少感染。" data-label="蝗蟲"><rect x="394" y="524" width="160" height="54" rx="10" class="bw"/><text x="474" y="546" text-anchor="middle" class="tb">蝗蟲</text></g>
+<text x="474" y="565" text-anchor="middle" class="ts">感染來源</text>
+<g class="hot" data-tip="成蟲在<b>胰管</b>；陸生吸蟲的卵殼厚、顏色深（抗乾燥）。" data-label="胰管"><rect x="584" y="524" width="160" height="54" rx="10" class="bv"/><text x="664" y="546" text-anchor="middle" class="tb">胰管</text></g>
+<text x="664" y="565" text-anchor="middle" class="ts">陸生吸蟲；卵殼厚色深</text>
+<text x="14" y="612" class="th">治療</text><text x="78" y="612" class="ts">Praziquantel；診斷都是糞便找卵（棘口類的卵彼此很像）</text>
+<rect x="414" y="623" width="14" height="10" rx="3" class="bw"/><text x="434" y="632" class="ts">感染期</text>
+<rect x="526" y="623" width="14" height="10" rx="3" class="bv"/><text x="546" y="632" class="ts">成蟲寄生處</text>
+<rect x="638" y="623" width="14" height="10" rx="3" class="br"/><text x="658" y="632" class="ts">致病／臨床</text>
+</svg>

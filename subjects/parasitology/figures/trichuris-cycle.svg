@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 718 278" role="img" aria-label="鞭蟲生活史：吃入胚胎化蟲卵，在小腸孵化，幼蟲直接到盲腸、大腸長成成蟲，細長的前端埋進黏膜。不經過肺。卵隨糞便排出，在土壤中胚胎化。">
+<defs><marker id="trichuris-cycle-fg" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker><marker id="trichuris-cycle-fk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="trichuris-cycle-fr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker><marker id="trichuris-cycle-fv" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<rect x="6" y="24" width="166" height="172" rx="14" class="fp"/>
+<text x="12" y="18" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">土壤</text>
+<rect x="186" y="24" width="526" height="172" rx="14" class="fp"/>
+<text x="192" y="18" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">人體</text>
+<path d="M166 61L192 61" class="ln" marker-end="url(#trichuris-cycle-fk)"/>
+<text x="179" y="55" text-anchor="middle" class="ts" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">吃入</text>
+<path d="M346 61L372 61" class="ln" marker-end="url(#trichuris-cycle-fk)"/>
+<path d="M526 61L552 61" class="lr dash" marker-end="url(#trichuris-cycle-fr)"/>
+<path d="M449 90L449 130" class="ln" marker-end="url(#trichuris-cycle-fk)"/>
+<path d="M372 159L166 159" class="ln" marker-end="url(#trichuris-cycle-fk)"/>
+<path d="M89 130L89 90" class="ln" marker-end="url(#trichuris-cycle-fk)"/>
+<g class="hot" data-tip="卵在土壤中約 2–4 週胚胎化才有感染力。" data-label="胚胎化蟲卵"><rect x="14" y="34" width="150" height="54" rx="10" class="bw"/><text x="89" y="56" text-anchor="middle" class="tb">胚胎化蟲卵</text></g>
+<text x="89" y="75" text-anchor="middle" class="ts">感染期 · 吃入</text>
+<g class="hot" data-tip="和蛔蟲、鉤蟲不同，鞭蟲幼蟲<b>沒有心肺移行</b>，孵化後直接往下到大腸。" data-label="小腸孵化"><rect x="194" y="34" width="150" height="54" rx="10" class="bx"/><text x="269" y="56" text-anchor="middle" class="tb">小腸孵化</text></g>
+<text x="269" y="75" text-anchor="middle" class="ts">不經過肺</text>
+<g class="hot" data-tip="前細後粗，像鞭子；食道是一串 <b>stichocytes</b>（stichosome）。屬 Aphasmid nematode。" data-label="盲腸、大腸成蟲"><rect x="374" y="34" width="150" height="54" rx="10" class="bv"/><text x="449" y="56" text-anchor="middle" class="tb">盲腸、大腸成蟲</text></g>
+<text x="449" y="75" text-anchor="middle" class="ts">細長前端埋進黏膜</text>
+<g class="hot" data-tip="多數無症狀；大量感染（尤其幼童）→ 腹痛、腹瀉、<b>直腸脫垂</b>、生長遲緩。" data-label="直腸脫垂"><rect x="554" y="34" width="150" height="54" rx="10" class="br"/><text x="629" y="56" text-anchor="middle" class="tb">直腸脫垂</text></g>
+<text x="629" y="75" text-anchor="middle" class="ts">重度感染的幼童</text>
+<g class="hot" data-tip="50–54 × 22 µm、<b>桶狀</b>、兩端各一個透明的<b>極塞（polar plug）</b>、黃褐色；排出時<b>還沒胚胎化</b>。" data-label="卵隨糞便排出"><rect x="374" y="132" width="150" height="54" rx="10" class="bx"/><text x="449" y="154" text-anchor="middle" class="tb">卵隨糞便排出</text></g>
+<text x="449" y="173" text-anchor="middle" class="ts">桶狀、兩端極塞</text>
+<rect x="14" y="132" width="150" height="54" rx="10" class="bx"/><text x="89" y="154" text-anchor="middle" class="tb">土壤中胚胎化</text>
+<text x="89" y="173" text-anchor="middle" class="ts">約 2–4 週</text>
+<text x="14" y="220" class="th">診斷</text><text x="78" y="220" class="ts">糞便找蟲卵；輕度感染用濃縮法，Kato-Katz 定量</text>
+<text x="14" y="240" class="th">治療</text><text x="78" y="240" class="ts">Mebendazole 首選，Albendazole 替代</text>
+<rect x="374" y="251" width="14" height="10" rx="3" class="bw"/><text x="394" y="260" class="ts">感染期</text>
+<rect x="486" y="251" width="14" height="10" rx="3" class="bv"/><text x="506" y="260" class="ts">成蟲寄生處</text>
+<rect x="598" y="251" width="14" height="10" rx="3" class="br"/><text x="618" y="260" class="ts">致病／臨床</text>
+</svg>

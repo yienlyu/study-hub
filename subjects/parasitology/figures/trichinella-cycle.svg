@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 718 278" role="img" aria-label="旋毛蟲生活史：吃入肌肉中的被囊幼蟲，胃酸釋出幼蟲後在小腸長成成蟲；雌蟲約一週後直接產幼蟲，幼蟲經血流到橫紋肌形成包囊。同一隻宿主既是最終宿主也是中間宿主，要被下一隻動物吃掉才能繼續。">
+<defs><marker id="trichinella-cycle-fg" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker><marker id="trichinella-cycle-fk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="trichinella-cycle-fr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker><marker id="trichinella-cycle-fv" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<rect x="186" y="24" width="526" height="172" rx="14" class="fp"/>
+<text x="192" y="18" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">同一隻宿主 = 最終宿主 ＋ 中間宿主</text>
+<path d="M166 61L192 61" class="ln" marker-end="url(#trichinella-cycle-fk)"/>
+<path d="M346 61L372 61" class="ln" marker-end="url(#trichinella-cycle-fk)"/>
+<path d="M526 61L552 61" class="ln" marker-end="url(#trichinella-cycle-fk)"/>
+<path d="M629 90L629 130" class="ln" marker-end="url(#trichinella-cycle-fk)"/>
+<path d="M552 159L346 159" class="ln" marker-end="url(#trichinella-cycle-fk)"/>
+<path d="M192 159L99 159Q89 159 89 149L89 90" class="ln" marker-end="url(#trichinella-cycle-fk)"/>
+<g class="hot" data-tip="生的或沒煮熟的<b>豬肉、野味（熊、野豬）</b>。被囊幼蟲同時是<b>感染期也是診斷期</b>。" data-label="吃入肌肉被囊幼蟲"><rect x="14" y="34" width="150" height="54" rx="10" class="bw"/><text x="89" y="56" text-anchor="middle" class="tb">吃入肌肉被囊幼蟲</text></g>
+<text x="89" y="75" text-anchor="middle" class="ts">感染期</text>
+<g class="hot" data-tip="胃酸與 pepsin 釋出幼蟲 → 鑽進小腸黏膜長成成蟲（♀ 2.2 mm、♂ 1.2 mm）。腸道期：腹瀉、腹痛、嘔吐。" data-label="小腸成蟲"><rect x="194" y="34" width="150" height="54" rx="10" class="bv"/><text x="269" y="56" text-anchor="middle" class="tb">小腸成蟲</text></g>
+<text x="269" y="75" text-anchor="middle" class="ts">約活 4 週</text>
+<g class="hot" data-tip="胎生（larviparous）：產的是<b>新生幼蟲</b>，所以糞便找不到卵。" data-label="雌蟲直接產幼蟲"><rect x="374" y="34" width="150" height="54" rx="10" class="bx"/><text x="449" y="56" text-anchor="middle" class="tb">雌蟲直接產幼蟲</text></g>
+<text x="449" y="75" text-anchor="middle" class="ts">不是卵 · 約 1 週後</text>
+<g class="hot" data-tip="<b>眼眶周圍與臉部水腫</b>、發燒、<b>肌肉痛</b>、<b>指甲下裂片狀出血</b>、嗜酸性球增多；嚴重時<b>心肌炎</b>、腦炎。" data-label="血流 → 橫紋肌"><rect x="554" y="34" width="150" height="54" rx="10" class="br"/><text x="629" y="56" text-anchor="middle" class="tb">血流 → 橫紋肌</text></g>
+<text x="629" y="75" text-anchor="middle" class="ts">肌肉期症狀</text>
+<g class="hot" data-tip="幼蟲捲在 nurse cell 裡，可存活好幾年。<i>T. pseudospiralis</i> 不形成包囊。<b>確診：肌肉切片</b>。" data-label="肌肉被囊幼蟲"><rect x="554" y="132" width="150" height="54" rx="10" class="bw"/><text x="629" y="154" text-anchor="middle" class="tb">肌肉被囊幼蟲</text></g>
+<text x="629" y="173" text-anchor="middle" class="ts">nurse cell · 活數年</text>
+<g class="hot" data-tip="<b>鼠</b>維持流行；豬、熊等雜食或肉食動物吃到被感染的鼠或肉。人是意外感染，吃人的動物很少，所以人是死路。" data-label="被下一隻動物吃掉"><rect x="194" y="132" width="150" height="54" rx="10" class="bx"/><text x="269" y="154" text-anchor="middle" class="tb">被下一隻動物吃掉</text></g>
+<text x="269" y="173" text-anchor="middle" class="ts">人通常是終點</text>
+<text x="14" y="220" class="th">診斷</text><text x="78" y="220" class="ts">臨床 ＋ 嗜酸性球增多 → 抗體、肌肉切片</text>
+<text x="14" y="240" class="th">治療</text><text x="78" y="240" class="ts">Albendazole／Mebendazole（早用）＋ 類固醇；預防：豬肉煮到 71 °C</text>
+<rect x="374" y="251" width="14" height="10" rx="3" class="bw"/><text x="394" y="260" class="ts">感染期</text>
+<rect x="486" y="251" width="14" height="10" rx="3" class="bv"/><text x="506" y="260" class="ts">成蟲寄生處</text>
+<rect x="598" y="251" width="14" height="10" rx="3" class="br"/><text x="618" y="260" class="ts">致病／臨床</text>
+</svg>

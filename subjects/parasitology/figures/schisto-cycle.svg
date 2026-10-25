@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 798 336" role="img" aria-label="血吸蟲生活史：尾動幼蟲在水中直接鑽入皮膚，變成童蟲經血流、肺到肝門脈發育，雌雄成蟲合抱移到各自的靜脈叢產卵，卵穿過腸壁或膀胱壁隨糞便或尿液排出，卡在組織的卵造成肉芽腫。卵在水中孵出纖毛幼蟲進入螺，經兩代胞狀幼蟲產生尾動幼蟲。只有一個中間宿主，沒有雷氏幼蟲和囊狀幼蟲。">
+<defs><marker id="schisto-cycle-fg" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker><marker id="schisto-cycle-fk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="schisto-cycle-fr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker><marker id="schisto-cycle-fv" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<rect x="6" y="24" width="786" height="74" rx="14" class="fp"/>
+<text x="12" y="18" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">人</text>
+<rect x="6" y="122" width="586" height="74" rx="14" class="fp"/>
+<text x="12" y="116" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">淡水環境（只有一個中間宿主）</text>
+<path d="M186 61L212 61" class="ln" marker-end="url(#schisto-cycle-fk)"/>
+<path d="M386 61L412 61" class="ln" marker-end="url(#schisto-cycle-fk)"/>
+<path d="M586 61L612 61" class="lr dash" marker-end="url(#schisto-cycle-fr)"/>
+<path d="M499 90L499 130" class="ln" marker-end="url(#schisto-cycle-fk)"/>
+<path d="M412 159L386 159" class="ln" marker-end="url(#schisto-cycle-fk)"/>
+<path d="M212 159L186 159" class="ln" marker-end="url(#schisto-cycle-fk)"/>
+<path d="M99 130L99 90" class="ln" marker-end="url(#schisto-cycle-fk)"/>
+<g class="hot" data-tip="下水、游泳、赤腳時，尾動幼蟲<b>直接鑽皮膚</b>（不是吃進去）→ 尾動幼蟲皮膚炎。水鳥血吸蟲 → <b>swimmer&#x27;s itch</b>。" data-label="尾動幼蟲鑽皮膚"><rect x="14" y="34" width="170" height="54" rx="10" class="bw"/><text x="99" y="56" text-anchor="middle" class="tb">尾動幼蟲鑽皮膚</text></g>
+<text x="99" y="75" text-anchor="middle" class="ts">尾分叉 · 感染期</text>
+<g class="hot" data-tip="尾巴脫落變成<b>童蟲（schistosomulum）</b>，經血流、肺到肝門脈發育。感染 1–3 個月後<b>片山熱（Katayama fever）</b>：免疫複合體引起的發燒、過敏。" data-label="童蟲 → 血流 → 肝門脈"><rect x="214" y="34" width="170" height="54" rx="10" class="bx"/><text x="299" y="56" text-anchor="middle" class="tb">童蟲 → 血流 → 肝門脈</text></g>
+<text x="299" y="75" text-anchor="middle" class="ts">片山熱（急性期）</text>
+<g class="hot" data-tip="唯一<b>雌雄異體</b>的吸蟲。日本：<b>上</b>腸繫膜靜脈；曼森：<b>下</b>腸繫膜靜脈；埃及：<b>膀胱</b>靜脈叢。" data-label="雌雄合抱 → 靜脈叢產卵"><rect x="414" y="34" width="170" height="54" rx="10" class="bv"/><text x="499" y="56" text-anchor="middle" class="tb">雌雄合抱 → 靜脈叢產卵</text></g>
+<text x="499" y="75" text-anchor="middle" class="ts">雌蟲躺在抱雌溝</text>
+<g class="hot" data-tip="卵（不是成蟲）是致病主因：肝 → 門脈周圍纖維化、<b>門脈高壓</b>、肝脾腫大；埃及 → <b>血尿</b>、膀胱癌。日本血吸蟲卵可到腦。" data-label="卵卡組織 → 肉芽腫"><rect x="614" y="34" width="170" height="54" rx="10" class="br"/><text x="699" y="56" text-anchor="middle" class="tb">卵卡組織 → 肉芽腫</text></g>
+<text x="699" y="75" text-anchor="middle" class="ts">主要致病原因</text>
+<g class="hot" data-tip="三種都<b>沒有卵蓋</b>，看刺的位置分種。" data-label="卵隨糞便或尿液"><rect x="414" y="132" width="170" height="54" rx="10" class="bx"/><text x="499" y="154" text-anchor="middle" class="tb">卵隨糞便或尿液</text></g>
+<text x="499" y="173" text-anchor="middle" class="ts">沒有卵蓋</text>
+<rect x="214" y="132" width="170" height="54" rx="10" class="bx"/><text x="299" y="154" text-anchor="middle" class="tb">水中孵出纖毛幼蟲</text>
+<text x="299" y="173" text-anchor="middle" class="ts">毛蚴孵化法</text>
+<g class="hot" data-tip="<b>例外</b>：只需要一個中間宿主；螺內是母胞蚴 → 子胞蚴 → 尾蚴，<b>沒有雷氏幼蟲</b>；尾蚴不結囊、直接鑽皮膚。" data-label="螺：兩代胞狀幼蟲"><rect x="14" y="132" width="170" height="54" rx="10" class="bx"/><text x="99" y="154" text-anchor="middle" class="tb">螺：兩代胞狀幼蟲</text></g>
+<text x="99" y="173" text-anchor="middle" class="ts">無雷氏、無囊狀幼蟲</text>
+<g class="hot" data-tip="中間宿主<b>湖北釘螺 <i>Oncomelania</i></b>；卵圓、側邊小刺常看不到；產卵量最多。" data-label="日本 S. japonicum"><rect x="14" y="230" width="170" height="54" rx="10" class="bp"/><text x="99" y="252" text-anchor="middle" class="tb">日本 S. japonicum</text></g>
+<text x="99" y="271" text-anchor="middle" class="ts">湖北釘螺 · 側小刺 · 糞便</text>
+<g class="hot" data-tip="中間宿主 <b><i>Biomphalaria</i></b>；卵後端旁有<b>大側刺</b>。Oxamniquine 只對曼森有效。" data-label="曼森 S. mansoni"><rect x="214" y="230" width="170" height="54" rx="10" class="bp"/><text x="299" y="252" text-anchor="middle" class="tb">曼森 S. mansoni</text></g>
+<text x="299" y="271" text-anchor="middle" class="ts">雙臍扁螺 · 大側刺 · 糞便</text>
+<g class="hot" data-tip="中間宿主 <b><i>Bulinus</i></b>；卵有<b>尾端刺</b>，在<b>尿液</b>找；中午前後採尿。" data-label="埃及 S. haematobium"><rect x="414" y="230" width="170" height="54" rx="10" class="bp"/><text x="499" y="252" text-anchor="middle" class="tb">埃及 S. haematobium</text></g>
+<text x="499" y="271" text-anchor="middle" class="ts">小泡螺 · 尾端刺 · 尿液</text>
+<rect x="614" y="230" width="170" height="54" rx="10" class="bp"/><text x="699" y="252" text-anchor="middle" class="tb">治療：Praziquantel</text>
+<text x="699" y="271" text-anchor="middle" class="ts">Artemether 殺童蟲</text>
+<rect x="454" y="309" width="14" height="10" rx="3" class="bw"/><text x="474" y="318" class="ts">感染期</text>
+<rect x="566" y="309" width="14" height="10" rx="3" class="bv"/><text x="586" y="318" class="ts">成蟲寄生處</text>
+<rect x="678" y="309" width="14" height="10" rx="3" class="br"/><text x="698" y="318" class="ts">致病／臨床</text>
+</svg>

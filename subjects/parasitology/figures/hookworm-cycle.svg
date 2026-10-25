@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 718 278" role="img" aria-label="鉤蟲生活史：卵隨糞便排出，在土壤孵出桿狀幼蟲，再發育成有鞘的絲狀幼蟲（感染期），赤腳時鑽入皮膚，經血流到肺、氣管被吞下，在小腸長成成蟲咬住腸壁吸血，造成缺鐵性貧血。">
+<defs><marker id="hookworm-cycle-fg" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker><marker id="hookworm-cycle-fk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="hookworm-cycle-fr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker><marker id="hookworm-cycle-fv" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<rect x="6" y="24" width="706" height="74" rx="14" class="fp"/>
+<text x="12" y="18" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">人體</text>
+<rect x="6" y="122" width="706" height="74" rx="14" class="fp"/>
+<text x="12" y="116" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">土壤</text>
+<path d="M166 61L192 61" class="ln" marker-end="url(#hookworm-cycle-fk)"/>
+<path d="M346 61L372 61" class="ln" marker-end="url(#hookworm-cycle-fk)"/>
+<path d="M526 61L552 61" class="lr dash" marker-end="url(#hookworm-cycle-fr)"/>
+<path d="M449 90L449 130" class="ln" marker-end="url(#hookworm-cycle-fk)"/>
+<path d="M372 159L346 159" class="ln" marker-end="url(#hookworm-cycle-fk)"/>
+<path d="M192 159L166 159" class="ln" marker-end="url(#hookworm-cycle-fk)"/>
+<path d="M89 130L89 90" class="ln" marker-end="url(#hookworm-cycle-fk)"/>
+<text x="95" y="110" text-anchor="start" class="ts" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">赤腳</text>
+<g class="hot" data-tip="L3 鑽入皮膚處搔癢起疹 → <b>ground itch</b>。動物鉤蟲（巴西鉤蟲）只會在皮下亂鑽 → <b>皮膚幼蟲移行症（CLM）</b>。" data-label="鑽皮膚"><rect x="14" y="34" width="150" height="54" rx="10" class="br"/><text x="89" y="56" text-anchor="middle" class="tb">鑽皮膚</text></g>
+<text x="89" y="75" text-anchor="middle" class="ts">ground itch</text>
+<g class="hot" data-tip="和蛔蟲一樣經過肺，可有咳嗽、Loeffler 樣症狀。" data-label="血流 → 肺 → 吞下"><rect x="194" y="34" width="150" height="54" rx="10" class="bx"/><text x="269" y="56" text-anchor="middle" class="tb">血流 → 肺 → 吞下</text></g>
+<text x="269" y="75" text-anchor="middle" class="ts">心肺移行</text>
+<g class="hot" data-tip="十二指腸鉤蟲：<b>2 對牙齒</b>、雌蟲有尾刺；美洲鉤蟲：<b>一對切板</b>。可有<b>發育停滯（hypobiosis）</b>，潛伏期拉長。" data-label="小腸成蟲"><rect x="374" y="34" width="150" height="54" rx="10" class="bv"/><text x="449" y="56" text-anchor="middle" class="tb">小腸成蟲</text></g>
+<text x="449" y="75" text-anchor="middle" class="ts">咬住腸壁吸血</text>
+<g class="hot" data-tip="成蟲咬住腸壁造成慢性失血 → <b>缺鐵性貧血</b>（最常見）、異食癖，嚴重時心臟併發症。" data-label="缺鐵性貧血"><rect x="554" y="34" width="150" height="54" rx="10" class="br"/><text x="629" y="56" text-anchor="middle" class="tb">缺鐵性貧血</text></g>
+<text x="629" y="75" text-anchor="middle" class="ts">異食癖（pica）</text>
+<g class="hot" data-tip="56–76 × 36–40 µm、<b>殼很薄、透明</b>；各種鉤蟲卵分不出來，跑台寫 hookworm 即可。" data-label="卵隨糞便排出"><rect x="374" y="132" width="150" height="54" rx="10" class="bx"/><text x="449" y="154" text-anchor="middle" class="tb">卵隨糞便排出</text></g>
+<text x="449" y="173" text-anchor="middle" class="ts">薄殼、內有分裂細胞</text>
+<rect x="194" y="132" width="150" height="54" rx="10" class="bx"/><text x="269" y="154" text-anchor="middle" class="tb">桿狀幼蟲 L1</text>
+<text x="269" y="173" text-anchor="middle" class="ts">土壤孵化</text>
+<g class="hot" data-tip="<b>絲狀幼蟲（filariform）</b>是感染期，赤腳踩到潮濕土壤時鑽入皮膚。<b>十二指腸鉤蟲也可以經口感染</b>。" data-label="絲狀幼蟲 L3"><rect x="14" y="132" width="150" height="54" rx="10" class="bw"/><text x="89" y="154" text-anchor="middle" class="tb">絲狀幼蟲 L3</text></g>
+<text x="89" y="173" text-anchor="middle" class="ts">有鞘 · 感染期</text>
+<text x="14" y="220" class="th">診斷</text><text x="78" y="220" class="ts">糞便找蟲卵；洋菜平板的爬行痕跡要 3–5 天、不規則</text>
+<text x="14" y="240" class="th">治療</text><text x="78" y="240" class="ts">Albendazole；Mebendazole、pyrantel pamoate</text>
+<rect x="374" y="251" width="14" height="10" rx="3" class="bw"/><text x="394" y="260" class="ts">感染期</text>
+<rect x="486" y="251" width="14" height="10" rx="3" class="bv"/><text x="506" y="260" class="ts">成蟲寄生處</text>
+<rect x="598" y="251" width="14" height="10" rx="3" class="br"/><text x="618" y="260" class="ts">致病／臨床</text>
+</svg>

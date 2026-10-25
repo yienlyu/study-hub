@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 718 376" role="img" aria-label="蛔蟲生活史：吃入胚胎化蟲卵，小腸孵化後幼蟲穿腸壁經門脈到肝、右心、肺，穿入肺泡後經氣管被吞下，回到小腸長成成蟲；成蟲產的受精卵隨糞便排出，在土壤中胚胎化才有感染力。">
+<defs><marker id="ascaris-cycle-fg" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker><marker id="ascaris-cycle-fk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="ascaris-cycle-fr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker><marker id="ascaris-cycle-fv" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<rect x="6" y="24" width="166" height="172" rx="14" class="fp"/>
+<text x="12" y="18" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">土壤</text>
+<rect x="186" y="24" width="526" height="270" rx="14" class="fp"/>
+<text x="192" y="18" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">人體</text>
+<path d="M89 130L89 90" class="ln" marker-end="url(#ascaris-cycle-fk)"/>
+<text x="95" y="110" text-anchor="start" class="ts" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">土壤 2–3 週</text>
+<path d="M166 61L192 61" class="ln" marker-end="url(#ascaris-cycle-fk)"/>
+<text x="179" y="55" text-anchor="middle" class="ts" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">吃入</text>
+<path d="M346 61L372 61" class="ln" marker-end="url(#ascaris-cycle-fk)"/>
+<path d="M526 61L552 61" class="ln" marker-end="url(#ascaris-cycle-fk)"/>
+<path d="M629 90L629 149Q629 159 619 159L526 159" class="ln" marker-end="url(#ascaris-cycle-fk)"/>
+<path d="M372 159L346 159" class="ln" marker-end="url(#ascaris-cycle-fk)"/>
+<path d="M192 159L166 159" class="ln" marker-end="url(#ascaris-cycle-fk)"/>
+<path d="M269 188L269 228" class="lr dash" marker-end="url(#ascaris-cycle-fr)"/>
+<g class="hot" data-tip="卵在<b>土壤</b>裡約 2–3 週才發育出幼蟲，這時才有感染力；剛排出的卵不會直接傳染（和蟯蟲不同）。來源：被糞便汙染的蔬菜、水、手。" data-label="胚胎化蟲卵"><rect x="14" y="34" width="150" height="54" rx="10" class="bw"/><text x="89" y="56" text-anchor="middle" class="tb">胚胎化蟲卵</text></g>
+<text x="89" y="75" text-anchor="middle" class="ts">感染期 · 吃入</text>
+<g class="hot" data-tip="幼蟲在小腸孵出後鑽進腸壁，進入門脈循環。" data-label="小腸孵化"><rect x="194" y="34" width="150" height="54" rx="10" class="bx"/><text x="269" y="56" text-anchor="middle" class="tb">小腸孵化</text></g>
+<text x="269" y="75" text-anchor="middle" class="ts">幼蟲穿過腸壁</text>
+<rect x="374" y="34" width="150" height="54" rx="10" class="bx"/><text x="449" y="56" text-anchor="middle" class="tb">門脈 → 肝 → 右心</text>
+<text x="449" y="75" text-anchor="middle" class="ts">血流移行</text>
+<g class="hot" data-tip="感染後 4 天到 2 週，幼蟲從肺微血管穿進肺泡 → 發燒、咳嗽、<b>血痰</b>、<b>嗜酸性球增多</b>，即 <b>Loeffler syndrome</b>。蛔蟲、鉤蟲、糞小桿線蟲都會經過肺。" data-label="肺：穿入肺泡"><rect x="554" y="34" width="150" height="54" rx="10" class="br"/><text x="629" y="56" text-anchor="middle" class="tb">肺：穿入肺泡</text></g>
+<text x="629" y="75" text-anchor="middle" class="ts">Ascaris pneumonia</text>
+<rect x="374" y="132" width="150" height="54" rx="10" class="bx"/><text x="449" y="154" text-anchor="middle" class="tb">氣管 → 咽 → 吞下</text>
+<text x="449" y="173" text-anchor="middle" class="ts">回到小腸</text>
+<g class="hot" data-tip="雌蟲 20–35 cm、雄蟲尾端捲曲。吃到卵後約 2–3 個月開始產卵，一天可產約 20 萬顆。" data-label="小腸成蟲"><rect x="194" y="132" width="150" height="54" rx="10" class="bv"/><text x="269" y="154" text-anchor="middle" class="tb">小腸成蟲</text></g>
+<text x="269" y="173" text-anchor="middle" class="ts">最大的腸道線蟲</text>
+<g class="hot" data-tip="<b>受精卵</b>約 60 × 45 µm、厚殼、外有凹凸的<b>蛋白質外套膜</b>；<b>未受精卵</b>約 90 × 40 µm、較長、殼薄。<b>診斷：糞便找蟲卵</b>。" data-label="卵隨糞便排出"><rect x="14" y="132" width="150" height="54" rx="10" class="bx"/><text x="89" y="154" text-anchor="middle" class="tb">卵隨糞便排出</text></g>
+<text x="89" y="173" text-anchor="middle" class="ts">受精卵／未受精卵</text>
+<g class="hot" data-tip="大量感染 → <b>腸阻塞</b>（兒童常見）。成蟲<b>異位移行</b>到膽管、胰管、膽囊、肝，或往上爬到食道。" data-label="腸阻塞、異位移行"><rect x="194" y="230" width="150" height="54" rx="10" class="br"/><text x="269" y="252" text-anchor="middle" class="tb">腸阻塞、異位移行</text></g>
+<text x="269" y="271" text-anchor="middle" class="ts">兒童腸阻塞；鑽膽管、胰管</text>
+<text x="14" y="318" class="th">診斷</text><text x="78" y="318" class="ts">糞便找蟲卵（最常用）</text>
+<text x="14" y="338" class="th">治療</text><text x="78" y="338" class="ts">Albendazole（結合 β-tubulin）、Mebendazole 或 Ivermectin</text>
+<rect x="374" y="349" width="14" height="10" rx="3" class="bw"/><text x="394" y="358" class="ts">感染期</text>
+<rect x="486" y="349" width="14" height="10" rx="3" class="bv"/><text x="506" y="358" class="ts">成蟲寄生處</text>
+<rect x="598" y="349" width="14" height="10" rx="3" class="br"/><text x="618" y="358" class="ts">致病／臨床</text>
+</svg>

@@ -6,6 +6,9 @@
 - 吸蟲實驗.pdf：實驗課「吸蟲實驗」ppt 另存的 PDF（整頁）
 - Mixed ova 圖譜.pdf：原色等比蟲卵圖譜，裁成線蟲、吸蟲兩塊
 - 上課 pptx：直接取出投影片裡的 CDC 生活史圖（ppt/media）
+- 上課 deck 的 PDF（PowerPoint 另存）：生活史圖多是 EMF 向量圖，取不出來，改從 PDF 整頁裁切；
+  for2h-1／for2h-2 是吸蟲的舊版 .ppt，也一樣另存 PDF
+手繪生活史觀念圖由 tools/build_para_cycles.py 產生，要先跑那支。
 手繪 SVG 放在 subjects/parasitology/figures/<id>.svg，這裡只寫說明。
 需要 pymupdf 與 Pillow。執行：python3 tools/build_para_figures.py（在 repo 根目錄）
 """
@@ -23,7 +26,11 @@ LAB = "吸蟲實驗.pdf"  # 實驗課「吸蟲實驗」.ppt 用 PowerPoint 另�
 P0907 = "20260907-北醫醫學系-M2-Introduction_  STHs_ Toxocara canis_ Enterobius vermicularis.pptx"
 P0914 = "20260914-北醫醫學系-M2-Capillaria_ Strongyloides stercoralis_ Foodborne Nematodes.pptx"
 P0922 = "20250922-M2-Trichinella_ Anisakis_ Angiostrongylus cantonensis_ Filaria.pptx"
-DECK = {LAB: "吸蟲實驗（實驗課 slides）", NEM: "線蟲圖譜（1 線蟲圖檔）", TRE: "吸蟲圖譜（2 吸蟲圖檔）", MIX: "人體常見寄生蟲蟲卵原色等比圖譜",
+D0907, D0914, D0922 = (x.replace(".pptx", ".pdf") for x in (P0907, P0914, P0922))
+F1, F2 = "for2h-1.pdf", "for2h-2.pdf"  # 鄭柏青吸蟲 slides（.ppt 另存 PDF）
+DECK = {D0907: "0907 Introduction、STHs、Toxocara、Enterobius", D0914: "0914 Capillaria、Strongyloides、Foodborne nematodes",
+        D0922: "0922 Trichinella、Anisakis、A. cantonensis、Filaria", F1: "吸蟲 for2h-1（鄭柏青）", F2: "吸蟲 for2h-2（鄭柏青）",
+        LAB: "吸蟲實驗（實驗課 slides）", NEM: "線蟲圖譜（1 線蟲圖檔）", TRE: "吸蟲圖譜（2 吸蟲圖檔）", MIX: "人體常見寄生蟲蟲卵原色等比圖譜",
         P0914: "0914 Capillaria、Strongyloides、Foodborne nematodes", P0922: "0922 Trichinella、Anisakis、A. cantonensis、Filaria"}
 
 
@@ -46,6 +53,15 @@ def pdf_crop(pdf, page, box=(0, 0, 1, 0.93)):
     return Image.open(io.BytesIO(pix.tobytes("png")))
 
 
+def trim(im, pad=16):
+    """切掉四周的白邊"""
+    g = im.convert("L").point(lambda v: 255 if v < 245 else 0)
+    bb = g.getbbox()
+    if not bb:
+        return im
+    return im.crop((max(bb[0] - pad, 0), max(bb[1] - pad, 0), min(bb[2] + pad, im.width), min(bb[3] + pad, im.height)))
+
+
 def pptx_media(pptx, media):
     with zipfile.ZipFile(f"{SRC}/{pptx}") as z:
         return Image.open(io.BytesIO(z.read(f"ppt/media/{media}")))
@@ -59,6 +75,8 @@ def svg(id, ch, title, topics, kw, cap):
 def slide(id, ch, title, topics, kw, cap, src, page, box=None, media=None):
     name = id.removeprefix("slide-")
     im = pptx_media(src, media) if media else pdf_crop(src, page, box or (0, 0, 1, 0.93))
+    if src in (D0907, D0914, D0922, F1, F2):
+        im = trim(im)
     w, h = save(im, name)
     return dict(id=id, chapter=ch, title=title, topics=topics, keywords=kw, caption=cap,
                 type="slide", src=f"figures/slides/{name}.webp", deck=DECK[src], page=str(page), w=w, h=h)
@@ -87,6 +105,21 @@ F = [
        "Necator americanus cutting plates buccal capsule", "<em>Necator americanus</em> 口囊是<strong>切板（cutting plates）</strong>；十二指腸鉤蟲則是兩對牙齒。", NEM, 16),
  slide("slide-duodenale-mouth", "sth", "十二指腸鉤蟲口囊：兩對牙齒", ["鉤蟲"],
        "Ancylostoma duodenale teeth buccal capsule", "<em>Ancylostoma duodenale</em>：<strong>兩對大小相近的牙齒</strong>；雌蟲尾端有尾刺。", NEM, 19),
+ svg("ascaris-cycle", "sth", "蛔蟲生活史：吃卵 → 肝 → 肺 → 吞下 → 小腸", ["蛔蟲", "生活史"],
+     "Ascaris lumbricoides life cycle embryonated egg soil lung migration Loeffler intestinal obstruction",
+     "卵要在<strong>土壤</strong>胚胎化 2–3 週才有感染力；吃入後幼蟲走<strong>門脈 → 肝 → 右心 → 肺</strong>，穿入肺泡後經氣管被吞下，回小腸長成成蟲。肺移行 → Loeffler；成蟲 → 腸阻塞、異位移行。"),
+ slide("slide-ascaris-cycle", "sth", "蛔蟲生活史（Lancet 2018）", ["蛔蟲", "生活史"],
+       "Ascaris life cycle Lancet fertilised unfertilised egg Loeffler", "左邊是診斷期（受精卵／未受精卵），右邊是臨床：肺移行造成 Loeffler syndrome、成蟲造成腸阻塞；旁邊是成蟲照片與雄蟲交尾刺。", D0907, 34, box=FULL),
+ svg("trichuris-cycle", "sth", "鞭蟲生活史：直接到盲腸、不經過肺", ["鞭蟲", "生活史"],
+     "Trichuris trichiura life cycle cecum no lung migration rectal prolapse",
+     "吃入胚胎化卵 → 小腸孵化 → 直接到<strong>盲腸、大腸</strong>，細長前端埋進黏膜。<strong>沒有心肺移行</strong>。重度感染幼童 → 直腸脫垂。"),
+ slide("slide-trichuris-cycle", "sth", "鞭蟲生活史（Lancet 2018）", ["鞭蟲", "生活史"],
+       "Trichuris life cycle Lancet embryonated egg rectal prolapse", "卵在土壤胚胎化後被吃入；重度感染：痢疾、杵狀指、直腸脫垂。", D0907, 42, box=FULL),
+ svg("hookworm-cycle", "sth", "鉤蟲生活史：絲狀幼蟲鑽皮膚", ["鉤蟲", "生活史"],
+     "hookworm life cycle filariform larva skin penetration ground itch lung iron deficiency anemia",
+     "卵 → 土壤孵出<strong>桿狀幼蟲</strong> → <strong>絲狀幼蟲 L3（感染期）</strong>鑽皮膚 → 血流 → 肺 → 吞下 → 小腸咬腸壁吸血 → <strong>缺鐵性貧血</strong>。十二指腸鉤蟲也可經口。"),
+ slide("slide-hookworm-cycle", "sth", "兩種鉤蟲生活史與形態", ["鉤蟲", "生活史"],
+       "Ancylostoma duodenale Necator americanus life cycle buccal capsule bursa rhabditiform filariform", "左十二指腸鉤蟲（2 對牙）、右美洲鉤蟲（切板）；中間是 L3 鑽皮膚 → 肺 → 小腸的路線。", D0907, 49, box=FULL),
  # ---------------- 蟯蟲與犬蛔蟲
  slide("slide-enterobius-adult", "enterobius-toxocara", "蟯蟲雌蟲：食道球與尖尾", ["蟯蟲"],
        "Enterobius vermicularis female esophageal bulb cephalic alae pinworm", "8–13 mm，前端有<strong>頸翼（cephalic alae）</strong>與<strong>食道球</strong>、尾巴長而尖；夜間爬到肛門周圍產卵。", NEM, 6),
@@ -96,6 +129,16 @@ F = [
        "Scotch tape test adhesive tape perianal swab diagnosis", "蟯蟲卵產在肛門周圍、<strong>糞便很少找到</strong>，所以要在早上起床、排便洗澡前用透明膠帶黏肛圍。", NEM, 8),
  slide("slide-toxocara-egg", "enterobius-toxocara", "犬蛔蟲卵：球形厚殼、表面有凹洞", ["犬蛔蟲"],
        "Toxocara canis egg pitted shell", "80–85 µm、球形厚殼、蛋白膜表面像高爾夫球的<strong>凹洞（pitted）</strong>。人吃到卵 → VLM／OLM，<strong>人的糞便不會出現犬蛔蟲卵</strong>。", NEM, 30),
+ svg("enterobius-cycle", "enterobius-toxocara", "蟯蟲生活史：夜間肛門產卵 → 手 → 口", ["蟯蟲", "生活史"],
+     "Enterobius vermicularis life cycle perianal egg laying autoinfection retroinfection Scotch tape",
+     "人是唯一宿主；雌蟲<strong>夜間爬到肛門外產卵</strong>，卵 6 小時就有感染力 → 抓癢 → 手 → 口<strong>自體再感染</strong>。所以診斷用<strong>肛圍擦拭法</strong>，治療要全家一起。"),
+ slide("slide-enterobius-cycle", "enterobius-toxocara", "蟯蟲生活史", ["蟯蟲", "生活史"],
+       "Enterobius life cycle autoinfection perianal contaminated hands", "成蟲在盲腸 → 雌蟲爬出肛門產卵 → 汙染手、食物、衣物 → 吃入；抓癢造成自體感染。", D0907, 61, box=FULL),
+ svg("toxocara-cycle", "enterobius-toxocara", "犬蛔蟲生活史：人是保幼宿主", ["犬蛔蟲", "生活史"],
+     "Toxocara canis life cycle dog paratenic host VLM OLM neurotoxocariasis sandpit",
+     "成蟲在<strong>狗</strong>；卵在土壤 2–5 週胚胎化。人吃入胚胎化卵或生吃雞、羊、兔肝 → 幼蟲在體內亂鑽但<strong>不會長成成蟲</strong> → VLM、OLM、NT、隱蔽型。<strong>人的糞便找不到卵</strong>。"),
+ slide("slide-toxocara-cycle", "enterobius-toxocara", "人體犬蛔蟲症：幼蟲跑到哪裡", ["犬蛔蟲", "生活史"],
+       "Toxocara human toxocarosis larva migration liver eye CNS VLM OLM NT", "狗吃到卵 → 成蟲在狗小腸；人吃到卵 → 幼蟲經血流到肝（VLM）、眼（OLM）、腦（NT）。", D0907, 83, box=FULL),
  # ---------------- 毛線蟲與糞小桿線蟲
  svg("strongyloides-cycle", "capillaria-strongyloides", "糞小桿線蟲：自由生活、寄生與自體感染", ["糞小桿線蟲"],
      "Strongyloides stercoralis free-living cycle autoinfection hyperinfection disseminated rhabditiform filariform larva steroid HTLV-1",
@@ -108,6 +151,13 @@ F = [
        "Capillaria philippinensis egg peanut striated shell polar prominence", "35–45 µm、<strong>花生形</strong>、殼有放射紋、兩端的極塞很淺（和鞭蟲卵的明顯極塞不同）。", NEM, 39),
  slide("slide-chep-egg", "capillaria-strongyloides", "肝毛線蟲卵：在肝組織裡找到", ["肝毛線蟲"],
        "Capillaria hepatica egg liver rat spurious infection", "50–70 µm、殼厚有放射紋、兩端淺極塞。真正感染時卵留在<strong>肝臟</strong>；糞便看到卵多半是吃了鼠肝的<strong>假感染</strong>。", NEM, 38),
+ svg("capillaria-cycles", "capillaria-strongyloides", "兩種毛線蟲：腸道型 vs 肝臟型", ["菲律賓毛線蟲", "肝毛線蟲", "生活史"],
+     "Capillaria philippinensis hepatica life cycle fish autoinfection rat liver spurious infection",
+     "<strong>菲律賓</strong>：吃生淡水魚、無殼卵在腸內孵化 → <strong>自體感染</strong>。<strong>肝</strong>：卵留在鼠肝，要被吃掉或死亡分解才進土壤；人吃入胚胎化卵才是真感染，<strong>吃鼠肝而糞便見卵＝假感染</strong>。"),
+ slide("slide-chep-cycle", "capillaria-strongyloides", "肝毛線蟲生活史（CDC）", ["肝毛線蟲", "生活史"],
+       "Capillaria hepatica life cycle rat liver predation decomposition embryonated egg soil", "成蟲與卵在鼠肝；卵靠<strong>捕食</strong>或<strong>屍體分解</strong>釋出，在土壤胚胎化後才有感染力。", D0914, 6, box=(0.21, 0.43, 0.92, 0.99)),
+ slide("slide-strongyloides-cycle", "capillaria-strongyloides", "糞小桿線蟲生活史（CDC）：自由生活與寄生", ["糞小桿線蟲", "生活史"],
+       "Strongyloides stercoralis life cycle CDC free-living parasitic internal external autoinfection", "左邊土壤裡的自由生活世代、右邊人體的寄生世代；紅框是<strong>內／外自體感染</strong>。", D0914, 11, box=FULL),
  # ---------------- 食源性線蟲
  slide("slide-trichinella-cycle", "foodborne", "旋毛蟲生活史（CDC）", ["旋毛蟲"],
        "Trichinella spiralis life cycle domestic sylvatic pig encysted larva", "人與豬<strong>同時是最終宿主也是中間宿主</strong>：吃到肌肉裡的被囊幼蟲 → 小腸成蟲 → 胎生幼蟲經血流到<strong>橫紋肌</strong>被囊。", P0914, 28, media="image34.gif"),
@@ -123,6 +173,22 @@ F = [
        "Achatina fulica African giant snail intermediate host L3", "非洲大蝸牛（<em>Achatina fulica</em>）的肺囊裡有第三期幼蟲；台灣南部、移工、原住民生食蝸牛的病例。", NEM, 36),
  slide("slide-acanton-adult", "foodborne", "廣東住血線蟲雌蟲：Barber's pole", ["廣東住血線蟲"],
        "Angiostrongylus female barber's pole uterus intestine", "雌蟲白色子宮纏繞紅色腸道，看起來像<strong>理髮廳旋轉燈（barber's pole）</strong>。", NEM, 33),
+ svg("trichinella-cycle", "foodborne", "旋毛蟲生活史：同一宿主是最終也是中間宿主", ["旋毛蟲", "生活史"],
+     "Trichinella spiralis life cycle encysted larva nurse cell striated muscle larviparous",
+     "吃入肌肉被囊幼蟲 → 小腸成蟲 → 雌蟲<strong>直接產幼蟲</strong> → 血流到<strong>橫紋肌</strong>被囊。同一隻宿主兩種角色都扮，要被下一隻動物吃掉才能繼續。"),
+ svg("gnathostoma-cycle", "foodborne", "顎口線蟲生活史：人是非適合宿主", ["顎口線蟲", "生活史"],
+     "Gnathostoma life cycle copepod fish loach frog cat dog migratory swelling",
+     "貓狗胃壁成蟲 → 卵入水 → <strong>劍水蚤</strong> → 魚、泥鰍、蛙、蛇（進階 L3）。人生吃 → 幼蟲不成熟、到處移行 → <strong>遊走性皮下腫脹</strong>。"),
+ svg("anisakis-cycle", "foodborne", "海獸胃線蟲生活史：人是意外宿主", ["海獸胃線蟲", "生活史"],
+     "Anisakis life cycle whale dolphin krill marine fish squid accidental host gastroscopy",
+     "鯨、海豚胃裡的成蟲 → 卵入海 → 磷蝦 → <strong>海魚、魷魚（L3）</strong>。人生吃 → L3 鑽胃壁，約 6 小時後劇烈胃痛；<strong>胃鏡夾出</strong>。"),
+ slide("slide-anisakis-cycle", "foodborne", "海獸胃線蟲生活史", ["海獸胃線蟲", "生活史"],
+       "Anisakis life cycle marine mammals crustacean fish squid accidental human", "① 未胚胎化卵 → ② 胚胎化 → ③ 自由游動 L2 → ④ 甲殼類 → ⑤ 人意外吃到 L3 → ⑥ 海洋哺乳類長成成蟲。", D0922, 8, box=(0, 0.05, 1, 0.95)),
+ svg("acanton-cycle", "foodborne", "廣東住血線蟲生活史：鼠、螺、保幼宿主", ["廣東住血線蟲", "生活史"],
+     "Angiostrongylus cantonensis life cycle rat pulmonary artery snail slug paratenic shrimp crab frog eosinophilic meningitis",
+     "鼠肺動脈成蟲 → L1 隨鼠糞 → <strong>螺、蛞蝓</strong>（L3）→ 淡水蝦、陸蟹、青蛙（保幼宿主）。人生吃 → 幼蟲到<strong>腦</strong>死在那裡 → <strong>嗜酸性腦膜炎</strong>。"),
+ slide("slide-acanton-hosts", "foodborne", "廣東住血線蟲：各種宿主與人的感染途徑", ["廣東住血線蟲", "生活史"],
+       "Angiostrongylus cantonensis paratenic hosts frog crab shrimp vegetables human infection", "人會從<strong>螺、保幼宿主（蝦、蟹、蛙、蜥蜴）</strong>或被汙染的蔬果感染。", D0922, 22, box=FULL),
  # ---------------- 血絲蟲
  svg("microfilariae", "filaria", "四種微絲蚴怎麼分", ["微絲蚴鑑別"],
      "microfilaria sheath tail nuclei nocturnal periodicity Wuchereria Brugia Loa Onchocerca Mansonella",
@@ -133,6 +199,13 @@ F = [
        "Brugia malayi microfilaria sheathed two terminal nuclei Mansonia", "有鞘、彎曲較僵硬、<strong>尾端有兩顆分開的核</strong>；病媒是<strong>曼蚊（Mansonia）</strong>等。", NEM, 41),
  slide("slide-onchocerca-cycle", "filaria", "蟠尾絲蟲生活史（CDC）", ["蟠尾絲蟲"],
        "Onchocerca volvulus life cycle blackfly Simulium skin nodule river blindness", "<strong>黑蠅（Simulium）</strong>在河邊繁殖；成蟲在皮下結節，微絲蚴在<strong>皮膚</strong>（皮膚切片診斷），跑進眼睛 → 河盲症。", P0922, 66, media="image124.png"),
+ svg("filaria-cycle", "filaria", "血絲蟲生活史與三類比較：病媒、成蟲、微絲蚴", ["淋巴絲蟲", "羅阿絲蟲", "蟠尾絲蟲", "生活史"],
+     "filaria life cycle vector L3 microfilaria mosquito Chrysops Simulium lymphatic subcutaneous skin periodicity",
+     "病媒吸血注入 <strong>L3</strong> → 成蟲 → 雌蟲產<strong>微絲蚴</strong> → 病媒吸走。橫著讀三條：<strong>蚊</strong>／淋巴管／血液夜間、<strong>斑虻</strong>／皮下移行／血液白天、<strong>黑蠅</strong>／皮下結節／皮膚。"),
+ slide("slide-filaria-cycle", "filaria", "蟠尾絲蟲、羅阿絲蟲、馬來絲蟲生活史對照", ["淋巴絲蟲", "羅阿絲蟲", "蟠尾絲蟲", "生活史"],
+       "Onchocerca Loa loa Brugia malayi life cycle adults microfilariae mosquito Chrysops Simulium", "上半是人體內（成蟲位置、微絲蚴在皮下組織或血液日／夜），下半是病媒（蚊、斑虻、黑蠅）。", D0922, 34, box=FULL),
+ slide("slide-loa-cycle", "filaria", "羅阿絲蟲生活史（CDC）", ["羅阿絲蟲", "生活史"],
+       "Loa loa life cycle Chrysops deerfly subcutaneous diurnal microfilariae", "斑虻（<em>Chrysops</em>）白天吸血；成蟲在皮下組織移行，有鞘微絲蚴白天出現在周邊血液。", D0922, 54, box=(0, 0.08, 1, 1)),
  # ---------------- 吸蟲
  svg("trematode-cycle", "trematodes", "吸蟲的一般生活史與血吸蟲的例外", ["吸蟲總論"],
      "trematode life cycle miracidium sporocyst redia cercaria metacercaria snail schistosome exception",
@@ -159,6 +232,46 @@ F = [
        "Schistosoma haematobium egg terminal spine urine bladder Bulinus", "約 143 × 60 µm、<strong>尾端刺</strong>、在<strong>尿液</strong>找到（成蟲在膀胱靜脈叢）。中間宿主 Bulinus。", TRE, 43),
  slide("slide-sm-egg", "trematodes", "曼氏血吸蟲卵：大側刺", ["血吸蟲"],
        "Schistosoma mansoni egg large lateral spine Biomphalaria", "約 140 × 60 µm、<strong>靠近後端的大側刺</strong>；糞便檢查。中間宿主 Biomphalaria。", TRE, 48),
+ slide("slide-trematode-stages", "trematodes", "吸蟲各期幼蟲：卵 → 纖毛 → 胞狀 → 雷氏 → 尾動 → 囊狀", ["吸蟲總論", "生活史"],
+       "trematode stages egg miracidium sporocyst redia cercaria metacercaria adult", "順時針：卵、纖毛幼蟲、胞狀幼蟲、雷氏幼蟲、尾動幼蟲、（囊狀幼蟲）、成蟲。", F1, 12, box=FULL),
+ svg("intestinal-flukes", "trematodes", "腸吸蟲：第一中間宿主 → 吃什麼得病 → 寄生部位", ["腸吸蟲", "生活史"],
+     "intestinal flukes Fasciolopsis Metagonimus Heterophyes Echinostoma Gastrodiscoides Eurytrema snail water plant fish grasshopper",
+     "<strong>薑片蟲</strong>、<strong>人雙口吸蟲</strong>：水生植物；<strong>異形、橫川</strong>：淡水魚；<strong>棘口</strong>：不挑；<strong>胰臟吸蟲</strong>：陸螺＋蝗蟲。只有人雙口吸蟲在大腸。"),
+ slide("slide-fbuski-cycle", "trematodes", "布氏薑片蟲生活史（CDC）", ["腸吸蟲", "生活史"],
+       "Fasciolopsis buski life cycle snail water plant metacercaria pig", "螺內 胞狀 → 雷氏 → 尾動；囊狀幼蟲附在<strong>水生植物</strong>上，人或<strong>豬</strong>吃入。", F1, 53, box=FULL),
+ slide("slide-heterophyid-cycle", "trematodes", "異形吸蟲科生活史（CDC）", ["腸吸蟲", "生活史"],
+       "Heterophyes Metagonimus life cycle snail freshwater fish metacercaria", "螺吃卵 → 尾動幼蟲鑽進<strong>淡水魚</strong>形成囊狀幼蟲；人、貓狗、食魚鳥類都可感染。", F1, 69, box=FULL),
+ slide("slide-echinostoma-cycle", "trematodes", "棘口吸蟲生活史（CDC）", ["腸吸蟲", "生活史"],
+       "Echinostoma life cycle snail second intermediate host aquatic birds", "第二中間宿主很多種（螺、蛙、魚）；終宿主多是水鳥。", F1, 94, box=FULL),
+ slide("slide-gastrodiscoides-cycle", "trematodes", "人雙口吸蟲生活史", ["腸吸蟲", "生活史"],
+       "Gastrodiscoides hominis life cycle pig deer water plants caecum", "保蟲宿主<strong>豬、鹿</strong>；吃水生植物上的囊狀幼蟲，成蟲附在<strong>盲腸、升結腸</strong>。", F1, 104, box=FULL),
+ slide("slide-eurytrema-cycle", "trematodes", "胰臟吸蟲生活史", ["腸吸蟲", "生活史"],
+       "Eurytrema pancreaticum life cycle snail grasshopper cattle sheep", "陸螺吃卵 → 尾動幼蟲附在草上 → <strong>蝗蟲</strong>吃進去 → 牛羊吃蝗蟲。", F1, 113, box=FULL),
+ svg("paragonimus-cycle", "trematodes", "衛氏肺吸蟲生活史：腹腔 → 橫膈 → 肺", ["肺吸蟲", "生活史"],
+     "Paragonimus westermani life cycle crab crayfish Semisulcospira peritoneal cavity diaphragm lung sputum brain",
+     "吃生的<strong>淡水蟹、蝦</strong> → 小腸脫囊 → <strong>穿腸壁、腹腔、橫膈</strong>（不是經血流）→ 肺。卵隨<strong>痰</strong>或糞便 → 川蜷 → 蟹蝦。異位到<strong>腦</strong>最嚴重。"),
+ slide("slide-pw-cycle", "trematodes", "衛氏肺吸蟲生活史（CDC）", ["肺吸蟲", "生活史"],
+       "Paragonimus life cycle CDC crustacean metacercariae lung sputum", "成蟲在肺部囊腔，卵隨痰排出或吞下隨糞便；尾動幼蟲侵入甲殼類形成囊狀幼蟲。", F1, 141, box=FULL),
+ svg("clonorchis-cycle", "trematodes", "中華肝吸蟲生活史：螺吃卵、魚帶囊蚴", ["肝吸蟲", "生活史"],
+     "Clonorchis sinensis life cycle Parafossarulus snail cyprinid fish bile duct cholangiocarcinoma",
+     "卵要被<strong>滿州泥螺</strong>吃進去才孵化；尾動幼蟲鑽進<strong>鯉科淡水魚</strong>。人吃生魚 → 十二指腸脫囊 → 沿總膽管上行到<strong>肝內膽管</strong> → 膽管癌。"),
+ slide("slide-cs-cycle", "trematodes", "中華肝吸蟲生活史（CDC）", ["肝吸蟲", "生活史"],
+       "Clonorchis sinensis life cycle CDC snail fish biliary duct", "螺吃卵 → 2a–2d 纖毛 → 胞狀 → 雷氏 → 尾動 → 魚 → 人；成蟲在膽管。", F2, 25, box=FULL),
+ svg("fasciola-cycle", "trematodes", "牛羊肝吸蟲生活史：穿肝被膜進膽管", ["肝吸蟲", "生活史"],
+     "Fasciola hepatica life cycle Lymnaea water plant watercress liver capsule bile duct Halzoun triclabendazole",
+     "吃<strong>水生植物</strong>上的囊蚴（第二中間宿主非必要）→ 脫囊 → 穿腸壁 → 腹腔 → <strong>穿肝被膜、在肝實質移行</strong> → 膽管。PZQ 效果差 → Triclabendazole。"),
+ slide("slide-fasciola-cycle", "trematodes", "牛羊肝吸蟲生活史（CDC）", ["肝吸蟲", "生活史"],
+       "Fasciola hepatica life cycle CDC snail water plant sheep cattle hepatic biliary ducts", "椎實螺 → 尾動幼蟲在水生植物結囊 → 人、牛、羊吃入；成蟲在肝膽管。", F2, 85, box=FULL),
+ svg("terrestrial-flukes", "trematodes", "陸生吸蟲：槍狀肝吸蟲吃螞蟻、胰臟吸蟲吃蝗蟲", ["肝吸蟲", "腸吸蟲", "生活史"],
+     "Dicrocoelium dendriticum Eurytrema land snail ant grasshopper slime ball spurious infection",
+     "兩個都是<strong>陸螺＋昆蟲</strong>。槍狀肝吸蟲：尾蚴包在黏液球裡排出 → <strong>螞蟻</strong>；吃到病肝而糞便見卵是<strong>假感染</strong>。胰臟吸蟲：<strong>蝗蟲</strong>，成蟲在胰管。"),
+ slide("slide-dicrocoelium-cycle", "trematodes", "槍狀肝吸蟲生活史（CDC）", ["肝吸蟲", "生活史"],
+       "Dicrocoelium dendriticum life cycle CDC land snail slime ball ant cattle", "陸螺吃卵 → 尾動幼蟲在黏液球中排出 → 螞蟻 → 牛羊吃到螞蟻。", F2, 74, box=FULL),
+ svg("schisto-cycle", "trematodes", "血吸蟲生活史：例外最多的吸蟲", ["血吸蟲", "生活史"],
+     "Schistosoma life cycle cercaria skin penetration schistosomulum portal vein venous plexus egg granuloma snail no redia no metacercaria",
+     "只有<strong>一個中間宿主</strong>、沒有雷氏與囊狀幼蟲、尾動幼蟲<strong>直接鑽皮膚</strong>、雌雄異體、卵沒有卵蓋、<strong>卵造成肉芽腫</strong>。下排三種靠螺、卵刺、檢體分。"),
+ slide("slide-schisto-cycle", "trematodes", "血吸蟲生活史（CDC）", ["血吸蟲", "生活史"],
+       "Schistosoma life cycle CDC cercariae penetrate skin portal mesenteric venules bladder", "尾蚴鑽皮膚 → 童蟲 → 門脈成熟 → A 曼森、B 日本到腸繫膜靜脈，C 埃及到膀胱靜脈叢。", F2, 128, box=FULL),
  # ---------------- 吸蟲實驗（實驗課 slides，整頁）
  slide("slide-lab-fbuski-adult", "trematodes", "薑片蟲成蟲：樹枝狀睪丸前後排", ["腸吸蟲"],
        "Fasciolopsis buski adult acetabulum testes dendritic uterus vitellaria", "人體最大的吸蟲；腹吸盤（acetabulum）大、緊靠口吸盤；<strong>兩個樹枝狀睪丸前後排</strong>佔後半段，卵黃腺在兩側。", LAB, 3, box=FULL),

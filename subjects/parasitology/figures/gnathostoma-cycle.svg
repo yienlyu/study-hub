@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 718 268" role="img" aria-label="顎口線蟲生活史：成蟲在貓狗胃壁，卵隨糞便入水孵出幼蟲，被劍水蚤吃，再被魚、蛙、蛇等第二中間宿主吃，發育成進階第三期幼蟲。貓狗吃入後長成成蟲；人吃入生魚、泥鰍、蛙是非適合宿主，幼蟲在體內到處移行。">
+<defs><marker id="gnathostoma-cycle-fg" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker><marker id="gnathostoma-cycle-fk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="gnathostoma-cycle-fr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker><marker id="gnathostoma-cycle-fv" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<rect x="6" y="54" width="706" height="74" rx="14" class="fp"/>
+<text x="12" y="48" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">動物間的循環</text>
+<rect x="6" y="152" width="706" height="74" rx="14" class="fp"/>
+<text x="12" y="146" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">人（非適合宿主）</text>
+<path d="M166 91L192 91" class="ln" marker-end="url(#gnathostoma-cycle-fk)"/>
+<path d="M346 91L372 91" class="ln" marker-end="url(#gnathostoma-cycle-fk)"/>
+<path d="M526 91L552 91" class="ln" marker-end="url(#gnathostoma-cycle-fk)"/>
+<path d="M629 120L629 160" class="ln" marker-end="url(#gnathostoma-cycle-fk)"/>
+<path d="M552 189L526 189" class="ln" marker-end="url(#gnathostoma-cycle-fk)"/>
+<path d="M372 189L346 189" class="ln" marker-end="url(#gnathostoma-cycle-fk)"/>
+<path d="M192 189L166 189" class="ln dash" marker-end="url(#gnathostoma-cycle-fk)"/>
+<path d="M629 62L629 42Q629 32 619 32L99 32Q89 32 89 42L89 62" class="ln" marker-end="url(#gnathostoma-cycle-fk)"/>
+<text x="101" y="27" text-anchor="start" class="ts" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">貓狗吃入</text>
+<g class="hot" data-tip="<i>G. spinigerum</i>：貓、狗（最常見）；<i>G. hispidum</i>：豬；<i>G. doloresi</i>：野豬；<i>G. nipponicum</i>：黃鼠狼。" data-label="貓狗胃壁成蟲"><rect x="14" y="64" width="150" height="54" rx="10" class="bv"/><text x="89" y="86" text-anchor="middle" class="tb">貓狗胃壁成蟲</text></g>
+<text x="89" y="105" text-anchor="middle" class="ts">最終宿主</text>
+<rect x="194" y="64" width="150" height="54" rx="10" class="bx"/><text x="269" y="96" text-anchor="middle" class="tb">卵入水孵出 L1</text>
+<rect x="374" y="64" width="150" height="54" rx="10" class="bx"/><text x="449" y="86" text-anchor="middle" class="tb">劍水蚤（1st IH）</text>
+<text x="449" y="105" text-anchor="middle" class="ts">L1 → 早期 L3</text>
+<g class="hot" data-tip="第二中間宿主；雞、鴨、蛇等也可當<b>保幼宿主</b>。" data-label="魚、泥鰍、蛙、蛇"><rect x="554" y="64" width="150" height="54" rx="10" class="bw"/><text x="629" y="86" text-anchor="middle" class="tb">魚、泥鰍、蛙、蛇</text></g>
+<text x="629" y="105" text-anchor="middle" class="ts">進階 L3 · 感染期</text>
+<g class="hot" data-tip="台灣病例：有錢人<b>生吞泥鰍</b>養生；泰國吃生魚的料理。" data-label="人生吃"><rect x="554" y="162" width="150" height="54" rx="10" class="bx"/><text x="629" y="184" text-anchor="middle" class="tb">人生吃</text></g>
+<text x="629" y="203" text-anchor="middle" class="ts">生吞泥鰍、生魚片</text>
+<g class="hot" data-tip="人體內多是<b>進階 L3</b>或很年輕的成蟲，頭球有 4 排小鉤。" data-label="幼蟲不成熟、到處移行"><rect x="374" y="162" width="150" height="54" rx="10" class="br"/><text x="449" y="184" text-anchor="middle" class="tb">幼蟲不成熟、到處移行</text></g>
+<text x="449" y="203" text-anchor="middle" class="ts">非適合宿主</text>
+<g class="hot" data-tip="<b>皮膚型最常見</b>：軀幹、上肢間歇性遊走性腫脹；神經型可造成致命的<b>嗜酸性腦膜炎、脊髓腦炎</b>；眼型可能失明。" data-label="遊走性皮下腫脹"><rect x="194" y="162" width="150" height="54" rx="10" class="br"/><text x="269" y="184" text-anchor="middle" class="tb">遊走性皮下腫脹</text></g>
+<text x="269" y="203" text-anchor="middle" class="ts">CLM、VLM、OLM、NLM</text>
+<rect x="14" y="162" width="150" height="54" rx="10" class="bp"/><text x="89" y="194" text-anchor="middle" class="tb">取出蟲體＝診斷＋治療</text>
+<rect x="374" y="241" width="14" height="10" rx="3" class="bw"/><text x="394" y="250" class="ts">感染期</text>
+<rect x="486" y="241" width="14" height="10" rx="3" class="bv"/><text x="506" y="250" class="ts">成蟲寄生處</text>
+<rect x="598" y="241" width="14" height="10" rx="3" class="br"/><text x="618" y="250" class="ts">致病／臨床</text>
+</svg>

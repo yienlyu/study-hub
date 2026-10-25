@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 718 434" role="img" aria-label="兩種毛線蟲生活史對照。菲律賓毛線蟲：生吃淡水魚吃到幼蟲，小腸黏膜成蟲產有殼卵與無殼卵，無殼卵在腸內孵化造成自體感染；有殼卵隨糞便到水中被魚吃。肝毛線蟲：成蟲與卵在鼠肝，卵要等宿主被吃掉或死亡分解才進入土壤胚胎化，人吃入胚胎化卵才是真感染；吃到鼠肝而在糞便看到卵是假感染。">
+<defs><marker id="capillaria-cycles-fg" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker><marker id="capillaria-cycles-fk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="capillaria-cycles-fr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker><marker id="capillaria-cycles-fv" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<rect x="6" y="24" width="706" height="172" rx="14" class="fp"/>
+<text x="12" y="18" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">菲律賓毛線蟲 · 腸道型</text>
+<rect x="6" y="220" width="706" height="172" rx="14" class="fp"/>
+<text x="12" y="214" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">肝毛線蟲 · 肝臟型</text>
+<path d="M166 61L192 61" class="ln" marker-end="url(#capillaria-cycles-fk)"/>
+<path d="M346 61L372 61" class="ln" marker-end="url(#capillaria-cycles-fk)"/>
+<path d="M526 61L552 61" class="ln" marker-end="url(#capillaria-cycles-fk)"/>
+<path d="M449 90L449 149Q449 159 439 159L346 159" class="ln" marker-end="url(#capillaria-cycles-fk)"/>
+<text x="455" y="124" text-anchor="start" class="ts" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">無殼卵</text>
+<path d="M269 130L269 90" class="lr" marker-end="url(#capillaria-cycles-fr)"/>
+<path d="M629 90L629 130" class="ln" marker-end="url(#capillaria-cycles-fk)"/>
+<path d="M629 188L629 195Q629 202 619 202L99 202Q89 202 89 192L89 90" class="ln" marker-end="url(#capillaria-cycles-fk)"/>
+<path d="M166 257L192 257" class="ln" marker-end="url(#capillaria-cycles-fk)"/>
+<path d="M346 257L372 257" class="ln" marker-end="url(#capillaria-cycles-fk)"/>
+<path d="M526 257L552 257" class="ln" marker-end="url(#capillaria-cycles-fk)"/>
+<path d="M629 286L629 326" class="ln" marker-end="url(#capillaria-cycles-fk)"/>
+<path d="M89 286L89 326" class="ln dash" marker-end="url(#capillaria-cycles-fk)"/>
+<g class="hot" data-tip="菲律賓、泰國流行；台灣東部阿美族病例多。吃生的或沒煮熟的魚。" data-label="生吃淡水小魚"><rect x="14" y="34" width="150" height="54" rx="10" class="bw"/><text x="89" y="56" text-anchor="middle" class="tb">生吃淡水小魚</text></g>
+<text x="89" y="75" text-anchor="middle" class="ts">魚體內幼蟲 · 感染期</text>
+<rect x="194" y="34" width="150" height="54" rx="10" class="bv"/><text x="269" y="66" text-anchor="middle" class="tb">小腸黏膜成蟲</text>
+<g class="hot" data-tip="雌蟲可產<b>有殼卵</b>（隨糞便排出）或<b>無殼卵</b>（在腸內直接孵化）。" data-label="產兩種卵"><rect x="374" y="34" width="150" height="54" rx="10" class="bx"/><text x="449" y="56" text-anchor="middle" class="tb">產兩種卵</text></g>
+<text x="449" y="75" text-anchor="middle" class="ts">有殼卵／無殼卵</text>
+<g class="hot" data-tip="35–45 µm、<b>花生形</b>、殼有放射紋、兩端極塞很淺。" data-label="有殼卵隨糞便"><rect x="554" y="34" width="150" height="54" rx="10" class="bx"/><text x="629" y="56" text-anchor="middle" class="tb">有殼卵隨糞便</text></g>
+<text x="629" y="75" text-anchor="middle" class="ts">花生形、淺極塞</text>
+<g class="hot" data-tip="<b>自體感染</b> → 蟲越來越多 → 嚴重腹瀉、<b>蛋白質流失性腸病</b>、惡病質甚至死亡。治療 Mebendazole。" data-label="腸內孵化 → 自體感染"><rect x="194" y="132" width="150" height="54" rx="10" class="br"/><text x="269" y="154" text-anchor="middle" class="tb">腸內孵化 → 自體感染</text></g>
+<text x="269" y="173" text-anchor="middle" class="ts">蟲數暴增、蛋白流失</text>
+<rect x="554" y="132" width="150" height="54" rx="10" class="bx"/><text x="629" y="154" text-anchor="middle" class="tb">水中胚胎化 → 魚吃</text>
+<text x="629" y="173" text-anchor="middle" class="ts">魚是中間宿主</text>
+<g class="hot" data-tip="成蟲住在大鼠等動物的<b>肝臟</b>，卵<b>不會</b>隨糞便排出。" data-label="鼠肝：成蟲與卵"><rect x="14" y="230" width="150" height="54" rx="10" class="bv"/><text x="89" y="252" text-anchor="middle" class="tb">鼠肝：成蟲與卵</text></g>
+<text x="89" y="271" text-anchor="middle" class="ts">卵留在肝實質</text>
+<g class="hot" data-tip="① 被另一隻動物吃掉 → 卵經消化釋出、隨牠的糞便排出；② 動物死亡分解 → 卵散到土壤。" data-label="被吃掉或死亡分解"><rect x="194" y="230" width="150" height="54" rx="10" class="bx"/><text x="269" y="252" text-anchor="middle" class="tb">被吃掉或死亡分解</text></g>
+<text x="269" y="271" text-anchor="middle" class="ts">卵才離開肝臟</text>
+<rect x="374" y="230" width="150" height="54" rx="10" class="bx"/><text x="449" y="262" text-anchor="middle" class="tb">土壤中胚胎化</text>
+<rect x="554" y="230" width="150" height="54" rx="10" class="bw"/><text x="629" y="252" text-anchor="middle" class="tb">吃入胚胎化卵</text>
+<text x="629" y="271" text-anchor="middle" class="ts">真正的感染</text>
+<g class="hot" data-tip="急性或亞急性<b>肝炎合併嗜酸性球增多</b>，可能致命。<b>診斷靠肝臟切片或解剖</b>。" data-label="孵化 → 門脈 → 肝"><rect x="554" y="328" width="150" height="54" rx="10" class="br"/><text x="629" y="350" text-anchor="middle" class="tb">孵化 → 門脈 → 肝</text></g>
+<text x="629" y="369" text-anchor="middle" class="ts">肝炎 ＋ 嗜酸性球</text>
+<g class="hot" data-tip="卵只是<b>路過</b>腸道（沒胚胎化、不會孵化），停止吃這些內臟後糞便就不再有卵。老師的例子：三杯鼠內臟。" data-label="吃到病鼠肝 → 糞便見卵"><rect x="14" y="328" width="150" height="54" rx="10" class="br"/><text x="89" y="350" text-anchor="middle" class="tb">吃到病鼠肝 → 糞便見卵</text></g>
+<text x="89" y="369" text-anchor="middle" class="ts">過誤性寄生（假感染）</text>
+<rect x="374" y="407" width="14" height="10" rx="3" class="bw"/><text x="394" y="416" class="ts">感染期</text>
+<rect x="486" y="407" width="14" height="10" rx="3" class="bv"/><text x="506" y="416" class="ts">成蟲寄生處</text>
+<rect x="598" y="407" width="14" height="10" rx="3" class="br"/><text x="618" y="416" class="ts">致病／臨床</text>
+</svg>

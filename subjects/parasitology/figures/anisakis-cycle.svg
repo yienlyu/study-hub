@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 718 268" role="img" aria-label="海獸胃線蟲生活史：成蟲在鯨、海豚胃裡，卵隨糞便入海孵出幼蟲，被磷蝦等甲殼類吃，再被海魚、魷魚吃，第三期幼蟲留在內臟與肌肉。人生吃海鮮是意外宿主，幼蟲鑽胃壁造成劇烈胃痛，但不會長成成蟲。">
+<defs><marker id="anisakis-cycle-fg" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker><marker id="anisakis-cycle-fk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="anisakis-cycle-fr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker><marker id="anisakis-cycle-fv" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<rect x="6" y="54" width="706" height="74" rx="14" class="fp"/>
+<text x="12" y="48" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">海洋</text>
+<rect x="186" y="152" width="526" height="74" rx="14" class="fp"/>
+<text x="192" y="146" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">人（意外宿主）</text>
+<path d="M166 91L192 91" class="ln" marker-end="url(#anisakis-cycle-fk)"/>
+<path d="M346 91L372 91" class="ln" marker-end="url(#anisakis-cycle-fk)"/>
+<path d="M526 91L552 91" class="ln" marker-end="url(#anisakis-cycle-fk)"/>
+<path d="M629 120L629 160" class="ln" marker-end="url(#anisakis-cycle-fk)"/>
+<path d="M552 189L526 189" class="ln" marker-end="url(#anisakis-cycle-fk)"/>
+<path d="M372 189L346 189" class="ln dash" marker-end="url(#anisakis-cycle-fk)"/>
+<path d="M629 62L629 42Q629 32 619 32L99 32Q89 32 89 42L89 62" class="ln" marker-end="url(#anisakis-cycle-fk)"/>
+<text x="101" y="27" text-anchor="start" class="ts" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">被鯨、海豚吃</text>
+<rect x="14" y="64" width="150" height="54" rx="10" class="bv"/><text x="89" y="86" text-anchor="middle" class="tb">鯨、海豚胃：成蟲</text>
+<text x="89" y="105" text-anchor="middle" class="ts">最終宿主</text>
+<rect x="194" y="64" width="150" height="54" rx="10" class="bx"/><text x="269" y="96" text-anchor="middle" class="tb">卵入海孵出幼蟲</text>
+<rect x="374" y="64" width="150" height="54" rx="10" class="bx"/><text x="449" y="86" text-anchor="middle" class="tb">磷蝦等甲殼類</text>
+<text x="449" y="105" text-anchor="middle" class="ts">中間宿主 · 發育成 L3</text>
+<g class="hot" data-tip="鯖魚、鮭魚、鱈魚、鯡魚、魷魚；L3 約 <b>2 cm</b>，尾端有<b>尾突（mucron）</b>，橫切面 <b>Y 字形側索</b>。魚是<b>保幼宿主</b>。" data-label="海魚、魷魚"><rect x="554" y="64" width="150" height="54" rx="10" class="bw"/><text x="629" y="86" text-anchor="middle" class="tb">海魚、魷魚</text></g>
+<text x="629" y="105" text-anchor="middle" class="ts">L3 · 感染期</text>
+<g class="hot" data-tip="全球 > 90% 在<b>日本</b>；荷蘭首例吃生鯡魚。<b>Wasabi 殺不死幼蟲</b>。" data-label="人生吃海鮮"><rect x="554" y="162" width="150" height="54" rx="10" class="bx"/><text x="629" y="184" text-anchor="middle" class="tb">人生吃海鮮</text></g>
+<text x="629" y="203" text-anchor="middle" class="ts">生魚片、醃鯡魚</text>
+<g class="hot" data-tip="<b>胃型最常見</b>（胃體大彎），還有腸型、腸外型、<b>過敏型</b>。<i>Pseudoterranova</i> 常造成喉嚨刺痛。" data-label="L3 鑽胃壁"><rect x="374" y="162" width="150" height="54" rx="10" class="br"/><text x="449" y="184" text-anchor="middle" class="tb">L3 鑽胃壁</text></g>
+<text x="449" y="203" text-anchor="middle" class="ts">約 6 小時後劇烈上腹痛</text>
+<rect x="194" y="162" width="150" height="54" rx="10" class="bp"/><text x="269" y="184" text-anchor="middle" class="tb">胃鏡夾出</text>
+<text x="269" y="203" text-anchor="middle" class="ts">診斷＝治療</text>
+<rect x="374" y="241" width="14" height="10" rx="3" class="bw"/><text x="394" y="250" class="ts">感染期</text>
+<rect x="486" y="241" width="14" height="10" rx="3" class="bv"/><text x="506" y="250" class="ts">成蟲寄生處</text>
+<rect x="598" y="241" width="14" height="10" rx="3" class="br"/><text x="618" y="250" class="ts">致病／臨床</text>
+</svg>

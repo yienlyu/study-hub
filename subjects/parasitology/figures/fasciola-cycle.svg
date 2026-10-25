@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 848 258" role="img" aria-label="牛羊肝吸蟲生活史：吃到水生植物上（或水中）的囊狀幼蟲，在十二指腸脫囊後穿過腸壁、經腹腔、穿過肝被膜，在肝實質移行後進入膽管長成成蟲。卵隨糞便排出，在水中孵出纖毛幼蟲，進入椎實螺，尾動幼蟲游出後附著在水生植物上結囊。">
+<defs><marker id="fasciola-cycle-fg" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker><marker id="fasciola-cycle-fk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="fasciola-cycle-fr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker><marker id="fasciola-cycle-fv" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<rect x="6" y="24" width="666" height="74" rx="14" class="fp"/>
+<text x="12" y="18" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">人（牛、羊是保蟲宿主）</text>
+<rect x="6" y="122" width="666" height="74" rx="14" class="fp"/>
+<text x="12" y="116" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">淡水環境</text>
+<path d="M156 61L182 61" class="ln" marker-end="url(#fasciola-cycle-fk)"/>
+<path d="M326 61L352 61" class="ln" marker-end="url(#fasciola-cycle-fk)"/>
+<path d="M496 61L522 61" class="ln" marker-end="url(#fasciola-cycle-fk)"/>
+<path d="M594 90L594 130" class="ln" marker-end="url(#fasciola-cycle-fk)"/>
+<path d="M522 159L496 159" class="ln" marker-end="url(#fasciola-cycle-fk)"/>
+<path d="M352 159L326 159" class="ln" marker-end="url(#fasciola-cycle-fk)"/>
+<path d="M182 159L156 159" class="ln" marker-end="url(#fasciola-cycle-fk)"/>
+<path d="M84 130L84 90" class="ln" marker-end="url(#fasciola-cycle-fk)"/>
+<g class="hot" data-tip="第二中間宿主<b>不是必要的</b>：囊狀幼蟲附在<b>水芹</b>等水生植物上，或漂浮在水中。" data-label="吃水生植物上的囊蚴"><rect x="14" y="34" width="140" height="54" rx="10" class="bw"/><text x="84" y="56" text-anchor="middle" class="tb">吃水生植物上的囊蚴</text></g>
+<text x="84" y="75" text-anchor="middle" class="ts">水芹 · 喝生水也會</text>
+<rect x="184" y="34" width="140" height="54" rx="10" class="bx"/><text x="254" y="66" text-anchor="middle" class="tb">十二指腸脫囊</text>
+<g class="hot" data-tip="幼蟲穿過腸壁到腹腔，再<b>穿過肝被膜</b>在<b>肝實質</b>移行（潛伏 2–4 個月）→ 發燒、右上腹痛、<b>traumatic hepatitis</b>、腹內出血。" data-label="穿腸壁 → 腹腔 → 肝"><rect x="354" y="34" width="140" height="54" rx="10" class="br"/><text x="424" y="56" text-anchor="middle" class="tb">穿腸壁 → 腹腔 → 肝</text></g>
+<text x="424" y="75" text-anchor="middle" class="ts">急性期：損傷性肝炎</text>
+<g class="hot" data-tip="葉片狀、有<b>頭錐</b>、腸支與睪丸都是樹枝狀。慢性期：膽管增生、纖維化、鈣化、阻塞。" data-label="膽管成蟲"><rect x="524" y="34" width="140" height="54" rx="10" class="bv"/><text x="594" y="56" text-anchor="middle" class="tb">膽管成蟲</text></g>
+<text x="594" y="75" text-anchor="middle" class="ts">慢性期：膽管阻塞</text>
+<g class="hot" data-tip="吃生的動物肝臟，成蟲黏在<b>咽喉</b> → 咽部水腫、呼吸困難（中東）。也有肝外異位：皮下結節、肺膿瘍。" data-label="Halzoun"><rect x="694" y="34" width="140" height="54" rx="10" class="br"/><text x="764" y="56" text-anchor="middle" class="tb">Halzoun</text></g>
+<text x="764" y="75" text-anchor="middle" class="ts">生吃羊肝 → 咽喉黏蟲</text>
+<g class="hot" data-tip="130–150 × 63–90 µm、淡黃、殼薄；和<b>薑片蟲卵幾乎無法區分</b>。" data-label="卵隨糞便排出"><rect x="524" y="132" width="140" height="54" rx="10" class="bx"/><text x="594" y="154" text-anchor="middle" class="tb">卵隨糞便排出</text></g>
+<text x="594" y="173" text-anchor="middle" class="ts">大、卵蓋不明顯</text>
+<rect x="354" y="132" width="140" height="54" rx="10" class="bx"/><text x="424" y="164" text-anchor="middle" class="tb">水中孵出纖毛幼蟲</text>
+<g class="hot" data-tip="<i>Lymnaea</i>（椎實螺）。" data-label="1st IH：椎實螺"><rect x="184" y="132" width="140" height="54" rx="10" class="bx"/><text x="254" y="154" text-anchor="middle" class="tb">1st IH：椎實螺</text></g>
+<text x="254" y="173" text-anchor="middle" class="ts">胞狀 → 雷氏 → 尾動</text>
+<rect x="14" y="132" width="140" height="54" rx="10" class="bx"/><text x="84" y="164" text-anchor="middle" class="tb">尾動幼蟲附著植物結囊</text>
+<g class="hot" data-tip="考古配合題：<b>praziquantel 無效</b>的吸蟲 → 牛羊肝吸蟲。也可用 Bithionol。" data-label="Triclabendazole"><rect x="694" y="132" width="140" height="54" rx="10" class="bp"/><text x="764" y="154" text-anchor="middle" class="tb">Triclabendazole</text></g>
+<text x="764" y="173" text-anchor="middle" class="ts">治療 · PZQ 效果差</text>
+<text x="14" y="220" class="th">診斷</text><text x="78" y="220" class="ts">糞便或膽汁找卵（要排除吃動物肝的假感染）；影像、血清學</text>
+<rect x="504" y="231" width="14" height="10" rx="3" class="bw"/><text x="524" y="240" class="ts">感染期</text>
+<rect x="616" y="231" width="14" height="10" rx="3" class="bv"/><text x="636" y="240" class="ts">成蟲寄生處</text>
+<rect x="728" y="231" width="14" height="10" rx="3" class="br"/><text x="748" y="240" class="ts">致病／臨床</text>
+</svg>

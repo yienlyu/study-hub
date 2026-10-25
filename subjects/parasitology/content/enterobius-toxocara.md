@@ -19,6 +19,10 @@
 - **治療**：**Pyrantel pamoate 首選**（老師也提到 Mebendazole）；**全家一起治療**；注意個人衛生、清洗並曝曬寢具衣物。
 - 范老師 2017 年在**馬紹爾群島（RMI）**幼稚園篩檢：平均 **22.4%**（男 24.5%、女 19.9%）。
 
+<div data-fig="enterobius-cycle"></div>
+
+<div data-fig="slide-enterobius-cycle"></div>
+
 <div data-fig="slide-enterobius-adult"></div>
 
 <div data-fig="slide-enterobius-egg"></div>
@@ -47,6 +51,10 @@
 - 血清盛行率：聖多美 99%、馬紹爾 86%；台北大學生 8.4%；台灣山地地區約 76.6%。
 - 台灣病例：14 歲男孩**眼部犬蛔蟲症**（馬偕，2008–09），Mebendazole＋類固醇效果不穩，改用 **Albendazole＋類固醇**約 45 天後痊癒。
 - 范老師的假說：**腦犬蛔蟲症可能悄悄進展為神經退化性疾病（阿茲海默症）**（Clin Microbiol Rev 2015）。
+
+<div data-fig="toxocara-cycle"></div>
+
+<div data-fig="slide-toxocara-cycle"></div>
 
 <div data-fig="slide-toxocara-egg"></div>
 

@@ -28,6 +28,10 @@
 - 治療：**Albendazole**、Mebendazole 或 Ivermectin，通常 1–3 天。
   - **Albendazole 機轉**：結合 **β-tubulin 的 colchicine-sensitive site**，抑制微管聚合；並使幼蟲與成蟲**吸收葡萄糖受損、耗盡肝醣**。
 
+<div data-fig="ascaris-cycle"></div>
+
+<div data-fig="slide-ascaris-cycle"></div>
+
 <div data-fig="slide-ascaris-egg"></div>
 
 <div data-fig="slide-ascaris-unfert"></div>
@@ -39,6 +43,10 @@
 - 診斷：糞便找蟲卵；輕度感染建議**濃縮法**；嚴重度與蟲負荷有關，可用 **Kato-Katz** 定量。
 - **蟲卵**：**桶狀（barrel shape）**、**兩端有不染色的透明極塞（polar plugs）**、50–54 × 22–23 µm、黃棕色；排出時**尚未胚胎化**。
 - 治療：**Mebendazole 首選**，Albendazole 為替代。
+
+<div data-fig="trichuris-cycle"></div>
+
+<div data-fig="slide-trichuris-cycle"></div>
 
 <div data-fig="slide-trichuris-egg"></div>
 
@@ -64,6 +72,10 @@
   - 幼蟲經過肺部時的呼吸道症狀。
 - 診斷：**糞便找蟲卵**；蟲卵中型（56–76 × 36–40 µm）、薄殼。**各種鉤蟲卵無法區分，只要寫 "hookworm" 就可以。**
 - 治療：流行區輕度感染常不治療；美國用 **Albendazole**，也可用 Mebendazole 或 pyrantel pamoate。
+
+<div data-fig="hookworm-cycle"></div>
+
+<div data-fig="slide-hookworm-cycle"></div>
 
 <div data-fig="slide-hookworm-egg"></div>
 

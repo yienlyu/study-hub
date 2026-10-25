@@ -12,6 +12,8 @@
 - 蟲卵：30–40 µm（中小型），像**帶殼花生**，兩端有**稍微突出的透明卵塞**，卵殼有不明顯的放射狀紋路。
 - 治療：**Mebendazole 首選**，Albendazole 為替代。
 
+<div data-fig="capillaria-cycles"></div>
+
 <div data-fig="slide-cphil-cycle"></div>
 
 <div data-fig="slide-cphil-egg"></div>
@@ -26,6 +28,8 @@
 - **診斷**：**肝臟切片或解剖**找到成蟲或蟲卵。
 - ⭐ **糞便中出現 *C. hepatica* 卵 = 過誤性寄生（spurious finding）**：不是真正感染，而是吃了被感染動物的肝臟（老師的例子：愛吃「三杯鼠」內臟）。停止吃這些內臟後，糞便就不會再有蟲卵。
 - 蟲卵：中型到中大型；卵殼有凹陷，在顯微鏡下呈**放射狀紋路**；兩端有透明卵塞，但卵塞**與卵殼密接、不突出**（和鞭蟲不同）。
+
+<div data-fig="slide-chep-cycle"></div>
 
 <div data-fig="slide-chep-egg"></div>
 
@@ -61,6 +65,8 @@
 - **治療**：**Ivermectin 首選**，**thiabendazole** 為替代；**有散布風險的病人都要治療**。
 
 <div data-fig="strongyloides-cycle"></div>
+
+<div data-fig="slide-strongyloides-cycle"></div>
 
 <div data-fig="slide-strongyloides"></div>
 

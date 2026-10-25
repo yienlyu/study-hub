@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 848 278" role="img" aria-label="衛氏肺吸蟲生活史：吃生的或醉的淡水蟹、蝦，囊狀幼蟲在小腸脫囊，穿過腸壁、腹腔、橫膈進入肺，成對住在肺部囊腔。卵隨痰咳出或吞下隨糞便排出，在水中孵出纖毛幼蟲，進入第一中間宿主川蜷，尾動幼蟲再進入淡水蟹蝦形成囊狀幼蟲。">
+<defs><marker id="paragonimus-cycle-fg" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker><marker id="paragonimus-cycle-fk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="paragonimus-cycle-fr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker><marker id="paragonimus-cycle-fv" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<rect x="6" y="24" width="836" height="74" rx="14" class="fp"/>
+<text x="12" y="18" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">人（貓、狗、豬也是保蟲宿主）</text>
+<rect x="6" y="122" width="666" height="74" rx="14" class="fp"/>
+<text x="12" y="116" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">淡水環境</text>
+<path d="M156 61L182 61" class="ln" marker-end="url(#paragonimus-cycle-fk)"/>
+<path d="M326 61L352 61" class="ln" marker-end="url(#paragonimus-cycle-fk)"/>
+<path d="M496 61L522 61" class="ln" marker-end="url(#paragonimus-cycle-fk)"/>
+<path d="M666 61L692 61" class="lr dash" marker-end="url(#paragonimus-cycle-fr)"/>
+<path d="M594 90L594 130" class="ln" marker-end="url(#paragonimus-cycle-fk)"/>
+<path d="M522 159L496 159" class="ln" marker-end="url(#paragonimus-cycle-fk)"/>
+<path d="M352 159L326 159" class="ln" marker-end="url(#paragonimus-cycle-fk)"/>
+<path d="M182 159L156 159" class="ln" marker-end="url(#paragonimus-cycle-fk)"/>
+<path d="M84 130L84 90" class="ln" marker-end="url(#paragonimus-cycle-fk)"/>
+<g class="hot" data-tip="2nd IH：<b>淡水蟹（澤蟹）</b>、蝦；囊狀幼蟲在鰓、肌肉、內臟。處理生蟹時汙染砧板、手也會感染。" data-label="生吃淡水蟹、蝦"><rect x="14" y="34" width="140" height="54" rx="10" class="bw"/><text x="84" y="56" text-anchor="middle" class="tb">生吃淡水蟹、蝦</text></g>
+<text x="84" y="75" text-anchor="middle" class="ts">醉蟹、醉蝦</text>
+<rect x="184" y="34" width="140" height="54" rx="10" class="bx"/><text x="254" y="66" text-anchor="middle" class="tb">小腸脫囊</text>
+<g class="hot" data-tip="幼蟲<b>穿過腸壁</b>到腹腔，再<b>穿過橫膈</b>進入胸腔與肺（和蛔蟲經血流到肺不同）。" data-label="穿腸壁、腹腔、橫膈"><rect x="354" y="34" width="140" height="54" rx="10" class="bx"/><text x="424" y="56" text-anchor="middle" class="tb">穿腸壁、腹腔、橫膈</text></g>
+<text x="424" y="75" text-anchor="middle" class="ts">不是經血流</text>
+<g class="hot" data-tip="咖啡豆形、兩個手掌狀睪丸<b>左右並列</b>在後 1/3。症狀：咳嗽、<b>鐵鏽色血痰</b>、胸痛；X 光常誤診為 <b>TB</b>。痰中有卵與 Charcot-Leyden 結晶。" data-label="肺囊腔：成對成蟲"><rect x="524" y="34" width="140" height="54" rx="10" class="bv"/><text x="594" y="56" text-anchor="middle" class="tb">肺囊腔：成對成蟲</text></g>
+<text x="594" y="75" text-anchor="middle" class="ts">咳血痰，像結核</text>
+<g class="hot" data-tip="蟲體移行到腦 → 佔位性病灶、癲癇。也可到皮下、腹腔。" data-label="異位：腦最嚴重"><rect x="694" y="34" width="140" height="54" rx="10" class="br"/><text x="764" y="56" text-anchor="middle" class="tb">異位：腦最嚴重</text></g>
+<text x="764" y="75" text-anchor="middle" class="ts">癲癇；30 歲以下</text>
+<g class="hot" data-tip="約 85 × 53 µm、金黃褐色、卵蓋扁平有肩、<b>後端殼增厚</b>。痰吞下去就出現在糞便或胃液。" data-label="卵隨痰或糞便排出"><rect x="524" y="132" width="140" height="54" rx="10" class="bx"/><text x="594" y="154" text-anchor="middle" class="tb">卵隨痰或糞便排出</text></g>
+<text x="594" y="173" text-anchor="middle" class="ts">卵蓋有肩、後端增厚</text>
+<rect x="354" y="132" width="140" height="54" rx="10" class="bx"/><text x="424" y="154" text-anchor="middle" class="tb">水中孵出纖毛幼蟲</text>
+<text x="424" y="173" text-anchor="middle" class="ts">約 3 週</text>
+<g class="hot" data-tip="<i>Semisulcospira libertina</i>。" data-label="1st IH：川蜷"><rect x="184" y="132" width="140" height="54" rx="10" class="bx"/><text x="254" y="154" text-anchor="middle" class="tb">1st IH：川蜷</text></g>
+<text x="254" y="173" text-anchor="middle" class="ts">胞狀 → 雷氏 → 尾動</text>
+<rect x="14" y="132" width="140" height="54" rx="10" class="bx"/><text x="84" y="154" text-anchor="middle" class="tb">尾動幼蟲進入蟹、蝦</text>
+<text x="84" y="173" text-anchor="middle" class="ts">形成囊狀幼蟲</text>
+<text x="14" y="220" class="th">診斷</text><text x="78" y="220" class="ts">痰、糞便、胃液找卵；ELISA；首二例在台灣發現</text>
+<text x="14" y="240" class="th">治療</text><text x="78" y="240" class="ts">Praziquantel（Bithionol 較差）</text>
+<rect x="504" y="251" width="14" height="10" rx="3" class="bw"/><text x="524" y="260" class="ts">感染期</text>
+<rect x="616" y="251" width="14" height="10" rx="3" class="bv"/><text x="636" y="260" class="ts">成蟲寄生處</text>
+<rect x="728" y="251" width="14" height="10" rx="3" class="br"/><text x="748" y="260" class="ts">致病／臨床</text>
+</svg>
