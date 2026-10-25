@@ -1072,7 +1072,35 @@
   // ------------------------------------------------------------ markdown enhancement
   const slug = (s, i) =>
     `h-${i}-${s.replace(/[^\w\u4e00-\u9fff]+/g, "-").slice(0, 40)}`;
+  // CommonMark 的 flanking 規則遇到中文全形標點會失效，例如「在**細胞質（ER）**做」
+  // 的 ** 不會變粗體。改成直接左右配對 * / **，配不到再交給 marked 預設處理。
+  const STRONG_RE = /^\*\*(?!\s)([\s\S]+?)(?<![\s\\])\*\*(?!\*)/;
+  const EM_RE = /^\*(?![\s*])([^*\n]+?)(?<![\s\\])\*(?!\*)/;
+  let mdReady = false;
+  function setupMarked() {
+    if (mdReady || !window.marked) return;
+    mdReady = true;
+    window.marked.use({
+      tokenizer: {
+        emStrong(src) {
+          for (const [type, re] of [["strong", STRONG_RE], ["em", EM_RE]]) {
+            const m = re.exec(src);
+            if (m)
+              return { type, raw: m[0], text: m[1], tokens: this.lexer.inlineTokens(m[1]) };
+          }
+          return false;
+        },
+        // 筆記裡的 ~ 是「約」（~100%），只有 ~~ 才算刪除線
+        del(src) {
+          const m = /^~~(?!\s)([\s\S]+?)(?<!\s)~~(?!~)/.exec(src);
+          if (m)
+            return { type: "del", raw: m[0], text: m[1], tokens: this.lexer.inlineTokens(m[1]) };
+        },
+      },
+    });
+  }
   function mdToHTML(text) {
+    setupMarked();
     return window.marked
       ? window.marked.parse(text || "")
       : `<pre>${esc(text)}</pre>`;

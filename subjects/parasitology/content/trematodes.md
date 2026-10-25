@@ -246,6 +246,7 @@
 <div data-fig="slide-lab-fbuski-adult"></div>
 
 <div data-fig="slide-lab-echinostoma"></div>
+
 - **人雙口吸蟲** *G. hominis*：**紅棕色、表皮光滑、角錐形**，5–7 × 3–4 mm；口吸盤小而呈球狀，腹吸盤（acetabulum，「基部臼」）在後端寬大處；有明顯凹陷與背面突起；**睪丸大、分葉、前後排列**。
 
 <div data-fig="slide-lab-gastrodiscoides"></div>
