@@ -102,8 +102,16 @@
   const rich = (s) => {
     const isRow = (l) => l.trim().startsWith("|");
     const isSep = (l) => /^\|?[\s:|-]+\|?$/.test(l.trim()) && l.includes("-");
-    const cells = (l) => l.trim().replace(/^\||\|$/g, "").split("|").map((c) => c.trim());
-    const tr = (l, tag) => `<tr>${cells(l).map((c) => `<${tag}>${esc(c)}</${tag}>`).join("")}</tr>`;
+    const cells = (l) =>
+      l
+        .trim()
+        .replace(/^\||\|$/g, "")
+        .split("|")
+        .map((c) => c.trim());
+    const tr = (l, tag) =>
+      `<tr>${cells(l)
+        .map((c) => `<${tag}>${esc(c)}</${tag}>`)
+        .join("")}</tr>`;
     const lines = String(s ?? "").split("\n");
     let out = "";
     for (let i = 0; i < lines.length; ) {
@@ -1106,10 +1114,18 @@
     window.marked.use({
       tokenizer: {
         emStrong(src) {
-          for (const [type, re] of [["strong", STRONG_RE], ["em", EM_RE]]) {
+          for (const [type, re] of [
+            ["strong", STRONG_RE],
+            ["em", EM_RE],
+          ]) {
             const m = re.exec(src);
             if (m)
-              return { type, raw: m[0], text: m[1], tokens: this.lexer.inlineTokens(m[1]) };
+              return {
+                type,
+                raw: m[0],
+                text: m[1],
+                tokens: this.lexer.inlineTokens(m[1]),
+              };
           }
           return false;
         },
@@ -1117,7 +1133,12 @@
         del(src) {
           const m = /^~~(?!\s)([\s\S]+?)(?<!\s)~~(?!~)/.exec(src);
           if (m)
-            return { type: "del", raw: m[0], text: m[1], tokens: this.lexer.inlineTokens(m[1]) };
+            return {
+              type: "del",
+              raw: m[0],
+              text: m[1],
+              tokens: this.lexer.inlineTokens(m[1]),
+            };
         },
       },
     });
@@ -3351,7 +3372,10 @@
               if (a) {
                 if (qq.noAnswer) cls = picked.includes(o.k) ? "picked" : "dim";
                 else if (ans.includes(o.k))
-                  cls = multi && !picked.includes(o.k) ? "correct missed" : "correct";
+                  cls =
+                    multi && !picked.includes(o.k)
+                      ? "correct missed"
+                      : "correct";
                 else if (picked.includes(o.k)) cls = "wrong";
                 else cls = "dim";
               } else if (multi && S.sel.has(o.k)) cls = "picked";
@@ -4018,16 +4042,17 @@
       const optsBack = (x.options || []).length
         ? `<ol>${x.options.map((o) => `<li class="${ans.includes(o.k) ? "ans" : ""}"><span class="k">${o.k}</span><span>${esc(o.t)}</span></li>`).join("")}</ol>`
         : "";
-      const big = ans.length && !x.noAnswer
-        ? ans
-            .map((k) => {
-              const o = (x.options || []).find((y) => y.k === k);
-              return o ? `(${k}) ${esc(o.t)}` : `(${k})`;
-            })
-            .join(x.multi ? "<br>" : "　或　")
-        : x.answerText
-          ? ""
-          : "無正確選項";
+      const big =
+        ans.length && !x.noAnswer
+          ? ans
+              .map((k) => {
+                const o = (x.options || []).find((y) => y.k === k);
+                return o ? `(${k}) ${esc(o.t)}` : `(${k})`;
+              })
+              .join(x.multi ? "<br>" : "　或　")
+          : x.answerText
+            ? ""
+            : "無正確選項";
       return `<div class="flash-card${S.flipped ? " flipped" : ""}" id="fc">
         <div class="flash-inner">
           <section class="card flash-face front"${S.flipped ? " inert" : ""}>
@@ -4393,8 +4418,18 @@
     // 圖片註冊成 slide 型的圖，沿用放大檢視；wq: 的標題不帶蟲名，看圖猜蟲時用
     for (const w of list)
       w.imgs.forEach((m, i) => {
-        const base = { type: "slide", src: m.src, w: m.w, h: m.h, deck: m.deck, page: m.page };
-        subj.figById[`w:${w.id}:${i}`] = { ...base, title: `${w.zh} · ${m.kind}` };
+        const base = {
+          type: "slide",
+          src: m.src,
+          w: m.w,
+          h: m.h,
+          deck: m.deck,
+          page: m.page,
+        };
+        subj.figById[`w:${w.id}:${i}`] = {
+          ...base,
+          title: `${w.zh} · ${m.kind}`,
+        };
         subj.figById[`wq:${w.id}:${i}`] = { ...base, title: m.kind };
       });
     return (subj.worms = list);
@@ -4414,7 +4449,9 @@
         ([k, t]) =>
           `<section><h3>${t}</h3><ul>${w[k].map((x) => `<li>${wmd(x)}</li>`).join("")}</ul></section>`,
       )
-      .join("")}${subj.chMap[w.ch] ? `<a class="worm-ch noprint" href="#/s/${subj.meta.id}/c/${w.ch}/summary">→ Ch.${pad2(subj.chMap[w.ch].idx)} ${esc(subj.chMap[w.ch].title)}</a>` : ""}</div>`;
+      .join(
+        "",
+      )}${subj.chMap[w.ch] ? `<a class="worm-ch noprint" href="#/s/${subj.meta.id}/c/${w.ch}/summary">→ Ch.${pad2(subj.chMap[w.ch].idx)} ${esc(subj.chMap[w.ch].title)}</a>` : ""}</div>`;
 
   async function pageWorms(subj, q) {
     const sid = subj.meta.id;
@@ -4453,7 +4490,16 @@
         <div class="worm-bar noprint">
           <div class="chips">${chip("", "全部", all.length)}${groups.map((x) => chip(x, x, pick(x).length)).join("")}${cats.map((x) => chip(x, x, pick(x).length)).join("")}${unsure.size ? chip("unsure", "還不熟", unsure.size) : ""}</div>
           <div class="toolbar">
-            <nav class="seg" aria-label="遮住">${[["", "全部攤開"], ["name", "遮名字"], ["body", "遮重點"]].map(([k, t]) => `<a href="${href({ mask: k })}"${mask === k ? ' aria-current="page"' : ""}>${t}</a>`).join("")}</nav>
+            <nav class="seg" aria-label="遮住">${[
+              ["", "全部攤開"],
+              ["name", "遮名字"],
+              ["body", "遮重點"],
+            ]
+              .map(
+                ([k, t]) =>
+                  `<a href="${href({ mask: k })}"${mask === k ? ' aria-current="page"' : ""}>${t}</a>`,
+              )
+              .join("")}</nav>
             <a class="btn accent" href="${href({ mask: "", play: "img" })}">${ic("cards")}看圖猜蟲翻卡</a>
             <a class="btn" href="${href({ mask: "", play: "name" })}">${ic("rotate")}看名字回想翻卡</a>
           </div>
@@ -4462,7 +4508,9 @@
           list.length
             ? `<div class="worm-grid">${list
                 .map(
-                  (w) => `<article class="card worm${mask ? ` mask-${mask}` : ""}" id="worm-${esc(w.id)}">
+                  (
+                    w,
+                  ) => `<article class="card worm${mask ? ` mask-${mask}` : ""}" id="worm-${esc(w.id)}">
               <div class="worm-top"><span class="pill line">${esc(w.cat)}</span>${unsure.has(w.id) ? '<span class="pill bad">還不熟</span>' : ""}</div>
               ${wormName(w)}
               ${wormImgs(subj, w, mask === "name")}
@@ -5169,7 +5217,7 @@
           <ul class="channels">
             ${formUrl ? `<li><span class="ico">${ic("file")}</span><span><b>用 Google 表單</b>最簡單：<a href="${esc(formUrl)}" target="_blank" rel="noopener">打開表單</a>直接填寫送出，不需要 LINE 或 Email。</span></li>` : ""}
             ${mail ? `<li><span class="ico">${ic("mail")}</span><span><b>用 Email 寄送</b>會開啟你的郵件程式，內容自動帶入。</span></li>` : ""}
-            <li><span class="ico">${ic("chat")}</span><span><b>用 LINE 傳送</b>${line ? "會開啟 LINE；填了說明的話，內容會先複製好，貼上送出就好。" : "填了說明的話，內容會先複製好，貼到 LINE 傳給我。"}</span></li>
+            <li><span class="ico">${ic("chat")}</span><span><b>用 LINE 傳送</b>${line ? "會開啟（我的） LINE；填了說明的話，內容會先複製好，貼上送出就好。" : "填了說明的話，內容會先複製好，貼到 LINE 傳給我。"}</span></li>
           </ul>
         </div>
         <form class="card form" id="rf" style="margin-top:28px">
@@ -5178,7 +5226,7 @@
             <label>類型<select class="input" name="type"><option>答案錯誤</option><option>詳解有誤或不清楚</option><option>題目文字錯誤 / 缺漏</option><option>重點整理內容錯誤</option><option>網站功能問題</option><option>使用回饋 / 功能建議</option><option>其他</option></select></label>
             <label>位置<input class="input" type="text" name="where" value="${esc(q.where || (qq ? `${qq.source} ${qq.id}` : ""))}" placeholder="例如：先天免疫／重點整理"></label>
           </div>
-          <label>說明<textarea class="input" name="desc" placeholder="回報錯誤：寫下你認為正確的內容，最好附上出處或 slides 頁碼。使用回饋：哪裡好用、哪裡卡卡的、想要什麼功能都可以。"></textarea></label>
+          <label>說明<textarea class="input" name="desc" placeholder="回報錯誤：寫下你認為正確的內容，可以再附上出處或 slides 頁碼。使用回饋：哪裡好用、哪裡卡卡的、想要什麼功能都可以許願看看！"></textarea></label>
           <div class="toolbar">
             ${mail ? `<button class="btn accent" type="submit" id="mailBtn">${ic("mail")}用 Email 寄送</button>` : ""}
             <button class="btn${mail ? "" : " accent"}" type="button" id="lineBtn">${ic("chat")}用 LINE 傳送</button>
