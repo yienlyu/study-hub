@@ -455,7 +455,7 @@ a.pill:hover { text-decoration: none; border-color: var(--rule-strong); }
 .tip.show { opacity: 1; transform: none; }
 .tip b { font-weight: 650; }
 .tip .row { display: flex; gap: 8px; align-items: center; }
-.tip i { width: 8px; height: 8px; border-radius: 2px; display: inline-block; }
+.tip i:empty { width: 8px; height: 8px; border-radius: 2px; display: inline-block; }  /* 色塊；有字的 <i> 是學名斜體 */
 details.data-table { margin-top: 14px; font-size: .84rem; }
 details.data-table summary { cursor: pointer; color: var(--ink-3); list-style: none; display: inline-flex; gap: 6px; align-items: center; }
 details.data-table summary::-webkit-details-marker { display: none; }
