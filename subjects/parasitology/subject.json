@@ -8,6 +8,7 @@
   "color": "#6b7a2f",
   "icon": "🪱",
   "roots": "content/_roots.md",
+  "worms": "data/worms.json",
   "questionFiles": [
     "data/questions-kaogu.json",
     "data/questions-k113mid.json",

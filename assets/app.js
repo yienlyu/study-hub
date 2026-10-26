@@ -4195,10 +4195,17 @@
     }
     return (subj.cards[key] = cards);
   }
+  const sheetTabs = (sid, m, cur) => {
+    const T = (k, href, icon, label) =>
+      `<a href="#/s/${sid}/sheet${href}"${cur === k ? ' aria-current="page"' : ""}>${ic(icon)}${label}</a>`;
+    return `<nav class="seg" aria-label="切換">${m.sheet ? T("sheet", "", "grid", "速記表") : ""}${m.worms ? T("worms", "/worms", "cards", "蟲卡") : ""}${m.roots ? T("roots", "/roots", "book", "字根字首") : ""}${T("figs", "/figs", "image", "觀念圖")}</nav>`;
+  };
   async function pageSheet(sid, tab, q = {}) {
     const subj = await loadSubject(sid);
     setChrome(sid, "sheet");
     const m = subj.meta;
+    if (tab === "worms" || (!tab && !m.sheet && m.worms))
+      return pageWorms(subj, q);
     const figs = subj.figs || [];
     if (!tab && !m.sheet && m.roots) tab = "roots";
     const isFigs = tab === "figs",
@@ -4292,7 +4299,7 @@
           <h1 class="display h-l" style="margin-top:12px">${view.h1}</h1>
           <p class="lede" style="margin-bottom:0">${view.lede}</p></div>
           <div class="toolbar noprint">
-            <nav class="seg" aria-label="切換">${m.sheet ? `<a href="#/s/${sid}/sheet"${!isFigs && !isRoots ? ' aria-current="page"' : ""}>${ic("grid")}速記表</a>` : ""}${m.roots ? `<a href="#/s/${sid}/sheet/roots"${isRoots ? ' aria-current="page"' : ""}>${ic("book")}字根字首</a>` : ""}<a href="#/s/${sid}/sheet/figs"${isFigs ? ' aria-current="page"' : ""}>${ic("image")}觀念圖</a></nav>
+            ${sheetTabs(sid, m, isFigs ? "figs" : isRoots ? "roots" : "sheet")}
             ${isRoots && cards.length ? `<button class="btn" type="button" id="maskBtn" aria-pressed="false">${ic("eye")}遮住意思</button>` : ""}
             ${isFigs ? "" : `<button class="btn" type="button" id="printBtn">${ic("printer")}列印</button>`}
           </div>
@@ -4341,6 +4348,258 @@
         hydrateFigs($app, subj).then(() => q.find && findInPage(q.find));
       },
     );
+  }
+
+  // ------------------------------------------------------------ 蟲卡：每隻蟲的學名、slides 圖、特徵、生活史、疾病與治療
+  // 資料在 subject.json 的 worms（JSON 陣列），圖片由 tools/build_para_worms.py 產生
+  const WORM_SEC = [
+    ["feat", "重要特徵"],
+    ["cycle", "生活史"],
+    ["disease", "疾病"],
+    ["tx", "診斷與治療"],
+  ];
+  const wmd = (t) =>
+    esc(t)
+      .replace(/\*\*(.+?)\*\*/g, "<b>$1</b>")
+      .replace(/\*(.+?)\*/g, "<i>$1</i>");
+  async function loadWorms(subj) {
+    if (subj.worms) return subj.worms;
+    const list = subj.meta.worms
+      ? await fetchJSON(`${subj.path}/${subj.meta.worms}`).catch(() => [])
+      : [];
+    // 圖片註冊成 slide 型的圖，沿用放大檢視；wq: 的標題不帶蟲名，看圖猜蟲時用
+    for (const w of list)
+      w.imgs.forEach((m, i) => {
+        const base = { type: "slide", src: m.src, w: m.w, h: m.h, deck: m.deck, page: m.page };
+        subj.figById[`w:${w.id}:${i}`] = { ...base, title: `${w.zh} · ${m.kind}` };
+        subj.figById[`wq:${w.id}:${i}`] = { ...base, title: m.kind };
+      });
+    return (subj.worms = list);
+  }
+  const wormName = (w) =>
+    `<div class="wn"><i class="sci">${esc(w.sci)}</i><b>${esc(w.zh)}</b>${w.alias ? `<span class="alias">${esc(w.alias)}</span>` : ""}</div>`;
+  const wormImgs = (subj, w, quiz) =>
+    `<div class="worm-imgs" data-sid="${esc(subj.meta.id)}">${w.imgs
+      .map(
+        (m, i) =>
+          `<button type="button" class="worm-img" data-zoom="${quiz ? "wq" : "w"}:${esc(w.id)}:${i}" aria-label="放大${quiz ? "" : esc(w.zh)}${esc(m.kind)}"><img src="${esc(subj.path)}/${esc(m.src)}" width="${m.w}" height="${m.h}" loading="lazy" decoding="async" alt="${esc(quiz ? m.kind : `${w.zh}${m.kind}`)}（${esc(m.deck)} 第 ${m.page} 頁）"><span>${esc(m.kind)}</span></button>`,
+      )
+      .join("")}</div>`;
+  const wormBody = (subj, w) =>
+    `<div class="worm-body">${WORM_SEC.filter(([k]) => (w[k] || []).length)
+      .map(
+        ([k, t]) =>
+          `<section><h3>${t}</h3><ul>${w[k].map((x) => `<li>${wmd(x)}</li>`).join("")}</ul></section>`,
+      )
+      .join("")}${subj.chMap[w.ch] ? `<a class="worm-ch noprint" href="#/s/${subj.meta.id}/c/${w.ch}/summary">→ Ch.${pad2(subj.chMap[w.ch].idx)} ${esc(subj.chMap[w.ch].title)}</a>` : ""}</div>`;
+
+  async function pageWorms(subj, q) {
+    const sid = subj.meta.id;
+    const m = subj.meta;
+    const all = await loadWorms(subj);
+    const unsureKey = `sh:${sid}:worms-unsure`;
+    const unsure = new Set(store.get(unsureKey, []));
+    const cats = [...new Set(all.map((w) => w.cat))];
+    const pick = (g) =>
+      g === "unsure"
+        ? all.filter((w) => unsure.has(w.id))
+        : g
+          ? all.filter((w) => w.cat === g || w.group === g)
+          : all;
+    const g = q.g || "";
+    if (q.play) {
+      const ids = q.ids ? q.ids.split(",") : null;
+      const pool = ids ? all.filter((w) => ids.includes(w.id)) : pick(g);
+      return runWormCards(subj, shuffle(pool), q, unsureKey);
+    }
+    const list = pick(g);
+    const mask = ["name", "body"].includes(q.mask) ? q.mask : "";
+    const href = (o) => `#/s/${sid}/sheet/worms?${qs({ g, mask, ...o })}`;
+    const chip = (val, label, n) =>
+      `<a class="chip" href="${href({ g: val })}"${g === val ? ' aria-current="true"' : ""}>${esc(label)}<span class="n">${n}</span></a>`;
+    const groups = [...new Set(all.map((w) => w.group))];
+    render(
+      `<div class="wrap">
+        <nav class="crumbs" aria-label="路徑"><a href="#/s/${sid}">${esc(m.title)}</a><span class="sep">/</span><span>蟲卡</span></nav>
+        <header class="section-head" style="padding-top:14px;align-items:end">
+          <div><div class="eyebrow">Worm cards · ${all.length} 隻蟲</div>
+          <h1 class="display h-l" style="margin-top:12px">蟲蟲記憶卡</h1>
+          <p class="lede" style="margin-bottom:0">每隻蟲一張卡：英文學名、中文名、slides 上的蟲體與蟲卵圖、重要特徵、生活史、疾病和治療。「遮名字」只留圖、看圖猜蟲，「遮重點」是看名字回想；點卡片翻開答案，點圖可以放大。</p></div>
+          <div class="toolbar noprint">${sheetTabs(sid, m, "worms")}</div>
+        </header>
+        <div class="worm-bar noprint">
+          <div class="chips">${chip("", "全部", all.length)}${groups.map((x) => chip(x, x, pick(x).length)).join("")}${cats.map((x) => chip(x, x, pick(x).length)).join("")}${unsure.size ? chip("unsure", "還不熟", unsure.size) : ""}</div>
+          <div class="toolbar">
+            <nav class="seg" aria-label="遮住">${[["", "全部攤開"], ["name", "遮名字"], ["body", "遮重點"]].map(([k, t]) => `<a href="${href({ mask: k })}"${mask === k ? ' aria-current="page"' : ""}>${t}</a>`).join("")}</nav>
+            <a class="btn accent" href="${href({ mask: "", play: "img" })}">${ic("cards")}看圖猜蟲翻卡</a>
+            <a class="btn" href="${href({ mask: "", play: "name" })}">${ic("rotate")}看名字回想翻卡</a>
+          </div>
+        </div>
+        ${
+          list.length
+            ? `<div class="worm-grid">${list
+                .map(
+                  (w) => `<article class="card worm${mask ? ` mask-${mask}` : ""}" id="worm-${esc(w.id)}">
+              <div class="worm-top"><span class="pill line">${esc(w.cat)}</span>${unsure.has(w.id) ? '<span class="pill bad">還不熟</span>' : ""}</div>
+              ${wormName(w)}
+              ${wormImgs(subj, w, mask === "name")}
+              ${wormBody(subj, w)}
+              ${mask ? `<button class="btn sm ghost worm-reveal noprint" type="button">${ic("eye")}<span>看答案</span></button>` : ""}
+            </article>`,
+                )
+                .join("")}</div>`
+            : `<div class="card empty" style="margin-top:20px"><p>這一類還沒有蟲卡。</p></div>`
+        }
+      </div>`,
+      () => {
+        $(".worm-grid")?.addEventListener("click", (e) => {
+          if (e.target.closest("[data-zoom], a")) return;
+          const c = e.target.closest(".worm[class*='mask-']");
+          if (!c) return;
+          const on = c.classList.toggle("shown");
+          $(".worm-reveal span", c).textContent = on ? "蓋回去" : "看答案";
+        });
+      },
+    );
+  }
+
+  function runWormCards(subj, pool, q, unsureKey) {
+    const sid = subj.meta.id;
+    const back = `#/s/${sid}/sheet/worms?${qs({ g: q.g || "" })}`;
+    if (!pool.length) {
+      render(
+        emptyState(
+          "沒有可以翻的蟲卡",
+          "換個分類試試看。",
+          `<a class="btn primary" href="${back}">回蟲卡</a>`,
+        ),
+      );
+      return;
+    }
+    autoHideTabbar();
+    const byImg = q.play !== "name";
+    const S = { i: 0, flipped: false, res: pool.map(() => null) };
+    const tally = () =>
+      S.res.reduce((a, r) => (r === null ? a : (r ? a.y++ : a.n++, a)), {
+        y: 0,
+        n: 0,
+      });
+    const face = () => {
+      const w = pool[S.i];
+      return `<div class="flash-card${S.flipped ? " flipped" : ""}" id="fc">
+        <div class="flash-inner">
+          <section class="card flash-face front worm-face"${S.flipped ? " inert" : ""}>
+            <div class="worm-top"><span class="pill line">${esc(byImg ? w.group : w.cat)}</span></div>
+            ${byImg ? `<p class="q-stem">這是哪隻蟲？</p>${wormImgs(subj, w, true)}` : `${wormName(w)}<p class="q-stem">回想這隻蟲長怎樣，會造成什麼病？</p>`}
+            <div class="flip-hint"><button class="btn accent lg" type="button" id="flip">${ic("rotate")}翻面看答案<span class="kbd-hint hide-touch"><kbd>Space</kbd></span></button></div>
+          </section>
+          <section class="card flash-face back worm-face"${S.flipped ? "" : " inert"}>
+            <div class="worm-top"><span class="pill line">${esc(w.cat)}</span></div>
+            ${wormName(w)}
+            ${wormImgs(subj, w, false)}
+            ${wormBody(subj, w)}
+          </section>
+        </div>
+      </div>
+      <div class="flash-actions" ${S.flipped ? "" : "hidden"}>
+        <button class="btn no" type="button" data-know="0">${ic("rotate")}還不熟<span class="kbd-hint hide-touch"><kbd>1</kbd></span></button>
+        <button class="btn yes" type="button" data-know="1">${ic("check")}記得<span class="kbd-hint hide-touch"><kbd>2</kbd></span></button>
+      </div>`;
+    };
+    const paint = () => {
+      const t = tally();
+      const n = pool.length;
+      $app.innerHTML = `<div class="enter"><div class="wrap"><div class="flash">
+        <div class="quiz-top">
+          <a class="btn ghost sm" href="${back}" aria-label="結束翻卡">${ic("x")}<span class="hide-s">結束</span></a>
+          <span class="prog"><b>${S.i + 1}</b> / ${n}</span>
+          <div class="quiz-stats">
+            <span title="記得" style="color:var(--good)">${ic("check")}<b class="num">${t.y}</b></span>
+            <span title="還不熟" style="color:var(--bad)">${ic("rotate")}<b class="num">${t.n}</b></span>
+          </div>
+        </div>
+        <div class="flash-bar" aria-hidden="true"><i style="width:${(t.y / n) * 100}%;background:var(--good)"></i><i style="width:${(t.n / n) * 100}%;background:var(--bad)"></i></div>
+        ${face()}
+        <div class="shortcut-hint" aria-hidden="true"><span><kbd>Space</kbd> 翻面</span><span><kbd>1</kbd> 還不熟</span><span><kbd>2</kbd> 記得</span><span><kbd>←</kbd><kbd>→</kbd> 上／下一張</span></div>
+      </div></div></div>`;
+      $("#flip")?.addEventListener("click", flip);
+      $$("[data-know]").forEach((b) =>
+        b.addEventListener("click", () => know(b.dataset.know === "1")),
+      );
+    };
+    const flip = () => {
+      S.flipped = !S.flipped;
+      $("#fc").classList.toggle("flipped", S.flipped);
+      $("#fc .front").inert = S.flipped;
+      $("#fc .back").inert = !S.flipped;
+      $(".flash-actions").hidden = !S.flipped;
+      if (S.flipped) $("[data-know='1']")?.focus({ preventScroll: true });
+    };
+    const go = (k) => {
+      if (k < 0) return;
+      if (k >= pool.length) return finish();
+      S.i = k;
+      S.flipped = false;
+      paint();
+      if (innerWidth < 760) scrollTo({ top: 0 });
+    };
+    // 「還不熟」記在 localStorage，蟲卡頁可以只看這幾隻；之後翻到「記得」就移除
+    const know = (ok) => {
+      S.res[S.i] = ok;
+      const set = new Set(store.get(unsureKey, []));
+      set[ok ? "delete" : "add"](pool[S.i].id);
+      store.set(unsureKey, [...set]);
+      go(S.i + 1);
+    };
+    const onKey = (e) => {
+      if (
+        e.target.matches("input, textarea, select") ||
+        e.metaKey ||
+        e.ctrlKey ||
+        e.altKey ||
+        !$(".flash") ||
+        $(".figzoom")
+      )
+        return;
+      if (e.key === " ") {
+        e.preventDefault();
+        flip();
+      } else if ((e.key === "1" || e.key === "2") && S.flipped) {
+        e.preventDefault();
+        know(e.key === "2");
+      } else if (e.key === "ArrowRight") {
+        e.preventDefault();
+        go(S.i + 1);
+      } else if (e.key === "ArrowLeft") {
+        e.preventDefault();
+        go(S.i - 1);
+      }
+    };
+    const finish = () => {
+      removeEventListener("keydown", onKey);
+      const t = tally();
+      const bad = pool.filter((_, k) => S.res[k] === false);
+      const again = (o) =>
+        `#/s/${sid}/sheet/worms?${qs({ g: q.g || "", play: q.play, ...o })}`;
+      render(`<div class="wrap"><div class="result">
+        <div class="card result-hero">
+          <div class="score-ring" style="--p:${pct(t.y, t.y + t.n)}"><div><b>${t.y}<small style="font-size:.4em"> / ${t.y + t.n}</small></b><span>記得</span></div></div>
+          <div>
+            <div class="eyebrow">Worm cards complete</div>
+            <h1 class="display h-m" style="margin:10px 0 6px">${t.n ? `還有 ${t.n} 隻蟲要再看` : t.y ? "全部記得！" : "還沒有翻卡"}</h1>
+            <p class="muted" style="margin:0 0 18px">「還不熟」的蟲會標在蟲卡頁，可以用「還不熟」分類只看這幾隻。</p>
+            <div class="toolbar">
+              ${bad.length ? `<a class="btn accent" href="${again({ ids: bad.map((w) => w.id).join(",") })}">${ic("rotate")}只翻這 ${bad.length} 張</a>` : ""}
+              <a class="btn primary" href="${again({})}">${ic("shuffle")}再翻一輪</a>
+              <a class="btn" href="${back}">回蟲卡</a>
+            </div>
+          </div>
+        </div>
+      </div></div>`);
+    };
+    paint();
+    addEventListener("keydown", onKey);
+    onLeave(() => removeEventListener("keydown", onKey));
   }
 
   // ------------------------------------------------------------ analysis
@@ -5022,6 +5281,15 @@
         href: `#/s/${sid}/sheet`,
         k: "cheatsheet 速記 列印",
       });
+      if (s.meta.worms)
+        items.push({
+          g: "頁面",
+          icon: "cards",
+          t: "蟲蟲記憶卡",
+          s: s.meta.title,
+          href: `#/s/${sid}/sheet/worms`,
+          k: "蟲卡 記憶卡 學名 蟲卵 蟲體 worm cards flashcards",
+        });
       if (s.meta.roots)
         items.push({
           g: "頁面",
