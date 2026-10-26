@@ -4710,8 +4710,8 @@
         "t": "B. malayi"
       }
     ],
-    "answer": ["A", "B", "D"],
-    "explain": "答案 (A)(B)(D)：人畜共通（zoonotic）＝寄生蟲可以在人與其他脊椎動物之間傳播。\n(A) ✅ T. canis：最終宿主是狗，人誤食蟲卵感染；0907 投影片 p.75 把犬蛔蟲症列為「被忽視的人畜共通傳染疾病（Neglected zoonotic diseases, NZDs）」。\n(B) ✅ T. spiralis：豬、鼠等動物與人之間傳播；0922 投影片 p.3「Rats and rodents are primarily responsible…」，人吃到含被囊幼蟲的動物肉而感染。\n(C) ❌ W. bancrofti：只感染人（淋巴絲蟲），靠蚊子在人與人之間傳播。\n(D) ✅ C. hepatica：成蟲寄生在大鼠等動物的肝臟（0914 投影片 p.6「adult worms reside in the liver of various animals, especially rats」）。\n(E) ❌ B. malayi：依課堂內容，B. malayi 和 W. bancrofti 一起被介紹為人類淋巴絲蟲（0922 投影片 p.33 Filaria、p.35 病媒、p.36 分布於亞洲），上課沒有提到動物宿主，因此不選。\n※ 原本網站答案 (A)(D)(E) 漏了 T. spiralis，已更正（與 k109b-m04、k113-nem-m03 一致）。\n\n【補充：B. malayi 與動物宿主】\n課本上 B. malayi 分為夜間週期型與亞週期型（subperiodic）；亞週期型可以感染貓、猴子等動物，所以教科書會把它列為人畜共通的血絲蟲。這部分上課與投影片都沒有提到，考試依本課程內容作答即可，知道有這個例外就好。",
+    "answer": ["A", "B", "D", "E"],
+    "explain": "答案 (A)(B)(D)(E)：人畜共通（zoonotic）＝寄生蟲可以在人與其他脊椎動物之間傳播。\n(A) ✅ T. canis：最終宿主是狗，人誤食蟲卵感染；0907 投影片 p.75 把犬蛔蟲症列為「被忽視的人畜共通傳染疾病（Neglected zoonotic diseases, NZDs）」。\n(B) ✅ T. spiralis：豬、鼠等動物與人之間傳播；0922 投影片 p.3「Rats and rodents are primarily responsible…」，人吃到含被囊幼蟲的動物肉而感染。\n(C) ❌ W. bancrofti：只感染人（淋巴絲蟲），靠蚊子在人與人之間傳播。\n(D) ✅ C. hepatica：成蟲寄生在大鼠等動物的肝臟（0914 投影片 p.6「adult worms reside in the liver of various animals, especially rats」）。\n(E) ✅ B. malayi：亞週期型（nocturnally subperiodic）有動物保蟲宿主，包括葉猴、獼猴、貓、穿山甲、麝香貓等；由沼澤森林區的 Mansonia 蚊在動物與人之間傳播，所以屬於人畜共通。夜間週期型則幾乎只在人之間傳播。\n※ 對比 (C) W. bancrofti：沒有動物保蟲宿主，這是兩種淋巴絲蟲在這題的關鍵差別。\n※ 原本網站答案 (A)(D)(E) 漏了 T. spiralis；之前一度依課堂內容把 B. malayi 也拿掉，現在依教科書（亞週期型為人畜共通）改回選 (E)。\n\n【補充：防治意義】\n因為亞週期型有動物保蟲宿主，只對人做集體投藥（MDA）很難根除，還需要控制病媒（例如清除 Mansonia 孳生所需的水生植物 Pistia），並注意動物宿主。",
     "topics": ["線蟲綜合比較"],
     "pattern": "多選題",
     "multi": true
