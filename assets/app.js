@@ -5157,6 +5157,7 @@
     const qq = subj && q.qid ? subj.qById[q.qid] : null;
     const mail = CFG.contactEmail;
     const line = CFG.lineUrl;
+    const formUrl = CFG.feedbackFormUrl;
     render(
       `<div class="wrap">
       <div class="report">
@@ -5164,7 +5165,9 @@
           <div class="eyebrow" style="padding-top:28px">Report · Feedback</div>
           <h1 class="display h-l" style="margin-top:12px">回報 / 回饋</h1>
           <p class="lede">答案錯、詳解不清楚、錯字、網站壞掉，或是用起來的感想、想要的功能，都歡迎告訴我。</p>
+          ${formUrl ? `<a class="btn accent" style="margin-top:20px" href="${esc(formUrl)}" target="_blank" rel="noopener">${ic("file")}用 Google 表單回報${ic("arrowUR")}</a>` : ""}
           <ul class="channels">
+            ${formUrl ? `<li><span class="ico">${ic("file")}</span><span><b>用 Google 表單</b>最簡單：<a href="${esc(formUrl)}" target="_blank" rel="noopener">打開表單</a>直接填寫送出，不需要 LINE 或 Email。</span></li>` : ""}
             ${mail ? `<li><span class="ico">${ic("mail")}</span><span><b>用 Email 寄送</b>會開啟你的郵件程式，內容自動帶入。</span></li>` : ""}
             <li><span class="ico">${ic("chat")}</span><span><b>用 LINE 傳送</b>${line ? "會開啟 LINE；填了說明的話，內容會先複製好，貼上送出就好。" : "填了說明的話，內容會先複製好，貼到 LINE 傳給我。"}</span></li>
           </ul>

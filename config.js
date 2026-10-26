@@ -3,6 +3,8 @@ window.STUDY_HUB_CONFIG = {
   siteTitle: "Study Hub",
   // 頁尾的 GitHub 連結
   githubRepo: "yienlyu/study-hub",
+  // 「回報 / 回饋」的 Google 表單連結；填了就在回報頁顯示「用 Google 表單回報」，不必透過 LINE 或 Email
+  feedbackFormUrl: "https://forms.gle/vmUxiSasab9v8jMZ8",
   // 「回報 / 回饋」的 Email 收件信箱；留空字串就不顯示 Email 按鈕
   contactEmail: "yienlyu@gmail.com",
   // 「用 LINE 傳送」按鈕開啟的 LINE 連結；留空字串時只複製內容，不開啟 LINE
