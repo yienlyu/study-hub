@@ -4835,12 +4835,12 @@
       .map(([, x]) => x.n)
       .filter(Boolean)
       .sort((a, b) => a - b);
-    const q = (p) => ns[Math.min(ns.length - 1, Math.floor(p * ns.length))] || 0;
+    const q = (p) =>
+      ns[Math.min(ns.length - 1, Math.floor(p * ns.length))] || 0;
     const c1 = Math.max(q(0.25), 1),
       c2 = Math.max(q(0.5), c1 + 1),
       c3 = Math.max(q(0.75), c2 + 1);
-    const lv = (n) =>
-      !n ? 0 : n <= c1 ? 1 : n <= c2 ? 2 : n <= c3 ? 3 : 4;
+    const lv = (n) => (!n ? 0 : n <= c1 ? 1 : n <= c2 ? 2 : n <= c3 ? 3 : 4);
     const rng = (a, b) => (a === b ? `${a}` : `${a}–${b}`);
     let cols = "",
       months = "",
@@ -4876,7 +4876,7 @@
       <div class="heat-months" aria-hidden="true"><span></span>${months}</div>
       <div class="heat-body"><span class="heat-days" aria-hidden="true"><span></span><span>一</span><span></span><span>三</span><span></span><span>五</span><span></span></span>${cols}</div>
     </div></div>
-    <div class="heat-legend" aria-hidden="true">少<i class="l0"></i><i class="l1"></i><i class="l2"></i><i class="l3"></i><i class="l4"></i>多<span class="muted">（依你的每日題數：${rng(1, c1)} · ${rng(c1 + 1, c2)} · ${rng(c2 + 1, c3)} · ${c3 + 1}+ 題）</span></div>
+    <div class="heat-legend" aria-hidden="true">少<i class="l0"></i><i class="l1"></i><i class="l2"></i><i class="l3"></i><i class="l4"></i>多<span class="muted"></span></div>
     <details class="data-table"><summary>以表格檢視（每日練習）</summary><table><thead><tr><th>日期</th><th>題數</th><th>答對率</th></tr></thead><tbody>${rows.map(([k, x]) => `<tr><td>${k}</td><td class="n">${x.n}</td><td class="n">${pct(x.c, x.n)}%</td></tr>`).join("") || `<tr><td colspan="3" class="muted">還沒有紀錄</td></tr>`}</tbody></table></details>`;
   }
 
