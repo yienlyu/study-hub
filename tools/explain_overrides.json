@@ -144,6 +144,7 @@
  },
  "parasitology": {
   "questions-k109.json": {
+   "k109b-m06": "答案 (A)(C)(D)。\n(A) ✅ Toxocara canis：幼蟲移行到中樞神經造成神經性犬蛔蟲症（Neural toxocariasis, NT），可引起癲癇（0907 投影片 p.83、p.86 CNS involvement）。\n(B) ❌ Enterobius vermicularis：只在消化道（盲腸、肛門周圍），不侵犯腦。\n(C) ✅ Loa loa：微絲蚴可在組織中移行，包含中樞神經（Loa 腦病變，少見）。\n(D) ✅ A. cantonensis＝Angiostrongylus cantonensis（廣東住血線蟲），不是 Ancylostoma：L3 幼蟲進入人體後到中樞神經，造成嗜酸性腦膜炎（0922 投影片 p.27「Eosinophilic meningitis are caused by the presence of larvae in the brain」）。\n(E) ❌ Onchocerca volvulus：主要在皮下組織與眼睛（河盲症），不侵犯腦。\n(F) ❌ Ancylostoma duodenale（十二指腸鉤蟲）：成蟲寄生在小腸，造成缺鐵性貧血；幼蟲經皮膚→肺移行，不侵犯腦（0907 投影片 p.46、p.55）。\n※ 原始考古在 (E) 旁註「這隻應該是 Ancylostoma duodenale」，可能原題 (E) 有不同版本，所以兩個都列出來；兩者都不侵犯腦，答案不變。另一份 109 考古同題 k109m-m06 答案也是 (A)(C)(D)。",
    "k109a-19": "蛔蟲（Ascaris lumbricoides）：吃入污染土壤或生食蔬菜（如番薯）上的感染性蟲卵 → 小腸孵化 → 幼蟲穿腸壁經血流到肝、肺，再爬上氣管被吞回小腸發育為成蟲。成蟲最長可達 20–35 cm、淡粉紅色圓柱狀；大量感染或發燒、藥物刺激時成蟲會異位移行，可能從口或鼻爬出、被咳出或吐出 → 選 D。\n犬蛔蟲在人體只有幼蟲移行（VLM、OLM），廣東住血線蟲造成嗜酸性腦膜炎，旋毛蟲幼蟲在肌肉形成包囊，都不會吐出成蟲。",
    "k109a-21": "微絲蚴有外鞘（sheathed）：斑氏絲蟲 W. bancrofti、馬來絲蟲 B. malayi、羅阿絲蟲 Loa loa。\n無鞘（unsheathed）：蟠尾絲蟲 Onchocerca volvulus（以及 Mansonella 屬）→ 選 B。蟠尾絲蟲的微絲蚴在皮膚與眼睛，不在血中，診斷用皮膚切片（skin snip）。",
    "k109a-24": "一般吸蟲的生活史：卵 → 纖毛幼蟲 → 胞狀幼蟲 → 雷氏幼蟲 → 尾動幼蟲 → 囊狀幼蟲（metacercaria）→ 成蟲，人吃入囊蚴感染。\n血吸蟲（Schistosoma，包括埃及血吸蟲 S. haematobium）是例外：沒有雷氏幼蟲與囊狀幼蟲，螺體釋出的尾巴分叉尾蚴直接鑽入人的皮膚 → 選 C。",

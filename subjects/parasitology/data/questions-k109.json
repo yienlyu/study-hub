@@ -3202,11 +3202,15 @@
       },
       {
         "k": "E",
-        "t": "O. volvulus (這隻應該是Ancylostoma doudenale)"
+        "t": "O. volvulus"
+      },
+      {
+        "k": "F",
+        "t": "Ancylostoma duodenale"
       }
     ],
     "answer": ["A", "C", "D"],
-    "explain": "（參考112 考古）\n(A) Toxocara canis 會移行到大腦（Neural toxocariasis, NT）造成癲癇\n(B) Enterobius vermicularis 僅會在消化道中存活\n(C) Loa loa 會利用microfilaria 階段在組織內竄來竄去，包含中樞神經（很少見）\n(D) Angiostrongylus cantonensis 在L3 larva 階段入侵人體後，便會穿過十二指腸進入血液循環，抵達中樞神經系統成熟，到腦部經由腦部靜脈回到心臟與肺動脈。過程中造成eosinophilic meningitis\n(E) Onchocerca volvulus 主要感染位置為皮下組織與眼睛",
+    "explain": "答案 (A)(C)(D)。\n(A) ✅ Toxocara canis：幼蟲移行到中樞神經造成神經性犬蛔蟲症（Neural toxocariasis, NT），可引起癲癇（0907 投影片 p.83、p.86 CNS involvement）。\n(B) ❌ Enterobius vermicularis：只在消化道（盲腸、肛門周圍），不侵犯腦。\n(C) ✅ Loa loa：微絲蚴可在組織中移行，包含中樞神經（Loa 腦病變，少見）。\n(D) ✅ A. cantonensis＝Angiostrongylus cantonensis（廣東住血線蟲），不是 Ancylostoma：L3 幼蟲進入人體後到中樞神經，造成嗜酸性腦膜炎（0922 投影片 p.27「Eosinophilic meningitis are caused by the presence of larvae in the brain」）。\n(E) ❌ Onchocerca volvulus：主要在皮下組織與眼睛（河盲症），不侵犯腦。\n(F) ❌ Ancylostoma duodenale（十二指腸鉤蟲）：成蟲寄生在小腸，造成缺鐵性貧血；幼蟲經皮膚→肺移行，不侵犯腦（0907 投影片 p.46、p.55）。\n※ 原始考古在 (E) 旁註「這隻應該是 Ancylostoma duodenale」，可能原題 (E) 有不同版本，所以兩個都列出來；兩者都不侵犯腦，答案不變。另一份 109 考古同題 k109m-m06 答案也是 (A)(C)(D)。",
     "topics": ["線蟲綜合比較"],
     "pattern": "多選題",
     "multi": true

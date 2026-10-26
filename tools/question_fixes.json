@@ -7,6 +7,7 @@
    "k109m-m09": {"answer": ["C", "D", "E"]},
    "k109m-m10": {"answer": ["D"]},
    "k109m-m11": {"answer": ["B", "C", "D"]},
+   "k109b-m06": {"options": [{"k": "A", "t": "T. canis"}, {"k": "B", "t": "E. vermicularis"}, {"k": "C", "t": "L. loa"}, {"k": "D", "t": "A. cantonensis"}, {"k": "E", "t": "O. volvulus"}, {"k": "F", "t": "Ancylostoma duodenale"}]},
    "k109b-18": {
     "options": [
      {"k": "A", "t": "甲圖"},
