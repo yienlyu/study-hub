@@ -98,6 +98,29 @@
           "'": "&#39;",
         })[c],
     );
+  // 題幹／參考答案／詳解用：照常跳脫，但連續以 | 開頭的行當成 Markdown 表格（第二行是 |---| 就當表頭）
+  const rich = (s) => {
+    const isRow = (l) => l.trim().startsWith("|");
+    const isSep = (l) => /^\|?[\s:|-]+\|?$/.test(l.trim()) && l.includes("-");
+    const cells = (l) => l.trim().replace(/^\||\|$/g, "").split("|").map((c) => c.trim());
+    const tr = (l, tag) => `<tr>${cells(l).map((c) => `<${tag}>${esc(c)}</${tag}>`).join("")}</tr>`;
+    const lines = String(s ?? "").split("\n");
+    let out = "";
+    for (let i = 0; i < lines.length; ) {
+      if (!isRow(lines[i])) {
+        const start = i;
+        while (i < lines.length && !isRow(lines[i])) i++;
+        out += esc(lines.slice(start, i).join("\n"));
+        continue;
+      }
+      const rows = [];
+      while (i < lines.length && isRow(lines[i])) rows.push(lines[i++]);
+      const head = rows.length > 1 && isSep(rows[1]) ? rows[0] : null;
+      const body = (head ? rows.slice(2) : rows).filter((l) => !isSep(l));
+      out += `<div class="md-table"><table>${head ? `<thead>${tr(head, "th")}</thead>` : ""}<tbody>${body.map((l) => tr(l, "td")).join("")}</tbody></table></div>`;
+    }
+    return out;
+  };
   let onStoreSet = () => {};
   const store = {
     get(k, d) {
@@ -3350,12 +3373,12 @@
               ? `${ic("check")}答對了${S.streak >= 3 && S.i === S.last ? `・連對 ${S.streak} 題` : ""}`
               : `${ic("x")}答錯了，正確答案是 ${ansText(qq)}`;
         verdict = `<div class="verdict ${tone}" role="status"><div class="verdict-head">${head}</div><div class="verdict-body">
-          ${qq.answerText ? `<div class="answer-text"><div class="explain-title">參考答案</div>${esc(qq.answerText)}</div>` : ""}
-          ${qq.explain ? `<div class="explain-title">詳解</div><div class="explain">${esc(qq.explain)}</div>` : qq.answerText ? "" : '<div class="muted">這題沒有附詳解。</div>'}
+          ${qq.answerText ? `<div class="answer-text"><div class="explain-title">參考答案</div>${rich(qq.answerText)}</div>` : ""}
+          ${qq.explain ? `<div class="explain-title">詳解</div><div class="explain">${rich(qq.explain)}</div>` : qq.answerText ? "" : '<div class="muted">這題沒有附詳解。</div>'}
           ${qq.note ? `<div class="note">${ic("alert")}<div>${esc(qq.note)}</div></div>` : ""}${figLinks(subj, qq)}</div></div>`;
       } else if (isShort && S.revealed === S.i) {
         verdict = `<div class="verdict neutral"><div class="verdict-head">${ic("eye")}參考答案</div><div class="verdict-body">
-          ${qq.answerText ? `<div class="answer-text">${esc(qq.answerText)}</div>` : ""}${qq.explain ? `<div class="explain">${esc(qq.explain)}</div>` : ""}
+          ${qq.answerText ? `<div class="answer-text">${rich(qq.answerText)}</div>` : ""}${qq.explain ? `<div class="explain">${rich(qq.explain)}</div>` : ""}
           <div class="self-grade"><button class="btn" type="button" data-self="1">${ic("check")}我會了</button><button class="btn" type="button" data-self="0">${ic("rotate")}還不熟</button></div></div></div>`;
       }
       const shortBox =
@@ -3365,7 +3388,7 @@
       const last = S.i === pool.length - 1;
       return `<article class="card qcard" aria-labelledby="qstem">
         ${qMeta(subj, qq)}
-        <p class="q-stem" id="qstem">${esc(qq.stem)}</p>
+        <div class="q-stem" id="qstem">${rich(qq.stem)}</div>
         ${qImgs(subj, qq)}${opts}${multiBar}${shortBox}
         <div aria-live="polite">${verdict}</div>
         <div class="q-foot">
@@ -3792,7 +3815,7 @@
       const last = S.i === pool.length - 1;
       return `<article class="card qcard" aria-labelledby="qstem">
         <div class="q-meta"><span class="pill line">${esc(M.sections[S.sec[S.i]].title)}</span>${S.flag[S.i] ? `<span class="pill warn">${ic("flag")}已標記</span>` : ""}</div>
-        <p class="q-stem" id="qstem">${esc(qq.stem)}</p>
+        <div class="q-stem" id="qstem">${rich(qq.stem)}</div>
         ${qImgs(subj, qq)}
         <div class="options" role="radiogroup" aria-label="選項">${qq.options
           .map(
@@ -4009,15 +4032,15 @@
         <div class="flash-inner">
           <section class="card flash-face front"${S.flipped ? " inert" : ""}>
             ${qMeta(subj, x)}
-            <p class="q-stem">${esc(x.stem)}</p>${qImgs(subj, x)}${opts}
+            <div class="q-stem">${rich(x.stem)}</div>${qImgs(subj, x)}${opts}
             <div class="flip-hint"><button class="btn accent lg" type="button" id="flip">${ic("rotate")}翻面看答案<span class="kbd-hint hide-touch"><kbd>Space</kbd></span></button></div>
           </section>
           <section class="card flash-face back"${S.flipped ? "" : " inert"}>
             <div class="eyebrow">答案</div>
             ${big ? `<div class="flash-answer">${big}</div>` : ""}
-            ${x.answerText ? `<div class="answer-text">${esc(x.answerText)}</div>` : ""}
+            ${x.answerText ? `<div class="answer-text">${rich(x.answerText)}</div>` : ""}
             ${optsBack && ans.length ? `<details class="fig-inline" style="border:0;padding:0;margin:0 0 6px"><summary>全部選項</summary>${optsBack}</details>` : ""}
-            ${x.explain ? `<div class="explain-title" style="margin-top:14px">詳解</div><div class="explain">${esc(x.explain)}</div>` : ""}
+            ${x.explain ? `<div class="explain-title" style="margin-top:14px">詳解</div><div class="explain">${rich(x.explain)}</div>` : ""}
             ${x.note ? `<div class="note">${ic("alert")}<div>${esc(x.note)}</div></div>` : ""}
             ${figLinks(subj, x)}
           </section>
@@ -4124,12 +4147,12 @@
     const ans = q.answer || [];
     return `<article class="card bq${open ? " open" : ""}">
       ${qMeta(subj, q)}
-      <p class="q-stem">${esc(q.stem)}</p>${qImgs(subj, q)}
+      <div class="q-stem">${rich(q.stem)}</div>${qImgs(subj, q)}
       ${(q.options || []).length ? `<ol>${q.options.map((o) => `<li class="${ans.includes(o.k) && !q.noAnswer ? "ans" : ""}"><span class="k">${o.k}</span><span>${esc(o.t)}</span></li>`).join("")}</ol>` : ""}
       <details${open ? " open" : ""}><summary>${ic("eye")}答案與詳解</summary>
         <div class="verdict neutral" style="margin-top:0"><div class="verdict-head">答案：${ans.length || q.noAnswer ? `${ansText(q)}${q.multi ? "（多選題）" : ""}` : q.answerText ? "見參考答案" : "無正確選項"}</div><div class="verdict-body">
-        ${q.answerText ? `<div class="answer-text">${esc(q.answerText)}</div>` : ""}
-        ${q.explain ? `<div class="explain">${esc(q.explain)}</div>` : '<div class="muted">這題沒有附詳解。</div>'}
+        ${q.answerText ? `<div class="answer-text">${rich(q.answerText)}</div>` : ""}
+        ${q.explain ? `<div class="explain">${rich(q.explain)}</div>` : '<div class="muted">這題沒有附詳解。</div>'}
         ${q.note ? `<div class="note">${ic("alert")}<div>${esc(q.note)}</div></div>` : ""}${figLinks(subj, q)}
         <div style="margin-top:12px;display:flex;gap:14px;font-size:.85rem"><a href="#/s/${subj.meta.id}/q/${q.id}">單獨練這題</a><a href="${reportHref(subj.meta.id, q)}">回報此題</a></div></div></div>
       </details></article>`;

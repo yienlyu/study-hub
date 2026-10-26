@@ -24,7 +24,11 @@
   },
   "questions-kaogu.json": {
    "k113-nem-79": {"answer": ["C"]},
-   "k113-nem-76": {"answer": ["B"]}
+   "k113-nem-76": {"answer": ["B"]},
+   "k113-nem-w15": {
+    "stem": "（手寫題）填空：請填入表中 1–10。\n\n| | E. vermicularis | T. spiralis | W. bancrofti | A. lumbricoides | S. stercoralis |\n|---|---|---|---|---|---|\n| Transmission vector | Nil | (1) | (3) | (6) | Soil |\n| Infective stage | Embryonated ova | (2) | (4) | (7) | (9) |\n| Specimen for traditional diagnosis | Ova | Sera or biopsy | (5) | (8) | (10) |",
+    "answerText": "(1) Undercooked meat（豬肉）：人吃下未煮熟、含 encysted larva 的肉而感染。\n(2) Encysted larva：寄生在橫紋肌。\n(3) Mosquito：斑氏絲蟲的 L3 幼蟲由四種蚊子傳播，老師說考試寫 mosquito 即可。\n(4) L3 larva\n(5) Microfilaria：看血液抹片；斑氏絲蟲為夜現週期性，要夜間採血。\n(6) Soil：蛔蟲是土源性寄生蟲。\n(7) Embryonated eggs：土源性線蟲（蛔蟲、鞭蟲、蟯蟲）的感染期都是 embryonated egg。\n(8) Eggs（糞便中的蟲卵）\n(9) L3 larva（filariform larva）：rhabditiform larva 脫皮兩次而來，經皮膚侵入。\n(10) 糞便或十二指腸液中的幼蟲（rhabditiform larva）：卵在腸內就孵化，所以糞便裡看到的是幼蟲，不是卵。\n\n注意：這一列的「vector」其實是指傳染途徑或媒介（題目給的範例是 Soil），所以 (1) 寫 undercooked meat、(6) 寫 Soil，不要寫 Nil。"
+   }
   },
   "questions-k113mid.json": {
    "k113mid-38": {"multi": true},

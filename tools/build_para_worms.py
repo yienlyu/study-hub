@@ -2,7 +2,7 @@
 """寄蟲蟲卡圖片 → subjects/parasitology/figures/worms/，並把 src、w、h 寫回 data/worms.json
 
 worms.json 每隻蟲的 imgs 寫 {kind, pdf, page, box?}：
-- pdf：NEM（1線蟲圖檔）、TRE（2吸蟲圖檔）、LAB（吸蟲實驗）、D0914、D0922（上課 deck 另存的 PDF）
+- pdf：NEM（1線蟲圖檔）、TRE（2吸蟲圖檔）、LAB（吸蟲實驗）、D0907、D0914、D0922（上課 deck 另存的 PDF）
 - box：頁面比例 (x0, y0, x1, y1)。圖譜預設切掉上方標題列與頁尾，蟲卡「看圖猜蟲」時才不會直接看到學名
 需要 pymupdf 與 Pillow。執行：python3 tools/build_para_worms.py（在 repo 根目錄）
 """
@@ -20,10 +20,12 @@ PDF = {
     "NEM": "1線蟲圖檔.pdf",
     "TRE": "2吸蟲圖檔.pdf",
     "LAB": "吸蟲實驗.pdf",
+    "D0907": "20260907-北醫醫學系-M2-Introduction_  STHs_ Toxocara canis_ Enterobius vermicularis.pdf",
     "D0914": "20260914-北醫醫學系-M2-Capillaria_ Strongyloides stercoralis_ Foodborne Nematodes.pdf",
     "D0922": "20250922-M2-Trichinella_ Anisakis_ Angiostrongylus cantonensis_ Filaria.pdf",
 }
 DECK = {"NEM": "線蟲圖譜（1 線蟲圖檔）", "TRE": "吸蟲圖譜（2 吸蟲圖檔）", "LAB": "吸蟲實驗（實驗課 slides）",
+        "D0907": "0907 Introduction、STHs、Toxocara、Enterobius",
         "D0914": "0914 Capillaria、Strongyloides、Foodborne nematodes", "D0922": "0922 Trichinella、Anisakis、A. cantonensis、Filaria"}
 # 圖譜每頁上方 12% 是學名標題、下方 7% 是學科名稱
 BOX = {"NEM": (0, 0.12, 1, 0.93), "TRE": (0, 0.12, 1, 0.93)}

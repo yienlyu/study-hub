@@ -1124,3 +1124,8 @@ a.icon-btn { text-decoration: none; }
 .sheet-wrap.roots.masked .prose tr:not(.shown) .gloss { color: transparent; background: var(--paper-2); border-radius: 4px; user-select: none; }
 .sheet-wrap.roots.masked .prose tr:not(.shown):hover td:nth-child(2) { background: var(--violet-soft); }
 @media print { .sheet-wrap.roots.masked .prose tr td:nth-child(2), .sheet-wrap.roots.masked .prose tr td:nth-child(2) *, .sheet-wrap.roots.masked .prose .gloss { color: inherit !important; background: none !important; } }
+/* 題幹／參考答案／詳解裡的 Markdown 表格（app.js 的 rich()） */
+.md-table { overflow-x: auto; margin: 10px 0; white-space: normal; }
+.md-table table { border-collapse: collapse; font-size: .92em; font-weight: 450; line-height: 1.5; min-width: 100%; }
+.md-table th, .md-table td { border: 1px solid var(--rule-strong); padding: 6px 10px; text-align: left; vertical-align: top; }
+.md-table th { background: var(--paper-2); font-weight: 650; }
