@@ -16,6 +16,25 @@ OUT = "subjects/biochem/data/questions-prac.json"
 SRC = "陳顧中練習題"
 REF_ONLY = {137, 142, 147, 151, 156}  # 講義深紅色標示
 REF_NOTE = "（講義以深紅色標示，僅供參考）"
+# 題號 → 補充說明（接在講義解析後面）
+EXTRA = {
+    148: """
+
+UCP1（thermogenin）在粒線體內膜上提供一條質子滲漏路徑，讓 H⁺ 繞過 ATP synthase 直接回到基質。
+
+| 狀態 | H⁺ 回流路徑 | 能量去向 |
+|---|---|---|
+| 完全偶聯 | 只能走 ATP synthase | 位能轉為 ATP 的化學能 |
+| UCP1 活化 | 部分 H⁺ 走 UCP1 | 位能直接耗散為熱 |
+
+關鍵在於電化學梯度的能量去向被改道，而不是梯度不再建立。結果是每消耗一單位燃料所得的 ATP 下降（P/O ratio 降低），差額以熱的形式釋出。
+
+一個容易答錯的延伸：既然 ATP 變少，呼吸鏈活性會不會跟著下降？恰好相反——耗氧量大幅上升。
+
+原因是 respiratory control（呼吸控制）：正常狀態下，高質子動力勢（Δp）會對電子傳遞鏈形成背壓（back-pressure），限制其速率。UCP1 讓質子漏回去，Δp 下降、背壓解除，電子傳遞鏈因此加速運轉。這就是為什麼棕色脂肪在冷暴露下耗氧量可以暴增，產熱量遠超過它的質量比例。
+
+這也解釋了選項 C 為什麼錯得徹底——它不只方向反了，而且 UCP1 的產熱正是靠電子傳遞持續運轉才可能發生。""",
+}
 
 CJK = r"　-〿㐀-鿿＀-￯"
 
@@ -118,7 +137,7 @@ for num, bl in blocks.items():
     ch, topic = TOPIC[num]
     Q.append({"id": f"prac-{num:03d}", "source": SRC, "num": num, "chapter": ch, "type": "mcq", "stem": stem,
               "options": [{"k": k, "t": t} for k, t in opts.items()], "answer": [m.group(1)],
-              "explain": (REF_NOTE if num in REF_ONLY else "") + exp, "topics": [topic], "pattern": pattern(stem)})
+              "explain": (REF_NOTE if num in REF_ONLY else "") + exp + EXTRA.get(num, ""), "topics": [topic], "pattern": pattern(stem)})
 
 with open(OUT, "w", encoding="utf-8") as f:
     json.dump(Q, f, ensure_ascii=False, indent=1)
