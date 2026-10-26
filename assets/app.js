@@ -4827,7 +4827,21 @@
     const at = (i) =>
       new Date(today.getFullYear(), today.getMonth(), today.getDate() - i);
     const start = at(today.getDay() + 7 * (weeks - 1)); // 第一欄的星期日
-    const lv = (n) => (!n ? 0 : n < 10 ? 1 : n < 30 ? 2 : n < 60 ? 3 : 4);
+    const rows = [...days.entries()]
+      .filter(([k]) => k >= dayKey(start))
+      .sort((a, b) => (a[0] < b[0] ? 1 : -1));
+    // 依使用者自己的每日題數分佈（四分位數）分級，而不是固定題數
+    const ns = rows
+      .map(([, x]) => x.n)
+      .filter(Boolean)
+      .sort((a, b) => a - b);
+    const q = (p) => ns[Math.min(ns.length - 1, Math.floor(p * ns.length))] || 0;
+    const c1 = Math.max(q(0.25), 1),
+      c2 = Math.max(q(0.5), c1 + 1),
+      c3 = Math.max(q(0.75), c2 + 1);
+    const lv = (n) =>
+      !n ? 0 : n <= c1 ? 1 : n <= c2 ? 2 : n <= c3 ? 3 : 4;
+    const rng = (a, b) => (a === b ? `${a}` : `${a}–${b}`);
     let cols = "",
       months = "",
       lastM = -1;
@@ -4858,14 +4872,11 @@
       }
       cols += `<span class="heat-col">${cells}</span>`;
     }
-    const rows = [...days.entries()]
-      .filter(([k]) => k >= dayKey(start))
-      .sort((a, b) => (a[0] < b[0] ? 1 : -1));
     return `<div class="heat-scroll"><div class="heat">
       <div class="heat-months" aria-hidden="true"><span></span>${months}</div>
       <div class="heat-body"><span class="heat-days" aria-hidden="true"><span></span><span>一</span><span></span><span>三</span><span></span><span>五</span><span></span></span>${cols}</div>
     </div></div>
-    <div class="heat-legend" aria-hidden="true">少<i class="l0"></i><i class="l1"></i><i class="l2"></i><i class="l3"></i><i class="l4"></i>多<span class="muted">（1–9 · 10–29 · 30–59 · 60+ 題）</span></div>
+    <div class="heat-legend" aria-hidden="true">少<i class="l0"></i><i class="l1"></i><i class="l2"></i><i class="l3"></i><i class="l4"></i>多<span class="muted">（依你的每日題數：${rng(1, c1)} · ${rng(c1 + 1, c2)} · ${rng(c2 + 1, c3)} · ${c3 + 1}+ 題）</span></div>
     <details class="data-table"><summary>以表格檢視（每日練習）</summary><table><thead><tr><th>日期</th><th>題數</th><th>答對率</th></tr></thead><tbody>${rows.map(([k, x]) => `<tr><td>${k}</td><td class="n">${x.n}</td><td class="n">${pct(x.c, x.n)}%</td></tr>`).join("") || `<tr><td colspan="3" class="muted">還沒有紀錄</td></tr>`}</tbody></table></details>`;
   }
 
@@ -5016,7 +5027,7 @@
         <div class="tile"><div class="v">${streak}<small>天</small></div><div class="l">目前連續練習</div></div>
         <div class="tile"><div class="v">${wk.length ? pct(wkC, wk.length) : "—"}${wk.length ? "<small>%</small>" : ""}</div><div class="l">近 7 天答對率（${wk.length} 題）</div></div>
       </div>
-      <div class="card panel" style="margin-top:14px"><h3>練習日曆</h3><p class="sub">最近半年，每一格是一天，顏色越深代表那天做越多題</p>${heatmap(days)}</div>
+      <div class="card panel" style="margin-top:14px"><h3>練習日曆</h3><p class="sub">最近半年，每一格是一天，顏色越深代表那天比你平常做越多題</p>${heatmap(days)}</div>
       <div class="card panel" style="margin-top:14px"><h3>每週作答</h3><p class="sub">最近 12 週，答對與答錯的題數</p>${barChart(weekRows, { series: weekRows[0].segs.map(({ name, color }) => ({ name, color })), tableCaption: "每週作答" })}</div>
       <div class="grid2" style="margin-top:14px">
         <div class="card panel"><h3>記憶曲線</h3><p class="sub">同一題隔多久再做，答對率是多少。越往下掉得少，代表記得越牢。已重複練習 ${reviewed} 題；淡色列樣本少於 5 次。</p>${pctChart(gap, { caption: "記憶曲線" })}</div>
