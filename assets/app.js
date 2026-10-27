@@ -5014,7 +5014,7 @@
       <header style="padding-top:14px">
         <div class="eyebrow">Learning log · 學習軌跡</div>
         <h1 class="display h-l" style="margin-top:12px">每一題，<br>都留下痕跡。</h1>
-        <p class="lede">每次作答都會記下時間與對錯。累積下來，就能看到自己哪天讀最多、隔多久會忘、哪一科最需要回頭複習。</p>
+        <p class="lede">每次作答都會記下時間與對錯。累積下來就能看到自己哪天讀最多、隔多久會忘、哪一科最需要複習。</p>
       </header>
       <div id="acct" style="margin-top:28px">${acctPanel()}</div>
       ${
