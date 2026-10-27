@@ -31,6 +31,7 @@
   --safranin: #d8426f;
   --safranin-soft: #fbe5ec;
   --hl: color-mix(in srgb, var(--safranin) 22%, transparent);
+  --sel: color-mix(in srgb, var(--violet) 22%, transparent);
   --good: #1b7a4b;
   --good-soft: #e1f1e7;
   --bad: #b93a2c;
@@ -61,7 +62,7 @@
   :root:where(:not([data-theme="light"])) {
     --paper: #2f2e2c; --paper-2: #282725; --card: #383734; --ink: #f2eee6; --ink-2: #cbc5b9; --ink-3: #aba496;
     --rule: #47453f; --rule-strong: #5a5750; --violet: #a595ff; --violet-ink: #c2b7ff; --violet-soft: #3b3555;
-    --safranin: #f07199; --safranin-soft: #4a2a35; --hl: rgba(224, 160, 0, .28); --good: #5fcf96; --good-soft: #263a2f; --bad: #f2806f; --bad-soft: #4a2b28;
+    --safranin: #f07199; --safranin-soft: #4a2a35; --hl: rgba(224, 160, 0, .28); --sel: color-mix(in srgb, var(--violet) 34%, transparent); --good: #5fcf96; --good-soft: #263a2f; --bad: #f2806f; --bad-soft: #4a2b28;
     --warn: #e7b464; --warn-soft: #463a24; --series-1: #8a74f5; --series-2: #e5557f; --on-accent: #120d2b;
     --colony-c: #9a92c9; --colony-w: #cf96a7; --colony-seed: #77736b;
     --shadow-1: 0 1px 0 rgba(0,0,0,.4); --shadow-2: 0 18px 40px -12px rgba(0,0,0,.6); --grain-opacity: .12;
@@ -71,7 +72,7 @@
 :root[data-theme="dark"] {
   --paper: #2f2e2c; --paper-2: #282725; --card: #383734; --ink: #f2eee6; --ink-2: #cbc5b9; --ink-3: #aba496;
   --rule: #47453f; --rule-strong: #5a5750; --violet: #a595ff; --violet-ink: #c2b7ff; --violet-soft: #3b3555;
-  --safranin: #f07199; --safranin-soft: #4a2a35; --hl: rgba(224, 160, 0, .28); --good: #5fcf96; --good-soft: #263a2f; --bad: #f2806f; --bad-soft: #4a2b28;
+  --safranin: #f07199; --safranin-soft: #4a2a35; --hl: rgba(224, 160, 0, .28); --sel: color-mix(in srgb, var(--violet) 34%, transparent); --good: #5fcf96; --good-soft: #263a2f; --bad: #f2806f; --bad-soft: #4a2b28;
   --warn: #e7b464; --warn-soft: #463a24; --series-1: #8a74f5; --series-2: #e5557f; --on-accent: #120d2b;
   --colony-c: #9a92c9; --colony-w: #cf96a7; --colony-seed: #77736b;
   --shadow-1: 0 1px 0 rgba(0,0,0,.4); --shadow-2: 0 18px 40px -12px rgba(0,0,0,.6); --grain-opacity: .12;
@@ -92,7 +93,7 @@ body::before { /* paper grain */
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.3 0 0 0 0 0.27 0 0 0 0 0.2 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 body > * { position: relative; z-index: 1; }
-::selection { background: var(--violet); color: var(--on-accent); }
+::selection { background: var(--sel); color: inherit; }
 a { color: var(--violet); text-decoration: none; }
 a:hover { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
 :focus-visible { outline: 2px solid var(--violet); outline-offset: 2px; border-radius: 6px; }
