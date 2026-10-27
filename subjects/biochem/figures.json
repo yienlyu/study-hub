@@ -242,6 +242,17 @@
   "caption": "紅血球<strong>沒有粒線體</strong> → 只靠無氧糖解到 lactate（淨 2 ATP）；G6P 分出 <strong>PPP</strong> 產生 <strong>NADPH</strong> 維持 glutathione 還原態；1,3-BPG 分出 <strong>2,3-BPG</strong>（不產 ATP）降低 Hb 的 O₂ 親和力。"
  },
  {
+  "id": "glycolysis",
+  "chapter": "ch23",
+  "title": "糖解作用總覽（複習）",
+  "topics": [
+   "各器官燃料代謝",
+   "Cori／葡萄糖-丙胺酸循環"
+  ],
+  "keywords": "glycolysis 糖解 hexokinase glucokinase PFK-1 aldolase GAPDH PGK phosphoglycerate kinase enolase fluoride pyruvate kinase investment payoff phase net 2 ATP 2 NADH LDH lactate PDH",
+  "caption": "葡萄糖 → 2 pyruvate：<strong>投資期</strong>（hexokinase、PFK-1）花 2 ATP，<strong>回收期</strong>（PGK、pyruvate kinase 各 ×2）產 4 ATP，GAPDH 產 2 NADH → <strong>淨 2 ATP + 2 NADH</strong>。紅線三步不可逆，是調控點，也是糖質新生要繞過的地方。"
+ },
+ {
   "id": "ketone-switch",
   "chapter": "ch23",
   "title": "飢餓時肝臟的生酮開關",

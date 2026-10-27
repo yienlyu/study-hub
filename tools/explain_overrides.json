@@ -3,7 +3,8 @@
     "questions-class.json": {
       "class-018": "肝臟的生理功能：糖質新生與肝醣分解維持血糖、把胺基酸轉成代謝燃料（脫胺後碳骨架進 TCA 或糖質新生，氨進尿素循環）、解毒（藥物、酒精、氨）、合成血漿蛋白、膽汁與酮體。\n(A) 胰島素由胰臟蘭氏小島 β 細胞分泌，不是肝臟 → 錯誤，選 A。肝臟是胰島素作用的標的器官（GLUT2、促進肝醣合成），但不會製造胰島素。",
       "class-021": "(A) 正確：三種酮體是 acetoacetate、β-hydroxybutyrate、acetone（acetone 由 acetoacetate 自發去羧，經呼氣排出）。\n(B) 錯誤：酮體在肝細胞的粒線體合成，不是小腸 → 選 B。\n(C) 正確：thiolase（2 acetyl-CoA → acetoacetyl-CoA）→ HMG-CoA synthase → HMG-CoA lyase → acetoacetate。\n(D) 正確：長期飢餓時大腦改以酮體（β-hydroxybutyrate）為主要燃料，但仍需部分葡萄糖。肝臟缺 SCOT，自己不用酮體。",
-      "class-025": "成熟紅血球沒有粒線體 → 不能進行 Krebs cycle、氧化磷酸化與 β-oxidation，ATP 只能靠糖解（終產物 lactate，再生 NAD⁺）。紅血球的糖解支路還產生 2,3-BPG（降低血紅素對氧親和力），五碳糖磷酸途徑提供 NADPH 維持還原態 glutathione。"
+      "class-025": "成熟紅血球沒有粒線體 → 不能進行 Krebs cycle、氧化磷酸化與 β-oxidation，ATP 只能靠糖解（終產物 lactate，再生 NAD⁺）。紅血球的糖解支路還產生 2,3-BPG（降低血紅素對氧親和力），五碳糖磷酸途徑提供 NADPH 維持還原態 glutathione。",
+      "class-024": "(A) 正確：肝臟同時有糖解與糖質新生的酵素（兩條不會同時全開，由 insulin／glucagon 切換）。\n(B) 錯誤 → 選 B：糖解「總共」產生 4 ATP，但投資期先花掉 2 ATP，淨得只有 2 ATP（NADH 2 分子這部分是對的）。\n(C) 正確：成熟紅血球沒有粒線體，只能靠無氧糖解，終產物是 lactate。\n(D) 正確：劇烈運動缺氧時，LDH 用 NADH 把 pyruvate 還原成 lactate，再生 NAD⁺ 讓 GAPDH 能繼續。\n\n糖解 ATP 帳本（每 1 葡萄糖）：\n| 投資期（preparatory phase） | ATP |\n|---|---|\n| hexokinase | −1 ATP |\n| PFK-1 | −1 ATP |\n| 小計 | −2 ATP |\n\n回收期每步 ×2，因為一個葡萄糖裂解成兩個三碳：\n| 回收期（payoff phase） | ATP |\n|---|---|\n| phosphoglycerate kinase | +2 ATP |\n| pyruvate kinase | +2 ATP |\n| 小計 | +4 ATP |\n\n淨值：+2 ATP、+2 NADH"
     },
     "questions-gongbi.json": {
       "g17_1-05": "游離脂肪酸（FFA）疏水，不能大量溶在血漿 → 與 serum albumin 結合運送（一個 albumin 約可攜帶 7 個 FFA），送到心臟、骨骼肌做 β-oxidation。\n(A) hemoglobin 運氧，不運脂肪酸。(C) 不能自由溶解。(D) 血中確實有 FFA（脂肪組織動員而來）。(E) FFA 濃度受 epinephrine、glucagon 調控：cAMP → PKA 磷酸化 perilipin 與 HSL → 脂肪分解上升。本題與 Ch17-1 第 2 題、Ch17-2 第 8 題是同一題（albumin 考了 3 次）。",

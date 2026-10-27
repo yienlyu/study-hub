@@ -67,6 +67,9 @@
   },
   "questions-k114.json": {
    "k114-16": {"answer": ["D"]}
+  },
+  "questions-class.json": {
+   "class-024": {"figs": ["glycolysis"]}
   }
  }
 }

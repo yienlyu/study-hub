@@ -1427,18 +1427,21 @@
     if (subj) openFigZoom(subj, b.dataset.zoom, b);
   });
 
-  // 題目 → 相關觀念圖（依考點比對，同章節優先）
+  // 題目 → 相關觀念圖（題目指定的 q.figs 最優先，其餘依考點比對，同章節優先）
   function figsFor(subj, q) {
     const tops = new Set(q.topics || []);
-    return (subj.figs || [])
-      .filter((f) => (f.topics || []).some((t) => tops.has(t)))
+    const pick = q.figs || [];
+    const all = subj.figs || [];
+    const picked = pick.map((id) => all.find((f) => f.id === id)).filter(Boolean);
+    const auto = all
+      .filter((f) => !pick.includes(f.id) && (f.topics || []).some((t) => tops.has(t)))
       .sort(
         (a, b) =>
           isSlide(a) - isSlide(b) ||
           (b.chapter === q.chapter) - (a.chapter === q.chapter),
       )
-      .filter((f, i, arr) => !isSlide(f) || arr.indexOf(f) < 3)
-      .slice(0, 3);
+      .filter((f, i, arr) => !isSlide(f) || arr.indexOf(f) < 3);
+    return [...picked, ...auto].slice(0, 3);
   }
   const figLinks = (subj, q) =>
     figsFor(subj, q)

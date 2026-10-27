@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 612" role="img" aria-label="糖解作用總覽：葡萄糖經十步反應變成兩個 pyruvate；投資期用 2 ATP，回收期產生 4 ATP 與 2 NADH，淨得 2 ATP 與 2 NADH；hexokinase、PFK-1、pyruvate kinase 三步不可逆是調控點；pyruvate 有氧進 TCA、無氧變 lactate">
+<defs><marker id="gly-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="gly-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="gly-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<text x="20" y="24" class="th">GLYCOLYSIS · 細胞質 · 所有細胞都做</text>
+<text x="740" y="24" text-anchor="end" class="ts"><tspan class="tr tb">紅線</tspan>＝不可逆／調控點</text>
+<rect x="115" y="44" width="170" height="28" rx="8" class="bx"/><text x="200" y="63" text-anchor="middle" class="tb" style="font-size:12.5px">Glucose</text>
+<path d="M200 72L200 92" class="lr" marker-end="url(#gly-ar)"/>
+<g class="hot" data-tip="<b>Hexokinase</b>（各組織，被產物 G6P 回饋抑制）／<b>glucokinase</b>（肝、胰 β 細胞，Km 高、不被 G6P 抑制）。磷酸化後葡萄糖帶負電，出不了細胞。" data-label="Hexokinase"><text x="192" y="86" text-anchor="end" class="tb tr" style="font-size:11px">Hexokinase</text></g>
+<text x="208" y="86" class="tb tr" style="font-size:11px">−ATP</text>
+<rect x="115" y="94" width="170" height="28" rx="8" class="bx"/><text x="200" y="113" text-anchor="middle" class="tb" style="font-size:12.5px">Glucose-6-P</text>
+<path d="M200 122L200 142" class="ln" marker-end="url(#gly-a)"/>
+<text x="192" y="136" text-anchor="end" class="ts" style="font-size:11px">PGI</text>
+<rect x="115" y="144" width="170" height="28" rx="8" class="bx"/><text x="200" y="163" text-anchor="middle" class="tb" style="font-size:12.5px">Fructose-6-P</text>
+<path d="M200 172L200 192" class="lr" marker-end="url(#gly-ar)"/>
+<g class="hot" data-tip="<b>PFK-1 是糖解的限速步驟</b>：AMP、<b>F-2,6-BP</b> 活化；ATP、citrate、H⁺ 抑制。從這一步起碳才確定走糖解。" data-label="PFK-1"><text x="192" y="186" text-anchor="end" class="tb tr" style="font-size:11px">PFK-1</text></g>
+<text x="208" y="186" class="tb tr" style="font-size:11px">−ATP</text>
+<rect x="115" y="194" width="170" height="28" rx="8" class="bx"/><text x="200" y="213" text-anchor="middle" class="tb" style="font-size:12.5px">Fructose-1,6-BP</text>
+<path d="M200 222L200 242" class="ln" marker-end="url(#gly-a)"/>
+<text x="192" y="236" text-anchor="end" class="ts" style="font-size:11px">Aldolase</text>
+<rect x="115" y="244" width="170" height="28" rx="8" class="bx"/><text x="200" y="263" text-anchor="middle" class="tb" style="font-size:12.5px">DHAP + G3P</text>
+<path d="M200 272L200 292" class="ln" marker-end="url(#gly-a)"/>
+<text x="192" y="286" text-anchor="end" class="ts" style="font-size:11px">TPI</text>
+<rect x="115" y="294" width="170" height="28" rx="8" class="bx"/><text x="200" y="313" text-anchor="middle" class="tb" style="font-size:12.5px">2 × G3P</text>
+<path d="M200 322L200 342" class="ln" marker-end="url(#gly-a)"/>
+<g class="hot" data-tip="<b>GAPDH</b> 是糖解唯一的氧化還原反應，需要 <b>NAD⁺</b>。缺氧時要靠 LDH 把 NADH 還回 NAD⁺，糖解才能繼續。" data-label="GAPDH"><text x="192" y="336" text-anchor="end" class="ts" style="font-size:11px">GAPDH</text></g>
+<text x="208" y="336" class="tb tv" style="font-size:11px">2 NAD⁺ → 2 NADH</text>
+<rect x="115" y="344" width="170" height="28" rx="8" class="bx"/><text x="200" y="363" text-anchor="middle" class="tb" style="font-size:12.5px">2 × 1,3-BPG</text>
+<path d="M200 372L200 392" class="ln" marker-end="url(#gly-a)"/>
+<g class="hot" data-tip="<b>PGK</b>：受質層次磷酸化，每個葡萄糖 +2 ATP（兩個三碳單位各 +1）。紅血球的 2,3-BPG 支路會繞過這一步。" data-label="PGK"><text x="192" y="386" text-anchor="end" class="ts" style="font-size:11px">PGK</text></g>
+<text x="208" y="386" class="tb" style="font-size:11px;fill:var(--good)">+2 ATP</text>
+<rect x="115" y="394" width="170" height="28" rx="8" class="bx"/><text x="200" y="413" text-anchor="middle" class="tb" style="font-size:12.5px">2 × 3-PG</text>
+<path d="M200 422L200 442" class="ln" marker-end="url(#gly-a)"/>
+<text x="192" y="436" text-anchor="end" class="ts" style="font-size:11px">PG mutase</text>
+<rect x="115" y="444" width="170" height="28" rx="8" class="bx"/><text x="200" y="463" text-anchor="middle" class="tb" style="font-size:12.5px">2 × 2-PG</text>
+<path d="M200 472L200 492" class="ln" marker-end="url(#gly-a)"/>
+<g class="hot" data-tip="<b>Enolase</b> 被<b>氟化物</b>（fluoride）抑制，所以抽血糖用含 NaF 的灰頭管，避免血球繼續吃掉葡萄糖。" data-label="Enolase"><text x="192" y="486" text-anchor="end" class="ts" style="font-size:11px">Enolase</text></g>
+<rect x="115" y="494" width="170" height="28" rx="8" class="bx"/><text x="200" y="513" text-anchor="middle" class="tb" style="font-size:12.5px">2 × PEP</text>
+<path d="M200 522L200 542" class="lr" marker-end="url(#gly-ar)"/>
+<g class="hot" data-tip="<b>Pyruvate kinase</b>：F-1,6-BP 前饋活化；ATP、alanine 抑制；肝型被 <b>PKA</b>（glucagon → cAMP）磷酸化失活。缺乏 → 溶血性貧血。" data-label="Pyruvate kinase"><text x="192" y="536" text-anchor="end" class="tb tr" style="font-size:11px">Pyruvate kinase</text></g>
+<text x="208" y="536" class="tb" style="font-size:11px;fill:var(--good)">+2 ATP</text>
+<rect x="115" y="544" width="170" height="28" rx="8" class="bw"/><text x="200" y="563" text-anchor="middle" class="tb" style="font-size:12.5px">2 × Pyruvate</text>
+<path d="M40 46L32 46L32 288L40 288" class="lr"/>
+<text x="22" y="167" text-anchor="middle" transform="rotate(-90 22 167)" class="tb tr" style="font-size:11.5px">投資期（−2 ATP）</text>
+<path d="M40 296L32 296L32 570L40 570" class="lv"/>
+<text x="22" y="433" text-anchor="middle" transform="rotate(-90 22 433)" class="tb tv" style="font-size:11.5px">回收期（+4 ATP、+2 NADH）</text>
+<rect x="420" y="44" width="320" height="132" rx="12" class="bw"/>
+<g class="hot" data-tip="無氧時 2 NADH 被 LDH 用掉，所以 1 葡萄糖 → 2 lactate 只剩<b>淨 2 ATP</b>、沒有淨 NADH。有氧時 NADH 經 shuttle 進粒線體，再多 3–5 ATP。" data-label="ATP 帳本"><text x="434" y="66" class="tb " style="font-size:13.5px">ATP／NADH 帳本（每 1 葡萄糖）</text></g>
+<text x="434" y="88" class="ts" style="font-size:10.5px">投資：hexokinase −1、PFK-1 −1 → <tspan class="tb tr">−2 ATP</tspan></text>
+<text x="434" y="104" class="ts" style="font-size:10.5px">回收：PGK +2、pyruvate kinase +2 → <tspan class="tb" style="fill:var(--good)">+4 ATP</tspan></text>
+<text x="434" y="120" class="ts" style="font-size:10.5px">GAPDH：<tspan class="tb tv">+2 NADH</tspan></text>
+<text x="434" y="140" class="tb" style="font-size:10.5px">淨得：2 ATP + 2 NADH + 2 pyruvate</text>
+<text x="434" y="158" class="tb tr" style="font-size:10.5px">⚠ 總產 4 ATP ≠ 淨得 4 ATP（常考陷阱）</text>
+<rect x="420" y="192" width="320" height="150" rx="12" class="br"/>
+<text x="434" y="214" class="tb tr" style="font-size:13.5px">三個不可逆步驟＝調控點</text>
+<text x="434" y="236" class="ts" style="font-size:10.5px">Hexokinase：被 G6P 回饋抑制</text>
+<text x="434" y="252" class="ts" style="font-size:10.5px">　Glucokinase（肝、β 細胞）：Km 高、不受 G6P 抑制</text>
+<text x="434" y="270" class="ts" style="font-size:10.5px">PFK-1（限速）：AMP、F-2,6-BP ⊕；ATP、citrate ⊖</text>
+<text x="434" y="288" class="ts" style="font-size:10.5px">Pyruvate kinase：F-1,6-BP 前饋 ⊕；ATP、Ala ⊖</text>
+<text x="434" y="304" class="ts" style="font-size:10.5px">　肝型被 PKA（glucagon）磷酸化失活</text>
+<text x="434" y="326" class="tb tv" style="font-size:10.5px">糖質新生用 4 個酵素繞過這三步</text>
+<rect x="420" y="366" width="320" height="160" rx="12" class="bv"/>
+<g class="hot" data-tip="Lactate 經血液到肝臟做糖質新生，再把葡萄糖送回肌肉＝<b>Cori cycle</b>；alanine 這條同時把胺基氮送到肝＝<b>glucose-alanine cycle</b>。" data-label="Pyruvate 去向"><text x="434" y="388" class="tb tv" style="font-size:13.5px">Pyruvate 的去向</text></g>
+<text x="434" y="410" class="ts" style="font-size:10.5px">有氧 → 粒線體 PDH → acetyl-CoA → TCA</text>
+<text x="434" y="426" class="ts" style="font-size:10.5px">無氧／紅血球 → <tspan class="tb" style="fill:var(--ink)">LDH</tspan> → lactate（NADH → NAD⁺）</text>
+<text x="434" y="442" class="ts" style="font-size:10.5px">肝 → pyruvate carboxylase → 糖質新生</text>
+<text x="434" y="458" class="ts" style="font-size:10.5px">肌肉 → ALT → alanine（glucose-alanine cycle）</text>
+<text x="434" y="480" class="tb" style="font-size:10.5px">紅血球沒有粒線體 → 只能停在 lactate</text>
+<text x="434" y="496" class="tb" style="font-size:10.5px">肝臟糖解、糖質新生兩條都有（不同時開）</text>
+<path d="M287 558L330 558L330 446L416 446" class="lv" marker-end="url(#gly-av)"/>
+<text x="380" y="600" text-anchor="middle" class="ts" style="fill:var(--ink-2)">GAPDH 之後每步都是 ×2（一個六碳糖切成兩個三碳單位）</text>
+</svg>
