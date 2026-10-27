@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 452" role="img" aria-label="禁食 24 小時：正常肝與脂肪肝的 acetyl-CoA 去向比較。正常肝 glucagon/insulin 比值高，acetyl-CoA 主要走酮體生成，acetoacetate 與 β-hydroxybutyrate 輸出到血液；脂肪肝 insulin 偏高、比值低，β-oxidation 量相近，但酮體生成與 AcAc/β-HB 互換下降，acetyl-CoA 改進 TCA 氧化，NADH、氧氣消耗增加，ATP 供給糖質新生，pyruvate 回補與肝糖輸出增加，造成高血糖">
+<defs><marker id="nk-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="nk-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="nk-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker></defs>
+<text x="380" y="22" text-anchor="middle" class="tb" style="font-size:13.5px">禁食 24 小時：acetyl-CoA 往哪走？</text>
+<!-- 左：正常肝 -->
+<rect x="20" y="36" width="350" height="352" rx="14" class="bg"/>
+<text x="34" y="58" class="tb" style="font-size:13.5px;fill:var(--good)">正常肝</text>
+<text x="96" y="58" class="ts">肝臟 TG &lt; 5%</text>
+<text x="356" y="58" text-anchor="end" class="ts">glucagon/insulin 高</text>
+<rect x="130" y="76" width="130" height="30" rx="8" class="bx"/><text x="195" y="96" text-anchor="middle" class="tb" style="font-size:12px">脂肪酸（肝外）</text>
+<path d="M195 106L195 138" class="ln" marker-end="url(#nk-a)"/>
+<text x="203" y="127" class="ts">β-oxidation</text>
+<rect x="130" y="142" width="130" height="32" rx="8" class="bx"/><text x="195" y="163" text-anchor="middle" class="tb" style="font-size:12px">Acetyl-CoA</text>
+<path d="M195 174L195 214" class="lv" marker-end="url(#nk-av)" style="stroke-width:4"/>
+<text x="203" y="198" class="tb tv" style="font-size:11px">生酮 ↑↑</text>
+<rect x="130" y="218" width="130" height="30" rx="8" class="bv"/><text x="195" y="238" text-anchor="middle" class="tb tv" style="font-size:12px">Acetoacetate</text>
+<path d="M195 248L195 282" class="lv" marker-end="url(#nk-av)" style="stroke-width:3"/>
+<text x="203" y="270" class="ts">NADH</text>
+<rect x="130" y="286" width="130" height="30" rx="8" class="bv"/><text x="195" y="306" text-anchor="middle" class="tb tv" style="font-size:12px">β-HB</text>
+<path d="M130 233L66 233" class="lv" marker-end="url(#nk-av)" style="stroke-width:3"/>
+<path d="M130 301L66 301" class="lv" marker-end="url(#nk-av)" style="stroke-width:3"/>
+<text x="46" y="270" text-anchor="middle" class="tb tv" style="font-size:11px">血液</text>
+<text x="46" y="286" text-anchor="middle" class="tb tv" style="font-size:11px">酮體↑</text>
+<path d="M260 158L298 158" class="ln" marker-end="url(#nk-a)" style="stroke-width:1.2"/>
+<circle cx="322" cy="158" r="20" class="bx"/><text x="322" y="162" text-anchor="middle" class="ts">TCA</text>
+<text x="322" y="196" text-anchor="middle" class="ts">氧化少</text>
+<text x="322" y="232" text-anchor="middle" class="ts">O₂ 耗用：基準</text>
+<text x="322" y="300" text-anchor="middle" class="ts">肝糖輸出：基準</text>
+<text x="195" y="350" text-anchor="middle" class="ts" style="fill:var(--ink-2)">acetyl-CoA 主要「打包成酮體」送出去</text>
+<text x="195" y="368" text-anchor="middle" class="ts" style="fill:var(--ink-2)">→ 腦、肌肉有燃料，肝不必多燒</text>
+<!-- 右：脂肪肝 -->
+<rect x="390" y="36" width="350" height="352" rx="14" class="br"/>
+<text x="404" y="58" class="tb tr" style="font-size:13.5px">脂肪肝（NAFLD）</text>
+<text x="726" y="58" text-anchor="end" class="ts">insulin 偏高、比值低</text>
+<rect x="500" y="76" width="130" height="30" rx="8" class="bx"/><g class="hot" data-tip="脂肪肝除了血中脂肪酸，還有肝內 TG 分解出的脂肪酸；但研究測到 <b>β-oxidation 量和正常人差不多</b>，差別在 acetyl-CoA 的去向。" data-label="脂肪酸"><text x="565" y="96" text-anchor="middle" class="tb" style="font-size:12px">脂肪酸（肝內＋肝外）</text></g>
+<path d="M565 106L565 138" class="ln" marker-end="url(#nk-a)"/>
+<text x="573" y="127" class="ts">β-oxidation ≈ 正常</text>
+<rect x="500" y="142" width="130" height="32" rx="8" class="bx"/><text x="565" y="163" text-anchor="middle" class="tb" style="font-size:12px">Acetyl-CoA</text>
+<path d="M565 174L565 214" class="lv" marker-end="url(#nk-av)" style="stroke-width:1.2"/>
+<text x="573" y="198" class="tb tr" style="font-size:11px">生酮 ↓</text>
+<rect x="500" y="218" width="130" height="30" rx="8" class="bv"/><text x="565" y="238" text-anchor="middle" class="tb tv" style="font-size:12px">Acetoacetate</text>
+<path d="M565 248L565 282" class="lv" marker-end="url(#nk-av)" style="stroke-width:1.2"/>
+<g class="hot" data-tip="AcAc ⇌ β-HB 由 <b>β-hydroxybutyrate dehydrogenase</b>（用 NADH）互換；脂肪肝的互換速率 ↓，血中下降主要是 <b>β-HB</b>，acetoacetate 變化不大。" data-label="AcAc ⇌ β-HB"><text x="573" y="270" class="tb tr" style="font-size:11px">互換 ✕</text></g>
+<rect x="500" y="286" width="130" height="30" rx="8" class="bv"/><text x="565" y="306" text-anchor="middle" class="tb tv" style="font-size:12px">β-HB</text>
+<path d="M500 233L436 233" class="lv" marker-end="url(#nk-av)" style="stroke-width:1.2"/>
+<path d="M500 301L436 301" class="lv" marker-end="url(#nk-av)" style="stroke-width:1.2"/>
+<text x="416" y="270" text-anchor="middle" class="tb tr" style="font-size:11px">血液</text>
+<text x="416" y="286" text-anchor="middle" class="tb tr" style="font-size:11px">酮體↓</text>
+<path d="M630 158L668 158" class="lr" marker-end="url(#nk-ar)" style="stroke-width:4"/>
+<circle cx="692" cy="158" r="20" class="br"/><g class="hot" data-tip="Acetyl-CoA 改進 <b>TCA 氧化</b>：TCA 轉速 ↑、anaplerosis（pyruvate → OAA 回補）↑ → NADH/FADH₂ ↑ → 每個 acetyl-CoA 耗的 O₂ ↑。" data-label="TCA ↑"><text x="692" y="162" text-anchor="middle" class="tb tr" style="font-size:12px">TCA</text></g>
+<text x="692" y="196" text-anchor="middle" class="tb tr" style="font-size:11px">氧化 ↑</text>
+<text x="692" y="214" text-anchor="middle" class="ts">NADH → O₂ ↑</text>
+<path d="M692 222L692 252" class="lr" marker-end="url(#nk-ar)" style="stroke-width:2"/>
+<text x="692" y="268" text-anchor="middle" class="tb tr" style="font-size:11px">ATP</text>
+<path d="M692 276L692 292" class="lr" marker-end="url(#nk-ar)" style="stroke-width:2"/>
+<g class="hot" data-tip="多出來的 ATP／NADH 推動<b>糖質新生</b>（pyruvate → glucose），肝糖輸出 ↑ → 禁食時血糖仍偏高。" data-label="糖質新生 ↑"><text x="692" y="308" text-anchor="middle" class="tb tr" style="font-size:11px">糖質新生 ↑</text></g>
+<text x="692" y="324" text-anchor="middle" class="ts" style="font-size:10px">pyruvate → glucose</text>
+<text x="565" y="350" text-anchor="middle" class="ts" style="fill:var(--ink-2)">同樣多的 acetyl-CoA，改成「自己燒掉」</text>
+<text x="565" y="368" text-anchor="middle" class="ts" style="fill:var(--ink-2)">→ 能量拿去做糖 → 高血糖</text>
+<text x="380" y="414" text-anchor="middle" class="tb" style="font-size:12px">肝臟 TG 越高 → 生酮越少、TCA 氧化與糖質新生越多；禁食 24 h 血酮約少 30%（主要是 β-HB）</text>
+<text x="380" y="436" text-anchor="middle" class="ts" style="fill:var(--ink-2)">改繪自 Fletcher et al., JCI Insight 2019;4(11):e127737（graphical abstract）</text>
+</svg>

@@ -254,6 +254,17 @@
   "caption": "飢餓、T1DM：insulin ↓、AMPK ↑ → ACC 被抑制 → <strong>malonyl-CoA ↓ → CPT I 放行</strong> → β-oxidation ↑；<strong>OAA 被拉去糖質新生</strong> → acetyl-CoA 轉做酮體。肝外組織靠 <strong>SCOT</strong> 用酮體，<strong>肝臟沒有 SCOT</strong>。"
  },
  {
+  "id": "nafld-ketogenesis",
+  "chapter": "ch23",
+  "title": "脂肪肝：生酮變少、氧化與糖質新生變多",
+  "topics": [
+   "酮體",
+   "飢餓與糖尿病"
+  ],
+  "keywords": "NAFLD fatty liver ketogenesis beta-hydroxybutyrate acetoacetate TCA cycle anaplerosis oxygen consumption gluconeogenesis hyperglycemia insulin resistance glucagon insulin ratio fasting",
+  "caption": "禁食 24 h：β-oxidation 量相近，但脂肪肝的 acetyl-CoA <strong>少做酮體、多進 TCA 燒掉</strong> → O₂ 耗用與 ATP ↑ → <strong>糖質新生 ↑ → 高血糖</strong>；血酮約少 30%（主要是 β-HB）。改繪自 Fletcher et al., <em>JCI Insight</em> 2019。"
+ },
+ {
   "id": "cori-cycle",
   "chapter": "ch23",
   "title": "Cori cycle",
