@@ -253,6 +253,17 @@
   "caption": "葡萄糖 → 2 pyruvate：<strong>投資期</strong>（hexokinase、PFK-1）花 2 ATP，<strong>回收期</strong>（PGK、pyruvate kinase 各 ×2）產 4 ATP，GAPDH 產 2 NADH → <strong>淨 2 ATP + 2 NADH</strong>。紅線三步不可逆，是調控點，也是糖質新生要繞過的地方。"
  },
  {
+  "id": "gluconeogenesis",
+  "chapter": "ch23",
+  "title": "糖質新生總覽（複習）",
+  "topics": [
+   "各器官燃料代謝",
+   "Cori／葡萄糖-丙胺酸循環"
+  ],
+  "keywords": "gluconeogenesis 糖質新生 pyruvate carboxylase biotin acetyl-CoA PEPCK GTP malate shuttle FBPase-1 fructose-1,6-bisphosphatase F-2,6-BP G6Pase glucose-6-phosphatase ER von Gierke lactate alanine glycerol kinase glucogenic odd-chain propionyl-CoA 4 ATP 2 GTP 2 NADH",
+  "caption": "2 pyruvate → glucose：用 <strong>pyruvate carboxylase + PEPCK、FBPase-1、G6Pase</strong> 繞過糖解三個不可逆步驟，其餘可逆步驟倒著走。每個葡萄糖花 <strong>4 ATP + 2 GTP + 2 NADH</strong>。原料是 lactate、alanine、生醣胺基酸、glycerol；<strong>偶數碳脂肪酸不能淨造糖</strong>。"
+ },
+ {
   "id": "ketone-switch",
   "chapter": "ch23",
   "title": "飢餓時肝臟的生酮開關",
@@ -304,6 +315,16 @@
   ],
   "keywords": "beta cell GLUT2 ATP sensitive K channel depolarization calcium exocytosis incretin GLP-1 sulfonylurea",
   "caption": "血糖 ↑ → ATP/ADP ↑ → <strong>K-ATP 通道關閉 → 去極化 → Ca²⁺ 流入</strong> → insulin 胞吐。"
+ },
+ {
+  "id": "membrane-potential",
+  "chapter": "ch23",
+  "title": "膜電位（複習）",
+  "topics": [
+   "胰島素與 GLUT"
+  ],
+  "keywords": "membrane potential resting potential 膜電位 靜止膜電位 Na+/K+-ATPase K+ leak channel equilibrium potential Nernst depolarization hyperpolarization threshold voltage-gated calcium channel 去極化 過極化 閾值 K-ATP sulfonylurea diazoxide",
+  "caption": "Na⁺/K⁺-ATPase 建立梯度，K⁺ 經 leak 通道外流 → 膜內為負（<strong>≈ −70 mV</strong>，接近 E<sub>K</sub>）。<strong>K⁺ 外流減少或陽離子流入 → 去極化</strong>，過閾值打開電壓門控 Ca²⁺ 通道；K⁺ 通道開更多 → 過極化。"
  },
  {
   "id": "slide-ch23-insulin-receptor",

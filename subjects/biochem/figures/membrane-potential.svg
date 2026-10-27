@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 424" role="img" aria-label="膜電位複習：Na+/K+-ATPase 建立濃度梯度，K+ 經 leak 通道外流使膜內為負，靜止膜電位約 −70 mV、接近 K+ 平衡電位 −90 mV；K+ 外流減少或陽離子流入造成去極化，超過閾值打開電壓門控 Ca2+ 通道；K+ 通道打開更多造成過極化；套回 β 細胞：ATP 上升關閉 K-ATP，去極化，Ca2+ 流入，insulin 胞吐">
+<defs><marker id="mp-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="mp-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="mp-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="mp-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<text x="20" y="24" class="th">MEMBRANE POTENTIAL · 複習</text>
+<text x="740" y="24" text-anchor="end" class="ts">濃度單位 mM</text>
+<!-- 細胞外 -->
+<text x="20" y="62" class="th">細胞外</text>
+<text x="40" y="88" class="ts" style="font-size:12px">K⁺ 4</text>
+<text x="150" y="88" class="tb" style="font-size:13px">Na⁺ 145</text>
+<text x="270" y="88" class="tb" style="font-size:13px">Ca²⁺ 1.2</text>
+<!-- 膜 -->
+<rect x="20" y="130" width="380" height="36" class="fp"/>
+<path d="M20 130H400M20 166H400" class="lt"/>
+<text x="38" y="124" text-anchor="middle" class="tb tr" style="font-size:12px">+ +</text>
+<text x="145" y="124" text-anchor="middle" class="tb tr" style="font-size:12px">+ + + +</text>
+<text x="275" y="124" text-anchor="middle" class="tb tr" style="font-size:12px">+ + + +</text>
+<text x="382" y="124" text-anchor="middle" class="tb tr" style="font-size:12px">+ +</text>
+<text x="145" y="182" text-anchor="middle" class="tb tv" style="font-size:13px">− − − −</text>
+<text x="275" y="182" text-anchor="middle" class="tb tv" style="font-size:13px">− − − −</text>
+<g class="hot" data-tip="<b>Na⁺/K⁺-ATPase</b>：每水解 1 ATP，送出 <b>3 Na⁺</b>、送入 <b>2 K⁺</b>。主要作用是<b>建立濃度梯度</b>（胞內 K⁺ 高、Na⁺ 低）；它本身直接貢獻的電位只有幾 mV。" data-label="Na⁺/K⁺-ATPase"><rect x="60" y="118" width="40" height="60" rx="8" class="bw"/><text x="80" y="214" text-anchor="middle" class="tb" style="font-size:10.5px">Na⁺/K⁺-ATPase</text></g>
+<path d="M72 174V104" class="ln" marker-end="url(#mp-a)"/>
+<text x="66" y="112" text-anchor="end" class="ts" style="font-size:10.5px">3 Na⁺</text>
+<path d="M88 106V176" class="ln" marker-end="url(#mp-a)"/>
+<text x="94" y="196" class="ts" style="font-size:10.5px">2 K⁺</text>
+<g class="hot" data-tip="靜止時膜<b>主要對 K⁺ 通透</b>（leak 通道常開）。K⁺ 順濃度梯度外流，把正電帶出去、留下胞內的負電（蛋白質等陰離子），直到電位的拉力和濃度的推力平衡 → 膜內為負。" data-label="K⁺ leak 通道"><rect x="190" y="118" width="40" height="60" rx="8" class="bv"/><text x="210" y="214" text-anchor="middle" class="tb" style="font-size:10.5px">K⁺ 通道</text></g>
+<path d="M210 174V102" class="lv" marker-end="url(#mp-av)"/>
+<text x="218" y="110" class="tb tv" style="font-size:12px">K⁺ 外流</text>
+<g class="hot" data-tip="<b>電壓門控 Ca²⁺ 通道</b>：靜止時關閉，膜去極化超過閾值才打開。胞外 Ca²⁺ 約是胞內的 <b>10⁴ 倍</b>，一打開就大量湧入，所以 Ca²⁺ 很適合當觸發訊號（胞吐、肌肉收縮）。" data-label="電壓門控 Ca²⁺ 通道"><rect x="320" y="118" width="40" height="60" rx="8" class="br"/><text x="340" y="214" text-anchor="middle" class="tb" style="font-size:10.5px">電壓門控 Ca²⁺</text></g>
+<path d="M340 100V176" class="lr dash" marker-end="url(#mp-ar)"/>
+<text x="348" y="108" class="tb tr" style="font-size:12px">Ca²⁺</text>
+<text x="340" y="230" text-anchor="middle" class="ts" style="font-size:10px">（靜止時關）</text>
+<!-- 細胞內 -->
+<text x="20" y="252" class="th">細胞內</text>
+<text x="40" y="276" class="tb" style="font-size:13px">K⁺ 140</text>
+<text x="150" y="276" class="ts" style="font-size:12px">Na⁺ 12</text>
+<text x="270" y="276" class="ts" style="font-size:12px">Ca²⁺ 0.0001</text>
+<text x="20" y="306" class="tb tv" style="font-size:13px">膜內比膜外負：靜止膜電位 ≈ −70 mV</text>
+<!-- 電位軸 -->
+<text x="530" y="58" text-anchor="middle" class="th">mV</text>
+<path d="M530 70V312" class="ln"/>
+<path d="M524 125H536" class="ln"/>
+<text x="518" y="129" text-anchor="end" class="ts">0</text>
+<path d="M522 218H548" class="lr dash"/>
+<text x="518" y="222" text-anchor="end" class="tb tr" style="font-size:11px">閾值 ≈ −50</text>
+<path d="M524 255H536" class="ln"/>
+<g class="hot" data-tip="靜止膜電位：膜主要對 K⁺ 通透，所以接近 E<sub>K</sub>；但有少量 Na⁺ 內漏，所以比 E<sub>K</sub> 略正，約 −70 mV。" data-label="靜止膜電位"><text x="518" y="259" text-anchor="end" class="tb" style="font-size:11.5px">靜止 ≈ −70</text></g>
+<circle cx="530" cy="255" r="4.5" class="fv"/>
+<path d="M524 291H536" class="ln"/>
+<g class="hot" data-tip="<b>E<sub>K</sub></b>（K⁺ 平衡電位）：K⁺ 往外的濃度推力和往內的電位拉力剛好抵銷時的電位，由 Nernst equation 算出，約 −90 mV。" data-label="K⁺ 平衡電位"><text x="518" y="295" text-anchor="end" class="ts">E<tspan dy="3" style="font-size:8px">K</tspan><tspan dy="-3"> ≈ −90</tspan></text></g>
+<path d="M560 250V136" class="lv" marker-end="url(#mp-av)"/>
+<text x="574" y="146" class="tb tv" style="font-size:13px">去極化 ↑</text>
+<text x="574" y="164" class="ts">膜內變得較不負</text>
+<text x="574" y="180" class="ts">K⁺ 外流減少，或</text>
+<text x="574" y="196" class="ts">Na⁺、Ca²⁺ 流入</text>
+<text x="574" y="222" class="tb tr" style="font-size:11px">過閾值 → Ca²⁺ 通道開</text>
+<path d="M560 262V306" class="lg" marker-end="url(#mp-ag)"/>
+<text x="574" y="274" class="tb" style="font-size:13px;fill:var(--good)">過極化 ↓</text>
+<text x="574" y="292" class="ts">膜內變得更負</text>
+<text x="574" y="308" class="ts">K⁺ 通道開更多</text>
+<!-- 套回 β 細胞 -->
+<path d="M20 330H740" class="lt"/>
+<text x="20" y="352" class="th">套回 β 細胞</text>
+<rect x="20" y="362" width="100" height="30" rx="8" class="bx"/><text x="70" y="381" text-anchor="middle" class="tb" style="font-size:12px">ATP/ADP ↑</text>
+<path d="M120 377H140" class="ln" marker-end="url(#mp-a)"/>
+<rect x="142" y="362" width="100" height="30" rx="8" class="br"/><text x="192" y="381" text-anchor="middle" class="tb" style="font-size:12px">K-ATP 關閉</text>
+<path d="M242 377H262" class="ln" marker-end="url(#mp-a)"/>
+<rect x="264" y="362" width="100" height="30" rx="8" class="bx"/><text x="314" y="381" text-anchor="middle" class="tb" style="font-size:12px">K⁺ 出不去</text>
+<path d="M364 377H384" class="ln" marker-end="url(#mp-a)"/>
+<rect x="386" y="362" width="100" height="30" rx="8" class="bv"/><text x="436" y="381" text-anchor="middle" class="tb" style="font-size:12px">去極化</text>
+<path d="M486 377H506" class="ln" marker-end="url(#mp-a)"/>
+<rect x="508" y="362" width="100" height="30" rx="8" class="br"/><text x="558" y="381" text-anchor="middle" class="tb" style="font-size:12px">Ca²⁺ 流入</text>
+<path d="M608 377H628" class="ln" marker-end="url(#mp-a)"/>
+<rect x="630" y="362" width="110" height="30" rx="8" class="bg"/><text x="685" y="381" text-anchor="middle" class="tb" style="font-size:12px">Insulin 胞吐</text>
+<text x="20" y="414" class="ts">Sulfonylurea 關 K-ATP → 去極化 → 促進分泌；diazoxide 開 K-ATP → 過極化 → 抑制分泌。</text>
+</svg>

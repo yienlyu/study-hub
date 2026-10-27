@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 668" role="img" aria-label="糖質新生總覽：2 pyruvate 在粒線體經 pyruvate carboxylase 變 OAA，經 malate 運到細胞質，PEPCK 變 PEP，沿糖解可逆步驟往回到 fructose-1,6-BP，FBPase-1 變 F6P，再到 G6P，G6Pase 在 ER 放出葡萄糖；每個葡萄糖花 4 ATP、2 GTP、2 NADH；原料為 lactate、alanine、生醣胺基酸與 glycerol，偶數碳脂肪酸不能造糖">
+<defs><marker id="gng-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="gng-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="gng-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<text x="20" y="24" class="th">GLUCONEOGENESIS · 主要在肝（飢餓久了腎也做）</text>
+<text x="740" y="24" text-anchor="end" class="ts"><tspan class="tr tb">紅線</tspan>＝繞過糖解不可逆步驟的酵素</text>
+<rect x="115" y="44" width="170" height="28" rx="8" class="bw"/><text x="200" y="63" text-anchor="middle" class="tb" style="font-size:12.5px">2 × Pyruvate</text>
+<path d="M200 72L200 92" class="lr" marker-end="url(#gng-ar)"/>
+<g class="hot" data-tip="<b>Pyruvate carboxylase</b>（粒線體）：要 <b>biotin</b>，被 <b>acetyl-CoA 活化</b>（脂肪酸氧化旺盛時 → 把 pyruvate 推向糖質新生）。" data-label="Pyruvate carboxylase"><text x="192" y="86" text-anchor="end" class="tb tr" style="font-size:11px">Pyruvate carboxylase</text></g>
+<text x="208" y="86" class="tb tr" style="font-size:11px">−2 ATP</text>
+<rect x="115" y="94" width="170" height="28" rx="8" class="bx"/><text x="200" y="113" text-anchor="middle" class="tb" style="font-size:12.5px">2 × OAA</text>
+<path d="M200 122L200 142" class="ln" marker-end="url(#gng-a)"/>
+<g class="hot" data-tip="OAA 不能直接穿過粒線體內膜：先還原成 <b>malate</b> 運出，在細胞質再氧化回 OAA，順便把 NADH 帶到細胞質給 GAPDH 用。" data-label="Malate shuttle"><text x="192" y="136" text-anchor="end" class="ts" style="font-size:11px">Malate shuttle</text></g>
+<text x="208" y="136" class="ts" style="font-size:11px">經 malate 運出</text>
+<rect x="115" y="144" width="170" height="28" rx="8" class="bx"/><text x="200" y="163" text-anchor="middle" class="tb" style="font-size:12.5px">2 × OAA</text>
+<path d="M200 172L200 192" class="lr" marker-end="url(#gng-ar)"/>
+<g class="hot" data-tip="<b>PEP carboxykinase</b>：用 <b>GTP</b> 把 OAA 去羧並磷酸化成 PEP。Glucagon、cortisol 誘導表現，insulin 抑制。" data-label="PEPCK"><text x="192" y="186" text-anchor="end" class="tb tr" style="font-size:11px">PEPCK</text></g>
+<text x="208" y="186" class="tb tr" style="font-size:11px">−2 GTP</text>
+<rect x="115" y="194" width="170" height="28" rx="8" class="bx"/><text x="200" y="213" text-anchor="middle" class="tb" style="font-size:12.5px">2 × PEP</text>
+<path d="M200 222L200 242" class="ln" marker-end="url(#gng-a)"/>
+<text x="192" y="236" text-anchor="end" class="ts" style="font-size:11px">Enolase</text>
+<rect x="115" y="244" width="170" height="28" rx="8" class="bx"/><text x="200" y="263" text-anchor="middle" class="tb" style="font-size:12.5px">2 × 2-PG</text>
+<path d="M200 272L200 292" class="ln" marker-end="url(#gng-a)"/>
+<text x="192" y="286" text-anchor="end" class="ts" style="font-size:11px">PG mutase</text>
+<rect x="115" y="294" width="170" height="28" rx="8" class="bx"/><text x="200" y="313" text-anchor="middle" class="tb" style="font-size:12.5px">2 × 3-PG</text>
+<path d="M200 322L200 342" class="ln" marker-end="url(#gng-a)"/>
+<text x="192" y="336" text-anchor="end" class="ts" style="font-size:11px">PGK</text>
+<text x="208" y="336" class="tb tr" style="font-size:11px">−2 ATP</text>
+<rect x="115" y="344" width="170" height="28" rx="8" class="bx"/><text x="200" y="363" text-anchor="middle" class="tb" style="font-size:12.5px">2 × 1,3-BPG</text>
+<path d="M200 372L200 392" class="ln" marker-end="url(#gng-a)"/>
+<text x="192" y="386" text-anchor="end" class="ts" style="font-size:11px">GAPDH</text>
+<text x="208" y="386" class="tb tv" style="font-size:11px">−2 NADH</text>
+<rect x="115" y="394" width="170" height="28" rx="8" class="bx"/><text x="200" y="413" text-anchor="middle" class="tb" style="font-size:12.5px">2 × G3P</text>
+<path d="M200 422L200 442" class="ln" marker-end="url(#gng-a)"/>
+<text x="192" y="436" text-anchor="end" class="ts" style="font-size:11px">TPI、aldolase</text>
+<rect x="115" y="444" width="170" height="28" rx="8" class="bx"/><text x="200" y="463" text-anchor="middle" class="tb" style="font-size:12.5px">Fructose-1,6-BP</text>
+<path d="M200 472L200 492" class="lr" marker-end="url(#gng-ar)"/>
+<g class="hot" data-tip="<b>Fructose-1,6-bisphosphatase</b>：糖質新生的限速步驟。<b>F-2,6-BP、AMP 抑制</b>（剛好和 PFK-1 相反）；glucagon → cAMP 降低 F-2,6-BP → FBPase-1 解除抑制。" data-label="FBPase-1"><text x="192" y="486" text-anchor="end" class="tb tr" style="font-size:11px">FBPase-1</text></g>
+<text x="208" y="486" class="ts" style="font-size:11px">−Pᵢ（水解）</text>
+<rect x="115" y="494" width="170" height="28" rx="8" class="bx"/><text x="200" y="513" text-anchor="middle" class="tb" style="font-size:12.5px">Fructose-6-P</text>
+<path d="M200 522L200 542" class="ln" marker-end="url(#gng-a)"/>
+<text x="192" y="536" text-anchor="end" class="ts" style="font-size:11px">PGI</text>
+<rect x="115" y="544" width="170" height="28" rx="8" class="bx"/><text x="200" y="563" text-anchor="middle" class="tb" style="font-size:12.5px">Glucose-6-P</text>
+<path d="M200 572L200 592" class="lr" marker-end="url(#gng-ar)"/>
+<g class="hot" data-tip="<b>Glucose-6-phosphatase</b>：位在 <b>ER</b> 膜，只有<b>肝、腎</b>（小腸少量）有。<b>肌肉沒有</b> → 肌肝醣不能變成血糖。缺乏 → von Gierke 病（GSD I）。" data-label="G6Pase"><text x="192" y="586" text-anchor="end" class="tb tr" style="font-size:11px">G6Pase</text></g>
+<text x="208" y="586" class="ts" style="font-size:11px">ER；只有肝、腎</text>
+<rect x="115" y="594" width="170" height="28" rx="8" class="bg"/><text x="200" y="613" text-anchor="middle" class="tb" style="font-size:12.5px">Glucose</text>
+<path d="M40 46L32 46L32 122L40 122" class="lv"/>
+<text x="22" y="84" text-anchor="middle" transform="rotate(-90 22 84)" class="tb tv" style="font-size:11.5px">粒線體</text>
+<path d="M40 146L32 146L32 622L40 622" class="ln"/>
+<text x="22" y="384" text-anchor="middle" transform="rotate(-90 22 384)" class="tb" style="font-size:11.5px;fill:var(--ink-2)">細胞質</text>
+<rect x="420" y="44" width="320" height="140" rx="12" class="bw"/>
+<g class="hot" data-tip="糖解淨得 2 ATP，糖質新生卻要花 6 個高能磷酸鍵：多花的能量讓反應整體 ΔG 為負，才能往造糖的方向走。所以 Cori cycle 整體是淨耗能的。" data-label="能量帳本"><text x="434" y="66" class="tb" style="font-size:13.5px">能量帳本（每 1 葡萄糖）</text></g>
+<text x="434" y="88" class="ts" style="font-size:10.5px">Pyruvate carboxylase −2、PGK −2 → <tspan class="tb tr">−4 ATP</tspan></text>
+<text x="434" y="104" class="ts" style="font-size:10.5px">PEPCK → <tspan class="tb tr">−2 GTP</tspan></text>
+<text x="434" y="120" class="ts" style="font-size:10.5px">GAPDH（反向）→ <tspan class="tb tv">−2 NADH</tspan></text>
+<text x="434" y="142" class="tb" style="font-size:10.5px">共 6 個高能磷酸鍵 + 2 NADH</text>
+<text x="434" y="160" class="tb tr" style="font-size:10.5px">⚠ 糖解只淨得 2 ATP → 不是單純倒著走</text>
+<text x="434" y="176" class="ts" style="font-size:10.5px">Cori cycle：肝花 6、肌肉得 2 → 淨耗 4</text>
+<rect x="420" y="200" width="320" height="168" rx="12" class="br"/>
+<text x="434" y="222" class="tb tr" style="font-size:13.5px">四個繞道酵素 ↔ 糖解三個不可逆步驟</text>
+<text x="434" y="244" class="ts" style="font-size:10.5px">Pyruvate kinase ⟶ <tspan class="tb" style="fill:var(--ink)">Pyruvate carboxylase + PEPCK</tspan></text>
+<text x="434" y="260" class="ts" style="font-size:10.5px">　PC：粒線體、biotin，acetyl-CoA ⊕</text>
+<text x="434" y="276" class="ts" style="font-size:10.5px">　PEPCK：GTP，glucagon、cortisol 誘導</text>
+<text x="434" y="296" class="ts" style="font-size:10.5px">PFK-1 ⟶ <tspan class="tb" style="fill:var(--ink)">FBPase-1</tspan>（限速）：F-2,6-BP ⊖、AMP ⊖</text>
+<text x="434" y="316" class="ts" style="font-size:10.5px">Hexokinase ⟶ <tspan class="tb" style="fill:var(--ink)">G6Pase</tspan>：ER，只有肝、腎</text>
+<text x="434" y="338" class="tb tr" style="font-size:10.5px">肌肉沒有 G6Pase → 肌肝醣不能變血糖</text>
+<text x="434" y="356" class="ts" style="font-size:10.5px">F-2,6-BP 同時 ⊕ PFK-1、⊖ FBPase-1 → 兩條不同時開</text>
+<rect x="420" y="384" width="320" height="176" rx="12" class="bv"/>
+<text x="434" y="406" class="tb tv" style="font-size:13.5px">原料從哪來</text>
+<g class="hot" data-tip="肌肉、紅血球的 lactate 經血液到肝 → LDH 氧化回 pyruvate → 糖質新生 → 葡萄糖送回＝<b>Cori cycle</b>。" data-label="Lactate"><text x="434" y="428" class="ts" style="font-size:10.5px"><tspan class="tb" style="fill:var(--ink)">Lactate</tspan> → LDH → pyruvate（Cori cycle）</text></g>
+<text x="434" y="444" class="ts" style="font-size:10.5px"><tspan class="tb" style="fill:var(--ink)">Alanine</tspan> → ALT → pyruvate（glucose-alanine）</text>
+<text x="434" y="460" class="ts" style="font-size:10.5px"><tspan class="tb" style="fill:var(--ink)">生醣胺基酸</tspan> → TCA 中間物 → OAA</text>
+<g class="hot" data-tip="脂解放出的 glycerol 在肝由 <b>glycerol kinase</b> 磷酸化（脂肪細胞沒有這個酵素），再氧化成 <b>DHAP</b>，從三碳糖這一層接進來。" data-label="Glycerol"><text x="434" y="476" class="ts" style="font-size:10.5px"><tspan class="tb" style="fill:var(--ink)">Glycerol</tspan>（脂解）→ glycerol kinase → DHAP</text></g>
+<g class="hot" data-tip="偶數碳脂肪酸只產生 acetyl-CoA；<b>PDH 不可逆</b>，acetyl-CoA 不能變回 pyruvate，進 TCA 的兩個碳又以 2 CO₂ 離開，所以<b>沒有淨的 OAA</b> 可造糖。" data-label="脂肪酸不能造糖"><text x="434" y="500" class="tb tr" style="font-size:10.5px">✗ 偶數碳脂肪酸 → acetyl-CoA：不能淨造糖</text></g>
+<text x="434" y="516" class="ts" style="font-size:10.5px">　PDH 不可逆；進 TCA 的 2 碳又變 2 CO₂ 離開</text>
+<text x="434" y="538" class="ts" style="font-size:10.5px">✓ 奇數碳 → propionyl-CoA → succinyl-CoA 可以</text>
+<path d="M420 424L350 424L350 58L289 58" class="lv" marker-end="url(#gng-av)"/>
+<path d="M420 456L330 456L330 108L289 108" class="lv" marker-end="url(#gng-av)"/>
+<path d="M420 472L310 472L310 408L289 408" class="lv" marker-end="url(#gng-av)"/>
+<text x="380" y="656" text-anchor="middle" class="ts" style="fill:var(--ink-2)">Glucagon（cAMP／PKA）開糖質新生、關糖解；insulin 反之</text>
+</svg>
