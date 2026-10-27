@@ -303,7 +303,10 @@
   "topics": [
    "Cori／葡萄糖-丙胺酸循環"
   ],
-  "pattern": "選正確／單一概念題"
+  "pattern": "選正確／單一概念題",
+  "figs": [
+   "cori-cycle"
+  ]
  },
  {
   "id": "class-010",

@@ -5325,9 +5325,15 @@
 
   // ------------------------------------------------------------ command palette
   const cmdk = $("#cmdk");
-  let cmdIndex = null;
-  async function buildIndex() {
-    if (cmdIndex) return cmdIndex;
+  let cmdIndex = null,
+    cmdIndexP = null;
+  // 同時被預載和開面板呼叫時共用同一個 promise，失敗就清掉讓下次重試
+  const buildIndex = () =>
+    (cmdIndexP ||= makeIndex().catch((e) => {
+      cmdIndexP = null;
+      throw e;
+    }));
+  async function makeIndex() {
     const subs = await loadAllSubjects();
     // 彩蛋：只有搜「遊戲 / 數獨 / 數織 / game…」才會出現
     const items = [
@@ -5571,7 +5577,8 @@
     return h;
   };
   async function openPalette() {
-    const items = await buildIndex();
+    // 先開面板，索引還沒好就顯示載入中，建好再重畫
+    let items = cmdIndex || [];
     cmdk.hidden = false;
     cmdk.innerHTML = `<div class="cmdk" role="dialog" aria-modal="true" aria-label="搜尋">
       <div class="cmdk-input">${ic("search")}<input id="cmdkIn" type="text" placeholder="搜尋章節、重點、觀念圖或題目，例如 TLR4、CLIP…" autocomplete="off" role="combobox" aria-expanded="true" aria-controls="cmdkList"><kbd>Esc</kbd></div>
@@ -5646,7 +5653,9 @@
       }
       sel = Math.min(sel, Math.max(0, results.length - 1));
       let lastG = "";
-      list.innerHTML = results.length
+      list.innerHTML = !cmdIndex
+        ? `<div class="cmdk-empty">建立搜尋索引中…</div>`
+        : results.length
         ? results
             .map((x, i) => {
               const head =
@@ -5706,6 +5715,11 @@
     });
     draw();
     input.focus();
+    if (!cmdIndex) {
+      items = await buildIndex();
+      // 等待期間面板可能已關掉或重開
+      if (!cmdk.hidden && input.isConnected) draw();
+    }
   }
   function closePalette() {
     cmdk.hidden = true;
@@ -5780,6 +5794,10 @@
     route();
     paintAcct();
     Cloud.init();
+    // 閒置時先建搜尋索引，按 ⌘K / 時就不用等
+    (window.requestIdleCallback || ((f) => setTimeout(f, 1500)))(() =>
+      buildIndex().catch(() => {}),
+    );
   };
   if (window.marked) boot();
   else addEventListener("load", boot, { once: true });

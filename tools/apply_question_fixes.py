@@ -74,8 +74,9 @@ for subj in sorted(os.listdir(os.path.join(ROOT, "subjects"))):
                     q.pop(k, None)
                 else:
                     q[k] = v
-        out = json.dumps(qs, ensure_ascii=False, indent=1) + ("\n" if raw.endswith("\n") else "")
-        if (conv or items) and out != raw:
+        # 比對資料而非字串：已套用過的修正不寫回，避免把格式不同的題庫整個重排
+        if qs != json.loads(raw):
+            out = json.dumps(qs, ensure_ascii=False, indent=1) + ("\n" if raw.endswith("\n") else "")
             open(path, "w", encoding="utf-8").write(out)
         if conv or items:
             print(f"{subj}/{fname}: 多選題轉換 {conv} 題、逐題修正 {len(items)} 題")

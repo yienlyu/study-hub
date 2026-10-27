@@ -69,7 +69,11 @@
    "k114-16": {"answer": ["D"]}
   },
   "questions-class.json": {
+   "class-009": {"figs": ["cori-cycle"]},
    "class-024": {"figs": ["glycolysis"]}
+  },
+  "questions-prac.json": {
+   "prac-004": {"figs": ["cori-cycle"]}
   }
  }
 }

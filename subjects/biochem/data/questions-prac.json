@@ -117,7 +117,8 @@
     "answer": ["D"],
     "explain": "Cori cycle 將肌肉產生的乳酸送至肝臟，經糖質新生再形成葡萄糖。肝醣本身不會作為循環中的運送形式。",
     "topics": ["Cori／葡萄糖-丙胺酸循環"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "figs": ["cori-cycle"]
   },
   {
     "id": "prac-005",
