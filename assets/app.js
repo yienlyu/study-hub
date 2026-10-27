@@ -1951,6 +1951,8 @@
   const TABS = [
     ["summary", "重點整理", "file"],
     ["slides", "上課 slides", "slides"],
+    ["sheet", "速記表", "grid"],
+    ["figs", "觀念圖", "image"],
     ["exam", "考點分析", "chart"],
     ["practice", "練習", "pen"],
   ];
@@ -1975,6 +1977,8 @@
     if (tab === "exam")
       body = `<div style="padding-top:36px">${chapterExamPanel(subj, cid)}<div class="reader" style="padding-top:48px"><aside class="toc" id="toc"></aside><article class="prose">${proseFrom(content.exam)}</article></div></div>`;
     else if (tab === "practice") body = chapterPracticePanel(subj, cid);
+    else if (tab === "sheet") body = await chapterSheetPanel(subj, cid);
+    else if (tab === "figs") body = chapterFigsPanel(subj, cid);
     else {
       const slides =
         tab === "slides"
@@ -2036,6 +2040,24 @@
         });
       },
     );
+  }
+  const panelHead = (eyebrow, link, label) =>
+    `<div class="section-head" style="margin-bottom:12px"><div><div class="eyebrow">${eyebrow}</div></div><a class="small" href="${link}">${label} →</a></div>`;
+  // 本章的速記卡（@ch 含本章）
+  async function chapterSheetPanel(subj, cid) {
+    const cards = (await loadSheet(subj)).filter((c) => c.ch.includes(cid));
+    if (!cards.length)
+      return `<div class="empty-state" style="padding-top:36px">這一章還沒有速記表。</div>`;
+    return `<section class="sheet-wrap">${panelHead(`速記 · ${cards.length} 張表`, `#/s/${subj.meta.id}/sheet`, "全部速記表")}<div class="sheet">${cards.map((c, i) => sheetCardHTML(subj, c, i)).join("")}</div></section>`;
+  }
+  // 本章手繪觀念圖（上課 slides 圖在 slides 分頁）
+  function chapterFigsPanel(subj, cid) {
+    const figs = (subj.figs || []).filter(
+      (f) => f.chapter === cid && !isSlide(f),
+    );
+    if (!figs.length)
+      return `<div class="empty-state" style="padding-top:36px">這一章還沒有觀念圖。</div>`;
+    return `<section class="section" style="padding-top:28px">${panelHead(`觀念圖 · ${figs.length} 張`, `#/s/${subj.meta.id}/sheet/figs`, "全部觀念圖")}<div class="fig-gallery">${figs.map((f) => figCardHTML(subj, f)).join("")}</div></section>`;
   }
   // 搜尋結果跳到段落：比對去掉空白後的文字
   const squash = (t) =>
@@ -4249,7 +4271,44 @@
   const sheetTabs = (sid, m, cur) => {
     const T = (k, href, icon, label) =>
       `<a href="#/s/${sid}/sheet${href}"${cur === k ? ' aria-current="page"' : ""}>${ic(icon)}${label}</a>`;
-    return `<nav class="seg" aria-label="切換">${m.sheet ? T("sheet", "", "grid", "速記表") : ""}${m.worms ? T("worms", "/worms", "cards", "蟲卡") : ""}${m.roots ? T("roots", "/roots", "book", "字根字首") : ""}${T("figs", "/figs", "image", "觀念圖")}</nav>`;
+    return `<nav class="seg" aria-label="切換">${m.sheet ? T("sheet", "", "grid", "速記表") : ""}${m.worms ? T("worms", "/worms", "cards", "蟲卡") : ""}${m.roots ? T("roots", "/roots", "book", "字根字首") : ""}${T("figs", "/figs", "image", "圖庫")}</nav>`;
+  };
+  const figCardHTML = (subj, f) => {
+    const sid = subj.meta.id;
+    const F = subj.figById[f.id];
+    const slide = isSlide(F);
+    return `<article class="card fig-card${slide ? " is-slide" : ""}" data-sid="${esc(sid)}">
+              <button type="button" class="thumb" data-zoom="${esc(f.id)}" aria-label="放大「${esc(f.title)}」" style="pointer-events:auto;border:0;cursor:zoom-in;width:100%">${slide ? slideImg(subj, F) : `<div class="fig-body loading" data-src="${esc(f.id)}" style="padding:0;overflow:hidden;width:100%;height:100%"></div>`}</button>
+              <div class="meta"><span class="eyebrow">${figLabel(F)}${slide ? ` · ${esc(F.deck.split(" ")[0])}` : ""}</span><b>${esc(f.title)}</b></div>
+              <div class="foot">${slide ? `<a href="#/s/${sid}/c/${f.chapter}/slides">本章 slides 重點</a>` : `<a href="#/s/${sid}/c/${f.chapter}/summary?${qs({ find: f.title })}">在章節裡看</a>`}${(
+                f.topics || []
+              )
+                .slice(0, 1)
+                .map(
+                  (t) =>
+                    `<a href="#/s/${sid}/practice?${qs({ topic: t, start: 1, n: 0, mode: "random" })}">練「${esc(t)}」</a>`,
+                )
+                .join("")}</div>
+            </article>`;
+  };
+  const sheetCardHTML = (subj, c, i) => {
+    const sid = subj.meta.id;
+    return `<section class="card" id="sheet-${i}">
+            <h2><span class="mono">${pad2(i + 1)}</span>${esc(c.title)}</h2>
+            <div class="prose">${mdToHTML(c.md)}</div>
+            ${c.fig.map((f) => (subj.figById[f] ? `<div data-sid="${esc(sid)}" style="margin-top:6px"><button class="btn sm noprint" type="button" data-zoom="${esc(f)}">${ic("image")}${esc(subj.figById[f].title)}</button></div>` : "")).join("")}
+            ${
+              c.ch.length
+                ? `<div class="go noprint">${c.ch
+                    .filter((id) => subj.chMap[id])
+                    .map(
+                      (id) =>
+                        `<a href="#/s/${sid}/c/${id}/summary">→ Ch.${pad2(subj.chMap[id].idx)} ${esc(subj.chMap[id].title)}</a>`,
+                    )
+                    .join("")}</div>`
+                : ""
+            }
+          </section>`;
   };
   async function pageSheet(sid, tab, q = {}) {
     const subj = await loadSubject(sid);
@@ -4298,47 +4357,14 @@
           <div class="fig-gallery">${g.list
             .slice()
             .sort((a, b) => isSlide(a) - isSlide(b))
-            .map((f) => {
-              const F = subj.figById[f.id];
-              const slide = isSlide(F);
-              return `<article class="card fig-card${slide ? " is-slide" : ""}" data-sid="${esc(sid)}">
-              <button type="button" class="thumb" data-zoom="${esc(f.id)}" aria-label="放大「${esc(f.title)}」" style="pointer-events:auto;border:0;cursor:zoom-in;width:100%">${slide ? slideImg(subj, F) : `<div class="fig-body loading" data-src="${esc(f.id)}" style="padding:0;overflow:hidden;width:100%;height:100%"></div>`}</button>
-              <div class="meta"><span class="eyebrow">${figLabel(F)}${slide ? ` · ${esc(F.deck.split(" ")[0])}` : ""}</span><b>${esc(f.title)}</b></div>
-              <div class="foot">${slide ? `<a href="#/s/${sid}/c/${f.chapter}/slides">本章 slides 重點</a>` : `<a href="#/s/${sid}/c/${f.chapter}/summary?${qs({ find: f.title })}">在章節裡看</a>`}${(
-                f.topics || []
-              )
-                .slice(0, 1)
-                .map(
-                  (t) =>
-                    `<a href="#/s/${sid}/practice?${qs({ topic: t, start: 1, n: 0, mode: "random" })}">練「${esc(t)}」</a>`,
-                )
-                .join("")}</div>
-            </article>`;
-            })
+            .map((f) => figCardHTML(subj, f))
             .join("")}</div></section>`,
         )
         .join("");
     } else {
       body = cards.length
         ? `<div class="sheet">${cards
-            .map(
-              (c, i) => `<section class="card" id="sheet-${i}">
-            <h2><span class="mono">${pad2(i + 1)}</span>${esc(c.title)}</h2>
-            <div class="prose">${mdToHTML(c.md)}</div>
-            ${c.fig.map((f) => (subj.figById[f] ? `<div data-sid="${esc(sid)}" style="margin-top:6px"><button class="btn sm noprint" type="button" data-zoom="${esc(f)}">${ic("image")}${esc(subj.figById[f].title)}</button></div>` : "")).join("")}
-            ${
-              c.ch.length
-                ? `<div class="go noprint">${c.ch
-                    .filter((id) => subj.chMap[id])
-                    .map(
-                      (id) =>
-                        `<a href="#/s/${sid}/c/${id}/summary">→ Ch.${pad2(subj.chMap[id].idx)} ${esc(subj.chMap[id].title)}</a>`,
-                    )
-                    .join("")}</div>`
-                : ""
-            }
-          </section>`,
-            )
+            .map((c, i) => sheetCardHTML(subj, c, i))
             .join("")}</div>`
         : `<div class="card empty"><p>這個科目還沒有${isRoots ? "字根字首表" : "速記表"}。</p></div>`;
     }
