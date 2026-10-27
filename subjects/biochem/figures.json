@@ -264,6 +264,16 @@
   "caption": "2 pyruvate → glucose：用 <strong>pyruvate carboxylase + PEPCK、FBPase-1、G6Pase</strong> 繞過糖解三個不可逆步驟，其餘可逆步驟倒著走。每個葡萄糖花 <strong>4 ATP + 2 GTP + 2 NADH</strong>。原料是 lactate、alanine、生醣胺基酸、glycerol；<strong>偶數碳脂肪酸不能淨造糖</strong>。"
  },
  {
+  "id": "tca-cycle",
+  "chapter": "ch23",
+  "title": "TCA 循環總覽（複習）",
+  "topics": [
+   "各器官燃料代謝"
+  ],
+  "keywords": "TCA citric acid cycle Krebs 檸檬酸循環 citrate synthase aconitase isocitrate dehydrogenase rate-limiting α-ketoglutarate dehydrogenase TPP lipoate succinyl-CoA synthetase GTP substrate-level phosphorylation succinate dehydrogenase complex II FADH2 fumarase malate dehydrogenase oxaloacetate 3 NADH 1 FADH2 10 ATP anaplerotic propionyl-CoA SCOT aspartate glutamate citrate shuttle",
+  "caption": "Acetyl-CoA + OAA → citrate → … → OAA：每圈產 <strong>3 NADH + 1 FADH₂ + 1 GTP ＝ 10 ATP</strong>，放出 2 CO₂。限速酵素是 <strong>isocitrate DH</strong>；FADH₂ 只來自 <strong>succinate DH（複合體 II）</strong>。紫字標出和各章的接點：citrate → FA 合成、α-KG ⇄ glutamate、奇數碳 → succinyl-CoA、尿素循環 → fumarate、OAA ⇄ aspartate／糖質新生。"
+ },
+ {
   "id": "ketone-switch",
   "chapter": "ch23",
   "title": "飢餓時肝臟的生酮開關",

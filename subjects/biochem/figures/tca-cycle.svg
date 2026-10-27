@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-label="TCA 循環：acetyl-CoA 與 oxaloacetate 經 citrate synthase 生成 citrate，經 aconitase 成 isocitrate，isocitrate dehydrogenase 產生 NADH 與 CO2 成 α-ketoglutarate，α-KG dehydrogenase 產生 NADH 與 CO2 成 succinyl-CoA，succinyl-CoA synthetase 產生 GTP 成 succinate，succinate dehydrogenase 產生 FADH2 成 fumarate，fumarase 成 malate，malate dehydrogenase 產生 NADH 再生 oxaloacetate；每圈 3 NADH、1 FADH2、1 GTP，共 10 ATP">
+<defs><marker id="tca-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="tca-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<text x="20" y="24" class="th">粒線體基質</text>
+<text x="380" y="30" text-anchor="middle" class="ts" style="font-size:10.5px">來源：pyruvate（PDH）、β-oxidation、生酮胺基酸</text>
+<g class="hot" data-tip="Acetyl-CoA（2 碳）進 TCA 的前提是要有 <b>OAA</b> 可以接。飢餓、糖尿病時 OAA 被糖質新生抽走 → acetyl-CoA 進不了 TCA → 肝臟改做<b>酮體</b>。" data-label="Acetyl-CoA"><rect x="320" y="44" width="120" height="32" rx="10" class="bw"/><text x="380" y="65" text-anchor="middle" class="tb" style="font-size:12px">Acetyl-CoA</text></g>
+<path d="M380 76V138" class="ln" marker-end="url(#tca-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="① Citrate synthase：acetyl-CoA + OAA → citrate。是 <b>synthase</b>（不直接用 ATP），能量來自 thioester 水解。受 citrate、succinyl-CoA、NADH、ATP 抑制。" data-label="Citrate synthase"><text x="388" y="108" class="tb" style="font-size:11px">① citrate synthase</text></g>
+
+<g class="hot" data-tip="Oxaloacetate（4 碳）：每圈再生，濃度很低。<b>轉胺 ⇄ aspartate</b>（尿素循環的第二個 N）；被 <b>PEPCK</b> 拉去糖質新生；由 <b>pyruvate carboxylase</b>（biotin，acetyl-CoA 活化）補充（anaplerotic）。" data-label="Oxaloacetate"><rect x="232" y="128" width="120" height="30" rx="10" class="br"/><text x="292" y="148" text-anchor="middle" class="tb" style="font-size:12px">Oxaloacetate</text></g>
+<text x="232" y="100" class="ts" style="font-size:10.5px;fill:var(--violet)">→ 糖質新生（PEPCK）</text>
+<text x="232" y="116" class="ts" style="font-size:10.5px;fill:var(--violet)">⇄ Aspartate（轉胺）</text>
+<path d="M352 143H404" class="ln" marker-end="url(#tca-a)" style="stroke-width:1.6"/>
+
+<g class="hot" data-tip="Citrate（6 碳）：可經 citrate shuttle 運到<b>細胞質</b>，由 ATP-citrate lyase 放出 acetyl-CoA 做<b>脂肪酸合成</b>；同時<b>抑制 PFK-1、活化 acetyl-CoA carboxylase</b>。" data-label="Citrate"><rect x="408" y="128" width="120" height="30" rx="10" class="bx"/><text x="468" y="148" text-anchor="middle" class="tb" style="font-size:12px">Citrate</text></g>
+<text x="534" y="134" class="ts" style="font-size:10.5px;fill:var(--violet)">→ 細胞質：FA 合成</text>
+<text x="534" y="150" class="ts" style="font-size:10.5px">（抑制 PFK-1、活化 ACC）</text>
+<path d="M526 158L572 218" class="ln" marker-end="url(#tca-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="② Aconitase：citrate ⇄ isocitrate（經 cis-aconitate）。含 Fe-S；fluoroacetate 會變成 fluorocitrate 抑制它。" data-label="Aconitase"><text x="560" y="186" class="tb" style="font-size:11px">② aconitase</text></g>
+
+<g class="hot" data-tip="Isocitrate（6 碳）。" data-label="Isocitrate"><rect x="532" y="220" width="120" height="30" rx="10" class="bx"/><text x="592" y="240" text-anchor="middle" class="tb" style="font-size:12px">Isocitrate</text></g>
+<path d="M592 250V346" class="ln" marker-end="url(#tca-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="③ Isocitrate dehydrogenase：<b>TCA 的限速步驟</b>。<b>ADP、Ca²⁺ 活化</b>；<b>ATP、NADH 抑制</b>。產生第一個 NADH 與第一個 CO₂（6 碳 → 5 碳）。" data-label="Isocitrate dehydrogenase"><text x="602" y="290" class="tb tr" style="font-size:11px">③ isocitrate DH ★</text></g>
+<text x="602" y="306" class="ts" style="font-size:10.5px"><tspan class="tv tb">NADH</tspan>、CO₂</text>
+
+<g class="hot" data-tip="α-Ketoglutarate（5 碳）：<b>轉胺 ⇄ glutamate</b>（aminotransferase，PLP）；<b>glutamate dehydrogenase</b> 氧化脫胺也回到 α-KG。生醣胺基酸 Glu、Gln、Arg、His、Pro 由此進 TCA。" data-label="α-Ketoglutarate"><rect x="532" y="350" width="120" height="30" rx="10" class="bx"/><text x="592" y="370" text-anchor="middle" class="tb" style="font-size:12px">α-KG</text></g>
+<text x="658" y="362" class="ts" style="font-size:10.5px;fill:var(--violet)">⇄ Glutamate</text>
+<text x="658" y="378" class="ts" style="font-size:10.5px">（轉胺／GDH）</text>
+<path d="M570 380L524 440" class="ln" marker-end="url(#tca-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="④ α-Ketoglutarate dehydrogenase complex：結構和 PDH 一樣，要 <b>TPP（B₁）、lipoate、CoA（B₅）、FAD（B₂）、NAD⁺（B₃）</b>。產物 succinyl-CoA、NADH 抑制。第二個 NADH、第二個 CO₂。" data-label="α-KG dehydrogenase"><text x="566" y="418" class="tb" style="font-size:11px">④ α-KG DH complex</text></g>
+<text x="566" y="434" class="ts" style="font-size:10.5px"><tspan class="tv tb">NADH</tspan>、CO₂</text>
+
+<g class="hot" data-tip="Succinyl-CoA（4 碳）：<b>奇數碳脂肪酸</b>與 Val、Ile、Met、Thr 經 propionyl-CoA → methylmalonyl-CoA（<b>B₁₂</b> mutase）由此進來；肝外組織的 <b>SCOT</b> 從 succinyl-CoA 借 CoA 活化酮體（<b>肝沒有 SCOT</b>）；+ glycine →（ALA synthase，PLP）→ <b>heme</b>。" data-label="Succinyl-CoA"><rect x="408" y="442" width="120" height="30" rx="10" class="bx"/><text x="468" y="462" text-anchor="middle" class="tb" style="font-size:12px">Succinyl-CoA</text></g>
+<path d="M600 494L530 470" class="lv dash" marker-end="url(#tca-av)" style="stroke-width:1.4"/>
+<text x="604" y="492" class="ts" style="font-size:10.5px;fill:var(--violet)">← 奇數碳 FA</text>
+<text x="604" y="508" class="ts" style="font-size:10.5px">propionyl-CoA（B₁₂）</text>
+<path d="M408 457H356" class="ln" marker-end="url(#tca-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="⑤ Succinyl-CoA synthetase：thioester 能量直接做 <b>GTP</b>（肝）或 ATP，是 TCA 唯一的<b>受質層次磷酸化</b>。" data-label="Succinyl-CoA synthetase"><text x="380" y="494" text-anchor="middle" class="tb" style="font-size:11px">⑤ succinyl-CoA synthetase</text></g>
+<text x="380" y="510" text-anchor="middle" class="ts" style="font-size:10.5px"><tspan class="tv tb">GTP</tspan></text>
+
+<g class="hot" data-tip="Succinate（4 碳）。" data-label="Succinate"><rect x="232" y="442" width="120" height="30" rx="10" class="bx"/><text x="292" y="462" text-anchor="middle" class="tb" style="font-size:12px">Succinate</text></g>
+<path d="M252 442L192 382" class="ln" marker-end="url(#tca-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="⑥ Succinate dehydrogenase：<b>唯一嵌在粒線體內膜</b>的 TCA 酵素，就是 ETC 的<b>複合體 II</b>。輔因子 <b>FAD</b>（不是 NAD⁺）→ 產生 <b>FADH₂</b>。Malonate 競爭性抑制。" data-label="Succinate dehydrogenase"><text x="212" y="420" text-anchor="end" class="tb" style="font-size:11px">⑥ succinate DH</text></g>
+<text x="212" y="436" text-anchor="end" class="ts" style="font-size:10.5px"><tspan class="tv tb">FADH₂</tspan>（＝複合體 II）</text>
+
+<g class="hot" data-tip="Fumarate（4 碳）：<b>尿素循環</b>的 argininosuccinase 放出 fumarate（細胞質）→ malate → OAA → aspartate 再回尿素循環（Krebs bicycle）；Phe、Tyr 也由此進 TCA。" data-label="Fumarate"><rect x="108" y="350" width="120" height="30" rx="10" class="bx"/><text x="168" y="370" text-anchor="middle" class="tb" style="font-size:12px">Fumarate</text></g>
+<text x="102" y="362" text-anchor="end" class="ts" style="font-size:10.5px;fill:var(--violet)">尿素循環</text>
+<text x="102" y="378" text-anchor="end" class="ts" style="font-size:10.5px;fill:var(--violet)">→</text>
+<path d="M168 350V254" class="ln" marker-end="url(#tca-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="⑦ Fumarase（fumarate hydratase）：加水，fumarate → L-malate。" data-label="Fumarase"><text x="160" y="306" text-anchor="end" class="tb" style="font-size:11px">⑦ fumarase</text></g>
+
+<g class="hot" data-tip="Malate（4 碳）：<b>malate-aspartate shuttle</b> 用它把細胞質 NADH 的電子帶進粒線體（2.5 ATP，心、肝）；糖質新生時 OAA 以 malate 形式運出粒線體。" data-label="Malate"><rect x="108" y="220" width="120" height="30" rx="10" class="bx"/><text x="168" y="240" text-anchor="middle" class="tb" style="font-size:12px">Malate</text></g>
+<path d="M192 220L246 162" class="ln" marker-end="url(#tca-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="⑧ Malate dehydrogenase：malate → OAA，第三個 NADH。平衡偏向 malate，靠 citrate synthase 把 OAA 拉走才往前。" data-label="Malate dehydrogenase"><text x="204" y="180" text-anchor="end" class="tb" style="font-size:11px">⑧ malate DH</text></g>
+<text x="204" y="196" text-anchor="end" class="ts" style="font-size:10.5px"><tspan class="tv tb">NADH</tspan></text>
+
+<text x="380" y="264" text-anchor="middle" class="th">每圈（1 ACETYL-COA）</text>
+<text x="380" y="290" text-anchor="middle" class="tb" style="font-size:13px"><tspan class="tv">3 NADH</tspan> ＋ <tspan class="tv">1 FADH₂</tspan> ＋ <tspan class="tv">1 GTP</tspan></text>
+<text x="380" y="312" text-anchor="middle" class="ts" style="font-size:11px">3 × 2.5 ＋ 1.5 ＋ 1</text>
+<text x="380" y="338" text-anchor="middle" class="tb tr" style="font-size:15px">＝ 10 ATP</text>
+<text x="380" y="362" text-anchor="middle" class="ts" style="font-size:11px">放出 2 CO₂（③、④）</text>
+
+<text x="380" y="536" text-anchor="middle" class="ts" style="fill:var(--ink-2)">★ 限速：isocitrate DH（ADP 活化；ATP、NADH 抑制）。紫字＝和其他章節的接點。</text>
+<text x="380" y="553" text-anchor="middle" class="ts" style="fill:var(--ink-2)">⚠️ FADH₂ 只來自 succinate DH；GTP 是唯一的受質層次磷酸化；TCA 不直接用 O₂，但 ETC 停了就停。</text>
+</svg>
