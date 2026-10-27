@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 412" role="img" aria-label="BH4 循環與兩型 PKU：BH4 由 GTP 合成，是 phenylalanine hydroxylase、tyrosine hydroxylase、tryptophan hydroxylase 與 NO synthase 的共同輔因子，用過變成 BH2，由 dihydropteridine reductase 以 NADH 再生；PAH 缺乏只影響 Phe 轉 Tyr，BH4 缺乏同時讓 dopamine 與 serotonin 下降">
+<defs><marker id="bh-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="bh-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<!-- BH4 循環 -->
+<rect x="40" y="28" width="170" height="32" rx="8" class="bx"/><text x="125" y="49" text-anchor="middle" class="tb" style="font-size:12px">GTP</text>
+<path d="M125 60L125 96" class="ln" marker-end="url(#bh-a)"/>
+<text x="133" y="83" class="ts">從頭合成（不是葉酸）</text>
+<rect x="40" y="100" width="170" height="36" rx="8" class="bv"/><text x="125" y="123" text-anchor="middle" class="tb tv" style="font-size:13px">BH₄</text>
+<path d="M78 136L78 222" class="ln" marker-end="url(#bh-a)"/>
+<text x="70" y="176" text-anchor="end" class="ts">用掉</text>
+<rect x="40" y="226" width="170" height="36" rx="8" class="bx"/><text x="125" y="249" text-anchor="middle" class="tb" style="font-size:12.5px">q-BH₂</text>
+<path d="M172 226L172 140" class="lv" marker-end="url(#bh-av)" style="stroke-width:2"/>
+<g class="hot" data-tip="<b>Dihydropteridine reductase（DHPR）</b> 用 <b>NADH</b> 把 BH₂ 還原回 BH₄。講義寫作 dihydrobiopterin reductase。缺乏 → BH₄ 不夠 → 四個酵素一起受影響。" data-label="DHPR"><text x="180" y="176" class="tb tv" style="font-size:11px">DHPR</text></g>
+<text x="180" y="192" class="ts">NADH</text>
+<!-- 匯流排 -->
+<path d="M210 118L262 118" class="lv" style="stroke-width:2"/>
+<path d="M262 50L262 242" class="lv" style="stroke-width:2"/>
+<path d="M262 50L294 50" class="lv" marker-end="url(#bh-av)"/>
+<path d="M262 114L294 114" class="lv" marker-end="url(#bh-av)"/>
+<path d="M262 178L294 178" class="lv" marker-end="url(#bh-av)"/>
+<path d="M262 242L294 242" class="lv" marker-end="url(#bh-av)"/>
+<!-- 四個反應 -->
+<rect x="298" y="28" width="442" height="46" rx="10" class="bx"/>
+<g class="hot" data-tip="<b>Phenylalanine hydroxylase（PAH）</b>，肝臟；mixed-function oxidase，用 O₂ 與 BH₄。缺乏 → 典型 PKU。" data-label="PAH"><text x="312" y="48" class="tb" style="font-size:12.5px">Phe → Tyr</text></g>
+<text x="312" y="65" class="ts">phenylalanine hydroxylase（PAH）</text>
+<text x="726" y="56" text-anchor="end" class="tb tr" style="font-size:11px">缺 → PKU</text>
+<rect x="298" y="92" width="442" height="46" rx="10" class="bx"/>
+<g class="hot" data-tip="<b>Tyrosine hydroxylase</b> 是兒茶酚胺合成的速率決定步驟：Tyr →（BH₄）L-DOPA →（PLP）dopamine → NE →（SAM）epinephrine。" data-label="Tyrosine hydroxylase"><text x="312" y="112" class="tb" style="font-size:12.5px">Tyr → L-DOPA</text></g>
+<text x="312" y="129" class="ts">tyrosine hydroxylase（限速）</text>
+<text x="726" y="120" text-anchor="end" class="ts" style="fill:var(--ink-2)">→ dopamine → NE → Epi</text>
+<rect x="298" y="156" width="442" height="46" rx="10" class="bx"/>
+<g class="hot" data-tip="<b>Tryptophan hydroxylase</b>：Trp → 5-hydroxytryptophan →（PLP 脫羧）serotonin →（松果腺、夜間）melatonin。" data-label="Tryptophan hydroxylase"><text x="312" y="176" class="tb" style="font-size:12.5px">Trp → 5-HTP</text></g>
+<text x="312" y="193" class="ts">tryptophan hydroxylase</text>
+<text x="726" y="184" text-anchor="end" class="ts" style="fill:var(--ink-2)">→ serotonin → melatonin</text>
+<rect x="298" y="220" width="442" height="46" rx="10" class="bx"/>
+<g class="hot" data-tip="<b>NO synthase</b>：Arg → NO + citrulline，需 BH₄ 與 NADPH；NO 活化 soluble guanylyl cyclase → cGMP ↑ → 平滑肌放鬆。" data-label="NOS"><text x="312" y="240" class="tb" style="font-size:12.5px">Arg → NO + citrulline</text></g>
+<text x="312" y="257" class="ts">NO synthase（另需 NADPH）</text>
+<text x="726" y="248" text-anchor="end" class="ts" style="fill:var(--ink-2)">→ cGMP → 血管舒張</text>
+<!-- 兩型比較 -->
+<rect x="20" y="290" width="354" height="104" rx="12" class="br"/>
+<text x="34" y="312" class="tb tr" style="font-size:12.5px">典型 PKU：PAH 缺</text>
+<text x="34" y="334" class="ts" style="fill:var(--ink)">只卡第一列：Phe ↑、Tyr ↓</text>
+<text x="34" y="352" class="ts" style="fill:var(--ink)">Phe 轉胺 → phenylpyruvate、phenylacetate</text>
+<text x="34" y="370" class="ts" style="fill:var(--ink)">Tyr 變條件式必需、melanin ↓ 皮膚白</text>
+<text x="34" y="386" class="tb" style="font-size:11px">治療：限 Phe、補 Tyr</text>
+<rect x="386" y="290" width="354" height="104" rx="12" class="bv"/>
+<text x="400" y="312" class="tb tv" style="font-size:12.5px">BH₄ 缺：DHPR 或合成酵素缺</text>
+<text x="400" y="334" class="ts" style="fill:var(--ink)">四列一起卡：Phe ↑，PAH 蛋白本身正常</text>
+<text x="400" y="352" class="ts" style="fill:var(--ink)">腦脊髓液 dopamine、serotonin 代謝物 ↓</text>
+<text x="400" y="370" class="ts" style="fill:var(--ink)">只限 Phe 救不了神經症狀</text>
+<text x="400" y="386" class="tb" style="font-size:11px">治療：限 Phe ＋ 補 BH₄、L-DOPA、5-HTP</text>
+</svg>

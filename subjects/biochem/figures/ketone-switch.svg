@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 478" role="img" aria-label="飢餓時肝臟的生酮開關：insulin 活化、AMPK 與 glucagon 抑制 ACC；malonyl-CoA 抑制 CPT I，飢餓時 malonyl-CoA 下降使脂肪酸進入粒線體 β-oxidation；oxaloacetate 被拉去糖質新生，acetyl-CoA 轉向 HMG-CoA synthase、lyase 生成 acetoacetate 與 β-hydroxybutyrate；肝外組織用 SCOT 活化 acetoacetate，肝臟缺 SCOT、紅血球缺粒線體">
+<defs><marker id="ks-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="ks-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="ks-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="ks-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<rect x="20" y="36" width="482" height="386" rx="14" class="bw"/>
+<text x="34" y="58" class="tb" style="font-size:13.5px">肝細胞</text>
+<text x="96" y="58" class="ts">細胞質</text>
+<rect x="540" y="36" width="200" height="386" rx="14" class="bg"/>
+<text x="554" y="58" class="tb" style="font-size:13.5px;fill:var(--good)">肝外組織</text>
+<text x="554" y="76" class="ts">心肌、腦、骨骼肌</text>
+<!-- 細胞質：ACC 與 malonyl-CoA -->
+<rect x="40" y="80" width="112" height="32" rx="8" class="bx"/><g class="hot" data-tip="細胞質的 acetyl-CoA 由粒線體 citrate 運出（citrate shuttle）再由 ATP-citrate lyase 切出，是脂肪酸合成的原料。" data-label="Acetyl-CoA（細胞質）"><text x="96" y="101" text-anchor="middle" class="tb" style="font-size:12px">Acetyl-CoA</text></g>
+<path d="M152 96L226 96" class="ln" marker-end="url(#ks-a)"/>
+<g class="hot" data-tip="<b>Acetyl-CoA carboxylase（ACC）</b>，輔酶 biotin。<br><b>Insulin</b> 使它去磷酸化 → 活化；<b>AMPK</b>、glucagon（PKA）使它磷酸化 → 抑制。" data-label="ACC"><text x="189" y="88" text-anchor="middle" class="tb" style="font-size:11.5px">ACC</text></g>
+<text x="178" y="130" class="ts" style="fill:var(--good)">insulin ⊕</text>
+<text x="178" y="146" class="ts" style="fill:var(--safranin)">AMPK、glucagon ⊖</text>
+<rect x="230" y="80" width="122" height="32" rx="8" class="bv"/><g class="hot" data-tip="Malonyl-CoA 多 = 能量充足、正在合成脂肪 → 抑制 CPT I，剛合成的脂肪酸不會馬上被燒掉。飢餓時 malonyl-CoA ↓ → 抑制解除。" data-label="Malonyl-CoA"><text x="291" y="101" text-anchor="middle" class="tb tv" style="font-size:12px">Malonyl-CoA</text></g>
+<rect x="374" y="80" width="114" height="32" rx="8" class="bx"/><g class="hot" data-tip="飢餓時脂肪組織 HSL 被 PKA 活化 → 脂肪酸由 albumin 送到肝，活化成 fatty acyl-CoA。" data-label="Fatty acyl-CoA"><text x="431" y="101" text-anchor="middle" class="tb" style="font-size:12px">Fatty acyl-CoA</text></g>
+<text x="431" y="74" text-anchor="middle" class="ts">脂解的 FFA ↓</text>
+<path d="M352 104C388 118 408 150 422 166" class="lr dash"/>
+<path d="M412 172L432 160" class="lr" style="stroke-width:2.4"/>
+<text x="398" y="150" text-anchor="end" class="tb" style="font-size:11px;fill:var(--safranin)">⊣ 抑制</text>
+<path d="M431 112L431 226" class="ln" marker-end="url(#ks-a)"/>
+<g class="hot" data-tip="<b>CPT I</b>（粒線體外膜）是脂肪酸進粒線體的關卡，也是 β-oxidation 的限速點；被 <b>malonyl-CoA</b> 抑制。" data-label="CPT I"><text x="439" y="182" class="tb" style="font-size:11.5px">CPT I</text></g>
+<!-- 粒線體 -->
+<rect x="36" y="196" width="450" height="212" rx="12" class="bp"/>
+<text x="130" y="214" class="th">MITOCHONDRION</text>
+<rect x="374" y="230" width="104" height="32" rx="8" class="bx"/><text x="426" y="251" text-anchor="middle" class="tb" style="font-size:12px">β-oxidation</text>
+<path d="M374 246L334 246" class="ln" marker-end="url(#ks-a)"/>
+<rect x="212" y="230" width="120" height="32" rx="8" class="bx"/><text x="272" y="251" text-anchor="middle" class="tb" style="font-size:12px">Acetyl-CoA</text>
+<rect x="52" y="230" width="104" height="32" rx="8" class="br"/><g class="hot" data-tip="Glucagon 高、insulin 低時，肝臟把 <b>oxaloacetate</b> 拿去<b>糖質新生</b> → 能接 acetyl-CoA 的 OAA 不夠 → acetyl-CoA 進不了 TCA，只好做酮體。" data-label="OAA"><text x="104" y="251" text-anchor="middle" class="tb tr" style="font-size:12px">OAA</text></g>
+<path d="M104 230L104 178" class="lr" marker-end="url(#ks-ar)" style="stroke-width:2"/>
+<rect x="40" y="140" width="128" height="34" rx="8" class="br"/><text x="104" y="162" text-anchor="middle" class="tb tr" style="font-size:11.5px">糖質新生 → glucose</text>
+<path d="M212 254L140 300" class="ln dash" marker-end="url(#ks-a)"/>
+<path d="M104 262L104 296" class="ln dash" marker-end="url(#ks-a)"/>
+<rect x="52" y="300" width="104" height="32" rx="8" class="bx"/><text x="104" y="321" text-anchor="middle" class="ts" style="font-size:11.5px">Citrate → TCA</text>
+<text x="104" y="350" text-anchor="middle" class="ts" style="fill:var(--safranin)">OAA 不夠 → 這條變窄</text>
+<path d="M272 262L272 296" class="lv" marker-end="url(#ks-av)" style="stroke-width:2"/>
+<g class="hot" data-tip="<b>HMG-CoA synthase（粒線體型，HMGCS2）</b>是生酮的調控酵素；細胞質型的 HMG-CoA synthase 走膽固醇合成。" data-label="HMG-CoA synthase"><text x="280" y="284" class="tb tv" style="font-size:10.5px">HMG-CoA synthase（HMGCS2）</text></g>
+<rect x="212" y="300" width="120" height="32" rx="8" class="bv"/><text x="272" y="321" text-anchor="middle" class="tb tv" style="font-size:12px">HMG-CoA</text>
+<path d="M272 332L272 362" class="lv" marker-end="url(#ks-av)" style="stroke-width:2"/>
+<text x="280" y="352" class="tb tv" style="font-size:10.5px">HMG-CoA lyase</text>
+<rect x="212" y="366" width="120" height="32" rx="8" class="bv"/><text x="272" y="387" text-anchor="middle" class="tb tv" style="font-size:12px">Acetoacetate</text>
+<path d="M332 382L372 382" class="lv" marker-end="url(#ks-av)"/>
+<text x="352" y="374" text-anchor="middle" class="ts">NADH</text>
+<rect x="376" y="366" width="102" height="32" rx="8" class="bv"/><g class="hot" data-tip="<b>β-hydroxybutyrate</b>：血中濃度最高、供能最多的酮體；長期飢餓時腦的主要替代燃料。Acetone 由 acetoacetate 自發脫羧而來，從呼氣排出、不供能。" data-label="β-hydroxybutyrate"><text x="427" y="387" text-anchor="middle" class="tb tv" style="font-size:12px">β-HB</text></g>
+<!-- 血液 -->
+<path d="M478 382L604 382" class="lv" marker-end="url(#ks-av)" style="stroke-width:2"/>
+<text x="521" y="374" text-anchor="middle" class="th">血液</text>
+<!-- 肝外：利用 -->
+<rect x="608" y="366" width="118" height="32" rx="8" class="bx"/><text x="667" y="387" text-anchor="middle" class="tb" style="font-size:11.5px">β-HB → AcAc</text>
+<path d="M667 366L667 314" class="lg" marker-end="url(#ks-ag)" style="stroke-width:2"/>
+<g class="hot" data-tip="<b>SCOT</b>（succinyl-CoA:3-ketoacid CoA transferase，舊稱 <b>thiophorase</b>）從 succinyl-CoA 借 CoA 給 acetoacetate。<b>肝臟沒有 SCOT</b> → 肝做酮體但自己不能用。" data-label="SCOT"><text x="675" y="336" class="tb" style="font-size:11.5px;fill:var(--good)">SCOT</text></g>
+<text x="660" y="344" text-anchor="end" class="ts" style="font-size:10px">succinyl-CoA</text>
+<text x="660" y="356" text-anchor="end" class="ts" style="font-size:10px">→ succinate</text>
+<rect x="566" y="278" width="160" height="32" rx="8" class="bx"/><text x="646" y="299" text-anchor="middle" class="tb" style="font-size:11.5px">Acetoacetyl-CoA</text>
+<path d="M646 278L646 238" class="lg" marker-end="url(#ks-ag)"/>
+<text x="654" y="262" class="ts">thiolase</text>
+<rect x="566" y="202" width="160" height="32" rx="8" class="bg"/><text x="646" y="223" text-anchor="middle" class="tb" style="font-size:11.5px;fill:var(--good)">2 Acetyl-CoA → TCA</text>
+<text x="554" y="112" class="tb" style="font-size:11px">不能用酮體的：</text>
+<text x="554" y="132" class="ts" style="fill:var(--ink-2)">肝臟：缺 SCOT</text>
+<text x="554" y="150" class="ts" style="fill:var(--ink-2)">紅血球：沒有粒線體</text>
+<text x="554" y="176" class="ts">抑制 SCOT → 心肌用酮體 ↓</text>
+<text x="380" y="446" text-anchor="middle" class="tb" style="font-size:12px">飢餓／T1DM：insulin ↓ → malonyl-CoA ↓ → CPT I 放行 → β-ox ↑；OAA 被拉去糖質新生 → acetyl-CoA 轉做酮體</text>
+<text x="380" y="468" text-anchor="middle" class="ts" style="fill:var(--ink-2)">抑制 HMGCS2 → 不能合成但能用外源酮體；抑制 SCOT → 能合成但不能用</text>
+</svg>

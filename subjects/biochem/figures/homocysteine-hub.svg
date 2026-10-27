@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" role="img" aria-label="Homocysteine 的兩條出路：methionine 加 ATP 成 SAM，給出甲基後成 SAH，水解成 homocysteine；再甲基化由 methionine synthase（B12）用 MTHFR 產生的 N5-methyl-THF，轉硫由 cystathionine β-synthase（PLP）加 serine 成 cystathionine 再成 cysteine；B12 另為 methylmalonyl-CoA mutase 輔酶，B12 缺乏時 methylmalonic acid 與 homocysteine 都上升，葉酸缺乏只有 homocysteine 上升">
+<defs><marker id="hc-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="hc-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="hc-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<!-- 葉酸循環 -->
+<rect x="20" y="28" width="196" height="232" rx="14" class="bp"/>
+<text x="34" y="48" class="th">FOLATE（B₉）</text>
+<rect x="40" y="60" width="156" height="32" rx="8" class="bx"/><text x="118" y="81" text-anchor="middle" class="tb" style="font-size:12px">THF</text>
+<path d="M118 92L118 126" class="ln" marker-end="url(#hc-a)"/>
+<g class="hot" data-tip="<b>Serine hydroxymethyltransferase</b>（需 PLP）：serine → glycine，把一個碳交給 THF → N⁵,N¹⁰-methylene-THF。" data-label="SHMT"><text x="126" y="114" class="ts">SHMT：Ser → Gly</text></g>
+<rect x="40" y="130" width="156" height="32" rx="8" class="bx"/><text x="118" y="151" text-anchor="middle" class="tb" style="font-size:11.5px">N⁵,N¹⁰-methylene-THF</text>
+<path d="M118 162L118 196" class="ln" marker-end="url(#hc-a)"/>
+<g class="hot" data-tip="<b>MTHFR</b> 把 methylene-THF 還原成 N⁵-methyl-THF，<b>單行道</b>（不能逆轉）。MTHFR 活性低 → N⁵-methyl-THF 不足 → homocysteine 無法再甲基化 → 血中 homocysteine ↑。" data-label="MTHFR"><text x="126" y="184" class="tb" style="font-size:11px">MTHFR（單行道）</text></g>
+<rect x="40" y="200" width="156" height="32" rx="8" class="bv"/><text x="118" y="221" text-anchor="middle" class="tb tv" style="font-size:12px">N⁵-methyl-THF</text>
+<g class="hot" data-tip="<b>Methyl trap</b>：N⁵-methyl-THF 只能靠 methionine synthase（B₁₂）把甲基交出去。B₁₂ 缺 → 葉酸全卡在這個型態 → 其他葉酸型態不夠（功能性葉酸缺乏）→ dTMP 合成受阻 → 巨球性貧血。" data-label="Methyl trap"><text x="118" y="250" text-anchor="middle" class="tb tr" style="font-size:11px">B₁₂ 缺 → 卡住（methyl trap）</text></g>
+<!-- 甲基循環 -->
+<rect x="300" y="60" width="140" height="34" rx="8" class="bx"/><text x="370" y="82" text-anchor="middle" class="tb" style="font-size:12.5px">Methionine</text>
+<path d="M440 77L516 77" class="ln" marker-end="url(#hc-a)"/>
+<text x="478" y="69" text-anchor="middle" class="ts">+ ATP</text>
+<rect x="520" y="60" width="140" height="34" rx="8" class="bv"/><g class="hot" data-tip="<b>S-adenosylmethionine（SAM）</b> = methionine + ATP，最主要的甲基供應者：NE → epinephrine（PNMT）、guanidinoacetate → creatine（GAMT）、PC、DNA 甲基化。例外：polyamine 合成時脫羧後給 aminopropyl。" data-label="SAM"><text x="590" y="82" text-anchor="middle" class="tb tv" style="font-size:12.5px">SAM</text></g>
+<path d="M590 94L590 176" class="lv" marker-end="url(#hc-av)" style="stroke-width:2"/>
+<text x="598" y="130" class="tb tv" style="font-size:11px">給出 CH₃</text>
+<text x="598" y="146" class="ts">R → R–CH₃</text>
+<rect x="520" y="180" width="140" height="34" rx="8" class="bx"/><text x="590" y="202" text-anchor="middle" class="tb" style="font-size:12.5px">SAH</text>
+<path d="M520 197L444 197" class="ln" marker-end="url(#hc-a)"/>
+<text x="482" y="189" text-anchor="middle" class="ts">− adenosine</text>
+<rect x="300" y="180" width="140" height="34" rx="8" class="br"/><text x="370" y="202" text-anchor="middle" class="tb tr" style="font-size:12.5px">Homocysteine</text>
+<path d="M370 180L370 98" class="lv" marker-end="url(#hc-av)" style="stroke-width:2"/>
+<g class="hot" data-tip="<b>Methionine synthase</b>：輔酶 <b>B₁₂</b>（methylcobalamin），甲基來源 <b>N⁵-methyl-THF</b>，反應後放回 THF。" data-label="Methionine synthase"><text x="362" y="128" text-anchor="end" class="tb" style="font-size:11px">methionine synthase</text></g>
+<text x="362" y="144" text-anchor="end" class="tb tv" style="font-size:11px">B₁₂</text>
+<path d="M196 216C260 214 330 170 366 150" class="lv" marker-end="url(#hc-av)"/>
+<text x="218" y="242" class="ts" style="fill:var(--violet)">給出 CH₃、放回 THF</text>
+<!-- 轉硫 -->
+<path d="M370 214L370 286" class="ln" marker-end="url(#hc-a)" style="stroke-width:2"/>
+<g class="hot" data-tip="<b>Cystathionine β-synthase（CBS）</b>，輔酶 <b>PLP（B₆）</b>，homocysteine + serine → cystathionine。CBS 缺乏是 homocystinuria 的主因：homocysteine、methionine 都 ↑，cysteine 變成條件式必需；治療限 Met、補 B₆（及 B₁₂、葉酸）。" data-label="CBS"><text x="378" y="242" class="tb" style="font-size:11px">cystathionine β-synthase</text></g>
+<text x="378" y="258" class="tb" style="font-size:11px">PLP（B₆）＋ Serine</text>
+<rect x="300" y="290" width="140" height="34" rx="8" class="bx"/><text x="370" y="312" text-anchor="middle" class="tb" style="font-size:12.5px">Cystathionine</text>
+<path d="M370 324L370 366" class="ln" marker-end="url(#hc-a)"/>
+<text x="378" y="350" class="ts">cystathionase（PLP）</text>
+<rect x="300" y="370" width="140" height="34" rx="8" class="bg"/><text x="370" y="392" text-anchor="middle" class="tb" style="font-size:12.5px;fill:var(--good)">Cysteine</text>
+<path d="M300 387L224 387" class="lg" marker-end="url(#hc-ag)"/>
+<text x="216" y="383" text-anchor="end" class="ts">glutathione、taurine</text>
+<text x="216" y="399" text-anchor="end" class="ts">H₂S + pyruvate</text>
+<text x="34" y="300" class="tb" style="font-size:11.5px">兩條出路</text>
+<text x="34" y="320" class="ts" style="fill:var(--ink-2)">↑ 再甲基化（B₁₂＋葉酸）</text>
+<text x="34" y="338" class="ts" style="fill:var(--ink-2)">↓ 轉硫（B₆）</text>
+<!-- B12 的第二份工作 -->
+<rect x="504" y="252" width="236" height="88" rx="12" class="bv"/>
+<text x="518" y="274" class="tb tv" style="font-size:12px">B₁₂ 的第二份工作</text>
+<text x="518" y="294" class="ts" style="fill:var(--ink)">methylmalonyl-CoA → succinyl-CoA</text>
+<text x="518" y="310" class="ts">（mutase，IMTV 與奇數碳的路）</text>
+<text x="518" y="328" class="tb" style="font-size:11px">B₁₂ 缺 → methylmalonic acid ↑</text>
+<rect x="504" y="352" width="236" height="86" rx="12" class="bx"/>
+<text x="518" y="374" class="tb" style="font-size:12px">用 MMA 分辨</text>
+<text x="518" y="394" class="ts" style="fill:var(--ink)">Hcy ↑、MMA 正常 → 葉酸缺</text>
+<text x="518" y="412" class="ts" style="fill:var(--ink)">Hcy ↑、MMA ↑ → B₁₂ 缺</text>
+<text x="518" y="430" class="ts">補葉酸救得了貧血、救不了神經</text>
+<text x="380" y="460" text-anchor="middle" class="ts" style="fill:var(--ink-2)">Methionine cycle 的四個維生素：B₉（N⁵-methyl-THF）、B₁₂（methionine synthase）、B₆（CBS）、B₂（MTHFR 的 FAD）</text>
+</svg>

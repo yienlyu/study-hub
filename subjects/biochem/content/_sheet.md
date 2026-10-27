@@ -88,6 +88,7 @@
 | 肝 | 輸出葡萄糖、酮體、VLDL；glucokinase + GLUT2 |
 | 紅血球 | **無粒線體** → 只糖解 → lactate |
 
+- **LDH 的意義是還 NAD⁺ 給 GAPDH**（糖解唯一的氧化還原步驟）；抑制 LDH → 先卡 **GAPDH**，不是 PFK-1。缺氧時 malate–aspartate／glycerol-3-P shuttle 也沒用（ETC 停了）。
 - **Cori cycle**：肌肉 2 ATP、肝 6 ATP；glucose-alanine cycle 同時運 C 和 N。
 - Creatine：Arg + Gly（腎）→ SAM 甲基化（肝）；creatinine 是**非酵素**脫水環化。
 

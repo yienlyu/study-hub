@@ -242,6 +242,18 @@
   "caption": "紅血球<strong>沒有粒線體</strong> → 只靠無氧糖解到 lactate（淨 2 ATP）；G6P 分出 <strong>PPP</strong> 產生 <strong>NADPH</strong> 維持 glutathione 還原態；1,3-BPG 分出 <strong>2,3-BPG</strong>（不產 ATP）降低 Hb 的 O₂ 親和力。"
  },
  {
+  "id": "ketone-switch",
+  "chapter": "ch23",
+  "title": "飢餓時肝臟的生酮開關",
+  "topics": [
+   "酮體",
+   "飢餓與糖尿病",
+   "AMPK"
+  ],
+  "keywords": "malonyl-CoA ACC CPT I AMPK insulin glucagon oxaloacetate gluconeogenesis HMG-CoA synthase HMGCS2 SCOT thiophorase ketone bodies starvation diabetic ketoacidosis",
+  "caption": "飢餓、T1DM：insulin ↓、AMPK ↑ → ACC 被抑制 → <strong>malonyl-CoA ↓ → CPT I 放行</strong> → β-oxidation ↑；<strong>OAA 被拉去糖質新生</strong> → acetyl-CoA 轉做酮體。肝外組織靠 <strong>SCOT</strong> 用酮體，<strong>肝臟沒有 SCOT</strong>。"
+ },
+ {
   "id": "cori-cycle",
   "chapter": "ch23",
   "title": "Cori cycle",
@@ -339,6 +351,29 @@
   ],
   "keywords": "phenylketonuria phenylalanine hydroxylase BH4 albinism tyrosinase alkaptonuria homogentisate catecholamine dopamine",
   "caption": "PAH（BH₄）缺 → <strong>PKU</strong>；tyrosinase 缺 → <strong>albinism</strong>；homogentisate dioxygenase 缺 → <strong>alkaptonuria</strong>。"
+ },
+ {
+  "id": "homocysteine-hub",
+  "chapter": "ch18",
+  "title": "Homocysteine 的兩條出路：B₁₂、葉酸與 B₆",
+  "topics": [
+   "一碳單位與輔酶（THF／BH4／B12）",
+   "先天胺基酸代謝疾病"
+  ],
+  "keywords": "homocysteine methionine synthase B12 folate MTHFR N5-methyl-THF methyl trap SAM SAH cystathionine beta-synthase PLP cysteine methylmalonic acid homocystinuria megaloblastic anemia",
+  "caption": "再甲基化：<strong>methionine synthase（B₁₂）</strong>用 MTHFR 做的 <strong>N⁵-methyl-THF</strong>；轉硫：<strong>CBS（PLP）</strong>+ serine → cystathionine → cysteine。B₁₂ 另管 methylmalonyl-CoA mutase → <strong>MMA ↑ 區分 B₁₂ 缺與葉酸缺</strong>。"
+ },
+ {
+  "id": "bh4-cycle",
+  "chapter": "ch18",
+  "title": "BH₄ 循環與兩型 PKU",
+  "topics": [
+   "一碳單位與輔酶（THF／BH4／B12）",
+   "先天胺基酸代謝疾病",
+   "胺基酸衍生物"
+  ],
+  "keywords": "tetrahydrobiopterin BH4 dihydropteridine reductase DHPR phenylalanine hydroxylase tyrosine hydroxylase tryptophan hydroxylase nitric oxide synthase PKU dopamine serotonin",
+  "caption": "BH₄ 是 <strong>PAH、Tyr hydroxylase、Trp hydroxylase、NOS</strong> 的共同輔因子，用過由 <strong>DHPR（NADH）</strong>再生。PAH 缺只卡 Phe → Tyr；<strong>BH₄ 缺連 dopamine、serotonin 都下降</strong>，要另補 BH₄ 與神經傳導物質前驅物。"
  },
  {
   "id": "slide-ch18-catabolism",

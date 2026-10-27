@@ -28,8 +28,9 @@ for subj, files in overrides.items():
             if q["id"] in items and q.get("explain") != items[q["id"]]:
                 q["explain"] = items[q["id"]]
                 n += 1
-        with open(path, "w", encoding="utf-8") as f:
-            f.write(json.dumps(qs, ensure_ascii=False, indent=1) + ("\n" if raw.endswith("\n") else ""))
+        if n:  # 沒變就不寫回，避免把手排格式的題庫整個重排
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(json.dumps(qs, ensure_ascii=False, indent=1) + ("\n" if raw.endswith("\n") else ""))
         total += n
         print(f"{subj}/{fname}: 更新 {n} 題")
 print(f"共更新 {total} 題")
