@@ -915,7 +915,7 @@ ______occurs.
 
 
 26. During long-term starvation, which of the following compound concentration in human blood will exhibit
-   the    most significant increase?
+   the most significant increase?
    (A) Urea nitrogen
    (B) α-Hydroxybutyrate
    (C) Acetoacetate
