@@ -79,7 +79,7 @@
 
 ## 各器官燃料
 @ch ch23
-@fig organ-fuel
+@fig organ-fuel, rbc-glycolysis, cori-cycle, glucose-alanine
 | 器官 | 重點 |
 |---|---|
 | 腦 | 葡萄糖（120 g／天、20% O₂）；飢餓用**酮體**；脂肪酸過不了 BBB |

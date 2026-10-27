@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 396" role="img" aria-label="Glucose-alanine cycle：肌肉把胺基酸的胺基轉到 pyruvate 形成 alanine，經血液到肝臟，轉胺回 pyruvate 做糖質新生，胺基進尿素循環，葡萄糖再送回肌肉；同時運送碳與氮">
+<defs><marker id="ga-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="ga-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="ga-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<rect x="20" y="24" width="280" height="306" rx="14" class="bg"/>
+<rect x="460" y="24" width="280" height="306" rx="14" class="bw"/>
+<g class="hot" data-tip="<b>骨骼肌</b>分解蛋白質（尤其飢餓、運動時），胺基酸（多為 <b>BCAA</b>）的胺基經 glutamate 轉給 pyruvate。" data-label="骨骼肌"><text x="34" y="48" class="tb" style="font-size:13.5px;fill:var(--good)">骨骼肌</text></g>
+<text x="474" y="48" class="tb" style="font-size:13.5px">肝臟</text>
+<text x="380" y="48" text-anchor="middle" class="th">血液</text>
+<!-- 肌肉 -->
+<rect x="150" y="70" width="140" height="34" rx="8" class="bx"/><text x="220" y="92" text-anchor="middle" class="tb" style="font-size:12.5px">Glucose</text>
+<path d="M220 104L220 166" class="ln" marker-end="url(#ga-a)"/>
+<text x="212" y="140" text-anchor="end" class="ts">糖解</text>
+<rect x="150" y="170" width="140" height="34" rx="8" class="bx"/><text x="220" y="192" text-anchor="middle" class="tb" style="font-size:12.5px">Pyruvate</text>
+<path d="M220 204L220 266" class="ln" marker-end="url(#ga-a)"/>
+<g class="hot" data-tip="<b>ALT（alanine aminotransferase）</b>：pyruvate + glutamate ⇌ alanine + α-KG，輔酶 <b>PLP（B₆）</b>。肝與肌肉方向相反。" data-label="ALT"><text x="228" y="240" class="tb tv" style="font-size:11px">ALT（B₆）</text></g>
+<rect x="150" y="270" width="140" height="34" rx="8" class="bv"/><text x="220" y="292" text-anchor="middle" class="tb tv" style="font-size:12.5px">Alanine</text>
+<rect x="30" y="196" width="104" height="52" rx="8" class="bx"/>
+<text x="40" y="216" class="ts" style="font-size:10.5px">胺基酸（BCAA）</text>
+<text x="40" y="234" class="tb tv" style="font-size:10.5px">→ glutamate</text>
+<path d="M134 230L214 236" class="lv" marker-end="url(#ga-av)"/>
+<text x="174" y="226" text-anchor="middle" class="tb tv" style="font-size:10.5px">NH₂</text>
+<!-- 血液 -->
+<path d="M292 287L468 287" class="lv" marker-end="url(#ga-av)" style="stroke-width:2"/>
+<text x="380" y="279" text-anchor="middle" class="tb tv" style="font-size:11px">alanine（C + N）</text>
+<path d="M468 87L292 87" class="lg" marker-end="url(#ga-ag)" style="stroke-width:2"/>
+<text x="380" y="79" text-anchor="middle" class="tb" style="font-size:11px;fill:var(--good)">glucose</text>
+<!-- 肝臟 -->
+<rect x="470" y="270" width="140" height="34" rx="8" class="bv"/><text x="540" y="292" text-anchor="middle" class="tb tv" style="font-size:12.5px">Alanine</text>
+<path d="M540 270L540 208" class="ln" marker-end="url(#ga-a)"/>
+<text x="532" y="240" text-anchor="end" class="tb tv" style="font-size:11px">ALT</text>
+<rect x="470" y="170" width="140" height="34" rx="8" class="bx"/><text x="540" y="192" text-anchor="middle" class="tb" style="font-size:12.5px">Pyruvate</text>
+<path d="M540 170L540 108" class="ln" marker-end="url(#ga-a)"/>
+<text x="532" y="140" text-anchor="end" class="ts">糖質新生</text>
+<rect x="470" y="70" width="140" height="34" rx="8" class="bx"/><text x="540" y="92" text-anchor="middle" class="tb" style="font-size:12.5px">Glucose</text>
+<path d="M546 236L620 236" class="lv" marker-end="url(#ga-av)"/>
+<text x="583" y="228" text-anchor="middle" class="tb tv" style="font-size:10.5px">NH₂</text>
+<rect x="622" y="210" width="108" height="52" rx="8" class="bx"/>
+<g class="hot" data-tip="胺基給 α-KG → <b>glutamate</b> → glutamate DH 放出 NH₄⁺ → <b>尿素循環</b>（肝），以 urea 從腎排出。" data-label="尿素循環"><text x="632" y="230" class="ts" style="font-size:10.5px">glutamate → NH₄⁺</text></g>
+<text x="632" y="248" class="tb" style="font-size:10.5px">→ 尿素循環</text>
+<text x="380" y="358" text-anchor="middle" class="tb" style="font-size:12px">碳（pyruvate 骨架）做糖質新生、氮（NH₂）進尿素循環 → 同時運 C 和 N</text>
+<text x="380" y="380" text-anchor="middle" class="ts" style="fill:var(--ink-2)">vs Cori cycle：送 alanine 不送 lactate，NADH 留在肌肉做氧化磷酸化</text>
+</svg>

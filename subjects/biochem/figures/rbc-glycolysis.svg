@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 576" role="img" aria-label="紅血球糖解的支路：沒有粒線體只靠無氧糖解到 lactate；G6P 分出 PPP 產生 NADPH 維持 glutathione 還原態；1,3-BPG 分出 2,3-BPG 支路降低血紅素對氧的親和力；GAPDH 產生的 NADH 也供 methemoglobin reductase 使用">
+<defs><marker id="rbc-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="rbc-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="rbc-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="rbc-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<text x="20" y="24" class="th">RED BLOOD CELL · 沒有粒線體 → 只靠無氧糖解</text>
+<!-- 主幹：糖解 -->
+<rect x="250" y="44" width="160" height="34" rx="8" class="bx"/><g class="hot" data-tip="紅血球靠 <b>GLUT1</b>（不受 insulin 調控）攝取葡萄糖；葡萄糖是它唯一的燃料。" data-label="Glucose"><text x="330" y="66" text-anchor="middle" class="tb" style="font-size:12.5px">Glucose（GLUT1）</text></g>
+<path d="M330 78L330 110" class="ln" marker-end="url(#rbc-a)"/>
+<text x="322" y="98" text-anchor="end" class="ts">hexokinase</text><text x="338" y="98" class="ts">−ATP</text>
+<rect x="250" y="114" width="160" height="34" rx="8" class="bx"/><text x="330" y="136" text-anchor="middle" class="tb" style="font-size:12.5px">Glucose-6-P</text>
+<path d="M330 148L330 180" class="ln" marker-end="url(#rbc-a)"/>
+<text x="322" y="168" text-anchor="end" class="ts">PFK-1</text><text x="338" y="168" class="ts">−ATP</text>
+<rect x="250" y="184" width="160" height="34" rx="8" class="bx"/><text x="330" y="206" text-anchor="middle" class="tb" style="font-size:12.5px">F-1,6-BP → 2 × G3P</text>
+<path d="M330 218L330 250" class="ln" marker-end="url(#rbc-a)"/>
+<text x="322" y="238" text-anchor="end" class="ts">GAPDH</text><text x="338" y="238" class="ts tv">NAD⁺ → NADH</text>
+<rect x="250" y="254" width="160" height="34" rx="8" class="bx"/><text x="330" y="276" text-anchor="middle" class="tb" style="font-size:12.5px">1,3-BPG</text>
+<path d="M330 288L330 350" class="ln" marker-end="url(#rbc-a)"/>
+<text x="322" y="324" text-anchor="end" class="ts">PGK</text><text x="338" y="324" class="tb" style="font-size:11px;fill:var(--good)">+ATP</text>
+<rect x="250" y="354" width="160" height="34" rx="8" class="bx"/><text x="330" y="376" text-anchor="middle" class="tb" style="font-size:12.5px">3-PG</text>
+<path d="M330 388L330 430" class="ln" marker-end="url(#rbc-a)"/>
+<text x="322" y="412" text-anchor="end" class="ts">PK（經 PEP）</text><text x="338" y="412" class="tb" style="font-size:11px;fill:var(--good)">+ATP</text>
+<rect x="250" y="434" width="160" height="34" rx="8" class="bx"/><text x="330" y="456" text-anchor="middle" class="tb" style="font-size:12.5px">Pyruvate</text>
+<path d="M330 468L330 510" class="ln" marker-end="url(#rbc-a)"/>
+<g class="hot" data-tip="<b>LDH</b> 用 GAPDH 產生的 NADH 把 pyruvate 還原成 lactate，<b>再生 NAD⁺</b> 讓糖解能繼續。淨產 <b>2 ATP</b>／葡萄糖。" data-label="LDH"><text x="322" y="492" text-anchor="end" class="ts">LDH</text></g><text x="338" y="492" class="ts tv">NADH → NAD⁺（再生）</text>
+<rect x="250" y="514" width="160" height="34" rx="12" class="bw"/><g class="hot" data-tip="Lactate 送進血液 → 肝臟糖質新生 → 葡萄糖送回（<b>Cori cycle</b>）。" data-label="Lactate"><text x="330" y="536" text-anchor="middle" class="tb" style="font-size:12.5px">Lactate → 肝（Cori）</text></g>
+<!-- 左：PPP -->
+<path d="M248 131L224 131" class="lv" marker-end="url(#rbc-av)"/>
+<rect x="20" y="92" width="200" height="118" rx="12" class="bv"/><g class="hot" data-tip="<b>PPP 是紅血球 NADPH 的唯一來源</b>（沒有粒線體，也沒有 malic enzyme 的路可走）。速率限制酵素 <b>G6PD</b>；transketolase 需要 B₁。" data-label="PPP"><text x="32" y="114" class="tb tv" style="font-size:13.5px">PPP（氧化相）</text></g>
+<text x="32" y="134" class="ts" style="font-size:10.5px">速率限制：<tspan class="tb" style="fill:var(--ink)">G6PD</tspan></text>
+<text x="32" y="150" class="ts" style="font-size:10.5px">G6P → ribulose-5-P + CO₂</text>
+<text x="32" y="166" class="tb tv" style="font-size:11px">2 NADP⁺ → 2 NADPH</text>
+<text x="32" y="186" class="ts" style="font-size:10px">非氧化相：F6P、G3P</text>
+<text x="32" y="200" class="ts" style="font-size:10px">回到糖解主幹 →</text>
+<path d="M222 196L248 203" class="lv dash" marker-end="url(#rbc-av)"/>
+<path d="M120 210L120 262" class="lv" marker-end="url(#rbc-av)"/>
+<text x="128" y="240" class="tb tv" style="font-size:11px">NADPH</text>
+<rect x="20" y="266" width="200" height="150" rx="12" class="bg"/><g class="hot" data-tip="<b>Glutathione = Glu + Cys + Gly</b>。GSH 清除 H₂O₂ 等過氧化物，保護血紅素與膜脂質；氧化成 GSSG 後由 glutathione reductase（FAD）用 <b>NADPH</b>（不是 NADH）還原回來。<b>G6PD 缺乏</b>（蠶豆症）→ NADPH 不足 → 氧化壓力下溶血、Heinz body。" data-label="Glutathione 循環"><text x="32" y="288" class="tb" style="font-size:13.5px;fill:var(--good)">Glutathione 還原態</text></g>
+<text x="32" y="308" class="ts" style="font-size:10.5px">glutathione reductase（FAD）</text>
+<text x="32" y="324" class="tb" style="font-size:10.5px">GSSG + NADPH → 2 GSH</text>
+<text x="32" y="344" class="ts" style="font-size:10.5px">glutathione peroxidase（Se）</text>
+<text x="32" y="360" class="tb" style="font-size:10.5px">2 GSH + H₂O₂ → GSSG + 2 H₂O</text>
+<text x="32" y="380" class="ts" style="font-size:10.5px">保護 Hb、膜脂質不被氧化</text>
+<text x="32" y="400" class="tb tr" style="font-size:10.5px">G6PD 缺乏 → 溶血</text>
+<!-- 右：methemoglobin reductase -->
+<path d="M436 230L528 210" class="lv dash" marker-end="url(#rbc-av)"/>
+<rect x="530" y="176" width="210" height="62" rx="12" class="bp"/><g class="hot" data-tip="GAPDH 產生的 NADH 除了給 LDH，也給 <b>methemoglobin reductase</b>（cytochrome b₅ reductase），把 Fe³⁺ 的 methemoglobin 還原成能攜氧的 Fe²⁺ 血紅素。" data-label="methemoglobin reductase"><text x="542" y="196" class="tb" style="font-size:12px">methemoglobin reductase</text></g>
+<text x="542" y="214" class="ts" style="font-size:10.5px">NADH：Fe³⁺-Hb → Fe²⁺-Hb</text>
+<text x="542" y="230" class="ts" style="font-size:10px">（cytochrome b₅ reductase）</text>
+<!-- 右：2,3-BPG shunt -->
+<path d="M412 271L528 290" class="lr" marker-end="url(#rbc-ar)"/>
+<text x="470" y="270" text-anchor="middle" class="ts tr">BPG mutase</text>
+<rect x="530" y="262" width="210" height="124" rx="12" class="br"/><g class="hot" data-tip="<b>Rapoport-Luebering shunt</b>：1,3-BPG → 2,3-BPG → 3-PG，繞過 PGK，所以這一步<b>不產 ATP</b>。2,3-BPG 結合 <b>deoxy-Hb</b> 兩條 β 鏈間的中央孔洞，穩定 T 型 → O₂ 親和力下降、解離曲線<b>右移</b> → 組織放氧。高海拔、貧血時上升；HbF 與它結合差，所以胎兒血紅素親和力較高。" data-label="2,3-BPG"><text x="542" y="284" class="tb tr" style="font-size:13.5px">2,3-BPG 支路</text></g>
+<text x="542" y="300" class="ts" style="font-size:10px">Rapoport-Luebering shunt</text>
+<text x="542" y="320" class="ts" style="font-size:10.5px">結合 deoxy-Hb（β 鏈之間）</text>
+<text x="542" y="336" class="ts" style="font-size:10.5px">→ O₂ 親和力↓、曲線<tspan class="tb" style="fill:var(--ink)">右移</tspan></text>
+<text x="542" y="352" class="ts" style="font-size:10.5px">→ 組織放氧↑（高山、貧血）</text>
+<text x="542" y="372" class="tb tr" style="font-size:10.5px">代價：繞過 PGK，少 1 ATP</text>
+<path d="M528 362L412 371" class="lr" marker-end="url(#rbc-ar)"/>
+<text x="470" y="390" text-anchor="middle" class="ts tr">2,3-BPG phosphatase</text>
+<!-- 右下：沒有粒線體 -->
+<path d="M412 451L528 455" class="lr dash"/>
+<text x="470" y="447" text-anchor="middle" class="tb tr" style="font-size:14px">✗</text>
+<rect x="530" y="410" width="210" height="96" rx="12" class="bp" style="stroke-dasharray:4 4"/><g class="hot" data-tip="紅血球成熟時失去細胞核與<b>粒線體</b>：沒有 PDH、TCA、β-oxidation、氧化磷酸化，不能用脂肪酸或酮體。pyruvate 不會變成 acetyl-CoA，只能變 lactate。" data-label="沒有粒線體"><text x="542" y="432" class="tb tr" style="font-size:13.5px">沒有粒線體</text></g>
+<text x="542" y="452" class="ts" style="font-size:10.5px">pyruvate 不進 PDH／TCA</text>
+<text x="542" y="468" class="ts" style="font-size:10.5px">不能用脂肪酸、酮體</text>
+<text x="542" y="488" class="tb" style="font-size:10.5px">淨 2 ATP／葡萄糖</text>
+<text x="380" y="568" text-anchor="middle" class="ts" style="fill:var(--ink-2)">NADH 給 LDH 再生 NAD⁺（與 MetHb 還原）；NADPH 只來自 PPP，維持 GSH</text>
+</svg>

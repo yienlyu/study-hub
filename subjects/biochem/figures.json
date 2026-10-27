@@ -232,6 +232,36 @@
   "caption": "肝臟輸出葡萄糖（飢餓時加酮體）；肌肉、紅血球把 <strong>lactate、alanine</strong> 送回肝；<strong>肌肉沒有 G6Pase</strong>，紅血球沒有粒線體。"
  },
  {
+  "id": "rbc-glycolysis",
+  "chapter": "ch23",
+  "title": "紅血球糖解的支路",
+  "topics": [
+   "各器官燃料代謝"
+  ],
+  "keywords": "red blood cell erythrocyte no mitochondria anaerobic glycolysis lactate pentose phosphate pathway PPP G6PD NADPH glutathione GSH GSSG 2,3-BPG Rapoport-Luebering shunt bisphosphoglycerate mutase methemoglobin reductase 紅血球 蠶豆症",
+  "caption": "紅血球<strong>沒有粒線體</strong> → 只靠無氧糖解到 lactate（淨 2 ATP）；G6P 分出 <strong>PPP</strong> 產生 <strong>NADPH</strong> 維持 glutathione 還原態；1,3-BPG 分出 <strong>2,3-BPG</strong>（不產 ATP）降低 Hb 的 O₂ 親和力。"
+ },
+ {
+  "id": "cori-cycle",
+  "chapter": "ch23",
+  "title": "Cori cycle",
+  "topics": [
+   "Cori／葡萄糖-丙胺酸循環"
+  ],
+  "keywords": "Cori cycle lactate LDH anaerobic glycolysis gluconeogenesis liver muscle red blood cell 2 ATP 6 ATP 乳酸",
+  "caption": "肌肉／紅血球無氧糖解得 <strong>2 ATP</strong> → lactate 經血液到肝 → 糖質新生花 <strong>6 ATP</strong> → 葡萄糖送回；整個循環淨耗 4 ATP。"
+ },
+ {
+  "id": "glucose-alanine",
+  "chapter": "ch23",
+  "title": "Glucose-alanine cycle",
+  "topics": [
+   "Cori／葡萄糖-丙胺酸循環"
+  ],
+  "keywords": "glucose-alanine cycle alanine aminotransferase ALT PLP B6 BCAA glutamate urea cycle gluconeogenesis 丙胺酸",
+  "caption": "肌肉把胺基經 glutamate 交給 pyruvate → <strong>alanine</strong> 到肝 → ALT 轉胺回 pyruvate 做糖質新生、NH₂ 進<strong>尿素循環</strong>；同時運送 <strong>C 和 N</strong>。"
+ },
+ {
   "id": "insulin-secretion",
   "chapter": "ch23",
   "title": "β 細胞的胰島素分泌",

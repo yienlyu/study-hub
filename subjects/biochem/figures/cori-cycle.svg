@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 396" role="img" aria-label="Cori cycle：肌肉與紅血球無氧糖解把葡萄糖變成 lactate 得 2 ATP，lactate 經血液到肝臟，糖質新生花 6 ATP 變回葡萄糖再送回肌肉">
+<defs><marker id="cc-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="cc-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="cc-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<rect x="20" y="24" width="280" height="306" rx="14" class="bg"/>
+<rect x="460" y="24" width="280" height="306" rx="14" class="bw"/>
+<g class="hot" data-tip="劇烈運動的<b>骨骼肌</b>（缺氧）與<b>紅血球</b>（沒有粒線體）都只能無氧糖解，產物 lactate 輸出到血液。" data-label="肌肉／紅血球"><text x="34" y="48" class="tb" style="font-size:13.5px;fill:var(--good)">骨骼肌（缺氧）／紅血球</text></g>
+<g class="hot" data-tip="肝臟（和腎）有 <b>glucose-6-phosphatase</b>，才能把糖質新生的葡萄糖放回血液。" data-label="肝臟"><text x="474" y="48" class="tb" style="font-size:13.5px">肝臟</text></g>
+<text x="380" y="48" text-anchor="middle" class="th">血液</text>
+<!-- 肌肉 -->
+<rect x="150" y="70" width="140" height="34" rx="8" class="bx"/><text x="220" y="92" text-anchor="middle" class="tb" style="font-size:12.5px">Glucose</text>
+<path d="M220 104L220 166" class="ln" marker-end="url(#cc-a)"/>
+<text x="212" y="140" text-anchor="end" class="ts">糖解</text><text x="228" y="140" class="tb" style="font-size:11px;fill:var(--good)">+2 ATP</text>
+<rect x="150" y="170" width="140" height="34" rx="8" class="bx"/><text x="220" y="192" text-anchor="middle" class="tb" style="font-size:12.5px">2 Pyruvate</text>
+<path d="M220 204L220 266" class="ln" marker-end="url(#cc-a)"/>
+<g class="hot" data-tip="<b>LDH</b> 用 NADH 還原 pyruvate → lactate，<b>再生 NAD⁺</b> 讓 GAPDH 繼續糖解。用掉 NADH，所以無氧糖解淨得只有 <b>2 ATP</b>。" data-label="LDH（肌肉）"><text x="212" y="240" text-anchor="end" class="ts">LDH</text></g><text x="228" y="232" class="ts tv" style="font-size:10px">NADH →</text><text x="228" y="246" class="ts tv" style="font-size:10px">NAD⁺</text>
+<rect x="150" y="270" width="140" height="34" rx="8" class="br"/><text x="220" y="292" text-anchor="middle" class="tb tr" style="font-size:12.5px">2 Lactate</text>
+<text x="34" y="132" class="ts" style="font-size:10.5px">無 G6Pase：</text>
+<text x="34" y="148" class="ts" style="font-size:10.5px">肝醣只能自己用</text>
+<text x="34" y="232" class="ts" style="font-size:10.5px">約 2% 乳酸</text>
+<text x="34" y="248" class="ts" style="font-size:10.5px">從尿排出</text>
+<!-- 血液 -->
+<path d="M292 287L468 287" class="lr" marker-end="url(#cc-ar)" style="stroke-width:2"/>
+<text x="380" y="279" text-anchor="middle" class="tb tr" style="font-size:11px">lactate</text>
+<path d="M468 87L292 87" class="lg" marker-end="url(#cc-ag)" style="stroke-width:2"/>
+<text x="380" y="79" text-anchor="middle" class="tb" style="font-size:11px;fill:var(--good)">glucose</text>
+<!-- 肝臟 -->
+<rect x="470" y="270" width="140" height="34" rx="8" class="br"/><text x="540" y="292" text-anchor="middle" class="tb tr" style="font-size:12.5px">2 Lactate</text>
+<path d="M540 270L540 208" class="ln" marker-end="url(#cc-a)"/>
+<text x="532" y="240" text-anchor="end" class="ts">LDH</text><text x="548" y="232" class="ts tv" style="font-size:10px">NAD⁺ →</text><text x="548" y="246" class="ts tv" style="font-size:10px">NADH</text>
+<rect x="470" y="170" width="140" height="34" rx="8" class="bx"/><text x="540" y="192" text-anchor="middle" class="tb" style="font-size:12.5px">2 Pyruvate</text>
+<path d="M540 170L540 108" class="ln" marker-end="url(#cc-a)"/>
+<g class="hot" data-tip="<b>糖質新生</b>：2 pyruvate → glucose 花 <b>4 ATP + 2 GTP = 6</b> 高能磷酸鍵；繞過三個不可逆步驟（pyruvate carboxylase／PEPCK、F-1,6-BPase、G6Pase）。" data-label="糖質新生"><text x="532" y="140" text-anchor="end" class="ts">糖質新生</text></g><text x="548" y="140" class="tb tr" style="font-size:11px">−6 ATP</text>
+<rect x="470" y="70" width="140" height="34" rx="8" class="bx"/><text x="540" y="92" text-anchor="middle" class="tb" style="font-size:12.5px">Glucose</text>
+<text x="622" y="132" class="ts" style="font-size:10.5px">4 ATP + 2 GTP</text>
+<text x="622" y="148" class="ts" style="font-size:10.5px">能量來自 β-ox</text>
+<text x="622" y="92" class="ts" style="font-size:10.5px">有 G6Pase</text>
+<text x="380" y="358" text-anchor="middle" class="tb" style="font-size:12px">肌肉得 2 ATP、肝付 6 ATP → 整個循環淨耗 4 ATP</text>
+<text x="380" y="380" text-anchor="middle" class="ts" style="fill:var(--ink-2)">把能量代價轉給肝；看到「無氧」或「Cori cycle」→ 答案找乳酸</text>
+</svg>
