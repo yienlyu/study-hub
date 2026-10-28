@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 572" role="img" aria-label="Krebs bicycle 觀念圖：左輪尿素循環（ornithine → citrulline → argininosuccinate → arginine → urea + ornithine），右輪 TCA 循環。尿素循環在 argininosuccinate lyase 步驟放出 fumarate，經細胞質 fumarase 成 malate、malate dehydrogenase 成 OAA 並產生 NADH，再由 AST 用 glutamate 轉胺成 aspartate，於 argininosuccinate synthetase 步驟回到尿素循環；malate 可進出粒線體與 TCA 共用。Glutamate 經 GDH 放出 NH4+ 給 CPS I 做 carbamoyl phosphate（需 NAG），並與 TCA 的 α-KG 互換。考點：連接分子是 fumarate 與 aspartate；做一個尿素耗 3 ATP（4 個高能鍵），MDH 的 NADH 回補約 2.5 ATP；aspartate-argininosuccinate shunt 不同於 malate-aspartate shuttle；高血氨抽走 α-KG 使 TCA 變慢。">
+<defs><marker id="kb-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="kb-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker><marker id="kb-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker><marker id="kb-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<text x="10" y="20" class="th">KREBS BICYCLE：尿素循環 ⇄ TCA，靠 fumarate 出、aspartate 進</text>
+<rect x="470" y="96" width="302" height="318" rx="16" class="bp"/>
+<text x="482" y="114" class="th">粒線體基質</text>
+<circle cx="170" cy="255" r="98" class="lt" style="stroke-dasharray:2 4"/>
+<text x="170" y="251" text-anchor="middle" class="tb" style="font-size:13px">尿素循環</text>
+<text x="170" y="268" text-anchor="middle" class="ts" style="font-size:10px">肝臟（前輪）</text>
+<path d="M74.0 235.5A98 98 0 0 1 118.8 171.4" class="ln" marker-end="url(#kb-a)"/>
+<path d="M221.2 171.4A98 98 0 0 1 266.0 235.5" class="ln" marker-end="url(#kb-a)"/>
+<path d="M266.0 274.5A98 98 0 0 1 221.2 338.6" class="ln" marker-end="url(#kb-a)"/>
+<path d="M118.8 338.6A98 98 0 0 1 74.0 274.5" class="ln" marker-end="url(#kb-a)"/>
+<g class="hot" data-tip="<b>OTC</b>（粒線體）：carbamoyl phosphate + ornithine → citrulline，citrulline 再運出到細胞質。" data-label="OTC"><text x="103" y="212" text-anchor="start" class="ts" style="font-size:10.5px">① OTC</text></g>
+<g class="hot" data-tip="<b>Argininosuccinate synthetase（ASS）</b>，細胞質：citrulline + <b>aspartate</b> + ATP → argininosuccinate + AMP + PPi。aspartate 在這裡帶進尿素的<b>第 2 個 N</b>。" data-label="ASS"><text x="237" y="212" text-anchor="end" class="ts" style="font-size:10.5px">② ASS</text></g>
+<g class="hot" data-tip="<b>Argininosuccinate lyase（ASL）</b>：argininosuccinate → arginine + <b>fumarate</b>。aspartate 的碳骨架就以 fumarate 的形式離開，是尿素循環<b>唯一可逆</b>的步驟。" data-label="ASL"><text x="237" y="306" text-anchor="end" class="ts" style="font-size:10.5px">③ ASL</text></g>
+<g class="hot" data-tip="<b>Arginase</b>：arginine + H₂O → <b>urea</b> + ornithine；ornithine 回粒線體再用。" data-label="Arginase"><text x="103" y="306" text-anchor="start" class="ts" style="font-size:10.5px">④ arginase</text></g>
+<rect x="26" y="241" width="92" height="28" rx="9" class="bx"/><text x="72" y="259.1" text-anchor="middle" class="tb" style="font-size:11.5px">Ornithine</text>
+<rect x="124" y="143" width="92" height="28" rx="9" class="bx"/><text x="170" y="161.1" text-anchor="middle" class="tb" style="font-size:11.5px">Citrulline</text>
+<rect x="204" y="241" width="128" height="28" rx="9" class="bx"/><text x="268" y="259.1" text-anchor="middle" class="tb" style="font-size:11.5px">Argininosuccinate</text>
+<rect x="124" y="339" width="92" height="28" rx="9" class="bx"/><text x="170" y="357.1" text-anchor="middle" class="tb" style="font-size:11.5px">Arginine</text>
+<path d="M94 331L68 357" class="lg" marker-end="url(#kb-ag)"/>
+<g class="hot" data-tip="尿素在<b>肝臟</b>合成，經血液由<b>腎臟</b>排出。C 來自 HCO₃⁻（CPS I）；兩個 N：NH₄⁺（CPS I）＋ aspartate（ASS）。" data-label="Urea"><rect x="18" y="357" width="64" height="26" rx="9" class="bg"/><text x="50" y="374" text-anchor="middle" class="tb" style="font-size:12px">Urea</text></g>
+<g class="hot" data-tip="<b>CPS I</b>（肝粒線體）：NH₄⁺ + HCO₃⁻ + 2 ATP → carbamoyl phosphate。尿素循環的調控點，需要 <b>NAG</b>（acetyl-CoA + glutamate 合成，arginine 活化 NAG synthase）。NH₄⁺ 來自 glutamate 經 <b>GDH</b> 氧化脫胺 → 第 1 個 N。" data-label="CPS I"><rect x="22" y="84" width="112" height="28" rx="9" class="bw"/><text x="78" y="102.1" text-anchor="middle" class="tb" style="font-size:11.5px">Carbamoyl-P</text></g>
+<text x="78" y="76" text-anchor="middle" class="ts" style="font-size:10px">NH₄⁺＋HCO₃⁻＋2 ATP</text>
+<path d="M88 112Q98 193 85 196" class="ln" marker-end="url(#kb-a)"/>
+<g class="hot" data-tip="CPS I 的必需別構活化劑 <b>N-acetylglutamate（NAG）</b>：用到 TCA 上游的 <b>acetyl-CoA</b> 和 glutamate。" data-label="NAG"><text x="138" y="102" class="tb tr" style="font-size:10.5px">CPS I</text></g>
+<text x="138" y="115" class="ts tv" style="font-size:9.5px">需 NAG</text>
+<circle cx="622" cy="264" r="106" class="lt" style="stroke-dasharray:2 4"/>
+<text x="622" y="260" text-anchor="middle" class="tb" style="font-size:13px">TCA 循環</text>
+<text x="622" y="277" text-anchor="middle" class="ts" style="font-size:10px">（後輪）</text>
+<path d="M517.6 245.6A106 106 0 0 1 538.5 198.7" class="ln" marker-end="url(#kb-a)"/>
+<path d="M590.1 162.9A106 106 0 0 1 652.1 162.4" class="ln" marker-end="url(#kb-a)"/>
+<path d="M705.5 198.7A106 106 0 0 1 726.4 245.6" class="ln" marker-end="url(#kb-a)"/>
+<path d="M726.4 282.4A106 106 0 0 1 705.5 329.3" class="ln" marker-end="url(#kb-a)"/>
+<path d="M652.1 365.6A106 106 0 0 1 591.9 365.6" class="ln" marker-end="url(#kb-a)"/>
+<path d="M538.5 329.3A106 106 0 0 1 517.6 282.4" class="ln" marker-end="url(#kb-a)"/>
+<rect x="481" y="251" width="70" height="26" rx="9" class="bv"/><text x="516" y="268.1" text-anchor="middle" class="tb" style="font-size:11.5px">Malate</text>
+<rect x="528.74" y="167.471" width="56" height="26" rx="9" class="bv"/><text x="556.74" y="184.6" text-anchor="middle" class="tb" style="font-size:11.5px">OAA</text>
+<rect x="653.26" y="167.471" width="68" height="26" rx="9" class="bx"/><text x="687.26" y="184.6" text-anchor="middle" class="tb" style="font-size:11.5px">Citrate</text>
+<rect x="700" y="251" width="56" height="26" rx="9" class="bv"/><text x="728" y="268.1" text-anchor="middle" class="tb" style="font-size:11.5px">α-KG</text>
+<rect x="639.26" y="334.529" width="96" height="26" rx="9" class="bx"/><text x="687.26" y="351.7" text-anchor="middle" class="tb" style="font-size:11.5px">Succinyl-CoA</text>
+<rect x="518.74" y="334.529" width="76" height="26" rx="9" class="bv"/><text x="556.74" y="351.7" text-anchor="middle" class="tb" style="font-size:11.5px">Fumarate</text>
+<g class="hot" data-tip="Acetyl-CoA 和 OAA 縮合成 citrate。同一個 acetyl-CoA 也是合成 <b>NAG</b>（CPS I 活化劑）的原料。" data-label="Acetyl-CoA"><rect x="576" y="118" width="92" height="24" rx="9" class="bw"/><text x="622" y="134.0" text-anchor="middle" class="tb" style="font-size:11px">Acetyl-CoA</text></g>
+<path d="M622 142V160" class="ln" marker-end="url(#kb-a)"/>
+<text x="622" y="406" text-anchor="middle" class="ts" style="font-size:10px">每圈 3 NADH＋FADH₂＋GTP ≈ 10 ATP</text>
+<text x="384" y="386" text-anchor="middle" class="th">細胞質 SHUNT</text>
+<rect x="342" y="139" width="84" height="26" rx="9" class="bv"/><text x="384" y="156.1" text-anchor="middle" class="tb" style="font-size:11.5px">Aspartate</text>
+<rect x="342" y="195" width="84" height="26" rx="9" class="bv"/><text x="384" y="212.1" text-anchor="middle" class="tb" style="font-size:11.5px">OAA</text>
+<rect x="342" y="251" width="84" height="26" rx="9" class="bv"/><text x="384" y="268.1" text-anchor="middle" class="tb" style="font-size:11.5px">Malate</text>
+<rect x="342" y="327" width="84" height="26" rx="9" class="bv"/><text x="384" y="344.1" text-anchor="middle" class="tb" style="font-size:11.5px">Fumarate</text>
+<path d="M384 327V279" class="lv" marker-end="url(#kb-av)"/>
+<path d="M384 251V223" class="lv" marker-end="url(#kb-av)"/>
+<path d="M384 195V167" class="lv" marker-end="url(#kb-av)"/>
+<g class="hot" data-tip="細胞質 <b>fumarase</b>：fumarate + H₂O → malate。" data-label="Fumarase"><text x="392" y="306" class="ts" style="font-size:10px">fumarase</text></g>
+<g class="hot" data-tip="細胞質 <b>malate dehydrogenase</b>：malate + NAD⁺ → OAA + <b>NADH</b>。這個 NADH 進電子傳遞鏈約 <b>2.5 ATP</b>，部分抵銷做尿素耗掉的 3 ATP（4 個高能鍵）。" data-label="MDH"><text x="392" y="240" class="ts" style="font-size:10px">MDH</text><rect x="422" y="227" width="44" height="18" rx="9" class="bw"/><text x="444" y="240" text-anchor="middle" class="tb" style="font-size:10px">NADH</text></g>
+<g class="hot" data-tip="<b>AST（aspartate aminotransferase，PLP）</b>：OAA + <b>glutamate</b> ⇌ aspartate + α-KG。glutamate 把胺基交給 OAA，aspartate 就帶著這個 N 進尿素循環。" data-label="AST"><text x="392" y="184" class="ts" style="font-size:10px">AST</text></g>
+<text x="414" y="184" class="ts tv" style="font-size:9.5px">Glu→α-KG</text>
+<path d="M298 271Q308 340 340.0 340" class="lr" marker-end="url(#kb-ar)" style="stroke-width:2"/>
+<g class="hot" data-tip="尿素循環的<b>出口</b>：ASL 切出 <b>fumarate</b>（帶走 aspartate 的 4 個碳），交給 fumarase／MDH 處理，也可以進粒線體跑 TCA。" data-label="Fumarate 出口"><text x="336.0" y="362" text-anchor="end" class="tb tr" style="font-size:10.5px">出：fumarate</text></g>
+<path d="M340.0 152Q294 148 254 197" class="lr" marker-end="url(#kb-ar)" style="stroke-width:2"/>
+<g class="hot" data-tip="尿素循環的<b>入口</b>：aspartate 在 ASS 步驟併入 citrulline，帶入尿素的<b>第 2 個 N</b>。" data-label="Aspartate 入口"><text x="276" y="140" class="tb tr" style="font-size:10.5px">進：aspartate</text></g>
+<path d="M428.0 264H478" class="lv dash" marker-start="url(#kb-av)" marker-end="url(#kb-av)" style="stroke-width:1.4"/>
+<g class="hot" data-tip="Malate 可以經粒線體內膜的 transporter 進出，所以細胞質這條 shunt 和粒線體 TCA 共用同一批 fumarate／malate／OAA 碳骨架，兩個輪子像腳踏車一樣被鏈條串在一起。" data-label="Malate 進出粒線體"><text x="454" y="256" text-anchor="middle" class="ts tv" style="font-size:9.5px">膜</text></g>
+<path d="M428.0 340H516" class="lv dash" style="stroke-width:1.2"/>
+<text x="472" y="334" text-anchor="middle" class="ts tv" style="font-size:9.5px">同一個分子</text>
+<g class="hot" data-tip="<b>Glutamate</b> 是氮的集散中心：轉胺把胺基酸的 N 收到 α-KG 上變成 glutamate；它再兵分兩路——<b>GDH</b> 放出 NH₄⁺（第 1 個 N）、<b>AST</b> 做成 aspartate（第 2 個 N）。兩路都把 <b>α-KG 還給 TCA</b>。" data-label="Glutamate"><rect x="338" y="48" width="92" height="28" rx="9" class="bv"/><text x="384" y="66.3" text-anchor="middle" class="tb" style="font-size:12px">Glutamate</text></g>
+<path d="M337 62H136L108 62" class="lv" marker-end="url(#kb-av)"/>
+<g class="hot" data-tip="<b>Glutamate dehydrogenase</b>（肝粒線體）：glutamate + NAD(P)⁺ → <b>α-KG + NH₄⁺</b>；GTP 抑制、ADP 活化。" data-label="GDH"><text x="231" y="56" text-anchor="middle" class="ts" style="font-size:10px">GDH → NH₄⁺（第 1 個 N）</text></g>
+<path d="M384 76V137" class="lv dash" marker-end="url(#kb-av)" style="stroke-width:1.2"/>
+<text x="378" y="111" text-anchor="end" class="ts tv" style="font-size:9.5px">NH₂ 經 AST（第 2 個 N）</text>
+<path d="M431 62H728V249" class="lv dash" marker-start="url(#kb-av)" marker-end="url(#kb-av)" style="stroke-width:1.4"/>
+<g class="hot" data-tip="<b>α-KG ⇄ glutamate</b>：轉胺時 α-KG 收下 NH₂ 變 glutamate；GDH 或 AST 用掉 glutamate 後再變回 α-KG。<b>高血氨</b>時（尤其腦），GDH 逆向＋glutamine synthetase 大量消耗 α-KG → TCA 變慢 → ATP ↓（肝性腦病變）。" data-label="α-KG ⇄ Glu"><text x="576" y="56" text-anchor="middle" class="ts tv" style="font-size:10px">α-KG ⇄ Glu（轉胺／GDH）</text></g>
+<rect x="12" y="426" width="760" height="138" rx="12" class="bp"/>
+<text x="26" y="448" class="tb" style="font-size:12px">考點：兩個輪子怎麼接</text>
+<g class="hot" data-tip="Krebs bicycle 的連接分子是 <b>fumarate（出）</b> 與 <b>aspartate（進）</b>；中間的 malate、OAA 是 TCA 中間物。題目問「直接把尿素循環接到 TCA 的是？」→ fumarate。" data-label="連接點"><circle cx="34" cy="468" r="8" class="fv"/><text x="34" y="472" text-anchor="middle" class="tw" style="font-size:10px">1</text><text x="50" y="472" class="ts" style="font-size:11.5px;fill:var(--ink)">連接點只有兩個：尿素循環<tspan class="tb">吐出 fumarate</tspan>、<tspan class="tb">吃進 aspartate</tspan>（fumarate → malate → OAA → Asp）</text></g>
+<g class="hot" data-tip="CPS I 2 ATP → 2 ADP；ASS 1 ATP → AMP + PPi（PPi 水解）= <b>4 個高能磷酸鍵</b>。shunt 中 malate → OAA 產 <b>1 NADH</b>，所以淨耗能比帳面少。" data-label="能量帳"><circle cx="34" cy="494" r="8" class="fw"/><text x="34" y="498" text-anchor="middle" class="tw" style="font-size:10px">2</text><text x="50" y="498" class="ts" style="font-size:11.5px;fill:var(--ink)">能量：做 1 個 urea 耗 3 ATP（4 個高能鍵）；MDH 產 1 NADH ≈ 2.5 ATP 回補一部分</text></g>
+<g class="hot" data-tip="兩者都有 malate、OAA、aspartate、AST，但目的不同：shunt 是讓尿素循環的碳骨架回收再用；malate-aspartate shuttle 是把細胞質 NADH 的電子搬進粒線體。" data-label="Shunt vs shuttle"><circle cx="34" cy="520" r="8" class="fr"/><text x="34" y="524" text-anchor="middle" class="tw" style="font-size:10px">3</text><text x="50" y="524" class="ts" style="font-size:11.5px;fill:var(--ink)">別搞混：<tspan class="tb">aspartate-argininosuccinate shunt</tspan>（運碳骨架）≠ <tspan class="tb">malate-aspartate shuttle</tspan>（運 NADH 還原當量）</text></g>
+<g class="hot" data-tip="大腦沒有完整尿素循環，只能用 GDH（α-KG + NH₄⁺ → Glu）和 glutamine synthetase 固氨 → <b>α-KG 被抽離 TCA</b> → ATP 不足。" data-label="高血氨與 TCA"><circle cx="34" cy="546" r="8" class="fr"/><text x="34" y="550" text-anchor="middle" class="tw" style="font-size:10px">4</text><text x="50" y="550" class="ts" style="font-size:11.5px;fill:var(--ink)">高血氨 → α-KG 被拉去固氨（Glu、Gln）→ TCA 變慢、ATP ↓ → 肝性腦病變</text></g>
+</svg>

@@ -32,8 +32,8 @@
     "src": "figures/slides/ch17-lipoprotein.webp",
     "deck": "W1 Ch17 Lipid metabolism",
     "page": "16",
-    "w": 1400,
-    "h": 1141
+    "w": 1596,
+    "h": 980
   },
   {
     "id": "slide-ch17-mobilization",
@@ -324,6 +324,14 @@
     "topics": ["尿素循環", "氨的運輸"],
     "keywords": "urea cycle concept map transamination PLP ALT AST glutaminase glutamate dehydrogenase GDH NH4 aspartate NAG CPS I OTC orotic acid citrullinemia argininosuccinate lyase arginase hyperammonemia hepatic encephalopathy HI/HA fumarate TCA 高血氨 肝性腦病變 觀念圖",
     "caption": "所有氮先集中到 <strong>glutamate</strong>：GDH 放出 <strong>NH₄⁺</strong>（第 1 個 N）、AST 做成 <strong>aspartate</strong>（第 2 個 N）；<strong>NAG</strong> 開 CPS I、<strong>fumarate</strong> 接 TCA；缺陷看上游堆積：<strong>OTC → orotic acid ↑</strong>、<strong>ASS → citrulline ↑</strong>。"
+  },
+  {
+    "id": "krebs-bicycle",
+    "chapter": "ch18",
+    "title": "Krebs bicycle：尿素循環與 TCA 怎麼接",
+    "topics": ["尿素循環"],
+    "keywords": "Krebs bicycle urea cycle TCA citric acid cycle connection fumarate aspartate argininosuccinate shunt fumarase malate dehydrogenase NADH oxaloacetate AST glutamate GDH α-ketoglutarate CPS I NAG acetyl-CoA malate-aspartate shuttle hyperammonemia hepatic encephalopathy 尿素循環 TCA 連結 觀念圖",
+    "caption": "尿素循環在 ASL 步驟<strong>吐出 fumarate</strong>，經 fumarase → malate → MDH（產 <strong>1 NADH</strong>）→ OAA → AST 轉胺成 <strong>aspartate</strong>，再於 ASS 步驟<strong>吃回去</strong>；malate 可進出粒線體與 TCA 共用碳骨架。<strong>Glutamate ⇄ α-KG</strong> 同時供應兩個 N（GDH → NH₄⁺、AST → Asp）。別和 malate-aspartate shuttle 搞混。"
   },
   {
     "id": "phe-tyr-diseases",

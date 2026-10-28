@@ -17,6 +17,9 @@ D17, D12, D21, D23 = ("W1 Ch17 Lipid metabolism", "W2 Ch12 Biochemical Signaling
                      "W3 Ch21 Lipid Biosynthesis", "W4 Ch23-1 Hormonal regulation")
 F = [
  # ch17
+ slide("slide-ch17-overview","ch17","中間代謝總覽：脂肪酸與 TG 的位置",["β-oxidation 與 ATP 計算","脂肪動員與運輸"],
+     "intermediary metabolism lipids glycerol fatty acids acetyl-CoA citric acid cycle FADH2 NADH oxidative phosphorylation Figure 17.1",
+     "Figure 17.1：脂質分解成 <strong>glycerol</strong>（進糖解／糖質新生）與<strong>脂肪酸</strong>（β-oxidation → <strong>acetyl-CoA</strong> → TCA）；β-oxidation 本身也直接產生 <strong>FADH₂、NADH</strong> 送電子傳遞鏈。手寫：FADH₂、NADH、GTP。",D17,4),
  svg("fa-transport","ch17","脂質的消化、吸收與運輸",["脂肪動員與運輸","脂蛋白與膽固醇恆定"],
      "bile salt micelle chylomicron lipoprotein lipase apoC-II albumin 乳糜微粒",
      "膽鹽乳化 → 腸細胞重組 TG → <strong>乳糜微粒</strong>經淋巴入血 → 微血管的 <strong>lipoprotein lipase</strong>（apoC-II 活化）把 TG 切成脂肪酸給組織。"),
@@ -73,9 +76,36 @@ F = [
  svg("organ-fuel","ch23","器官之間的燃料流動",["各器官燃料代謝","Cori／葡萄糖-丙胺酸循環","酮體"],
      "liver brain muscle adipose red blood cell glucose ketone lactate alanine",
      "肝臟輸出葡萄糖（飢餓時加酮體）；肌肉、紅血球把 <strong>lactate、alanine</strong> 送回肝；<strong>肌肉沒有 G6Pase</strong>，紅血球沒有粒線體。"),
+ svg("rbc-glycolysis","ch23","紅血球糖解的支路",["各器官燃料代謝"],
+     "red blood cell erythrocyte no mitochondria anaerobic glycolysis lactate pentose phosphate pathway PPP G6PD NADPH glutathione GSH GSSG 2,3-BPG Rapoport-Luebering shunt bisphosphoglycerate mutase methemoglobin reductase 紅血球 蠶豆症",
+     "紅血球<strong>沒有粒線體</strong> → 只靠無氧糖解到 lactate（淨 2 ATP）；G6P 分出 <strong>PPP</strong> 產生 <strong>NADPH</strong> 維持 glutathione 還原態；1,3-BPG 分出 <strong>2,3-BPG</strong>（不產 ATP）降低 Hb 的 O₂ 親和力。"),
+ svg("glycolysis","ch23","糖解作用總覽（複習）",["各器官燃料代謝","Cori／葡萄糖-丙胺酸循環"],
+     "glycolysis 糖解 hexokinase glucokinase PFK-1 aldolase GAPDH PGK phosphoglycerate kinase enolase fluoride pyruvate kinase investment payoff phase net 2 ATP 2 NADH LDH lactate PDH",
+     "葡萄糖 → 2 pyruvate：<strong>投資期</strong>（hexokinase、PFK-1）花 2 ATP，<strong>回收期</strong>（PGK、pyruvate kinase 各 ×2）產 4 ATP，GAPDH 產 2 NADH → <strong>淨 2 ATP + 2 NADH</strong>。紅線三步不可逆，是調控點，也是糖質新生要繞過的地方。"),
+ svg("gluconeogenesis","ch23","糖質新生總覽（複習）",["各器官燃料代謝","Cori／葡萄糖-丙胺酸循環"],
+     "gluconeogenesis 糖質新生 pyruvate carboxylase biotin acetyl-CoA PEPCK GTP malate shuttle FBPase-1 fructose-1,6-bisphosphatase F-2,6-BP G6Pase glucose-6-phosphatase ER von Gierke lactate alanine glycerol kinase glucogenic odd-chain propionyl-CoA 4 ATP 2 GTP 2 NADH",
+     "2 pyruvate → glucose：用 <strong>pyruvate carboxylase + PEPCK、FBPase-1、G6Pase</strong> 繞過糖解三個不可逆步驟，其餘可逆步驟倒著走。每個葡萄糖花 <strong>4 ATP + 2 GTP + 2 NADH</strong>。原料是 lactate、alanine、生醣胺基酸、glycerol；<strong>偶數碳脂肪酸不能淨造糖</strong>。"),
+ svg("tca-cycle","ch23","TCA 循環總覽（複習）",["各器官燃料代謝"],
+     "TCA citric acid cycle Krebs 檸檬酸循環 citrate synthase aconitase isocitrate dehydrogenase rate-limiting α-ketoglutarate dehydrogenase TPP lipoate succinyl-CoA synthetase GTP substrate-level phosphorylation succinate dehydrogenase complex II FADH2 fumarase malate dehydrogenase oxaloacetate 3 NADH 1 FADH2 10 ATP anaplerotic propionyl-CoA SCOT aspartate glutamate citrate shuttle",
+     "Acetyl-CoA + OAA → citrate → … → OAA：每圈產 <strong>3 NADH + 1 FADH₂ + 1 GTP ＝ 10 ATP</strong>，放出 2 CO₂。限速酵素是 <strong>isocitrate DH</strong>；FADH₂ 只來自 <strong>succinate DH（複合體 II）</strong>。紫字標出和各章的接點：citrate → FA 合成、α-KG ⇄ glutamate、奇數碳 → succinyl-CoA、尿素循環 → fumarate、OAA ⇄ aspartate／糖質新生。"),
+ svg("ketone-switch","ch23","飢餓時肝臟的生酮開關",["酮體","飢餓與糖尿病","AMPK"],
+     "malonyl-CoA ACC CPT I AMPK insulin glucagon oxaloacetate gluconeogenesis HMG-CoA synthase HMGCS2 SCOT thiophorase ketone bodies starvation diabetic ketoacidosis",
+     "飢餓、T1DM：insulin ↓、AMPK ↑ → ACC 被抑制 → <strong>malonyl-CoA ↓ → CPT I 放行</strong> → β-oxidation ↑；<strong>OAA 被拉去糖質新生</strong> → acetyl-CoA 轉做酮體。肝外組織靠 <strong>SCOT</strong> 用酮體，<strong>肝臟沒有 SCOT</strong>。"),
+ svg("nafld-ketogenesis","ch23","脂肪肝：生酮變少、氧化與糖質新生變多",["酮體","飢餓與糖尿病"],
+     "NAFLD fatty liver ketogenesis beta-hydroxybutyrate acetoacetate TCA cycle anaplerosis oxygen consumption gluconeogenesis hyperglycemia insulin resistance glucagon insulin ratio fasting",
+     "禁食 24 h：β-oxidation 量相近，但脂肪肝的 acetyl-CoA <strong>少做酮體、多進 TCA 燒掉</strong> → O₂ 耗用與 ATP ↑ → <strong>糖質新生 ↑ → 高血糖</strong>；血酮約少 30%（主要是 β-HB）。改繪自 Fletcher et al., <em>JCI Insight</em> 2019。"),
+ svg("cori-cycle","ch23","Cori cycle",["Cori／葡萄糖-丙胺酸循環"],
+     "Cori cycle lactate LDH anaerobic glycolysis gluconeogenesis liver muscle red blood cell 2 ATP 6 ATP 乳酸",
+     "肌肉／紅血球無氧糖解得 <strong>2 ATP</strong> → lactate 經血液到肝 → 糖質新生花 <strong>6 ATP</strong> → 葡萄糖送回；整個循環淨耗 4 ATP。"),
+ svg("glucose-alanine","ch23","Glucose-alanine cycle",["Cori／葡萄糖-丙胺酸循環"],
+     "glucose-alanine cycle alanine aminotransferase ALT PLP B6 BCAA glutamate urea cycle gluconeogenesis 丙胺酸",
+     "肌肉把胺基經 glutamate 交給 pyruvate → <strong>alanine</strong> 到肝 → ALT 轉胺回 pyruvate 做糖質新生、NH₂ 進<strong>尿素循環</strong>；同時運送 <strong>C 和 N</strong>。"),
  svg("insulin-secretion","ch23","β 細胞的胰島素分泌",["胰島素與 GLUT"],
      "beta cell GLUT2 ATP sensitive K channel depolarization calcium exocytosis incretin GLP-1 sulfonylurea",
      "血糖 ↑ → ATP/ADP ↑ → <strong>K-ATP 通道關閉 → 去極化 → Ca²⁺ 流入</strong> → insulin 胞吐。"),
+ svg("membrane-potential","ch23","膜電位（複習）",["胰島素與 GLUT"],
+     "membrane potential resting potential 膜電位 靜止膜電位 Na+/K+-ATPase K+ leak channel equilibrium potential Nernst depolarization hyperpolarization threshold voltage-gated calcium channel 去極化 過極化 閾值 K-ATP sulfonylurea diazoxide",
+     "Na⁺/K⁺-ATPase 建立梯度，K⁺ 經 leak 通道外流 → 膜內為負（<strong>≈ −70 mV</strong>，接近 E<sub>K</sub>）。<strong>K⁺ 外流減少或陽離子流入 → 去極化</strong>，過閾值打開電壓門控 Ca²⁺ 通道；K⁺ 通道開更多 → 過極化。"),
  slide("slide-ch23-insulin-receptor","ch23","Insulin 受體的下游作用",["胰島素與 GLUT"],
      "insulin receptor IRS PI3K Akt mTORC1 GSK3 GLUT4 Ras MAPK PPAR gamma",
      "RTK → IRS → PI3K–Akt（GLUT4、mTORC1、GSK3）與 Ras–MAPK（生長）等多條路徑。",D23,43),
@@ -89,9 +119,21 @@ F = [
  svg("urea-cycle","ch18","尿素循環",["尿素循環"],
      "carbamoyl phosphate synthetase NAG ornithine citrulline argininosuccinate arginine fumarate arginase urea",
      "粒線體：CPS I（<strong>NAG</strong> 活化）→ citrulline；細胞質：+ <strong>aspartate</strong> → argininosuccinate → arginine + <strong>fumarate</strong> → urea。"),
+ svg("urea-map","ch18","尿素循環觀念圖（氮從哪來、卡住會發生什麼事）",["尿素循環","氨的運輸"],
+     "urea cycle concept map transamination PLP ALT AST glutaminase glutamate dehydrogenase GDH NH4 aspartate NAG CPS I OTC orotic acid citrullinemia argininosuccinate lyase arginase hyperammonemia hepatic encephalopathy HI/HA fumarate TCA 高血氨 肝性腦病變 觀念圖",
+     "所有氮先集中到 <strong>glutamate</strong>：GDH 放出 <strong>NH₄⁺</strong>（第 1 個 N）、AST 做成 <strong>aspartate</strong>（第 2 個 N）；<strong>NAG</strong> 開 CPS I、<strong>fumarate</strong> 接 TCA；缺陷看上游堆積：<strong>OTC → orotic acid ↑</strong>、<strong>ASS → citrulline ↑</strong>。"),
+ svg("krebs-bicycle","ch18","Krebs bicycle：尿素循環與 TCA 怎麼接",["尿素循環"],
+     "Krebs bicycle urea cycle TCA citric acid cycle connection fumarate aspartate argininosuccinate shunt fumarase malate dehydrogenase NADH oxaloacetate AST glutamate GDH α-ketoglutarate CPS I NAG acetyl-CoA malate-aspartate shuttle hyperammonemia hepatic encephalopathy 尿素循環 TCA 連結 觀念圖",
+     "尿素循環在 ASL 步驟<strong>吐出 fumarate</strong>，經 fumarase → malate → MDH（產 <strong>1 NADH</strong>）→ OAA → AST 轉胺成 <strong>aspartate</strong>，再於 ASS 步驟<strong>吃回去</strong>；malate 可進出粒線體與 TCA 共用碳骨架。<strong>Glutamate ⇄ α-KG</strong> 同時供應兩個 N（GDH → NH₄⁺、AST → Asp）。別和 malate-aspartate shuttle 搞混。"),
  svg("phe-tyr-diseases","ch18","Phe／Tyr 代謝與先天疾病",["先天胺基酸代謝疾病","胺基酸衍生物"],
      "phenylketonuria phenylalanine hydroxylase BH4 albinism tyrosinase alkaptonuria homogentisate catecholamine dopamine",
      "PAH（BH₄）缺 → <strong>PKU</strong>；tyrosinase 缺 → <strong>albinism</strong>；homogentisate dioxygenase 缺 → <strong>alkaptonuria</strong>。"),
+ svg("homocysteine-hub","ch18","Homocysteine 的兩條出路：B₁₂、葉酸與 B₆",["一碳單位與輔酶（THF／BH4／B12）","先天胺基酸代謝疾病"],
+     "homocysteine methionine synthase B12 folate MTHFR N5-methyl-THF methyl trap SAM SAH cystathionine beta-synthase PLP cysteine methylmalonic acid homocystinuria megaloblastic anemia",
+     "再甲基化：<strong>methionine synthase（B₁₂）</strong>用 MTHFR 做的 <strong>N⁵-methyl-THF</strong>；轉硫：<strong>CBS（PLP）</strong>+ serine → cystathionine → cysteine。B₁₂ 另管 methylmalonyl-CoA mutase → <strong>MMA ↑ 區分 B₁₂ 缺與葉酸缺</strong>。"),
+ svg("bh4-cycle","ch18","BH₄ 循環與兩型 PKU",["一碳單位與輔酶（THF／BH4／B12）","先天胺基酸代謝疾病","胺基酸衍生物"],
+     "tetrahydrobiopterin BH4 dihydropteridine reductase DHPR phenylalanine hydroxylase tyrosine hydroxylase tryptophan hydroxylase nitric oxide synthase PKU dopamine serotonin",
+     "BH₄ 是 <strong>PAH、Tyr hydroxylase、Trp hydroxylase、NOS</strong> 的共同輔因子，用過由 <strong>DHPR（NADH）</strong>再生。PAH 缺只卡 Phe → Tyr；<strong>BH₄ 缺連 dopamine、serotonin 都下降</strong>，要另補 BH₄ 與神經傳導物質前驅物。"),
  slide("slide-ch18-catabolism","ch18","胺基酸分解總覽",["蛋白質消化與泛素","胺基的去除"],
      "amino acid catabolism amino group carbon skeleton urea cycle citric acid cycle aspartate-argininosuccinate shunt",
      "胺基酸拆成兩半：<strong>胺基</strong> → NH₄⁺ → 尿素循環；<strong>碳骨架</strong> → α-酮酸 → TCA、糖質新生或酮體。",D181,46),
@@ -144,6 +186,16 @@ F = [
 for f in F:
     if f.get('type') != 'slide':
         assert os.path.exists(os.path.join(ROOT, 'figures', f['id'] + '.svg')), f['id']
-json.dump(F, open(os.path.join(ROOT, 'figures.json'), 'w'), ensure_ascii=False, indent=1)
-open(os.path.join(ROOT, 'figures.json'), 'a').write('\n')
+# Prettier-style formatting (matches the committed file): 2-space indent,
+# lists on one line unless that line exceeds 80 columns (CJK counts as 2).
+import unicodedata
+dump = lambda v: json.dumps(v, ensure_ascii=False)
+width = lambda s: sum(2 if unicodedata.east_asian_width(c) in 'WF' else 1 for c in s)
+def field(k, v):
+    line = f'    {dump(k)}: {dump(v) if not isinstance(v, list) else "[" + ", ".join(map(dump, v)) + "]"}'
+    if isinstance(v, list) and width(line) + 1 > 80:
+        line = f'    {dump(k)}: [\n' + ',\n'.join(f'      {dump(x)}' for x in v) + '\n    ]'
+    return line
+out = '[\n' + ',\n'.join('  {\n' + ',\n'.join(field(k, v) for k, v in f.items()) + '\n  }' for f in F) + '\n]\n'
+open(os.path.join(ROOT, 'figures.json'), 'w').write(out)
 print(len(F), 'figures')

@@ -3527,7 +3527,7 @@
       }
     ],
     "answer": ["C"],
-    "explain": "直接串接尿素循環與 TCA cycle 的是 asparttae 和 fumarate",
+    "explain": "直接串接尿素循環與 TCA cycle 的是 aspartate 和 fumarate",
     "topics": ["尿素循環"],
     "pattern": "組合選擇題"
   },

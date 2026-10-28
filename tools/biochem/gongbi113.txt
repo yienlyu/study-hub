@@ -2484,7 +2484,7 @@ GLUT4                                骨骼肌、心肌、脂肪細胞
    (C) 第一、二步驟中都需要 ATP
    (D) 尿素結構中的第一個氮是由 Glutamate 氧化脫胺提供；第二個是 Aspartate 和 Citrulline 結合提供
 23. (C)
-   直接串接尿素循環與 TCA cycle 的是 asparttae 和 fumarate
+   直接串接尿素循環與 TCA cycle 的是 aspartate 和 fumarate
 
 
 
