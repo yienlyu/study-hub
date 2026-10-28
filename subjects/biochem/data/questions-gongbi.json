@@ -5106,7 +5106,7 @@
       },
       {
         "k": "D",
-        "t": "(D) Glycine"
+        "t": "Glycine"
       }
     ],
     "answer": ["A"],
@@ -5736,7 +5736,10 @@
     "explain": "FdUMP（5-FU 的活性代謝物）是 thymidylate synthase 的自殺性抑制劑：與酵素和 N⁵,N¹⁰-methylene-THF 形成共價複合物 → dTMP 無法合成 → 快速分裂細胞停止 DNA 合成。",
     "note": "題幹的圖是 FdUMP 結構（附原圖），本站在題幹補上分子名稱。",
     "img": ["figures/questions/g22-08.webp"],
-    "topics": ["Ribonucleotide reductase 與 dTMP", "Salvage、Lesch-Nyhan 與 SCID"],
+    "topics": [
+      "Ribonucleotide reductase 與 dTMP",
+      "Salvage、Lesch-Nyhan 與 SCID"
+    ],
     "pattern": "選正確／單一概念題"
   },
   {
