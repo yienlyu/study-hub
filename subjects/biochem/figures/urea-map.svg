@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 484" role="img" aria-label="尿素循環觀念圖：胺基酸經轉胺（PLP）、肌肉 alanine 經 ALT、肝外 glutamine 經 glutaminase 集中到 glutamate；glutamate 經 GDH 放出 NH4+（第一個 N），經 AST 做成 aspartate（第二個 N）；兩者進入肝臟尿素循環，CPS I 需要 NAG 活化；fumarate 經 malate、OAA 回到 aspartate 連接 TCA；urea 經血液由腎排出。酵素缺陷造成高血氨：CPS I、OTC 缺陷 citrulline 下降，OTC 缺陷 orotic acid 上升，ASS 缺陷 citrulline 上升，ASL 缺陷 argininosuccinate 上升，arginase 缺陷 arginine 上升；腦固氨抽走 α-KG 造成肝性腦病變。">
+<defs><marker id="um-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="um-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+<marker id="um-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="um-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
+<text x="10" y="20" class="th">氮從哪來 → 肝臟集中到 glutamate → 尿素循環 → 卡住會怎樣</text>
+<text x="16" y="50" class="th">① 氮的來源</text><text x="220" y="50" class="th">② 集中到 GLU</text><text x="440" y="44" class="th">③ 尿素循環（肝）</text><text x="648" y="50" class="th">④ 調控與連結</text>
+<rect x="16" y="75" width="144" height="34" rx="10" class="bx"/><text x="88" y="96" text-anchor="middle" class="tb" style="font-size:12px">胺基酸</text>
+<rect x="16" y="128" width="144" height="34" rx="10" class="bx"/><text x="88" y="149" text-anchor="middle" class="tb" style="font-size:12px">Alanine（肌肉）</text>
+<rect x="16" y="180" width="144" height="34" rx="10" class="bx"/><text x="88" y="201" text-anchor="middle" class="tb" style="font-size:12px">Glutamine（肝外）</text>
+<g class="hot" data-tip="血液中含量高的胺基酸 <b>alanine、glutamine</b> 就是氮的運輸形式。肝外組織用 <b>glutamine synthetase</b>（glutamate + NH₄⁺ + ATP）把氨包起來；肌肉走 <b>glucose-alanine cycle</b>，比 Cori cycle 多送了胺基氮。" data-label="氨的運輸形式"><text x="16" y="236" class="ts">血中運氨：Ala、Gln</text></g>
+<rect x="220" y="127" width="80" height="36" rx="10" class="bv"/><text x="260" y="149" text-anchor="middle" class="tb" style="font-size:12px">Glutamate</text>
+<path d="M160 96L218 134" class="ln" marker-end="url(#um-a)"/>
+<g class="hot" data-tip="<b>轉胺</b>：多數胺基酸分解第一步，胺基交給 <b>α-KG → glutamate</b>；輔酶 <b>PLP（vitamin B₆）</b>，以 Schiff base 運作。" data-label="轉胺"><text x="166" y="86" class="ts" style="font-size:10px">轉胺 PLP/B₆</text></g>
+<path d="M160 145H218" class="ln" marker-end="url(#um-a)"/>
+<g class="hot" data-tip="<b>ALT</b>：alanine + α-KG ⇌ pyruvate + <b>glutamate</b>（肝臟 ALT 產生的是 glutamate，不是 glutamine）；pyruvate 去糖質新生。" data-label="ALT"><text x="189" y="139" text-anchor="middle" class="ts" style="font-size:10px">ALT</text></g>
+<path d="M160 197L218 158" class="ln" marker-end="url(#um-a)"/>
+<g class="hot" data-tip="<b>Glutaminase</b>（肝、腎）：glutamine → glutamate + <b>NH₄⁺</b>。腎近端小管的 glutaminase 很發達，所以尿中有氨味。" data-label="Glutaminase"><text x="166" y="210" class="ts" style="font-size:10px">glutaminase</text></g>
+<rect x="320" y="75" width="80" height="34" rx="10" class="bw"/><text x="360" y="96" text-anchor="middle" class="tb" style="font-size:12px">NH₄⁺</text>
+<rect x="320" y="180" width="80" height="34" rx="10" class="bv"/><text x="360" y="201" text-anchor="middle" class="tb" style="font-size:12px">Aspartate</text>
+<path d="M298 128L324 110" class="ln" marker-end="url(#um-a)"/>
+<g class="hot" data-tip="<b>Glutamate dehydrogenase</b>（肝粒線體，NAD⁺ 或 NADP⁺）：glutamate → α-KG + <b>NH₄⁺</b>。<b>GTP 抑制、ADP 活化</b>。先轉胺、再脫胺 = transdeamination。注意是 dehydrogenase，不是「脫胺酶」。" data-label="GDH 氧化脫胺"><text x="314" y="130" class="tb tr" style="font-size:10.5px">GDH 氧化脫胺</text></g>
+<path d="M298 160L324 180" class="ln" marker-end="url(#um-a)"/>
+<g class="hot" data-tip="<b>AST</b>：glutamate + <b>OAA</b> ⇌ α-KG + <b>aspartate</b>。aspartate 帶入尿素的<b>第二個氮</b>，它的碳骨架來自 OAA。" data-label="AST"><text x="314" y="166" class="ts" style="font-size:10px">AST（＋OAA）</text></g>
+<rect x="440" y="52" width="188" height="274" rx="16" class="bp"/>
+<path d="M440 170H498" class="ln dash" style="stroke-width:1"/>
+<text x="446" y="164" class="ts" style="font-size:10px">▲ 粒線體</text><text x="446" y="182" class="ts" style="font-size:10px">▼ 細胞質</text>
+<text x="472" y="70" class="ts" style="font-size:10px">＋HCO₃⁻ ＋2 ATP</text>
+<rect x="470" y="77" width="130" height="30" rx="9" class="bw"/><text x="535" y="96" text-anchor="middle" class="tb" style="font-size:11.5px">Carbamoyl-P</text>
+<rect x="470" y="127" width="130" height="30" rx="9" class="bx"/><text x="535" y="146" text-anchor="middle" class="tb" style="font-size:11.5px">Citrulline</text>
+<rect x="470" y="182" width="130" height="30" rx="9" class="bx"/><text x="535" y="201" text-anchor="middle" class="tb" style="font-size:11.5px">Argininosuccinate</text>
+<rect x="470" y="232" width="130" height="30" rx="9" class="bx"/><text x="535" y="251" text-anchor="middle" class="tb" style="font-size:11.5px">Arginine ＋ Fumarate</text>
+<rect x="470" y="282" width="130" height="30" rx="9" class="bg"/><text x="535" y="301" text-anchor="middle" class="tb" style="font-size:12px">Urea ＋ Ornithine</text>
+<path d="M400 92H468" class="ln" marker-end="url(#um-a)" style="stroke-width:1.6"/>
+<g class="hot" data-tip="<b>CPS I</b>（肝粒線體）：NH₄⁺ + HCO₃⁻ + 2 ATP → carbamoyl phosphate。尿素循環第一步、<b>調控點</b>，需要 <b>NAG</b>。是 synthetase（耗 ATP）。<b>CPS II 在細胞質，做 pyrimidine</b>。" data-label="CPS I"><text x="434" y="86" text-anchor="middle" class="tb tr" style="font-size:11px">CPS I</text></g>
+<text x="434" y="104" text-anchor="middle" class="ts tv" style="font-size:10px">第 1 個 N</text>
+<path d="M400 197H468" class="ln" marker-end="url(#um-a)" style="stroke-width:1.6"/>
+<text x="434" y="191" text-anchor="middle" class="ts tv" style="font-size:10px">第 2 個 N</text>
+<text x="434" y="209" text-anchor="middle" class="ts" style="font-size:10px">＋ATP</text>
+<path d="M505 107V125" class="ln" marker-end="url(#um-a)"/>
+<g class="hot" data-tip="<b>Ornithine transcarbamoylase（OTC）</b>，粒線體：carbamoyl phosphate + ornithine → citrulline；citrulline 再運出到細胞質。" data-label="OTC"><text x="512" y="120" class="ts" style="font-size:10px">① OTC</text></g>
+<path d="M505 157V180" class="ln" marker-end="url(#um-a)"/>
+<g class="hot" data-tip="<b>Argininosuccinate synthetase</b>（細胞質）：citrulline + aspartate + ATP → argininosuccinate + AMP + PPi。" data-label="ASS"><text x="512" y="174" class="ts" style="font-size:10px">② ASS</text></g>
+<path d="M505 212V230" class="ln" marker-end="url(#um-a)"/>
+<g class="hot" data-tip="<b>Argininosuccinase（argininosuccinate lyase, ASL）</b>：argininosuccinate → arginine + <b>fumarate</b>。尿素循環<b>唯一可逆</b>的步驟。" data-label="ASL"><text x="512" y="225" class="ts" style="font-size:10px">③ ASL</text></g>
+<path d="M505 262V280" class="ln" marker-end="url(#um-a)"/>
+<g class="hot" data-tip="<b>Arginase</b>：arginine + H₂O → <b>urea</b> + ornithine。ornithine 運回粒線體再用。" data-label="Arginase"><text x="512" y="275" class="ts" style="font-size:10px">④ arginase</text></g>
+<path d="M600 297C626 297 626 142 602 142" class="ln" marker-end="url(#um-a)"/>
+<text x="597" y="225" text-anchor="end" class="ts" style="font-size:10px">Orn</text>
+<path d="M535 312V338" class="lg" marker-end="url(#um-ag)"/>
+<g class="hot" data-tip="尿素在<b>肝臟</b>合成（不是腎），經血液由<b>腎臟</b>排出。C 來自 HCO₃⁻；兩個 N：NH₄⁺ ＋ aspartate。部分尿素進腸道被細菌分解成氨，再回肝重做。" data-label="尿素去向"><text x="545" y="342" class="ts">經血液 → 腎排出</text></g>
+<rect x="648" y="62" width="122" height="60" rx="10" class="bw"/>
+<g class="hot" data-tip="<b>N-acetylglutamate（NAG）</b>：acetyl-CoA + glutamate →（NAG synthase）→ NAG；<b>arginine 活化 NAG synthase</b>。NAG 是 <b>CPS I 的必需別構活化劑</b>，蛋白質吃多 → 胺基酸多 → NAG ↑ → 尿素循環加速。" data-label="NAG"><text x="709" y="82" text-anchor="middle" class="tb" style="font-size:12px">NAG</text></g>
+<text x="709" y="98" text-anchor="middle" class="ts" style="font-size:10px">acetyl-CoA ＋ Glu</text>
+<text x="709" y="113" text-anchor="middle" class="ts" style="font-size:10px">Arg 活化其合成</text>
+<path d="M648 92H603" class="lv dash" marker-end="url(#um-av)" style="stroke-width:1.4"/>
+<text x="625" y="86" text-anchor="middle" class="ts tv" style="font-size:9.5px">必需</text>
+<g class="hot" data-tip="CPS I 用 2 ATP（→ 2 ADP）＋ ASS 用 1 ATP（→ AMP + PPi，PPi 再水解）= <b>3 ATP、4 個高能磷酸鍵</b>。fumarate → malate → OAA 產 1 NADH，部分抵銷。" data-label="能量帳"><text x="648" y="150" class="tb" style="font-size:11px">能量：3 ATP</text></g>
+<text x="648" y="166" class="ts" style="font-size:10px">＝4 個高能磷酸鍵</text>
+<rect x="648" y="200" width="122" height="92" rx="10" class="bv"/>
+<g class="hot" data-tip="<b>Aspartate-argininosuccinate shunt</b>：fumarate → malate → OAA →（AST 轉胺）→ aspartate，再進步驟 ②。直接串起尿素循環與 TCA 的是 <b>fumarate 與 aspartate</b>（不要和 malate-aspartate shuttle 搞混，那個是搬 NADH）。" data-label="TCA 連結"><text x="709" y="220" text-anchor="middle" class="tb" style="font-size:12px">TCA 連結</text></g>
+<text x="709" y="238" text-anchor="middle" class="ts" style="font-size:10px">Fumarate → Malate</text>
+<text x="709" y="254" text-anchor="middle" class="ts" style="font-size:10px">→ OAA（＋NADH）</text>
+<text x="709" y="270" text-anchor="middle" class="ts" style="font-size:10px">→ Aspartate</text>
+<text x="709" y="285" text-anchor="middle" class="ts tv" style="font-size:10px">回到 ②</text>
+<path d="M600 247H646" class="lr dash" marker-end="url(#um-ar)" style="stroke-width:1.4"/>
+<rect x="16" y="356" width="754" height="116" rx="12" class="bp"/>
+<text x="30" y="376" class="tb" style="font-size:12px">⑤ 卡住 → 高血氨<tspan class="ts" style="font-weight:400">　判讀：缺陷點上游堆積、下游減少</tspan></text>
+<g class="hot" data-tip="<b>CPS I</b> 或 <b>OTC</b> 缺陷：citrulline 做不出來 → <b>citrulline ↓</b>、高血氨。CPS I deficiency 是最重要的尿素循環缺陷（起始步驟）。" data-label="CPS I／OTC 缺陷"><circle cx="37" cy="398" r="7" class="fr"/><text x="37" y="402" text-anchor="middle" class="tw" style="font-size:9px">✕</text><text x="48" y="402" class="tb tr" style="font-size:11.5px">CPS I／OTC → Cit ↓</text></g>
+<g class="hot" data-tip="<b>OTC 缺陷</b>（X-linked）：carbamoyl phosphate 堆積、溢流到細胞質走 pyrimidine 合成 → <b>orotic acid ↑</b>（尿中）。CPS I 缺陷沒有 orotic acid ↑，可藉此區分。" data-label="OTC 缺陷"><circle cx="217" cy="398" r="7" class="fr"/><text x="217" y="402" text-anchor="middle" class="tw" style="font-size:9px">✕</text><text x="228" y="402" class="tb tr" style="font-size:11.5px">OTC → orotic acid ↑</text></g>
+<g class="hot" data-tip="<b>Argininosuccinate synthetase 缺陷</b>：citrulline 用不掉 → <b>citrulline ↑（citrullinemia）</b>，argininosuccinate、arginine ↓（練習題 122）。" data-label="ASS 缺陷"><circle cx="407" cy="398" r="7" class="fr"/><text x="407" y="402" text-anchor="middle" class="tw" style="font-size:9px">✕</text><text x="418" y="402" class="tb tr" style="font-size:11.5px">ASS → Cit ↑（citrullinemia）</text></g>
+<g class="hot" data-tip="<b>Argininosuccinate lyase 缺陷</b>：<b>argininosuccinate ↑</b>（citrulline 也 ↑），arginine、fumarate 生成 ↓。" data-label="ASL 缺陷"><circle cx="627" cy="398" r="7" class="fr"/><text x="627" y="402" text-anchor="middle" class="tw" style="font-size:9px">✕</text><text x="638" y="402" class="tb tr" style="font-size:11.5px">ASL → ASA ↑</text></g>
+<g class="hot" data-tip="<b>Arginase 缺陷</b>：<b>arginine ↑</b>；高血氨通常較輕。arginase 不能直接改用 argininosuccinate。" data-label="Arginase 缺陷"><circle cx="37" cy="426" r="7" class="fr"/><text x="37" y="430" text-anchor="middle" class="tw" style="font-size:9px">✕</text><text x="48" y="430" class="tb tr" style="font-size:11.5px">Arginase → Arg ↑</text></g>
+<g class="hot" data-tip="<b>NAG synthase 缺陷</b>：沒有 NAG → CPS I 無法活化 → 表現像 CPS I 缺陷（citrulline ↓、高血氨）。" data-label="NAG synthase 缺陷"><circle cx="217" cy="426" r="7" class="fr"/><text x="217" y="430" text-anchor="middle" class="tw" style="font-size:9px">✕</text><text x="228" y="430" class="tb tr" style="font-size:11.5px">NAG synthase → CPS I 不動</text></g>
+<g class="hot" data-tip="<b>Hyperinsulinism-hyperammonemia syndrome</b>（GDH 持續活化突變）：β 細胞 glutamate 過度氧化 → ATP ↑ → 關 K<sub>ATP</sub> → <b>insulin 過度分泌 → 低血糖</b>；肝臟過度脫胺 → <b>高血氨</b>。" data-label="HI/HA 症候群"><circle cx="427" cy="426" r="7" class="fr"/><text x="427" y="430" text-anchor="middle" class="tw" style="font-size:9px">✕</text><text x="438" y="430" class="tb tr" style="font-size:11.5px">GDH 持續活化（HI/HA）→ 低血糖＋高血氨</text></g>
+<g class="hot" data-tip="<b>肝性腦病變為什麼傷腦</b>：大腦<b>沒有完整的尿素循環</b>，只能用 GDH（α-KG + NH₄⁺ → glutamate）和 glutamine synthetase（→ glutamine）固定氨 → <b>α-KG 被抽離 TCA</b> → TCA 變慢、<b>ATP 不足</b>（練習題 125）。" data-label="肝性腦病變"><circle cx="37" cy="454" r="7" class="fw"/><text x="37" y="458" text-anchor="middle" class="tw" style="font-size:9px">!</text><text x="48" y="458" class="tb" style="font-size:11.5px">腦沒有完整尿素循環：GDH＋Gln synthetase 固氨 → α-KG 被抽離 TCA → ATP ↓（肝性腦病變）</text></g>
+</svg>
