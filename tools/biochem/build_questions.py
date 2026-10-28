@@ -49,10 +49,16 @@ F = {
     ('18', 82): {'explain': '3-Phosphoglycerate →（3-phosphoglycerate dehydrogenase）→ 3-phosphohydroxypyruvate →（轉胺）→ 3-phosphoserine →（phosphatase）→ Serine。\n'
                             'Serine 再生成 glycine（serine hydroxymethyltransferase，需 THF）與 cysteine（轉硫作用，加 homocysteine 的硫）。'},
     ('18', 84): {'explain_sub': [('如圖，', '')]},
-    ('22', 1): {'imageOnly': True, 'note': '原題四個選項都是化學結構圖，本站未收錄。PRPP＝5-phosphoribosyl-1-pyrophosphate：ribose-5-phosphate 的 C1 接上 pyrophosphate（α 構型）。'},
+    ('22', 1): {'img': ['figures/questions/g22-01.webp'],
+                'options': [{'k': k, 't': f'結構 {k}（見圖）'} for k in 'ABCD'],
+                'explain': 'PRPP（5-phosphoribosyl-1-pyrophosphate）＝ribose-5-phosphate 的 C1 接上 pyrophosphate（α 構型，朝下），由 ribose-5-phosphate + ATP 經 PRPP synthetase 合成。\n'
+                           '(A) 正確：C5 一個磷酸、C1 一個朝下的焦磷酸，C2、C3 是 OH。\n'
+                           '(B) C1 的焦磷酸朝上（β），而且 C1 還多一個 OH。\n'
+                           '(C)(D) 焦磷酸接在 C5、單一磷酸接在 C1，前後顛倒。'},
     ('22', 2): {'explain_sub': [('（圖引用百八共筆）', '')]},
     ('22', 8): {'stem': 'The following molecule, 5-fluorodeoxyuridylate (FdUMP), is an irreversible inhibitor of which enzyme of nucleotide metabolism?',
-                'note': '原題附 FdUMP 結構圖，本站改以文字標出分子名稱。',
+                'img': ['figures/questions/g22-08.webp'],
+                'note': '題幹的圖是 FdUMP 結構（附原圖），本站在題幹補上分子名稱。',
                 'explain': 'FdUMP（5-FU 的活性代謝物）是 thymidylate synthase 的自殺性抑制劑：與酵素和 N⁵,N¹⁰-methylene-THF 形成共價複合物 → dTMP 無法合成 → 快速分裂細胞停止 DNA 合成。'},
     ('22', 28): {'explain': 'dUMP → dTMP 由 thymidylate synthase 催化，甲基來自 N⁵,N¹⁰-methylene-THF（之後變成 DHF），再由 dihydrofolate reductase 把 DHF 還原回 THF。\n'
                             'Thymidine kinase 是 salvage pathway（thymidine → dTMP）的酵素，不是 de novo 由 dUMP 合成 dTMP 所需。'},
@@ -239,6 +245,7 @@ for r in raw:
         q['note'] = f"共筆公布的答案為 {'、'.join(q['answer'])}（複選或送分），選任一個都算對。"
     if fx.get('note'): q['note'] = fx['note']
     if fx.get('imageOnly'): q['imageOnly'] = True
+    if fx.get('img'): q['img'] = fx['img']
     k = norm(q)
     if k in seen:  # 同題重複出現：記在第一次出現的那題
         first = seen[k]

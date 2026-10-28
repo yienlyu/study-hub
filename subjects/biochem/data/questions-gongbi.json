@@ -2129,7 +2129,7 @@
       }
     ],
     "answer": ["D"],
-    "explain": "(A) 主要在肝臟負責糖解作用第一步，將葡萄糖變成 G6P。\n(B) 和選項(A)是同樣的東西。\n(C) 肝糖合成酶負責將 UDP-glucose 合成為肝糖。\n(D) 根據老師上課的口訣：二乾姨嘗試雞汁，主要在肝臟的葡萄糖運輸蛋白是 GLUT2。",
+    "explain": "(A) 主要在肝臟負責糖解作用第一步，將葡萄糖變成 G6P。\n(B) 和選項(A)是同樣的東西。\n(C) 肝糖合成酶負責將 UDP-glucose 合成為肝糖。\n(D) 根據老師上課的口訣：二乾姨嘗試雞汁（2 肝胰腸 4 肌脂），主要在肝臟的葡萄糖運輸蛋白是 GLUT2。",
     "topics": ["胰島素與 GLUT", "各器官燃料代謝"],
     "pattern": "選錯誤（否定）題"
   },
@@ -2377,7 +2377,7 @@
       }
     ],
     "answer": ["B"],
-    "explain": "根據老師上課的口訣：二乾姨嘗試雞汁，主要在肌肉的葡萄糖運輸蛋白是 GLUT4 不是 GLUT2。",
+    "explain": "根據老師上課的口訣：二乾姨嘗試雞汁（2 肝胰腸 4 肌脂），主要在肌肉的葡萄糖運輸蛋白是 GLUT4 不是 GLUT2。",
     "topics": ["胰島素與 GLUT", "各器官燃料代謝"],
     "pattern": "選錯誤（否定）題"
   },
@@ -5497,27 +5497,26 @@
     "options": [
       {
         "k": "A",
-        "t": ""
+        "t": "結構 A（見圖）"
       },
       {
         "k": "B",
-        "t": ""
+        "t": "結構 B（見圖）"
       },
       {
         "k": "C",
-        "t": ""
+        "t": "結構 C（見圖）"
       },
       {
         "k": "D",
-        "t": ""
+        "t": "結構 D（見圖）"
       }
     ],
     "answer": ["A"],
-    "explain": "PRPP 比較特別的是在 1 號碳有兩個朝下的磷酸基，是由 PPP 的產物之一（Ribose-5-phosphate）和ATP 透過 PRPP synthetase 所合成。",
-    "note": "原題四個選項都是化學結構圖，本站未收錄。PRPP＝5-phosphoribosyl-1-pyrophosphate：ribose-5-phosphate 的 C1 接上 pyrophosphate（α 構型）。",
-    "imageOnly": true,
+    "explain": "PRPP（5-phosphoribosyl-1-pyrophosphate）＝ribose-5-phosphate 的 C1 接上 pyrophosphate（α 構型，朝下），由 ribose-5-phosphate + ATP 經 PRPP synthetase 合成。\n(A) 正確：C5 一個磷酸、C1 一個朝下的焦磷酸，C2、C3 是 OH。\n(B) C1 的焦磷酸朝上（β），而且 C1 還多一個 OH。\n(C)(D) 焦磷酸接在 C5、單一磷酸接在 C1，前後顛倒。",
+    "img": ["figures/questions/g22-01.webp"],
     "topics": ["核苷酸結構", "Purine 合成與調控"],
-    "pattern": "組合選擇題"
+    "pattern": "選正確／單一概念題"
   },
   {
     "id": "g22-02",
@@ -5735,11 +5734,9 @@
     ],
     "answer": ["A"],
     "explain": "FdUMP（5-FU 的活性代謝物）是 thymidylate synthase 的自殺性抑制劑：與酵素和 N⁵,N¹⁰-methylene-THF 形成共價複合物 → dTMP 無法合成 → 快速分裂細胞停止 DNA 合成。",
-    "note": "原題附 FdUMP 結構圖，本站改以文字標出分子名稱。",
-    "topics": [
-      "Ribonucleotide reductase 與 dTMP",
-      "Salvage、Lesch-Nyhan 與 SCID"
-    ],
+    "note": "題幹的圖是 FdUMP 結構（附原圖），本站在題幹補上分子名稱。",
+    "img": ["figures/questions/g22-08.webp"],
+    "topics": ["Ribonucleotide reductase 與 dTMP", "Salvage、Lesch-Nyhan 與 SCID"],
     "pattern": "選正確／單一概念題"
   },
   {

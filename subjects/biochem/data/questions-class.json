@@ -2930,5 +2930,1297 @@
    "胺基酸衍生物"
   ],
   "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-087",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "在先天性代謝疾病中，黑尿症（alkaptonuria）是由於缺乏下列哪一種酵素而引起的疾病？（1141 醫檢師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "phenylalanine hydroxylase"
+   },
+   {
+    "k": "B",
+    "t": "tyrosine aminotransferase"
+   },
+   {
+    "k": "C",
+    "t": "4-OH-phenylpyruvate dioxygenase"
+   },
+   {
+    "k": "D",
+    "t": "homogentisic acid oxidase"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Alkaptonuria：homogentisate 1,2-dioxygenase（HGD，homogentisic acid oxidase）缺陷 → homogentisate 堆積 → 尿液變黑、關節炎。Phe hydroxylase 缺陷是 PKU；Tyr 路徑其他酵素缺陷是 tyrosinemia。",
+  "topics": [
+   "先天胺基酸代謝疾病"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-088",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "代謝疾病 alkaptonuria 可能起因於無法降解下列何種胺基酸？（1132 保）",
+  "options": [
+   {
+    "k": "A",
+    "t": "Valine"
+   },
+   {
+    "k": "B",
+    "t": "Asparagine"
+   },
+   {
+    "k": "C",
+    "t": "Methionine"
+   },
+   {
+    "k": "D",
+    "t": "Phenylalanine"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Homogentisate 是 Phe → Tyr → fumarate + acetoacetate 分解路徑的中間物，所以黑尿症是 Phe／Tyr 降解受阻。",
+  "topics": [
+   "先天胺基酸代謝疾病"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-089",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "黑尿症（Alkaptonuria）是因為下列何種物質無法正常代謝而引起的疾病？（1102 醫檢師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "延胡索醯乙醯乙酸（Fumarylacetoacetate）"
+   },
+   {
+    "k": "B",
+    "t": "尿黑酸（Homogentisic acid）"
+   },
+   {
+    "k": "C",
+    "t": "苯丙氨酸（Phenylalanine）"
+   },
+   {
+    "k": "D",
+    "t": "苯基丙酮酸（Phenylpyruvate）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Homogentisic acid（尿黑酸）無法被 HGD 開環 → 堆積於關節、溶於尿中氧化變黑。Phe、phenylpyruvate 堆積是 PKU。",
+  "topics": [
+   "先天胺基酸代謝疾病"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-090",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "下列何者是組成 glutathione 的胺基酸之一？（醫檢 1142）",
+  "options": [
+   {
+    "k": "A",
+    "t": "Glycine"
+   },
+   {
+    "k": "B",
+    "t": "glutamine"
+   },
+   {
+    "k": "C",
+    "t": "Alanine"
+   },
+   {
+    "k": "D",
+    "t": "methionine"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Glutathione = γ-Glu–Cys–Gly 三胜肽（老師：考！）。是 glutamate 不是 glutamine。",
+  "topics": [
+   "胺基酸衍生物"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-091",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "關於維生素參與代謝的敘述，下列何者錯誤？（1132 保）",
+  "options": [
+   {
+    "k": "A",
+    "t": "Transketolase 的活性可以用於評估維生素 B1 之營養狀況"
+   },
+   {
+    "k": "B",
+    "t": "維生素 B2 參與 glutathione peroxidase 與 glutathione reductase 的反應，故對紅血球有抗氧化及保護之作用"
+   },
+   {
+    "k": "C",
+    "t": "Pyruvate carboxylase 需要 biotin 作為輔因子"
+   },
+   {
+    "k": "D",
+    "t": "Niacin 缺乏與乳酸症的發生有關"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Niacin 缺乏是 pellagra（3D）。乳酸堆積與 B₁（PDH 需 TPP）缺乏有關。Glutathione reductase 含 FAD（B₂）、用 NADPH 把 GSSG 還原回 GSH。",
+  "topics": [
+   "輔因子"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-092",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "下列關於一氧化氮（nitric oxide）的敘述，何者錯誤？（110-1 醫師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "是一種自由基（free radical），可自由擴散通過細胞膜"
+   },
+   {
+    "k": "B",
+    "t": "是一種神經傳導物質（neurotransmitter）"
+   },
+   {
+    "k": "C",
+    "t": "它的生合成之前驅物是麩醯胺酸（glutamine）"
+   },
+   {
+    "k": "D",
+    "t": "在細胞質中它能夠與鳥苷酸環化酶（guanylyl cyclase）結合"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "NO 由 arginine 經 NO synthase（BH₄、NADPH）產生，副產物 citrulline；不是 glutamine。NO 進平滑肌活化可溶性 guanylyl cyclase → cGMP ↑ → 血管擴張。",
+  "topics": [
+   "胺基酸衍生物"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-093",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "關於穀胱甘肽（glutathione）的敘述，下列何者正確？（1131 營養師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "是屬於三胜肽（tripeptide）的結構"
+   },
+   {
+    "k": "B",
+    "t": "由 glycine、isoleucine 及 glutamate 三種胺基酸組合而成"
+   },
+   {
+    "k": "C",
+    "t": "其結構含有硫氫鍵（-SH）結構，在細胞內通常以還原態的 GSSG 形式存在"
+   },
+   {
+    "k": "D",
+    "t": "蛋白質營養狀況差時，體內合成穀胱甘肽的濃度會增加"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Glu–Cys–Gly 三胜肽（是 Cys 不是 Ile）。還原態是 GSH、氧化態才是 GSSG（雙硫鍵相連）；蛋白質營養差時合成原料不足，GSH 會下降。",
+  "topics": [
+   "胺基酸衍生物"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-094",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "下列何種胺基酸不是體內神經傳導物質的前驅物？（1151 保健）",
+  "options": [
+   {
+    "k": "A",
+    "t": "Tryptophan"
+   },
+   {
+    "k": "B",
+    "t": "glutamate"
+   },
+   {
+    "k": "C",
+    "t": "Lysine"
+   },
+   {
+    "k": "D",
+    "t": "tyrosine"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Trp → serotonin；Glu → GABA（本身也是神經傳導物質）；Tyr → dopamine、NE、Epi。Lysine 不做神經傳導物質。",
+  "topics": [
+   "胺基酸衍生物"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-095",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "下列何種胺基酸本身可做為神經傳導物質（neurotransmitter）？（1141 牙醫師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "Lys"
+   },
+   {
+    "k": "B",
+    "t": "Glu"
+   },
+   {
+    "k": "C",
+    "t": "Gln"
+   },
+   {
+    "k": "D",
+    "t": "Tyr"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Glutamate 本身是興奮性神經傳導物質（腦創傷時大量釋放，使傷害更嚴重），去羧後變成抑制性的 GABA。Tyr 是前驅物，本身不是。",
+  "topics": [
+   "胺基酸衍生物"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-096",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "下列何種胺基酸可代謝為神經傳導物質 γ-胺基丁酸（γ-aminobutyric acid, GABA）？（1132 醫學）",
+  "options": [
+   {
+    "k": "A",
+    "t": "麩胺酸（glutamate）"
+   },
+   {
+    "k": "B",
+    "t": "甲硫胺酸（methionine）"
+   },
+   {
+    "k": "C",
+    "t": "蘇胺酸（threonine）"
+   },
+   {
+    "k": "D",
+    "t": "丙胺酸（alanine）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Glutamate →（glutamate decarboxylase，PLP）→ GABA。老師強調常考 GABA 的前驅物與形成方式（脫羧）。",
+  "topics": [
+   "胺基酸衍生物"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-097",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "腦部神經傳遞物質 gamma-aminobutyrate，係由下列何種胺基酸經脫羧反應後產生？（111-2 營養師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "Threonine"
+   },
+   {
+    "k": "B",
+    "t": "aspartate"
+   },
+   {
+    "k": "C",
+    "t": "glutamate"
+   },
+   {
+    "k": "D",
+    "t": "methionine"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "同上：glutamate 脫羧（PLP）→ GABA。",
+  "topics": [
+   "胺基酸衍生物"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-098",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "人體中 nitric oxide 由 NO synthase 生成時，需要何種胺基酸參與反應？（1132 醫學）",
+  "options": [
+   {
+    "k": "A",
+    "t": "天門冬醯胺（asparagine）"
+   },
+   {
+    "k": "B",
+    "t": "穀胺酸（glutamate）"
+   },
+   {
+    "k": "C",
+    "t": "精胺酸（arginine）"
+   },
+   {
+    "k": "D",
+    "t": "酪胺酸（tyrosine）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Arginine →（NOS，BH₄ + NADPH）→ citrulline + NO。富含 arginine 的食物：巧克力、花生、核桃、瘦肉。",
+  "topics": [
+   "胺基酸衍生物"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-099",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "對於 sildenafil citrate（Viagra；威而鋼）的敘述下列何者正確？（1111 牙醫學）",
+  "options": [
+   {
+    "k": "A",
+    "t": "可維持細胞內低濃度的 AMP"
+   },
+   {
+    "k": "B",
+    "t": "可維持細胞內低濃度的 cAMP"
+   },
+   {
+    "k": "C",
+    "t": "可維持細胞內低活性的 G protein"
+   },
+   {
+    "k": "D",
+    "t": "可維持細胞內高濃度的 cGMP"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Sildenafil 抑制 PDE5，cGMP 不被水解成 GMP → 平滑肌持續鬆弛、血管擴張。",
+  "topics": [
+   "胺基酸衍生物"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-100",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "下列代謝反應何者不需要 pyridoxal phosphate 作為輔酶？（營學 1142）",
+  "options": [
+   {
+    "k": "A",
+    "t": "glutamate 生成 α-ketoglutarate"
+   },
+   {
+    "k": "B",
+    "t": "histidine 生成 histamine"
+   },
+   {
+    "k": "C",
+    "t": "glutamate 生成 γ-aminobutyrate"
+   },
+   {
+    "k": "D",
+    "t": "arginine 生成 nitric acid"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Arg → NO 用 NOS（BH₄、NADPH），不用 PLP。轉胺（Glu → α-KG）與脫羧（His → histamine、Glu → GABA）都用 PLP。",
+  "topics": [
+   "轉胺與 PLP"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-101",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "胺基酸必經由何種作用來產生具有生物功能的胺類（amines），例如精胺（spermine）、組織胺（histamine）與多巴胺（dopamine）等物質？（1132 保）",
+  "options": [
+   {
+    "k": "A",
+    "t": "氧化作用（oxidation）"
+   },
+   {
+    "k": "B",
+    "t": "羥化作用（hydroxylation）"
+   },
+   {
+    "k": "C",
+    "t": "脫羧作用（decarboxylation）"
+   },
+   {
+    "k": "D",
+    "t": "甲基化作用（methylation）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "胺基酸去掉 α-carboxyl（脫羧，PLP）就變成胺類：ornithine → putrescine（→ spermidine、spermine）、His → histamine、DOPA → dopamine。",
+  "topics": [
+   "胺基酸衍生物"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-102",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "有關天門冬醯胺（asparagine）的敘述，下列何者錯誤？（112-2 醫師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "為非必需胺基酸（nonessential amino acid）"
+   },
+   {
+    "k": "B",
+    "t": "可代謝成為天門冬胺酸（aspartate）"
+   },
+   {
+    "k": "C",
+    "t": "屬於生酮性胺基酸（ketogenic amino acid）"
+   },
+   {
+    "k": "D",
+    "t": "天門冬醯胺酶（asparaginase）能分解血液中的 asparagine"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Asn → Asp → oxaloacetate，是生醣胺基酸。純生酮只有 Leu、Lys。",
+  "topics": [
+   "生酮／生醣胺基酸"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-103",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "關於胺基酸的衍生分子，下列敘述何者錯誤？（1121 牙醫師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "酪胺酸（tyrosine）是包括多巴胺（dopamine）、正腎上腺素（norepinephrine）和腎上腺素（epinephrine）在內的兒茶酚胺（catecholamines）家族之前驅物"
+   },
+   {
+    "k": "B",
+    "t": "穀胱甘肽（glutathione）是谷胺酸（glutamate）、半胱胺酸（cysteine）和甘胺酸（glycine）組成的三胜肽"
+   },
+   {
+    "k": "C",
+    "t": "谷胺醯胺（glutamine）可進行脫羧（decarboxylation）產生 γ-胺基丁酸（GABA）"
+   },
+   {
+    "k": "D",
+    "t": "一氧化氮是由精胺酸（arginine）經一氧化氮合成酶（nitric oxide synthase）催化合成"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "GABA 來自 glutamate（不是 glutamine）脫羧。",
+  "topics": [
+   "胺基酸衍生物"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-104",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "有關胺基酸代謝的敘述，下列何者錯誤？（營學 1142）",
+  "options": [
+   {
+    "k": "A",
+    "t": "arginine 代謝為 glutamate 的過程中會解離出 urea"
+   },
+   {
+    "k": "B",
+    "t": "glutamine 和 histidine 皆可代謝為 α-ketoglutamate"
+   },
+   {
+    "k": "C",
+    "t": "Maple syrup urine disease 是因為攝入太多支鏈胺基酸所致"
+   },
+   {
+    "k": "D",
+    "t": "acetoacetate 是 tryptophan 的代謝終產物之一"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "MSUD 是 branched-chain α-keto acid dehydrogenase complex（TPP）缺陷，不是攝入太多。Arg →（arginase）urea + ornithine → glutamate；Trp 生酮也生醣。",
+  "topics": [
+   "BCAA"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-105",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "下列那個選項可進行糖質新生作用（gluconeogenesis）？（1131 牙醫師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "乙醯輔酶 A（acetyl-CoA）與乙醯乙酸酯（acetoacetate）"
+   },
+   {
+    "k": "B",
+    "t": "草醯乙酸（oxaloacetate）與丙酮酸（pyruvate）"
+   },
+   {
+    "k": "C",
+    "t": "乙醯乙酸酯（acetoacetate）與硬脂酸（stearic acid）"
+   },
+   {
+    "k": "D",
+    "t": "草醯乙酸（oxaloacetate）與乙醯乙酸酯（acetoacetate）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Pyruvate、OAA 可走糖質新生；acetyl-CoA、acetoacetate 與偶數碳脂肪酸（stearate）不能淨生糖。",
+  "topics": [
+   "生酮／生醣胺基酸"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-106",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "下列何種胺基酸可在肝臟中分解為乙醯輔酶 A（acetyl-CoA），進而轉變成酮體？（1131 營養師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "麩胺酸（glutamate）"
+   },
+   {
+    "k": "B",
+    "t": "白胺酸（leucine）"
+   },
+   {
+    "k": "C",
+    "t": "丙胺酸（alanine）"
+   },
+   {
+    "k": "D",
+    "t": "組胺酸（histidine）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Leucine 純生酮（→ acetyl-CoA、acetoacetate）。Glu、His → α-KG；Ala → pyruvate，都生醣。",
+  "topics": [
+   "生酮／生醣胺基酸"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-107",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "在饑餓時，人體會分解蛋白質產生胺基酸以供應能量，下列那一種胺基酸過度代謝最容易導致酮症（ketosis）？（1131 醫師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "白胺酸（leucine）"
+   },
+   {
+    "k": "B",
+    "t": "甲硫胺酸（methionine）"
+   },
+   {
+    "k": "C",
+    "t": "精胺酸（arginine）"
+   },
+   {
+    "k": "D",
+    "t": "麩胺酸（glutamate）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Leu 純生酮；Met（→ succinyl-CoA）、Arg、Glu（→ α-KG）都生醣。",
+  "topics": [
+   "生酮／生醣胺基酸"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-108",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "白胺酸（leucine）在體內代謝後，不會產生下列那一種代謝產物？（1121 營養師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "尿素（urea）"
+   },
+   {
+    "k": "B",
+    "t": "酮體（ketone bodies）"
+   },
+   {
+    "k": "C",
+    "t": "脂肪酸（fatty acids）"
+   },
+   {
+    "k": "D",
+    "t": "葡萄糖（glucose）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Leu 純生酮：碳骨架 → acetyl-CoA／acetoacetate（可做酮體、脂肪酸），胺基 → 尿素；不能淨生成葡萄糖。",
+  "topics": [
+   "生酮／生醣胺基酸"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-109",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "下列有關支鏈胺基酸（branched-chain amino acids, BCAAs）代謝，何者敘述錯誤？（111-1 醫學）",
+  "options": [
+   {
+    "k": "A",
+    "t": "支鏈胺基酸包括白胺酸（leucine）、異白胺酸（isoleucine）與離胺酸（lysine）"
+   },
+   {
+    "k": "B",
+    "t": "肌肉組織中 BCAA aminotransferase 活性較肝臟組織高"
+   },
+   {
+    "k": "C",
+    "t": "楓糖尿症（maple syrup urine disease）導因於粒線體中 branched-chain α-keto acid dehydrogenase complex 功能缺失"
+   },
+   {
+    "k": "D",
+    "t": "支鏈胺基酸代謝過程會產生 NADH 與 FADH2"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "BCAA = Leu、Ile、**Val**（R 基分岔），不含 Lys。BCAA 主要在肌肉分解（肝臟缺 BCAA aminotransferase）。",
+  "topics": [
+   "BCAA"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-110",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "楓糖尿症（maple syrup urine disease, MSUD）病患的飲食治療方法為提供高劑量維生素 B1，以及限制何種胺基酸的攝取？（111-2 醫檢師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "酸性胺基酸，如 aspartic acid, glutamic acid"
+   },
+   {
+    "k": "B",
+    "t": "含硫胺基酸，如 methionine, cysteine"
+   },
+   {
+    "k": "C",
+    "t": "鹼性胺基酸，如 lysine, arginine"
+   },
+   {
+    "k": "D",
+    "t": "支鏈胺基酸，如 valine, isoleucine"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "MSUD 是 BCKDH（需 TPP = B₁）缺陷 → 限 BCAA、補 B₁。尿有楓糖漿甜味，嚴重造成智能障礙。",
+  "topics": [
+   "BCAA"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-111",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "下列那一種非必需胺基酸在發育中兒童合成不足，特別需要自食物中攝取？（1121 醫檢師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "天門冬胺酸（aspartic acid）"
+   },
+   {
+    "k": "B",
+    "t": "精胺酸（arginine）"
+   },
+   {
+    "k": "C",
+    "t": "半胱胺酸（cysteine）"
+   },
+   {
+    "k": "D",
+    "t": "酪胺酸（tyrosine）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Arginine 是條件式必需胺基酸：發育中兒童合成量不夠（考古出過）。條件式必需共 6 個：Arg、Cys、Gln、Gly、Pro、Tyr。",
+  "topics": [
+   "生酮／生醣胺基酸"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-112",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "下列那一個是條件式必需胺基酸（conditionally essential amino acid）？（111-1 營養）",
+  "options": [
+   {
+    "k": "A",
+    "t": "Methionine"
+   },
+   {
+    "k": "B",
+    "t": "tyrosine"
+   },
+   {
+    "k": "C",
+    "t": "Phenylalanine"
+   },
+   {
+    "k": "D",
+    "t": "isoleucine"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Tyr 可由 Phe 經 phenylalanine hydroxylase 轉來 → 條件式必需。Met、Phe、Ile 是必需胺基酸（口訣 3T2LIPHMV 裡的 Tyr 要特別小心）。",
+  "topics": [
+   "生酮／生醣胺基酸"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-113",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "下列何者兼具必需胺基酸（essential amino acid）及生酮性胺基酸（ketogenic amino acid）特性？（111-1 醫學）",
+  "options": [
+   {
+    "k": "A",
+    "t": "天門冬胺酸（aspartate）"
+   },
+   {
+    "k": "B",
+    "t": "組胺酸（histidine）"
+   },
+   {
+    "k": "C",
+    "t": "酪胺酸（tyrosine）"
+   },
+   {
+    "k": "D",
+    "t": "白胺酸（leucine）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Leu、Lys 純生酮且都是必需胺基酸。His 必需但生醣；Tyr 生酮又生醣但屬條件式必需；Asp 非必需、生醣。",
+  "topics": [
+   "生酮／生醣胺基酸"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-114",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "在人體細胞中，下列何種胺基酸是主要用來製造脯胺酸（proline）的前驅物？（1152 醫師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "苯丙胺酸（phenylalanine）"
+   },
+   {
+    "k": "B",
+    "t": "色胺酸（tryptophan）"
+   },
+   {
+    "k": "C",
+    "t": "麩胺酸（glutamate）"
+   },
+   {
+    "k": "D",
+    "t": "酪胺酸（tyrosine）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Pro 屬 α-ketoglutarate（glutamate）家族：Glu、Gln、Pro、Arg。",
+  "topics": [
+   "胺基酸衍生物"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-115",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "人體之脯胺酸（proline）或是精胺酸（arginine）主要由下列何種胺基酸代謝轉換形成？（1131 醫師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "麩胺酸（glutamate）"
+   },
+   {
+    "k": "B",
+    "t": "色胺酸（tryptophan）"
+   },
+   {
+    "k": "C",
+    "t": "纈胺酸（valine）"
+   },
+   {
+    "k": "D",
+    "t": "甲硫胺酸（methionine）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "同上：α-KG 家族 Glu → Pro、Arg（經 ornithine）。只要背 α-KG、pyruvate、OAA 三個家族，分解與合成進出位置一樣。",
+  "topics": [
+   "胺基酸衍生物"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-116",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "有關 arginine 代謝合成體內具生物活性物質之敘述，下列何者正確？（1152 營養師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "在體內藉由 NOS（nitric oxide synthase）作用生成 nitrogen dioxide"
+   },
+   {
+    "k": "B",
+    "t": "arginine 和 glycine 藉由轉甲基作用（transmethylation）生成肌酸（creatine）"
+   },
+   {
+    "k": "C",
+    "t": "arginine 和 tyrosine 藉由氫氧化作用（hydroxylation）生成褪黑激素（melatonine）"
+   },
+   {
+    "k": "D",
+    "t": "L-form 和 D-form 的 arginine 皆可被人體吸收利用"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Creatine：Arg + Gly →（AGAT，腎）guanidinoacetate →（GAMT，SAM 給甲基，肝）creatine。NOS 產生 nitric oxide；melatonin 來自 Trp；人體只利用 L-form。",
+  "topics": [
+   "胺基酸衍生物"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-117",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "有關轉甲基作用（transmethylation）在體內胺基酸代謝過程的敘述，下列何者正確？（1151 保健）",
+  "options": [
+   {
+    "k": "A",
+    "t": "tyrosine 代謝為 fumarate 和 acetoacetate 的過程需要轉甲基作用"
+   },
+   {
+    "k": "B",
+    "t": "苯酮尿症（phenylketonuria）是因為 phenylalanine hydroxylase 的缺陷，使體內的轉甲基作用無法順利運作"
+   },
+   {
+    "k": "C",
+    "t": "體內合成 phosphatidylcholine 和 creatine 的過程，皆與轉甲基作用有關"
+   },
+   {
+    "k": "D",
+    "t": "人體內生成（de novo synthesis）methionine 的過程無需轉甲基作用"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "PE → PC 用 3 個 AdoMet（Ch21），GAA → creatine 用 1 個 AdoMet。PKU 是羥化（BH₄）缺陷；homocysteine → Met 要 N⁵-methyl-THF 與 B₁₂ 轉甲基。",
+  "topics": [
+   "一碳單位與輔酶（THF／BH4／B12）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-118",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "下列何者胺基酸與肌酸（creatine）的生合成有關？（1132 技）",
+  "options": [
+   {
+    "k": "A",
+    "t": "Glutamate，arginine"
+   },
+   {
+    "k": "B",
+    "t": "Arginine，glycine"
+   },
+   {
+    "k": "C",
+    "t": "Glycine，alanine"
+   },
+   {
+    "k": "D",
+    "t": "Alanine，glutamate"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Creatine 材料：Gly + Arg（+ SAM 給甲基）。",
+  "topics": [
+   "胺基酸衍生物"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-119",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "下列何種胺基酸和 creatine 的生合成較有關？（112-2 醫檢師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "Aspartate"
+   },
+   {
+    "k": "B",
+    "t": "arginine"
+   },
+   {
+    "k": "C",
+    "t": "tyrosine"
+   },
+   {
+    "k": "D",
+    "t": "tryptophan"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "同上：Arg 的 amidino 基轉給 Gly 形成 guanidinoacetate。",
+  "topics": [
+   "胺基酸衍生物"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-120",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "在動物中，血基質（heme）生合成之主要前驅物之一是：（111-2 醫師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "色胺酸（tryptophan）"
+   },
+   {
+    "k": "B",
+    "t": "酪胺酸（tyrosine）"
+   },
+   {
+    "k": "C",
+    "t": "組胺酸（histidine）"
+   },
+   {
+    "k": "D",
+    "t": "甘胺酸（glycine）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "動物、細菌：glycine + succinyl-CoA →（ALA synthase，PLP）→ ALA；植物用 glutamate。",
+  "topics": [
+   "Heme 與膽紅素"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-121",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "下列有關琥珀酸–甘胺酸路徑（succinate-glycine pathway）的敘述，何者錯誤？（1121 醫師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "此路徑作用的第一個酵素為 δ-aminolevulinic acid synthase（ALA synthase）"
+   },
+   {
+    "k": "B",
+    "t": "血基質（heme）中的碳原子來自琥珀酸（succinate）及甘胺酸（glycine）"
+   },
+   {
+    "k": "C",
+    "t": "需要磷酸吡哆醛（pyridoxal phosphate）參與作用"
+   },
+   {
+    "k": "D",
+    "t": "血基質（heme）合成在細胞質中完成"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Heme 合成在粒線體與細胞質之間來回，開始（ALA synthase）與結尾（ferrochelatase 接 Fe²⁺）都在粒線體。",
+  "topics": [
+   "Heme 與膽紅素"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "class-122",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "下列何種酵素主要參與將原血紅素（heme）代謝為膽綠素（biliverdin）？（1141 醫師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "血紅素氧化酶（heme oxidase）"
+   },
+   {
+    "k": "B",
+    "t": "血紅素加氧酶（heme oxygenase）"
+   },
+   {
+    "k": "C",
+    "t": "血紅素去氫酶（heme dehydrogenase）"
+   },
+   {
+    "k": "D",
+    "t": "血紅素過氧化氫酶（heme peroxidase）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Heme →（heme oxygenase）→ biliverdin + Fe²⁺ + CO →（biliverdin reductase）→ bilirubin →（肝，UDP-glucuronyltransferase）→ bilirubin diglucuronide。",
+  "topics": [
+   "Heme 與膽紅素"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-123",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "膽紅素（bilirubin）在肝臟代謝過程中主要與那一種物質結合？（1141 醫檢師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "Glucose"
+   },
+   {
+    "k": "B",
+    "t": "glutathione"
+   },
+   {
+    "k": "C",
+    "t": "gluconic acid"
+   },
+   {
+    "k": "D",
+    "t": "glucuronic acid"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "肝臟把 bilirubin 接上 2 個 glucuronate（來自 UDP-glucuronate）→ 水溶的 bilirubin diglucuronide，隨膽汁排出。",
+  "topics": [
+   "Heme 與膽紅素"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "class-124",
+  "source": "2026 課堂題",
+  "section": "Ch18-3 共筆",
+  "chapter": "ch18",
+  "type": "mcq",
+  "stem": "膽紅素（bilirubin）在肝臟可經由下列何種酵素，將未結合膽紅素（unconjugated bilirubin）轉成結合膽紅素（conjugated bilirubin）？（1121 醫檢師）",
+  "options": [
+   {
+    "k": "A",
+    "t": "UDP-glucuronyltransferase"
+   },
+   {
+    "k": "B",
+    "t": "biliverdin reductase"
+   },
+   {
+    "k": "C",
+    "t": "microsomal heme oxygenase"
+   },
+   {
+    "k": "D",
+    "t": "HMG-CoA reductase"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "UDP-glucuronyltransferase（UGT）；新生兒 UGT 未成熟 → 未結合型 bilirubin ↑（生理性黃疸）。",
+  "topics": [
+   "Heme 與膽紅素"
+  ],
+  "pattern": "選正確／單一概念題"
  }
 ]
