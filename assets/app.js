@@ -2603,18 +2603,18 @@
       clicks = [],
       used = 0,
       done = 0;
-    const GAME_AFTER = 20 * 60e3,
-      GAME_Q = 20;
+    const GAME_AFTER = 30 * 60e3,
+      GAME_Q = 30;
     const gameReset = () => {
       used = 0;
       done = 0;
       $("#gmDrop").hidden = true;
     };
-    // 達標後每次檢查 1/10 的機率冒出來（計時每 30 秒一次、答題每題一次）
+    // 達標後每次檢查 1/30 的機率冒出來（計時每 30 秒一次、答題每題一次）
     const gameRoll = () => {
       const g = $("#gmDrop");
       if (!g || !g.hidden || location.hash.startsWith("#/play")) return;
-      if ((used >= GAME_AFTER || done > GAME_Q) && Math.random() < 1 / 10) g.hidden = false;
+      if ((used >= GAME_AFTER || done > GAME_Q) && Math.random() < 1 / 30) g.hidden = false;
     };
     const quiet = () =>
       location.hash.startsWith("#/play") || !$("#mxPop").hidden;
