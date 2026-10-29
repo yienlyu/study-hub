@@ -775,7 +775,9 @@ select.input { appearance: none; background-image: url("data:image/svg+xml,%3Csv
 .figzoom-bar b { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: .95rem; }
 .figzoom-bar .spacer { flex: 0 0 4px; }
 @media (max-width: 560px) { .figzoom-bar { gap: 6px; } .figzoom-bar .btn.sm { padding: 0 10px; } .figzoom-cap { font-size: .8rem; max-height: 18vh; } }
-.figzoom-bar .num { font-family: var(--f-mono); font-size: .8rem; color: var(--ink-3); min-width: 3.5em; text-align: center; }
+.figzoom-bar .num { font-family: var(--f-mono); font-size: .8rem; color: var(--ink-2); width: 4.5em; height: 34px; padding: 0 4px; text-align: center; border: 1px solid transparent; border-radius: var(--r-s); background: transparent; transition: border-color .15s, background .15s; }
+.figzoom-bar .num:hover { border-color: var(--rule); }
+.figzoom-bar .num:focus { outline: none; color: var(--ink); background: var(--paper); border-color: var(--violet); box-shadow: 0 0 0 3px color-mix(in srgb, var(--violet) 16%, transparent); }
 .figzoom-stage { overflow: auto; padding: 24px var(--gutter); overscroll-behavior: contain; }
 .figzoom-stage svg { display: block; margin: 0 auto; height: auto; font-family: var(--f-sans); }
 .figzoom-cap { padding: 10px var(--gutter) 14px; font-size: .85rem; color: var(--ink-2); border-top: 1px solid var(--rule); background: var(--card); max-height: 22vh; overflow: auto; }

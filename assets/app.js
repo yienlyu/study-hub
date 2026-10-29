@@ -1349,14 +1349,23 @@
     el.setAttribute("aria-modal", "true");
     el.setAttribute("aria-label", f.title);
     el.innerHTML = `<div class="figzoom-bar"><span class="eyebrow hide-s">${figLabel(f)}</span><b>${esc(f.title)}</b><span class="spacer"></span>
-      <button class="btn sm" type="button" data-z="-1" aria-label="縮小">${ic("minus")}</button><span class="num" aria-live="polite">100%</span><button class="btn sm" type="button" data-z="1" aria-label="放大">${ic("plus")}</button>
+      <button class="btn sm" type="button" data-z="-1" aria-label="縮小">${ic("minus")}</button><input class="num" type="text" inputmode="numeric" value="100%" aria-label="縮放比例（%），輸入後按 Enter" title="輸入比例後按 Enter"><button class="btn sm" type="button" data-z="1" aria-label="放大">${ic("plus")}</button>
       <button class="btn sm primary" type="button" data-close aria-label="關閉">${ic("x")}<span class="hide-s">關閉</span></button></div>
       <div class="figzoom-stage"><div class="fig-body" style="padding:0;overflow:visible"></div></div>
       <div class="figzoom-cap">${isSlide(f) ? slideCaption(f) : `${f.caption || ""} ${figHint()}`}</div>`;
     document.body.appendChild(el);
     document.documentElement.style.overflow = "hidden";
     const steps = [0.6, 0.8, 1, 1.25, 1.5, 2, 2.5, 3];
-    let k = 2;
+    // 自訂輸入範圍 10%–500%；+/- 從目前比例跳到下一個預設檔位
+    const MIN = 0.1, MAX = 5;
+    let scale = 1;
+    const step = (d) => {
+      const next = d > 0
+        ? steps.find((s) => s > scale + 1e-6)
+        : steps.findLast((s) => s < scale - 1e-6);
+      scale = next ?? (d > 0 ? Math.max(scale, steps.at(-1)) : Math.min(scale, steps[0]));
+      apply();
+    };
     const stage = $(".figzoom-stage", el);
     const body = $(".fig-body", el);
     const apply = () => {
@@ -1372,23 +1381,41 @@
             Math.min(stage.clientWidth - 8, natural),
             Math.min(natural / 1.5, 720),
           );
-      svg.style.width = `${Math.round(fit * steps[k])}px`;
+      svg.style.width = `${Math.round(fit * scale)}px`;
       svg.style.minWidth = "0";
       svg.style.maxWidth = "none";
-      $(".num", el).textContent = `${Math.round(steps[k] * 100)}%`;
+      num.value = `${Math.round(scale * 100)}%`;
     };
+    const num = $(".num", el);
+    const commit = () => {
+      const v = parseFloat(num.value);
+      if (Number.isFinite(v) && v > 0) scale = Math.min(MAX, Math.max(MIN, v / 100));
+      apply();
+    };
+    num.addEventListener("focus", () => num.select());
+    num.addEventListener("change", commit);
+    num.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        commit();
+        num.select();
+      } else if (e.key === "ArrowUp" || e.key === "ArrowDown") {
+        e.preventDefault();
+        step(e.key === "ArrowUp" ? 1 : -1);
+        num.select();
+      }
+    });
     const onKey = (e) => {
+      const typing = e.target === num;
       if (e.key === "Escape") {
         e.preventDefault();
         closeFigZoom();
-      } else if (e.key === "+" || e.key === "=") {
-        k = Math.min(steps.length - 1, k + 1);
-        apply();
-      } else if (e.key === "-") {
-        k = Math.max(0, k - 1);
-        apply();
+      } else if (!typing && (e.key === "+" || e.key === "=")) {
+        step(1);
+      } else if (!typing && e.key === "-") {
+        step(-1);
       } else if (e.key === "Tab") {
-        const f = $$("button, [tabindex='0']", el);
+        const f = $$("button, input, [tabindex='0']", el);
         const i = f.indexOf(document.activeElement);
         if (e.shiftKey && i <= 0) {
           e.preventDefault();
@@ -1403,10 +1430,7 @@
     addEventListener("keydown", onKey);
     el.addEventListener("click", (e) => {
       const z = e.target.closest("[data-z]");
-      if (z) {
-        k = Math.max(0, Math.min(steps.length - 1, k + +z.dataset.z));
-        apply();
-      }
+      if (z) step(+z.dataset.z);
       if (e.target.closest("[data-close]")) closeFigZoom();
     });
     $("[data-close]", el).focus();
