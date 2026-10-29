@@ -4023,9 +4023,9 @@
         "t": "Heme"
       }
     ],
-    "answer": ["A", "B"],
-    "explain": "含 porphyrin 環：heme、chlorophyll。Cobalamin（B₁₂）是 corrin 環（少一個 methine 橋）；phycocyanin 的發色團（phycocyanobilin）是開鏈的 tetrapyrrole，沒有封閉的 porphyrin 環。",
-    "note": "共筆答案為 B；嚴格來說 cobalamin 是 corrin 環，也不是 porphyrin，選 A 或 B 都算對。",
+    "answer": ["B"],
+    "explain": "依課堂投影片（Ch22 p65–71），porphyrin（tetrapyrrole）衍生物有 heme（Fe）、chlorophyll（Mg）、cobalamin = B₁₂（Co），三者都是封閉的環狀 tetrapyrrole、中間包金屬。Phycocyanin 的發色團 phycocyanobilin（藻膽素）雖然也由 tetrapyrrole 衍生，但是開鏈（直線型）結構，沒有封閉的 porphyrin 環、也不包金屬 → 選 B。",
+    "note": "補充：嚴格的化學分類上 cobalamin 是 corrin 環（比 porphyrin 少一個 methine 橋），但課堂把它歸在 porphyrin 衍生物，考試以 B 為答案。",
     "topics": ["Heme 與膽紅素"],
     "pattern": "選錯誤（否定）題"
   },
