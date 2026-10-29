@@ -2382,8 +2382,29 @@
   }
   const trackLinks = (x) => {
     const q = encodeURIComponent(`${x.t} ${x.a.replace(/ · /g, " ")}`);
-    return `<a class="btn sm" href="https://www.youtube.com/results?search_query=${q}" target="_blank" rel="noopener">YouTube ${ic("arrowUR")}</a><a class="btn sm" href="${x.sp ? `https://open.spotify.com/track/${x.sp}` : `https://open.spotify.com/search/${q}`}" target="_blank" rel="noopener">Spotify ${ic("arrowUR")}</a>`;
+    return `<a class="btn sm" href="https://www.youtube.com/results?search_query=${q}" target="_blank" rel="noopener">YouTube ${ic("arrowUR")}</a><a class="btn sm" href="${x.sp ? `https://open.spotify.com/track/${x.sp}` : `https://open.spotify.com/search/${q}`}" data-app="${x.sp ? `spotify:track:${x.sp}` : `spotify:search:${q}`}" target="_blank" rel="noopener">Spotify ${ic("arrowUR")}</a>`;
   };
+  // 有裝 Spotify app 就開 app：先試 spotify: 連結，視窗沒失焦（沒跳出 app）就改開網頁版。
+  // 手機也這樣做，因為 Brave 等非預設瀏覽器不一定會把 open.spotify.com 交給 app
+  document.addEventListener("click", (e) => {
+    const a = e.target.closest("a[data-app]");
+    if (!a || e.metaKey || e.ctrlKey || e.shiftKey) return;
+    e.preventDefault();
+    let left = false;
+    const gone = () => (left = true);
+    window.addEventListener("blur", gone, { once: true });
+    document.addEventListener("visibilitychange", gone, { once: true });
+    location.href = a.dataset.app;
+    setTimeout(() => {
+      window.removeEventListener("blur", gone);
+      document.removeEventListener("visibilitychange", gone);
+      if (left) return;
+      // 帶 "noopener" 的 window.open 一律回傳 null，判斷不出是否被擋，所以手動切斷 opener
+      const w = window.open(a.href, "_blank");
+      if (w) w.opener = null;
+      else location.href = a.href;
+    }, 1200);
+  });
   // 右下角一直掛著一顆扭蛋，點了展開成浮動面板；看起來卡關、煩躁或讀很久時，扭蛋會晃一晃、亮個小點提醒
   const musicPanel = () => `
     <button type="button" class="mx-nudge" id="mxNudge" title="音樂扭蛋" aria-label="音樂扭蛋">
@@ -2430,12 +2451,16 @@
         <h3 class="mx-title">${esc(x.t)}</h3>
         <div class="mx-artist">${esc(x.a)}</div>
         ${rolling ? "" : `<p class="mx-why">${x.why ? esc(x.why) : "來自我的 Spotify 收藏。"}</p>
+        ${x.sp ? `<iframe class="mx-player" title="Spotify 播放器：${esc(x.t)}" src="https://open.spotify.com/embed/track/${x.sp}" height="80" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>` : ""}
         <div class="mx-links">${trackLinks(x)}<button class="btn sm ghost" type="button" id="mxLike" aria-pressed="${isFav(x)}">${isFav(x) ? "♥ 已收藏" : "♡ 收藏"}</button></div>`}`;
       $("#mxLike")?.addEventListener("click", () => {
         const f = favs(),
           k = trackKey(x);
         store.set("sh:music:fav", f.includes(k) ? f.filter((y) => y !== k) : [k, ...f]);
-        paintCard(x);
+        // 只更新按鈕，不重畫整張卡片，播放器才不會重新載入
+        const b = $("#mxLike"), on = isFav(x);
+        b.setAttribute("aria-pressed", on);
+        b.textContent = on ? "♥ 已收藏" : "♡ 收藏";
         paintFav();
       });
     };
@@ -2504,7 +2529,21 @@
     paintMoods();
     paintCard(null);
     paintFav();
+    // 第一次打開扭蛋就先跟 Spotify 播放器用到的主機建立連線，抽到歌時載入比較快
+    const warmSpotify = () => {
+      if (warmSpotify.done) return;
+      warmSpotify.done = true;
+      // 播放器頁面和圖片是一般請求，embed-cdn 的 script 兩種都可能，所以兩種連線都先開
+      for (const [h, cors] of [
+        ["https://open.spotify.com", false],
+        ["https://embed-cdn.spotifycdn.com", false],
+        ["https://embed-cdn.spotifycdn.com", true],
+        ["https://image-cdn-ak.spotifycdn.com", false],
+      ])
+        document.head.insertAdjacentHTML("beforeend", `<link rel="preconnect" href="${h}"${cors ? " crossorigin" : ""}>`);
+    };
     return async (m, reason) => {
+      warmSpotify();
       $("#mxNudge").hidden = true;
       $("#mxReason").textContent = reason || "選一個你現在的狀態，抽一首適合的音樂。";
       pop.hidden = false;

@@ -1146,6 +1146,8 @@ a.icon-btn { text-decoration: none; }
 .mx-artist { color: var(--ink-2); font-weight: 600; font-size: .92rem; }
 .mx-why { margin: 6px 0 0; color: var(--ink-2); font-size: .9rem; }
 .mx-links { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.mx-player { display: block; width: 100%; border: 0; border-radius: 12px; margin-top: 10px; color-scheme: normal; clip-path: inset(1px round 11px); opacity: .75; transition: opacity .2s; }
+.mx-player:hover, .mx-player:focus-within { opacity: 1; }
 .mx-links .btn svg { width: 13px; height: 13px; }
 .mx-draw { width: 100%; justify-content: center; margin-top: 12px; }
 .mx-fav-h { font-size: .95rem; margin: 20px 0 4px; }
