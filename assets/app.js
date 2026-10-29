@@ -2553,6 +2553,10 @@
     addEventListener("keydown", (e) => {
       if (e.key === "Escape" && !pop.hidden) close();
     });
+    // 點扭蛋框外面任何地方也會關掉
+    addEventListener("pointerdown", (e) => {
+      if (!pop.hidden && !e.target.closest?.(".mx-pop, .mx-nudge")) close();
+    });
     paintMoods();
     paintCard(null);
     paintFav();
@@ -2599,7 +2603,7 @@
       pending = null,
       studied = 0,
       lastAct = Date.now(),
-      answers = [],
+      wrongRun = 0,
       clicks = [],
       used = 0,
       done = 0;
@@ -2684,11 +2688,11 @@
       answer(ok) {
         done++;
         gameRoll();
-        answers.push(ok);
-        if (answers.length > 5) answers.shift();
-        if (!ok && answers.filter((x) => !x).length >= 3) {
-          answers = [];
-          nudge("anxious", "連錯好幾題了，換個心情？", "連錯幾題很正常，先聽首歌放鬆一下，等等再回來看詳解。");
+        // 連錯五題才跳扭蛋，答對一題就重新計算
+        wrongRun = ok ? 0 : wrongRun + 1;
+        if (wrongRun >= 5) {
+          wrongRun = 0;
+          nudge("anxious", "連錯五題了，換個心情？", "連錯幾題很正常，先聽首歌放鬆一下，等等再回來看詳解。");
         }
       },
       go() {
