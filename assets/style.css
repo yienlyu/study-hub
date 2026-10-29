@@ -874,7 +874,7 @@ a.chip { color: inherit; text-decoration: none; }
 @keyframes findflash { 0%, 30% { background: var(--hl); box-shadow: 0 0 0 6px var(--hl); } 100% { background: transparent; box-shadow: 0 0 0 6px transparent; } }
 
 @media print {
-  .masthead, .site-footer, #tabbar, .mx-nudge, .mx-pop, .ch-tabs, .crumbs, .toolbar, .noprint, .read-progress { display: none !important; }
+  .masthead, .site-footer, #tabbar, .mx-nudge, .mx-pop, .gm-drop, .ch-tabs, .crumbs, .toolbar, .noprint, .read-progress { display: none !important; }
   body { background: #fff; color: #000; }
   .sheet { columns: 2; column-gap: 14px; font-size: 10px; }
   .sheet > section { box-shadow: none; border: 1px solid #bbb; border-radius: 6px; padding: 8px 10px; margin-bottom: 10px; }
@@ -1131,8 +1131,14 @@ a.icon-btn { text-decoration: none; }
 @keyframes mxDrop { from { opacity: 0; transform: translateY(-14px) scale(.6); } }
 @keyframes mxWiggle { 0%, 100% { transform: rotate(0); } 20% { transform: rotate(-12deg); } 40% { transform: rotate(10deg); } 60% { transform: rotate(-6deg); } 80% { transform: rotate(3deg); } }
 .mx-pop { position: fixed; right: 20px; bottom: 20px; z-index: 61; width: min(420px, calc(100vw - 32px)); max-height: min(640px, calc(100vh - 40px)); overflow-y: auto; overscroll-behavior: contain; padding: 18px 20px 20px; box-shadow: var(--shadow-2); transform-origin: bottom right; animation: mxIn .3s var(--ease); }
+.gm-drop { position: fixed; right: 24px; bottom: 88px; z-index: 60; width: 48px; height: 48px; border: 1px solid var(--rule-strong); border-radius: 50%; background: var(--card); color: var(--ink); box-shadow: var(--shadow-2); display: grid; place-items: center; animation: mxDrop .5s var(--ease), mxWiggle 1.2s var(--ease) .5s 2; }
+.gm-drop::after { content: ""; position: absolute; top: 1px; right: 1px; width: 11px; height: 11px; border-radius: 50%; background: var(--safranin); border: 2px solid var(--card); }
+.gm-drop svg { width: 34px; height: 34px; transition: transform .25s var(--ease); }
+.gm-drop:hover { text-decoration: none; }
+.gm-drop:hover svg, .gm-drop:focus-visible svg { transform: rotate(-12deg) scale(1.08); }
+.gm-drop[hidden] { display: none; }
 @keyframes mxIn { from { opacity: 0; transform: scale(.2); } }
-@media (prefers-reduced-motion: reduce) { .mx-nudge, .mx-nudge.ping, .mx-pop, .mx-nudge svg { animation: none; transition: none; } }
+@media (prefers-reduced-motion: reduce) { .mx-nudge, .mx-nudge.ping, .mx-pop, .mx-nudge svg, .gm-drop, .gm-drop svg { animation: none; transition: none; } }
 .mx-pop-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
 .mx-pop-head h2 { font-size: 1.6rem; font-weight: 400; margin: 6px 0 0; line-height: 1.1; }
 .mx-pop-head .btn svg { width: 16px; height: 16px; }
@@ -1154,7 +1160,7 @@ a.icon-btn { text-decoration: none; }
 .mx-fav { list-style: none; margin: 0; padding: 0; }
 .mx-fav li { display: grid; gap: 6px; padding: 10px 0; border-bottom: 1px solid var(--rule); font-size: .9rem; }
 .mx-fav .mx-links { margin-top: 0; }
-@media (max-width: 760px) { .mx-nudge { right: 16px; bottom: 84px; } .mx-pop { right: 16px; bottom: 84px; max-height: calc(100vh - 120px); } }
+@media (max-width: 760px) { .mx-nudge { right: 16px; bottom: 84px; } .gm-drop { right: 20px; bottom: 152px; } .mx-pop { right: 16px; bottom: 84px; max-height: calc(100vh - 120px); } }
 .ng-mode { width: 100%; }
 .ng-mode button { flex: 1; justify-content: center; gap: 8px; }
 .ng-sw { width: 13px; height: 13px; display: inline-block; border: 1px solid var(--ink-3); border-radius: 2px; }

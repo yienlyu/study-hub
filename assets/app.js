@@ -2407,6 +2407,9 @@
   });
   // 右下角一直掛著一顆扭蛋，點了展開成浮動面板；看起來卡關、煩躁或讀很久時，扭蛋會晃一晃、亮個小點提醒
   const musicPanel = () => `
+    <a class="gm-drop" id="gmDrop" href="#/play" title="讀很久了，來玩個小遊戲？" aria-label="小遊戲：讀很久了，來玩一盤？" hidden>
+      <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 15h20a9 9 0 0 1 8.7 6.7l2.2 8.6a5.5 5.5 0 0 1-9.5 4.9L32 31H16l-3.4 4.2a5.5 5.5 0 0 1-9.5-4.9l2.2-8.6A9 9 0 0 1 14 15z" fill="var(--card)" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="M14 19.5v9M9.5 24h9" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="33" cy="21.5" r="2.4" fill="var(--violet)"/><circle cx="37.5" cy="26.5" r="2.4" fill="currentColor"/></svg>
+    </a>
     <button type="button" class="mx-nudge" id="mxNudge" title="音樂扭蛋" aria-label="音樂扭蛋">
       <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M5 24a19 19 0 0 1 38 0z" fill="var(--violet)"/><path d="M5 24a19 19 0 0 0 38 0z" fill="var(--card)"/><circle cx="24" cy="24" r="19" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M5 24h38" stroke="currentColor" stroke-width="2.4"/><path d="M21 31.5V20.5l9-2v9.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="19" cy="31.5" r="2.6" fill="currentColor"/><circle cx="28" cy="28" r="2.6" fill="currentColor"/><circle cx="16" cy="13" r="2.2" fill="#fff" opacity=".55"/></svg>
     </button>
@@ -2557,6 +2560,7 @@
     };
   }
 
+  // 小遊戲：用了 20 分鐘以上或做超過 20 題之後，才會隨機在扭蛋上方冒出一顆搖桿；點了（或自己去玩了）就重新計
   // 什麼時候提醒：近 5 題錯 3 題、同一處狂點、連續專心讀了 50 分鐘，或讀書時偶爾隨機；面板開著就不提醒，玩小遊戲時不打擾
   const SURPRISE = [
     ["all", "掉出一顆扭蛋！", "路過掉了一顆扭蛋，打開看看今天抽到什麼。"],
@@ -2572,7 +2576,22 @@
       studied = 0,
       lastAct = Date.now(),
       answers = [],
-      clicks = [];
+      clicks = [],
+      used = 0,
+      done = 0;
+    const GAME_AFTER = 20 * 60e3,
+      GAME_Q = 20;
+    const gameReset = () => {
+      used = 0;
+      done = 0;
+      $("#gmDrop").hidden = true;
+    };
+    // 達標後每次檢查 1/10 的機率冒出來（計時每 30 秒一次、答題每題一次）
+    const gameRoll = () => {
+      const g = $("#gmDrop");
+      if (!g || !g.hidden || location.hash.startsWith("#/play")) return;
+      if ((used >= GAME_AFTER || done > GAME_Q) && Math.random() < 1 / 10) g.hidden = false;
+    };
     const quiet = () =>
       location.hash.startsWith("#/play") || !$("#mxPop").hidden;
     const label = (text) => {
@@ -2592,6 +2611,10 @@
     };
     const init = () => {
       open = mountMusic();
+      $("#gmDrop").addEventListener("click", gameReset);
+      addEventListener("hashchange", () => {
+        if (location.hash.startsWith("#/play")) gameReset();
+      });
       const touch = () => (lastAct = Date.now());
       addEventListener("keydown", touch);
       addEventListener("scroll", touch, { passive: true });
@@ -2614,6 +2637,8 @@
         if (document.hidden || Date.now() - lastAct > IDLE || location.hash.startsWith("#/play"))
           return;
         studied += 30e3;
+        used += 30e3;
+        gameRoll();
         // 偶爾也隨機掉一顆：至少讀了 10 分鐘後，每 30 秒 1/30 的機率（平均再約 15 分鐘）
         if (studied >= 10 * 60e3 && studied < LONG && Math.random() < 1 / 30) {
           const [mood, text, reason] = SURPRISE[Math.floor(Math.random() * SURPRISE.length)];
@@ -2633,6 +2658,8 @@
     return {
       init,
       answer(ok) {
+        done++;
+        gameRoll();
         answers.push(ok);
         if (answers.length > 5) answers.shift();
         if (!ok && answers.filter((x) => !x).length >= 3) {
