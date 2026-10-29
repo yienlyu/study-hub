@@ -2653,7 +2653,7 @@
   "answer": [
    "A"
   ],
-  "explain": "生酮胺基酸的碳骨架變成 acetyl-CoA 或 acetoacetyl-CoA（酮體前驅物）；變成 pyruvate、α-KG、succinyl-CoA、fumarate、OAA 的才是生醣（可經 OAA 走糖質新生）。",
+  "explain": "生酮胺基酸的碳骨架變成 acetyl-CoA 或 acetoacetyl-CoA（酮體前驅物）；變成 pyruvate、α-KG、succinyl-CoA、fumarate、OAA 的才是生醣（可經 OAA 走糖質新生）；acetyl-CoA 不能淨生糖（為什麼：PDH 不可逆，acetyl-CoA 回不到 pyruvate；進 TCA 的兩個碳又以 2 CO₂ 離開，OAA 沒有淨增加。只有奇數碳脂肪酸最後的 propionyl-CoA → succinyl-CoA 能生糖。）",
   "topics": [
    "生酮／生醣胺基酸"
   ],
@@ -3571,7 +3571,7 @@
   "answer": [
    "B"
   ],
-  "explain": "Pyruvate、OAA 可走糖質新生；acetyl-CoA、acetoacetate 與偶數碳脂肪酸（stearate）不能淨生糖。",
+  "explain": "Pyruvate、OAA 可走糖質新生；acetyl-CoA、acetoacetate 與偶數碳脂肪酸（stearate）不能淨生糖（為什麼：PDH 不可逆，acetyl-CoA 回不到 pyruvate；進 TCA 的兩個碳又以 2 CO₂ 離開，OAA 沒有淨增加。只有奇數碳脂肪酸最後的 propionyl-CoA → succinyl-CoA 能生糖。）",
   "topics": [
    "生酮／生醣胺基酸"
   ],
@@ -3673,7 +3673,7 @@
   "answer": [
    "D"
   ],
-  "explain": "Leu 純生酮：碳骨架 → acetyl-CoA／acetoacetate（可做酮體、脂肪酸），胺基 → 尿素；不能淨生成葡萄糖。",
+  "explain": "Leu 純生酮：碳骨架 → acetyl-CoA／acetoacetate（可做酮體、脂肪酸），胺基 → 尿素；不能淨生成葡萄糖（為什麼：PDH 不可逆，acetyl-CoA 回不到 pyruvate；進 TCA 的兩個碳又以 2 CO₂ 離開，OAA 沒有淨增加。只有奇數碳脂肪酸最後的 propionyl-CoA → succinyl-CoA 能生糖。）",
   "topics": [
    "生酮／生醣胺基酸"
   ],

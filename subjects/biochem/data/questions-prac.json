@@ -806,7 +806,7 @@
       }
     ],
     "answer": ["C"],
-    "explain": "三條脂肪酸鏈經 β-oxidation 生成 acetyl-CoA 再形成酮體；一分子甘油則走糖質新生變成葡萄糖。",
+    "explain": "三條脂肪酸鏈經 β-oxidation 生成 acetyl-CoA 再形成酮體（acetyl-CoA 不能淨生糖（為什麼：PDH 不可逆，acetyl-CoA 回不到 pyruvate；進 TCA 的兩個碳又以 2 CO₂ 離開，OAA 沒有淨增加。只有奇數碳脂肪酸最後的 propionyl-CoA → succinyl-CoA 能生糖。））；一分子甘油則走糖質新生變成葡萄糖。",
     "topics": ["飢餓與糖尿病"],
     "pattern": "選正確／單一概念題"
   },
