@@ -2523,7 +2523,8 @@ GLUT4                                骨骼肌、心肌、脂肪細胞
 29. (A)
    (A) 正解，維生素 B3 缺乏可能導致癩皮病（pellagra）
    (B) 缺乏會神經病變和 Microcytic anaemia
-   (C) 缺乏會 Megaloblastic anemia (D) 缺乏會惡性貧血（pernicious anemia）
+   (C) 缺乏會 Megaloblastic anemia 
+   (D) 缺乏會惡性貧血（pernicious anemia）
    註：維生素 B3 是 NAD 與 NADP 的前驅物
 
 

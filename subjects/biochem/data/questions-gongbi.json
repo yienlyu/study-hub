@@ -3714,7 +3714,7 @@
       }
     ],
     "answer": ["A"],
-    "explain": "(A) 正解，維生素 B3 缺乏可能導致癩皮病（pellagra）\n(B) 缺乏會神經病變和 Microcytic anaemia\n(C) 缺乏會 Megaloblastic anemia (D) 缺乏會惡性貧血（pernicious anemia）註：維生素 B3 是 NAD 與 NADP 的前驅物",
+    "explain": "(A) 正解，維生素 B3 缺乏可能導致癩皮病（pellagra）\n(B) 缺乏會神經病變和 Microcytic anaemia\n(C) 缺乏會 Megaloblastic anemia \n(D) 缺乏會惡性貧血（pernicious anemia）註：維生素 B3 是 NAD 與 NADP 的前驅物",
     "topics": ["一碳單位與輔酶（THF／BH4／B12）"],
     "pattern": "選正確／單一概念題"
   },
