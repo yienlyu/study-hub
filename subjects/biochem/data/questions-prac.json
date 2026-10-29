@@ -3394,7 +3394,7 @@
     "id": "prac-114",
     "source": "陳顧中練習題",
     "num": 114,
-    "chapter": "ch18",
+    "chapter": "ch22",
     "type": "mcq",
     "stem": "牛磺酸（taurine）由何種胺基酸衍生？其主要功能為何？",
     "options": [
@@ -3424,7 +3424,7 @@
     "id": "prac-115",
     "source": "陳顧中練習題",
     "num": 115,
-    "chapter": "ch18",
+    "chapter": "ch22",
     "type": "mcq",
     "stem": "血基質分解產生的膽紅素（bilirubin），在血中以何種形式運送至肝臟？",
     "options": [
@@ -3454,7 +3454,7 @@
     "id": "prac-116",
     "source": "陳顧中練習題",
     "num": 116,
-    "chapter": "ch18",
+    "chapter": "ch22",
     "type": "mcq",
     "stem": "在人體 heme 生合成的起始反應中，ALA synthase 使用下列哪一組受質？",
     "options": [
@@ -3484,7 +3484,7 @@
     "id": "prac-117",
     "source": "陳顧中練習題",
     "num": 117,
-    "chapter": "ch18",
+    "chapter": "ch22",
     "type": "mcq",
     "stem": "下列關於人體 heme 合成的胞內位置，何者正確？",
     "options": [
@@ -3514,7 +3514,7 @@
     "id": "prac-118",
     "source": "陳顧中練習題",
     "num": 118,
-    "chapter": "ch18",
+    "chapter": "ch22",
     "type": "mcq",
     "stem": "Heme 分解時，heme oxygenase 最直接形成下列何種色素？",
     "options": [
@@ -3544,7 +3544,7 @@
     "id": "prac-119",
     "source": "陳顧中練習題",
     "num": 119,
-    "chapter": "ch18",
+    "chapter": "ch22",
     "type": "mcq",
     "stem": "未結合膽紅素（unconjugated bilirubin）運送至肝臟並接受結合反應，下列哪一組配對正確？",
     "options": [
@@ -3574,7 +3574,7 @@
     "id": "prac-120",
     "source": "陳顧中練習題",
     "num": 120,
-    "chapter": "ch18",
+    "chapter": "ch22",
     "type": "mcq",
     "stem": "血基質（heme）經 heme oxygenase 分解為膽綠素（biliverdin）的過程中，會釋出下列哪一種氣體？",
     "options": [
@@ -4684,7 +4684,7 @@
     "id": "prac-157",
     "source": "陳顧中練習題",
     "num": 157,
-    "chapter": "ch18",
+    "chapter": "ch22",
     "type": "mcq",
     "stem": "成熟紅血球因酵素缺陷而無法有效產生 NADPH，接受氧化壓力後發生溶血。釋出的 heme 由巨噬細胞正常分解，且肝臟結合反應能力未增加，下列哪一組結果最合理？",
     "options": [
@@ -4744,7 +4744,7 @@
     "id": "prac-159",
     "source": "陳顧中練習題",
     "num": 159,
-    "chapter": "ch18",
+    "chapter": "ch22",
     "type": "mcq",
     "stem": "某細胞的 guanidinoacetate methyltransferase（GAMT）受到選擇性抑制，其他肌酸代謝酵素正常。下列哪一組直接變化最合理？",
     "options": [
@@ -4774,7 +4774,7 @@
     "id": "prac-160",
     "source": "陳顧中練習題",
     "num": 160,
-    "chapter": "ch18",
+    "chapter": "ch22",
     "type": "mcq",
     "stem": "人體無法自行經 shikimate pathway 合成 phenylalanine，但可正常將 phenylalanine 轉為 tyrosine。若 PAH 嚴重缺陷，下列何種營養判斷最合理？",
     "options": [
@@ -4797,7 +4797,7 @@
     ],
     "answer": ["C"],
     "explain": "正常人體可由必需胺基酸 phenylalanine 形成 tyrosine。PAH 缺陷使此來源受限，tyrosine 對該患者呈現條件式必需的意義；人體沒有 shikimate pathway。",
-    "topics": ["先天胺基酸代謝疾病"],
+    "topics": ["必需胺基酸與前驅物"],
     "pattern": "選正確／單一概念題"
   }
 ]

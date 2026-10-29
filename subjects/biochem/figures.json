@@ -489,7 +489,7 @@
   },
   {
     "id": "slide-ch18-heme-synthesis",
-    "chapter": "ch18",
+    "chapter": "ch22",
     "title": "Heme 合成：粒線體 → 細胞質 → 粒線體",
     "topics": ["Heme 代謝"],
     "keywords": "heme synthesis delta-aminolevulinic acid synthase ALA PLP succinyl-CoA glycine porphobilinogen protoporphyrin ferrochelatase",
@@ -503,7 +503,7 @@
   },
   {
     "id": "slide-ch18-porphyrias",
-    "chapter": "ch18",
+    "chapter": "ch22",
     "title": "各步驟酵素缺陷對應的紫質症",
     "topics": ["Heme 代謝"],
     "keywords": "porphyria acute intermittent porphyria porphyria cutanea tarda erythropoietic protoporphyria",
@@ -517,7 +517,7 @@
   },
   {
     "id": "slide-ch18-heme-degradation",
-    "chapter": "ch18",
+    "chapter": "ch22",
     "title": "Heme 分解：biliverdin → bilirubin",
     "topics": ["Heme 代謝"],
     "keywords": "heme oxygenase biliverdin reductase unconjugated bilirubin conjugated UDP glucuronyltransferase CO",
@@ -531,7 +531,7 @@
   },
   {
     "id": "ring-sources",
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "title": "Purine 與 pyrimidine 環的原子來源",
     "topics": ["Purine de novo 合成", "Pyrimidine de novo 合成"],
     "keywords": "purine ring glycine glutamine aspartate formyl THF CO2 pyrimidine carbamoyl phosphate CPS II IMP UMP PRPP",
@@ -539,7 +539,7 @@
   },
   {
     "id": "purine-degradation",
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "title": "Purine 分解、回收與相關疾病",
     "topics": ["核苷酸分解與痛風", "Salvage pathway 與相關疾病"],
     "keywords": "xanthine oxidase allopurinol uric acid gout adenosine deaminase ADA SCID HGPRT Lesch-Nyhan salvage PRPP",
@@ -547,7 +547,7 @@
   },
   {
     "id": "dtmp-cycle",
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "title": "dTMP 合成與抗代謝藥",
     "topics": ["Ribonucleotide reductase 與 dTMP", "抗代謝藥物"],
     "keywords": "ribonucleotide reductase dATP thymidylate synthase methylene THF DHFR methotrexate 5-FU trimethoprim",

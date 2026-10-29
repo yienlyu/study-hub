@@ -3751,7 +3751,7 @@
   "id": "class-111",
   "source": "2026 課堂題",
   "section": "Ch18-3 共筆",
-  "chapter": "ch18",
+  "chapter": "ch22",
   "type": "mcq",
   "stem": "下列那一種非必需胺基酸在發育中兒童合成不足，特別需要自食物中攝取？（1121 醫檢師）",
   "options": [
@@ -3776,16 +3776,14 @@
    "B"
   ],
   "explain": "Arginine 是條件式必需胺基酸：發育中兒童合成量不夠（考古出過）。條件式必需共 6 個：Arg、Cys、Gln、Gly、Pro、Tyr。",
-  "topics": [
-   "生酮／生醣胺基酸"
-  ],
+  "topics": ["必需胺基酸與前驅物"],
   "pattern": "選正確／單一概念題"
  },
  {
   "id": "class-112",
   "source": "2026 課堂題",
   "section": "Ch18-3 共筆",
-  "chapter": "ch18",
+  "chapter": "ch22",
   "type": "mcq",
   "stem": "下列那一個是條件式必需胺基酸（conditionally essential amino acid）？（111-1 營養）",
   "options": [
@@ -3810,16 +3808,14 @@
    "B"
   ],
   "explain": "Tyr 可由 Phe 經 phenylalanine hydroxylase 轉來 → 條件式必需。Met、Phe、Ile 是必需胺基酸（口訣 3T2LIPHMV 裡的 Tyr 要特別小心）。",
-  "topics": [
-   "生酮／生醣胺基酸"
-  ],
+  "topics": ["必需胺基酸與前驅物"],
   "pattern": "選正確／單一概念題"
  },
  {
   "id": "class-113",
   "source": "2026 課堂題",
   "section": "Ch18-3 共筆",
-  "chapter": "ch18",
+  "chapter": "ch22",
   "type": "mcq",
   "stem": "下列何者兼具必需胺基酸（essential amino acid）及生酮性胺基酸（ketogenic amino acid）特性？（111-1 醫學）",
   "options": [
@@ -3844,16 +3840,14 @@
    "D"
   ],
   "explain": "Leu、Lys 純生酮且都是必需胺基酸。His 必需但生醣；Tyr 生酮又生醣但屬條件式必需；Asp 非必需、生醣。",
-  "topics": [
-   "生酮／生醣胺基酸"
-  ],
+  "topics": ["必需胺基酸與前驅物"],
   "pattern": "選正確／單一概念題"
  },
  {
   "id": "class-114",
   "source": "2026 課堂題",
   "section": "Ch18-3 共筆",
-  "chapter": "ch18",
+  "chapter": "ch22",
   "type": "mcq",
   "stem": "在人體細胞中，下列何種胺基酸是主要用來製造脯胺酸（proline）的前驅物？（1152 醫師）",
   "options": [
@@ -3878,16 +3872,14 @@
    "C"
   ],
   "explain": "Pro 屬 α-ketoglutarate（glutamate）家族：Glu、Gln、Pro、Arg。",
-  "topics": [
-   "胺基酸衍生物"
-  ],
+  "topics": ["必需胺基酸與前驅物"],
   "pattern": "選正確／單一概念題"
  },
  {
   "id": "class-115",
   "source": "2026 課堂題",
   "section": "Ch18-3 共筆",
-  "chapter": "ch18",
+  "chapter": "ch22",
   "type": "mcq",
   "stem": "人體之脯胺酸（proline）或是精胺酸（arginine）主要由下列何種胺基酸代謝轉換形成？（1131 醫師）",
   "options": [
@@ -3912,16 +3904,14 @@
    "A"
   ],
   "explain": "同上：α-KG 家族 Glu → Pro、Arg（經 ornithine）。只要背 α-KG、pyruvate、OAA 三個家族，分解與合成進出位置一樣。",
-  "topics": [
-   "胺基酸衍生物"
-  ],
+  "topics": ["必需胺基酸與前驅物"],
   "pattern": "選正確／單一概念題"
  },
  {
   "id": "class-116",
   "source": "2026 課堂題",
   "section": "Ch18-3 共筆",
-  "chapter": "ch18",
+  "chapter": "ch22",
   "type": "mcq",
   "stem": "有關 arginine 代謝合成體內具生物活性物質之敘述，下列何者正確？（1152 營養師）",
   "options": [
@@ -3955,7 +3945,7 @@
   "id": "class-117",
   "source": "2026 課堂題",
   "section": "Ch18-3 共筆",
-  "chapter": "ch18",
+  "chapter": "ch22",
   "type": "mcq",
   "stem": "有關轉甲基作用（transmethylation）在體內胺基酸代謝過程的敘述，下列何者正確？（1151 保健）",
   "options": [
@@ -3980,16 +3970,14 @@
    "C"
   ],
   "explain": "PE → PC 用 3 個 AdoMet（Ch21），GAA → creatine 用 1 個 AdoMet。PKU 是羥化（BH₄）缺陷；homocysteine → Met 要 N⁵-methyl-THF 與 B₁₂ 轉甲基。",
-  "topics": [
-   "一碳單位與輔酶（THF／BH4／B12）"
-  ],
+  "topics": ["胺基酸衍生物"],
   "pattern": "選正確／單一概念題"
  },
  {
   "id": "class-118",
   "source": "2026 課堂題",
   "section": "Ch18-3 共筆",
-  "chapter": "ch18",
+  "chapter": "ch22",
   "type": "mcq",
   "stem": "下列何者胺基酸與肌酸（creatine）的生合成有關？（1132 技）",
   "options": [
@@ -4023,7 +4011,7 @@
   "id": "class-119",
   "source": "2026 課堂題",
   "section": "Ch18-3 共筆",
-  "chapter": "ch18",
+  "chapter": "ch22",
   "type": "mcq",
   "stem": "下列何種胺基酸和 creatine 的生合成較有關？（112-2 醫檢師）",
   "options": [
@@ -4057,7 +4045,7 @@
   "id": "class-120",
   "source": "2026 課堂題",
   "section": "Ch18-3 共筆",
-  "chapter": "ch18",
+  "chapter": "ch22",
   "type": "mcq",
   "stem": "在動物中，血基質（heme）生合成之主要前驅物之一是：（111-2 醫師）",
   "options": [
@@ -4091,7 +4079,7 @@
   "id": "class-121",
   "source": "2026 課堂題",
   "section": "Ch18-3 共筆",
-  "chapter": "ch18",
+  "chapter": "ch22",
   "type": "mcq",
   "stem": "下列有關琥珀酸–甘胺酸路徑（succinate-glycine pathway）的敘述，何者錯誤？（1121 醫師）",
   "options": [
@@ -4125,7 +4113,7 @@
   "id": "class-122",
   "source": "2026 課堂題",
   "section": "Ch18-3 共筆",
-  "chapter": "ch18",
+  "chapter": "ch22",
   "type": "mcq",
   "stem": "下列何種酵素主要參與將原血紅素（heme）代謝為膽綠素（biliverdin）？（1141 醫師）",
   "options": [
@@ -4159,7 +4147,7 @@
   "id": "class-123",
   "source": "2026 課堂題",
   "section": "Ch18-3 共筆",
-  "chapter": "ch18",
+  "chapter": "ch22",
   "type": "mcq",
   "stem": "膽紅素（bilirubin）在肝臟代謝過程中主要與那一種物質結合？（1141 醫檢師）",
   "options": [
@@ -4193,7 +4181,7 @@
   "id": "class-124",
   "source": "2026 課堂題",
   "section": "Ch18-3 共筆",
-  "chapter": "ch18",
+  "chapter": "ch22",
   "type": "mcq",
   "stem": "膽紅素（bilirubin）在肝臟可經由下列何種酵素，將未結合膽紅素（unconjugated bilirubin）轉成結合膽紅素（conjugated bilirubin）？（1121 醫檢師）",
   "options": [

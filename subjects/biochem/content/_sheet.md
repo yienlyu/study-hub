@@ -131,8 +131,17 @@
 - **PKU**（PAH 或 BH₄ 再生）、**albinism**（tyrosinase）、**alkaptonuria**（homogentisate dioxygenase）、**MSUD**（BCKA DH）、**homocystinuria**（cystathionine β-synthase）。
 - Heme：Gly + succinyl-CoA（ALA synthase）；分解產生 **CO**、bilirubin 由 **albumin** 運送。
 
-## 核苷酸代謝與藥物
+## 胺基酸生合成與 heme
 @ch ch22
+@fig slide-ch18-heme-degradation
+- 必需 9：**3TLIPHMV**，但 **Tyr 是條件式必需**（Phe 轉來）；兒童要補 **Arg**；必需 + 生酮 = **Leu**。
+- 前驅物：**α-KG → Glu、Gln、Pro、Arg**；**3-PG → Ser → Gly、Cys**；OAA → Asp、Asn；pyruvate → Ala。
+- Cys：硫來自 **Met**、骨架來自 **Ser**（cystathionine β-synthase，PLP）；**creatine = Gly + Arg + SAM**；**taurine → 膽鹽**。
+- Heme：**Gly + succinyl-CoA**（ALA synthase，**PLP**），**粒線體完成**；分解**先脾後肝**：heme oxygenase（**CO**）→ biliverdin → bilirubin（**albumin**）→ 肝 **UDP-glucuronyltransferase**。
+- B₁₂ 中間是**鈷**、heme 是**鐵**。
+
+## 核苷酸代謝與藥物（期中考後，不在期中範圍）
+@ch ch22n
 @fig dtmp-cycle
 - Purine：在 **PRPP** 上蓋環 → **IMP**；原料 Gly、Gln、Asp、formyl-THF、CO₂（**不用 Asn**）。
 - Pyrimidine：先做環（**CPS II 細胞質**、ATCase：CTP 抑制、ATP 活化）再接 PRPP。

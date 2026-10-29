@@ -1191,7 +1191,7 @@
  {
   "id": "new-037",
   "source": "模擬新題",
-  "chapter": "ch22",
+  "chapter": "ch22n",
   "type": "mcq",
   "stem": "Methotrexate blocks DNA synthesis in rapidly dividing cells by inhibiting:",
   "options": [
@@ -1225,7 +1225,7 @@
  {
   "id": "new-038",
   "source": "模擬新題",
-  "chapter": "ch22",
+  "chapter": "ch22n",
   "type": "mcq",
   "stem": "In adenosine deaminase (ADA) deficiency, lymphocytes fail to proliferate because:",
   "options": [
@@ -1258,7 +1258,7 @@
  {
   "id": "new-039",
   "source": "模擬新題",
-  "chapter": "ch22",
+  "chapter": "ch22n",
   "type": "mcq",
   "stem": "Allopurinol lowers uric acid production because it:",
   "options": [
@@ -1291,7 +1291,7 @@
  {
   "id": "new-040",
   "source": "模擬新題",
-  "chapter": "ch22",
+  "chapter": "ch22n",
   "type": "mcq",
   "stem": "A boy with hyperuricemia, choreoathetosis, and self-mutilating behavior most likely has a complete deficiency of:",
   "options": [
@@ -1318,6 +1318,171 @@
   "explain": "Lesch-Nyhan syndrome：HGPRT 完全缺乏、X-linked recessive；salvage 失效 → PRPP 堆積、purine 合成與尿酸大增。",
   "topics": [
    "Salvage、Lesch-Nyhan 與 SCID"
+  ],
+  "pattern": "臨床情境題"
+ },
+ {
+  "id": "new-041",
+  "source": "模擬新題",
+  "chapter": "ch22",
+  "type": "mcq",
+  "stem": "In humans, which amino acid is synthesized from the glycolytic intermediate 3-phosphoglycerate?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Serine"
+   },
+   {
+    "k": "B",
+    "t": "Alanine"
+   },
+   {
+    "k": "C",
+    "t": "Aspartate"
+   },
+   {
+    "k": "D",
+    "t": "Glutamine"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "3-phosphoglycerate → serine（氧化、轉胺、去磷酸三步）→ glycine、cysteine。Ala 來自 pyruvate、Asp 來自 OAA、Gln 來自 α-KG。",
+  "topics": [
+   "必需胺基酸與前驅物"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-042",
+  "source": "模擬新題",
+  "chapter": "ch22",
+  "type": "mcq",
+  "stem": "Creatine synthesis requires all of the following EXCEPT:",
+  "options": [
+   {
+    "k": "A",
+    "t": "S-adenosylmethionine (SAM)"
+   },
+   {
+    "k": "B",
+    "t": "Tyrosine"
+   },
+   {
+    "k": "C",
+    "t": "Glycine"
+   },
+   {
+    "k": "D",
+    "t": "Arginine"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Creatine = Gly + Arg（AGAT，腎）→ guanidinoacetate → SAM 給甲基（GAMT，肝）。Tyr 不參與。",
+  "topics": [
+   "胺基酸衍生物"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "new-043",
+  "source": "模擬新題",
+  "chapter": "ch22",
+  "type": "mcq",
+  "stem": "In the human transsulfuration pathway that forms cysteine, the sulfur atom and the carbon skeleton come, respectively, from:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Inorganic sulfate; serine"
+   },
+   {
+    "k": "B",
+    "t": "Homocysteine; glycine"
+   },
+   {
+    "k": "C",
+    "t": "Methionine; serine"
+   },
+   {
+    "k": "D",
+    "t": "Serine; methionine"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Met → SAM → homocysteine；homocysteine + serine →（cystathionine β-synthase，PLP）→ cystathionine → Cys + α-ketobutyrate。硫來自 Met、碳骨架與胺基來自 Ser。植物、細菌才用無機硫。",
+  "topics": [
+   "必需胺基酸與前驅物"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-044",
+  "source": "模擬新題",
+  "chapter": "ch22",
+  "type": "mcq",
+  "stem": "The metal ions held at the center of the tetrapyrrole ring of cobalamin (vitamin B₁₂) and of heme are, respectively:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Iron; cobalt"
+   },
+   {
+    "k": "B",
+    "t": "Magnesium; iron"
+   },
+   {
+    "k": "C",
+    "t": "Cobalt; magnesium"
+   },
+   {
+    "k": "D",
+    "t": "Cobalt; iron"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "老師：B₁₂（cobalamin）中間是鈷、heme 中間是鐵（葉綠素才是 Mg）。",
+  "topics": [
+   "Heme 與膽紅素"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-045",
+  "source": "模擬新題",
+  "chapter": "ch22",
+  "type": "mcq",
+  "stem": "A 3-day-old infant develops jaundice with elevated unconjugated bilirubin. Immaturity of which liver enzyme is the most likely cause?",
+  "options": [
+   {
+    "k": "A",
+    "t": "UDP-glucuronyltransferase"
+   },
+   {
+    "k": "B",
+    "t": "Heme oxygenase"
+   },
+   {
+    "k": "C",
+    "t": "Biliverdin reductase"
+   },
+   {
+    "k": "D",
+    "t": "δ-Aminolevulinate synthase"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "新生兒肝臟的 UDP-glucuronyltransferase 未成熟 → bilirubin 無法與 UDP-glucuronate 結合成 diglucuronide → 未結合 bilirubin ↑（通常一兩個月內自行消失）。",
+  "topics": [
+   "Heme 與膽紅素"
   ],
   "pattern": "臨床情境題"
  }

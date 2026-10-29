@@ -4,7 +4,7 @@
   "short": "生化",
   "term": "115-1 期中考",
   "examDate": "2026-10-30",
-  "description": "脂質代謝、訊息傳遞、器官間代謝整合，以及胺基酸與核苷酸代謝。整合 2026 上課 slides、113 共筆考古、114 期中考古與國考課後練習題。",
+  "description": "脂質代謝、訊息傳遞、器官間代謝整合，以及胺基酸代謝、胺基酸生合成與 heme。整合 2026 上課 slides、113 共筆考古、114 期中考古與國考課後練習題。",
   "color": "#b0532a",
   "icon": "🧪",
   "questionFiles": [
@@ -61,6 +61,12 @@
         "ch23",
         "ch18",
         "ch22"
+      ]
+    },
+    {
+      "title": "期中考後內容（非期中考範圍）",
+      "chapters": [
+        "ch22n"
       ]
     }
   ],
@@ -136,11 +142,19 @@
     },
     {
       "id": "ch22",
-      "title": "胺基酸、核苷酸生合成",
-      "en": "Ch22 · Biosynthesis of amino acids & nucleotides",
+      "title": "胺基酸生合成、紫質與 heme",
+      "en": "Ch22 · Amino acids, porphyrins & heme",
       "teacher": "陳顧中",
       "week": "W5",
       "slides": true
+    },
+    {
+      "id": "ch22n",
+      "title": "核苷酸代謝（期中考後）",
+      "en": "Ch22 · Nucleotide metabolism",
+      "teacher": "陳顧中",
+      "week": "期中後",
+      "slides": false
     }
   ],
   "sheet": "content/_sheet.md",
@@ -167,8 +181,8 @@
       "PLP、BH₄、SAM、biotin、B₁₂ 該配哪個反應；藥物配標的（5-FU、methotrexate、statin、allopurinol）；疾病配缺乏的酵素。整理成表格最有效。"
     ],
     [
-      "Ch18、Ch22 去年題數最多，現在已上完。",
-      "去年 Ch18 有 86 題、Ch22 有 47 題，佔共筆六成；陳顧中老師說 Ch18 是他三章中最愛考的（PKU 第一、黑尿症第三），Ch22 國考出現率最低，核苷酸部分期中考後才上。"
+      "Ch22 只考胺基酸生合成與 heme，核苷酸不考。",
+      "期中範圍以 Ch18-3 Ch22 slides（p46–77）與 10/22 錄影為準：必需胺基酸、六大前驅物、Ser／Gly／Cys、creatine、taurine、shikimate、porphyrin 與 heme 合成／分解、黃疸。陳顧中老師說「核苷酸的部分就由下一個老師來講」（期中考後），所以 113 共筆 Ch22 的 47 題（全是核苷酸）移到「核苷酸代謝（期中考後）」，不進模擬考。Ch18 是他三章中最愛考的（PKU 第一、黑尿症第三），Ch22 國考出現率最低。"
     ],
     [
       "Ch23 的國考題會整題出現。",

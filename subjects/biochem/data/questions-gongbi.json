@@ -2817,7 +2817,7 @@
     "source": "113 共筆考古",
     "section": "Ch18",
     "num": 1,
-    "chapter": "ch18",
+    "chapter": "ch22",
     "type": "mcq",
     "stem": "Which of the following description about heme catabolism is correct?",
     "options": [
@@ -3909,7 +3909,7 @@
     "source": "113 共筆考古",
     "section": "Ch18",
     "num": 36,
-    "chapter": "ch18",
+    "chapter": "ch22",
     "type": "mcq",
     "stem": "Which of the following amino acid is not the essential amino acid?",
     "options": [
@@ -3932,7 +3932,7 @@
     ],
     "answer": ["B"],
     "explain": "九種必需胺基酸：His、Ile、Leu、Lys、Met、Phe、Thr、Trp、Val（兒童另需 Arg）；老師的口訣是「3T2LIP + HMV」。Proline 不在其中，是非必需胺基酸（由 glutamate 經 glutamate-γ-semialdehyde 合成）。",
-    "topics": ["生酮／生醣胺基酸"],
+    "topics": ["必需胺基酸與前驅物"],
     "pattern": "選錯誤（否定）題"
   },
   {
@@ -3971,7 +3971,7 @@
     "source": "113 共筆考古",
     "section": "Ch18",
     "num": 38,
-    "chapter": "ch18",
+    "chapter": "ch22",
     "type": "mcq",
     "stem": "Which of the following derivate is not directly came from Glycine metabolism?",
     "options": [
@@ -4002,7 +4002,7 @@
     "source": "113 共筆考古",
     "section": "Ch18",
     "num": 39,
-    "chapter": "ch18",
+    "chapter": "ch22",
     "type": "mcq",
     "stem": "Which of the following compound does not have the porphyrin structure?",
     "options": [
@@ -4406,7 +4406,7 @@
     "source": "113 共筆考古",
     "section": "Ch18",
     "num": 52,
-    "chapter": "ch18",
+    "chapter": "ch22",
     "type": "mcq",
     "stem": "Which of the following compounds are directly derived from Glycine metabolism?\n1. Glutathione 2. Creatine 3. Bile acids 4. Porphyrin 5. Cysteine",
     "options": [
@@ -4437,7 +4437,7 @@
     "source": "113 共筆考古",
     "section": "Ch18",
     "num": 53,
-    "chapter": "ch18",
+    "chapter": "ch22",
     "type": "mcq",
     "stem": "Through which of the following reaction in human body, the precursors of non-essential amino acids could be generated from intermediates in citric acid cycle?",
     "options": [
@@ -4460,7 +4460,7 @@
     ],
     "answer": ["A"],
     "explain": "Ex. α-ketoglutarate 經 Transamination 變為 Glutamate",
-    "topics": ["轉胺與 PLP", "生酮／生醣胺基酸"],
+    "topics": ["必需胺基酸與前驅物"],
     "pattern": "選正確／單一概念題"
   },
   {
@@ -4933,7 +4933,7 @@
     "source": "113 共筆考古",
     "section": "Ch18",
     "num": 70,
-    "chapter": "ch18",
+    "chapter": "ch22",
     "type": "mcq",
     "stem": "Which of the following gas molecules is generated from catabolism of heme?",
     "options": [
@@ -5305,7 +5305,7 @@
     "source": "113 共筆考古",
     "section": "Ch18",
     "num": 82,
-    "chapter": "ch18",
+    "chapter": "ch22",
     "type": "mcq",
     "stem": "Which of the following amino acid is a direct derivative from 3-phosphoglycerate, and is also a precursor for other non-essential amino acids synthase?",
     "options": [
@@ -5328,7 +5328,7 @@
     ],
     "answer": ["A"],
     "explain": "3-Phosphoglycerate →（3-phosphoglycerate dehydrogenase）→ 3-phosphohydroxypyruvate →（轉胺）→ 3-phosphoserine →（phosphatase）→ Serine。\nSerine 再生成 glycine（serine hydroxymethyltransferase，需 THF）與 cysteine（轉硫作用，加 homocysteine 的硫）。",
-    "topics": ["生酮／生醣胺基酸", "胺基酸衍生物"],
+    "topics": ["必需胺基酸與前驅物"],
     "pattern": "選正確／單一概念題"
   },
   {
@@ -5367,7 +5367,7 @@
     "source": "113 共筆考古",
     "section": "Ch18",
     "num": 84,
-    "chapter": "ch18",
+    "chapter": "ch22",
     "type": "mcq",
     "stem": "Which of the following amino acid syntheses is not through shikimic acid pathways in plant cells?",
     "options": [
@@ -5390,7 +5390,7 @@
     ],
     "answer": ["C"],
     "explain": "Shikimic acid pathways 可合成芳香族胺基酸，發生於細菌和植物內（人體外）",
-    "topics": ["胺基酸衍生物"],
+    "topics": ["必需胺基酸與前驅物"],
     "pattern": "選錯誤（否定）題"
   },
   {
@@ -5398,7 +5398,7 @@
     "source": "113 共筆考古",
     "section": "Ch18",
     "num": 85,
-    "chapter": "ch18",
+    "chapter": "ch22",
     "type": "mcq",
     "stem": "Which of the following compound does not directly participate in porphyrin generation?",
     "options": [
@@ -5460,7 +5460,7 @@
     "source": "113 共筆考古",
     "section": "Ch18",
     "num": 87,
-    "chapter": "ch18",
+    "chapter": "ch22",
     "type": "mcq",
     "stem": "Serum albumin can delivery which of the following compound to liver for further heme catabolism?",
     "options": [
@@ -5491,7 +5491,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 1,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following is the correct structure for PRPP?",
     "options": [
@@ -5523,7 +5523,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 2,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "The ten enzyme activities that convert PRPP to inosinic acid (IMP) are part of a multienzyme complex known as the",
     "options": [
@@ -5554,7 +5554,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 3,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following is a product of xanthine dehydrogenase?",
     "options": [
@@ -5585,7 +5585,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 4,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which enzyme of the pyrimidine synthesis pathway is the most highly regulated?",
     "options": [
@@ -5617,7 +5617,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 5,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following best explains the enzyme(s) involve in ribonucleotide reduction?",
     "options": [
@@ -5648,7 +5648,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 6,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following describes the activity or regulation of E. coli ribonucleotide reductase is incorrect?",
     "options": [
@@ -5680,7 +5680,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 7,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following describes the coenzyme involved with thymidylate synthase?",
     "options": [
@@ -5711,7 +5711,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 8,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "The following molecule, 5-fluorodeoxyuridylate (FdUMP), is an irreversible inhibitor of which enzyme of nucleotide metabolism?",
     "options": [
@@ -5747,7 +5747,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 9,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of following is the deficiency of Lesch-Nyhan Syndrome?",
     "options": [
@@ -5778,7 +5778,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 10,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of following enzyme deficiency in human will induce SCID (severe-combined immunodeficiency disease)?",
     "options": [
@@ -5809,7 +5809,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 11,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of following enzyme of HIV is the target of AZT?",
     "options": [
@@ -5840,7 +5840,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 12,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following correctly describes the salvage pathway of nucleic acid metabolism?",
     "options": [
@@ -5871,7 +5871,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 13,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following amino acids is involved in purine synthesis?",
     "options": [
@@ -5902,7 +5902,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 14,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following enzyme deficiency might not cause Gout?",
     "options": [
@@ -5934,7 +5934,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 15,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following drug are not targeted to enzyme in dTMP synthesis?",
     "options": [
@@ -5965,7 +5965,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 16,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following are converted by ribonucleotide reductase?",
     "options": [
@@ -5996,7 +5996,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 17,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following molecule will inhibit GMP synthesis from IMP?",
     "options": [
@@ -6027,7 +6027,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 18,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the enzyme attacked by viral infection might damage immune system to induce human extinction?",
     "options": [
@@ -6058,7 +6058,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 19,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following molecule will inhibit enzyme activity of ribonucleotide reductase?",
     "options": [
@@ -6089,7 +6089,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 20,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following nucleotide metabolism will convert to succinyl-CoA and entry into urea cycle?",
     "options": [
@@ -6121,7 +6121,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 21,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following molecule is a prodrug?",
     "options": [
@@ -6152,7 +6152,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 22,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following structure is not involved in nucleotide?",
     "options": [
@@ -6183,7 +6183,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 23,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of following is the metabolic product of purine?",
     "options": [
@@ -6214,7 +6214,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 24,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of following description of gout is incorrect?",
     "options": [
@@ -6246,7 +6246,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 25,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of following description of Lesch-Nyhan Syndrome is incorrect?",
     "options": [
@@ -6277,7 +6277,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 26,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of following description of SCID (severe-combined immunodeficiency disease) is incorrect?",
     "options": [
@@ -6311,7 +6311,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 27,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of following is involved in the purine synthesis but not in pyrimidine synthesis?",
     "options": [
@@ -6342,7 +6342,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 28,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of following is not needed in the dTMP synthesis?",
     "options": [
@@ -6373,7 +6373,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 29,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of following enzyme can convert adenosine to Inosine?",
     "options": [
@@ -6404,7 +6404,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 30,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of following drug have different inhibition function with others?",
     "options": [
@@ -6435,7 +6435,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 31,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of following is not the substrate of Ribonucleotide reductase?",
     "options": [
@@ -6466,7 +6466,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 32,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of following description of allopurinol is incorrect?",
     "options": [
@@ -6497,7 +6497,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 33,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following description of AZT is incorrect?",
     "options": [
@@ -6529,7 +6529,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 34,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following description of the salvage pathway is incorrect?",
     "options": [
@@ -6560,7 +6560,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 35,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following drug is not an inhibitor of dihydrofolate reductase?",
     "options": [
@@ -6591,7 +6591,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 36,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following is not the metabolic product of purine?",
     "options": [
@@ -6622,7 +6622,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 37,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following enzyme dysfunction is not the cause of gout?",
     "options": [
@@ -6653,7 +6653,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 38,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following description of SCID (severe combined immunodeficiency disease) is correct?",
     "options": [
@@ -6686,7 +6686,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 39,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following amino acid is not involved in the synthesis of the purine ring?",
     "options": [
@@ -6717,7 +6717,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 40,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following is involved in the synthesis of dTMP from dUMP?",
     "options": [
@@ -6748,7 +6748,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 41,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following is the substrate of ribonucleotide reductase?",
     "options": [
@@ -6779,7 +6779,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 42,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following description of allopurinol is incorrect?",
     "options": [
@@ -6810,7 +6810,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 43,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following description of AZT is incorrect?",
     "options": [
@@ -6841,7 +6841,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 44,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following description of the salvage pathway is correct?",
     "options": [
@@ -6872,7 +6872,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 45,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following drug is the inhibitor of dihydrofolate reductase?",
     "options": [
@@ -6903,7 +6903,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 46,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following prodrug is converted by thymidine kinase of HSV to inhibit replication of virus?",
     "options": [
@@ -6934,7 +6934,7 @@
     "source": "113 共筆考古",
     "section": "Ch22",
     "num": 47,
-    "chapter": "ch22",
+    "chapter": "ch22n",
     "type": "mcq",
     "stem": "Which of the following drug have a different inhibition target from others?",
     "options": [
