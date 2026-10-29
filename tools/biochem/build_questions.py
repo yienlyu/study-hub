@@ -224,6 +224,8 @@ for k, v in F2.items():
     else:
         F[k] = v
 
+TYPOS = [('academia', 'acidemia')]
+
 out, seen = [], {}
 for r in raw:
     key = (r['tag'], r['num'])
@@ -250,6 +252,11 @@ for r in raw:
         for x, y in fx.get('explain_sub', []):
             e = e.replace(x, y)
         q['explain'] = e.strip()
+    # 共筆原檔的拼字錯誤
+    for x, y in TYPOS:
+        q['stem'] = q['stem'].replace(x, y)
+        q['options'] = [{**o, 't': o['t'].replace(x, y)} for o in q['options']]
+        q['explain'] = q['explain'].replace(x, y)
     if len(q['answer']) > 1:
         q['note'] = f"共筆公布的答案為 {'、'.join(q['answer'])}（複選或送分），選任一個都算對。"
     if fx.get('note'): q['note'] = fx['note']

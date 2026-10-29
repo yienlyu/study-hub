@@ -4315,7 +4315,7 @@
     "num": 49,
     "chapter": "ch18",
     "type": "mcq",
-    "stem": "Defect in which of the following amino acid metabolism, belonging to essential and ketogenic amino acid, may result in maple syrup urine disease and Methylmalonic academia formation?",
+    "stem": "Defect in which of the following amino acid metabolism, belonging to essential and ketogenic amino acid, may result in maple syrup urine disease and Methylmalonic acidemia formation?",
     "options": [
       {
         "k": "A",
@@ -4335,7 +4335,7 @@
       }
     ],
     "answer": ["D"],
-    "explain": "(1) 因代謝異常（缺乏 Branched-chain α-keto acid dehydrogenase complex, BCKDC）而造成 maple syrup urine disease 的胺基酸為 Branched-Chain Amino Acid，包括 valine、leucine、isoleucine\n(2) 因代謝異常（缺乏 methylmalonyl-coA mutase）而造成 Methylmalonic academia 的胺基酸有isoleucine、methionine、threonine、valine",
+    "explain": "(1) 因代謝異常（缺乏 Branched-chain α-keto acid dehydrogenase complex, BCKDC）而造成 maple syrup urine disease 的胺基酸為 Branched-Chain Amino Acid，包括 valine、leucine、isoleucine\n(2) 因代謝異常（缺乏 methylmalonyl-coA mutase）而造成 Methylmalonic acidemia 的胺基酸有isoleucine、methionine、threonine、valine",
     "topics": ["先天胺基酸代謝疾病", "生酮／生醣胺基酸"],
     "pattern": "臨床情境題"
   },
@@ -4904,7 +4904,7 @@
     "num": 69,
     "chapter": "ch18",
     "type": "mcq",
-    "stem": "Defect in which of the following amino acid metabolism is highly related to methylmalonic academia and maple syrup urine disease formation?",
+    "stem": "Defect in which of the following amino acid metabolism is highly related to methylmalonic acidemia and maple syrup urine disease formation?",
     "options": [
       {
         "k": "A",
@@ -4924,7 +4924,7 @@
       }
     ],
     "answer": ["B"],
-    "explain": "類第 49 題\n(1) 因代謝異常（缺乏 methylmalonyl-CoA mutase）而造成 Methylmalonic academia 的胺基酸有isoleucine、methionine、threonine、valine（口訣：IMTV）\n(2) 因代謝異常（缺乏 Branched-chain α-keto acid dehydrogenase complex，BCKDC）而造成 maple syrup urine disease 的胺基酸為 Branched-Chain Amino Acid，包括 valine、leucine、isoleucine",
+    "explain": "類第 49 題\n(1) 因代謝異常（缺乏 methylmalonyl-CoA mutase）而造成 Methylmalonic acidemia 的胺基酸有isoleucine、methionine、threonine、valine（口訣：IMTV）\n(2) 因代謝異常（缺乏 Branched-chain α-keto acid dehydrogenase complex，BCKDC）而造成 maple syrup urine disease 的胺基酸為 Branched-Chain Amino Acid，包括 valine、leucine、isoleucine",
     "topics": ["先天胺基酸代謝疾病"],
     "pattern": "臨床情境題"
   },
@@ -5156,7 +5156,7 @@
     "options": [
       {
         "k": "A",
-        "t": "Vitamin B12 vs. Methylmalonic academia"
+        "t": "Vitamin B12 vs. Methylmalonic acidemia"
       },
       {
         "k": "B",
