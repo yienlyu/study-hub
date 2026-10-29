@@ -133,6 +133,7 @@
 
 ## 胺基酸生合成與 heme
 @ch ch22
+@fig heme-synthesis-map
 @fig slide-ch18-heme-degradation
 - 必需 9：**3TLIPHMV**，但 **Tyr 是條件式必需**（Phe 轉來）；兒童要補 **Arg**；必需 + 生酮 = **Leu**。
 - 前驅物：**α-KG → Glu、Gln、Pro、Arg**；**3-PG → Ser → Gly、Cys**；OAA → Asp、Asn；pyruvate → Ala。
