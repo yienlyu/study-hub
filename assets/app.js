@@ -11,7 +11,7 @@
  *   #/report?...                     回報 / 回饋
  *   #/me                             學習軌跡 / 登入
  *   #/play[/:game]                   小遊戲（sudoku | killer | nonogram | minesweeper）；彩蛋，選單不列，入口見 easter eggs
- *   （讀書配樂扭蛋沒有自己的頁面：卡關、煩躁、讀很久時右下角冒出提示，見 MoodWatch）
+ *   （音樂扭蛋沒有自己的頁面：卡關、煩躁、讀很久時右下角冒出提示，見 MoodWatch）
  */
 (() => {
   "use strict";
@@ -2302,7 +2302,7 @@
     }).join("")}</div>`;
   const gameHintNote = `<p class="game-note small">${ic("help")}<span>四種都只有 <b>Expert</b> 難度。卡關時按「提示」，會告訴你下一步可以從哪一格推起；數織和踩地雷的提示還會先幫你找出放錯的格子 / 插錯的旗。</span></p>`;
 
-  // ------------------------------------------------------------ 讀書配樂扭蛋：選狀態 → 抽一首；連結都是搜尋頁，不會失效
+  // ------------------------------------------------------------ 音樂扭蛋：選狀態 → 抽一首；連結都是搜尋頁，不會失效
   const MOODS = [
     { id: "all", name: "都可以" },
     { id: "focus", name: "要專心讀書" },
@@ -2386,12 +2386,12 @@
   };
   // 右下角一直掛著一顆扭蛋，點了展開成浮動面板；看起來卡關、煩躁或讀很久時，扭蛋會晃一晃、亮個小點提醒
   const musicPanel = () => `
-    <button type="button" class="mx-nudge" id="mxNudge" title="讀書配樂扭蛋" aria-label="讀書配樂扭蛋">
+    <button type="button" class="mx-nudge" id="mxNudge" title="音樂扭蛋" aria-label="音樂扭蛋">
       <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M5 24a19 19 0 0 1 38 0z" fill="var(--violet)"/><path d="M5 24a19 19 0 0 0 38 0z" fill="var(--card)"/><circle cx="24" cy="24" r="19" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M5 24h38" stroke="currentColor" stroke-width="2.4"/><path d="M21 31.5V20.5l9-2v9.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="19" cy="31.5" r="2.6" fill="currentColor"/><circle cx="28" cy="28" r="2.6" fill="currentColor"/><circle cx="16" cy="13" r="2.2" fill="#fff" opacity=".55"/></svg>
     </button>
     <aside class="card mx-pop" id="mxPop" role="dialog" aria-labelledby="mxH" hidden>
       <header class="mx-pop-head">
-        <div><div class="eyebrow">Study soundtrack</div><h2 class="display" id="mxH">讀書配樂扭蛋</h2></div>
+        <div><div class="eyebrow">Music gacha</div><h2 class="display" id="mxH">音樂扭蛋</h2></div>
         <button class="btn sm ghost" type="button" id="mxClose" aria-label="關閉">${ic("x")}</button>
       </header>
       <p class="small muted mx-reason" id="mxReason">選一個你現在的狀態，抽一首適合的音樂。</p>
@@ -2539,7 +2539,7 @@
     const label = (text) => {
       const n = $("#mxNudge");
       n.title = text;
-      n.setAttribute("aria-label", text === "讀書配樂扭蛋" ? text : `讀書配樂扭蛋：${text}`);
+      n.setAttribute("aria-label", text === "音樂扭蛋" ? text : `音樂扭蛋：${text}`);
     };
     const nudge = (mood, text, reason) => {
       if (quiet()) return;
@@ -2604,7 +2604,7 @@
       go() {
         open(pending?.mood, pending?.reason);
         pending = null;
-        label("讀書配樂扭蛋");
+        label("音樂扭蛋");
         $("#mxNudge").classList.remove("ping");
       },
     };

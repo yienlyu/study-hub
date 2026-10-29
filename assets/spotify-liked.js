@@ -1,5 +1,5 @@
 /* Study Hub — 我的 Spotify「已按讚的歌曲」（2026-10-29 匯出，重複的版本已合併）
- * 讀書配樂扭蛋會把這些併進曲庫，Spotify 按鈕直接開那首歌
+ * 音樂扭蛋會把這些併進曲庫，Spotify 按鈕直接開那首歌
  * [曲名, 作曲 · 演出者, 適合的狀態, 純音樂?, Spotify track id]
  * 狀態：focus 專心 / sleepy 提神 / anxious 緊張 / night 熬夜 / break 休息
  */
