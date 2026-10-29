@@ -3255,7 +3255,7 @@
     "num": 15,
     "chapter": "ch18",
     "type": "mcq",
-    "stem": "Here is the peptide of “MDWLEKFHAPPYRTKAS”. Which of the following enzyme you could use to get the peptide of “HAPPY”? Cleavage point Trypsin                    Lys, Arg (C) Chymotrypsin               Phe, Trp, Tyr (C) Peptin                     Leu, Phe, Trp, Tyr (N)",
+    "stem": "Here is the peptide \"MDWLEKFHAPPYRTKAS\". Which of the following enzymes could you use to get the peptide \"HAPPY\"?\n\nEnzyme          Cleavage point\nTrypsin         Lys, Arg (C-terminal side)\nChymotrypsin    Phe, Trp, Tyr (C-terminal side)\nPepsin          Leu, Phe, Trp, Tyr (N-terminal side)",
     "options": [
       {
         "k": "A",
@@ -3275,7 +3275,7 @@
       }
     ],
     "answer": ["B"],
-    "explain": "要切出 -F/HAPPY/R- 就要找切 F 和 Y 的 C 端，或 H 和 R 的 N 端酵素，(B)最適合",
+    "explain": "HAPPY 前面是 F、後面是 R（…K-F↓HAPPY↓R-T…），所以要找「切 F 的 C 端 + 切 Y 的 C 端」的酵素。\n(A) Trypsin：切 K、R 之後 → MDWLEK / FHAPPYR / TK / AS，HAPPY 前面多了 F、後面多了 R。\n(B) Chymotrypsin：切 W、F、Y 之後 → MDW / LEKF / HAPPY / RTKAS ✔\n(C) Pepsin：切 L、F、W、Y 之前 → MD / W / LEK / FHAPP / YRTKAS，Y 被切到下一段。",
     "topics": ["蛋白質消化與泛素"],
     "pattern": "選正確／單一概念題"
   },

@@ -34,6 +34,15 @@ F = {
     ('21', 7): {'explain_sub': [('（可參考第四題詳解附圖）', ''), ('（可參考 第四題詳解附圖）', '')]},
     ('21', 9): {'explain': 'Tay-Sachs disease：溶體的 β-N-acetylhexosaminidase A（hexosaminidase A）缺乏 → GM2 ganglioside 堆積（神經退化、櫻桃紅斑）。\n'
                            '對照：Niemann-Pick＝sphingomyelinase → sphingomyelin；Fabry＝α-galactosidase A → globotriaosylceramide；Gaucher＝β-glucosidase → glucocerebroside。'},
+    ('18', 15): {'stem': 'Here is the peptide "MDWLEKFHAPPYRTKAS". Which of the following enzymes could you use to get the peptide "HAPPY"?\n\n'
+                         'Enzyme          Cleavage point\n'
+                         'Trypsin         Lys, Arg (C-terminal side)\n'
+                         'Chymotrypsin    Phe, Trp, Tyr (C-terminal side)\n'
+                         'Pepsin          Leu, Phe, Trp, Tyr (N-terminal side)',
+                 'explain': 'HAPPY 前面是 F、後面是 R（…K-F↓HAPPY↓R-T…），所以要找「切 F 的 C 端 + 切 Y 的 C 端」的酵素。\n'
+                            '(A) Trypsin：切 K、R 之後 → MDWLEK / FHAPPYR / TK / AS，HAPPY 前面多了 F、後面多了 R。\n'
+                            '(B) Chymotrypsin：切 W、F、Y 之後 → MDW / LEKF / HAPPY / RTKAS ✔\n'
+                            '(C) Pepsin：切 L、F、W、Y 之前 → MD / W / LEK / FHAPP / YRTKAS，Y 被切到下一段。'},
     ('18', 18): {'answer': [], 'note': '共筆標「X」：四個選項（catecholamine 的 DOPA decarboxylase、polyamine 的 ornithine decarboxylase、轉硫作用、heme 合成的 ALA synthase）都需要 PLP，本題沒有正確答案。'},
     ('18', 34): {'explain': '五個反應都有脫羧（decarboxylation）：\n(1) Glutamate → GABA：glutamate decarboxylase\n(2) Histidine → histamine：histidine decarboxylase\n'
                             '(3) DOPA → dopamine：aromatic L-amino acid decarboxylase\n(4) Ornithine → putrescine（ornithine decarboxylase）→ spermidine\n(5) Cysteine → … → cysteine sulfinate → hypotaurine（cysteine sulfinate decarboxylase）→ taurine\n以上都需要 PLP。'},
