@@ -1,9 +1,10 @@
 /* Study Hub — 小遊戲的出題與解題（純邏輯，不碰 DOM）
- * window.SH_GAMES = { sudoku, killer, nonogram }；也可當 Web Worker 在背景出題
- * 三種都只出 expert：
+ * window.SH_GAMES = { sudoku, killer, nonogram, minesweeper }；也可當 Web Worker 在背景出題
+ * 四種都只出 expert：
  *   數獨      唯一解、只用唯一候選數 / 隱性唯一解不能解完；挖到最少後再補回幾格（約 30 格提示）
  *   殺手數獨  籠子 2–5 格（偏小）、另給 8 格提示數字，唯一解
  *   數織      15×15，唯一解且只靠逐行推理就能解完（不用猜），取推理輪數偏少的那盤
+ *   踩地雷    30×16、99 顆雷，先翻開一塊起始區，之後只靠單格 / 子集推理就能掃完（不用猜）
  */
 (() => {
   "use strict";
@@ -521,6 +522,112 @@
     return best;
   }
 
+  // ------------------------------------------------------------ 踩地雷
+  const msNbrs = (W, H, i) => {
+    const r = (i / W) | 0,
+      c = i % W,
+      out = [];
+    for (let dr = -1; dr <= 1; dr++)
+      for (let dc = -1; dc <= 1; dc++) {
+        const y = r + dr,
+          x = c + dc;
+        if ((dr || dc) && y >= 0 && y < H && x >= 0 && x < W) out.push(y * W + x);
+      }
+    return out;
+  };
+  const msNumbers = (W, H, mines) =>
+    mines.map((m, i) => (m ? -1 : msNbrs(W, H, i).filter((j) => mines[j]).length));
+  // 從目前已知（open 已翻開、known 已確定是雷）找出能確定的格子
+  // 回傳 [{ i, mine, from }]；from 是推出這格的數字格（全盤雷數推得的為空陣列）；all=false 找到一個就停
+  function msDeduce(W, H, N, num, open, known, all = false) {
+    const out = [],
+      seen = new Set();
+    const push = (i, mine, from) => {
+      if (seen.has(i)) return;
+      seen.add(i);
+      out.push({ i, mine, from });
+    };
+    const cons = [],
+      consOf = new Map();
+    for (let i = 0; i < W * H; i++) {
+      if (!open[i] || num[i] <= 0) continue;
+      const nb = msNbrs(W, H, i),
+        unk = nb.filter((j) => !open[j] && !known[j]);
+      if (!unk.length) continue;
+      const need = num[i] - nb.filter((j) => known[j]).length;
+      if (need === 0 || need === unk.length) {
+        unk.forEach((j) => push(j, need > 0, [i]));
+        if (!all) return out;
+        continue;
+      }
+      const k = cons.length;
+      cons.push({ i, unk, need, set: new Set(unk) });
+      for (const j of unk) {
+        if (!consOf.has(j)) consOf.set(j, []);
+        consOf.get(j).push(k);
+      }
+    }
+    if (out.length) return out;
+    // 子集：A 的未知格全都在 B 裡 → B 多出來的格子有 B.need − A.need 顆雷
+    for (const A of cons) {
+      const near = new Set(A.unk.flatMap((j) => consOf.get(j)));
+      for (const kb of near) {
+        const B = cons[kb];
+        if (B === A || B.unk.length <= A.unk.length || !A.unk.every((j) => B.set.has(j)))
+          continue;
+        const rest = B.unk.filter((j) => !A.set.has(j)),
+          d = B.need - A.need;
+        if (d === 0 || d === rest.length) {
+          rest.forEach((j) => push(j, d > 0, [A.i, B.i]));
+          if (!all) return out;
+        }
+      }
+    }
+    if (out.length) return out;
+    // 全盤雷數：雷都找到了 → 其他都安全；剩下的格子數剛好等於剩下的雷數 → 全是雷
+    let unk = [],
+      found = 0;
+    for (let i = 0; i < W * H; i++)
+      if (known[i]) found++;
+      else if (!open[i]) unk.push(i);
+    if (unk.length && (found === N || unk.length === N - found))
+      unk.forEach((i) => push(i, found < N, []));
+    return out;
+  }
+  // 翻開一格；是 0 就往外擴散。回傳新翻開的格子
+  function msOpen(W, H, num, open, i) {
+    const got = [],
+      st = [i];
+    while (st.length) {
+      const j = st.pop();
+      if (open[j]) continue;
+      open[j] = 1;
+      got.push(j);
+      if (num[j] === 0) for (const n of msNbrs(W, H, j)) if (!open[n]) st.push(n);
+    }
+    return got;
+  }
+  function genMinesweeper(W = 30, H = 16, N = 99) {
+    for (let tries = 0; tries < 20000; tries++) {
+      // 起始格不靠邊，周圍 3×3 沒有雷 → 一開始就會翻開一塊
+      const start = (1 + rand(H - 2)) * W + 1 + rand(W - 2);
+      const safe = new Set([start, ...msNbrs(W, H, start)]);
+      const mines = Array(W * H).fill(0);
+      for (const i of shuffle([...Array(W * H).keys()].filter((i) => !safe.has(i))).slice(0, N))
+        mines[i] = 1;
+      const num = msNumbers(W, H, mines),
+        open = new Uint8Array(W * H),
+        known = new Uint8Array(W * H);
+      let left = W * H - N - msOpen(W, H, num, open, start).length;
+      for (let ds; left > 0 && (ds = msDeduce(W, H, N, num, open, known, true)).length; )
+        for (const d of ds)
+          if (d.mine) known[d.i] = 1;
+          else left -= msOpen(W, H, num, open, d.i).length;
+      if (!left) return { W, H, N, mines, start };
+    }
+    throw new Error("minesweeper generation failed");
+  }
+
   const G = {
     sudoku: { generate: genSudoku, hint: (g, s, p) => sudokuHint(g, s, null, p) },
     killer: {
@@ -528,6 +635,13 @@
       hint: (g, s, cages, p) => sudokuHint(g, s, cages, p),
     },
     nonogram: { generate: genNonogram, propagate: nonoPropagate, runsOf, lineSolve },
+    minesweeper: {
+      generate: genMinesweeper,
+      nbrs: msNbrs,
+      numbers: msNumbers,
+      deduce: msDeduce,
+      open: msOpen,
+    },
     peers: PEERS,
     box: BOX,
   };

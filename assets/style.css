@@ -874,7 +874,7 @@ a.chip { color: inherit; text-decoration: none; }
 @keyframes findflash { 0%, 30% { background: var(--hl); box-shadow: 0 0 0 6px var(--hl); } 100% { background: transparent; box-shadow: 0 0 0 6px transparent; } }
 
 @media print {
-  .masthead, .site-footer, #tabbar, .ch-tabs, .crumbs, .toolbar, .noprint, .read-progress { display: none !important; }
+  .masthead, .site-footer, #tabbar, .mx-nudge, .mx-pop, .ch-tabs, .crumbs, .toolbar, .noprint, .read-progress { display: none !important; }
   body { background: #fff; color: #000; }
   .sheet { columns: 2; column-gap: 14px; font-size: 10px; }
   .sheet > section { box-shadow: none; border: 1px solid #bbb; border-radius: 6px; padding: 8px 10px; margin-bottom: 10px; }
@@ -981,7 +981,8 @@ a.icon-btn { text-decoration: none; }
 .acct-av.busy { opacity: .5; cursor: progress; }
 
 /* ------------------------------------------------------------ 小遊戲 */
-.game-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.game-cards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+@media (max-width: 1100px) { .game-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .game-card { padding: 22px; display: flex; flex-direction: column; gap: 6px; color: var(--ink); transition: transform .2s var(--ease), box-shadow .2s, border-color .2s; }
 .game-card:hover { text-decoration: none; transform: translateY(-3px); box-shadow: var(--shadow-2); border-color: var(--rule-strong); }
 .game-art { width: 64px; height: 64px; color: var(--ink); margin-bottom: 10px; }
@@ -1088,6 +1089,70 @@ a.icon-btn { text-decoration: none; }
 .ng-board.solved .ng-cell { cursor: default; border-color: transparent; }
 .ng-board.solved .ng-cell.f { background: var(--violet); }
 .ng-board.solved .ng-cell.x::after { opacity: 0; }
+/* 踩地雷 */
+.game-layout.wide { grid-template-columns: minmax(0, 1fr) minmax(240px, 300px); }
+.ms-board { --cs: 24px; display: grid; gap: 1px; width: max-content; max-width: 100%; margin: 0 auto; background: var(--rule); border: 2px solid var(--ink); border-radius: 6px; overflow: hidden; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; outline: none; font-variant-numeric: tabular-nums; }
+.ms-board:focus-visible { outline: 2px solid var(--violet); outline-offset: 4px; }
+.ms-cell { --raised: color-mix(in srgb, var(--ink-3) 32%, var(--card)); width: var(--cs); height: var(--cs); display: grid; place-items: center; background: var(--raised); cursor: pointer; touch-action: manipulation; font-family: var(--f-mono); font-weight: 700; font-size: calc(var(--cs) * .56); line-height: 1; }
+.ms-cell:not(.o):hover { background: color-mix(in srgb, var(--violet) 25%, var(--raised)); }
+.ms-cell.o { background: var(--card); cursor: default; }
+.ms-cell.o.n1, .ms-cell.o.n2, .ms-cell.o.n3, .ms-cell.o.n4, .ms-cell.o.n5, .ms-cell.o.n6, .ms-cell.o.n7, .ms-cell.o.n8 { cursor: pointer; }
+.ms-cell.n1 { color: var(--violet); }
+.ms-cell.n2 { color: var(--good); }
+.ms-cell.n3 { color: var(--bad); }
+.ms-cell.n4 { color: var(--violet-ink); }
+.ms-cell.n5 { color: var(--safranin); }
+.ms-cell.n6 { color: var(--warn); }
+.ms-cell.n7 { color: var(--ink); }
+.ms-cell.n8 { color: var(--ink-3); }
+.ms-cell.fl svg { width: 62%; height: 62%; color: var(--bad); }
+.ms-cell.mine::after { content: ""; width: 44%; height: 44%; border-radius: 50%; background: var(--ink); }
+.ms-cell.boom { background: var(--bad); }
+.ms-cell.boom::after { background: var(--paper); }
+.ms-cell.err { box-shadow: inset 0 0 0 2px var(--bad); }
+.ms-cell.hl { background: var(--violet-soft); box-shadow: inset 0 0 0 2px var(--violet); }
+.ms-cell.cur { outline: 2px solid var(--violet); outline-offset: -2px; }
+.ms-cell.flash { animation: ngflash 1.2s var(--ease); }
+.ms-board.solved { border-color: var(--good); }
+.ms-board.solved .ms-cell { cursor: default; }
+.ms-mode { width: 100%; }
+.ms-mode button { flex: 1; justify-content: center; gap: 6px; }
+.ms-mode svg { width: 15px; height: 15px; }
+.ms-lose { border-color: var(--bad); }
+@media (max-width: 1100px) { .game-layout.wide { grid-template-columns: minmax(0, 1fr); } }
+
+/* 讀書配樂扭蛋：右下角提示鈕 + 浮動面板 */
+.mx-nudge { position: fixed; right: 20px; bottom: 20px; z-index: 60; width: 56px; height: 56px; padding: 0; border: 1px solid var(--rule-strong); border-radius: 50%; background: var(--card); color: var(--ink); box-shadow: var(--shadow-2); cursor: pointer; display: grid; place-items: center; animation: mxDrop .5s var(--ease); }
+.mx-nudge.ping { animation: mxWiggle 1.2s var(--ease) 3; }
+.mx-nudge.ping::after { content: ""; position: absolute; top: 3px; right: 3px; width: 12px; height: 12px; border-radius: 50%; background: var(--safranin); border: 2px solid var(--card); }
+.mx-nudge svg { width: 40px; height: 40px; transition: transform .25s var(--ease); }
+.mx-nudge:hover svg, .mx-nudge:focus-visible svg { transform: rotate(-14deg) scale(1.06); }
+.mx-nudge[hidden], .mx-pop[hidden] { display: none; }
+@keyframes mxDrop { from { opacity: 0; transform: translateY(-14px) scale(.6); } }
+@keyframes mxWiggle { 0%, 100% { transform: rotate(0); } 20% { transform: rotate(-12deg); } 40% { transform: rotate(10deg); } 60% { transform: rotate(-6deg); } 80% { transform: rotate(3deg); } }
+.mx-pop { position: fixed; right: 20px; bottom: 20px; z-index: 61; width: min(420px, calc(100vw - 32px)); max-height: min(640px, calc(100vh - 40px)); overflow-y: auto; overscroll-behavior: contain; padding: 18px 20px 20px; box-shadow: var(--shadow-2); transform-origin: bottom right; animation: mxIn .3s var(--ease); }
+@keyframes mxIn { from { opacity: 0; transform: scale(.2); } }
+@media (prefers-reduced-motion: reduce) { .mx-nudge, .mx-nudge.ping, .mx-pop, .mx-nudge svg { animation: none; transition: none; } }
+.mx-pop-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+.mx-pop-head h2 { font-size: 1.6rem; font-weight: 400; margin: 6px 0 0; line-height: 1.1; }
+.mx-pop-head .btn svg { width: 16px; height: 16px; }
+.mx-reason { margin: 8px 0 0; }
+.mx-moods { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+.mx-moods .btn[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.mx-card { padding: 16px 18px; margin-top: 14px; min-height: 132px; display: grid; align-content: center; gap: 4px; background: var(--paper); box-shadow: none; }
+.mx-card.rolling { opacity: .55; }
+.mx-empty { margin: 0; }
+.mx-title { font-family: var(--f-serif); font-weight: 400; font-size: 1.45rem; line-height: 1.2; margin: 4px 0 0; overflow-wrap: anywhere; }
+.mx-artist { color: var(--ink-2); font-weight: 600; font-size: .92rem; }
+.mx-why { margin: 6px 0 0; color: var(--ink-2); font-size: .9rem; }
+.mx-links { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.mx-links .btn svg { width: 13px; height: 13px; }
+.mx-draw { width: 100%; justify-content: center; margin-top: 12px; }
+.mx-fav-h { font-size: .95rem; margin: 20px 0 4px; }
+.mx-fav { list-style: none; margin: 0; padding: 0; }
+.mx-fav li { display: grid; gap: 6px; padding: 10px 0; border-bottom: 1px solid var(--rule); font-size: .9rem; }
+.mx-fav .mx-links { margin-top: 0; }
+@media (max-width: 760px) { .mx-nudge { right: 16px; bottom: 84px; } .mx-pop { right: 16px; bottom: 84px; max-height: calc(100vh - 120px); } }
 .ng-mode { width: 100%; }
 .ng-mode button { flex: 1; justify-content: center; gap: 8px; }
 .ng-sw { width: 13px; height: 13px; display: inline-block; border: 1px solid var(--ink-3); border-radius: 2px; }

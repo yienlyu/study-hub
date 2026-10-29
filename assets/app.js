@@ -10,7 +10,8 @@
  *   #/s/:sid/sheet[/figs]            速記表 / 觀念圖庫
  *   #/report?...                     回報 / 回饋
  *   #/me                             學習軌跡 / 登入
- *   #/play[/:game]                   小遊戲（sudoku | killer | nonogram）；彩蛋，選單不列，入口見 easter eggs
+ *   #/play[/:game]                   小遊戲（sudoku | killer | nonogram | minesweeper）；彩蛋，選單不列，入口見 easter eggs
+ *   （讀書配樂扭蛋沒有自己的頁面：卡關、煩躁、讀很久時右下角冒出提示，見 MoodWatch）
  */
 (() => {
   "use strict";
@@ -23,6 +24,8 @@
     navigator.platform || navigator.userAgent,
   );
   const IS_TOUCH = matchMedia("(hover: none)").matches;
+  // 跟 app.js 同一個快取版本號，延後載入的檔案沿用
+  const STATIC_V = (document.currentScript?.src.match(/[?&]v=([^&]+)/) || [])[1] || "";
 
   // ------------------------------------------------------------ icons (stroke, 24 grid)
   const P = {
@@ -318,6 +321,7 @@
     const p = getProg(sid);
     const r = p[qid] || { c: 0, w: 0 };
     ok ? r.c++ : r.w++;
+    MoodWatch.answer(ok);
     r.last = ok ? "c" : "w";
     r.t = now;
     p[qid] = r;
@@ -2262,10 +2266,19 @@
       rules:
         "格子外的數字代表那一橫列（由左到右）或那一直行（由上到下）依序有幾段連續塗黑的格子，每段之間至少隔一格空白。每一盤都只靠逐行推理就能解完，不用猜。",
     },
+    {
+      id: "minesweeper",
+      name: "踩地雷",
+      en: "Minesweeper",
+      blurb: "30×16、99 顆雷，保證不用猜。",
+      rules:
+        "翻開的數字代表周圍 8 格裡有幾顆雷；把所有不是雷的格子都翻開就贏了。左鍵翻開、右鍵（手機長按）插旗；點已經插滿旗的數字，會一次翻開它周圍剩下的格子。每一盤開局都會先翻開一塊，之後只靠推理就能掃完，不用賭運氣。",
+    },
   ];
   const GAME_ART = {
     sudoku: `<svg viewBox="0 0 60 60"><rect x="1" y="1" width="58" height="58" rx="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20.3 1v58M39.7 1v58M1 20.3h58M1 39.7h58" stroke="currentColor" stroke-width="1" opacity=".35"/><g font-family="var(--f-serif)" font-size="13" text-anchor="middle" fill="currentColor"><text x="10.7" y="15">5</text><text x="49.3" y="15">3</text><text x="30" y="34.5" fill="var(--violet)">7</text><text x="10.7" y="54">1</text><text x="49.3" y="54" fill="var(--violet)">9</text></g></svg>`,
     killer: `<svg viewBox="0 0 60 60"><rect x="1" y="1" width="58" height="58" rx="4" fill="none" stroke="currentColor" stroke-width="2"/><g fill="none" stroke="currentColor" stroke-width="1.1" stroke-dasharray="2.5 2" opacity=".75"><path d="M5 5h31v12H17v14H5z"/><path d="M40 5h15v31H40z"/><path d="M21 21h15v15H21zM5 35h12v20H5z"/><path d="M21 40h34v15H21z"/></g><g font-family="var(--f-mono)" font-size="5.5" fill="var(--violet)"><text x="7" y="11">17</text><text x="42" y="11">9</text><text x="23" y="27">6</text><text x="7" y="41">11</text><text x="23" y="46">20</text></g></svg>`,
+    minesweeper: `<svg viewBox="0 0 60 60"><rect x="1" y="1" width="58" height="58" rx="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20.3 1v58M39.7 1v58M1 20.3h58M1 39.7h58" stroke="currentColor" stroke-width="1" opacity=".35"/><g font-family="var(--f-mono)" font-size="12" font-weight="700" text-anchor="middle"><text x="10.7" y="15" fill="var(--violet)">1</text><text x="30" y="15" fill="var(--violet)">1</text><text x="10.7" y="34.5" fill="var(--good)">2</text><text x="49.3" y="54" fill="var(--violet)">1</text></g><circle cx="49.3" cy="30" r="5" fill="currentColor"/><path d="M49.3 22.5v15M41.8 30h15" stroke="currentColor" stroke-width="1.6"/><path d="M27 46v12M27 46h8l-2 3 2 3h-8" fill="var(--bad)" stroke="var(--bad)" stroke-width="1.4" stroke-linejoin="round"/></svg>`,
     nonogram: `<svg viewBox="0 0 60 60"><rect x="1" y="1" width="58" height="58" rx="4" fill="none" stroke="currentColor" stroke-width="2"/><g fill="currentColor"><rect x="13" y="8" width="8" height="8"/><rect x="39" y="8" width="8" height="8"/><rect x="8" y="16" width="44" height="8" fill="var(--violet)"/><rect x="8" y="24" width="44" height="8" fill="var(--violet)"/><rect x="13" y="32" width="34" height="8"/><rect x="21" y="40" width="18" height="6"/><rect x="26" y="46" width="8" height="6"/></g></svg>`,
   };
   const gameKey = (id) => `sh:game:${id}`;
@@ -2287,7 +2300,315 @@
         <div class="game-card-meta">${meta}<span class="go">${s && !s.done ? "繼續玩" : "開始"} ${ic("arrowR")}</span></div>
       </a>`;
     }).join("")}</div>`;
-  const gameHintNote = `<p class="game-note small">${ic("help")}<span>三種都只有 <b>Expert</b> 難度。卡關時按「提示」，會告訴你下一步可以從哪一格推起；數織的提示還會先幫你找出放錯的格子。</span></p>`;
+  const gameHintNote = `<p class="game-note small">${ic("help")}<span>四種都只有 <b>Expert</b> 難度。卡關時按「提示」，會告訴你下一步可以從哪一格推起；數織和踩地雷的提示還會先幫你找出放錯的格子 / 插錯的旗。</span></p>`;
+
+  // ------------------------------------------------------------ 讀書配樂扭蛋：選狀態 → 抽一首；連結都是搜尋頁，不會失效
+  const MOODS = [
+    { id: "all", name: "都可以" },
+    { id: "focus", name: "要專心讀書" },
+    { id: "sleepy", name: "讀到想睡" },
+    { id: "anxious", name: "考前好緊張" },
+    { id: "night", name: "熬夜衝刺" },
+    { id: "break", name: "休息放空" },
+  ];
+  // [曲名, 演出者, 適合的狀態, 純音樂?, 一句推薦]
+  const TRACKS = [
+    ["Goldberg Variations, BWV 988: Aria", "J.S. Bach · Glenn Gould", "focus night", 1, "規律、不搶戲，巴洛克的對位很適合背一長串代謝路徑。"],
+    ["Music for Airports 1/1", "Brian Eno", "focus anxious", 1, "環境音樂的始祖，聽著聽著就忘了它在播。"],
+    ["Gymnopédie No. 1", "Erik Satie", "focus break", 1, "慢、留白多，適合一張一張慢慢看圖。"],
+    ["Clair de Lune", "Claude Debussy", "focus anxious", 1, "月光很溫柔，腦袋太滿的時候先讓它安靜一下。"],
+    ["Nuvole Bianche", "Ludovico Einaudi", "focus anxious", 1, "反覆的鋼琴句子，很適合配著寫筆記。"],
+    ["On the Nature of Daylight", "Max Richter", "focus anxious", 1, "弦樂慢慢堆上來，讀長篇講義剛好。"],
+    ["Saman", "Ólafur Arnalds", "focus night", 1, "安靜的鋼琴，夜深時不會吵到自己。"],
+    ["Says", "Nils Frahm", "focus night", 1, "合成器一層層累積，專注度會跟著慢慢上來。"],
+    ["Aruarian Dance", "Nujabes", "focus night", 1, "lo-fi 的源頭之一，節奏穩、不分心。"],
+    ["Awake", "Tycho", "focus sleepy", 1, "明亮的電子樂，下午的低潮期很好用。"],
+    ["Kiara", "Bonobo", "focus night", 1, "溫暖的電子節拍，適合做題目。"],
+    ["lofi hip hop radio – beats to relax/study to", "Lofi Girl", "focus night", 1, "那個戴耳機寫作業的女孩，全世界一起陪你讀。"],
+    ["Merry Christmas Mr. Lawrence", "坂本龍一", "anxious focus", 1, "旋律熟悉又沉穩，緊張時聽很安心。"],
+    ["Cello Suite No. 1: Prelude", "J.S. Bach · Yo-Yo Ma", "anxious focus", 1, "一把大提琴就很完整，呼吸跟著它放慢。"],
+    ["Weightless", "Marconi Union", "anxious", 1, "刻意寫得越來越慢的曲子，心跳也會跟著慢下來。"],
+    ["River Flows in You", "Yiruma", "anxious break", 1, "簡單乾淨，深呼吸三次再回去讀。"],
+    ["One Summer's Day", "久石讓", "anxious break", 1, "《神隱少女》的開場，提醒你考完就放暑假了。"],
+    ["Summer", "久石讓", "sleepy break", 1, "《菊次郎的夏天》，輕快到很難繼續打瞌睡。"],
+    ["The Four Seasons, Summer: III. Presto", "Antonio Vivaldi", "sleepy", 1, "夏天的暴風雨樂章，比咖啡還醒腦。"],
+    ["William Tell Overture: Finale", "Gioachino Rossini", "sleepy", 1, "騎兵進行曲，聽完直接衝下一章。"],
+    ["Time", "Hans Zimmer", "night focus", 1, "《全面啟動》的配樂，越來越滿，最後衝刺用。"],
+    ["Rhubarb", "Aphex Twin", "night", 1, "深夜的環境電子樂，安靜得剛好。"],
+    ["Harder, Better, Faster, Stronger", "Daft Punk", "sleepy night", 0, "歌名就是你現在的讀書進度目標。"],
+    ["Don't Stop Me Now", "Queen", "sleepy", 0, "主歌一開始就停不下來，提神首選。"],
+    ["Eye of the Tiger", "Survivor", "sleepy", 0, "考前最後一章，拿出拳擊手的氣勢。"],
+    ["倔強", "五月天", "sleepy anxious", 0, "「我和我驕傲的倔強」——考試前一晚的主題曲。"],
+    ["旅行的意義", "陳綺貞", "anxious break", 0, "輕輕的吉他和人聲，讓緊繃的肩膀放下來。"],
+    ["Holocene", "Bon Iver", "anxious night", 0, "很遼闊的一首歌，提醒你一次考試沒那麼大。"],
+    ["My Jinji", "落日飛車", "break", 0, "慵懶的 city pop，休息十分鐘剛好一首。"],
+    ["Don't Know Why", "Norah Jones", "break", 0, "爵士鋼琴配溫暖的嗓音，放空用。"],
+    ["Yellow", "Coldplay", "break", 0, "跟著唱一遍，再回去讀。"],
+    ["First Love", "宇多田ヒカル", "break night", 0, "深夜休息時聽，很有氣氛。"],
+    ["Feather", "Nujabes", "night", 0, "Nujabes 的經典，深夜衝刺的節奏感。"],
+    ["Teardrop", "Massive Attack", "night", 0, "像心跳一樣的鼓聲，夜深了也穩得住。"],
+    ["Midnight City", "M83", "night sleepy", 0, "半夜的城市感，撐過最後一個小時。"],
+  ].map(([t, a, m, inst, why]) => ({ t, a, m: m.split(" "), inst: !!inst, why }));
+  const trackKey = (x) => `${x.t} — ${x.a}`;
+  // 併入我的 Spotify（assets/spotify-liked.js 已按讚、assets/spotify-library.js 歌單＋收藏的專輯）
+  // 檔案有好幾百 KB，第一次打開扭蛋才載入；同一首歌只留一筆：保留推薦語、補上 Spotify 連結
+  let spotifyReady = null;
+  const loadSpotify = () =>
+    (spotifyReady ||= Promise.all(
+      ["spotify-liked", "spotify-library"].map(
+        (f) =>
+          new Promise((res) => {
+            const el = document.createElement("script");
+            el.src = `assets/${f}.js?v=${STATIC_V}`;
+            el.onload = el.onerror = res;
+            document.head.appendChild(el);
+          }),
+      ),
+    ).then(mergeSpotify));
+  function mergeSpotify() {
+    const byKey = new Map(TRACKS.map((x) => [trackKey(x), x])),
+      seen = new Set();
+    for (const [t, a, m, inst, sp] of [
+      ...(window.SH_LIKED || []),
+      ...(window.SH_LIBRARY || []),
+    ]) {
+      if (seen.has(sp)) continue;
+      seen.add(sp);
+      const x = { t, a, m: m.split(" "), inst: !!inst, why: "", sp };
+      const same = byKey.get(trackKey(x));
+      if (same) same.sp ||= sp;
+      else byKey.set(trackKey(x), x), TRACKS.push(x);
+    }
+  }
+  const trackLinks = (x) => {
+    const q = encodeURIComponent(`${x.t} ${x.a.replace(/ · /g, " ")}`);
+    return `<a class="btn sm" href="https://www.youtube.com/results?search_query=${q}" target="_blank" rel="noopener">YouTube ${ic("arrowUR")}</a><a class="btn sm" href="${x.sp ? `https://open.spotify.com/track/${x.sp}` : `https://open.spotify.com/search/${q}`}" target="_blank" rel="noopener">Spotify ${ic("arrowUR")}</a>`;
+  };
+  // 右下角一直掛著一顆扭蛋，點了展開成浮動面板；看起來卡關、煩躁或讀很久時，扭蛋會晃一晃、亮個小點提醒
+  const musicPanel = () => `
+    <button type="button" class="mx-nudge" id="mxNudge" title="讀書配樂扭蛋" aria-label="讀書配樂扭蛋">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M5 24a19 19 0 0 1 38 0z" fill="var(--violet)"/><path d="M5 24a19 19 0 0 0 38 0z" fill="var(--card)"/><circle cx="24" cy="24" r="19" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M5 24h38" stroke="currentColor" stroke-width="2.4"/><path d="M21 31.5V20.5l9-2v9.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="19" cy="31.5" r="2.6" fill="currentColor"/><circle cx="28" cy="28" r="2.6" fill="currentColor"/><circle cx="16" cy="13" r="2.2" fill="#fff" opacity=".55"/></svg>
+    </button>
+    <aside class="card mx-pop" id="mxPop" role="dialog" aria-labelledby="mxH" hidden>
+      <header class="mx-pop-head">
+        <div><div class="eyebrow">Study soundtrack</div><h2 class="display" id="mxH">讀書配樂扭蛋</h2></div>
+        <button class="btn sm ghost" type="button" id="mxClose" aria-label="關閉">${ic("x")}</button>
+      </header>
+      <p class="small muted mx-reason" id="mxReason">選一個你現在的狀態，抽一首適合的音樂。</p>
+      <div class="mx-moods" role="group" aria-label="現在的狀態">${MOODS.map((m) => `<button type="button" class="btn sm" data-mood="${m.id}" aria-pressed="false">${m.name}</button>`).join("")}</div>
+      <div class="card mx-card" id="mxCard" aria-live="polite"></div>
+      <button class="btn primary mx-draw" type="button" id="mxDraw">${ic("shuffle")}抽一首</button>
+      <div id="mxFav"></div>
+    </aside>`;
+  // 回傳 open(mood, reason)
+  function mountMusic() {
+    document.body.insertAdjacentHTML("beforeend", musicPanel());
+    $("#mxNudge").addEventListener("click", () => MoodWatch.go());
+    const pop = $("#mxPop"),
+      card = $("#mxCard"),
+      draw = $("#mxDraw"),
+      fav = $("#mxFav");
+    let mood = store.get("sh:music:mood", "all"),
+      cur = null,
+      spin = 0;
+    const recent = [];
+    const pool = () => TRACKS.filter((x) => mood === "all" || x.m.includes(mood));
+    const favs = () => store.get("sh:music:fav", []);
+    const isFav = (x) => favs().includes(trackKey(x));
+    const paintMoods = () =>
+      $$("[data-mood]", pop).forEach((b) =>
+        b.setAttribute("aria-pressed", b.dataset.mood === mood ? "true" : "false"),
+      );
+    const paintCard = (x, rolling = false) => {
+      if (!x) {
+        card.innerHTML = `<p class="mx-empty muted">按「抽一首」開始。共 <b>${pool().length}</b> 首符合目前的條件。</p>`;
+        return;
+      }
+      card.classList.toggle("rolling", rolling);
+      card.innerHTML = `
+        <div class="eyebrow">${x.m.map((id) => MOODS.find((m) => m.id === id).name).join(" / ")}</div>
+        <h3 class="mx-title">${esc(x.t)}</h3>
+        <div class="mx-artist">${esc(x.a)}</div>
+        ${rolling ? "" : `<p class="mx-why">${x.why ? esc(x.why) : "來自我的 Spotify 收藏。"}</p>
+        <div class="mx-links">${trackLinks(x)}<button class="btn sm ghost" type="button" id="mxLike" aria-pressed="${isFav(x)}">${isFav(x) ? "♥ 已收藏" : "♡ 收藏"}</button></div>`}`;
+      $("#mxLike")?.addEventListener("click", () => {
+        const f = favs(),
+          k = trackKey(x);
+        store.set("sh:music:fav", f.includes(k) ? f.filter((y) => y !== k) : [k, ...f]);
+        paintCard(x);
+        paintFav();
+      });
+    };
+    const paintFav = () => {
+      const list = favs()
+        .map((k) => TRACKS.find((x) => trackKey(x) === k))
+        .filter(Boolean);
+      fav.innerHTML = list.length
+        ? `<h3 class="mx-fav-h">我的收藏 <span class="muted small">${list.length}</span></h3>
+          <ul class="mx-fav">${list.map((x) => `<li><span><b>${esc(x.t)}</b><span class="muted"> · ${esc(x.a)}</span></span><span class="mx-links">${trackLinks(x)}<button class="btn sm ghost" type="button" data-unfav="${esc(trackKey(x))}" aria-label="取消收藏 ${esc(x.t)}">${ic("x")}</button></span></li>`).join("")}</ul>`
+        : "";
+      $$("[data-unfav]", fav).forEach((b) =>
+        b.addEventListener("click", () => {
+          store.set("sh:music:fav", favs().filter((k) => k !== b.dataset.unfav));
+          paintFav();
+          if (cur) paintCard(cur);
+        }),
+      );
+    };
+    // 抽：避開最近抽過的幾首；有轉場動畫（拉霸那樣快速換曲名）
+    const roll = () => {
+      const p = pool();
+      if (!p.length) return;
+      const fresh = p.filter((x) => !recent.includes(x));
+      const pick = (fresh.length ? fresh : p)[Math.floor(Math.random() * (fresh.length || p.length))];
+      recent.push(pick);
+      if (recent.length > Math.min(5, p.length - 1)) recent.shift();
+      clearInterval(spin);
+      draw.disabled = true;
+      const done = () => {
+        clearInterval(spin);
+        draw.disabled = false;
+        draw.innerHTML = `${ic("shuffle")}再抽一首`;
+        cur = pick;
+        paintCard(pick);
+      };
+      if (REDUCED || p.length < 2) return done();
+      let n = 0;
+      spin = setInterval(() => {
+        if (++n > 9) return done();
+        paintCard(p[Math.floor(Math.random() * p.length)], true);
+      }, 70);
+    };
+    const setMood = (m) => {
+      mood = m;
+      store.set("sh:music:mood", mood);
+      paintMoods();
+    };
+    $$("[data-mood]", pop).forEach((b) =>
+      b.addEventListener("click", () => {
+        setMood(b.dataset.mood);
+        roll();
+      }),
+    );
+    draw.addEventListener("click", roll);
+    const close = () => {
+      clearInterval(spin);
+      draw.disabled = false;
+      pop.hidden = true;
+      $("#mxNudge").hidden = false;
+    };
+    $("#mxClose").addEventListener("click", close);
+    addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && !pop.hidden) close();
+    });
+    paintMoods();
+    paintCard(null);
+    paintFav();
+    return async (m, reason) => {
+      $("#mxNudge").hidden = true;
+      $("#mxReason").textContent = reason || "選一個你現在的狀態，抽一首適合的音樂。";
+      pop.hidden = false;
+      setMood(m || mood);
+      draw.disabled = true;
+      await loadSpotify();
+      draw.disabled = false;
+      paintFav();
+      roll();
+      draw.focus({ preventScroll: true });
+    };
+  }
+
+  // 什麼時候提醒：近 5 題錯 3 題、同一處狂點、連續專心讀了 50 分鐘，或讀書時偶爾隨機；面板開著就不提醒，玩小遊戲時不打擾
+  const SURPRISE = [
+    ["all", "掉出一顆扭蛋！", "路過掉了一顆扭蛋，打開看看今天抽到什麼。"],
+    ["focus", "來點專心用的背景音樂？", "隨機掉落：配一首不吵的曲子，繼續讀下去。"],
+    ["break", "喝口水，聽首歌？", "隨機掉落：起來喝口水、伸個懶腰，順便聽一首。"],
+    ["sleepy", "眼皮重了嗎？", "隨機掉落：來首提神的，醒醒腦再繼續。"],
+  ];
+  const MoodWatch = (() => {
+    const LONG = 50 * 60e3,
+      IDLE = 2 * 60e3;
+    let open = null,
+      pending = null,
+      studied = 0,
+      lastAct = Date.now(),
+      answers = [],
+      clicks = [];
+    const quiet = () =>
+      location.hash.startsWith("#/play") || !$("#mxPop").hidden;
+    const label = (text) => {
+      const n = $("#mxNudge");
+      n.title = text;
+      n.setAttribute("aria-label", text === "讀書配樂扭蛋" ? text : `讀書配樂扭蛋：${text}`);
+    };
+    const nudge = (mood, text, reason) => {
+      if (quiet()) return;
+      pending = { mood, reason };
+      label(text);
+      // 重新觸發晃動動畫
+      const n = $("#mxNudge");
+      n.classList.remove("ping");
+      void n.offsetWidth;
+      n.classList.add("ping");
+    };
+    const init = () => {
+      open = mountMusic();
+      const touch = () => (lastAct = Date.now());
+      addEventListener("keydown", touch);
+      addEventListener("scroll", touch, { passive: true });
+      addEventListener("pointerdown", (e) => {
+        touch();
+        // 彩蛋本來就要連點，不算煩躁
+        if (e.target.closest?.(".mx-pop, .mx-nudge, input, textarea, select, #plate, .site-footer .sig, .masthead .logo, #themeBtn"))
+          return;
+        const now = Date.now();
+        clicks = clicks.filter(
+          (c) => now - c.t < 1200 && Math.hypot(c.x - e.clientX, c.y - e.clientY) < 40,
+        );
+        clicks.push({ t: now, x: e.clientX, y: e.clientY });
+        if (clicks.length >= 5) {
+          clicks = [];
+          nudge("anxious", "好像有點煩？先聽首歌喘口氣", "看起來有點卡住了。先深呼吸，聽首歌再回來。");
+        }
+      });
+      setInterval(() => {
+        if (document.hidden || Date.now() - lastAct > IDLE || location.hash.startsWith("#/play"))
+          return;
+        studied += 30e3;
+        // 偶爾也隨機掉一顆：至少讀了 10 分鐘後，每 30 秒 1/30 的機率（平均再約 15 分鐘）
+        if (studied >= 10 * 60e3 && studied < LONG && Math.random() < 1 / 30) {
+          const [mood, text, reason] = SURPRISE[Math.floor(Math.random() * SURPRISE.length)];
+          return nudge(mood, text, reason);
+        }
+        if (studied < LONG) return;
+        studied = 0;
+        const h = new Date().getHours(),
+          late = h >= 23 || h < 5;
+        nudge(
+          late ? "night" : "break",
+          `讀了 ${LONG / 60e3} 分鐘了，休息一下？`,
+          `已經專心讀了 ${LONG / 60e3} 分鐘${late ? "，夜深了" : ""}。站起來動一動，配一首歌。`,
+        );
+      }, 30e3);
+    };
+    return {
+      init,
+      answer(ok) {
+        answers.push(ok);
+        if (answers.length > 5) answers.shift();
+        if (!ok && answers.filter((x) => !x).length >= 3) {
+          answers = [];
+          nudge("anxious", "連錯好幾題了，換個心情？", "連錯幾題很正常，先聽首歌放鬆一下，等等再回來看詳解。");
+        }
+      },
+      go() {
+        open(pending?.mood, pending?.reason);
+        pending = null;
+        label("讀書配樂扭蛋");
+        $("#mxNudge").classList.remove("ping");
+      },
+    };
+  })();
 
   async function pageGames() {
     setChrome(null, "play");
@@ -2296,7 +2617,7 @@
         <header style="padding-top:28px">
           <div class="eyebrow">Take a break</div>
           <h1 class="display h-l" style="margin-top:12px">讀累了？來玩小遊戲</h1>
-          <p class="lede">三種邏輯謎題，每盤都是隨機產生、保證唯一解。進度自動存在這台裝置，下次回來可以接著玩。</p>
+          <p class="lede">四種邏輯謎題，每盤都是隨機產生、保證只靠推理就能解完。進度自動存在這台裝置，下次回來可以接著玩。</p>
         </header>
         <div class="section" style="padding-top:32px">${gameCards()}${gameHintNote}</div>
       </div>`);
@@ -2344,6 +2665,21 @@
 
   function newGameState(id, g) {
     const base = { hints: 0, elapsed: 0, done: false };
+    if (id === "minesweeper") {
+      const MS = window.SH_GAMES.minesweeper,
+        open = Array(g.W * g.H).fill(0);
+      MS.open(g.W, g.H, MS.numbers(g.W, g.H, g.mines), open, g.start);
+      return {
+        ...g,
+        ...base,
+        open,
+        flag: Array(g.W * g.H).fill(0),
+        err: [],
+        mistakes: 0,
+        boom: -1,
+        prev: null,
+      };
+    }
     if (id === "nonogram")
       return { ...g, ...base, cells: Array(g.W * g.H).fill(0), err: [] };
     const puzzle = g.puzzle || Array(81).fill(0);
@@ -2364,7 +2700,8 @@
   async function pageGame(id) {
     const meta = GAMES.find((g) => g.id === id);
     setChrome(null, "play");
-    const sudokuLike = id !== "nonogram";
+    const sudokuLike = id === "sudoku" || id === "killer",
+      hasMiss = id !== "nonogram";
     render(`
       <div class="wrap">
         <nav class="crumbs" aria-label="路徑"><a href="#/play">小遊戲</a><span class="sep">/</span><span>${meta.name}</span></nav>
@@ -2376,11 +2713,12 @@
           <div class="game-stats">
             <div class="fact"><b class="num" id="gTime">0:00</b><span>時間</span></div>
             <div class="fact"><b class="num" id="gHints">0</b><span>提示</span></div>
-            ${sudokuLike ? `<div class="fact"><b class="num" id="gMiss">0</b><span>錯誤</span></div>` : ""}
+            ${hasMiss ? `<div class="fact"><b class="num" id="gMiss">0</b><span>錯誤</span></div>` : ""}
+            ${id === "minesweeper" ? `<div class="fact"><b class="num" id="gMines">0</b><span>剩餘地雷</span></div>` : ""}
             <button class="btn sm" type="button" id="gNew">${ic("shuffle")}新的一盤</button>
           </div>
         </header>
-        <div class="game-layout">
+        <div class="game-layout${id === "minesweeper" ? " wide" : ""}">
           <div class="game-board-wrap"><div id="gBoard"></div></div>
           <aside class="game-side" id="gSide"></aside>
         </div>
@@ -2398,7 +2736,8 @@
     const save = () => S && store.set(gameKey(id), S);
     const tick = () => {
       const now = performance.now();
-      if (S && !S.done && last && !document.hidden) S.elapsed += now - last;
+      if (S && !S.done && !(S.boom >= 0) && last && !document.hidden)
+        S.elapsed += now - last;
       last = document.hidden ? 0 : now;
       $("#gTime").textContent = fmtTime(S?.elapsed || 0);
       if (++ticks % 10 === 0) save();
@@ -2421,7 +2760,7 @@
 
     const stats = () => {
       $("#gHints").textContent = S.hints;
-      if (sudokuLike) $("#gMiss").textContent = S.mistakes;
+      if (hasMiss) $("#gMiss").textContent = S.mistakes;
     };
     const winPanel = () => {
       const best = store.get("sh:game:best", {})[id];
@@ -2431,7 +2770,7 @@
         <div class="game-win-facts">
           <div class="fact"><b class="num">${fmtTime(S.elapsed)}</b><span>用時</span></div>
           <div class="fact"><b class="num">${S.hints}</b><span>提示</span></div>
-          ${sudokuLike ? `<div class="fact"><b class="num">${S.mistakes}</b><span>錯誤</span></div>` : ""}
+          ${hasMiss ? `<div class="fact"><b class="num">${S.mistakes}</b><span>錯誤</span></div>` : ""}
         </div>
         <p class="small muted">${best && Math.round(S.elapsed) <= best ? "這是你目前最快的紀錄。" : best ? `最佳紀錄 ${fmtTime(best)}。` : ""}休息夠了就回去讀書吧。</p>
         <div class="game-tools"><button class="btn primary" type="button" data-again>${ic("shuffle")}再來一盤</button><a class="btn" href="#/">回首頁</a></div>
@@ -2460,6 +2799,7 @@
       save,
       stats,
       finish,
+      again: () => fresh(),
       msg: (html) => {
         const m = $("#gMsg");
         if (m) m.innerHTML = html;
@@ -2470,7 +2810,13 @@
       board.classList.remove("solved");
       newBtn.disabled = false;
       stats();
-      dispose = (sudokuLike ? mountSudoku : mountNonogram)(id, S, ui);
+      dispose = (
+        sudokuLike
+          ? mountSudoku
+          : id === "nonogram"
+            ? mountNonogram
+            : mountMinesweeper
+      )(id, S, ui);
       if (S.done) {
         board.classList.add("solved");
         winPanel();
@@ -2741,6 +3087,287 @@
     return () => {
       removeEventListener("keydown", onKey);
       board.removeEventListener("click", onClick);
+    };
+  }
+
+  // 踩地雷：open 1 = 已翻開、flag 1 = 插旗、boom = 踩到的那格（-1 = 沒踩到）、prev = 踩雷前的 open（退回用）
+  function mountMinesweeper(id, S, ui) {
+    const MS = window.SH_GAMES.minesweeper,
+      { board, side } = ui,
+      { W, H, N } = S;
+    const num = MS.numbers(W, H, S.mines);
+    // 窄螢幕把盤面轉成直的（16 寬 × 30 高）；資料仍照 W×H 存，只換顯示位置
+    let tall = null,
+      DW = W,
+      DH = H,
+      cells = [],
+      mode = 1,
+      cur = -1,
+      flash = -1,
+      hl = [];
+    const at = (x, y) => (tall ? x * W + y : y * W + x);
+    const pos = (i) => {
+      const r = (i / W) | 0,
+        c = i % W;
+      return tall ? [r, c] : [c, r];
+    };
+    board.className = "ms-board";
+    board.setAttribute("role", "grid");
+    board.setAttribute("aria-label", `踩地雷 ${W}×${H} 盤面，${N} 顆雷`);
+    board.tabIndex = 0;
+
+    const fit = () => {
+      const avail = board.parentElement.clientWidth;
+      if (tall !== avail < 520) {
+        tall = avail < 520;
+        [DW, DH] = tall ? [H, W] : [W, H];
+        board.style.gridTemplateColumns = `repeat(${DW}, var(--cs))`;
+        let html = "";
+        for (let y = 0; y < DH; y++)
+          for (let x = 0; x < DW; x++)
+            html += `<div class="ms-cell" data-i="${at(x, y)}"></div>`;
+        board.innerHTML = html;
+        cells = [];
+        $$(".ms-cell", board).forEach((el) => (cells[+el.dataset.i] = el));
+        paint();
+      }
+      const cs = Math.floor((avail - 4 - (DW - 1)) / DW);
+      board.style.setProperty("--cs", `${Math.max(16, Math.min(32, cs))}px`);
+    };
+    const flags = () => S.flag.reduce((a, b) => a + b, 0);
+    const paint = () => {
+      const err = new Set(S.err),
+        lit = new Set(hl),
+        over = S.boom >= 0;
+      cells.forEach((el, i) => {
+        const o = S.open[i],
+          n = num[i];
+        let cls = "ms-cell";
+        if (o) cls += ` o n${n}`;
+        else if (S.flag[i] || (S.done && S.mines[i]))
+          cls += over && !S.mines[i] ? " fl err" : " fl";
+        else if (over && S.mines[i]) cls += " mine";
+        if (i === S.boom) cls += " mine boom";
+        if (err.has(i)) cls += " err";
+        if (lit.has(i)) cls += " hl";
+        if (i === flash) cls += " flash";
+        if (i === cur) cls += " cur";
+        if (el.className !== cls) {
+          el.className = cls;
+          el.innerHTML = o && n > 0 ? n : cls.includes(" fl") ? ic("flag") : "";
+        }
+        const [x, y] = pos(i);
+        el.setAttribute(
+          "aria-label",
+          `第 ${y + 1} 橫列第 ${x + 1} 直行：${o ? (n ? `數字 ${n}` : "空白") : S.flag[i] ? "插旗" : "未翻開"}`,
+        );
+      });
+      const m = $("#gMines");
+      if (m) m.textContent = N - flags();
+      ui.stats();
+    };
+    const sideHTML = () =>
+      S.boom >= 0
+        ? `<div class="card game-win ms-lose">
+            <div class="eyebrow">Boom</div>
+            <h2 class="display h-m">踩到雷了</h2>
+            <p class="small muted">每一盤都能只靠推理解完，這一步其實可以算出來。要退回去再想想，還是重新開一盤？</p>
+            <div class="game-tools"><button class="btn primary" type="button" id="gBack">${ic("rotate")}退回這一步</button><button class="btn" type="button" id="gAgain">${ic("shuffle")}再來一盤</button></div>
+          </div>`
+        : `<div class="game-msg" id="gMsg" aria-live="polite">從開局翻開的那一塊邊緣開始：數字周圍還沒翻開的格子剛好等於數字時，那些都是雷。</div>
+          <div class="seg ms-mode" role="group" aria-label="點格子時">
+            <button type="button" data-mode="1" aria-pressed="${mode === 1}">翻開</button>
+            <button type="button" data-mode="2" aria-pressed="${mode === 2}">${ic("flag")}插旗</button>
+          </div>
+          <div class="game-tools"><button class="btn accent" type="button" id="gHint">${ic("bolt")}提示</button></div>
+          <p class="small muted game-keys">${IS_TOUCH ? "長按格子可以直接插旗。" : "右鍵插旗；點插滿旗的數字會翻開周圍剩下的格子。鍵盤：方向鍵移動、<kbd>Space</kbd> 翻開、<kbd>F</kbd> 插旗、<kbd>H</kbd> 提示。"}</p>`;
+    const renderSide = () => {
+      if (S.done) return;
+      side.innerHTML = sideHTML();
+      $$(".ms-mode button", side).forEach((b) =>
+        b.addEventListener("click", () => {
+          mode = +b.dataset.mode;
+          renderSide();
+        }),
+      );
+      $("#gHint")?.addEventListener("click", hint);
+      $("#gAgain")?.addEventListener("click", ui.again);
+      $("#gBack")?.addEventListener("click", back);
+    };
+    const commit = () => {
+      ui.save();
+      paint();
+      if (S.open.filter(Boolean).length === W * H - N) {
+        S.flag = S.mines.slice();
+        cur = -1;
+        hl = [];
+        ui.finish();
+        paint();
+      }
+    };
+
+    const reveal = (i) => {
+      if (S.done || S.boom >= 0 || S.flag[i]) return;
+      let todo = [i];
+      // 點已翻開的數字：周圍旗子數剛好等於數字 → 翻開其他鄰格
+      if (S.open[i]) {
+        const nb = MS.nbrs(W, H, i);
+        if (!num[i] || nb.filter((j) => S.flag[j]).length !== num[i]) return;
+        todo = nb.filter((j) => !S.open[j] && !S.flag[j]);
+        if (!todo.length) return;
+      }
+      const prev = S.open.slice();
+      S.err = [];
+      hl = [];
+      flash = -1;
+      const hit = todo.find((j) => S.mines[j]);
+      if (hit !== undefined) {
+        S.prev = prev;
+        S.boom = hit;
+        S.mistakes++;
+        ui.save();
+        paint();
+        renderSide();
+        return;
+      }
+      todo.forEach((j) => MS.open(W, H, num, S.open, j));
+      commit();
+    };
+    const toggleFlag = (i) => {
+      if (S.done || S.boom >= 0 || S.open[i]) return;
+      S.flag[i] ^= 1;
+      S.err = [];
+      commit();
+    };
+    const back = () => {
+      S.open = S.prev;
+      S.prev = null;
+      S.boom = -1;
+      ui.save();
+      renderSide();
+      paint();
+    };
+    const hint = () => {
+      if (S.done || S.boom >= 0) return;
+      S.hints++;
+      const wrong = [];
+      S.flag.forEach((f, i) => f && !S.mines[i] && wrong.push(i));
+      if (wrong.length) {
+        S.err = wrong;
+        hl = [];
+        ui.msg(
+          `有 <b>${wrong.length}</b> 面旗插錯了，已用紅色標出來。拔掉之後再按一次提示，就會告訴你下一步。`,
+        );
+        ui.save();
+        paint();
+        return;
+      }
+      const [d] = MS.deduce(W, H, N, num, S.open, S.flag);
+      let i, mine, why;
+      if (d) {
+        ({ i, mine } = d);
+        hl = d.from;
+        const what = mine ? "<b>一定是雷</b>，幫你插上旗" : "<b>一定安全</b>，幫你翻開";
+        why =
+          d.from.length === 1
+            ? `看標出來的 <b>${num[d.from[0]]}</b>：它周圍${mine ? "還沒翻開的格子數剛好等於還沒找到的雷數" : "的雷都已經插旗了"}，所以這格${what}。`
+            : d.from.length === 2
+              ? `比較標出來的 <b>${num[d.from[0]]}</b> 和 <b>${num[d.from[1]]}</b>：前者周圍的未知格全被後者包住，扣掉之後多出來的格子${mine ? "全是雷" : "都沒有雷"}，所以這格${what}。`
+              : `用全盤剩下的雷數就能推出這格${what}。`;
+      } else {
+        // 推不出來（玩家旗子還沒插齊時可能發生）→ 直接揭曉一格靠近邊界的安全格
+        const safe = S.mines
+          .map((m, j) => j)
+          .filter((j) => !S.mines[j] && !S.open[j]);
+        i =
+          safe.find((j) => MS.nbrs(W, H, j).some((n) => S.open[n])) ?? safe[0];
+        if (i === undefined) return;
+        mine = false;
+        hl = [];
+        why = "直接揭曉一格安全的格子。";
+      }
+      if (mine) S.flag[i] = 1;
+      else MS.open(W, H, num, S.open, i);
+      S.err = [];
+      flash = cur = i;
+      ui.msg(why);
+      commit();
+    };
+
+    // 指標：左鍵 / 點一下照模式翻開或插旗；右鍵或長按插旗
+    let press = null;
+    const onDown = (e) => {
+      const el = e.target.closest(".ms-cell");
+      if (!el || S.done || S.boom >= 0) return;
+      const i = +el.dataset.i;
+      cur = i;
+      if (e.button === 2) {
+        e.preventDefault();
+        toggleFlag(i);
+        return;
+      }
+      if (e.button !== 0) return;
+      press = {
+        i,
+        t: setTimeout(() => {
+          press = null;
+          toggleFlag(i);
+          navigator.vibrate?.(15);
+        }, 400),
+      };
+    };
+    const onUp = (e) => {
+      if (!press) return;
+      clearTimeout(press.t);
+      const { i } = press;
+      press = null;
+      if (e.type === "pointercancel") return;
+      mode === 2 && !S.open[i] ? toggleFlag(i) : reveal(i);
+    };
+    const onKey = (e) => {
+      if (!gameKeyOK(e) || S.done || S.boom >= 0) return;
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      const MOVE = {
+        ArrowUp: [0, -1],
+        ArrowDown: [0, 1],
+        ArrowLeft: [-1, 0],
+        ArrowRight: [1, 0],
+      };
+      if (MOVE[e.key]) {
+        e.preventDefault();
+        const [x, y] = cur < 0 ? [-1, 0] : pos(cur);
+        cur = at(
+          Math.min(DW - 1, Math.max(0, x + MOVE[e.key][0])),
+          Math.min(DH - 1, Math.max(0, y + MOVE[e.key][1])),
+        );
+        paint();
+      } else if (e.key === " " || e.key === "Enter") {
+        if (cur < 0 || (e.target !== board && e.target.matches("button, a")))
+          return;
+        e.preventDefault();
+        reveal(cur);
+      } else if ((e.key === "f" || e.key === "F") && cur >= 0) toggleFlag(cur);
+      else if (e.key === "h" || e.key === "H") hint();
+    };
+    const noMenu = (e) => {
+      if (e.target.closest(".ms-cell")) e.preventDefault();
+    };
+    board.addEventListener("pointerdown", onDown);
+    board.addEventListener("pointerup", onUp);
+    board.addEventListener("pointercancel", onUp);
+    board.addEventListener("contextmenu", noMenu);
+    addEventListener("keydown", onKey);
+    addEventListener("resize", fit);
+    renderSide();
+    fit();
+    return () => {
+      clearTimeout(press?.t);
+      removeEventListener("keydown", onKey);
+      removeEventListener("resize", fit);
+      board.removeEventListener("pointerdown", onDown);
+      board.removeEventListener("pointerup", onUp);
+      board.removeEventListener("pointercancel", onUp);
+      board.removeEventListener("contextmenu", noMenu);
     };
   }
 
@@ -5794,6 +6421,7 @@
     route();
     paintAcct();
     Cloud.init();
+    MoodWatch.init();
     // 閒置時先建搜尋索引，按 ⌘K / 時就不用等
     (window.requestIdleCallback || ((f) => setTimeout(f, 1500)))(() =>
       buildIndex().catch(() => {}),
