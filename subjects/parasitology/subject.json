@@ -58,23 +58,16 @@
       ]
     },
     {
-      "title": "組織線蟲（114 排程未列）",
-      "chapters": [
-        "foodborne",
-        "filaria"
-      ]
+      "title": "組織線蟲",
+      "chapters": ["foodborne", "filaria"]
     },
     {
       "title": "線蟲實驗 W3",
-      "chapters": [
-        "nematode-lab"
-      ]
+      "chapters": ["nematode-lab"]
     },
     {
       "title": "吸蟲（鄭柏青）W5–W7",
-      "chapters": [
-        "trematodes"
-      ]
+      "chapters": ["trematodes"]
     }
   ],
   "mock": {
@@ -100,9 +93,7 @@
         "title": "鄭柏青：吸蟲",
         "points": 40,
         "n": 20,
-        "from": [
-          "trematodes"
-        ]
+        "from": ["trematodes"]
       }
     ],
     "newRatio": 0.2
