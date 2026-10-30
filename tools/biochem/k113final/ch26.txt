@@ -1,0 +1,382 @@
+                                      Chapter 26：RNA Metabolism
+
+ 組長：洪碩謙                 學藝：陳政聖                 授課老師：周志銘                                        114. Dec. 04
+
+
+1. What is the consequence of RNA transcription if AATAAA was mutated to AAGAAA in the 3’
+  untranslated region (3’UTR)?
+  (A) capping
+  (B) polyadenylation
+  (C) splicing
+  (D) transport
+
+
+2. For eukaryotic RNA, which one is incorrect?
+  (A) 5’-capping is able to increase the stability of mRNA.
+  (B) There is no 5’-capping in rRNA and tRNA.
+  (C) The 3’ poly(A) in mRNA is transcribed by poly(T) located in the sample strand.
+  (D) There is no 3’ poly(A) in histone mRNA.
+
+
+3. The sigma factor of E.coli RNA polymerase
+  (A) associates with the promoter before binding to the core enzyme.
+  (B) combines with the core enzyme to confer specific binding to a promoter.
+  (C) is inseparable from the core enzyme.
+  (D) is required for termination of an RNA chain.
+
+
+4. Which one of the following statements about E.coli RNA polymerase (core enzyme) is false?
+  (A) It can start new chains de novo or elongate old ones.
+  (B) It needs sigma factor for the initiation step.
+  (C) It uses nucleoside 5’triphosphates as substrates.
+  (D) Its activity is blocked by rifampicin.
+
+
+5. Which of the following is not known to be involved in initiation by eukaryotic RNA polymerase II?
+  (A) DNA helicase activity
+  (B) DNA polymerase activity
+  (C) Formation of an open complex
+  (D) Protein binding to specific DNA sequences
+ 6. Which one of the following statements about eukaryotic RNA polymerase is correct?
+   (A) All three eukaryotic RNA polymerase recognize the same promoters as prokaryotic polymerases.
+   (B) None of the eukaryotic RNA polymerases recognizes prokaryotic promoters.
+   (C) Only eukaryotic RNA polymerase I recognizes prokaryotic promoters.
+   (D) Only eukaryotic RNA polymerase II recognizes prokaryotic promoters.
+
+
+ 7. Differential RNA processing (alternative splicing) may result in
+   (A) attachment of the poly(A) tail to the 5' end of an mRNA.
+   (B) inversion of certain exons in the final mRNA.
+   (C) the production of the same protein from two different genes.
+   (D) the production of two distinct proteins from a single gene.
+
+
+ 8. Which one of the following statements about mRNA stability is true?
+   (A) Degradation of mRNA by polynucleotide phosphorylase yields 5'-nucleoside monophosphates.
+   (B) In general, bacterial mRNAs have longer half-lives than do eukaryotic mRNAs.
+   (C) Rates of mRNA degradation are always at least ten-fold slower than rates of mRNA synthesis.
+   (D) Secondary structure in mRNA (hairpins, for example) slows the rate of degradation.
+
+
+ 9. The eukaryotic TATA-binding protein (TBP) functions in a manner similar to
+   (A) CAP in E.coli
+   (B) rho (ρ) factor in E.coli
+   (C) lac I in E.coli
+   (D) sigma (σ) in E.coli
+
+
+10. Which of these polymerases does not require a template?
+   (A) RNA pol I
+   (B) Polyadenylate polymerase
+   (C) RNA pol II
+   (D) Reverse transcriptase
+
+
+11. In eukaryotic cells, RNA polymerase _____ transcribes most of the ribosomal RNA, RNA polymerase
+   _____ transcribes tRNAs and RNA polymerase _____ transcribes the major structural genes.
+   (A) I ; II ; III
+   (B) I ; III ; II
+   (C) II ; I ; III
+   (D) II ; III ; I
+12. Which of the following is true of the RNA polymerase?
+   1.Two copies of the α subunit are present, along with one each of β, β*, σ, and *.
+   2.The largest subunit, β*, functions in DNA binding.
+   3.Binds the NTP substrates and interacts with σ (70 kD) plays a role in transcription initiation.
+   4.The core polymerase (α2ββ*), which is catalytically competently able to recognize promoters.
+   (A) 1, 2, 3, 4
+   (B) 2, 3, 4
+   (C) 1, 2, 3
+   (D) 1, 2, 4
+
+
+13. Which of the following events commonly occur in the processing of eukaryotic mRNA (mRNA
+   posttranscriptional modification)?
+   (1) 5’-end created by ribonuclease P leaves a phosphate on the 5’- terminal.
+   (2) 5’-Capping, protect against exonucleases.
+   (3) 3’-Poly A addition, stabilize the mRNA by increasing resistance to cellular nucleases.
+   (4) Trimming of the 3’-ends by endonuclease.
+   (5) Splicing of coding sequences.
+   (A) 1, 2, 3, 4, 5
+   (B) 2, 3, 5
+   (C) 2, 4, 5
+   (D) 1, 2, 5
+
+
+14. Which inhibitor of the RNA polymerase binds to its β subunit and inhibits RNA transcription?
+   (A) Rifampicin
+   (B) α-amanitin
+   (C) actinomycin
+   (D) Ampicillin
+
+
+15. Which of the following RNA sequences could form a hairpin loop?
+   (A) ACGUUUCGUAUCGUACACACGU
+   (B) GCATCGAUCGUCUCGAUCGUGC
+   (C) ACAGACAGACAGUCUGUCUGUC
+   (D) AAUUAACCAAGGAACCGGUUCC
+   (E) none of the above
+16. Which amino acids are likely to be important in proteins that binds to DNA?
+   (A) Lys, Arg
+   (B) Glu, Asp
+   (C) Gln, Asn
+   (D) Gly, Val
+   (E) Ser, Thr
+
+
+17. Which base will be added to the growing mRNA if the base on the DNA template is adenine?
+   (A) Cytosine
+   (B) Guanine
+   (C) Thymine
+   (D) Uracil
+
+
+18. Which of the following statements about E. coli RNA polymerase (core enzyme) is false?
+   (A) It can start new chains de novo or elongate old ones.
+   (B) It has no catalytic activity unless the sigma factor is bound.
+   (C) It uses nucleoside 5'-triphosphatases as substrates.
+   (D) Its activity is blocked by rifampicin.
+
+
+19. Processing of a primary mRNA transcript in a eukaryotic cell does not normally involve
+   (A) attachment of a long poly(A) sequence at the 3' end.
+   (B) conversion of normal bases to modified bases, such as inosine and pseudouridine.
+   (C) excision of intervening sequences (introns).
+   (D) joining of exons.
+
+
+20. Which of the following statements about the synthesis of rRNA and tRNA in E. coli is true?
+   (A) Both rRNA and some tRNAs are part of the same primary transcript.
+   (B) Each rRNA sequence (16S, 23S, 5S) is transcribed into a separate primary transcript.
+   (C) Primary tRNA transcripts undergo methylation, but rRNA sequences are not methylated.
+   (D) The tRNA sequence all lie at the 3' end of the rRNA transcripts.
+   (E) There is a single copy of the rRNA genes.
+
+
+21. The E.coli promoter region contains a ~10 consensus sequence of __________ on the sense strand.
+   (A) GAGAGA
+   (B) TATAAT
+   (C) GAGGAG
+   (D) GACGTC
+22. What type of enzyme activity is associated with the termination factor ρ?
+   (A) topoisomerase
+   (B) endonuclease
+   (C) exonuclease
+   (D) helicase
+
+
+23. What type of RNA is found in the spliceosome (during splicing)?
+   (A) snRNA
+   (B) tRNA
+   (C) rRNA
+   (D) triple-stranded RNA
+
+
+24. RNA polymerase II (pol II) catalyzes the formation of which type of RNA?
+   (A) mRNA
+   (B) rRNA
+   (C) snRNA
+   (D) tRNA
+
+
+25. A branched “lariat” structure is formed during
+   (A) attachment of a 5’ cap to mRNA.
+   (B) attachment of poly A tails to mRNA.
+   (C) splicing of all classes of introns.
+   (D) splicing of group II introns.
+
+
+26. Which one of the following RNA sequences could form a hairpin loop?
+   (A) UUCGUAUCGUACAAACGU
+   (B) GCATCGAUCGUCUCGAUCGUGC
+   (C) ACAGACAGACAGUCUGUCUGUC
+   (D) AAUUAACCAAGGAACCGGUUCC
+
+
+27. Which of the following is NOT a DNA binding motif for protein?
+   (A) helix-turn-helix
+   (B) zinc finger
+   (C) small nuclear ribonucleoproteins
+   (D) leucine zipper
+簡答
+選擇題
+       1        2           3      4        5     6        7         8        9        10
+       B        C         B        A        B     B        D        D         D        B
+       11       12       13        14       15    16       17       18       19        20
+       B        C         C        A        C     A        D        AB        B        A
+    21          22       23        24       25    26       27
+       B        D         A       AC        D     C        C
+
+
+1. (B)
+  AATAAA 與 poly A addition signal 有關，Poly A polymerase 會辨識 RNA 上的 Cleavage Sequence：
+  AAUAAA（Poly A Addition Signal）。突變 AATAAA → AAGAAA 造成 Poly A polymerase 無法正確
+  辨識此序列，造成 mRNA 穩定性降低、容易被分解，影響蛋白質表現量，故選(B)。
+2. (C)
+  錯誤。mRNA 的 3' poly A tail 不是由 DNA 上的 poly(T)轉錄而來。
+            3’poly A tail 修飾過程
+   1        辨識 cleavage sequence（有 AAUAAA 片段）
+   2        用特別 endonuclease 切斷 cleavage sequence 後的 11～30 residue（往 3’端方向數）
+   3        用一種 Non template-directed polymerase（聚合過程不需要模板 DNA）加上約 300 個
+            Polyriboadenylic acid（Poly A）
+  (B)正確。tRNA 和 rRNA 有其他的方法保護結構。
+  (D)正確。Histone mRNA 是缺乏 poly A tail 的 mRNA。
+
+
+3. (B)
+  (A) sigma factor 會先與 core enzyme 結合，再附著至 promoter。
+  (B) 正確。
+  (C) sigma factor 可與 core enzyme 分離，為 separable。
+  (D) termination 可分成 sequence dependent 及 ρ-factor dependent，皆與 sigma factor 無關，sigma factor
+         和 initiation 有關。
+
+
+4. (A)
+  類第 18 題。合成新的 RNA 鏈需要 Holoenzyme（＝core enzyme＋σ factor）
+  (A) 的敘述會比較像 DNA Polymerase 會出現的行為。Core enzyme 不能自行開始新的轉錄（無法 de
+         novo 起始），需要 sigma factor。
+  (B) Rifampicin 為半合成廣效殺菌性抗生素，藉與 RNA 聚合酶的 β 次單元之強力結合，而抑制細菌
+         RNA 的合成。
+ 5. (B)
+   DNA helicase 是否參與 RNA 轉錄作用尚有爭議；參與 DNA 複製的 DNA polymerase 和 RNA 轉錄作
+   用無直接相關。
+
+
+ 6. (B)
+   真核和原核生物的轉錄系統有根本的差異，包括啟動子序列和所需的輔助因子都不同。在細菌中
+   RNA polymerase 需要相關的輔助因子來和啟動子識別和結合。另一方面，真核生物的過程要複雜得
+   多。真核生物至少需要七個轉錄因子才能使 RNA polymerase II 與啟動子結合。
+
+
+ 7. (D)
+   選擇性剪接（alternative splicing）的特性：同一基因切除不同 intron 產生不同 mRNA，進而產生不
+   同蛋白質，增加基因表達的多樣性。
+
+
+ 8. (D)
+   (A) 應為 5’-nucleotide diphosphates。
+   (B) 真核生物的 mRNA 經過 5’cap、3’poly A 等修飾，較不易被分解，半衰期約 30 分鐘，而原核生
+          物的 mRNA 穩定性較差，半衰期約 2 至 3 分鐘。
+   (C) 通常為了維持分子穩定水平，合成和降解的速度近乎一樣。
+
+
+ 9. (D)
+   真核細胞中的 TBP 與大腸桿菌中 Holo Enzyme 的 σ 次單元作用類似，皆是辨識啟動子（Promoter
+   Recognition）。TBP 可以和各個 TBP 相關因子共同組成通用轉錄因子 TFIID，再進一步組成 RNA
+   polymerase II 的轉錄起始複合物。
+
+
+10. (B)
+   大多數核酸聚合酶都需要模板，Polyadenylate polymerase 是少數不需要模板的特例。
+   其他選項都需要模板
+   (A) RNA pol I：需要 DNA 模板轉錄 rRNA。
+   (C) RNA pol II：需要 DNA 模板轉錄 mRNA。
+   (D) Reverse transcriptase：需要 RNA 模板合成 DNA。
+
+
+11. (B)
+   真核生物的 RNA polymerase
+     RNA polymerase I（RNA Pol I）        合成 rRNA
+     RNA polymerase II（RNA Pol II）      合成 mRNA、大部分 snRNA、miRNA
+     RNA polymerase III（RNA Pol III）    合成 tRNA、少部分 snRNA
+12. (C)
+   1、2、3：正確。
+   4：錯誤，因為 Core Enzyme 僅能進行 Elongation，需要 σ 因子組成 Holoenzyme 才能辨識啟動子。
+
+
+13. (C)
+   1：改成 leaves two phosphates。
+   3：cellular nucleases 改成 nuclear nucleases。
+
+
+14. (A)
+   類第 4 題的 D 選項。
+   Rifampicin 為半合成廣效殺菌性抗生素，藉與 RNA 聚合酶的 β 次單元之強力結合，而抑制細菌 RNA
+   的合成（There are only 2 antibiotics targeting bacterial RNAP on the market: the rifamycin series and
+   fidaxomicin/lipiarmicin.）
+
+
+15. (C)
+   類第 26 題。回文序列，以中間標示的 A 為對稱點：ACAGACAGACAGUCUGUCUGUC。
+
+
+16. (A)
+   DNA 帶負電，需帶正電胺基酸與之結合，其中組蛋白含有帶正電的鹼性胺基酸如 Lys 與 Arg。
+
+
+17. (D)
+
+
+18. (A)(B)
+   類第 4 題
+   (A) 合成新的 RNA 鏈需要 Holo Enzyme。
+   (B) Elongation 時缺乏 sigma factor，Core Enzyme 依然有酵素活性。
+   (C) Triphosphatases 是水解酶，水解酶不該是受質，要抓錯字的話(C)也可以算錯。
+
+
+19. (B)
+   (B) 只會發生在 tRNA、 snRNA 和 rRNA，不會發生在 mRNA。
+   mRNA 修飾步驟如下：
+    (1) 5’capping：穩定 mRNA 並延長真核生物 RNA 的半衰期，發生在轉錄作用早期。
+    (2) 3’ poly A tail：保護 mRNA，協助運送到細胞質、蛋白質合成 Initiation，反應位置為 Cleavage
+          sequence（AAUAAA）。
+    (3) Splicing：剪除 Intron，再連接 Exon（真核生物 only）。
+
+
+20. (A)
+   E.coli 的 rRNA 和 tRNA 在相同基因段上，有相同啟動子。
+   (B) 先轉錄成一條 pre-rRNA，再以 cleavage 形成不同 rRNA。
+   (C) 都會甲基化。
+   (D) 如右圖，有時會與 rRNA 序列交錯排列。
+   (E) 不只一個（E.coli 有 7 個 copy）
+                             。
+
+
+21. (B)
+   Consensus Sequence 在原核生物中常出現 T、A 鹼基（較容易解旋），又稱為 TATA box。
+   註：真核生物常出先的序列為 5’ GGCCAATCT 3’，又稱為 CAAT box。
+
+
+22. (D)
+ ρ protein 是一種需要 ATP 的解旋酶。當合成的 RNA 上有其接合位，會接上去並向聚合酶方向移動，
+ 阻止合成並解開雜合體，促使 mRNA 釋出。
+
+
+23. (A)
+   Spliceosome，由 snRNA 與 protein 組成，其中 snRNA 分為五種（U1, 2, 4, 5, 6），具有酵素活性，是
+   一種 Ribozyme。
+
+
+24. (A)(C)
+   真核生物的 RNA polymerase
+              RNA polymerase I（RNA Pol I）                      合成 rRNA
+             RNA polymerase II（RNA Pol II）             合成 mRNA、大部分 snRNA、miRNA
+          RNA polymerase III（RNA Pol III）                 合成 tRNA、少部分 snRNA
+
+
+25. (D)
+             Intron              Splicing Initiation           是否形成 Lariat Structure
+          Group I            GTP（guanosine cofactor）                     X
+          Group II               internal adenosine                      O
+26. (C)
+   ACAGACAGACAGUCUGUCUGUC，CAG 兩邊鹼基對互補。
+
+
+27. (C)
+   (A) HTH：一條胺基酸短鏈（通常由 Proline 或 Glycine 組成）連結兩個 α 螺旋。
+           1 個 turn（10～25 個胺基酸）                胺基酸短鏈            協助專一性辨識
+                     2 個 α-Helix               C 端 α-Helix      辨識序列、與 DNA Major Groove 結合
+                （60～90 個胺基酸）                   N 端 α-Helix      協助穩定結構
+          註：Four DNA-binding helix-turn-helix motifs in the Lac repressor
+   (B) Zn-Finger：1 個 α-Helix 和 2 個 β-Sheet
+          Zn2+易與帶有硫（S）的胺基酸（Cysteine、Histidine）以配位共價鍵結合。
+          注意：是半胱胺酸 Cysteine，不是胱胺酸 Cystine（其 S 形成雙硫鍵，無法和 Zn 結合）
+           α-Helix    與 DNA Major Groove 結合                            能與 DNA、RNA、蛋白質甚至脂類
+           β-Sheet    與 DNA 上的五碳醣－磷酸骨架交互作用                             結合
+             Zn2+     穩定整體架構
+          常見於真核細胞，少見於原核細胞；Cys2-His2 為真核生物轉錄因子中最常見類別。
+          註：Transcription factor TFIIIA binds to the 5S RNA gene via zinc fingers inserted into the major groove.
+   (C) snRNPs 由 snRNA 與 protein 組成，會結合在 intron 上，以協助 splicing。
+   (D) bZIP：2 條 α-Helix，可以啟動轉錄，須以特定角度和 DNA 結合。
+           C端        以 Leu 作為疏水核心，2 條 α-Helix 利用疏水性作用力結合
+           N端        有 Basic Region（帶有 Arg、Lys），與帶負電 DNA 的 Major Groove 結合
+

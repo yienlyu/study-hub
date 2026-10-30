@@ -1,0 +1,313 @@
+                      質體 DNA 萃取、電泳實驗、質體 DNA 限制酶反應
+組長：楊傑愉                    學藝：陳政聖       授課老師：周志銘   114.Oct.2 & Oct.16
+
+
+一、單選題
+1. 在 DNA 電泳中，S1 buffer 作用是？
+ (A) Digestion
+ (B) Resuspension
+ (C) Lysis
+ (D) Neutralize
+
+
+2. 在 DNA 電泳中，S2 buffer 作用是？
+ (A) Digestion
+ (B) Resuspension
+ (C) Lysis
+ (D) Neutralize
+
+
+3. 在 DNA 電泳中，S3 buffer 作用是？
+ (A) Digestion
+ (B) Resuspension
+ (C) Lysis
+ (D) Neutralize
+
+
+4. 在 DNA 電泳中，如何去除 RNA？
+ (A) 加入 RNase A
+ (B) 加入 DNase A
+
+
+5. 承上題，在 DNA 電泳中，上題用於去除 RNA 的酵素會加在哪？
+ (A) S1 buffer
+ (B) S2 buffer
+ (C) S3 buffer
+ (D) Elution buffer
+
+
+6. 在 DNA 電泳中，下列何者能作為 elution buffer？
+ (A) PBS (pH＝5.0)
+ (B) TE buffer (pH＝3.0)
+ (C) TE buffer (pH＝5.0)
+ (D) TE buffer (pH＝8.0)
+7. DNA 電泳中，照膠時是用甚麼燈箱？
+  (A) UV light
+  (B) 汞燈
+  (C) 藍光 LED
+  (D) 全光 LED
+
+
+8. 在 DNA 電泳中，如果有一個分子大的 DNA 分子被分離出來，兩個小的分子沒辦法分離，且大小
+  相近，應該要如何調整濃度？
+  (A) 增加濃度
+  (B) 減少濃度
+  (C) 無法分離
+
+
+9. 在 DNA 電泳中，跑得遠的 DNA 跟跑得近的 DNA 大小比較？
+  (A) 遠＞近
+  (B) 近＞遠
+  (C) 遠＝近
+  (D) 無法判斷
+
+
+10. 超螺旋（Supercoiled，SC）、環形（Open Circular，OC）、線狀（Linear，L）型態 DNA，在電泳中
+  相同時間內跑的距離遠近？
+  (A) SC＞L＞OC
+  (B) SC＞OC＞L
+
+
+11. DNA 樣品染料中有哪幾種成分？
+  (A) Bromophenol blue
+  (B) Orange G
+  (C) Xylene cyanol
+  (D) Glycerol
+
+
+12. 本學期 DNA 電泳使用的緩衝液？
+  (A) TAE buffer
+  (B) TBE buffer
+  (C) TPE buffer
+
+
+13. DNA 電泳的電泳槽是哪一種？
+  (A) 水平式平板電泳槽
+  (B) 垂直板電泳槽
+  (C) 圓盤電泳槽
+14. 本學期 DNA 電泳實驗中所使用的 DNA 染劑為何？
+   (A) Methyl blue
+   (B) EtBr
+   (C) AO（acridine orange）
+   (D) Gel green
+
+
+15. 本學期 DNA 電泳實驗中所使用的介質為何？
+   (A) agar
+   (B) agarose
+   (C) acrylamide
+   (D) starch
+
+
+ 二、手寫題
+16. The agarose gel electrophoresis results of mini-preparation of pTMU DNA are shown as figure below.
+
+
+
+
+   Please answer the following questions:
+   (A) In this experiment, is the pTMU DNA molecule linear or circular? _________________
+   (B) What is “low molecular weight nucleic acid” in lane 2? __________________________
+   (C) Which buffer in mini-preparation of DNA may cause the result mentioned in (2) when it went wrong?
+       （S1, S2, S3, W1, W2, EB buffer）______________
+   (D) Please explain the lane 4 result. ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+
+
+17. In agarose gel electrophoresis:
+   (A) Which buffer system is used in this experiment? ____________________
+   (B) Which DNA staining dye is used in this experiment? _________________
+18. In the restriction enzyme experiment, we used BamHI, XhoI and EcoRI to digest pTMU DNA, please
+   answer the following question:
+  (A) EcoRI belongs to which type of restriction enzyme? （Type I, II, III） __________________
+
+
+19. Use the following restriction enzyme reaction result to draw the pTest DNA restriction physical map:
+
+ BamHI             15557             KpnI             9365, 6192        PstI              14696, 861
+
+                                                      6935, 6266,
+ SalI              11556, 4001       XbaI                               BamHI+KpnI        9365, 6120, 72
+                                                      2356
+
+                   11273, 3423,                       11556, 2911,                        6935, 3289,
+ BamHI + PstI                        BamHI+SalI                         BamHI+XbaI
+                   861                                1090                                2977, 2356
+
+                   6192, 5153,                        8347, 3209,                         6460, 3361,
+ KpnI + PstI                         KpnI+SalI                          KpnI+XbaI
+                   3351, 861                          2983, 1018                          2905, 2356, 475
+
+                   8362, 4001,                        6266, 5628,                         6935, 4001,
+ PstI + SalI                         PstI+XbaI                          SalI+XbaI
+                   2333, 861                          2356, 861, 446                      2356, 1887, 378
+20. Look at the following picture and answer the questions below.
+
+
+
+
+      1             2              3             4          5           6                 7            8
+                                EcoRI＋                               BamHI＋                         EcoRI＋
+   Marker        EcoRI                        XhoI       BamHI                        HindIII
+                                 XhoI                                 HindIII                        BamHI
+      9            10              11            12         13           14              15            16
+                                EcoRI＋
+   EcoRI＋       BamHI＋                                  BamHI＋        EcoRI＋          HindIII＋       XhoI＋
+                                 XhoI＋        SalI
+   HindIII        XhoI                                     SalI         SalI             SalI         SalI
+                                BamHI
+  (A) The DNA molecule is a linear form or circular form of DNA?
+  (B) Please draw the DNA restriction physical map.
+
+
+21. Please use the following restriction enzyme reaction results answer the question and draw the DNA
+   restriction physical map.
+     Marker                 1                2                   3               4                    5
+       —                undigested         BamHI            EcoRI              HindIII              XhoI
+          6                 7                8                   9               10                  11
+ BamHI+EcoRI       BamHI+HindIII        EcoRI+HindIII    BamHI+XhoI        EcoRI+XhoI            HindIII+XhoI
+22. 膠體電泳實驗中，回答下列問題：
+ (A) 這次 DNA 電泳所用的 buffer 是？
+ (B) 這次 DNA 電泳所用的 DNA 染劑是？
+ (C) DNA Loading dye 的功能？
+選擇題
+     1             2         3         4         5    6    7      8      9      10
+     B             C         D         A         A    D    C      A      B      A
+    11             12        13        14        15
+   ACD             A         A         D         B
+
+
+1. (B) 2.(C) 3.(D)
+     以下整理 S1、S2、S3 的功能與成分：
+     (1) Solution 1（S1）：Resuspension Buffer，將菌體懸浮於溶液中
+         成分                       功用
+         Tris-HCl（pH8.0）          緩衝溶液，維持 pH 值穩定
+         EDTA                     與微生物金屬離子結合，抑制 DNase 活性
+         Glucose                  增加溶液黏稠度，使菌體保持懸浮避免沉降
+         RNase                    降解溶液內 RNA
+
+
+     (2) Solution 2（S2）：Lysis Buffer，將細胞裂解
+         成分                       功用
+         NaOH                     利用強鹼破壞細胞膜磷脂質
+      SDS           與 Solution 3 反應
+     *需要注意加入 solution 2 後不可劇烈晃動且時間不能過長，會使 DNA 斷裂。
+
+
+     (3) Solution 3（S3）：Neutralization Buffer，中和 solution 2 強鹼，清除細胞內雜質
+         成分                       功用
+         Potassium Acetate        與 SDS 反應，與變性蛋白質生成不溶於水之 potassium dodecylsulfate
+                                  （PDS），進而去除雜質
+         Acetic acid              中和 S2 的 NaOH
+     參考資料：https://www.acebiolab.com/TW/news/42
+
+
+4. (A) 5.(A)
+  見上表(1)，RNase 加在 S1 buffer 中來降解溶液內的 RNA。
+
+
+6. (D)
+  (A) PBS 通常出現在細胞培養或蛋白質實驗當中
+  (B)(C)(D) TE Buffer 通常出現在 DNA 或 RNA 實驗當中。在質體 DNA 萃取實驗中，TE Buffer 的
+  pH 值＝8.0。因為 pH 值 7.4～8.0 是能讓 DNA 穩定性最高的環境，故選最接近的 8.0。
+  （若選項有 TE Buffer（pH＝7.5）為更佳）
+ 7. (C)
+   不要再選 UV light 了！只要記得它只是要拿來照膠，沒有要殺菌的意思。
+   另一個原因是因為實驗課用的染劑是 Gel Green 而不是 EtBr，若是用 EtBr 就需要用 UV light 才能
+   激發。
+
+
+ 8. (B)
+   在 DNA 電泳實驗中，膠體濃度愈高，表示其間孔隙愈小，愈不利於物質通過。小的分子無法分
+   離，可能是因為分子大小較膠體孔隙還要小，故移動速度快且距離同樣遠。此時若增加膠體濃度
+   使孔隙變小，有助於使小分子移動速度變慢，提高對小分子的解析度。
+
+
+ 9. (B)
+   假設其他變因都相同，理論上跑得較遠的 DNA 表示較容易通過膠體間的孔隙，立體結構較小。
+
+
+10. (A)
+    (1) DNA 分子在電泳時，主要是分辨物質在介質中的移動速度，而移動速度又與介質的孔隙、
+          DNA 的立體結構有關。Circular DNA 的立體結構較其他兩者巨大（通常是環狀或球狀），若
+          是碰到濃度較高的 Agarose，介質的孔隙小不利於 Circular DNA 分子通過，故移動速度最
+          慢。
+    (2) 接下來比較 Supercoiled 與 Linear form 的差異。Supercoiled 是 DNA 被高度扭轉與纏繞，使得
+          DNA 分子能夠更緻密，分子被壓縮得很小，較容易通過 Agarose 介質的孔隙；相對而言，
+          Linear form 沒有高度纏繞的特性，大小比 Supercoiled DNA 來得大，結構上也較鬆散不穩
+          定。
+   綜合以上敘述，我們可以得出移動速度的相對關係為 SC＞L＞OC
+
+
+11. (A)(C)(D)
+   （原題目寫 DNA 染劑，但這邊要講的應該是 DNA sample loading dye，也就是 DNA 樣品染料）
+   2x loading dye 裡面包含 Bromophenol blue 和 Xylene cyanol 兩物質作為電泳時的標定物（marker）
+                                                                           。
+   另外在 loading dye 中加入 glycerol 是為了增加 DNA sample 整體的密度，使其在 loading 時更容易
+   沉入 well 中，而不是在 Buffer 內亂漂。
+   【比較】限制酵素中添加的 glycerol，目的是為了抗凍，跟 DNA loading dye 裡甘油的作用不同。
+
+
+12. (A)
+
+
+
+
+   因為 TAE 與 TBE 都有可能用在 DNA 萃取實驗，只差在目標 DNA 的大小，故針對原題目修改，
+   特別強調是本學期實驗時所使用的 Buffer。
+13. (A)
+      參考質體萃取簡報第 23 頁。
+
+
+14. (D)
+      志銘老師說為了讓我們的人生看起來是彩色的，所以選用較安全的染劑 Gel Green。
+      補充 EtBr 與 Gel Green 的差異，在於作用位置不同。EtBr 直接嵌入 DNA 當中，而 Gel Green 則僅
+      在 DNA 表面作用。故 EtBr 被認為是毒性較強的染劑，成本也比 Gel Green 低。
+
+
+15. (B)
+      膠體成分為洋菜膠（agarose）
+                      。
+
+
+ 手寫題
+16.
+      (A) Circular form
+          經 BamHI 切割後僅產生一條 band，因此為 circular form（切割後形成 linear form）。
+      (B) DNA smear
+          當 DNA 持續被分解，將使其大小片段不一，跑膠時有拖尾之現象。DNA 變性、樣品濃度過
+          高、 膠體品質不佳也可能造成此現象。
+      (C) S1 buffer
+          S1 buffer 可抑制降解核酸之酵素的活性。
+      (D) lane4 最上面的 band 與 lane3 相同，表示有些 DNA 只經過 BamHI 切割；下面兩條 band 則為
+          DNA 同時經 BamHI 及 XhoI 切割的結果。
+
+
+17. (A) TAE Buffer；(B) Gel Green
+
+
+18. (A) TypeII
+
+
+19. 如下圖所示
+20. (A) Circular form；(B) 如附圖
+   (A) 因為經過 BamHI、SalI、HindIII 等酵素切割之後只有一條 Band，故推測為 Circular。
+   (B) 如右圖所示：
+      (a) 提醒：左上角的「cDNA 大小」一定要寫
+      (b)淺藍色代表相對作用位置
+      (c) 深藍色代表兩酵素作用位置間隔
+
+
+
+
+21. 由圖中每個酵素單一作用時都有複數個 DNA 片段，判斷是 Linear form DNA。
+  另外可以由粗細程度來判斷有一個或多個大小相同的 DNA 片段。例如：限制酶未作用時，DNA
+  大小為 9kb；XhoI 作用時卻只有 4 與 1 兩個 band。當中可以看出大小為 4 的 band 明顯較粗，推測
+  其中可能有兩個大小為 4 的片段，表示切割後其實是由 4＋4＋1 三個片段組成。詳解如圖：
+
+
+
+
+22. (A) TAE Buffer；(B) Gel Green
+   (C) DNA sample 是透明無色的。使用 DNA loading dye 的主要目的是使 sample 染色，確認 DNA
+      sample 在 loading 時有被放入樣品槽內，並且有助於追蹤觀察 DNA 後續移動過程與結果。
+

@@ -2,13 +2,13 @@
   "id": "biochem",
   "title": "生物化學",
   "short": "生化",
-  "term": "115-1 期中考",
-  "examDate": "2026-10-30",
-  "description": "脂質代謝、訊息傳遞、器官間代謝整合，以及胺基酸代謝、胺基酸生合成與 heme。整合 2026 上課 slides、113 共筆考古、114 期中考古與國考課後練習題。",
+  "term": "115-1 期末考",
+  "description": "整合 2026 上課 slides、113 共筆與期末考古、114 期中考古與國考課後練習題。",
   "color": "#b0532a",
   "icon": "🧪",
   "questionFiles": [
     "data/questions-gongbi.json",
+    "data/questions-k113f.json",
     "data/questions-k114.json",
     "data/questions-class.json",
     "data/questions-prac.json",
@@ -20,6 +20,12 @@
       "label": "113 共筆考古",
       "kind": "exam",
       "pill": "violet"
+    },
+    {
+      "key": "k113f",
+      "label": "113 期末考古",
+      "kind": "exam",
+      "pill": "bad"
     },
     {
       "key": "k114",
@@ -48,57 +54,71 @@
   ],
   "groups": [
     {
-      "title": "脂質代謝（黃彥華）W1–W3",
-      "chapters": [
-        "ch17",
-        "ch21"
-      ]
+      "title": "期末・核苷酸代謝（鄭嘉雄）W9",
+      "chapters": ["ch22n"]
     },
     {
-      "title": "代謝整合與胺基酸代謝（陳顧中）W4–W7",
-      "chapters": [
-        "ch23",
-        "ch18",
-        "ch22"
-      ]
+      "title": "期末・基因、DNA、RNA 與蛋白質代謝（施純明）W11–W15",
+      "chapters": ["ch24", "ch25", "ch26", "ch27", "ch28"]
     },
     {
-      "title": "W9 之後（Ch12 雖排在 W10，仍在期中考範圍）",
-      "chapters": [
-        "ch22n",
-        "ch12"
-      ]
+      "title": "期中・脂質代謝與訊息傳遞（黃彥華）",
+      "chapters": ["ch17", "ch21", "ch12"],
+      "done": "26/10/30 midterm"
+    },
+    {
+      "title": "期中・代謝整合與胺基酸代謝（陳顧中）",
+      "chapters": ["ch23", "ch18", "ch22"],
+      "done": "26/10/30 midterm"
     }
   ],
-  "mock": {
-    "title": "期中模擬考",
-    "when": "10/30（五）17:10–18:20",
-    "minutes": 70,
-    "note": "配分依 I'm@TMU 9/24 公告：陳顧中 58%、黃彥華 42%。題數參考 114 期中考（約 50 題）。",
-    "sections": [
-      {
-        "title": "黃彥華：Ch17、Ch12、Ch21",
-        "points": 42,
-        "n": 21,
-        "from": [
-          "ch17",
-          "ch12",
-          "ch21"
-        ]
-      },
-      {
-        "title": "陳顧中：Ch23、Ch18、Ch22",
-        "points": 58,
-        "n": 29,
-        "from": [
-          "ch23",
-          "ch18",
-          "ch22"
-        ]
-      }
-    ],
-    "newRatio": 0.2
-  },
+  "mock": [
+    {
+      "title": "期中模擬考",
+      "when": "10/30（五）17:10–18:20",
+      "minutes": 70,
+      "note": "配分依 I'm@TMU 9/24 公告：陳顧中 58%、黃彥華 42%。題數參考 114 期中考（約 50 題）。",
+      "sections": [
+        {
+          "title": "黃彥華：Ch17、Ch12、Ch21",
+          "points": 42,
+          "n": 21,
+          "from": ["ch17", "ch12", "ch21"]
+        },
+        {
+          "title": "陳顧中：Ch23、Ch18、Ch22",
+          "points": 58,
+          "n": 29,
+          "from": ["ch23", "ch18", "ch22"]
+        }
+      ],
+      "newRatio": 0.2,
+      "until": "2026-10-30T18:20+08:00"
+    },
+    {
+      "id": "final",
+      "title": "期末模擬考",
+      "when": "12/22（二）10:40–11:50",
+      "until": "2026-12-22T11:50+08:00",
+      "minutes": 70,
+      "note": "I'm@TMU 還沒公告期末配分，先依教務系統授課進度表的時數抓：鄭嘉雄（Ch22 核苷酸，W9）20 分、施純明（Ch24–Ch28，W11–W15）80 分；題數參考期中約 50 題。Ch27 去年沒有考古，暫時抽不到題目。",
+      "sections": [
+        {
+          "title": "鄭嘉雄：Ch22 核苷酸代謝",
+          "points": 20,
+          "n": 10,
+          "from": ["ch22n"]
+        },
+        {
+          "title": "施純明：Ch24–Ch28",
+          "points": 80,
+          "n": 40,
+          "from": ["ch24", "ch25", "ch26", "ch27", "ch28"]
+        }
+      ],
+      "newRatio": 0.2
+    }
+  ],
   "chapters": [
     {
       "id": "ch17",
@@ -142,9 +162,9 @@
     },
     {
       "id": "ch22n",
-      "title": "核苷酸代謝（期中考後）",
+      "title": "核苷酸代謝",
       "en": "Ch22 · Nucleotide metabolism",
-      "teacher": "陳顧中",
+      "teacher": "鄭嘉雄",
       "week": "W9（11/5）",
       "slides": false
     },
@@ -155,42 +175,91 @@
       "teacher": "黃彥華",
       "week": "W10（11/12）",
       "slides": true
+    },
+    {
+      "id": "ch24",
+      "title": "基因與染色體",
+      "en": "Ch24 · Genes and chromosomes",
+      "teacher": "施純明",
+      "week": "W11（11/19）",
+      "slides": false
+    },
+    {
+      "id": "ch25",
+      "title": "DNA 代謝：複製、修復與重組",
+      "en": "Ch25 · DNA metabolism",
+      "teacher": "施純明",
+      "week": "W12（11/26）",
+      "slides": false
+    },
+    {
+      "id": "ch26",
+      "title": "RNA 代謝：轉錄與 RNA 加工",
+      "en": "Ch26 · RNA metabolism",
+      "teacher": "施純明",
+      "week": "W13（12/3）",
+      "slides": false
+    },
+    {
+      "id": "ch27",
+      "title": "蛋白質代謝：轉譯",
+      "en": "Ch27 · Protein metabolism",
+      "teacher": "施純明",
+      "week": "W14（12/10）",
+      "slides": false
+    },
+    {
+      "id": "ch28",
+      "title": "基因表現調控",
+      "en": "Ch28 · Regulation of gene expression",
+      "teacher": "施純明",
+      "week": "W15（12/17）",
+      "slides": false
     }
   ],
   "sheet": "content/_sheet.md",
   "roots": "content/_roots.md",
   "insights": [
     [
-      "期中考配分：黃彥華 42 分、陳顧中 58 分。",
+      "期末考 12/22（二）10:40–11:50，範圍從核苷酸代謝開始。",
+      "依教務系統授課進度表：W9 Ch22 核苷酸（鄭嘉雄）、W10 Ch12 訊息傳遞（黃彥華）、W11–W15 Ch24 基因與染色體、Ch25 DNA 代謝、Ch26 RNA 代謝、Ch27 蛋白質代謝、Ch28 基因表現調控（施純明）。總成績期中 45%、期末 45%、其他 10%。W17、W18 是彈性學習週（自主複習 Ch22 核苷酸、Ch25）。"
+    ],
+    [
+      "113 期末考古：142 題，Ch25 DNA 複製最多。",
+      "去年期末考古收錄 Ch22 核苷酸補充（43 題國考題）、Ch24–25（43 題，依內容拆成 Ch24 5 題、Ch25 38 題）、Ch26（27 題）、Ch28（15 題）與 Ch12（14 題）。Ch27 去年沒有考古。DNA polymerase I／III 的外切酶活性、Okazaki fragment、primase、RNA polymerase 與 σ factor、lac operon 是反覆出現的考點。"
+    ],
+    [
+      "（期中）期中考配分：黃彥華 42 分、陳顧中 58 分。",
       "黃彥華老師在 9/24 課堂宣布：Ch17、Ch21、Ch12 共 42 分；陳顧中老師的 Ch23、Ch18、Ch22 共 58 分。陳老師說期中考難度大約等於國考，講義的課後練習題都是國考原題。"
     ],
     [
-      "陳顧中：一百多題練習題一定要寫；黃彥華：考題很考古。",
+      "（期中）陳顧中：一百多題練習題一定要寫；黃彥華：考題很考古。",
       "10/15 陳顧中老師再三強調他上傳的《Ch18、22、23 練習題》（一百多題）一定要寫完；也提到黃彥華老師負責的範圍（Ch17、Ch12、Ch21）出題很考古，113 共筆與 114 期中考古要熟。"
     ],
     [
-      "114 期中考古：陳顧中部分有官方答案。",
+      "（期中）114 期中考古：陳顧中部分有官方答案。",
       "去年期中考第 22–50 題（陳顧中：Cori cycle、酮體、胰島素訊息、AMPK、GLUT、尿素循環、輔因子、胺基酸衍生物）附官方答案；第 4–16、18 題（黃彥華）只有學長姐記題，答案是網站依課本判斷，詳解開頭會標註。重點幾乎都是酵素配對與輔因子。"
     ],
     [
-      "否定題將近四成。",
+      "（期中）否定題將近四成。",
       "113 共筆 222 題中有 84 題是「incorrect／does not」，選項常把成對概念對調：L↔D 型、FAD↔NADPH、粒線體↔細胞質、IP₃↔DAG。"
     ],
     [
-      "酵素配對是最大宗。",
+      "（期中）酵素配對是最大宗。",
       "PLP、BH₄、SAM、biotin、B₁₂ 該配哪個反應；藥物配標的（5-FU、methotrexate、statin、allopurinol）；疾病配缺乏的酵素。整理成表格最有效。"
     ],
     [
-      "Ch22 只考胺基酸生合成與 heme，核苷酸不考。",
-      "期中範圍以 Ch18-3 Ch22 slides（p46–77）與 10/22 錄影為準：必需胺基酸、六大前驅物、Ser／Gly／Cys、creatine、taurine、shikimate、porphyrin 與 heme 合成／分解、黃疸。陳顧中老師說「核苷酸的部分就由下一個老師來講」（期中考後），所以 113 共筆 Ch22 的 47 題（全是核苷酸）移到「核苷酸代謝（期中考後）」，不進模擬考。Ch18 是他三章中最愛考的（PKU 第一、黑尿症第三），Ch22 國考出現率最低。"
+      "（期中）Ch22 只考胺基酸生合成與 heme，核苷酸留到期末。",
+      "期中範圍以 Ch18-3 Ch22 slides（p46–77）與 10/22 錄影為準：必需胺基酸、六大前驅物、Ser／Gly／Cys、creatine、taurine、shikimate、porphyrin 與 heme 合成／分解、黃疸。陳顧中老師說「核苷酸的部分就由下一個老師來講」（期中考後），所以 113 共筆 Ch22 的 47 題（全是核苷酸）移到「核苷酸代謝」（期末範圍），不進期中模擬考。Ch18 是他三章中最愛考的（PKU 第一、黑尿症第三），Ch22 國考出現率最低。"
     ],
     [
-      "Ch23 的國考題會整題出現。",
+      "（期中）Ch23 的國考題會整題出現。",
       "陳顧中老師 slides 的課後練習題都是國考原題，第 4 週 slides 收錄 38 題（35 題屬 Ch23），重點在器官燃料、Cori cycle、insulin／glucagon。"
     ],
     [
-      "Ch12 沒有考古。",
+      "（期中）Ch12 沒有考古。",
       "113 共筆沒有訊息傳遞的題目，練習區的 Ch12 題目以模擬新題為主，重點放在 cAMP、IP₃／DAG、insulin 受體三條路徑。"
     ]
-  ]
+  ],
+  "examDate": "2026-12-22"
 }

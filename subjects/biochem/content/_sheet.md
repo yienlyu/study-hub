@@ -141,7 +141,7 @@
 - Heme：**Gly + succinyl-CoA**（ALA synthase，**PLP**），**粒線體完成**；分解**先脾後肝**：heme oxygenase（**CO**）→ biliverdin → bilirubin（**albumin**）→ 肝 **UDP-glucuronyltransferase**。
 - B₁₂ 中間是**鈷**、heme 是**鐵**。
 
-## 核苷酸代謝與藥物（期中考後，不在期中範圍）
+## 核苷酸代謝與藥物
 @ch ch22n
 @fig dtmp-cycle
 - Purine：在 **PRPP** 上蓋環 → **IMP**；原料 Gly、Gln、Asp、formyl-THF、CO₂（**不用 Asn**）。

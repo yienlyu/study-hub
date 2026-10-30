@@ -1,0 +1,548 @@
+                       生化實驗 V + VI:SDS-PAGE Gel-casting & Running
+
+ 組長：洪碩謙                    學藝：陳政聖              授課老師：鄭嘉雄                               114. Nov.13 & Nov.20
+
+
+1. Which of the following is not required for polymerization of polyacrylamide gel?
+  (A) Acrylamide
+  (B) Bisacrylamide
+  (C) SDS
+  (D) APS
+
+
+2. What is the role of water adding into the upper layer of stacking gel?
+  (A) dilute gel solution
+  (B) keep wet of the gel
+  (C) form a horizontal gel
+  (D) no meaning
+
+
+3. Which of the following is used for staining SDS-gel?
+ (A) bromophenol blue
+ (B) bromophenol blue
+ (C) coomasie brilliant blue
+ (D) trypan blue
+
+
+4. Which of the following is not the component of SDS-gel?
+  (A) Acrylamide
+  (B) Bisacrylamide
+  (C) APS
+  (D) PAGE
+
+
+5. What is the role of APS in polymerization of SDS-gel?
+  (A) transfer electrons
+  (B) as crosslinker
+  (C) produce a mesh-like network
+  (D) produce free radicals
+ 6. Which of the following descriptions of SDS-PAGE is not correct?
+   (A) SDS-gel has two layers
+   (B) The upper-layer is used for stacking proteins
+   (C) The lower-layer is used for separating proteins
+   (D) Large proteins migrate faster than small proteins
+
+
+ 7. Which of the following in the sample buffer is used to break the disulfide bonds of proteins?
+   (A) bromophenol blue
+   (B) SDS
+   (C) Glycerol
+   (D) beta-mercaptoethanol
+
+
+ 8. Which of the following is the major component in the running buffer for stacking proteins?
+   (A) Tris-HCl
+   (B) Glycine
+   (C) SDS
+   (D) Glycerol
+
+
+ 9. What is the difference between the structures of CBB-G250 and CBB-R250?
+   (A) CBB-G250 has one more methyl group than R250
+   (B) CBB-R250 has one more methyl group than G250
+   (C) CBB-G250 has two more methyl group than R250
+   (D) CBB-R250 has two more methyl group than G250
+
+
+10. Which of the following amino acids is bound by coomassie brilliant blue in SDS-gel staining?
+   (A) Lysine
+   (B) Leucine
+   (C) Glycine
+   (D) Asparagine
+
+
+11. Which of the following descriptions about protein electrophoresis is not correct?
+   (A) High voltage, high migration speed
+   (B) High molecular weight, low migration speed
+   (C) Negative charge migrate to positive charge
+   (D) High percentage gel, high migration speed
+12. Why does the SDS-gel need to wash with water before staining with CBB?
+   (A) remove salt
+   (B) remove buffer
+   (C) remove bromophenol blue
+   (D) remove SDS
+
+
+13. Sample buffer is used to denature the protein sample before proteins are separated. If we want to load
+   150μL of protein sample, how to prepare the sample using 3X sample buffer(SB) and protein sample(P)?
+   (A) SB: 3μL, P: 150μL
+   (B) SB: 50μL, P: 150μL
+   (C) SB: 50μL, P: 100μL
+   (D) SB: 3μL, P: 147μL
+
+
+14. Why can the proteins be separated by molecular weight in SDS-PAGE?
+   (A) Gravity
+   (B) Electrophoresis
+   (C) Denature
+   (D) native charge
+   (E) all of the above
+
+
+15. Which of the following is sodium dodecyl sulfate (SDS) used for?
+   (A) give protein negative charge
+   (B) give protein positive charge
+   (C) Renature protein
+
+
+16. Which of the following is not necessary for synthesis of polyacrylamide?
+   (A) Methylenebisacrylamide
+   (B) Acrylamide
+   (C) beta-mercaptoethanol
+   (D) ammonium persulfate
+
+
+17. Which of the following structures is acrylamide?
+   （參考右圖）
+   (A) 左上
+   (B) 右上
+   (C) 左下
+   (D) 右下
+18. Which section has the lowest pH?
+   (A) Well
+   (B) stacking gel
+   (C) running gel
+
+
+19. How do you calculate Rf value of B?
+   （參考右圖）
+   (A) A
+   (B) B
+   (C) B/C
+   (D) A/C
+
+
+
+
+20. 在蛋白質電泳中，加入水的目的？
+   (A) 壓平下膠
+   (B) 防止下膠乾掉
+   (C) 防止玻璃乾掉
+
+
+21. 在蛋白質電泳中，上膠的 pH 值？
+   (A) 6.8
+   (B) 7.0
+   (C) 8.3
+   (D) 8.8
+
+
+22. 在蛋白質電泳中，下膠的 pH 值？
+   (A) 6.8
+   (B) 7.0
+   (C) 8.3
+   (D) 8.8
+
+
+23. 在 SDS-PAGE 之前，需要先準備蛋白質 sample，每個 SDS 膠的 well 的最大容量為 25μl，以 5X
+   smaple buffer 配製且希望每 well 中有 40μg 的蛋白質，以下蛋白質 sample 何者濃度不足配製?
+   (A) 2μg/μl
+   (B) 1.7μg/μl
+   (C) 3.2μg/μl
+   (D) 5.2μg/μl
+24. APS 的作用？
+  (A) 提供 free radicals
+  (B) 穩固膠體結構
+  (C) 破壞雙硫鍵
+
+
+25. Acrylamide 作用？
+  (A) 組裝膠體結構
+  (B) 提供 free radical
+  (C) 傳遞電子
+  (D) 解開蛋白結構
+
+
+26. β-mercaptoethanol 的作用？
+  (A) 提供 free radicals
+  (B) 穩固膠體結構
+  (C) 破壞雙硫鍵
+
+
+27. 蛋白質電泳實驗中，有同學在加入染劑至膠體後，呈色時間明顯比其他組慢，可能的原因為何？
+  (A) loading 的樣本太少
+  (B) 電泳時間太短
+  (C) Gel 濃度不正確
+  (D) SDS 未去除乾淨
+
+
+28. 在蛋白質電泳實驗中，有同學在開始跑電泳一段時間後，蛋白質標準液（marker）和蛋白質樣本都
+  沒有往下跑，可能的原因為何？
+  (A) 電極方向相反
+  (B) 上膠 pH 值不正確
+  (C) buffer 的 pH 值不正確
+  (D) 下膠 pH 值不正確
+
+
+29. 染色在哪一層膠體染的？
+  (A) Running gel
+  (B) Stacking gel
+  (C) Running and stacking gel
+
+
+30. Log 分子量與下列何者成反比？
+  (A) 蛋白質電泳 Rf 值
+31. When we run a SDS-PAGE, there are two layers in the gel. What is the function of Lower Layer?
+   (A) Run proteins
+   (B) Separate proteins
+   (C) Condense proteins
+   (D) Stain proteins
+
+
+32. When we run a SDS-PAGE, which layer contains proteins?
+   (A) Lower gel
+   (B) Upper gel
+   (C) Stacking gel
+   (D) Loading well
+
+
+33. If you want to analyze the enzyme activity in gel, which of the following gel you can choice?
+   (A) SDS-Gel
+   (B) Two-D Gel
+   (C) Agarose Gel
+   (D) Native Gel
+
+
+34. Which of following is provided the free radicals for making SDS-PAGE?
+   (A) TEMED
+   (B) APS
+   (C) Acrylamide
+   (D) SDS
+
+
+35. Which of following is the major structure for making SDS-PAGE?
+   (A) TEMED
+   (B) APS
+   (C) Acrylamide
+   (D) SDS
+
+
+36. Which of following is used to denature proteins and make proteins become negative charge in sample
+   buffer?
+   (A) TEMED
+   (B) APS
+   (C) Acrylamide
+   (D) SDS
+37. Which of following is used to break bisulfate bonds of proteins in sample buffer?
+   (A) Tris-HCl
+   (B) Glycerol
+   (C) SDS
+   (D) β-mercaptoethanol
+
+
+38. Before separating protein by SDS-PAGE, we have to prepare our protein samples. The maximum loading
+   volume of each well in SDS-Gel is 25 μl. We have a 5-fold sample buffer. If we want to load 40 µg of
+   protein to each well, which of following concentration of protein sample is not enough to prepared?
+   (A) 2.0 µg/µl
+   (B) 2.4 µg/µl
+   (C) 3.5 µg/µl
+   (D) none of the above
+
+
+39. When we run a SDS-PAGE, which of following is correct running order in stacking gel?
+   (A) (-)-Protein-Chloride-Glycine-(+)
+   (B) (-)-Protein-Glycine-Chloride-(+)
+   (C) (-)-Glycine-Protein-Chloride-(+)
+   (D) (-)-Glycine-Chloride-Protein-(+)
+
+
+40. After separate protein by SDS-PAGE, we have to wash the gel before staining the gel using Coomassie
+   Brilliant Blue. Why do we have to do this?
+   (A) Wet the gel
+   (B) Create holes in the gel
+   (C) Cool down the gel
+   (D) Remove SDS
+
+
+41. What is the difference between CBB G-250 and R-250?
+   (A) Resolve reagent
+   (B) Detection range of protein concentration
+   (C) De-stain buffer
+   (D) all of above
+
+
+42. How to measure molecular weight of protein based on pre-stain marker in SDS-PAGE electrophoresis?
+   (A) Logarithmic value of molecular weight vs. mobility
+   (B) Molecular weight vs. mobility
+   (C) Molecular weight vs. logarithmic value of mobility
+   (D) Logarithmic value of molecular weight vs. logarithmic value of mobility
+ 配合題
+43. Dr. Cheng has successful purified two recombinant proteins from prokaryotic expression system, recently.
+   They are protein A and protein B. And protein A is larger than protein B. One day, he wants to analysis
+   these two proteins’ function, he transfers each protein into new eppendorf tube. During transfer these
+   proteins, he got a phone call from Dr. Chou. He is very exciting to tell Dr. Chou that he had expressed and
+   purified two important recombinant proteins. Unfortunately, he forgets to label these two tubes and mix up
+   the sample. Could you help Dr. Cheng use the SDS-PAGE technology to solve this mistake? How could
+   you design an experiment using the following materials to help him find out which protein are they? The
+   materials include：
+   (A) Tris-Glycine SDS-PAGE
+   (B) Sample buffer
+   (C) Electrophoresis system
+   (D) Coomassie Blue G-250
+   (E) Water bath Tris
+   (F) Water
+   (G) Protein marker
+   (H) Glycine buffer
+   (If you use one component from above and explain why you use it, you can get 2 points. If you can find
+   out which protein are they and draw a figure to explain it, you can get additional 9 points) Total 25 points.
+簡答
+選擇題
+     1      2       3        4      5       6           7   8    9    10
+     C      C       C        D      D       D           D   B    C    A
+     11    12       13       14     15      16      17      18   19   20
+     D      D       C        B      A       C           A   B    D    A
+    21     22       23       24     25      26      27      28   29   30
+     A      D       B        A      A       C       AD      AC   A    A
+    31     32       33       34     35      36      37      38   39   40
+     B      A       D        B      C       D           D   D    C    D
+    41     42
+     D      A
+
+
+1. (C)
+  SDS 是 sample buffer 中的東西
+
+
+2. (C)
+  看共筆，ddH2O 是用來壓膠的。把下膠混合物注入鑄膠器後，再將 ddH2O 倒到上方，等待下膠凝
+  固後，倒除 ddH2O，加入上膠。另外異丙醇也可以壓膠，而且膠更快聚合
+
+
+3. (C)
+  用 CBB 將拆下的 SDS 膠體染色。
+
+
+4. (D)
+  PAGE 是 polyacrylamide gel electrophoresis 的縮寫，不是成分。
+
+
+5. (D)
+  APS（Ammonium Persulfate）產生自由基，TEMED 負責轉移電子。
+
+
+6. (D)
+  越大的分子跑越慢。
+
+
+7. (D)
+ 8. (B)
+   和 chloride 一起 stack protein。
+
+
+ 9. (C)
+   G-250 多兩個甲基，水溶性更高
+
+
+
+
+10. (A)
+   CBB 常和正電胺基酸結合（Lysine, Arginine, Histidine）。
+
+
+11. (D)
+   高密度的膠孔洞較小，跑膠的速度就慢。
+
+
+12. (D)
+   以免和 SDS 負負相斥，使蛋白質無法染色。
+
+
+13. (C)
+   3X 的 buffer 需要被稀釋回原本的濃度就要體積變三倍。也就是還要兩倍的液體量
+
+
+14. (B)
+   SDS-PAGE 實驗就是將蛋白質樣本置於電場中，透過介質遷移。
+
+
+15. (A)
+   蛋白質溶液與 SDS（十二烷基硫酸鈉）混合，SDS 為界面活性劑會破壞蛋白質的二級結構使其變
+   性，並包覆變性蛋白質，在分子表面均勻佈上一層負電荷
+
+
+16. (C)
+   (A) bis 是連接分子，可以和 acrylamide 構成網狀結構
+   (B) 你覺得 polyacrylamide 裡面沒有 acrylamide 嗎？
+   (C) beta-mercaptoethanol：解開雙硫鍵，是處理 sample 時加入 sample buffer 的
+   (D) ammonium persulfate：提供自由基來合成 polyacrylamide
+      可以參考 17 題的圖片
+17. (A)
+   (A) Acrylamide
+   (B) N,N’-Methylene-Bisacrylamide (bis)
+   (C) (D)是不同顏色的包在一起（黑白印刷可能看不太出來就是）
+
+
+18. (B)
+   (A) Well 的 pH=8.3
+   (B) stacking gel 的 pH=6.8，在其中 Glycine 會變成電中性，停滯，形成 Ion empty layer
+   (C) running gel 的 pH=8.8
+ ＊整理：sample buffer (Tris-HCl) pH=6.8
+          Stacking gel pH=6.8
+          Running gel pH=8.8
+          Running buffer (Tris-Glycine) pH=8.3
+
+
+19. (D)
+   Rf = 跑的距離/展開液的距離
+
+
+20. (A)
+   見第 2 題
+
+
+21. (A)
+   上膠就是 Stacking gel，pH=6.8
+
+
+22. (D)
+   下膠就是 Running gel，pH=8.8
+
+
+23. (B)
+   5x sample buffer：表示 x μL 的 buffer 要配上 4x μL 的 sample。
+   已知𝑥 + 4𝑥 ≤ 25 (總體積不可超過 well 的最大容量 25 μL)，得到的條件為𝑥 ≤ 5。
+                                                 40       10
+   4x μL 的 sample 中要含有 40μg 的 protein，可得濃度為           =
+                                                 4𝑥       𝑥
+   (接下來是算術時間)
+            1   1      10   10
+   𝑥 ≤ 5 ⇒ 𝑥 ≥ 5 ⇒ 𝑥 ≥ 5 = 2 (μg/μL)，表示濃度至少為 2μg/μL，只有(B)不滿足條件。
+
+
+
+24. (A)
+   APS（Ammonium persulfate）形成自由基引發聚合的起始反應。
+25. (A)
+   膠體的成分是 Polyacrylamide，是由 acrylamide 聚合而成
+
+
+26. (C)
+   β-mercaptoethanol 用來破壞雙硫鍵，有時候也會改用 DTT 達到同樣效果。
+
+
+27. (A)(D)
+   (A)Coomassie Blue 的染色原理是透過芳香基團與蛋白質的非極性區結合，以及其正電基團與所帶
+   負電的蛋白質結合。若成色不明顯可能是因為蛋白質 sample 的量不足所造成。
+   (D)因為 SDS 和 Coomassie Brilliant Blue 都帶有負電，若沒有洗去 SDS 會導致兩者負負相斥，會讓
+   蛋白質無法染色。（參考第 40 題）
+   （組長覺得以上兩個答案都有可能，應該說是選項裡面兩個最有可能的答案）
+
+
+28. (A)(C)
+   考古組長覺得(A)(C)選項都有可能，首先電極方向錯誤必會導致蛋白質樣品的移動方向錯誤，因為
+   蛋白質是仰賴電場來向下移動。至於緩衝液是 SDS-PAGE 實驗時接觸的第一層介質，其 pH 值直
+   接影響到蛋白質所帶的電性，若完全沒有往下移動就要考慮緩衝液 pH 值錯誤的可能性。
+
+
+29. (A)
+   實驗過程中，我們在拆膠時有一個去除 Stacking gel 的動作，主要針對 Running gel 部分染色。
+
+
+30. (A)
+   蛋白質電泳實驗中，Log 分子量與遷移距離成反比，而 Rf 值集是表達遷移距離的指標。
+   （Rf = 跑的距離/展開液的距離）
+
+
+31. (B)
+   lower gel 是用來分離不同分子量的蛋白質，而 upper gel 的作用則是 protein stacking，讓蛋白質濃
+   縮成較小的體積，讓蛋白質同時在起跑線開始電泳。
+
+
+32. (A)
+   lower gel 才是用來分離 protein 的，(B)(C)(D)都同樣在上層。
+
+
+33. (D)
+   蛋白質電泳，根據老師講義可以分為三種：
+   (1) Native PAGE：在電泳的過程中不使蛋白質變性，分離不只有透過分子量大小，還有蛋白質結構
+   等因素，因此適用於測定酵素。
+   (2) SDS PAGE：用 SDS 或熱將蛋白質變性，透過分子量分離不同的蛋白質。
+   (3) gradient PAGE：透過使用不同濃度的膠體，將不同分子量的蛋白質分離更明顯。因為不同濃度
+   的膠體孔洞大小不一致，低濃度的膠體有較大的孔洞，主要分離大分子蛋白質，高濃度則孔洞較
+   小，可以將小分子蛋白質分離出來，不過製作過程麻煩所以相對少用。
+
+
+34. (B)
+   有關 SDS-PAGE 蛋白質電泳中的實驗材料，簡單複習一下：
+   (1) acrylamide gel：內含 acrylamide 和 methylenebisacrylamide (bis)，為形成「孔洞」的主要成分。
+   Acrylamide 主要形成直鏈，bis 則形成支鏈，兩者的比例可以作為調整孔洞大小的因子。
+   (2) ammonium persulfate (APS)：提供自由基來合成 polyacrylamide。
+   (3) TEMED：協助電子傳遞，也是為了合成 polyacrylamide。
+   (4) protein sample buffer：
+
+
+
+
+35. (C)
+   題目應該是要問 SDS-PAGE 所使用的膠（gel），是由 acrylamide 聚合而成
+
+
+36. (D)
+   Sample buffer 成分就是 SDS
+
+
+37. (D)
+   (A)作為 buffer，穩定 pH 值
+   (B)透過重力將蛋白質樣品帶入 well
+   (C)包覆在蛋白質表面，使蛋白質維持線性形狀
+
+
+38. (D)
+   參考第 23 題，會發現以上濃度都有可能被成功製備
+
+
+39. (C)
+   glycine 進入 stacking gel 會變不帶電的分子，相對 protein 或 chloride 帶負電的物質，移動會顯得慢
+
+
+40. (D)
+   因為 SDS 和 Coomassie Brilliant Blue 都帶有負電，若沒有洗去 SDS 會導致兩者負負相斥，會讓蛋
+   白質無法染色。
+41. (D)
+   有關 G-250 和 R-250 的比較如下：
+
+
+
+
+42. (A)
+   在製作結果的時候會將分子量取對數，對上蛋白質跑的距離，舉例如下：
+
+
+
+
+ 配合題（參考生化實考古總檔）
+      Tris-Glycine SDS-PAGE：透過分子量的不同分離蛋白質。
+      Coomassie Blue G-250：染色蛋白質。
+      Protein marker：作為標準分子量尺。
+      Sample buffer：有很多內容物，各有不同的功能，詳見下表：
+
+
+
+
+      Water bath Tris：protein denaturation。
+      Glycine buffer：穩定 pH 值、形成 ion empty layer 以促進 protein stacking。
+      Electrophoresis system：分離樣品中的蛋白質。
+      Water：洗去 SDS，讓之後的 CBB 可以染上去。
+   百十考古組建議：畫 figure 應該就畫一個有 marker、A、B 的蛋白質電泳結果，注意電泳方向的正
+   負極，蛋白質大小 A＞B
+

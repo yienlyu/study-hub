@@ -1,0 +1,3164 @@
+[
+ {
+  "id": "k114-chen-01",
+  "source": "114 實驗考古",
+  "num": 1,
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "Johnny conducts the biochemistry experiments with a P-100 micropipette. As the figure shows (dial reads 0-6-3), what is the buffer quantity that Johnny wants to get?",
+  "options": [
+   {
+    "k": "A",
+    "t": "0.63 µl"
+   },
+   {
+    "k": "B",
+    "t": "6.3 µl"
+   },
+   {
+    "k": "C",
+    "t": "63 µl"
+   },
+   {
+    "k": "D",
+    "t": "630 µl"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "P-100 最大吸取量是 100µl（如下圖），而題目中的圖代表 63µl。",
+  "img": [
+   "figures/questions/chen-01.webp"
+  ],
+  "topics": [
+   "Pipetman 操作"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chen-02",
+  "source": "114 實驗考古",
+  "num": 2,
+  "chapter": "gel-filtration",
+  "type": "mcq",
+  "stem": "Gel filtration is also called:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Affinity chromatography"
+   },
+   {
+    "k": "B",
+    "t": "Size exclusion chromatography"
+   },
+   {
+    "k": "C",
+    "t": "Hydrophobic interaction chromatography"
+   },
+   {
+    "k": "D",
+    "t": "Ion exchange chromatography"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "膠體過濾分層是透過顆粒大小分離不同的物質。",
+  "topics": [
+   "原理：大分子先出來"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chen-03",
+  "source": "114 實驗考古",
+  "num": 3,
+  "chapter": "gel-filtration",
+  "type": "mcq",
+  "stem": "The below figure is the data after Johnny conducted the gel filtration experiment. If he wants to collect the smallest molecular weight compound, which of the following time point is the best?",
+  "options": [
+   {
+    "k": "A",
+    "t": "7min"
+   },
+   {
+    "k": "B",
+    "t": "15min"
+   },
+   {
+    "k": "C",
+    "t": "30min"
+   },
+   {
+    "k": "D",
+    "t": "3min"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "最小的分子跑最慢，所以看到最晚有吸光峰值的地方就是了。",
+  "img": [
+   "figures/questions/chen-03.webp"
+  ],
+  "topics": [
+   "原理：大分子先出來"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chen-04",
+  "source": "114 實驗考古",
+  "num": 4,
+  "chapter": "gel-filtration",
+  "type": "mcq",
+  "stem": "Which of the following statements about gel filtration is needed to be considered first?",
+  "options": [
+   {
+    "k": "A",
+    "t": "optimal MW separation range"
+   },
+   {
+    "k": "B",
+    "t": "bead size"
+   },
+   {
+    "k": "C",
+    "t": "pH"
+   },
+   {
+    "k": "D",
+    "t": "% Of Sepharose"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Optimal MW separation range 指的是這次能分離的分子量範圍，所以應該優先考慮。",
+  "img": [
+   "figures/questions/chen-04.webp"
+  ],
+  "topics": [
+   "原理：大分子先出來",
+   "樹脂與條件選擇"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chen-05",
+  "source": "114 實驗考古",
+  "num": 5,
+  "chapter": "gel-filtration",
+  "type": "mcq",
+  "stem": "The following is a reactant in juice (ascorbic acid → dehydroascorbic acid, see figure). What experiment would you design to measure the amount of reactants in the juice?",
+  "options": [
+   {
+    "k": "A",
+    "t": "2B"
+   },
+   {
+    "k": "B",
+    "t": "4B"
+   },
+   {
+    "k": "C",
+    "t": "6B"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "2B、4B、6B 指的是含膠百分比，越大孔徑越小，分離效果好。",
+  "img": [
+   "figures/questions/chen-05.webp"
+  ],
+  "note": "原題選項只寫 2B／4B／6B（Sepharose 種類，見第 4 題的表）。",
+  "topics": [
+   "樹脂與條件選擇"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chen-06",
+  "source": "114 實驗考古",
+  "num": 6,
+  "chapter": "gel-filtration",
+  "type": "mcq",
+  "stem": "Which of the following is the compound used in gel filtration that is detected at 450 nm in our experiment this semester?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Trypsin"
+   },
+   {
+    "k": "B",
+    "t": "Tryptophan"
+   },
+   {
+    "k": "C",
+    "t": "Methyl orange"
+   },
+   {
+    "k": "D",
+    "t": "BSA"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Gel filtration 實驗把 BSA（大分子，約 66 kDa）和 methyl orange（小分子染料，黃色）混合上管柱：BSA 先流出、methyl orange 後流出。Methyl orange 用 OD 450 nm 偵測；BSA 則用 Bradford（595 nm）測。",
+  "topics": [
+   "樹脂與條件選擇",
+   "Methyl orange 與 BSA 偵測"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chen-07",
+  "source": "114 實驗考古",
+  "num": 7,
+  "chapter": "gel-filtration",
+  "type": "mcq",
+  "stem": "Which of the following is the resin used in gel filtration in our experiment this semester?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Sephadex G50"
+   },
+   {
+    "k": "B",
+    "t": "Sepharose G50"
+   },
+   {
+    "k": "C",
+    "t": "Sephacryl G50"
+   },
+   {
+    "k": "D",
+    "t": "Acrylamide G50"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "今年用 Sephadex G-50 當樹脂（詳見 gel filtration protocol 第 3 張）。Sepharose 是 agarose 系列（2B、4B、6B），Sephacryl 是 allyl dextran 與 bis-acrylamide 交聯。",
+  "topics": [
+   "樹脂與條件選擇"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chen-08",
+  "source": "114 實驗考古",
+  "num": 8,
+  "chapter": "gel-filtration",
+  "type": "mcq",
+  "stem": "In gel filtration, OD 450nm =",
+  "options": [
+   {
+    "k": "A",
+    "t": "Bradford"
+   },
+   {
+    "k": "B",
+    "t": "BSA"
+   },
+   {
+    "k": "C",
+    "t": "methyl orange"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(A) Bradford 是 595 nm。\n(B) BSA 是牛血清白蛋白。\n(C) methyl orange：甲基橙，OD 450nm 可以觀察黃色多寡。",
+  "topics": [
+   "樹脂與條件選擇",
+   "Methyl orange 與 BSA 偵測"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chen-09",
+  "source": "114 實驗考古",
+  "num": 9,
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "Which of the following statement is “NOT” the reason to choose a suitable protein quantification assay?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Protein sizes"
+   },
+   {
+    "k": "B",
+    "t": "Protein concentration"
+   },
+   {
+    "k": "C",
+    "t": "Presence of interfering chemicals"
+   },
+   {
+    "k": "D",
+    "t": "Specificity of the assay"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "在選擇蛋白質定量分析的方法中，有以下幾點需要考慮：\n(1) 蛋白質的量或濃度（Amount of protein available, concentration of the protein）\n(2) 是否有干擾分子存在（Presence of interfering chemicals）\n(3) 定量分析方法是否有專一性（Specificity of the assay）\n(4) 操作方便和可信度（Ease and reliability）以上不包含蛋白質大小。",
+  "topics": [
+   "Pipetman 操作"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-chen-10",
+  "source": "114 實驗考古",
+  "num": 10,
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "In the following protein quantification assay, whose principle is different from others?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Biuret reaction"
+   },
+   {
+    "k": "B",
+    "t": "Lowry assay"
+   },
+   {
+    "k": "C",
+    "t": "BCA assay"
+   },
+   {
+    "k": "D",
+    "t": "UV spectroscopy"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "(A)(B)(C)都是透過化學反應分析，(D)是透過物理方法（紫外光）進行分析，如果芳香族胺基酸含量低則容易失準。",
+  "topics": [
+   "化學呈色法：Biuret／Lowry／BCA",
+   "UV 280 nm 定量"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chen-11",
+  "source": "114 實驗考古",
+  "num": 11,
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "Which of the following amino acid could be used to measure protein concentration because it has ≈260 nm wavelength?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Histidine"
+   },
+   {
+    "k": "B",
+    "t": "Tyrosine"
+   },
+   {
+    "k": "C",
+    "t": "Tryptophan"
+   },
+   {
+    "k": "D",
+    "t": "Phenylalanine"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "選項中最接近的是 Phe（最大吸光約 257 nm）。Trp 約 280 nm、Tyr 約 275 nm，蛋白質 UV 定量通常用 280 nm（主要靠 Trp、Tyr）。",
+  "topics": [
+   "UV 280 nm 定量"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chen-12",
+  "source": "114 實驗考古",
+  "num": 12,
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "Phosphomolybdic acid could be found in which of the following protein quantification assay?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Biuret reaction"
+   },
+   {
+    "k": "B",
+    "t": "Lowry assay"
+   },
+   {
+    "k": "C",
+    "t": "BCA assay"
+   },
+   {
+    "k": "D",
+    "t": "Bradford assay"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "以下複習各化學性蛋白質定量法的粗略內容：Biuret reaction：蛋白質肽鍵的 N 原子在鹼性環境下會和 Cu2+形成紫紅色的錯合物。Lowry assay：前面跟 Biuret reaction 一樣，最後加入 Folin reagent（內含 phosphomolybdic acid 和phosphotungstic acid）和 Tyr、Trp 反應形成藍色產物。BCA assay：前面跟 Biuret reaction 一樣，最後加入 bicinchoninic acid（BCA），催化蛋白質將 Cu2+還原為 Cu+，BCA 再和 Cu+形成紫色產物。Bradford assay：試劑中的 CBG 在接上蛋白質後，會從原本酸性的茶色變成中性的藍色（蛋白質提供中性環境），藉此觀察樣品蛋白質含量。根據題目，反應中含有 phosphomolybdic acid 就是 Lowry assay。",
+  "topics": [
+   "化學呈色法：Biuret／Lowry／BCA",
+   "Bradford 與 CBB"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chen-13",
+  "source": "114 實驗考古",
+  "num": 13,
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "Continued. Folin reagent is used in which of the following protein quantification assay?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Lowry assay"
+   },
+   {
+    "k": "B",
+    "t": "Biuret Reaction"
+   },
+   {
+    "k": "C",
+    "t": "Bradford Assay"
+   },
+   {
+    "k": "D",
+    "t": "BCA assay"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "續上題，Lowry assay 中的 Folin reagent 含有 phosphomolybdic acid 和 phosphotungstic acid。",
+  "topics": [
+   "化學呈色法：Biuret／Lowry／BCA",
+   "Bradford 與 CBB"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chen-14",
+  "source": "114 實驗考古",
+  "num": 14,
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "Which of the following ion plays an important role in protein quantification assay?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Ca2+"
+   },
+   {
+    "k": "B",
+    "t": "Cu2+"
+   },
+   {
+    "k": "C",
+    "t": "Mg2+"
+   },
+   {
+    "k": "D",
+    "t": "Na+"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "接續前面，在蛋白質定量分析中 Cu2+是相當重要的。",
+  "topics": [
+   "化學呈色法：Biuret／Lowry／BCA"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chen-15",
+  "source": "114 實驗考古",
+  "num": 15,
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "In protein quantification assay, we used the known concentration BSA dose as X-axis, and the absorbance value as Y-axis. Then the standard curve formula we got was Y = 0.25X + 0.1. If the absorbance value of unknown protein is 0.6, the concentration of unknown protein could be?",
+  "options": [
+   {
+    "k": "A",
+    "t": "1 µg/µl"
+   },
+   {
+    "k": "B",
+    "t": "0.1875 µg/µl"
+   },
+   {
+    "k": "C",
+    "t": "0.2 µg/µl"
+   },
+   {
+    "k": "D",
+    "t": "2 µg/µl"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "根據題目給的方程式 Y＝0.25X＋0.1，代入 Y＝0.6 後可以得到 X＝2。",
+  "topics": [
+   "標準曲線與吸光值"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k114-chen-16",
+  "source": "114 實驗考古",
+  "num": 16,
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "Continued. Which of the following option is the best R2 value in this standard curve?",
+  "options": [
+   {
+    "k": "A",
+    "t": "0.01"
+   },
+   {
+    "k": "B",
+    "t": "0.5"
+   },
+   {
+    "k": "C",
+    "t": "0.95"
+   },
+   {
+    "k": "D",
+    "t": "0.05"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "標準曲線（standard curve）的 R2 值越大，呈現線型的趨勢越明顯。",
+  "topics": [
+   "標準曲線與吸光值"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chen-17",
+  "source": "114 實驗考古",
+  "num": 17,
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "In protein quantification assay, we used the known concentration BSA dose as X-axis, and the absorbance value as Y-axis. Then the Standard curve formula we got was Y = 0.25 X + 0.15. If the absorbance value of unknown protein is 0.65, the concentration of unknown protein could be?",
+  "options": [
+   {
+    "k": "A",
+    "t": "3 µg/µl"
+   },
+   {
+    "k": "B",
+    "t": "31.25 µg/µl"
+   },
+   {
+    "k": "C",
+    "t": "0.3125 µg/µl"
+   },
+   {
+    "k": "D",
+    "t": "2 µg/µl"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "根據題目給的方程式 Y＝0.25X＋0.15，代入 Y＝0.65 後可以得到 X＝2。",
+  "topics": [
+   "標準曲線與吸光值"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k114-chen-18",
+  "source": "114 實驗考古",
+  "num": 18,
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "Continued. Which of the following option is the best R2 value in this Standard curve?",
+  "options": [
+   {
+    "k": "A",
+    "t": "0.05"
+   },
+   {
+    "k": "B",
+    "t": "0.1"
+   },
+   {
+    "k": "C",
+    "t": "0.99"
+   },
+   {
+    "k": "D",
+    "t": "0.95"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "R² 越接近 1，標準曲線的線性越好。選項中 0.99 最佳。",
+  "topics": [
+   "標準曲線與吸光值"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chen-19",
+  "source": "114 實驗考古",
+  "num": 19,
+  "chapter": "gel-filtration",
+  "type": "mcq",
+  "stem": "In the biochemistry experiments this semester, which absorbance wavelength was used to detect methyl orange in the gel filtration experiment?",
+  "options": [
+   {
+    "k": "A",
+    "t": "450 nm"
+   },
+   {
+    "k": "B",
+    "t": "550 nm"
+   },
+   {
+    "k": "C",
+    "t": "650 nm"
+   },
+   {
+    "k": "D",
+    "t": "750 nm"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "450 nm 測 methyl orange（gel filtration）；Bradford + 蛋白質用 595 nm。",
+  "note": "原題問的是「蛋白質定量」用的波長，但選項沒有 595 nm；共筆解答選 450 nm（methyl orange），本站把題目改成問 methyl orange。",
+  "topics": [
+   "樹脂與條件選擇",
+   "Methyl orange 與 BSA 偵測"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chen-20",
+  "source": "114 實驗考古",
+  "num": 20,
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "Continued. What is the machine we used to measure absorbance wavelength?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Spectrophotometer"
+   },
+   {
+    "k": "B",
+    "t": "Fluorescence meter"
+   },
+   {
+    "k": "C",
+    "t": "ELISA reader"
+   },
+   {
+    "k": "D",
+    "t": "Densitometer"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "測量吸光值是使用 ELISA reader。",
+  "topics": [
+   "標準曲線與吸光值"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chen-21",
+  "source": "114 實驗考古",
+  "num": 21,
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "In the following protein quantification assay, which is non-destructive?",
+  "options": [
+   {
+    "k": "A",
+    "t": "UV Spectroscopy"
+   },
+   {
+    "k": "B",
+    "t": "BCA assay"
+   },
+   {
+    "k": "C",
+    "t": "Biuret Reaction"
+   },
+   {
+    "k": "D",
+    "t": "Lowry assay"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "UV 蛋白質定量不需要加入額外化學試劑，也不會造成蛋白質變性。其他的方法都是透過化學反應改變蛋白質觀察變化。",
+  "topics": [
+   "化學呈色法：Biuret／Lowry／BCA",
+   "UV 280 nm 定量"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chen-22",
+  "source": "114 實驗考古",
+  "num": 22,
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "Which of the following amino acid could not be used to measure protein concentration by UV spectroscopy?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Phenylalanine"
+   },
+   {
+    "k": "B",
+    "t": "Threonine"
+   },
+   {
+    "k": "C",
+    "t": "Tyrosine"
+   },
+   {
+    "k": "D",
+    "t": "Tryptophan"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "UV 蛋白質定量主要是透過測定蛋白質中的芳香族胺基酸（Phe、Tyr、Trp），如果芳香族胺基酸含量低的話測定的效果就會不佳。",
+  "topics": [
+   "UV 280 nm 定量",
+   "標準曲線與吸光值"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-chen-23",
+  "source": "114 實驗考古",
+  "num": 23,
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "Continued. Which of the following absorbance wavelength is commonly used in measurement of protein concentration?",
+  "options": [
+   {
+    "k": "A",
+    "t": "320 nm"
+   },
+   {
+    "k": "B",
+    "t": "260 nm"
+   },
+   {
+    "k": "C",
+    "t": "280 nm"
+   },
+   {
+    "k": "D",
+    "t": "230 nm"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "芳香族胺基酸在 λ＝280nm 的時候有最大吸光值，因此常用此波段來測定蛋白質含量。",
+  "topics": [
+   "UV 280 nm 定量",
+   "標準曲線與吸光值"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chen-24",
+  "source": "114 實驗考古",
+  "num": 24,
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "Which of the following statement about Bradford Assay is incorrect?",
+  "options": [
+   {
+    "k": "A",
+    "t": "RAPID color development"
+   },
+   {
+    "k": "B",
+    "t": "A multiple-steps assay"
+   },
+   {
+    "k": "C",
+    "t": "Less interference"
+   },
+   {
+    "k": "D",
+    "t": "High sensitivity"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "根據老師講義內容，Bradford assay 有以下特質：\n(1) 緩衝液中的物質較不易造成干擾（less interference）\n(2) 高敏感度（high sensitivity）\n(3) 單步驟反應（single-step assay）\n(4) 快速呈色（rapid color development）但也有以下缺點：\n(1) 建議用於測定芳香族或鹼性胺基酸的測定。\n(2) 不同蛋白質做出的結果可能不同，在製作標準曲線時建議使用和待測物相近的蛋白質。\n(3) 鹼性物質和界面活性劑容易干擾測定。",
+  "topics": [
+   "Bradford 與 CBB"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-chen-25",
+  "source": "114 實驗考古",
+  "num": 25,
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "Which of the following reagent is used in Bradford Assay?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Methylene blue"
+   },
+   {
+    "k": "B",
+    "t": "Methyl blue"
+   },
+   {
+    "k": "C",
+    "t": "Coomassie blue"
+   },
+   {
+    "k": "D",
+    "t": "Bromophenol blue"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "這是 Bradford assay 使用的 CBG，有人寫 Goomassie 或者 Coomassie。以下其他染劑作為參考：\n(A) 亞甲藍用於細胞核染色。\n(B) 甲基藍用於植物細胞壁染色。\n(D) Bromophenol blue 跟 DNA 電泳的 loading dye 有關。",
+  "topics": [
+   "Bradford 與 CBB"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chen-26",
+  "source": "114 實驗考古",
+  "num": 26,
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "Which of the following amino acid is not preferred for Bradford Assay?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Tryptophan"
+   },
+   {
+    "k": "B",
+    "t": "Tyrosine"
+   },
+   {
+    "k": "C",
+    "t": "Aspartate"
+   },
+   {
+    "k": "D",
+    "t": "Lysine"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Bradford assay 適用於芳香族胺基酸或鹼性胺基酸。",
+  "topics": [
+   "Bradford 與 CBB",
+   "UV 280 nm 定量"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-chen-27",
+  "source": "114 實驗考古",
+  "num": 27,
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "The color formation in which of the following assay is not related to ion?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Bradford assay"
+   },
+   {
+    "k": "B",
+    "t": "BCA assay"
+   },
+   {
+    "k": "C",
+    "t": "Lowry assay"
+   },
+   {
+    "k": "D",
+    "t": "Biuret method"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Bradford assay 是透過酸鹼值的變化改變顏色，其他的變色反應都跟 Cu2+有關。",
+  "topics": [
+   "化學呈色法：Biuret／Lowry／BCA",
+   "Bradford 與 CBB"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-chen-28",
+  "source": "114 實驗考古",
+  "num": 28,
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "Which of the following technique is not used to determine protein concentration?",
+  "options": [
+   {
+    "k": "A",
+    "t": "High performance liquid chromatography"
+   },
+   {
+    "k": "B",
+    "t": "Mass Spectrometry"
+   },
+   {
+    "k": "C",
+    "t": "Gel filtration"
+   },
+   {
+    "k": "D",
+    "t": "Real-Time PCR"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Real-time PCR 一看就是錯誤答案，跟一般 PCR 不一樣的是加入特定的螢光染劑來觀察 DNA 的產量，和蛋白質沒關係。\n(A) High performance liquid chromatography（高效液相層析）：為一種層析方法，主要特色是有加壓進行分析。\n(B) Mass Spectrometry（質譜法）：有機教過，可以用來確定樣品的質量以及其化學結構。\n(C) Gel filtration（膠體過濾法）：透過分子篩（molecular sieve）分離不同大小的蛋白。",
+  "topics": [
+   "Pipetman 操作"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-chen-29",
+  "source": "114 實驗考古",
+  "num": 29,
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "When we measure protein concentration by using Coomassie Brilliant Blue staining, what wavelength is used to detect?",
+  "options": [
+   {
+    "k": "A",
+    "t": "595 nm"
+   },
+   {
+    "k": "B",
+    "t": "320 nm"
+   },
+   {
+    "k": "C",
+    "t": "470 nm"
+   },
+   {
+    "k": "D",
+    "t": "270 nm"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Bradford 試劑的 CBB G-250 結合蛋白質後由紅褐色（陽離子型，470 nm）轉為藍色（陰離子型），最大吸光移到 595 nm。",
+  "topics": [
+   "Bradford 與 CBB"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chen-30",
+  "source": "114 實驗考古",
+  "num": 30,
+  "chapter": "gel-filtration",
+  "type": "mcq",
+  "stem": "下列何者不會影響蛋白質分子量測定實驗？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Bed height"
+   },
+   {
+    "k": "B",
+    "t": "填充物品質"
+   },
+   {
+    "k": "C",
+    "t": "流速"
+   },
+   {
+    "k": "D",
+    "t": "蛋白質來源"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "(A) Bed height 越長，分辨率越高，但不能太長會造成流速過慢等問題。\n(B) 填充物品質：凝膠柱填裝情況將直接影響分離效果。填裝後用肉眼觀察應均勻、無紋路氣泡。\n(C) 流速：洗脫速度也會影響凝膠過濾的分離效果，一般洗脫速度要恆定而且合適。保持洗脫速度恆定通常有兩種方法，一種是使用恆流泵，另一種是恆壓重力洗脫。",
+  "topics": [
+   "原理：大分子先出來",
+   "樹脂與條件選擇"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-chen-31",
+  "source": "114 實驗考古",
+  "num": 31,
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "請問右圖是以下哪種化合物？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Coomassie Brilliant Blue (CBB) G-250"
+   },
+   {
+    "k": "B",
+    "t": "Coomassie Brilliant Blue (CBB) R-250"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "G-250 比 R-250 多兩個甲基（G = greenish，R = reddish）。圖中苯環上帶甲基的就是 G-250，Bradford 定量用的也是 G-250。",
+  "img": [
+   "figures/questions/chen-31.webp"
+  ],
+  "topics": [
+   "Bradford 與 CBB"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chou-01",
+  "source": "114 實驗考古",
+  "num": 1,
+  "chapter": "plasmid",
+  "type": "mcq",
+  "stem": "在 DNA 電泳中，S1 buffer 作用是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Digestion"
+   },
+   {
+    "k": "B",
+    "t": "Resuspension"
+   },
+   {
+    "k": "C",
+    "t": "Lysis"
+   },
+   {
+    "k": "D",
+    "t": "Neutralize"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "以下整理 S1、S2、S3 的功能與成分：\n(1) Solution 1（S1）：Resuspension Buffer，將菌體懸浮於溶液中成分功用Tris-HCl（pH8.0）緩衝溶液，維持 pH 值穩定EDTA                     與微生物金屬離子結合，抑制 DNase 活性Glucose                  增加溶液黏稠度，使菌體保持懸浮避免沉降RNase                    降解溶液內 RNA\n(2) Solution 2（S2）：Lysis Buffer，將細胞裂解成分功用NaOH                     利用強鹼破壞細胞膜磷脂質SDS           與 Solution 3 反應\n*需要注意加入 solution 2 後不可劇烈晃動且時間不能過長，會使 DNA 斷裂。\n(3) Solution 3（S3）：Neutralization Buffer，中和 solution 2 強鹼，清除細胞內雜質成分功用Potassium Acetate        與 SDS 反應，與變性蛋白質生成不溶於水之 potassium dodecylsulfate（PDS），進而去除雜質Acetic acid              中和 S2 的 NaOH參考資料：https://www.acebiolab.com/TW/news/42",
+  "topics": [
+   "鹼裂解法：S1／S2／S3"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chou-02",
+  "source": "114 實驗考古",
+  "num": 2,
+  "chapter": "plasmid",
+  "type": "mcq",
+  "stem": "在 DNA 電泳中，S2 buffer 作用是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Digestion"
+   },
+   {
+    "k": "B",
+    "t": "Resuspension"
+   },
+   {
+    "k": "C",
+    "t": "Lysis"
+   },
+   {
+    "k": "D",
+    "t": "Neutralize"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "以下整理 S1、S2、S3 的功能與成分：\n(1) Solution 1（S1）：Resuspension Buffer，將菌體懸浮於溶液中成分功用Tris-HCl（pH8.0）緩衝溶液，維持 pH 值穩定EDTA                     與微生物金屬離子結合，抑制 DNase 活性Glucose                  增加溶液黏稠度，使菌體保持懸浮避免沉降RNase                    降解溶液內 RNA\n(2) Solution 2（S2）：Lysis Buffer，將細胞裂解成分功用NaOH                     利用強鹼破壞細胞膜磷脂質SDS           與 Solution 3 反應\n*需要注意加入 solution 2 後不可劇烈晃動且時間不能過長，會使 DNA 斷裂。\n(3) Solution 3（S3）：Neutralization Buffer，中和 solution 2 強鹼，清除細胞內雜質成分功用Potassium Acetate        與 SDS 反應，與變性蛋白質生成不溶於水之 potassium dodecylsulfate（PDS），進而去除雜質Acetic acid              中和 S2 的 NaOH參考資料：https://www.acebiolab.com/TW/news/42",
+  "topics": [
+   "鹼裂解法：S1／S2／S3"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chou-03",
+  "source": "114 實驗考古",
+  "num": 3,
+  "chapter": "plasmid",
+  "type": "mcq",
+  "stem": "在 DNA 電泳中，S3 buffer 作用是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Digestion"
+   },
+   {
+    "k": "B",
+    "t": "Resuspension"
+   },
+   {
+    "k": "C",
+    "t": "Lysis"
+   },
+   {
+    "k": "D",
+    "t": "Neutralize"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "以下整理 S1、S2、S3 的功能與成分：\n(1) Solution 1（S1）：Resuspension Buffer，將菌體懸浮於溶液中成分功用Tris-HCl（pH8.0）緩衝溶液，維持 pH 值穩定EDTA                     與微生物金屬離子結合，抑制 DNase 活性Glucose                  增加溶液黏稠度，使菌體保持懸浮避免沉降RNase                    降解溶液內 RNA\n(2) Solution 2（S2）：Lysis Buffer，將細胞裂解成分功用NaOH                     利用強鹼破壞細胞膜磷脂質SDS           與 Solution 3 反應\n*需要注意加入 solution 2 後不可劇烈晃動且時間不能過長，會使 DNA 斷裂。\n(3) Solution 3（S3）：Neutralization Buffer，中和 solution 2 強鹼，清除細胞內雜質成分功用Potassium Acetate        與 SDS 反應，與變性蛋白質生成不溶於水之 potassium dodecylsulfate（PDS），進而去除雜質Acetic acid              中和 S2 的 NaOH參考資料：https://www.acebiolab.com/TW/news/42",
+  "topics": [
+   "鹼裂解法：S1／S2／S3"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chou-04",
+  "source": "114 實驗考古",
+  "num": 4,
+  "chapter": "plasmid",
+  "type": "mcq",
+  "stem": "在 DNA 電泳中，如何去除 RNA？",
+  "options": [
+   {
+    "k": "A",
+    "t": "加入 RNase A"
+   },
+   {
+    "k": "B",
+    "t": "加入 DNase I"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "見上表(1)，RNase 加在 S1 buffer 中來降解溶液內的 RNA。",
+  "topics": [
+   "鹼裂解法：S1／S2／S3"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chou-05",
+  "source": "114 實驗考古",
+  "num": 5,
+  "chapter": "plasmid",
+  "type": "mcq",
+  "stem": "承上題，在 DNA 電泳中，上題用於去除 RNA 的酵素會加在哪？",
+  "options": [
+   {
+    "k": "A",
+    "t": "S1 buffer"
+   },
+   {
+    "k": "B",
+    "t": "S2 buffer"
+   },
+   {
+    "k": "C",
+    "t": "S3 buffer"
+   },
+   {
+    "k": "D",
+    "t": "Elution buffer"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "見上表(1)，RNase 加在 S1 buffer 中來降解溶液內的 RNA。",
+  "topics": [
+   "鹼裂解法：S1／S2／S3",
+   "Elution 與 TE buffer"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chou-06",
+  "source": "114 實驗考古",
+  "num": 6,
+  "chapter": "plasmid",
+  "type": "mcq",
+  "stem": "在 DNA 電泳中，下列何者能作為 elution buffer？",
+  "options": [
+   {
+    "k": "A",
+    "t": "PBS (pH＝5.0)"
+   },
+   {
+    "k": "B",
+    "t": "TE buffer (pH＝3.0)"
+   },
+   {
+    "k": "C",
+    "t": "TE buffer (pH＝5.0)"
+   },
+   {
+    "k": "D",
+    "t": "TE buffer (pH＝8.0)"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "(A) PBS 通常出現在細胞培養或蛋白質實驗當中\n(B)(C)(D) TE Buffer 通常出現在 DNA 或 RNA 實驗當中。在質體 DNA 萃取實驗中，TE Buffer 的pH 值＝8.0。因為 pH 值 7.4～8.0 是能讓 DNA 穩定性最高的環境，故選最接近的 8.0。（若選項有 TE Buffer（pH＝7.5）為更佳）",
+  "topics": [
+   "Elution 與 TE buffer"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chou-07",
+  "source": "114 實驗考古",
+  "num": 7,
+  "chapter": "plasmid",
+  "type": "mcq",
+  "stem": "DNA 電泳中，照膠時是用甚麼燈箱？",
+  "options": [
+   {
+    "k": "A",
+    "t": "UV light"
+   },
+   {
+    "k": "B",
+    "t": "汞燈"
+   },
+   {
+    "k": "C",
+    "t": "藍光 LED"
+   },
+   {
+    "k": "D",
+    "t": "全光 LED"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "不要再選 UV light 了！只要記得它只是要拿來照膠，沒有要殺菌的意思。另一個原因是因為實驗課用的染劑是 Gel Green 而不是 EtBr，若是用 EtBr 就需要用 UV light 才能激發。",
+  "topics": [
+   "染劑、loading dye 與照膠"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chou-08",
+  "source": "114 實驗考古",
+  "num": 8,
+  "chapter": "plasmid",
+  "type": "mcq",
+  "stem": "在 DNA 電泳中，如果有一個分子大的 DNA 分子被分離出來，兩個小的分子沒辦法分離，且大小 相近，應該要如何調整濃度？",
+  "options": [
+   {
+    "k": "A",
+    "t": "增加濃度"
+   },
+   {
+    "k": "B",
+    "t": "減少濃度"
+   },
+   {
+    "k": "C",
+    "t": "無法分離"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "在 DNA 電泳實驗中，膠體濃度愈高，表示其間孔隙愈小，愈不利於物質通過。小的分子無法分離，可能是因為分子大小較膠體孔隙還要小，故移動速度快且距離同樣遠。此時若增加膠體濃度使孔隙變小，有助於使小分子移動速度變慢，提高對小分子的解析度。",
+  "topics": [
+   "Agarose 電泳條件"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chou-09",
+  "source": "114 實驗考古",
+  "num": 9,
+  "chapter": "plasmid",
+  "type": "mcq",
+  "stem": "在 DNA 電泳中，跑得遠的 DNA 跟跑得近的 DNA 大小比較？",
+  "options": [
+   {
+    "k": "A",
+    "t": "遠＞近"
+   },
+   {
+    "k": "B",
+    "t": "近＞遠"
+   },
+   {
+    "k": "C",
+    "t": "遠＝近"
+   },
+   {
+    "k": "D",
+    "t": "無法判斷"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "假設其他變因都相同，理論上跑得較遠的 DNA 表示較容易通過膠體間的孔隙，立體結構較小。",
+  "topics": [
+   "Agarose 電泳條件"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chou-10",
+  "source": "114 實驗考古",
+  "num": 10,
+  "chapter": "plasmid",
+  "type": "mcq",
+  "stem": "超螺旋（Supercoiled，SC）、環形（Open Circular，OC）、線狀（Linear，L）型態 DNA，在電泳中 相同時間內跑的距離遠近？",
+  "options": [
+   {
+    "k": "A",
+    "t": "SC＞L＞OC"
+   },
+   {
+    "k": "B",
+    "t": "SC＞OC＞L"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "(1) DNA 分子在電泳時，主要是分辨物質在介質中的移動速度，而移動速度又與介質的孔隙、DNA 的立體結構有關。Circular DNA 的立體結構較其他兩者巨大（通常是環狀或球狀），若是碰到濃度較高的 Agarose，介質的孔隙小不利於 Circular DNA 分子通過，故移動速度最慢。\n(2) 接下來比較 Supercoiled 與 Linear form 的差異。Supercoiled 是 DNA 被高度扭轉與纏繞，使得DNA 分子能夠更緻密，分子被壓縮得很小，較容易通過 Agarose 介質的孔隙；相對而言，Linear form 沒有高度纏繞的特性，大小比 Supercoiled DNA 來得大，結構上也較鬆散不穩定。綜合以上敘述，我們可以得出移動速度的相對關係為 SC＞L＞OC",
+  "topics": [
+   "Agarose 電泳條件",
+   "DNA 型態與移動速度"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chou-11",
+  "source": "114 實驗考古",
+  "num": 11,
+  "chapter": "plasmid",
+  "type": "mcq",
+  "stem": "DNA 樣品染料（loading dye）中有哪幾種成分？（複選）",
+  "options": [
+   {
+    "k": "A",
+    "t": "Bromophenol blue"
+   },
+   {
+    "k": "B",
+    "t": "Orange G"
+   },
+   {
+    "k": "C",
+    "t": "Xylene cyanol"
+   },
+   {
+    "k": "D",
+    "t": "Glycerol"
+   }
+  ],
+  "answer": [
+   "A",
+   "C",
+   "D"
+  ],
+  "explain": "（原題目寫 DNA 染劑，但這邊要講的應該是 DNA sample loading dye，也就是 DNA 樣品染料）2x loading dye 裡面包含 Bromophenol blue 和 Xylene cyanol 兩物質作為電泳時的標定物（marker）。另外在 loading dye 中加入 glycerol 是為了增加 DNA sample 整體的密度，使其在 loading 時更容易沉入 well 中，而不是在 Buffer 內亂漂。\n【比較】限制酵素中添加的 glycerol，目的是為了抗凍，跟 DNA loading dye 裡甘油的作用不同。",
+  "topics": [
+   "染劑、loading dye 與照膠"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chou-12",
+  "source": "114 實驗考古",
+  "num": 12,
+  "chapter": "plasmid",
+  "type": "mcq",
+  "stem": "本學期 DNA 電泳使用的緩衝液？",
+  "options": [
+   {
+    "k": "A",
+    "t": "TAE buffer"
+   },
+   {
+    "k": "B",
+    "t": "TBE buffer"
+   },
+   {
+    "k": "C",
+    "t": "TPE buffer"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "因為 TAE 與 TBE 都有可能用在 DNA 萃取實驗，只差在目標 DNA 的大小，故針對原題目修改，特別強調是本學期實驗時所使用的 Buffer。",
+  "topics": [
+   "Agarose 電泳條件"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chou-13",
+  "source": "114 實驗考古",
+  "num": 13,
+  "chapter": "plasmid",
+  "type": "mcq",
+  "stem": "DNA 電泳的電泳槽是哪一種？",
+  "options": [
+   {
+    "k": "A",
+    "t": "水平式平板電泳槽"
+   },
+   {
+    "k": "B",
+    "t": "垂直板電泳槽"
+   },
+   {
+    "k": "C",
+    "t": "圓盤電泳槽"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "參考質體萃取簡報第 23 頁。",
+  "topics": [
+   "Agarose 電泳條件"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chou-14",
+  "source": "114 實驗考古",
+  "num": 14,
+  "chapter": "plasmid",
+  "type": "mcq",
+  "stem": "本學期 DNA 電泳實驗中所使用的 DNA 染劑為何？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Methyl blue"
+   },
+   {
+    "k": "B",
+    "t": "EtBr"
+   },
+   {
+    "k": "C",
+    "t": "AO（acridine orange）"
+   },
+   {
+    "k": "D",
+    "t": "Gel green"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "志銘老師說為了讓我們的人生看起來是彩色的，所以選用較安全的染劑 Gel Green。補充 EtBr 與 Gel Green 的差異，在於作用位置不同。EtBr 直接嵌入 DNA 當中，而 Gel Green 則僅在 DNA 表面作用。故 EtBr 被認為是毒性較強的染劑，成本也比 Gel Green 低。",
+  "topics": [
+   "染劑、loading dye 與照膠"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-chou-15",
+  "source": "114 實驗考古",
+  "num": 15,
+  "chapter": "plasmid",
+  "type": "mcq",
+  "stem": "本學期 DNA 電泳實驗中所使用的介質為何？",
+  "options": [
+   {
+    "k": "A",
+    "t": "agar"
+   },
+   {
+    "k": "B",
+    "t": "agarose"
+   },
+   {
+    "k": "C",
+    "t": "acrylamide"
+   },
+   {
+    "k": "D",
+    "t": "starch"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "膠體成分為洋菜膠（agarose）。",
+  "topics": [
+   "Agarose 電泳條件"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-01",
+  "source": "114 實驗考古",
+  "num": 1,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "Which of the following is not required for polymerization of polyacrylamide gel?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Acrylamide"
+   },
+   {
+    "k": "B",
+    "t": "Bisacrylamide"
+   },
+   {
+    "k": "C",
+    "t": "SDS"
+   },
+   {
+    "k": "D",
+    "t": "APS"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "SDS 是 sample buffer 中的東西",
+  "topics": [
+   "鑄膠：acrylamide、bis、APS、TEMED"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-cheng-02",
+  "source": "114 實驗考古",
+  "num": 2,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "What is the role of water adding into the upper layer of stacking gel?",
+  "options": [
+   {
+    "k": "A",
+    "t": "dilute gel solution"
+   },
+   {
+    "k": "B",
+    "t": "keep wet of the gel"
+   },
+   {
+    "k": "C",
+    "t": "form a horizontal gel"
+   },
+   {
+    "k": "D",
+    "t": "no meaning"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "看共筆，ddH2O 是用來壓膠的。把下膠混合物注入鑄膠器後，再將 ddH2O 倒到上方，等待下膠凝固後，倒除 ddH2O，加入上膠。另外異丙醇也可以壓膠，而且膠更快聚合",
+  "topics": [
+   "Stacking 與 pH（6.8／8.8／8.3）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-03",
+  "source": "114 實驗考古",
+  "num": 3,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "Which of the following is used for staining SDS-gel?",
+  "options": [
+   {
+    "k": "A",
+    "t": "bromophenol blue"
+   },
+   {
+    "k": "B",
+    "t": "methylene blue"
+   },
+   {
+    "k": "C",
+    "t": "coomassie brilliant blue"
+   },
+   {
+    "k": "D",
+    "t": "trypan blue"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "用 CBB 將拆下的 SDS 膠體染色。",
+  "note": "原題 (A)(B) 重複，本站把 (B) 改成 methylene blue。",
+  "topics": [
+   "染色與分子量估算"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-04",
+  "source": "114 實驗考古",
+  "num": 4,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "Which of the following is not the component of SDS-gel?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Acrylamide"
+   },
+   {
+    "k": "B",
+    "t": "Bisacrylamide"
+   },
+   {
+    "k": "C",
+    "t": "APS"
+   },
+   {
+    "k": "D",
+    "t": "PAGE"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "PAGE 是 polyacrylamide gel electrophoresis 的縮寫，不是成分。",
+  "topics": [
+   "鑄膠：acrylamide、bis、APS、TEMED"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-cheng-05",
+  "source": "114 實驗考古",
+  "num": 5,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "What is the role of APS in polymerization of SDS-gel?",
+  "options": [
+   {
+    "k": "A",
+    "t": "transfer electrons"
+   },
+   {
+    "k": "B",
+    "t": "as crosslinker"
+   },
+   {
+    "k": "C",
+    "t": "produce a mesh-like network"
+   },
+   {
+    "k": "D",
+    "t": "produce free radicals"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "APS（Ammonium Persulfate）產生自由基，TEMED 負責轉移電子。",
+  "topics": [
+   "鑄膠：acrylamide、bis、APS、TEMED"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-06",
+  "source": "114 實驗考古",
+  "num": 6,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "Which of the following descriptions of SDS-PAGE is not correct?",
+  "options": [
+   {
+    "k": "A",
+    "t": "SDS-gel has two layers"
+   },
+   {
+    "k": "B",
+    "t": "The upper-layer is used for stacking proteins"
+   },
+   {
+    "k": "C",
+    "t": "The lower-layer is used for separating proteins"
+   },
+   {
+    "k": "D",
+    "t": "Large proteins migrate faster than small proteins"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "越大的分子跑越慢。",
+  "topics": [
+   "Stacking 與 pH（6.8／8.8／8.3）"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-cheng-07",
+  "source": "114 實驗考古",
+  "num": 7,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "Which of the following in the sample buffer is used to break the disulfide bonds of proteins?",
+  "options": [
+   {
+    "k": "A",
+    "t": "bromophenol blue"
+   },
+   {
+    "k": "B",
+    "t": "SDS"
+   },
+   {
+    "k": "C",
+    "t": "Glycerol"
+   },
+   {
+    "k": "D",
+    "t": "beta-mercaptoethanol"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "β-mercaptoethanol（或 DTT）是還原劑，打斷 disulfide bond；SDS 讓蛋白質變性並帶負電；glycerol 增加密度讓樣品沉入 well；bromophenol blue 是追蹤染料。",
+  "topics": [
+   "Sample buffer 成分"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-08",
+  "source": "114 實驗考古",
+  "num": 8,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "Which of the following is the major component in the running buffer for stacking proteins?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Tris-HCl"
+   },
+   {
+    "k": "B",
+    "t": "Glycine"
+   },
+   {
+    "k": "C",
+    "t": "SDS"
+   },
+   {
+    "k": "D",
+    "t": "Glycerol"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "和 chloride 一起 stack protein。",
+  "topics": [
+   "Sample buffer 成分",
+   "Stacking 與 pH（6.8／8.8／8.3）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-09",
+  "source": "114 實驗考古",
+  "num": 9,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "What is the difference between the structures of CBB-G250 and CBB-R250?",
+  "options": [
+   {
+    "k": "A",
+    "t": "CBB-G250 has one more methyl group than R250"
+   },
+   {
+    "k": "B",
+    "t": "CBB-R250 has one more methyl group than G250"
+   },
+   {
+    "k": "C",
+    "t": "CBB-G250 has two more methyl group than R250"
+   },
+   {
+    "k": "D",
+    "t": "CBB-R250 has two more methyl group than G250"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "CBB G-250 比 R-250 多兩個甲基。G-250 用於 Bradford 定量與膠體染色（膠體染色也常用 R-250）。",
+  "topics": [
+   "染色與分子量估算"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-10",
+  "source": "114 實驗考古",
+  "num": 10,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "Which of the following amino acids is bound by coomassie brilliant blue in SDS-gel staining?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Lysine"
+   },
+   {
+    "k": "B",
+    "t": "Leucine"
+   },
+   {
+    "k": "C",
+    "t": "Glycine"
+   },
+   {
+    "k": "D",
+    "t": "Asparagine"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "CBB 常和正電胺基酸結合（Lysine, Arginine, Histidine）。",
+  "topics": [
+   "Stacking 與 pH（6.8／8.8／8.3）",
+   "染色與分子量估算"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-11",
+  "source": "114 實驗考古",
+  "num": 11,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "Which of the following descriptions about protein electrophoresis is not correct?",
+  "options": [
+   {
+    "k": "A",
+    "t": "High voltage, high migration speed"
+   },
+   {
+    "k": "B",
+    "t": "High molecular weight, low migration speed"
+   },
+   {
+    "k": "C",
+    "t": "Negative charge migrate to positive charge"
+   },
+   {
+    "k": "D",
+    "t": "High percentage gel, high migration speed"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "高密度的膠孔洞較小，跑膠的速度就慢。",
+  "topics": [
+   "鑄膠：acrylamide、bis、APS、TEMED"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-cheng-12",
+  "source": "114 實驗考古",
+  "num": 12,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "Why does the SDS-gel need to wash with water before staining with CBB?",
+  "options": [
+   {
+    "k": "A",
+    "t": "remove salt"
+   },
+   {
+    "k": "B",
+    "t": "remove buffer"
+   },
+   {
+    "k": "C",
+    "t": "remove bromophenol blue"
+   },
+   {
+    "k": "D",
+    "t": "remove SDS"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "以免和 SDS 負負相斥，使蛋白質無法染色。",
+  "topics": [
+   "染色與分子量估算"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-13",
+  "source": "114 實驗考古",
+  "num": 13,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "Sample buffer is used to denature the protein sample before proteins are separated. If we want to load 150μL of protein sample, how to prepare the sample using 3X sample buffer(SB) and protein sample(P)?",
+  "options": [
+   {
+    "k": "A",
+    "t": "SB: 3μL, P: 150μL"
+   },
+   {
+    "k": "B",
+    "t": "SB: 50μL, P: 150μL"
+   },
+   {
+    "k": "C",
+    "t": "SB: 50μL, P: 100μL"
+   },
+   {
+    "k": "D",
+    "t": "SB: 3μL, P: 147μL"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "3X 的 buffer 需要被稀釋回原本的濃度就要體積變三倍。也就是還要兩倍的液體量",
+  "topics": [
+   "Sample buffer 成分",
+   "樣品配製計算"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k114-cheng-14",
+  "source": "114 實驗考古",
+  "num": 14,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "Why can the proteins be separated by molecular weight in SDS-PAGE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Gravity"
+   },
+   {
+    "k": "B",
+    "t": "Electrophoresis"
+   },
+   {
+    "k": "C",
+    "t": "Denature"
+   },
+   {
+    "k": "D",
+    "t": "native charge"
+   },
+   {
+    "k": "E",
+    "t": "all of the above"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "SDS-PAGE 實驗就是將蛋白質樣本置於電場中，透過介質遷移。",
+  "topics": [
+   "鑄膠：acrylamide、bis、APS、TEMED"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-15",
+  "source": "114 實驗考古",
+  "num": 15,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "Which of the following is sodium dodecyl sulfate (SDS) used for?",
+  "options": [
+   {
+    "k": "A",
+    "t": "give protein negative charge"
+   },
+   {
+    "k": "B",
+    "t": "give protein positive charge"
+   },
+   {
+    "k": "C",
+    "t": "Renature protein"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "蛋白質溶液與 SDS（十二烷基硫酸鈉）混合，SDS 為界面活性劑會破壞蛋白質的二級結構使其變性，並包覆變性蛋白質，在分子表面均勻佈上一層負電荷",
+  "topics": [
+   "Sample buffer 成分"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-16",
+  "source": "114 實驗考古",
+  "num": 16,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "Which of the following is not necessary for synthesis of polyacrylamide?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Methylenebisacrylamide"
+   },
+   {
+    "k": "B",
+    "t": "Acrylamide"
+   },
+   {
+    "k": "C",
+    "t": "beta-mercaptoethanol"
+   },
+   {
+    "k": "D",
+    "t": "ammonium persulfate"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(A) bis 是連接分子，可以和 acrylamide 構成網狀結構\n(B) 你覺得 polyacrylamide 裡面沒有 acrylamide 嗎？\n(C) beta-mercaptoethanol：解開雙硫鍵，是處理 sample 時加入 sample buffer 的\n(D) ammonium persulfate：提供自由基來合成 polyacrylamide可以參考 17 題的圖片",
+  "topics": [
+   "鑄膠：acrylamide、bis、APS、TEMED",
+   "Sample buffer 成分"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k114-cheng-17",
+  "source": "114 實驗考古",
+  "num": 17,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "Which of the following structures is acrylamide? （參考右圖）",
+  "options": [
+   {
+    "k": "A",
+    "t": "左上"
+   },
+   {
+    "k": "B",
+    "t": "右上"
+   },
+   {
+    "k": "C",
+    "t": "左下"
+   },
+   {
+    "k": "D",
+    "t": "右下"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "(A) Acrylamide\n(B) N,N’-Methylene-Bisacrylamide (bis)\n(C) (D)是不同顏色的包在一起（黑白印刷可能看不太出來就是）",
+  "img": [
+   "figures/questions/cheng-17.webp"
+  ],
+  "topics": [
+   "鑄膠：acrylamide、bis、APS、TEMED"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-18",
+  "source": "114 實驗考古",
+  "num": 18,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "Which section has the lowest pH?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Well"
+   },
+   {
+    "k": "B",
+    "t": "stacking gel"
+   },
+   {
+    "k": "C",
+    "t": "running gel"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "(A) Well 的 pH=8.3\n(B) stacking gel 的 pH=6.8，在其中 Glycine 會變成電中性，停滯，形成 Ion empty layer\n(C) running gel 的 pH=8.8\n＊整理：sample buffer (Tris-HCl) pH=6.8 Stacking gel pH=6.8 Running gel pH=8.8 Running buffer (Tris-Glycine) pH=8.3",
+  "topics": [
+   "Stacking 與 pH（6.8／8.8／8.3）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-19",
+  "source": "114 實驗考古",
+  "num": 19,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "How do you calculate Rf value of B? （參考右圖）",
+  "options": [
+   {
+    "k": "A",
+    "t": "A"
+   },
+   {
+    "k": "B",
+    "t": "B"
+   },
+   {
+    "k": "C",
+    "t": "B/C"
+   },
+   {
+    "k": "D",
+    "t": "A/C"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Rf = 蛋白質跑的距離 ÷ 追蹤染料（dye front）跑的距離。圖中 A 是 B 帶跑的距離、C 是 dye front 的距離，所以 Rf = A/C。",
+  "img": [
+   "figures/questions/cheng-19.webp"
+  ],
+  "topics": [
+   "染色與分子量估算"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-20",
+  "source": "114 實驗考古",
+  "num": 20,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "在蛋白質電泳中，加入水的目的？",
+  "options": [
+   {
+    "k": "A",
+    "t": "壓平下膠"
+   },
+   {
+    "k": "B",
+    "t": "防止下膠乾掉"
+   },
+   {
+    "k": "C",
+    "t": "防止玻璃乾掉"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "見第 2 題",
+  "topics": [
+   "鑄膠：acrylamide、bis、APS、TEMED",
+   "Stacking 與 pH（6.8／8.8／8.3）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-21",
+  "source": "114 實驗考古",
+  "num": 21,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "在蛋白質電泳中，上膠的 pH 值？",
+  "options": [
+   {
+    "k": "A",
+    "t": "6.8"
+   },
+   {
+    "k": "B",
+    "t": "7.0"
+   },
+   {
+    "k": "C",
+    "t": "8.3"
+   },
+   {
+    "k": "D",
+    "t": "8.8"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "即 Stacking gel，利用 Glycine（於 Running buffer 中）在 pH 6.8 不帶電的特性，使蛋白質樣品前進速度緩慢，而達同一水平線進入下膠。",
+  "topics": [
+   "Stacking 與 pH（6.8／8.8／8.3）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-22",
+  "source": "114 實驗考古",
+  "num": 22,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "在蛋白質電泳中，下膠的 pH 值？",
+  "options": [
+   {
+    "k": "A",
+    "t": "6.8"
+   },
+   {
+    "k": "B",
+    "t": "7.0"
+   },
+   {
+    "k": "C",
+    "t": "8.3"
+   },
+   {
+    "k": "D",
+    "t": "8.8"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "即 Running gel，在 pH 8.8 時，Glycine 帶負電，因此蛋白質樣品會快速往正極移動。",
+  "topics": [
+   "Stacking 與 pH（6.8／8.8／8.3）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-23",
+  "source": "114 實驗考古",
+  "num": 23,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "在 SDS-PAGE 之前，需要先準備蛋白質 sample，每個 SDS 膠的 well 的最大容量為 25μl，以 5X smaple buffer 配製且希望每 well 中有 40μg 的蛋白質，以下蛋白質 sample 何者濃度不足配製?",
+  "options": [
+   {
+    "k": "A",
+    "t": "2 μg/μl"
+   },
+   {
+    "k": "B",
+    "t": "1.7 μg/μl"
+   },
+   {
+    "k": "C",
+    "t": "3.2 μg/μl"
+   },
+   {
+    "k": "D",
+    "t": "5.2 μg/μl"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "5X sample buffer：x µL buffer 配 4x µL 樣品，總量 5x ≤ 25 µL → 樣品最多 20 µL。\n要在 20 µL 內裝 40 µg → 濃度至少 2 µg/µL。只有 (B) 1.7 µg/µL 不夠。",
+  "topics": [
+   "樣品配製計算"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k114-cheng-24",
+  "source": "114 實驗考古",
+  "num": 24,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "APS 的作用？",
+  "options": [
+   {
+    "k": "A",
+    "t": "提供 free radicals"
+   },
+   {
+    "k": "B",
+    "t": "穩固膠體結構"
+   },
+   {
+    "k": "C",
+    "t": "破壞雙硫鍵"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "APS（Ammonium persulfate）形成自由基引發聚合的起始反應。",
+  "topics": [
+   "鑄膠：acrylamide、bis、APS、TEMED",
+   "Sample buffer 成分"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-25",
+  "source": "114 實驗考古",
+  "num": 25,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "Acrylamide 作用？",
+  "options": [
+   {
+    "k": "A",
+    "t": "組裝膠體結構"
+   },
+   {
+    "k": "B",
+    "t": "提供 free radical"
+   },
+   {
+    "k": "C",
+    "t": "傳遞電子"
+   },
+   {
+    "k": "D",
+    "t": "解開蛋白結構"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "膠體的成分是 Polyacrylamide，是由 acrylamide 聚合而成",
+  "topics": [
+   "鑄膠：acrylamide、bis、APS、TEMED"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-26",
+  "source": "114 實驗考古",
+  "num": 26,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "β-mercaptoethanol 的作用？",
+  "options": [
+   {
+    "k": "A",
+    "t": "提供 free radicals"
+   },
+   {
+    "k": "B",
+    "t": "穩固膠體結構"
+   },
+   {
+    "k": "C",
+    "t": "破壞雙硫鍵"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "β-mercaptoethanol 用來破壞雙硫鍵，有時候也會改用 DTT 達到同樣效果。",
+  "topics": [
+   "鑄膠：acrylamide、bis、APS、TEMED",
+   "Sample buffer 成分"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-27",
+  "source": "114 實驗考古",
+  "num": 27,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "蛋白質電泳實驗中，有同學在加入染劑至膠體後，呈色時間明顯比其他組慢，可能的原因為何？（複選）",
+  "options": [
+   {
+    "k": "A",
+    "t": "loading 的樣本太少"
+   },
+   {
+    "k": "B",
+    "t": "電泳時間太短"
+   },
+   {
+    "k": "C",
+    "t": "Gel 濃度不正確"
+   },
+   {
+    "k": "D",
+    "t": "SDS 未去除乾淨"
+   }
+  ],
+  "answer": [
+   "A",
+   "D"
+  ],
+  "explain": "(A)Coomassie Blue 的染色原理是透過芳香基團與蛋白質的非極性區結合，以及其正電基團與所帶負電的蛋白質結合。若成色不明顯可能是因為蛋白質 sample 的量不足所造成。\n(D)因為 SDS 和 Coomassie Brilliant Blue 都帶有負電，若沒有洗去 SDS 會導致兩者負負相斥，會讓蛋白質無法染色。（老師上課也有特別強調）",
+  "note": "共筆組長認為 (A)(D) 都合理，答案採複選。",
+  "topics": [
+   "染色與分子量估算"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-28",
+  "source": "114 實驗考古",
+  "num": 28,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "在蛋白質電泳實驗中，有同學在開始跑電泳一段時間後，蛋白質標準液（marker）和蛋白質樣本都沒有往下跑，可能的原因為何？（複選）",
+  "options": [
+   {
+    "k": "A",
+    "t": "電極方向相反"
+   },
+   {
+    "k": "B",
+    "t": "上膠 pH 值不正確"
+   },
+   {
+    "k": "C",
+    "t": "buffer 的 pH 值不正確"
+   },
+   {
+    "k": "D",
+    "t": "下膠 pH 值不正確"
+   }
+  ],
+  "answer": [
+   "A",
+   "C"
+  ],
+  "explain": "(A) 電極方向錯誤必會導致蛋白質樣品的移動方向錯誤，因為蛋白質是仰賴電場來向下移動。\n(C) Buffer 是 SDS-PAGE 實驗時接觸的第一層介質，其 pH 值直接影響到蛋白質所帶的電性，若完全沒有往下移動就要考慮緩衝液 pH 值錯誤的可能性。",
+  "note": "共筆組長認為 (A)(C) 都合理，答案採複選。",
+  "topics": [
+   "Stacking 與 pH（6.8／8.8／8.3）",
+   "染色與分子量估算"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-29",
+  "source": "114 實驗考古",
+  "num": 29,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "染色在哪一層膠體染的？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Running gel"
+   },
+   {
+    "k": "B",
+    "t": "Stacking gel"
+   },
+   {
+    "k": "C",
+    "t": "Running and stacking gel"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "實驗步驟中，在拆膠時即去除 Stacking gel，因此主要是針對 Running gel 部分染色。",
+  "topics": [
+   "Stacking 與 pH（6.8／8.8／8.3）",
+   "染色與分子量估算"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-30",
+  "source": "114 實驗考古",
+  "num": 30,
+  "chapter": "sds-page",
+  "type": "short",
+  "stem": "SDS-PAGE 中，log（分子量）與下列何者成反比？",
+  "options": [],
+  "answer": [],
+  "explain": "蛋白質電泳實驗中，Log 分子量與遷移距離成反比，而 Rf 值集是表達遷移距離的指標。（Rf＝跑的距離/展開液的距離）",
+  "answerText": "蛋白質電泳的 Rf 值（相對遷移距離）",
+  "topics": [
+   "染色與分子量估算"
+  ],
+  "pattern": "簡答題"
+ },
+ {
+  "id": "k114-cheng-31",
+  "source": "114 實驗考古",
+  "num": 31,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "When we run a SDS-PAGE, there are two layers in the gel. What is the function of Lower Layer?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Run proteins"
+   },
+   {
+    "k": "B",
+    "t": "Separate proteins"
+   },
+   {
+    "k": "C",
+    "t": "Condense proteins"
+   },
+   {
+    "k": "D",
+    "t": "Stain proteins"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Lower gel，即下膠（Running gel），是用來分離不同分子量的蛋白質。而 upper gel，即上膠（Stacking gel），則是讓蛋白質濃縮成較小的體積，讓蛋白質同時在起跑線開始電泳。",
+  "topics": [
+   "Stacking 與 pH（6.8／8.8／8.3）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-32",
+  "source": "114 實驗考古",
+  "num": 32,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "When we run a SDS-PAGE, which layer contains proteins?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Lower gel"
+   },
+   {
+    "k": "B",
+    "t": "Upper gel"
+   },
+   {
+    "k": "C",
+    "t": "Stacking gel"
+   },
+   {
+    "k": "D",
+    "t": "Loading well"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Lower gel，即下膠（Running gel），才是用來分離蛋白質的，而(B)(C)(D)都同樣在上層。",
+  "topics": [
+   "Stacking 與 pH（6.8／8.8／8.3）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-33",
+  "source": "114 實驗考古",
+  "num": 33,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "If you want to analyze the enzyme activity in gel, which of the following gel you can choice?",
+  "options": [
+   {
+    "k": "A",
+    "t": "SDS-Gel"
+   },
+   {
+    "k": "B",
+    "t": "Two-D Gel"
+   },
+   {
+    "k": "C",
+    "t": "Agarose Gel"
+   },
+   {
+    "k": "D",
+    "t": "Native Gel"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Native PAGE 不讓蛋白質變性，保留活性，所以能在膠上分析酵素活性。SDS-PAGE 會把蛋白質變性；agarose 主要跑 DNA；2-D gel 第二維也是 SDS。",
+  "topics": [
+   "鑄膠：acrylamide、bis、APS、TEMED"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-34",
+  "source": "114 實驗考古",
+  "num": 34,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "Which of following is provided the free radicals for making SDS-PAGE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "TEMED"
+   },
+   {
+    "k": "B",
+    "t": "APS"
+   },
+   {
+    "k": "C",
+    "t": "Acrylamide"
+   },
+   {
+    "k": "D",
+    "t": "SDS"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "APS 幫助 acrylamide 產生聚合反應，讓膠凝固。並且在 TEMED 催化下，APS 會產生自由基。",
+  "topics": [
+   "鑄膠：acrylamide、bis、APS、TEMED"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-35",
+  "source": "114 實驗考古",
+  "num": 35,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "Which of following is the major structure for making SDS-PAGE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "TEMED"
+   },
+   {
+    "k": "B",
+    "t": "APS"
+   },
+   {
+    "k": "C",
+    "t": "Acrylamide"
+   },
+   {
+    "k": "D",
+    "t": "SDS"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Acrylamide 是凝膠的主要主體，不同濃度的水配 Acrylamide 可以形成不同孔洞大小的凝膠分析不同大小的分子。",
+  "topics": [
+   "鑄膠：acrylamide、bis、APS、TEMED"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-36",
+  "source": "114 實驗考古",
+  "num": 36,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "Which of following is used to denature proteins and make proteins become negative charge in sample buffer?",
+  "options": [
+   {
+    "k": "A",
+    "t": "TEMED"
+   },
+   {
+    "k": "B",
+    "t": "APS"
+   },
+   {
+    "k": "C",
+    "t": "Acrylamide"
+   },
+   {
+    "k": "D",
+    "t": "SDS"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "SDS 本身是陰離子去垢劑，會破壞蛋白質，讓蛋白質變性，並均勻和蛋白質結合使蛋白質帶負電，讓蛋白質會向電場的正極移動。",
+  "topics": [
+   "鑄膠：acrylamide、bis、APS、TEMED",
+   "Sample buffer 成分"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-37",
+  "source": "114 實驗考古",
+  "num": 37,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "Which of following is used to break disulfide bonds of proteins in sample buffer?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Tris-HCl"
+   },
+   {
+    "k": "B",
+    "t": "Glycerol"
+   },
+   {
+    "k": "C",
+    "t": "SDS"
+   },
+   {
+    "k": "D",
+    "t": "β-mercaptoethanol"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "β-mercaptoethanol 用於破壞蛋白質分子內的雙硫鍵。其他的 protein sample buffer：（參考百十一）",
+  "topics": [
+   "Sample buffer 成分"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-38",
+  "source": "114 實驗考古",
+  "num": 38,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "Before separate protein by SDS-PAGE, we have to prepare our protein samples. The maximum loading volume of each well in SDS-Gel is 25 μl. We have a 5-fold sample buffer. If we want to load 40 µg of protein to each well, which of following concentration of protein sample is not enough to prepared?",
+  "options": [
+   {
+    "k": "A",
+    "t": "2.0 µg/µl"
+   },
+   {
+    "k": "B",
+    "t": "2.4 µg/µl"
+   },
+   {
+    "k": "C",
+    "t": "3.5 µg/µl"
+   },
+   {
+    "k": "D",
+    "t": "none of the above"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "類似第 23 題。5x sample buffer：表示 X μL 的 buffer 要配上 4X μL 的 sample。知 X＋4X ≤ 25 （總體積不可超過 well 的最大容量 25 μL），得到的條件為 X ≤ 5。計算最小所需濃度：40 µg / 25 µl＝1.6 µg/µl也就是說，每個 µl 的溶液至少要含有 1.6 µg 的蛋白質才夠。三個選項的濃度都大於 1.6 µg/µl，所以任何一個選項的濃度都足夠提供 40 µg 的蛋白質。",
+  "topics": [
+   "Sample buffer 成分",
+   "樣品配製計算"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k114-cheng-39",
+  "source": "114 實驗考古",
+  "num": 39,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "When we run a SDS-PAGE, which of following is correct running order in stacking gel?",
+  "options": [
+   {
+    "k": "A",
+    "t": "(-)-Protein-Chloride-Glycine-(+)"
+   },
+   {
+    "k": "B",
+    "t": "(-)-Protein-Glycine-Chloride-(+)"
+   },
+   {
+    "k": "C",
+    "t": "(-)-Glycine-Protein-Chloride-(+)"
+   },
+   {
+    "k": "D",
+    "t": "(-)-Glycine-Chloride-Protein-(+)"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Glycine：進入 stacking gel 會變不帶電的分子，相對 protein 或 chloride 帶負電的物質移動較慢。chloride：是小型且移動迅速的離子，會快速向正極移動。Protein：蛋白質帶負電，但由於 SDS 的結合，其移動速度介於 Glycine 和氯離子之間。",
+  "topics": [
+   "Stacking 與 pH（6.8／8.8／8.3）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-40",
+  "source": "114 實驗考古",
+  "num": 40,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "After separate protein by SDS-PAGE, we have to wash the gel before staining the gel using Coomassie Brilliant Blue. Why do we have to do this?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Wet the gel"
+   },
+   {
+    "k": "B",
+    "t": "Create holes in the gel"
+   },
+   {
+    "k": "C",
+    "t": "Cool down the gel"
+   },
+   {
+    "k": "D",
+    "t": "Remove SDS"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "因為 SDS 和 Coomassie Brilliant Blue 都帶有負電，若沒有洗去 SDS 會導致兩者負負相斥，會讓蛋白質無法染色。",
+  "topics": [
+   "染色與分子量估算"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-41",
+  "source": "114 實驗考古",
+  "num": 41,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "What is the difference between CBB G-250 and R-250?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Resolve reagent"
+   },
+   {
+    "k": "B",
+    "t": "Detection range of protein concentration"
+   },
+   {
+    "k": "C",
+    "t": "De-stain buffer"
+   },
+   {
+    "k": "D",
+    "t": "all of above"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "G-250 與 R-250 差兩個甲基，溶解性不同，所以溶解試劑、偵測的蛋白質濃度範圍、脫色液的配方都不一樣 → 以上皆是。",
+  "topics": [
+   "染色與分子量估算"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114-cheng-42",
+  "source": "114 實驗考古",
+  "num": 42,
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "How to measure molecular weight of protein based on pre-stain marker in SDS-PAGE electrophoresis?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Logarithmic value of molecular weight vs. mobility"
+   },
+   {
+    "k": "B",
+    "t": "Molecular weight vs. mobility"
+   },
+   {
+    "k": "C",
+    "t": "Molecular weight vs. logarithmic value of mobility"
+   },
+   {
+    "k": "D",
+    "t": "Logarithmic value of molecular weight vs. logarithmic value of mobility"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "在製作結果的時候會將分子量取對數，對上蛋白質跑的距離。（參考老師投影片 P.17：11 種分子量取 log 再畫出 11 個點）",
+  "topics": [
+   "染色與分子量估算"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k109-01",
+  "source": "109 實驗考古",
+  "num": 1,
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "Teacher wants to evaluate how much volume this is in a 1000 μl micropipette (dial reads 0-6-3)?",
+  "options": [
+   {
+    "k": "A",
+    "t": "6.3 μl"
+   },
+   {
+    "k": "B",
+    "t": "63 μl"
+   },
+   {
+    "k": "C",
+    "t": "630 μl"
+   },
+   {
+    "k": "D",
+    "t": "6300 μl"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "1000μl Micropipette 最大值是 1000μl，因此上面顯示的一定小於 1000μl，由上至下閱讀便是 630 μl",
+  "img": [
+   "figures/questions/chen-01.webp"
+  ],
+  "topics": [
+   "Pipetman 操作"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "k109-03",
+  "source": "109 實驗考古",
+  "num": 3,
+  "chapter": "gel-filtration",
+  "type": "mcq",
+  "stem": "The figure below is the data after Johnny conducted the gel filtration experiment. If he wants to collect the largest molecular weight compound, which of the following time point is the best? (X-Time, Y- Absorbance)",
+  "options": [
+   {
+    "k": "A",
+    "t": "7 min"
+   },
+   {
+    "k": "B",
+    "t": "15 min"
+   },
+   {
+    "k": "C",
+    "t": "30 min"
+   },
+   {
+    "k": "D",
+    "t": "3 min"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "參考上題，最大的分子要最快出來",
+  "img": [
+   "figures/questions/chen-03.webp"
+  ],
+  "note": "同 114 第 3 題的層析圖，但這題問的是最大分子量。",
+  "topics": [
+   "原理：大分子先出來"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k109-13",
+  "source": "109 實驗考古",
+  "num": 13,
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "In Biuret method, which of the following bond is important for binding the ion to form a blue complex?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Hydrophobic bond"
+   },
+   {
+    "k": "B",
+    "t": "Disulide bond"
+   },
+   {
+    "k": "C",
+    "t": "Covalent bond"
+   },
+   {
+    "k": "D",
+    "t": "Peptide bond"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Biuret method 就是利用肽鍵上的 N 結合銅離子形成配位共價鍵的特性來反應，因此 Biuret 比較不會受到蛋白質結構影響",
+  "topics": [
+   "化學呈色法：Biuret／Lowry／BCA"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "type": "short",
+  "options": [],
+  "answer": [],
+  "id": "k114-chen-w1",
+  "source": "114 實驗考古",
+  "chapter": "protein-assay",
+  "num": "手寫 1",
+  "stem": "請寫出蛋白質定量實驗會用到的東西。",
+  "answerText": "BSA（標準品）、兩種未知蛋白 S1 和 S2、1× Bradford reagent、eppendorf、ELISA reader、96 well plate、pipetman 與 tips",
+  "explain": "BSA 做標準曲線（x 軸濃度、y 軸 OD595），未知蛋白讀值代入回歸式求濃度。",
+  "topics": [
+   "Pipetman 操作"
+  ],
+  "pattern": "簡答題"
+ },
+ {
+  "type": "short",
+  "options": [],
+  "answer": [],
+  "id": "k114-chou-w16",
+  "source": "114 實驗考古",
+  "chapter": "plasmid",
+  "num": "手寫 16",
+  "img": [
+   "figures/questions/chou-16.webp"
+  ],
+  "stem": "The agarose gel electrophoresis results of mini-preparation of pTMU DNA are shown in the figure.\n(A) Is the pTMU DNA molecule linear or circular?\n(B) What is the \"low molecular weight nucleic acid\" in lane 2?\n(C) Which buffer in mini-preparation (S1, S2, S3, W1, W2, EB) may cause the result in (B) when it went wrong?\n(D) Please explain the lane 4 result.",
+  "answerText": "(A) Circular\n(B) 殘留的 RNA（low MW nucleic acid）\n(C) S1（含 RNase A）\n(D) 最上面的 band 和 lane 3 相同：部分 DNA 只被 BamHI 切（不完全切割）；下面兩條是 BamHI + XhoI 都切到的片段",
+  "explain": "BamHI 單切只得一條 band → 環狀 DNA 被切成一條線狀。RNase A 加在 S1（resuspension buffer），S1 出問題時 RNA 沒被分解，就會在膠底跑出一團低分子量核酸。",
+  "topics": [
+   "鹼裂解法：S1／S2／S3",
+   "Elution 與 TE buffer"
+  ],
+  "pattern": "簡答題"
+ },
+ {
+  "type": "short",
+  "options": [],
+  "answer": [],
+  "id": "k114-chou-w17",
+  "source": "114 實驗考古",
+  "chapter": "plasmid",
+  "num": "手寫 17",
+  "stem": "In agarose gel electrophoresis:\n(A) Which buffer system is used in this experiment?\n(B) Which DNA staining dye is used in this experiment?\n(C) What is the function of the DNA loading dye?",
+  "answerText": "(A) TAE buffer\n(B) Gel Green\n(C) 讓透明的 DNA 樣品有顏色，確認有加進 well，並追蹤電泳進度；glycerol 增加密度讓樣品沉入 well",
+  "explain": "今年用 TAE 與 Gel Green（藍光 LED 照膠，不用 UV）。Loading dye 含 bromophenol blue、xylene cyanol（追蹤染料）與 glycerol。",
+  "topics": [
+   "Agarose 電泳條件",
+   "染劑、loading dye 與照膠"
+  ],
+  "pattern": "簡答題"
+ },
+ {
+  "type": "short",
+  "options": [],
+  "answer": [],
+  "id": "k114-chou-w18",
+  "source": "114 實驗考古",
+  "chapter": "restriction",
+  "num": "手寫 18",
+  "stem": "In the restriction enzyme experiment, we used BamHI, XhoI and EcoRI to digest pTMU DNA. EcoRI belongs to which type of restriction enzyme? (Type I, II, III)",
+  "answerText": "Type II",
+  "explain": "Type II 限制酶在辨識序列內（或固定位置）切割，不需 ATP，最常用於分子生物學。EcoRI 辨識 G↓AATTC（回文序列），切出 5′ 突出黏端。",
+  "topics": [
+   "限制酶類型與辨識序列",
+   "限制酶圖譜（physical map）"
+  ],
+  "pattern": "簡答題"
+ },
+ {
+  "type": "short",
+  "options": [],
+  "answer": [],
+  "id": "k114-cheng-w43",
+  "source": "114 實驗考古",
+  "chapter": "sds-page",
+  "num": "手寫 43",
+  "stem": "Dr. Cheng 純化了兩個重組蛋白 A 與 B（A 比 B 大），但忘了標示試管。請用以下材料設計 SDS-PAGE 實驗分辨哪管是 A、哪管是 B，並畫圖說明：\nTris-Glycine SDS-PAGE、Sample buffer、Electrophoresis system、Coomassie Blue G-250、Water bath、Water、Protein marker、Glycine buffer。",
+  "answerText": "兩管各取樣品加 sample buffer，煮沸變性 → 和 protein marker 一起 loading 到 Tris-Glycine SDS-PAGE → 用含 glycine 的 running buffer 在電泳系統跑膠 → 水洗去 SDS → CBB G-250 染色。對照 marker：跑得慢（靠近 well）的那管是 A，跑得快的是 B。",
+  "explain": "各材料的用途：\nSDS-PAGE：依分子量分離。\nSample buffer：SDS 變性並帶負電、β-ME 打斷雙硫鍵、glycerol 增加密度、bromophenol blue 追蹤。\nWater bath：加熱變性。\nGlycine buffer：維持 pH，在 stacking gel 形成離子邊界、濃縮蛋白質。\nWater：洗掉 SDS，避免和 CBB 互斥。\nCBB G-250：染蛋白質。\nProtein marker：分子量標準。\n畫圖：marker、A、B 三道，負極在上、正極在下，A 的 band 比 B 高。",
+  "topics": [
+   "Sample buffer 成分",
+   "Stacking 與 pH（6.8／8.8／8.3）"
+  ],
+  "pattern": "簡答題"
+ }
+]

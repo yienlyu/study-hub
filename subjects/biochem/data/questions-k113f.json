@@ -1,0 +1,5157 @@
+[
+ {
+  "id": "k113f-ch12-01",
+  "source": "113 期末考古",
+  "section": "Ch12",
+  "num": 1,
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "What happens when the GTPase activity of a G protein is blocked?",
+  "options": [
+   {
+    "k": "A",
+    "t": "The α subunit associates only with the β subunit, not the γ subunit."
+   },
+   {
+    "k": "B",
+    "t": "GTP cyclizes to cGMP."
+   },
+   {
+    "k": "C",
+    "t": "Binding to GAP occurs with very high affinity."
+   },
+   {
+    "k": "D",
+    "t": "Adenylate cyclase remains active."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "GTPase 被抑制會使 GTP 無法轉為 GDP，使 G protein 維持活化態。活化態的 G protein 繼續活化下游的訊息傳遞者（如 adenylate cyclase），使 ATP 轉為 cAMP，cAMP 活化 PKA，繼續訊息傳遞。總結：活化態的 G protein 會使下游的訊息傳遞者（如 AC）保持活性。\n(A) 活化態 Gα 不與 Gβ、Gγ 結合。\n(B) GTP 無法轉為 GDP。\n(C) GAP（GTPase activating protein）會活化 GTPase，與題目敘述不符。",
+  "topics": [
+   "G protein 與 cAMP",
+   "IP3／DAG／Ca²⁺"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch12-02",
+  "source": "113 期末考古",
+  "section": "Ch12",
+  "num": 2,
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "Like G proteins, the Ras protein binds ______ when in its active state, which is hydrolyzed to ______ to convert the protein to its inactive state.",
+  "options": [
+   {
+    "k": "A",
+    "t": "GTP；GDP"
+   },
+   {
+    "k": "B",
+    "t": "GTP；GMP"
+   },
+   {
+    "k": "C",
+    "t": "GMP；cGMP"
+   },
+   {
+    "k": "D",
+    "t": "cGMP；GMP"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Ras 和 G protein 一樣：結合 GTP 時為活化態，本身的 GTPase 把 GTP 水解成 GDP 後失活。\nSOS 是 GEF，讓 Ras 放掉 GDP、換上 GTP（活化）；GAP 加速 GTP 水解（失活）。",
+  "topics": [
+   "G protein 與 cAMP",
+   "IP3／DAG／Ca²⁺"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch12-03",
+  "source": "113 期末考古",
+  "section": "Ch12",
+  "num": 3,
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "InsP₃ binds to ______ channels in the endoplasmic reticulum, while DAG activates ______.",
+  "options": [
+   {
+    "k": "A",
+    "t": "Na+；protein kinase A"
+   },
+   {
+    "k": "B",
+    "t": "Na+；protein kinase C"
+   },
+   {
+    "k": "C",
+    "t": "Ca2+；protein kinase A"
+   },
+   {
+    "k": "D",
+    "t": "Ca2+；protein kinase C"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "IP₃ 結合 ER 膜上的 IP₃-gated Ca²⁺ 通道 → Ca²⁺ 釋出到細胞質；DAG 與 Ca²⁺ 一起活化 protein kinase C（PKC）。\nPKA 是 cAMP 活化的，和 PLC 路徑無關。",
+  "topics": [
+   "IP3／DAG／Ca²⁺"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch12-04",
+  "source": "113 期末考古",
+  "section": "Ch12",
+  "num": 4,
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "Which of the following pathways correctly shows how glycogen synthase is activated in response to the activation of IRS-1 insulin binding?",
+  "options": [
+   {
+    "k": "A",
+    "t": "IRS-1 causes activation of protein kinase B which phosphorylates glycogen synthase kinase thus preventing phosphorylation of glycogen synthase."
+   },
+   {
+    "k": "B",
+    "t": "IRS-1 activates a cascade that ultimately phosphorylates ERK which then binds to glycogen synthase."
+   },
+   {
+    "k": "C",
+    "t": "IRS-1 activates phosphoinositide 3-kinase and the resulting PIP3 is an allosteric activator of glycogen synthase."
+   },
+   {
+    "k": "D",
+    "t": "IRS-1 activates guanylate cyclase and the resulting cGMP binds to glycogen synthase kinase thus preventing phosphorylation of glycogen synthase."
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Insulin receptor → IRS-1 → PI3K → PIP₃ → PDK1 磷酸化活化 PKB（Akt）→ PKB 磷酸化 GSK3 使其失活 → glycogen synthase 不再被 GSK3 磷酸化 → 保持活化，肝醣合成增加。\n(B) ERK 屬於 Ras-MAPK 路徑，調控細胞生長與增生，不直接作用在 glycogen synthase。\n(C) PIP₃ 是招募 PDK1、PKB 到膜上，不是 glycogen synthase 的別構活化劑。\n(D) 與 guanylate cyclase、cGMP 無關。",
+  "topics": [
+   "IP3／DAG／Ca²⁺",
+   "Insulin 與 RTK"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch12-05",
+  "source": "113 期末考古",
+  "section": "Ch12",
+  "num": 5,
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "What is the primary target of releasing factors from the hypothalamus?",
+  "options": [
+   {
+    "k": "A",
+    "t": "thyroid"
+   },
+   {
+    "k": "B",
+    "t": "adrenal medulla"
+   },
+   {
+    "k": "C",
+    "t": "adrenal cortex"
+   },
+   {
+    "k": "D",
+    "t": "posterior pituitary"
+   },
+   {
+    "k": "E",
+    "t": "anterior pituitary"
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "下視丘（hypothalamus）分泌 hypothalamic releasing factor 刺激的 primary target 為腦垂腺前葉，而後葉是直接受到神經軸突刺激。",
+  "topics": [
+   "激素與受體藥理"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch12-06",
+  "source": "113 期末考古",
+  "section": "Ch12",
+  "num": 6,
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "In the visual process, activated rhodopsin causes which of the following events to occur?",
+  "options": [
+   {
+    "k": "A",
+    "t": "transducin binding to GTP"
+   },
+   {
+    "k": "B",
+    "t": "transducin binding to GDP"
+   },
+   {
+    "k": "C",
+    "t": "transducin binding to cGMP"
+   },
+   {
+    "k": "D",
+    "t": "transducin binding to GMP"
+   },
+   {
+    "k": "E",
+    "t": "none of the above"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "光線使視桿細胞中的視紫質（Rhodopsin）活化，活化的 Rhodopsin 再將 Transducin-GDP（不活化態）轉為 Transducin-GTP（活化態）。",
+  "topics": [
+   "G protein 與 cAMP",
+   "IP3／DAG／Ca²⁺"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch12-07",
+  "source": "113 期末考古",
+  "section": "Ch12",
+  "num": 7,
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "Most steroid hormones exert their effects by initial binding to which of the following receptors?",
+  "options": [
+   {
+    "k": "A",
+    "t": "receptor in cell membrane"
+   },
+   {
+    "k": "B",
+    "t": "receptor in cytosol"
+   },
+   {
+    "k": "C",
+    "t": "receptor in nuclear membrane"
+   },
+   {
+    "k": "D",
+    "t": "receptor in nucleus"
+   },
+   {
+    "k": "E",
+    "t": "none of the above"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "固醇類荷爾蒙作用機制：荷爾蒙結合細胞質中之特殊受體（如 Nuclear Receptors）→特殊受體被荷爾蒙影響形成二聚體→荷爾蒙－受體複合體移動至細胞核→荷爾蒙－受體複合體結合 DNA 上的HREs（Hormone-responsive Elements，DNA 上的特殊結合位）→影響 HREs 附近基因轉錄表現。\n＜註＞雖然固醇類荷爾蒙為疏水性，可以直接穿過細胞膜，但仍需要藉由細胞質內的 Nuclear receptor 運送，才能在細胞質內遊走，最後進入細胞核中調控基因的表現。\n＜補充＞甲狀腺素也是使用 Nuclear receptor，但其受體是在細胞核內。",
+  "topics": [
+   "核受體與類固醇激素"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch12-08",
+  "source": "113 期末考古",
+  "section": "Ch12",
+  "num": 8,
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "The complex of zinc and cysteine residues seen in the structure of steroid hormone receptors is referred to as a(an) _________ structural motif.",
+  "options": [
+   {
+    "k": "A",
+    "t": "zinc loop"
+   },
+   {
+    "k": "B",
+    "t": "zinc helix"
+   },
+   {
+    "k": "C",
+    "t": "antiparallel zinc sheet"
+   },
+   {
+    "k": "D",
+    "t": "zinc finger"
+   },
+   {
+    "k": "E",
+    "t": "zinc turn"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Zinc finger 為一種小的蛋白質結構模體（motif），其特徵為配合一個或多個鋅離子以穩定結合，與一些真核生物轉錄調控蛋白的結構相似，最典型的構型為 cys2his2。共筆：Nuclear receptor 在 DNA binding domain 皆有鋅（Zinc）與 Cysteine 的-SH 形成 Zinc Finger，對 DNA 結合有重要影響。",
+  "topics": [
+   "核受體與類固醇激素"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch12-09",
+  "source": "113 期末考古",
+  "section": "Ch12",
+  "num": 9,
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "Which of the following hormones binds to a receptor tyrosine kinase?",
+  "options": [
+   {
+    "k": "A",
+    "t": "thyroxine"
+   },
+   {
+    "k": "B",
+    "t": "epinephrine"
+   },
+   {
+    "k": "C",
+    "t": "epidermal growth factor"
+   },
+   {
+    "k": "D",
+    "t": "glucagon"
+   },
+   {
+    "k": "E",
+    "t": "cortisol"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(A) Thyroxine：核受體。\n(B) Epinephrine：GPCR（α、β-adrenergic receptor）。\n(C) EGF：receptor tyrosine kinase ✔（生長因子多半走 RTK）。\n(D) Glucagon：GPCR。\n(E) Cortisol：細胞質的 glucocorticoid receptor（核受體家族）。",
+  "topics": [
+   "Insulin 與 RTK",
+   "核受體與類固醇激素"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch12-10",
+  "source": "113 期末考古",
+  "section": "Ch12",
+  "num": 10,
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "Glucocorticoids are thought to function as anti-inflammatory agents since they are able to stimulate the synthesis of what protein?",
+  "options": [
+   {
+    "k": "A",
+    "t": "tumor necrosis factor (TNF)"
+   },
+   {
+    "k": "B",
+    "t": "platelet-derived growth factor (PDGF)"
+   },
+   {
+    "k": "C",
+    "t": "transforming growth factor-α (TGF-α)"
+   },
+   {
+    "k": "D",
+    "t": "nuclear factor-kappa B (NF-κB)"
+   },
+   {
+    "k": "E",
+    "t": "inhibitor-kappa B (IκBα)"
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "Glucocorticoid 與細胞質受體結合後進入細胞核，經 zinc finger DNA-binding domain 結合 GRE，誘導 IκBα 合成。\nIκBα 把 NF-κB 留在細胞質，NF-κB 無法進核啟動發炎基因（TNF、IL-6 等）→ 抗發炎。\nTNF、NF-κB 都是發炎方向的分子。",
+  "topics": [
+   "Insulin 與 RTK",
+   "核受體與類固醇激素"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch12-11",
+  "source": "113 期末考古",
+  "section": "Ch12",
+  "num": 11,
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "Isoproterenol has the same catechol–ethanolamine structure as epinephrine, except that the amino nitrogen carries an isopropyl group instead of a methyl group. What is isoproterenol?",
+  "options": [
+   {
+    "k": "A",
+    "t": "agonist"
+   },
+   {
+    "k": "B",
+    "t": "antagonist"
+   },
+   {
+    "k": "C",
+    "t": "inverse agonist"
+   },
+   {
+    "k": "D",
+    "t": "irreversible agonist"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Isoproterenol 是 epinephrine 的合成類似物（N 上是異丙基），能與 β-adrenergic receptor 結合並引起和 epinephrine 相同的反應 → agonist（β 選擇性 agonist）。\n對照：antagonist 結合受體但不活化（如 propranolol）；inverse agonist 會降低受體的基礎活性。",
+  "note": "原題附 isoproterenol 與 epinephrine 的結構圖，本站改用文字描述差異。",
+  "topics": [
+   "激素與受體藥理"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113f-ch12-12",
+  "source": "113 期末考古",
+  "section": "Ch12",
+  "num": 12,
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "Which second messenger is produced as a result of nitric oxide binding?",
+  "options": [
+   {
+    "k": "A",
+    "t": "cAMP"
+   },
+   {
+    "k": "B",
+    "t": "cGMP"
+   },
+   {
+    "k": "C",
+    "t": "InsP3"
+   },
+   {
+    "k": "D",
+    "t": "DAG"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "NO 結合 Guanylate Cyclase（soluble form）的 Fe2+結合，使 GC 活化產生 cGMP，活化下游的PKG。",
+  "topics": [
+   "IP3／DAG／Ca²⁺"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch12-13",
+  "source": "113 期末考古",
+  "section": "Ch12",
+  "num": 13,
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "G protein is inactive when the subunit _________ is bound to _________.",
+  "options": [
+   {
+    "k": "A",
+    "t": "α；GMP"
+   },
+   {
+    "k": "B",
+    "t": "α；GDP"
+   },
+   {
+    "k": "C",
+    "t": "β；GMP"
+   },
+   {
+    "k": "D",
+    "t": "β；GDP"
+   },
+   {
+    "k": "E",
+    "t": "α/β；GMP"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "G protein 的 α 次單位結合 GDP 時為不活化態（與 βγ 組成三聚體）；受體活化後 α 放掉 GDP、換上 GTP，與 βγ 分開而活化下游（如 adenylate cyclase）。",
+  "topics": [
+   "G protein 與 cAMP"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch12-14",
+  "source": "113 期末考古",
+  "section": "Ch12",
+  "num": 14,
+  "chapter": "ch12",
+  "type": "mcq",
+  "stem": "Which of the following signaling molecules activate the phosphoinositide second messenger system?",
+  "options": [
+   {
+    "k": "A",
+    "t": "platelet-derived growth factor"
+   },
+   {
+    "k": "B",
+    "t": "acetylcholine"
+   },
+   {
+    "k": "C",
+    "t": "vasopressin"
+   },
+   {
+    "k": "D",
+    "t": "thyrotropin-releasing hormone"
+   },
+   {
+    "k": "E",
+    "t": "all of the above"
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "四者都能活化 phospholipase C → PIP₂ 切成 IP₃ + DAG：\nAcetylcholine（muscarinic M1、M3）、vasopressin（V1）、TRH 經 Gq 活化 PLCβ；PDGF 經 RTK 活化 PLCγ。",
+  "topics": [
+   "IP3／DAG／Ca²⁺",
+   "Insulin 與 RTK"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-01",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 1,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "在核酸代謝中之 salvage pathway 主要指下列何種過程？",
+  "options": [
+   {
+    "k": "A",
+    "t": "將 nucleosides 或鹼基轉變為 nucleotides 再使用的過程"
+   },
+   {
+    "k": "B",
+    "t": "uric acid 轉變成 hypoxanthine 再利用的過程"
+   },
+   {
+    "k": "C",
+    "t": "由 pyrimidines 轉變成 purines 的過程"
+   },
+   {
+    "k": "D",
+    "t": "由 purines 轉變成 pyrimidines 的過程"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Salvage pathway 再利用核苷（nucleosides）與游離鹼基（free bases）合成核苷酸（nucleotides）",
+  "topics": [
+   "Purine 合成與調控",
+   "Pyrimidine 合成"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-02",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 2,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "以 de novo pathway 合成 purines 時需要下列那些胺基酸的參與？（107-醫）\n①asparagine ②glutamine ③serine ④aspartate ⑤glycine",
+  "options": [
+   {
+    "k": "A",
+    "t": "①②③④⑤"
+   },
+   {
+    "k": "B",
+    "t": "只有②④⑤"
+   },
+   {
+    "k": "C",
+    "t": "只有①②⑤"
+   },
+   {
+    "k": "D",
+    "t": "只有①③④"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Purine 環的原料：glycine（C4、C5、N7）、glutamine（N3、N9）、aspartate（N1）、CO₂（C6）、N¹⁰-formyl-THF（C2、C8）。\nAsparagine、serine 不直接參與（serine 只經 THF 間接提供一碳單位），所以是 ②④⑤。",
+  "topics": [
+   "Purine 合成與調控"
+  ],
+  "pattern": "組合選擇題"
+ },
+ {
+  "id": "k113f-ch22n-03",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 3,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "下列那一個反應的第一步驟需要 PRPP（Phosphoribosyl pyrophosphate）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "de novo 合成 purine ring"
+   },
+   {
+    "k": "B",
+    "t": "de novo 合成 pyrimidine ring"
+   },
+   {
+    "k": "C",
+    "t": "heme 的合成"
+   },
+   {
+    "k": "D",
+    "t": "urea cycle"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Purine ring 合成第一步需要 PRPP、Glutamine；Pyrimidine ring 合成第一步需要 Aspartate 和Carbamoyl phosphate",
+  "topics": [
+   "Purine 合成與調控",
+   "Pyrimidine 合成"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-04",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 4,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "由 IMP 合成 AMP 的過程會直接受下列何者抑制？",
+  "options": [
+   {
+    "k": "A",
+    "t": "ATP"
+   },
+   {
+    "k": "B",
+    "t": "GMP"
+   },
+   {
+    "k": "C",
+    "t": "AMP"
+   },
+   {
+    "k": "D",
+    "t": "GTP"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "IMP → adenylosuccinate → AMP 這一支被終產物 AMP 回饋抑制；IMP → GMP 則被 GMP 抑制。\nGTP 是 IMP → AMP 的能量來源（交叉需要），不是抑制劑。",
+  "topics": [
+   "Purine 合成與調控"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-05",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 5,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "下列何種物質之代謝異常可能會引起尿酸（uric acid）聚積於人體而造成痛風（gout）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "alanine"
+   },
+   {
+    "k": "B",
+    "t": "cysteine"
+   },
+   {
+    "k": "C",
+    "t": "UTP"
+   },
+   {
+    "k": "D",
+    "t": "AMP"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "嘌呤核苷酸（AMP、GMP）代謝的最終產物為尿酸（uric acid），若代謝異常，尿酸濃度太高便會導致痛風（gout）",
+  "topics": [
+   "核苷酸分解與痛風"
+  ],
+  "pattern": "臨床情境題"
+ },
+ {
+  "id": "k113f-ch22n-06",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 6,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "下列何者是產生痛風（gout）的原因？",
+  "options": [
+   {
+    "k": "A",
+    "t": "血液和組織中尿酸（uric acid）濃度太高"
+   },
+   {
+    "k": "B",
+    "t": "尿素（urea）沉積在關節"
+   },
+   {
+    "k": "C",
+    "t": "氣候太潮溼"
+   },
+   {
+    "k": "D",
+    "t": "血液和組織中膽固醇太高"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "尿酸堆積會導致痛風",
+  "topics": [
+   "核苷酸分解與痛風"
+  ],
+  "pattern": "臨床情境題"
+ },
+ {
+  "id": "k113f-ch22n-07",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 7,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "下列何者為生物體內尿酸（uric acid）的主要來源？",
+  "options": [
+   {
+    "k": "A",
+    "t": "尿素（urea）分解"
+   },
+   {
+    "k": "B",
+    "t": "uracil 分解"
+   },
+   {
+    "k": "C",
+    "t": "tyrosine 的代謝"
+   },
+   {
+    "k": "D",
+    "t": "purine 類鹼基的代謝"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "尿酸是由嘌呤類的核苷酸（AMP、GMP）氧化代謝而成",
+  "topics": [
+   "Purine 合成與調控",
+   "核苷酸分解與痛風"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-08",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 8,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "黃嘌呤氧化酶（xanthine oxidase）在人體內之生化功能為何？",
+  "options": [
+   {
+    "k": "A",
+    "t": "將黃嘌呤素（xanthine）回收再生成嘌呤核苷酸（purine nucleotides）"
+   },
+   {
+    "k": "B",
+    "t": "將肌酸（creatine）轉變成肌酸酐（creatinine）"
+   },
+   {
+    "k": "C",
+    "t": "在嘌呤核苷酸（purine nucleotides）之末端代謝過程中產生尿酸（uric acid）"
+   },
+   {
+    "k": "D",
+    "t": "為尿素循環（urea cycle）之起始作用酵素"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "黃嘌呤氧化酶（xanthine oxidase）在嘌呤核苷酸（AMP、GMP）的代謝中，負責將 Hypoxanthine氧化成 xanthine，並進一步把 xanthine 氧化形成尿酸",
+  "topics": [
+   "Purine 合成與調控",
+   "核苷酸分解與痛風"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-09",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 9,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "痛風（gout）是由下列何種物質在血液及組織濃度上升所造成的？",
+  "options": [
+   {
+    "k": "A",
+    "t": "胺基酸（amino acid）"
+   },
+   {
+    "k": "B",
+    "t": "肌酸酐（creatinine）"
+   },
+   {
+    "k": "C",
+    "t": "尿素（urea）"
+   },
+   {
+    "k": "D",
+    "t": "尿酸（uric acid）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "見第 6 題",
+  "topics": [
+   "Purine 合成與調控",
+   "核苷酸分解與痛風"
+  ],
+  "pattern": "臨床情境題"
+ },
+ {
+  "id": "k113f-ch22n-10",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 10,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "尿酸是經過下列何種代謝方式所產生？",
+  "options": [
+   {
+    "k": "A",
+    "t": "嘌呤（purine）的氧化"
+   },
+   {
+    "k": "B",
+    "t": "嘌呤（purine）的還原"
+   },
+   {
+    "k": "C",
+    "t": "嘧啶（pyrimidine）的氧化"
+   },
+   {
+    "k": "D",
+    "t": "嘧啶（pyrimidine）的還原"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "見第 7 題",
+  "topics": [
+   "Purine 合成與調控",
+   "Pyrimidine 合成"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-11",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 11,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "有關尿素（urea）和尿酸（uric acid）的生成，下列敘述何者最正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "兩者皆是脂肪代謝之產物之一"
+   },
+   {
+    "k": "B",
+    "t": "尿素是嘌呤核苷酸（purine nucleotides）代謝之終產物；而尿酸是嘧啶核苷酸（pyrimidine nucleotides）代謝之終產物"
+   },
+   {
+    "k": "C",
+    "t": "生成尿素和尿酸的過程中皆會產生二氧化碳這個副產物"
+   },
+   {
+    "k": "D",
+    "t": "催化尿素和尿酸產生之最終酵素分別為精胺酸水解酶（arginase）和黃嘌呤氧化酶（xanthine oxidase）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "(A)(B)尿素是胺基酸的代謝產物；尿酸是嘌呤核苷酸(purine nucleotides)AMP、GMP 的代謝產物\n(C)尿素和尿酸的生成皆不會產生 CO2，尿素代謝還會消耗 CO2\n(D)正確",
+  "topics": [
+   "Purine 合成與調控",
+   "Pyrimidine 合成"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-12",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 12,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "下列那一個分子最不可能經由嘌呤回收（purine salvage）途徑再利用？",
+  "options": [
+   {
+    "k": "A",
+    "t": "adenine"
+   },
+   {
+    "k": "B",
+    "t": "guanine"
+   },
+   {
+    "k": "C",
+    "t": "xanthine"
+   },
+   {
+    "k": "D",
+    "t": "Hypoxanthine"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(C) Xanthine 的命運只能被氧化形成尿酸，無法再逆轉回核苷酸 Salvage pathway：\n(1)Adenine＋PRPP → AMP＋PPi，酵素：Adenosine phosphoribosyltransferase（APRT）\n(2)Guanine＋PRPP → GMP＋PPi，酵素：Hypoxanthine-guanine phosphoribosyltransferase（HGPRT）\n(3)Hypoxanthine（次黃嘌呤）＋PRPP → IMP（次黃苷酸）＋PPi，酵素：HGPRT",
+  "topics": [
+   "Purine 合成與調控",
+   "核苷酸分解與痛風"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113f-ch22n-13",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 13,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "下列關於 Lesch-Nyhan syndrome 的敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "先天缺乏 Hypoxanthine-guanine phosphoribosyltransferase 而導致"
+   },
+   {
+    "k": "B",
+    "t": "無法藉由新合成路徑（De novo pathway）合成鳥糞嘌呤"
+   },
+   {
+    "k": "C",
+    "t": "患病兒童通常在 2 歲前發病，出現肢體不協調與智能障礙"
+   },
+   {
+    "k": "D",
+    "t": "嚴重者會累積過多的尿酸，造成組織的破壞"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Lesch-Nyhan syndrome：HGPRT 缺乏 → hypoxanthine、guanine 無法經 salvage 回收 → PRPP 堆積、de novo 合成反而增加 → 尿酸大量產生（痛風、結石），加上神經症狀（自殘行為、智能障礙、肢體不協調）。\n(B) 錯：de novo 路徑本身正常，壞掉的是 salvage。",
+  "topics": [
+   "核苷酸分解與痛風",
+   "Salvage、Lesch-Nyhan 與 SCID"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113f-ch22n-14",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 14,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "下列何者是 Lesch-Nyhan syndrome 的主要病因？",
+  "options": [
+   {
+    "k": "A",
+    "t": "缺乏 Vit. B12"
+   },
+   {
+    "k": "B",
+    "t": "缺乏 Vit. B6"
+   },
+   {
+    "k": "C",
+    "t": "缺乏 HGPRT（hypoxanthine-guanine phosphoribosyltransferase）"
+   },
+   {
+    "k": "D",
+    "t": "缺乏 Tetrahydrofolate"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "見第 13 題",
+  "topics": [
+   "核苷酸分解與痛風",
+   "Salvage、Lesch-Nyhan 與 SCID"
+  ],
+  "pattern": "臨床情境題"
+ },
+ {
+  "id": "k113f-ch22n-15",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 15,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "嘌呤核酸（purine nucleotides）之分解過程中，何種酵素之先天性缺陷會造成 dATP 貯積，傷害 免疫細胞，引起嚴重之免疫缺乏症（immunodeficiency）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "adenine phosphoribsyl transferase"
+   },
+   {
+    "k": "B",
+    "t": "xanthine oxidase"
+   },
+   {
+    "k": "C",
+    "t": "adenosine deaminase"
+   },
+   {
+    "k": "D",
+    "t": "purine nucleoside phosphorylase"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "adenosine deaminase （ADA）缺乏會導致 dATP 上升，而抑制 Ribonucleotide reductase的活性，此酵素負責 NDP → dNDP，因免疫細胞常需要大量複製，若材料 dNTP 不夠就會導致 T 細胞無法正常發育，造成嚴重複合型免疫缺乏症（Severe Combined Immunodeficiency, SCID）",
+  "topics": [
+   "Purine 合成與調控",
+   "核苷酸分解與痛風"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-16",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 16,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "下列有關缺乏 adenosine deaminase 的敘述，何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "會造成 dATP 不足"
+   },
+   {
+    "k": "B",
+    "t": "可服用 allopurinol 類之藥物治療"
+   },
+   {
+    "k": "C",
+    "t": "核醣體（ribosome）功能受抑制"
+   },
+   {
+    "k": "D",
+    "t": "會造成嚴重的免疫疾病"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "見第 15 題",
+  "topics": [
+   "Salvage、Lesch-Nyhan 與 SCID"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-17",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 17,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "下列哪一個酵素的缺陷，最可能導致嘌呤核苷降解（purine nucleotide degradation）的異常，導致 免疫缺陷疾病（immunodeficiency diseases）的發生？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Adenosine deaminase"
+   },
+   {
+    "k": "B",
+    "t": "AMP aminohydrolase"
+   },
+   {
+    "k": "C",
+    "t": "Purine oxidase"
+   },
+   {
+    "k": "D",
+    "t": "Xanthine oxidoreductase"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "見第 15 題",
+  "topics": [
+   "Purine 合成與調控",
+   "核苷酸分解與痛風"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-18",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 18,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "關於嘌呤核苷酸（purine nucleotides）生合成途徑之敘述，下列何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "嘌呤去氧核苷酸生合成是由核醣核苷酸雙磷酸上核醣的 2’碳上-OH 還原而得"
+   },
+   {
+    "k": "B",
+    "t": "嘌呤生合成的第一個酵素為 aspartate transcarbamoylase（ATCase）"
+   },
+   {
+    "k": "C",
+    "t": "在嘌呤中鹼基上所有的氮均來自於甘胺酸（glycine）"
+   },
+   {
+    "k": "D",
+    "t": "嘌呤核苷酸生合成途徑只在植物與細菌中發生，但人體不會"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "(B)第一個酵素為 Glutamine-PRPP amidotransferase；aspartate transcarbamoylase（ATCase）是嘧啶核苷酸生合成途徑的第一個酵素\n(C)嘌呤中鹼基上的氮可來自 Aspartate、Glycine、Glutamine\n(D)人體中當然會進行嘌呤的從頭生合成",
+  "topics": [
+   "Purine 合成與調控",
+   "Pyrimidine 合成"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-19",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 19,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "在 de novo 嘧啶生合成（pyrimidine biosynthesis）生合成時，其嘧啶環上第二碳是由下列何種物 質所提供？",
+  "options": [
+   {
+    "k": "A",
+    "t": "天門冬酸（aspartic acid）"
+   },
+   {
+    "k": "B",
+    "t": "二氧化碳（carbon dioxide）"
+   },
+   {
+    "k": "C",
+    "t": "醯胺麩胺酸（glutamine）"
+   },
+   {
+    "k": "D",
+    "t": "甘胺酸（glycine）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "嘧啶上的 2 號碳是由 CO2 合成的 Carbamoyl Phosphate 提供",
+  "topics": [
+   "Pyrimidine 合成"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-20",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 20,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "Aspartate transcarbamoylase 在合成 pyrimidine nucleotides 過程，其活性會受到下列何者抑制？",
+  "options": [
+   {
+    "k": "A",
+    "t": "ATP"
+   },
+   {
+    "k": "B",
+    "t": "GTP"
+   },
+   {
+    "k": "C",
+    "t": "CTP"
+   },
+   {
+    "k": "D",
+    "t": "UTP"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "嘧啶核苷酸合成的最終產物 CTP 會回饋抑制（feedback inhibition）Aspartate transcarbamoylase（ATCase）合成 Carbamoyl Aspartate",
+  "topics": [
+   "Pyrimidine 合成"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-21",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 21,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "下列那一種含氮鹼基的降解會產生 β-aminoisobutyrate，並以類似胺基酸的方式代謝，最後轉變 成 succinyl-CoA 進入 TCA cycle？",
+  "options": [
+   {
+    "k": "A",
+    "t": "adenine"
+   },
+   {
+    "k": "B",
+    "t": "guanine"
+   },
+   {
+    "k": "C",
+    "t": "cytosine"
+   },
+   {
+    "k": "D",
+    "t": "thymine"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Uracil、Thymidine 的分解分別會產生 β-Alanine、β-Aminoisobutyrate 開環後的中間產物，β-Alanine、β-Aminoisobutyrate 再脫胺分別產生 Acetyl-CoA、Succinyl-CoA",
+  "topics": [
+   "Purine 合成與調控",
+   "核苷酸分解與痛風"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-22",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 22,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "下列何者是胸腺嘧啶（thymine）在細胞內代謝分解之中間產物？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Uric acid"
+   },
+   {
+    "k": "B",
+    "t": "β-alanine"
+   },
+   {
+    "k": "C",
+    "t": "Carbamoyl phosphate"
+   },
+   {
+    "k": "D",
+    "t": "β-aminoisobutyrate"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "見第 21 題",
+  "topics": [
+   "Pyrimidine 合成",
+   "核苷酸分解與痛風"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-23",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 23,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "在體內 ribonucleotide reductase 可以催化下列何種反應？（106-醫）\n①UDP→dUDP ②GMP→dGMP ③ATP→dATP ④TDP→dTDP",
+  "options": [
+   {
+    "k": "A",
+    "t": "僅①④"
+   },
+   {
+    "k": "B",
+    "t": "僅①"
+   },
+   {
+    "k": "C",
+    "t": "僅④"
+   },
+   {
+    "k": "D",
+    "t": "①②③④"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Ribonucleotide reductase 的受質是 NDP（ADP、GDP、CDP、UDP），產物為 dNDP。\n② GMP 是 NMP、③ ATP 是 NTP，都不是受質；④ TDP 也不是（dTMP 由 dUMP 經 thymidylate synthase 而來）。所以只有 ①。",
+  "topics": [
+   "Ribonucleotide reductase 與 dTMP"
+  ],
+  "pattern": "組合選擇題"
+ },
+ {
+  "id": "k113f-ch22n-24",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 24,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "下列何者可以抑制 ribonucleotide reductase 的活性？",
+  "options": [
+   {
+    "k": "A",
+    "t": "dATP"
+   },
+   {
+    "k": "B",
+    "t": "ATP"
+   },
+   {
+    "k": "C",
+    "t": "dCTP"
+   },
+   {
+    "k": "D",
+    "t": "GTP"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "ribonucleotide reductase 結合 dATP 時，會使有活性的四聚體轉為無活性的八聚體",
+  "topics": [
+   "Ribonucleotide reductase 與 dTMP"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-25",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 25,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "下列何者為體內 ribonucleotide reductase 的受質（substrate）？（103-1 牙）",
+  "options": [
+   {
+    "k": "A",
+    "t": "TDP"
+   },
+   {
+    "k": "B",
+    "t": "ATP"
+   },
+   {
+    "k": "C",
+    "t": "UDP"
+   },
+   {
+    "k": "D",
+    "t": "GMP"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "見第 23 題",
+  "topics": [
+   "Ribonucleotide reductase 與 dTMP"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-26",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 26,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "關於 fluorouracil（5–FU）的敘述，下列何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "是嘌呤（purine）類似物"
+   },
+   {
+    "k": "B",
+    "t": "對細胞週期 G2 期有專一性"
+   },
+   {
+    "k": "C",
+    "t": "可以抑制細胞的有絲分裂"
+   },
+   {
+    "k": "D",
+    "t": "須經代謝成 5–FdUMP 才可產生活性"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "(A)5-FU 是 pyrimidine（U）類似物\n(B)(C) 5-FU 抑制 DNA 的合成，對細胞週期 S 期有專一性",
+  "topics": [
+   "Purine 合成與調控",
+   "抗代謝藥物"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-27",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 27,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "治療癌症之藥物胺甲喋呤（methotrexate）可以抑制下列那個酵素？",
+  "options": [
+   {
+    "k": "A",
+    "t": "胸苷酸合成酶（thymidylate synthase）"
+   },
+   {
+    "k": "B",
+    "t": "麩胺醯胺酶（glutaminase）"
+   },
+   {
+    "k": "C",
+    "t": "麩胺酸脫氫酶（glutamate dehydrogenase）"
+   },
+   {
+    "k": "D",
+    "t": "二氫葉酸還原酶（dihydrofolate reductase）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Aminopterin、Methotrexate、Trimethoprim 可抑制 Dihydrofolate Reductase，抑制細菌或癌細胞生長",
+  "topics": [
+   "Ribonucleotide reductase 與 dTMP",
+   "抗代謝藥物"
+  ],
+  "pattern": "臨床情境題"
+ },
+ {
+  "id": "k113f-ch22n-28",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 28,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "下列何者是 5-fluorouracil 的抗癌作用機轉？",
+  "options": [
+   {
+    "k": "A",
+    "t": "與 DNA 結合而抑制 DNA 複製的功能"
+   },
+   {
+    "k": "B",
+    "t": "抑制 dihydrofolic acid 還原酵素"
+   },
+   {
+    "k": "C",
+    "t": "其代謝物抑制 thymidylate synthase 而毒殺細胞"
+   },
+   {
+    "k": "D",
+    "t": "選擇性的抑制 DNA polymerase"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "5-FU 透過下兩個步驟抑制 Thymidylate Synthase，阻礙 DNA 合成\n(a)與 dUMP 競爭 Thymidylate Synthase 的結合位\n(b) 5-FdUMP 的五號碳多了一個 F，使酵素在提供完甲基準備離開時無法離開，因而阻斷",
+  "topics": [
+   "Ribonucleotide reductase 與 dTMP",
+   "抗代謝藥物"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-29",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 29,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "癌症細胞常有過度分裂繁殖之現象。治療癌症之藥物也常針對此特性。下列何種藥物可以抑制 thymidylate synthase？",
+  "options": [
+   {
+    "k": "A",
+    "t": "methotrexate"
+   },
+   {
+    "k": "B",
+    "t": "5-FU(5-fluorouracil)"
+   },
+   {
+    "k": "C",
+    "t": "cyclophosphamide"
+   },
+   {
+    "k": "D",
+    "t": "vinca alkaloids(vincristine)"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "見第 28 題",
+  "topics": [
+   "Ribonucleotide reductase 與 dTMP",
+   "抗代謝藥物"
+  ],
+  "pattern": "臨床情境題"
+ },
+ {
+  "id": "k113f-ch22n-30",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 30,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "下列何種輔酶能協助單碳基團（one-carbon groups）轉移，如果缺乏時會影響 DNA 的合成？",
+  "options": [
+   {
+    "k": "A",
+    "t": "coenzyme A"
+   },
+   {
+    "k": "B",
+    "t": "lipoate"
+   },
+   {
+    "k": "C",
+    "t": "tetrahydrofolate"
+   },
+   {
+    "k": "D",
+    "t": "pyridoxal phosphate"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "N⁵, N¹⁰-亞甲基四氫葉酸（N⁵, N¹⁰-methylene-THF）將 dUMP 甲基化產生 dTMP",
+  "topics": [
+   "Ribonucleotide reductase 與 dTMP"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-31",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 31,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "癌症細胞常有過度分裂繁殖之現象。治療癌症之藥物也常針對此特性。下列何種藥物可以抑制二 氫葉酸還原酶（dihydrofolate reductase）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Methotrexate"
+   },
+   {
+    "k": "B",
+    "t": "5-FU(5-fluorouracil)"
+   },
+   {
+    "k": "C",
+    "t": "Cyclophosphamide"
+   },
+   {
+    "k": "D",
+    "t": "cisplatin"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "見第 27 題",
+  "topics": [
+   "抗代謝藥物"
+  ],
+  "pattern": "臨床情境題"
+ },
+ {
+  "id": "k113f-ch22n-32",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 32,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "Methotrexate 可以當作化療之生化機轉為何？",
+  "options": [
+   {
+    "k": "A",
+    "t": "作為 pyridoxal phosphate 的相似物，抑制酵素活性"
+   },
+   {
+    "k": "B",
+    "t": "抑制 dihydrofolate reductase"
+   },
+   {
+    "k": "C",
+    "t": "競爭性抑制 EPSP synthase"
+   },
+   {
+    "k": "D",
+    "t": "直接抑制糖解作用（glycolysis）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "見第 27 題",
+  "topics": [
+   "抗代謝藥物"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-33",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 33,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "抗癌藥 5-Fluorouracil 可減少細胞中之 dTMP 的供應，因而抑制 DNA 合成，其作用機轉是因為 此 藥物之衍生物可直接抑制下列何種酵素之活性？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Dihydrofolate reductase"
+   },
+   {
+    "k": "B",
+    "t": "Ribonucleotide reductase"
+   },
+   {
+    "k": "C",
+    "t": "Thymidine kinase"
+   },
+   {
+    "k": "D",
+    "t": "Thymidylate synthase"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "見第 28 題",
+  "topics": [
+   "Ribonucleotide reductase 與 dTMP",
+   "抗代謝藥物"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-34",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 34,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "下列何種酵素對於 dTMP 之生合成很重要？",
+  "options": [
+   {
+    "k": "A",
+    "t": "二氫尿嘧啶脫氫酶（dihydrouracil dehydrogenase）"
+   },
+   {
+    "k": "B",
+    "t": "二氫葉酸還原酶（dihydrofolate reductase）"
+   },
+   {
+    "k": "C",
+    "t": "黃嘌呤氧化酶（xanthine oxidase）"
+   },
+   {
+    "k": "D",
+    "t": "5'-核苷酸酶（5'-nucleotidase）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "dUMP → dTMP，由 Thymidylate synthase 和 DHF reductase 兩酵素負責，缺少 DHF reductase 會使 5,10-Methylene-THF 無法再生，抑制 dTMP 的生成",
+  "topics": [
+   "Pyrimidine 合成",
+   "Ribonucleotide reductase 與 dTMP"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-35",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 35,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "在癌症基因療法試驗使用之酵素與前驅藥物（prodrug）配對中，下列何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "cytosine deaminase－Ara-C"
+   },
+   {
+    "k": "B",
+    "t": "deoxycytidine kinase－5-fluorocytidine"
+   },
+   {
+    "k": "C",
+    "t": "HSV thymidine kinase－ganciclovir"
+   },
+   {
+    "k": "D",
+    "t": "VSV thymidine kinase－acyclovir"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(A) araC 是 prodrug，需要經過 deoxycytidine kinase 磷酸化後，形成 araCTP，而 araCTP 對癌細胞DNA polymerase 親和力高，因此能中斷 DNA 合成，故 deoxycytidine kinase－AraC 才對\n(B) cytosine deaminase 可將 5-fluorocytidine 轉變成 5-FU，故 cytosine deaminase－5-fluorocytidine\n(C)(D) ganciclovir、acyclovir 也是 prodrug 需要經過 HSV 的 thymidine kinase 磷酸化後形成Triphosphate，中斷 DNA 合成，故 HSV thymine kinase－ganciclovir 或 acyclovir",
+  "topics": [
+   "抗代謝藥物"
+  ],
+  "pattern": "臨床情境題"
+ },
+ {
+  "id": "k113f-ch22n-36",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 36,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "最早被核准用於治療愛滋病人的藥物 AZT（Zidovudine）為一核苷酸類似物（nucleoside analog）。 其抑制愛滋病毒的機轉為何？",
+  "options": [
+   {
+    "k": "A",
+    "t": "抑制愛滋病毒的去氧核糖核酸聚合酶（DNA polymerase）"
+   },
+   {
+    "k": "B",
+    "t": "抑制愛滋病毒的反轉錄酶（reverse transcriptase）"
+   },
+   {
+    "k": "C",
+    "t": "抑制愛滋病毒的 gag 蛋白"
+   },
+   {
+    "k": "D",
+    "t": "抑制愛滋病毒的 TAT 轉錄因子"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "AZT（zidovudine）的 3′-OH 換成 azido，進細胞後磷酸化成 AZT-TP，被 HIV 反轉錄酶接上 DNA 後就無法再延長 → 鏈終止；HIV 反轉錄酶對 AZT-TP 的親和力遠高於人類 DNA polymerase。同類：ddC、ddI、3TC、d4T。\n對照：acyclovir、ganciclovir → 病毒 DNA polymerase；araC → 癌細胞 DNA polymerase；5-FU → thymidylate synthase；methotrexate、aminopterin、trimethoprim → DHFR；6-mercaptopurine、6-thioguanine → purine salvage（PRT）。",
+  "topics": [
+   "抗代謝藥物"
+  ],
+  "pattern": "臨床情境題"
+ },
+ {
+  "id": "k113f-ch22n-37",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 37,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "許 多 藥 物 的 合 成 乃 是 結 合 分 子 生 物 學 與 合 成 化 學 而 得 ， 抗 愛 滋 病 的 藥 物 3’-Azido-2’ ， 3’- dideoxythymidine（AZT）即為其中一項，下列關於 AZT 的敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "AZT 由易被 HIV 病毒感染的 T 淋巴球所吸收而轉變為三磷酸根 AZT（AZT triphosphate）"
+   },
+   {
+    "k": "B",
+    "t": "HIV 病毒的反轉錄酶對於 AZT triphosphate 有極高的親和力"
+   },
+   {
+    "k": "C",
+    "t": "HIV 病毒的 DNA 進行複製時若 3’端加入 AZT triphosphate 則會終止複製反應"
+   },
+   {
+    "k": "D",
+    "t": "人類 T 淋巴球的 DNA 複製酶對 AZT triphosphate 有高親和力，所以會帶來許多副作用"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "(D) 錯：人類 DNA polymerase 對 AZT-TP 的親和力低，AZT 的選擇性正是來自 HIV 反轉錄酶的高親和力。其餘敘述見第 36 題。",
+  "topics": [
+   "抗代謝藥物"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113f-ch22n-38",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 38,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "愛滋病毒（HIV）屬反轉錄病毒（retrovirus），其反轉錄酶（reverse transcriptase）的活性，不包 括 下列何種反應？",
+  "options": [
+   {
+    "k": "A",
+    "t": "RNA-dependent DNA synthesis"
+   },
+   {
+    "k": "B",
+    "t": "DNA-dependent DNA synthesis"
+   },
+   {
+    "k": "C",
+    "t": "DNA-dependent RNA synthesis"
+   },
+   {
+    "k": "D",
+    "t": "RNA degradation"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "HIV 反轉錄酶有三種活性：\n(1) RNA-dependent DNA polymerase：以病毒 RNA 為模板合成 DNA（RNA-DNA hybrid）。\n(2) RNase H：分解 hybrid 中的 RNA。\n(3) DNA-dependent DNA polymerase：再合成第二股 DNA。\nDNA-dependent RNA synthesis 是轉錄（RNA polymerase 的工作），不屬於反轉錄酶。",
+  "topics": [
+   "抗代謝藥物"
+  ],
+  "pattern": "臨床情境題"
+ },
+ {
+  "id": "k113f-ch22n-39",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 39,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "AZT(3'-azido-2'，3'-dideoxythymidine)臨床上被用為治療感染 HIV-1 病毒之病患。主要作用為下列 何者？",
+  "options": [
+   {
+    "k": "A",
+    "t": "反轉錄酶（reverse transcriptase）的不可逆抑制劑"
+   },
+   {
+    "k": "B",
+    "t": "DNA 聚合酶甲型（DNA polymerase α）的競爭性抑制劑"
+   },
+   {
+    "k": "C",
+    "t": "做為反轉錄酶（reverse transcriptase）催化 DNA 合成反應中的鏈終結者（chain terminator）"
+   },
+   {
+    "k": "D",
+    "t": "RNase A 活性的抑制劑"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "AZT 會在 DNA 鏈末端核苷酸三號碳上的 OH 鍵結變成 N=N=N，讓 DNA 在複製時，5’端的磷酸根無法接上 3’端，使 DNA 合成中斷",
+  "topics": [
+   "抗代謝藥物"
+  ],
+  "pattern": "臨床情境題"
+ },
+ {
+  "id": "k113f-ch22n-40",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 40,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "AZT(3'-azido-2'，3'-dideoxythymidine)可用以治療 human immunodeficiency virus（HIV）的感染，其 作用是？",
+  "options": [
+   {
+    "k": "A",
+    "t": "病毒蛋白質水解酶（protease）的抑制劑"
+   },
+   {
+    "k": "B",
+    "t": "DNA polymerase 的競爭性抑制劑"
+   },
+   {
+    "k": "C",
+    "t": "反轉錄酵素（reverse transcriptase）合成 DNA 鏈的終止者"
+   },
+   {
+    "k": "D",
+    "t": "RNase H 的抑制劑"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "見第 39 題",
+  "topics": [
+   "抗代謝藥物"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-41",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 41,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "對於嘌呤核苷酸（purine nucleotides）分解的敘述，下列何者正確？（112-營）",
+  "options": [
+   {
+    "k": "A",
+    "t": "人體內嘌呤核苷酸分解過程是由核苷酸（nucleotides）降解為核苷（nucleosides），再由核苷降 解為鹼基，最終形成終產物"
+   },
+   {
+    "k": "B",
+    "t": "人體內嘌呤核苷酸分解過程包括還原作用（reduction）與轉胺作用（transamination）"
+   },
+   {
+    "k": "C",
+    "t": "人體內具有酵素可將嘌呤環狀結構打開而形成中間產物尿囊素（allantoin）"
+   },
+   {
+    "k": "D",
+    "t": "人體內分解嘌呤之最終產物為尿素（urea）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "(B)嘌呤分解主要是氧化作用，不涉及轉胺作用\n(C)人類缺乏尿囊素（allantoin）生成酵素，故尿酸為嘌呤代謝的最終產物\n(D)最終產物為尿酸（uric acid）",
+  "topics": [
+   "Purine 合成與調控",
+   "核苷酸分解與痛風"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch22n-42",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 42,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "關於嘌呤（purine）與嘧啶（pyrimidine）的敘述，下列何者錯誤？（111-營）",
+  "options": [
+   {
+    "k": "A",
+    "t": "嘌呤與嘧啶結構皆含有 N（nitrogen）"
+   },
+   {
+    "k": "B",
+    "t": "嘌呤的環狀結構較嘧啶的環狀結構小"
+   },
+   {
+    "k": "C",
+    "t": "guanine 為一種嘌呤"
+   },
+   {
+    "k": "D",
+    "t": "thymine 結構含有甲基（－CH3）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Purine 是雙環（六角環接五角環），pyrimidine 是單環，所以 purine 比較大，(B) 錯。Thymine = 5-methyluracil，含甲基。",
+  "topics": [
+   "Purine 合成與調控",
+   "Pyrimidine 合成"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113f-ch22n-43",
+  "source": "113 期末考古",
+  "section": "Ch22 補充",
+  "num": 43,
+  "chapter": "ch22n",
+  "type": "mcq",
+  "stem": "下列哪一種鹼基通常不會出現在 DNA？（106-醫）",
+  "options": [
+   {
+    "k": "A",
+    "t": "adenine"
+   },
+   {
+    "k": "B",
+    "t": "uracil"
+   },
+   {
+    "k": "C",
+    "t": "guanine"
+   },
+   {
+    "k": "D",
+    "t": "thymine"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "組成 DNA 的含氮鹼基：A、T、C、G組成 RNA 的含氮鹼基：A、U、C、G",
+  "topics": [
+   "核苷酸分解與痛風"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113f-ch24-01",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 1,
+  "chapter": "ch24",
+  "type": "mcq",
+  "stem": "Which one is the same characteristic for DNA and RNA?",
+  "options": [
+   {
+    "k": "A",
+    "t": "α double helix"
+   },
+   {
+    "k": "B",
+    "t": "same mechanism to avoid error during synthesis"
+   },
+   {
+    "k": "C",
+    "t": "both contain phosphate, ribose and base"
+   },
+   {
+    "k": "D",
+    "t": "2’of the ribose is -OH group"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(A) DNA 通常是雙股螺旋；RNA 則多為單股。\n(B) DNA 可以透過其 3’ → 5’exonuclease 的活性來進行校正；RNA 則沒什麼校正機會。\n(C) 正確。\n(D) DNA 的 2’碳接 H；RNA 的 2’碳接 OH。",
+  "topics": [
+   "DNA 結構與染色體"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch24-02",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 2,
+  "chapter": "ch24",
+  "type": "mcq",
+  "stem": "Which one of the following RNA sequences could form a hairpin loop?",
+  "options": [
+   {
+    "k": "A",
+    "t": "UUCGUAUCGUACAAACGU"
+   },
+   {
+    "k": "B",
+    "t": "GCAUCGAUCGUCUCGAUCGUGC"
+   },
+   {
+    "k": "C",
+    "t": "ACAGACAGACAGUCUGUCUGUC"
+   },
+   {
+    "k": "D",
+    "t": "AAUUAACCAAGGAACCGGUUCC"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Hairpin 需要一段序列和後面的序列反向互補。(C) 5′-ACAGACAGA… 和 3′ 端的 …UCUGUCUGU 可以配成 9 bp 的 stem，中間的 CAG 當 loop，最容易形成 hairpin。",
+  "topics": [
+   "DNA 結構與染色體"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch24-03",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 3,
+  "chapter": "ch24",
+  "type": "mcq",
+  "stem": "Which of the following does not contribute to the octameric histone core?",
+  "options": [
+   {
+    "k": "A",
+    "t": "H1"
+   },
+   {
+    "k": "B",
+    "t": "H2A and H2B"
+   },
+   {
+    "k": "C",
+    "t": "H3"
+   },
+   {
+    "k": "D",
+    "t": "H4"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "H1 是 linker histone，H2A、H2B、H3、H4 是 histone core。",
+  "topics": [
+   "DNA 結構與染色體"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113f-ch24-04",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 4,
+  "chapter": "ch24",
+  "type": "mcq",
+  "stem": "Which of the following is a DNA sequence?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Operator"
+   },
+   {
+    "k": "B",
+    "t": "Activator"
+   },
+   {
+    "k": "C",
+    "t": "Repressor"
+   },
+   {
+    "k": "D",
+    "t": "Transactivator"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Operator 是 DNA 上讓 repressor 結合的序列。Activator、repressor、transactivator 都是蛋白質（會結合 DNA，但本身不是 DNA 序列）。",
+  "topics": [
+   "DNA 結構與染色體"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-05",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 5,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "Which biological process will synthesize the Okazaki fragments?",
+  "options": [
+   {
+    "k": "A",
+    "t": "transcription"
+   },
+   {
+    "k": "B",
+    "t": "translation"
+   },
+   {
+    "k": "C",
+    "t": "DNA recombination"
+   },
+   {
+    "k": "D",
+    "t": "DNA replication"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Okazaki fragments 是 DNA 複製的時候在 lagging strand 上會被發現。",
+  "topics": [
+   "Replication fork：primase、helicase、Okazaki"
+  ],
+  "pattern": "選正確／單一概念題",
+  "repeat": 2
+ },
+ {
+  "id": "k113f-ch25-06",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 6,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "The cancer cells can NOT aging normally may caused by?",
+  "options": [
+   {
+    "k": "A",
+    "t": "DNA polymerase α"
+   },
+   {
+    "k": "B",
+    "t": "DNA polymerase δ"
+   },
+   {
+    "k": "C",
+    "t": "DNA ligase"
+   },
+   {
+    "k": "D",
+    "t": "Telomerase"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "端粒 (Telomeres) 為真核生物染色體末端的 DNA 重複序列。一般細胞在複製時，會因為端粒耗損而老化。癌細胞若含端粒酶（Telomerase），則端粒不會損耗而不會老化。",
+  "topics": [
+   "Topoisomerase 與 telomerase"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113f-ch24-07",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 7,
+  "chapter": "ch24",
+  "type": "mcq",
+  "stem": "Which is the complementary strand of 5'-CGCGAATTCGCG-3'?",
+  "options": [
+   {
+    "k": "A",
+    "t": "5'-GCGCTTAAGCGC-3'"
+   },
+   {
+    "k": "B",
+    "t": "5'-CGCGAATTCGCG-3'"
+   },
+   {
+    "k": "C",
+    "t": "5'-GCGCUUAAGCGC-3'"
+   },
+   {
+    "k": "D",
+    "t": "5'-CGCGAAUUCGCG-3'"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "互補股要從 5′ 寫到 3′：5′-CGCGAATTCGCG-3′ 是回文序列（palindrome，含 EcoRI 位置 GAATTC），互補股反過來讀仍然是 5′-CGCGAATTCGCG-3′。\n(A) 方向寫反；(C)(D) 含 U，是 RNA。",
+  "topics": [
+   "DNA 結構與染色體"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-08",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 8,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "At replication forks in E coli:",
+  "options": [
+   {
+    "k": "A",
+    "t": "DNA helicases make endonucleolytic cuts in DNA"
+   },
+   {
+    "k": "B",
+    "t": "DNA topoisomerases make endonucleolytic cuts in DNA"
+   },
+   {
+    "k": "C",
+    "t": "RNA primers are removed by DNA polymerase I"
+   },
+   {
+    "k": "D",
+    "t": "RNA primers are synthesized by RNA polymerase"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(C) 正確：DNA polymerase I 以 5′→3′ 外切酶活性移除 RNA primer（nick translation）。\n(A) Helicase 只解開雙股，不切 DNA。\n(B) Topoisomerase 是暫時切斷再接回（形成共價中間物）來改變超螺旋，不是核酸內切酶式的切割。\n(D) RNA primer 由 primase（DnaG）合成。",
+  "topics": [
+   "DNA polymerase 種類與活性",
+   "Replication fork：primase、helicase、Okazaki"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-09",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 9,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "Prokaryotic DNA polymerase III:",
+  "options": [
+   {
+    "k": "A",
+    "t": "contains a 5’ to 3’ proofreading activity to improve the fidelity of replication"
+   },
+   {
+    "k": "B",
+    "t": "does not require a primer molecule to initiate replication"
+   },
+   {
+    "k": "C",
+    "t": "has a β-subunit that acts as a circular clamps to improve the processivity of DNA synthesis"
+   },
+   {
+    "k": "D",
+    "t": "synthesizing DNA in the 3’ to 5’ direction"
+   },
+   {
+    "k": "E",
+    "t": "synthesizes only the leading strand; DNA polymerase I synthesizes the lagging strand"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(C) 正確：β subunit（β clamp）形成環狀滑動夾，大幅提高 processivity。\n(A) Pol III 的校正是 3′→5′ 外切酶（ε subunit）。\n(B) 需要 RNA primer 提供 3′-OH。\n(D) 合成方向一律 5′→3′。\n(E) Pol III 同時合成 leading 與 lagging strand；Pol I 負責移除 primer 並補上 DNA。",
+  "topics": [
+   "DNA polymerase 種類與活性",
+   "Replication fork：primase、helicase、Okazaki"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-10",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 10,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "Which of the following is the best description for primase?",
+  "options": [
+   {
+    "k": "A",
+    "t": "a DNA-dependent DNA polymerase"
+   },
+   {
+    "k": "B",
+    "t": "an RNA-dependent DNA polymerase"
+   },
+   {
+    "k": "C",
+    "t": "a DNA-dependent RNA polymerase"
+   },
+   {
+    "k": "D",
+    "t": "an RNA-dependent RNA polymerase"
+   },
+   {
+    "k": "E",
+    "t": "none of the above"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Primase 是根據 DNA 序列產生 RNA primer。",
+  "topics": [
+   "Replication fork：primase、helicase、Okazaki"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-11",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 11,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "Which of the following is true of Topoisomerases II?\nI. transiently breaking one of the two DNA strands\nII. break both DNA strands\nIII. change Lk in increments of 1\nIV. change Lk in increments of 2",
+  "options": [
+   {
+    "k": "A",
+    "t": "I, III"
+   },
+   {
+    "k": "B",
+    "t": "I, IV"
+   },
+   {
+    "k": "C",
+    "t": "II, III"
+   },
+   {
+    "k": "D",
+    "t": "II, IV"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Topoisomerase I：切一股，每次改變 Lk 1。\nTopoisomerase II（如 DNA gyrase）：切兩股，每次改變 Lk 2（需 ATP）。",
+  "topics": [
+   "Topoisomerase 與 telomerase"
+  ],
+  "pattern": "組合選擇題"
+ },
+ {
+  "id": "k113f-ch25-12",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 12,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "An Okazaki fragment is a",
+  "options": [
+   {
+    "k": "A",
+    "t": "fragment of DNA resulting from endonuclease action"
+   },
+   {
+    "k": "B",
+    "t": "segment of DNA that is an intermediate in the synthesis of the lagging strand"
+   },
+   {
+    "k": "C",
+    "t": "piece of DNA that is synthesized in the 3' → 5' direction"
+   },
+   {
+    "k": "D",
+    "t": "segment of mRNA synthesized by RNA polymerase"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Okazaki fragment 是 DNA 複製的時候在 lagging strand 上可以觀察到的片段。",
+  "topics": [
+   "Replication fork：primase、helicase、Okazaki"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-13",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 13,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "In eukaryotic replication, which polymerase is analogous to E. coli primase?",
+  "options": [
+   {
+    "k": "A",
+    "t": "pol α"
+   },
+   {
+    "k": "B",
+    "t": "pol β"
+   },
+   {
+    "k": "C",
+    "t": "pol γ"
+   },
+   {
+    "k": "D",
+    "t": "pol δ"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "真核 pol α 帶 primase 活性（先合成 RNA primer，再接一小段 DNA），對應 E. coli 的 primase（DnaG）。\npol β：DNA 修復；pol γ：粒線體 DNA 複製；pol δ／ε：主要延長（對應 Pol III）。",
+  "topics": [
+   "DNA polymerase 種類與活性",
+   "Replication fork：primase、helicase、Okazaki"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-14",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 14,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "The 3' to 5' exonuclease activity of DNA polymerase I bestows ________ capabilities to the enzymes.",
+  "options": [
+   {
+    "k": "A",
+    "t": "proofreading"
+   },
+   {
+    "k": "B",
+    "t": "improved rate"
+   },
+   {
+    "k": "C",
+    "t": "processivity"
+   },
+   {
+    "k": "D",
+    "t": "all of the above"
+   },
+   {
+    "k": "E",
+    "t": "none of the above"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "3’ → 5’外切酶為校正鹼基配對的功能。",
+  "topics": [
+   "DNA polymerase 種類與活性"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-15",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 15,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "The 3' ends of chromosomes in eukaryotes are extended by an enzyme called ___________.",
+  "options": [
+   {
+    "k": "A",
+    "t": "polymerase"
+   },
+   {
+    "k": "B",
+    "t": "telomerase"
+   },
+   {
+    "k": "C",
+    "t": "helicase"
+   },
+   {
+    "k": "D",
+    "t": "ligase"
+   },
+   {
+    "k": "E",
+    "t": "none of the above"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "端粒酶（Telomerase）可以延長染色體末端，有防止細胞老化等的功能。",
+  "topics": [
+   "Replication fork：primase、helicase、Okazaki",
+   "Topoisomerase 與 telomerase"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-16",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 16,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "Which of the following is involved in unwinding the DNA double helix?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Acetylase"
+   },
+   {
+    "k": "B",
+    "t": "Helicase"
+   },
+   {
+    "k": "C",
+    "t": "Single strand binding proteins (SSB)"
+   },
+   {
+    "k": "D",
+    "t": "Polymerases"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Topoisomerase 和 helicase 都有參與 DNA 解旋。\n(C) Single strand binding proteins (SSB)是 DNA 螺旋被打開之後穩定單股 DNA 使用的蛋白。",
+  "topics": [
+   "Replication fork：primase、helicase、Okazaki"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-17",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 17,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "An Okazaki fragment is a",
+  "options": [
+   {
+    "k": "A",
+    "t": "fragment of DNA resulting from endonuclease action."
+   },
+   {
+    "k": "B",
+    "t": "segment of RNA that is a subunit of the 30S ribosome."
+   },
+   {
+    "k": "C",
+    "t": "piece of DNA that is synthesized in the 3' → 5' direction."
+   },
+   {
+    "k": "D",
+    "t": "segment of DNA that is an intermediate in the synthesis of the lagging strand."
+   },
+   {
+    "k": "E",
+    "t": "segment of mRNA synthesized by RNA polymerase."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Okazaki fragment 是 DNA 複製的時候在 lagging strand 上可以觀察到的片段。",
+  "topics": [
+   "Replication fork：primase、helicase、Okazaki"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-18",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 18,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "The 5' → 3' exonuclease activity of E. coli DNA polymerase I is involved in",
+  "options": [
+   {
+    "k": "A",
+    "t": "formation of a nick at the DNA replication origin."
+   },
+   {
+    "k": "B",
+    "t": "formation of Okazaki fragments."
+   },
+   {
+    "k": "C",
+    "t": "proofreading of the replication process."
+   },
+   {
+    "k": "D",
+    "t": "removal of RNA primers by nick translation."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "DNA polymerase 的 5’→3’外切酶活性是用來去除 primer 的。",
+  "topics": [
+   "DNA polymerase 種類與活性",
+   "Replication fork：primase、helicase、Okazaki"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-19",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 19,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "At replication forks in E. coli",
+  "options": [
+   {
+    "k": "A",
+    "t": "DNA helicases make endonucleolytic cuts in DNA."
+   },
+   {
+    "k": "B",
+    "t": "DNA topoisomerases make endonucleolytic cuts in DNA."
+   },
+   {
+    "k": "C",
+    "t": "RNA primers are removed by primase."
+   },
+   {
+    "k": "D",
+    "t": "RNA primers are synthesized by primase."
+   },
+   {
+    "k": "E",
+    "t": "DNA primers are degraded by exonucleases."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "(D) 正確：RNA primer 由 primase（DnaG）合成。\n(A) Helicase 不切 DNA；(B) topoisomerase 是暫時切斷再接回；(C) primer 由 DNA polymerase I 移除，不是 primase；(E) primer 是 RNA。",
+  "topics": [
+   "DNA polymerase 種類與活性",
+   "Replication fork：primase、helicase、Okazaki"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-20",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 20,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "（題組 20–23）E. coli has three DNA polymerases. Please answer the following questions:\n\nWhich one with 5' → 3' exonuclease activity",
+  "options": [
+   {
+    "k": "A",
+    "t": "DNA polymerase I"
+   },
+   {
+    "k": "B",
+    "t": "DNA polymerase II"
+   },
+   {
+    "k": "C",
+    "t": "DNA polymerase III"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "5’ → 3’ 外切酶用來去除 primer，而 DNA polymerase I 有這個活性。",
+  "topics": [
+   "DNA polymerase 種類與活性"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "k113f-ch25-21",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 21,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "（題組 20–23）E. coli has three DNA polymerases. Please answer the following questions:\n\nWhich polymerase can be digested by trypsin and produce Klenow fragment?",
+  "options": [
+   {
+    "k": "A",
+    "t": "DNA polymerase I"
+   },
+   {
+    "k": "B",
+    "t": "DNA polymerase II"
+   },
+   {
+    "k": "C",
+    "t": "DNA polymerase III"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Klenow fragment 是 DNA polymerase I 被蛋白酶（trypsin、subtilisin）切開後的大片段：保留 5′→3′ polymerase 與 3′→5′ 外切酶（校正），去掉帶 5′→3′ 外切酶的小片段。",
+  "topics": [
+   "DNA polymerase 種類與活性"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "k113f-ch25-22",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 22,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "（題組 20–23）E. coli has three DNA polymerases. Please answer the following questions:\n\nWhich one is the major polymerase used for elongation at replication fork?",
+  "options": [
+   {
+    "k": "A",
+    "t": "DNA polymerase I"
+   },
+   {
+    "k": "B",
+    "t": "DNA polymerase II"
+   },
+   {
+    "k": "C",
+    "t": "DNA polymerase III"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "主要具有延長功能的是 DNA polymerase III，速度也比 DNA polymerase I 快上許多。",
+  "topics": [
+   "DNA polymerase 種類與活性",
+   "Replication fork：primase、helicase、Okazaki"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "k113f-ch25-23",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 23,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "（題組 20–23）E. coli has three DNA polymerases. Please answer the following questions:\n\nWhich one can excise the RNA primer?",
+  "options": [
+   {
+    "k": "A",
+    "t": "DNA polymerase I"
+   },
+   {
+    "k": "B",
+    "t": "DNA polymerase II"
+   },
+   {
+    "k": "C",
+    "t": "DNA polymerase III"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "5’→3’外切酶用來去除 primer，而 DNA polymerase I 有這個活性。",
+  "topics": [
+   "DNA polymerase 種類與活性"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "k113f-ch25-24",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 24,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "（題組 24–26）During DNA replication, is each statement a characteristic of (A) the leading strand or (B) the lagging strand?\n\ncontaining Okazaki fragments.",
+  "options": [
+   {
+    "k": "A",
+    "t": "leading strand"
+   },
+   {
+    "k": "B",
+    "t": "lagging strand"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Okazaki fragments 是在 lagging strand 上會出現的不連續片段。",
+  "topics": [
+   "Replication fork：primase、helicase、Okazaki"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "k113f-ch25-25",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 25,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "（題組 24–26）During DNA replication, is each statement a characteristic of (A) the leading strand or (B) the lagging strand?\n\nreplicated in a discontinuous fashion.",
+  "options": [
+   {
+    "k": "A",
+    "t": "leading strand"
+   },
+   {
+    "k": "B",
+    "t": "lagging strand"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Lagging strand 會產生不連續片段（Okazaki fragment）",
+  "topics": [
+   "Replication fork：primase、helicase、Okazaki",
+   "複製起始與方向"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "k113f-ch25-26",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 26,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "（題組 24–26）During DNA replication, is each statement a characteristic of (A) the leading strand or (B) the lagging strand?\n\nwarped around in trombone fashion. (ie, wrapped a 360°circle)",
+  "options": [
+   {
+    "k": "A",
+    "t": "leading strand"
+   },
+   {
+    "k": "B",
+    "t": "lagging strand"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Lagging strand 會產生 trombone model （360° 圓圈狀的結構）",
+  "topics": [
+   "Replication fork：primase、helicase、Okazaki",
+   "複製起始與方向"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "k113f-ch25-27",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 27,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "Replication of DNA in E. coli occurs in what type of fashion?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Unidirectional"
+   },
+   {
+    "k": "B",
+    "t": "Bidirectional"
+   },
+   {
+    "k": "C",
+    "t": "Multidirectional"
+   },
+   {
+    "k": "D",
+    "t": "directionality can change depending upon specific conditions in the cell"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "E. coli 的 DNA 為環形結構，有一個 OriC。複製是從起始點開始，同時向兩邊進行。",
+  "topics": [
+   "複製起始與方向"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-28",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 28,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "Which of the following exonuclease activities is present in DNA polymerase I ?",
+  "options": [
+   {
+    "k": "A",
+    "t": "3’ exonuclease that degrades double stranded DNA"
+   },
+   {
+    "k": "B",
+    "t": "3’ exonuclease that degrades hairpin DNA"
+   },
+   {
+    "k": "C",
+    "t": "5’ exonuclease that degrades single stranded DNA"
+   },
+   {
+    "k": "D",
+    "t": "5’ exonuclease that removes RNA from a DNA-RNA duplex"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "DNA polymerase 的三種功能：5’to 3’polymerase activity：合成新 DNA 3’to 5’exonuclease activity： Proofreading，移除錯誤配對的 deoxynucleotide 5’to 3’exonuclease activity：移除 RNA primer，並補上對應的 deoxynucleotide",
+  "topics": [
+   "DNA polymerase 種類與活性"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-29",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 29,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "In DNA synthesis, the __________ strand is synthesized in a __________ fashion.",
+  "options": [
+   {
+    "k": "A",
+    "t": "template ; discontinuous"
+   },
+   {
+    "k": "B",
+    "t": "template ; continuous"
+   },
+   {
+    "k": "C",
+    "t": "leading ; discontinuous"
+   },
+   {
+    "k": "D",
+    "t": "lagging ; discontinuous"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Lagging strand 會產生不連續的 Okazaki fragments。",
+  "topics": [
+   "Replication fork：primase、helicase、Okazaki",
+   "複製起始與方向"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-30",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 30,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "What is an Okazaki fragment?",
+  "options": [
+   {
+    "k": "A",
+    "t": "a small section of DNA bound to the leading strand"
+   },
+   {
+    "k": "B",
+    "t": "a small section of DNA bound to the lagging strand"
+   },
+   {
+    "k": "C",
+    "t": "a small section of RNA and DNA bound to the leading strand"
+   },
+   {
+    "k": "D",
+    "t": "a small section of RNA and DNA bound to the lagging strand"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Okazaki fragment 是 lagging strand 上不連續合成的短 DNA 片段。合成時 5′ 端帶一小段 RNA primer，但之後會被移除換成 DNA，教科書定義是 DNA 片段，所以選 (B) 不選 (D)。",
+  "topics": [
+   "Replication fork：primase、helicase、Okazaki"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-31",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 31,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "Which of the following describes the correct sequence of enzyme activity upon the lagging strand?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Primase, DNA ligase, DNA polymerase I, DNA polymerase III"
+   },
+   {
+    "k": "B",
+    "t": "Primase, DNA polymerase I, DNA polymerase III, DNA ligase"
+   },
+   {
+    "k": "C",
+    "t": "DNA polymerase III, primase, DNA polymerase I, DNA ligase"
+   },
+   {
+    "k": "D",
+    "t": "Primase, DNA polymerase III, DNA polymerase I, DNA ligase"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "先利用 primase 合成 RNA 引子，再 DNA polymerase III 延長，然後利用 DNA polymerase I 移除引子，最後利用 DNA ligase 連接 Backbone。",
+  "topics": [
+   "DNA polymerase 種類與活性",
+   "Replication fork：primase、helicase、Okazaki"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-32",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 32,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "What enzyme that is part of the primosome is responsible for unwinding of the DNA ahead of the replication fork?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Topoisomerase"
+   },
+   {
+    "k": "B",
+    "t": "Helicase"
+   },
+   {
+    "k": "C",
+    "t": "Primase"
+   },
+   {
+    "k": "D",
+    "t": "Clamp loading complex"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Helicase（DnaB）是 primosome 的一部分，在複製叉前方解開雙股。Topoisomerase 消除前方累積的超螺旋；primase 合成 RNA primer；clamp loader 把 β clamp 裝上 DNA。",
+  "topics": [
+   "Replication fork：primase、helicase、Okazaki",
+   "Topoisomerase 與 telomerase"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-33",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 33,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "In DNA replication, what is the function of prokaryotic primase?",
+  "options": [
+   {
+    "k": "A",
+    "t": "synthesize the RNA primer"
+   },
+   {
+    "k": "B",
+    "t": "fill in the gap between Okazaki fragments"
+   },
+   {
+    "k": "C",
+    "t": "act as 3’to 5’direction"
+   },
+   {
+    "k": "D",
+    "t": "perform the proofreading"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Primase（DnaG）依 DNA 模板合成短 RNA primer，提供 3′-OH 讓 Pol III 延長。\n(B) 填補 Okazaki 片段間的缺口是 Pol I + ligase；(C) 合成方向是 5′→3′；(D) 校正是 DNA polymerase 的 3′→5′ 外切酶。",
+  "topics": [
+   "DNA polymerase 種類與活性",
+   "Replication fork：primase、helicase、Okazaki"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-35",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 35,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "Which Eukaryotic DNA polymerase is located in Mitochondria and containing to DNA repair activity?",
+  "options": [
+   {
+    "k": "A",
+    "t": "alpha α"
+   },
+   {
+    "k": "B",
+    "t": "delta δ"
+   },
+   {
+    "k": "C",
+    "t": "beta β"
+   },
+   {
+    "k": "D",
+    "t": "gamma γ"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "粒線體 DNA 由 pol γ 複製，它也有 3′→5′ 外切酶校正與修復能力。\npol β：核內的 base excision repair；pol α：帶 primase；pol δ：主要延長。",
+  "topics": [
+   "DNA polymerase 種類與活性"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-36",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 36,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "The Meselson-Stahl experiment established that:",
+  "options": [
+   {
+    "k": "A",
+    "t": "DNA polymerase has a crucial role in DNA synthesis."
+   },
+   {
+    "k": "B",
+    "t": "DNA synthesis in E. coli proceeds by a conservative mechanism."
+   },
+   {
+    "k": "C",
+    "t": "DNA synthesis in E. coli proceeds by a semiconservative mechanism."
+   },
+   {
+    "k": "D",
+    "t": "DNA synthesis requires dATP, dCTP, dGTP, and dTTP."
+   },
+   {
+    "k": "E",
+    "t": "newly synthesized DNA in E. coli has a different base composition than the preexisting DNA."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Meselson-Stahl experiment 主要是確立 DNA 的半保留複製，透過 14N 和 15N。",
+  "topics": [
+   "複製起始與方向"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-37",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 37,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "When a DNA molecule is described as replicating bidirectionally, that means that it has two:",
+  "options": [
+   {
+    "k": "A",
+    "t": "chains."
+   },
+   {
+    "k": "B",
+    "t": "independently replicating segment."
+   },
+   {
+    "k": "C",
+    "t": "origins."
+   },
+   {
+    "k": "D",
+    "t": "replication forks."
+   },
+   {
+    "k": "E",
+    "t": "termination points."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "雙向複製：從同一個 origin 向兩邊各形成一個 replication fork，同時往兩個方向進行。",
+  "topics": [
+   "Replication fork：primase、helicase、Okazaki",
+   "複製起始與方向"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-38",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 38,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "Which one of the following statements about enzymes that interact with DNA is true?",
+  "options": [
+   {
+    "k": "A",
+    "t": "E. coli DNA polymerase I is unusual in that it possesses only a 5' → 3' exonucleolytic activity."
+   },
+   {
+    "k": "B",
+    "t": "Endonucleases degrade circular but not linear DNA molecules."
+   },
+   {
+    "k": "C",
+    "t": "Exonucleases degrade DNA at a free end."
+   },
+   {
+    "k": "D",
+    "t": "Many DNA polymerases have a proofreading 5' → 3' exonuclease."
+   },
+   {
+    "k": "E",
+    "t": "Primases synthesize a short stretch of DNA to prime further synthesis."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(A) DNA polymerase I 有 5'→3'外切酶活性（移除 primer），也有 3'→5' 外切酶的活性（校正）\n(B) 跟 DNA 是環形或線形沒有關係\n(C) 正確\n(D) 5'→3'外切酶活性是移除 primer 用的，不是校正\n(E) primase 合成 RNA primer 不是 DNA primer",
+  "topics": [
+   "DNA polymerase 種類與活性",
+   "Replication fork：primase、helicase、Okazaki"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-39",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 39,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "E. coli DNA polymerase III :",
+  "options": [
+   {
+    "k": "A",
+    "t": "can initiate replication without a primer."
+   },
+   {
+    "k": "B",
+    "t": "is efficient at nick translation."
+   },
+   {
+    "k": "C",
+    "t": "is the principal DNA polymerase in chromosomal DNA replication."
+   },
+   {
+    "k": "D",
+    "t": "represents over 90% of the DNA polymerase activity in E. coli cells."
+   },
+   {
+    "k": "E",
+    "t": "requires a free 5'-hydroxyl group as a primer."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(C) 正確：Pol III 是染色體複製的主要聚合酶。\n(A) 需要 primer；(B) nick translation 是 Pol I（5′→3′ 外切酶）；(D) 細胞內 90% 以上的 polymerase 活性來自 Pol I（Pol III 分子很少）；(E) primer 要提供的是 3′-OH。",
+  "topics": [
+   "DNA polymerase 種類與活性"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-40",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 40,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "The proofreading function of DNA polymerase involves all of the following except :",
+  "options": [
+   {
+    "k": "A",
+    "t": "a 3' → 5' exonuclease."
+   },
+   {
+    "k": "B",
+    "t": "base pairing."
+   },
+   {
+    "k": "C",
+    "t": "detection of mismatched base pairs."
+   },
+   {
+    "k": "D",
+    "t": "phosphodiester bond hydrolysis."
+   },
+   {
+    "k": "E",
+    "t": "reversal of the polymerization reaction."
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "校正：偵測錯配 → 3′→5′ 外切酶水解 phosphodiester bond，切掉錯的核苷酸 → 重新依鹼基配對接上正確的。\n這是水解反應，不是聚合反應的逆反應（pyrophosphorolysis），所以 (E) 不屬於校正。",
+  "topics": [
+   "DNA polymerase 種類與活性"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113f-ch25-41",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 41,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "The 5' → 3' exonuclease activity of E. coli DNA polymerase I is involved in:",
+  "options": [
+   {
+    "k": "A",
+    "t": "formation of a nick at the DNA replication origin."
+   },
+   {
+    "k": "B",
+    "t": "formation of Okazaki fragments."
+   },
+   {
+    "k": "C",
+    "t": "proofreading of the replication process."
+   },
+   {
+    "k": "D",
+    "t": "removal of RNA primers by nick translation."
+   },
+   {
+    "k": "E",
+    "t": "sealing of nicks by ligase action."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Nick translation：Pol I 從 nick 處用 5′→3′ 外切酶一邊切掉 RNA primer，一邊用 5′→3′ polymerase 補上 DNA；最後由 ligase 封口（(E) 是 ligase 的工作）。",
+  "topics": [
+   "DNA polymerase 種類與活性",
+   "Replication fork：primase、helicase、Okazaki"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-42",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 42,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "Which of the following is not required for initiation of DNA replication in E. coli?",
+  "options": [
+   {
+    "k": "A",
+    "t": "DnaB (helicase)"
+   },
+   {
+    "k": "B",
+    "t": "DnaG (primase)"
+   },
+   {
+    "k": "C",
+    "t": "Dam methylase"
+   },
+   {
+    "k": "D",
+    "t": "DNA ligase"
+   },
+   {
+    "k": "E",
+    "t": "None of the above"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "DNA ligase 應該是 elongation 階段才會使用到的。\n(C) Dam 甲基化酶識別 Oric 的 GATC，並在複製前將甲基連接到腺嘌呤鹼基。DNA 甲基化調節DNA 複製也很關鍵，半甲基化的 DNA 無法複製。複製後，細胞需要幾分鐘才能完全甲基化新的DNA，甚至需要更長時間才能甲基化複製起點和 DnaA 蛋白的啟動子區域，而啟動複製。",
+  "topics": [
+   "Replication fork：primase、helicase、Okazaki",
+   "複製起始與方向"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113f-ch25-43",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 43,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "In contrast to bacteria, eukaryotic chromosomes need multiple DNA replication origins because:",
+  "options": [
+   {
+    "k": "A",
+    "t": "eukaryotic chromosomes cannot usually replicate bidirectionally."
+   },
+   {
+    "k": "B",
+    "t": "eukaryotic genomes are not usually circular, like the bacterial chromosome is."
+   },
+   {
+    "k": "C",
+    "t": "the processivity of the eukaryotic DNA polymerase is much less than the bacterial enzyme."
+   },
+   {
+    "k": "D",
+    "t": "their replication rate is much slower, and it would take too long with only a single origin per chromosome."
+   },
+   {
+    "k": "E",
+    "t": "they have a variety of DNA polymerases for different purposes, and need a corresponding variety of replication origins."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "真核基因體很大，DNA polymerase 速度又比細菌慢（約 50 nt/s，細菌約 1000 nt/s），只靠一個 origin 會複製太久，所以每條染色體有許多 origin。",
+  "topics": [
+   "複製起始與方向"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch25-44",
+  "source": "113 期末考古",
+  "section": "Ch24-25",
+  "num": 44,
+  "chapter": "ch25",
+  "type": "mcq",
+  "stem": "The function of the eukaryotic DNA replication factor PCNA (proliferating cell nuclear antigen) is similar to that of the β subunit of bacterial DNA polymerase III in that it:",
+  "options": [
+   {
+    "k": "A",
+    "t": "facilitates replication of telomeres."
+   },
+   {
+    "k": "B",
+    "t": "forms a circular sliding clamp to increase the processivity of replication"
+   },
+   {
+    "k": "C",
+    "t": "has a 3' → 5' proofreading activity"
+   },
+   {
+    "k": "D",
+    "t": "Increases the speed but not the processivity of the replication complex"
+   },
+   {
+    "k": "E",
+    "t": "participates in DNA repair"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "PCNA 是真核的 DNA sliding clamp（三聚體環），和 pol δ 結合，讓聚合酶一次能合成數千個核苷酸而不脫離（提高 processivity），功能等同 E. coli Pol III 的 β clamp。",
+  "topics": [
+   "DNA polymerase 種類與活性",
+   "Topoisomerase 與 telomerase"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch26-01",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 1,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "What is the consequence of RNA transcription if AATAAA was mutated to AAGAAA in the 3’ untranslated region (3’UTR)?",
+  "options": [
+   {
+    "k": "A",
+    "t": "capping"
+   },
+   {
+    "k": "B",
+    "t": "polyadenylation"
+   },
+   {
+    "k": "C",
+    "t": "splicing"
+   },
+   {
+    "k": "D",
+    "t": "transport"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "AATAAA 與 poly A addition signal 有關，Poly A polymerase 會辨識 RNA 上的 Cleavage Sequence：AAUAAA（Poly A Addition Signal）。突變 AATAAA → AAGAAA 造成 Poly A polymerase 無法正確辨識此序列，造成 mRNA 穩定性降低、容易被分解，影響蛋白質表現量，故選(B)。",
+  "topics": [
+   "mRNA 加工：cap、poly(A)、splicing"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch26-02",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 2,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "For eukaryotic RNA, which one is incorrect?",
+  "options": [
+   {
+    "k": "A",
+    "t": "5’-capping is able to increase the stability of mRNA."
+   },
+   {
+    "k": "B",
+    "t": "There is no 5’-capping in rRNA and tRNA."
+   },
+   {
+    "k": "C",
+    "t": "The 3’ poly(A) in mRNA is transcribed by poly(T) located in the sample strand."
+   },
+   {
+    "k": "D",
+    "t": "There is no 3’ poly(A) in histone mRNA."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "錯誤。mRNA 的 3' poly A tail 不是由 DNA 上的 poly(T)轉錄而來。3’poly A tail 修飾過程1        辨識 cleavage sequence（有 AAUAAA 片段）2        用特別 endonuclease 切斷 cleavage sequence 後的 11～30 residue（往 3’端方向數）3        用一種 Non template-directed polymerase（聚合過程不需要模板 DNA）加上約 300 個Polyriboadenylic acid（Poly A）\n(B)正確。tRNA 和 rRNA 有其他的方法保護結構。\n(D)正確。Histone mRNA 是缺乏 poly A tail 的 mRNA。",
+  "topics": [
+   "mRNA 加工：cap、poly(A)、splicing",
+   "rRNA／tRNA 與 RNA 穩定性"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113f-ch26-03",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 3,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "The sigma factor of E.coli RNA polymerase",
+  "options": [
+   {
+    "k": "A",
+    "t": "associates with the promoter before binding to the core enzyme."
+   },
+   {
+    "k": "B",
+    "t": "combines with the core enzyme to confer specific binding to a promoter."
+   },
+   {
+    "k": "C",
+    "t": "is inseparable from the core enzyme."
+   },
+   {
+    "k": "D",
+    "t": "is required for termination of an RNA chain."
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "(A) sigma factor 會先與 core enzyme 結合，再附著至 promoter。\n(B) 正確。\n(C) sigma factor 可與 core enzyme 分離，為 separable。\n(D) termination 可分成 sequence dependent 及 ρ-factor dependent，皆與 sigma factor 無關，sigma factor和 initiation 有關。",
+  "topics": [
+   "RNA polymerase 與 σ factor",
+   "轉錄終止"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch26-04",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 4,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "Which one of the following statements about E.coli RNA polymerase (core enzyme) is false?",
+  "options": [
+   {
+    "k": "A",
+    "t": "It can start new chains de novo or elongate old ones."
+   },
+   {
+    "k": "B",
+    "t": "It needs sigma factor for the initiation step."
+   },
+   {
+    "k": "C",
+    "t": "It uses nucleoside 5’triphosphates as substrates."
+   },
+   {
+    "k": "D",
+    "t": "Its activity is blocked by rifampicin."
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "類第 18 題。合成新的 RNA 鏈需要 Holoenzyme（＝core enzyme＋σ factor）\n(A) 的敘述會比較像 DNA Polymerase 會出現的行為。Core enzyme 不能自行開始新的轉錄（無法 de novo 起始），需要 sigma factor。\n(B) Rifampicin 為半合成廣效殺菌性抗生素，藉與 RNA 聚合酶的 β 次單元之強力結合，而抑制細菌RNA 的合成。",
+  "topics": [
+   "RNA polymerase 與 σ factor"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113f-ch26-05",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 5,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "Which of the following is not known to be involved in initiation by eukaryotic RNA polymerase II?",
+  "options": [
+   {
+    "k": "A",
+    "t": "DNA helicase activity"
+   },
+   {
+    "k": "B",
+    "t": "DNA polymerase activity"
+   },
+   {
+    "k": "C",
+    "t": "Formation of an open complex"
+   },
+   {
+    "k": "D",
+    "t": "Protein binding to specific DNA sequences"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "DNA helicase 是否參與 RNA 轉錄作用尚有爭議；參與 DNA 複製的 DNA polymerase 和 RNA 轉錄作用無直接相關。",
+  "topics": [
+   "RNA polymerase 與 σ factor"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113f-ch26-06",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 6,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "Which one of the following statements about eukaryotic RNA polymerase is correct?",
+  "options": [
+   {
+    "k": "A",
+    "t": "All three eukaryotic RNA polymerase recognize the same promoters as prokaryotic polymerases."
+   },
+   {
+    "k": "B",
+    "t": "None of the eukaryotic RNA polymerases recognizes prokaryotic promoters."
+   },
+   {
+    "k": "C",
+    "t": "Only eukaryotic RNA polymerase I recognizes prokaryotic promoters."
+   },
+   {
+    "k": "D",
+    "t": "Only eukaryotic RNA polymerase II recognizes prokaryotic promoters."
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "真核和原核生物的轉錄系統有根本的差異，包括啟動子序列和所需的輔助因子都不同。在細菌中RNA polymerase 需要相關的輔助因子來和啟動子識別和結合。另一方面，真核生物的過程要複雜得多。真核生物至少需要七個轉錄因子才能使 RNA polymerase II 與啟動子結合。",
+  "topics": [
+   "RNA polymerase 與 σ factor"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch26-07",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 7,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "Differential RNA processing (alternative splicing) may result in",
+  "options": [
+   {
+    "k": "A",
+    "t": "attachment of the poly(A) tail to the 5' end of an mRNA."
+   },
+   {
+    "k": "B",
+    "t": "inversion of certain exons in the final mRNA."
+   },
+   {
+    "k": "C",
+    "t": "the production of the same protein from two different genes."
+   },
+   {
+    "k": "D",
+    "t": "the production of two distinct proteins from a single gene."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "選擇性剪接（alternative splicing）的特性：同一基因切除不同 intron 產生不同 mRNA，進而產生不同蛋白質，增加基因表達的多樣性。",
+  "topics": [
+   "mRNA 加工：cap、poly(A)、splicing"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch26-08",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 8,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "Which one of the following statements about mRNA stability is true?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Degradation of mRNA by polynucleotide phosphorylase yields 5'-nucleoside monophosphates."
+   },
+   {
+    "k": "B",
+    "t": "In general, bacterial mRNAs have longer half-lives than do eukaryotic mRNAs."
+   },
+   {
+    "k": "C",
+    "t": "Rates of mRNA degradation are always at least ten-fold slower than rates of mRNA synthesis."
+   },
+   {
+    "k": "D",
+    "t": "Secondary structure in mRNA (hairpins, for example) slows the rate of degradation."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "(A) 應為 5’-nucleotide diphosphates。\n(B) 真核生物的 mRNA 經過 5’cap、3’poly A 等修飾，較不易被分解，半衰期約 30 分鐘，而原核生物的 mRNA 穩定性較差，半衰期約 2 至 3 分鐘。\n(C) 通常為了維持分子穩定水平，合成和降解的速度近乎一樣。",
+  "topics": [
+   "rRNA／tRNA 與 RNA 穩定性",
+   "DNA 結合蛋白與 hairpin"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch26-09",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 9,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "The eukaryotic TATA-binding protein (TBP) functions in a manner similar to",
+  "options": [
+   {
+    "k": "A",
+    "t": "CAP in E.coli"
+   },
+   {
+    "k": "B",
+    "t": "rho (ρ) factor in E.coli"
+   },
+   {
+    "k": "C",
+    "t": "lac I in E.coli"
+   },
+   {
+    "k": "D",
+    "t": "sigma (σ) in E.coli"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "真核細胞中的 TBP 與大腸桿菌中 Holo Enzyme 的 σ 次單元作用類似，皆是辨識啟動子（Promoter Recognition）。TBP 可以和各個 TBP 相關因子共同組成通用轉錄因子 TFIID，再進一步組成 RNA polymerase II 的轉錄起始複合物。",
+  "topics": [
+   "RNA polymerase 與 σ factor",
+   "轉錄終止"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch26-10",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 10,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "Which of these polymerases does not require a template?",
+  "options": [
+   {
+    "k": "A",
+    "t": "RNA pol I"
+   },
+   {
+    "k": "B",
+    "t": "Polyadenylate polymerase"
+   },
+   {
+    "k": "C",
+    "t": "RNA pol II"
+   },
+   {
+    "k": "D",
+    "t": "Reverse transcriptase"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "大多數核酸聚合酶都需要模板，Polyadenylate polymerase 是少數不需要模板的特例。其他選項都需要模板\n(A) RNA pol I：需要 DNA 模板轉錄 rRNA。\n(C) RNA pol II：需要 DNA 模板轉錄 mRNA。\n(D) Reverse transcriptase：需要 RNA 模板合成 DNA。",
+  "topics": [
+   "RNA polymerase 與 σ factor"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113f-ch26-11",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 11,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "In eukaryotic cells, RNA polymerase _____ transcribes most of the ribosomal RNA, RNA polymerase _____ transcribes tRNAs and RNA polymerase _____ transcribes the major structural genes.",
+  "options": [
+   {
+    "k": "A",
+    "t": "I ; II ; III"
+   },
+   {
+    "k": "B",
+    "t": "I ; III ; II"
+   },
+   {
+    "k": "C",
+    "t": "II ; I ; III"
+   },
+   {
+    "k": "D",
+    "t": "II ; III ; I"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "真核生物的 RNA polymerase RNA polymerase I（RNA Pol I）合成 rRNA RNA polymerase II（RNA Pol II）合成 mRNA、大部分 snRNA、miRNA RNA polymerase III（RNA Pol III）合成 tRNA、少部分 snRNA",
+  "topics": [
+   "RNA polymerase 與 σ factor",
+   "rRNA／tRNA 與 RNA 穩定性"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch26-12",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 12,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "Which of the following is true of the E. coli RNA polymerase?\n1. Two copies of the α subunit are present, along with one each of β, β′, σ, and ω.\n2. The largest subunit, β′, functions in DNA binding.\n3. β binds the NTP substrates and interacts with σ; σ (70 kD) plays a role in transcription initiation.\n4. The core polymerase (α₂ββ′ω) is catalytically competent and able to recognize promoters.",
+  "options": [
+   {
+    "k": "A",
+    "t": "1, 2, 3, 4"
+   },
+   {
+    "k": "B",
+    "t": "2, 3, 4"
+   },
+   {
+    "k": "C",
+    "t": "1, 2, 3"
+   },
+   {
+    "k": "D",
+    "t": "1, 2, 4"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "1、2、3：正確。4：錯誤，因為 Core Enzyme 僅能進行 Elongation，需要 σ 因子組成 Holoenzyme 才能辨識啟動子。",
+  "note": "原檔 β′、ω 符號轉檔後變成「*」，本站依課本補回。",
+  "topics": [
+   "RNA polymerase 與 σ factor"
+  ],
+  "pattern": "組合選擇題"
+ },
+ {
+  "id": "k113f-ch26-13",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 13,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "Which of the following events commonly occur in the processing of eukaryotic mRNA (mRNA posttranscriptional modification)?\n(1) 5’-end created by ribonuclease P leaves a phosphate on the 5’- terminal.\n(2) 5’-Capping, protect against exonucleases.\n(3) 3’-Poly A addition, stabilize the mRNA by increasing resistance to cellular nucleases.\n(4) Trimming of the 3’-ends by endonuclease.\n(5) Splicing of coding sequences.",
+  "options": [
+   {
+    "k": "A",
+    "t": "1, 2, 3, 4, 5"
+   },
+   {
+    "k": "B",
+    "t": "2, 3, 5"
+   },
+   {
+    "k": "C",
+    "t": "2, 4, 5"
+   },
+   {
+    "k": "D",
+    "t": "1, 2, 5"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "1：改成 leaves two phosphates。3：cellular nucleases 改成 nuclear nucleases。",
+  "note": "依共筆公布答案為 C。第 3 項的判斷有爭議（poly(A) 一般認為能保護 mRNA 不被細胞質核酸酶分解）；第 5 項嚴格說是剪掉 intron、接合 exon。",
+  "topics": [
+   "mRNA 加工：cap、poly(A)、splicing"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch26-14",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 14,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "Which inhibitor of the RNA polymerase binds to its β subunit and inhibits RNA transcription?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Rifampicin"
+   },
+   {
+    "k": "B",
+    "t": "α-amanitin"
+   },
+   {
+    "k": "C",
+    "t": "actinomycin"
+   },
+   {
+    "k": "D",
+    "t": "Ampicillin"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "類第 4 題的 D 選項。Rifampicin 為半合成廣效殺菌性抗生素，藉與 RNA 聚合酶的 β 次單元之強力結合，而抑制細菌 RNA的合成（There are only 2 antibiotics targeting bacterial RNAP on the market: the rifamycin series and fidaxomicin/lipiarmicin.）",
+  "topics": [
+   "RNA polymerase 與 σ factor"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch26-15",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 15,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "Which of the following RNA sequences could form a hairpin loop?",
+  "options": [
+   {
+    "k": "A",
+    "t": "ACGUUUCGUAUCGUACACACGU"
+   },
+   {
+    "k": "B",
+    "t": "GCATCGAUCGUCUCGAUCGUGC"
+   },
+   {
+    "k": "C",
+    "t": "ACAGACAGACAGUCUGUCUGUC"
+   },
+   {
+    "k": "D",
+    "t": "AAUUAACCAAGGAACCGGUUCC"
+   },
+   {
+    "k": "E",
+    "t": "none of the above"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "類第 26 題。回文序列，以中間標示的 A 為對稱點：ACAGACAGACAGUCUGUCUGUC。",
+  "topics": [
+   "DNA 結合蛋白與 hairpin"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch26-16",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 16,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "Which amino acids are likely to be important in proteins that binds to DNA?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Lys, Arg"
+   },
+   {
+    "k": "B",
+    "t": "Glu, Asp"
+   },
+   {
+    "k": "C",
+    "t": "Gln, Asn"
+   },
+   {
+    "k": "D",
+    "t": "Gly, Val"
+   },
+   {
+    "k": "E",
+    "t": "Ser, Thr"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "DNA 帶負電，需帶正電胺基酸與之結合，其中組蛋白含有帶正電的鹼性胺基酸如 Lys 與 Arg。",
+  "topics": [
+   "DNA 結合蛋白與 hairpin"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch26-17",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 17,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "Which base will be added to the growing mRNA if the base on the DNA template is adenine?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Cytosine"
+   },
+   {
+    "k": "B",
+    "t": "Guanine"
+   },
+   {
+    "k": "C",
+    "t": "Thymine"
+   },
+   {
+    "k": "D",
+    "t": "Uracil"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "轉錄依鹼基配對：模板上的 A 對應 RNA 上的 U（RNA 沒有 T）。",
+  "topics": [
+   "RNA polymerase 與 σ factor"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch26-18",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 18,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "Which of the following statements about E. coli RNA polymerase (core enzyme) is false?",
+  "options": [
+   {
+    "k": "A",
+    "t": "It can start new chains de novo or elongate old ones."
+   },
+   {
+    "k": "B",
+    "t": "It has no catalytic activity unless the sigma factor is bound."
+   },
+   {
+    "k": "C",
+    "t": "It uses nucleoside 5'-triphosphatases as substrates."
+   },
+   {
+    "k": "D",
+    "t": "Its activity is blocked by rifampicin."
+   }
+  ],
+  "answer": [
+   "A",
+   "B"
+  ],
+  "explain": "類第 4 題\n(A) 合成新的 RNA 鏈需要 Holo Enzyme。\n(B) Elongation 時缺乏 sigma factor，Core Enzyme 依然有酵素活性。\n(C) Triphosphatases 是水解酶，水解酶不該是受質，要抓錯字的話(C)也可以算錯。",
+  "note": "共筆公布的答案為 A、B（複選或送分），選任一個都算對。",
+  "topics": [
+   "RNA polymerase 與 σ factor"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113f-ch26-19",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 19,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "Processing of a primary mRNA transcript in a eukaryotic cell does not normally involve",
+  "options": [
+   {
+    "k": "A",
+    "t": "attachment of a long poly(A) sequence at the 3' end."
+   },
+   {
+    "k": "B",
+    "t": "conversion of normal bases to modified bases, such as inosine and pseudouridine."
+   },
+   {
+    "k": "C",
+    "t": "excision of intervening sequences (introns)."
+   },
+   {
+    "k": "D",
+    "t": "joining of exons."
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "(B) 只會發生在 tRNA、 snRNA 和 rRNA，不會發生在 mRNA。mRNA 修飾步驟如下：\n(1) 5’capping：穩定 mRNA 並延長真核生物 RNA 的半衰期，發生在轉錄作用早期。\n(2) 3’ poly A tail：保護 mRNA，協助運送到細胞質、蛋白質合成 Initiation，反應位置為 Cleavage sequence（AAUAAA）。\n(3) Splicing：剪除 Intron，再連接 Exon（真核生物 only）。",
+  "topics": [
+   "mRNA 加工：cap、poly(A)、splicing"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113f-ch26-20",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 20,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "Which of the following statements about the synthesis of rRNA and tRNA in E. coli is true?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Both rRNA and some tRNAs are part of the same primary transcript."
+   },
+   {
+    "k": "B",
+    "t": "Each rRNA sequence (16S, 23S, 5S) is transcribed into a separate primary transcript."
+   },
+   {
+    "k": "C",
+    "t": "Primary tRNA transcripts undergo methylation, but rRNA sequences are not methylated."
+   },
+   {
+    "k": "D",
+    "t": "The tRNA sequence all lie at the 3' end of the rRNA transcripts."
+   },
+   {
+    "k": "E",
+    "t": "There is a single copy of the rRNA genes."
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "E.coli 的 rRNA 和 tRNA 在相同基因段上，有相同啟動子。\n(B) 先轉錄成一條 pre-rRNA，再以 cleavage 形成不同 rRNA。\n(C) 都會甲基化。\n(D) 有時會與 rRNA 序列交錯排列。\n(E) 不只一個（E.coli 有 7 個 copy）。",
+  "topics": [
+   "rRNA／tRNA 與 RNA 穩定性"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch26-21",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 21,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "The E.coli promoter region contains a ~10 consensus sequence of __________ on the sense strand.",
+  "options": [
+   {
+    "k": "A",
+    "t": "GAGAGA"
+   },
+   {
+    "k": "B",
+    "t": "TATAAT"
+   },
+   {
+    "k": "C",
+    "t": "GAGGAG"
+   },
+   {
+    "k": "D",
+    "t": "GACGTC"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Consensus Sequence 在原核生物中常出現 T、A 鹼基（較容易解旋），又稱 Pribnow box（真核對應的是 TATA box）。註：真核生物常出現的序列為 5’ GGCCAATCT 3’，又稱為 CAAT box。",
+  "topics": [
+   "RNA polymerase 與 σ factor"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch26-22",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 22,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "What type of enzyme activity is associated with the termination factor ρ?",
+  "options": [
+   {
+    "k": "A",
+    "t": "topoisomerase"
+   },
+   {
+    "k": "B",
+    "t": "endonuclease"
+   },
+   {
+    "k": "C",
+    "t": "exonuclease"
+   },
+   {
+    "k": "D",
+    "t": "helicase"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "ρ protein 是一種需要 ATP 的解旋酶。當合成的 RNA 上有其接合位，會接上去並向聚合酶方向移動，阻止合成並解開雜合體，促使 mRNA 釋出。",
+  "topics": [
+   "轉錄終止"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch26-23",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 23,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "What type of RNA is found in the spliceosome (during splicing)?",
+  "options": [
+   {
+    "k": "A",
+    "t": "snRNA"
+   },
+   {
+    "k": "B",
+    "t": "tRNA"
+   },
+   {
+    "k": "C",
+    "t": "rRNA"
+   },
+   {
+    "k": "D",
+    "t": "triple-stranded RNA"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Spliceosome，由 snRNA 與 protein 組成，其中 snRNA 分為五種（U1, 2, 4, 5, 6），具有酵素活性，是一種 Ribozyme。",
+  "topics": [
+   "mRNA 加工：cap、poly(A)、splicing",
+   "rRNA／tRNA 與 RNA 穩定性"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch26-24",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 24,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "RNA polymerase II (pol II) catalyzes the formation of which type of RNA?",
+  "options": [
+   {
+    "k": "A",
+    "t": "mRNA"
+   },
+   {
+    "k": "B",
+    "t": "rRNA"
+   },
+   {
+    "k": "C",
+    "t": "snRNA"
+   },
+   {
+    "k": "D",
+    "t": "tRNA"
+   }
+  ],
+  "answer": [
+   "A",
+   "C"
+  ],
+  "explain": "真核生物的 RNA polymerase RNA polymerase I（RNA Pol I）合成 rRNA RNA polymerase II（RNA Pol II）合成 mRNA、大部分 snRNA、miRNA RNA polymerase III（RNA Pol III）合成 tRNA、少部分 snRNA",
+  "note": "共筆公布的答案為 A、C（複選或送分），選任一個都算對。",
+  "topics": [
+   "RNA polymerase 與 σ factor",
+   "rRNA／tRNA 與 RNA 穩定性"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch26-25",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 25,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "A branched “lariat” structure is formed during",
+  "options": [
+   {
+    "k": "A",
+    "t": "attachment of a 5’ cap to mRNA."
+   },
+   {
+    "k": "B",
+    "t": "attachment of poly A tails to mRNA."
+   },
+   {
+    "k": "C",
+    "t": "splicing of all classes of introns."
+   },
+   {
+    "k": "D",
+    "t": "splicing of group II introns."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Intron              Splicing Initiation           是否形成 Lariat Structure Group I            GTP（guanosine cofactor）                     X Group II               internal adenosine                      O",
+  "topics": [
+   "mRNA 加工：cap、poly(A)、splicing"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch26-26",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 26,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "Which one of the following RNA sequences could form a hairpin loop?",
+  "options": [
+   {
+    "k": "A",
+    "t": "UUCGUAUCGUACAAACGU"
+   },
+   {
+    "k": "B",
+    "t": "GCATCGAUCGUCUCGAUCGUGC"
+   },
+   {
+    "k": "C",
+    "t": "ACAGACAGACAGUCUGUCUGUC"
+   },
+   {
+    "k": "D",
+    "t": "AAUUAACCAAGGAACCGGUUCC"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "ACAGACAGACAGUCUGUCUGUC，CAG 兩邊鹼基對互補。",
+  "topics": [
+   "DNA 結合蛋白與 hairpin"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch26-27",
+  "source": "113 期末考古",
+  "section": "Ch26",
+  "num": 27,
+  "chapter": "ch26",
+  "type": "mcq",
+  "stem": "Which of the following is NOT a DNA binding motif for protein?",
+  "options": [
+   {
+    "k": "A",
+    "t": "helix-turn-helix"
+   },
+   {
+    "k": "B",
+    "t": "zinc finger"
+   },
+   {
+    "k": "C",
+    "t": "small nuclear ribonucleoproteins"
+   },
+   {
+    "k": "D",
+    "t": "leucine zipper"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(A) HTH：一條胺基酸短鏈（通常由 Proline 或 Glycine 組成）連結兩個 α 螺旋。1 個 turn（10～25 個胺基酸）胺基酸短鏈協助專一性辨識2 個 α-Helix               C 端 α-Helix      辨識序列、與 DNA Major Groove 結合（60～90 個胺基酸）                   N 端 α-Helix      協助穩定結構註：Four DNA-binding helix-turn-helix motifs in the Lac repressor\n(B) Zn-Finger：1 個 α-Helix 和 2 個 β-Sheet Zn2+易與帶有硫（S）的胺基酸（Cysteine、Histidine）以配位共價鍵結合。注意：是半胱胺酸 Cysteine，不是胱胺酸 Cystine（其 S 形成雙硫鍵，無法和 Zn 結合）α-Helix    與 DNA Major Groove 結合能與 DNA、RNA、蛋白質甚至脂類β-Sheet    與 DNA 上的五碳醣－磷酸骨架交互作用結合Zn2+     穩定整體架構常見於真核細胞，少見於原核細胞；Cys2-His2 為真核生物轉錄因子中最常見類別。註：Transcription factor TFIIIA binds to the 5S RNA gene via zinc fingers inserted into the major groove.\n(C) snRNPs 由 snRNA 與 protein 組成，會結合在 intron 上，以協助 splicing。\n(D) bZIP：2 條 α-Helix，可以啟動轉錄，須以特定角度和 DNA 結合。C端以 Leu 作為疏水核心，2 條 α-Helix 利用疏水性作用力結合N端有 Basic Region（帶有 Arg、Lys），與帶負電 DNA 的 Major Groove 結合",
+  "topics": [
+   "DNA 結合蛋白與 hairpin"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113f-ch28-01",
+  "source": "113 期末考古",
+  "section": "Ch28",
+  "num": 1,
+  "chapter": "ch28",
+  "type": "mcq",
+  "stem": "The operator region normally can be bound by:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Attenuator"
+   },
+   {
+    "k": "B",
+    "t": "Inducer"
+   },
+   {
+    "k": "C",
+    "t": "mRNA"
+   },
+   {
+    "k": "D",
+    "t": "repressor"
+   },
+   {
+    "k": "E",
+    "t": "suppressor tRNA"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Operator 是 repressor 結合的 DNA 序列（lac operon：LacI repressor 結合 operator，擋住 RNA polymerase）。\nInducer（allolactose）是結合 repressor、讓它離開 operator，不是直接結合 operator。",
+  "topics": [
+   "Lac operon 與 CRP",
+   "Trp operon 與 attenuation"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch28-02",
+  "source": "113 期末考古",
+  "section": "Ch28",
+  "num": 2,
+  "chapter": "ch28",
+  "type": "mcq",
+  "stem": "Which of the following statements about regulation of the lac operon is true?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Glucose in the growth medium decreases the inducibility by lactose."
+   },
+   {
+    "k": "B",
+    "t": "Glucose in the growth medium does not affect the inducibility by lactose."
+   },
+   {
+    "k": "C",
+    "t": "Glucose in the growth medium increases the inducibility by lactose."
+   },
+   {
+    "k": "D",
+    "t": "Its expression is regulated mainly at the level of translation."
+   },
+   {
+    "k": "E",
+    "t": "The lac operon is fully induced whenever lactose is present."
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "葡萄糖存在時 cAMP 低，CRP-cAMP 無法結合 → 即使有乳糖也只有低度表現（catabolite repression），所以 glucose 會降低 lactose 的誘導效果。\n(D) lac operon 主要在轉錄層次調控；(E) 有葡萄糖時就無法完全誘導。",
+  "topics": [
+   "Lac operon 與 CRP"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch28-03",
+  "source": "113 期末考古",
+  "section": "Ch28",
+  "num": 3,
+  "chapter": "ch28",
+  "type": "mcq",
+  "stem": "The binding of CRP (cAMP receptor protein of E. coli) to DNA in the lac operon:",
+  "options": [
+   {
+    "k": "A",
+    "t": "assists RNA polymerase binding to the lac promoter."
+   },
+   {
+    "k": "B",
+    "t": "is inhibited by a high level of cAMP."
+   },
+   {
+    "k": "C",
+    "t": "occurs in the lac repressor region."
+   },
+   {
+    "k": "D",
+    "t": "occurs only when glucose is present in the growth medium."
+   },
+   {
+    "k": "E",
+    "t": "prevents repressor from binding to the lac operator."
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "(A) 正確：CRP-cAMP 結合在 promoter 上游的 CRP site，幫助 RNA polymerase 結合 lac promoter。\n(B) 高 cAMP 促進結合；(C) 結合位置是 CRP site，不是 repressor（operator）區；(D) 葡萄糖少、cAMP 高時才結合；(E) 不影響 repressor 結合 operator。",
+  "topics": [
+   "Lac operon 與 CRP"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch28-04",
+  "source": "113 期末考古",
+  "section": "Ch28",
+  "num": 4,
+  "chapter": "ch28",
+  "type": "mcq",
+  "stem": "Which of the following is a DNA sequence?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Coactivator"
+   },
+   {
+    "k": "B",
+    "t": "Corepressor"
+   },
+   {
+    "k": "C",
+    "t": "Enhancer"
+   },
+   {
+    "k": "D",
+    "t": "Inducer"
+   },
+   {
+    "k": "E",
+    "t": "Transactivator"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(A) Coactivator 是存在於真核細胞的蛋白質，能協助促進轉錄。\n(B) Corepressor 結合在 repressor 上，協助 repressor 結合 promoter，例如 Trp。\n(C) Enhancer 藉由促進 RNA Pol 與 DNA 結合的方式，加強基因表現的一小段 DNA。\n(D) Inducer 和 Corepressor 相反，結合在 repressor 上，阻止 repressor 結合 promoter，例如乳糖。\n(E) Transcription activator結合 Enhancer 和 Mediator，和(C)是做同一件事，但他並不是 DNA。",
+  "topics": [
+   "真核調控：enhancer、甲基化、RNA"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch28-05",
+  "source": "113 期末考古",
+  "section": "Ch28",
+  "num": 5,
+  "chapter": "ch28",
+  "type": "mcq",
+  "stem": "Attenuation is one of the methods to regulate the expression of Trp operon in E. coli. Which statement is incorrect?",
+  "options": [
+   {
+    "k": "A",
+    "t": "The leader mRNA contains multiple codons of Trp amino acid."
+   },
+   {
+    "k": "B",
+    "t": "The sequence-dependent transcription termination is an important feature for regulation."
+   },
+   {
+    "k": "C",
+    "t": "Leader mRNA expressed only when tryptophan concentration is low."
+   },
+   {
+    "k": "D",
+    "t": "Ribosome apparatus will pause on Trp codon when tryptophan concentration is low."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Trp operon 的 attenuation：leader peptide 含兩個連續 Trp codon。\nTrp 低：核糖體停在 Trp codon → leader 形成 2–3 anti-terminator → 繼續轉錄結構基因。\nTrp 高：核糖體快速通過 → 形成 3–4 terminator hairpin → 提早終止（sequence-dependent termination）。\n不論 Trp 高低，leader 區都會被轉錄，差別在後面的結構基因有沒有轉錄，所以 (C) 錯。",
+  "topics": [
+   "Trp operon 與 attenuation"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113f-ch28-06",
+  "source": "113 期末考古",
+  "section": "Ch28",
+  "num": 6,
+  "chapter": "ch28",
+  "type": "mcq",
+  "stem": "Which one is the most suitable for enhancer?",
+  "options": [
+   {
+    "k": "A",
+    "t": "locate in poly A tail"
+   },
+   {
+    "k": "B",
+    "t": "locate in intron"
+   },
+   {
+    "k": "C",
+    "t": "locate in 5’ upstream region"
+   },
+   {
+    "k": "D",
+    "t": "orientation independent"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Enhancer 可以在基因上游、下游甚至 intron 裡，距離可達數千 bp，而且方向無關（orientation independent），這是 enhancer 最典型的特徵。",
+  "topics": [
+   "真核調控：enhancer、甲基化、RNA"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch28-07",
+  "source": "113 期末考古",
+  "section": "Ch28",
+  "num": 7,
+  "chapter": "ch28",
+  "type": "mcq",
+  "stem": "Which of the conditions would result in the least amount of transcription of the operon? [glucose]                            [lactose] I                                   High                                 High II                                  Low                                  Low III                                 High                                 Low IV                                  Low                                  High",
+  "options": [
+   {
+    "k": "A",
+    "t": "I"
+   },
+   {
+    "k": "B",
+    "t": "II"
+   },
+   {
+    "k": "C",
+    "t": "III"
+   },
+   {
+    "k": "D",
+    "t": "IV"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "乳糖低 → repressor 結合 operator；葡萄糖高 → cAMP 低、CRP 不結合。兩個條件都關掉，轉錄最少，所以是 III（葡萄糖高、乳糖低）。",
+  "topics": [
+   "Lac operon 與 CRP"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "k113f-ch28-08",
+  "source": "113 期末考古",
+  "section": "Ch28",
+  "num": 8,
+  "chapter": "ch28",
+  "type": "mcq",
+  "stem": "DNA methylation in eukaryotes plays a role in__________________.",
+  "options": [
+   {
+    "k": "A",
+    "t": "methyl-directed mismatch repair"
+   },
+   {
+    "k": "B",
+    "t": "protection of restriction sites"
+   },
+   {
+    "k": "C",
+    "t": "chromatin remodeling"
+   },
+   {
+    "k": "D",
+    "t": "gene silencing"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "當 CpG island 甲基化時，DNA 轉錄被抑制，反之則無。",
+  "topics": [
+   "真核調控：enhancer、甲基化、RNA"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch28-09",
+  "source": "113 期末考古",
+  "section": "Ch28",
+  "num": 9,
+  "chapter": "ch28",
+  "type": "mcq",
+  "stem": "A short RNA that is complimentary to a specific mRNA and used for inhibition of translation is called?",
+  "options": [
+   {
+    "k": "A",
+    "t": "antisense RNA"
+   },
+   {
+    "k": "B",
+    "t": "missense RNA"
+   },
+   {
+    "k": "C",
+    "t": "nonsense RNA"
+   },
+   {
+    "k": "D",
+    "t": "senseless RNA"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "節錄原文書：Antisense RNA is complimentary to a specific mRNA and used for inhibition of translation. It can block translation of the mRNA by forming a duplex with it. 所以它可以用來干擾 RNA。",
+  "topics": [
+   "真核調控：enhancer、甲基化、RNA"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch28-10",
+  "source": "113 期末考古",
+  "section": "Ch28",
+  "num": 10,
+  "chapter": "ch28",
+  "type": "mcq",
+  "stem": "E. coli cells achieve a great deal of gene regulatory expression through the σ subunit of RNA polymerase. Which subunit is present most often since it promotes the production of most of the proteins required under normal conditions within the cell?",
+  "options": [
+   {
+    "k": "A",
+    "t": "σ24"
+   },
+   {
+    "k": "B",
+    "t": "σ28"
+   },
+   {
+    "k": "C",
+    "t": "σ38"
+   },
+   {
+    "k": "D",
+    "t": "σ70"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "σ⁷⁰（RpoD）是 E. coli 的 housekeeping σ factor，負責一般生長條件下大多數基因的轉錄。\n其他：σ³² 熱休克、σ³⁸（RpoS）靜止期與壓力、σ²⁸ 鞭毛、σ²⁴ 細胞外壓力。",
+  "topics": [
+   "σ factor"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113f-ch28-11",
+  "source": "113 期末考古",
+  "section": "Ch28",
+  "num": 11,
+  "chapter": "ch28",
+  "type": "mcq",
+  "stem": "（題組 11–15）Match the term with the most directly related description.\n\nSpliceosome",
+  "options": [
+   {
+    "k": "A",
+    "t": "A class of small RNA molecules involved in gene silencing by inhibiting translation and/or promoting the degradation of particular mRNAs"
+   },
+   {
+    "k": "B",
+    "t": "A complex of RNAs and proteins involved in the splicing of mRNAs in eukaryotic cells"
+   },
+   {
+    "k": "C",
+    "t": "A DNA sequence that facilitates the expression of a given gene"
+   },
+   {
+    "k": "D",
+    "t": "Supramolecular assembly of enzymatic complexes that function in the degradation of damaged or unneeded cellular proteins"
+   },
+   {
+    "k": "E",
+    "t": "A ribozyme, part of the rRNA of the large ribosomal subunit"
+   },
+   {
+    "k": "F",
+    "t": "An RNA sequence involved in regulating the expression of certain genes, functions as a transcription terminator"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Spliceosome（剪接體）主要在真核細胞的細胞核內，由 snRNA 和蛋白質組裝而成的大型且複雜的分子。剪接體從轉錄出的 mRNA 中去除 intron（內含子）。",
+  "topics": [
+   "真核調控：enhancer、甲基化、RNA"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "k113f-ch28-12",
+  "source": "113 期末考古",
+  "section": "Ch28",
+  "num": 12,
+  "chapter": "ch28",
+  "type": "mcq",
+  "stem": "（題組 11–15）Match the term with the most directly related description.\n\nProteasome",
+  "options": [
+   {
+    "k": "A",
+    "t": "A class of small RNA molecules involved in gene silencing by inhibiting translation and/or promoting the degradation of particular mRNAs"
+   },
+   {
+    "k": "B",
+    "t": "A complex of RNAs and proteins involved in the splicing of mRNAs in eukaryotic cells"
+   },
+   {
+    "k": "C",
+    "t": "A DNA sequence that facilitates the expression of a given gene"
+   },
+   {
+    "k": "D",
+    "t": "Supramolecular assembly of enzymatic complexes that function in the degradation of damaged or unneeded cellular proteins"
+   },
+   {
+    "k": "E",
+    "t": "A ribozyme, part of the rRNA of the large ribosomal subunit"
+   },
+   {
+    "k": "F",
+    "t": "An RNA sequence involved in regulating the expression of certain genes, functions as a transcription terminator"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Proteasome（蛋白酶體）存於真核細胞的細胞核和細胞質中，為 lysosome（溶體）外的蛋白水解構造，是細胞調控特定數量蛋白質和除去錯誤摺疊蛋白質的場所。",
+  "topics": [
+   "真核調控：enhancer、甲基化、RNA"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "k113f-ch28-13",
+  "source": "113 期末考古",
+  "section": "Ch28",
+  "num": 13,
+  "chapter": "ch28",
+  "type": "mcq",
+  "stem": "（題組 11–15）Match the term with the most directly related description.\n\nPeptidyl transferase",
+  "options": [
+   {
+    "k": "A",
+    "t": "A class of small RNA molecules involved in gene silencing by inhibiting translation and/or promoting the degradation of particular mRNAs"
+   },
+   {
+    "k": "B",
+    "t": "A complex of RNAs and proteins involved in the splicing of mRNAs in eukaryotic cells"
+   },
+   {
+    "k": "C",
+    "t": "A DNA sequence that facilitates the expression of a given gene"
+   },
+   {
+    "k": "D",
+    "t": "Supramolecular assembly of enzymatic complexes that function in the degradation of damaged or unneeded cellular proteins"
+   },
+   {
+    "k": "E",
+    "t": "A ribozyme, part of the rRNA of the large ribosomal subunit"
+   },
+   {
+    "k": "F",
+    "t": "An RNA sequence involved in regulating the expression of certain genes, functions as a transcription terminator"
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "Peptidyl transferase 是 23S rRNA（大次單位）的活性，屬於 ribozyme，催化肽鍵形成。",
+  "topics": [
+   "真核調控：enhancer、甲基化、RNA"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "k113f-ch28-14",
+  "source": "113 期末考古",
+  "section": "Ch28",
+  "num": 14,
+  "chapter": "ch28",
+  "type": "mcq",
+  "stem": "（題組 11–15）Match the term with the most directly related description.\n\nAttenuator",
+  "options": [
+   {
+    "k": "A",
+    "t": "A class of small RNA molecules involved in gene silencing by inhibiting translation and/or promoting the degradation of particular mRNAs"
+   },
+   {
+    "k": "B",
+    "t": "A complex of RNAs and proteins involved in the splicing of mRNAs in eukaryotic cells"
+   },
+   {
+    "k": "C",
+    "t": "A DNA sequence that facilitates the expression of a given gene"
+   },
+   {
+    "k": "D",
+    "t": "Supramolecular assembly of enzymatic complexes that function in the degradation of damaged or unneeded cellular proteins"
+   },
+   {
+    "k": "E",
+    "t": "A ribozyme, part of the rRNA of the large ribosomal subunit"
+   },
+   {
+    "k": "F",
+    "t": "An RNA sequence involved in regulating the expression of certain genes, functions as a transcription terminator"
+   }
+  ],
+  "answer": [
+   "F"
+  ],
+  "explain": "Attenuator 是 operon leader 區的一段 RNA 序列，能形成終止子 hairpin 提早結束轉錄（如 trp operon）。",
+  "note": "原卷這個選項的代號是 (AB)，本站改成 (F)。",
+  "topics": [
+   "Trp operon 與 attenuation"
+  ],
+  "pattern": "配對題"
+ },
+ {
+  "id": "k113f-ch28-15",
+  "source": "113 期末考古",
+  "section": "Ch28",
+  "num": 15,
+  "chapter": "ch28",
+  "type": "mcq",
+  "stem": "（題組 11–15）Match the term with the most directly related description.\n\nmiRNA",
+  "options": [
+   {
+    "k": "A",
+    "t": "A class of small RNA molecules involved in gene silencing by inhibiting translation and/or promoting the degradation of particular mRNAs"
+   },
+   {
+    "k": "B",
+    "t": "A complex of RNAs and proteins involved in the splicing of mRNAs in eukaryotic cells"
+   },
+   {
+    "k": "C",
+    "t": "A DNA sequence that facilitates the expression of a given gene"
+   },
+   {
+    "k": "D",
+    "t": "Supramolecular assembly of enzymatic complexes that function in the degradation of damaged or unneeded cellular proteins"
+   },
+   {
+    "k": "E",
+    "t": "A ribozyme, part of the rRNA of the large ribosomal subunit"
+   },
+   {
+    "k": "F",
+    "t": "An RNA sequence involved in regulating the expression of certain genes, functions as a transcription terminator"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "miRNA 是約 22 nt 的小 RNA，與目標 mRNA 結合後抑制轉譯或促使 mRNA 分解（gene silencing）。",
+  "topics": [
+   "真核調控：enhancer、甲基化、RNA"
+  ],
+  "pattern": "配對題"
+ }
+]

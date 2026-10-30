@@ -1,0 +1,287 @@
+                             Chapter 22：Nucleotide metabolism
+
+組長：楊傑愉                 學藝：陳政聖                   授課老師：鄭嘉雄        114. Nov.6
+
+
+1.在核酸代謝中之 salvage pathway 主要指下列何種過程？
+(A)將 nucleosides 或鹼基轉變為 nucleotides 再使用的過程
+(B) uric acid 轉變成 hypoxanthine 再利用的過程
+(C)由 pyrimidines 轉變成 purines 的過程
+(D)由 purines 轉變成 pyrimidines 的過程
+
+
+2.以 de novo pathway 合成 purines 時需要下列那些胺基酸的參與？（107-醫）
+①asparagine ②glutamine ③serine ④aspartate ⑤glycine
+(A)①②③④⑤
+(B)只有②④⑤
+(C)只有①②⑤
+(D)只有①③④
+
+
+3.下列那一個反應的第一步驟需要 PRPP（Phosphoribosyl pyrophosphate）？
+(A) de novo 合成 purine ring
+(B) de novo 合成 pyrimidine ring
+(C) heme 的合成
+(D) urea cycle
+
+
+4.由 IMP 合成 AMP 的過程會直接受下列何者抑制？
+(A) ATP
+(B) GMP
+(C) AMP
+(D) GTP
+
+
+5.下列何種物質之代謝異常可能會引起尿酸（uric acid）聚積於人體而造成痛風（gout）？
+(A) alanine
+(B) cysteine
+(C) UTP
+(D) AMP
+6.下列何者是產生痛風（gout）的原因？
+(A)血液和組織中尿酸（uric acid）濃度太高
+(B)尿素（urea）沉積在關節
+(C)氣候太潮溼
+(D)血液和組織中膽固醇太高
+
+
+7.下列何者為生物體內尿酸（uric acid）的主要來源？
+(A)尿素（urea）分解
+(B) uracil 分解
+(C) tyrosine 的代謝
+(D) purine 類鹼基的代謝
+
+
+8.黃嘌呤氧化酶（xanthine oxidase）在人體內之生化功能為何？
+(A)將黃嘌呤素（xanthine）回收再生成嘌呤核苷酸（purine nucleotides）
+(B)將肌酸（creatine）轉變成肌酸酐（creatinine）
+(C)在嘌呤核苷酸（purine nucleotides）之末端代謝過程中產生尿酸（uric acid）
+(D)為尿素循環（urea cycle）之起始作用酵素
+
+
+9.痛風（gout）是由下列何種物質在血液及組織濃度上升所造成的？
+(A)胺基酸（amino acid）
+(B)肌酸酐（creatinine）
+(C)尿素（urea）
+(D)尿酸（uric acid）
+
+
+10.尿酸是經過下列何種代謝方式所產生？
+(A)嘌呤（purine）的氧化
+(B)嘌呤（purine）的還原
+(C)嘧啶（pyrimidine）的氧化
+(D)嘧啶（pyrimidine）的還原
+
+
+11.有關尿素（urea）和尿酸（uric acid）的生成，下列敘述何者最正確？
+(A)兩者皆是脂肪代謝之產物之一
+(B)尿素是嘌呤核苷酸（purine nucleotides）代謝之終產物；而尿酸是嘧啶核苷酸（pyrimidine
+  nucleotides）代謝之終產物
+(C)生成尿素和尿酸的過程中皆會產生二氧化碳這個副產物
+(D)催化尿素和尿酸產生之最終酵素分別為精胺酸水解酶（arginase）和黃嘌呤氧化酶（xanthine
+  oxidase）
+12.下列那一個分子最不可能經由嘌呤回收（purine salvage）途徑再利用？
+(A) adenine
+(B) guanine
+(C) xanthine
+(D) Hypoxanthine
+
+
+13.下列關於 Lesch-Nyhan syndrome 的敘述，何者錯誤？
+(A)先天缺乏 Hypoxanthine-guanine phosphoribosyltransferase 而導致
+(B)無法藉由新合成路徑（De novo pathway）合成鳥糞嘌呤
+(C)患病兒童通常在 2 歲前發病，出現肢體不協調與智能障礙
+(D)嚴重者會累積過多的尿酸，造成組織的破壞
+
+
+14.下列何者是 Lesch-Nyhan syndrome 的主要病因？
+(A)缺乏 Vit. B12
+(B)缺乏 Vit. B6
+(C)缺乏 HGPRT（hypoxanthine-guanine phosphoribosyltransferase）
+(D)缺乏 Tetrahydrofolate
+
+
+15.嘌呤核酸（purine nucleotides）之分解過程中，何種酵素之先天性缺陷會造成 dATP 貯積，傷害
+免疫細胞，引起嚴重之免疫缺乏症（immunodeficiency）？
+(A) adenine phosphoribsyl transferase
+(B) xanthine oxidase
+(C) adenosine deaminase
+(D) purine nucleoside phosphorylase
+
+
+16.下列有關缺乏 adenosine deaminase 的敘述，何者正確？
+(A)會造成 dATP 不足
+(B)可服用 allopurinol 類之藥物治療
+(C)核醣體（ribosome）功能受抑制
+(D)會造成嚴重的免疫疾病
+
+
+17.下列哪一個酵素的缺陷，最可能導致嘌呤核苷降解（purine nucleotide degradation）的異常，導致
+免疫缺陷疾病（immunodeficiency diseases）的發生？
+(A) Adenosine deaminase
+(B) AMP aminohydrolase
+(C) Purine oxidase
+(D) Xanthine oxidoreductase
+18.關於嘌呤核苷酸（purine nucleotides）生合成途徑之敘述，下列何者正確？
+(A)嘌呤去氧核苷酸生合成是由核醣核苷酸雙磷酸上核醣的 2’碳上-OH 還原而得
+(B)嘌呤生合成的第一個酵素為 aspartate transcarbamoylase（ATCase）
+(C)在嘌呤中鹼基上所有的氮均來自於甘胺酸（glycine）
+(D)嘌呤核苷酸生合成途徑只在植物與細菌中發生，但人體不會
+
+
+19.在 de novo 嘧啶生合成（pyrimidine biosynthesis）生合成時，其嘧啶環上第二碳是由下列何種物
+質所提供？
+(A)天門冬酸（aspartic acid）
+(B)二氧化碳（carbon dioxide）
+(C)醯胺麩胺酸（glutamine）
+(D)甘胺酸（glycine）
+
+
+20.Aspartate transcarbamoylase 在合成 pyrimidine nucleotides 過程，其活性會受到下列何者抑制？
+(A) ATP
+(B) GTP
+(C) CTP
+(D) UTP
+
+
+21.下列那一種含氮鹼基的降解會產生 β-aminoisobutyrate，並以類似胺基酸的方式代謝，最後轉變
+成 succinyl-CoA 進入 TCA cycle？
+(A) adenine
+(B) guanine
+(C) cytosine
+(D) thymine
+
+
+22.下列何者是胸腺嘧啶（thymine）在細胞內代謝分解之中間產物？
+(A) Uric acid
+(B) β-alanine
+(C) Carbamoyl phosphate
+(D) β-aminoisobutyrate
+選擇題
+  1          2         3    4    5     6      7      8      9      10
+    A        B         A    C    D    A      D       C      D      A
+   11       12         13   14   15   16     17     18     19      20
+    D        C         B    C    C    D      A       A      B      C
+   21       22         23   24   25   26     27     28     29      30
+    D        D         B    A    C    D      D       C      B      C
+   31       32         33   34   35   36     37     38     39      40
+    A        B         D    B    C    B      D       C      C      C
+   41       42         43
+    A        B         B
+
+詳解
+1.(A)
+ Salvage pathway 再利用核苷（nucleosides）與游離鹼基（free bases）合成核苷酸（nucleotides）
+
+
+2.(B)
+ 見下方圖
+
+
+
+
+3.(A)
+ Purine ring 合成第一步需要 PRPP、Glutamine；Pyrimidine ring 合成第一步需要 Aspartate 和
+ Carbamoyl phosphate
+4.(C)
+ IMP 會受到下游產物（AMP、GMP）的抑制
+
+
+
+
+5.(D)
+ 嘌呤核苷酸（AMP、GMP）代謝的最終產物為尿酸（uric acid），若代謝異常，尿酸濃度太高便
+ 會導致痛風（gout）
+
+
+6.(A)
+ 尿酸堆積會導致痛風
+
+
+7.(D)
+ 尿酸是由嘌呤類的核苷酸（AMP、GMP）氧化代謝而成
+
+
+8.(C)
+ 黃嘌呤氧化酶（xanthine oxidase）在嘌呤核苷酸（AMP、GMP）的代謝中，負責將 Hypoxanthine
+ 氧化成 xanthine，並進一步把 xanthine 氧化形成尿酸
+
+
+
+
+9.(D)
+ 見第 6 題
+
+
+10.(A)
+ 見第 7 題
+11.(D)
+ (A)(B)尿素是胺基酸的代謝產物；尿酸是嘌呤核苷酸(purine nucleotides)AMP、GMP 的代謝產物
+ (C)尿素和尿酸的生成皆不會產生 CO2，尿素代謝還會消耗 CO2
+ (D)正確
+
+
+
+
+12.(C)
+ (C) Xanthine 的命運只能被氧化形成尿酸，無法再逆轉回核苷酸 Salvage pathway：
+   (1)Adenine＋PRPP → AMP＋PPi，酵素：Adenosine phosphoribosyltransferase（APRT）
+   (2)Guanine＋PRPP → GMP＋PPi，酵素：Hypoxanthine-guanine phosphoribosyltransferase（HGPRT）
+   (3)Hypoxanthine（次黃嘌呤）＋PRPP → IMP（次黃苷酸）＋PPi，酵素：HGPRT
+
+
+
+
+13.(B)
+ Lesch-Nyhan syndrome 是 Hypoxanthine-guanine phosphoribosyltransferase（HGPRT）異常，使得
+ Hypoxanthine、Guanine 無法經 Salvage Pathway 轉為 IMP、GMP，易形成尿酸結晶堆積於身體中，
+ 造成嚴重痛風、關節發炎或神經系統異常
+
+
+
+
+14.(C)
+ 見第 13 題
+15.(C)
+ 下圖紅框處 adenosine deaminase （ADA）缺乏會導致 dATP 上升，而抑制 Ribonucleotide reductase
+ 的活性，此酵素可以將 NTP 轉為 dNTP，因免疫細胞常需要大量複製，若材料 dNTP 不夠就會導
+ 致 T 細胞無法正常發育，造成嚴重複合型免疫缺乏症（Severe Combined Immunodeficiency, SCID）
+
+
+
+
+16.(D)
+ 見第 15 題
+
+
+17.(A)
+ 見第 15 題
+
+
+18.(A)
+ (B)第一個酵素為 Glutamine-PRPP amidotransferase；aspartate transcarbamoylase（ATCase）是嘧啶
+ 核苷酸生合成途徑的第一個酵素
+ (C)嘌呤中鹼基上的氮可來自 Aspartate、Glycine、Glutamine
+ (D)人體中當然會進行嘌呤的從頭生合成
+
+
+
+
+19.(B)
+ 嘧啶上的 2 號碳是由 CO2 合成的 Carbamoyl Phosphate 提供
+20.(C)
+ 嘧啶核苷酸合成的最終產物 CTP 會回饋抑制（feedback inhibition）Aspartate transcarbamoylase
+ （ATCase）合成 Carbamoyl Aspartate
+
+
+
+
+21.(D)
+ Uracil、Thymidine 的分解分別會產生 β-Alanine、β-Aminoisobutyrate 開環後的中間產物，β-
+ Alanine、β-Aminoisobutyrate 再脫胺分別產生 Acetyl-CoA、Succinyl-CoA
+
+
+
+
+22.(D)
+ 見第 21 題
+

@@ -1,0 +1,287 @@
+23. 在體內 ribonucleotide reductase 可以催化下列何種反應？（106-醫）
+ ①UDP→dUDP ②GMP→dGMP ③ATP→dATP ④TDP→dTDP
+ (A)僅①④
+ (B)僅①
+ (C)僅④
+ (D)①②③④
+
+
+24. 下列何者可以抑制 ribonucleotide reductase 的活性？
+ (A) dATP
+ (B) ATP
+ (C) dCTP
+ (D) GTP
+25. 下列何者為體內 ribonucleotide reductase 的受質（substrate）？（103-1 牙）
+ (A) TDP
+ (B) ATP
+ (C) UDP
+ (D) GMP
+
+
+26. 關於 fluorouracil（5–FU）的敘述，下列何者正確？
+ (A)是嘌呤（purine）類似物
+ (B)對細胞週期 G2 期有專一性
+ (C)可以抑制細胞的有絲分裂
+ (D)須經代謝成 5–FdUMP 才可產生活性
+
+
+27. 治療癌症之藥物胺甲喋呤（methotrexate）可以抑制下列那個酵素？
+ (A)胸苷酸合成酶（thymidylate synthase）
+ (B)麩胺醯胺酶（glutaminase）
+ (C)麩胺酸脫氫酶（glutamate dehydrogenase）
+ (D)二氫葉酸還原酶（dihydrofolate reductase）
+
+
+28. 下列何者是 5-fluorouracil 的抗癌作用機轉？
+ (A)與 DNA 結合而抑制 DNA 複製的功能
+ (B)抑制 dihydrofolic acid 還原酵素
+ (C)其代謝物抑制 thymidylate synthase 而毒殺細胞
+ (D)選擇性的抑制 DNA polymerase
+
+
+29. 癌症細胞常有過度分裂繁殖之現象。治療癌症之藥物也常針對此特性。下列何種藥物可以抑制
+  thymidylate synthase？
+ (A) methotrexate
+ (B) 5-FU(5-fluorouracil)
+ (C) cyclophosphamide
+ (D) vinca alkaloids(vincristine)
+
+
+30. 下列何種輔酶能協助單碳基團（one-carbon groups）轉移，如果缺乏時會影響 DNA 的合成？
+ (A) coenzyme A
+ (B) lipoate
+ (C) tetrahydrofolate
+ (D) pyridoxal phosphate
+
+
+
+31. 癌症細胞常有過度分裂繁殖之現象。治療癌症之藥物也常針對此特性。下列何種藥物可以抑制二
+  氫葉酸還原酶（dihydrofolate reductase）？
+ (A) Methotrexate
+ (B) 5-FU(5-fluorouracil)
+ (C) Cyclophosphamide
+ (D) cisplatin
+
+
+32. Methotrexate 可以當作化療之生化機轉為何？
+ (A)作為 pyridoxal phosphate 的相似物，抑制酵素活性
+ (B)抑制 dihydrofolate reductase
+ (C)競爭性抑制 EPSP synthase
+ (D)直接抑制糖解作用（glycolysis）
+
+
+33. 抗癌藥 5-Fluorouracil 可減少細胞中之 dTMP 的供應，因而抑制 DNA 合成，其作用機轉是因為 此
+  藥物之衍生物可直接抑制下列何種酵素之活性？
+ (A) Dihydrofolate reductase
+ (B) Ribonucleotide reductase
+ (C) Thymidine kinase
+ (D) Thymidylate synthase
+
+
+34. 下列何種酵素對於 dTMP 之生合成很重要？
+ (A)二氫尿嘧啶脫氫酶（dihydrouracil dehydrogenase）
+ (B)二氫葉酸還原酶（dihydrofolate reductase）
+ (C)黃嘌呤氧化酶（xanthine oxidase）
+ (D) 5'-核苷酸酶（5'-nucleotidase）
+35. 在癌症基因療法試驗使用之酵素與前驅藥物（prodrug）配對中，下列何者正確？
+  (A) cytosine deaminase－Ara-C
+  (B) deoxycytidine kinase－5-fluorocytidine
+  (C) HSV thymidine kinase－ganciclovir
+  (D) VSV thymidine kinase－acyclovir
+
+
+36. 最早被核准用於治療愛滋病人的藥物 AZT（Zidovudine）為一核苷酸類似物（nucleoside analog）。
+   其抑制愛滋病毒的機轉為何？
+  (A)抑制愛滋病毒的去氧核糖核酸聚合酶（DNA polymerase）
+  (B)抑制愛滋病毒的反轉錄酶（reverse transcriptase）
+  (C)抑制愛滋病毒的 gag 蛋白
+  (D)抑制愛滋病毒的 TAT 轉錄因子
+37. 許 多 藥 物 的 合 成 乃 是 結 合 分 子 生 物 學 與 合 成 化 學 而 得 ， 抗 愛 滋 病 的 藥 物 3’-Azido-2’ ， 3’-
+   dideoxythymidine（AZT）即為其中一項，下列關於 AZT 的敘述，何者錯誤？
+  (A) AZT 由易被 HIV 病毒感染的 T 淋巴球所吸收而轉變為三磷酸根 AZT（AZT triphosphate）
+  (B) HIV 病毒的反轉錄酶對於 AZT triphosphate 有極高的親和力
+  (C) HIV 病毒的 DNA 進行複製時若 3’端加入 AZT triphosphate 則會終止複製反應
+  (D)人類 T 淋巴球的 DNA 複製酶對 AZT triphosphate 有高親和力，所以會帶來許多副作用
+
+
+38. 愛滋病毒（HIV）屬反轉錄病毒（retrovirus），其反轉錄酶（reverse transcriptase）的活性，不包 括
+   下列何種反應？
+  (A) RNA-dependent DNA synthesis
+  (B) DNA-dependent DNA synthesis
+  (C) DNA-dependent RNA synthesis
+  (D) RNA degradation
+
+
+39. AZT(3'-azido-2'，3'-dideoxythymidine)臨床上被用為治療感染 HIV-1 病毒之病患。主要作用為下列
+   何者？
+  (A)反轉錄酶（reverse transcriptase）的不可逆抑制劑
+  (B) DNA 聚合酶甲型（DNA polymerase α）的競爭性抑制劑
+  (C)做為反轉錄酶（reverse transcriptase）催化 DNA 合成反應中的鏈終結者（chain terminator）
+  (D) RNase A 活性的抑制劑
+
+
+40. AZT(3'-azido-2'，3'-dideoxythymidine)可用以治療 human immunodeficiency virus（HIV）的感染，其
+   作用是？
+  (A)病毒蛋白質水解酶（protease）的抑制劑
+  (B) DNA polymerase 的競爭性抑制劑
+  (C)反轉錄酵素（reverse transcriptase）合成 DNA 鏈的終止者
+ (D) RNase H 的抑制劑
+
+
+41. 對於嘌呤核苷酸（purine nucleotides）分解的敘述，下列何者正確？（112-營）
+  (A)人體內嘌呤核苷酸分解過程是由核苷酸（nucleotides）降解為核苷（nucleosides），再由核苷降
+     解為鹼基，最終形成終產物
+  (B)人體內嘌呤核苷酸分解過程包括還原作用（reduction）與轉胺作用（transamination）
+  (C)人體內具有酵素可將嘌呤環狀結構打開而形成中間產物尿囊素（allantoin）
+  (D)人體內分解嘌呤之最終產物為尿素（urea）
+
+
+42. 關於嘌呤（purine）與嘧啶（pyrimidine）的敘述，下列何者錯誤？（111-營）
+  (A)嘌呤與嘧啶結構皆含有 N（nitrogen）
+  (B)嘌呤的環狀結構較嘧啶的環狀結構小
+  (C) guanine 為一種嘌呤
+  (D) thymine 結構含有甲基（－CH3）
+
+
+43. 下列哪一種鹼基通常不會出現在 DNA？（106-醫）
+  (A) adenine
+  (B) uracil
+  (C) guanine
+  (D) thymine
+
+
+
+     1          2    3    4    5    6    7    8       9    10
+     A          B    A    C    D    A    D    C       D    A
+     11         12   13   14   15   16   17   18      19   20
+     D          C    B    C    C    D    A    A       B    C
+     21         22   23   24   25   26   27   28      29   30
+     D          D    B    A    C    D    D    C       B    C
+     31         32   33   34   35   36   37   38      39   40
+     A          B    D    B    C    B    D    C       C    C
+     41         42   43
+     A          B    B
+
+
+
+
+ 22. (D)
+  見第 21 題
+
+
+ 23. (B)
+ 核糖核酸還原酶（ribonucleotide reductase）催化 NDP 生成 dNTP（不包括 dTTP）
+24. (A)
+ ribonucleotide reductase 結合 dATP 時，會使有活性的四聚體轉為無活性的八聚體
+
+
+
+
+25. (C)
+ 見第 23 題
+
+
+26. (D)
+ (A)5-FU 是 pyrimidine（U）類似物
+ (B)(C) 5-FU 抑制 DNA 的合成，對細胞週期 S 期有專一性
+
+
+27. (D)
+ Aminopterin、Methotrexate、Trimethoprim 可抑制 Dihydrofolate Reductase，抑制細菌或癌細胞生長
+
+
+
+
+28. (A)
+ 5-FU 透過下兩個步驟抑制 Thymidylate Synthase，阻礙 DNA 合成
+ (a)與 dUMP 競爭 Thymidylate Synthase 的結合位
+ (b) 5-FdUMP 的五號碳多了一個 F，使酵素在提供完甲基準備離開時無法離開，因而阻斷
+
+
+29. (B)
+ 見第 28 題
+30. (C)
+ N⁵, N¹⁰-亞甲基四氫葉酸（N⁵, N¹⁰-methylene-THF）將 dUMP 甲基化產生 dTMP
+
+
+
+
+31. (A)
+ 見第 27 題
+
+
+32. (B)
+ 見第 27 題
+
+
+33. (D)
+ 見第 28 題
+
+
+34. (B)
+ dUMP → dTMP，由 Thymidylate synthase 和 DHF reductase 兩酵素負責，缺少 DHF reductase 會
+ 使 5,10-Methylene-THF 無法再生，抑制 dTMP 的生成
+
+
+35. (C)
+ (A) araC 是 prodrug，需要經過 deoxycytidine kinase 磷酸化後，形成 araCTP，而 araCTP 對癌細胞
+ DNA polymerase 親和力高，因此能中斷 DNA 合成，故 deoxycytidine kinase－AraC 才對
+ (B) cytosine deaminase 可將 5-fluorocytidine 轉變成 5-FU，故 cytosine deaminase－5-fluorocytidine
+ (C)(D) ganciclovir、acyclovir 也是 prodrug 需要經過 HSV 的 Thymine kinase 磷酸化後形成
+ Triphosphate，中斷 DNA 合成，故 HSV thymine kinase－ganciclovir 或 acyclovir
+ 36. (B)
+  藥物作用原理分類：
+      原理                                       藥物                              作用標靶
+                             抗 HIV 藥物（缺乏 3’-OH）     ：AZT(Zidovudine)、
+                                                                             病毒反轉錄酶
+                             ddC、ddI、3TC、d4T
+dNTP 類似物抑制 DNA 延長            抗 HSV （ 皰 疹 病 毒 ） 藥 物 ： Acyclovir 、
+                                                                           病毒 DNA 聚合酶
+                             Ganciclovir、araA(Vidarabine)
+                             抗癌藥物：araC(Cytarabine)                       癌細胞 DNA 聚合酶
+抑制 thymidylate synthase      dUMP 類似物：5-FU、5-FdUrd
+                                                                          thymidylate synthase
+   抑制 dTTP 合成                葉酸輔酶類似物：Alimta、Tomudex、Thymitaq
+      嘌呤類似物                                                                 Phospho-ribosyl
+                             Formycin B、6-Mercaptopurine、6-Thioguanine
+ 抑制 Salvage pathway                                                         transferase(PRT)
+抑制 dihydrofolate reductase   Methotrexate、Aminopterin、Trimethoprim       dihydrofolate reductase
+  AZT 針對 HIV 的反轉錄酶，不是人類的 DNA polymerase
+
+
+ 37. (D)
+  見第 36 題
+
+
+ 38. (C)
+  反轉錄酶需要以下三個酵素：
+  (1) RNA-dependent DNA Polymerase：以 RNA 為模板合成 DNA，形成 RNA-DNA Hybrid
+  (2) RNase H（Helicase）：解開 RNA-DNA Hybrid，並水解 RNA（需耗 ATP），剩下單股 DNA
+  (3) DNA-dependent DNA Polymerase：以 DNA 為模板合成 DNA
+ 39. (C)
+  AZT 會在 DNA 鏈末端核苷酸三號碳上的 OH 鍵結變成 N=N=N，讓 DNA 在複製時，5’端的磷
+  酸根無法接上 3’端，使 DNA 合成中斷
+
+
+
+
+ 40. (C)
+  見第 39 題
+41. (A)
+ (B)嘌呤分解主要是氧化作用，不涉及轉胺作用
+ (C)人類缺乏尿囊素（allantoin）生成酵素，故尿酸為嘌呤代謝的最終產物
+ (D)最終產物為尿酸（uric acid）
+
+
+
+
+42. (B)
+ 見下方圖
+
+
+
+
+43. (B)
+ 組成 DNA 的含氮鹼基：A、T、C、G
+ 組成 RNA 的含氮鹼基：A、U、C、G
+

@@ -339,13 +339,18 @@ a.pill:hover { text-decoration: none; border-color: var(--rule-strong); }
 .syllabus { border-top: 1px solid var(--ink); }
 .part-title { display: flex; align-items: baseline; gap: 14px; padding: 26px 0 10px; border-bottom: 1px solid var(--rule); }
 .part-title .display { font-size: 1.7rem; }
-.part-title .mono { color: var(--ink-3); font-size: .75rem; }
+.part-title .mono { color: var(--ink-3); font-size: .75rem; flex: none; width: 8ch; } /* PART I～PART III 等寬，標題才會對齊 */
+.part-title.done { margin-top: 28px; }
+.part-title.done .display { color: var(--ink-3); }
+.part-title .pill { margin-left: auto; align-self: center; }
 .syl-head, .syl-row { display: grid; grid-template-columns: 64px minmax(0, 1fr) minmax(120px, 190px) 132px 28px; gap: 18px; align-items: center; }
 .syl-head { font-family: var(--f-mono); font-size: .68rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); padding: 12px 0; border-bottom: 1px solid var(--rule); }
 .syl-row { padding: 18px 0; border-bottom: 1px solid var(--rule); color: var(--ink); position: relative; transition: background .15s; }
 .syl-row::before { content: ""; position: absolute; inset: 0 calc(-1 * min(var(--gutter), 20px)); border-radius: 12px; background: var(--card); opacity: 0; transition: opacity .15s; z-index: -1; }
 .syl-row:hover { text-decoration: none; }
 .syl-row:hover::before { opacity: 1; }
+.syl-row.done { opacity: .62; }
+.syl-row.done:hover { opacity: 1; }
 .syl-row .idx { font-family: var(--f-serif); font-size: 2.1rem; line-height: 1; color: var(--ink-3); font-style: italic; }
 .syl-row:hover .idx { color: var(--violet); }
 .syl-row .t { font-weight: 620; font-size: 1.04rem; line-height: 1.4; }

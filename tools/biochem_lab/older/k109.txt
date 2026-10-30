@@ -1,0 +1,361 @@
+                                                 1091 生化實驗考古
+
+ 組員：林庭妤                                               組長：王劭夫                                      學藝：張𣁎崴
+
+#組長注：非本學期實驗課內容將以深灰色呈現題目，但無法保證不會考…
+1. Teacher wants to evalute how much volume this is in a 1000μl Micropipette?
+                                                     0
+                                                        6
+                                                        3
+
+
+  (A) 6.3 μl                        (B) 63 μl               (C) 630 μl                    (D) 6300 μl
+
+
+2. Gel filtration is also called:
+  (A) Affinity chromatography
+  (B) Size exclusion chromatography
+  (C) Hydrophobic interaction chromatography
+  (D) Ion chromatography
+
+
+3. The figure below is the data after Johnny conducted the gel filtration experiment. If he wants to collect the
+  largest molecular weight compound, which of the following time point is the best? (X-Time, Y-
+  Absorbance)
+
+
+
+
+  (A) 7 min                         (B) 15 min              (C) 30 min                    (D) 3 min
+
+
+4. Which of the following statements about gel filtration is needed to be considered first?
+   (A) optimal MW separation range                           (C) pH
+   (B) bead size                                             (D) % Of Sepharose
+                   agar                         2B                 4B                      6B
+              optimal MW                  70-40000kD          70-20000kD               10-4000kD
+            separation range
+                bead size                   60-200               45-165                  45-165
+                    pH                          4-9               4-9                      4-9
+            % Of Sepharose                       2                  4                         6
+ 5. The following is a reactant in juice. What experiment would you design to measure the amount of
+   reactants in the juice?
+
+
+
+
+   (A) 2B                                  (B) 4B                                   (C) 6B
+
+
+ 6. Which of the following is the protein used in gel filtration have the wavelength in 450nm in our
+   experiment in this semester?
+   (A) Trypsin                  (B) Tryptophan                  (C) Methyl orange            (D) BSA
+
+
+ 7. Which of the following is the resin used in gel filtration in our experiment this semester?
+    (A) Sephadex G50            (B) Sepharose G50               (C) Sephacryl G50          (D) Acrylamide G50
+
+ 8. 下列何者不會影響蛋白質分子量測定實驗？
+    (A) Bed height (B) 填充物品質                                    (C) 流速                       (D) 蛋白質來源
+
+
+ 9. OD450nm
+    (A) Bradford                           (B) BSA                                  (C) methyl orange
+
+
+10. In the following protein assay, which is non-destructive?
+   (A) UV Spectroscopy          (B) BCA assay                   (C) Biuret Reaction          (D) Lowry assay
+
+
+11. Continued. Which of the following absorbance wavelength is commonly used in measurement of protein
+    concentration?
+    (A) 320 nm                  (B) 260 nm               (C) 280 nm                (D) 230 nm
+
+
+12. Which of the following ion plays an important part in protein quantification assay?
+    (A) Mg2＋                    (B) Cu2＋                     (C) Na＋                    (D) Ca2＋
+
+
+13. In Biuret method, which of the following bond is important for binding the ion to form a blue complex?
+   (A) Hydrophobic bond                                         (C) Covalent bond
+   (B) Disulide bond                                            (D) Peptide bond
+
+
+14. Which of the following technique is not used to determine protein concentration?
+    (A) Real-Time PCR                    (B) Gel filtration                    (C) Mass Spectrometry
+    (D) High performance liquid chromatography
+
+15. 我們的實驗利用 Fenton reaction 將亞鐵離子還原成鐵離子並產生什麼?
+   (A) O2                       (B) H2O2                        (C) OH                       (D) O3 自由基
+16. TBA test 是測定脂質過氧化所產生的？
+   (A) bis-allylic hydrogen                                (C) cyclic peroxide
+   (B) Hydroperoxide                                       (D) MDA 含量
+
+
+17. 下列何者非抗氧化酶
+   (A) Superoxide dismutase                                (C) Catalase
+   (B) Lipase                                              (D) Glutathione peroxidase
+
+18. 脂質過氧化 TBA test 測定中，反應在酸性溶液中進行才會形成粉紅色複合物。我們實驗所使用的
+    緩衝液為：
+   (A) Acetate buffer pH 5.0                               (C) Phosphate buffer pH 5.0
+   (B) Acetate buffer pH 6.0                               (D) Phosphate buffer pH 6.0
+
+19. 動脈粥狀硬化（atherosclerosis）過程中，下列何者細胞轉變形成的順序是正確的？
+   (A) monocytes-foam cell-macrophages                     (C) foam cell-monocytes-macrophages
+   (B) macrophages-foam cell-monocytes                     (D) 以上皆非
+
+
+20. 脂質過氧化 TBA test 所產生的粉紅色產物，可以波長量之？
+   (A) 280 nm                  (B) 535 nm                  (C) 684 nm                   (D) 766 nm
+
+21. TBA test 中 sarkosyl 溶液作為？
+    (A) 抗氧化劑               (B) 螯合劑                         (C) 催化劑                      (D) 界面活性劑
+
+
+22. 脂質過氧化 TBA test 的粉紅色產物是由
+    (A) 一個 MDA 與一個 TBA                                     (C) 兩個 MDA 與一個 TBA
+    (B) 一個 MDA 與兩個 TBA                                     (D) 兩個 MDA 與兩個 TBA 合成的
+
+
+23. Which of the following is sodium dodecyl sulfate (SDS) used for?
+    (A) ive protein negative charge                        (C) Renature protein
+    (B) give protein positive charge
+
+
+24. Which of the following is not necessary for synthesis of polyacrylamide?
+   (A) Methylenebisacrylamide
+   (B) Acrylamide
+   (C) beta-mercaptoethanol
+   (D) ammonium persulfate
+
+25. Which of the following structures is acrylamide?（參右圖）
+    (A) 左上
+    (B) 右上
+    (C) 左下
+    (D) 右下
+26. Which section has the lowest pH?
+    (A) Well                              (B) stacking gel                   (C) running gel
+
+
+27. How do you calculate Rf value of B?
+
+
+
+
+   (A) A
+   (B) B
+   (C) B/C
+   (D) A/C
+
+   手寫題組
+ 1.The agarose gel electrophoresis result of plasmid pTMU as figure, please answer the following questions?
+   Lane 1. Uncut plasmid DNA
+   Lane 2. Uncut plasmid DNA (DNA smear)
+   Lane 3. The plasmid DNA digested by BamHI
+   Lane 4. Double digestion of plasmid DNA with BamHI＋XhoI
+   Lane 5. Digestion of the plasmid DNA with EcoRI
+
+
+
+
+      I.In this experiment, the DNA molecule is a linear form or circular form DNA?
+     II.Please explain why Lane 3（兩種 enzyme co-digest 後, 出現三條 bands）is like this?
+    III.What is the smallest molecules in lane 2?
+    IV.為何 Lane 3 會出現 DNA smear?
+
+
+ 2.膠體電泳實驗中，回答下列問題：
+      I.這次 DNA 電泳所用的 buffer 是？（2 分）
+     II.這次 DNA 電泳所用的 DNA 染劑是？（2 分）
+    III.DNA Loading dye 的功能（4 分）
+3.Please use the following restriction enzyme reaction results answer the question and drawing the DNA
+  restriction physical map（考古裡面的題目）：
+     I.the DNA molecule is a linear or circular form of DNA
+    II.please draw the DNA restriction physical map
+
+
+
+
+      1            2            3             4            5           6              7            8
+                             EcoRI＋                                 BamHI＋                      EcoRI＋
+   Marker        EcoRI                      XhoI        BamHI                      HindIII
+                               XhoI                                  HindIII                    BamHI
+      9            10          11            12           13            14           15            16
+                             EcoRI＋
+  EcoRI＋       BamHI＋                                  BamHI＋        EcoRI＋       HindIII＋      XhoI＋
+                             XhoI＋          SalI
+   HindIII       XhoI                                     SalI         SalI          SalI         SalI
+                              BamHI
+簡答
+
+
+     1      2     3      4      5      6      7       8      9      10
+     C      B     A      A      C      X      X      D       C      A
+     11     12   13      14     15     16     17     18     19      20
+     C      B     D      A      C      D      B      A       D      B
+     21     22   23      24     25     26     27
+     D      B     A      C      A      B      D
+
+
+1. (C)
+  1000μl Micropipette 最大值是 1000μl，因此上面顯示的一定小於 1000μl，由上至下閱讀便是 630 μl
+
+
+2. (B)
+  凝膠過濾法（gel filtration）也稱為排阻層析（exclusion chromatography）、凝膠層析（gel
+  chromatography）或分子篩層析（molecular sieve chromatography）
+  網路補充：
+  凝膠過濾又稱為分子篩，是用一根柱子裡面有填料，填料是一些粒子，粒子裡面有很多的孔，分
+  子比較小的能進入到粒子的孔裡面，分子比較大的就會在粒子旁邊流下來。所以用一些蛋白或者
+  是多糖過分子篩，分子大的會先流下來，分子小的後流下來。
+  凝膠電泳是運用電泳儀，讓蛋白質或者是核酸在凝膠中移動，移動的速率和分子的大小成反比，
+  分子大的跑得慢，分子小的跑得快。
+
+
+3. (A)
+  參考上題，最大的分子要最快出來
+
+
+4. (A)
+  Optimal MW separation range 指的是這次能分離的分子量範圍，所以應該優先考慮
+
+
+5. (C)
+  2B、4B、6B 指的是含膠百分比，越大孔徑越小，分離效果好
+
+
+6. 7.我們沒做
+
+
+8. (D)
+   (A) Bed height 越長，分辨率越高，但不能太長會造成流速過慢等問題
+   (B) 填充物品質：凝膠柱填裝情況將直接影響分離效果。填裝後用肉眼觀察應均勻、無紋路氣泡
+ (C) 流速：洗脫速度也會影響凝膠過濾的分離效果，一般洗脫速度要恆定而且合適。保持洗脫速度
+      恆定通常有兩種方法，一種是使用恆流泵，另一種是恆壓重力洗脫
+ 9. (C)
+    (A) Bradford 是 595 nm
+   (B) BSA 是牛血清白蛋白
+   (C) methyl orange：甲基橙，OD 450nm 可以觀察黃色多寡，應該是這個
+   (D) Coomassie Blue 是 595nm
+
+
+10. (A)
+   UV 蛋白質定量不需要加入額外試劑，也不會造成蛋白質變性。其他的方法都是透過化學反應改變
+   蛋白質觀察變化。
+
+
+11. (C)
+   如果是 UV 法測蛋白質，一般使用 280 nm，另外這是小整理
+                       方法                        波長                       靈敏度
+             Bradford 法                         595 nm                     1-15 ug
+             Lowry 法                            750 nm                     1-20 ug
+             BCA 法                              562 nm                    1-120 ug
+             Lowry 法                            660 nm                     2-30 ug
+             Lowry 法                            500 nm                   25-100 ug
+             UV 吸光法                           235/280 nm                 25-700 ug
+             UV 吸光法                             280 nm                    0.1-3 mg
+             UV 吸光法                           260/280 nm                  0.1-3 mg
+            Biuret 法                            546 nm                    1-10 mg
+
+   參考資料：https://sites.google.com/site/fanyuanbiotech/dan-bai-zhi-ding-liang-fang-fa
+
+
+12. (B)
+   無論是 BCA assay、Biuret Reaction 還是 Lowry assay 都跟銅的氧化還原有關
+
+
+13. (D)
+   Biuret method 就是利用肽鍵上的 N 結合銅離子形成配位共價鍵的特性來反應，因此 Biuret 比較不
+   會受到蛋白質結構影響
+
+
+14. (A)
+   Real-Time PCR 是 PCR，所以是在看 DNA
+
+
+15. (C)
+   答案應該是指「HO•」，反應式如下：
+   Fe2+ + H2O2→Fe3+ + HO• + OH−
+   Fe3+ + H2O2→Fe2+ + HOO• + H+
+   H2O2→HO•+ HOO•+ H2O
+16. (D)
+   (A) pre-Fenton reaction：
+           形成氫氧自由基：Fe2+＋H2O2 → Fe3+＋OH－＋OH•
+           OH•＋不飽和脂肪酸 → MDA
+   (B) TBA test（酸性條件）：TBA＋MDA → TBA-MDA complex（粉紅色產物）
+   根據以上內容，TBA test 是在酸性條件下反應。
+
+
+17. (B)
+   抗氧化酶是透過去除過氧化物質以達到抗氧化效果，使其他組織或細胞等免於氧化攻擊。
+   (A) (C)(D)都和去除氧化物有關，其中(C)catalase 在金黃色葡萄球菌中有出現
+   (D) glutathione peroxidase 則是和 PPP、NADPH 等相關。
+
+
+
+
+18. (A)
+   在 TBA test 中我們使用的緩衝液是 acetate buffer（pH=5.0），反應在酸性環境下容易進行。
+
+
+19. (D)
+   正確的順序應該是 monocyte-macrophage-foam cell。由單核球變成的巨噬細胞因為吞噬了血液中過
+   多的膽固醇變成泡沫細胞，堆積在血管壁上，造成粥狀動脈硬化。詳見生化其中範圍第 19 章。
+
+
+20. (B)
+   根據老師上課的講義，TBA test 中用來定量的波段是 532nm，但是我們實際上實驗是用 550nm，
+   (B)535nm 是最接近的選項。
+
+
+21. (D)
+   Sarkosyl 在 TBA test 中作為界面活性劑，使 TBA（疏水性）和 MDA（親水性）可以同相反應。
+
+
+22. (B)
+   TBA test：2TBA + MDA → TBA-MDA complex（粉紅色產物）
+23. (A)
+      蛋白質溶液與 SDS（十二烷基硫酸鈉）混合，SDS 為界面活性劑會破壞蛋白質的二級結構使其變
+      性，並包覆變性蛋白質，在分子表面均勻佈上一層負電荷
+
+
+24. (C)
+    (A) bis 是連接分子，可以和 acrylamide 構成網狀結構
+    (B) 你覺得 polyacrylamide 裡面沒有 acrylamide 嗎？
+    (C) beta-mercaptoethanol：解開雙硫鍵，是處理 sample 時加入 sample buffer 的
+      (D) ammonium persulfate：提供自由基來合成 polyacrylamide
+      可以參考 25 題目的圖片
+
+
+25. (A)
+      (A) Acrylamide
+      (B) N,N’-Methylene-Bisacrylamide (bis)
+      (C) (D)是不同顏色的包在一起（黑白印刷可能看不太出來就是）
+
+
+26. (B)
+      (A) Well 的 pH8.3
+      (B) stacking gel 的 pH6.8，在其中 Glycine 會變成電中性，停滯，形成 Ion empty layer
+      (C) running gel 的 pH8.8
+
+
+27. (D)
+      跑的距離除以展開液的距離
+
+
+ 手寫題：
+ 1. 本題敘述和答案無法對上，可以參考生化實詳解問答題第三題
+
+
+ 2. 如下：
+       I. 本課程使用的是 TAE buffer
+       II. DNA 染劑是 Gel Green
+      III. DNA 染劑將 DNA 染色。
+          比較樣品染劑：因樣品是透明的，所以染色才能與 buffer 區分
+
+
+ 3.
+       I. Circular
+       II. 參右圖
+

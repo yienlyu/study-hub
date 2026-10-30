@@ -1,0 +1,147 @@
+{
+  "id": "biochem-lab",
+  "title": "生化實驗",
+  "short": "生化實驗",
+  "term": "115-1 期末考",
+  "examDate": "2026-12-17",
+  "description": "醫學系 B 組生物化學實驗：Pipetman 與蛋白質定量、質體 DNA 萃取與洋菜膠電泳、限制酶反應、膠體過濾、SDS-PAGE。實驗不考期中，期末考 12/17（四）16:10–17:20。整合 2026 上課講義、113／114 共筆與 108–114 實驗考古。",
+  "color": "#2f7d6b",
+  "icon": "🧬",
+  "questionFiles": [
+    "data/questions-kaogu.json",
+    "data/questions-new.json"
+  ],
+  "sources": [
+    {
+      "key": "k114",
+      "label": "114 實驗考古",
+      "kind": "exam",
+      "pill": "violet"
+    },
+    {
+      "key": "k109",
+      "label": "109 實驗考古",
+      "kind": "exam",
+      "pill": "line"
+    },
+    {
+      "key": "new",
+      "label": "模擬新題",
+      "kind": "new",
+      "pill": "good"
+    }
+  ],
+  "groups": [
+    {
+      "title": "Pipetman 與蛋白質定量（陳顧中）W2",
+      "chapters": ["protein-assay"]
+    },
+    {
+      "title": "質體 DNA 與限制酶（周志銘）W4–W6",
+      "chapters": ["plasmid", "restriction"]
+    },
+    {
+      "title": "膠體過濾（陳顧中）W10",
+      "chapters": ["gel-filtration"]
+    },
+    {
+      "title": "SDS-PAGE（鄭嘉雄）W12–W14",
+      "chapters": ["sds-page"]
+    }
+  ],
+  "mock": [
+    {
+      "id": "final",
+      "title": "期末模擬考",
+      "when": "12/17（四）16:10–17:20",
+      "until": "2026-12-17T17:20+08:00",
+      "minutes": 70,
+      "note": "I'm@TMU 還沒公告配分，先依授課進度表平均分給三位老師（各教兩次實驗）；題數參考 114 實驗考古。正式考試另有手寫題（畫限制酶圖譜、SDS-PAGE 實驗設計），這裡只出選擇題。",
+      "sections": [
+        {
+          "title": "陳顧中：Pipetman、蛋白質定量、膠體過濾",
+          "points": 34,
+          "n": 17,
+          "from": ["protein-assay", "gel-filtration"]
+        },
+        {
+          "title": "周志銘：質體 DNA 萃取、電泳、限制酶",
+          "points": 33,
+          "n": 16,
+          "from": ["plasmid", "restriction"]
+        },
+        {
+          "title": "鄭嘉雄：SDS-PAGE",
+          "points": 33,
+          "n": 17,
+          "from": ["sds-page"]
+        }
+      ],
+      "newRatio": 0.2
+    }
+  ],
+  "chapters": [
+    {
+      "id": "protein-assay",
+      "title": "Pipetman 操作與蛋白質定量",
+      "en": "Pipetman & Protein Quantification",
+      "teacher": "陳顧中",
+      "week": "W2（9/17）",
+      "slides": true
+    },
+    {
+      "id": "plasmid",
+      "title": "質體 DNA 萃取與洋菜膠電泳",
+      "en": "Plasmid Miniprep & Agarose Gel Electrophoresis",
+      "teacher": "周志銘",
+      "week": "W4（10/1）",
+      "slides": true
+    },
+    {
+      "id": "restriction",
+      "title": "質體 DNA 限制酶反應",
+      "en": "Restriction Enzyme Digestion",
+      "teacher": "周志銘",
+      "week": "W6（10/15）",
+      "slides": true
+    },
+    {
+      "id": "gel-filtration",
+      "title": "膠體過濾",
+      "en": "Gel Filtration",
+      "teacher": "陳顧中",
+      "week": "W10（11/12）",
+      "slides": false
+    },
+    {
+      "id": "sds-page",
+      "title": "SDS-PAGE 鑄膠、電泳與染色",
+      "en": "SDS-PAGE",
+      "teacher": "鄭嘉雄",
+      "week": "W12、W14（11/26、12/10）",
+      "slides": false
+    }
+  ],
+  "insights": [
+    [
+      "實驗不考期中，期末考 12/17（四）16:10–17:20。",
+      "依 I'm@TMU 授課進度表：W2 蛋白質定量（陳顧中）、W4 質體 DNA 萃取／電泳、W6 限制酶切割（周志銘）、W8 期中考週（實驗不考）、W10 Gel filtration（陳顧中）、W12 SDS-PAGE 鑄膠、W14 SDS-PAGE 電泳及染色（鄭嘉雄）、W16 實驗期末考、W18 生化影片教學（遠距）。總成績：報告 30%、期末考 50%、平時 20%。"
+    ],
+    [
+      "114 實驗考古：SDS-PAGE 最多（43 題），其次蛋白質定量（31 題）。",
+      "114 考古三份：陳顧中（Pipetman、gel filtration、蛋白質定量，31 單選＋1 手寫）、周志銘（質體萃取、電泳、限制酶，15 單選＋7 手寫）、鄭嘉雄（SDS-PAGE，42 單選＋1 配合）。108、109、110 考古大多已收進 114 版，去重後只多 3 題；舊題中脂質過氧化（TBA test，鄭可大）、P53、家族性高膽固醇血症不是今年實驗內容，沒有收錄。"
+    ],
+    [
+      "周志銘老師的手寫題：畫限制酶圖譜。",
+      "114 考了三題圖譜（線狀 15.6 kb pTest、兩張多酵素雙切膠圖），一定要先判斷線狀或環狀（環狀 n 個切位 n 段、線狀 n+1 段），並在左上角寫 DNA 全長。原題圖請看 slides/biochemistry/共筆考古/百十三資料/生化(二)/考古/終審版/實驗/1141生化實考古 周志銘老師.pdf。"
+    ],
+    [
+      "考「本學期」用的試劑。",
+      "TAE buffer、Gel Green（藍光 LED 燈箱，不是 UV）、agarose、水平式電泳槽、Sephadex G-50、methyl orange（OD 450）＋ BSA（Bradford）。考古常把題目改成「本學期」，選項放其他常見試劑當陷阱。"
+    ],
+    [
+      "鄭嘉雄老師同一概念會換句話重考。",
+      "APS 的作用、β-ME 打斷雙硫鍵、上膠 pH 6.8／下膠 pH 8.8、染色前洗掉 SDS 都出現兩三次。配合題（25 分）要用八種材料設計 SDS-PAGE 實驗分辨蛋白 A、B，並畫出 marker、A、B 三道的結果。"
+    ]
+  ]
+}

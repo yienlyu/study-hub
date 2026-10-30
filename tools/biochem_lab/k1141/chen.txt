@@ -1,0 +1,400 @@
+                  Pipetman 操作、Gel Filtration、Protein assay-Standard curve
+
+ 組長：楊傑愉                      學藝：陳政聖                授課老師：陳顧中                    114.Sep.18 & Oct.4 & Dec.11
+
+
+一、單選題
+1. Johnny conducts the biochemistry experiments with a P-100 micropipette. As figure showed, what is the
+  buffer quantity that Johnny wants to get?
+  (A) 0.63 µl
+  (B) 6.3 µl
+  (C) 63 µl
+  (D) 630 µl
+
+
+2. Gel filtration is also called:
+  (A) Affinity chromatography
+  (B) Size exclusion chromatography
+  (C) Hydrophobic interaction chromatography
+  (D) Ion exchange chromatography
+
+
+3. The below figure is the data after Johnny conducted the gel filtration experiment. If he wants to collect the
+  smallest molecular weight compound, which of the following time point is the best?
+  (A) 7min
+  (B) 15min
+  (C) 30min
+  (D) 3min
+
+
+
+
+4. Which of the following statements about gel filtration is needed to be considered first?
+  (A) optimal MW separation range
+  (B) bead size
+  (C) pH
+  (D) % Of Sepharose
+ 5. The following is a reactant in juice. What experiment would you design to measure the amount of
+   reactants in the juice?
+   (A) 2B
+   (B) 4B
+   (C) 6B
+
+
+ 6. Which of the following is the protein used in gel filtration have the wavelength in 450nm in our
+   experiment in this semester?
+   (A) Trypsin
+   (B) Tryptophan
+   (C) Methyl orange
+   (D) BSA
+
+
+ 7. Which of the following is the resin used in gel filtration in our experiment this semester?
+   (A) Sephadex G50
+   (B) Sepharose G50
+   (C) Sephacryl G50
+   (D) Acrylamide G50
+
+
+ 8. In gel filtration, OD 450nm =
+   (A) Bradford
+   (B) BSA
+   (C) methyl orange
+
+
+ 9. Which of the following statement is “NOT” the reason to choose a suitable protein quantification assay?
+   (A) Protein sizes
+   (B) Protein concentration
+   (C) Presence of interfering chemicals
+   (D) Specificity of the assay
+
+
+10. In the following protein quantification assay, whose principle is different from others?
+   (A) Biuret reaction
+   (B) Lowry assay
+   (C) BCA assay
+   (D) UV spectroscopy
+11. Which of the following amino acid could be used to measure protein concentration because it has 260 nm
+   wavelength?
+   (A) Histidine
+   (B) Tyrosine
+   (C) Tryptophan
+   (D) Phenylalanine
+
+
+12. Phosphomolybdic acid could be found in which of the following protein quantification assay?
+   (A) Biuret reaction
+   (B) Lowry assay
+   (C) BCA assay
+   (D) Bradford assay
+
+
+13. Continued. Folin reagent is used in which of the following protein quantification assay?
+   (A) Lowry assay
+   (B) Biuret Reaction
+   (C) Bradford Assay
+   (D) BCA assay
+
+
+14. Which of the following ion plays an important role in protein quantification assay?
+   (A) Ca2+
+   (B) Cu2+
+   (C) Mg2+
+   (D) Na+
+
+
+15. In protein quantification assay, we used the known concentration BSA dose as X-axis, and the absorbance
+   value as Y-axis. Then the standard curve formula we got was Y = 0.25X + 0.1. If the absorbance value of
+   unknown protein is 0.6, the concentration of unknown protein could be?
+   (A) 1 µg/µl
+   (B) 0.1875 µg/µl
+   (C) 0.2 µg/µl
+   (D) 2 µg/µl
+16. Continued. Which of the following option is the best R2 value in this standard curve?
+   (A) 0.01
+   (B) 0.5
+   (C) 0.95
+   (D) 0.05
+
+
+17. In protein quantification assay, we used the known concentration BSA dose as X-axis, and the absorbance
+   value as Y-axis. Then the Standard curve formula we got was Y = 0.25 X + 0.15. If the absorbance value
+   of unknown protein is 0.65, the concentration of unknown protein could be?
+   (A) 3 µg/µl
+   (B) 31.25 µg/µl
+   (C) 0.3125 µg/µl
+   (D) 2 µg/µl
+
+
+18. Continued. Which of the following option is the best R2 value in this Standard curve?
+   (A) 0.05
+   (B) 0.1
+   (C) 0.99
+   (D) 0.95
+
+
+19. In the course of Biochemistry experiments, which of the following absorbance wavelength was used in
+   protein quantification assay?
+   (A) 450 nm
+   (B) 550 nm
+   (C) 650 nm
+   (D) 750 nm
+
+
+20. Continued. What is the machine we used to measure absorbance wavelength?
+   (A) Spectrophotometer
+   (B) Fluorescence meter
+   (C) ELISA reader
+   (D) Densitometer
+21. In the following protein quantification assay, which is non-destructive?
+   (A) UV Spectroscopy
+   (B) BCA assay
+   (C) Biuret Reaction
+   (D) Lowry assay
+
+
+22. Which of the following amino acid could not be used to measure protein concentration by UV
+   spectroscopy?
+   (A) Phenylalanine
+   (B) Threonine
+   (C) Tyrosine
+   (D) Tryptophan
+
+
+23. Continued. Which of the following absorbance wavelength is commonly used in measurement of protein
+   concentration?
+   (A) 320 nm
+   (B) 260 nm
+   (C) 280 nm
+   (D) 230 nm
+
+
+24. Which of the following statement about Bradford Assay is incorrect?
+   (A) RAPID color development
+   (B) A multiple-steps assay
+   (C) Less interference
+   (D) High sensitivity
+
+
+25. Which of the following reagent is used in Bradford Assay?
+   (A) Methylene blue
+   (B) Methyl blue
+   (C) Coomassie blue
+   (D) Bromophenol blue
+
+
+26. Which of the following amino acid is not preferred for Bradford Assay?
+   (A) Tryptophan
+   (B) Tyrosine
+   (C) Aspartate
+   (D) Lysine
+27. The color formation in which of the following assay is not related to ion?
+   (A) Bradford assay
+   (B) BCA assay
+   (C) Lowry assay
+   (D) Biuret method
+
+
+28. Which of the following technique is not used to determine protein concentration?
+   (A) High performance liquid chromatography
+   (B) Mass Spectrometry
+   (C) Gel filtration
+   (D) Real-Time PCR
+
+
+29. When we measure protein concentration by using Coomassie Brilliant Blue staining, what wavelength is
+   used to detect?
+   (A) 595 nm
+   (B) 320 nm
+   (C) 470 nm
+   (D) 270 nm
+
+
+30. 下列何者不會影響蛋白質分子量測定實驗？
+   (A) Bed height
+   (B) 填充物品質
+   (C) 流速
+   (D) 蛋白質來源
+
+
+31. 請問右圖是以下哪種化合物？
+   (A) Coomassie Brilliant Blue (CBB) G-250
+   (B) Coomassie Brilliant Blue (CBB) R-250
+
+
+
+
+ 二、手寫題
+ 1. 請寫出蛋白質定量實驗會用到的東西。
+選擇題
+     1       2        3    4      5      6    7    8    9    10
+     C       B        C    A      C      C    A    C    A    D
+     11     12       13    14     15     16   17   18   19   20
+     D       B        A    B      D      C    D    C    A    C
+     21     22       23    24     25     26   27   28   29   30
+     A       B        C    B      C      C    A    D    A    D
+     31
+     A
+
+
+1. (C)
+  P-100 最大吸取量是 100µl（如下圖），而題目中的圖代表 63µl。
+
+
+2. (B)
+  膠體過濾分層是透過顆粒大小分離不同的物質。
+
+
+3. (C)
+  最小的分子跑最慢，所以看到最晚有吸光峰值的地方就是了。
+
+
+4. (A)
+  Optimal MW separation range 指的是這次能分離的分子量範圍，所以應該優先考慮。
+
+
+5. (C)
+  2B、4B、6B 指的是含膠百分比，越大孔徑越小，分離效果好。
+
+
+6. (C)
+  詳見”gel filtration protocol”教材的第四張投影片
+
+
+7. (A)
+  詳見”gel filtration protocol”教材的第三張投影片
+
+
+8. (C)
+  (A) Bradford 是 595 nm。
+  (B) BSA 是牛血清白蛋白。
+  (C) methyl orange：甲基橙，OD 450nm 可以觀察黃色多寡。
+ 9. (A)
+   在選擇蛋白質定量分析的方法中，有以下幾點需要考慮：
+   (1) 蛋白質的量或濃度（Amount of protein available, concentration of the protein）
+   (2) 是否有干擾分子存在（Presence of interfering chemicals）
+   (3) 定量分析方法是否有專一性（Specificity of the assay）
+   (4) 操作方便和可信度（Ease and reliability）
+   以上不包含蛋白質大小。
+
+
+10. (D)
+   (A)(B)(C)都是透過化學反應分析，(D)是透過物理方法（紫外光）進行分析，如果芳香族胺基酸含
+   量低則容易失準。
+
+
+11. (D)
+   選項中最接近的是 Phe，最大吸光值在 λ＝257nm。
+
+
+12. (B)
+   以下複習各化學性蛋白質定量法的粗略內容：
+   Biuret reaction：蛋白質肽鍵的 N 原子在鹼性環境下會和 Cu2+形成紫紅色的錯合物。
+   Lowry assay：前面跟 Biuret reaction 一樣，最後加入 Folin reagent（內含 phosphomolybdic acid 和
+   phosphotungstic acid）和 Tyr、Trp 反應形成藍色產物。
+   BCA assay：前面跟 Biuret reaction 一樣，最後加入 bicinchoninic acid（BCA），催化蛋白質將 Cu2+
+   還原為 Cu+，BCA 再和 Cu+形成紫色產物。
+   Bradford assay：試劑中的 CBG 在接上蛋白質後，會從原本酸性的茶色變成中性的藍色（蛋白質提
+   供中性環境），藉此觀察樣品蛋白質含量。
+   根據題目，反應中含有 phosphomolybdic acid 就是 Lowry assay。
+
+
+13. (A)
+   續上題，Lowry assay 中的 Folin reagent 含有 phosphomolybdic acid 和 phosphotungstic acid。
+
+
+14. (B)
+   接續前面，在蛋白質定量分析中 Cu2+是相當重要的。
+
+
+15. (D)
+   根據題目給的方程式 Y＝0.25X＋0.1，代入 Y＝0.6 後可以得到 X＝2。
+16. (C)
+   標準曲線（standard curve）的 R2 值越大，呈現線型的趨勢越明顯。
+
+
+17. (D)
+   根據題目給的方程式 Y＝0.25X＋0.15，代入 Y＝0.65 後可以得到 X＝2。
+
+
+18. (C)
+   你想在實驗課得到怎樣的 R2 值就選哪個答案，必須是加最多分的那個吧。
+
+
+19. (A)
+   450nm 測 methyl orange，595nm 測 bradford＋蛋白質。選項裡沒有 595 所以選 450。
+
+
+20. (C)
+   測量吸光值是使用 ELISA reader。
+
+
+21. (A)
+   UV 蛋白質定量不需要加入額外化學試劑，也不會造成蛋白質變性。
+   其他的方法都是透過化學反應改變蛋白質觀察變化。
+
+
+22. (B)
+   UV 蛋白質定量主要是透過測定蛋白質中的芳香族胺基酸（Phe、Tyr、Trp），如果芳香族胺基酸
+   含量低的話測定的效果就會不佳。
+
+
+23. (C)
+   芳香族胺基酸在 λ＝280nm 的時候有最大吸光值，因此常用此波段來測定蛋白質含量。
+
+
+24. (B)
+   根據老師講義內容，Bradford assay 有以下特質：
+      (1) 緩衝液中的物質較不易造成干擾（less interference）
+      (2) 高敏感度（high sensitivity）
+      (3) 單步驟反應（single-step assay）
+      (4) 快速呈色（rapid color development）
+   但也有以下缺點：
+      (1) 建議用於測定芳香族或鹼性胺基酸的測定。
+      (2) 不同蛋白質做出的結果可能不同，在製作標準曲線時建議使用和待測物相近的蛋白質。
+      (3) 鹼性物質和界面活性劑容易干擾測定。
+
+
+25. (C)
+   這是 Bradford assay 使用的 CBG，有人寫 Goomassie 或者 Coomassie。以下其他染劑作為參考：
+   (A) 亞甲藍用於細胞核染色。
+   (B) 甲基藍用於植物細胞壁染色。
+   (D) Bromophenol blue 跟 DNA 電泳的 loading dye 有關。
+
+
+26. (C)
+   Bradford assay 適用於芳香族胺基酸或鹼性胺基酸。
+
+
+27. (A)
+   Bradford assay 是透過酸鹼值的變化改變顏色，其他的變色反應都跟 Cu2+有關。
+
+
+28. (D)
+   Real-time PCR 一看就是錯誤答案，跟一般 PCR 不一樣的是加入特定的螢光染劑來觀察 DNA 的產
+   量，和蛋白質沒關係。
+   (A) High performance liquid chromatography（高效液相層析）：為一種層析方法，主要特色是有加
+   壓進行分析。
+   (B) Mass Spectrometry（質譜法）：有機教過，可以用來確定樣品的質量以及其化學結構。
+   (C) Gel filtration（膠體過濾法）：透過分子篩（molecular sieve）分離不同大小的蛋白。
+
+
+29. (A)
+   題目所述的染劑就是 bradford assay 實驗所用的，使用的波段最接近的選項是 595nm。
+   以下整理各實驗使用 ELISA reader 所用的波段：
+30. (D)
+   (A) Bed height 越長，分辨率越高，但不能太長會造成流速過慢等問題。
+   (B) 填充物品質：凝膠柱填裝情況將直接影響分離效果。填裝後用肉眼觀察應均勻、無紋路氣泡。
+   (C) 流速：洗脫速度也會影響凝膠過濾的分離效果，一般洗脫速度要恆定而且合適。保持洗脫速度
+     恆定通常有兩種方法，一種是使用恆流泵，另一種是恆壓重力洗脫。
+
+
+31. (A)
+   CBB G-250 運用於蛋白質定量分析，兩者相差兩個甲基，比較如下：
+
+
+
+
+ 手寫題
+ 1. BSA、兩種未知蛋白 S1 和 S2、1x Bradford reagent、eppendorf、ELISA Reader、96 well
+

@@ -1,0 +1,546 @@
+        Chapter 24-25：Genes, Genomes, and Chromosomes & DNA Replication
+
+組長：楊傑愉                       學藝：陳政聖                     授課老師：施純明              114. Nov.27
+
+1.Which one is the same characteristic for DNA and RNA?
+  (A) α double helix
+  (B) same mechanism to avoid error during synthesis
+  (C) both contain phosphate, ribose and base
+  (D) 2’of the ribose is -OH group
+
+
+2.Which one of the following RNA sequences could form a hairpin loop?
+  (A) UUCGUAUCGUACAAACGU
+  (B) GCAUCGAUCGUCUCGAUCGUGC
+  (C) ACAGACAGACAGUCUGUCUGUC
+  (D) AAUUAACCAAGGAACCGGUUCC
+
+
+3.Which of the following does not contribute to the octameric histone core?
+  (A) H1
+  (B) H2A and H2B
+  (C) H3
+  (D) H4
+
+
+4.Which of the following is a DNA sequence?
+  (A) Operator
+  (B) Activator
+  (C) Repressor
+  (D) Transactivator
+
+
+5.Which biological process will synthesize the Okazaki fragments?
+  (A) transcription
+  (B) translation
+  (C) DNA recombination
+  (D) DNA replication
+
+6.The cancer cells can NOT aging normally may caused by?
+  (A) DNA polymerase α
+  (B) DNA polymerase δ
+  (C) DNA ligase
+  (D) Telomerase
+ 7.Which is the complementary strand of 5'-CGCGAATTCGCG-3'?
+   (A) 5'-GCGCTTAAGCGC-3'
+   (B) 5'-CGCGAATTCGCG-3'
+   (C) 5'-GCGCUUAAGCGC-3'
+   (D) 5'-CGCGAAUUCGCG-3'
+
+
+ 8.At replication forks in E coli:
+   (A) DNA helicases make endonucleolytic cuts in DNA
+   (B) DNA topoisomerases make endonucleolytic cuts in DNA
+   (C) RNA primers are removed by DNA polymerase I
+   (D) RNA primers are synthesized by RNA polymerase
+
+
+ 9.Prokaryotic DNA polymerase III:
+   (A) contains a 5’ to 3’ proofreading activity to improve the fidelity of replication
+   (B) does not require a primer molecule to initiate replication
+   (C) has a β-subunit that acts as a circular clamps to improve the processivity of DNA synthesis
+   (D) synthesizing DNA in the 3’ to 5’ direction
+   (E) synthesizes only the leading strand; DNA polymerase I synthesizes the lagging strand
+
+
+10.Which of the following is the best description for primase?
+   (A) a DNA-dependent DNA polymerase
+   (B) an RNA-dependent DNA polymerase
+   (C) a DNA-dependent RNA polymerase
+   (D) an RNA-dependent RNA polymerase
+   (E) none of the above
+
+11.Which of the following is true of Topoisomerases II?
+   I. transiently breaking one of the two DNA strands
+   II. break both DNA strands
+   III. change Lk in increments of 1
+   IV. change Lk in increments of 2
+   (A) I, III
+   (B) I, IV
+   (C) II, III
+   (D) II, IV
+12.An Okazaki fragment is a
+   (A) fragment of DNA resulting from endonuclease action
+   (B) segment of DNA that is an intermediate in the synthesis of the lagging strand
+   (C) piece of DNA that is synthesized in the 3' → 5' direction
+   (D) segment of mRNA synthesized by RNA polymerase
+
+
+13.In eukaryotic replication, which polymerase is analogous to E. coli primase?
+   (A) pol α
+   (B) pol β
+   (C) pol γ
+   (D) pol δ
+
+
+14.The 3' to 5' exonuclease activity of DNA polymerase I bestows ________ capabilities to the enzymes.
+   (A) proofreading
+   (B) improved rate
+   (C) processivity
+   (D) all of the above
+   (E) none of the above
+
+
+15.The 3' ends of chromosomes in eukaryotes are extended by an enzyme called ___________.
+   (A) polymerase
+   (B) telomerase
+   (C) helicase
+   (D) ligase
+   (E) none of the above
+
+16.Which of the following is involved in unwinding the DNA double helix?
+   (A) Acetylase
+   (B) Helicase
+   (C) Single strand binding proteins (SSB)
+   (D) Polymerases
+
+
+17.An Okazaki fragment is a
+   (A) fragment of DNA resulting from endonuclease action.
+   (B) segment of RNA that is a subunit of the 30S ribosome.
+   (C) piece of DNA that is synthesized in the 3' → 5' direction.
+   (D) segment of DNA that is an intermediate in the synthesis of the lagging strand.
+   (E) segment of mRNA synthesized by RNA polymerase.
+18.The 5' → 3' exonuclease activity of E. coli DNA polymerase I is involved in
+   (A) formation of a nick at the DNA replication origin.
+   (B) formation of Okazaki fragments.
+   (C) proofreading of the replication process.
+   (D) removal of RNA primers by nick translation.
+
+
+19.At replication forks in E. coli
+   (A) DNA helicases make endonucleolytic cuts in DNA.
+   (B) DNA topoisomerases make endonucleolytic cuts in DNA.
+   (C) RNA primers are removed by primase.
+   (D) RNA primers are synthesized by primase.
+   (E) DNA primers are degraded by exonucleases.
+
+
+20-23 為題組
+ E. coli has three DNA polymerases
+   (A) DNA polymerase I
+   (B) DNA polymerase II
+   (C) DNA polymerase III
+ Please answer the following questions :
+20.Which one with 5' → 3' exonuclease activity
+21.Which polymerase can be digested by trypsin and produce Klenow fragment?
+22.Which one is the major polymerase used for elongation at replication fork?
+23.Which one can excise the RNA primer?
+
+
+24-26 為題組
+   (A) leading strand
+   (B) lagging strand
+  During DNA replication, the characteristics of the following statements is (A)or (B) :
+24.containing Okazaki fragments.
+25.replicated in a discontinuous fashion.
+26.warped around in trombone fashion. (ie, wrapped a 360°circle)
+
+
+27.Replication of DNA in E. coli occurs in what type of fashion?
+   (A) Unidirectional
+   (B) Bidirectional
+   (C) Multidirectional
+   (D) directionality can change depending upon specific conditions in the cell
+28.Which of the following exonuclease activities is present in DNA polymerase I ?
+   (A) 3’ exonuclease that degrades double stranded DNA
+   (B) 3’ exonuclease that degrades hairpin DNA
+   (C) 5’ exonuclease that degrades single stranded DNA
+   (D) 5’ exonuclease that removes RNA from a DNA-RNA duplex
+
+
+29.In DNA synthesis, the __________ strand is synthesized in a __________ fashion.
+   (A) template ; discontinuous
+   (B) template ; continuous
+   (C) leading ; discontinuous
+   (D) lagging ; discontinuous
+
+
+30.What is an Okazaki fragment?
+   (A) a small section of DNA bound to the leading strand
+   (B) a small section of DNA bound to the lagging strand
+   (C) a small section of RNA and DNA bound to the leading strand
+   (D) a small section of RNA and DNA bound to the lagging strand
+
+
+31.Which of the following describes the correct sequence of enzyme activity upon the lagging strand?
+   (A) Primase, DNA ligase, DNA polymerase I, DNA polymerase III
+   (B) Primase, DNA polymerase I, DNA polymerase III, DNA ligase
+   (C) DNA polymerase III, primase, DNA polymerase I, DNA ligase
+   (D) Primase, DNA polymerase III, DNA polymerase I, DNA ligase
+
+32.What enzyme that is part of the primosome is responsible for unwinding of the DNA ahead of the
+   replication fork?
+   (A) Topoisomerase
+   (B) Helicase
+   (C) Primase
+   (D) Clamp loading complex
+
+
+33.In DNA replication, what is the function of prokaryotic primase?
+   (A) synthesize the RNA primer
+   (B) fill in the gap between Okazaki fragments
+   (C) act as 3’to 5’direction
+   (D) perform the proofreading
+34.Which biological process will synthesize the Okazaki fragments?
+   (A) transcription
+   (B) translation
+   (C) DNA recombination
+   (D) DNA replication
+
+
+35.Which Eukaryotic DNA polymerase is located in Mitochondria and containing to DNA repair activity?
+   (A) alpha α
+   (B) delta δ
+   (C) beta β
+   (D) gamma γ
+
+
+36.The Meselson-Stahl experiment established that:
+   (A) DNA polymerase has a crucial role in DNA synthesis.
+   (B) DNA synthesis in E. coli proceeds by a conservative mechanism.
+   (C) DNA synthesis in E. coli proceeds by a semiconservative mechanism.
+   (D) DNA synthesis requires dATP, dCTP, dGTP, and dTTP.
+   (E) newly synthesized DNA in E. coli has a different base composition than the preexisting DNA.
+
+
+37.When a DNA molecule is described as replicating bidirectionally, that means that it has two:
+   (A) chains.
+   (B) independently replicating segment.
+   (C) origins.
+   (D) replication forks.
+   (E) termination points.
+
+38.Which one of the following statements about enzymes that interact with DNA is true?
+   (A) E. coli DNA polymerase I is unusual in that it possesses only a 5' → 3' exonucleolytic activity.
+   (B) Endonucleases degrade circular but not linear DNA molecules.
+   (C) Exonucleases degrade DNA at a free end.
+   (D) Many DNA polymerases have a proofreading 5' → 3' exonuclease.
+   (E) Primases synthesize a short stretch of DNA to prime further synthesis.
+
+
+39.E. coli DNA polymerase III :
+   (A) can initiate replication without a primer.
+   (B) is efficient at nick translation.
+   (C) is the principal DNA polymerase in chromosomal DNA replication.
+   (D) represents over 90% of the DNA polymerase activity in E. coli cells.
+   (E) requires a free 5'-hydroxyl group as a primer.
+40.The proofreading function of DNA polymerase involves all of the following except :
+   (A) a 3' → 5' exonuclease.
+   (B) base pairing.
+   (C) detection of mismatched base pairs.
+   (D) phosphodiester bond hydrolysis.
+   (E) reversal of the polymerization reaction.
+
+
+41.The 5' → 3' exonuclease activity of E. coli DNA polymerase I is involved in:
+   (A) formation of a nick at the DNA replication origin.
+   (B) formation of Okazaki fragments.
+   (C) proofreading of the replication process.
+   (D) removal of RNA primers by nick translation.
+   (E) sealing of nicks by ligase action.
+
+
+42.Which of the following is not required for initiation of DNA replication in E. coli?
+   (A) DnaB (helicase)
+   (B) DnaG (primase)
+   (C) Dam methylase
+   (D) DNA ligase
+   (E) None of the above
+
+
+43.In contrast to bacteria, eukaryotic chromosomes need multiple DNA replication origins because:
+   (A) eukaryotic chromosomes cannot usually replicate bidirectionally.
+   (B) eukaryotic genomes are not usually circular, like the bacterial chromosome is.
+   (C) the processivity of the eukaryotic DNA polymerase is much less than the bacterial enzyme.
+   (D) their replication rate is much slower, and it would take too long with only a single origin per chromosome.
+   (E) they have a variety of DNA polymerases for different purposes, and need a corresponding variety of
+       replication origins.
+
+
+44.The function of the eukaryotic DNA replication factor PCNA (proliferating cell nuclear antigen) is similar
+   to that of the subunit of bacterial DNA polymerase III in that it:
+   (A) facilitates replication of telomeres.
+   (B) forms a circular sliding clamp to increase the processivity of replication
+   (C) has a 3' → 5' proofreading activity
+   (D) Increases the speed but not the processivity of the replication complex
+   (E) participates in DNA repair
+選擇題
+     1      2       3       4       5       6        7    8    9    10
+
+     C      C      A        A       D       D        B    C    C    C
+
+    11      12     13      14       15      16       17   18   19   20
+
+    D       B      A        A       B       B        D    D    D    A
+
+    21      22     23      24       25      26       27   28   29   30
+
+    A       C      A        B       B       B        B    D    D    B
+
+    31      32     33      34       35      36       37   38   39   40
+
+    D       B      A        D       D       C        D    C    C    E
+
+    41      42     43      44
+
+    D       D      D        B
+
+
+
+1.(C)
+  (A) DNA 通常是雙股螺旋；RNA 則多為單股。
+  (B) DNA 可以透過其 3’ → 5’exonuclease 的活性來進行校正；RNA 則沒什麼校正機會。
+  (C) 正確。
+  (D) DNA 的 2’碳接 H；RNA 的 2’碳接 OH。
+
+
+2. (C)
+ 在第 10～12 個“CAG”的左右可以形成互補序列，可能形成 hairpin loop。
+
+
+3.(A)
+ H1 是 linker histone，H2A、H2B、H3、H4 是 histone core。
+4.(A)
+  (A) 操縱組（Operon）為一組 DNA 序列，其中包含 promoter, operator, structural gene。
+
+  (B) (C) Activator 和 Repressor 都是調控基因轉錄的蛋白質，會結合到 Promoter 附近的
+
+  Activator (Repressor) binding site。
+  (D) Transcription activator，例如 ACT，會連接 Regulatory sequence 和 RNA polymerase，
+  彎曲 DNA 促進轉錄，因此 ACT 也稱為 Enhancer。
+
+
+5.(D)
+  Okazaki fragments 是 DNA 複製的時候在 lagging strand 上會被發現。
+
+
+6.(D)
+  端粒 (Telomeres) 為真核生物染色體末端的 DNA 重複序列。一般細胞在複製時，
+
+  會因為端粒耗損而老化。癌細胞若含端粒酶（Telomerase），則端粒不會損耗而不會老化。
+
+
+7.(B)
+ 在 DNA 中，AT、CG 互補，找出互補序列應該不難，不過不要選到(C) (D)，
+
+ 那是 RNA 的序列（U 鹼基為 RNA 特有）。
+
+
+8.(C)
+ DNA polymerase 具內切酶活性，5’ → 3’內切酶去除 primer；3’ → 5’內切酶則是校正鹼基配對。
+
+ (A) (B) helicase 和 topoisomerase 是拿來解開 DNA 螺旋的，擁有內切酶活性的是 DNA polymerase。
+
+ (D) RNA primer 是被 primase 所合成。
+
+
+9.(C)
+  (A) 5’ → 3’內切酶用來去除 primer，
+  只在 DNA polymerase I。
+  (B) 需要 RNA primer 才能進行後面的延長。
+  (C) 正確，請看 DNA polymerase Ⅲ那個環。
+  (D) DNA 合成是 5’往 3’。
+  (E) DNA polymerase III 在 leading strand 和
+
+        lagging strand 都參與合成 DNA，
+
+        DNA polymerase lagging strand 負責移除
+
+        okazaki fragment 的 RNA primer 並補上 DNA。
+10.(C)
+  Primase 是根據 DNA 序列產生 RNA primer。
+
+
+11.(D)
+                         打斷 DNA 股數                      Lk 變化
+
+    Topoisomerases I          1                          ＋1
+
+   Topoisomerases II          2                          －2
+
+
+
+12.(B)
+  Okazaki fragment 是 DNA 複製的時候在 lagging strand 上可以觀察到的片段。
+
+
+13.(A)
+                              人                         E. coli
+
+         Primase             pol α                       DnaG
+
+         DNA 修復              pol β                       Pol II
+
+   粒線體 DNA 複製                pol γ                        無
+
+    DNA polymerase           pol δ                      Pol III
+
+
+14.(A)
+  3’ → 5’內切酶為校正鹼基配對的功能。
+
+
+15.(B)
+  端粒酶（Telomerase）可以延長染色體末端，有防止細胞老化等的功能。
+
+
+16.(B)
+  Topoisomerase 和 helicase 都有參與 DNA 解旋。
+  (C) Single strand binding proteins (SSB)是 DNA 螺旋被打開之後穩定單股 DNA 使用的蛋白。
+
+
+17.(D)
+  Okazaki fragment 是 DNA 複製的時候在 lagging strand 上可以觀察到的片段。
+
+
+18.(D)
+
+  DNA polymerase 的 5’→3’內切酶活性是用來去除 primer 的。
+19.(D)
+
+   RNA primer 是被 primase 所合成並接在 lagging strand 上面。
+   (A)(B) helicase 和 topoisomerase 是拿來解開 DNA 螺旋的，擁有內切酶活性的是 DNA
+   polymerase。
+
+
+20.(A)
+  5’ → 3’ 內切酶用來去除 primer，而 DNA polymerase I 有這個活性。
+
+
+21.(A)
+  Klenow fragment 是 DNA polymerase I 被 trypsin 切過變成的 DNA polymerase III，
+  尚有另一段 5’- exonuclease。
+
+
+22.(C)
+   主要具有延長功能的是 DNA polymerase III，速度也比 DNA polymerase I 快上許多。
+
+
+23.(A)
+  5’→3’內切酶用來去除 primer，而 DNA polymerase I 有這個活性。
+
+
+24.(B)
+   Olazaki fragments 是在 lagging strand 上會出現的不連續片段。
+
+
+25.(B)
+   Lagging strand 會產生不連續片段（Okazaki fragment）
+
+
+26.(B)
+   Lagging strand 會產生 trombone model （360° 圓圈狀的結構）
+
+
+27.(B)
+   E. coli 的 DNA 為環形結構，有一個 OriC。複製是從起始點開始，同時向兩邊進行。
+
+
+28.(D)
+   DNA polymerase 的三種功能：
+   5’to 3’polymerase activity：合成新 DNA
+   3’to 5’exonuclease activity： Proofreading，移除錯誤配對的 deoxynucleotide 5’to
+   3’exonuclease activity：移除 RNA primer，並補上對應的 deoxynucleotide
+29.(D)
+   Lagging strand 會產生不連續的 Okazaki fragments。
+
+
+30.(B)
+   Okazaki fragment 是 lagging strand 上以不連續方式合成的短 DNA 片段，雖然在 5’端會有一小段
+
+   RNA primer，但最終會被移除、重新以 deoxynucleotide 配對上去，而且查到的定義都是：
+
+   Okazaki fragments are the short DNA pieces at the lagging strand of the replication fork that are formed
+
+   discontinuously. 所以應該選(B)而非(D)。
+
+
+31.(D)
+   先利用 primase 合成 RNA 引子，再 DNA polymerase III 延長，然後利用 DNA polymerase I 移除
+
+   引 子，最後利用 DNA ligase 連接 Backbone。
+
+
+32.(B)
+
+
+
+
+34.(D)
+  如上圖紅色方框標示處。（圖片為 Ch17 PPT p.30）
+
+
+35.(D)
+   Beta 雖然也有修復功能，但只有 delta 位於 mitochondria，其於四種皆在核內
+ 36.(C)
+    Meselson-Stahl experiment 主要是確立 DNA 的半保留複製，透過 14N 和 15N，大家高中應該都有
+    聽說過這件事。
+
+
+
+38.(C)
+   (A) DNA polymerase I 有 5'→3'內切酶活性（移除 primer），也有 3'→5' 內切酶的活性（校正）
+   (B) 跟 DNA 是環形或線形沒有關係
+   (C) 正確
+   (D) 5'→3'內切酶活性是移除 primer 用的，不是校正
+   (E) primase 合成 RNA primer 不是 DNA primer
+
+
+39.(C)
+   (A) 需要 RNA primer
+   (B) nick translation 移除 RNA primer，主要靠 DNA polymerase I 的 5'→3'內切酶活性
+   (C) 正確
+   (D) 超過 90%有點太多了，pol III 沒有 pol I 去除 RNA 引子的功能，可是也找不到實際數據的相
+     關的資料
+   (E) 5’-OH 改成 3’-OH 才對
+
+
+40.(E)
+  Detection of mismatched base pair 後，利用 3'→5' exonuclease 的功能將 phosphodiester bond hydrolysis
+  後形成正確的 base pairing
+
+
+41.(E)
+   DNA polymerase I 的 5'→3' exonuclease 可以將利用 nick translation 將 RNA 引子移除
+
+
+42.(D)
+   DNA ligase 應該是 elongation 階段才會使用到的。
+   (C) Dam 甲基化酶識別 Oric 的 GATC，並在複製前將甲基連接到腺嘌呤鹼基。DNA 甲基化調節
+   DNA 複製也很關鍵，半甲基化的 DNA 無法複製。複製後，細胞需要幾分鐘才能完全甲基化新的
+   DNA，甚至需要更長時間才能甲基化複製起點和 DnaA 蛋白的啟動子區域，而啟動複製。
+
+
+43.(D)
+  舉例來說，大腸桿菌基因的鹼基對數目和人類的相差了約 1000 倍，如果用一樣的方法複製那真的
+  會很慢，小孩會長不大。
+44.(B)
+   PCNA 是一個 DNA clamp，可以在真核細胞中增加連續效能（Processivity）的一個因子，透過和
+   DNA pol δ 結合作用。Processivity 指的是連續反應而不釋放，正常只有 core enzyme 的話，一次最
+   多合成 10～20 個核甘酸就來開 DNA，但如果有 DNA clamp 的話就可以讓 DNA polymerase 一次合
+   成幾千個核甘酸，We say that clamp converts DNA polymerase III from a highly distributive enzyme,
+   which incorporates just a few nucleotides per binding event, to a highly processive enzyme
+
+   （參 Biochemistry by Christopher K. Mathews p.1050）
+

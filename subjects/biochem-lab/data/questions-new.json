@@ -1,0 +1,464 @@
+[
+ {
+  "id": "new-01",
+  "source": "模擬新題",
+  "chapter": "restriction",
+  "type": "mcq",
+  "stem": "A circular plasmid has 3 sites for enzyme X. How many fragments are produced after complete digestion with X?",
+  "options": [
+   {
+    "k": "A",
+    "t": "2"
+   },
+   {
+    "k": "B",
+    "t": "3"
+   },
+   {
+    "k": "C",
+    "t": "4"
+   },
+   {
+    "k": "D",
+    "t": "1"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "環狀 DNA 有 n 個切位 → n 個片段；線狀 DNA 則是 n+1 個。",
+  "topics": [
+   "限制酶圖譜（physical map）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-02",
+  "source": "模擬新題",
+  "chapter": "restriction",
+  "type": "mcq",
+  "stem": "A 6 kb DNA digested with BamHI gives a single 6 kb band. The DNA is most likely:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Linear, with one BamHI site"
+   },
+   {
+    "k": "B",
+    "t": "Circular, with one BamHI site"
+   },
+   {
+    "k": "C",
+    "t": "Linear, with no BamHI site"
+   },
+   {
+    "k": "D",
+    "t": "Circular, with two BamHI sites"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "單切只得一條等於全長的帶：環狀 DNA 被切開一次變成線狀。若是線狀而有一個切位會得到兩段；沒有切位則大小不變但不會「被切」（與未切的 SC／OC 帶型不同）。",
+  "topics": [
+   "限制酶圖譜（physical map）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-03",
+  "source": "模擬新題",
+  "chapter": "restriction",
+  "type": "mcq",
+  "stem": "Which restriction enzyme type recognizes short palindromic sequences and cuts within them, and is the type routinely used in molecular cloning?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Type I"
+   },
+   {
+    "k": "B",
+    "t": "Type II"
+   },
+   {
+    "k": "C",
+    "t": "Type III"
+   },
+   {
+    "k": "D",
+    "t": "Type IV"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Type II：限制與甲基化分開，辨識短回文序列並在序列內切，最常用（BamHI、XhoI、EcoRI）。Type I、III 兼具甲基化，切點不固定。",
+  "topics": [
+   "限制酶類型與辨識序列"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-04",
+  "source": "模擬新題",
+  "chapter": "restriction",
+  "type": "mcq",
+  "stem": "Which of the following can stop a restriction enzyme digestion by removing its required cofactor?",
+  "options": [
+   {
+    "k": "A",
+    "t": "ATP"
+   },
+   {
+    "k": "B",
+    "t": "EDTA"
+   },
+   {
+    "k": "C",
+    "t": "Glycerol"
+   },
+   {
+    "k": "D",
+    "t": "SAM"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "大多數限制酶需要 Mg²⁺，EDTA 螯合 Mg²⁺ 即可停止反應。SAM 是 Type I 酵素的輔助分子。",
+  "topics": [
+   "限制酶類型與辨識序列"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-05",
+  "source": "模擬新題",
+  "chapter": "restriction",
+  "type": "mcq",
+  "stem": "BamHI recognizes 5′-GGATCC-3′ and cuts G↓GATCC. What kind of end does it produce?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Blunt end"
+   },
+   {
+    "k": "B",
+    "t": "3′-protruding sticky end"
+   },
+   {
+    "k": "C",
+    "t": "5′-protruding sticky end"
+   },
+   {
+    "k": "D",
+    "t": "Single-stranded gap"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "G↓GATCC 在兩股上交錯切，留下 5′-GATC 突出 → 5′ 突出黏端。PvuII（CAG↓CTG）才是平端；BglI 是 3′ 突出。",
+  "topics": [
+   "限制酶類型與辨識序列"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-06",
+  "source": "模擬新題",
+  "chapter": "restriction",
+  "type": "mcq",
+  "stem": "The name \"EcoRI\" indicates:",
+  "options": [
+   {
+    "k": "A",
+    "t": "E. coli, strain R, the first enzyme identified from that strain"
+   },
+   {
+    "k": "B",
+    "t": "E. coli, restriction type I"
+   },
+   {
+    "k": "C",
+    "t": "Eco = endonuclease, R = recognition, I = type I"
+   },
+   {
+    "k": "D",
+    "t": "A Type I enzyme from E. coli"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "命名：屬第 1 字母＋種前 2 字母（Eco）＋品系（R，RY13）＋羅馬數字（發現順序）。I 不是 Type I。",
+  "topics": [
+   "限制酶類型與辨識序列"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-07",
+  "source": "模擬新題",
+  "chapter": "restriction",
+  "type": "mcq",
+  "stem": "In a BamHI + XhoI double-digest lane, a band equal to the BamHI-only linear product is also seen. The most likely explanation is:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Star activity"
+   },
+   {
+    "k": "B",
+    "t": "Incomplete digestion by XhoI"
+   },
+   {
+    "k": "C",
+    "t": "DNA was linear before digestion"
+   },
+   {
+    "k": "D",
+    "t": "Too much loading dye"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "雙切 lane 出現單切大小的帶，代表部分 DNA 只被 BamHI 切到、XhoI 沒切完全（114 手寫題 lane 4）。",
+  "topics": [
+   "限制酶圖譜（physical map）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-08",
+  "source": "模擬新題",
+  "chapter": "restriction",
+  "type": "mcq",
+  "stem": "One unit (U) of restriction enzyme is defined as the amount that completely digests:",
+  "options": [
+   {
+    "k": "A",
+    "t": "1 µg of plasmid DNA in 10 min at 25 °C"
+   },
+   {
+    "k": "B",
+    "t": "1 µg of λ DNA in 1 h at the optimal temperature in 50 µL"
+   },
+   {
+    "k": "C",
+    "t": "1 ng of λ DNA in 1 h at 37 °C in 20 µL"
+   },
+   {
+    "k": "D",
+    "t": "1 µg of λ DNA in 5 min at 65 °C"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "1 U = 在最適溫度（通常 37 °C）、50 µL 反應體積中，1 小時完全切割 1 µg λ DNA 的酵素量。",
+  "topics": [
+   "限制酶類型與辨識序列"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-09",
+  "source": "模擬新題",
+  "chapter": "gel-filtration",
+  "type": "mcq",
+  "stem": "Two proteins of 150 kDa and 15 kDa are loaded onto a gel filtration column. Which statement is correct?",
+  "options": [
+   {
+    "k": "A",
+    "t": "The 15 kDa protein elutes first"
+   },
+   {
+    "k": "B",
+    "t": "The 150 kDa protein elutes first"
+   },
+   {
+    "k": "C",
+    "t": "They elute together because gel filtration separates by charge"
+   },
+   {
+    "k": "D",
+    "t": "Elution order depends on the pH of the buffer"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "大分子進不了膠珠孔洞、路徑短，先流出；小分子鑽進孔洞後流出。Gel filtration 依大小分離，幾乎不受 pH 影響。",
+  "topics": [
+   "原理：大分子先出來"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-10",
+  "source": "模擬新題",
+  "chapter": "gel-filtration",
+  "type": "mcq",
+  "stem": "Which application is NOT a typical use of gel filtration?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Desalting a protein sample"
+   },
+   {
+    "k": "B",
+    "t": "Estimating the molecular weight of a native protein"
+   },
+   {
+    "k": "C",
+    "t": "Separating proteins by isoelectric point"
+   },
+   {
+    "k": "D",
+    "t": "Separating a protein from a small dye"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Gel filtration 用於去鹽、純化、估分子量（依大小）。依等電點分離是 ion exchange 或 isoelectric focusing。",
+  "topics": [
+   "樹脂與條件選擇"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "new-11",
+  "source": "模擬新題",
+  "chapter": "plasmid",
+  "type": "mcq",
+  "stem": "In alkaline lysis miniprep, why must the tube be mixed gently after adding S2?",
+  "options": [
+   {
+    "k": "A",
+    "t": "To keep RNase A active"
+   },
+   {
+    "k": "B",
+    "t": "To avoid shearing chromosomal DNA, which would contaminate the plasmid prep"
+   },
+   {
+    "k": "C",
+    "t": "To prevent SDS from precipitating"
+   },
+   {
+    "k": "D",
+    "t": "To keep the pH below 7"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "S2（NaOH＋SDS）裂解細胞；劇烈搖晃會把長的染色體 DNA 剪成小段，無法在 S3 中和後隨蛋白一起沉澱，而污染質體。",
+  "topics": [
+   "鹼裂解法：S1／S2／S3"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-12",
+  "source": "模擬新題",
+  "chapter": "plasmid",
+  "type": "mcq",
+  "stem": "Binding of DNA to a silica spin column is favored by which condition?",
+  "options": [
+   {
+    "k": "A",
+    "t": "High pH, low salt"
+   },
+   {
+    "k": "B",
+    "t": "Low pH, high salt with chaotropic salt"
+   },
+   {
+    "k": "C",
+    "t": "Neutral pH, no salt"
+   },
+   {
+    "k": "D",
+    "t": "High temperature, low salt"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "吸附：低 pH、高離子強度、chaotropic salt；沖提：高 pH（8.0–8.5）、低離子強度。",
+  "topics": [
+   "Elution 與 TE buffer"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-13",
+  "source": "模擬新題",
+  "chapter": "sds-page",
+  "type": "mcq",
+  "stem": "A protein runs as one 100 kDa band in native PAGE but as one 50 kDa band in reducing SDS-PAGE. The protein is most likely:",
+  "options": [
+   {
+    "k": "A",
+    "t": "A monomer of 100 kDa"
+   },
+   {
+    "k": "B",
+    "t": "A homodimer of two 50 kDa subunits"
+   },
+   {
+    "k": "C",
+    "t": "A heterodimer of 70 and 30 kDa"
+   },
+   {
+    "k": "D",
+    "t": "Degraded during sample preparation"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "還原性 SDS-PAGE（含 SDS ＋ β-ME）會拆開次單元與雙硫鍵；只剩一條 50 kDa 帶 → 兩個相同的 50 kDa 次單元（同二聚體）。",
+  "topics": [
+   "染色與分子量估算"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-14",
+  "source": "模擬新題",
+  "chapter": "protein-assay",
+  "type": "mcq",
+  "stem": "A protein sample contains 50 mM DTT. Which assay is the best choice for quantification?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Lowry"
+   },
+   {
+    "k": "B",
+    "t": "BCA"
+   },
+   {
+    "k": "C",
+    "t": "Bradford"
+   },
+   {
+    "k": "D",
+    "t": "Biuret with EDTA"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "還原劑（DTT、β-ME）會干擾靠 Cu²⁺ 還原的 Lowry 與 BCA；Bradford 對緩衝液成分的干擾最少（怕的是鹼和界面活性劑）。",
+  "topics": [
+   "Bradford 與 CBB"
+  ],
+  "pattern": "選正確／單一概念題"
+ }
+]

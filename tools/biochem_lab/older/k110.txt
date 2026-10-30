@@ -1,0 +1,153 @@
+
+Chapter 29考古
+組員：柯翔文、薛詠哲、林庭妤
+組長：王劭夫
+學藝：張𣁎崴
+
+	•	在DNA電泳中，S1 buffer 作用
+	•	Digestion
+	•	Resuspension
+	•	Lysis
+	•	Neutralize
+	•	在DNA電泳中，S2 buffer作用
+	•	Digestion
+	•	Resuspension
+	•	Lysis
+	•	Neutralize
+	•	在DNA電泳中，S3 buffer作用
+	•	Digestion
+	•	Resuspension
+	•	Lysis
+	•	Neutralize
+	•	在DNA電泳中，如何去除RNA
+	•	加入RNAase A
+	•	加入DNAase A
+	•	
+	•	在DNA電泳中，上題的溶液會加在哪
+	•	W1 buffer
+	•	W2 buffer
+	•	W3 buffer
+	•	Elusion buffer
+	•	在DNA電泳中，下列何者能作為elution buffer?
+	•	PBS(pH=5.0)
+	•	TE buffer(pH=3.0)
+	•	TE buffer(pH=5.0)
+	•	TE buffer(pH=8.0)
+	•	影響最小
+	•	PBS
+	•	Low pH
+	•	Strong ion bond
+	•	salt
+	•	DNA電泳用甚麼燈箱
+	•	UV
+	•	汞燈
+	•	藍光LED
+	•	全光LED
+	•	在DNA電泳中，如果有一個分子大的蛋白質被分離出來，兩個小的分子沒辦法分離，且大小相近，應該要如何調整濃度？
+	•	增加濃度
+	•	減少濃度
+	•	無法分離
+	•	在DNA電泳中，如果有一個分子小的蛋白質被分離出來，兩個大的分子沒辦法分離，且大小相近，應該要如何調整濃度？
+	•	增加
+	•	減少
+	•	在蛋白質電泳中，加入水的目的？
+	•	壓平下膠
+	•	防止下膠乾掉
+	•	防止玻璃乾掉
+	•	在蛋白質電泳中，上膠的pH值？
+	•	6.8
+	•	7.0
+	•	8.3
+	•	8.8
+	•	在蛋白質電泳中，下膠的pH值？
+	•	6.8
+	•	7.0
+	•	8.3
+	•	8.8
+	•	在DNA電泳中，為甚麼會有拖曳效應？
+	•	沒萃取到DNA
+	•	核酸水解酶汙染
+	•	沒有load進well
+	•	無法判斷
+	•	在SDS-PAGE之前，需要先準備蛋白質sample，每個SDS膠的well的最大容量為25μl，以5X smaple buffer配製且希望每well中有40μg的蛋白質，以下蛋白質sample何者濃度不足配製?
+	•	2μg/μl
+	•	1.7μg/μl
+	•	3.2μg/μl
+	•	5.2μg/μl
+	•	請問這是哪種化合物?(附圖沒有紅圈)
+	•	Coomassie Brilliant Blue (CBB) G-250
+	•	Coomassie Brilliant Blue (CBB) R-250
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	•	在DNA電泳中，跑得遠的DNA跟跑的近的DNA大小比較？
+	•	遠>近
+	•	近>遠
+	•	遠=近
+	•	無法判斷
+	•	SC, OC, L型態電泳跑的遠近？
+	•	SC>L>OC
+	•	SC>OC>L
+	•	APS的作用
+	•	提供free radicals
+	•	穩固膠體結構
+	•	破壞雙硫鍵
+	•	Acrylamide作用
+	•	提供free radicals
+	•	穩固膠體結構
+	•	破壞雙硫鍵
+	•	β-mercaptoethanol的作用
+	•	提供free radicals
+	•	穩固膠體結構
+	•	破壞雙硫鍵
+	•	DNA染劑中有哪幾種成分？
+	•	Bromophenol blue
+	•	Orange G
+	•	Xylene cyanol
+	•	Glycerol
+	•	DNA電泳的緩衝液？
+	•	TAE buffer
+	•	在蛋白質電泳實驗中，有同學在加入染劑至膠體後，呈色時間明顯比其他組慢，可能的原因為何？
+	•	loading的樣本太少
+	•	電泳時間太短
+	•	Gel濃度不正確
+	•	SDS未去除乾淨
+	•	在蛋白質電泳實驗中，有同學在開始跑電泳一段時間後，蛋白質標準液（marker）和蛋白質樣本都沒有往下跑，可能的原因為何？
+	•	電極方向相反
+	•	上膠pH值不正確
+	•	buffer的pH值不正確
+	•	下膠pH值不正確
+	•	Marker為甚麼不用先染色？
+	•	先染過了
+	•	DNA電泳的電泳槽是哪一種？
+	•	水平式平板電泳槽
+	•	染色在哪一層膠體染的？
+	•	Running gel
+	•	Stacking gel
+	•	Running and stacking gel
+	•	Log分子量與下列何者成反比？
+	•	蛋白質電泳Rf值
+	•	本學期DNA電泳實驗中所使用的DNA染料為何？
+	•	Methyl blue
+	•	EtBr
+	•	AO(acridine orange)
+	•	Gel green
+	•	本學期DNA電泳實驗中所使用的介質為何
+	•	agar
+	•	agarose
+	•	acrylamide
+	•	starch
+手寫題
+蛋白質定量會用到的東西
+Coomassie Brilliant Blue G-250、water、96 well、ELISA reader、BSA

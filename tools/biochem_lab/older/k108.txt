@@ -1,0 +1,404 @@
+                                      108 生化實驗考古
+
+組員：薛詠哲                               組長：王劭夫        學藝：張𣁎崴
+
+※組長註：非本學期實驗內容將以深灰色呈現題目，但無法保證不會考…(尤其是周老師部分)
+ 鄭可大老師部分(非本學期實驗內容)
+1. 我們的實驗利用 Fenton reaction 將亞鐵離子還原成鐵離子並產生什麼自由基？
+ (A) O2
+ (B) H2O2
+ (C) OH
+ (D) O3
+
+
+2. TBA test 是測定脂質過氧化所產生的：
+ (A) bis-allylic hydrogen
+ (B) hydroperoxide
+ (C) cyclic peroxide
+ (D) MDA
+
+
+3. Arachidonic acid 完全過氧化會產生幾個 hydroperoxide 分子？
+ (A) 2
+ (B) 4
+ (C) 6
+ (D) 8
+
+
+4. 下列何者非抗氧化酶？
+ (A) Superoxide dismutase
+ (B) Lipase
+ (C) Catalase
+ (D) Glutathione peroxidase
+
+
+5. 脂質過氧化 TBA test 測定中，反應在酸性溶液中進行才會形成粉紅色複合物。我們實驗所使用的
+ 緩衝液為：
+ (A) Acetate buffer pH 5.0
+ (B) Acetate buffer pH 6.0
+ (C) Phosphate buffer pH 5.0
+ (D) Glutathione peroxidase
+
+
+6. 動脈粥狀硬化（Atherosclerosis）過程中，下列何者細胞轉變形成的順序是正確的？
+ (A) monocyte-foam cell-macrophage
+   (B) macrophage-foam cell-monocyte
+   (C) foam cell-monocyte-macrophage
+   (D) 以上皆非
+
+
+ 7. 脂質過氧化 TBA test 所生的粉紅色產物，可以哪個波長定量？
+   (A) 280nm
+   (B) 532nm
+   (C) 684nm
+   (D) 766nm
+
+
+ 8. TBA test 加入 sarkosyl 溶液當作：
+   (A) 抗氧化劑
+   (B) 催化劑
+   (C) 螯合劑
+   (D) 界面活性劑
+
+
+   ＊鄭嘉雄老師部分
+ 9. Which of the following is not required for polymerization of polyacrylamide gel?
+   (A) Acrylamide
+   (B) Bisacrylamide
+   (C) SDS
+   (D) APS
+
+
+10. What is the role of water adding into the upper layer of stacking gel?
+   (A) dilute gel solution
+   (B) keep wet of the gel
+   (C) form a horizontal gel
+   (D) no meaning
+
+
+11. Which of the following is used for staining SDS-gel?
+   (A) bromophenol blue
+   (B) bromophenol blue
+   (C) coomasie brilliant blue
+   (D) trypan blue
+
+
+12. Which of the following is not the component of SDS-gel?
+   (A) Acrylamide
+   (B) Bisacrylamide
+   (C) APS
+   (D) PAGE
+
+
+13. What is the role of APS in polymerization of SDS-gel?
+   (A) transfer electrons
+   (B) as crosslinker
+   (C) produce a mesh-like network
+   (D) produce free radicals
+
+
+14. Which of the following descriptions of SDS-PAGE is not correct?
+   (A) SDS-gel has two layers
+   (B) The upper-layer is used for stacking proteins
+   (C) The lower-layer is used for separating proteins
+   (D) Large proteins migrate faster than small proteins
+
+
+15. Which of the following in the sample buffer is used to break the disulfide bonds of proteins?
+   (A) bromophenol blue
+   (B) SDS
+   (C) Glycerol
+   (D) beta-mercaptoethanol
+
+
+16. Which of the following is the major component in the running buffer for stacking proteins?
+   (A) Tris-HCl
+   (B) Glycine
+   (C) SDS
+   (D) Glycerol
+
+
+17. What is the difference between the structures of CBB-G250 and CBB-R250?
+   (A) CBB-G250 has one more methyl group than R250
+   (B) CBB-R250 has one more methyl group than G250
+   (C) CBB-G250 has two more methyl group than R250
+   (D) CBB-R250 has two more methyl group than G250
+
+
+18. Which of the following amino acids is bound by coomassie brilliant blue in SDS-gel staining?
+   (A) Lysine
+   (B) Leucine
+   (C) Glycine
+   (D) Asparagine
+19. Which of the following descriptions about protein electrophoresis is not correct?
+   (A) High voltage, high migration speed
+   (B) High molecular weight, low migration speed
+   (C) Negative charge migrate to positive charge
+   (D) High percentage gel, high migration speed
+
+
+20. Why does the SDS-gel need to wash with water before staining with CBB?
+   (A) remove salt
+   (B) remove buffer
+   (C) remove bromophenol blue
+   (D) remove SDS
+
+
+21. Sample buffer is used to denature the protein sample before proteins are separated. If we want to load
+   150μL of protein sample, how to prepare the sample using 3X sample buffer(SB) and protein sample(P)?
+   (A) SB: 3μL, P: 150μL
+   (B) SB: 50μL, P: 150μL
+   (C) SB: 50μL, P: 100μL
+   (D) SB: 3μL, P: 147μL
+
+
+22. Why can the proteins be separated by molecular weight in SDS-PAGE?
+   (A) Gravity
+   (B) Electrophoresis
+   (C) Denature
+   (D) native charge
+
+
+   ＊陳顧中老師部分
+23. Johnny conducts a biochemistry experiment with a P-20 micropipette. As figure showed, what is the buffer
+   quantity that Johnny wants to get?
+
+
+
+
+   (A) 0.63μL
+   (B) 6.3μL
+   (C) 63μL
+   (D) 630μL
+24. Gel filtration is also called:
+   (A) Affinity chromatography
+   (B) Size exclusion chromatography
+   (C) Hydrophobic interaction chromatography
+   (D) Ion exchange chromatography
+
+
+25. The below figure is the data after Johnny conducted the gel filtration experiment. If he wants to collect the
+   smallest molecular weight compound, which of the following time point is the best?
+
+
+
+
+   (A) 7min
+   (B) 15min
+   (C) 30min
+   (D) 3min
+
+
+26. Which of the following technique is not used to determine protein concentration?
+   (A) Real-Time PCR
+   (B) Gel filtration
+   (C) Mass Spectrometry
+   (D) High performance liquid chromatography
+27. Assay question: please draw a line to connect the protein quantification assay and its related principle.
+
+
+                                                                              Intrinsic chromophores in proteins
+
+
+
+  UV Spectroscopy                                                                         Alkaline cupric sulfate
+
+
+
+  Biuret Reaction                                                                              Bicinchoninic acid
+
+
+
+  Lowry assay                                                                                  Bromophenol blue
+
+
+
+  BCA assay                                                                                           Folin agent
+
+
+
+  Bradford assay                                                                                   Xylene cyanol
+
+
+                                                                                                 Coomassie Blue
+
+   ＊周志銘老師部分
+ 1. The agarose gel electrophoresis results of mini-preparation of pTMU DNA are shown as figure below.
+   Please answer the following questions:
+  (1) In this experiment, is the pTMU DNA molecule linear or circular? _________________
+  (2) What is “low molecular weight nucleic acid” in lane 2? __________________________
+  (3) Which buffer in mini-preparation of DNA may cause the result mentioned in (2) when it went wrong?
+        (S1, S2, S3, W1, W2, EB buffer) ______________
+  (4) Please explain the lane 4 result. ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+
+
+2. In agarose gel electrophoresis:
+  (1) Which buffer system is used in this experiment? ____________________
+  (2) Which DNA staining dye is used in this experiment? _________________
+
+
+3. In the restriction enzyme experiment, we used BamHI, XhoI and EcoRI to digest pTMU DNA, please
+  answer the following question:
+  (1) EcoRI belongs to which type of restriction enzyme? (Type I, II, III) __________________
+
+
+4. Use the following restriction enzyme reaction result to draw the pTest DNA restriction physical map:
+ BamHI              15557             KpnI               9365, 6192        PstI              14696, 861
+
+
+ SalI               11556, 4001       XbaI               6935, 6266,       BamHI + KpnI      9365, 6120, 72
+                                                         2356
+ BamHI + PstI       11273, 3423,      BamHI + SalI       11556, 2911,      BamHI + XbaI      6935, 3289,
+                    861                                  1090                                2977, 2356
+ KpnI + PstI        6192, 5153,       KpnI + SalI        8347, 3209,       KpnI + XbaI       6460, 3361,
+                    3351, 861                            2983, 1018                          2905, 2356, 475
+ PstI + SalI        8362, 4001,       PstI + XbaI        6266, 5628,       SalI + XbaI       6935, 4001,
+                    2333, 861                            2356, 861, 446                      2356, 1887, 378
+  (A) The DNA molecule is a linear or circular form of DNA?
+  (B) Please drawing the DNA restriction physical map.
+
+
+2. Please use the following restriction enzyme reaction results answer the question and drawing the DNA
+  restriction physical map. (B: BamHI, E: EcoRI, H: HindIII, X: XhoI)
+    Marker                1                 2                 3                 4                 5
+       —             undigested          BamHI             EcoRI             HindIII             XhoI
+       6                  7                 8                 9                 10                11
+ BamHI+EcoRI      BamHI+HindIII      EcoRI+HindIII       BamHI+XhoI        EcoRI+XhoI       HindIII+XhoI
+ 簡答
+ 選擇題
+      1        2        3          4    5    6       7    8    9    10
+      C       D         C          B    A    D       B    D    C    C
+      11      12        13         14   15   16      17   18   19   20
+      C       D         D          D    D    B       C    A    D    D
+      21      22        23         24   25   26
+      C        B        C          B    C    A
+ 沒有詳解的可以參考前面出現過的
+ 1. (C)
+   這裡 OH 應該要是 OH⋅，之前學長姊可能忘記打自由基的電子
+
+
+ 2. (D)
+
+
+ 3. (C)
+
+
+ 4. (B)
+
+
+ 5. (A)
+
+
+ 6. (D)
+   monocyte-macrophage-foam cell
+
+
+ 7. (B)
+
+
+ 8. (D)
+
+
+ 9. (C)
+   SDS 是 sample buffer 中的東西
+
+
+10. (C)
+   雖然沒做過，但看共筆中 ddH2O 是用來壓膠的。把下膠混合物注入鑄膠器後，再將 ddH2O 倒到上
+   方， 等待下膠凝固後，倒除 ddH2O，加入上膠。另外異丙醇也可以壓膠，而且膠更快聚合
+
+
+11. (C)
+
+
+12. (D)
+   PAGE 是 polyacrylamide gel electrophoresis 的縮寫，不是成分。
+13. (D)
+   APS（Ammonium Persulfate）產生自由基，TEMED 負責轉移電子。
+
+
+14. (D)
+   越大的分子跑越慢。
+
+
+15. (D)
+
+
+
+
+16. (B)
+   和 chloride 一起 stack protein。
+
+
+17. (C)
+   多兩個甲基，水溶性更高
+
+
+
+
+18. (A)
+   CBB 常和正電胺基酸結合（Lysine, Arginine, Histidine）。
+
+
+19. (D)
+   高密度的膠孔洞較小，跑膠的速度就慢。
+
+
+20. (D)
+   以免和 SDS 負負相斥，使蛋白質無法染色。
+
+
+21. (C)
+   3X 的 buffer 需要被稀釋回原本的濃度就要體積變三倍。也就是還要兩倍的液體量
+22. (B)
+
+
+23. (B)
+   P-20 最大吸取量是 20µl，滿格的時候長這樣：
+                                          2
+                                          0
+                                          0
+   題目中代表的吸取量是 6.3µl。
+
+
+24. (B)
+   膠體過濾分層是透過顆粒大小分離不同的物質。
+
+
+25. (C)
+   最小的分子跑最慢，所以看到最晚有吸光峰值的地方就是了。
+
+
+26. (A)
+
+
+
+
+ 周志銘老師部分
+ 1.
+   (1) Circular
+          經 BamHI 切割後僅產生一條 band，因此為 circular form（切割後形成 linear form）
+
+
+   (2) DNA smear
+          當 DNA 持續被分解，將使其大小片段不一，跑膠時有拖尾之現象。DNA 變性、樣品濃度過
+          高、 膠體品質不佳也可能造成此現象。
+
+
+   (3) S1 buffer
+          S1 buffer 可抑制降解核酸之酵素的活性
+  (4) lane4 最上面的 band 與 lane3 相同，表示有些 DNA 只經過 BamHI 切割；下面兩條 band 則為
+      DNA 同時 經 BamHI 及 XhoI 切割的結果。
+
+
+2.
+  (1) TAE buffer
+  (2) SafeDye 今年（2021 年）是 Gel Green
+
+
+3.
+  (1) TypeII
+
+
+4.
+

@@ -1,0 +1,916 @@
+                                               生化實驗考古
+
+ 組員：柯翔文(配合、手寫)、王劭夫(單選)                                         組長：王劭夫                  學藝：張𣁎崴
+
+
+一、單選題
+1.Johnny conducts the biochemistry experiments with a P-100 micropipette. As figure showed, what is the
+ buffer quantity that Johnny wants to get?
+
+                                                       0
+
+                                                       6
+
+                                                       3
+
+
+ (A) 0.63 µl
+  (B) 6.3 µl
+  (C) 63 µl
+ (D) 630 µl
+
+
+2.Which of the following statement is “NOT” the reason to choose a suitable protein quantification assay?
+ (A) Protein sizes
+  (B) Protein concentration
+  (C) Presence of interfering chemicals
+ (D) Specificity of the assay
+
+
+3.In the following protein quantification assay, whose principle is different from others?
+ (A) Biuret reaction
+  (B) Lowry assay
+  (C) BCA assay
+ (D) UV spectroscopy
+
+
+4.Which of the following amino acid could be used to measure protein concentration because it has 260 nm
+ wavelength?
+ (A) Histidine
+  (B) Tyrosine
+  (C) Tryptophan
+ (D) Phenylalanine
+
+                                                       1
+ 5.Phosphomolybdic acid could be found in which of the following protein quantification assay?
+   (A) Biuret reaction
+   (B) Lowry assay
+   (C) BCA assay
+   (D) Bradford assay
+
+
+ 6.Continued. Folin reagent is used in which of the following protein quantification assay?
+   (A) Lowry assay
+   (B) Biuret Reaction
+   (C) Bradford Assay
+   (D) BCA assay
+
+
+ 7.Which of the following ion plays an important role in protein quantification assay?
+   (A) Ca2+
+   (B) Cu2+
+   (C) Mg2+
+   (D) Na+
+
+
+ 8.In protein quantification assay, we used the known concentration BSA dose as X-axis, and the
+   absorbance value as Y-axis. Then the standard curve formula we got was Y = 0.25X + 0.1. If the
+   absorbance value of unknown protein is 0.6, the concentration of unknown protein could be?
+   (A) 1 µg/µl
+   (B) 0.1875 µg/µl
+   (C) 0.2 µg/µl
+   (D) 2 µg/µl
+
+
+ 9.Continued. Which of the following option is the best R2 value in this standard curve?
+   (A) 0.01
+   (B) 0.5
+   (C) 0.95
+   (D) 0.05
+
+
+10.In protein quantification assay, we used the known concentration BSA dose as X-axis, and the absorbance
+   value as Y-axis. Then the Standard curve formula we got was Y = 0.25 X + 0.15. If the absorbance value
+   of unknown protein is 0.65, the concentration of unknown protein could be?
+   (A) 3 µg/µl
+   (B) 31.25 µg/µl
+                                                       2
+   (C) 0.3125 µg/µl
+   (D) 2 µg/µl
+
+
+11.Continued. Which of the following option is the best R2 value in this Standard curve?
+   (A) 0.05
+   (B) 0.1
+   (C) 0.99
+   (D) 0.95
+
+
+12.In the course of Biochemistry experiments, which of the following absorbance wavelength was used in
+   protein quantification assay?
+   (A) 450 nm
+   (B) 550 nm
+   (C) 650 nm
+   (D) 750 nm
+
+
+13.Continued. What is the machine we used to measure absorbance wavelength?
+   (A) Spectrophotometer
+   (B) Fluorescence meter
+   (C) ELISA reader
+   (D) Densitometer
+
+
+ (以下題目非本次課程範圍，請自行斟酌服用)
+14.The TBA test is performed in condition of
+   (A) Base pH buffer
+   (B) Neutral pH buffer
+   (C) Acid pH buffer
+   (D) None of the above
+
+
+15.The pink color product of TBA-MDA complex is a
+   (A) Hydrophilic compound
+   (B) Aerophilic compound
+   (C) Hydrophobic compound
+   (D) None of the above
+
+
+
+
+                                                       3
+16.In lipid peroxidation experiment, sarkosyl is used to ______.
+   (A) Produce free radical
+   (B) Act as polyunsaturated fatty acid
+   (C) Interact with arachidonic acid and TBA
+   (D) Interact with arachidonic acid and free radical
+
+
+17.The main purpose of Fenton reaction is to produce free radical of?
+   (A) Alkyl group
+   (B) Oxygen
+   (C) Hydroxyl group
+   (D) Nitrogen
+
+
+18.P53 gene is a _____.
+   (A) Tumor formative gene
+   (B) Tumor formative gene
+   (C) Tumor suppressor gene
+   (D) None of the above
+ （以上題目非本次課程範圍，請自行斟酌服用）
+
+
+19.In the following protein quantification assay, which is non-destructive?
+   (A) UV Spectroscopy
+   (B) BCA assay
+   (C) Biuret Reaction
+   (D) Lowry assay
+
+
+20.Which of the following amino acid could not be used to measure protein concentration by UV
+   spectroscopy?
+   (A) Phenylalanine
+   (B) Threonine
+   (C) Tyrosine
+   (D) Tryptophan
+
+
+
+
+                                                         4
+21.Continued. Which of the following absorbance wavelength is commonly used in measurement of protein
+   concentration?
+   (A) 320 nm
+   (B) 260 nm
+   (C) 280 nm
+   (D) 230 nm
+
+
+22.Which of the following statement about Bradford Assay is incorrect?
+   (A) RAPID color development
+   (B) A multiple-steps assay
+   (C) Less interference
+   (D) High sensitivity
+
+
+23.Which of the following reagent is used in Bradford Assay?
+   (A) Methylene blue
+   (B) Methyl blue
+   (C) Goomassie blue
+   (D) Bromophenol blue
+
+
+24.Which of the following amino acid is not preferred for Bradford Assay?
+   (A) Tryptophan
+   (B) Tyrosine
+   (C) Aspartate
+   (D) Lysine
+
+
+25.The color formation in which of the following assay is not related to ion?
+   (A) Bradford assay
+   (B) BCA assay
+   (C) Lowry assay
+   (D) Biuret method
+
+
+26.Which of the following technique is not used to determine protein concentration?
+   (A) High performance liquid chromatography
+   (B) Mass Spectrometry
+   (C) Gel filtration
+   (D) Real-Time PCR
+
+
+                                                       5
+ (以下題目非本次課程範圍，請自行斟酌服用)
+27.我們的實驗利用 Fenton reaction 將亞鐵離子氧化成鐵離子產生?
+  (A) O2
+  (B) H2O
+  (C) OH－
+  (D) O3 自由基
+
+
+28.TBA test 是測定脂質過氧化所產生的?
+  (A) bis-allylic hydrogen
+  (B) hydroperoxide
+  (C) cyclic peroxide
+  (D) MDA 含量
+
+
+29.Arachidonic acid 完全過氧化，會產生___個 hydroperoxide 分子?
+  (A) 2
+  (B) 4
+  (C) 6
+  (D) 8
+
+
+30.目前對於家族性高膽固醇血症(familial hypercholesterolemia, FH)患者的處理方式?
+  (A) 血液透析
+  (B) 注射類固醇
+  (C) 服用抗組織胺藥物
+  (D) 注射蛋白質藥物
+
+
+31.下列何者非抗氧化酶?
+  (A) Superoxide dismutase
+  (B) Lipase
+  (C) Catalase
+  (D) Glutathione peroxidase
+
+
+32.脂質過氧化 TBA test 測定中，反應在酸溶液中進行才會形成粉紅色複合物，我們實驗所使用的緩
+  衝液為?
+  (A) Acetate buffer pH5.0
+  (B) Acetate buffer pH6.0
+  (C) Phosphate buffer pH5.0
+  (D) Phosphate buffer pH6.0
+                                       6
+33.動脈粥狀硬化(Atherosclerosis)過程中，下列何者細胞轉變形成的順序是正確的?
+   (A) monocyte-foam cell-macrophage
+   (B) macrophage-foam cell-monocyte
+   (C) foam cell-monocyte-macrophage
+   (D) 以上皆非
+
+
+34.脂質過氧化 TBA test 所產生的粉紅色產物，可以波長___定量之
+   (A) 280 nm
+   (B) 535 nm
+   (C) 684 nm
+   (D) 766 nm
+
+
+35.TBA test 加入 sarkosyl 溶液當作____
+   (A) 抗氧化劑
+   (B) 催化劑
+   (C) 螯合劑
+   (D) 界面活性劑
+
+
+36.在我們的脂質過氧化實驗中，Vit. C 的抗氧化效果較 Vit. E_____
+   (A) 高
+   (B) 低
+   (C) 一樣
+   (D) 無法判定 (以上題目非本次課程範圍，請自行斟酌服用)
+
+
+37.When we measure protein concentration by using Coomassie Brilliant Blue staining, what wavelength is
+  used to detect?
+   (A) 595 nm
+   (B) 320 nm
+   (C) 470 nm
+   (D) 270 nm
+
+
+38.When we run a SDS-PAGE, there are two layers in the gel. What is the function of Lower Layer?
+   (A) Run proteins
+   (B) Separate proteins
+   (C) Condense proteins
+   (D) Stain proteins
+                                                     7
+39.When we run a SDS-PAGE, which layer contains proteins?
+   (A) Lower gel
+   (B) Upper gel
+   (C) Stacking gel
+   (D) Loading well
+
+
+40.If you want to analyze the enzyme activity in gel, which of the following gel you can choice?
+   (A) SDS-Gel
+   (B) Two-D Gel
+   (C) Agarose Gel
+   (D) Native Gel
+
+
+41.Which of following is provided the free radicals for making SDS-PAGE?
+   (A) TEMED
+   (B) APS
+   (C) Acrylamide
+   (D) SDS
+
+
+42.Which of following is the major structure for making SDS-PAGE?
+   (A) TEMED
+   (B) APS
+   (C) Acrylamide
+   (D) SDS
+
+
+43.Which of following is used to denature proteins and make proteins become negative charge in sample
+   buffer?
+   (A) TEMED
+   (B) APS
+   (C) Acrylamide
+   (D) SDS
+
+
+44.Which of following is used to break bisulfate bonds of proteins in sample buffer?
+   (A) Tris-HCl
+   (B) Glycerol
+   (C) SDS
+   (D) β-mercaptoethanol
+
+
+                                                       8
+45.Before separate protein by SDS-PAGE, we have to prepare our protein samples. The maximum loading
+   volume of each well in SDS-Gel is 25 μl. We have a 5-fold sample buffer. If we want to load 40 µg of
+   protein to each well, which of following concentration of protein sample is not enough to prepared?
+  (A) 2.0 µg/µl
+   (B) 2.4 µg/µl
+   (C) 3.5 µg/µl
+  (D) all of above
+
+
+46.When we run a SDS-PAGE, which of following is correct running order in stacking gel?
+  (A) (-)-Protein-Chloride-Glycine-(+)
+   (B) (-)-Protein-Glycine-Chloride-(+)
+   (C) (-)-Glycine-Protein-Chloride-(+)
+  (D) (-)-Glycine-Chloride-Protein-(+)
+
+
+47.After separate protein by SDS-PAGE, we have to wash the gel before staining the gel using
+   Coomassie Brilliant Blue. Why do we have to do this?
+   (A) Wet the gel
+   (B) Create holes in the gel
+   (C) Cool down the gel
+   (D) Remove SDS
+
+
+48.What is the difference between CBB G-250 and R-250?
+  (A) Resolve reagent
+   (B) Detection range of protein concentration
+   (C) De-stain buffer
+  (D) all of above
+
+
+49.How to measure molecular weight of protein based on pre-stain marker in SDS-PAGE electrophoresis?
+  (A) Logarithmic value of molecular weight vs. mobility
+   (B) Molecular weight vs. mobility
+   (C) Molecular weight vs. logarithmic value of mobility
+  (D) Logarithmic value of molecular weight vs. logarithmic value of mobility
+
+
+
+
+                                                      9
+二、配合題
+1. Which items listed above will be needed for Pre-Fenton reaction?_____
+
+
+2. Which items listed above will be needed to examine the MDA level in lipid peroxidation assay? ______
+
+
+3. The reagent we used to dissolve the TBA-MDA complex is ______.
+  (A) Acetate buffer, pH 5.0
+  (B) Acetate buffer, pH 7.4
+  (C) Arachidonic acid
+  (D) Butanol
+  (E) FeSO4
+  (F) HO2
+  (G) MDA
+  (H) Sarkosyl
+   (I) TBA
+  (J) TEP
+  (K) Tris-potassium buffer, pH 5.0
+  (L) Tris-potassium buffer, pH 7.4
+
+
+三、問答題
+1. (1) Please draw a standard curve according to the following data.
+ TEP standard         Blank             1µM             2µM            3µM           4µM            5µM
+    OD532 nm             0.05            0.15           0.25           0.35          0.45           0.55
+
+
+  (2) There are three experiment groups of lipid peroxidation, including control group, unsaturated fatty
+  acids, and unsaturated fatty acid plus Vitamin E. Please answer the concentration of
+  (A)_______(B)________(C)________ and find the one that belongs to the Vitamin E group___________.
+
+
+                          unknown               A               B               C
+                          OD532 nm              0.1            0.75            1.4
+
+
+2. Dr. Cheng has successful purified two recombinant proteins from prokaryotic expression system, recently.
+  They are protein A and protein B. And protein A is larger than protein B. One day, he wants to analysis
+  these two proteins’ function, he transfers each protein into new eppendorf tube. During transfer these
+  proteins, he got a phone call from Dr. Chou. He is very exciting to tell Dr. Chou that he had expressed and
+  purified two important recombinant proteins. Unfortunately, he forgets to label these two tubes and mix up
+  the sample. Could you help Dr. Cheng use the SDS-PAGE technology to solve this mistake? How could
+                                                      10
+  you design an experiment using the following materials to help him find out which protein are they? The
+  materials include：
+    I. Tris-Glycine SDS-PAGE                  IV. Sample buffer               VII. Electrophoresis system
+     II. Coomassie Blue G-250                 V. Water bath Tris                       VIII.Water
+         III. Protein marker                  VI. Glycine buffer
+  (If you use one component from above and explain why you use it, you can get 2 points. If you can find
+  out which protein are they and draw a figure to explain it, you can get additional 9 points) Total 25 points.
+
+
+3. The agarose gel electrophoresis result of plasmid pTMU as figure, please answer the following
+  questions？
+  Lane 1. Uncut plasmid DNA
+  Lane 2. Uncut plasmid DNA (DNA smear)
+  Lane 3. The plasmid DNA digested by BamHI
+  Lane 4. Double digestion of plasmid DNA with BamHI+XhoI
+  Lane 5. Digestion of the plasmid DNA with EcoRI
+
+
+  (A) In this experiment, the DNA molecule is a linear form or circular form DNA?
+  (B) Please explain the lane 2 result.
+  (C) Please explain the lane 4 result.
+
+
+4. In agarose gel electrophoresis experiment: (簡答即可)
+  (A) Which buffer system was used in this experiment?
+  (B) Which DNA staining dye was used in this experiment?
+
+
+5. Please use the following restriction enzyme reaction results answer the questions and draw the plasmid
+  restriction physical map：
+
+
+
+
+                                                       11
+        lane              1                  2                     3                  4                   5
+    enzyme             marker              EcoRI            EcoRI+XhoI               XhoI              BamHI
+         6                7                  8                     9                 10                  11
+                                        EcoRI+BamHI        EcoRI+HindIII      BamHI+XhoI             EcoRI+XhoI+
+BamHI+HindIII          HindIII
+                                                                                                       BamHI
+  (A) The DNA molecule is a linear form or circular form of DNA?
+  (B) Please draw the plasmid restriction physical map.
+
+
+6. Please use the following restriction enzyme reaction results answer the question and drawing the DNA
+  restriction physical map：
+
+
+    1             2               3              4             5             6                 7             8
+ Marker        EcoRI          EcoRI+         XhoI           BamHI          BamHI+           HindIII       EcoRI+
+                                 XhoI                                      HindIII                        BamHI
+    9            10             11               12           13             14                15             16
+EcoRI+         BamHI          EcoRI+         SalI           BamHI+         EcoRI+           HindIII+     XhoI+SalI
+ HindIII       +XhoI          XhoI+                          SalI           SalI              SalI
+                              BamHI
+
+
+
+
+  (A) The DNA molecule is a linear or circular form of DNA?
+  (B) Please drawing the DNA restriction physical map.
+
+
+
+
+                                                      12
+7. Please use the following restriction enzyme reaction results answer the question and drawing the DNA
+  restriction physical map. (B: BamHI, E: EcoRI, H: HindIII, X: XhoI)
+
+
+    Marker                1                 2                 3                 4                 5
+       —             undigested          BamHI              EcoRI            HindIII             XhoI
+       6                  7                 8                 9                10                 11
+ BamHI+EcoRI      BamHI+HindIII      EcoRI+HindIII        BamHI+XhoI       EcoRI+XhoI       HindIII+XhoI
+
+
+
+
+                                                     13
+簡答（加邊框即可）
+選擇題或配合題（預設一列 10 題，可以調整，只要版面整潔、省空間即可）
+  1   2    3      4   5   6    7   8                                      9    10
+    C       A        D        D        B        A        B        D       C    D
+    11      12       13       14      15        16      17       18       19   20
+    C       X        C        C        C        C        C        C       A    B
+    21      22       23       24      25        26      27       28       29   30
+    C       B        C        C        A        D        C        D       C    A
+    31      32       33       34      35        36      37       38       39   40
+    B       A        D        B        D        B        A        B       A    D
+    41      42       43       44      45        46      47       48       49
+    B       C        D        D        D        C        D        D       A
+
+
+一. 單選題
+1.(C)
+  這題是基本題，P-100 最大吸取量是 100µl（如下圖），而題目中的圖代表 63µl。
+
+                                           1
+
+                                           0
+
+                                           0
+
+
+2.(A)
+ 在選擇蛋白質定量分析的方法中，有以下幾點需要考慮：
+ (1)蛋白質的量或濃度（Amount of protein available, concentration of the protein）
+ (2)是否有干擾分子存在（Presence of interfering chemicals）
+ (3)定量分析方法是否有專一性（Specificity of the assay）
+ (4)操作方便和可信度（Ease and reliability）
+ 而以上不包含蛋白質大小。
+
+
+3.(D)
+  (A)(B)(C)都是透過化學反應分析，(D)是透過物理方法（紫外光）進行分析，如果芳香族胺基酸含
+  量低則容易失準。
+
+
+4.(D)
+  Phe 的最大吸光值在 λ＝257nm，但老師給的表上沒有 λ＝260nm 的胺基酸，最接近的就是 Phe
+  了。
+
+
+                                           14
+ 5.(B)
+   以下複習各化學性蛋白質定量法的粗略內容：
+  Biuret reaction：蛋白質肽鍵的 N 原子在鹼性環境下會和 Cu2+形成紫紅色的錯合物。
+  Lowry assay：前面跟 Biuret reaction 一樣，最後加入 Folin reagent（內含 phosphomolybdic acid
+  和 phosphotungstic acid）和 Tyr、Trp 反應形成藍色產物。
+  BCA assay：前面跟 Biuret reaction 一樣，最後加入 bicinchoninic acid (BCA)，催化蛋白質將 Cu2+
+  還原為 Cu+，BCA 再和 Cu+形成紫色產物。
+  Bradford assay：試劑中的 CBG 在接上蛋白質後會從原本酸性的茶色變成中性的藍色（蛋白質提
+  供中性環境），藉此觀察樣品蛋白質含量。
+  根據題目，反應中含有 phosphomolybdic acid 就是 Lowry assay。
+
+
+ 6.(A)
+   續上題，Lowry assay 中的 Folin reagent 含有 phosphomolybdic acid 和 phosphotungstic acid。
+
+
+ 7.(B)
+   再接續前面的內容，發現 Cu2+出現的頻率似乎有點高，可見在蛋白質定量分析中 Cu2+是相當重要
+  的。
+
+
+ 8.(D)
+  根據題目給的方程式Y＝0.25X＋0.1，代入 Y＝0.6 後可以得到 X＝2。
+
+ 9.(C)
+   標準曲線(standard curve)的 R2 值越大，呈現線型的趨勢越明顯，也是我們在實驗課賣命的理由。
+
+
+10.(D)
+  根據題目給的方程式Y＝0.25X＋0.15，代入 Y＝0.65 後可以得到 X＝2。
+
+11.(C)
+   這個問題很簡單，你想在實驗課得到怎樣的 R2 值就選哪個答案。
+
+
+12.X
+   實際上使用的 ELISA 波段是 630nm
+
+
+13.(C)
+   我們測量吸光值是使用 ELISA reader，相信大家有做實驗的話都有印象。
+
+
+
+
+                                            15
+ (以下內容恕敝人無法審核)
+14.(C)
+  以下做脂質過氧化實驗粗略複習：
+  (1) pre-Fenton reaction：
+  A.形成氫氧自由基：Fe2+＋H2O2 → Fe3+＋OH－＋OH⋅
+  B.OH⋅＋不飽和脂肪酸 → MDA
+  (2) TBA test（酸性條件）：TBA＋MDA → TBA-MDA complex（粉紅色產物）
+  根據以上內容，TBA test 是在酸性條件下反應。
+
+
+15.(C)
+   TBA test 形成的產物為疏水性物質，詳見下圖結構式。
+
+
+
+
+16.(C)
+   sarkosyl 在脂質過氧化的實驗中扮演界面活性劑的角色，目的是讓脂質過氧化產生的 MDA（親水
+   性）可以和 TBA（疏水性）混合。
+
+
+17.(C)
+   Fenton reaction 是為了要產生氫氧自由基。
+
+
+18.(C)
+   我也不知道為什麼這個題目會出現在這裡，不過普生教過 p53 是抑癌基因，可能脂質過氧化產生
+   的自由基跟癌症有關。
+ (以上內容恕敝人無法審核)
+
+
+19.(A)
+   UV 蛋白質定量不需要加入額外化學試劑，也不會造成蛋白質變性。其他的方法都是透過化學反應
+   改變蛋白質觀察變化。
+
+
+20.(B)
+   UV 蛋白質定量主要是透過測定蛋白質中的芳香族胺基酸（Phe, Tyr, Trp），如果芳香族胺基酸含量
+   低的話測定的效果就會不佳。
+
+
+21.(C)
+   芳香族胺基酸在 λ＝280nm 的時候有最大吸光值，因此常用此波段來測定蛋白質含量。
+                                  16
+22.(B)
+   根據老師講義內容，Bradford assay 有以下特質：
+  (1)緩衝液中的物質較不易造成干擾（less interference）
+  (2)高敏感度（high sensitivity）
+  (3)單步驟反應（single-step assay）
+  (4)快速呈色（rapid color development）
+  但也有以下缺點：
+  (1)建議用於測定芳香族或鹼性胺基酸的測定。
+  (2)不同蛋白質做出的結果可能大不同，因此在製作標準曲線的時候建議使用和待測物相近的蛋
+  白質。
+  (3)鹼性物質和界面活性劑容易對於測定造成干擾。
+
+
+23.(C)
+   這就是 Bradford assay 使用的 CBG，不過有人寫 Goomassie，也有人寫 Coomassie。以下其他染劑
+   作為參考：
+   (A)高中學過，亞甲藍用於細胞核染色
+   (B)甲基藍用於植物細胞壁染色
+   (D)Bromophenol blue 跟 DNA 電泳的 loading dye 有關
+
+
+24.(C)
+   Bradford assay 適用於芳香族胺基酸或鹼性胺基酸。
+
+
+25.(A)
+   Bradford assay 是透過酸鹼值的變化改變顏色，其他的變色反應都跟 Cu2+有關。
+
+
+26.(D)
+   Real-time PCR 一看就是錯誤答案，跟一般 PCR 不一樣的是加入特定的螢光染劑來觀察 DNA 的產
+   量，和蛋白質沒啥關係。
+   (A) High performance liquid chromatography（高效液相層析）：為一種層析方法，主要特色是有加
+       壓進行分析。
+  (B) Mass Spectrometry（質譜法）：有機教過，它可以用來確定樣品的質量以及其化學結構。
+  (C) Gel filtration（膠體過濾法）：透過分子篩（molecular sieve）分離不同大小的蛋白。
+
+
+ (以下內容恕敝人無法審核)
+27.(C)
+   詳見第 14 題脂質過氧化實驗的介紹。
+
+
+28.(D)
+
+                                     17
+ 詳見第 14 題脂質過氧化實驗的介紹。
+29.(C)
+   根據老師講義，arachidonic acid 完全過氧化後可以產生 6 個 hyperoxide 分子。
+
+
+
+
+30.(A)
+   目前對於 FH 的治療方式是血液透析（hemodialysis），去除血液中過多的膽固醇。
+
+
+31.(B)
+   抗氧化酶是透過去除過氧化物質以達到抗氧化效果，使其他組織或細胞等免於氧化攻擊。
+   (A)(C)(D)都和去除氧化物有關，其中(C) catalase 在金黃色葡萄球菌中有出現，(D) glutathione
+   peroxidase 則是和 PPP、NADPH 等相關，有興趣可以去複習一下。
+
+
+32.(A)
+   在 TBA test 中我們使用的緩衝液是 acetate buffer (pH 5.0)，反應在酸性環境下容易進行。
+
+
+33.(D)
+   正確的順序應該是 monocyte-macrophage-foam cell。由單核球變成的巨噬細胞因為吞噬了血液中過
+   多的膽固醇變成泡沫細胞，堆積在血管壁上，造成粥狀動脈硬化。詳見生化期中範圍第 19 章。
+
+
+34.(B)
+   根據老師上課的講義，TBA test 中用來定量的波段是 532nm，但是我們實際上實驗是用 550nm，
+   (B) 535nm 是最接近的選項。
+
+
+
+                                   18
+35.(D)
+   Sarkosyl 在 TBA test 中作為界面活性劑，使 TBA（疏水性）和 MDA（親水性）可以同相反應。
+
+
+36.(B)
+   根據實驗結果，加入維生素 C 的粉紅色較維生素 E 顏色較明顯，可以推論含維生素 C 的抗脂質氧
+   化能力不如含維生素 E 的好，因為粉紅色的明顯程度和脂質過氧化程度成正相關。
+ (以上內容恕敝人無法審核)
+
+
+37.(A)
+   題目所述的染劑就是我們的 bradford assay 實驗所用的，使用的波段最接近的選項是 595nm。
+   以下整理各實驗使用 ELISA reader 所用的波段：
+
+                    實驗                               波長(nm)
+
+                Gel filtration           450（methyl orange）, 630（BSA 蛋白）
+
+         bradford assay（蛋白質定量實驗）                 595（實際使用 630）
+
+          TBA test（脂質過氧化實驗）                      532（實際使用 550）
+
+
+38.(B)
+   lower gel 是用來分離不同分子量的蛋白質，而 upper gel 的作用則是 protein stacking，讓蛋白質濃縮
+   成較小的體積，讓蛋白質同時在起跑線開始電泳。
+
+
+39.(A)
+   lower gel 才是用來分離 protein 的，(B)(C)(D)都同樣在上層。
+
+
+40.(D)
+  蛋白質電泳，根據老師講義可以分為三種：
+  (1) Native PAGE：在電泳的過程中不使蛋白質變性，分離不只有透過分子量大小，還有蛋白質結
+  構等因素，因此適用於測定酵素。
+  (2) SDS PAGE：用 SDS 或熱將蛋白質變性，透過分子量分離不同的蛋白質。
+  (3) gradient PAGE：透過使用不同濃度的膠體，將不同分子量的蛋白質分離更明顯。因為不同濃度
+  的膠體孔洞大小不一致，低濃度的膠體有較大的孔洞，主要分離大分子蛋白質，高濃度則孔洞較
+  小，可以將小分子蛋白質分離出來，不過製作過程麻煩所以相對少用。
+
+
+
+
+                                    19
+41.(B)
+  有關 SDS-PAGE 蛋白質電泳中的實驗材料，簡單複習一下：
+  (1) acrylamide gel：內含 acrylamide 和 methylenebisacrylamide (bis)，為形成「孔洞」的主要成
+  分。Acrylamide 主要形成直鏈，bis 則形成支鏈，兩者的比例可以作為調整孔洞大小的因子。
+  (2) ammonium persulfate (APS)：提供自由基來合成 polyacrylamide。
+  (3) TEMED：協助電子傳遞，也是為了合成 polyacrylamide。
+  (4) protein sample buffer：
+
+
+
+
+44.(D)
+   (A)作為 buffer，穩定 pH 值
+   (B)透過重力將蛋白質樣品帶入 well
+   (C)包覆在蛋白質表面，使蛋白質維持線性形狀
+
+
+45.(D)
+  5-fold：稀釋 5 倍
+  (40µg ÷ 25µl) × 5 = 8µg/µl，至少要 8µg/µl 才夠。
+
+
+46.(C)
+   glycine 進入 stacking gel 會變成不帶電的分子，相對 protein, chloride 帶負電的物質移動就會顯得
+   慢。
+
+
+47.(D)
+   因為 SDS 和 Coomassie Brilliant Blue 都帶有負電，若沒有洗去 SDS 會導致兩者負負相斥，會讓蛋
+   白質無法染色。
+
+
+48.(D)
+  有關 G-250 和 R-250 的比較如下：
+
+
+                                     G-250                       R-250
+
+
+
+                                        20
+             溶於何種溶液                水                    酸性溶液
+
+           結合蛋白質的顏色變化            紅 → 藍                 紅棕 → 深藍
+
+            適用蛋白質濃度              ＜1mg/ml                ＞25ng/ml
+
+              反應速度              快（2 分鐘）                慢（一小時）
+
+
+49.(A)
+   在製作結果的時候會將分子量取對數，對上蛋白質跑的距離，舉例如下：
+
+
+
+
+二. 配合題(皆非本次實驗課程之內容)
+1. (C)(E)(F)(H)(L)
+     pre-Fenton reaction 是為了產生氫氧自由基：Fe2+＋H2O2 → Fe3+＋OH ＋OH⋅，並且將 OH⋅和不飽
+                                                   －
+
+
+
+     和脂肪酸反應產生 MDA。
+
+
+2. (A)(D)(G)(H)(I)(J)
+     TBA test：TBA＋MDA → TBA-MDA complex（粉紅色產物），此反應在酸性條件下進行，最後使
+     用 butanol 萃取粉紅色產物。而為了測定待測物的 MDA 含量，我們先使用 TEP 做出標準曲線
+     (standard curve)。
+
+
+3. (D)
+     用以將有機層與無機層分離。
+
+
+三. 問答題
+1.
+     (1)
+
+
+
+
+                                    21
+     (2) 0.5µM；7µM；13.5µM；(B)
+     根據(1)得到的回歸直線：Y = 0.1X + 0.05，再加上題目給的 Y＝0.1, 0.75, 1.4，就可以得到 X＝0.5,
+     7, 13.5；而維生素 E 相較於維生素 C 有更強的抗氧化能力，粉紅色呈色也會較維生素 C 組淺。
+
+
+2.
+     Tris-Glycine SDS-PAGE：透過分子量的不同分離蛋白質。
+     Coomassie Blue G-250：染色蛋白質。
+     Protein marker：作為標準分子量尺。
+     Sample buffer：有很多內容物，各有不同的功能，詳見下表：
+
+
+
+
+     Water bath Tris：protein denaturation。
+     Glycine buffer：穩定 pH 值、形成 ion empty layer 以促進 protein stacking。
+     Electrophoresis system：分離樣品中的蛋白質。
+     Water：洗去 SDS，讓之後的 CBB 可以染上去。
+     百十考古組建議：畫 figure 應該就畫一個有 marker、A、B 的蛋白質電泳結果，注意電泳方向的正
+     負極，蛋白質大小 A＞B
+
+
+3.
+     (A) Circular，觀察 Lane 3，被切一刀後仍然只有一條，可見其為環狀 DNA 分子。Lane 1 之所以有
+        兩條，因為不同構型的質體 DNA 所引起的，存在大多數質體 DNA 都為超螺旋質體 DNA。
+     (B) Lane 2 中出現 DNA smearing 的現象，可能是 DNA 變性或是被分解所造成，也有可能是鑄膠
+        的品質不佳或樣品的濃度過高。
+        參考資料：https://sciencing.com/causes-smearing-electrophoresis-6404726.html
+     (C) Lane 4 中有出現和 lane3 相同的 band，也有出現被切的 band，可能的原因是有些 DNA 只被
+        BamHI 切，有些則是同時被 BamHI 和 XhoI。
+
+
+4.
+     (A) TAE buffer。
+     (B) Gel Green
+                                                 22
+23
+5.
+     (A) Circular
+     (B)
+
+
+
+
+6.
+     (A) Circular
+     (B)
+
+
+
+
+7.
+
+
+
+
+  不要一直畫環形的就以為全部都是環形喔，這裡出現一個線形殺個你措手不及。判斷線型的依據
+  為未切開時，只有一個band，而環形因還有超螺旋結構而有兩條band。另外若有限制酶可以剛好只
+  切一處，電泳呈現一個band，則這也是環形。
+     而表上面有一些切出來大小一樣的片段，會在同一條 band 上，要根據 band 的粗細來判斷有多少同
+     樣大小的片段，越粗的代表越多相同片段。
+
+                             24
+

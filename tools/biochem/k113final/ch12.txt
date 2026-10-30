@@ -1,0 +1,216 @@
+                                   Chapter12:Biochemical signaling
+
+組⾧：洪碩謙                  學藝：陳正聖                   授課⽼師：⿈彥華                                      114.Nov.3
+
+一、單選題
+
+1. What happens when the GTPase activity of a G protein is block?
+  (A) The α subunit associates only with the β subunit, not the γ subunit.
+  (B) GTP cyclizes to cGMP.
+  (C) Binding to GAP occurs with very high affinity.
+  (D) Adenylate cyclase remains active.
+
+
+2. Like G proteins, the Ras protein binds when in its active state which is hydrolyzed to _______convert the
+  protein to its inactive state.
+  (A) GTP；GDP
+  (B) GTP；GMP
+  (C) GMP；cGMP
+  (D) cGMP；GMP
+
+
+3. InsP3 binds to channels in the endoplasmic reticulum while DAG activates.
+  (A) Na+；protein kinase A
+  (B) Na+；protein kinase C
+  (C) Ca2+；protein kinase A
+  (D) Ca2+；protein kinase C
+
+
+4. Which of the following pathways correctly shows how glycogen synthase is activated in response to the
+  activation of IRS-1 insulin binding?
+  (A) IRS-1 causes activation of protein kinase B which phosphorylates glycogen synthase kinase thus
+      preventing phosphorylation of glycogen synthase.
+  (B) IRS-1 activates a cascade that ultimately phosphorylates ERK which then binds to glycogen
+      synthase.
+  (C) IRS-1 activates phosphoinositide 3-kinase and the resulting PIP3 is an allosteric activator of
+      glycogen synthase.
+  (D) IRS-1 activates guanylate cyclase and the resulting cGMP binds to glycogen synthase kinase thus
+      preventing phosphorylation of glycogen synthase.
+5. What is the primary target of releasing factors from the hypothalamus?
+  (A) thyroid
+  (B) adrenal medulla
+  (C) adrenal cortex
+  (D) posterior pituitary
+  (E) anterior pituitary
+
+
+6. In the visual process, activated rhodopsin causes which of the following events to occur?
+  (A) transducin binding to GTP
+  (B) transducin binding to GDP
+  (C) transducin binding to cGMP
+  (D) transducin binding to GMP
+  (E) none of the above
+
+
+7. Most steroid hormones exert their effects by initial binding to which of the following receptors?
+  (A) receptor in cell membrane
+  (B) receptor in cytosol
+  (C) receptor in nuclear membrane
+  (D) receptor in nucleus
+  (E) none of the above
+
+
+8. The complex of zinc and cysteine residues seen in the structure of steroid hormone receptors is referred
+  to as a(an) _________ structural motif.
+  (A) zinc loop
+  (B) zinc helix
+  (C) antiparallel zinc sheet
+  (D) zinc finger
+  (E) zinc turn
+
+
+9. Which of the following hormones binds to a receptor tyrosine kinase?
+  (A) thyroxine
+  (B) epinephrine
+  (C) epidermal growth factor
+  (D) glucagon
+  (E) cortisol
+10. Glucocorticoids are thought to function as anti-inflammatory agents since they are able to stimulate the
+   synthesis of what protein?
+   (A) tumor necrosis factor (TNF)
+   (B) platelet-derived growth factor (PDGF)
+   (C) transforming growth factor-α (TGF-α)
+   (D) nuclear factor-kappa B (NF-κB)
+   (E) inhibitor-kappa B (IκBα)
+
+
+11. The structure of isoproterenol (left) and epinephrine are shown below. What is isoproterenol?
+
+
+
+
+   (A) agonist
+   (B) antagonist
+   (C) inverse agonist
+   (D) irreversible agonist
+
+
+12. Which second messenger is produced as a result of nitric oxide binding?
+   (A) cAMP
+   (B) cGMP
+   (C) InsP3
+   (D) DAG
+
+
+13. G protein is inactive when the subunit _________ is bound to _________.
+   (A) α；GMP
+   (B) α；GDP
+   (C) β；GMP
+   (D) β；GDP
+   (E) α/β；GMP
+
+
+14. Which of the following signaling molecules activate the phosphoinositide second messenger system?
+   (A) platelet-derived growth factor
+   (B) acetylcholine
+   (C) vasopressin
+   (D) thyrotropin-releasing hormone
+   (E) all of the above
+簡答
+
+選擇題
+
+      1    2      3      4       5      6      7          8   9   10
+
+      D    A      D      A       E      A      B          D   C   E
+
+      11   12     13     14
+
+      A    B      B      E
+
+
+
+1. (D)
+  GTPase 被抑制會使 GTP 無法轉為 GDP，使 G protein 維持活化態。活化態的 G protein 繼續活化
+  下
+  游的訊息傳遞者（如 adenylate cyclase），使 ATP 轉為 cAMP，cAMP 活化 PKA，繼續訊息傳遞。
+  總結：活化態的 G protein 會使下游的訊息傳遞者（如 AC）保持活性。
+  (A) 活化態 Gα 不與 Gβ、Gγ 結合。
+  (B) GTP 無法轉為 GDP。
+  (C) GAP（GTPase activating protein）會活化 GTPase，與題目敘述不符。
+2. (A)
+   SoS 活化 Ras（一種 G protein），將 GTP 變成 GDP。
+3. (D)
+4. (A)
+   磷酸化 IRS-1 的兩個磷酸根可活化「細胞增長」、「肝醣合成」兩路徑，題幹所述為肝醣合成路
+徑。
+   (B)ERK 磷酸化為 MAPK 路徑中的過程，用來調控細胞增生。
+
+   (C)PIP3 磷酸化 PKB，透過磷酸化 GSK 來調控 Glycogen synthase，非 allosteric activator。
+   (D)與 GC 無關。
+5. (E)
+   下視丘（hypothalamus）分泌 hypothalamic releasing factor 刺激的 primary target 為腦垂腺前葉，而
+   後葉是直接受到神經軸突刺激。
+
+
+
+
+6. (A)
+   光線使視桿細胞中的視紫質（Rhodopsin）活化，活化的 Rhodopsin 再將 Transducin-GDP（不活化
+   態）轉為 Transducin-GTP（活化態） 。
+
+
+
+
+7. (B)
+  固醇類荷爾蒙作用機制：荷爾蒙結合細胞質中之特殊受體（如 Nuclear Receptors）→特殊受體被荷
+   爾蒙影響形成二聚體→荷爾蒙－受體複合體移動至細胞核→荷爾蒙－受體複合體結合 DNA 上的
+   HREs（Hormone-responsive Elements，DNA 上的特殊結合位）→影響 HREs 附近基因轉錄表現。
+   ＜註＞雖然固醇類荷爾蒙為疏水性，可以直接穿過細胞膜，但仍需要藉由細胞質內的 Nuclear
+    receptor 運送，才能在細胞質內遊走，最後進入細胞核中調控基因的表現。
+    ＜補充＞甲狀腺素也是使用 Nuclear receptor，但其受體是在細胞核內。
+
+
+
+
+8. (D)
+    Zinc finger 為一種小的蛋白質結構模體（motif），其特徵為配合一個或多個鋅離子以穩定結合，
+與
+    一些真核生物轉錄調控蛋白的結構相似，最典型的構型為 cys2his2。
+    共筆：Nuclear receptor 在 DNA binding domain 皆有鋅（Zinc）與 Cysteine 的-SH 形成 Zinc
+Finger，
+    對 DNA 結合有重要影響。
+9. (C)
+    Recetpor Tyrosine Kinase 和 Growth Factor 有關，最左的 EGF 即 Epidermal Growth Factor。
+ (A) 受體位於細胞核（見第 7 題詳解） 。
+
+ (B) 受體為 GPCR。
+ (C) 受體為 GPCR。
+ (D) 受體位於細胞質。
+10. (E)
+  糖皮質素（Glucocorticoids，GCs）（見第 7 題詳解之圖示）
+ (A) 發炎機制：
+      u   TNF 結合細胞膜上受體，使 NF-κB 和 IκBα 分開。
+      u   NF-κB 則進入細胞核結合基因，進行轉錄轉譯，最後生成細胞激素（IL-6）造成發炎。
+ (B) 抑制機制：
+     u    GC 進入細胞質結合 Intracellular Receptors 後進入細胞核。
+
+     u    Intracellular Receptors 的 Zinc-containing Domain 結合 DNA，使 IκBα 表現。
+     u    IκBα 結合 NF-κB 形成 dimer，則不行發炎機制，因此抑制發炎。
+11. (A)
+
+
+
+
+12. (B)
+  NO 結合 Guanylate Cyclase（soluble form）的 Fe2+結合，使 GC 活化產生 cGMP，活化下游的
+PKG。
+13. (B)
+  如右圖。
+
+
+
+
+14.(E)
+  如下表。
+

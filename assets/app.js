@@ -246,12 +246,28 @@
     if (!DB.index) DB.index = await fetchJSON("subjects/index.json");
     return DB.index;
   }
+  // 「已上課範圍」：已上課且不在已考完的組；本次範圍還沒上課時退回本次範圍全部章節
+  function taughtIds(subj) {
+    const live = subj.meta.chapters.filter((c) => !subj.chMap[c.id].done);
+    const t = live.filter((c) => c.slides);
+    return (t.length ? t : live).map((c) => c.id).join(",");
+  }
   async function loadSubject(sid) {
     if (DB.subjects[sid]) return DB.subjects[sid];
     const idx = await loadIndex();
     const ent = idx.find((x) => x.id === sid);
     if (!ent) throw new Error(`找不到科目「${sid}」`);
     const meta = await fetchJSON(`${ent.path}/subject.json`);
+    // "mock" 可以是一份或陣列（期中、期末⋯）：每份的 until（考試結束時間，或只寫日期＝當天結束）過了就自動換下一份
+    if (meta.mock)
+      meta.mock =
+        [].concat(meta.mock).find(
+          (x) =>
+            !x.until ||
+            new Date(
+              /T/.test(x.until) ? x.until : `${x.until}T23:59:59+08:00`,
+            ) > new Date(),
+        ) || null;
     const lists = await Promise.all(
       (meta.questionFiles || []).map((f) =>
         fetchJSON(`${ent.path}/${f}`).catch(() => []),
@@ -259,8 +275,17 @@
     );
     const questions = lists.flat();
     const figs = await fetchJSON(`${ent.path}/figures.json`).catch(() => []);
+    // groups 加上 "done": "26/10/30 midterm" → 該組章節標成已考完，不再算進「已上課範圍」
+    const doneOf = Object.fromEntries(
+      (meta.groups || []).flatMap((g) =>
+        g.done ? g.chapters.map((id) => [id, g.done]) : [],
+      ),
+    );
     const chMap = Object.fromEntries(
-      meta.chapters.map((c, i) => [c.id, { ...c, idx: i + 1 }]),
+      meta.chapters.map((c, i) => [
+        c.id,
+        { ...c, idx: i + 1, done: doneOf[c.id] || "" },
+      ]),
     );
     const qById = Object.fromEntries(questions.map((q) => [q.id, q]));
     return (DB.subjects[sid] = {
@@ -316,13 +341,19 @@
     reset: (s) => `sh:${s}:resetT`,
   };
   const getProg = (sid) => store.get(K.prog(sid), {});
-  // 依答錯率加權的隨機排序（Efraimidis–Spirakis）。權重 = √((錯+1)/(對+1))：
-  // 沒做過和錯一半都是 1，錯 3 次是 2，對 3 次是 1/2，答錯率越高越常排在前面被抽到
+  // 依答錯率與間隔加權的隨機排序（Efraimidis–Spirakis）。權重 = 答錯率 × 間隔：
+  // 答錯率 √((錯+1)/(對+1))：沒做過和錯一半都是 1，錯 3 次是 2，對 3 次是 1/2
+  // 間隔 0.5 + 天數/7（最多 2）：剛做過是 0.5，一週前 1.5，十天以上 2；沒做過算 1.5
+  // 答錯率越高、越久沒做的題目越常排在前面被抽到
+  const staleness = (r) =>
+    r?.t ? Math.min(2, 0.5 + (Date.now() - r.t) / 864e5 / 7) : 1.5;
   const weightedShuffle = (list, prog) =>
     list
       .map((q) => {
         const r = prog[q.id];
-        return [Math.random() ** Math.sqrt(((r?.c || 0) + 1) / ((r?.w || 0) + 1)), q];
+        const w =
+          Math.sqrt(((r?.w || 0) + 1) / ((r?.c || 0) + 1)) * staleness(r);
+        return [Math.random() ** (1 / w), q];
       })
       .sort((a, b) => b[0] - a[0])
       .map((x) => x[1]);
@@ -1745,7 +1776,11 @@
       },
       { done: 0, right: 0, wrong: 0 },
     );
-    const cards = subs
+    // 期中已考完（目前的模擬考已換成期末，或沒有期中）的科目排到還沒考期中的科目後面
+    const midPending = (s) =>
+      s.meta.mock && s.meta.mock.id !== "final" ? 0 : 1;
+    const cards = [...subs]
+      .sort((a, b) => midPending(a) - midPending(b))
       .map((s) => {
         const st = subjectStats(s);
         return `<a class="card subject-card" href="#/s/${s.meta.id}">
@@ -1828,15 +1863,18 @@
     const stats = Object.fromEntries(
       m.chapters.map((c) => [c.id, chapterStats(subj, c.id)]),
     );
-    const maxExam = Math.max(1, ...Object.values(stats).map((s) => s.exam));
+    const maxTotal = Math.max(1, ...Object.values(stats).map((s) => s.total));
 
     // next-up
     const lastCh = store.get(K.last(sid), null);
-    const lastC = lastCh && subj.chMap[lastCh];
+    const lastC = lastCh && !subj.chMap[lastCh]?.done && subj.chMap[lastCh];
+    const live = m.chapters.filter((c) => !subj.chMap[c.id].done);
     const firstUnread =
-      m.chapters.find((c) => c.slides && !read.has(c.id)) || m.chapters[0];
+      live.find((c) => c.slides && !read.has(c.id)) ||
+      live[0] ||
+      m.chapters[0];
     const cont = subj.chMap[(lastC || firstUnread).id];
-    const priority = m.chapters
+    const priority = live
       .map((c) => ({
         c,
         s: stats[c.id],
@@ -1853,13 +1891,13 @@
 
     const row = (c) => {
       const s = stats[c.id];
-      return `<a class="syl-row" href="#/s/${sid}/c/${c.id}/summary">
+      return `<a class="syl-row${c.done ? " done" : ""}" href="#/s/${sid}/c/${c.id}/summary">
         <span class="idx">${pad2(c.idx)}</span>
         <span><span class="t">${esc(c.title)}</span>
           <span class="sub"><span>${esc(c.en || "")}</span><span aria-hidden="true">·</span><span>${esc(c.teacher || "")}</span>
-          ${c.slides ? `<span class="pill good"><span class="dot"></span>已上課 ${esc(c.week || "")}</span>` : `<span class="pill line">未上課</span>`}
+          ${c.done ? `<span class="pill line">${ic("check")}${esc(c.done)}</span>` : c.slides ? `<span class="pill good"><span class="dot"></span>已上課 ${esc(c.week || "")}</span>` : `<span class="pill line">未上課</span>`}
           ${read.has(c.id) ? `<span class="pill violet">${ic("check")}已讀</span>` : ""}</span></span>
-        <span class="heat" title="去年考古 ${s.exam} 題"><span class="lbl"><span>考古</span><b class="num">${s.exam} 題</b></span><span class="heat-bar"><i style="width:${(s.exam / maxExam) * 100}%"></i></span></span>
+        <span class="heat" title="本章題目 ${s.total} 題（含考古 ${s.exam} 題）"><span class="lbl"><span>題目</span><b class="num">${s.total} 題</b></span><span class="heat-bar"><i style="width:${(s.total / maxTotal) * 100}%"></i></span></span>
         <span class="mastery"><span class="ring" style="--p:${s.mastery}"></span><span><b class="num">${s.mastery}%</b><br><span class="muted num">${s.right} / ${s.total} 題</span></span></span>
         <span class="chev">${ic("chevR")}</span></a>`;
     };
@@ -1870,7 +1908,7 @@
       )
         .map(
           (g, gi) => `
-        <div class="part-title"><span class="mono">PART ${["I", "II", "III", "IV", "V", "VI"][gi] || gi + 1}</span><span class="display">${esc(g.title)}</span></div>
+        <div class="part-title${g.done ? " done" : ""}"><span class="mono">PART ${["I", "II", "III", "IV", "V", "VI"][gi] || gi + 1}</span><span class="display">${esc(g.title)}</span>${g.done ? `<span class="pill line">${ic("check")}${esc(g.done)}</span>` : ""}</div>
         ${g.chapters
           .map((id) => subj.chMap[id])
           .filter(Boolean)
@@ -1881,7 +1919,7 @@
     } else {
       const key =
         sort === "exam"
-          ? (c) => -stats[c.id].exam
+          ? (c) => -stats[c.id].total
           : (c) =>
               -(
                 stats[c.id].wrong * 100 +
@@ -1933,10 +1971,7 @@
                   start: 1,
                   n: 20,
                   mode: "random",
-                  ch: m.chapters
-                    .filter((c) => c.slides)
-                    .map((c) => c.id)
-                    .join(","),
+                  ch: taughtIds(subj),
                 })}">
             <span class="eyebrow">${ic("shuffle")}暖身</span><h3>已上課範圍隨機 20 題</h3><p>考古、課堂題和模擬新題混合出題。</p><span class="go">開始 ${ic("arrowR")}</span></a>`
           }
@@ -1963,12 +1998,12 @@
             <div><div class="eyebrow">Syllabus</div><h2 class="display h-m" style="margin-top:8px">課程章節</h2></div>
             <div class="seg" role="group" aria-label="排序方式">
               <button type="button" data-sort="course" aria-pressed="${sort === "course"}">課程順序</button>
-              <button type="button" data-sort="exam" aria-pressed="${sort === "exam"}">考古題數</button>
+              <button type="button" data-sort="exam" aria-pressed="${sort === "exam"}">題目數</button>
               <button type="button" data-sort="weak" aria-pressed="${sort === "weak"}">待加強</button>
             </div>
           </div>
           <div class="syllabus">
-            <div class="syl-head"><span>No.</span><span>章節</span><span>去年考古</span><span>掌握度</span><span></span></div>
+            <div class="syl-head"><span>No.</span><span>章節</span><span>本章題目</span><span>掌握度</span><span></span></div>
             ${list}
           </div>
         </section>
@@ -2038,7 +2073,7 @@
           <h1 class="display h-l">${esc(c.title)}</h1>
           <div class="en">${esc(c.en || "")}</div>
           <div class="ch-meta">
-            ${c.slides ? `<span class="pill good"><span class="dot"></span>已上課</span>` : `<span class="pill warn"><span class="dot"></span>未上課・依去年共筆與考古</span>`}
+            ${c.done ? `<span class="pill line">${ic("check")}${esc(c.done)}</span>` : c.slides ? `<span class="pill good"><span class="dot"></span>已上課</span>` : `<span class="pill warn"><span class="dot"></span>未上課・依去年共筆與考古</span>`}
             <span class="pill line">考古 ${st.exam} 題</span>
             <span class="pill line">可練習 ${st.total} 題</span>
             <span class="pill line">掌握 ${st.mastery}%</span>
@@ -3827,10 +3862,7 @@
       short: q.short || "1",
     };
     const st = subjectStats(subj);
-    const taught = m.chapters
-      .filter((c) => c.slides)
-      .map((c) => c.id)
-      .join(",");
+    const taught = taughtIds(subj);
     const groups = m.groups || [
       { title: "章節", chapters: m.chapters.map((c) => c.id) },
     ];
@@ -4411,8 +4443,13 @@
   // ------------------------------------------------------------ mock exam
   // subject.json 的 "mock"：老師公告的範圍與配分。sections[].from 每一項是
   // "章節 id"、"章節 id:考點1|考點2"（只取這些考點）或 "章節 id:!考點1|考點2"（排除這些考點）
-  const mockKey = (sid) => `sh:${sid}:mock`;
-  const mockHistKey = (sid) => `sh:${sid}:mockHist`;
+  // 有 id 的模擬考（如 "final"）分開存進度與成績，換考卷時不會混到上一份
+  const mockTag = (sid) => {
+    const id = DB.subjects[sid]?.meta.mock?.id;
+    return id ? `:${id}` : "";
+  };
+  const mockKey = (sid) => `sh:${sid}:mock${mockTag(sid)}`;
+  const mockHistKey = (sid) => `sh:${sid}:mockHist${mockTag(sid)}`;
   const mockOK = (q) =>
     q.type === "mcq" &&
     !q.imageOnly &&

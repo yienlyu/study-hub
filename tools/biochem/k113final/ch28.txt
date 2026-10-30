@@ -1,0 +1,189 @@
+                          Chapter 28：Regulation of Gene Expression
+
+ 組長：楊傑愉                       學藝：陳政聖                        授課老師：施純明                           114. Dec. 18
+
+
+1.The operator region normally can be bound by:
+(A) Attenuator
+(B) Inducer
+(C) mRNA
+(D) repressor
+(E) suppressor tRNA
+
+
+2.Which of the following statements about regulation of the lac operon is true?
+(A) Glucose in the growth medium decreases the inducibility by lactose.
+(B) Glucose in the growth medium does not affect the inducibility by lactose.
+(C) Glucose in the growth medium increases the inducibility by lactose.
+(D) Its expression is regulated mainly at the level of translation.
+(E) The lac operon is fully induced whenever lactose is present.
+
+
+3.The binding of CRP (cAMP receptor protein of E. coli) to DNA in the lac operon:
+(A) assists RNA polymerase binding to the lac promoter.
+(B) is inhibited by a high level of cAMP.
+(C) occurs in the lac repressor region.
+(D) occurs only when glucose is present in the growth medium.
+(E) prevents repressor from binding to the lac operator.
+
+
+4.Which of the following is a DNA sequence?
+(A) Coactivator
+(B) Corepressor
+(C) Enhancer
+(D) Inducer
+(E) Transactivator
+
+
+5.Attenuation is one of the methods to regulate the expression of Trp operon in E. coli.
+Which statement is incorrect?
+(A) The leader mRNA contains multiple codons of Trp amino acid.
+(B) The sequence-dependent transcription termination is an important feature for regulation.
+(C) Leader mRNA expressed only when tryptophan concentration is low.
+(D) Ribosome apparatus will pause on Trp codon when tryptophan concentration is low.
+6.Which one is the most suitable for enhancer?
+(A) locate in poly A tail
+(B) locate in intron
+(C) locate in 5’ upstream region
+(D) orientation independent
+
+
+7.Which of the conditions would result in the least amount of transcription of the operon?
+                                     [glucose]                            [lactose]
+ I                                   High                                 High
+ II                                  Low                                  Low
+ III                                 High                                 Low
+ IV                                  Low                                  High
+(A) I
+(B) II
+(C) III
+(D) IV
+
+
+8.DNA methylation in eukaryotes plays a role in__________________.
+(A) methyl-directed mismatch repair
+(B) protection of restriction sites
+(C) chromatin remodeling
+(D) gene silencing
+
+
+9.A short RNA that is complimentary to a specific mRNA and used for inhibition of translation is called?
+(A) antisense RNA
+(B) missense RNA
+(C) nonsense RNA
+(D) senseless RNA
+
+
+10.E. coli cells achieve a great deal of gene regulatory expression through the σ subunit of RNA polymerase.
+Which subunit is present most often since it promotes the production of most of the proteins required under
+normal conditions within the cell?
+(A) σ24
+(B) σ28
+(C) σ38
+(D) σ70
+11-15 為題組
+Match the correct answer with a related terminology below. Only one answer will be the most direct for each.
+
+
+
+
+11.Spliceosome
+
+
+12.Proteasome
+
+
+13.Peptidyl transferase
+
+
+14.Attenuator
+
+
+15.miRNA
+選擇題
+    1         2          3    4    5    6   7   8   9   10
+    D         A          A    C    C    D   C   D   A   D
+    11       12          13   14   15
+    B         D          E    AB   A
+
+
+1.(D)
+
+
+
+
+2.(A)
+(D) 應為轉錄。
+(E) 需滿足乳糖含量大於葡萄糖的條件。
+
+
+3.(A)
+(B) 被高濃度的 cAMP 促進。
+(C) CRP receptor site。
+(D) 葡萄糖濃度少的時候，cAMP 濃度上升，結合 CRP。
+(E) 無此現象。
+4.(C)
+(A) Coactivator 是存在於真核細胞的蛋白質，能協助促進轉錄。
+(B) Corepressor 結合在 repressor 上，協助 repressor 結合 promoter，例如 Trp。
+(C) Enhancer 藉由促進 RNA Pol 與 DNA 結合的方式，加強基因表現的一小段 DNA。
+(D) Inducer 和 Corepressor 相反，結合在 repressor 上，阻止 repressor 結合 promoter，例如乳糖。
+(E) Transcription activator（下圖的 ACT）結合 Enhancer 和 Mediator，和(C)是做同一件事，
+但他並不是 DNA。
+
+
+
+
+5.(C)
+Tryptophan 濃度低或偏高時都會表現 leader mRNA，只有在過量時因直接 repression 所以 leader mRNA
+不表現。
+註：參考原文書，attenuated mRNA 就叫做 leader mRNA。
+
+
+6.(D)
+參考第四題圖，enhancer 為一種 regulatory sequence，獨立於欲轉錄基因之外。
+
+
+7.(C)
+如右圖
+8.(D)
+當 CpG island 甲基化時，DNA 轉錄被抑制，反之則無。
+
+
+9.(A)
+節錄原文書：Antisense RNA is complimentary to a specific mRNA and used for inhibition of translation.
+It can block translation of the mRNA by forming a duplex with it. 所以它可以用來干擾 RNA。
+
+
+
+
+10.(D)
+
+
+
+
+不同的 σ 因子會調控不同的基因（找到不同的 promoter），有興趣可以仔細看下表
+11.(B)
+Spliceosome（剪接體）主要在真核細胞的細胞核內，由 snRNA 和蛋白質組裝而成的大型且複雜的分
+子。剪接體從轉錄出的 mRNA 中去除 intron（內含子）。
+
+
+12.(D)
+Proteasome（蛋白酶體）存於真核細胞的細胞核和細胞質中，為 lysosome（溶體）外的蛋白水解構造，
+是細胞調控特定數量蛋白質和除去錯誤摺疊蛋白質的場所。
+
+
+13.(E)
+Peptidyl transferase（肽基轉移酶），是轉譯過程中的一種，負責催化正在延伸的多肽鏈與下一個胺基
+酸間形成肽鍵。
+
+
+14.(AB)
+Attenuator：原核生物的操縱子中可以明顯衰減乃至終止轉錄作用的一段核苷酸序列，位於操縱子的
+上游。
+
+
+15.(A)
+miRNA 來自一些從 DNA 轉錄而來，但無法進一步轉譯成蛋白質的 RNA。miRNA 通過與目標
+mRNA 結合，進而抑制轉錄後的基因表現，在調控基因表現、細胞周期、生物體發育時序等方面起重
+要作用。
+

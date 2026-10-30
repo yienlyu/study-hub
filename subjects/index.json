@@ -1,6 +1,7 @@
 [
   { "id": "micro-immuno", "path": "subjects/micro-immuno" },
   { "id": "biochem", "path": "subjects/biochem" },
+  { "id": "biochem-lab", "path": "subjects/biochem-lab" },
   { "id": "epidemiology", "path": "subjects/epidemiology" },
   { "id": "parasitology", "path": "subjects/parasitology" }
 ]
