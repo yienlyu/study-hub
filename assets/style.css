@@ -286,10 +286,9 @@ a.pill:hover { text-decoration: none; border-color: var(--rule-strong); }
 .subject-card .arrow { width: 48px; height: 48px; border-radius: 50%; border: 1px solid var(--rule); display: grid; place-items: center; transition: background .2s, color .2s, transform .25s var(--ease); align-self: start; }
 .subject-card:hover .arrow { background: var(--ink); color: var(--paper); transform: rotate(-45deg); }
 .subject-card .arrow svg { width: 20px; height: 20px; }
-.subject-card .facts { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid var(--rule); padding-top: 18px; gap: 12px; }
+.subject-card .facts { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--rule); padding-top: 18px; gap: 12px; }
 .fact b { display: block; font-size: 1.6rem; font-weight: 600; letter-spacing: -.02em; line-height: 1.1; font-variant-numeric: tabular-nums; }
 .fact span { font-size: .78rem; color: var(--ink-3); }
-@media (max-width: 560px) { .subject-card .facts { grid-template-columns: repeat(2, 1fr); } }
 
 .steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid var(--ink); }
 .step { padding: 20px 20px 4px 0; border-right: 1px solid var(--rule); }

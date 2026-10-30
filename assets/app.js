@@ -1803,7 +1803,6 @@
         </div>
         <span class="arrow" aria-hidden="true">${ic("arrowR")}</span>
         <div class="facts">
-          <div class="fact"><b>${d === Infinity ? "—" : Math.max(0, Math.ceil(d))}</b><span>天後考試</span></div>
           <div class="fact"><b>${st.total}</b><span>練習題</span></div>
           <div class="fact"><b>${st.done}</b><span>已練習</span></div>
           <div class="fact"><b>${st.done ? `${st.acc}%` : "—"}</b><span>最近答對率</span></div>
