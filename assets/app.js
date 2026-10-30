@@ -2874,22 +2874,8 @@
     };
   }
 
-  // 小遊戲：用了 20 分鐘以上或做超過 20 題之後，才會隨機在扭蛋上方冒出一顆搖桿；點了（或自己去玩了）就重新計
-  // 什麼時候提醒：近 5 題錯 3 題、同一處狂點、連續專心讀了 50 分鐘，或讀書時偶爾隨機；面板開著就不提醒，玩小遊戲時不打擾
-  const SURPRISE = [
-    ["all", "掉出一顆扭蛋！", "路過掉了一顆扭蛋，打開看看今天抽到什麼。"],
-    [
-      "focus",
-      "來點專心用的背景音樂？",
-      "隨機掉落：配一首不吵的曲子，繼續讀下去。",
-    ],
-    [
-      "break",
-      "喝口水，聽首歌？",
-      "隨機掉落：起來喝口水、伸個懶腰，順便聽一首。",
-    ],
-    ["sleepy", "眼皮重了嗎？", "隨機掉落：來首提神的，醒醒腦再繼續。"],
-  ];
+  // 小遊戲：用了 50 分鐘以上或做超過 50 題之後，才會隨機在扭蛋上方冒出一顆搖桿；點了（或自己去玩了）就重新計
+  // 什麼時候提醒：連錯 5 題、同一處狂點、連續專心讀了 50 分鐘；面板開著就不提醒，玩小遊戲時不打擾
   const MoodWatch = (() => {
     const LONG = 50 * 60e3,
       IDLE = 2 * 60e3;
@@ -2901,8 +2887,8 @@
       clicks = [],
       used = 0,
       done = 0;
-    const GAME_AFTER = 30 * 60e3,
-      GAME_Q = 30;
+    const GAME_AFTER = 50 * 60e3,
+      GAME_Q = 50;
     let gameTimer = null;
     const gameReset = () => {
       used = 0;
@@ -2910,11 +2896,11 @@
       clearTimeout(gameTimer);
       $("#gmDrop").hidden = true;
     };
-    // 達標後每次檢查 1/30 的機率冒出來（計時每 30 秒一次、答題每題一次）
+    // 達標後每次檢查 1/50 的機率冒出來（計時每 30 秒一次、答題每題一次）
     const gameRoll = () => {
       const g = $("#gmDrop");
       if (!g || !g.hidden || location.hash.startsWith("#/play")) return;
-      if ((used >= GAME_AFTER || done > GAME_Q) && Math.random() < 1 / 30) {
+      if ((used >= GAME_AFTER || done > GAME_Q) && Math.random() < 1 / 50) {
         g.hidden = false;
         // 30 秒沒點就自己收起來（不重新計，之後還可能再冒出來）
         clearTimeout(gameTimer);
@@ -2985,12 +2971,6 @@
         studied += 30e3;
         used += 30e3;
         gameRoll();
-        // 偶爾也隨機掉一顆：至少讀了 10 分鐘後，每 30 秒 1/30 的機率（平均再約 15 分鐘）
-        if (studied >= 10 * 60e3 && studied < LONG && Math.random() < 1 / 30) {
-          const [mood, text, reason] =
-            SURPRISE[Math.floor(Math.random() * SURPRISE.length)];
-          return nudge(mood, text, reason);
-        }
         if (studied < LONG) return;
         studied = 0;
         const h = new Date().getHours(),
