@@ -316,6 +316,16 @@
     reset: (s) => `sh:${s}:resetT`,
   };
   const getProg = (sid) => store.get(K.prog(sid), {});
+  // 依答錯率加權的隨機排序（Efraimidis–Spirakis）。權重 = √((錯+1)/(對+1))：
+  // 沒做過和錯一半都是 1，錯 3 次是 2，對 3 次是 1/2，答錯率越高越常排在前面被抽到
+  const weightedShuffle = (list, prog) =>
+    list
+      .map((q) => {
+        const r = prog[q.id];
+        return [Math.random() ** Math.sqrt(((r?.c || 0) + 1) / ((r?.w || 0) + 1)), q];
+      })
+      .sort((a, b) => b[0] - a[0])
+      .map((x) => x[1]);
   const record = (sid, qid, ok, { ms = null, mode = "mcq" } = {}) => {
     const now = Date.now();
     const p = getProg(sid);
@@ -2258,7 +2268,7 @@
           .toLowerCase()
           .includes(kw),
       );
-    if (q.mode === "random") pool = shuffle(pool);
+    if (q.mode === "random") pool = weightedShuffle(pool, prog);
     const n = parseInt(q.n, 10);
     return n > 0 ? pool.slice(0, n) : pool;
   }
@@ -4003,6 +4013,14 @@
       ${q.disputed ? `<span class="pill warn">答案有爭議</span>` : ""}
     </div>`;
   }
+  // 作答後才顯示，避免先看到「常錯」而影響作答
+  const wrongRateTag = (sid, q) => {
+    const r = getProg(sid)[q.id];
+    const n = r ? (r.c || 0) + (r.w || 0) : 0;
+    return n
+      ? `<span class="wrong-rate" title="做過 ${n} 次，錯 ${r.w || 0} 次；答錯率越高，隨機出題和模擬考越常抽到">答錯率 ${pct(r.w || 0, n)}%（${r.w || 0}/${n}）</span>`
+      : "";
+  };
   const reportHref = (sid, q) =>
     `#/report?${qs({ sid, qid: q.id, where: `${q.source} ${q.id}` })}`;
   // answer 有多個時：一般題表示「任一個都算對」；multi（多選題）要全部選對才算對。
@@ -4142,7 +4160,7 @@
             : a.ok
               ? `${ic("check")}答對了${S.streak >= 3 && S.i === S.last ? `・連對 ${S.streak} 題` : ""}`
               : `${ic("x")}答錯了，正確答案是 ${ansText(qq)}`;
-        verdict = `<div class="verdict ${tone}" role="status"><div class="verdict-head">${head}</div><div class="verdict-body">
+        verdict = `<div class="verdict ${tone}" role="status"><div class="verdict-head">${head}${a.na ? "" : wrongRateTag(sid, qq)}</div><div class="verdict-body">
           ${qq.answerText ? `<div class="answer-text"><div class="explain-title">參考答案</div>${rich(qq.answerText)}</div>` : ""}
           ${qq.explain ? `<div class="explain-title">詳解</div><div class="explain">${rich(qq.explain)}</div>` : qq.answerText ? "" : '<div class="muted">這題沒有附詳解。</div>'}
           ${qq.note ? `<div class="note">${ic("alert")}<div>${esc(qq.note)}</div></div>` : ""}${figLinks(subj, qq)}</div></div>`;
@@ -4418,12 +4436,14 @@
     const M = subj.meta.mock;
     const src = sourcesOf(subj);
     const isNew = (q) => src.find((s) => s.match(q))?.kind === "new";
+    const prog = getProg(subj.meta.id);
     const used = new Set();
     const ids = [],
       sec = [];
     M.sections.forEach((s, si) => {
-      const pool = shuffle(
+      const pool = weightedShuffle(
         mockSectionPool(subj, s).filter((q) => !used.has(q.id)),
+        prog,
       );
       const nw = pool.filter(isNew),
         old = pool.filter((q) => !isNew(q));
@@ -4807,7 +4827,7 @@
             <div class="flip-hint"><button class="btn accent lg" type="button" id="flip">${ic("rotate")}翻面看答案<span class="kbd-hint hide-touch"><kbd>Space</kbd></span></button></div>
           </section>
           <section class="card flash-face back"${S.flipped ? "" : " inert"}>
-            <div class="eyebrow">答案</div>
+            <div class="eyebrow">答案${wrongRateTag(subj.meta.id, x)}</div>
             ${big ? `<div class="flash-answer">${big}</div>` : ""}
             ${x.answerText ? `<div class="answer-text">${rich(x.answerText)}</div>` : ""}
             ${optsBack && ans.length ? `<details class="fig-inline" style="border:0;padding:0;margin:0 0 6px"><summary>全部選項</summary>${optsBack}</details>` : ""}
