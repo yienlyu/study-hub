@@ -54,25 +54,25 @@
   ],
   "groups": [
     {
-      "title": "概論與傳染病流病",
+      "title": "概論與傳染病流病 W1–W2",
       "chapters": [
         "intro",
         "transmission"
       ]
     },
     {
-      "title": "疾病發生的測量（謝芳宜）",
+      "title": "疾病發生的測量（謝芳宜）W4–W6",
       "chapters": [
         "morbidity",
         "mortality"
       ]
     },
     {
-      "title": "期中考範圍：篩檢、預後與臨床試驗（尚未上課）",
+      "title": "預後、臨床試驗與篩檢 W7–W9",
       "chapters": [
-        "screening",
         "prognosis",
-        "rct"
+        "rct",
+        "screening"
       ]
     }
   ],
@@ -126,7 +126,7 @@
       "title": "概論與描述性流行病學",
       "en": "Overview & Descriptive Epidemiology",
       "teacher": "陳偉仁",
-      "week": "W1",
+      "week": "W1（9/11）",
       "slides": true
     },
     {
@@ -134,7 +134,7 @@
       "title": "疾病傳播動力學",
       "en": "The Dynamics of Disease Transmission",
       "teacher": "葉志清",
-      "week": "W2",
+      "week": "W2（9/18）",
       "slides": true
     },
     {
@@ -142,7 +142,7 @@
       "title": "疾病率的測量（I）：Morbidity",
       "en": "Measuring the Occurrence of Disease I · Morbidity",
       "teacher": "謝芳宜",
-      "week": "W3",
+      "week": "W4（10/2）",
       "slides": true
     },
     {
@@ -150,23 +150,15 @@
       "title": "疾病率的測量（II）：Mortality",
       "en": "Measuring the Occurrence of Disease II · Mortality",
       "teacher": "謝芳宜",
-      "week": "W4",
+      "week": "W6（10/16）",
       "slides": true
-    },
-    {
-      "id": "screening",
-      "title": "診斷與篩檢試驗的效度與信度",
-      "en": "Validity & Reliability of Diagnostic and Screening Tests",
-      "teacher": "—",
-      "week": "未上",
-      "slides": false
     },
     {
       "id": "prognosis",
       "title": "疾病自然史與預後",
       "en": "Natural History of Disease · Prognosis",
       "teacher": "白其卉",
-      "week": "W5（錄影 10/21）",
+      "week": "W7（10/23）",
       "slides": true
     },
     {
@@ -174,7 +166,15 @@
       "title": "隨機臨床試驗",
       "en": "Randomized Trials",
       "teacher": "白其卉（去年）",
-      "week": "未上",
+      "week": "W8（10/30）",
+      "slides": false
+    },
+    {
+      "id": "screening",
+      "title": "診斷與篩檢試驗的效度與信度",
+      "en": "Validity & Reliability of Diagnostic and Screening Tests",
+      "teacher": "—",
+      "week": "W9（11/6）",
       "slides": false
     }
   ],

@@ -48,15 +48,14 @@
   ],
   "groups": [
     {
-      "title": "脂質代謝與訊息傳遞（黃彥華）",
+      "title": "脂質代謝（黃彥華）W1–W3",
       "chapters": [
         "ch17",
-        "ch12",
         "ch21"
       ]
     },
     {
-      "title": "代謝整合、胺基酸與核苷酸代謝（陳顧中）",
+      "title": "代謝整合與胺基酸代謝（陳顧中）W4–W7",
       "chapters": [
         "ch23",
         "ch18",
@@ -64,9 +63,10 @@
       ]
     },
     {
-      "title": "期中考後內容（非期中考範圍）",
+      "title": "W9 之後（Ch12 雖排在 W10，仍在期中考範圍）",
       "chapters": [
-        "ch22n"
+        "ch22n",
+        "ch12"
       ]
     }
   ],
@@ -105,15 +105,7 @@
       "title": "脂肪酸分解代謝",
       "en": "Ch17 · Fatty acid catabolism",
       "teacher": "黃彥華",
-      "week": "W1",
-      "slides": true
-    },
-    {
-      "id": "ch12",
-      "title": "生化訊息傳遞",
-      "en": "Ch12 · Biochemical signaling",
-      "teacher": "黃彥華",
-      "week": "W2",
+      "week": "W1–W2（9/10、9/17）",
       "slides": true
     },
     {
@@ -121,7 +113,7 @@
       "title": "脂質生合成",
       "en": "Ch21 · Lipid biosynthesis",
       "teacher": "黃彥華",
-      "week": "W3",
+      "week": "W3（9/24）",
       "slides": true
     },
     {
@@ -129,7 +121,7 @@
       "title": "器官間代謝整合與激素調控",
       "en": "Ch23 · Interorgan coordination & hormonal regulation",
       "teacher": "陳顧中",
-      "week": "W4",
+      "week": "W4–W5（10/1、10/8）",
       "slides": true
     },
     {
@@ -137,7 +129,7 @@
       "title": "胺基酸氧化與尿素生成",
       "en": "Ch18 · Amino acid oxidation & urea",
       "teacher": "陳顧中",
-      "week": "W5",
+      "week": "W6（10/15）",
       "slides": true
     },
     {
@@ -145,7 +137,7 @@
       "title": "胺基酸生合成、紫質與 heme",
       "en": "Ch22 · Amino acids, porphyrins & heme",
       "teacher": "陳顧中",
-      "week": "W5",
+      "week": "W7（10/22）",
       "slides": true
     },
     {
@@ -153,8 +145,16 @@
       "title": "核苷酸代謝（期中考後）",
       "en": "Ch22 · Nucleotide metabolism",
       "teacher": "陳顧中",
-      "week": "期中後",
+      "week": "W9（11/5）",
       "slides": false
+    },
+    {
+      "id": "ch12",
+      "title": "生化訊息傳遞",
+      "en": "Ch12 · Biochemical signaling",
+      "teacher": "黃彥華",
+      "week": "W10（11/12）",
+      "slides": true
     }
   ],
   "sheet": "content/_sheet.md",

@@ -49,25 +49,32 @@
   ],
   "groups": [
     {
-      "title": "總論與腸道線蟲（范家堃）",
+      "title": "總論與腸道線蟲（范家堃）W1–W2",
       "chapters": [
         "intro",
         "sth",
-        "enterobius-toxocara",
-        "capillaria-strongyloides"
+        "capillaria-strongyloides",
+        "enterobius-toxocara"
       ]
     },
     {
-      "title": "組織線蟲",
-      "chapters": ["foodborne", "filaria"]
+      "title": "組織線蟲（114 排程未列）",
+      "chapters": [
+        "foodborne",
+        "filaria"
+      ]
     },
     {
-      "title": "吸蟲",
-      "chapters": ["trematodes"]
+      "title": "線蟲實驗 W3",
+      "chapters": [
+        "nematode-lab"
+      ]
     },
     {
-      "title": "實驗課",
-      "chapters": ["nematode-lab"]
+      "title": "吸蟲（鄭柏青）W5–W7",
+      "chapters": [
+        "trematodes"
+      ]
     }
   ],
   "mock": {
@@ -93,7 +100,9 @@
         "title": "鄭柏青：吸蟲",
         "points": 40,
         "n": 20,
-        "from": ["trematodes"]
+        "from": [
+          "trematodes"
+        ]
       }
     ],
     "newRatio": 0.2
@@ -104,7 +113,7 @@
       "title": "寄生蟲總論",
       "en": "Introduction to Parasitology",
       "teacher": "范家堃",
-      "week": "W1",
+      "week": "W1（9/7）",
       "slides": true
     },
     {
@@ -112,15 +121,7 @@
       "title": "土源性蠕蟲：蛔蟲、鞭蟲、鉤蟲",
       "en": "Soil-transmitted Helminths",
       "teacher": "范家堃",
-      "week": "W1",
-      "slides": true
-    },
-    {
-      "id": "enterobius-toxocara",
-      "title": "蟯蟲與犬蛔蟲",
-      "en": "Enterobius vermicularis & Toxocara canis",
-      "teacher": "范家堃",
-      "week": "W1",
+      "week": "W1（9/7）",
       "slides": true
     },
     {
@@ -128,7 +129,15 @@
       "title": "毛線蟲與糞小桿線蟲",
       "en": "Capillaria & Strongyloides stercoralis",
       "teacher": "范家堃",
-      "week": "W2",
+      "week": "W2（9/14）",
+      "slides": true
+    },
+    {
+      "id": "enterobius-toxocara",
+      "title": "蟯蟲與犬蛔蟲",
+      "en": "Enterobius vermicularis & Toxocara canis",
+      "teacher": "范家堃",
+      "week": "W2（9/14）",
       "slides": true
     },
     {
@@ -148,19 +157,19 @@
       "slides": true
     },
     {
-      "id": "trematodes",
-      "title": "吸蟲：腸吸蟲、肺吸蟲、肝吸蟲、血吸蟲",
-      "en": "Trematodes",
-      "teacher": "鄭柏青",
-      "week": "W5",
-      "slides": true
-    },
-    {
       "id": "nematode-lab",
       "title": "線蟲實驗：蟲卵與蟲體鑑別",
       "en": "Nematode Lab · Ova & Adult Identification",
       "teacher": "實驗課",
-      "week": "W3",
+      "week": "W3（9/21）",
+      "slides": true
+    },
+    {
+      "id": "trematodes",
+      "title": "吸蟲：腸吸蟲、肺吸蟲、肝吸蟲、血吸蟲",
+      "en": "Trematodes",
+      "teacher": "鄭柏青",
+      "week": "W5–W6（10/5、10/12）",
       "slides": true
     }
   ],

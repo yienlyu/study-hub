@@ -15,37 +15,47 @@
   ],
   "groups": [
     {
-      "title": "細菌學總論（黃姿雯）",
+      "title": "細菌學總論（黃姿雯）W1",
       "chapters": [
         "bact-structure",
         "bact-genetics",
-        "sterilization",
-        "pathogenesis"
+        "sterilization"
       ]
     },
     {
-      "title": "免疫學（陳玫潔、李岳倫）",
+      "title": "免疫學 W2–W5",
       "chapters": [
         "immuno-basic",
         "innate",
         "agab",
-        "mhc",
         "tcell-dev",
         "tcell-act",
-        "infection-immunity",
-        "immunodeficiency",
-        "hypersensitivity"
+        "infection-immunity"
       ]
     },
     {
-      "title": "細菌、真菌與病毒各論（黃姿雯、鍾筱菁、吳珊瑩）",
+      "title": "細菌、真菌與病毒各論 W6–W8",
       "chapters": [
-        "staph-strep",
         "enterobacteriaceae",
         "bacillus",
+        "staph-strep",
         "neisseria",
         "fungi",
         "viruses"
+      ]
+    },
+    {
+      "title": "非同步遠距（W17–W18，期中考範圍）",
+      "chapters": [
+        "mhc",
+        "pathogenesis",
+        "immunodeficiency"
+      ]
+    },
+    {
+      "title": "期中考後",
+      "chapters": [
+        "hypersensitivity"
       ]
     }
   ],
@@ -215,7 +225,7 @@
       "title": "細菌簡介、分類、構造與代謝",
       "en": "Bacterial structure, classification & metabolism",
       "teacher": "黃姿雯",
-      "week": "W1-1",
+      "week": "W1-1（9/9）",
       "slides": true
     },
     {
@@ -223,7 +233,7 @@
       "title": "細菌遺傳與生物技術",
       "en": "Bacterial genetics & biotechnology",
       "teacher": "黃姿雯",
-      "week": "W1-2",
+      "week": "W1-2（9/11）",
       "slides": true
     },
     {
@@ -231,15 +241,7 @@
       "title": "滅菌、消毒與防腐",
       "en": "Sterilization, disinfection & antisepsis",
       "teacher": "黃姿雯",
-      "week": "W1-2",
-      "slides": true
-    },
-    {
-      "id": "pathogenesis",
-      "title": "細菌致病機轉",
-      "en": "Mechanisms of bacterial pathogenesis",
-      "teacher": "黃姿雯",
-      "week": "W1–W3",
+      "week": "W1-2（9/11）",
       "slides": true
     },
     {
@@ -247,7 +249,7 @@
       "title": "免疫學基本概念",
       "en": "Basic concepts in immunology",
       "teacher": "陳玫潔",
-      "week": "W2-1",
+      "week": "W2-1（9/16）",
       "slides": true
     },
     {
@@ -255,7 +257,7 @@
       "title": "先天免疫",
       "en": "Innate immunity",
       "teacher": "李岳倫",
-      "week": "W2-2",
+      "week": "W2-2（9/18）",
       "slides": true
     },
     {
@@ -263,15 +265,7 @@
       "title": "抗原、抗體與抗體多樣性",
       "en": "Antigen, antibody & antibody diversity",
       "teacher": "李岳倫",
-      "week": "W3-1",
-      "slides": true
-    },
-    {
-      "id": "mhc",
-      "title": "MHC、抗原處理與呈現",
-      "en": "MHC, antigen processing & presentation",
-      "teacher": "陳玫潔",
-      "week": "W4-1",
+      "week": "W3-1（9/23）",
       "slides": true
     },
     {
@@ -279,7 +273,7 @@
       "title": "TCR、T 細胞發育與訊息傳遞",
       "en": "TCR, T cell development & TCR signaling",
       "teacher": "陳玫潔",
-      "week": "W4-2",
+      "week": "W4-1（9/30）",
       "slides": true
     },
     {
@@ -287,7 +281,7 @@
       "title": "T 細胞媒介免疫與免疫細胞合作",
       "en": "T cell-mediated immunity & cell cooperation",
       "teacher": "陳玫潔",
-      "week": "W4-2",
+      "week": "W4-2（10/2）",
       "slides": true
     },
     {
@@ -295,31 +289,7 @@
       "title": "對抗感染的免疫反應",
       "en": "Immune response against infectious agents",
       "teacher": "林秋烽",
-      "week": "W5-1",
-      "slides": true
-    },
-    {
-      "id": "immunodeficiency",
-      "title": "免疫缺陷疾病",
-      "en": "Immunodeficiency diseases",
-      "teacher": "賴傳穎",
-      "week": "W18 遠距",
-      "slides": true
-    },
-    {
-      "id": "hypersensitivity",
-      "title": "過敏反應",
-      "en": "Hypersensitivity",
-      "teacher": "—",
-      "week": "未上",
-      "slides": false
-    },
-    {
-      "id": "staph-strep",
-      "title": "葡萄球菌、鏈球菌、腸球菌",
-      "en": "Staphylococcus, Streptococcus & Enterococcus",
-      "teacher": "黃姿雯",
-      "week": "W7-2（10/21）",
+      "week": "W5-1（10/7）",
       "slides": true
     },
     {
@@ -327,7 +297,7 @@
       "title": "腸桿菌科",
       "en": "Enterobacteriaceae",
       "teacher": "鍾筱菁",
-      "week": "W6-2、W7（10/16、10/22）",
+      "week": "W6-1（10/14）",
       "slides": true
     },
     {
@@ -335,7 +305,15 @@
       "title": "Bacillus、Listeria、Corynebacterium",
       "en": "Bacillus, Listeria & Corynebacterium",
       "teacher": "鍾筱菁",
-      "week": "W6-1",
+      "week": "W6-2（10/16）",
+      "slides": true
+    },
+    {
+      "id": "staph-strep",
+      "title": "葡萄球菌、鏈球菌、腸球菌",
+      "en": "Staphylococcus, Streptococcus & Enterococcus",
+      "teacher": "黃姿雯",
+      "week": "W7-1（10/21）",
       "slides": true
     },
     {
@@ -343,7 +321,7 @@
       "title": "Neisseria、Campylobacter、Helicobacter、Pseudomonas、Vibrio",
       "en": "Neisseria, Campylobacter, Helicobacter, Pseudomonas, Vibrio",
       "teacher": "黃姿雯／鍾筱菁",
-      "week": "W7（10/21、10/22）",
+      "week": "W7-1、W7-2（10/21、10/23）",
       "slides": true
     },
     {
@@ -351,7 +329,7 @@
       "title": "真菌構造與黴菌病",
       "en": "Fungal structure & mycosis",
       "teacher": "鍾筱菁",
-      "week": "W8（10/24、10/28）",
+      "week": "W7-2、W8-1（10/23、10/28）",
       "slides": true
     },
     {
@@ -359,7 +337,39 @@
       "title": "病毒構造、複製、分類與抗病毒藥物",
       "en": "Viral structure, replication, classification & antiviral agents",
       "teacher": "吳珊瑩",
-      "week": "W8（10/30）",
+      "week": "W8-2（10/30）",
+      "slides": true
+    },
+    {
+      "id": "mhc",
+      "title": "MHC、抗原處理與呈現",
+      "en": "MHC, antigen processing & presentation",
+      "teacher": "陳玫潔",
+      "week": "W17-1 遠距",
+      "slides": true
+    },
+    {
+      "id": "pathogenesis",
+      "title": "細菌致病機轉",
+      "en": "Mechanisms of bacterial pathogenesis",
+      "teacher": "黃姿雯",
+      "week": "W18-1 遠距",
+      "slides": true
+    },
+    {
+      "id": "immunodeficiency",
+      "title": "免疫缺陷疾病",
+      "en": "Immunodeficiency diseases",
+      "teacher": "賴傳穎",
+      "week": "W18-1 遠距",
+      "slides": true
+    },
+    {
+      "id": "hypersensitivity",
+      "title": "過敏反應",
+      "en": "Hypersensitivity",
+      "teacher": "—",
+      "week": "W14-2（12/11）",
       "slides": false
     }
   ],
