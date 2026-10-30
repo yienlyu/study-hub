@@ -1776,22 +1776,34 @@
       },
       { done: 0, right: 0, wrong: 0 },
     );
-    // 期中已考完（目前的模擬考已換成期末，或沒有期中）的科目排到還沒考期中的科目後面
-    const midPending = (s) =>
-      s.meta.mock && s.meta.mock.id !== "final" ? 0 : 1;
+    // 下一場考試：目前模擬考的 until（期中考完會自動換成期末），沒有就用 examDate
+    const daysLeft = (s) => {
+      const u = s.meta.mock?.until || s.meta.examDate;
+      if (!u) return Infinity;
+      const t = new Date(/T/.test(u) ? u : `${u}T23:59:59+08:00`);
+      return (t - new Date()) / 864e5;
+    };
+    // 綜合排序：越快考、掌握度越低越前面。掌握度＝答對題數 ÷ 全部題數；
+    // 加 0.1 讓掌握度很高但快考的科目不會被排到最後
+    const urgency = (s) => {
+      const st = subjectStats(s);
+      return (1.1 - st.right / Math.max(1, st.total)) / Math.max(1, daysLeft(s));
+    };
     const cards = [...subs]
-      .sort((a, b) => midPending(a) - midPending(b))
+      .sort((a, b) => urgency(b) - urgency(a))
       .map((s) => {
         const st = subjectStats(s);
+        const d = daysLeft(s);
+        const n = Math.ceil(d);
         return `<a class="card subject-card" href="#/s/${s.meta.id}">
         <div>
-          <div class="eyebrow">${esc(s.meta.term || "Subject")}</div>
+          <div class="eyebrow">${esc(s.meta.term || "Subject")}${d >= 0 && d !== Infinity ? ` · <b>距離考試 ${n} 天</b>` : ""}</div>
           <h3 class="display" style="margin-top:10px">${esc(s.meta.title)}</h3>
           <p class="muted small" style="margin:10px 0 0;max-width:40em">${esc(s.meta.description || "")}</p>
         </div>
         <span class="arrow" aria-hidden="true">${ic("arrowR")}</span>
         <div class="facts">
-          <div class="fact"><b>${s.meta.chapters.length}</b><span>章節</span></div>
+          <div class="fact"><b>${d === Infinity ? "—" : Math.max(0, Math.ceil(d))}</b><span>天後考試</span></div>
           <div class="fact"><b>${st.total}</b><span>練習題</span></div>
           <div class="fact"><b>${st.done}</b><span>已練習</span></div>
           <div class="fact"><b>${st.done ? `${st.acc}%` : "—"}</b><span>最近答對率</span></div>
