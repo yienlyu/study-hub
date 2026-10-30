@@ -25,7 +25,8 @@
   );
   const IS_TOUCH = matchMedia("(hover: none)").matches;
   // 跟 app.js 同一個快取版本號，延後載入的檔案沿用
-  const STATIC_V = (document.currentScript?.src.match(/[?&]v=([^&]+)/) || [])[1] || "";
+  const STATIC_V =
+    (document.currentScript?.src.match(/[?&]v=([^&]+)/) || [])[1] || "";
 
   // ------------------------------------------------------------ icons (stroke, 24 grid)
   const P = {
@@ -261,13 +262,15 @@
     // "mock" 可以是一份或陣列（期中、期末⋯）：每份的 until（考試結束時間，或只寫日期＝當天結束）過了就自動換下一份
     if (meta.mock)
       meta.mock =
-        [].concat(meta.mock).find(
-          (x) =>
-            !x.until ||
-            new Date(
-              /T/.test(x.until) ? x.until : `${x.until}T23:59:59+08:00`,
-            ) > new Date(),
-        ) || null;
+        []
+          .concat(meta.mock)
+          .find(
+            (x) =>
+              !x.until ||
+              new Date(
+                /T/.test(x.until) ? x.until : `${x.until}T23:59:59+08:00`,
+              ) > new Date(),
+          ) || null;
     const lists = await Promise.all(
       (meta.questionFiles || []).map((f) =>
         fetchJSON(`${ent.path}/${f}`).catch(() => []),
@@ -1398,13 +1401,17 @@
     document.documentElement.style.overflow = "hidden";
     const steps = [0.6, 0.8, 1, 1.25, 1.5, 2, 2.5, 3];
     // 自訂輸入範圍 10%–500%；+/- 從目前比例跳到下一個預設檔位
-    const MIN = 0.1, MAX = 5;
+    const MIN = 0.1,
+      MAX = 5;
     let scale = 1;
     const step = (d) => {
-      const next = d > 0
-        ? steps.find((s) => s > scale + 1e-6)
-        : steps.findLast((s) => s < scale - 1e-6);
-      scale = next ?? (d > 0 ? Math.max(scale, steps.at(-1)) : Math.min(scale, steps[0]));
+      const next =
+        d > 0
+          ? steps.find((s) => s > scale + 1e-6)
+          : steps.findLast((s) => s < scale - 1e-6);
+      scale =
+        next ??
+        (d > 0 ? Math.max(scale, steps.at(-1)) : Math.min(scale, steps[0]));
       apply();
     };
     const stage = $(".figzoom-stage", el);
@@ -1430,7 +1437,8 @@
     const num = $(".num", el);
     const commit = () => {
       const v = parseFloat(num.value);
-      if (Number.isFinite(v) && v > 0) scale = Math.min(MAX, Math.max(MIN, v / 100));
+      if (Number.isFinite(v) && v > 0)
+        scale = Math.min(MAX, Math.max(MIN, v / 100));
       apply();
     };
     num.addEventListener("focus", () => num.select());
@@ -1501,9 +1509,14 @@
     const tops = new Set(q.topics || []);
     const pick = q.figs || [];
     const all = subj.figs || [];
-    const picked = pick.map((id) => all.find((f) => f.id === id)).filter(Boolean);
+    const picked = pick
+      .map((id) => all.find((f) => f.id === id))
+      .filter(Boolean);
     const auto = all
-      .filter((f) => !pick.includes(f.id) && (f.topics || []).some((t) => tops.has(t)))
+      .filter(
+        (f) =>
+          !pick.includes(f.id) && (f.topics || []).some((t) => tops.has(t)),
+      )
       .sort(
         (a, b) =>
           isSlide(a) - isSlide(b) ||
@@ -1589,7 +1602,8 @@
     // 依密度縮放：菌落總面積超過可用面積（480 基準下半徑 ≈186）的 40% 就等比縮小；
     // 越擠光暈越小越淡，避免連成一片
     const fill =
-      colonies.reduce((a, c) => a + c.r * c.r, 0) / (0.47 * 0.86 * 0.96 * 480) ** 2;
+      colonies.reduce((a, c) => a + c.r * c.r, 0) /
+      (0.47 * 0.86 * 0.96 * 480) ** 2;
     const cs = Math.min(1, Math.sqrt(0.4 / Math.max(fill, 1e-6)));
     const crowd = Math.min(1, Math.max(0, (1 - cs) / 0.5));
     const haloMul = 1.75 - 0.55 * crowd,
@@ -1796,7 +1810,9 @@
     // 加 0.1 讓掌握度很高但快考的科目不會被排到最後
     const urgency = (s) => {
       const st = subjectStats(s);
-      return (1.1 - st.right / Math.max(1, st.total)) / Math.max(1, daysLeft(s));
+      return (
+        (1.1 - st.right / Math.max(1, st.total)) / Math.max(1, daysLeft(s))
+      );
     };
     const cards = [...subs]
       .sort((a, b) => urgency(b) - urgency(a))
@@ -1890,9 +1906,7 @@
     const lastC = lastCh && !subj.chMap[lastCh]?.done && subj.chMap[lastCh];
     const live = m.chapters.filter((c) => !subj.chMap[c.id].done);
     const firstUnread =
-      live.find((c) => c.slides && !read.has(c.id)) ||
-      live[0] ||
-      m.chapters[0];
+      live.find((c) => c.slides && !read.has(c.id)) || live[0] || m.chapters[0];
     const cont = subj.chMap[(lastC || firstUnread).id];
     const priority = live
       .map((c) => ({
@@ -2402,42 +2416,228 @@
   ];
   // [曲名, 演出者, 適合的狀態, 純音樂?, 一句推薦]
   const TRACKS = [
-    ["Goldberg Variations, BWV 988: Aria", "J.S. Bach · Glenn Gould", "focus night", 1, "規律、不搶戲，巴洛克的對位很適合背一長串代謝路徑。"],
-    ["Music for Airports 1/1", "Brian Eno", "focus anxious", 1, "環境音樂的始祖，聽著聽著就忘了它在播。"],
-    ["Gymnopédie No. 1", "Erik Satie", "focus break", 1, "慢、留白多，適合一張一張慢慢看圖。"],
-    ["Clair de Lune", "Claude Debussy", "focus anxious", 1, "月光很溫柔，腦袋太滿的時候先讓它安靜一下。"],
-    ["Nuvole Bianche", "Ludovico Einaudi", "focus anxious", 1, "反覆的鋼琴句子，很適合配著寫筆記。"],
-    ["On the Nature of Daylight", "Max Richter", "focus anxious", 1, "弦樂慢慢堆上來，讀長篇講義剛好。"],
-    ["Saman", "Ólafur Arnalds", "focus night", 1, "安靜的鋼琴，夜深時不會吵到自己。"],
-    ["Says", "Nils Frahm", "focus night", 1, "合成器一層層累積，專注度會跟著慢慢上來。"],
-    ["Aruarian Dance", "Nujabes", "focus night", 1, "lo-fi 的源頭之一，節奏穩、不分心。"],
+    [
+      "Goldberg Variations, BWV 988: Aria",
+      "J.S. Bach · Glenn Gould",
+      "focus night",
+      1,
+      "規律、不搶戲，巴洛克的對位很適合背一長串代謝路徑。",
+    ],
+    [
+      "Music for Airports 1/1",
+      "Brian Eno",
+      "focus anxious",
+      1,
+      "環境音樂的始祖，聽著聽著就忘了它在播。",
+    ],
+    [
+      "Gymnopédie No. 1",
+      "Erik Satie",
+      "focus break",
+      1,
+      "慢、留白多，適合一張一張慢慢看圖。",
+    ],
+    [
+      "Clair de Lune",
+      "Claude Debussy",
+      "focus anxious",
+      1,
+      "月光很溫柔，腦袋太滿的時候先讓它安靜一下。",
+    ],
+    [
+      "Nuvole Bianche",
+      "Ludovico Einaudi",
+      "focus anxious",
+      1,
+      "反覆的鋼琴句子，很適合配著寫筆記。",
+    ],
+    [
+      "On the Nature of Daylight",
+      "Max Richter",
+      "focus anxious",
+      1,
+      "弦樂慢慢堆上來，讀長篇講義剛好。",
+    ],
+    [
+      "Saman",
+      "Ólafur Arnalds",
+      "focus night",
+      1,
+      "安靜的鋼琴，夜深時不會吵到自己。",
+    ],
+    [
+      "Says",
+      "Nils Frahm",
+      "focus night",
+      1,
+      "合成器一層層累積，專注度會跟著慢慢上來。",
+    ],
+    [
+      "Aruarian Dance",
+      "Nujabes",
+      "focus night",
+      1,
+      "lo-fi 的源頭之一，節奏穩、不分心。",
+    ],
     ["Awake", "Tycho", "focus sleepy", 1, "明亮的電子樂，下午的低潮期很好用。"],
     ["Kiara", "Bonobo", "focus night", 1, "溫暖的電子節拍，適合做題目。"],
-    ["lofi hip hop radio – beats to relax/study to", "Lofi Girl", "focus night", 1, "那個戴耳機寫作業的女孩，全世界一起陪你讀。"],
-    ["Merry Christmas Mr. Lawrence", "坂本龍一", "anxious focus", 1, "旋律熟悉又沉穩，緊張時聽很安心。"],
-    ["Cello Suite No. 1: Prelude", "J.S. Bach · Yo-Yo Ma", "anxious focus", 1, "一把大提琴就很完整，呼吸跟著它放慢。"],
-    ["Weightless", "Marconi Union", "anxious", 1, "刻意寫得越來越慢的曲子，心跳也會跟著慢下來。"],
-    ["River Flows in You", "Yiruma", "anxious break", 1, "簡單乾淨，深呼吸三次再回去讀。"],
-    ["One Summer's Day", "久石讓", "anxious break", 1, "《神隱少女》的開場，提醒你考完就放暑假了。"],
-    ["Summer", "久石讓", "sleepy break", 1, "《菊次郎的夏天》，輕快到很難繼續打瞌睡。"],
-    ["The Four Seasons, Summer: III. Presto", "Antonio Vivaldi", "sleepy", 1, "夏天的暴風雨樂章，比咖啡還醒腦。"],
-    ["William Tell Overture: Finale", "Gioachino Rossini", "sleepy", 1, "騎兵進行曲，聽完直接衝下一章。"],
-    ["Time", "Hans Zimmer", "night focus", 1, "《全面啟動》的配樂，越來越滿，最後衝刺用。"],
+    [
+      "lofi hip hop radio – beats to relax/study to",
+      "Lofi Girl",
+      "focus night",
+      1,
+      "那個戴耳機寫作業的女孩，全世界一起陪你讀。",
+    ],
+    [
+      "Merry Christmas Mr. Lawrence",
+      "坂本龍一",
+      "anxious focus",
+      1,
+      "旋律熟悉又沉穩，緊張時聽很安心。",
+    ],
+    [
+      "Cello Suite No. 1: Prelude",
+      "J.S. Bach · Yo-Yo Ma",
+      "anxious focus",
+      1,
+      "一把大提琴就很完整，呼吸跟著它放慢。",
+    ],
+    [
+      "Weightless",
+      "Marconi Union",
+      "anxious",
+      1,
+      "刻意寫得越來越慢的曲子，心跳也會跟著慢下來。",
+    ],
+    [
+      "River Flows in You",
+      "Yiruma",
+      "anxious break",
+      1,
+      "簡單乾淨，深呼吸三次再回去讀。",
+    ],
+    [
+      "One Summer's Day",
+      "久石讓",
+      "anxious break",
+      1,
+      "《神隱少女》的開場，提醒你考完就放暑假了。",
+    ],
+    [
+      "Summer",
+      "久石讓",
+      "sleepy break",
+      1,
+      "《菊次郎的夏天》，輕快到很難繼續打瞌睡。",
+    ],
+    [
+      "The Four Seasons, Summer: III. Presto",
+      "Antonio Vivaldi",
+      "sleepy",
+      1,
+      "夏天的暴風雨樂章，比咖啡還醒腦。",
+    ],
+    [
+      "William Tell Overture: Finale",
+      "Gioachino Rossini",
+      "sleepy",
+      1,
+      "騎兵進行曲，聽完直接衝下一章。",
+    ],
+    [
+      "Time",
+      "Hans Zimmer",
+      "night focus",
+      1,
+      "《全面啟動》的配樂，越來越滿，最後衝刺用。",
+    ],
     ["Rhubarb", "Aphex Twin", "night", 1, "深夜的環境電子樂，安靜得剛好。"],
-    ["Harder, Better, Faster, Stronger", "Daft Punk", "sleepy night", 0, "歌名就是你現在的讀書進度目標。"],
-    ["Don't Stop Me Now", "Queen", "sleepy", 0, "主歌一開始就停不下來，提神首選。"],
-    ["Eye of the Tiger", "Survivor", "sleepy", 0, "考前最後一章，拿出拳擊手的氣勢。"],
-    ["倔強", "五月天", "sleepy anxious", 0, "「我和我驕傲的倔強」——考試前一晚的主題曲。"],
-    ["旅行的意義", "陳綺貞", "anxious break", 0, "輕輕的吉他和人聲，讓緊繃的肩膀放下來。"],
-    ["Holocene", "Bon Iver", "anxious night", 0, "很遼闊的一首歌，提醒你一次考試沒那麼大。"],
-    ["My Jinji", "落日飛車", "break", 0, "慵懶的 city pop，休息十分鐘剛好一首。"],
-    ["Don't Know Why", "Norah Jones", "break", 0, "爵士鋼琴配溫暖的嗓音，放空用。"],
+    [
+      "Harder, Better, Faster, Stronger",
+      "Daft Punk",
+      "sleepy night",
+      0,
+      "歌名就是你現在的讀書進度目標。",
+    ],
+    [
+      "Don't Stop Me Now",
+      "Queen",
+      "sleepy",
+      0,
+      "主歌一開始就停不下來，提神首選。",
+    ],
+    [
+      "Eye of the Tiger",
+      "Survivor",
+      "sleepy",
+      0,
+      "考前最後一章，拿出拳擊手的氣勢。",
+    ],
+    [
+      "倔強",
+      "五月天",
+      "sleepy anxious",
+      0,
+      "「我和我驕傲的倔強」——考試前一晚的主題曲。",
+    ],
+    [
+      "旅行的意義",
+      "陳綺貞",
+      "anxious break",
+      0,
+      "輕輕的吉他和人聲，讓緊繃的肩膀放下來。",
+    ],
+    [
+      "Holocene",
+      "Bon Iver",
+      "anxious night",
+      0,
+      "很遼闊的一首歌，提醒你一次考試沒那麼大。",
+    ],
+    [
+      "My Jinji",
+      "落日飛車",
+      "break",
+      0,
+      "慵懶的 city pop，休息十分鐘剛好一首。",
+    ],
+    [
+      "Don't Know Why",
+      "Norah Jones",
+      "break",
+      0,
+      "爵士鋼琴配溫暖的嗓音，放空用。",
+    ],
     ["Yellow", "Coldplay", "break", 0, "跟著唱一遍，再回去讀。"],
-    ["First Love", "宇多田ヒカル", "break night", 0, "深夜休息時聽，很有氣氛。"],
+    [
+      "First Love",
+      "宇多田ヒカル",
+      "break night",
+      0,
+      "深夜休息時聽，很有氣氛。",
+    ],
     ["Feather", "Nujabes", "night", 0, "Nujabes 的經典，深夜衝刺的節奏感。"],
-    ["Teardrop", "Massive Attack", "night", 0, "像心跳一樣的鼓聲，夜深了也穩得住。"],
-    ["Midnight City", "M83", "night sleepy", 0, "半夜的城市感，撐過最後一個小時。"],
-  ].map(([t, a, m, inst, why]) => ({ t, a, m: m.split(" "), inst: !!inst, why }));
+    [
+      "Teardrop",
+      "Massive Attack",
+      "night",
+      0,
+      "像心跳一樣的鼓聲，夜深了也穩得住。",
+    ],
+    [
+      "Midnight City",
+      "M83",
+      "night sleepy",
+      0,
+      "半夜的城市感，撐過最後一個小時。",
+    ],
+  ].map(([t, a, m, inst, why]) => ({
+    t,
+    a,
+    m: m.split(" "),
+    inst: !!inst,
+    why,
+  }));
   const trackKey = (x) => `${x.t} — ${x.a}`;
   // 併入我的 Spotify（assets/spotify-liked.js 已按讚、assets/spotify-library.js 歌單＋收藏的專輯）
   // 檔案有好幾百 KB，第一次打開扭蛋才載入；同一首歌只留一筆：保留推薦語、補上 Spotify 連結
@@ -2466,7 +2666,7 @@
       const x = { t, a, m: m.split(" "), inst: !!inst, why: "", sp };
       const same = byKey.get(trackKey(x));
       if (same) same.sp ||= sp;
-      else byKey.set(trackKey(x), x), TRACKS.push(x);
+      else (byKey.set(trackKey(x), x), TRACKS.push(x));
     }
   }
   const trackLinks = (x) => {
@@ -2525,16 +2725,20 @@
       cur = null,
       spin = 0;
     const recent = [];
-    const pool = () => TRACKS.filter((x) => mood === "all" || x.m.includes(mood));
+    const pool = () =>
+      TRACKS.filter((x) => mood === "all" || x.m.includes(mood));
     const favs = () => store.get("sh:music:fav", []);
     const isFav = (x) => favs().includes(trackKey(x));
     const paintMoods = () =>
       $$("[data-mood]", pop).forEach((b) =>
-        b.setAttribute("aria-pressed", b.dataset.mood === mood ? "true" : "false"),
+        b.setAttribute(
+          "aria-pressed",
+          b.dataset.mood === mood ? "true" : "false",
+        ),
       );
     const paintCard = (x, rolling = false) => {
       if (!x) {
-        card.innerHTML = `<p class="mx-empty muted">按「抽一首」開始。共 <b>${pool().length}</b> 首符合目前的條件。</p>`;
+        card.innerHTML = `<p class="mx-empty muted">按「抽一首」開始。</p>`;
         return;
       }
       card.classList.toggle("rolling", rolling);
@@ -2542,15 +2746,23 @@
         <div class="eyebrow">${x.m.map((id) => MOODS.find((m) => m.id === id).name).join(" / ")}</div>
         <h3 class="mx-title">${esc(x.t)}</h3>
         <div class="mx-artist">${esc(x.a)}</div>
-        ${rolling ? "" : `<p class="mx-why">${x.why ? esc(x.why) : "來自我的 Spotify 收藏。"}</p>
+        ${
+          rolling
+            ? ""
+            : `<p class="mx-why">${x.why ? esc(x.why) : "來自我的 Spotify 收藏。"}</p>
         ${x.sp ? `<iframe class="mx-player" title="Spotify 播放器：${esc(x.t)}" src="https://open.spotify.com/embed/track/${x.sp}" height="80" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>` : ""}
-        <div class="mx-links">${trackLinks(x)}<button class="btn sm ghost" type="button" id="mxLike" aria-pressed="${isFav(x)}">${isFav(x) ? "♥ 已收藏" : "♡ 收藏"}</button></div>`}`;
+        <div class="mx-links">${trackLinks(x)}<button class="btn sm ghost" type="button" id="mxLike" aria-pressed="${isFav(x)}">${isFav(x) ? "♥ 已收藏" : "♡ 收藏"}</button></div>`
+        }`;
       $("#mxLike")?.addEventListener("click", () => {
         const f = favs(),
           k = trackKey(x);
-        store.set("sh:music:fav", f.includes(k) ? f.filter((y) => y !== k) : [k, ...f]);
+        store.set(
+          "sh:music:fav",
+          f.includes(k) ? f.filter((y) => y !== k) : [k, ...f],
+        );
         // 只更新按鈕，不重畫整張卡片，播放器才不會重新載入
-        const b = $("#mxLike"), on = isFav(x);
+        const b = $("#mxLike"),
+          on = isFav(x);
         b.setAttribute("aria-pressed", on);
         b.textContent = on ? "♥ 已收藏" : "♡ 收藏";
         paintFav();
@@ -2566,7 +2778,10 @@
         : "";
       $$("[data-unfav]", fav).forEach((b) =>
         b.addEventListener("click", () => {
-          store.set("sh:music:fav", favs().filter((k) => k !== b.dataset.unfav));
+          store.set(
+            "sh:music:fav",
+            favs().filter((k) => k !== b.dataset.unfav),
+          );
           paintFav();
           if (cur) paintCard(cur);
         }),
@@ -2577,7 +2792,9 @@
       const p = pool();
       if (!p.length) return;
       const fresh = p.filter((x) => !recent.includes(x));
-      const pick = (fresh.length ? fresh : p)[Math.floor(Math.random() * (fresh.length || p.length))];
+      const pick = (fresh.length ? fresh : p)[
+        Math.floor(Math.random() * (fresh.length || p.length))
+      ];
       recent.push(pick);
       if (recent.length > Math.min(5, p.length - 1)) recent.shift();
       clearInterval(spin);
@@ -2636,12 +2853,16 @@
         ["https://embed-cdn.spotifycdn.com", true],
         ["https://image-cdn-ak.spotifycdn.com", false],
       ])
-        document.head.insertAdjacentHTML("beforeend", `<link rel="preconnect" href="${h}"${cors ? " crossorigin" : ""}>`);
+        document.head.insertAdjacentHTML(
+          "beforeend",
+          `<link rel="preconnect" href="${h}"${cors ? " crossorigin" : ""}>`,
+        );
     };
     return async (m, reason) => {
       warmSpotify();
       $("#mxNudge").hidden = true;
-      $("#mxReason").textContent = reason || "選一個你現在的狀態，抽一首適合的音樂。";
+      $("#mxReason").textContent =
+        reason || "選一個你現在的狀態，抽一首適合的音樂。";
       pop.hidden = false;
       setMood(m || mood);
       draw.disabled = true;
@@ -2657,8 +2878,16 @@
   // 什麼時候提醒：近 5 題錯 3 題、同一處狂點、連續專心讀了 50 分鐘，或讀書時偶爾隨機；面板開著就不提醒，玩小遊戲時不打擾
   const SURPRISE = [
     ["all", "掉出一顆扭蛋！", "路過掉了一顆扭蛋，打開看看今天抽到什麼。"],
-    ["focus", "來點專心用的背景音樂？", "隨機掉落：配一首不吵的曲子，繼續讀下去。"],
-    ["break", "喝口水，聽首歌？", "隨機掉落：起來喝口水、伸個懶腰，順便聽一首。"],
+    [
+      "focus",
+      "來點專心用的背景音樂？",
+      "隨機掉落：配一首不吵的曲子，繼續讀下去。",
+    ],
+    [
+      "break",
+      "喝口水，聽首歌？",
+      "隨機掉落：起來喝口水、伸個懶腰，順便聽一首。",
+    ],
     ["sleepy", "眼皮重了嗎？", "隨機掉落：來首提神的，醒醒腦再繼續。"],
   ];
   const MoodWatch = (() => {
@@ -2697,7 +2926,10 @@
     const label = (text) => {
       const n = $("#mxNudge");
       n.title = text;
-      n.setAttribute("aria-label", text === "音樂扭蛋" ? text : `音樂扭蛋：${text}`);
+      n.setAttribute(
+        "aria-label",
+        text === "音樂扭蛋" ? text : `音樂扭蛋：${text}`,
+      );
     };
     const nudge = (mood, text, reason) => {
       if (quiet()) return;
@@ -2721,27 +2953,42 @@
       addEventListener("pointerdown", (e) => {
         touch();
         // 彩蛋本來就要連點，不算煩躁
-        if (e.target.closest?.(".mx-pop, .mx-nudge, input, textarea, select, #plate, .site-footer .sig, .masthead .logo, #themeBtn"))
+        if (
+          e.target.closest?.(
+            ".mx-pop, .mx-nudge, input, textarea, select, #plate, .site-footer .sig, .masthead .logo, #themeBtn",
+          )
+        )
           return;
         const now = Date.now();
         clicks = clicks.filter(
-          (c) => now - c.t < 1200 && Math.hypot(c.x - e.clientX, c.y - e.clientY) < 40,
+          (c) =>
+            now - c.t < 1200 &&
+            Math.hypot(c.x - e.clientX, c.y - e.clientY) < 40,
         );
         clicks.push({ t: now, x: e.clientX, y: e.clientY });
         if (clicks.length >= 5) {
           clicks = [];
-          nudge("anxious", "好像有點煩？先聽首歌喘口氣", "看起來有點卡住了。先深呼吸，聽首歌再回來。");
+          nudge(
+            "anxious",
+            "好像有點煩？先聽首歌喘口氣",
+            "看起來有點卡住了。先深呼吸，聽首歌再回來。",
+          );
         }
       });
       setInterval(() => {
-        if (document.hidden || Date.now() - lastAct > IDLE || location.hash.startsWith("#/play"))
+        if (
+          document.hidden ||
+          Date.now() - lastAct > IDLE ||
+          location.hash.startsWith("#/play")
+        )
           return;
         studied += 30e3;
         used += 30e3;
         gameRoll();
         // 偶爾也隨機掉一顆：至少讀了 10 分鐘後，每 30 秒 1/30 的機率（平均再約 15 分鐘）
         if (studied >= 10 * 60e3 && studied < LONG && Math.random() < 1 / 30) {
-          const [mood, text, reason] = SURPRISE[Math.floor(Math.random() * SURPRISE.length)];
+          const [mood, text, reason] =
+            SURPRISE[Math.floor(Math.random() * SURPRISE.length)];
           return nudge(mood, text, reason);
         }
         if (studied < LONG) return;
@@ -2764,7 +3011,11 @@
         wrongRun = ok ? 0 : wrongRun + 1;
         if (wrongRun >= 5) {
           wrongRun = 0;
-          nudge("anxious", "連錯五題了，換個心情？", "連錯幾題很正常，先聽首歌放鬆一下，等等再回來看詳解。");
+          nudge(
+            "anxious",
+            "連錯五題了，換個心情？",
+            "連錯幾題很正常，先聽首歌放鬆一下，等等再回來看詳解。",
+          );
         }
       },
       go() {
@@ -3433,7 +3684,9 @@
       if (d) {
         ({ i, mine } = d);
         hl = d.from;
-        const what = mine ? "<b>一定是雷</b>，幫你插上旗" : "<b>一定安全</b>，幫你翻開";
+        const what = mine
+          ? "<b>一定是雷</b>，幫你插上旗"
+          : "<b>一定安全</b>，幫你翻開";
         why =
           d.from.length === 1
             ? `看標出來的 <b>${num[d.from[0]]}</b>：它周圍${mine ? "還沒翻開的格子數剛好等於還沒找到的雷數" : "的雷都已經插旗了"}，所以這格${what}。`
@@ -6461,15 +6714,15 @@
       list.innerHTML = !cmdIndex
         ? `<div class="cmdk-empty">建立搜尋索引中…</div>`
         : results.length
-        ? results
-            .map((x, i) => {
-              const head =
-                x.g !== lastG ? `<div class="cmdk-group">${x.g}</div>` : "";
-              lastG = x.g;
-              return `${head}<a class="cmdk-item" href="${x.href}" role="option" id="ci${i}" aria-selected="${i === sel}" data-i="${i}"><span class="ico">${ic(x.icon)}</span><span style="min-width:0"><div class="t">${hl(x.t, terms)}</div><div class="s">${esc(x.s)}</div></span><span class="r">↵</span></a>`;
-            })
-            .join("")
-        : `<div class="cmdk-empty">找不到「${esc(input.value)}」。試試英文名稱或中文關鍵字。</div>`;
+          ? results
+              .map((x, i) => {
+                const head =
+                  x.g !== lastG ? `<div class="cmdk-group">${x.g}</div>` : "";
+                lastG = x.g;
+                return `${head}<a class="cmdk-item" href="${x.href}" role="option" id="ci${i}" aria-selected="${i === sel}" data-i="${i}"><span class="ico">${ic(x.icon)}</span><span style="min-width:0"><div class="t">${hl(x.t, terms)}</div><div class="s">${esc(x.s)}</div></span><span class="r">↵</span></a>`;
+              })
+              .join("")
+          : `<div class="cmdk-empty">找不到「${esc(input.value)}」。試試英文名稱或中文關鍵字。</div>`;
       input.setAttribute(
         "aria-activedescendant",
         results.length ? `ci${sel}` : "",
