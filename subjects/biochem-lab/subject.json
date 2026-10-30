@@ -4,13 +4,10 @@
   "short": "生化實驗",
   "term": "115-1 期末考",
   "examDate": "2026-12-17",
-  "description": "醫學系 B 組生物化學實驗：Pipetman 與蛋白質定量、質體 DNA 萃取與洋菜膠電泳、限制酶反應、膠體過濾、SDS-PAGE。實驗不考期中，期末考 12/17（四）16:10–17:20。整合 2026 上課講義、113／114 共筆與 108–114 實驗考古。",
+  "description": "醫學系 B 組生物化學實驗：Pipetman 與蛋白質定量、質體 DNA 萃取與洋菜膠電泳、限制酶反應、膠體過濾、SDS-PAGE。實驗期末考 12/17（四）16:10–17:20。整合 2026 上課講義、113／114 共筆與 108–114 實驗考古。",
   "color": "#2f7d6b",
   "icon": "🧬",
-  "questionFiles": [
-    "data/questions-kaogu.json",
-    "data/questions-new.json"
-  ],
+  "questionFiles": ["data/questions-kaogu.json", "data/questions-new.json"],
   "sources": [
     {
       "key": "k114",
