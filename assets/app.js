@@ -1586,6 +1586,14 @@
       cs: cssVar("--colony-seed"),
     });
     let C = col();
+    // 依密度縮放：菌落總面積超過可用面積（480 基準下半徑 ≈186）的 40% 就等比縮小；
+    // 越擠光暈越小越淡，避免連成一片
+    const fill =
+      colonies.reduce((a, c) => a + c.r * c.r, 0) / (0.47 * 0.86 * 0.96 * 480) ** 2;
+    const cs = Math.min(1, Math.sqrt(0.4 / Math.max(fill, 1e-6)));
+    const crowd = Math.min(1, Math.max(0, (1 - cs) / 0.5));
+    const haloMul = 1.75 - 0.55 * crowd,
+      haloA = 1 - 0.5 * crowd;
     const onTheme = () => {
       C = col();
       if (!raf) draw(performance.now());
@@ -1651,6 +1659,7 @@
       const inner = R * 0.86;
       const golden = Math.PI * (3 - Math.sqrt(5));
       let alive = false;
+      const rs = cs * (W / 480);
       colonies.forEach((c, i) => {
         const k = (i + 0.5) / Math.max(n, 1);
         const rr = Math.sqrt(k) * inner * 0.96;
@@ -1663,13 +1672,13 @@
         if (p < 1) alive = true;
         const e = 1 - Math.pow(1 - p, 3);
         const breathe = REDUCED ? 1 : 1 + Math.sin(t * 1.2 + c.j * 9) * 0.03;
-        const r = c.r * (W / 480) * e * breathe;
+        const r = c.r * rs * e * breathe;
         if (r <= 0.2) return;
         const colr = c.kind === "c" ? C.cc : c.kind === "w" ? C.cw : C.cs;
-        ctx.globalAlpha = c.kind === "seed" ? 0.12 : 0.16;
+        ctx.globalAlpha = (c.kind === "seed" ? 0.12 : 0.16) * haloA;
         ctx.fillStyle = colr;
         ctx.beginPath();
-        ctx.arc(x, y, r * 1.75, 0, Math.PI * 2);
+        ctx.arc(x, y, r * haloMul, 0, Math.PI * 2);
         ctx.fill();
         ctx.globalAlpha = c.kind === "seed" ? 0.45 : 0.92;
         ctx.beginPath();
@@ -1753,7 +1762,7 @@
         });
     }
     out.sort((a, b) => a.t - b.t);
-    if (out.length >= 12) return out.slice(-420);
+    if (out.length >= 12) return out.slice(-150);
     const seeds = [];
     for (let i = 0; i < 70; i++)
       seeds.push({ kind: "seed", r: 3 + hash(`s${i}`) * 11, j: hash(`j${i}`) });
