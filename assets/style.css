@@ -703,7 +703,10 @@ select.input { appearance: none; background-image: url("data:image/svg+xml,%3Csv
 .boot span:nth-child(3) { background: var(--ink); animation-delay: .3s; }
 @keyframes boot { 0%, 100% { transform: scale(.6); opacity: .4; } 50% { transform: scale(1); opacity: 1; } }
 
-.setup-links { display: flex; justify-content: space-between; gap: 10px; }
+.setup-links { display: grid; grid-template-columns: 1fr 1fr; gap: 0 12px; border-top: 1px solid var(--rule); padding-top: 14px; }
+.setup-links .link-btn { white-space: nowrap; font-size: .86rem; padding: 4px 0; text-align: left; }
+.setup-links .link-btn:first-child { grid-column: 1 / -1; }
+.setup-links #resetBtn { justify-self: end; text-align: right; }
 @media (max-width: 900px) { .setup-links { display: none; } }
 @media (hover: none) and (pointer: coarse) { .hide-touch { display: none; } }
 
