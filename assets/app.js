@@ -2619,16 +2619,23 @@
       done = 0;
     const GAME_AFTER = 30 * 60e3,
       GAME_Q = 30;
+    let gameTimer = null;
     const gameReset = () => {
       used = 0;
       done = 0;
+      clearTimeout(gameTimer);
       $("#gmDrop").hidden = true;
     };
     // 達標後每次檢查 1/30 的機率冒出來（計時每 30 秒一次、答題每題一次）
     const gameRoll = () => {
       const g = $("#gmDrop");
       if (!g || !g.hidden || location.hash.startsWith("#/play")) return;
-      if ((used >= GAME_AFTER || done > GAME_Q) && Math.random() < 1 / 30) g.hidden = false;
+      if ((used >= GAME_AFTER || done > GAME_Q) && Math.random() < 1 / 30) {
+        g.hidden = false;
+        // 30 秒沒點就自己收起來（不重新計，之後還可能再冒出來）
+        clearTimeout(gameTimer);
+        gameTimer = setTimeout(() => (g.hidden = true), 30e3);
+      }
     };
     const quiet = () =>
       location.hash.startsWith("#/play") || !$("#mxPop").hidden;
