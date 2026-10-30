@@ -3014,7 +3014,7 @@
         <header style="padding-top:28px">
           <div class="eyebrow">Take a break</div>
           <h1 class="display h-l" style="margin-top:12px">讀累了？來玩小遊戲</h1>
-          <p class="lede">四種邏輯謎題，每盤都是隨機產生、保證只靠推理就能解完。進度自動存在這台裝置，下次回來可以接著玩。</p>
+          <p class="lede">四種邏輯謎題，每盤隨機產生、保證只靠推理就能解完。</p>
         </header>
         <div class="section" style="padding-top:32px">${gameCards()}${gameHintNote}</div>
       </div>`);
