@@ -401,8 +401,9 @@ a.pill:hover { text-decoration: none; border-color: var(--rule-strong); }
   .reader { grid-template-columns: minmax(0, 1fr); row-gap: 0; }
   /* 窄螢幕：左上角浮動目錄按鈕＋展開面板（樣式比照音樂扭蛋；--toc-top 由 JS 依分頁列高度設定） */
   .toc { position: static; max-height: none; overflow: visible; }
-  .toc-fab { position: fixed; left: 16px; top: var(--toc-top, 130px); z-index: 35; width: 44px; height: 44px; padding: 0; border: 1px solid var(--rule-strong); border-radius: 50%; background: var(--card); color: var(--ink); box-shadow: var(--shadow-2); cursor: pointer; display: grid; place-items: center; animation: mxDrop .5s var(--ease); }
+  .toc-fab { position: fixed; left: 16px; top: var(--toc-top, 130px); z-index: 35; width: 44px; height: 44px; padding: 0; border: 1px solid var(--rule-strong); border-radius: 50%; background: var(--card); color: var(--ink); box-shadow: var(--shadow-2); cursor: pointer; display: grid; place-items: center; opacity: .7; transition: opacity .2s var(--ease); animation: mxDrop .5s var(--ease); }
   .toc-fab svg { width: 20px; height: 20px; transition: transform .25s var(--ease); }
+  .toc-fab:hover, .toc-fab:focus-visible, .toc.open .toc-fab { opacity: 1; }
   .toc-fab:hover svg, .toc-fab:focus-visible svg { transform: scale(1.1); }
   .toc.open .toc-fab { background: var(--ink); color: var(--paper); border-color: var(--ink); }
   .toc-pop { display: none; }
@@ -1150,10 +1151,11 @@ a.icon-btn { text-decoration: none; }
 @media (max-width: 1100px) { .game-layout.wide { grid-template-columns: minmax(0, 1fr); } }
 
 /* 音樂扭蛋：右下角提示鈕 + 浮動面板 */
-.mx-nudge { position: fixed; right: 20px; bottom: 20px; z-index: 60; width: 56px; height: 56px; padding: 0; border: 1px solid var(--rule-strong); border-radius: 50%; background: var(--card); color: var(--ink); box-shadow: var(--shadow-2); cursor: pointer; display: grid; place-items: center; animation: mxDrop .5s var(--ease); }
+.mx-nudge { position: fixed; right: 20px; bottom: 20px; z-index: 60; width: 56px; height: 56px; padding: 0; border: 1px solid var(--rule-strong); border-radius: 50%; background: var(--card); color: var(--ink); box-shadow: var(--shadow-2); cursor: pointer; display: grid; place-items: center; opacity: .8; transition: opacity .2s var(--ease); animation: mxDrop .5s var(--ease); }
 .mx-nudge.ping { animation: mxWiggle 1.2s var(--ease) 3; }
 .mx-nudge.ping::after { content: ""; position: absolute; top: 3px; right: 3px; width: 12px; height: 12px; border-radius: 50%; background: var(--safranin); border: 2px solid var(--card); }
 .mx-nudge svg { width: 40px; height: 40px; transition: transform .25s var(--ease); }
+.mx-nudge:hover, .mx-nudge:focus-visible { opacity: 1; }
 .mx-nudge:hover svg, .mx-nudge:focus-visible svg { transform: rotate(-14deg) scale(1.06); }
 .mx-nudge[hidden], .mx-pop[hidden] { display: none; }
 @keyframes mxDrop { from { opacity: 0; transform: translateY(-14px) scale(.6); } }
