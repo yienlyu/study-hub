@@ -10568,7 +10568,7 @@
   "answer": [
    "B"
   ],
-  "explain": "症狀 致病因子、疾病 補充Shigella 高燒、腹瀉、血便（赤痢）、 腹痛痢疾志賀氏菌 （S. dysenteriae）會製造Shiga toxin 引起溶血性尿 毒症候群（HUS）少於 100 隻細菌 即可造成感染\nC. jejuni 急性腸道發炎、血便、細菌 性痢疾、Guillain-Barre syndrome敗血症（Gram（－）都可能 引起）、Guillain-Barre syndrome免疫力低下的病人 才可能有致命的危險\nC. botulinum 不會發燒、神經學症狀對稱、 病人尚有意識、心搏速率為 正常或稍慢，且無低血壓、 視力模糊。一般不會有感覺 異常的症狀肉毒桿菌毒素共有A、B、Cα、Cβ、D、E、F、G 八型，其中 A 型、B型、E 型、F 型對人類有毒性，大劑量可致死被認為是目前世界上最致命的毒素，人體的半數致死（LD50）約為 1.3~2.1 ng/kg，而以呼吸攝入約在10~13 ng/kg Salmonella 傷寒（Typhoid\nfever）： 高燒、腹痛、頭痛、玫瑰斑非\n傷寒沙門氏桿菌染：高燒、腹瀉毒力島 I、II，可隨著血液 造成系統性感染105 CFU 才會感染",
+  "explain": "| 菌 | 症狀 | 致病因子、疾病 | 補充 |\n|---|---|---|---|\n| Shigella | 高燒、腹瀉、血便（赤痢）、腹痛 | 痢疾志賀氏菌（S. dysenteriae）會製造 Shiga toxin，引起溶血性尿毒症候群（HUS） | 少於 100 隻細菌即可造成感染 |\n| C. jejuni | 急性腸道發炎、血便、細菌性痢疾、Guillain-Barre syndrome | 敗血症（Gram（－）都可能引起）、Guillain-Barre syndrome | 免疫力低下的病人才可能有致命的危險 |\n| C. botulinum | 不會發燒、神經學症狀對稱、病人尚有意識、心搏速率為正常或稍慢，且無低血壓、視力模糊。一般不會有感覺異常的症狀 | 肉毒桿菌毒素共有 A、B、Cα、Cβ、D、E、F、G 八型，其中 A、B、E、F 型對人類有毒性，大劑量可致死 | 被認為是目前世界上最致命的毒素，人體的半數致死量（LD50）約為 1.3~2.1 ng/kg，以呼吸攝入約在 10~13 ng/kg |\n| Salmonella | 傷寒（Typhoid fever）：高燒、腹痛、頭痛、玫瑰斑；非傷寒沙門氏桿菌感染：高燒、腹瀉 | 毒力島 I、II，可隨著血液造成系統性感染 | 10⁵ CFU 才會感染 |",
   "topics": [
    "H. pylori／Campylobacter"
   ],
