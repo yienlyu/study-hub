@@ -2083,7 +2083,8 @@
     let body;
     if (tab === "exam")
       body = `<div style="padding-top:36px">${chapterExamPanel(subj, cid)}<div class="reader" style="padding-top:48px"><aside class="toc" id="toc"></aside><article class="prose">${proseFrom(content.exam)}</article></div></div>`;
-    else if (tab === "practice") body = chapterPracticePanel(subj, cid);
+    else if (tab === "practice")
+      body = chapterPracticePanel(subj, cid, q.filter === "new");
     else if (tab === "sheet") body = await chapterSheetPanel(subj, cid);
     else if (tab === "figs") body = chapterFigsPanel(subj, cid);
     else {
@@ -2274,20 +2275,25 @@
       </div>`;
   }
 
-  function chapterPracticePanel(subj, cid) {
+  // onlyNew：只算、只練沒做過的題目（錯題卡不受影響）
+  function chapterPracticePanel(subj, cid, onlyNew) {
     const sid = subj.meta.id;
+    const prog = getProg(sid);
     const list = subj.questions.filter(
-      (q) => q.chapter === cid && !q.imageOnly,
+      (q) => q.chapter === cid && !q.imageOnly && (!onlyNew || !prog[q.id]),
     );
-    const by = countBy(list, (q) => q.source);
     const st = chapterStats(subj, cid);
-    const L = (o) => `#/s/${sid}/practice?${qs(o)}`;
+    const L = (o) =>
+      `#/s/${sid}/practice?${qs(onlyNew && !o.filter && !o.view ? { ...o, filter: "new" } : o)}`;
+    const F = (v, t) =>
+      `<a href="#/s/${sid}/c/${cid}/practice${v ? `?${qs({ filter: v })}` : ""}"${(v === "new") === !!onlyNew ? ' aria-current="page"' : ""}>${t}</a>`;
     const topics = [
       ...countBy(list, (q) => (q.topics || []).filter((t) => t !== "其他")),
     ].sort((a, b) => b[1] - a[1]);
     const P = (href, icon, title, sub, n) =>
       `<a class="card preset" href="${href}"><span class="ico">${ic(icon)}</span><b>${title}</b><span>${sub}</span>${n !== undefined ? `<span class="mono" style="color:var(--ink)">${n} 題</span>` : ""}</a>`;
     return `<div style="padding-top:36px">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px"><span class="field-label" style="margin:0">篩選</span><nav class="seg" aria-label="篩選題目">${F("", "全部")}${F("new", `沒做過 ${st.total - st.done}`)}</nav></div>
       <div class="presets">
         ${P(L({ ch: cid, src: srcKeys(subj, "exam"), mode: "order", start: 1, n: 0 }), "file", "考古題・依序", "照原考卷順序作答，看詳解", list.filter(isExam).length)}
         ${P(L({ ch: cid, mode: "random", start: 1, n: 0 }), "shuffle", "本章全部・隨機", "考古、課堂題、模擬新題混合", list.length)}
@@ -4309,8 +4315,8 @@
   const wrongRateTag = (sid, q) => {
     const r = getProg(sid)[q.id];
     const n = r ? (r.c || 0) + (r.w || 0) : 0;
-    return n
-      ? `<span class="wrong-rate" title="做過 ${n} 次，錯 ${r.w || 0} 次；答錯率越高，隨機出題和模擬考越常抽到">答錯率 ${pct(r.w || 0, n)}%（${r.w || 0}/${n}）</span>`
+    return r?.w && n > 1
+      ? `<span class="wrong-rate" title="做過 ${n} 次，錯 ${r.w || 0} 次；答錯率越高，隨機出題和模擬考越常抽到">答錯 ${r.w}/${n} 次</span>`
       : "";
   };
   const reportHref = (sid, q) =>
