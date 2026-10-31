@@ -1065,11 +1065,14 @@
   "answer": [
    "B"
   ],
-  "explain": "（記題沒有附答案，網站依課本判斷）Positive selection 是胸腺皮質上皮細胞的自我 MHC-peptide 給予適中訊號而存活。AIRE 相關的是 negative selection。",
+  "explain": "（記題沒有附答案，網站依課本判斷）Positive selection 是胸腺皮質上皮細胞的自我 MHC-peptide 給予適中訊號而存活。AIRE 相關的是 negative selection。\n選項 B 寫「中等以上」不太精確：課本是「低～中等」親和力才 positive selection，訊號太強反而會被 negative selection 刪除（clonal deletion）；但四個選項中只有 B 方向正確。親和力與結果的對照見 Fig. 16 胸腺發育路線與 affinity model。",
   "topics": [
    "T 細胞發育"
   ],
-  "pattern": "選正確／單一概念題"
+  "pattern": "選正確／單一概念題",
+  "figs": [
+   "thymus-selection"
+  ]
  },
  {
   "id": "k114-50",

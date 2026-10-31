@@ -2379,11 +2379,14 @@
   "answer": [
    "C"
   ],
-  "explain": "活化後的 effector T 細胞不再需要共刺激（Fig 9.29）。",
+  "explain": "活化後的 effector T 細胞不再需要共刺激（Fig 9.29）。B7 搶奪戰見 Fig. 18：活化初期 B7 接 CD28 → IL-2、CD25（A 對）；活化後期 CTLA-4 以 >20 倍親和力搶走 B7 → 關掉活化（B 對）。",
   "topics": [
    "共刺激（CD28/B7/CTLA-4）"
   ],
-  "pattern": "選錯誤（否定）題"
+  "pattern": "選錯誤（否定）題",
+  "figs": [
+   "b7-competition"
+  ]
  },
  {
   "id": "new-072",
