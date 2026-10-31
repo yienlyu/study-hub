@@ -3900,7 +3900,7 @@
   "answer": [
    "D"
   ],
-  "explain": "Fig 9.33：Treg 以 TGF-β、IL-10 抑制免疫反應，針對自身與共生菌抗原；毒殺是 CTL 的工作。",
+  "explain": "Fig 9.33：Treg 以 TGF-β、IL-10 抑制免疫反應，針對自身與共生菌抗原；毒殺是 CTL 的工作。\n📍 筆記 tcell-act.md「1. Signal ③：cytokine 決定 CD4 TH 分化」TH 亞群表：TH1 → 胞內病原、活化 macrophage；TH2 → 寄生蟲（helminth）。",
   "topics": [
    "TH 分化與細胞激素"
   ],

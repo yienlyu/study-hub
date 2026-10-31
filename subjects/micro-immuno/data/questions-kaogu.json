@@ -5305,7 +5305,7 @@
   "answer": [
    "A"
   ],
-  "explain": "(A) Mycobacterium leprae 有多種形式，傾向 TH2 型反應的時候，M. leprae 在體內廣泛散播，激烈的抗體反應對感染抑制無幫助，M. leprae 繼續在巨噬細胞內生長，此時血液中對抗 M. leprae的抗體效價高；傾向 TH1 型反應時，M. leprae 的生長受巨噬細胞的抑制",
+  "explain": "(A) Mycobacterium leprae 有多種形式，傾向 TH2 型反應的時候，M. leprae 在體內廣泛散播，激烈的抗體反應對感染抑制無幫助，M. leprae 繼續在巨噬細胞內生長，此時血液中對抗 M. leprae的抗體效價高；傾向 TH1 型反應時，M. leprae 的生長受巨噬細胞的抑制\n📍 筆記 tcell-act.md「1. Signal ③：cytokine 決定 CD4 TH 分化」TH 亞群表：TH1 → 胞內病原、活化 macrophage；TH2 → 寄生蟲（helminth）。",
   "topics": [
    "胸腺選擇"
   ],
