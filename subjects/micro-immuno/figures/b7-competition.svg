@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 362" role="img" aria-label="B7 搶奪戰：活化初期 APC 的 B7 結合 naïve T 細胞的 CD28，誘導 IL-2 與 CD25，T 細胞增殖；活化後期 T 細胞表現 CTLA-4，對 B7 親和力高 20 倍以上，搶走 B7，訊號二消失、關掉活化；checkpoint blockade 用 anti-CTLA-4 抗體擋住 CTLA-4，B7 回到 CD28，T 細胞重新活化。">
+<defs><marker id="b7-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker></defs>
+<text x="10" y="24" class="th">STEP 1 · 活化初期</text><text x="10" y="44" class="tb">CD28 接上 B7</text>
+<rect x="6" y="58" width="78" height="172" rx="14" class="fp"/><rect x="164" y="58" width="78" height="172" rx="14" class="fp" style="fill:color-mix(in srgb, var(--violet) 7%, transparent)"/>
+<path d="M84 64V224M164 64V224" class="ln" style="stroke-width:2"/>
+<text x="14" y="76" class="ts tb">APC</text><text x="172" y="76" class="ts tb">T 細胞</text>
+<rect x="84" y="98" width="20" height="10" rx="3" class="fm"/><path d="M104 103H144" class="ln" style="stroke-width:1.5"/><rect x="144" y="98" width="20" height="10" rx="3" class="fm"/>
+<text x="124" y="92" text-anchor="middle" class="ts">① TCR–MHC</text>
+<rect x="6" y="242" width="236" height="50" rx="10" class="bg"/>
+<text x="124" y="263" text-anchor="middle" class="tb" style="font-size:12px">signal ② 到位 → IL-2、CD25 ↑</text><text x="124" y="281" text-anchor="middle" style="font-size:12px">T 細胞增殖、存活</text>
+<path d="M84 150H104" class="lv" style="stroke-width:3"/><circle cx="110" cy="150" r="6.5" class="fv"/>
+<text x="78" y="154" text-anchor="end" class="ts">B7</text>
+<path d="M164 150H130" class="lg" style="stroke-width:3"/><path d="M130 150l-10 -8M130 150l-10 8" class="lg" style="stroke-width:2.6"/>
+<g class="hot" data-tip="<b>CD28</b>（naïve T 本來就有）↔ <b>B7</b>（CD80／CD86）= signal ②：誘導 <b>IL-2</b> 與高親和力 IL-2 受體 <b>CD25</b> → 增殖、存活。沒有 signal ② → <b>anergy</b>。" data-label="CD28"><text x="172" y="154" class="tb" style="font-size:12px;fill:var(--good)">CD28</text></g>
+<text x="172" y="192" class="ts">CTLA-4</text><text x="172" y="207" class="ts">還沒表現</text>
+<text x="276" y="24" class="th">STEP 2 · 活化後期</text><text x="276" y="44" class="tb">CTLA-4 把 B7 搶走</text>
+<rect x="272" y="58" width="78" height="172" rx="14" class="fp"/><rect x="430" y="58" width="78" height="172" rx="14" class="fp" style="fill:color-mix(in srgb, var(--violet) 7%, transparent)"/>
+<path d="M350 64V224M430 64V224" class="ln" style="stroke-width:2"/>
+<text x="280" y="76" class="ts tb">APC</text><text x="438" y="76" class="ts tb">T 細胞</text>
+<rect x="350" y="98" width="20" height="10" rx="3" class="fm"/><path d="M370 103H410" class="ln" style="stroke-width:1.5"/><rect x="410" y="98" width="20" height="10" rx="3" class="fm"/>
+<text x="390" y="92" text-anchor="middle" class="ts">① TCR–MHC</text>
+<rect x="272" y="242" width="236" height="50" rx="10" class="br"/>
+<text x="390" y="263" text-anchor="middle" class="tb" style="font-size:12px">CTLA-4 親和力 >20× 搶走 B7</text><text x="390" y="281" text-anchor="middle" style="font-size:12px">signal ② 消失 → 關掉活化</text>
+<path d="M350 150H370" class="lv" style="stroke-width:3"/><circle cx="376" cy="150" r="6.5" class="fv"/>
+<text x="344" y="154" text-anchor="end" class="ts">B7</text>
+<path d="M430 150H396" class="lr" style="stroke-width:3"/><path d="M396 150l-10 -8M396 150l-10 8" class="lr" style="stroke-width:2.6"/>
+<g class="hot" data-tip="<b>CTLA-4（CD152）</b>：T 細胞<b>活化後期</b>才表現；對 B7 的親和力比 CD28 高 <b>&gt;20 倍</b>，把 B7 搶走 → signal ② 消失、關掉活化。2018 諾貝爾（James Allison）。" data-label="CTLA-4"><text x="438" y="154" class="tb" style="font-size:12px;fill:var(--safranin)">CTLA-4</text></g>
+<text x="390" y="136" text-anchor="middle" class="ts tr tb">親和力 &gt;20×</text>
+<path d="M430 196H396" class="lg" style="stroke-width:3"/><path d="M396 196l-10 -8M396 196l-10 8" class="lg" style="stroke-width:2.6"/>
+<g class="hot" data-tip="<b>CD28</b>（naïve T 本來就有）↔ <b>B7</b>（CD80／CD86）= signal ②：誘導 <b>IL-2</b> 與高親和力 IL-2 受體 <b>CD25</b> → 增殖、存活。沒有 signal ② → <b>anergy</b>。" data-label="CD28"><text x="438" y="200" class="tb" style="font-size:12px;fill:var(--good)">CD28</text></g>
+<text x="390" y="218" text-anchor="middle" class="ts">CD28 空著</text>
+<text x="542" y="24" class="th">藥物 · CHECKPOINT BLOCKADE</text><text x="542" y="44" class="tb">抗體擋住 CTLA-4</text>
+<rect x="538" y="58" width="78" height="172" rx="14" class="fp"/><rect x="696" y="58" width="78" height="172" rx="14" class="fp" style="fill:color-mix(in srgb, var(--violet) 7%, transparent)"/>
+<path d="M616 64V224M696 64V224" class="ln" style="stroke-width:2"/>
+<text x="546" y="76" class="ts tb">APC</text><text x="704" y="76" class="ts tb">T 細胞</text>
+<rect x="616" y="98" width="20" height="10" rx="3" class="fm"/><path d="M636 103H676" class="ln" style="stroke-width:1.5"/><rect x="676" y="98" width="20" height="10" rx="3" class="fm"/>
+<text x="656" y="92" text-anchor="middle" class="ts">① TCR–MHC</text>
+<rect x="538" y="242" width="236" height="50" rx="10" class="bg"/>
+<text x="656" y="263" text-anchor="middle" class="tb" style="font-size:12px">anti-CTLA-4 佔住 CTLA-4</text><text x="656" y="281" text-anchor="middle" style="font-size:12px">B7 回到 CD28 → 重新活化</text>
+<path d="M616 150H636" class="lv" style="stroke-width:3"/><circle cx="642" cy="150" r="6.5" class="fv"/>
+<text x="610" y="154" text-anchor="end" class="ts">B7</text>
+<path d="M696 150H674" class="lr" style="stroke-width:3"/><path d="M674 150l-10 -8M674 150l-10 8" class="lr" style="stroke-width:2.6"/>
+<g class="hot" data-tip="<b>CTLA-4（CD152）</b>：T 細胞<b>活化後期</b>才表現；對 B7 的親和力比 CD28 高 <b>&gt;20 倍</b>，把 B7 搶走 → signal ② 消失、關掉活化。2018 諾貝爾（James Allison）。" data-label="CTLA-4"><text x="704" y="154" class="tb" style="font-size:12px;fill:var(--safranin)">CTLA-4</text></g>
+<g class="hot" data-tip="<b>anti-CTLA-4</b>（<b>ipilimumab</b>，Yervoy）：抗體佔住 CTLA-4，B7 只能接 CD28 → 放開煞車，T 細胞重新活化、攻擊腫瘤。副作用 irAE（自體免疫）。" data-label="anti-CTLA-4">
+<path d="M668 116V128M668 128L661 139M668 128L675 139" class="ln" style="stroke:var(--warn);stroke-width:3;stroke-linecap:round"/>
+<text x="658" y="126" text-anchor="end" class="ts tb" style="fill:var(--warn)">抗體</text></g>
+<path d="M616 196H636" class="lv" style="stroke-width:3"/><circle cx="642" cy="196" r="6.5" class="fv"/>
+<text x="610" y="200" text-anchor="end" class="ts">B7</text>
+<path d="M696 196H662" class="lg" style="stroke-width:3"/><path d="M662 196l-10 -8M662 196l-10 8" class="lg" style="stroke-width:2.6"/>
+<g class="hot" data-tip="<b>CD28</b>（naïve T 本來就有）↔ <b>B7</b>（CD80／CD86）= signal ②：誘導 <b>IL-2</b> 與高親和力 IL-2 受體 <b>CD25</b> → 增殖、存活。沒有 signal ② → <b>anergy</b>。" data-label="CD28"><text x="704" y="200" class="tb" style="font-size:12px;fill:var(--good)">CD28</text></g>
+<path d="M246 150H268" class="ln" marker-end="url(#b7-a)" style="stroke-width:1.4"/><text x="257.0" y="142" text-anchor="middle" class="ts">之後</text>
+<path d="M512 150H534" class="ln" marker-end="url(#b7-a)" style="stroke-width:1.4"/><text x="523.0" y="142" text-anchor="middle" class="ts">用藥</text>
+<path d="M6 308H774" class="lt dash"/>
+<rect x="6" y="318" width="236" height="36" rx="10" class="bp"/><text x="124" y="341" text-anchor="middle" style="font-size:12px"><tspan class="tb">① + ②</tspan> → 活化</text>
+<rect x="272" y="318" width="236" height="36" rx="10" class="bp"/><text x="390" y="341" text-anchor="middle" style="font-size:12px"><tspan class="tb">只有 ①</tspan>、沒有 ② → anergy</text>
+<rect x="538" y="318" width="236" height="36" rx="10" class="bp"/><text x="656" y="341" text-anchor="middle" style="font-size:12px"><tspan class="tb">Effector T</tspan>：只要 ① 就能作用</text>
+</svg>

@@ -691,6 +691,16 @@
   "caption": "Signal ① TCR 看 pMHC（決定專一性）、② CD28–B7（決定存活，沒有就 anergy）、③ cytokine（決定分化方向）。CTLA-4 和 PD-1 是煞車。"
  },
  {
+  "id": "b7-competition",
+  "chapter": "tcell-dev",
+  "title": "B7 搶奪戰：CD28 vs CTLA-4",
+  "topics": [
+   "共刺激（CD28/B7/CTLA-4）"
+  ],
+  "keywords": "CD28 B7 CD80 CD86 CTLA-4 CD152 affinity 20 anergy IL-2 CD25 ipilimumab checkpoint blockade costimulation",
+  "caption": "活化初期 <strong>B7 接 CD28</strong>（signal ②）→ IL-2、CD25；活化後期 <strong>CTLA-4 以 >20 倍親和力搶走 B7</strong> → 關掉活化；anti-CTLA-4 擋住 CTLA-4，B7 回到 CD28 → 重新活化。"
+ },
+ {
   "id": "tcr-cd3",
   "chapter": "tcell-dev",
   "title": "TCR–CD3 複合體",

@@ -5411,7 +5411,7 @@
   "answer": [
    "A"
   ],
-  "explain": "Both the α and δ loci include V (variable), J (joining), and C (constant) segments, and the δ locus also includes D (diversity) segments. The δ locus is situated within the αlocus, between the α variable and α joining genes.首先，γ chain 相似於 α chain，都只有 V、J、C，但是 δ chain 相似於 β chain，有 V、D、J、C。在下圖中，我們可以觀察到 δ chain 的基因坐落在 α chain 的 V 與 J 之間，故答案應選(A)。而 γ chain 的基因就離群索居自己一區",
+  "explain": "Both the α and δ loci include V (variable), J (joining), and C (constant) segments, and the δ locus also includes D (diversity) segments. The δ locus is situated within the αlocus, between the α variable and α joining genes.首先，γ chain 相似於 α chain，都只有 V、J、C，但是 δ chain 相似於 β chain，有 V、D、J、C。在下圖中，我們可以觀察到 δ chain 的基因坐落在 α chain 的 V 與 J 之間，故答案應選(A)。而 γ chain 的基因就離群索居自己一區\n\n【TCR 基因】（筆記：T 細胞發育「2. TCR 基因」）\n\n| | α 鏈 | β 鏈 | γ 鏈 | δ 鏈 |\n|---|---|---|---|---|\n| 類比 | ≈ Ig 輕鏈 | ≈ Ig 重鏈 | ≈ 輕鏈 | ≈ 重鏈 |\n| 片段 | V–J–C | V–D–J–C–D–J–C（**兩組 DJC**） | V–J–C–J–C | V–D–J–C |\n| 染色體 | 14 | 7 | 7 | 14（**在 α 基因座內，Vα 與 Jα 之間**） |",
   "topics": [
    "TCR 與 γδ T 細胞"
   ],
@@ -15467,7 +15467,7 @@
   "answer": [
    "D"
   ],
-  "explain": "CD4 為 co-receptor，help stabilize T helper cells’ interaction with APC",
+  "explain": "TCR complex = TCR + CD3：TCR（α、β 鏈）負責專一辨識抗原–MHC；CD3（γ、δ、ε、ζ 鏈）的細胞質尾端帶有 ITAM，TCR 辨識抗原後 ITAM 上的 tyrosine 被磷酸化，ZAP-70 結合 ζ 鏈上磷酸化的 ITAM，把訊號傳進細胞內。\n(A) TCR alpha：TCR 的一部分，負責辨識抗原，與 CD3 組成 TCR complex。\n(B) CD3 gamma、(C) CD3 ζ、(E) CD3 epsilon：細胞質尾端有 ITAM，負責 TCR 辨識抗原後的胞內訊息傳遞；這些鏈的遺傳缺陷會造成 T 細胞活化障礙的免疫缺陷。\n(D) CD4：co-receptor，結合 APC 上 MHC class II，幫助穩定 T helper cell 與 APC 的交互作用（增加 avidity），不屬於 TCR–CD3 複合體 → 選 D。\n・筆記：T 細胞發育「TCR–CD3 複合體」（TCR = 白雪公主負責辨識，CD3 = 六個小矮人負責傳訊）；課本 Fig 7.9 ITAMs、Fig 4.30 CD4 構造。",
   "topics": [
    "TCR 與 γδ T 細胞"
   ],

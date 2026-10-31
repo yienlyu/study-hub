@@ -120,21 +120,57 @@
 
 <div data-fig="lck-zap70"></div>
 
-### Signal ② 共刺激
+### Signal ② 共刺激（CD28／B7／CTLA-4）
 
-- **CD28–B7**：誘導 **IL-2** 與**高親和力 IL-2 受體（CD25）** 表現 → 增殖存活。
-- **ICOS**（inducible co-stimulator）：活化後才表現。
-- **TNF receptor superfamily**：**CD40（B 細胞上的重要共刺激分子）–CD40L**、4-1BB、OX40 等 → 活化 **non-canonical NF-κB**，加強並延續 T 細胞反應。
-- **抑制性受體**：
-  - **CTLA-4（CD152）**：對 B7 的親和力比 CD28 **高 20 倍以上**，搶走 B7 → 關掉活化。
-  - **PD-1**：與 PD-L1 結合抑制 T 細胞；腫瘤利用它躲避免疫。
-  - **2018 諾貝爾**：James Allison（CTLA-4）、Tasuku Honjo（PD-1）→ immune checkpoint blockade。
+**一句話**：naïve T 要被活化，除了 TCR 認到抗原（①），還要 APC 上的 **B7** 接上 T 細胞的 **CD28**（②）；之後 T 細胞長出 **CTLA-4** 把 B7 搶走，把反應關掉。老師的比喻：signal 2 是**手槍的保險栓**，保險沒開，TCR 認得到也沒用。
+
+**1. 油門與煞車：同一個配體 B7，兩個受體**
+
+|  | **CD28**（油門） | **CTLA-4 = CD152**（煞車） |
+| --- | --- | --- |
+| 在哪 | **naïve T 本來就有** | **活化後期**才表現 |
+| 配體 | **B7**（CD80 = B7.1、CD86 = B7.2，在 APC 上） | 同樣是 **B7** |
+| 親和力 | 較低 | 比 CD28 **高 > 20 倍**（老師：「程咬金」半路殺出來搶） |
+| 結果 | 誘導 **IL-2** 與高親和力 IL-2 受體 **CD25（IL-2Rα）** → 增殖、存活 | 搶走 B7 → 拿掉 signal ② → **關掉 T 細胞活化** |
+| 藥物 | — | anti-CTLA-4 **ipilimumab**（checkpoint blockade） |
+
+- **只有 signal ①、沒有 ②** → T 細胞 **anergy**（無反應）。
+- B7 主要在**活化的 professional APC**（DC 最強，其次 macrophage、B 細胞）上表現；感染（PAMP）會讓 APC 提高 B7。
+
+<div data-fig="b7-competition"></div>
 
 <div data-fig="checkpoints"></div>
 
-- **Effector T 細胞不再需要共刺激**：活化分化後只需 Signal ① 就能作用（所以 CTL 在周邊組織殺感染細胞不需要 B7）。
+**2. 其他共刺激分子：「簡配」與「選配」**
+
+| 類別 | 分子（T 細胞 ↔ 對方） | 重點 |
+| --- | --- | --- |
+| 簡配（一定要有） | **CD28 ↔ B7** | 給 naïve T 的基本 signal ② |
+| 選配：CD28 家族 | **ICOS**（inducible co-stimulator） | T 細胞活化後才表現 |
+| 選配：TNF 受體家族 | **CD40L（T）↔ CD40（B 細胞、macrophage）** | 常見於 T–B 互相活化；也讓 APC 提高 B7 |
+|  | **4-1BB ↔ 4-1BBL**、OX40 | CD8 活化常見；4-1BB 也是 CAR-T 的共刺激域 |
+
+- TNF 受體家族會活化 **non-canonical NF-κB**，加強並延長 T 細胞反應。
+
+**3. 另一個煞車：PD-1**
+
+- **PD-1 ↔ PD-L1**（腫瘤、發炎組織）：抑制 TCR／CD28 的下游訊號 → T 細胞 exhaustion。
+- CTLA-4 和 PD-1 都會被癌細胞利用來躲避免疫 → 用抗體擋住煞車，讓 T 細胞恢復活性 = **immune checkpoint blockade**。
+- **2018 諾貝爾**：James Allison（**CTLA-4**）、本庶佑 Tasuku Honjo（**PD-1**）。藥物與副作用（irAE）見「免疫學基本概念」第 9 節。
+
+**4. 什麼時候才需要共刺激？**
+
+- 只有 **naïve T 在淋巴結 priming** 時需要 signal ②。
+- **Effector T 不再需要共刺激**：到周邊組織只要 signal ① 就能作用（CTL 殺感染細胞不需要 B7，周邊也沒人給 signal ②）。
 
 <div data-fig="effector-no-costim"></div>
+
+**⚠️ 考古常見陷阱**
+
+- 「naïve T 的第二訊號是 CTLA-4」→ ✗，是 **CD28–B7**；CTLA-4 也結合 B7，但傳的是抑制訊號。
+- 「CTLA-4 對 B7 的親和力比 CD28 低」→ ✗，**高 > 20 倍**。
+- 「CTLA-4 抗體是活化劑／CTLA-4 是 CAR 的零件」→ ✗，anti-CTLA-4 是**解除煞車**（checkpoint blockade）；CAR 的共刺激域是 **4-1BB**。
+- 「Effector T 仍需共刺激」→ ✗。
 
 ## 🎙️ 上課錄影重點（陳玫潔，09/30）
 
