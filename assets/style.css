@@ -401,7 +401,7 @@ a.pill:hover { text-decoration: none; border-color: var(--rule-strong); }
   .reader { grid-template-columns: minmax(0, 1fr); row-gap: 0; }
   /* 窄螢幕：左上角浮動目錄按鈕＋展開面板（樣式比照音樂扭蛋；--toc-top 由 JS 依分頁列高度設定） */
   .toc { position: static; max-height: none; overflow: visible; }
-  .toc-fab { position: fixed; left: 16px; top: var(--toc-top, 130px); z-index: 35; width: 44px; height: 44px; padding: 0; border: 1px solid var(--rule-strong); border-radius: 50%; background: var(--card); color: var(--ink); box-shadow: var(--shadow-2); cursor: pointer; display: grid; place-items: center; opacity: .7; transition: opacity .2s var(--ease); animation: mxDrop .5s var(--ease); }
+  .toc-fab { position: fixed; left: 16px; top: var(--toc-top, 130px); z-index: 35; width: 44px; height: 44px; padding: 0; border: 1px solid var(--rule-strong); border-radius: 50%; background: var(--card); color: var(--ink); box-shadow: var(--shadow-2); cursor: pointer; display: grid; place-items: center; opacity: .8; transition: opacity .2s var(--ease); animation: mxDrop .5s var(--ease); }
   .toc-fab svg { width: 20px; height: 20px; transition: transform .25s var(--ease); }
   .toc-fab:hover, .toc-fab:focus-visible, .toc.open .toc-fab { opacity: 1; }
   .toc-fab:hover svg, .toc-fab:focus-visible svg { transform: scale(1.1); }
