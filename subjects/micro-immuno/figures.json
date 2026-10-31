@@ -797,6 +797,23 @@
   "caption": "DN1 從皮髓交界的小靜脈進來 → DN2、DN3 往<strong>被膜下</strong>走 → DP 在<strong>皮質</strong> → SP 在<strong>髓質</strong>。"
  },
  {
+  "id": "thymocyte-lineage",
+  "type": "slide",
+  "chapter": "tcell-dev",
+  "title": "T 細胞發育全流程：HSC → DN1–4 → DP → SP（Fig. 8.18）",
+  "deck": "W4-1 TCR, T development & TCR signaling",
+  "page": "33",
+  "src": "figures/slides/thymocyte-lineage.webp",
+  "w": 1400,
+  "h": 1545,
+  "topics": [
+   "胸腺選擇",
+   "TCR 與 γδ T 細胞"
+  ],
+  "keywords": "HSC lymphoid progenitor Notch1 ETP DN1 DN2 DN3 DN4 double negative double positive single positive c-kit CD44 CD25 beta selection TCR alpha rearrangement gamma delta pre-T alpha pTa cTEC death by neglect Treg NKT IEL CD4 CD8 lineage export periphery",
+  "caption": "骨髓 HSC → 血液 → 胸腺皮質：<strong>Notch1</strong> 決定走 T 系；DN1→DN2 重組 <strong>γ、δ、β</strong>，DN2 後分出 <strong>γδ</strong>（5%）；DN3 過 <strong>β-selection</strong>；DN4 才重組 <strong>α</strong>；DP 在 cTEC 上篩選，90–95% death by neglect，只有 <strong>2–5%</strong> 成為 SP，到髓質做 negative selection 後出胸腺。右下小圖是課本 Fig. 8.18 的簡化版。"
+ },
+ {
   "id": "lck-zap70",
   "type": "slide",
   "chapter": "tcell-dev",

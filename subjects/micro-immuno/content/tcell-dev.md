@@ -78,6 +78,8 @@
 - DN 階段**不依賴 TCR**（TCR-independent）；DP 之後的 positive / negative selection **主要依賴 TCR 交互作用**。
 - γδ 系在 DN2–DN3 分出去，表型幾乎不再改變（CD4⁻CD8⁻）。
 
+<div data-fig="thymocyte-lineage"></div>
+
 ### Affinity model（Fig. 8.25）⭐
 
 | TCR 對 self peptide:self MHC 的親和力 | 結果                                                                      | 負責細胞                 |
