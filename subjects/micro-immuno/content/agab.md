@@ -153,7 +153,7 @@
 - 錄影中的課堂題：B 細胞抗原特性「不包括」需 MHC；V region 重組在 bone marrow；IgA 敘述何者正確（secretory component 由上皮製造；**TGF-β** 促 IgA；IgA1 / IgA2 在血清與腸道比例不是 1:1）；最先的重組步驟 = heavy chain D–J；somatic hypermutation 只有 B 細胞。
 - 易混：抗體三功能（中和、調理、活化補體）vs 補體三功能（溶解、趨化、調理）；沒有 hinge 的是 **IgM、IgE**。
 
-## 📒 115 共筆對照（W03-1）
+## 📒 百十四共筆對照（W03-1）
 - **IgD：老師說不會考。**
 - 老師強調：**secretory component 是上皮細胞做的**，不是 B cell／plasma cell。
 - 促進 IgA class switching 的關鍵 cytokine 是 **TGF-β**。

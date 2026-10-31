@@ -209,6 +209,6 @@ Macrophage：吞噬 → phagosome（酸化、H₂O₂、NO、TNF-α）→ 與 ly
 - 錄影中練習的課堂題：三部曲排序（selectin → chemokine → integrin）、三路徑的**最初匯合點 = C3 convertase**、MAC = C5b-9、MBL 敘述何者錯（lectin 像 classical 而非 alternative）、LPS 受體 = TLR4、NK 抑制性受體 = CD94/NKG2A、ILC 敘述何者錯（**老師說曾經考過**）。
 - 老師明講：「**CD14 + TLR4 是國考常常會考的**」；補體三大功能「一定要知道」；alternative pathway 有**兩種** C3 convertase（C3bBb、C3(H₂O)Bb）。
 
-## 📒 115 共筆對照（W02-2）
+## 📒 百十四共筆對照（W02-2）
 - 共筆標示：**補體系統活化路徑是本章重點**；**先天性免疫細胞的分類「老師之前考過」**。
 - TLR 介紹（共筆參考 113 補充）：TLR4–LPS（CD14 為 co-receptor）、TLR3–dsRNA（TRIF）。

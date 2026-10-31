@@ -212,8 +212,6 @@
 
 # 考點分析
 
-> 本章今天（9/30）剛上完，slides 範圍涵蓋去年的「T Cell Development」與「T Cell Activation」前半段（Signal 1、2）。
-
 ## 🔥 高頻考點（去年考古）
 
 1. **Negative selection 機制**：辨識 self-antigen → **主動誘發凋亡**；T、B 細胞都有。Positive selection 才決定 MHC restriction。
@@ -247,7 +245,7 @@
 - 老師說**不會考**：12/23 rule 的細節（「不會也沒關係，我們不會考這個東西」）、β/δ 的 D 兩側 RSS 差異、多樣性的確切次方數字、訊息傳導路徑中「哪個分子最重要」的挖洞題。
 - 老師強調的重點：**β 先於 α 重組（surrogate α）**、**α 重組會切掉 δ**、**CDR3 對應接合處**、**TCR 10¹⁸ > Ig 10¹³**、affinity model（「重點只有那張兩個墓碑的圖」）、AIRE 與 central tolerance、**anergy = 只有 signal 1**、CTLA-4 親和力 20 倍、effector T 不需 signal 2。
 
-## 📒 115 共筆對照（W04-1）
+## 📒 百十四共筆對照（W04-1）
 
 - 黏附分子：老師要大家掌握「**穩定接觸、調控歸巢、活化後提高 integrin 親和力**」的概念，**各種配對的細節不必逐一背**（L-selectin–GlyCAM-1／CD34 進 HEV、LFA-1–ICAM-1、α4β7–MAdCAM-1 黏膜歸巢）。
 - 只有 signal 1、沒有 signal 2 → **anergy**：細胞仍能辨識抗原但無法正常活化，**不等於立即死亡**。負向訊號（如腫瘤微環境）讓能辨識腫瘤的 T 細胞無法反應 → 免疫檢查點阻斷就是解除這些抑制。

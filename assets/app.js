@@ -2207,30 +2207,99 @@
       $(".reader")?.style.setProperty("grid-template-columns", "1fr");
       return;
     }
-    toc.innerHTML = `<div class="eyebrow">本頁目錄</div><ol>${hs.map((h) => `<li class="lvl${h.tagName[1]}"><a href="#" data-target="${h.id}">${esc(h.textContent.replace(/[\p{Extended_Pictographic}\uFE0F]/gu, "").trim())}</a></li>`).join("")}</ol>`;
+    toc.innerHTML = `<button type="button" class="toc-fab" aria-label="本頁目錄" title="本頁目錄" aria-expanded="false" aria-controls="tocPop">${ic("list")}</button>
+      <div class="toc-pop" id="tocPop" role="dialog" aria-label="本頁目錄">
+        <header class="toc-pop-head"><div><div class="eyebrow">本頁目錄</div><div class="toc-cur"></div></div><button class="btn sm ghost toc-x" type="button" aria-label="關閉">${ic("x")}</button></header>
+        <ol>${hs.map((h) => `<li class="lvl${h.tagName[1]}"><a href="#" data-target="${h.id}">${esc(h.textContent.replace(/[\p{Extended_Pictographic}\uFE0F]/gu, "").trim())}</a></li>`).join("")}</ol>
+      </div>`;
+    // 窄螢幕：目錄收成左上角的浮動小按鈕（像音樂扭蛋），點了展開成浮動面板；寬螢幕：側欄
+    const fab = $(".toc-fab", toc);
+    const pop = $(".toc-pop", toc);
+    const cur = $(".toc-cur", toc);
+    const narrow = matchMedia("(max-width: 1000px)");
+    const tabs = $(".ch-tabs");
+    // 浮動按鈕放在章節分頁列正下方
+    const tabsBottom = () =>
+      tabs ? parseFloat(getComputedStyle(tabs).top) + tabs.offsetHeight : 64;
+    const setOpen = (v) => {
+      toc.classList.toggle("open", v);
+      fab.setAttribute("aria-expanded", v ? "true" : "false");
+      if (v) $("a.active", pop)?.scrollIntoView({ block: "center" });
+    };
+    const layout = () => {
+      toc.style.setProperty("--toc-top", `${tabsBottom() + 12}px`);
+      if (!narrow.matches) setOpen(false);
+    };
+    layout();
+    narrow.addEventListener("change", layout);
+    onLeave(() => narrow.removeEventListener("change", layout));
+    fab.addEventListener("click", () => setOpen(!toc.classList.contains("open")));
+    $(".toc-x", toc).addEventListener("click", () => {
+      setOpen(false);
+      fab.focus();
+    });
+    const outside = (e) => {
+      if (toc.classList.contains("open") && !toc.contains(e.target)) setOpen(false);
+    };
+    const esc_ = (e) => {
+      if (e.key === "Escape" && toc.classList.contains("open")) {
+        setOpen(false);
+        fab.focus();
+      }
+    };
+    document.addEventListener("click", outside);
+    document.addEventListener("keydown", esc_);
+    onLeave(() => {
+      document.removeEventListener("click", outside);
+      document.removeEventListener("keydown", esc_);
+    });
     $$("a", toc).forEach((a) =>
       a.addEventListener("click", (e) => {
         e.preventDefault();
-        document.getElementById(a.dataset.target)?.scrollIntoView({
-          behavior: REDUCED ? "auto" : "smooth",
-          block: "start",
-        });
+        const el = document.getElementById(a.dataset.target);
+        if (!el) return;
+        setOpen(false);
+        // 上方圖片在捲動途中載入會把標題往下推，捲完後再對齊一次
+        const off = () => (narrow.matches ? tabsBottom() + 12 : 140);
+        const go = (behavior) =>
+          window.scrollTo({ top: el.getBoundingClientRect().top + scrollY - off(), behavior });
+        go(REDUCED ? "auto" : "smooth");
+        let n = 0;
+        const fix = () => {
+          if (Math.abs(el.getBoundingClientRect().top - off()) > 4 && n++ < 3) {
+            go("auto");
+            setTimeout(fix, 250);
+          }
+        };
+        if ("onscrollend" in window)
+          addEventListener("scrollend", () => setTimeout(fix, 50), { once: true });
+        else setTimeout(fix, 900);
       }),
     );
     const links = new Map($$("a", toc).map((a) => [a.dataset.target, a]));
-    const io = new IntersectionObserver(
-      (ents) => {
-        ents.forEach((en) => {
-          if (en.isIntersecting) {
-            links.forEach((a) => a.classList.remove("active"));
-            links.get(en.target.id)?.classList.add("active");
-          }
-        });
-      },
-      { rootMargin: "-120px 0px -70% 0px" },
-    );
-    hs.forEach((h) => io.observe(h));
-    onLeave(() => io.disconnect());
+    // 目前段落＝最後一個捲過分頁列／頁首下緣的標題（長段落中間也能顯示）
+    let last = null;
+    const track = () => {
+      const line = (narrow.matches ? tabsBottom() : 140) + 16;
+      let h = hs[0];
+      for (const x of hs) {
+        if (x.getBoundingClientRect().top <= line) h = x;
+        else break;
+      }
+      if (h === last) return;
+      last = h;
+      links.forEach((a) => a.classList.remove("active"));
+      const a = links.get(h.id);
+      a?.classList.add("active");
+      cur.textContent = a?.textContent || "";
+    };
+    let raf = 0;
+    const onScroll = () => {
+      if (!raf) raf = requestAnimationFrame(() => ((raf = 0), track()));
+    };
+    track();
+    addEventListener("scroll", onScroll, { passive: true });
+    onLeave(() => removeEventListener("scroll", onScroll));
   }
 
   function chapterExamPanel(subj, cid) {
@@ -2263,10 +2332,8 @@
       segs: [{ name: "題數", color: "var(--ink-2)", v: n }],
     }));
     return `
-      <div class="tiles" style="margin-bottom:14px">
-        <div class="tile"><div class="v">${list.length}<small>題</small></div><div class="l">去年考古（${srcs.join("、")}）</div></div>
-        <div class="tile"><div class="v">${topics.length ? esc(topics[0][1]) : 0}<small>題</small></div><div class="l">最常考：${topics.length ? esc(topics[0][0]) : "—"}</div></div>
-        <div class="tile"><div class="v">${pct(list.filter((q) => q.pattern === "選錯誤（否定）題").length, list.length)}<small>%</small></div><div class="l">「選錯誤」否定題比例</div></div>
+      <div class="tiles" style="margin-bottom:14px;grid-template-columns:repeat(2,minmax(0,1fr))">
+        <div class="tile"><div class="v">${topics.length ? esc(topics[0][1]) : 0}<small> 題 / </small>${list.length}<small> 題</small></div><div class="l">最常考：${topics.length ? esc(topics[0][0]) : "—"}</div></div>
         <div class="tile"><div class="v">${chapterStats(subj, cid).mastery}<small>%</small></div><div class="l">你的掌握度${img ? `（另有 ${img} 題看圖題未收錄）` : ""}</div></div>
       </div>
       <div class="grid2">

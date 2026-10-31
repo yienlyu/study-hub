@@ -151,7 +151,7 @@
 - 預期出題：「CGD 最常見突變」「哪個 TLR 不經 MyD88」「pyroptosis 由哪個 caspase 媒介」「ILC / NK 的角色」等定義題。
 - 本站「新題練習」有依共筆重點出的模擬題。
 
-## 📒 115 共筆對照（W5-1）
+## 📒 百十四共筆對照（W5-1）
 - **IFN 的來源**（老師補充）：**IFN-γ（type II）幾乎所有免疫細胞**都會產生；**IFN-α／β（type I）幾乎所有體細胞（RBC 除外）**都會產生。
 - **成人型免疫不全（adult-onset immunodeficiency）**：病人 **HIV 陰性**，但和 HIV 病人一樣易得結核；原因可能是 IFN-γ 基因突變、IFN-γ 訊號失敗（無法產生 ROS），或**抗 IFN-γ 自體抗體**。
 - **S. aureus 的逃脫工具**：**Protein A**（抓 IgG Fc）、**CHIPS**（干擾 C5a receptor，抑制趨化）、**SCIN**（抑制 C3 convertase）、**PVL** 等白血球毒素、**catalase**；MprF、Dlt 增加對陽離子抗菌胜肽的抗性。GAS 另有 **ScpA／ScpC**（切 C5a、IL-8）、EndoS（修飾 IgG 醣鏈）。

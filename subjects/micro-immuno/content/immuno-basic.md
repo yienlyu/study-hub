@@ -176,7 +176,7 @@
 - Nude mouse = 無胸腺 → 無 T（連帶 B 功能差）；xenograft / allograft / isograft 名詞。
 - B vs T epitope：只有 T epitope 可寫成胺基酸序列。
 
-## 📒 115 共筆對照（W02-1）
+## 📒 百十四共筆對照（W02-1）
 - **樹突細胞的取捨**：未成熟 DC（周邊組織）**吞噬強**；接觸病原、成熟後吞噬下降，經淋巴管到淋巴結，變成**呈現能力最強**的 APC（同時有 MHC I、II），負責活化 naïve T。
 - **CAR-T 最常見的副作用：cytokine release syndrome（CRS）**。
 - 抗原受體庫（repertoire）至少要 **10¹⁰** 種，主要靠受體基因片段**重排**產生。

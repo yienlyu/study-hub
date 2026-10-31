@@ -113,8 +113,6 @@
 === exam ===
 # 考點分析
 
-> 本章是今年新增的遠距課程（期中配分 **3%，約 3 題**），去年考古沒有對應題組；以下依 slides 與錄影整理。練習區「模擬新題」有本章 10 題。相關考古：113 考古 **hyper-IgM 兩題**（缺 CD40L）在〈T 細胞媒介免疫〉；CGD 在〈對抗感染的免疫反應〉。
-
 ## 🔥 高頻考點（預測）
 1. **SCID 的 T／B／NK 配對**（最好出題、最容易混）。
 2. **XLA = BTK、卡 pre-B、T 正常**；**hyper-IgM = CD40L、只有 IgM、伺機性感染**。
@@ -150,7 +148,7 @@
 6. **Perforin 缺陷 → FHL（hyperinflammation）**；**XLP（SAP）→ EBV lymphoproliferation**。
 7. **治療三層次**：replace（IVIG）、reconstitute（HSCT）、correct（gene therapy / CRISPR）；HSCT 併發症 GVHD vs graft rejection。
 
-## 📒 115 共筆對照（Ch18-2）
+## 📒 百十四共筆對照（Ch18-2）
 - **遺傳模式**：X-linked SCID（IL2RG）為 **X 染色體隱性**（患者多為男性）；**RAG1/2、FOXN1** 缺陷都是**體染色體隱性**。XLA、X-linked hyper-IgM、XLP 也都是 X-linked。
 - 次發性（後天）免疫缺陷**遠比原發性常見**，是感染與死亡的重要誘因。
 - **FHL 的分型**（細胞毒性顆粒路徑各步驟）：**perforin → FHL2**、Munc13-4（priming）→ FHL3、syntaxin 11 → FHL4、Munc18-2 → FHL5；顆粒運輸／停靠缺陷：**LYST → Chédiak–Higashi**、**Rab27a → Griscelli**。
