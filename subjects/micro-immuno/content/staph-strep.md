@@ -53,13 +53,13 @@ G(+) cocci
 
 - 鏈球菌共通：G(+)、成對或成鏈、兼性厭氧、**catalase (−)**、不動、不產孢子；需要營養豐富的培養基（加血液、血清），有些要 CO₂（capnophilic）→ **不是院內感染菌**（和 _S. aureus_ 最大差別）。
 - 分類：**Lancefield**（1933，細胞壁 C-carbohydrate：A、B、C、F、G）、**溶血**（β：GAS bacitracin 敏感、GBS 抗性；α：肺炎鏈球菌 optochin 敏感、草綠鏈球菌抗性；γ：腸球菌）。
-- GAS 特性：β 溶血強（比 GBS 強）、小白菌落、受高濃度葡萄糖抑制；group A 抗原 = N-acetylglucosamine＋rhamnose。
+- GAS 特性：β 溶血強（比 GBS 強）、小白菌落、受高濃度葡萄糖抑制；**group A 抗原** = N-acetylglucosamine＋rhamnose。
 - 棲息：**口咽**（健康孩童與年輕人無症狀帶菌）；冬天、密閉空間飛沫傳染。最嚴重的鏈球菌疾病多由 GAS 造成。
 - 毒力：**M protein**（GAS 特有；C 端保守、**N 端變異 → 依 emm 基因分型**；干擾 C3b；class I 與 rheumatic fever 有關）、**M-like protein**（抓 Fc、fibronectin）、黏附三要素 **LTA、M protein、F protein**（內化後可持續感染）、hyaluronic acid 莢膜、**C5a peptidase**、streptokinase、DNase（逃 NETs）、**Streptolysin O**（oxygen-labile、抗原性強 → **ASO titer**；被皮膚膽固醇抑制 → 膿皮症不易測得）、Streptolysin S。
 - **SpeA（pyrogenic / erythrogenic exotoxin）**：**superantigen**，由 **lysogenic phage** 基因編碼 → **猩紅熱**（strawberry tongue、Pastia's lines）。
-- 化膿性疾病：
-  - **咽喉炎**（孩童細菌性喉嚨痛多為 GAS；2–4 天發病；有白色滲出物）→ 未治療 → **猩紅熱**（全身紅疹、**口周蒼白**、**草莓舌**、**Pastia line**）。
-  - 皮膚（菌株與咽喉炎不同）：**impetigo／pyoderma**（結痂，採檢要掀開痂）、**erysipelas**（臉與四肢、**界線清楚**）、**cellulitis**（深及皮下、**界線不清**）、**壞死性筋膜炎**（噬肉菌；沿筋膜擴散 → 清創＋抗生素，可能 STSS）。
+- Suppurative streptococcal infection（化膿性疾病）：
+  - **Pharyngitis（咽喉炎）**（孩童細菌性喉嚨痛多為 GAS；2–4 天發病；有白色滲出物）→ 未治療 → **Scarlet fever（猩紅熱）**（全身紅疹、**口周蒼白**、**草莓舌**、**Pastia line**）。
+  - 皮膚（菌株與咽喉炎不同）：**impetigo／pyoderma**（結痂，採檢要掀開痂）、**erysipelas**（臉與四肢、**界線清楚**）、**cellulitis**（深及皮下、**界線不清**）、**Necrotizing fasciitis（壞死性筋膜炎）**（噬肉菌；沿筋膜擴散 → 清創＋抗生素，可能 STSS）。
   - 系統性：菌血症、肺炎、**產褥熱**、**STSS**（有黏多醣莢膜與 SpeA、SpeC 的菌株）。
 - **非化膿性後遺症**（抗體介導、像自體免疫）：**Rheumatic fever**（咽喉炎後、class I M protein）、**Acute glomerulonephritis**（**多在皮膚感染後**、nephritogenic M protein）。
 - 診斷：Gram 染色；培養（後咽、扁桃腺；bacitracin 或 **PYR**）；抗原快篩（專一高、敏感低 → 陰性要再確認）；**ASO**（風濕熱、AGN）、**anti-DNase B**（腎絲球腎炎）；PCR。

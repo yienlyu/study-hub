@@ -1,0 +1,1389 @@
+{
+  "title": "究極青眼白蟲",
+  "credit": "學長姐流傳大表 · 作者吳道賢、修訂朱允平（2023/12）",
+  "legend": "✍️ = 原表上的紅筆手寫補充；⚠️ = 和百十四共筆（本站蟲卡）說法不同，考試以共筆為準。粗體是原表的螢光筆重點。",
+  "tables": [
+    {
+      "id": "nematode",
+      "title": "線蟲",
+      "en": "Nematodes",
+      "page": 1,
+      "rows": [
+        {
+          "k": "feat",
+          "t": "成蟲／幼蟲特徵"
+        },
+        {
+          "k": "src",
+          "t": "感染源",
+          "match": "怎麼感染"
+        },
+        {
+          "k": "stage",
+          "t": "感染期"
+        },
+        {
+          "k": "ih",
+          "t": "中間／保幼宿主"
+        },
+        {
+          "k": "fh",
+          "t": "終宿主／保蟲宿主"
+        },
+        {
+          "k": "cycle",
+          "t": "生活史"
+        },
+        {
+          "k": "sx",
+          "t": "重要症狀"
+        },
+        {
+          "k": "dx",
+          "t": "診斷",
+          "match": "診斷方式"
+        },
+        {
+          "k": "tx",
+          "t": "治療"
+        },
+        {
+          "k": "etc",
+          "t": "其他關鍵字",
+          "match": "關鍵字"
+        }
+      ],
+      "cols": [
+        {
+          "id": "ascaris",
+          "zh": "蛔蟲",
+          "sci": "Ascaris lumbricoides",
+          "worms": ["ascaris"],
+          "cells": {
+            "feat": ["**最大的線蟲**，約 25 cm", "乳白粉色，雌蟲大且長"],
+            "src": ["吞食含 L3 幼蟲的蟲卵", "尤其春夏季溫暖潮濕"],
+            "stage": ["含 L3 幼蟲的蟲卵"],
+            "fh": ["終宿主：人"],
+            "cycle": [
+              "吃入含 L3 的卵 → 十二指腸孵出 → 循環系統 → **肺**、支氣管（蛻皮）→ 咽喉 → 吞回小腸交配 → 卵隨糞便排出 → 土壤發育"
+            ],
+            "sx": [
+              "肺：eosinophilia",
+              "小腸：腹瀉、腸道堵塞",
+              "異位寄生：膽管阻塞"
+            ],
+            "dx": ["糞便找蟲卵"],
+            "tx": ["Albendazole、Mebendazole、Ivermectin"],
+            "etc": ["**最多人感染**的線蟲", "STHs"]
+          },
+          "group": "腸道線蟲"
+        },
+        {
+          "id": "hookworm",
+          "zh": "鉤蟲",
+          "sci": "Hookworm",
+          "worms": ["necator", "duodenale", "zoo-hookworm"],
+          "cells": {
+            "feat": [
+              "約 1 cm，雌蟲大且長",
+              "有牙齒、交尾傘 bursa",
+              "亞洲種大、很會吸血、兩根交尾刺分開",
+              "美洲：一對**切板**",
+              "十二指腸：**兩對相似**的牙齒",
+              "犬鉤：**三對大小不同**的牙齒"
+            ],
+            "src": ["皮膚接觸（土壤）"],
+            "stage": [
+              "L3 **絲狀（被鞘）幼蟲** filariform larva",
+              "經皮下進入血循"
+            ],
+            "ih": ["保幼宿主：人（犬鉤蟲）"],
+            "fh": ["終宿主：人（美洲、十二指腸鉤蟲）", "終宿主：狗（犬鉤蟲）"],
+            "cycle": [
+              "土壤中發育為桿狀幼蟲 → 絲狀幼蟲 → 刺穿皮膚進入循環 → 肺（蛻皮兩次）→ 咽喉 → 小腸交配 → 卵隨糞便排出",
+              "十二指腸鉤蟲也可經吞食感染"
+            ],
+            "sx": [
+              "皮膚：**Ground itch**；巴西鉤蟲造成 **CLM**",
+              "✍️ Ground itch 是最早出現的症狀",
+              "肺：eosinophilia",
+              "小腸吸血：**IDA**（缺鐵性貧血）、**pica**、occult blood"
+            ],
+            "dx": [
+              "糞便找蟲卵（美洲、十二指腸鉤蟲）",
+              "犬鉤蟲在人體無法性成熟，找不到卵"
+            ],
+            "tx": ["Albendazole、Mebendazole、Pyrantel pamoate"],
+            "etc": [
+              "**第二多**人感染的線蟲",
+              "STHs",
+              "**Arrested development**（✍️ AD）：乾季停在小腸 L3/L4，濕季加倍產卵"
+            ]
+          },
+          "group": "腸道線蟲"
+        },
+        {
+          "id": "trichuris",
+          "zh": "鞭蟲",
+          "sci": "Trichuris trichiura",
+          "worms": ["trichuris"],
+          "cells": {
+            "feat": [
+              "約 40 mm，像鞭子：**頭細尾粗**",
+              "aphasmid、stichosome esophagus",
+              "單套卵巢及子宮、無尾端化學感受器"
+            ],
+            "src": ["吞食含幼蟲的蟲卵"],
+            "stage": ["含 L3 幼蟲的蟲卵"],
+            "fh": ["終宿主：人"],
+            "cycle": [
+              "吃入含幼蟲的卵 → 十二指腸孵出 → **大腸、盲腸**交配 → 卵隨糞便排出 → 土壤發育",
+              "**不經過血液循環**"
+            ],
+            "sx": [
+              "小腸：腹瀉",
+              "直腸盲腸：**脫肛 rectal prolapse**",
+              "吸血相關：pica、IDA、生長遲緩",
+              "✍️ 大多輕度感染、沒有症狀"
+            ],
+            "dx": ["糞便找蟲卵；輕度感染要濃縮、**Kato-Katz**"],
+            "tx": ["Albendazole、Mebendazole"],
+            "etc": ["**第三多**人感染的線蟲", "STHs"]
+          },
+          "group": "腸道線蟲",
+          "m": {
+            "src": null
+          }
+        },
+        {
+          "id": "enterobius",
+          "zh": "蟯蟲",
+          "sci": "Enterobius vermicularis",
+          "worms": ["enterobius"],
+          "cells": {
+            "feat": [
+              "透明的**頸翼**、膨大的**食道球**",
+              "生殖系統雙管型；雌蟲大且長"
+            ],
+            "src": [
+              "食物、水源、塵埃；接觸衣物；吸入",
+              "**Autoinfection**：肛門 → 手 → 口"
+            ],
+            "stage": ["含 L3 幼蟲的蟲卵"],
+            "fh": ["終宿主：人"],
+            "cycle": [
+              "誤食蟲卵 → 胃 → 腸道發育交配 → 雌蟲到**肛門產卵** → 孵化爬回，周而復始",
+              "Retrofection：肛門的卵孵化 → 幼蟲逆行回大腸盲腸（女性可到陰道）",
+              "**不經過血液循環**"
+            ],
+            "sx": [
+              "肛門：**perianal pruritus**",
+              "小腸：食慾不振、消化不良",
+              "盲腸：appendicitis",
+              "女性：陰道炎（vulvovaginitis）、尿道",
+              "✍️ 雌蟲入侵生殖系統 → 慢性骨盆腔腹膜炎（chronic pelvic peritonitis）",
+              "✍️ 闌尾炎"
+            ],
+            "dx": [
+              "蟲卵：**Scotch test**／cellulose-tape slide（糞便中難看到）",
+              "成蟲：大腸鏡"
+            ],
+            "tx": [
+              "Albendazole、Mebendazole、Pyrantel pamoate",
+              "⚠️ 共筆：Pyrantel pamoate 首選；全家一起治療，2 週後再給一次"
+            ],
+            "etc": ["好發於幼童"]
+          },
+          "group": "腸道線蟲"
+        },
+        {
+          "id": "toxocara",
+          "zh": "犬蛔蟲",
+          "sci": "Toxocara canis",
+          "worms": ["toxocara"],
+          "cells": {
+            "feat": ["雌 18 cm、雄 10 cm", "透明的頸翼"],
+            "src": ["土壤、食物", "胎盤／子宮（母犬傳給幼犬）"],
+            "stage": ["含 L3 幼蟲的蟲卵／被囊幼蟲（encysted larva）"],
+            "ih": ["保幼宿主：**人**、哺乳類、鴨子"],
+            "fh": ["終宿主：狗"],
+            "cycle": [
+              "人：吃入蟲卵或被囊幼蟲 → 穿小腸黏膜 → 隨血液到各器官 → 肉芽腫",
+              "狗：吞食 → 穿小腸黏膜 → 血液 → 肝 → 心 → 肺 → 咽喉；吐出就結束，吞下則回小腸交配 → 卵隨糞便排出 → 土壤發育"
+            ],
+            "sx": [
+              "大多無症狀：**covert toxocariasis**",
+              "eosinophilia",
+              "各器官：**VLM**（✍️ 常見於幼童）",
+              "眼：**OLM**，可致失明",
+              "腦、脊髓：NT，引發癲癇"
+            ],
+            "dx": [
+              "抗體：IgG2／IgG4（較好）",
+              "TES-Western blot 辨識度極高",
+              "**不能糞檢**：成蟲無法在人體產卵"
+            ],
+            "tx": ["Albendazole／Mebendazole ＋ steroid", "時好時壞"],
+            "etc": [
+              "人和其他動物是**保幼宿主**，幼蟲不會長成成蟲",
+              "Neglected zoonotic diseases（NZDs）、five NPIs",
+              "失智的危險因子",
+              "人畜共通"
+            ]
+          },
+          "group": "組織線蟲"
+        },
+        {
+          "id": "c-phil",
+          "zh": "菲律賓毛細線蟲",
+          "sci": "Capillaria philippinensis",
+          "worms": ["c-phil"],
+          "cells": {
+            "feat": [
+              "aphasmid、stichosome esophagus",
+              "單套卵巢及子宮、無尾端化學感受器"
+            ],
+            "src": ["吃不熟的**淡水魚**", "Autoinfection"],
+            "stage": [
+              "✍️ 含 L3 幼蟲的**淡水魚**（原表印「含 L3 幼蟲的蟲卵」，被紅筆劃掉改正）"
+            ],
+            "ih": ["中間宿主：魚"],
+            "fh": ["終宿主：人", "保蟲宿主：海鳥"],
+            "cycle": [
+              "吃含幼蟲的魚 → 小腸成熟產卵 → 卵隨糞便排出 → 魚吃到後發育為 L3",
+              "**不經過血液循環**；Autoinfection"
+            ],
+            "sx": ["腹瀉、**惡病質**（cachexia）"],
+            "dx": ["糞便：蟲卵、幼蟲、成蟲", "小腸病理切片"],
+            "tx": ["Albendazole、Mebendazole"],
+            "etc": ["菲律賓、泰國、台灣原住民"]
+          },
+          "group": "腸道線蟲",
+          "m": {
+            "dx": null
+          }
+        },
+        {
+          "id": "c-hep",
+          "zh": "肝毛細線蟲／鼠肝鞭蟲",
+          "sci": "Capillaria hepatica",
+          "worms": ["c-hep"],
+          "cells": {
+            "feat": [
+              "aphasmid、stichosome esophagus",
+              "單套卵巢及子宮、無尾端化學感受器"
+            ],
+            "src": ["吃入含幼蟲蟲卵的食物"],
+            "stage": ["含 L3 幼蟲的蟲卵"],
+            "ih": [
+              "保幼宿主：人",
+              "⚠️ 共筆：人吃入胚胎化卵後在**肝臟長成成蟲**（不是只當保幼宿主）"
+            ],
+            "fh": ["終宿主：囓齒類（老鼠、兔子）"],
+            "cycle": [
+              "人：誤食蟲卵 → 穿腸黏膜 → 肝門靜脈 → **肝臟**形成肉芽腫",
+              "**過誤寄生**（spurious）：吃進去的卵隨糞便排出，沒事"
+            ],
+            "sx": ["肝：肉芽腫、肝纖維化、肝炎、肝硬化"],
+            "dx": ["**肝臟組織切片**：成蟲、蟲卵"],
+            "tx": ["Albendazole、Mebendazole", "切除受損的肝組織"],
+            "etc": ["無主要流行區，人類病例少於 50 例"]
+          },
+          "group": "組織線蟲",
+          "m": {
+            "src": null
+          }
+        },
+        {
+          "id": "strongyloides",
+          "zh": "糞小桿線蟲",
+          "sci": "Strongyloides stercoralis",
+          "worms": ["strongyloides"],
+          "cells": {
+            "feat": ["**孤雌生殖** parthenogenesis"],
+            "src": ["皮膚接觸（土壤）", "母體哺乳", "Autoinfection"],
+            "stage": ["**絲狀幼蟲** filariform larva"],
+            "fh": ["終宿主：人"],
+            "cycle": [
+              "環境適合：free-living cycle（不寄生）",
+              "環境不好：桿狀幼蟲 → 絲狀幼蟲 → 鑽皮 → 血液到心肺 → 咽喉吞入 → 小腸；糞便排出**桿狀幼蟲**",
+              "Internal autoinfection：體內桿幼 → 絲幼 → 穿腸壁進血液",
+              "External autoinfection：肛門糞渣的桿幼 → 絲幼 → 穿皮膚"
+            ],
+            "sx": [
+              "表皮：**CLM**、線狀病灶",
+              "⚠️ 共筆：皮膚表現是快速爬行的 **larva currens**",
+              "肺：eosinophilia；小腸：腹瀉；肛門：搔癢；大腦：腦炎",
+              "**Hyperinfection**：ectopic migration",
+              "eosinophilia **不一定**有"
+            ],
+            "dx": [
+              "糞便：幼蟲、成蟲，**沒有蟲卵**",
+              "腸液：蟲卵、幼蟲、成蟲",
+              "痰液：蟲卵"
+            ],
+            "tx": [
+              "Albendazole、Thiabendazole、**Ivermectin**",
+              "⚠️ 共筆：Ivermectin 首選"
+            ],
+            "etc": [
+              "Arrested development（✍️ AD）",
+              "STHs",
+              "AIDS 的伺機性線蟲感染"
+            ]
+          },
+          "group": "腸道線蟲"
+        },
+        {
+          "id": "trichinella",
+          "zh": "旋毛蟲",
+          "sci": "Trichinella spiralis",
+          "worms": ["trichinella"],
+          "cells": {
+            "feat": [
+              "雌約 2.2 mm、雄約 1.2 mm",
+              "aphasmid、stichosome esophagus、單套卵巢及子宮",
+              "交尾刺退化成乳突／葉狀突起"
+            ],
+            "src": ["生食**豬肉**（生肉都會，不限豬）"],
+            "stage": ["**被囊幼蟲** encysted larva"],
+            "ih": ["保蟲宿主＋中間宿主：豬、鼠"],
+            "fh": ["終宿主＋中間宿主：人"],
+            "cycle": [
+              "肌肉中的被囊幼蟲被吞食 → 小腸發育交配 → **卵胎生**產下幼蟲 → 穿腸黏膜進血液 → 在**肌肉**形成被囊幼蟲"
+            ],
+            "sx": [
+              "潛伏期：腹瀉、腹痛、嘔吐；肌肉痛、無力",
+              "移行（急性）期：**眼眶和臉部水腫**、**指甲下線狀出血**（splinter hemorrhage）、結膜炎、eosinophilia",
+              "被囊期：心肌炎、肺炎、CNS 損傷"
+            ],
+            "dx": ["**肌肉切片**：被囊幼蟲", "**IgG** 抗體（✍️ 圈起來）"],
+            "tx": ["Albendazole、Mebendazole"],
+            "etc": ["人**同時是中間宿主與最終宿主**", "卵胎生 ovoviviparous"]
+          },
+          "group": "組織線蟲"
+        },
+        {
+          "id": "anisakis",
+          "zh": "海獸胃線蟲",
+          "sci": "Anisakis simplex",
+          "worms": ["anisakis"],
+          "cells": {
+            "feat": [
+              "約 2–3 cm",
+              "**Y 字形側索**（lateral cords）",
+              "有 mucron（尾刺）"
+            ],
+            "src": ["吃**生魚片**"],
+            "stage": ["第三期幼蟲（L3）"],
+            "ih": ["保幼宿主：甲殼類、魚類、人"],
+            "fh": ["終宿主：**海洋哺乳類**"],
+            "cycle": [
+              "L3 在海洋哺乳類胃、小腸發育交配 → 卵隨糞便到海裡孵化成 L3 → 被保幼宿主吃掉 → 再被海洋哺乳類吃掉"
+            ],
+            "sx": [
+              "吃生魚片約 **6 小時**後上腹痛、潰瘍、出血",
+              "過敏：蕁麻疹、丘疹",
+              "抗原耐熱，煮熟也沒用"
+            ],
+            "dx": ["內視鏡、組織切片：幼蟲"],
+            "tx": ["**內視鏡夾出幼蟲**是唯一方式"],
+            "etc": ["人體中找不到動物鉤蟲、犬蛔蟲、海獸胃線蟲的成蟲"]
+          },
+          "group": "組織線蟲",
+          "m": {
+            "etc": null
+          }
+        },
+        {
+          "id": "angiostrongylus",
+          "zh": "廣東住血線蟲／鼠肺線蟲",
+          "sci": "Angiostrongylus cantonensis",
+          "worms": ["angiostrongylus"],
+          "cells": {
+            "feat": [
+              "雌 22–34 mm、雄 20–22 mm",
+              "雌蟲：黑（腸道）白（子宮）纏繞",
+              "雄蟲：尾端傘狀交尾囊、兩根交尾刺"
+            ],
+            "src": ["生機飲食、**淡水蝦蟹**"],
+            "stage": ["第三期幼蟲（L3）"],
+            "ih": ["中間宿主：蝸牛、蛞蝓、螺", "保幼宿主：爬蟲類、甲殼類"],
+            "fh": ["終宿主：**大鼠**"],
+            "cycle": [
+              "L1 被中間宿主吃掉 → L3 → 大鼠吞食 → 穿小腸進血液 → CNS 發育 → 到**肺動脈**交配產卵 → 孵出 L1 → 咽喉 → 吞下隨糞便排出",
+              "人吃含 L3 的中間宿主而感染，只發育到 L5"
+            ],
+            "sx": [
+              "腦：**嗜酸性腦膜炎**（eosinophilic meningitis）、腦膜腦炎",
+              "眼：失明、視網膜剝離",
+              "Eosinophilia"
+            ],
+            "dx": [
+              "**腦脊髓液（CSF）**：Charcot-Leyden 結晶、幼蟲",
+              "大腦組織切片：蟲體",
+              "免疫螢光 IF、EIA"
+            ],
+            "tx": [
+              "Albendazole ＋ steroid（有爭議）",
+              "⚠️ 共筆：沒有公認有效的治療，不建議用驅蟲藥"
+            ],
+            "etc": [
+              "人不是適當宿主，不會長成成蟲",
+              "唯一**經過肺動脈**的（表下整理）"
+            ]
+          },
+          "group": "組織線蟲",
+          "m": {
+            "etc": "經過肺動脈"
+          }
+        },
+        {
+          "id": "gnathostoma",
+          "zh": "有棘顎口線蟲",
+          "sci": "Gnathostoma spinigerum",
+          "worms": ["gnathostoma"],
+          "cells": {
+            "feat": [
+              "幼蟲頭部**超過四圈**小鉤（hooklet）；*G. nipponicum* 三圈",
+              "全身環繞棘"
+            ],
+            "src": ["吃體內有 L3 的淡水魚或鳥類（都和水有關，加上蛇）"],
+            "stage": ["第三期幼蟲（L3）"],
+            "ih": [
+              "第一中間宿主：**水蚤**",
+              "第二中間宿主：主要是**淡水魚**",
+              "保幼宿主：鳥、蛙、家禽、蛇"
+            ],
+            "fh": ["終宿主：貓、狗、豬、虎等"],
+            "cycle": [
+              "成蟲產卵隨糞便排出 → 水中孵出 L1 → 水蚤（1st IH）→ EL3 → 淡水魚（2nd IH）→ AL3 →（保幼宿主）→ 終宿主吃掉長成成蟲",
+              "人：誤食 L3 → 寄生於皮膚、眼睛、內臟、神經系統"
+            ],
+            "sx": [
+              "皮膚：**CLM**（✍️ 紅筆補）",
+              "眼：OLM；內臟：VLM",
+              "腦：嗜酸性腦膜炎"
+            ],
+            "dx": ["抗體：西方點墨法（immunoblot）", "組織切片：幼蟲、成蟲"],
+            "tx": ["Albendazole", "⚠️ 共筆：把蟲體取出鑑定，診斷也是治療"],
+            "etc": []
+          },
+          "group": "組織線蟲"
+        },
+        {
+          "id": "lymphatic",
+          "zh": "班氏絲蟲／馬來絲蟲",
+          "sci": "Wuchereria bancrofti / Brugia malayi",
+          "worms": ["wuchereria", "brugia"],
+          "cells": {
+            "feat": [
+              "班氏：有外鞘、**無尾核**（✍️ 圈起來）",
+              "馬來：有外鞘、尾核單獨在尾端"
+            ],
+            "src": ["**蚊子**"],
+            "stage": ["第三期幼蟲（L3）"],
+            "fh": ["終宿主：人"],
+            "cycle": [
+              "所有血絲蟲生活史都很像，**只有 vector 不同**",
+              "Vector 叮咬，L3 進入血液 → 到**淋巴管**（班氏、馬來）或**皮下組織**（羅阿、蟠尾）長成成蟲 → 產下微絲蚴 → vector 叮咬吸入、發育成 L3 → 聚集在口器（proboscis）→ 再叮人",
+              "六大熱帶醫學疾病之一"
+            ],
+            "sx": [
+              "主要在**淋巴組織**",
+              "熱帶肺嗜酸性球增多症（PTES；✍️ 急性期）",
+              "**象皮病**（好發於下肢；✍️ 急慢性都有）、filarial fever",
+              "**乳糜尿**（班氏特有；✍️ 慢性期）",
+              "✍️ 原表「可導致 tropical basophilia eosinophilia」被紅筆劃掉"
+            ],
+            "dx": ["微絲蚴：**晚上**採末梢血（10 PM–4 AM），依形態分種"],
+            "tx": ["**DEC**（成蟲、微絲蚴）、Ivermectin（微絲蚴）"],
+            "etc": ["班氏：熱帶、**台灣**", "馬來：亞洲"]
+          },
+          "group": "血絲蟲"
+        },
+        {
+          "id": "loa",
+          "zh": "羅阿絲蟲／非洲眼蟲",
+          "sci": "Loa loa",
+          "worms": ["loa"],
+          "cells": {
+            "feat": ["有外鞘、尾核**延續到尾端**"],
+            "src": [
+              "**斑虻**（deerfly，*Chrysops*）",
+              "血絲蟲的 vector 都是節肢動物"
+            ],
+            "stage": ["第三期幼蟲（L3）"],
+            "fh": ["終宿主：人"],
+            "cycle": ["同淋巴絲蟲，但成蟲在**皮下組織**"],
+            "sx": [
+              "主要在**皮下組織**",
+              "**Calabar swelling**",
+              "眼睛：**eye worm**",
+              "腦：致命性腦炎（fatal encephalitis）",
+              "慢性腎病：抗原抗體堆積"
+            ],
+            "dx": [
+              "微絲蚴：**白天**採血",
+              "看結膜有沒有蟲體、Calabar swelling、RAPLOA 問卷"
+            ],
+            "tx": ["DEC（成蟲、微絲蚴）、Ivermectin（微絲蚴）"],
+            "etc": ["中西非", "✍️ 會和班氏絲蟲 co-infection"]
+          },
+          "group": "血絲蟲"
+        },
+        {
+          "id": "onchocerca",
+          "zh": "蟠尾絲蟲",
+          "sci": "Onchocerca volvulus",
+          "worms": ["onchocerca"],
+          "cells": {
+            "feat": ["**無外鞘**（✍️ 圈起來）"],
+            "src": ["**黑蠅**（blackfly，*Simulium*，蚋）"],
+            "stage": ["第三期幼蟲（L3）"],
+            "fh": ["終宿主：人"],
+            "cycle": ["同淋巴絲蟲，但成蟲在**皮下組織**"],
+            "sx": [
+              "皮下組織和眼睛",
+              "**蟠尾絲蟲瘤**（onchocercoma）、鼠蹊懸垂（hanging groin）",
+              "Sowda／皮膚變黑；✍️ leopard skin",
+              "**河盲症**：共生菌 *Wolbachia* 引起廣泛性虹膜炎"
+            ],
+            "dx": [
+              "微絲蚴：**skin snip**（非洲取鼠蹊、南美取頭頸）",
+              "**Mazzotti test**（50 mg DEC）、patch test（DEC 貼布）",
+              "寄生在皮下，**無法抽血**採檢"
+            ],
+            "tx": [
+              "DEC、Ivermectin（原表與淋巴絲蟲共用一格）",
+              "⚠️ 共筆：Ivermectin（只殺微絲蚴）；手術取結節"
+            ],
+            "etc": ["非洲、中南美洲、葉門"]
+          },
+          "group": "血絲蟲"
+        }
+      ],
+      "notes": [
+        "熱帶醫學之父：Patrick Manson",
+        "經過肺動脈：*A. cantonensis*",
+        "人是保幼宿主、不會長成成蟲：*T. canis*、*A. cantonensis*、*C. hepatica*、*A. simplex*（⚠️ 共筆：*C. hepatica* 會在人的肝臟長成成蟲）",
+        "不經過血液循環：*Trichuris trichiura*、*Enterobius vermicularis*、*Capillaria philippinensis*",
+        "Autoinfection：*Enterobius vermicularis*、*Capillaria philippinensis*、*Strongyloides stercoralis*",
+        "經過土壤：鉤蟲、糞小桿線蟲、肝毛細線蟲（*C. hepatica*）"
+      ]
+    },
+    {
+      "id": "trematode",
+      "title": "吸蟲",
+      "en": "Trematodes",
+      "page": 2,
+      "rows": [
+        {
+          "k": "area",
+          "t": "流行地區",
+          "match": "流行地區"
+        },
+        {
+          "k": "feat",
+          "t": "蟲體特徵"
+        },
+        {
+          "k": "src",
+          "t": "感染源",
+          "match": "怎麼感染"
+        },
+        {
+          "k": "ih1",
+          "t": "第一中間宿主",
+          "match": "第一中間宿主（螺）"
+        },
+        {
+          "k": "ih2",
+          "t": "第二中間宿主",
+          "match": "第二中間宿主"
+        },
+        {
+          "k": "fh",
+          "t": "終宿主／保蟲宿主"
+        },
+        {
+          "k": "cycle",
+          "t": "生活史"
+        },
+        {
+          "k": "site",
+          "t": "寄生部位",
+          "match": "寄生部位"
+        },
+        {
+          "k": "sx",
+          "t": "重要症狀"
+        },
+        {
+          "k": "dx",
+          "t": "診斷"
+        },
+        {
+          "k": "tx",
+          "t": "治療",
+          "match": "治療藥物"
+        },
+        {
+          "k": "etc",
+          "t": "其他關鍵字",
+          "match": "關鍵字"
+        },
+        {
+          "k": "egg",
+          "t": "蟲卵",
+          "match": "蟲卵",
+          "full": 1
+        }
+      ],
+      "cols": [
+        {
+          "id": "fbuski",
+          "zh": "薑片蟲",
+          "sci": "Fasciolopsis buski",
+          "worms": ["fbuski"],
+          "group": "腸道吸蟲",
+          "imgs": {
+            "body": {
+              "src": "figures/bigtable/fbuski-body.webp",
+              "w": 186,
+              "h": 459
+            },
+            "egg": {
+              "src": "figures/bigtable/fbuski-egg.webp",
+              "w": 186,
+              "h": 257
+            }
+          },
+          "cells": {
+            "area": ["中國、台灣、東南亞（夏天）"],
+            "feat": [
+              "**人體最大**的吸蟲（和牛羊肝吸蟲比）",
+              "睪丸：珊瑚狀分支（✍️ 前後排列）",
+              "腸支：左右兩支，不分支",
+              "腹吸盤 > 5 倍口吸盤"
+            ],
+            "src": ["有囊蚴的**水生植物**"],
+            "ih1": ["**扁捲螺** Planorbid snail"],
+            "ih2": ["**水生植物**"],
+            "fh": ["人／豬"],
+            "cycle": [
+              "水中卵 → miracidium → 1st IH → sporocyst → redia → cercaria → 2nd IH → metacercaria → FH 吃入 → 消化道成熟產卵（腸道吸蟲共用）"
+            ],
+            "site": ["小腸為主"],
+            "sx": [
+              "腹痛、腹瀉、便秘、貧血、腸阻塞、eosinophilia",
+              "腸胃道機械性傷害、糞便有血絲",
+              "腸道吸蟲共通：**腹吸盤**造成黏膜損傷、潰爛、發炎"
+            ],
+            "dx": ["蟲卵：糞便", "成蟲：排出、吐出"],
+            "tx": ["Praziquantel"],
+            "etc": ["人體最大的吸蟲", "**最大的寄生蟲卵**"],
+            "egg": [
+              "大型、淡黃色、卵圓形",
+              "卵殼薄、卵黃和卵殼之間**沒有空隙**",
+              "卵蓋小、不明顯"
+            ]
+          }
+        },
+        {
+          "id": "heterophyes",
+          "zh": "異形異形吸蟲",
+          "sci": "Heterophyes heterophyes",
+          "worms": ["heterophyes"],
+          "group": "腸道吸蟲",
+          "imgs": {
+            "body": {
+              "src": "figures/bigtable/heterophyes-body.webp",
+              "w": 200,
+              "h": 423
+            },
+            "egg": {
+              "src": "figures/bigtable/heterophyes-egg.webp",
+              "w": 200,
+              "h": 237
+            }
+          },
+          "cells": {
+            "area": ["中東、南歐、亞洲"],
+            "feat": [
+              "小型吸蟲、有鱗棘",
+              "**三個吸盤**：腹吸盤、口吸盤、**生殖吸盤**",
+              "睪丸：並列"
+            ],
+            "src": ["有囊蚴的**海水魚**（原表和橫川共用「有囊蚴的魚類」）"],
+            "ih1": ["淡水螺類", "⚠️ 共筆：海蜷等**半鹹水**螺"],
+            "ih2": ["烏魚、**海水魚**（河川出海口）"],
+            "fh": ["人／海鳥"],
+            "cycle": ["同薑片蟲（腸道吸蟲共用）"],
+            "site": ["空腸、十二指腸、迴腸、盲腸", "異位寄生：腦、心肺"],
+            "sx": [
+              "腹痛、腹瀉",
+              "蟲卵造成肉芽腫（✍️ granuloma）",
+              "異位：蟲卵穿進腸壁，隨血流到腦、心肺",
+              "腸道吸蟲共通：腹吸盤造成黏膜損傷"
+            ],
+            "dx": ["蟲卵：糞便塗片、沉渣鏡檢"],
+            "tx": ["Praziquantel"],
+            "etc": ["**人體最小**的吸蟲"],
+            "egg": [
+              "黃棕至褐色，23–30 × 14–17 µm",
+              "橢圓至卵形、**無肩峰**、卵蓋對側殼厚、有小棘",
+              "**明顯纖毛幼蟲**"
+            ]
+          },
+          "m": {
+            "ih1": null
+          }
+        },
+        {
+          "id": "metagonimus",
+          "zh": "橫川異形吸蟲",
+          "sci": "Metagonimus yokogawai",
+          "worms": ["metagonimus"],
+          "group": "腸道吸蟲",
+          "imgs": {
+            "body": {
+              "src": "figures/bigtable/metagonimus-body.webp",
+              "w": 184,
+              "h": 295
+            },
+            "egg": {
+              "src": "figures/bigtable/metagonimus-egg.webp",
+              "w": 184,
+              "h": 300
+            }
+          },
+          "cells": {
+            "area": ["西伯利亞、南歐"],
+            "feat": [
+              "小型吸蟲",
+              "**兩個吸盤**：腹吸盤（**偏右側**）、口吸盤",
+              "睪丸：斜於後端"
+            ],
+            "src": ["有囊蚴的**淡水魚**、蛙（原表和異形共用「有囊蚴的魚類」）"],
+            "ih1": [
+              "淡水螺類",
+              "⚠️ 共筆：川蜷 *Semisulcospira libertina*（和肺吸蟲同一種）"
+            ],
+            "ih2": ["淡水魚、蛙（河川中上游）"],
+            "fh": ["人／海鳥"],
+            "cycle": ["同薑片蟲（腸道吸蟲共用）"],
+            "site": ["小腸中段（jejunum）", "✍️ 也會異位寄生"],
+            "sx": [
+              "腹痛、腹瀉、便秘、貧血",
+              "全身毒性反應、eosinophilia",
+              "更嚴重：厭食、發育不良",
+              "腸道吸蟲共通：腹吸盤造成黏膜損傷"
+            ],
+            "dx": ["蟲卵：糞便塗片、沉渣鏡檢"],
+            "tx": ["Praziquantel"],
+            "etc": ["**在台灣發現**"],
+            "egg": [
+              "黃褐至褐色，28–32 × 14–18 µm",
+              "卵殼厚、表面不光滑",
+              "纖毛幼蟲**不明顯**"
+            ]
+          },
+          "m": {
+            "ih1": null
+          }
+        },
+        {
+          "id": "echinostoma",
+          "zh": "棘口吸蟲",
+          "sci": "Echinostoma spp.",
+          "worms": ["echinostoma"],
+          "group": "腸道吸蟲",
+          "imgs": {
+            "body": {
+              "src": "figures/bigtable/echinostoma-body.webp",
+              "w": 104,
+              "h": 452
+            },
+            "egg": {
+              "src": "figures/bigtable/echinostoma-egg.webp",
+              "w": 166,
+              "h": 303
+            }
+          },
+          "cells": {
+            "area": ["東南亞"],
+            "feat": [
+              "**馬蹄形頭部**、有棘",
+              "腹吸盤 > 3 倍口吸盤",
+              "睪丸：前後排列"
+            ],
+            "src": ["有囊蚴的中間宿主"],
+            "ih1": ["**扁捲螺** Planorbid snail"],
+            "ih2": ["螺類、昆蟲、魚、蛙、水生植物（多種）"],
+            "fh": ["人（偶發感染，非最終宿主）、鳥、哺乳類"],
+            "cycle": ["同薑片蟲（腸道吸蟲共用）"],
+            "site": ["小腸"],
+            "sx": [
+              "同橫川異形吸蟲（原表共用一格）",
+              "腸道吸蟲共通：腹吸盤造成黏膜損傷"
+            ],
+            "dx": ["蟲卵：糞便塗片、沉渣鏡檢"],
+            "tx": ["Praziquantel"],
+            "etc": [],
+            "egg": ["大型、卵圓形，**像薑片蟲卵**", "內容物較粗糙"]
+          },
+          "m": {
+            "src": null
+          }
+        },
+        {
+          "id": "gastrodiscoides",
+          "zh": "人雙口吸蟲",
+          "sci": "Gastrodiscoides hominis",
+          "worms": ["gastrodiscoides"],
+          "group": "腸道吸蟲",
+          "imgs": {
+            "body": {
+              "src": "figures/bigtable/gastrodiscoides-body.webp",
+              "w": 191,
+              "h": 338
+            },
+            "egg": {
+              "src": "figures/bigtable/gastrodiscoides-egg.webp",
+              "w": 191,
+              "h": 218
+            }
+          },
+          "cells": {
+            "area": ["東南亞、南美圭亞那、俄羅斯"],
+            "feat": [
+              "紅棕色、**角錐形**",
+              "有明顯凹陷的**基臼部**",
+              "睪丸：大、前後排列"
+            ],
+            "src": ["有囊蚴的**水生植物**"],
+            "ih1": ["**扁捲螺** Planorbid snail"],
+            "ih2": ["**水生植物**"],
+            "fh": ["人／猴、猩猩、豬、鼠"],
+            "cycle": ["同薑片蟲（腸道吸蟲共用）"],
+            "site": ["**大腸壁**"],
+            "sx": [
+              "腹痛、腹瀉、發燒、腹絞痛（colic）",
+              "腸道吸蟲共通：腹吸盤造成黏膜損傷"
+            ],
+            "dx": [],
+            "tx": ["Praziquantel", "**Soap enema** 皂灌腸"],
+            "etc": ["Soap enema 皂灌腸"],
+            "egg": ["大型、**菱形**，近似薑片蟲卵", "前端狹窄、卵蓋細小"]
+          }
+        },
+        {
+          "id": "eurytrema",
+          "zh": "胰臟吸蟲",
+          "sci": "Eurytrema spp.",
+          "worms": ["eurytrema"],
+          "group": "腸道吸蟲",
+          "imgs": {
+            "body": {
+              "src": "figures/bigtable/eurytrema-body.webp",
+              "w": 201,
+              "h": 277
+            },
+            "egg": {
+              "src": "figures/bigtable/eurytrema-egg.webp",
+              "w": 201,
+              "h": 349
+            }
+          },
+          "cells": {
+            "area": ["亞洲、南美洲、中國"],
+            "feat": ["紅棕色、前後略尖的橢圓形", "**睪丸在前、卵巢在後**"],
+            "src": ["誤食**蝗蟲**體內的囊蚴"],
+            "ih1": ["**陸生蝸牛** *Bradybaena* spp.（陸螺 terrestrial snail）"],
+            "ih2": ["**蝗蟲** *Conocephalus* spp."],
+            "fh": ["人（偶發感染，非最終宿主）、牛羊等反芻動物"],
+            "cycle": [
+              "卵 → 1st IH 吃入 → miracidium → sporocyst → cercaria → 2nd IH → metacercaria → FH 吃入 → **胰臟導管**成熟產卵"
+            ],
+            "site": ["**胰臟導管**"],
+            "sx": ["腸胃症狀、胰管阻塞 → 胰臟炎、**糖尿病**"],
+            "dx": [],
+            "tx": ["Praziquantel"],
+            "etc": ["陸生吸蟲 → 卵殼厚", "睪丸前、卵巢後"],
+            "egg": [
+              "43–68 × 27–35 µm，中型",
+              "深咖啡色、橢圓形、卵殼厚、有卵蓋"
+            ]
+          }
+        },
+        {
+          "id": "paragonimus",
+          "zh": "衛氏肺吸蟲",
+          "sci": "Paragonimus westermani",
+          "worms": ["paragonimus"],
+          "group": "肺吸蟲",
+          "imgs": {
+            "body": {
+              "src": "figures/bigtable/paragonimus-body.webp",
+              "w": 203,
+              "h": 357
+            },
+            "egg": {
+              "src": "figures/bigtable/paragonimus-egg.webp",
+              "w": 203,
+              "h": 325
+            }
+          },
+          "cells": {
+            "area": ["日本、韓國、中國大陸、東南亞、新幾內亞"],
+            "feat": [
+              "長 1 cm，棕紅色、像**咖啡豆**、體表有棘",
+              "口吸盤、腹吸盤一樣大",
+              "**銀杏葉／手掌狀**睪丸並列在蟲體後段"
+            ],
+            "src": ["有囊蚴的**蝦蟹**"],
+            "ih1": ["**自由川蜷** *Semisulcospira libertina*"],
+            "ih2": ["**淡水甲殼類**（鰓或肌肉形成囊腫）"],
+            "fh": ["人／貓、狗、豬"],
+            "cycle": [
+              "水中卵 → miracidium → 1st IH → sporocyst → redia → cercaria → 2nd IH → metacercaria → FH 吃入 → 腸 → 腹腔 → 胸腔 → **肺** → 卵從口（痰）或糞便排出"
+            ],
+            "site": ["小腸 →（穿過橫膈）**肺**", "異位寄生：腦、肝"],
+            "sx": [
+              "咳嗽、**血痰**（有蟲卵和 Charcot-Leyden 結晶）、胸痛、肺膿瘍、囊腫",
+              "急性：童蟲移行（腹 → 肺）",
+              "慢性：成蟲在肺：浸潤 abscess → fibrous cyst → fibroscar",
+              "幼兒（異位到腦）：癲癇、肢體麻痺"
+            ],
+            "dx": [
+              "蟲卵：**痰**、糞便、胃液",
+              "免疫：skin test、ELISA",
+              "胸部 X 光（**常被誤診為 TB**）、CT、MRI"
+            ],
+            "tx": ["Praziquantel", "也可以用 Bithionol"],
+            "etc": ["**在台灣發現**"],
+            "egg": ["黃褐色、**水滴形**", "殼厚、卵蓋清楚"]
+          }
+        },
+        {
+          "id": "clonorchis",
+          "zh": "中華肝吸蟲",
+          "sci": "Clonorchis sinensis",
+          "worms": ["clonorchis"],
+          "group": "肝吸蟲",
+          "imgs": {
+            "body": {
+              "src": "figures/bigtable/clonorchis-body.webp",
+              "w": 169,
+              "h": 369
+            },
+            "egg": {
+              "src": "figures/bigtable/clonorchis-egg.webp",
+              "w": 169,
+              "h": 343
+            }
+          },
+          "cells": {
+            "area": [
+              "東亞（中、台、日、韓）",
+              "✍️ 台灣：石門（水庫）上游、西部地區（字跡潦草）"
+            ],
+            "feat": ["睪丸**珊瑚狀**、前後排", "口吸盤 > 腹吸盤"],
+            "src": ["有囊蚴的**淡水魚**"],
+            "ih1": ["**滿州泥螺** *Parafossarulus manchouricus*"],
+            "ih2": ["**淡水魚**"],
+            "fh": ["人／貓、犬、豬、鼠、駱駝"],
+            "cycle": [
+              "卵 → 1st IH 濾食吃入 → **在螺體內孵出 miracidium** → sporocyst → redia → cercaria → 2nd IH → metacercaria → FH 吃入 → **膽管**成熟產卵（三種後睪科共用）"
+            ],
+            "site": ["十二指腸、膽管、膽囊"],
+            "sx": [
+              "急性：黃疸、白血球增多、嗜伊紅性球增加",
+              "慢性：膽囊炎、膽結石、膽管炎、腺癌、**膽管癌**",
+              "兒童：嚴重者**侏儒症**"
+            ],
+            "dx": ["肝損傷", "蟲卵：糞便、十二指腸液、膽汁"],
+            "tx": ["Praziquantel"],
+            "etc": [],
+            "egg": [
+              "三種後睪科都是**小型蟲卵，很難分**",
+              "有卵蓋、旁邊有**側肩**、鈍端有小突起",
+              "像橫川、異形吸蟲卵"
+            ]
+          }
+        },
+        {
+          "id": "o-felineus",
+          "zh": "貓肝吸蟲",
+          "sci": "Opisthorchis felineus",
+          "worms": [],
+          "group": "肝吸蟲",
+          "imgs": {
+            "body": {
+              "src": "figures/bigtable/o-felineus-body.webp",
+              "w": 186,
+              "h": 391
+            }
+          },
+          "cells": {
+            "area": ["東歐、中歐、西伯利亞"],
+            "feat": ["睪丸分葉**淺裂（大花）**", "口吸盤 ≈ 腹吸盤"],
+            "src": ["有囊蚴的**淡水魚**"],
+            "ih1": ["**滿州泥螺** *Parafossarulus manchouricus*"],
+            "ih2": ["**淡水魚**"],
+            "fh": ["人／貓、犬、豬、鼠、駱駝"],
+            "cycle": ["同中華肝吸蟲"],
+            "site": ["十二指腸、膽管、膽囊"],
+            "sx": ["同中華肝吸蟲（原表共用一格）"],
+            "dx": ["蟲卵：糞便、十二指腸液、膽汁"],
+            "tx": ["Praziquantel"],
+            "etc": [],
+            "egg": ["同中華肝吸蟲：小型、有側肩，很難分"]
+          }
+        },
+        {
+          "id": "opisthorchis",
+          "zh": "泰國肝吸蟲",
+          "sci": "Opisthorchis viverrini",
+          "worms": ["opisthorchis"],
+          "group": "肝吸蟲",
+          "imgs": {
+            "body": {
+              "src": "figures/bigtable/opisthorchis-body.webp",
+              "w": 201,
+              "h": 387
+            }
+          },
+          "cells": {
+            "area": ["泰北、寮國"],
+            "feat": ["睪丸分葉**深裂（小花）**", "口吸盤 ≈ 腹吸盤"],
+            "src": ["有囊蚴的**淡水魚**"],
+            "ih1": ["**滿州泥螺** *Parafossarulus manchouricus*"],
+            "ih2": ["**淡水魚**"],
+            "fh": ["人／貓、犬、豬、鼠、駱駝"],
+            "cycle": ["同中華肝吸蟲"],
+            "site": ["十二指腸、膽管、膽囊"],
+            "sx": [
+              "同中華肝吸蟲（原表共用一格）",
+              "⚠️ 共筆：泰國膽管癌病例約一半和它有關"
+            ],
+            "dx": ["蟲卵：糞便、十二指腸液、膽汁"],
+            "tx": ["Praziquantel"],
+            "etc": [],
+            "egg": ["同中華肝吸蟲：小型、有側肩，很難分"]
+          }
+        },
+        {
+          "id": "dicrocoelium",
+          "zh": "槍狀肝吸蟲",
+          "sci": "Dicrocoelium dendriticum",
+          "worms": ["dicrocoelium"],
+          "group": "肝吸蟲",
+          "imgs": {
+            "body": {
+              "src": "figures/bigtable/dicrocoelium-body.webp",
+              "w": 188,
+              "h": 465
+            },
+            "egg": {
+              "src": "figures/bigtable/dicrocoelium-egg.webp",
+              "w": 210,
+              "h": 306
+            }
+          },
+          "cells": {
+            "area": ["牛羊出產國（例如中東）"],
+            "feat": [
+              "**睪丸在前**、卵巢在後偏右",
+              "睪丸前後或略斜排在腹吸盤後方"
+            ],
+            "src": ["有囊蚴的**螞蟻**"],
+            "ih1": [
+              "**陸螺** terrestrial snail（✍️ 原表的 *Bradybaena* spp. 被劃掉）"
+            ],
+            "ih2": ["**螞蟻**"],
+            "fh": ["人（偶發感染，非最終宿主）、牛羊等反芻動物"],
+            "cycle": [
+              "卵 → 1st IH 吃入 → 卵中孵出 miracidium → sporocyst → cercaria → 附在草上 → 2nd IH → metacercaria → FH 吃入 → **膽囊**成熟產卵"
+            ],
+            "site": ["膽管、腹腔"],
+            "sx": [
+              "脹氣、腹瀉、嘔吐、便秘",
+              "膽絞痛（biliary colic）、膽管炎",
+              "肝腫大、肝硬化"
+            ],
+            "dx": [
+              "蟲卵：糞便、膽汁",
+              "可能是**假性感染**（spurious infection）"
+            ],
+            "tx": ["Praziquantel"],
+            "etc": ["**無 redia**", "陸生吸蟲 → 卵殼厚", "睪丸前、卵巢後"],
+            "egg": [
+              "38–45 × 22–30 µm",
+              "內有 miracidium",
+              "不對稱的卵形、**卵蓋傾斜**、卵殼厚"
+            ]
+          },
+          "m": {
+            "ih1": null
+          }
+        },
+        {
+          "id": "fasciola",
+          "zh": "牛羊肝吸蟲",
+          "sci": "Fasciola hepatica",
+          "worms": ["fasciola"],
+          "group": "肝吸蟲",
+          "imgs": {
+            "body": {
+              "src": "figures/bigtable/fasciola-body.webp",
+              "w": 165,
+              "h": 395
+            },
+            "egg": {
+              "src": "figures/bigtable/fasciola-egg.webp",
+              "w": 165,
+              "h": 323
+            }
+          },
+          "cells": {
+            "area": ["英、法、北非、南美、古巴、馬拉威、祕魯"],
+            "feat": [
+              "蟲體大、明顯**頭錐**",
+              "腸支：很多**側分支**",
+              "睪丸：多分支珊瑚狀"
+            ],
+            "src": ["有囊蚴的**水生植物**、生水"],
+            "ih1": ["**椎實螺** *Lymnaea* spp."],
+            "ih2": ["水生植物（**非必要**）"],
+            "fh": ["人（偶發感染，非最終宿主）、牛羊等反芻動物"],
+            "cycle": [
+              "水中卵 → miracidium → 1st IH → sporocyst → redia → cercaria → 2nd IH → metacercaria → FH 吃入 → **肝**成熟、膽管產卵"
+            ],
+            "site": [
+              "肝臟（急性期）、膽管（慢性期）",
+              "異位寄生：腦、心、肺、皮膚、胰、眼"
+            ],
+            "sx": [
+              "急性：損傷性肝炎、腹腔內出血、胃腸不適",
+              "慢性：肝脾腫大、膽道上皮增生、膽管纖維化／鈣化、膽道阻塞",
+              "**Extrahepatic fascioliasis**：心、肺、胰、皮膚、眼",
+              "生吃肝 → **Halzoun syndrome**：吸附在咽喉"
+            ],
+            "dx": ["蟲卵：糞便、十二指腸液、膽汁", "血清測試、皮膚測試"],
+            "tx": [
+              "Bithionol",
+              "⚠️ 共筆：首選 **Triclabendazole**（或 Bithionol）"
+            ],
+            "etc": ["**唯一不能用 Praziquantel** 治療"],
+            "egg": [
+              "大型、淡黃褐色、有卵蓋",
+              "卵黃和卵殼之間**有空隙**",
+              "像棘口吸蟲、薑片蟲卵"
+            ]
+          }
+        },
+        {
+          "id": "f-gigantica",
+          "zh": "巨型肝吸蟲",
+          "sci": "Fasciola gigantica",
+          "worms": [],
+          "group": "肝吸蟲",
+          "imgs": {
+            "body": {
+              "src": "figures/bigtable/f-gigantica-body.webp",
+              "w": 110,
+              "h": 443
+            },
+            "egg": {
+              "src": "figures/bigtable/f-gigantica-egg.webp",
+              "w": 183,
+              "h": 325
+            }
+          },
+          "cells": {
+            "area": ["非洲、亞洲、夏威夷"],
+            "feat": ["同牛羊肝吸蟲，但比較細長"],
+            "src": ["有囊蚴的**水生植物**、生水"],
+            "ih1": ["**椎實螺** *Lymnaea* spp."],
+            "ih2": ["**水生植物**"],
+            "fh": ["人（偶發感染，非最終宿主）、牛羊等反芻動物"],
+            "cycle": ["同牛羊肝吸蟲"],
+            "site": ["肝臟（急性期）、膽管（慢性期）"],
+            "sx": ["同牛羊肝吸蟲（原表共用一格）"],
+            "dx": ["蟲卵：糞便、十二指腸液、膽汁", "血清測試、皮膚測試"],
+            "tx": [
+              "Praziquantel",
+              "⚠️ 同屬 *Fasciola*，共筆說 Praziquantel 對 *Fasciola* 無效"
+            ],
+            "etc": [],
+            "egg": ["同牛羊肝吸蟲"]
+          }
+        },
+        {
+          "id": "s-mansoni",
+          "zh": "曼森血吸蟲",
+          "sci": "Schistosoma mansoni",
+          "worms": ["s-mansoni"],
+          "group": "血吸蟲",
+          "imgs": {
+            "body": {
+              "src": "figures/bigtable/s-mansoni-body.webp",
+              "w": 207,
+              "h": 477
+            },
+            "egg": {
+              "src": "figures/bigtable/s-mansoni-egg.webp",
+              "w": 207,
+              "h": 273
+            }
+          },
+          "cells": {
+            "area": ["南美洲、非洲（主要）、加勒比海島、阿拉伯半島"],
+            "feat": [
+              "血吸蟲共通：圓柱形、**雌雄異體**、尾蚴尾巴分岔、蟲卵是主要致病源、會免疫逃避",
+              "睪丸：散狀",
+              "體表：**有結節**",
+              "腸道聯合：前段；卵巢：前段"
+            ],
+            "src": ["**尾蚴**在水中**鑽皮膚**（感染期是 cercaria）"],
+            "ih1": ["**雙臍扁螺** *Biomphalaria* spp."],
+            "ih2": ["血吸蟲**沒有**第二中間宿主"],
+            "fh": ["人"],
+            "cycle": [
+              "水中卵 → miracidium → IH → sporocyst → cercaria → 鑽 FH 皮膚 → 童蟲（schistosomula）→ 血液循環 → 肺循環 → 肝臟成熟 → 到寄生部位產卵"
+            ],
+            "site": ["**下腸繫膜靜脈叢**", "腸道、肝臟", "異位寄生：腦、脊髓"],
+            "sx": [
+              "皮膚炎（swimmer's itch，✍️ cercaria 造成）、**片山熱**（Katayama fever）",
+              "血便、腹瀉、嗜酸性球增多、蕁麻疹、肝脾腫大",
+              "蟲卵 → 肉芽腫；異位 → 腦炎",
+              "腸道、肝臟病變：腹水、肝炎；幼蟲移行到肺可能咳血",
+              "症狀：**日本 > 曼森**"
+            ],
+            "dx": [
+              "蟲卵：糞便（**Kato thick smear**）、直腸切片",
+              "纖毛幼蟲孵化法（stool hatching test）、超音波、ELISA、間接免疫螢光"
+            ],
+            "tx": [
+              "Praziquantel",
+              "**Oxamniquine 只對曼森有效**",
+              "Artemether（殺童蟲）"
+            ],
+            "etc": [
+              "血吸蟲共通：**無 redia、無 metacercaria**、有童蟲",
+              "WHO 第二大熱帶寄生蟲病"
+            ],
+            "egg": [
+              "114–180 × 45–73 µm",
+              "大型、橢圓形、**大側刺**（✍️ 圈「大」）",
+              "每天數百顆"
+            ]
+          }
+        },
+        {
+          "id": "s-japonicum",
+          "zh": "日本血吸蟲",
+          "sci": "Schistosoma japonicum",
+          "worms": ["s-japonicum"],
+          "group": "血吸蟲",
+          "imgs": {
+            "body": {
+              "src": "figures/bigtable/s-japonicum-body.webp",
+              "w": 216,
+              "h": 476
+            },
+            "egg": {
+              "src": "figures/bigtable/s-japonicum-egg.webp",
+              "w": 216,
+              "h": 315
+            }
+          },
+          "cells": {
+            "area": ["中國大陸（最嚴重）、菲律賓、印尼（日本已根除）"],
+            "feat": [
+              "血吸蟲共通：圓柱形、雌雄異體、雄蟲有**抱雌溝**",
+              "睪丸：**整齊排成直線**",
+              "體表：光滑、無結節",
+              "腸道聯合：後段；卵巢：中段"
+            ],
+            "src": ["**尾蚴**在水中**鑽皮膚**（感染期是 cercaria）"],
+            "ih1": ["**湖北釘螺** *Oncomelania hupensis*"],
+            "ih2": ["血吸蟲**沒有**第二中間宿主"],
+            "fh": ["人"],
+            "cycle": ["同曼森血吸蟲"],
+            "site": ["**上腸繫膜靜脈叢**", "腸道、肝臟", "異位寄生：腦、脊髓"],
+            "sx": ["同曼森血吸蟲（原表共用一格）", "症狀比曼森**嚴重**"],
+            "dx": [
+              "蟲卵：糞便（Kato thick smear）、直腸切片",
+              "纖毛幼蟲孵化法、超音波、ELISA、間接免疫螢光"
+            ],
+            "tx": ["Praziquantel、Artemether（殺童蟲）"],
+            "etc": ["中國多", "**很多保蟲宿主**、很難防治"],
+            "egg": [
+              "55–85 × 40–60 µm",
+              "中大型、卵圓、**小側刺**",
+              "**蟲卵最多**：每天 3000–4000 顆"
+            ]
+          }
+        },
+        {
+          "id": "s-haematobium",
+          "zh": "埃及血吸蟲",
+          "sci": "Schistosoma haematobium",
+          "worms": ["s-haematobium"],
+          "group": "血吸蟲",
+          "imgs": {
+            "body": {
+              "src": "figures/bigtable/s-haematobium-body.webp",
+              "w": 228,
+              "h": 477
+            },
+            "egg": {
+              "src": "figures/bigtable/s-haematobium-egg.webp",
+              "w": 228,
+              "h": 353
+            }
+          },
+          "cells": {
+            "area": ["非洲（主要）、東地中海地區"],
+            "feat": [
+              "睪丸：**擠成一團**",
+              "體表：結節不明顯",
+              "腸道聯合：中段；卵巢：後段"
+            ],
+            "src": ["**尾蚴**在水中**鑽皮膚**（感染期是 cercaria）"],
+            "ih1": ["**小泡螺** *Bulinus* spp."],
+            "ih2": ["血吸蟲**沒有**第二中間宿主"],
+            "fh": ["人"],
+            "cycle": ["同曼森血吸蟲"],
+            "site": ["**膀胱**、前列腺、子宮靜脈叢", "異位寄生：腦、生殖道"],
+            "sx": [
+              "皮膚炎、片山熱（血吸蟲共通）",
+              "膀胱、腸道病變：膀胱鈣化、**膀胱癌**、輸尿管炎",
+              "**血尿**、蛋白尿、排尿困難",
+              "危害較不嚴重"
+            ],
+            "dx": ["蟲卵：**尿液**", "膀胱切片"],
+            "tx": ["Praziquantel"],
+            "etc": [],
+            "egg": [
+              "112–170 × 40–70 µm",
+              "大型、紡錘形、**尾刺**（terminal spine）",
+              "每天數百顆"
+            ]
+          }
+        }
+      ],
+      "notes": [
+        "生活史：卵 → miracidium 纖毛幼蟲 → sporocyst 胞幼 → redia 雷幼 → cercaria 尾動幼 → 第二中間宿主 → metacercaria 囊狀幼 → 終宿主吃入 → 成蟲",
+        "雌雄同體（hermaphrodite），異體受精；會感染人的都是雙殖目 Digenea（血吸蟲例外：雌雄異體）",
+        "體型：薑片蟲 > 牛羊肝 > 肝吸蟲、肺吸蟲 > 血吸蟲 > 橫川異形 > 異形異形",
+        "異位寄生（ectopic）：*Heterophyes heterophyes*、*Metagonimus yokogawai*、*Paragonimus westermani*、*Fasciola hepatica*、*F. gigantica*、三種 *Schistosoma*",
+        "第二中間宿主是水生植物：*Fasciolopsis buski*、*Echinostoma*（不一定）、*Gastrodiscoides hominis*、*Fasciola hepatica*（非必要）、*F. gigantica*",
+        "第二中間宿主是魚：*Heterophyes heterophyes*（海水魚）、*Metagonimus yokogawai*、*Echinostoma*（不一定）、*Clonorchis sinensis*、*Opisthorchis felineus*、*O. viverrini*"
+      ]
+    }
+  ]
+}

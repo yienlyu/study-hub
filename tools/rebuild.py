@@ -106,7 +106,12 @@ def main():
             edits[rel] = {"file": os.path.relpath(keep, ROOT)}
             report.append(f"{rel}：保留手改版本（存到 {os.path.relpath(keep, ROOT)}）")
             continue
-        fields, added, _ = diff_list(json.loads(old), json.loads(new))  # builder 新增的題目一律保留
+        old_j, new_j = json.loads(old), json.loads(new)
+        if not (isinstance(old_j, list) and isinstance(new_j, list)):
+            # 物件格式的檔案（例：bigtable.json）本身就是手寫來源，builder 只補欄位，直接採用
+            report.append(f"{rel}：非清單格式，採用 builder 結果（不記手改）")
+            continue
+        fields, added, _ = diff_list(old_j, new_j)  # builder 新增的題目一律保留
         if not (fields or added):
             continue
         spec = edits.setdefault(rel, {})

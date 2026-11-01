@@ -5470,7 +5470,7 @@
   const sheetTabs = (sid, m, cur) => {
     const T = (k, href, icon, label) =>
       `<a href="#/s/${sid}/sheet${href}"${cur === k ? ' aria-current="page"' : ""}>${ic(icon)}${label}</a>`;
-    return `<nav class="seg" aria-label="切換">${m.sheet ? T("sheet", "", "grid", "速記表") : ""}${m.worms ? T("worms", "/worms", "cards", "蟲卡") : ""}${m.roots ? T("roots", "/roots", "book", "字根字首") : ""}${T("figs", "/figs", "image", "圖庫")}</nav>`;
+    return `<nav class="seg" aria-label="切換">${m.sheet ? T("sheet", "", "grid", "速記表") : ""}${m.worms ? T("worms", "/worms", "cards", "蟲卡") : ""}${m.bigtable ? T("table", "/table", "layers", "比較大表") : ""}${m.roots ? T("roots", "/roots", "book", "字根字首") : ""}${T("figs", "/figs", "image", "圖庫")}</nav>`;
   };
   const figCardHTML = (subj, f) => {
     const sid = subj.meta.id;
@@ -5513,6 +5513,7 @@
     const subj = await loadSubject(sid);
     setChrome(sid, "sheet");
     const m = subj.meta;
+    if (tab === "table") return pageBigTable(subj, q);
     if (tab === "worms" || (!tab && !m.sheet && m.worms))
       return pageWorms(subj, q);
     const figs = subj.figs || [];
@@ -5679,12 +5680,13 @@
       )
       .join(
         "",
-      )}${subj.chMap[w.ch] ? `<a class="worm-ch noprint" href="#/s/${subj.meta.id}/c/${w.ch}/summary">→ Ch.${pad2(subj.chMap[w.ch].idx)} ${esc(subj.chMap[w.ch].title)}</a>` : ""}</div>`;
+      )}${subj.chMap[w.ch] ? `<a class="worm-ch noprint" href="#/s/${subj.meta.id}/c/${w.ch}/summary">→ Ch.${pad2(subj.chMap[w.ch].idx)} ${esc(subj.chMap[w.ch].title)}</a>` : ""}${subj.btByWorm?.[w.id] ? `<a class="worm-ch noprint" href="#/s/${subj.meta.id}/sheet/table?${qs(subj.btByWorm[w.id])}">→ 在比較大表看這隻</a>` : ""}</div>`;
 
   async function pageWorms(subj, q) {
     const sid = subj.meta.id;
     const m = subj.meta;
     const all = await loadWorms(subj);
+    await loadBigTable(subj);
     const unsureKey = `sh:${sid}:worms-unsure`;
     const unsure = new Set(store.get(unsureKey, []));
     const cats = [...new Set(all.map((w) => w.cat))];
@@ -5899,6 +5901,294 @@
     paint();
     addEventListener("keydown", onKey);
     onLeave(() => removeEventListener("keydown", onKey));
+  }
+
+  // ------------------------------------------------------------ 比較大表（學長姐大表）
+  // 資料在 subject.json 的 bigtable：tables[{ id, title, rows[{k,t,match?}], cols[{id,zh,sci,worms,group,imgs,cells}], notes }]
+  // 儲存格每行一項；「✍️」開頭＝原表紅筆手寫、「⚠️」開頭＝和共筆不同。圖片由 tools/build_para_bigtable.py 裁切。
+  async function loadBigTable(subj) {
+    if (subj.bigtable !== undefined) return subj.bigtable;
+    const bt = subj.meta.bigtable
+      ? await fetchJSON(`${subj.path}/${subj.meta.bigtable}`).catch(() => null)
+      : null;
+    subj.btByWorm = {};
+    for (const t of bt?.tables || [])
+      for (const c of t.cols) {
+        for (const w of c.worms || []) subj.btByWorm[w] ||= { t: t.id, col: c.id };
+        for (const [kind, m] of Object.entries(c.imgs || {}))
+          subj.figById[`bt:${t.id}:${c.id}:${kind}`] = {
+            type: "slide",
+            src: m.src,
+            w: m.w,
+            h: m.h,
+            deck: "究極青眼白蟲大表",
+            page: t.page,
+            title: `${c.zh} · ${kind === "egg" ? "蟲卵" : "蟲體"}`,
+          };
+      }
+    return (subj.bigtable = bt);
+  }
+  const BT_IMG = [
+    ["body", "蟲體圖"],
+    ["egg", "蟲卵圖"],
+  ];
+  const btLine = (s) => {
+    const cls = s.startsWith("✍️")
+      ? "hand"
+      : s.startsWith("⚠️")
+        ? "warn"
+        : "";
+    const html = wmd(s).replace(
+      /（✍️([^）]*)）/g,
+      '<span class="hand-in">（✍️$1）</span>',
+    );
+    return `<li${cls ? ` class="${cls}"` : ""}>${html}</li>`;
+  };
+  // 配合題用的答案：第一行（略過 ⚠️）去掉手寫註、括號補充與 Markdown
+  // full：整格（例：蟲卵描述只看第一行會太像）
+  const btAnswer = (lines, full) => {
+    const ok = (lines || []).filter((x) => !x.startsWith("⚠️"));
+    if (!ok.length || /^同|^—/.test(ok[0])) return "";
+    return (full ? ok : ok.slice(0, 1))
+      .map((s) =>
+        s
+          .replace(/^✍️\s*/, "")
+          .replace(/（[^）]*(✍️|原表|共用)[^）]*）/g, "")
+          .replace(/\*\*(.+?)\*\*/g, "$1")
+          .replace(/\*(.+?)\*/g, "$1")
+          .trim(),
+      )
+      .join("；");
+  };
+
+  async function pageBigTable(subj, q) {
+    const sid = subj.meta.id;
+    const m = subj.meta;
+    const bt = await loadBigTable(subj);
+    if (!bt?.tables?.length)
+      return render(emptyState("沒有比較大表", "這個科目還沒有整理比較大表。"));
+    const t = bt.tables.find((x) => x.id === q.t) || bt.tables[0];
+    const groups = [...new Set(t.cols.map((c) => c.group).filter(Boolean))];
+    const g = groups.includes(q.g) ? q.g : "";
+    const cols = g ? t.cols.filter((c) => c.group === g) : t.cols;
+    const href = (o) =>
+      `#/s/${sid}/sheet/table?${qs({ t: t.id, g, ...o })}`;
+    if (q.mode === "match") return runBtMatch(subj, bt, t, cols, q, href);
+
+    const unsureKey = `sh:${sid}:bt-unsure`;
+    const unsure = new Set(store.get(unsureKey, []));
+    const ukey = (c, r) => `${t.id}:${c}:${r}`;
+    const nUnsure = [...unsure].filter((k) => k.startsWith(`${t.id}:`)).length;
+    const hide = new Set((q.hide || "").split(",").filter(Boolean));
+    const onlyUnsure = q.hide === "unsure";
+    const chip = (o, label, n, on) =>
+      `<a class="chip" href="${href(o)}"${on ? ' aria-current="true"' : ""}>${esc(label)}${n != null ? `<span class="n">${n}</span>` : ""}</a>`;
+    const hasImg = BT_IMG.filter(([k]) => cols.some((c) => c.imgs?.[k]));
+    const cell = (c, r) => {
+      const lines = c.cells[r.k] || [];
+      const masked = onlyUnsure ? unsure.has(ukey(c.id, r.k)) : hide.has(r.k);
+      return `<td data-c="${esc(c.id)}" data-r="${esc(r.k)}"${masked ? ' class="masked"' : ""}${q.col === c.id ? ' data-hl=""' : ""}>${
+        lines.length
+          ? `<ul>${lines.map(btLine).join("")}</ul>`
+          : '<span class="muted">—</span>'
+      }${masked && lines.length ? `<button class="bt-unsure${unsure.has(ukey(c.id, r.k)) ? " on" : ""}" type="button">${unsure.has(ukey(c.id, r.k)) ? "還不熟" : "標成還不熟"}</button>` : ""}</td>`;
+    };
+    render(
+      `<div class="wrap">
+        <nav class="crumbs" aria-label="路徑"><a href="#/s/${sid}">${esc(m.title)}</a><span class="sep">/</span><span>比較大表</span></nav>
+        <header class="section-head" style="padding-top:14px;align-items:end">
+          <div><div class="eyebrow">Comparison table · ${esc(bt.credit || "")}</div>
+          <h1 class="display h-l" style="margin-top:12px">${esc(bt.title || "比較大表")}</h1>
+          <p class="lede" style="margin-bottom:0">把同一個屬性橫著比完所有蟲，最適合考前快速過一遍。點左邊的列名可以把整列遮住，再一格一格點開回想；想不起來的格子標成「還不熟」，之後只複習這些格子。「配合題練習」會從大表隨機出 5 組，練期中考的配合題。</p></div>
+          <div class="toolbar noprint">${sheetTabs(sid, m, "table")}</div>
+        </header>
+        <div class="worm-bar noprint">
+          <div class="chips">${bt.tables.map((x) => `<a class="chip" href="#/s/${sid}/sheet/table?${qs({ t: x.id })}"${x.id === t.id ? ' aria-current="true"' : ""}>${esc(x.title)}<span class="n">${x.cols.length}</span></a>`).join("")}</div>
+          <div class="toolbar">
+            <a class="btn accent" href="${href({ mode: "match" })}">${ic("target")}配合題練習</a>
+            <button class="btn" type="button" id="bt-rand">${ic("shuffle")}隨機遮一列</button>
+            <button class="btn" type="button" id="bt-open">${ic("eye")}全部翻開</button>
+          </div>
+        </div>
+        ${groups.length ? `<div class="chips noprint" style="margin-top:12px">${chip({ g: "" }, "全部", t.cols.length, !g)}${groups.map((x) => chip({ g: x }, x, t.cols.filter((c) => c.group === x).length, g === x)).join("")}${nUnsure ? chip({ hide: "unsure" }, "只遮還不熟", nUnsure, onlyUnsure) : ""}</div>` : ""}
+        <p class="bt-legend">${wmd(bt.legend || "")}</p>
+        <div class="bt-scroll" data-sid="${esc(sid)}">
+          <table class="bt">
+            <thead><tr><th class="corner" scope="col">${esc(t.title)}<small>${esc(t.en || "")}</small></th>${cols
+              .map((c) => {
+                const w = (c.worms || [])[0];
+                return `<th scope="col" id="bt-${esc(c.id)}"${q.col === c.id ? " data-hl" : ""}><b>${esc(c.zh)}</b><i class="sci">${esc(c.sci)}</i>${c.group && !g ? `<span class="grp">${esc(c.group)}</span>` : ""}${w ? `<a class="noprint" href="#/s/${sid}/sheet/worms?${qs({ play: "name", ids: c.worms.join(",") })}">翻蟲卡 →</a>` : ""}</th>`;
+              })
+              .join("")}</tr></thead>
+            <tbody>${t.rows
+              .map(
+                (r) =>
+                  `<tr data-row="${esc(r.k)}"><th scope="row"><button type="button" class="bt-row" aria-pressed="${hide.has(r.k) && !onlyUnsure}" title="遮住／翻開這一列">${esc(r.t)}</button></th>${cols.map((c) => cell(c, r)).join("")}</tr>`,
+              )
+              .join("")}${hasImg
+              .map(
+                ([k, label]) =>
+                  `<tr class="bt-imgs"><th scope="row"><span class="bt-row">${label}</span></th>${cols
+                    .map((c) =>
+                      c.imgs?.[k]
+                        ? `<td><button type="button" class="bt-img" data-zoom="bt:${esc(t.id)}:${esc(c.id)}:${k}" aria-label="放大${esc(c.zh)}${label}"><img src="${esc(subj.path)}/${esc(c.imgs[k].src)}" width="${c.imgs[k].w}" height="${c.imgs[k].h}" loading="lazy" decoding="async" alt="${esc(c.zh)}${label}（究極青眼白蟲大表 p.${t.page}）"></button></td>`
+                        : '<td><span class="muted">—</span></td>',
+                    )
+                    .join("")}</tr>`,
+              )
+              .join("")}</tbody>
+          </table>
+        </div>
+        ${(t.notes || []).length ? `<section class="card bt-notes"><h2>表下整理</h2><ul>${t.notes.map(btLine).join("")}</ul></section>` : ""}
+      </div>`,
+      () => {
+        const tbl = $(".bt");
+        const setRow = (k, on) => {
+          $$(`tr[data-row="${k}"] td`, tbl).forEach((td) => {
+            td.classList.toggle("masked", on);
+            td.classList.remove("shown");
+            if (on && !$(".bt-unsure", td) && td.querySelector("ul")) {
+              const key = ukey(td.dataset.c, k);
+              td.insertAdjacentHTML(
+                "beforeend",
+                `<button class="bt-unsure${unsure.has(key) ? " on" : ""}" type="button">${unsure.has(key) ? "還不熟" : "標成還不熟"}</button>`,
+              );
+            }
+          });
+          const b = $(`tr[data-row="${k}"] .bt-row`, tbl);
+          if (b) b.setAttribute("aria-pressed", on);
+        };
+        tbl.addEventListener("click", (e) => {
+          const rb = e.target.closest("button.bt-row");
+          if (rb) {
+            const k = rb.closest("tr").dataset.row;
+            return setRow(k, rb.getAttribute("aria-pressed") !== "true");
+          }
+          const ub = e.target.closest(".bt-unsure");
+          if (ub) {
+            const td = ub.closest("td");
+            const key = ukey(td.dataset.c, td.dataset.r);
+            unsure.has(key) ? unsure.delete(key) : unsure.add(key);
+            store.set(unsureKey, [...unsure]);
+            ub.classList.toggle("on", unsure.has(key));
+            ub.textContent = unsure.has(key) ? "還不熟" : "標成還不熟";
+            return;
+          }
+          const td = e.target.closest("td.masked");
+          if (td) td.classList.toggle("shown");
+        });
+        $("#bt-rand").addEventListener("click", () => {
+          t.rows.forEach((r) => setRow(r.k, false));
+          const pick = shuffle(t.rows.filter((r) => r.k !== "cycle"))[0];
+          setRow(pick.k, true);
+          $(`tr[data-row="${pick.k}"]`, tbl).scrollIntoView({
+            block: "center",
+            behavior: "smooth",
+          });
+          toast(`遮住「${pick.t}」：點格子翻開`);
+        });
+        $("#bt-open").addEventListener("click", () =>
+          $$("td.masked", tbl).forEach((td) => td.classList.add("shown")),
+        );
+        if (q.col) {
+          const th = $(`#bt-${CSS.escape(q.col)}`);
+          const sc = $(".bt-scroll");
+          if (th && sc) {
+            sc.scrollLeft +=
+              th.getBoundingClientRect().left -
+              sc.getBoundingClientRect().left -
+              $(".bt .corner").offsetWidth -
+              8;
+            scrollTo({ top: sc.getBoundingClientRect().top + scrollY - 80 });
+          }
+        }
+      },
+    );
+  }
+
+  // 配合題：選一個屬性，隨機挑 5 隻答案互不相同的蟲，左邊學名、右邊 A–E
+  function runBtMatch(subj, bt, t, cols, q, href) {
+    const sid = subj.meta.id;
+    const rows = t.rows.filter((r) => r.match);
+    // 欄位的 m[row] 可覆寫答案（null＝這格有歧義，不出題）
+    const answerOf = (c, r) =>
+      c.m && r.k in c.m ? c.m[r.k] || "" : btAnswer(c.cells[r.k], r.full);
+    // 去掉括號補充、標點後互相包含（例：「淡水魚」和「淡水魚、蛙」）就不放進同一組，避免一題兩解
+    const norm = (a) =>
+      a
+        .replace(/（[^）]*）|\([^)]*\)/g, "")
+        .replace(/[\s、，,：:；;＋+/／.]/g, "")
+        .toLowerCase();
+    const usable = (r) => {
+      const seen = [];
+      return shuffle(cols).filter((c) => {
+        const a = norm(answerOf(c, r));
+        if (!a || seen.some((b) => a.includes(b) || b.includes(a)))
+          return false;
+        seen.push(a);
+        return true;
+      });
+    };
+    const ok = rows.filter((r) => usable(r).length >= 4);
+    const row =
+      ok.find((r) => r.k === q.row) || shuffle(ok)[0];
+    const back = href({});
+    if (!row)
+      return render(
+        emptyState(
+          "這個範圍湊不出配合題",
+          "選的蟲太少，換成「全部」再試一次。",
+          `<a class="btn primary" href="${back}">回大表</a>`,
+        ),
+      );
+    const items = usable(row).slice(0, 5);
+    const L = "ABCDE";
+    const opts = shuffle(items);
+    const ans = items.map((c) => L[opts.indexOf(c)]);
+    const rchip = (r) =>
+      `<a class="chip" href="${href({ mode: "match", row: r.k, n: Date.now() % 1e5 })}"${r.k === row.k ? ' aria-current="true"' : ""}>${esc(r.match)}</a>`;
+    render(
+      `<div class="wrap">
+        <nav class="crumbs" aria-label="路徑"><a href="#/s/${sid}">${esc(subj.meta.title)}</a><span class="sep">/</span><a href="${back}">比較大表</a><span class="sep">/</span><span>配合題練習</span></nav>
+        <header style="padding-top:14px">
+          <div class="eyebrow">Matching · ${esc(t.title)}${q.g ? ` · ${esc(q.g)}` : ""}</div>
+          <h1 class="display h-l" style="margin-top:12px">配合題：${esc(row.match)}</h1>
+          <p class="lede">期中考的配合題用英文學名出題。每隻蟲選一個代號，選完按「對答案」；答案取自大表「${esc(row.t)}」那一列。</p>
+        </header>
+        <div class="chips noprint" style="margin-top:4px">${ok.map(rchip).join("")}</div>
+        <div class="card bt-match" style="margin-top:18px">
+          <ol class="bt-opts">${opts.map((c, i) => `<li><b class="mono">${L[i]}</b><span>${esc(answerOf(c, row))}</span></li>`).join("")}</ol>
+          <ol class="bt-qs">${items
+            .map(
+              (c, i) =>
+                `<li data-i="${i}"><i class="sci">${esc(c.sci)}</i><select aria-label="${esc(c.sci)} 的答案"><option value="">—</option>${opts.map((_, j) => `<option>${L[j]}</option>`).join("")}</select><span class="bt-res" aria-live="polite"></span></li>`,
+            )
+            .join("")}</ol>
+          <div class="toolbar" style="margin-top:16px">
+            <button class="btn primary" type="button" id="bt-check">${ic("check")}對答案</button>
+            <a class="btn" href="${href({ mode: "match", row: row.k, n: Date.now() % 1e5 })}">${ic("shuffle")}換一組</a>
+            <a class="btn ghost" href="${back}">回大表</a>
+          </div>
+        </div>
+      </div>`,
+      () => {
+        $("#bt-check").addEventListener("click", () => {
+          let right = 0;
+          $$(".bt-qs li").forEach((li) => {
+            const i = +li.dataset.i;
+            const v = $("select", li).value;
+            const good = v === ans[i];
+            right += good;
+            li.classList.toggle("good", good);
+            li.classList.toggle("bad", !good);
+            $(".bt-res", li).innerHTML = good
+              ? `${ic("check")}${esc(items[i].zh)}`
+              : `${ic("x")}答案 ${ans[i]}：${esc(items[i].zh)}`;
+          });
+          toast(`答對 ${right} / ${items.length}`);
+        });
+      },
+    );
   }
 
   // ------------------------------------------------------------ analysis
@@ -6635,6 +6925,15 @@
           s: s.meta.title,
           href: `#/s/${sid}/sheet/worms`,
           k: "蟲卡 記憶卡 學名 蟲卵 蟲體 worm cards flashcards",
+        });
+      if (s.meta.bigtable)
+        items.push({
+          g: "頁面",
+          icon: "layers",
+          t: "比較大表",
+          s: s.meta.title,
+          href: `#/s/${sid}/sheet/table`,
+          k: "大表 比較表 究極青眼白蟲 配合題 中間宿主 comparison table",
         });
       if (s.meta.roots)
         items.push({

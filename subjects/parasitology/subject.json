@@ -9,6 +9,7 @@
   "icon": "🪱",
   "roots": "content/_roots.md",
   "worms": "data/worms.json",
+  "bigtable": "data/bigtable.json",
   "questionFiles": [
     "data/questions-kaogu.json",
     "data/questions-k113mid.json",
