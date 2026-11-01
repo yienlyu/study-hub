@@ -130,7 +130,8 @@ Macrophage：吞噬 → phagosome（酸化、H₂O₂、NO、TNF-α）→ 與 ly
 ### 三種毒殺方式（Tc、NK 共通）
 1. **Direct**：FasL ↔ **Fas（CD95）** → apoptosis
 2. **Cytokines**：**TNF、lymphotoxin（LT）**
-3. **Granules**：**perforin**（打洞）+ **granzymes**（誘發凋亡）
+3. **Granules**：**perforin**（需 Ca²⁺，在目標細胞膜形成**跨膜孔洞**）+ **granzymes**（經孔洞進入 → 誘發凋亡）
+   - Perforin 與補體 **C9** 同源：兩者都在膜上聚合成孔，perforin → apoptosis，MAC → osmotic lysis（見 T cell activation 章「跨膜孔洞」圖）。
 
 > ⚠️ **IFN-γ 與毒殺「沒有直接關聯」**（它是活化 macrophage）——考了兩次。
 

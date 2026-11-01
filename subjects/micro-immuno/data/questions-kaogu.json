@@ -6024,7 +6024,7 @@
   "answer": [
    "A"
   ],
-  "explain": "(A) 穿孔素（Perforin）的功能是引起目標細胞的跨膜通道",
+  "explain": "CTL 與 NK 細胞的 granule 含 perforin 與 granzymes。Perforin 在 Ca²⁺ 存在下插入目標細胞膜、聚合成跨膜孔洞（transmembrane channel），granzymes 再經孔洞進入 cytosol，活化 caspase → apoptosis → 選 A。\n(B) IL-1：macrophage 分泌的促發炎 cytokine（發燒、acute phase），不打洞。\n(C) IL-2：T 細胞生長因子，促進 T 細胞增殖。\n(D) Hapten：小分子，要接上 carrier 才有免疫原性。\n(E) Antigen：被免疫系統辨識的對象，本身不會形成孔道。\n・W4-2 T cell-mediated immunity & cell cooperation 投影片 p.15（CTL granule：perforin、granzymes、granulysin）、p.16（granzyme B 誘發凋亡）。\n・W2-2 Innate immunity：NK／Tc 三種毒殺方式（Janeway Fig 3.36），課堂錄影「perforin 需 Ca²⁺，先打洞」。\n※ 補體的 MAC（C5b–9，poly-C9）也形成跨膜孔洞，構造與 perforin 同源，但結果是 osmotic lysis。",
   "topics": [
    "細胞毒殺（perforin/Fas）",
    "TH 分化與細胞激素"

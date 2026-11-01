@@ -994,6 +994,17 @@
   "caption": "<strong>Perforin</strong> 幫忙把內容物送進目標細胞、<strong>granzymes</strong> 啟動 apoptosis、granulysin 抗微生物。下方為 CTL 殺細胞的 time-lapse。"
  },
  {
+  "id": "perforin-pore",
+  "chapter": "tcell-act",
+  "title": "跨膜孔洞：Perforin vs 補體 MAC",
+  "topics": [
+   "細胞毒殺（perforin/Fas）",
+   "補體系統"
+  ],
+  "keywords": "perforin transmembrane channel pore Ca2+ granzyme apoptosis MAC C9 C5b-9 osmotic lysis IL-1 IL-2 hapten antigen",
+  "caption": "在目標細胞膜上打出<strong>跨膜孔洞</strong>的是 <strong>perforin</strong>（CTL／NK，需 Ca²⁺，讓 granzyme 進去 → apoptosis）；補體的 <strong>poly-C9（MAC）</strong>也打洞，但會讓細胞脹破（osmotic lysis）。IL-1、IL-2、hapten、antigen 都不打洞。"
+ },
+ {
   "id": "granzyme-apoptosis",
   "type": "slide",
   "chapter": "tcell-act",

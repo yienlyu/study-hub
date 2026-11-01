@@ -80,12 +80,16 @@
 
 | 顆粒蛋白（Fig 9.47） | 作用                                                 |
 | -------------------- | ---------------------------------------------------- |
-| **Perforin**         | 幫忙把顆粒內容物送進目標細胞的 cytoplasm             |
+| **Perforin**         | 需 Ca²⁺，在目標細胞膜聚合成**跨膜孔洞**，讓顆粒內容物進入 cytoplasm |
 | **Granzymes**        | serine protease，進入 cytoplasm 後**啟動 apoptosis** |
 | **Granulysin**       | 抗微生物、也能誘導 apoptosis                         |
 | **Fas ligand**       | 結合目標細胞的 Fas → apoptosis                       |
 
 <div data-fig="ctl-granules"></div>
+
+- ⚠️ 考古（113 #17）：「causes **transmembrane channels** in target cells」→ **perforin**。干擾選項 IL-1（發炎、發燒）、IL-2（T 增殖）、hapten、antigen 都不打洞。補體 **MAC（poly-C9）** 也是跨膜孔，與 perforin 同源，但結果是 osmotic lysis。
+
+<div data-fig="perforin-pore"></div>
 
 ### Granzyme B 誘發凋亡（Fig 9.48）
 
