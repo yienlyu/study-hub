@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 534" role="img" aria-label="TD 與 TI 抗原的判斷流程：抗原是蛋白質才能切成 peptide 放上 MHC II 給 TFH 看，TFH 以 CD40L 和 IL-21 等 cytokine 幫 B 細胞進入 germinal center，做 somatic hypermutation 與 class switch，產生以 IgG 為主的高親和力抗體與 memory B；非蛋白抗原沒有 peptide，T 細胞幫不上，TI-1 如 LPS 經 TLR 多株活化，TI-2 如莢膜多醣以大量 BCR 交聯，結果幾乎只有 IgM、記憶差，嬰兒 TI-2 反應未成熟所以容易被莢膜菌感染。">
+<defs><marker id="tt-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker></defs>
+<text x="20" y="22" class="th">TD vs TI · 關鍵只有一個：抗原能不能變成 PEPTIDE 給 T 看</text>
+<rect x="250" y="36" width="260" height="34" rx="8" class="bx"/><text x="262" y="57" class="" style="font-size:12px">BCR 結合抗原（signal ①）→ 抗原被吞進 B 細胞</text>
+<path d="M380 70V84" class="ln" style="stroke-width:1.4" marker-end="url(#tt-a)"/>
+<polygon points="380,86 520,118 380,150 240,118" class="bp" style="stroke:var(--ink-2);stroke-width:1.3"/><text x="380" y="115" text-anchor="middle" class="tb">是蛋白質嗎？</text><text x="380" y="132" text-anchor="middle" class="ts">能切成 peptide 放上 MHC II？</text>
+<path d="M240 118H190V170" class="lv" style="stroke-width:1.4" marker-end="url(#tt-a)"/>
+<path d="M520 118H570V170" class="lr" style="stroke-width:1.4" marker-end="url(#tt-a)"/>
+<text x="200" y="110" class="tb tv" style="font-size:12px">是 → TD</text><text x="560" y="110" text-anchor="end" class="tb tr" style="font-size:12px">否 → TI</text>
+<text x="20" y="166" class="tb tv" style="font-size:14px">TD</text><text x="46" y="166" class="ts">thymus-dependent</text><text x="200" y="166" class="ts">自然界 9 成以上的抗原</text>
+<g class="hot" data-tip="TD：B 細胞用 BCR 把抗原 &lt;b&gt;internalize&lt;/b&gt; → 切碎 → 放上 &lt;b&gt;MHC II&lt;/b&gt; 呈現給 TFH。這一步是 TD 的前提：沒有 peptide 就沒有 T 幫忙。" data-label="TD ① MHC II 呈現"><rect x="20" y="174" width="340" height="50" rx="8" class="bv"/><text x="32" y="195" class="" style="font-size:12.5px"><tspan class="tb">①</tspan> 切成 peptide → 放上 <tspan class="tb">MHC II</tspan></text><text x="32" y="211" class="ts">CD21–CD19 coreceptor 接 C3d，加強 signal ①</text></g>
+<path d="M190 224V238" class="lv" style="stroke-width:1.4" marker-end="url(#tt-a)"/>
+<g class="hot" data-tip="在 &lt;b&gt;B / T 區交界&lt;/b&gt;，TFH 與呈現同一抗原 peptide 的 B 細胞結合：&lt;b&gt;CD40L–CD40&lt;/b&gt; → NF-κB；&lt;b&gt;IL-21&lt;/b&gt; → STAT3。CD40L 缺陷 = &lt;b&gt;X-linked hyper-IgM&lt;/b&gt;（CD4 數目正常、IgG/IgA/IgE 低）。" data-label="TD ② T 細胞幫忙"><rect x="20" y="240" width="340" height="66" rx="8" class="bv"/><text x="32" y="261" class="" style="font-size:12.5px"><tspan class="tb">②</tspan> TFH 認 pMHC II → <tspan class="tb">CD40L ↔ CD40</tspan>（signal ②）</text><text x="32" y="277" class="ts">＋ IL-21、IL-4、IFN-γ、TGF-β（決定換成哪一型）</text><text x="32" y="293" class="ts tr">缺 CD40L = X-linked hyper-IgM → 只剩 IgM</text></g>
+<path d="M190 306V320" class="lv" style="stroke-width:1.4" marker-end="url(#tt-a)"/>
+<g class="hot" data-tip="Germinal center：&lt;b&gt;SHM&lt;/b&gt; 改 V 區、親和力高的被 FDC 選出（Bcl-2 免死金牌）；&lt;b&gt;class switch&lt;/b&gt; 改 C 區。兩者都靠 &lt;b&gt;AID&lt;/b&gt;（C → U），由 IL-4 + CD40 誘導。" data-label="TD ③ germinal center"><rect x="20" y="322" width="340" height="50" rx="8" class="bv"/><text x="32" y="343" class="" style="font-size:12.5px"><tspan class="tb">③</tspan> Germinal center：<tspan class="tb">SHM</tspan>（親和力↑）＋ <tspan class="tb">class switch</tspan></text><text x="32" y="359" class="ts">都靠 AID（IL-4 + CD40 誘導）· FDC 篩選、Bcl-2 存活</text></g>
+<path d="M190 372V386" class="lv" style="stroke-width:1.4" marker-end="url(#tt-a)"/>
+<rect x="20" y="388" width="340" height="50" rx="8" class="bg" style="stroke-width:1.6"/><text x="32" y="409" class="" style="font-size:13px"><tspan class="tb">IgG 為主</tspan>、高親和力、有 <tspan class="tb">memory B</tspan></text><text x="32" y="425" class="ts">再次感染：lag 短、量大 → 疫苗 booster 有效</text>
+<text x="400" y="166" class="tb tr" style="font-size:14px">TI</text><text x="420" y="166" class="ts">thymus-independent</text><text x="580" y="166" class="ts">多醣、LPS</text>
+<g class="hot" data-tip="非蛋白抗原（多醣、LPS）切不出 peptide → MHC II 是空的 → 無法活化 T → &lt;b&gt;不能 affinity maturation、不能 isotype switch&lt;/b&gt;。" data-label="TI 沒有 peptide"><rect x="400" y="174" width="340" height="50" rx="8" class="br"/><text x="412" y="195" class="" style="font-size:12.5px">沒有 peptide → <tspan class="tb">T 細胞幫不上</tspan></text><text x="412" y="211" class="ts">老師：B 拿著「空的麵包」，T 認不出來</text></g>
+<path d="M480 224V238" class="lr" style="stroke-width:1.4" marker-end="url(#tt-a)"/>
+<path d="M660 224V238" class="lr" style="stroke-width:1.4" marker-end="url(#tt-a)"/>
+<g class="hot" data-tip="&lt;b&gt;TI-1&lt;/b&gt;：polyclonal B-cell activator（如 &lt;b&gt;LPS&lt;/b&gt;）。Signal ② 由 &lt;b&gt;TLR&lt;/b&gt;（MyD88 → NF-κB）提供，可同時活化多個 B clone。" data-label="TI-1"><rect x="400" y="240" width="164" height="66" rx="8" class="br"/><text x="412" y="261" class="" style="font-size:12.5px"><tspan class="tb">TI-1</tspan>　LPS</text><text x="412" y="277" class="ts">BCR ＋ TLR（MyD88）</text><text x="412" y="293" class="ts">polyclonal 活化（多個 clone）</text></g>
+<g class="hot" data-tip="&lt;b&gt;TI-2&lt;/b&gt;：polymeric 分子（如&lt;b&gt;莢膜多醣&lt;/b&gt;），同一個 B epitope 重複很多次 → 很多 BCR 同時被交聯 = 超強活化訊號。" data-label="TI-2"><rect x="576" y="240" width="164" height="66" rx="8" class="br"/><text x="588" y="261" class="" style="font-size:12.5px"><tspan class="tb">TI-2</tspan>　莢膜多醣</text><text x="588" y="277" class="ts">同一 epitope 重複很多次</text><text x="588" y="293" class="ts">→ 大量 BCR 同時交聯</text></g>
+<text x="576" y="324" class="ts">嬰兒的 TI-2 反應還沒成熟</text><text x="576" y="340" class="ts">→ 容易被莢膜菌（肺炎鏈球菌）感染</text>
+<path d="M482 306V386" class="lr" style="stroke-width:1.4" marker-end="url(#tt-a)"/>
+<path d="M658 346V372H486" class="lr" style="stroke-width:1.4"/>
+<rect x="400" y="388" width="340" height="50" rx="8" class="br" style="stroke-width:1.6"/><text x="412" y="409" class="" style="font-size:13px"><tspan class="tb">幾乎只有 IgM</tspan>、不換型、親和力不會變高</text><text x="412" y="425" class="ts">記憶差：每次感染都像第一次</text>
+<path d="M20 450H740" class="lt"/>
+<text x="20" y="466" class="th">再打一次同樣的抗原（Slides p.32）</text>
+<rect x="230" y="500" width="30" height="12" rx="3" class="bp"/><text x="245" y="525" text-anchor="middle" class="ts">IgM</text>
+<rect x="276" y="472" width="30" height="40" rx="3" class="bv"/><text x="291" y="525" text-anchor="middle" class="ts">IgG</text>
+<path d="M224 512H316" class="ln" style="stroke-width:1"/>
+<text x="20" y="490" class="tb" style="font-size:12px">TD</text><text x="20" y="506" class="ts">IgG 大量出現</text>
+<rect x="610" y="500" width="30" height="12" rx="3" class="br"/><text x="625" y="525" text-anchor="middle" class="ts">IgM</text>
+<rect x="656" y="511" width="30" height="1" rx="3" class="bp"/><text x="671" y="525" text-anchor="middle" class="ts">IgG</text>
+<path d="M604 512H696" class="ln" style="stroke-width:1"/>
+<text x="400" y="490" class="tb" style="font-size:12px">TI</text><text x="400" y="506" class="ts">還是只有一點點 IgM</text>
+</svg>

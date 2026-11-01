@@ -11,15 +11,18 @@
 | **TH1**   | IFN-γ、**IL-12**          | T-bet            | **IFN-γ**             | 胞內病原、活化 macrophage   |
 | **TH2**   | **IL-4**                  | GATA3            | **IL-4、IL-5、IL-13** | 寄生蟲（helminth）          |
 | **TH17**  | **TGF-β + IL-6**、IL-23   | RORγt            | **IL-17、IL-22**      | **胞外細菌、真菌**          |
-| **TFH**   | IL-6（?）                 | Bcl-6            | **IL-21**             | 幫 B 細胞（幾乎所有微生物） |
+| **TFH**   | **IL-6**（只有 IL-6）¹    | Bcl-6            | **IL-21**             | 幫 B 細胞（幾乎所有微生物） |
 | **pTreg** | **TGF-β + IL-2**          | **FoxP3**        | **TGF-β、IL-10**      | **抑制**免疫反應            |
 
+- ¹ Slide 原圖（Fig 9.34）在 TFH 標「IL-6?」，是課本表示 TFH 的誘導訊號還沒完全確定；老師上課直接講「**只有 IL-6、沒有其他的話 → TFH**」，考試答 IL-6。對照：**IL-6 + TGF-β → TH17**。
 - APC 提供三種訊號給 naïve T：MHC II–TCR（①）、B7–CD28（②）、**cytokines IL-6、IL-12、IL-23、IL-4（③）** → activation、proliferation、survival、**differentiation**。
 - **IL-2**：T 細胞生長因子（自分泌），也參與 pTreg 誘導。
 
 <div data-fig="th-fate-cytokines"></div>
 
 <div data-fig="th-subsets"></div>
+
+<div data-fig="th-subsets-full"></div>
 
 ### 黏膜組織：同一個 naïve T，看環境走 pTreg 或 TH17（Fig 9.37）
 
@@ -32,7 +35,7 @@
 
 | 細胞                                        | 主要 effector 分子                              | 其他                                                |
 | ------------------------------------------- | ----------------------------------------------- | --------------------------------------------------- |
-| **CD8 CTL**（peptide + MHC I）              | **Perforin、granzymes、granulysin、Fas ligand** | IFN-γ、LT-α、TNF-α                                  |
+| <span class="nw">**CD8 CTL**（peptide + MHC I）</span> | **Perforin、granzymes、granulysin、Fas ligand** | IFN-γ、LT-α、TNF-α                                  |
 | **TH1**（macrophage 活化）                  | **IFN-γ**、GM-CSF、TNF-α、CD40L、FasL           | IL-3、LT-α、CXCL2                                   |
 | **TH2**（barrier immunity）                 | **IL-4、IL-5**、IL-13、CD40L                    | IL-3、GM-CSF、IL-10、TGF-β、CCL11（eotaxin）、CCL17 |
 | **TH17**（barrier immunity、招 neutrophil） | **IL-17A、IL-17F、IL-22**、CD40L                | IL-3、TNF-α、GM-CSF、CCL20                          |
@@ -155,6 +158,8 @@
 
 <div data-fig="ti-poor-memory"></div>
 
+<div data-fig="td-ti-logic"></div>
+
 ## 6. T–B 細胞交互作用
 
 - **Fig 10.3**：TFH 辨識 B 細胞上的 pMHC II → **CD40L–CD40**、**IL-21 → STAT3**，加上 IL-6、TGF-β、IFN-γ、IL-4（**決定 isotype switch**）→ B 細胞增殖成 **plasmablast（primary focus）** → 再分化為 **germinal center B、plasma cell、memory B**。
@@ -166,6 +171,8 @@
 <div data-fig="td-b-activation"></div>
 
 <div data-fig="b-t-migration"></div>
+
+<div data-fig="tb-meeting"></div>
 
 ## 7. Affinity maturation：Germinal center 與 SHM ⭐⭐
 

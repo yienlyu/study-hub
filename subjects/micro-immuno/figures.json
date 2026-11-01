@@ -837,8 +837,38 @@
   "topics": [
    "TH 分化與細胞激素"
   ],
-  "keywords": "TH1 TH2 TH17 TFH Treg IL-12 IL-4 IL-6 TGF-beta IFN-gamma IL-17 IL-21 IL-10 T-bet GATA3 RORgt FoxP3 Bcl-6",
-  "caption": "共筆標註「<strong>下圖必考</strong>」：記住每一型的<strong>誘導 cytokine → 轉錄因子 → 分泌物</strong>。IL-12 → TH1 是考最多次的一條。"
+  "keywords": "TH1 TH2 TH17 TFH Treg IL-12 IL-4 IL-6 TGF-beta IFN-gamma IL-17 IL-21 IL-10 T-bet GATA3 RORgt FoxP3 Bcl-6 IL-2 IL-5 IL-13 IL-23 pTreg mucus",
+  "caption": "共筆標註「<strong>下圖必考</strong>」：記住每一型的<strong>誘導 cytokine → 轉錄因子 → 分泌物</strong>。IL-12 → TH1 是考最多次的一條；別漏了 TH2 的 <strong>IL-13 → 黏液、平滑肌收縮</strong>。"
+ },
+ {
+  "id": "th-subsets-full",
+  "chapter": "tcell-act",
+  "title": "CD4 TH 亞群分化：完整版",
+  "topics": [
+   "TH 分化與細胞激素"
+  ],
+  "keywords": "TH1 TH2 TH17 TFH pTreg IL-12 IL-4 IL-6 IL-23 TGF-beta IL-2 at-RA T-bet GATA3 RORgt Bcl-6 FoxP3 IFN-gamma IL-5 IL-13 IL-17 IL-22 IL-21 IL-10 CD40L macrophage eosinophil neutrophil cross-regulation ILC1 ILC2 ILC3 knockout",
+  "caption": "每一型一條色帶：<strong>誘導 → 轉錄因子 → 每個 cytokine 的作用 → 被增強的細胞 → 對付的病原</strong>。<strong>TGF-β</strong> 是分岔點（+ IL-6 → TH17、+ IL-2 → pTreg）；下方是互相抑制與 ILC 對照。"
+ },
+ {
+  "id": "td-ti-logic",
+  "chapter": "tcell-act",
+  "title": "TD vs TI：抗原能不能變成 peptide",
+  "topics": [
+   "B 細胞活化／class switch／生發中心"
+  ],
+  "keywords": "TD TI thymus-dependent thymus-independent TI-1 TI-2 LPS TLR polysaccharide capsule MHC II CD40L hyper IgM germinal center IgM memory infant",
+  "caption": "只看一個判斷點：<strong>有沒有 peptide 給 T 看</strong>。有 → T 幫忙 → IgG、高親和力、memory；沒有 → <strong>幾乎只有 IgM、記憶差</strong>。CD40L 斷掉的 hyper-IgM 也會變成只剩 IgM。"
+ },
+ {
+  "id": "tb-meeting",
+  "chapter": "tcell-act",
+  "title": "T–B 細胞交互作用：在哪裡相遇、相遇後去哪",
+  "topics": [
+   "B 細胞活化／class switch／生發中心"
+  ],
+  "keywords": "T-B interaction CXCR5 CXCL13 CCR7 CCL21 EBI2 follicle border TFH Bcl-6 pMHC II CD40 CD40L IL-21 STAT3 primary focus plasmablast germinal center SHM AID FDC Bcl-2 class switch memory",
+  "caption": "活化前 B = <strong>CXCR5</strong>、T = <strong>CCR7</strong>；活化後互換 → 在 <strong>B / T 交界</strong>相遇。B 呈現同一抗原的 peptide，T 回給 <strong>CD40L + IL-21</strong> → primary focus 或 germinal center。"
  },
  {
   "id": "class-switch",
