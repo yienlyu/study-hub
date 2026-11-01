@@ -14,7 +14,7 @@
 | **TFH**   | **IL-6**（只有 IL-6）¹    | Bcl-6            | **IL-21**             | 幫 B 細胞（幾乎所有微生物） |
 | **pTreg** | **TGF-β + IL-2**          | **FoxP3**        | **TGF-β、IL-10**      | **抑制**免疫反應            |
 
-- ¹ Slide 原圖（Fig 9.34）在 TFH 標「IL-6?」，是課本表示 TFH 的誘導訊號還沒完全確定；老師上課直接講「**只有 IL-6、沒有其他的話 → TFH**」，考試答 IL-6。對照：**IL-6 + TGF-β → TH17**。
+- ¹ Slide 原圖（Fig 9.34）在 TFH 標「IL-6?」，是課本表示 TFH 的誘導訊號還沒完全確定；老師上課說「**只有 IL-6、沒有其他 → TFH**」。對照：**IL-6 + TGF-β → TH17**。
 - APC 提供三種訊號給 naïve T：MHC II–TCR（①）、B7–CD28（②）、**cytokines IL-6、IL-12、IL-23、IL-4（③）** → activation、proliferation、survival、**differentiation**。
 - **IL-2**：T 細胞生長因子（自分泌），也參與 pTreg 誘導。
 
@@ -33,13 +33,13 @@
 
 ## 2. 各種 effector T 細胞的武器（Fig 9.42）
 
-| 細胞                                        | 主要 effector 分子                              | 其他                                                |
-| ------------------------------------------- | ----------------------------------------------- | --------------------------------------------------- |
+| 細胞                                                   | 主要 effector 分子                              | 其他                                                |
+| ------------------------------------------------------ | ----------------------------------------------- | --------------------------------------------------- |
 | <span class="nw">**CD8 CTL**（peptide + MHC I）</span> | **Perforin、granzymes、granulysin、Fas ligand** | IFN-γ、LT-α、TNF-α                                  |
-| **TH1**（macrophage 活化）                  | **IFN-γ**、GM-CSF、TNF-α、CD40L、FasL           | IL-3、LT-α、CXCL2                                   |
-| **TH2**（barrier immunity）                 | **IL-4、IL-5**、IL-13、CD40L                    | IL-3、GM-CSF、IL-10、TGF-β、CCL11（eotaxin）、CCL17 |
-| **TH17**（barrier immunity、招 neutrophil） | **IL-17A、IL-17F、IL-22**、CD40L                | IL-3、TNF-α、GM-CSF、CCL20                          |
-| **TFH**（B-cell help）                      | **IL-21**、IL-4、CD40L                          | TNF-α、LT-α、CXCL13                                 |
+| **TH1**（macrophage 活化）                             | **IFN-γ**、GM-CSF、TNF-α、CD40L、FasL           | IL-3、LT-α、CXCL2                                   |
+| **TH2**（barrier immunity）                            | **IL-4、IL-5**、IL-13、CD40L                    | IL-3、GM-CSF、IL-10、TGF-β、CCL11（eotaxin）、CCL17 |
+| **TH17**（barrier immunity、招 neutrophil）            | **IL-17A、IL-17F、IL-22**、CD40L                | IL-3、TNF-α、GM-CSF、CCL20                          |
+| **TFH**（B-cell help）                                 | **IL-21**、IL-4、CD40L                          | TNF-α、LT-α、CXCL13                                 |
 
 <div data-fig="effector-molecules"></div>
 
