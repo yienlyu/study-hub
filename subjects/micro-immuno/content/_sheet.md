@@ -211,7 +211,7 @@
 @fig class-switch
 - 需要 **CD40L（TFH）↔ CD40（B）** + cytokine + **AID**；只換 constant region。
 - **AID：C → U**（IL-4 + CD40 誘導）→ SHM 與 class switch；IgM/IgD 靠 **RNA splicing**。
-- **IL-4 → IgG1、IgE**；IFN-γ → IgG3、IgG2a；**TGF-β → IgG2b、IgA**；IL-21 → IgG3、IgG1、IgA；IL-5 → IgG1、IgA。
+- **IL-4 → IgG1、IgE**；IFN-γ → IgG3、IgG2a；**TGF-β → IgG2b、IgA**；IL-21 → IgG3、IgG1、IgA；IL-5 → IgG1、**IgA（★ IgA 最重要）**。
 - **CD40L 缺陷 → X-linked hyper-IgM**（CD4 T 數目正常）。
 - TI-1（LPS，polyclonal、TLR）、TI-2（polymeric 莢膜多醣）→ 主要 **IgM**、記憶差；嬰兒對莢膜菌易感。
 - Germinal center：SHM、class switch、**記憶 B 細胞**。

@@ -5801,13 +5801,17 @@
   "answer": [
    "C"
   ],
-  "explain": "(C) IL-5 可以使老鼠的 B 細胞經免疫球蛋白類型轉換（isotype switch）變成產生 IgA 的漿細胞",
+  "explain": "(C) IL-5 可以使老鼠的 B 細胞經免疫球蛋白類型轉換（isotype switch）變成產生 IgA 的漿細胞 → 選 C。\ncytokine → isotype 對照（W4-2 p.45，Fig 10.23）：IL-4 → IgG1、IgE；IFN-γ → IgG3、IgG2a；TGF-β → IgG2b、IgA；IL-21 → IgG3、IgG1、IgA；IL-5 → IgG1、IgA。\n表上 IL-5 雖然同時列 IgG1 與 IgA，但 ★IgA 是 IL-5 最重要的對應（小鼠中促進 IgA 分泌）；IgG1 的代表 cytokine 是 IL-4，單選題不選 B。\n(D) IgE 是 IL-4 誘導，不是 IL-5。若選項同時有 TGF-β 與 IL-5 問 IgA switch，TGF-β 才是主要的 switch factor，IL-5 為輔助。\n對照圖見下方「Class switch 與 cytokine 對應」與上課 slides p.45。",
   "note": "原考古答案表為 (D)，但詳解與共筆 cytokine 表皆為 IL-5 → IgA（及小鼠 IgG1），故本站以 (C) 為答案。",
   "topics": [
    "TH 分化與細胞激素",
    "B 細胞活化／class switch／生發中心"
   ],
-  "pattern": "選正確／單一概念題"
+  "pattern": "選正確／單一概念題",
+  "figs": [
+   "class-switch",
+   "cytokine-isotype"
+  ]
  },
  {
   "id": "k113-tact-12",

@@ -47,6 +47,7 @@
     "img": ["figures/questions/k113-fungi-17.webp"],
     "imageOnly": null
    },
+   "k113-tact-11": {"figs": ["class-switch", "cytokine-isotype"]},
    "k113-tact-16": {"answer": ["D", "E"]},
    "k113-mid111-62": {"answer": ["A", "B"]}
   }

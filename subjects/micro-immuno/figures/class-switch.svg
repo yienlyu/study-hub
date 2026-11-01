@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-label="Isotype class switch：switch region 之間的 DNA 重組把中間片段切成環狀移除，讓同一個 VDJ 接上新的 constant region；IL-4 誘導 IgG1 與 IgE，IFN-γ 誘導 IgG3 與 IgG2a，TGF-β 誘導 IgG2b 與 IgA">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-label="Isotype class switch：switch region 之間的 DNA 重組把中間片段切成環狀移除，讓同一個 VDJ 接上新的 constant region；IL-4 誘導 IgG1 與 IgE，IFN-γ 誘導 IgG3 與 IgG2a，TGF-β 誘導 IgG2b 與 IgA，IL-5 誘導 IgG1 與 IgA（IgA 最重要）">
 <defs><marker id="cs-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
 <marker id="cs-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
 <marker id="cs-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
@@ -32,5 +32,5 @@
 <rect x="514" y="308" width="46" height="22" rx="11" class="bw"/><text x="537" y="323" text-anchor="middle" style="font-size:11px">IgA</text>
 <text x="586" y="298" class="tb" style="font-size:13px">IL-5</text>
 <rect x="586" y="308" width="46" height="22" rx="11" class="bg"/><text x="609" y="323" text-anchor="middle" style="font-size:11px">IgG1</text>
-<rect x="638" y="308" width="46" height="22" rx="11" class="bw"/><text x="661" y="323" text-anchor="middle" style="font-size:11px">IgA</text>
+<rect x="638" y="308" width="46" height="22" rx="11" class="bw"/><text x="661" y="323" text-anchor="middle" style="font-size:11px;font-weight:700">★IgA</text>
 </svg>

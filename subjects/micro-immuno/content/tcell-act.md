@@ -232,9 +232,10 @@
 | **IFN-γ** | IgG3、IgG2a     |
 | **TGF-β** | IgG2b、**IgA**  |
 | **IL-21** | IgG3、IgG1、IgA |
-| **IL-5**  | IgG1、**IgA**   |
+| **IL-5**  | IgG1、**IgA**（★ IgA 最重要） |
 
 - 機制：cytokine **促進特定 switch region 上游 promoter 的轉錄**。
+- ★ **IL-5 → IgA 最重要**：表上 IL-5 雖然列 IgG1、IgA，考題（113 考古「IL-5 促使 isotype switch 為何種抗體」）答 **IgA**；IgG1 的代表是 IL-4。IgA switch 的主角仍是 **TGF-β**，IL-5 為輔助。
 
 <div data-fig="cytokine-isotype"></div>
 
@@ -345,7 +346,7 @@
 2. **TH1 分泌 IFN-γ**；**TH2 不分泌 IL-12**。
 3. **CD40L 缺陷 → hyper-IgM**；hyper-IgM「CD4⁺ T 數目下降」為錯。
 4. **Class switch 需要 CD4 T 細胞**（考 2 次）。
-5. **IL-4 → IgE**；IL-5 → IgA；TGF-β + IL-6 → TH17。
+5. **IL-4 → IgE**；**IL-5 → IgA（★ 最重要，不選 IgG1）**；TGF-β + IL-6 → TH17。
 6. **FasL 誘發 T 細胞凋亡**（考 2 次）；perforin 在靶細胞打洞。
 7. **CTLA-4 結合 B7**；CD28 為 naïve T 的 second signal。
 8. **Germinal center 是抗體記憶產生的主要區域**；「沒有 B 細胞凋亡」錯。
