@@ -277,6 +277,25 @@
       ),
     );
     const questions = lists.flat();
+    // 題組：「承上題…」接在同檔前一題後面；「（題組 a–b）」開頭相同的連續題目同一組。
+    // q.grp = 組頭 id，groups[組頭] = 依原順序的整組題目。隨機出題時整組一起出、順序不變。
+    const groups = {};
+    for (const list of lists) {
+      let prev = null;
+      for (const q of list) {
+        const tag = /^（題組[^）]*）/.exec(q.stem || "")?.[0];
+        const join =
+          prev &&
+          (/^承上題/.test(q.stem || "") || (tag && tag === prev._tag));
+        if (join) {
+          q.grp = prev.grp || prev.id;
+          prev.grp = q.grp;
+          (groups[q.grp] ||= [prev]).push(q);
+        }
+        Object.defineProperty(q, "_tag", { value: tag, configurable: true });
+        prev = q;
+      }
+    }
     const figs = await fetchJSON(`${ent.path}/figures.json`).catch(() => []);
     // groups 加上 "done": "26/10/30 midterm" → 該組章節標成已考完，不再算進「已上課範圍」
     const doneOf = Object.fromEntries(
@@ -296,6 +315,7 @@
       path: ent.path,
       questions,
       qById,
+      groups,
       chMap,
       figs,
       figById: (() => {
@@ -360,6 +380,27 @@
       })
       .sort((a, b) => b[0] - a[0])
       .map((x) => x[1]);
+  // 把題目清單整理成「單位」：題組整組一起（缺的組員補回來），保留第一次出現的位置
+  const toUnits = (subj, list) => {
+    const seen = new Set(),
+      out = [];
+    for (const q of list) {
+      const g = q.grp ? subj.groups[q.grp].filter((x) => !x.imageOnly) : [q];
+      if (seen.has(g[0].id)) continue;
+      seen.add(g[0].id);
+      out.push(g);
+    }
+    return out;
+  };
+  // 取到 n 題為止（不拆題組；最後一組可能讓題數稍微超過 n）
+  const takeUnits = (units, n) => {
+    const out = [];
+    for (const u of units) {
+      if (n > 0 && out.length >= n) break;
+      out.push(...u);
+    }
+    return out;
+  };
   const record = (sid, qid, ok, { ms = null, mode = "mcq" } = {}) => {
     const now = Date.now();
     const p = getProg(sid);
@@ -2445,8 +2486,7 @@
           .includes(kw),
       );
     if (q.mode === "random") pool = weightedShuffle(pool, prog);
-    const n = parseInt(q.n, 10);
-    return n > 0 ? pool.slice(0, n) : pool;
+    return takeUnits(toUnits(subj, pool), parseInt(q.n, 10));
   }
 
   // 練習區入口：先選科目
@@ -4845,17 +4885,31 @@
     const ids = [],
       sec = [];
     M.sections.forEach((s, si) => {
-      const pool = weightedShuffle(
-        mockSectionPool(subj, s).filter((q) => !used.has(q.id)),
-        prog,
-      );
-      const nw = pool.filter(isNew),
-        old = pool.filter((q) => !isNew(q));
+      // 題組整組算一個單位：放得下才放，不拆開
+      const units = toUnits(
+        subj,
+        weightedShuffle(
+          mockSectionPool(subj, s).filter((q) => !used.has(q.id)),
+          prog,
+        ),
+      ).filter((u) => u.every((q) => mockOK(q) && !used.has(q.id)));
+      const nw = units.filter((u) => isNew(u[0])),
+        old = units.filter((u) => !isNew(u[0]));
       const nNew = Math.min(nw.length, Math.round(s.n * (M.newRatio ?? 0.2)));
-      const pick = [...old.slice(0, s.n - nNew), ...nw.slice(0, nNew)];
-      if (pick.length < s.n)
-        pick.push(...nw.slice(nNew, nNew + s.n - pick.length));
-      for (const q of shuffle(pick)) {
+      const pick = [];
+      let cnt = 0;
+      const fill = (arr, cap) => {
+        for (const u of arr) {
+          if (cnt >= cap) break;
+          if (pick.includes(u) || cnt + u.length > cap) continue;
+          pick.push(u);
+          cnt += u.length;
+        }
+      };
+      fill(nw, nNew);
+      fill(old, s.n);
+      fill(nw, s.n);
+      for (const q of shuffle(pick).flat()) {
         used.add(q.id);
         ids.push(q.id);
         sec.push(si);
