@@ -14708,12 +14708,15 @@
   "answer": [
    "B"
   ],
-  "explain": "CD8 毒殺型 T 細胞執行毒殺與抗病毒時分泌 IFN-γ、TNF-α、LT-α（lymphotoxin），並以 perforin／granzyme 與 FasL 殺死標的。\nTGF-β 主要由 Treg 等分泌，是抑制性細胞激素，不是 CD8 T 細胞用來毒殺的分子 → 選 B。",
+  "explain": "CD8 毒殺型 T 細胞執行毒殺與抗病毒時分泌 IFN-γ、TNF-α、LT-α（lymphotoxin），並以 perforin／granzyme 與 FasL 殺死標的。\nTGF-β 主要由 Treg 等分泌，是抑制性細胞激素，不是 CD8 T 細胞用來毒殺的分子 → 選 B。\n各 effector T 細胞的武器對照見下方上課 slides（W4-2 p.6，Fig 9.42）：CTL 的毒殺分子是 perforin、granzymes、granulysin、FasL，另外分泌 IFN-γ、TNF-α、LT-α。",
   "topics": [
    "細胞毒殺（perforin/Fas）",
    "TH 分化與細胞激素"
   ],
-  "pattern": "選錯誤（否定）題"
+  "pattern": "選錯誤（否定）題",
+  "figs": [
+   "effector-molecules"
+  ]
  },
  {
   "id": "k113-mid111-52",

@@ -105,7 +105,7 @@
       "k113-mid111-47": "樹突狀細胞（dendritic cell）在周邊組織以 PRR 偵測病原（先天免疫）、攝取抗原後成熟、遷移到淋巴結，以 MHC I 與 MHC II 呈現抗原並提供共刺激（B7），活化 naïve T 細胞（後天免疫），是連接先天與後天免疫最重要的細胞 → 選 D。\nNK、嗜中性球、嗜鹼性球屬先天免疫的效應細胞。",
       "k113-mid111-48": "濾泡輔助型 T 細胞（TFH，轉錄因子 Bcl-6，表現 CXCR5、ICOS、PD-1）在生發中心協助 B 細胞，主要分泌 IL-21（也分泌 IL-4），促進 B 細胞增殖、class switch、affinity maturation 與 plasma cell 分化 → 選 A。\nIL-22：TH17／TH22、ILC3（上皮防禦）；IL-23：維持 TH17；IL-27：IL-12 家族，調節 TH1、抑制 TH17。",
       "k113-mid111-49": "TH2 分泌 IL-4、IL-5、IL-13（以及 IL-10）：IL-4 促 IgE class switch 與 TH2 分化、IL-5 活化嗜酸性球、IL-13 促黏液與 M2 巨噬細胞。\nIL-12 由 APC（樹突狀細胞、巨噬細胞）分泌，誘導 TH1 分化，不是 TH2 的產物 → 選 C。",
-      "k113-mid111-51": "CD8 毒殺型 T 細胞執行毒殺與抗病毒時分泌 IFN-γ、TNF-α、LT-α（lymphotoxin），並以 perforin／granzyme 與 FasL 殺死標的。\nTGF-β 主要由 Treg 等分泌，是抑制性細胞激素，不是 CD8 T 細胞用來毒殺的分子 → 選 B。",
+      "k113-mid111-51": "CD8 毒殺型 T 細胞執行毒殺與抗病毒時分泌 IFN-γ、TNF-α、LT-α（lymphotoxin），並以 perforin／granzyme 與 FasL 殺死標的。\nTGF-β 主要由 Treg 等分泌，是抑制性細胞激素，不是 CD8 T 細胞用來毒殺的分子 → 選 B。\n各 effector T 細胞的武器對照見下方上課 slides（W4-2 p.6，Fig 9.42）：CTL 的毒殺分子是 perforin、granzymes、granulysin、FasL，另外分泌 IFN-γ、TNF-α、LT-α。",
       "k113-mid111-53": "(A) 正確：腫瘤微環境中的 TGF-β、IL-10 等可誘導 T 細胞分化成 Treg，抑制抗腫瘤免疫以逃脫追殺 → 選 A。\n(B) 錯誤：自體免疫疾病是 Treg 功能不足（如 FOXP3 突變的 IPEX），不是過度活化。\n(C) 錯誤：Treg 有胸腺生成的 tTreg（natural）與周邊誘導的 pTreg 兩種。\n(D) 錯誤：典型 Treg 是 CD4⁺CD25⁺FOXP3⁺，功能是抑制免疫，不是清除胞內病原。",
       "k113-mid111-58": "三條補體路徑的起點不同，但最初的會合點是形成 C3 convertase（classical／lectin：C4b2a；alternative：C3bBb）切開 C3 → 選 D。之後再形成 C5 convertase、C5b–C9 MAC。\nC1qrs 只屬於 classical pathway；C4b 屬於 classical 與 lectin。",
       "k113-mid111-59": "(A) 錯誤：血清中最多的是 IgG。(B) 錯誤：腸黏膜中最多的是分泌型 IgA。(C) 錯誤：體組織液中含量高的是 IgG（IgM 五聚體很大，主要留在血管內）。\n(D) 正確：IgD 幾乎都以膜型（membrane form）與 IgM 一起表現在成熟 naïve B 細胞表面，血清中含量極低 → 選 D。",

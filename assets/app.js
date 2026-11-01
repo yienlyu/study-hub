@@ -2131,7 +2131,7 @@
         <p class="small muted" style="margin-top:28px">內容有誤？<a href="#/report?${qs({ sid, where: `${c.title}／${TABS.find((t) => t[0] === tab)?.[1] || tab}` })}">回報這一頁</a></p>
       </div>`,
       () => {
-        buildToc();
+        buildToc(subj, cid, tab);
         bindTips($app);
         hydrateFigs($app, subj).then(() => q.find && findInPage(q.find));
         if (q.fig && subj.figById[q.fig]) openFigZoom(subj, q.fig);
@@ -2198,20 +2198,50 @@
     );
     return html;
   }
-  function buildToc() {
+  function buildToc(subj, cid, tab) {
     const toc = $("#toc");
     if (!toc) return;
     const hs = $$(".prose h2, .prose h3", $app);
-    if (hs.length < 3) {
+    const m = subj?.meta;
+    const multi = (m?.chapters.length || 0) > 1;
+    if (hs.length < 3 && !multi) {
       toc.remove();
       $(".reader")?.style.setProperty("grid-template-columns", "1fr");
       return;
     }
-    toc.innerHTML = `<button type="button" class="toc-fab" aria-label="本頁目錄" title="本頁目錄" aria-expanded="false" aria-controls="tocPop">${ic("list")}</button>
-      <div class="toc-pop" id="tocPop" role="dialog" aria-label="本頁目錄">
-        <header class="toc-pop-head"><div><div class="eyebrow">本頁目錄</div><div class="toc-cur"></div></div><button class="btn sm ghost toc-x" type="button" aria-label="關閉">${ic("x")}</button></header>
-        <ol>${hs.map((h) => `<li class="lvl${h.tagName[1]}"><a href="#" data-target="${h.id}">${esc(h.textContent.replace(/[\p{Extended_Pictographic}\uFE0F]/gu, "").trim())}</a></li>`).join("")}</ol>
+    // 上層：切換章節（依課程分組），下層：本頁標題
+    const cur_ = subj?.chMap[cid];
+    const chPick = multi
+      ? `<div class="toc-ch">
+          <button type="button" class="toc-ch-btn" aria-expanded="false" aria-controls="tocChList"><span class="toc-ch-cur"><span class="eyebrow">章節</span><b><span class="mono">Ch.${pad2(cur_.idx)}</span> ${esc(cur_.title)}</b></span>${ic("chevR")}</button>
+          <div class="toc-ch-list" id="tocChList" hidden>${(m.groups || [{ title: "", chapters: m.chapters.map((c) => c.id) }])
+            .map(
+              (g) => `${g.title ? `<div class="toc-grp">${esc(g.title)}</div>` : ""}<ol>${g.chapters
+                .map((id) => subj.chMap[id])
+                .filter(Boolean)
+                .map(
+                  (c) => `<li><a class="toc-ch-a${c.id === cid ? " active" : ""}" href="#/s/${m.id}/c/${c.id}/${tab}"${c.id === cid ? ' aria-current="page"' : ""}><span class="mono">${pad2(c.idx)}</span><span>${esc(c.title)}</span></a></li>`,
+                )
+                .join("")}</ol>`,
+            )
+            .join("")}</div>
+        </div>`
+      : "";
+    const showHs = hs.length >= 3;
+    toc.innerHTML = `<button type="button" class="toc-fab" aria-label="目錄" title="目錄" aria-expanded="false" aria-controls="tocPop">${ic("list")}</button>
+      <div class="toc-pop" id="tocPop" role="dialog" aria-label="目錄">
+        <header class="toc-pop-head"><div><div class="eyebrow">目錄</div><div class="toc-cur"></div></div><button class="btn sm ghost toc-x" type="button" aria-label="關閉">${ic("x")}</button></header>
+        ${chPick}
+        ${showHs ? `<div class="eyebrow toc-sec">本頁目錄</div><ol class="toc-hs">${hs.map((h) => `<li class="lvl${h.tagName[1]}"><a href="#" data-target="${h.id}">${esc(h.textContent.replace(/[\p{Extended_Pictographic}\uFE0F]/gu, "").trim())}</a></li>`).join("")}</ol>` : ""}
       </div>`;
+    const chBtn = $(".toc-ch-btn", toc);
+    const chList = $(".toc-ch-list", toc);
+    chBtn?.addEventListener("click", () => {
+      const v = chList.hidden;
+      chList.hidden = !v;
+      chBtn.setAttribute("aria-expanded", v ? "true" : "false");
+      if (v) $("a.active", chList)?.scrollIntoView({ block: "nearest" });
+    });
     // 窄螢幕：目錄收成左上角的浮動小按鈕（像音樂扭蛋），點了展開成浮動面板；寬螢幕：側欄
     const fab = $(".toc-fab", toc);
     const pop = $(".toc-pop", toc);
@@ -2253,7 +2283,7 @@
       document.removeEventListener("click", outside);
       document.removeEventListener("keydown", esc_);
     });
-    $$("a", toc).forEach((a) =>
+    $$("a[data-target]", toc).forEach((a) =>
       a.addEventListener("click", (e) => {
         e.preventDefault();
         const el = document.getElementById(a.dataset.target);
@@ -2276,7 +2306,11 @@
         else setTimeout(fix, 900);
       }),
     );
-    const links = new Map($$("a", toc).map((a) => [a.dataset.target, a]));
+    if (!showHs) {
+      $(".toc-cur", toc).textContent = cur_ ? cur_.title : "";
+      return;
+    }
+    const links = new Map($$("a[data-target]", toc).map((a) => [a.dataset.target, a]));
     // 目前段落＝最後一個捲過分頁列／頁首下緣的標題（長段落中間也能顯示）
     let last = null;
     const track = () => {
