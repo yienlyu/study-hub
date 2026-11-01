@@ -14,6 +14,7 @@
    - 預設：手改優先。自動記進 tools/manual_edits.json 並套回，最後列出記了哪些。
    - --accept-builder：builder 優先。不記錄，並把 manual_edits.json 裡跟這次改動衝突的條目刪掉。
    builder 新增的題目、圖一律保留。
+5. JSON 一律以重建前的原檔為底寫回（tools/jsonfmt.py）：只改內容有變的題目，其餘保留原排版，不會整檔重排。
 """
 import glob
 import json
@@ -26,6 +27,9 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 TOOLS = os.path.join(ROOT, "tools")
 EDITS = os.path.join(TOOLS, "manual_edits.json")
 FILES_DIR = os.path.join(TOOLS, "manual_files")
+sys.path.insert(0, TOOLS)
+from jsonfmt import write_preserving  # noqa: E402
+
 APPLIERS = ["apply_question_fixes.py", "apply_explain_overrides.py", "apply_manual_edits.py"]
 
 
@@ -131,13 +135,19 @@ def main():
     save_edits(edits)
     if not accept:
         run(os.path.join("tools", "apply_manual_edits.py"))
-    # 內容沒變、只有排版不同的檔案，還原成原本的位元組，避免無意義的 git diff
+    # builder 會整個重寫檔案（排版可能跟原檔不同）：以原檔為底，只改內容有變的部分，
+    # 內容沒變就還原原本的位元組，避免整檔重排的 git diff
     for rel, old in before.items():
         path = os.path.join(ROOT, rel)
         if rel.endswith(".json") and os.path.exists(path):
             cur = open(path, "rb").read()
-            if cur != old and json.loads(cur) == json.loads(old):
+            if cur == old:
+                continue
+            data = json.loads(cur)
+            if data == json.loads(old):
                 open(path, "wb").write(old)
+            else:
+                write_preserving(path, old.decode("utf-8"), data)
     print("\n== 重建結果 ==")
     print("\n".join(report) if report else "沒有任何手改被蓋掉。")
 

@@ -8,6 +8,10 @@ explain_overrides.json 的格式：{"科目資料夾": {"questions-xxx.json": {"
 """
 import json
 import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from jsonfmt import write_preserving  # noqa: E402
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 OVR = os.path.join(ROOT, "tools", "explain_overrides.json")
@@ -29,8 +33,7 @@ for subj, files in overrides.items():
                 q["explain"] = items[q["id"]]
                 n += 1
         if n:  # 沒變就不寫回，避免把手排格式的題庫整個重排
-            with open(path, "w", encoding="utf-8") as f:
-                f.write(json.dumps(qs, ensure_ascii=False, indent=1) + ("\n" if raw.endswith("\n") else ""))
+            write_preserving(path, raw, qs)  # 只改有變的題目，其餘保留原排版
         total += n
         print(f"{subj}/{fname}: 更新 {n} 題")
 print(f"共更新 {total} 題")

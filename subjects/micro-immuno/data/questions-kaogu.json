@@ -6237,7 +6237,7 @@
       }
     ],
     "answer": ["D"],
-    "explain": "從過氧化氫酶（Catalase）陰性之革蘭氏陽性球菌可知是 Streptococci，再從β 溶血得知是Streptococcus pyogenes 或是 Streptococcus agalactiae，最後看到 CAMP 的反應呈陽性得知Streptococcus agalactiae菌種 Catalase test Hemolysis on blood agar CAMP test Staphylococcus aureus 陽性 β溶血 陰性Streptococcus pyogenes 陰性 β溶血 陰性Enterococcus faecalis 陰性 γ溶血（無溶血） 陰性Streptococcus agalactiae陰性 β溶血 陽性",
+    "explain": "觸媒（Catalase）陰性的革蘭氏陽性球菌 → Streptococci（排除 S. aureus）；β 溶血 → S. pyogenes 或 S. agalactiae（排除 γ 溶血的 E. faecalis）；CAMP test 陽性 → Streptococcus agalactiae（GBS）→ 選 D。\n情境線索也吻合：早期破水、產程延長是新生兒 GBS 感染的危險因子，出生 1 週後發病屬 late-onset，常以腦膜炎表現。\n\n| 菌種 | Catalase test | Hemolysis on blood agar | CAMP test |\n|---|---|---|---|\n| Staphylococcus aureus | 陽性 | β 溶血 | 陰性 |\n| Streptococcus pyogenes | 陰性 | β 溶血 | 陰性 |\n| Enterococcus faecalis | 陰性 | γ 溶血（無溶血） | 陰性 |\n| Streptococcus agalactiae | 陰性 | β 溶血 | 陽性 |",
     "topics": ["S. aureus", "S. pyogenes (GAS)", "S. agalactiae (GBS)"],
     "pattern": "臨床情境題"
   },

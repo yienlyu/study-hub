@@ -20,6 +20,10 @@ manual_edits.json 的格式（路徑相對於 repo 根目錄）：
 import json
 import os
 import shutil
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from jsonfmt import write_preserving  # noqa: E402
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 EDITS = os.path.join(ROOT, "tools", "manual_edits.json")
@@ -32,8 +36,7 @@ def load_edits():
 
 
 def dump_list(path, items, raw):
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(json.dumps(items, ensure_ascii=False, indent=1) + ("\n" if raw.endswith("\n") else ""))
+    write_preserving(path, raw, items)  # 只改有變的題目，其餘保留原排版
 
 
 def apply_list(path, spec):
