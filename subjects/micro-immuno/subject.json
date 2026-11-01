@@ -36,8 +36,8 @@
     {
       "title": "細菌、真菌與病毒各論 W6–W8",
       "chapters": [
-        "enterobacteriaceae",
         "bacillus",
+        "enterobacteriaceae",
         "staph-strep",
         "neisseria",
         "fungi",
@@ -294,19 +294,19 @@
       "slides": true
     },
     {
-      "id": "enterobacteriaceae",
-      "title": "腸桿菌科",
-      "en": "Enterobacteriaceae",
-      "teacher": "鍾筱菁",
-      "week": "W6-1（10/14）",
-      "slides": true
-    },
-    {
       "id": "bacillus",
       "title": "Bacillus、Listeria、Corynebacterium",
       "en": "Bacillus, Listeria & Corynebacterium",
       "teacher": "鍾筱菁",
       "week": "W6-2（10/16）",
+      "slides": true
+    },
+    {
+      "id": "enterobacteriaceae",
+      "title": "腸桿菌科",
+      "en": "Enterobacteriaceae",
+      "teacher": "鍾筱菁",
+      "week": "W6-1（10/14）",
       "slides": true
     },
     {

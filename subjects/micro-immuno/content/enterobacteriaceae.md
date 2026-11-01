@@ -119,6 +119,19 @@
 - **_P. mirabilis_**：**周鞭毛 → swarming（在培養基上「遊行」，無法形成單一菌落）**；住膀胱，**urease** 把 urea → NH₃ + HCO₃⁻ → pH ↑ → **腎結石**（「you smell funny」= 阿摩尼亞味）。對照：**胃裡產 urease 的是 _H. pylori_**。
 - 弧菌與感染劑量的比較見「Neisseria、Helicobacter、Pseudomonas、Vibrio」章。
 
+## ✍️ 我的上課筆記（W6-2 講義手寫）
+> 原檔：`slides/micro-immuno/W6-2_腸桿菌及弧菌（上課筆記）.pdf`（頁碼 = 該 PDF 頁數）。這份講義的手寫標註不多，以下只列有寫或有圈的地方。
+
+- **p.2 G(−) 桿菌總表**：「**細菌造成疾病是因為有 exotoxin**」；*Pseudomonas* **好氧** → 住 **skin and lung（氧氣充足）**；腸道裡沒有氧 → 腸桿菌科、弧菌都是兼性厭氧，彎曲桿菌、幽門桿菌微厭氧，*B. fragilis* 絕對厭氧。
+- **p.6 腸桿菌科特徵**：★ **Oxidase (−)：只有腸桿菌科是 negative**（對照 *Vibrio* oxidase (+)）。乳糖不發酵表：*Salmonella*（motile +）、*Proteus mirabilis*（手寫 **H₂S +**）、*Shigella*（motile −）、*Y. enterocolitica*（手寫 **H₂S −**）；*Salmonella*、*Shigella* 被框起來。
+- **p.8 LPS**：旁註「**G(−) → 敗血症（休克）**」；LPS 圖指向 **DIC**。
+- **p.12 *E. coli* 血清型**：**O157:H7 → 出血性 *E. coli*（EHEC）**；K1 等莢膜見 p.50 莢膜總表。
+- **p.18 EPEC／EIEC／EAEC／AIEC 表**：「**共同擁有相同黏附因子**」（EPEC、EHEC 都靠 BFP、intimin–Tir → pedestal）。旁邊整理 **↑cAMP 毒素**：① *B. anthracis* edema toxin ② ↑cAMP 的 enterotoxin：**ETEC LT**、**cholera toxin**。
+- **p.24 Typhoid Mary**：★ **感染源因 = 健康帶原（3%）**、**人為唯一宿主**；**膽囊 = 傷寒菌的窩**。
+- **p.26 *Shigella***：圈 **nonmotile**；旁註「**國家**」（開發中國家：食物汙染＋人傳人；已開發國家：人傳人，衛生習慣、性行為）。
+- **p.28 Shiga toxin**：**AB toxin**（作用於 60S，抑制蛋白質合成）。
+- **p.39 Cholera toxin 作用**：**AB toxin**（A–B₅；毒素總表在 p.49）；**Cl⁻** 被圈 → **水瀉**。
+
 === slides ===
 
 # 上課 slides

@@ -95,6 +95,29 @@
 - **診斷（國考題）**：不是靠臨床症狀、也不是只分離出白喉桿菌，**必須證明菌株會產生白喉毒素** → **Elek test**（免疫擴散沉澱：中間抗毒素血清條、兩側 positive / negative control 與待測菌，交集出現「叉叉」沉澱線 = 有毒素）。Schick test（測是否有抗體）已不用。
 - 台灣自 **1981 年後長期零本土病例**；近期**澳洲**白喉 outbreak（數百例、有死亡，2018 年以來首例）。預防：**三合一（白喉、百日咳、破傷風）類毒素疫苗**。
 
+## ✍️ 我的上課筆記（W6-1 講義手寫）
+> 原檔：`slides/micro-immuno/W6-1_Bacillus_ Listeria_ Corynebacterium（上課筆記）.pdf`（頁碼 = 該 PDF 頁數）。
+
+- **p.1** 開場複習 **G(+) vs G(−)**。
+- **p.2** Koch 1877 分離炭疽桿菌 → **柯氏假說：link 病原體和疾病的關係**。
+- **p.3 胞內菌（intracellular bacteria）三特色**：① 不被免疫辨識（won't be recognized）② **cell-to-cell spread** ③ 隨白血球跑 → **systemic disease（全身性）**；孢子 → macrophage → 血流 → 分泌毒素 → **death**。產孢子：**Bacillus 好氧 G(+)、Clostridium 厭氧 G(+)**。
+- **p.4 Capsule（莢膜）**：mask 表面 → **逃避宿主免疫攻擊**；但莢膜本身變成**新抗原 → 可分型、做疫苗**。圈出 **Polypeptide**：炭疽的莢膜是 **poly-D-glutamic acid（胜肽）**，不是多醣體。旁註「**唯一的 endotoxin：LPS，其他都是 exotoxins**」；莢膜總表看 p.38。
+- **p.5 毒素**：**吸入性（呼吸道）致死率最高**；PA83 的 83 是分子量；**EF → 水腫**；屬 **AB toxin**。cAMP 小框旁：**cyclic AMP → Cl⁻ ↑（通道 open）→ 細胞局部水腫、影響 macrophage 功能**。
+- **p.6 三型炭疽**：**致死：吸入 > 腸胃 > 皮膚**；**盛行：皮膚 > 其他**。
+- **p.8 吸入型**：★ 生物武器（看 **infectious、mortality** 兩條件）→ death。
+- **p.12 生物武器例**：炭疽、**天花、鼠疫**（天花絕跡後不再種**牛痘**；猴痘讓人重提）。
+- **p.13 *B. cereus***：**通常由食物進入（中毒）**、靠 **exotoxin**；圈 **spore-forming、motile**；**嘔吐型 ~2 hr、腹瀉型 ~6 hr**。
+- **p.15**：腹瀉型 enterotoxin 是 **pore-forming toxin → 打洞、Cl⁻ 流出 → diarrhea，not cAMP!!**（表格：emetic 潛伏 < 6 h（平均 2）、病程 8–10 h、**heat stable**；diarrheal > 6 h（平均 9）、病程 20–36 h、**heat labile**）。
+- **p.17 *Listeria***：★ **flagella、高度移動性**；**short rod**。
+- **p.19**：**可活在 macrophage（非絕對 → facultative）**、不被辨識、可跑全身、**cell-to-cell!**；**可在 1–45 °C 生長、耐酸鹼**。
+- **p.21 國考小哉問**：4 °C 冷藏增殖法 → ***Listeria monocytogenes***。
+- **p.26 *C. diphtheriae***：★ **人類為唯一宿主!!!**、**飛沫傳染**；有 cutaneous 型；咽炎、心內膜炎來自 **nontoxigenic strains**；biotype 看 p.39。★ **以人為唯一宿主（無人畜共通）的三途徑：性病、飛沫、經口**。
+- **p.27**：**tox gene** 由 **β 噬菌體**帶入；**AB toxin**。
+- **p.29 國考小哉問（抑制蛋白質合成）**：**60S** → Shiga toxin（*S. dysenteriae*）、Stx1/2（EHEC）；**EF-2** → **白喉毒素**、***P. aeruginosa* exotoxin A**。
+- **p.30 診斷** → **要證明白喉桿菌會產生白喉毒素**；Elek test 看**免疫沉澱線**。
+- **p.38 Capsule 總表**：多醣莢膜（*S. pneumoniae*、*N. meningitidis*、*S.* Typhi、Hib、GBS、*Klebsiella*、*E. coli* K1…）vs **蛋白莢膜只有 *B. anthracis*（poly-D-glutamic acid）與 *Yersinia pestis*（F1 protein）**。
+- **p.39 以人為唯一自然宿主**：糞口（*Shigella*、*S.* Typhi、*V. cholerae*、*H. pylori*）、呼吸道（*N. meningitidis*、***C. diphtheriae***、*M. pneumoniae*）、性病（*N. gonorrhoeae*、*T. pallidum*、*C. trachomatis*）。
+
 === slides ===
 # 上課 slides
 
