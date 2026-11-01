@@ -6046,9 +6046,10 @@
       }
     ],
     "answer": ["D"],
-    "explain": "TFH產生的細胞激素會影響 T-dependent B 細胞抗體 Isotype Switch 的方向IL-4 可以促進 IgE 分泌，抑制 IgM 分泌",
+    "explain": "TFH 以 CD40L–CD40 接觸 B 細胞，再分泌 cytokine 決定 isotype switch 換成哪一型（cytokine 促進特定 switch region 上游 promoter 轉錄，經 AID 完成 class switch recombination，只換 constant region）。IL-4 → IgG1、IgE → 選 D。\nClass switch 與 cytokine 對應：\n• IL-4 → IgG1、IgE（IL-13 也可促 IgE）\n• IFN-γ → IgG3、IgG2a\n• TGF-β → IgG2b、IgA\n• IL-21 → IgG3、IgG1、IgA\n• IL-5 → IgG1、IgA（考題答 IgA）\n(A) IFN-γ：TH1 cytokine，換成 IgG3／IgG2a，且抑制 TH2 與 IgE。(B) TGF-β：IgA（與 IgG2b）。(C) IL-6：促 plasma cell 分化與 TH17 分化，不決定 IgE switch。(E) IL-5：IgA，並活化 eosinophil。\n・W4-2 T cell-mediated immunity & cell cooperation 投影片 p.45（Fig 10.23 cytokine → isotype）；筆記：T 細胞活化「8. Isotype (class) switch → Cytokine 決定換成哪一型」。\n對照圖見下方「Class switch 與 cytokine 對應」。",
     "topics": ["TH 分化與細胞激素", "B 細胞活化／class switch／生發中心"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "figs": ["class-switch", "cytokine-isotype"]
   },
   {
     "id": "k113-tact-41",

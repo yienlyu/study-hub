@@ -232,10 +232,10 @@
 | **IFN-γ** | IgG3、IgG2a     |
 | **TGF-β** | IgG2b、**IgA**  |
 | **IL-21** | IgG3、IgG1、IgA |
-| **IL-5**  | IgG1、**IgA**（★ IgA 最重要） |
+| **IL-5**  | IgG1、**IgA**   |
 
 - 機制：cytokine **促進特定 switch region 上游 promoter 的轉錄**。
-- ★ **IL-5 → IgA 最重要**：表上 IL-5 雖然列 IgG1、IgA，考題（113 考古「IL-5 促使 isotype switch 為何種抗體」）答 **IgA**；IgG1 的代表是 IL-4。IgA switch 的主角仍是 **TGF-β**，IL-5 為輔助。
+- ★ **IL-5 → IgA 最重要**。IgA switch 的主角仍是 **TGF-β**，IL-5 為輔助。
 
 <div data-fig="cytokine-isotype"></div>
 

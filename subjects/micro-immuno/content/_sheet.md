@@ -1,23 +1,26 @@
 # 考前速記表
+
 <!-- 每張卡片以「## 標題」開頭；「@ch 章節id」加章節連結、「@fig 圖id」加觀念圖按鈕。內容全部整理自各章重點。 -->
 
 ## 細菌構造：必有 vs 不一定有
+
 @ch bact-structure
 @fig cell-wall
 | 必有 | 不一定有 |
 |---|---|
 | 細胞膜（無固醇）、nucleoid、**70S** ribosome | capsule、flagella、pili、plasmid、endospore、inclusion |
 
-| | G(+) | G(−) |
-|---|---|---|
-| PDG | 厚、多層 | 薄，在 periplasm |
-| 獨有 | teichoic / LTA | 外膜、**LPS**、porin |
-| LPS 三段 | — | **Lipid A**（毒性）→ Core（KDO）→ **O-antigen**（最多變） |
+|          | G(+)           | G(−)                                                      |
+| -------- | -------------- | --------------------------------------------------------- |
+| PDG      | 厚、多層       | 薄，在 periplasm                                          |
+| 獨有     | teichoic / LTA | 外膜、**LPS**、porin                                      |
+| LPS 三段 | —              | **Lipid A**（毒性）→ Core（KDO）→ **O-antigen**（最多變） |
 
 - Capsule 是**多醣**（炭疽例外：poly-D-glutamic acid）→ 唯一「非蛋白質」構造。
 - Fimbriae = 黏附、sex pilus = 接合、flagella = 運動（**H 抗原**）、inclusion = 儲存。
 
 ## 水平基因轉移
+
 @ch bact-genetics
 @fig hgt
 | | 媒介 | 接觸 | 關鍵字 |
@@ -29,6 +32,7 @@
 - Translation 不是 HGT；transposon 是「跳」不是「轉移」。
 
 ## 滅菌、消毒、防腐
+
 @ch sterilization
 | | 殺 endospore | 對象 |
 |---|---|---|
@@ -43,6 +47,7 @@
 - 70% 酒精比 95% 有效；glutaraldehyde 鹼性活化、用於內視鏡。
 
 ## 毒素與逃避免疫
+
 @ch pathogenesis
 | | Exotoxin | Endotoxin |
 |---|---|---|
@@ -55,6 +60,7 @@
 - Protein A（抓 IgG Fc）、IgA protease（Neisseria、肺炎鏈球菌）、C5a peptidase（GAS）。
 
 ## Staph / Strep 鑑別
+
 @ch staph-strep
 | 菌 | Catalase | 溶血 | 關鍵 |
 |---|---|---|---|
@@ -68,6 +74,7 @@
 - GAS 非化膿後遺症：**rheumatic fever**（咽喉炎後）、**AGN**（皮膚感染後）。
 
 ## 致病性 E. coli
+
 @ch enterobacteriaceae
 @fig ecoli-pathotypes
 | 型 | 疾病 | 機制 |
@@ -80,7 +87,9 @@
 | UPEC | **UTI 90%** | P pili |
 
 ## Neisseria · H. pylori · Vibrio
+
 @ch neisseria
+
 - N. gonorrhoeae：**IgA protease**、Opa、pili 抗原變異；NAAT 金標準；→ PID、不孕。
 - N. meningitidis：**莢膜 → 疫苗**、飛沫、鼻咽帶菌、LOS → DIC。
 - H. pylori：**urease**、VacA、CagA；~90% 潰瘍、胃癌；尿素呼氣試驗。
@@ -88,7 +97,9 @@
 - 腦膜炎三大菌（肺炎鏈球菌、腦膜炎雙球菌、H. influenzae）共通毒力 = **capsule**。
 
 ## Bacillus · Listeria · Corynebacterium
+
 @ch bacillus
+
 - 產孢子 G(+) 桿菌只有 **Bacillus（需氧）、Clostridium（厭氧）**。
 - B. anthracis：無鞭毛、莢膜 = poly-D-glutamic acid；**PA + EF = edema toxin（↑cAMP）**、**PA + LF = lethal toxin**；皮膚型最常見（黑痂）。
 - B. cereus：嘔吐型（炒飯、<6 h、耐熱）vs 腹瀉型（>6 h、不耐熱）。
@@ -96,6 +107,7 @@
 - C. diphtheriae：**β-phage 帶 tox**、EF-2、灰色偽膜；先 antitoxin 再抗生素。
 
 ## TLR 對照
+
 @ch innate
 | TLR | 位置 | Ligand |
 |---|---|---|
@@ -107,6 +119,7 @@
 | TLR9 | endosome | **unmethylated CpG** |
 
 ## 補體
+
 @ch innate
 @fig complement
 | | Classical | Lectin | Alternative |
@@ -120,13 +133,16 @@
 - 第一會合點 = C3 convertase；lectin 比較像 classical。
 
 ## 白血球遷移 · NK
+
 @ch innate
 @fig extravasation
+
 - **S → C → I**：Selectin（↔ 醣）→ Chemokine → Integrin（LFA-1 ↔ ICAM-1、VLA-4 ↔ VCAM-1）。CCR3 不是 integrin。
 - NK 抑制性受體：**CD94/NKG2A ↔ HLA-E**、**KIR（long tail，ITIM）↔ HLA-C**；看 **MHC I 下降**（missing self）。
 - 毒殺三招：FasL–Fas、TNF / LT、perforin + granzyme；**IFN-γ 與毒殺無直接關係**。
 
 ## 五種抗體
+
 @ch agab
 @fig ig-classes
 | | 結構 | 重點 |
@@ -138,13 +154,16 @@
 | IgE | monomer | 過敏、寄生蟲、FcεRI、無 hinge |
 
 ## 抗體多樣性
+
 @ch agab
 @fig vdj
+
 - 重鏈 V-D-J（**先 D–J 再 V–DJ**）；輕鏈 V-J（沒有 D），κ 先、失敗才 λ。
 - RSS **12/23 rule**；**RAG-1/2** 切、形成 hairpin → **Artemis** 打開（**P**）→ **TdT** 隨機加（**N**，不需模板）→ ligase IV。
 - 六大機制：germline V 多、V(D)J 重組、重輕鏈組合、gene conversion（人類沒有）、junctional、**SHM（只有 B 細胞）**。❌ gene cross-over 不是。
 
 ## MHC I vs II
+
 @ch mhc
 @fig mhc-structure
 | | MHC I | MHC II |
@@ -157,13 +176,16 @@
 | 基因 | HLA-A、B、C | HLA-DP、DQ、DR |
 
 ## 抗原處理
+
 @ch mhc
 @fig mhc-pathways
+
 - MHC I：ubiquitin → **proteasome**（LMP2/7）→ **TAP**（ATP）→ ER：calnexin → PLC（tapasin、calreticulin、ERp57）→ **ERAAP** 修剪。
 - MHC II：endosome 酸化 + cathepsins；**Ii** 擋槽 → 切剩 **CLIP** → **HLA-DM** 換上 peptide（**HLA-DO** 抑制）。
 - 例外：**cross-presentation**（DC，外源 → MHC I）、**autophagy**（內源 → MHC II）。
 
 ## 胸腺發育
+
 @ch tcell-dev
 @fig thymus-selection
 | 階段 | 標記 | 事件 |
@@ -177,8 +199,10 @@
 - 親和力：無 → neglect；低–中 → positive（MHC restriction）；中高 → Treg；太高 → clonal deletion。
 
 ## T 細胞活化
+
 @ch tcell-dev
 @fig t-signals
+
 - ① TCR–pMHC（CD4/CD8 帶 **Lck** → ITAM → **ZAP-70** → NFAT、AP-1、NF-κB → IL-2）
 - ② **CD28–B7**（沒有 → **anergy**）；誘導 IL-2 與 **CD25**
 - ③ cytokine → 分化方向
@@ -186,6 +210,7 @@
 - αβ T 90–99%；γδ T 無 MHC 限制、多 CD4⁻CD8⁻；TCR **沒有 SHM** 但多樣性 ~10¹⁸。
 
 ## TH 亞群
+
 @ch tcell-act
 @fig th-subsets
 | 亞群 | 誘導 | TF | 分泌 |
@@ -200,33 +225,39 @@
 - 互相抑制：IL-4 ⊣ TH1、IFN-γ ⊣ TH2、兩者 ⊣ TH17；黏膜 at-RA → pTreg、IL-6 → TH17。
 
 ## CTL
+
 @ch tcell-act
 @fig granzyme-apoptosis
+
 - 活化：DC 大量 B7 直接活化，或 **CD4 幫忙**（CD40L → APC ↑B7、4-1BBL）。
 - 武器：**perforin、granzymes、granulysin、FasL**；serial killing，不殺旁邊未感染細胞。
 - Granzyme B → **Bid → tBid → Bax** → cytochrome c；caspase 3 → I-CAD → **CAD 切 DNA**。
 
 ## Class switch · B 細胞
+
 @ch tcell-act
 @fig class-switch
+
 - 需要 **CD40L（TFH）↔ CD40（B）** + cytokine + **AID**；只換 constant region。
 - **AID：C → U**（IL-4 + CD40 誘導）→ SHM 與 class switch；IgM/IgD 靠 **RNA splicing**。
-- **IL-4 → IgG1、IgE**；IFN-γ → IgG3、IgG2a；**TGF-β → IgG2b、IgA**；IL-21 → IgG3、IgG1、IgA；IL-5 → IgG1、**IgA（★ IgA 最重要）**。
+- **IL-4 → IgG1、IgE**；IFN-γ → IgG3、IgG2a；**TGF-β → IgG2b、IgA**；IL-21 → IgG3、IgG1、IgA；IL-5 → IgG1、**IgA**。
 - **CD40L 缺陷 → X-linked hyper-IgM**（CD4 T 數目正常）。
 - TI-1（LPS，polyclonal、TLR）、TI-2（polymeric 莢膜多醣）→ 主要 **IgM**、記憶差；嬰兒對莢膜菌易感。
 - Germinal center：SHM、class switch、**記憶 B 細胞**。
 
 ## 真菌
+
 @ch fungi
+
 - 細胞壁 **chitin + β-glucan**（無 PDG、LPS）；膜 **ergosterol**；最適 pH 4–6、25–30°C。
 - **Dimorphic（25°C mold / 37°C yeast）**：Histoplasma、Blastomyces、Coccidioides、Paracoccidioides、P. marneffei、**Sporothrix**。
 - 無隔菌絲 = **Zygomycota**；clamp connection = Basidio；**Cryptococcus 是擔子菌唯一致病酵母**。
 - Candida：**germ tube**、pseudohyphae；Cryptococcus：**鴿糞、吸入、腦膜炎、India ink、厚莢膜**。
 
-| 藥 | 標的 |
-|---|---|
-| Amphotericin B、Nystatin | 結合 **ergosterol** 打孔 |
-| Azoles | 14-α-demethylase |
-| Terbinafine | squalene epoxidase |
-| **Echinocandins** | **β-1,3-glucan synthase**（與 ergosterol 無關） |
-| Flucytosine | DNA / RNA 合成 |
+| 藥                       | 標的                                            |
+| ------------------------ | ----------------------------------------------- |
+| Amphotericin B、Nystatin | 結合 **ergosterol** 打孔                        |
+| Azoles                   | 14-α-demethylase                                |
+| Terbinafine              | squalene epoxidase                              |
+| **Echinocandins**        | **β-1,3-glucan synthase**（與 ergosterol 無關） |
+| Flucytosine              | DNA / RNA 合成                                  |
