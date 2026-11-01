@@ -1,11 +1,11 @@
 === summary ===
-# 免疫學基本概念
+# 免疫學基本概念（依百十四共筆整理、對照百十三共筆，陳玫潔）
 
 ## 1. 免疫的本質
 - Immunity 源自拉丁文 *immunitas*（羅馬元老豁免權）→ 免於傳染病。
 - 核心：**區分 self 與 nonself**——對 nonself 能摧毀，對 self 不能。
 - 病原位置決定反應：**胞內 → cell-mediated（T 細胞）**；**胞外 → humoral（抗體）**。
-- **Nude mouse（nu/nu）**：自發突變、**無胸腺（athymic）**、無毛 → 無 T 細胞、無法產生免疫反應 → 可做腫瘤、移植實驗（頸部長出鳥羽毛）。
+- **Nude mouse（nu/nu）**：自發突變、**無胸腺（athymic）**、無毛 （thymic dysgenesis）→ 無 T 細胞、移植外來組織不易排斥 → 用於腫瘤移植、異種移植與免疫研究（頸部長出鳥羽毛）。
 
 ## 2. 先天 vs 後天免疫
 | | Innate | Adaptive (specific / acquired) |
@@ -17,7 +17,8 @@
 | 組成 | 屏障、補體、吞噬細胞、NK、ILC | B 細胞（抗體）、T 細胞 |
 
 - 先天屏障：Anatomic（皮膚、黏膜）、Physiological（溫度、低 pH、補體、**CRP**、cytokines、lysozyme、interferon）、Phagocytic、Inflammatory。
-- 三道防線（本課定義）：屏障 → 免疫分子 / 先天免疫細胞 → 專一性免疫。
+- **三道防線**（Janeway）：① 解剖／物理屏障（皮膚、口咽黏膜、呼吸上皮、腸道）② 化學屏障與免疫分子（補體 C3、**defensins**、**REG3γ**、CRP）＋先天免疫細胞（macrophage、granulocyte、NK）③ 後天免疫（B、T）。①② 都屬先天免疫。
+  - Defensin 屬 AMP，攻擊細胞膜使細胞質外溢；**REG3γ** 由小腸細胞分泌，針對 **G(+) 菌的 peptidoglycan**。
 
 <div data-fig="clonal-selection"></div>
 
@@ -28,7 +29,9 @@
   - Eosinophil：寄生蟲（抗體包覆）。
   - Basophil / Mast cell：組織胺、過敏。
   - **Monocyte → Macrophage**：第一個被發現的吞噬細胞；馬蹄形核；血中約 2 天後入組織；Kupffer cell（肝）、microglia（腦）；分泌 **IL-1、TNF-α**；APC。
-  - **Dendritic cell**：吞噬較弱但**抗原呈現最強**（MHC I + II），連結先天與後天。
+  - **Dendritic cell**：吞噬較弱但**抗原呈現最強**（MHC I + II），連結先天與後天。**未成熟 DC**（周邊組織）吞噬強；接觸病原成熟後吞噬下降，經淋巴管到淋巴結活化 **naïve T**。
+  - **Monocyte-derived DC（MoDC）**：monocyte 平常不太會變 DC；同時加 **GM-CSF＋IL-4** 等多種 growth factor 才分化成 DC，只加一種只會變 macrophage。
+  - Granulocytes = neutrophil、eosinophil、basophil、mast cell；macrophage 染色可見顆粒但**不算顆粒球**。
 - **Lymphoid lineage**：B、T、**NK（large granular lymphocyte；perforin/granzyme；CD16 → ADCC）**、ILC。
   - Chediak-Higashi syndrome：NK、巨噬細胞、嗜中性球功能受損、淋巴瘤增加。
 - Phagocytes：neutrophil、eosinophil、monocyte/macrophage、DC（**不含 basophil**）。
@@ -36,7 +39,8 @@
 <div data-fig="immune-cells"></div>
 
 ## 4. 感測與發炎
-- **PAMPs**（病原體分子模式）被 sensor cell 上的 **PRRs**（TLRs、NOD…）辨識 → 分泌 **cytokines、chemokines** → 血管擴張、通透性↑、黏附分子↑ → 紅腫熱痛、募集 neutrophil、monocyte。
+- **PAMPs**（病原體分子模式）被 sensor cell 上的 **PRRs**（TLRs、NOD…）辨識 → 分泌 **cytokines、chemokines** → 內皮活化、黏附分子↑、通透性↑ → 紅腫熱、募集 neutrophil、monocyte 吞噬並釋放發炎介質。
+- 例：**阿茲海默症**——以往認為是 amyloid β 累積，現在認為腦部潛在感染影響 **microglia** 吞噬 amyloid β 的能力；microglia 的 TLR 可被活化。
 
 ## 5. 淋巴球辨識（CD 抗原）
 | CD | 細胞 |
@@ -49,8 +53,9 @@
 
 > 口訣：**4 × 2 = 8 × 1**（CD4–MHC II、CD8–MHC I）。
 
-- T 細胞：**αβ（~95%）** vs **γδ（~5%，黏膜上皮）**；TH（CD4）、TC（CD8）、Ts/Treg。
-- TH 分泌 IL-4、5、6、10 → 刺激 B；TC 分泌 IL-2、IFN-γ → 毒殺。
+- T 細胞：**αβ（~95%）** vs **γδ（~5%，腸道黏膜上皮）**；初始 αβ T 同時有 CD4、CD8（double positive），之後分成 TH（CD4）、TC（CD8），另有 **Ts**（CD8 suppressor，關掉專一性反應）。
+- **TH1** 分泌 **IL-2、IFN-γ**（細胞毒性與發炎）；**TH2** 分泌 **IL-4、5、6、10**（刺激 B 細胞）。
+- 外觀只能分出淋巴球（核大質少）與顆粒球（differential count），**T、B 外觀一樣**，要靠 **CD 抗原**（Cluster of Designation，2014 年已編到 CD371）。
 - **BCR**：membrane Ig + **Igα（CD79a）/ Igβ（CD79b）**；周邊 B：IgM、IgD（以及 IgG/A/E）；腸黏膜 B：IgA。B 也是 APC（MHC II、CD40）。
 
 <div data-fig="bcr-tcr"></div>
@@ -62,10 +67,14 @@
 | 性質 | 蛋白、醣、脂、DNA；**連續或不連續**；表面、親水 | **連續線性 peptide**（一級結構） |
 | 需 MHC？ | ❌ | ✅ |
 
+- BCR 與 TCR 都有 N 端 variable region、C 端 constant region；BCR 有輕重鏈、呈 Y 字形。T epitope 多位於多肽鏈中段，APC 分解後放到 MHC 上給 TCR 辨識。
+
 ## 7. 淋巴器官
-- **Primary**：**Bone marrow（B 成熟）**、**Thymus（T 成熟）**、fetal liver → 基因重組產生受體、clonal deletion（去除 autoreactive）。
+- **Primary（central）**：鳥類 **bursa of Fabricius**、**bone marrow（B 成熟）**、**thymus（T 成熟，青少年最旺盛、隨年齡退化）** → 受體基因片段重排（repertoire 至少 **10¹⁰** 種）、**clonal deletion（負向選擇，約九成 immature lymphocyte 被清除）** → 送出 naïve lymphocyte。
   - 2019 Lasker：Max Cooper（**bursa of Fabricius → B**）、Jacques Miller（**thymus → T**）。
-- **Secondary**：spleen、lymph nodes、tonsils、appendix、Peyer's patches、MALT（GALT、BALT）→ **clonal selection、產生專一性反應**。
+- **Secondary（peripheral）**：spleen、lymph nodes、tonsils、appendix、Peyer's patches、MALT（GALT、BALT）→ 真正產生專一性反應的地方（antigen-dependent）：**clonal selection**（挑出高親和力的 clone 增殖分化成 effector cells，極少數留在 G0 成為 **memory cells**）。
+  - **Clonal selection hypothesis**：每個淋巴球有獨特受體；只用重排過的基因、關掉另一個等位基因（**allelic exclusion**）；周邊也會再清除自體反應的淋巴球。
+  - 感染位置決定在哪活化：菌血症由**脾臟**過濾血液；黏膜、腸道感染由 **MALT**。淋巴液經**胸管**匯入左鎖骨下靜脈。
   - **Spleen**（過濾血液、全身）：white pulp — **PALS = T 區**、follicle = B 區 → germinal center（memory B、**FDCs**、macrophage）、marginal zone；red pulp。
   - **Lymph node**（過濾淋巴、局部）：cortex follicle = B；**paracortex = T**；medulla 混合；naïve 淋巴球經 **HEV**（L-selectin）進入；2018 發現 **SPFs（subcapsular proliferative foci）**，memory B 在此待命。
 
@@ -75,11 +84,12 @@
 - 初次 vs 二次反應：二次較快、較強（記憶細胞）→ 疫苗原理。
 
 ## 8. 免疫學應用（slides 最後幾頁）
+- 初次反應曲線：lag（重新處理、呈現抗原）→ log（抗體指數上升）→ stationary → 下降只留 memory cell；**二次反應幾乎沒有 lag、上升快又高** → 疫苗原理。
 - **Immune checkpoint blockade**（2018 諾貝爾：James Allison — **CTLA-4**；Tasuku Honjo — **PD-1**）：Keytruda（pembrolizumab）、Opdivo（nivolumab）→ 詳見下方第 9 節。
 - **Herceptin**（2019 Lasker）：第一個阻斷致癌蛋白 **HER2** 的單株抗體 → 乳癌。
 - **Modified mRNA vaccine**（2021 Lasker：Karikó、Weissman）→ COVID-19。
 - COVID-19 Dashboard（2022 Lasker：Lauren Gardner）。
-- **CAR-T**（Carl June）：Kymriah（2017，B-ALL，≤25 歲）、Yescarta（大 B 細胞淋巴瘤）；CAR = 抗體 scFv（如 **anti-CD19**）+ 共刺激域（**4-1BB**）+ **CD3ζ**；繞過 MHC 限制。
+- **CAR-T**（Carl June）：retroviral vector 把 CAR 基因送入 T 細胞，**不受 MHC 限制**，直接辨識抗原；**Kymriah**（2017.8 Novartis，anti-CD19，兒童與青年 B-ALL、DLBCL）、**Yescarta**（2017.10 Gilead，DLBCL、PMBCL、FL）；第一位治癒的兒童 **Emily Whitehead**（CRS、IL-6 飆高 → IL-6 抑制劑後好轉，多年後 CAR-T 仍在體內）；CAR = 抗體 scFv（如 **anti-CD19**）+ 共刺激域（**4-1BB**）+ **CD3ζ**；繞過 MHC 限制。
   - 🔥 **高頻考點**：CAR 的三個零件 = **scFv（anti-CD19）+ 4-1BB + CD3ζ**；考古常把 **CTLA-4**（checkpoint）混進選項當錯誤答案。最常見副作用 = **CRS**（用 IL-6 抗體處理）。
 
 <div data-fig="car-t-production"></div>
@@ -176,10 +186,11 @@
 - Nude mouse = 無胸腺 → 無 T（連帶 B 功能差）；xenograft / allograft / isograft 名詞。
 - B vs T epitope：只有 T epitope 可寫成胺基酸序列。
 
-## 📒 百十四共筆對照（W02-1）
-- **樹突細胞的取捨**：未成熟 DC（周邊組織）**吞噬強**；接觸病原、成熟後吞噬下降，經淋巴管到淋巴結，變成**呈現能力最強**的 APC（同時有 MHC I、II），負責活化 naïve T。
-- **CAR-T 最常見的副作用：cytokine release syndrome（CRS）**。
-- 抗原受體庫（repertoire）至少要 **10¹⁰** 種，主要靠受體基因片段**重排**產生。
+## 百十三共筆對照
+- 百十三只寫「TH 可依分泌的 cytokine 分成許多種類」，沒有列出 **TH1（IL-2、IFN-γ）／TH2（IL-4、5、6、10）**；這組配對是百十四補上的。
+- 百十三把 **fetal liver** 列為初級淋巴器官；百十四只說出生前造血在卵黃囊、肝、脾。
+- 百十三在脾臟另寫 **marginal zone**、在淋巴結寫 naïve 淋巴球經 HEV 進入要靠 **L-selectin**；百十四只說 HEV 擋住已活化的細胞回到淋巴結。
+- 百十三列了 checkpoint 藥名（**Keytruda／pembrolizumab、Opdivo／nivolumab**）與 2022 Lasker 的 **COVID-19 Dashboard**；百十四只寫 Allison（CTLA-4）、Honjo（PD-1／PD-L1）的發現與 2019 Lasker Herceptin。
 
 ## ⚠️ 陷阱整理
 | 容易選錯 | 正確 |

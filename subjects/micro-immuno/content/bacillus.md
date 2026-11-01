@@ -1,5 +1,7 @@
 === summary ===
-# Bacillus、Listeria、Corynebacterium（依 113 共筆整理，鍾筱菁）
+# Bacillus、Listeria、Corynebacterium（依百十三共筆整理，鍾筱菁）
+
+> 百十四共筆（W6-2）還沒出，暫依百十三共筆整理；出來後改成依百十四整理、對照百十三。
 
 > 產孢子的 G(+) 桿菌只有兩屬：**Bacillus（需氧）**、**Clostridium（厭氧）**。*Listeria*、*Corynebacterium*、*Propionibacterium* 都**不產孢子**。
 

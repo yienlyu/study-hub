@@ -1,0 +1,15 @@
+{
+ "subjects/biochem/data/questions-gongbi.json": {
+  "fields": {
+   "g18-29": {
+    "explain": "(A) 正解，維生素 B3 缺乏可能導致癩皮病（pellagra）\n(B) 缺乏會神經病變和 Microcytic anaemia\n(C) 缺乏會 Megaloblastic anemia \n(D) 缺乏會惡性貧血（pernicious anemia）註：維生素 B3 是 NAD 與 NADP 的前驅物"
+   },
+   "g23_1-06": {
+    "explain": "根據老師上課的口訣：二乾姨嘗試雞汁（2 肝胰腸 4 肌脂）→ GLUT2 在肝臟、胰臟、小腸（加上腎小管）；心臟屬於「肌」，用的是 GLUT4 → 選 B。\n\n| 運輸蛋白 | 所在位置 |\n|---|---|\n| GLUT1 | 胎兒組織、紅血球、血腦障壁組織內皮細胞 |\n| GLUT2 | 肝臟、胰臟 β 細胞、海馬迴、小腸內皮細胞、腎小管 |\n| GLUT3 | 腦、精子、胚胎、白血球、癌細胞 |\n| GLUT4 | 骨骼肌、心肌、脂肪細胞 |"
+   },
+   "g23_1-26": {
+    "explain": "長期饑餓的人體內會有較多的酮體，酮體主要有 β-hydroxybutyrate、acetoacetate、acetone。而 β-hydroxybutyrate 的增加比 acetoacetate 更顯著，因其為主要產生能量者。"
+   }
+  }
+ }
+}

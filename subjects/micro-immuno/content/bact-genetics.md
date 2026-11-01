@@ -1,13 +1,15 @@
 === summary ===
-# 細菌遺傳與生物技術
+# 細菌遺傳與生物技術（依百十四共筆整理、對照百十三共筆，黃姿雯）
 
 ## 1. 基因體
 - **Genome** = 染色體 + 質體上所有基因。
 - 染色體：**單一、環狀、雙股 DNA，附著於細胞膜，haploid**（例外：*Streptomyces* 線形、*V. cholerae* 多條）。
+- 細菌基因結構：**約九成是 coding gene**（人類只有少數百分比），一組 promoter／operator 操控多個 coding genes。
 - **Nucleoid**：染色體 DNA + 類組蛋白的蛋白質 + 少量 RNA（無核膜、無 histone）。
-- **Plasmid**：染色體外、雙股環狀、**可獨立複製（replicon）**；G+、G− 都有；功能：**抗藥性基因傳播**、致病因子（外毒素）、重金屬抗性（Hg、Ag 還原酶）、pili/fimbriae。
+- **Plasmid**：染色體外、雙股環狀、**可獨立複製（replicon）**；G+、G− 都有，不同質體可共存；數量、大小、組成不定。**怎麼分辨質體？移除後細菌仍能生存的就是質體**（大小不可靠）。功能：**抗藥性基因傳播**、致病因子（外毒素）、重金屬抗性（Hg、Ag 還原酶）、pili/fimbriae。
 
 ## 2. DNA 複製
+> 百十四共筆：slides 只快速帶過，細節同真核（半保留、領先股／延遲股）；老師說「自己回去讀，考還是會考」。以下細節依 slides。
 - 起點 **oriC**（富含 A=T，DnaA 辨識）→ **雙向（bidirectional）**、**半保留**、兩個複製叉。
 - Helicase + gyrase 解旋；DNA 只能 **5'→3'** 合成。
 - Leading strand 連續；Lagging strand：primase 做 RNA primer → Pol III 做 Okazaki fragments → **Pol I 去除 primer 補 DNA** → ligase 接合。
@@ -15,6 +17,7 @@
 - 終止：Topo IV、**dif / XerCD** 分離子代染色體。
 
 ## 3. 基因表現與調控
+> 百十四共筆只寫到「無核 → 一邊轉錄一邊轉譯」；operon 調控老師改用遠距補充資料，以下依 slides。
 - **細菌 transcription 與 translation 同時進行**（無核膜）、polyribosome；無 intron；mRNA **不需修飾**即可轉譯。
 - **Operon**：promoter + operator + 多個 structural genes（cistrons）→ **polycistronic mRNA，一起轉錄**。
 - **60–80% 基因為 constitutive（不受調控）**，如糖解酶。
@@ -38,6 +41,7 @@
 - **Site-specific recombination**：需 **recombinase + 兩段特定序列** → λ phage 嵌入（attP × attB，lysogenic）、***Salmonella* flagellin phase variation**。
 
 ## 5. 突變
+- 生物基因變化三途徑：**基因縮減**（胞內菌、內共生菌刪掉宿主已代勞的基因）、**水平交換**、**突變／重排**。
 - 定義：穩定、可遺傳的 DNA 改變。自發率約 **10⁻⁹（E. coli）**；mutator genes 破壞修復而增加突變率。
 - 外因：物理（UV → **pyrimidine dimer**、X-ray）、化學（DNA-reactive、**base analogues**、**intercalating agents → frameshift**）。
 - DNA 層級：substitution（**transition**：嘌呤↔嘌呤 / 嘧啶↔嘧啶；**transversion**：嘌呤↔嘧啶）、insertion/deletion。
@@ -45,13 +49,13 @@
 - 🧮 **計算題技巧**：第 n 個核苷酸屬於第 ⌈n/3⌉ 個密碼子。
   - 1 個 nt deletion at 76：76/3 = 25 餘 1 → 前 25 個 aa 不變，**之後全變**。
   - 3 個 nt deletion at 121–123：剛好是第 41 個密碼子 → **只少第 41 個 aa**，其餘不變（in-frame）。
-- 修復：direct（**photolyase**，光修復）、excision、recombinational（SOS 後）、error-prone。
+- 修復（百十四共筆註明上課沒講）：**direct**（酵素直接還原，如 **photolyase**）、**excision**（切掉受損段、用對面股重做）、**recombinational**（先跳過受損處，之後從姊妹染色體補）、**error-prone**（沒有模板也先亂塞核苷酸接起來，走投無路的方法）。
 
 ## 6. 水平基因轉移（HGT）
 
 | 方式 | 媒介 | 是否需接觸 | 關鍵字 |
 |---|---|---|---|
-| **Transformation** | 環境中裸露 DNA | ❌ | **competence**、同源重組、對 nuclease 敏感 |
+| **Transformation** | 環境中裸露 DNA（通常來自死掉散開的細菌） | ❌ | **competence**、同源重組、對 nuclease 敏感 |
 | **Conjugation** | 質體，**sex pilus**（G−） | ✅ 直接接觸 | **抗藥性質體傳遞最重要途徑**；G+ 靠黏性物質 |
 | **Transduction** | **噬菌體（phage）** | ❌ | generalized（任何片段）vs specialized（插入點附近） |
 | Transposition | Transposon（jumping gene） | — | 細胞內位置移動；transposase（site-specific） |
@@ -62,19 +66,22 @@
 
 <div data-fig="transposon"></div>
 
-- 臨床：**MRSA + VRE 之 vanA → VRSA / MVRSA**。
+- 人體的轉位子大多處於去活化狀態；轉位常造成基因插入、改變表現。
+- 臨床：**MRSA 與 VRE 水平轉移**得到抗 vancomycin 基因（vanA）→ **VRSA / MVRSA**，多重抗藥難治療。
 - ⚠️ Translation 不是 HGT。
 
 ## 7. 生物技術
-- **Recombinant DNA**：restriction enzyme 切 → ligase 接到 vector → 轉入 *E. coli*。
+> 老師說生物技術是補充，「考試就不考了」。
+- **Recombinant DNA**：restriction enzyme（細菌抵抗外來 DNA 的第一道防線）切 → agar 電泳純化片段 → **DNA ligase** 接合 → 轉殖回 *E. coli* 繁殖表現。
 - **PCR**：denaturation（90–95°C）→ annealing → extension（~72°C，Mg²⁺）；需 primers、dNTPs、thermostable polymerase、template；指數放大。
 
 <div data-fig="pcr"></div>
 
-- **Sanger**：**ddNTP（缺 3'-OH）終止延長**；dye-terminator + 毛細管電泳，讀長約 800 bp。
-- **NGS（illumina）**：massive、parallel、sequencing-by-synthesis。
+- **Sanger**（dideoxy chain-termination）：**ddNTP（缺 3'-OH）終止延長**；四管各加一種 ddNTP → 每段差一個鹼基 → 高解析電泳（越短跑越遠）。**Dye-terminator**：四色螢光 ddNTP＋毛細管電泳＋雷射判讀。
+- **Shotgun sequencing**：分離細菌 DNA → 限制酶切片段 → 放進人工質體 → 定序 → 拼接。
+- **NGS（illumina）**：massive（一次百萬個分子）、parallel、sequencing-by-synthesis；和 Sanger 一樣用終止核苷酸，但每輪後以化學物**回復 3'-OH** 再進行下一輪；帶動**精準醫療**。
 - **16S rRNA amplicon sequencing**：9 個變異區 V1–V9，常用 **V3–V4** → 分析菌相組成。
-- **CRISPR-Cas9**：細菌的後天免疫（specific、memory）；spacer 記錄入侵 DNA；crRNA + tracrRNA（→ sgRNA）引導 Cas9 切 DSB；PAM 防止切到自己；修復：**NHEJ → gene disruption**、**HDR → gene editing**（2020 諾貝爾化學獎）。
+- **CRISPR-Cas9**：細菌的後天免疫（specific、memory）；spacer 記錄入侵 DNA；crRNA + tracrRNA（→ sgRNA）引導 Cas9 切 DSB；PAM 防止切到自己；修復：**NHEJ → gene disruption**、**HDR → gene editing**（2020 諾貝爾化學獎）。流程：第一次入侵的 DNA 插入 CRISPR 成新 spacer → 再入侵時轉錄 pre-crRNA → 與 tracrRNA、Cas9 結合並切成成熟 crRNA → 互補辨識、Cas9 切割。現況：倫理問題，**不能用於人類胚胎**；動植物已廣泛應用，人體仍在初期試驗，未來可治單基因罕病。
 - 應用：大腸桿菌生產 insulin、interferon；表面蛋白疫苗；基因治療。
 
 ## 🎙️ 上課錄影重點（黃姿雯，09/11 + 補充影音）
@@ -130,3 +137,8 @@
 ## 🎙️ 老師課堂提示
 - 錄影中老師明講：**生物技術部分「考試就不考了」**、「考試的部分就是我講的我才會考」；DNA 複製自己讀但**會考**。
 - 必記：HGT 三機制、plasmid 判斷（可丟棄仍存活）、operon = polycistronic mRNA、transposon 需寄生於可複製分子。
+
+## 百十三共筆對照
+- 百十三共筆把 **DNA 複製**寫得較細：起點 **oriC**（DnaA 辨識）、Okazaki fragment 與 **Pol I** 去 primer、終止時 **Topo IV、dif／XerCD** 分離子代染色體；百十四只說細節同真核。
+- 百十三有完整的 **operon 調控**：**60–80% 基因為 constitutive**、**lac operon**（allolactose 解除 repressor、cAMP–CAP 正調控）、**trp operon**（corepressor、**attenuation**）；百十四共筆沒寫（老師改用遠距補充資料）。
+- 百十三另寫自發突變率約 **10⁻⁹**、transformation 需 **competence**、transduction 分 **generalized／specialized**，以及 16S rRNA 定序常用 **V3–V4** 區。

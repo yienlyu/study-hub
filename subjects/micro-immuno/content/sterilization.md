@@ -1,5 +1,7 @@
 === summary ===
-# 滅菌、消毒與防腐
+# 滅菌、消毒與防腐（依百十四共筆整理、對照百十三共筆，黃姿雯）
+
+> 百十四共筆：老師說這章**大概考三題**，重點是**怎麼選三種方法**、**對抗的是哪種病原體**；作用機制不用特別記。
 
 ## 1. 三個定義（必考）
 | | 定義 | 能否殺 **endospore** | 對象 |
@@ -8,7 +10,8 @@
 | **Disinfection 消毒** | 殺死 vegetative pathogens | ❌（high-level 例外，接近滅菌） | **無生命物品** |
 | **Antisepsis 防腐** | 減少**皮膚（活組織）**上的微生物 | ❌ | 活組織 |
 
-- Antiseptics 可當 disinfectants，但 disinfectants 不一定能當 antiseptics（對組織有毒）。
+- Disinfection 嚴格定義是處理**非活體**（環境、器械、表面）；antisepsis 用化學藥劑處理**活體組織**（皮膚、黏膜、傷口），殺菌時不能傷到人體細胞，本質上是 disinfection 的一種 → **antiseptic 一定是 disinfectant，disinfectant 不一定是 antiseptic**（對組織有毒）。
+- **抵抗力較強、要用高強度方法的**：**prion**、**endospore**（耐熱、耐乾、耐消毒劑）；一般病原體低階消毒即可。
 - 作用機制：蛋白變性、化學修飾蛋白/核酸（**alkylating / oxidizing**）、破壞細胞膜。
 
 ## 2. 物理方法
@@ -17,10 +20,10 @@
 |---|---|---|
 | Incineration | 火焰、電熱圈 | 滅菌 |
 | **Hot-air oven（乾熱）** | 150–180°C；**160–170°C 60–90 min** | 滅菌；耐熱物品（玻璃、金屬、粉末） |
-| **Autoclave（濕熱）** | **121°C、15 psi、10–40 min** | 滅菌；紗布、器械、培養基 |
+| **Autoclave（濕熱）** | **121°C、15 psi、10–40 min（最常見 20 min）**；密閉加水產生蒸氣、壓力上升使溫度上升 | 滅菌；紗布、器械、培養基 |
 | Flash sterilization | **134°C、3 min** | 滅菌 |
 | Boiling | 100°C 30 min | 消毒（孢子存活） |
-| **Pasteurization** | LTLT 63–66°C 30 min；HTST **71.6°C 15 s**；UHT **>135°C 2–5 s（滅菌牛奶）** | 消毒（牛奶） |
+| **Pasteurization** | LTLT 63–66°C 30 min；HTST **71.6°C 15 s**；UHT **>135°C 2–5 s** | **消毒**（液體、乳製品）：去除牛型分枝桿菌、布氏桿菌等人畜共通菌，不能 100% 殺光；鮮乳保存約 10–14 天，UHT 保久乳約 1 年 |
 | **Ionizing radiation**（γ、X、cathode） | 穿透力強、打斷 DNA | **滅菌**：醫材、食品 |
 | **UV（nonionizing）** | **pyrimidine dimer**；穿透力差、需直接照射；傷人 | 消毒 |
 | Filtration | **0.22–0.45 μm**；HEPA | 化療藥物（滅菌）、BSC、手術室 |
@@ -55,26 +58,29 @@
 <div data-fig="slide-autoclave"></div>
 
 ## 3. 化學方法
+- 消毒用化學品：烷基化（**ethylene oxide**、**aldehydes**）、氧化劑（O₃、peracetic acid、H₂O₂）、halogens、phenolics、quaternary ammonium、alcohols。**醫院最常用的是環氧乙烷與醛類**（老師）。
+- 選擇時考慮：要做什麼、處理多久、物品會不會被破壞、消毒劑等級。
 - **Alkylating**：**Ethylene oxide（ETO）**（>10.8°C 為氣體、易爆 → 用 CO₂/N₂ 稀釋、低溫、可大量、需通氣時間）、**Aldehydes**（glutaraldehyde / formaldehyde，**cold sterilization**）。
 - **Oxidizing**：O₃、**peracetic acid（產物無毒）**、**H₂O₂（10–25%、55–60°C）**、**Plasma gas**（ionized H₂O₂ / peracetic acid；取代 ETO；**塑膠植入物、隱形眼鏡、人工裝置**；貴）。
 - **Supercritical CO₂**：兼具液體溶解力與氣體低表面張力；**45°C**、臨界點 **31.1°C、73.8 atm**；食品、醫療移植物（骨、肌腱）。
-- **Glutaraldehyde**（sporicidal、high-level）：**鹼性 pH 較活化（2% + 0.3% NaHCO₃）**、會被有機物失活（先清洗）、活化後保存 **14 天**、用於**內視鏡**、呼吸治療器材；CIDEX-OPA（0.55% OPA）。
+- **Glutaraldehyde**（sporicidal、high-level）：毒性比 ETO 低；**一定要在鹼性環境使用（2% + 0.3% NaHCO₃）**、**遇有機物會被去活化**（先清洗）、活化後保存 **14 天**、用前要把滅菌劑清乾淨；用於**內視鏡**、呼吸治療器材；CIDEX-OPA（0.55% OPA）。
+- O₃、peracetic acid 對人毒性低、可短時間滅菌；H₂O₂ 適用於**塑膠製品、隱形眼鏡、手術用人工裝置**；plasma 需專用儀器、貴，可處理金屬與塑膠器械、**關節鏡／腹腔鏡**。
 
 ## 4. 消毒劑等級
-| 等級 | 可殺 |
-|---|---|
-| High | G+、G−、**spores**、**M. tuberculosis** |
-| Intermediate | **M. tuberculosis**、多數病毒與真菌，少數孢子 |
-| Low | 多數細菌與真菌，**不能殺 MTB 與孢子** |
+| 等級 | 可殺 | 用途 |
+|---|---|---|
+| High | G+、G−、**spores**、**M. tuberculosis**（幾乎等於滅菌） | 無法承受滅菌的**侵入性**品項 |
+| Intermediate | **M. tuberculosis**、vegetative bacteria、多數病毒與真菌，只清除少數孢子 | 不太可能被上述物質汙染的表面或儀器（**半關鍵性**儀器） |
+| Low | 多數細菌與真菌，**不能殺 MTB 與孢子** | 不穿過黏膜、不進入無菌組織的器具 |
 
 <div data-fig="resistance-ladder"></div>
 
 <div data-fig="slide-disinfectant-levels"></div>
 
 ## 5. 常用消毒 / 防腐劑
-- **Alcohol（70%，intermediate）**：溶解膜脂、凝固蛋白；**70% 比 95% 有效**；揮發快無殘留、易燃、被有機物失活。
-- **Phenolics（low–intermediate）**：不易被有機物降解 → 粗消毒；殺病毒、孢子差。
-- **Halogens**：氯（漂白水；自來水、泳池）、**Povidone-iodine**（穩定、對組織無毒、貴）。
+- **Alcohol（70%，intermediate）**：又親水又疏水，能進入並破壞細菌表面；**70% 比 95% 有效**；便宜、水溶性，廣泛用於皮膚；缺點是揮發快無殘留、易燃、被有機物失活。
+- **Phenolics（low–intermediate）**：澄清、可溶、不刺激皮膚；不易被有機物分解 → 大範圍去汙（gross decontamination）；殺病毒、孢子差。
+- **Halogens**：氯（漂白水；自來水、泳池）、**Povidone-iodine**（對組織傷害小、對組織與金屬穩定、低毒、比其他碘液貴、**臨床最常用**）。
 - **Chlorhexidine（biguanide）**：一個氯 + 兩個 phenolic rings；低毒、快速、不深入組織；殺 G+ G− 但**不殺孢子**；0.2%（漱口抗牙菌斑）、0.4%（刷手）、2%（消毒）。詳見下方。
 - Quaternary ammonium（cationic detergents）：破壞膜。
 
@@ -169,3 +175,8 @@
 - 老師估計本章「**考試大概三題**」；不用記作用機制細節。
 - 點名要記：**濕熱 / autoclave 條件**、**chlorhexidine**、70% 酒精為何最有效。
 - 易混：pasteurization（消毒，鮮乳）vs UHT（滅菌，保久乳）；γ ray（滅菌）vs UV（消毒）；滅菌膠帶 vs 生物指示劑。
+
+## 百十三共筆對照
+- 百十三與百十四的內容幾乎一樣，差在幾處：百十三有 **flash sterilization（134°C、3 min）**，百十四沒寫；百十三寫 pasteurization 的目的是「殺死會造成變質的微生物、又不減損風味」，百十四則強調去除人畜共通菌、不能 100% 殺光。
+- ⚠️ glutaraldehyde 與有機物：百十三寫「可以去活化有機物」，百十四改成「**遇有機物會被去活化**」，slides 也是後者，以百十四為準。
+- 百十三沒有 prion／endospore 抵抗力、醫院最常用 ETO 與醛類、鮮乳保存期限、內視鏡與關節鏡等用途這些補充。

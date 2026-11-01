@@ -1,4 +1,4 @@
-"""把 113 共筆考古裡「題目本身是圖」的部分裁成 webp，給 build_questions.py 的 img 欄位用。
+"""把 百十三共筆考古裡「題目本身是圖」的部分裁成 webp，給 build_questions.py 的 img 欄位用。
 需要 poppler 的 pdftoppm 與 Pillow。執行：python3 tools/biochem/crop_questions.py（在 repo 根目錄）
 """
 import os, subprocess, tempfile

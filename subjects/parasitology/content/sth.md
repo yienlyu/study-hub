@@ -1,7 +1,7 @@
 === summary ===
-# 土源性蠕蟲（Soil-transmitted Helminths）重點整理
+# 土源性蠕蟲（Soil-transmitted Helminths）重點整理（依百十四共筆整理、對照百十三共筆）
 
-> 范家堃，2026/09/07。蛔蟲 *Ascaris lumbricoides*、鞭蟲 *Trichuris trichiura*、鉤蟲 *Ancylostoma duodenale*／*Necator americanus*。
+> 范家堃，2026/09/07。蛔蟲 *Ascaris lumbricoides*、鞭蟲 *Trichuris trichiura*、鉤蟲 *Ancylostoma duodenale*／*Necator americanus*。 以下依百十四共筆 week1 與今年 slides 整理。
 
 ## 0. 三種 STH 總覽 ⭐⭐⭐
 | | **蛔蟲** *Ascaris lumbricoides* | **鞭蟲** *Trichuris trichiura* | **鉤蟲** *A. duodenale*／*N. americanus* |
@@ -83,6 +83,12 @@
 
 <div data-fig="slide-duodenale-mouth"></div>
 
+## 百十四共筆補充（week1）
+- 鉤蟲雄蟲**背肋（dorsal ray）**：十二指腸鉤蟲分 2 根、每根再分 **3 小支、分叉淺**；美洲鉤蟲每根分 **2 小支、分叉深**。
+- 腸道線蟲感染人數：**蛔蟲 > 鉤蟲 > 鞭蟲**；但在溫帶、已開發國家與兒童，**蟯蟲最常見**。
+- 鞭蟲屬 **Aphasmid**：串珠狀食道（stichosome）約佔蟲體 1/2，是**組織切片判讀**的依據；生殖器單套（**monodelphic**，國考單字）。
+- 學名書寫格式（填空、跑台、混合蟲卵都要）：屬名大寫、種名小寫、**斜體或底線**。
+
 ## 🎙️ 上課錄影重點（范家堃）
 - 十二指腸鉤蟲的「兩對大小相似的牙齒」會鉤住小腸、破壞 enterocyte 後吸血。
 - 鉤蟲 L3 鑽皮膚會引發肥大細胞釋放 histamine，非常癢；抓破後可能續發細菌感染。幼蟲經過肺部，路徑跟 *Ascaris* 很像。
@@ -123,12 +129,6 @@
 - 題型：選正確／單一概念題 17、選錯誤／否定題 5、簡答題 1。
 - 練習區可以只勾選某一年的來源；多選、配合與手寫題會直接顯示參考答案。109、110 和 113 完全重複的題目只收一次。
 
-## 📒 115 共筆補充（week1）
-- 鉤蟲雄蟲**背肋（dorsal ray）**：十二指腸鉤蟲分 2 根、每根再分 **3 小支、分叉淺**；美洲鉤蟲每根分 **2 小支、分叉深**。
-- 腸道線蟲感染人數：**蛔蟲 > 鉤蟲 > 鞭蟲**；但在溫帶、已開發國家與兒童，**蟯蟲最常見**。
-- 鞭蟲屬 **Aphasmid**：串珠狀食道（stichosome）約佔蟲體 1/2，是**組織切片判讀**的依據；生殖器單套（**monodelphic**，國考單字）。
-- 學名書寫格式（填空、跑台、混合蟲卵都要）：屬名大寫、種名小寫、**斜體或底線**。
-
 ## ⚠️ 陷阱整理
 | 容易選錯 | 正確 |
 |---|---|
@@ -146,3 +146,7 @@
 | 鉤蟲卵要分種 | 各種鉤蟲卵無法區分，寫 **hookworm** |
 | 鞭蟲首選 Albendazole | 鞭蟲首選 **Mebendazole** |
 | 直腸脫垂是蛔蟲 | 直腸脫垂是**鞭蟲**（大量感染幼童）；蛔蟲是腸阻塞 |
+
+## 百十三共筆對照
+- 百十三的土源性蠕蟲在 w1（Ch0–Ch1），內容和百十四大致相同（三種 STH 的生活史、鉤蟲口囊、蟲卵）。
+- 百十四補充的：鉤蟲雄蟲背肋分叉、腸道線蟲感染人數排序、鞭蟲 aphasmid 與 stichosome、學名書寫格式（見上方「百十四共筆補充」）。

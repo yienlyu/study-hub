@@ -1,112 +1,148 @@
 === summary ===
+# 細菌簡介、分類、構造與代謝（依百十四共筆整理、對照百十三共筆，黃姿雯）
 
-# 細菌簡介、分類、構造與代謝
+## 1. 傳染病、宿主防禦與微生物學史
+- 傳染病是**宿主與病原交互作用**的結果（例：GAS 以 DNase 破壞 neutrophil 的 NETs）。
+- **2011 諾貝爾**：Beutler、Hoffmann（免疫細胞辨識系統，PAMP／DAMP–PRR）、Steinman（**樹突細胞**）。
+- **免疫檢查點抑制**（Allison、Honjo）：阻斷 T cell 上 **PD-1** 與腫瘤 **PD-L1** 結合、或阻斷 **CTLA-4** → 恢復 T cell 活性殺癌細胞。
+- **登革熱**：埃及斑蚊（中南部）、白線斑蚊（全台）；四型都會致病，**重複感染不同型易重症**；可用蚊子共生菌 **Wolbachia** 阻礙病毒在蚊體內複製。
+- 微生物學史：
 
-## 1. 微生物學史（必背人物配對）
+| 人物 | 年代 | 貢獻 |
+| --- | --- | --- |
+| Antony van Leeuwenhoek | 1632–1723 | **第一個觀察並描述微生物**（animalcules） |
+| Francesco Redi | 1668 | 肉密封就不長蛆（質疑自然發生說） |
+| John Needham | 1745 | 密封肉湯煮過仍酸敗（支持自然發生說） |
+| Lazzaro Spallanzani | 1765 | Needham 煮得不夠久；煮夠久、密封就不壞 |
+| Louis Pasteur | 1822–1895 | 微生物學之父；**鵝頸瓶實驗推翻自然發生說**（biogenesis）、**pasteurization**（短暫高溫，用於鮮乳） |
+| Robert Koch | — | **Koch's postulates**（炭疽桿菌 × 炭疽病） |
 
-| 人物                   | 年代      | 貢獻                                                                   |
-| ---------------------- | --------- | ---------------------------------------------------------------------- |
-| Antony van Leeuwenhoek | 1632–1723 | 單透鏡顯微鏡，**第一個觀察並描述微生物**（animalcules）                |
-| Louis Pasteur          | 1822–1895 | 鵝頸瓶實驗**推翻自然發生說**、**Pasteurization**（食物保存）           |
-| Ignaz Semmelweis       | 1840s     | **洗手**降低產褥熱                                                     |
-| Joseph Lister          | 1860s     | 以 **phenol** 做手術消毒（antiseptic surgery）                         |
-| Robert Koch            | 1870s     | **Koch's postulates**：證明特定微生物造成特定疾病（炭疽桿菌 × 炭疽病） |
-| Paul Ehrlich           | 1910s     | **化學療法**：Salvarsan 606 治梅毒，「magic bullet」                   |
-| Alexander Fleming      | 1928      | 發現 **Penicillin**                                                    |
-| Gerhard Domagk         | 1935      | Sulfanilamide（磺胺）                                                  |
-| Selman Waksman         | 1943      | Streptomycin（治 TB）                                                  |
-| John Enders            | 1946/1954 | 首次培養病毒（小兒麻痺病毒）→ 疫苗之父                                 |
-
-**Koch's postulates**：① 病原體存在於患病者、不在健康者 ② 可分離並純培養 ③ 接種健康宿主可重現疾病 ④ 可從新宿主再分離出同一病原體。
-例外：無症狀帶原者、無法培養的病原體（e.g. 部分）、只感染特定物種、一病原多症狀。
-
-> Koch 假說 = 「一菌一病」；新觀念 = **Dysbiosis**：疾病由整個菌落（community）失衡造成。
+**Koch's postulates**：① 病原體存在於所有患病者、不在健康者 ② 可分離並在培養基獨立培養 ③ 植入健康個體可造成相同疾病 ④ 可從新宿主以相同方法再分離出同一病原體。
+例外：無症狀帶原者、一病原多症狀（不同個體表現也不同）、在動物不表現但在人致病、無法培養的微生物。
+> Koch 假說 = 「一菌一病」；現今理論 = **dysbiosis**：疾病由整個菌落（community of organisms）改變造成。
 
 ## 2. 抗藥性與人體微生物相
-
-- **抗藥性**：每個國家都有、源自抗生素濫用；細菌、真菌、病毒、寄生蟲都會出現；**MDR = superbugs**。對策：監測、新抗生素、噬菌體等新療法、疫苗。
+- **最可怕的五種抗藥菌**（近五年）：XDR *Salmonella typhi*、XDR *M. tuberculosis*、pandrug-resistant *Klebsiella pneumoniae*、PDR *Pseudomonas aeruginosa*、XDR *Neisseria gonorrhoeae*；常見高抗藥菌合稱 **ESKAPE**。
+- **Superbug**：對所有已知抗生素都有抗藥性（也泛指 **MDR**，>3 種）；2018 年墨爾本發現的 *S. epidermidis* 株擅長在導管、假體、心瓣膜上形成 biofilm。
+- 抗藥性原因：**濫用抗生素**、抗生素利潤低藥廠不願投資；病毒、真菌、寄生蟲也會抗藥。預測 **2050 年 AMR 死亡數超過癌症**。對策：監測、找新抗生素、新療法（**噬菌體療法**）、疫苗。
 - 新型抗生素例：**Zosurabalpin**（針對 _Acinetobacter baumannii_，抑制 LPS 運送到外膜）。
-- **Human Microbiome Project**：細菌數約為人體細胞 3 倍（新估計約 1:1），基因數 > 100 倍。
-  - 同一個人**不同部位**組成不同；**不同人**同一部位組成也差很多。
-  - ⭐ **taxonomic diversity 大，但 functional properties 高度保守（functional redundancy）**。
-  - Core microbiome：≥95% 個體共有的菌種；共有菌種數：**口 > 鼻 > 腸 > 皮膚 > 陰道**。
-- Dysbiosis 相關：_C. difficile_ 腸炎（抗生素後、20–60% 復發）→ **FMT 糞便微菌叢植入**（台灣 2018 特管辦法開放）；肥胖、糖尿病、IBD、憂鬱等。
-- Prebiotics（膳食纖維）／Probiotics（Bifidobacterium、Lactobacillus、次世代：_Akkermansia muciniphila_）／Postbiotics（代謝物，如 SCFAs）。
+- **Microbiota** = 體內外的微生物聚落；**microbiome** = 其基因體。
+  - **Core microbiome**：≥95% 個體、特定部位共有的菌種；種類數：**口 > 鼻 > 腸 > 皮膚 > 陰道**。
+  - **Secondary microbiome**：不同人菌種不同（taxonomic diversity），但功能大致相同（**functional redundancy**）。
+  - 功能：抵抗病原、合成**維生素 B、K**；也用於生技、元素循環、bioremediation、病蟲害防治。
+- **Human Microbiome Project**：細菌數約為人體細胞 3 倍（新估計接近 **1:1**，約 30–39 兆），基因數 > 100 倍；各部位組成不同；健康個體間菌種差異大、功能相似。
+- Dysbiosis 相關：_C. difficile_ 偽膜性腸炎（抗生素後，**20–60% 復發**，抗生素治不好）→ **FMT 糞便微菌叢植入**（台灣 **2018** 特管辦法開放；現多以大腸鏡注入）；憂鬱、心血管疾病、糖尿病、癌症、IBD、壞死性腸炎。
+- **Prebiotics**（膳食纖維）／**Probiotics**（比菲德氏菌、乳酸菌，不一定對每個人有效；次世代：_Akkermansia muciniphila_，G(−)、厭氧）／**Postbiotics**（中間代謝物，如 SCFAs 經循環到遠端器官）。
 
 ## 3. 分類與命名
+- **三域**：Bacteria、Archaea、Eukarya。Archaea 也是原核、長得像細菌，但化學組成與作用機制較接近真核；多在極端環境（產甲烷菌、極端嗜鹽菌、極端嗜熱菌）。
 
-- 三域：Bacteria、Archaea（無 peptidoglycan 細胞壁、極端環境）、Eucarya。
-- 大小：Algae > Protozoa > Fungi > Bacteria > Viruses；**多數細菌約 1 μm**。巨型：_Thiomargarita_（0.1–0.3 mm）；侏儒：_Chlamydia/Rickettsia_（0.1–0.2 μm）。
-- 二名法：**屬名大寫＋種小名小寫，皆斜體**（_Staphylococcus aureus_，第二次可縮寫 _S. aureus_）。
-- 分類依據：
-  - 巨觀菌落 / 顯微型態（形狀、排列、Gram stain）
-  - **代謝特性 → Biotype（生化分型，最常用於定種）**
-  - Protein profiling：**MALDI-TOF MS**（現行主流）
-  - **抗原性 → Serotype**（e.g. _E. coli_ O157:H7）
-  - **Genotype（最精準）**：DNA hybridization、PCR、**16S rRNA 定序**
-- 排列：diplococci（成對）、streptococci（鏈狀）、staphylococci（葡萄串）。
+| | Bacteria | Archaea | Eukarya |
+| --- | --- | --- | --- |
+| 細胞壁 | **含 peptidoglycan** | **不含 peptidoglycan** | 碳水化合物 |
+| 膜脂質 | 直鏈、**酯鍵** | **分支碳鏈、醚鍵** | 直鏈、酯鍵 |
+| 起始胺基酸 | **fMet** | Met | Met |
+| 抗生素敏感 | 是 | 否 | 否 |
+| 核糖體 | **70S（30S＋50S）** | — | **80S（40S＋60S）** |
+
+- 大小：肉眼極限約 **0.2 mm**；光學顯微鏡最大約 1000 倍；病毒、噬菌體要電子顯微鏡。Algae > Protozoa > Fungi > Bacteria > Viruses；**多數細菌約 1 μm**。巨型：_Thiomargarita namibiensis_（0.1–0.3 mm）、_T. magnifica_（約 2 cm）；侏儒：_Chlamydia／Rickettsia_（0.1–0.2 μm，多無法獨立生存）。
+- 二名法：**屬名大寫＋種小名小寫，皆斜體**（_Staphylococcus aureus_，第二次可縮寫 _S. aureus_）；細菌多分到門或綱；分類名稱會因定序更新（Firmicutes → **Bacillota**）。
+- 分類方法：
+  - 巨觀：**菌落**（colony，來自同一祖先）的顏色、大小、形狀、氣味、邊緣、隆起。
+  - 微觀：**Gram stain**（Christian Gram）：**crystal violet** 初染（結合 PDG）→ **iodine** 媒染 → **酒精／丙酮脫色**（G+ 厚 PDG 留紫；G− 外膜脂質溶解、薄 PDG → 脫色）→ **safranin** 複染（G− 粉紅）。飢餓或非典型細胞壁的菌可能染色不典型。
+  - 形態：coccus、bacillus、coccobacillus、fusiform（_C. difficile_）、vibrio（霍亂弧菌）、spirillum、spirochete；排列：single、diplococci、streptococci、staphylococci。
+  - **Biotype**：依代謝特性（需氧、養分、最終代謝物、酵素）；十年前醫院主要用此法，要培養一天以上。
+  - **MALDI-TOF MS**：雷射打碎菌落蛋白、比對圖譜，**約半小時**鑑定，是現在主流。
+  - **Serotype**：表面、鞭毛、莢膜抗原（_E. coli_ **O157:H7**）。
+  - **Genotype**：PCR、DNA 雜交、**16S rRNA 定序**；用於難培養或長得慢的菌（MTB；HIV 直接採血 PCR）。
 
 <div data-fig="bact-shapes"></div>
 
 ## 4. 細菌構造總表
+| 構造 | 必有？ | 成分 | 功能 / 考點 |
+| --- | --- | --- | --- |
+| Chromosome（nucleoid） | ✅ | 單套環狀、超螺旋 dsDNA | haploid，**無核膜** |
+| Ribosome | ✅ | **70S（30S+50S）** | 蛋白質合成（真核 80S） |
+| Cell membrane | ✅ | 磷脂雙層，**通常無固醇** | 半透性運輸、接受訊號、分泌、**電子傳遞鏈 / ATP 產生處** |
+| Cell wall | 幾乎都有 | Peptidoglycan | 維持形狀、防滲透壓裂解 |
+| Plasmid | ❌ | 小型環狀 dsDNA | 抗藥性、毒素、pili |
+| Inclusion body | ❌ | — | **儲存**（「小倉庫」）；非蛋白質合成 |
+| Capsule / slime layer（glycocalyx） | ❌ | 多數為**多醣**，少部分多肽 | 黏附、biofilm、**抗吞噬**、抗原性差；capsule 緊密、slime layer 鬆散 |
+| Flagella | ❌ | **flagellin**；filament / hook / basal body（可 360° 旋轉） | 運動、**H antigen**；多見於桿菌 |
+| Axial filament | ❌ | 內鞭毛，位於細胞壁與外膜之間 | Spirochetes，像螺絲起子在黏稠組織中前進 |
+| Fimbriae / Pili | ❌ | pilin 蛋白 | **黏附**（fimbriae 短、細、多）；**sex pilus → conjugation**（G−） |
+| Endospore | ❌ | 雙層 PDG、**dipicolinic acid** | **度過惡劣環境**（非繁殖）、代謝靜止 |
 
-| 構造                                | 必有？   | 成分                                             | 功能 / 考點                                                      |
-| ----------------------------------- | -------- | ------------------------------------------------ | ---------------------------------------------------------------- |
-| Chromosome（nucleoid）              | ✅       | 單一環狀、超螺旋 dsDNA                           | haploid，**無核膜**                                              |
-| Ribosome                            | ✅       | **70S（30S+50S）**                               | 蛋白質合成（真核 80S）                                           |
-| Cell membrane                       | ✅       | 磷脂雙層，**無固醇**（有 hopanoids）             | 選擇性通透、**電子傳遞鏈 / ATP 產生處**                          |
-| Cell wall                           | 幾乎都有 | Peptidoglycan                                    | 維持形狀、防滲透壓裂解                                           |
-| Plasmid                             | ❌       | 小型環狀 dsDNA                                   | 抗藥性、毒素、重金屬抗性、pili                                   |
-| Inclusion body                      | ❌       | —                                                | **儲存**（「小倉庫」）；非蛋白質合成                             |
-| Capsule / slime layer（glycocalyx） | ❌       | **多醣**（炭疽桿菌例外：poly-D-glutamic acid）   | 黏附、biofilm、**抗吞噬**、抗原性差                              |
-| Flagella                            | ❌       | **flagellin 蛋白**；filament / hook / basal body | 運動、**H antigen**；多數桿菌有、球菌多無                        |
-| Axial filament                      | ❌       | endoflagella                                     | Spirochetes，螺旋推進                                            |
-| Fimbriae / Pili                     | ❌       | pilin 蛋白                                       | **黏附**（fimbriae 較短較多）；**sex pilus → conjugation**（G−） |
-| Endospore                           | ❌       | 雙層 PDG、dipicolinic acid                       | **度過惡劣環境**（非繁殖）、代謝極低、不易 Gram 染色             |
+- **鞭毛**：排列分 peritrichous（周生）、monotrichous（單端單根）、lophotrichous（單端叢生）、amphitrichous（兩端）；**chemotaxis** = run（**逆時針**成束前進）＋ tumble（**順時針**散開轉向）。
+- **Inclusion bodies**：metachromatic granule（volutin，**磷酸鹽**）、polysaccharide granule（可做生物可分解塑膠）、lipid、sulfur granule、**gas vacuole**（浮力）、**carboxysome**（RuBisCO，固定 CO₂）、**magnetosome**（分解 H₂O₂、沿地磁移動；研究作抗癌藥載體）。
+- **Endospore**：由外到內 exosporium → protein coat → outer membrane → **cortex** → spore wall → inner membrane → core；染色體複製後移到一端、隔板凹陷，充滿 **dipicolinic acid** 排除水分，母細胞裂解釋出；耐熱、耐乾、耐輻射與化學藥劑，環境適合時 **germination**。產孢菌：**_Bacillus_**（炭疽桿菌）、**_Clostridium_**（_C. difficile_）。
+- **二分裂**：細菌變長、核酸複製 → 膜與壁內凹 → 形成 cross-wall → 分開。
 
 <div data-fig="bact-appendages"></div>
 
 <div data-fig="spore"></div>
 
 ## 5. 細胞壁：G(+) vs G(−)
+| | Gram (+)（紫） | Gram (−)（粉紅） |
+| --- | --- | --- |
+| Peptidoglycan | **厚、多層、多孔** | 薄（5–10%），位於 periplasm |
+| Teichoic / lipoteichoic acid | ✅（**G+ 獨有**，帶負電、調節陽離子、抗原特異性） | ❌ |
+| Outer membrane | ❌ | ✅：**LPS**、**porin** |
+| Periplasmic space | 無 | 有，含 **β-lactamase**（抗生素經 porin 進來就被分解） |
+| LPS / Lipid A | ❌ | ✅（**G− 獨有**） |
 
-|                              | Gram (+)（紫）                        | Gram (−)（粉紅）                                                    |
-| ---------------------------- | ------------------------------------- | ------------------------------------------------------------------- |
-| Peptidoglycan                | **厚、多層**                          | 薄（5–10%），位於 periplasm                                         |
-| Teichoic / lipoteichoic acid | ✅（**G+ 獨有**，帶負電、抗原特異性） | ❌                                                                  |
-| Outer membrane               | ❌                                    | ✅：**LPS**、lipoprotein、phospholipid、**porin（蛋白質，在外膜）** |
-| Periplasmic space            | 無（或極少）                          | 有，含 **β-lactamase**、protease 等水解酶                           |
-| LPS / Lipid A                | ❌                                    | ✅（**G− 獨有**）                                                   |
-
-- **Peptidoglycan**：NAG–NAM 交替，NAM 上 tetrapeptide；**第三位 diamino acid（L-Lys / DAP）與第四位 D-Ala 交叉連結**（transpeptidation，由 PBPs 催化 → β-lactam、vancomycin 作用點）。
-- **Lysozyme** 切 NAG–NAM 的 **β-1,4 鍵** → 破壞 PDG。
-- **LPS 三段（內→外）**：**Lipid A（毒性 / endotoxin）** → Core（含 KDO，同一菌種相同）→ **O-antigen（最多變異，血清分型用）**。LPS → septic shock。
+- **Peptidoglycan（murein）**：**NAG–NAM** 交錯成糖鏈，短胜肽經 **transpeptidation** 交聯成網（像編織物，有彈性、多孔）。
+- **Lysozyme**（淚水）切 NAG–NAM 的 **β-1,4 鍵** → 溶菌；**β-lactam** 作用於 **PBPs**、抑制 transpeptidation；**vancomycin** 綁住胜肽鏈。
+- **LPS 三段**：**Lipid A（endotoxin，septic shock、免疫風暴）** → Core polysaccharide（分支磷酸化，含 **KDO**）→ **O-antigen**（4–7 個單醣重複 50–100 次，高度抗原性）。
 - 例外：
-  - _Mycobacterium_：mycolic acid → **acid-fast**（carbolfuchsin 染後抗 acid alcohol 脫色）
-  - _Mycoplasma_：**無細胞壁**、膜含 sterol、對作用於細胞壁的抗生素無效
-  - _Chlamydia_：類 G−、但無 PDG
-  - Spheroplast（G− 去壁留外膜）、Protoplast（G+ 完全去壁）、L-form（抗生素誘導）→ 易滲透壓裂解
+  - _Mycobacterium_：**mycolic acid** → 不能 Gram 染色，用 **acid-fast**（carbolfuchsin 染、acid alcohol 脫不掉，呈紅色）
+  - _Mycoplasma_：**無細胞壁**、膜含 **sterol**
+  - _Chlamydia_：雙層膜、但細胞壁無 PDG
+  - **Protoplast**（G+ 去壁）、**spheroplast**（G− 去壁留外膜）：對滲透壓極敏感；**L-form**：抗生素或高滲透壓造成壁缺損仍存活，環境恢復可變回原樣
 
 <div data-fig="cell-wall"></div>
 
 <div data-fig="gram-stain"></div>
 
 ## 6. 生長與代謝
+> 共筆提醒：老師說**代謝機制是生化的重點、不是微免考試重點**（醣類分解幾頁跳過），但要注意 **peptidoglycan 的合成方式與材料**和 polysaccharide biosynthesis 那頁。
 
-- 生長條件：溫度、**pH 6.5–7.5**、滲透壓、氧、營養（C、N、S、P）。
-- 氧需求：obligate aerobe、facultative anaerobe、**microaerophile（2–10% O₂）**、aerotolerant、obligate anaerobe。需氧菌能在有氧下活，是因為有酵素（catalase、SOD）清除 ROS。
+- **生長**＝細菌總數、重量增加（不是體積變大）。
+- **溫度**：psychrophile（膜含大量不飽和脂肪酸；冰箱 4–10 °C 殺不死）、psychrotroph（0–10 °C 仍會長 → 冰箱食物久放會壞）、**mesophile（35–37 °C，多數病原菌：*E. coli*、沙門氏菌、*S. aureus*）**、thermophile（約 60 °C）、hyperthermophile（約 90 °C，海底火山；DNA polymerase 來源）。滅菌鍋 121 °C。
+- **pH**：多數 **6.7–7.5**；**pH < 4.6** 時多數病原與腐敗菌明顯受抑制（食品酸化保存的門檻）。高滲透壓不利生長（醃漬）。
+- **養分**：C、N、S、P；**鐵**是許多酵素輔因子，致病菌有搶鐵機制。
+- **氧需求**取決於有沒有清除 ROS 的 **SOD**、**catalase（過氧化氫酶）**：
+
+| 類別 | SOD | Catalase | 例 |
+| --- | --- | --- | --- |
+| Obligate aerobe | + | + | 結核桿菌、枯草桿菌 |
+| Facultative anaerobe | + | + | *E. coli*、酵母菌 |
+| Obligate anaerobe | − | − | 破傷風梭菌 |
+| Aerotolerant anaerobe | + | − | 乳酸菌 |
+| Microaerophile（**1–10% O₂**） | +/− | 微量 | ***H. pylori***、*C. jejuni* |
 
 <div data-fig="oxygen"></div>
 
-- **生長曲線**：Lag（不分裂但代謝活躍，非「完全不生長」）→ **Log / Exponential（計算 generation time；對 penicillin 最敏感）** → Stationary → Death。
+- **生長曲線**：**Lag**（適應環境；縱軸是 log，看似水平但數量仍在增加）→ **Log／exponential**（二分裂，最健全、變異少，適合研究生理特性）→ **Stationary**（新生＝死亡，**累積突變、可能出現抗藥株**）→ **Death**。
 
 <div data-fig="growth-curve"></div>
 
-- **Biofilm**：可逆附著 → 分泌 EPS（多醣、蛋白、DNA）→ 成熟；抗 UV 與抗生素。
-- ATP 產生：Substrate-level phosphorylation（細胞質）、**Oxidative phosphorylation（主要；ETC 在細胞膜）**、Photophosphorylation。
-- 1 NADH → 3 ATP；1 FADH₂ → 2 ATP。Aerobic respiration：Glycolysis → TCA → ETC。
-- Anaerobic respiration：以 NO₃⁻、SO₄²⁻、CO₂ 作電子接受者（ATP 較少）；Fermentation：pyruvate → 代謝物（乳酸、乙醇、SCFAs）。
-- Amphibolic pathway：NAD⁺ → 異化；NADP⁺ → 同化。
+- **Biofilm**：表面先被蛋白、醣覆蓋 → 細菌沉積 → **可逆附著** → 不可逆附著、分泌 **EPS**（多醣、蛋白、DNA）→ 成熟變厚、抗抗生素與 UV → 剝離移到他處 → 醫療管路反覆感染。
+- **ATP 產生**（有氧呼吸，原核共 **38 ATP**）：glycolysis（2 ATP、2 NADH）→ pyruvate 去氫（2 NADH、2 CO₂）→ TCA（6 NADH、2 FADH₂、2 GTP、4 CO₂）→ **ETC 在細胞膜**（10 NADH → 30 ATP、2 FADH₂ → 4 ATP）；大部分 ATP 來自 **oxidative phosphorylation**。
+- **無氧呼吸 ≠ 發酵**：仍走 ETC，只是最終電子接受者不是 O₂（可能考）：
+
+| 菌 | 最終電子接受者 | 產物 |
+| --- | --- | --- |
+| *Pseudomonas aeruginosa* | NO₃⁻ | N₂ |
+| *Desulfovibrio* | SO₄²⁻ | H₂S |
+| *E. coli* | fumarate | succinate |
+| *Acetobacterium woodii* | CO₂ | acetate |
+| *Geobacter sulfurreducens* | Fe³⁺ | Fe²⁺ |
+
+  國考考過甲烷菌，但甲烷菌是 **archaea**；兼性厭氧菌在腸道走無氧呼吸。
+- **發酵**：pyruvate 留在 cytosol，酒精或乳酸發酵，把 NADH 變回 NAD⁺，只有 glycolysis 的 2 ATP；腸道菌發酵產生 **butyrate** 可調節免疫細胞（老師特別提到）。
+- **Polysaccharide biosynthesis**（老師打星）：G6P → **ADP-glucose**（需 ATP，細菌 glycogen）、G6P → **UDP-glucose**（需 UTP）、F6P → **UDP-GlcNAc**（需 UTP，**peptidoglycan 合成**）。
+- 其他合成：DHAP → glycerol＋acetyl-CoA → 脂肪酸；胺基酸碳骨架來自 glycolysis、TCA、PPP；PPP 提供核苷酸的五碳糖。**Amphibolic pathway**：catabolism 用 NAD⁺、anabolism 用 NADP⁺。
 
 ## 🎙️ 上課錄影重點（黃姿雯，09/09 + 09/11）
 
@@ -217,8 +253,9 @@
 - 「Murray 有出現的國考都可以考；沒講的不會考」。
 - 小陷阱：冰箱冷藏是防病原菌生長、不是防腐壞；microaerophile 代表 *H. pylori*；MALDI-TOF 約 30 分鐘出結果。
 
-## 📒 百十四共筆對照（W01-1）
-- 共筆記下：**代謝機制是生化的重點、不是微免考試重點**（醣類分解那幾頁老師跳過）；但要注意 **peptidoglycan 的合成方式與材料**（老師特別提到）與 polysaccharide biosynthesis 那頁（糖解中間物分流當醣類合成前驅物）。
-- 可能考：**無氧呼吸的最終電子接收者**（硝酸鹽、硫酸鹽、CO₂；**無氧呼吸 ≠ 發酵**，仍走 ETC）。
-- 生長曲線 lag phase：縱軸是 log，看起來水平但數量仍在增加。
-- 內容勘誤：**Catalase 中文是「過氧化氫酶」**（不是超氧化物歧化酶）；「微生物失衡」英文是 **dysbiosis**。
+## 百十三共筆對照
+- 百十三的微生物學史表比較長，另有：**Semmelweis**（1840s，洗手降低產褥熱）、**Lister**（1860s，phenol 手術消毒）、**Ehrlich**（1910s，Salvarsan 606 治梅毒，magic bullet）、**Fleming**（1928，penicillin）、**Domagk**（1935，sulfanilamide）、**Waksman**（1943，streptomycin 治 TB）、**Enders**（首次培養小兒麻痺病毒）。百十四只寫到 Leeuwenhoek、自然發生說爭論、Pasteur、Koch。
+- 百十三寫 **Biotype 最常用於定種**、**Genotype 最精準**；百十四則說 biotype 是十年前的主流，現在以 **MALDI-TOF**（約半小時）為主。
+- 數字寫法不同：百十三 pH **6.5–7.5**、microaerophile **2–10% O₂**；百十四 pH **6.7–7.5**、microaerophile **1–10%**。
+- 百十三在生長曲線另標 **log phase 對 penicillin 最敏感**、可計算 generation time；膜成分另寫「無固醇（有 hopanoids）」；capsule 例外寫「炭疽桿菌為 poly-D-glutamic acid」。
+- 百十三的 ATP 寫成「1 NADH → 3 ATP、1 FADH₂ → 2 ATP」；百十四改列完整表（原核共 38 ATP），兩者算法一致。

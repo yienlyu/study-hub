@@ -1,7 +1,7 @@
 === summary ===
-# 葡萄球菌、鏈球菌、腸球菌（依考古詳解整理；2026 由黃姿雯老師授課）
+# 葡萄球菌、鏈球菌、腸球菌（依百十三共筆整理，黃姿雯）
 
-> 113 共筆沒有收錄本章，以下整理自考古詳解。黃姿雯老師 10/17 公布的講義重點在「上課 slides」分頁。
+> 百十四共筆還沒出，以下暫依**百十三共筆 W7（學藝未審版）**整理，搭配考古詳解；百十四出來後改成依百十四整理、對照百十三。黃姿雯老師 10/17 公布的講義重點在「上課 slides」分頁。
 
 ## 1. 鑑別流程 ⭐⭐
 ```
@@ -29,39 +29,76 @@ G(+) cocci
 <div data-fig="gpc-id"></div>
 
 ## 2. *Staphylococcus aureus*
-- 棲息：**鼻咽、皮膚**。
-- 毒力：**Protein A**（抓 IgG Fc，抑制調理與趨化）、**coagulase**（fibrinogen → fibrin 屏障）、catalase、hyaluronidase、fibrinolysin、DNase、lipase；teichoic acid。
+- G(+) 小球菌、成堆不規則排列（0.5–1.5 μm）、兼性厭氧、**不會動**；**耐乾、耐高鹽、耐極端 pH**，容易留在環境中散播；培養基上大而圓、不透明的菌落。
+- 棲息：**鼻腔前側（anterior nares）、皮膚、鼻咽**；約 **20–60% 健康成人**帶菌。其他常駐：*S. capitis*（皮脂腺）、*S. hominis*（頂漿腺），通常不致病。
+- 易感：衛生差、營養不良、組織受傷、免疫低下（肝病、糖尿病、HIV、化療）。
+- 毒力（老師上課提到的是 capsule、slime layer、Protein A）：
+  - **結構**（指數生長期表現）：**capsule**、**slime layer**（含黏附蛋白）都抑制吞噬；peptidoglycan（類似 endotoxin 作用）；teichoic acid；**Protein A**（*S. aureus* 特有，抓 **IgG1、2、4 的 Fc**，抑制調理）；**coagulase**（*S. aureus* 特有；bound form 與 free form；fibrinogen → fibrin 形成屏障）。
+  - **酵素**（穩定期、quorum sensing 後才釋放）：coagulase 隔絕免疫細胞；**hyaluronidase**（分解結締組織）、**fibrinolysin**（溶解血塊，與 coagulase 相反）、lipase、**nuclease**（切 NETs 逃脫、避免被死細胞的黏稠 DNA 黏住）幫助擴散；另有 catalase。
 - 毒素：
-  - **Cytotoxins**（α、β：分解膜磷脂、γ、PVL）→ 組織破壞
-  - **Exfoliative toxin**（serine protease）→ **SSSS 燙傷樣皮膚症候群**
-  - **Enterotoxin**（**heat-stable**、superantigen）→ **食物中毒：吃到預先形成的毒素**，快速嘔吐
-  - **TSST-1**（superantigen）→ **Toxic shock syndrome**（90% TSS）
-- 疾病：膿皰瘡 impetigo、毛囊炎、癤癰、骨髓炎、菌血症、心內膜炎、肺炎、敗血性關節炎。
-- 抗藥：**MRSA（mecA → PBP2a）**。
+  - **Cytotoxins**（攻擊紅血球、白血球、血小板、巨噬細胞、纖維母細胞的膜；要記功能）：**α**（最常見，組織壞死）、**β = sphingomyelinase C**（水解膜磷脂）、**δ**（幾乎所有葡萄球菌都有，像界面活性劑）、**γ**（在膜上穿孔，類似補體 MAC）、**PVL**（特殊菌株，類似 γ toxin 穿孔）。
+  - **Exfoliative toxin**（serine protease，切 **desmoglein 1**，表皮與真皮分離）→ **SSSS 燙傷樣皮膚症候群**（好發新生兒；患部常培養不到菌，因為是毒素作用）。**ETA 耐熱、來自 phage**；**ETB 不耐熱、來自質體**。
+  - **Enterotoxin**（A 最常見；**heat-stable**，100 °C 15–30 分鐘以上才失活；superantigen；促 mast cell 釋放介質 → 蠕動↑、嘔吐）→ **食物中毒：吃到預先形成的毒素**，快速嘔吐
+  - **TSST-1**（superantigen，通常沒有外傷）→ **Toxic shock syndrome**（90% TSS；年輕女性與**衛生棉條**有關）
+- 疾病：**局部皮膚**——毛囊炎 → 癤（furuncle）→ 膿疱（impetigo，常見新生兒）；**系統性**——骨髓炎（好發骨骺端 metaphysis）、菌血症（醫療器材）→ **急性心內膜炎**、肺炎（老人、幼童、肺病者；膿胸、敗血性休克）、敗血性關節炎。
+- **CoNS**（無 coagulase；院內、伺機感染）：*S. epidermidis*（導管、分流管、**人工關節、心瓣膜、血管支架**的 biofilm）、***S. saprophyticus*（性行為頻繁年輕女性的 UTI）**；傷口感染則 *S. aureus*、CoNS 都有。
+- 抗藥：**MRSA**：外來移動因子 **SCCmec**（含 **mecA**）經水平轉移插入 → 變異的 **PBP2a**，β-lactam 親和力差。
+  - **HA-MRSA**（醫院，多重抗藥）vs **CA-MRSA**（社區，地域性：美國 USA300、亞洲 ST59；**SCCmec IV、產 PVL**，常引起嚴重肺炎；β-lactam 以外的抗生素仍有效）。台灣院內 MRSA 比例由約 80% 降到約 60%。
+  - 治療：MSSA → methicillin／oxacillin；MRSA → TMP-SMX、doxycycline 口服，**vancomycin、daptomycin** 靜脈。預防：洗手；主動監控（ICU 鼻腔採檢，陽性用 **mupirocin** 去移生 5 天＋全身清潔）。
+  - 檢測：MALDI-TOF、無菌部位感染直接 Gram 染色。
 - ⚠️ 不會產生 IgA protease（那是肺炎鏈球菌、Neisseria）、不會產生 C5a peptidase（那是 GAS）；不會造成 rheumatic fever。
 
 ## 3. *Streptococcus pyogenes*（GAS）
-- 棲息：**口咽**。最嚴重的鏈球菌疾病多由 GAS 造成。
-- 毒力：**M protein**（抗吞噬、血清分型；模仿心肌 → rheumatic fever）、hyaluronic acid 莢膜、**C5a peptidase**、streptokinase、DNase（逃 NETs）、**Streptolysin O**（oxygen-labile、抗原性強 → **ASO titer**；被皮膚膽固醇抑制 → 膿皮症不易測得）、Streptolysin S。
+- 鏈球菌共通：G(+)、成對或成鏈、兼性厭氧、**catalase (−)**、不動、不產孢子；需要營養豐富的培養基（加血液、血清），有些要 CO₂（capnophilic）→ **不是院內感染菌**（和 *S. aureus* 最大差別）。
+- 分類：**Lancefield**（1933，細胞壁 C-carbohydrate：A、B、C、F、G）、**溶血**（β：GAS bacitracin 敏感、GBS 抗性；α：肺炎鏈球菌 optochin 敏感、草綠鏈球菌抗性；γ：腸球菌）。
+- GAS 特性：β 溶血強（比 GBS 強）、小白菌落、受高濃度葡萄糖抑制；group A 抗原 = N-acetylglucosamine＋rhamnose。
+- 棲息：**口咽**（健康孩童與年輕人無症狀帶菌）；冬天、密閉空間飛沫傳染。最嚴重的鏈球菌疾病多由 GAS 造成。
+- 毒力：**M protein**（GAS 特有；C 端保守、**N 端變異 → 依 emm 基因分型**；干擾 C3b；class I 與 rheumatic fever 有關）、**M-like protein**（抓 Fc、fibronectin）、黏附三要素 **LTA、M protein、F protein**（內化後可持續感染）、hyaluronic acid 莢膜、**C5a peptidase**、streptokinase、DNase（逃 NETs）、**Streptolysin O**（oxygen-labile、抗原性強 → **ASO titer**；被皮膚膽固醇抑制 → 膿皮症不易測得）、Streptolysin S。
 - **SpeA（pyrogenic / erythrogenic exotoxin）**：**superantigen**，由 **lysogenic phage** 基因編碼 → **猩紅熱**（strawberry tongue、Pastia's lines）。
-- 化膿性疾病：咽喉炎、猩紅熱、impetigo、erysipelas、cellulitis、**壞死性筋膜炎**（組織快速壞死、敗血症）、STSS。
-- **非化膿性後遺症**：**Rheumatic fever**（咽喉炎後）、**Acute glomerulonephritis**（皮膚感染後、nephritogenic M protein、免疫複合體）。
+- 化膿性疾病：
+  - **咽喉炎**（孩童細菌性喉嚨痛多為 GAS；2–4 天發病；有白色滲出物）→ 未治療 → **猩紅熱**（全身紅疹、**口周蒼白**、**草莓舌**、**Pastia line**）。
+  - 皮膚（菌株與咽喉炎不同）：**impetigo／pyoderma**（結痂，採檢要掀開痂）、**erysipelas**（臉與四肢、**界線清楚**）、**cellulitis**（深及皮下、**界線不清**）、**壞死性筋膜炎**（噬肉菌；沿筋膜擴散 → 清創＋抗生素，可能 STSS）。
+  - 系統性：菌血症、肺炎、**產褥熱**、**STSS**（有黏多醣莢膜與 SpeA、SpeC 的菌株）。
+- **非化膿性後遺症**（抗體介導、像自體免疫）：**Rheumatic fever**（咽喉炎後、class I M protein）、**Acute glomerulonephritis**（**多在皮膚感染後**、nephritogenic M protein）。
+- 診斷：Gram 染色；培養（後咽、扁桃腺；bacitracin 或 **PYR**）；抗原快篩（專一高、敏感低 → 陰性要再確認）；**ASO**（風濕熱、AGN）、**anti-DNase B**（腎絲球腎炎）；PCR。
+- 治療：penicillin／amoxicillin（過敏改 cephalosporin、macrolide）；風濕熱患者長期預防性抗生素。**GAS、GBS 都沒有抗藥性問題、也都沒有疫苗**。
+- 其他 β 溶血：*S. anginosus*（小菌落、局部化膿）、*S. dysgalactiae*（咽喉炎、可致 AGN 但**不會**風濕熱）。
+- 考題：Group-specific carbohydrate **每株 GAS 都有，不是區分毒性的標準**；M4、M22 亞型沒有莢膜。
 
 ## 4. *Streptococcus agalactiae*（GBS）
 - 棲息：陰道、泌尿生殖道、下消化道。
-- **新生兒腦膜炎、敗血症**（產道感染；早期破水、產程長是危險因子）；孕婦 UTI、子宮內膜炎。
-- β 溶血、**CAMP (+)**；Lancefield B 抗原在**細胞壁**（C-carbohydrate）。
+- **新生兒腦膜炎、敗血症的主因**（產道感染；帶原母親約 60% 傳給嬰兒）：
+
+| | 早發性 | 晚發性 |
+|---|---|---|
+| 時間 | 出生**一週內**（生產時） | 一週到三個月（照顧時） |
+| 表現 | 菌血症、肺炎、腦膜炎 | 菌血症、腦膜炎 |
+| 預後 | 15–30% 神經後遺症 | 死亡率較低，25–50% 神經併發症 |
+| 血清型 | Ia、III、V | **III** |
+
+- 成人：孕婦產後子宮內膜炎、UTI（預後佳）；有基礎病的老人菌血症、肺炎等，死亡率較高。陰道帶菌女性約 10–30%。
+- 毒力：**莢膜**（9 型 Ia、Ib、II–VIII）、**sialic acid** 抑制補體替代路徑。
+- 診斷：CSF Gram 染色；孕婦**35–37 週**陰道／直腸採檢（PCR）；LIM broth；**bacitracin 抗性、CAMP (+)、分解 hippurate**。產時預防性抗生素（IAP）大幅降低新生兒疾病。
+- β 溶血（比 GAS 弱）、菌落大；Lancefield B 抗原在**細胞壁**（C-carbohydrate）。
 
 ## 5. *Streptococcus pneumoniae*
 - G(+) 雙球菌（lancet-shaped）、α 溶血、catalase (−)、**optochin 敏感**、**bile soluble**、inulin 發酵、**Quellung reaction**。
-- 最重要毒力：**polysaccharide capsule**（抗吞噬）→ 疫苗（PPV23：≥2 歲；PCV13：嬰幼兒）；IgA protease、pneumolysin。
-- 高危：嬰幼兒、>60–65 歲。內源性感染（非院內）。疾病：肺炎、中耳炎、腦膜炎、菌血症。
+- 造成 **60–70% 細菌性肺炎**；約 90 種莢膜血清型。培養要血液或 **chocolate agar**、5–10% CO₂；有氧 α 溶血、厭氧 β 溶血。
+- 不靠外毒素，靠結構與酵素：**polysaccharide capsule**（抗吞噬）、**IgA protease**、**pneumolysin**（結合膜上膽固醇打洞）。
+- 疫苗：**PPV23**（多醣，≥2 歲到成人）、**PCV13**（接上減毒白喉毒素，6 週–5 歲；台灣 104 年起常規 2＋1：2、4、12–15 個月）。
+- 高危：**6 個月–4 歲**、**>60 歲**、免疫低下；冬天；**內源性、社區感染（非院內）**，老人常先有病毒感染再併發。疾病：**大葉性肺炎**（先像感冒，後突發高燒、寒顫、胸痛、咳血）、鼻竇炎、**中耳炎**（5 歲前）、腦膜炎、菌血症（25–30% 肺炎病人）。
+- 診斷：痰 Gram 染色（失敗率約 50%）、**Quellung reaction**、CSF 血清檢測；和其他 α 溶血菌區分：inulin 發酵、optochin 敏感、bile soluble。
 - 抗藥：**PBP 改變**（PRSP），不是 penicillinase。
 - 疫苗無法涵蓋所有血清型。
 
 ## 6. Viridans & Enterococcus
-- **Viridans**：口腔；α 溶血、optochin 抗性、不用 Lancefield；mitis group → **亞急性心內膜炎**；mutans → **蛀牙**。
-- **Enterococcus**（faecalis、faecium）：大腸正常菌；**6.5% NaCl、膽鹽中可生長**、biofilm、高度抗藥（**VRE**）；**院內感染：UTI（導尿管）**、菌血症、心內膜炎、腹膜炎。
+- **Viridans**（形容詞，不是菌名＝在血液培養基呈綠色的一群）：α 或 γ 溶血、optochin 抗性、不用 Lancefield；口腔、口咽、消化道、生殖道、皮膚的好菌，少數致病。
+  - **mitis group**（*S. mitis*、*S. oralis*；penicillin 抗藥增加）→ **亞急性心內膜炎**（比 *S. aureus* 的急性心內膜炎溫和；在瓣膜形成 biofilm／vegetation；高風險病人牙科處置前預防性抗生素）。
+  - **mutans group**：*S. mutans* → **蛀牙**（黏液層 → 牙菌斑；醣類發酵成酸）。
+- **Enterococcus**（已從鏈球菌屬獨立；*E. faecalis*、*E. faecium*）：G(+) 成對或短鏈（外觀難與肺炎鏈球菌區分）；好氧厭氧都長、**10–45 °C、pH 4.6–9.9、高鹽與膽鹽中可生長**；乳酸菌；多為不溶血；**PYR (+)**、optochin 抗性、不被膽鹽溶解。
+  - 毒力不多：黏附與 **biofilm**、**抗藥性**（天生抗 oxacillin、cephalosporin；獲得性抗 aminoglycoside、**vancomycin**，由**質體**介導可傳給別菌；*E. gallinarum*、*E. casseliflavus* 天生抗 vancomycin）。
+  - **最常見的院內感染菌之一**：**UTI（導尿管，最常見）**、腹膜感染（多菌混合）、菌血症、**心內膜炎**（最難治）。危險因子：導尿管或血管導管、長期住院、廣效抗生素。
+  - 治療：**aminoglycoside＋細胞壁抗生素（ampicillin 或 vancomycin）**合併；VRE 用 linezolid、quinupristin/dalfopristin（對 *E. faecalis* 無效）；隔離與限制抗生素。
 
 ## 7. 疾病 ↔ 病原速查
 | 疾病 | 病原 |

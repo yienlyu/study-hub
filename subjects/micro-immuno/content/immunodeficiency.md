@@ -1,7 +1,7 @@
 === summary ===
-# 免疫缺陷疾病（賴傳穎）
+# 免疫缺陷疾病（依百十四共筆整理，賴傳穎）
 
-> 🎙️ 本章依 2026 非同步遠距錄影（賴傳穎，W18，期中考範圍）的逐字稿與 slides 整理，並對照 115 共筆（Ch18-2）；考古只有 hyper-IgM、CGD 相關題。期中配分 **3%**。
+> 🎙️ 本章依百十四共筆（Ch18-2）、2026 非同步遠距錄影（賴傳穎，W18，期中考範圍）的逐字稿與 slides 整理；百十三共筆沒有收錄這章（只在「對抗感染的免疫反應」提到 CGD 與成人型免疫不全）。考古只有 hyper-IgM、CGD 相關題。期中配分 **3%**。
 
 ## 1. 怎麼懷疑免疫缺陷？
 - **反覆、嚴重、難治（recalcitrant）**的感染；**不常見的伺機性（opportunistic）感染**；有**固定的感染型態**。
@@ -10,10 +10,10 @@
   | | Primary（inborn） | Secondary（acquired） |
   |---|---|---|
   | 原因 | 免疫發育、訊號或功能的**基因缺陷** | **外在因素**：藥物、治療、其他感染（如 HIV） |
-  | 發病 | 多在嬰幼兒、甚至出生就發生；也可能較晚出現 | 後天 |
+  | 發病 | 多在嬰幼兒、甚至出生就發生；也可能較晚出現 | 後天；**遠比原發性常見**，是感染與死亡的重要誘因 |
 
 ## 2. Severe combined immunodeficiency（SCID）⭐
-- 多個系統一起垮（T、B、NK）；電影 *Bubble Boy*（真實病例要住在無菌泡泡裡）。
+- 多個系統一起垮（T、B、NK）；電影 *Bubble Boy*（真實病例 **David Vetter** 是 X-linked SCID，12 歲死於骨髓移植併發症）。
 - 叫 **combined** 是因為 T 細胞消失 → TH 與後續抗體產生全部受影響 → **細胞性 + 體液性（adaptive）免疫都垮**。
 - **用周邊血 T / B / NK 的 profile 推測缺陷** ⭐：
 
@@ -23,6 +23,8 @@
 | **X-linked SCID（IL2RG，common γ chain）** | γc 是多種 cytokine receptor 的共同成分 → **IL-7 訊號缺失（T 不能發育）+ IL-15 訊號缺失（NK 不能發育）** | **−** | **+** | **−** |
 | **RAG1 / RAG2 deficiency** | **V(D)J recombination 失敗** → TCR、BCR 都做不出來 | **−** | **−** | **+**（NK 沒有 V(D)J） |
 | **FOXN1 deficiency** | **胸腺上皮 / stromal 微環境**發育失敗；pro-T、pre-T 本身正常但沒有環境 | **−** | **+** | **+** |
+
+- **遺傳模式**：X-linked SCID（IL2RG）為 **X 染色體隱性**（患者多為男性）；**RAG1/2、FOXN1** 都是**體染色體隱性**。XLA、X-linked hyper-IgM、XLP 也都是 X-linked。
 
 <div data-fig="immunodeficiency-map"></div>
 
@@ -52,11 +54,12 @@
 
 ## 6. Cytokine 路徑缺陷
 - **Type 1（IL-12 / IFN-γ 迴路）**：macrophage / DC 產 **IL-12** → NK、TH1 產 **IFN-γ** → 回饋活化 macrophage。缺陷 → macrophage 活化↓ → 易感染**胞內菌**：***Mycobacterium tuberculosis*（以 macrophage 為宿主）**、mycoplasma。
-- **Type 3（IL-17 迴路）**：TH17、**ILC3** 產 **IL-17** → 黏膜 / 上皮抗真菌防禦。缺陷 → **反覆黏膜皮膚念珠菌感染（mucocutaneous candidiasis）**；代表 **STAT3 deficiency（Job syndrome）**。
+- **Type 3（IL-17 迴路）**：TH17、**ILC3** 產 **IL-17** → 黏膜 / 上皮抗真菌防禦。缺陷 → **反覆黏膜皮膚念珠菌感染（mucocutaneous candidiasis）**；代表 **STAT3 deficiency（Job syndrome，高 IgE 症候群）**：IL-17 產生細胞減少 → CMC，也易有**金黃色葡萄球菌**與**麴菌**感染。**APECED（AIRE 異常）**病人產生中和 IL-17A／F 的自體抗體，也表現為 CMC。
 
 ## 7. 免疫失調與毒殺缺陷
 - **Cytotoxic granule pathway（perforin）缺陷**：CTL、NK 殺不掉病毒感染細胞 → 標的細胞持續釋放發炎 cytokine → **hyperinflammation** → **familial hemophagocytic lymphohistiocytosis（FHL）**：高燒、嚴重發炎、噬血現象。
-- **X-linked lymphoproliferative syndrome（XLP，SAP 缺陷）**：EBV 感染 B 細胞後，T / NK 無法控制 → **EBV 觸發 lymphoproliferation**、免疫失調 → 類似 leukemia 的 EBV 相關疾病。
+  - 分型（顆粒路徑各步驟）：**perforin → FHL2**、Munc13-4（priming）→ FHL3、syntaxin 11 → FHL4、Munc18-2 → FHL5；顆粒運輸／停靠缺陷：**LYST → Chédiak–Higashi**、**Rab27a → Griscelli**。
+- **X-linked lymphoproliferative syndrome（XLP，SAP 缺陷）**：EBV 感染 B 細胞後，T / NK 無法控制 → **EBV 觸發 lymphoproliferation**、免疫失調 → 類似 leukemia 的 EBV 相關疾病。另一型 **XIAP 缺陷**（抑制凋亡 caspase 的功能受損）：EBV 感染後猛爆性傳染性單核球增多症、淋巴瘤、低丙種球蛋白血症。
 
 ## 8. 治療三層次：Replace、Reconstitute、Correct
 | 層次 | 做法 | 例 |
@@ -148,14 +151,8 @@
 6. **Perforin 缺陷 → FHL（hyperinflammation）**；**XLP（SAP）→ EBV lymphoproliferation**。
 7. **治療三層次**：replace（IVIG）、reconstitute（HSCT）、correct（gene therapy / CRISPR）；HSCT 併發症 GVHD vs graft rejection。
 
-## 📒 百十四共筆對照（Ch18-2）
-- **遺傳模式**：X-linked SCID（IL2RG）為 **X 染色體隱性**（患者多為男性）；**RAG1/2、FOXN1** 缺陷都是**體染色體隱性**。XLA、X-linked hyper-IgM、XLP 也都是 X-linked。
-- 次發性（後天）免疫缺陷**遠比原發性常見**，是感染與死亡的重要誘因。
-- **FHL 的分型**（細胞毒性顆粒路徑各步驟）：**perforin → FHL2**、Munc13-4（priming）→ FHL3、syntaxin 11 → FHL4、Munc18-2 → FHL5；顆粒運輸／停靠缺陷：**LYST → Chédiak–Higashi**、**Rab27a → Griscelli**。
-- **STAT3 缺陷（Job syndrome）＝高 IgE 症候群**：IL-17 產生細胞減少 → CMC，並易有**金黃色葡萄球菌**與**麴菌**感染；APECED（**AIRE** 異常）病人會產生中和 IL-17A／F 的自體抗體，也表現為 CMC。
-- XLP 另一型 **XIAP 缺陷**：抑制凋亡 caspase 的功能受損；EBV 感染後可出現猛爆性傳染性單核球增多症、淋巴瘤、低丙種球蛋白血症。
-- 課本補充：「泡泡男孩」**David Vetter** 是 X-linked SCID 病人，12 歲時死於骨髓移植併發症。
-
+## 百十三共筆對照
+- 百十三共筆沒有這章。相關內容只出現在「對抗感染的免疫反應」：**CGD**（NADPH oxidase 次單元缺陷、X-linked）與 IFN-γ 缺陷造成的**成人型免疫不全**。
 ## 🔗 跨章連結
 - IFN-γ 缺陷 / 抗 IFN-γ 自體抗體（成人型免疫缺乏）、CGD（NOX 次單位）→ 見〈對抗感染的免疫反應〉。
 - CD40L、class switch、AID → 見〈T 細胞媒介免疫與免疫細胞合作〉；RAG、V(D)J → 見〈抗原、抗體與抗體多樣性〉、〈TCR、T 細胞發育〉。

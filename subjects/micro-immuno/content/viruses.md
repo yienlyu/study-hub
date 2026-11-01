@@ -1,7 +1,7 @@
 === summary ===
-# 病毒的結構、複製與分類、抗病毒藥物（吳珊瑩）
+# 病毒的結構、複製與分類、抗病毒藥物（依百十三共筆整理，吳珊瑩）
 
-> 🕒 講義 10/20 公布（「20261030 醫學系 Microbiology-Viruses and antiviral agents」，64 頁），**10/30 上課**。113 共筆與考古沒有這章；114 期中考有 6 題病毒題（練習區收 5 題）。期中配分：**病毒構造、複製、分類與抗病毒藥 6%**。
+> 🕒 講義 10/20 公布（「20261030 醫學系 Microbiology-Viruses and antiviral agents」，64 頁），**10/30 上課**。百十四共筆還沒出，以下暫依**百十三共筆 W8-1（學藝未審版）**與今年 slides 整理；113 考古沒有這章；114 期中考有 6 題病毒題（練習區收 5 題）。期中配分：**病毒構造、複製、分類與抗病毒藥 6%**。
 
 ## 1. 病毒是什麼 ⭐⭐
 - **構造小（可通過細菌濾器）+ 絕對細胞內寄生**。但這兩點**立克次體、披衣菌**也有。
@@ -25,16 +25,17 @@
 | **對干擾素敏感** | ✗ | ✗ | ✓ |
 
 - 歷史：Mayer（1886，菸草鑲嵌病可傳染）→ **Iwanowski（1892，通過瓷濾器）** → 「contagium vivum fluidum」→ 1930s 稱 virus（拉丁文「毒」）→ **Stanley（1935）純化 TMV** → 電子顯微鏡。
-- **Host range**：由病毒能否**專一附著**宿主細胞受體，以及宿主內有無複製所需因子決定。
+- **Host range**：由病毒能否**專一附著**宿主細胞受體，以及宿主內有無複製所需因子決定；少數病毒會跨越宿主物種屏障（例：禽流感）。
+- 是不是生命？在細胞外不表現生命現象；臨床上會致病所以視為活的 →「生物的例外，也是非生物的例外」。
 - **噬菌體（bacteriophage）**：感染細菌；host range 窄、可殺宿主 → **phage therapy** 重新受重視（對抗抗藥菌）。
 - 大小：**20–1000 nm**（豬環狀病毒 17–22 nm；Tupanvirus 約 2000 nm）。
 
 ## 2. 病毒構造 ⭐⭐
 - **核酸**：dsDNA、ssDNA、dsRNA、ssRNA；線狀或環狀；**流感病毒基因體分節（segmented）**。
-- **Capsid** 由 **capsomere** 次單位組成。
+- **Capsid** 由 **capsomere** 次單位組成（二十面體：12 個五聚體）。
 - **Envelope**：常是病毒以**出芽（extrusion）**離開時帶走的**宿主細胞膜**，含病毒蛋白與宿主成分。
 - **Spikes（棘蛋白）**：醣蛋白複合物 → 部分病毒可黏紅血球 → **血球凝集（hemagglutination）**，可作實驗室檢測。
-- 形態：**螺旋形（helical）**、**多面體（icosahedral，例：人類鼻病毒）**、**複合型（complex，例：天花、噬菌體）**、**有套膜病毒**。
+- 形態：**螺旋形（helical）**、**多面體（icosahedral，例：人類鼻病毒）**、**複合型（complex，例：天花、噬菌體）**、**有套膜病毒**。百十三共筆：**無套膜的螺旋形病毒（如菸草鑲嵌病毒）目前沒有感染人類的**；冠狀病毒是有套膜的螺旋形。
 
 ## 3. 命名分類
 - 最早依症狀分類（如呼吸道疾病）；現在依 **mRNA 如何產生**（Baltimore），再用基因體與構造分科。
@@ -78,6 +79,7 @@
 ## 7. 潛伏與持續感染 ⭐⭐
 - **Latent infection**：病毒與宿主長期平衡、**不產生疾病**，之後可再活化。例：**單純皰疹 → 唇皰疹**、**水痘病毒 → 帶狀皰疹**；致癌病毒也屬此類。
 - **Persistent（chronic）infection**：病毒**逐漸、持續累積**（不是突然出現），通常致命。例：**B 型肝炎**、SSPE（麻疹 → 智力退化）。
+- ⭐ 區分（百十三標「重要」）：**潛伏感染＝潛伏期沒有症狀、也偵測不到病毒**；**持續感染＝一直偵測得到病毒，而且越來越多**。
 
 ## 8. 抗病毒藥物 ⭐⭐⭐
 - 病毒絕對寄生 → 難選擇性抑制；多數藥物標的是**病毒自己編碼的酵素或構造**；有些是**刺激宿主先天免疫**。
@@ -106,6 +108,16 @@
   - Elion 與 Hitchings 獲 1988 諾貝爾獎
 - **AZT（azidothymidine）**：原為抗癌藥，**第一個 HIV 藥**；thymidine 類似物、**抑制 reverse transcriptase**；由**宿主**酵素磷酸化；缺 3'-OH；宿主 DNA polymerase 敏感度低 100 倍；**孕婦使用可降低母子垂直傳染**；副作用可到骨髓毒性。
 - **HAART（雞尾酒療法）**：至少三種藥，**兩種 NRTI 為骨幹** + NNRTI、PI、融合抑制劑、integrase 抑制劑或 CCR5 拮抗劑擇一 → 降病毒量、升 CD4、減少伺機感染與傳播；多藥多標的 → HIV 難抗藥（多重抗藥株通常較弱）。
+
+### 百十三共筆補充的藥物細節
+- **抗病毒藥不會殺死病毒**，只延緩複製步驟、阻止新病毒產生，真正清除的是免疫細胞；有套膜的病毒顆粒怕脂質溶劑、界面活性劑 → 洗手、酒精有效。
+- 侵入與脫殼：**amantadine、rimantadine 擋 M2 質子通道 → 只對流感 A 有效**；**T20（enfuvirtide）抑制 HIV gp41 融合**（能附著但進不去）；tromantadine 擋 HSV 侵入；arildone、disoxaril、pleconaril 卡在 picornavirus capsid 的 canyon，抑制脫殼。
+- RNA 合成：**sofosbuvir** 是 prodrug，磷酸化成尿苷酸類似物 → 經 HCV **NS5B** 嵌入 RNA 終止，不抑制人類聚合酶；guanidine 結合 picornavirus 2C 蛋白；**ribavirin**（guanosine 類似物，抑制 IMP dehydrogenase、干擾 mRNA cap、造成 hypermutation；治 RSV、流感、麻疹、HCV（合併 IFN-α）；副作用**畸胎、溶血性貧血**）。
+- 核苷類似物家族：**valacyclovir**（ACV 口服前驅藥，VZV 的 thymidine kinase 效率較差、劑量要高）、**famciclovir → penciclovir**（作用較持久，也對 EBV、CMV）、**ganciclovir**（多一個 hydroxymethyl；**CMV 最強**，CMV 用其他 kinase 磷酸化；治 **CMV 視網膜炎**、HIV 病人 CMV 食道炎、結腸炎、肺炎；**骨髓毒性**；也可用於腫瘤基因治療）、**cidofovir、adefovir**（**已帶一個磷酸**，不需病毒酵素起始磷酸化）、**lamivudine**（也抑制 HBV reverse transcriptase）、ddI、d4T。
+- **Foscarnet（PFA）**：pyrophosphate 類似物，**不需磷酸化**，抑制 herpesvirus DNA polymerase 與 HIV RT；會螯合 Ca²⁺ 等二價離子 → 腎功能、骨骼副作用。
+- **NNRTI**（nevirapine、delavirdine、efavirenz）：結合非活性部位、**非競爭型抑制**；抗藥機制和核苷類似物不同 → 適合搭配。
+- 干擾素與干擾素誘導劑、antisense oligonucleotide：抑制 mRNA splicing 與轉譯；用於 HPV、HBV、HCV。
+- 流感 neuraminidase 抑制劑給藥偏好：**吃（oseltamivir）＞吸（zanamivir）＞打（peramivir）**；一歲以下不建議 oseltamivir。
 
 ### 新冠藥物
 | 藥 | 機制 | 重點 |

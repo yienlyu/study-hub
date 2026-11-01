@@ -1295,6 +1295,17 @@
   "h": 437
  },
  {
+  "id": "phagocyte-killing-map",
+  "chapter": "infection-immunity",
+  "title": "吞噬細胞怎麼殺菌（含 NOX、CGD、NETs）",
+  "topics": [
+   "吞噬作用",
+   "CGD"
+  ],
+  "keywords": "phagocytosis phagolysosome respiratory burst NADPH oxidase NOX gp91 p22 p47 p67 Rac SOD MPO HOCl iNOS NO peroxynitrite defensin lysosome CGD catalase NET NETosis PAD4 efferocytosis",
+  "caption": "口訣：<strong>吞 → 關 → 酸 → 炸 → 毒 → 切</strong>。Phagolysosome 裡有四種武器：酸化、ROS（NOX → O₂⁻ → SOD → H₂O₂ → MPO → HOCl）、NO（iNOS）、溶酶體酵素與 defensin。缺 NOX 就是 <strong>CGD</strong>：吞得進、殺不死，特別怕 catalase(+) 菌。"
+ },
+ {
   "id": "slide-ros-killing",
   "chapter": "infection-immunity",
   "title": "吞噬細胞怎麼殺菌：ROS 與 RNI",
@@ -1325,6 +1336,27 @@
   "page": "25",
   "w": 639,
   "h": 388
+ },
+ {
+  "id": "prr-map",
+  "chapter": "infection-immunity",
+  "title": "PRR 住哪裡、抓什麼（含老師的研究例）",
+  "topics": [
+   "PRRs、PAMPs、DAMPs",
+   "TLR／PRR"
+  ],
+  "keywords": "pattern recognition receptor TLR1 TLR2 TLR4 TLR3 TLR5 TLR9 RIG-I MDA5 NOD1 NOD2 NLRP3 AIM2 cGAS STING OspA Lyme West Nile OxPL HMGB1 peptidoglycan",
+  "caption": "口訣：<strong>住哪裡就抓哪裡的東西</strong>。細胞膜 TLR 抓病原表面成分，內體 TLR3/7/8/9 抓核酸，細胞質的 NOD1/2 抓 peptidoglycan、RIG-I/MDA5 只抓病毒 RNA。★ 是老師的剔除鼠研究：Lyme OspA–TLR1/2、OxPL–TLR4、West Nile–TLR3。"
+ },
+ {
+  "id": "immune-evasion-map",
+  "chapter": "infection-immunity",
+  "title": "病原在吞噬的哪一步作弊（含分子擬態）",
+  "topics": [
+   "免疫脫逃"
+  ],
+  "keywords": "immune evasion phagocytosis capsule M protein C4BP Protein A CHIPS SCIN PVL streptolysin DNase NET Shigella Rickettsia Mycobacterium tuberculosis Coxiella catalase SOD molecular mimicry cardiolipin vaccinosis post-streptococcal",
+  "caption": "口訣：看病原<strong>在哪一步作弊</strong>。GAS、<i>S. aureus</i> 是胞外菌，在趨化、調理、吞入時就擋掉，或直接殺吞噬細胞；胞內菌才在吞噬體裡動手腳：<i>Shigella</i>／<i>Rickettsia</i> 逃出、<i>M. tuberculosis</i> 擋融合、<i>Coxiella</i> 在吞噬溶酶體裡存活。"
  },
  {
   "id": "slide-prrs",

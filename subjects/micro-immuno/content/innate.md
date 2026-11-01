@@ -1,17 +1,18 @@
 === summary ===
-# 先天免疫（李岳倫）
+# 先天免疫（依百十四共筆整理、對照百十三共筆，李岳倫）
 
-> 老師標註 **\* IMPORTANT !** 的是補體三路徑。學習目標：① 細胞遷移與補體 ② 單核吞噬細胞 ③ NK 細胞毒殺。
+> 老師標註 **\* IMPORTANT !** 的是補體三路徑（百十四共筆：**補體活化路徑是本章重點**；先天性免疫細胞分類「老師之前考過」）。學習目標：① 細胞遷移與補體 ② 單核吞噬細胞 ③ NK 細胞毒殺。
 
-## 1. 發炎
+## 1. 先天免疫的組成與發炎
+- 早於淋巴球主導的後天免疫；優點**快速、反應劇烈**，缺點**無適應性、無記憶**。
+- **解剖屏障**（皮膚、黏液、皮膚 pH）、**生理屏障**（溫度、低 pH、氧、可溶物質：lysozyme、interferon、補體、**CRP**、cytokines；例：雞體溫高能防炭疽）、**吞噬屏障**（pinocytosis、receptor-mediated endocytosis）、**發炎屏障**（血流↑、通透性↑、吞噬細胞流入 → 紅腫熱痛）。
 - 急性發炎：血流↑、微血管通透性↑、白血球聚集（**neutrophil 先到 → monocyte**）；mast cell 為組織常駐、早期活化。
-- 慢性發炎：病原未清除 → macrophage、CTL、甚至 B 細胞浸潤。
 
 ## 2. 白血球遷移：Three-step model ⭐
 | 步驟 | 名稱 | 分子 | 作用 |
 |---|---|---|---|
-| 1 | **Tethering**（滾動） | **Selectin**（內皮）↔ 白血球醣蛋白上的**醣類** | 減速 |
-| 2 | **Triggering**（活化） | **Chemokine** ↔ chemokine receptor | 活化特定白血球 |
+| 1 | **Tethering**（牽引） | **Selectin**（內皮）↔ 白血球醣蛋白上的**醣類** | 白血球到小靜脈速度變慢時被抓住 |
+| 2 | **Triggering**（觸發） | 內皮或發炎組織分泌的 **chemokine** ↔ chemokine receptor | 活化特定白血球（各白血球的受體不同） |
 | 3 | **Latching**（緊密黏附） | **Integrin**（白血球，α+β 非共價）↔ **ICAM / VCAM**（Ig superfamily） | 停止、穿出血管 |
 
 > 口訣：**S → C → I**（Selectin → Chemokine → Integrin）；考古「(c)(a)(b)」。
@@ -24,14 +25,14 @@
 <div data-fig="extravasation"></div>
 
 ## 3. 補體系統 ⭐⭐⭐
-- 肝臟製造、30 多種可溶性蛋白、平時不活化、cascade 切割活化。
+- 肝臟製造、30 多種可溶性蛋白、平時不活化；偵測到病原或抗原–抗體複合體才活化；多數有 protease 功能 → cascade 切割活化。
 
 ### 三大功能
 | 功能 | 片段 |
 |---|---|
 | **Opsonization 調理** | **C3b**、C4b（iC3b）→ 被吞噬細胞 **CR** 辨識 |
 | **Chemotaxis / 發炎** | **C3a、C5a**（小分子易擴散，C3aR / C5aR；anaphylatoxin） |
-| **Lysis 溶解** | **MAC = C5b + C6 + C7 + C8 + 多個 C9** |
+| **Lysis 溶解** | **MAC = C5b + C6 + C7 + C8 + 多個 C9**（中間產物 C5b67 可先停在膜上，等 C8、C9 加入）→ cytotoxic pores |
 
 <div data-fig="complement-functions"></div>
 
@@ -47,17 +48,17 @@
 | C5 convertase | C4b2a3b | C4b2a3b | C3bBb3b |
 
 - **三路徑第一會合點 = C3 convertase**（C3 是共同成分）；第二會合點 = C5 convertase。
-- **MBL ≈ C1q**（功能相似）→ lectin 與 **classical** 機制較像（**不是** alternative）；MBL 是 **acute phase protein**、只接病原（不接宿主）。
+- **MBL ≈ C1q**（構造、功能相似，但 **MBL 只能接抗原、不能接抗原–抗體複合體**）→ lectin 與 **classical** 機制較像（**不是** alternative）；MBL 活化 **MASP-1 → MASP-2**，之後同 classical；MBL 是 **acute phase protein**、只接病原（不接宿主）。
 - **Alternative pathway 是 positive feedback loop**（C3bBb 再切 C3）；第一個被活化的蛋白是 **C3**（C4 只出現在 classical/lectin）。
 - 老師講法：alternative 的穩定啟動**依賴 classical/lectin 先產生 C3b**（所以考古選「alternative pathway is NOT linked to classical」為錯誤敘述）；但它本身**不需要抗體**。
 
 <div data-fig="complement"></div>
 
 ## 4. 單核吞噬細胞與 Opsonic receptors ⭐
-Macrophage：吞噬 → phagosome（酸化、H₂O₂、NO、TNF-α）→ 與 lysosome 融合 → phagolysosome → 部分 peptide 上 MHC II。
+Macrophage（血中 monocyte 進入組織發育而成，也是 APC）：opsonic receptor 辨認病原 → 吞入成 phagosome → 與 lysosome 融合成 phagolysosome（酸化，含酵素與 H₂O₂、NO、TNF-α）→ 大部分殘骸排出細胞，**少部分經 MHC II 呈現**。
 
 **四種 opsonic receptors**
-1. **Mannose receptor**（C-type lectin domains，辨識 mannosylated ligand）
+1. **Mannose receptor**（MFR；8 個 C-type lectin domains 辨識 mannose ligand）
 2. **Fc receptor**（FcγRI、II、III 抓 IgG；FcγR on monocyte/neutrophil）
 3. **Complement receptor**（CR1–4；CR3、CR4 也是 integrin；CR2 不在吞噬細胞上）
 4. **CD14 + TLR4**（LPS → **LPS-binding protein → CD14 → TLR4**）
@@ -99,6 +100,7 @@ Macrophage：吞噬 → phagosome（酸化、H₂O₂、NO、TNF-α）→ 與 ly
 
 
 ### TLR 對照表
+> 百十四共筆標「補充，參考百十三」。TLR 辨識的多是微生物高度保留、脊椎動物沒有的分子；DNA、RNA 例外，另有機制區分自體與微生物。
 | TLR | 位置 | Ligand |
 |---|---|---|
 | TLR1:TLR2 | 細胞膜 | mycobacteria lipomannan、細菌 lipopeptides |
@@ -107,7 +109,8 @@ Macrophage：吞噬 → phagosome（酸化、H₂O₂、NO、TNF-α）→ 與 ly
 | **TLR4** | 細胞膜 | **G− LPS（endotoxin）** |
 | **TLR5** | 細胞膜 | **flagellin** |
 | TLR7 / TLR8 | endosome | 病毒 **ssRNA** |
-| **TLR9** | endosome | **unmethylated CpG DNA** |
+| **TLR9** | endosome | 細菌與 DNA 病毒的 **unmethylated CpG DNA** |
+| TLR10 | — | 尚不明確 |
 
 ## 5. 細胞性毒殺：Tc vs NK ⭐
 | | Tc（CD8） | NK |
@@ -116,9 +119,10 @@ Macrophage：吞噬 → phagosome（酸化、H₂O₂、NO、TNF-α）→ 與 ly
 | 辨識 | TCR 辨識 **MHC I + peptide**（抗原專一） | 無抗原專一；**抑制性受體辨識 MHC I** |
 | 目標 | 呈現外來 peptide 的細胞 | **MHC I 表現下降**的細胞（病毒感染、腫瘤）＝ missing self |
 
+- 簡介：偵測並消滅藏在細胞內的病原或不正常細胞（腫瘤）；主要由 Tc、NK 執行，有時 myeloid cell 也可以。
 - NK 活化受體：**CD2、CD16、CD69**。
 - NK **抑制性受體**：
-  - **CD94/NKG2A**（有 **ITIM**）↔ **HLA-E**（呈現其他 MHC I 的 leader peptide）；CD94/NKG2C 無 ITIM → 非抑制性。
+  - **CD94/NKG2A**（有 **ITIM**）↔ **HLA-E**（與 CD94 配對的 MHC class I）；CD94/NKG2C 無 ITIM → 非抑制性。
   - **KIR-2D、KIR-3D（long tail，有 ITIM）** ↔ **HLA-C**；short tail 無 ITIM → 非抑制性。
   - ⚠️ HLA-E / HLA-C 是 **ligand**，不是 receptor。
 - 紅血球**無 MHC I**（無核）。腫瘤逃避 CTL：**降低 MHC I**（但逃不過 NK）。
@@ -143,7 +147,7 @@ Macrophage：吞噬 → phagosome（酸化、H₂O₂、NO、TNF-α）→ 與 ly
 | **ILC2** | **IL-4、IL-5、IL-13** | 寄生蟲、組織修復、**氣喘** |
 | ILC3 | IL-17、IL-22 | 胞外細菌 |
 
-- 無抗原專一性受體；轉錄因子 **Id2**。
+- 無抗原專一性受體，活化不是靠辨識特定抗原。NK、ILC1 屬性相近（清除病毒、胞內病原）；ILC2 對抗胞外寄生蟲；ILC3 對抗胞外細菌（老師要大家去看 ILC 影片）。
 
 ## 🎙️ 上課錄影重點（李岳倫，09/18）
 - 時間軸：innate 十幾個小時內就發生；adaptive（B 產抗體、T 分化成 effector）要 **5–7 天**。
@@ -210,6 +214,6 @@ Macrophage：吞噬 → phagosome（酸化、H₂O₂、NO、TNF-α）→ 與 ly
 - 錄影中練習的課堂題：三部曲排序（selectin → chemokine → integrin）、三路徑的**最初匯合點 = C3 convertase**、MAC = C5b-9、MBL 敘述何者錯（lectin 像 classical 而非 alternative）、LPS 受體 = TLR4、NK 抑制性受體 = CD94/NKG2A、ILC 敘述何者錯（**老師說曾經考過**）。
 - 老師明講：「**CD14 + TLR4 是國考常常會考的**」；補體三大功能「一定要知道」；alternative pathway 有**兩種** C3 convertase（C3bBb、C3(H₂O)Bb）。
 
-## 📒 百十四共筆對照（W02-2）
-- 共筆標示：**補體系統活化路徑是本章重點**；**先天性免疫細胞的分類「老師之前考過」**。
-- TLR 介紹（共筆參考 113 補充）：TLR4–LPS（CD14 為 co-receptor）、TLR3–dsRNA（TRIF）。
+## 百十三共筆對照
+- 百十三另寫**慢性發炎**（病原未清除 → macrophage、CTL、甚至 B 細胞浸潤）；百十四只寫急性發炎的紅腫熱痛。
+- 百十三寫 HLA-E 呈現的是其他 MHC I 的 **leader peptide**、mannose receptor 辨識 **mannosylated ligand**、ILC 的轉錄因子 **Id2**；百十四沒寫這些細節。

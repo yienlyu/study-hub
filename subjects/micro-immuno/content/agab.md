@@ -1,9 +1,10 @@
 === summary ===
-# 抗原、抗體與抗體多樣性（李岳倫）
+# 抗原、抗體與抗體多樣性（依百十四共筆整理、對照百十三共筆，李岳倫）
 
 ## 1. 抗原
 - 定義：能被 **B 細胞的 Ig receptor 或 T 細胞的 TCR** 辨識的物質。
-- 類型：exogenous（多數，吸入 / 食入 / 注射 / 傷口）、endogenous（病毒顆粒）、autoantigen。
+- 類型：**exogenous**（多數，吸入／食入／注射／傷口，如微生物）、**endogenous**（自體細胞製造但不該出現，如病毒顆粒、成熟體細胞的端粒酶片段）、**autoantigen**（自體正常產物，如 DNA polymerase 片段；辨識它的 T 細胞應在胸腺被移除）。
+- BCR = B 細胞膜上型 Ig，可辨識游離抗原；TCR 只辨識與 MHC 結合成複合體的抗原。
 - 抗體可辨識 **linear（continuous）或 conformational（discontinuous）** epitope；TCR 只辨識 **linear peptide + MHC**。
 
 | | B 細胞 | T 細胞 |
@@ -26,7 +27,8 @@
 <div data-fig="ig-domains"></div>
 
 - 木瓜酶切：**Fab**（結合抗原）、**Fc**（結合 FcR、補體）。
-- 功能：**Complement activation（IgM、IgG）**、**Opsonization（IgG–FcγR）**、**Neutralization（Fab）**。
+- 抗體 = B 淋巴球製造的**醣蛋白**：**膜上型（m-Ig）**IgM、IgD 當 BCR；**分泌型（s-Ig）**由 plasma cell 分泌。
+- 分泌型三功能：**Complement activation**（結合抗原後活化 C1 → classical pathway；吞噬細胞以 CR 抓 C3b／C4b）、**Opsonization**（IgG Fc ↔ **FcγR**）、**Neutralization**（抓住外毒素，阻止傷害標的細胞）。
 
 <div data-fig="ab-functions"></div>
 
@@ -42,27 +44,33 @@
 
 <div data-fig="ig-classes"></div>
 
-- IgG subclass 比例：IgG1 66%、IgG2 23%、IgG3 7%、IgG4 4%。
+- IgG subclass 比例：IgG1 66%、IgG2 23%、IgG3 7%、IgG4 4%；hinge 長度不同（IgG1 比 IgG3 短）。
+- **IgD：老師說不會考。**
+- **Classical complement fixation**：**IgG3（+++）> IgG1（++）> IgG2（+）**，**IgG4 不活化**；IgM（+++）；IgA、IgD、IgE 都不活化。
+- 理化性質（slides 表）：血中含量最高 **IgG**、最低 **IgE**（0.00005 mg/mL）；分子量最大 **IgM**（970 kDa）、第二大 **sIgA**（385）；最集中在血管內 **IgM**（80%）；半衰期 IgG1、IgG2、IgG4 約 20–21 天，IgG3 只有 7 天，IgE 2 天。
 - **Secretory component 由上皮細胞合成**：dimeric IgA 結合 **poly-Ig receptor** → transcytosis → 受體切下殘留 = secretory component（保護不被 protease 分解、協助運送）。
 
 <div data-fig="iga-transport"></div>
 
-- 血清 IgA1:IgA2 ≈ 10:1；腸道 IgA2 比例顯著增加。
+- 人類血中 IgA 約 **80% 是 monomer**（多數其他哺乳類以 dimer 為主）；血清 IgA1 占優勢（≈ 10:1），腸道（尤其 colon）IgA2 比例顯著增加。
 - **TGF-β 促進 IgA class switch**（不是 IL-12）。
 - 新生兒保護：**IgG（胎盤）+ IgA（母乳）**。
 - 疫苗第二劑後快速出現的是 **IgG**（memory B）；初次反應第 5 天還不會有大量 IgM。
 
 ## 4. B 細胞發育中的抗體表現
 - 胚胎期在肝、出生後在**骨髓**（V(D)J 重組發生地）。
+- 例題：抗體 V 區重組發生在 **骨髓**。
 - Pro-B → Pre-B：**重鏈先重組（μ）**；Pre-B → immature B：輕鏈重組，**κ 先、失敗才 λ**（μ → κ → λ）；成功後抑制另一個 → **allelic exclusion**。
 - Immature B：膜上 IgM；Mature B：**IgM + IgD** → 至周邊 → 抗原刺激 → plasma cell（分泌型）或 memory B；可 class switch。
 - **Somatic hypermutation 發生在 mature B 被抗原活化之後**（germinal center），其他多樣性機制在骨髓發育時。
 
 ## 5. 抗體多樣性六大機制 ⭐⭐
 1. **Multiple germline V genes**
-2. **V-J（輕鏈）與 V-D-J（重鏈）recombination**：重鏈**先 D-J，再 V-DJ**
+2. **V-J（輕鏈）與 V-D-J（重鏈）recombination**：重鏈**先 D-J，再 V-DJ**（Ig 基因重組的起始步驟 = **重鏈 D-J**）
+   - κ 輕鏈：**76 V × 5 J × 1 C**（λ 有 4 種 C）；重鏈：**87 V × 30 D × 6 J × 5 C**。重組在 pre-B → immature B 時發生，之後轉錄、RNA splicing、轉譯。
+   - 注意 V **gene** 與 V **domain** 層級不同；C 不同（IgM vs IgG）也可能有相同的抗原結合位。
 3. **Assorted heavy & light chain**（κ、λ 可能數要「相加」再乘重鏈）
-4. **Gene conversion**（人類沒有；雞用 pseudogene 置換 V）
+4. **Gene conversion**（人類沒有；豬、雞、牛、馬 V、D、J 多樣性不足 → 雞用 pseudogene 片段置換 V）
 5. **Junctional diversity**
 6. **Somatic point mutation（hypermutation）** → affinity maturation
 
@@ -153,9 +161,7 @@
 - 錄影中的課堂題：B 細胞抗原特性「不包括」需 MHC；V region 重組在 bone marrow；IgA 敘述何者正確（secretory component 由上皮製造；**TGF-β** 促 IgA；IgA1 / IgA2 在血清與腸道比例不是 1:1）；最先的重組步驟 = heavy chain D–J；somatic hypermutation 只有 B 細胞。
 - 易混：抗體三功能（中和、調理、活化補體）vs 補體三功能（溶解、趨化、調理）；沒有 hinge 的是 **IgM、IgE**。
 
-## 📒 百十四共筆對照（W03-1）
-- **IgD：老師說不會考。**
-- 老師強調：**secretory component 是上皮細胞做的**，不是 B cell／plasma cell。
-- 促進 IgA class switching 的關鍵 cytokine 是 **TGF-β**。
-- **IgG 是唯一能通過胎盤的抗體**（四個 subclass 都可以；國考常考）。
-- 算抗體多樣性時：**κ 與 λ 的可能數要相加、不是相乘**；注意 V gene 與 V domain 是不同層級。
+## 百十三共筆對照
+- 百十三和百十四的架構幾乎一樣（百十四以百十三為底稿），差異主要是百十四補充的部分：**IgD 不會考**、Ig 理化性質表、IgG subclass 活化補體的強弱、IgA 考題（TGF-β、上皮細胞做 secretory component）。
+- 百十三寫 IgA 可形成 dimer **甚至 trimer（不常見）**，並強調 IgA 的主要作用是**在黏膜中和毒素與病原**；百十四沒提 trimer，另補充人類血中 IgA 約 80% 是 monomer。
+- 百十三的 IgE 段落把過敏標為 **type I hypersensitivity**，釋放物寫 histamine、leukotriene、cytokines；百十四寫 histamine、leukotrienes、prostaglandins。

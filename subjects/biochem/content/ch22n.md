@@ -63,7 +63,7 @@
 === exam ===
 # 考點分析
 
-## 🔥 高頻考點（113 共筆 Ch22，47 題）
+## 🔥 高頻考點（百十三共筆 Ch22，47 題）
 1. **Ribonucleotide reductase**（約 7 題）：一個酵素還原四種 NDP；**dATP 抑制**；TDP、dADP 不是受質。
 2. **dTMP 合成**（約 6 題）：thymidylate synthase + **5,10-methylene-THF** + DHFR；thymidine kinase 不需要。
 3. **藥物標的**（約 10 題）：5-FU → thymidylate synthase；methotrexate、aminopterin、trimethoprim → DHFR；AZT → 反轉錄酶、prodrug；ganciclovir → HSV thymidine kinase；allopurinol → xanthine oxidase。

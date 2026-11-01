@@ -1,8 +1,8 @@
 === summary ===
 
-# 真菌構造與黴菌病（鍾筱菁）
+# 真菌構造與黴菌病（依百十四共筆整理、對照百十三共筆，鍾筱菁）
 
-> 🎙️ 本章依 2026 上課錄影的逐字稿與 slides 整理：10/24「真菌結構及抗真菌藥物」（颱風假錄影 54 分）、10/28「真菌感染症」（約 90 分），並對照 113／111 考古詳解（113 共筆沒有收錄本章）。期中配分：**真菌構造與抗真菌藥 3%、真菌感染 6%**。
+> 🎙️ §1–5（真菌構造、抗真菌藥）依**百十四共筆 W7-2** 整理；§6 之後的真菌感染症百十四共筆還沒出，先依 2026 上課錄影（10/24「真菌結構及抗真菌藥物」颱風假錄影 54 分、10/28「真菌感染症」約 90 分）、slides 與**百十三共筆 W18-1** 整理；另對照 113／111 考古詳解。期中配分：**真菌構造與抗真菌藥 3%、真菌感染 6%**。
 > 「**真菌一定會考**，不像細菌、病毒要用猜的」，期中考題中英文混雜，背不起英文就背中文；國考直接考英文學名。
 > ⭐ = 老師說會考或國考題；~~刪除線~~ = 老師說不考。
 
@@ -32,7 +32,7 @@
 - **菌絲的兩種分法（國考題）** ⭐：
   - 形態：**septate（有隔）**（子囊菌、擔子菌）vs **coenocytic（無隔）**（**接合菌**）。
   - 功能：**營養菌絲**（匍匐在培養基表面或內部吸收養分，像草莓的匍匐莖）vs **空中（氣生）菌絲**（頂端長分生孢子或孢子囊孢子）。
-- **Dimorphism（雙形性）取決於「溫度」** ⭐（老師說「一個字就能判斷你有沒有上課」）：戶外低於 37 °C = **mold**；吸進體內 37 °C = **yeast**（像細菌一樣分裂、造成肺炎）。**全身性的 true pathogen 幾乎全都是 dimorphic**。
+- **Dimorphism（雙形性）取決於「溫度」** ⭐（老師說「一個字就能判斷你有沒有上課」）：自然環境 **< 30 °C = mold**（hyphae、spore）；進入動物體內 **35–40 °C = yeast**（百十四共筆的溫度；老師口頭說「低於 37 °C」）（像細菌一樣分裂、造成肺炎）。**全身性的 true pathogen 幾乎全都是 dimorphic**。
   - 代表：_Histoplasma_、_Blastomyces_、_Coccidioides_、_Paracoccidioides_、_Talaromyces marneffei_、**_Sporothrix schenckii_**（皮下）。
   - _Candida albicans_ 在 37 °C yeast、pseudohyphae、hyphae 同時存在 → **不算典型 dimorphic**；_Cryptococcus_ 是 yeast，也不算。
 
@@ -57,7 +57,7 @@
 
 | 門                                   | 菌絲                               | 無性孢子                                  | 有性孢子                                     | 代表                                                                                                                         |
 | ------------------------------------ | ---------------------------------- | ----------------------------------------- | -------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| **子囊菌門 Ascomycota**              | **有隔**                           | **conidia**（_Talaromyces_ 掃帚狀、瓶形） | **ascospore**（ascus 內 4、8 個）            | **約 50% 已命名真菌、約 80% 醫學重要真菌**：_Aspergillus_、_Penicillium／Talaromyces_、酵母菌、_Candida_、**_Pneumocystis_** |
+| **子囊菌門 Ascomycota**              | **有隔**                           | **conidia**（_Talaromyces_ 掃帚狀、瓶形） | **ascospore**（減數分裂 4 核再有絲分裂 → **ascus 內 8 個**） | **約 50% 已命名真菌、約 80% 醫學重要真菌**：_Aspergillus_、_Penicillium／Talaromyces_、酵母菌、_Candida_、**_Pneumocystis_** |
 | **擔子菌門 Basidiomycota（香菇門）** | 有隔、clamp connection             | **幾乎沒有**                              | **basidiospore**（菌傘下每個 basidium 4 個） | 香菇、杏鮑菇、毒蠅傘（紅傘傘白桿桿）；**醫學三隻：_Malassezia_、_Trichosporon_、_Cryptococcus neoformans_（國考題）** ⭐     |
 | **接合菌（毛黴門）**                 | **無隔（coenocytic）**、分枝約 90° | **sporangiospore**                        | **zygospore（接合孢子）**                    | **_Rhizopus_（麵包發霉的根黴菌）**、_Mucor_、_Absidia_                                                                       |
 | **微孢子門 Microspora**              | —                                  | 只有無性                                  | **沒有有性世代**                             | _Encephalitozoon_：**無粒線體、無微管（無典型 cytoskeleton）、絕對細胞內寄生**；伸出 tube 把核注入宿主細胞                   |
@@ -81,8 +81,14 @@
 - \*\*Amphotericin B ⭐：
   - **直接結合膜上的 ergosterol 打洞 → 殺菌效果直接**；但也會結合人的 **cholesterol** → **高毒性**，「**殺敵一萬、自損八千**」。
   - **IV 給藥，用在快死的、致命的全身性黴菌病**。從皮下以下每一種嚴重感染，老師都問「用什麼藥？」→ 答案都是 amphotericin B。
+  - **脂質製劑**（lipid complex、colloidal dispersion、liposomal）：毒性較低、較貴。**Nystatin**：口服懸液或外用，只做局部治療（毒性太高不全身用）。
   - **Amphotericin B + 5-FC = 協同作用（synergistic）** ⭐：amphotericin B 的毒性 **dose-dependent** → 併用 5-FC 可以**降低劑量、達到同樣療效**（1 + 1 > 1）。
   - **例外：_Pneumocystis_ 沒有 ergosterol → 不能用 amphotericin B** ⭐。
+- **Azoles 細分**（百十四共筆）：**imidazoles**（五員環 2 個 N：ketoconazole、miconazole、clotrimazole…）vs **triazoles**（3 個 N：fluconazole、itraconazole、voriconazole、posaconazole、isavuconazole；對真菌酵素選擇性較高）。共同機轉：抑制 cytochrome P450 依賴的 **lanosterol 14α-demethylase（ERG11）**。
+  - **Fluconazole**：口服、IV；偏酵母菌、**CNS 穿透性佳**；_C. krusei_ 原發抗藥、_C. glabrata_ 也可能抗藥。**Voriconazole**：酵母＋黴菌、對 _C. krusei_ 有效、交互作用多。**Posaconazole**、**isavuconazole**：涵蓋**毛黴菌**（isavuconazole 可治侵襲性麴菌症與毛黴菌症）。Ketoconazole 口服有毒性，使用受限。
+- **麥角固醇合成路徑**：acetyl-CoA → HMG-CoA → mevalonate → **squalene →（allylamine 擋 squalene epoxidase）→ lanosterol →（azole 擋 14α-demethylase）→ ergosterol**（polyene 直接結合成品）。Amorolfine 擋 C14-reductase 與 Δ8,7-isomerase。
+- **Echinocandins**（IV）：caspofungin（侵襲性念珠菌症、麴菌症）、anidulafungin、micafungin（念珠菌症）；對 _Candida_ 是 **fungicidal**。其他標的：nikkomycin 抑制 **chitin** 合成、sordarins 抑制蛋白質合成。
+- **5-FC 代謝**：cytosine deaminase → **5-FU** → 5-FUTP 嵌入 RNA；**5-FdUMP 抑制 thymidylate synthase** → 擋 DNA 合成。百十四共筆寫抗菌範圍主要是 _Candida_ 與 _Cryptococcus_，**對多數黴菌無效**；**單獨使用易產生抗藥性**。
 - 考古：_Candida krusei_ **天生抗 fluconazole**（見 §11）；真菌感染上升的原因是抗藥性、免疫抑制劑、AIDS（**不是菌種明顯增加**）。
 
 ## 6. 黴菌病總覽（老師說國考前整張背起來）
@@ -104,7 +110,7 @@
   - **擔子菌門（國考題）**；**幾乎每個人身上都有**，但**需要油脂**才發病（老師：全身油滋滋、不愛洗澡的年輕人）。
   - 干擾黑色素 → **脫色白斑**（深膚色者最明顯）。
   - 嚴重一點：毛囊炎、**脂漏性皮膚炎、頭皮屑**；systemic infection 很少（導管相關敗血症）。
-  - 治療：**ketoconazole（仁山利舒）**。
+  - 治療：**ketoconazole（仁山利舒）**；百十三另列二硫化硒洗髮精、itraconazole。
 - **毛結節菌病（piedra）**：長在毛幹上，看起來像頭蝨卵。
   - **白色毛結節 white piedra：_Trichosporon_（beigelii）**，**擔子菌門**。
   - **黑色毛結節 black piedra：_Piedraia hortae_**。
@@ -115,8 +121,9 @@
 - 依部位命名：**頭癬、鬚癬、體癬（金錢癬，ringworm）、股癬、足癬（香港腳 = athlete's foot，濕又溫暖）、甲癬（灰指甲）**。
 - **三個屬一定要背（醫學系、護理系國考出過 3–4 次）**：**_Trichophyton_、_Microsporum_、_Epidermophyton_**。
   - 考古看圖題：大孢子形狀 _Trichophyton_ 臘腸狀、**_Microsporum_ 梭狀**、**_Epidermophyton_ 棒狀**。
+  - 百十三補充：_Microsporum_（有性型 _Nannizzia_）侵犯頭髮、皮膚、少侵犯指甲，來自貓狗（**_M. canis_**）→ **致禿的頭癬**；_Epidermophyton_（百十三寫有性型 _Arthroderma_）侵犯皮膚、指甲，**接觸傳染**（角力選手、衣物）→ **體癬**；灰指甲口服藥要回診查肝功能。
 - **不會致死**；症狀來自發炎與過敏反應。治療用 **azole**（不用 amphotericin B）；灰指甲太嚴重就拔掉；頭癬用 griseofulvin。考古情境題：_Candida_ 或皮癬菌造成的指甲感染 → **terbinafine**。
-- 診斷：**Wood's lamp（UV）照射會發螢光**；KOH 看皮屑、指甲。
+- 診斷：**Wood's lamp（UV）照射會發螢光**；熱的 **10–20% KOH** 溶掉角質後看皮屑、指甲；螢光染劑或 **PAS 染色**。
 - 人、動物（貓）、土壤都是 reservoir；孢子耐性強、潛伏期長。
 - 老師的貓「將將」故事：從一屋 19 隻貓的家庭領養 → 全身真菌 → 獸醫叫牠用 **ketoconazole 藥浴（仁山利舒同成分）**洗澡 → 老師手上長出「最典型的金錢癬」 → 口服藥吃 3 天、睡 3 天。
 
@@ -126,12 +133,13 @@
   - **玫瑰園丁病（rose gardener's disease）**：土壤中的孢子經**刺傷傷口**進入。
   - 從皮膚進來的感染 → **沿淋巴管一顆一顆、成串的結節**（lymphocutaneous）；看到「園丁 + 成串淋巴結」就是它。未治療可能到肺。
   - 培養：25 °C **rosette（雛菊、梅花狀）conidia**、37 °C **cigar-shaped yeast**。
+  - 診斷：看菌落或**血清外抗原試驗（exoantigen test）**。
   - 治療：**potassium iodide（KI）**或 itraconazole；**很少致死**。
 - **暗色黴菌三病（三個一起記；記病名就好，菌名「考了太狠」）**：菌絲和孢子都是**暗色**（統稱暗色黴菌症）。
   - **著色芽生菌病（chromoblastomycosis）**：_Fonsecaea pedrosoi_ 等；**赤腳農夫**在田裡被割傷 → 經過**好幾年**才從癢的小病灶變成 papule／ulcer，再變成**疣狀 nodule、granuloma**。
   - **暗色絲孢黴病（phaeohyphomycosis）**：棕色菌絲（_Alternaria_、_Exophiala_）；高度免疫低下者，皮膚 → 囊腫 → 骨、腦、肺。
   - **足菌腫（fungal mycetoma，Madura foot）**：真菌（_Pseudallescheria_、_Madurella_）；**細菌性的是 actinomycetes（放線菌）**；黑色顆粒，侵犯肌肉、骨骼。
-  - 共同點：**不知不覺、時間冗長、很難治療** → **手術切除疣狀物 + amphotericin B**（或併用 azole、5-FC）。
+  - 共同點：**不知不覺、時間冗長、很難治療** → **手術切除疣狀物 + amphotericin B**（或併用 azole、5-FC）。百十三補充：著色芽生菌病可局部加熱或**冷凍治療（cryotherapy）**，再用外用 amphotericin B 併用 **thiabendazole** 或 5-FC。
 
 ## 10. 全身性黴菌病（true pathogen）⭐ 老師：「這四個我會考一題，每個系都一樣」
 
@@ -317,3 +325,8 @@
 ## 📝 出題模式
 
 - 大量國考題（94–103 年），中文為主；**看圖題約 10 題**（孢子型態、皮癬菌大孢子、India ink 影像）→ 建議搭配課本圖譜複習。
+
+## 百十三共筆對照
+- 原本寫「百十三共筆沒有收錄本章」有誤：百十三有 **W17-2「Fungal Structure and Fungal drugs」**與 **W18-1「真菌」**（在學藝未審版資料夾）。
+- 真菌構造與藥物部分，百十三與百十四內容大致相同（百十四以百十三為底稿，標「參考百十三共筆」的有真菌與細菌比較表、dimorphism 的成因）。百十三另寫擔子菌的 **clamp connection**、很少產生無性孢子。
+- 百十四新增的：azole 的 imidazole／triazole 分類與各藥比較、amphotericin B 脂質製劑、5-FC 代謝路徑、nikkomycin 與 sordarins。

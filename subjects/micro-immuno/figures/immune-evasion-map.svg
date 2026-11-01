@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" role="img" aria-label="免疫脫逃觀念圖：沿著吞噬流程（趨化、調理與吞入、殺吞噬細胞、吞噬體內）標出各病原在哪一步作弊。GAS 與 S. aureus 在被吞入之前就擋掉；Shigella 與 Rickettsia 逃出吞噬體；M. tuberculosis 與 HIV 阻止吞噬體與溶酶體融合；Coxiella 在吞噬溶酶體裡存活。下方是分子擬態造成的自體免疫例子。">
+<defs><marker id="ev-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker></defs>
+
+<text x="380" y="22" text-anchor="middle" class="tb">口訣：看病原「在哪一步作弊」——吞進去之前擋，還是吞進去之後躲</text>
+<text x="380" y="40" text-anchor="middle" class="ts">GAS、<tspan font-style="italic">S. aureus</tspan> 是胞外菌 → 在外面就擋掉；胞內菌才在吞噬體裡動手腳</text>
+
+<!-- 流程條 -->
+<rect x="14" y="54" width="732" height="40" rx="10" class="bp"/>
+<text x="104" y="79" text-anchor="middle" class="tb">① 趨化</text>
+<path d="M170 74H196" class="ln" marker-end="url(#ev-a)"/>
+<text x="285" y="79" text-anchor="middle" class="tb">② 調理、附著、吞入</text>
+<path d="M372 74H398" class="ln" marker-end="url(#ev-a)"/>
+<text x="470" y="79" text-anchor="middle" class="tb">③ 吞噬細胞存活</text>
+<path d="M538 74H564" class="ln" marker-end="url(#ev-a)"/>
+<text x="652" y="79" text-anchor="middle" class="tb">④ 吞噬體 → 殺菌</text>
+
+<path d="M14 106H560" class="lr dash"/>
+<text x="287" y="124" text-anchor="middle" class="ts tr">吞進去之前就擋掉（胞外菌）</text>
+<path d="M568 106H746" class="lv dash"/>
+<text x="657" y="124" text-anchor="middle" class="ts tv">吞進去之後躲（胞內菌）</text>
+
+<!-- ① 趨化 -->
+<g class="hot" data-tip="擋住 neutrophil 被叫來：<br><i>S. aureus</i> <b>CHIPS</b> 干擾 C5a receptor；<br>GAS <b>ScpA／ScpC</b>（C5a peptidase）切掉 C5a、IL-8。" data-label="擋趨化">
+<rect x="20" y="136" width="168" height="152" rx="10" class="br"/>
+<text x="104" y="158" text-anchor="middle" class="tb tr">擋趨化</text>
+<text x="104" y="182" text-anchor="middle" class="ts"><tspan font-style="italic">S. aureus</tspan>：CHIPS</text>
+<text x="104" y="200" text-anchor="middle" class="ts">（干擾 C5a receptor）</text>
+<text x="104" y="226" text-anchor="middle" class="ts">GAS：ScpA／ScpC</text>
+<text x="104" y="244" text-anchor="middle" class="ts">（切 C5a、IL-8）</text>
+<text x="104" y="272" text-anchor="middle" class="ts">→ 叫不到 neutrophil</text>
+</g>
+
+<!-- ② 調理、附著、吞入 -->
+<g class="hot" data-tip="不讓 C3b、IgG 黏上去，吞噬細胞就認不出來：<br><b>莢膜</b>（肺炎鏈球菌；GAS 的 hyaluronic acid 莢膜模仿結締組織）、biofilm；<br>GAS <b>M protein 抓 C4BP</b> → C3b 沉積↓；<br><i>S. aureus</i> <b>Protein A 抓 IgG Fc</b>（倒著抓，Fc receptor 接不到）、<b>SCIN</b> 抑制 C3 convertase；<br>GAS <b>EndoS</b> 修飾 IgG 醣鏈、<b>SpeB</b> 分解宿主蛋白。" data-label="擋調理與吞入">
+<rect x="196" y="136" width="178" height="152" rx="10" class="br"/>
+<text x="285" y="158" text-anchor="middle" class="tb tr">擋調理與吞入 ★</text>
+<text x="285" y="182" text-anchor="middle" class="ts">莢膜（肺炎鏈球菌）、biofilm</text>
+<text x="285" y="200" text-anchor="middle" class="tb" style="font-size:12px">GAS：M protein＋C4BP</text>
+<text x="285" y="218" text-anchor="middle" class="ts">GAS：EndoS、SpeB</text>
+<text x="285" y="240" text-anchor="middle" class="tb" style="font-size:12px"><tspan font-style="italic">S. aureus</tspan>：Protein A（抓 Fc）</text>
+<text x="285" y="258" text-anchor="middle" class="ts">＋ SCIN（擋 C3 convertase）</text>
+<text x="285" y="278" text-anchor="middle" class="ts">→ C3b、IgG 黏不上去</text>
+</g>
+
+<!-- ③ 殺吞噬細胞 -->
+<g class="hot" data-tip="直接殺掉吞噬細胞或破壞它的武器：<br>GAS <b>SLO、SLS</b>（streptolysin）、<i>S. aureus</i> <b>PVL</b> 等 leukocidin；<br>GAS <b>DNase</b> 切斷 NETs 逃出網子。" data-label="殺吞噬細胞">
+<rect x="382" y="136" width="176" height="152" rx="10" class="br"/>
+<text x="470" y="158" text-anchor="middle" class="tb tr">殺吞噬細胞</text>
+<text x="470" y="182" text-anchor="middle" class="ts">leukocidin 打破細胞膜</text>
+<text x="470" y="204" text-anchor="middle" class="tb" style="font-size:12px">GAS：SLO、SLS</text>
+<text x="470" y="224" text-anchor="middle" class="tb" style="font-size:12px"><tspan font-style="italic">S. aureus</tspan>：PVL</text>
+<text x="470" y="250" text-anchor="middle" class="ts">GAS：DNase 切 NETs</text>
+<text x="470" y="272" text-anchor="middle" class="ts">→ 吞噬細胞死掉或網不住</text>
+</g>
+
+<!-- ④ 吞噬體內：三種求生法 -->
+<g class="hot" data-tip="<b>吞噬體裡的三種求生法</b>：<br>① 逃出吞噬體：<b><i>Shigella</i>、<i>Rickettsia</i></b>（<i>Listeria</i> 用 pore-forming toxin）<br>② 阻止吞噬體與溶酶體融合：<b><i>M. tuberculosis</i></b>、HIV<br>③ 在吞噬溶酶體裡照樣存活：<b><i>Coxiella burnetii</i></b>" data-label="吞噬體裡的三種求生法">
+<rect x="566" y="136" width="174" height="236" rx="10" class="bv"/>
+<text x="653" y="158" text-anchor="middle" class="tb tv">吞噬體裡三種求生法</text>
+<rect x="578" y="170" width="150" height="56" rx="8" class="bx"/>
+<text x="653" y="190" text-anchor="middle" class="tb" style="font-size:12px">① 逃出吞噬體</text>
+<text x="653" y="210" text-anchor="middle" class="ts"><tspan font-style="italic">Shigella</tspan>、<tspan font-style="italic">Rickettsia</tspan></text>
+<rect x="578" y="234" width="150" height="62" rx="8" class="bx"/>
+<text x="653" y="254" text-anchor="middle" class="tb" style="font-size:12px">② 阻止與溶酶體融合</text>
+<text x="653" y="274" text-anchor="middle" class="ts"><tspan font-style="italic">M. tuberculosis</tspan>、HIV</text>
+<text x="653" y="290" text-anchor="middle" class="ts">（TB 另有 SOD）</text>
+<rect x="578" y="304" width="150" height="56" rx="8" class="bx"/>
+<text x="653" y="324" text-anchor="middle" class="tb" style="font-size:12px">③ 在吞噬溶酶體存活</text>
+<text x="653" y="344" text-anchor="middle" class="ts"><tspan font-style="italic">Coxiella burnetii</tspan></text>
+</g>
+
+<!-- 抗氧化 -->
+<g class="hot" data-tip="吞進去後抵抗 ROS：<i>S. aureus</i> 的 <b>catalase</b> 分解 H₂O₂（所以 CGD 病人特別怕 catalase(+) 菌）；<i>M. tuberculosis</i> 的 <b>SOD</b> 清除 O₂⁻。" data-label="抗氧化">
+<rect x="20" y="300" width="538" height="72" rx="10" class="bw"/>
+<text x="289" y="322" text-anchor="middle" class="tb">就算被吞了，還能抗氧化</text>
+<text x="289" y="344" text-anchor="middle" class="ts"><tspan font-style="italic">S. aureus</tspan>：catalase 分解 H₂O₂（CGD 病人怕 catalase(+) 菌）</text>
+<text x="289" y="362" text-anchor="middle" class="ts"><tspan font-style="italic">M. tuberculosis</tspan>：SOD 清除 O₂⁻</text>
+</g>
+
+<!-- 陷阱 -->
+<text x="380" y="398" text-anchor="middle" class="tb tr" style="font-size:12px">✗「GAS 主要靠阻止吞噬體與溶酶體融合」：GAS 是在 ①②③ 就擋掉；阻止融合的是 M. tuberculosis、HIV</text>
+
+<!-- 自體免疫 -->
+<text x="24" y="430" class="th">自體免疫：分子擬態（molecular mimicry）＝ 病原長得像自己 → 抗體打錯人</text>
+<g class="hot" data-tip="<b>Post-streptococcal</b>：GAS 的 M protein 模仿心肌 → 心肌炎（風濕熱）、關節炎、舞蹈症（Sydenham chorea）；免疫複合體沉積腎絲球 → 鏈球菌感染後腎絲球腎炎。" data-label="Post-streptococcal">
+<rect x="20" y="440" width="236" height="96" rx="10" class="bx"/>
+<text x="138" y="462" text-anchor="middle" class="tb">GAS M protein ≈ 心肌</text>
+<text x="138" y="484" text-anchor="middle" class="ts">心肌炎、關節炎、舞蹈症</text>
+<text x="138" y="504" text-anchor="middle" class="ts">（免疫複合體 → 腎絲球腎炎）</text>
+<text x="138" y="524" text-anchor="middle" class="ts">post-streptococcal disorder</text>
+</g>
+<g class="hot" data-tip="研發 HIV 疫苗時，針對 gp120／gp41 的抗體會結合 <b>cardiolipin</b>（自身抗原）→ 交叉反應。" data-label="HIV gp41">
+<rect x="262" y="440" width="236" height="96" rx="10" class="bx"/>
+<text x="380" y="462" text-anchor="middle" class="tb">HIV gp120／gp41 ≈ cardiolipin</text>
+<text x="380" y="484" text-anchor="middle" class="ts">疫苗抗體結合自身磷脂</text>
+<text x="380" y="504" text-anchor="middle" class="ts">→ cross-reaction</text>
+<text x="380" y="524" text-anchor="middle" class="ts">tolerance breakdown</text>
+</g>
+<g class="hot" data-tip="<b>Vaccinosis</b>：疫苗可能引發自體免疫反應，例如傷寒、小兒麻痺、B 肝疫苗可能引起關節炎。" data-label="Vaccinosis">
+<rect x="504" y="440" width="236" height="96" rx="10" class="bx"/>
+<text x="622" y="462" text-anchor="middle" class="tb">Vaccinosis</text>
+<text x="622" y="484" text-anchor="middle" class="ts">傷寒、小兒麻痺、B 肝疫苗</text>
+<text x="622" y="504" text-anchor="middle" class="ts">→ 可能引起關節炎</text>
+</g>
+
+<text x="380" y="566" text-anchor="middle" class="ts">病毒另外的脫逃：干擾 TLR3／RIG-I／MDA5 與 IFN 訊號、慢性感染 T cell exhaustion、登革熱 ADE（見正文）</text>
+</svg>

@@ -1,6 +1,6 @@
 === summary ===
 
-# TCR、T 細胞發育與 TCR 訊息傳遞（陳玫潔）
+# TCR、T 細胞發育與 TCR 訊息傳遞（依百十四共筆整理、對照百十三共筆，陳玫潔）
 
 > 這堂課分三段：① T cell receptor 基因重組與多樣性 ② T 細胞在胸腺的發育與篩選 ③ TCR 訊息傳遞與三訊號活化。
 
@@ -11,7 +11,9 @@
   - CD3 有 6 條鏈、排成 3 對：**εδ、εγ、ζζ**。CD3 的 δ、ε、γ 和 Ig 的同名鏈無關。
   - **TCR 本身不能傳訊**，靠 CD3 與 ζ 鏈上的 **ITAM**（immunoreceptor tyrosine activation motif）。
 - TCR 像一個**膜上的 Fab 片段**：α（40–50 kDa）、β（35–47 kDa），各有 V、C domain；V 上有 CDR1、2、3，**CDR3 位在抗原結合位中央、最多變**，負責接 MHC 槽裡的 peptide。
-- **Co-receptor CD4 / CD8**：結合 MHC、增加 avidity，並帶 **Lck** 參與訊息傳遞。
+- **Co-receptor CD4 / CD8**：結合 MHC（**CD4 接 MHC II 的 β2、CD8 接 MHC I 的 α3**）、增加 avidity，並帶 **Lck** 參與訊息傳遞。
+- 與抗體不同：TCR **製造後不會再修飾**（沒有 SHM、class switch）。αβ（95%）主要辨識**胜肽**；γδ 多辨識**脂類與完整蛋白質**。
+- **MHC restriction**：胜肽要由 APC 呈現、與**自體 MHC** 結合才能被 TCR 辨識。
 
 <div data-fig="tcr-cd3"></div>
 
@@ -24,7 +26,8 @@
 | 染色體 | 14        | 7                             | 7         | 14（**在 α 基因座內，Vα 與 Jα 之間**） |
 
 - β 鏈和 Ig 重鏈相比：**D 片段較少、有 2 組 J 和 C**。
-- 同樣遵守 **RSS 12/23 rule**、**allelic exclusion**。
+- 同樣遵守 **RSS 12/23 rule**（heptamer–spacer–nonamer；one turn 12 bp 一定配 two turn 23 bp；最重要的酵素 **RAG1、RAG2**）、**allelic exclusion**。
+- 發育時**先 β 再 α**；β 先和**假的 α（surrogate α）**配對，也能傳訊。
 - **Vα 接到 Jα 時，中間的 δ 基因座會被刪除** → 產生 αβ 的細胞不會再有 δ。
 - **Rearrangement rescue**：α 鏈有很多 Vα、很多 Jα，第一次重組沒成功可以用外側的 V、內側的 J **再重組一次**，直到產生有功能的 α 鏈並通過 positive selection，否則細胞死亡。
 
@@ -41,6 +44,7 @@
 | 理論總多樣性                                  | ~5 × 10¹³        | **~10¹⁸**                                              |
 
 - **CDR3 最多變**：α 鏈 CDR3 由 V 尾端 + J 開頭組成；β 鏈 CDR3 由 V、D、J 連接處加上隨機核苷酸組成。
+- **N-nucleotide（TdT，不需模板）在 TCR 遠多於 P-nucleotide**，是 CDR3 高度變異的主因；D 片段起始位置變動 → 可用三種讀框解碼。
 - 所以 TCR 雖然**沒有 SHM**，但理論多樣性比 Ig 還高（J 多、D 可三框讀、多 D 串接）。
 
 ## 4. αβ vs γδ T 細胞
@@ -58,7 +62,8 @@
 
 ## 5. 胸腺中的 T 細胞發育 ⭐⭐
 
-- T 前驅細胞在胸腺**大量增殖，但大多數死亡**；只有約 **2–5%** 成為 single positive 離開。
+- 起源：骨髓 **HSC → common lymphoid progenitor（CLP）** → 經血液到胸腺。
+- T 前驅細胞在胸腺**大量增殖，但大多數死亡**；只有約 **5%**（slides：2–5%）成為 single positive 離開。
 - 胸腺結構：**皮質**（未成熟 thymocyte、cTEC、macrophage）→ **皮髓交界** → **髓質**（成熟 thymocyte、mTEC、DC、macrophage）。
 - 前驅細胞從**皮髓交界的小靜脈**進入，往**被膜下（subcapsular）**移動，再往髓質走。
 
@@ -75,6 +80,7 @@
 | **DP**         | CD4⁺CD8⁺ αβTCR⁺         | 皮質：positive selection                                                                                                 |
 | **SP**         | CD4⁺ 或 CD8⁺            | 髓質：negative selection → 離開胸腺                                                                                      |
 
+- DN 階段由 **Notch** 訊號與 **TCF1、GATA3、Bcl11b** 決定走 T 系（而非 B 或 DC）；β 鏈重組順序：germline → **Dβ–Jβ → Vβ–DJβ** → β＋surrogate α 表現（暫停 β 重組、誘導 CD4/CD8、開始轉錄 α）→ **Vα–Jα**（切掉 δ）→ αβTCR–CD3 表現、開始篩選；nonproductive 可再重組 α，否則死亡。
 - DN 階段**不依賴 TCR**（TCR-independent）；DP 之後的 positive / negative selection **主要依賴 TCR 交互作用**。
 - γδ 系在 DN2–DN3 分出去，表型幾乎不再改變（CD4⁻CD8⁻）。
 
@@ -101,7 +107,9 @@
 
 - 中心：**TCR、co-receptor**；周圍：**黏附分子**。
 - 初始黏附：**LFA-1（CD11a:CD18 integrin）↔ ICAM-1（CD54）、ICAM-2（CD102）**；**CD2 ↔ CD58**。TCR 辨識抗原後，LFA-1 構型改變、親和力增加。
-- 不同的 selectin 與 integrin 讓淋巴球進入不同淋巴組織（naïve T 以 **L-selectin** 經 HEV 進淋巴結）。
+- **CCL19／CCL21 ↔ CCR7** → G 蛋白 → **Rap1** → LFA-1 聚集並轉為高親和力。
+- 不同的 selectin 與 integrin 讓淋巴球進入不同淋巴組織：naïve T 的 **L-selectin ↔ HEV 上醣化的 CD34、GlyCAM-1**；**LPAM-1（α4β7）↔ MAdCAM-1**（黏膜歸巢）。
+- 老師：掌握「**穩定接觸、調控歸巢、活化後提高 integrin 親和力**」的概念即可，各種配對細節不必逐一背。
 
 <div data-fig="t-signal-summary"></div>
 
@@ -112,13 +120,17 @@
 | （先）黏附                        | LFA-1–ICAM-1/3、CD2–CD58           | 讓 T 與 APC 接觸夠久 |
 | **Signal ①** 抗原專一活化         | **TCR + CD4/CD8 ↔ pMHC**           | 決定專一性           |
 | **Signal ②** 共刺激（**存活**）   | **CD28 ↔ B7（CD80/CD86）**         | 沒有 → **anergy**    |
-| **Signal ③** 細胞激素（**分化**） | IL-1、IL-2 / **CD25（IL-2Rα）** 等 | 決定分化方向         |
+| **Signal ③** 細胞激素（**分化**） | IL-6、IL-12、IL-23、IL-4（slides 另列 IL-1、IL-2／**CD25**） | 決定分化方向；連結先天與後天免疫 |
 
 <div data-fig="t-signals"></div>
+
+- 三種訊號共同促成**活化、增殖、存活、分化**；之後 **clonal expansion**，細胞由 **G0** 進入細胞週期，代謝由**氧化磷酸化**轉向**有氧糖解（aerobic glycolysis）**。
 
 ### Signal ① 路徑
 
 **CD4/CD8 帶 Lck → Lck 磷酸化 CD3 與 ζ 的 ITAM → ZAP-70 結合 ζ 上磷酸化的 ITAM 並被活化 → 下游（PLC-γ、Ca²⁺、Ras）→ 轉錄因子 NFAT、AP-1、NF-κB → IL-2 基因轉錄**。
+- TCR 與 CD3 靠正負電吸引、**非共價**結合；TCR 胞內段很短，只負責接 CD3。
+- **NFAT** 是 T 細胞主要轉錄因子：Ca²⁺ 進入 → 結合 **calcineurin** → NFAT 進核。**IL-2** 是 T 細胞存活的重要 cytokine。
 
 <div data-fig="lck-zap70"></div>
 
@@ -136,7 +148,8 @@
 | 結果 | 誘導 **IL-2** 與高親和力 IL-2 受體 **CD25（IL-2Rα）** → 增殖、存活 | 搶走 B7 → 拿掉 signal ② → **關掉 T 細胞活化** |
 | 藥物 | — | anti-CTLA-4 **ipilimumab**（checkpoint blockade） |
 
-- **只有 signal ①、沒有 ②** → T 細胞 **anergy**（無反應）。
+- **只有 signal ①、沒有 ②** → T 細胞 **anergy**：仍能辨識抗原但無法正常活化，**不等於立即死亡**。
+- CTLA-4 還會和 B7 一起被**胞吞**分解，降低 APC 上的 B7 數量。
 - B7 主要在**活化的 professional APC**（DC 最強，其次 macrophage、B 細胞）上表現；感染（PAMP）會讓 APC 提高 B7。
 
 <div data-fig="b7-competition"></div>
@@ -283,12 +296,10 @@
 - 老師說**不會考**：12/23 rule 的細節（「不會也沒關係，我們不會考這個東西」）、β/δ 的 D 兩側 RSS 差異、多樣性的確切次方數字、訊息傳導路徑中「哪個分子最重要」的挖洞題。
 - 老師強調的重點：**β 先於 α 重組（surrogate α）**、**α 重組會切掉 δ**、**CDR3 對應接合處**、**TCR 10¹⁸ > Ig 10¹³**、affinity model（「重點只有那張兩個墓碑的圖」）、AIRE 與 central tolerance、**anergy = 只有 signal 1**、CTLA-4 親和力 20 倍、effector T 不需 signal 2。
 
-## 📒 百十四共筆對照（W04-1）
-
-- 黏附分子：老師要大家掌握「**穩定接觸、調控歸巢、活化後提高 integrin 親和力**」的概念，**各種配對的細節不必逐一背**（L-selectin–GlyCAM-1／CD34 進 HEV、LFA-1–ICAM-1、α4β7–MAdCAM-1 黏膜歸巢）。
-- 只有 signal 1、沒有 signal 2 → **anergy**：細胞仍能辨識抗原但無法正常活化，**不等於立即死亡**。負向訊號（如腫瘤微環境）讓能辨識腫瘤的 T 細胞無法反應 → 免疫檢查點阻斷就是解除這些抑制。
-- 活化後的代謝轉換：由**氧化磷酸化**為主轉向**有氧糖解（aerobic glycolysis）**；細胞由 **G0** 進入細胞週期、clonal expansion。
-
+## 百十三共筆對照
+- 百十三與百十四這章的內容大致相同（DN 階段的 Notch、TCF1、GATA3、Bcl11b，anergy，ICOS 都有）。
+- 百十三另列 RSS 的保守序列：heptamer **CACAGTG**、nonamer **ACAAAAACC**；百十四只寫 heptamer–spacer–nonamer 與 12/23 rule。
+- 百十四新增、百十三沒有的：surrogate α、alternative selection 的 **MAIT** 細胞、CCR7–Rap1 調控 LFA-1、活化後轉向**有氧糖解**。（CTLA-4 讓 B7 被胞吞分解，兩屆都有寫。）
 ## ⚠️ 陷阱整理
 
 | 容易選錯                                    | 正確                                                                                                |

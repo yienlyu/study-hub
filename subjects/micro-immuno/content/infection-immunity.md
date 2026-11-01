@@ -1,51 +1,97 @@
 === summary ===
-# 對抗感染的免疫反應（依 113 共筆整理、對照 115 共筆，林秋烽）
+# 對抗感染的免疫反應（依百十四共筆整理、對照百十三共筆，林秋烽）
 
 ## 1. 第一道防線
-- 物理：皮膚、黏液、纖毛上皮（咳嗽）、低 pH、眼淚、免疫特權區（水晶體、睪丸）。
-- 化學 / 生物：**microbiota**（先駐菌抵抗入侵、抗生素破壞多樣性）、lysozyme、**抗微生物肽 AMPs**、抗微生物脂肪酸、補體、cytokines。
-- **AMPs**：12–50 aa、多帶**正電**（Arg、Lys、His）→ 結合帶負電的細菌膜 → 穿孔；亦有趨化與調節 TLR 功能。例：**defensins（α：neutrophil、Paneth cell；β：上皮）**、cathelicidin（neutrophil）、dermcidin（汗腺上皮）。臨床藥：bacitracin、enfuvirtide（HIV）、telaprevir（HCV）。
+- **物理屏障**：皮膚、黏液、纖毛上皮、低 pH（胃酸、陰道）、眼淚沖洗、**免疫特權區**（水晶體、睪丸：擋住免疫細胞，避免不可逆傷害）。
+- **化學／生物因子**：**microbiota**（先駐菌抵抗入侵；抗生素破壞多樣性 → 益生菌、糞便移植）、lysozyme、**AMPs**、抗微生物脂肪酸、補體、cytokines。
+- **AMPs**：12–50 aa，哺乳類已知 >600 種；多帶**正電**（Arg、Lys、His）→ 結合帶負電的細菌膜 → 穿孔裂解；對含**膽固醇**的宿主細胞膜結合力弱，所以有選擇性。
+  - 例：**defensins**（β：上皮；α：neutrophil、Paneth cell）、cathelicidin（neutrophil）、dermcidin（上皮／汗腺）。
+  - 分類：陰離子胜肽（Glu、Asp）、線性陽離子 α-helix（無 Cys）、富含特定胺基酸（Pro、Arg、Phe、Gly、Trp）、含 1–3 個以上雙硫鍵。
+  - 作用：**直接殺菌**（類似 MAC 的穿孔、進入菌體抑制核酸／蛋白合成）＋**調節宿主免疫**（趨化 neutrophil、monocyte、DC、T，效果遠大於補體；中和 LPS／LTA、防止過度發炎；增強 TLR3／7／8／9 的核酸辨識 → IFN）。
+  - 臨床藥：bacitracin（外用）、boceprevir／telaprevir（HCV）、enfuvirtide（HIV）、oritavancin／teicoplanin（細菌）。
+- **補體**（約 30 種血漿蛋白）：**C3b 調理**（CR1）、**C3a／C5a** 使 mast cell 釋放 histamine、**C5b-9（MAC）**裂解。
+  - 古典途徑（抗原–抗體複合體活化 C1 → **C4b2a**，連結先天與後天）、凝集素途徑（MBL／ficolin 辨識 mannose → C4b2a）、替代途徑（C3 自發水解＋factor B、D、P；不需抗體，最快啟動）。
+- **先天 vs 後天**：先天 0–12 小時、辨識 PAMP／DAMP、胚系編碼、無記憶；後天數天、基因片段重組、有記憶。T／B 細胞也有 immune sensor，可參與發炎性活化；**ILCs** 不需抗原專一性即可活化。
 
 ## 2. 胞外感染：吞噬為主
-- 皮膚：Langerhans cell（特化 DC）、macrophage；黏膜：Paneth cell、**IEL（85% αβ、15% γδ）**、Treg、**M cell**。
-- 吞噬 → phagosome → phagolysosome（H⁺ pump 酸化）→ 酵素、NO、**ROS**。
-- **Respiratory burst**：**NADPH oxidase（NOX）**：O₂ → O₂⁻ → （SOD）H₂O₂ →（**myeloperoxidase**）HOCl。
-  - NOX 結構：膜上 **gp91、p22**；細胞質 **p40、p47、p67**（磷酸化後移位結合）。
-- **Chronic granulomatous disease（CGD）**：X-linked；**gp91（~65%）**、p47（~25%）缺陷 → 無 ROS → 反覆感染，特別是 **catalase-positive 菌（S. aureus）**、真菌。
-- **NETosis**：neutrophil 吐出 DNA + defensin 網捕捉病原；GAS 以 **DNase** 逃脫。
-- **Efferocytosis**（胞葬）：清除凋亡細胞 → IL-10、TGF-β，不發炎。
-- 抗體與 C3b 促進調理作用。
+- 定義：病原在宿主細胞外（血液、呼吸道、腸胃道、泌尿生殖道管腔、上皮表面）複製；多數細菌與真菌屬此類。**吞噬作用是最主要的先天防禦。**
+- **皮膚**：表皮 Langerhans cell（特化 DC）、真皮 dermal DC 與 macrophage；上皮分泌 β-defensin。**黏膜**：tight junction、**Paneth cell（α-defensin）**、IgA 經 **pIgR** 送到管腔、**M cell**、Treg（TGF-β、IL-10，對共生菌與食物不過度反應）、**IEL（85% αβ、15% γδ T）**。
+- **吞噬五步驟**：趨化 → 附著（mannose receptor、Mac-1 integrin、scavenger receptor）→ 吞入（偽足，形成 phagosome）→ 殺死（與 lysosome 融合成 phagolysosome，H⁺ pump 酸化）→ 排出殘餘物。
+- **吞噬受體**：CLRs（**mannose receptor**：末端 mannose／fructose；**Dectin-1**：真菌 β-glucan）、scavenger receptor（**CD36**：微生物 diacylglycerides；另有 SR-A、MARCO）、**FPR／FPRL1**（N-formyl-Met 胜肽，只在細菌與粒線體蛋白起始端）、complement receptor（C3b）。
+- **殺菌武器**：
+  - **Respiratory burst**：**NADPH oxidase（NOX）** O₂ → O₂⁻ →（**SOD**）H₂O₂ →（**MPO**）＋Cl⁻ → **HOCl**。
+  - **NO**：**iNOS** 以 L-arginine 為受質（→ citrulline）；NO＋O₂⁻ → peroxynitrite（ONOO⁻，硝化 Tyr）；S-nitrosothiol 破壞 Fe-S、Zn-S cluster。
+  - **NOX 結構**：膜上 **gp91phox＋p22phox**（flavocytochrome b558）；細胞質 **p40、p47、p67**＋Rac1/2。**p47 磷酸化、Rac 轉為 GTP 型** → 移位到膜上組裝。
+- **CGD（慢性肉芽腫病）**：NOX 任一次單元缺陷 → 無 respiratory burst（吞得進去、殺不死）。**最常見 gp91，唯一 X-linked**；p47、p67、p22 為體染色體隱性。肺炎、膿瘍、敗血性關節炎、骨髓炎、菌血症；特別怕 **catalase(+) 菌（*S. aureus*）與真菌（*Aspergillus*）**；病原被包圍成 **granuloma** 而得名。
+- **NETs**：neutrophil 吐出染色質＋殺菌蛋白（DNA、histone、NE、cathepsin G、MPO、tissue factor）。
+  - **NETosis**（溶解型，慢）：核分葉消失、核膜瓦解 → 染色質解開 → 細胞膜破裂、細胞死亡。**Non-lytic NETosis**（快）：活細胞擠出染色質，剩下無核的 cytoplast 仍能吞噬。
+  - 活化：TLR4（LPS）、C5a、TNF-α、活化血小板、自體抗體 → PKC → Raf → MEK → ERK → NOX 產生 ROS；**PAD4 瓜胺酸化 histone** 使染色質解開。GAS 以 **DNase** 切 NETs 逃脫；過度生成會傷組織（敗血症）。
+- **Neutrophil 的結局**：消退（PICD 凋亡 → macrophage **efferocytosis**）、病原在其中存活 → 裂解散播、NETosis 困住病原但也傷組織。
+- **Efferocytosis**：凋亡細胞外翻 **phosphatidylserine**（eat me）→ 橋接分子（GAS6、MFG-E8、C1q、CRP）接到 Mer、CD36、αvβ3/5 等受體 → 分泌 **IL-10、TGF-β**，不發炎；壞死細胞則釋放 DAMP、促發炎。
+- **巨噬細胞來源**：胚胎（yolk sac、fetal liver）→ 常駐型（microglia、Kupffer cell、alveolar macrophage、脾竇 macrophage）；骨髓 → 血中 monocyte → 組織 macrophage。發炎時兩群並存。
+- **調理作用**：C3b ↔ **CR1**、IgG Fc ↔ Fc receptor。
+- **吞噬後的抗原處理**：macropinocytosis、pinocytosis（含 clathrin）、phagocytosis 三條路平行成熟：early endosome（**Rab5／EEA1**）→ late endosome（**Rab7／Lamp1**）→ lysosome（Lamp1），pH 6.5 → 4.0 → 胜肽上 MHC I／II；DC 可 **cross-presentation**。
+- **DC**：TLR 與細胞質 PRR 最多；活化 naive TH 的三訊號：TCR–peptide/MHC II、共刺激（**CD28–B7**、CD40–CD40L）、**signal 3 極化 cytokine**（TH1：IFN-γ、TNF-β；TH2：IL-4、5、13）。DC 被感染後：浸潤或躲藏（成熟↓但遷移↑ → 把病原帶到淋巴結，如 HIV）、殺死（遷移也↓）。
 
 <div data-fig="slide-infection-sites"></div>
+
+<div data-fig="phagocyte-killing-map"></div>
 
 <div data-fig="slide-ros-killing"></div>
 
 <div data-fig="slide-nox"></div>
 
 ## 3. PRRs、PAMPs、DAMPs
-- PAMPs（病原分子）、**DAMPs**（受損細胞釋出，如 **HMGB1** → TLR4）。
-- Membrane PRRs：**TLRs**（TLR3、7、8、9 在 endosome；**TLR3 不經 MyD88**，走 TRIF → IRF3）、**CLRs**（mannose receptor、**Dectin-1（β-glucan，真菌）**、DC-SIGN）、scavenger receptor、lipid receptor（CD36）。
-- Cytoplasmic PRRs：**NLRs**（peptidoglycan、stress）、**RLRs（RIG-I，病毒 RNA）**、**CDS（cytosolic DNA sensor，如 cGAS）**。
-- 研究例：Lyme disease（*Borrelia*）靠 TLR1/2；West Nile virus 靠 TLR3；肺損傷 OxPLs 靠 TLR4。
-- DC 擁有幾乎所有 PRRs；CD4 T 也有 TLR2、TLR4。
-- 2011 諾貝爾：Hoffmann（果蠅 Toll）。
+- **PAMPs**：病原特有分子（G(+) 的 peptidoglycan、LTA → **TLR2**；G(−) 的 **LPS → TLR4**）。**DAMPs**：受損細胞釋出的內源分子，如 **HMGB1**、**尿酸結晶**（痛風）。
+- **Membrane PRRs**：
+  - **TLRs**：Hoffmann 果蠅 Toll（**2011 諾貝爾**）、Akira 小鼠剔除研究。人類 TLR1–10，**TLR3、7、8、9 在 endosome**，其餘在細胞膜。多數經 **MyD88** → NF-κB、MAPK → 發炎 cytokine；**TLR3 只走 TRIF** → IRF3／7 → type I IFN；**TLR4 兩條都走**。
+  - **CLRs**：辨識 mannose、galactose 等醣類；mannose receptor（macrophage、DC）、**Dectin-1／2**、**DC-SIGN（CD209，DC 特有）**；第二群為 asialoglycoprotein receptor family。
+- **Cytoplasmic PRRs**：**NLRs**（NOD1／NOD2 辨識 peptidoglycan，經 **RIPK2** → NF-κB；NLRP 參與 inflammasome）、**RLRs**（**RIG-I、MDA5**，病毒 RNA → type I IFN）、**cytosolic DNA sensors**（**AIM2**、STING 相關系統）。
+- 剔除鼠研究：**Lyme disease（*Borrelia*，OspA）靠 TLR1／2**；**West Nile virus 靠 TLR3** 進腦造成腦膜炎；吸入性肺損傷的 **OxPLs 靠 TLR4**（TLR4 抑制劑可避免二次發炎傷害）。
+- PRR 分布：**DC 幾乎所有 PRR 都有**（最專業的 APC）> macrophage；**CD4 T 也有 TLR2、TLR4**。
+
+<div data-fig="prr-map"></div>
 
 <div data-fig="slide-prrs"></div>
 
 ## 4. 胞內感染
-- **Inflammasome（NLRP3）**：Signal 1（TLR4 → NF-κB → pro-IL-1β、pro-IL-18、NLRP3）+ Signal 2（ATP–P2X7、尿酸結晶、PAMP/DAMP）→ **caspase-1** → **IL-1β、IL-18**。
-- **Pyroptosis**：caspase-1 媒介的發炎性細胞死亡（vs apoptosis 不發炎、necrosis 釋放 DAMP）。
-- **IL-12**（APC）→ NK、T 分泌 **IFN-γ** → 活化 macrophage、TH1。
-- **IFN-γ（type II）**：抗微生物、抗腫瘤、免疫調節；維持 MHC I/II、誘導 autophagy；JAK–**STAT1**。缺陷（或自體抗體）→ 成人發病免疫不全（易 TB、NTM）。
-- **Type I IFN（IFN-α、β）**：幾乎所有體細胞；IRF 調控；IFNAR1/2 → STAT1/2 → **ISRE** → PKR、2-5AS、Mx1 → 抗病毒狀態。
-- NK：抑制型 KIR 失去 MHC I 配對 + 活化受體（**NKG2D**）→ 毒殺。
-- ADCC：抗體 Fc ↔ **NK 的 CD16**、macrophage、eosinophil。
+- 病原進入宿主細胞內複製（病毒必須如此）；抗體、補體碰不到 → 主要靠**細胞媒介免疫**（活化 macrophage、CTL）。
+- **Inflammasome**：sensor（**NLRP3**、NLRC4、AIM2）＋adaptor **ASC**＋**pro-caspase-1**。
+  - 種類：NLRP1（微生物毒素）、**NLRP3**（最廣，PAMP／DAMP）、**NLRC4**（經 **NAIP** 辨識鞭毛蛋白、第三型分泌系統）、**AIM2**（細胞質 dsDNA）、**Pyrin**（毒素造成的 Rho GTPase 異常）。
+  - **NLRP3 兩訊號**：Signal 1 priming（LPS–TLR4 → MyD88 → NF-κB → 表現 NLRP3、pro-IL-1β）；Signal 2 activation（**細胞外 ATP–P2X7 → K⁺ 外流**、尿酸結晶造成溶酶體受損釋出 cathepsin、粒線體受損、ROS）→ 寡聚化、募集 ASC 與 pro-caspase-1。
+  - 下游：**caspase-1** → 成熟 **IL-1β**（局部發炎、內皮活化）、**IL-18**（促 NK、T 產生 IFN-γ）；切割 **gasdermin D** → 膜孔 → **pyroptosis**。
+- **Pyroptosis**：caspase-1／gasdermin D 媒介的**發炎性**程序性死亡，細胞腫脹破裂，釋出 IL-1β、IL-18、HMGB1。對照：**necrosis**（物理傷害、DAMP、發炎）、**apoptosis**（粒線體 → apoptosome → **caspase-3、7** → DNA 切斷，不發炎）。
+- **先天與後天的接力**：macrophage／DC 分泌 **IL-12** → NK 分泌 **IFN-γ**、naive CD4 分化成 **Th1** → IFN-γ＋**CD40L–CD40** 強化 macrophage 殺菌、增加 MHC 表現。
+- 活化 macrophage：TLR4（經 **CD14**）＋IFN-γ（JAK–**STAT1** dimer）→ NF-κB、IRF → pro-IL-1β、IL-6、IL-8、ROS；**iNOS → NO**；分泌 TNF、IL-1、IL-12；促進組織修復。
+- **IFN-γ（type II）**：抗微生物、抗腫瘤、免疫調節；維持 MHC I／II、誘導 **autophagy**。老師補充：**IFN-γ 幾乎所有免疫細胞**都會產生；**IFN-α／β 幾乎所有體細胞（RBC 除外）**都會產生。
+  - **Adult-onset immunodeficiency**：病人 **HIV 陰性**卻和 HIV 病人一樣易得結核 → IFN-γ 基因突變、IFN-γ 訊號失敗（無 ROS），或**抗 IFN-γ 自體抗體**。
+- **細胞毒殺**：分泌 TNF-α、perforin、granulysin、IFN-γ。CTL 經 MHC I 辨識抗原；**NK** 的抑制型 **KIR** 碰到 MHC I 就不殺 → 感染／腫瘤細胞降低 MHC I，抑制訊號消失＋活化型受體結合 → 釋放 granzyme、perforin；**NKG2D** 直接辨識壓力分子，不需 MHC。
+- **Type I IFN（IFN-α、β）**：IRF 家族調控；TLR4–LPS、endosome 核酸、RIG-I → NF-κB、IRF3 → IFN；**IFNAR1／2** → JAK–**STAT1／STAT2** → **ISRE** → PKR、2-5AS、Mx1 等抗病毒蛋白；被感染細胞把 IFN 傳給鄰近細胞先武裝起來，再等 NK／CTL 清除。
+- **ADCC**：抗體 Fc ↔ **NK 的 CD16**、macrophage、eosinophil → 去顆粒殺死目標細胞。
 
-## 5. 自體免疫與免疫逃脫
-- **Molecular mimicry**：病原抗原類似自身 → cross-reaction（HIV gp41 抗體結合 cardiolipin；post-streptococcal：心肌炎、關節炎、舞蹈症）。
-- 逃脫策略：M protein、capsule、biofilm；抗原變異；干擾 IFN（**SOCS 抑制 JAK-STAT**、Ebola **VP24/VP35**）；修飾 MHC；殺死吞噬細胞；躲在 phagosome。
-- **GAS**：DNase 切 NETs、SLO/SLS 殺吞噬細胞、SpeB、EndoS、**C4BP 結合 M protein** 阻 C3b 沉積。
-- 慢性感染（HBV、HCV、登革熱、TB）：轉向 Treg、IL-10、M2 → T cell exhaustion；TB 以 SOD、UreC 抗氧化，形成 granuloma。
+## 5. 體液免疫、自體免疫與免疫脫逃
+
+<div data-fig="immune-evasion-map"></div>
+
+- 抗體三大作用：中和、調理、活化補體（詳見 W4-2）。
+- **Molecular mimicry**：病原抗原與自身相似 → cross-reaction、tolerance breakdown。例：HIV gp120／gp41 疫苗抗體會結合 **cardiolipin**；**vaccinosis**（傷寒、小兒麻痺、B 肝疫苗可能引發關節炎）；**post-streptococcal**：心肌炎、關節炎、舞蹈症。
+- **逃避吞噬**：表面蛋白、**capsule**、biofilm（GAS **M protein**、肺炎鏈球菌莢膜）；**leukocidin** 殺吞噬細胞（GAS 的 SLO、SLS；*S. aureus*）。
+- **吞噬體裡的三種求生法**：逃出吞噬體（***Shigella*、*Rickettsia***）、阻止吞噬體與溶酶體融合（***M. tuberculosis***）、在吞噬溶酶體中照樣存活（***Coxiella burnetii***）。
+- ⚠️ **易錯配對**：**GAS（*S. pyogenes*）的主要策略不是阻止吞噬體與溶酶體融合**，而是在被吞進去之前就擋掉——**M protein（抓 C4BP）、hyaluronic acid 莢膜**抑制調理與吞入、**SLO／SLS** 殺吞噬細胞、**DNase** 切 NETs、**ScpA／C5a peptidase** 擋趨化。阻止融合的是 ***M. tuberculosis***（還有 HIV）。
+
+  | 病原 | 在哪一步作弊 | 策略 |
+  |---|---|---|
+  | GAS、*S. aureus*、肺炎鏈球菌 | 吞入**之前** | 莢膜、M protein、Protein A、CHIPS、SCIN、leukocidin |
+  | *Shigella*、*Rickettsia*（*Listeria*） | 吞入之後 | **逃出吞噬體** |
+  | *M. tuberculosis*、HIV | 吞入之後 | **阻止吞噬體與溶酶體融合** |
+  | *Coxiella burnetii* | 吞入之後 | **在吞噬溶酶體裡存活** |
+- **GAS**：**DNase** 切 NETs、SLO／SLS 殺吞噬細胞、**SpeB**（蛋白酶）、**EndoS**（修飾 IgG 醣鏈）、Mac-1／Mac-2、**ScpA／ScpC**（切 C5a、IL-8）、**M protein 結合 C4BP** 降低 C3b 沉積。
+- ***S. aureus***：**Protein A**（抓 IgG **Fc**）、**CHIPS**（干擾 C5a receptor，抑制趨化）、**PVL** 等白血球毒素、**SCIN**（抑制 C3 convertase）、**catalase**；**MprF、Dlt** 抵抗陽離子 AMP。
+- **病毒脫逃**：干擾核酸辨識（TLR3、RIG-I、MDA5）、IFN 產生或 IFNAR–JAK–STAT 訊號。
+- **慢性病毒感染（HBV、HCV）**：**T cell exhaustion**（CD8 增殖、cytokine、毒殺力都下降；不是免疫完全停擺）；Treg、**IL-10** 過強，M2 macrophage 參與修復與調節。
+- **登革熱**：四種血清型；**ADE**——異型抗體能結合卻中和不了 → 病毒–抗體複合體經 **Fcγ receptor** 進入免疫細胞（重症機制之一，但不是唯一）；IL-10、**SOCS** 抑制 IFN 訊號。
+- ***M. tuberculosis***：阻止吞噬體成熟與融合；**SOD** 清除 O₂⁻；UreC（urease 相關，與吞噬體內存活有關）；**granuloma** 限制但不一定清除 → 免疫下降時再活化。
+- **SARS-CoV-2**：病毒蛋白干擾核酸辨識與 type I IFN；**spike 變異**降低中和；早期抗病毒不足、後期過度發炎。
 
 ## 🎙️ 上課錄影重點（林秋烽，10/07，約 105 分）
 - 老師定位：從**宿主**的角度看免疫如何對抗病原，並強調**病原如何免疫脫逃**（所以感染症至今沒有解決）。「幫病毒上一堂免疫學，你要懂得 survive，就要懂得 immune evasion」。
@@ -151,14 +197,11 @@
 - 預期出題：「CGD 最常見突變」「哪個 TLR 不經 MyD88」「pyroptosis 由哪個 caspase 媒介」「ILC / NK 的角色」等定義題。
 - 本站「新題練習」有依共筆重點出的模擬題。
 
-## 📒 百十四共筆對照（W5-1）
-- **IFN 的來源**（老師補充）：**IFN-γ（type II）幾乎所有免疫細胞**都會產生；**IFN-α／β（type I）幾乎所有體細胞（RBC 除外）**都會產生。
-- **成人型免疫不全（adult-onset immunodeficiency）**：病人 **HIV 陰性**，但和 HIV 病人一樣易得結核；原因可能是 IFN-γ 基因突變、IFN-γ 訊號失敗（無法產生 ROS），或**抗 IFN-γ 自體抗體**。
-- **S. aureus 的逃脫工具**：**Protein A**（抓 IgG Fc）、**CHIPS**（干擾 C5a receptor，抑制趨化）、**SCIN**（抑制 C3 convertase）、**PVL** 等白血球毒素、**catalase**；MprF、Dlt 增加對陽離子抗菌胜肽的抗性。GAS 另有 **ScpA／ScpC**（切 C5a、IL-8）、EndoS（修飾 IgG 醣鏈）。
-- **吞噬體裡的三種求生法**：逃出吞噬體（**Shigella、Rickettsia**）、阻止吞噬體與溶酶體融合（**M. tuberculosis**）、在吞噬溶酶體裡照樣存活（**Coxiella burnetii**）。
-- **登革熱 ADE**：四種血清型，對其他型的抗體能結合卻**中和不了** → 病毒–抗體複合體經 **Fcγ receptor** 進入免疫細胞，感染反而增加（重症相關機制之一）。
-- 慢性病毒感染（HBV、HCV）的 **T cell exhaustion**：增殖力、細胞激素分泌、毒殺能力都下降，不是免疫系統完全停擺。
-- 自體免疫補充：**vaccinosis**——傷寒、小兒麻痺、B 肝等疫苗可能引發關節炎。
+## 百十三共筆對照
+- 百十三共筆在免疫脫逃另列 **Ebola VP24／VP35**（擋 IFN 訊號）、**修飾 MHC**、**抗原變異**等策略；百十四改以登革熱、TB、SARS-CoV-2 為例。
+- 百十三的細胞質 DNA sensor 寫 **cGAS**；百十四寫 **AIM2** 與 STING 相關系統（cGAS–STING 是同一條路）。
+- 百十三把 **CD36** 列為 lipid receptor；百十四歸在 scavenger receptor，並補充它和 SR-BI（肝臟回收 HDL）的差別。
+- 百十三把慢性感染統整成「轉向 Treg、IL-10、M2 → T cell exhaustion」一句；百十四分開寫，並提醒不同慢性感染的免疫抑制模式不能一概而論。
 
 ## 🎙️ 老師課堂提示
 - 老師明講要記：**AMP**（「一定要記得」）、**吞噬受體**（「務必把它記起來」）、**NLRP / inflammasome**（「一定要有點印象」）。

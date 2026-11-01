@@ -1,7 +1,7 @@
 === summary ===
-# Pipetman 操作與蛋白質定量 重點整理
+# Pipetman 操作與蛋白質定量 重點整理（依百十四共筆整理、對照百十三共筆）
 
-> 2026/09/17 實驗課（陳顧中）：實驗室簡介、Pipetman 操作、Bradford 蛋白質定量。講義：protein quantification principle、實驗操作講義、Pipetman 操作。
+> 2026/09/17 實驗課（陳顧中）：實驗室簡介、Pipetman 操作、Bradford 蛋白質定量。講義：protein quantification principle、實驗操作講義、Pipetman 操作。 以下依百十四共筆（生化實驗一，9/10 黃彥華組）與上課講義整理。
 
 ## 1. Pipetman（微量吸管） ⭐⭐⭐
 | 型號 | 可吸取範圍 | 刻度讀法（由上往下三格） |
@@ -91,3 +91,6 @@
 | Bradford 用 methylene blue | **Coomassie brilliant blue G-250** |
 | G-250 和 R-250 差一個甲基 | 差**兩個**甲基（G-250 多兩個） |
 | 算出的濃度直接就是答案 | 取 2 µL 樣品，要 **÷ 2** |
+
+## 百十三共筆對照
+- 百十三（生化實驗一：器材說明及 Protein quantification）與百十四內容幾乎相同：Pipetman「吸一段、排兩段」、30–100% 量程最準、五種定量法（UV 280、Biuret 540、Lowry 750、BCA 562、Bradford 595）的原理與優缺點。

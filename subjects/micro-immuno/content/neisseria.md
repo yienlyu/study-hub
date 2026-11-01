@@ -1,54 +1,85 @@
 === summary ===
-# Neisseria、Helicobacter、Campylobacter、Pseudomonas、Vibrio（依考古詳解整理）
+# Neisseria、Helicobacter、Campylobacter、Pseudomonas、Vibrio（依百十四共筆整理、對照百十三共筆）
 
-> 113 共筆沒有收錄本章，以下整理自考古詳解。
+> §2–6（*Campylobacter*、*Helicobacter*、*Pseudomonas*、*Burkholderia*）依**百十四共筆 W7-2**（鍾筱菁）整理。*Neisseria* 與 *Vibrio* 的百十四共筆還沒出，暫依**百十三共筆**（*Neisseria*：W7；*Vibrio*：W6-1 線上，皆為學藝未審版）與考古詳解整理。
 
 ## 1. *Neisseria*（G(−) 雙球菌、腎形 / 咖啡豆形）
-- 黏膜常駐；致病種需**營養豐富培養基 + CO₂**（chocolate / Thayer-Martin）。
-- 共同毒力：**pili**、**IgA1 protease**、**LOS（lipooligosaccharide，無 O antigen 的 LPS）**。
+- 黏膜常駐；**oxidase (+)**；**人是唯一宿主**；怕冷怕乾（運送不能冰）。
+- 培養：非致病種 nutrient、blood agar 都長；*N. meningitidis* **blood agar (+)**、nutrient ±；*N. gonorrhoeae* **blood agar (−)、只長 chocolate agar**（國考）。選擇性培養基 **Thayer-Martin**（含 vancomycin、colistin、nystatin、trimethoprim）。天生 **natural competence**，可修補被 neutrophil ROS 傷害的 DNA。
+- 共同毒力：**pili**、**IgA1 protease**、**LOS（lipooligosaccharide，無 O antigen 的 LPS，毒性在 lipid A）**。LOS 也見於 *Haemophilus*、*H. pylori*。
 
 | | *N. gonorrhoeae*（淋病） | *N. meningitidis*（腦膜炎） |
 |---|---|---|
 | 傳播 | 性行為；新生兒產道 → **結膜炎（失明）** | **飛沫**；人為唯一宿主、**鼻咽帶菌** |
 | 莢膜 | 無（或類莢膜） | **polysaccharide capsule → 疫苗** |
-| 特有毒力 | **Opa（protein II）**、Por（I）、Rmp（III）；**pili antigenic variation**（重組）與 **phase variation**（slipped-strand mispairing → 暫時不表現） | capsule、LOS（endotoxin → 敗血症、DIC） |
-| 臨床 | 男：尿道炎（多有症狀）；女：子宮頸炎（多無症狀）→ **PID、TOA、不孕、子宮外孕** | 6 個月–3 歲高危；腦膜炎、菌血症（**可入血**，75% 可血中分離） |
-| 診斷 | 男性尿道分泌物：**嗜中性球內 G(−) 雙球菌**；**NAAT 為金標準**；**不靠血清抗體 4 倍上升** | CSF |
+| 特有毒力 | **Por（protein I，打洞；被吞後能逃出吞噬體、住在 neutrophil 裡）**、**Opa（protein II，黏附上皮）**、**Rmp（protein III，抑制血清補體）**、搶鐵蛋白；LOS 與 IgM 凝集 → macrophage 大量 TNF-α；**pili antigenic variation**（重組）與 **phase variation**（slipped-strand mispairing → 暫時不表現） | capsule、LOS（endotoxin → 敗血症、DIC） |
+| 臨床 | 男：尿道炎（**95% 有症狀**，膿狀分泌物、灼熱、睪丸痛）；女：子宮頸炎（**約一半無症狀**）→ **PID、TOA、不孕、子宮外孕**、**Fitz-Hugh-Curtis**（腹膜炎、肝周炎）；新生兒眼炎；瀰漫性感染：心內膜炎、腦膜炎、**gonococcal dermatitis-arthritis syndrome** | 6 個月–3 歲高危；腦膜炎、菌血症（**可入血**，75% 可血中分離） |
+| 診斷 | 男性尿道分泌物：**嗜中性球內 G(−) 雙球菌**；**NAAT 為金標準**（常和披衣菌一起驗）；**不靠血清抗體 4 倍上升** | CSF Gram 染色 |
+| 治療 | 有 β-lactamase、**不用 penicillin** → 第三代 cephalosporin（**ceftriaxone**、cefotaxime）；新生兒眼炎：1% 硝酸銀或 erythromycin 眼藥 | cefotaxime、ceftriaxone；接觸者口服 **rifampicin** 預防 |
+| 疫苗 | **無**（phase variation：表現開關；antigenic variation：抗原序列改變） | **有**：莢膜 A、C、W135、Y，約 2 年保護力 |
 
 - ⚠️ 淋病雙球菌「virulence factor 是 pili 和 IgM protease」→ 錯（**IgA** protease）；**flagella 不是**其毒力因子。
+- *N. meningitidis* 血清型以莢膜分 6 類（A、B、C、W135、X、Y），以 **W135、Y** 最多；疾病：**腦膜炎**（未治療致死率近 100%，治療後約 10%；發燒頭痛頸僵直）、**meningococcemia**（DIC 紫斑，致死約 50%）、**Waterhouse-Friderichsen syndrome**（兩側腎上腺出血、休克，6–8 小時內死亡）。
+- 流行病學：淋病好發 15–24 歲性活躍者；腦膜炎雙球菌好發 **6 個月–2 歲**嬰幼兒與宿舍、軍營的年輕人（約 20 歲第二高峰），非洲「腦膜炎帶」最多。
 - 環境中 1–2 小時即死亡。
 
-## 2. *Helicobacter pylori*
-- G(−) 螺旋、**microaerophilic**、**urease (+)**（產氨中和胃酸）；**人為唯一宿主**（非人畜共通）、糞口 / 口口傳播、可終生存在。
-- 毒力：adhesins（BabA、SabA）、urease、mucinase、**VacA（空泡毒素）**、**CagA（type IV secretion 打入胃上皮）**。
-- 疾病：**~90% 消化性潰瘍**、胃炎、**胃癌**、MALT lymphoma（不是大腸癌、不是食物中毒）。有十二指腸潰瘍者胃癌風險反而較低。
-- 診斷：**urea breath test（¹³C/¹⁴C）**、stool antigen（HpSA）、**切片組織學 = 金標準**；**血清學準確度低，不宜作為低盛行區第一線**。
+## 2. *Campylobacter* 與 *Helicobacter* 的共同點（百十四共筆）
+- **微需氧（microaerophilic，約 5% O₂）**（另一個微需氧菌：豬丹毒桿菌 *Erysipelothrix rhusiopathiae*）、**oxidase (+)、catalase (+)**、**不發酵碳水化合物**（以蛋白質等為碳源）。
 
-## 3. *Campylobacter jejuni*
-- G(−) 彎曲、microaerophilic、**人畜共通**（未煮熟家禽）。
-- 血便、痢疾；併發 **Guillain-Barré syndrome**（O:19 molecular mimicry）、reactive arthritis。
-- 一般不致命（免疫低下者例外）。
+## 3. *Helicobacter pylori*
+- G(−) **螺旋**、高度運動性、**單端鞭毛**、microaerophilic、**urease (+++)**（分解尿素產氨、pH↑中和胃酸；*Proteus mirabilis* 也有 urease）；**人為唯一宿主**（非人畜共通）、**糞口**、人傳人、可終生存在。
+  - 口糞傳染且人為唯一宿主：*S.* Typhi、*Shigella*、*V. cholerae*、*H. pylori*。
+- **2005 諾貝爾**：Marshall、Warren。以往認為潰瘍是胃酸過多；*H. pylori* 不易培養（培養基加 blood、serum、charcoal、starch、egg yolk），動物不會得病 → Marshall **自己喝菌液**、得到潰瘍並再分離出菌，符合 Koch 假說，最後以抗生素治癒。
+- 毒力：
+  - **移生**：adhesins（**BabA、SabA**）、acid inhibitory proteins、**urease**。
+  - **入侵**：mucinase、phospholipases、proteinase 鑽到黏膜下逃避免疫。
+  - **組織損傷**：**VacA**（空泡毒素）、**CagA**（經 **type IV secretion system** 打入上皮 → **IL-8** → 趨化 neutrophil → protease、ROS 破壞胃組織）。
+  - **胃癌風險**：慢性胃炎、纖維化、上皮增生；**CagA(+) 是癌化關鍵**；IL-1(+++) 造成纖維化與異常增生。
+- 疾病：胃炎、**消化性潰瘍（~90%）**、**胃腺癌**、**MALT lymphoma**（不是大腸癌、不是食物中毒）。有十二指腸潰瘍者胃癌風險反而較低。
+- 診斷：糞便培養困難易誤診；**侵入式**：胃鏡**切片（金標準）**；**非侵入式：urea breath test（國考愛考）**——吃含 ¹⁴C（或 ¹³C）的尿素，urease 分解後以 ¹⁴CO₂ 呼出；stool antigen（HpSA）；**血清學準確度低，不宜作為低盛行區第一線**。
+- 治療：**PPI＋兩種抗生素（macrolide、β-lactam）**吃一個月（防抗藥）；PPI 抑制胃酸並增加抗生素作用。
 
-## 4. *Pseudomonas aeruginosa*
-- **好氧（可用 nitrate 厭氧呼吸）** G(−) 桿菌、**單一極鞭毛**、oxidase (+)、**不產孢子**。
-- 水溶性色素：**pyocyanin（藍綠，產 ROS、毒素）**、pyoverdin（螢光黃綠）。
-- 毒力：**Exotoxin A（ADP-ribosylate EF-2，同白喉毒素）**、**ExoS / ExoT（T3SS，破壞上皮；非蛋白合成抑制劑）**、elastase、biofilm、**多重抗藥**。
-- **Opportunistic、院內感染**：呼吸器、IV 溶液、麻醉器材；**燒燙傷、cystic fibrosis 肺炎**、UTI、傷口、眼。
-- **對 soap、dyes、QACs、多種藥物、乾燥有抗性**。
+## 4. *Campylobacter jejuni*
+- G(−) 彎曲、不產孢子、microaerophilic、**42 °C 長得較好**；單端或兩端鞭毛、會動。
+- **人畜共通**：吃未熟的雞鴨牛羊肉；多為腹瀉，嚴重時發燒、腹痛、**血便**，甚至菌血症、敗血症。一般不致命（免疫低下者例外）。
+- **Guillain-Barré syndrome**：自體免疫；**C. jejuni O:19** 的 LPS 與**神經節苷脂（gangliosides）**相似 → 抗體攻擊髓鞘 → 四肢無力，進一步影響呼吸肌、心肌而致死；不是單一病因（流感疫苗、病毒感染也會）。治療以**抑制免疫**為主：類固醇、**plasma exchange**、**IVIG**。
 
-## 5. *Vibrio*（彎曲 G(−) 桿菌、兼性厭氧、嗜鹽）
+| 菌種 | 主要宿主 | 疾病 |
+|---|---|---|
+| *C. jejuni* | 家禽、牛、羊 | 腸胃炎、腸外感染、**GBS**、**reactive arthritis** |
+| *C. coli* | 豬、家禽、羊、鳥 | 腸胃炎、腸外感染 |
+| *C. fetus* | 羊、牛 | **心血管感染** |
+| *C. upsaliensis* | 狗、貓 | 腸胃炎、腸外感染、GBS |
+
+## 5. *Pseudomonas aeruginosa*
+- 名稱：pseudo（假）monas（單）aeruginosa（綠銅）；傷口常呈**綠色螢光**、**葡萄味（grapelike odor）**。
+- **好氧** G(−) 桿菌（少氧也能活；呼吸作用產能、**不發酵糖**）、**成對**出現（*S. pneumoniae* 也成對但是 G(+)）、**單端（polar）鞭毛**、oxidase (+)、**β-hemolysis**、不產孢子。
+- 色素：**pyocyanin（藍綠，產超氧化物與過氧化物、破壞纖毛細胞、活化 IL-8）**、**pyoverdine（螢光黃綠，水溶性鐵載體）**、pyorubin（暗紅，抵禦氧化壓力）。
+- 毒力：adhesins（flagella、pili）、**LPS（endotoxin）**、**alginate**（mucoid 多醣 → biofilm／莢膜，附著、抗吞噬，是**高抗藥性**的原因）、**Exotoxin A（阻斷 peptide elongation；ADP-ribosylate EF-2，同白喉毒素）**、**elastase**（LasA serine protease＋LasB zinc metalloprotease；分解彈力蛋白 → 出血性病變、抑制 neutrophil）、alkaline proteinase、**phospholipase C**（heat-labile hemolysin）、**ExoS／ExoT（T3SS，約 20 種蛋白組成的注射針，破壞上皮；非蛋白合成抑制劑）**。
+- **多重抗藥**：先天抗藥＋後天抗藥（分泌 **AmpC β-lactamase**）；**對 soap、dyes、QACs、多種藥物、乾燥有抗性**。
+- **Opportunistic、院內感染**：生存力強、到處都能活（游泳池、隱形眼鏡藥水、自來水 → **角膜潰瘍**；耳 → **swimmer's ear**（急性瀰漫性外耳炎）；隱形眼鏡藥水兩大感染源之一，另一個是阿米巴）；呼吸器、IV 溶液、麻醉器材。
+  - **燒燙傷**（局部血管損傷、組織壞死、菌血症）、**毛囊炎**（游泳）、UTI、菌血症、心內膜炎。
+  - **Cystic fibrosis**：西方白人最常見的體染色體隱性遺傳病，第 7 對染色體 **CFTR** 缺陷 → 黏液黏稠 → 細菌殘留、反覆肺部感染。
+
+## 6. *Burkholderia*（曾歸在 *Pseudomonas*）
+- 潮濕環境表面都能活；免疫低下者的伺機感染（*B. cepacia*、*B. pseudomallei*）。
+- ***B. pseudomallei***：**類鼻疽**；東南亞、印度、非洲、澳洲的土壤、水、植被；經皮膚或呼吸道；酗酒、糖尿病、慢性腎或肺病者從無症狀到重症；常見**膿瘍**；高傳染性被列為**生物武器**。
+- ***B. gladioli***：食物中毒（汙染玉米、椰子、木耳、銀耳、澱粉製品）；產生 **bongkrek acid（米酵菌酸，不可逆抑制粒線體 ADP/ATP 轉運酶）**、toxoflavin 等毒素。
+
+## 7. *Vibrio*（彎曲 G(−) 桿菌、兼性厭氧、嗜鹽）
 | 菌 | 感染 | 特點 |
 |---|---|---|
-| **V. cholerae** | 霍亂（米湯樣水瀉） | **只有 O1、O139** 產 cholera toxin（A-B，↑cAMP）；人唯一宿主 |
-| **V. parahaemolyticus** | **生海鮮食物中毒** | Kanagawa hemolysin；台灣常見食物中毒原因 |
-| **V. vulnificus** | 生蠔 → 原發性敗血症；傷口接觸海水 → 蜂窩性組織炎、壞死 | **肝病、糖尿病高危**；死亡率高 |
+| **V. cholerae** | 霍亂（**洗米水樣**白色水瀉：來不及被膽色素染色、抑制膽汁） | O antigen 分 200 多型，**只有 O1、O139** 產 cholera toxin（A-B，↑cAMP → Cl⁻ 與水排入腸道）；毒素基因由 **phage CTXφ** 帶入（另有 Ace、Zot；**TCP** 是 phage 受體也是定居因子）；O1 沒有莢膜；要驗到毒素才算確診；人唯一宿主但很少人傳人（汙水、食物）；感染劑量約 **10⁷**（Salmonella 10⁵、Shigella 10–100） |
+| **V. parahaemolyticus**（腸炎弧菌） | **生海鮮食物中毒**、傷口感染 | **Kanagawa hemolysin**（耐熱外毒素，Cl⁻ 分泌↑；對人 O 型血或兔血 β 溶血）；台灣常見食物中毒原因 |
+| **V. vulnificus**（創傷弧菌） | 生蠔 → 原發性敗血症；傷口接觸海水、魚鱗刮傷、處理螃蟹 → 起泡性皮炎、**壞死性傷口**，常需截肢 | **肝病（肝硬化、肝癌）、糖尿病高危**；死亡率高（美國弧菌死亡的 90%）；莢膜抗吞噬，cytolysin、protease、collagenase 破壞組織 |
 | V. alginolyticus | 傷口、耳部感染 | — |
 
+- 共通：彎曲 G(−) 桿菌、**端鞭毛**、oxidase (+)、**嗜鹽、耐鹼**；**TCBS agar**：*V. cholerae* 黃、*V. parahaemolyticus* 綠、*V. vulnificus* 藍綠。
 - Vibrio 不耐酸（需高菌量才過胃）。
 
 <div data-fig="slide-cholera-toxin"></div>
 
-## 6. 其他
+## 8. 其他
 - 細菌性腦膜炎三大菌（*S. pneumoniae*、*N. meningitidis*、*H. influenzae*）**共通最重要毒力 = capsule**。
 - HIV 感染者全球最常見伺機感染：**Mycobacterium tuberculosis**。
 - 人為唯一宿主：*Shigella*、*S.* Typhi、*V. cholerae*、*H. pylori*（糞口）；*C. diphtheriae*、*N. meningitidis*（飛沫）；*N. gonorrhoeae*、梅毒、披衣菌（性病）。
@@ -155,3 +186,8 @@
 | 霍亂毒素增加 cGMP | 霍亂毒素 **↑cAMP**（Gs 持續活化） |
 | *V. vulnificus* 主要造成水瀉 | 生蠔 → **原發性敗血症**、傷口壞死性感染；**肝病**高危 |
 | *V. parahaemolyticus* 用 TCBS 呈黃色、Kanagawa 不耐熱 | Kanagawa hemolysin **heat-stable**；生海鮮食物中毒 |
+
+## 百十三共筆對照
+- *Campylobacter*、*Helicobacter*、*Pseudomonas* 這部分百十三在 **W17-1（Chapter 9）**，內容與百十四大致相同（微需氧 5% O₂、42 °C、GBS、urease、VacA／CagA、pyocyanin、Exotoxin A 都有）。
+- 本站原本另外寫的 *Pseudomonas* 可用 **nitrate** 做厭氧呼吸、*H. pylori* 的 **¹³C** 呼氣與 **HpSA** 糞便抗原、「~90% 消化性潰瘍」來自考古詳解，兩屆共筆都沒寫。
+- *Neisseria*、*Vibrio* 目前依百十三（W7、W6-1 線上）整理，百十四共筆出來後再改成依百十四、補上兩屆的比對。

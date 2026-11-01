@@ -1,10 +1,12 @@
 === summary ===
-# 細菌致病機轉
+# 細菌致病機轉（依百十四共筆整理，黃姿雯）
+
+> 百十三共筆沒有收錄這章，所以沒有百十三對照。
 
 ## 1. 定義
 - **Pathogenicity**：克服宿主防禦而致病的能力（能不能致病）。
-- **Virulence**：宿主–病原交互的淨結果（多毒）。毒力因子常位於 **pathogenicity island**（單一刺激啟動、協同表現、可在 transposon 內整段轉移；在染色體或質體）。
-- **Opportunistic**：*Pseudomonas* 感染燒傷或 cystic fibrosis 病人。
+- **Virulence**：致病能力的相對強弱（症狀越重毒力越高），受 virulence factor 影響。例：*Salmonella* 要約 10⁶ 隻才讓小鼠明顯死亡，肺炎鏈球菌只要約 10² 隻 → 肺炎鏈球菌毒力較強。毒力因子常位於 **pathogenicity island**（單一刺激啟動、協同表現、可在 transposon 內整段轉移；在染色體或質體）。
+- **Opportunistic**：平時不致病，宿主免疫下降或有外傷時才感染（*Pseudomonas* 感染燒燙傷或 cystic fibrosis 病人、多數 *E. coli*）。
 
 ## 2. 入侵門戶（Ports of entry）
 | 途徑 | 代表菌 |
@@ -18,7 +20,7 @@
 
 ## 3. 感染步驟
 1. **Adherence（第一步）**：宿主 receptor（醣或胜肽）＋ 細菌 **adhesin**（如 fimbriae 尖端結合宿主 lectin）；biofilm 需足夠菌量 → **quorum sensing**。
-2. **Invasion**：誘導宿主吞入；**Type III secretion system（T3SS）** 注入 effector → actin polymerization：促進吞入（*Salmonella*）、胞內移動與傳給鄰細胞（*Shigella*、*Listeria*）；經 **M cell** 入侵（*Salmonella*、*Shigella*、*Yersinia*）。
+2. **Invasion**：誘導宿主吞入，分兩種：**zipper mechanism**（多個 adhesin 同時黏住多個受體 → 宿主胞吞）與 **trigger mechanism**（注入 effector 改變宿主骨架把菌包入）；**Type III secretion system（T3SS）** 注入 effector → actin polymerization：促進吞入（*Salmonella*）、胞內移動與傳給鄰細胞（*Shigella*、*Listeria*）；經 **M cell** 入侵（*Salmonella*、*Shigella*、*Yersinia*）。
 3. **組織破壞**：代謝產物（酸、氣體）、降解酶（phospholipase C、collagenase、protease、hyaluronidase）。
 
 ## 4. 毒素
@@ -32,8 +34,8 @@
 
 - **Cytotoxins**：α-toxin（phospholipase C，*C. perfringens*）、hemolysins、**diphtheria toxin（A-B，抑制蛋白合成）**。
 - **Neurotoxins**：botulinum（**flaccid** 麻痺）、tetanus（**spastic** 痙攣）。
-- **Enterotoxins（A-B）**：*Vibrio*（↑cAMP）。
-- **A-B toxin**：B（binding）結合受體 → receptor-mediated endocytosis → A（action）改變細胞功能（常抑制蛋白質合成）。G+、G− 都能分泌，**不只造成腹瀉**（例：diphtheria toxin）。
+- **Enterotoxins（A-B）**：**cholera toxin**（*V. cholerae*）的 A 次單元增加 **adenylate cyclase** 活性 → cAMP↑ → 離子通道異常 → 大量水樣腹瀉、脫水。
+- **A-B toxin**：B（binding）結合受體 → receptor-mediated endocytosis → 兩次單元分開，A（action）留在細胞內改變功能（常抑制蛋白質合成），B 釋出。G+、G− 都能分泌，**不只造成腹瀉**（例：diphtheria toxin）。
 
 <div data-fig="ab-toxin"></div>
 
@@ -59,6 +61,7 @@
 
 - 胞內病原：*Listeria*、*S.* Typhi、*Shigella dysenteriae*、*Yersinia pestis*、*Brucella*、*Francisella*、*Legionella*、*Mycobacterium*、*Rickettsia*、*Chlamydia*。
 - ⚠️ **產生孢子不是逃避免疫的機制**（是對抗環境壓力）。
+- 整體流程：**入侵門戶**（黏膜：呼吸、消化、泌尿生殖道、結膜；皮膚；parenteral route）→ 穿透或逃避防禦 → 傷害宿主細胞 → **離開門戶**（通常與入侵門戶相同）。
 
 ## 🎙️ 上課錄影重點（黃姿雯，非同步遠距 21 分）
 - **入口一定是本來就跟外界接觸的地方**：消化道、呼吸道、生殖道（性傳染）、皮膚破口或被叮咬（病媒）；完整皮膚不會是入口。

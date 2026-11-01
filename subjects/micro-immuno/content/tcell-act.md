@@ -1,8 +1,17 @@
 === summary ===
 
-# T 細胞媒介免疫與免疫細胞合作（陳玫潔）
+# T 細胞媒介免疫與免疫細胞合作（依百十四共筆整理、對照百十三共筆，陳玫潔）
 
 > 這堂課分兩大段：**① 活化後 T 細胞的反應**（CD8 CTL、CD4 TH 各亞群的功能）**② 免疫反應中的細胞合作**（TI / TD 抗原、T–B 交互作用、affinity maturation、isotype switch）。T 細胞活化的 Signal ①、② 與免疫突觸見上一章。
+
+## 0. 免疫耐受與 Treg（老師放 PDF 補充，上課沒講）
+- V(D)J 重組可產生 > 10¹⁵ 種 TCR，必然有自體反應受體（Ehrlich 的「horror autotoxicus」）。
+- **中央耐受**：胸腺負向選擇；**mTEC 表現 AIRE**，開啟組織專一性抗原的表現來檢測。**AIRE 突變 → APS-1（APECED）**。中央耐受不是 100%，部分自體反應 T 會逃到周邊。
+- **周邊耐受**：缺乏共刺激（CD28–CD80/86）→ **anergy**；**tolerogenic DC**。
+- Treg 的發現：1970 年代 suppressor T（CD8、I-J locus）後來被推翻；1969 Nishizuka、Sakakura：出生第 3 天切胸腺（d3Tx）的小鼠出現自體免疫；**1995 Sakaguchi：CD4⁺CD25⁺（IL-2Rα）** 是抑制性 T 的標記（裸鼠輸入去除 CD25⁺ 的 T → 多器官自體免疫，補回即可預防）。
+- **Scurfy 小鼠**（X-linked，雄鼠死於多器官自體免疫）→ Brunkow、Ramsdell 定位選殖找到 **Foxp3**（2-bp 插入造成 frameshift）；人類 **FOXP3 突變 → IPEX 症候群**（X-linked，嬰幼兒自體免疫與腸病）；2003 Sakaguchi 證實 Foxp3 專一表現於 Treg。
+- Treg 亞群：**tTreg**（胸腺，FOXP3 最穩定）、**pTreg**（周邊誘導）、**iTreg**（體外 TGF-β＋高劑量 IL-2，較不穩定）。
+- **三大抑制機制**：高表現 **CTLA-4** 搶 CD80/86（細胞接觸）、分泌 **IL-10、TGF-β、IL-35**、高表現 **CD25** 吸光 IL-2（**IL-2 剝奪**）。
 
 ## 1. Signal ③：cytokine 決定 CD4 TH 分化 ⭐⭐⭐
 
@@ -67,7 +76,7 @@
 ### 兩種活化方式
 
 1. **DC 本身共刺激力很強**：感染後 DC 表現大量 **B7** → 直接活化 naïve CD8；DC 的 **IL-12、IL-18** 還能讓 bystander CD8 分泌 **IFN-γ** → 活化 macrophage。
-2. **CD4 effector 幫忙**（在次級淋巴器官）：APC 刺激 CD4 表現 **CD40L、IL-2** → APC 經 CD40 被刺激後提高 **B7 與 4-1BBL** → 共同刺激 naïve CD8（4-1BB）。
+2. **CD4 effector 幫忙**（在次級淋巴器官）：APC 刺激 CD4 表現 **CD40L、IL-2** → APC 經 CD40 被刺激後提高 **B7 與 4-1BBL／CD70**、分泌 IL-12 → 共同刺激 naïve CD8（4-1BB）；最常發生在 DC（cross-priming）。
 
 <div data-fig="cd8-activation"></div>
 
@@ -129,7 +138,7 @@
 | Cytokine         | 作用                                                                 |
 | ---------------- | -------------------------------------------------------------------- |
 | **IL-13**        | 上皮細胞更新、**mucus**（goblet cell）→ 寄生蟲脫落                   |
-| **IL-13**        | 增加腸道**平滑肌收縮** → 排蟲                                        |
+| **IL-13**        | 增加腸道**平滑肌收縮** → 排蟲（上皮分泌＋平滑肌收縮 = **weep and sweep**） |
 | **IL-4 + IL-13** | 招募並活化 **M2 macrophage**（arginase-1）→ 平滑肌收縮、**組織修復** |
 | **IL-5**         | 招募活化 **eosinophil** → MBP 殺蟲、ADCC                             |
 | IL-3、IL-9       | 招募 **mast cell**；IgE 武裝的 mast cell 釋放 histamine、TNF-α、MMCP |
@@ -165,6 +174,7 @@
 <div data-fig="td-ti-logic"></div>
 
 ## 6. T–B 細胞交互作用
+> 百十四共筆：次級淋巴組織中 T、B 相遇的順序「**根本沒考過，老師也很隨便帶過**」，可放最後讀。要記的只有 B 細胞 **CXCR5**（CXCL13，留在濾泡）、T 細胞 **CCR7**（CCL19／21）；活化後 B ↑CCR7 往 T 區、T ↑CXCR5 往濾泡。
 
 - **Fig 10.3**：TFH 辨識 B 細胞上的 pMHC II → **CD40L–CD40**、**IL-21 → STAT3**，加上 IL-6、TGF-β、IFN-γ、IL-4（**決定 isotype switch**）→ B 細胞增殖成 **plasmablast（primary focus）** → 再分化為 **germinal center B、plasma cell、memory B**。
 - **Fig 10.5 遷移**：
@@ -203,6 +213,7 @@
 - C 基因順序：人 **μ–δ–γ3–γ1–α1–γ2–γ4–ε–α2**；小鼠 **μ–δ–γ3–γ1–γ2b–γ2a–ε–α**。除了 δ 以外，每個 C 前都有 **switch region**。
 
 ### DNA 層級的機制
+> 百十四共筆：AID 之後 staggered nicks 怎麼變成 double-strand break 的細節**不需深入**，知道最後造成 class-switch recombination 即可。
 
 1. **Cytokine 活化上游 promoter**，轉錄穿過 switch region。
 2. **AID、UNG、APE1** 在兩股 DNA 上打出成串的 nicks。
@@ -381,12 +392,10 @@
 - 老師說可以放過：Fig 9.43 中 LT-α 等細節、凋亡 cascade 細節（Bcl family「記不起來就算了」）、AID 修復酵素細節（「略懂即可」）、Treg 功能（沒打算講）。
 - 易考觀念：TH 分化是單行道且互相抑制；**CD4 幫 CD8 發生在次級淋巴組織**；CTL 在周邊只需 signal 1、serial killing；**IgM→IgD 與 membrane→secreted 是 RNA splicing**，其他 isotype 是 DNA 重組；**AID 把 C 變 U**、由 IL-4 + CD40 誘導；TI 抗原只有 IgM、記憶差；自然界 > 90% 為 TD 抗原。
 
-## 📒 百十四共筆對照（W4-2）
-
-- **Immune tolerance** 那部分老師放 PDF 補充、上課沒講（自己看）。
-- **T–B cell interactions（次級淋巴組織中的相遇順序）**：共筆註記「**根本沒考過，老師也很隨便帶過**」，可放最後讀。重點只要記：B 細胞 **CXCR5**（CXCL13，留在濾泡）、T 細胞 **CCR7**（CCL19／21）；活化後 B ↑CCR7 往 T 區、T ↑CXCR5 往濾泡。
-- AID 之後 staggered nicks 變 double-strand break 的詳細機制**不需深入**，知道最後造成 class-switch recombination 即可。
-
+## 百十三共筆對照
+- 百十三沒有「免疫耐受與 Treg」這段（AIRE、Sakaguchi、Foxp3／IPEX、Treg 三大抑制機制）；這是百十四依老師補充的 PDF 新增的。
+- 百十三寫 CTL 的胞毒顆粒由 perforin、granzymes、**serglycin** 組成，TFH 的 IL-21 經 **STAT3** 增強 B 細胞；百十四沒寫這兩個分子（本站依 slides 保留在正文）。
+- cytokine → isotype 表：百十三列出含小鼠亞型的完整表（IFN-γ → IgG3、**IgG2a**；TGF-β → **IgG2b**、IgA）；百十四只註明「要背」並附圖，內容同上方表格。
 ## ⚠️ 陷阱整理
 
 | 容易選錯                        | 正確                                                                                      |

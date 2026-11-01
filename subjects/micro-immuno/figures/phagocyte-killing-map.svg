@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 620" role="img" aria-label="吞噬細胞殺菌觀念圖：吞入後吞噬體與溶酶體融合成吞噬溶酶體，以酸化、ROS（NADPH oxidase 產生超氧、SOD 變成過氧化氫、MPO 變成次氯酸）、NO（iNOS 由 arginine 產生，和超氧結合成 peroxynitrite）與溶酶體酵素、defensin 殺菌。NADPH oxidase 由膜上 gp91 與 p22、細胞質 p47、p67、p40 與 Rac 組成，缺陷造成 CGD。吞不下時改用 NETs。">
+<defs>
+<marker id="pk-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
+<marker id="pk-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
+<marker id="pk-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
+</defs>
+
+<text x="380" y="22" text-anchor="middle" class="tb">口訣：吞 → 關 → 酸 → 炸（ROS）→ 毒（NO）→ 切（酵素）</text>
+<text x="380" y="40" text-anchor="middle" class="ts">殺菌的戰場是 phagolysosome；吞不下的大目標，neutrophil 改吐 NETs 網住</text>
+
+<!-- 吞噬步驟 -->
+<g class="hot" data-tip="吞噬五步驟：<b>趨化</b>（C5a、IL-8、fMLP）→ <b>附著</b>（mannose receptor、CR、FcR；調理後更好抓）→ <b>吞入</b>（偽足包住，形成 phagosome）→ <b>殺死</b>（與 lysosome 融合成 phagolysosome）→ <b>排出</b>殘餘物。" data-label="吞噬五步驟">
+<rect x="14" y="54" width="732" height="38" rx="10" class="bp"/>
+<text x="84" y="78" text-anchor="middle" class="tb">趨化</text>
+<path d="M114 73H140" class="ln" marker-end="url(#pk-a)"/>
+<text x="190" y="78" text-anchor="middle" class="tb">附著（調理）</text>
+<path d="M240 73H262" class="ln" marker-end="url(#pk-a)"/>
+<text x="334" y="78" text-anchor="middle" class="tb">吞入 → phagosome</text>
+<path d="M404 73H426" class="ln" marker-end="url(#pk-a)"/>
+<text x="530" y="78" text-anchor="middle" class="tb tv">＋lysosome → phagolysosome</text>
+<path d="M636 73H662" class="ln" marker-end="url(#pk-a)"/>
+<text x="702" y="78" text-anchor="middle" class="tb">排出</text>
+</g>
+
+<!-- NOX 組裝 -->
+<g class="hot" data-tip="<b>NADPH oxidase（NOX2）</b>：膜上 <b>gp91phox＋p22phox</b>（flavocytochrome b558）；細胞質 <b>p47phox、p67phox、p40phox＋Rac1/2</b>。<br>活化：<b>p47 磷酸化</b>、<b>Rac 變成 GTP 型</b> → 移到膜上組裝 → 用 NADPH 把 O₂ 還原成 O₂⁻。" data-label="NOX 組裝">
+<rect x="14" y="108" width="228" height="196" rx="12" class="bv"/>
+<text x="128" y="130" text-anchor="middle" class="tb tv">NADPH oxidase 組裝</text>
+<rect x="30" y="142" width="196" height="42" rx="8" class="bx"/>
+<text x="128" y="160" text-anchor="middle" class="tb" style="font-size:12px">膜上：gp91 ＋ p22</text>
+<text x="128" y="176" text-anchor="middle" class="ts">（cytochrome b558）</text>
+<path d="M128 220V190" class="lv" marker-end="url(#pk-av)"/>
+<text x="136" y="208" class="ts tv">移位組裝</text>
+<rect x="30" y="222" width="196" height="42" rx="8" class="bx"/>
+<text x="128" y="240" text-anchor="middle" class="tb" style="font-size:12px">細胞質：p47、p67、p40、Rac</text>
+<text x="128" y="256" text-anchor="middle" class="ts">p47 磷酸化、Rac-GTP</text>
+<text x="128" y="290" text-anchor="middle" class="ts">NADPH → NADP⁺，O₂ → O₂⁻</text>
+</g>
+
+<!-- 吞噬溶酶體 -->
+<rect x="258" y="108" width="488" height="290" rx="40" class="bp"/>
+<text x="502" y="132" text-anchor="middle" class="tb">Phagolysosome 裡的四種武器</text>
+
+<!-- 酸 -->
+<g class="hot" data-tip="Phagolysosome 以 <b>H⁺ pump</b> 酸化（pH 約 6.5 → 4.0），活化溶酶體酵素。" data-label="酸化">
+<rect x="276" y="144" width="132" height="58" rx="10" class="bx"/>
+<text x="342" y="166" text-anchor="middle" class="tb">① 酸</text>
+<text x="342" y="186" text-anchor="middle" class="ts">H⁺ pump，pH ↓ 到約 4</text>
+</g>
+<!-- 切 -->
+<g class="hot" data-tip="<b>氧非依賴</b>的武器：溶酶體酵素（protease、lysozyme、hydrolase）、<b>defensins</b> 等 AMP。CGD 病人只剩這一類。" data-label="溶酶體酵素">
+<rect x="276" y="214" width="132" height="70" rx="10" class="bx"/>
+<text x="342" y="236" text-anchor="middle" class="tb">④ 切</text>
+<text x="342" y="256" text-anchor="middle" class="ts">溶酶體酵素</text>
+<text x="342" y="274" text-anchor="middle" class="ts">defensin、lysozyme</text>
+</g>
+
+<!-- ROS 鏈 -->
+<g class="hot" data-tip="<b>Respiratory burst</b>：O₂ →（<b>NADPH oxidase</b>）→ <b>O₂⁻</b> superoxide →（<b>SOD</b>）→ <b>H₂O₂</b> →（<b>MPO</b>＋Cl⁻）→ <b>HOCl</b> 次氯酸（氧化、氯化）。" data-label="ROS">
+<rect x="420" y="144" width="310" height="140" rx="10" class="br"/>
+<text x="575" y="164" text-anchor="middle" class="tb tr">② 炸：ROS（respiratory burst）</text>
+<text x="446" y="196" text-anchor="middle" class="tb">O₂</text>
+<path d="M462 191H500" class="lr" marker-end="url(#pk-ar)"/>
+<text x="481" y="184" text-anchor="middle" class="ts">NOX</text>
+<text x="520" y="196" text-anchor="middle" class="tb">O₂⁻</text>
+<path d="M538 191H576" class="lr" marker-end="url(#pk-ar)"/>
+<text x="557" y="184" text-anchor="middle" class="ts">SOD</text>
+<text x="600" y="196" text-anchor="middle" class="tb">H₂O₂</text>
+<path d="M624 191H662" class="lr" marker-end="url(#pk-ar)"/>
+<text x="643" y="184" text-anchor="middle" class="ts">MPO</text>
+<text x="694" y="196" text-anchor="middle" class="tb tr">HOCl</text>
+<text x="643" y="212" text-anchor="middle" class="ts">＋Cl⁻</text>
+<text x="575" y="242" text-anchor="middle" class="ts">細菌的反制：<tspan font-style="italic">S. aureus</tspan> catalase 分解 H₂O₂、</text>
+<text x="575" y="260" text-anchor="middle" class="ts"><tspan font-style="italic">M. tuberculosis</tspan> SOD 清掉 O₂⁻</text>
+</g>
+
+<!-- NO -->
+<g class="hot" data-tip="<b>RNI</b>：<b>iNOS</b> 以 <b>L-arginine</b> 為受質產生 <b>NO</b>（＋citrulline）；NO＋O₂⁻ → <b>peroxynitrite（ONOO⁻）</b>，硝化 Tyr；NO 也形成 S-nitrosothiol，破壞 Fe-S、Zn-S cluster。IFN-γ 活化 macrophage 時 iNOS 大增。" data-label="NO">
+<rect x="276" y="296" width="454" height="88" rx="10" class="bw"/>
+<text x="503" y="318" text-anchor="middle" class="tb">③ 毒：NO（RNI）</text>
+<text x="330" y="348" text-anchor="middle" class="tb">L-Arg</text>
+<path d="M356 343H404" class="ln" marker-end="url(#pk-a)"/>
+<text x="380" y="336" text-anchor="middle" class="ts">iNOS</text>
+<text x="426" y="348" text-anchor="middle" class="tb">NO</text>
+<path d="M446 343H500" class="ln" marker-end="url(#pk-a)"/>
+<text x="473" y="336" text-anchor="middle" class="ts">＋O₂⁻</text>
+<text x="560" y="348" text-anchor="middle" class="tb">ONOO⁻</text>
+<text x="660" y="348" text-anchor="middle" class="ts">破壞 Fe-S cluster</text>
+<text x="503" y="372" text-anchor="middle" class="ts">IFN-γ 活化的 macrophage（M1）iNOS 大增</text>
+</g>
+
+<!-- NOX 供應 O2- -->
+<path d="M242 200Q252 200 258 196" class="lv dash"/>
+
+<!-- CGD -->
+<g class="hot" data-tip="<b>CGD（慢性肉芽腫病）</b>：NOX 任一次單元缺陷 → 沒有 respiratory burst（吞得進、殺不死）。<b>gp91 最常見、唯一 X-linked</b>；p47、p67、p22 體染色體隱性。<br>特別怕 <b>catalase(+)</b> 菌（<i>S. aureus</i>）與 <i>Aspergillus</i>：catalase(−) 菌自己產生的 H₂O₂ 可被吞噬細胞借用。病原被包圍形成 <b>granuloma</b>。" data-label="CGD">
+<rect x="14" y="316" width="228" height="82" rx="12" class="br"/>
+<text x="128" y="338" text-anchor="middle" class="tb tr">缺 NOX ＝ CGD</text>
+<text x="128" y="358" text-anchor="middle" class="ts">吞得進、殺不死；gp91 最常見（X-linked）</text>
+<text x="128" y="376" text-anchor="middle" class="ts">怕 catalase(+)：<tspan font-style="italic">S. aureus</tspan>、<tspan font-style="italic">Aspergillus</tspan></text>
+<text x="128" y="392" text-anchor="middle" class="ts">→ granuloma</text>
+</g>
+
+<!-- Plan B NETs -->
+<text x="24" y="428" class="th">吞不下的時候：Plan B</text>
+<g class="hot" data-tip="<b>NETs</b>：neutrophil 吐出染色質（DNA、histone）＋顆粒蛋白（NE、cathepsin G、MPO）形成網子困住病原。<br><b>NETosis</b>（溶解型，細胞死亡）vs <b>non-lytic NETosis</b>（活細胞擠出，剩下的 cytoplast 還能吞）。<br>訊號：TLR4、C5a、TNF-α、血小板 → PKC → Raf → MEK → ERK → NOX 產生 ROS；<b>PAD4 瓜胺酸化 histone</b>。GAS 用 <b>DNase</b> 切網逃脫。" data-label="NETs">
+<rect x="14" y="438" width="360" height="110" rx="12" class="bg"/>
+<text x="194" y="460" text-anchor="middle" class="tb">NETs：吐出網子困住</text>
+<text x="194" y="482" text-anchor="middle" class="ts">DNA＋histone＋NE、MPO、cathepsin G</text>
+<text x="194" y="502" text-anchor="middle" class="ts">NETosis（細胞死）vs non-lytic（細胞還活著）</text>
+<text x="194" y="522" text-anchor="middle" class="ts">需要 NOX 的 ROS、PAD4 解開染色質</text>
+<text x="194" y="540" text-anchor="middle" class="ts tr">GAS 用 DNase 切網逃脫</text>
+</g>
+<g class="hot" data-tip="Neutrophil 的結局：殺完菌後 <b>PICD</b>（凋亡）→ macrophage <b>efferocytosis</b>（看 phosphatidylserine「eat me」訊號）→ 分泌 <b>IL-10、TGF-β</b>，不發炎。若病原在裡面存活 → 細胞裂解、病原散播、組織破壞。" data-label="收尾">
+<rect x="386" y="438" width="360" height="110" rx="12" class="bx"/>
+<text x="566" y="460" text-anchor="middle" class="tb">殺完之後：安靜收尾</text>
+<text x="566" y="482" text-anchor="middle" class="ts">neutrophil 凋亡（PICD）</text>
+<text x="566" y="502" text-anchor="middle" class="ts">→ macrophage efferocytosis（PS「eat me」）</text>
+<text x="566" y="522" text-anchor="middle" class="ts">→ IL-10、TGF-β，不發炎</text>
+<text x="566" y="540" text-anchor="middle" class="ts">病原沒死 → 細胞裂解、散播</text>
+</g>
+
+<text x="380" y="580" text-anchor="middle" class="tb tr" style="font-size:12px">易錯：CGD 是「殺不死」不是「吞不進」；NOX 的 gp91、p22 在膜上；產 HOCl 的是 MPO，不是 NOX</text>
+<text x="380" y="602" text-anchor="middle" class="ts">病原怎麼躲過這些武器，見下方「病原在吞噬的哪一步作弊」</text>
+</svg>

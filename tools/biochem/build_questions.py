@@ -6,7 +6,7 @@ import json, os, re, collections
 HERE = os.path.dirname(__file__)
 ROOT = os.path.abspath(os.path.join(HERE, '..', '..'))
 OUT = os.path.join(ROOT, 'subjects', 'biochem', 'data')
-SRC = '113 共筆考古'
+SRC = '百十三共筆考古'
 
 raw = json.load(open(os.path.join(HERE, 'gongbi-raw.json'), encoding='utf-8'))
 

@@ -1,4 +1,4 @@
-"""模擬新題（依 2026 slides 與 113 共筆考點編寫）→ subjects/biochem/data/questions-new.json"""
+"""模擬新題（依 2026 slides 與 百十三共筆考點編寫）→ subjects/biochem/data/questions-new.json"""
 import json, os
 OUT = os.path.join(os.path.dirname(__file__), '..', '..', 'subjects', 'biochem', 'data', 'questions-new.json')
 P1, P0, PM, PC = '選正確／單一概念題', '選錯誤（否定）題', '配對題', '臨床情境題'

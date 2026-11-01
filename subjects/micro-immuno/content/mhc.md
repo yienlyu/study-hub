@@ -1,5 +1,5 @@
 === summary ===
-# MHC、抗原處理與呈現（陳玫潔）
+# MHC、抗原處理與呈現（依百十四共筆整理、對照百十三共筆，陳玫潔）
 
 ## 1. T 細胞辨識什麼？
 - 來自蛋白抗原的 **peptide**，由 **APC** 呈現，**結合在自身（self）MHC** 上，被**抗原專一 TCR** 辨識。
@@ -35,7 +35,9 @@
 - **Co-dominant expression**：父母雙方的 MHC 都表現。
 - **Gene conversion**：減數分裂時由另一 MHC 基因複製序列 → 新 allele。
 - ⭐ **MHC 多樣性是「個體間」差異（遺傳）**；BCR / TCR 多樣性是「個體內」差異（somatic DNA rearrangement）。MHC **不需重組、不需 RAG**；是移植排斥的原因。
-- HLA-B27 與僵直性脊椎炎相關（但非確診依據）。
+- **HLA-B27** 與**僵直性脊椎炎**相關（好發男性；父母有病子女機率較高），但帶有 HLA-B27 **不足以確診**，要配合症狀與影像。
+- 對照 **allelic exclusion**：B／T 細胞只表現一個等位基因以維持單一專一性；MHC 則**共顯性**表現父母雙方。
+- **Inherited differences**：不同 allele 的結合槽胺基酸不同 → 每個人能呈現的胜肽不同。
 
 ## 4. 各組織 MHC 表現
 | 細胞 | MHC I | MHC II |
@@ -54,7 +56,7 @@
 
 ### MHC I 路徑（cytosolic / endogenous）
 1. 細胞質蛋白（含 **DRiPs**）經 **ubiquitin–proteasome** 切成短 peptide（IFN-γ 誘導 immunoproteasome：**LMP2、LMP7**）。
-2. **TAP-1 / TAP-2**（ER 膜上的 **ATP-dependent** 運輸蛋白；偏好 8–16 aa、C 端疏水或鹼性；基因在 MHC 區、受 IFN 誘導）送入 ER。
+2. **TAP-1 / TAP-2**（ER 膜上的 **ATP-dependent** 運輸蛋白，細胞質端為 **ABC（ATP-binding cassette）**；偏好 8–16 aa、C 端疏水或鹼性；基因在 MHC 區、受 IFN 誘導；**TAP 突變 → 抗原無法呈現**）送入 ER。
 3. ER 內：**calnexin** 先結合 α 鏈 → β2m 結合後形成 **peptide-loading complex（calreticulin、tapasin、ERp57、TAP）** → **ERAAP** 修剪過長 peptide → 裝載上 MHC I。
 4. 經 Golgi 運至細胞膜 → CD8 T 細胞辨識。
 
@@ -71,12 +73,24 @@
 <div data-fig="mhc-pathways"></div>
 
 ### 例外路徑
-- **Cross-presentation**：**DC** 把外源抗原放上 **MHC I**（活化 CD8）。
-- **Autophagy**：細胞質抗原進入 MHC II 路徑。
+- **Cross-presentation**：**DC** 把外源抗原從 phagolysosome 送到 ER、放上 **MHC I**（活化 CD8；機制仍不清楚），所以 DC 可同時活化 CD4 與 CD8。
+- **Autophagy**：細胞質（內生）抗原被雙層膜包住，走 MHC II 囊泡路徑活化 CD4，**通常用來製造 tolerance**。
+- MHC II 的兩種外源來源：**囊泡中的病原**（吞噬細胞處理、自己被活化殺菌）與**細胞外病原與毒素**（B 細胞以 BCR 抓抗原後內化切碎）。
 
-## 6. 免疫突觸（下週詳述）
-- Signal 1：TCR–pMHC（CD4/CD8 帶 **Lck**）；Signal 2：**CD28–B7（CD80/86）**；Signal 3：cytokines（IL-1、IL-6、IL-12）。
-- 周邊：**LFA-1–ICAM-1** 黏附。
+## 6. TCR 辨識介面與免疫突觸（下週詳述）
+- TCR 辨識的是 **peptide–MHC complex**：peptide 上朝向 TCR 的是 **T-cell contact residues**，固定在槽裡的是 **anchor residues**。
+- 免疫突觸：T 細胞與 APC 接觸時，receptor、coreceptor、黏附與共刺激分子集中在接觸區（不是均勻散布）。
+
+| T 細胞 | APC | 功能 |
+|---|---|---|
+| TCR | peptide–MHC | 抗原辨認 |
+| CD4（CD8） | MHC II（MHC I） | coreceptor（帶 **Lck**） |
+| LFA-1 | ICAM-1 | 黏附 |
+| CD2 | **LFA-3（CD58）** | 黏附 |
+| CD28 | **B7-1／B7-2（CD80／CD86）** | 共刺激（Signal 2） |
+
+- Signal 3：cytokines（IL-1、IL-6、IL-12）。
+- ⚠️ 百十四共筆把 LFA-3 寫成 CD48，正確是 **CD58**（slides 與上一章同）。
 
 ## 🎙️ 上課錄影重點（陳玫潔，非同步遠距 W17；錄影無官方逐字稿，以 Whisper 轉錄整理）
 - 本課 = 「**大亨堡怎麼做**」：Part 1 麵包（MHC）怎麼做、Part 2 熱狗（peptide）怎麼切、怎麼放上去。**專一性在 TCR**，MHC 與 peptide 的結合**不太需要專一性**（麵包不用切成熱狗形狀），但若 peptide 放不穩 → 無法被 TCR 辨識 → 喪失細胞免疫 → 「B 細胞免疫再好也無用」（T 細胞要幫 B）。
@@ -147,3 +161,8 @@
 - 錄影中強調：**CD8 接 α3、CD4 接 β2**；class II 是 **DP、DQ、DR**（不是 HLA-D）；MHC 多樣性是**遺傳**來的、**沒有重組、沒有 allelic exclusion**；兄弟姊妹因 gene conversion 仍可能 HLA 不同。
 - 「這張圖小重要」：MHC I 在所有有核細胞（RBC 除外）；MHC II 只在 B、macrophage、DC、胸腺上皮。
 - **Cross-presentation 只有 DC**；autophagy 走 MHC II；非蛋白抗原無法活化 T → 只有 IgM、無 class switch。
+
+## 百十三共筆對照
+- 百十三在這章開頭先複習 **T 細胞胸腺發育**（double negative → double positive → single positive），百十四移到 W04-1 才講。
+- 百十三把 Signal 3 寫成「APC 分泌 **IL-1、IL-6、IL-12** 塑造 T 細胞分化」；百十四在 W04-1 改列 IL-6、IL-12、IL-23、IL-4。
+- 百十三沒寫 DC 的 **cross-presentation**、autophagy 用來製造 tolerance；這兩點是百十四補的。其餘（MHC I／II 結構、TAP、CLIP／HLA-DM、HLA-B27）兩屆寫法相同。

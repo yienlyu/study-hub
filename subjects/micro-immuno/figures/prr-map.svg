@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-label="PRR 位置與配體觀念圖：細胞膜上的 TLR1/2、TLR2/6、TLR4、TLR5 抓病原表面成分；內體的 TLR3、TLR7/8、TLR9 抓核酸；細胞質的 NOD1/2 抓 peptidoglycan、RIG-I/MDA5 抓病毒 RNA、AIM2 與 cGAS–STING 抓 DNA。星號為老師的剔除鼠研究例：Lyme OspA–TLR1/2、OxPL–TLR4、West Nile–TLR3。">
+<defs><marker id="pr-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker></defs>
+
+<text x="380" y="22" text-anchor="middle" class="tb">口訣：PRR 住在哪裡，就抓「會出現在那裡」的東西</text>
+<text x="380" y="40" text-anchor="middle" class="ts">細胞膜 → 病原表面成分　｜　內體 → 被吞進來的核酸　｜　細胞質 → 跑進細胞質的碎片與核酸</text>
+
+<!-- 細胞外標籤 -->
+<text x="24" y="68" class="th">細胞外</text>
+
+<!-- 細胞 -->
+<rect x="14" y="76" width="732" height="470" rx="22" class="bp"/>
+<path d="M14 118H746" class="lt dash"/>
+<text x="24" y="100" class="th">細胞膜：TLR（表面成分）</text>
+
+<!-- 細胞膜 TLRs -->
+<g class="hot" data-tip="<b>TLR1/TLR2</b>：細菌 triacyl lipopeptide、分枝桿菌 lipomannan。<br>★ 老師的剔除鼠研究：缺 TLR1、TLR2 的小鼠對 <b>Lyme disease（<i>Borrelia</i> OspA）</b>發炎變差（IL-6↓）。" data-label="TLR1/2">
+<rect x="34" y="130" width="160" height="92" rx="10" class="bv"/>
+<text x="114" y="152" text-anchor="middle" class="tb tv">TLR1 / TLR2</text>
+<text x="114" y="172" text-anchor="middle" class="ts">lipopeptide</text>
+<text x="114" y="190" text-anchor="middle" class="ts">lipomannan（分枝桿菌）</text>
+<text x="114" y="210" text-anchor="middle" class="tb" style="font-size:12px">★ Lyme OspA</text>
+</g>
+<g class="hot" data-tip="<b>TLR2/TLR6</b>：G(+) <b>lipoteichoic acid</b>、diacyl lipopeptide、真菌 <b>β-glucan</b>（zymosan）。<br>記法：<b>TLR2 = G(+)</b>（peptidoglycan、LTA）。" data-label="TLR2/6">
+<rect x="210" y="130" width="160" height="92" rx="10" class="bv"/>
+<text x="290" y="152" text-anchor="middle" class="tb tv">TLR2 / TLR6</text>
+<text x="290" y="172" text-anchor="middle" class="ts">G(+) LTA、peptidoglycan</text>
+<text x="290" y="190" text-anchor="middle" class="ts">真菌 β-glucan</text>
+<text x="290" y="210" text-anchor="middle" class="ts">記：TLR2 = G(+)</text>
+</g>
+<g class="hot" data-tip="<b>TLR4</b>（＋<b>CD14</b>、LPS-binding protein）：G(−) <b>LPS</b>；也辨識 DAMP，如 <b>HMGB1</b>。<br>★ 老師的研究例：吸入性嗆傷產生的 <b>oxidized phospholipids（OxPL）</b>經 TLR4 引起發炎；缺 TLR4 的小鼠肺受傷但不發炎。<br>TLR4 的訊號 <b>MyD88、TRIF 兩條都走</b>。" data-label="TLR4">
+<rect x="386" y="130" width="160" height="92" rx="10" class="bv"/>
+<text x="466" y="152" text-anchor="middle" class="tb tv">TLR4 ＋ CD14</text>
+<text x="466" y="172" text-anchor="middle" class="ts">G(−) LPS、HMGB1</text>
+<text x="466" y="190" text-anchor="middle" class="tb" style="font-size:12px">★ OxPL（嗆傷肺損傷）</text>
+<text x="466" y="210" text-anchor="middle" class="ts">MyD88 ＋ TRIF</text>
+</g>
+<g class="hot" data-tip="<b>TLR5</b>：細菌<b>鞭毛蛋白 flagellin</b>。" data-label="TLR5">
+<rect x="562" y="130" width="164" height="92" rx="10" class="bv"/>
+<text x="644" y="152" text-anchor="middle" class="tb tv">TLR5</text>
+<text x="644" y="172" text-anchor="middle" class="ts">flagellin（鞭毛）</text>
+<text x="644" y="196" text-anchor="middle" class="ts">其餘膜上 TLR 都走 MyD88</text>
+<text x="644" y="212" text-anchor="middle" class="ts">→ NF-κB → 發炎 cytokine</text>
+</g>
+
+<!-- 內體 -->
+<text x="24" y="250" class="th">內體 endosome：TLR3、7、8、9（核酸）</text>
+<rect x="34" y="260" width="692" height="104" rx="40" class="bg"/>
+<g class="hot" data-tip="<b>TLR3</b>：病毒 <b>dsRNA</b>、poly I:C。<br>★ 老師的研究例：<b>West Nile virus</b> 經 TLR3 進腦造成腦膜炎；缺 TLR3 的小鼠發炎較差、病毒量較高。<br>⚠️ <b>唯一不經 MyD88</b> 的 TLR，只走 <b>TRIF → IRF3 → type I IFN</b>。" data-label="TLR3">
+<text x="150" y="292" text-anchor="middle" class="tb">TLR3</text>
+<text x="150" y="312" text-anchor="middle" class="ts">病毒 dsRNA</text>
+<text x="150" y="332" text-anchor="middle" class="tb" style="font-size:12px">★ West Nile virus</text>
+<text x="150" y="350" text-anchor="middle" class="ts tr">只走 TRIF（無 MyD88）</text>
+</g>
+<g class="hot" data-tip="<b>TLR7、TLR8</b>：病毒 <b>ssRNA</b>。" data-label="TLR7/8">
+<text x="380" y="292" text-anchor="middle" class="tb">TLR7 / TLR8</text>
+<text x="380" y="312" text-anchor="middle" class="ts">病毒 ssRNA</text>
+</g>
+<g class="hot" data-tip="<b>TLR9</b>：細菌與 DNA 病毒的 <b>unmethylated CpG DNA</b>（人類 DNA 的 CpG 多已甲基化，所以不會誤認）。" data-label="TLR9">
+<text x="610" y="292" text-anchor="middle" class="tb">TLR9</text>
+<text x="610" y="312" text-anchor="middle" class="ts">unmethylated CpG DNA</text>
+</g>
+<path d="M266 286V346M494 286V346" class="lt"/>
+
+<!-- 細胞質 -->
+<text x="24" y="392" class="th">細胞質：NLR、RLR、DNA sensor（跑進細胞質的東西）</text>
+<g class="hot" data-tip="<b>NLR</b>（NOD-like receptor）：<b>NOD1、NOD2</b> 辨識細胞質中的<b>細菌 peptidoglycan</b> 片段 → RIPK2 → NF-κB。<br><b>NLRP3</b> 等組成 <b>inflammasome</b>（＋ASC、pro-caspase-1）→ caspase-1 → IL-1β、IL-18、pyroptosis；也感應尿酸結晶、ATP、毒素。" data-label="NLR">
+<rect x="34" y="402" width="220" height="96" rx="10" class="bw"/>
+<text x="144" y="424" text-anchor="middle" class="tb">NLR</text>
+<text x="144" y="444" text-anchor="middle" class="tb" style="font-size:12px">NOD1 / NOD2 → peptidoglycan</text>
+<text x="144" y="464" text-anchor="middle" class="ts">NLRP3 → inflammasome</text>
+<text x="144" y="482" text-anchor="middle" class="ts">（結晶、ATP、毒素）</text>
+</g>
+<g class="hot" data-tip="<b>RLR</b>（RIG-I-like receptor）：<b>RIG-I、MDA5</b> 辨識細胞質中的<b>病毒 RNA</b> → type I IFN。<br>⚠️ RLR <b>不辨識細菌成分</b>；把 RIG-I 配 peptidoglycan 就是錯的（那是 NOD1/2）。" data-label="RLR">
+<rect x="270" y="402" width="220" height="96" rx="10" class="br"/>
+<text x="380" y="424" text-anchor="middle" class="tb tr">RLR</text>
+<text x="380" y="444" text-anchor="middle" class="tb" style="font-size:12px">RIG-I、MDA5 → 病毒 RNA</text>
+<text x="380" y="464" text-anchor="middle" class="ts">→ type I IFN</text>
+<text x="380" y="482" text-anchor="middle" class="ts tr">只抓病毒，不抓細菌</text>
+</g>
+<g class="hot" data-tip="<b>Cytosolic DNA sensors</b>：<b>AIM2</b>（細胞質 dsDNA → AIM2 inflammasome）、<b>cGAS–STING</b>（→ type I IFN）。" data-label="DNA sensor">
+<rect x="506" y="402" width="220" height="96" rx="10" class="bx"/>
+<text x="616" y="424" text-anchor="middle" class="tb">DNA sensor</text>
+<text x="616" y="444" text-anchor="middle" class="tb" style="font-size:12px">AIM2、cGAS–STING</text>
+<text x="616" y="464" text-anchor="middle" class="ts">→ 細胞質 dsDNA</text>
+<text x="616" y="482" text-anchor="middle" class="ts">（細菌或病毒 DNA）</text>
+</g>
+
+<!-- 陷阱 -->
+<path d="M144 498V516H380V498" class="lr dash"/>
+<text x="262" y="534" text-anchor="middle" class="tb tr" style="font-size:12px">✗ RIG-I ↔ peptidoglycan（考題 D）：細胞質的 peptidoglycan 歸 NOD1/2</text>
+</svg>
