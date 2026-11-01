@@ -107,18 +107,18 @@ G(+) cocci
 
 ## 7. 疾病 ↔ 病原速查
 
-| 疾病                         | 病原                             |
-| ---------------------------- | -------------------------------- |
-| Toxic shock syndrome         | S. aureus（TSST-1）；GAS（STSS） |
-| 燙傷樣皮膚症候群             | S. aureus exfoliative toxin      |
-| 食物中毒（2–6 h 嘔吐）       | S. aureus enterotoxin            |
-| 咽喉炎、猩紅熱、壞死性筋膜炎 | S. pyogenes                      |
-| Rheumatic fever、AGN         | S. pyogenes（非化膿性）          |
-| 新生兒腦膜炎                 | S. agalactiae（GBS）             |
-| 肺炎（社區）                 | S. pneumoniae                    |
-| 亞急性心內膜炎               | Viridans（S. mitis）             |
-| 導尿管 UTI（院內）           | Enterococcus、CoNS               |
-| 胃潰瘍                       | ❌ 不是 staph → _H. pylori_      |
+| 疾病                                                                         | 病原                                                |
+| ---------------------------------------------------------------------------- | --------------------------------------------------- |
+| 毒性休克症候群 Toxic shock syndrome（TSS）                                   | S. aureus（TSST-1）；GAS（STSS, streptococcal TSS） |
+| 燙傷樣皮膚症候群 Staphylococcal scalded skin syndrome（SSSS）                | S. aureus exfoliative toxin                         |
+| 食物中毒（2–6 h 嘔吐）Staphylococcal food poisoning                          | S. aureus enterotoxin                               |
+| 咽喉炎 Pharyngitis、猩紅熱 Scarlet fever、壞死性筋膜炎 Necrotizing fasciitis | S. pyogenes                                         |
+| 風濕熱 Rheumatic fever、急性腎絲球腎炎 Acute glomerulonephritis（AGN）       | S. pyogenes（非化膿性）                             |
+| 新生兒腦膜炎 Neonatal meningitis                                             | S. agalactiae（GBS）                                |
+| 社區肺炎 Community-acquired pneumonia                                        | S. pneumoniae                                       |
+| 亞急性心內膜炎 Subacute bacterial endocarditis                               | Viridans（S. mitis）                                |
+| 導尿管 UTI（院內）Catheter-associated UTI                                    | Enterococcus、CoNS                                  |
+| 胃潰瘍 Gastric ulcer（peptic ulcer）                                         | ❌ 不是 staph → _H. pylori_                         |
 
 === slides ===
 
