@@ -224,7 +224,7 @@
 
 <div data-fig="membrane-secreted"></div>
 
-### Cytokine 決定換成哪一型（Fig 10.23，以小鼠為主）
+### Cytokine 決定換成哪一型
 
 | Cytokine  | 誘導 isotype    |
 | --------- | --------------- |
