@@ -24,7 +24,7 @@
 
 <div data-fig="th-subsets-full"></div>
 
-### 黏膜組織：同一個 naïve T，看環境走 pTreg 或 TH17（Fig 9.37）
+### 黏膜組織：同一個 naïve T，pTreg 或 TH17？
 
 - 平常（**microbiota**）：iDC 分泌 **all-trans-retinoic acid（at-RA）** + TGF-β → **pTreg**（老師補充：腸腦軸）。
 - 感染（**opportunistic pathogens**）：TLR 活化的 mDC 分泌 **IL-6** + TGF-β → **TH17**。
