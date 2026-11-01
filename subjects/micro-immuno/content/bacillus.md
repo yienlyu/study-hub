@@ -68,7 +68,7 @@
 
 <div data-fig="slide-ab-toxin-table"></div>
 
-## 5. _Erysipelothrix rhusiopathiae_（老師說不考）
+## 5. _Erysipelothrix rhusiopathiae_
 
 - G(+)、不產孢子、microaerophilic、人畜共通（豬）；類丹毒 erysipeloid。
 
@@ -100,9 +100,7 @@
 - **診斷（國考題）**：不是靠臨床症狀、也不是只分離出白喉桿菌，**必須證明菌株會產生白喉毒素** → **Elek test**（免疫擴散沉澱：中間抗毒素血清條、兩側 positive / negative control 與待測菌，交集出現「叉叉」沉澱線 = 有毒素）。Schick test（測是否有抗體）已不用。
 - 台灣自 **1981 年後長期零本土病例**；近期**澳洲**白喉 outbreak（數百例、有死亡，2018 年以來首例）。預防：**三合一（白喉、百日咳、破傷風）類毒素疫苗**。
 
-## ✍️ 我的上課筆記（W6-1 講義手寫）
-
-> 原檔：`slides/micro-immuno/W6-1_Bacillus_ Listeria_ Corynebacterium（上課筆記）.pdf`（頁碼 = 該 PDF 頁數）。
+## ✍️ 我的上課筆記
 
 - **p.1** 開場複習 **G(+) vs G(−)**。
 - **p.2** Koch 1877 分離炭疽桿菌 → **柯氏假說：link 病原體和疾病的關係**。
