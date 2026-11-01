@@ -31,7 +31,7 @@
 
 <div data-fig="mucosal-treg-th17"></div>
 
-## 2. 各種 effector T 細胞的武器（Fig 9.42）
+## 2. 各種 effector T 細胞的武器
 
 | 細胞                                                   | 主要 effector 分子                              | 其他                                                |
 | ------------------------------------------------------ | ----------------------------------------------- | --------------------------------------------------- |
@@ -43,7 +43,7 @@
 
 <div data-fig="effector-molecules"></div>
 
-### T 細胞 cytokine 作用總表（Fig 9.43，紅底為老師標示）
+### T 細胞 cytokine 作用總表
 
 | Cytokine      | 來源                         | 重點作用                                                                         | Knockout                        |
 | ------------- | ---------------------------- | -------------------------------------------------------------------------------- | ------------------------------- |
@@ -64,7 +64,7 @@
 
 ## 3. CD8 CTL ⭐⭐
 
-### 兩種活化方式（Fig 11.21、9.29）
+### 兩種活化方式
 
 1. **DC 本身共刺激力很強**：感染後 DC 表現大量 **B7** → 直接活化 naïve CD8；DC 的 **IL-12、IL-18** 還能讓 bystander CD8 分泌 **IFN-γ** → 活化 macrophage。
 2. **CD4 effector 幫忙**（在次級淋巴器官）：APC 刺激 CD4 表現 **CD40L、IL-2** → APC 經 CD40 被刺激後提高 **B7 與 4-1BBL** → 共同刺激 naïve CD8（4-1BB）。
@@ -78,12 +78,12 @@
 
 <div data-fig="ctl-serial-killing"></div>
 
-| 顆粒蛋白（Fig 9.47） | 作用                                                 |
-| -------------------- | ---------------------------------------------------- |
+| 顆粒蛋白（Fig 9.47） | 作用                                                                |
+| -------------------- | ------------------------------------------------------------------- |
 | **Perforin**         | 需 Ca²⁺，在目標細胞膜聚合成**跨膜孔洞**，讓顆粒內容物進入 cytoplasm |
-| **Granzymes**        | serine protease，進入 cytoplasm 後**啟動 apoptosis** |
-| **Granulysin**       | 抗微生物、也能誘導 apoptosis                         |
-| **Fas ligand**       | 結合目標細胞的 Fas → apoptosis                       |
+| **Granzymes**        | serine protease，進入 cytoplasm 後**啟動 apoptosis**                |
+| **Granulysin**       | 抗微生物、也能誘導 apoptosis                                        |
+| **Fas ligand**       | 結合目標細胞的 Fas → apoptosis                                      |
 
 <div data-fig="ctl-granules"></div>
 
@@ -91,7 +91,7 @@
 
 <div data-fig="perforin-pore"></div>
 
-### Granzyme B 誘發凋亡（Fig 9.48）
+### Granzyme B 誘發凋亡
 
 **TCR 接到 pMHC → 定向釋放 perforin + granzymes（與 serglycin 結合）→ granzyme B 進入 cytosol，切 Bid 與 pro-caspase 3 → tBid 擠掉 Bcl-XL、結合 Bax → Bax 寡聚化在粒線體打孔 → cytochrome c 釋出 → apoptosome → caspase 3 切掉 I-CAD → CAD（caspase-activated DNase）切 DNA**。
 
@@ -99,7 +99,7 @@
 
 - ⚠️ **TGF-β 不是 CD8 毒殺用的分子**（Treg 分泌）。
 
-## 4. CD4 TH 各亞群的功能（Fig 9.33）⭐⭐⭐
+## 4. CD4 TH 各亞群的功能⭐⭐⭐
 
 |               | **TH1**                                                                                      | **TH2**                                                 | **TH17**                                                                  | **TFH**                                                          | **Treg**                                                |
 | ------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------- |
@@ -109,7 +109,7 @@
 
 <div data-fig="th-functions"></div>
 
-### 亞群互相抑制（Fig 9.38）
+### 亞群互相抑制
 
 - **TH2 的 IL-4 抑制 TH1 分化**；**TH1 的 IFN-γ 抑制 TH2 增殖**。
 - **IL-4 或 IFN-γ 都能抑制 TH17 發育**。
@@ -117,14 +117,14 @@
 
 <div data-fig="th-cross-regulation"></div>
 
-### TH1 → classical activation（M1 macrophage）（Fig 11.10、11.11）
+### TH1 → classical activation（M1 macrophage）
 
 - TH1 用 **CD40L–CD40** + **IFN-γ** 活化受感染的 macrophage。
 - **M1 macrophage**：↑MHC I、MHC II、B7、CD40、TNFR-I；產生 **NO、O₂⁻**、TNF-α、**IL-12**（再促 TH1，正回饋）、CXCL9/10/11。
 
 <div data-fig="th1-m1-macrophage"></div>
 
-### TH2 → type 2 response：驅蟲與組織修復（Fig 11.14）
+### TH2 → type 2 response：驅蟲與組織修復
 
 | Cytokine         | 作用                                                                 |
 | ---------------- | -------------------------------------------------------------------- |
@@ -136,7 +136,7 @@
 
 <div data-fig="th2-helminth"></div>
 
-### TH17 → type 3 response：清除胞外菌與真菌（Fig 11.16）
+### TH17 → type 3 response：清除胞外菌與真菌
 
 - **IL-17、IL-22** → 上皮產生**抗菌肽**；IL-22 → 上皮更新、細菌難定殖。
 - **IL-17** → stromal、myeloid cell 產 **G-CSF** → 骨髓**增產 neutrophil**；並產生 chemokines **招募 neutrophil**。
@@ -202,7 +202,7 @@
 - 同一個組好的 **VH exon** 接上不同的 **CH 基因** → 只換 constant region、**專一性不變**。
 - C 基因順序：人 **μ–δ–γ3–γ1–α1–γ2–γ4–ε–α2**；小鼠 **μ–δ–γ3–γ1–γ2b–γ2a–ε–α**。除了 δ 以外，每個 C 前都有 **switch region**。
 
-### DNA 層級的機制（Fig 10.21、10.22）
+### DNA 層級的機制
 
 1. **Cytokine 活化上游 promoter**，轉錄穿過 switch region。
 2. **AID、UNG、APE1** 在兩股 DNA 上打出成串的 nicks。
