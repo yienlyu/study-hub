@@ -64,10 +64,23 @@
 - **先天與後天的接力**：macrophage／DC 分泌 **IL-12** → NK 分泌 **IFN-γ**、naive CD4 分化成 **Th1** → IFN-γ＋**CD40L–CD40** 強化 macrophage 殺菌、增加 MHC 表現。
 - 活化 macrophage：TLR4（經 **CD14**）＋IFN-γ（JAK–**STAT1** dimer）→ NF-κB、IRF → pro-IL-1β、IL-6、IL-8、ROS；**iNOS → NO**；分泌 TNF、IL-1、IL-12；促進組織修復。
 - **IFN-γ（type II）**：抗微生物、抗腫瘤、免疫調節；維持 MHC I／II、誘導 **autophagy**。老師補充：**IFN-γ 幾乎所有免疫細胞**都會產生；**IFN-α／β 幾乎所有體細胞（RBC 除外）**都會產生。
-  - **Adult-onset immunodeficiency**：病人 **HIV 陰性**卻和 HIV 病人一樣易得結核 → IFN-γ 基因突變、IFN-γ 訊號失敗（無 ROS），或**抗 IFN-γ 自體抗體**。
+  - **Adult-onset immunodeficiency**：HIV 陰性卻像 HIV 一樣易得 TB → 見下方〈IFN-γ 訊號受損〉。
 - **細胞毒殺**：分泌 TNF-α、perforin、granulysin、IFN-γ。CTL 經 MHC I 辨識抗原；**NK** 的抑制型 **KIR** 碰到 MHC I 就不殺 → 感染／腫瘤細胞降低 MHC I，抑制訊號消失＋活化型受體結合 → 釋放 granzyme、perforin；**NKG2D** 直接辨識壓力分子，不需 MHC。
 - **Type I IFN（IFN-α、β）**：IRF 家族調控；TLR4–LPS、endosome 核酸、RIG-I → NF-κB、IRF3 → IFN；**IFNAR1／2** → JAK–**STAT1／STAT2** → **ISRE** → PKR、2-5AS、Mx1 等抗病毒蛋白；被感染細胞把 IFN 傳給鄰近細胞先武裝起來，再等 NK／CTL 清除。
 - **ADCC**：抗體 Fc ↔ **NK 的 CD16**、macrophage、eosinophil → 去顆粒殺死目標細胞。
+
+### IFN-γ 訊號受損（slides p64 ⭐）
+- **IFN-γ 從哪來**：innate lymphoid cells（含 **NK**）、**Th1**、**CTL**。
+- **作用在誰**（經 **STAT1、IRF1、NF-κB**）：
+  - **APC（巨噬細胞、DC）**：趨化、吞噬增加，產生 **ROS、NO** → 殺死吞入的胞內菌；**MHC I／II** 呈現、共刺激分子、Th1 誘導激素（IL-12）都增加 → 回頭再推 Th1，形成放大迴路。
+  - **腫瘤細胞**：增加 MHC I 呈現，抑制生長、促凋亡。
+- **成人型免疫缺乏（adult-onset immunodeficiency）**：
+  - 表現：**HIV 陰性**卻反覆感染 **TB**、**NTM** 等伺機性感染，臨床上很像 HIV／AIDS。
+  - 原因（slide 列的四項）：**抗 IFN-γ 自體抗體**、IFN-γ 本身缺陷（基因缺失，或下游受體／轉錄因子突變，訊號傳不下去）、遺傳因素、環境因素。
+  - 老師補充：北醫三家附屬醫院常收到疑似個案；診斷先**排除遺傳**，再**驗自體抗體**。如果是自體抗體，治療要**針對 B 細胞**（免疫療法），只殺菌會一直復發。
+- 考題辨識：「HIV 陰性＋反覆／播散性 TB、NTM」→ **抗 IFN-γ 自體抗體**；鑑別：C5–C9 缺乏 → *Neisseria*；選擇性 IgA 缺乏 → 黏膜感染；CGD → catalase(+) 菌與真菌、granuloma。
+
+<div data-fig="slide-ifng"></div>
 
 ## 5. 體液免疫、自體免疫與免疫脫逃
 

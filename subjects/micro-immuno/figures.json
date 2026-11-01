@@ -1375,6 +1375,22 @@
   "h": 713
  },
  {
+  "id": "slide-ifng",
+  "chapter": "infection-immunity",
+  "title": "IFN-γ 從哪來、作用在誰（p64）",
+  "topics": [
+   "胞內感染"
+  ],
+  "keywords": "IFN-gamma interferon gamma Th1 CTL ILC NK STAT1 IRF1 NF-kB APC macrophage ROS NO MHC adult-onset immunodeficiency anti-IFN-gamma autoantibody NTM tuberculosis",
+  "caption": "ILC（含 NK）、Th1、CTL 分泌 <strong>IFN-γ</strong> → 經 <strong>STAT1／IRF1／NF-κB</strong> → APC（巨噬細胞）趨化、吞噬、<strong>ROS／NO</strong> 增加，MHC I／II 呈現與共刺激變強，回頭再推 Th1；對腫瘤細胞則增加 MHC I、抑制生長、促凋亡。這條路斷掉（例如<strong>抗 IFN-γ 自體抗體</strong>）→ HIV 陰性卻反覆 TB／NTM。",
+  "type": "slide",
+  "src": "figures/slides/ifng.webp",
+  "deck": "1007 宿主對感染之防衛",
+  "page": "64",
+  "w": 924,
+  "h": 690
+ },
+ {
   "id": "immunodeficiency-map",
   "chapter": "immunodeficiency",
   "title": "免疫缺陷地圖：卡在哪一步、怕哪種感染",

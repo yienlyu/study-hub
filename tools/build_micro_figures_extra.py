@@ -101,6 +101,9 @@ NEW = [
  slide("slide-prrs", "infection-immunity", "PRR 家族：TLR、RLR、NLR、DNA sensor", ["PRRs、PAMPs、DAMPs"],
        "pattern recognition receptors TLR RLR NLR RIG-I MDA5 NOD NALP DNA sensor endosome",
        "細胞膜上的 TLR 看<strong>胞外</strong>菌體成分；內體的 TLR3/7/8/9 看<strong>核酸</strong>；細胞質的 RLR（RIG-I、MDA5）看病毒 RNA，NLR（NOD、NALP）看細菌成分。", HOST, 38, media="image46.jpeg"),
+ slide("slide-ifng", "infection-immunity", "IFN-γ 從哪來、作用在誰（p64）", ["胞內感染"],
+       "IFN-gamma interferon gamma Th1 CTL ILC NK STAT1 IRF1 NF-kB APC macrophage ROS NO MHC adult-onset immunodeficiency anti-IFN-gamma autoantibody NTM tuberculosis",
+       "ILC（含 NK）、Th1、CTL 分泌 <strong>IFN-γ</strong> → 經 <strong>STAT1／IRF1／NF-κB</strong> → APC（巨噬細胞）趨化、吞噬、<strong>ROS／NO</strong> 增加，MHC I／II 呈現與共刺激變強，回頭再推 Th1；對腫瘤細胞則增加 MHC I、抑制生長、促凋亡。這條路斷掉（例如<strong>抗 IFN-γ 自體抗體</strong>）→ HIV 陰性卻反覆 TB／NTM。", HOST, 64, media="image102.png"),
  # ---------------- 免疫缺陷
  svg("immunodeficiency-map", "immunodeficiency", "免疫缺陷地圖：卡在哪一步、怕哪種感染", ["SCID", "抗體缺陷", "吞噬細胞缺陷", "補體缺陷"],
      "SCID ADA IL2RG common gamma chain RAG FOXN1 BTK XLA CD40L hyper IgM CVID LAD CGD complement IL-12 IFN-gamma IL-17 STAT3",
