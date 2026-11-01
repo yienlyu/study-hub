@@ -6122,38 +6122,55 @@
     }
 
     // 記憶曲線（距上次做同一題多久 → 答對率）與學習曲線（第幾次做 → 答對率）
-    const byQ = new Map();
-    for (const e of log) {
-      const k = `${e[1]}|${e[2]}`;
-      if (!byQ.has(k)) byQ.set(k, []);
-      byQ.get(k).push(e);
-    }
-    const GAPS = [
-      ["不到 1 天", 1],
-      ["1–3 天", 3],
-      ["3–7 天", 7],
-      ["7–14 天", 14],
-      ["14–30 天", 30],
-      ["30 天以上", Infinity],
-    ];
-    const gap = GAPS.map(([label]) => ({ label, n: 0, c: 0 }));
-    const NTH = ["第 1 次", "第 2 次", "第 3 次", "第 4 次", "第 5 次以上"];
-    const nth = NTH.map((label) => ({ label, n: 0, c: 0 }));
-    let reviewed = 0;
-    for (const arr of byQ.values()) {
-      arr.sort((a, b) => a[4] - b[4]);
-      if (arr.length > 1) reviewed++;
-      arr.forEach((e, i) => {
-        const r = nth[Math.min(i, NTH.length - 1)];
-        r.n++;
-        r.c += e[3];
-        if (!i) return;
-        const g = (e[4] - arr[i - 1][4]) / DAY;
-        const b = gap[GAPS.findIndex(([, lim]) => g < lim)];
-        b.n++;
-        b.c += e[3];
-      });
-    }
+    // sid 為空＝全部科目
+    const curves = (sid) => {
+      const byQ = new Map();
+      for (const e of log) {
+        if (sid && e[1] !== sid) continue;
+        const k = `${e[1]}|${e[2]}`;
+        if (!byQ.has(k)) byQ.set(k, []);
+        byQ.get(k).push(e);
+      }
+      const GAPS = [
+        ["不到 1 天", 1],
+        ["1–3 天", 3],
+        ["3–7 天", 7],
+        ["7–14 天", 14],
+        ["14–30 天", 30],
+        ["30 天以上", Infinity],
+      ];
+      const gap = GAPS.map(([label]) => ({ label, n: 0, c: 0 }));
+      const NTH = ["第 1 次", "第 2 次", "第 3 次", "第 4 次", "第 5 次以上"];
+      const nth = NTH.map((label) => ({ label, n: 0, c: 0 }));
+      let reviewed = 0;
+      for (const arr of byQ.values()) {
+        arr.sort((a, b) => a[4] - b[4]);
+        if (arr.length > 1) reviewed++;
+        arr.forEach((e, i) => {
+          const r = nth[Math.min(i, NTH.length - 1)];
+          r.n++;
+          r.c += e[3];
+          if (!i) return;
+          const g = (e[4] - arr[i - 1][4]) / DAY;
+          const b = gap[GAPS.findIndex(([, lim]) => g < lim)];
+          b.n++;
+          b.c += e[3];
+        });
+      }
+      return { gap, nth, reviewed };
+    };
+    const curveCards = (sid) => {
+      const { gap, nth, reviewed } = curves(sid);
+      return `<div class="card panel"><h3>記憶曲線</h3><p class="sub">同一題隔多久再做，答對率是多少。越往下掉得少，代表記得越牢。已重複練習 ${reviewed} 題；淡色列樣本少於 5 次。</p>${pctChart(gap, { caption: "記憶曲線" })}</div>
+        <div class="card panel"><h3>學習曲線</h3><p class="sub">同一題做到第幾次時的答對率。越往下越高，代表重複練習有效。</p>${pctChart(nth, { caption: "學習曲線" })}</div>`;
+    };
+    const curveSubs = subs.filter((s) => log.some((e) => e[1] === s.meta.id));
+    const curveChip = (sid, label) =>
+      `<button type="button" class="chip" data-csid="${esc(sid)}"${sid ? "" : ' aria-current="true"'}>${esc(label)}<span class="n">${log.filter((e) => !sid || e[1] === sid).length}</span></button>`;
+    const curveFilter =
+      curveSubs.length > 1
+        ? `<div class="chips" id="curveFilter" role="group" aria-label="記憶曲線與學習曲線的科目" style="margin-top:14px">${curveChip("", "全部科目")}${curveSubs.map((s) => curveChip(s.meta.id, s.meta.short || s.meta.title)).join("")}</div>`
+        : "";
 
     const subjRows = subs
       .map((s) => {
@@ -6203,10 +6220,8 @@
       </div>
       <div class="card panel" style="margin-top:14px"><h3>練習日曆</h3><p class="sub">最近半年，每一格是一天，顏色越深代表那天比你平常做越多題</p>${heatmap(days)}</div>
       <div class="card panel" style="margin-top:14px"><h3>每週作答</h3><p class="sub">最近 12 週，答對與答錯的題數</p>${barChart(weekRows, { series: weekRows[0].segs.map(({ name, color }) => ({ name, color })), tableCaption: "每週作答" })}</div>
-      <div class="grid2" style="margin-top:14px">
-        <div class="card panel"><h3>記憶曲線</h3><p class="sub">同一題隔多久再做，答對率是多少。越往下掉得少，代表記得越牢。已重複練習 ${reviewed} 題；淡色列樣本少於 5 次。</p>${pctChart(gap, { caption: "記憶曲線" })}</div>
-        <div class="card panel"><h3>學習曲線</h3><p class="sub">同一題做到第幾次時的答對率。越往下越高，代表重複練習有效。</p>${pctChart(nth, { caption: "學習曲線" })}</div>
-      </div>
+      ${curveFilter}
+      <div class="grid2" id="curves" style="margin-top:14px">${curveCards("")}</div>
       <div class="grid2" style="margin-top:14px">
         <div class="card panel"><h3>各科答對率</h3><p class="sub">所有作答次數合計，點一列進入該科</p>${pctChart(subjRows, { caption: "各科" })}</div>
         <div class="card panel"><h3>最近作答</h3><p class="sub">點一題可以再做一次</p><div class="recent">${recent}</div></div>
@@ -6223,6 +6238,18 @@
         const hs = $(".heat-scroll");
         if (hs) hs.scrollLeft = hs.scrollWidth; // 手機上先看到最近幾週
         $("#csvBtn")?.addEventListener("click", () => downloadLogCSV(getLog()));
+        $("#curveFilter")?.addEventListener("click", (ev) => {
+          const b = ev.target.closest("[data-csid]");
+          if (!b) return;
+          $$("#curveFilter [data-csid]").forEach((x) =>
+            x === b
+              ? x.setAttribute("aria-current", "true")
+              : x.removeAttribute("aria-current"),
+          );
+          const box = $("#curves");
+          box.innerHTML = curveCards(b.dataset.csid);
+          bindTips(box);
+        });
       },
     );
   }
