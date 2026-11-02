@@ -285,8 +285,7 @@
       for (const q of list) {
         const tag = /^（題組[^）]*）/.exec(q.stem || "")?.[0];
         const join =
-          prev &&
-          (/^承上題/.test(q.stem || "") || (tag && tag === prev._tag));
+          prev && (/^承上題/.test(q.stem || "") || (tag && tag === prev._tag));
         if (join) {
           q.grp = prev.grp || prev.id;
           prev.grp = q.grp;
@@ -2255,15 +2254,19 @@
     const chPick = multi
       ? `<div class="toc-ch">
           <button type="button" class="toc-ch-btn" aria-expanded="false" aria-controls="tocChList"><span class="toc-ch-cur"><span class="eyebrow">章節</span><b><span class="mono">Ch.${pad2(cur_.idx)}</span> ${esc(cur_.title)}</b></span>${ic("chevR")}</button>
-          <div class="toc-ch-list" id="tocChList" hidden>${(m.groups || [{ title: "", chapters: m.chapters.map((c) => c.id) }])
+          <div class="toc-ch-list" id="tocChList" hidden>${(
+            m.groups || [{ title: "", chapters: m.chapters.map((c) => c.id) }]
+          )
             .map(
-              (g) => `${g.title ? `<div class="toc-grp">${esc(g.title)}</div>` : ""}<ol>${g.chapters
-                .map((id) => subj.chMap[id])
-                .filter(Boolean)
-                .map(
-                  (c) => `<li><a class="toc-ch-a${c.id === cid ? " active" : ""}" href="#/s/${m.id}/c/${c.id}/${tab}"${c.id === cid ? ' aria-current="page"' : ""}><span class="mono">${pad2(c.idx)}</span><span>${esc(c.title)}</span></a></li>`,
-                )
-                .join("")}</ol>`,
+              (g) =>
+                `${g.title ? `<div class="toc-grp">${esc(g.title)}</div>` : ""}<ol>${g.chapters
+                  .map((id) => subj.chMap[id])
+                  .filter(Boolean)
+                  .map(
+                    (c) =>
+                      `<li><a class="toc-ch-a${c.id === cid ? " active" : ""}" href="#/s/${m.id}/c/${c.id}/${tab}"${c.id === cid ? ' aria-current="page"' : ""}><span class="mono">${pad2(c.idx)}</span><span>${esc(c.title)}</span></a></li>`,
+                  )
+                  .join("")}</ol>`,
             )
             .join("")}</div>
         </div>`
@@ -2304,13 +2307,16 @@
     layout();
     narrow.addEventListener("change", layout);
     onLeave(() => narrow.removeEventListener("change", layout));
-    fab.addEventListener("click", () => setOpen(!toc.classList.contains("open")));
+    fab.addEventListener("click", () =>
+      setOpen(!toc.classList.contains("open")),
+    );
     $(".toc-x", toc).addEventListener("click", () => {
       setOpen(false);
       fab.focus();
     });
     const outside = (e) => {
-      if (toc.classList.contains("open") && !toc.contains(e.target)) setOpen(false);
+      if (toc.classList.contains("open") && !toc.contains(e.target))
+        setOpen(false);
     };
     const esc_ = (e) => {
       if (e.key === "Escape" && toc.classList.contains("open")) {
@@ -2333,7 +2339,10 @@
         // 上方圖片在捲動途中載入會把標題往下推，捲完後再對齊一次
         const off = () => (narrow.matches ? tabsBottom() + 12 : 140);
         const go = (behavior) =>
-          window.scrollTo({ top: el.getBoundingClientRect().top + scrollY - off(), behavior });
+          window.scrollTo({
+            top: el.getBoundingClientRect().top + scrollY - off(),
+            behavior,
+          });
         go(REDUCED ? "auto" : "smooth");
         let n = 0;
         const fix = () => {
@@ -2343,7 +2352,9 @@
           }
         };
         if ("onscrollend" in window)
-          addEventListener("scrollend", () => setTimeout(fix, 50), { once: true });
+          addEventListener("scrollend", () => setTimeout(fix, 50), {
+            once: true,
+          });
         else setTimeout(fix, 900);
       }),
     );
@@ -2351,7 +2362,9 @@
       $(".toc-cur", toc).textContent = cur_ ? cur_.title : "";
       return;
     }
-    const links = new Map($$("a[data-target]", toc).map((a) => [a.dataset.target, a]));
+    const links = new Map(
+      $$("a[data-target]", toc).map((a) => [a.dataset.target, a]),
+    );
     // 目前段落＝最後一個捲過分頁列／頁首下緣的標題（長段落中間也能顯示）
     let last = null;
     const track = () => {
@@ -4590,9 +4603,10 @@
         multi && !a
           ? `<div class="multi-bar"><span class="small muted">多選題：選出所有正確的選項再送出，全部選對才算對。</span><button class="btn accent" type="button" id="submitMulti"${S.sel.size ? "" : " disabled"}>${ic("check")}確認答案送出</button></div>`
           : "";
-      const mine = isShort && (S.typed[S.i] || "").trim()
-        ? `<div class="my-answer"><div class="explain-title">你的作答</div>${esc(S.typed[S.i])}</div>`
-        : "";
+      const mine =
+        isShort && (S.typed[S.i] || "").trim()
+          ? `<div class="my-answer"><div class="explain-title">你的作答</div>${esc(S.typed[S.i])}</div>`
+          : "";
       let verdict = "";
       if (a) {
         const tone = a.self || a.na ? "neutral" : a.ok ? "good" : "bad";
@@ -4614,7 +4628,7 @@
       }
       const shortBox =
         isShort && !a && S.revealed !== S.i
-          ? `<div class="note" style="margin-top:0">${ic("pen")}<div>簡答題：可在下方打字作答（非必填），或在心裡／紙上作答，再看參考答案自我評分。</div></div><label class="sr-only" for="shortInput">你的作答（非必填）</label><textarea class="input short-input" id="shortInput" rows="4" placeholder="在這裡寫下你的答案（非必填）">${esc(S.typed[S.i] || "")}</textarea><div class="q-foot"><button class="btn accent" type="button" id="reveal">${ic("eye")}顯示參考答案</button></div>`
+          ? `<div class="note" style="margin-top:0">${ic("pen")}<div>簡答題：可在下方打字作答，或在心裡／紙上作答，再看參考答案自我評分。</div></div><label class="sr-only" for="shortInput">你的作答（非必填）</label><textarea class="input short-input" id="shortInput" rows="4" placeholder="在這裡寫下你的答案（非必填）">${esc(S.typed[S.i] || "")}</textarea><div class="q-foot"><button class="btn accent" type="button" id="reveal">${ic("eye")}顯示參考答案</button></div>`
           : "";
       const last = S.i === pool.length - 1;
       return `<article class="card qcard" aria-labelledby="qstem">
@@ -5921,7 +5935,8 @@
     subj.btByWorm = {};
     for (const t of bt?.tables || [])
       for (const c of t.cols) {
-        for (const w of c.worms || []) subj.btByWorm[w] ||= { t: t.id, col: c.id };
+        for (const w of c.worms || [])
+          subj.btByWorm[w] ||= { t: t.id, col: c.id };
         for (const [kind, m] of Object.entries(c.imgs || {}))
           subj.figById[`bt:${t.id}:${c.id}:${kind}`] = {
             type: "slide",
@@ -5940,11 +5955,7 @@
     ["egg", "蟲卵圖"],
   ];
   const btLine = (s) => {
-    const cls = s.startsWith("✍️")
-      ? "hand"
-      : s.startsWith("⚠️")
-        ? "warn"
-        : "";
+    const cls = s.startsWith("✍️") ? "hand" : s.startsWith("⚠️") ? "warn" : "";
     const html = wmd(s).replace(
       /（✍️([^）]*)）/g,
       '<span class="hand-in">（✍️$1）</span>',
@@ -5978,8 +5989,7 @@
     const groups = [...new Set(t.cols.map((c) => c.group).filter(Boolean))];
     const g = groups.includes(q.g) ? q.g : "";
     const cols = g ? t.cols.filter((c) => c.group === g) : t.cols;
-    const href = (o) =>
-      `#/s/${sid}/sheet/table?${qs({ t: t.id, g, ...o })}`;
+    const href = (o) => `#/s/${sid}/sheet/table?${qs({ t: t.id, g, ...o })}`;
     if (q.mode === "match") return runBtMatch(subj, bt, t, cols, q, href);
 
     const unsureKey = `sh:${sid}:bt-unsure`;
@@ -6137,8 +6147,7 @@
       });
     };
     const ok = rows.filter((r) => usable(r).length >= 4);
-    const row =
-      ok.find((r) => r.k === q.row) || shuffle(ok)[0];
+    const row = ok.find((r) => r.k === q.row) || shuffle(ok)[0];
     const back = href({});
     if (!row)
       return render(
