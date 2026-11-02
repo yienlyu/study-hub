@@ -62,6 +62,7 @@ SCI = {
     "血絲蟲": "Wuchereria、Brugia、Loa loa、Onchocerca",
     "中華肝吸蟲": "Clonorchis sinensis", "異形・橫川吸蟲": "Heterophyes heterophyes、Metagonimus yokogawai",
     "異形吸蟲": "Heterophyes heterophyes", "橫川吸蟲": "Metagonimus yokogawai",
+    "異形異形吸蟲": "Heterophyes heterophyes", "橫川異形吸蟲": "Metagonimus yokogawai",
     "衛氏肺吸蟲": "Paragonimus westermani", "薑片蟲": "Fasciolopsis buski", "牛羊肝吸蟲": "Fasciola hepatica",
     "血吸蟲": "Schistosoma japonicum、S. mansoni、S. haematobium", "日本血吸蟲": "Schistosoma japonicum",
     "曼森血吸蟲": "Schistosoma mansoni", "埃及血吸蟲": "Schistosoma haematobium",
@@ -517,7 +518,7 @@ for r, (v, vt, a, at, m, mt, c, ct, tips) in enumerate([
 DS.append(d)
 
 # ======================================================== 吸蟲
-d = D("intestinal-flukes", 4, 6, cw=160, label="腸吸蟲生活史比較：共同流程是卵隨糞便、纖毛幼蟲進入第一中間宿主螺、尾動幼蟲在第二中間宿主形成囊狀幼蟲、人吃入。薑片蟲：扁捲螺、水生植物、小腸。異形吸蟲與橫川吸蟲：淡水螺、淡水魚、小腸。棘口吸蟲：淡水螺、螺蛙魚與水生植物、小腸。人雙口吸蟲：淡水螺、水生植物、大腸。胰臟吸蟲：陸螺、蝗蟲、胰管。")
+d = D("intestinal-flukes", 4, 7, cw=160, label="腸吸蟲生活史比較：共同流程是卵隨糞便、纖毛幼蟲進入第一中間宿主螺、尾動幼蟲在第二中間宿主形成囊狀幼蟲、人吃入。薑片蟲：扁捲螺、水生植物、小腸。橫川異形吸蟲：淡水螺、淡水魚或蛙、小腸。異形異形吸蟲：海蜷燒酒螺、海水魚如烏魚、小腸。棘口吸蟲：淡水螺、螺蛙魚與水生植物、小腸。人雙口吸蟲：淡水螺、水生植物、大腸。胰臟吸蟲：陸螺、蝗蟲、胰管。")
 d.zone(0, 3, 0, 0, "共同流程")
 d.n("g0", 0, 0, "卵隨糞便入水", "有卵蓋")
 d.n("g1", 1, 0, "1st IH：螺", "胞狀 → 雷氏 → 尾動幼蟲")
@@ -526,16 +527,20 @@ d.n("g3", 3, 0, "人吃入 → 腸道成蟲", "", cls="bv")
 d.e("g0", "g1")
 d.e("g1", "g2")
 d.e("g2", "g3")
-d.zone(0, 3, 1, 5, "各蟲比較：第一中間宿主 → 吃什麼得病 → 寄生部位 → 重點")
+d.zone(0, 3, 1, 6, "各蟲比較：第一中間宿主 → 吃什麼得病 → 寄生部位 → 重點")
 for r, (name, ih1, ih2, site, key, tips) in enumerate([
     ("薑片蟲 F. buski", "扁捲螺", "水生植物", "小腸", "最大的吸蟲、最大的卵",
      ("<i>Fasciolopsis buski</i>；1st IH <b>扁捲螺</b>（<i>Segmentina</i>、<i>Hippeutis</i>）。",
       "<b>菱角、荸薺、筊白筍</b>：用牙齒剝皮時吃進表面的囊狀幼蟲；保蟲宿主<b>豬</b>（吃水生植物餵豬）。",
       "成蟲 3–7 cm，腹吸盤大；大量感染 → 腹痛、腸阻塞、<b>臉部水腫</b>。卵 130–140 µm，和牛羊肝吸蟲卵分不出來。")),
-    ("異形・橫川吸蟲", "淡水螺", "淡水魚（鱗下）", "小腸", "最小；卵可異位到腦、心",
-     ("<i>Metagonimus yokogawai</i>、<i>Heterophyes heterophyes</i>；1st IH 川蜷等淡水螺。",
-      "生吃<b>淡水魚</b>（香魚、烏魚），囊狀幼蟲在魚鱗下或肌肉裡。",
-      "橫川：<b>腹吸盤偏右</b>、無生殖吸盤；異形：<b>多一個生殖吸盤</b>。蟲很小，卵經腸壁血管異位到<b>腦、心肌</b>。")),
+    ("橫川異形吸蟲", "川蜷等淡水螺", "淡水魚、蛙", "小腸", "台灣首例；腹吸盤偏右",
+     ("<i>Metagonimus yokogawai</i>；1st IH <b>淡水螺</b>（川蜷 <i>Semisulcospira</i>）。卵被螺吃進去才孵化。",
+      "2nd IH <b>淡水魚或蛙</b>，囊狀幼蟲在魚鱗下或肌肉裡（百十四共筆舉例：烏魚等）。",
+      "1912 年橫川定在台灣發現；<b>腹吸盤偏中線右側</b>、<b>無生殖吸盤</b>、睪丸 45° 斜排。卵 28–32 µm、纖毛幼蟲不明顯。")),
+    ("異形異形吸蟲", "海蜷、燒酒螺", "海水魚（烏魚）", "小腸（空腸）", "最小；3 個吸盤；卵異位",
+     ("<i>Heterophyes heterophyes</i>；1st IH <b>海蜷、燒酒螺、栓海螺</b>（不是淡水螺）。",
+      "2nd IH <b>烏魚及其他海水魚</b>；小林晴次郎在埃及港口買魚解剖發現囊狀幼蟲。",
+      "<b>人體最小的吸蟲</b>；<b>多一個生殖吸盤</b>、睪丸左右並列、體表魚鱗狀棘。主要在空腸，也見於十二指腸、迴腸、盲腸；卵經腸壁血管異位到<b>腦、脊髓、心肌</b>。")),
     ("棘口吸蟲", "淡水螺", "螺、蛙、魚、水生植物", "小腸", "2nd IH 不挑；頭冠有棘",
      ("<i>Echinostoma ilocanum</i>；螺內有<b>兩代雷氏幼蟲</b>。",
       "第二中間宿主要求不嚴格：尾蚴可以在雷氏幼蟲裡、原來的螺、其他螺、蛙、魚，甚至植物上結囊。",

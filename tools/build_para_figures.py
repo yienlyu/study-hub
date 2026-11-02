@@ -250,7 +250,7 @@ F = [
        "trematode stages egg miracidium sporocyst redia cercaria metacercaria adult", "順時針：卵、纖毛幼蟲、胞狀幼蟲、雷氏幼蟲、尾動幼蟲、（囊狀幼蟲）、成蟲。", F1, 12, box=FULL),
  svg("intestinal-flukes", "trematodes", "腸吸蟲：第一中間宿主 → 吃什麼得病 → 寄生部位", ["腸吸蟲", "生活史"],
      "intestinal flukes Fasciolopsis Metagonimus Heterophyes Echinostoma Gastrodiscoides Eurytrema snail water plant fish grasshopper",
-     "<strong>薑片蟲</strong>、<strong>人雙口吸蟲</strong>：水生植物；<strong>異形、橫川</strong>：淡水魚；<strong>棘口</strong>：不挑；<strong>胰臟吸蟲</strong>：陸螺＋蝗蟲。只有人雙口吸蟲在大腸。"),
+     "<strong>薑片蟲</strong>、<strong>人雙口吸蟲</strong>：水生植物；<strong>橫川</strong>：淡水螺 → 淡水魚；<strong>異形異形</strong>：海蜷、燒酒螺 → 海水魚（烏魚）；<strong>棘口</strong>：不挑；<strong>胰臟吸蟲</strong>：陸螺＋蝗蟲。只有人雙口吸蟲在大腸。"),
  slide("slide-fbuski-cycle", "trematodes", "布氏薑片蟲生活史（CDC）", ["腸吸蟲", "生活史"],
        "Fasciolopsis buski life cycle snail water plant metacercaria pig", "螺內 胞狀 → 雷氏 → 尾動；囊狀幼蟲附在<strong>水生植物</strong>上，人或<strong>豬</strong>吃入。", F1, 53, box=FULL),
  slide("slide-heterophyid-cycle", "trematodes", "異形吸蟲科生活史（CDC）", ["腸吸蟲", "生活史"],
