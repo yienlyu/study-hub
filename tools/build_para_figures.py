@@ -28,8 +28,10 @@ P0914 = "20260914-北醫醫學系-M2-Capillaria_ Strongyloides stercoralis_ Food
 P0922 = "20250922-M2-Trichinella_ Anisakis_ Angiostrongylus cantonensis_ Filaria.pptx"
 D0907, D0914, D0922 = (x.replace(".pptx", ".pdf") for x in (P0907, P0914, P0922))
 F1, F2 = "for2h-1.pdf", "for2h-2.pdf"  # 鄭柏青吸蟲 slides（.ppt 另存 PDF）
+D1102 = "20261102-M2-Cestodes-Outline & Pseudophyllidea.pdf"  # 范家堃絛蟲 slides（.pptx 用 PowerPoint 另存 PDF）
 DECK = {D0907: "0907 Introduction、STHs、Toxocara、Enterobius", D0914: "0914 Capillaria、Strongyloides、Foodborne nematodes",
         D0922: "0922 Trichinella、Anisakis、A. cantonensis、Filaria", F1: "吸蟲 for2h-1（鄭柏青）", F2: "吸蟲 for2h-2（鄭柏青）",
+        D1102: "1102 Cestodes Outline、Pseudophyllidea",
         LAB: "吸蟲實驗（實驗課 slides）", NEM: "線蟲圖譜（1 線蟲圖檔）", TRE: "吸蟲圖譜（2 吸蟲圖檔）", MIX: "人體常見寄生蟲蟲卵原色等比圖譜",
         P0914: "0914 Capillaria、Strongyloides、Foodborne nematodes", P0922: "0922 Trichinella、Anisakis、A. cantonensis、Filaria"}
 
@@ -73,9 +75,9 @@ def svg(id, ch, title, topics, kw, cap):
 
 
 def slide(id, ch, title, topics, kw, cap, src, page, box=None, media=None):
-    name = id.removeprefix("slide-")
+    name = id[len("slide-"):] if id.startswith("slide-") else id  # 不用 removeprefix：本機 python3 是 3.8
     im = pptx_media(src, media) if media else pdf_crop(src, page, box or (0, 0, 1, 0.93))
-    if src in (D0907, D0914, D0922, F1, F2):
+    if src in (D0907, D0914, D0922, F1, F2, D1102):
         im = trim(im)
     w, h = save(im, name)
     return dict(id=id, chapter=ch, title=title, topics=topics, keywords=kw, caption=cap,
@@ -89,6 +91,15 @@ F = [
  svg("hosts", "intro", "宿主的種類：誰身上有成蟲、誰只有幼蟲", ["宿主分類"],
      "definitive host intermediate host reservoir host paratenic host 最終宿主 中間宿主 保蟲宿主 保幼宿主",
      "<strong>最終宿主</strong>：成蟲／有性生殖；<strong>中間宿主</strong>：幼蟲／無性生殖；<strong>保蟲宿主</strong>：人以外的最終宿主；<strong>保幼宿主</strong>：幼蟲不發育、只是等著被吃。"),
+ svg("migration-routes", "intro", "到肝、到肺的四條路：誰走門脈？", ["生活史"],
+     "migration route portal vein liver lung Loeffler Ascaris Capillaria hepatica Toxocara hookworm Strongyloides Schistosoma Paragonimus Fasciola Clonorchis bile duct diaphragm",
+     "<strong>① 門脈</strong>：蛔蟲（再往肺）、肝毛線蟲與犬蛔蟲（停在肝）；<strong>② 鑽皮膚 → 右心 → 肺</strong>：鉤蟲、糞小桿線蟲、血吸蟲童蟲（成蟲最後住門脈）；<strong>③ 穿腸壁進腹腔、不走血</strong>：肺吸蟲穿橫膈、牛羊肝吸蟲穿肝被膜；<strong>④ 膽管上行</strong>：中華肝吸蟲。"),
+ svg("food-sources", "trematodes", "吃什麼會得什麼：線蟲＋吸蟲感染來源總覽", ["生活史"],
+     "infection source food raw fish crab shrimp water plant snail pork egg soil skin penetration water vector mosquito",
+     "依<strong>暴露來源</strong>整理期中範圍的線蟲與吸蟲。陷阱：<strong>蝦蟹</strong>同時有肺吸蟲與廣東住血線蟲；<strong>不用吃</strong>的是鉤蟲、糞小桿線蟲、血吸蟲（鑽皮膚）與血絲蟲（叮咬）。"),
+ svg("parasite-exceptions", "intro", "例外總整理：自體感染、保幼宿主、意外宿主、不驗糞便", ["宿主分類"],
+     "autoinfection paratenic host accidental host exception Strongyloides Capillaria philippinensis Enterobius Toxocara Gnathostoma Angiostrongylus Anisakis Trichinella Schistosoma Fasciola diagnosis sputum urine blood skin snip",
+     "<strong>自體感染</strong>：糞小桿線蟲、菲律賓毛線蟲、蟯蟲；<strong>人是保幼宿主</strong>：犬蛔蟲、顎口線蟲；<strong>意外宿主</strong>：廣東住血線蟲（L3 → L5）、海獸胃線蟲；<strong>規則例外</strong>：旋毛蟲、血吸蟲、牛羊肝吸蟲；最後兩列是<strong>不靠驗糞便</strong>診斷的蟲。"),
  svg("lung-migration", "intro", "會經過肺的線蟲：心肺移行路線", ["生活史"],
      "Loeffler syndrome lung migration Ascaris hookworm Strongyloides filariform larva trachea 心肺移行",
      "<strong>蛔蟲、鉤蟲、糞小桿線蟲</strong>的幼蟲都走「血流 → 右心 → 肺 → 氣管 → 吞下 → 小腸」，移行時可造成 <strong>Loeffler syndrome</strong>（嗜酸性肺炎）。蟯蟲、鞭蟲不經過肺。"),
@@ -193,6 +204,9 @@ F = [
  svg("microfilariae", "filaria", "四種微絲蚴怎麼分", ["微絲蚴鑑別"],
      "microfilaria sheath tail nuclei nocturnal periodicity Wuchereria Brugia Loa Onchocerca Mansonella",
      "看三件事：<strong>有沒有鞘</strong>、<strong>尾端有沒有核</strong>、<strong>在哪裡找</strong>（血液夜間／血液白天／皮膚）。班氏：有鞘、尾無核、夜間；馬來：有鞘、尾端兩顆核；羅阿：有鞘、尾核到底、白天；蟠尾：無鞘、在皮膚。"),
+ svg("filaria-vectors", "filaria", "八種血絲蟲的病媒配對", ["淋巴絲蟲", "羅阿絲蟲", "蟠尾絲蟲"],
+     "filaria vector mosquito Culex Mansonia Anopheles Chrysops deerfly Simulium blackfly midges Mansonella perstans streptocerca ozzardi Brugia timori",
+     "<strong>蚊</strong> → 班氏、馬來、帝汶（淋巴、血液夜間）；<strong>斑虻</strong> → 羅阿（皮下移行、血液白天）；<strong>黑蠅</strong> → 蟠尾（結節、皮膚眼睛）；<strong>蠓</strong> → <em>Mansonella</em>（<em>M. ozzardi</em> 蠓＋黑蠅）。紅框＝微絲蚴在<strong>皮膚</strong>，要做 skin snip。"),
  slide("slide-wb-mf", "filaria", "班氏絲蟲微絲蚴：有鞘、尾端無核", ["淋巴絲蟲"],
        "Wuchereria bancrofti microfilaria sheathed no nuclei tail Culex", "有鞘、身體柔和彎曲、<strong>尾端沒有核</strong>；病媒以<strong>家蚊（Culex）</strong>為主，夜間週期性。", NEM, 40),
  slide("slide-bm-mf", "filaria", "馬來絲蟲微絲蚴：尾端兩顆核", ["淋巴絲蟲"],
@@ -321,6 +335,46 @@ F = [
        "Schistosoma japonicum smooth tegument", "體表<strong>平滑、沒有結節</strong>。", LAB, 47, box=FULL),
  slide("slide-lab-schisto-snails", "trematodes", "三種血吸蟲的中間宿主螺", ["血吸蟲"],
        "Oncomelania hupensis Biomphalaria Bulinus snail intermediate host", "日本＝<strong>湖北釘螺 Oncomelania</strong>（尖塔形）、曼森＝<strong>雙臍扁螺 Biomphalaria</strong>（扁盤形）、埃及＝<strong>小泡螺 Bulinus</strong>。", LAB, 51, box=FULL),
+ # ---------------- 絛蟲（1102 范家堃）
+ slide("slide-cestode-classification", "cestodes-pseudo", "絛蟲分類：假葉目與圓葉目", ["絛蟲總論"],
+       "Cestoidea Pseudophyllidea Cyclophyllidea classification Diphyllobothrium Taenia Hymenolepis Echinococcus Dipylidium",
+       "扁形動物門 → 絛蟲綱；<strong>假葉目</strong>只有廣節、曼氏裂頭絛蟲，其餘醫學重要絛蟲都在<strong>圓葉目</strong>。左側標出長度量級（公尺、公分、公釐）與人畜共通。", D1102, 2, box=FULL),
+ slide("slide-cestode-scolex", "cestodes-pseudo", "頭節比較：吸溝 vs 吸盤", ["絛蟲總論"],
+       "scolex bothrium sucking groove sucker rostellum hooklets Pseudophyllidea Cyclophyllidea",
+       "假葉目：杏仁狀、<strong>2 條吸溝（bothria）</strong>；圓葉目：球狀、<strong>4 個吸盤</strong>，可能有額嘴與吻鉤。", D1102, 8),
+ slide("slide-cestode-uterus", "cestodes-pseudo", "子宮、子宮孔、生殖孔比較", ["絛蟲總論"],
+       "uterus uterine pore genital pore ventral lateral Pseudophyllidea Cyclophyllidea gravid proglottid",
+       "假葉目：子宮<strong>不分支、有子宮孔</strong>，生殖孔在<strong>腹面中線</strong>；圓葉目：子宮<strong>分支盲端、無子宮孔</strong>，生殖孔在<strong>側面</strong>。", D1102, 9),
+ slide("slide-cestode-gp-scolex", "cestodes-pseudo", "人體絛蟲的受孕節片與頭節", ["絛蟲總論"],
+       "gravid proglottids scoleces Taenia solium saginata Diphyllobothrium latum Dipylidium caninum Hymenolepis nana diminuta",
+       "上排受孕節片、下排頭節：<strong>D. latum</strong> 節片寬、子宮在中央玫瑰花狀，頭節細長有吸溝；其他都是圓葉目的 4 吸盤頭節。", D1102, 11, box=FULL),
+ slide("slide-cestode-egg-apolysis", "cestodes-pseudo", "蟲卵、中間宿主數、apolysis", ["絛蟲總論"],
+       "operculated egg ciliated larva intermediate host anapolytic apolytic",
+       "假葉目：卵<strong>有蓋</strong>、孵出纖毛幼蟲、<strong>2 個中間宿主</strong>、<strong>anapolytic</strong>（節片不脫落）；圓葉目：卵無蓋、1 個或沒有中間宿主、<strong>apolytic</strong>。", D1102, 12, box=FULL),
+ slide("slide-cestode-larvae", "cestodes-pseudo", "絛蟲幼蟲五型", ["絛蟲總論"],
+       "plerocercoid cysticercus cysticercoid coenurus hydatid cyst larvae",
+       "<strong>長尾蚴</strong>（假葉目）；囊尾蚴（<em>Taenia</em>）、擬囊尾蚴（<em>Hymenolepis</em>、<em>D. caninum</em>）、多頭蚴、包囊（<em>E. granulosus</em>）都屬圓葉目。", D1102, 13, box=FULL),
+ slide("slide-dlatum-egg", "cestodes-pseudo", "假葉目蟲卵：D. latum vs Spirometra", ["廣節裂頭絛蟲", "曼氏裂頭絛蟲"],
+       "Diphyllobothrium egg Spirometra egg operculum abopercular knob unembryonated",
+       "<em>D. latum</em>：55–75 × 40–50 µm、卵蓋不明顯、另一端有小突起、排出時<strong>未胚胎化</strong>；<em>Spirometra</em>：55–76 × 30–43 µm，卵蓋明顯，容易和<strong>吸蟲卵</strong>搞混。", D1102, 39, box=FULL),
+ slide("slide-dlatum-cycle", "cestodes-pseudo", "廣節裂頭絛蟲生活史", ["廣節裂頭絛蟲", "生活史"],
+       "Diphyllobothrium latum life cycle coracidium copepod procercoid plerocercoid salmon trout pike",
+       "卵 → 水中孵出 <strong>coracidium</strong> → <strong>橈足類</strong>（procercoid）→ <strong>淡水魚</strong>（plerocercoid，感染期）→ 人吃生魚，3 週成熟；狗、貓等為保蟲宿主。", D1102, 41),
+ slide("slide-dlatum-proglottids", "cestodes-pseudo", "D. latum 頭節、節片、MP 與 GP", ["廣節裂頭絛蟲"],
+       "Diphyllobothrium latum scolex proglottids mature gravid rosette uterus",
+       "頭節細長、有吸溝；節片<strong>寬大於長</strong>，子宮在中央呈<strong>玫瑰花狀</strong>；MP 與 GP 外觀接近。", D1102, 45),
+ slide("slide-dlatum-b12", "cestodes-pseudo", "D. latum：B12 缺乏與巨母紅血球性貧血", ["廣節裂頭絛蟲"],
+       "Diphyllobothrium latum vitamin B12 deficiency megaloblastic pernicious anemia",
+       "蟲吸走約 <strong>80%</strong> 飲食 B12 → <strong>巨母紅血球性／惡性貧血</strong>；可持續 25 年，節片異位移行可致膽囊炎、膽管炎。", D1102, 46),
+ slide("slide-spirometra-cycle", "cestodes-pseudo", "曼氏裂頭絛蟲生活史（CDC）", ["曼氏裂頭絛蟲", "生活史"],
+       "Spirometra life cycle sparganosis copepod procercoid plerocercoid frog snake dog cat paratenic",
+       "成蟲在<strong>狗、貓</strong>小腸；橈足類（procercoid）→ 魚、蛙、蛇（plerocercoid）。人<strong>不是最終宿主</strong>：喝生水當第二中間宿主、吃生蛙蛇當保幼宿主；裂頭蚴可活 20 年。", D1102, 52, box=FULL),
+ slide("slide-sparganum", "cestodes-pseudo", "從病人取出的裂頭蚴", ["曼氏裂頭絛蟲"],
+       "sparganum sparganosis chest wall ocular conjunctiva Taiwan surgical removal",
+       "A、B：胸壁取出約 70 mm；C：<strong>台灣</strong>病人結膜取出 40 mm。取出裂頭蚴即可診斷，治療也是<strong>手術取出</strong>。", D1102, 59, box=(0, 0.17, 1, 0.75)),
+ slide("slide-taipei101-tapeworm", "cestodes-pseudo", "Cute Taipei 101 tapeworm", ["絛蟲總論"],
+       "Taipei 101 tapeworm scolex proglottid",
+       "老師的結尾頁：101 塔尖是頭節、樓層是節片。百十三考古填充題「Which building is like a tapeworm?」答案就是<strong>臺北 101</strong>。", D1102, 62),
  # ---------------- 實驗
  svg("egg-sizes", "nematode-lab", "常考蟲卵的相對大小（等比例示意）", ["蟲卵鑑別"],
      "egg size comparison Ascaris hookworm Trichuris Enterobius Capillaria Clonorchis Fasciola Paragonimus Schistosoma",

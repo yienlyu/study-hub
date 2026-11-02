@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 898 768" role="img" aria-label="寄生蟲在人體的四種移行路徑：門脈循環（腸道經門靜脈到肝），包括蛔蟲會再往肺走、肝毛線蟲與犬蛔蟲停在肝；鑽皮膚走靜脈到右心與肺，包括鉤蟲、糞小桿線蟲與血吸蟲童蟲，血吸蟲最後定居在門脈；穿過腸壁進腹腔不走血，肺吸蟲穿橫膈到肺、牛羊肝吸蟲穿肝被膜到膽管；膽管上行不穿腸壁，中華肝吸蟲從十二指腸經總膽管到肝內膽管。">
+<defs><marker id="migration-routes-fg" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker><marker id="migration-routes-fk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="migration-routes-fr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker><marker id="migration-routes-fv" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<rect x="6" y="24" width="886" height="172" rx="14" class="fp"/>
+<text x="12" y="18" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">① 門脈循環：腸 → 門靜脈 → 肝</text>
+<rect x="6" y="220" width="886" height="172" rx="14" class="fp"/>
+<text x="12" y="214" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">② 鑽皮膚 → 靜脈 → 右心 → 肺</text>
+<rect x="6" y="416" width="886" height="172" rx="14" class="fp"/>
+<text x="12" y="410" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">③ 穿腸壁 → 腹腔（不走血）</text>
+<rect x="6" y="612" width="886" height="74" rx="14" class="fp"/>
+<text x="12" y="606" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">④ 膽管上行（不穿腸壁）</text>
+<path d="M346 61L372 61" class="ln" marker-end="url(#migration-routes-fk)"/>
+<path d="M526 61L552 61" class="ln" marker-end="url(#migration-routes-fk)"/>
+<path d="M706 61L732 61" class="ln" marker-end="url(#migration-routes-fk)"/>
+<path d="M346 159L372 159" class="ln" marker-end="url(#migration-routes-fk)"/>
+<path d="M526 159L552 159" class="ln" marker-end="url(#migration-routes-fk)"/>
+<path d="M706 159L732 159" class="ln" marker-end="url(#migration-routes-fk)"/>
+<path d="M346 257L372 257" class="ln" marker-end="url(#migration-routes-fk)"/>
+<path d="M526 257L552 257" class="ln" marker-end="url(#migration-routes-fk)"/>
+<path d="M706 257L732 257" class="ln" marker-end="url(#migration-routes-fk)"/>
+<path d="M346 355L372 355" class="ln" marker-end="url(#migration-routes-fk)"/>
+<path d="M526 355L552 355" class="ln" marker-end="url(#migration-routes-fk)"/>
+<path d="M706 355L732 355" class="ln" marker-end="url(#migration-routes-fk)"/>
+<path d="M346 453L372 453" class="ln" marker-end="url(#migration-routes-fk)"/>
+<path d="M526 453L552 453" class="lr" marker-end="url(#migration-routes-fr)"/>
+<path d="M706 453L732 453" class="ln" marker-end="url(#migration-routes-fk)"/>
+<path d="M346 551L372 551" class="ln" marker-end="url(#migration-routes-fk)"/>
+<path d="M526 551L552 551" class="lr" marker-end="url(#migration-routes-fr)"/>
+<path d="M706 551L732 551" class="ln" marker-end="url(#migration-routes-fk)"/>
+<path d="M346 649L372 649" class="ln" marker-end="url(#migration-routes-fk)"/>
+<path d="M526 649L552 649" class="ln" marker-end="url(#migration-routes-fk)"/>
+<path d="M706 649L732 649" class="ln" marker-end="url(#migration-routes-fk)"/>
+<g class="hot" data-tip="<i>Ascaris lumbricoides</i>" data-label="蛔蟲"><rect x="14" y="34" width="150" height="54" rx="10" class="bp"/><text x="89" y="56" text-anchor="middle" class="tb">蛔蟲</text></g>
+<text x="89" y="75" text-anchor="middle" class="ts">Ascaris</text>
+<rect x="194" y="34" width="150" height="54" rx="10" class="bw"/><text x="269" y="56" text-anchor="middle" class="tb">吃胚胎化蟲卵</text>
+<text x="269" y="75" text-anchor="middle" class="ts">感染期</text>
+<rect x="374" y="34" width="150" height="54" rx="10" class="bx"/><text x="449" y="56" text-anchor="middle" class="tb">小腸孵化</text>
+<text x="449" y="75" text-anchor="middle" class="ts">幼蟲穿腸壁</text>
+<g class="hot" data-tip="門脈到肝之後<b>沒有停</b>，繼續到右心、肺，再經氣管吞回小腸長成成蟲。" data-label="門脈 → 肝 → 右心"><rect x="554" y="34" width="150" height="54" rx="10" class="bx"/><text x="629" y="56" text-anchor="middle" class="tb">門脈 → 肝 → 右心</text></g>
+<text x="629" y="75" text-anchor="middle" class="ts">血流移行</text>
+<g class="hot" data-tip="穿過肺泡時造成 <b>Ascaris pneumonia／Loeffler syndrome</b>（咳嗽、血痰、嗜酸性球↑）。" data-label="肺 → 氣管 → 吞下"><rect x="734" y="34" width="150" height="54" rx="10" class="br"/><text x="809" y="56" text-anchor="middle" class="tb">肺 → 氣管 → 吞下</text></g>
+<text x="809" y="75" text-anchor="middle" class="ts">Loeffler · 回小腸</text>
+<g class="hot" data-tip="<i>Capillaria hepatica；Toxocara canis</i>" data-label="肝毛線蟲・犬蛔蟲"><rect x="14" y="132" width="150" height="54" rx="10" class="bp"/><text x="89" y="154" text-anchor="middle" class="tb">肝毛線蟲・犬蛔蟲</text></g>
+<text x="89" y="173" text-anchor="middle" class="ts">Capillaria/Toxocara</text>
+<rect x="194" y="132" width="150" height="54" rx="10" class="bw"/><text x="269" y="154" text-anchor="middle" class="tb">吃胚胎化蟲卵</text>
+<text x="269" y="173" text-anchor="middle" class="ts">感染期</text>
+<rect x="374" y="132" width="150" height="54" rx="10" class="bx"/><text x="449" y="154" text-anchor="middle" class="tb">小腸孵化</text>
+<text x="449" y="173" text-anchor="middle" class="ts">幼蟲穿腸壁</text>
+<g class="hot" data-tip="<i>C. hepatica</i>：在肝內長成成蟲、卵留在肝實質（人的糞便找不到卵，要肝切片）。<i>T. canis</i>：人是保幼宿主，幼蟲<b>多數停在肝</b>，部分到肺、眼、CNS。" data-label="門脈 → 肝"><rect x="554" y="132" width="150" height="54" rx="10" class="bx"/><text x="629" y="154" text-anchor="middle" class="tb">門脈 → 肝</text></g>
+<text x="629" y="173" text-anchor="middle" class="ts">停在肝</text>
+<g class="hot" data-tip="肝毛線蟲：肝炎、肝腫大；犬蛔蟲：<b>VLM</b>（內臟）、<b>OLM</b>（眼）。" data-label="肝內病灶"><rect x="734" y="132" width="150" height="54" rx="10" class="br"/><text x="809" y="154" text-anchor="middle" class="tb">肝內病灶</text></g>
+<text x="809" y="173" text-anchor="middle" class="ts">肝毛：成蟲＋卵在肝</text>
+<g class="hot" data-tip="<i>Ancylostoma duodenale、Necator americanus；Strongyloides stercoralis</i>" data-label="鉤蟲・糞小桿線蟲"><rect x="14" y="230" width="150" height="54" rx="10" class="bp"/><text x="89" y="252" text-anchor="middle" class="tb">鉤蟲・糞小桿線蟲</text></g>
+<text x="89" y="271" text-anchor="middle" class="ts">Necator/Strongyloides</text>
+<rect x="194" y="230" width="150" height="54" rx="10" class="bw"/><text x="269" y="252" text-anchor="middle" class="tb">絲狀幼蟲鑽皮膚</text>
+<text x="269" y="271" text-anchor="middle" class="ts">赤腳踩土</text>
+<rect x="374" y="230" width="150" height="54" rx="10" class="bx"/><text x="449" y="262" text-anchor="middle" class="tb">靜脈 → 右心</text>
+<g class="hot" data-tip="感染期是<b>絲狀幼蟲（filariform larva，L3）</b>，從腳底等皮膚鑽入。" data-label="肺"><rect x="554" y="230" width="150" height="54" rx="10" class="bx"/><text x="629" y="252" text-anchor="middle" class="tb">肺</text></g>
+<text x="629" y="271" text-anchor="middle" class="ts">Loeffler</text>
+<g class="hot" data-tip="和蛔蟲一樣經過肺，但起點是<b>皮膚</b>不是腸道。糞小桿線蟲還能在體內自體感染。" data-label="氣管 → 吞下"><rect x="734" y="230" width="150" height="54" rx="10" class="bv"/><text x="809" y="252" text-anchor="middle" class="tb">氣管 → 吞下</text></g>
+<text x="809" y="271" text-anchor="middle" class="ts">小腸成蟲</text>
+<g class="hot" data-tip="<i>Schistosoma japonicum、S. mansoni、S. haematobium</i>" data-label="血吸蟲"><rect x="14" y="328" width="150" height="54" rx="10" class="bp"/><text x="89" y="350" text-anchor="middle" class="tb">血吸蟲</text></g>
+<text x="89" y="369" text-anchor="middle" class="ts">Schistosoma</text>
+<rect x="194" y="328" width="150" height="54" rx="10" class="bw"/><text x="269" y="350" text-anchor="middle" class="tb">尾動幼蟲鑽皮膚</text>
+<text x="269" y="369" text-anchor="middle" class="ts">碰疫水</text>
+<rect x="374" y="328" width="150" height="54" rx="10" class="bx"/><text x="449" y="350" text-anchor="middle" class="tb">靜脈 → 右心</text>
+<text x="449" y="369" text-anchor="middle" class="ts">童蟲</text>
+<g class="hot" data-tip="<b>進入走體循環、成蟲住門脈</b>：童蟲先走靜脈、心、肺，最後才在門脈系統定居。" data-label="肺 → 體循環"><rect x="554" y="328" width="150" height="54" rx="10" class="bx"/><text x="629" y="350" text-anchor="middle" class="tb">肺 → 體循環</text></g>
+<text x="629" y="369" text-anchor="middle" class="ts">童蟲移行</text>
+<g class="hot" data-tip="日本＝上腸繫膜靜脈、曼森＝下腸繫膜靜脈 → 卵順門脈到肝，肉芽腫 → 肝脾腫大、<b>門脈高壓</b>。埃及住<b>膀胱靜脈叢</b>，不在門脈 → 血尿。" data-label="定居門脈系統"><rect x="734" y="328" width="150" height="54" rx="10" class="br"/><text x="809" y="350" text-anchor="middle" class="tb">定居門脈系統</text></g>
+<text x="809" y="369" text-anchor="middle" class="ts">卵 → 肝 · 門脈高壓</text>
+<g class="hot" data-tip="<i>Paragonimus westermani</i>" data-label="衛氏肺吸蟲"><rect x="14" y="426" width="150" height="54" rx="10" class="bp"/><text x="89" y="448" text-anchor="middle" class="tb">衛氏肺吸蟲</text></g>
+<text x="89" y="467" text-anchor="middle" class="ts">Paragonimus</text>
+<rect x="194" y="426" width="150" height="54" rx="10" class="bw"/><text x="269" y="448" text-anchor="middle" class="tb">吃螃蟹囊狀幼蟲</text>
+<text x="269" y="467" text-anchor="middle" class="ts">醉蟹、生蟹</text>
+<rect x="374" y="426" width="150" height="54" rx="10" class="bx"/><text x="449" y="448" text-anchor="middle" class="tb">小腸脫囊</text>
+<text x="449" y="467" text-anchor="middle" class="ts">穿腸壁</text>
+<g class="hot" data-tip="在十二指腸脫囊後<b>穿過腸壁</b>進腹腔，<b>不走血流</b>。" data-label="腹腔"><rect x="554" y="426" width="150" height="54" rx="10" class="bx"/><text x="629" y="448" text-anchor="middle" class="tb">腹腔</text></g>
+<text x="629" y="467" text-anchor="middle" class="ts">不走血</text>
+<g class="hot" data-tip="腹腔 → 穿過<b>橫膈</b> → 胸腔 → 肺，形成蟲囊；異位可到腦。" data-label="穿橫膈 → 肺"><rect x="734" y="426" width="150" height="54" rx="10" class="bv"/><text x="809" y="448" text-anchor="middle" class="tb">穿橫膈 → 肺</text></g>
+<text x="809" y="467" text-anchor="middle" class="ts">咳血 · 痰找卵</text>
+<g class="hot" data-tip="<i>Fasciola hepatica</i>" data-label="牛羊肝吸蟲"><rect x="14" y="524" width="150" height="54" rx="10" class="bp"/><text x="89" y="546" text-anchor="middle" class="tb">牛羊肝吸蟲</text></g>
+<text x="89" y="565" text-anchor="middle" class="ts">Fasciola hepatica</text>
+<rect x="194" y="524" width="150" height="54" rx="10" class="bw"/><text x="269" y="546" text-anchor="middle" class="tb">吃水生植物囊蚴</text>
+<text x="269" y="565" text-anchor="middle" class="ts">水芹等</text>
+<rect x="374" y="524" width="150" height="54" rx="10" class="bx"/><text x="449" y="546" text-anchor="middle" class="tb">小腸脫囊</text>
+<text x="449" y="565" text-anchor="middle" class="ts">穿腸壁</text>
+<g class="hot" data-tip="同樣<b>穿腸壁進腹腔</b>，但目標是肝。" data-label="腹腔"><rect x="554" y="524" width="150" height="54" rx="10" class="bx"/><text x="629" y="546" text-anchor="middle" class="tb">腹腔</text></g>
+<text x="629" y="565" text-anchor="middle" class="ts">不走血</text>
+<g class="hot" data-tip="穿過<b>肝被膜</b>、在肝實質移行（traumatic hepatitis）後進入膽管定居。" data-label="穿肝被膜 → 膽管"><rect x="734" y="524" width="150" height="54" rx="10" class="bv"/><text x="809" y="546" text-anchor="middle" class="tb">穿肝被膜 → 膽管</text></g>
+<text x="809" y="565" text-anchor="middle" class="ts">肝實質移行</text>
+<g class="hot" data-tip="<i>Clonorchis sinensis</i>" data-label="中華肝吸蟲"><rect x="14" y="622" width="150" height="54" rx="10" class="bp"/><text x="89" y="644" text-anchor="middle" class="tb">中華肝吸蟲</text></g>
+<text x="89" y="663" text-anchor="middle" class="ts">Clonorchis</text>
+<rect x="194" y="622" width="150" height="54" rx="10" class="bw"/><text x="269" y="644" text-anchor="middle" class="tb">吃生淡水魚囊蚴</text>
+<text x="269" y="663" text-anchor="middle" class="ts">魚肉裡</text>
+<rect x="374" y="622" width="150" height="54" rx="10" class="bx"/><text x="449" y="644" text-anchor="middle" class="tb">十二指腸脫囊</text>
+<text x="449" y="663" text-anchor="middle" class="ts">不穿腸壁</text>
+<g class="hot" data-tip="<b>不穿腸壁、不走血</b>：脫囊後直接從 Vater 壺腹進總膽管。" data-label="總膽管上行"><rect x="554" y="622" width="150" height="54" rx="10" class="bx"/><text x="629" y="644" text-anchor="middle" class="tb">總膽管上行</text></g>
+<text x="629" y="663" text-anchor="middle" class="ts">Vater 壺腹</text>
+<g class="hot" data-tip="往上爬到肝內膽管定居；長期感染與<b>膽管癌（CCA）</b>有關。" data-label="肝內膽管"><rect x="734" y="622" width="150" height="54" rx="10" class="bv"/><text x="809" y="644" text-anchor="middle" class="tb">肝內膽管</text></g>
+<text x="809" y="663" text-anchor="middle" class="ts">膽管炎 · 膽管癌</text>
+<text x="14" y="710" class="th">同樣到肝</text><text x="78" y="710" class="ts">蛔蟲・肝毛線蟲・犬蛔蟲走門脈；牛羊肝吸蟲穿腹腔進肝被膜；中華肝吸蟲走膽管</text>
+<text x="14" y="730" class="th">會經過肺</text><text x="78" y="730" class="ts">蛔蟲、鉤蟲、糞小桿線蟲（Loeffler）＋血吸蟲童蟲；鞭蟲、蟯蟲不經過肺</text>
+<rect x="554" y="741" width="14" height="10" rx="3" class="bw"/><text x="574" y="750" class="ts">感染期</text>
+<rect x="666" y="741" width="14" height="10" rx="3" class="bv"/><text x="686" y="750" class="ts">成蟲寄生處</text>
+<rect x="778" y="741" width="14" height="10" rx="3" class="br"/><text x="798" y="750" class="ts">致病／臨床</text>
+</svg>

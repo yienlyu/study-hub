@@ -21,7 +21,18 @@
    },
    "k109b-19": {"img": ["figures/questions/k109b-19.webp"], "imageOnly": null},
    "k109b-20": {"img": ["figures/questions/k109b-20.webp"], "imageOnly": null},
-   "k110-03": {"answer": ["A", "C"]}
+   "k110-03": {"answer": ["A", "C"]},
+   "k110-x11": {
+    "answer": [
+     "B",
+     "C",
+     "J",
+     "L",
+     "M",
+     "N",
+     "O"
+    ]
+   }
   },
   "questions-kaogu.json": {
    "k113-nem-79": {"answer": ["C"]},
@@ -29,6 +40,59 @@
    "k113-nem-w15": {
     "stem": "（手寫題）填空：請填入表中 1–10。\n\n| | E. vermicularis | T. spiralis | W. bancrofti | A. lumbricoides | S. stercoralis |\n|---|---|---|---|---|---|\n| Transmission vector | Nil | (1) | (3) | (6) | Soil |\n| Infective stage | Embryonated ova | (2) | (4) | (7) | (9) |\n| Specimen for traditional diagnosis | Ova | Sera or biopsy | (5) | (8) | (10) |",
     "answerText": "(1) Undercooked meat（豬肉）：人吃下未煮熟、含 encysted larva 的肉而感染。\n(2) Encysted larva：寄生在橫紋肌。\n(3) Mosquito：斑氏絲蟲的 L3 幼蟲由四種蚊子傳播，老師說考試寫 mosquito 即可。\n(4) L3 larva\n(5) Microfilaria：看血液抹片；斑氏絲蟲為夜現週期性，要夜間採血。\n(6) Soil：蛔蟲是土源性寄生蟲。\n(7) Embryonated eggs：土源性線蟲（蛔蟲、鞭蟲、蟯蟲）的感染期都是 embryonated egg。\n(8) Eggs（糞便中的蟲卵）\n(9) L3 larva（filariform larva）：rhabditiform larva 脫皮兩次而來，經皮膚侵入。\n(10) 糞便或十二指腸液中的幼蟲（rhabditiform larva）：卵在腸內就孵化，所以糞便裡看到的是幼蟲，不是卵。\n\n注意：這一列的「vector」其實是指傳染途徑或媒介（題目給的範例是 Soil），所以 (1) 寫 undercooked meat、(6) 寫 Soil，不要寫 Nil。"
+   },
+   "k113-nem-07": {
+    "options": [
+     {
+      "k": "A",
+      "t": "消化器官發達"
+     },
+     {
+      "k": "B",
+      "t": "大量增殖的生殖方式"
+     },
+     {
+      "k": "C",
+      "t": "加強代謝路徑"
+     },
+     {
+      "k": "D",
+      "t": "以上皆是"
+     },
+     {
+      "k": "E",
+      "t": "以上皆非"
+     }
+    ]
+   },
+   "k113-nem-61": {
+    "options": [
+     {
+      "k": "A",
+      "t": "宿主中的蟲體尚未達到性成熟（Not reach sexual maturity in the host）"
+     },
+     {
+      "k": "B",
+      "t": "所有寄生蟲感染均需要中間宿主（Intermediate host is required for all parasite infections）"
+     },
+     {
+      "k": "C",
+      "t": "廣東住血線蟲的中間宿主是魚類（The intermediate host of A. cantonensis is fish）"
+     },
+     {
+      "k": "D",
+      "t": "寄生蟲生活史中，不可能有一個以上的中間宿主（More than one intermediate host for a parasite is not possible）"
+     }
+    ]
+   },
+   "k113-nem-16": {
+    "answer": [
+     "A",
+     "C"
+    ]
+   },
+   "k113-nem-w07": {
+    "answerText": "Trichinella spiralis 幼蟲會順著血液流到骨骼肌形成被囊幼蟲（encysted larva）。"
    }
   },
   "questions-k113mid.json": {

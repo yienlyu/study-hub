@@ -10,6 +10,36 @@
   "caption": "<strong>最終宿主</strong>：成蟲／有性生殖；<strong>中間宿主</strong>：幼蟲／無性生殖；<strong>保蟲宿主</strong>：人以外的最終宿主；<strong>保幼宿主</strong>：幼蟲不發育、只是等著被吃。"
  },
  {
+  "id": "migration-routes",
+  "chapter": "intro",
+  "title": "到肝、到肺的四條路：誰走門脈？",
+  "topics": [
+   "生活史"
+  ],
+  "keywords": "migration route portal vein liver lung Loeffler Ascaris Capillaria hepatica Toxocara hookworm Strongyloides Schistosoma Paragonimus Fasciola Clonorchis bile duct diaphragm",
+  "caption": "<strong>① 門脈</strong>：蛔蟲（再往肺）、肝毛線蟲與犬蛔蟲（停在肝）；<strong>② 鑽皮膚 → 右心 → 肺</strong>：鉤蟲、糞小桿線蟲、血吸蟲童蟲（成蟲最後住門脈）；<strong>③ 穿腸壁進腹腔、不走血</strong>：肺吸蟲穿橫膈、牛羊肝吸蟲穿肝被膜；<strong>④ 膽管上行</strong>：中華肝吸蟲。"
+ },
+ {
+  "id": "food-sources",
+  "chapter": "trematodes",
+  "title": "吃什麼會得什麼：線蟲＋吸蟲感染來源總覽",
+  "topics": [
+   "生活史"
+  ],
+  "keywords": "infection source food raw fish crab shrimp water plant snail pork egg soil skin penetration water vector mosquito",
+  "caption": "依<strong>暴露來源</strong>整理期中範圍的線蟲與吸蟲。陷阱：<strong>蝦蟹</strong>同時有肺吸蟲與廣東住血線蟲；<strong>不用吃</strong>的是鉤蟲、糞小桿線蟲、血吸蟲（鑽皮膚）與血絲蟲（叮咬）。"
+ },
+ {
+  "id": "parasite-exceptions",
+  "chapter": "intro",
+  "title": "例外總整理：自體感染、保幼宿主、意外宿主、不驗糞便",
+  "topics": [
+   "宿主分類"
+  ],
+  "keywords": "autoinfection paratenic host accidental host exception Strongyloides Capillaria philippinensis Enterobius Toxocara Gnathostoma Angiostrongylus Anisakis Trichinella Schistosoma Fasciola diagnosis sputum urine blood skin snip",
+  "caption": "<strong>自體感染</strong>：糞小桿線蟲、菲律賓毛線蟲、蟯蟲；<strong>人是保幼宿主</strong>：犬蛔蟲、顎口線蟲；<strong>意外宿主</strong>：廣東住血線蟲（L3 → L5）、海獸胃線蟲；<strong>規則例外</strong>：旋毛蟲、血吸蟲、牛羊肝吸蟲；最後兩列是<strong>不靠驗糞便</strong>診斷的蟲。"
+ },
+ {
   "id": "lung-migration",
   "chapter": "intro",
   "title": "會經過肺的線蟲：心肺移行路線",
@@ -638,6 +668,18 @@
   ],
   "keywords": "microfilaria sheath tail nuclei nocturnal periodicity Wuchereria Brugia Loa Onchocerca Mansonella",
   "caption": "看三件事：<strong>有沒有鞘</strong>、<strong>尾端有沒有核</strong>、<strong>在哪裡找</strong>（血液夜間／血液白天／皮膚）。班氏：有鞘、尾無核、夜間；馬來：有鞘、尾端兩顆核；羅阿：有鞘、尾核到底、白天；蟠尾：無鞘、在皮膚。"
+ },
+ {
+  "id": "filaria-vectors",
+  "chapter": "filaria",
+  "title": "八種血絲蟲的病媒配對",
+  "topics": [
+   "淋巴絲蟲",
+   "羅阿絲蟲",
+   "蟠尾絲蟲"
+  ],
+  "keywords": "filaria vector mosquito Culex Mansonia Anopheles Chrysops deerfly Simulium blackfly midges Mansonella perstans streptocerca ozzardi Brugia timori",
+  "caption": "<strong>蚊</strong> → 班氏、馬來、帝汶（淋巴、血液夜間）；<strong>斑虻</strong> → 羅阿（皮下移行、血液白天）；<strong>黑蠅</strong> → 蟠尾（結節、皮膚眼睛）；<strong>蠓</strong> → <em>Mansonella</em>（<em>M. ozzardi</em> 蠓＋黑蠅）。紅框＝微絲蚴在<strong>皮膚</strong>，要做 skin snip。"
  },
  {
   "id": "slide-wb-mf",
@@ -1538,6 +1580,217 @@
   "page": "51",
   "w": 1400,
   "h": 1050
+ },
+ {
+  "id": "slide-cestode-classification",
+  "chapter": "cestodes-pseudo",
+  "title": "絛蟲分類：假葉目與圓葉目",
+  "topics": [
+   "絛蟲總論"
+  ],
+  "keywords": "Cestoidea Pseudophyllidea Cyclophyllidea classification Diphyllobothrium Taenia Hymenolepis Echinococcus Dipylidium",
+  "caption": "扁形動物門 → 絛蟲綱；<strong>假葉目</strong>只有廣節、曼氏裂頭絛蟲，其餘醫學重要絛蟲都在<strong>圓葉目</strong>。左側標出長度量級（公尺、公分、公釐）與人畜共通。",
+  "type": "slide",
+  "src": "figures/slides/cestode-classification.webp",
+  "deck": "1102 Cestodes Outline、Pseudophyllidea",
+  "page": "2",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-cestode-scolex",
+  "chapter": "cestodes-pseudo",
+  "title": "頭節比較：吸溝 vs 吸盤",
+  "topics": [
+   "絛蟲總論"
+  ],
+  "keywords": "scolex bothrium sucking groove sucker rostellum hooklets Pseudophyllidea Cyclophyllidea",
+  "caption": "假葉目：杏仁狀、<strong>2 條吸溝（bothria）</strong>；圓葉目：球狀、<strong>4 個吸盤</strong>，可能有額嘴與吻鉤。",
+  "type": "slide",
+  "src": "figures/slides/cestode-scolex.webp",
+  "deck": "1102 Cestodes Outline、Pseudophyllidea",
+  "page": "8",
+  "w": 1400,
+  "h": 976
+ },
+ {
+  "id": "slide-cestode-uterus",
+  "chapter": "cestodes-pseudo",
+  "title": "子宮、子宮孔、生殖孔比較",
+  "topics": [
+   "絛蟲總論"
+  ],
+  "keywords": "uterus uterine pore genital pore ventral lateral Pseudophyllidea Cyclophyllidea gravid proglottid",
+  "caption": "假葉目：子宮<strong>不分支、有子宮孔</strong>，生殖孔在<strong>腹面中線</strong>；圓葉目：子宮<strong>分支盲端、無子宮孔</strong>，生殖孔在<strong>側面</strong>。",
+  "type": "slide",
+  "src": "figures/slides/cestode-uterus.webp",
+  "deck": "1102 Cestodes Outline、Pseudophyllidea",
+  "page": "9",
+  "w": 1400,
+  "h": 976
+ },
+ {
+  "id": "slide-cestode-gp-scolex",
+  "chapter": "cestodes-pseudo",
+  "title": "人體絛蟲的受孕節片與頭節",
+  "topics": [
+   "絛蟲總論"
+  ],
+  "keywords": "gravid proglottids scoleces Taenia solium saginata Diphyllobothrium latum Dipylidium caninum Hymenolepis nana diminuta",
+  "caption": "上排受孕節片、下排頭節：<strong>D. latum</strong> 節片寬、子宮在中央玫瑰花狀，頭節細長有吸溝；其他都是圓葉目的 4 吸盤頭節。",
+  "type": "slide",
+  "src": "figures/slides/cestode-gp-scolex.webp",
+  "deck": "1102 Cestodes Outline、Pseudophyllidea",
+  "page": "11",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-cestode-egg-apolysis",
+  "chapter": "cestodes-pseudo",
+  "title": "蟲卵、中間宿主數、apolysis",
+  "topics": [
+   "絛蟲總論"
+  ],
+  "keywords": "operculated egg ciliated larva intermediate host anapolytic apolytic",
+  "caption": "假葉目：卵<strong>有蓋</strong>、孵出纖毛幼蟲、<strong>2 個中間宿主</strong>、<strong>anapolytic</strong>（節片不脫落）；圓葉目：卵無蓋、1 個或沒有中間宿主、<strong>apolytic</strong>。",
+  "type": "slide",
+  "src": "figures/slides/cestode-egg-apolysis.webp",
+  "deck": "1102 Cestodes Outline、Pseudophyllidea",
+  "page": "12",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-cestode-larvae",
+  "chapter": "cestodes-pseudo",
+  "title": "絛蟲幼蟲五型",
+  "topics": [
+   "絛蟲總論"
+  ],
+  "keywords": "plerocercoid cysticercus cysticercoid coenurus hydatid cyst larvae",
+  "caption": "<strong>長尾蚴</strong>（假葉目）；囊尾蚴（<em>Taenia</em>）、擬囊尾蚴（<em>Hymenolepis</em>、<em>D. caninum</em>）、多頭蚴、包囊（<em>E. granulosus</em>）都屬圓葉目。",
+  "type": "slide",
+  "src": "figures/slides/cestode-larvae.webp",
+  "deck": "1102 Cestodes Outline、Pseudophyllidea",
+  "page": "13",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-dlatum-egg",
+  "chapter": "cestodes-pseudo",
+  "title": "假葉目蟲卵：D. latum vs Spirometra",
+  "topics": [
+   "廣節裂頭絛蟲",
+   "曼氏裂頭絛蟲"
+  ],
+  "keywords": "Diphyllobothrium egg Spirometra egg operculum abopercular knob unembryonated",
+  "caption": "<em>D. latum</em>：55–75 × 40–50 µm、卵蓋不明顯、另一端有小突起、排出時<strong>未胚胎化</strong>；<em>Spirometra</em>：55–76 × 30–43 µm，卵蓋明顯，容易和<strong>吸蟲卵</strong>搞混。",
+  "type": "slide",
+  "src": "figures/slides/dlatum-egg.webp",
+  "deck": "1102 Cestodes Outline、Pseudophyllidea",
+  "page": "39",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-dlatum-cycle",
+  "chapter": "cestodes-pseudo",
+  "title": "廣節裂頭絛蟲生活史",
+  "topics": [
+   "廣節裂頭絛蟲",
+   "生活史"
+  ],
+  "keywords": "Diphyllobothrium latum life cycle coracidium copepod procercoid plerocercoid salmon trout pike",
+  "caption": "卵 → 水中孵出 <strong>coracidium</strong> → <strong>橈足類</strong>（procercoid）→ <strong>淡水魚</strong>（plerocercoid，感染期）→ 人吃生魚，3 週成熟；狗、貓等為保蟲宿主。",
+  "type": "slide",
+  "src": "figures/slides/dlatum-cycle.webp",
+  "deck": "1102 Cestodes Outline、Pseudophyllidea",
+  "page": "41",
+  "w": 1400,
+  "h": 976
+ },
+ {
+  "id": "slide-dlatum-proglottids",
+  "chapter": "cestodes-pseudo",
+  "title": "D. latum 頭節、節片、MP 與 GP",
+  "topics": [
+   "廣節裂頭絛蟲"
+  ],
+  "keywords": "Diphyllobothrium latum scolex proglottids mature gravid rosette uterus",
+  "caption": "頭節細長、有吸溝；節片<strong>寬大於長</strong>，子宮在中央呈<strong>玫瑰花狀</strong>；MP 與 GP 外觀接近。",
+  "type": "slide",
+  "src": "figures/slides/dlatum-proglottids.webp",
+  "deck": "1102 Cestodes Outline、Pseudophyllidea",
+  "page": "45",
+  "w": 1400,
+  "h": 976
+ },
+ {
+  "id": "slide-dlatum-b12",
+  "chapter": "cestodes-pseudo",
+  "title": "D. latum：B12 缺乏與巨母紅血球性貧血",
+  "topics": [
+   "廣節裂頭絛蟲"
+  ],
+  "keywords": "Diphyllobothrium latum vitamin B12 deficiency megaloblastic pernicious anemia",
+  "caption": "蟲吸走約 <strong>80%</strong> 飲食 B12 → <strong>巨母紅血球性／惡性貧血</strong>；可持續 25 年，節片異位移行可致膽囊炎、膽管炎。",
+  "type": "slide",
+  "src": "figures/slides/dlatum-b12.webp",
+  "deck": "1102 Cestodes Outline、Pseudophyllidea",
+  "page": "46",
+  "w": 1400,
+  "h": 976
+ },
+ {
+  "id": "slide-spirometra-cycle",
+  "chapter": "cestodes-pseudo",
+  "title": "曼氏裂頭絛蟲生活史（CDC）",
+  "topics": [
+   "曼氏裂頭絛蟲",
+   "生活史"
+  ],
+  "keywords": "Spirometra life cycle sparganosis copepod procercoid plerocercoid frog snake dog cat paratenic",
+  "caption": "成蟲在<strong>狗、貓</strong>小腸；橈足類（procercoid）→ 魚、蛙、蛇（plerocercoid）。人<strong>不是最終宿主</strong>：喝生水當第二中間宿主、吃生蛙蛇當保幼宿主；裂頭蚴可活 20 年。",
+  "type": "slide",
+  "src": "figures/slides/spirometra-cycle.webp",
+  "deck": "1102 Cestodes Outline、Pseudophyllidea",
+  "page": "52",
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "id": "slide-sparganum",
+  "chapter": "cestodes-pseudo",
+  "title": "從病人取出的裂頭蚴",
+  "topics": [
+   "曼氏裂頭絛蟲"
+  ],
+  "keywords": "sparganum sparganosis chest wall ocular conjunctiva Taiwan surgical removal",
+  "caption": "A、B：胸壁取出約 70 mm；C：<strong>台灣</strong>病人結膜取出 40 mm。取出裂頭蚴即可診斷，治療也是<strong>手術取出</strong>。",
+  "type": "slide",
+  "src": "figures/slides/sparganum.webp",
+  "deck": "1102 Cestodes Outline、Pseudophyllidea",
+  "page": "59",
+  "w": 1400,
+  "h": 609
+ },
+ {
+  "id": "slide-taipei101-tapeworm",
+  "chapter": "cestodes-pseudo",
+  "title": "Cute Taipei 101 tapeworm",
+  "topics": [
+   "絛蟲總論"
+  ],
+  "keywords": "Taipei 101 tapeworm scolex proglottid",
+  "caption": "老師的結尾頁：101 塔尖是頭節、樓層是節片。百十三考古填充題「Which building is like a tapeworm?」答案就是<strong>臺北 101</strong>。",
+  "type": "slide",
+  "src": "figures/slides/taipei101-tapeworm.webp",
+  "deck": "1102 Cestodes Outline、Pseudophyllidea",
+  "page": "62",
+  "w": 1400,
+  "h": 976
  },
  {
   "id": "egg-sizes",

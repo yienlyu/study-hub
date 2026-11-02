@@ -69,6 +69,10 @@
     {
       "title": "期末・線蟲實驗 W3（跑台、混合蟲卵）",
       "chapters": ["nematode-lab"]
+    },
+    {
+      "title": "期末・絛蟲（范家堃）W9",
+      "chapters": ["cestodes-pseudo"]
     }
   ],
   "mock": {
@@ -163,6 +167,14 @@
       "en": "Trematodes",
       "teacher": "鄭柏青",
       "week": "W5–W6（10/5、10/12）",
+      "slides": true
+    },
+    {
+      "id": "cestodes-pseudo",
+      "title": "絛蟲總論與假葉目：廣節裂頭絛蟲、曼氏裂頭絛蟲",
+      "en": "Cestodes: Outline & Pseudophyllidea",
+      "teacher": "范家堃",
+      "week": "W9（11/2）",
       "slides": true
     }
   ],

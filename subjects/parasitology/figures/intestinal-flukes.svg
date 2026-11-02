@@ -35,25 +35,25 @@
 <text x="474" y="173" text-anchor="middle" class="ts">感染來源</text>
 <g class="hot" data-tip="成蟲 3–7 cm，腹吸盤大；大量感染 → 腹痛、腸阻塞、<b>臉部水腫</b>。卵 130–140 µm，和牛羊肝吸蟲卵分不出來。" data-label="小腸"><rect x="584" y="132" width="160" height="54" rx="10" class="bv"/><text x="664" y="154" text-anchor="middle" class="tb">小腸</text></g>
 <text x="664" y="173" text-anchor="middle" class="ts">最大的吸蟲、最大的卵</text>
-<rect x="14" y="230" width="160" height="54" rx="10" class="bp"/><text x="94" y="262" text-anchor="middle" class="tb">異形・橫川吸蟲</text>
+<g class="hot" data-tip="<i>Heterophyes heterophyes、Metagonimus yokogawai</i>" data-label="異形・橫川吸蟲"><rect x="14" y="230" width="160" height="54" rx="10" class="bp"/><text x="94" y="262" text-anchor="middle" class="tb">異形・橫川吸蟲</text></g>
 <g class="hot" data-tip="<i>Metagonimus yokogawai</i>、<i>Heterophyes heterophyes</i>；1st IH 川蜷等淡水螺。" data-label="淡水螺"><rect x="204" y="230" width="160" height="54" rx="10" class="bx"/><text x="284" y="262" text-anchor="middle" class="tb">淡水螺</text></g>
 <g class="hot" data-tip="生吃<b>淡水魚</b>（香魚、烏魚），囊狀幼蟲在魚鱗下或肌肉裡。" data-label="淡水魚（鱗下）"><rect x="394" y="230" width="160" height="54" rx="10" class="bw"/><text x="474" y="252" text-anchor="middle" class="tb">淡水魚（鱗下）</text></g>
 <text x="474" y="271" text-anchor="middle" class="ts">感染來源</text>
 <g class="hot" data-tip="橫川：<b>腹吸盤偏右</b>、無生殖吸盤；異形：<b>多一個生殖吸盤</b>。蟲很小，卵經腸壁血管異位到<b>腦、心肌</b>。" data-label="小腸"><rect x="584" y="230" width="160" height="54" rx="10" class="bv"/><text x="664" y="252" text-anchor="middle" class="tb">小腸</text></g>
 <text x="664" y="271" text-anchor="middle" class="ts">最小；卵可異位到腦、心</text>
-<rect x="14" y="328" width="160" height="54" rx="10" class="bp"/><text x="94" y="360" text-anchor="middle" class="tb">棘口吸蟲</text>
+<g class="hot" data-tip="<i>Echinostoma spp.</i>" data-label="棘口吸蟲"><rect x="14" y="328" width="160" height="54" rx="10" class="bp"/><text x="94" y="360" text-anchor="middle" class="tb">棘口吸蟲</text></g>
 <g class="hot" data-tip="<i>Echinostoma ilocanum</i>；螺內有<b>兩代雷氏幼蟲</b>。" data-label="淡水螺"><rect x="204" y="328" width="160" height="54" rx="10" class="bx"/><text x="284" y="360" text-anchor="middle" class="tb">淡水螺</text></g>
 <g class="hot" data-tip="第二中間宿主要求不嚴格：尾蚴可以在雷氏幼蟲裡、原來的螺、其他螺、蛙、魚，甚至植物上結囊。" data-label="螺、蛙、魚、水生植物"><rect x="394" y="328" width="160" height="54" rx="10" class="bw"/><text x="474" y="350" text-anchor="middle" class="tb">螺、蛙、魚、水生植物</text></g>
 <text x="474" y="369" text-anchor="middle" class="ts">感染來源</text>
 <g class="hot" data-tip="頭端<b>馬蹄形頭冠＋兩列頭棘</b>；卵像薑片蟲卵，排出時常未成熟。" data-label="小腸"><rect x="584" y="328" width="160" height="54" rx="10" class="bv"/><text x="664" y="350" text-anchor="middle" class="tb">小腸</text></g>
 <text x="664" y="369" text-anchor="middle" class="ts">2nd IH 不挑；頭冠有棘</text>
-<rect x="14" y="426" width="160" height="54" rx="10" class="bp"/><text x="94" y="458" text-anchor="middle" class="tb">人雙口吸蟲</text>
+<g class="hot" data-tip="<i>Gastrodiscoides hominis</i>" data-label="人雙口吸蟲"><rect x="14" y="426" width="160" height="54" rx="10" class="bp"/><text x="94" y="458" text-anchor="middle" class="tb">人雙口吸蟲</text></g>
 <g class="hot" data-tip="<i>Gastrodiscoides hominis</i>；印度阿薩姆最早發現。" data-label="淡水螺"><rect x="204" y="426" width="160" height="54" rx="10" class="bx"/><text x="284" y="458" text-anchor="middle" class="tb">淡水螺</text></g>
 <g class="hot" data-tip="生活史和薑片蟲相似：吃水生植物上的囊狀幼蟲。" data-label="水生植物"><rect x="394" y="426" width="160" height="54" rx="10" class="bw"/><text x="474" y="448" text-anchor="middle" class="tb">水生植物</text></g>
 <text x="474" y="467" text-anchor="middle" class="ts">感染來源</text>
 <g class="hot" data-tip="唯一寄生在<b>大腸</b>的；角錐形、後端大腹吸盤。治療 praziquantel。" data-label="大腸（盲腸）"><rect x="584" y="426" width="160" height="54" rx="10" class="bv"/><text x="664" y="448" text-anchor="middle" class="tb">大腸（盲腸）</text></g>
 <text x="664" y="467" text-anchor="middle" class="ts">角錐形；保蟲宿主豬、鹿</text>
-<rect x="14" y="524" width="160" height="54" rx="10" class="bp"/><text x="94" y="556" text-anchor="middle" class="tb">胰臟吸蟲</text>
+<g class="hot" data-tip="<i>Eurytrema pancreaticum</i>" data-label="胰臟吸蟲"><rect x="14" y="524" width="160" height="54" rx="10" class="bp"/><text x="94" y="556" text-anchor="middle" class="tb">胰臟吸蟲</text></g>
 <g class="hot" data-tip="<i>Eurytrema pancreaticum</i>；1st IH 陸生蝸牛（<i>Bradybaena</i>）。" data-label="陸螺"><rect x="204" y="524" width="160" height="54" rx="10" class="bx"/><text x="284" y="556" text-anchor="middle" class="tb">陸螺</text></g>
 <g class="hot" data-tip="2nd IH <b>蝗蟲</b>；牛羊吃草時吃到，人很少感染。" data-label="蝗蟲"><rect x="394" y="524" width="160" height="54" rx="10" class="bw"/><text x="474" y="546" text-anchor="middle" class="tb">蝗蟲</text></g>
 <text x="474" y="565" text-anchor="middle" class="ts">感染來源</text>

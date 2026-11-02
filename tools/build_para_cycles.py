@@ -14,8 +14,9 @@ X0, CH, GX, GY = 14, 54, 30, 44
 
 
 class D:
-    def __init__(self, id, cols, rows, cw=150, label="", top=False):
+    def __init__(self, id, cols, rows, cw=150, label="", top=False, legend=None):
         self.id, self.cols, self.rows, self.cw, self.label = id, cols, rows, cw, label
+        self.legend = legend or (("bw", "感染期"), ("bv", "成蟲寄生處"), ("br", "致病／臨床"))
         self.y0 = 64 if top else 34  # top=True：第一列上方留一條回頭箭頭的路
         self.nodes, self.edges, self.zones, self.notes = {}, [], [], []
 
@@ -47,6 +48,36 @@ class D:
 
     def note(self, head, text):
         self.notes.append((head, text))
+
+
+# 中文蟲名 → 英文學名：節點標題是蟲名時，滑過的說明第一行自動加上學名（考試只出英文學名）
+SCI = {
+    "蛔蟲": "Ascaris lumbricoides", "鞭蟲": "Trichuris trichiura", "蟯蟲": "Enterobius vermicularis",
+    "犬蛔蟲": "Toxocara canis", "肝毛線蟲": "Capillaria hepatica", "菲律賓毛線蟲": "Capillaria philippinensis",
+    "鉤蟲": "Ancylostoma duodenale、Necator americanus", "糞小桿線蟲": "Strongyloides stercoralis",
+    "旋毛蟲": "Trichinella spiralis", "顎口線蟲": "Gnathostoma spinigerum", "海獸胃線蟲": "Anisakis simplex",
+    "廣東住血線蟲": "Angiostrongylus cantonensis",
+    "淋巴絲蟲": "Wuchereria bancrofti、Brugia malayi", "班氏絲蟲": "Wuchereria bancrofti", "馬來絲蟲": "Brugia malayi",
+    "帝汶絲蟲": "Brugia timori", "羅阿絲蟲": "Loa loa", "蟠尾絲蟲": "Onchocerca volvulus",
+    "血絲蟲": "Wuchereria、Brugia、Loa loa、Onchocerca",
+    "中華肝吸蟲": "Clonorchis sinensis", "異形・橫川吸蟲": "Heterophyes heterophyes、Metagonimus yokogawai",
+    "異形吸蟲": "Heterophyes heterophyes", "橫川吸蟲": "Metagonimus yokogawai",
+    "衛氏肺吸蟲": "Paragonimus westermani", "薑片蟲": "Fasciolopsis buski", "牛羊肝吸蟲": "Fasciola hepatica",
+    "血吸蟲": "Schistosoma japonicum、S. mansoni、S. haematobium", "日本血吸蟲": "Schistosoma japonicum",
+    "曼森血吸蟲": "Schistosoma mansoni", "埃及血吸蟲": "Schistosoma haematobium",
+    "棘口吸蟲": "Echinostoma spp.", "人雙口吸蟲": "Gastrodiscoides hominis", "胰臟吸蟲": "Eurytrema pancreaticum",
+    "槍狀肝吸蟲": "Dicrocoelium dendriticum", "貓肝吸蟲": "Opisthorchis felineus",
+}
+
+
+def sci_name(title):
+    """標題整個是蟲名（或用「・」連接的幾個蟲名）才回傳學名"""
+    if title in SCI:
+        return SCI[title]
+    parts = title.split("・")
+    if len(parts) > 1 and all(p in SCI for p in parts):
+        return "；".join(SCI[p] for p in parts)
+    return ""
 
 
 def twidth(s, fs):
@@ -136,6 +167,9 @@ def render(d):
         x, y, w, cx = nd["x"], nd["y"], nd["w"], nd["cx"]
         ty = y + (22 if nd["sub"] else 32)
         box = f'<rect x="{x}" y="{y}" width="{w}" height="{CH}" rx="10" class="{nd["cls"]}"/><text x="{cx:.0f}" y="{ty}" text-anchor="middle" class="tb">{esc(nd["title"])}</text>'
+        sci = sci_name(nd["title"])
+        if sci:
+            nd["tip"] = f"<i>{sci}</i>" + (f"<br>{nd['tip']}" if nd["tip"] else "")
         if nd["tip"]:
             out.append(f'<g class="hot" data-tip="{esc(nd["tip"]).replace("&lt;", "<").replace("&gt;", ">")}" data-label="{esc(nd["title"])}">{box}</g>')
         else:
@@ -149,7 +183,7 @@ def render(d):
         y += 20
     # 圖例
     lx = W - X0 - 330
-    for i, (cls, t) in enumerate((("bw", "感染期"), ("bv", "成蟲寄生處"), ("br", "致病／臨床"))):
+    for i, (cls, t) in enumerate(d.legend):
         out.append(f'<rect x="{lx + i * 112}" y="{y - 9}" width="14" height="10" rx="3" class="{cls}"/><text x="{lx + i * 112 + 20}" y="{y}" class="ts">{t}</text>')
     out.append("</svg>")
     s = "\n".join(out) + "\n"
@@ -675,6 +709,163 @@ d.n("sm", 1, 2, "曼森 S. mansoni", "雙臍扁螺 · 大側刺 · 糞便", cls=
 d.n("sh", 2, 2, "埃及 S. haematobium", "小泡螺 · 尾端刺 · 尿液", cls="bp",
     tip="中間宿主 <b><i>Bulinus</i></b>；卵有<b>尾端刺</b>，在<b>尿液</b>找；中午前後採尿。")
 d.n("tx", 3, 2, "治療：Praziquantel", "Artemether 殺童蟲", cls="bp")
+DS.append(d)
+
+# ======================================================== 跨章：移行路徑、感染來源
+d = D("migration-routes", 5, 7, cw=150, label="寄生蟲在人體的四種移行路徑：門脈循環（腸道經門靜脈到肝），包括蛔蟲會再往肺走、肝毛線蟲與犬蛔蟲停在肝；鑽皮膚走靜脈到右心與肺，包括鉤蟲、糞小桿線蟲與血吸蟲童蟲，血吸蟲最後定居在門脈；穿過腸壁進腹腔不走血，肺吸蟲穿橫膈到肺、牛羊肝吸蟲穿肝被膜到膽管；膽管上行不穿腸壁，中華肝吸蟲從十二指腸經總膽管到肝內膽管。")
+d.zone(0, 4, 0, 1, "① 門脈循環：腸 → 門靜脈 → 肝")
+d.zone(0, 4, 2, 3, "② 鑽皮膚 → 靜脈 → 右心 → 肺")
+d.zone(0, 4, 4, 5, "③ 穿腸壁 → 腹腔（不走血）")
+d.zone(0, 4, 6, 6, "④ 膽管上行（不穿腸壁）")
+for r, (who, wt, a, at, b, bt, c, ct, z, zt, z_cls, tips) in enumerate([
+    ("蛔蟲", "Ascaris", "吃胚胎化蟲卵", "感染期", "小腸孵化", "幼蟲穿腸壁", "門脈 → 肝 → 右心", "血流移行", "肺 → 氣管 → 吞下", "Loeffler · 回小腸", "br",
+     ("門脈到肝之後<b>沒有停</b>，繼續到右心、肺，再經氣管吞回小腸長成成蟲。",
+      "穿過肺泡時造成 <b>Ascaris pneumonia／Loeffler syndrome</b>（咳嗽、血痰、嗜酸性球↑）。")),
+    ("肝毛線蟲・犬蛔蟲", "Capillaria/Toxocara", "吃胚胎化蟲卵", "感染期", "小腸孵化", "幼蟲穿腸壁", "門脈 → 肝", "停在肝", "肝內病灶", "肝毛：成蟲＋卵在肝", "br",
+     ("<i>C. hepatica</i>：在肝內長成成蟲、卵留在肝實質（人的糞便找不到卵，要肝切片）。<i>T. canis</i>：人是保幼宿主，幼蟲<b>多數停在肝</b>，部分到肺、眼、CNS。",
+      "肝毛線蟲：肝炎、肝腫大；犬蛔蟲：<b>VLM</b>（內臟）、<b>OLM</b>（眼）。")),
+    ("鉤蟲・糞小桿線蟲", "Necator/Strongyloides", "絲狀幼蟲鑽皮膚", "赤腳踩土", "靜脈 → 右心", "", "肺", "Loeffler", "氣管 → 吞下", "小腸成蟲", "bv",
+     ("感染期是<b>絲狀幼蟲（filariform larva，L3）</b>，從腳底等皮膚鑽入。",
+      "和蛔蟲一樣經過肺，但起點是<b>皮膚</b>不是腸道。糞小桿線蟲還能在體內自體感染。")),
+    ("血吸蟲", "Schistosoma", "尾動幼蟲鑽皮膚", "碰疫水", "靜脈 → 右心", "童蟲", "肺 → 體循環", "童蟲移行", "定居門脈系統", "卵 → 肝 · 門脈高壓", "br",
+     ("<b>進入走體循環、成蟲住門脈</b>：童蟲先走靜脈、心、肺，最後才在門脈系統定居。",
+      "日本＝上腸繫膜靜脈、曼森＝下腸繫膜靜脈 → 卵順門脈到肝，肉芽腫 → 肝脾腫大、<b>門脈高壓</b>。埃及住<b>膀胱靜脈叢</b>，不在門脈 → 血尿。")),
+    ("衛氏肺吸蟲", "Paragonimus", "吃螃蟹囊狀幼蟲", "醉蟹、生蟹", "小腸脫囊", "穿腸壁", "腹腔", "不走血", "穿橫膈 → 肺", "咳血 · 痰找卵", "bv",
+     ("在十二指腸脫囊後<b>穿過腸壁</b>進腹腔，<b>不走血流</b>。",
+      "腹腔 → 穿過<b>橫膈</b> → 胸腔 → 肺，形成蟲囊；異位可到腦。")),
+    ("牛羊肝吸蟲", "Fasciola hepatica", "吃水生植物囊蚴", "水芹等", "小腸脫囊", "穿腸壁", "腹腔", "不走血", "穿肝被膜 → 膽管", "肝實質移行", "bv",
+     ("同樣<b>穿腸壁進腹腔</b>，但目標是肝。",
+      "穿過<b>肝被膜</b>、在肝實質移行（traumatic hepatitis）後進入膽管定居。")),
+    ("中華肝吸蟲", "Clonorchis", "吃生淡水魚囊蚴", "魚肉裡", "十二指腸脫囊", "不穿腸壁", "總膽管上行", "Vater 壺腹", "肝內膽管", "膽管炎 · 膽管癌", "bv",
+     ("<b>不穿腸壁、不走血</b>：脫囊後直接從 Vater 壺腹進總膽管。",
+      "往上爬到肝內膽管定居；長期感染與<b>膽管癌（CCA）</b>有關。")),
+]):
+    d.n(f"w{r}", 0, r, who, wt, cls="bp")
+    d.n(f"a{r}", 1, r, a, at, cls="bw")
+    d.n(f"b{r}", 2, r, b, bt)
+    d.n(f"c{r}", 3, r, c, ct, tip=tips[0])
+    d.n(f"z{r}", 4, r, z, zt, cls=z_cls, tip=tips[1])
+    for x, y in ((f"a{r}", f"b{r}"), (f"b{r}", f"c{r}"), (f"c{r}", f"z{r}")):
+        d.e(x, y, cls="lr" if r in (4, 5) and y == f"c{r}" else "ln")  # 紅箭頭＝穿腸壁進腹腔
+d.note("同樣到肝", "蛔蟲・肝毛線蟲・犬蛔蟲走門脈；牛羊肝吸蟲穿腹腔進肝被膜；中華肝吸蟲走膽管")
+d.note("會經過肺", "蛔蟲、鉤蟲、糞小桿線蟲（Loeffler）＋血吸蟲童蟲；鞭蟲、蟯蟲不經過肺")
+DS.append(d)
+
+d = D("food-sources", 6, 10, cw=128, legend=(("bw", "暴露來源"), ("bx", "線蟲"), ("bg", "吸蟲")), label="吃什麼會得什麼：依暴露來源整理線蟲與吸蟲。吃到蟲卵：蛔蟲、鞭蟲、蟯蟲、犬蛔蟲、肝毛線蟲。生豬肉：旋毛蟲。生淡水魚：中華肝吸蟲、異形與橫川吸蟲、菲律賓毛線蟲、顎口線蟲。生海魚與魷魚：海獸胃線蟲。生螃蟹與淡水蝦：肺吸蟲、廣東住血線蟲。生水生植物：薑片蟲、牛羊肝吸蟲。生蝸牛蛞蝓：廣東住血線蟲。赤腳踩土：鉤蟲、糞小桿線蟲。接觸疫水：血吸蟲。昆蟲叮咬：淋巴絲蟲、羅阿絲蟲、蟠尾絲蟲。")
+NEM, TRE = "bx", "bg"
+for r, (src, st, items) in enumerate([
+    ("吃到蟲卵", "糞口：手、生菜、土", [
+        ("蛔蟲", "小腸 · 經肺", NEM, "土壤中<b>胚胎化</b>的卵才有感染力。"),
+        ("鞭蟲", "盲腸 · 不經肺", NEM, "胚胎化卵；孵化後直接到大腸。"),
+        ("蟯蟲", "盲腸 · 肛門癢", NEM, "卵產出<b>數小時</b>就有感染力 → 手到口自體再感染、家庭群聚。"),
+        ("犬蛔蟲", "VLM · OLM", NEM, "吃到<b>狗糞</b>汙染的土裡的胚胎化卵；也可吃生雞肝等保幼宿主。人是保幼宿主。"),
+        ("肝毛線蟲", "肝 · 人是偶然宿主", NEM, "吃到土中<b>胚胎化卵</b>（鼠死後屍體分解釋出）。")]),
+    ("生豬肉", "或野生動物肉", [
+        ("旋毛蟲", "小腸 → 骨骼肌", NEM, "肉裡的<b>包囊幼蟲</b>；同一宿主既是最終宿主也是中間宿主。")]),
+    ("生淡水魚", "生魚片、醃魚", [
+        ("中華肝吸蟲", "膽管 · 膽管癌", TRE, "囊狀幼蟲在<b>淡水魚</b>（鯉科）肉裡。"),
+        ("異形・橫川吸蟲", "小腸 · 卵可異位", TRE, "囊狀幼蟲在<b>淡水魚</b>鱗下或肌肉（香魚等）。"),
+        ("菲律賓毛線蟲", "小腸 · 自體感染", NEM, "生吃<b>小型淡水魚</b>；吸收不良、蛋白質流失。"),
+        ("顎口線蟲", "皮下遊走腫塊", NEM, "淡水魚、<b>泥鰍</b>、雞、蛙等體內的 L3；人是非適合宿主。")]),
+    ("生海魚、魷魚", "生魚片、壽司", [
+        ("海獸胃線蟲", "胃壁 · 劇烈胃痛", NEM, "魚、魷魚肉裡的 <b>L3</b>；冷凍或煮熟可殺死。")]),
+    ("生螃蟹、淡水蝦", "醉蟹、生蝦", [
+        ("衛氏肺吸蟲", "肺 · 咳血", TRE, "<b>澤蟹</b>等淡水蟹的囊狀幼蟲。"),
+        ("廣東住血線蟲", "蝦蟹是保幼宿主", NEM, "陷阱：吃淡水蝦不只肺吸蟲，<b>廣東住血線蟲</b>也會（蝦、蟹、蛙是保幼宿主）。")]),
+    ("生水生植物", "菱角、荸薺、水芹", [
+        ("薑片蟲", "小腸 · 最大吸蟲", TRE, "用牙齒剝<b>菱角、荸薺</b>皮時吃進表面的囊狀幼蟲。"),
+        ("牛羊肝吸蟲", "肝 → 膽管", TRE, "<b>水芹</b>等水生植物；PZQ 效果差 → Triclabendazole。")]),
+    ("生蝸牛、蛞蝓", "或沾黏液的生菜", [
+        ("廣東住血線蟲", "嗜酸性腦膜炎", NEM, "中間宿主是<b>軟體動物</b>（非洲大蝸牛、蛞蝓）；生菜沾到螺黏液也會感染。")]),
+    ("赤腳踩土", "絲狀幼蟲鑽皮膚", [
+        ("鉤蟲", "小腸 · 缺鐵性貧血", NEM, "絲狀幼蟲鑽皮膚 → 經肺；<i>A. duodenale</i> 也可經口。"),
+        ("糞小桿線蟲", "自體感染 · 超感染", NEM, "絲狀幼蟲鑽皮膚；免疫低下（類固醇、HTLV-1）→ 超感染。")]),
+    ("碰到疫水", "游泳、下田", [
+        ("血吸蟲", "門脈 · 膀胱靜脈", TRE, "<b>尾動幼蟲</b>直接鑽皮膚（不用吃）；游泳者癢。")]),
+    ("昆蟲叮咬", "L3 從傷口進入", [
+        ("淋巴絲蟲", "蚊 · 象皮病", NEM, "班氏、馬來絲蟲；夜間週期性。"),
+        ("羅阿絲蟲", "斑虻 · 眼蟲", NEM, "<i>Chrysops</i>；日間週期性、Calabar swelling。"),
+        ("蟠尾絲蟲", "黑蠅 · 河盲症", NEM, "<i>Simulium</i>；微絲蚴在皮膚、眼睛 → skin snip。")]),
+]):
+    d.n(f"s{r}", 0, r, src, st, cls="bw")
+    for i, (name, sub, cls, tip) in enumerate(items, start=1):
+        d.n(f"p{r}_{i}", i, r, name, sub, cls=cls, tip=tip)
+    d.e(f"s{r}", f"p{r}_1")
+d.note("讀法", "每一列：左邊黃框是暴露來源，右邊是會得的寄生蟲（同一列由左往右讀）")
+d.note("陷阱", "蝦蟹 → 肺吸蟲＋廣東住血線蟲；不用吃的：鉤蟲、糞小桿線蟲、血吸蟲（鑽皮膚）、血絲蟲（叮咬）")
+DS.append(d)
+
+d = D("filaria-vectors", 5, 8, cw=150,
+      legend=(("bw", "病媒"), ("bv", "成蟲位置"), ("br", "微絲蚴在皮膚")),
+      label="八種人體血絲蟲的病媒配對：蚊傳班氏、馬來、帝汶絲蟲，成蟲在淋巴管、微絲蚴在血液；斑虻傳羅阿絲蟲，成蟲在皮下移行、微絲蚴白天在血液；黑蠅傳蟠尾絲蟲，成蟲在皮下結節、微絲蚴在皮膚與眼睛；蠓傳 Mansonella perstans（體腔、血液）、M. streptocerca（真皮、皮膚），M. ozzardi 由蠓與黑蠅傳播（皮下、血液）。")
+d.zone(0, 4, 0, 2, "蚊 mosquito → 淋巴絲蟲")
+d.zone(0, 4, 3, 3, "斑虻 deerfly、mango fly")
+d.zone(0, 4, 4, 4, "黑蠅 blackfly")
+d.zone(0, 4, 5, 7, "蠓 midges → Mansonella")
+for r, (vec, vt, sp, spt, ad, adt, mf, mft, mf_cls, geo, geot, tips) in enumerate([
+    ("蚊", "家蚊、斑蚊、曼蚊、瘧蚊", "班氏絲蟲", "W. bancrofti", "淋巴管、淋巴結", "", "血液 · 夜間", "10 pm–4 am", "bx", "熱帶", "台灣曾流行（金門）",
+     ("主要是家蚊 <i>Culex</i>，也有斑蚊、曼蚊、瘧蚊。", "微絲蚴<b>有鞘、尾端無核</b>；象皮病、<b>乳糜尿</b>（班氏特有）。")),
+    ("蚊", "曼蚊 · 斑蚊 · 瘧蚊", "馬來絲蟲", "B. malayi", "淋巴管", "", "血液 · 夜間", "", "bx", "亞洲", "",
+     ("主要是曼蚊 <i>Mansonia</i>。", "微絲蚴<b>有鞘、尾端兩顆核</b>。")),
+    ("蚊", "瘧蚊", "帝汶絲蟲", "B. timori", "淋巴管", "", "血液", "", "bx", "印尼", "",
+     ("病媒是瘧蚊 <i>Anopheles</i>。", "也造成淋巴絲蟲症。")),
+    ("斑虻", "Chrysops", "羅阿絲蟲", "Loa loa · 眼蟲", "皮下組織", "會主動移行", "血液 · 白天", "唯一日間週期", "bx", "西非、中非", "森林、沼澤",
+     ("斑虻白天叮咬（deerfly、mango fly）。", "成蟲爬過<b>結膜</b>肉眼可見；<b>Calabar swelling</b>；微絲蚴有鞘、體核連續到尾尖。")),
+    ("黑蠅", "Simulium", "蟠尾絲蟲", "O. volvulus · 河盲症", "皮下結節", "onchocercoma", "皮膚、眼睛", "無鞘 · skin snip", "br", "非洲、拉美", "葉門",
+     ("黑蠅在湍急河流繁殖 → 病人集中在大河附近；L3 要到唾腺成熟才有感染力。", "<b>不在血液</b> → 皮膚切片（skin snip）、Mazzotti test；失明與 <i>Wolbachia</i> 引起的發炎有關。")),
+    ("蠓", "midges", "M. perstans", "", "體腔", "", "血液", "", "bx", "非洲、南美", "",
+     ("蠓（midges）。", "微絲蚴在血液。")),
+    ("蠓", "midges", "M. streptocerca", "", "真皮、皮下", "", "皮膚", "", "br", "非洲", "",
+     ("蠓（midges）。", "和蟠尾絲蟲一樣，微絲蚴在<b>皮膚</b>。")),
+    ("蠓＋黑蠅", "兩種都可以", "M. ozzardi", "", "皮下", "", "血液", "", "bx", "美洲", "",
+     ("唯一由<b>蠓與黑蠅</b>兩種病媒傳播。", "微絲蚴在血液。")),
+]):
+    d.n(f"v{r}", 0, r, vec, vt, cls="bw", tip=tips[0])
+    d.n(f"s{r}", 1, r, sp, spt, cls="bp")
+    d.n(f"a{r}", 2, r, ad, adt, cls="bv")
+    d.n(f"m{r}", 3, r, mf, mft, cls=mf_cls, tip=tips[1])
+    d.n(f"g{r}", 4, r, geo, geot)
+    for x, y in ((f"v{r}", f"s{r}"), (f"s{r}", f"a{r}"), (f"a{r}", f"m{r}")):
+        d.e(x, y, cls="lt")
+d.note("口訣", "蚊 → 淋巴；斑虻 → 羅阿（白天）；黑蠅 → 河盲；蠓 → Mansonella（ozzardi 蠓＋黑蠅）")
+d.note("皮膚", "微絲蚴在皮膚、不驗血：蟠尾絲蟲、M. streptocerca → skin snip")
+DS.append(d)
+
+d = D("parasite-exceptions", 5, 6, cw=150,
+      legend=(("bw", "例外類別"), ("bx", "線蟲"), ("bg", "吸蟲")),
+      label="線蟲與吸蟲的例外總整理：會自體感染的是糞小桿線蟲、菲律賓毛線蟲、蟯蟲；人是保幼或非適合宿主的是犬蛔蟲、顎口線蟲；人是意外宿主的是廣東住血線蟲與海獸胃線蟲；規則例外是旋毛蟲（同一宿主是最終也是中間宿主）、血吸蟲（雌雄異體、無雷氏與囊狀幼蟲、一個中間宿主）、牛羊肝吸蟲（PZQ 效果差）；不靠驗糞便診斷的是蟯蟲、犬蛔蟲、旋毛蟲、肝毛線蟲、肺吸蟲、埃及血吸蟲、血絲蟲、蟠尾絲蟲。")
+N, T = "bx", "bg"
+for r, (cat, ct, items) in enumerate([
+    ("自體感染", "體內越變越多", [
+        ("糞小桿線蟲", "內／外自體 → 超感染", N, "桿狀幼蟲在體內變成絲狀幼蟲，鑽<b>腸黏膜</b>（內）或<b>肛門周圍皮膚</b>（外）；免疫低下 → hyperinfection。"),
+        ("菲律賓毛線蟲", "蛋白質流失性腸病", N, "自體感染 → 蟲數越來越多，吸收不良、惡病質。"),
+        ("蟯蟲", "手 → 口再感染", N, "卵產出數小時就有感染力，搔癢後經手指再吃進去。")]),
+    ("人是保幼宿主", "幼蟲不長大", [
+        ("犬蛔蟲", "VLM · OLM", N, "L3 在人體不會長成成蟲 → <b>糞便找不到卵</b>。"),
+        ("顎口線蟲", "人是非適合宿主", N, "幼蟲在皮下遊走（遊走性腫脹），可侵入 CNS。")]),
+    ("人是意外宿主", "到不了成蟲", [
+        ("廣東住血線蟲", "L3 → L5，例外", N, "最終宿主是<b>大鼠</b>；在人體可長到 L5 但不會成蟲 → 嗜酸性腦膜炎。"),
+        ("海獸胃線蟲", "L3 鑽胃壁", N, "最終宿主是海洋哺乳類；人吃到魚裡的 L3 → 劇烈胃痛。")]),
+    ("規則的例外", "考試最愛", [
+        ("旋毛蟲", "同一宿主 FH＋IH", N, "同一隻動物既是最終宿主、也是中間宿主（幼蟲包囊在自己的肌肉）。"),
+        ("血吸蟲", "雌雄異體 · 卵無蓋", T, "吸蟲中唯一<b>雌雄異體</b>；只要<b>一個中間宿主</b>；<b>沒有雷氏幼蟲、囊狀幼蟲</b>；尾蚴鑽皮膚。"),
+        ("牛羊肝吸蟲", "PZQ 無效", T, "吸蟲共通藥 PZQ 效果差 → <b>Triclabendazole</b>（或 Bithionol）。")]),
+    ("不靠驗糞便", "用其他檢體", [
+        ("蟯蟲", "肛圍膠帶法", N, "早上、排便清洗前的 Scotch tape test。"),
+        ("犬蛔蟲", "血清 TES-ELISA", N, "人是保幼宿主，沒有成蟲產卵。"),
+        ("旋毛蟲", "IgG · 肌肉切片", N, "肌肉切片大海撈針；今年老師強調 IgG 抗體。"),
+        ("肝毛線蟲", "肝切片", N, "卵留在肝實質；<b>糞便有卵＝spurious</b>（吃了感染動物的肝）。")]),
+    ("不靠驗糞便（續）", "", [
+        ("衛氏肺吸蟲", "痰（也可糞便）", T, "卵隨痰咳出，吞下則出現在糞便。"),
+        ("埃及血吸蟲", "尿液", T, "成蟲住膀胱靜脈叢 → 血尿、卵在<b>尿液</b>。"),
+        ("血絲蟲", "血片（看時間）", N, "淋巴絲蟲夜間、羅阿白天採血。"),
+        ("蟠尾絲蟲", "skin snip", N, "微絲蚴在皮膚、眼睛，不在血液。")]),
+]):
+    d.n(f"c{r}", 0, r, cat, ct, cls="bw")
+    for i, (name, sub, cls, tip) in enumerate(items, start=1):
+        d.n(f"p{r}_{i}", i, r, name, sub, cls=cls, tip=tip)
+    d.e(f"c{r}", f"p{r}_1")
+d.note("自體感染", "蟯蟲、糞小桿線蟲、菲律賓毛線蟲三種都會（不是只有糞小桿線蟲）")
 DS.append(d)
 
 if __name__ == "__main__":

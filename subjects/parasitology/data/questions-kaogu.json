@@ -217,7 +217,7 @@
       },
       {
         "k": "B",
-        "t": "大量增值的生殖方式"
+        "t": "大量增殖的生殖方式"
       },
       {
         "k": "C",
@@ -518,8 +518,8 @@
         "t": "None"
       }
     ],
-    "answer": ["A"],
-    "explain": "(A) 受孕蛔蟲蟲卵：橢圓、中型蟲卵\n(B) 未受孕蛔蟲蟲卵：狹長、中大型蟲卵\n(C) 鞭蟲蟲卵（重修卵）",
+    "answer": ["A", "C"],
+    "explain": "答案 (A) 或 (C) 都算對。\n(A) 受精蛔蟲卵：橢圓、中型，卵殼厚、外層有乳頭狀蛋白膜。\n(B) 未受精蛔蟲卵：狹長、中大型，內含雜亂的折光顆粒，不會發育 → 不能感染。\n(C) 鞭蟲卵：桶狀，兩端有透明栓塞（polar plugs）。\n蛔蟲與鞭蟲卵排出時都還沒胚胎化，要在土壤中發育成含幼蟲卵（embryonated egg）後被吃下才會感染，並在人體內長成成蟲（蛔蟲在小腸、鞭蟲在盲腸），所以 (A) 和 (C) 依同樣的邏輯都成立。\n※ 原本答案只有 (A)；依寄蟲考古勘誤（2026/11/02）的質疑，(C) 也算對。",
     "topics": ["土源性蠕蟲"],
     "pattern": "選正確／單一概念題",
     "imageOnly": true
@@ -939,7 +939,7 @@
       }
     ],
     "answer": ["B"],
-    "explain": "G. spinigerum 為有棘頷口吸蟲，幼蟲移行於皮下組織形成皮膚顎口線蟲病；移行至內臟由於幼蟲 機械性或毒素刺激與過敏反應所致的急性闌尾炎、胸膜炎、膀胱炎等。 腹瀉：T. ctricjura、A. limbricoides、S. stecoralis、C. philipinesis、A. simplex CLM：G. spinigerum、S. stercoralis、Ancylostoma spp.",
+    "explain": "G. spinigerum 是有棘頷口線蟲（不是吸蟲），幼蟲移行於皮下組織形成皮膚顎口線蟲病；移行至內臟時，幼蟲的機械性或毒素刺激與過敏反應可造成急性闌尾炎、胸膜炎、膀胱炎等。\n腹瀉：T. trichiura、A. lumbricoides、S. stercoralis、C. philippinensis、A. simplex。\nCLM：G. spinigerum、S. stercoralis、Ancylostoma spp.",
     "topics": ["線蟲綜合比較"],
     "pattern": "選正確／單一概念題"
   },
@@ -2007,7 +2007,7 @@
       },
       {
         "k": "C",
-        "t": "廣東住血線的蟲中間宿主是魚類（The intermediate host of A. cantonensis is fish）"
+        "t": "廣東住血線蟲的中間宿主是魚類（The intermediate host of A. cantonensis is fish）"
       },
       {
         "k": "D",
@@ -2653,7 +2653,7 @@
       }
     ],
     "answer": ["D"],
-    "explain": "Ancylostoma duodenale 十二指腸鉤蟲 Trichuris trichiura 鞭蟲 Wuchereria bancrofti 班氏絲蟲",
+    "explain": "四種都是線蟲 → 選 (D)。\n(A) Ancylostoma caninum 犬鉤蟲\n(B) Trichuris trichiura 鞭蟲\n(C) Wuchereria bancrofti 班氏絲蟲",
     "topics": ["土源性蠕蟲"],
     "pattern": "選正確／單一概念題"
   },
@@ -4024,7 +4024,7 @@
     "stem": "（手寫題）如果你在豬的肌肉組織中見到下圖中的被囊幼蟲（encysted larvae），則該豬隻可能感染了？ If you identify the encysted larvae in the muscle tissue of a pig. The pig might be infected by? Ans：___________________",
     "options": [],
     "answer": [],
-    "answerText": "Richinella spiralis 幼蟲會順著血液流到骨骼肌形成被囊幼蟲（encysted larva）。",
+    "answerText": "Trichinella spiralis 幼蟲會順著血液流到骨骼肌形成被囊幼蟲（encysted larva）。",
     "explain": "",
     "topics": ["總論：宿主與寄生型態"],
     "pattern": "簡答題",
@@ -4053,7 +4053,7 @@
     "stem": "（手寫題）班氏絲蟲（Wuchereria bancrofti）感染是造成象皮病（Elephantiasis）的主因，請敘述其生活史以及 在診斷時所需注意的問題。（Wuchereria bancrofti is the cause of Elephantiasis. Please describe its life cycle and what should we aware during diagnosis.） Ans：___________________",
     "options": [],
     "answer": [],
-    "answerText": "生活史 ◆ 第三期幼蟲(L3)為感染期，藉由蚊蟲叮咬進入人體血液循環 ◆ 在淋巴管內(主要為下肢)發育為成蟲 ◆ 雌蟲交配產下微絲蚴(Microfilaria)進入血液循環 ◆ 蚊蟲叮咬人類時吸入微絲蚴,並在其體內1~2 週後發育成L3 幼蟲，聚集在蚊蟲口腔 ◆ 再次叮咬人體時L3 幼蟲進入人體血液循環 診斷主要為血液抹片檢查，班氏絲蟲在血液循環中的活動高峰在22 點～凌晨2 點，應把握夜晚採 集。除此之外，也可用血清學方法檢測。",
+    "answerText": "生活史：\n◆ 第三期幼蟲(L3)為感染期，藉由蚊蟲叮咬進入人體血液循環 \n◆ 在淋巴管內(主要為下肢)發育為成蟲 \n◆ 雌蟲交配產下微絲蚴(Microfilaria)進入血液循環 \n◆ 蚊蟲叮咬人類時吸入微絲蚴,並在其體內1~2 週後發育成L3 幼蟲，聚集在蚊蟲口腔 \n◆ 再次叮咬人體時L3 幼蟲進入人體血液循環 診斷主要為血液抹片檢查，班氏絲蟲在血液循環中的活動高峰在22 點～凌晨2 點，應把握夜晚採 集。除此之外，也可用血清學方法檢測。",
     "explain": "",
     "topics": ["血絲蟲"],
     "pattern": "簡答題"
@@ -5508,7 +5508,7 @@
       }
     ],
     "answer": ["D"],
-    "explain": "牛羊肝吸蟲、棘口吸蟲和薑片蟲蟲卵都十分相似，前兩者為大型蟲卵，後者為中大型、具空隙。 牛羊肝吸蟲蟲卵特殊之處在於卵殼較薄，兩層分層，有空隙，卵蓋較小、不明顯",
+    "explain": "牛羊肝吸蟲（Fasciola hepatica）、薑片蟲（Fasciolopsis buski）和棘口吸蟲（Echinostoma spp.）的蟲卵都很相似：牛羊肝吸蟲與薑片蟲是大型蟲卵，棘口吸蟲是中大型到大型蟲卵 → 容易與 F. hepatica 混淆的是 (D)。\n牛羊肝吸蟲蟲卵的特點：卵殼較薄、分兩層、有空隙，卵蓋較小、不明顯。\n※ 依寄蟲考古勘誤更正：原詳解把薑片蟲寫成中大型，其實薑片蟲是大型蟲卵。",
     "topics": ["吸蟲"],
     "pattern": "選正確／單一概念題"
   },
@@ -6703,7 +6703,7 @@
     "num": 9,
     "chapter": "trematodes",
     "stem": "（配合題，可複選）下列吸蟲中，可能引發腦部病理損傷的是？",
-    "explain": "異形吸蟲（B、C）：蟲卵可穿過腸壁進入血流，異位到腦、脊髓、心肌。\nFasciola hepatica（J）：幼蟲移行時可異位到肺、皮下、眼睛或腦。\nParagonimus westermani（L）：最常見的異位部位是腦（膿瘍、囊腫）。\n血吸蟲（M、N、O）：蟲卵可異位沉積在中樞神經，S. japonicum 最常見。",
+    "explain": "答案：(B)(C)(J)(L)(M)(N)(O)。\n(B)(C) 橫川吸蟲、異形吸蟲：蟲體很小，蟲卵可進入腸壁血管，隨血流到達腦、脊髓、心肌（for2h-1）。\n(J) 牛羊肝吸蟲：童蟲穿腸壁、在腹腔移行時可異位寄生（extrahepatic fascioliasis）。今年 slides 只列「心、肺、胰臟等」與腹部皮下結節，但 CDC 臨床概覽明列異位部位包含 brain，系統性回顧 26 例異位病例中腦部 3 例（neurofascioliasis）→ 罕見但「可能」，要選。\n(L) 衛氏肺吸蟲：異位寄生以腦部最嚴重，造成佔位性病灶、癲癇，CT 可見 soap bubble sign（for2h-1）。\n(M)(N)(O) 血吸蟲：Ectopic schistosomiasis，蟲卵可沉積在大腦皮質靜脈、脊髓旁靜脈叢；日本血吸蟲最常侵犯腦（for2h-2）。\n其餘：薑片蟲、人雙口吸蟲、胰臟吸蟲、中華與貓肝吸蟲、棘口吸蟲、槍狀肝吸蟲都侷限在腸道或肝膽胰，不會到腦（槍狀肝吸蟲跑到的是螞蟻的腦）。",
     "topics": ["吸蟲"],
     "pattern": "配對題",
     "type": "mcq",

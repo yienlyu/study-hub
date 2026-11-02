@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 898 866" role="img" aria-label="八種人體血絲蟲的病媒配對：蚊傳班氏、馬來、帝汶絲蟲，成蟲在淋巴管、微絲蚴在血液；斑虻傳羅阿絲蟲，成蟲在皮下移行、微絲蚴白天在血液；黑蠅傳蟠尾絲蟲，成蟲在皮下結節、微絲蚴在皮膚與眼睛；蠓傳 Mansonella perstans（體腔、血液）、M. streptocerca（真皮、皮膚），M. ozzardi 由蠓與黑蠅傳播（皮下、血液）。">
+<defs><marker id="filaria-vectors-fg" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker><marker id="filaria-vectors-fk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="filaria-vectors-fr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker><marker id="filaria-vectors-fv" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<rect x="6" y="24" width="886" height="270" rx="14" class="fp"/>
+<text x="12" y="18" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">蚊 mosquito → 淋巴絲蟲</text>
+<rect x="6" y="318" width="886" height="74" rx="14" class="fp"/>
+<text x="12" y="312" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">斑虻 deerfly、mango fly</text>
+<rect x="6" y="416" width="886" height="74" rx="14" class="fp"/>
+<text x="12" y="410" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">黑蠅 blackfly</text>
+<rect x="6" y="514" width="886" height="270" rx="14" class="fp"/>
+<text x="12" y="508" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">蠓 midges → Mansonella</text>
+<path d="M166 61L192 61" class="lt" marker-end="url(#filaria-vectors-fk)"/>
+<path d="M346 61L372 61" class="lt" marker-end="url(#filaria-vectors-fk)"/>
+<path d="M526 61L552 61" class="lt" marker-end="url(#filaria-vectors-fk)"/>
+<path d="M166 159L192 159" class="lt" marker-end="url(#filaria-vectors-fk)"/>
+<path d="M346 159L372 159" class="lt" marker-end="url(#filaria-vectors-fk)"/>
+<path d="M526 159L552 159" class="lt" marker-end="url(#filaria-vectors-fk)"/>
+<path d="M166 257L192 257" class="lt" marker-end="url(#filaria-vectors-fk)"/>
+<path d="M346 257L372 257" class="lt" marker-end="url(#filaria-vectors-fk)"/>
+<path d="M526 257L552 257" class="lt" marker-end="url(#filaria-vectors-fk)"/>
+<path d="M166 355L192 355" class="lt" marker-end="url(#filaria-vectors-fk)"/>
+<path d="M346 355L372 355" class="lt" marker-end="url(#filaria-vectors-fk)"/>
+<path d="M526 355L552 355" class="lt" marker-end="url(#filaria-vectors-fk)"/>
+<path d="M166 453L192 453" class="lt" marker-end="url(#filaria-vectors-fk)"/>
+<path d="M346 453L372 453" class="lt" marker-end="url(#filaria-vectors-fk)"/>
+<path d="M526 453L552 453" class="lt" marker-end="url(#filaria-vectors-fk)"/>
+<path d="M166 551L192 551" class="lt" marker-end="url(#filaria-vectors-fk)"/>
+<path d="M346 551L372 551" class="lt" marker-end="url(#filaria-vectors-fk)"/>
+<path d="M526 551L552 551" class="lt" marker-end="url(#filaria-vectors-fk)"/>
+<path d="M166 649L192 649" class="lt" marker-end="url(#filaria-vectors-fk)"/>
+<path d="M346 649L372 649" class="lt" marker-end="url(#filaria-vectors-fk)"/>
+<path d="M526 649L552 649" class="lt" marker-end="url(#filaria-vectors-fk)"/>
+<path d="M166 747L192 747" class="lt" marker-end="url(#filaria-vectors-fk)"/>
+<path d="M346 747L372 747" class="lt" marker-end="url(#filaria-vectors-fk)"/>
+<path d="M526 747L552 747" class="lt" marker-end="url(#filaria-vectors-fk)"/>
+<g class="hot" data-tip="主要是家蚊 <i>Culex</i>，也有斑蚊、曼蚊、瘧蚊。" data-label="蚊"><rect x="14" y="34" width="150" height="54" rx="10" class="bw"/><text x="89" y="56" text-anchor="middle" class="tb">蚊</text></g>
+<text x="89" y="75" text-anchor="middle" class="ts">家蚊、斑蚊、曼蚊、瘧蚊</text>
+<g class="hot" data-tip="<i>Wuchereria bancrofti</i>" data-label="班氏絲蟲"><rect x="194" y="34" width="150" height="54" rx="10" class="bp"/><text x="269" y="56" text-anchor="middle" class="tb">班氏絲蟲</text></g>
+<text x="269" y="75" text-anchor="middle" class="ts">W. bancrofti</text>
+<rect x="374" y="34" width="150" height="54" rx="10" class="bv"/><text x="449" y="66" text-anchor="middle" class="tb">淋巴管、淋巴結</text>
+<g class="hot" data-tip="微絲蚴<b>有鞘、尾端無核</b>；象皮病、<b>乳糜尿</b>（班氏特有）。" data-label="血液 · 夜間"><rect x="554" y="34" width="150" height="54" rx="10" class="bx"/><text x="629" y="56" text-anchor="middle" class="tb">血液 · 夜間</text></g>
+<text x="629" y="75" text-anchor="middle" class="ts">10 pm–4 am</text>
+<rect x="734" y="34" width="150" height="54" rx="10" class="bx"/><text x="809" y="56" text-anchor="middle" class="tb">熱帶</text>
+<text x="809" y="75" text-anchor="middle" class="ts">台灣曾流行（金門）</text>
+<g class="hot" data-tip="主要是曼蚊 <i>Mansonia</i>。" data-label="蚊"><rect x="14" y="132" width="150" height="54" rx="10" class="bw"/><text x="89" y="154" text-anchor="middle" class="tb">蚊</text></g>
+<text x="89" y="173" text-anchor="middle" class="ts">曼蚊 · 斑蚊 · 瘧蚊</text>
+<g class="hot" data-tip="<i>Brugia malayi</i>" data-label="馬來絲蟲"><rect x="194" y="132" width="150" height="54" rx="10" class="bp"/><text x="269" y="154" text-anchor="middle" class="tb">馬來絲蟲</text></g>
+<text x="269" y="173" text-anchor="middle" class="ts">B. malayi</text>
+<rect x="374" y="132" width="150" height="54" rx="10" class="bv"/><text x="449" y="164" text-anchor="middle" class="tb">淋巴管</text>
+<g class="hot" data-tip="微絲蚴<b>有鞘、尾端兩顆核</b>。" data-label="血液 · 夜間"><rect x="554" y="132" width="150" height="54" rx="10" class="bx"/><text x="629" y="164" text-anchor="middle" class="tb">血液 · 夜間</text></g>
+<rect x="734" y="132" width="150" height="54" rx="10" class="bx"/><text x="809" y="164" text-anchor="middle" class="tb">亞洲</text>
+<g class="hot" data-tip="病媒是瘧蚊 <i>Anopheles</i>。" data-label="蚊"><rect x="14" y="230" width="150" height="54" rx="10" class="bw"/><text x="89" y="252" text-anchor="middle" class="tb">蚊</text></g>
+<text x="89" y="271" text-anchor="middle" class="ts">瘧蚊</text>
+<g class="hot" data-tip="<i>Brugia timori</i>" data-label="帝汶絲蟲"><rect x="194" y="230" width="150" height="54" rx="10" class="bp"/><text x="269" y="252" text-anchor="middle" class="tb">帝汶絲蟲</text></g>
+<text x="269" y="271" text-anchor="middle" class="ts">B. timori</text>
+<rect x="374" y="230" width="150" height="54" rx="10" class="bv"/><text x="449" y="262" text-anchor="middle" class="tb">淋巴管</text>
+<g class="hot" data-tip="也造成淋巴絲蟲症。" data-label="血液"><rect x="554" y="230" width="150" height="54" rx="10" class="bx"/><text x="629" y="262" text-anchor="middle" class="tb">血液</text></g>
+<rect x="734" y="230" width="150" height="54" rx="10" class="bx"/><text x="809" y="262" text-anchor="middle" class="tb">印尼</text>
+<g class="hot" data-tip="斑虻白天叮咬（deerfly、mango fly）。" data-label="斑虻"><rect x="14" y="328" width="150" height="54" rx="10" class="bw"/><text x="89" y="350" text-anchor="middle" class="tb">斑虻</text></g>
+<text x="89" y="369" text-anchor="middle" class="ts">Chrysops</text>
+<g class="hot" data-tip="<i>Loa loa</i>" data-label="羅阿絲蟲"><rect x="194" y="328" width="150" height="54" rx="10" class="bp"/><text x="269" y="350" text-anchor="middle" class="tb">羅阿絲蟲</text></g>
+<text x="269" y="369" text-anchor="middle" class="ts">Loa loa · 眼蟲</text>
+<rect x="374" y="328" width="150" height="54" rx="10" class="bv"/><text x="449" y="350" text-anchor="middle" class="tb">皮下組織</text>
+<text x="449" y="369" text-anchor="middle" class="ts">會主動移行</text>
+<g class="hot" data-tip="成蟲爬過<b>結膜</b>肉眼可見；<b>Calabar swelling</b>；微絲蚴有鞘、體核連續到尾尖。" data-label="血液 · 白天"><rect x="554" y="328" width="150" height="54" rx="10" class="bx"/><text x="629" y="350" text-anchor="middle" class="tb">血液 · 白天</text></g>
+<text x="629" y="369" text-anchor="middle" class="ts">唯一日間週期</text>
+<rect x="734" y="328" width="150" height="54" rx="10" class="bx"/><text x="809" y="350" text-anchor="middle" class="tb">西非、中非</text>
+<text x="809" y="369" text-anchor="middle" class="ts">森林、沼澤</text>
+<g class="hot" data-tip="黑蠅在湍急河流繁殖 → 病人集中在大河附近；L3 要到唾腺成熟才有感染力。" data-label="黑蠅"><rect x="14" y="426" width="150" height="54" rx="10" class="bw"/><text x="89" y="448" text-anchor="middle" class="tb">黑蠅</text></g>
+<text x="89" y="467" text-anchor="middle" class="ts">Simulium</text>
+<g class="hot" data-tip="<i>Onchocerca volvulus</i>" data-label="蟠尾絲蟲"><rect x="194" y="426" width="150" height="54" rx="10" class="bp"/><text x="269" y="448" text-anchor="middle" class="tb">蟠尾絲蟲</text></g>
+<text x="269" y="467" text-anchor="middle" class="ts">O. volvulus · 河盲症</text>
+<rect x="374" y="426" width="150" height="54" rx="10" class="bv"/><text x="449" y="448" text-anchor="middle" class="tb">皮下結節</text>
+<text x="449" y="467" text-anchor="middle" class="ts">onchocercoma</text>
+<g class="hot" data-tip="<b>不在血液</b> → 皮膚切片（skin snip）、Mazzotti test；失明與 <i>Wolbachia</i> 引起的發炎有關。" data-label="皮膚、眼睛"><rect x="554" y="426" width="150" height="54" rx="10" class="br"/><text x="629" y="448" text-anchor="middle" class="tb">皮膚、眼睛</text></g>
+<text x="629" y="467" text-anchor="middle" class="ts">無鞘 · skin snip</text>
+<rect x="734" y="426" width="150" height="54" rx="10" class="bx"/><text x="809" y="448" text-anchor="middle" class="tb">非洲、拉美</text>
+<text x="809" y="467" text-anchor="middle" class="ts">葉門</text>
+<g class="hot" data-tip="蠓（midges）。" data-label="蠓"><rect x="14" y="524" width="150" height="54" rx="10" class="bw"/><text x="89" y="546" text-anchor="middle" class="tb">蠓</text></g>
+<text x="89" y="565" text-anchor="middle" class="ts">midges</text>
+<rect x="194" y="524" width="150" height="54" rx="10" class="bp"/><text x="269" y="556" text-anchor="middle" class="tb">M. perstans</text>
+<rect x="374" y="524" width="150" height="54" rx="10" class="bv"/><text x="449" y="556" text-anchor="middle" class="tb">體腔</text>
+<g class="hot" data-tip="微絲蚴在血液。" data-label="血液"><rect x="554" y="524" width="150" height="54" rx="10" class="bx"/><text x="629" y="556" text-anchor="middle" class="tb">血液</text></g>
+<rect x="734" y="524" width="150" height="54" rx="10" class="bx"/><text x="809" y="556" text-anchor="middle" class="tb">非洲、南美</text>
+<g class="hot" data-tip="蠓（midges）。" data-label="蠓"><rect x="14" y="622" width="150" height="54" rx="10" class="bw"/><text x="89" y="644" text-anchor="middle" class="tb">蠓</text></g>
+<text x="89" y="663" text-anchor="middle" class="ts">midges</text>
+<rect x="194" y="622" width="150" height="54" rx="10" class="bp"/><text x="269" y="654" text-anchor="middle" class="tb">M. streptocerca</text>
+<rect x="374" y="622" width="150" height="54" rx="10" class="bv"/><text x="449" y="654" text-anchor="middle" class="tb">真皮、皮下</text>
+<g class="hot" data-tip="和蟠尾絲蟲一樣，微絲蚴在<b>皮膚</b>。" data-label="皮膚"><rect x="554" y="622" width="150" height="54" rx="10" class="br"/><text x="629" y="654" text-anchor="middle" class="tb">皮膚</text></g>
+<rect x="734" y="622" width="150" height="54" rx="10" class="bx"/><text x="809" y="654" text-anchor="middle" class="tb">非洲</text>
+<g class="hot" data-tip="唯一由<b>蠓與黑蠅</b>兩種病媒傳播。" data-label="蠓＋黑蠅"><rect x="14" y="720" width="150" height="54" rx="10" class="bw"/><text x="89" y="742" text-anchor="middle" class="tb">蠓＋黑蠅</text></g>
+<text x="89" y="761" text-anchor="middle" class="ts">兩種都可以</text>
+<rect x="194" y="720" width="150" height="54" rx="10" class="bp"/><text x="269" y="752" text-anchor="middle" class="tb">M. ozzardi</text>
+<rect x="374" y="720" width="150" height="54" rx="10" class="bv"/><text x="449" y="752" text-anchor="middle" class="tb">皮下</text>
+<g class="hot" data-tip="微絲蚴在血液。" data-label="血液"><rect x="554" y="720" width="150" height="54" rx="10" class="bx"/><text x="629" y="752" text-anchor="middle" class="tb">血液</text></g>
+<rect x="734" y="720" width="150" height="54" rx="10" class="bx"/><text x="809" y="752" text-anchor="middle" class="tb">美洲</text>
+<text x="14" y="808" class="th">口訣</text><text x="78" y="808" class="ts">蚊 → 淋巴；斑虻 → 羅阿（白天）；黑蠅 → 河盲；蠓 → Mansonella（ozzardi 蠓＋黑蠅）</text>
+<text x="14" y="828" class="th">皮膚</text><text x="78" y="828" class="ts">微絲蚴在皮膚、不驗血：蟠尾絲蟲、M. streptocerca → skin snip</text>
+<rect x="554" y="839" width="14" height="10" rx="3" class="bw"/><text x="574" y="848" class="ts">病媒</text>
+<rect x="666" y="839" width="14" height="10" rx="3" class="bv"/><text x="686" y="848" class="ts">成蟲位置</text>
+<rect x="778" y="839" width="14" height="10" rx="3" class="br"/><text x="798" y="848" class="ts">微絲蚴在皮膚</text>
+</svg>

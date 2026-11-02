@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 898 650" role="img" aria-label="線蟲與吸蟲的例外總整理：會自體感染的是糞小桿線蟲、菲律賓毛線蟲、蟯蟲；人是保幼或非適合宿主的是犬蛔蟲、顎口線蟲；人是意外宿主的是廣東住血線蟲與海獸胃線蟲；規則例外是旋毛蟲（同一宿主是最終也是中間宿主）、血吸蟲（雌雄異體、無雷氏與囊狀幼蟲、一個中間宿主）、牛羊肝吸蟲（PZQ 效果差）；不靠驗糞便診斷的是蟯蟲、犬蛔蟲、旋毛蟲、肝毛線蟲、肺吸蟲、埃及血吸蟲、血絲蟲、蟠尾絲蟲。">
+<defs><marker id="parasite-exceptions-fg" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker><marker id="parasite-exceptions-fk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="parasite-exceptions-fr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker><marker id="parasite-exceptions-fv" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<path d="M166 61L192 61" class="ln" marker-end="url(#parasite-exceptions-fk)"/>
+<path d="M166 159L192 159" class="ln" marker-end="url(#parasite-exceptions-fk)"/>
+<path d="M166 257L192 257" class="ln" marker-end="url(#parasite-exceptions-fk)"/>
+<path d="M166 355L192 355" class="ln" marker-end="url(#parasite-exceptions-fk)"/>
+<path d="M166 453L192 453" class="ln" marker-end="url(#parasite-exceptions-fk)"/>
+<path d="M166 551L192 551" class="ln" marker-end="url(#parasite-exceptions-fk)"/>
+<rect x="14" y="34" width="150" height="54" rx="10" class="bw"/><text x="89" y="56" text-anchor="middle" class="tb">自體感染</text>
+<text x="89" y="75" text-anchor="middle" class="ts">體內越變越多</text>
+<g class="hot" data-tip="<i>Strongyloides stercoralis</i><br>桿狀幼蟲在體內變成絲狀幼蟲，鑽<b>腸黏膜</b>（內）或<b>肛門周圍皮膚</b>（外）；免疫低下 → hyperinfection。" data-label="糞小桿線蟲"><rect x="194" y="34" width="150" height="54" rx="10" class="bx"/><text x="269" y="56" text-anchor="middle" class="tb">糞小桿線蟲</text></g>
+<text x="269" y="75" text-anchor="middle" class="ts">內／外自體 → 超感染</text>
+<g class="hot" data-tip="<i>Capillaria philippinensis</i><br>自體感染 → 蟲數越來越多，吸收不良、惡病質。" data-label="菲律賓毛線蟲"><rect x="374" y="34" width="150" height="54" rx="10" class="bx"/><text x="449" y="56" text-anchor="middle" class="tb">菲律賓毛線蟲</text></g>
+<text x="449" y="75" text-anchor="middle" class="ts">蛋白質流失性腸病</text>
+<g class="hot" data-tip="<i>Enterobius vermicularis</i><br>卵產出數小時就有感染力，搔癢後經手指再吃進去。" data-label="蟯蟲"><rect x="554" y="34" width="150" height="54" rx="10" class="bx"/><text x="629" y="56" text-anchor="middle" class="tb">蟯蟲</text></g>
+<text x="629" y="75" text-anchor="middle" class="ts">手 → 口再感染</text>
+<rect x="14" y="132" width="150" height="54" rx="10" class="bw"/><text x="89" y="154" text-anchor="middle" class="tb">人是保幼宿主</text>
+<text x="89" y="173" text-anchor="middle" class="ts">幼蟲不長大</text>
+<g class="hot" data-tip="<i>Toxocara canis</i><br>L3 在人體不會長成成蟲 → <b>糞便找不到卵</b>。" data-label="犬蛔蟲"><rect x="194" y="132" width="150" height="54" rx="10" class="bx"/><text x="269" y="154" text-anchor="middle" class="tb">犬蛔蟲</text></g>
+<text x="269" y="173" text-anchor="middle" class="ts">VLM · OLM</text>
+<g class="hot" data-tip="<i>Gnathostoma spinigerum</i><br>幼蟲在皮下遊走（遊走性腫脹），可侵入 CNS。" data-label="顎口線蟲"><rect x="374" y="132" width="150" height="54" rx="10" class="bx"/><text x="449" y="154" text-anchor="middle" class="tb">顎口線蟲</text></g>
+<text x="449" y="173" text-anchor="middle" class="ts">人是非適合宿主</text>
+<rect x="14" y="230" width="150" height="54" rx="10" class="bw"/><text x="89" y="252" text-anchor="middle" class="tb">人是意外宿主</text>
+<text x="89" y="271" text-anchor="middle" class="ts">到不了成蟲</text>
+<g class="hot" data-tip="<i>Angiostrongylus cantonensis</i><br>最終宿主是<b>大鼠</b>；在人體可長到 L5 但不會成蟲 → 嗜酸性腦膜炎。" data-label="廣東住血線蟲"><rect x="194" y="230" width="150" height="54" rx="10" class="bx"/><text x="269" y="252" text-anchor="middle" class="tb">廣東住血線蟲</text></g>
+<text x="269" y="271" text-anchor="middle" class="ts">L3 → L5，例外</text>
+<g class="hot" data-tip="<i>Anisakis simplex</i><br>最終宿主是海洋哺乳類；人吃到魚裡的 L3 → 劇烈胃痛。" data-label="海獸胃線蟲"><rect x="374" y="230" width="150" height="54" rx="10" class="bx"/><text x="449" y="252" text-anchor="middle" class="tb">海獸胃線蟲</text></g>
+<text x="449" y="271" text-anchor="middle" class="ts">L3 鑽胃壁</text>
+<rect x="14" y="328" width="150" height="54" rx="10" class="bw"/><text x="89" y="350" text-anchor="middle" class="tb">規則的例外</text>
+<text x="89" y="369" text-anchor="middle" class="ts">考試最愛</text>
+<g class="hot" data-tip="<i>Trichinella spiralis</i><br>同一隻動物既是最終宿主、也是中間宿主（幼蟲包囊在自己的肌肉）。" data-label="旋毛蟲"><rect x="194" y="328" width="150" height="54" rx="10" class="bx"/><text x="269" y="350" text-anchor="middle" class="tb">旋毛蟲</text></g>
+<text x="269" y="369" text-anchor="middle" class="ts">同一宿主 FH＋IH</text>
+<g class="hot" data-tip="<i>Schistosoma japonicum、S. mansoni、S. haematobium</i><br>吸蟲中唯一<b>雌雄異體</b>；只要<b>一個中間宿主</b>；<b>沒有雷氏幼蟲、囊狀幼蟲</b>；尾蚴鑽皮膚。" data-label="血吸蟲"><rect x="374" y="328" width="150" height="54" rx="10" class="bg"/><text x="449" y="350" text-anchor="middle" class="tb">血吸蟲</text></g>
+<text x="449" y="369" text-anchor="middle" class="ts">雌雄異體 · 卵無蓋</text>
+<g class="hot" data-tip="<i>Fasciola hepatica</i><br>吸蟲共通藥 PZQ 效果差 → <b>Triclabendazole</b>（或 Bithionol）。" data-label="牛羊肝吸蟲"><rect x="554" y="328" width="150" height="54" rx="10" class="bg"/><text x="629" y="350" text-anchor="middle" class="tb">牛羊肝吸蟲</text></g>
+<text x="629" y="369" text-anchor="middle" class="ts">PZQ 無效</text>
+<rect x="14" y="426" width="150" height="54" rx="10" class="bw"/><text x="89" y="448" text-anchor="middle" class="tb">不靠驗糞便</text>
+<text x="89" y="467" text-anchor="middle" class="ts">用其他檢體</text>
+<g class="hot" data-tip="<i>Enterobius vermicularis</i><br>早上、排便清洗前的 Scotch tape test。" data-label="蟯蟲"><rect x="194" y="426" width="150" height="54" rx="10" class="bx"/><text x="269" y="448" text-anchor="middle" class="tb">蟯蟲</text></g>
+<text x="269" y="467" text-anchor="middle" class="ts">肛圍膠帶法</text>
+<g class="hot" data-tip="<i>Toxocara canis</i><br>人是保幼宿主，沒有成蟲產卵。" data-label="犬蛔蟲"><rect x="374" y="426" width="150" height="54" rx="10" class="bx"/><text x="449" y="448" text-anchor="middle" class="tb">犬蛔蟲</text></g>
+<text x="449" y="467" text-anchor="middle" class="ts">血清 TES-ELISA</text>
+<g class="hot" data-tip="<i>Trichinella spiralis</i><br>肌肉切片大海撈針；今年老師強調 IgG 抗體。" data-label="旋毛蟲"><rect x="554" y="426" width="150" height="54" rx="10" class="bx"/><text x="629" y="448" text-anchor="middle" class="tb">旋毛蟲</text></g>
+<text x="629" y="467" text-anchor="middle" class="ts">IgG · 肌肉切片</text>
+<g class="hot" data-tip="<i>Capillaria hepatica</i><br>卵留在肝實質；<b>糞便有卵＝spurious</b>（吃了感染動物的肝）。" data-label="肝毛線蟲"><rect x="734" y="426" width="150" height="54" rx="10" class="bx"/><text x="809" y="448" text-anchor="middle" class="tb">肝毛線蟲</text></g>
+<text x="809" y="467" text-anchor="middle" class="ts">肝切片</text>
+<rect x="14" y="524" width="150" height="54" rx="10" class="bw"/><text x="89" y="556" text-anchor="middle" class="tb">不靠驗糞便（續）</text>
+<g class="hot" data-tip="<i>Paragonimus westermani</i><br>卵隨痰咳出，吞下則出現在糞便。" data-label="衛氏肺吸蟲"><rect x="194" y="524" width="150" height="54" rx="10" class="bg"/><text x="269" y="546" text-anchor="middle" class="tb">衛氏肺吸蟲</text></g>
+<text x="269" y="565" text-anchor="middle" class="ts">痰（也可糞便）</text>
+<g class="hot" data-tip="<i>Schistosoma haematobium</i><br>成蟲住膀胱靜脈叢 → 血尿、卵在<b>尿液</b>。" data-label="埃及血吸蟲"><rect x="374" y="524" width="150" height="54" rx="10" class="bg"/><text x="449" y="546" text-anchor="middle" class="tb">埃及血吸蟲</text></g>
+<text x="449" y="565" text-anchor="middle" class="ts">尿液</text>
+<g class="hot" data-tip="<i>Wuchereria、Brugia、Loa loa、Onchocerca</i><br>淋巴絲蟲夜間、羅阿白天採血。" data-label="血絲蟲"><rect x="554" y="524" width="150" height="54" rx="10" class="bx"/><text x="629" y="546" text-anchor="middle" class="tb">血絲蟲</text></g>
+<text x="629" y="565" text-anchor="middle" class="ts">血片（看時間）</text>
+<g class="hot" data-tip="<i>Onchocerca volvulus</i><br>微絲蚴在皮膚、眼睛，不在血液。" data-label="蟠尾絲蟲"><rect x="734" y="524" width="150" height="54" rx="10" class="bx"/><text x="809" y="546" text-anchor="middle" class="tb">蟠尾絲蟲</text></g>
+<text x="809" y="565" text-anchor="middle" class="ts">skin snip</text>
+<text x="14" y="612" class="th">自體感染</text><text x="78" y="612" class="ts">蟯蟲、糞小桿線蟲、菲律賓毛線蟲三種都會（不是只有糞小桿線蟲）</text>
+<rect x="554" y="623" width="14" height="10" rx="3" class="bw"/><text x="574" y="632" class="ts">例外類別</text>
+<rect x="666" y="623" width="14" height="10" rx="3" class="bx"/><text x="686" y="632" class="ts">線蟲</text>
+<rect x="778" y="623" width="14" height="10" rx="3" class="bg"/><text x="798" y="632" class="ts">吸蟲</text>
+</svg>

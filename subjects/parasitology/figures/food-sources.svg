@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 946 1062" role="img" aria-label="吃什麼會得什麼：依暴露來源整理線蟲與吸蟲。吃到蟲卵：蛔蟲、鞭蟲、蟯蟲、犬蛔蟲、肝毛線蟲。生豬肉：旋毛蟲。生淡水魚：中華肝吸蟲、異形與橫川吸蟲、菲律賓毛線蟲、顎口線蟲。生海魚與魷魚：海獸胃線蟲。生螃蟹與淡水蝦：肺吸蟲、廣東住血線蟲。生水生植物：薑片蟲、牛羊肝吸蟲。生蝸牛蛞蝓：廣東住血線蟲。赤腳踩土：鉤蟲、糞小桿線蟲。接觸疫水：血吸蟲。昆蟲叮咬：淋巴絲蟲、羅阿絲蟲、蟠尾絲蟲。">
+<defs><marker id="food-sources-fg" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker><marker id="food-sources-fk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="food-sources-fr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker><marker id="food-sources-fv" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
+<path d="M144 61L170 61" class="ln" marker-end="url(#food-sources-fk)"/>
+<path d="M144 159L170 159" class="ln" marker-end="url(#food-sources-fk)"/>
+<path d="M144 257L170 257" class="ln" marker-end="url(#food-sources-fk)"/>
+<path d="M144 355L170 355" class="ln" marker-end="url(#food-sources-fk)"/>
+<path d="M144 453L170 453" class="ln" marker-end="url(#food-sources-fk)"/>
+<path d="M144 551L170 551" class="ln" marker-end="url(#food-sources-fk)"/>
+<path d="M144 649L170 649" class="ln" marker-end="url(#food-sources-fk)"/>
+<path d="M144 747L170 747" class="ln" marker-end="url(#food-sources-fk)"/>
+<path d="M144 845L170 845" class="ln" marker-end="url(#food-sources-fk)"/>
+<path d="M144 943L170 943" class="ln" marker-end="url(#food-sources-fk)"/>
+<rect x="14" y="34" width="128" height="54" rx="10" class="bw"/><text x="78" y="56" text-anchor="middle" class="tb">吃到蟲卵</text>
+<text x="78" y="75" text-anchor="middle" class="ts">糞口：手、生菜、土</text>
+<g class="hot" data-tip="<i>Ascaris lumbricoides</i><br>土壤中<b>胚胎化</b>的卵才有感染力。" data-label="蛔蟲"><rect x="172" y="34" width="128" height="54" rx="10" class="bx"/><text x="236" y="56" text-anchor="middle" class="tb">蛔蟲</text></g>
+<text x="236" y="75" text-anchor="middle" class="ts">小腸 · 經肺</text>
+<g class="hot" data-tip="<i>Trichuris trichiura</i><br>胚胎化卵；孵化後直接到大腸。" data-label="鞭蟲"><rect x="330" y="34" width="128" height="54" rx="10" class="bx"/><text x="394" y="56" text-anchor="middle" class="tb">鞭蟲</text></g>
+<text x="394" y="75" text-anchor="middle" class="ts">盲腸 · 不經肺</text>
+<g class="hot" data-tip="<i>Enterobius vermicularis</i><br>卵產出<b>數小時</b>就有感染力 → 手到口自體再感染、家庭群聚。" data-label="蟯蟲"><rect x="488" y="34" width="128" height="54" rx="10" class="bx"/><text x="552" y="56" text-anchor="middle" class="tb">蟯蟲</text></g>
+<text x="552" y="75" text-anchor="middle" class="ts">盲腸 · 肛門癢</text>
+<g class="hot" data-tip="<i>Toxocara canis</i><br>吃到<b>狗糞</b>汙染的土裡的胚胎化卵；也可吃生雞肝等保幼宿主。人是保幼宿主。" data-label="犬蛔蟲"><rect x="646" y="34" width="128" height="54" rx="10" class="bx"/><text x="710" y="56" text-anchor="middle" class="tb">犬蛔蟲</text></g>
+<text x="710" y="75" text-anchor="middle" class="ts">VLM · OLM</text>
+<g class="hot" data-tip="<i>Capillaria hepatica</i><br>吃到土中<b>胚胎化卵</b>（鼠死後屍體分解釋出）。" data-label="肝毛線蟲"><rect x="804" y="34" width="128" height="54" rx="10" class="bx"/><text x="868" y="56" text-anchor="middle" class="tb">肝毛線蟲</text></g>
+<text x="868" y="75" text-anchor="middle" class="ts">肝 · 人是偶然宿主</text>
+<rect x="14" y="132" width="128" height="54" rx="10" class="bw"/><text x="78" y="154" text-anchor="middle" class="tb">生豬肉</text>
+<text x="78" y="173" text-anchor="middle" class="ts">或野生動物肉</text>
+<g class="hot" data-tip="<i>Trichinella spiralis</i><br>肉裡的<b>包囊幼蟲</b>；同一宿主既是最終宿主也是中間宿主。" data-label="旋毛蟲"><rect x="172" y="132" width="128" height="54" rx="10" class="bx"/><text x="236" y="154" text-anchor="middle" class="tb">旋毛蟲</text></g>
+<text x="236" y="173" text-anchor="middle" class="ts">小腸 → 骨骼肌</text>
+<rect x="14" y="230" width="128" height="54" rx="10" class="bw"/><text x="78" y="252" text-anchor="middle" class="tb">生淡水魚</text>
+<text x="78" y="271" text-anchor="middle" class="ts">生魚片、醃魚</text>
+<g class="hot" data-tip="<i>Clonorchis sinensis</i><br>囊狀幼蟲在<b>淡水魚</b>（鯉科）肉裡。" data-label="中華肝吸蟲"><rect x="172" y="230" width="128" height="54" rx="10" class="bg"/><text x="236" y="252" text-anchor="middle" class="tb">中華肝吸蟲</text></g>
+<text x="236" y="271" text-anchor="middle" class="ts">膽管 · 膽管癌</text>
+<g class="hot" data-tip="<i>Heterophyes heterophyes、Metagonimus yokogawai</i><br>囊狀幼蟲在<b>淡水魚</b>鱗下或肌肉（香魚等）。" data-label="異形・橫川吸蟲"><rect x="330" y="230" width="128" height="54" rx="10" class="bg"/><text x="394" y="252" text-anchor="middle" class="tb">異形・橫川吸蟲</text></g>
+<text x="394" y="271" text-anchor="middle" class="ts">小腸 · 卵可異位</text>
+<g class="hot" data-tip="<i>Capillaria philippinensis</i><br>生吃<b>小型淡水魚</b>；吸收不良、蛋白質流失。" data-label="菲律賓毛線蟲"><rect x="488" y="230" width="128" height="54" rx="10" class="bx"/><text x="552" y="252" text-anchor="middle" class="tb">菲律賓毛線蟲</text></g>
+<text x="552" y="271" text-anchor="middle" class="ts">小腸 · 自體感染</text>
+<g class="hot" data-tip="<i>Gnathostoma spinigerum</i><br>淡水魚、<b>泥鰍</b>、雞、蛙等體內的 L3；人是非適合宿主。" data-label="顎口線蟲"><rect x="646" y="230" width="128" height="54" rx="10" class="bx"/><text x="710" y="252" text-anchor="middle" class="tb">顎口線蟲</text></g>
+<text x="710" y="271" text-anchor="middle" class="ts">皮下遊走腫塊</text>
+<rect x="14" y="328" width="128" height="54" rx="10" class="bw"/><text x="78" y="350" text-anchor="middle" class="tb">生海魚、魷魚</text>
+<text x="78" y="369" text-anchor="middle" class="ts">生魚片、壽司</text>
+<g class="hot" data-tip="<i>Anisakis simplex</i><br>魚、魷魚肉裡的 <b>L3</b>；冷凍或煮熟可殺死。" data-label="海獸胃線蟲"><rect x="172" y="328" width="128" height="54" rx="10" class="bx"/><text x="236" y="350" text-anchor="middle" class="tb">海獸胃線蟲</text></g>
+<text x="236" y="369" text-anchor="middle" class="ts">胃壁 · 劇烈胃痛</text>
+<rect x="14" y="426" width="128" height="54" rx="10" class="bw"/><text x="78" y="448" text-anchor="middle" class="tb">生螃蟹、淡水蝦</text>
+<text x="78" y="467" text-anchor="middle" class="ts">醉蟹、生蝦</text>
+<g class="hot" data-tip="<i>Paragonimus westermani</i><br><b>澤蟹</b>等淡水蟹的囊狀幼蟲。" data-label="衛氏肺吸蟲"><rect x="172" y="426" width="128" height="54" rx="10" class="bg"/><text x="236" y="448" text-anchor="middle" class="tb">衛氏肺吸蟲</text></g>
+<text x="236" y="467" text-anchor="middle" class="ts">肺 · 咳血</text>
+<g class="hot" data-tip="<i>Angiostrongylus cantonensis</i><br>陷阱：吃淡水蝦不只肺吸蟲，<b>廣東住血線蟲</b>也會（蝦、蟹、蛙是保幼宿主）。" data-label="廣東住血線蟲"><rect x="330" y="426" width="128" height="54" rx="10" class="bx"/><text x="394" y="448" text-anchor="middle" class="tb">廣東住血線蟲</text></g>
+<text x="394" y="467" text-anchor="middle" class="ts">蝦蟹是保幼宿主</text>
+<rect x="14" y="524" width="128" height="54" rx="10" class="bw"/><text x="78" y="546" text-anchor="middle" class="tb">生水生植物</text>
+<text x="78" y="565" text-anchor="middle" class="ts">菱角、荸薺、水芹</text>
+<g class="hot" data-tip="<i>Fasciolopsis buski</i><br>用牙齒剝<b>菱角、荸薺</b>皮時吃進表面的囊狀幼蟲。" data-label="薑片蟲"><rect x="172" y="524" width="128" height="54" rx="10" class="bg"/><text x="236" y="546" text-anchor="middle" class="tb">薑片蟲</text></g>
+<text x="236" y="565" text-anchor="middle" class="ts">小腸 · 最大吸蟲</text>
+<g class="hot" data-tip="<i>Fasciola hepatica</i><br><b>水芹</b>等水生植物；PZQ 效果差 → Triclabendazole。" data-label="牛羊肝吸蟲"><rect x="330" y="524" width="128" height="54" rx="10" class="bg"/><text x="394" y="546" text-anchor="middle" class="tb">牛羊肝吸蟲</text></g>
+<text x="394" y="565" text-anchor="middle" class="ts">肝 → 膽管</text>
+<rect x="14" y="622" width="128" height="54" rx="10" class="bw"/><text x="78" y="644" text-anchor="middle" class="tb">生蝸牛、蛞蝓</text>
+<text x="78" y="663" text-anchor="middle" class="ts">或沾黏液的生菜</text>
+<g class="hot" data-tip="<i>Angiostrongylus cantonensis</i><br>中間宿主是<b>軟體動物</b>（非洲大蝸牛、蛞蝓）；生菜沾到螺黏液也會感染。" data-label="廣東住血線蟲"><rect x="172" y="622" width="128" height="54" rx="10" class="bx"/><text x="236" y="644" text-anchor="middle" class="tb">廣東住血線蟲</text></g>
+<text x="236" y="663" text-anchor="middle" class="ts">嗜酸性腦膜炎</text>
+<rect x="14" y="720" width="128" height="54" rx="10" class="bw"/><text x="78" y="742" text-anchor="middle" class="tb">赤腳踩土</text>
+<text x="78" y="761" text-anchor="middle" class="ts">絲狀幼蟲鑽皮膚</text>
+<g class="hot" data-tip="<i>Ancylostoma duodenale、Necator americanus</i><br>絲狀幼蟲鑽皮膚 → 經肺；<i>A. duodenale</i> 也可經口。" data-label="鉤蟲"><rect x="172" y="720" width="128" height="54" rx="10" class="bx"/><text x="236" y="742" text-anchor="middle" class="tb">鉤蟲</text></g>
+<text x="236" y="761" text-anchor="middle" class="ts">小腸 · 缺鐵性貧血</text>
+<g class="hot" data-tip="<i>Strongyloides stercoralis</i><br>絲狀幼蟲鑽皮膚；免疫低下（類固醇、HTLV-1）→ 超感染。" data-label="糞小桿線蟲"><rect x="330" y="720" width="128" height="54" rx="10" class="bx"/><text x="394" y="742" text-anchor="middle" class="tb">糞小桿線蟲</text></g>
+<text x="394" y="761" text-anchor="middle" class="ts">自體感染 · 超感染</text>
+<rect x="14" y="818" width="128" height="54" rx="10" class="bw"/><text x="78" y="840" text-anchor="middle" class="tb">碰到疫水</text>
+<text x="78" y="859" text-anchor="middle" class="ts">游泳、下田</text>
+<g class="hot" data-tip="<i>Schistosoma japonicum、S. mansoni、S. haematobium</i><br><b>尾動幼蟲</b>直接鑽皮膚（不用吃）；游泳者癢。" data-label="血吸蟲"><rect x="172" y="818" width="128" height="54" rx="10" class="bg"/><text x="236" y="840" text-anchor="middle" class="tb">血吸蟲</text></g>
+<text x="236" y="859" text-anchor="middle" class="ts">門脈 · 膀胱靜脈</text>
+<rect x="14" y="916" width="128" height="54" rx="10" class="bw"/><text x="78" y="938" text-anchor="middle" class="tb">昆蟲叮咬</text>
+<text x="78" y="957" text-anchor="middle" class="ts">L3 從傷口進入</text>
+<g class="hot" data-tip="<i>Wuchereria bancrofti、Brugia malayi</i><br>班氏、馬來絲蟲；夜間週期性。" data-label="淋巴絲蟲"><rect x="172" y="916" width="128" height="54" rx="10" class="bx"/><text x="236" y="938" text-anchor="middle" class="tb">淋巴絲蟲</text></g>
+<text x="236" y="957" text-anchor="middle" class="ts">蚊 · 象皮病</text>
+<g class="hot" data-tip="<i>Loa loa</i><br><i>Chrysops</i>；日間週期性、Calabar swelling。" data-label="羅阿絲蟲"><rect x="330" y="916" width="128" height="54" rx="10" class="bx"/><text x="394" y="938" text-anchor="middle" class="tb">羅阿絲蟲</text></g>
+<text x="394" y="957" text-anchor="middle" class="ts">斑虻 · 眼蟲</text>
+<g class="hot" data-tip="<i>Onchocerca volvulus</i><br><i>Simulium</i>；微絲蚴在皮膚、眼睛 → skin snip。" data-label="蟠尾絲蟲"><rect x="488" y="916" width="128" height="54" rx="10" class="bx"/><text x="552" y="938" text-anchor="middle" class="tb">蟠尾絲蟲</text></g>
+<text x="552" y="957" text-anchor="middle" class="ts">黑蠅 · 河盲症</text>
+<text x="14" y="1004" class="th">讀法</text><text x="78" y="1004" class="ts">每一列：左邊黃框是暴露來源，右邊是會得的寄生蟲（同一列由左往右讀）</text>
+<text x="14" y="1024" class="th">陷阱</text><text x="78" y="1024" class="ts">蝦蟹 → 肺吸蟲＋廣東住血線蟲；不用吃的：鉤蟲、糞小桿線蟲、血吸蟲（鑽皮膚）、血絲蟲（叮咬）</text>
+<rect x="602" y="1035" width="14" height="10" rx="3" class="bw"/><text x="622" y="1044" class="ts">暴露來源</text>
+<rect x="714" y="1035" width="14" height="10" rx="3" class="bx"/><text x="734" y="1044" class="ts">線蟲</text>
+<rect x="826" y="1035" width="14" height="10" rx="3" class="bg"/><text x="846" y="1044" class="ts">吸蟲</text>
+</svg>
