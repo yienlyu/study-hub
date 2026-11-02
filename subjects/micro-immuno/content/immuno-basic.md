@@ -7,14 +7,14 @@
 - 病原位置決定反應：**胞內 → cell-mediated（T 細胞）**；**胞外 → humoral（抗體）**。
 - **Nude mouse（nu/nu）**：自發突變、**無胸腺（athymic）**、無毛 （thymic dysgenesis）→ 無 T 細胞、移植外來組織不易排斥 → 用於腫瘤移植、異種移植與免疫研究（頸部長出鳥羽毛）。
 
-## 2. 先天 vs 後天免疫
+## 2. 先天 vs 後天免疫（adaptive immunity）
 | | Innate | Adaptive (specific / acquired) |
 |---|---|---|
 | 速度 | **快**（分鐘–小時） | 慢（初次約 4–10 天） |
 | 專一性 | Ag non-specific（辨識共同 pattern） | **Ag specific** |
 | 記憶 | ❌ | ✅ |
-| 其他 | 強烈發炎；無法適應新病原 | Specificity、**Diversity**、Memory、Specialization、**Self-limitation**、Nonreactivity to self |
-| 組成 | 屏障、補體、吞噬細胞、NK、ILC | B 細胞（抗體）、T 細胞 |
+| 其他 | 強烈發炎（inflammation）；無法適應新病原 | Specificity、**Diversity**、Memory、Specialization、**Self-limitation**、Nonreactivity to self |
+| 組成 | 屏障、補體（complement）、吞噬細胞、NK（natural killer，自然殺手）、ILC（innate lymphoid cell，先天性淋巴細胞） | B 細胞（抗體）、T 細胞 |
 
 - 先天屏障：Anatomic（皮膚、黏膜）、Physiological（溫度、低 pH、補體、**CRP**、cytokines、lysozyme、interferon）、Phagocytic、Inflammatory。
 - **三道防線**（Janeway）：① 解剖／物理屏障（皮膚、口咽黏膜、呼吸上皮、腸道）② 化學屏障與免疫分子（補體 C3、**defensins**、**REG3γ**、CRP）＋先天免疫細胞（macrophage、granulocyte、NK）③ 後天免疫（B、T）。①② 都屬先天免疫。
@@ -23,16 +23,16 @@
 <div data-fig="clonal-selection"></div>
 
 ## 3. 造血與免疫細胞
-- **HSC**（骨髓）：undifferentiated、pluripotent、**self-renewal**；progenitors 不能自我更新、已決定方向。需 **bone marrow stromal cells + growth factors**。出生前造血在卵黃囊、肝、脾。
+- **HSC**（骨髓）：undifferentiated、pluripotent、**self-renewal**；progenitors 不能自我更新、已決定方向。需 **bone marrow stromal cells + growth factors**。出生前造血在卵黃囊（yolk sac）、肝、脾。
 - **Myeloid lineage**（多數先天細胞）：
   - **Neutrophil（PMN）**：最多的白血球，吞噬主力。
   - Eosinophil：寄生蟲（抗體包覆）。
-  - Basophil / Mast cell：組織胺、過敏。
-  - **Monocyte → Macrophage**：第一個被發現的吞噬細胞；馬蹄形核；血中約 2 天後入組織；Kupffer cell（肝）、microglia（腦）；分泌 **IL-1、TNF-α**；APC。
-  - **Dendritic cell**：吞噬較弱但**抗原呈現最強**（MHC I + II），連結先天與後天。**未成熟 DC**（周邊組織）吞噬強；接觸病原成熟後吞噬下降，經淋巴管到淋巴結活化 **naïve T**。
-  - **Monocyte-derived DC（MoDC）**：monocyte 平常不太會變 DC；同時加 **GM-CSF＋IL-4** 等多種 growth factor 才分化成 DC，只加一種只會變 macrophage。
+  - Basophil / Mast cell：組織胺、過敏（allergy）。
+  - **Monocyte → Macrophage**：第一個被發現的吞噬細胞；馬蹄形核；血中約 2 天後入組織；Kupffer cell（肝）、microglia（腦）；分泌 **IL-1、TNF-α**；APC（antigen-presenting cell，抗原呈現細胞）。
+  - **Dendritic cell**：吞噬較弱但**抗原呈現最強**（MHC（major histocompatibility complex，主要組織相容性複合體） I + II），連結先天與後天。**未成熟 DC**（周邊組織）吞噬強；接觸病原成熟後吞噬下降，經淋巴管到淋巴結活化 **naïve T**。
+  - **Monocyte-derived DC（MoDC）**：monocyte 平常不太會變 DC；同時加 **GM-CSF（granulocyte-macrophage colony-stimulating factor）＋IL-4** 等多種 growth factor 才分化成 DC，只加一種只會變 macrophage。
   - Granulocytes = neutrophil、eosinophil、basophil、mast cell；macrophage 染色可見顆粒但**不算顆粒球**。
-- **Lymphoid lineage**：B、T、**NK（large granular lymphocyte；perforin/granzyme；CD16 → ADCC）**、ILC。
+- **Lymphoid lineage**：B、T、**NK（large granular lymphocyte；perforin/granzyme；CD16 → ADCC（antibody-dependent cell-mediated cytotoxicity，抗體依賴性細胞毒殺））**、ILC。
   - Chediak-Higashi syndrome：NK、巨噬細胞、嗜中性球功能受損、淋巴瘤增加。
 - Phagocytes：neutrophil、eosinophil、monocyte/macrophage、DC（**不含 basophil**）。
 
@@ -40,7 +40,7 @@
 
 ## 4. 感測與發炎
 - **PAMPs**（病原體分子模式）被 sensor cell 上的 **PRRs**（TLRs、NOD…）辨識 → 分泌 **cytokines、chemokines** → 內皮活化、黏附分子↑、通透性↑ → 紅腫熱、募集 neutrophil、monocyte 吞噬並釋放發炎介質。
-- 例：**阿茲海默症**——以往認為是 amyloid β 累積，現在認為腦部潛在感染影響 **microglia** 吞噬 amyloid β 的能力；microglia 的 TLR 可被活化。
+- 例：**阿茲海默症**——以往認為是 amyloid β 累積，現在認為腦部潛在感染影響 **microglia** 吞噬 amyloid β 的能力；microglia 的 TLR（Toll-like receptor，類鐸受體） 可被活化。
 
 ## 5. 淋巴球辨識（CD 抗原）
 | CD | 細胞 |
@@ -56,25 +56,25 @@
 - T 細胞：**αβ（~95%）** vs **γδ（~5%，腸道黏膜上皮）**；初始 αβ T 同時有 CD4、CD8（double positive），之後分成 TH（CD4）、TC（CD8），另有 **Ts**（CD8 suppressor，關掉專一性反應）。
 - **TH1** 分泌 **IL-2、IFN-γ**（細胞毒性與發炎）；**TH2** 分泌 **IL-4、5、6、10**（刺激 B 細胞）。
 - 外觀只能分出淋巴球（核大質少）與顆粒球（differential count），**T、B 外觀一樣**，要靠 **CD 抗原**（Cluster of Designation，2014 年已編到 CD371）。
-- **BCR**：membrane Ig + **Igα（CD79a）/ Igβ（CD79b）**；周邊 B：IgM、IgD（以及 IgG/A/E）；腸黏膜 B：IgA。B 也是 APC（MHC II、CD40）。
+- **BCR**（B cell receptor，B 細胞受體）：membrane Ig + **Igα（CD79a）/ Igβ（CD79b）**；周邊 B：IgM、IgD（以及 IgG/A/E）；腸黏膜 B：IgA。B 也是 APC（MHC II、CD40）。
 
 <div data-fig="bcr-tcr"></div>
 
 ## 6. Epitope（抗原決定位）
 | | B epitope | T epitope |
 |---|---|---|
-| 辨識 | BCR / 抗體**直接**辨識立體結構 | TCR 辨識 **peptide + MHC** |
+| 辨識 | BCR / 抗體**直接**辨識立體結構 | TCR（T cell receptor，T 細胞受體） 辨識 **peptide + MHC** |
 | 性質 | 蛋白、醣、脂、DNA；**連續或不連續**；表面、親水 | **連續線性 peptide**（一級結構） |
 | 需 MHC？ | ❌ | ✅ |
 
 - BCR 與 TCR 都有 N 端 variable region、C 端 constant region；BCR 有輕重鏈、呈 Y 字形。T epitope 多位於多肽鏈中段，APC 分解後放到 MHC 上給 TCR 辨識。
 
 ## 7. 淋巴器官
-- **Primary（central）**：鳥類 **bursa of Fabricius**、**bone marrow（B 成熟）**、**thymus（T 成熟，青少年最旺盛、隨年齡退化）** → 受體基因片段重排（repertoire 至少 **10¹⁰** 種）、**clonal deletion（負向選擇，約九成 immature lymphocyte 被清除）** → 送出 naïve lymphocyte。
+- **Primary（central）**：鳥類 **bursa of Fabricius**、**bone marrow（B 成熟）**、**thymus（T 成熟，青少年最旺盛、隨年齡退化）** → 受體基因片段重排（repertoire 至少 **10¹⁰** 種）、**clonal deletion（負向選擇（negative selection），約九成 immature lymphocyte 被清除）** → 送出 naïve lymphocyte。
   - 2019 Lasker：Max Cooper（**bursa of Fabricius → B**）、Jacques Miller（**thymus → T**）。
 - **Secondary（peripheral）**：spleen、lymph nodes、tonsils、appendix、Peyer's patches、MALT（GALT、BALT）→ 真正產生專一性反應的地方（antigen-dependent）：**clonal selection**（挑出高親和力的 clone 增殖分化成 effector cells，極少數留在 G0 成為 **memory cells**）。
   - **Clonal selection hypothesis**：每個淋巴球有獨特受體；只用重排過的基因、關掉另一個等位基因（**allelic exclusion**）；周邊也會再清除自體反應的淋巴球。
-  - 感染位置決定在哪活化：菌血症由**脾臟**過濾血液；黏膜、腸道感染由 **MALT**。淋巴液經**胸管**匯入左鎖骨下靜脈。
+  - 感染位置決定在哪活化：菌血症由**脾臟**過濾血液；黏膜、腸道感染由 **MALT**（mucosa-associated lymphoid tissue，黏膜相關淋巴組織）。淋巴液經**胸管**匯入左鎖骨下靜脈。
   - **Spleen**（過濾血液、全身）：white pulp — **PALS = T 區**、follicle = B 區 → germinal center（memory B、**FDCs**、macrophage）、marginal zone；red pulp。
   - **Lymph node**（過濾淋巴、局部）：cortex follicle = B；**paracortex = T**；medulla 混合；naïve 淋巴球經 **HEV**（L-selectin）進入；2018 發現 **SPFs（subcapsular proliferative foci）**，memory B 在此待命。
 
@@ -85,7 +85,7 @@
 
 ## 8. 免疫學應用（slides 最後幾頁）
 - 初次反應曲線：lag（重新處理、呈現抗原）→ log（抗體指數上升）→ stationary → 下降只留 memory cell；**二次反應幾乎沒有 lag、上升快又高** → 疫苗原理。
-- **Immune checkpoint blockade**（2018 諾貝爾：James Allison — **CTLA-4**；Tasuku Honjo — **PD-1**）：Keytruda（pembrolizumab）、Opdivo（nivolumab）→ 詳見下方第 9 節。
+- **Immune checkpoint blockade**（2018 諾貝爾：James Allison — **CTLA-4**（cytotoxic T-lymphocyte-associated protein 4）；Tasuku Honjo — **PD-1**（programmed cell death protein 1））：Keytruda（pembrolizumab）、Opdivo（nivolumab）→ 詳見下方第 9 節。
 - **Herceptin**（2019 Lasker）：第一個阻斷致癌蛋白 **HER2** 的單株抗體 → 乳癌。
 - **Modified mRNA vaccine**（2021 Lasker：Karikó、Weissman）→ COVID-19。
 - COVID-19 Dashboard（2022 Lasker：Lauren Gardner）。
@@ -118,14 +118,14 @@
 ## 🎙️ 上課錄影重點（陳玫潔，09/16）
 - 教科書 = **Janeway**（研究所程度，建議讀原文）。新版最重要的觀念：**sensor cell** —— 非專一性細胞初次接觸病原時的分子變化，會**形塑之後的專一性免疫**（APC 分泌的 cytokine 決定 T 細胞分化方向）→ 從先天到後天「從一而終」、是一個 **module** 的概念。
 - 免疫 = 國防：要能清除 nonself，又不能自毀。課程脈絡：機制 → **tolerance**（break down → autoimmunity）、immunodeficiency（敞開大門）、hypersensitivity（四季花粉一直反應）。
-- 病原的生物特性與感染位置決定用哪種免疫：多數細菌**胞外** → 吞噬、抗體中和毒素（如鏈球菌）；病毒**胞內** → 細胞免疫；「凡有規則必有例外」：MTB、痲瘋菌是胞內菌。
+- 病原的生物特性與感染位置決定用哪種免疫：多數細菌**胞外** → 吞噬、抗體中和毒素（如鏈球菌）；病毒**胞內** → 細胞免疫（cell-mediated immunity）；「凡有規則必有例外」：MTB、痲瘋菌是胞內菌。
 - **Nude mouse**：自發突變、thymic dysgenesis → 沒 T 細胞 → **B 細胞也受影響**（T 不好、B 也不會好）→ 專一性免疫缺失模式；可做腫瘤（打在**大腿**、用游標尺量腫瘤大小）與移植（背上的鳥羽毛 = **xenograft** 不排斥）；需 SPF、HEPA 飼養。名詞：**isograft**（自己左手到右手）、**allograft**（同種異體）、**xenograft**（異種）。
-- 城堡比喻：**innate = 銅牆鐵壁護城河**（第一道：皮膚黏膜；第二道：補體、antimicrobial peptides、肝臟急性期蛋白、發炎 = 護城河裡的食人魚）；innate 最重要的是**一開始降低病原數目**（防微杜漸）。燒燙傷病人（八仙塵爆）多死於感染。
+- 城堡比喻：**innate = 銅牆鐵壁護城河**（第一道：皮膚黏膜；第二道：補體、antimicrobial peptides、肝臟急性期蛋白（acute-phase protein）、發炎 = 護城河裡的食人魚）；innate 最重要的是**一開始降低病原數目**（防微杜漸）。燒燙傷病人（八仙塵爆）多死於感染。
 - **Adaptive / acquired**：一定要有刺激才誘發（像預先瞄準的核彈）→ 所以要打疫苗（「回家找小黃卡」，上面列的都是嚴重疾病）。
 - 補體以 **C3 最重要**；補體調控蛋白缺失也會造成免疫缺陷 →「不要輕看非專一性免疫」。抗菌小胜肽易分解，經結構修飾後已有 FDA 核准做為治療。
 - **Neutrophil 是吞噬清除病原的大宗**（比例原則：白血球中最多）。Macrophage、DC 也吞噬，但重點是「**砍下敵人首級放在供盤上**」：蛋白質切成 peptide、放在 **MHC** 上；peptide 與 MHC 結合**不需專一性但需要穩定**（不穩 = 頭顱滾下來，無法誘發專一性免疫）。
 - **Professional APC 三種：macrophage、DC、B 細胞**。DC 三種型態：周邊（dendrite 最多、吞噬力最強）→ 移動中（圓圓像高麗菜、不再吞）→ 到 T 細胞區（黏附分子最多、全心刺激 T 細胞），除了 pMHC 還有共刺激分子。
-- Macrophage 馬蹄鐵形核不一定看得到（角度問題）；Kupffer cell（肝，像破布）、microglia（腦）；阿茲海默症與 microglia 吞噬 Aβ（Aβ 當 PAMP、TLR 當 PRR）有關。
+- Macrophage 馬蹄鐵形核不一定看得到（角度問題）；Kupffer cell（肝，像破布）、microglia（腦）；阿茲海默症與 microglia 吞噬 Aβ（Aβ 當 PAMP（pathogen-associated molecular pattern）、TLR 當 PRR（pattern recognition receptor，模式辨識受體））有關。
 - **NK**：MHC restriction 下，病毒 / 癌細胞會關掉 MHC I 讓 T 細胞拿它沒轍 → NK 專殺**不表現 MHC class I** 的細胞。
 - **MHC restriction 例子**：兩位同學都得流感，把一位的專一性 T 細胞 adoptive transfer 給另一位 → **沒用**（MHC 不同）。T 細胞在胸腺被要求要認得自己的 MHC，不認得的死亡（**約 99% 死亡**）。
 - TCR 辨識 **MHC + peptide = 大亨堡（麵包 + 熱狗）**。B 細胞一開始分泌 **IgM**（因為膜型就是 IgM）。
@@ -133,7 +133,7 @@
 - Innate 缺點：沒有適應力（城牆不會因敵人不同自動變高）、**沒有記憶**（第 1 次與第 100 次感染一樣）。Adaptive 的 diversity 與 **self-limiting**（國防不能一直 on，太耗能；關不掉就麻煩）→ 留下少數 **memory cell**，現在發現**周邊組織也有**。
 - B 細胞活化 → **plasma cell**（緊急用、一段時間就死）；只有 B 細胞做 **affinity maturation**：在 germinal center 邊突變邊巡迴，和 **FDC** 搶抗原，親和力最高者成為 memory B；**TCR 不會再突變**。
 - Memory cell 可活 **40–50 年**（廣島、長崎倖存者被放射性標定的免疫細胞 40 年後仍找得到）。
-- **HSC = CD34⁺**；需要 **bone marrow stromal cell 接觸** + growth factor（GM-CSF、M-CSF），所以用 **semi-solid agar** 培養（液態細胞會漂走）。臍帶血存起來若是先天基因造成的癌症也沒用。老師說「**不會考族譜挖洞填空**」。
+- **HSC（hematopoietic stem cell，造血幹細胞） = CD34⁺**；需要 **bone marrow stromal cell 接觸** + growth factor（GM-CSF、M-CSF），所以用 **semi-solid agar** 培養（液態細胞會漂走）。臍帶血存起來若是先天基因造成的癌症也沒用。老師說「**不會考族譜挖洞填空**」。
 - 只能用 **CD marker** 區分淋巴球（已到 CD371，不用背），要背：**CD3（所有 T）、CD4 / CD8（4 × 2 = 8 × 1）、CD19 / 20 / 22（B）、CD16 / 56（NK）**。
 - TCR 有 α、β、γ、δ 四種；只有 αβ、γδ 配對（沒有 αδ）；教科書內容幾乎都是 αβ（95%）；γδ 比例低但「超級重要」、與**黏膜免疫**有關。Suppressor T 負責**關掉**專一性反應。
 - 抗體兩條 heavy + 兩條 light、**兩個結合位、一種專一性**；TCR β 像 heavy chain、α 像 light chain。

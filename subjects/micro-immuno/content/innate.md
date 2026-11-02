@@ -1,10 +1,10 @@
 === summary ===
 # 先天免疫（依百十四共筆整理、對照百十三共筆，李岳倫）
 
-> 老師標註 **\* IMPORTANT !** 的是補體三路徑（百十四共筆：**補體活化路徑是本章重點**；先天性免疫細胞分類「老師之前考過」）。學習目標：① 細胞遷移與補體 ② 單核吞噬細胞 ③ NK 細胞毒殺。
+> 老師標註 **\* IMPORTANT !** 的是補體三路徑（百十四共筆：**補體活化路徑是本章重點**；先天性免疫細胞分類「老師之前考過」）。學習目標：① 細胞遷移與補體 ② 單核吞噬細胞 ③ NK（natural killer，自然殺手） 細胞毒殺。
 
-## 1. 先天免疫的組成與發炎
-- 早於淋巴球主導的後天免疫；優點**快速、反應劇烈**，缺點**無適應性、無記憶**。
+## 1. 先天免疫的組成與發炎（inflammation）
+- 早於淋巴球主導的後天免疫（adaptive immunity）；優點**快速、反應劇烈**，缺點**無適應性、無記憶**。
 - **解剖屏障**（皮膚、黏液、皮膚 pH）、**生理屏障**（溫度、低 pH、氧、可溶物質：lysozyme、interferon、補體、**CRP**、cytokines；例：雞體溫高能防炭疽）、**吞噬屏障**（pinocytosis、receptor-mediated endocytosis）、**發炎屏障**（血流↑、通透性↑、吞噬細胞流入 → 紅腫熱痛）。
 - 急性發炎：血流↑、微血管通透性↑、白血球聚集（**neutrophil 先到 → monocyte**）；mast cell 為組織常駐、早期活化。
 
@@ -18,7 +18,7 @@
 > 口訣：**S → C → I**（Selectin → Chemokine → Integrin）；考古「(c)(a)(b)」。
 
 - Selectin：**P-selectin**（血小板、內皮）、**E-selectin**（內皮）、**L-selectin**（白血球，結合 HEV）；selectin 是單一鏈（**α、β 兩條是 integrin**）。
-- Integrin 例：**LFA-1**（↔ ICAM-1）、**VLA-4**（↔ VCAM-1）、**CR3、CR4**（也是補體受體）。**CCR3 不是 integrin**（chemokine receptor，7 次跨膜 GPCR）。
+- Integrin 例：**LFA-1**（↔ ICAM-1（intercellular adhesion molecule 1））、**VLA-4**（↔ VCAM-1（vascular cell adhesion molecule 1））、**CR3、CR4**（也是補體受體）。**CCR3 不是 integrin**（chemokine receptor，7 次跨膜 GPCR）。
 - Chemokine receptor：**CCR3**（TH2、eosinophil ↔ **eotaxin**）；**CCR5**（TH1、macrophage ↔ MIP-1β）。
 - MAdCAM：mucosal addressin。
 
@@ -32,7 +32,7 @@
 |---|---|
 | **Opsonization 調理** | **C3b**、C4b（iC3b）→ 被吞噬細胞 **CR** 辨識 |
 | **Chemotaxis / 發炎** | **C3a、C5a**（小分子易擴散，C3aR / C5aR；anaphylatoxin） |
-| **Lysis 溶解** | **MAC = C5b + C6 + C7 + C8 + 多個 C9**（中間產物 C5b67 可先停在膜上，等 C8、C9 加入）→ cytotoxic pores |
+| **Lysis 溶解** | **MAC（membrane attack complex，膜攻擊複合體） = C5b + C6 + C7 + C8 + 多個 C9**（中間產物 C5b67 可先停在膜上，等 C8、C9 加入）→ cytotoxic pores |
 
 <div data-fig="complement-functions"></div>
 
@@ -41,7 +41,7 @@
 ### 三條路徑
 | | Classical | Lectin | Alternative |
 |---|---|---|---|
-| 啟動 | **C1q** 結合 Ag 或 **Ag-Ab（IgM、IgG1–3）** | **MBL** 結合病原表面 **mannose/fucose**；ficolin 結合 acetylated sugars | C3b 結合病原表面（或 C3 自發水解 C3(H₂O)） |
+| 啟動 | **C1q** 結合 Ag 或 **Ag-Ab（IgM、IgG1–3）** | **MBL**（mannose-binding lectin） 結合病原表面 **mannose/fucose**；ficolin 結合 acetylated sugars | C3b 結合病原表面（或 C3 自發水解 C3(H₂O)） |
 | 酵素 | **C1qr₂s₂** | **MASP-1、MASP-2**（MASP-3） | **Factor B、Factor D** |
 | 切割 | C4 → C4a + **C4b**；C2 → **C2a**（酵素）+ C2b | 同 classical | C3b + B → C3bB →（D 切）→ **C3bBb** |
 | **C3 convertase** | **C4b2a** | **C4b2a** | **C3bBb**（C3(H₂O)Bb 短命） |
@@ -55,15 +55,15 @@
 <div data-fig="complement"></div>
 
 ## 4. 單核吞噬細胞與 Opsonic receptors ⭐
-Macrophage（血中 monocyte 進入組織發育而成，也是 APC）：opsonic receptor 辨認病原 → 吞入成 phagosome → 與 lysosome 融合成 phagolysosome（酸化，含酵素與 H₂O₂、NO、TNF-α）→ 大部分殘骸排出細胞，**少部分經 MHC II 呈現**。
+Macrophage（血中 monocyte 進入組織發育而成，也是 APC（antigen-presenting cell，抗原呈現細胞））：opsonic receptor 辨認病原 → 吞入成 phagosome → 與 lysosome 融合成 phagolysosome（酸化，含酵素與 H₂O₂、NO、TNF-α）→ 大部分殘骸排出細胞，**少部分經 MHC（major histocompatibility complex，主要組織相容性複合體） II 呈現**。
 
 **四種 opsonic receptors**
 1. **Mannose receptor**（MFR；8 個 C-type lectin domains 辨識 mannose ligand）
-2. **Fc receptor**（FcγRI、II、III 抓 IgG；FcγR on monocyte/neutrophil）
+2. **Fc（fragment crystallizable） receptor**（FcγRI、II、III 抓 IgG；FcγR on monocyte/neutrophil）
 3. **Complement receptor**（CR1–4；CR3、CR4 也是 integrin；CR2 不在吞噬細胞上）
-4. **CD14 + TLR4**（LPS → **LPS-binding protein → CD14 → TLR4**）
+4. **CD14 + TLR4**（LPS（lipopolysaccharide，脂多醣） → **LPS-binding protein → CD14 → TLR4**）
 
-> 不是 opsonic receptor：KIR（NK）、MHC II、CD94、selectin、TCR、CD15（正確是 CD14）。
+> 不是 opsonic receptor：KIR（NK）、MHC II、CD94、selectin、TCR（T cell receptor，T 細胞受體）、CD15（正確是 CD14）。
 
 <div data-fig="phagocytosis"></div>
 
@@ -99,7 +99,7 @@ Macrophage（血中 monocyte 進入組織發育而成，也是 APC）：opsonic 
 
 
 
-### TLR 對照表
+### TLR（Toll-like receptor，類鐸受體） 對照表
 > 百十四共筆標「補充，參考百十三」。TLR 辨識的多是微生物高度保留、脊椎動物沒有的分子；DNA、RNA 例外，另有機制區分自體與微生物。
 | TLR | 位置 | Ligand |
 |---|---|---|
@@ -122,10 +122,10 @@ Macrophage（血中 monocyte 進入組織發育而成，也是 APC）：opsonic 
 - 簡介：偵測並消滅藏在細胞內的病原或不正常細胞（腫瘤）；主要由 Tc、NK 執行，有時 myeloid cell 也可以。
 - NK 活化受體：**CD2、CD16、CD69**。
 - NK **抑制性受體**：
-  - **CD94/NKG2A**（有 **ITIM**）↔ **HLA-E**（與 CD94 配對的 MHC class I）；CD94/NKG2C 無 ITIM → 非抑制性。
+  - **CD94/NKG2A**（有 **ITIM**（immunoreceptor tyrosine-based inhibitory motif））↔ **HLA-E**（與 CD94 配對的 MHC class I）；CD94/NKG2C 無 ITIM → 非抑制性。
   - **KIR-2D、KIR-3D（long tail，有 ITIM）** ↔ **HLA-C**；short tail 無 ITIM → 非抑制性。
   - ⚠️ HLA-E / HLA-C 是 **ligand**，不是 receptor。
-- 紅血球**無 MHC I**（無核）。腫瘤逃避 CTL：**降低 MHC I**（但逃不過 NK）。
+- 紅血球**無 MHC I**（無核）。腫瘤逃避 CTL（cytotoxic T lymphocyte，毒殺性 T 細胞）：**降低 MHC I**（但逃不過 NK）。
 
 <div data-fig="tc-vs-nk"></div>
 
@@ -133,7 +133,7 @@ Macrophage（血中 monocyte 進入組織發育而成，也是 APC）：opsonic 
 
 ### 三種毒殺方式（Tc、NK 共通）
 1. **Direct**：FasL ↔ **Fas（CD95）** → apoptosis
-2. **Cytokines**：**TNF、lymphotoxin（LT）**
+2. **Cytokines**：**TNF（tumor necrosis factor，腫瘤壞死因子）、lymphotoxin（LT）**
 3. **Granules**：**perforin**（需 Ca²⁺，在目標細胞膜形成**跨膜孔洞**）+ **granzymes**（經孔洞進入 → 誘發凋亡）
    - Perforin 與補體 **C9** 同源：兩者都在膜上聚合成孔，perforin → apoptosis，MAC → osmotic lysis（見 T cell activation 章「跨膜孔洞」圖）。
 
@@ -147,11 +147,11 @@ Macrophage（血中 monocyte 進入組織發育而成，也是 APC）：opsonic 
 | **ILC2** | **IL-4、IL-5、IL-13** | 寄生蟲、組織修復、**氣喘** |
 | ILC3 | IL-17、IL-22 | 胞外細菌 |
 
-- 無抗原專一性受體，活化不是靠辨識特定抗原。NK、ILC1 屬性相近（清除病毒、胞內病原）；ILC2 對抗胞外寄生蟲；ILC3 對抗胞外細菌（老師要大家去看 ILC 影片）。
+- 無抗原專一性受體，活化不是靠辨識特定抗原。NK、ILC1 屬性相近（清除病毒、胞內病原）；ILC2 對抗胞外寄生蟲；ILC3 對抗胞外細菌（老師要大家去看 ILC（innate lymphoid cell，先天性淋巴細胞） 影片）。
 
 ## 🎙️ 上課錄影重點（李岳倫，09/18）
 - 時間軸：innate 十幾個小時內就發生；adaptive（B 產抗體、T 分化成 effector）要 **5–7 天**。
-- **白血球遷移三部曲**：白血球在大血管流很快，到**小靜脈**流速變慢 → ① **tethering**（selectin 抓住：E / P-selectin 在內皮，抓白血球上的醣類 ligand，如 neutrophil 的 **CD15**；L-selectin 在白血球、ligand 在內皮）→ ② **triggering**（內皮或受傷組織釋放 chemokine；**被抓住的細胞要有對應 chemokine receptor 才會反應**）→ ③ **latching**（integrin：**LFA-1、CR3** 結合 **ICAM-1** → 完全停下、從內皮縫隙鑽出）。順序 **selectin → chemokine → integrin**（課堂題答案 C）。
+- **白血球遷移三部曲**：白血球在大血管流很快，到**小靜脈**流速變慢 → ① **tethering**（selectin 抓住：E / P-selectin 在內皮，抓白血球上的醣類 ligand，如 neutrophil 的 **CD15**；L-selectin 在白血球、ligand 在內皮）→ ② **triggering**（內皮或受傷組織釋放 chemokine；**被抓住的細胞要有對應 chemokine receptor 才會反應**）→ ③ **latching**（integrin：**LFA-1（lymphocyte function-associated antigen 1）、CR3** 結合 **ICAM-1** → 完全停下、從內皮縫隙鑽出）。順序 **selectin → chemokine → integrin**（課堂題答案 C）。
 - Chemokine receptor 配對例：Th1 / macrophage 的 **CCR5 ↔ MIP-1β**；Th2 / eosinophil / basophil 的 **CCR3 ↔ eotaxin**；neutrophil 的 **CXCR1 / CXCR2 ↔ IL-8**、GRO。
 - Integrin = α + β 鏈**非共價**結合；配體關係是**一對多**（LFA-1 認 ICAM-1/2/3；CR3 認 ICAM-1、**C3b、C4b**；ICAM-1 也被 LFA-1、CR3 認）→ 細胞交互作用不是一對一。
 - **補體**：肝臟製造、**30 種以上**的血清蛋白。**三大功能「一定要知道」**：溶解（打洞）、趨化（像香水吸引吞噬細胞）、調理。
@@ -193,7 +193,7 @@ Macrophage（血中 monocyte 進入組織發育而成，也是 APC）：opsonic 
 | MAC 組成 C5b-9 | 5 | 常把 C5b 改成 C5a / C3b |
 | NK 抑制性受體 CD94/NKG2A、KIR-long | 7 | 「Inhibitory receptor on NK」→ 小心 HLA-E 是 ligand |
 | TLR4 ↔ LPS | 6 | 「LPS 的受器」、「TLR4 recognizes endotoxin」 |
-| Opsonic receptors | 6 | 「Not an opsonic receptor」→ KIR / MHC II / CD15 |
+| Opsonic receptors | 6 | 「Not an opsonic receptor」→ KIR（killer-cell immunoglobulin-like receptor） / MHC II / CD15 |
 | 三步驟遷移順序 | 4 | selectin → chemokine → integrin |
 | Tc 毒殺機制 | 4 | IFN-γ 無直接關聯 |
 | ILC | 3 | ILC1 對抗「胞內」 |

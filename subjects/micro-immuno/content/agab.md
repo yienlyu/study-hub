@@ -2,9 +2,9 @@
 # 抗原、抗體與抗體多樣性（依百十四共筆整理、對照百十三共筆，李岳倫）
 
 ## 1. 抗原
-- 定義：能被 **B 細胞的 Ig receptor 或 T 細胞的 TCR** 辨識的物質。
+- 定義：能被 **B 細胞的 Ig receptor 或 T 細胞的 TCR**（T cell receptor，T 細胞受體） 辨識的物質。
 - 類型：**exogenous**（多數，吸入／食入／注射／傷口，如微生物）、**endogenous**（自體細胞製造但不該出現，如病毒顆粒、成熟體細胞的端粒酶片段）、**autoantigen**（自體正常產物，如 DNA polymerase 片段；辨識它的 T 細胞應在胸腺被移除）。
-- BCR = B 細胞膜上型 Ig，可辨識游離抗原；TCR 只辨識與 MHC 結合成複合體的抗原。
+- BCR（B cell receptor，B 細胞受體） = B 細胞膜上型 Ig，可辨識游離抗原；TCR 只辨識與 MHC（major histocompatibility complex，主要組織相容性複合體） 結合成複合體的抗原。
 - 抗體可辨識 **linear（continuous）或 conformational（discontinuous）** epitope；TCR 只辨識 **linear peptide + MHC**。
 
 | | B 細胞 | T 細胞 |
@@ -28,7 +28,7 @@
 
 - 木瓜酶切：**Fab**（結合抗原）、**Fc**（結合 FcR、補體）。
 - 抗體 = B 淋巴球製造的**醣蛋白**：**膜上型（m-Ig）**IgM、IgD 當 BCR；**分泌型（s-Ig）**由 plasma cell 分泌。
-- 分泌型三功能：**Complement activation**（結合抗原後活化 C1 → classical pathway；吞噬細胞以 CR 抓 C3b／C4b）、**Opsonization**（IgG Fc ↔ **FcγR**）、**Neutralization**（抓住外毒素，阻止傷害標的細胞）。
+- 分泌型三功能：**Complement activation**（結合抗原後活化 C1 → classical pathway；吞噬細胞以 CR 抓 C3b／C4b）、**Opsonization**（IgG Fc（fragment crystallizable） ↔ **FcγR**）、**Neutralization**（抓住外毒素，阻止傷害標的細胞）。
 
 <div data-fig="ab-functions"></div>
 
@@ -53,7 +53,7 @@
 <div data-fig="iga-transport"></div>
 
 - 人類血中 IgA 約 **80% 是 monomer**（多數其他哺乳類以 dimer 為主）；血清 IgA1 占優勢（≈ 10:1），腸道（尤其 colon）IgA2 比例顯著增加。
-- **TGF-β 促進 IgA class switch**（不是 IL-12）。
+- **TGF-β（transforming growth factor-β） 促進 IgA class switch**（不是 IL-12）。
 - 新生兒保護：**IgG（胎盤）+ IgA（母乳）**。
 - 疫苗第二劑後快速出現的是 **IgG**（memory B）；初次反應第 5 天還不會有大量 IgM。
 
@@ -82,25 +82,25 @@
 | 分子 | 功能 |
 |---|---|
 | **RSS**（heptamer–12/23 spacer–nonamer） | 重組訊號，**12/23 rule** |
-| **RAG-1 / RAG-2** | 辨識 RSS、切斷 DNA、形成 **hairpin** |
+| **RAG-1 / RAG-2** | 辨識 RSS（recombination signal sequence，重組訊號序列）、切斷 DNA、形成 **hairpin** |
 | **Artemis（DNA-PK）** | **打開 hairpin → P-nucleotides（回文）** |
-| **TdT** | **不需模板**隨機加入 **N-nucleotides**（不是「辨識 / 標記 DNA 斷點」） |
+| **TdT**（terminal deoxynucleotidyl transferase） | **不需模板**隨機加入 **N-nucleotides**（不是「辨識 / 標記 DNA 斷點」） |
 | Exonuclease | 移除未配對鹼基 |
 | **DNA ligase IV** | 接合 |
 
 - 加入核苷酸數非 3 的倍數或產生 stop codon → B 細胞無功能而死亡。
-- Somatic hypermutation：抗原刺激後約第 6 天開始點突變；第 8–16 天 affinity maturation，壞突變的 B 細胞凋亡、高親和力者擴增。**只有 B 細胞**有（T 細胞沒有）。
+- Somatic hypermutation：抗原刺激後約第 6 天開始點突變；第 8–16 天 affinity maturation，壞突變的 B 細胞凋亡（apoptosis）、高親和力者擴增。**只有 B 細胞**有（T 細胞沒有）。
 
 ## 🎙️ 上課錄影重點（李岳倫，09/23）
 - 老師定調：Part 1–2（抗原、五種抗體）「輕鬆上」；**Part 3 多樣性六大機制最複雜**，「國考一定會考」。
 - **B vs T 認抗原**：B「大而化之、有容乃大」——直接以 BCR 結合、**可認水溶性抗原**、不需 MHC、可認蛋白 / 多醣 / 脂質、epitope **親水**、可連續或不連續（立體）；T「比較挑剔」——需 MHC 呈現、**不認水溶性抗原**、多為蛋白、只認**線性連續** peptide。
-- **抗體三大功能**：**中和、調理、活化補體**。⚠️ 別和**補體三大功能（溶解、趨化、調理）**搞混。中和例：抗體結合外毒素 → 毒素無法結合細胞受體 → 再被吞噬細胞經 Fc receptor 清除。
+- **抗體三大功能**：**中和、調理、活化補體**。⚠️ 別和**補體三大功能（溶解、趨化（chemotaxis）、調理）**搞混。中和例：抗體結合外毒素 → 毒素無法結合細胞受體 → 再被吞噬細胞經 Fc receptor 清除。
 - Light chain = κ 或 λ；hinge region 讓抗體可以「歪頭、彎身體」抓抗原（flexibility）。國考考過：**抗體認抗原的位置 = V domain**。
 - **抗體命名（IgM、IgG3…）由 heavy chain 的 C 基因決定**：Cμ → μ chain → IgM；Cδ → IgD；Cγ3 → IgG3。⚠️ 基因上的 V（V、D、J 片段）和蛋白質上的 V domain 不要搞混。
 - **B 細胞發育（國考考過，要熟圖）**：成人在 **bone marrow**、胎兒在 **liver**；pre-B 先重組 **heavy chain（μ）** → immature B 再重組 light chain → 表面 **mIgM** → mature B 經 **RNA splicing** 同時表現 **mIgM + mIgD** → 遇抗原活化，在次級淋巴器官（如脾）分化成分泌 IgM 的 plasma cell → **class switching** → IgG / IgA / IgE；plasma cell 壽命短，一部分變 memory B。課堂題：V region recombination 發生在 bone marrow。
 - **IgM**：pentamer（J chain = Fc-linking polypeptide）；Cμ 有 4 個 → **沒有 hinge**；約占 **10%**；初次反應主角；太大不易出血管 → **80% 在血管內**；classical pathway activator。
 - **IgD**：老師說「**我考試從來沒有考過 IgD**」；分泌型 < 1%，主要是膜型；有 hinge。
-- **IgG（國考常考）**：Fab（含 V domain、結合抗原）vs Fc（吞噬細胞 FcR 抓的地方；**補體抓抗體也是抓 Fc**，考過）；占 **70–75%**，IgG1 最多；二次反應主角；血管內外**各半**；活化 classical pathway；**唯一能通過胎盤** → 新生兒帶有母親 IgG（被動免疫）。
+- **IgG（國考常考）**：Fab（含 V domain、結合抗原）vs Fc（吞噬細胞 FcR 抓的地方；**補體抓抗體也是抓 Fc**，考過）；占 **70–75%**，IgG1 最多；二次反應主角；血管內外**各半**；活化 classical pathway；**唯一能通過胎盤** → 新生兒帶有母親 IgG（被動免疫（passive immunity））。
 - **IgA**：dimer 靠 J chain；**secretory component** 由上皮細胞製造：dimer IgA 被上皮的 **poly-Ig receptor** 抓住 → endocytosis → 運到對側時受體裂解，留下的片段黏在 IgA 上 → **保護 IgA 不被口腔、腸道蛋白酶分解**。占 15–20%；人類分泌型 IgA **80% 是 monomer**（多數哺乳類以 dimer 為主）；**IgA1** 在鼻液、淚液、唾液、母乳、血清；**IgA2** 在腸道。課堂題：促進 class switch 到 IgA 的 cytokine = **TGF-β**；IgA–Ag complex **不會**啟動 classical pathway（IgG、IgM 才會）。
 - **IgE**：Cε 有 4 個 → **沒有 hinge**（與 IgM 同）；健康人血中幾乎測不到，只有**寄生蟲感染**或**過敏體質**才產生；結合 basophil / mast cell 上的 **FcεRI** → 再次接觸過敏原 **cross-link** 相鄰 IgE → **degranulation**（histamine、leukotrienes、prostaglandin）→ 過敏反應。
 - 摘要：含量最高 IgG、最低 IgE；分子量最大 IgM、其次 dimer IgA。
@@ -128,7 +128,7 @@
 - IgE（scarce、FcεRI on basophils / mast cells、parasites & allergy）。
 - Physicochemical properties & functions table。
 - 六大多樣性機制；κ chain（35 functional genes）、heavy chain（50 functional V、D-J → V-DJ）；**課堂題 4**：基因重組起始步驟 = **重鏈 D-J**。
-- Assorted chains、gene conversion（chicken）、junctional diversity（RSS/RAG → DNA-PK/Artemis → P-nt → TdT N-nt）；**課堂題 5**：錯誤為 **TdT「可標記 DNA 斷裂點」**。
+- Assorted chains、gene conversion（chicken）、junctional diversity（RSS/RAG（recombination-activating gene） → DNA-PK/Artemis → P-nt → TdT N-nt）；**課堂題 5**：錯誤為 **TdT「可標記 DNA 斷裂點」**。
 - Somatic hypermutation & affinity maturation；**課堂題 6**：B 細胞；**課堂題 7**：不包括 **gene cross-over**。
 
 === exam ===
@@ -138,7 +138,7 @@
 1. **IgA**：黏液 / 唾液 / 淚液、抑制流感入侵呼吸道、secretory component 由上皮製造、poly-Ig receptor（出 6+ 次）。
 2. **IgE**：過敏、氣喘、寄生蟲、FcεRI（5+ 次）。
 3. **IgM**：pentamer、J chain、初次反應、current infection、最佳補體活化者、IgM 不是 dimer。
-4. **IgG**：唯一過胎盤、次級反應、血清最多、活化補體。
+4. **IgG**：唯一過胎盤、次級反應（secondary response）、血清最多、活化補體。
 5. **多樣性機制**：「不包括」gene cross-over；CDR3 變異最大；somatic mutation 在成熟 B 被活化時。
 6. **Allelic exclusion 順序 μ → κ → λ**；κ 成功則抑制 λ。
 7. **Class / subclass 由 heavy chain 決定**（不是 light chain）。

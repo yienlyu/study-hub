@@ -11,5 +11,69 @@
     "explain": "長期饑餓的人體內會有較多的酮體，酮體主要有 β-hydroxybutyrate、acetoacetate、acetone。而 β-hydroxybutyrate 的增加比 acetoacetate 更顯著，因其為主要產生能量者。"
    }
   }
+ },
+ "subjects/micro-immuno/data/questions-new.json": {
+  "fields": {
+   "new-011": {
+    "topics": [
+     "DNA 複製與基因表現",
+     "Operon 基因調控"
+    ]
+   },
+   "new-012": {
+    "topics": [
+     "DNA 複製與基因表現",
+     "Operon 基因調控"
+    ]
+   },
+   "new-018": {
+    "explain": "B. subtilis：乾熱、ETO；B. pumilus：radiation；B. stearothermophilus：濕熱。\nRadiation 指的是游離輻射（γ ray）滅菌，B. pumilus 對輻射抗性高，所以拿來當指示劑。"
+   },
+   "new-019": {
+    "explain": "(A) 正確：glutaraldehyde 是 high-level 消毒劑，延長浸泡時間可殺芽孢（sporicidal），屬化學滅菌劑（cold sterilization）。\n(B) 錯誤 → 選 B：glutaraldehyde 要在鹼性才活化（2% + 0.3% NaHCO₃），不是酸性；活化後保存 14 天。\n(C) 正確：會被有機物（血液、黏液）失活，所以器械要先清洗乾淨再浸泡。\n(D) 正確：endoscopes 是內視鏡（不是 endospores 芽孢）。內視鏡不耐高溫，臨床上最常泡 glutaraldehyde／OPA，泡完要用清水沖乾淨。",
+    "options": [
+     {
+      "k": "A",
+      "t": "It is a high-level, sporicidal agent"
+     },
+     {
+      "k": "B",
+      "t": "It is more active at acidic pH"
+     },
+     {
+      "k": "C",
+      "t": "It is inactivated by organic material, so items must be cleaned first"
+     },
+     {
+      "k": "D",
+      "t": "It is commonly used to disinfect endoscopes（內視鏡）"
+     }
+    ]
+   },
+   "new-020": {
+    "explain": "Chlorhexidine：0.2% 漱口、0.4% 刷手、2% 消毒；屬 biguanide。\nBiguanide（雙胍類）帶正電、破壞細菌細胞膜；殺 G+ 與 G− 但不殺芽孢，常與 povidone-iodine 交替使用。"
+   },
+   "new-071": {
+    "explain": "活化後的 effector T 細胞不再需要共刺激（Fig 9.29）。B7 搶奪戰見 Fig. 18：活化初期 B7 接 CD28 → IL-2、CD25（A 對）；活化後期 CTLA-4 以 >20 倍親和力搶走 B7 → 關掉活化（B 對）。",
+    "figs": [
+     "b7-competition"
+    ]
+   },
+   "new-076": {
+    "explain": "TI-2 = polymeric（重複單位）分子，如莢膜多醣：靠大量交聯 BCR 直接活化 B 細胞，不需 T 細胞幫忙。沒有 TFH → 沒有 CD40L 訊號 → 不能 class switch、沒有 affinity maturation、記憶很差，主要產生 IgM → 選 B。\n(A) 強記憶、IgG 為主是 TD 抗原的特徵。(C) CD40–CD40L 是 TD 抗原的 signal ②。(D) 多醣無法切成 peptide，不能放上 MHC II 給 TFH，只有蛋白質抗原才走這條路。\n延伸：嬰兒 TI-2 反應未成熟 → 易受莢膜菌（肺炎鏈球菌）感染；conjugate vaccine 把多醣接上蛋白質 → 變成 TD 抗原。\n📍 筆記 tcell-act.md「5. B 細胞活化：TD vs TI 抗原」對照表；Slides p.31 Fig 10.2、p.32 T-independent Ag induce poor memory。",
+    "figs": [
+     "ti-td-antigen",
+     "ti-poor-memory"
+    ]
+   },
+   "new-116": {
+    "explain": "Fig 9.33：Treg 以 TGF-β、IL-10 抑制免疫反應，針對自身與共生菌抗原；毒殺是 CTL 的工作。\n📍 筆記：「1. Signal ③：cytokine 決定 CD4 TH 分化」TH 亞群表：TH1 → 胞內病原、活化 macrophage；TH2 → 寄生蟲（helminth）。"
+   },
+   "new-119": {
+    "figs": [
+     "granzyme-apoptosis"
+    ]
+   }
+  }
  }
 }

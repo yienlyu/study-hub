@@ -43,7 +43,7 @@
 ## 5. 突變
 - 生物基因變化三途徑：**基因縮減**（胞內菌、內共生菌刪掉宿主已代勞的基因）、**水平交換**、**突變／重排**。
 - 定義：穩定、可遺傳的 DNA 改變。自發率約 **10⁻⁹（E. coli）**；mutator genes 破壞修復而增加突變率。
-- 外因：物理（UV → **pyrimidine dimer**、X-ray）、化學（DNA-reactive、**base analogues**、**intercalating agents → frameshift**）。
+- 外因：物理（UV（ultraviolet，紫外線） → **pyrimidine dimer**、X-ray）、化學（DNA-reactive、**base analogues**、**intercalating agents → frameshift**）。
 - DNA 層級：substitution（**transition**：嘌呤↔嘌呤 / 嘧啶↔嘧啶；**transversion**：嘌呤↔嘧啶）、insertion/deletion。
 - 蛋白層級：**silent**（同 aa，密碼子簡併）、**missense**（aa 改變；conservative 如 Val→Ala）、**nonsense**（stop codon → 截短）、**frameshift**（之後全錯）→ 可造成 **null mutation**。
 - 🧮 **計算題技巧**：第 n 個核苷酸屬於第 ⌈n/3⌉ 個密碼子。
@@ -51,7 +51,7 @@
   - 3 個 nt deletion at 121–123：剛好是第 41 個密碼子 → **只少第 41 個 aa**，其餘不變（in-frame）。
 - 修復（百十四共筆註明上課沒講）：**direct**（酵素直接還原，如 **photolyase**）、**excision**（切掉受損段、用對面股重做）、**recombinational**（先跳過受損處，之後從姊妹染色體補）、**error-prone**（沒有模板也先亂塞核苷酸接起來，走投無路的方法）。
 
-## 6. 水平基因轉移（HGT）
+## 6. 水平基因轉移（HGT（horizontal gene transfer，水平基因轉移））
 
 | 方式 | 媒介 | 是否需接觸 | 關鍵字 |
 |---|---|---|---|
@@ -67,21 +67,21 @@
 <div data-fig="transposon"></div>
 
 - 人體的轉位子大多處於去活化狀態；轉位常造成基因插入、改變表現。
-- 臨床：**MRSA 與 VRE 水平轉移**得到抗 vancomycin 基因（vanA）→ **VRSA / MVRSA**，多重抗藥難治療。
+- 臨床：**MRSA（methicillin-resistant Staphylococcus aureus） 與 VRE（vancomycin-resistant Enterococcus） 水平轉移**得到抗 vancomycin 基因（vanA）→ **VRSA（vancomycin-resistant Staphylococcus aureus） / MVRSA**，多重抗藥難治療。
 - ⚠️ Translation 不是 HGT。
 
 ## 7. 生物技術
 > 老師說生物技術是補充，「考試就不考了」。
 - **Recombinant DNA**：restriction enzyme（細菌抵抗外來 DNA 的第一道防線）切 → agar 電泳純化片段 → **DNA ligase** 接合 → 轉殖回 *E. coli* 繁殖表現。
-- **PCR**：denaturation（90–95°C）→ annealing → extension（~72°C，Mg²⁺）；需 primers、dNTPs、thermostable polymerase、template；指數放大。
+- **PCR**（polymerase chain reaction，聚合酶連鎖反應）：denaturation（90–95°C）→ annealing → extension（~72°C，Mg²⁺）；需 primers、dNTPs、thermostable polymerase、template；指數放大。
 
 <div data-fig="pcr"></div>
 
 - **Sanger**（dideoxy chain-termination）：**ddNTP（缺 3'-OH）終止延長**；四管各加一種 ddNTP → 每段差一個鹼基 → 高解析電泳（越短跑越遠）。**Dye-terminator**：四色螢光 ddNTP＋毛細管電泳＋雷射判讀。
 - **Shotgun sequencing**：分離細菌 DNA → 限制酶切片段 → 放進人工質體 → 定序 → 拼接。
-- **NGS（illumina）**：massive（一次百萬個分子）、parallel、sequencing-by-synthesis；和 Sanger 一樣用終止核苷酸，但每輪後以化學物**回復 3'-OH** 再進行下一輪；帶動**精準醫療**。
+- **NGS（illumina）**：massive（一次百萬個分子）、parallel、sequencing-by-synthesis；和 Sanger 一樣用終止核苷酸（nucleotide），但每輪後以化學物**回復 3'-OH** 再進行下一輪；帶動**精準醫療**。
 - **16S rRNA amplicon sequencing**：9 個變異區 V1–V9，常用 **V3–V4** → 分析菌相組成。
-- **CRISPR-Cas9**：細菌的後天免疫（specific、memory）；spacer 記錄入侵 DNA；crRNA + tracrRNA（→ sgRNA）引導 Cas9 切 DSB；PAM 防止切到自己；修復：**NHEJ → gene disruption**、**HDR → gene editing**（2020 諾貝爾化學獎）。流程：第一次入侵的 DNA 插入 CRISPR 成新 spacer → 再入侵時轉錄 pre-crRNA → 與 tracrRNA、Cas9 結合並切成成熟 crRNA → 互補辨識、Cas9 切割。現況：倫理問題，**不能用於人類胚胎**；動植物已廣泛應用，人體仍在初期試驗，未來可治單基因罕病。
+- **CRISPR-Cas9**：細菌的後天免疫（specific、memory）；spacer 記錄入侵 DNA；crRNA + tracrRNA（→ sgRNA）引導 Cas9 切 DSB；PAM 防止切到自己；修復：**NHEJ → gene disruption**、**HDR → gene editing**（2020 諾貝爾化學獎）。流程：第一次入侵的 DNA 插入 CRISPR（clustered regularly interspaced short palindromic repeats） 成新 spacer → 再入侵時轉錄 pre-crRNA → 與 tracrRNA、Cas9 結合並切成成熟 crRNA → 互補辨識、Cas9 切割。現況：倫理問題，**不能用於人類胚胎**；動植物已廣泛應用，人體仍在初期試驗，未來可治單基因罕病。
 - 應用：大腸桿菌生產 insulin、interferon；表面蛋白疫苗；基因治療。
 
 ## 🎙️ 上課錄影重點（黃姿雯，09/11 + 補充影音）

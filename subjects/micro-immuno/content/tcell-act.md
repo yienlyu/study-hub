@@ -2,16 +2,16 @@
 
 # T 細胞媒介免疫與免疫細胞合作（依百十四共筆整理、對照百十三共筆，陳玫潔）
 
-> 這堂課分兩大段：**① 活化後 T 細胞的反應**（CD8 CTL、CD4 TH 各亞群的功能）**② 免疫反應中的細胞合作**（TI / TD 抗原、T–B 交互作用、affinity maturation、isotype switch）。T 細胞活化的 Signal ①、② 與免疫突觸見上一章。
+> 這堂課分兩大段：**① 活化後 T 細胞的反應**（CD8 CTL（cytotoxic T lymphocyte，毒殺性 T 細胞）、CD4 TH 各亞群的功能）**② 免疫反應中的細胞合作**（TI / TD 抗原、T–B 交互作用、affinity maturation、isotype switch）。T 細胞活化的 Signal ①、② 與免疫突觸見上一章。
 
 ## 0. 免疫耐受與 Treg（老師放 PDF 補充，上課沒講）
-- V(D)J 重組可產生 > 10¹⁵ 種 TCR，必然有自體反應受體（Ehrlich 的「horror autotoxicus」）。
-- **中央耐受**：胸腺負向選擇；**mTEC 表現 AIRE**，開啟組織專一性抗原的表現來檢測。**AIRE 突變 → APS-1（APECED）**。中央耐受不是 100%，部分自體反應 T 會逃到周邊。
-- **周邊耐受**：缺乏共刺激（CD28–CD80/86）→ **anergy**；**tolerogenic DC**。
-- Treg 的發現：1970 年代 suppressor T（CD8、I-J locus）後來被推翻；1969 Nishizuka、Sakakura：出生第 3 天切胸腺（d3Tx）的小鼠出現自體免疫；**1995 Sakaguchi：CD4⁺CD25⁺（IL-2Rα）** 是抑制性 T 的標記（裸鼠輸入去除 CD25⁺ 的 T → 多器官自體免疫，補回即可預防）。
+- V(D)J 重組可產生 > 10¹⁵ 種 TCR（T cell receptor，T 細胞受體），必然有自體反應受體（Ehrlich 的「horror autotoxicus」）。
+- **中央耐受**：胸腺負向選擇（negative selection）；**mTEC（medullary thymic epithelial cell，胸腺髓質上皮細胞） 表現 AIRE**（autoimmune regulator），開啟組織專一性抗原的表現來檢測。**AIRE 突變 → APS-1（APECED）**。中央耐受不是 100%，部分自體反應 T 會逃到周邊。
+- **周邊耐受**：缺乏共刺激（CD28–CD80/86）→ **anergy**；**tolerogenic DC**（dendritic cell，樹突細胞）。
+- Treg（regulatory T cell，調節性 T 細胞） 的發現：1970 年代 suppressor T（CD8、I-J locus）後來被推翻；1969 Nishizuka、Sakakura：出生第 3 天切胸腺（d3Tx）的小鼠出現自體免疫（autoimmunity）；**1995 Sakaguchi：CD4⁺CD25⁺（IL-2Rα）** 是抑制性 T 的標記（裸鼠輸入去除 CD25⁺ 的 T → 多器官自體免疫，補回即可預防）。
 - **Scurfy 小鼠**（X-linked，雄鼠死於多器官自體免疫）→ Brunkow、Ramsdell 定位選殖找到 **Foxp3**（2-bp 插入造成 frameshift）；人類 **FOXP3 突變 → IPEX 症候群**（X-linked，嬰幼兒自體免疫與腸病）；2003 Sakaguchi 證實 Foxp3 專一表現於 Treg。
-- Treg 亞群：**tTreg**（胸腺，FOXP3 最穩定）、**pTreg**（周邊誘導）、**iTreg**（體外 TGF-β＋高劑量 IL-2，較不穩定）。
-- **三大抑制機制**：高表現 **CTLA-4** 搶 CD80/86（細胞接觸）、分泌 **IL-10、TGF-β、IL-35**、高表現 **CD25** 吸光 IL-2（**IL-2 剝奪**）。
+- Treg 亞群：**tTreg**（胸腺，FOXP3 最穩定）、**pTreg**（周邊誘導）、**iTreg**（體外 TGF-β（transforming growth factor-β）＋高劑量 IL-2，較不穩定）。
+- **三大抑制機制**：高表現 **CTLA-4**（cytotoxic T-lymphocyte-associated protein 4） 搶 CD80/86（細胞接觸）、分泌 **IL-10、TGF-β、IL-35**、高表現 **CD25** 吸光 IL-2（**IL-2 剝奪**）。
 
 ## 1. Signal ③：cytokine 決定 CD4 TH 分化 ⭐⭐⭐
 
@@ -20,11 +20,11 @@
 | **TH1**   | IFN-γ、**IL-12**          | T-bet            | **IFN-γ**             | 胞內病原、活化 macrophage   |
 | **TH2**   | **IL-4**                  | GATA3            | **IL-4、IL-5、IL-13** | 寄生蟲（helminth）          |
 | **TH17**  | **TGF-β + IL-6**、IL-23   | RORγt            | **IL-17、IL-22**      | **胞外細菌、真菌**          |
-| **TFH**   | **IL-6**（只有 IL-6）¹    | Bcl-6            | **IL-21**             | 幫 B 細胞（幾乎所有微生物） |
+| **TFH**（follicular helper T cell，濾泡輔助 T 細胞）   | **IL-6**（只有 IL-6）¹    | Bcl-6            | **IL-21**             | 幫 B 細胞（幾乎所有微生物） |
 | **pTreg** | **TGF-β + IL-2**          | **FoxP3**        | **TGF-β、IL-10**      | **抑制**免疫反應            |
 
 - ¹ Slide 原圖（Fig 9.34）在 TFH 標「IL-6?」，是課本表示 TFH 的誘導訊號還沒完全確定；老師上課說「**只有 IL-6、沒有其他 → TFH**」。對照：**IL-6 + TGF-β → TH17**。
-- APC 提供三種訊號給 naïve T：MHC II–TCR（①）、B7–CD28（②）、**cytokines IL-6、IL-12、IL-23、IL-4（③）** → activation、proliferation、survival、**differentiation**。
+- APC（antigen-presenting cell，抗原呈現細胞） 提供三種訊號給 naïve T：MHC（major histocompatibility complex，主要組織相容性複合體） II–TCR（①）、B7–CD28（②）、**cytokines IL-6、IL-12、IL-23、IL-4（③）** → activation、proliferation、survival、**differentiation**。
 - **IL-2**：T 細胞生長因子（自分泌），也參與 pTreg 誘導。
 
 <div data-fig="th-fate-cytokines"></div>
@@ -36,7 +36,7 @@
 ### 黏膜組織：同一個 naïve T，pTreg 或 TH17？
 
 - 平常（**microbiota**）：iDC 分泌 **all-trans-retinoic acid（at-RA）** + TGF-β → **pTreg**（老師補充：腸腦軸）。
-- 感染（**opportunistic pathogens**）：TLR 活化的 mDC 分泌 **IL-6** + TGF-β → **TH17**。
+- 感染（**opportunistic pathogens**）：TLR（Toll-like receptor，類鐸受體） 活化的 mDC 分泌 **IL-6** + TGF-β → **TH17**。
 
 <div data-fig="mucosal-treg-th17"></div>
 
@@ -45,7 +45,7 @@
 | 細胞                                                   | 主要 effector 分子                              | 其他                                                |
 | ------------------------------------------------------ | ----------------------------------------------- | --------------------------------------------------- |
 | <span class="nw">**CD8 CTL**（peptide + MHC I）</span> | **Perforin、granzymes、granulysin、Fas ligand** | IFN-γ、LT-α、TNF-α                                  |
-| **TH1**（macrophage 活化）                             | **IFN-γ**、GM-CSF、TNF-α、CD40L、FasL           | IL-3、LT-α、CXCL2                                   |
+| **TH1**（macrophage 活化）                             | **IFN-γ**、GM-CSF（granulocyte-macrophage colony-stimulating factor）、TNF-α、CD40L、FasL           | IL-3、LT-α、CXCL2                                   |
 | **TH2**（barrier immunity）                            | **IL-4、IL-5**、IL-13、CD40L                    | IL-3、GM-CSF、IL-10、TGF-β、CCL11（eotaxin）、CCL17 |
 | **TH17**（barrier immunity、招 neutrophil）            | **IL-17A、IL-17F、IL-22**、CD40L                | IL-3、TNF-α、GM-CSF、CCL20                          |
 | **TFH**（B-cell help）                                 | **IL-21**、IL-4、CD40L                          | TNF-α、LT-α、CXCL13                                 |
@@ -57,8 +57,8 @@
 | Cytokine      | 來源                         | 重點作用                                                                         | Knockout                        |
 | ------------- | ---------------------------- | -------------------------------------------------------------------------------- | ------------------------------- |
 | **IL-2**      | naïve、TH1、部分 CD8         | **T 細胞生長與分化**；B 細胞生長、J chain 合成                                   | ↓T 細胞反應、IBD                |
-| **IFN-γ**     | TH1、TFH、CTL                | **活化 macrophage、↑MHC I/II**；抑制 TH2、TH17 分化；活化 NK；B → IgG2a（小鼠）  | 易感 **mycobacteria**、部分病毒 |
-| LT-α（TNF-β） | TH1、部分 CTL                | 活化 macrophage、產 NO；殺纖維母細胞、腫瘤                                       | **沒有淋巴結**、脾臟結構紊亂    |
+| **IFN-γ**     | TH1、TFH、CTL                | **活化 macrophage、↑MHC I/II**；抑制 TH2、TH17 分化；活化 NK（natural killer，自然殺手）；B → IgG2a（小鼠）  | 易感 **mycobacteria**、部分病毒 |
+| LT-α（TNF-β） | TH1、部分 CTL                | 活化 macrophage、產 NO；殺纖維母細胞、腫瘤                                       | **沒有淋巴結**（lymph node）、脾臟結構紊亂    |
 | **IL-4**      | TH2、TFH                     | **B 活化、IgG1、IgE**、↑MHC II；T 生長存活；↑mast cell                           | **沒有 TH2**                    |
 | **IL-5**      | TH2                          | **eosinophil 生長分化**；小鼠 IgA                                                | eosinophilia 減少               |
 | **IL-13**     | TH2                          | IgG1、IgE switch；**↑mucus（goblet cell）**                                      | 驅蟲受損                        |
@@ -83,7 +83,7 @@
 ### 殺手流程
 
 - **Serial killing（Fig 9.44）**：辨識並結合感染細胞 → 啟動目標細胞死亡（DNA fragmentation）→ **移往下一個目標** → 目標細胞 apoptosis，**旁邊未感染的細胞不會被殺**。
-- 在周邊組織只需要 Signal ①（effector 不需共刺激）。
+- 在周邊組織只需要 Signal ①（effector 不需共刺激（costimulation））。
 
 <div data-fig="ctl-serial-killing"></div>
 
@@ -96,7 +96,7 @@
 
 <div data-fig="ctl-granules"></div>
 
-- ⚠️ 考古（113 #17）：「causes **transmembrane channels** in target cells」→ **perforin**。干擾選項 IL-1（發炎、發燒）、IL-2（T 增殖）、hapten、antigen 都不打洞。補體 **MAC（poly-C9）** 也是跨膜孔，與 perforin 同源，但結果是 osmotic lysis。
+- ⚠️ 考古（113 #17）：「causes **transmembrane channels** in target cells」→ **perforin**。干擾選項 IL-1（發炎（inflammation）、發燒）、IL-2（T 增殖）、hapten、antigen 都不打洞。補體（complement） **MAC（poly-C9）** 也是跨膜孔，與 perforin 同源，但結果是 osmotic lysis。
 
 <div data-fig="perforin-pore"></div>
 
@@ -112,7 +112,7 @@
 
 |               | **TH1**                                                                                      | **TH2**                                                 | **TH17**                                                                  | **TFH**                                                          | **Treg**                                                |
 | ------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------- |
-| 主要 cytokine | **IFN-γ**                                                                                    | **IL-4、IL-5**（骨髓）、**IL-13**（mucus、goblet cell） | **IL-17**（stromal cell → G-CSF、chemokines）、**IL-22**（上皮 → 抗菌肽） | **IL-21**                                                        | **TGF-β、IL-10**                                        |
+| 主要 cytokine | **IFN-γ**                                                                                    | **IL-4、IL-5**（骨髓（bone marrow））、**IL-13**（mucus、goblet cell） | **IL-17**（stromal cell → G-CSF、chemokines）、**IL-22**（上皮 → 抗菌肽） | **IL-21**                                                        | **TGF-β、IL-10**                                        |
 | 被增強的細胞  | **macrophage** → 殺胞內菌                                                                    | **eosinophil**、mast cell、basophil                     | **neutrophil**                                                            | B 細胞 → **isotype switching、affinity maturation**、plasma cell | 作用在 conventional DC → **CD4 T 無法活化**（抑制免疫） |
 | 對付          | 能抵抗 macrophage 殺菌的微生物：**mycobacteria、Listeria、Leishmania、Pneumocystis**；胞外菌 | **Helminth（寄生蟲）**                                  | **胞外細菌**（_Klebsiella pneumoniae_）、**真菌**（_Candida albicans_）   | 幾乎所有微生物                                                   | 自身、共生菌抗原                                        |
 
@@ -140,7 +140,7 @@
 | **IL-13**        | 上皮細胞更新、**mucus**（goblet cell）→ 寄生蟲脫落                   |
 | **IL-13**        | 增加腸道**平滑肌收縮** → 排蟲（上皮分泌＋平滑肌收縮 = **weep and sweep**） |
 | **IL-4 + IL-13** | 招募並活化 **M2 macrophage**（arginase-1）→ 平滑肌收縮、**組織修復** |
-| **IL-5**         | 招募活化 **eosinophil** → MBP 殺蟲、ADCC                             |
+| **IL-5**         | 招募活化 **eosinophil** → MBP 殺蟲、ADCC（antibody-dependent cell-mediated cytotoxicity，抗體依賴性細胞毒殺）                             |
 | IL-3、IL-9       | 招募 **mast cell**；IgE 武裝的 mast cell 釋放 histamine、TNF-α、MMCP |
 
 <div data-fig="th2-helminth"></div>
@@ -159,8 +159,8 @@
 
 |          | **TD（thymus-dependent）**                                               | **TI（thymus-independent）**                                                              |
 | -------- | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
-| 抗原     | **蛋白質**                                                               | **TI-1：polyclonal B-cell activator（LPS）**；**TI-2：polymeric（重複）分子**，如莢膜多醣 |
-| Signal ① | BCR（+ coreceptor **CD21–CD19** 接 C3d）→ PI3K → Ras/MAPK → AP-1、NFAT   | 同樣 BCR → AP-1、NFAT                                                                     |
+| 抗原     | **蛋白質**                                                               | **TI-1：polyclonal B-cell activator（LPS（lipopolysaccharide，脂多醣））**；**TI-2：polymeric（重複）分子**，如莢膜多醣 |
+| Signal ① | BCR（+ coreceptor **CD21–CD19** 接 C3d）→ PI3K → Ras/MAPK → AP-1、NFAT   | 同樣 BCR（B cell receptor，B 細胞受體） → AP-1、NFAT                                                                     |
 | Signal ② | **TFH 的 CD40L ↔ B 的 CD40** → NF-κB（IKK p50/p65；NIK RelB/p100）→ Mcl1 | TI-1：**TLR**（MyD88）→ NF-κB；TI-2：BCR 大量交聯                                         |
 | 結果     | class switch、affinity maturation、**memory**、IgG 為主                  | **主要 IgM、記憶很差**                                                                    |
 
@@ -263,7 +263,7 @@
 
 ## 10. 先天與後天整合：Immune effector modules
 
-| Module        | ILC                                     | T 細胞                   | 效應細胞                                           | 主要結合的抗體                                                          |
+| Module        | ILC（innate lymphoid cell，先天性淋巴細胞）                                     | T 細胞                   | 效應細胞                                           | 主要結合的抗體                                                          |
 | ------------- | --------------------------------------- | ------------------------ | -------------------------------------------------- | ----------------------------------------------------------------------- |
 | **Cytotoxic** | NK（EOMES、T-bet；IL-15、IL-12、IL-18） | **CTL**                  | perforin / granzymes                               | NK：**IgG1、IgG3**（FcγRIII，ADCC）                                     |
 | **Type 1**    | ILC1（T-bet）                           | **TH1**（IL-12）         | **macrophage**（IFN-γ）                            | IgG1、IgG3、IgA                                                         |
@@ -276,20 +276,20 @@
 
 - 開場：**T 細胞不會平白釋出 cytokine 幫別人**，與其他細胞作用通常有專一性辨識。T–B interaction 發生在次級淋巴組織 **T zone 與 B zone 的交界**（像隔著鐵窗），互相交換 chemokine / chemokine receptor、兩者皆活化。
 - **TD vs TI 由抗原材質決定**：沒有蛋白質 → 沒有 peptide 可放上 MHC II → 無法活化 T → **不能 affinity maturation、不能 isotype switch**。V(D)J 重組是亂數、不受調控；**activation 後的優化受 T 細胞 cytokine 調控**。
-- **今天重點 = signal 3**（sensor cell 概念的延續）：APC 初次接觸病原 → PAMP–PRR → 新的轉錄轉譯 → 帶著獨特的 cytokine 到次級淋巴組織，決定 T 細胞分化方向。
+- **今天重點 = signal 3**（sensor cell 概念的延續）：APC 初次接觸病原 → PAMP（pathogen-associated molecular pattern）–PRR（pattern recognition receptor，模式辨識受體） → 新的轉錄轉譯 → 帶著獨特的 cytokine 到次級淋巴組織，決定 T 細胞分化方向。
 - **「這一張請大家背起來：決定命運的 cytokine」（黃色、紅色都要背）**：**IL-12 → TH1（IFN-γ）**；**IL-4 → TH2（IL-4、IL-5）**；**只有 IL-6 → TFH（IL-21，在 follicle 幫 B）**；**TGF-β + IL-2 → pTreg（TGF-β、IL-10，peripheral tolerance）**；**TGF-β + IL-6 + IL-23 → TH17（IL-17，胞外菌）**。TGF-β 是抑制型（癌細胞也會分泌）；IL-2「沒什麼了不起」——活化都需要、沒有選擇性。
 - TH 亞群**沒有 surface marker 可以區分**（曾有人想找 marker 當博士論文，畢業了但沒找到），只能靠分泌的 cytokine。
 - **分化是單行道**（「兩條路在森林裡只能挑一條」）：不能同時走兩條，但環境改變可以轉換；彼此抑制——TH2 的 IL-4 抑制走向 TH1、TH1 的 IFN-γ 抑制 TH2 增殖；Treg「所向披靡、全部抑制」；TH1、TH2 的 cytokine 都會阻止走向 TH17。
 - **腸道例子**：共生菌存在時，周邊的 **immature DC 釋放 all-trans retinoic acid（ATRA）**、只有 TGF-β → **Treg** → 不攻擊共生菌（否則就是內耗；Crohn's disease 是失衡例子；**gut–brain axis** 與 autism spectrum、阿茲海默症有關）；病原來了（「營養午餐禍從口入」）→ TLR 活化 → **mature DC 釋放 IL-6** → TGF-β + IL-6 → **TH17** → 叫大量 neutrophil 吞病原。
-- 功能速記：**TFH**（IL-21、CD40L 幫 B）；**TH17**（IL-17 → neutrophil）；**TH2**（IL-4、IL-5 → 寄生蟲、過敏）；**TH1**（看到 IFN-γ 就想 **macrophage** → 胞內菌如 mycobacteria、_Listeria_）；CD8 不再細分，跟**病毒**等胞內感染有關。
-- **TNF 家族多功能**：淋巴組織 **organogenesis**（LT-α knockout → 淋巴結長不出來、脾臟怪怪的）、免疫細胞交互作用的共刺激（CD40L、4-1BB）、執行細胞凋亡（**FasL**）。早期免疫學大量用 knockout mice（「小時候把爸爸的新玩意弄壞看會喪失什麼功能」）。
+- 功能速記：**TFH**（IL-21、CD40L 幫 B）；**TH17**（IL-17 → neutrophil）；**TH2**（IL-4、IL-5 → 寄生蟲、過敏（allergy））；**TH1**（看到 IFN-γ 就想 **macrophage** → 胞內菌如 mycobacteria、_Listeria_）；CD8 不再細分，跟**病毒**等胞內感染有關。
+- **TNF（tumor necrosis factor，腫瘤壞死因子） 家族多功能**：淋巴組織 **organogenesis**（LT-α knockout → 淋巴結長不出來、脾臟怪怪的）、免疫細胞交互作用的共刺激（CD40L、4-1BB）、執行細胞凋亡（**FasL**）。早期免疫學大量用 knockout mice（「小時候把爸爸的新玩意弄壞看會喪失什麼功能」）。
 - **CD8 / CTL**：naive CD8 在次級淋巴組織被 APC 活化 → 變 effector 後**一定要離開**到周邊（躲在淋巴組織沒用）；在淋巴組織叫 CD8、執行作用時叫 **CTL**。在周邊**只需 signal 1**（target cell 只會「揮舞著 peptide」，沒有 signal 2）。
 - **CD8 活化兩條路**：① **DC**（可 cross-priming）直接活化，釋放 IL-12 等、高 B7（CD28–B7「簡配」）→ CD8 產生大量 **IFN-γ** 也能活化 macrophage（將軍出去打仗也要有小兵）；② **CD4 幫忙**：同一個 APC 用 MHC II 活化 CD4 → CD4 分泌 **IL-2「雨露均霑」**、APC 被活化後 ↑**B7、4-1BBL** → 活化 CD8。⚠️ 這件事**發生在次級淋巴組織、不在周邊**，而且需要很厲害的 APC。
 - **CTL 殺手流程**：只認 signal 1 → 誘發 target **programmed cell death** → **不等它死、馬上找下一個苦主**（serial killing）；正常細胞沒有專一性辨識就不會死。凋亡一旦啟動就「死透了」。
 - **兩種武器都誘發凋亡（cascade 略有不同）**：① granule 往接觸點聚集（螢光超亮）→ **perforin 打洞**、**granzyme（serine protease）**（+ serglycin）送進去 → 粒線體釋放 **cytochrome c** 放大 → **caspase**（到 caspase-3 必死無疑）→ DNase 切碎染色體 → 電泳 **DNA laddering**；② **FasL** 較快、不需 cytochrome c。
 - **Bcl family**：名字聽起來像詛咒的 **Bax、Bid → 促凋亡**；聽起來和緩的 **Bcl-2、Bcl-xL → 抗凋亡**（「記不起來就算了」）。
 - 「如果後面細節無法承受，**至少看一下那張 summary 圖**」：
-  - **TH1 → M1 macrophage**：IFN-γ + **CD40L–CD40** → 吞噬更強（ROS、NO↑）、**MHC 與共刺激分子↑**（更好的 APC）、更多 cytokine → 回饋活化 TH1。M2 與組織修復有關（腫瘤中也有）。
+  - **TH1 → M1 macrophage**：IFN-γ + **CD40L–CD40** → 吞噬更強（ROS（reactive oxygen species，活性氧）、NO↑）、**MHC 與共刺激分子↑**（更好的 APC）、更多 cytokine → 回饋活化 TH1。M2 與組織修復有關（腫瘤中也有）。
   - **TH2**：IL-4、IL-13 → **M2 macrophage（arginase-1 定義）** → tissue remodeling / repair；**IL-5 → eosinophil**（殺寄生蟲、**ADCC**「借刀殺人」）；**IL-13** → 上皮修復、**goblet cell 產 mucus**、上皮 turnover 加快（寄生蟲勾不住）、**平滑肌收縮把蟲擠出去**（所以寄生蟲感染會肚子痛）；活化 **mast cell degranulation**（histamine）。cytokine 也作用在骨髓，像 Star Wars 的**複製人軍隊**大量產出特定顆粒球。
   - **TH17**：胞外菌、真菌（_Candida_）；IL-17 → 骨髓 stromal cell 產 **G-CSF** → neutrophil 變多（複製人軍團「戴白帽子」）；IL-17 讓上皮產 **chemokine** 把 neutrophil 叫到該去的地方；**IL-22** → 上皮 turnover、IL-17 / IL-22 → **antimicrobial peptides**；**CCL20**（對應 chemokine receptor）。
   - **Treg**：抑制性 cytokine 關掉所有免疫反應 → tolerance；老師「沒有打算講」。
@@ -300,7 +300,7 @@
 - **AID（activation-induced cytidine deaminase）**：把 **C 變成 U** → 修復時換掉一個 nucleotide → codon 改變 → V region 點突變（SHM）；也誘發 **constant region** 的 class switch；由 **IL-4 + CD40 ligation**（T 細胞協助）誘導。
 - **IgM → IgD 不是 DNA 重組**（μ 與 δ 之間沒有 switch region）→ 是 **differential RNA splicing**（不需活化，早期就能做）；**membrane form → secreted form 也是 RNA 層級**（保留 secreted leader / membrane exon）。其他 isotype 是 **DNA 層級的 class switch recombination**：不同 cytokine 讓不同 switch region 轉錄出特殊 RNA，形成 **G-quadruplex（四個 G 的小盒子）** 引導 AID 去切（細部機制還不清楚）。酵素細節「略懂即可」。
 - **Cytokine → isotype 表「只能無奈地了解它、接受它」**：例如 **IL-4 → IgG1、IgE**；**IFN-γ → IgG3、IgG2a**（以小鼠為主，小鼠 IgG subtype 和人不同）。
-- **抗體反應四期**：lag（病原要漂到最近的淋巴結或脾臟、被吞噬、活化 B）→ 指數上升（membrane form 立刻變 secretory form）→ plateau → decline（plasma cell 壽命有限、抗體有半衰期）；二次反應**沒有 lag phase**、以 IgG 為主。Memory cell 在廣島、長崎倖存者身上 **30–40 年**後仍找得到。疫苗讓你先經歷這段過程（小黃卡上的公費疫苗都是致死或嚴重傷殘的疾病，如**麻疹**可能造成 retardation）。
+- **抗體反應四期**：lag（病原要漂到最近的淋巴結或脾臟（spleen）、被吞噬、活化 B）→ 指數上升（membrane form 立刻變 secretory form）→ plateau → decline（plasma cell 壽命有限、抗體有半衰期）；二次反應**沒有 lag phase**、以 IgG 為主。Memory cell 在廣島、長崎倖存者身上 **30–40 年**後仍找得到。疫苗讓你先經歷這段過程（小黃卡上的公費疫苗都是致死或嚴重傷殘的疾病，如**麻疹**可能造成 retardation）。
 - **Immune effector module**：ILC / NK 在感染初期分泌的 cytokine（IFN-γ、IL-5 / IL-13、IL-17 / IL-22）和之後 TH1 / TH2 / TH17 的**一模一樣**（「同出一轍」）→ innate 非常重要，只是沒有抗體、活化強度較弱。Type 2 → eosinophil、IgE（黏膜 / 寄生蟲）；type 3 → neutrophil、IgG1、IgA；type 1 → macrophage、IgG1 / G3；cytotoxic → 類似 NK。
 
 === slides ===
@@ -379,7 +379,7 @@
 - **AID：C → U，由 IL-4 + CD40 誘導**；UNG、APE1、mismatch repair 各自導致的結果。
 - **IgM/IgD 是 RNA splicing、其他 isotype 是 DNA 重組**；switch region RNA 的 G-quadruplex 引導 AID。
 - **Cytokine → isotype 表**，注意 slides 版本 **IL-21 → IgG3、IgG1、IgA**。
-- **Immune effector modules** 與各 Fc receptor 結合的 isotype（mast cell / basophil = IgE）。
+- **Immune effector modules** 與各 Fc（fragment crystallizable） receptor 結合的 isotype（mast cell / basophil = IgE）。
 
 ## 📝 出題模式
 

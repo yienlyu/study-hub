@@ -6469,7 +6469,7 @@
     "num": 2,
     "chapter": "staph-strep",
     "type": "mcq",
-    "stem": "A 60-year-old woman is hospitalized following a stroke and develops a high-grade fever with chills. She is catheterized due to urine incontinence and receives cephalosporin for treatment of pneumonia. Blood cultures and Gram stain are performed by the laboratory. Organisms isolated are catalase-negative gram\u0002positive cocci that are capable of growth in 6.5% sodium chloride and resistant to. Vancomycin. Which of the following is the most likely causal agent?",
+    "stem": "A 60-year-old woman is hospitalized following a stroke and develops a high-grade fever with chills. She is catheterized due to urine incontinence and receives cephalosporin for treatment of pneumonia. Blood cultures and Gram stain are performed by the laboratory. Organisms isolated are catalase-negative gram-positive cocci that are capable of growth in 6.5% sodium chloride and resistant to vancomycin. Which of the following is the most likely causal agent?",
     "options": [
       {
         "k": "A",
@@ -6493,7 +6493,7 @@
       }
     ],
     "answer": ["A"],
-    "explain": "關鍵字：catalase positive, resistant to vancomycin\n(B)(C)都是 catalase-positive，所以可以先刪去。(A)(D)(E)都是 catalase-negative 且 gram-positive，而urine incontinence 代表泌尿道那邊被感染且對 vancomycin 有抗藥性，符合特徵的為腸球菌屬(Enterococcus)",
+    "explain": "關鍵字：catalase-negative、6.5% NaCl 可生長、resistant to vancomycin\n(B)(C) 葡萄球菌都是 catalase-positive，先刪去。(A)(D)(E) 都是 catalase-negative 的 G(+) 球菌，其中能在 **6.5% NaCl**（和膽鹽、bile-esculin）中生長的只有腸球菌，鏈球菌（GAS、viridans）不行。再加上住院、導尿管（院內 UTI 是腸球菌最常見的感染）、用過 cephalosporin（腸球菌天生抗 cephalosporin）、對 vancomycin 抗藥（VRE，_E. faecium_ 比 _E. faecalis_ 更抗藥）→ (A) _Enterococcus faecium_。",
     "topics": ["S. aureus", "S. pyogenes (GAS)", "Enterococcus／Viridans"],
     "pattern": "臨床情境題"
   },

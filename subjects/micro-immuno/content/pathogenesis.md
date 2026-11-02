@@ -19,17 +19,17 @@
 | Sexual | *N. gonorrhoeae* |
 
 ## 3. 感染步驟
-1. **Adherence（第一步）**：宿主 receptor（醣或胜肽）＋ 細菌 **adhesin**（如 fimbriae 尖端結合宿主 lectin）；biofilm 需足夠菌量 → **quorum sensing**。
+1. **Adherence（第一步）**：宿主 receptor（醣或胜肽（peptide））＋ 細菌 **adhesin**（如 fimbriae 尖端結合宿主 lectin）；biofilm 需足夠菌量 → **quorum sensing**。
 2. **Invasion**：誘導宿主吞入，分兩種：**zipper mechanism**（多個 adhesin 同時黏住多個受體 → 宿主胞吞）與 **trigger mechanism**（注入 effector 改變宿主骨架把菌包入）；**Type III secretion system（T3SS）** 注入 effector → actin polymerization：促進吞入（*Salmonella*）、胞內移動與傳給鄰細胞（*Shigella*、*Listeria*）；經 **M cell** 入侵（*Salmonella*、*Shigella*、*Yersinia*）。
 3. **組織破壞**：代謝產物（酸、氣體）、降解酶（phospholipase C、collagenase、protease、hyaluronidase）。
 
 ## 4. 毒素
 | | Exotoxin | Endotoxin |
 |---|---|---|
-| 本質 | **蛋白質** | **LPS 的 Lipid A**（LOS） |
-| 來源 | G+、G− 皆可；基因常在 **plasmid、lysogenic phage** 或染色體 | 只有 **G−** 外膜 |
+| 本質 | **蛋白質** | **LPS（lipopolysaccharide，脂多醣） 的 Lipid A**（LOS（lipooligosaccharide，脂寡醣）） |
+| 來源 | G+、G− 皆可；基因常在 **plasmid、lysogenic phage** 或染色體 | 只有 **G−** 外膜（outer membrane） |
 | 釋放 | 分泌 | 菌體死亡裂解 |
-| 作用 | 專一（cytotoxin、neurotoxin、enterotoxin） | CD14 + **TLR4** → IL-1、TNF-α、IL-6 → **發燒、敗血性休克、DIC** |
+| 作用 | 專一（cytotoxin、neurotoxin、enterotoxin） | CD14 + **TLR4** → IL-1、TNF-α、IL-6 → **發燒、敗血性休克（septic shock）、DIC**（disseminated intravascular coagulation，瀰漫性血管內凝血） |
 | 偵測 | — | **LAL assay（鱟血 amebocyte 凝集）** |
 
 - **Cytotoxins**：α-toxin（phospholipase C，*C. perfringens*）、hemolysins、**diphtheria toxin（A-B，抑制蛋白合成）**。
@@ -39,13 +39,13 @@
 
 <div data-fig="ab-toxin"></div>
 
-- **Superantigen**：**不需 APC 處理**，直接跨接 MHC II 與 TCR（Vβ）→ **非專一性活化大量 T 細胞 → 細胞激素風暴 → 休克**（TSST-1、*S. aureus* enterotoxin、SpeA）。
+- **Superantigen**：**不需 APC（antigen-presenting cell，抗原呈現細胞） 處理**，直接跨接 MHC（major histocompatibility complex，主要組織相容性複合體） II 與 TCR（Vβ）→ **非專一性活化大量 T 細胞 → 細胞激素風暴 → 休克**（TSST-1（toxic shock syndrome toxin-1）、*S. aureus* enterotoxin、SpeA（streptococcal pyrogenic exotoxin A））。
 
 <div data-fig="superantigen"></div>
 
 
 ## 5. Immunopathogenesis
-- 活化的嗜中性球、巨噬細胞、補體造成組織傷害。
+- 活化的嗜中性球（neutrophil）、巨噬細胞、補體造成組織傷害。
 - **Granuloma**：CD4 T + macrophage 對 *M. tuberculosis*。
 - **Cytokine storm**：superantigen、endotoxin → 休克。
 - **Autoimmune**：*S. pyogenes* M protein 模仿心臟組織 → rheumatic fever。
@@ -55,7 +55,7 @@
 | 策略 | 例子 |
 |---|---|
 | 逃避辨識 / 吞噬 | Capsule；*S. pyogenes* 的 **hyaluronic acid 莢膜模仿結締組織** |
-| 抗體 | **Antigenic variation**（*N. gonorrhoeae*）；**IgA protease**（*N. gonorrhoeae*）；**Protein A**（*S. aureus* 抓 IgG Fc）；胞內生長（*Brucella*）；granuloma（MTB） |
+| 抗體 | **Antigenic variation**（*N. gonorrhoeae*）；**IgA protease**（*N. gonorrhoeae*）；**Protein A**（*S. aureus* 抓 IgG Fc（fragment crystallizable））；胞內生長（*Brucella*）；granuloma（MTB） |
 | 補體 | 厚 PDG（G+）、長 O antigen（G−）；**C5a peptidase**（*S. pyogenes*，減少趨化） |
 | 吞噬殺菌 | 溶解吞噬細胞（streptolysin、α-toxin）；capsule & M protein 抑制吞入；**阻止 phagolysosome 融合（MTB）**；**catalase 分解 H₂O₂（*S. aureus*）**；**coagulase 形成血塊屏障（*S. aureus*）** |
 
@@ -67,15 +67,15 @@
 - **入口一定是本來就跟外界接觸的地方**：消化道、呼吸道、生殖道（性傳染）、皮膚破口或被叮咬（病媒）；完整皮膚不會是入口。
 - **Virulence 是宿主–病原交互的「結果」**：感染後下場越差 = 越毒。用 LD50 比較：*Salmonella* 要約 **10⁶** 隻才殺死小鼠，*S. pneumoniae* 約 **10²** 隻就夠 → 肺炎鏈球菌比較毒。
 - **Pathogenicity island 的兩個好處**：① 毒力基因聚在一起，「一產生就一起產生」（像操縱組）；② 可移動，經水平基因轉移從 A 菌搬到 B 菌，讓原本不毒的菌變毒。
-- **伺機性感染**：平常存在體內不致病，宿主有破口或免疫力下降才發病（一般 *E. coli*、燙傷病人的 *Pseudomonas*，後者是環境菌）。
+- **伺機性感染**（opportunistic infection）：平常存在體內不致病，宿主有破口或免疫力下降才發病（一般 *E. coli*、燙傷病人的 *Pseudomonas*，後者是環境菌）。
 - **為什麼要先繁殖到一定數量？** 單隻菌的毒力因子不夠力，要百萬隻同時產生才有破壞力 → 靠 **quorum sensing** 感知同伴數量，夠多才打開毒力基因。
 - **Invasion 兩種模式**：**Zipper**（多點黏住、宿主把菌包進去）vs **Trigger**（*Salmonella* 用 **T3SS** 像針一樣注入 effector → M cell cytoskeleton 異常、形成 ruffling 波浪 → 菌被包進去）。
 - 組織破壞的酵素與 exotoxin 都是**外泌型**：要先長很多隻、再一起吐到菌外才有效。
 - **A-B toxin「要特別記得」**（各論會一直重複）：B 結合受體 → 被細胞吞入 → A、B 解離，**B 被回收送回細胞外**，A 執行功能（白喉：抑制蛋白合成；霍亂：↑ adenylate cyclase → ↑cAMP → 離子通道異常）。Botulinum / tetanus 是神經毒，**不是 A-B 型的例子**。
 - **Endotoxin**：G− 的 Lipid A → 誘導 cytokines 入血 → 作用於**下視丘**溫控 → 發燒；嚴重 → 敗血性休克。實務：用 *E. coli* 生產 insulin 時必須排除 LPS 汙染 → 以前打小鼠/兔子，現在用**鱟（horseshoe crab，藍血）的 lysate（LAL）**檢測。
 - **Superantigen**：APC 沒吃任何東西也照樣活化下游 T 細胞 → 系統性免疫風暴 → 多為全身性疾病。
-- **類自體免疫**：*S. pyogenes* 抗原長得像心臟組織抗原 → 抗菌抗體同時攻擊心臟（GAS 章會再講）。
-- **免疫逃避重點舉例**：*S. pyogenes* 莢膜像玻尿酸 → **偽裝成自己人**；*Neisseria* 菌毛一直變 → 上次的抗體沒用（**淋病沒有疫苗**，同理流感疫苗易失效）；*S. aureus* **Protein A** 中和抗體 → 無法調理 → 不被 macrophage 吞；MTB 把自己包在 **granuloma** 裡；C5a peptidase 移除補體；抑制 phagosome–lysosome 融合；**catalase** 移除過氧化氫；**coagulase** 包出暫時的牆。
+- **類自體免疫**：*S. pyogenes* 抗原長得像心臟組織抗原 → 抗菌抗體同時攻擊心臟（GAS（group A Streptococcus，A 群鏈球菌） 章會再講）。
+- **免疫逃避重點舉例**：*S. pyogenes* 莢膜像玻尿酸 → **偽裝成自己人**；*Neisseria* 菌毛一直變 → 上次的抗體沒用（**淋病沒有疫苗**（vaccine），同理流感疫苗易失效）；*S. aureus* **Protein A** 中和抗體 → 無法調理 → 不被 macrophage 吞；MTB 把自己包在 **granuloma** 裡；C5a peptidase 移除補體；抑制 phagosome–lysosome 融合；**catalase** 移除過氧化氫；**coagulase** 包出暫時的牆。
 - 抑制吞噬分兩層：被動（莢膜讓吞噬細胞不好吞）vs 主動（產生細胞毒素直接殺掉吞噬細胞，「比較厲害」）。
 - **胞內病原清單「要特別記得」**：致病菌裡只有少數能在 phagocyte 內存活 → *Listeria*、*Salmonella*（Typhi）、*Shigella*、*Yersinia*、*Brucella*、*Mycobacterium*、*Rickettsia*、*Chlamydia*。
 - 總流程：入口 → 黏附 → 繁殖 → 入侵 → 抵抗宿主攻擊、破壞環境 → **出口**（再散播；出口與入口通常類似，如 COVID-19 由呼吸道進出）。
@@ -102,7 +102,7 @@
 1. **Endotoxin vs Exotoxin**：Endotoxin = LPS（非蛋白、G−）；Exotoxin 常在質體 / 噬菌體（111 考古正解）。
 2. **Superantigen**：非專一活化 T 細胞、大量 cytokine、**不需 APC 處理**（最常考的錯誤敘述）、結合 MHC II。
 3. **A-B toxin**：A = 酵素、B = 結合；G+ / G− 都有；不只腹瀉。
-4. **免疫逃避**：Protein A 中和抗體、IgA protease、C5a peptidase、catalase、coagulase；「產生孢子」不是答案。
+4. **免疫逃避**：Protein A 中和抗體、IgA protease、C5a peptidase、catalase、coagulase；「產生孢子（spore）」不是答案。
 5. **LPS → 敗血性休克**。
 
 ## 📝 出題模式
@@ -122,9 +122,9 @@
 | Endotoxin 以 TLR2 辨識 | **CD14 + TLR4** → IL-1、TNF-α、IL-6 → 發燒、休克、DIC；以 **LAL assay** 偵測 |
 | A-B toxin 只造成腹瀉 | 也包括 **diphtheria toxin**（抑制蛋白合成）等；G+、G− 都能分泌 |
 | Botulinum 造成痙攣性麻痺 | **Botulinum = flaccid**；**tetanus = spastic** |
-| Superantigen 需要 APC 處理後呈現 | **不需處理**，直接跨接 MHC II 與 TCR Vβ → 大量 T 活化、cytokine storm |
+| Superantigen 需要 APC 處理後呈現 | **不需處理**，直接跨接 MHC II 與 TCR（T cell receptor，T 細胞受體） Vβ → 大量 T 活化、cytokine storm |
 | 產生孢子是逃避免疫的機制 | 孢子是對抗**環境壓力**，不是免疫逃避 |
-| Protein A 結合抗體 Fab | Protein A 抓 IgG **Fc** |
+| Protein A 結合抗體 Fab（fragment antigen-binding） | Protein A 抓 IgG **Fc** |
 | *S. pyogenes* C5a peptidase 增加趨化 | **切 C5a → 減少趨化** |
 | MTB 逃出 phagosome | MTB **阻止 phagolysosome 融合**、形成 granuloma |
 | Pathogenicity 與 virulence 同義 | Pathogenicity = **能不能**致病；virulence = **多毒**（交互的淨結果） |

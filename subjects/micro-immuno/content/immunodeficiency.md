@@ -1,7 +1,7 @@
 === summary ===
 # 免疫缺陷疾病（依百十四共筆整理，賴傳穎）
 
-> 🎙️ 本章依百十四共筆（Ch18-2）、2026 非同步遠距錄影（賴傳穎，W18，期中考範圍）的逐字稿與 slides 整理；百十三共筆沒有收錄這章（只在「對抗感染的免疫反應」提到 CGD 與成人型免疫不全）。考古只有 hyper-IgM、CGD 相關題。期中配分 **3%**。
+> 🎙️ 本章依百十四共筆（Ch18-2）、2026 非同步遠距錄影（賴傳穎，W18，期中考範圍）的逐字稿與 slides 整理；百十三共筆沒有收錄這章（只在「對抗感染的免疫反應」提到 CGD（chronic granulomatous disease，慢性肉芽腫病） 與成人型免疫不全）。考古只有 hyper-IgM、CGD 相關題。期中配分 **3%**。
 
 ## 1. 怎麼懷疑免疫缺陷？
 - **反覆、嚴重、難治（recalcitrant）**的感染；**不常見的伺機性（opportunistic）感染**；有**固定的感染型態**。
@@ -9,19 +9,19 @@
 - 分類：
   | | Primary（inborn） | Secondary（acquired） |
   |---|---|---|
-  | 原因 | 免疫發育、訊號或功能的**基因缺陷** | **外在因素**：藥物、治療、其他感染（如 HIV） |
+  | 原因 | 免疫發育、訊號或功能的**基因缺陷** | **外在因素**：藥物、治療、其他感染（如 HIV（human immunodeficiency virus，人類免疫缺乏病毒）） |
   | 發病 | 多在嬰幼兒、甚至出生就發生；也可能較晚出現 | 後天；**遠比原發性常見**，是感染與死亡的重要誘因 |
 
 ## 2. Severe combined immunodeficiency（SCID）⭐
-- 多個系統一起垮（T、B、NK）；電影 *Bubble Boy*（真實病例 **David Vetter** 是 X-linked SCID，12 歲死於骨髓移植併發症）。
+- 多個系統一起垮（T、B、NK（natural killer，自然殺手））；電影 *Bubble Boy*（真實病例 **David Vetter** 是 X-linked SCID，12 歲死於骨髓移植併發症）。
 - 叫 **combined** 是因為 T 細胞消失 → TH 與後續抗體產生全部受影響 → **細胞性 + 體液性（adaptive）免疫都垮**。
 - **用周邊血 T / B / NK 的 profile 推測缺陷** ⭐：
 
 | 缺陷 | 機制 | T | B | NK |
 |---|---|---|---|---|
-| **ADA deficiency** | 有毒 purine 代謝物累積 → 發育中的淋巴球受害 | − | − | −（淋巴球普遍受害） |
+| **ADA（adenosine deaminase） deficiency** | 有毒 purine 代謝物累積 → 發育中的淋巴球受害 | − | − | −（淋巴球普遍受害） |
 | **X-linked SCID（IL2RG，common γ chain）** | γc 是多種 cytokine receptor 的共同成分 → **IL-7 訊號缺失（T 不能發育）+ IL-15 訊號缺失（NK 不能發育）** | **−** | **+** | **−** |
-| **RAG1 / RAG2 deficiency** | **V(D)J recombination 失敗** → TCR、BCR 都做不出來 | **−** | **−** | **+**（NK 沒有 V(D)J） |
+| **RAG1 / RAG2 deficiency** | **V(D)J recombination 失敗** → TCR（T cell receptor，T 細胞受體）、BCR（B cell receptor，B 細胞受體） 都做不出來 | **−** | **−** | **+**（NK 沒有 V(D)J） |
 | **FOXN1 deficiency** | **胸腺上皮 / stromal 微環境**發育失敗；pro-T、pre-T 本身正常但沒有環境 | **−** | **+** | **+** |
 
 - **遺傳模式**：X-linked SCID（IL2RG）為 **X 染色體隱性**（患者多為男性）；**RAG1/2、FOXN1** 都是**體染色體隱性**。XLA、X-linked hyper-IgM、XLP 也都是 X-linked。
@@ -33,7 +33,7 @@
 ## 3. 抗體缺陷 → 有莢膜的化膿菌反覆感染
 - 抗體結合**多醣莢膜** + C3b → **opsonization** → neutrophil 吞噬；缺抗體 → 反覆 **pyogenic（化膿性）** 細菌感染，常見 ***S. pneumoniae*、*H. influenzae***（呼吸道）。
 - **X-linked agammaglobulinemia（XLA）**：**BTK（Bruton's tyrosine kinase）**缺陷 → **pre-BCR signaling 異常 → 卡在 pre-B** → 沒有成熟 B、沒有抗體；T 細胞正常，但細菌清除很大部分依賴抗體。
-- **X-linked hyper-IgM syndrome**：**CD40L 缺陷**（男性）→ germinal center 無法形成、**沒有 class switch → 只有 IgM**（沒有 IgG、IgA）；macrophage 也無法被 CD40L 活化 → APC 功能差 → 易伺機性感染。
+- **X-linked hyper-IgM syndrome**：**CD40L 缺陷**（男性）→ germinal center 無法形成、**沒有 class switch → 只有 IgM**（沒有 IgG、IgA）；macrophage 也無法被 CD40L 活化 → APC（antigen-presenting cell，抗原呈現細胞） 功能差 → 易伺機性感染。
 - **CVID（common variable immunodeficiency）**：common = 常見、variable = 異質性；先天、成因不清楚；B 細胞分化到 plasma cell 的步驟出問題；可為 **selective IgA deficiency**（IgM、IgG 通常仍有）或 IgG 降低 → **黏膜（呼吸道）同一菌、甚至同一菌株反覆感染**（缺 IgA 無法保護 mucosal site）。
 
 <div data-fig="slide-xla"></div>
@@ -45,30 +45,30 @@
 |---|---|---|
 | **C1、C2、C4**（classical） | immune complex、凋亡細胞清除差 | — |
 | **C3**（early / alternative 受損） | **C3b opsonization 缺失** | **反覆化膿菌感染** |
-| **C5–C9（MAC）** | MAC 功能缺陷 | ***Neisseria*（*N. meningitidis* 腦膜炎、*N. gonorrhoeae* 淋病）** |
+| **C5–C9（MAC（membrane attack complex，膜攻擊複合體））** | MAC 功能缺陷 | ***Neisseria*（*N. meningitidis* 腦膜炎（meningitis）、*N. gonorrhoeae* 淋病（gonorrhea））** |
 
 ## 5. 吞噬細胞缺陷三部曲（phagocyte defect triad）⭐
 1. **Neutropenia（太少）**：如 **ELANE（elastase 2）**、**G6PC3** 缺陷 → 反覆嚴重化膿菌感染。
 2. **LAD（到不了）**：**LAD-1 = β2 integrin CD18 缺陷** → 血中 neutrophil 數目正常，但無法 recruitment、extravasation 到感染部位 → **反覆感染但「沒有膿」**（膿就是死掉的白血球）。
-3. **殺不死（defective intracellular killing）**：**NOX2（NADPH oxidase）缺陷 → 沒有 respiratory burst（ROS）** → 吞得進去但殺不掉 → 感染清不掉、形成 **granuloma**（把細菌 wall off）→ 即 CGD。
+3. **殺不死（defective intracellular killing）**：**NOX2（NADPH oxidase）缺陷 → 沒有 respiratory burst（ROS（reactive oxygen species，活性氧））** → 吞得進去但殺不掉 → 感染清不掉、形成 **granuloma**（把細菌 wall off）→ 即 CGD。
 
 ## 6. Cytokine 路徑缺陷
-- **Type 1（IL-12 / IFN-γ 迴路）**：macrophage / DC 產 **IL-12** → NK、TH1 產 **IFN-γ** → 回饋活化 macrophage。缺陷 → macrophage 活化↓ → 易感染**胞內菌**：***Mycobacterium tuberculosis*（以 macrophage 為宿主）**、mycoplasma。
-- **Type 3（IL-17 迴路）**：TH17、**ILC3** 產 **IL-17** → 黏膜 / 上皮抗真菌防禦。缺陷 → **反覆黏膜皮膚念珠菌感染（mucocutaneous candidiasis）**；代表 **STAT3 deficiency（Job syndrome，高 IgE 症候群）**：IL-17 產生細胞減少 → CMC，也易有**金黃色葡萄球菌**與**麴菌**感染。**APECED（AIRE 異常）**病人產生中和 IL-17A／F 的自體抗體，也表現為 CMC。
+- **Type 1（IL-12 / IFN-γ 迴路）**：macrophage / DC（dendritic cell，樹突細胞） 產 **IL-12** → NK、TH1 產 **IFN-γ** → 回饋活化 macrophage。缺陷 → macrophage 活化↓ → 易感染**胞內菌**：***Mycobacterium tuberculosis*（以 macrophage 為宿主）**、mycoplasma。
+- **Type 3（IL-17 迴路）**：TH17、**ILC3** 產 **IL-17** → 黏膜 / 上皮抗真菌防禦。缺陷 → **反覆黏膜皮膚念珠菌感染（mucocutaneous candidiasis）**；代表 **STAT3 deficiency（Job syndrome，高 IgE 症候群）**：IL-17 產生細胞減少 → CMC，也易有**金黃色葡萄球菌**與**麴菌**感染。**APECED（AIRE（autoimmune regulator） 異常）**病人產生中和（neutralization） IL-17A／F 的自體抗體，也表現為 CMC。
 
 ## 7. 免疫失調與毒殺缺陷
-- **Cytotoxic granule pathway（perforin）缺陷**：CTL、NK 殺不掉病毒感染細胞 → 標的細胞持續釋放發炎 cytokine → **hyperinflammation** → **familial hemophagocytic lymphohistiocytosis（FHL）**：高燒、嚴重發炎、噬血現象。
+- **Cytotoxic granule pathway（perforin）缺陷**：CTL（cytotoxic T lymphocyte，毒殺性 T 細胞）、NK 殺不掉病毒感染細胞 → 標的細胞持續釋放發炎 cytokine → **hyperinflammation** → **familial hemophagocytic lymphohistiocytosis（FHL）**：高燒、嚴重發炎、噬血現象。
   - 分型（顆粒路徑各步驟）：**perforin → FHL2**、Munc13-4（priming）→ FHL3、syntaxin 11 → FHL4、Munc18-2 → FHL5；顆粒運輸／停靠缺陷：**LYST → Chédiak–Higashi**、**Rab27a → Griscelli**。
-- **X-linked lymphoproliferative syndrome（XLP，SAP 缺陷）**：EBV 感染 B 細胞後，T / NK 無法控制 → **EBV 觸發 lymphoproliferation**、免疫失調 → 類似 leukemia 的 EBV 相關疾病。另一型 **XIAP 缺陷**（抑制凋亡 caspase 的功能受損）：EBV 感染後猛爆性傳染性單核球增多症、淋巴瘤、低丙種球蛋白血症。
+- **X-linked lymphoproliferative syndrome（XLP，SAP 缺陷）**：EBV（Epstein-Barr virus） 感染 B 細胞後，T / NK 無法控制 → **EBV 觸發 lymphoproliferation**、免疫失調 → 類似 leukemia 的 EBV 相關疾病。另一型 **XIAP 缺陷**（抑制凋亡（apoptosis） caspase 的功能受損）：EBV 感染後猛爆性傳染性單核球增多症、淋巴瘤、低丙種球蛋白血症。
 
 ## 8. 治療三層次：Replace、Reconstitute、Correct
 | 層次 | 做法 | 例 |
 |---|---|---|
 | **Replace** | **Immunoglobulin replacement** | 抗體缺陷 |
 | **Reconstitute** | **Hematopoietic stem cell transplantation（HSCT）** | SCID 等重大缺陷（目前最常用、可行性高） |
-| **Correct** | **Gene therapy**（**CRISPR** 帶來新曙光） | 單一基因突變 |
+| **Correct** | **Gene therapy**（**CRISPR**（clustered regularly interspaced short palindromic repeats） 帶來新曙光） | 單一基因突變 |
 
-- HSCT：從父母、兄弟姊妹的 bone marrow 分離 HSC（MHC 較容易 match）；移植前把受者免疫壓到最低。
+- HSCT：從父母、兄弟姊妹的 bone marrow 分離 HSC（MHC（major histocompatibility complex，主要組織相容性複合體） 較容易 match）；移植前把受者免疫壓到最低。
 - 併發症：**graft-versus-host disease（GVHD）**（移植來的 T 細胞攻擊受者組織）、**graft rejection**（受者殘存 T 細胞殺掉 stem cell → 移植失敗）。
 
 ## 9. Take-home framework ⭐
@@ -97,8 +97,8 @@
 | p9 | X-linked SCID（IL2RG） | γc 共用於 **IL-2、4、7、9、15、21** 受體；**IL-7 → T−、IL-15 → NK−、人類 B 發育保留 → T− B+ NK−** |
 | p10 | RAG1／2 | V(D)J 無法重組 → TCR、BCR 都沒有 → **T− B− NK+**（NK 不需 V(D)J） |
 | p11 | FOXN1 | 胸腺上皮／stroma 發育失敗；T 前驅細胞**本身正常**但沒有環境 → **T− B+ NK+**（extrinsic defect） |
-| p12 | 用 T／B／NK profile 定位 | γc：共用 cytokine 受體訊號；RAG：V(D)J；FOXN1：胸腺微環境 |
-| p13 | 為何抗體缺陷 → 化膿菌 | 抗體結合莢膜 → Fc 辨識＋classical 補體 → opsonization；例 **S. pneumoniae、H. influenzae** |
+| p12 | 用 T／B／NK profile 定位 | γc：共用 cytokine 受體訊號；RAG（recombination-activating gene）：V(D)J；FOXN1：胸腺微環境 |
+| p13 | 為何抗體缺陷 → 化膿菌 | 抗體結合莢膜 → Fc（fragment crystallizable） 辨識＋classical 補體 → opsonization；例 **S. pneumoniae、H. influenzae** |
 | p14 | **XLA（BTK）** | pre-BCR 訊號缺失 → **卡在 pre-B** → 幾乎沒有成熟 B、Ig 大降；**T 正常**；反覆**化膿菌與 enterovirus** 感染 |
 | p15 | **X-linked hyper-IgM（CD40L）** | B 細胞與 macrophage 都收不到 CD40 訊號 → 無 germinal center、無 class switch → **IgM 正常或高、IgG／IgA 低**；macrophage 活化差 → **伺機性感染** |
 | p16 | CVID、selective IgA deficiency | CVID：late B 分化異質性缺陷，**IgG 通常降低**；selective IgA：IgA 低或無、**IgM、IgG 保留，很多人無症狀**；主要影響 sinopulmonary、黏膜防禦 |
@@ -133,7 +133,7 @@
 | Hyper-IgM 是 B 細胞基因缺陷 | X-linked 型是 **T 細胞上的 CD40L**；macrophage 也活化不良 |
 | Selective IgA deficiency 時 IgG、IgM 也低 | **IgM、IgG 保留**，很多人無症狀 |
 | C3 缺陷 → Neisseria | C3 → **化膿菌**；**C5–C9** 才是 Neisseria |
-| LAD 時血中 neutrophil 很少 | 血中**有（甚至很多）**，只是進不了組織 → **沒有膿** |
+| LAD（leukocyte adhesion deficiency，白血球黏附缺陷） 時血中 neutrophil 很少 | 血中**有（甚至很多）**，只是進不了組織 → **沒有膿** |
 | CGD 吞噬功能缺陷 | 吞噬**正常**，是**殺不死**（無 ROS） |
 | IL-12／IFN-γ 缺陷 → Candida | IFN-γ → **mycobacteria**；**IL-17（STAT3）→ Candida** |
 | Perforin 缺陷只會造成感染 | 主要是**過度發炎（FHL）** |
@@ -155,4 +155,4 @@
 - 百十三共筆沒有這章。相關內容只出現在「對抗感染的免疫反應」：**CGD**（NADPH oxidase 次單元缺陷、X-linked）與 IFN-γ 缺陷造成的**成人型免疫不全**。
 ## 🔗 跨章連結
 - IFN-γ 缺陷 / 抗 IFN-γ 自體抗體（成人型免疫缺乏）、CGD（NOX 次單位）→ 見〈對抗感染的免疫反應〉。
-- CD40L、class switch、AID → 見〈T 細胞媒介免疫與免疫細胞合作〉；RAG、V(D)J → 見〈抗原、抗體與抗體多樣性〉、〈TCR、T 細胞發育〉。
+- CD40L、class switch、AID（activation-induced cytidine deaminase） → 見〈T 細胞媒介免疫與免疫細胞合作〉；RAG、V(D)J → 見〈抗原、抗體與抗體多樣性〉、〈TCR、T 細胞發育〉。

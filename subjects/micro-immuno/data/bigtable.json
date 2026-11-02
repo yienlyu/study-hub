@@ -1,0 +1,2202 @@
+{
+ "title": "細菌比較大表",
+ "credit": "依各章共筆、上課 slides 與錄影整理",
+ "legend": "粗體是考古常考的關鍵字；⚠️ = 考古陷阱、容易選錯。每欄標題下的連結可以跳回那一章的重點整理。",
+ "lede": "把同一個屬性橫著比完同一章的細菌，最後一張「易混淆」把跨章容易搞混的組合放在一起。點左邊的列名可以把整列遮住，再一格一格點開回想；想不起來的格子標成「還不熟」，之後只複習這些格子。「配合題練習」會從大表隨機出 5 組。",
+ "matchLede": "每個學名選一個代號，選完按「對答案」",
+ "unit": "菌",
+ "tables": [
+  {
+   "id": "cocci",
+   "title": "球菌",
+   "en": "Cocci",
+   "rows": [
+    {
+     "k": "shape",
+     "t": "型態排列"
+    },
+    {
+     "k": "lab",
+     "t": "關鍵鑑定",
+     "match": "鑑定特徵"
+    },
+    {
+     "k": "habitat",
+     "t": "棲息與傳播",
+     "match": "棲息與傳播"
+    },
+    {
+     "k": "vf",
+     "t": "毒力因子"
+    },
+    {
+     "k": "toxin",
+     "t": "毒素"
+    },
+    {
+     "k": "dz",
+     "t": "代表疾病",
+     "match": "代表疾病"
+    },
+    {
+     "k": "dx",
+     "t": "診斷"
+    },
+    {
+     "k": "prev",
+     "t": "疫苗與抗藥"
+    },
+    {
+     "k": "trap",
+     "t": "考古陷阱"
+    }
+   ],
+   "cols": [
+    {
+     "id": "s-aureus",
+     "zh": "金黃色葡萄球菌",
+     "sci": "Staphylococcus aureus",
+     "group": "葡萄球菌",
+     "ch": "staph-strep",
+     "cells": {
+      "shape": [
+       "G(+) 球菌、**葡萄串**狀",
+       "不動、兼性厭氧；**耐乾、耐高鹽、耐極端 pH** → 環境中容易留存"
+      ],
+      "lab": [
+       "**Catalase (+)、coagulase (+)**、β 溶血",
+       "**Mannitol 發酵 (+)**（mannitol salt agar）、heat-stable nuclease、Protein A (+)",
+       "Novobiocin 敏感"
+      ],
+      "habitat": [
+       "**前鼻孔**（anterior nares）、皮膚、鼻咽",
+       "健康成人 20–60% 帶菌；醫護的手、識別證是傳播途徑"
+      ],
+      "vf": [
+       "**Protein A**（專屬，抓 IgG Fc）",
+       "**Coagulase**（專屬，fibrinogen → fibrin 築牆）",
+       "Capsule、slime layer；hyaluronidase、fibrinolysin、DNase（逃 NETs）"
+      ],
+      "toxin": [
+       "Cytotoxin：α（組織破壞主角）、β = sphingomyelinase C、δ（界面活性劑）、γ 與 **PVL**（打洞）",
+       "**Exfoliative toxin**：切 desmoglein-1 → SSSS",
+       "**Enterotoxin**：**heat-stable**、superantigen → 食物中毒",
+       "**TSST-1**：superantigen → TSS"
+      ],
+      "dz": [
+       "毛囊炎 → 癤 → 癰；impetigo（新生兒）",
+       "**急性心內膜炎**、骨髓炎（metaphysis）、肺炎、敗血性關節炎",
+       "SSSS、TSS（衛生棉條）、**2–6 h 嘔吐**的食物中毒"
+      ],
+      "dx": [
+       "Coagulase + Protein A 乳膠凝集",
+       "三盤：mannitol salt、DNase、novobiocin；MALDI-TOF"
+      ],
+      "prev": [
+       "**MRSA**：SCCmec 帶 **mecA** → PBP2a（β-lactam 親和力差）",
+       "HA-MRSA 多重抗藥；CA-MRSA：SCCmec IV + PVL、非 β-lactam 多仍有效",
+       "去移生：mupirocin 抹鼻；沒有疫苗"
+      ],
+      "trap": [
+       "⚠️ 不產 IgA protease、C5a peptidase；不造成風濕熱",
+       "⚠️ SSSS 病灶**沒有細菌**也沒有白血球（毒素作用）",
+       "⚠️ ETA heat-stable（phage）、ETB heat-labile（plasmid）"
+      ]
+     }
+    },
+    {
+     "id": "s-epi",
+     "zh": "表皮葡萄球菌",
+     "sci": "Staphylococcus epidermidis",
+     "group": "葡萄球菌",
+     "ch": "staph-strep",
+     "cells": {
+      "shape": [
+       "G(+) 葡萄串狀球菌（CoNS）"
+      ],
+      "lab": [
+       "Catalase (+)、**coagulase (−)**",
+       "Novobiocin **敏感**；mannitol (−)"
+      ],
+      "habitat": [
+       "皮膚常駐菌",
+       "院內、伺機感染"
+      ],
+      "vf": [
+       "**Biofilm**、黏性物質 → 黏在人工裝置"
+      ],
+      "dz": [
+       "**導管、分流管、人工關節、人工瓣膜**感染",
+       "傷口感染"
+      ],
+      "dx": [
+       "人工裝置 + catalase (+) + coagulase (−)（黃姿雯臨床題）"
+      ],
+      "trap": [
+       "⚠️ 和 S. saprophyticus 都是 CoNS，用 **novobiocin** 分"
+      ]
+     }
+    },
+    {
+     "id": "s-sapro",
+     "zh": "腐生葡萄球菌",
+     "sci": "Staphylococcus saprophyticus",
+     "group": "葡萄球菌",
+     "ch": "staph-strep",
+     "cells": {
+      "shape": [
+       "G(+) 葡萄串狀球菌（CoNS）"
+      ],
+      "lab": [
+       "Catalase (+)、coagulase (−)",
+       "**Novobiocin 抗性**（CoNS 中唯一）"
+      ],
+      "habitat": [
+       "好發族群：年輕、性生活頻繁的女性"
+      ],
+      "dz": [
+       "**年輕性活躍女性的 UTI**（5–10%）"
+      ],
+      "trap": [
+       "⚠️ 只在這個族群最常見；UTI 第一名仍是 **E. coli**"
+      ]
+     }
+    },
+    {
+     "id": "gas",
+     "zh": "化膿性鏈球菌（A 群）",
+     "sci": "Streptococcus pyogenes",
+     "group": "鏈球菌",
+     "ch": "staph-strep",
+     "cells": {
+      "shape": [
+       "G(+) 球菌、成對或**鏈狀**",
+       "要血液、血清培養基 → 不是院內感染菌"
+      ],
+      "lab": [
+       "Catalase (−)、**β 溶血**（強；小白菌落、大溶血圈）",
+       "**Lancefield A**、**bacitracin 敏感**、**PYR (+)**"
+      ],
+      "habitat": [
+       "**口咽**（兒童、年輕人暫時帶菌）",
+       "飛沫（冬天、教室）；皮膚破損"
+      ],
+      "vf": [
+       "**M protein**（擋 C3b；emm 分型；class I → 風濕熱）",
+       "**Hyaluronic acid 莢膜**（偽裝、免疫原性差）",
+       "**C5a peptidase**（GAS 專屬）、F protein、LTA",
+       "Streptokinase、hyaluronidase、DNase"
+      ],
+      "toxin": [
+       "**SpeA–C**（pyrogenic／erythrogenic）：superantigen、**heat-labile**、lysogenic phage → 猩紅熱、STSS、壞死性筋膜炎",
+       "**SLO**：oxygen-labile、有抗原性 → ASO",
+       "**SLS**：oxygen-stable → β 溶血"
+      ],
+      "dz": [
+       "**咽喉炎** → 猩紅熱（草莓舌、口周蒼白、Pastia line）",
+       "Impetigo、丹毒（界線清楚）、蜂窩性組織炎（界線不清）、**壞死性筋膜炎**",
+       "非化膿：**風濕熱**（只接咽炎後）、**AGN**（皮膚感染後較多）"
+      ],
+      "dx": [
+       "Bacitracin 或 PYR；快篩專一高、敏感低（陰性要再確認）",
+       "**ASO**（風濕熱、AGN）、**anti-DNase B**（AGN、皮膚感染後）"
+      ],
+      "prev": [
+       "**沒有疫苗**",
+       "沒有抗藥問題：penicillin／amoxicillin；風濕熱病人長期預防"
+      ],
+      "trap": [
+       "⚠️ 皮膚感染時 SLO 被膽固醇抑制 → ASO 不升，改測 anti-DNase B",
+       "⚠️ Group carbohydrate 每株都有，不是毒力指標",
+       "⚠️ 猩紅熱毒素是 phage 基因整合後表現，不是裂解釋出"
+      ]
+     }
+    },
+    {
+     "id": "gbs",
+     "zh": "無乳鏈球菌（B 群）",
+     "sci": "Streptococcus agalactiae",
+     "group": "鏈球菌",
+     "ch": "staph-strep",
+     "cells": {
+      "shape": [
+       "G(+) 鏈狀球菌"
+      ],
+      "lab": [
+       "Catalase (−)、β 溶血（比 GAS 弱、菌落大）",
+       "**Lancefield B**、**bacitracin 抗性**、**CAMP (+)**、**hippurate 水解**"
+      ],
+      "habitat": [
+       "**陰道、泌尿生殖道、下消化道**（女性 10–30% 帶菌）",
+       "自然產時母傳子約 60%"
+      ],
+      "vf": [
+       "**莢膜**（9 型；Ia、III、V 最常見）",
+       "**Sialic acid** 抑制補體 alternative pathway"
+      ],
+      "dz": [
+       "**新生兒腦膜炎、敗血症主因**",
+       "早發型（**1 週內**；Ia、III、V）vs 晚發型（**1 週–3 個月**；III 型、外來感染）",
+       "孕婦產後子宮內膜炎、UTI"
+      ],
+      "dx": [
+       "孕婦 **35–37 週**陰道／直腸 PCR 篩檢（LIM broth）",
+       "CSF Gram 染色"
+      ],
+      "prev": [
+       "**沒有疫苗**；陽性孕婦產時預防性抗生素"
+      ],
+      "trap": [
+       "⚠️ CAMP：加強 S. aureus **β toxin** 的溶血（Listeria 也 CAMP +）",
+       "⚠️ 晚發型不是產道垂直傳染"
+      ]
+     }
+    },
+    {
+     "id": "pneumo",
+     "zh": "肺炎鏈球菌",
+     "sci": "Streptococcus pneumoniae",
+     "group": "鏈球菌",
+     "ch": "staph-strep",
+     "cells": {
+      "shape": [
+       "G(+) **雙球菌**（lancet-shaped）、厚多醣莢膜",
+       "要 chocolate agar、5–10% CO₂"
+      ],
+      "lab": [
+       "Catalase (−)、**α 溶血**（厭氧可 β）",
+       "**Optochin 敏感**、**bile soluble**、inulin 發酵 (+)、**Quellung (+)**"
+      ],
+      "habitat": [
+       "鼻咽、喉嚨常駐（兒童 ≫ 成人）",
+       "**內源性、社區感染**（不是院內）；流感季後併發"
+      ],
+      "vf": [
+       "**多醣莢膜**（> 90 型，抗吞噬 → 疫苗）",
+       "**IgA protease**、**pneumolysin**（≈ SLO，打洞並活化補體）",
+       "Phosphorylcholine 接 PAF 受體 → 進細胞"
+      ],
+      "toxin": [
+       "**沒有外毒素**，症狀來自宿主發炎"
+      ],
+      "dz": [
+       "**60–70% 細菌性肺炎**（大葉性、血痰、胸痛）",
+       "中耳炎（5 歲前）、鼻竇炎、**腦膜炎**、菌血症",
+       "高危：**6 個月–4 歲**、**> 60 歲**"
+      ],
+      "dx": [
+       "Quellung 反應（莢膜膨脹）；痰 Gram 染色",
+       "約一半肺炎病人痰培養不出來"
+      ],
+      "prev": [
+       "**PPV23**：純多醣、**2 歲以上**、長者",
+       "**PCV13**：接無毒白喉毒素、**6 週–5 歲**、台灣 2+1 常規",
+       "抗藥 = **自身 PBP 突變**，不是 mecA、不是 penicillinase"
+      ],
+      "trap": [
+       "⚠️ 外觀像腸球菌（成對短鏈）→ 用 optochin、膽汁溶解分"
+      ]
+     }
+    },
+    {
+     "id": "viridans",
+     "zh": "草綠色鏈球菌",
+     "sci": "Viridans streptococci",
+     "group": "鏈球菌",
+     "ch": "staph-strep",
+     "cells": {
+      "shape": [
+       "G(+) 鏈狀球菌；**viridans 是形容詞**（血盤上呈綠色的一群）"
+      ],
+      "lab": [
+       "Catalase (−)、**α 溶血**（或 γ）",
+       "**Optochin 抗性**、不被膽汁溶解；**不用 Lancefield**"
+      ],
+      "habitat": [
+       "**口腔**（牙齦、牙齒最多）、口咽、消化道、生殖道"
+      ],
+      "vf": [
+       "侵襲力低；牙科處置或手術後入血",
+       "瓣膜上 biofilm、vegetation；S. mutans slime layer → 牙菌斑"
+      ],
+      "dz": [
+       "mitis group → **亞急性心內膜炎**（原有心臟病者）",
+       "mutans group → **蛀牙**"
+      ],
+      "dx": [
+       "低燒反覆、找不到原因 → 問有無近期牙科治療"
+      ],
+      "prev": [
+       "高風險病人**牙科處置前預防性抗生素**",
+       "mitis group penicillin 抗藥增加"
+      ],
+      "trap": [
+       "⚠️ S. pneumoniae 是草綠群中最毒的，但它 optochin 敏感"
+      ]
+     }
+    },
+    {
+     "id": "entero",
+     "zh": "腸球菌",
+     "sci": "Enterococcus faecalis／faecium",
+     "group": "腸球菌",
+     "ch": "staph-strep",
+     "cells": {
+      "shape": [
+       "G(+) 成對或短鏈（外觀像肺炎鏈球菌）"
+      ],
+      "lab": [
+       "Catalase (−)、多為 **γ 不溶血**",
+       "**6.5% NaCl、膽鹽（bile-esculin）可生長**；10–45 °C、pH 4.6–9.9",
+       "**PYR (+)**、optochin 抗性、不被膽汁溶解"
+      ],
+      "habitat": [
+       "**腸道**（大腸）",
+       "**院內感染**：導尿管、血管導管、長期住院、廣效抗生素"
+      ],
+      "vf": [
+       "毒力少：黏附、**biofilm**",
+       "**抗藥性**是主要武器"
+      ],
+      "dz": [
+       "**導尿管相關 UTI**（最常見）",
+       "腹膜炎（多菌混合）、菌血症、**心內膜炎**（最難治）"
+      ],
+      "dx": [
+       "高鹽、膽鹽中生長 + PYR (+)"
+      ],
+      "prev": [
+       "**天生抗 oxacillin、cephalosporin**",
+       "後天抗 aminoglycoside、**vancomycin**（VRE，質體）；_E. faecalis_ 較常見（75%）、_E. faecium_ 較抗藥",
+       "Aminoglycoside + ampicillin 或 vancomycin 協同"
+      ],
+      "trap": [
+       "⚠️ 舊稱 group D streptococci，**1984 年獨立成屬**",
+       "⚠️ 113 考古：catalase (−) + 6.5% NaCl + 抗 vancomycin → **E. faecium**"
+      ]
+     }
+    },
+    {
+     "id": "gono",
+     "zh": "淋病雙球菌",
+     "sci": "Neisseria gonorrhoeae",
+     "group": "奈瑟氏菌 G(−)",
+     "ch": "neisseria",
+     "cells": {
+      "shape": [
+       "G(−) **雙球菌**（腎形、咖啡豆形）",
+       "無鞭毛；怕冷怕乾（檢體不能冰）"
+      ],
+      "lab": [
+       "**Oxidase (+)**",
+       "**只長 chocolate agar**（blood agar 不長）；Thayer-Martin + 5% CO₂"
+      ],
+      "habitat": [
+       "**人唯一宿主**；性行為",
+       "新生兒經產道 → 結膜炎"
+      ],
+      "vf": [
+       "**Pili**（antigenic + phase variation）、**IgA1 protease**、**LOS**",
+       "**Por**（protein I，住 neutrophil 裡）、**Opa**（protein II，專屬，黏附）、Rmp（protein III）",
+       "沒有莢膜"
+      ],
+      "toxin": [
+       "LOS（lipid A 有毒）"
+      ],
+      "dz": [
+       "男：尿道炎（**95% 有症狀**）",
+       "女：子宮頸炎（約一半無症狀）→ **PID、不孕、子宮外孕**、Fitz-Hugh-Curtis",
+       "新生兒眼炎；播散性關節炎皮膚炎"
+      ],
+      "dx": [
+       "男性尿道分泌物：**嗜中性球內 G(−) 雙球菌**",
+       "**NAAT 金標準**；不靠抗體 4 倍上升"
+      ],
+      "prev": [
+       "**沒有疫苗**（phase／antigenic variation）",
+       "常產 β-lactamase → 不用 penicillin，改 **ceftriaxone**",
+       "新生兒：1% 硝酸銀或 erythromycin 眼藥"
+      ],
+      "trap": [
+       "⚠️ 是 **IgA** protease 不是 IgM；flagella 不是毒力因子"
+      ]
+     }
+    },
+    {
+     "id": "mening",
+     "zh": "腦膜炎雙球菌",
+     "sci": "Neisseria meningitidis",
+     "group": "奈瑟氏菌 G(−)",
+     "ch": "neisseria",
+     "cells": {
+      "shape": [
+       "G(−) 雙球菌（腎形）",
+       "**多醣莢膜**"
+      ],
+      "lab": [
+       "Oxidase (+)",
+       "**Blood agar 可長**"
+      ],
+      "habitat": [
+       "**人唯一宿主**、**鼻咽帶菌**、**飛沫**",
+       "好發 6 個月–2 歲、宿舍與軍營的年輕人"
+      ],
+      "vf": [
+       "**莢膜**（腦膜炎三大菌共通毒力）",
+       "LOS（endotoxin → 敗血症、DIC）、IgA1 protease、pili"
+      ],
+      "toxin": [
+       "LOS（lipid A）"
+      ],
+      "dz": [
+       "**腦膜炎**、meningococcemia（紫斑、DIC）",
+       "**Waterhouse-Friderichsen**（雙側腎上腺出血、休克）"
+      ],
+      "dx": [
+       "CSF Gram 染色；可從血中分離"
+      ],
+      "prev": [
+       "**有莢膜疫苗**：四價 **A、C、W135、Y**（B 型像神經抗原，沒有多醣疫苗）",
+       "接觸者口服 **rifampicin** 預防"
+      ],
+      "trap": [
+       "⚠️ 很少產 β-lactamase（和淋菌相反）"
+      ]
+     }
+    }
+   ],
+   "notes": [
+    "鑑別流程：G(+) 球菌 → **catalase**（+ 葡萄球菌／− 鏈球菌、腸球菌）→ 葡萄球菌看 **coagulase**、CoNS 再看 **novobiocin**；鏈球菌看**溶血** → β 用 Lancefield（A：bacitracin 敏感；B：CAMP +）、α 用 **optochin**（敏感 = 肺炎鏈球菌）、γ 看 **6.5% NaCl／bile-esculin**（腸球菌）。",
+    "黃姿雯：抗生素治療原則上不考，但**傳統生化鑑定考試還是會考**。"
+   ]
+  },
+  {
+   "id": "gpb",
+   "title": "G(+) 桿菌",
+   "en": "Bacillus · Listeria · Corynebacterium",
+   "rows": [
+    {
+     "k": "feat",
+     "t": "型態特性",
+     "match": "特性"
+    },
+    {
+     "k": "src",
+     "t": "感染途徑與宿主",
+     "match": "感染途徑"
+    },
+    {
+     "k": "vf",
+     "t": "毒力因子"
+    },
+    {
+     "k": "toxin",
+     "t": "毒素",
+     "match": "毒素"
+    },
+    {
+     "k": "dz",
+     "t": "代表疾病",
+     "match": "代表疾病"
+    },
+    {
+     "k": "dx",
+     "t": "診斷"
+    },
+    {
+     "k": "tx",
+     "t": "治療與預防"
+    },
+    {
+     "k": "trap",
+     "t": "考古陷阱"
+    }
+   ],
+   "cols": [
+    {
+     "id": "anthracis",
+     "zh": "炭疽桿菌",
+     "sci": "Bacillus anthracis",
+     "group": "產孢子",
+     "ch": "bacillus",
+     "cells": {
+      "feat": [
+       "好氧、**產孢子**、**不動（無鞭毛）**、不溶血",
+       "Koch 1877 分離（柯霍氏假說）"
+      ],
+      "src": [
+       "草食動物吃入孢子；人經皮膚、吃入、吸入",
+       "孢子在土壤存活 60 年；被 macrophage 吞入後萌發"
+      ],
+      "vf": [
+       "**莢膜 = poly-D-glutamic acid（胜肽）**，pXO2",
+       "孢子"
+      ],
+      "toxin": [
+       "**PA + EF = edema toxin**：EF = adenylate cyclase、**↑cAMP** → 水腫",
+       "**PA + LF = lethal toxin**：LF = zinc protease 切 MEK → 殺 macrophage",
+       "PA 單獨無毒；毒素在 **pXO1**；A-B toxin"
+      ],
+      "dz": [
+       "**皮膚型 > 90%**（黑色焦痂 eschar）",
+       "腸胃型最罕見（> 50%）",
+       "**吸入型**（wool-sorter's、生物武器）近 100%、縱膈淋巴結腫"
+      ],
+      "dx": [
+       "**DFA**、**gamma phage lysis**（97% 專一）、PCR"
+      ],
+      "tx": [
+       "Ciprofloxacin／doxycycline；暴露後吃 **60 天**",
+       "疫苗 = 不活化 **PA**，18 個月 6 劑",
+       "⚠️ 皮膚病灶不可切開"
+      ],
+      "trap": [
+       "⚠️ 盛行：皮膚 > 其他；致死：吸入 > 腸胃 > 皮膚",
+       "⚠️ 「PA 單獨毒性最強」是錯的"
+      ]
+     }
+    },
+    {
+     "id": "cereus",
+     "zh": "仙人掌桿菌",
+     "sci": "Bacillus cereus",
+     "group": "產孢子",
+     "ch": "bacillus",
+     "cells": {
+      "feat": [
+       "產孢子、**會動**（有鞭毛）",
+       "土壤到處都有；cereus = 蠟"
+      ],
+      "src": [
+       "吃入（食物中毒）",
+       "土壤污染物傷到眼睛"
+      ],
+      "vf": [
+       "**有莢膜的菌株 → 嚴重肺炎**（國考題）"
+      ],
+      "toxin": [
+       "**嘔吐型**：heat-stable、耐蛋白酶（預先形成）",
+       "**腹瀉型**：heat-labile、**pore-forming**（老師勘誤：不是 cAMP）",
+       "眼：cereolysin、phospholipase C"
+      ],
+      "dz": [
+       "**炒飯症候群**：嘔吐型（**米飯**、**< 6 h**，約 2 h）",
+       "腹瀉型（肉、蔬菜、醬汁，**> 6 h**）",
+       "眼部感染（角膜炎）、導管感染"
+      ],
+      "tx": [
+       "冰過的飯拿出來要加熱"
+      ],
+      "trap": [
+       "⚠️ 看到 cereus 想到「很好吃」",
+       "⚠️ B. anthracis 不動、B. cereus 會動"
+      ]
+     }
+    },
+    {
+     "id": "listeria",
+     "zh": "李斯特菌",
+     "sci": "Listeria monocytogenes",
+     "group": "不產孢子",
+     "ch": "bacillus",
+     "cells": {
+      "feat": [
+       "G(+) 短桿菌、**不產孢子**、兼性厭氧",
+       "**20–25 °C tumbling motility**（端鞭毛）；37 °C 動得差",
+       "**1–45 °C、4 °C 可長**；耐酸鹼、膽汁"
+      ],
+      "src": [
+       "汙染食物（冰箱、乳製品、辦桌）",
+       "**經胎盤**母傳子；人畜共通"
+      ],
+      "vf": [
+       "**Internalin** 進細胞 → **LLO** 溶吞噬體 → **ActA** 聚合 actin 彗尾 → cell-to-cell",
+       "兼性胞內菌 → **細胞免疫**重要"
+      ],
+      "toxin": [
+       "Listeriolysin O（pore-forming）"
+      ],
+      "dz": [
+       "**孕婦**：流產、新生兒敗血症與腦膜炎",
+       "**細胞免疫缺陷者**：腦膜炎"
+      ],
+      "dx": [
+       "**Cold enrichment**（4 °C 放 1–2 週）",
+       "**CAMP (+)**（與 S. aureus）；弱 β 溶血"
+      ],
+      "tx": [
+       "**Ampicillin／penicillin + gentamicin**",
+       "**沒有疫苗**"
+      ],
+      "trap": [
+       "⚠️ 「體液免疫重要」是錯的",
+       "⚠️ Cold enrichment 另一隻是 Y. enterocolitica"
+      ]
+     }
+    },
+    {
+     "id": "diphtheriae",
+     "zh": "白喉棒狀桿菌",
+     "sci": "Corynebacterium diphtheriae",
+     "group": "不產孢子",
+     "ch": "bacillus",
+     "cells": {
+      "feat": [
+       "G(+) **棒狀（club-shaped、鼓棒）**、不產孢子",
+       "Biotype 4 種，mitis 最多"
+      ],
+      "src": [
+       "**人類唯一宿主**、**飛沫**"
+      ],
+      "vf": [
+       "只有被帶 **tox 基因的 β-phage** 溶原化的菌株才產毒"
+      ],
+      "toxin": [
+       "**Diphtheria toxin**（A-B）：**ADP-ribosylate EF-2** → 抑制蛋白合成",
+       "同 **P. aeruginosa exotoxin A**"
+      ],
+      "dz": [
+       "咽、扁桃腺**灰白色偽膜**",
+       "心肌炎、神經病變"
+      ],
+      "dx": [
+       "**Elek test**（免疫擴散，證明菌株**會產毒**）、PCR",
+       "Tellurite agar、Tinsdale medium",
+       "Schick test 測抗體（已淘汰）"
+      ],
+      "tx": [
+       "**先給 antitoxin**，再給抗生素（penicillin、erythromycin）",
+       "**DPT** 類毒素疫苗"
+      ],
+      "trap": [
+       "⚠️ 作用在 EF-2，不是 60S（那是 Shiga toxin）",
+       "⚠️ 不是人畜共通；DPT 不含炭疽"
+      ]
+     }
+    },
+    {
+     "id": "erysipelothrix",
+     "zh": "豬丹毒桿菌",
+     "sci": "Erysipelothrix rhusiopathiae",
+     "group": "不產孢子",
+     "ch": "bacillus",
+     "cells": {
+      "feat": [
+       "G(+) 細長、**看起來像 G(−)**、不產孢子",
+       "**微需氧**、長得慢"
+      ],
+      "src": [
+       "人畜共通（**豬**、火雞）：屠夫、魚販、獸醫"
+      ],
+      "vf": [
+       "Neuraminidase、類多醣莢膜"
+      ],
+      "dz": [
+       "**類丹毒（erysipeloid）**：局部皮膚、**不化膿**",
+       "敗血症常合併心內膜炎"
+      ],
+      "dx": [
+       "細長 G(+) 桿菌 + 病灶 + 接觸史（「最近有沒有抱豬」）"
+      ],
+      "tx": [
+       "Penicillin；戴手套"
+      ],
+      "trap": [
+       "⚠️ GAS 的丹毒會化膿；老師說 15 年國考沒考過"
+      ]
+     }
+    }
+   ],
+   "notes": [
+    "產孢子的只有 G(+) 桿菌 **Bacillus（好氧）、Clostridium（絕對厭氧）**；孢子染色要 malachite green + 加熱。",
+    "胞內菌（炭疽孢子、Listeria、S. Typhi）的好處：逃避免疫 + 隨白血球全身跑 → 全身性疾病。"
+   ]
+  },
+  {
+   "id": "entero",
+   "title": "腸桿菌科",
+   "en": "Enterobacteriaceae",
+   "rows": [
+    {
+     "k": "lab",
+     "t": "乳糖・運動・H₂S",
+     "match": "鑑別特性"
+    },
+    {
+     "k": "host",
+     "t": "宿主與感染源",
+     "match": "感染源"
+    },
+    {
+     "k": "dose",
+     "t": "感染劑量"
+    },
+    {
+     "k": "vf",
+     "t": "毒力因子"
+    },
+    {
+     "k": "dz",
+     "t": "代表疾病",
+     "match": "代表疾病"
+    },
+    {
+     "k": "dx",
+     "t": "診斷"
+    },
+    {
+     "k": "prev",
+     "t": "疫苗與治療"
+    },
+    {
+     "k": "trap",
+     "t": "考古陷阱"
+    }
+   ],
+   "cols": [
+    {
+     "id": "ecoli",
+     "zh": "大腸桿菌",
+     "sci": "Escherichia coli",
+     "group": "乳糖發酵",
+     "ch": "enterobacteriaceae",
+     "cells": {
+      "lab": [
+       "**乳糖發酵 (+)**（MacConkey 粉紫）",
+       "有鞭毛、會動"
+      ],
+      "host": [
+       "下段腸道正常菌；糞口"
+      ],
+      "vf": [
+       "O（LPS，O1–O181）、H（flagellin）、K（capsule）",
+       "**K1 莢膜 → 新生兒腦膜炎**",
+       "七種致病型見「E. coli 致病型」表"
+      ],
+      "dz": [
+       "**UTI 第一名**（UPEC，90%）",
+       "腹瀉（ETEC、EHEC…）、新生兒腦膜炎"
+      ],
+      "trap": [
+       "⚠️ UPEC 不會造成 HUS（那是 EHEC）"
+      ]
+     }
+    },
+    {
+     "id": "kleb",
+     "zh": "克雷伯氏肺炎桿菌",
+     "sci": "Klebsiella pneumoniae",
+     "group": "乳糖發酵",
+     "ch": "enterobacteriaceae",
+     "cells": {
+      "lab": [
+       "乳糖發酵 (+)",
+       "**不會動**；**厚莢膜 → mucoid 菌落**"
+      ],
+      "host": [
+       "口、皮膚、腸道正常菌 → **伺機感染**"
+      ],
+      "vf": [
+       "厚莢膜（血清型）"
+      ],
+      "dz": [
+       "**血痰肺炎**（糖尿病、酒癮、慢性肺病）",
+       "導尿管 UTI、膽囊炎、腦膜炎、敗血症"
+      ],
+      "trap": [
+       "國考較少考"
+      ]
+     }
+    },
+    {
+     "id": "proteus",
+     "zh": "奇異變形桿菌",
+     "sci": "Proteus mirabilis",
+     "group": "乳糖不發酵",
+     "ch": "enterobacteriaceae",
+     "cells": {
+      "lab": [
+       "乳糖 (−)、**H₂S (+)**",
+       "**周鞭毛 → swarming**（長不出單一菌落）"
+      ],
+      "host": [
+       "住膀胱、泌尿道"
+      ],
+      "vf": [
+       "**Urease**：urea → NH₃ → 尿液 pH ↑"
+      ],
+      "dz": [
+       "UTI、**腎結石**（阿摩尼亞味）"
+      ],
+      "trap": [
+       "⚠️ 胃裡產 urease 的是 H. pylori"
+      ]
+     }
+    },
+    {
+     "id": "typhi",
+     "zh": "傷寒桿菌",
+     "sci": "Salmonella Typhi",
+     "group": "乳糖不發酵",
+     "ch": "enterobacteriaceae",
+     "cells": {
+      "lab": [
+       "乳糖 (−)、**有周鞭毛（會動）**、**H₂S (+)**",
+       "**Vi 莢膜抗原**（只有 Typhi 有）"
+      ],
+      "host": [
+       "**人唯一宿主**；糞口、水源",
+       "**健康帶原者**（約 3%）住**膽囊**（Typhoid Mary）"
+      ],
+      "dose": [
+       "約 **10⁵ CFU**"
+      ],
+      "vf": [
+       "經 **M cell** 入侵、住 macrophage → 淋巴、血液（SPI-1／2、T3SS）"
+      ],
+      "dz": [
+       "**傷寒**（全身性）：高燒、**玫瑰疹**、肝脾腫大",
+       "要通報"
+      ],
+      "dx": [
+       "**第 1 週血液培養**、**第 3 週糞便**",
+       "Widal test（O、H 凝集，醫技系考點）"
+      ],
+      "prev": [
+       "**Vi 抗原疫苗**"
+      ],
+      "trap": [
+       "⚠️ 「第一週驗糞便」是錯的（老師連考兩三年）",
+       "⚠️ 命名：Typhi 大寫、不斜體"
+      ]
+     }
+    },
+    {
+     "id": "nts",
+     "zh": "非傷寒沙門氏菌",
+     "sci": "S. Typhimurium／Enteritidis",
+     "group": "乳糖不發酵",
+     "ch": "enterobacteriaceae",
+     "cells": {
+      "lab": [
+       "乳糖 (−)、會動、H₂S (+)"
+      ],
+      "host": [
+       "**動物**：**生雞蛋**、家禽、乳製品"
+      ],
+      "dose": [
+       "約 10⁵ CFU"
+      ],
+      "vf": [
+       "M cell 入侵、T3SS"
+      ],
+      "dz": [
+       "自限性**腸胃炎**（食物中毒）",
+       "不必通報"
+      ],
+      "trap": [
+       "⚠️ 不是只在人類；人唯一宿主是 S. Typhi 與 Shigella"
+      ]
+     }
+    },
+    {
+     "id": "shigella",
+     "zh": "志賀氏菌",
+     "sci": "Shigella",
+     "group": "乳糖不發酵",
+     "ch": "enterobacteriaceae",
+     "cells": {
+      "lab": [
+       "乳糖 (−)、**不會動（無鞭毛）**、**H₂S (−)**"
+      ],
+      "host": [
+       "**人唯一宿主**、人傳人（糞口、性行為）",
+       "台灣 6–10 月最多"
+      ],
+      "dose": [
+       "**10–100 CFU**（最低）"
+      ],
+      "vf": [
+       "**高度侵襲結腸上皮**（M cell → 細胞間擴散）、誘導 macrophage 凋亡",
+       "_S. dysenteriae_（A 群）：**Shiga toxin**（B 接 Gb3、A 切 **60S**）"
+      ],
+      "dz": [
+       "**痢疾**：少量、血、黏液、白血球糞便，**裡急後重**",
+       "_S. dysenteriae_ → **HUS**"
+      ],
+      "dx": [
+       "情境：學童腹瀉、裡急後重 + 乳糖 (−) + 無運動"
+      ],
+      "trap": [
+       "⚠️ 「感染劑量很高」是錯的"
+      ]
+     }
+    },
+    {
+     "id": "pestis",
+     "zh": "鼠疫桿菌",
+     "sci": "Yersinia pestis",
+     "group": "乳糖不發酵",
+     "ch": "enterobacteriaceae",
+     "cells": {
+      "lab": [
+       "乳糖 (−)、oxidase (−)"
+      ],
+      "host": [
+       "人畜共通：鼠 → **跳蚤叮咬**（不是老鼠咬）",
+       "肺鼠疫人傳人（飛沫）"
+      ],
+      "vf": [
+       "**F1 = 蛋白莢膜**（另一個蛋白莢膜是炭疽）",
+       "Pla protease（分解 C3b、C5a）、Yops（T3SS）"
+      ],
+      "dz": [
+       "**腺鼠疫**（50–75%）、敗血型、**肺鼠疫**（約 100%）"
+      ],
+      "prev": [
+       "Streptomycin、tetracycline（要及時）",
+       "**沒有有效疫苗**"
+      ],
+      "trap": [
+       "⚠️ 沒有疫苗、感染力強、可吸入 → 生物恐怖武器（國考題）"
+      ]
+     }
+    },
+    {
+     "id": "entcol",
+     "zh": "小腸結腸炎耶氏菌",
+     "sci": "Yersinia enterocolitica",
+     "group": "乳糖不發酵",
+     "ch": "enterobacteriaceae",
+     "cells": {
+      "lab": [
+       "乳糖 (−)、H₂S (−)",
+       "**4 °C 可生長**"
+      ],
+      "host": [
+       "冰箱食物"
+      ],
+      "dz": [
+       "小腸結腸炎、兒童**假性闌尾炎**、反應性關節炎"
+      ],
+      "dx": [
+       "**Cold enrichment**（和 Listeria 一起記）"
+      ]
+     }
+    }
+   ],
+   "notes": [
+    "共通：G(−) 桿菌、兼性厭氧、不產孢子、**catalase (+)、oxidase (−)**（G(−) 桿菌中唯一 oxidase −）、發酵 glucose、還原 nitrate。",
+    "鑑定第一步 = **乳糖發酵**（MacConkey）；Hektoen agar 上 H₂S (+) 呈黑色。",
+    "血清抗原：**O = LPS**、**K = 莢膜**（Salmonella 叫 **Vi**）、**H = 鞭毛**；Teichoic acid 是 G(+)。",
+    "必定致病：S. Typhi、Shigella、Y. pestis；伺機：E. coli、K. pneumoniae、P. mirabilis。"
+   ]
+  },
+  {
+   "id": "ecoli",
+   "title": "E. coli 致病型",
+   "en": "E. coli pathotypes",
+   "rows": [
+    {
+     "k": "dz",
+     "t": "疾病",
+     "match": "疾病"
+    },
+    {
+     "k": "stool",
+     "t": "糞便與發燒"
+    },
+    {
+     "k": "adh",
+     "t": "黏附"
+    },
+    {
+     "k": "toxin",
+     "t": "毒素機制",
+     "match": "毒素機制"
+    },
+    {
+     "k": "dmg",
+     "t": "破壞上皮？"
+    },
+    {
+     "k": "key",
+     "t": "關鍵字"
+    }
+   ],
+   "cols": [
+    {
+     "id": "upec",
+     "zh": "UPEC",
+     "sci": "Uropathogenic E. coli",
+     "group": "",
+     "ch": "enterobacteriaceae",
+     "cells": {
+      "dz": [
+       "**UTI（90%）**、腎盂腎炎"
+      ],
+      "stool": [
+       "—（泌尿道，可血尿）"
+      ],
+      "adh": [
+       "**P pili**、AAF、Dr fimbriae"
+      ],
+      "toxin": [
+       "Hemolysin（溶 RBC、活化發炎）"
+      ],
+      "key": [
+       "女生尿道短；蔓越莓花青素抑制黏附"
+      ]
+     }
+    },
+    {
+     "id": "etec",
+     "zh": "ETEC",
+     "sci": "Enterotoxigenic E. coli",
+     "group": "",
+     "ch": "enterobacteriaceae",
+     "cells": {
+      "dz": [
+       "**旅行者腹瀉**"
+      ],
+      "stool": [
+       "**水瀉、不發燒、無血**"
+      ],
+      "adh": [
+       "CFA（看看就好）"
+      ],
+      "toxin": [
+       "**LT**：heat-labile、≈ cholera toxin、**↑cAMP**",
+       "**ST**：heat-stable、**↑cGMP**"
+      ],
+      "dmg": [
+       "✗ 不破壞上皮"
+      ],
+      "key": [
+       "腸毒素一定要背；LT 和霍亂毒素、炭疽 edema toxin 一起記"
+      ]
+     }
+    },
+    {
+     "id": "ehec",
+     "zh": "EHEC／STEC",
+     "sci": "Enterohemorrhagic E. coli",
+     "group": "",
+     "ch": "enterobacteriaceae",
+     "cells": {
+      "dz": [
+       "**出血性結腸炎**、**HUS**"
+      ],
+      "stool": [
+       "**血便**、無發燒"
+      ],
+      "adh": [
+       "BFP、**intimin–Tir**（同 EPEC）"
+      ],
+      "toxin": [
+       "**Shiga toxin = Stx1/2 = verocytotoxin**",
+       "B 接 **Gb3**、A 切 **60S** → 抑制蛋白合成"
+      ],
+      "dmg": [
+       "✓ ETEC／EPEC／EHEC 中**唯一破壞細胞**"
+      ],
+      "key": [
+       "**O157:H7**、牛肉；EHEC = STEC 同一隻"
+      ]
+     }
+    },
+    {
+     "id": "epec",
+     "zh": "EPEC",
+     "sci": "Enteropathogenic E. coli",
+     "group": "",
+     "ch": "enterobacteriaceae",
+     "cells": {
+      "dz": [
+       "**嬰兒**腹瀉"
+      ],
+      "stool": [
+       "水瀉"
+      ],
+      "adh": [
+       "**BFP + intimin–Tir → pedestal**（T3SS 把 Tir 打進宿主）"
+      ],
+      "toxin": [
+       "**沒有毒素**（無 Shiga toxin）；attaching & effacing"
+      ],
+      "dmg": [
+       "✗ 只黏附、擾亂絨毛吸收"
+      ],
+      "key": [
+       "Intimin 在細菌、Tir 在宿主細胞表面"
+      ]
+     }
+    },
+    {
+     "id": "eiec",
+     "zh": "EIEC",
+     "sci": "Enteroinvasive E. coli",
+     "group": "",
+     "ch": "enterobacteriaceae",
+     "cells": {
+      "dz": [
+       "類志賀菌痢、高燒"
+      ],
+      "stool": [
+       "帶血"
+      ],
+      "adh": [
+       "Invasive plasmid antigens"
+      ],
+      "toxin": [
+       "類 hemolysin"
+      ],
+      "dmg": [
+       "侵入（類似 shigellosis）"
+      ],
+      "key": [
+       "有空再看"
+      ]
+     }
+    },
+    {
+     "id": "eaec",
+     "zh": "EAEC",
+     "sci": "Enteroaggregative E. coli",
+     "group": "",
+     "ch": "enterobacteriaceae",
+     "cells": {
+      "dz": [
+       "孩童水瀉"
+      ],
+      "stool": [
+       "水瀉、無發燒"
+      ],
+      "adh": [
+       "**AAF**：長 fimbriae 疊磚聚集"
+      ],
+      "toxin": [
+       "**EAST**（類 STa → ↑cGMP）"
+      ],
+      "key": [
+       "聚集；有空再看"
+      ]
+     }
+    },
+    {
+     "id": "aiec",
+     "zh": "AIEC",
+     "sci": "Adherent-invasive E. coli",
+     "group": "",
+     "ch": "enterobacteriaceae",
+     "cells": {
+      "dz": [
+       "**Crohn's disease** 相關"
+      ],
+      "adh": [
+       "躲在腸上皮細胞內"
+      ],
+      "toxin": [
+       "胞內繁殖"
+      ],
+      "key": [
+       "歐美較常見"
+      ]
+     }
+    }
+   ],
+   "notes": [
+    "鍾筱菁：記不住就先記 **ETEC、EHEC、EPEC** 三支的毒素；黏附因子看看就好（intimin／Tir 例外）。"
+   ]
+  },
+  {
+   "id": "gnr",
+   "title": "其他 G(−) 桿菌",
+   "en": "Helicobacter · Campylobacter · Pseudomonas · Vibrio",
+   "rows": [
+    {
+     "k": "feat",
+     "t": "型態與氧氣",
+     "match": "特性"
+    },
+    {
+     "k": "host",
+     "t": "宿主與感染源",
+     "match": "感染源"
+    },
+    {
+     "k": "vf",
+     "t": "毒力因子"
+    },
+    {
+     "k": "toxin",
+     "t": "毒素"
+    },
+    {
+     "k": "dz",
+     "t": "代表疾病",
+     "match": "代表疾病"
+    },
+    {
+     "k": "dx",
+     "t": "診斷與治療"
+    },
+    {
+     "k": "trap",
+     "t": "考古陷阱"
+    }
+   ],
+   "cols": [
+    {
+     "id": "hpylori",
+     "zh": "幽門螺旋桿菌",
+     "sci": "Helicobacter pylori",
+     "group": "螺旋／彎曲",
+     "ch": "neisseria",
+     "cells": {
+      "feat": [
+       "G(−) **螺旋**、單端鞭毛、高度運動",
+       "**微需氧**、oxidase (+)、catalase (+)、**urease (+++)**"
+      ],
+      "host": [
+       "**人唯一宿主**、糞口、人傳人"
+      ],
+      "vf": [
+       "**Urease**（產氨中和胃酸）",
+       "Adhesin BabA、SabA；mucinase 鑽進黏膜",
+       "**VacA**（空泡毒素）、**CagA**（T4SS 打入 → IL-8；癌化關鍵）"
+      ],
+      "dz": [
+       "胃炎、**消化性潰瘍（約 90%）**",
+       "**胃腺癌**、**MALT lymphoma**"
+      ],
+      "dx": [
+       "**胃鏡切片（金標準）**",
+       "非侵入：**urea breath test**（¹⁴C／¹³C）、stool antigen",
+       "血清學準確度低，不宜當第一線",
+       "PPI + 兩種抗生素"
+      ],
+      "trap": [
+       "⚠️ 不是嚴格厭氧、不是人畜共通、和大腸癌無關",
+       "2005 諾貝爾：Marshall 自己喝菌液"
+      ]
+     }
+    },
+    {
+     "id": "cjejuni",
+     "zh": "空腸彎曲桿菌",
+     "sci": "Campylobacter jejuni",
+     "group": "螺旋／彎曲",
+     "ch": "neisseria",
+     "cells": {
+      "feat": [
+       "G(−) 彎曲、單端或兩端鞭毛",
+       "**微需氧**、**42 °C** 長得較好、oxidase (+)"
+      ],
+      "host": [
+       "**人畜共通**：未煮熟的雞鴨牛羊肉"
+      ],
+      "vf": [
+       "O:19 LPS 像神經節苷脂（分子擬態）"
+      ],
+      "dz": [
+       "腸胃炎（可血便、發燒）",
+       "**Guillain-Barré syndrome**、reactive arthritis"
+      ],
+      "dx": [
+       "GBS 治療：類固醇、plasma exchange、IVIG"
+      ],
+      "trap": [
+       "⚠️ C. jejuni → Guillain-Barré；HUS 是 EHEC"
+      ]
+     }
+    },
+    {
+     "id": "pseudo",
+     "zh": "綠膿桿菌",
+     "sci": "Pseudomonas aeruginosa",
+     "group": "非發酵",
+     "ch": "neisseria",
+     "cells": {
+      "feat": [
+       "**好氧** G(−) 桿菌、成對、**單端鞭毛**",
+       "Oxidase (+)、**不發酵糖**、β 溶血；綠色螢光、**葡萄味**"
+      ],
+      "host": [
+       "環境到處都能活（水、游泳池、隱形眼鏡藥水、呼吸器）",
+       "**院內、伺機感染**；住皮膚、肺"
+      ],
+      "vf": [
+       "**Alginate**（mucoid、biofilm → 抗藥）",
+       "色素 **pyocyanin**（藍綠）、pyoverdine（螢光黃綠、鐵載體）",
+       "Elastase、phospholipase C、LPS",
+       "**ExoS／ExoT**（T3SS，破壞上皮）"
+      ],
+      "toxin": [
+       "**Exotoxin A**：ADP-ribosylate **EF-2**（同白喉毒素）"
+      ],
+      "dz": [
+       "**燒燙傷**感染、**cystic fibrosis** 肺部感染",
+       "Swimmer's ear、隱形眼鏡**角膜潰瘍**、毛囊炎、UTI"
+      ],
+      "dx": [
+       "多重抗藥（AmpC β-lactamase）；對肥皂、QACs、乾燥有抗性"
+      ],
+      "trap": [
+       "⚠️ ExoS 不抑制蛋白合成（Exotoxin A 才是）",
+       "⚠️ 不是厭氧菌；不產孢子"
+      ]
+     }
+    },
+    {
+     "id": "pseudomallei",
+     "zh": "類鼻疽伯克氏菌",
+     "sci": "Burkholderia pseudomallei",
+     "group": "非發酵",
+     "ch": "neisseria",
+     "cells": {
+      "feat": [
+       "曾歸在 Pseudomonas"
+      ],
+      "host": [
+       "東南亞等地的土壤、水；經皮膚或呼吸道"
+      ],
+      "dz": [
+       "**類鼻疽**：常見膿瘍",
+       "酗酒、糖尿病、慢性腎或肺病者高危"
+      ],
+      "trap": [
+       "高傳染性，列為生物武器"
+      ]
+     }
+    },
+    {
+     "id": "cholerae",
+     "zh": "霍亂弧菌",
+     "sci": "Vibrio cholerae",
+     "group": "弧菌",
+     "ch": "neisseria",
+     "cells": {
+      "feat": [
+       "彎曲 G(−) 桿菌、**有鞘極鞭毛**",
+       "兼性厭氧、**oxidase (+)**、**嗜鹽耐鹼**；TCBS **黃色**"
+      ],
+      "host": [
+       "**人唯一宿主**，但很少人傳人（汙水、食物）"
+      ],
+      "vf": [
+       "**TCP**（toxin-coregulated pilus：定居 + phage 受體）",
+       "毒素基因在 phage **CTXφ**；O1 沒有莢膜",
+       "感染劑量 **> 10⁷**（怕胃酸）"
+      ],
+      "toxin": [
+       "**Cholera toxin**（A-B₅）→ **↑cAMP** → Cl⁻ 與水分泌",
+       "只有 **O1、O139** 產毒"
+      ],
+      "dz": [
+       "霍亂：**米湯樣（洗米水）水瀉**"
+      ],
+      "dx": [
+       "要驗到毒素才算確診"
+      ],
+      "trap": [
+       "⚠️ 是 ↑cAMP 不是 ↑cGMP；不是所有血清型都產毒"
+      ]
+     }
+    },
+    {
+     "id": "parahaem",
+     "zh": "腸炎弧菌",
+     "sci": "Vibrio parahaemolyticus",
+     "group": "弧菌",
+     "ch": "neisseria",
+     "cells": {
+      "feat": [
+       "嗜鹽；TCBS **綠色**"
+      ],
+      "host": [
+       "**生或未煮熟海鮮**（生魚片）"
+      ],
+      "toxin": [
+       "**Kanagawa hemolysin**：**heat-stable**；人 O 型血、兔血 β 溶血"
+      ],
+      "dz": [
+       "**海鮮食物中毒**（台灣常見）、傷口感染"
+      ],
+      "trap": [
+       "⚠️ Kanagawa hemolysin 耐熱"
+      ]
+     }
+    },
+    {
+     "id": "vulnificus",
+     "zh": "創傷弧菌",
+     "sci": "Vibrio vulnificus",
+     "group": "弧菌",
+     "ch": "neisseria",
+     "cells": {
+      "feat": [
+       "嗜鹽；TCBS 藍綠"
+      ],
+      "host": [
+       "**生蠔**；傷口接觸海水、魚刺、處理螃蟹"
+      ],
+      "vf": [
+       "**多醣莢膜**（抗吞噬）、cytolysin、protease、collagenase"
+      ],
+      "dz": [
+       "**原發性敗血症**；**壞死性傷口**、水泡性皮膚炎（常截肢）",
+       "**肝病（肝硬化、肝癌）**、糖尿病高危；美國弧菌死亡的 90%"
+      ],
+      "trap": [
+       "⚠️ 主要不是水瀉"
+      ]
+     }
+    }
+   ],
+   "notes": [
+    "Campylobacter、Helicobacter 共通：**微需氧（約 5% O₂）**、oxidase (+)、catalase (+)、不發酵碳水化合物。",
+    "_B. gladioli_：汙染玉米、木耳、澱粉製品 → **bongkrek acid（米酵菌酸）**食物中毒。"
+   ]
+  },
+  {
+   "id": "confuse",
+   "title": "易混淆",
+   "en": "Look-alikes",
+   "rows": [
+    {
+     "k": "key",
+     "t": "一句話分辨"
+    },
+    {
+     "k": "detail",
+     "t": "細節對照"
+    },
+    {
+     "k": "mnem",
+     "t": "記法"
+    },
+    {
+     "k": "trap",
+     "t": "考古怎麼考"
+    }
+   ],
+   "cols": [
+    {
+     "id": "cons",
+     "zh": "金葡 vs 表皮 vs 腐生",
+     "sci": "S. aureus · S. epidermidis · S. saprophyticus",
+     "group": "鑑定試驗",
+     "ch": "staph-strep",
+     "cells": {
+      "key": [
+       "**Coagulase** 分出金葡；CoNS 再用 **novobiocin** 分"
+      ],
+      "detail": [
+       "S. aureus：coagulase (+)、mannitol (+)、Protein A、β 溶血",
+       "S. epidermidis：novobiocin **敏感** → 人工裝置 biofilm",
+       "S. saprophyticus：novobiocin **抗性** → 年輕女性 UTI"
+      ],
+      "mnem": [
+       "CoNS 裡只有 sapro 抗 novobiocin"
+      ],
+      "trap": [
+       "人工裝置 + catalase (+) + coagulase (−) → S. epidermidis"
+      ]
+     }
+    },
+    {
+     "id": "gas-gbs",
+     "zh": "GAS vs GBS",
+     "sci": "S. pyogenes vs S. agalactiae",
+     "group": "鑑定試驗",
+     "ch": "staph-strep",
+     "cells": {
+      "key": [
+       "**Bacitracin**：GAS 敏感、GBS 抗性；**CAMP** 只有 GBS (+)"
+      ],
+      "detail": [
+       "GAS：PYR (+)、口咽 → 咽喉炎、猩紅熱、風濕熱、AGN",
+       "GBS：hippurate 水解、陰道直腸 → **新生兒**腦膜炎、敗血症",
+       "兩者都 β 溶血（GAS 較強）、**都沒有疫苗**、都沒有抗藥問題"
+      ],
+      "mnem": [
+       "**A** 群咽喉（大人小孩）、**B** 群 **B**aby",
+       "**B**acitracin 抗性的是 **B** 群"
+      ],
+      "trap": [
+       "「GBS bacitracin 敏感」「GAS 有疫苗」都是錯的"
+      ]
+     }
+    },
+    {
+     "id": "pneumo-vir",
+     "zh": "肺炎鏈球菌 vs 草綠鏈球菌",
+     "sci": "S. pneumoniae vs Viridans",
+     "group": "鑑定試驗",
+     "ch": "staph-strep",
+     "cells": {
+      "key": [
+       "都 α 溶血；**optochin 敏感、bile soluble** 的是肺炎鏈球菌"
+      ],
+      "detail": [
+       "S. pneumoniae：雙球菌、莢膜、Quellung (+)、inulin 發酵 → 肺炎、中耳炎、腦膜炎",
+       "Viridans：optochin 抗性、口腔 → 亞急性心內膜炎（mitis）、蛀牙（mutans）"
+      ],
+      "mnem": [
+       "肺炎鏈球菌「怕 optochin、溶於膽汁」"
+      ],
+      "trap": [
+       "Lancefield 只用在 β 溶血菌，viridans 不用"
+      ]
+     }
+    },
+    {
+     "id": "entero-strep",
+     "zh": "腸球菌 vs 鏈球菌",
+     "sci": "Enterococcus vs Streptococcus",
+     "group": "鑑定試驗",
+     "ch": "staph-strep",
+     "cells": {
+      "key": [
+       "都 catalase (−)；**6.5% NaCl、膽鹽可長**的是腸球菌"
+      ],
+      "detail": [
+       "Enterococcus：多 γ 不溶血、PYR (+)、optochin 抗性、不被膽汁溶解 → 院內 UTI、VRE",
+       "Streptococcus：要血液、血清培養基，部分要 CO₂ → 不是院內感染菌"
+      ],
+      "mnem": [
+       "腸球菌「什麼環境都活得下」：高鹽、膽鹽、10–45 °C、pH 4.6–9.9"
+      ],
+      "trap": [
+       "113 考古：catalase (−) + 6.5% NaCl + 抗 vancomycin → **E. faecium**",
+       "PYR (+) 的有 GAS 和腸球菌"
+      ]
+     }
+    },
+    {
+     "id": "camp",
+     "zh": "CAMP test (+)",
+     "sci": "GBS · Listeria",
+     "group": "鑑定試驗",
+     "ch": "staph-strep",
+     "cells": {
+      "key": [
+       "**GBS** 和 **Listeria**：都加強 S. aureus β toxin 的溶血"
+      ],
+      "detail": [
+       "GBS：另有 bacitracin 抗性、hippurate 水解",
+       "Listeria：另有 tumbling motility、4 °C 可長、弱 β 溶血"
+      ]
+     }
+    },
+    {
+     "id": "cold",
+     "zh": "冷藏增殖法 4 °C",
+     "sci": "Cold enrichment",
+     "group": "鑑定試驗",
+     "ch": "bacillus",
+     "cells": {
+      "key": [
+       "**Listeria monocytogenes**、**Y. enterocolitica**"
+      ],
+      "detail": [
+       "檢體 4 °C 放 1–2 週，其他菌死了它還在長 → 冰箱食物",
+       "Listeria：孕婦、經胎盤；Y. enterocolitica：假性闌尾炎"
+      ],
+      "trap": [
+       "「國考小哉問」：cold enrichment 適用哪種菌？"
+      ]
+     }
+    },
+    {
+     "id": "oxidase",
+     "zh": "Oxidase 正負",
+     "sci": "Oxidase test",
+     "group": "鑑定試驗",
+     "ch": "enterobacteriaceae",
+     "cells": {
+      "key": [
+       "G(−) 桿菌中**只有腸桿菌科 oxidase (−)**"
+      ],
+      "detail": [
+       "Oxidase (+)：Vibrio、Pseudomonas、Campylobacter、H. pylori、Neisseria",
+       "腸桿菌科：catalase (+)、發酵 glucose、還原 nitrate"
+      ],
+      "trap": [
+       "「腸桿菌科 oxidase (+)」是錯的"
+      ]
+     }
+    },
+    {
+     "id": "o2",
+     "zh": "氧氣需求",
+     "sci": "Oxygen requirement",
+     "group": "鑑定試驗",
+     "ch": "neisseria",
+     "cells": {
+      "key": [
+       "**微需氧**：Campylobacter、H. pylori、Erysipelothrix"
+      ],
+      "detail": [
+       "好氧：Pseudomonas（住肺、皮膚）、Bacillus",
+       "兼性厭氧：腸桿菌科、Vibrio、葡萄球菌、鏈球菌、Listeria",
+       "絕對厭氧：Clostridium、B. fragilis"
+      ],
+      "mnem": [
+       "腸道沒有氧 → 腸內菌都不是好氧菌"
+      ],
+      "trap": [
+       "「H. pylori 嚴格厭氧」「Pseudomonas 是厭氧菌」都是錯的"
+      ]
+     }
+    },
+    {
+     "id": "motility",
+     "zh": "會動 vs 不動",
+     "sci": "Tumbling vs swarming",
+     "group": "鑑定試驗",
+     "ch": "enterobacteriaceae",
+     "cells": {
+      "key": [
+       "**Listeria tumbling**（20–25 °C）vs **Proteus swarming**（周鞭毛、長不出單一菌落）"
+      ],
+      "detail": [
+       "Listeria 在細胞內靠 ActA 聚合 actin 彗尾跑到隔壁細胞",
+       "不動：B. anthracis、Shigella、Klebsiella、葡萄球菌、鏈球菌、Neisseria"
+      ],
+      "trap": [
+       "Salmonella 有鞭毛、Shigella 沒有（兩者最大差別）",
+       "炭疽不動、仙人掌桿菌會動"
+      ]
+     }
+    },
+    {
+     "id": "spore",
+     "zh": "產孢子 vs 不產孢子",
+     "sci": "Spore formers",
+     "group": "鑑定試驗",
+     "ch": "bacillus",
+     "cells": {
+      "key": [
+       "產孢子的只有 G(+) 桿菌 **Bacillus（好氧）、Clostridium（厭氧）**"
+      ],
+      "detail": [
+       "Listeria、Corynebacterium、Erysipelothrix、Pseudomonas 都**不產孢子**",
+       "孢子染色：malachite green + 加熱"
+      ],
+      "trap": [
+       "「Clostridium 屬於不產孢子 G(+) 桿菌」是錯的"
+      ]
+     }
+    },
+    {
+     "id": "slo-sls",
+     "zh": "SLO vs SLS",
+     "sci": "Streptolysin O vs S",
+     "group": "毒素與毒力",
+     "ch": "staph-strep",
+     "cells": {
+      "key": [
+       "**SLO 有抗原性 → ASO**；**SLS 造成 β 溶血**"
+      ],
+      "detail": [
+       "SLO：oxygen-**labile**、被膽固醇抑制（皮膚感染不產生 ASO）",
+       "SLS：oxygen-**stable**、細胞結合型、沒有抗原性"
+      ],
+      "mnem": [
+       "**O** = **O**xygen-labile、ASO 的 O；**S** = **S**table"
+      ],
+      "trap": [
+       "「SLS 有抗原性 → ASO」是錯的"
+      ]
+     }
+    },
+    {
+     "id": "superag",
+     "zh": "超級抗原家族",
+     "sci": "Superantigens",
+     "group": "毒素與毒力",
+     "ch": "staph-strep",
+     "cells": {
+      "key": [
+       "**TSST-1、S. aureus enterotoxin、GAS SpeA–C**"
+      ],
+      "detail": [
+       "不需 APC 處理，跨接 MHC II 與 TCR Vβ → 大量 cytokine",
+       "TSS（TSST-1，衛生棉條）vs **STSS**（GAS SpeA、SpeC，常伴壞死性筋膜炎）",
+       "猩紅熱紅疹也是 Spe"
+      ],
+      "trap": [
+       "90% TSS 由 S. aureus；Protein A 不是超級抗原（它抓 IgG Fc）"
+      ]
+     }
+    },
+    {
+     "id": "unique-vf",
+     "zh": "專屬毒力因子",
+     "sci": "Signature virulence factors",
+     "group": "毒素與毒力",
+     "ch": "staph-strep",
+     "cells": {
+      "key": [
+       "**Protein A、coagulase → S. aureus**；**M protein、C5a peptidase → GAS**；**Opa → 淋菌**"
+      ],
+      "detail": [
+       "**IgA protease**：S. pneumoniae、Neisseria（S. aureus 沒有）",
+       "**Pneumolysin ≈ SLO**（接膽固醇打洞）",
+       "Sialic acid 抑制補體 alternative pathway：GBS"
+      ],
+      "trap": [
+       "「S. aureus 產 IgA protease／C5a peptidase」是錯的"
+      ]
+     }
+    },
+    {
+     "id": "ef-lf",
+     "zh": "EF vs LF",
+     "sci": "Edema factor vs Lethal factor",
+     "group": "毒素與毒力",
+     "ch": "bacillus",
+     "cells": {
+      "key": [
+       "**EF = adenylate cyclase（↑cAMP、水腫）**；**LF = zinc protease（切 MEK、殺 macrophage）**"
+      ],
+      "detail": [
+       "PA + EF = edema toxin；PA + LF = lethal toxin；PA 單獨無毒",
+       "疫苗抗原 = PA（擋住 PA，EF、LF 都進不去）"
+      ],
+      "mnem": [
+       "**E**dema = **E**F = cAMP 讓水跑出來"
+      ],
+      "trap": [
+       "「PA 單獨毒性最強」「EF 是 zinc protease」都是錯的"
+      ]
+     }
+    },
+    {
+     "id": "toxin-mech",
+     "zh": "↑cAMP vs ↑cGMP vs 抑制蛋白合成",
+     "sci": "Toxin mechanisms",
+     "group": "毒素與毒力",
+     "ch": "pathogenesis",
+     "cells": {
+      "key": [
+       "↑cAMP：**cholera toxin、ETEC LT、炭疽 edema toxin**、pertussis toxin",
+       "↑cGMP：**ETEC ST**、EAEC EAST",
+       "抑制蛋白合成：**60S → Shiga toxin**（S. dysenteriae、EHEC）；**EF-2 → 白喉毒素、Pseudomonas exotoxin A**"
+      ],
+      "detail": [
+       "B. cereus 腹瀉型：老師勘誤為 pore-forming，不是 cAMP",
+       "ExoS／ExoT（T3SS）不抑制蛋白合成"
+      ],
+      "mnem": [
+       "**60S = Shiga**；**EF-2 = 白喉 + 綠膿**（都是 ADP-ribosylation）"
+      ],
+      "trap": [
+       "「何者機制與白喉毒素相同？」→ P. aeruginosa exotoxin A",
+       "「炭疽 edema toxin 機制與何者相同？」→ cholera toxin、ETEC LT"
+      ]
+     }
+    },
+    {
+     "id": "food",
+     "zh": "吐得快 vs 拉得慢的食物中毒",
+     "sci": "Preformed toxin vs infection",
+     "group": "毒素與毒力",
+     "ch": "bacillus",
+     "cells": {
+      "key": [
+       "**S. aureus enterotoxin**（2–6 h 嘔吐）和 **B. cereus 嘔吐型**（< 6 h、米飯）都是吃到**預先形成、耐熱**的毒素"
+      ],
+      "detail": [
+       "B. cereus 腹瀉型：> 6 h、heat-labile（肉、蔬菜）",
+       "V. parahaemolyticus：生海鮮；非傷寒 Salmonella：生雞蛋",
+       "吃完半小時就拉 → 不會是這一餐（還沒到腸道）"
+      ],
+      "mnem": [
+       "吐得快 → 毒素早就在食物裡；拉得慢 → 菌或毒素要到腸道才作用"
+      ],
+      "trap": [
+       "員工午餐後嘔吐 → S. aureus 耐熱 enterotoxin（黃姿雯臨床題）",
+       "fried rice 情境題 → B. cereus 嘔吐型（考 3 次）"
+      ]
+     }
+    },
+    {
+     "id": "capsule",
+     "zh": "蛋白莢膜 vs 多醣莢膜",
+     "sci": "Capsule composition",
+     "group": "毒素與毒力",
+     "ch": "bacillus",
+     "cells": {
+      "key": [
+       "蛋白（胜肽）莢膜只有 **B. anthracis（poly-D-glutamic acid）**、**Y. pestis（F1）**"
+      ],
+      "detail": [
+       "其他都是多醣：S. pneumoniae、N. meningitidis、Hib、S. Typhi（Vi）、GBS、Klebsiella、E. coli K1、V. vulnificus",
+       "GAS 是 hyaluronic acid 莢膜（免疫原性差）；Pseudomonas 是 alginate",
+       "腦膜炎三大菌（肺炎鏈球菌、腦膜炎雙球菌、H. influenzae）共通毒力 = 莢膜"
+      ],
+      "mnem": [
+       "多醣莢膜 → 血清分型、做疫苗"
+      ],
+      "trap": [
+       "「炭疽莢膜是多醣」是錯的（國考題）"
+      ]
+     }
+    },
+    {
+     "id": "lps-los",
+     "zh": "LPS vs LOS",
+     "sci": "Lipopolysaccharide vs lipooligosaccharide",
+     "group": "毒素與毒力",
+     "ch": "neisseria",
+     "cells": {
+      "key": [
+       "**LOS = 沒有 O antigen 的 LPS**：Neisseria、Haemophilus、H. pylori"
+      ],
+      "detail": [
+       "**Lipid A = 毒性**（endotoxin）；**O antigen = 抗原**（血清分型）",
+       "只有 LPS 叫 endotoxin；G(+) 的 PDG 有類內毒素作用但弱很多"
+      ],
+      "trap": [
+       "「Lipid A 負責抗原性」是錯的"
+      ]
+     }
+    },
+    {
+     "id": "endocarditis",
+     "zh": "急性 vs 亞急性心內膜炎",
+     "sci": "Acute vs subacute endocarditis",
+     "group": "疾病",
+     "ch": "staph-strep",
+     "cells": {
+      "key": [
+       "急性 = **S. aureus**；亞急性 = **Viridans（mitis）**"
+      ],
+      "detail": [
+       "S. aureus：菌血症（醫療器材、術後）→ 急性、凶猛",
+       "Viridans：牙科處置入血 → 原有瓣膜病者長 vegetation、低燒反覆",
+       "Enterococcus 心內膜炎最難治；S. epidermidis → 人工瓣膜"
+      ],
+      "mnem": [
+       "亞急性 → 先問有沒有看牙醫"
+      ],
+      "trap": [
+       "高風險病人牙科處置前給預防性抗生素"
+      ]
+     }
+    },
+    {
+     "id": "rf-agn",
+     "zh": "風濕熱 vs 急性腎絲球腎炎",
+     "sci": "Rheumatic fever vs AGN",
+     "group": "疾病",
+     "ch": "staph-strep",
+     "cells": {
+      "key": [
+       "風濕熱**只接在咽炎後**；AGN **皮膚感染後**比咽炎後多"
+      ],
+      "detail": [
+       "風濕熱：class I M protein、心臟與關節、測 ASO",
+       "AGN：nephritogenic M protein、測 **anti-DNase B**（皮膚感染後也適用）",
+       "S. dysgalactiae（C／G 群）可造成 AGN，**從不**造成風濕熱"
+      ],
+      "mnem": [
+       "**心**跟著**喉嚨**，**腎**跟著**皮膚**"
+      ],
+      "trap": [
+       "機轉 = 抗體交叉反應（非化膿性）；男童咽頭炎後心雜音 → 測 ASO"
+      ]
+     }
+    },
+    {
+     "id": "erysipelas",
+     "zh": "丹毒 vs 蜂窩性組織炎 vs 類丹毒",
+     "sci": "Erysipelas · cellulitis · erysipeloid",
+     "group": "疾病",
+     "ch": "staph-strep",
+     "cells": {
+      "key": [
+       "丹毒**界線清楚**、蜂窩性組織炎**界線不清**（都是 GAS）；類丹毒是**豬丹毒桿菌**"
+      ],
+      "detail": [
+       "Erysipelas：臉與腳、表淺",
+       "Cellulitis：深及皮下 → 可能進展成壞死性筋膜炎",
+       "Erysipeloid：Erysipelothrix（G(+) 桿菌、抱豬）、不化膿"
+      ],
+      "mnem": [
+       "有「類」字的是豬：問「最近有沒有抱豬」"
+      ]
+     }
+    },
+    {
+     "id": "hus-gbs",
+     "zh": "HUS vs Guillain-Barré",
+     "sci": "Shiga toxin vs C. jejuni",
+     "group": "疾病",
+     "ch": "enterobacteriaceae",
+     "cells": {
+      "key": [
+       "**HUS → Shiga toxin**（EHEC、S. dysenteriae）；**Guillain-Barré → C. jejuni**（O:19 LPS 像神經節苷脂）"
+      ],
+      "detail": [
+       "縮寫陷阱：**GBS** 可能是 Group B Strep，也可能是 Guillain-Barré syndrome",
+       "C. jejuni、Y. enterocolitica 都可 reactive arthritis"
+      ],
+      "trap": [
+       "「Campylobacter 併發 HUS」「UPEC 造成 HUS」都是錯的"
+      ]
+     }
+    },
+    {
+     "id": "neonatal",
+     "zh": "新生兒腦膜炎",
+     "sci": "Neonatal meningitis",
+     "group": "疾病",
+     "ch": "staph-strep",
+     "cells": {
+      "key": [
+       "**GBS**（第一名）、**E. coli K1**、**Listeria**（經胎盤）"
+      ],
+      "detail": [
+       "GBS：早發 1 週內（產道）、晚發 1 週–3 個月（外來）",
+       "較大孩童與成人的腦膜炎三大菌：S. pneumoniae、N. meningitidis、H. influenzae"
+      ],
+      "trap": [
+       "母親淋病 → 新生兒**結膜炎**（不是腦膜炎），出生時給抗生素眼藥"
+      ]
+     }
+    },
+    {
+     "id": "uti",
+     "zh": "UTI 是誰",
+     "sci": "Urinary tract infection",
+     "group": "疾病",
+     "ch": "enterobacteriaceae",
+     "cells": {
+      "key": [
+       "第一名 **E. coli（UPEC，P pili）**"
+      ],
+      "detail": [
+       "年輕性活躍女性：S. saprophyticus",
+       "導尿管、院內：Enterococcus、CoNS、Klebsiella",
+       "腎結石：Proteus（urease）"
+      ],
+      "trap": [
+       "老師反問：UTI 第一名仍是 E. coli，saprophyticus 只在特定族群最常見"
+      ]
+     }
+    },
+    {
+     "id": "urease",
+     "zh": "Urease (+)",
+     "sci": "H. pylori vs Proteus",
+     "group": "疾病",
+     "ch": "neisseria",
+     "cells": {
+      "key": [
+       "**胃：H. pylori**（中和胃酸）；**膀胱：Proteus mirabilis**（尿液變鹼 → 腎結石）"
+      ],
+      "detail": [
+       "Urea breath test 靠 H. pylori 的 urease",
+       "Proteus：swarming、H₂S (+)、阿摩尼亞味"
+      ]
+     }
+    },
+    {
+     "id": "vibrio3",
+     "zh": "三種弧菌",
+     "sci": "V. cholerae · parahaemolyticus · vulnificus",
+     "group": "疾病",
+     "ch": "neisseria",
+     "cells": {
+      "key": [
+       "**V. cholerae → 米湯水瀉**；**V. parahaemolyticus → 生海鮮食物中毒**；**V. vulnificus → 生蠔、傷口、肝病敗血症**"
+      ],
+      "detail": [
+       "TCBS：cholerae 黃、parahaemolyticus 綠、vulnificus 藍綠",
+       "只有 O1、O139 產霍亂毒素；Kanagawa hemolysin 耐熱"
+      ],
+      "mnem": [
+       "vulnus = 傷口 → 創傷弧菌"
+      ],
+      "trap": [
+       "生海鮮 → V. parahaemolyticus；生蠔 → V. vulnificus"
+      ]
+     }
+    },
+    {
+     "id": "salm-shig",
+     "zh": "沙門氏菌 vs 志賀氏菌",
+     "sci": "Salmonella vs Shigella",
+     "group": "宿主與流行病學",
+     "ch": "enterobacteriaceae",
+     "cells": {
+      "key": [
+       "Salmonella **會動、H₂S (+)**；Shigella **不動、H₂S (−)**；兩者都乳糖 (−)"
+      ],
+      "detail": [
+       "感染劑量：Shigella **10–100** ≪ Salmonella 10⁵ < V. cholerae 10⁷",
+       "Shigella：人唯一宿主、侵襲結腸 → 痢疾、裡急後重",
+       "S. Typhi：人唯一宿主、膽囊帶原、全身性；非傷寒：生蛋、家禽"
+      ],
+      "mnem": [
+       "Shigella 很「省」：100 隻就夠"
+      ],
+      "trap": [
+       "乳糖 (−) + 無運動 + 裡急後重的學童 → Shigella",
+       "持續發燒、肝腫大、乳糖 (−) → Salmonella"
+      ]
+     }
+    },
+    {
+     "id": "etec-epec-ehec",
+     "zh": "ETEC vs EPEC vs EHEC",
+     "sci": "E. coli pathotypes",
+     "group": "宿主與流行病學",
+     "ch": "enterobacteriaceae",
+     "cells": {
+      "key": [
+       "只有 **EHEC 破壞上皮**（血便、HUS）；ETEC 有毒素但不破壞；EPEC 沒有毒素"
+      ],
+      "detail": [
+       "ETEC：旅行者水瀉、LT ↑cAMP、ST ↑cGMP",
+       "EPEC：嬰兒腹瀉、BFP + intimin–Tir pedestal",
+       "EHEC：O157:H7、Shiga toxin（Gb3、60S）"
+      ],
+      "trap": [
+       "EPEC、EHEC 共用黏附因子；intimin 在細菌、Tir 在宿主"
+      ]
+     }
+    },
+    {
+     "id": "host",
+     "zh": "人唯一宿主 vs 人畜共通",
+     "sci": "Human-only vs zoonosis",
+     "group": "宿主與流行病學",
+     "ch": "neisseria",
+     "cells": {
+      "key": [
+       "人唯一宿主：糞口 **S. Typhi、Shigella、V. cholerae、H. pylori**；飛沫 **C. diphtheriae、N. meningitidis**；性病 **N. gonorrhoeae**"
+      ],
+      "detail": [
+       "人畜共通：B. anthracis、Listeria、Erysipelothrix（豬）、C. jejuni（家禽）、Y. pestis（鼠、跳蚤）、非傷寒 Salmonella"
+      ],
+      "mnem": [
+       "沒有人畜共通的性病（鍾筱菁：「歡迎挑戰我」）"
+      ],
+      "trap": [
+       "Zoonosis 考古：C. jejuni 是；H. pylori、N. meningitidis、S. Typhi 不是"
+      ]
+     }
+    },
+    {
+     "id": "gono-mening",
+     "zh": "淋菌 vs 腦膜炎雙球菌",
+     "sci": "N. gonorrhoeae vs N. meningitidis",
+     "group": "宿主與流行病學",
+     "ch": "neisseria",
+     "cells": {
+      "key": [
+       "淋菌**只長 chocolate**、無莢膜、無疫苗；腦膜炎菌 **blood agar 可長**、有莢膜疫苗"
+      ],
+      "detail": [
+       "共通：G(−) 腎形雙球菌、oxidase (+)、人唯一宿主、pili、IgA1 protease、LOS、無鞭毛",
+       "淋菌：性傳染、Por／Opa／Rmp、常產 β-lactamase → ceftriaxone",
+       "腦膜炎菌：飛沫、鼻咽帶菌、DIC、Waterhouse-Friderichsen；接觸者 rifampicin"
+      ],
+      "mnem": [
+       "有莢膜 → 有疫苗（A、C、W135、Y；B 型沒有）"
+      ],
+      "trap": [
+       "淋病診斷靠 NAAT，不靠抗體 4 倍上升",
+       "phase variation（開關）vs antigenic variation（換序列）→ 淋菌沒有疫苗"
+      ]
+     }
+    },
+    {
+     "id": "anthracis-cereus",
+     "zh": "炭疽 vs 仙人掌桿菌",
+     "sci": "B. anthracis vs B. cereus",
+     "group": "宿主與流行病學",
+     "ch": "bacillus",
+     "cells": {
+      "key": [
+       "**炭疽不動、仙人掌會動**；都產孢子、都好氧"
+      ],
+      "detail": [
+       "B. anthracis：poly-D-glutamic acid 莢膜、PA／EF／LF、黑色焦痂",
+       "B. cereus：通常無莢膜（有莢膜株 → 嚴重肺炎）、食物中毒、眼部感染"
+      ],
+      "trap": [
+       "flagella 不是炭疽的毒力因子"
+      ]
+     }
+    },
+    {
+     "id": "mrsa-prsp",
+     "zh": "MRSA vs 肺炎鏈球菌抗藥",
+     "sci": "mecA vs PBP mutation",
+     "group": "疫苗與抗藥",
+     "ch": "staph-strep",
+     "cells": {
+      "key": [
+       "MRSA = **外來 mecA**（SCCmec → PBP2a）；肺炎鏈球菌 = **自身 PBP 突變**"
+      ],
+      "detail": [
+       "HA-MRSA 多重抗藥；CA-MRSA：SCCmec IV + PVL、嚴重肺炎、非 β-lactam 仍敏感、和 HA-MRSA 無關",
+       "淋菌：高程度抗藥 = plasmid penicillinase；低程度 = PBP 突變",
+       "VRE：質體上的 van 基因，可能傳給 MRSA（VRSA，極罕見）"
+      ],
+      "trap": [
+       "國考：肺炎鏈球菌 penicillin 抗藥 = 自身 PBP 突變，不是 penicillinase"
+      ]
+     }
+    },
+    {
+     "id": "vaccine",
+     "zh": "有疫苗 vs 沒有疫苗",
+     "sci": "Vaccines",
+     "group": "疫苗與抗藥",
+     "ch": "staph-strep",
+     "cells": {
+      "key": [
+       "有：**S. pneumoniae**（PPV23、PCV13）、**N. meningitidis**（A、C、W135、Y）、**C. diphtheriae**（DPT 類毒素）、**B. anthracis**（PA）、**S. Typhi**（Vi）"
+      ],
+      "detail": [
+       "沒有：GAS、GBS、S. aureus、N. gonorrhoeae、Listeria、Y. pestis（無有效疫苗）",
+       "PPV23：純多醣、2 歲以上；PCV13：接無毒白喉毒素、6 週–5 歲（台灣 2+1）"
+      ],
+      "trap": [
+       "「GAS 有疫苗」是錯的；DPT 不含炭疽"
+      ]
+     }
+    },
+    {
+     "id": "dx-test",
+     "zh": "診斷試驗對號入座",
+     "sci": "Diagnostic tests",
+     "group": "疫苗與抗藥",
+     "ch": "bacillus",
+     "cells": {
+      "key": [
+       "白喉 **Elek test**（測會不會產毒）vs Schick test（測抗體，已淘汰）"
+      ],
+      "detail": [
+       "H. pylori：切片金標準、urea breath test",
+       "淋病：NAAT",
+       "傷寒：第 1 週血、第 3 週糞便；Widal",
+       "炭疽：DFA、gamma phage lysis",
+       "肺炎鏈球菌：Quellung"
+      ],
+      "trap": [
+       "「Schick test 偵測毒素」「H. pylori 金標準是血清學」都是錯的"
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

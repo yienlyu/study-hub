@@ -23,7 +23,7 @@
 | **Autoclave（濕熱）** | **121°C、15 psi、10–40 min（最常見 20 min）**；密閉加水產生蒸氣、壓力上升使溫度上升 | 滅菌；紗布、器械、培養基 |
 | Flash sterilization | **134°C、3 min** | 滅菌 |
 | Boiling | 100°C 30 min | 消毒（孢子存活） |
-| **Pasteurization** | LTLT 63–66°C 30 min；HTST **71.6°C 15 s**；UHT **>135°C 2–5 s** | **消毒**（液體、乳製品）：去除牛型分枝桿菌、布氏桿菌等人畜共通菌，不能 100% 殺光；鮮乳保存約 10–14 天，UHT 保久乳約 1 年 |
+| **Pasteurization** | LTLT（low-temperature long-time，低溫長時間） 63–66°C 30 min；HTST（high-temperature short-time，高溫短時間） **71.6°C 15 s**；UHT（ultra-high temperature，超高溫） **>135°C 2–5 s** | **消毒**（液體、乳製品）：去除牛型分枝桿菌、布氏桿菌等人畜共通菌，不能 100% 殺光；鮮乳保存約 10–14 天，UHT 保久乳約 1 年 |
 | **Ionizing radiation**（γ、X、cathode） | 穿透力強、打斷 DNA | **滅菌**：醫材、食品 |
 | **UV（nonionizing）** | **pyrimidine dimer**；穿透力差、需直接照射；傷人 | 消毒 |
 | Filtration | **0.22–0.45 μm**；HEPA | 化療藥物（滅菌）、BSC、手術室 |
@@ -44,9 +44,9 @@
   - **食品**：老師舉例**進口水果**照 γ ray 延長保鮮、不會運送途中發霉。
 - **監測**：生物指示劑用 ***B. pumilus***（對輻射抗性高）。
 
-| | 游離輻射 | 非游離輻射 |
+| | 游離輻射 | 非游離輻射（non-ionizing radiation） |
 |---|---|---|
-| 種類 | **γ ray**、X-ray、cathode ray | **UV** |
+| 種類 | **γ ray**、X-ray、cathode ray | **UV**（ultraviolet，紫外線） |
 | 能量／穿透力 | 高／**強**，可穿透包裝 | 低／**差**，要**直接照射**表面 |
 | 傷害 DNA 的方式 | **打斷 dsDNA**＋自由基 | 相鄰 **pyrimidine 形成 dimer**（共價鍵）→ 複製出錯 |
 | 等級 | **滅菌** | **消毒** |
@@ -141,7 +141,7 @@
 - Pasteurization（p.8）：LTLT / HTST / UHT。
 - Radiation（p.10–11）：**ionizing**（p.10：deep penetrating power、能把電子打出軌道、break DNA；gamma rays、X-rays、cathode rays；用於 **medical supplies 與 food products** → 滅菌）vs **nonionizing UV**（p.11：穿透力小、must be directly exposed、pyrimidine dimers、harm for human tissue → 消毒）。
 - Filtration（p.12）：0.22–0.45 μm、HEPA、BSC。
-- Chemical agents（p.13–15）：alkylating、oxidizing、halogens、phenolics、QACs、alcohols；**high / intermediate / low level**。
+- Chemical agents（p.13–15）：alkylating、oxidizing、halogens、phenolics、QACs（quaternary ammonium compounds，四級銨）、alcohols；**high / intermediate / low level**。
 - Sterilants（p.16–21）：ETO（>10.8°C gas、explosive、dilute with CO₂/N₂）、glutaraldehyde（alkaline、14-day shelf life、endoscope）、oxidizing agents、**plasma**（expensive、metal/plastic、arthroscopic）、**supercritical CO₂（45°C、implants）**。
 - Disinfectants & antiseptics（p.22–23）：alcohol 70% > 95%、phenolics、halogens（povidone-iodine）、**chlorhexidine**（p.23：chlorine and two phenolic rings、low toxicity、rapid action、not absorbed into deeper tissues、G+ 與 G− 但不殺 spores、low–intermediate level；**0.2% 漱口抗牙菌斑、0.4% 刷手、2% 消毒**）。
 - Monitoring（p.24）：mechanical / chemical / **biological（B. subtilis、B. pumilus、B. stearothermophilus）**。

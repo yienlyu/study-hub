@@ -24,7 +24,7 @@
 | 對抗生素敏感      | ✓        | ✓                | ✗    |
 | **對干擾素敏感**  | ✗        | ✗                | ✓    |
 
-- 歷史：Mayer（1886，菸草鑲嵌病可傳染）→ **Iwanowski（1892，通過瓷濾器）** → 「contagium vivum fluidum」→ 1930s 稱 virus（拉丁文「毒」）→ **Stanley（1935）純化 TMV** → 電子顯微鏡。
+- 歷史：Mayer（1886，菸草鑲嵌病可傳染）→ **Iwanowski（1892，通過瓷濾器）** → 「contagium vivum fluidum」→ 1930s 稱 virus（拉丁文「毒」）→ **Stanley（1935）純化 TMV**（tobacco mosaic virus，菸草鑲嵌病毒） → 電子顯微鏡。
 - **Host range**：由病毒能否**專一附著**宿主細胞受體，以及宿主內有無複製所需因子決定；少數病毒會跨越宿主物種屏障（例：禽流感）。
 - 是不是生命？在細胞外不表現生命現象；臨床上會致病所以視為活的 →「生物的例外，也是非生物的例外」。
 - **噬菌體（bacteriophage）**：感染細菌；host range 窄、可殺宿主 → **phage therapy** 重新受重視（對抗抗藥菌）。
@@ -46,10 +46,10 @@
 ## 4. 培養與鑑定
 
 - 噬菌體：**plaque method** → **PFU（plaque-forming units）**。
-- 動物病毒：活體動物（例：HIV 用黑猩猩）、**雞胚胎蛋**（胚胎死亡、病灶 pocks）、**細胞培養**：
+- 動物病毒：活體動物（例：HIV（human immunodeficiency virus，人類免疫缺乏病毒） 用黑猩猩）、**雞胚胎蛋**（胚胎死亡、病灶 pocks）、**細胞培養**：
   - primary cell lines（組織來源）
   - **diploid cell lines（人類胚胎，約 100 代）**
-  - **continuous cell lines（轉形、癌化、不死）**
+  - **continuous cell lines（轉形（transformation）、癌化、不死）**
 - **Cytopathic effect（CPE）**：病毒複製使細胞變性；**最早的徵兆是細胞變圓**。
 - 鑑定：形態、血清學、分子方法。
 
@@ -59,7 +59,7 @@
 - **Lysogenic cycle（λ phage）**：phage DNA 整合成 **prophage**，宿主存活。
 - **溶源化的三個結果**：
   1. 溶源菌**對同一種 phage 的再感染免疫**（對其他 phage 不免疫）
-  2. **Phage conversion**：宿主得到新性狀，例如**只有帶 prophage 時才產毒素**（白喉、霍亂、猩紅熱毒素）
+  2. **Phage conversion**：宿主得到新性狀，例如**只有帶 prophage 時才產毒素**（白喉（diphtheria）、霍亂（cholera）、猩紅熱毒素）
   3. **Specialized transduction**：prophage 切出時帶走相鄰的細菌 DNA
 
 ## 6. 動物病毒複製 ⭐⭐⭐
@@ -68,7 +68,7 @@
 
 - **Entry**：**receptor-mediated endocytosis**（例：豬反轉錄病毒）或 **membrane fusion**（例：皰疹病毒）。
 - **Uncoating**：宿主**溶酶體酵素**分解 capsid。
-- **DNA 病毒**：**在細胞核複製 DNA**（用病毒酵素），在**細胞質**用宿主酵素合成蛋白（例：HSV）。
+- **DNA 病毒**：**在細胞核複製 DNA**（用病毒酵素），在**細胞質**用宿主酵素合成蛋白（例：HSV（herpes simplex virus，單純皰疹病毒））。
 - **RNA 病毒**：**在細胞質複製**；需要 **RNA-dependent RNA polymerase**（宿主基因體沒有，由病毒基因編碼）。(+) RNA 例：picornavirus；(−) RNA 例：rhabdovirus。
 - **反轉錄病毒（HIV-1、HIV-2）**：**reverse transcriptase** 以 RNA 為模板做 dsDNA → **整合成 provirus**；**provirus 永遠不會離開染色體**（不同於 prophage）。
 - **Release**：**有套膜者出芽（budding）**；**無套膜者破膜釋出**。
@@ -82,9 +82,9 @@
 | 慢性感染 | lysogeny         | 潛伏、慢性病毒感染、癌症                    |
 | 釋放     | 宿主裂解         | 出芽或破膜                                  |
 
-## 7. 潛伏與持續感染 ⭐⭐
+## 7. 潛伏與持續感染（persistent infection） ⭐⭐
 
-- **Latent infection**：病毒與宿主長期平衡、**不產生疾病**，之後可再活化。例：**單純皰疹 → 唇皰疹**、**水痘病毒 → 帶狀皰疹**；致癌病毒也屬此類。
+- **Latent infection**：病毒與宿主長期平衡、**不產生疾病**，之後可再活化。例：**單純皰疹 → 唇皰疹**（herpes labialis）、**水痘病毒 → 帶狀皰疹**（herpes zoster）；致癌病毒也屬此類。
 - **Persistent（chronic）infection**：病毒**逐漸、持續累積**（不是突然出現），通常致命。例：**B 型肝炎**、SSPE（麻疹 → 智力退化）。
 - ⭐ 區分（百十三標「重要」）：**潛伏感染＝潛伏期沒有症狀、也偵測不到病毒**；**持續感染＝一直偵測得到病毒，而且越來越多**。
 
@@ -97,36 +97,36 @@
 | 步驟           | 藥物                                                                                                                                   | 標的病毒                             |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
 | 破壞病毒顆粒   | 針對有套膜病毒                                                                                                                         | —                                    |
-| 吸附           | 中和抗體；**CCR5 拮抗劑**（受體拮抗）；heparan、dextran sulfate                                                                        | HIV、HSV                             |
+| 吸附           | 中和抗體；**CCR5（C-C chemokine receptor 5） 拮抗劑**（受體拮抗）；heparan、dextran sulfate                                                                        | HIV、HSV                             |
 | 侵入與脫殼     | **Amantadine、rimantadine（中和 pH）**；**pleconaril（抑制 capsid 解體）**；**docosanol（抑制融合）**                                  | **流感 A**；picornavirus；HSV        |
-| RNA 合成       | **Sofosbuvir（polymerase）**；**Ribavirin（抑制核苷生合成與 mRNA capping、超突變）**；干擾素                                           | HCV；RSV、Lassa                      |
-| **基因體複製** | **核苷類似物（最多）**；**pyrophosphate 類似物**（phosphonoformate）；**integrase 抑制劑**（HIV）                                      | 皰疹、HIV、HBV、痘病毒               |
+| RNA 合成       | **Sofosbuvir（polymerase）**；**Ribavirin（抑制核苷生合成與 mRNA capping、超突變）**；干擾素                                           | HCV（hepatitis C virus，C 型肝炎病毒）；RSV（respiratory syncytial virus，呼吸道融合病毒）、Lassa                      |
+| **基因體複製** | **核苷類似物（最多）**；**pyrophosphate 類似物**（phosphonoformate）；**integrase 抑制劑**（HIV）                                      | 皰疹、HIV、HBV（hepatitis B virus，B 型肝炎病毒）、痘病毒               |
 | 蛋白質合成     | IFN-α、IFN-β；**HCV protease 抑制劑（boceprevir、telaprevir）**                                                                        | HCV、乳突病毒                        |
 | 組裝與釋放     | **HIV protease 抑制劑**；**neuraminidase 抑制劑：oseltamivir（克流感，口服）、zanamivir（瑞樂沙，吸入）、peramivir（Rapiacta，注射）** | HIV；**流感 A、B（症狀 48 小時內）** |
-| 刺激先天免疫   | **Imiquimod（TLR7 agonist，外用，尖形濕疣）**、resiquimod、CpG；干擾素誘導劑（Ampligen）；抗體                                         | HCV、乳突病毒                        |
+| 刺激先天免疫   | **Imiquimod（TLR7 agonist，外用，尖形濕疣（condyloma acuminatum））**、resiquimod、CpG；干擾素誘導劑（Ampligen）；抗體                                         | HCV、乳突病毒                        |
 
-### 核苷類似物 ⭐⭐⭐
+### 核苷類似物（nucleoside analog） ⭐⭐⭐
 
 - 修飾鹼基、糖或兩者；**病毒聚合酶結合它的能力比宿主酵素好數百倍** → 終止鏈延長或配對錯誤。
 - 主要標的：**皰疹病毒的 DNA polymerase、HIV 與 HBV 的 reverse transcriptase**。
 - **Acyclovir（ACV）**：
   - **需要病毒的 thymidine kinase 做第一次磷酸化**（宿主酵素再磷酸化成三磷酸）→ **未感染細胞沒有活性藥 → 毒性低**
   - **沒有 3'-OH → 終止病毒 DNA 鏈**
-  - 對 **HSV、VZV** 有效（含腦炎、瀰漫性皰疹）；**可當預防性治療**（免疫低下者避免復發）；**無法清除潛伏感染**
+  - 對 **HSV、VZV**（varicella-zoster virus，水痘帶狀皰疹病毒） 有效（含腦炎、瀰漫性皰疹）；**可當預防性治療**（免疫低下者避免復發）；**無法清除潛伏感染**
   - 抗藥：thymidine kinase 或 DNA polymerase 突變
   - Elion 與 Hitchings 獲 1988 諾貝爾獎
 - **AZT（azidothymidine）**：原為抗癌藥，**第一個 HIV 藥**；thymidine 類似物、**抑制 reverse transcriptase**；由**宿主**酵素磷酸化；缺 3'-OH；宿主 DNA polymerase 敏感度低 100 倍；**孕婦使用可降低母子垂直傳染**；副作用可到骨髓毒性。
-- **HAART（雞尾酒療法）**：至少三種藥，**兩種 NRTI 為骨幹** + NNRTI、PI、融合抑制劑、integrase 抑制劑或 CCR5 拮抗劑擇一 → 降病毒量、升 CD4、減少伺機感染與傳播；多藥多標的 → HIV 難抗藥（多重抗藥株通常較弱）。
+- **HAART（雞尾酒療法）**：至少三種藥，**兩種 NRTI（nucleoside reverse transcriptase inhibitor） 為骨幹** + NNRTI（non-nucleoside reverse transcriptase inhibitor）、PI、融合抑制劑、integrase 抑制劑或 CCR5 拮抗劑擇一 → 降病毒量、升 CD4、減少伺機感染與傳播；多藥多標的 → HIV 難抗藥（多重抗藥株通常較弱）。
 
 ### 百十三共筆補充的藥物細節
 
 - **抗病毒藥不會殺死病毒**，只延緩複製步驟、阻止新病毒產生，真正清除的是免疫細胞；有套膜的病毒顆粒怕脂質溶劑、界面活性劑 → 洗手、酒精有效。
 - 侵入與脫殼：**amantadine、rimantadine 擋 M2 質子通道 → 只對流感 A 有效**；**T20（enfuvirtide）抑制 HIV gp41 融合**（能附著但進不去）；tromantadine 擋 HSV 侵入；arildone、disoxaril、pleconaril 卡在 picornavirus capsid 的 canyon，抑制脫殼。
 - RNA 合成：**sofosbuvir** 是 prodrug，磷酸化成尿苷酸類似物 → 經 HCV **NS5B** 嵌入 RNA 終止，不抑制人類聚合酶；guanidine 結合 picornavirus 2C 蛋白；**ribavirin**（guanosine 類似物，抑制 IMP dehydrogenase、干擾 mRNA cap、造成 hypermutation；治 RSV、流感、麻疹、HCV（合併 IFN-α）；副作用**畸胎、溶血性貧血**）。
-- 核苷類似物家族：**valacyclovir**（ACV 口服前驅藥，VZV 的 thymidine kinase 效率較差、劑量要高）、**famciclovir → penciclovir**（作用較持久，也對 EBV、CMV）、**ganciclovir**（多一個 hydroxymethyl；**CMV 最強**，CMV 用其他 kinase 磷酸化；治 **CMV 視網膜炎**、HIV 病人 CMV 食道炎、結腸炎、肺炎；**骨髓毒性**；也可用於腫瘤基因治療）、**cidofovir、adefovir**（**已帶一個磷酸**，不需病毒酵素起始磷酸化）、**lamivudine**（也抑制 HBV reverse transcriptase）、ddI、d4T。
-- **Foscarnet（PFA）**：pyrophosphate 類似物，**不需磷酸化**，抑制 herpesvirus DNA polymerase 與 HIV RT；會螯合 Ca²⁺ 等二價離子 → 腎功能、骨骼副作用。
+- 核苷類似物家族：**valacyclovir**（ACV 口服前驅藥，VZV 的 thymidine kinase 效率較差、劑量要高）、**famciclovir → penciclovir**（作用較持久，也對 EBV（Epstein-Barr virus）、CMV（cytomegalovirus，巨細胞病毒））、**ganciclovir**（多一個 hydroxymethyl；**CMV 最強**，CMV 用其他 kinase 磷酸化；治 **CMV 視網膜炎**（retinitis）、HIV 病人 CMV 食道炎、結腸炎、肺炎（pneumonia）；**骨髓毒性**；也可用於腫瘤基因治療）、**cidofovir、adefovir**（**已帶一個磷酸**，不需病毒酵素起始磷酸化）、**lamivudine**（也抑制 HBV reverse transcriptase）、ddI、d4T。
+- **Foscarnet（PFA（phosphonoformic acid））**：pyrophosphate 類似物，**不需磷酸化**，抑制 herpesvirus DNA polymerase 與 HIV RT；會螯合 Ca²⁺ 等二價離子 → 腎功能、骨骼副作用。
 - **NNRTI**（nevirapine、delavirdine、efavirenz）：結合非活性部位、**非競爭型抑制**；抗藥機制和核苷類似物不同 → 適合搭配。
-- 干擾素與干擾素誘導劑、antisense oligonucleotide：抑制 mRNA splicing 與轉譯；用於 HPV、HBV、HCV。
+- 干擾素與干擾素誘導劑、antisense oligonucleotide：抑制 mRNA splicing 與轉譯；用於 HPV（human papillomavirus，人類乳突病毒）、HBV、HCV。
 - 流感 neuraminidase 抑制劑給藥偏好：**吃（oseltamivir）＞吸（zanamivir）＞打（peramivir）**；一歲以下不建議 oseltamivir。
 
 ### 新冠藥物
@@ -147,16 +147,16 @@
 
 | 主題         | slides 重點                                                                                                    |
 | ------------ | -------------------------------------------------------------------------------------------------------------- |
-| 學習目標     | 病毒特性、構造、命名、分離培養鑑定、增殖、潛伏感染、持續感染、抗病毒藥                                         |
+| 學習目標     | 病毒特性、構造、命名、分離培養鑑定、增殖、潛伏感染、持續感染、抗病毒藥（antiviral drug）                                         |
 | 病毒 vs 細菌 | Table 13.1：只有病毒**對干擾素敏感、對抗生素不敏感、無核糖體、無細胞膜**                                       |
 | 構造         | 核酸 + capsid（capsomere）± envelope（宿主膜）± spikes（血球凝集）                                             |
-| 培養         | plaque → PFU；雞胚胎蛋；primary、diploid（~100 代）、continuous cell lines；**CPE 第一徵兆 = 細胞變圓**        |
+| 培養         | plaque → PFU；雞胚胎蛋（embryonated egg）；primary、diploid（~100 代）、continuous cell lines；**CPE 第一徵兆 = 細胞變圓**        |
 | 增殖曲線     | one-step growth curve（裂解釋出型）                                                                            |
 | 噬菌體       | lytic（T-even）vs lysogenic（λ）；溶源化三結果：免疫再感染、**phage conversion**、**specialized transduction** |
 | 動物病毒     | 6 步驟；DNA 病毒核內複製、RNA 病毒細胞質；反轉錄病毒 provirus 不會離開                                         |
 | 潛伏 vs 持續 | 唇皰疹、帶狀皰疹 vs 持續累積、致命                                                                             |
 | 抗病毒藥標的 | 吸附、侵入脫殼、RNA 合成、**基因體複製（核苷類似物 ☆☆☆）**、蛋白合成、組裝釋放、刺激先天免疫                   |
-| 代表藥       | **Acyclovir、AZT、HAART、neuraminidase 抑制劑、imiquimod、remdesivir、Paxlovid、molnupiravir**                 |
+| 代表藥       | **Acyclovir、AZT、HAART（highly active antiretroviral therapy，雞尾酒療法）、neuraminidase 抑制劑、imiquimod、remdesivir、Paxlovid、molnupiravir**                 |
 
 === exam ===
 
@@ -166,10 +166,10 @@
 
 1. **動物病毒增殖順序**：Attachment → Entry → Uncoating → Biosynthesis → Release。
 2. **敘述何者正確**：反轉錄病毒有反轉錄酶；**mRNA 重要但不適合當藥物標的**；❌ RNA 病毒在細胞核複製。
-3. **PFU** 是噬菌斑單位（不是 CFU、MPN、TCID）。
+3. **PFU** 是噬菌斑單位（不是 CFU（colony-forming unit，菌落形成單位）、MPN、TCID）。
 4. **潛伏 vs 持續**：❌「HBV 是潛伏感染」（HBV 是持續型）；水痘帶狀皰疹才是潛伏。
 5. **Acyclovir 何者錯誤**：❌「毒性大所以不能預防性使用」→ 其實毒性低、可預防。
-6. **新冠藥**：Remdesivir = RdRp 抑制；❌ Paxlovid 是核苷類似物（是 protease 抑制劑）；❌ Molnupiravir 切蛋白；❌ EUA 不需安全性資料。
+6. **新冠藥**：Remdesivir = RdRp 抑制；❌ Paxlovid 是核苷類似物（是 protease 抑制劑）；❌ Molnupiravir 切蛋白；❌ EUA（emergency use authorization，緊急使用授權） 不需安全性資料。
 
 ## 📝 出題模式
 

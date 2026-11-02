@@ -5999,13 +5999,13 @@
         <header class="section-head" style="padding-top:14px;align-items:end">
           <div><div class="eyebrow">Comparison table · ${esc(bt.credit || "")}</div>
           <h1 class="display h-l" style="margin-top:12px">${esc(bt.title || "比較大表")}</h1>
-          <p class="lede" style="margin-bottom:0">把同一個屬性橫著比完所有蟲，最適合考前快速過一遍。點左邊的列名可以把整列遮住，再一格一格點開回想；想不起來的格子標成「還不熟」，之後只複習這些格子。「配合題練習」會從大表隨機出 5 組，練期中考的配合題。</p></div>
+          <p class="lede" style="margin-bottom:0">${esc(bt.lede || "把同一個屬性橫著比完所有蟲，最適合考前快速過一遍。點左邊的列名可以把整列遮住，再一格一格點開回想；想不起來的格子標成「還不熟」，之後只複習這些格子。「配合題練習」會從大表隨機出 5 組，練期中考的配合題。")}</p></div>
           <div class="toolbar noprint">${sheetTabs(sid, m, "table")}</div>
         </header>
         <div class="worm-bar noprint">
           <div class="chips">${bt.tables.map((x) => `<a class="chip" href="#/s/${sid}/sheet/table?${qs({ t: x.id })}"${x.id === t.id ? ' aria-current="true"' : ""}>${esc(x.title)}<span class="n">${x.cols.length}</span></a>`).join("")}</div>
           <div class="toolbar">
-            <a class="btn accent" href="${href({ mode: "match" })}">${ic("target")}配合題練習</a>
+            ${t.rows.some((r) => r.match) ? `<a class="btn accent" href="${href({ mode: "match" })}">${ic("target")}配合題練習</a>` : ""}
             <button class="btn" type="button" id="bt-rand">${ic("shuffle")}隨機遮一列</button>
             <button class="btn" type="button" id="bt-open">${ic("eye")}全部翻開</button>
           </div>
@@ -6017,7 +6017,7 @@
             <thead><tr><th class="corner" scope="col">${esc(t.title)}<small>${esc(t.en || "")}</small></th>${cols
               .map((c) => {
                 const w = (c.worms || [])[0];
-                return `<th scope="col" id="bt-${esc(c.id)}"${q.col === c.id ? " data-hl" : ""}><b>${esc(c.zh)}</b><i class="sci">${esc(c.sci)}</i>${c.group && !g ? `<span class="grp">${esc(c.group)}</span>` : ""}${w ? `<a class="noprint" href="#/s/${sid}/sheet/worms?${qs({ play: "name", ids: c.worms.join(",") })}">翻蟲卡 →</a>` : ""}</th>`;
+                return `<th scope="col" id="bt-${esc(c.id)}"${q.col === c.id ? " data-hl" : ""}><b>${esc(c.zh)}</b><i class="sci">${esc(c.sci)}</i>${c.group && !g ? `<span class="grp">${esc(c.group)}</span>` : ""}${w ? `<a class="noprint" href="#/s/${sid}/sheet/worms?${qs({ play: "name", ids: c.worms.join(",") })}">翻蟲卡 →</a>` : ""}${subj.chMap[c.ch] ? `<a class="noprint" href="#/s/${sid}/c/${c.ch}/summary">Ch.${pad2(subj.chMap[c.ch].idx)} 重點 →</a>` : ""}</th>`;
               })
               .join("")}</tr></thead>
             <tbody>${t.rows
@@ -6137,7 +6137,7 @@
       return render(
         emptyState(
           "這個範圍湊不出配合題",
-          "選的蟲太少，換成「全部」再試一次。",
+          `選的${bt.unit || "蟲"}太少，換成「全部」再試一次。`,
           `<a class="btn primary" href="${back}">回大表</a>`,
         ),
       );
@@ -6153,7 +6153,7 @@
         <header style="padding-top:14px">
           <div class="eyebrow">Matching · ${esc(t.title)}${q.g ? ` · ${esc(q.g)}` : ""}</div>
           <h1 class="display h-l" style="margin-top:12px">配合題：${esc(row.match)}</h1>
-          <p class="lede">期中考的配合題用英文學名出題。每隻蟲選一個代號，選完按「對答案」；答案取自大表「${esc(row.t)}」那一列。</p>
+          <p class="lede">${esc(bt.matchLede || "期中考的配合題用英文學名出題。每隻蟲選一個代號，選完按「對答案」")}；答案取自大表「${esc(row.t)}」那一列。</p>
         </header>
         <div class="chips noprint" style="margin-top:4px">${ok.map(rchip).join("")}</div>
         <div class="card bt-match" style="margin-top:18px">
@@ -6933,7 +6933,7 @@
           t: "比較大表",
           s: s.meta.title,
           href: `#/s/${sid}/sheet/table`,
-          k: "大表 比較表 究極青眼白蟲 配合題 中間宿主 comparison table",
+          k: "大表 比較表 究極青眼白蟲 配合題 中間宿主 細菌 球菌 易混淆 comparison table",
         });
       if (s.meta.roots)
         items.push({
