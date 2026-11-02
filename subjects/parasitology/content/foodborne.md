@@ -4,7 +4,7 @@
 
 > 范家堃，2026/09/14、09/22。旋毛蟲 _Trichinella spiralis_、顎口線蟲 _Gnathostoma_、海獸胃線蟲 _Anisakis_、廣東住血線蟲 _Angiostrongylus cantonensis_。 以下依百十四共筆 week3 與今年 slides 整理。
 
-## 1. 豬肉旋毛蟲 _Trichinella spiralis_ ⭐⭐⭐
+## 1. 住肉旋毛蟲 _Trichinella spiralis_ ⭐⭐⭐
 
 - 分布：全球，**歐洲與美國**部分地區最常見（中國大陸也有）；「有豬有人的地方就有」。
 - **同一宿主同時是最終宿主與中間宿主（FH & IH）**。
