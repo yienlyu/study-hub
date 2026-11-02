@@ -30,7 +30,7 @@
 <text x="78" y="271" text-anchor="middle" class="ts">生魚片、醃魚</text>
 <g class="hot" data-tip="<i>Clonorchis sinensis</i><br>囊狀幼蟲在<b>淡水魚</b>（鯉科）肉裡。" data-label="中華肝吸蟲"><rect x="172" y="230" width="128" height="54" rx="10" class="bg"/><text x="236" y="252" text-anchor="middle" class="tb">中華肝吸蟲</text></g>
 <text x="236" y="271" text-anchor="middle" class="ts">膽管 · 膽管癌</text>
-<g class="hot" data-tip="<i>Metagonimus yokogawai</i><br>囊狀幼蟲在<b>淡水魚</b>（主要是香魚）鱗下或肌肉；1st IH 川蜷。" data-label="橫川異形吸蟲"><rect x="330" y="230" width="128" height="54" rx="10" class="bg"/><text x="394" y="252" text-anchor="middle" class="tb">橫川異形吸蟲</text></g>
+<g class="hot" data-tip="<i>Metagonimus yokogawai</i><br>囊狀幼蟲在<b>淡水魚</b>（主要是香魚）鱗下或肌肉，也可在蛙類；1st IH 川蜷。" data-label="橫川異形吸蟲"><rect x="330" y="230" width="128" height="54" rx="10" class="bg"/><text x="394" y="252" text-anchor="middle" class="tb">橫川異形吸蟲</text></g>
 <text x="394" y="271" text-anchor="middle" class="ts">小腸 · 腹吸盤偏右</text>
 <g class="hot" data-tip="<i>Capillaria philippinensis</i><br>生吃<b>小型淡水魚</b>；吸收不良、蛋白質流失。" data-label="菲律賓毛線蟲"><rect x="488" y="230" width="128" height="54" rx="10" class="bx"/><text x="552" y="252" text-anchor="middle" class="tb">菲律賓毛線蟲</text></g>
 <text x="552" y="271" text-anchor="middle" class="ts">小腸 · 自體感染</text>
