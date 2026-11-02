@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 758 748" role="img" aria-label="腸吸蟲生活史比較：共同流程是卵隨糞便、纖毛幼蟲進入第一中間宿主螺、尾動幼蟲在第二中間宿主形成囊狀幼蟲、人吃入。薑片蟲：扁捲螺、水生植物、小腸。橫川異形吸蟲：淡水螺、淡水魚或蛙、小腸。異形異形吸蟲：海蜷燒酒螺、海水魚如烏魚、小腸。棘口吸蟲：淡水螺、螺蛙魚與水生植物、小腸。人雙口吸蟲：淡水螺、水生植物、大腸。胰臟吸蟲：陸螺、蝗蟲、胰管。">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 758 748" role="img" aria-label="腸吸蟲生活史比較：共同流程是卵隨糞便、纖毛幼蟲進入第一中間宿主螺、尾動幼蟲在第二中間宿主形成囊狀幼蟲、人吃入。薑片蟲：扁捲螺、水生植物、小腸。橫川異形吸蟲：淡水螺、淡水魚如香魚、小腸。異形異形吸蟲：海蜷燒酒螺等半鹹水螺、半鹹水魚如烏魚、小腸。棘口吸蟲：淡水螺、螺蛙魚與水生植物、小腸。人雙口吸蟲：淡水螺、水生植物、大腸。胰臟吸蟲：陸螺、蝗蟲、胰管。">
 <defs><marker id="intestinal-flukes-fg" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker><marker id="intestinal-flukes-fk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="intestinal-flukes-fr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker><marker id="intestinal-flukes-fv" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
 <rect x="6" y="24" width="746" height="74" rx="14" class="fp"/>
 <text x="12" y="18" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">共同流程</text>
@@ -40,13 +40,13 @@
 <text x="664" y="173" text-anchor="middle" class="ts">最大的吸蟲、最大的卵</text>
 <g class="hot" data-tip="<i>Metagonimus yokogawai</i>" data-label="橫川異形吸蟲"><rect x="14" y="230" width="160" height="54" rx="10" class="bp"/><text x="94" y="262" text-anchor="middle" class="tb">橫川異形吸蟲</text></g>
 <g class="hot" data-tip="<i>Metagonimus yokogawai</i>；1st IH <b>淡水螺</b>（川蜷 <i>Semisulcospira</i>）。卵被螺吃進去才孵化。" data-label="川蜷等淡水螺"><rect x="204" y="230" width="160" height="54" rx="10" class="bx"/><text x="284" y="262" text-anchor="middle" class="tb">川蜷等淡水螺</text></g>
-<g class="hot" data-tip="2nd IH <b>淡水魚或蛙</b>，囊狀幼蟲在魚鱗下或肌肉裡（百十四共筆舉例：烏魚等）。" data-label="淡水魚、蛙"><rect x="394" y="230" width="160" height="54" rx="10" class="bw"/><text x="474" y="252" text-anchor="middle" class="tb">淡水魚、蛙</text></g>
+<g class="hot" data-tip="2nd IH <b>淡水魚</b>，主要是<b>香魚</b>，囊狀幼蟲在魚鱗下或肌肉裡。百十四共筆舉例寫烏魚，但烏魚是異形異形吸蟲的宿主；同學表寫的「蛙」查無文獻。" data-label="淡水魚（香魚）"><rect x="394" y="230" width="160" height="54" rx="10" class="bw"/><text x="474" y="252" text-anchor="middle" class="tb">淡水魚（香魚）</text></g>
 <text x="474" y="271" text-anchor="middle" class="ts">感染來源</text>
 <g class="hot" data-tip="1912 年橫川定在台灣發現；<b>腹吸盤偏中線右側</b>、<b>無生殖吸盤</b>、睪丸 45° 斜排。卵 28–32 µm、纖毛幼蟲不明顯。" data-label="小腸"><rect x="584" y="230" width="160" height="54" rx="10" class="bv"/><text x="664" y="252" text-anchor="middle" class="tb">小腸</text></g>
 <text x="664" y="271" text-anchor="middle" class="ts">台灣首例；腹吸盤偏右</text>
 <g class="hot" data-tip="<i>Heterophyes heterophyes</i>" data-label="異形異形吸蟲"><rect x="14" y="328" width="160" height="54" rx="10" class="bp"/><text x="94" y="360" text-anchor="middle" class="tb">異形異形吸蟲</text></g>
-<g class="hot" data-tip="<i>Heterophyes heterophyes</i>；1st IH <b>海蜷、燒酒螺、栓海螺</b>（不是淡水螺）。" data-label="海蜷、燒酒螺"><rect x="204" y="328" width="160" height="54" rx="10" class="bx"/><text x="284" y="360" text-anchor="middle" class="tb">海蜷、燒酒螺</text></g>
-<g class="hot" data-tip="2nd IH <b>烏魚及其他海水魚</b>；小林晴次郎在埃及港口買魚解剖發現囊狀幼蟲。" data-label="海水魚（烏魚）"><rect x="394" y="328" width="160" height="54" rx="10" class="bw"/><text x="474" y="350" text-anchor="middle" class="tb">海水魚（烏魚）</text></g>
+<g class="hot" data-tip="<i>Heterophyes heterophyes</i>；1st IH <b>海蜷、燒酒螺、栓海螺</b>，都是河口、潮間帶的半鹹水螺（不是淡水螺）。" data-label="海蜷、燒酒螺"><rect x="204" y="328" width="160" height="54" rx="10" class="bx"/><text x="284" y="360" text-anchor="middle" class="tb">海蜷、燒酒螺</text></g>
+<g class="hot" data-tip="2nd IH <b>烏魚</b>等河口半鹹水魚（也有吳郭魚、蝦虎）；小林晴次郎在埃及港口買魚解剖發現囊狀幼蟲。" data-label="半鹹水魚（烏魚）"><rect x="394" y="328" width="160" height="54" rx="10" class="bw"/><text x="474" y="350" text-anchor="middle" class="tb">半鹹水魚（烏魚）</text></g>
 <text x="474" y="369" text-anchor="middle" class="ts">感染來源</text>
 <g class="hot" data-tip="<b>人體最小的吸蟲</b>；<b>多一個生殖吸盤</b>、睪丸左右並列、體表魚鱗狀棘。主要在空腸，也見於十二指腸、迴腸、盲腸；卵經腸壁血管異位到<b>腦、脊髓、心肌</b>。" data-label="小腸（空腸）"><rect x="584" y="328" width="160" height="54" rx="10" class="bv"/><text x="664" y="350" text-anchor="middle" class="tb">小腸（空腸）</text></g>
 <text x="664" y="369" text-anchor="middle" class="ts">最小；3 個吸盤；卵異位</text>
