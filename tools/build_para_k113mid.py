@@ -75,10 +75,19 @@ q(6, "capillaria-strongyloides",
   note="原考古答案為 B/C，兩者都算對。", img=["figures/questions/k113mid-06.webp"])
 q(9, "capillaria-strongyloides", "關於 C. philippinensis 之敘述，何者正確？",
   ["屬於一種 arthropoda-transmitted parasite", "可造成患者嚴重腹瀉乃肇因於 autoinfection", "感染期為第三期幼蟲（L3 larva）",
-   "食道主要由肌肉組織構成"], "B",
-  "(B) ✅ C. philippinensis 可在腸道內 autoinfection，蟲數大增 → 嚴重腹瀉、蛋白質與電解質流失（腸毛細線蟲症）。\n"
-  "(A) 感染途徑是生食淡水魚，不靠節肢動物傳播。(C) 感染期是魚體內的感染性幼蟲，不是 L3。"
-  "(D) 毛細線蟲的食道是由 stichocytes 組成的 stichosome（念珠狀食道），不是肌肉性食道。")
+   "食道主要由肌肉組織構成"], "BC",
+  "答案 (B)(C)。\n"
+  "生活史：成蟲在人的小腸產卵 → 卵隨糞便排出，在水中胚胎化 → 淡水魚吞下含幼蟲的卵，"
+  "幼蟲在魚的腸道與肌肉內發育成第三期幼蟲（L3）→ 人生食這種魚，吃進 L3 → L3 在小腸發育成熟、"
+  "雌雄交配、產卵。\n"
+  "(B) ✅ C. philippinensis 會在腸道內 autoinfection：部分卵在小腸內就孵出幼蟲，直接發育為新一代成蟲，"
+  "不必離開宿主，蟲數因此愈來愈多 → 腹瀉愈來愈嚴重，造成蛋白質與電解質大量流失"
+  "（protein-losing enteropathy），不治療可能惡病質、死亡。\n"
+  "(C) ✅ 感染期是魚體內的 L3 幼蟲，生食淡水魚就是吃進 L3。原考古詳解說「感染期是魚體內的感染性幼蟲，"
+  "不是 L3」，但魚體內的感染性幼蟲就是 L3，兩種說法並不衝突，所以 (C) 也算對。\n"
+  "(A) ❌ 感染途徑是生食淡水魚，不靠節肢動物（arthropod）傳播。\n"
+  "(D) ❌ 毛細線蟲和鞭蟲一樣，食道由 stichocytes 串成 stichosome（念珠狀食道），不是肌肉性食道。",
+  note="原考古詳解答案為 (B)；依上課內容，感染期為魚體內的 L3，本站改為 (B)(C)。")
 q(12, "enterobius-toxocara", "關於蟯蟲（E. vermicularis）的再感染與診斷，以下哪一項是錯誤的？",
   ["Retroinfection 和 autoinfection 皆屬於再次感染", "手觸肛門 → 手帶 E. vermicularis 的卵 → 手放嘴裡 → 感染，為 autoinfection",
    "E. vermicularis 的卵在肛門孵化 → 幼蟲爬回肛門、陰道 → 感染，為 retroinfection", "診斷是否被蟯蟲感染，用糞便檢驗比肛門擦拭法有效"], "D",
