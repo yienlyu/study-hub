@@ -133,7 +133,7 @@
 <text x="278" y="667" class="th">切片</text>
 <text x="348" y="667" style="font-size:12px">直腸</text>
 <text x="278" y="688" class="th">治療</text>
-<text x="348" y="688" class="tb tr" style="font-size:12px">PZQ；Oxamniquine（限曼森）</text>
+<text x="348" y="688" class="tb tr" style="font-size:12px">PZQ；Oxamniquine</text>
 <text x="278" y="709" class="th">壽命</text>
 <text x="348" y="709" style="font-size:12px">10–15 年</text>
 <rect x="520" y="32" width="244" height="712" rx="12" class="bx"/>
