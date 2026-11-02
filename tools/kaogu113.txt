@@ -2997,7 +2997,6 @@ protease、LOS、莢膜（polysaccharide capsule）。Opa proteins（protein II�
 子比較：Neisseria gonorrhoeae 的毒力因子：pilus（其中包含高度變異區，形成抗原多樣性）、
 IgA 1 protease、LOS（內毒素的主要因子）、Por proteins（protein I）、Opa proteins（protein II）
 （很重要)、Rmp proteins（protein III）、Capsule/capsule-like layer。
-註：加粗的代表腦膜炎雙球菌和淋病雙球菌相同的毒力因子
 16.(D)
 (A) Pseudomonas aeruginosa 是好氧（aerobic）、葛蘭氏陰性桿菌，但在缺氧環境可利用硝酸鹽作為
 電子受體進行厭氧呼吸。

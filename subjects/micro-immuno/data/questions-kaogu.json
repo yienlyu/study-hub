@@ -8805,7 +8805,7 @@
       }
     ],
     "answer": ["D"],
-    "explain": "Neisseria meningitides（腦膜炎雙球菌）的毒性強，毒力因子（virulence factors）：pilus、IgA 1 protease、LOS、莢膜（polysaccharide capsule）。Opa proteins（protein II）是淋病雙球菌的毒力因\n子比較：Neisseria gonorrhoeae 的毒力因子：pilus（其中包含高度變異區，形成抗原多樣性）、IgA 1 protease、LOS（內毒素的主要因子）、Por proteins（protein I）、Opa proteins（protein II）（很重要)、Rmp proteins（protein III）、Capsule/capsule-like layer。\n註：加粗的代表腦膜炎雙球菌和淋病雙球菌相同的毒力因子",
+    "explain": "Neisseria meningitides（腦膜炎雙球菌）的毒性強，毒力因子（virulence factors）：pilus、IgA 1 protease、LOS、莢膜（polysaccharide capsule）。Opa proteins（protein II）是淋病雙球菌的毒力因\n子比較：Neisseria gonorrhoeae 的毒力因子：pilus（其中包含高度變異區，形成抗原多樣性）、IgA 1 protease、LOS（內毒素的主要因子）、Por proteins（protein I）、Opa proteins（protein II）（很重要)、Rmp proteins（protein III）、Capsule/capsule-like layer。",
     "topics": ["Neisseria"],
     "pattern": "選錯誤（否定）題"
   },
