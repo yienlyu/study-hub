@@ -4507,6 +4507,7 @@
       t0: Date.now(),
       qt: Date.now(),
       sel: new Set(),
+      typed: {},
     };
     let timer = 0;
     const counts = () =>
@@ -4589,6 +4590,9 @@
         multi && !a
           ? `<div class="multi-bar"><span class="small muted">多選題：選出所有正確的選項再送出，全部選對才算對。</span><button class="btn accent" type="button" id="submitMulti"${S.sel.size ? "" : " disabled"}>${ic("check")}確認答案送出</button></div>`
           : "";
+      const mine = isShort && (S.typed[S.i] || "").trim()
+        ? `<div class="my-answer"><div class="explain-title">你的作答</div>${esc(S.typed[S.i])}</div>`
+        : "";
       let verdict = "";
       if (a) {
         const tone = a.self || a.na ? "neutral" : a.ok ? "good" : "bad";
@@ -4599,18 +4603,18 @@
             : a.ok
               ? `${ic("check")}答對了${S.streak >= 3 && S.i === S.last ? `・連對 ${S.streak} 題` : ""}`
               : `${ic("x")}答錯了，正確答案是 ${ansText(qq)}`;
-        verdict = `<div class="verdict ${tone}" role="status"><div class="verdict-head">${head}${a.na ? "" : wrongRateTag(sid, qq)}</div><div class="verdict-body">
+        verdict = `<div class="verdict ${tone}" role="status"><div class="verdict-head">${head}${a.na ? "" : wrongRateTag(sid, qq)}</div><div class="verdict-body">${mine}
           ${qq.answerText ? `<div class="answer-text"><div class="explain-title">參考答案</div>${rich(qq.answerText)}</div>` : ""}
           ${qq.explain ? `<div class="explain-title">詳解</div><div class="explain">${rich(qq.explain)}</div>` : qq.answerText ? "" : '<div class="muted">這題沒有附詳解。</div>'}
           ${qq.note ? `<div class="note">${ic("alert")}<div>${esc(qq.note)}</div></div>` : ""}${figLinks(subj, qq)}</div></div>`;
       } else if (isShort && S.revealed === S.i) {
-        verdict = `<div class="verdict neutral"><div class="verdict-head">${ic("eye")}參考答案</div><div class="verdict-body">
+        verdict = `<div class="verdict neutral"><div class="verdict-head">${ic("eye")}參考答案</div><div class="verdict-body">${mine}
           ${qq.answerText ? `<div class="answer-text">${rich(qq.answerText)}</div>` : ""}${qq.explain ? `<div class="explain">${rich(qq.explain)}</div>` : ""}
           <div class="self-grade"><button class="btn" type="button" data-self="1">${ic("check")}我會了</button><button class="btn" type="button" data-self="0">${ic("rotate")}還不熟</button></div></div></div>`;
       }
       const shortBox =
         isShort && !a && S.revealed !== S.i
-          ? `<div class="note" style="margin-top:0">${ic("pen")}<div>簡答題：先在心裡或紙上作答，再看參考答案自我評分。</div></div><div class="q-foot"><button class="btn accent" type="button" id="reveal">${ic("eye")}顯示參考答案</button></div>`
+          ? `<div class="note" style="margin-top:0">${ic("pen")}<div>簡答題：可在下方打字作答（非必填），或在心裡／紙上作答，再看參考答案自我評分。</div></div><label class="sr-only" for="shortInput">你的作答（非必填）</label><textarea class="input short-input" id="shortInput" rows="4" placeholder="在這裡寫下你的答案（非必填）">${esc(S.typed[S.i] || "")}</textarea><div class="q-foot"><button class="btn accent" type="button" id="reveal">${ic("eye")}顯示參考答案</button></div>`
           : "";
       const last = S.i === pool.length - 1;
       return `<article class="card qcard" aria-labelledby="qstem">
@@ -4706,6 +4710,9 @@
       $("#submitMulti")?.addEventListener("click", () =>
         submit([...S.sel].sort()),
       );
+      $("#shortInput")?.addEventListener("input", (e) => {
+        S.typed[S.i] = e.target.value;
+      });
       $("#reveal")?.addEventListener("click", () => {
         S.revealed = S.i;
         paint(false);
