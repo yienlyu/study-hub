@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 718 278" role="img" aria-label="鞭蟲生活史：吃入胚胎化蟲卵，在小腸孵化，幼蟲直接到盲腸、大腸長成成蟲，細長的前端埋進黏膜。不經過肺。卵隨糞便排出，在土壤中胚胎化。">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 718 278" role="img" aria-label="鞭蟲生活史：感染途徑是攝入已受精、已胚胎化的蟲卵，在小腸孵化，幼蟲直接到盲腸、大腸長成成蟲，細長的前端埋進黏膜。不經過肺。卵隨糞便排出，在土壤中胚胎化。">
 <defs><marker id="trichuris-cycle-fg" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker><marker id="trichuris-cycle-fk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="trichuris-cycle-fr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker><marker id="trichuris-cycle-fv" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker></defs>
 <rect x="6" y="24" width="166" height="172" rx="14" class="fp"/>
 <text x="12" y="18" class="th" style="paint-order:stroke;stroke:var(--card);stroke-width:4px;stroke-linejoin:round">土壤</text>
@@ -11,8 +11,8 @@
 <path d="M449 90L449 130" class="ln" marker-end="url(#trichuris-cycle-fk)"/>
 <path d="M372 159L166 159" class="ln" marker-end="url(#trichuris-cycle-fk)"/>
 <path d="M89 130L89 90" class="ln" marker-end="url(#trichuris-cycle-fk)"/>
-<g class="hot" data-tip="卵在土壤中約 2–4 週胚胎化才有感染力。" data-label="胚胎化蟲卵"><rect x="14" y="34" width="150" height="54" rx="10" class="bw"/><text x="89" y="56" text-anchor="middle" class="tb">胚胎化蟲卵</text></g>
-<text x="89" y="75" text-anchor="middle" class="ts">感染期 · 吃入</text>
+<g class="hot" data-tip="感染途徑：<b>攝入已受精的蟲卵</b>（經口，污染的食物、水、手）。受精卵在土壤中約 2–4 週胚胎化才有感染力。" data-label="胚胎化受精卵"><rect x="14" y="34" width="150" height="54" rx="10" class="bw"/><text x="89" y="56" text-anchor="middle" class="tb">胚胎化受精卵</text></g>
+<text x="89" y="75" text-anchor="middle" class="ts">感染途徑：攝入</text>
 <g class="hot" data-tip="和蛔蟲、鉤蟲不同，鞭蟲幼蟲<b>沒有心肺移行</b>，孵化後直接往下到大腸。" data-label="小腸孵化"><rect x="194" y="34" width="150" height="54" rx="10" class="bx"/><text x="269" y="56" text-anchor="middle" class="tb">小腸孵化</text></g>
 <text x="269" y="75" text-anchor="middle" class="ts">不經過肺</text>
 <g class="hot" data-tip="前細後粗，像鞭子；食道是一串 <b>stichocytes</b>（stichosome）。屬 Aphasmid nematode。" data-label="盲腸、大腸成蟲"><rect x="374" y="34" width="150" height="54" rx="10" class="bv"/><text x="449" y="56" text-anchor="middle" class="tb">盲腸、大腸成蟲</text></g>
