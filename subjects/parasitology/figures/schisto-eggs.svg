@@ -1,39 +1,202 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 390" role="img" aria-label="三種血吸蟲蟲卵等比例比較：日本血吸蟲卵約 90 乘 70 微米、側邊小刺、在糞便；曼氏血吸蟲卵約 140 乘 60 微米、大側刺、在糞便；埃及血吸蟲卵約 143 乘 60 微米、尾端刺、在尿液。三種都沒有卵蓋，內含成熟纖毛幼蟲。">
-<text x="10" y="20" class="th">等比例 · 都沒有卵蓋 · 內含成熟纖毛幼蟲</text>
-<rect x="8" y="32" width="244" height="350" rx="12" class="bx"/>
-<ellipse cx="132.0" cy="110.0" rx="56.2" ry="43.8" class="bw"/>
-<path d="M159.9,74.2 Q165.9,64.2 168.9,76.2" class="fw" style="stroke:var(--warn);stroke-width:1.2"/>
-<ellipse cx="129.0" cy="110.0" rx="34.9" ry="22.8" class="fp" style="stroke:var(--warn);stroke-width:.8;stroke-dasharray:2 2"/>
-<g class="hot" data-tip="<b>日本血吸蟲卵</b>：約 90 × 70 µm，最圓最小，<b>側邊小刺（knob）常被雜質蓋住看不到</b>。每天產卵量最多（約 3000 個）→ 症狀最嚴重；保蟲宿主多（牛、豬、鼠）。" data-label="日本血吸蟲卵"><text x="22" y="196" class="tb">日本血吸蟲</text></g>
-<text x="22" y="212" class="ts"><tspan font-style="italic">Schistosoma japonicum</tspan> · 90×70 µm</text>
-<text x="22" y="232"  class="tb tr" style="font-size:12px">側邊小刺（常看不到）</text>
-<text x="22" y="258" class="th">檢體</text><text x="88" y="258" style="font-size:12px">糞便</text>
-<text x="22" y="283" class="th">成蟲</text><text x="88" y="283" style="font-size:12px">上腸繫膜靜脈</text>
-<text x="22" y="308" class="th">中間宿主</text><text x="88" y="308" style="font-size:12px">釘螺 Oncomelania</text>
-<text x="22" y="333" class="th">分布</text><text x="88" y="333" style="font-size:12px">中國、菲律賓、印尼</text>
-<text x="22" y="358" class="th">病變</text><text x="88" y="358" style="font-size:12px">肝纖維化、門脈高壓（最嚴重）</text>
-<rect x="264" y="32" width="244" height="350" rx="12" class="bx"/>
-<ellipse cx="388.0" cy="110.0" rx="87.5" ry="37.5" class="bw"/>
-<path d="M420.4,142.4 L431.4,163.4 L433.4,140.4Z" class="fw"/>
-<ellipse cx="385.0" cy="110.0" rx="54.2" ry="19.5" class="fp" style="stroke:var(--warn);stroke-width:.8;stroke-dasharray:2 2"/>
-<g class="hot" data-tip="<b>曼氏血吸蟲卵</b>：約 140 × 60 µm，<b>靠近後端有一根大側刺</b>。成蟲在下腸繫膜靜脈，卵卡在腸壁與肝。" data-label="曼氏血吸蟲卵"><text x="278" y="196" class="tb">曼氏血吸蟲</text></g>
-<text x="278" y="212" class="ts"><tspan font-style="italic">Schistosoma mansoni</tspan> · 140×60 µm</text>
-<text x="278" y="232"  class="tb tr" style="font-size:12px">大側刺</text>
-<text x="278" y="258" class="th">檢體</text><text x="344" y="258" style="font-size:12px">糞便</text>
-<text x="278" y="283" class="th">成蟲</text><text x="344" y="283" style="font-size:12px">下腸繫膜靜脈</text>
-<text x="278" y="308" class="th">中間宿主</text><text x="344" y="308" style="font-size:12px">扁卷螺 Biomphalaria</text>
-<text x="278" y="333" class="th">分布</text><text x="344" y="333" style="font-size:12px">非洲、南美、加勒比海</text>
-<text x="278" y="358" class="th">病變</text><text x="344" y="358" style="font-size:12px">腸、肝（Symmers 纖維化）</text>
-<rect x="520" y="32" width="244" height="350" rx="12" class="bx"/>
-<path d="M554.6,110.0 C554.6,61.2 675.3,66.9 733.4,108.0 L747.4,110.0 L733.4,112.0 C675.3,153.1 554.6,158.8 554.6,110.0Z" class="bw"/>
-<ellipse cx="641.0" cy="110.0" rx="55.4" ry="19.5" class="fp" style="stroke:var(--warn);stroke-width:.8;stroke-dasharray:2 2"/>
-<g class="hot" data-tip="<b>埃及血吸蟲卵</b>：約 143 × 60 µm，<b>尾端刺（terminal spine）</b>，在<b>尿液</b>找到。成蟲在膀胱靜脈叢 → 血尿、膀胱纖維化鈣化、<b>鱗狀細胞癌</b>。" data-label="埃及血吸蟲卵"><text x="534" y="196" class="tb">埃及血吸蟲</text></g>
-<text x="534" y="212" class="ts"><tspan font-style="italic">Schistosoma haematobium</tspan> · 143×60 µm</text>
-<text x="534" y="232"  class="tb tr" style="font-size:12px">尾端刺</text>
-<text x="534" y="258" class="th">檢體</text><text x="600" y="258"  class="tb tr" style="font-size:12px">尿液（中午最多）</text>
-<text x="534" y="283" class="th">成蟲</text><text x="600" y="283" style="font-size:12px">膀胱靜脈叢</text>
-<text x="534" y="308" class="th">中間宿主</text><text x="600" y="308" style="font-size:12px">泡螺 Bulinus</text>
-<text x="534" y="333" class="th">分布</text><text x="600" y="333" style="font-size:12px">非洲、中東</text>
-<text x="534" y="358" class="th">病變</text><text x="600" y="358" style="font-size:12px">血尿、膀胱鱗狀細胞癌</text>
-<path d="M640 172H702.5" class="ln" style="stroke-width:2"/><text x="671.2" y="168" text-anchor="middle" class="ts">50 µm</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 752" role="img" aria-label="三種血吸蟲完整比較。日本血吸蟲：雄蟲表皮平滑、腸道在體後三分之一會合、睪丸 6 到 8 顆排成一列、雌蟲卵巢在體中部、子宮內卵 50 到 300 個、每天產卵 3000 到 4000 個、卵圓形側刺短小、糞便、湖北釘螺。曼森血吸蟲：表皮結節明顯、腸道在體前三分之一會合、睪丸 6 到 9 顆散開、卵巢在體中線之前、子宮內卵 1 到 4 個、卵長卵圓形大側刺、糞便、雙臍扁螺。埃及血吸蟲：表皮結節細小、腸道在體中部會合、睪丸 4 到 5 顆擠成一團、卵巢在體中線之後、子宮內卵 20 到 30 個、卵紡錘形尾端刺、尿液、小泡螺。">
+<text x="10" y="20" class="th">成蟲示意（左＝前端）· 蟲卵等比例 · 都沒有卵蓋 · ⬅＝老師紅箭頭標的鑑別點</text>
+<rect x="8" y="32" width="244" height="712" rx="12" class="bx"/>
+<g class="hot" data-tip="<b>日本血吸蟲</b>：雄蟲表皮<b>平滑</b>、腸道在<b>體後 1/3</b> 會合、睪丸 <b>6–8 顆（平均 7）排成一列</b>；雌蟲卵巢在<b>體中部</b>。子宮內 50–300 個卵、每天 <b>3000–4000</b> 個 → 症狀最嚴重。合抱 15–16 天、第 24 天開始排卵。" data-label="日本血吸蟲"><text x="22" y="54" class="tb" style="font-size:14px">日本血吸蟲</text></g>
+<text x="22" y="70" class="ts" font-style="italic">Schistosoma japonicum</text>
+<ellipse cx="130" cy="116" rx="38.5" ry="27.5" class="bw"/>
+<path d="M151.2,93.2 q4,-6 7,1" class="none" style="stroke:var(--warn);stroke-width:1.6"/>
+<ellipse cx="128" cy="116" rx="23.9" ry="15.1" class="fp" style="stroke:var(--warn);stroke-width:.8;stroke-dasharray:2 2"/>
+<text x="22" y="190" class="tb tr" style="font-size:12px">⬅ 圓形 · 側刺短小（常看不到）</text>
+<text x="22" y="205" class="ts">卵 55–85×40–60 µm</text>
+<line x1="20" y1="216" x2="240" y2="216" class="lt dash"/>
+<text x="22" y="234" class="th">♂ 雄蟲</text>
+<path d="M26,262 C26,251 32,251 38,251 L222,251 C228,251 234,256.5 234,262 C234,267.5 228,273 222,273 L38,273 C32,273 26,273 26,262Z" class="bv"/>
+<circle cx="33" cy="262" r="3.2" class="bx"/><circle cx="50" cy="262" r="4.2" class="bx"/>
+<path d="M37,262 C42,255 46,255 56,255 L174.1,255 Q182.1,255 184.1,262 M37,262 C42,269 46,269 56,269 L174.1,269 Q182.1,269 184.1,262 L228,262" class="lr" style="stroke-width:1.3"/>
+<path d="M184.1,276 l-4,7 h8z" class="fr"/>
+<circle cx="60.0" cy="262.0" r="3.2" class="fv"/>
+<circle cx="67.5" cy="262.0" r="3.2" class="fv"/>
+<circle cx="75.0" cy="262.0" r="3.2" class="fv"/>
+<circle cx="82.5" cy="262.0" r="3.2" class="fv"/>
+<circle cx="90.0" cy="262.0" r="3.2" class="fv"/>
+<circle cx="97.5" cy="262.0" r="3.2" class="fv"/>
+<circle cx="105.0" cy="262.0" r="3.2" class="fv"/>
+<text x="22" y="296" class="tb tr" style="font-size:12px">⬅ 表皮平滑</text>
+<text x="22" y="312" class="tb tr" style="font-size:12px">⬅ 腸道會合：體後 1/3</text>
+<text x="22" y="328" class="tb tr" style="font-size:12px">⬅ 睪丸 6–8 顆排一列</text>
+<text x="22" y="352" class="th">♀ 雌蟲</text>
+<path d="M26,372 C26,368 29,368 32,368 L228,368 C231,368 234,370.0 234,372 C234,374.0 231,376 228,376 L32,376 C29,376 26,376 26,372Z" class="br"/>
+<ellipse cx="42.0" cy="372" rx="1.8" ry="1.5" class="fw"/>
+<ellipse cx="47.0" cy="372" rx="1.8" ry="1.5" class="fw"/>
+<ellipse cx="52.0" cy="372" rx="1.8" ry="1.5" class="fw"/>
+<ellipse cx="57.0" cy="372" rx="1.8" ry="1.5" class="fw"/>
+<ellipse cx="62.0" cy="372" rx="1.8" ry="1.5" class="fw"/>
+<ellipse cx="67.0" cy="372" rx="1.8" ry="1.5" class="fw"/>
+<ellipse cx="72.0" cy="372" rx="1.8" ry="1.5" class="fw"/>
+<ellipse cx="77.0" cy="372" rx="1.8" ry="1.5" class="fw"/>
+<ellipse cx="82.0" cy="372" rx="1.8" ry="1.5" class="fw"/>
+<ellipse cx="87.0" cy="372" rx="1.8" ry="1.5" class="fw"/>
+<ellipse cx="92.0" cy="372" rx="1.8" ry="1.5" class="fw"/>
+<ellipse cx="97.0" cy="372" rx="1.8" ry="1.5" class="fw"/>
+<ellipse cx="102.0" cy="372" rx="1.8" ry="1.5" class="fw"/>
+<ellipse cx="107.0" cy="372" rx="1.8" ry="1.5" class="fw"/>
+<ellipse cx="130.0" cy="372" rx="9" ry="3.2" class="fr"/>
+<line x1="130.0" y1="363" x2="130.0" y2="381" class="lt dash"/>
+<text x="22" y="400" class="tb tr" style="font-size:12px">⬅ 卵巢：體中部</text>
+<text x="140" y="400" class="ts">（橘點＝子宮內卵）</text>
+<line x1="20" y1="414" x2="240" y2="414" class="lt dash"/>
+<text x="22" y="436" class="th">雄蟲</text>
+<text x="92" y="436" style="font-size:12px">12–22×0.5 mm（最細長）</text>
+<text x="22" y="457" class="th">雌蟲</text>
+<text x="92" y="457" style="font-size:12px">12–28×0.3 mm</text>
+<text x="22" y="478" class="th">子宮內卵</text>
+<text x="92" y="478" class="tb tr" style="font-size:12px">50–300 個</text>
+<text x="22" y="499" class="th">每天產卵</text>
+<text x="92" y="499" class="tb tr" style="font-size:12px">3000–4000 個</text>
+<text x="22" y="520" class="th">合抱→排卵</text>
+<text x="92" y="520" style="font-size:12px">15–16 天 → 第 24 天</text>
+<text x="22" y="541" class="th">成蟲</text>
+<text x="92" y="541" style="font-size:12px">上腸繫膜靜脈</text>
+<text x="22" y="562" class="th">檢體</text>
+<text x="92" y="562" style="font-size:12px">糞便</text>
+<text x="22" y="583" class="th">中間宿主</text>
+<text x="92" y="583" style="font-size:12px">湖北釘螺 Oncomelania</text>
+<text x="22" y="604" class="th">分布</text>
+<text x="92" y="604" style="font-size:12px">中國、菲律賓、印尼</text>
+<text x="22" y="625" class="th">症狀</text>
+<text x="92" y="625" style="font-size:12px">肝脾腫大、門脈高壓（最重）</text>
+<text x="22" y="646" class="th"></text>
+<text x="92" y="646" style="font-size:12px">卵可到腦（異位）</text>
+<text x="22" y="667" class="th">切片</text>
+<text x="92" y="667" style="font-size:12px">直腸</text>
+<text x="22" y="688" class="th">治療</text>
+<text x="92" y="688" style="font-size:12px">PZQ；Artemether（童蟲）</text>
+<text x="22" y="709" class="th">壽命</text>
+<text x="92" y="709" style="font-size:12px">15–20 年</text>
+<rect x="264" y="32" width="244" height="712" rx="12" class="bx"/>
+<g class="hot" data-tip="<b>曼森血吸蟲</b>：雄蟲表皮<b>結節明顯（粗糙）</b>、腸道在<b>體前 1/3</b> 會合、睪丸 <b>6–9 顆散開</b>；雌蟲卵巢在<b>體中線之前</b>。子宮內只有 <b>1–4 個卵</b>、每天數百個 → 症狀像日本但較輕。Oxamniquine 只對曼森有效。" data-label="曼森血吸蟲"><text x="278" y="54" class="tb" style="font-size:14px">曼森血吸蟲</text></g>
+<text x="278" y="70" class="ts" font-style="italic">Schistosoma mansoni</text>
+<ellipse cx="380" cy="116" rx="80.9" ry="32.5" class="bw"/>
+<path d="M409.0,145.2 L418.0,164.4 L420.0,143.6Z" class="fw"/>
+<ellipse cx="377" cy="116" rx="50.1" ry="16.9" class="fp" style="stroke:var(--warn);stroke-width:.8;stroke-dasharray:2 2"/>
+<text x="278" y="190" class="tb tr" style="font-size:12px">⬅ 長卵圓 · 側刺長而大</text>
+<text x="278" y="205" class="ts">卵 114–180×45–73 µm</text>
+<line x1="276" y1="216" x2="496" y2="216" class="lt dash"/>
+<text x="278" y="234" class="th">♂ 雄蟲</text>
+<path d="M312.0,251 a2.6,2.6 0 0 1 5.2,0 M320.0,251 a2.6,2.6 0 0 1 5.2,0 M328.0,251 a2.6,2.6 0 0 1 5.2,0 M336.0,251 a2.6,2.6 0 0 1 5.2,0 M344.0,251 a2.6,2.6 0 0 1 5.2,0 M352.0,251 a2.6,2.6 0 0 1 5.2,0 M360.0,251 a2.6,2.6 0 0 1 5.2,0 M368.0,251 a2.6,2.6 0 0 1 5.2,0 M376.0,251 a2.6,2.6 0 0 1 5.2,0 M384.0,251 a2.6,2.6 0 0 1 5.2,0 M392.0,251 a2.6,2.6 0 0 1 5.2,0 M400.0,251 a2.6,2.6 0 0 1 5.2,0 M408.0,251 a2.6,2.6 0 0 1 5.2,0 M416.0,251 a2.6,2.6 0 0 1 5.2,0 M424.0,251 a2.6,2.6 0 0 1 5.2,0 M432.0,251 a2.6,2.6 0 0 1 5.2,0 M440.0,251 a2.6,2.6 0 0 1 5.2,0 M448.0,251 a2.6,2.6 0 0 1 5.2,0 M456.0,251 a2.6,2.6 0 0 1 5.2,0 M464.0,251 a2.6,2.6 0 0 1 5.2,0 " class="bv" style="stroke-width:1"/>
+<path d="M282,262 C282,251 288,251 294,251 L478,251 C484,251 490,256.5 490,262 C490,267.5 484,273 478,273 L294,273 C288,273 282,273 282,262Z" class="bv"/>
+<circle cx="289" cy="262" r="3.2" class="bx"/><circle cx="306" cy="262" r="4.2" class="bx"/>
+<path d="M293,262 C298,255 302,255 312,255 L328.2,255 Q336.2,255 338.2,262 M293,262 C298,269 302,269 312,269 L328.2,269 Q336.2,269 338.2,262 L484,262" class="lr" style="stroke-width:1.3"/>
+<path d="M338.2,276 l-4,7 h8z" class="fr"/>
+<circle cx="316.0" cy="260.0" r="3.0" class="fv"/>
+<circle cx="323.0" cy="265.0" r="3.0" class="fv"/>
+<circle cx="329.0" cy="259.0" r="3.0" class="fv"/>
+<circle cx="336.0" cy="264.0" r="3.0" class="fv"/>
+<circle cx="343.0" cy="259.5" r="3.0" class="fv"/>
+<circle cx="349.0" cy="265.0" r="3.0" class="fv"/>
+<circle cx="356.0" cy="261.0" r="3.0" class="fv"/>
+<circle cx="362.0" cy="264.5" r="3.0" class="fv"/>
+<text x="278" y="296" class="tb tr" style="font-size:12px">⬅ 表皮結節明顯</text>
+<text x="278" y="312" class="tb tr" style="font-size:12px">⬅ 腸道會合：體前 1/3</text>
+<text x="278" y="328" class="tb tr" style="font-size:12px">⬅ 睪丸 6–9 顆散開</text>
+<text x="278" y="352" class="th">♀ 雌蟲</text>
+<path d="M282,372 C282,368 285,368 288,368 L484,368 C487,368 490,370.0 490,372 C490,374.0 487,376 484,376 L288,376 C285,376 282,376 282,372Z" class="br"/>
+<ellipse cx="298.0" cy="372" rx="1.8" ry="1.5" class="fw"/>
+<ellipse cx="303.0" cy="372" rx="1.8" ry="1.5" class="fw"/>
+<ellipse cx="356.9" cy="372" rx="9" ry="3.2" class="fr"/>
+<line x1="386.0" y1="363" x2="386.0" y2="381" class="lt dash"/>
+<text x="278" y="400" class="tb tr" style="font-size:12px">⬅ 卵巢：中線之前</text>
+<text x="396" y="400" class="ts">（橘點＝子宮內卵）</text>
+<line x1="276" y1="414" x2="496" y2="414" class="lt dash"/>
+<text x="278" y="436" class="th">雄蟲</text>
+<text x="348" y="436" style="font-size:12px">8–10×0.8–1 mm（最短）</text>
+<text x="278" y="457" class="th">雌蟲</text>
+<text x="348" y="457" style="font-size:12px">8–17×0.25 mm</text>
+<text x="278" y="478" class="th">子宮內卵</text>
+<text x="348" y="478" class="tb tr" style="font-size:12px">1–4 個（最少）</text>
+<text x="278" y="499" class="th">每天產卵</text>
+<text x="348" y="499" style="font-size:12px">數百個</text>
+<text x="278" y="520" class="th">合抱→排卵</text>
+<text x="348" y="520" style="font-size:12px">28 天 → 第 34–35 天</text>
+<text x="278" y="541" class="th">成蟲</text>
+<text x="348" y="541" style="font-size:12px">下腸繫膜靜脈</text>
+<text x="278" y="562" class="th">檢體</text>
+<text x="348" y="562" style="font-size:12px">糞便</text>
+<text x="278" y="583" class="th">中間宿主</text>
+<text x="348" y="583" style="font-size:12px">雙臍扁螺 Biomphalaria</text>
+<text x="278" y="604" class="th">分布</text>
+<text x="348" y="604" style="font-size:12px">非洲、南美、加勒比海</text>
+<text x="278" y="625" class="th">症狀</text>
+<text x="348" y="625" style="font-size:12px">腸、肝（Symmers 纖維化）</text>
+<text x="278" y="646" class="th"></text>
+<text x="348" y="646" style="font-size:12px">症狀像日本但較輕</text>
+<text x="278" y="667" class="th">切片</text>
+<text x="348" y="667" style="font-size:12px">直腸</text>
+<text x="278" y="688" class="th">治療</text>
+<text x="348" y="688" class="tb tr" style="font-size:12px">PZQ；Oxamniquine（限曼森）</text>
+<text x="278" y="709" class="th">壽命</text>
+<text x="348" y="709" style="font-size:12px">10–15 年</text>
+<rect x="520" y="32" width="244" height="712" rx="12" class="bx"/>
+<g class="hot" data-tip="<b>埃及血吸蟲</b>：雄蟲表皮<b>細小結節</b>、腸道在<b>體中部</b>會合、睪丸 <b>4–5 顆擠成一團</b>；雌蟲卵巢在<b>體中線之後</b>。卵在<b>尿液</b>（中午 12–14 點最多）。成蟲在膀胱靜脈叢 → 血尿、膀胱鈣化、<b>鱗狀細胞癌</b>。" data-label="埃及血吸蟲"><text x="534" y="54" class="tb" style="font-size:14px">埃及血吸蟲</text></g>
+<text x="534" y="70" class="ts" font-style="italic">Schistosoma haematobium</text>
+<path d="M558.5,116 C558.5,76.7 663.5,79.7 705.5,114 L723.5,116 L705.5,118 C663.5,152.3 558.5,155.3 558.5,116Z" class="bw"/>
+<ellipse cx="628.0" cy="116" rx="49.6" ry="16.6" class="fp" style="stroke:var(--warn);stroke-width:.8;stroke-dasharray:2 2"/>
+<path d="M653.5 160H708.5" class="ln" style="stroke-width:2"/><text x="681.0" y="172" text-anchor="middle" class="ts">50 µm</text>
+<text x="534" y="190" class="tb tr" style="font-size:12px">⬅ 紡錘形 · 尾端刺長</text>
+<text x="534" y="205" class="ts">卵 112–170×40–70 µm</text>
+<line x1="532" y1="216" x2="752" y2="216" class="lt dash"/>
+<text x="534" y="234" class="th">♂ 雄蟲</text>
+<path d="M568.0,251 a1.3,1.3 0 0 1 2.6,0 M573.0,251 a1.3,1.3 0 0 1 2.6,0 M578.0,251 a1.3,1.3 0 0 1 2.6,0 M583.0,251 a1.3,1.3 0 0 1 2.6,0 M588.0,251 a1.3,1.3 0 0 1 2.6,0 M593.0,251 a1.3,1.3 0 0 1 2.6,0 M598.0,251 a1.3,1.3 0 0 1 2.6,0 M603.0,251 a1.3,1.3 0 0 1 2.6,0 M608.0,251 a1.3,1.3 0 0 1 2.6,0 M613.0,251 a1.3,1.3 0 0 1 2.6,0 M618.0,251 a1.3,1.3 0 0 1 2.6,0 M623.0,251 a1.3,1.3 0 0 1 2.6,0 M628.0,251 a1.3,1.3 0 0 1 2.6,0 M633.0,251 a1.3,1.3 0 0 1 2.6,0 M638.0,251 a1.3,1.3 0 0 1 2.6,0 M643.0,251 a1.3,1.3 0 0 1 2.6,0 M648.0,251 a1.3,1.3 0 0 1 2.6,0 M653.0,251 a1.3,1.3 0 0 1 2.6,0 M658.0,251 a1.3,1.3 0 0 1 2.6,0 M663.0,251 a1.3,1.3 0 0 1 2.6,0 M668.0,251 a1.3,1.3 0 0 1 2.6,0 M673.0,251 a1.3,1.3 0 0 1 2.6,0 M678.0,251 a1.3,1.3 0 0 1 2.6,0 M683.0,251 a1.3,1.3 0 0 1 2.6,0 M688.0,251 a1.3,1.3 0 0 1 2.6,0 M693.0,251 a1.3,1.3 0 0 1 2.6,0 M698.0,251 a1.3,1.3 0 0 1 2.6,0 M703.0,251 a1.3,1.3 0 0 1 2.6,0 M708.0,251 a1.3,1.3 0 0 1 2.6,0 M713.0,251 a1.3,1.3 0 0 1 2.6,0 M718.0,251 a1.3,1.3 0 0 1 2.6,0 M723.0,251 a1.3,1.3 0 0 1 2.6,0 M728.0,251 a1.3,1.3 0 0 1 2.6,0 " class="bv" style="stroke-width:1"/>
+<path d="M538,262 C538,251 544,251 550,251 L734,251 C740,251 746,256.5 746,262 C746,267.5 740,273 734,273 L550,273 C544,273 538,273 538,262Z" class="bv"/>
+<circle cx="545" cy="262" r="3.2" class="bx"/><circle cx="562" cy="262" r="4.2" class="bx"/>
+<path d="M549,262 C554,255 558,255 568,255 L632.0,255 Q640.0,255 642.0,262 M549,262 C554,269 558,269 568,269 L632.0,269 Q640.0,269 642.0,262 L740,262" class="lr" style="stroke-width:1.3"/>
+<path d="M642.0,276 l-4,7 h8z" class="fr"/>
+<circle cx="574.0" cy="259.4" r="2.9" class="fv"/>
+<circle cx="580.0" cy="259.4" r="2.9" class="fv"/>
+<circle cx="574.0" cy="264.6" r="2.9" class="fv"/>
+<circle cx="580.0" cy="264.6" r="2.9" class="fv"/>
+<circle cx="585.5" cy="262.0" r="2.9" class="fv"/>
+<text x="534" y="296" class="tb tr" style="font-size:12px">⬅ 表皮細小結節</text>
+<text x="534" y="312" class="tb tr" style="font-size:12px">⬅ 腸道會合：體中部</text>
+<text x="534" y="328" class="tb tr" style="font-size:12px">⬅ 睪丸 4–5 顆擠一團</text>
+<text x="534" y="352" class="th">♀ 雌蟲</text>
+<path d="M538,372 C538,368 541,368 544,368 L740,368 C743,368 746,370.0 746,372 C746,374.0 743,376 740,376 L544,376 C541,376 538,376 538,372Z" class="br"/>
+<ellipse cx="554.0" cy="372" rx="1.8" ry="1.5" class="fw"/>
+<ellipse cx="559.0" cy="372" rx="1.8" ry="1.5" class="fw"/>
+<ellipse cx="564.0" cy="372" rx="1.8" ry="1.5" class="fw"/>
+<ellipse cx="569.0" cy="372" rx="1.8" ry="1.5" class="fw"/>
+<ellipse cx="574.0" cy="372" rx="1.8" ry="1.5" class="fw"/>
+<ellipse cx="675.3" cy="372" rx="9" ry="3.2" class="fr"/>
+<line x1="642.0" y1="363" x2="642.0" y2="381" class="lt dash"/>
+<text x="534" y="400" class="tb tr" style="font-size:12px">⬅ 卵巢：中線之後</text>
+<text x="652" y="400" class="ts">（橘點＝子宮內卵）</text>
+<line x1="532" y1="414" x2="752" y2="414" class="lt dash"/>
+<text x="534" y="436" class="th">雄蟲</text>
+<text x="604" y="436" style="font-size:12px">10–15×0.8–1 mm</text>
+<text x="534" y="457" class="th">雌蟲</text>
+<text x="604" y="457" style="font-size:12px">12–20×0.25 mm</text>
+<text x="534" y="478" class="th">子宮內卵</text>
+<text x="604" y="478" style="font-size:12px">20–30 個</text>
+<text x="534" y="499" class="th">每天產卵</text>
+<text x="604" y="499" style="font-size:12px">數百個</text>
+<text x="534" y="520" class="th">合抱→排卵</text>
+<text x="604" y="520" style="font-size:12px">28–31 天 → 第 61–65 天</text>
+<text x="534" y="541" class="th">成蟲</text>
+<text x="604" y="541" style="font-size:12px">膀胱、骨盆靜脈叢</text>
+<text x="534" y="562" class="th">檢體</text>
+<text x="604" y="562" class="tb tr" style="font-size:12px">尿液（中午 12–14 點）</text>
+<text x="534" y="583" class="th">中間宿主</text>
+<text x="604" y="583" style="font-size:12px">小泡螺 Bulinus</text>
+<text x="534" y="604" class="th">分布</text>
+<text x="604" y="604" style="font-size:12px">非洲、中東</text>
+<text x="534" y="625" class="th">症狀</text>
+<text x="604" y="625" style="font-size:12px">血尿、腎水腫、不孕</text>
+<text x="534" y="646" class="th"></text>
+<text x="604" y="646" style="font-size:12px">膀胱鈣化 → 鱗狀細胞癌</text>
+<text x="534" y="667" class="th">切片</text>
+<text x="604" y="667" class="tb tr" style="font-size:12px">膀胱</text>
+<text x="534" y="688" class="th">治療</text>
+<text x="604" y="688" style="font-size:12px">PZQ；Artemether（童蟲）</text>
+<text x="534" y="709" class="th">壽命</text>
+<text x="604" y="709" style="font-size:12px">20–25 年</text>
 </svg>

@@ -791,12 +791,12 @@
  {
   "id": "schisto-eggs",
   "chapter": "trematodes",
-  "title": "三種血吸蟲蟲卵：看刺的位置",
+  "title": "三種血吸蟲完整比較：成蟲、蟲卵、宿主、症狀、診斷、治療",
   "topics": [
    "血吸蟲"
   ],
-  "keywords": "Schistosoma japonicum mansoni haematobium egg spine lateral terminal urine feces",
-  "caption": "<strong>日本</strong>：小、圓、側邊小刺（常看不到）、糞便；<strong>曼氏</strong>：大側刺、糞便；<strong>埃及</strong>：尾端刺、<strong>尿液</strong>。三種都沒有卵蓋。"
+  "keywords": "Schistosoma japonicum mansoni haematobium adult male female tubercles intestinal caeca confluence testes ovary uterus eggs egg spine lateral terminal urine feces snail biopsy praziquantel oxamniquine",
+  "caption": "<strong>成蟲</strong>（老師紅箭頭）：日本 表皮平滑、腸道體後 1/3 會合、睪丸 6–8 顆排一列、卵巢在中部；曼森 結節明顯、體前 1/3、6–9 顆散開、卵巢在中線前；埃及 細小結節、體中部、4–5 顆擠一團、卵巢在中線後。<strong>蟲卵</strong>：日本 圓、側刺短小；曼森 大側刺；埃及 尾端刺、<strong>尿液</strong>。<strong>分辨感染哪一種</strong>：看檢體（糞便 vs 尿液）＋卵刺位置，切片日本／曼森取直腸、埃及取膀胱。"
  },
  {
   "id": "slide-trematode-ova",

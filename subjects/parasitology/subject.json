@@ -11,12 +11,19 @@
   "worms": "data/worms.json",
   "bigtable": "data/bigtable.json",
   "questionFiles": [
+    "data/questions-k114.json",
     "data/questions-kaogu.json",
     "data/questions-k113mid.json",
     "data/questions-k109.json",
     "data/questions-new.json"
   ],
   "sources": [
+    {
+      "key": "k114",
+      "label": "114 考古",
+      "kind": "exam",
+      "pill": "violet"
+    },
     {
       "key": "k113",
       "label": "113 考古",
