@@ -3100,8 +3100,8 @@
         "t": "可抽取病患腦脊髓液（CSF）檢查是否出現幼蟲"
       }
     ],
-    "answer": ["B", "D"],
-    "explain": "（能力不夠，GPT 好用）\n(A) 「Eosinophilic meningitis」要聯想到是Angiostrongylus cantonensis\n(B) 「Eosinophilic meningitis」提示很明顯了\n(C) 腦膜發炎→血管通透性上升→嗜酸性球與發炎液體滲入蛛網膜下腔→CSF 量增加→腦壓升高\n(D) 詳解35.再看一次\n(E) 我查不到幼蟲，只看到Charcot-Leyden crystals，我把它刪了但之前的答案有，大家自行想像",
+    "answer": ["B", "D", "E"],
+    "explain": "「Eosinophilic meningitis」＋生食螺類 → 廣東住血線蟲（Angiostrongylus cantonensis）。\n(A) 錯誤：非洲大蝸牛帶的是 A. cantonensis，不是鉤蟲 A. duodenale。\n(B) 正確：周邊血液嗜酸性球常 > 10%。\n(C) 錯誤：腦膜發炎 → 嗜酸性球與發炎液體滲入蛛網膜下腔 → 腦壓「升高」（不是降低）。\n(D) 正確：只有 L3 能感染人（老師特別強調感染期）。\n(E) 正確：抽 CSF 本來就是診斷步驟，選項只說「檢查是否出現幼蟲」，沒有說一定找得到。CDC DPDx：「On rare occasions, larvae have been found in the CSF」。同概念見 113 考古第 60 題，(C)「腦脊髓液中可能偵測到幼蟲」為正解。\n⚠️ 檢出率不高：CSF 直接看到幼蟲的比例只有約 2–11%，所以臨床上主要靠 CSF 嗜酸性球增多（> 10%，常 500–5000/mm³、20–90% 為嗜酸性球）、蛋白上升、Charcot-Leyden crystals 間接判斷，再用血清學或 CSF PCR 確認。看不到幼蟲也不能排除感染。\n📜 考古流傳：原考古答案有兩個版本。109 期中補考的簡答表是 BDE；109 期中（二）是 BD，整理者註明「我查不到幼蟲，只看到 Charcot-Leyden crystals，我把它刪了但之前的答案有」。刪掉 E 只是因為當時沒查到資料，不是有證據說 E 錯，所以這裡採 BDE。",
     "topics": ["食源性線蟲"],
     "pattern": "多選題",
     "multi": true
