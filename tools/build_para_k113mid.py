@@ -27,12 +27,14 @@ TOPIC = {"intro": "總論：宿主與寄生型態", "sth": "土源性蠕蟲", "e
 CMP = "線蟲綜合比較"
 
 
-def q(num, ch, stem, opts, ans, exp, pattern=POS, note=None, topic=None):
+def q(num, ch, stem, opts, ans, exp, pattern=POS, note=None, topic=None, img=None):
     item = {"id": f"k113mid-{num:02d}", "source": SRC, "num": num, "chapter": ch, "type": "mcq", "stem": stem,
             "options": [{"k": k, "t": t} for k, t in zip("ABCDEF", opts)], "answer": list(ans),
             "explain": exp, "topics": [topic or TOPIC[ch]], "pattern": pattern}
     if note:
         item["note"] = note
+    if img:
+        item["img"] = img
     Q.append(item)
 
 
@@ -65,12 +67,12 @@ q(5, "intro", "下列關於 WHO 網站上寄生蟲的敘述，何者正確？",
   "(A) NTDs 超過 20 種，寄生蟲造成的超過 10 種。(B) 受影響國家遠多於 30 國。(D) 歐美高收入國家仍有寄生蟲病。"
   "(E) 設有熱帶醫學研究所不是寄生蟲病盛行的原因。")
 q(6, "capillaria-strongyloides",
-  "糞便檢體中看到一種橢圓形蟲卵：殼厚、表面有放射狀紋路、兩端各有一個極塞（原題附圖）。關於這種寄生蟲，下列敘述何者正確？",
+  "糞便檢體中看到如附圖的蟲卵（×400）。關於這種寄生蟲，下列敘述何者正確？",
   ["為 O. volvulus 的蟲卵", "為 C. hepatica 的蟲卵", "是 spurious infection", "若醫檢人員誤食此寄生蟲（糞便中的卵）會造成感染"], "BC",
-  "(B) 殼厚有放射紋、兩端有極塞 → Capillaria hepatica 的卵。\n"
+  "(B) 殼厚、殼面有放射狀紋路、兩端透明卵塞與卵殼密接不突出 → Capillaria hepatica 的卵。\n"
   "(C) C. hepatica 成蟲在鼠類肝臟產卵，卵不會進入消化道；人吃到含卵的動物肝臟，卵只是原封不動通過腸道排出 → 假性感染（spurious infection）。\n"
   "(A) O. volvulus 卵胎生，產出的是 microfilariae，糞便中看不到卵。\n(D) 糞便中的新鮮卵還沒在土壤中胚胎化，吃下也不會感染。",
-  note="原考古答案為 B/C，兩者都算對。原題附蟲卵照片，本站改以文字描述。")
+  note="原考古答案為 B/C，兩者都算對。", img=["figures/questions/k113mid-06.webp"])
 q(9, "capillaria-strongyloides", "關於 C. philippinensis 之敘述，何者正確？",
   ["屬於一種 arthropoda-transmitted parasite", "可造成患者嚴重腹瀉乃肇因於 autoinfection", "感染期為第三期幼蟲（L3 larva）",
    "食道主要由肌肉組織構成"], "B",
