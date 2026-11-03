@@ -915,11 +915,14 @@
     },
     // 更新通知已讀：登入的人按「知道了」時記一筆，後台可以查誰還沒看。
     // 資料表還沒建（沒跑新版 schema.sql）時只在 console 提示，不影響網站。
-    async markNewsSeen(id = store.get("sh:newsSeen", null)) {
-      if (!this.sb || !this.user || !id) return;
-      const { error } = await this.sb
-        .from("news_seen")
-        .upsert({ user_id: this.user.id, news_id: id }, { onConflict: "user_id,news_id", ignoreDuplicates: true });
+    // ids 可以是一則或多則（小視窗一次列出好幾則時每則都記）
+    async markNewsSeen(ids = store.get("sh:newsSeen", null)) {
+      ids = [].concat(ids || []).filter(Boolean);
+      if (!this.sb || !this.user || !ids.length) return;
+      const { error } = await this.sb.from("news_seen").upsert(
+        ids.map((news_id) => ({ user_id: this.user.id, news_id })),
+        { onConflict: "user_id,news_id", ignoreDuplicates: true },
+      );
       if (error) console.warn("news_seen:", error.message);
     },
     async sync() {
@@ -7342,8 +7345,11 @@
 
   // ------------------------------------------------------------ 更新通知
   // news.json 的 items[0].id 就是目前的網站版本（用 no-store 讀，繞過瀏覽器快取）。
-  // 1. 舊版分頁開著時：切回分頁時檢查（最多每 10 分鐘一次），一直開著看則每 30 分鐘補查；版本變了就跳小卡提醒「重新整理」。
-  // 2. 重新整理後：沒看過的更新跳一個小視窗，列出更新內容與重點；按「知道了」記為已讀。
+  // 1. 舊版分頁開著時：每 5 分鐘（分頁在前景時）＋切回分頁時檢查，兩次至少隔 5 分鐘；版本變了就跳小卡提醒「重新整理」。
+  //    跳出提醒後仍繼續檢查：又有更新時小卡換成最新一則，並註明「共 N 則更新」。
+  // 2. 重新整理後：沒看過的更新（上次已讀那則之後的全部）跳一個小視窗，最多列 5 則，其餘註明則數；
+  //    按「知道了」記為已讀，列出的每一則都記到雲端 news_seen。
+  //    → news.json 舊的不要刪，否則上次已讀那則找不到，只會顯示最新一則。
   const News = {
     items: [],
     boot: null,
@@ -7371,8 +7377,8 @@
         if (!returning && this.boot) store.set(this.seenKey, this.boot);
       }
       this.showWhatsNew();
-      // 主要靠「切回分頁」時檢查；一直開著看的話每 30 分鐘補查一次。兩次檢查至少隔 10 分鐘。
-      setInterval(() => document.visibilityState === "visible" && this.check(), 30 * 60 * 1000);
+      // 分頁在前景時每 5 分鐘查一次；切回分頁時也查。兩次檢查至少隔 5 分鐘。
+      setInterval(() => document.visibilityState === "visible" && this.check(), this.every);
       document.addEventListener("visibilitychange", () => {
         if (document.visibilityState === "visible") this.check();
       });
@@ -7386,9 +7392,10 @@
       return i < 0 ? this.items.slice(0, 1) : this.items.slice(0, i);
     },
     busy: () => /\/mock/.test(location.hash), // 模擬考作答中不打擾
+    every: 5 * 60 * 1000,
     lastCheck: Date.now(),
     async check() {
-      if (!this.boot || this.pending || Date.now() - this.lastCheck < 10 * 60 * 1000) return;
+      if (!this.boot || Date.now() - this.lastCheck < this.every - 5000) return;
       this.lastCheck = Date.now();
       let items;
       try {
@@ -7396,19 +7403,22 @@
       } catch {
         return;
       }
-      if (items[0]?.id && items[0].id !== this.boot) {
-        this.pending = items;
-        this.showUpdate();
-      }
+      const top = items[0]?.id;
+      if (!top || top === this.boot || top === this.pending?.[0]?.id) return;
+      // 又有新的更新：換掉舊的小卡（按過關閉的也會再跳，因為關閉是記在那一則的 id 上）
+      this.pending = items;
+      if ($("#newsPop.news-pop")) $("#newsPop").remove();
+      this.showUpdate();
     },
     showUpdate() {
       if (!this.pending || this.busy() || $("#newsPop")) return;
       const n = this.pending[0];
       if (sessionStorage.getItem("sh:updDismiss") === n.id) return;
+      const behind = Math.max(1, this.pending.findIndex((x) => x.id === this.boot));
       const el = this.mount(
         "news-pop",
         `<button class="news-x" type="button" aria-label="關閉">${ic("x")}</button>
-        <div class="eyebrow">有新版本</div><b>${esc(n.title)}</b>
+        <div class="eyebrow">有新版本${behind > 1 ? ` · 共 ${behind} 則更新` : ""}</div><b>${esc(n.title)}</b>
         <p>重新整理就會看到，作答紀錄都會保留。</p>
         <div class="news-act"><button class="btn primary sm" type="button" data-act="reload">${ic("rotate")}重新整理</button></div>`,
       );
@@ -7436,14 +7446,15 @@
           <button class="news-x" type="button" aria-label="關閉">${ic("x")}</button>
           <div class="eyebrow"><b>Study Hub</b> · 更新內容</div>
           <h2 class="display h-m" id="newsTtl">網站更新了</h2>
-          <div class="news-items">${u.slice(0, 3).map(block).join("")}</div>
+          <div class="news-items">${u.slice(0, 5).map(block).join("")}</div>
+          ${u.length > 5 ? `<p class="news-more">還有 ${u.length - 5} 則較早的更新</p>` : ""}
           <div class="news-act"><button class="btn primary" type="button" data-act="ok">知道了</button></div>
         </div>`,
       );
       const close = () => {
         if (this.items[0]) {
           store.set(this.seenKey, this.items[0].id);
-          Cloud.markNewsSeen(this.items[0].id).catch(() => {});
+          Cloud.markNewsSeen(u.map((x) => x.id)).catch(() => {});
         }
         el.remove();
         removeEventListener("keydown", esc_);

@@ -1342,5 +1342,6 @@ a.icon-btn { text-decoration: none; }
 .news-items section + section { border-top: 1px solid var(--rule); }
 .news-items h3 { font-size: 1rem; margin: 6px 0 0; line-height: 1.45; }
 .news-items ul { margin: 8px 0 0; padding-left: 1.2em; color: var(--ink-2); font-size: .9rem; line-height: 1.6; }
+.news-more { margin: 4px 0 0; color: var(--ink-3, var(--ink-2)); font-size: .85rem; }
 .news-link { display: inline-flex; align-items: center; gap: 4px; margin-top: 8px; font-size: .88rem; color: var(--violet-ink); }
 .news-link svg { width: 14px; height: 14px; }

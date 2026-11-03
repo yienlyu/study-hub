@@ -12507,7 +12507,7 @@
       }
     ],
     "answer": ["D"],
-    "explain": "Only O1, O139 V. cholerae will make cholera toxin，option B 為 V. vulnificus 描述",
+    "explain": "Only O1, O139 V. cholerae will make cholera toxin，option B 為 V. vulnificus 描述\n(C) 錯誤：會感染傷口、造成組織壞死的典型菌是 Vibrio vulnificus（創傷弧菌），不是 V. parahaemolyticus（腸炎弧菌）。",
     "topics": ["Vibrio"],
     "pattern": "選正確／單一概念題"
   },
