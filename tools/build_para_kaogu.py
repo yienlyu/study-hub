@@ -131,13 +131,16 @@ for qname, aname, prefix, fixed in SETS:
     for n, seg in qs.items():
         stem, opts = options(seg)
         ans = key_s.get(n, "")
-        if not re.fullmatch(r"[A-E]+", ans):
-            continue  # 考古沒有給答案（例：線蟲第 73 題「無答案」）
+        no_ans = ans in ("無答案", "X")  # 例：線蟲第 73 題「無答案」＝五個敘述都正確，沒有可選的錯誤選項
+        if not no_ans and not re.fullmatch(r"[A-E]+", ans):
+            continue  # 考古沒有給答案
         exp = strip_ans(es.get(n, ""))
         q = {"id": f"{prefix}-{n:02d}", "source": SOURCE, "num": n, "chapter": ch(seg, exp[:300]),
-             "type": "mcq", "stem": stem, "options": opts, "answer": list(ans),  # 例：BD → 兩個都算對
+             "type": "mcq", "stem": stem, "options": opts, "answer": [] if no_ans else list(ans),  # 例：BD → 兩個都算對
              "explain": exp or "（考古未附詳解）", "topics": [],
              "pattern": "選錯誤／否定題" if re.search(r"何者為非|何者錯誤|不是|錯誤|非|NOT|incorrect", stem) else "選正確／單一概念題"}
+        if no_ans:
+            q["noAnswer"] = True
         if needs_image(stem, opts):
             q["imageOnly"] = True
         Q.append(q)
