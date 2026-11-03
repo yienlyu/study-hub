@@ -161,14 +161,6 @@
       "slides": true
     },
     {
-      "id": "nematode-lab",
-      "title": "線蟲實驗：蟲卵與蟲體鑑別",
-      "en": "Nematode Lab · Ova & Adult Identification",
-      "teacher": "實驗課",
-      "week": "W3（9/21）",
-      "slides": true
-    },
-    {
       "id": "trematodes",
       "title": "吸蟲：腸吸蟲、肺吸蟲、肝吸蟲、血吸蟲",
       "en": "Trematodes",
@@ -182,6 +174,14 @@
       "en": "Cestodes: Outline & Pseudophyllidea",
       "teacher": "范家堃",
       "week": "W9（11/2）",
+      "slides": true
+    },
+    {
+      "id": "nematode-lab",
+      "title": "線蟲實驗：蟲卵與蟲體鑑別",
+      "en": "Nematode Lab · Ova & Adult Identification",
+      "teacher": "實驗課",
+      "week": "W3（9/21）",
       "slides": true
     }
   ],

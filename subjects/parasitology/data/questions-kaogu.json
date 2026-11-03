@@ -3856,7 +3856,7 @@
       }
     ],
     "answer": ["C", "E"],
-    "explain": "(E) P. westemani 的第一中間宿主包含川蜷、瘤蜷，而第二中間宿主則包括淡水蟹和淡水蝦。 T. spiralis 最常出現於豬肉中。 水蚤為G. spinigerum 第一中間宿主、淡水魚和青蛙為第二中間宿主，而鳥、家禽、青蛙以及蛇等 等都有可能成為paratenic host（保幼宿主）。 海獸胃線蟲，通常出現於魚肉中。 犬蛔蟲寄生於犬及狐狸小腸，但除了第15 題詳解提到的動物，鴨子亦可做為其保幼宿主。 吃鴨子：G. spinigerum、T. canis 吃豬肉：T. solium、T. asiatica、T. gondii、T. spiralis 吃魚肉：C. philipinesis、A. simplex",
+    "explain": "(E) P. westemani 的第一中間宿主包含川蜷、瘤蜷，而第二中間宿主則包括淡水蟹和淡水蝦。 T. spiralis 最常出現於豬肉中。 水蚤為G. spinigerum 第一中間宿主、淡水魚和青蛙為第二中間宿主，而鳥、家禽、青蛙以及蛇等 等都有可能成為paratenic host（保幼宿主）。 海獸胃線蟲，通常出現於魚肉中。 犬蛔蟲寄生於犬及狐狸小腸，但除了第15 題詳解提到的動物，鴨子亦可做為其保幼宿主。 \n吃鴨子：G. spinigerum、T. canis \n吃豬肉：T. solium、T. asiatica、T. gondii、T. spiralis \n吃魚肉：C. philipinesis、A. simplex",
     "topics": ["食源性線蟲"],
     "pattern": "多選題",
     "multi": true
