@@ -74,12 +74,12 @@
       "chapters": ["trematodes"]
     },
     {
-      "title": "期末・線蟲實驗 W3（跑台、混合蟲卵）",
-      "chapters": ["nematode-lab"]
+      "title": "期末・紙筆｜絛蟲（范家堃）W9",
+      "chapters": ["cestodes-pseudo"]
     },
     {
-      "title": "期末・絛蟲（范家堃）W9",
-      "chapters": ["cestodes-pseudo"]
+      "title": "期末・跑台、混合蟲卵｜線蟲實驗 W3",
+      "chapters": ["nematode-lab"]
     }
   ],
   "mock": {
