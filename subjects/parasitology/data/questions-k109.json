@@ -5313,7 +5313,11 @@
       },
       {
         "k": "O",
-        "t": "Loa loa\n(P) Onchocerca volvulus"
+        "t": "Loa loa"
+      },
+      {
+        "k": "P",
+        "t": "Onchocerca volvulus"
       }
     ],
     "answer": ["E", "H", "I", "J", "L", "O"],
