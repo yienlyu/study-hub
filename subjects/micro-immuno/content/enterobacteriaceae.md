@@ -239,24 +239,24 @@
 
 | 容易選錯                                     | 正確                                                                                                |
 | -------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| 腸桿菌科 oxidase (+)                         | **oxidase (−)**、catalase (+)、發酵 glucose、還原 nitrate（_Vibrio_、_Pseudomonas_ 才是 oxidase +） |
-| _Salmonella_、_Shigella_ 在 MacConkey 呈粉紅 | 兩者**不發酵乳糖 → 無色**；粉紫的是 _E. coli_、_Klebsiella_、_Enterobacter_                         |
-| _Shigella_ 有鞭毛、產 H₂S                    | **_Shigella_ 無鞭毛、H₂S (−)**；_Salmonella_ 有周鞭毛、H₂S (+)                                      |
-| _Shigella_ 感染劑量很高                      | **_Shigella_ 10–100 CFU**；_Salmonella_ 約 10⁵；_V. cholerae_ > 10⁷                                 |
-| Teichoic acid 是腸桿菌抗原                   | Teichoic acid 是 **G(+)**；腸桿菌是 O（LPS）、K（莢膜；_Salmonella_ 為 Vi）、H（鞭毛）              |
-| ETEC 造成血便                                | ETEC：**旅行者水瀉、不發燒**（LT ↑cAMP、ST（heat-stable enterotoxin，耐熱腸毒素） ↑cGMP）                                                  |
-| EPEC 產 Shiga toxin                          | **EPEC 無 Shiga toxin**；EHEC（O157:H7）才有 → HUS                                                  |
-| Shiga toxin 增加 cAMP                        | Shiga toxin **切 60S rRNA → 抑制蛋白合成**（B 次單元接 Gb3）                                        |
-| UPEC 用 BFP 黏附                             | UPEC 用 **P pili**（腎盂腎炎）；BFP 是 EPEC／EHEC                                                   |
-| 傷寒第一週驗糞便                             | **第 1 週血液培養**、第 3 週糞便；帶原者藏在**膽囊**                                                |
-| EPEC 會破壞腸上皮                            | EPEC 只黏附（BFP、intimin–Tir）、擾亂絨毛 → 嬰兒腹瀉；三者中**只有 EHEC 破壞細胞**                  |
-| Intimin 是宿主細胞上的受體                   | **Intimin 在細菌**；**Tir** 由細菌打進宿主、表現在**宿主細胞表面**                                  |
-| EHEC 與 STEC 是不同菌                        | **同一隻**；Shiga toxin = Stx1/2 = verocytotoxin（= Shiga-like toxin）                              |
-| Lipid A 負責抗原性、O antigen 有毒           | **Lipid A 有毒性**；**O antigen** 是抗原（血清分型）                                                |
-| 敗血症只要給抗生素就能治                     | 還要**支持性療法**（輸液、升壓）、免疫抑制、抗凝血；敗血症被視為免疫／發炎疾病                      |
-| 非傷寒型沙門氏菌要通報                       | **傷寒要通報**；非傷寒（Typhimurium、Enteritidis）是自限性食物中毒                                  |
-| 非傷寒沙門氏菌只在人類                       | 非傷寒型來自**生蛋、家禽**；**人唯一宿主是 _S._ Typhi 與 _Shigella_**                               |
-| _S. dysenteriae_ 不產毒素                    | _S. dysenteriae_ type 1 產 **Shiga toxin**（最嚴重，可 HUS）                                        |
-| 鼠疫由蚊子傳播                               | 鼠 → **跳蚤**叮咬；肺鼠疫可人傳人飛沫                                                               |
-| _Y. enterocolitica_ 需高溫才長               | **4 °C 可生長**（冰箱食物）；假性闌尾炎                                                             |
-| _Proteus_ 不動                               | _Proteus_ **swarming**、urease（腎結石）                                                            |
+| ✗ 腸桿菌科 oxidase (+)                         | ✓ **oxidase (−)**、catalase (+)、發酵 glucose、還原 nitrate（_Vibrio_、_Pseudomonas_ 才是 oxidase +） |
+| ✗ _Salmonella_、_Shigella_ 在 MacConkey 呈粉紅 | ✓ 兩者**不發酵乳糖 → 無色**；粉紫的是 _E. coli_、_Klebsiella_、_Enterobacter_                         |
+| ✗ _Shigella_ 有鞭毛、產 H₂S                    | ✓ **_Shigella_ 無鞭毛、H₂S (−)**；_Salmonella_ 有周鞭毛、H₂S (+)                                      |
+| ✗ _Shigella_ 感染劑量很高                      | ✓ **_Shigella_ 10–100 CFU**；_Salmonella_ 約 10⁵；_V. cholerae_ > 10⁷                                 |
+| ✗ Teichoic acid 是腸桿菌抗原                   | ✓ Teichoic acid 是 **G(+)**；腸桿菌是 O（LPS）、K（莢膜；_Salmonella_ 為 Vi）、H（鞭毛）              |
+| ✗ ETEC 造成血便                                | ✓ ETEC：**旅行者水瀉、不發燒**（LT ↑cAMP、ST（heat-stable enterotoxin，耐熱腸毒素） ↑cGMP）                                                  |
+| ✗ EPEC 產 Shiga toxin                          | ✓ **EPEC 無 Shiga toxin**；EHEC（O157:H7）才有 → HUS                                                  |
+| ✗ Shiga toxin 增加 cAMP                        | ✓ Shiga toxin **切 60S rRNA → 抑制蛋白合成**（B 次單元接 Gb3）                                        |
+| ✗ UPEC 用 BFP 黏附                             | ✓ UPEC 用 **P pili**（腎盂腎炎）；BFP 是 EPEC／EHEC                                                   |
+| ✗ 傷寒第一週驗糞便                             | ✓ **第 1 週血液培養**、第 3 週糞便；帶原者藏在**膽囊**                                                |
+| ✗ EPEC 會破壞腸上皮                            | ✓ EPEC 只黏附（BFP、intimin–Tir）、擾亂絨毛 → 嬰兒腹瀉；三者中**只有 EHEC 破壞細胞**                  |
+| ✗ Intimin 是宿主細胞上的受體                   | ✓ **Intimin 在細菌**；**Tir** 由細菌打進宿主、表現在**宿主細胞表面**                                  |
+| ✗ EHEC 與 STEC 是不同菌                        | ✓ **同一隻**；Shiga toxin = Stx1/2 = verocytotoxin（= Shiga-like toxin）                              |
+| ✗ Lipid A 負責抗原性、O antigen 有毒           | ✓ **Lipid A 有毒性**；**O antigen** 是抗原（血清分型）                                                |
+| ✗ 敗血症只要給抗生素就能治                     | ✓ 還要**支持性療法**（輸液、升壓）、免疫抑制、抗凝血；敗血症被視為免疫／發炎疾病                      |
+| ✗ 非傷寒型沙門氏菌要通報                       | ✓ **傷寒要通報**；非傷寒（Typhimurium、Enteritidis）是自限性食物中毒                                  |
+| ✗ 非傷寒沙門氏菌只在人類                       | ✓ 非傷寒型來自**生蛋、家禽**；**人唯一宿主是 _S._ Typhi 與 _Shigella_**                               |
+| ✗ _S. dysenteriae_ 不產毒素                    | ✓ _S. dysenteriae_ type 1 產 **Shiga toxin**（最嚴重，可 HUS）                                        |
+| ✗ 鼠疫由蚊子傳播                               | ✓ 鼠 → **跳蚤**叮咬；肺鼠疫可人傳人飛沫                                                               |
+| ✗ _Y. enterocolitica_ 需高溫才長               | ✓ **4 °C 可生長**（冰箱食物）；假性闌尾炎                                                             |
+| ✗ _Proteus_ 不動                               | ✓ _Proteus_ **swarming**、urease（腎結石）                                                            |

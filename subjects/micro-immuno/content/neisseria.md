@@ -183,25 +183,25 @@
 
 | 容易選錯                                                                | 正確                                                                                                                  |
 | ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| _Neisseria_ 的毒力因子是 IgM protease、鞭毛                             | **IgA1 protease**、pili、LOS；**沒有鞭毛**                                                                            |
-| _N. gonorrhoeae_ 有多醣莢膜可做疫苗                                     | 莢膜疫苗是 **_N. meningitidis_**；淋病沒有疫苗                                                                        |
-| 淋病診斷靠血清抗體 4 倍上升                                             | **NAAT 是金標準**；男性尿道分泌物嗜中性球內 G(−) 雙球菌                                                               |
-| 女性淋病多有症狀                                                        | 黃姿雯講義：**女性約一半有症狀**（無症狀者是 reservoir）、**男性 95% 有症狀** → 女性 PID、不孕、子宮外孕              |
-| 腦膜炎雙球菌有其他動物宿主                                              | **人唯一宿主**、鼻咽帶菌、飛沫                                                                                        |
-| 淋病用 penicillin 治療                                                  | **ceftriaxone + azithromycin**；高程度抗藥 = plasmid penicillinase，低程度 = PBP 突變                                 |
-| 腦膜炎雙球菌 B 型有多醣疫苗                                             | 四價疫苗 **A、C、W135、Y**；**B 型免疫原性差、像人類神經抗原 → 無多醣疫苗**                                           |
-| _N. gonorrhoeae_ 可在一般 blood agar 生長                               | 淋菌要 **chocolate agar／modified Thayer-Martin + 5% CO₂**；腦膜炎菌 blood agar 可長                                  |
-| 腦膜炎雙球菌常帶 β-lactamase                                            | 腦膜炎菌**很少有 plasmid、很少產 β-lactamase**；接觸者預防用 rifampin、ciprofloxacin 或 ceftriaxone                   |
-| _H. pylori_ 嚴格厭氧、人畜共通                                          | **microaerophilic**、urease (+)、**人唯一宿主**                                                                       |
-| _H. pylori_ 與大腸癌相關                                                | 與**胃癌、MALT lymphoma**、消化性潰瘍相關                                                                             |
-| _H. pylori_ 診斷金標準是血清學（serology）                              | **切片組織學**；血清學在低盛行區不宜第一線                                                                            |
-| _Campylobacter_ 併發 HUS（hemolytic uremic syndrome，溶血性尿毒症候群） | **_C. jejuni_ → Guillain-Barré**（分子擬態（molecular mimicry））；HUS 是 EHEC（enterohemorrhagic E. coli，腸出血型） |
-| _Pseudomonas_ 是厭氧菌                                                  | **好氧**（可用 nitrate 厭氧呼吸）、單一極鞭毛、oxidase (+)                                                            |
-| ExoS／ExoT 抑制蛋白合成                                                 | **Exotoxin A** ADP-ribosylate EF-2；ExoS／T 經 T3SS 破壞上皮                                                          |
-| 所有 _V. cholerae_ 都產霍亂毒素                                         | **只有 O1、O139**                                                                                                     |
-| 霍亂毒素增加 cGMP                                                       | 霍亂毒素 **↑cAMP**（Gs 持續活化）                                                                                     |
-| _V. vulnificus_ 主要造成水瀉                                            | 生蠔 → **原發性敗血症**、傷口壞死性感染；**肝病**高危                                                                 |
-| _V. parahaemolyticus_ 用 TCBS 呈黃色、Kanagawa 不耐熱                   | Kanagawa hemolysin **heat-stable**；生海鮮食物中毒                                                                    |
+| ✗ _Neisseria_ 的毒力因子是 IgM protease、鞭毛                             | ✓ **IgA1 protease**、pili、LOS；**沒有鞭毛**                                                                            |
+| ✗ _N. gonorrhoeae_ 有多醣莢膜可做疫苗                                     | ✓ 莢膜疫苗是 **_N. meningitidis_**；淋病沒有疫苗                                                                        |
+| ✗ 淋病診斷靠血清抗體 4 倍上升                                             | ✓ **NAAT 是金標準**；男性尿道分泌物嗜中性球內 G(−) 雙球菌                                                               |
+| ✗ 女性淋病多有症狀                                                        | ✓ 黃姿雯講義：**女性約一半有症狀**（無症狀者是 reservoir）、**男性 95% 有症狀** → 女性 PID、不孕、子宮外孕              |
+| ✗ 腦膜炎雙球菌有其他動物宿主                                              | ✓ **人唯一宿主**、鼻咽帶菌、飛沫                                                                                        |
+| ✗ 淋病用 penicillin 治療                                                  | ✓ **ceftriaxone + azithromycin**；高程度抗藥 = plasmid penicillinase，低程度 = PBP 突變                                 |
+| ✗ 腦膜炎雙球菌 B 型有多醣疫苗                                             | ✓ 四價疫苗 **A、C、W135、Y**；**B 型免疫原性差、像人類神經抗原 → 無多醣疫苗**                                           |
+| ✗ _N. gonorrhoeae_ 可在一般 blood agar 生長                               | ✓ 淋菌要 **chocolate agar／modified Thayer-Martin + 5% CO₂**；腦膜炎菌 blood agar 可長                                  |
+| ✗ 腦膜炎雙球菌常帶 β-lactamase                                            | ✓ 腦膜炎菌**很少有 plasmid、很少產 β-lactamase**；接觸者預防用 rifampin、ciprofloxacin 或 ceftriaxone                   |
+| ✗ _H. pylori_ 嚴格厭氧、人畜共通                                          | ✓ **microaerophilic**、urease (+)、**人唯一宿主**                                                                       |
+| ✗ _H. pylori_ 與大腸癌相關                                                | ✓ 與**胃癌、MALT lymphoma**、消化性潰瘍相關                                                                             |
+| ✗ _H. pylori_ 診斷金標準是血清學（serology）                              | ✓ **切片組織學**；血清學在低盛行區不宜第一線                                                                            |
+| ✗ _Campylobacter_ 併發 HUS（hemolytic uremic syndrome，溶血性尿毒症候群） | ✓ **_C. jejuni_ → Guillain-Barré**（分子擬態（molecular mimicry））；HUS 是 EHEC（enterohemorrhagic E. coli，腸出血型） |
+| ✗ _Pseudomonas_ 是厭氧菌                                                  | ✓ **好氧**（可用 nitrate 厭氧呼吸）、單一極鞭毛、oxidase (+)                                                            |
+| ✗ ExoS／ExoT 抑制蛋白合成                                                 | ✓ **Exotoxin A** ADP-ribosylate EF-2；ExoS／T 經 T3SS 破壞上皮                                                          |
+| ✗ 所有 _V. cholerae_ 都產霍亂毒素                                         | ✓ **只有 O1、O139**                                                                                                     |
+| ✗ 霍亂毒素增加 cGMP                                                       | ✓ 霍亂毒素 **↑cAMP**（Gs 持續活化）                                                                                     |
+| ✗ _V. vulnificus_ 主要造成水瀉                                            | ✓ 生蠔 → **原發性敗血症**、傷口壞死性感染；**肝病**高危                                                                 |
+| ✗ _V. parahaemolyticus_ 用 TCBS 呈黃色、Kanagawa 不耐熱                   | ✓ Kanagawa hemolysin **heat-stable**；生海鮮食物中毒                                                                    |
 
 ## 百十三共筆對照
 

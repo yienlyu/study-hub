@@ -187,20 +187,20 @@
 ## ⚠️ 陷阱整理
 | 容易選錯 | 正確 |
 |---|---|
-| AMP 帶負電 | **帶正電**（Arg、Lys、His），才能結合帶負電的細菌膜 |
-| CGD 是吞噬（吞入）缺陷 | 吞得進去、**殺不死**（無 respiratory burst） |
-| CGD 病人怕 catalase(−) 菌 | 怕 **catalase(+)**（*S. aureus*、*Aspergillus*）：catalase(−) 菌自己產的 H₂O₂ 反而能被借用 |
-| NOX 的 gp91 在細胞質 | **gp91、p22 在膜上**；p40、p47、p67 在細胞質 |
-| 所有 TLR 都經 MyD88 | **TLR3 只走 TRIF**；TLR4 兩條都走 |
-| TLR3／7／8／9 在細胞膜 | 在 **endosome** |
-| Pyroptosis 由 caspase-3 媒介、不發炎 | Pyroptosis = **caspase-1**、**發炎性**；caspase-3 = apoptosis（silent） |
-| Inflammasome 直接產生 IL-6 | 產生成熟 **IL-1β、IL-18** |
-| 淋巴球碰到 *E. coli* 不會活化 | **會**（T 也有 TLR4），但非特異性、**不會增殖** |
-| 所有抗體都能固定補體 | **不是所有抗體**都能固定補體 |
-| Efferocytosis 會引發發炎 | 釋放 **IL-10、TGF-β**、抑制發炎 |
-| *M. tuberculosis* 逃出 phagosome | TB、HIV 是**阻止 phagosome–lysosome 融合**；逃出 phagosome 的是 ***Shigella*、*Rickettsia***（*Listeria* 用 pore-forming toxin） |
-| SOCS3 由 IL-12 誘導 | **SOCS3 由 IL-10 誘導**，抑制 JAK–STAT |
-| Protein A 結合抗體 Fab | Protein A／G 抓的是 **Fc** |
+| ✗ AMP 帶負電 | ✓ **帶正電**（Arg、Lys、His），才能結合帶負電的細菌膜 |
+| ✗ CGD 是吞噬（吞入）缺陷 | ✓ 吞得進去、**殺不死**（無 respiratory burst） |
+| ✗ CGD 病人怕 catalase(−) 菌 | ✓ 怕 **catalase(+)**（*S. aureus*、*Aspergillus*）：catalase(−) 菌自己產的 H₂O₂ 反而能被借用 |
+| ✗ NOX 的 gp91 在細胞質 | ✓ **gp91、p22 在膜上**；p40、p47、p67 在細胞質 |
+| ✗ 所有 TLR 都經 MyD88 | ✓ **TLR3 只走 TRIF**；TLR4 兩條都走 |
+| ✗ TLR3／7／8／9 在細胞膜 | ✓ 在 **endosome** |
+| ✗ Pyroptosis 由 caspase-3 媒介、不發炎 | ✓ Pyroptosis = **caspase-1**、**發炎性**；caspase-3 = apoptosis（silent） |
+| ✗ Inflammasome 直接產生 IL-6 | ✓ 產生成熟 **IL-1β、IL-18** |
+| ✗ 淋巴球碰到 *E. coli* 不會活化 | ✓ **會**（T 也有 TLR4），但非特異性、**不會增殖** |
+| ✗ 所有抗體都能固定補體 | ✓ **不是所有抗體**都能固定補體 |
+| ✗ Efferocytosis 會引發發炎 | ✓ 釋放 **IL-10、TGF-β**、抑制發炎 |
+| ✗ *M. tuberculosis* 逃出 phagosome | ✓ TB、HIV 是**阻止 phagosome–lysosome 融合**；逃出 phagosome 的是 ***Shigella*、*Rickettsia***（*Listeria* 用 pore-forming toxin） |
+| ✗ SOCS3 由 IL-12 誘導 | ✓ **SOCS3 由 IL-10 誘導**，抑制 JAK–STAT |
+| ✗ Protein A 結合抗體 Fab | ✓ Protein A／G 抓的是 **Fc** |
 
 ## 📝 出題模式
 - 去年本章沒有獨立題組，概念散在先天免疫與致病機轉；今年林老師新上課，預期**英文定義題**與**配對題**（TLR–ligand、病原–脫逃策略、caspase–死亡方式）。

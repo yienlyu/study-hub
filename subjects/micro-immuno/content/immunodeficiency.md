@@ -126,18 +126,18 @@
 ## ⚠️ 陷阱整理
 | 容易選錯 | 正確 |
 |---|---|
-| IL2RG（γc）缺陷 → B 細胞也沒有 | 人類 **B 發育保留**：T− **B+** NK− |
-| RAG 缺陷 → NK 也沒有 | NK 不需 V(D)J：T− B− **NK+** |
-| FOXN1 缺陷是 T 前驅細胞本身壞掉 | 壞的是**胸腺上皮微環境**（extrinsic），前驅細胞正常 |
-| XLA 的 T 細胞也受影響 | **T 正常**；卡在 **pre-B** |
-| Hyper-IgM 是 B 細胞基因缺陷 | X-linked 型是 **T 細胞上的 CD40L**；macrophage 也活化不良 |
-| Selective IgA deficiency 時 IgG、IgM 也低 | **IgM、IgG 保留**，很多人無症狀 |
-| C3 缺陷 → Neisseria | C3 → **化膿菌**；**C5–C9** 才是 Neisseria |
-| LAD（leukocyte adhesion deficiency，白血球黏附缺陷） 時血中 neutrophil 很少 | 血中**有（甚至很多）**，只是進不了組織 → **沒有膿** |
-| CGD 吞噬功能缺陷 | 吞噬**正常**，是**殺不死**（無 ROS） |
-| IL-12／IFN-γ 缺陷 → Candida | IFN-γ → **mycobacteria**；**IL-17（STAT3）→ Candida** |
-| Perforin 缺陷只會造成感染 | 主要是**過度發炎（FHL）** |
-| GVHD 是受者攻擊捐贈細胞 | GVHD = **donor T 攻擊受者**；受者攻擊 donor = **graft rejection** |
+| ✗ IL2RG（γc）缺陷 → B 細胞也沒有 | ✓ 人類 **B 發育保留**：T− **B+** NK− |
+| ✗ RAG 缺陷 → NK 也沒有 | ✓ NK 不需 V(D)J：T− B− **NK+** |
+| ✗ FOXN1 缺陷是 T 前驅細胞本身壞掉 | ✓ 壞的是**胸腺上皮微環境**（extrinsic），前驅細胞正常 |
+| ✗ XLA 的 T 細胞也受影響 | ✓ **T 正常**；卡在 **pre-B** |
+| ✗ Hyper-IgM 是 B 細胞基因缺陷 | ✓ X-linked 型是 **T 細胞上的 CD40L**；macrophage 也活化不良 |
+| ✗ Selective IgA deficiency 時 IgG、IgM 也低 | ✓ **IgM、IgG 保留**，很多人無症狀 |
+| ✗ C3 缺陷 → Neisseria | ✓ C3 → **化膿菌**；**C5–C9** 才是 Neisseria |
+| ✗ LAD（leukocyte adhesion deficiency，白血球黏附缺陷） 時血中 neutrophil 很少 | ✓ 血中**有（甚至很多）**，只是進不了組織 → **沒有膿** |
+| ✗ CGD 吞噬功能缺陷 | ✓ 吞噬**正常**，是**殺不死**（無 ROS） |
+| ✗ IL-12／IFN-γ 缺陷 → Candida | ✓ IFN-γ → **mycobacteria**；**IL-17（STAT3）→ Candida** |
+| ✗ Perforin 缺陷只會造成感染 | ✓ 主要是**過度發炎（FHL）** |
+| ✗ GVHD 是受者攻擊捐贈細胞 | ✓ GVHD = **donor T 攻擊受者**；受者攻擊 donor = **graft rejection** |
 
 ## 📝 出題模式
 - 依去年免疫題的風格，預期以**英文選錯誤**與**配對題**為主；SCID profile、感染型態對照最適合出成配對題。

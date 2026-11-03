@@ -279,16 +279,16 @@ G(+) cocci
 
 | 容易選錯                                      | 正確                                                                                             |
 | --------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| SSSS 的水泡內有大量葡萄球菌與白血球           | Exfoliative toxin 切 **desmoglein-1**；病灶表皮層**沒有細菌也沒有白血球**                        |
-| ETA、ETB 都在 plasmid                         | **ETA heat-stable、與 phage 相關**；**ETB heat-labile、在 plasmid**                              |
-| CA-MRSA 是 HA-MRSA 流出到社區                 | CA-MRSA 與 HA-MRSA **無關**；**SCCmec IV + PVL**，除 β-lactam 外多數藥仍敏感                     |
-| Streptolysin S 有抗原性 → ASO                 | **SLO** oxygen-labile、有抗原性 → ASO；**SLS** oxygen-stable、造成 β 溶血                        |
-| 膿皰病後測 ASO 一定升高                       | SLO **被皮膚膽固醇抑制** → 皮膚感染不產生 ASO；改測 **anti-DNase B**                             |
-| 風濕熱可接在皮膚感染後                        | 風濕熱**只接在咽炎後**；AGN 皮膚感染後比咽炎後更常見                                             |
-| GAS 有疫苗                                    | **GAS 沒有疫苗**；有疫苗的是 _S. pneumoniae_（PPV23（23-valent pneumococcal polysaccharide vaccine）、PCV13）                                     |
-| _S. dysgalactiae_（C/G 群）會造成風濕熱       | 可造成咽炎 → AGN，**從不造成風濕熱**                                                             |
-| 晚發型 GBS 由產道垂直傳染（vertical transmission）                     | 早發型（第 1 週）= 子宮內或出生時；**晚發型（1 週–3 個月）= 外來感染**、多為 **III 型**          |
-| GBS bacitracin 敏感                           | GBS **bacitracin 抗性**、CAMP (+)、hippurate 水解；GAS bacitracin 敏感、PYR (+)                  |
-| 肺炎鏈球菌靠外毒素致病                        | **沒有毒素**；症狀來自宿主發炎反應（pneumolysin 打洞並活化補體）                                 |
-| PPV23 用於嬰兒                                | **PPV23：2 歲以上**高風險者與成人；**PCV13（結合白喉毒素突變體）**：6 週–5 歲；台灣 2+1 常規接種 |
-| _Enterococcus_ 屬於 group D streptococci 至今 | **1984 年**獨立成屬；PYR (+)、optochin 抗性、不被膽汁溶解；先天抗 cephalosporin                  |
+| ✗ SSSS 的水泡內有大量葡萄球菌與白血球           | ✓ Exfoliative toxin 切 **desmoglein-1**；病灶表皮層**沒有細菌也沒有白血球**                        |
+| ✗ ETA、ETB 都在 plasmid                         | ✓ **ETA heat-stable、與 phage 相關**；**ETB heat-labile、在 plasmid**                              |
+| ✗ CA-MRSA 是 HA-MRSA 流出到社區                 | ✓ CA-MRSA 與 HA-MRSA **無關**；**SCCmec IV + PVL**，除 β-lactam 外多數藥仍敏感                     |
+| ✗ Streptolysin S 有抗原性 → ASO                 | ✓ **SLO** oxygen-labile、有抗原性 → ASO；**SLS** oxygen-stable、造成 β 溶血                        |
+| ✗ 膿皰病後測 ASO 一定升高                       | ✓ SLO **被皮膚膽固醇抑制** → 皮膚感染不產生 ASO；改測 **anti-DNase B**                             |
+| ✗ 風濕熱可接在皮膚感染後                        | ✓ 風濕熱**只接在咽炎後**；AGN 皮膚感染後比咽炎後更常見                                             |
+| ✗ GAS 有疫苗                                    | ✓ **GAS 沒有疫苗**；有疫苗的是 _S. pneumoniae_（PPV23（23-valent pneumococcal polysaccharide vaccine）、PCV13）                                     |
+| ✗ _S. dysgalactiae_（C/G 群）會造成風濕熱       | ✓ 可造成咽炎 → AGN，**從不造成風濕熱**                                                             |
+| ✗ 晚發型 GBS 由產道垂直傳染（vertical transmission）                     | ✓ 早發型（第 1 週）= 子宮內或出生時；**晚發型（1 週–3 個月）= 外來感染**、多為 **III 型**          |
+| ✗ GBS bacitracin 敏感                           | ✓ GBS **bacitracin 抗性**、CAMP (+)、hippurate 水解；GAS bacitracin 敏感、PYR (+)                  |
+| ✗ 肺炎鏈球菌靠外毒素致病                        | ✓ **沒有毒素**；症狀來自宿主發炎反應（pneumolysin 打洞並活化補體）                                 |
+| ✗ PPV23 用於嬰兒                                | ✓ **PPV23：2 歲以上**高風險者與成人；**PCV13（結合白喉毒素突變體）**：6 週–5 歲；台灣 2+1 常規接種 |
+| ✗ _Enterococcus_ 屬於 group D streptococci 至今 | ✓ **1984 年**獨立成屬；PYR (+)、optochin 抗性、不被膽汁溶解；先天抗 cephalosporin                  |

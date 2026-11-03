@@ -400,18 +400,18 @@
 
 | 容易選錯                        | 正確                                                                                      |
 | ------------------------------- | ----------------------------------------------------------------------------------------- |
-| IL-4 → TH1                      | **IL-12 → TH1**（考 4 次）；IL-4 → TH2                                                    |
-| TH2 分泌 IL-12                  | IL-12 由 **APC** 分泌；TH1 分泌 **IFN-γ**；TH2 分泌 IL-4、5、13                           |
-| TH17 由 TGF-β 單獨誘導          | **TGF-β + IL-6（+ IL-23）→ TH17**；**TGF-β + IL-2 → pTreg**                               |
-| TFH 主要分泌 IL-4               | **TFH 主要分泌 IL-21**；Bcl-6 決定 TFH                                                    |
-| Hyper-IgM 是 CD4 T 數目下降     | 是 **CD40L 缺陷**，CD4 數目正常                                                           |
-| Class switch 不需要 T 細胞      | Class switch **需要 CD4 T（CD40L + cytokine）**                                           |
-| IL-5 是 IgA class switch 的關鍵 | **TGF-β** 是 IgA switch 的關鍵（考古也出現 IL-5 → IgA，選項中要比較）；**IL-4 → IgE**     |
-| IgM 與 IgD 共表現靠 DNA 重組    | **RNA splicing**（membrane vs secreted 也是）；其他 isotype 才是 DNA switch recombination |
-| AID 把 U 變成 C                 | **AID 把 C 去胺成 U**，由 IL-4 + CD40 誘導                                                |
-| TI 抗原產生大量 IgG 與記憶      | TI 抗原以 **IgM** 為主、**記憶差**                                                        |
-| Germinal center 沒有 B 細胞凋亡 | Germinal center **有大量凋亡**（篩選高親和力）                                            |
-| CD4 幫 CD8 發生在周邊組織       | 在**次級淋巴組織**（CD40L → APC ↑B7、4-1BBL）                                             |
-| TH17 主要對付病毒               | **TH17 → 胞外菌（Klebsiella）與真菌（Candida）**，經 IL-17 → G-CSF → neutrophil           |
-| M1 macrophage 由 IL-4 誘導      | **M1 = IFN-γ、CD40L（TH1）**；**M2 = IL-4 + IL-13（TH2）**                                |
-| Perforin 誘發凋亡、FasL 打洞    | **Perforin 打洞**讓 granzyme 進入；**FasL** 結合 Fas 誘發凋亡                             |
+| ✗ IL-4 → TH1                      | ✓ **IL-12 → TH1**（考 4 次）；IL-4 → TH2                                                    |
+| ✗ TH2 分泌 IL-12                  | ✓ IL-12 由 **APC** 分泌；TH1 分泌 **IFN-γ**；TH2 分泌 IL-4、5、13                           |
+| ✗ TH17 由 TGF-β 單獨誘導          | ✓ **TGF-β + IL-6（+ IL-23）→ TH17**；**TGF-β + IL-2 → pTreg**                               |
+| ✗ TFH 主要分泌 IL-4               | ✓ **TFH 主要分泌 IL-21**；Bcl-6 決定 TFH                                                    |
+| ✗ Hyper-IgM 是 CD4 T 數目下降     | ✓ 是 **CD40L 缺陷**，CD4 數目正常                                                           |
+| ✗ Class switch 不需要 T 細胞      | ✓ Class switch **需要 CD4 T（CD40L + cytokine）**                                           |
+| ✗ IL-5 是 IgA class switch 的關鍵 | ✓ **TGF-β** 是 IgA switch 的關鍵（考古也出現 IL-5 → IgA，選項中要比較）；**IL-4 → IgE**     |
+| ✗ IgM 與 IgD 共表現靠 DNA 重組    | ✓ **RNA splicing**（membrane vs secreted 也是）；其他 isotype 才是 DNA switch recombination |
+| ✗ AID 把 U 變成 C                 | ✓ **AID 把 C 去胺成 U**，由 IL-4 + CD40 誘導                                                |
+| ✗ TI 抗原產生大量 IgG 與記憶      | ✓ TI 抗原以 **IgM** 為主、**記憶差**                                                        |
+| ✗ Germinal center 沒有 B 細胞凋亡 | ✓ Germinal center **有大量凋亡**（篩選高親和力）                                            |
+| ✗ CD4 幫 CD8 發生在周邊組織       | ✓ 在**次級淋巴組織**（CD40L → APC ↑B7、4-1BBL）                                             |
+| ✗ TH17 主要對付病毒               | ✓ **TH17 → 胞外菌（Klebsiella）與真菌（Candida）**，經 IL-17 → G-CSF → neutrophil           |
+| ✗ M1 macrophage 由 IL-4 誘導      | ✓ **M1 = IFN-γ、CD40L（TH1）**；**M2 = IL-4 + IL-13（TH2）**                                |
+| ✗ Perforin 誘發凋亡、FasL 打洞    | ✓ **Perforin 打洞**讓 granzyme 進入；**FasL** 結合 Fas 誘發凋亡                             |

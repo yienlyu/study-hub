@@ -76,12 +76,12 @@
 ## ⚠️ 陷阱整理
 | 容易選錯 | 正確 |
 |---|---|
-| 小分子先流出 | **大分子先流出** |
-| Gel filtration = affinity chromatography | **Size exclusion** |
-| 2B 孔最小 | **6B** 孔最小（agarose 6%） |
-| 本實驗用 Sepharose G50 | **Sephadex G-50**（Sepharose 沒有 G 系列） |
-| 450 nm 測 BSA | 450 nm 測 **methyl orange** |
-| 樣品沿管壁加 | 加在**膠面正中央**；沖提液才沿管壁加 |
+| ✗ 小分子先流出 | ✓ **大分子先流出** |
+| ✗ Gel filtration = affinity chromatography | ✓ **Size exclusion** |
+| ✗ 2B 孔最小 | ✓ **6B** 孔最小（agarose 6%） |
+| ✗ 本實驗用 Sepharose G50 | ✓ **Sephadex G-50**（Sepharose 沒有 G 系列） |
+| ✗ 450 nm 測 BSA | ✓ 450 nm 測 **methyl orange** |
+| ✗ 樣品沿管壁加 | ✓ 加在**膠面正中央**；沖提液才沿管壁加 |
 
 ## 百十三共筆對照
 - 百十三（生化實驗六）與百十四內容幾乎相同（原理、三種樹脂、影響因素、BSA＋methyl orange 步驟）。Sepharose 2B／4B／6B 的分離範圍、樹脂的耐熱與 pH 範圍是依 slides 補充，兩屆共筆都沒寫。

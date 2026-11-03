@@ -94,9 +94,9 @@
 ## ⚠️ 陷阱整理
 | 容易選錯 | 正確 |
 |---|---|
-| 照膠用 UV | **藍光 LED**（Gel Green）；EtBr 才要 UV |
-| 染劑是 EtBr | 本學期 **Gel Green** |
-| Elution buffer 用 PBS | **TE pH 8.0**（或 EB pH 8.5） |
-| S2 要用力搖勻 | **輕輕顛倒**，否則染色體 DNA 斷裂污染 |
-| OC 比線狀跑得快 | **SC > L > OC** |
-| Loading dye 讓 DNA 顯色 | Loading dye 是追蹤與增加密度；顯色靠 DNA 染劑 |
+| ✗ 照膠用 UV | ✓ **藍光 LED**（Gel Green）；EtBr 才要 UV |
+| ✗ 染劑是 EtBr | ✓ 本學期 **Gel Green** |
+| ✗ Elution buffer 用 PBS | ✓ **TE pH 8.0**（或 EB pH 8.5） |
+| ✗ S2 要用力搖勻 | ✓ **輕輕顛倒**，否則染色體 DNA 斷裂污染 |
+| ✗ OC 比線狀跑得快 | ✓ **SC > L > OC** |
+| ✗ Loading dye 讓 DNA 顯色 | ✓ Loading dye 是追蹤與增加密度；顯色靠 DNA 染劑 |

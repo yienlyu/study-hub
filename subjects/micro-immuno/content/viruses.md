@@ -180,12 +180,12 @@
 
 | 容易選錯                             | 正確                                                                                         |
 | ------------------------------------ | -------------------------------------------------------------------------------------------- |
-| 病毒對抗生素敏感                     | **對干擾素敏感**、對抗生素不敏感                                                             |
-| 只有病毒能通過細菌濾器、絕對寄生     | 立克次體、披衣菌也絕對寄生（部分可通過濾器）                                                 |
-| 噬菌體也需要脫殼                     | 噬菌體**注入 DNA、不需脫殼**                                                                 |
-| 所有病毒都在細胞核複製               | **DNA 病毒在核、RNA 病毒在細胞質**                                                           |
-| Provirus 會像 prophage 一樣切出      | **provirus 永遠不離開染色體**                                                                |
-| Acyclovir 由宿主 kinase 第一次磷酸化 | **病毒 thymidine kinase** 第一次磷酸化（AZT 才全靠宿主酵素）                                 |
-| Amantadine 抑制 neuraminidase        | Amantadine **中和 pH、阻止脫殼（流感 A）**；oseltamivir、zanamivir 才是 neuraminidase 抑制劑 |
-| Paxlovid 是核苷類似物                | Paxlovid = **protease 抑制劑**；remdesivir、molnupiravir 才是核苷類似物                      |
-| Imiquimod 是干擾素                   | **TLR7 agonist**，外用，治尖形濕疣                                                           |
+| ✗ 病毒對抗生素敏感                     | ✓ **對干擾素敏感**、對抗生素不敏感                                                             |
+| ✗ 只有病毒能通過細菌濾器、絕對寄生     | ✓ 立克次體、披衣菌也絕對寄生（部分可通過濾器）                                                 |
+| ✗ 噬菌體也需要脫殼                     | ✓ 噬菌體**注入 DNA、不需脫殼**                                                                 |
+| ✗ 所有病毒都在細胞核複製               | ✓ **DNA 病毒在核、RNA 病毒在細胞質**                                                           |
+| ✗ Provirus 會像 prophage 一樣切出      | ✓ **provirus 永遠不離開染色體**                                                                |
+| ✗ Acyclovir 由宿主 kinase 第一次磷酸化 | ✓ **病毒 thymidine kinase** 第一次磷酸化（AZT 才全靠宿主酵素）                                 |
+| ✗ Amantadine 抑制 neuraminidase        | ✓ Amantadine **中和 pH、阻止脫殼（流感 A）**；oseltamivir、zanamivir 才是 neuraminidase 抑制劑 |
+| ✗ Paxlovid 是核苷類似物                | ✓ Paxlovid = **protease 抑制劑**；remdesivir、molnupiravir 才是核苷類似物                      |
+| ✗ Imiquimod 是干擾素                   | ✓ **TLR7 agonist**，外用，治尖形濕疣                                                           |
