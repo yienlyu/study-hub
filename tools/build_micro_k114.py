@@ -3,7 +3,8 @@
 
 來源：slides/micro-immuno/共筆考古/百十三/微免/1141微免期中記題.xlsx（學長姐考後記題，沒有答案欄）
 - 答案與詳解由網站依課本判斷，詳解開頭會註明。
-- 略過：沒記到的題、選項缺漏或有多個正確選項無法判斷的題（26、29、36、53、54、77、83–85），以及 87（多個選項都對）。
+- 略過：沒記到的題、選項缺漏或有多個正確選項無法判斷的題（26、36、53、77），以及 87（多個選項都對）。
+- 11/3 依百十三期中考古詳解（同一份考試，11/2 版）：第 4 題改為 C；補 29、54、83–85。
 - 病毒學 86、88–91 於 10/22 補進（新增「病毒」章）；86 是排序題，改成簡答。
 執行：python3 tools/build_micro_k114.py（在 repo 根目錄）
 """
@@ -17,7 +18,7 @@ NOKEY = "（記題沒有附答案，網站依課本判斷）"
 # 題號: (章節, 答案, 詳解)
 KEY = {
     3: ("bact-structure", "D", "Periplasmic space 位於 G(−) 菌的外膜與細胞膜之間。不是所有細菌都有鞭毛；細菌沒有粒線體；G(+) 的 peptidoglycan 更厚。"),
-    4: ("bact-structure", "B", "Crystal violet–iodine 複合物被 G(+) 厚的 peptidoglycan 細胞壁留住，酒精脫色後仍呈紫色。"),
+    4: ("bact-structure", "C", "結晶紫可自由穿過細胞壁進入細胞質，整個菌體被染色；加碘形成 CV–I 複合物後，G(+) 厚的 peptidoglycan 經酒精脫水收縮，把複合物留在細胞內，所以仍呈紫色。染劑不是「嵌入細胞壁」；G(+) 沒有外膜；加熱固定只是把菌固定在玻片上。（答案依百十三期中考古詳解，11/2 版）"),
     5: ("bact-structure", "C", "Fimbriae（pili）負責黏附；負責移動的是鞭毛。"),
     6: ("enterobacteriaceae", "B", "O 抗原 = LPS 的 O 多醣；H 抗原 = 鞭毛（flagellin）；K 抗原 = 莢膜。"),
     11: ("sterilization", "B", "高壓蒸氣滅菌（121 °C、15 psi）靠飽和水蒸汽的高溫使蛋白質變性。"),
@@ -33,6 +34,7 @@ KEY = {
     25: ("enterobacteriaceae", "A", "UPEC 產生 hemolysin；ETEC 產生 LT／ST；Shiga toxin 是 EHEC；EAEC 也會產生毒素。"),
     27: ("enterobacteriaceae", "B", "Shigella 只要 10–100 個菌就能致病，是三者中最低的。"),
     28: ("enterobacteriaceae", "A", "鼠疫桿菌 Yersinia pestis 經跳蚤叮咬傳播（肺鼠疫可飛沫人傳人），不是吸入老鼠糞便。"),
+    29: ("neisseria", "B", "（記題只記到兩個選項）Vibrio vulnificus 可經食用受污染的生海鮮（生蠔）感染，也可經傷口接觸海水感染，所以「只會透過海水」錯。Kanagawa hemolysin 是腸炎弧菌（V. parahaemolyticus）的耐熱溶血素，正確。"),
     30: ("neisseria", "A", "P. aeruginosa 的 alginate（多醣）構成生物膜基質，囊性纖維化病人特別重要。"),
     31: ("bacillus", "C", "Anthrax 的 edema toxin（PA＋EF）與 lethal toxin 都是 A-B toxin。B. anthracis 是 G(+)、莢膜是 poly-D-glutamic acid 胜肽，最常見的是皮膚型。"),
     32: ("bacillus", "D", "Elek test 是用抗毒素測菌株是否產毒；測中和抗體的是 Schick test（已不用）。"),
@@ -51,6 +53,7 @@ KEY = {
     50: ("immuno-basic", "D", "樹突細胞同時參與先天免疫並活化後天免疫。"),
     51: ("tcell-dev", "A", "TCR 多樣性來自多個 V 片段、V(D)J 重組（RAG1／2）、TdT 加 N 核苷酸。AIRE 與 negative selection 有關；class switch 只發生在 B 細胞。"),
     52: ("tcell-act", "A", "Tfh 分泌 IL-21（並表現 CD40L）幫助生發中心 B 細胞。"),
+    54: ("mhc", "A", "MHC I 呈現胜肽給 CD8⁺ Tc，誘發胞殺。MHC I 的胜肽溝兩端封閉，胜肽（8–10 aa）比 MHC II 的短；β2-microglobulin 本身就是整條輕鏈；溝裡放的是胜肽（不是完整蛋白），位於 α1、α2 之間。（依百十三期中考古詳解：依題目原文選 A；若 D 改成「胜肽」則 A、D 皆對）"),
     57: ("mhc", "C", "MHC II 表現在專業 APC 與胸腺上皮細胞，不表現在嗜中性球；co-receptor 是 CD4。"),
     58: ("agab", "A", "體細胞超突變只發生在可變區，不發生在固定區。"),
     61: ("tcell-act", "B", "Th17 分泌 IL-17，招募嗜中性球對抗胞外細菌與真菌。"),
@@ -65,6 +68,9 @@ KEY = {
     73: ("agab", "C", "TdT 在接合處隨機加入 N 核苷酸，不是「標記」斷裂點。"),
     78: ("innate", "C", "PRRs 辨識 PAMPs 與 DAMPs；可在細胞膜、內體或細胞質；不只存在於吞噬細胞。"),
     79: ("innate", "A", "Inflammasome 可由 NLRP3、AIM2 等形成，活化 caspase-1 → 產生 IL-1β、IL-18。（樹突細胞中也有，但題目最佳答案為 A。）"),
+    83: ("immunodeficiency", "B", "Bubble boy（泡泡男孩）就是嚴重複合型免疫缺陷（SCID）。免疫缺陷有原發性（基因）與次發性（HIV、營養不良、免疫抑制藥），不全是基因突變；基因治療只對部分疾病（如 ADA-SCID）有效。（答案依百十三期中考古詳解）"),
+    84: ("immunodeficiency", "B", "ADA 缺乏症是體染色體隱性遺傳，不是 X 染色體；X-linked SCID 是 IL2RG（common γ chain）突變。ADA-SCID 可用造血幹細胞基因治療。"),
+    85: ("immunodeficiency", "C", "X-linked hyper-IgM：CD40L（CD154）突變，T 細胞無法經 CD40 幫 B 細胞類別轉換 → IgM 正常或升高，IgG、IgA、IgE 很低。目前以造血幹細胞移植為主，基因治療仍在研究。"),
     88: ("viruses", "C", "噬菌斑（plaque）計數的單位是 PFU（plaque-forming units）；CFU 是細菌菌落，TCID 是組織培養感染劑量。"),
     89: ("viruses", "C", "B 型肝炎病毒是持續型（persistent／chronic）感染，病毒持續產生；潛伏型的代表是單純皰疹（唇皰疹）與水痘帶狀皰疹病毒（帶狀皰疹）。"),
     90: ("viruses", "D", "Acyclovir 對未感染細胞幾乎無毒（要靠病毒的 thymidine kinase 才能活化），所以可以當預防性治療，避免免疫低下者復發；但無法清除潛伏感染。"),
@@ -78,7 +84,8 @@ SHORT = {
 TOPIC = {"bact-structure": "細菌構造", "sterilization": "滅菌消毒", "pathogenesis": "致病機轉", "innate": "先天免疫",
          "staph-strep": "葡萄球菌、鏈球菌", "enterobacteriaceae": "腸桿菌科", "neisseria": "其他 G(−) 菌", "bacillus": "Bacillus 等 G(+) 桿菌",
          "fungi": "真菌", "immuno-basic": "免疫學基本概念", "tcell-dev": "T 細胞發育", "tcell-act": "T 細胞活化",
-         "mhc": "MHC 與抗原呈現", "agab": "抗原抗體", "viruses": "病毒學總論"}
+         "mhc": "MHC 與抗原呈現", "agab": "抗原抗體", "viruses": "病毒學總論",
+         "immunodeficiency": "免疫缺陷"}
 
 
 def rows():

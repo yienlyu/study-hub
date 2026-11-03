@@ -7330,8 +7330,132 @@
     rapid(themeBtn, 6, 900, "🌗 眼睛累了嗎？來玩點別的");
   }
 
+  // ------------------------------------------------------------ 更新通知
+  // news.json 的 items[0].id 就是目前的網站版本（用 no-store 讀，繞過瀏覽器快取）。
+  // 1. 舊版分頁開著時：切回分頁時檢查（最多每 10 分鐘一次），一直開著看則每 30 分鐘補查；版本變了就跳小卡提醒「重新整理」。
+  // 2. 重新整理後：沒看過的更新跳一個小視窗，列出更新內容與重點；按「知道了」記為已讀。
+  const News = {
+    items: [],
+    boot: null,
+    seenKey: "sh:newsSeen",
+    async fetch() {
+      const r = await fetch(`news.json?t=${Date.now()}`, { cache: "no-store" });
+      if (!r.ok) throw new Error(r.status);
+      return (await r.json()).items || [];
+    },
+    async init() {
+      try {
+        this.items = await this.fetch();
+      } catch {
+        return;
+      }
+      this.boot = this.items[0]?.id || null;
+      // 第一次來的人不用看舊的更新說明；用過網站（有任何 sh: 紀錄）的人才補看最新一則
+      if (store.get(this.seenKey, null) === null) {
+        let returning = false;
+        try {
+          returning = Object.keys(localStorage).some((k) => k.startsWith("sh:") && k !== "sh:theme");
+        } catch {
+          /* */
+        }
+        if (!returning && this.boot) store.set(this.seenKey, this.boot);
+      }
+      this.showWhatsNew();
+      // 主要靠「切回分頁」時檢查；一直開著看的話每 30 分鐘補查一次。兩次檢查至少隔 10 分鐘。
+      setInterval(() => document.visibilityState === "visible" && this.check(), 30 * 60 * 1000);
+      document.addEventListener("visibilitychange", () => {
+        if (document.visibilityState === "visible") this.check();
+      });
+      addEventListener("hashchange", () =>
+        setTimeout(() => (this.pending ? this.showUpdate() : this.showWhatsNew()), 400),
+      );
+    },
+    unseen() {
+      const seen = store.get(this.seenKey, null);
+      const i = this.items.findIndex((x) => x.id === seen);
+      return i < 0 ? this.items.slice(0, 1) : this.items.slice(0, i);
+    },
+    busy: () => /\/mock/.test(location.hash), // 模擬考作答中不打擾
+    lastCheck: Date.now(),
+    async check() {
+      if (!this.boot || this.pending || Date.now() - this.lastCheck < 10 * 60 * 1000) return;
+      this.lastCheck = Date.now();
+      let items;
+      try {
+        items = await this.fetch();
+      } catch {
+        return;
+      }
+      if (items[0]?.id && items[0].id !== this.boot) {
+        this.pending = items;
+        this.showUpdate();
+      }
+    },
+    showUpdate() {
+      if (!this.pending || this.busy() || $("#newsPop")) return;
+      const n = this.pending[0];
+      if (sessionStorage.getItem("sh:updDismiss") === n.id) return;
+      const el = this.mount(
+        "news-pop",
+        `<button class="news-x" type="button" aria-label="關閉">${ic("x")}</button>
+        <div class="eyebrow">有新版本</div><b>${esc(n.title)}</b>
+        <p>重新整理就會看到，作答紀錄都會保留。</p>
+        <div class="news-act"><button class="btn primary sm" type="button" data-act="reload">${ic("rotate")}重新整理</button></div>`,
+      );
+      el.addEventListener("click", (e) => {
+        const b = e.target.closest("button");
+        if (!b) return;
+        if (b.dataset.act === "reload") return location.reload();
+        sessionStorage.setItem("sh:updDismiss", n.id);
+        el.remove();
+      });
+    },
+    showWhatsNew() {
+      if (this.busy() || $("#newsPop")) return;
+      const u = this.unseen();
+      if (!u.length) return;
+      const block = (n) => `<section>
+          <div class="eyebrow">${esc(n.date.slice(5).replace("-", "/"))}${n.subjectLabel ? ` · ${esc(n.subjectLabel)}` : ""}</div>
+          <h3>${esc(n.title)}</h3>
+          ${n.points?.length ? `<ul>${n.points.map((p) => `<li>${esc(p)}</li>`).join("")}</ul>` : ""}
+          ${n.href ? `<a class="news-link" href="${esc(n.href)}" data-act="go">前往 ${ic("arrowR")}</a>` : ""}
+        </section>`;
+      const el = this.mount(
+        "news-modal",
+        `<div class="news-box" role="dialog" aria-modal="true" aria-labelledby="newsTtl">
+          <button class="news-x" type="button" aria-label="關閉">${ic("x")}</button>
+          <div class="eyebrow"><b>Study Hub</b> · 更新內容</div>
+          <h2 class="display h-m" id="newsTtl">網站更新了</h2>
+          <div class="news-items">${u.slice(0, 3).map(block).join("")}</div>
+          <div class="news-act"><button class="btn primary" type="button" data-act="ok">知道了</button></div>
+        </div>`,
+      );
+      const close = () => {
+        if (this.items[0]) store.set(this.seenKey, this.items[0].id);
+        el.remove();
+        removeEventListener("keydown", esc_);
+      };
+      const esc_ = (e) => e.key === "Escape" && close();
+      addEventListener("keydown", esc_);
+      el.addEventListener("click", (e) => {
+        if (e.target === el || e.target.closest("button,a")) close();
+      });
+      el.querySelector("[data-act=ok]").focus();
+    },
+    mount(cls, html) {
+      const el = document.createElement("div");
+      el.id = "newsPop";
+      el.className = cls;
+      el.innerHTML = html;
+      document.body.appendChild(el);
+      requestAnimationFrame(() => el.classList.add("show"));
+      return el;
+    },
+  };
+
   // boot: wait for marked (deferred) then route
   const boot = () => {
+    News.init();
     route();
     paintAcct();
     Cloud.init();

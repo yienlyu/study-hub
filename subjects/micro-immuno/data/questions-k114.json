@@ -54,8 +54,8 @@
         "t": "加熱固定時蛋白染色"
       }
     ],
-    "answer": ["B"],
-    "explain": "（記題沒有附答案，網站依課本判斷）Crystal violet–iodine 複合物被 G(+) 厚的 peptidoglycan 細胞壁留住，酒精脫色後仍呈紫色。",
+    "answer": ["C"],
+    "explain": "（記題沒有附答案，網站依課本判斷）結晶紫可自由穿過細胞壁進入細胞質，整個菌體被染色；加碘形成 CV–I 複合物後，G(+) 厚的 peptidoglycan 經酒精脫水收縮，把複合物留在細胞內，所以仍呈紫色。染劑不是「嵌入細胞壁」；G(+) 沒有外膜；加熱固定只是把菌固定在玻片上。（答案依百十三期中考古詳解，11/2 版）",
     "topics": ["細菌構造"],
     "pattern": "選正確／單一概念題"
   },
@@ -500,6 +500,32 @@
     "explain": "（記題沒有附答案，網站依課本判斷）鼠疫桿菌 Yersinia pestis 經跳蚤叮咬傳播（肺鼠疫可飛沫人傳人），不是吸入老鼠糞便。",
     "topics": ["腸桿菌科"],
     "pattern": "選正確／單一概念題"
+  },
+  {
+    "id": "k114-29",
+    "source": "114 期中考古",
+    "num": 29,
+    "chapter": "neisseria",
+    "type": "mcq",
+    "stem": "下列關於弧菌（Vibrio）的敘述何者錯誤？",
+    "options": [
+      {
+        "k": "A",
+        "t": "Kanagawa Hemolysin 是 Vibrio parahaemolyticus 中的耐熱溶血素"
+      },
+      {
+        "k": "B",
+        "t": "Vibrio vulnificus只會透過海水感染，不會透過食物感染"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explain": "（記題沒有附答案，網站依課本判斷）（記題只記到兩個選項）Vibrio vulnificus 可經食用受污染的生海鮮（生蠔）感染，也可經傷口接觸海水感染，所以「只會透過海水」錯。Kanagawa hemolysin 是腸炎弧菌（V. parahaemolyticus）的耐熱溶血素，正確。",
+    "topics": [
+      "其他 G(−) 菌"
+    ],
+    "pattern": "選錯誤／否定題"
   },
   {
     "id": "k114-30",
@@ -1035,6 +1061,40 @@
     "pattern": "選正確／單一概念題"
   },
   {
+    "id": "k114-54",
+    "source": "114 期中考古",
+    "num": 54,
+    "chapter": "mhc",
+    "type": "mcq",
+    "stem": "有關於MHC1的敘述何者正確",
+    "options": [
+      {
+        "k": "A",
+        "t": "和Tc的胞殺反應有關"
+      },
+      {
+        "k": "B",
+        "t": "MHC1的peptides比MHC2長"
+      },
+      {
+        "k": "C",
+        "t": "β microglobulin是組成輕鏈的一部份"
+      },
+      {
+        "k": "D",
+        "t": "蛋白質夾在α 1和α 2中間"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explain": "（記題沒有附答案，網站依課本判斷）MHC I 呈現胜肽給 CD8⁺ Tc，誘發胞殺。MHC I 的胜肽溝兩端封閉，胜肽（8–10 aa）比 MHC II 的短；β2-microglobulin 本身就是整條輕鏈；溝裡放的是胜肽（不是完整蛋白），位於 α1、α2 之間。（依百十三期中考古詳解：依題目原文選 A；若 D 改成「胜肽」則 A、D 皆對）",
+    "topics": [
+      "MHC 與抗原呈現"
+    ],
+    "pattern": "選正確／單一概念題"
+  },
+  {
     "id": "k114-57",
     "source": "114 期中考古",
     "num": 57,
@@ -1452,6 +1512,96 @@
     "answer": ["A"],
     "explain": "（記題沒有附答案，網站依課本判斷）Inflammasome 可由 NLRP3、AIM2 等形成，活化 caspase-1 → 產生 IL-1β、IL-18。（樹突細胞中也有，但題目最佳答案為 A。）",
     "topics": ["先天免疫"],
+    "pattern": "選正確／單一概念題"
+  },
+  {
+    "id": "k114-83",
+    "source": "114 期中考古",
+    "num": 83,
+    "chapter": "immunodeficiency",
+    "type": "mcq",
+    "stem": "有關Immunodeficiency的敘述，下列何者正確?",
+    "options": [
+      {
+        "k": "A",
+        "t": "這是由於基因突變造成的"
+      },
+      {
+        "k": "B",
+        "t": "bubble kid 就是由於此造成的"
+      },
+      {
+        "k": "C",
+        "t": "基因遺傳的突變能透過基因治療改善"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explain": "（記題沒有附答案，網站依課本判斷）Bubble boy（泡泡男孩）就是嚴重複合型免疫缺陷（SCID）。免疫缺陷有原發性（基因）與次發性（HIV、營養不良、免疫抑制藥），不全是基因突變；基因治療只對部分疾病（如 ADA-SCID）有效。（答案依百十三期中考古詳解）",
+    "topics": [
+      "免疫缺陷"
+    ],
+    "pattern": "選正確／單一概念題"
+  },
+  {
+    "id": "k114-84",
+    "source": "114 期中考古",
+    "num": 84,
+    "chapter": "immunodeficiency",
+    "type": "mcq",
+    "stem": "下列有關ADA的敘述，何者錯誤?",
+    "options": [
+      {
+        "k": "A",
+        "t": "這是體染色體遺傳"
+      },
+      {
+        "k": "B",
+        "t": "這是X染色體遺傳"
+      },
+      {
+        "k": "C",
+        "t": "基因治療有效"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explain": "（記題沒有附答案，網站依課本判斷）ADA 缺乏症是體染色體隱性遺傳，不是 X 染色體；X-linked SCID 是 IL2RG（common γ chain）突變。ADA-SCID 可用造血幹細胞基因治療。",
+    "topics": [
+      "免疫缺陷"
+    ],
+    "pattern": "選錯誤／否定題"
+  },
+  {
+    "id": "k114-85",
+    "source": "114 期中考古",
+    "num": 85,
+    "chapter": "immunodeficiency",
+    "type": "mcq",
+    "stem": "下列有關X-linked hyper IgM的敘述，何者正確?",
+    "options": [
+      {
+        "k": "A",
+        "t": "基因治療能有效改善"
+      },
+      {
+        "k": "B",
+        "t": "造成患者體內IgA、IgG濃度極高"
+      },
+      {
+        "k": "C",
+        "t": "患者體內IgM的類型不轉換"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explain": "（記題沒有附答案，網站依課本判斷）X-linked hyper-IgM：CD40L（CD154）突變，T 細胞無法經 CD40 幫 B 細胞類別轉換 → IgM 正常或升高，IgG、IgA、IgE 很低。目前以造血幹細胞移植為主，基因治療仍在研究。",
+    "topics": [
+      "免疫缺陷"
+    ],
     "pattern": "選正確／單一概念題"
   },
   {

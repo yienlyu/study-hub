@@ -12,6 +12,28 @@
    }
   }
  },
+ "subjects/micro-immuno/data/questions-k114.json": {
+  "fields": {
+   "k114-11": {
+    "explain": "（記題沒有附答案，網站依課本判斷）高壓蒸氣滅菌（121 °C、15 psi）靠飽和水蒸汽的高溫使蛋白質變性。\n(D) 非游離輻射＝UV：只會讓相鄰 pyrimidine 形成 dimer、穿透力差，只能達到消毒；會滅菌的是游離輻射（γ ray）。"
+   },
+   "k114-12": {
+    "explain": "（記題沒有附答案，網站依課本判斷）Ethylene oxide 是低溫氣體滅菌，適合怕熱的醫療器材。\n另外工業端也常用 γ ray（游離輻射）滅菌怕熱的塑膠醫材，但這題選項沒有；紫外線只能消毒，乾熱與高壓蒸氣都要高溫。"
+   },
+   "k114-13": {
+    "explain": "（記題沒有附答案，網站依課本判斷）Chlorhexidine（環己定）常用於手術前刷手與病人皮膚消毒。\n(D) 加馬射線是用來滅菌「物品」的游離輻射，會傷害活組織，不能照在手或皮膚上。(A) 漂白水用於環境與物品；(B) 高濃度雙氧水對組織刺激大。Chlorhexidine 屬 biguanide（雙胍類），低毒、不被深層組織吸收，所以適合當防腐劑。"
+   },
+   "k114-49": {
+    "explain": "（記題沒有附答案，網站依課本判斷）Positive selection 是胸腺皮質上皮細胞的自我 MHC-peptide 給予適中訊號而存活。AIRE 相關的是 negative selection。\n選項 B 寫「中等以上」不太精確：課本是「低～中等」親和力才 positive selection，訊號太強反而會被 negative selection 刪除（clonal deletion）；但四個選項中只有 B 方向正確。親和力與結果的對照見 Fig. 16 胸腺發育路線與 affinity model。",
+    "figs": [
+     "thymus-selection"
+    ]
+   },
+   "k114-61": {
+    "explain": "（記題沒有附答案，網站依課本判斷）Th17 分泌 IL-17，招募嗜中性球對抗胞外細菌與真菌。\n📍 筆記：「1. Signal ③：cytokine 決定 CD4 TH 分化」TH 亞群表：TH1 → 胞內病原、活化 macrophage；TH2 → 寄生蟲（helminth）。"
+   }
+  }
+ },
  "subjects/micro-immuno/data/questions-new.json": {
   "fields": {
    "new-011": {

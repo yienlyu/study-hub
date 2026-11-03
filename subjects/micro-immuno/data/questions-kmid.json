@@ -1,0 +1,3408 @@
+[
+ {
+  "id": "kmid106-01",
+  "source": "106 期中考古",
+  "section": "106 微免期中考古",
+  "num": 1,
+  "chapter": "immuno-basic",
+  "type": "mcq",
+  "stem": "Which of the following cell types is required for all humoral immune responses?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Natural killer cells"
+   },
+   {
+    "k": "B",
+    "t": "Dendritic cells"
+   },
+   {
+    "k": "C",
+    "t": "Cytosolic T lymphocytes"
+   },
+   {
+    "k": "D",
+    "t": "B lymphocytes"
+   },
+   {
+    "k": "E",
+    "t": "Helper T lymphocytes"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "體液免疫最後都要靠 B 細胞分化成漿細胞分泌抗體。T-independent 抗原（如 LPS、多醣）可直接活化 B 細胞，不需要 helper T，所以「所有」體液免疫都必需的只有 B 細胞。",
+  "topics": [
+   "先天 vs 後天免疫"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid106-02",
+  "source": "106 期中考古",
+  "section": "106 微免期中考古",
+  "num": 2,
+  "chapter": "immuno-basic",
+  "type": "mcq",
+  "stem": "Which of the following destroys virus-infected cells?",
+  "options": [
+   {
+    "k": "A",
+    "t": "CTL"
+   },
+   {
+    "k": "B",
+    "t": "Treg"
+   },
+   {
+    "k": "C",
+    "t": "TH"
+   },
+   {
+    "k": "D",
+    "t": "dendritic cells"
+   },
+   {
+    "k": "E",
+    "t": "B cells"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "CTL 辨識 MHC I＋病毒胜肽，以 perforin／granzyme 或 FasL–Fas 誘發受感染細胞凋亡。",
+  "topics": [
+   "細胞毒殺（perforin/Fas）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid106-03",
+  "source": "106 期中考古",
+  "section": "106 微免期中考古",
+  "num": 3,
+  "chapter": "immuno-basic",
+  "type": "mcq",
+  "stem": "In addition to T cells, which cell type is required for initiation of all T cell-mediated immune responses?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Effector cells"
+   },
+   {
+    "k": "B",
+    "t": "Memory Cells."
+   },
+   {
+    "k": "C",
+    "t": "Natural killer cells"
+   },
+   {
+    "k": "D",
+    "t": "antigen-presenting cells"
+   },
+   {
+    "k": "E",
+    "t": "B lymphocytes"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "T 細胞只認得 MHC 上呈現的胜肽，所以所有 T 細胞免疫反應的啟動都需要抗原呈現細胞（APC）。",
+  "topics": [
+   "抗原處理與呈現（TAP）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid106-04",
+  "source": "106 期中考古",
+  "section": "106 微免期中考古",
+  "num": 4,
+  "chapter": "immuno-basic",
+  "type": "mcq",
+  "stem": "The site of Primary Lymphoid organs is located at",
+  "options": [
+   {
+    "k": "A",
+    "t": "Bone marrow and thymus: generation, maturation and selection of lymphocytes"
+   },
+   {
+    "k": "B",
+    "t": "Peyer’s patches: differentiation and proliferation of lymphocytes"
+   },
+   {
+    "k": "C",
+    "t": "lymph nodes: lymphocyte activation"
+   },
+   {
+    "k": "D",
+    "t": "Kidney: antigen drainage"
+   },
+   {
+    "k": "E",
+    "t": "All of the above are correct"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "初級淋巴器官＝骨髓、胸腺（淋巴球生成、成熟、篩選）；Peyer's patches、淋巴結、脾臟是次級淋巴器官。",
+  "topics": [
+   "先天 vs 後天免疫"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid106-05",
+  "source": "106 期中考古",
+  "section": "106 微免期中考古",
+  "num": 5,
+  "chapter": "immuno-basic",
+  "type": "mcq",
+  "stem": "The most abundant granulocyte in the immune system is the ____.",
+  "options": [
+   {
+    "k": "A",
+    "t": "Neutrophil"
+   },
+   {
+    "k": "B",
+    "t": "Eosinophil"
+   },
+   {
+    "k": "C",
+    "t": "Basophil"
+   },
+   {
+    "k": "D",
+    "t": "Mesophyll"
+   },
+   {
+    "k": "E",
+    "t": "Dr. Phil"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "嗜中性球是數量最多的顆粒球（也是最多的白血球）。",
+  "topics": [
+   "先天 vs 後天免疫"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid106-06",
+  "source": "106 期中考古",
+  "section": "106 微免期中考古",
+  "num": 6,
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "Which one of the following statements is not true?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Leukocyte migration in inflammation is controlled by both leukocytes and endothelium."
+   },
+   {
+    "k": "B",
+    "t": "CR3 is an important integrin expressed on monocytes."
+   },
+   {
+    "k": "C",
+    "t": "Different chemokines cause different kinds of leukocytes to accumulate."
+   },
+   {
+    "k": "D",
+    "t": "In the first step of leukocyte adhesion, integrins bind to carbohydrates to slow the circulating leukocytes."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "白血球貼附第一步（tethering／rolling）是 selectin 結合醣類配體；integrin 負責之後的牢固黏附（firm adhesion）。CR3（Mac-1）是 integrin。",
+  "topics": [
+   "白血球遷移（selectin→chemokine→integrin）"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid106-11",
+  "source": "106 期中考古",
+  "section": "106 微免期中考古",
+  "num": 11,
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "Which one of the following is not true about antibodies?",
+  "options": [
+   {
+    "k": "A",
+    "t": "The hinge region of antibody is rich in proline residues and gives IgM, IgG, IgD and IgA segmental flexibility."
+   },
+   {
+    "k": "B",
+    "t": "There are five classes of antibody-IgG, IgA, IgM, IgD and IgE in human."
+   },
+   {
+    "k": "C",
+    "t": "A normal antibody molecule contains only one light chain type, either κ or λ, never both."
+   },
+   {
+    "k": "D",
+    "t": "B-cell epitopes may be composed of sequential or nonsequential amino acids."
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "IgM、IgE 沒有 hinge region（多一個 CH4 domain 取代）；有 hinge、富含 proline 的是 IgG、IgD、IgA。",
+  "topics": [
+   "抗體結構"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid106-12",
+  "source": "106 期中考古",
+  "section": "106 微免期中考古",
+  "num": 12,
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "Which statement is incorrect about antibody?",
+  "options": [
+   {
+    "k": "A",
+    "t": "IgM is the first immunoglobulin class produced in a primary response to an antigen."
+   },
+   {
+    "k": "B",
+    "t": "Hypervariable regions form the antigen-binding sites."
+   },
+   {
+    "k": "C",
+    "t": "In humans IgG molecules of all subclasses cross the placenta and confer a high degree of passive immunity to the newborn."
+   },
+   {
+    "k": "D",
+    "t": "Secretory IgG serves an important effector function at mucous membrane surface."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "在黏膜表面以分泌型（secretory）形式作用的是 IgA，不是 IgG。（人類 IgG 四個亞型都能通過胎盤，但效率不同。）",
+  "topics": [
+   "抗體類別與功能"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid106-13",
+  "source": "106 期中考古",
+  "section": "106 微免期中考古",
+  "num": 13,
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "Which statement is incorrect about antibody?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Heavy chains and light chains are linked together by disulfide bonds."
+   },
+   {
+    "k": "B",
+    "t": "The pentameric IgG is more efficient than other isotypes in binding antigens with many repeating epitopes such as viral particles and red blood cells"
+   },
+   {
+    "k": "C",
+    "t": "The class and the subclass of an antibody are determined by its heavy chain type."
+   },
+   {
+    "k": "D",
+    "t": "IgE is commonly associated with allergic diseases such as asthma and hay fever."
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "五聚體（pentamer）是 IgM 不是 IgG；IgM 結合價高，適合結合重複 epitope（病毒顆粒、紅血球）。",
+  "topics": [
+   "抗體類別與功能"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid106-15",
+  "source": "106 期中考古",
+  "section": "106 微免期中考古",
+  "num": 15,
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "Antibody diversity is NOT generated by ____.",
+  "options": [
+   {
+    "k": "A",
+    "t": "recombination of V, D and J gene segments"
+   },
+   {
+    "k": "B",
+    "t": "somatic hypermutation"
+   },
+   {
+    "k": "C",
+    "t": "P-addition and N-addition"
+   },
+   {
+    "k": "D",
+    "t": "gene cross over"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "抗體多樣性來源：多個 germline V 基因、V(D)J 重組、輕重鏈配對、接合處多樣性（P／N 核苷酸）、體細胞超突變。基因互換（crossing over）是減數分裂的事，不參與。",
+  "topics": [
+   "抗體多樣性（VDJ/SHM）"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid106-25",
+  "source": "106 期中考古",
+  "section": "106 微免期中考古",
+  "num": 25,
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "Several types of pathogens encode proteins that function as superantigens, which activated massive number of T cells in an individual. One example is the staphylococcal enterotoxins that cause food poisoning. These superantigens are the exception to the general rule that T cells only recognized specific peptide MHC complexes, because they:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Induce activation of any T cell whose T cell receptor uses a particular Vβ region bound by that superantigen"
+   },
+   {
+    "k": "B",
+    "t": "Simultaneously stimulate all of the T cell receptors on a given T cell"
+   },
+   {
+    "k": "C",
+    "t": "Cover up the peptide-binding site, preventing MHC molecules from binding peptides"
+   },
+   {
+    "k": "D",
+    "t": "Activate a large number of T cells that are specifically recognizing peptides derived from the superantigen protein"
+   },
+   {
+    "k": "E",
+    "t": "Induce anti-microbial cytokine production that aids the immune system in clearing the pathogen"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "超級抗原跨接 MHC II（胜肽溝外側）與 TCR Vβ，凡是用該 Vβ 的 T 細胞都被活化（可達 5–20%），不需辨識特定胜肽 → 大量細胞激素，造成毒性休克。",
+  "topics": [
+   "超級抗原"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid106-26",
+  "source": "106 期中考古",
+  "section": "106 微免期中考古",
+  "num": 26,
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "While CD-28 co-stimulation is important for the initial activation of native T cells, other co-stimulatory molecules function at later stages of the T cell response. Several of these other co-stimulatory molecules are members of the TNF-receptor family. Therefore, stimulation of these co-stimulatory TNF-receptors on activated T cells is likely to:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Induce programmed cell death in the T cell"
+   },
+   {
+    "k": "B",
+    "t": "Enhance T cell survival"
+   },
+   {
+    "k": "C",
+    "t": "Increase T cell proliferation"
+   },
+   {
+    "k": "D",
+    "t": "Promote T cell migration into tissues"
+   },
+   {
+    "k": "E",
+    "t": "Inhibit T cell activation and differentiation"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "TNF receptor 家族共刺激分子（如 OX40、4-1BB）在 T 細胞活化後期給抗凋亡訊號，延長已活化 T 細胞的存活。",
+  "topics": [
+   "共刺激（CD28/B7/CTLA-4）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid106-27",
+  "source": "106 期中考古",
+  "section": "106 微免期中考古",
+  "num": 27,
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "Which one of the following causes transmembrane channels in target cells?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Granzymes"
+   },
+   {
+    "k": "B",
+    "t": "Hapten"
+   },
+   {
+    "k": "C",
+    "t": "IL-1"
+   },
+   {
+    "k": "D",
+    "t": "IL-2"
+   },
+   {
+    "k": "E",
+    "t": "Perforin"
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "Perforin 在標的細胞膜上聚合成孔洞；granzyme 經孔洞進入後活化 caspase 誘發凋亡。",
+  "topics": [
+   "細胞毒殺（perforin/Fas）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid106-28",
+  "source": "106 期中考古",
+  "section": "106 微免期中考古",
+  "num": 28,
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "Cytokines released by TH1 cells can:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Activate CD8+ cells to CTLs"
+   },
+   {
+    "k": "B",
+    "t": "Convert TH1 cells to TH2 cells"
+   },
+   {
+    "k": "C",
+    "t": "Convert TH2 cells to TH1 cells"
+   },
+   {
+    "k": "D",
+    "t": "Kill parasites"
+   },
+   {
+    "k": "E",
+    "t": "Convert B cells to T cells"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "TH1 分泌 IL-2、IFN-γ，幫助 CD8⁺ T 細胞增生分化為 CTL。TH1／TH2 互相抑制，不會互相「轉換」。",
+  "topics": [
+   "TH 分化與細胞激素"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid106-29",
+  "source": "106 期中考古",
+  "section": "106 微免期中考古",
+  "num": 29,
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "Which cytokine is responsible for class switching from IgM to IgG3?",
+  "options": [
+   {
+    "k": "A",
+    "t": "IFN-γ"
+   },
+   {
+    "k": "B",
+    "t": "IL-4"
+   },
+   {
+    "k": "C",
+    "t": "IL-5"
+   },
+   {
+    "k": "D",
+    "t": "IL-6"
+   },
+   {
+    "k": "E",
+    "t": "TGF-β"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "IFN-γ（TH1）促進轉換成調理、活化補體能力強的 IgG 亞型（人 IgG1／IgG3，小鼠 IgG2a）；IL-4 → IgE；TGF-β → IgA。",
+  "topics": [
+   "B 細胞活化／class switch／生發中心"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid106-31",
+  "source": "106 期中考古",
+  "section": "106 微免期中考古",
+  "num": 31,
+  "chapter": "infection-immunity",
+  "type": "mcq",
+  "stem": "Which definition for the first line of defense against microbial infection is incorrect:",
+  "options": [
+   {
+    "k": "A",
+    "t": "First line confers interaction of pathogens with the host chemical/bioactive factors"
+   },
+   {
+    "k": "B",
+    "t": "Fecal transplantation is an application of microbiota"
+   },
+   {
+    "k": "C",
+    "t": "Lysosome kills bacteria directly"
+   },
+   {
+    "k": "D",
+    "t": "Antimicrobial peptides such as Defensins, Catholicizin, and Dermcidin are anti-microbe only without immune modulation"
+   },
+   {
+    "k": "E",
+    "t": "Complements kill microbe through a common membrane attack complex formation"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Defensins、cathelicidin、dermcidin 等抗菌胜肽除了直接殺菌，也有趨化、調節免疫的功能，所以「只有抗菌、沒有免疫調節」是錯的。",
+  "topics": [
+   "第一道防線"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid106-32",
+  "source": "106 期中考古",
+  "section": "106 微免期中考古",
+  "num": 32,
+  "chapter": "infection-immunity",
+  "type": "mcq",
+  "stem": "Which definition for NADPH oxidase against microbial infection is incorrect:",
+  "options": [
+   {
+    "k": "A",
+    "t": "NADPH oxidase is a membrane-bound enzyme complex"
+   },
+   {
+    "k": "B",
+    "t": "The NADPH oxidase complex is activated to assemble in the membranes during respiratory burst"
+   },
+   {
+    "k": "C",
+    "t": "Chronic Granulomatous Disease (CGD), characterized by extreme susceptibility to infection, is caused by genetic mutations in the NADPH oxidase subunit genes"
+   },
+   {
+    "k": "D",
+    "t": "NADPH oxidase subunits include membrane/bound subunits (p40phox, p47phox and p67phox) and cytosolic gp91phox and p22phox"
+   },
+   {
+    "k": "E",
+    "t": "NADPH oxidase is activated for generating superoxide"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "寫反了：膜結合次單位是 gp91phox、p22phox（cytochrome b558）；細胞質次單位是 p40phox、p47phox、p67phox（加 Rac）。呼吸爆發時組裝到膜上產生 superoxide；基因缺陷造成 CGD。",
+  "topics": [
+   "NADPH oxidase／CGD"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid106-33",
+  "source": "106 期中考古",
+  "section": "106 微免期中考古",
+  "num": 33,
+  "chapter": "infection-immunity",
+  "type": "mcq",
+  "stem": "Which definition for Pattern recognition receptors (PRRs) against microbial infection is incorrect:",
+  "options": [
+   {
+    "k": "A",
+    "t": "PRRs plays a crucial role in the proper function of the innate immune system"
+   },
+   {
+    "k": "B",
+    "t": "Membrane-bound PRRs include Toll-like receptors (TLR) and C-type lectin receptors (CLR)"
+   },
+   {
+    "k": "C",
+    "t": "Cytoplasmic PRRs include NOD-like receptors (NLR), RIG-I-like receptors (RLR), and cytosolic DNA sensor"
+   },
+   {
+    "k": "D",
+    "t": "Pro-inflammation s and antiviral IFN responses are generally induced following PPRs' activation"
+   },
+   {
+    "k": "E",
+    "t": "Activation of PRRs is pathogenic during microbial infection"
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "PRR 活化產生發炎與抗病毒干擾素反應，基本上是保護性的（過度時才致病），題目說「致病性」是錯的。",
+  "topics": [
+   "TLR／PRR"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid106-34",
+  "source": "106 期中考古",
+  "section": "106 微免期中考古",
+  "num": 34,
+  "chapter": "infection-immunity",
+  "type": "mcq",
+  "stem": "Viral immune evasion is the process by which viruses evade the immune system of the host. Which description is incorrect:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Modulation of PRR signaling by virus may cause the blockade of type 1 IFN response"
+   },
+   {
+    "k": "B",
+    "t": "Viral antigens may hijack the machinery to block antigen processing, such as decrease in MHC class l"
+   },
+   {
+    "k": "C",
+    "t": "Induction of anti-inflammatory cytokines by viral infection as an immune escape"
+   },
+   {
+    "k": "D",
+    "t": "Viruses could be hides in infected cells as immune escape"
+   },
+   {
+    "k": "E",
+    "t": "None of the Above"
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "(A) 阻斷 PRR 訊號 → 抑制第一型干擾素；(B) 下調 MHC I；(C) 誘導抗發炎細胞激素（如病毒 IL-10）；(D) 潛伏在細胞內。四項都正確，所以沒有錯的選項。",
+  "topics": [
+   "免疫逃脫"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid106-35",
+  "source": "106 期中考古",
+  "section": "106 微免期中考古",
+  "num": 35,
+  "chapter": "immunodeficiency",
+  "type": "mcq",
+  "stem": "A 50-year-old male suffered with tuberculosis, cutaneous（皮膚）candidiasis, esophageal candidiasis, and cytomegalovirus enteritis（腸炎）. His doctor suspected he had immunodeficiency. Which of the following immunodeficiencies is most likely associated with his disease?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Granulocyte"
+   },
+   {
+    "k": "B",
+    "t": "Deficiency of immunoglobulin"
+   },
+   {
+    "k": "C",
+    "t": "Complement deficiency"
+   },
+   {
+    "k": "D",
+    "t": "T cell defect"
+   },
+   {
+    "k": "E",
+    "t": "Combined B and T cell defect"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "結核、皮膚／食道念珠菌、CMV 都是細胞內病原或伺機性感染，靠 T 細胞（細胞性免疫）控制 → 最可能是 T 細胞缺陷（如 AIDS）。",
+  "topics": [
+   "免疫缺陷分類"
+  ],
+  "pattern": "臨床情境題"
+ },
+ {
+  "id": "kmid106-36",
+  "source": "106 期中考古",
+  "section": "106 微免期中考古",
+  "num": 36,
+  "chapter": "immunodeficiency",
+  "type": "mcq",
+  "stem": "A 3-year-old boy was found to have chronic granulomatous disease caused by NADPH oxidase deficiency. Which of the following is most likely?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Increased risk of viral infection"
+   },
+   {
+    "k": "B",
+    "t": "Increased risk of fungal infection"
+   },
+   {
+    "k": "C",
+    "t": "Failure of leukocyte adhesion to endothelial cells"
+   },
+   {
+    "k": "D",
+    "t": "Failure of T cell activation"
+   },
+   {
+    "k": "E",
+    "t": "All of above"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "CGD：吞噬細胞缺 NADPH oxidase，無法產生 ROS 殺死吞入的 catalase 陽性細菌（S. aureus）與真菌（Aspergillus），反覆感染並形成肉芽腫。",
+  "topics": [
+   "NADPH oxidase／CGD"
+  ],
+  "pattern": "臨床情境題"
+ },
+ {
+  "id": "kmid106-37",
+  "source": "106 期中考古",
+  "section": "106 微免期中考古",
+  "num": 37,
+  "chapter": "mhc",
+  "type": "mcq",
+  "stem": "Which of the following HLA types is highly associated with ankylosing spondylitis?",
+  "options": [
+   {
+    "k": "A",
+    "t": "HLA B27"
+   },
+   {
+    "k": "B",
+    "t": "HLA DRB1*0301"
+   },
+   {
+    "k": "C",
+    "t": "HLA DRB1*0401"
+   },
+   {
+    "k": "D",
+    "t": "HLA DRB1"
+   },
+   {
+    "k": "E",
+    "t": "HLA DQA1*501"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "HLA-B27（MHC I）與僵直性脊椎炎高度相關（相對風險約 100 倍以上）。",
+  "topics": [
+   "MHC 構造與表現"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid109-13",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 13,
+  "chapter": "pathogenesis",
+  "type": "mcq",
+  "stem": "Which two of the followings are superantigens?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Staphylococci enterotoxin"
+   },
+   {
+    "k": "B",
+    "t": "E. coli enterotoxin."
+   },
+   {
+    "k": "C",
+    "t": "Streptococci erythrogenic toxin A"
+   },
+   {
+    "k": "D",
+    "t": "Vibrio cholera enterotoxin."
+   }
+  ],
+  "answer": [
+   "A",
+   "C"
+  ],
+  "explain": "超級抗原：(A) 金黃色葡萄球菌腸毒素、(C) 化膿性鏈球菌致熱外毒素（erythrogenic toxin A）。E. coli 腸毒素（LT／ST）與霍亂毒素是一般的 A-B 毒素，升高 cAMP／cGMP 造成分泌性腹瀉。",
+  "topics": [
+   "超級抗原"
+  ],
+  "pattern": "組合選擇題",
+  "multi": true
+ },
+ {
+  "id": "kmid109-14",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 14,
+  "chapter": "pathogenesis",
+  "type": "mcq",
+  "stem": "The port of entry for Treponema pallidum is:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Injection"
+   },
+   {
+    "k": "B",
+    "t": "Sexual transmission"
+   },
+   {
+    "k": "C",
+    "t": "Trauma"
+   },
+   {
+    "k": "D",
+    "t": "Arthopod bite"
+   },
+   {
+    "k": "E",
+    "t": "Inhalation"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "梅毒螺旋體（Treponema pallidum）經性行為（黏膜接觸）進入人體。",
+  "topics": [
+   "感染途徑"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid109-15",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 15,
+  "chapter": "pathogenesis",
+  "type": "mcq",
+  "stem": "The adhesion of Escherichia coli is:",
+  "options": [
+   {
+    "k": "A",
+    "t": "P fimbriae"
+   },
+   {
+    "k": "B",
+    "t": "Cell surface lectin"
+   },
+   {
+    "k": "C",
+    "t": "Type 4 pili"
+   },
+   {
+    "k": "D",
+    "t": "Protein P1"
+   },
+   {
+    "k": "E",
+    "t": "Slime"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "尿道致病性 E. coli 用 P fimbriae（pyelonephritis-associated pili）附著於尿路上皮的醣脂。",
+  "topics": [
+   "細菌附著"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid109-17",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 17,
+  "chapter": "pathogenesis",
+  "type": "mcq",
+  "stem": "Which one of the following statements is wrong?",
+  "options": [
+   {
+    "k": "A",
+    "t": "S. aureus produces coagulase which walling off the site of infection."
+   },
+   {
+    "k": "B",
+    "t": "S. pyogenes hyaluronic acid can mask human connective tissue."
+   },
+   {
+    "k": "C",
+    "t": "N. gonorrhoeae production of anti-immunoglobulin proteases."
+   },
+   {
+    "k": "D",
+    "t": "N. gonorrhoeae can vary the structures of surface Ags to evade Ab response."
+   },
+   {
+    "k": "E",
+    "t": "Long O Ag prevents the C’ and inhibits chemotaxis."
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "(A) coagulase 使 fibrin 包覆、形成膿瘍隔離；(B) GAS 玻尿酸莢膜模仿結締組織；(C) N. gonorrhoeae 分泌 IgA protease；(D) pilin／Opa 抗原變異。(E) 長 O 抗原可阻擋 MAC 插入細胞膜（抗補體），但不是「抑制趨化」，所以錯。",
+  "topics": [
+   "免疫逃脫"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid109-20",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 20,
+  "chapter": "staph-strep",
+  "type": "mcq",
+  "stem": "金黃色葡萄球菌之外表具有與免疫球蛋白之 Fc 部分結合的構造，可防止宿主之吞噬，則此物質為何？",
+  "options": [
+   {
+    "k": "A",
+    "t": "溶血毒素（cytotoxins）"
+   },
+   {
+    "k": "B",
+    "t": "蛋白質 A（protein A）"
+   },
+   {
+    "k": "C",
+    "t": "脂多醣（lipopolysaccharides）"
+   },
+   {
+    "k": "D",
+    "t": "IgA 蛋白質酶（IgA protease）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Protein A 結合 IgG 的 Fc 端，讓抗體方向顛倒，阻止調理吞噬。",
+  "topics": [
+   "S. aureus"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid109-22",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 22,
+  "chapter": "staph-strep",
+  "type": "mcq",
+  "stem": "孕婦需在產前檢測陰道是否含以下哪種病原菌，來預防新生兒感染到腦膜炎？",
+  "options": [
+   {
+    "k": "A",
+    "t": "化膿性鏈球菌（Streptococcus pyogenes）"
+   },
+   {
+    "k": "B",
+    "t": "金黃色葡萄球菌（Staphylococcus aureus）"
+   },
+   {
+    "k": "C",
+    "t": "無乳鏈球菌（Streptococcus agalactiae）"
+   },
+   {
+    "k": "D",
+    "t": "糞腸球菌（Enterococcus faecalis）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "B 群鏈球菌（S. agalactiae）是新生兒敗血症、腦膜炎的主因，孕婦於 35–37 週篩檢陰道／直腸帶菌。",
+  "topics": [
+   "S. agalactiae (GBS)"
+  ],
+  "pattern": "臨床情境題"
+ },
+ {
+  "id": "kmid109-23",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 23,
+  "chapter": "staph-strep",
+  "type": "mcq",
+  "stem": "化膿性鍊球菌（Streptococcus pyogenes）感染之後，有時會引起關節炎、心肌炎、心臟瓣膜破壞，其原因為何？",
+  "options": [
+   {
+    "k": "A",
+    "t": "由於化膿性鏈球菌抗原與上述的組織抗原有分子相似性（molecular mimicry），而導致自體免疫反應"
+   },
+   {
+    "k": "B",
+    "t": "化膿性鏈球菌過度增長，直接破壞組織所致"
+   },
+   {
+    "k": "C",
+    "t": "治療化膿性鍊球菌感染所用的抗生素引起的藥物危害"
+   },
+   {
+    "k": "D",
+    "t": "感染此菌後，引起 FoxP3 基因活化，調節型 T 細胞（Treg 細胞）增加所致"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "急性風濕熱：GAS M protein 與心肌、瓣膜、關節抗原的分子相似性（molecular mimicry）→ 自體免疫。",
+  "topics": [
+   "S. pyogenes (GAS)"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid109-24",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 24,
+  "chapter": "staph-strep",
+  "type": "mcq",
+  "stem": "鏈球菌（Streptococcus）菌屬可用血清學方式分為不同群，請問是依細菌表面那個結構進行分類？",
+  "options": [
+   {
+    "k": "A",
+    "t": "M protein"
+   },
+   {
+    "k": "B",
+    "t": "C-carbohydrate"
+   },
+   {
+    "k": "C",
+    "t": "（原考古此選項空白）"
+   },
+   {
+    "k": "D",
+    "t": "Fimbriae"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Lancefield 血清分群依細胞壁的 C-carbohydrate（群特異多醣）；M protein 用來再細分 GAS 的型別。",
+  "topics": [
+   "S. pyogenes (GAS)"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid109-25",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 25,
+  "chapter": "staph-strep",
+  "type": "mcq",
+  "stem": "有關肺炎鏈球菌（Streptococcus pneumoniae）的敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "在血液培養盤會出現草綠色的菌落顏色，屬於草綠鏈球群菌中的一種"
+   },
+   {
+    "k": "B",
+    "t": "對奧普托辛（optochin）敏感，且可被膽汁溶解"
+   },
+   {
+    "k": "C",
+    "t": "具抗吞噬能力的莢膜（capsule）是此菌重要的致病因子"
+   },
+   {
+    "k": "D",
+    "t": "已有疫苗可預防感染，疫苗主要是由此菌表面黏附蛋白（adhesive protein）所製成"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "肺炎鏈球菌疫苗是用莢膜多醣（PPSV23；PCV 則是多醣接合蛋白載體），不是黏附蛋白。(A)(B)(C) 正確：α 溶血、optochin 敏感、膽汁溶解、莢膜是主要毒力因子。",
+  "topics": [
+   "S. pneumoniae"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid109-26",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 26,
+  "chapter": "staph-strep",
+  "type": "mcq",
+  "stem": "在臨床實際情形，若檢體內發現有革蘭氏陽性球菌，具溶血特性且 coagulase、catalase 陽性。請問此菌株最不可能會產下列哪一個毒力因子？",
+  "options": [
+   {
+    "k": "A",
+    "t": "IgA protease"
+   },
+   {
+    "k": "B",
+    "t": "Enterotoxin"
+   },
+   {
+    "k": "C",
+    "t": "（原考古此選項空白）"
+   },
+   {
+    "k": "D",
+    "t": "Hyaluronidase"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "G(+) 球菌、溶血、coagulase 與 catalase 陽性 → S. aureus。它會產生腸毒素、hyaluronidase，但 IgA protease 是 S. pneumoniae（以及 Neisseria、H. influenzae）的毒力因子。",
+  "topics": [
+   "S. aureus"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid109-28",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 28,
+  "chapter": "fungi",
+  "type": "mcq",
+  "stem": "Which of the following fungal pathogen is a thermo-dimorphic fungus?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Epidermophyton floccossum"
+   },
+   {
+    "k": "B",
+    "t": "Penicillium marneffei"
+   },
+   {
+    "k": "C",
+    "t": "Trichophyton rubrum"
+   },
+   {
+    "k": "D",
+    "t": "Microsporum canis"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Penicillium（Talaromyces）marneffei 是溫度雙型性真菌（25 °C 菌絲、37 °C 酵母）。Epidermophyton、Trichophyton、Microsporum 是皮癬菌，只有菌絲型。",
+  "topics": [
+   "皮膚／皮下／系統性黴菌"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid109-30",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 30,
+  "chapter": "fungi",
+  "type": "mcq",
+  "stem": "Which of the following diseases is the most important opportunistic pathogen to human with the highest morbidity and mortality?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Candidiasis"
+   },
+   {
+    "k": "B",
+    "t": "Cryptococcosis"
+   },
+   {
+    "k": "C",
+    "t": "（原考古此選項空白）"
+   },
+   {
+    "k": "D",
+    "t": "Sporotrichosis"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "念珠菌症是最常見、致死率最高的伺機性真菌感染（念珠菌血症死亡率可達 40–50%）；隱球菌也是伺機性（腦膜炎）但發生率較低；孢子絲菌症是皮下感染。",
+  "topics": [
+   "Cryptococcus／Candida"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid109-32",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 32,
+  "chapter": "bacillus",
+  "type": "mcq",
+  "stem": "Which of the following bacteria do not have endospores?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Clostridium difficile"
+   },
+   {
+    "k": "B",
+    "t": "Bacillus anthracis"
+   },
+   {
+    "k": "C",
+    "t": "Bacillus subtilis"
+   },
+   {
+    "k": "D",
+    "t": "Erysipelothrix rhusiopathiae"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Erysipelothrix rhusiopathiae 不產生內孢子；Clostridium、Bacillus 都會。",
+  "topics": [
+   "孢子"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid109-33",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 33,
+  "chapter": "bacillus",
+  "type": "mcq",
+  "stem": "Which of the following statements about Bacillus anthracis is wrong?",
+  "options": [
+   {
+    "k": "A",
+    "t": "The lethal toxin is an A－B toxin"
+   },
+   {
+    "k": "B",
+    "t": "Edema toxin can cause the increase of cAMP in host cells"
+   },
+   {
+    "k": "C",
+    "t": "Bacillus anthracis enterotoxin causes gastrointestinal anthrax"
+   },
+   {
+    "k": "D",
+    "t": "Bacillus anthracis capsule is composed of poly-D-glutamic acid"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "腸胃型炭疽是吃進帶芽孢的未煮熟肉類所致，炭疽桿菌沒有「腸毒素」。致死毒素（PA＋LF）與水腫毒素（PA＋EF，adenylate cyclase → cAMP↑）都是 A-B 毒素；莢膜為 poly-D-glutamic acid。",
+  "topics": [
+   "Bacillus anthracis"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid109-34",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 34,
+  "chapter": "bacillus",
+  "type": "mcq",
+  "stem": "Which bacteria can cause Fried Rice Syndrome?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Listeria monocytogenes"
+   },
+   {
+    "k": "B",
+    "t": "Bacillus anthracis"
+   },
+   {
+    "k": "C",
+    "t": "Bacillus cereus"
+   },
+   {
+    "k": "D",
+    "t": "Erysipelothrix rhusiopathiae"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Fried rice syndrome＝B. cereus 嘔吐型：耐熱的 cereulide 毒素在炒飯中仍有活性。",
+  "topics": [
+   "Bacillus cereus"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid109-35",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 35,
+  "chapter": "bacillus",
+  "type": "mcq",
+  "stem": "Which of following bacteria’s natural reservoir is only humans?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Bacillus anthracis"
+   },
+   {
+    "k": "B",
+    "t": "Corynebacterium diphtheria"
+   },
+   {
+    "k": "C",
+    "t": "Erysipelothrix rhusiopathiae"
+   },
+   {
+    "k": "D",
+    "t": "Listeria monocytogenes"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "人類是白喉桿菌唯一宿主；B. anthracis、Erysipelothrix、Listeria 都有動物或環境宿主。",
+  "topics": [
+   "C. diphtheriae"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid109-36",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 36,
+  "chapter": "bacillus",
+  "type": "mcq",
+  "stem": "Which of following statement about Listeria monocytogenes is wrong?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Can grow in growth at 4℃ and at high-salt concentrations."
+   },
+   {
+    "k": "B",
+    "t": "Non-motile."
+   },
+   {
+    "k": "C",
+    "t": "Facultative intracellular pathogen that can avoid antibody-mediated clearance."
+   },
+   {
+    "k": "D",
+    "t": "Can cause neonatal disease which result in in utero death."
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Listeria 在室溫（< 30 °C）有鞭毛、呈翻滾式運動（tumbling motility），也能在細胞內用 actin rocket 移動，所以 non-motile 是錯的。可在 4 °C、高鹽生長；胞內寄生逃避抗體；可經胎盤造成流產、新生兒感染。",
+  "topics": [
+   "Listeria"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid109-37",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 37,
+  "chapter": "bacillus",
+  "type": "mcq",
+  "stem": "The major action of Diphtheria toxin is to:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Inhibit cellular protein synthesis by binding to elongation factor."
+   },
+   {
+    "k": "B",
+    "t": "Inhibit cellular protein synthesis by binding to 60S subunit of ribosome."
+   },
+   {
+    "k": "C",
+    "t": "Increase cGMP."
+   },
+   {
+    "k": "D",
+    "t": "Increase cCMP."
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "白喉毒素 A 片段把 EF-2 ADP-ribosylation，抑制蛋白質合成。結合 60S rRNA 的是 Shiga toxin。",
+  "topics": [
+   "C. diphtheriae"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid109-39",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 39,
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "Which of the following bacteria do not have flagella?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Escherichia coli"
+   },
+   {
+    "k": "B",
+    "t": "Salmonella Typhi"
+   },
+   {
+    "k": "C",
+    "t": "Shigella dysenteriae"
+   },
+   {
+    "k": "D",
+    "t": "Proteus mirabilis"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Shigella 沒有鞭毛（不會動）；E. coli、Salmonella、Proteus 都有周鞭毛（Proteus 會 swarming）。",
+  "topics": [
+   "Shigella"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid109-40",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 40,
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "About Salmonella typhi, which of the following statement is wrong?",
+  "options": [
+   {
+    "k": "A",
+    "t": "A strict human pathogen."
+   },
+   {
+    "k": "B",
+    "t": "Can cause typhoid fever."
+   },
+   {
+    "k": "C",
+    "t": "Can be isolated from the blood specimen one week after the infection."
+   },
+   {
+    "k": "D",
+    "t": "Fewer than 100 bacterial cells can be enough to cause an infection."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "傷寒需要較大的感染量（約 10³–10⁵），少於 100 隻就能感染的是 Shigella。傷寒只感染人，感染第一週血液培養陽性率最高。",
+  "topics": [
+   "Salmonella"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid109-41",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 41,
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "About shigella toxin, which of following statement is wrong?",
+  "options": [
+   {
+    "k": "A",
+    "t": "An A－B toxin."
+   },
+   {
+    "k": "B",
+    "t": "Inhibit cellular protein synthesis by binding 60S subunit of ribosome."
+   },
+   {
+    "k": "C",
+    "t": "Can cause potentially-fatal hemolytic uremic syndrome（HUS）."
+   },
+   {
+    "k": "D",
+    "t": "Encoded by tox gene from Tox bacteriophage."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "由 β 噬菌體 tox 基因編碼的是白喉毒素。Shiga toxin 是 A-B 毒素（A 切 60S 的 28S rRNA），可造成 HUS。",
+  "topics": [
+   "Shigella"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid109-42",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 42,
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "Which of enteropathogenic E. coli can produce heat-stable enterotoxins（STa and STb）for causing diarrhea?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Enterotoxigenic E. coli（ETEC）"
+   },
+   {
+    "k": "B",
+    "t": "Enterohemorrhagic E. coli（EHEC）"
+   },
+   {
+    "k": "C",
+    "t": "Enteropathogenic E. coli（EPEC）"
+   },
+   {
+    "k": "D",
+    "t": "Enteroaggregative E. coli（EAEC）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "ETEC 產生耐熱 ST（升高 cGMP）與不耐熱 LT（升高 cAMP），造成旅行者腹瀉。",
+  "topics": [
+   "E. coli 致病型"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid109-43",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 43,
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "About Yersinia pestis, which of following statements is wrong?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Zoonotic pathogen."
+   },
+   {
+    "k": "B",
+    "t": "Majorly transmitted by rat-bites."
+   },
+   {
+    "k": "C",
+    "t": "major pathogen causing Plague."
+   },
+   {
+    "k": "D",
+    "t": "Highly resistant to phagocytosis."
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "鼠疫主要經跳蚤叮咬傳播（肺鼠疫可飛沫人傳人），不是被老鼠咬。Y. pestis 是人畜共通病原，有 F1 莢膜、Yops 等抗吞噬。",
+  "topics": [
+   "Yersinia／plague"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid109-46",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 46,
+  "chapter": "immuno-basic",
+  "type": "mcq",
+  "stem": "下列何種細胞一般不被歸類為先天免疫細胞?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Macrophage"
+   },
+   {
+    "k": "B",
+    "t": "Neutrophil"
+   },
+   {
+    "k": "C",
+    "t": "dendritic cell"
+   },
+   {
+    "k": "D",
+    "t": "B cell"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "B 細胞屬於後天免疫；巨噬細胞、嗜中性球、樹突細胞都是先天免疫細胞。",
+  "topics": [
+   "先天 vs 後天免疫"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid109-47",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 47,
+  "chapter": "immuno-basic",
+  "type": "mcq",
+  "stem": "下列有關於毒殺性 T 細胞（cytotoxic T lymphocyte, CTL）與自然殺手細胞（natural killer cell, NK cell）之比較，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "二者皆有抗原特異性"
+   },
+   {
+    "k": "B",
+    "t": "二者皆有 FasL"
+   },
+   {
+    "k": "C",
+    "t": "二者活性皆與 MHC class I 有關"
+   },
+   {
+    "k": "D",
+    "t": "不表現 MHC class I 分子的腫瘤細胞，可以逃過 CTL 的辨認，但是無法逃過 NK cell 的追蹤"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "NK 細胞沒有抗原特異性（靠活化／抑制受體平衡）；CTL 有。兩者都有 FasL、都與 MHC I 有關（CTL 辨識 MHC I＋胜肽；NK 遇到缺 MHC I 的細胞就殺）。",
+  "topics": [
+   "NK 細胞與抑制性受體"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid109-48",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 48,
+  "chapter": "immuno-basic",
+  "type": "mcq",
+  "stem": "位於腸道底層免疫組織中之 M 細胞的主要免疫功能為：",
+  "options": [
+   {
+    "k": "A",
+    "t": "直接殺菌"
+   },
+   {
+    "k": "B",
+    "t": "製造抗體"
+   },
+   {
+    "k": "C",
+    "t": "捕捉及轉運腸道中的抗原至下層的淋巴組織"
+   },
+   {
+    "k": "D",
+    "t": "保護周邊的腸道表皮細胞"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "M 細胞位在 Peyer's patches 上方，負責把腸腔抗原轉運（transcytosis）到下方的淋巴組織。",
+  "topics": [
+   "先天 vs 後天免疫"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid109-57",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 57,
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "Which statement is incorrect about antibody?",
+  "options": [
+   {
+    "k": "A",
+    "t": "IgM is the first immunoglobulin class produced in a primary response to an antigen"
+   },
+   {
+    "k": "B",
+    "t": "Hypervariable regions form the antigen-binding sites"
+   },
+   {
+    "k": "C",
+    "t": "Immature B cells express membrane form of IgM (mIgM) and mIgD"
+   },
+   {
+    "k": "D",
+    "t": "Secretory IgA serves an important effector function at mucous membrane surfaces"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Immature B 細胞只表現 mIgM；成熟（naïve）B 細胞經 alternative splicing 同時表現 mIgM 與 mIgD。",
+  "topics": [
+   "B 細胞活化／class switch／生發中心"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid109-58",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 58,
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "Which statement is incorrect about antibody?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Heavy chains and light chains are linked together by disulfide bonds."
+   },
+   {
+    "k": "B",
+    "t": "In human IgG molecules of all subclasses cross the placenta and confer a high degree of passive immunity to the newborn."
+   },
+   {
+    "k": "C",
+    "t": "The class and subclass of an antibody are determined by its light chain type."
+   },
+   {
+    "k": "D",
+    "t": "IgE is common associated with allergic diseases such as asthma and hay fever."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "抗體的類別與亞型由重鏈（恆定區）決定，不是輕鏈。",
+  "topics": [
+   "抗體結構"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid109-59",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 59,
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "What are the three important B-cell differentiation events that take place in germinal centers?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Affinity maturation; class switching; and formation of plasma cells and memory B cells."
+   },
+   {
+    "k": "B",
+    "t": "Recombination of V, D and J gene segments; class switching; and formation of plasma cells and memory B cells."
+   },
+   {
+    "k": "C",
+    "t": "Recombination of V, D and J gene segments; affinity maturation; class switching."
+   },
+   {
+    "k": "D",
+    "t": "Expression of mIgM; class switching; and formation of plasma cells and memory B cells."
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "生發中心三件事：親和力成熟（SHM＋篩選）、類別轉換、分化為漿細胞與記憶 B 細胞。V(D)J 重組在骨髓、mIgM 表現在骨髓中就已完成。",
+  "topics": [
+   "B 細胞活化／class switch／生發中心"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid109-67",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 67,
+  "chapter": "tcell-dev",
+  "type": "mcq",
+  "stem": "The order of stages of T cell maturation is most accurately indicated by which of the following sequences?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Stem cell → pre-T cell → pro-T cell → single positive thymocyte → double positive thymocyte → naive mature T lymphocyte"
+   },
+   {
+    "k": "B",
+    "t": "Stem cell → pre-T cell → pro-T cell → double positive thymocyte → single positive thymocyte → naive mature T lymphocyte"
+   },
+   {
+    "k": "C",
+    "t": "Stem cell → pro-T cell → pre-T cell → single positive thymocyte → double positive thymocyte → naive mature T lymphocyte"
+   },
+   {
+    "k": "D",
+    "t": "Stem cell → pro-T cell → pre-T cell → double positive thymocyte → single positive thymocyte → naive mature T lymphocyte"
+   },
+   {
+    "k": "E",
+    "t": "Pre-T cell → pro-T cell → double positive thymocyte → single positive thymocyte → naive mature T lymphocyte → Stem cell"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Stem cell → pro-T → pre-T → double positive（CD4⁺CD8⁺）→ single positive → naïve mature T。",
+  "topics": [
+   "胸腺選擇"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid109-68",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 68,
+  "chapter": "mhc",
+  "type": "mcq",
+  "stem": "Which one of the following molecules does not play an important role in class II MHC pathway of antigen presentation?",
+  "options": [
+   {
+    "k": "A",
+    "t": "β2-microglobulin"
+   },
+   {
+    "k": "B",
+    "t": "Cathepsin"
+   },
+   {
+    "k": "C",
+    "t": "Invariant chain"
+   },
+   {
+    "k": "D",
+    "t": "HLA-DM"
+   },
+   {
+    "k": "E",
+    "t": "Calnexin"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "β2-microglobulin 是 MHC I 的輕鏈，與 MHC II 路徑無關。MHC II 路徑：calnexin（ER 摺疊）、invariant chain、cathepsin（切 Ii 與抗原）、HLA-DM（換掉 CLIP）。",
+  "topics": [
+   "抗原處理與呈現（TAP）"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid109-72",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 72,
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "胸腺依賴性（thymus-dependent）抗原活化 B 細胞需要輔助型 T 細胞的參與，且這兩種細胞所辨識的抗原是一種相關性辨識（linked recognition）的關係，有關相關性辨識的敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "如果一個 B 細胞的抗原接受器是辨識一種病毒的表面蛋白，而輔助型 T 細胞的抗原接受器是辨識此病毒內部的核心蛋白，這個輔助型 T 細胞是無法協助前述 B 細胞的活化"
+   },
+   {
+    "k": "B",
+    "t": "相關性辨識可以確保自我耐受性（self-tolerance）的產生，因為對自體有反應的（selfreactive）T 細胞必須碰到對自體有反應的 B 細胞才能引起自體抗體（autoantibody）的產生，而這種機率相當低"
+   },
+   {
+    "k": "C",
+    "t": "我們可以利用相關性辨識的概念來設計疫苗幫助嬰兒產生有效的抗體，去對付具有莢膜構造的病菌，比如流感嗜血桿菌（Haemophilus influenzae）"
+   },
+   {
+    "k": "D",
+    "t": "很多人對盤尼西林（penicillin）過敏的原因是因為盤尼西林注射到體內會和自體的蛋白形成聚合物，此聚合物會誘發 TH2 細胞的生成，再藉著相關性辨識去活化 B 細胞產生 IgE 引起過敏反應"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "Linked recognition 只要求 B、T 細胞辨識「同一個抗原（物理上相連）」，epitope 可以不同。B 細胞吞入整個病毒，把內部核心蛋白處理後以 MHC II 呈現，所以辨識核心蛋白的 TH 仍可以幫助辨識表面蛋白的 B 細胞，(A) 錯。",
+  "topics": [
+   "B 細胞活化／class switch／生發中心"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid109-76",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 76,
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "T follicular helper（TFH）細胞對於體液免疫反應（humoral immune response）非常重要，關於TFH 的描述何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "TFH 細胞位在 germinal center 的淺色區（light zone）"
+   },
+   {
+    "k": "B",
+    "t": "TFH 細胞的分化需要 Bcl-6 轉錄因子"
+   },
+   {
+    "k": "C",
+    "t": "TFH 細胞可分泌 IL-21 和其他細胞激素，IL-21 促進漿細胞分化"
+   },
+   {
+    "k": "D",
+    "t": "小鼠 B 細胞在體外培養時利用加入 LPS、IL-2、及 IL-21，可以代替 TFH 細胞功能來刺激 IgG1 抗體產生"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Tfh 位於生發中心 light zone，分化需要 Bcl-6，分泌 IL-21（促漿細胞分化）與 IL-4。小鼠 IgG1 的轉換需要 IL-4，所以只加 LPS、IL-2、IL-21 不能取代 Tfh 刺激 IgG1。",
+  "topics": [
+   "TH 分化與細胞激素"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid109-77",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 77,
+  "chapter": "infection-immunity",
+  "type": "mcq",
+  "stem": "Which definition for the first line of defense against microbial infection is correct?",
+  "options": [
+   {
+    "k": "A",
+    "t": "First line confers interaction of pathogens with the host chemical/bioactive factors"
+   },
+   {
+    "k": "B",
+    "t": "Fecal transplantation is an application of immune therapy"
+   },
+   {
+    "k": "C",
+    "t": "Lysozyme cannot kill bacteria directly"
+   },
+   {
+    "k": "D",
+    "t": "Defensins, Cathelicidin, and Dermcidin are anti-microbe are anti-microbial lipids"
+   },
+   {
+    "k": "E",
+    "t": "Complements kill microbe through membrane attack complex formation"
+   }
+  ],
+  "answer": [
+   "A",
+   "E"
+  ],
+  "explain": "(A) 第一道防線包含物理、化學／生物活性因子（溶菌酶、胃酸、抗菌胜肽、共生菌）；(E) 補體最終形成 MAC 溶解病原。原考古答案為 E；A 也正確，兩個都算對。(B) 糞便移植是微生物相的應用；(C) 溶菌酶可直接殺菌；(D) defensin 等是胜肽不是脂質。",
+  "topics": [
+   "第一道防線"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid109-78",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 78,
+  "chapter": "infection-immunity",
+  "type": "mcq",
+  "stem": "Which definition for NADPH oxidase against microbial infection is correct?",
+  "options": [
+   {
+    "k": "A",
+    "t": "NADPH oxidase is a single protein."
+   },
+   {
+    "k": "B",
+    "t": "The NADPH oxidase complex is activated to assemble in the membranes during respiratory burst."
+   },
+   {
+    "k": "C",
+    "t": "Chronic Granulomatous Disease (CGD), characterized by extreme susceptibility to infection, is caused by overexpression in the NADPH oxidase subunit genes."
+   },
+   {
+    "k": "D",
+    "t": "NADPH oxidase subunits include membrane-bound subunits (p40phox, p47phox and p67phox) and cytosolic gp91phox and p22phox."
+   },
+   {
+    "k": "E",
+    "t": "NADPH oxidase is activated for generating anti-oxidation."
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "NADPH oxidase 是多次單位複合體，呼吸爆發時細胞質次單位（p40、p47、p67phox）移到膜上與 gp91／p22phox 組裝，產生 superoxide（氧化，不是抗氧化）。CGD 是次單位基因突變（缺失），不是過度表現。",
+  "topics": [
+   "NADPH oxidase／CGD"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid109-79",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 79,
+  "chapter": "infection-immunity",
+  "type": "mcq",
+  "stem": "Which definition for pattern recognition receptors (PRRS) against microbial infection is correct?",
+  "options": [
+   {
+    "k": "A",
+    "t": "PRRs play as the phagocytic receptors."
+   },
+   {
+    "k": "B",
+    "t": "Cytoplasmic PRRs include Toll-like receptors (TLR) and C-type lectin receptors (CLR)."
+   },
+   {
+    "k": "C",
+    "t": "Membrane-bound PRRs include NOD-like receptors (NLR), RIG-I-like receptors (RLR), and cytosolic DNA sensor."
+   },
+   {
+    "k": "D",
+    "t": "Pro-inflammation and antiviral IFN responses are generally induced following PRRS activation."
+   },
+   {
+    "k": "E",
+    "t": "Activation of PRRs is protective only during microbial infection."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "PRR 活化後誘發促發炎細胞激素與抗病毒干擾素。TLR、CLR 是膜上 PRR；NLR、RLR、cytosolic DNA sensor 在細胞質（B、C 寫反）；PRR 多數不是吞噬受體；過度活化也可能致病。",
+  "topics": [
+   "TLR／PRR"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid109-80",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 80,
+  "chapter": "infection-immunity",
+  "type": "mcq",
+  "stem": "Viral immune evasion is the process by which viruses evade the immune system of the host. Which description is correct?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Modulation of PRR signaling by virus may cause the blockade of type 1 IFN response."
+   },
+   {
+    "k": "B",
+    "t": "Viral antigens may hijack the machinery to block antigen processing, such as decrease in MHC class I."
+   },
+   {
+    "k": "C",
+    "t": "Induction of anti-inflammatory cytokines by viral infection as an immune escape."
+   },
+   {
+    "k": "D",
+    "t": "Viruses could be hided in infected cells as immune evasion."
+   },
+   {
+    "k": "E",
+    "t": "All of the Above."
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "病毒逃避免疫：阻斷 PRR／第一型干擾素訊號、下調 MHC I、誘導抗發炎細胞激素、潛伏在細胞內，四項都對。",
+  "topics": [
+   "免疫逃脫"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid109-81",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 81,
+  "chapter": "immunodeficiency",
+  "type": "mcq",
+  "stem": "Which of the following immunodeficiencies is susceptible for infection of pyogenic bacteria and immune complex deposition disease?",
+  "options": [
+   {
+    "k": "A",
+    "t": "X-linked agammaglobulinemia"
+   },
+   {
+    "k": "B",
+    "t": "Myeloperoxidase deficiency"
+   },
+   {
+    "k": "C",
+    "t": "AIDS"
+   },
+   {
+    "k": "D",
+    "t": "C3 deficiency"
+   },
+   {
+    "k": "E",
+    "t": "Hyper-IgM syndrome"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "C3 缺乏：調理作用喪失 → 反覆化膿菌感染；免疫複合體無法經補體清除 → 沉積造成免疫複合體疾病。",
+  "topics": [
+   "補體缺乏"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid109-82",
+  "source": "109 期中考古",
+  "section": "109 微免期中考古",
+  "num": 82,
+  "chapter": "immunodeficiency",
+  "type": "mcq",
+  "stem": "A child is susceptible to repeated bacterial and fungal infections in the respiratory tract. The pathologic 30 examination shows granulomatous inflammation. Which of the following laboratory/clinical tests is most required for the patient?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Immunoglobulin serum levels and B cell function test"
+   },
+   {
+    "k": "B",
+    "t": "T cell number and function test"
+   },
+   {
+    "k": "C",
+    "t": "CD4＋T cell number"
+   },
+   {
+    "k": "D",
+    "t": "Complement serum level"
+   },
+   {
+    "k": "E",
+    "t": "Neutrophil number and function test"
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "反覆細菌、真菌感染並出現肉芽腫 → 懷疑 CGD（吞噬細胞缺陷），應檢查嗜中性球數量與功能（如 DHR、NBT 試驗）。",
+  "topics": [
+   "NADPH oxidase／CGD"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid110-01",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 1,
+  "chapter": "bact-structure",
+  "type": "mcq",
+  "stem": "Koch 實驗說明什麼？",
+  "options": [
+   {
+    "k": "A",
+    "t": "真菌會產生抗生素"
+   },
+   {
+    "k": "B",
+    "t": "感染微生物會導致疾病"
+   },
+   {
+    "k": "C",
+    "t": "存在一種可通過過濾器的微小生物"
+   },
+   {
+    "k": "D",
+    "t": "生物由細胞組成"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Koch 以炭疽桿菌證明特定微生物造成特定疾病（Koch's postulates）。",
+  "topics": [
+   "微生物學史／柯霍假說"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid110-02",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 2,
+  "chapter": "bact-structure",
+  "type": "mcq",
+  "stem": "降低 AMR，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "在經濟動物飼料中加抗生素避免動物感染"
+   },
+   {
+    "k": "B",
+    "t": "抗生素使用指引"
+   },
+   {
+    "k": "C",
+    "t": "尋找新治療方法，如噬菌體"
+   },
+   {
+    "k": "D",
+    "t": "研發新抗生素"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "在經濟動物飼料中添加抗生素正是 AMR 的成因之一。對策：抗生素使用指引、監測、研發新抗生素、噬菌體、疫苗、快速診斷。",
+  "topics": [
+   "微生物學史／柯霍假說"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid110-03",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 3,
+  "chapter": "bact-structure",
+  "type": "mcq",
+  "stem": "關於人體皮膚、消化道的 microbiota，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "正常情況下，在某一部位長期存在且不致病稱 normal microbiota"
+   },
+   {
+    "k": "B",
+    "t": "normal microbiota 與宿主是共生關係"
+   },
+   {
+    "k": "C",
+    "t": "有些 normal microbiota 菌種是伺機性病原體"
+   },
+   {
+    "k": "D",
+    "t": "不同人的相同部位（如腸道）微生物菌種佔比相似度極高"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Human Microbiome Project：不同人同一部位的菌種組成差異很大（taxonomic diversity 大），但代謝功能相似（functional redundancy）。",
+  "topics": [
+   "人體微生物相"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid110-04",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 4,
+  "chapter": "bact-structure",
+  "type": "mcq",
+  "stem": "革蘭氏陰性菌 LPS 進入血液可能會造成敗血性休克（septic shock），請問 LPS 位於細菌的哪個結構？",
+  "options": [
+   {
+    "k": "A",
+    "t": "outer membrane"
+   },
+   {
+    "k": "B",
+    "t": "cytoplasmic membrane"
+   },
+   {
+    "k": "C",
+    "t": "peptidoglycan"
+   },
+   {
+    "k": "D",
+    "t": "cytosol"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "LPS（內毒素）位於 G(−) 菌外膜（outer membrane）的外層。",
+  "topics": [
+   "細胞壁／革蘭氏染色"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid110-05",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 5,
+  "chapter": "bact-structure",
+  "type": "mcq",
+  "stem": "下列何者分類方式不是依照細菌的表現型（phenotypic）來分類？",
+  "options": [
+   {
+    "k": "A",
+    "t": "PCR"
+   },
+   {
+    "k": "B",
+    "t": "血清型"
+   },
+   {
+    "k": "C",
+    "t": "特殊碳源能力"
+   },
+   {
+    "k": "D",
+    "t": "代謝物"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "PCR 是依基因型（genotypic）鑑定；血清型、碳源利用、代謝產物都是表現型分類。",
+  "topics": [
+   "細菌分類鑑定"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid110-06",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 6,
+  "chapter": "bact-structure",
+  "type": "mcq",
+  "stem": "細菌的趨化作用（chemotaxis）和哪個結構有關？",
+  "options": [
+   {
+    "k": "A",
+    "t": "capsule"
+   },
+   {
+    "k": "B",
+    "t": "fimbriae"
+   },
+   {
+    "k": "C",
+    "t": "flagella"
+   },
+   {
+    "k": "D",
+    "t": "lipopolysaccharide"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "趨化作用靠鞭毛運動（向營養、遠離毒物）；fimbriae 負責附著。",
+  "topics": [
+   "細菌構造與功能"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid110-08",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 8,
+  "chapter": "bact-structure",
+  "type": "mcq",
+  "stem": "厭氧性細菌之所以無法在有氧氣的環境生長，主要原因為何？",
+  "options": [
+   {
+    "k": "A",
+    "t": "無法在無氧條件產生能量"
+   },
+   {
+    "k": "B",
+    "t": "無法在無氧條件進行氧化還原"
+   },
+   {
+    "k": "C",
+    "t": "無法移除利用氧氣所生成的氧化自由基"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "厭氧菌缺 superoxide dismutase、catalase，無法清除利用氧氣時產生的自由基（superoxide、H₂O₂），所以不能在有氧環境生長。",
+  "topics": [
+   "生長曲線與代謝"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid110-09",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 9,
+  "chapter": "bact-genetics",
+  "type": "mcq",
+  "stem": "A stop codon formed from gene mutation is called:",
+  "options": [
+   {
+    "k": "A",
+    "t": "silent mutation"
+   },
+   {
+    "k": "B",
+    "t": "null mutation"
+   },
+   {
+    "k": "C",
+    "t": "nonsense mutation"
+   },
+   {
+    "k": "D",
+    "t": "missense mutation"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Nonsense mutation：密碼子變成終止密碼子 → 蛋白提早終止。Missense 換成另一個胺基酸；silent 胺基酸不變；null 是功能完全喪失。",
+  "topics": [
+   "突變"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid110-10",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 10,
+  "chapter": "bact-genetics",
+  "type": "mcq",
+  "stem": "Sanger sequencing 的原理是：",
+  "options": [
+   {
+    "k": "A",
+    "t": "去氧核醣核酸序列，DNA 的水解"
+   },
+   {
+    "k": "B",
+    "t": "去氧核醣核酸序列，DNA 的合成"
+   },
+   {
+    "k": "C",
+    "t": "去氧核醣核酸組合比例，DNA 的水解"
+   },
+   {
+    "k": "D",
+    "t": "去氧核醣核酸組合比例，DNA 的合成"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Sanger 定序：DNA 合成時隨機摻入 ddNTP 使鏈終止，依片段長度與螢光讀出序列，所以是「DNA 合成」測「序列」。",
+  "topics": [
+   "DNA 複製與基因表現"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid110-11",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 11,
+  "chapter": "staph-strep",
+  "type": "mcq",
+  "stem": "下列何者無法區分 Staphylococcus aureus 和 Staphylococcus epidermidis？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Coagulase test"
+   },
+   {
+    "k": "B",
+    "t": "Catalase test"
+   },
+   {
+    "k": "C",
+    "t": "Mannitol test"
+   },
+   {
+    "k": "D",
+    "t": "Hemolysis pattern"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "兩者都是 catalase 陽性，無法區分。S. aureus：coagulase 陽性、發酵 mannitol、β 溶血；S. epidermidis 都是陰性或不溶血。",
+  "topics": [
+   "S. aureus"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid110-12",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 12,
+  "chapter": "pathogenesis",
+  "type": "mcq",
+  "stem": "Which of the following statements is correct regarding the mechanisms for bacteria escaping host defenses?",
+  "options": [
+   {
+    "k": "A",
+    "t": "S. pyogenes use hyaluronic-acid-made capsules to mimic human connective tissue"
+   },
+   {
+    "k": "B",
+    "t": "S. aureus can degrade C5a component of complements to limit the chemotaxis"
+   },
+   {
+    "k": "C",
+    "t": "M. tuberculosis produces catalase to break down H2O2"
+   },
+   {
+    "k": "D",
+    "t": "N. gonorrhoeae can secret coagulase promoting the conversion of fibrinogen to fibrin"
+   }
+  ],
+  "answer": [
+   "A",
+   "C"
+  ],
+  "explain": "(A) GAS 玻尿酸莢膜模仿結締組織。(B) 分解 C5a 的是 S. pyogenes 的 C5a peptidase，不是 S. aureus。(C) 結核菌也有 catalase-peroxidase（KatG）可分解 H₂O₂。(D) 分泌 coagulase 的是 S. aureus。原考古答案為 A；C 敘述也成立，兩個都算對。",
+  "topics": [
+   "免疫逃脫"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid110-13",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 13,
+  "chapter": "pathogenesis",
+  "type": "mcq",
+  "stem": "關於細菌附著、傳播，下列何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Legionella 被吸入至肺臟並生長，並在肺臟傳播"
+   },
+   {
+    "k": "B",
+    "t": "附著蛋白表現在線毛（fimbriae）上，並附著在目標組織的醣類上"
+   },
+   {
+    "k": "C",
+    "t": "人工導管上容易長 biofilm，上面有網狀蛋白以利細菌附著"
+   },
+   {
+    "k": "D",
+    "t": "Salmonella 利用 docking system 抑制自己的……，以攻擊巨噬細胞（原考古缺字）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "黏附素（adhesin）常位於線毛末端，結合宿主細胞表面醣類受體。(A) Legionella 由環境吸入，不在肺內人傳人；(C) 生物膜靠多醣（glycocalyx）附著；(D) 題目原文缺字，不影響作答。",
+  "topics": [
+   "細菌附著"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid110-14",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 14,
+  "chapter": "sterilization",
+  "type": "mcq",
+  "stem": "The optimal method for sterilization respiratory therapy equipment in hospital is:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Glutaraldehyde"
+   },
+   {
+    "k": "B",
+    "t": "Hexachlorophene"
+   },
+   {
+    "k": "C",
+    "t": "UV light"
+   },
+   {
+    "k": "D",
+    "t": "γ-radiation"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "呼吸治療器材（塑膠、橡膠、有管腔）不耐熱，用 glutaraldehyde（高階消毒／化學滅菌）浸泡最合適。Hexachlorophene 是皮膚消毒劑；UV 穿透力差；γ 射線用於工業滅菌拋棄式用品。",
+  "topics": [
+   "滅菌與消毒"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid110-15",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 15,
+  "chapter": "fungi",
+  "type": "mcq",
+  "stem": "請問有船舵狀孢子的為以下何者？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Coccidioides immitis"
+   },
+   {
+    "k": "B",
+    "t": "Paracoccidioides brasiliensis"
+   },
+   {
+    "k": "C",
+    "t": "Histoplasma capsulatum"
+   },
+   {
+    "k": "D",
+    "t": "Blastomyces dermatitidis"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Paracoccidioides brasiliensis：酵母型多極出芽，像船舵（mariner's wheel）。Coccidioides 是 spherule；Histoplasma 小卵圓酵母在巨噬細胞內；Blastomyces 單一寬基底出芽。",
+  "topics": [
+   "皮膚／皮下／系統性黴菌"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid110-16",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 16,
+  "chapter": "fungi",
+  "type": "mcq",
+  "stem": "關於白色念珠菌的敘述何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "屬於 ascomycota"
+   },
+   {
+    "k": "B",
+    "t": "有雙行性（dimorphic）的特徵"
+   },
+   {
+    "k": "C",
+    "t": "會引起 thrush"
+   },
+   {
+    "k": "D",
+    "t": "不會造成患者的死亡"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "白色念珠菌屬子囊菌門、為雙型性（酵母＋假菌絲／菌絲），可造成鵝口瘡；侵襲性念珠菌血症死亡率很高，所以「不會致死」錯。",
+  "topics": [
+   "Cryptococcus／Candida"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid110-17",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 17,
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "關於 EHEC 的毒素的敘述何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "O157: H7"
+   },
+   {
+    "k": "B",
+    "t": "是 AB toxin"
+   },
+   {
+    "k": "C",
+    "t": "使 cAMP 的濃度升高"
+   },
+   {
+    "k": "D",
+    "t": "引起 HUS"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "EHEC（O157:H7）的 Shiga toxin（verotoxin）是 A-B 毒素，切 28S rRNA 抑制蛋白合成，可引起 HUS；不是升高 cAMP。",
+  "topics": [
+   "E. coli 致病型"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid110-18",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 18,
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "下列何者毒素作用方式不同？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Enterotoxigenic E. coli 的 LT enterotoxin"
+   },
+   {
+    "k": "B",
+    "t": "Bacillus cereus 的 Diarrheal form"
+   },
+   {
+    "k": "C",
+    "t": "Bacillus anthracis 的 edema toxin"
+   },
+   {
+    "k": "D",
+    "t": "Enterohemorrhagic E. coli 的 verocytotoxin"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "ETEC LT、B. cereus 腹瀉型腸毒素、炭疽 edema toxin 都使 cAMP 上升；EHEC verocytotoxin（Shiga-like toxin）是抑制蛋白質合成。",
+  "topics": [
+   "毒素（內/外毒素、AB toxin）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid110-19",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 19,
+  "chapter": "enterobacteriaceae",
+  "type": "mcq",
+  "stem": "關於 Enterohemorrhagic E. coli 的敘述何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "O157:H7"
+   },
+   {
+    "k": "B",
+    "t": "AB toxin"
+   },
+   {
+    "k": "C",
+    "t": "腸毒素還造成腹瀉"
+   },
+   {
+    "k": "D",
+    "t": "併發症溶血性尿毒症候群"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "EHEC 的主要毒素是 Shiga toxin（抑制蛋白合成），造成出血性腹瀉與 HUS，並非一般「腸毒素」（升高 cAMP 那類）造成水瀉。",
+  "topics": [
+   "E. coli 致病型"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid110-20",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 20,
+  "chapter": "bacillus",
+  "type": "mcq",
+  "stem": "關於 Bacillus anthracis，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "格蘭氏陽性"
+   },
+   {
+    "k": "B",
+    "t": "多肽組成的莢膜是重要的致病因子"
+   },
+   {
+    "k": "C",
+    "t": "人最常見的感染方式是吸入式感染"
+   },
+   {
+    "k": "D",
+    "t": "可作為生化武器"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "人類炭疽最常見的是皮膚型（> 90%）；吸入型最致命。B. anthracis 是 G(+)，莢膜由多肽（poly-D-glutamic acid）組成，可作生物武器。",
+  "topics": [
+   "Bacillus anthracis"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid110-21",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 21,
+  "chapter": "bacillus",
+  "type": "mcq",
+  "stem": "關於 Bacillus Cereus，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Heat stable 導致嘔吐"
+   },
+   {
+    "k": "B",
+    "t": "Heat liable 導致腹瀉"
+   },
+   {
+    "k": "C",
+    "t": "Emetic 主要來源是肉"
+   },
+   {
+    "k": "D",
+    "t": "有莢膜的會造成肺炎"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "嘔吐型（耐熱毒素）的來源主要是米飯；腹瀉型（不耐熱腸毒素）才與肉類、蔬菜有關。",
+  "topics": [
+   "Bacillus cereus"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid110-22",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 22,
+  "chapter": "bacillus",
+  "type": "mcq",
+  "stem": "關於 Listeria monocytogenes，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "很會動，在細胞質複製，利用 actin 移動到隔壁細胞"
+   },
+   {
+    "k": "B",
+    "t": "產生的內孢子耐低溫，所以可以用冷藏增殖來看"
+   },
+   {
+    "k": "C",
+    "t": "感染源是不乾淨的食物"
+   },
+   {
+    "k": "D",
+    "t": "會導致胎兒流產"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Listeria 不產生內孢子；它本身就能在 4 °C 生長，所以可用冷增菌（cold enrichment）分離。",
+  "topics": [
+   "Listeria"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid110-23",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 23,
+  "chapter": "bacillus",
+  "type": "mcq",
+  "stem": "關於 Erysipelothrix rhusiopathiae 的敘述，下列何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "生長速度慢，難以培養"
+   },
+   {
+    "k": "B",
+    "t": "人類是唯一宿主"
+   },
+   {
+    "k": "C",
+    "t": "會造成皮膚感染"
+   },
+   {
+    "k": "D",
+    "t": "毒力因子（virulence factor）包括莢膜"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Erysipelothrix rhusiopathiae 是人畜共通病原（豬、魚、禽類），人類不是唯一宿主；造成皮膚類丹毒（erysipeloid），生長慢，有莢膜。",
+  "topics": [
+   "其他"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid110-24",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 24,
+  "chapter": "bacillus",
+  "type": "mcq",
+  "stem": "關於 Diphtheria toxin 何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "是一種 AB toxin"
+   },
+   {
+    "k": "B",
+    "t": "帶有 tox gene 的噬菌體感染過的細菌才有致病能力"
+   },
+   {
+    "k": "C",
+    "t": "藉由抑制核糖體 60S 的合成抑制細胞生長"
+   },
+   {
+    "k": "D",
+    "t": "會造成會造成呼吸道感染"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "白喉毒素是 EF-2 的 ADP-ribosylation 抑制蛋白合成，不是作用在 60S（那是 Shiga toxin）。A-B 毒素、需帶 tox 基因的 β 噬菌體溶原化、造成呼吸道感染（偽膜）都正確。",
+  "topics": [
+   "C. diphtheriae"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid110-28",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 28,
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "有關 interferon alpha 之特性，何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "屬於 chemokine"
+   },
+   {
+    "k": "B",
+    "t": "使正常細胞不易被感染"
+   },
+   {
+    "k": "C",
+    "t": "屬於 adaptive immunity"
+   },
+   {
+    "k": "D",
+    "t": "主要由 T cell 產生"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "IFN-α（第一型干擾素）由受病毒感染的細胞（白血球）產生，讓周圍細胞進入抗病毒狀態、活化 NK；屬於先天免疫的細胞激素，不是 chemokine。",
+  "topics": [
+   "干擾素"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid110-29",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 29,
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "成熟的 CD4 T 細胞在活化後，可以分化為不同的 effector T 細胞，其中可以分泌 IL-17 的 CD4 T 細胞主要功能是：",
+  "options": [
+   {
+    "k": "A",
+    "t": "清除胞內病原的感染"
+   },
+   {
+    "k": "B",
+    "t": "清除胞外細菌的感染"
+   },
+   {
+    "k": "C",
+    "t": "毒殺胞外的寄生蟲"
+   },
+   {
+    "k": "D",
+    "t": "抑制 T 細胞過度的發炎反應"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "TH17 分泌 IL-17，招募嗜中性球，清除胞外細菌與真菌。",
+  "topics": [
+   "TH 分化與細胞激素"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid110-33",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 33,
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "有關 AID 酵素，何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "AID 在 germinal center B 細胞表現量高，可促進 somatic hypermutation"
+   },
+   {
+    "k": "B",
+    "t": "B 細胞所產生的抗體轉換為 IgE 時，也是由 AID 分子調控"
+   },
+   {
+    "k": "C",
+    "t": "Class switch recombination 起因為 AID 將 cytosine 轉變成 uridine，之後的 DNA 修復過程中產生 DNA 雙股斷裂，最後造成 DNA 重組"
+   },
+   {
+    "k": "D",
+    "t": "Class switch recombination 由特定的 DNA 序列 recombination signal sequence 所主導，成抗體重鏈的 constant region of heavy chain 從 IgM 轉換成其他類型"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "AID 在生發中心 B 細胞高量表現，造成體細胞超突變與類別轉換。(B) 轉換成 IgE 由 IL-4 決定；(C) AID 把 cytosine 變成 uracil（不是 uridine）；(D) RSS 是 RAG 辨識、主導 V(D)J 重組，類別轉換靠 switch region。",
+  "topics": [
+   "B 細胞活化／class switch／生發中心"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid110-34",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 34,
+  "chapter": "tcell-act",
+  "type": "mcq",
+  "stem": "利用免疫檢查點，細胞毒素的 T 淋巴細胞關聯蛋白質（CTLA-4, CD152）可藉由競爭何種 T 淋巴細胞活化路徑，達到免疫抑制，而有助於腫瘤細胞免疫逃脫？",
+  "options": [
+   {
+    "k": "A",
+    "t": "CD28-B7.1"
+   },
+   {
+    "k": "B",
+    "t": "OX50-OX40 ligand"
+   },
+   {
+    "k": "C",
+    "t": "CD8-MHC class 1"
+   },
+   {
+    "k": "D",
+    "t": "LFA-1-ICAM-1"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "CTLA-4 與 CD28 競爭 B7（CD80／86），親和力更高，抑制 T 細胞活化；腫瘤利用此免疫檢查點逃脫，anti-CTLA-4 是免疫治療。",
+  "topics": [
+   "共刺激（CD28/B7/CTLA-4）"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid110-36",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 36,
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "下列哪個補體可扮演調理因子（opsonin）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "C3b"
+   },
+   {
+    "k": "B",
+    "t": "C5a"
+   },
+   {
+    "k": "C",
+    "t": "C4a"
+   },
+   {
+    "k": "D",
+    "t": "C3a"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "C3b（以及 iC3b、C4b）是調理素；C3a、C5a 是過敏毒素與趨化因子。",
+  "topics": [
+   "補體系統"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid110-37",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 37,
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "有個病人因為黃疸被送進急診，檢驗結果顯示 B 肝病毒陽性以及 AST/ALT 上升。下列關於補體敘述何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "補體可以抑制吞噬作用"
+   },
+   {
+    "k": "B",
+    "t": "補體可以溶解細菌細胞膜達成殺菌"
+   },
+   {
+    "k": "C",
+    "t": "補體與發炎反應無關"
+   },
+   {
+    "k": "D",
+    "t": "補體可以抑制白血球趨化反應"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "補體功能：調理促進吞噬、趨化與發炎、MAC 溶解細胞膜。(A)(C)(D) 都講反了。",
+  "topics": [
+   "補體系統"
+  ],
+  "pattern": "臨床情境題"
+ },
+ {
+  "id": "kmid110-40",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 40,
+  "chapter": "innate",
+  "type": "mcq",
+  "stem": "偵測細菌 LPS 的主要受器為下列何者？",
+  "options": [
+   {
+    "k": "A",
+    "t": "TLR-9"
+   },
+   {
+    "k": "B",
+    "t": "TLR-8"
+   },
+   {
+    "k": "C",
+    "t": "TLR-6"
+   },
+   {
+    "k": "D",
+    "t": "TLR-4"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "TLR4（搭配 MD-2、CD14）辨識 LPS。TLR9 辨識 CpG DNA；TLR7／8 辨識 ssRNA。",
+  "topics": [
+   "TLR／PRR"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid110-44",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 44,
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "有關不同類型的免疫球蛋白在人體內的分布情形，下列敘述何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "血清中含量最高的是 IgA"
+   },
+   {
+    "k": "B",
+    "t": "腸胃道黏膜中含量最高的是 IgE"
+   },
+   {
+    "k": "C",
+    "t": "體組織液中有高含量的 IgM"
+   },
+   {
+    "k": "D",
+    "t": "IgD 主要是以 membrane form 的型態表現在 B 細胞上"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "IgD 主要以膜型存在於成熟 B 細胞上。血清與組織液中最多的是 IgG；黏膜分泌液中最多的是 IgA。",
+  "topics": [
+   "抗體類別與功能"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "kmid110-46",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 46,
+  "chapter": "agab",
+  "type": "mcq",
+  "stem": "下列哪一項不是免疫球蛋白 G 的主要功能？",
+  "options": [
+   {
+    "k": "A",
+    "t": "中和病原體或其毒素"
+   },
+   {
+    "k": "B",
+    "t": "清除細胞內的病原菌"
+   },
+   {
+    "k": "C",
+    "t": "增進吞噬作用"
+   },
+   {
+    "k": "D",
+    "t": "活化補體功能"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "IgG 的功能是中和、調理、活化補體、ADCC、通過胎盤；抗體進不了細胞，無法清除細胞內病原菌（那要靠 CTL、活化巨噬細胞）。",
+  "topics": [
+   "抗體類別與功能"
+  ],
+  "pattern": "選錯誤（否定）題"
+ },
+ {
+  "id": "kmid110-53",
+  "source": "110 期中考古",
+  "section": "110 微免期中考古",
+  "num": 53,
+  "chapter": "mhc",
+  "type": "mcq",
+  "stem": "胜肽編輯（peptide editing）是 MHC I 類 MHC II 類的抗原呈現的一個重要部分，因為它驅動了高親和力分子結合胜肽的優先呈現。對於 MHC II 分子的胜肽編輯，HLA-DM 起著關鍵作用。在沒有 HLA-DM 的狀況下，會發生下列何者？",
+  "options": [
+   {
+    "k": "A",
+    "t": "MHC II 分子與 CLIP 結合，並表現在細胞外面"
+   },
+   {
+    "k": "B",
+    "t": "沒有 MHC II 分子被釋放到細胞外"
+   },
+   {
+    "k": "C",
+    "t": "MHC II 分子與 HLA-DO 結合，並抑制胜肽結合"
+   },
+   {
+    "k": "D",
+    "t": "病原體可以通過抑制 MHC II 類分子上的胜肽交換來逃避免疫系統"
+   },
+   {
+    "k": "E",
+    "t": "HLA-DO 和 MHC II 競爭有高親和力的胜肽結合，並抑制抗原呈現"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "HLA-DM 催化 CLIP 離開 MHC II、換上抗原胜肽。缺 HLA-DM 時 MHC II 仍會運到細胞表面，但溝裡卡的是 CLIP（Janeway；HLA-DM 缺陷小鼠的 MHC II 大多帶 CLIP）。百十四詳解選 (B)「沒有 MHC II 被釋放到細胞外」，網站依課本改為 (A)。",
+  "topics": [
+   "抗原處理與呈現（TAP）"
+  ],
+  "pattern": "選錯誤（否定）題"
+ }
+]
