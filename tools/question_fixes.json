@@ -90,7 +90,15 @@
     "answer": [
      "A",
      "C"
-    ]
+    ],
+    "options": [
+     {"k": "A", "t": "（見圖 A）"},
+     {"k": "B", "t": "（見圖 B）"},
+     {"k": "C", "t": "（見圖 C）"},
+     {"k": "D", "t": "None"}
+    ],
+    "img": ["figures/questions/k113-nem-16.webp"],
+    "imageOnly": null
    },
    "k113-nem-w07": {
     "answerText": "Trichinella spiralis 幼蟲會順著血液流到骨骼肌形成被囊幼蟲（encysted larva）。"
