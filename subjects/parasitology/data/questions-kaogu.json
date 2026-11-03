@@ -2396,43 +2396,6 @@
     "pattern": "選正確／單一概念題"
   },
   {
-    "id": "k113-nem-73",
-    "source": "113 考古",
-    "num": 73,
-    "chapter": "foodborne",
-    "type": "mcq",
-    "stem": "下列對旋毛蟲（T. spiralis）的敘述，何者為錯誤？",
-    "options": [
-      {
-        "k": "A",
-        "t": "雄蟲尾端具葉狀突起"
-      },
-      {
-        "k": "B",
-        "t": "具念珠狀食道"
-      },
-      {
-        "k": "C",
-        "t": "成蟲寄生於腸腔中"
-      },
-      {
-        "k": "D",
-        "t": "家豬及老鼠是自然宿主"
-      },
-      {
-        "k": "E",
-        "t": "囊胞化幼蟲（encyst larvae）最終會鈣化"
-      }
-    ],
-    "answer": [],
-    "explain": "⚠️ 本題沒有正確選項：113 考古簡答表標「無答案」，百十四寄蟲考古 Book1 標「X」，五個敘述都正確，沒有可選的錯誤敘述。\n(A) 正確：旋毛蟲雄蟲尾端沒有交尾刺（copulatory spicules），但有一對葉狀突起（copulatory papillae／cloacal appendages），交配時用來抱住雌蟲。\n(B) 正確：和鞭蟲一樣，食道後段周圍有一排桿狀細胞（stichocytes），構成念珠狀食道（stichosome）。\n(C) 正確：成蟲寄生在小腸黏膜與腸腔；幼蟲寄生在橫紋肌。\n(D) 正確：家豬和老鼠是主要的自然宿主（保蟲宿主），吃到含被囊幼蟲的肉或鼠類而感染，蟲在牠們體內可以發育成熟。\n(E) 正確：幼蟲進入肌纖維後約一個月形成梭形包囊，約半年後包囊兩端開始鈣化，幼蟲隨之死亡（有時鈣化包囊內幼蟲可存活數年）。\n筆記：foodborne「1. 住肉旋毛蟲 Trichinella spiralis」；stichosome 見 sth「鞭蟲」段。\n出處：寄蟲考古Book1（單元考古）線蟲單選 73 詳解。",
-    "topics": [
-      "食源性線蟲"
-    ],
-    "pattern": "選錯誤／否定題",
-    "noAnswer": true
-  },
-  {
     "id": "k113-nem-74",
     "source": "113 考古",
     "num": 74,
@@ -2628,7 +2591,7 @@
       }
     ],
     "answer": ["C"],
-    "explain": "答案 (C) 蔓延性皮膚炎。\n依 0922 投影片 p.5 Clinical Features（Trichinella spiralis）：\n・幼蟲移行進入肌肉（larval migration into muscle tissues，感染後約一週）可造成：眼眶與臉部水腫（B）、結膜炎、發燒、肌肉痛、指甲下裂片狀出血（splinter hemorrhages，A）、皮疹與嗜酸性球增多。\n・同一段也寫「Occasional life-threatening manifestations include myocarditis, central nervous system involvement, and pneumonitis」→ 心肌炎（D）就是發生在幼蟲移行／肌肉侵犯期的嚴重併發症。\n・被囊期（encystment）只造成肌肉痛與無力，之後症狀逐漸緩解，投影片沒有把心肌炎放在被囊期。\n(C) 蔓延性皮膚炎（creeping eruption）是皮膚幼蟲移行症（CLM）的典型表現，見於犬鉤蟲、巴西鉤蟲、糞小桿線蟲，不是旋毛蟲症的症狀（投影片的 rashes 是一般皮疹，不是蔓延性皮膚炎）→ 選 C。\n※ 原本網站答案 (D)、詳解「心肌炎會出現在被囊期」與投影片不符，已更正。",
+    "explain": "答案 (C) 蔓延性皮膚炎。\n依 0914 投影片（Capillaria／Strongyloides／Foodborne Nematodes）p.32 Clinical Features（Trichinella spiralis）：\n・幼蟲移行進入肌肉（larval migration into muscle tissues，感染後約一週）可造成：眼眶與臉部水腫（B）、結膜炎、發燒、肌肉痛、指甲下裂片狀出血（splinter hemorrhages，A）、皮疹與嗜酸性球增多。\n・同一段也寫「Occasional life-threatening manifestations include myocarditis, central nervous system involvement, and pneumonitis」→ 心肌炎（D）就是發生在幼蟲移行／肌肉侵犯期的嚴重併發症。\n・被囊期（encystment）只造成肌肉痛與無力，之後症狀逐漸緩解，投影片沒有把心肌炎放在被囊期。\n(C) 蔓延性皮膚炎（creeping eruption）是皮膚幼蟲移行症（CLM）的典型表現，見於犬鉤蟲、巴西鉤蟲、糞小桿線蟲，不是旋毛蟲症的症狀（投影片的 rashes 是一般皮疹，不是蔓延性皮膚炎）→ 選 C。\n※ 原本網站答案 (D)、詳解「心肌炎會出現在被囊期」與投影片不符，已更正。",
     "topics": ["食源性線蟲"],
     "pattern": "選錯誤／否定題"
   },

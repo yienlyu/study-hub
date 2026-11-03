@@ -11,7 +11,7 @@
    「全選（ABCDE）」。網站上要全部選對才算對。
 2. 逐題修正：question_fixes.json 的格式是 {"科目資料夾": {"questions-xxx.json": {"題號": {欄位: 值}}}}，
    值是 null 代表刪掉這個欄位。常用欄位：
-   answer（答案；一般題有多個表示任一個都算對）、options、multi、noAnswer（題目有誤、沒有正確選項）、
+   answer（答案；一般題有多個表示任一個都算對）、options、multi、noAnswer（題目有誤、沒有正確選項 → 這種題目整題不收錄）、
    img（題目附圖，相對於科目資料夾的路徑）、imageOnly。
 """
 import json
@@ -69,7 +69,8 @@ for subj in sorted(os.listdir(os.path.join(ROOT, "subjects"))):
                 conv += to_multi(q)
         items = fixes.get(subj, {}).get(fname, {})
         ids = {q["id"] for q in qs}
-        missing = set(items) - ids
+        # 標了 noAnswer 的題目會被移除，重跑時找不到是正常的
+        missing = {i for i in set(items) - ids if not items[i].get("noAnswer")}
         if missing:
             raise SystemExit(f"{subj}/{fname}: 找不到題號 {sorted(missing)}")
         for q in qs:
@@ -78,8 +79,11 @@ for subj in sorted(os.listdir(os.path.join(ROOT, "subjects"))):
                     q.pop(k, None)
                 else:
                     q[k] = v
+        # 沒有正確選項的題目（noAnswer）不收錄
+        dropped = [q["id"] for q in qs if q.get("noAnswer")]
+        qs = [q for q in qs if not q.get("noAnswer")]
         # 比對資料而非字串：已套用過的修正不寫回，避免把格式不同的題庫整個重排
         if qs != json.loads(raw):
             write_preserving(path, raw, qs)  # 只改有變的題目，其餘保留原排版
-        if conv or items:
-            print(f"{subj}/{fname}: 多選題轉換 {conv} 題、逐題修正 {len(items)} 題")
+        if conv or items or dropped:
+            print(f"{subj}/{fname}: 多選題轉換 {conv} 題、逐題修正 {len(items)} 題" + (f"、不收錄無正確選項 {dropped}" if dropped else ""))
