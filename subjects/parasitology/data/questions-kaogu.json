@@ -4081,7 +4081,7 @@
     "stem": "（手寫題）請寫出下列寄生蟲的感染期（請以英文寫出）和被此寄生蟲感染時所需檢查的檢體或技術名稱 （可用中文名稱回答）：\n(A) A. cantonensis：________________、________________（檢體名稱）。\n(B) O. volvulus：________________、________________（技術名稱）。",
     "options": [],
     "answer": [],
-    "answerText": "A. cantonensis：Third stage larva、CSF（腦脊髓液）。 O.volvulus：Third stage larva、皮膚切片（skin snip）或Mazzotti test 或patch test 或nodulectomy。",
+    "answerText": "A. cantonensis：Third stage larva、CSF（腦脊髓液）。 O. volvulus：Third stage larva、皮膚切片（skin snip）或Mazzotti test 或patch test 或nodulectomy。",
     "explain": "",
     "topics": ["食源性線蟲"],
     "pattern": "簡答題"
