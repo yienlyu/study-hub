@@ -913,6 +913,15 @@
       if (e2) throw e2;
       return changed;
     },
+    // 更新通知已讀：登入的人按「知道了」時記一筆，後台可以查誰還沒看。
+    // 資料表還沒建（沒跑新版 schema.sql）時只在 console 提示，不影響網站。
+    async markNewsSeen(id = store.get("sh:newsSeen", null)) {
+      if (!this.sb || !this.user || !id) return;
+      const { error } = await this.sb
+        .from("news_seen")
+        .upsert({ user_id: this.user.id, news_id: id }, { onConflict: "user_id,news_id", ignoreDuplicates: true });
+      if (error) console.warn("news_seen:", error.message);
+    },
     async sync() {
       if (!this.user || this.busy) return;
       this.busy = true;
@@ -923,6 +932,7 @@
         await this.flush();
         changed = (await this.pullAttempts()) || changed;
         changed = (await this.syncState()) || changed;
+        this.markNewsSeen().catch(() => {});
         this.lastSync = Date.now();
         store.set("sh:cloud:lastSync", this.lastSync);
         this.status = "";
@@ -7431,7 +7441,10 @@
         </div>`,
       );
       const close = () => {
-        if (this.items[0]) store.set(this.seenKey, this.items[0].id);
+        if (this.items[0]) {
+          store.set(this.seenKey, this.items[0].id);
+          Cloud.markNewsSeen(this.items[0].id).catch(() => {});
+        }
         el.remove();
         removeEventListener("keydown", esc_);
       };

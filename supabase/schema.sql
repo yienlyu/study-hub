@@ -98,6 +98,26 @@ create policy "avatars: read own" on storage.objects
   for select to authenticated
   using (bucket_id = 'avatars' and (storage.foldername(name))[1] = auth.uid()::text);
 
+-- ------------------------------------------------------------ 5. 更新通知已讀
+-- 登入的人在更新視窗按「知道了」時寫一筆（news_id = news.json 的 id）。
+-- 只有本人能寫、能讀自己的；站長在 SQL Editor 查詢時不受限制（看下方範例查詢）。
+create table if not exists public.news_seen (
+  user_id  uuid not null default auth.uid()
+           references auth.users (id) on delete cascade,
+  news_id  text not null,
+  seen_at  timestamptz not null default now(),
+  primary key (user_id, news_id)
+);
+
+alter table public.news_seen enable row level security;
+
+drop policy if exists "news_seen: read own"   on public.news_seen;
+drop policy if exists "news_seen: insert own" on public.news_seen;
+create policy "news_seen: read own"   on public.news_seen
+  for select using (auth.uid() = user_id);
+create policy "news_seen: insert own" on public.news_seen
+  for insert with check (auth.uid() = user_id);
+
 -- ------------------------------------------------------------ 範例查詢（不用執行，要分析時複製到 SQL Editor）
 -- 遺忘曲線：距上次幾天 → 答對率
 -- select
@@ -119,3 +139,14 @@ create policy "avatars: read own" on storage.objects
 -- select date(answered_at at time zone 'Asia/Taipei') as day,
 --        count(*) as n, round(avg(ok::int) * 100, 1) as accuracy
 -- from attempts group by 1 order by 1;
+--
+-- 某則更新誰還沒看（把 id 換成 news.json 最新一則；只看得到有登入過的人）
+-- select u.email, u.last_sign_in_at
+-- from auth.users u
+-- where not exists (
+--   select 1 from news_seen s where s.user_id = u.id and s.news_id = '20261103-2')
+-- order by u.last_sign_in_at desc;
+--
+-- 每則更新的已讀人數
+-- select news_id, count(*) as seen, max(seen_at) as last_seen
+-- from news_seen group by 1 order by 1 desc;
