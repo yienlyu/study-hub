@@ -19,7 +19,7 @@ NOKEY = "（記題沒有附答案，網站依課本判斷）"
 # 題號: (章節, 答案, 詳解)
 KEY = {
     3: ("bact-structure", "D", "Periplasmic space 位於 G(−) 菌的外膜與細胞膜之間。不是所有細菌都有鞭毛；細菌沒有粒線體；G(+) 的 peptidoglycan 更厚。"),
-    4: ("bact-structure", "C", "結晶紫可自由穿過細胞壁進入細胞質，整個菌體被染色；加碘形成 CV–I 複合物後，G(+) 厚的 peptidoglycan 經酒精脫水收縮，把複合物留在細胞內，所以仍呈紫色。染劑不是「嵌入細胞壁」；G(+) 沒有外膜；加熱固定只是把菌固定在玻片上。（答案依百十三期中考古詳解，11/2 版）"),
+    4: ("bact-structure", "B", "G(+) 菌細胞壁的 peptidoglycan 很厚，第一個染劑 crystal violet 會結合在 PDG 上，加 iodine 媒染形成 CV–I 複合物；酒精脫色時厚的 PDG 脫水收縮，把複合物留住，所以仍呈紫色 → 選 B。G(−) 的 PDG 薄、又藏在外膜脂質層裡，一脫色就掉，再被 safranin 複染成粉紅色。(A) G(+) 沒有外膜；(C) 結晶紫雖然會進到細胞質，但 G(+)、G(−) 都會，留不留得住取決於細胞壁，所以不是陽性的原理；(D) 加熱固定只是把菌固定在玻片上。（同 111 期中考古第 6 題，原答案為「細菌細胞壁嵌入染劑」；上課也說 crystal violet 結合 PDG）"),
     5: ("bact-structure", "C", "Fimbriae（pili）負責黏附；負責移動的是鞭毛。"),
     6: ("enterobacteriaceae", "B", "O 抗原 = LPS 的 O 多醣；H 抗原 = 鞭毛（flagellin）；K 抗原 = 莢膜。"),
     11: ("sterilization", "B", "高壓蒸氣滅菌（121 °C、15 psi）靠飽和水蒸汽的高溫使蛋白質變性。"),

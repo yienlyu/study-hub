@@ -7250,6 +7250,9 @@
       draw();
     });
     input.addEventListener("keydown", (e) => {
+      // 中文輸入法選字中：Enter／方向鍵是給輸入法用的，不要送出或移動選取
+      // （Safari 在選字確認的 Enter 時 isComposing 已是 false，要再看 keyCode 229）
+      if (e.isComposing || e.keyCode === 229) return;
       if (e.key === "ArrowDown") {
         e.preventDefault();
         move(1);
