@@ -12,7 +12,8 @@
     "data/questions-k114.json",
     "data/questions-kmid.json",
     "data/questions-new.json",
-    "data/questions-class.json"
+    "data/questions-class.json",
+    "data/questions-style.json"
   ],
   "groups": [
     {
@@ -392,6 +393,10 @@
       "百十四組長上傳區 11/1–11/2 上傳的整份期中考古，只收期中範圍內、題庫還沒有的題目：106 免疫 22 題、109 微免 39 題、110 微免 33 題。和百十三每週考古重複的題目、過敏與自體免疫（期中考後）、臨床課、無解或看圖題沒有收。"
     ],
     [
+      "老師風格新題（11/4 新增 39 題）。",
+      "依七位老師各自的期中出題習慣（含上課提到的 AI 輔助出題：選項長度整齊、情境題、「何者最適當」）與期中配分，每位老師 5–6 題；練習區「題目來源」可單獨選。"
+    ],
+    [
       "同一概念換句話重複出。",
       "補體 C3 convertase、MAC、TLR4–LPS、IgA／IgE 情境在同一份考古中出現 5–10 次，熟一題等於拿下一整組。"
     ],
@@ -458,6 +463,12 @@
     {
       "key": "new",
       "label": "模擬新題",
+      "kind": "new",
+      "pill": "good"
+    },
+    {
+      "key": "style",
+      "label": "老師風格新題",
       "kind": "new",
       "pill": "good"
     }
