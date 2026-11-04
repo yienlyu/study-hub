@@ -1,7 +1,9 @@
 === summary ===
+
 # MHC（major histocompatibility complex，主要組織相容性複合體）、抗原處理與呈現（依百十四共筆整理、對照百十三共筆，陳玫潔）
 
 ## 1. T 細胞辨識什麼？
+
 - 來自蛋白抗原的 **peptide**，由 **APC**（antigen-presenting cell，抗原呈現細胞） 呈現，**結合在自身（self）MHC** 上，被**抗原專一 TCR**（T cell receptor，T 細胞受體） 辨識。
 - **MHC restriction / dual recognition**（Zinkernagel & Doherty，**1996 諾貝爾**）：T 細胞同時辨識 MHC 與 peptide；peptide 同但 MHC 不同 → 不辨識；MHC 同但 peptide 不同 → 不辨識。
 - 1980 諾貝爾：Benacerraf（Ir genes）、Dausset（HLA（human leukocyte antigen，人類白血球抗原））、Snell（H-2）。
@@ -12,55 +14,59 @@
 
 <div data-fig="mhc-dual"></div>
 
-
 ## 2. MHC I vs MHC II ⭐⭐
-| | **MHC class I** | **MHC class II** |
-|---|---|---|
-| 組成 | **α chain（α1、α2、α3）+ β2-microglobulin**（β2m 不是 MHC 基因編碼） | **α（α1、α2）+ β（β1、β2）**，皆 MHC 編碼 |
-| Peptide 結合槽 | **α1 + α2**，**兩端封閉** | **α1 + β1**，**兩端開放** |
-| Peptide 長度 | **8–10 aa**（ends buried；anchor 常為疏水 C 端；中間拱起） | **13–18（12 → >20）aa**（可伸出槽外；H-bond 分布全段） |
-| 抗原來源 | **Endogenous**（細胞質：病毒、胞內菌） | **Exogenous**（endocytosis、phagocytosis、autophagy） |
-| 辨識 T 細胞 | **CD8⁺ Tc**（CD8 結合 **α3**） | **CD4⁺ TH**（CD4 結合 **β2**） |
-| 表現 | **所有有核細胞**（紅血球沒有） | **APC**（DC（dendritic cell，樹突細胞）、macrophage、B）、胸腺上皮 |
-| 基因 | **HLA-A、-B、-C** | **HLA-DP、-DQ、-DR**（A=α、B=β） |
+
+|                | **MHC class I**                                                      | **MHC class II**                                                   |
+| -------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| 組成           | **α chain（α1、α2、α3）+ β2-microglobulin**（β2m 不是 MHC 基因編碼） | **α（α1、α2）+ β（β1、β2）**，皆 MHC 編碼                          |
+| Peptide 結合槽 | **α1 + α2**，**兩端封閉**                                            | **α1 + β1**，**兩端開放**                                          |
+| Peptide 長度   | **8–10 aa**（ends buried；anchor 常為疏水 C 端；中間拱起）           | **13–18（12 → >20）aa**（可伸出槽外；H-bond 分布全段）             |
+| 抗原來源       | **Endogenous**（細胞質：病毒、胞內菌）                               | **Exogenous**（endocytosis、phagocytosis、autophagy）              |
+| 辨識 T 細胞    | **CD8⁺ Tc**（CD8 結合 **α3**）                                       | **CD4⁺ TH**（CD4 結合 **β2**）                                     |
+| 表現           | **所有有核細胞**（紅血球沒有）                                       | **APC**（DC（dendritic cell，樹突細胞）、macrophage、B）、胸腺上皮 |
+| 基因           | **HLA-A、-B、-C**                                                    | **HLA-DP、-DQ、-DR**（A=α、B=β）                                   |
 
 <div data-fig="mhc-structure"></div>
 
 > Class III 區域不是 MHC 分子，而是補體（factor B、C2、C4）與 **TNF（tumor necrosis factor，腫瘤壞死因子）、LT-α** 等。
 
 ## 3. MHC 多樣性
+
 - **Polygeny**：每類有多個基因座（I：A/B/C；II：DR/DQ/DP）。
 - **Allelic polymorphism**：每個基因座有極多 alleles（**class I 多形性 > class II**）。
 - **Haplotype（linkage）polymorphism**：alleles 的組合不同。
 - **Co-dominant expression**：父母雙方的 MHC 都表現。
 - **Gene conversion**：減數分裂時由另一 MHC 基因複製序列 → 新 allele。
 - ⭐ **MHC 多樣性是「個體間」差異（遺傳）**；BCR（B cell receptor，B 細胞受體） / TCR 多樣性是「個體內」差異（somatic DNA rearrangement）。MHC **不需重組、不需 RAG**（recombination-activating gene）；是移植排斥的原因。
-- **HLA-B27** 與**僵直性脊椎炎**相關（好發男性；父母有病子女機率較高），但帶有 HLA-B27 **不足以確診**，要配合症狀與影像。
+- **HLA-B27** 與**僵直性脊椎炎（Ankylosing Spondylitis）**相關（好發男性；父母有病子女機率較高），但帶有 HLA-B27 **不足以確診**，要配合症狀與影像。
 - 對照 **allelic exclusion**：B／T 細胞只表現一個等位基因以維持單一專一性；MHC 則**共顯性**表現父母雙方。
 - **Inherited differences**：不同 allele 的結合槽胺基酸不同 → 每個人能呈現的胜肽不同。
 
 ## 4. 各組織 MHC 表現
-| 細胞 | MHC I | MHC II |
-|---|---|---|
-| T 細胞 | +++ | +（活化後） |
-| B 細胞、DC | +++ | +++ |
-| Macrophage | +++ | ++ |
-| 胸腺上皮 | + | +++ |
-| Neutrophil | +++ | − |
-| 肝細胞、腎、腦 | + | −（microglia 例外） |
-| **紅血球** | **−** | **−** |
+
+| 細胞           | MHC I | MHC II              |
+| -------------- | ----- | ------------------- |
+| T 細胞         | +++   | +（活化後）         |
+| B 細胞、DC     | +++   | +++                 |
+| Macrophage     | +++   | ++                  |
+| 胸腺上皮       | +     | +++                 |
+| Neutrophil     | +++   | −                   |
+| 肝細胞、腎、腦 | +     | −（microglia 例外） |
+| **紅血球**     | **−** | **−**               |
 
 ## 5. 抗原處理與呈現 ⭐⭐
 
 <div data-fig="pathogen-compartments"></div>
 
 ### MHC I 路徑（cytosolic / endogenous）
+
 1. 細胞質蛋白（含 **DRiPs**）經 **ubiquitin–proteasome** 切成短 peptide（IFN-γ 誘導 immunoproteasome：**LMP2、LMP7**）。
 2. **TAP-1 / TAP-2**（ER（endoplasmic reticulum，內質網） 膜上的 **ATP-dependent** 運輸蛋白，細胞質端為 **ABC（ATP-binding cassette）**；偏好 8–16 aa、C 端疏水或鹼性；基因在 MHC 區、受 IFN（interferon，干擾素） 誘導；**TAP（transporter associated with antigen processing） 突變 → 抗原無法呈現**）送入 ER。
 3. ER 內：**calnexin** 先結合 α 鏈 → β2m 結合後形成 **peptide-loading complex（calreticulin、tapasin、ERp57、TAP）** → **ERAAP**（ER aminopeptidase associated with antigen processing） 修剪過長 peptide → 裝載上 MHC I。
 4. 經 Golgi 運至細胞膜 → CD8 T 細胞辨識。
 
 ### MHC II 路徑（endocytic / exogenous）
+
 1. 外源蛋白經 endocytosis / phagocytosis → endosome **酸化**、protease（cathepsins）切割。
 2. MHC II 在 ER 與 **invariant chain（Ii）** 結合（防止在 ER 裝載內源 peptide、導向 endosome）。
 3. 在 late endosome（**MIIC**）Ii 被切到剩 **CLIP**（class II-associated invariant chain peptide） 佔住結合槽。
@@ -73,26 +79,29 @@
 <div data-fig="mhc-pathways"></div>
 
 ### 例外路徑
+
 - **Cross-presentation**：**DC** 把外源抗原從 phagolysosome 送到 ER、放上 **MHC I**（活化 CD8；機制仍不清楚），所以 DC 可同時活化 CD4 與 CD8。
 - **Autophagy**：細胞質（內生）抗原被雙層膜包住，走 MHC II 囊泡路徑活化 CD4，**通常用來製造 tolerance**。
 - MHC II 的兩種外源來源：**囊泡中的病原**（吞噬細胞處理、自己被活化殺菌）與**細胞外病原與毒素**（B 細胞以 BCR 抓抗原後內化切碎）。
 
 ## 6. TCR 辨識介面與免疫突觸（下週詳述）
+
 - TCR 辨識的是 **peptide–MHC complex**：peptide 上朝向 TCR 的是 **T-cell contact residues**，固定在槽裡的是 **anchor residues**。
 - 免疫突觸：T 細胞與 APC 接觸時，receptor、coreceptor、黏附與共刺激分子集中在接觸區（不是均勻散布）。
 
-| T 細胞 | APC | 功能 |
-|---|---|---|
-| TCR | peptide–MHC | 抗原辨認 |
-| CD4（CD8） | MHC II（MHC I） | coreceptor（帶 **Lck**） |
-| LFA-1（lymphocyte function-associated antigen 1） | ICAM-1（intercellular adhesion molecule 1） | 黏附 |
-| CD2 | **LFA-3（CD58）** | 黏附 |
-| CD28 | **B7-1／B7-2（CD80／CD86）** | 共刺激（Signal 2） |
+| T 細胞                                            | APC                                         | 功能                     |
+| ------------------------------------------------- | ------------------------------------------- | ------------------------ |
+| TCR                                               | peptide–MHC                                 | 抗原辨認                 |
+| CD4（CD8）                                        | MHC II（MHC I）                             | coreceptor（帶 **Lck**） |
+| LFA-1（lymphocyte function-associated antigen 1） | ICAM-1（intercellular adhesion molecule 1） | 黏附                     |
+| CD2                                               | **LFA-3（CD58）**                           | 黏附                     |
+| CD28                                              | **B7-1／B7-2（CD80／CD86）**                | 共刺激（Signal 2）       |
 
 - Signal 3：cytokines（IL-1、IL-6、IL-12）。
 - ⚠️ 百十四共筆把 LFA-3 寫成 CD48，正確是 **CD58**（slides 與上一章同）。
 
 ## 🎙️ 上課錄影重點（陳玫潔，非同步遠距 W17；錄影無官方逐字稿，以 Whisper 轉錄整理）
+
 - 本課 = 「**大亨堡怎麼做**」：Part 1 麵包（MHC）怎麼做、Part 2 熱狗（peptide）怎麼切、怎麼放上去。**專一性在 TCR**，MHC 與 peptide 的結合**不太需要專一性**（麵包不用切成熱狗形狀），但若 peptide 放不穩 → 無法被 TCR 辨識 → 喪失細胞免疫（cell-mediated immunity） → 「B 細胞免疫再好也無用」（T 細胞要幫 B）。
 - 胸腺發育：DN（CD4⁻CD8⁻）→ **DP** → 依當初與胸腺細胞作用的是 MHC II 或 MHC I → **SP**（CD4 或 CD8）→ 出胸腺（thymus）。TCR 認不得自己 MHC 的 T 細胞「死路一條」；認得自己 MHC **又認得自己 peptide** 的也不能放出去（之後會攻擊自己）。
 - **Dual recognition（1996 諾貝爾）兩個例子**：① 兩位同學同時得 X 病毒，把一位的 T 細胞 transfer 給另一位 → peptide 相同但 MHC 不同 → **不能辨識**；② 同一人先得 X 再得 Y → 同 MHC 但 peptide 不同 → X 誘發的 T 細胞**不能**認 Y。所以「之前打過別的疫苗、這次流感就不用打」匪夷所思。
@@ -117,9 +126,11 @@
 - 預告下堂：TCR = **白雪公主**（負責專一辨識）、**CD3 = 六個小矮人**（負責傳訊息；TCR 與 CD3 以**正負電、非共價**結合；CD4 與 CD8 T 細胞的 CD3 一樣）；**免疫突觸**：先靠周邊黏附因子穩住兩個細胞，TCR 在正中間；**訊號 1 = TCR、訊號 2 = CD28–B7.1/B7.2（與 checkpoint blockade 有關）、訊號 3 = cytokine**。
 
 === slides ===
+
 # W4-1 上課 slides 重點：MHC and its function ＋ Antigen presentation（陳玫潔）
 
 **Part 1 – MHC**（關鍵四主題：genes、generation & structure、peptides bound、MHC restriction）
+
 - 1996 Nobel：Doherty & Zinkernagel、**dual recognition model**（LCMV 實驗）。
 - What do T lymphocytes recognize?（peptides / APCs / self MHC / Ag-specific TCR）。
 - 1980 Nobel：Ir genes、HLA、H-2。
@@ -130,16 +141,20 @@
 - MHC restriction（Fig 6.23）；Ab / TCR 變異區為 somatic（not inherited）vs MHC 胜肽槽 inherited。
 
 **Part 2 – Antigen presentation**（三主題）
+
 1. Cytosol peptides → **TAP** → ER → MHC I（ubiquitin–proteasome；TAP-1/TAP-2；Fig 6.5、6.7、6.8）
 2. Peptide:MHC II 在 **acidified endocytic vesicles** 產生（endocytosis、phagocytosis、autophagy；Fig 6.10）；**invariant chain、HLA-DM、HLA-DO、CLIP、MIIC**（Fig 6.11–6.13）
 3. Peptide in groove：class I shorter / ends buried / H-bonds at ends；class II longer / extend / H-bonds throughout（Fig 4.21–4.23）
+
 - Fig 6.1–6.4：兩大胞內區室、endogenous vs exogenous、**cross-presentation by DC**、**autophagy → MHC II**。
 - Immunological synapse：adhesion molecules + TCRs。
 
 === exam ===
+
 # 考點分析
 
 ## 🔥 高頻考點
+
 1. **MHC I 表現**：所有有核細胞；**紅血球沒有**（出現 4 次）；「只在 DC 等 APC 表現」是錯的。
 2. **MHC I 路徑**：peptide 經 **TAP（ATP-dependent）** 進 ER；在 **ER** 與 MHC I 結合；8–10 aa → CD8。
 3. **DC 可同時用 MHC I 與 MHC II 呈現**（cross-presentation）。
@@ -148,21 +163,25 @@
 6. **MHC II 基因產物位於 macrophage、DC、B 細胞**。
 
 ## ⚠️ 陷阱
+
 - 「MHC class I deficiency 會難以對抗細菌」→ 主要影響病毒 / 胞內病原（考古答案為錯）。
 - 「MHC I 比 MHC II 更多形性」→ 正確（別選錯）。
 - β2-microglobulin 不是 MHC 基因編碼。
 - HLA-DM 是「幫忙」換 peptide；HLA-DO 是抑制。
 
 ## 📝 出題模式
+
 - 表格比較型（I vs II）最常見；今年 slides 大量引用 Janeway 圖（invariant chain、HLA-DM、cross-presentation）→ 可能出機制順序題。
 
 ## 🎙️ 老師課堂提示
+
 - 老師明講**不考**：老鼠 H-2 的基因、MHC 基因圖譜距離、haplotype 號碼；Class III 自動忽略。
 - 錄影中強調：**CD8 接 α3、CD4 接 β2**；class II 是 **DP、DQ、DR**（不是 HLA-D）；MHC 多樣性是**遺傳**來的、**沒有重組、沒有 allelic exclusion**；兄弟姊妹因 gene conversion 仍可能 HLA 不同。
 - 「這張圖小重要」：MHC I 在所有有核細胞（RBC 除外）；MHC II 只在 B、macrophage、DC、胸腺上皮。
 - **Cross-presentation 只有 DC**；autophagy 走 MHC II；非蛋白抗原無法活化 T → 只有 IgM、無 class switch。
 
 ## 百十三共筆對照
+
 - 百十三在這章開頭先複習 **T 細胞胸腺發育**（double negative → double positive → single positive），百十四移到 W04-1 才講。
 - 百十三把 Signal 3 寫成「APC 分泌 **IL-1、IL-6、IL-12** 塑造 T 細胞分化」；百十四在 W04-1 改列 IL-6、IL-12、IL-23、IL-4。
 - 百十三沒寫 DC 的 **cross-presentation**、autophagy 用來製造 tolerance；這兩點是百十四補的。其餘（MHC I／II 結構、TAP、CLIP／HLA-DM、HLA-B27）兩屆寫法相同。
