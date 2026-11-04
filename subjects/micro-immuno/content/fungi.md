@@ -11,11 +11,11 @@
 - **真核生物**、無葉綠素（異營）；約 100,000 種，**只有約 300 種**和動物疾病有關。
 - **ergosterol**
 
-|          | 細胞壁                                                                                       | 細胞膜上的固醇             |
-| -------- | -------------------------------------------------------------------------------------------- | -------------------------- |
+|          | 細胞壁                                                                                                                     | 細胞膜上的固醇             |
+| -------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
 | **真菌** | **β-1,3-D-glucan（主軸）+ chitin（網架）+ mannan（mannoprotein）**；無 peptidoglycan、無 LPS（lipopolysaccharide，脂多醣） | **Ergosterol（麥角固醇）** |
-| 人       | **沒有細胞壁**                                                                               | **Cholesterol**            |
-| 細菌     | **Peptidoglycan**                                                                            | **沒有固醇**               |
+| 人       | **沒有細胞壁**                                                                                                             | **Cholesterol**            |
+| 細菌     | **Peptidoglycan**                                                                                                          | **沒有固醇**               |
 
 - 這兩個差異 = **抗真菌藥的兩大標的**（cell wall synthesis、ergosterol）。人也有固醇 → amphotericin B 會傷到人。
 - 考古選項陷阱：chitin 是 **β-1,4** NAG（N-acetylglucosamine）、glucan 是 **β-1,3**（主鏈）／β-1,6（側鏈）；常被換成 α、1-4 或 peptidoglycan。
@@ -32,7 +32,7 @@
 - **菌絲的兩種分法（國考題）** ⭐：
   - 形態：**septate（有隔）**（子囊菌、擔子菌）vs **coenocytic（無隔（aseptate））**（**接合菌**）。
   - 功能：**營養菌絲**（匍匐在培養基表面或內部吸收養分，像草莓的匍匐莖）vs **空中（氣生）菌絲**（頂端長分生孢子或孢子囊孢子）。
-- **Dimorphism（雙形性）取決於「溫度」** ⭐（老師說「一個字就能判斷你有沒有上課」）：自然環境 **< 30 °C = mold**（hyphae、spore）；進入動物體內 **35–40 °C = yeast**（百十四共筆的溫度；老師口頭說「低於 37 °C」）（像細菌一樣分裂、造成肺炎）。**全身性的 true pathogen 幾乎全都是 dimorphic**。
+- **Dimorphism（雙形性）取決於「溫度」** ⭐：自然環境 **< 30 °C = mold**（hyphae、spore）；進入動物體內 **35–40 °C = yeast**（百十四共筆的溫度；老師口頭說「低於 37 °C」）（像細菌一樣分裂、造成肺炎）。**全身性的 true pathogen 幾乎全都是 dimorphic**。
   - 代表：_Histoplasma_、_Blastomyces_、_Coccidioides_、_Paracoccidioides_、_Talaromyces marneffei_、**_Sporothrix schenckii_**（皮下）。
   - _Candida albicans_ 在 37 °C yeast、pseudohyphae、hyphae 同時存在 → **不算典型 dimorphic**；_Cryptococcus_ 是 yeast，也不算。
 
@@ -154,9 +154,9 @@
 | --------------------------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------- | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **_Histoplasma capsulatum_**（莢膜組織胞漿菌）                              | **Ohio Valley fever**                                    | **鳥糞、蝙蝠糞**掉到土壤              | **魚眼（fish-eye）巨噬細胞**：寄生在 **macrophage 內**大量增生                   | 當地 **80–90% 居民都感染過**，新個案多是外地人 → 單純抗體陽性不代表疾病，要看抗體上升                                                                            |
 | **_Coccidioides immitis_**（球黴菌）                                        | **Valley fever**（美國西南）                             | 挖土、農作、考古、沙塵暴              | 肺中的**巨大孢子囊（giant spherule）**，裡面充滿 endospores                      | **感染力最強：一個 arthroconidium 就會中**；60% 無症狀、40% flu-like。**台灣**：2000–2020 只有 1 例，2020 年後累積 13 例，多為境外移入，有本土爭議（疾管署新聞） |
-| **_Blastomyces dermatitidis_**                                              | **北美芽生菌病**（Chicago disease）                      | 10–100 個 conidia 即可感染            | **寬基出芽、厚壁的大 yeast**：芽和母細胞一樣大（「媽媽生出跟媽媽一樣大的小孩」） | **老師說四隻中最毒**：約 20% 播散（老師講到腦 → 腦膜炎（meningitis）；slides 寫皮膚、骨、攝護腺、CNS），死亡約 5%；amphotericin B 或 azole                                     |
+| **_Blastomyces dermatitidis_**                                              | **北美芽生菌病**（Chicago disease）                      | 10–100 個 conidia 即可感染            | **寬基出芽、厚壁的大 yeast**：芽和母細胞一樣大（「媽媽生出跟媽媽一樣大的小孩」） | **老師說四隻中最毒**：約 20% 播散（老師講到腦 → 腦膜炎（meningitis）；slides 寫皮膚、骨、攝護腺、CNS），死亡約 5%；amphotericin B 或 azole                       |
 | **_Paracoccidioides brasiliensis_**                                         | **南美芽生菌病**（巴西）                                 | 吸入                                  | **船舵型（多極出芽）孢子**                                                       | **四隻中最 mild**，絕大多數自限；少數侵犯頭部黏膜與淋巴                                                                                                          |
-| **_Talaromyces (Penicillium) marneffei_**（馬爾尼菲青黴菌）**醫學系第五支** | **泰國、中國南方**（亞洲特有，歐美教科書少寫，國考會考） | **竹林中的齧齒類（竹鼠）**帶原 → 吸入 | **產生紅色素（red pigment）**（醫學系、醫技系很常考）                            | 舊名 penicilliosis → **talaromycosis**；掃帚狀分生孢子；偏伺機性，常見於 **HIV（human immunodeficiency virus，人類免疫缺乏病毒） 感染者**                                                                          |
+| **_Talaromyces (Penicillium) marneffei_**（馬爾尼菲青黴菌）**醫學系第五支** | **泰國、中國南方**（亞洲特有，歐美教科書少寫，國考會考） | **竹林中的齧齒類（竹鼠）**帶原 → 吸入 | **產生紅色素（red pigment）**（醫學系、醫技系很常考）                            | 舊名 penicilliosis → **talaromycosis**；掃帚狀分生孢子；偏伺機性，常見於 **HIV（human immunodeficiency virus，人類免疫缺乏病毒） 感染者**                        |
 
 ## 11. 伺機性黴菌病（五大必記，臨床最常遇到、最會致死）⭐
 
@@ -262,7 +262,7 @@
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | I. 作用在細胞膜   | **Allylamines**（terbinafine，抑制 squalene epoxidase）；**Azoles**（抑制 14-α-demethylase → ergosterol 合成）；**Polyenes**（amphotericin B、nystatin：**直接結合膜上 sterol** → 打洞；**毒性高、劑量相關副作用**，**靜脈注射用於致命的全身性感染**） |
 | II. 作用在細胞壁  | **Echinocandins**：抑制 **β-1,3-D-glucan** 合成                                                                                                                                                                                                        |
-| III. 抑制細胞分裂 | **Griseofulvin**：破壞**有絲分裂紡錘體 → 停在 metaphase**；累積在**角質層** → **皮癬菌（頭癬、甲癬（onychomycosis））二線用藥**                                                                                                                                         |
+| III. 抑制細胞分裂 | **Griseofulvin**：破壞**有絲分裂紡錘體 → 停在 metaphase**；累積在**角質層** → **皮癬菌（頭癬、甲癬（onychomycosis））二線用藥**                                                                                                                        |
 | IV. 抑制核酸合成  | **5-flucytosine（5-FC）**：cytosine 類似物，經真菌膜上 **cytosine permease** 進入 → 5-FU → 5-F-UMP → 抑制 RNA（與可能的 DNA）；**與 amphotericin B 協同**治療全身性致命黴菌病；窄譜：_Candida albicans_、_Cryptococcus_、_Aspergillus_、_Blastomyces_  |
 | 治療原則          | **全身性、致命感染才用全身性藥物**；_Candida krusei_ **天生抗 fluconazole**                                                                                                                                                                            |
 
@@ -288,16 +288,16 @@
 
 ## 伺機性黴菌
 
-| 菌                                                                    | slides 重點                                                                                                                                                                                                                                                                                                                  |
-| --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **_Candida_**（albicans、glabrata、parapsilosis、tropicalis、krusei） | **出芽酵母 + pseudohyphae + 真菌絲**；約 20% 人帶 _C. albicans_；正常菌叢，宿主防禦下降（幼兒、懷孕、藥物、免疫缺陷、外傷）即致病；**約 70% 院內黴菌感染**                                                                                                                                                                   |
-| _Candida_ 疾病                                                        | **鵝口瘡 thrush**（新生兒、虛弱老人；白色附著斑塊）；**外陰陰道念珠菌病**（糖尿病、懷孕、口服抗生素改變陰道菌相）；甲溝、皺褶處、皮膚；**食道念珠菌病：約 70% AIDS 病人**；**念珠菌血症（bacteremia）：致死人數超過其他所有黴菌（40–60%）**，手術、骨髓移植、癌症、靜脈毒癮；UTI（urinary tract infection，泌尿道感染）、心內膜、腦                                               |
-| _Candida_ 診斷                                                        | **Germ tube test：馬血清、37 °C、2–4 小時 → _C. albicans_、_C. dubliniensis_ 陽性**；trypan blue 培養基（_C. albicans_ 淺藍、_Cryptococcus_ 深藍）；**CHROMagar Candida** 顯色；生化系統、DNA 擴增                                                                                                                           |
+| 菌                                                                    | slides 重點                                                                                                                                                                                                                                                                                                                                      |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **_Candida_**（albicans、glabrata、parapsilosis、tropicalis、krusei） | **出芽酵母 + pseudohyphae + 真菌絲**；約 20% 人帶 _C. albicans_；正常菌叢，宿主防禦下降（幼兒、懷孕、藥物、免疫缺陷、外傷）即致病；**約 70% 院內黴菌感染**                                                                                                                                                                                       |
+| _Candida_ 疾病                                                        | **鵝口瘡 thrush**（新生兒、虛弱老人；白色附著斑塊）；**外陰陰道念珠菌病**（糖尿病、懷孕、口服抗生素改變陰道菌相）；甲溝、皺褶處、皮膚；**食道念珠菌病：約 70% AIDS 病人**；**念珠菌血症（bacteremia）：致死人數超過其他所有黴菌（40–60%）**，手術、骨髓移植、癌症、靜脈毒癮；UTI（urinary tract infection，泌尿道感染）、心內膜、腦              |
+| _Candida_ 診斷                                                        | **Germ tube test：馬血清、37 °C、2–4 小時 → _C. albicans_、_C. dubliniensis_ 陽性**；trypan blue 培養基（_C. albicans_ 淺藍、_Cryptococcus_ 深藍）；**CHROMagar Candida** 顯色；生化系統、DNA 擴增                                                                                                                                               |
 | **_Cryptococcus neoformans_**（擔子菌）                               | **莢膜**；**鴿子棲息處（鴿糞（pigeon droppings））**；**AIDS** 病人**嚴重腦膜炎**、常致命；也見於類固醇、糖尿病、癌症；吸入 → 肺結節 → 血 → 腦與腦膜（頭痛、意識改變、昏迷、癲癇）；**India ink 負染色**；**nitrate 同化 (−)**、**birdseed（Niger seed）agar 上產色素（phenoloxidase）**、螢光抗體；**amphotericin B + fluconazole**，數週到數月 |
-| **_Pneumocystis jirovecii_**（PCP）                                   | **AIDS 最常見伺機感染（70–80%）**；曾以為是原蟲，**rRNA 像酵母（子囊菌）**；**缺 ergosterol、細胞壁弱、無法培養**；飛沫 → 肺泡 → **泡沫狀滲出物**；咳嗽、發燒、淺呼吸、發紺；**pentamidine、co-trimoxazole（TMP-SMX）**                                                                                                      |
-| **_Aspergillus_**（子囊菌）                                           | **_A. fumigatus_** 最常見；AIDS、白血病、免疫缺陷；吸入 conidia → **fungus ball** → 壞死性肺炎、播散到腦心皮膚；嚴重全身性預後差；PCR（polymerase chain reaction，聚合酶連鎖反應）、血清學；手術切除 + **echinocandin、voriconazole 或 amphotericin**                                                                                                                     |
-| **Mucormycosis（接合菌病）**                                          | _Rhizopus_、_Mucor_、_Absidia_；土壤、水、腐物；白血病、營養不良、皮膚損傷、**未控制的糖尿病（酮酸中毒）**；**鼻腦型**（鼻腔 → 血 → 眼、腦）、肺型（白血病）、腸胃型（蛋白質營養不良兒童）；**非常大、厚壁、無隔（nonseptate）菌絲**；手術清創 + 高劑量 amphotericin B 或 voriconazole                                       |
-| 其他                                                                  | _Geotrichum candidum_（乳製品）；**_Fusarium_：隱形眼鏡 → 黴菌性角膜炎（2006 爆發）**；**2012 美國汙染類固醇注射 → _Exserohilum rostratum_ 黴菌性腦膜炎（39 死、600+ 病）**                                                                                                                                                  |
+| **_Pneumocystis jirovecii_**（PCP）                                   | **AIDS 最常見伺機感染（70–80%）**；曾以為是原蟲，**rRNA 像酵母（子囊菌）**；**缺 ergosterol、細胞壁弱、無法培養**；飛沫 → 肺泡 → **泡沫狀滲出物**；咳嗽、發燒、淺呼吸、發紺；**pentamidine、co-trimoxazole（TMP-SMX）**                                                                                                                          |
+| **_Aspergillus_**（子囊菌）                                           | **_A. fumigatus_** 最常見；AIDS、白血病、免疫缺陷；吸入 conidia → **fungus ball** → 壞死性肺炎、播散到腦心皮膚；嚴重全身性預後差；PCR（polymerase chain reaction，聚合酶連鎖反應）、血清學；手術切除 + **echinocandin、voriconazole 或 amphotericin**                                                                                            |
+| **Mucormycosis（接合菌病）**                                          | _Rhizopus_、_Mucor_、_Absidia_；土壤、水、腐物；白血病、營養不良、皮膚損傷、**未控制的糖尿病（酮酸中毒）**；**鼻腦型**（鼻腔 → 血 → 眼、腦）、肺型（白血病）、腸胃型（蛋白質營養不良兒童）；**非常大、厚壁、無隔（nonseptate）菌絲**；手術清創 + 高劑量 amphotericin B 或 voriconazole                                                           |
+| 其他                                                                  | _Geotrichum candidum_（乳製品）；**_Fusarium_：隱形眼鏡 → 黴菌性角膜炎（2006 爆發）**；**2012 美國汙染類固醇注射 → _Exserohilum rostratum_ 黴菌性腦膜炎（39 死、600+ 病）**                                                                                                                                                                      |
 
 === exam ===
 
