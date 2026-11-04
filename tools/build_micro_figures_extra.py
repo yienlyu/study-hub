@@ -107,7 +107,7 @@ NEW = [
  # ---------------- 免疫缺陷
  svg("immunodeficiency-map", "immunodeficiency", "免疫缺陷地圖：卡在哪一步、怕哪種感染", ["SCID", "抗體缺陷", "吞噬細胞缺陷", "補體缺陷"],
      "SCID ADA IL2RG common gamma chain RAG FOXN1 BTK XLA CD40L hyper IgM CVID LAD CGD complement IL-12 IFN-gamma IL-17 STAT3",
-     "先用最下面的反查表從感染型態定位，再用 T／B／NK 剩誰或剩哪種抗體確認：<strong>ADA 全滅、γc 留 B、RAG 留 NK、FOXN1 只少 T</strong>；<strong>BTK 卡 pre-B、CD40L 只剩 IgM</strong>；吞噬細胞是<strong>太少／到不了／殺不死</strong>。"),
+     "最上面的流程圖從造血幹細胞往下走，紅色 ✕ 標出卡住的地方（可點開說明）；先用最下面的反查表從感染型態定位，再用 T／B／NK 剩誰或剩哪種抗體確認：<strong>ADA 全滅、γc 留 B、RAG 留 NK、FOXN1 只少 T</strong>；<strong>BTK 卡 pre-B、CD40L 只剩 IgM</strong>；吞噬細胞是<strong>太少／到不了／殺不死</strong>。"),
  slide("slide-scid-map", "immunodeficiency", "SCID 的缺陷位置（Janeway Fig 13.2）", ["SCID"],
        "SCID T cell B cell development defects thymus bone marrow ADA RAG IL-7R JAK3",
        "骨髓與胸腺裡淋巴球發育的每一步，紅框標出會造成 SCID 的基因（ADA、γc、JAK3、IL-7Rα、RAG、Artemis…）。", IMDEF, 8, box=(0.57, 0.19, 1.0, 0.99)),
