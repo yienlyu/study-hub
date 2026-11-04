@@ -141,10 +141,10 @@
   - **足菌腫（fungal mycetoma，Madura foot）**：真菌（_Pseudallescheria_、_Madurella_）；**細菌性的是 actinomycetes（放線菌）**；黑色顆粒，侵犯肌肉、骨骼。
   - 共同點：**不知不覺、時間冗長、很難治療** → **手術切除疣狀物 + amphotericin B**（或併用 azole、5-FC）。百十三補充：著色芽生菌病可局部加熱或**冷凍治療（cryotherapy）**，再用外用 amphotericin B 併用 **thiabendazole** 或 5-FC。
 
-## 10. 全身性黴菌病（true pathogen）⭐ 老師：「這四個我會考一題，每個系都一樣」
+## 10. 全身性黴菌病（true pathogen）⭐ （老師說這四個會考一題，每個系都一樣）
 
 - **共同特色**：
-  1. **地方性**（北美、南美、非洲等地大物博處）；~~哪隻在哪個地區「我不會考」~~，但國考會考。
+  1. **地方性**（北美、南美、非洲等地大物博處）；哪隻在哪個區域期中考老師不會考，但國考會考。
   2. 戶外是 **mold**，有人跑步經過 → **吸入 conidia → 肺** → 進體內變 **yeast** → **全部都是 dimorphic**。
   3. 多數無症狀或 **flu-like**（頭痛、發燒、不舒服）→ 自己好了。
   4. 少數**從肺播散到全身**（liver、kidney、heart、brain、bone，甚至**皮膚長瘡流膿、結節**；**不是從皮膚進來，是吸進去後跑到皮膚**）→ 可能致死 → **amphotericin B**。
