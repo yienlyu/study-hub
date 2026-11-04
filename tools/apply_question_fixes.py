@@ -12,7 +12,7 @@
 2. 逐題修正：question_fixes.json 的格式是 {"科目資料夾": {"questions-xxx.json": {"題號": {欄位: 值}}}}，
    值是 null 代表刪掉這個欄位。常用欄位：
    answer（答案；一般題有多個表示任一個都算對）、options、multi、noAnswer（題目有誤、沒有正確選項 → 這種題目整題不收錄）、
-   img（題目附圖，相對於科目資料夾的路徑）、imageOnly。
+   img（題目附圖，相對於科目資料夾的路徑）、explainImg（詳解附圖，只在詳解區顯示）、imageOnly。
 """
 import json
 import os

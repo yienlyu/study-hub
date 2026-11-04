@@ -136,7 +136,7 @@ K110 = {
     9: ("bact-genetics", "突變", "C", "Nonsense mutation：密碼子變成終止密碼子 → 蛋白提早終止。Missense 換成另一個胺基酸；silent 胺基酸不變；null 是功能完全喪失。"),
     10: ("bact-genetics", "DNA 複製與基因表現", "B", "Sanger 定序：DNA 合成時隨機摻入 ddNTP 使鏈終止，依片段長度與螢光讀出序列，所以是「DNA 合成」測「序列」。"),
     11: ("staph-strep", "S. aureus", "B", "兩者都是 catalase 陽性，無法區分。S. aureus：coagulase 陽性、發酵 mannitol、β 溶血；S. epidermidis 都是陰性或不溶血。"),
-    12: ("pathogenesis", "免疫逃脫", "AC", "(A) GAS 玻尿酸莢膜模仿結締組織。(B) 分解 C5a 的是 S. pyogenes 的 C5a peptidase，不是 S. aureus。(C) 結核菌也有 catalase-peroxidase（KatG）可分解 H₂O₂。(D) 分泌 coagulase 的是 S. aureus。原考古答案為 A；C 敘述也成立，兩個都算對。"),
+    12: ("pathogenesis", "免疫逃脫", "AC", "(A) GAS 玻尿酸莢膜模仿結締組織。(B) 分解 C5a 的是 S. pyogenes 的 C5a peptidase，不是 S. aureus。(C) 結核菌也有 catalase-peroxidase（KatG）可分解 H₂O₂。(D) 分泌 coagulase 的是 S. aureus。原考古答案為 A；C 敘述也成立，兩個都算對。\n嚴格來說，M. tuberculosis 確實也會產生 catalase（KatG，同時具有 peroxidase 活性，也是活化抗結核藥 isoniazid 的酵素）。所以 (C) 在生物學上並不全錯。但這題是照 slides 的配對來出的，(A) 是最符合課程內容的答案。"),
     13: ("pathogenesis", "細菌附著", "B", "黏附素（adhesin）常位於線毛末端，結合宿主細胞表面醣類受體。(A) Legionella 由環境吸入，不在肺內人傳人；(C) 生物膜靠多醣（glycocalyx）附著；(D) 題目原文缺字，不影響作答。", {"opts": {"D": "Salmonella 利用 docking system 抑制自己的……，以攻擊巨噬細胞（原考古缺字）"}}),
     14: ("sterilization", "滅菌與消毒", "A", "呼吸治療器材（塑膠、橡膠、有管腔）不耐熱，用 glutaraldehyde（高階消毒／化學滅菌）浸泡最合適。Hexachlorophene 是皮膚消毒劑；UV 穿透力差；γ 射線用於工業滅菌拋棄式用品。"),
     15: ("fungi", "皮膚／皮下／系統性黴菌", "B", "Paracoccidioides brasiliensis：酵母型多極出芽，像船舵（mariner's wheel）。Coccidioides 是 spherule；Histoplasma 小卵圓酵母在巨噬細胞內；Blastomyces 單一寬基底出芽。"),

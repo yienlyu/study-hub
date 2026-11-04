@@ -4513,6 +4513,11 @@
     (q.img || []).length
       ? `<div class="q-imgs">${q.img.map((src) => `<img src="${esc(subj.path)}/${esc(src)}" alt="題目附圖" loading="lazy" decoding="async">`).join("")}</div>`
       : "";
+  // 詳解附圖（q.explainImg）：只在詳解區顯示，避免作答前看到答案
+  const exImgs = (subj, q) =>
+    (q.explainImg || []).length
+      ? `<div class="q-imgs ex">${q.explainImg.map((src) => `<img src="${esc(subj.path)}/${esc(src)}" alt="詳解附圖" loading="lazy" decoding="async">`).join("")}</div>`
+      : "";
 
   function runSession(subj, pool, q) {
     const sid = subj.meta.id;
@@ -4640,11 +4645,11 @@
               : `${ic("x")}答錯了，正確答案是 ${ansText(qq)}`;
         verdict = `<div class="verdict ${tone}" role="status"><div class="verdict-head">${head}${a.na ? "" : wrongRateTag(sid, qq)}</div><div class="verdict-body">${mine}
           ${qq.answerText ? `<div class="answer-text"><div class="explain-title">參考答案</div>${rich(qq.answerText)}</div>` : ""}
-          ${qq.explain ? `<div class="explain-title">詳解</div><div class="explain">${rich(qq.explain)}</div>` : qq.answerText ? "" : '<div class="muted">這題沒有附詳解。</div>'}
+          ${qq.explain ? `<div class="explain-title">詳解</div><div class="explain">${rich(qq.explain)}</div>` : qq.answerText ? "" : '<div class="muted">這題沒有附詳解。</div>'}${exImgs(subj, qq)}
           ${qq.note ? `<div class="note">${ic("alert")}<div>${esc(qq.note)}</div></div>` : ""}${figLinks(subj, qq)}</div></div>`;
       } else if (isShort && S.revealed === S.i) {
         verdict = `<div class="verdict neutral"><div class="verdict-head">${ic("eye")}參考答案</div><div class="verdict-body">${mine}
-          ${qq.answerText ? `<div class="answer-text">${rich(qq.answerText)}</div>` : ""}${qq.explain ? `<div class="explain">${rich(qq.explain)}</div>` : ""}
+          ${qq.answerText ? `<div class="answer-text">${rich(qq.answerText)}</div>` : ""}${qq.explain ? `<div class="explain">${rich(qq.explain)}</div>` : ""}${exImgs(subj, qq)}
           <div class="self-grade"><button class="btn" type="button" data-self="1">${ic("check")}我會了</button><button class="btn" type="button" data-self="0">${ic("rotate")}還不熟</button></div></div></div>`;
       }
       const shortBox =
@@ -5331,7 +5336,7 @@
             ${big ? `<div class="flash-answer">${big}</div>` : ""}
             ${x.answerText ? `<div class="answer-text">${rich(x.answerText)}</div>` : ""}
             ${optsBack && ans.length ? `<details class="fig-inline" style="border:0;padding:0;margin:0 0 6px"><summary>全部選項</summary>${optsBack}</details>` : ""}
-            ${x.explain ? `<div class="explain-title" style="margin-top:14px">詳解</div><div class="explain">${rich(x.explain)}</div>` : ""}
+            ${x.explain ? `<div class="explain-title" style="margin-top:14px">詳解</div><div class="explain">${rich(x.explain)}</div>` : ""}${exImgs(subj, x)}
             ${x.note ? `<div class="note">${ic("alert")}<div>${esc(x.note)}</div></div>` : ""}
             ${figLinks(subj, x)}
           </section>
@@ -5443,7 +5448,7 @@
       <details${open ? " open" : ""}><summary>${ic("eye")}答案與詳解</summary>
         <div class="verdict neutral" style="margin-top:0"><div class="verdict-head">答案：${ans.length || q.noAnswer ? `${ansText(q)}${q.multi ? "（多選題）" : ""}` : q.answerText ? "見參考答案" : "無正確選項"}</div><div class="verdict-body">
         ${q.answerText ? `<div class="answer-text">${rich(q.answerText)}</div>` : ""}
-        ${q.explain ? `<div class="explain">${rich(q.explain)}</div>` : '<div class="muted">這題沒有附詳解。</div>'}
+        ${q.explain ? `<div class="explain">${rich(q.explain)}</div>` : '<div class="muted">這題沒有附詳解。</div>'}${exImgs(subj, q)}
         ${q.note ? `<div class="note">${ic("alert")}<div>${esc(q.note)}</div></div>` : ""}${figLinks(subj, q)}
         <div style="margin-top:12px;display:flex;gap:14px;font-size:.85rem"><a href="#/s/${subj.meta.id}/q/${q.id}">單獨練這題</a><a href="${reportHref(subj.meta.id, q)}">回報此題</a></div></div></div>
       </details></article>`;

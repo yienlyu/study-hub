@@ -148,7 +148,8 @@
     "explain": "exponential phase應為指數生長期（exponential phase of growth）：如E. coli每20分鐘分裂一次，為次一代",
     "answerText": "指數生長期（exponential / log phase）",
     "topics": ["生長曲線與代謝"],
-    "pattern": "簡答題"
+    "pattern": "簡答題",
+    "img": ["figures/questions/k113-bact-05.webp"]
   },
   {
     "id": "k113-bact-06",
@@ -1675,7 +1676,8 @@
     "answer": ["B"],
     "explain": "(A) C2 和 C4b 結合形成 C4b2 後，C1qr₂s₂ 和 C4b2 作用，C4b2 裂解為 C4b2a（一種 C3 convertase）和 C2b。\n(B) C2a 主要的作用是酵素活性，不是發炎媒介。會引發 local inflammation 的是 C3a 、 C5a。\n(C) C1q 下方的球結合到抗原或是抗原抗體結合物後，構型改變使兩個 C1 互相活化。\n(D) C5b 和 C6、C7 結合成 C5b67，再和 C8、C9 結合成 C5b-9，即 MAC。\n＊詳見下附圖",
     "topics": ["補體系統"],
-    "pattern": "選錯誤（否定）題"
+    "pattern": "選錯誤（否定）題",
+    "explainImg": ["figures/questions/k113-innate-01-ex.webp"]
   },
   {
     "id": "k113-innate-02",
@@ -1737,7 +1739,8 @@
     "answer": ["B"],
     "explain": "TLR-4 是唯一能與 LPS 結合的 Toll-Like Receptors，TLR-4和 CD14 則是可辨認 LPS 的 Co-Receptors。體內的 LPS-BP（Lipopolysaccharide-binding protein）會結合病原體的脂多醣（LPS），LPS-BP 接著被傳給表面分子CD14 辨認，最後再傳遞給 TLR-4 活化吞噬細胞。",
     "topics": ["補體系統", "TLR／PRR"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "explainImg": ["figures/questions/k113-innate-03-ex.webp"]
   },
   {
     "id": "k113-innate-04",
@@ -1772,7 +1775,8 @@
       "細胞毒殺（perforin/Fas）",
       "MHC 構造與表現"
     ],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "explainImg": ["figures/questions/k113-innate-04-ex.webp"]
   },
   {
     "id": "k113-innate-05",
@@ -1803,7 +1807,8 @@
     "answer": ["C"],
     "explain": "Cell migration involves 3 steps: Tethering (Selectin), Triggering (Chemokine), Latching (Integrin)\n(A) Fc receptor 可以抓住病原體上的 Antibody，為調理素受體(Opsonic receptor)\n(B) TCR1 與 CD8 可共同辨識細胞上的 MHC I 與其表現的抗原片段\n(C) Integrins bind to their ligands on the surface of endothelial cells, facilitating cell migration\n(D) C1 與 Lysis 作用的 Classical Pathway 活化路徑有關",
     "topics": ["白血球遷移（selectin→chemokine→integrin）"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "explainImg": ["figures/questions/k113-innate-05-ex.webp"]
   },
   {
     "id": "k113-innate-06",
@@ -1834,7 +1839,8 @@
     "answer": ["C"],
     "explain": "補體系統（Complement）的功能有三：溶解作用（Lysis）、趨化作用（Chemotaxis）、調理作用（Opsonization），如右圖。\n(C)具有中和作用（Neutralization）的是抗體 Antibody",
     "topics": ["補體系統", "調理作用／opsonic receptor"],
-    "pattern": "選錯誤（否定）題"
+    "pattern": "選錯誤（否定）題",
+    "explainImg": ["figures/questions/k113-innate-06-ex.webp"]
   },
   {
     "id": "k113-innate-07",
@@ -1896,7 +1902,8 @@
     "answer": ["C"],
     "explain": "Lectin pathway 由 Mannose Binding Lectin（MBL）接上病原體表面的Mannose and Fucose residues，或 ficolin接到病原體表面上含 acetylated sugars的寡糖上來啟動\n*MBL 不會和 host cell 作用",
     "topics": ["補體系統"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "explainImg": ["figures/questions/k113-innate-08-ex.webp"]
   },
   {
     "id": "k113-innate-09",
@@ -2330,7 +2337,8 @@
     "answer": ["A"],
     "explain": "這題滿難的，只有 TLR-3 是辨識雙股 RNA，下面提供 Toll Like Receptor 的功能表給大家參考：",
     "topics": ["TLR／PRR"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "explainImg": ["figures/questions/k113-innate-22-ex.webp"]
   },
   {
     "id": "k113-innate-23",
@@ -2714,7 +2722,8 @@
     "answer": ["C"],
     "explain": "Cell migration involves 3 steps: Tethering (Selectin), Triggering (Chemokine), Latching (Integrin)",
     "topics": ["白血球遷移（selectin→chemokine→integrin）"],
-    "pattern": "組合選擇題"
+    "pattern": "組合選擇題",
+    "explainImg": ["figures/questions/k113-innate-34-ex.webp"]
   },
   {
     "id": "k113-innate-35",
@@ -2838,7 +2847,8 @@
     "answer": ["A"],
     "explain": "Toll-like receptor 共有 13 種，要熟記每種 TLR 的功能，詳見 22.表格",
     "topics": ["TLR／PRR"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "explainImg": ["figures/questions/k113-innate-22-ex.webp"]
   },
   {
     "id": "k113-innate-39",
@@ -2869,7 +2879,8 @@
     "answer": ["C"],
     "explain": "(B) 應該為 long 而非 short，詳見 4.附圖",
     "topics": ["TLR／PRR", "NK 細胞與抑制性受體", "MHC 構造與表現"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "explainImg": ["figures/questions/k113-innate-04-ex.webp"]
   },
   {
     "id": "k113-innate-40",
@@ -2900,7 +2911,8 @@
     "answer": ["C"],
     "explain": "(C) ILC1 可分泌 IFN-γ 來對抗病毒或胞內細菌",
     "topics": ["NK 細胞與抑制性受體", "ILC 先天性淋巴細胞"],
-    "pattern": "選錯誤（否定）題"
+    "pattern": "選錯誤（否定）題",
+    "explainImg": ["figures/questions/k113-innate-40-ex.webp"]
   },
   {
     "id": "k113-innate-41",
@@ -3342,7 +3354,8 @@
     "answer": ["C"],
     "explain": "在 Cell Migration 的觸發作用中，內皮細胞從 ER 生成或發炎組織分泌趨化激素（Chemokine）與白血球結合。",
     "topics": ["白血球遷移（selectin→chemokine→integrin）"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "explainImg": ["figures/questions/k113-innate-54-ex.webp"]
   },
   {
     "id": "k113-innate-55",
@@ -3377,7 +3390,8 @@
       "補體系統",
       "TLR／PRR"
     ],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "explainImg": ["figures/questions/k113-innate-55-ex.webp"]
   },
   {
     "id": "k113-agab-01",
@@ -3408,7 +3422,8 @@
     "answer": ["D"],
     "explain": "抗體是由兩條 Heavy chain 和 Light chain 組成沒錯，但順序並非 light-heavy-light-heavy，而是light-heavy-heavy-light。\n＊詳見下圖：",
     "topics": ["抗體類別與功能", "抗體結構", "抗原／epitope"],
-    "pattern": "選錯誤（否定）題"
+    "pattern": "選錯誤（否定）題",
+    "explainImg": ["figures/questions/k113-agab-01-ex.webp"]
   },
   {
     "id": "k113-agab-02",
@@ -3563,7 +3578,8 @@
     "answer": ["B"],
     "explain": "(B)根據下圖表格，抗體的 class 和 subclass 主要是 heavy chain 而非 light chain",
     "topics": ["抗體類別與功能", "抗體結構"],
-    "pattern": "選錯誤（否定）題"
+    "pattern": "選錯誤（否定）題",
+    "explainImg": ["figures/questions/k113-agab-06-ex.webp"]
   },
   {
     "id": "k113-agab-07",
@@ -4342,7 +4358,8 @@
     "answer": ["B"],
     "explain": "(A)(D)(E) Negative selection 的作用機制是針對未成熟的 T cell 或 B cell 對於自身抗原或是自體細胞上的 peptide 結合狀況做篩選，若親和力太強就會將其淘汰掉，故 T cell 與 B cell 皆具Negative selection\n(C)選項描述的是 Positive selection",
     "topics": ["MHC 構造與表現", "胸腺選擇"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "explainImg": ["figures/questions/k113-tdev-01-ex.webp"]
   },
   {
     "id": "k113-tdev-02",
@@ -4447,7 +4464,8 @@
     "answer": ["A"],
     "explain": "(A) 細胞質中未經處理的抗原和 DRIPs（Defected Ribosomal Products）會被 proteasome 切成片段，此時處理過的抗原就可以透過 TAP 進入 ER",
     "topics": ["MHC 構造與表現", "抗原處理與呈現（TAP）"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "explainImg": ["figures/questions/k113-tdev-04-ex.webp"]
   },
   {
     "id": "k113-tdev-05",
@@ -4478,7 +4496,8 @@
     "answer": ["A"],
     "explain": "(A) Thymic selection 包含 positive selection 與 negative selection\n(C) 在胸腺時 T cell 尚未完全分化，CD4、CD8 皆表現，沒有 CD4+ single positive 的 T Cell\n＊百九學長表示：(C)有疑義。在 thymic cortex 中，cortical epithelial cells 表現 MHC II 多於MHC I，所以表現 CD4 的多於 CD8 的；也就是說，在出 cortex 到 medulla 前，應該已經出現單陽性的 CD4，之後的 negative selection 就是在檢驗是否會與 self-antigen 作用，所以如果有的話就應該要 apoptosis 才對，因此我覺得這個答案也可以。附上一張我找到的圖：",
     "topics": ["MHC 構造與表現", "胸腺選擇"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "explainImg": ["figures/questions/k113-tdev-05-ex.webp"]
   },
   {
     "id": "k113-tdev-06",
@@ -4509,7 +4528,8 @@
     "answer": ["D"],
     "explain": "(A) 由左圖可知，MHC class I 基因多樣性大於 MHC class II\n(D) 細胞免疫主要針對內生性抗原（右圖藍色區域），體液免疫主要針對外源性抗原（右圖黃色區域），此為主要答案（但 MHC class I deficiency 亦會影響 pathogen defense）",
     "topics": ["MHC 構造與表現", "抗原處理與呈現（TAP）"],
-    "pattern": "選錯誤（否定）題"
+    "pattern": "選錯誤（否定）題",
+    "explainImg": ["figures/questions/k113-tdev-06-ex.webp"]
   },
   {
     "id": "k113-tdev-07",
@@ -4540,7 +4560,8 @@
     "answer": ["C"],
     "explain": "(C) TCR 的多樣性遠多於 BCR（約為 20000 倍），因為 TCR 的 J 很多",
     "topics": ["TCR 與 γδ T 細胞"],
-    "pattern": "選錯誤（否定）題"
+    "pattern": "選錯誤（否定）題",
+    "explainImg": ["figures/questions/k113-tdev-07-ex.webp"]
   },
   {
     "id": "k113-tdev-08",
@@ -4695,7 +4716,8 @@
     "answer": ["C"],
     "explain": "(C) 樹突細胞可同時表現 MHC I 與 MHC II（如右圖），所以超強",
     "topics": ["MHC 構造與表現"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "explainImg": ["figures/questions/k113-tdev-12-ex.webp"]
   },
   {
     "id": "k113-tdev-13",
@@ -4726,7 +4748,8 @@
     "answer": ["A"],
     "explain": "(A) 蛋白質片段會被 proteasome 在細胞質切成小片段，由 TAP 轉移至內質網，ERAAP 再將過長的多肽鏈再切割，使其與 MHC class I 結合（8〜10個 amino acids），詳見 4. (A)的附圖",
     "topics": ["MHC 構造與表現", "抗原處理與呈現（TAP）"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "explainImg": ["figures/questions/k113-tdev-04-ex.webp"]
   },
   {
     "id": "k113-tdev-14",
@@ -4757,7 +4780,8 @@
     "answer": ["A"],
     "explain": "Both the α and δ loci include V (variable), J (joining), and C (constant) segments, and the δ locus also includes D (diversity) segments. The δ locus is situated within the αlocus, between the α variable and α joining genes.首先，γ chain 相似於 α chain，都只有 V、J、C，但是 δ chain 相似於 β chain，有 V、D、J、C。在下圖中，我們可以觀察到 δ chain 的基因坐落在 α chain 的 V 與 J 之間，故答案應選(A)。而 γ chain 的基因就離群索居自己一區\n\n【TCR 基因】（筆記：T 細胞發育「2. TCR 基因」）\n\n| | α 鏈 | β 鏈 | γ 鏈 | δ 鏈 |\n|---|---|---|---|---|\n| 類比 | ≈ Ig 輕鏈 | ≈ Ig 重鏈 | ≈ 輕鏈 | ≈ 重鏈 |\n| 片段 | V–J–C | V–D–J–C–D–J–C（**兩組 DJC**） | V–J–C–J–C | V–D–J–C |\n| 染色體 | 14 | 7 | 7 | 14（**在 α 基因座內，Vα 與 Jα 之間**） |",
     "topics": ["TCR 與 γδ T 細胞"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "explainImg": ["figures/questions/k113-tdev-14-ex.webp"]
   },
   {
     "id": "k113-tact-01",
@@ -4850,7 +4874,8 @@
     "answer": ["C"],
     "explain": "IL-12 的功能之一是，使初始 T 細胞（naïve T cells）分化成 TH1，如下圖（很重要！）",
     "topics": ["TH 分化與細胞激素"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "explainImg": ["figures/questions/k113-tact-03-ex.webp"]
   },
   {
     "id": "k113-tact-04",
@@ -5071,7 +5096,8 @@
     "answer": ["C"],
     "explain": "(A) (B) (D) VLA-4、LFA-1 與 CR4 都是整聯蛋白（Integrin）的一種\n(C) CCR3（CC Type Chemokine Receptor 3）不是細胞黏附分子（cell adhesion molecules），典型的Chemokine Receptor 結構如下圖所示，是有七個 transmembrane domains 的 G protein-coupled receptor",
     "topics": ["白血球遷移（selectin→chemokine→integrin）"],
-    "pattern": "選錯誤（否定）題"
+    "pattern": "選錯誤（否定）題",
+    "explainImg": ["figures/questions/k113-tact-10-ex.webp"]
   },
   {
     "id": "k113-tact-11",
@@ -6049,7 +6075,8 @@
     "explain": "TFH 以 CD40L–CD40 接觸 B 細胞，再分泌 cytokine 決定 isotype switch 換成哪一型（cytokine 促進特定 switch region 上游 promoter 轉錄，經 AID 完成 class switch recombination，只換 constant region）。IL-4 → IgG1、IgE → 選 D。\nClass switch 與 cytokine 對應：\n• IL-4 → IgG1、IgE（IL-13 也可促 IgE）\n• IFN-γ → IgG3、IgG2a\n• TGF-β → IgG2b、IgA\n• IL-21 → IgG3、IgG1、IgA\n• IL-5 → IgG1、IgA（考題答 IgA）\n(A) IFN-γ：TH1 cytokine，換成 IgG3／IgG2a，且抑制 TH2 與 IgE。(B) TGF-β：IgA（與 IgG2b）。(C) IL-6：促 plasma cell 分化與 TH17 分化，不決定 IgE switch。(E) IL-5：IgA，並活化 eosinophil。\n・W4-2 T cell-mediated immunity & cell cooperation 投影片 p.45（Fig 10.23 cytokine → isotype）；筆記：T 細胞活化「8. Isotype (class) switch → Cytokine 決定換成哪一型」。\n對照圖見下方「Class switch 與 cytokine 對應」。",
     "topics": ["TH 分化與細胞激素", "B 細胞活化／class switch／生發中心"],
     "pattern": "選正確／單一概念題",
-    "figs": ["class-switch", "cytokine-isotype"]
+    "figs": ["class-switch", "cytokine-isotype"],
+    "explainImg": ["figures/questions/k113-tact-40-ex.webp"]
   },
   {
     "id": "k113-tact-41",
@@ -6084,7 +6111,8 @@
     "answer": ["B"],
     "explain": "第三訊號：細胞激素影響 T 細胞的分化。TGF-β、IL-6、IL-23 促進 TH17 分泌 IL-17、IL-22簡單來說 IL-17 是一種細胞激素（cytokine），主要功能是活化噬中性球（neutrophil）離開 bone marrow 舒適圈，去發炎的地方打怪吞細菌。而 IL-17 需要先被 TGF-β（Transforming Growth Factor-β）結合 IL-6（或 IL-21）的複合物，分化（differentiate）才能啟動。\n＊IL-17 能被 CD8+ T cells、γδ T cells、Nature Killer T cells 和 Innate Lymphoid Cells（ILC）等細胞製造出來。\n＊詳情請拜讀 paper，連結：https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4530463/左圖圖說IL-17 透過一系列途徑使 neutrophil 出動，前往發炎區域（inflammation）執行抗菌功能。",
     "topics": ["TH 分化與細胞激素"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "explainImg": ["figures/questions/k113-tact-41-ex.webp", "figures/questions/k113-tact-41-ex-b.webp"]
   },
   {
     "id": "k113-staph1-01",
@@ -7926,7 +7954,8 @@
     "answer": ["D"],
     "explain": "白喉毒素（Diphtheria toxic）：是一種 AB toxin，為外毒素，會與核醣體結合，抑制蛋白質的合成，可以由 Elek test 跟 PCR\u0002based method 的體外測試（Toxigenicity test）來測出來\n(A) 正確\n(B) 正確\n(C) 是的，會有帶著 Tox 的噬菌體來找他玩（如右圖）\n(D) 不，他是催化延長因子 EF2 的白喉醯胺殘基（diphthamide，一個經過修飾的組胺酸殘基）的 ADP 核糖化（ADP-ribosylation），而將其失去活性，來抑制蛋白質合成。題幹敘述的是 Shiga toxin 和 Verocytotoxin",
     "topics": ["C. diphtheriae"],
-    "pattern": "選錯誤（否定）題"
+    "pattern": "選錯誤（否定）題",
+    "explainImg": ["figures/questions/k113-bacillus-07-ex.webp"]
   },
   {
     "id": "k113-bacillus-08",
@@ -9473,9 +9502,9 @@
     ],
     "answer": ["A"],
     "explain": "莢膜孢漿菌具銀白色菌絲，孢子為流星錘狀",
-    "imageOnly": true,
     "topics": ["皮膚／皮下／系統性黴菌"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "img": ["figures/questions/k113-fungi-03.webp"]
   },
   {
     "id": "k113-fungi-04",
@@ -9579,9 +9608,10 @@
     ],
     "answer": ["E"],
     "explain": "(C) 毛癬菌屬（Trichophyton）的特徵為臘腸狀大孢子（左）\n(D) 小孢癬菌屬（Microsporum）的特徵為梭狀大孢子（中）\n(E) 表皮癬菌屬（Epidermophyton）的特徵為棒狀大孢子（右）",
-    "imageOnly": true,
     "topics": ["皮膚／皮下／系統性黴菌"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "img": ["figures/questions/k113-fungi-06.webp"],
+    "explainImg": ["figures/questions/k113-fungi-06-ex.webp"]
   },
   {
     "id": "k113-fungi-07",
@@ -9646,9 +9676,10 @@
     ],
     "answer": ["E"],
     "explain": "圖要看，英文要背\n(A) 芽生孢子 Blastospore：非囊狀、投射型 balistic\n(B) 瓶孢子 Phialospore：非囊狀、投射型 balistic\n(C) 囊孢子 Sporangiospore：囊狀、投射型 balistic\n(D) 分節孢子 Arthrospore：非囊狀、菌體型 thallic\n(E) 厚膜孢子 Chlamydospore：非囊狀、菌體型 thallic看起來是部分菌絲的尾端變厚，可參考右圖厚膜胞子，選(E)",
-    "imageOnly": true,
     "topics": ["其他"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "img": ["figures/questions/k113-fungi-08.webp"],
+    "explainImg": ["figures/questions/k113-fungi-08-ex.webp", "figures/questions/k113-fungi-08-ex-b.webp"]
   },
   {
     "id": "k113-fungi-09",
@@ -9682,9 +9713,9 @@
     ],
     "answer": ["D"],
     "explain": "關鍵是梭狀大孢子，就是很像荷魯斯之眼的那個中間的形狀，所以選 Microsporum 開頭的",
-    "imageOnly": true,
     "topics": ["皮膚／皮下／系統性黴菌"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "img": ["figures/questions/k113-fungi-09.webp"]
   },
   {
     "id": "k113-fungi-10",
@@ -9718,9 +9749,10 @@
     ],
     "answer": ["B"],
     "explain": "孢子從保齡球狀的菌絲頂投出，可參考第 8 題詳解附圖，選(B)",
-    "imageOnly": true,
     "topics": ["其他"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "img": ["figures/questions/k113-fungi-10.webp"],
+    "explainImg": ["figures/questions/k113-fungi-08-ex.webp", "figures/questions/k113-fungi-08-ex-b.webp"]
   },
   {
     "id": "k113-fungi-11",
@@ -9954,7 +9986,8 @@
     "explain": "孢子從保齡球狀的菌絲頂投出，也很像倒著的掃把，可參考第 8 題詳解附圖，選(C)",
     "topics": ["其他"],
     "pattern": "選正確／單一概念題",
-    "img": ["figures/questions/k113-fungi-17.webp"]
+    "img": ["figures/questions/k113-fungi-17.webp"],
+    "explainImg": ["figures/questions/k113-fungi-08-ex.webp", "figures/questions/k113-fungi-08-ex-b.webp"]
   },
   {
     "id": "k113-fungi-18",
@@ -9979,14 +10012,14 @@
       },
       {
         "k": "D",
-        "t": "Yeast Conidia (C)  Phialospore\n (D)  Blastospore"
+        "t": "Yeast Conidia"
       }
     ],
     "answer": ["B"],
     "explain": "箭頭指的是菌絲，因此不能選(A)(D)。圖片中有 septum 構成的隔板，因此選(B)",
-    "imageOnly": true,
     "topics": ["真菌構造與分類"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "img": ["figures/questions/k113-fungi-18.webp"]
   },
   {
     "id": "k113-fungi-19",
@@ -10055,9 +10088,9 @@
     ],
     "answer": ["A"],
     "explain": "他們在進行有性生殖，中間那個東西叫接合孢子，是 Zygomycotina 的 Sexual state\n＊Amastigomycota 家族的 sexual state 整理：\n Zygomycotina 接合菌亞門：有性構造稱為接合子 Zygote，一正一負接合生成接合孢子\n Ascomycotina 子囊菌亞門：整體稱為子囊 Ascus，內有減數分裂的子囊孢子（4、8、16）\n Basidiomycotina 擔子菌亞門：擔孢子會著生在擔子的小梗上，等到成熟後，就會掉下來",
-    "imageOnly": true,
     "topics": ["真菌構造與分類"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "img": ["figures/questions/k113-fungi-20.webp"]
   },
   {
     "id": "k113-fungi-21",
@@ -10291,30 +10324,30 @@
     "options": [
       {
         "k": "A",
-        "t": ""
+        "t": "圖 (A)"
       },
       {
         "k": "B",
-        "t": ""
+        "t": "圖 (B)"
       },
       {
         "k": "C",
-        "t": ""
+        "t": "圖 (C)"
       },
       {
         "k": "D",
-        "t": ""
+        "t": "圖 (D)"
       },
       {
         "k": "E",
-        "t": ""
+        "t": "圖 (E)"
       }
     ],
     "answer": ["A"],
     "explain": "Indian Ink 為負染色法，將背景染黑，由於莢膜很厚不會染上黑色，因而出現發亮似的效果",
-    "imageOnly": true,
     "topics": ["Cryptococcus／Candida"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "img": ["figures/questions/k113-fungi-28.webp"]
   },
   {
     "id": "k113-fungi-29",
@@ -10393,30 +10426,30 @@
     "options": [
       {
         "k": "A",
-        "t": ""
+        "t": "圖 (A)"
       },
       {
         "k": "B",
-        "t": ""
+        "t": "圖 (B)"
       },
       {
         "k": "C",
-        "t": ""
+        "t": "圖 (C)"
       },
       {
         "k": "D",
-        "t": ""
+        "t": "圖 (D)"
       },
       {
         "k": "E",
-        "t": ""
+        "t": "圖 (E)"
       }
     ],
     "answer": ["B"],
     "explain": "Epidermophyton 具有棒狀大孢子",
-    "imageOnly": true,
     "topics": ["皮膚／皮下／系統性黴菌"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "img": ["figures/questions/k113-fungi-31.webp"]
   },
   {
     "id": "k113-fungi-32",
@@ -11189,7 +11222,8 @@
     "answer": ["B"],
     "explain": "95 年國考題。Amphotericin B（兩性黴素 B）有分成親油（7 個 C＝C）與親水兩面，親油面接合ergosterol，親水面朝內。8 組 amphotericin B 與 ergosterol 在細胞膜上構成一個 pore，損毀細胞膜",
     "topics": ["真菌構造與分類", "抗真菌藥物"],
-    "pattern": "選正確／單一概念題"
+    "pattern": "選正確／單一概念題",
+    "explainImg": ["figures/questions/k113-fungi-55-ex.webp"]
   },
   {
     "id": "k113-fungi-56",

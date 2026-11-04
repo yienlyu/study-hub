@@ -2625,7 +2625,7 @@
    "A",
    "C"
   ],
-  "explain": "(A) GAS 玻尿酸莢膜模仿結締組織。(B) 分解 C5a 的是 S. pyogenes 的 C5a peptidase，不是 S. aureus。(C) 結核菌也有 catalase-peroxidase（KatG）可分解 H₂O₂。(D) 分泌 coagulase 的是 S. aureus。原考古答案為 A；C 敘述也成立，兩個都算對。",
+  "explain": "(A) GAS 玻尿酸莢膜模仿結締組織。(B) 分解 C5a 的是 S. pyogenes 的 C5a peptidase，不是 S. aureus。(C) 結核菌也有 catalase-peroxidase（KatG）可分解 H₂O₂。(D) 分泌 coagulase 的是 S. aureus。原考古答案為 A；C 敘述也成立，兩個都算對。\n嚴格來說，M. tuberculosis 確實也會產生 catalase（KatG，同時具有 peroxidase 活性，也是活化抗結核藥 isoniazid 的酵素）。所以 (C) 在生物學上並不全錯。但這題是照 slides 的配對來出的，(A) 是最符合課程內容的答案。",
   "topics": [
    "免疫逃脫"
   ],
