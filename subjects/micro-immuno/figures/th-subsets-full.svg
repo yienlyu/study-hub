@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 689" role="img" aria-label="CD4 TH 亞群分化詳細版：IL-12 誘導 TH1（T-bet），分泌 IFN-γ 活化 macrophage 對付胞內病原；IL-4 誘導 TH2（GATA3），IL-4 換 IgE、IL-5 活化 eosinophil、IL-13 增加黏液與平滑肌收縮，對付寄生蟲；IL-6 誘導 TFH（Bcl-6），IL-21 與 CD40L 幫 B 細胞；TGF-β 加 IL-6 加 IL-23 誘導 TH17（RORγt），IL-17 招募 neutrophil 對付胞外菌與真菌；TGF-β 加 IL-2 誘導 pTreg（FoxP3），TGF-β 與 IL-10 抑制免疫。下方為亞群互相抑制與 ILC 對照。">
-<defs><marker id="tf-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="tf-i" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M5,0 V10" class="ln" style="stroke-width:2.4"/></marker></defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 689" role="img" aria-label="CD4 TH 亞群分化詳細版：活化的 T 細胞分泌 IL-2（T 細胞生長因子，自分泌，搭配 CD25）促進增殖；IL-12 誘導 TH1（T-bet），分泌 IFN-γ 活化 macrophage 對付胞內病原；IL-4 誘導 TH2（GATA3），IL-4 換 IgE、IL-5 活化 eosinophil、IL-13 增加黏液與平滑肌收縮，對付寄生蟲；IL-6 誘導 TFH（Bcl-6），IL-21 與 CD40L 幫 B 細胞；TGF-β 加 IL-6 加 IL-23 誘導 TH17（RORγt），IL-17 招募 neutrophil 對付胞外菌與真菌；TGF-β 加 IL-2 誘導 pTreg（FoxP3），TGF-β 與 IL-10 抑制免疫。下方為亞群互相抑制與 ILC 對照。">
+<defs><marker id="tf-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker><marker id="tf-i" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M5,0 V10" class="ln" style="stroke-width:2.4"/></marker><marker id="tf-g" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
 <text x="16" y="20" class="th">SIGNAL ③ 誘導</text><text x="268" y="20" class="th">亞群 · 轉錄因子</text><text x="400" y="20" class="th">分泌 → 作用</text><text x="742" y="20" class="th">被增強的細胞</text><text x="840" y="20" class="th">對付 · KO</text>
 <rect x="260" y="34" width="772" height="84" rx="10" class="bv" style="stroke:none;opacity:.45"/>
 <text x="112" y="63" class="tb" style="font-size:13px">IL-12 ⭐</text>
@@ -101,6 +101,10 @@
 <text x="840" y="422" class="" style="font-size:12px">自身、共生菌抗原</text>
 <text x="840" y="440" class="" style="font-size:12px">→ peripheral tolerance</text>
 <text x="840" y="456" class="ts" style="">IL-10 KO → IBD</text>
+<g class="hot" data-tip="&lt;b&gt;IL-2：T 細胞生長因子（自分泌）&lt;/b&gt;：signal ①＋② → NFAT → 分泌 IL-2，並表現高親和力受體 &lt;b&gt;CD25（IL-2Rα）&lt;/b&gt; → 自己餵自己 → 增殖；也幫隔壁 CD8 活化（雨露均霑）。決定分化方向的是 signal ③ 的其他 cytokine，IL-2 只參與 pTreg（＋TGF-β）。" data-label="IL-2 自分泌"><path d="M34 222C8 178 96 178 70 222" class="lg" style="stroke-width:1.6" marker-end="url(#tf-g)"/>
+<text x="46" y="150" text-anchor="middle" class="tb" style="font-size:12.5px;fill:var(--good)">IL-2</text></g>
+<text x="46" y="164" text-anchor="middle" class="ts">自分泌</text>
+<text x="46" y="178" text-anchor="middle" class="ts">＋CD25 → 增殖</text>
 <circle cx="52" cy="252" r="34" class="bx" style="stroke-width:1.6"/><text x="52" y="248" text-anchor="middle" class="tb">naïve</text><text x="52" y="264" text-anchor="middle" class="ts">CD4⁺ T</text>
 <text x="52" y="312" text-anchor="middle" class="ts">① TCR–pMHC</text><text x="52" y="326" text-anchor="middle" class="ts">② CD28–B7</text><text x="52" y="340" text-anchor="middle" class="ts">③ cytokine</text><text x="52" y="354" text-anchor="middle" class="ts">→ 決定分化</text>
 <path d="M106 346H100V442H106" class="lv" style="stroke-width:1.4" />

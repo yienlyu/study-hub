@@ -4970,7 +4970,7 @@
       }
     ],
     "answer": ["D"],
-    "explain": "IL-2 可以調節 Naïve CD4+ T 細胞分化為 TH1 與 TH2 的功能",
+    "explain": "IL-2：T 細胞生長因子（自分泌）。T 細胞經 TCR（signal ①）＋CD28–B7（signal ②）活化後，經 NFAT 等轉錄因子大量分泌 IL-2，同時表現高親和力 IL-2 受體 CD25（IL-2Rα）→ 自己餵自己 → 增殖、分化（老師：「IL-2 就讓 T 細胞快樂增殖」）；CD4 分泌的 IL-2 也「雨露均霑」，幫隔壁的 CD8 活化。所以選 (D)。\n(A) 活化 macrophage 的是 IFN-γ（TH1、CTL）。(B) 活化 APC 靠 CD40L–CD40，APC 再提高 B7、分泌 IL-12。(C) 吞噬靠 opsonization（抗體、C3b）與 IFN-γ 活化的 macrophage。\n⚠️ 決定 TH1／TH2 方向的是 IL-12（TH1）與 IL-4（TH2），不是 IL-2；IL-2 只在 TGF-β＋IL-2 → pTreg 這條參與決定方向。\n📍 筆記：T 細胞的活化「T 細胞 cytokine 作用總表」（IL-2：T 細胞生長與分化）；TCR 訊號「Signal ② 共刺激」（CD28 誘導 IL-2 與 CD25）；Fig. CD4 TH 亞群分化。",
     "topics": ["TH 分化與細胞激素"],
     "pattern": "選正確／單一概念題"
   },

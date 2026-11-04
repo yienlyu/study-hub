@@ -450,6 +450,42 @@
     "pattern": "選正確／單一概念題"
   },
   {
+    "id": "k114-26",
+    "source": "114 期中考古",
+    "num": 26,
+    "chapter": "enterobacteriaceae",
+    "type": "mcq",
+    "stem": "下列有關傷寒型沙門氏菌S. Typhi，何者正確？",
+    "options": [
+      {
+        "k": "A",
+        "t": "主要傳染途徑為糞口傳染（fecal-oral）"
+      },
+      {
+        "k": "B",
+        "t": "感染一週的患者進行血液篩檢，結果可能呈陽性"
+      },
+      {
+        "k": "C",
+        "t": "少部分帶原者無症狀，細菌最後停留在膽囊"
+      },
+      {
+        "k": "D",
+        "t": "近年來皆無本土病例，皆為境外移入"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explain": "（記題沒有附答案，網站依課本判斷）（依微免考古勘誤：ABC 皆可）(A) 正確：傷寒主要經糞口傳染，食入受患者或帶原者糞便、尿液污染的食物或飲水而感染。(B) 正確：發病第一週血液培養陽性率最高（約 80–90%），是早期診斷最常用的方法。(C) 正確：約 1–4% 的人痊癒後成為無症狀慢性帶原者，菌長期停留在膽囊，隨膽汁、糞便排出（例：傷寒瑪麗）。(D) 錯誤：台灣近年仍有零星本土病例，並非全部境外移入。",
+    "topics": [
+      "腸桿菌科"
+    ],
+    "pattern": "選正確／單一概念題"
+  },
+  {
     "id": "k114-27",
     "source": "114 期中考古",
     "num": 27,
@@ -563,7 +599,7 @@
     "options": [
       {
         "k": "A",
-        "t": "為Gran negative"
+        "t": "為Gram negative"
       },
       {
         "k": "B",
@@ -571,7 +607,7 @@
       },
       {
         "k": "C",
-        "t": "Emeda toxin是AB toxin"
+        "t": "Edema toxin是AB toxin"
       },
       {
         "k": "D",
@@ -579,7 +615,7 @@
       }
     ],
     "answer": ["C"],
-    "explain": "（記題沒有附答案，網站依課本判斷）Anthrax 的 edema toxin（PA＋EF）與 lethal toxin 都是 A-B toxin。B. anthracis 是 G(+)、莢膜是 poly-D-glutamic acid 胜肽，最常見的是皮膚型。",
+    "explain": "（記題沒有附答案，網站依課本判斷）（依微免考古勘誤：答案為 C，詳解原寫 B 是誤植）Anthrax 的 edema toxin（PA＋EF）與 lethal toxin 都是 A-B toxin。B. anthracis 是 G(+)、莢膜是 poly-D-glutamic acid 胜肽，最常見的是皮膚型（吸入型最嚴重，但不是最常見）。所以 B 錯在「多醣」莢膜。",
     "topics": ["Bacillus 等 G(+) 桿菌"],
     "pattern": "選正確／單一概念題"
   },
@@ -695,7 +731,7 @@
       },
       {
         "k": "D",
-        "t": "具有端叢鞭毛所以有高移動性"
+        "t": "具有端從鞭毛所以有高移動性"
       }
     ],
     "answer": ["D"],
@@ -1054,6 +1090,40 @@
     "answer": ["A"],
     "explain": "（記題沒有附答案，網站依課本判斷）Tfh 分泌 IL-21（並表現 CD40L）幫助生發中心 B 細胞。",
     "topics": ["T 細胞活化"],
+    "pattern": "選正確／單一概念題"
+  },
+  {
+    "id": "k114-53",
+    "source": "114 期中考古",
+    "num": 53,
+    "chapter": "agab",
+    "type": "mcq",
+    "stem": "有關於AID得敘述何者正確",
+    "options": [
+      {
+        "k": "A",
+        "t": "活化的B細胞在生發中心（germinal center）進行體細胞超突變（somatic hypermutation）"
+      },
+      {
+        "k": "B",
+        "t": "和B-cell分泌IgE有關"
+      },
+      {
+        "k": "C",
+        "t": "體細胞超突變（somatic hypermutation）需要 AID（activation-induced cytidine deaminase）一種脫胺酵素的參與，主要是作用在胞嘧啶（cytosine, C）上使之轉變為尿嘧啶（uridine, U），使DNA斷裂成單股之後連接另一個斷裂處的單股"
+      },
+      {
+        "k": "D",
+        "t": "用RSS主導，能轉變IgM的基因"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explain": "（記題沒有附答案，網站依課本判斷）（答案依百十三期中考古詳解）AID 是活化 B 細胞在生發中心進行體細胞超突變（SHM）與類別轉換（CSR）不可或缺的酵素。(B) 和 IgE 有關（CSR）描述沒錯但過於片面，A 較精準。(C) SHM 是 AID 把 C 脫胺成 U，再經易錯修復引入點突變，「斷成單股接到另一個斷裂處」混淆了 CSR 切接 switch 區的機制。(D) RSS 由 RAG1／RAG2 辨識，是骨髓中 V(D)J 重組，與 AID 無關。",
+    "topics": [
+      "抗原抗體"
+    ],
     "pattern": "選正確／單一概念題"
   },
   {

@@ -1,10 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 388" role="img" aria-label="CD4 T 細胞分化：IL-12 誘導 TH1（T-bet，分泌 IFN-γ），IL-4 誘導 TH2（GATA3，分泌 IL-4、IL-5、IL-13；IL-13 增加黏液與平滑肌收縮），TGF-β 加 IL-6（加 IL-23）誘導 TH17（RORγt，分泌 IL-17、IL-22），IL-6 誘導 TFH（Bcl-6，分泌 IL-21），TGF-β 加 IL-2 誘導 pTreg（FoxP3，分泌 TGF-β、IL-10）">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 388" role="img" aria-label="CD4 T 細胞分化：活化的 T 細胞分泌 IL-2，是 T 細胞生長因子（自分泌，搭配 CD25）促進增殖。IL-12 誘導 TH1（T-bet，分泌 IFN-γ），IL-4 誘導 TH2（GATA3，分泌 IL-4、IL-5、IL-13；IL-13 增加黏液與平滑肌收縮），TGF-β 加 IL-6（加 IL-23）誘導 TH17（RORγt，分泌 IL-17、IL-22），IL-6 誘導 TFH（Bcl-6，分泌 IL-21），TGF-β 加 IL-2 誘導 pTreg（FoxP3，分泌 TGF-β、IL-10）">
 <defs><marker id="tb-a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fk"/></marker>
 <marker id="tb-av" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fv"/></marker>
 <marker id="tb-ar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fr"/></marker>
 <marker id="tb-ag" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" class="fg"/></marker></defs>
 <text x="20" y="20" class="th">誘導 CYTOKINE（APC 給的 Signal ③）</text><text x="330" y="20" class="th">亞群 · 轉錄因子</text><text x="480" y="20" class="th">分泌</text><text x="610" y="20" class="th">功能</text>
 <circle cx="60" cy="190" r="34" class="bx" style="stroke-width:1.6"/><text x="60" y="186" text-anchor="middle" class="tb">naïve</text><text x="60" y="203" text-anchor="middle" class="ts">CD4⁺ T</text>
+<g class="hot" data-tip="&lt;b&gt;IL-2：T 細胞生長因子（自分泌）&lt;/b&gt;：活化的 T 細胞（signal ①＋②，經 NFAT）分泌 IL-2，同時表現高親和力受體 &lt;b&gt;CD25（IL-2Rα）&lt;/b&gt; → 自己餵自己 → 增殖。CD4 的 IL-2 也幫隔壁 CD8 活化（雨露均霑）。IL-2 不決定 TH1／TH2 方向。" data-label="IL-2 自分泌"><path d="M44 222C14 262 106 262 76 222" class="lg" style="stroke-width:1.6" marker-end="url(#tb-ag)"/>
+<text x="60" y="276" text-anchor="middle" class="tb" style="font-size:12.5px;fill:var(--good)">IL-2（自分泌）</text></g>
+<text x="60" y="292" text-anchor="middle" class="ts">＋ CD25（IL-2Rα）</text>
+<text x="60" y="307" text-anchor="middle" class="ts">→ T 細胞增殖</text>
 <path d="M94 190Q150 190 200 70H300" class="ln" style="stroke-width:1.4" marker-end="url(#tb-a)"/>
 <text x="210" y="64" class="tb" style="font-size:12px">IL-12、IFN-γ</text>
 <rect x="306" y="48" width="150" height="44" rx="22" class="bv"/>
@@ -52,5 +56,5 @@
 <path d="M458 334H474" class="lt"/>
 <text x="480" y="331" class="tb" style="font-size:12px">TGF-β、IL-10</text>
 <text x="610" y="331" style="font-size:12px">抑制免疫、耐受</text>
-<text x="20" y="376" class="ts">互相抑制：<tspan style="fill:var(--ink)">IFN-γ ⊣ TH2</tspan>　<tspan style="fill:var(--ink)">IL-4 ⊣ TH1</tspan>　<tspan style="fill:var(--ink)">IL-10 ⊣ TH1</tspan>　·　IL-2 是 T 細胞生長因子（自分泌）</text>
+<text x="20" y="376" class="ts">互相抑制：<tspan style="fill:var(--ink)">IFN-γ ⊣ TH2</tspan>　<tspan style="fill:var(--ink)">IL-4 ⊣ TH1</tspan>　<tspan style="fill:var(--ink)">IL-10 ⊣ TH1</tspan>　·　IL-2 管「長多少」，不管「變哪型」（只參與 pTreg）</text>
 </svg>

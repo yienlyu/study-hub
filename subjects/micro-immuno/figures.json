@@ -1401,7 +1401,7 @@
    "補體缺陷"
   ],
   "keywords": "SCID ADA IL2RG common gamma chain RAG FOXN1 BTK XLA CD40L hyper IgM CVID LAD CGD complement IL-12 IFN-gamma IL-17 STAT3",
-  "caption": "用 T／B／NK 剩下誰來推缺陷：<strong>γc → T−B+NK−</strong>、<strong>RAG → T−B−NK+</strong>、<strong>ADA → 全部沒有</strong>；再用感染型態對應：化膿菌 → 抗體／補體／吞噬細胞，Neisseria → MAC。"
+  "caption": "先用最下面的反查表從感染型態定位，再用 T／B／NK 剩誰或剩哪種抗體確認：<strong>ADA 全滅、γc 留 B、RAG 留 NK、FOXN1 只少 T</strong>；<strong>BTK 卡 pre-B、CD40L 只剩 IgM</strong>；吞噬細胞是<strong>太少／到不了／殺不死</strong>。"
  },
  {
   "id": "slide-scid-map",

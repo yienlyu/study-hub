@@ -3,7 +3,8 @@
 
 來源：slides/micro-immuno/共筆考古/百十三/微免/1141微免期中記題.xlsx（學長姐考後記題，沒有答案欄）
 - 答案與詳解由網站依課本判斷，詳解開頭會註明。
-- 略過：沒記到的題、選項缺漏或有多個正確選項無法判斷的題（26、36、53、77），以及 87（多個選項都對）。
+- 略過：沒記到的題、選項缺漏或有多個正確選項無法判斷的題（36、77），以及 87（多個選項都對）、68（與 58 同題）。
+- 11/4 依微免考古勘誤（Google Doc）：26 題 ABC 皆可（補進）；31 題答案為 C（詳解原寫 B 是誤植），修正英文錯字 Gram／Edema；53 依詳解補進（A）。
 - 11/3 依百十三期中考古詳解（同一份考試，11/2 版）：第 4 題改為 C；補 29、54、83–85。
 - 病毒學 86、88–91 於 10/22 補進（新增「病毒」章）；86 是排序題，改成簡答。
 執行：python3 tools/build_micro_k114.py（在 repo 根目錄）
@@ -32,11 +33,12 @@ KEY = {
     21: ("staph-strep", "A", "S. pneumoniae 可以是正常人咽喉的菌叢；莢膜是主要毒力因子，血液培養呈 α 溶血（半溶血）。"),
     22: ("staph-strep", "A", "Enterococcus 院內感染與多重抗藥性（例：VRE）有關。"),
     25: ("enterobacteriaceae", "A", "UPEC 產生 hemolysin；ETEC 產生 LT／ST；Shiga toxin 是 EHEC；EAEC 也會產生毒素。"),
+    26: ("enterobacteriaceae", ["A", "B", "C"], "（依微免考古勘誤：ABC 皆可）(A) 正確：傷寒主要經糞口傳染，食入受患者或帶原者糞便、尿液污染的食物或飲水而感染。(B) 正確：發病第一週血液培養陽性率最高（約 80–90%），是早期診斷最常用的方法。(C) 正確：約 1–4% 的人痊癒後成為無症狀慢性帶原者，菌長期停留在膽囊，隨膽汁、糞便排出（例：傷寒瑪麗）。(D) 錯誤：台灣近年仍有零星本土病例，並非全部境外移入。"),
     27: ("enterobacteriaceae", "B", "Shigella 只要 10–100 個菌就能致病，是三者中最低的。"),
     28: ("enterobacteriaceae", "A", "鼠疫桿菌 Yersinia pestis 經跳蚤叮咬傳播（肺鼠疫可飛沫人傳人），不是吸入老鼠糞便。"),
     29: ("neisseria", "B", "（記題只記到兩個選項）Vibrio vulnificus 可經食用受污染的生海鮮（生蠔）感染，也可經傷口接觸海水感染，所以「只會透過海水」錯。Kanagawa hemolysin 是腸炎弧菌（V. parahaemolyticus）的耐熱溶血素，正確。"),
     30: ("neisseria", "A", "P. aeruginosa 的 alginate（多醣）構成生物膜基質，囊性纖維化病人特別重要。"),
-    31: ("bacillus", "C", "Anthrax 的 edema toxin（PA＋EF）與 lethal toxin 都是 A-B toxin。B. anthracis 是 G(+)、莢膜是 poly-D-glutamic acid 胜肽，最常見的是皮膚型。"),
+    31: ("bacillus", "C", "（依微免考古勘誤：答案為 C，詳解原寫 B 是誤植）Anthrax 的 edema toxin（PA＋EF）與 lethal toxin 都是 A-B toxin。B. anthracis 是 G(+)、莢膜是 poly-D-glutamic acid 胜肽，最常見的是皮膚型（吸入型最嚴重，但不是最常見）。所以 B 錯在「多醣」莢膜。"),
     32: ("bacillus", "D", "Elek test 是用抗毒素測菌株是否產毒；測中和抗體的是 Schick test（已不用）。"),
     33: ("bacillus", "C", "嘔吐型毒素耐熱、與米飯有關，潛伏期約 1–6 小時（平均約 2 小時），不是 9 小時。腹瀉型潛伏期 > 6 小時、病程約 20–36 小時。"),
     34: ("bacillus", "C", "Edema factor 是 adenylate cyclase；cholera toxin 使 Gs 持續活化，兩者都使 cAMP 上升。"),
@@ -53,6 +55,7 @@ KEY = {
     50: ("immuno-basic", "D", "樹突細胞同時參與先天免疫並活化後天免疫。"),
     51: ("tcell-dev", "A", "TCR 多樣性來自多個 V 片段、V(D)J 重組（RAG1／2）、TdT 加 N 核苷酸。AIRE 與 negative selection 有關；class switch 只發生在 B 細胞。"),
     52: ("tcell-act", "A", "Tfh 分泌 IL-21（並表現 CD40L）幫助生發中心 B 細胞。"),
+    53: ("agab", "A", "（答案依百十三期中考古詳解）AID 是活化 B 細胞在生發中心進行體細胞超突變（SHM）與類別轉換（CSR）不可或缺的酵素。(B) 和 IgE 有關（CSR）描述沒錯但過於片面，A 較精準。(C) SHM 是 AID 把 C 脫胺成 U，再經易錯修復引入點突變，「斷成單股接到另一個斷裂處」混淆了 CSR 切接 switch 區的機制。(D) RSS 由 RAG1／RAG2 辨識，是骨髓中 V(D)J 重組，與 AID 無關。"),
     54: ("mhc", "A", "MHC I 呈現胜肽給 CD8⁺ Tc，誘發胞殺。MHC I 的胜肽溝兩端封閉，胜肽（8–10 aa）比 MHC II 的短；β2-microglobulin 本身就是整條輕鏈；溝裡放的是胜肽（不是完整蛋白），位於 α1、α2 之間。（依百十三期中考古詳解：依題目原文選 A；若 D 改成「胜肽」則 A、D 皆對）"),
     57: ("mhc", "C", "MHC II 表現在專業 APC 與胸腺上皮細胞，不表現在嗜中性球；co-receptor 是 CD4。"),
     58: ("agab", "A", "體細胞超突變只發生在可變區，不發生在固定區。"),
@@ -131,8 +134,10 @@ for c in rows():
                 opts.append({"k": "ABCDE"[len(opts)], "t": t})
     ch, ans, exp = KEY[n]
     stem = c["C"].replace("\n", "")
+    for o in opts:
+        o["t"] = o["t"].lstrip(") ").replace("Gran negative", "Gram negative").replace("Emeda toxin", "Edema toxin")
     Q.append({"id": f"k114-{n:02d}", "source": SRC, "num": n, "chapter": ch, "type": "mcq", "stem": stem,
-              "options": opts, "answer": [ans], "explain": NOKEY + exp, "topics": [TOPIC[ch]],
+              "options": opts, "answer": ans if isinstance(ans, list) else [ans], "explain": NOKEY + exp, "topics": [TOPIC[ch]],
               "pattern": "選錯誤／否定題" if re.search(r"錯誤|不包含|不是|不會|不包括|incorrect", stem) else "選正確／單一概念題"})
 
 with open(OUT, "w", encoding="utf-8") as f:
