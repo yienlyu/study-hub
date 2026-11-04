@@ -102,8 +102,16 @@
           "'": "&#39;",
         })[c],
     );
+  const escHtml = esc;
   // 題幹／參考答案／詳解用：照常跳脫，但連續以 | 開頭的行當成 Markdown 表格（第二行是 |---| 就當表頭）
+  // 行內 Markdown：**粗體**、*斜體*、_斜體_（先跳脫再轉換，安全）
+  const inlineMd = (h) =>
+    h
+      .replace(/\*\*(?!\s)([^*\n]+?)(?<!\s)\*\*/g, "<strong>$1</strong>")
+      .replace(/(^|[^*\w])\*(?![\s*])([^*\n]+?)(?<!\s)\*(?![*\w])/g, "$1<em>$2</em>")
+      .replace(/(^|[^\w])_(?![\s_])([^_\n]+?)(?<!\s)_(?!\w)/g, "$1<em>$2</em>");
   const rich = (s) => {
+    const esc = (t) => inlineMd(escHtml(t));
     const isRow = (l) => l.trim().startsWith("|");
     const isSep = (l) => /^\|?[\s:|-]+\|?$/.test(l.trim()) && l.includes("-");
     const cells = (l) =>
