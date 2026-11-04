@@ -261,12 +261,36 @@
     const t = live.filter((c) => c.slides);
     return (t.length ? t : live).map((c) => c.id).join(",");
   }
+  // 「期中／期末全部範圍」：依 subject.json 的 mock 清單（id 為 final 或標題含「期末」算期末，其餘算期中）。
+  // 還沒有期末模擬考時，期末＝不在期中範圍的其他章節。
+  function examScopes(subj) {
+    const all = subj.meta.chapters.map((c) => c.id);
+    const mid = new Set(),
+      fin = new Set();
+    for (const x of subj.meta.mocks || []) {
+      const isFin = x.id === "final" || /期末/.test(x.title || "");
+      for (const sec of x.sections || [])
+        for (const f of sec.from || []) {
+          const id = f.split(":")[0];
+          if (subj.chMap[id]) (isFin ? fin : mid).add(id);
+        }
+    }
+    if (!fin.size && mid.size)
+      all.forEach((id) => !mid.has(id) && fin.add(id));
+    const ord = (set) => all.filter((id) => set.has(id));
+    return [
+      { label: "期中全部範圍", chapters: ord(mid) },
+      { label: "期末全部範圍", chapters: ord(fin) },
+    ].filter((x) => x.chapters.length);
+  }
   async function loadSubject(sid) {
     if (DB.subjects[sid]) return DB.subjects[sid];
     const idx = await loadIndex();
     const ent = idx.find((x) => x.id === sid);
     if (!ent) throw new Error(`找不到科目「${sid}」`);
     const meta = await fetchJSON(`${ent.path}/subject.json`);
+    // 原始模擬考清單留一份，算「期中／期末全部範圍」用
+    meta.mocks = [].concat(meta.mock || []);
     // "mock" 可以是一份或陣列（期中、期末⋯）：每份的 until（考試結束時間，或只寫日期＝當天結束）過了就自動換下一份
     if (meta.mock)
       meta.mock =
@@ -4300,6 +4324,7 @@
     const groups = m.groups || [
       { title: "章節", chapters: m.chapters.map((c) => c.id) },
     ];
+    const scopes = examScopes(subj);
     const box = `<span class="box">${ic("check")}</span>`;
     const L = (o) => `#/s/${sid}/practice?${qs(o)}`;
     const preset = (href, icon, title, sub) =>
@@ -4330,6 +4355,7 @@
           <div>
             <fieldset class="fieldset">
               <legend>章節範圍 <span class="muted">不選 = 全部章節</span></legend>
+              ${scopes.length ? `<div class="seg scope-seg" role="radiogroup" aria-label="快速選範圍"><button type="button" role="radio" data-scope="" aria-checked="false">全部章節</button>${scopes.map((x) => `<button type="button" role="radio" data-scope="${x.chapters.join(",")}" aria-checked="false">${x.label}</button>`).join("")}</div>` : ""}
               ${groups
                 .map(
                   (
@@ -4404,6 +4430,11 @@
         };
         const update = () => {
           const o = read();
+          const key = (s) => s.split(",").filter(Boolean).sort().join(",");
+          const cur = key(o.ch);
+          $$("[data-scope]", form).forEach((x) =>
+            x.setAttribute("aria-checked", key(x.dataset.scope) === cur),
+          );
           const full = buildPool(subj, { ...o, n: 0, mode: "order" });
           const n = parseInt(o.n, 10);
           const shown = n > 0 ? Math.min(n, full.length) : full.length;
@@ -4427,6 +4458,15 @@
         );
         form.addEventListener("change", update);
         $("#kw").addEventListener("input", update);
+        $$("[data-scope]", form).forEach((b) =>
+          b.addEventListener("click", () => {
+            const want = new Set(b.dataset.scope.split(",").filter(Boolean));
+            $$("input[name=ch]", form).forEach((x) => {
+              x.checked = want.has(x.value);
+            });
+            update();
+          }),
+        );
         $$("[data-grp]", form).forEach((b) =>
           b.addEventListener("click", () => {
             const boxes = b.dataset.grp

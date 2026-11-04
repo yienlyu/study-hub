@@ -564,6 +564,7 @@ details.data-table td.n { text-align: right; font-variant-numeric: tabular-nums;
 .chip:has(input:checked) .box { background: var(--violet); border-color: var(--violet); }
 .chip:has(input:checked) .box svg { opacity: 1; }
 .chip:has(input:focus-visible) { outline: 2px solid var(--violet); outline-offset: 2px; }
+.scope-seg { flex-wrap: wrap; max-width: 100%; margin-bottom: 2px; }
 .group-title { display: flex; gap: 10px; align-items: center; margin: 14px 0 8px; font-size: .8rem; color: var(--ink-3); }
 .group-title:first-of-type { margin-top: 0; }
 .link-btn { border: 0; background: none; padding: 0; color: var(--violet); cursor: pointer; font-size: .8rem; }
