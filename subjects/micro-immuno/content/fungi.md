@@ -135,7 +135,7 @@
   - 培養：25 °C **rosette（雛菊、梅花狀）conidia**、37 °C **cigar-shaped yeast**。
   - 診斷：看菌落或**血清外抗原試驗（exoantigen test）**。
   - 治療：**potassium iodide（KI）**或 itraconazole；**很少致死**。
-- **暗色黴菌三病（三個一起記；記病名就好，菌名「考了太狠」）**：菌絲和孢子都是**暗色**（統稱暗色黴菌症）。
+- **暗色黴菌三病（三個一起記；記病名就好）**：菌絲和孢子都是**暗色**（統稱暗色黴菌症）。
   - **著色芽生菌病（chromoblastomycosis）**：_Fonsecaea pedrosoi_ 等；**赤腳農夫**在田裡被割傷 → 經過**好幾年**才從癢的小病灶變成 papule／ulcer，再變成**疣狀 nodule、granuloma**。
   - **暗色絲孢黴病（phaeohyphomycosis）**：棕色菌絲（_Alternaria_、_Exophiala_）；高度免疫低下者，皮膚 → 囊腫 → 骨、腦、肺。
   - **足菌腫（fungal mycetoma，Madura foot）**：真菌（_Pseudallescheria_、_Madurella_）；**細菌性的是 actinomycetes（放線菌）**；黑色顆粒，侵犯肌肉、骨骼。
