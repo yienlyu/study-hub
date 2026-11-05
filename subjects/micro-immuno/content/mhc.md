@@ -1,6 +1,6 @@
 === summary ===
 
-# MHC（major histocompatibility complex，主要組織相容性複合體）、抗原處理與呈現（依百十四內容整理、對照百十三共筆，陳玫潔）
+# MHC（major histocompatibility complex，主要組織相容性複合體）、抗原處理與呈現（依百十四共筆整理、對照百十三共筆，陳玫潔）
 
 ## 1. T 細胞辨識什麼？
 

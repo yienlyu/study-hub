@@ -1,6 +1,6 @@
 === summary ===
 
-# Neisseria、Helicobacter、Campylobacter、Pseudomonas、Vibrio（依百十四內容整理、對照百十三共筆）
+# Neisseria、Helicobacter、Campylobacter、Pseudomonas、Vibrio（依百十四共筆整理、對照百十三共筆）
 
 ## 1. _Neisseria_（奈瑟菌屬）（G(−) 雙球菌、腎形 / 咖啡豆形）
 

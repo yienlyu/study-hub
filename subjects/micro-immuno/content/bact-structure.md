@@ -1,5 +1,5 @@
 === summary ===
-# 細菌簡介、分類、構造與代謝（依百十四內容整理、對照百十三共筆，黃姿雯）
+# 細菌簡介、分類、構造與代謝（依百十四共筆整理、對照百十三共筆，黃姿雯）
 
 ## 1. 傳染病、宿主防禦與微生物學史
 - 傳染病是**宿主與病原交互作用**的結果（例：GAS（group A Streptococcus，A 群鏈球菌） 以 DNase 破壞 neutrophil 的 NETs（neutrophil extracellular traps，嗜中性球胞外陷阱））。

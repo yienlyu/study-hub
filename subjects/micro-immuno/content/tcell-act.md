@@ -1,6 +1,6 @@
 === summary ===
 
-# T 細胞媒介免疫與免疫細胞合作（依百十四內容整理、對照百十三共筆，陳玫潔）
+# T 細胞媒介免疫與免疫細胞合作（依百十四共筆整理、對照百十三共筆，陳玫潔）
 
 > 這堂課分兩大段：**① 活化後 T 細胞的反應**（CD8 CTL（cytotoxic T lymphocyte，毒殺性 T 細胞）、CD4 TH 各亞群的功能）**② 免疫反應中的細胞合作**（TI / TD 抗原、T–B 交互作用、affinity maturation、isotype switch）。T 細胞活化的 Signal ①、② 與免疫突觸見上一章。
 
