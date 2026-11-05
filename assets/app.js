@@ -108,7 +108,10 @@
   const inlineMd = (h) =>
     h
       .replace(/\*\*(?!\s)([^*\n]+?)(?<!\s)\*\*/g, "<strong>$1</strong>")
-      .replace(/(^|[^*\w])\*(?![\s*])([^*\n]+?)(?<!\s)\*(?![*\w])/g, "$1<em>$2</em>")
+      .replace(
+        /(^|[^*\w])\*(?![\s*])([^*\n]+?)(?<!\s)\*(?![*\w])/g,
+        "$1<em>$2</em>",
+      )
       .replace(/(^|[^\w])_(?![\s_])([^_\n]+?)(?<!\s)_(?!\w)/g, "$1<em>$2</em>");
   const rich = (s) => {
     const esc = (t) => inlineMd(escHtml(t));
@@ -275,8 +278,7 @@
           if (subj.chMap[id]) (isFin ? fin : mid).add(id);
         }
     }
-    if (!fin.size && mid.size)
-      all.forEach((id) => !mid.has(id) && fin.add(id));
+    if (!fin.size && mid.size) all.forEach((id) => !mid.has(id) && fin.add(id));
     const ord = (set) => all.filter((id) => set.has(id));
     return [
       { label: "期中全部範圍", chapters: ord(mid) },
@@ -7426,7 +7428,9 @@
       if (store.get(this.seenKey, null) === null) {
         let returning = false;
         try {
-          returning = Object.keys(localStorage).some((k) => k.startsWith("sh:") && k !== "sh:theme");
+          returning = Object.keys(localStorage).some(
+            (k) => k.startsWith("sh:") && k !== "sh:theme",
+          );
         } catch {
           /* */
         }
@@ -7434,12 +7438,18 @@
       }
       this.showWhatsNew();
       // 分頁在前景時每 5 分鐘查一次；切回分頁時也查。兩次檢查至少隔 5 分鐘。
-      setInterval(() => document.visibilityState === "visible" && this.check(), this.every);
+      setInterval(
+        () => document.visibilityState === "visible" && this.check(),
+        this.every,
+      );
       document.addEventListener("visibilitychange", () => {
         if (document.visibilityState === "visible") this.check();
       });
       addEventListener("hashchange", () =>
-        setTimeout(() => (this.pending ? this.showUpdate() : this.showWhatsNew()), 400),
+        setTimeout(
+          () => (this.pending ? this.showUpdate() : this.showWhatsNew()),
+          400,
+        ),
       );
     },
     unseen() {
@@ -7470,12 +7480,15 @@
       if (!this.pending || this.busy() || $("#newsPop")) return;
       const n = this.pending[0];
       if (sessionStorage.getItem("sh:updDismiss") === n.id) return;
-      const behind = Math.max(1, this.pending.findIndex((x) => x.id === this.boot));
+      const behind = Math.max(
+        1,
+        this.pending.findIndex((x) => x.id === this.boot),
+      );
       const el = this.mount(
         "news-pop",
         `<button class="news-x" type="button" aria-label="關閉">${ic("x")}</button>
         <div class="eyebrow">有新版本${behind > 1 ? ` · 共 ${behind} 則更新` : ""}</div><b>${esc(n.title)}</b>
-        <p>重新整理就會看到，作答紀錄都會保留。</p>
+        <p>重新整理看看有什麼更新吧！</p>
         <div class="news-act"><button class="btn primary sm" type="button" data-act="reload">${ic("rotate")}重新整理</button></div>`,
       );
       el.addEventListener("click", (e) => {
