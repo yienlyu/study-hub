@@ -1,6 +1,6 @@
 === summary ===
 
-# 絛蟲總論與假葉目（Cestodes：Outline & Pseudophyllidea）重點整理（依今年 slides 與百十三共筆整理）
+# 絛蟲總論與假葉目（Cestodes：Outline & Pseudophyllidea）內容整理（依今年 slides 與百十三共筆整理）
 
 > 📌 **期末範圍。**今年 11/2 已上課（范家堃，slides：20261102 Cestodes-Outline & Pseudophyllidea），先以今年 slides 與百十三共筆 w9 彙編，錄影與百十四共筆出來後再更新。
 
@@ -159,7 +159,7 @@
 
 === slides ===
 
-# 上課 slides 重點（1102 Cestodes Outline & Pseudophyllidea）
+# 上課重點（1102 Cestodes Outline & Pseudophyllidea）
 
 | 主題 | 重點 |
 |---|---|

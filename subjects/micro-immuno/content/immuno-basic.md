@@ -1,5 +1,5 @@
 === summary ===
-# 免疫學基本概念（依百十四共筆整理、對照百十三共筆，陳玫潔）
+# 免疫學基本概念（依百十四內容整理、對照百十三共筆，陳玫潔）
 
 ## 1. 免疫的本質
 - Immunity 源自拉丁文 *immunitas*（羅馬元老豁免權）→ 免於傳染病。
@@ -115,6 +115,29 @@
 - **ICI vs CAR-T**：ICI 是**放開病人原有 T 細胞的煞車**（抗體藥）；CAR-T 是**把 T 細胞拿出來改裝**（細胞治療）。**CTLA-4 是 ICI 的標靶，不是 CAR 的零件**（111 期中考古）。
 - 機轉細節（CD28／B7、CTLA-4 的 20 倍親和力）見「T 細胞發育與 TCR 訊號」章的 signal ② 段落。
 
+=== slides ===
+# W2-1 上課 slides 重點：Basic Concepts in Immunology（Janeway Ch.1，陳玫潔）
+
+## 📑 slides 重點
+
+**本堂三大主題**：① 免疫反應基本特性（innate / adaptive）② 免疫細胞（innate / specific）③ 淋巴器官（primary / secondary）
+
+- What is immunity：immunitas；self vs nonself（Huston, JAMA）。
+- Fig 1-1：commensal vs pathogen；**intracellular → cell-mediated、extracellular → humoral**。
+- **Nude mouse**：spontaneous mutation、thymic dysgenesis、lack of fur。
+- Optimal immune responses：quick & non-specific + Ag specific（~30 種反應可選）。
+- Fig 1-2 屏障；Innate 優缺點（rapid / intense vs no adaptability / no memory）；四類屏障。
+- Features of adaptive response（6 項）；humoral vs cell-mediated。
+- Hematopoiesis（HSC 特性、progenitors、hematopoietic inducing microenvironment、Kuby fig 2-2）。
+- Fig 1-4 myeloid lineage；Phagocytes；**Macrophage 特點**（first discovered、BM derived、circulate 2 days、peroxidase / acid hydrolases、IL-1/TNF-α）。
+- PAMPs → PRRs（Fig 1-3、1-6）；APC、Fig 1-15。
+- Lymphoid lineage：**NK（CD16、ADCC）、Chediak-Higashi syndrome**；Fig 1-7 ILC。
+- CD Ag system（CD371，2014）；**Key CD Ags to remember**。
+- T cell subsets（γδ 5% mucosal）、B cell（BCR、Igα/Igβ、MHC II、CD40）。
+- Fig 1-10：B epitope vs T epitope。
+- Lymphoid tissues：primary（fetal liver、BM、thymus）、**2019 Lasker（Cooper、Miller）**；secondary（characteristics、lymph node、**SPFs 2018**、spleen、MALT Fig 1-17）；Fig 1-18。
+- 應用：2018 Nobel、Herceptin、mRNA vaccine、COVID dashboard、**CAR-T（Kymriah、Yescarta）**。
+
 ## 🎙️ 上課錄影重點（陳玫潔，09/16）
 - 教科書 = **Janeway**（研究所程度，建議讀原文）。新版最重要的觀念：**sensor cell** —— 非專一性細胞初次接觸病原時的分子變化，會**形塑之後的專一性免疫**（APC 分泌的 cytokine 決定 T 細胞分化方向）→ 從先天到後天「從一而終」、是一個 **module** 的概念。
 - 免疫 = 國防：要能清除 nonself，又不能自毀。課程脈絡：機制 → **tolerance**（break down → autoimmunity）、immunodeficiency（敞開大門）、hypersensitivity（四季花粉一直反應）。
@@ -143,27 +166,6 @@
 - Peyer's patch 的 **M cell** 像森林陷阱，病原掉下去碰到下方 T、B。
 - 初次反應 lag phase 很久（要 processing、presentation、移動）；二次反應**沒有 lag phase**、直接進 log phase；先 IgM 救急，後期 **class switch → IgG**（半衰期最長），受 T 細胞控制。
 - CAR-T：病人 T 細胞拿出來、用**病毒**感染改造出人工受體（像傭兵）→ **跳脫 MHC restriction**；第一位 6 歲病童治療時大量發燒（cytokine storm）用 **IL-6 抗體**救回。James Allison 研究 CTLA-4 與母親罹癌有關；Rosenberg 做 **TIL**（腫瘤浸潤 T 細胞）。
-
-=== slides ===
-# W2-1 上課 slides 重點：Basic Concepts in Immunology（Janeway Ch.1，陳玫潔）
-
-**本堂三大主題**：① 免疫反應基本特性（innate / adaptive）② 免疫細胞（innate / specific）③ 淋巴器官（primary / secondary）
-
-- What is immunity：immunitas；self vs nonself（Huston, JAMA）。
-- Fig 1-1：commensal vs pathogen；**intracellular → cell-mediated、extracellular → humoral**。
-- **Nude mouse**：spontaneous mutation、thymic dysgenesis、lack of fur。
-- Optimal immune responses：quick & non-specific + Ag specific（~30 種反應可選）。
-- Fig 1-2 屏障；Innate 優缺點（rapid / intense vs no adaptability / no memory）；四類屏障。
-- Features of adaptive response（6 項）；humoral vs cell-mediated。
-- Hematopoiesis（HSC 特性、progenitors、hematopoietic inducing microenvironment、Kuby fig 2-2）。
-- Fig 1-4 myeloid lineage；Phagocytes；**Macrophage 特點**（first discovered、BM derived、circulate 2 days、peroxidase / acid hydrolases、IL-1/TNF-α）。
-- PAMPs → PRRs（Fig 1-3、1-6）；APC、Fig 1-15。
-- Lymphoid lineage：**NK（CD16、ADCC）、Chediak-Higashi syndrome**；Fig 1-7 ILC。
-- CD Ag system（CD371，2014）；**Key CD Ags to remember**。
-- T cell subsets（γδ 5% mucosal）、B cell（BCR、Igα/Igβ、MHC II、CD40）。
-- Fig 1-10：B epitope vs T epitope。
-- Lymphoid tissues：primary（fetal liver、BM、thymus）、**2019 Lasker（Cooper、Miller）**；secondary（characteristics、lymph node、**SPFs 2018**、spleen、MALT Fig 1-17）；Fig 1-18。
-- 應用：2018 Nobel、Herceptin、mRNA vaccine、COVID dashboard、**CAR-T（Kymriah、Yescarta）**。
 
 === exam ===
 # 考點分析

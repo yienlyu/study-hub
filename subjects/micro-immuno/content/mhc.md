@@ -1,6 +1,6 @@
 === summary ===
 
-# MHC（major histocompatibility complex，主要組織相容性複合體）、抗原處理與呈現（依百十四共筆整理、對照百十三共筆，陳玫潔）
+# MHC（major histocompatibility complex，主要組織相容性複合體）、抗原處理與呈現（依百十四內容整理、對照百十三共筆，陳玫潔）
 
 ## 1. T 細胞辨識什麼？
 
@@ -100,6 +100,32 @@
 - Signal 3：cytokines（IL-1、IL-6、IL-12）。
 - ⚠️ 百十四共筆把 LFA-3 寫成 CD48，正確是 **CD58**（slides 與上一章同）。
 
+=== slides ===
+
+# W4-1 上課 slides 重點：MHC and its function ＋ Antigen presentation（陳玫潔）
+
+## 📑 slides 重點
+
+**Part 1 – MHC**（關鍵四主題：genes、generation & structure、peptides bound、MHC restriction）
+
+- 1996 Nobel：Doherty & Zinkernagel、**dual recognition model**（LCMV 實驗）。
+- What do T lymphocytes recognize?（peptides / APCs / self MHC / Ag-specific TCR）。
+- 1980 Nobel：Ir genes、HLA、H-2。
+- Primary structure（Fig 4.21b、4.22b）；Structural organization（**class I：α 45 kDa + β2m 12 kDa、8–9 residues、endogenous、CD8**；**class II：α/β、12 to >20 aa、exogenous、CD4**）。
+- Genetic organization（Fig 6.16、6.17）：class III 含 factor B、LT-α。
+- **MHC polymorphisms**：polygeny、co-dominant、allelic、haplotype（linkage）、**inherited differences**（vs TCR/BCR somatic）。
+- Fig 6.19 polymorphism & polygeny；Fig 6.20 gene conversion；Fig 6.18 inherited differences；Fig 4.34 tissue expression。
+- MHC restriction（Fig 6.23）；Ab / TCR 變異區為 somatic（not inherited）vs MHC 胜肽槽 inherited。
+
+**Part 2 – Antigen presentation**（三主題）
+
+1. Cytosol peptides → **TAP** → ER → MHC I（ubiquitin–proteasome；TAP-1/TAP-2；Fig 6.5、6.7、6.8）
+2. Peptide:MHC II 在 **acidified endocytic vesicles** 產生（endocytosis、phagocytosis、autophagy；Fig 6.10）；**invariant chain、HLA-DM、HLA-DO、CLIP、MIIC**（Fig 6.11–6.13）
+3. Peptide in groove：class I shorter / ends buried / H-bonds at ends；class II longer / extend / H-bonds throughout（Fig 4.21–4.23）
+
+- Fig 6.1–6.4：兩大胞內區室、endogenous vs exogenous、**cross-presentation by DC**、**autophagy → MHC II**。
+- Immunological synapse：adhesion molecules + TCRs。
+
 ## 🎙️ 上課錄影重點（陳玫潔，非同步遠距 W17；錄影無官方逐字稿，以 Whisper 轉錄整理）
 
 - 本課 = 「**大亨堡怎麼做**」：Part 1 麵包（MHC）怎麼做、Part 2 熱狗（peptide）怎麼切、怎麼放上去。**專一性在 TCR**，MHC 與 peptide 的結合**不太需要專一性**（麵包不用切成熱狗形狀），但若 peptide 放不穩 → 無法被 TCR 辨識 → 喪失細胞免疫（cell-mediated immunity） → 「B 細胞免疫再好也無用」（T 細胞要幫 B）。
@@ -124,30 +150,6 @@
 - **Cross-presentation（cross-priming）只有 DC 能做**：外來抗原也能放上 MHC I → **同時活化 CD4 與 CD8**；機制至今沒有定論（從囊泡吐到 cytosol？或空的 MHC I 送進囊泡？）。**Autophagy** 是例外：自己的蛋白包進 autophagosome → 走 **MHC II**。
 - **Peptide 結合**：只有 T epitope 能寫胺基酸序列（「若有人說抗體認某段連續序列，要露出非常吃驚的表情」）。MHC I 的氫鍵在**兩端**、anchor residue 在兩端（常疏水）；MHC II 兩端開放、氫鍵**分布在中間整段**；**全部是非共價鍵**（所以有 Kd，會結合又解離）；只有少數 anchor 位置重要，其他都可以差很多。
 - 預告下堂：TCR = **白雪公主**（負責專一辨識）、**CD3 = 六個小矮人**（負責傳訊息；TCR 與 CD3 以**正負電、非共價**結合；CD4 與 CD8 T 細胞的 CD3 一樣）；**免疫突觸**：先靠周邊黏附因子穩住兩個細胞，TCR 在正中間；**訊號 1 = TCR、訊號 2 = CD28–B7.1/B7.2（與 checkpoint blockade 有關）、訊號 3 = cytokine**。
-
-=== slides ===
-
-# W4-1 上課 slides 重點：MHC and its function ＋ Antigen presentation（陳玫潔）
-
-**Part 1 – MHC**（關鍵四主題：genes、generation & structure、peptides bound、MHC restriction）
-
-- 1996 Nobel：Doherty & Zinkernagel、**dual recognition model**（LCMV 實驗）。
-- What do T lymphocytes recognize?（peptides / APCs / self MHC / Ag-specific TCR）。
-- 1980 Nobel：Ir genes、HLA、H-2。
-- Primary structure（Fig 4.21b、4.22b）；Structural organization（**class I：α 45 kDa + β2m 12 kDa、8–9 residues、endogenous、CD8**；**class II：α/β、12 to >20 aa、exogenous、CD4**）。
-- Genetic organization（Fig 6.16、6.17）：class III 含 factor B、LT-α。
-- **MHC polymorphisms**：polygeny、co-dominant、allelic、haplotype（linkage）、**inherited differences**（vs TCR/BCR somatic）。
-- Fig 6.19 polymorphism & polygeny；Fig 6.20 gene conversion；Fig 6.18 inherited differences；Fig 4.34 tissue expression。
-- MHC restriction（Fig 6.23）；Ab / TCR 變異區為 somatic（not inherited）vs MHC 胜肽槽 inherited。
-
-**Part 2 – Antigen presentation**（三主題）
-
-1. Cytosol peptides → **TAP** → ER → MHC I（ubiquitin–proteasome；TAP-1/TAP-2；Fig 6.5、6.7、6.8）
-2. Peptide:MHC II 在 **acidified endocytic vesicles** 產生（endocytosis、phagocytosis、autophagy；Fig 6.10）；**invariant chain、HLA-DM、HLA-DO、CLIP、MIIC**（Fig 6.11–6.13）
-3. Peptide in groove：class I shorter / ends buried / H-bonds at ends；class II longer / extend / H-bonds throughout（Fig 4.21–4.23）
-
-- Fig 6.1–6.4：兩大胞內區室、endogenous vs exogenous、**cross-presentation by DC**、**autophagy → MHC II**。
-- Immunological synapse：adhesion molecules + TCRs。
 
 === exam ===
 

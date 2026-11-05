@@ -280,10 +280,25 @@
     }
     if (!fin.size && mid.size) all.forEach((id) => !mid.has(id) && fin.add(id));
     const ord = (set) => all.filter((id) => set.has(id));
-    return [
-      { label: "期中全部範圍", chapters: ord(mid) },
-      { label: "期末全部範圍", chapters: ord(fin) },
-    ].filter((x) => x.chapters.length);
+    // 期末再依 group 標題「期末・<類別>｜…」拆開（例：寄生蟲 紙筆／跑台、混合蟲卵），類別依 groups 順序
+    const finCats = new Map();
+    for (const g of subj.meta.groups || []) {
+      const cat = /^期末・(.+?)｜/.exec(g.title || "")?.[1];
+      if (!cat) continue;
+      if (!finCats.has(cat)) finCats.set(cat, new Set());
+      g.chapters.forEach((id) => fin.has(id) && finCats.get(cat).add(id));
+    }
+    const finScopes =
+      finCats.size > 1
+        ? [...finCats].map(([cat, set]) => ({ label: `期末${cat.replace(/、/g, "／")}`, chapters: ord(set) }))
+        : [{ label: "期末全部範圍", chapters: ord(fin) }];
+    if (finCats.size > 1) {
+      // 沒標類別的期末章節併進第一個類別
+      const tagged = new Set([...finCats.values()].flatMap((s) => [...s]));
+      const rest = ord(fin).filter((id) => !tagged.has(id));
+      if (rest.length) finScopes[0].chapters = all.filter((id) => rest.includes(id) || finScopes[0].chapters.includes(id));
+    }
+    return [{ label: "期中全部範圍", chapters: ord(mid) }, ...finScopes].filter((x) => x.chapters.length);
   }
   async function loadSubject(sid) {
     if (DB.subjects[sid]) return DB.subjects[sid];
@@ -1886,32 +1901,69 @@
       },
       { done: 0, right: 0, wrong: 0 },
     );
-    // 下一場考試：目前模擬考的 until（期中考完會自動換成期末），沒有就用 examDate
-    const daysLeft = (s) => {
-      const u = s.meta.mock?.until || s.meta.examDate;
+    // 首頁卡片：一般一科一張；subject.json 有 "cards" 時拆成多張（例：寄生蟲 紙筆／跑台、混合蟲卵 不同天考）。
+    // card.cat 對應 groups 標題「期末・<cat>｜…」，卡片的題數與答對率只算那些章節。
+    const entries = subs.flatMap((s) =>
+      (s.meta.cards || []).length
+        ? s.meta.cards.map((cd) => ({
+            s,
+            ...cd,
+            chapters: (s.meta.groups || [])
+              .filter((g) => (g.title || "").startsWith(`期末・${cd.cat}`))
+              .flatMap((g) => g.chapters),
+          }))
+        : [{ s, title: s.meta.title, term: s.meta.term, description: s.meta.description }],
+    );
+    const statsOf = (e) => {
+      if (!e.chapters) return subjectStats(e.s);
+      const a = e.chapters.reduce(
+        (a, id) => {
+          const c = chapterStats(e.s, id);
+          a.total += c.total;
+          a.done += c.done;
+          a.right += c.right;
+          a.wrong += c.wrong;
+          return a;
+        },
+        { total: 0, done: 0, right: 0, wrong: 0 },
+      );
+      return { ...a, acc: pct(a.right, a.done) };
+    };
+    // 下一場考試：卡片自己的 examDate；否則目前模擬考的 until（期中考完會自動換成期末），沒有就用 examDate
+    const daysLeft = (e) => {
+      const u = e.examDate || e.s.meta.mock?.until || e.s.meta.examDate;
       if (!u) return Infinity;
       const t = new Date(/T/.test(u) ? u : `${u}T23:59:59+08:00`);
       return (t - new Date()) / 864e5;
     };
+    // 考試時間小標：卡片的 when ＞ 目前模擬考的 when（如「12/17（四）16:10–17:20」）＞ 只用日期組「mm/dd（週）」
+    const whenOf = (e) => {
+      if (e.when) return e.when;
+      if (!e.examDate && e.s.meta.mock?.when) return e.s.meta.mock.when;
+      const u = e.examDate || e.s.meta.mock?.until || e.s.meta.examDate;
+      if (!u) return "";
+      const t = new Date(/T/.test(u) ? u : `${u.slice(0, 10)}T12:00:00+08:00`);
+      return `${t.getMonth() + 1}/${t.getDate()}（${"日一二三四五六"[t.getDay()]}）`;
+    };
     // 綜合排序：越快考、掌握度越低越前面。掌握度＝答對題數 ÷ 全部題數；
     // 加 0.1 讓掌握度很高但快考的科目不會被排到最後
-    const urgency = (s) => {
-      const st = subjectStats(s);
+    const urgency = (e) => {
+      const st = statsOf(e);
       return (
-        (1.1 - st.right / Math.max(1, st.total)) / Math.max(1, daysLeft(s))
+        (1.1 - st.right / Math.max(1, st.total)) / Math.max(1, daysLeft(e))
       );
     };
-    const cards = [...subs]
+    const cards = entries
       .sort((a, b) => urgency(b) - urgency(a))
-      .map((s) => {
-        const st = subjectStats(s);
-        const d = daysLeft(s);
+      .map((e) => {
+        const st = statsOf(e);
+        const d = daysLeft(e);
         const n = Math.ceil(d);
-        return `<a class="card subject-card" href="#/s/${s.meta.id}">
+        return `<a class="card subject-card" href="#/s/${e.s.meta.id}">
         <div>
-          <div class="eyebrow">${esc(s.meta.term || "Subject")}${d >= 0 && d !== Infinity ? ` · <b>距離考試 ${n} 天</b>` : ""}</div>
-          <h3 class="display" style="margin-top:10px">${esc(s.meta.title)}</h3>
-          <p class="muted small" style="margin:10px 0 0;max-width:40em">${esc(s.meta.description || "")}</p>
+          <div class="eyebrow">${esc(e.term || "Subject")}${d >= 0 && d !== Infinity ? ` · <b>距離考試 ${n} 天</b>${whenOf(e) ? ` [${esc(whenOf(e))}]` : ""}` : ""}</div>
+          <h3 class="display" style="margin-top:10px">${esc(e.title)}</h3>
+          <p class="muted small" style="margin:10px 0 0;max-width:40em">${esc(e.description || "")}</p>
         </div>
         <span class="arrow" aria-hidden="true">${ic("arrowR")}</span>
         <div class="facts">
@@ -1928,7 +1980,7 @@
         <div>
           <div class="eyebrow"><b>Study Hub</b> · 考前複習工作台</div>
           <h1 class="display h-xl">讀成<em>直覺</em></h1>
-          <p class="lede">重點整理、上課 slides、考點分析和互動練習放在同一個地方。每答一題，右邊的培養皿就長出一顆菌落：紫色是答對，粉紅是還要再看的題目。</p>
+          <p class="lede">內容整理、上課重點、考點分析和互動練習放在同一個地方。每答一題，右邊的培養皿就長出一顆菌落：紫色是答對，粉紅是還要再看的題目。</p>
           <div class="hero-actions">
             ${
               last
@@ -1952,8 +2004,8 @@
       <section class="wrap section">
         <div class="section-head"><div><div class="eyebrow">02 — 使用方式</div><h2 class="display h-m" style="margin-top:8px">從讀懂到答對</h2></div></div>
         <div class="steps">
-          <div class="step"><div class="mono">01</div><h3>重點整理</h3><p>整合上課 slides 與共筆，表格化比較、標出陷阱。</p></div>
-          <div class="step"><div class="mono">02</div><h3>上課 slides</h3><p>逐份 slides 的頁面重點，和老師的課堂題。</p></div>
+          <div class="step"><div class="mono">01</div><h3>內容整理</h3><p>整合百十四共筆與上課 slides，表格化比較、標出陷阱。</p></div>
+          <div class="step"><div class="mono">02</div><h3>上課重點</h3><p>slides 重點，加上錄影逐字稿裡老師口頭提點的考點。</p></div>
           <div class="step"><div class="mono">03</div><h3>考點分析</h3><p>哪些考點最常考、用什麼方式考，一眼看出優先順序。</p></div>
           <div class="step"><div class="mono">04</div><h3>練習</h3><p>考古題、課堂題、模擬新題，即時詳解與錯題本。</p></div>
         </div>
@@ -2083,7 +2135,7 @@
             <span class="eyebrow">${ic("book")}${lastC ? "繼續閱讀" : "從這裡開始"}</span>
             <h3>第 ${cont.idx} 章　${esc(cont.title)}</h3>
             <p>${esc(cont.en || "")}</p>
-            <span class="go">打開重點整理 ${ic("arrowR")}</span></a>
+            <span class="go">打開內容整理 ${ic("arrowR")}</span></a>
           ${
             st.wrong
               ? `<a class="card next-card" href="#/s/${sid}/practice?${qs({ filter: "wrong", start: 1, n: 0, mode: "random" })}">
@@ -2143,8 +2195,8 @@
 
   // ------------------------------------------------------------ pages: chapter
   const TABS = [
-    ["summary", "重點整理", "file"],
-    ["slides", "上課 slides", "slides"],
+    ["summary", "內容整理", "file"],
+    ["slides", "上課重點", "slides"],
     ["sheet", "速記表", "grid"],
     ["figs", "觀念圖", "image"],
     ["exam", "考點分析", "chart"],
@@ -5568,7 +5620,7 @@
     return `<article class="card fig-card${slide ? " is-slide" : ""}" data-sid="${esc(sid)}">
               <button type="button" class="thumb" data-zoom="${esc(f.id)}" aria-label="放大「${esc(f.title)}」" style="pointer-events:auto;border:0;cursor:zoom-in;width:100%">${slide ? slideImg(subj, F) : `<div class="fig-body loading" data-src="${esc(f.id)}" style="padding:0;overflow:hidden;width:100%;height:100%"></div>`}</button>
               <div class="meta"><span class="eyebrow">${figLabel(F)}${slide ? ` · ${esc(F.deck.split(" ")[0])}` : ""}</span><b>${esc(f.title)}</b></div>
-              <div class="foot">${slide ? `<a href="#/s/${sid}/c/${f.chapter}/slides">本章 slides 重點</a>` : `<a href="#/s/${sid}/c/${f.chapter}/summary?${qs({ find: f.title })}">在章節裡看</a>`}${(
+              <div class="foot">${slide ? `<a href="#/s/${sid}/c/${f.chapter}/slides">本章上課重點</a>` : `<a href="#/s/${sid}/c/${f.chapter}/summary?${qs({ find: f.title })}">在章節裡看</a>`}${(
                 f.topics || []
               )
                 .slice(0, 1)
@@ -5622,7 +5674,7 @@
             crumb: "字根字首",
             eyebrow: `Word roots · ${cards.length} 張表`,
             h1: "專有名詞字根字首背誦表",
-            lede: "拆開字根，學名和專有名詞就能看字猜意思，不用整個字硬背。例字都取自本科的重點整理與考古。按「遮住意思」可以自我測驗，點一格看答案。",
+            lede: "拆開字根，學名和專有名詞就能看字猜意思，不用整個字硬背。例字都取自本科的內容整理與考古。按「遮住意思」可以自我測驗，點一格看答案。",
           }
         : {
             crumb: "速記表",
@@ -6863,8 +6915,8 @@
         <form class="card form" id="rf" style="margin-top:28px">
           ${qq ? `<div class="q-ref"><div class="mono">${esc(qq.source)} · ${esc(qq.id)} · 目前答案 ${esc((qq.answer || []).join("/") || "—")}</div><div style="margin-top:6px">${esc(qq.stem.slice(0, 180))}${qq.stem.length > 180 ? "…" : ""}</div></div>` : ""}
           <div class="opts-grid">
-            <label>類型<select class="input" name="type"><option>答案錯誤</option><option>詳解有誤或不清楚</option><option>題目文字錯誤 / 缺漏</option><option>重點整理內容錯誤</option><option>網站功能問題</option><option>使用回饋 / 功能建議</option><option>其他</option></select></label>
-            <label>位置<input class="input" type="text" name="where" value="${esc(q.where || (qq ? `${qq.source} ${qq.id}` : ""))}" placeholder="例如：先天免疫／重點整理"></label>
+            <label>類型<select class="input" name="type"><option>答案錯誤</option><option>詳解有誤或不清楚</option><option>題目文字錯誤 / 缺漏</option><option>內容整理／上課重點內容錯誤</option><option>網站功能問題</option><option>使用回饋 / 功能建議</option><option>其他</option></select></label>
+            <label>位置<input class="input" type="text" name="where" value="${esc(q.where || (qq ? `${qq.source} ${qq.id}` : ""))}" placeholder="例如：先天免疫／內容整理"></label>
           </div>
           <label>說明<textarea class="input" name="desc" placeholder="回報錯誤：寫下你認為正確的內容，可以再附上出處或 slides 頁碼。使用回饋：哪裡好用、哪裡卡卡的、想要什麼功能都可以許願看看！"></textarea></label>
           <div class="toolbar">
@@ -7088,7 +7140,7 @@
               g: hd ? "段落" : "重點",
               icon: hd ? "list" : "file",
               t: plain,
-              s: `Ch.${pad2(s.chMap[c.id].idx)} ${c.title}${sec && !hd ? ` › ${sec}` : ""} · ${{ summary: "重點整理", slides: "上課 slides", exam: "考點分析" }[tab]}`,
+              s: `Ch.${pad2(s.chMap[c.id].idx)} ${c.title}${sec && !hd ? ` › ${sec}` : ""} · ${{ summary: "內容整理", slides: "上課重點", exam: "考點分析" }[tab]}`,
               href: `#/s/${sid}/c/${c.id}/${tab}?${qs({ find: first.slice(0, 40) })}`,
             });
           }

@@ -1,6 +1,6 @@
 === summary ===
 
-# Neisseria、Helicobacter、Campylobacter、Pseudomonas、Vibrio（依百十四共筆整理、對照百十三共筆）
+# Neisseria、Helicobacter、Campylobacter、Pseudomonas、Vibrio（依百十四內容整理、對照百十三共筆）
 
 ## 1. _Neisseria_（奈瑟菌屬）（G(−) 雙球菌、腎形 / 咖啡豆形）
 
@@ -93,8 +93,7 @@
 
 === slides ===
 
-# 上課 slides
-
+# 上課重點
 > 老師強調：**腸桿菌科、弧菌、彎曲桿菌、幽門桿菌、綠膿桿菌要一起記、一起比較**，考試也是綜合比較。
 
 ## _Neisseria_（黃姿雯講義，Murray Ch.23）

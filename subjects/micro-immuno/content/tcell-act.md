@@ -1,6 +1,6 @@
 === summary ===
 
-# T 細胞媒介免疫與免疫細胞合作（依百十四共筆整理、對照百十三共筆，陳玫潔）
+# T 細胞媒介免疫與免疫細胞合作（依百十四內容整理、對照百十三共筆，陳玫潔）
 
 > 這堂課分兩大段：**① 活化後 T 細胞的反應**（CD8 CTL（cytotoxic T lymphocyte，毒殺性 T 細胞）、CD4 TH 各亞群的功能）**② 免疫反應中的細胞合作**（TI / TD 抗原、T–B 交互作用、affinity maturation、isotype switch）。T 細胞活化的 Signal ①、② 與免疫突觸見上一章。
 
@@ -272,42 +272,13 @@
 
 <div data-fig="isotype-modules"></div>
 
-## 🎙️ 上課錄影重點（陳玫潔，10/02）
-
-- 開場：**T 細胞不會平白釋出 cytokine 幫別人**，與其他細胞作用通常有專一性辨識。T–B interaction 發生在次級淋巴組織 **T zone 與 B zone 的交界**（像隔著鐵窗），互相交換 chemokine / chemokine receptor、兩者皆活化。
-- **TD vs TI 由抗原材質決定**：沒有蛋白質 → 沒有 peptide 可放上 MHC II → 無法活化 T → **不能 affinity maturation、不能 isotype switch**。V(D)J 重組是亂數、不受調控；**activation 後的優化受 T 細胞 cytokine 調控**。
-- **今天重點 = signal 3**（sensor cell 概念的延續）：APC 初次接觸病原 → PAMP（pathogen-associated molecular pattern）–PRR（pattern recognition receptor，模式辨識受體） → 新的轉錄轉譯 → 帶著獨特的 cytokine 到次級淋巴組織，決定 T 細胞分化方向。
-- **「這一張請大家背起來：決定命運的 cytokine」（黃色、紅色都要背）**：**IL-12 → TH1（IFN-γ）**；**IL-4 → TH2（IL-4、IL-5）**；**只有 IL-6 → TFH（IL-21，在 follicle 幫 B）**；**TGF-β + IL-2 → pTreg（TGF-β、IL-10，peripheral tolerance）**；**TGF-β + IL-6 + IL-23 → TH17（IL-17，胞外菌）**。TGF-β 是抑制型（癌細胞也會分泌）；IL-2「沒什麼了不起」——活化都需要、沒有選擇性。
-- TH 亞群**沒有 surface marker 可以區分**（曾有人想找 marker 當博士論文，畢業了但沒找到），只能靠分泌的 cytokine。
-- **分化是單行道**（「兩條路在森林裡只能挑一條」）：不能同時走兩條，但環境改變可以轉換；彼此抑制——TH2 的 IL-4 抑制走向 TH1、TH1 的 IFN-γ 抑制 TH2 增殖；Treg「所向披靡、全部抑制」；TH1、TH2 的 cytokine 都會阻止走向 TH17。
-- **腸道例子**：共生菌存在時，周邊的 **immature DC 釋放 all-trans retinoic acid（ATRA）**、只有 TGF-β → **Treg** → 不攻擊共生菌（否則就是內耗；Crohn's disease 是失衡例子；**gut–brain axis** 與 autism spectrum、阿茲海默症有關）；病原來了（「營養午餐禍從口入」）→ TLR 活化 → **mature DC 釋放 IL-6** → TGF-β + IL-6 → **TH17** → 叫大量 neutrophil 吞病原。
-- 功能速記：**TFH**（IL-21、CD40L 幫 B）；**TH17**（IL-17 → neutrophil）；**TH2**（IL-4、IL-5 → 寄生蟲、過敏（allergy））；**TH1**（看到 IFN-γ 就想 **macrophage** → 胞內菌如 mycobacteria、_Listeria_）；CD8 不再細分，跟**病毒**等胞內感染有關。
-- **TNF（tumor necrosis factor，腫瘤壞死因子） 家族多功能**：淋巴組織 **organogenesis**（LT-α knockout → 淋巴結長不出來、脾臟怪怪的）、免疫細胞交互作用的共刺激（CD40L、4-1BB）、執行細胞凋亡（**FasL**）。早期免疫學大量用 knockout mice（「小時候把爸爸的新玩意弄壞看會喪失什麼功能」）。
-- **CD8 / CTL**：naive CD8 在次級淋巴組織被 APC 活化 → 變 effector 後**一定要離開**到周邊（躲在淋巴組織沒用）；在淋巴組織叫 CD8、執行作用時叫 **CTL**。在周邊**只需 signal 1**（target cell 只會「揮舞著 peptide」，沒有 signal 2）。
-- **CD8 活化兩條路**：① **DC**（可 cross-priming）直接活化，釋放 IL-12 等、高 B7（CD28–B7「簡配」）→ CD8 產生大量 **IFN-γ** 也能活化 macrophage（將軍出去打仗也要有小兵）；② **CD4 幫忙**：同一個 APC 用 MHC II 活化 CD4 → CD4 分泌 **IL-2「雨露均霑」**、APC 被活化後 ↑**B7、4-1BBL** → 活化 CD8。⚠️ 這件事**發生在次級淋巴組織、不在周邊**，而且需要很厲害的 APC。
-- **CTL 殺手流程**：只認 signal 1 → 誘發 target **programmed cell death** → **不等它死、馬上找下一個苦主**（serial killing）；正常細胞沒有專一性辨識就不會死。凋亡一旦啟動就「死透了」。
-- **兩種武器都誘發凋亡（cascade 略有不同）**：① granule 往接觸點聚集（螢光超亮）→ **perforin 打洞**、**granzyme（serine protease）**（+ serglycin）送進去 → 粒線體釋放 **cytochrome c** 放大 → **caspase**（到 caspase-3 必死無疑）→ DNase 切碎染色體 → 電泳 **DNA laddering**；② **FasL** 較快、不需 cytochrome c。
-- **Bcl family**：名字聽起來像詛咒的 **Bax、Bid → 促凋亡**；聽起來和緩的 **Bcl-2、Bcl-xL → 抗凋亡**（「記不起來就算了」）。
-- 「如果後面細節無法承受，**至少看一下那張 summary 圖**」：
-  - **TH1 → M1 macrophage**：IFN-γ + **CD40L–CD40** → 吞噬更強（ROS（reactive oxygen species，活性氧）、NO↑）、**MHC 與共刺激分子↑**（更好的 APC）、更多 cytokine → 回饋活化 TH1。M2 與組織修復有關（腫瘤中也有）。
-  - **TH2**：IL-4、IL-13 → **M2 macrophage（arginase-1 定義）** → tissue remodeling / repair；**IL-5 → eosinophil**（殺寄生蟲、**ADCC**「借刀殺人」）；**IL-13** → 上皮修復、**goblet cell 產 mucus**、上皮 turnover 加快（寄生蟲勾不住）、**平滑肌收縮把蟲擠出去**（所以寄生蟲感染會肚子痛）；活化 **mast cell degranulation**（histamine）。cytokine 也作用在骨髓，像 Star Wars 的**複製人軍隊**大量產出特定顆粒球。
-  - **TH17**：胞外菌、真菌（_Candida_）；IL-17 → 骨髓 stromal cell 產 **G-CSF** → neutrophil 變多（複製人軍團「戴白帽子」）；IL-17 讓上皮產 **chemokine** 把 neutrophil 叫到該去的地方；**IL-22** → 上皮 turnover、IL-17 / IL-22 → **antimicrobial peptides**；**CCL20**（對應 chemokine receptor）。
-  - **Treg**：抑制性 cytokine 關掉所有免疫反應 → tolerance；老師「沒有打算講」。
-- **IgM =「掃地機器人的刷子」**：抗體有 hinge 可轉，兩個結合位的總親和力不只 ×2（可達幾十到幾百倍），IgM 有 **10 個結合位** → 先把病原困在當地（實驗課的免疫凝集）、活化補體 classical pathway、調理；但親和力不完美（先找形狀差不多的鑰匙，之後才用砂紙磨）。
-- B 細胞以 BCR 把抗原 **internalize** → 切碎 → MHC II vesicle → 呈現給 T（沒有 peptide 就是「空的麵包」）。親和力由考官 **FDC** 決定：搶得過 → 表現 **Bcl-2（免死金牌）** 存活；搶不過 → 凋亡；B 細胞在 follicle「巡迴演唱」反覆挑選。Class switch：腸道 → IgA、一般 → IgG（半衰期約 20 多天）→ 周邊血第一次感染 IgM 為主、之後 IgG 為主。暴露越多次親和力越高 → **booster**。
-- **TI 抗原**兩種：① **polymeric（多價）**：同一 B epitope 重複多次（如多醣）→ 多個 BCR 同時結合 = 超強活化訊號；② 同時活化多個 clone（**LPS 經 TLR**）。都沒有 T 參與 → **永遠 IgM、每次感染都像第一次、記憶差**。**自然界 90% 以上的抗原是 TD**。
-- **TFH** 在 T–B 交界與帶好大亨堡的 B 細胞專一結合 + **CD40–CD40L** → 分泌 **IL-21** 等 → isotype switch、memory B。兩個細胞要先靠近（cytokine 分子小、跑不遠，不能「牧童遙指杏花村」）。
-- **AID（activation-induced cytidine deaminase）**：把 **C 變成 U** → 修復時換掉一個 nucleotide → codon 改變 → V region 點突變（SHM）；也誘發 **constant region** 的 class switch；由 **IL-4 + CD40 ligation**（T 細胞協助）誘導。
-- **IgM → IgD 不是 DNA 重組**（μ 與 δ 之間沒有 switch region）→ 是 **differential RNA splicing**（不需活化，早期就能做）；**membrane form → secreted form 也是 RNA 層級**（保留 secreted leader / membrane exon）。其他 isotype 是 **DNA 層級的 class switch recombination**：不同 cytokine 讓不同 switch region 轉錄出特殊 RNA，形成 **G-quadruplex（四個 G 的小盒子）** 引導 AID 去切（細部機制還不清楚）。酵素細節「略懂即可」。
-- **Cytokine → isotype 表「只能無奈地了解它、接受它」**：例如 **IL-4 → IgG1、IgE**；**IFN-γ → IgG3、IgG2a**（以小鼠為主，小鼠 IgG subtype 和人不同）。
-- **抗體反應四期**：lag（病原要漂到最近的淋巴結或脾臟（spleen）、被吞噬、活化 B）→ 指數上升（membrane form 立刻變 secretory form）→ plateau → decline（plasma cell 壽命有限、抗體有半衰期）；二次反應**沒有 lag phase**、以 IgG 為主。Memory cell 在廣島、長崎倖存者身上 **30–40 年**後仍找得到。疫苗讓你先經歷這段過程（小黃卡上的公費疫苗都是致死或嚴重傷殘的疾病，如**麻疹**可能造成 retardation）。
-- **Immune effector module**：ILC / NK 在感染初期分泌的 cytokine（IFN-γ、IL-5 / IL-13、IL-17 / IL-22）和之後 TH1 / TH2 / TH17 的**一模一樣**（「同出一轍」）→ innate 非常重要，只是沒有抗體、活化強度較弱。Type 2 → eosinophil、IgE（黏膜 / 寄生蟲）；type 3 → neutrophil、IgG1、IgA；type 1 → macrophage、IgG1 / G3；cytotoxic → 類似 NK。
-
 === slides ===
 
 # W4-2 上課 slides 重點：T cell–mediated immunity & Cell cooperation（陳玫潔）
 
 > 共 49 頁，對應 Janeway **Ch 9** T Cell–Mediated Immunity、**Ch 10** The Humoral Immune Response、**Ch 11** Integrated Dynamics of Innate and Adaptive Immunity。
+
+## 📑 slides 重點
 
 **Part 1 — Response of activated T cell（p.1–26）**
 
@@ -346,6 +317,37 @@
 - **p.45 Fig 10.23**：cytokine → isotype 表（IL-4、IFN-γ、TGF-β、IL-21、IL-5）。
 - p.46–47 primary 抗體反應四期、primary vs secondary。
 - p.48 Fig 11.5 immune effector modules（Cytotoxic、Type 1、2、3）；p.49 Fig 11.21 各 module 的效應細胞由哪些 isotype 武裝。
+
+## 🎙️ 上課錄影重點（陳玫潔，10/02）
+
+- 開場：**T 細胞不會平白釋出 cytokine 幫別人**，與其他細胞作用通常有專一性辨識。T–B interaction 發生在次級淋巴組織 **T zone 與 B zone 的交界**（像隔著鐵窗），互相交換 chemokine / chemokine receptor、兩者皆活化。
+- **TD vs TI 由抗原材質決定**：沒有蛋白質 → 沒有 peptide 可放上 MHC II → 無法活化 T → **不能 affinity maturation、不能 isotype switch**。V(D)J 重組是亂數、不受調控；**activation 後的優化受 T 細胞 cytokine 調控**。
+- **今天重點 = signal 3**（sensor cell 概念的延續）：APC 初次接觸病原 → PAMP（pathogen-associated molecular pattern）–PRR（pattern recognition receptor，模式辨識受體） → 新的轉錄轉譯 → 帶著獨特的 cytokine 到次級淋巴組織，決定 T 細胞分化方向。
+- **「這一張請大家背起來：決定命運的 cytokine」（黃色、紅色都要背）**：**IL-12 → TH1（IFN-γ）**；**IL-4 → TH2（IL-4、IL-5）**；**只有 IL-6 → TFH（IL-21，在 follicle 幫 B）**；**TGF-β + IL-2 → pTreg（TGF-β、IL-10，peripheral tolerance）**；**TGF-β + IL-6 + IL-23 → TH17（IL-17，胞外菌）**。TGF-β 是抑制型（癌細胞也會分泌）；IL-2「沒什麼了不起」——活化都需要、沒有選擇性。
+- TH 亞群**沒有 surface marker 可以區分**（曾有人想找 marker 當博士論文，畢業了但沒找到），只能靠分泌的 cytokine。
+- **分化是單行道**（「兩條路在森林裡只能挑一條」）：不能同時走兩條，但環境改變可以轉換；彼此抑制——TH2 的 IL-4 抑制走向 TH1、TH1 的 IFN-γ 抑制 TH2 增殖；Treg「所向披靡、全部抑制」；TH1、TH2 的 cytokine 都會阻止走向 TH17。
+- **腸道例子**：共生菌存在時，周邊的 **immature DC 釋放 all-trans retinoic acid（ATRA）**、只有 TGF-β → **Treg** → 不攻擊共生菌（否則就是內耗；Crohn's disease 是失衡例子；**gut–brain axis** 與 autism spectrum、阿茲海默症有關）；病原來了（「營養午餐禍從口入」）→ TLR 活化 → **mature DC 釋放 IL-6** → TGF-β + IL-6 → **TH17** → 叫大量 neutrophil 吞病原。
+- 功能速記：**TFH**（IL-21、CD40L 幫 B）；**TH17**（IL-17 → neutrophil）；**TH2**（IL-4、IL-5 → 寄生蟲、過敏（allergy））；**TH1**（看到 IFN-γ 就想 **macrophage** → 胞內菌如 mycobacteria、_Listeria_）；CD8 不再細分，跟**病毒**等胞內感染有關。
+- **TNF（tumor necrosis factor，腫瘤壞死因子） 家族多功能**：淋巴組織 **organogenesis**（LT-α knockout → 淋巴結長不出來、脾臟怪怪的）、免疫細胞交互作用的共刺激（CD40L、4-1BB）、執行細胞凋亡（**FasL**）。早期免疫學大量用 knockout mice（「小時候把爸爸的新玩意弄壞看會喪失什麼功能」）。
+- **CD8 / CTL**：naive CD8 在次級淋巴組織被 APC 活化 → 變 effector 後**一定要離開**到周邊（躲在淋巴組織沒用）；在淋巴組織叫 CD8、執行作用時叫 **CTL**。在周邊**只需 signal 1**（target cell 只會「揮舞著 peptide」，沒有 signal 2）。
+- **CD8 活化兩條路**：① **DC**（可 cross-priming）直接活化，釋放 IL-12 等、高 B7（CD28–B7「簡配」）→ CD8 產生大量 **IFN-γ** 也能活化 macrophage（將軍出去打仗也要有小兵）；② **CD4 幫忙**：同一個 APC 用 MHC II 活化 CD4 → CD4 分泌 **IL-2「雨露均霑」**、APC 被活化後 ↑**B7、4-1BBL** → 活化 CD8。⚠️ 這件事**發生在次級淋巴組織、不在周邊**，而且需要很厲害的 APC。
+- **CTL 殺手流程**：只認 signal 1 → 誘發 target **programmed cell death** → **不等它死、馬上找下一個苦主**（serial killing）；正常細胞沒有專一性辨識就不會死。凋亡一旦啟動就「死透了」。
+- **兩種武器都誘發凋亡（cascade 略有不同）**：① granule 往接觸點聚集（螢光超亮）→ **perforin 打洞**、**granzyme（serine protease）**（+ serglycin）送進去 → 粒線體釋放 **cytochrome c** 放大 → **caspase**（到 caspase-3 必死無疑）→ DNase 切碎染色體 → 電泳 **DNA laddering**；② **FasL** 較快、不需 cytochrome c。
+- **Bcl family**：名字聽起來像詛咒的 **Bax、Bid → 促凋亡**；聽起來和緩的 **Bcl-2、Bcl-xL → 抗凋亡**（「記不起來就算了」）。
+- 「如果後面細節無法承受，**至少看一下那張 summary 圖**」：
+  - **TH1 → M1 macrophage**：IFN-γ + **CD40L–CD40** → 吞噬更強（ROS（reactive oxygen species，活性氧）、NO↑）、**MHC 與共刺激分子↑**（更好的 APC）、更多 cytokine → 回饋活化 TH1。M2 與組織修復有關（腫瘤中也有）。
+  - **TH2**：IL-4、IL-13 → **M2 macrophage（arginase-1 定義）** → tissue remodeling / repair；**IL-5 → eosinophil**（殺寄生蟲、**ADCC**「借刀殺人」）；**IL-13** → 上皮修復、**goblet cell 產 mucus**、上皮 turnover 加快（寄生蟲勾不住）、**平滑肌收縮把蟲擠出去**（所以寄生蟲感染會肚子痛）；活化 **mast cell degranulation**（histamine）。cytokine 也作用在骨髓，像 Star Wars 的**複製人軍隊**大量產出特定顆粒球。
+  - **TH17**：胞外菌、真菌（_Candida_）；IL-17 → 骨髓 stromal cell 產 **G-CSF** → neutrophil 變多（複製人軍團「戴白帽子」）；IL-17 讓上皮產 **chemokine** 把 neutrophil 叫到該去的地方；**IL-22** → 上皮 turnover、IL-17 / IL-22 → **antimicrobial peptides**；**CCL20**（對應 chemokine receptor）。
+  - **Treg**：抑制性 cytokine 關掉所有免疫反應 → tolerance；老師「沒有打算講」。
+- **IgM =「掃地機器人的刷子」**：抗體有 hinge 可轉，兩個結合位的總親和力不只 ×2（可達幾十到幾百倍），IgM 有 **10 個結合位** → 先把病原困在當地（實驗課的免疫凝集）、活化補體 classical pathway、調理；但親和力不完美（先找形狀差不多的鑰匙，之後才用砂紙磨）。
+- B 細胞以 BCR 把抗原 **internalize** → 切碎 → MHC II vesicle → 呈現給 T（沒有 peptide 就是「空的麵包」）。親和力由考官 **FDC** 決定：搶得過 → 表現 **Bcl-2（免死金牌）** 存活；搶不過 → 凋亡；B 細胞在 follicle「巡迴演唱」反覆挑選。Class switch：腸道 → IgA、一般 → IgG（半衰期約 20 多天）→ 周邊血第一次感染 IgM 為主、之後 IgG 為主。暴露越多次親和力越高 → **booster**。
+- **TI 抗原**兩種：① **polymeric（多價）**：同一 B epitope 重複多次（如多醣）→ 多個 BCR 同時結合 = 超強活化訊號；② 同時活化多個 clone（**LPS 經 TLR**）。都沒有 T 參與 → **永遠 IgM、每次感染都像第一次、記憶差**。**自然界 90% 以上的抗原是 TD**。
+- **TFH** 在 T–B 交界與帶好大亨堡的 B 細胞專一結合 + **CD40–CD40L** → 分泌 **IL-21** 等 → isotype switch、memory B。兩個細胞要先靠近（cytokine 分子小、跑不遠，不能「牧童遙指杏花村」）。
+- **AID（activation-induced cytidine deaminase）**：把 **C 變成 U** → 修復時換掉一個 nucleotide → codon 改變 → V region 點突變（SHM）；也誘發 **constant region** 的 class switch；由 **IL-4 + CD40 ligation**（T 細胞協助）誘導。
+- **IgM → IgD 不是 DNA 重組**（μ 與 δ 之間沒有 switch region）→ 是 **differential RNA splicing**（不需活化，早期就能做）；**membrane form → secreted form 也是 RNA 層級**（保留 secreted leader / membrane exon）。其他 isotype 是 **DNA 層級的 class switch recombination**：不同 cytokine 讓不同 switch region 轉錄出特殊 RNA，形成 **G-quadruplex（四個 G 的小盒子）** 引導 AID 去切（細部機制還不清楚）。酵素細節「略懂即可」。
+- **Cytokine → isotype 表「只能無奈地了解它、接受它」**：例如 **IL-4 → IgG1、IgE**；**IFN-γ → IgG3、IgG2a**（以小鼠為主，小鼠 IgG subtype 和人不同）。
+- **抗體反應四期**：lag（病原要漂到最近的淋巴結或脾臟（spleen）、被吞噬、活化 B）→ 指數上升（membrane form 立刻變 secretory form）→ plateau → decline（plasma cell 壽命有限、抗體有半衰期）；二次反應**沒有 lag phase**、以 IgG 為主。Memory cell 在廣島、長崎倖存者身上 **30–40 年**後仍找得到。疫苗讓你先經歷這段過程（小黃卡上的公費疫苗都是致死或嚴重傷殘的疾病，如**麻疹**可能造成 retardation）。
+- **Immune effector module**：ILC / NK 在感染初期分泌的 cytokine（IFN-γ、IL-5 / IL-13、IL-17 / IL-22）和之後 TH1 / TH2 / TH17 的**一模一樣**（「同出一轍」）→ innate 非常重要，只是沒有抗體、活化強度較弱。Type 2 → eosinophil、IgE（黏膜 / 寄生蟲）；type 3 → neutrophil、IgG1、IgA；type 1 → macrophage、IgG1 / G3；cytotoxic → 類似 NK。
 
 === exam ===
 

@@ -1,5 +1,5 @@
 === summary ===
-# 抗原、抗體與抗體多樣性（依百十四共筆整理、對照百十三共筆，李岳倫）
+# 抗原、抗體與抗體多樣性（依百十四內容整理、對照百十三共筆，李岳倫）
 
 ## 1. 抗原
 - 定義：能被 **B 細胞的 Ig receptor 或 T 細胞的 TCR**（T cell receptor，T 細胞受體） 辨識的物質。
@@ -91,6 +91,27 @@
 - 加入核苷酸數非 3 的倍數或產生 stop codon → B 細胞無功能而死亡。
 - Somatic hypermutation：抗原刺激後約第 6 天開始點突變；第 8–16 天 affinity maturation，壞突變的 B 細胞凋亡（apoptosis）、高親和力者擴增。**只有 B 細胞**有（T 細胞沒有）。
 
+=== slides ===
+# W3-1 上課 slides 重點：Antigen and Antibody / Antibody diversity（Ch 4, 5, 8, 10，李岳倫）
+
+## 📑 slides 重點
+
+- 學習目標：(1) 抗原抗體定義與特性 (2) 各種抗體構造與功能 (3) 抗體多樣性機制。
+- Antigen 定義（Kuby）；continuous vs discontinuous epitope；TCR binds linear peptide + MHC。
+- **課堂題 1**：可活化 B 細胞的抗原特性「不包括」→ **需要 MHC 參與**。
+- Antibodies are glycoproteins：(1) 膜上受體 (2) 循環抗體三功能 (3) 五類（IgG1–4、IgA1–2）。
+- Four-chain model、hinge region（flexibility）；**class & subclass determined by heavy chain**。
+- B-cell development overview；**課堂題 2**：V 區重組在**骨髓**。
+- IgM（pentamer、J chain added just before secretion、10%、primary response、intravascular、classical pathway activator）。
+- IgD（<1%、membrane、function unclear）。
+- IgG（70–75%、66/23/7/4%、2nd response、even distribution、classical pathway、**all subclasses cross placenta**）。
+- IgA（dimer、secretory component by epithelial cells、15–20%、80% monomer in human、IgA1 vs IgA2）；**課堂題 3**：正確為 (C) 分泌片段由上皮細胞合成（A 比例不一致、B 應為 TGF-β、D 應為 IgG/IgM）。
+- IgE（scarce、FcεRI on basophils / mast cells、parasites & allergy）。
+- Physicochemical properties & functions table。
+- 六大多樣性機制；κ chain（35 functional genes）、heavy chain（50 functional V、D-J → V-DJ）；**課堂題 4**：基因重組起始步驟 = **重鏈 D-J**。
+- Assorted chains、gene conversion（chicken）、junctional diversity（RSS/RAG（recombination-activating gene） → DNA-PK/Artemis → P-nt → TdT N-nt）；**課堂題 5**：錯誤為 **TdT「可標記 DNA 斷裂點」**。
+- Somatic hypermutation & affinity maturation；**課堂題 6**：B 細胞；**課堂題 7**：不包括 **gene cross-over**。
+
 ## 🎙️ 上課錄影重點（李岳倫，09/23）
 - 老師定調：Part 1–2（抗原、五種抗體）「輕鬆上」；**Part 3 多樣性六大機制最複雜**，「國考一定會考」。
 - **B vs T 認抗原**：B「大而化之、有容乃大」——直接以 BCR 結合、**可認水溶性抗原**、不需 MHC、可認蛋白 / 多醣 / 脂質、epitope **親水**、可連續或不連續（立體）；T「比較挑剔」——需 MHC 呈現、**不認水溶性抗原**、多為蛋白、只認**線性連續** peptide。
@@ -111,25 +132,6 @@
 - **Gene conversion 人類沒有**：雞、牛、豬、羊只有一個 V、一個 J → 用前方 **pseudogene** 片段插入置換。
 - **Junctional diversity 酵素流程**：**RAG1/RAG2** 認 **RSS**（位於 intron）、切斷並形成 **DNA hairpin** → **Artemis + DNA-PK** 打開 hairpin → 產生對稱（palindromic）單股 = **P nucleotides** → **TdT** 不需模板隨機加入 **N nucleotides**（可多達 15–20 個）→ 配對 → **exonuclease** 切除未配對者 → DNA 合成 + **DNA ligase IV** 補起來。加入數非 3 的倍數 → frameshift → 失敗（一百顆可能只有一顆成功也沒關係）。老師：「你以為這麼複雜國考不會考？**國考考了**」。
 - 機制 1–5 發生在 **B 細胞發育過程**；機制 6 **somatic point mutation** 在**成熟 B 遇到抗原後**才發生（約 6 天內陸續突變；第 8–16 天壞突變者死亡 = negative selection / **affinity maturation**）。課堂題：會進行 somatic hypermutation 的是 **B 細胞**；多樣性機制「不包括」**gene crossover**（是 conversion）。
-
-=== slides ===
-# W3-1 上課 slides 重點：Antigen and Antibody / Antibody diversity（Ch 4, 5, 8, 10，李岳倫）
-
-- 學習目標：(1) 抗原抗體定義與特性 (2) 各種抗體構造與功能 (3) 抗體多樣性機制。
-- Antigen 定義（Kuby）；continuous vs discontinuous epitope；TCR binds linear peptide + MHC。
-- **課堂題 1**：可活化 B 細胞的抗原特性「不包括」→ **需要 MHC 參與**。
-- Antibodies are glycoproteins：(1) 膜上受體 (2) 循環抗體三功能 (3) 五類（IgG1–4、IgA1–2）。
-- Four-chain model、hinge region（flexibility）；**class & subclass determined by heavy chain**。
-- B-cell development overview；**課堂題 2**：V 區重組在**骨髓**。
-- IgM（pentamer、J chain added just before secretion、10%、primary response、intravascular、classical pathway activator）。
-- IgD（<1%、membrane、function unclear）。
-- IgG（70–75%、66/23/7/4%、2nd response、even distribution、classical pathway、**all subclasses cross placenta**）。
-- IgA（dimer、secretory component by epithelial cells、15–20%、80% monomer in human、IgA1 vs IgA2）；**課堂題 3**：正確為 (C) 分泌片段由上皮細胞合成（A 比例不一致、B 應為 TGF-β、D 應為 IgG/IgM）。
-- IgE（scarce、FcεRI on basophils / mast cells、parasites & allergy）。
-- Physicochemical properties & functions table。
-- 六大多樣性機制；κ chain（35 functional genes）、heavy chain（50 functional V、D-J → V-DJ）；**課堂題 4**：基因重組起始步驟 = **重鏈 D-J**。
-- Assorted chains、gene conversion（chicken）、junctional diversity（RSS/RAG（recombination-activating gene） → DNA-PK/Artemis → P-nt → TdT N-nt）；**課堂題 5**：錯誤為 **TdT「可標記 DNA 斷裂點」**。
-- Somatic hypermutation & affinity maturation；**課堂題 6**：B 細胞；**課堂題 7**：不包括 **gene cross-over**。
 
 === exam ===
 # 考點分析

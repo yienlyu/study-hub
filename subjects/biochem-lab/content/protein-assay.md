@@ -1,5 +1,5 @@
 === summary ===
-# Pipetman 操作與蛋白質定量 重點整理（依百十四共筆整理、對照百十三共筆）
+# Pipetman 操作與蛋白質定量 內容整理（依百十四共筆整理、對照百十三共筆）
 
 > 2026/09/17 實驗課（陳顧中）：實驗室簡介、Pipetman 操作、Bradford 蛋白質定量。講義：protein quantification principle、實驗操作講義、Pipetman 操作。 以下依百十四共筆（生化實驗一，9/10 黃彥華組）與上課講義整理。
 

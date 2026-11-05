@@ -1,5 +1,5 @@
 === summary ===
-# 滅菌、消毒與防腐（依百十四共筆整理、對照百十三共筆，黃姿雯）
+# 滅菌、消毒與防腐（依百十四內容整理、對照百十三共筆，黃姿雯）
 
 > 百十四共筆：老師說這章**大概考三題**，重點是**怎麼選三種方法**、**對抗的是哪種病原體**；作用機制不用特別記。
 
@@ -112,6 +112,25 @@
   - *B. pumilus*：radiation
   - ***B. stearothermophilus*：濕熱（autoclave）**
 
+=== slides ===
+# W1-2 上課 slides 重點：Sterilization, Disinfection, and Antisepsis（Ch.3）
+
+## 📑 slides 重點
+
+- Learning objectives：methods、mechanisms、clinical applications。
+- 定義三分法（p.3）＋「Antiseptics = Disinfectants；Disinfectants ≠ Antiseptics (why?)」。
+- Mechanisms（p.4）：denature proteins / alkylating or oxidizing / membrane disruption。
+- Dry heat（p.6）：incineration、hot-air oven 150–180°C（160–170°C 60–90 min，加風扇均溫）。
+- Moist heat（p.7）：autoclave 121°C 10–40 min（15 psi）、flash 134°C 3 min（2.04 bar）、boiling 100°C 30 min；**Air should not be present!**；autoclave safety。
+- Pasteurization（p.8）：LTLT / HTST / UHT。
+- Radiation（p.10–11）：**ionizing**（p.10：deep penetrating power、能把電子打出軌道、break DNA；gamma rays、X-rays、cathode rays；用於 **medical supplies 與 food products** → 滅菌）vs **nonionizing UV**（p.11：穿透力小、must be directly exposed、pyrimidine dimers、harm for human tissue → 消毒）。
+- Filtration（p.12）：0.22–0.45 μm、HEPA、BSC。
+- Chemical agents（p.13–15）：alkylating、oxidizing、halogens、phenolics、QACs（quaternary ammonium compounds，四級銨）、alcohols；**high / intermediate / low level**。
+- Sterilants（p.16–21）：ETO（>10.8°C gas、explosive、dilute with CO₂/N₂）、glutaraldehyde（alkaline、14-day shelf life、endoscope）、oxidizing agents、**plasma**（expensive、metal/plastic、arthroscopic）、**supercritical CO₂（45°C、implants）**。
+- Disinfectants & antiseptics（p.22–23）：alcohol 70% > 95%、phenolics、halogens（povidone-iodine）、**chlorhexidine**（p.23：chlorine and two phenolic rings、low toxicity、rapid action、not absorbed into deeper tissues、G+ 與 G− 但不殺 spores、low–intermediate level；**0.2% 漱口抗牙菌斑、0.4% 刷手、2% 消毒**）。
+- Monitoring（p.24）：mechanical / chemical / **biological（B. subtilis、B. pumilus、B. stearothermophilus）**。
+- Practical concerns（p.25）。
+
 ## 🎙️ 上課錄影重點（黃姿雯，非同步遠距 25 分）
 - 老師定調：課本只是小章節，「有個概念就好，不用記太細節」；**這部分考試大概 3 題**。殺菌作用機制「你不大需要記」。
 - 選擇層級時要考慮對抗的病原體：一般病原用最低階消毒就夠；**prion、endospore** 抗性最高。
@@ -129,23 +148,6 @@
 - **Chlorhexidine「這個你要記得」**：醫院一定常聽到的防腐劑，殺 G+ 與 G−、孢子較差；依用途調濃度（擦拭 vs 刷手）；感染控制會**幫病人全身擦 chlorhexidine** 降低被抗藥菌感染的機會。
 - 四級銨（如市售「沒有氯味的漂白水」）= 破壞表面膜的清潔劑。
 - 監測：機械性（溫度、壓力、水量）→ **滅菌膠帶**（白線變黑只代表「有處理過」）→ **生物指示劑（放入孢子一起滅菌再培養）才能證明真的滅菌**；醫院多為**每月**定期做一次。
-
-=== slides ===
-# W1-2 上課 slides 重點：Sterilization, Disinfection, and Antisepsis（Ch.3）
-
-- Learning objectives：methods、mechanisms、clinical applications。
-- 定義三分法（p.3）＋「Antiseptics = Disinfectants；Disinfectants ≠ Antiseptics (why?)」。
-- Mechanisms（p.4）：denature proteins / alkylating or oxidizing / membrane disruption。
-- Dry heat（p.6）：incineration、hot-air oven 150–180°C（160–170°C 60–90 min，加風扇均溫）。
-- Moist heat（p.7）：autoclave 121°C 10–40 min（15 psi）、flash 134°C 3 min（2.04 bar）、boiling 100°C 30 min；**Air should not be present!**；autoclave safety。
-- Pasteurization（p.8）：LTLT / HTST / UHT。
-- Radiation（p.10–11）：**ionizing**（p.10：deep penetrating power、能把電子打出軌道、break DNA；gamma rays、X-rays、cathode rays；用於 **medical supplies 與 food products** → 滅菌）vs **nonionizing UV**（p.11：穿透力小、must be directly exposed、pyrimidine dimers、harm for human tissue → 消毒）。
-- Filtration（p.12）：0.22–0.45 μm、HEPA、BSC。
-- Chemical agents（p.13–15）：alkylating、oxidizing、halogens、phenolics、QACs（quaternary ammonium compounds，四級銨）、alcohols；**high / intermediate / low level**。
-- Sterilants（p.16–21）：ETO（>10.8°C gas、explosive、dilute with CO₂/N₂）、glutaraldehyde（alkaline、14-day shelf life、endoscope）、oxidizing agents、**plasma**（expensive、metal/plastic、arthroscopic）、**supercritical CO₂（45°C、implants）**。
-- Disinfectants & antiseptics（p.22–23）：alcohol 70% > 95%、phenolics、halogens（povidone-iodine）、**chlorhexidine**（p.23：chlorine and two phenolic rings、low toxicity、rapid action、not absorbed into deeper tissues、G+ 與 G− 但不殺 spores、low–intermediate level；**0.2% 漱口抗牙菌斑、0.4% 刷手、2% 消毒**）。
-- Monitoring（p.24）：mechanical / chemical / **biological（B. subtilis、B. pumilus、B. stearothermophilus）**。
-- Practical concerns（p.25）。
 
 === exam ===
 # 考點分析

@@ -1,5 +1,5 @@
 === summary ===
-# 先天免疫（依百十四共筆整理、對照百十三共筆，李岳倫）
+# 先天免疫（依百十四內容整理、對照百十三共筆，李岳倫）
 
 > 老師標註 **\* IMPORTANT !** 的是補體三路徑（百十四共筆：**補體活化路徑是本章重點**；先天性免疫細胞分類「老師之前考過」）。學習目標：① 細胞遷移與補體 ② 單核吞噬細胞 ③ NK（natural killer，自然殺手） 細胞毒殺。
 
@@ -149,6 +149,21 @@ Macrophage（血中 monocyte 進入組織發育而成，也是 APC（antigen-pre
 
 - 無抗原專一性受體，活化不是靠辨識特定抗原。NK、ILC1 屬性相近（清除病毒、胞內病原）；ILC2 對抗胞外寄生蟲；ILC3 對抗胞外細菌（老師要大家去看 ILC（innate lymphoid cell，先天性淋巴細胞） 影片）。
 
+=== slides ===
+# W2-2 上課 slides 重點：Innate Immunity（Ch 2, 3，李岳倫）
+
+## 📑 slides 重點
+
+- 學習目標（p.2）：(1) Cell migration & complement (2) Mononuclear phagocytes (3) Cell-mediated cytotoxicity – NK。
+- **Three-step model**（Roitt 6E）：Step 1 selectins ↔ carbohydrates；Step 2 chemokines trigger；Step 3 integrins ↔ CAMs（VLA / VCAM / LFA / ICAM / MAdCAM；Ig supergene family）。
+- Complement functions：opsonization（C3b、C4b）、chemotaxis（**C3a、C5a，small & diffuse，C3aR / C5aR**）、lysis。
+- **\* IMPORTANT !** Classical（Ag or Ag-Ab (IgM, IgG1-3) → C1qr₂s₂）、Lectin（MBL、ficolins；**MASP-1, -2, -3**）、Alternative（two ways：by lectin/classical → C3bBb；spontaneous → **C3(H₂O)Bb short-lived**）；MAC。
+- Opsonic receptors：mannose receptor、Fc receptor（IgG-pathogen）、complement receptor、**CD14 & TLR4**（LPS）。
+- Cell-mediated cytotoxicity：Tc、NK、myeloid cells；**inhibition vs activation signals（CD2, CD16, CD69）**。
+- NK inhibitory receptors：(1) **CD94 ↔ HLA-E**（ITIM）(2) **KIR-2D、KIR-3D ↔ HLA-C**。
+- Cytotoxicity mechanisms（Janeway Fig 3.36）：Fas/FasL、TNF/LT、perforin/granzymes。
+- 課堂題 8 題（見「課堂題」練習）：遷移順序、C3b 調理、第一會合點 C3 convertase、MAC 組成、MBL、TLR4、CD94/NKG2A、ILC1 敘述。
+
 ## 🎙️ 上課錄影重點（李岳倫，09/18）
 - 時間軸：innate 十幾個小時內就發生；adaptive（B 產抗體、T 分化成 effector）要 **5–7 天**。
 - **白血球遷移三部曲**：白血球在大血管流很快，到**小靜脈**流速變慢 → ① **tethering**（selectin 抓住：E / P-selectin 在內皮，抓白血球上的醣類 ligand，如 neutrophil 的 **CD15**；L-selectin 在白血球、ligand 在內皮）→ ② **triggering**（內皮或受傷組織釋放 chemokine；**被抓住的細胞要有對應 chemokine receptor 才會反應**）→ ③ **latching**（integrin：**LFA-1（lymphocyte function-associated antigen 1）、CR3** 結合 **ICAM-1** → 完全停下、從內皮縫隙鑽出）。順序 **selectin → chemokine → integrin**（課堂題答案 C）。
@@ -168,19 +183,6 @@ Macrophage（血中 monocyte 進入組織發育而成，也是 APC（antigen-pre
 - **正港的抑制性受體**：**CD94 + NKG2A**（有 **ITIM**，認 **HLA-E**）；CD94 + NKG2C 沒有 ITIM → 非抑制性。**長尾巴 KIR2D / KIR3D**（有 ITIM，認 **HLA-C**）才是抑制性；短尾巴不是。
 - NK / Tc 毒殺三方式：**FasL–Fas（CD95）**（肉搏戰）、**TNF、lymphotoxin**（毒氣）、**perforin（需 Ca²⁺，先打洞）+ granzyme（再丟進去）**（子彈）→ apoptosis。
 - **ILC**（老師給的 homework）：NK 與 ILC1 相似 → 病毒、**胞內**病原；ILC2 → 寄生蟲、**IL-4、IL-5、IL-13 參與過敏氣喘**；ILC3 → 胞外細菌。**ILC 沒有專一性受體**。老師說這題「**我曾經考過**」。
-
-=== slides ===
-# W2-2 上課 slides 重點：Innate Immunity（Ch 2, 3，李岳倫）
-
-- 學習目標（p.2）：(1) Cell migration & complement (2) Mononuclear phagocytes (3) Cell-mediated cytotoxicity – NK。
-- **Three-step model**（Roitt 6E）：Step 1 selectins ↔ carbohydrates；Step 2 chemokines trigger；Step 3 integrins ↔ CAMs（VLA / VCAM / LFA / ICAM / MAdCAM；Ig supergene family）。
-- Complement functions：opsonization（C3b、C4b）、chemotaxis（**C3a、C5a，small & diffuse，C3aR / C5aR**）、lysis。
-- **\* IMPORTANT !** Classical（Ag or Ag-Ab (IgM, IgG1-3) → C1qr₂s₂）、Lectin（MBL、ficolins；**MASP-1, -2, -3**）、Alternative（two ways：by lectin/classical → C3bBb；spontaneous → **C3(H₂O)Bb short-lived**）；MAC。
-- Opsonic receptors：mannose receptor、Fc receptor（IgG-pathogen）、complement receptor、**CD14 & TLR4**（LPS）。
-- Cell-mediated cytotoxicity：Tc、NK、myeloid cells；**inhibition vs activation signals（CD2, CD16, CD69）**。
-- NK inhibitory receptors：(1) **CD94 ↔ HLA-E**（ITIM）(2) **KIR-2D、KIR-3D ↔ HLA-C**。
-- Cytotoxicity mechanisms（Janeway Fig 3.36）：Fas/FasL、TNF/LT、perforin/granzymes。
-- 課堂題 8 題（見「課堂題」練習）：遷移順序、C3b 調理、第一會合點 C3 convertase、MAC 組成、MBL、TLR4、CD94/NKG2A、ILC1 敘述。
 
 === exam ===
 # 考點分析

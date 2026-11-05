@@ -1,5 +1,5 @@
 === summary ===
-# 質體 DNA 萃取與洋菜膠電泳 重點整理
+# 質體 DNA 萃取與洋菜膠電泳 內容整理
 
 > 2026/10/01 實驗課（周志銘）：少量質體 DNA 萃取（miniprep）＋洋菜膠膠體電泳。講義：plasmid mini-preparation_agarose gel electrophoresis 上課講義；影片：miniprep。
 

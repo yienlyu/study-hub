@@ -1,5 +1,5 @@
 === summary ===
-# 細菌簡介、分類、構造與代謝（依百十四共筆整理、對照百十三共筆，黃姿雯）
+# 細菌簡介、分類、構造與代謝（依百十四內容整理、對照百十三共筆，黃姿雯）
 
 ## 1. 傳染病、宿主防禦與微生物學史
 - 傳染病是**宿主與病原交互作用**的結果（例：GAS（group A Streptococcus，A 群鏈球菌） 以 DNase 破壞 neutrophil 的 NETs（neutrophil extracellular traps，嗜中性球胞外陷阱））。
@@ -144,6 +144,40 @@
 - **Polysaccharide biosynthesis**（老師打星）：G6P → **ADP-glucose**（需 ATP，細菌 glycogen）、G6P → **UDP-glucose**（需 UTP）、F6P → **UDP-GlcNAc**（需 UTP，**peptidoglycan 合成**）。
 - 其他合成：DHAP → glycerol＋acetyl-CoA → 脂肪酸；胺基酸碳骨架來自 glycolysis、TCA（tricarboxylic acid cycle，檸檬酸循環）、PPP；PPP 提供核苷酸的五碳糖。**Amphibolic pathway**：catabolism 用 NAD⁺、anabolism 用 NADP⁺。
 
+=== slides ===
+
+# W1-1 上課 slides 重點（黃姿雯）
+
+> 共 83 頁：I. Introduction、II. Classification, Structure & Replication、III. Growth and metabolism
+
+## 📑 slides 重點
+
+**I. Introduction**
+
+- 歷史人物（p.3–5）：Leeuwenhoek、Pasteur（disprove spontaneous generation / pasteurization）、Semmelweis（handwashing）、Lister（phenol）、Koch's postulates 圖解（p.4）。
+- Era of chemotherapy（p.5）：Ehrlich 1910s（Salvarsan 606、magic bullet）→ Fleming 1928 → Domagk 1935 → Waksman 1943（streptomycin → TB）→ Enders 1946（First culture of virus，「The Father of Modern Vaccines」）。
+- Threat of antimicrobial resistance（p.7–10）：MDR → superbugs；新藥 **Zosurabalpin**（_A. baumannii_，抑制 LPS transport）。
+- Microbes and human welfare（p.12）：Vit B & K、生技、元素循環（C/N/P/S）、污水處理、bioremediation、害蟲防治。
+- Human Microbiome Project（p.13–15）：3-fold cells、>100-fold genes；**taxonomic diversity great, functional properties highly conserved (functional redundancy)**；core microbiome ≥95%；Mouth > nose > intestine > skin > vagina。
+- Role of microbiome in disease（p.17–19）：Koch「one organism one disease」vs 新概念 **Dysbiosis**；_C. difficile_（20–60% relapse）→ FMT（黃龍湯、2018 特管辦法）；Prebiotics / Probiotics（value?）/ Postbiotics；_Akkermansia muciniphila_。
+
+**II. Classification, Structure & Replication**
+
+- Three domains；Algae > Protozoa > Fungi > Bacteria > Viruses；Giant / Dwarf bacteria。
+- Binomial nomenclature（Linnaeus 1735）。
+- Archaea：lack PDG；methanogens、halophiles、thermophiles。
+- Classification I：colony / microscopic、**Gram stain（Christian Gram；exception: starved bacteria / atypical cell wall）**。
+- Classification II：Biotype、**MALDI-TOF**、Serotype（O157:H7）、Genotype（16S rRNA）。
+- Structures（p.35–54）：glycocalyx、flagella（filament/hook/basal body；chemotaxis run & tumble）、axial filaments、fimbriae & pili、cell wall（PDG、transpeptidation、PBPs、β-lactam & vancomycin）、G+ / G− wall、**LPS 三段**、exceptions、plasma membrane（lack sterols → hopanoids；被 alcohol、quaternary ammonium、polymyxin 破壞）、inclusions（volutin、carboxysome、gas vacuole、**magnetosome**）、spores、binary fission。
+
+**III. Growth and metabolism**
+
+- Physical（溫度、pH 6.5–7.5、滲透壓）＋ chemical factors（O₂、nutrients）。
+- Oxygen effect（microaerophile 2–10% O₂）、growth curve、**biofilm formation**（EPS）。
+- ATP generation：substrate-level / oxidative / photophosphorylation；ETC：1 NADH → 3 ATP、1 FADH₂ → 2 ATP；「? ATP from 1 mole glucose」。
+- Fermentation：no ATP from pyruvate→metabolites；SCFAs 調節人體免疫。
+- Biosynthesis：UDP-NAG（多醣）、cholesterol（真核膜）vs waxes（acid-fast 細胞壁）；amphibolic pathways。
+
 ## 🎙️ 上課錄影重點（黃姿雯，09/09 + 09/11）
 
 ### 微生物學史、抗藥性、微生物相（09/09）
@@ -184,38 +218,6 @@
 - **Biofilm**：越內層越缺氧缺營養 → 抗藥；會剝離散播 → 反覆感染；醫療管路（引流管、導尿管、呼吸管）是大問題；組織上的代表是**感染性心內膜炎**（鏈球菌章）。
 - 代謝：1 葡萄糖有氧呼吸 → **38 ATP，其中 34 個來自電子傳遞鏈**（oxidative phosphorylation）。無氧呼吸最終電子接受者可為 NO₃⁻、SO₄²⁻、**CO₂**（**國考考過**）。發酵只走 glycolysis，pyruvate 再被**還原**成菌種特有產物（酒精、乳酸、腸道 SCFAs → 調節免疫）。
 - 老師原話：「**Murray 那本有出現的，國考都可以考**」、「**我沒有講的就是不會考**」；合成代謝只需記 PDG 由 UDP-N-acetylglucosamine 合成。
-
-=== slides ===
-
-# W1-1 上課 slides 重點（黃姿雯）
-
-> 共 83 頁：I. Introduction、II. Classification, Structure & Replication、III. Growth and metabolism
-
-**I. Introduction**
-
-- 歷史人物（p.3–5）：Leeuwenhoek、Pasteur（disprove spontaneous generation / pasteurization）、Semmelweis（handwashing）、Lister（phenol）、Koch's postulates 圖解（p.4）。
-- Era of chemotherapy（p.5）：Ehrlich 1910s（Salvarsan 606、magic bullet）→ Fleming 1928 → Domagk 1935 → Waksman 1943（streptomycin → TB）→ Enders 1946（First culture of virus，「The Father of Modern Vaccines」）。
-- Threat of antimicrobial resistance（p.7–10）：MDR → superbugs；新藥 **Zosurabalpin**（_A. baumannii_，抑制 LPS transport）。
-- Microbes and human welfare（p.12）：Vit B & K、生技、元素循環（C/N/P/S）、污水處理、bioremediation、害蟲防治。
-- Human Microbiome Project（p.13–15）：3-fold cells、>100-fold genes；**taxonomic diversity great, functional properties highly conserved (functional redundancy)**；core microbiome ≥95%；Mouth > nose > intestine > skin > vagina。
-- Role of microbiome in disease（p.17–19）：Koch「one organism one disease」vs 新概念 **Dysbiosis**；_C. difficile_（20–60% relapse）→ FMT（黃龍湯、2018 特管辦法）；Prebiotics / Probiotics（value?）/ Postbiotics；_Akkermansia muciniphila_。
-
-**II. Classification, Structure & Replication**
-
-- Three domains；Algae > Protozoa > Fungi > Bacteria > Viruses；Giant / Dwarf bacteria。
-- Binomial nomenclature（Linnaeus 1735）。
-- Archaea：lack PDG；methanogens、halophiles、thermophiles。
-- Classification I：colony / microscopic、**Gram stain（Christian Gram；exception: starved bacteria / atypical cell wall）**。
-- Classification II：Biotype、**MALDI-TOF**、Serotype（O157:H7）、Genotype（16S rRNA）。
-- Structures（p.35–54）：glycocalyx、flagella（filament/hook/basal body；chemotaxis run & tumble）、axial filaments、fimbriae & pili、cell wall（PDG、transpeptidation、PBPs、β-lactam & vancomycin）、G+ / G− wall、**LPS 三段**、exceptions、plasma membrane（lack sterols → hopanoids；被 alcohol、quaternary ammonium、polymyxin 破壞）、inclusions（volutin、carboxysome、gas vacuole、**magnetosome**）、spores、binary fission。
-
-**III. Growth and metabolism**
-
-- Physical（溫度、pH 6.5–7.5、滲透壓）＋ chemical factors（O₂、nutrients）。
-- Oxygen effect（microaerophile 2–10% O₂）、growth curve、**biofilm formation**（EPS）。
-- ATP generation：substrate-level / oxidative / photophosphorylation；ETC：1 NADH → 3 ATP、1 FADH₂ → 2 ATP；「? ATP from 1 mole glucose」。
-- Fermentation：no ATP from pyruvate→metabolites；SCFAs 調節人體免疫。
-- Biosynthesis：UDP-NAG（多醣）、cholesterol（真核膜）vs waxes（acid-fast 細胞壁）；amphibolic pathways。
 
 === exam ===
 

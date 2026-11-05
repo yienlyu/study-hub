@@ -1,5 +1,5 @@
 === summary ===
-# 細菌致病機轉（依百十四共筆整理，黃姿雯）
+# 細菌致病機轉（依百十四內容整理，黃姿雯）
 
 > 百十三共筆沒有收錄這章，所以沒有百十三對照。
 
@@ -63,6 +63,23 @@
 - ⚠️ **產生孢子不是逃避免疫的機制**（是對抗環境壓力）。
 - 整體流程：**入侵門戶**（黏膜：呼吸、消化、泌尿生殖道、結膜；皮膚；parenteral route）→ 穿透或逃避防禦 → 傷害宿主細胞 → **離開門戶**（通常與入侵門戶相同）。
 
+=== slides ===
+# 上課重點：Mechanisms of Bacterial Pathogenesis（Ch.14，黃姿雯）
+
+## 📑 slides 重點
+
+- Learning objectives：ports of entry；colonization, adhesion, invasion；tissue destruction；exotoxins & superantigens；endotoxin；immunopathogenesis；escaping host defenses。
+- Ports of entry（Table 14.1）：ingestion / inhalation / trauma / needlestick / arthropod bite / STD。
+- Definition：pathogenicity vs virulence、pathogenicity island、opportunistic。
+- Adherence（Table 14.2）：「The first step in infection」、receptor–adhesin、quorum sensing。
+- Invasion：**T3SS**、actin polymerization；*Salmonella*（uptake）、*Shigella / Listeria*（movement）、M cell；影片：pathogenic *E. coli*、*Salmonella*。
+- Pathogenic actions：tissue destruction（enzymes）、exotoxins（cytotoxins / neurotoxins / enterotoxins；**Figure 15.5 A-B exotoxin**）、endotoxins（CD14、TLR4、IL-1/TNF-α/IL-6 → fever）、superantigens。
+- **Detection of endotoxin：LAL assay**（horseshoe crab）。
+- Immunopathogenesis：granuloma、cytokine storm、M protein mimicry、PSGN。
+- Escaping host defenses（I）(II)：見左側表格。
+- Intracellular pathogens（Box 14.6）。
+- Figure 15.9：portals of entry → penetration/evasion → damage → portals of exit。
+
 ## 🎙️ 上課錄影重點（黃姿雯，非同步遠距 21 分）
 - **入口一定是本來就跟外界接觸的地方**：消化道、呼吸道、生殖道（性傳染）、皮膚破口或被叮咬（病媒）；完整皮膚不會是入口。
 - **Virulence 是宿主–病原交互的「結果」**：感染後下場越差 = 越毒。用 LD50 比較：*Salmonella* 要約 **10⁶** 隻才殺死小鼠，*S. pneumoniae* 約 **10²** 隻就夠 → 肺炎鏈球菌比較毒。
@@ -79,21 +96,6 @@
 - 抑制吞噬分兩層：被動（莢膜讓吞噬細胞不好吞）vs 主動（產生細胞毒素直接殺掉吞噬細胞，「比較厲害」）。
 - **胞內病原清單「要特別記得」**：致病菌裡只有少數能在 phagocyte 內存活 → *Listeria*、*Salmonella*（Typhi）、*Shigella*、*Yersinia*、*Brucella*、*Mycobacterium*、*Rickettsia*、*Chlamydia*。
 - 總流程：入口 → 黏附 → 繁殖 → 入侵 → 抵抗宿主攻擊、破壞環境 → **出口**（再散播；出口與入口通常類似，如 COVID-19 由呼吸道進出）。
-
-=== slides ===
-# 上課 slides 重點：Mechanisms of Bacterial Pathogenesis（Ch.14，黃姿雯）
-
-- Learning objectives：ports of entry；colonization, adhesion, invasion；tissue destruction；exotoxins & superantigens；endotoxin；immunopathogenesis；escaping host defenses。
-- Ports of entry（Table 14.1）：ingestion / inhalation / trauma / needlestick / arthropod bite / STD。
-- Definition：pathogenicity vs virulence、pathogenicity island、opportunistic。
-- Adherence（Table 14.2）：「The first step in infection」、receptor–adhesin、quorum sensing。
-- Invasion：**T3SS**、actin polymerization；*Salmonella*（uptake）、*Shigella / Listeria*（movement）、M cell；影片：pathogenic *E. coli*、*Salmonella*。
-- Pathogenic actions：tissue destruction（enzymes）、exotoxins（cytotoxins / neurotoxins / enterotoxins；**Figure 15.5 A-B exotoxin**）、endotoxins（CD14、TLR4、IL-1/TNF-α/IL-6 → fever）、superantigens。
-- **Detection of endotoxin：LAL assay**（horseshoe crab）。
-- Immunopathogenesis：granuloma、cytokine storm、M protein mimicry、PSGN。
-- Escaping host defenses（I）(II)：見左側表格。
-- Intracellular pathogens（Box 14.6）。
-- Figure 15.9：portals of entry → penetration/evasion → damage → portals of exit。
 
 === exam ===
 # 考點分析

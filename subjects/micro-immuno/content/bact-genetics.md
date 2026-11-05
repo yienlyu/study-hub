@@ -1,5 +1,5 @@
 === summary ===
-# 細菌遺傳與生物技術（依百十四共筆整理、對照百十三共筆，黃姿雯）
+# 細菌遺傳與生物技術（依百十四內容整理、對照百十三共筆，黃姿雯）
 
 ## 1. 基因體
 - **Genome** = 染色體 + 質體上所有基因。
@@ -84,21 +84,10 @@
 - **CRISPR-Cas9**：細菌的後天免疫（specific、memory）；spacer 記錄入侵 DNA；crRNA + tracrRNA（→ sgRNA）引導 Cas9 切 DSB；PAM 防止切到自己；修復：**NHEJ → gene disruption**、**HDR → gene editing**（2020 諾貝爾化學獎）。流程：第一次入侵的 DNA 插入 CRISPR（clustered regularly interspaced short palindromic repeats） 成新 spacer → 再入侵時轉錄 pre-crRNA → 與 tracrRNA、Cas9 結合並切成成熟 crRNA → 互補辨識、Cas9 切割。現況：倫理問題，**不能用於人類胚胎**；動植物已廣泛應用，人體仍在初期試驗，未來可治單基因罕病。
 - 應用：大腸桿菌生產 insulin、interferon；表面蛋白疫苗；基因治療。
 
-## 🎙️ 上課錄影重點（黃姿雯，09/11 + 補充影音）
-- **考試範圍以老師講的為準**：DNA 複製「你們自己回去讀，我考還是會考」；gene regulation 改用遠距補充資料；**生物技術是補充，「考試就不考了」**。
-- 染色體多為單一環狀 dsDNA、單套，但也有兩個環、線形、線＋環並存的例外。
-- **Plasmid vs chromosome 的判斷**：大小不可靠（質體也可以很大）；**丟掉後細菌還活得下來的 = 質體**（非必需、賦予新能力）。複製與染色體**獨立**；拷貝數不定。醫療上怕帶**抗藥基因**或**外毒素**基因而散播；環境上可帶重金屬降解能力（生物防治）。
-- 細菌基因體 **90% 以上都是基因**（人類只有少數百分比）。基因產物不一定是蛋白質：rRNA、tRNA 也是；**rRNA 在同科 / 同屬高度保守 → 16S rRNA 用於菌種鑑定**。
-- **Operon 的定義重點**：受同一 promoter / operator 控制、轉錄成**一條帶多個基因訊息的 polycistronic mRNA**；「排在一起不一定叫 operon」。
-- 細菌**轉錄與轉譯同時發生**（同一個細胞質空間）→ 複製速度快。
-- 遺傳改變兩途徑：自發突變（較慢）vs 交換；交換分**垂直**（親代→子代）與細菌特有的**水平（HGT，同一世代之間）**。HGT 是抗藥性快速散播的最大問題（一個質體送出去，對方就變抗藥，還能再傳下去）。
-- **HGT 三機制**：conjugation（供者用 sex pilus 找到受者拉近後傳 DNA）、transformation（外膜通道攝取環境 DNA）、transduction（**噬菌體當車子**載 DNA）。
-- **Transposition**：Barbara McClintock 研究玉米提出（1950 年代被主流排斥，80 多歲獲諾貝爾、唯一獨得生醫獎的女性）。Transposon 必須**寄生在會複製的分子**（染色體或質體）上，自己編碼 **transposase** 切下自己再插入新位置；大部分時候不動，亂跳時會破壞基因結構。
-- 例：MRSA 從**腸球菌**獲得 vancomycin resistance 基因 → 同時抗 methicillin 與 vancomycin（VRSA）。
-- 補充影音（不考）：基改作物（蘇力菌毒素基因）；**restriction enzyme 是細菌對抗噬菌體的「先天免疫」**（內切酶，自身 DNA 經甲基化修飾所以不被切）；PCR（耐熱 DNA polymerase 來自嗜熱菌、引子約 20 nt）；Sanger 定序讀長約 600–800 bp → NGS 高通量 → 第三代長讀長（PacBio、Nanopore MinION）。
-
 === slides ===
 # W1-2 上課 slides 重點：Bacterial genetics & biotechnology（Ch.13）
+
+## 📑 slides 重點
 
 - Bacterial genome & chromosome（p.2）：single dsDNA, closed circular, attached to membrane → **haploid**；nucleoid。
 - Plasmid DNA（p.3）：replicons、G+ & G−、可共存；四大功能（抗藥、毒素、重金屬、pili）。
@@ -112,6 +101,19 @@
 - HGT（p.23–27）：transformation（competence、nuclease sensitive）、conjugation（pilus in G−、transconjugants）、transduction（generalized / specialized）、transposition。
 - Transposable element（p.28–30）：McClintock、IS / Tn、**MRSA → MVRSA**。
 - Biotechnology（p.31–42）：recombinant DNA、PCR、Sanger / dye-terminator、shotgun、NGS、16S rRNA、therapeutic applications、CRISPR-Cas。
+
+## 🎙️ 上課錄影重點（黃姿雯，09/11 + 補充影音）
+- **考試範圍以老師講的為準**：DNA 複製「你們自己回去讀，我考還是會考」；gene regulation 改用遠距補充資料；**生物技術是補充，「考試就不考了」**。
+- 染色體多為單一環狀 dsDNA、單套，但也有兩個環、線形、線＋環並存的例外。
+- **Plasmid vs chromosome 的判斷**：大小不可靠（質體也可以很大）；**丟掉後細菌還活得下來的 = 質體**（非必需、賦予新能力）。複製與染色體**獨立**；拷貝數不定。醫療上怕帶**抗藥基因**或**外毒素**基因而散播；環境上可帶重金屬降解能力（生物防治）。
+- 細菌基因體 **90% 以上都是基因**（人類只有少數百分比）。基因產物不一定是蛋白質：rRNA、tRNA 也是；**rRNA 在同科 / 同屬高度保守 → 16S rRNA 用於菌種鑑定**。
+- **Operon 的定義重點**：受同一 promoter / operator 控制、轉錄成**一條帶多個基因訊息的 polycistronic mRNA**；「排在一起不一定叫 operon」。
+- 細菌**轉錄與轉譯同時發生**（同一個細胞質空間）→ 複製速度快。
+- 遺傳改變兩途徑：自發突變（較慢）vs 交換；交換分**垂直**（親代→子代）與細菌特有的**水平（HGT，同一世代之間）**。HGT 是抗藥性快速散播的最大問題（一個質體送出去，對方就變抗藥，還能再傳下去）。
+- **HGT 三機制**：conjugation（供者用 sex pilus 找到受者拉近後傳 DNA）、transformation（外膜通道攝取環境 DNA）、transduction（**噬菌體當車子**載 DNA）。
+- **Transposition**：Barbara McClintock 研究玉米提出（1950 年代被主流排斥，80 多歲獲諾貝爾、唯一獨得生醫獎的女性）。Transposon 必須**寄生在會複製的分子**（染色體或質體）上，自己編碼 **transposase** 切下自己再插入新位置；大部分時候不動，亂跳時會破壞基因結構。
+- 例：MRSA 從**腸球菌**獲得 vancomycin resistance 基因 → 同時抗 methicillin 與 vancomycin（VRSA）。
+- 補充影音（不考）：基改作物（蘇力菌毒素基因）；**restriction enzyme 是細菌對抗噬菌體的「先天免疫」**（內切酶，自身 DNA 經甲基化修飾所以不被切）；PCR（耐熱 DNA polymerase 來自嗜熱菌、引子約 20 nt）；Sanger 定序讀長約 600–800 bp → NGS 高通量 → 第三代長讀長（PacBio、Nanopore MinION）。
 
 === exam ===
 # 考點分析

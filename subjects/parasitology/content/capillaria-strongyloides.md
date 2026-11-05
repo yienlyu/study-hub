@@ -1,5 +1,5 @@
 === summary ===
-# 毛線蟲與糞小桿線蟲 重點整理（依百十四共筆整理、對照百十三共筆）
+# 毛線蟲與糞小桿線蟲 內容整理（依百十四共筆整理、對照百十三共筆）
 
 > 范家堃，2026/09/14。*Capillaria philippinensis*、*Capillaria hepatica*、*Strongyloides stercoralis*。 以下依百十四共筆 week2 與今年 slides 整理。
 
@@ -83,17 +83,10 @@
 - 敗血症機轉：幼蟲穿腸壁時把**腸道菌（如 *E. coli*）**帶入血流 → 革蘭氏陰性菌敗血症、內毒素休克。
 - 直接塗片檢出率低 → **Baermann funnel**（收漏斗底部沉澱找活幼蟲）、**洋菜平板**（看細菌爬痕盡頭的幼蟲）；活幼蟲有**傳染風險**。
 
-## 🎙️ 上課錄影重點（范家堃，9/14）
-- 生活史要分清楚 **infective stage 與 diagnostic stage**：吃到診斷期的蟲卵不會被感染。
-- *C. hepatica* 要靠**切片**才能發現；糞便有卵代表「這個人喜歡吃齧齒類的內臟」。
-- 糞小桿線蟲的生活史跟鉤蟲很像，但多了自體感染，會「由少量變多量」。症狀很綜合，有時像大腸癌（便中帶血）。
-- 免疫力低的人（例如器官移植）要先排除糞小桿線蟲，驅蟲後再做後續治療比較保險。台灣老人養狗越來越多，要注意。
-- **旅遊回來驗糞便的時機**：腸道寄生蟲從感染到產卵大約需要 **1 個月**；旅遊回來才 1–2 週驗糞便是看不到的，要問清楚出國與回國時間。
-- 人與其他哺乳動物都能讓蟲發育為成蟲時，**人稱為 final host、動物稱為 reservoir host**（國考用書的定義）。
-- 治療：Ivermectin 或 Albendazole；Albendazole 在台灣要特別申請，Ivermectin 有獸醫用藥但劑量不同。
-
 === slides ===
-# 上課 slides 重點（0914 Capillaria、Strongyloides）
+# 上課重點（0914 Capillaria、Strongyloides）
+
+## 📑 slides 重點
 
 | 蟲種 | slides 重點 |
 |---|---|
@@ -103,6 +96,15 @@
 | 臨床 | 蕁麻疹（臀、腰）、larva currens；慢性氣喘、腎病症候群；hyperinfection、disseminated |
 | 診斷 | 糞便或十二指腸液找幼蟲；Baermann、Harada-Mori、洋菜平板、Enterotest |
 | 治療 | **Ivermectin**（thiabendazole 替代） |
+
+## 🎙️ 上課錄影重點（范家堃，9/14）
+- 生活史要分清楚 **infective stage 與 diagnostic stage**：吃到診斷期的蟲卵不會被感染。
+- *C. hepatica* 要靠**切片**才能發現；糞便有卵代表「這個人喜歡吃齧齒類的內臟」。
+- 糞小桿線蟲的生活史跟鉤蟲很像，但多了自體感染，會「由少量變多量」。症狀很綜合，有時像大腸癌（便中帶血）。
+- 免疫力低的人（例如器官移植）要先排除糞小桿線蟲，驅蟲後再做後續治療比較保險。台灣老人養狗越來越多，要注意。
+- **旅遊回來驗糞便的時機**：腸道寄生蟲從感染到產卵大約需要 **1 個月**；旅遊回來才 1–2 週驗糞便是看不到的，要問清楚出國與回國時間。
+- 人與其他哺乳動物都能讓蟲發育為成蟲時，**人稱為 final host、動物稱為 reservoir host**（國考用書的定義）。
+- 治療：Ivermectin 或 Albendazole；Albendazole 在台灣要特別申請，Ivermectin 有獸醫用藥但劑量不同。
 
 === exam ===
 # 考點分析

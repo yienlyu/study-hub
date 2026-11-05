@@ -56,8 +56,7 @@
 | Ara-A（vidarabine） | 病毒 DNA polymerase | |
 
 === slides ===
-# 上課 slides
-
+# 上課重點
 今年還沒上（W9 11/5，鄭嘉雄老師）。
 
 === exam ===

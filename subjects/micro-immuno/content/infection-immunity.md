@@ -1,5 +1,5 @@
 === summary ===
-# 對抗感染的免疫反應（依百十四共筆整理、對照百十三共筆，林秋烽）
+# 對抗感染的免疫反應（依百十四內容整理、對照百十三共筆，林秋烽）
 
 ## 1. 第一道防線
 - **物理屏障**：皮膚、黏液、纖毛上皮、低 pH（胃酸、陰道）、眼淚沖洗、**免疫特權區**（水晶體、睪丸：擋住免疫細胞，避免不可逆傷害）。
@@ -106,6 +106,39 @@
 - ***M. tuberculosis***：阻止吞噬體成熟與融合；**SOD** 清除 O₂⁻；UreC（urease 相關，與吞噬體內存活有關）；**granuloma** 限制但不一定清除 → 免疫下降時再活化。
 - **SARS-CoV-2**：病毒蛋白干擾核酸辨識與 type I IFN；**spike 變異**降低中和；早期抗病毒不足、後期過度發炎。
 
+=== slides ===
+# 上課重點（20261007 宿主對感染之防衛，林秋烽，80 頁）
+
+> 期中範圍 I13-14，配分 **7%**。很多頁只有圖（取自期刊），以下依頁面標題與文字整理；細節對照本頁最後的錄影段落。
+
+## 📑 slides 重點
+
+| 頁 | 主題 | 重點 |
+|---|---|---|
+| p2–5 | 引言 | 防疫：isolation → vaccination；三個學習目標：比較 innate／adaptive 對抗感染、**microbial immunopathogenesis**、**病原的免疫脫逃** |
+| p6–7 | 第一道防線 | 物理：skin、mucus、ciliated epithelium、low pH、tears；化學／生物：**microbiota（probiotics、fecal transplantation）**、enzymes、**AMPs（defensins、cathelicidin、dermcidin）**、antimicrobial lipids、complement、cytokines |
+| p8–10 | **AMPs** ⭐ | 又稱 host defense peptides；**12–50 aa、帶正電（Arg／Lys／His）**；臨床用藥：bacitracin、boceprevir／telaprevir（HCV）、**enfuvirtide（HIV）**、oritavancin／teicoplanin |
+| p11–15 | 補體 | 約 30 個蛋白、蛋白水解連鎖；lectin／classical／alternative 三路徑；C3b 調理、C3a／C5a 發炎與趨化、C5b–C9 = MAC |
+| p16–18 | Innate vs adaptive | adaptive 的特徵：**specificity、diversity、memory、reactivity**（self／nonself） |
+| p19–21 | 胞外感染 | 在宿主細胞外複製（血液、呼吸道／腸胃道／泌尿生殖道腔、上皮表面）；**吞噬是主要的先天免疫**（innate immunity）；上皮防禦 |
+| p22–25 | 辨識與殺菌 | 吞噬受體；**phagocyte NADPH oxidase（NOX）complex** |
+| p26–28 | **NETs** | neutrophil extracellular traps；NET 活化；neutrophil 的多重作用 |
+| p29–30 | Professional phagocytes | **抗體／C3b 調理**增強吞噬 |
+| p31 | **CGD** | primary immunodeficiency：NADPH oxidase **五個次單位任一缺陷** → 無 respiratory burst；肺炎、皮膚與器官膿瘍、化膿性關節炎、骨髓炎、菌血症／黴菌血症、淺層皮膚感染 |
+| p32–34 | 吞噬之後、DC | endosome → lysosome 與抗原呈現；**DC 表現的 TLR 與細胞質 PRR 比任何細胞都多**；TLR 訊號促進 DC 成熟 |
+| p35–41 | PAMP／DAMP／PRR | PRR 分類：膜上 **TLR、CLR**（Group I mannose receptor、Group II asialoglycoprotein receptor）；細胞質 **NLR（NOD）、RLR（RIG-I）**；審良静男（Akira） |
+| p42–43 | TLR 訊號、CLR | **MyD88** → kinases → **NF-κB**（發炎基因）、**IRF-3／7**（抗微生物、IFN） |
+| p44–46 | PAMP／DAMP 例 | ***Borrelia burgdorferi*（Lyme disease）**；DAMP 與 PRR |
+| p47–51 | 之後的 adaptive、自體免疫 | 體液免疫；抗體能否保護對抗 HIV；**post-streptococcal disorders**：急性風濕熱（rheumatic fever）、**chorea**、肌痛、強迫症、tics、腎絲球腎炎（glomerulonephritis） |
+| p52–60 | 胞內感染 | 病原須侵入細胞；Non-TLR PRRs；TLR 與 NLR（NOD-like receptor） 訊號；**NLR & inflammasome**（p57–59）；**pyroptosis**（p60） |
+| p61–63 | Innate × adaptive | **NK／T 對 macrophage 的 IL-12 反應 → 分泌 IFN-γ → 活化 macrophage 殺死吞入的微生物** |
+| p64 | **IFN-γ 缺陷** ⭐ | **成人型免疫缺乏（adult-onset immunodeficiency）**：TB、伺機性感染、**非 HIV／AIDS**；原因：**抗 IFN-γ 自體抗體**、IFN-γ 缺陷、遺傳、環境 |
+| p65–66 | 胞內殺菌 | NK 受體 **CD94、NKG2D** |
+| p67–69 | **Type I IFN** | **IPS-1**（IFN-β promoter stimulator-1）、**STING**（stimulator of IFN genes）；抗病毒 type I IFN |
+| p70–71 | **吞噬的脫逃** ⭐ | 抑制附著：**M protein、capsule、biofilm**（*S. pyogenes*、*S. pneumoniae*）；殺吞噬細胞：**leukocidins**（*S. aureus*）、**streptolysins**（*S. pyogenes*）；溶解吞噬細胞：MAC、pore-forming toxin（***Listeria***）；**逃出 phagosome：*Shigella*、*Rickettsia***；**阻止 phagosome–lysosome 融合：HIV、*M. tuberculosis***；**在 phagolysosome 內存活：*Coxiella burnetii*** |
+| p72–78 | 微生物／病毒的免疫脫逃 | 細菌與病毒脫逃策略總覽 |
+| p79 | 慢性病毒感染 | **immune failure（T cell exhaustion）** |
+
 ## 🎙️ 上課錄影重點（林秋烽，10/07，約 105 分）
 - 老師定位：從**宿主**的角度看免疫如何對抗病原，並強調**病原如何免疫脫逃**（所以感染症至今沒有解決）。「幫病毒上一堂免疫學，你要懂得 survive，就要懂得 immune evasion」。
 - 防疫演進：isolation（隔離病人、隔離病房）→ 口罩、防護衣 → **疫苗**才是宿主本身的特異性防禦，還能形成**群體免疫**的牆（David Ho 也說根絕傳染病要靠疫苗（vaccine））。
@@ -139,37 +172,6 @@
 - PRR 訊號有**內生性煞車**（「發炎像油門、旁邊要有煞車」）→ 病原只要操控 negative regulator 就能關掉發炎與 IFN。**SOCS（suppressor of cytokine signaling）**：**SOCS3** 由 **IL-10** 誘導；JEV、RSV（respiratory syncytial virus，呼吸道融合病毒） 增加 SOCS；**EBV（Epstein-Barr virus） 產生類 IL-10** 分子；病毒蛋白還能破壞 STAT 磷酸化或 dimer。**Ebola VP24、VP35** 擋 type I IFN → 爭取複製時間。
 - **GAS 全套脫逃**：DNase 切 NET、toxin 殺 neutrophil、**M protein 結合 C4bp（內生性補體抑制劑）** → 抑制 C3b 調理、降低吞噬；**protein A / protein G** 抓抗體的 **Fc**（Fab（fragment antigen-binding） 抓不到菌）；**SpeB（cysteine protease）切 IgG** → 就算有抗體疫苗也能破壞。*S. aureus* 同為 G+，用**不同分子達到同樣的脫逃**（「免疫系統就這麼一套」）。
 - **慢性 / 潛伏感染**：病原負向調節免疫（類似腫瘤）；例：**HBV carrier 肝組織有大量 Treg 浸潤** → 抑制毒殺性細胞 → 病原「長居久安」。
-
-=== slides ===
-# 上課 slides 重點（20261007 宿主對感染之防衛，林秋烽，80 頁）
-
-> 期中範圍 I13-14，配分 **7%**。很多頁只有圖（取自期刊），以下依頁面標題與文字整理；細節對照「重點整理」的錄影段落。
-
-| 頁 | 主題 | 重點 |
-|---|---|---|
-| p2–5 | 引言 | 防疫：isolation → vaccination；三個學習目標：比較 innate／adaptive 對抗感染、**microbial immunopathogenesis**、**病原的免疫脫逃** |
-| p6–7 | 第一道防線 | 物理：skin、mucus、ciliated epithelium、low pH、tears；化學／生物：**microbiota（probiotics、fecal transplantation）**、enzymes、**AMPs（defensins、cathelicidin、dermcidin）**、antimicrobial lipids、complement、cytokines |
-| p8–10 | **AMPs** ⭐ | 又稱 host defense peptides；**12–50 aa、帶正電（Arg／Lys／His）**；臨床用藥：bacitracin、boceprevir／telaprevir（HCV）、**enfuvirtide（HIV）**、oritavancin／teicoplanin |
-| p11–15 | 補體 | 約 30 個蛋白、蛋白水解連鎖；lectin／classical／alternative 三路徑；C3b 調理、C3a／C5a 發炎與趨化、C5b–C9 = MAC |
-| p16–18 | Innate vs adaptive | adaptive 的特徵：**specificity、diversity、memory、reactivity**（self／nonself） |
-| p19–21 | 胞外感染 | 在宿主細胞外複製（血液、呼吸道／腸胃道／泌尿生殖道腔、上皮表面）；**吞噬是主要的先天免疫**（innate immunity）；上皮防禦 |
-| p22–25 | 辨識與殺菌 | 吞噬受體；**phagocyte NADPH oxidase（NOX）complex** |
-| p26–28 | **NETs** | neutrophil extracellular traps；NET 活化；neutrophil 的多重作用 |
-| p29–30 | Professional phagocytes | **抗體／C3b 調理**增強吞噬 |
-| p31 | **CGD** | primary immunodeficiency：NADPH oxidase **五個次單位任一缺陷** → 無 respiratory burst；肺炎、皮膚與器官膿瘍、化膿性關節炎、骨髓炎、菌血症／黴菌血症、淺層皮膚感染 |
-| p32–34 | 吞噬之後、DC | endosome → lysosome 與抗原呈現；**DC 表現的 TLR 與細胞質 PRR 比任何細胞都多**；TLR 訊號促進 DC 成熟 |
-| p35–41 | PAMP／DAMP／PRR | PRR 分類：膜上 **TLR、CLR**（Group I mannose receptor、Group II asialoglycoprotein receptor）；細胞質 **NLR（NOD）、RLR（RIG-I）**；審良静男（Akira） |
-| p42–43 | TLR 訊號、CLR | **MyD88** → kinases → **NF-κB**（發炎基因）、**IRF-3／7**（抗微生物、IFN） |
-| p44–46 | PAMP／DAMP 例 | ***Borrelia burgdorferi*（Lyme disease）**；DAMP 與 PRR |
-| p47–51 | 之後的 adaptive、自體免疫 | 體液免疫；抗體能否保護對抗 HIV；**post-streptococcal disorders**：急性風濕熱（rheumatic fever）、**chorea**、肌痛、強迫症、tics、腎絲球腎炎（glomerulonephritis） |
-| p52–60 | 胞內感染 | 病原須侵入細胞；Non-TLR PRRs；TLR 與 NLR（NOD-like receptor） 訊號；**NLR & inflammasome**（p57–59）；**pyroptosis**（p60） |
-| p61–63 | Innate × adaptive | **NK／T 對 macrophage 的 IL-12 反應 → 分泌 IFN-γ → 活化 macrophage 殺死吞入的微生物** |
-| p64 | **IFN-γ 缺陷** ⭐ | **成人型免疫缺乏（adult-onset immunodeficiency）**：TB、伺機性感染、**非 HIV／AIDS**；原因：**抗 IFN-γ 自體抗體**、IFN-γ 缺陷、遺傳、環境 |
-| p65–66 | 胞內殺菌 | NK 受體 **CD94、NKG2D** |
-| p67–69 | **Type I IFN** | **IPS-1**（IFN-β promoter stimulator-1）、**STING**（stimulator of IFN genes）；抗病毒 type I IFN |
-| p70–71 | **吞噬的脫逃** ⭐ | 抑制附著：**M protein、capsule、biofilm**（*S. pyogenes*、*S. pneumoniae*）；殺吞噬細胞：**leukocidins**（*S. aureus*）、**streptolysins**（*S. pyogenes*）；溶解吞噬細胞：MAC、pore-forming toxin（***Listeria***）；**逃出 phagosome：*Shigella*、*Rickettsia***；**阻止 phagosome–lysosome 融合：HIV、*M. tuberculosis***；**在 phagolysosome 內存活：*Coxiella burnetii*** |
-| p72–78 | 微生物／病毒的免疫脫逃 | 細菌與病毒脫逃策略總覽 |
-| p79 | 慢性病毒感染 | **immune failure（T cell exhaustion）** |
 
 === exam ===
 # 考點分析

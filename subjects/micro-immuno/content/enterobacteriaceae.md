@@ -1,6 +1,6 @@
 === summary ===
 
-# 腸桿菌科（依百十三共筆整理，鍾筱菁）
+# 腸桿菌科（依百十三內容整理，鍾筱菁）
 
 ## 1. 總體特徵
 
@@ -76,48 +76,6 @@
   - Bubonic（淋巴腺，50–75%）、Septicemic（~100%）、**Pneumonic（人傳人飛沫（droplet），~100%）**；streptomycin；無有效疫苗。
 - **Y. enterocolitica**：**4°C 可生長（cold enrichment）** → 冰箱食物；小腸結腸炎、**假性闌尾炎**（pseudoappendicitis）、reactive arthritis。
 
-## 🎙️ 上課錄影重點（鍾筱菁，10/16）
-
-- **考試方式**：中文出題、**菌名用英文**，老師覺得很重要的會全英文。期中考只考期中範圍；期末會拿期中的細菌來比較，但「不會考太細」。**Neisseria 改由黃姿雯老師上**，但鍾老師的整理表仍會把它一起放進來比較（國考）。
-- **為什麼同樣拉肚子要分菌**：細菌致病主要靠**毒素**，而且多是**外毒素**；水瀉或血便、有沒有發燒，取決於各自的 enterotoxin。國考很多「描述糞便 → 猜菌」的情境題。
-- **氧氣**：腸道沒有氧 → 腸內菌是兼性厭氧、微厭氧或絕對厭氧（obligate anaerobe）；住在**肺、皮膚**的菌是好氧菌。_Pseudomonas aeruginosa_ 放在這裡只是比較，它**住肺部、是好氧菌**。
-- **腸道菌相（國考題）**：「用廣效抗生素把腸道細菌全部殺光才健康」→ **錯**，要維持好菌。好菌與過敏、自體免疫、肥胖、癌症、COVID-19 重症都有關（慢性病 ↔ 菌相失衡是**惡性循環**）。LP33 調節過敏體質只在 **5 歲前**有長期效果，之後只有暫時緩解。
-- **鑑定第一步 = 乳糖發酵**（MacConkey 加酸鹼指示劑，產酸變紅）：_E. coli_、_K. pneumoniae_ 發酵；_Salmonella_、_Shigella_、_Proteus_、_Yersinia_ 不發酵。黃字重點：**革蘭氏陰性桿菌中只有腸內桿菌科是 oxidase (−)**，其他都是 (+)。
-- **Salmonella vs Shigella**：_Salmonella_ **有鞭毛（會動）、產 H₂S（黑色）**；_Shigella_ 兩者皆無（HE agar）。
-- **血清鑑定（醫學系一定要背）**：最外層的構造會引發中和抗體 → **H = flagella、K（_Salmonella_ 叫 Vi）= capsule、O = LPS 最外段**；三者都沒有時用 pili 或 **outer membrane protein**（老師沒特別講的就猜 OMP）。
-- **Capsule 放諸天下皆準**：抗吞噬，但本身變成新抗原 → **血清分型（serotyping）、做疫苗**（_S. pneumoniae_ 13 價等、_N. meningitidis_、_H. influenzae_、_S._ Typhi 的 Vi）。這些都是多醣，**只有炭疽（anthrax） capsule 是胜肽**（peptide）。
-- **LPS 三部分**：**Lipid A（有毒性，常考）**、core polysaccharide、**O antigen**（約 40 個重複糖單位，很長、暴露在外 → 抗原）。**只有 LPS 叫 endotoxin**，其他帶脂質的毒素只能叫「類內毒素」。LPS 是**所有 G(−) 共有**的 virulence factor，十五到二十年前的國考每年都考。
-- **LPS → 敗血症**（sepsis）：免疫反應太強（「是你自己把自己搞死」）：上皮通透性 ↑、發燒（pyrogen）、全部白血球活化、**血小板與凝血系統活化 → DIC**（皮膚瘀斑、器官出血）、肝臟急性期反應 → **septic shock**、器官衰竭。美國 CDC 把敗血症視為**發炎／免疫疾病**而非單純感染症。G(+) 也會敗血症但要慢慢累積毒素；_N. meningitidis_ 可造成 5–6 小時致死的猛暴性敗血症。
-- **敗血症治療（課堂腦力激盪）**：抗生素仍要給但**不夠**；要加**支持性療法**（輸液、輸血、強心劑維持循環）、**免疫抑制劑**、**抗凝血藥物**。
-- **_E. coli_**：以發現者 Escherich 命名，coli = 大腸。分型：**O（LPS，到 O181）、H（flagellin）、K（capsule）**；**O157:H7 = 出血性大腸桿菌代表株**（O = LPS 第 157 型、H = flagellin 第 7 型，老師說這是「常識」）。**K1 → 嬰幼兒腦膜炎**。
-- **七種致病型**：UPEC、ETEC、EHEC（= **STEC**，同一隻）、EPEC、EIEC、EAEC、AIEC；**記不住就記 ETEC、EHEC、EPEC 這三支**，EIEC、EAEC 有空看。
-- **UPEC**：女生尿道短 → 多喝水；**蔓越莓汁的花青素抑制 UPEC 黏附**（pH 不是重點）；黏附靠 **pili 與 fimbriae**；**hemolysin** 溶 RBC（血尿）並活化發炎。
-- **ETEC（旅行者腹瀉）**：黏附因子看看就好，**腸毒素一定要背**。**LT（heat-labile）= cholera-like toxin，A-B toxin**：B 負責黏，A 進去 → **↑cAMP → Cl⁻ 分泌 → 水瀉**；**ST（heat-stable）→ ↑cGMP** → 同樣水瀉。⚠️ **國考題：ETEC 不破壞腸上皮、不出血，糞便沒有血**。
-- **↑cAMP 小整理**：_B. anthracis_ **edema toxin**（局部水腫）、**ETEC LT**、**cholera toxin**（後兩者造成腹瀉）。
-- **EHEC / STEC（最毒、會死人）**：**血便、出血性結腸炎、HUS（溶血性尿毒症候群 → 腎衰竭）**。毒素三個名字都要背：**Shiga toxin = Stx1/Stx2 = verocytotoxin**（課本的「Shiga-like toxin」本質相同）。與 **_Shigella dysenteriae_ 的 Shiga toxin 機制一模一樣**：**A-B toxin**，B 接細胞受體（國考甚至考過受體），**A 結合 60S ribosome → 抑制蛋白質合成 → 細胞死亡**。對照：**白喉毒素作用在 EF-2**（elongation factor 2，延長因子 2）。
-- **EHEC 與 EPEC「師出同門」**：共同黏附因子 **bundle-forming pili** 與 **intimin–Tir**。細菌用 **secretion system** 把 **Tir（translocated intimin receptor）打進宿主細胞、表現在細胞表面**，細菌表面的 **intimin** 再黏上去 → 形成**基座（pedestal）**完整黏附。課堂問答：**intimin 在細菌上、Tir 在宿主細胞上**。
-- **EPEC 沒有毒素**：只黏附、擾亂絨毛吸收 → 只能欺負小朋友（**嬰兒腹瀉**），**不破壞細胞**。**ETEC、EPEC、EHEC 三者中只有 EHEC 會破壞上皮細胞**（國考超愛考這個比較）。
-- **EIEC**：有類 hemolysin → 腹瀉也帶血，**類似 shigellosis**（但不是真的破壞腸細胞）。**EAEC**：很長的 fimbriae 把細胞聚集在一起；**類 STa 毒素 → ↑cGMP → 水瀉**。**AIEC**：躲在腸上皮細胞內，與 **Crohn's disease** 相關（歐美較常見，嚴重者截腸或做人工肛門）。
-- 台灣 EHEC：自 1999 年起只有 5 例。
-- **_Salmonella_ 命名（不要亂寫）**：屬名、種名**斜體**；血清型 **Typhi 大寫、不斜體**。全名 _Salmonella enterica_ serovar Typhi → 簡寫 _Salmonella_ Typhi、_S._ Typhimurium。Pathogenicity island「看看，不會考」。
-- **住在 macrophage 的兩個好處**（課堂複習，同 _Listeria_）：① 逃避免疫攻擊 ② 隨細胞全身跑 → **全身性疾病**。所以**傷寒是 systemic disease，不只是拉肚子**。
-- **傷寒病程**：吃入 → 小腸 → 被 macrophage 吞 → 淋巴結、肝、脾、骨髓 → 發燒、**皮膚紅斑（玫瑰疹）** → **最後住進膽囊**慢慢排菌。⚠️ **國考題（老師連考兩三年還有人錯）：第 1 週約 90% 從血液培養分離，約第 3 週才從糞便分離**。**Widal test**（O、H 抗原的血清凝集）主要考醫技系。
-- **以人為唯一宿主**：糞口 = **_S._ Typhi、_Shigella_、_V. cholerae_**（霍亂、傷寒（typhoid fever）、痢疾）；飛沫 = 白喉（diphtheria）；**性病**（沒有人畜共通的性病）。傷寒**要通報**；非傷寒（_S._ Typhimurium，murine = 老鼠；_S._ Enteritidis）是**自限性食物中毒（food poisoning）、不用通報**，與**受感染雞卵巢 → 汙染的蛋**有關（老師吃壽喜燒不放生蛋）。
-- **傷寒瑪麗的三個概念**：① 傷寒靠**健康帶原者**傳播（國考題）② **人傳人**，不是吃雞鴨牛羊 ③ **膽囊**是 _S._ Typhi 的居住處（她死後解剖發現膽囊充滿傷寒桿菌）。台灣每年約 1 例。
-- **_Shigella_**：**無鞭毛、不會動**（與 _Salmonella_ 最大差別）；_S. dysenteriae_ 最重要；人唯一宿主、糞口。**< 100 顆即可感染 → 能真正人傳人**（已開發國家以人傳人、同志間性行為為主）。台灣 **6–10 月**流行；高雄早餐店重複使用蛋液致死的案例。**高度侵襲 → 血便**；Shiga toxin（A-B → 60S）殺死上皮細胞與 macrophage；可併發 **HUS**。
-- **_Yersinia_**：抗吞噬。鼠疫是**生物恐怖攻擊武器**候選；**飢餓的跳蚤**（感染後無法吸血 → 一直叮咬）。**腺鼠疫**（bubonic plague）：叮咬 → 淋巴結腫大，致死率約 50%；**肺炎型／敗血型**：腺鼠疫病人的菌跑到呼吸道 → **人傳人**，未及時給抗生素致死率約 100%。
-
-## 🎙️ 上課錄影重點（鍾筱菁，10/22，颱風假改同步遠距）
-
-- 國考**不分哪位老師上的**；**腸桿菌科、弧菌、彎曲桿菌、幽門桿菌、綠膿桿菌要一起記、一起比較**；_Bacteroides fragilis_ 會在最後的絕對厭氧菌一起教。前面是觀念養成，後面個案「用問的你就要能回答」。
-- **_Y. pestis_ 有 capsule**（上次沒講）：**F1 protein = 蛋白莢膜**。⚠️ **大部分莢膜是多醣，蛋白（胜肽）莢膜只有 _B. anthracis_（poly-D-glutamic acid）與 _Y. pestis_（F1）**（黃字 = 國考題）。F1 是**潛在疫苗標的但還沒有疫苗**，可作血清型鑑定。Yop proteins「太 detail，不會考」。
-- 鼠疫：**跳蚤叮咬，不是老鼠咬**；腺鼠疫 50–75%；咽喉 → 肺 → 人傳人的**肺炎型與敗血型可近 100%**；初期像流感 → **第一個病人（吹哨者）很重要**；抗生素有效但要**及時**（同炭疽）；**沒有疫苗、感染力極強、可吸入 → 生物恐怖攻擊武器（國考題）**；近年俄國實驗室事件、2019 中國病例。
-- **E. coli K1 capsule → 嬰幼兒腦膜炎**；_S._ Typhi capsule（Vi）→ 血清型與疫苗。
-- **_Y. enterocolitica_**：一般食物中毒、兒童**假性闌尾炎**；**4 °C 可生長 → 冷藏增殖法（冰箱放兩週以上再分離）**，與 **_Listeria_** 一起記（國考小題）。
-- **_K. pneumoniae_**：**厚莢膜**（血清型）、正常菌（normal flora） → **伺機性感染**（opportunistic infection）「從頭到腳」（肺炎、腦膜炎、腹瀉、UTI、敗血症）；肺炎特色 **痰中帶血**；國考較少考。
-- **_P. mirabilis_**：**周鞭毛 → swarming（在培養基上「遊行」，無法形成單一菌落）**；住膀胱，**urease** 把 urea → NH₃ + HCO₃⁻ → pH ↑ → **腎結石**（「you smell funny」= 阿摩尼亞味）。對照：**胃裡產 urease 的是 _H. pylori_**。
-- 弧菌與感染劑量的比較見「Neisseria、Helicobacter、Pseudomonas、Vibrio」章。
-
 ## ✍️ 我的上課筆記
 
 - **p.2 G(−) 桿菌總表**：「**細菌造成疾病是因為有 exotoxin**」；_Pseudomonas_ **好氧**（aerobic） → 住 **skin and lung（氧氣充足）**；腸道裡沒有氧 → 腸桿菌科、弧菌都是兼性厭氧，彎曲桿菌、幽門桿菌微厭氧，_B. fragilis_ 絕對厭氧。
@@ -132,9 +90,8 @@
 
 === slides ===
 
-# 上課 slides
-
-> ✅ 2026/10/16 上課（鍾筱菁）上到 _Yersinia_ 開頭；**10/22 颱風假改同步遠距**（「腸桿菌及弧菌-2」）上完 _Yersinia_、_Klebsiella_、_Proteus_ 與弧菌。以下依講義「腸桿菌及弧菌.pptx」整理；兩次錄影重點在「重點整理」最後。弧菌部分也收在「Neisseria、Helicobacter、Pseudomonas、Vibrio」章。
+# 上課重點
+> ✅ 2026/10/16 上課（鍾筱菁）上到 _Yersinia_ 開頭；**10/22 颱風假改同步遠距**（「腸桿菌及弧菌-2」）上完 _Yersinia_、_Klebsiella_、_Proteus_ 與弧菌。以下依講義「腸桿菌及弧菌.pptx」整理；兩次錄影重點在本頁最後。弧菌部分也收在「Neisseria、Helicobacter、Pseudomonas、Vibrio」章。
 
 ## 開場與總論
 
@@ -208,6 +165,48 @@
 | _V. vulnificus_       | 創傷弧菌；美國 **90% 弧菌相關死亡**；**肝病（肝硬化（cirrhosis）、肝癌）患者死亡率高**；壞死性傷口感染（傷口接觸海水、魚刺）、**水泡性皮膚炎**；吃生蠔 → 侵襲性敗血症；毒力：**多醣莢膜**（抗吞噬）、cytolysins、proteases、collagenase |
 
 > 講義最後一頁寫「To be continue…」，弧菌之後的內容會在下次講義。
+
+## 🎙️ 上課錄影重點（鍾筱菁，10/16）
+
+- **考試方式**：中文出題、**菌名用英文**，老師覺得很重要的會全英文。期中考只考期中範圍；期末會拿期中的細菌來比較，但「不會考太細」。**Neisseria 改由黃姿雯老師上**，但鍾老師的整理表仍會把它一起放進來比較（國考）。
+- **為什麼同樣拉肚子要分菌**：細菌致病主要靠**毒素**，而且多是**外毒素**；水瀉或血便、有沒有發燒，取決於各自的 enterotoxin。國考很多「描述糞便 → 猜菌」的情境題。
+- **氧氣**：腸道沒有氧 → 腸內菌是兼性厭氧、微厭氧或絕對厭氧（obligate anaerobe）；住在**肺、皮膚**的菌是好氧菌。_Pseudomonas aeruginosa_ 放在這裡只是比較，它**住肺部、是好氧菌**。
+- **腸道菌相（國考題）**：「用廣效抗生素把腸道細菌全部殺光才健康」→ **錯**，要維持好菌。好菌與過敏、自體免疫、肥胖、癌症、COVID-19 重症都有關（慢性病 ↔ 菌相失衡是**惡性循環**）。LP33 調節過敏體質只在 **5 歲前**有長期效果，之後只有暫時緩解。
+- **鑑定第一步 = 乳糖發酵**（MacConkey 加酸鹼指示劑，產酸變紅）：_E. coli_、_K. pneumoniae_ 發酵；_Salmonella_、_Shigella_、_Proteus_、_Yersinia_ 不發酵。黃字重點：**革蘭氏陰性桿菌中只有腸內桿菌科是 oxidase (−)**，其他都是 (+)。
+- **Salmonella vs Shigella**：_Salmonella_ **有鞭毛（會動）、產 H₂S（黑色）**；_Shigella_ 兩者皆無（HE agar）。
+- **血清鑑定（醫學系一定要背）**：最外層的構造會引發中和抗體 → **H = flagella、K（_Salmonella_ 叫 Vi）= capsule、O = LPS 最外段**；三者都沒有時用 pili 或 **outer membrane protein**（老師沒特別講的就猜 OMP）。
+- **Capsule 放諸天下皆準**：抗吞噬，但本身變成新抗原 → **血清分型（serotyping）、做疫苗**（_S. pneumoniae_ 13 價等、_N. meningitidis_、_H. influenzae_、_S._ Typhi 的 Vi）。這些都是多醣，**只有炭疽（anthrax） capsule 是胜肽**（peptide）。
+- **LPS 三部分**：**Lipid A（有毒性，常考）**、core polysaccharide、**O antigen**（約 40 個重複糖單位，很長、暴露在外 → 抗原）。**只有 LPS 叫 endotoxin**，其他帶脂質的毒素只能叫「類內毒素」。LPS 是**所有 G(−) 共有**的 virulence factor，十五到二十年前的國考每年都考。
+- **LPS → 敗血症**（sepsis）：免疫反應太強（「是你自己把自己搞死」）：上皮通透性 ↑、發燒（pyrogen）、全部白血球活化、**血小板與凝血系統活化 → DIC**（皮膚瘀斑、器官出血）、肝臟急性期反應 → **septic shock**、器官衰竭。美國 CDC 把敗血症視為**發炎／免疫疾病**而非單純感染症。G(+) 也會敗血症但要慢慢累積毒素；_N. meningitidis_ 可造成 5–6 小時致死的猛暴性敗血症。
+- **敗血症治療（課堂腦力激盪）**：抗生素仍要給但**不夠**；要加**支持性療法**（輸液、輸血、強心劑維持循環）、**免疫抑制劑**、**抗凝血藥物**。
+- **_E. coli_**：以發現者 Escherich 命名，coli = 大腸。分型：**O（LPS，到 O181）、H（flagellin）、K（capsule）**；**O157:H7 = 出血性大腸桿菌代表株**（O = LPS 第 157 型、H = flagellin 第 7 型，老師說這是「常識」）。**K1 → 嬰幼兒腦膜炎**。
+- **七種致病型**：UPEC、ETEC、EHEC（= **STEC**，同一隻）、EPEC、EIEC、EAEC、AIEC；**記不住就記 ETEC、EHEC、EPEC 這三支**，EIEC、EAEC 有空看。
+- **UPEC**：女生尿道短 → 多喝水；**蔓越莓汁的花青素抑制 UPEC 黏附**（pH 不是重點）；黏附靠 **pili 與 fimbriae**；**hemolysin** 溶 RBC（血尿）並活化發炎。
+- **ETEC（旅行者腹瀉）**：黏附因子看看就好，**腸毒素一定要背**。**LT（heat-labile）= cholera-like toxin，A-B toxin**：B 負責黏，A 進去 → **↑cAMP → Cl⁻ 分泌 → 水瀉**；**ST（heat-stable）→ ↑cGMP** → 同樣水瀉。⚠️ **國考題：ETEC 不破壞腸上皮、不出血，糞便沒有血**。
+- **↑cAMP 小整理**：_B. anthracis_ **edema toxin**（局部水腫）、**ETEC LT**、**cholera toxin**（後兩者造成腹瀉）。
+- **EHEC / STEC（最毒、會死人）**：**血便、出血性結腸炎、HUS（溶血性尿毒症候群 → 腎衰竭）**。毒素三個名字都要背：**Shiga toxin = Stx1/Stx2 = verocytotoxin**（課本的「Shiga-like toxin」本質相同）。與 **_Shigella dysenteriae_ 的 Shiga toxin 機制一模一樣**：**A-B toxin**，B 接細胞受體（國考甚至考過受體），**A 結合 60S ribosome → 抑制蛋白質合成 → 細胞死亡**。對照：**白喉毒素作用在 EF-2**（elongation factor 2，延長因子 2）。
+- **EHEC 與 EPEC「師出同門」**：共同黏附因子 **bundle-forming pili** 與 **intimin–Tir**。細菌用 **secretion system** 把 **Tir（translocated intimin receptor）打進宿主細胞、表現在細胞表面**，細菌表面的 **intimin** 再黏上去 → 形成**基座（pedestal）**完整黏附。課堂問答：**intimin 在細菌上、Tir 在宿主細胞上**。
+- **EPEC 沒有毒素**：只黏附、擾亂絨毛吸收 → 只能欺負小朋友（**嬰兒腹瀉**），**不破壞細胞**。**ETEC、EPEC、EHEC 三者中只有 EHEC 會破壞上皮細胞**（國考超愛考這個比較）。
+- **EIEC**：有類 hemolysin → 腹瀉也帶血，**類似 shigellosis**（但不是真的破壞腸細胞）。**EAEC**：很長的 fimbriae 把細胞聚集在一起；**類 STa 毒素 → ↑cGMP → 水瀉**。**AIEC**：躲在腸上皮細胞內，與 **Crohn's disease** 相關（歐美較常見，嚴重者截腸或做人工肛門）。
+- 台灣 EHEC：自 1999 年起只有 5 例。
+- **_Salmonella_ 命名（不要亂寫）**：屬名、種名**斜體**；血清型 **Typhi 大寫、不斜體**。全名 _Salmonella enterica_ serovar Typhi → 簡寫 _Salmonella_ Typhi、_S._ Typhimurium。Pathogenicity island「看看，不會考」。
+- **住在 macrophage 的兩個好處**（課堂複習，同 _Listeria_）：① 逃避免疫攻擊 ② 隨細胞全身跑 → **全身性疾病**。所以**傷寒是 systemic disease，不只是拉肚子**。
+- **傷寒病程**：吃入 → 小腸 → 被 macrophage 吞 → 淋巴結、肝、脾、骨髓 → 發燒、**皮膚紅斑（玫瑰疹）** → **最後住進膽囊**慢慢排菌。⚠️ **國考題（老師連考兩三年還有人錯）：第 1 週約 90% 從血液培養分離，約第 3 週才從糞便分離**。**Widal test**（O、H 抗原的血清凝集）主要考醫技系。
+- **以人為唯一宿主**：糞口 = **_S._ Typhi、_Shigella_、_V. cholerae_**（霍亂、傷寒（typhoid fever）、痢疾）；飛沫 = 白喉（diphtheria）；**性病**（沒有人畜共通的性病）。傷寒**要通報**；非傷寒（_S._ Typhimurium，murine = 老鼠；_S._ Enteritidis）是**自限性食物中毒（food poisoning）、不用通報**，與**受感染雞卵巢 → 汙染的蛋**有關（老師吃壽喜燒不放生蛋）。
+- **傷寒瑪麗的三個概念**：① 傷寒靠**健康帶原者**傳播（國考題）② **人傳人**，不是吃雞鴨牛羊 ③ **膽囊**是 _S._ Typhi 的居住處（她死後解剖發現膽囊充滿傷寒桿菌）。台灣每年約 1 例。
+- **_Shigella_**：**無鞭毛、不會動**（與 _Salmonella_ 最大差別）；_S. dysenteriae_ 最重要；人唯一宿主、糞口。**< 100 顆即可感染 → 能真正人傳人**（已開發國家以人傳人、同志間性行為為主）。台灣 **6–10 月**流行；高雄早餐店重複使用蛋液致死的案例。**高度侵襲 → 血便**；Shiga toxin（A-B → 60S）殺死上皮細胞與 macrophage；可併發 **HUS**。
+- **_Yersinia_**：抗吞噬。鼠疫是**生物恐怖攻擊武器**候選；**飢餓的跳蚤**（感染後無法吸血 → 一直叮咬）。**腺鼠疫**（bubonic plague）：叮咬 → 淋巴結腫大，致死率約 50%；**肺炎型／敗血型**：腺鼠疫病人的菌跑到呼吸道 → **人傳人**，未及時給抗生素致死率約 100%。
+
+## 🎙️ 上課錄影重點（鍾筱菁，10/22，颱風假改同步遠距）
+
+- 國考**不分哪位老師上的**；**腸桿菌科、弧菌、彎曲桿菌、幽門桿菌、綠膿桿菌要一起記、一起比較**；_Bacteroides fragilis_ 會在最後的絕對厭氧菌一起教。前面是觀念養成，後面個案「用問的你就要能回答」。
+- **_Y. pestis_ 有 capsule**（上次沒講）：**F1 protein = 蛋白莢膜**。⚠️ **大部分莢膜是多醣，蛋白（胜肽）莢膜只有 _B. anthracis_（poly-D-glutamic acid）與 _Y. pestis_（F1）**（黃字 = 國考題）。F1 是**潛在疫苗標的但還沒有疫苗**，可作血清型鑑定。Yop proteins「太 detail，不會考」。
+- 鼠疫：**跳蚤叮咬，不是老鼠咬**；腺鼠疫 50–75%；咽喉 → 肺 → 人傳人的**肺炎型與敗血型可近 100%**；初期像流感 → **第一個病人（吹哨者）很重要**；抗生素有效但要**及時**（同炭疽）；**沒有疫苗、感染力極強、可吸入 → 生物恐怖攻擊武器（國考題）**；近年俄國實驗室事件、2019 中國病例。
+- **E. coli K1 capsule → 嬰幼兒腦膜炎**；_S._ Typhi capsule（Vi）→ 血清型與疫苗。
+- **_Y. enterocolitica_**：一般食物中毒、兒童**假性闌尾炎**；**4 °C 可生長 → 冷藏增殖法（冰箱放兩週以上再分離）**，與 **_Listeria_** 一起記（國考小題）。
+- **_K. pneumoniae_**：**厚莢膜**（血清型）、正常菌（normal flora） → **伺機性感染**（opportunistic infection）「從頭到腳」（肺炎、腦膜炎、腹瀉、UTI、敗血症）；肺炎特色 **痰中帶血**；國考較少考。
+- **_P. mirabilis_**：**周鞭毛 → swarming（在培養基上「遊行」，無法形成單一菌落）**；住膀胱，**urease** 把 urea → NH₃ + HCO₃⁻ → pH ↑ → **腎結石**（「you smell funny」= 阿摩尼亞味）。對照：**胃裡產 urease 的是 _H. pylori_**。
+- 弧菌與感染劑量的比較見「Neisseria、Helicobacter、Pseudomonas、Vibrio」章。
 
 === exam ===
 

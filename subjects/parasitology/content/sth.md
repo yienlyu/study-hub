@@ -1,6 +1,6 @@
 === summary ===
 
-# 土源性蠕蟲（Soil-transmitted Helminths）重點整理（依百十四共筆整理、對照百十三共筆）
+# 土源性蠕蟲（Soil-transmitted Helminths）內容整理（依百十四共筆整理、對照百十三共筆）
 
 > 范家堃，2026/09/07。蛔蟲 _Ascaris lumbricoides_、鞭蟲 _Trichuris trichiura_、鉤蟲 _Ancylostoma duodenale_／_Necator americanus_。 以下依百十四共筆 week1 與今年 slides 整理。
 
@@ -95,6 +95,18 @@
 - 鞭蟲屬 **Aphasmid**：串珠狀食道（stichosome）約佔蟲體 1/2，是**組織切片判讀**的依據；生殖器單套（**monodelphic**，國考單字）。
 - 學名書寫格式（填空、跑台、混合蟲卵都要）：屬名大寫、種名小寫、**斜體或底線**。
 
+=== slides ===
+
+# 上課重點（0907 STHs）
+
+## 📑 slides 重點
+
+| 蟲種                   | slides 重點                                                                                                                                                               |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| _Ascaris lumbricoides_ | 最大的線蟲；♀ 20–35 cm；最常見的蠕蟲感染；Ascaris pneumonia（4 天–2 週）、腸阻塞、異位移行；糞便找蟲卵；Albendazole（β-tubulin）                                          |
+| _Trichuris trichiura_  | 第 3 常見；8 億人；直腸脫垂；Kato-Katz；桶狀卵＋兩端透明極塞；Mebendazole 首選                                                                                            |
+| Hookworms              | 第 2 常見；_N. americanus_（美洲、澳洲）、_A. duodenale_（中東、北非、南歐）；_A. braziliense_ 造成 CLM；arrested development；缺鐵性貧血、pica、ground itch；Albendazole |
+
 ## 🎙️ 上課錄影重點（范家堃）
 
 - 十二指腸鉤蟲的「兩對大小相似的牙齒」會鉤住小腸、破壞 enterocyte 後吸血。
@@ -103,16 +115,6 @@
 - **鉤蟲卵**：「不管什麼鉤蟲放出的卵，你就寫 hookworm，就拿到分數了」；形態像雞蛋或鴨蛋，卵殼很薄。
 - 考題情境：臨床醫師夾出的蟲體片段上，**兩根交尾刺合而為一** → 美洲鉤蟲（_Necator_）。以前有問答題時常考這種形態判斷。
 - 鉤蟲有「減敏」的好處（花粉熱等過敏），壞處是貧血。
-
-=== slides ===
-
-# 上課 slides 重點（0907 STHs）
-
-| 蟲種                   | slides 重點                                                                                                                                                               |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| _Ascaris lumbricoides_ | 最大的線蟲；♀ 20–35 cm；最常見的蠕蟲感染；Ascaris pneumonia（4 天–2 週）、腸阻塞、異位移行；糞便找蟲卵；Albendazole（β-tubulin）                                          |
-| _Trichuris trichiura_  | 第 3 常見；8 億人；直腸脫垂；Kato-Katz；桶狀卵＋兩端透明極塞；Mebendazole 首選                                                                                            |
-| Hookworms              | 第 2 常見；_N. americanus_（美洲、澳洲）、_A. duodenale_（中東、北非、南歐）；_A. braziliense_ 造成 CLM；arrested development；缺鐵性貧血、pica、ground itch；Albendazole |
 
 === exam ===
 
