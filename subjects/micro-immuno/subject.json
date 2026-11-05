@@ -17,6 +17,13 @@
   ],
   "groups": [
     {
+      "title": "期末・病毒各論 W9–W11",
+      "chapters": [
+        "herpes-pox",
+        "papova-adeno-parvo"
+      ]
+    },
+    {
       "title": "期末・過敏反應（李岳倫）W14",
       "chapters": [
         "hypersensitivity"
@@ -390,6 +397,22 @@
       "en": "Immunodeficiency diseases",
       "teacher": "賴傳穎",
       "week": "W18-1 遠距",
+      "slides": true
+    },
+    {
+      "id": "herpes-pox",
+      "title": "疱疹病毒與痘病毒",
+      "en": "Herpesviruses & Poxviruses",
+      "teacher": "林良宗",
+      "week": "W9-1（11/4）",
+      "slides": true
+    },
+    {
+      "id": "papova-adeno-parvo",
+      "title": "乳突、多瘤、腺病毒與微小病毒",
+      "en": "Papilloma, Polyoma, Adeno & Parvoviruses",
+      "teacher": "林良宗",
+      "week": "W9-1（11/4）",
       "slides": true
     },
     {
