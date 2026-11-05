@@ -266,6 +266,16 @@
   }
   // 「期中／期末全部範圍」：依 subject.json 的 mock 清單（id 為 final 或標題含「期末」算期末，其餘算期中）。
   // 還沒有期末模擬考時，期末＝不在期中範圍的其他章節。
+  // 這個 group 屬於哪張首頁卡：標題以「期末・<cat>」開頭的那張；其他還沒考的期末組歸第一張；已考完的不歸任何卡
+  function cardOfGroup(meta, g) {
+    const cards = meta.cards || [];
+    const t = g.title || "";
+    return (
+      cards.find((c) => t.startsWith(`期末・${c.cat}`)) ||
+      (!g.done && t.startsWith("期末") ? cards[0] : null) ||
+      null
+    );
+  }
   function examScopes(subj) {
     const all = subj.meta.chapters.map((c) => c.id);
     const mid = new Set(),
@@ -280,23 +290,17 @@
     }
     if (!fin.size && mid.size) all.forEach((id) => !mid.has(id) && fin.add(id));
     const ord = (set) => all.filter((id) => set.has(id));
-    // 期末再依 group 標題「期末・<類別>｜…」拆開（例：寄生蟲 紙筆／跑台、混合蟲卵），類別依 groups 順序
-    const finCats = new Map();
-    for (const g of subj.meta.groups || []) {
-      const cat = /^期末・(.+?)｜/.exec(g.title || "")?.[1];
-      if (!cat) continue;
-      if (!finCats.has(cat)) finCats.set(cat, new Set());
-      g.chapters.forEach((id) => fin.has(id) && finCats.get(cat).add(id));
-    }
-    const finScopes =
-      finCats.size > 1
-        ? [...finCats].map(([cat, set]) => ({ label: `期末${cat.replace(/、/g, "／")}`, chapters: ord(set) }))
-        : [{ label: "期末全部範圍", chapters: ord(fin) }];
-    if (finCats.size > 1) {
-      // 沒標類別的期末章節併進第一個類別
-      const tagged = new Set([...finCats.values()].flatMap((s) => [...s]));
-      const rest = ord(fin).filter((id) => !tagged.has(id));
-      if (rest.length) finScopes[0].chapters = all.filter((id) => rest.includes(id) || finScopes[0].chapters.includes(id));
+    // subject.json 有 cards（例：寄生蟲 紙筆／跑台、混合蟲卵）時，期末依卡片拆開；沒被卡片認領的期末章節歸第一張卡
+    const cards = subj.meta.cards || [];
+    let finScopes = [{ label: "期末全部範圍", chapters: ord(fin) }];
+    if (cards.length > 1) {
+      const own = new Map();
+      for (const g of subj.meta.groups || [])
+        g.chapters.forEach((id) => own.set(id, cardOfGroup(subj.meta, g)));
+      finScopes = cards.map((c) => ({
+        label: c.scopeLabel || `期末${c.cat.replace(/、/g, "／")}`,
+        chapters: ord(fin).filter((id) => (own.get(id) || cards[0]) === c),
+      }));
     }
     return [{ label: "期中全部範圍", chapters: ord(mid) }, ...finScopes].filter((x) => x.chapters.length);
   }
@@ -1212,7 +1216,7 @@
         return await pageGame(seg[1]);
       if (seg[0] === "s" && seg[1]) {
         const sid = seg[1];
-        if (seg.length === 2) return await pageSubject(sid);
+        if (seg.length === 2) return await pageSubject(sid, null, q.part);
         if (seg[2] === "c" && seg[3])
           return await pageChapter(sid, seg[3], seg[4] || "summary", q);
         if (seg[2] === "sheet") return await pageSheet(sid, seg[3] || "", q);
@@ -1909,7 +1913,7 @@
             s,
             ...cd,
             chapters: (s.meta.groups || [])
-              .filter((g) => (g.title || "").startsWith(`期末・${cd.cat}`))
+              .filter((g) => cardOfGroup(s.meta, g) === cd)
               .flatMap((g) => g.chapters),
           }))
         : [{ s, title: s.meta.title, term: s.meta.term, description: s.meta.description }],
@@ -1959,7 +1963,7 @@
         const st = statsOf(e);
         const d = daysLeft(e);
         const n = Math.ceil(d);
-        return `<a class="card subject-card" href="#/s/${e.s.meta.id}">
+        return `<a class="card subject-card" href="#/s/${e.s.meta.id}${e.cat ? `?${qs({ part: e.cat })}` : ""}">
         <div>
           <div class="eyebrow">${esc(e.term || "Subject")}${d >= 0 && d !== Infinity ? ` · <b>距離考試 ${n} 天</b>${whenOf(e) ? ` [${esc(whenOf(e))}]` : ""}` : ""}</div>
           <h3 class="display" style="margin-top:10px">${esc(e.title)}</h3>
@@ -2028,11 +2032,53 @@
   }
 
   // ------------------------------------------------------------ pages: subject
-  async function pageSubject(sid, sortMode) {
+  // subject.json 有 "cards"（例：寄生蟲 紙筆／跑台、混合蟲卵）時，科目頁可以只看其中一張卡的範圍：
+  // 該卡＝groups 標題以「期末・<cat>」開頭的組；第一張卡另外包含沒被任何卡認領的組（例：已考完的期中）。
+  function subjectPart(subj, part) {
+    const cards = subj.meta.cards || [];
+    const card = cards.find((c) => c.cat === part);
+    if (!card) return null;
+    const groups = subj.meta.groups || [];
+    const owner = (g) => cardOfGroup(subj.meta, g);
+    const gs = groups.filter(
+      (g) => owner(g) === card || (!owner(g) && card === cards[0]),
+    );
+    const ids = new Set(gs.flatMap((g) => g.chapters));
+    return {
+      card,
+      cards,
+      meta: {
+        ...subj.meta,
+        title: card.title,
+        term: card.term || subj.meta.term,
+        description: card.description || subj.meta.description,
+        examDate: card.examDate || subj.meta.examDate,
+        groups: gs,
+        chapters: subj.meta.chapters.filter((c) => ids.has(c.id)),
+      },
+    };
+  }
+  async function pageSubject(sid, sortMode, part) {
     const subj = await loadSubject(sid);
     setChrome(sid, "subject");
-    const m = subj.meta;
-    const st = subjectStats(subj);
+    const P = subjectPart(subj, part);
+    const m = P ? P.meta : subj.meta;
+    const st = P
+      ? (() => {
+          const a = m.chapters.reduce(
+            (a, c) => {
+              const x = chapterStats(subj, c.id);
+              a.total += x.total;
+              a.done += x.done;
+              a.right += x.right;
+              a.wrong += x.wrong;
+              return a;
+            },
+            { total: 0, done: 0, right: 0, wrong: 0 },
+          );
+          return { ...a, acc: pct(a.right, a.done) };
+        })()
+      : subjectStats(subj);
     const sort = sortMode || store.get("sh:sort", "course");
     const read = getRead(sid);
     const stats = Object.fromEntries(
@@ -2042,7 +2088,11 @@
 
     // next-up
     const lastCh = store.get(K.last(sid), null);
-    const lastC = lastCh && !subj.chMap[lastCh]?.done && subj.chMap[lastCh];
+    const lastC =
+      lastCh &&
+      !subj.chMap[lastCh]?.done &&
+      m.chapters.some((c) => c.id === lastCh) &&
+      subj.chMap[lastCh];
     const live = m.chapters.filter((c) => !subj.chMap[c.id].done);
     const firstUnread =
       live.find((c) => c.slides && !read.has(c.id)) || live[0] || m.chapters[0];
@@ -2074,6 +2124,15 @@
         <span class="mastery"><span class="ring" style="--p:${s.mastery}"></span><span><b class="num">${s.mastery}%</b><br><span class="muted num">${s.right} / ${s.total} 題</span></span></span>
         <span class="chev">${ic("chevR")}</span></a>`;
     };
+    // PART 編號依上課順序（各組第一章在 chapters 陣列的位置）固定，不因為考完的組移到下面而改變
+    const order = subj.meta.chapters.map((c) => c.id);
+    const first = (g) =>
+      Math.min(...g.chapters.map((id) => order.indexOf(id)).filter((i) => i >= 0));
+    const byCourse = [...(subj.meta.groups || [])].sort((a, b) => first(a) - first(b));
+    const partNo = (g, gi) => {
+      const i = byCourse.indexOf(g);
+      return i >= 0 ? i : gi;
+    };
     let list;
     if (sort === "course") {
       list = (
@@ -2081,7 +2140,7 @@
       )
         .map(
           (g, gi) => `
-        <div class="part-title${g.done ? " done" : ""}"><span class="mono">PART ${["I", "II", "III", "IV", "V", "VI"][gi] || gi + 1}</span><span class="display">${esc(g.title)}</span>${g.done ? `<span class="pill line">${ic("check")}${esc(g.done)}</span>` : ""}</div>
+        <div class="part-title${g.done ? " done" : ""}"><span class="mono">PART ${["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"][partNo(g, gi)] || partNo(g, gi) + 1}</span><span class="display">${esc(g.title)}</span>${g.done ? `<span class="pill line">${ic("check")}${esc(g.done)}</span>` : ""}</div>
         ${g.chapters
           .map((id) => subj.chMap[id])
           .filter(Boolean)
@@ -2116,6 +2175,7 @@
       `
       <div class="wrap">
         <nav class="crumbs" aria-label="路徑"><a href="#/">所有科目</a><span class="sep">/</span><span>${esc(m.title)}</span></nav>
+        ${P ? `<nav class="seg" aria-label="考試範圍" style="margin-top:14px">${P.cards.map((c) => `<a href="#/s/${sid}?${qs({ part: c.cat })}"${c === P.card ? ' aria-current="page"' : ""}>${esc(c.title)}</a>`).join("")}</nav>` : ""}
         <header class="page-head">
           <div>
             <div class="eyebrow">Subject · ${esc(m.term || "")}${exam !== null && exam >= 0 ? ` · <b>距離考試 ${exam} 天</b>` : ""}</div>
@@ -2144,7 +2204,7 @@
                   start: 1,
                   n: 20,
                   mode: "random",
-                  ch: taughtIds(subj),
+                  ch: P ? m.chapters.filter((c) => !subj.chMap[c.id].done && c.slides).map((c) => c.id).join(",") || m.chapters.map((c) => c.id).join(",") : taughtIds(subj),
                 })}">
             <span class="eyebrow">${ic("shuffle")}暖身</span><h3>已上課範圍隨機 20 題</h3><p>考古、課堂題和模擬新題混合出題。</p><span class="go">開始 ${ic("arrowR")}</span></a>`
           }
@@ -2186,7 +2246,7 @@
           b.addEventListener("click", () => {
             store.set("sh:sort", b.dataset.sort);
             const y = scrollY;
-            pageSubject(sid, b.dataset.sort).then(() => scrollTo({ top: y }));
+            pageSubject(sid, b.dataset.sort, part).then(() => scrollTo({ top: y }));
           }),
         );
       },
