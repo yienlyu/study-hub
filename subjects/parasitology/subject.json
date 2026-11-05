@@ -2,9 +2,9 @@
   "id": "parasitology",
   "title": "寄生蟲學",
   "short": "寄生蟲",
-  "term": "115-1 期中考",
-  "examDate": "2026-11-03",
-  "description": "寄生蟲總論、線蟲各論與吸蟲：土源性蠕蟲、蟯蟲、犬蛔蟲、毛線蟲、糞小桿線蟲、食源性線蟲、血絲蟲、吸蟲，以及實驗課蟲卵鑑別。整合 2026 上課 slides、EverCam 逐字稿、百十四共筆（對照百十三共筆）與考古。",
+  "term": "115-1 期末考",
+  "examDate": "2026-12-21",
+  "description": "期末範圍：絛蟲（假葉目、圓葉目）、醫學吸蟲、原蟲（阿米巴、鞭毛蟲、瘧疾與巴貝氏蟲）、醫學節肢動物，以及實驗課蟲卵與蟲體鑑別。紙筆期末考 12/21（一），混合蟲卵考試 12/14（一）。整合 2026 上課 slides、EverCam 逐字稿、百十四共筆（對照百十三共筆）與考古。",
   "color": "#6b7a2f",
   "icon": "🪱",
   "sheet": "content/_sheet.md",
@@ -58,21 +58,24 @@
   ],
   "groups": [
     {
-      "title": "總論與腸道線蟲（范家堃）W1–W2",
+      "title": "期中・總論與腸道線蟲（范家堃）W1–W2",
       "chapters": [
         "intro",
         "sth",
         "capillaria-strongyloides",
         "enterobius-toxocara"
-      ]
+      ],
+      "done": "26/11/3 midterm"
     },
     {
-      "title": "組織線蟲（范家堃）W3",
-      "chapters": ["foodborne", "filaria"]
+      "title": "期中・組織線蟲（范家堃）W3",
+      "chapters": ["foodborne", "filaria"],
+      "done": "26/11/3 midterm"
     },
     {
-      "title": "吸蟲（鄭柏青）W5–W7",
-      "chapters": ["trematodes"]
+      "title": "期中・吸蟲（鄭柏青）W5–W7",
+      "chapters": ["trematodes"],
+      "done": "26/11/3 midterm"
     },
     {
       "title": "期末・紙筆｜絛蟲（范家堃）W9",

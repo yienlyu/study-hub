@@ -2,9 +2,9 @@
   "id": "micro-immuno",
   "title": "微生物與免疫學",
   "short": "微免",
-  "term": "115-1 期中考",
-  "examDate": "2026-11-04",
-  "description": "細菌學總論、免疫學基礎、各論細菌、真菌與病毒學總論。整合 2026 上課 slides 與錄影、百十四共筆（對照百十三共筆）、113／111 考古、106／109／110 整份期中考古與 114 期中記題。",
+  "term": "115-1 期末考",
+  "examDate": "2026-12-23",
+  "description": "期末範圍：病毒各論、細菌各論（噬血桿菌、分枝桿菌、厭氧菌、螺旋體、披衣菌與立克次體），以及耐受性與自體免疫、移植、過敏、腫瘤免疫、疫苗。期末考 12/23（三）。整合 2026 上課 slides 與錄影、百十四共筆（對照百十三共筆）、113／111 考古、106／109／110 整份期中考古與 114 期中記題。",
   "color": "#2f7d6d",
   "icon": "🦠",
   "questionFiles": [
@@ -17,15 +17,22 @@
   ],
   "groups": [
     {
-      "title": "細菌學總論（黃姿雯）W1",
+      "title": "期末・過敏反應（李岳倫）W14",
+      "chapters": [
+        "hypersensitivity"
+      ]
+    },
+    {
+      "title": "期中・細菌學總論（黃姿雯）W1",
       "chapters": [
         "bact-structure",
         "bact-genetics",
         "sterilization"
-      ]
+      ],
+      "done": "26/11/4 midterm"
     },
     {
-      "title": "免疫學 W2–W5",
+      "title": "期中・免疫學 W2–W5",
       "chapters": [
         "immuno-basic",
         "innate",
@@ -33,10 +40,11 @@
         "tcell-dev",
         "tcell-act",
         "infection-immunity"
-      ]
+      ],
+      "done": "26/11/4 midterm"
     },
     {
-      "title": "細菌、真菌與病毒各論 W6–W8",
+      "title": "期中・細菌、真菌與病毒各論 W6–W8",
       "chapters": [
         "bacillus",
         "enterobacteriaceae",
@@ -44,184 +52,201 @@
         "neisseria",
         "fungi",
         "viruses"
-      ]
+      ],
+      "done": "26/11/4 midterm"
     },
     {
-      "title": "非同步遠距（W17–W18，期中考範圍）",
+      "title": "期中・非同步遠距（W17–W18，期中考範圍）",
       "chapters": [
         "mhc",
         "pathogenesis",
         "immunodeficiency"
-      ]
-    },
-    {
-      "title": "期中考後",
-      "chapters": [
-        "hypersensitivity"
-      ]
+      ],
+      "done": "26/11/4 midterm"
     }
   ],
-  "mock": {
-    "until": "2026-11-04T19:30+08:00",
-    "title": "期中模擬考",
-    "when": "11/4（三）18:10–19:30",
-    "minutes": 80,
-    "note": "配分依 I'm@TMU 10/13 公告與課程首頁（單選 106 分：微生物 56、免疫 50），過敏不在範圍內。每題分數＝該單元配分 ÷ 題數。10/28 公告：題數較多，考試時間延長為 80 分鐘（18:10–19:30），範圍與其他規定不變。題數依 114 期中考（學長姐記下約 90 題）抓 90 題，各單元題數依配分比例分配。",
-    "sections": [
-      {
-        "title": "細菌構造",
-        "points": 6,
-        "n": 5,
-        "from": [
-          "bact-structure"
-        ]
-      },
-      {
-        "title": "代謝遺傳＋滅菌",
-        "points": 7,
-        "n": 6,
-        "from": [
-          "bact-genetics",
-          "sterilization"
-        ]
-      },
-      {
-        "title": "致病機制",
-        "points": 3,
-        "n": 2,
-        "from": [
-          "pathogenesis"
-        ]
-      },
-      {
-        "title": "腸內菌、弧菌",
-        "points": 7,
-        "n": 6,
-        "from": [
-          "enterobacteriaceae",
-          "neisseria:Vibrio"
-        ]
-      },
-      {
-        "title": "桿菌、李斯特菌、棒狀桿菌",
-        "points": 7,
-        "n": 6,
-        "from": [
-          "bacillus"
-        ]
-      },
-      {
-        "title": "葡萄球菌、鏈球菌、奈瑟氏菌",
-        "points": 7,
-        "n": 6,
-        "from": [
-          "staph-strep",
-          "neisseria:Neisseria"
-        ]
-      },
-      {
-        "title": "綠膿桿菌、彎曲桿菌",
-        "points": 4,
-        "n": 3,
-        "from": [
-          "neisseria:Pseudomonas|H. pylori／Campylobacter"
-        ]
-      },
-      {
-        "title": "真菌構造與抗真菌藥",
-        "points": 3,
-        "n": 3,
-        "from": [
-          "fungi:真菌構造與分類|抗真菌藥物"
-        ]
-      },
-      {
-        "title": "真菌感染",
-        "points": 6,
-        "n": 5,
-        "from": [
-          "fungi:!真菌構造與分類|抗真菌藥物"
-        ]
-      },
-      {
-        "title": "病毒構造、複製、分類與抗病毒藥",
-        "points": 6,
-        "n": 5,
-        "from": [
-          "viruses"
-        ]
-      },
-      {
-        "title": "免疫基本概念",
-        "points": 6,
-        "n": 5,
-        "from": [
-          "immuno-basic"
-        ]
-      },
-      {
-        "title": "先天免疫",
-        "points": 7,
-        "n": 6,
-        "from": [
-          "innate"
-        ]
-      },
-      {
-        "title": "B 細胞與體液性免疫",
-        "points": 7,
-        "n": 6,
-        "from": [
-          "agab",
-          "tcell-act:B 細胞活化／class switch／生發中心"
-        ]
-      },
-      {
-        "title": "抗原呈現與 MHC",
-        "points": 7,
-        "n": 6,
-        "from": [
-          "mhc"
-        ]
-      },
-      {
-        "title": "T 細胞與細胞性免疫",
-        "points": 7,
-        "n": 6,
-        "from": [
-          "tcell-dev:!共刺激（CD28/B7/CTLA-4）",
-          "tcell-act:細胞毒殺（perforin/Fas）|T 細胞活化|白血球遷移（selectin→chemokine→integrin）"
-        ]
-      },
-      {
-        "title": "免疫調節",
-        "points": 6,
-        "n": 5,
-        "from": [
-          "tcell-act:TH 分化與細胞激素|共刺激（CD28/B7/CTLA-4）",
-          "tcell-dev:共刺激（CD28/B7/CTLA-4）",
-          "immuno-basic:共刺激（CD28/B7/CTLA-4）"
-        ]
-      },
-      {
-        "title": "宿主對感染之防衛",
-        "points": 7,
-        "n": 6,
-        "from": [
-          "infection-immunity"
-        ]
-      },
-      {
-        "title": "免疫缺陷",
-        "points": 3,
-        "n": 3,
-        "from": [
-          "immunodeficiency"
-        ]
-      }
-    ],
-    "newRatio": 0.2
-  },
+  "mock": [
+    {
+      "until": "2026-11-04T19:30+08:00",
+      "title": "期中模擬考",
+      "when": "11/4（三）18:10–19:30",
+      "minutes": 80,
+      "note": "配分依 I'm@TMU 10/13 公告與課程首頁（單選 106 分：微生物 56、免疫 50），過敏不在範圍內。每題分數＝該單元配分 ÷ 題數。10/28 公告：題數較多，考試時間延長為 80 分鐘（18:10–19:30），範圍與其他規定不變。題數依 114 期中考（學長姐記下約 90 題）抓 90 題，各單元題數依配分比例分配。",
+      "sections": [
+        {
+          "title": "細菌構造",
+          "points": 6,
+          "n": 5,
+          "from": [
+            "bact-structure"
+          ]
+        },
+        {
+          "title": "代謝遺傳＋滅菌",
+          "points": 7,
+          "n": 6,
+          "from": [
+            "bact-genetics",
+            "sterilization"
+          ]
+        },
+        {
+          "title": "致病機制",
+          "points": 3,
+          "n": 2,
+          "from": [
+            "pathogenesis"
+          ]
+        },
+        {
+          "title": "腸內菌、弧菌",
+          "points": 7,
+          "n": 6,
+          "from": [
+            "enterobacteriaceae",
+            "neisseria:Vibrio"
+          ]
+        },
+        {
+          "title": "桿菌、李斯特菌、棒狀桿菌",
+          "points": 7,
+          "n": 6,
+          "from": [
+            "bacillus"
+          ]
+        },
+        {
+          "title": "葡萄球菌、鏈球菌、奈瑟氏菌",
+          "points": 7,
+          "n": 6,
+          "from": [
+            "staph-strep",
+            "neisseria:Neisseria"
+          ]
+        },
+        {
+          "title": "綠膿桿菌、彎曲桿菌",
+          "points": 4,
+          "n": 3,
+          "from": [
+            "neisseria:Pseudomonas|H. pylori／Campylobacter"
+          ]
+        },
+        {
+          "title": "真菌構造與抗真菌藥",
+          "points": 3,
+          "n": 3,
+          "from": [
+            "fungi:真菌構造與分類|抗真菌藥物"
+          ]
+        },
+        {
+          "title": "真菌感染",
+          "points": 6,
+          "n": 5,
+          "from": [
+            "fungi:!真菌構造與分類|抗真菌藥物"
+          ]
+        },
+        {
+          "title": "病毒構造、複製、分類與抗病毒藥",
+          "points": 6,
+          "n": 5,
+          "from": [
+            "viruses"
+          ]
+        },
+        {
+          "title": "免疫基本概念",
+          "points": 6,
+          "n": 5,
+          "from": [
+            "immuno-basic"
+          ]
+        },
+        {
+          "title": "先天免疫",
+          "points": 7,
+          "n": 6,
+          "from": [
+            "innate"
+          ]
+        },
+        {
+          "title": "B 細胞與體液性免疫",
+          "points": 7,
+          "n": 6,
+          "from": [
+            "agab",
+            "tcell-act:B 細胞活化／class switch／生發中心"
+          ]
+        },
+        {
+          "title": "抗原呈現與 MHC",
+          "points": 7,
+          "n": 6,
+          "from": [
+            "mhc"
+          ]
+        },
+        {
+          "title": "T 細胞與細胞性免疫",
+          "points": 7,
+          "n": 6,
+          "from": [
+            "tcell-dev:!共刺激（CD28/B7/CTLA-4）",
+            "tcell-act:細胞毒殺（perforin/Fas）|T 細胞活化|白血球遷移（selectin→chemokine→integrin）"
+          ]
+        },
+        {
+          "title": "免疫調節",
+          "points": 6,
+          "n": 5,
+          "from": [
+            "tcell-act:TH 分化與細胞激素|共刺激（CD28/B7/CTLA-4）",
+            "tcell-dev:共刺激（CD28/B7/CTLA-4）",
+            "immuno-basic:共刺激（CD28/B7/CTLA-4）"
+          ]
+        },
+        {
+          "title": "宿主對感染之防衛",
+          "points": 7,
+          "n": 6,
+          "from": [
+            "infection-immunity"
+          ]
+        },
+        {
+          "title": "免疫缺陷",
+          "points": 3,
+          "n": 3,
+          "from": [
+            "immunodeficiency"
+          ]
+        }
+      ],
+      "newRatio": 0.2
+    },
+    {
+      "id": "final",
+      "title": "期末模擬考",
+      "when": "12/23（三）",
+      "until": "2026-12-23",
+      "minutes": 80,
+      "note": "I'm@TMU 還沒公告期末範圍與配分。依教務系統授課進度表，期末範圍是 W9–W15：病毒各論（11/4–11/20，12 小時）、細菌各論（11/25–12/4，8 小時）、免疫學（12/9–12/18：耐受性與自體免疫、移植、過敏、腫瘤免疫、疫苗，8 小時）。目前題庫只有過敏反應，其他單元上課後再補進來；配分先依時數估（過敏 2/28 小時≈7 分）。",
+      "sections": [
+        {
+          "title": "過敏反應（李岳倫）",
+          "points": 7,
+          "n": 7,
+          "from": [
+            "hypersensitivity"
+          ]
+        }
+      ],
+      "newRatio": 0.2
+    }
+  ],
   "chapters": [
     {
       "id": "bact-structure",
@@ -371,7 +396,7 @@
       "id": "hypersensitivity",
       "title": "過敏反應",
       "en": "Hypersensitivity",
-      "teacher": "—",
+      "teacher": "李岳倫",
       "week": "W14-2（12/11）",
       "slides": false
     }
