@@ -1246,6 +1246,14 @@ a.icon-btn { text-decoration: none; }
 .gm-drop:hover { text-decoration: none; }
 .gm-drop:hover svg, .gm-drop:focus-visible svg { transform: rotate(-12deg) scale(1.08); }
 .gm-drop[hidden] { display: none; }
+.play-limit { position: fixed; inset: 0; z-index: 120; display: grid; place-items: center; padding: 16px; background: color-mix(in srgb, var(--ink) 45%, transparent); backdrop-filter: blur(3px); animation: plFade .2s var(--ease); }
+.play-limit-card { background: var(--card); color: var(--ink); border: 1px solid var(--rule-strong); border-radius: 18px; box-shadow: var(--shadow-2); padding: 28px 28px 24px; max-width: 360px; width: 100%; text-align: center; }
+.play-limit-card h2 { margin: 8px 0 4px; font-size: 1.5rem; }
+.play-limit-card p { margin: 4px 0; }
+.play-limit-card .num { display: block; font-size: 3.4rem; line-height: 1.1; margin: 12px 0 0; color: var(--safranin); }
+.play-limit-card .btn { margin-top: 14px; }
+@keyframes plFade { from { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .play-limit { animation: none; } }
 @keyframes mxIn { from { opacity: 0; transform: scale(.2); } }
 @media (prefers-reduced-motion: reduce) { .mx-nudge, .mx-nudge.ping, .mx-pop, .mx-nudge svg, .gm-drop, .gm-drop svg { animation: none; transition: none; } }
 .mx-pop-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }

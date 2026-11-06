@@ -3326,6 +3326,92 @@
     };
   })();
 
+  // 小遊戲最長連續玩 20 分鐘：在 #/play 底下（大廳＋各遊戲、分頁看得到時）累計，時間到倒數 3 秒，
+  // 自動回到進小遊戲前的學習 / 閱讀頁面。離開小遊戲滿 10 分鐘才重新計，馬上點回來會直接再倒數。
+  const PlayLimit = (() => {
+    const LIMIT = 20 * 60e3,
+      GAP = 10 * 60e3,
+      K = "sh:play:clock",
+      KB = "sh:play:back";
+    const isPlay = (h) => /^#\/play(\/|\?|$)/.test(h || "");
+    const read = () => {
+      try {
+        return JSON.parse(ss.get(K)) || { used: 0, away: 0 };
+      } catch {
+        return { used: 0, away: 0 };
+      }
+    };
+    let st = read(),
+      last = 0,
+      cd = null;
+    const save = () => ss.set(K, JSON.stringify(st));
+    const back = () => {
+      const b = ss.get(KB);
+      return b && !isPlay(b) ? b : "#/";
+    };
+    const cancel = () => {
+      if (!cd) return;
+      clearInterval(cd.t);
+      cd.el.remove();
+      cd = null;
+    };
+    const countdown = () => {
+      if (cd) return;
+      const el = document.createElement("div");
+      el.className = "play-limit";
+      el.setAttribute("role", "alertdialog");
+      el.setAttribute("aria-live", "assertive");
+      el.innerHTML = `<div class="play-limit-card"><div class="eyebrow">Time's up</div><h2 class="display">連續玩 ${LIMIT / 60e3} 分鐘了</h2><p>休息一下，回去繼續讀吧！</p><b class="num" id="plN">3</b><p class="small">秒後自動回到剛剛的頁面</p><a class="btn primary" href="${esc(back())}">現在就回去</a></div>`;
+      document.body.appendChild(el);
+      let n = 3;
+      cd = {
+        el,
+        t: setInterval(() => {
+          if (--n > 0) return void ($("#plN").textContent = n);
+          const to = back();
+          cancel();
+          location.hash = to;
+        }, 1000),
+      };
+    };
+    const tick = () => {
+      const now = Date.now();
+      if (!isPlay(location.hash)) return void (last = 0);
+      if (last && !document.hidden && !cd) st.used += now - last;
+      last = now;
+      save();
+      if (st.used >= LIMIT) countdown();
+    };
+    const enter = (from) => {
+      if (from != null && !isPlay(from)) ss.set(KB, from || "#/");
+      if (st.away && Date.now() - st.away >= GAP) st.used = 0;
+      st.away = 0;
+      last = Date.now();
+      save();
+      tick();
+    };
+    const init = () => {
+      addEventListener("hashchange", (e) => {
+        const from = new URL(e.oldURL).hash,
+          to = location.hash;
+        if (isPlay(to) && !isPlay(from)) enter(from);
+        else if (!isPlay(to) && isPlay(from)) {
+          tick();
+          cancel();
+          st.away = Date.now();
+          save();
+        }
+      });
+      if (isPlay(location.hash)) enter(null);
+      setInterval(tick, 1000);
+      document.addEventListener("visibilitychange", () => {
+        last = 0;
+        tick();
+      });
+    };
+    return { init, LIMIT };
+  })();
+
   async function pageGames() {
     setChrome(null, "play");
     render(`
@@ -7665,6 +7751,7 @@
     paintAcct();
     Cloud.init();
     MoodWatch.init();
+    PlayLimit.init();
     // 閒置時先建搜尋索引，按 ⌘K / 時就不用等
     (window.requestIdleCallback || ((f) => setTimeout(f, 1500)))(() =>
       buildIndex().catch(() => {}),

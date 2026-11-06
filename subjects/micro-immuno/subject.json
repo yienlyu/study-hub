@@ -20,7 +20,8 @@
       "title": "期末・病毒各論 W9–W11",
       "chapters": [
         "herpes-pox",
-        "papova-adeno-parvo"
+        "papova-adeno-parvo",
+        "picorna-cov"
       ]
     },
     {
@@ -413,6 +414,14 @@
       "en": "Papilloma, Polyoma, Adeno & Parvoviruses",
       "teacher": "林良宗",
       "week": "W9-1（11/4）",
+      "slides": true
+    },
+    {
+      "id": "picorna-cov",
+      "title": "小 RNA 病毒與冠狀病毒",
+      "en": "Picornaviruses & Coronaviruses",
+      "teacher": "林良宗",
+      "week": "W9-2（11/6）",
       "slides": true
     },
     {

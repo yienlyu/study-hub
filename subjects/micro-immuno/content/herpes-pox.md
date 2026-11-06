@@ -188,7 +188,7 @@
 
 # 上課重點（2026/11/4，林良宗）
 
-> ✅ 2026/11/4 上課，錄影與逐字稿已公布（I'm@TMU「醫-Herpesviruses & Poxviruses」）。課程另上傳了「[影音一] Herpesviruses（完整版）」「[影音三] Poxviruses（完整版）」，還沒有逐字稿。
+> ✅ 2026/11/4 上課，錄影與逐字稿已公布（I'm@TMU「醫-Herpesviruses & Poxviruses」）。課程另上傳了「[影音一] Herpesviruses（完整版）」（57 分）「[影音三] Poxviruses（完整版）」（12 分），I'm@TMU 沒有附逐字稿，本站已自行轉錄放在 `slides/micro-immuno/transcripts/`。⚠️ 這兩段的伺服器檔案日期是 **2025-11-11／2023-12-02，不是今年的錄影**，兩年說法不同時以今年的為準。
 
 ## 📑 slides 重點
 

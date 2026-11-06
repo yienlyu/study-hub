@@ -91,7 +91,7 @@
 - 議題：氣候變遷、環境化學物質、新興傳染病（Zika、COVID-19）；許多重要疾病的病因仍未明。
 - **分子流行病學**：打開暴露到疾病之間的「黑盒子」，用生物標記（exposure → internal dose → biologically effective dose → early biological effect → disease），例如 HIV 感染到 AIDS 的進程。
 
-## 9. 描述性流行病學 ⭐⭐⭐
+## 9. 描述性流行病學（Descriptive Epidemiology） ⭐⭐⭐
 
 - 定義：研究疾病在族群中的分布，系統性整理資料，找出**非隨機的變異（clues）**。
 - 用途：評估健康與疾病趨勢、提供規劃與評估依據、**找出問題交給分析性方法研究**、決定政策與研究優先順序。
