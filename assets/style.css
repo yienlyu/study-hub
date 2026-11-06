@@ -1343,9 +1343,19 @@ a.icon-btn { text-decoration: none; }
 }
 .news-modal.show { opacity: 1; }
 .news-box {
-  position: relative; width: min(460px, 100%); max-height: calc(100vh - 32px); overflow: auto;
+  position: relative; width: min(460px, 100%);
+  /* dvh：iOS Safari 的 100vh 含網址列，底部會被工具列擋住 */
+  max-height: calc(100vh - 32px); max-height: calc(100dvh - 32px);
+  display: flex; flex-direction: column; overflow: hidden;
   background: var(--card); color: var(--ink); border-radius: 16px; padding: 22px 22px 18px; box-shadow: var(--shadow-2);
   transform: translateY(10px); transition: transform .25s var(--ease);
+}
+.news-box > :not(.news-items) { flex-shrink: 0; }
+/* 只有更新列表捲動，標題與「知道了」固定；下面還有內容時底部淡出提示 */
+.news-items { min-height: 0; overflow-y: auto; overscroll-behavior: contain; }
+.news-items.more {
+  -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 56px), transparent);
+  mask-image: linear-gradient(to bottom, #000 calc(100% - 56px), transparent);
 }
 .news-modal.show .news-box { transform: none; }
 .news-box h2 { margin: 8px 0 4px; }
@@ -1356,3 +1366,14 @@ a.icon-btn { text-decoration: none; }
 .news-more { margin: 4px 0 0; color: var(--ink-3, var(--ink-2)); font-size: .85rem; }
 .news-link { display: inline-flex; align-items: center; gap: 4px; margin-top: 8px; font-size: .88rem; color: var(--violet-ink); }
 .news-link svg { width: 14px; height: 14px; }
+
+/* 數學式（KaTeX，assets/katex/；載入前顯示 TeX 原文） */
+.math-block { margin: 12px 0; padding: 10px 14px; overflow-x: auto; overflow-y: hidden; text-align: center; background: var(--paper-2); border-radius: 10px; }
+.math-block .katex-display { margin: 0; }
+.math:not([data-done]) { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .85em; color: var(--ink-2); }
+.math .katex { font-size: 1.08em; }
+.prose td .math .katex, .prose th .math .katex { font-size: 1em; }
+.math-d .katex-display { display: inline-block; margin: 2px 0; }
+blockquote .math-block { background: none; padding: 4px 0; }
+/* 速記卡的觀念圖按鈕：圖名太長時換行，不要撐出橫向捲動 */
+.sheet .card .btn { white-space: normal; height: auto; min-height: 34px; max-width: 100%; text-align: left; padding-top: 6px; padding-bottom: 6px; }

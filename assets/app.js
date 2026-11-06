@@ -1265,7 +1265,41 @@
   function setupMarked() {
     if (mdReady || !window.marked) return;
     mdReady = true;
+    // 數學式：$$…$$ 獨立成段 = 置中公式（區塊內每一行一條公式，上下排列）；行內 $…$（表格裡也可以用 $$…$$ 得到 display 樣式）。
+    // 先輸出含 TeX 原文的佔位元素，enhanceProse 再載入 KaTeX 排版（沒載到就顯示原文）。
+    // 表格裡的 TeX 不能有 |（會被當成欄位分隔），改用 \mid 或 \lvert。
+    const mathEl = (tag, cls, tex) =>
+      `<${tag} class="${cls}" data-tex="${esc(tex)}">${esc(tex)}</${tag}>`;
     window.marked.use({
+      extensions: [
+        {
+          name: "mathBlock",
+          level: "block",
+          start: (src) => src.match(/^\$\$/m)?.index,
+          tokenizer(src) {
+            const m = /^\$\$[ \t]*\n?([\s\S]+?)\n?[ \t]*\$\$[ \t]*(?:\n+|$)/.exec(src);
+            if (m) return { type: "mathBlock", raw: m[0], text: m[1].trim() };
+          },
+          renderer: (t) => mathEl("div", "math math-block", t.text) + "\n",
+        },
+        {
+          name: "mathInline",
+          level: "inline",
+          start: (src) => src.indexOf("$"),
+          tokenizer(src) {
+            const m = /^(\$\$?)(?!\s)([^$\n]+?)(?<!\s)\1(?!\$)/.exec(src);
+            if (m)
+              return {
+                type: "mathInline",
+                raw: m[0],
+                text: m[2],
+                display: m[1].length === 2,
+              };
+          },
+          renderer: (t) =>
+            mathEl("span", `math${t.display ? " math-d" : ""}`, t.text),
+        },
+      ],
       tokenizer: {
         emStrong(src) {
           for (const [type, re] of [
@@ -1303,7 +1337,84 @@
       ? window.marked.parse(text || "")
       : `<pre>${esc(text)}</pre>`;
   }
+  // KaTeX 只在頁面上真的有數學式時才載入（JS 270 KB＋字型）
+  let katexP = null;
+  const loadKatex = () =>
+    (katexP ??= new Promise((ok, bad) => {
+      const css = document.createElement("link");
+      css.rel = "stylesheet";
+      css.href = "assets/katex/katex.min.css?v=0.16.11";
+      document.head.appendChild(css);
+      const s = document.createElement("script");
+      s.src = "assets/katex/katex.min.js?v=0.16.11";
+      s.onload = () => ok(window.katex);
+      s.onerror = () => {
+        katexP = null;
+        bad(new Error("katex"));
+      };
+      document.head.appendChild(s);
+    }));
+  // 置中公式太寬時整個縮小到剛好放得下（最小 55%），手機上不用左右滑
+  function fitMath(el) {
+    const k = el.querySelector(".katex");
+    if (!k) return;
+    k.style.fontSize = "";
+    const cs = getComputedStyle(el);
+    const pad = parseFloat(cs.paddingLeft) + parseFloat(cs.paddingRight);
+    const avail = el.clientWidth - pad;
+    if (avail <= 0) return;
+    // 縮放不完全等比（有固定間距），量了再縮，最多幾次
+    let size =
+      parseFloat(getComputedStyle(k).fontSize) /
+      parseFloat(getComputedStyle(k.parentElement).fontSize);
+    for (let i = 0; i < 4; i++) {
+      const need = el.scrollWidth - pad;
+      if (need <= avail + 1 || size <= 0.55) break;
+      size = Math.max(0.55, size * (avail / need) * 0.98);
+      k.style.fontSize = `${size.toFixed(3)}em`;
+    }
+  }
+  let fitTimer = 0;
+  addEventListener("resize", () => {
+    clearTimeout(fitTimer);
+    fitTimer = setTimeout(
+      () => $$(".math-block[data-done]").forEach(fitMath),
+      150,
+    );
+  });
+  function renderMath(root) {
+    const els = $$(".math[data-tex]:not([data-done])", root);
+    if (!els.length) return;
+    loadKatex()
+      .then((katex) => {
+        els.forEach((el) => {
+          const block = el.tagName === "DIV";
+          let tex = el.dataset.tex;
+          // $$ 區塊裡每一行是一條公式，上下排列（不要寫在同一行用 \qquad 隔開，手機會太寬）
+          const lines = block ? tex.split(/\n+/).filter((x) => x.trim()) : [];
+          if (lines.length > 1)
+            tex = `\\begin{gathered}${lines.join("\\\\[10pt]")}\\end{gathered}`;
+          try {
+            katex.render(tex, el, {
+              displayMode: block || el.classList.contains("math-d"),
+              throwOnError: false,
+              output: "html",
+            });
+            el.dataset.done = "1";
+            if (block) fitMath(el);
+          } catch {
+            /* 留著原文 */
+          }
+        });
+        // KaTeX 字型載完後寬度會變，再量一次
+        document.fonts?.ready.then(() =>
+          els.forEach((el) => el.tagName === "DIV" && fitMath(el)),
+        );
+      })
+      .catch(() => {});
+  }
   function enhanceProse(root) {
+    renderMath(root);
     $$(".prose", root).forEach((p) => {
       $$("table", p).forEach((t) => {
         if (!t.parentElement.classList.contains("table-scroll")) {
@@ -7719,6 +7830,16 @@
           <div class="news-act"><button class="btn primary" type="button" data-act="ok">知道了</button></div>
         </div>`,
       );
+      // 列表還能往下捲時加 .more（底部淡出），提示下面還有更新
+      const list = el.querySelector(".news-items");
+      const fade = () =>
+        list.classList.toggle(
+          "more",
+          list.scrollTop + list.clientHeight < list.scrollHeight - 4,
+        );
+      list.addEventListener("scroll", fade, { passive: true });
+      addEventListener("resize", fade);
+      requestAnimationFrame(fade);
       const close = () => {
         if (this.items[0]) {
           store.set(this.seenKey, this.items[0].id);
@@ -7726,6 +7847,7 @@
         }
         el.remove();
         removeEventListener("keydown", esc_);
+        removeEventListener("resize", fade);
       };
       const esc_ = (e) => e.key === "Escape" && close();
       addEventListener("keydown", esc_);

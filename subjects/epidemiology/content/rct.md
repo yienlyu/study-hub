@@ -47,14 +47,21 @@
 
 ## 5. 結果的呈現 ⭐⭐⭐
 
-- **Treatment efficacy（reduction in risk）**＝ |Rate_placebo − Rate_treatment| ÷ Rate_placebo。
-- **Relative risk** ＝ Rate_treatment ÷ Rate_placebo。
-  - 講義例：新藥治癒率 60%、安慰劑 10% → |0.1 − 0.6| ÷ 0.1 = **5**；新藥 CFR 5%、安慰劑 20% → 講義寫 (0.2 − 0.05) ÷ **0.05** = 3（**分母用了新藥組**；依 Gordis 定義應 ÷ 0.2 = **0.75**，即降低 75%）。
-  - Relative risk 講義例：新藥第一年存活 55%、安慰劑 40% → relative risk to survival = 0.55 ÷ 0.4 = **1.375**。
+- **Treatment efficacy（reduction in risk）**
+  $$\text{Efficacy} = \frac{\lvert R_{\text{placebo}} - R_{\text{treatment}} \rvert}{R_{\text{placebo}}}$$
+- **Relative risk**
+  $$\text{RR} = \frac{R_{\text{treatment}}}{R_{\text{placebo}}}$$
+  - 講義例：新藥治癒率 60%、安慰劑 10% → $\dfrac{\lvert 0.1 - 0.6 \rvert}{0.1}$ = **5**；新藥 CFR 5%、安慰劑 20% → 講義寫 $\dfrac{0.2 - 0.05}{0.05}$ = 3（**分母用了新藥組**；依 Gordis 定義應為 $\dfrac{0.2 - 0.05}{0.2}$ = **0.75**，即降低 75%）。
+  - Relative risk 講義例：新藥第一年存活 55%、安慰劑 40% → relative risk to survival = $\dfrac{0.55}{0.4}$ = **1.375**。
   - 也可用**存活曲線**（Ch6 的 K-M）呈現。
-- **ARR** ＝ CER − EER；**RRR** ＝ (CER − EER) ÷ CER。
-- **NNT = 1 ÷ ARR = 1 ÷ (Rate_untreated − Rate_treated)**：每減少一個不良結果需要治療的人數。
-  - 例：阿司匹靈中風 5% vs 20% → NNT = 1 ÷ 0.15 ≈ 6.67（109）；標靶治療惡化 60% vs 40% → **NNT = 5**（110、114）。
+- **ARR**、**RRR**
+  $$
+  \text{ARR} = \text{CER} - \text{EER}
+  \text{RRR} = \frac{\text{CER} - \text{EER}}{\text{CER}}
+  $$
+- **NNT**：每減少一個不良結果需要治療的人數。
+  $$\text{NNT} = \frac{1}{\text{ARR}} = \frac{1}{R_{\text{untreated}} - R_{\text{treated}}}$$
+  - 例：阿司匹靈中風 5% vs 20% → $\text{NNT} = \dfrac{1}{0.15} \approx 6.67$（109）；標靶治療惡化 60% vs 40% → **NNT = 5**（110、114）。
   - RRR 相同時，事件很罕見的 NNT 可能大到不值得治療（講義例：干擾素治療 **MS**，CER 50%、EER 39% → RRR 22%、ARR 11%、**NNT = 9**；假設的罕見事件 0.00050% vs 0.00039%，RRR 一樣 22%，但 **NNT = 909,090**，不值得治療）。講義文字寫「重症肌無力」，表格寫 MS（多發性硬化症，Gordis 原例），以 MS 為準。
 
 ## 6. 外推性 ⭐⭐
