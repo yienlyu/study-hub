@@ -3326,11 +3326,12 @@
     };
   })();
 
-  // 小遊戲最長連續玩 20 分鐘：在 #/play 底下（大廳＋各遊戲、分頁看得到時）累計，時間到倒數 3 秒，
+  // 小遊戲最長連續玩 20 分鐘：在 #/play 底下（大廳＋各遊戲、分頁看得到時）累計，時間到倒數 5 秒，
   // 自動回到進小遊戲前的學習 / 閱讀頁面。離開小遊戲滿 10 分鐘才重新計，馬上點回來會直接再倒數。
   const PlayLimit = (() => {
     const LIMIT = 20 * 60e3,
       GAP = 10 * 60e3,
+      SECS = 5,
       K = "sh:play:clock",
       KB = "sh:play:back";
     const isPlay = (h) => /^#\/play(\/|\?|$)/.test(h || "");
@@ -3361,9 +3362,9 @@
       el.className = "play-limit";
       el.setAttribute("role", "alertdialog");
       el.setAttribute("aria-live", "assertive");
-      el.innerHTML = `<div class="play-limit-card"><div class="eyebrow">Time's up</div><h2 class="display">連續玩 ${LIMIT / 60e3} 分鐘了</h2><p>休息一下，回去繼續讀吧！</p><b class="num" id="plN">3</b><p class="small">秒後自動回到剛剛的頁面</p><a class="btn primary" href="${esc(back())}">現在就回去</a></div>`;
+      el.innerHTML = `<div class="play-limit-card"><div class="eyebrow">Time's up</div><h2 class="display">連續玩 ${LIMIT / 60e3} 分鐘了</h2><p>休息一下，回去繼續讀吧！</p><b class="num" id="plN">${SECS}</b><p class="small">秒後自動回到剛剛的頁面</p><a class="btn primary" href="${esc(back())}">現在就回去</a></div>`;
       document.body.appendChild(el);
-      let n = 3;
+      let n = SECS;
       cd = {
         el,
         t: setInterval(() => {
