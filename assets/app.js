@@ -7440,7 +7440,7 @@
           if (failed) return;
           status.textContent =
             st === "SUBSCRIBED"
-              ? "● 即時連線中"
+              ? "即時連線中"
               : st === "CHANNEL_ERROR" || st === "TIMED_OUT"
                 ? "即時連線中斷，重新整理頁面試試"
                 : "連線中⋯";

@@ -1392,6 +1392,10 @@ blockquote .math-block { background: none; padding: 4px 0; }
 .board-form .spacer { flex: 1; }
 .board-status { margin: 18px 0 6px; }
 .board-status.live { color: var(--good); }
+.board-status.live::before {
+  content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+  background: currentColor; margin-right: 5px; vertical-align: 2px;
+}
 .board-list { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--rule); }
 .board-list > li:last-child { border-bottom: 0; }
 .board-list > li { display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 12px; padding: 16px 0; border-bottom: 1px solid var(--rule); animation: fade .25s; }
