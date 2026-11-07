@@ -7496,7 +7496,7 @@
       `<div class="wrap board">
         <div class="eyebrow" style="padding-top:28px">Board · Live</div>
         <h1 class="display h-l" style="margin-top:12px">留言板</h1>
-        <p class="lede">心得、提醒、討論、聊天都可以。新留言會即時出現。</p>
+        <p class="lede">心得、提醒、討論、聊天⋯⋯，歡迎來到留言板！新留言會即時出現。</p>
         <div class="card board-main" id="bdRoot"></div>
       </div>`,
     );
