@@ -1,25 +1,29 @@
 === summary ===
+
 # 疾病傳播動力學 內容整理（依百十四共筆整理、對照百十三共筆）
 
 > 葉志清教授（公共衛生學系），非同步遠距。課本：Gordis Ch2。以下依百十四共筆 W2（11/5 審稿 ver.2，補上第二節 7–10 點：集體免疫、潛伏期、傳染動力學、侵襲率）整理，並以 slides、錄影補充。
 
 ## 1. 傳染病流行病學的特色 ⭐
-| 一般流行病學 | 傳染病流行病學 |
-|---|---|
-| 主要處理人 | 人、病原、其他媒介 |
+
+| 一般流行病學    | 傳染病流行病學                                         |
+| --------------- | ------------------------------------------------------ |
+| 主要處理人      | 人、病原、其他媒介                                     |
 | 危險因子 → case | **一個 case 本身就是危險因子**（人傳人，例：COVID-19） |
-| 找出病因 | 病因通常**已知**（病原是必要病因，necessary cause） |
+| 找出病因        | 病因通常**已知**（病原是必要病因，necessary cause）    |
 
 - 病原：寄生蟲、細菌、真菌、原蟲、病毒、普利昂（prion）。媒介：蚊、螺、黑蠅等；動物：狗、羊、鼠等。
 - 用途：outbreak 調查、傳播與自然史研究、監測、新興與再浮現感染（HIV、vCJD、SARS、TB、COVID-19）、新介入。
 - 感染狀態：susceptible（有風險）、immune（例如打過疫苗）、sub-clinical（症狀不明顯）、clinical（症狀明顯）。
 
 ## 2. 病例的名稱 ⭐⭐⭐
+
 - **Index case**：**第一個被發現**的個案。
 - **Primary case**：把感染**帶進**族群的個案（不一定是 index case）。
 - **Secondary case**：被 primary case 傳染的人；**Tertiary case**：被 secondary case 傳染的人。
 
 ## 3. 流行病學三角（Epidemiologic triad）⭐⭐
+
 - **宿主（host）**、**病原（agent）**、**環境（environment）**，再加上**媒介（vector）**。
 - 幾乎所有疾病都是遺傳與環境因素交互作用的結果，只是比例不同（同卵雙胞胎結果不同 → 後天環境）。
 - 增加風險的因素：**宿主**（年齡、性別、種族、職業、基因、免疫狀態…）、**病原**（生物、化學如重金屬與菸酒、物理如創傷與輻射、營養缺乏或過剩）、**環境**（溫度、濕度、擁擠、水、食物、PM2.5、噪音…）。
@@ -27,11 +31,12 @@
 <div data-fig="slide-triad"></div>
 
 ## 4. 病原的三個重要特性 ⭐⭐⭐（公式要記）
-| 特性 | 定義 | 公式（×100） |
-|---|---|---|
-| **感染力 Infectivity** | 造成**感染**的能力 | $$\dfrac{\text{感染人數}}{\text{易感受者人數}}$$ |
-| **致病力 Pathogenicity** | 造成**臨床疾病**的能力 | $$\dfrac{\text{臨床疾病人數}}{\text{感染人數}}$$ |
-| **毒性 Virulence**（**致死率 case fatality**） | 造成**死亡**的能力 | $$\dfrac{\text{死亡人數}}{\text{有疾病人數}}$$ |
+
+| 特性                                           | 定義                   | 公式（×100）                                     |
+| ---------------------------------------------- | ---------------------- | ------------------------------------------------ |
+| **感染力 Infectivity**                         | 造成**感染**的能力     | $$\dfrac{\text{感染人數}}{\text{易感受者人數}}$$ |
+| **致病力 Pathogenicity**                       | 造成**臨床疾病**的能力 | $$\dfrac{\text{臨床疾病人數}}{\text{感染人數}}$$ |
+| **毒性 Virulence**（**致死率 case fatality**） | 造成**死亡**的能力     | $$\dfrac{\text{死亡人數}}{\text{有疾病人數}}$$   |
 
 > 分母依序往下一層：易感受者 → 感染者 → 發病者。**受到感染不一定會發病。**
 
@@ -40,6 +45,7 @@
 <div data-fig="slide-infection-classes"></div>
 
 ## 5. 傳播途徑（Modes of transmission）⭐⭐
+
 - **直接傳播**：人對人接觸、飛沫（打噴嚏的飛沫散布）。
 - **間接傳播**：
   - **Common vehicle**（**無生命**的媒介，例如食物、水、空氣）：**單次暴露**（一次聚餐食物中毒 → 單一高峰）、**多重暴露**（多次去同一家水質有問題的餐廳 → 間隔性多峰）、**持續暴露**（住在空汙嚴重的地方 → 持續一段時間）。
@@ -47,6 +53,7 @@
 - 入侵與排出部位：呼吸道、消化道、泌尿生殖道、皮膚、結膜等。
 
 ## 6. 冰山概念與疾病階段 ⭐⭐
+
 - **冰山（iceberg）**：水面上是臨床疾病（含死亡），水面下是**次臨床（subclinical）感染**。
 - 嚴重度分布的三種型態：
   - **Class A 大多不顯性**（但具傳染力）：例如 **TB**。
@@ -58,11 +65,12 @@
   - **Subclinical**：沒有臨床表現，也**不會**發展成臨床疾病；常靠**血清抗體或培養**診斷。
   - **Persistent（chronic）**：感染持續數年甚至終身。
   - **Latent**：病毒核酸整合進細胞核，**沒有活躍複製**。
-- **Carrier（帶原者）**：身上帶有病原但沒有發病，仍可傳染給別人；可短期也可長期。例：**Typhoid Mary**（帶 *Salmonella typhi*，至少 10 次傷寒爆發、51 例、3 死，1938 年過世）。
+- **Carrier（帶原者）**：身上帶有病原但沒有發病，仍可傳染給別人；可短期也可長期。例：**Typhoid Mary**（帶 _Salmonella typhi_，至少 10 次傷寒爆發、51 例、3 死，1938 年過世）。
 
 <div data-fig="slide-iceberg"></div>
 
 ## 7. Endemic／Epidemic／Pandemic ⭐⭐⭐
+
 - **Endemic（地方性）**：疾病在某地區**常態性存在**。
 - **Epidemic（流行）**：社區中同類疾病**明顯超過正常預期（normal expectancy）**，來自共同或連鎖來源。
 - **Pandemic（大流行）**：**全球性**的 epidemic。
@@ -72,6 +80,7 @@
 <div data-fig="slide-endemic-epidemic"></div>
 
 ## 8. 流行曲線（Epidemic curve）⭐⭐⭐
+
 - 例子：**1952 年倫敦霧霾**（12 月中旬 SO₂ 很高，每週死亡數明顯高於正常期望的約 2000 人）。
 - 爆發來源：**common-vehicle**（例如食物；可能是單次暴露的午宴、多次暴露的午餐加晚餐、持續暴露的汙水管線滲漏）。
 - 曲線型態：
@@ -88,10 +97,12 @@
 
 <div data-fig="slide-sars-hk"></div>
 
-## 9. 爆發的三大決定因素 ⭐⭐⭐（老師：「這要記一下」）
+## 9. 爆發的三大決定因素 ⭐⭐⭐（老師說這要記一下）
+
 **集體免疫力（herd immunity）、潛伏期（incubation period）、侵襲率（attack rate）**
 
 ### 9-1 集體免疫力（Herd immunity）
+
 - 定義：族群中大部分成員已經免疫，使整個族群能抵抗疾病。
 - **成立條件**：
   1. 病原只侷限於**單一宿主物種**。
@@ -111,16 +122,18 @@
 <div data-fig="slide-herd-polio"></div>
 
 ### 9-2 潛伏期（Incubation period）
+
 - 定義：從**受到感染**到**出現臨床症狀**的時間，期間完全沒有症狀。
 - 影響潛伏期的因素：病原**複製**到足夠數量所需的時間、病原在體內**複製的部位**、感染時的**劑量**。
 - 潛伏期長短可以用來判斷是哪一種病原；圖上會標出可能的範圍（range）和最常見的長度（most common）。
-- 可以從流行曲線讀出潛伏期：例如 1986 年 Wales 醫學會議的 *Salmonella typhimurium* 爆發（191 人），潛伏期高峰約在第 16 小時。
+- 可以從流行曲線讀出潛伏期：例如 1986 年 Wales 醫學會議的 _Salmonella typhimurium_ 爆發（191 人），潛伏期高峰約在第 16 小時。
 - 2003 年香港 SARS：潛伏期約 2–7 天、最多 10 天 → **隔離天數要比潛伏期長**。
 - 各國 SARS 病死率（case-fatality）不同，可能是各國診斷方式不同造成的（例如專家懷疑中國的病死率偏低是資料不透明）。
 
 <div data-fig="slide-incubation"></div>
 
 ### 9-3 侵襲率（Attack rate）
+
 - **Attack rate**
   $$\text{Attack rate} = \frac{\text{有風險且發病的人數}}{\text{有風險的總人數}}$$
 - **Food-specific attack rate**
@@ -132,6 +145,7 @@
 <div data-fig="slide-food-attack"></div>
 
 ## 10. 爆發調查與 Who／When／Where ⭐
+
 - **爆發調查步驟**：準備 → **確認爆發是否存在** → 確認診斷 → **建立病例定義** → 描述性流病（人、時、地）→ 建立假說 → 評估假說 →（必要時）修正假說、補做研究 → 推動防治 → 撰寫報告。
 - **病例數突然增加不一定是真的流行**：診斷標準放寬、診斷方法進步、環境改變、官方獎勵通報都會造成。
 - **Who**：性別、年齡、種族。美國**淋病**早期**男性比例較高**是因為男性症狀明顯、主動就醫，對女性加強篩檢後兩性拉平（差異可能只是偵測差異）；**百日咳** **2004 年遽增**推測與**診斷標準放寬**有關，以**小於 1 歲**嬰兒最多（疫苗接種率）。
@@ -139,29 +153,31 @@
 - **Where**：**萊姆病**的分布與**鹿蜱（deer tick）**病媒分布一致；**西尼羅病毒**（鳥–蚊–鳥循環）1999 年在紐約首次發現，到 2002 年**由東往西**擴散到 37 州（69% 是腦膜腦炎）；南部高峰約 8 月中、北部約 8 月底，北部病例較多。
 
 === slides ===
+
 # 上課重點（The Dynamics of Disease Transmission 2026）
 
 ## 📑 slides 重點
 
-| 主題 | 重點 |
-|---|---|
-| 病例 | index（第一個被發現）、primary（帶進族群）、secondary、tertiary |
-| 三角 | host、agent、environment ＋ vector |
-| 病原三特性 | infectivity（感染／易感）、pathogenicity（發病／感染）、virulence（死亡／發病） |
-| 冰山 | 臨床 vs 次臨床；TB、麻疹、狂犬病三種型態 |
-| 疾病階段 | preclinical、subclinical、persistent、latent；carrier（Typhoid Mary） |
-| 流行程度 | endemic、epidemic（超過 normal expectancy）、pandemic |
-| 流行曲線 | common source（intermittent／continuous）、point source、propagated |
-| 決定因素 | herd immunity（四條件、R0、Rt、HIT = 1 − 1/R0）、incubation period、attack rate |
-| R0 表 | 麻疹 12–18（92–94%）、水痘 10–12、Delta 5.1（80%）、SARS 2–4、流感 1.3（23%） |
-| Who／When／Where | 淋病、百日咳、無菌性腦膜炎、萊姆病（鹿蜱）、西尼羅病毒 |
+| 主題             | 重點                                                                            |
+| ---------------- | ------------------------------------------------------------------------------- |
+| 病例             | index（第一個被發現）、primary（帶進族群）、secondary、tertiary                 |
+| 三角             | host、agent、environment ＋ vector                                              |
+| 病原三特性       | infectivity（感染／易感）、pathogenicity（發病／感染）、virulence（死亡／發病） |
+| 冰山             | 臨床 vs 次臨床；TB、麻疹、狂犬病三種型態                                        |
+| 疾病階段         | preclinical、subclinical、persistent、latent；carrier（Typhoid Mary）           |
+| 流行程度         | endemic、epidemic（超過 normal expectancy）、pandemic                           |
+| 流行曲線         | common source（intermittent／continuous）、point source、propagated             |
+| 決定因素         | herd immunity（四條件、R0、Rt、HIT = 1 − 1/R0）、incubation period、attack rate |
+| R0 表            | 麻疹 12–18（92–94%）、水痘 10–12、Delta 5.1（80%）、SARS 2–4、流感 1.3（23%）   |
+| Who／When／Where | 淋病、百日咳、無菌性腦膜炎、萊姆病（鹿蜱）、西尼羅病毒                          |
 
 ## 🎙️ 上課錄影重點（葉志清，非同步）
+
 - 先釐清「流行病」不等於「常見的病」，最重要的幾個 term 是 **endemic → epidemic → pandemic**。
 - 病原三特性：「受到感染不見得得病」，要分清楚三個公式的分母。
 - COVID 管控的演變：最早篩檢陽性要**隔離 14 天**，後來 7 天，到現在幾乎不管。intervention 的中文翻作「**介入**」比較好。
 - 諾羅病毒：廚師或餐飲服務人員手不乾淨，就會汙染食物；郵輪很常見，消毒打掃後疫情就會下降。
-- **爆發的三個決定因素「這要記一下」**：herd immunity、incubation period、attack rate。
+- **爆發的三個決定因素**：herd immunity、incubation period、attack rate。
 - 登革熱：台南、高雄每年都有病例，大約 500–600 例 → **endemic**；如果年中就已經有 1,500 例 → **epidemic**。雙北以前沒有、近兩三年才出現 → **epidemic**。
 - 臨床上診斷到瘧疾，要問**旅遊史與接觸史**；兩者都沒有就要**通報 CDC**，因為台灣已根除瘧疾，一個本土個案就是流行。「**流行不在乎病例數多寡，在乎有沒有超過正常期望值**」。
 - 美國西尼羅病毒的南北差異：南部高峰約 8 月中，北部約 8 月底，北部病例較多。
@@ -169,9 +185,11 @@
 - slides 最後附上 Gordis 的課後練習題（國考指定參考書），老師說之後會公布解答。
 
 === exam ===
+
 # 考點分析
 
 ## 🔥 高頻考點
+
 - **病原三特性的公式**（分母：易感受者／感染者／發病者），常出計算題。
 - **index vs primary case** 的差別。
 - **endemic／epidemic／pandemic**，以及「超過正常預期」的判斷（台灣本土瘧疾、北部登革熱）。
@@ -181,36 +199,42 @@
 - preclinical vs subclinical vs latent 的差別；carrier 的定義。
 
 ## 📝 出題模式
+
 - 計算題：給感染、發病、死亡人數，求 infectivity／pathogenicity／virulence；給 R0 求 HIT。
 - 判讀題：給 epidemic curve 判斷爆發型態、讀出潛伏期；給食物侵襲率表找元兇。
 
 ## 🎙️ 老師課堂提示
+
 - 「爆發的三大決定因素這要記一下」：herd immunity、incubation period、attack rate。
 - 中國 SARS 致死率的數據「看看就好」。
 
 ## 📚 考古題（109／110／114 期中，共 19 題：114 7 題、110 8 題、109 4 題）
+
 - 最常考：流行曲線（5）、Herd immunity（4）、潛伏期（2）、Attack rate（2）、Endemic／Epidemic／Pandemic（2）、傳染病流病特色（1）。
 - 練習區可以只選「考古」來源練習。
 
 ## 百十三共筆對照
+
 - 百十三的這章在 **W4（Chapter 4）**，內容和百十四大致相同（百十四有好幾段標「參考百十三共筆」）。
 - 集體免疫、潛伏期、R0／Rt／HIT = 1 − 1/R0、侵襲率兩屆寫法幾乎相同（百十四 ver.2 第 7–10 點標「參考百十一共筆」）。R0 < 1／= 1／> 1 的判斷和各疾病的 R0 表兩屆共筆都沒有，來自 slides。
 - 冰山模型的細胞／宿主層面、normal expectancy 兩屆都有寫；百十四另加了 1952 倫敦霧霾的例子。
+
 ## ⚠️ 陷阱整理
-| 容易選錯 | 正確 |
-|---|---|
-| ✗ Index case = primary case | ✓ **Index case = 第一個被發現**的；**primary case = 把感染帶進族群**的（不一定是同一人） |
-| ✗ 致病力的分母是易感受者 | ✓ **感染力**：感染 ÷ 易感受者；**致病力**：發病 ÷ **感染者**；**毒性**：死亡 ÷ **發病者** |
-| ✗ 受到感染就會發病 | ✓ **受到感染不一定發病**（冰山下的次臨床感染） |
-| ✗ Preclinical = subclinical | ✓ **Preclinical 注定會發病**；**subclinical 不會發病**（靠血清或培養才知道） |
-| ✗ Latent infection 病毒持續複製 | ✓ Latent：核酸整合、**沒有活躍複製** |
-| ✗ Epidemic 是指病例很多 | ✓ Epidemic = **明顯超過正常預期**；台灣出現 1 例本土瘧疾就算 epidemic |
-| ✗ 登革熱在台灣南部是 epidemic | ✓ 南部 **endemic**、北部 **epidemic** |
-| ✗ Point source 曲線緩升急降 | ✓ Point source：**快速上升、緩慢下降**，病例落在**一個潛伏期內** |
-| ✗ Propagated 只有一個高峰 | ✓ Propagated：人傳人、**多波**、波間隔一個潛伏期 |
-| ✗ R0 越大病毒越毒 | ✓ R0 代表**傳播速度**，與毒性無關 |
-| ✗ R0 = 1 會擴散成 epidemic | ✓ **R0 < 1 消失、= 1 endemic、> 1 epidemic**；**Rt < 1 = 受控制** |
-| ✗ 群體免疫閾值 = 1/R0 | ✓ **HIT = 1 − 1/R0**（R0 = 2 → 50%；麻疹 → 92–94%） |
-| ✗ 有保毒宿主時群體免疫一樣有效 | ✓ 群體免疫四條件：**單一宿主物種、直接傳播、無 reservoir、感染後穩固免疫** |
-| ✗ Secondary attack rate 分母含 primary case | ✓ 分子、分母都要**扣掉 primary cases** |
-| ✗ 侵襲率最高的食物就是元兇 | ✓ 比較**有吃 vs 沒吃**的侵襲率，**差距最大**者才是 |
+
+| 容易選錯                                    | 正確                                                                                      |
+| ------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| ✗ Index case = primary case                 | ✓ **Index case = 第一個被發現**的；**primary case = 把感染帶進族群**的（不一定是同一人）  |
+| ✗ 致病力的分母是易感受者                    | ✓ **感染力**：感染 ÷ 易感受者；**致病力**：發病 ÷ **感染者**；**毒性**：死亡 ÷ **發病者** |
+| ✗ 受到感染就會發病                          | ✓ **受到感染不一定發病**（冰山下的次臨床感染）                                            |
+| ✗ Preclinical = subclinical                 | ✓ **Preclinical 注定會發病**；**subclinical 不會發病**（靠血清或培養才知道）              |
+| ✗ Latent infection 病毒持續複製             | ✓ Latent：核酸整合、**沒有活躍複製**                                                      |
+| ✗ Epidemic 是指病例很多                     | ✓ Epidemic = **明顯超過正常預期**；台灣出現 1 例本土瘧疾就算 epidemic                     |
+| ✗ 登革熱在台灣南部是 epidemic               | ✓ 南部 **endemic**、北部 **epidemic**                                                     |
+| ✗ Point source 曲線緩升急降                 | ✓ Point source：**快速上升、緩慢下降**，病例落在**一個潛伏期內**                          |
+| ✗ Propagated 只有一個高峰                   | ✓ Propagated：人傳人、**多波**、波間隔一個潛伏期                                          |
+| ✗ R0 越大病毒越毒                           | ✓ R0 代表**傳播速度**，與毒性無關                                                         |
+| ✗ R0 = 1 會擴散成 epidemic                  | ✓ **R0 < 1 消失、= 1 endemic、> 1 epidemic**；**Rt < 1 = 受控制**                         |
+| ✗ 群體免疫閾值 = 1/R0                       | ✓ **HIT = 1 − 1/R0**（R0 = 2 → 50%；麻疹 → 92–94%）                                       |
+| ✗ 有保毒宿主時群體免疫一樣有效              | ✓ 群體免疫四條件：**單一宿主物種、直接傳播、無 reservoir、感染後穩固免疫**                |
+| ✗ Secondary attack rate 分母含 primary case | ✓ 分子、分母都要**扣掉 primary cases**                                                    |
+| ✗ 侵襲率最高的食物就是元兇                  | ✓ 比較**有吃 vs 沒吃**的侵襲率，**差距最大**者才是                                        |
