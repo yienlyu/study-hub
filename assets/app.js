@@ -1125,9 +1125,18 @@
     if (sid) {
       store.set("sh:lastSubject", sid);
       const s = DB.subjects[sid];
-      nav.innerHTML = `<a href="#/">所有科目</a><a href="#/s/${sid}"${cur("subject")}>${esc(s?.meta.short || "總覽")}總覽</a><a href="#/s/${sid}/practice"${cur("practice")}>練習區</a><a href="#/s/${sid}/sheet"${cur("sheet")}>速記・圖解</a>${Cloud.on ? `<a href="#/board"${cur("board")}>留言板</a>` : ""}<a href="#/report?sid=${sid}"${cur("report")}>回報 / 回饋</a>`;
+      nav.innerHTML = `<a href="#/">所有科目</a><a href="#/s/${sid}"${cur("subject")}>${esc(s?.meta.short || "總覽")}總覽</a><a href="#/s/${sid}/practice"${cur("practice")}>練習區</a><a href="#/s/${sid}/sheet"${cur("sheet")}>速記・圖解</a><a href="#/report?sid=${sid}"${cur("report")}>回報 / 回饋</a>`;
     } else {
-      nav.innerHTML = `<a href="#/"${cur("home")}>所有科目</a><a href="#/practice"${cur("practice")}>練習區</a><a href="#/me"${cur("me")}>學習軌跡</a>${Cloud.on ? `<a href="#/board"${cur("board")}>留言板</a>` : ""}<a href="#/report"${cur("report")}>回報 / 回饋</a>`;
+      nav.innerHTML = `<a href="#/"${cur("home")}>所有科目</a><a href="#/practice"${cur("practice")}>練習區</a><a href="#/me"${cur("me")}>學習軌跡</a><a href="#/report"${cur("report")}>回報 / 回饋</a>`;
+    }
+    // 留言板固定用上方列的 icon（桌機、手機都是）
+    const bb = $("#boardBtn");
+    if (bb) {
+      bb.hidden = !Cloud.on;
+      if (!bb.firstChild) bb.innerHTML = ic("chat");
+      active === "board"
+        ? bb.setAttribute("aria-current", "page")
+        : bb.removeAttribute("aria-current");
     }
     const tb = $("#tabbar");
     const T = (href, icon, label, k) =>
@@ -7259,8 +7268,7 @@
   const BOARD_SEEN = "sh:board:seen";
   const markBoardSeen = (id) => {
     if (id > (store.get(BOARD_SEEN, 0) || 0)) store.set(BOARD_SEEN, id);
-    const d = $("#bdFab");
-    if (d) d.classList.remove("ping");
+    $$("#boardBtn, #bdFab").forEach((b) => b.classList.remove("ping"));
   };
   // 訪客鑰匙：沒登入時用來認領、刪除自己的留言；資料庫只存它的 sha256
   const boardKey = () => {
@@ -7475,8 +7483,7 @@
     );
     onLeave(mountBoard($("#bdRoot")));
   }
-  // 右下角留言板按鈕（在音樂扭蛋上方）：點開浮動面板；有沒看過的新留言時亮紅點。
-  // 面板關著的時候不維持即時連線，只在載入時查一次最新一則。
+  // 右下角留言板按鈕（在音樂扭蛋上方）：點開浮動面板。面板關著的時候不維持即時連線。
   function mountBoardFab() {
     if (!Cloud.on) return;
     document.body.insertAdjacentHTML(
@@ -7525,18 +7532,20 @@
     };
     addEventListener("hashchange", sync);
     sync();
-    (async () => {
-      await Cloud.ready;
-      const { data } =
-        (await Cloud.sb
-          ?.from("board_messages")
-          .select("id")
-          .order("id", { ascending: false })
-          .limit(1)) || {};
-      const last = data?.[0]?.id || 0;
-      if (last > (store.get(BOARD_SEEN, 0) || 0) && pop.hidden)
-        fab.classList.add("ping");
-    })().catch(() => {});
+  }
+  // 上方列與右下角的留言板 icon：有沒看過的新留言時亮紅點（只在載入時查一次最新一則，不維持即時連線）
+  async function checkBoardUnread() {
+    if (!Cloud.on) return;
+    await Cloud.ready;
+    const { data } =
+      (await Cloud.sb
+        ?.from("board_messages")
+        .select("id")
+        .order("id", { ascending: false })
+        .limit(1)) || {};
+    const last = data?.[0]?.id || 0;
+    if (last > (store.get(BOARD_SEEN, 0) || 0) && !location.hash.startsWith("#/board"))
+      $$("#boardBtn, #bdFab").forEach((b) => b.classList.add("ping"));
   }
 
   // ------------------------------------------------------------ command palette
@@ -8179,6 +8188,7 @@
     route();
     paintAcct();
     Cloud.init();
+    checkBoardUnread().catch(() => {});
     MoodWatch.init();
     PlayLimit.init();
     // 閒置時先建搜尋索引，按 ⌘K / 時就不用等

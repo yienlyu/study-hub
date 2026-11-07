@@ -177,6 +177,11 @@ main#app { flex: 1; padding-bottom: 72px; outline: none; }
 }
 /* mobile tab bar */
 .tabbar { display: none; }
+/* 上方列留言板 icon；有新留言時亮紅點 */
+.board-btn { position: relative; }
+.board-btn[hidden] { display: none; }
+.board-btn[aria-current="page"] { color: var(--violet); border-color: var(--rule-strong); }
+.board-btn.ping::after { content: ""; position: absolute; top: 0; right: 0; width: 10px; height: 10px; border-radius: 50%; background: var(--safranin); border: 2px solid var(--card); }
 @media (max-width: 760px) {
   .mainnav, .search-trigger span, .search-trigger kbd { display: none; }
   .search-trigger { min-width: 0; width: 38px; padding: 0; justify-content: center; }
@@ -1406,7 +1411,8 @@ blockquote .math-block { background: none; padding: 4px 0; }
 .board-del svg { width: 15px; height: 15px; }
 .board-del:hover, .board-del.armed { color: var(--safranin); }
 
-/* 右下角留言板按鈕：疊在音樂扭蛋正上方；小遊戲彩蛋再往上 */
+
+/* 右下角留言板按鈕：疊在音樂扭蛋正上方，大小相同；小遊戲彩蛋再往上 */
 .bd-fab { position: fixed; right: 20px; bottom: 84px; z-index: 60; width: 56px; height: 56px; padding: 0; border: 1px solid var(--rule-strong); border-radius: 50%; background: var(--card); color: var(--ink); box-shadow: var(--shadow-2); cursor: pointer; display: grid; place-items: center; opacity: .8; transition: opacity .2s var(--ease); animation: mxDrop .5s var(--ease); }
 .bd-fab svg { width: 26px; height: 26px; transition: transform .25s var(--ease); }
 .bd-fab:hover, .bd-fab:focus-visible { opacity: 1; }

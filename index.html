@@ -38,7 +38,7 @@
       type="font/woff2"
       crossorigin
     />
-    <link rel="stylesheet" href="assets/style.css?v=20261107g" />
+    <link rel="stylesheet" href="assets/style.css?v=20261108c" />
     <script>
       try {
         const t = JSON.parse(localStorage.getItem("sh:theme"));
@@ -97,6 +97,14 @@
           <span>搜尋⋯</span><kbd id="kbdHint">Ctrl K</kbd>
         </button>
         <a
+          class="icon-btn board-btn"
+          id="boardBtn"
+          href="#/board"
+          aria-label="留言板"
+          title="留言板"
+          hidden
+        ></a>
+        <a
           class="icon-btn"
           id="acctBtn"
           href="#/me"
@@ -149,6 +157,6 @@
 
     <script src="config.js?v=20261026b"></script>
     <script src="assets/games.js?v=20261029" defer></script>
-    <script src="assets/app.js?v=20261107g" defer></script>
+    <script src="assets/app.js?v=20261108c" defer></script>
   </body>
 </html>
