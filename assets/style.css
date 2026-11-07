@@ -1377,3 +1377,53 @@ a.icon-btn { text-decoration: none; }
 blockquote .math-block { background: none; padding: 4px 0; }
 /* 速記卡的觀念圖按鈕：圖名太長時換行，不要撐出橫向捲動 */
 .sheet .card .btn { white-space: normal; height: auto; min-height: 34px; max-width: 100%; text-align: left; padding-top: 6px; padding-bottom: 6px; }
+
+/* ------------------------------------------------------------ board（即時留言板） */
+.board { max-width: 760px; }
+.board-main { margin: 24px 0 48px; padding: clamp(16px, 3vw, 24px); }
+.board-form { display: grid; gap: 12px; }
+.board-form textarea { resize: vertical; min-height: 84px; }
+.board-form .toolbar { display: flex; align-items: center; gap: 8px; }
+.board-form .spacer { flex: 1; }
+.board-status { margin: 18px 0 6px; }
+.board-status.live { color: var(--good); }
+.board-list { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--rule); }
+.board-list > li:last-child { border-bottom: 0; }
+.board-list > li { display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 12px; padding: 16px 0; border-bottom: 1px solid var(--rule); animation: fade .25s; }
+.board-list > li.board-empty { display: block; text-align: center; padding: 32px 0; }
+.board-av { width: 36px; height: 36px; border-radius: 50%; overflow: hidden; display: grid; place-items: center; background: var(--paper-2); color: var(--ink-3); }
+.board-av img { width: 100%; height: 100%; object-fit: cover; }
+.board-av svg { width: 18px; height: 18px; }
+.board-meta { display: flex; align-items: baseline; gap: 10px; font-size: .88rem; }
+.board-meta time { color: var(--ink-3); font-size: .78rem; }
+.board-list p { margin: 4px 0 0; white-space: pre-wrap; overflow-wrap: anywhere; color: var(--ink-2); }
+.board-list li.mine b { color: var(--violet); }
+.board-floor { font-family: var(--f-mono); font-size: .75rem; color: var(--ink-3); }
+.board-guest { font-size: .7rem; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--rule-strong); color: var(--ink-3); }
+.board-guest-row { display: flex; gap: 10px; align-items: center; }
+.board-guest-row .input { flex: 1; }
+.board-del { margin-left: auto; border: 0; background: none; color: var(--ink-3); cursor: pointer; padding: 2px; border-radius: 6px; line-height: 0; }
+.board-del svg { width: 15px; height: 15px; }
+.board-del:hover, .board-del.armed { color: var(--safranin); }
+
+/* 右下角留言板按鈕：疊在音樂扭蛋正上方；小遊戲彩蛋再往上 */
+.bd-fab { position: fixed; right: 20px; bottom: 84px; z-index: 60; width: 56px; height: 56px; padding: 0; border: 1px solid var(--rule-strong); border-radius: 50%; background: var(--card); color: var(--ink); box-shadow: var(--shadow-2); cursor: pointer; display: grid; place-items: center; opacity: .8; transition: opacity .2s var(--ease); animation: mxDrop .5s var(--ease); }
+.bd-fab svg { width: 26px; height: 26px; transition: transform .25s var(--ease); }
+.bd-fab:hover, .bd-fab:focus-visible { opacity: 1; }
+.bd-fab:hover svg, .bd-fab:focus-visible svg { transform: rotate(-10deg) scale(1.08); }
+.bd-fab.ping { opacity: 1; animation: mxWiggle 1.2s var(--ease) 2; }
+.bd-fab.ping::after { content: ""; position: absolute; top: 3px; right: 3px; width: 12px; height: 12px; border-radius: 50%; background: var(--safranin); border: 2px solid var(--card); }
+.bd-fab[hidden], .bd-pop[hidden], body.on-board .bd-fab { display: none; }
+.gm-drop { bottom: 148px; }
+.bd-pop { position: fixed; right: 20px; bottom: 20px; z-index: 61; width: min(400px, calc(100vw - 32px)); max-height: min(600px, calc(100vh - 40px)); display: flex; flex-direction: column; gap: 12px; padding: 18px 20px 20px; box-shadow: var(--shadow-2); transform-origin: bottom right; animation: mxIn .3s var(--ease); }
+.bd-pop .mx-pop-head > span { display: flex; gap: 4px; }
+.bd-pop #bdPopBody { overflow-y: auto; overscroll-behavior: contain; min-height: 0; }
+.bd-pop .board-status { margin: 12px 0 4px; }
+.bd-pop .board-list > li { padding: 12px 0; }
+@media (max-width: 760px) {
+  .bd-fab { right: 16px; bottom: 148px; }
+  .gm-drop { bottom: 208px; }
+  .bd-pop { right: 16px; bottom: 84px; max-height: calc(100vh - 120px); }
+}
+@media (prefers-reduced-motion: reduce) { .bd-fab, .bd-fab.ping, .bd-pop, .bd-fab svg { animation: none; transition: none; } }
+@media print { .bd-fab, .bd-pop { display: none !important; } }

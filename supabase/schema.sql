@@ -118,6 +118,112 @@ create policy "news_seen: read own"   on public.news_seen
 create policy "news_seen: insert own" on public.news_seen
   for insert with check (auth.uid() = user_id);
 
+-- ------------------------------------------------------------ 6. 即時留言板（#/board）
+-- 任何人（含未登入）都能看、都能留言。
+-- 登入：名字與頭像由 trigger 從帳號資料帶入，無法冒名；同一人 10 秒內只能留一則；可刪自己的。
+-- 未登入（訪客）：自填暱稱、標記 guest；瀏覽器產生一把隨機鑰匙，資料庫只存它的 sha256（owner_key），
+--   之後用 board_delete_guest(id, 鑰匙) 刪自己的。防洗版：同一把鑰匙 10 秒一則、全站訪客每分鐘最多 10 則。
+-- 站長在 Table Editor 可刪任何一則。
+create table if not exists public.board_messages (
+  id         bigint generated always as identity primary key,
+  user_id    uuid default auth.uid() references auth.users (id) on delete cascade,
+  name       text not null default '',
+  avatar     text not null default '',
+  body       text not null check (char_length(btrim(body)) between 1 and 500),
+  created_at timestamptz not null default now()
+);
+alter table public.board_messages alter column user_id drop not null;
+alter table public.board_messages add column if not exists guest     boolean not null default false;
+alter table public.board_messages add column if not exists owner_key text;
+-- 樓層：新增時依序配號，之後固定；刪掉的樓層留空號，不會往前補
+alter table public.board_messages add column if not exists floor integer;
+update public.board_messages b set floor = r.n
+from (select id, row_number() over (order by id) as n from public.board_messages) r
+where b.id = r.id and b.floor is null
+  and not exists (select 1 from public.board_messages where floor is not null);
+create unique index if not exists board_messages_floor on public.board_messages (floor);
+
+create index if not exists board_messages_time on public.board_messages (created_at desc);
+
+create or replace function public.board_messages_fill()
+returns trigger language plpgsql security definer set search_path = public as $$
+declare m jsonb;
+begin
+  new.created_at := now();
+  new.body       := btrim(new.body);
+  new.user_id    := auth.uid();
+  if new.user_id is not null then
+    if exists (select 1 from public.board_messages
+               where user_id = new.user_id and created_at > now() - interval '10 seconds') then
+      raise exception '留言太快了，等幾秒再送';
+    end if;
+    select raw_user_meta_data into m from auth.users where id = new.user_id;
+    new.guest     := false;
+    new.owner_key := null;
+    new.name      := left(coalesce(nullif(m->>'display_name', ''), nullif(m->>'full_name', ''),
+                                   nullif(m->>'name', ''), '同學'), 40);
+    new.avatar    := coalesce(nullif(m->>'custom_avatar', ''), m->>'avatar_url', '');
+  else
+    -- 網頁端把原始鑰匙放在 owner_key 送來，這裡換成雜湊才存
+    if coalesce(char_length(new.owner_key), 0) < 16 then
+      raise exception '缺少訪客鑰匙';
+    end if;
+    new.owner_key := encode(sha256(convert_to(new.owner_key, 'UTF8')), 'hex');
+    if exists (select 1 from public.board_messages
+               where owner_key = new.owner_key and created_at > now() - interval '10 seconds') then
+      raise exception '留言太快了，等幾秒再送';
+    end if;
+    if (select count(*) from public.board_messages
+        where guest and created_at > now() - interval '1 minute') >= 10 then
+      raise exception '訪客留言太多了，請稍候或登入後再留言';
+    end if;
+    new.guest  := true;
+    new.avatar := '';
+    new.name   := left(coalesce(nullif(btrim(new.name), ''), '匿名同學'), 20);
+  end if;
+  -- 配樓層：鎖住到交易結束，同時送出的兩則不會拿到同一層；被擋下的留言不會用掉號碼
+  perform pg_advisory_xact_lock(hashtext('board_messages_floor'));
+  new.floor := coalesce((select max(floor) from public.board_messages), 0) + 1;
+  return new;
+end $$;
+
+drop trigger if exists board_messages_fill on public.board_messages;
+create trigger board_messages_fill before insert on public.board_messages
+  for each row execute function public.board_messages_fill();
+
+-- 訪客刪除自己的留言
+create or replace function public.board_delete_guest(p_id bigint, p_key text)
+returns boolean language plpgsql security definer set search_path = public as $$
+begin
+  delete from public.board_messages
+  where id = p_id and guest
+    and owner_key = encode(sha256(convert_to(p_key, 'UTF8')), 'hex');
+  return found;
+end $$;
+grant execute on function public.board_delete_guest(bigint, text) to anon, authenticated;
+
+alter table public.board_messages enable row level security;
+
+drop policy if exists "board: read all"     on public.board_messages;
+drop policy if exists "board: insert own"   on public.board_messages;
+drop policy if exists "board: insert guest" on public.board_messages;
+drop policy if exists "board: delete own"   on public.board_messages;
+create policy "board: read all"     on public.board_messages
+  for select using (true);
+create policy "board: insert own"   on public.board_messages
+  for insert to authenticated with check (auth.uid() = user_id);
+create policy "board: insert guest" on public.board_messages
+  for insert to anon with check (user_id is null and guest);
+create policy "board: delete own"   on public.board_messages
+  for delete to authenticated using (auth.uid() = user_id);
+
+-- 開啟 Realtime（新增、刪除會即時推送給正在看的人）；刪除事件要帶整列才知道刪了哪則
+alter table public.board_messages replica identity full;
+do $$ begin
+  alter publication supabase_realtime add table public.board_messages;
+exception when duplicate_object then null;
+end $$;
+
 -- ------------------------------------------------------------ 範例查詢（不用執行，要分析時複製到 SQL Editor）
 -- 遺忘曲線：距上次幾天 → 答對率
 -- select

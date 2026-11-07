@@ -1125,9 +1125,9 @@
     if (sid) {
       store.set("sh:lastSubject", sid);
       const s = DB.subjects[sid];
-      nav.innerHTML = `<a href="#/">所有科目</a><a href="#/s/${sid}"${cur("subject")}>${esc(s?.meta.short || "總覽")}總覽</a><a href="#/s/${sid}/practice"${cur("practice")}>練習區</a><a href="#/s/${sid}/sheet"${cur("sheet")}>速記・圖解</a><a href="#/report?sid=${sid}"${cur("report")}>回報 / 回饋</a>`;
+      nav.innerHTML = `<a href="#/">所有科目</a><a href="#/s/${sid}"${cur("subject")}>${esc(s?.meta.short || "總覽")}總覽</a><a href="#/s/${sid}/practice"${cur("practice")}>練習區</a><a href="#/s/${sid}/sheet"${cur("sheet")}>速記・圖解</a>${Cloud.on ? `<a href="#/board"${cur("board")}>留言板</a>` : ""}<a href="#/report?sid=${sid}"${cur("report")}>回報 / 回饋</a>`;
     } else {
-      nav.innerHTML = `<a href="#/"${cur("home")}>所有科目</a><a href="#/practice"${cur("practice")}>練習區</a><a href="#/me"${cur("me")}>學習軌跡</a><a href="#/report"${cur("report")}>回報 / 回饋</a>`;
+      nav.innerHTML = `<a href="#/"${cur("home")}>所有科目</a><a href="#/practice"${cur("practice")}>練習區</a><a href="#/me"${cur("me")}>學習軌跡</a>${Cloud.on ? `<a href="#/board"${cur("board")}>留言板</a>` : ""}<a href="#/report"${cur("report")}>回報 / 回饋</a>`;
     }
     const tb = $("#tabbar");
     const T = (href, icon, label, k) =>
@@ -1210,6 +1210,7 @@
       if (!seg.length) return await pageHome();
       if (seg[0] === "report") return await pageReport(q);
       if (seg[0] === "me") return await pageMe();
+      if (seg[0] === "board") return await pageBoard();
       if (seg[0] === "practice") return await pagePracticePick();
       if (seg[0] === "play" && !seg[1]) return await pageGames();
       if (seg[0] === "play" && GAMES.some((g) => g.id === seg[1]))
@@ -3146,7 +3147,10 @@
   // 回傳 open(mood, reason)
   function mountMusic() {
     document.body.insertAdjacentHTML("beforeend", musicPanel());
-    $("#mxNudge").addEventListener("click", () => MoodWatch.go());
+    $("#mxNudge").addEventListener("click", () => {
+      $("#bdClose")?.click();
+      MoodWatch.go();
+    });
     const pop = $("#mxPop"),
       card = $("#mxCard"),
       draw = $("#mxDraw"),
@@ -3359,6 +3363,7 @@
     };
     const init = () => {
       open = mountMusic();
+      mountBoardFab();
       $("#gmDrop").addEventListener("click", gameReset);
       addEventListener("hashchange", () => {
         if (location.hash.startsWith("#/play")) gameReset();
@@ -7231,6 +7236,307 @@
         });
       },
     );
+  }
+
+  // ------------------------------------------------------------ 即時留言板（Supabase Realtime）
+  // 資料表與權限見 supabase/schema.sql 第 6 段。任何人可看，登入後可留言、刪自己的。
+  const boardTime = (iso) => {
+    const d = new Date(iso),
+      diff = (Date.now() - d) / 1000;
+    if (diff < 60) return "剛剛";
+    if (diff < 3600) return `${Math.floor(diff / 60)} 分鐘前`;
+    if (diff < 86400) return `${Math.floor(diff / 3600)} 小時前`;
+    return d.toLocaleString("zh-TW", {
+      month: "numeric",
+      day: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: false,
+    });
+  };
+  // 在 root 裡畫出留言區（發言框＋即時列表），回傳 cleanup。#/board 頁與右下角浮動面板共用。
+  let boardSeq = 0;
+  const BOARD_SEEN = "sh:board:seen";
+  const markBoardSeen = (id) => {
+    if (id > (store.get(BOARD_SEEN, 0) || 0)) store.set(BOARD_SEEN, id);
+    const d = $("#bdFab");
+    if (d) d.classList.remove("ping");
+  };
+  // 訪客鑰匙：沒登入時用來認領、刪除自己的留言；資料庫只存它的 sha256
+  const boardKey = () => {
+    let k = store.get("sh:board:key", "");
+    if (!k) {
+      k = [...crypto.getRandomValues(new Uint8Array(16))]
+        .map((b) => b.toString(16).padStart(2, "0"))
+        .join("");
+      store.set("sh:board:key", k);
+    }
+    return k;
+  };
+  let boardKeyHashP = null;
+  const boardKeyHash = () =>
+    (boardKeyHashP ||= crypto.subtle
+      .digest("SHA-256", new TextEncoder().encode(boardKey()))
+      .then((d) =>
+        [...new Uint8Array(d)]
+          .map((b) => b.toString(16).padStart(2, "0"))
+          .join(""),
+      )
+      .catch(() => ""));
+  function mountBoard(root, { limit = 100, rows = 3 } = {}) {
+    root.innerHTML = `<div class="board-compose"></div>
+      <div class="board-status small muted" aria-live="polite">連線中⋯</div>
+      <ol class="board-list"></ol>`;
+    const box = $(".board-compose", root),
+      status = $(".board-status", root),
+      list = $(".board-list", root);
+    const msgs = new Map();
+    let alive = true,
+      ch = null,
+      tick = 0,
+      failed = false,
+      myKey = "";
+    boardKeyHash().then((h) => {
+      myKey = h;
+      if (alive && msgs.size) paint();
+    });
+    const onCloud = () => {
+      paintCompose();
+      paint();
+    };
+    const cleanup = () => {
+      alive = false;
+      clearInterval(tick);
+      removeEventListener("sh:cloud", onCloud);
+      if (ch) Cloud.sb?.removeChannel(ch);
+    };
+    const noTable = (m) => /board_messages/.test(m) || /exist|schema cache/.test(m);
+    const item = (m) => {
+      const mine =
+        (m.user_id && Cloud.user?.id === m.user_id) ||
+        (m.guest && myKey && m.owner_key === myKey);
+      return `<li data-id="${m.id}"${mine ? ' class="mine"' : ""}>
+        <span class="board-av">${m.avatar ? `<img src="${esc(m.avatar)}" alt="" referrerpolicy="no-referrer" loading="lazy">` : ic("user")}</span>
+        <div><div class="board-meta">${m.floor ? `<span class="board-floor">#${m.floor}</span>` : ""}<b>${esc(m.name || "同學")}</b>${m.guest ? '<span class="board-guest">訪客</span>' : ""}<time datetime="${esc(m.created_at)}" title="${esc(new Date(m.created_at).toLocaleString("zh-TW"))}">${boardTime(m.created_at)}</time>${mine ? `<button type="button" class="board-del" data-del="${m.id}" aria-label="刪除這則留言" title="刪除">${ic("trash")}</button>` : ""}</div>
+        <p>${esc(m.body)}</p></div></li>`;
+    };
+    const paint = () => {
+      const arr = [...msgs.values()].sort((a, b) => b.id - a.id);
+      list.innerHTML = arr.length
+        ? arr.map(item).join("")
+        : `<li class="board-empty muted">還沒有人留言，來當第一個吧！</li>`;
+      if (arr.length) markBoardSeen(arr[0].id);
+    };
+    const paintCompose = () => {
+      const u = Cloud.user;
+      const mode = u ? `u:${u.id}` : "guest";
+      if (box.dataset.mode === mode) return;
+      box.dataset.mode = mode;
+      box.innerHTML = `<form class="board-form">
+        ${u ? "" : `<div class="board-guest-row"><input class="input" name="name" maxlength="20" placeholder="暱稱（可留空，顯示為「匿名同學」）" value="${esc(store.get("sh:board:name", ""))}"><a class="small" href="#/me">登入</a></div>`}
+        <textarea class="input" name="body" maxlength="500" rows="${rows}" required placeholder="${u ? `以 ${esc(userName(u))} 的身分留言⋯` : "以訪客身分留言⋯"}（Ctrl / ⌘ + Enter 送出）"></textarea>
+        <div class="toolbar"><span class="small muted board-count">0 / 500</span><span class="spacer"></span><button class="btn accent sm" type="submit">${ic("chat")}送出</button></div>
+      </form>`;
+      const f = $("form", box),
+        ta = f.body,
+        cnt = $(".board-count", box);
+      ta.addEventListener("input", () => {
+        cnt.textContent = `${ta.value.length} / 500`;
+      });
+      ta.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) f.requestSubmit();
+      });
+      f.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const body = ta.value.trim();
+        if (!body) return;
+        const btn = f.querySelector("button[type=submit]");
+        btn.disabled = true;
+        const row = { body };
+        if (!Cloud.user) {
+          row.name = (f.name?.value || "").trim();
+          row.owner_key = boardKey();
+          store.set("sh:board:name", row.name);
+        }
+        const { data, error } = await Cloud.sb
+          .from("board_messages")
+          .insert(row)
+          .select()
+          .single();
+        btn.disabled = false;
+        if (error) {
+          const m = error.message || "";
+          return toast(
+            noTable(m) && !/太快/.test(m)
+              ? "還沒建立留言板資料表：請在 Supabase SQL Editor 執行 supabase/schema.sql"
+              : `送出失敗：${m}`,
+          );
+        }
+        ta.value = "";
+        cnt.textContent = "0 / 500";
+        msgs.set(data.id, data);
+        paint();
+      });
+    };
+    list.addEventListener("click", async (e) => {
+      const b = e.target.closest("[data-del]");
+      if (!b) return;
+      if (b.dataset.armed !== "1") {
+        b.dataset.armed = "1";
+        b.classList.add("armed");
+        b.title = "再按一次刪除";
+        toast("再按一次刪除");
+        return;
+      }
+      const id = +b.dataset.del;
+      const m = msgs.get(id);
+      const { data: ok, error } = m?.guest
+        ? await Cloud.sb.rpc("board_delete_guest", {
+            p_id: id,
+            p_key: boardKey(),
+          })
+        : await Cloud.sb.from("board_messages").delete().eq("id", id);
+      if (error) return toast(`刪除失敗：${error.message}`);
+      if (m?.guest && !ok) return toast("刪除失敗：找不到這則留言");
+      msgs.delete(id);
+      paint();
+    });
+    (async () => {
+      await Cloud.ready;
+      const sb = Cloud.sb;
+      if (!alive) return;
+      if (!sb) {
+        status.textContent = `載入失敗：${Cloud.error || "無法連線"}`;
+        return;
+      }
+      paintCompose();
+      addEventListener("sh:cloud", onCloud);
+      ch = sb
+        .channel(`board-${++boardSeq}`)
+        .on(
+          "postgres_changes",
+          { event: "INSERT", schema: "public", table: "board_messages" },
+          (p) => {
+            msgs.set(p.new.id, p.new);
+            paint();
+          },
+        )
+        .on(
+          "postgres_changes",
+          { event: "DELETE", schema: "public", table: "board_messages" },
+          (p) => {
+            if (p.old?.id != null && msgs.delete(p.old.id)) paint();
+          },
+        )
+        .subscribe((st) => {
+          if (failed) return;
+          status.textContent =
+            st === "SUBSCRIBED"
+              ? "● 即時連線中"
+              : st === "CHANNEL_ERROR" || st === "TIMED_OUT"
+                ? "即時連線中斷，重新整理頁面試試"
+                : "連線中⋯";
+          status.classList.toggle("live", st === "SUBSCRIBED");
+        });
+      // 「幾分鐘前」每分鐘更新
+      tick = setInterval(paint, 60e3);
+      const { data, error } = await sb
+        .from("board_messages")
+        .select("*")
+        .order("id", { ascending: false })
+        .limit(limit);
+      if (!alive) return;
+      if (error) {
+        failed = true;
+        status.classList.remove("live");
+        status.textContent = noTable(error.message)
+          ? "還沒建立留言板資料表：請在 Supabase SQL Editor 執行 supabase/schema.sql"
+          : `載入失敗：${error.message}`;
+        return;
+      }
+      for (const m of data) msgs.set(m.id, m);
+      paint();
+    })();
+    return cleanup;
+  }
+  async function pageBoard() {
+    setChrome(null, "board");
+    if (!Cloud.on)
+      return render(
+        emptyState("留言板未啟用", "這個網站沒有設定 Supabase，無法使用留言板。"),
+      );
+    render(
+      `<div class="wrap board">
+        <div class="eyebrow" style="padding-top:28px">Board · Live</div>
+        <h1 class="display h-l" style="margin-top:12px">留言板</h1>
+        <p class="lede">讀書心得、互相提醒考試範圍、找人一起讀都可以。新留言會即時出現。</p>
+        <div class="card board-main" id="bdRoot"></div>
+      </div>`,
+    );
+    onLeave(mountBoard($("#bdRoot")));
+  }
+  // 右下角留言板按鈕（在音樂扭蛋上方）：點開浮動面板；有沒看過的新留言時亮紅點。
+  // 面板關著的時候不維持即時連線，只在載入時查一次最新一則。
+  function mountBoardFab() {
+    if (!Cloud.on) return;
+    document.body.insertAdjacentHTML(
+      "beforeend",
+      `<button type="button" class="bd-fab" id="bdFab" title="留言板" aria-label="留言板" aria-expanded="false" aria-controls="bdPop">${ic("chat")}</button>
+      <aside class="card bd-pop" id="bdPop" role="dialog" aria-labelledby="bdH" hidden>
+        <header class="mx-pop-head">
+          <div><div class="eyebrow">Board · Live</div><h2 class="display" id="bdH">留言板</h2></div>
+          <span><a class="btn sm ghost" href="#/board" aria-label="開啟完整留言板" title="開啟完整頁面">${ic("arrowUR")}</a><button class="btn sm ghost" type="button" id="bdClose" aria-label="關閉">${ic("x")}</button></span>
+        </header>
+        <div id="bdPopBody"></div>
+      </aside>`,
+    );
+    const fab = $("#bdFab"),
+      pop = $("#bdPop");
+    let stop = null;
+    const close = () => {
+      if (pop.hidden) return;
+      stop?.();
+      stop = null;
+      pop.hidden = true;
+      fab.hidden = false;
+      fab.setAttribute("aria-expanded", "false");
+    };
+    const open = () => {
+      $("#mxClose")?.click();
+      pop.hidden = false;
+      fab.hidden = true;
+      fab.setAttribute("aria-expanded", "true");
+      stop = mountBoard($("#bdPopBody"), { limit: 50, rows: 2 });
+      setTimeout(() => $("textarea", pop)?.focus(), 50);
+    };
+    fab.addEventListener("click", open);
+    $("#bdClose").addEventListener("click", close);
+    addEventListener("keydown", (e) => {
+      if (e.key === "Escape") close();
+    });
+    addEventListener("pointerdown", (e) => {
+      if (!pop.hidden && !e.target.closest?.(".bd-pop, .bd-fab")) close();
+    });
+    // 在 #/board 頁時不需要浮動按鈕
+    const sync = () => {
+      const on = location.hash.startsWith("#/board");
+      if (on) close();
+      document.body.classList.toggle("on-board", on);
+    };
+    addEventListener("hashchange", sync);
+    sync();
+    (async () => {
+      await Cloud.ready;
+      const { data } =
+        (await Cloud.sb
+          ?.from("board_messages")
+          .select("id")
+          .order("id", { ascending: false })
+          .limit(1)) || {};
+      const last = data?.[0]?.id || 0;
+      if (last > (store.get(BOARD_SEEN, 0) || 0) && pop.hidden)
+        fab.classList.add("ping");
+    })().catch(() => {});
   }
 
   // ------------------------------------------------------------ command palette
