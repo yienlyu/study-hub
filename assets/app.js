@@ -302,7 +302,9 @@
         chapters: ord(fin).filter((id) => (own.get(id) || cards[0]) === c),
       }));
     }
-    return [{ label: "期中全部範圍", chapters: ord(mid) }, ...finScopes].filter((x) => x.chapters.length);
+    return [{ label: "期中全部範圍", chapters: ord(mid) }, ...finScopes].filter(
+      (x) => x.chapters.length,
+    );
   }
   async function loadSubject(sid) {
     if (DB.subjects[sid]) return DB.subjects[sid];
@@ -1287,7 +1289,8 @@
           level: "block",
           start: (src) => src.match(/^\$\$/m)?.index,
           tokenizer(src) {
-            const m = /^\$\$[ \t]*\n?([\s\S]+?)\n?[ \t]*\$\$[ \t]*(?:\n+|$)/.exec(src);
+            const m =
+              /^\$\$[ \t]*\n?([\s\S]+?)\n?[ \t]*\$\$[ \t]*(?:\n+|$)/.exec(src);
             if (m) return { type: "mathBlock", raw: m[0], text: m[1].trim() };
           },
           renderer: (t) => mathEl("div", "math math-block", t.text) + "\n",
@@ -2037,7 +2040,14 @@
               .filter((g) => cardOfGroup(s.meta, g) === cd)
               .flatMap((g) => g.chapters),
           }))
-        : [{ s, title: s.meta.title, term: s.meta.term, description: s.meta.description }],
+        : [
+            {
+              s,
+              title: s.meta.title,
+              term: s.meta.term,
+              description: s.meta.description,
+            },
+          ],
     );
     const statsOf = (e) => {
       if (!e.chapters) return subjectStats(e.s);
@@ -2248,8 +2258,12 @@
     // PART 編號依上課順序（各組第一章在 chapters 陣列的位置）固定，不因為考完的組移到下面而改變
     const order = subj.meta.chapters.map((c) => c.id);
     const first = (g) =>
-      Math.min(...g.chapters.map((id) => order.indexOf(id)).filter((i) => i >= 0));
-    const byCourse = [...(subj.meta.groups || [])].sort((a, b) => first(a) - first(b));
+      Math.min(
+        ...g.chapters.map((id) => order.indexOf(id)).filter((i) => i >= 0),
+      );
+    const byCourse = [...(subj.meta.groups || [])].sort(
+      (a, b) => first(a) - first(b),
+    );
     const partNo = (g, gi) => {
       const i = byCourse.indexOf(g);
       return i >= 0 ? i : gi;
@@ -2325,7 +2339,12 @@
                   start: 1,
                   n: 20,
                   mode: "random",
-                  ch: P ? m.chapters.filter((c) => !subj.chMap[c.id].done && c.slides).map((c) => c.id).join(",") || m.chapters.map((c) => c.id).join(",") : taughtIds(subj),
+                  ch: P
+                    ? m.chapters
+                        .filter((c) => !subj.chMap[c.id].done && c.slides)
+                        .map((c) => c.id)
+                        .join(",") || m.chapters.map((c) => c.id).join(",")
+                    : taughtIds(subj),
                 })}">
             <span class="eyebrow">${ic("shuffle")}暖身</span><h3>已上課範圍隨機 20 題</h3><p>考古、課堂題和模擬新題混合出題。</p><span class="go">開始 ${ic("arrowR")}</span></a>`
           }
@@ -2367,7 +2386,9 @@
           b.addEventListener("click", () => {
             store.set("sh:sort", b.dataset.sort);
             const y = scrollY;
-            pageSubject(sid, b.dataset.sort, part).then(() => scrollTo({ top: y }));
+            pageSubject(sid, b.dataset.sort, part).then(() =>
+              scrollTo({ top: y }),
+            );
           }),
         );
       },
@@ -7318,7 +7339,8 @@
       removeEventListener("sh:cloud", onCloud);
       if (ch) Cloud.sb?.removeChannel(ch);
     };
-    const noTable = (m) => /board_messages/.test(m) || /exist|schema cache/.test(m);
+    const noTable = (m) =>
+      /board_messages/.test(m) || /exist|schema cache/.test(m);
     const item = (m) => {
       const mine =
         (m.user_id && Cloud.user?.id === m.user_id) ||
@@ -7342,7 +7364,7 @@
       box.dataset.mode = mode;
       box.innerHTML = `<form class="board-form">
         ${u ? "" : `<div class="board-guest-row"><input class="input" name="name" maxlength="20" placeholder="暱稱（可留空，顯示為「匿名同學」）" value="${esc(store.get("sh:board:name", ""))}"><a class="small" href="#/me">登入</a></div>`}
-        <textarea class="input" name="body" maxlength="500" rows="${rows}" required placeholder="${u ? `以 ${esc(userName(u))} 的身分留言⋯` : "以訪客身分留言⋯"}（Ctrl / ⌘ + Enter 送出）"></textarea>
+        <textarea class="input" name="body" maxlength="500" rows="${rows}" required placeholder="${u ? `以 ${esc(userName(u))} 的身分留言⋯` : "以訪客身分留言⋯"}"></textarea>
         <div class="toolbar"><span class="small muted board-count">0 / 500</span><span class="spacer"></span><button class="btn accent sm" type="submit">${ic("chat")}送出</button></div>
       </form>`;
       const f = $("form", box),
@@ -7469,15 +7491,12 @@
   }
   async function pageBoard() {
     setChrome(null, "board");
-    if (!Cloud.on)
-      return render(
-        emptyState("留言板未啟用", "這個網站沒有設定 Supabase，無法使用留言板。"),
-      );
+    if (!Cloud.on) return render(emptyState("留言板未啟用"));
     render(
       `<div class="wrap board">
         <div class="eyebrow" style="padding-top:28px">Board · Live</div>
         <h1 class="display h-l" style="margin-top:12px">留言板</h1>
-        <p class="lede">讀書心得、互相提醒考試範圍、找人一起讀都可以。新留言會即時出現。</p>
+        <p class="lede">心得、提醒、討論、聊天都可以。新留言會即時出現。</p>
         <div class="card board-main" id="bdRoot"></div>
       </div>`,
     );
@@ -7544,7 +7563,10 @@
         .order("id", { ascending: false })
         .limit(1)) || {};
     const last = data?.[0]?.id || 0;
-    if (last > (store.get(BOARD_SEEN, 0) || 0) && !location.hash.startsWith("#/board"))
+    if (
+      last > (store.get(BOARD_SEEN, 0) || 0) &&
+      !location.hash.startsWith("#/board")
+    )
       $$("#boardBtn, #bdFab").forEach((b) => b.classList.add("ping"));
   }
 
