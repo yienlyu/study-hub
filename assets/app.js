@@ -36,6 +36,8 @@
     arrowR: '<path d="M5 12h14M13 6l6 6-6 6"/>',
     arrowL: '<path d="M19 12H5M11 6l-6 6 6 6"/>',
     arrowUR: '<path d="M7 17 17 7M8 7h9v9"/>',
+    reply:
+      '<path d="M9 14 4 9l5-5"/><path d="M4 9h10.5a5.5 5.5 0 0 1 0 11H11"/>',
     chevR: '<path d="m9 6 6 6-6 6"/>',
     chevL: '<path d="m15 6-6 6 6 6"/>',
     check: '<path d="m5 12.5 4.5 4.5L19 7.5"/>',
@@ -7320,6 +7322,17 @@
       status = $(".board-status", root),
       list = $(".board-list", root);
     const msgs = new Map();
+    const byFloor = (f) => {
+      for (const m of msgs.values()) if (m.floor === f) return m;
+      return null;
+    };
+    // 比目前載入最舊那樓還早的，不知道是被刪了還是沒載入，就只顯示樓層號
+    const oldestFloor = () => {
+      let lo = Infinity;
+      for (const m of msgs.values()) if (m.floor && m.floor < lo) lo = m.floor;
+      return lo;
+    };
+    let replyTo = null;
     let alive = true,
       ch = null,
       tick = 0,
@@ -7345,10 +7358,21 @@
       const mine =
         (m.user_id && Cloud.user?.id === m.user_id) ||
         (m.guest && myKey && m.owner_key === myKey);
-      return `<li data-id="${m.id}"${mine ? ' class="mine"' : ""}>
+      const rt = m.reply_to,
+        tgt = rt ? byFloor(rt) : null;
+      const quote = rt
+        ? `<a class="board-quote" href="#" data-jump="${rt}" title="跳到 #${rt}">${ic("reply")}<span class="board-floor">#${rt}</span>${
+            tgt
+              ? `<b>${esc(tgt.name || "同學")}</b><span class="board-quote-body">${esc(tgt.body.replace(/\s+/g, " ").slice(0, 60))}</span>`
+              : rt >= oldestFloor()
+                ? `<span class="board-quote-body muted">（已刪除）</span>`
+                : ""
+          }</a>`
+        : "";
+      return `<li data-id="${m.id}"${m.floor ? ` data-floor="${m.floor}"` : ""}${mine ? ' class="mine"' : ""}>
         <span class="board-av">${m.avatar ? `<img src="${esc(m.avatar)}" alt="" referrerpolicy="no-referrer" loading="lazy">` : ic("user")}</span>
-        <div><div class="board-meta">${m.floor ? `<span class="board-floor">#${m.floor}</span>` : ""}<b>${esc(m.name || "同學")}</b>${m.guest ? '<span class="board-guest">訪客</span>' : ""}<time datetime="${esc(m.created_at)}" title="${esc(new Date(m.created_at).toLocaleString("zh-TW"))}">${boardTime(m.created_at)}</time>${mine ? `<button type="button" class="board-del" data-del="${m.id}" aria-label="刪除這則留言" title="刪除">${ic("trash")}</button>` : ""}</div>
-        <p>${esc(m.body)}</p></div></li>`;
+        <div><div class="board-meta">${m.floor ? `<span class="board-floor">#${m.floor}</span>` : ""}<b>${esc(m.name || "同學")}</b>${m.guest ? '<span class="board-guest">訪客</span>' : ""}<time datetime="${esc(m.created_at)}" title="${esc(new Date(m.created_at).toLocaleString("zh-TW"))}">${boardTime(m.created_at)}</time><span class="board-acts">${m.floor ? `<button type="button" class="board-act" data-reply="${m.floor}" aria-label="回覆 #${m.floor}" title="回覆">${ic("reply")}</button>` : ""}${mine ? `<button type="button" class="board-act board-del" data-del="${m.id}" aria-label="刪除這則留言" title="刪除">${ic("trash")}</button>` : ""}</span></div>
+        ${quote}<p>${esc(m.body)}</p></div></li>`;
     };
     const paint = () => {
       const arr = [...msgs.values()].sort((a, b) => b.id - a.id);
@@ -7363,13 +7387,16 @@
       if (box.dataset.mode === mode) return;
       box.dataset.mode = mode;
       box.innerHTML = `<form class="board-form">
-        <div class="board-guest-row"><input class="input" name="name" maxlength="20" placeholder="${u ? `留言名稱（留空顯示為 ${esc(userName(u))}）` : "暱稱（留空顯示為「匿名」）"}" value="${esc(store.get("sh:board:name", ""))}">${u ? "" : `<a class="small" href="#/me">登入</a>`}</div>
+        <div class="board-guest-row"><input class="input" name="name" maxlength="20" placeholder="${u ? "暱稱" : "暱稱"}" value="${esc(store.get("sh:board:name", ""))}">${u ? "" : `<a class="small" href="#/me">登入</a>`}</div>
+        <div class="board-replying" hidden></div>
         <textarea class="input" name="body" maxlength="500" rows="${rows}" required></textarea>
         <div class="toolbar"><span class="small muted board-count">0 / 500</span><span class="spacer"></span><button class="btn accent sm" type="submit">${ic("chat")}送出</button></div>
       </form>`;
       const f = $("form", box),
         ta = f.body,
         cnt = $(".board-count", box);
+      // 登入狀態改變重畫發言框時，保留正在回覆的樓層
+      if (replyTo) setReply(replyTo);
       const nameNow = () => f.name.value.trim();
       const setHint = () => {
         const n = nameNow() || (u ? userName(u) : "");
@@ -7390,6 +7417,7 @@
         const btn = f.querySelector("button[type=submit]");
         btn.disabled = true;
         const row = { body, name: nameNow() };
+        if (replyTo) row.reply_to = replyTo;
         store.set("sh:board:name", row.name);
         if (!Cloud.user) row.owner_key = boardKey();
         const { data, error } = await Cloud.sb
@@ -7408,11 +7436,49 @@
         }
         ta.value = "";
         cnt.textContent = "0 / 500";
+        setReply(null);
         msgs.set(data.id, data);
         paint();
       });
     };
+    // 「回覆 #N」提示列：顯示在發言框上方，可按 × 取消
+    const setReply = (f) => {
+      replyTo = f;
+      const bar = $(".board-replying", box);
+      if (!bar) return;
+      bar.hidden = !f;
+      if (!f) return (bar.innerHTML = "");
+      const t = byFloor(f);
+      bar.innerHTML = `${ic("reply")}<span>回覆 <span class="board-floor">#${f}</span>${t ? ` <b>${esc(t.name || "同學")}</b>` : ""}</span><button type="button" class="board-act" data-unreply aria-label="取消回覆" title="取消回覆">${ic("x")}</button>`;
+    };
+    box.addEventListener("click", (e) => {
+      if (e.target.closest("[data-unreply]")) {
+        setReply(null);
+        $("textarea", box)?.focus();
+      }
+    });
+    const jump = (f) => {
+      const li = $(`li[data-floor="${f}"]`, list);
+      if (!li) return toast(`#${f} 不在目前載入的留言裡`);
+      li.scrollIntoView({ behavior: "smooth", block: "center" });
+      li.classList.remove("board-flash");
+      void li.offsetWidth;
+      li.classList.add("board-flash");
+    };
     list.addEventListener("click", async (e) => {
+      const r = e.target.closest("[data-reply]");
+      if (r) {
+        setReply(+r.dataset.reply);
+        const ta = $("textarea", box);
+        ta?.scrollIntoView({ behavior: "smooth", block: "center" });
+        ta?.focus({ preventScroll: true });
+        return;
+      }
+      const j = e.target.closest("[data-jump]");
+      if (j) {
+        e.preventDefault();
+        return jump(+j.dataset.jump);
+      }
       const b = e.target.closest("[data-del]");
       if (!b) return;
       if (b.dataset.armed !== "1") {

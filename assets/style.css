@@ -1411,9 +1411,22 @@ blockquote .math-block { background: none; padding: 4px 0; }
 .board-guest { font-size: .7rem; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--rule-strong); color: var(--ink-3); }
 .board-guest-row { display: flex; gap: 10px; align-items: center; }
 .board-guest-row .input { flex: 1; }
-.board-del { margin-left: auto; border: 0; background: none; color: var(--ink-3); cursor: pointer; padding: 2px; border-radius: 6px; line-height: 0; }
-.board-del svg { width: 15px; height: 15px; }
+.board-acts { margin-left: auto; display: inline-flex; gap: 4px; align-self: center; }
+.board-act { border: 0; background: none; color: var(--ink-3); cursor: pointer; padding: 2px; border-radius: 6px; line-height: 0; }
+.board-act svg { width: 15px; height: 15px; }
+.board-act:hover { color: var(--violet); }
 .board-del:hover, .board-del.armed { color: var(--safranin); }
+.board-quote { display: flex; align-items: baseline; gap: 6px; margin: 6px 0 2px; padding: 4px 10px; border-left: 3px solid var(--rule-strong); background: var(--paper-2); border-radius: 0 6px 6px 0; font-size: .8rem; color: var(--ink-3); text-decoration: none; min-width: 0; }
+.board-quote:hover { border-left-color: var(--violet); }
+.board-quote svg { width: 12px; height: 12px; flex: none; align-self: center; }
+.board-quote b { color: var(--ink-2); flex: none; }
+.board-quote-body { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+.board-replying { display: flex; align-items: center; gap: 8px; padding: 6px 10px; border-radius: 8px; background: var(--paper-2); font-size: .85rem; color: var(--ink-2); }
+.board-replying[hidden] { display: none; }
+.board-replying > svg { width: 14px; height: 14px; color: var(--violet); }
+.board-replying .board-act { margin-left: auto; }
+.board-list > li.board-flash { animation: boardFlash 1.6s; }
+@keyframes boardFlash { 0%, 40% { background: color-mix(in srgb, var(--violet) 14%, transparent); } 100% { background: transparent; } }
 
 
 /* 右下角留言板按鈕：疊在音樂扭蛋正上方，大小相同；小遊戲彩蛋再往上 */
