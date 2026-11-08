@@ -191,7 +191,7 @@
   "num": 6,
   "chapter": "intro",
   "type": "mcq",
-  "stem": "Béjot 等人估計法國缺血性腦血管事件（CVEs）的人數，依研究期間、性別與年齡呈現（需原圖）。下列依圖的敘述何者 INCORRECT？",
+  "stem": "Béjot 等人估計法國缺血性腦血管事件（CVEs）的人數，依研究期間、性別與年齡呈現。下列依圖的敘述何者 INCORRECT？",
   "options": [
    {
     "k": "A",
@@ -222,7 +222,9 @@
    "人數 vs 率"
   ],
   "pattern": "判讀題",
-  "imageOnly": true
+  "img": [
+   "figures/questions/k114-06.webp"
+  ]
  },
  {
   "id": "k114-07",
@@ -1480,7 +1482,7 @@
   "num": 43,
   "chapter": "prognosis",
   "type": "mcq",
-  "stem": "圖為 300 名病人手術後觀察 8 年的存活狀況（需原圖），存活中點（median survival time）會落在哪段時間內？",
+  "stem": "圖為 300 名病人手術後觀察 8 年的存活狀況，存活中點（median survival time）會落在哪段時間內？",
   "options": [
    {
     "k": "A",
@@ -1507,7 +1509,9 @@
    "存活中位數"
   ],
   "pattern": "判讀題",
-  "imageOnly": true
+  "img": [
+   "figures/questions/k114-43.webp"
+  ]
  },
  {
   "id": "k114-44-1",
@@ -1937,7 +1941,7 @@
   "num": 7,
   "chapter": "transmission",
   "type": "mcq",
-  "stem": "以下哪條流行曲線代表連鎖感染爆發（propagated outbreak）？（需原圖）",
+  "stem": "以下哪條流行曲線代表連鎖感染爆發（propagated outbreak）？",
   "options": [
    {
     "k": "A",
@@ -1968,7 +1972,9 @@
    "流行曲線"
   ],
   "pattern": "判讀題",
-  "imageOnly": true
+  "img": [
+   "figures/questions/k110-II-3.webp"
+  ]
  },
  {
   "id": "k110-II-4",
@@ -2374,7 +2380,7 @@
   "num": 20,
   "chapter": "screening",
   "type": "mcq",
-  "stem": "下列打靶圖何者代表信度差、但效度好（bad reliability but good validity）？（需原圖）",
+  "stem": "下列打靶圖何者代表信度差、但效度好（bad reliability but good validity）？",
   "options": [
    {
     "k": "A",
@@ -2401,7 +2407,9 @@
    "效度與信度"
   ],
   "pattern": "判讀題",
-  "imageOnly": true
+  "img": [
+   "figures/questions/k110-II-16.webp"
+  ]
  },
  {
   "id": "k110-III-1",
@@ -2647,7 +2655,7 @@
   "num": 28,
   "chapter": "prognosis",
   "type": "mcq",
-  "stem": "圖為 300 名病人手術後觀察 2 年的存活狀況（需原圖），存活中點會落在哪個時段？",
+  "stem": "圖為 300 名病人手術後觀察 2 年的存活狀況，存活中點會落在哪個時段？",
   "options": [
    {
     "k": "A",
@@ -2674,7 +2682,9 @@
    "存活中位數"
   ],
   "pattern": "判讀題",
-  "imageOnly": true
+  "img": [
+   "figures/questions/k110-III-8.webp"
+  ]
  },
  {
   "id": "k110-III-12",
@@ -2821,7 +2831,7 @@
   "num": 3,
   "chapter": "transmission",
   "type": "mcq",
-  "stem": "下列哪個圖形是 propagated 型疾病的流行曲線？（需原圖）",
+  "stem": "下列哪個圖形是 propagated 型疾病的流行曲線？",
   "options": [
    {
     "k": "A",
@@ -2848,7 +2858,9 @@
    "流行曲線"
   ],
   "pattern": "判讀題",
-  "imageOnly": true
+  "img": [
+   "figures/questions/k109-03.webp"
+  ]
  },
  {
   "id": "k109-04",
@@ -2984,7 +2996,7 @@
   "num": 8,
   "chapter": "screening",
   "type": "mcq",
-  "stem": "下列打靶圖何者是低效度、高信度？（需原圖）",
+  "stem": "下列打靶圖何者是低效度、高信度？",
   "options": [
    {
     "k": "A",
@@ -3011,7 +3023,9 @@
    "效度與信度"
   ],
   "pattern": "判讀題",
-  "imageOnly": true
+  "img": [
+   "figures/questions/k109-08.webp"
+  ]
  },
  {
   "id": "k109-09",

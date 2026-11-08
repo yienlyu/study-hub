@@ -2,7 +2,7 @@
 """流病考古題：114、110、109 期中考古（百十三資料）→ subjects/epidemiology/data/questions-kaogu.json
 
 來源：slides/epidemiology/共筆考古/3. 百十三資料/考古/期中/pdf/
-答案依各份考古的簡答表；詳解為重新整理。題目需要原圖的標為 imageOnly（不進練習）。
+答案依各份考古的簡答表；詳解為重新整理。題目需要原圖的附上 build_epi_qimgs.py 裁切的原圖（q.img）。
 執行：python3 tools/build_epi_kaogu.py（在 repo 根目錄）
 """
 import json, os
@@ -18,8 +18,8 @@ def mcq(qid, src, num, ch, stem, opts, ans, exp, topics, pattern=PAT_OK, image=F
     q = {"id": qid, "source": src, "num": num, "chapter": ch, "type": "mcq", "stem": stem,
          "options": [{"k": k, "t": t} for k, t in zip("ABCDE", opts)], "answer": [ans],
          "explain": exp, "topics": topics, "pattern": pattern}
-    if image:
-        q["imageOnly"] = True
+    if image:  # 原圖由 build_epi_qimgs.py 裁切
+        q["img"] = ["figures/questions/%s.webp" % qid]
     Q.append(q)
 
 
@@ -65,7 +65,7 @@ mcq(k + "05", S114, 5, "intro", "Which of the following studies does NOT fall wi
      "Examination of the association between air pollution and COVID-19 in low-income areas"], "E",
     "探討暴露（空汙）與疾病的「相關」屬於分析性流行病學；其他選項是描述 person／time／place。",
     ["描述性流病"], PAT_NG)
-mcq(k + "06", S114, 6, "intro", "Béjot 等人估計法國缺血性腦血管事件（CVEs）的人數，依研究期間、性別與年齡呈現（需原圖）。下列依圖的敘述何者 INCORRECT？",
+mcq(k + "06", S114, 6, "intro", "Béjot 等人估計法國缺血性腦血管事件（CVEs）的人數，依研究期間、性別與年齡呈現。下列依圖的敘述何者 INCORRECT？",
     ["The number of CVE cases among men appeared stable across study periods.",
      "The number of CVE cases among women was relatively higher during 2017-2018 than in other study periods.",
      "The number of CVE cases among women was mainly driven by those aged ≥80 years, regardless of study periods.",
@@ -207,7 +207,7 @@ mcq(k + "42", S114, 42, "rct", "以下何者「不是」第三期臨床試驗的
     ["結果適合外推，因此常用於藥理研究", "隨機分派雙盲同期對照臨床試驗是最具證據力的研究設計，兼具時序性",
      "試驗設計可以同時觀察多種健康結果", "可以根據研究問題採用兩種以上介入，也可觀察特殊劑量的成效"], "A",
     "臨床試驗的限制之一就是外推性有限（考古答案 A）。", ["臨床試驗優勢與限制"], PAT_NG)
-mcq(k + "43", S114, 43, "prognosis", "圖為 300 名病人手術後觀察 8 年的存活狀況（需原圖），存活中點（median survival time）會落在哪段時間內？",
+mcq(k + "43", S114, 43, "prognosis", "圖為 300 名病人手術後觀察 8 年的存活狀況，存活中點（median survival time）會落在哪段時間內？",
     ["1–1.7 年", "2–2.4 年", "3–3.9 年", "6–6.4 年"], "C", "看存活曲線降到 50% 時對應的時間。", ["存活中位數"], PAT_READ, image=True)
 T44 = ("某外科醫師收集 2015–2019 年間 461 名進行肝癌手術合併標靶治療的病人，假設所有病人都有完成追蹤：\n"
        "\n各週年仍存活人數：\n\n"
@@ -265,7 +265,7 @@ mcq(k + "II-1", S110, 5, "transmission", "根據老師的講義內容，何者�
 mcq(k + "II-2", S110, 6, "transmission", "在傳染病爆發的調查中，繪製流行曲線（epidemic curve）會很有幫助，因為：",
     ["它有助於確定發生了什麼類型的爆發（例如單一來源、人與人之間）", "它顯示是否發生了群體免疫", "它有助於確定潛伏期中位數", "A 和 C", "A、B 和 C"], "D",
     "流行曲線可判斷爆發型態、估計潛伏期；無法直接顯示群體免疫。", ["流行曲線"])
-mcq(k + "II-3", S110, 7, "transmission", "以下哪條流行曲線代表連鎖感染爆發（propagated outbreak）？（需原圖）", ["Fig A", "Fig B", "Fig C", "Fig D", "以上都不是"], "B",
+mcq(k + "II-3", S110, 7, "transmission", "以下哪條流行曲線代表連鎖感染爆發（propagated outbreak）？", ["Fig A", "Fig B", "Fig C", "Fig D", "以上都不是"], "B",
     "Propagated：多波、峰值逐漸升高、間隔一個潛伏期。", ["流行曲線"], PAT_READ, image=True)
 mcq(k + "II-4", S110, 8, "transmission", "Epidemic 意味著一種疾病：",
     ["發生明顯超出正常期望值", "經常性地存在於人群中", "同時影響許多國家", "表現出季節性模式", "在動物中普遍存在"], "A",
@@ -304,7 +304,7 @@ mcq(k + "II-14", S110, 18, "screening", "Hemoccult 試驗的敏感度和特異�
 mcq(k + "II-15", S110, 19, "screening", "Hemoccult 陰性者不再檢查；陽性者再用 Hemoccult II 測第二個糞便樣本，兩次都陽性才轉介深入評估。這種篩選方法對淨敏感度和淨特異度有何影響？",
     ["淨敏感度和淨特異度均增加", "淨敏感度增加，淨特異度降低", "淨敏感度降低，淨特異度增加", "淨敏感度不變，淨特異度增加", "無法從數據中確定"], "C",
     "序列篩檢 → 淨敏感度下降、淨特異度上升。", ["序列 vs 平行"])
-mcq(k + "II-16", S110, 20, "screening", "下列打靶圖何者代表信度差、但效度好（bad reliability but good validity）？（需原圖）", ["圖 A", "圖 B", "圖 C", "圖 D"], "B",
+mcq(k + "II-16", S110, 20, "screening", "下列打靶圖何者代表信度差、但效度好（bad reliability but good validity）？", ["圖 A", "圖 B", "圖 C", "圖 D"], "B",
     "信度好 = 點集中；效度好 = 平均落在靶心。", ["效度與信度"], PAT_READ, image=True)
 mcq(k + "III-1", S110, 21, "rct", "研究者在規劃臨床試驗時，下面哪種技巧「不適當」？",
     ["按照事先擬定的納入排除標準來收取研究個案", "將各案隨機分派到對照組和標準治療組",
@@ -330,7 +330,7 @@ mcq(k + "III-7", S110, 27, "rct", "下面敘述何者錯誤？",
     ["Phase 1 試驗用來測試新成分的藥理毒性", "Phase 2 試驗通常是小型試驗，用來測試藥品有效劑量",
      "Phase 3 試驗是大型試驗，用來測試藥品中長期成效及副作用", "Phase 4 試驗需要比 Phase 3 更大的樣本，完成後藥品才能上市"], "D",
     "Phase 3 完成就能上市。", ["新藥試驗分期"], PAT_NG)
-mcq(k + "III-8", S110, 28, "prognosis", "圖為 300 名病人手術後觀察 2 年的存活狀況（需原圖），存活中點會落在哪個時段？",
+mcq(k + "III-8", S110, 28, "prognosis", "圖為 300 名病人手術後觀察 2 年的存活狀況，存活中點會落在哪個時段？",
     ["2–4.9 個月", "5–7.9 個月", "8–10.9 個月", "14–15 個月"], "C", "看存活率剩 50% 時的時間。", ["存活中位數"], PAT_READ, image=True)
 TKM = "| 週數 | 存活人數 | 死亡人數 |\n|---|---|---|\n| 1 | 8 | 1 |\n| 2 | 7 | 1 |\n| 4 | 6 | 1 |\n| 12 | 3 | 1 |\n| 24 | 1 | 1 |\n\n"
 mcq(k + "III-12", S110, 29, "prognosis", TKM + "以 K-M 法算出第一週病人的存活率：", ["0.875", "0.857", "0.75", "0.667"], "A",
@@ -347,7 +347,7 @@ short(k + "01", S109, 1, "morbidity", "（計算）甲工廠 1,000 位員工，2
       "盛行率：50/1,000 = 5%、60/1,000 = 6%。發生率：新個案 10 人 ÷ at risk（1,000 − 50）= 10.53‰。", ["發生率計算"], PAT_CALC)
 short(k + "02", S109, 2, "mortality", "（簡答）YPLL 與 DALY 的全名為？", "Years of potential life lost；Disability-adjusted life year",
       "YPLL 衡量過早死亡；DALY = YLL + YLD。", ["YPLL", "疾病負擔"], "簡答題")
-mcq(k + "03", S109, 3, "transmission", "下列哪個圖形是 propagated 型疾病的流行曲線？（需原圖）", ["圖 A", "圖 B", "圖 C", "圖 D"], "C",
+mcq(k + "03", S109, 3, "transmission", "下列哪個圖形是 propagated 型疾病的流行曲線？", ["圖 A", "圖 B", "圖 C", "圖 D"], "C",
     "一波未平一波又起、峰值逐漸升高。", ["流行曲線"], PAT_READ, image=True)
 mcq(k + "04", S109, 4, "transmission", "Endemic means that a disease…",
     ["occurs clearly in excess of normal expectancy", "is habitually present in human population",
@@ -363,7 +363,7 @@ mcq(k + "07", S109, 7, "transmission", "Which of the following situation does NO
     ["Disease agents must be restricted to a single host species", "Transmission must be relatively direct from one member of the host species to another",
      "Can operate on disease having a reservoir", "Must induce solid immunity", "All of above do"], "C",
     "有 reservoir 時 herd immunity 無法運作。", ["Herd immunity"], PAT_NG)
-mcq(k + "08", S109, 8, "screening", "下列打靶圖何者是低效度、高信度？（需原圖）", ["圖 A", "圖 B", "圖 C", "圖 D"], "A",
+mcq(k + "08", S109, 8, "screening", "下列打靶圖何者是低效度、高信度？", ["圖 A", "圖 B", "圖 C", "圖 D"], "A",
     "點很集中但偏離靶心 = 信度高、效度低。", ["效度與信度"], PAT_READ, image=True)
 TS = ("精神病院病人出院後的存活情況（無失去追蹤；表格依考古原樣）：\n"
       "出院年  人數  第一年  第二年  第三年\n"
@@ -399,4 +399,4 @@ mcq(k + "17", S109, 17, "prognosis", "若使用診斷時間作為預後測量的
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 with open(OUT, "w", encoding="utf-8") as f:
     json.dump(Q, f, ensure_ascii=False, indent=1)
-print(OUT, len(Q), "questions;", sum(1 for q in Q if q.get("imageOnly")), "imageOnly")
+print(OUT, len(Q), "questions;", sum(1 for q in Q if q.get("img")), "with img")
