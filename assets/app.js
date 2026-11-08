@@ -7363,13 +7363,20 @@
       if (box.dataset.mode === mode) return;
       box.dataset.mode = mode;
       box.innerHTML = `<form class="board-form">
-        ${u ? "" : `<div class="board-guest-row"><input class="input" name="name" maxlength="20" placeholder="暱稱（可留空，顯示為「匿名同學」）" value="${esc(store.get("sh:board:name", ""))}"><a class="small" href="#/me">登入</a></div>`}
-        <textarea class="input" name="body" maxlength="500" rows="${rows}" required placeholder="${u ? `以 ${esc(userName(u))} 的身分留言⋯` : "以訪客身分留言⋯"}"></textarea>
+        <div class="board-guest-row"><input class="input" name="name" maxlength="20" placeholder="${u ? `留言名字（留空顯示為「${esc(userName(u))}」）` : "暱稱（留空顯示為「匿名」）"}" value="${esc(store.get("sh:board:name", ""))}">${u ? "" : `<a class="small" href="#/me">登入</a>`}</div>
+        <textarea class="input" name="body" maxlength="500" rows="${rows}" required></textarea>
         <div class="toolbar"><span class="small muted board-count">0 / 500</span><span class="spacer"></span><button class="btn accent sm" type="submit">${ic("chat")}送出</button></div>
       </form>`;
       const f = $("form", box),
         ta = f.body,
         cnt = $(".board-count", box);
+      const nameNow = () => f.name.value.trim();
+      const setHint = () => {
+        const n = nameNow() || (u ? userName(u) : "");
+        ta.placeholder = n ? `以「${n}」留言⋯` : "以訪客身分留言⋯";
+      };
+      f.name.addEventListener("input", setHint);
+      setHint();
       ta.addEventListener("input", () => {
         cnt.textContent = `${ta.value.length} / 500`;
       });
@@ -7382,12 +7389,9 @@
         if (!body) return;
         const btn = f.querySelector("button[type=submit]");
         btn.disabled = true;
-        const row = { body };
-        if (!Cloud.user) {
-          row.name = (f.name?.value || "").trim();
-          row.owner_key = boardKey();
-          store.set("sh:board:name", row.name);
-        }
+        const row = { body, name: nameNow() };
+        store.set("sh:board:name", row.name);
+        if (!Cloud.user) row.owner_key = boardKey();
         const { data, error } = await Cloud.sb
           .from("board_messages")
           .insert(row)
