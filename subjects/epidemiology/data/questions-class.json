@@ -1,1075 +1,952 @@
 [
- {
-  "id": "class-01",
-  "source": "2026 課堂題",
-  "chapter": "morbidity",
-  "type": "mcq",
-  "stem": "At an initial examination in Oxford, Massachusetts, migraine headache was found in 5 of 1,000 men aged 30 to 35 years and in 10 of 1,000 women aged 30 to 35 years. The inference that women have a two times greater risk of developing migraine headache than do men in this age group is:",
-  "options": [
-   {
-    "k": "A",
-    "t": "Correct"
-   },
-   {
-    "k": "B",
-    "t": "Incorrect, because a ratio has been used to compare male and female rates"
-   },
-   {
-    "k": "C",
-    "t": "Incorrect, because of failure to recognize the effect of age in the two groups"
-   },
-   {
-    "k": "D",
-    "t": "Incorrect, because no data for a comparison or control group are given"
-   },
-   {
-    "k": "E",
-    "t": "Incorrect, because of failure to distinguish between incidence and prevalence"
-   }
-  ],
-  "answer": [
-   "E"
-  ],
-  "explain": "「initial examination」只能得到盛行率（prevalence）。罹病風險要用發生率（incidence）來回答，所以這個推論錯在沒有區分發生率與盛行率。",
-  "topics": [
-   "發生率 vs 盛行率"
-  ],
-  "pattern": "判斷推論",
-  "num": 1
- },
- {
-  "id": "class-02",
-  "source": "2026 課堂題",
-  "chapter": "morbidity",
-  "type": "short",
-  "num": 2,
-  "stem": "（簡答）A prevalence survey conducted from January 1 through December 31, 2012, identified 1,000 cases of schizophrenia in a city of 2 million persons. The incidence rate of schizophrenia in this population is 5/100,000 persons each year. What percentage of the 1,000 cases were newly diagnosed in 2012?",
-  "options": [],
-  "answer": [
-   "10%"
-  ],
-  "answerText": "10%",
-  "explain": "新個案數 = 5/100,000 × 2,000,000 = 100 人。100 ÷ 1,000 = 10%。",
-  "topics": [
-   "發生率計算"
-  ],
-  "pattern": "計算題"
- },
- {
-  "id": "class-03",
-  "source": "2026 課堂題",
-  "chapter": "morbidity",
-  "type": "mcq",
-  "stem": "Which of the following is an advantage of active surveillance?",
-  "options": [
-   {
-    "k": "A",
-    "t": "Requires less project staff"
-   },
-   {
-    "k": "B",
-    "t": "Is relatively inexpensive to employ"
-   },
-   {
-    "k": "C",
-    "t": "More accurate due to reduced reporting burden for health care providers"
-   },
-   {
-    "k": "D",
-    "t": "Relies on different disease definitions to account for all cases"
-   },
-   {
-    "k": "E",
-    "t": "Reporting systems can be developed quickly"
-   }
-  ],
-  "answer": [
-   "C"
-  ],
-  "explain": "主動監測由計畫人員親自到醫療院所找個案，醫療人員的通報負擔較輕，所以資料比較正確。缺點是人力多、昂貴、建立較慢；A、B、E 都是被動監測的特性。",
-  "topics": [
-   "Surveillance"
-  ],
-  "pattern": "選正確／單一概念題",
-  "num": 3
- },
- {
-  "id": "class-04",
-  "source": "2026 課堂題",
-  "chapter": "morbidity",
-  "type": "mcq",
-  "stem": "What would be the effect on age-specific incidence rates of uterine cancer if women with hysterectomies were excluded from the denominator of the calculations, assuming that there are some women in each age group who have had hysterectomies?",
-  "options": [
-   {
-    "k": "A",
-    "t": "The rates would remain the same"
-   },
-   {
-    "k": "B",
-    "t": "The rates would tend to decrease"
-   },
-   {
-    "k": "C",
-    "t": "The rates would tend to increase"
-   },
-   {
-    "k": "D",
-    "t": "The rates would increase in older groups and decrease in younger groups"
-   },
-   {
-    "k": "E",
-    "t": "It cannot be determined whether the rates would increase or decrease"
-   }
-  ],
-  "answer": [
-   "C"
-  ],
-  "explain": "切除子宮的女性不可能得子宮癌（不是 at risk），把她們從分母移除後分母變小，發生率會上升。沒校正時發生率是被低估的。",
-  "topics": [
-   "測量問題：分母"
-  ],
-  "pattern": "選正確／單一概念題",
-  "num": 4
- },
- {
-  "id": "class-05",
-  "source": "2026 課堂題",
-  "chapter": "morbidity",
-  "type": "mcq",
-  "stem": "A survey of the nonhospitalized adult US population (2008–2011) showed the percentage of persons with hypertension rising from 4% (18–29 y) to 64% (≥70 y). The researchers stated that there was an age-related increase in the risk of hypertension. The researchers' interpretation:",
-  "options": [
-   {
-    "k": "A",
-    "t": "Is correct"
-   },
-   {
-    "k": "B",
-    "t": "Is incorrect because it was not based on rates"
-   },
-   {
-    "k": "C",
-    "t": "Is incorrect because incidence rates do not describe risk"
-   },
-   {
-    "k": "D",
-    "t": "Is incorrect because prevalence is used"
-   },
-   {
-    "k": "E",
-    "t": "Is incorrect because the calculations are not age-adjusted"
-   }
-  ],
-  "answer": [
-   "D"
-  ],
-  "explain": "一次調查得到的是盛行率，不能用來推論罹病風險，風險要看發生率。",
-  "topics": [
-   "發生率 vs 盛行率"
-  ],
-  "pattern": "判斷推論",
-  "num": 5
- },
- {
-  "id": "class-06",
-  "source": "2026 課堂題",
-  "chapter": "morbidity",
-  "type": "mcq",
-  "stem": "Population of Atlantis on March 30, 2012 = 183,000; new active TB cases between January 1 and June 30, 2012 = 26; active TB cases on the city register on June 30, 2012 = 264. The incidence rate of active TB for the 6-month period was:",
-  "options": [
-   {
-    "k": "A",
-    "t": "7 per 100,000 population"
-   },
-   {
-    "k": "B",
-    "t": "14 per 100,000 population"
-   },
-   {
-    "k": "C",
-    "t": "26 per 100,000 population"
-   },
-   {
-    "k": "D",
-    "t": "28 per 100,000 population"
-   },
-   {
-    "k": "E",
-    "t": "130 per 100,000 population"
-   }
-  ],
-  "answer": [
-   "B"
-  ],
-  "explain": "26 ÷ 183,000 × 100,000 ≈ 14.2，約每十萬人 14 例。",
-  "topics": [
-   "發生率計算"
-  ],
-  "pattern": "計算題",
-  "num": 6
- },
- {
-  "id": "class-07",
-  "source": "2026 課堂題",
-  "chapter": "morbidity",
-  "type": "mcq",
-  "stem": "Using the same Atlantis data (population 183,000; 264 active TB cases registered on June 30, 2012), the prevalence rate of active TB as of June 30, 2012 was:",
-  "options": [
-   {
-    "k": "A",
-    "t": "14 per 100,000 population"
-   },
-   {
-    "k": "B",
-    "t": "130 per 100,000 population"
-   },
-   {
-    "k": "C",
-    "t": "144 per 100,000 population"
-   },
-   {
-    "k": "D",
-    "t": "264 per 100,000 population"
-   },
-   {
-    "k": "E",
-    "t": "None of the above"
-   }
-  ],
-  "answer": [
-   "C"
-  ],
-  "explain": "點盛行率 = 264 ÷ 183,000 × 100,000 ≈ 144，約每十萬人 144 例。",
-  "topics": [
-   "盛行率計算"
-  ],
-  "pattern": "計算題",
-  "num": 7
- },
- {
-  "id": "class-08",
-  "source": "2026 課堂題",
-  "chapter": "morbidity",
-  "type": "mcq",
-  "stem": "Disease X has a duration of 15 years and a low incidence (5 per 100,000 person-years). Disease Y has a duration of 5 years and the same incidence. Comparing Disease X to Y in the same population, we would expect Disease X to have a:",
-  "options": [
-   {
-    "k": "A",
-    "t": "Better cure rate"
-   },
-   {
-    "k": "B",
-    "t": "Lower prevalence"
-   },
-   {
-    "k": "C",
-    "t": "Higher prevalence"
-   },
-   {
-    "k": "D",
-    "t": "Higher incidence"
-   },
-   {
-    "k": "E",
-    "t": "Shorter average duration"
-   }
-  ],
-  "answer": [
-   "C"
-  ],
-  "explain": "P = I × D。發生率相同時，病程較長的 X 盛行率較高。",
-  "topics": [
-   "P = I × D"
-  ],
-  "pattern": "選正確／單一概念題",
-  "num": 8
- },
- {
-  "id": "class-09",
-  "source": "2026 課堂題",
-  "chapter": "mortality",
-  "type": "mcq",
-  "stem": "Disease A has an annual incidence of 225/100,000 and an annual mortality rate of 150/100,000. Disease B has an annual incidence of 500/100,000 and the same mortality rate. Neither has a cure. What would you conclude?",
-  "options": [
-   {
-    "k": "A",
-    "t": "The proportionate mortality is higher for disease A than disease B"
-   },
-   {
-    "k": "B",
-    "t": "The case fatality ratio is higher for disease B than disease A"
-   },
-   {
-    "k": "C",
-    "t": "Disease A has a higher prevalence than disease B"
-   },
-   {
-    "k": "D",
-    "t": "Disease B has a higher prevalence than disease A"
-   },
-   {
-    "k": "E",
-    "t": "YPLL is greater for disease B than disease A"
-   }
-  ],
-  "answer": [
-   "D"
-  ],
-  "explain": "兩者都無法治癒、死亡率相同，B 每年新增的個案較多、存活下來的病人也較多，所以 B 的盛行率較高。比例死亡相同；A 的致死率反而較高（150/225 vs 150/500）；YPLL 缺少死亡年齡的資料，無法判斷。",
-  "topics": [
-   "死亡率、致死率、盛行率"
-  ],
-  "pattern": "判斷推論",
-  "num": 9
- },
- {
-  "id": "class-10",
-  "source": "2026 課堂題",
-  "chapter": "morbidity",
-  "type": "mcq",
-  "stem": "During the first year after chikungunya virus was introduced into the Dominican Republic (population 10.4 million), 251,880 people were infected. Infection is rarely fatal. Which is correct?",
-  "options": [
-   {
-    "k": "A",
-    "t": "The incidence of chikungunya infection is 251,880 per year"
-   },
-   {
-    "k": "B",
-    "t": "The prevalence of chikungunya infections is 251,880"
-   },
-   {
-    "k": "C",
-    "t": "The mortality rate of chikungunya is 24.2 per 1,000 persons"
-   },
-   {
-    "k": "D",
-    "t": "The 1-year cumulative incidence of chikungunya is 24.2 per 1,000 persons"
-   },
-   {
-    "k": "E",
-    "t": "The cumulative survival from chikungunya infections is 24.2 per 1,000 persons"
-   }
-  ],
-  "answer": [
-   "D"
-  ],
-  "explain": "新傳入的疾病，族群裡每個人都是 at risk。251,880 ÷ 10,400,000 = 0.0242，也就是一年累積發生率每千人 24.2。A、B 只是人數不是率；這個病很少致死，所以 C 錯。",
-  "topics": [
-   "累積發生率"
-  ],
-  "pattern": "計算題",
-  "num": 10
- },
- {
-  "id": "class-ch4-01",
-  "source": "2026 課堂題",
-  "chapter": "mortality",
-  "type": "short",
-  "stem": "某國人口 600 萬，一年內共 6 萬人死亡，其中 3 萬人死於霍亂；當年生霍亂的人共 10 萬。(1) 霍亂的死因別死亡率？(2) 霍亂的致死率？",
-  "options": [],
-  "answer": [],
-  "answerText": "(1) 5／1,000（= 500／10 萬）(2) 30%",
-  "explain": "(1) 死因別死亡率的分母是全人口：30,000 ÷ 6,000,000 = 5‰。(2) 致死率的分母是病人：30,000 ÷ 100,000 = 30%。分母不同是兩者最大的差別。",
-  "topics": [
-   "死亡率 vs 致死率"
-  ],
-  "pattern": "計算題"
- },
- {
-  "id": "class-ch4-03",
-  "source": "2026 課堂題",
-  "chapter": "mortality",
-  "type": "mcq",
-  "stem": "做年齡校正（age-adjusted）死亡率的主要目的是什麼？",
-  "options": [
-   {
-    "k": "A",
-    "t": "修正死亡登記上年齡填錯的問題"
-   },
-   {
-    "k": "B",
-    "t": "求出各年齡層實際死了多少人"
-   },
-   {
-    "k": "C",
-    "t": "補足缺漏的年齡資料"
-   },
-   {
-    "k": "D",
-    "t": "只比較同一年齡層的死亡"
-   },
-   {
-    "k": "E",
-    "t": "比較不同族群死亡率時，排除年齡分布不同造成的影響"
-   }
-  ],
-  "answer": [
-   "E"
-  ],
-  "explain": "年齡是死亡最強的決定因素；兩個族群年齡結構不同時，粗死亡率會被老人比例扭曲。校正後才能在「同樣的年齡結構」下比較。",
-  "topics": [
-   "年齡校正"
-  ],
-  "pattern": "選正確／單一概念題"
- },
- {
-  "id": "class-ch4-04",
-  "source": "2026 課堂題",
-  "chapter": "mortality",
-  "type": "mcq",
-  "stem": "65–69 歲族群中，疾病 X 的死亡率在甲市為 75／10 萬、乙市為 150／10 萬。有人據此推論「乙市 65–69 歲的人得疾病 X 的比例是甲市的兩倍」，這個推論？",
-  "options": [
-   {
-    "k": "A",
-    "t": "正確"
-   },
-   {
-    "k": "B",
-    "t": "錯誤：把死亡率當成盛行率"
-   },
-   {
-    "k": "C",
-    "t": "錯誤：沒有做年齡校正"
-   },
-   {
-    "k": "D",
-    "t": "錯誤：沒有區分期間盛行率與時點盛行率"
-   },
-   {
-    "k": "E",
-    "t": "錯誤：該用率的地方用了比例"
-   }
-  ],
-  "answer": [
-   "B"
-  ],
-  "explain": "死亡率反映的是「得病 × 死於該病」，還受治療與致死率影響，不能直接換算成有多少人正在生病（盛行率）。已經是同一年齡層的比較，不需要再校正年齡。",
-  "topics": [
-   "死亡率 vs 發生率"
-  ],
-  "pattern": "判讀題"
- },
- {
-  "id": "class-ch4-05",
-  "source": "2026 課堂題",
-  "chapter": "mortality",
-  "type": "mcq",
-  "stem": "某病女性的發生率是男性的 5 倍，但男女的盛行率差不多。最合理的解釋是？",
-  "options": [
-   {
-    "k": "A",
-    "t": "女性全死因粗死亡率較高"
-   },
-   {
-    "k": "B",
-    "t": "女性得此病的致死率較高"
-   },
-   {
-    "k": "C",
-    "t": "女性得此病的致死率較低"
-   },
-   {
-    "k": "D",
-    "t": "男性的病程較短"
-   },
-   {
-    "k": "E",
-    "t": "女性較常有此病的危險因子"
-   }
-  ],
-  "answer": [
-   "B"
-  ],
-  "explain": "P ≈ I × D。女性 I 是 5 倍、P 卻相同 → 女性的病程 D 較短；病程變短的原因可能是很快死亡（致死率高）或很快痊癒。選項中只有「女性致死率較高」能解釋。E 只能解釋發生率高，不能解釋盛行率相同。",
-  "topics": [
-   "P = I × D"
-  ],
-  "pattern": "判讀題"
- },
- {
-  "id": "class-ch4-06",
-  "source": "2026 課堂題",
-  "chapter": "mortality",
-  "type": "mcq",
-  "stem": "像胰臟癌這種致死率很高、病程很短的疾病，下列何者正確？",
-  "options": [
-   {
-    "k": "A",
-    "t": "發生率與死亡率會很接近"
-   },
-   {
-    "k": "B",
-    "t": "死亡率會遠高於發生率"
-   },
-   {
-    "k": "C",
-    "t": "發生率會遠高於死亡率"
-   },
-   {
-    "k": "D",
-    "t": "發生率與死亡率無關"
-   },
-   {
-    "k": "E",
-    "t": "以上皆非"
-   }
-  ],
-  "answer": [
-   "A"
-  ],
-  "explain": "幾乎每個得病的人都在短時間內死亡 → 死亡數 ≈ 新病例數，所以可以用死亡率當作發生率的替代指標。",
-  "topics": [
-   "死亡率 vs 發生率"
-  ],
-  "pattern": "選正確／單一概念題"
- },
- {
-  "id": "class-ch4-07",
-  "source": "2026 課堂題",
-  "chapter": "mortality",
-  "type": "short",
-  "stem": "某年 20–64 歲礦工中有 4,500 人死於肺部疾病；若套用全體 20–64 歲男性的年齡別肺病死亡率，礦工預期只會有 1,800 人死亡。礦工肺病的 SMR 是多少？",
-  "options": [],
-  "answer": [],
-  "answerText": "2.5（或 250）",
-  "explain": "SMR = 觀察死亡數 ÷ 預期死亡數 = 4,500 ÷ 1,800 = 2.5；×100 表示時為 250。大於 1（或 100）表示礦工的肺病死亡風險高於一般男性。",
-  "topics": [
-   "SMR"
-  ],
-  "pattern": "計算題"
- },
- {
-  "id": "class-ch4-08",
-  "source": "2026 課堂題",
-  "chapter": "mortality",
-  "type": "mcq",
-  "stem": "甲、乙兩產業的白人男性工人每年各有 550 人死於癌症；呼吸系統癌症在甲占 180 人（33%）、在乙占 248 人（45%）。兩產業工人年齡分布幾乎相同。有人因此認為乙產業工人死於呼吸系統癌症的風險較高，下列何者正確？",
-  "options": [
-   {
-    "k": "A",
-    "t": "結論正確"
-   },
-   {
-    "k": "B",
-    "t": "可能錯誤：應該用年齡別死亡率卻用了比例死亡"
-   },
-   {
-    "k": "C",
-    "t": "可能錯誤：沒有對照組"
-   },
-   {
-    "k": "D",
-    "t": "可能錯誤：應該用死因別死亡率卻用了比例死亡"
-   },
-   {
-    "k": "E",
-    "t": "以上皆非"
-   }
-  ],
-  "answer": [
-   "D"
-  ],
-  "explain": "45% vs 33% 是比例死亡（占所有癌症死亡的比例），分母是死亡人數而不是工人人數。要比較風險，需要各產業的工人總數算出死因別死亡率。年齡分布已說明相近，所以問題不在年齡。",
-  "topics": [
-   "比例死亡"
-  ],
-  "pattern": "判讀題"
- },
- {
-  "id": "class-ch4-09",
-  "source": "2026 課堂題",
-  "chapter": "mortality",
-  "type": "mcq",
-  "stem": "國際衛生組織想找出最需要「減少過早失能」介入的地區，最適合用哪一個指標？",
-  "options": [
-   {
-    "k": "A",
-    "t": "致死率"
-   },
-   {
-    "k": "B",
-    "t": "粗死亡率"
-   },
-   {
-    "k": "C",
-    "t": "失能調整生命年（DALY）"
-   },
-   {
-    "k": "D",
-    "t": "標準化死亡比"
-   }
-  ],
-  "answer": [
-   "C"
-  ],
-  "explain": "DALY = YLL + YLD，同時考慮早死與失能；其他三個只跟死亡有關。",
-  "topics": [
-   "疾病負擔"
-  ],
-  "pattern": "選正確／單一概念題"
- },
- {
-  "id": "class-ch4-10",
-  "source": "2026 課堂題",
-  "chapter": "mortality",
-  "type": "mcq",
-  "stem": "英國肺癌的 SMR：木匠 1949–60 年為 209、1968–79 年為 135；砌磚工人分別為 142、118。只根據這些 SMR，可以得到哪個結論？",
-  "options": [
-   {
-    "k": "A",
-    "t": "1949–60 年木匠死於肺癌的人數比砌磚工人多"
-   },
-   {
-    "k": "B",
-    "t": "砌磚工人 1949–60 年的肺癌比例死亡高於 1968–79 年"
-   },
-   {
-    "k": "C",
-    "t": "砌磚工人 1949–60 年的年齡校正肺癌死亡率高於 1968–79 年"
-   },
-   {
-    "k": "D",
-    "t": "1968–79 年木匠的肺癌死亡率高於同年齡、所有職業男性的預期值"
-   },
-   {
-    "k": "E",
-    "t": "1968–79 年木匠的肺癌比例死亡是預期的 1.35 倍"
-   }
-  ],
-  "answer": [
-   "D"
-  ],
-  "explain": "SMR 只告訴你「這個族群比標準族群（同年齡、所有職業男性）高或低」。135 > 100 → 木匠肺癌死亡比預期多 35%。沒有人數就算不出死亡數或比例死亡；不同時期的 SMR 各用各自的標準族群，也不能直接比較年齡校正率。",
-  "topics": [
-   "SMR"
-  ],
-  "pattern": "判讀題"
- },
- {
-  "id": "class-ch4-11",
-  "source": "2026 課堂題",
-  "chapter": "mortality",
-  "type": "short",
-  "stem": "疾病 Z：X 社區年輕人 8,000 人死 69 人、老人 11,000 人死 115 人；Y 社區年輕人 5,000 人死 48 人、老人 3,000 人死 60 人。以兩社區合計人口為標準人口，用直接法算 X 社區疾病 Z 的年齡校正死亡率。",
-  "options": [],
-  "answer": [],
-  "answerText": "約 9.6／1,000",
-  "explain": "年齡別死亡率：X 年輕 69/8,000 = 8.63‰、老人 115/11,000 = 10.45‰。標準人口：年輕 13,000、老人 14,000（共 27,000）。預期死亡 = 13,000 × 8.63‰ + 14,000 × 10.45‰ ≈ 112.1 + 146.4 = 258.5 → 258.5 ÷ 27,000 ≈ 9.6‰。（Y 社區同法算約 15‰。）",
-  "topics": [
-   "年齡校正"
-  ],
-  "pattern": "計算題"
- },
- {
-  "id": "class-ch4-12",
-  "source": "2026 課堂題",
-  "chapter": "mortality",
-  "type": "mcq",
-  "stem": "承上題的 X、Y 社區資料，Y 社區疾病 Z 的比例死亡（proportionate mortality）是多少？",
-  "options": [
-   {
-    "k": "A",
-    "t": "9.6／1,000"
-   },
-   {
-    "k": "B",
-    "t": "13.5／1,000"
-   },
-   {
-    "k": "C",
-    "t": "20.0／1,000"
-   },
-   {
-    "k": "D",
-    "t": "10.8／1,000"
-   },
-   {
-    "k": "E",
-    "t": "以上皆非（資料不足）"
-   }
-  ],
-  "answer": [
-   "E"
-  ],
-  "explain": "比例死亡 = 死於 Z 的人數 ÷ 所有死因死亡人數。題目沒有給 Y 社區的總死亡數，算不出來；而且比例死亡是百分比，不會是「每千人」。",
-  "topics": [
-   "比例死亡"
-  ],
-  "pattern": "選正確／單一概念題"
- },
- {
-  "id": "class-ch4-13",
-  "source": "2026 課堂題",
-  "chapter": "mortality",
-  "type": "mcq",
-  "stem": "關於直接法年齡校正，下列何者正確？",
-  "options": [
-   {
-    "k": "A",
-    "t": "校正後 X 社區死亡率仍高於 Y 社區，和粗率的結論一樣"
-   },
-   {
-    "k": "B",
-    "t": "X 社區的校正死亡率適合用來分配該社區臨終照護的醫療經費"
-   },
-   {
-    "k": "C",
-    "t": "每個年齡層的權重是該年齡層死亡人數的百分比"
-   },
-   {
-    "k": "D",
-    "t": "每個年齡層的權重是標準人口中該年齡層的人數"
-   },
-   {
-    "k": "E",
-    "t": "校正後兩社區死亡率的差異，一定都是年齡結構不同造成的"
-   }
-  ],
-  "answer": [
-   "D"
-  ],
-  "explain": "直接法 = Σ（各組年齡別死亡率 × 標準人口該年齡層人數）÷ 標準人口。A：校正後 X 約 9.6‰、Y 約 15‰，結論反轉。B：校正率是「假想」的比較用數字，規劃實際醫療需求要用粗率。E：年齡已被校正掉，剩下的差異來自其他因素。",
-  "topics": [
-   "年齡校正"
-  ],
-  "pattern": "選正確／單一概念題"
- },
- {
-  "id": "class-ch4-14",
-  "source": "2026 課堂題",
-  "chapter": "mortality",
-  "type": "mcq",
-  "stem": "慢性肝病死亡率在 65 歲以上最高，而美國 65 歲以上人口比例比國家 X 高。若以國家 X 的人口為標準，把美國慢性肝病死亡率做年齡標準化，會怎樣？",
-  "options": [
-   {
-    "k": "A",
-    "t": "美國標準化死亡率會低於美國粗死亡率"
-   },
-   {
-    "k": "B",
-    "t": "美國標準化死亡率會高於美國粗死亡率"
-   },
-   {
-    "k": "C",
-    "t": "兩者相同"
-   },
-   {
-    "k": "D",
-    "t": "美國標準化死亡率不能用於這種比較"
-   },
-   {
-    "k": "E",
-    "t": "美國標準化死亡率會等於比例死亡"
-   }
-  ],
-  "answer": [
-   "A"
-  ],
-  "explain": "國家 X 比較年輕 → 套用它的人口結構時，高死亡率的老年組權重變小，所以美國的標準化率會比自己的粗率低。",
-  "topics": [
-   "年齡校正"
-  ],
-  "pattern": "選正確／單一概念題"
- },
- {
-  "id": "class-ch4-15",
-  "source": "2026 課堂題",
-  "chapter": "mortality",
-  "type": "mcq",
-  "stem": "魚類加工廠工人死亡中有 30% 死於心肌梗塞，啤酒廠工人只有 10%。研究者據此認為魚類加工廠工人死於心肌梗塞的風險較高，這個結論？",
-  "options": [
-   {
-    "k": "A",
-    "t": "正確"
-   },
-   {
-    "k": "B",
-    "t": "可能錯誤：因為用的是比例死亡"
-   },
-   {
-    "k": "C",
-    "t": "可能錯誤：假設兩廠致死率相同"
-   },
-   {
-    "k": "D",
-    "t": "可能錯誤：魚油可預防心肌梗塞死亡"
-   },
-   {
-    "k": "E",
-    "t": "可能錯誤：不知道兩廠的心肌梗塞盛行率"
-   }
-  ],
-  "answer": [
-   "B"
-  ],
-  "explain": "比例死亡會受其他死因影響。例：魚廠 1,000 人死 10 人（MI 3 人，30%），酒廠 1,000 人死 100 人（MI 10 人，10%）→ MI 死亡率其實是酒廠較高（1% vs 0.3%）。",
-  "topics": [
-   "比例死亡"
-  ],
-  "pattern": "判讀題"
- },
- {
-  "id": "class-ch7-01",
-  "source": "2026 課堂題",
-  "chapter": "rct",
-  "type": "mcq",
-  "stem": "（講義 p.36）新藥組治癒率為 60%，安慰劑組治癒率為 10%。依講義的 treatment efficacy 公式 |安慰劑組 − 新藥組| ÷ 安慰劑組，efficacy 為多少？",
-  "options": [
-   {
-    "k": "A",
-    "t": "0.5"
-   },
-   {
-    "k": "B",
-    "t": "0.83"
-   },
-   {
-    "k": "C",
-    "t": "5"
-   },
-   {
-    "k": "D",
-    "t": "6"
-   }
-  ],
-  "answer": [
-   "C"
-  ],
-  "explain": "|0.1 − 0.6| ÷ 0.1 = 0.5 ÷ 0.1 = 5。分母用安慰劑組。6 是新藥組 ÷ 安慰劑組的比值（0.6 ÷ 0.1），不是 efficacy。",
-  "topics": [
-   "結果呈現"
-  ],
-  "pattern": "計算題"
- },
- {
-  "id": "class-ch7-02",
-  "source": "2026 課堂題",
-  "chapter": "rct",
-  "type": "mcq",
-  "stem": "（講義 p.36）新藥組 CFR 為 5%，安慰劑組 CFR 為 20%。依 Gordis 的定義，treatment efficacy（risk reduction）為多少？",
-  "options": [
-   {
-    "k": "A",
-    "t": "0.15"
-   },
-   {
-    "k": "B",
-    "t": "0.25"
-   },
-   {
-    "k": "C",
-    "t": "0.75"
-   },
-   {
-    "k": "D",
-    "t": "3"
-   }
-  ],
-  "answer": [
-   "C"
-  ],
-  "explain": "Efficacy =（安慰劑組率 − 治療組率）÷ 安慰劑組率 =（0.20 − 0.05）÷ 0.20 = 0.75，即死亡風險降低 75%。講義算成 (0.2 − 0.05) ÷ 0.05 = 3，分母用了新藥組，和 Gordis 的定義不同。0.15 是 ARR，0.25 是 RR（0.05 ÷ 0.20）。",
-  "topics": [
-   "結果呈現"
-  ],
-  "pattern": "計算題"
- },
- {
-  "id": "class-ch7-03",
-  "source": "2026 課堂題",
-  "chapter": "rct",
-  "type": "mcq",
-  "stem": "（講義 p.37）新藥組第一年存活率為 55%，安慰劑組第一年存活率為 40%。relative risk to survival 為多少？",
-  "options": [
-   {
-    "k": "A",
-    "t": "0.15"
-   },
-   {
-    "k": "B",
-    "t": "0.27"
-   },
-   {
-    "k": "C",
-    "t": "0.727"
-   },
-   {
-    "k": "D",
-    "t": "1.375"
-   }
-  ],
-  "answer": [
-   "D"
-  ],
-  "explain": "Relative risk = 新藥組 ÷ 安慰劑組 = 0.55 ÷ 0.40 = 1.375。0.727 是倒過來除，0.15 是兩組差。",
-  "topics": [
-   "結果呈現"
-  ],
-  "pattern": "計算題"
- },
- {
-  "id": "class-ch7-04",
-  "source": "2026 課堂題",
-  "chapter": "rct",
-  "type": "mcq",
-  "stem": "（講義 p.40）以干擾素治療多發性硬化症（MS），安慰劑組失能惡化率 50%、干擾素組 39%。NNT 為多少？",
-  "options": [
-   {
-    "k": "A",
-    "t": "2"
-   },
-   {
-    "k": "B",
-    "t": "5"
-   },
-   {
-    "k": "C",
-    "t": "9"
-   },
-   {
-    "k": "D",
-    "t": "22"
-   }
-  ],
-  "answer": [
-   "C"
-  ],
-  "explain": "ARR = CER − EER = 50% − 39% = 11%；NNT = 1 ÷ ARR = 1 ÷ 0.11 ≈ 9：每治療 9 人可避免 1 人失能惡化。22% 是 RRR（11 ÷ 50）。講義文字寫「重症肌無力」，表格寫 MS，Gordis 原例是 MS。",
-  "topics": [
-   "NNT"
-  ],
-  "pattern": "計算題"
- },
- {
-  "id": "class-ch7-05",
-  "source": "2026 課堂題",
-  "chapter": "rct",
-  "type": "mcq",
-  "stem": "（講義 p.40）假設某罕見事件在安慰劑組發生率 0.00050%、治療組 0.00039%。和上一題 MS 例（50% vs 39%）相比，下列何者正確？",
-  "options": [
-   {
-    "k": "A",
-    "t": "兩者 RRR 相同，NNT 也相同"
-   },
-   {
-    "k": "B",
-    "t": "兩者 RRR 都是 22%，但罕見事件的 NNT 約 909,090，不值得治療"
-   },
-   {
-    "k": "C",
-    "t": "罕見事件的 RRR 較小，所以 NNT 較大"
-   },
-   {
-    "k": "D",
-    "t": "兩者 ARR 相同"
-   }
-  ],
-  "answer": [
-   "B"
-  ],
-  "explain": "RRR =（0.00050 − 0.00039）÷ 0.00050 = 22%，和 MS 例一樣；但 ARR 只有 0.00011%，NNT = 1 ÷ 0.0000011 ≈ 909,090。RRR 相同時，事件越罕見 NNT 越大，所以要看 ARR／NNT 才知道值不值得治療。",
-  "topics": [
-   "NNT"
-  ],
-  "pattern": "選正確／單一概念題"
- },
- {
-  "id": "class-ch7-06",
-  "source": "2026 課堂題",
-  "chapter": "rct",
-  "type": "mcq",
-  "stem": "（講義 p.3）1747 年 James Lind 把壞血病水手分成 6 組、每組 2 人，分別給蘋果汁、硫酸類藥劑、醋、柳橙與檸檬、海水、肉豆蔻。這個研究在臨床試驗史上的地位是？",
-  "options": [
-   {
-    "k": "A",
-    "t": "第一個非計畫性試驗"
-   },
-   {
-    "k": "B",
-    "t": "第一個有計畫的臨床試驗"
-   },
-   {
-    "k": "C",
-    "t": "第一個雙盲試驗"
-   },
-   {
-    "k": "D",
-    "t": "第一個隨機雙盲試驗"
-   }
-  ],
-  "answer": [
-   "B"
-  ],
-  "explain": "Lind 是第一個有計畫的試驗（柳橙與檸檬最有效，壞血病是缺乏維生素 C）。1537 年 Paré 用蛋黃、玫瑰油、松脂代替沸油是非計畫性試驗；Joyce & Welldon（1965）用雙盲、序列分析研究祈禱；Byrd（1988）才是隨機雙盲的祈禱試驗。",
-  "topics": [
-   "臨床試驗歷史"
-  ],
-  "pattern": "選正確／單一概念題"
- },
- {
-  "id": "class-ch7-07",
-  "source": "2026 課堂題",
-  "chapter": "rct",
-  "type": "mcq",
-  "stem": "（講義 p.15）某研究讓願意接種的孩子打疫苗、其餘當對照組，結果疫苗組死亡人數遠少於對照組。講義用這個例子說明什麼問題？",
-  "options": [
-   {
-    "k": "A",
-    "t": "歷史偏差：對照組是過去的病人"
-   },
-   {
-    "k": "B",
-    "t": "選擇偏差：積極的家長才會選擇讓孩子打疫苗"
-   },
-   {
-    "k": "C",
-    "t": "殘餘效應：疫苗效果延續到對照期"
-   },
-   {
-    "k": "D",
-    "t": "錯誤分類：病人換組造成"
-   }
-  ],
-  "answer": [
-   "B"
-  ],
-  "explain": "這是同步非隨機對照：分組由家長決定，積極、照顧較好的家長才選疫苗，兩組本來就不可比 → 選擇偏差。疫苗組死亡少，可能不是疫苗的效果。隨機分派才能避免。",
-  "topics": [
-   "研究對照設計",
-   "隨機分派"
-  ],
-  "pattern": "判讀題"
- },
- {
-  "id": "class-ch7-08",
-  "source": "2026 課堂題",
-  "chapter": "rct",
-  "type": "mcq",
-  "stem": "（講義 p.29）發生非預期性交叉（unplanned crossover），例如手術組有病人拒絕手術而改吃藥。下列分析方式的問題，何者正確？",
-  "options": [
-   {
-    "k": "A",
-    "t": "依原分派分析會破壞隨機"
-   },
-   {
-    "k": "B",
-    "t": "依實際接受的治療分析會造成錯誤分類"
-   },
-   {
-    "k": "C",
-    "t": "依原分派分析會造成錯誤分類；依實際接受的治療分析會破壞隨機"
-   },
-   {
-    "k": "D",
-    "t": "兩種分析方式都沒有問題"
-   }
-  ],
-  "answer": [
-   "C"
-  ],
-  "explain": "依原分派（intention-to-treat）分析：有些人實際沒接受該治療 → misclassification。依實際接受的治療分析：換組的人不是隨機決定的 → break the randomization。講義說非預期性交叉「產生大問題」。",
-  "topics": [
-   "交叉試驗"
-  ],
-  "pattern": "選正確／單一概念題"
- }
+  {
+    "id": "class-01",
+    "source": "2026 課堂題",
+    "chapter": "morbidity",
+    "type": "mcq",
+    "stem": "At an initial examination in Oxford, Massachusetts, migraine headache was found in 5 of 1,000 men aged 30 to 35 years and in 10 of 1,000 women aged 30 to 35 years. The inference that women have a two times greater risk of developing migraine headache than do men in this age group is:",
+    "options": [
+      {
+        "k": "A",
+        "t": "Correct"
+      },
+      {
+        "k": "B",
+        "t": "Incorrect, because a ratio has been used to compare male and female rates"
+      },
+      {
+        "k": "C",
+        "t": "Incorrect, because of failure to recognize the effect of age in the two groups"
+      },
+      {
+        "k": "D",
+        "t": "Incorrect, because no data for a comparison or control group are given"
+      },
+      {
+        "k": "E",
+        "t": "Incorrect, because of failure to distinguish between incidence and prevalence"
+      }
+    ],
+    "answer": ["E"],
+    "explain": "初次檢查找到的是「當下已經有偏頭痛的人」，所以 5/1,000 和 10/1,000 都是盛行率。但「發生偏頭痛的風險」指的是發生率，需要追蹤一群原本沒病的人，看有多少人新發病。",
+    "topics": ["發生率 vs 盛行率"],
+    "pattern": "判斷推論",
+    "num": 1
+  },
+  {
+    "id": "class-02",
+    "source": "2026 課堂題",
+    "chapter": "morbidity",
+    "type": "short",
+    "num": 2,
+    "stem": "（簡答）A prevalence survey conducted from January 1 through December 31, 2012, identified 1,000 cases of schizophrenia in a city of 2 million persons. The incidence rate of schizophrenia in this population is 5/100,000 persons each year. What percentage of the 1,000 cases were newly diagnosed in 2012?",
+    "options": [],
+    "answer": ["10%"],
+    "answerText": "10%",
+    "explain": "新個案數 = 5/100,000 × 2,000,000 = 100 人。100 ÷ 1,000 = 10%。",
+    "topics": ["發生率計算"],
+    "pattern": "計算題"
+  },
+  {
+    "id": "class-03",
+    "source": "2026 課堂題",
+    "chapter": "morbidity",
+    "type": "mcq",
+    "stem": "Which of the following is an advantage of active surveillance?",
+    "options": [
+      {
+        "k": "A",
+        "t": "Requires less project staff"
+      },
+      {
+        "k": "B",
+        "t": "Is relatively inexpensive to employ"
+      },
+      {
+        "k": "C",
+        "t": "More accurate due to reduced reporting burden for health care providers"
+      },
+      {
+        "k": "D",
+        "t": "Relies on different disease definitions to account for all cases"
+      },
+      {
+        "k": "E",
+        "t": "Reporting systems can be developed quickly"
+      }
+    ],
+    "answer": ["C"],
+    "explain": "主動監測由計畫人員親自到醫療院所找個案，醫療人員的通報負擔較輕，所以資料比較正確。缺點是人力多、昂貴、建立較慢；A、B、E 都是被動監測的特性。",
+    "topics": ["Surveillance"],
+    "pattern": "選正確／單一概念題",
+    "num": 3
+  },
+  {
+    "id": "class-04",
+    "source": "2026 課堂題",
+    "chapter": "morbidity",
+    "type": "mcq",
+    "stem": "What would be the effect on age-specific incidence rates of uterine cancer if women with hysterectomies were excluded from the denominator of the calculations, assuming that there are some women in each age group who have had hysterectomies?",
+    "options": [
+      {
+        "k": "A",
+        "t": "The rates would remain the same"
+      },
+      {
+        "k": "B",
+        "t": "The rates would tend to decrease"
+      },
+      {
+        "k": "C",
+        "t": "The rates would tend to increase"
+      },
+      {
+        "k": "D",
+        "t": "The rates would increase in older groups and decrease in younger groups"
+      },
+      {
+        "k": "E",
+        "t": "It cannot be determined whether the rates would increase or decrease"
+      }
+    ],
+    "answer": ["C"],
+    "explain": "切除子宮的女性不可能得子宮癌（不是 at risk），把她們從分母移除後分母變小，發生率會上升。沒校正時發生率是被低估的。",
+    "topics": ["測量問題：分母"],
+    "pattern": "選正確／單一概念題",
+    "num": 4
+  },
+  {
+    "id": "class-05",
+    "source": "2026 課堂題",
+    "chapter": "morbidity",
+    "type": "mcq",
+    "stem": "A survey of the nonhospitalized adult US population (2008–2011) showed the percentage of persons with hypertension rising from 4% (18–29 y) to 64% (≥70 y). The researchers stated that there was an age-related increase in the risk of hypertension. The researchers' interpretation:",
+    "options": [
+      {
+        "k": "A",
+        "t": "Is correct"
+      },
+      {
+        "k": "B",
+        "t": "Is incorrect because it was not based on rates"
+      },
+      {
+        "k": "C",
+        "t": "Is incorrect because incidence rates do not describe risk"
+      },
+      {
+        "k": "D",
+        "t": "Is incorrect because prevalence is used"
+      },
+      {
+        "k": "E",
+        "t": "Is incorrect because the calculations are not age-adjusted"
+      }
+    ],
+    "answer": ["D"],
+    "explain": "一次調查得到的是盛行率，不能用來推論罹病風險，風險要看發生率。",
+    "topics": ["發生率 vs 盛行率"],
+    "pattern": "判斷推論",
+    "num": 5
+  },
+  {
+    "id": "class-06",
+    "source": "2026 課堂題",
+    "chapter": "morbidity",
+    "type": "mcq",
+    "stem": "Population of Atlantis on March 30, 2012 = 183,000; new active TB cases between January 1 and June 30, 2012 = 26; active TB cases on the city register on June 30, 2012 = 264. The incidence rate of active TB for the 6-month period was:",
+    "options": [
+      {
+        "k": "A",
+        "t": "7 per 100,000 population"
+      },
+      {
+        "k": "B",
+        "t": "14 per 100,000 population"
+      },
+      {
+        "k": "C",
+        "t": "26 per 100,000 population"
+      },
+      {
+        "k": "D",
+        "t": "28 per 100,000 population"
+      },
+      {
+        "k": "E",
+        "t": "130 per 100,000 population"
+      }
+    ],
+    "answer": ["B"],
+    "explain": "26 ÷ 183,000 × 100,000 ≈ 14.2，約每十萬人 14 例。",
+    "topics": ["發生率計算"],
+    "pattern": "計算題",
+    "num": 6
+  },
+  {
+    "id": "class-07",
+    "source": "2026 課堂題",
+    "chapter": "morbidity",
+    "type": "mcq",
+    "stem": "Using the same Atlantis data (population 183,000; 264 active TB cases registered on June 30, 2012), the prevalence rate of active TB as of June 30, 2012 was:",
+    "options": [
+      {
+        "k": "A",
+        "t": "14 per 100,000 population"
+      },
+      {
+        "k": "B",
+        "t": "130 per 100,000 population"
+      },
+      {
+        "k": "C",
+        "t": "144 per 100,000 population"
+      },
+      {
+        "k": "D",
+        "t": "264 per 100,000 population"
+      },
+      {
+        "k": "E",
+        "t": "None of the above"
+      }
+    ],
+    "answer": ["C"],
+    "explain": "點盛行率 = 264 ÷ 183,000 × 100,000 ≈ 144，約每十萬人 144 例。",
+    "topics": ["盛行率計算"],
+    "pattern": "計算題",
+    "num": 7
+  },
+  {
+    "id": "class-08",
+    "source": "2026 課堂題",
+    "chapter": "morbidity",
+    "type": "mcq",
+    "stem": "Disease X has a duration of 15 years and a low incidence (5 per 100,000 person-years). Disease Y has a duration of 5 years and the same incidence. Comparing Disease X to Y in the same population, we would expect Disease X to have a:",
+    "options": [
+      {
+        "k": "A",
+        "t": "Better cure rate"
+      },
+      {
+        "k": "B",
+        "t": "Lower prevalence"
+      },
+      {
+        "k": "C",
+        "t": "Higher prevalence"
+      },
+      {
+        "k": "D",
+        "t": "Higher incidence"
+      },
+      {
+        "k": "E",
+        "t": "Shorter average duration"
+      }
+    ],
+    "answer": ["C"],
+    "explain": "P = I × D。發生率相同時，病程較長的 X 盛行率較高。",
+    "topics": ["P = I × D"],
+    "pattern": "選正確／單一概念題",
+    "num": 8
+  },
+  {
+    "id": "class-09",
+    "source": "2026 課堂題",
+    "chapter": "mortality",
+    "type": "mcq",
+    "stem": "Disease A has an annual incidence of 225/100,000 and an annual mortality rate of 150/100,000. Disease B has an annual incidence of 500/100,000 and the same mortality rate. Neither has a cure. What would you conclude?",
+    "options": [
+      {
+        "k": "A",
+        "t": "The proportionate mortality is higher for disease A than disease B"
+      },
+      {
+        "k": "B",
+        "t": "The case fatality ratio is higher for disease B than disease A"
+      },
+      {
+        "k": "C",
+        "t": "Disease A has a higher prevalence than disease B"
+      },
+      {
+        "k": "D",
+        "t": "Disease B has a higher prevalence than disease A"
+      },
+      {
+        "k": "E",
+        "t": "YPLL is greater for disease B than disease A"
+      }
+    ],
+    "answer": ["D"],
+    "explain": "兩者都無法治癒、死亡率相同，B 每年新增的個案較多、存活下來的病人也較多，所以 B 的盛行率較高。比例死亡相同；A 的致死率反而較高（150/225 vs 150/500）；YPLL 缺少死亡年齡的資料，無法判斷。",
+    "topics": ["死亡率、致死率、盛行率"],
+    "pattern": "判斷推論",
+    "num": 9
+  },
+  {
+    "id": "class-10",
+    "source": "2026 課堂題",
+    "chapter": "morbidity",
+    "type": "mcq",
+    "stem": "During the first year after chikungunya virus was introduced into the Dominican Republic (population 10.4 million), 251,880 people were infected. Infection is rarely fatal. Which is correct?",
+    "options": [
+      {
+        "k": "A",
+        "t": "The incidence of chikungunya infection is 251,880 per year"
+      },
+      {
+        "k": "B",
+        "t": "The prevalence of chikungunya infections is 251,880"
+      },
+      {
+        "k": "C",
+        "t": "The mortality rate of chikungunya is 24.2 per 1,000 persons"
+      },
+      {
+        "k": "D",
+        "t": "The 1-year cumulative incidence of chikungunya is 24.2 per 1,000 persons"
+      },
+      {
+        "k": "E",
+        "t": "The cumulative survival from chikungunya infections is 24.2 per 1,000 persons"
+      }
+    ],
+    "answer": ["D"],
+    "explain": "新傳入的疾病，族群裡每個人都是 at risk。251,880 ÷ 10,400,000 = 0.0242，也就是一年累積發生率每千人 24.2。A、B 只是人數不是率；這個病很少致死，所以 C 錯。",
+    "topics": ["累積發生率"],
+    "pattern": "計算題",
+    "num": 10
+  },
+  {
+    "id": "class-ch4-01",
+    "source": "2026 課堂題",
+    "chapter": "mortality",
+    "type": "short",
+    "stem": "某國人口 600 萬，一年內共 6 萬人死亡，其中 3 萬人死於霍亂；當年生霍亂的人共 10 萬。(1) 霍亂的死因別死亡率？(2) 霍亂的致死率？",
+    "options": [],
+    "answer": [],
+    "answerText": "(1) 5／1,000（= 500／10 萬）(2) 30%",
+    "explain": "(1) 死因別死亡率的分母是全人口：30,000 ÷ 6,000,000 = 5‰。(2) 致死率的分母是病人：30,000 ÷ 100,000 = 30%。分母不同是兩者最大的差別。",
+    "topics": ["死亡率 vs 致死率"],
+    "pattern": "計算題"
+  },
+  {
+    "id": "class-ch4-03",
+    "source": "2026 課堂題",
+    "chapter": "mortality",
+    "type": "mcq",
+    "stem": "做年齡校正（age-adjusted）死亡率的主要目的是什麼？",
+    "options": [
+      {
+        "k": "A",
+        "t": "修正死亡登記上年齡填錯的問題"
+      },
+      {
+        "k": "B",
+        "t": "求出各年齡層實際死了多少人"
+      },
+      {
+        "k": "C",
+        "t": "補足缺漏的年齡資料"
+      },
+      {
+        "k": "D",
+        "t": "只比較同一年齡層的死亡"
+      },
+      {
+        "k": "E",
+        "t": "比較不同族群死亡率時，排除年齡分布不同造成的影響"
+      }
+    ],
+    "answer": ["E"],
+    "explain": "年齡是死亡最強的決定因素；兩個族群年齡結構不同時，粗死亡率會被老人比例扭曲。校正後才能在「同樣的年齡結構」下比較。",
+    "topics": ["年齡校正"],
+    "pattern": "選正確／單一概念題"
+  },
+  {
+    "id": "class-ch4-04",
+    "source": "2026 課堂題",
+    "chapter": "mortality",
+    "type": "mcq",
+    "stem": "65–69 歲族群中，疾病 X 的死亡率在甲市為 75／10 萬、乙市為 150／10 萬。有人據此推論「乙市 65–69 歲的人得疾病 X 的比例是甲市的兩倍」，這個推論？",
+    "options": [
+      {
+        "k": "A",
+        "t": "正確"
+      },
+      {
+        "k": "B",
+        "t": "錯誤：把死亡率當成盛行率"
+      },
+      {
+        "k": "C",
+        "t": "錯誤：沒有做年齡校正"
+      },
+      {
+        "k": "D",
+        "t": "錯誤：沒有區分期間盛行率與時點盛行率"
+      },
+      {
+        "k": "E",
+        "t": "錯誤：該用率的地方用了比例"
+      }
+    ],
+    "answer": ["B"],
+    "explain": "死亡率反映的是「得病 × 死於該病」，還受治療與致死率影響，不能直接換算成有多少人正在生病（盛行率）。已經是同一年齡層的比較，不需要再校正年齡。",
+    "topics": ["死亡率 vs 發生率"],
+    "pattern": "判讀題"
+  },
+  {
+    "id": "class-ch4-05",
+    "source": "2026 課堂題",
+    "chapter": "mortality",
+    "type": "mcq",
+    "stem": "某病女性的發生率是男性的 5 倍，但男女的盛行率差不多。最合理的解釋是？",
+    "options": [
+      {
+        "k": "A",
+        "t": "女性全死因粗死亡率較高"
+      },
+      {
+        "k": "B",
+        "t": "女性得此病的致死率較高"
+      },
+      {
+        "k": "C",
+        "t": "女性得此病的致死率較低"
+      },
+      {
+        "k": "D",
+        "t": "男性的病程較短"
+      },
+      {
+        "k": "E",
+        "t": "女性較常有此病的危險因子"
+      }
+    ],
+    "answer": ["B"],
+    "explain": "P ≈ I × D。女性 I 是 5 倍、P 卻相同 → 女性的病程 D 較短；病程變短的原因可能是很快死亡（致死率高）或很快痊癒。選項中只有「女性致死率較高」能解釋。E 只能解釋發生率高，不能解釋盛行率相同。",
+    "topics": ["P = I × D"],
+    "pattern": "判讀題"
+  },
+  {
+    "id": "class-ch4-06",
+    "source": "2026 課堂題",
+    "chapter": "mortality",
+    "type": "mcq",
+    "stem": "像胰臟癌這種致死率很高、病程很短的疾病，下列何者正確？",
+    "options": [
+      {
+        "k": "A",
+        "t": "發生率與死亡率會很接近"
+      },
+      {
+        "k": "B",
+        "t": "死亡率會遠高於發生率"
+      },
+      {
+        "k": "C",
+        "t": "發生率會遠高於死亡率"
+      },
+      {
+        "k": "D",
+        "t": "發生率與死亡率無關"
+      },
+      {
+        "k": "E",
+        "t": "以上皆非"
+      }
+    ],
+    "answer": ["A"],
+    "explain": "幾乎每個得病的人都在短時間內死亡 → 死亡數 ≈ 新病例數，所以可以用死亡率當作發生率的替代指標。",
+    "topics": ["死亡率 vs 發生率"],
+    "pattern": "選正確／單一概念題"
+  },
+  {
+    "id": "class-ch4-07",
+    "source": "2026 課堂題",
+    "chapter": "mortality",
+    "type": "short",
+    "stem": "某年 20–64 歲礦工中有 4,500 人死於肺部疾病；若套用全體 20–64 歲男性的年齡別肺病死亡率，礦工預期只會有 1,800 人死亡。礦工肺病的 SMR 是多少？",
+    "options": [],
+    "answer": [],
+    "answerText": "2.5（或 250）",
+    "explain": "SMR = 觀察死亡數 ÷ 預期死亡數 = 4,500 ÷ 1,800 = 2.5；×100 表示時為 250。大於 1（或 100）表示礦工的肺病死亡風險高於一般男性。",
+    "topics": ["SMR"],
+    "pattern": "計算題"
+  },
+  {
+    "id": "class-ch4-08",
+    "source": "2026 課堂題",
+    "chapter": "mortality",
+    "type": "mcq",
+    "stem": "甲、乙兩產業的白人男性工人每年各有 550 人死於癌症；呼吸系統癌症在甲占 180 人（33%）、在乙占 248 人（45%）。兩產業工人年齡分布幾乎相同。有人因此認為乙產業工人死於呼吸系統癌症的風險較高，下列何者正確？",
+    "options": [
+      {
+        "k": "A",
+        "t": "結論正確"
+      },
+      {
+        "k": "B",
+        "t": "可能錯誤：應該用年齡別死亡率卻用了比例死亡"
+      },
+      {
+        "k": "C",
+        "t": "可能錯誤：沒有對照組"
+      },
+      {
+        "k": "D",
+        "t": "可能錯誤：應該用死因別死亡率卻用了比例死亡"
+      },
+      {
+        "k": "E",
+        "t": "以上皆非"
+      }
+    ],
+    "answer": ["D"],
+    "explain": "45% vs 33% 是比例死亡（占所有癌症死亡的比例），分母是死亡人數而不是工人人數。要比較風險，需要各產業的工人總數算出死因別死亡率。年齡分布已說明相近，所以問題不在年齡。",
+    "topics": ["比例死亡"],
+    "pattern": "判讀題"
+  },
+  {
+    "id": "class-ch4-09",
+    "source": "2026 課堂題",
+    "chapter": "mortality",
+    "type": "mcq",
+    "stem": "國際衛生組織想找出最需要「減少過早失能」介入的地區，最適合用哪一個指標？",
+    "options": [
+      {
+        "k": "A",
+        "t": "致死率"
+      },
+      {
+        "k": "B",
+        "t": "粗死亡率"
+      },
+      {
+        "k": "C",
+        "t": "失能調整生命年（DALY）"
+      },
+      {
+        "k": "D",
+        "t": "標準化死亡比"
+      }
+    ],
+    "answer": ["C"],
+    "explain": "DALY = YLL + YLD，同時考慮早死與失能；其他三個只跟死亡有關。",
+    "topics": ["疾病負擔"],
+    "pattern": "選正確／單一概念題"
+  },
+  {
+    "id": "class-ch4-10",
+    "source": "2026 課堂題",
+    "chapter": "mortality",
+    "type": "mcq",
+    "stem": "英國肺癌的 SMR：木匠 1949–60 年為 209、1968–79 年為 135；砌磚工人分別為 142、118。只根據這些 SMR，可以得到哪個結論？",
+    "options": [
+      {
+        "k": "A",
+        "t": "1949–60 年木匠死於肺癌的人數比砌磚工人多"
+      },
+      {
+        "k": "B",
+        "t": "砌磚工人 1949–60 年的肺癌比例死亡高於 1968–79 年"
+      },
+      {
+        "k": "C",
+        "t": "砌磚工人 1949–60 年的年齡校正肺癌死亡率高於 1968–79 年"
+      },
+      {
+        "k": "D",
+        "t": "1968–79 年木匠的肺癌死亡率高於同年齡、所有職業男性的預期值"
+      },
+      {
+        "k": "E",
+        "t": "1968–79 年木匠的肺癌比例死亡是預期的 1.35 倍"
+      }
+    ],
+    "answer": ["D"],
+    "explain": "SMR 只告訴你「這個族群比標準族群（同年齡、所有職業男性）高或低」。135 > 100 → 木匠肺癌死亡比預期多 35%。沒有人數就算不出死亡數或比例死亡；不同時期的 SMR 各用各自的標準族群，也不能直接比較年齡校正率。",
+    "topics": ["SMR"],
+    "pattern": "判讀題"
+  },
+  {
+    "id": "class-ch4-11",
+    "source": "2026 課堂題",
+    "chapter": "mortality",
+    "type": "short",
+    "stem": "疾病 Z：X 社區年輕人 8,000 人死 69 人、老人 11,000 人死 115 人；Y 社區年輕人 5,000 人死 48 人、老人 3,000 人死 60 人。以兩社區合計人口為標準人口，用直接法算 X 社區疾病 Z 的年齡校正死亡率。",
+    "options": [],
+    "answer": [],
+    "answerText": "約 9.6／1,000",
+    "explain": "年齡別死亡率：X 年輕 69/8,000 = 8.63‰、老人 115/11,000 = 10.45‰。標準人口：年輕 13,000、老人 14,000（共 27,000）。預期死亡 = 13,000 × 8.63‰ + 14,000 × 10.45‰ ≈ 112.1 + 146.4 = 258.5 → 258.5 ÷ 27,000 ≈ 9.6‰。（Y 社區同法算約 15‰。）",
+    "topics": ["年齡校正"],
+    "pattern": "計算題"
+  },
+  {
+    "id": "class-ch4-12",
+    "source": "2026 課堂題",
+    "chapter": "mortality",
+    "type": "mcq",
+    "stem": "承上題的 X、Y 社區資料，Y 社區疾病 Z 的比例死亡（proportionate mortality）是多少？",
+    "options": [
+      {
+        "k": "A",
+        "t": "9.6／1,000"
+      },
+      {
+        "k": "B",
+        "t": "13.5／1,000"
+      },
+      {
+        "k": "C",
+        "t": "20.0／1,000"
+      },
+      {
+        "k": "D",
+        "t": "10.8／1,000"
+      },
+      {
+        "k": "E",
+        "t": "以上皆非（資料不足）"
+      }
+    ],
+    "answer": ["E"],
+    "explain": "比例死亡 = 死於 Z 的人數 ÷ 所有死因死亡人數。題目沒有給 Y 社區的總死亡數，算不出來；而且比例死亡是百分比，不會是「每千人」。",
+    "topics": ["比例死亡"],
+    "pattern": "選正確／單一概念題"
+  },
+  {
+    "id": "class-ch4-13",
+    "source": "2026 課堂題",
+    "chapter": "mortality",
+    "type": "mcq",
+    "stem": "關於直接法年齡校正，下列何者正確？",
+    "options": [
+      {
+        "k": "A",
+        "t": "校正後 X 社區死亡率仍高於 Y 社區，和粗率的結論一樣"
+      },
+      {
+        "k": "B",
+        "t": "X 社區的校正死亡率適合用來分配該社區臨終照護的醫療經費"
+      },
+      {
+        "k": "C",
+        "t": "每個年齡層的權重是該年齡層死亡人數的百分比"
+      },
+      {
+        "k": "D",
+        "t": "每個年齡層的權重是標準人口中該年齡層的人數"
+      },
+      {
+        "k": "E",
+        "t": "校正後兩社區死亡率的差異，一定都是年齡結構不同造成的"
+      }
+    ],
+    "answer": ["D"],
+    "explain": "直接法 = Σ（各組年齡別死亡率 × 標準人口該年齡層人數）÷ 標準人口。A：校正後 X 約 9.6‰、Y 約 15‰，結論反轉。B：校正率是「假想」的比較用數字，規劃實際醫療需求要用粗率。E：年齡已被校正掉，剩下的差異來自其他因素。",
+    "topics": ["年齡校正"],
+    "pattern": "選正確／單一概念題"
+  },
+  {
+    "id": "class-ch4-14",
+    "source": "2026 課堂題",
+    "chapter": "mortality",
+    "type": "mcq",
+    "stem": "慢性肝病死亡率在 65 歲以上最高，而美國 65 歲以上人口比例比國家 X 高。若以國家 X 的人口為標準，把美國慢性肝病死亡率做年齡標準化，會怎樣？",
+    "options": [
+      {
+        "k": "A",
+        "t": "美國標準化死亡率會低於美國粗死亡率"
+      },
+      {
+        "k": "B",
+        "t": "美國標準化死亡率會高於美國粗死亡率"
+      },
+      {
+        "k": "C",
+        "t": "兩者相同"
+      },
+      {
+        "k": "D",
+        "t": "美國標準化死亡率不能用於這種比較"
+      },
+      {
+        "k": "E",
+        "t": "美國標準化死亡率會等於比例死亡"
+      }
+    ],
+    "answer": ["A"],
+    "explain": "國家 X 比較年輕 → 套用它的人口結構時，高死亡率的老年組權重變小，所以美國的標準化率會比自己的粗率低。",
+    "topics": ["年齡校正"],
+    "pattern": "選正確／單一概念題"
+  },
+  {
+    "id": "class-ch4-15",
+    "source": "2026 課堂題",
+    "chapter": "mortality",
+    "type": "mcq",
+    "stem": "魚類加工廠工人死亡中有 30% 死於心肌梗塞，啤酒廠工人只有 10%。研究者據此認為魚類加工廠工人死於心肌梗塞的風險較高，這個結論？",
+    "options": [
+      {
+        "k": "A",
+        "t": "正確"
+      },
+      {
+        "k": "B",
+        "t": "可能錯誤：因為用的是比例死亡"
+      },
+      {
+        "k": "C",
+        "t": "可能錯誤：假設兩廠致死率相同"
+      },
+      {
+        "k": "D",
+        "t": "可能錯誤：魚油可預防心肌梗塞死亡"
+      },
+      {
+        "k": "E",
+        "t": "可能錯誤：不知道兩廠的心肌梗塞盛行率"
+      }
+    ],
+    "answer": ["B"],
+    "explain": "比例死亡會受其他死因影響。例：魚廠 1,000 人死 10 人（MI 3 人，30%），酒廠 1,000 人死 100 人（MI 10 人，10%）→ MI 死亡率其實是酒廠較高（1% vs 0.3%）。",
+    "topics": ["比例死亡"],
+    "pattern": "判讀題"
+  },
+  {
+    "id": "class-ch7-01",
+    "source": "2026 課堂題",
+    "chapter": "rct",
+    "type": "mcq",
+    "stem": "（講義 p.36）新藥組治癒率為 60%，安慰劑組治癒率為 10%。依講義的 treatment efficacy 公式 |安慰劑組 − 新藥組| ÷ 安慰劑組，efficacy 為多少？",
+    "options": [
+      {
+        "k": "A",
+        "t": "0.5"
+      },
+      {
+        "k": "B",
+        "t": "0.83"
+      },
+      {
+        "k": "C",
+        "t": "5"
+      },
+      {
+        "k": "D",
+        "t": "6"
+      }
+    ],
+    "answer": ["C"],
+    "explain": "|0.1 − 0.6| ÷ 0.1 = 0.5 ÷ 0.1 = 5。分母用安慰劑組。6 是新藥組 ÷ 安慰劑組的比值（0.6 ÷ 0.1），不是 efficacy。",
+    "topics": ["結果呈現"],
+    "pattern": "計算題"
+  },
+  {
+    "id": "class-ch7-02",
+    "source": "2026 課堂題",
+    "chapter": "rct",
+    "type": "mcq",
+    "stem": "（講義 p.36）新藥組 CFR 為 5%，安慰劑組 CFR 為 20%。依 Gordis 的定義，treatment efficacy（risk reduction）為多少？",
+    "options": [
+      {
+        "k": "A",
+        "t": "0.15"
+      },
+      {
+        "k": "B",
+        "t": "0.25"
+      },
+      {
+        "k": "C",
+        "t": "0.75"
+      },
+      {
+        "k": "D",
+        "t": "3"
+      }
+    ],
+    "answer": ["C"],
+    "explain": "Efficacy =（安慰劑組率 − 治療組率）÷ 安慰劑組率 =（0.20 − 0.05）÷ 0.20 = 0.75，即死亡風險降低 75%。講義算成 (0.2 − 0.05) ÷ 0.05 = 3，分母用了新藥組，和 Gordis 的定義不同。0.15 是 ARR，0.25 是 RR（0.05 ÷ 0.20）。",
+    "topics": ["結果呈現"],
+    "pattern": "計算題"
+  },
+  {
+    "id": "class-ch7-03",
+    "source": "2026 課堂題",
+    "chapter": "rct",
+    "type": "mcq",
+    "stem": "（講義 p.37）新藥組第一年存活率為 55%，安慰劑組第一年存活率為 40%。relative risk to survival 為多少？",
+    "options": [
+      {
+        "k": "A",
+        "t": "0.15"
+      },
+      {
+        "k": "B",
+        "t": "0.27"
+      },
+      {
+        "k": "C",
+        "t": "0.727"
+      },
+      {
+        "k": "D",
+        "t": "1.375"
+      }
+    ],
+    "answer": ["D"],
+    "explain": "Relative risk = 新藥組 ÷ 安慰劑組 = 0.55 ÷ 0.40 = 1.375。0.727 是倒過來除，0.15 是兩組差。",
+    "topics": ["結果呈現"],
+    "pattern": "計算題"
+  },
+  {
+    "id": "class-ch7-04",
+    "source": "2026 課堂題",
+    "chapter": "rct",
+    "type": "mcq",
+    "stem": "（講義 p.40）以干擾素治療多發性硬化症（MS），安慰劑組失能惡化率 50%、干擾素組 39%。NNT 為多少？",
+    "options": [
+      {
+        "k": "A",
+        "t": "2"
+      },
+      {
+        "k": "B",
+        "t": "5"
+      },
+      {
+        "k": "C",
+        "t": "9"
+      },
+      {
+        "k": "D",
+        "t": "22"
+      }
+    ],
+    "answer": ["C"],
+    "explain": "ARR = CER − EER = 50% − 39% = 11%；NNT = 1 ÷ ARR = 1 ÷ 0.11 ≈ 9：每治療 9 人可避免 1 人失能惡化。22% 是 RRR（11 ÷ 50）。講義文字寫「重症肌無力」，表格寫 MS，Gordis 原例是 MS。",
+    "topics": ["NNT"],
+    "pattern": "計算題"
+  },
+  {
+    "id": "class-ch7-05",
+    "source": "2026 課堂題",
+    "chapter": "rct",
+    "type": "mcq",
+    "stem": "（講義 p.40）假設某罕見事件在安慰劑組發生率 0.00050%、治療組 0.00039%。和上一題 MS 例（50% vs 39%）相比，下列何者正確？",
+    "options": [
+      {
+        "k": "A",
+        "t": "兩者 RRR 相同，NNT 也相同"
+      },
+      {
+        "k": "B",
+        "t": "兩者 RRR 都是 22%，但罕見事件的 NNT 約 909,090，不值得治療"
+      },
+      {
+        "k": "C",
+        "t": "罕見事件的 RRR 較小，所以 NNT 較大"
+      },
+      {
+        "k": "D",
+        "t": "兩者 ARR 相同"
+      }
+    ],
+    "answer": ["B"],
+    "explain": "RRR =（0.00050 − 0.00039）÷ 0.00050 = 22%，和 MS 例一樣；但 ARR 只有 0.00011%，NNT = 1 ÷ 0.0000011 ≈ 909,090。RRR 相同時，事件越罕見 NNT 越大，所以要看 ARR／NNT 才知道值不值得治療。",
+    "topics": ["NNT"],
+    "pattern": "選正確／單一概念題"
+  },
+  {
+    "id": "class-ch7-06",
+    "source": "2026 課堂題",
+    "chapter": "rct",
+    "type": "mcq",
+    "stem": "（講義 p.3）1747 年 James Lind 把壞血病水手分成 6 組、每組 2 人，分別給蘋果汁、硫酸類藥劑、醋、柳橙與檸檬、海水、肉豆蔻。這個研究在臨床試驗史上的地位是？",
+    "options": [
+      {
+        "k": "A",
+        "t": "第一個非計畫性試驗"
+      },
+      {
+        "k": "B",
+        "t": "第一個有計畫的臨床試驗"
+      },
+      {
+        "k": "C",
+        "t": "第一個雙盲試驗"
+      },
+      {
+        "k": "D",
+        "t": "第一個隨機雙盲試驗"
+      }
+    ],
+    "answer": ["B"],
+    "explain": "Lind 是第一個有計畫的試驗（柳橙與檸檬最有效，壞血病是缺乏維生素 C）。1537 年 Paré 用蛋黃、玫瑰油、松脂代替沸油是非計畫性試驗；Joyce & Welldon（1965）用雙盲、序列分析研究祈禱；Byrd（1988）才是隨機雙盲的祈禱試驗。",
+    "topics": ["臨床試驗歷史"],
+    "pattern": "選正確／單一概念題"
+  },
+  {
+    "id": "class-ch7-07",
+    "source": "2026 課堂題",
+    "chapter": "rct",
+    "type": "mcq",
+    "stem": "（講義 p.15）某研究讓願意接種的孩子打疫苗、其餘當對照組，結果疫苗組死亡人數遠少於對照組。講義用這個例子說明什麼問題？",
+    "options": [
+      {
+        "k": "A",
+        "t": "歷史偏差：對照組是過去的病人"
+      },
+      {
+        "k": "B",
+        "t": "選擇偏差：積極的家長才會選擇讓孩子打疫苗"
+      },
+      {
+        "k": "C",
+        "t": "殘餘效應：疫苗效果延續到對照期"
+      },
+      {
+        "k": "D",
+        "t": "錯誤分類：病人換組造成"
+      }
+    ],
+    "answer": ["B"],
+    "explain": "這是同步非隨機對照：分組由家長決定，積極、照顧較好的家長才選疫苗，兩組本來就不可比 → 選擇偏差。疫苗組死亡少，可能不是疫苗的效果。隨機分派才能避免。",
+    "topics": ["研究對照設計", "隨機分派"],
+    "pattern": "判讀題"
+  },
+  {
+    "id": "class-ch7-08",
+    "source": "2026 課堂題",
+    "chapter": "rct",
+    "type": "mcq",
+    "stem": "（講義 p.29）發生非預期性交叉（unplanned crossover），例如手術組有病人拒絕手術而改吃藥。下列分析方式的問題，何者正確？",
+    "options": [
+      {
+        "k": "A",
+        "t": "依原分派分析會破壞隨機"
+      },
+      {
+        "k": "B",
+        "t": "依實際接受的治療分析會造成錯誤分類"
+      },
+      {
+        "k": "C",
+        "t": "依原分派分析會造成錯誤分類；依實際接受的治療分析會破壞隨機"
+      },
+      {
+        "k": "D",
+        "t": "兩種分析方式都沒有問題"
+      }
+    ],
+    "answer": ["C"],
+    "explain": "依原分派（intention-to-treat）分析：有些人實際沒接受該治療 → misclassification。依實際接受的治療分析：換組的人不是隨機決定的 → break the randomization。講義說非預期性交叉「產生大問題」。",
+    "topics": ["交叉試驗"],
+    "pattern": "選正確／單一概念題"
+  }
 ]
