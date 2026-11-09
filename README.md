@@ -1,3 +1,3 @@
 # Study Hub
 
-A Study Hub Site for TMU114
+A Study Hub Site for TMUMED114
