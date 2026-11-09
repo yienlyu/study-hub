@@ -2101,16 +2101,18 @@
       const t = new Date(/T/.test(u) ? u : `${u.slice(0, 10)}T12:00:00+08:00`);
       return `${t.getMonth() + 1}/${t.getDate()}（${"日一二三四五六"[t.getDay()]}）`;
     };
-    // 綜合排序：越快考、掌握度越低越前面。掌握度＝答對題數 ÷ 全部題數；
-    // 加 0.1 讓掌握度很高但快考的科目不會被排到最後
-    const urgency = (e) => {
+    // 排序：先依距離考試天數（越快考越前面；已考完、沒日期的放最後），
+    // 同一天考才比掌握度（答對題數 ÷ 全部題數，越低越前面）
+    const dayKey = (e) => {
+      const d = daysLeft(e);
+      return d >= 0 ? Math.ceil(d) : Infinity;
+    };
+    const mastery = (e) => {
       const st = statsOf(e);
-      return (
-        (1.1 - st.right / Math.max(1, st.total)) / Math.max(1, daysLeft(e))
-      );
+      return st.right / Math.max(1, st.total);
     };
     const cards = entries
-      .sort((a, b) => urgency(b) - urgency(a))
+      .sort((a, b) => dayKey(a) - dayKey(b) || mastery(a) - mastery(b))
       .map((e) => {
         const st = statsOf(e);
         const d = daysLeft(e);
