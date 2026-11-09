@@ -13,7 +13,8 @@
     "data/questions-kaogu.json",
     "data/questions-k1151.json",
     "data/questions-class.json",
-    "data/questions-new.json"
+    "data/questions-new.json",
+    "data/questions-style.json"
   ],
   "sources": [
     {
@@ -49,6 +50,12 @@
     {
       "key": "new",
       "label": "模擬新題",
+      "kind": "new",
+      "pill": "good"
+    },
+    {
+      "key": "style",
+      "label": "老師風格新題",
       "kind": "new",
       "pill": "good"
     }
