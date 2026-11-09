@@ -12,6 +12,13 @@
    }
   }
  },
+ "subjects/epidemiology/data/questions-kaogu.json": {
+  "fields": {
+   "k114-15": {
+    "explain": "篩檢會找出更多病例，短期內發生率反而上升（考古答案為 C）。\n(D) 補充：slides 的燒杯比喻說，新個案流入讓盛行率上升，死亡和痊癒流出讓盛行率下降。所以只要發生率大於零，盛行率不一定會上升，還要看流出有多少。如果流入和流出一樣多，盛行率會停在穩定狀態，這也是 P = I × D 成立的前提。"
+   }
+  }
+ },
  "subjects/micro-immuno/data/questions-k114.json": {
   "fields": {
    "k114-11": {
