@@ -2362,7 +2362,7 @@
     "explain": "看存活率剩 50% 時的時間。",
     "topics": ["存活中位數"],
     "pattern": "判讀題",
-    "img": ["figures/questions/k110-III-8.webp"]
+    "img": ["figures/questions/k110-III-8.webp", "figures/questions/k110-III-8.svg"]
   },
   {
     "id": "k110-III-12",

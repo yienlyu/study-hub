@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 390" role="img" aria-label="300 名病人手術後追蹤約 2 年的存活曲線：縱軸 Probability of Survival（0、50、100%），橫軸 Months（0–25），曲線呈階梯狀下降。" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+<rect width="660" height="390" fill="#fff"/>
+<path d="M90 250.0H610" stroke="#e3e3e3" stroke-width="1"/>
+<path d="M90 180.0H610" stroke="#e3e3e3" stroke-width="1"/>
+<path d="M90 110.0H610" stroke="#e3e3e3" stroke-width="1"/>
+<path d="M90 40.0H610" stroke="#e3e3e3" stroke-width="1"/>
+<path d="M194.0 40V320" stroke="#eeeeee" stroke-width="1"/>
+<path d="M298.0 40V320" stroke="#eeeeee" stroke-width="1"/>
+<path d="M402.0 40V320" stroke="#eeeeee" stroke-width="1"/>
+<path d="M506.0 40V320" stroke="#eeeeee" stroke-width="1"/>
+<path d="M610.0 40V320" stroke="#eeeeee" stroke-width="1"/>
+<path d="M90 30V320H620" fill="none" stroke="#333" stroke-width="1.6"/>
+<path d="M84 320.0H90" stroke="#333" stroke-width="1.6"/><text x="80" y="325.0" text-anchor="end" font-size="15" fill="#333">0</text>
+<path d="M84 180.0H90" stroke="#333" stroke-width="1.6"/><text x="80" y="185.0" text-anchor="end" font-size="15" fill="#333">50</text>
+<path d="M84 40.0H90" stroke="#333" stroke-width="1.6"/><text x="80" y="45.0" text-anchor="end" font-size="15" fill="#333">100</text>
+<path d="M90.0 320v6" stroke="#333" stroke-width="1.6"/><text x="90.0" y="344" text-anchor="middle" font-size="15" fill="#333">0</text>
+<path d="M194.0 320v6" stroke="#333" stroke-width="1.6"/><text x="194.0" y="344" text-anchor="middle" font-size="15" fill="#333">5</text>
+<path d="M298.0 320v6" stroke="#333" stroke-width="1.6"/><text x="298.0" y="344" text-anchor="middle" font-size="15" fill="#333">10</text>
+<path d="M402.0 320v6" stroke="#333" stroke-width="1.6"/><text x="402.0" y="344" text-anchor="middle" font-size="15" fill="#333">15</text>
+<path d="M506.0 320v6" stroke="#333" stroke-width="1.6"/><text x="506.0" y="344" text-anchor="middle" font-size="15" fill="#333">20</text>
+<path d="M610.0 320v6" stroke="#333" stroke-width="1.6"/><text x="610.0" y="344" text-anchor="middle" font-size="15" fill="#333">25</text>
+<text x="350" y="374" text-anchor="middle" font-size="16" fill="#333">Months</text>
+<text transform="translate(30 180) rotate(-90)" text-anchor="middle" font-size="16" fill="#333">Probability of Survival (%)</text>
+<path d="M90.0 40.0 H142.0 V62.4 H162.8 V84.8 H194.0 V107.2 H204.4 V129.6 H246.0 V146.4 H266.8 V163.2 H287.6 V196.8 H318.8 V199.6 H402.0 V202.4 H454.0 V275.2 H537.2" fill="none" stroke="#2563eb" stroke-width="3" stroke-linejoin="miter"/>
+<text x="650" y="22" text-anchor="end" font-size="12" fill="#888">依考古原圖重繪的示意圖</text>
+</svg>
