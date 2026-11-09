@@ -56,25 +56,15 @@
   "groups": [
     {
       "title": "概論與傳染病流病 W1–W2",
-      "chapters": [
-        "intro",
-        "transmission"
-      ]
+      "chapters": ["intro", "transmission"]
     },
     {
-      "title": "疾病發生的測量（謝芳宜）W4–W6",
-      "chapters": [
-        "morbidity",
-        "mortality"
-      ]
+      "title": "疾病發生的測量 W4–W6",
+      "chapters": ["morbidity", "mortality"]
     },
     {
       "title": "預後、臨床試驗與篩檢 W7–W9",
-      "chapters": [
-        "prognosis",
-        "rct",
-        "screening"
-      ]
+      "chapters": ["prognosis", "rct", "screening"]
     }
   ],
   "mock": {
@@ -88,36 +78,25 @@
         "title": "陳偉仁：概論、篩檢效度與信度",
         "points": 30,
         "n": 15,
-        "from": [
-          "intro",
-          "screening"
-        ]
+        "from": ["intro", "screening"]
       },
       {
         "title": "謝芳宜：疾病率、死亡率",
         "points": 28,
         "n": 14,
-        "from": [
-          "morbidity",
-          "mortality"
-        ]
+        "from": ["morbidity", "mortality"]
       },
       {
         "title": "葉志清：疾病傳播",
         "points": 14,
         "n": 7,
-        "from": [
-          "transmission"
-        ]
+        "from": ["transmission"]
       },
       {
         "title": "白其卉：預後、臨床試驗",
         "points": 28,
         "n": 14,
-        "from": [
-          "prognosis",
-          "rct"
-        ]
+        "from": ["prognosis", "rct"]
       }
     ],
     "newRatio": 0.2
