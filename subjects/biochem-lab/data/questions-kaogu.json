@@ -1095,7 +1095,7 @@
   "answer": [
    "B"
   ],
-  "explain": "以下整理 S1、S2、S3 的功能與成分：\n(1) Solution 1（S1）：Resuspension Buffer，將菌體懸浮於溶液中成分功用Tris-HCl（pH8.0）緩衝溶液，維持 pH 值穩定EDTA                     與微生物金屬離子結合，抑制 DNase 活性Glucose                  增加溶液黏稠度，使菌體保持懸浮避免沉降RNase                    降解溶液內 RNA\n(2) Solution 2（S2）：Lysis Buffer，將細胞裂解成分功用NaOH                     利用強鹼破壞細胞膜磷脂質SDS           與 Solution 3 反應\n*需要注意加入 solution 2 後不可劇烈晃動且時間不能過長，會使 DNA 斷裂。\n(3) Solution 3（S3）：Neutralization Buffer，中和 solution 2 強鹼，清除細胞內雜質成分功用Potassium Acetate        與 SDS 反應，與變性蛋白質生成不溶於水之 potassium dodecylsulfate（PDS），進而去除雜質Acetic acid              中和 S2 的 NaOH參考資料：https://www.acebiolab.com/TW/news/42",
+  "explain": "以下整理 S1、S2、S3 的功能與成分：\n(1) Solution 1（S1）：Resuspension Buffer，將菌體懸浮於溶液中\n\n| 成分 | 功用 |\n|---|---|\n| Tris-HCl（pH8.0） | 緩衝溶液，維持 pH 值穩定 |\n| EDTA | 與微生物金屬離子結合，抑制 DNase 活性 |\n| Glucose | 增加溶液黏稠度，使菌體保持懸浮避免沉降 |\n| RNase | 降解溶液內 RNA |\n\n(2) Solution 2（S2）：Lysis Buffer，將細胞裂解\n\n| 成分 | 功用 |\n|---|---|\n| NaOH | 利用強鹼破壞細胞膜磷脂質 |\n| SDS | 與 Solution 3 反應 |\n\n*需要注意加入 solution 2 後不可劇烈晃動且時間不能過長，會使 DNA 斷裂。\n(3) Solution 3（S3）：Neutralization Buffer，中和 solution 2 強鹼，清除細胞內雜質\n\n| 成分 | 功用 |\n|---|---|\n| Potassium Acetate | 與 SDS 反應，與變性蛋白質生成不溶於水之 potassium dodecylsulfate（PDS），進而去除雜質 |\n| Acetic acid | 中和 S2 的 NaOH |\n\n參考資料：https://www.acebiolab.com/TW/news/42",
   "topics": [
    "鹼裂解法：S1／S2／S3"
   ],
@@ -1129,7 +1129,7 @@
   "answer": [
    "C"
   ],
-  "explain": "以下整理 S1、S2、S3 的功能與成分：\n(1) Solution 1（S1）：Resuspension Buffer，將菌體懸浮於溶液中成分功用Tris-HCl（pH8.0）緩衝溶液，維持 pH 值穩定EDTA                     與微生物金屬離子結合，抑制 DNase 活性Glucose                  增加溶液黏稠度，使菌體保持懸浮避免沉降RNase                    降解溶液內 RNA\n(2) Solution 2（S2）：Lysis Buffer，將細胞裂解成分功用NaOH                     利用強鹼破壞細胞膜磷脂質SDS           與 Solution 3 反應\n*需要注意加入 solution 2 後不可劇烈晃動且時間不能過長，會使 DNA 斷裂。\n(3) Solution 3（S3）：Neutralization Buffer，中和 solution 2 強鹼，清除細胞內雜質成分功用Potassium Acetate        與 SDS 反應，與變性蛋白質生成不溶於水之 potassium dodecylsulfate（PDS），進而去除雜質Acetic acid              中和 S2 的 NaOH參考資料：https://www.acebiolab.com/TW/news/42",
+  "explain": "以下整理 S1、S2、S3 的功能與成分：\n(1) Solution 1（S1）：Resuspension Buffer，將菌體懸浮於溶液中\n\n| 成分 | 功用 |\n|---|---|\n| Tris-HCl（pH8.0） | 緩衝溶液，維持 pH 值穩定 |\n| EDTA | 與微生物金屬離子結合，抑制 DNase 活性 |\n| Glucose | 增加溶液黏稠度，使菌體保持懸浮避免沉降 |\n| RNase | 降解溶液內 RNA |\n\n(2) Solution 2（S2）：Lysis Buffer，將細胞裂解\n\n| 成分 | 功用 |\n|---|---|\n| NaOH | 利用強鹼破壞細胞膜磷脂質 |\n| SDS | 與 Solution 3 反應 |\n\n*需要注意加入 solution 2 後不可劇烈晃動且時間不能過長，會使 DNA 斷裂。\n(3) Solution 3（S3）：Neutralization Buffer，中和 solution 2 強鹼，清除細胞內雜質\n\n| 成分 | 功用 |\n|---|---|\n| Potassium Acetate | 與 SDS 反應，與變性蛋白質生成不溶於水之 potassium dodecylsulfate（PDS），進而去除雜質 |\n| Acetic acid | 中和 S2 的 NaOH |\n\n參考資料：https://www.acebiolab.com/TW/news/42",
   "topics": [
    "鹼裂解法：S1／S2／S3"
   ],
@@ -1163,7 +1163,7 @@
   "answer": [
    "D"
   ],
-  "explain": "以下整理 S1、S2、S3 的功能與成分：\n(1) Solution 1（S1）：Resuspension Buffer，將菌體懸浮於溶液中成分功用Tris-HCl（pH8.0）緩衝溶液，維持 pH 值穩定EDTA                     與微生物金屬離子結合，抑制 DNase 活性Glucose                  增加溶液黏稠度，使菌體保持懸浮避免沉降RNase                    降解溶液內 RNA\n(2) Solution 2（S2）：Lysis Buffer，將細胞裂解成分功用NaOH                     利用強鹼破壞細胞膜磷脂質SDS           與 Solution 3 反應\n*需要注意加入 solution 2 後不可劇烈晃動且時間不能過長，會使 DNA 斷裂。\n(3) Solution 3（S3）：Neutralization Buffer，中和 solution 2 強鹼，清除細胞內雜質成分功用Potassium Acetate        與 SDS 反應，與變性蛋白質生成不溶於水之 potassium dodecylsulfate（PDS），進而去除雜質Acetic acid              中和 S2 的 NaOH參考資料：https://www.acebiolab.com/TW/news/42",
+  "explain": "以下整理 S1、S2、S3 的功能與成分：\n(1) Solution 1（S1）：Resuspension Buffer，將菌體懸浮於溶液中\n\n| 成分 | 功用 |\n|---|---|\n| Tris-HCl（pH8.0） | 緩衝溶液，維持 pH 值穩定 |\n| EDTA | 與微生物金屬離子結合，抑制 DNase 活性 |\n| Glucose | 增加溶液黏稠度，使菌體保持懸浮避免沉降 |\n| RNase | 降解溶液內 RNA |\n\n(2) Solution 2（S2）：Lysis Buffer，將細胞裂解\n\n| 成分 | 功用 |\n|---|---|\n| NaOH | 利用強鹼破壞細胞膜磷脂質 |\n| SDS | 與 Solution 3 反應 |\n\n*需要注意加入 solution 2 後不可劇烈晃動且時間不能過長，會使 DNA 斷裂。\n(3) Solution 3（S3）：Neutralization Buffer，中和 solution 2 強鹼，清除細胞內雜質\n\n| 成分 | 功用 |\n|---|---|\n| Potassium Acetate | 與 SDS 反應，與變性蛋白質生成不溶於水之 potassium dodecylsulfate（PDS），進而去除雜質 |\n| Acetic acid | 中和 S2 的 NaOH |\n\n參考資料：https://www.acebiolab.com/TW/news/42",
   "topics": [
    "鹼裂解法：S1／S2／S3"
   ],

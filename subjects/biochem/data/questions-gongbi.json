@@ -3255,7 +3255,7 @@
     "num": 15,
     "chapter": "ch18",
     "type": "mcq",
-    "stem": "Here is the peptide \"MDWLEKFHAPPYRTKAS\". Which of the following enzymes could you use to get the peptide \"HAPPY\"?\n\nEnzyme          Cleavage point\nTrypsin         Lys, Arg (C-terminal side)\nChymotrypsin    Phe, Trp, Tyr (C-terminal side)\nPepsin          Leu, Phe, Trp, Tyr (N-terminal side)",
+    "stem": "Here is the peptide \"MDWLEKFHAPPYRTKAS\". Which of the following enzymes could you use to get the peptide \"HAPPY\"?\n\n| Enzyme | Cleavage point |\n|---|---|\n| Trypsin | Lys, Arg (C-terminal side) |\n| Chymotrypsin | Phe, Trp, Tyr (C-terminal side) |\n| Pepsin | Leu, Phe, Trp, Tyr (N-terminal side) |",
     "options": [
       {
         "k": "A",
@@ -3650,7 +3650,7 @@
       }
     ],
     "answer": ["B"],
-    "explain": "Amino acid Ketogenic                Lys, Leu, Tyr, Trp, Thr, Ile, Phe Glucogenic               Ala, Cys, Gly, Ser, Thr, Trp",
+    "explain": "| Amino acid | |\n|---|---|\n| Ketogenic | Lys, Leu, Tyr, Trp, Thr, Ile, Phe |\n| Glucogenic | Ala, Cys, Gly, Ser, Thr, Trp |",
     "topics": ["生酮／生醣胺基酸"],
     "pattern": "選錯誤（否定）題"
   },
@@ -4561,7 +4561,7 @@
     "num": 59,
     "chapter": "ch18",
     "type": "mcq",
-    "stem": "Which of the following enzyme releases the NH4 group from the conversion of Glutamine to Glutamate in ＋ liver cells?",
+    "stem": "Which of the following enzyme releases the NH4⁺ group from the conversion of Glutamine to Glutamate in liver cells?",
     "options": [
       {
         "k": "A",
@@ -4581,7 +4581,7 @@
       }
     ],
     "answer": ["D"],
-    "explain": "(A) Glutamine synthetase：由於 glutamate 無法在血液中運輸（會造成酸中毒），因此多數組織須先透過此酵素將 glutamate 轉為 glutamine，才能進入血液。需要 ATP 及 NH4         ＋\n(B) Glutamate dehydrogenase：使進入粒線體的 Glutamate 氧化脫胺（oxidative deamination）放出NH4 （進入尿素循環），形成 α-ketoglutarate。需要 NAD 或 NADP (C) 無此物＋                                          ＋     ＋\n(D) Glutaminase：Glutamine 到達肝臟粒線體後須透過此酵素轉為 Glutamate 以繼續代謝，過程中會放出 NH4 （進入尿素循環）＋",
+    "explain": "(A) Glutamine synthetase：由於 glutamate 無法在血液中運輸（會造成酸中毒），因此多數組織須先透過此酵素將 glutamate 轉為 glutamine，才能進入血液。需要 ATP 及 NH4⁺。\n(B) Glutamate dehydrogenase：使進入粒線體的 Glutamate 氧化脫胺（oxidative deamination）放出 NH4⁺（進入尿素循環），形成 α-ketoglutarate。需要 NAD⁺ 或 NADP⁺。\n(C) 無此物。\n(D) Glutaminase：Glutamine 到達肝臟粒線體後須透過此酵素轉為 Glutamate 以繼續代謝，過程中會放出 NH4⁺（進入尿素循環）。",
     "topics": ["胺基氮運輸（Gln／Ala）"],
     "pattern": "選正確／單一概念題"
   },

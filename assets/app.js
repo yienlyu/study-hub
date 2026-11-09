@@ -508,6 +508,21 @@
     store.set(K.star(sid), [...s]);
     return s.has(qid);
   };
+  const clearStars = (sid) => {
+    const n = getStars(sid).size;
+    if (!n) return false;
+    if (
+      !confirm(
+        Cloud.user
+          ? `確定要清除本科目全部 ${n} 題收藏嗎？已登入，其他裝置上的收藏也會一起清除。這個動作無法復原。`
+          : `確定要清除本科目全部 ${n} 題收藏嗎？這個動作無法復原。`,
+      )
+    )
+      return false;
+    store.set(K.star(sid), []);
+    toast("已清除全部收藏");
+    return true;
+  };
   const getRead = (sid) => new Set(store.get(K.read(sid), []));
 
   // ------------------------------------------------------------ cloud（Supabase 登入 / 同步）
@@ -4697,6 +4712,7 @@
             ${preset(L({ start: 1, n: 0, mode: "random", filter: "wrong" }), "rotate", `錯題本（${st.wrong}）`, "上次答錯的全部題目")}
             ${preset(L({ start: 1, n: 0, mode: "random", filter: "star" }), "star", `收藏題（${getStars(sid).size}）`, "練習時按 S 收藏")}
           </div>
+          ${getStars(sid).size ? `<div class="star-tools"><span class="muted small">${ic("star")}收藏 ${getStars(sid).size} 題</span><a class="btn sm" href="${L({ filter: "star", view: "browse", mode: "order" })}">${ic("eye")}瀏覽收藏題（含答案）</a><button class="btn sm ghost" type="button" id="clearStarsBtn" style="color:var(--bad)">${ic("x")}清除全部收藏</button></div>` : ""}
           <a class="card flash-cta" href="${L({ view: "cards", n: 20, mode: "random", ch: taught })}"><span class="ico">${ic("cards")}</span><span><b>翻卡模式</b><span>正面看題目、翻面看答案和觀念圖，自己判斷記得或不熟。適合考前快速過一輪。</span></span><span class="go">已上課範圍 20 張 ${ic("arrowR")}</span></a>
           ${m.mock ? `<a class="card flash-cta" href="#/s/${sid}/mock"><span class="ico">${ic("clock")}</span><span><b>${esc(m.mock.title || "模擬考")}</b><span>照老師公告的範圍與配分出一份完整考卷，限時 ${m.mock.minutes} 分鐘，交卷後才看分數與詳解。</span></span><span class="go">去考一份 ${ic("arrowR")}</span></a>` : ""}
         </div>
@@ -4842,6 +4858,9 @@
         $("#cardsBtn").addEventListener("click", () => {
           const o = read();
           location.hash = `#/s/${sid}/practice?${qs({ ...o, view: "cards" })}`;
+        });
+        $("#clearStarsBtn")?.addEventListener("click", () => {
+          if (clearStars(sid)) renderSetup(subj, q);
         });
         $("#resetBtn").addEventListener("click", () => {
           if (
@@ -5845,7 +5864,7 @@
     onLeave(() => removeEventListener("keydown", onKey));
   }
 
-  function browseCard(subj, q, open) {
+  function browseCard(subj, q, open, unstar) {
     const ans = q.answer || [];
     return `<article class="card bq${open ? " open" : ""}">
       ${qMeta(subj, q)}
@@ -5857,28 +5876,40 @@
         ${q.explain ? `<div class="explain">${rich(q.explain)}</div>` : '<div class="muted">這題沒有附詳解。</div>'}${exImgs(subj, q)}
         ${q.note ? `<div class="note">${ic("alert")}<div>${esc(q.note)}</div></div>` : ""}${figLinks(subj, q)}
         <div style="margin-top:12px;display:flex;gap:14px;font-size:.85rem"><a href="#/s/${subj.meta.id}/q/${q.id}">單獨練這題</a><a href="${reportHref(subj.meta.id, q)}">回報此題</a></div></div></div>
-      </details></article>`;
+      </details>${unstar ? `<button class="link-btn bq-unstar" type="button" data-unstar="${esc(q.id)}">${icFill("star")}取消收藏</button>` : ""}</article>`;
   }
 
   function renderBrowse(subj, q) {
     const sid = subj.meta.id;
     const pool = buildPool(subj, { ...q, n: 0, mode: "order" });
     const one = q.ch && q.ch.split(",").length === 1 ? subj.chMap[q.ch] : null;
-    const img = subj.questions.filter(
+    const star = q.filter === "star";
+    const img = star ? 0 : subj.questions.filter(
       (x) => x.imageOnly && (!q.ch || q.ch.split(",").includes(x.chapter)),
     ).length;
     render(
       `<div class="wrap">
-      <nav class="crumbs" aria-label="路徑"><a href="#/s/${sid}">${esc(subj.meta.title)}</a><span class="sep">/</span>${one ? `<a href="#/s/${sid}/c/${one.id}/practice">${esc(one.title)}</a><span class="sep">/</span>` : ""}<span>瀏覽題目</span></nav>
+      <nav class="crumbs" aria-label="路徑"><a href="#/s/${sid}">${esc(subj.meta.title)}</a><span class="sep">/</span>${one ? `<a href="#/s/${sid}/c/${one.id}/practice">${esc(one.title)}</a><span class="sep">/</span>` : ""}<span>${star ? "收藏題" : "瀏覽題目"}</span></nav>
       <header style="padding-top:14px" class="section-head">
-        <div><div class="eyebrow">Browse · ${pool.length} 題${img ? `（另有 ${img} 題看圖題未收錄）` : ""}</div><h1 class="display h-l" style="margin-top:12px">${one ? esc(one.title) : "瀏覽題目"}</h1></div>
-        <div class="toolbar"><button class="btn" type="button" id="toggleAll">${ic("eye")}全部顯示答案</button>
-          <a class="btn primary" href="#/s/${sid}/practice?${qs({ ...q, view: "", start: 1, n: 0, mode: "random" })}">${ic("pen")}改成作答模式</a></div>
+        <div><div class="eyebrow">Browse · ${pool.length} 題${img ? `（另有 ${img} 題看圖題未收錄）` : ""}</div><h1 class="display h-l" style="margin-top:12px">${star ? "收藏題" : one ? esc(one.title) : "瀏覽題目"}</h1></div>
+        ${pool.length ? `<div class="toolbar"><button class="btn" type="button" id="toggleAll">${ic("eye")}全部顯示答案</button>
+          ${star ? `<button class="btn ghost" type="button" id="clearStarsBtn" style="color:var(--bad)">${ic("x")}清除全部收藏</button>` : ""}
+          <a class="btn primary" href="#/s/${sid}/practice?${qs({ ...q, view: "", start: 1, n: 0, mode: "random" })}">${ic("pen")}改成作答模式</a></div>` : ""}
       </header>
-      <div style="margin-top:24px">${pool.map((x) => browseCard(subj, x, false)).join("") || '<div class="card empty"><p>沒有符合的題目。</p></div>'}</div>
+      <div style="margin-top:24px">${pool.map((x) => browseCard(subj, x, false, star)).join("") || (star ? `<div class="card empty"><p>還沒有收藏。作答時按「收藏」或鍵盤 S，就能把題目加進這裡。</p><p><a class="btn primary" href="#/s/${sid}/practice">回練習設定</a></p></div>` : '<div class="card empty"><p>沒有符合的題目。</p></div>')}</div>
     </div>`,
       () => {
-        $("#toggleAll").addEventListener("click", (e) => {
+        $("#clearStarsBtn")?.addEventListener("click", () => {
+          if (clearStars(sid)) renderBrowse(subj, q);
+        });
+        $$("[data-unstar]").forEach((b) =>
+          b.addEventListener("click", () => {
+            toggleStar(sid, b.dataset.unstar);
+            toast("已取消收藏");
+            renderBrowse(subj, q);
+          }),
+        );
+        $("#toggleAll")?.addEventListener("click", (e) => {
           const open = !$app.querySelector(".bq.open");
           $$(".bq").forEach((c) => {
             c.classList.toggle("open", open);

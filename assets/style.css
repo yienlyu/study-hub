@@ -555,6 +555,9 @@ details.data-table td.n { text-align: right; font-variant-numeric: tabular-nums;
 .preset .ico { width: 28px; height: 28px; border-radius: 8px; display: grid; place-items: center; background: var(--violet-soft); color: var(--violet); margin-bottom: 4px; }
 .preset .ico svg { width: 16px; height: 16px; }
 @media (max-width: 760px) { .presets { grid-template-columns: 1fr 1fr; } }
+.star-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin-top: 10px; }
+.star-tools > span { display: inline-flex; align-items: center; gap: 5px; margin-right: 4px; }
+.star-tools > span svg { width: 14px; height: 14px; }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .chip {
   position: relative; display: inline-flex; align-items: center; gap: 8px; height: 36px; padding: 0 14px 0 12px; border-radius: 999px;
@@ -686,6 +689,8 @@ textarea.short-input { display: block; width: 100%; min-height: 110px; margin-to
 .bq details summary { cursor: pointer; font-size: .86rem; color: var(--violet); font-weight: 600; list-style: none; display: inline-flex; gap: 6px; align-items: center; margin-top: 8px; }
 .bq details summary::-webkit-details-marker { display: none; }
 .bq details[open] summary { margin-bottom: 12px; }
+.bq-unstar { display: inline-flex; align-items: center; gap: 5px; margin-top: 12px; color: var(--ink-3); }
+.bq-unstar svg { width: 14px; height: 14px; color: var(--violet); }
 
 /* report */
 .report { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(24px, 5vw, 64px); margin-top: 32px; align-items: start; }

@@ -3665,7 +3665,7 @@
   "answer": [
    "C"
   ],
-  "explain": "錯誤。mRNA 的 3' poly A tail 不是由 DNA 上的 poly(T)轉錄而來。3’poly A tail 修飾過程1        辨識 cleavage sequence（有 AAUAAA 片段）2        用特別 endonuclease 切斷 cleavage sequence 後的 11～30 residue（往 3’端方向數）3        用一種 Non template-directed polymerase（聚合過程不需要模板 DNA）加上約 300 個Polyriboadenylic acid（Poly A）\n(B)正確。tRNA 和 rRNA 有其他的方法保護結構。\n(D)正確。Histone mRNA 是缺乏 poly A tail 的 mRNA。",
+  "explain": "錯誤。mRNA 的 3' poly A tail 不是由 DNA 上的 poly(T)轉錄而來。\n\n| 3’poly A tail 修飾過程 | |\n|---|---|\n| 1 | 辨識 cleavage sequence（有 AAUAAA 片段） |\n| 2 | 用特別 endonuclease 切斷 cleavage sequence 後的 11～30 residue（往 3’端方向數） |\n| 3 | 用一種 Non template-directed polymerase（聚合過程不需要模板 DNA）加上約 300 個 Polyriboadenylic acid（Poly A） |\n\n(B)正確。tRNA 和 rRNA 有其他的方法保護結構。\n(D)正確。Histone mRNA 是缺乏 poly A tail 的 mRNA。",
   "topics": [
    "mRNA 加工：cap、poly(A)、splicing",
    "rRNA／tRNA 與 RNA 穩定性"
@@ -3984,7 +3984,7 @@
   "answer": [
    "B"
   ],
-  "explain": "真核生物的 RNA polymerase RNA polymerase I（RNA Pol I）合成 rRNA RNA polymerase II（RNA Pol II）合成 mRNA、大部分 snRNA、miRNA RNA polymerase III（RNA Pol III）合成 tRNA、少部分 snRNA",
+  "explain": "真核生物的 RNA polymerase：\n\n| RNA polymerase | 合成 |\n|---|---|\n| RNA polymerase I（RNA Pol I） | rRNA |\n| RNA polymerase II（RNA Pol II） | mRNA、大部分 snRNA、miRNA |\n| RNA polymerase III（RNA Pol III） | tRNA、少部分 snRNA |",
   "topics": [
    "RNA polymerase 與 σ factor",
    "rRNA／tRNA 與 RNA 穩定性"
@@ -4458,7 +4458,7 @@
    "A",
    "C"
   ],
-  "explain": "真核生物的 RNA polymerase RNA polymerase I（RNA Pol I）合成 rRNA RNA polymerase II（RNA Pol II）合成 mRNA、大部分 snRNA、miRNA RNA polymerase III（RNA Pol III）合成 tRNA、少部分 snRNA",
+  "explain": "真核生物的 RNA polymerase：\n\n| RNA polymerase | 合成 |\n|---|---|\n| RNA polymerase I（RNA Pol I） | rRNA |\n| RNA polymerase II（RNA Pol II） | mRNA、大部分 snRNA、miRNA |\n| RNA polymerase III（RNA Pol III） | tRNA、少部分 snRNA |",
   "note": "共筆公布的答案為 A、C（複選或送分），選任一個都算對。",
   "topics": [
    "RNA polymerase 與 σ factor",
@@ -4495,7 +4495,7 @@
   "answer": [
    "D"
   ],
-  "explain": "Intron              Splicing Initiation           是否形成 Lariat Structure Group I            GTP（guanosine cofactor）                     X Group II               internal adenosine                      O",
+  "explain": "| Intron | Splicing Initiation | 是否形成 Lariat Structure |\n|---|---|---|\n| Group I | GTP（guanosine cofactor） | X |\n| Group II | internal adenosine | O |",
   "topics": [
    "mRNA 加工：cap、poly(A)、splicing"
   ],
@@ -4565,7 +4565,7 @@
   "answer": [
    "C"
   ],
-  "explain": "(A) HTH：一條胺基酸短鏈（通常由 Proline 或 Glycine 組成）連結兩個 α 螺旋。1 個 turn（10～25 個胺基酸）胺基酸短鏈協助專一性辨識2 個 α-Helix               C 端 α-Helix      辨識序列、與 DNA Major Groove 結合（60～90 個胺基酸）                   N 端 α-Helix      協助穩定結構註：Four DNA-binding helix-turn-helix motifs in the Lac repressor\n(B) Zn-Finger：1 個 α-Helix 和 2 個 β-Sheet Zn2+易與帶有硫（S）的胺基酸（Cysteine、Histidine）以配位共價鍵結合。注意：是半胱胺酸 Cysteine，不是胱胺酸 Cystine（其 S 形成雙硫鍵，無法和 Zn 結合）α-Helix    與 DNA Major Groove 結合能與 DNA、RNA、蛋白質甚至脂類β-Sheet    與 DNA 上的五碳醣－磷酸骨架交互作用結合Zn2+     穩定整體架構常見於真核細胞，少見於原核細胞；Cys2-His2 為真核生物轉錄因子中最常見類別。註：Transcription factor TFIIIA binds to the 5S RNA gene via zinc fingers inserted into the major groove.\n(C) snRNPs 由 snRNA 與 protein 組成，會結合在 intron 上，以協助 splicing。\n(D) bZIP：2 條 α-Helix，可以啟動轉錄，須以特定角度和 DNA 結合。C端以 Leu 作為疏水核心，2 條 α-Helix 利用疏水性作用力結合N端有 Basic Region（帶有 Arg、Lys），與帶負電 DNA 的 Major Groove 結合",
+  "explain": "(A) HTH：一條胺基酸短鏈（通常由 Proline 或 Glycine 組成）連結兩個 α 螺旋。\n\n| 結構 | | 功能 |\n|---|---|---|\n| 1 個 turn（10～25 個胺基酸） | 胺基酸短鏈 | 協助專一性辨識 |\n| 2 個 α-Helix（60～90 個胺基酸） | C 端 α-Helix | 辨識序列、與 DNA Major Groove 結合 |\n| | N 端 α-Helix | 協助穩定結構 |\n\n註：Four DNA-binding helix-turn-helix motifs in the Lac repressor\n(B) Zn-Finger：1 個 α-Helix 和 2 個 β-Sheet\nZn2+易與帶有硫（S）的胺基酸（Cysteine、Histidine）以配位共價鍵結合。\n注意：是半胱胺酸 Cysteine，不是胱胺酸 Cystine（其 S 形成雙硫鍵，無法和 Zn 結合）\n\n| 結構 | 功能 |\n|---|---|\n| α-Helix | 與 DNA Major Groove 結合 |\n| β-Sheet | 與 DNA 上的五碳醣－磷酸骨架交互作用 |\n| Zn2+ | 穩定整體架構 |\n\n能與 DNA、RNA、蛋白質甚至脂類結合。常見於真核細胞，少見於原核細胞；Cys2-His2 為真核生物轉錄因子中最常見類別。\n註：Transcription factor TFIIIA binds to the 5S RNA gene via zinc fingers inserted into the major groove.\n(C) snRNPs 由 snRNA 與 protein 組成，會結合在 intron 上，以協助 splicing。\n(D) bZIP：2 條 α-Helix，可以啟動轉錄，須以特定角度和 DNA 結合。\n\n| 位置 | 功能 |\n|---|---|\n| C端 | 以 Leu 作為疏水核心，2 條 α-Helix 利用疏水性作用力結合 |\n| N端 | 有 Basic Region（帶有 Arg、Lys），與帶負電 DNA 的 Major Groove 結合 |",
   "topics": [
    "DNA 結合蛋白與 hairpin"
   ],
@@ -4805,7 +4805,7 @@
   "num": 7,
   "chapter": "ch28",
   "type": "mcq",
-  "stem": "Which of the conditions would result in the least amount of transcription of the operon? [glucose]                            [lactose] I                                   High                                 High II                                  Low                                  Low III                                 High                                 Low IV                                  Low                                  High",
+  "stem": "Which of the conditions would result in the least amount of transcription of the operon?\n\n| | [glucose] | [lactose] |\n|---|---|---|\n| I | High | High |\n| II | Low | Low |\n| III | High | Low |\n| IV | Low | High |",
   "options": [
    {
     "k": "A",
