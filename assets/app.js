@@ -5231,6 +5231,22 @@
               : p >= 50
                 ? "有進步空間"
                 : "先別灰心";
+      // 單章練習：接著往後找第一個有可練習題目的章節
+      const order = subj.meta.chapters.map((x) => x.id);
+      const oneCh = q.ch && !q.ch.includes(",") ? order.indexOf(q.ch) : -1;
+      const nextCh =
+        oneCh < 0
+          ? null
+          : order
+              .slice(oneCh + 1)
+              .map((id) => subj.chMap[id])
+              .find(
+                (c) =>
+                  c &&
+                  subj.questions.some(
+                    (x) => x.chapter === c.id && !x.imageOnly,
+                  ),
+              );
       render(
         `<div class="wrap"><div class="result">
         <div class="card result-hero">
@@ -5244,6 +5260,7 @@
               <a class="btn primary" href="#/s/${sid}/practice">${ic("shuffle")}再練一組</a>
               ${c.done >= 10 && c.w === 0 ? `<a class="btn ghost" href="#/play">🎮 全對！獎勵你玩一盤</a>` : ""}
               <a class="btn" href="#/s/${sid}">回總覽</a>
+              ${nextCh ? `<a class="btn" href="#/s/${sid}/c/${nextCh.id}/practice" title="下一章：Ch.${pad2(nextCh.idx)} ${esc(nextCh.title)}">下一章${ic("chevR")}</a>` : ""}
             </div>
           </div>
         </div>
