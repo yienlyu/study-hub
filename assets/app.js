@@ -2047,14 +2047,18 @@
       { done: 0, right: 0, wrong: 0 },
     );
     // 首頁卡片：一般一科一張；subject.json 有 "cards" 時拆成多張（例：寄生蟲 紙筆／跑台、混合蟲卵 不同天考）。
-    // card.cat 對應 groups 標題「期末・<cat>｜…」，卡片的題數與答對率只算那些章節。
+    // card.cat 對應 groups 標題「期末・<cat>｜…」，卡片的題數與答對率只算那些章節；
+    // 沒被任何卡認領的組（例：期中）跟科目頁一樣算進第一張卡，題目統計才不會漏掉期中。
     const entries = subs.flatMap((s) =>
       (s.meta.cards || []).length
-        ? s.meta.cards.map((cd) => ({
+        ? s.meta.cards.map((cd, i) => ({
             s,
             ...cd,
             chapters: (s.meta.groups || [])
-              .filter((g) => cardOfGroup(s.meta, g) === cd)
+              .filter((g) => {
+                const o = cardOfGroup(s.meta, g);
+                return o === cd || (!o && i === 0);
+              })
               .flatMap((g) => g.chapters),
           }))
         : [
