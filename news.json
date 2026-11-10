@@ -2,6 +2,20 @@
   "_說明": "更新通知：新的一則加在 items 最前面，id 不可重複（日期-編號）。開著舊版的分頁會跳「有新版本，重新整理」；重新整理後跳小視窗顯示 title 與 points。",
   "items": [
     {
+      "id": "20261110-3",
+      "date": "2026-11-10",
+      "subjectLabel": "流病",
+      "title": "新增 26 題老師風格模擬題",
+      "points": [
+        "嘻嘻再來一點題目吧！",
+        "陳偉仁 8 題：流病定義、Time 三種變化、描述性流病、烏腳病；NPV／%FN 計算、平行檢定、打靶圖、Kappa 解讀。",
+        "謝芳宜 7 題：侵襲率、子宮切除與分母、盛行率單位、診斷標準；DALY、直接年齡校正計算、ICD 改版。",
+        "葉志清 4 題：二次侵襲率計算、疾病階段、群體免疫條件、point source 流行曲線。",
+        "白其卉 7 題：生命表 withdrawal 計算、失訪偏差、致死率；新藥分期、歷史對照、隨機分派、NNT。"
+      ],
+      "href": "#/s/epidemiology/practice?ids=style-45,style-46,style-47,style-48,style-49,style-50,style-51,style-52,style-53,style-54,style-55,style-56,style-57,style-58,style-59,style-60,style-61,style-62,style-63,style-64,style-65,style-66,style-67,style-68,style-69,style-70&mode=order&start=1"
+    },
+    {
       "id": "20261110-2",
       "date": "2026-11-10",
       "subjectLabel": "流病",
