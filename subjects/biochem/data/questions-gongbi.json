@@ -3344,6 +3344,42 @@
     "note": "這題在共筆中重複出現 2 次（歷屆反覆考）。"
   },
   {
+    "id": "g18-18",
+    "source": "百十三共筆考古",
+    "section": "Ch18",
+    "num": 18,
+    "chapter": "ch18",
+    "type": "mcq",
+    "stem": "Pyridoxal 5-phosphate does not directly involve in which of the following mechanism?",
+    "options": [
+      {
+        "k": "A",
+        "t": "Catecholamines synthesis"
+      },
+      {
+        "k": "B",
+        "t": "Polyamines synthesis"
+      },
+      {
+        "k": "C",
+        "t": "Transsulfuration from Homocysteine to Cysteine"
+      },
+      {
+        "k": "D",
+        "t": "Heme synthesis"
+      }
+    ],
+    "answer": [],
+    "explain": "Pyridoxl-5-phosphate（P5P）的功能很多，包括以下功能：\nTransamination              Decarboxylation        Deamination Transsulfuration            Desulfuration          Heme synthesis Racemization 消旋作用Tryptophan metabolism                Amino acid absorption選項中的個反應皆需要 PLP 參與，其中：\n(A) Dopa → Dopamine\n(B) Ornithine → Putriscene → Spermidine\n(C) Homocysteine → Cysteine\n(D) Glycine → ALA（δ-aminoevulinic acid）",
+    "note": "共筆標「X」：四個選項（catecholamine 的 DOPA decarboxylase、polyamine 的 ornithine decarboxylase、轉硫作用、heme 合成的 ALA synthase）都需要 PLP，本題沒有正確答案。",
+    "topics": [
+      "轉胺與 PLP",
+      "胺基酸衍生物"
+    ],
+    "pattern": "選錯誤（否定）題",
+    "noAnswer": true
+  },
+  {
     "id": "g18-19",
     "source": "百十三共筆考古",
     "section": "Ch18",
@@ -6614,6 +6650,42 @@
     "explain": "如果是 xanthine dehydrogenase 缺乏的話就不會產生尿酸，更不會導致痛風。複習造成痛風的主要三個原因：\n(1) PRPP synthase 太多導致 PRPP 過多\n(2) G6Pase 缺乏導致 PPP 一直進行\n(3) HGPRT 缺乏導致反應往尿酸合成方向",
     "topics": ["Purine 合成與調控", "核苷酸分解與痛風"],
     "pattern": "選錯誤（否定）題"
+  },
+  {
+    "id": "g22-38",
+    "source": "百十三共筆考古",
+    "section": "Ch22",
+    "num": 38,
+    "chapter": "ch22n",
+    "type": "mcq",
+    "stem": "Which of the following description of SCID (severe combined immunodeficiency disease) is correct?",
+    "options": [
+      {
+        "k": "A",
+        "t": "Uric acid accumulation"
+      },
+      {
+        "k": "B",
+        "t": "Xanthine dehydrogenase deficiency"
+      },
+      {
+        "k": "C",
+        "t": "Inhibition of DNA polymerase"
+      },
+      {
+        "k": "D",
+        "t": "Production amount of ATP"
+      }
+    ],
+    "answer": [],
+    "explain": "SCID 主要原因是 ADA 缺乏，會造成 dATP 累積，抑制 Ribonucleotide reductase 的活性，與尿酸累積無關。",
+    "note": "共筆標「X」：四個選項都不正確。SCID（ADA 缺乏）→ dATP 堆積 → 抑制 ribonucleotide reductase（不是 DNA polymerase），與尿酸、xanthine dehydrogenase 無關。",
+    "topics": [
+      "核苷酸分解與痛風",
+      "Salvage、Lesch-Nyhan 與 SCID"
+    ],
+    "pattern": "臨床情境題",
+    "noAnswer": true
   },
   {
     "id": "g22-39",

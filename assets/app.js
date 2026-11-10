@@ -4918,7 +4918,7 @@
   const reportHref = (sid, q) =>
     `#/report?${qs({ sid, qid: q.id, where: `${q.source} ${q.id}` })}`;
   // answer 有多個時：一般題表示「任一個都算對」；multi（多選題）要全部選對才算對。
-  // noAnswer：題目有誤、沒有正確選項，選了只顯示詳解、不計分。
+  // noAnswer：題目有誤、沒有正確選項；選了先顯示詳解，再像手寫題一樣自我評分（我會了／還不熟）。
   const ansText = (q) =>
     !q.noAnswer && (q.answer || []).length
       ? q.answer.map((a) => `(${a})`).join(q.multi ? "、" : " 或 ")
@@ -4975,7 +4975,7 @@
         (a, x) => {
           if (x) {
             a.done++;
-            if (!x.na) x.ok ? a.c++ : a.w++;
+            if (!x.na || x.self) x.ok ? a.c++ : a.w++;
           }
           return a;
         },
@@ -5057,17 +5057,18 @@
       let verdict = "";
       if (a) {
         const tone = a.self || a.na ? "neutral" : a.ok ? "good" : "bad";
-        const head = a.na
-          ? `${ic("alert")}這題沒有正確選項（題目有誤），不列入計分`
+        const head = a.na && !a.self
+          ? `${ic("alert")}這題沒有正確選項（題目有誤）：看完詳解再自我評分`
           : a.self
-            ? `${ic("check")}已自我評分：${a.ok ? "我會了" : "還不熟"}`
+            ? `${ic("check")}已自我評分：${a.ok ? "我會了" : "還不熟"}${a.na ? "（這題沒有正確選項）" : ""}`
             : a.ok
               ? `${ic("check")}答對了${S.streak >= 3 && S.i === S.last ? `・連對 ${S.streak} 題` : ""}`
               : `${ic("x")}答錯了，正確答案是 ${ansText(qq)}`;
         verdict = `<div class="verdict ${tone}" role="status"><div class="verdict-head">${head}${a.na ? "" : wrongRateTag(sid, qq)}</div><div class="verdict-body">${mine}
           ${qq.answerText ? `<div class="answer-text"><div class="explain-title">參考答案</div>${rich(qq.answerText)}</div>` : ""}
           ${qq.explain ? `<div class="explain-title">詳解</div><div class="explain">${rich(qq.explain)}</div>` : qq.answerText ? "" : '<div class="muted">這題沒有附詳解。</div>'}${exImgs(subj, qq)}
-          ${qq.note ? `<div class="note">${ic("alert")}<div>${esc(qq.note)}</div></div>` : ""}${figLinks(subj, qq)}</div></div>`;
+          ${qq.note ? `<div class="note">${ic("alert")}<div>${esc(qq.note)}</div></div>` : ""}${figLinks(subj, qq)}${a.na && !a.self ? `
+          <div class="self-grade"><button class="btn" type="button" data-self="1">${ic("check")}我會了</button><button class="btn" type="button" data-self="0">${ic("rotate")}還不熟</button></div>` : ""}</div></div>`;
       } else if (isShort && S.revealed === S.i) {
         verdict = `<div class="verdict neutral"><div class="verdict-head">${ic("eye")}參考答案</div><div class="verdict-body">${mine}
           ${qq.answerText ? `<div class="answer-text">${rich(qq.answerText)}</div>` : ""}${qq.explain ? `<div class="explain">${rich(qq.explain)}</div>` : ""}${exImgs(subj, qq)}
@@ -5141,6 +5142,10 @@
       if (S.ans[S.i]) return;
       if (qq.noAnswer) {
         S.ans[S.i] = { k, ok: false, na: true };
+        S.last = S.i;
+        paint(false);
+        $("[data-self]")?.focus({ preventScroll: true });
+        return;
       } else {
         const ok = isRight(qq, k);
         S.ans[S.i] = { k, ok };
@@ -5157,7 +5162,10 @@
     };
     const selfGrade = (ok) => {
       const qq = pool[S.i];
-      S.ans[S.i] = { k: null, ok, self: true };
+      const na = S.ans[S.i]?.na; // 無正解題：保留選過的選項
+      S.ans[S.i] = na
+        ? { k: S.ans[S.i].k, ok, self: true, na: true }
+        : { k: null, ok, self: true };
       S.last = S.i;
       S.streak = ok ? S.streak + 1 : 0;
       record(sid, qq.id, ok, { ms: Date.now() - S.qt, mode: "self" });
@@ -5243,7 +5251,7 @@
       const c = counts();
       const p = pct(c.c, c.c + c.w);
       const wrongQs = pool.filter(
-        (_, k) => S.ans[k] && !S.ans[k].ok && !S.ans[k].na,
+        (_, k) => S.ans[k] && !S.ans[k].ok && (!S.ans[k].na || S.ans[k].self),
       );
       const skipped = pool.length - c.done;
       const topicMiss = [
