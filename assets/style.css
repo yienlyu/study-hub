@@ -1456,3 +1456,10 @@ blockquote .math-block { background: none; padding: 4px 0; }
 }
 @media (prefers-reduced-motion: reduce) { .bd-fab, .bd-fab.ping, .bd-pop, .bd-fab svg { animation: none; transition: none; } }
 @media print { .bd-fab, .bd-pop { display: none !important; } }
+
+/* 練習設定頁：手機底部固定的「開始練習」列會被右下浮動鈕蓋住 → 有這列時把浮動鈕整組往上移到它上方 */
+@media (max-width: 900px) {
+  body:has(.setup-summary) .mx-nudge { bottom: calc(150px + env(safe-area-inset-bottom)); }
+  body:has(.setup-summary) .bd-fab { bottom: calc(206px + env(safe-area-inset-bottom)); }
+  body:has(.setup-summary) .gm-drop { bottom: calc(262px + env(safe-area-inset-bottom)); }
+}
