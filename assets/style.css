@@ -461,6 +461,8 @@ a.pill:hover { text-decoration: none; border-color: var(--rule-strong); }
 /* .prose 的 overflow-wrap: anywhere 會讓表格欄位縮到一個字寬、把英文單字拆成兩行 */
 .prose table { overflow-wrap: break-word; }
 .prose td.nw, .prose span.nw { white-space: nowrap; }
+/* 最後一欄（如「例子」）拉寬：md 用 <div class="tbl-wide-last"> 包住表格 */
+.prose .tbl-wide-last th:last-child { width: 42%; }
 .prose th, .prose td { padding: 10px 14px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
 /* 不轉大寫：表頭常有 β-oxidation、γδ T、mRNA、cAMP，轉大寫會變成 Β、ΓΔ、MRNA */
 .prose th { font-family: var(--f-mono); font-size: .7rem; letter-spacing: .04em; color: var(--ink-2); font-weight: 600; background: var(--paper-2); white-space: nowrap; }
