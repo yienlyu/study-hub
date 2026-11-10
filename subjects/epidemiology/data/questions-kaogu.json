@@ -232,6 +232,7 @@
     "answer": ["C"],
     "explain": "10 年的逐月資料：可以看長期趨勢（secular）與季節性（seasonal），沒有地點或年齡的資訊。",
     "topics": ["描述性流病：Time"],
+    "img": ["figures/questions/k114-07.webp"],
     "pattern": "判讀題"
   },
   {
