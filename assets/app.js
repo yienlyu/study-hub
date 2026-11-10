@@ -341,8 +341,15 @@
       let prev = null;
       for (const q of list) {
         const tag = /^（題組[^）]*）/.exec(q.stem || "")?.[0];
+        const body = (q.stem || "").slice(tag ? tag.length : 0);
+        // 「（題組 k／n）」：第 k 題接在「（題組 k-1／n）」後面
+        const kn = (t) => /^（題組\s*(\d+)\s*[／/]\s*(\d+)）$/.exec(t || "");
+        const [cur, pre] = [kn(tag), kn(prev?._tag)];
         const join =
-          prev && (/^承上題/.test(q.stem || "") || (tag && tag === prev._tag));
+          prev &&
+          (/^承上題/.test(body) ||
+            (tag && tag === prev._tag) ||
+            (cur && pre && cur[2] === pre[2] && +cur[1] === +pre[1] + 1));
         if (join) {
           q.grp = prev.grp || prev.id;
           prev.grp = q.grp;
