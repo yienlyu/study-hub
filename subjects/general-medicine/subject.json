@@ -1,0 +1,46 @@
+{
+  "id": "general-medicine",
+  "title": "一般醫學概論",
+  "short": "一般醫學",
+  "term": "116-2 大三下・尚未上課",
+  "description": "一般醫學概論（病史、理學檢查與臨床推理）。目前依系學會「共筆（系學會歷屆）／大三 下／110」建立章節，上課後再依今年 slides、錄影與共筆整理。",
+  "color": "#4a6a8a",
+  "icon": "🩺",
+  "questionFiles": [],
+  "groups": [
+    {
+      "title": "116-2 大三下・一般醫學概論",
+      "chapters": [
+        "gm-1",
+        "gm-2",
+        "gm-3"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "gm-1",
+      "title": "一般醫學概論（一）",
+      "en": "Week 1",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "gm-2",
+      "title": "一般醫學概論（二）",
+      "en": "Week 2",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "gm-3",
+      "title": "一般醫學概論（三）",
+      "en": "Week 3",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    }
+  ]
+}

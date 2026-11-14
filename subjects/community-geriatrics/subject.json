@@ -1,0 +1,37 @@
+{
+  "id": "community-geriatrics",
+  "title": "社區及老人醫學",
+  "short": "社區老人",
+  "term": "117-2 大四下・尚未上課",
+  "description": "社區醫學與老年醫學（含超音波臨床效益補充）。目前依系學會「共筆（系學會歷屆）／大四 下／109」建立章節，上課後再依今年 slides、錄影與共筆整理。",
+  "color": "#5a7a4a",
+  "icon": "🏘️",
+  "questionFiles": [],
+  "groups": [
+    {
+      "title": "117-2 大四下・社區及老人醫學",
+      "chapters": [
+        "b1",
+        "b2"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "b1",
+      "title": "老人 Book 1",
+      "en": "Book 1",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "b2",
+      "title": "老人 Book 2",
+      "en": "Book 2",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    }
+  ]
+}

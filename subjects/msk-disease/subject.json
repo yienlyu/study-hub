@@ -1,0 +1,145 @@
+{
+  "id": "msk-disease",
+  "title": "骨骼肌肉系統疾病",
+  "short": "骨肌疾病",
+  "term": "116-2 大三下・尚未上課",
+  "description": "骨科、骨骼病理、止痛與麻醉藥物、影像與復健。目前依系學會「共筆（系學會歷屆）／大三 下／110」建立章節，上課後再依今年 slides、錄影與共筆整理。",
+  "color": "#8a6a3b",
+  "icon": "🦴",
+  "questionFiles": [],
+  "groups": [
+    {
+      "title": "116-2 大三下・骨骼肌肉系統疾病",
+      "chapters": [
+        "ortho-intro",
+        "anesthetics",
+        "bone-path",
+        "analgesics",
+        "peds-ortho",
+        "fracture-upper",
+        "fracture-lower",
+        "degenerative",
+        "spine",
+        "trauma-recon",
+        "sports",
+        "bone-tumor",
+        "msk-radiology",
+        "rehab"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ortho-intro",
+      "title": "骨科學導論與骨質疏鬆症",
+      "en": "Orthopedics & osteoporosis",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "anesthetics",
+      "title": "局部及全身麻醉劑",
+      "en": "Local & general anesthetics",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "bone-path",
+      "title": "骨骼、軟組織與關節病理",
+      "en": "Pathology of bone, soft tissue & joints",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "analgesics",
+      "title": "止痛藥：NSAID 與 opioid",
+      "en": "Analgesics",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "peds-ortho",
+      "title": "兒童骨科常見傷病",
+      "en": "Pediatric orthopedics",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "fracture-upper",
+      "title": "上肢骨折",
+      "en": "Upper limb fractures",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "fracture-lower",
+      "title": "骨盆與下肢骨折",
+      "en": "Pelvic & lower limb fractures",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "degenerative",
+      "title": "退化性關節疾病",
+      "en": "Degenerative joint disease",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "spine",
+      "title": "脊椎疾病與脊椎骨折",
+      "en": "Spine",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "trauma-recon",
+      "title": "創傷重建與顯微手術",
+      "en": "Trauma reconstruction & microsurgery",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "sports",
+      "title": "運動傷害",
+      "en": "Sports injuries",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "bone-tumor",
+      "title": "骨腫瘤",
+      "en": "Bone tumors",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "msk-radiology",
+      "title": "骨骼肌肉系統放射學",
+      "en": "MSK radiology",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "rehab",
+      "title": "復健",
+      "en": "Rehabilitation",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    }
+  ]
+}

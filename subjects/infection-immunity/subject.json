@@ -1,0 +1,73 @@
+{
+  "id": "infection-immunity",
+  "title": "感染與免疫",
+  "short": "感染免疫",
+  "term": "116-1 大三上・尚未上課",
+  "description": "免疫病理、感染症與抗微生物治療。目前依系學會「共筆（系學會歷屆）／大三 上／111」建立章節，上課後再依今年 slides、錄影與共筆整理。",
+  "color": "#4f6b3a",
+  "icon": "🦠",
+  "questionFiles": [],
+  "groups": [
+    {
+      "title": "116-1 大三上・感染與免疫",
+      "chapters": [
+        "hypersensitivity",
+        "immunopharm",
+        "infectious-dz",
+        "antimicrobial",
+        "antiviral-antifungal",
+        "surgical-infection"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "hypersensitivity",
+      "title": "過敏反應與自體免疫疾病",
+      "en": "Hypersensitivity & autoimmune diseases",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "immunopharm",
+      "title": "免疫藥理學",
+      "en": "Immunopharmacology",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "infectious-dz",
+      "title": "感染症與臨床常見微生物",
+      "en": "Infectious diseases",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "antimicrobial",
+      "title": "抗微生物療法",
+      "en": "Antimicrobial therapy",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "antiviral-antifungal",
+      "title": "抗病毒與抗黴菌藥物",
+      "en": "Antiviral & antifungal agents",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "surgical-infection",
+      "title": "外科感染症",
+      "en": "Surgical infections",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    }
+  ]
+}

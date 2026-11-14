@@ -1,0 +1,6604 @@
+[
+ {
+  "id": "tw1142-m1-001",
+  "source": "114-2 國考考古",
+  "num": 1,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "下列位於腦幹的神經核中，那一神經核與小腦（cerebellum）有直接且大量的神經纖維連結？",
+  "options": [
+   {
+    "k": "A",
+    "t": "動眼神經核（oculomotor nucleus）"
+   },
+   {
+    "k": "B",
+    "t": "三叉神經脊髓核（spinal trigeminal nucleus）"
+   },
+   {
+    "k": "C",
+    "t": "三叉神經橋腦核（pontine trigeminal nucleus）"
+   },
+   {
+    "k": "D",
+    "t": "前庭神經核（vestibular nucleus）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-002",
+  "source": "114-2 國考考古",
+  "num": 2,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "視覺皮質（primary visual cortex）主要由下列何者供應血液？",
+  "options": [
+   {
+    "k": "A",
+    "t": "上小腦動脈（superior cerebellar artery）"
+   },
+   {
+    "k": "B",
+    "t": "前大腦動脈（anterior cerebral artery）"
+   },
+   {
+    "k": "C",
+    "t": "中大腦動脈（middle cerebral artery）"
+   },
+   {
+    "k": "D",
+    "t": "後大腦動脈（posterior cerebral artery）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-003",
+  "source": "114-2 國考考古",
+  "num": 3,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "基底核（basal ganglia）傳出的神經纖維進入下列丘腦（thalamus）的那一個核區？",
+  "options": [
+   {
+    "k": "A",
+    "t": "腹前側核（ventral anterior nuclei）"
+   },
+   {
+    "k": "B",
+    "t": "前側核（anterior nuclei）"
+   },
+   {
+    "k": "C",
+    "t": "腹後外側核（ventral posterior lateral nuclei）"
+   },
+   {
+    "k": "D",
+    "t": "腹後內側核（ventral posterior medial nuclei）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-004",
+  "source": "114-2 國考考古",
+  "num": 4,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "從大腦皮質發出至脊髓的大腦皮質脊髓徑（corticospinal tract），一般不通過下列何處？",
+  "options": [
+   {
+    "k": "A",
+    "t": "延腦的錐體（pyramid of medulla oblongata）"
+   },
+   {
+    "k": "B",
+    "t": "中腦的基底腳（basis pedunculi of midbrain）"
+   },
+   {
+    "k": "C",
+    "t": "橋腦的基部（basilar pons）"
+   },
+   {
+    "k": "D",
+    "t": "內囊的前肢（anterior limb of internal capsule）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-005",
+  "source": "114-2 國考考古",
+  "num": 5,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "在牽張反射（muscle stretch reflex）中，負責將高基氏肌腱受器（Golgi tendon organ）的訊號往脊髓傳送的神經纖維屬於下列何種類型？",
+  "options": [
+   {
+    "k": "A",
+    "t": "group Ia"
+   },
+   {
+    "k": "B",
+    "t": "group Ib"
+   },
+   {
+    "k": "C",
+    "t": "Aδ"
+   },
+   {
+    "k": "D",
+    "t": "C"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-006",
+  "source": "114-2 國考考古",
+  "num": 6,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "下列何者位於大腦額葉？",
+  "options": [
+   {
+    "k": "A",
+    "t": "angular gyrus"
+   },
+   {
+    "k": "B",
+    "t": "Broca's area"
+   },
+   {
+    "k": "C",
+    "t": "transverse gyri of Heschl"
+   },
+   {
+    "k": "D",
+    "t": "cuneus"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-007",
+  "source": "114-2 國考考古",
+  "num": 7,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "下列何者不含內淋巴液？",
+  "options": [
+   {
+    "k": "A",
+    "t": "球囊（saccule）"
+   },
+   {
+    "k": "B",
+    "t": "橢圓囊（utricle）"
+   },
+   {
+    "k": "C",
+    "t": "耳蝸管（cochlear duct）"
+   },
+   {
+    "k": "D",
+    "t": "鼓室階（scala tympani）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-008",
+  "source": "114-2 國考考古",
+  "num": 8,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "下列神經與其支配肌肉之說明，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "滑車神經（trochlear nerve）支配上斜肌（superior oblique）"
+   },
+   {
+    "k": "B",
+    "t": "動眼神經（oculomotor nerve）支配下斜肌（inferior oblique）"
+   },
+   {
+    "k": "C",
+    "t": "動眼神經（oculomotor nerve）支配外直肌（lateral rectus）"
+   },
+   {
+    "k": "D",
+    "t": "動眼神經（oculomotor nerve）支配提上眼瞼肌（levator palpebrae superioris）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-009",
+  "source": "114-2 國考考古",
+  "num": 9,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "下列何者與頰肌（buccinator）由相同的神經支配？",
+  "options": [
+   {
+    "k": "A",
+    "t": "上直肌（superior rectus）"
+   },
+   {
+    "k": "B",
+    "t": "上斜肌（superior oblique）"
+   },
+   {
+    "k": "C",
+    "t": "外直肌（lateral rectus）"
+   },
+   {
+    "k": "D",
+    "t": "口輪匝肌（orbicularis oris）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-010",
+  "source": "114-2 國考考古",
+  "num": 10,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "「新式骨傳導耳機」在傳遞聲波時，省去下列那一傳遞結構？",
+  "options": [
+   {
+    "k": "A",
+    "t": "前庭耳蝸神經（vestibulocochlear nerve）"
+   },
+   {
+    "k": "B",
+    "t": "柯蒂氏器（organ of Corti）"
+   },
+   {
+    "k": "C",
+    "t": "耳蝸（cochlea）"
+   },
+   {
+    "k": "D",
+    "t": "外聽道（external acoustic meatus）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-011",
+  "source": "114-2 國考考古",
+  "num": 11,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "當舌神經（lingual nerve）於顳下窩（infratemporal fossa）內受損時，下列那種舌乳突（papillae）的一般感覺訊息傳遞最不可能受影響？",
+  "options": [
+   {
+    "k": "A",
+    "t": "輪廓狀乳突（vallate papillae）"
+   },
+   {
+    "k": "B",
+    "t": "葉狀乳突（foliate papillae）"
+   },
+   {
+    "k": "C",
+    "t": "絲狀乳突（filiform papillae）"
+   },
+   {
+    "k": "D",
+    "t": "蕈狀乳突（fungiform papillae）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-012",
+  "source": "114-2 國考考古",
+  "num": 12,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "下頷骨角（angle of mandible）處的皮膚喪失痛覺，最可能是下列那條神經受損？",
+  "options": [
+   {
+    "k": "A",
+    "t": "頰神經（buccal nerve）"
+   },
+   {
+    "k": "B",
+    "t": "耳大神經（great auricular nerve）"
+   },
+   {
+    "k": "C",
+    "t": "枕小神經（lesser occipital nerve）"
+   },
+   {
+    "k": "D",
+    "t": "頦神經（mental nerve）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-013",
+  "source": "114-2 國考考古",
+  "num": 13,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "下列何者不參與形成翼腭窩（pterygopalatine fossa）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "蝶骨（sphenoid bone）"
+   },
+   {
+    "k": "B",
+    "t": "顳骨（temporal bone）"
+   },
+   {
+    "k": "C",
+    "t": "腭骨（palatine bone）"
+   },
+   {
+    "k": "D",
+    "t": "上頷骨（maxilla bone）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-014",
+  "source": "114-2 國考考古",
+  "num": 14,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "下列何者不在頸部的肌三角（muscular triangle）內？",
+  "options": [
+   {
+    "k": "A",
+    "t": "胸骨甲狀肌（sternothyroid muscle）"
+   },
+   {
+    "k": "B",
+    "t": "甲狀腺（thyroid gland）"
+   },
+   {
+    "k": "C",
+    "t": "氣管（trachea）"
+   },
+   {
+    "k": "D",
+    "t": "外頸動脈（external carotid artery）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-015",
+  "source": "114-2 國考考古",
+  "num": 15,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "關於肋骨與胸廓（thoracic cage）的連接方式，下列敘述何者最恰當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "第一肋骨一般與第一胸椎（thoracic vertebra）以及第七頸椎（cervical vertebra）相接"
+   },
+   {
+    "k": "B",
+    "t": "第九肋骨和胸骨（sternum），通常直接相連接"
+   },
+   {
+    "k": "C",
+    "t": "第六肋骨與第六胸椎的下肋關節面（inferior costal facet）相連接"
+   },
+   {
+    "k": "D",
+    "t": "第十一胸椎通常不含橫肋關節面（transverse costal facet），因此第十一肋骨只有其頭端（head ofrib）和第十一胸椎相接"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-016",
+  "source": "114-2 國考考古",
+  "num": 16,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "一般情況下，下列何者負責將血壓與血液化學變化訊息傳入中樞神經系統以參與心臟反射（cardiacreflex）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "迷走神經（vagus nerve）"
+   },
+   {
+    "k": "B",
+    "t": "頸部交感神經（cervical sympathetic nerve）"
+   },
+   {
+    "k": "C",
+    "t": "胸部交感神經（thoracic sympathetic nerve）"
+   },
+   {
+    "k": "D",
+    "t": "胸部內臟神經（thoracic splanchnic nerve）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-017",
+  "source": "114-2 國考考古",
+  "num": 17,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "有關心包膜橫竇（transverse pericardial sinus）的解剖位置描述，下列何者最恰當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "位在上腔靜脈（superior vena cava）的前方"
+   },
+   {
+    "k": "B",
+    "t": "位在肺靜脈（pulmonary vein）的後方"
+   },
+   {
+    "k": "C",
+    "t": "位在左心房下方"
+   },
+   {
+    "k": "D",
+    "t": "位在肺動脈幹（pulmonary trunk）與主動脈（aorta）之間"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-018",
+  "source": "114-2 國考考古",
+  "num": 18,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "下列那部分的冠狀動脈栓塞最不可能造成左心房、左心室前壁與側壁、心尖以及心室中隔缺氧？",
+  "options": [
+   {
+    "k": "A",
+    "t": "前室間支（anterior interventricular branch）"
+   },
+   {
+    "k": "B",
+    "t": "後室間支（posterior interventricular branch）"
+   },
+   {
+    "k": "C",
+    "t": "右邊緣支（right marginal branch）"
+   },
+   {
+    "k": "D",
+    "t": "左迴旋支（left circumflex branch）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-019",
+  "source": "114-2 國考考古",
+  "num": 19,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "下列何者不具備腸繫膜（mesentery）的構造？",
+  "options": [
+   {
+    "k": "A",
+    "t": "十二指腸下降段（descending part of duodenum）"
+   },
+   {
+    "k": "B",
+    "t": "闌尾（appendix）"
+   },
+   {
+    "k": "C",
+    "t": "乙狀結腸（sigmoid colon）"
+   },
+   {
+    "k": "D",
+    "t": "橫結腸（transverse colon）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-020",
+  "source": "114-2 國考考古",
+  "num": 20,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "支配胃大彎處（greater curvature of the stomach）的左胃網膜動脈（left gastroepiploic artery），源自下列那條動脈？",
+  "options": [
+   {
+    "k": "A",
+    "t": "總肝動脈（common hepatic artery）"
+   },
+   {
+    "k": "B",
+    "t": "左胃動脈（left gastric artery）"
+   },
+   {
+    "k": "C",
+    "t": "後胃動脈（posterior gastric artery）"
+   },
+   {
+    "k": "D",
+    "t": "脾動脈（splenic artery）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-021",
+  "source": "114-2 國考考古",
+  "num": 21,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "前腹壁內面的臍內側韌帶（medial umbilical fold），是因腹膜（peritoneum）包覆下列何種結構所形成？",
+  "options": [
+   {
+    "k": "A",
+    "t": "輸精管（vas deferens）"
+   },
+   {
+    "k": "B",
+    "t": "臍動脈（umbilical artery）"
+   },
+   {
+    "k": "C",
+    "t": "上腹壁動脈（superior epigastric artery）"
+   },
+   {
+    "k": "D",
+    "t": "肝靜脈（hepatic vein）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-022",
+  "source": "114-2 國考考古",
+  "num": 22,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "前下腹壁的皮下脂肪主要存在於下列那一層？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Camper's fascia"
+   },
+   {
+    "k": "B",
+    "t": "Scarpa's fascia"
+   },
+   {
+    "k": "C",
+    "t": "腹橫筋膜（transversalis fascia）"
+   },
+   {
+    "k": "D",
+    "t": "闊筋膜（fascia lata）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-023",
+  "source": "114-2 國考考古",
+  "num": 23,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "關於前列腺（prostate），下列敘述何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "除了腺體組織（glandular tissue），也含纖維肌肉組織（fibromuscular tissue）"
+   },
+   {
+    "k": "B",
+    "t": "後表面靠近直腸（rectum）"
+   },
+   {
+    "k": "C",
+    "t": "其血液供應最主要來自上膀胱動脈（superior vesical artery）"
+   },
+   {
+    "k": "D",
+    "t": "前列腺靜脈叢（prostatic venous plexus）和膀胱靜脈叢（vesical venous plexus）相連通"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-024",
+  "source": "114-2 國考考古",
+  "num": 24,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "關於陰莖深背靜脈（deep dorsal vein of penis），下列敘述何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "主要收集陰莖皮膚的血液"
+   },
+   {
+    "k": "B",
+    "t": "走在陰莖背面，位於巴克氏筋膜（Buck's fascia）的淺層"
+   },
+   {
+    "k": "C",
+    "t": "穿過陰莖襻狀韌帶（fundiform ligament of penis）進入骨盆腔"
+   },
+   {
+    "k": "D",
+    "t": "進入骨盆腔後會將血液注入前列腺靜脈叢（prostatic venous plexus）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-025",
+  "source": "114-2 國考考古",
+  "num": 25,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "關於男性會陰部肌肉，下列敘述何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "坐骨海綿體肌（ischiocavernosus）收縮可壓迫陰莖球（bulb of penis），有助於維持陰莖勃起"
+   },
+   {
+    "k": "B",
+    "t": "於排尿後期，球海綿體肌（bulbospongiosus）收縮有助於將尿道內殘留尿液排出"
+   },
+   {
+    "k": "C",
+    "t": "坐骨海綿體肌（ischiocavernosus）附著於會陰體（perineal body）"
+   },
+   {
+    "k": "D",
+    "t": "會陰淺橫肌（superficial transverse perineal muscle）附著於坐骨棘（ischial spine）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-026",
+  "source": "114-2 國考考古",
+  "num": 26,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "關於膀胱（urinary bladder）的神經支配，下列敘述何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "下腹神經（hypogastric nerves）包含支配膀胱的交感神經纖維（sympathetic fibers）"
+   },
+   {
+    "k": "B",
+    "t": "薦內臟神經（sacral splanchnic nerves）包含支配膀胱的副交感神經纖維（parasympathetic fibers）"
+   },
+   {
+    "k": "C",
+    "t": "交感神經纖維（sympathetic fibers）可刺激尿道內括約肌（internal urethral sphincter）收縮"
+   },
+   {
+    "k": "D",
+    "t": "副交感神經纖維（parasympathetic fibers）可刺激逼尿肌（detrusor muscle）收縮"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-027",
+  "source": "114-2 國考考古",
+  "num": 27,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "下列何者是鎖骨下動脈（subclavian artery）的直接分支？",
+  "options": [
+   {
+    "k": "A",
+    "t": "上胸動脈（superior thoracic artery）"
+   },
+   {
+    "k": "B",
+    "t": "外胸動脈（lateral thoracic artery）"
+   },
+   {
+    "k": "C",
+    "t": "內胸動脈（internal thoracic artery）"
+   },
+   {
+    "k": "D",
+    "t": "胸肩峰動脈（thoraco-acromial artery）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-028",
+  "source": "114-2 國考考古",
+  "num": 28,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "下列何動作不是大腿前肌群的作用？",
+  "options": [
+   {
+    "k": "A",
+    "t": "彎曲髖關節（flex hip joint）"
+   },
+   {
+    "k": "B",
+    "t": "外旋大腿（laterally rotate thigh）"
+   },
+   {
+    "k": "C",
+    "t": "伸直膝關節（extend knee joint）"
+   },
+   {
+    "k": "D",
+    "t": "伸直髖關節（extend hip joint）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-029",
+  "source": "114-2 國考考古",
+  "num": 29,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "下圖黑色陰影區域的表皮感覺神經來自：\n（本題有圖，請見[原卷 PDF](https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114090&c=301&s=0101&q=1) 第 29 題）",
+  "options": [
+   {
+    "k": "A",
+    "t": "正中神經（median nerve）"
+   },
+   {
+    "k": "B",
+    "t": "肌皮神經（musculocutaneous nerve）"
+   },
+   {
+    "k": "C",
+    "t": "橈神經（radial nerve）"
+   },
+   {
+    "k": "D",
+    "t": "尺神經（ulnar nerve）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題",
+  "hasFigure": true
+ },
+ {
+  "id": "tw1142-m1-030",
+  "source": "114-2 國考考古",
+  "num": 30,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "股骨（femur）的內收結節（adductor tubercle）位於何處？",
+  "options": [
+   {
+    "k": "A",
+    "t": "大轉子（greater trochanter）內側"
+   },
+   {
+    "k": "B",
+    "t": "內上髁（medial epicondyle）上方"
+   },
+   {
+    "k": "C",
+    "t": "外上髁（lateral epicondyle）下方"
+   },
+   {
+    "k": "D",
+    "t": "小轉子（lesser trochanter）外方"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-031",
+  "source": "114-2 國考考古",
+  "num": 31,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-anat",
+  "type": "mcq",
+  "stem": "下列何者不是膕動脈（popliteal artery）的分支？",
+  "options": [
+   {
+    "k": "A",
+    "t": "降膝動脈（descending genicular artery）"
+   },
+   {
+    "k": "B",
+    "t": "上膝動脈（superior genicular artery）"
+   },
+   {
+    "k": "C",
+    "t": "中膝動脈（middle genicular artery）"
+   },
+   {
+    "k": "D",
+    "t": "下膝動脈（inferior genicular artery）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-032",
+  "source": "114-2 國考考古",
+  "num": 32,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-embryo",
+  "type": "mcq",
+  "stem": "下列何者不是由神經嵴細胞（neural crest cell）衍生而成？",
+  "options": [
+   {
+    "k": "A",
+    "t": "黑色素細胞（melanocyte）"
+   },
+   {
+    "k": "B",
+    "t": "交感節後神經元（postganglionic sympathetic neuron）"
+   },
+   {
+    "k": "C",
+    "t": "甲狀腺之濾泡細胞（follicular cell of thyroid gland）"
+   },
+   {
+    "k": "D",
+    "t": "腎上腺髓質之嗜鉻細胞（chromaffin cell of adrenal medulla）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-033",
+  "source": "114-2 國考考古",
+  "num": 33,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-embryo",
+  "type": "mcq",
+  "stem": "舌（tongue）的發育過程中，那一咽弓會形成聯合部（copula），且最後會被擠壓而消失？",
+  "options": [
+   {
+    "k": "A",
+    "t": "第一咽弓（first pharyngeal arch）"
+   },
+   {
+    "k": "B",
+    "t": "第二咽弓（second pharyngeal arch）"
+   },
+   {
+    "k": "C",
+    "t": "第三咽弓（third pharyngeal arch）"
+   },
+   {
+    "k": "D",
+    "t": "第四咽弓（fourth pharyngeal arch）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-034",
+  "source": "114-2 國考考古",
+  "num": 34,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-embryo",
+  "type": "mcq",
+  "stem": "女性陰道（vagina）的發育，是由下列那兩個構造共同形成？",
+  "options": [
+   {
+    "k": "A",
+    "t": "中腎管（mesonephric duct）與尿殖竇（urogenital sinus）"
+   },
+   {
+    "k": "B",
+    "t": "中腎管（mesonephric duct）與竇陰道球泡（sinovaginal bulb）"
+   },
+   {
+    "k": "C",
+    "t": "副中腎管（paramesonephric duct）與竇陰道球泡（sinovaginal bulb）"
+   },
+   {
+    "k": "D",
+    "t": "副中腎管（paramesonephric duct）與生殖結節（genital tubercle）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-035",
+  "source": "114-2 國考考古",
+  "num": 35,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-embryo",
+  "type": "mcq",
+  "stem": "內側臍韌帶（medial umbilical ligament）主要為何構造的遺跡？",
+  "options": [
+   {
+    "k": "A",
+    "t": "臍動脈（umbilical artery）"
+   },
+   {
+    "k": "B",
+    "t": "臍靜脈（umbilical vein）"
+   },
+   {
+    "k": "C",
+    "t": "靜脈導管（ductus venosus）"
+   },
+   {
+    "k": "D",
+    "t": "動脈導管（ductus arteriosus）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-036",
+  "source": "114-2 國考考古",
+  "num": 36,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-embryo",
+  "type": "mcq",
+  "stem": "神經垂體部（neurohypophysis）是衍生自：",
+  "options": [
+   {
+    "k": "A",
+    "t": "端腦（telencephalon）"
+   },
+   {
+    "k": "B",
+    "t": "間腦（diencephalon）"
+   },
+   {
+    "k": "C",
+    "t": "中腦（mesencephalon）"
+   },
+   {
+    "k": "D",
+    "t": "髓腦（myelencephalon）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-037",
+  "source": "114-2 國考考古",
+  "num": 37,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-histo",
+  "type": "mcq",
+  "stem": "下列那個接合構造，不會出現在上皮細胞的側面（lateral domain）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "間隙接合（gap junction）"
+   },
+   {
+    "k": "B",
+    "t": "黏連接合（adhering junction）"
+   },
+   {
+    "k": "C",
+    "t": "半橋粒（hemidesmosome）"
+   },
+   {
+    "k": "D",
+    "t": "緊密接合（tight junction）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-038",
+  "source": "114-2 國考考古",
+  "num": 38,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-histo",
+  "type": "mcq",
+  "stem": "下列有關成熟骨骼肌細胞（skeletal muscle cell）的敘述，何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "相鄰的細胞之間藉由間隙接合（gap junction）傳遞訊息"
+   },
+   {
+    "k": "B",
+    "t": "細胞膜（plasma membrane）內凹形成終池（terminal cisternae）"
+   },
+   {
+    "k": "C",
+    "t": "一個終池與兩條相鄰的 T 小管（T tubules）共同組成三聯體（triad）"
+   },
+   {
+    "k": "D",
+    "t": "三聯體（triad）分布於肌節（sarcomere）的明帶與暗帶交接處（A-I junction）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-039",
+  "source": "114-2 國考考古",
+  "num": 39,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-histo",
+  "type": "mcq",
+  "stem": "下列何者不存在於關節面的軟骨（cartilage of articular surface）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "軟骨膜（perichondrium）"
+   },
+   {
+    "k": "B",
+    "t": "玻尿酸（hyaluronan）"
+   },
+   {
+    "k": "C",
+    "t": "透明軟骨（hyaline cartilage）"
+   },
+   {
+    "k": "D",
+    "t": "同源細胞群（isogenous group）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-040",
+  "source": "114-2 國考考古",
+  "num": 40,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-histo",
+  "type": "mcq",
+  "stem": "關於骨生成（bone formation）的敘述，何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "扁平骨（flat bone）的生成主要是靠軟骨內骨化作用（endochondral ossification）"
+   },
+   {
+    "k": "B",
+    "t": "膜內骨化（intramembranous ossification）時，骨針（spicule）加大並形成骨小樑連結（trabecularnetwork），使骨增厚，稱做間質性生長（interstitial growth）"
+   },
+   {
+    "k": "C",
+    "t": "長骨（long bone）進行軟骨內骨化（endochondral ossification）時，會出現初級及次級的骨化中心（primary and secondary ossification centers）"
+   },
+   {
+    "k": "D",
+    "t": "軟骨內骨化（endochondral ossification）時，蝕骨細胞（osteoclast）會在肥大區（zone ofhypertrophy）中分解骨質"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-041",
+  "source": "114-2 國考考古",
+  "num": 41,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-histo",
+  "type": "mcq",
+  "stem": "交感神經節（sympathetic ganglion）內的神經元，多屬於下列何種形態？",
+  "options": [
+   {
+    "k": "A",
+    "t": "多極型（multipolar）神經元"
+   },
+   {
+    "k": "B",
+    "t": "雙極型（bipolar）神經元"
+   },
+   {
+    "k": "C",
+    "t": "偽單極（pseudounipolar）神經元"
+   },
+   {
+    "k": "D",
+    "t": "偽單極（pseudounipolar）神經元與雙極型（bipolar）神經元混合"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-042",
+  "source": "114-2 國考考古",
+  "num": 42,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-histo",
+  "type": "mcq",
+  "stem": "下列何種細胞最不可能出現在嗅覺上皮（olfactory epithelium）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "支持細胞（supporting cell）"
+   },
+   {
+    "k": "B",
+    "t": "基底細胞（basal cell）"
+   },
+   {
+    "k": "C",
+    "t": "刷狀細胞（brush cell）"
+   },
+   {
+    "k": "D",
+    "t": "杯狀細胞（goblet cell）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-043",
+  "source": "114-2 國考考古",
+  "num": 43,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-histo",
+  "type": "mcq",
+  "stem": "消化道中，下列何者不與其它三者位於同一器官？",
+  "options": [
+   {
+    "k": "A",
+    "t": "絨毛（villi）"
+   },
+   {
+    "k": "B",
+    "t": "乳糜管（lacteal）"
+   },
+   {
+    "k": "C",
+    "t": "環皺襞（plicae circulares）"
+   },
+   {
+    "k": "D",
+    "t": "結腸帶（teniae coli）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-044",
+  "source": "114-2 國考考古",
+  "num": 44,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-histo",
+  "type": "mcq",
+  "stem": "有關表皮（epidermis）中的蘭氏細胞（Langerhans cell）之敘述，何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "均勻分布在表皮的五層細胞中"
+   },
+   {
+    "k": "B",
+    "t": "常發現在基底層（stratum basale）"
+   },
+   {
+    "k": "C",
+    "t": "是抗原呈現細胞（antigen-presenting cell）"
+   },
+   {
+    "k": "D",
+    "t": "為機械性受器（mechanoreceptor）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-045",
+  "source": "114-2 國考考古",
+  "num": 45,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-histo",
+  "type": "mcq",
+  "stem": "關於甲狀腺濾泡（thyroid follicle）構造和功能的敘述，下列何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "甲狀腺是由許多大小相似（直徑約 2 mm）之甲狀腺濾泡所組成"
+   },
+   {
+    "k": "B",
+    "t": "甲狀腺濾泡細胞（follicular cell）環繞甲狀腺膠體（colloid）所構成的甲狀腺濾泡，是甲狀腺的基本構造單位"
+   },
+   {
+    "k": "C",
+    "t": "甲狀腺球蛋白（thyroglobulin）在濾泡細胞內，經甲狀腺氧化酶（thyroid oxidase）進行碘化作用，再送至膠體（colloid）內"
+   },
+   {
+    "k": "D",
+    "t": "濾泡細胞（follicular cell）的主要功能是分泌降鈣素（calcitonin）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-046",
+  "source": "114-2 國考考古",
+  "num": 46,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-histo",
+  "type": "mcq",
+  "stem": "下列關於前列腺（prostate gland）的敘述，何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "男嬰的前列腺中可觀察到許多鈣化的前列腺凝結體（prostatic concretion）"
+   },
+   {
+    "k": "B",
+    "t": "前列腺癌（prostatic carcinoma）最常發生於過渡區（transitional zone）"
+   },
+   {
+    "k": "C",
+    "t": "前列腺的中央區（central zone）為前列腺腺體組織的最大區域"
+   },
+   {
+    "k": "D",
+    "t": "腺體種類屬於管泡腺（tubuloalveolar gland）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-047",
+  "source": "114-2 國考考古",
+  "num": 47,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "將人體紅血球置入下列何種溶液之中，最容易見到細胞體積脹大？",
+  "options": [
+   {
+    "k": "A",
+    "t": "100 mM NaCl + 200 mM KCl"
+   },
+   {
+    "k": "B",
+    "t": "100 mM NaCl + 200 mM 尿素"
+   },
+   {
+    "k": "C",
+    "t": "100 mM NaCl + 200 mM 葡萄糖"
+   },
+   {
+    "k": "D",
+    "t": "100 mM NaCl + 100 mM 葡萄糖"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-048",
+  "source": "114-2 國考考古",
+  "num": 48,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "有關骨骼肌纖維（skeletal muscle fiber）的終板電位（endplate potential, EPP），下列描述何者最為適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "從運動神經纖維末梢釋放的乙醯膽鹼（acetylcholine）會與肌漿膜（sarcolemma）上的蕈毒型受器（muscarinic receptor）結合，因而產生 EPP"
+   },
+   {
+    "k": "B",
+    "t": "EPP 是因為大量鉀離子（K+）流入肌纖維內所造成的一種動作電位（action potential）"
+   },
+   {
+    "k": "C",
+    "t": "EPP 會沿著橫小管（transverse tubule）傳遞到骨骼肌纖維內部，促使肌漿網（sarcoplasmicreticulum）釋放鈣離子"
+   },
+   {
+    "k": "D",
+    "t": "肉毒桿菌毒素（botulinum toxin）中毒會使運動神經纖維末梢不易釋放乙醯膽鹼，使得 EPP 變小，最終導致肌肉無法收縮"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-049",
+  "source": "114-2 國考考古",
+  "num": 49,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "某一病人罹患中風後講話流利，但卻出現閱讀上的困難，下列何者最有可能是發生病變的位置？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Wernicke's area"
+   },
+   {
+    "k": "B",
+    "t": "Broca's area"
+   },
+   {
+    "k": "C",
+    "t": "angular gyrus"
+   },
+   {
+    "k": "D",
+    "t": "arcuate fasciculus"
+   }
+  ],
+  "answer": [
+   "A",
+   "C"
+  ],
+  "explain": "考選部更正：答 A、C 均給分。",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-050",
+  "source": "114-2 國考考古",
+  "num": 50,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "下列那個腦區和恐懼情緒最直接相關？",
+  "options": [
+   {
+    "k": "A",
+    "t": "視上核（supraoptic nucleus）"
+   },
+   {
+    "k": "B",
+    "t": "視叉上核（suprachiasmatic nucleus）"
+   },
+   {
+    "k": "C",
+    "t": "杏仁核（amygdaloid nucleus）"
+   },
+   {
+    "k": "D",
+    "t": "海馬迴（hippocampus）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-051",
+  "source": "114-2 國考考古",
+  "num": 51,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "下列有關自主神經系統的敘述，何者最不適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "自主神經系統的交感部門也稱為頭薦部門"
+   },
+   {
+    "k": "B",
+    "t": "交感神經系統的節前運動神經元釋放的神經傳導物質主要是乙醯膽鹼"
+   },
+   {
+    "k": "C",
+    "t": "副交感神經系統的節後運動神經元釋放的神經傳導物質主要是乙醯膽鹼"
+   },
+   {
+    "k": "D",
+    "t": "與交感神經相較，副交感神經系統的自主神經節一般比較靠近標的組織"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-052",
+  "source": "114-2 國考考古",
+  "num": 52,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "神經傳導物質（neurotransmitter）與其相對應的代謝型受體（metabotropic receptor）之配對，何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "norepinephrine→α1 receptor"
+   },
+   {
+    "k": "B",
+    "t": "histamine→5-HT1 receptor"
+   },
+   {
+    "k": "C",
+    "t": "acetylcholine→nicotinic receptor"
+   },
+   {
+    "k": "D",
+    "t": "glutamate→AMPA receptor"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-053",
+  "source": "114-2 國考考古",
+  "num": 53,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "人在移動時能感受到垂直加速，最主要是下列那一個構造之功能？",
+  "options": [
+   {
+    "k": "A",
+    "t": "半規管（semicircular canal）"
+   },
+   {
+    "k": "B",
+    "t": "橢圓囊（utricle）"
+   },
+   {
+    "k": "C",
+    "t": "球囊（saccule）"
+   },
+   {
+    "k": "D",
+    "t": "柯蒂氏器（organ of Corti）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-054",
+  "source": "114-2 國考考古",
+  "num": 54,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "在副交感神經系統興奮的情況下，下列何者有關眼球之變化最不可能發生？",
+  "options": [
+   {
+    "k": "A",
+    "t": "睫狀體（ciliary body）的環肌傾向處於收縮狀態"
+   },
+   {
+    "k": "B",
+    "t": "懸繫小帶（zonule）的張力傾向變低"
+   },
+   {
+    "k": "C",
+    "t": "水晶體的形狀傾向變薄變長"
+   },
+   {
+    "k": "D",
+    "t": "瞳孔傾向變小"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-055",
+  "source": "114-2 國考考古",
+  "num": 55,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "在一般開始運動的最初幾秒鐘內，骨骼肌所需 ATP 最可能之來源為何？",
+  "options": [
+   {
+    "k": "A",
+    "t": "脂肪酸（fatty acid）"
+   },
+   {
+    "k": "B",
+    "t": "葡萄糖（glucose）"
+   },
+   {
+    "k": "C",
+    "t": "蛋白質（protein）"
+   },
+   {
+    "k": "D",
+    "t": "磷酸肌胺酸（creatine phosphate）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-056",
+  "source": "114-2 國考考古",
+  "num": 56,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "與第 1 型骨骼肌纖維相比，2X 型骨骼肌纖維有何不同？",
+  "options": [
+   {
+    "k": "A",
+    "t": "2X 型纖維有更多粒線體"
+   },
+   {
+    "k": "B",
+    "t": "2X 型纖維更容易疲勞"
+   },
+   {
+    "k": "C",
+    "t": "2X 型纖維有更豐富的肌紅蛋白（myoglobin）"
+   },
+   {
+    "k": "D",
+    "t": "2X 型肌肉纖維之微血管供應較多"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-057",
+  "source": "114-2 國考考古",
+  "num": 57,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "下列關於血栓溶解機制的敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "內皮細胞分泌組織血漿素原活化劑（tissue plasminogen activator）"
+   },
+   {
+    "k": "B",
+    "t": "血漿素原（plasminogen）需轉化成血漿素（plasmin）"
+   },
+   {
+    "k": "C",
+    "t": "可溶性纖維蛋白片段聚集成纖維蛋白（fibrin）"
+   },
+   {
+    "k": "D",
+    "t": "纖維蛋白（fibrin）與 組織血漿素原活化劑（tissue plasminogen activator）結合，可增加後者之活性"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-058",
+  "source": "114-2 國考考古",
+  "num": 58,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "下列有關心電圖（electrocardiogram, ECG）各導程波形所代表的生病理狀況描述，何者最適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "血中鈣離子濃度正常情況下，高血鉀（hyperkalemia）病人的 lead Ⅱ常見高 T 波（tall T）"
+   },
+   {
+    "k": "B",
+    "t": "一級房室傳導阻斷（first-degree atrioventricular heart block）時，在 lead Ⅱ中常見 PR interval縮短"
+   },
+   {
+    "k": "C",
+    "t": "以 aVR 單極導程記錄 ECG，和 lead Ⅱ有相似的 QRS 波，均為向上偏斜（upward deflection）波形"
+   },
+   {
+    "k": "D",
+    "t": "T 波代表心室再極化，因此 V1-V6（precordial leads）的 T 波，均為向下偏斜（downward deflection）波形"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-059",
+  "source": "114-2 國考考古",
+  "num": 59,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "記錄心肌細胞的動作電位時，在去極化與平原期之間有一段快速而短暫的再極化期（initial rapidrepolarization），下列何者是它產生的主要機制？",
+  "options": [
+   {
+    "k": "A",
+    "t": "關閉鈉離子通道，打開鉀離子通道"
+   },
+   {
+    "k": "B",
+    "t": "關閉鈉離子通道，打開氯離子通道"
+   },
+   {
+    "k": "C",
+    "t": "關閉 L-type 鈣離子通道，打開 T-type 鈣離子通道"
+   },
+   {
+    "k": "D",
+    "t": "關閉 T-type 鈣離子通道，打開 L-type 鈣離子通道"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-060",
+  "source": "114-2 國考考古",
+  "num": 60,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "對於心室肌細胞和 SA node 細胞電位的比較，下列那一敘述最為適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "兩種細胞皆有穩定的靜止膜電位（steady resting membrane potential），均約為-90 mV"
+   },
+   {
+    "k": "B",
+    "t": "兩種細胞產生的動作電位皆有平原期（plateau phase），主要均是因為打開 L-type Ca2+ channels"
+   },
+   {
+    "k": "C",
+    "t": "兩種細胞動作電位的去極化，主要都是因為打開 Na+ channels，使得 Na+流入細胞而造成"
+   },
+   {
+    "k": "D",
+    "t": "兩種細胞動作電位的再極化，主要都是因為打開 K+ channels，使得 K+流出細胞而造成"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-061",
+  "source": "114-2 國考考古",
+  "num": 61,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "下列血壓、心跳之變化，何者最易發生於顱內壓上升的病人？",
+  "options": [
+   {
+    "k": "A",
+    "t": "血壓、心跳速率均下降"
+   },
+   {
+    "k": "B",
+    "t": "血壓上升、心跳速率下降"
+   },
+   {
+    "k": "C",
+    "t": "血壓、心跳速率均上升"
+   },
+   {
+    "k": "D",
+    "t": "血壓下降、心跳速率上升"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-062",
+  "source": "114-2 國考考古",
+  "num": 62,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "一位成年女子，其體動脈血中氧氣濃度 200 mL/L，全身氧氣消耗速率（oxygen consumption rate）為 250mL/min。已知她的心輸出量（cardiac output）為 5 L/min，血紅素濃度 16 g/dL，而且體動脈血中結合在血紅素上的氧氣量（O2 bound to hemoglobin）占全部血中氧氣的 98％。則她的體靜脈血中氧氣濃度最接近下列何者？",
+  "options": [
+   {
+    "k": "A",
+    "t": "150 mL/L"
+   },
+   {
+    "k": "B",
+    "t": "146 mL/L"
+   },
+   {
+    "k": "C",
+    "t": "143 mL/L"
+   },
+   {
+    "k": "D",
+    "t": "47 mL/L"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-063",
+  "source": "114-2 國考考古",
+  "num": 63,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "下列各種混合氣體，總壓力均為 760 mmHg，除了以下所述成分以外，其餘皆為氮氣。當人體吸入何種混合氣體時，每分鐘總通氣量（minute ventilation）最大？",
+  "options": [
+   {
+    "k": "A",
+    "t": "21％氧氣＋0.05％二氧化碳"
+   },
+   {
+    "k": "B",
+    "t": "5％氧氣＋0.05％二氧化碳"
+   },
+   {
+    "k": "C",
+    "t": "21％氧氣＋5％二氧化碳"
+   },
+   {
+    "k": "D",
+    "t": "5％氧氣＋5％二氧化碳"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-064",
+  "source": "114-2 國考考古",
+  "num": 64,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "游離態的膽固醇在小腸上皮細胞最主要是經由下列何種方式吸收？",
+  "options": [
+   {
+    "k": "A",
+    "t": "初級主動運輸（primary active transport）"
+   },
+   {
+    "k": "B",
+    "t": "次級主動運輸（secondary active transport）"
+   },
+   {
+    "k": "C",
+    "t": "擴散作用（diffusion）"
+   },
+   {
+    "k": "D",
+    "t": "內吞作用（endocytosis）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-065",
+  "source": "114-2 國考考古",
+  "num": 65,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "下列何者是胰泌素（secretin）的最主要的直接作用？",
+  "options": [
+   {
+    "k": "A",
+    "t": "刺激膽囊收縮釋放膽汁和促進胰臟胰島素的分泌"
+   },
+   {
+    "k": "B",
+    "t": "刺激肝臟分泌膽汁和促進膽囊收縮"
+   },
+   {
+    "k": "C",
+    "t": "刺激胰臟碳酸氫根離子分泌和抑制胃腺分泌 gastrin"
+   },
+   {
+    "k": "D",
+    "t": "刺激腸道上皮細胞分泌離子和促進胃腺分泌 HCl"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-066",
+  "source": "114-2 國考考古",
+  "num": 66,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "有關正常生理情況下之腎臟滲透壓調節（renal osmolar regulation），下列敘述何者最為適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "血漿滲透壓值小於 280 mOsm/L 後會刺激抗利尿荷爾蒙（antidiuretic hormone, ADH）分泌"
+   },
+   {
+    "k": "B",
+    "t": "刺激口渴感覺的血漿滲透壓閾值（threshold），要比刺激抗利尿荷爾蒙（antidiuretic hormone, ADH）分泌之閾值為低"
+   },
+   {
+    "k": "C",
+    "t": "抗利尿荷爾蒙（antidiuretic hormone, ADH）使近端腎小管對水分子容易重吸收"
+   },
+   {
+    "k": "D",
+    "t": "尿液濃縮與稀釋時之滲透壓範圍，可高至 1200 mOsm/L，或低至 50 mOsm/L"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-067",
+  "source": "114-2 國考考古",
+  "num": 67,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "下列關於腎小管水分再吸收之敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "亨氏管下降枝（descending limb of loop of Henle）主要因具有第一型水通道（aquaporin-1）而對水分有高度通透性"
+   },
+   {
+    "k": "B",
+    "t": "亨氏管上升段粗枝（thick ascending limb of loop of Henle）主要因具有鈉－氯協同運輸蛋白（Na+-Clcotransporter）故能再吸收水分"
+   },
+   {
+    "k": "C",
+    "t": "亨氏管上升段粗枝的基底外側膜（basolateral membrane）主要因具有鈉－鉀腺苷三磷酸酶（Na+-K+ATPase），故能帶動鈉離子及水分再吸收"
+   },
+   {
+    "k": "D",
+    "t": "腎小管內液在離開亨氏管上升段粗枝（thick ascending limb of loop of Henle）進入遠端小管時呈現低張（hypotonic）狀況"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-068",
+  "source": "114-2 國考考古",
+  "num": 68,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "下列有關胰島素的調控和生理作用的敘述，何者最為適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "血鉀降低會促進胰島素的分泌作用"
+   },
+   {
+    "k": "B",
+    "t": "胰島素會促進肝臟的葡萄糖產生速率"
+   },
+   {
+    "k": "C",
+    "t": "胰島素會促進脂肪組織脂肪合成速率"
+   },
+   {
+    "k": "D",
+    "t": "胰島素會促進酮體的生成作用（ketogenesis）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-069",
+  "source": "114-2 國考考古",
+  "num": 69,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "下列那兩個激素與甲促素（thyroid-stimulating hormone）具有相同的 alpha 蛋白次單元（subunit）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "生長激素（growth hormone）與泌乳素（prolactin）"
+   },
+   {
+    "k": "B",
+    "t": "腎皮促素（adrenocorticotropic hormone）與濾泡刺激素(follicle-stimulating hormone）"
+   },
+   {
+    "k": "C",
+    "t": "抗利尿激素（antidiuretic hormone）與催產素（oxytocin）"
+   },
+   {
+    "k": "D",
+    "t": "黃體生成素（luteinizing hormone）與人類絨毛性腺刺激素（human chorionic gonadotropin）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-070",
+  "source": "114-2 國考考古",
+  "num": 70,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "當身體內外環境改變時，下列有關荷爾蒙分泌之敘述何者最不適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "當血糖下降至 40 mg/dL 時，腎上腺素（epinephrine）會大量分泌"
+   },
+   {
+    "k": "B",
+    "t": "受到壓力（stress）時，血漿中皮質素（cortisol）的分泌會增加"
+   },
+   {
+    "k": "C",
+    "t": "受到壓力時，會刺激下視丘的神經細胞分泌促腎上腺皮質素（ACTH）"
+   },
+   {
+    "k": "D",
+    "t": "晝夜節律（circadian rhythm）會參與調控促腎上腺皮質素（ACTH）的分泌"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-071",
+  "source": "114-2 國考考古",
+  "num": 71,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "下列何種分子功能缺失，最可能導致胰臟（pancreas）beta 細胞無法感應血糖增加，以致胰島素（insulin）分泌低落？",
+  "options": [
+   {
+    "k": "A",
+    "t": "葡萄糖運輸蛋白（glucose transporter-2, GLUT-2）"
+   },
+   {
+    "k": "B",
+    "t": "葡萄糖－鈣離子反向運輸蛋白（glucose-calcium antiporter）"
+   },
+   {
+    "k": "C",
+    "t": "葡萄糖－氯離子反向運輸蛋白（glucose-chloride antiporter）"
+   },
+   {
+    "k": "D",
+    "t": "葡萄糖－胺基酸共同運輸蛋白（glucose-amino acid cotransporter）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-072",
+  "source": "114-2 國考考古",
+  "num": 72,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "有關兩側副甲狀腺切除後 2～3 天內所造成的影響，下列何種情況最不可能發生？",
+  "options": [
+   {
+    "k": "A",
+    "t": "血漿中磷濃度升高"
+   },
+   {
+    "k": "B",
+    "t": "神經肌肉興奮性下降"
+   },
+   {
+    "k": "C",
+    "t": "腸道鈣離子的吸收作用下降"
+   },
+   {
+    "k": "D",
+    "t": "血漿中鈣離子濃度下降"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-073",
+  "source": "114-2 國考考古",
+  "num": 73,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-physio",
+  "type": "mcq",
+  "stem": "有關卵巢濾泡（follicle）的生長，下列敘述何者最不適當?",
+  "options": [
+   {
+    "k": "A",
+    "t": "最早期的濾泡為原始濾泡（primordial follicle），至青春期才會開始發育形成初級濾泡（primaryfollicle）"
+   },
+   {
+    "k": "B",
+    "t": "初級濾泡的卵母細胞（oocyte）與顆粒細胞（granulosa cell）之間有透明帶（zona pellucida）形成"
+   },
+   {
+    "k": "C",
+    "t": "月經週期初期，數個濾泡生長，而後會選出一個優勢濾泡（dominant follicle），達到最後成熟的濾泡"
+   },
+   {
+    "k": "D",
+    "t": "濾泡凋零萎縮（atresia），在濾泡發育過程之各階段皆可能發生"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-074",
+  "source": "114-2 國考考古",
+  "num": 74,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "一條由 12 個胺基酸形成的多肽（polypeptide）含有幾個胜肽鍵（peptide bond）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "9"
+   },
+   {
+    "k": "B",
+    "t": "10"
+   },
+   {
+    "k": "C",
+    "t": "11"
+   },
+   {
+    "k": "D",
+    "t": "12"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-075",
+  "source": "114-2 國考考古",
+  "num": 75,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "下列何者對固有無序蛋白（intrinsically disordered proteins）特性的描述最適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "在生理上大多沒有功能"
+   },
+   {
+    "k": "B",
+    "t": "缺乏一個確定的三維結構"
+   },
+   {
+    "k": "C",
+    "t": "主要由芳香族胺基酸組成"
+   },
+   {
+    "k": "D",
+    "t": "不會與其他蛋白質相互作用"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-076",
+  "source": "114-2 國考考古",
+  "num": 76,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "當血紅蛋白（hemoglobin）與 2,3-bisphosphoglycerate（2,3-BPG）結合時，會更易於形成下列何種四級結構？",
+  "options": [
+   {
+    "k": "A",
+    "t": "R 狀態（R state）"
+   },
+   {
+    "k": "B",
+    "t": "T 狀態（T state）"
+   },
+   {
+    "k": "C",
+    "t": "A 形態（A form）"
+   },
+   {
+    "k": "D",
+    "t": "Z 形態（Z form）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-077",
+  "source": "114-2 國考考古",
+  "num": 77,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "下列那一種維生素需要膽汁幫助吸收？",
+  "options": [
+   {
+    "k": "A",
+    "t": "vitamin A"
+   },
+   {
+    "k": "B",
+    "t": "vitamin B6"
+   },
+   {
+    "k": "C",
+    "t": "vitamin B12"
+   },
+   {
+    "k": "D",
+    "t": "vitamin C"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-078",
+  "source": "114-2 國考考古",
+  "num": 78,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "關於人類基因組的描述，下列何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "人類基因組中，大部分基因被非編碼的內含子（intron）打斷，因而呈現不連續性"
+   },
+   {
+    "k": "B",
+    "t": "人類基因組中，超過 40%的 DNA 負責編碼蛋白質"
+   },
+   {
+    "k": "C",
+    "t": "人類基因組中約有一半由轉座子（transposon）組成"
+   },
+   {
+    "k": "D",
+    "t": "真核生物染色體中的著絲粒（有絲分裂紡錘體的附著點）和端粒（位於染色體末端）是具有特殊功能的重複DNA 序列"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-079",
+  "source": "114-2 國考考古",
+  "num": 79,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "化療藥物 5-fluorouracil 經酵素作用轉化成 5-fluoro-2'-deoxyuridine 5'-monophosphate（FdUMP），會與下列何種酵素結合抑制 DNA 合成？",
+  "options": [
+   {
+    "k": "A",
+    "t": "黃嘌呤氧化酶（xanthine oxidase）"
+   },
+   {
+    "k": "B",
+    "t": "胺基甲醯磷酸合成酶Ⅱ（carbamoyl phosphate synthase Ⅱ）"
+   },
+   {
+    "k": "C",
+    "t": "腺苷脫胺酶（adenosine deaminase）"
+   },
+   {
+    "k": "D",
+    "t": "胸苷酸合成酶（thymidylate synthase）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-080",
+  "source": "114-2 國考考古",
+  "num": 80,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "在抗體輕鏈（light chain）的生成過程中，V 區與 J 區的重組以及 J 區與 C 區的重組分別是在那個層面上進行？",
+  "options": [
+   {
+    "k": "A",
+    "t": "DNA；DNA"
+   },
+   {
+    "k": "B",
+    "t": "DNA；RNA"
+   },
+   {
+    "k": "C",
+    "t": "DNA；蛋白質"
+   },
+   {
+    "k": "D",
+    "t": "RNA；RNA"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-081",
+  "source": "114-2 國考考古",
+  "num": 81,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "愛滋病毒的基因體能夠快速變異，主要是因為病毒的何種特性？",
+  "options": [
+   {
+    "k": "A",
+    "t": "隨機插入人類染色體"
+   },
+   {
+    "k": "B",
+    "t": "帶有特殊的 DNA 水解酵素"
+   },
+   {
+    "k": "C",
+    "t": "反轉錄酶合成 DNA 的精準度（fidelity）不佳"
+   },
+   {
+    "k": "D",
+    "t": "蛋白質水解酶無法精準切割合成的病毒蛋白"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-082",
+  "source": "114-2 國考考古",
+  "num": 82,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "在錯誤配對修復（mismatch repair）過程中，大腸桿菌是利用何種機制來標記模板股 DNA，以作為 DNA 修復辨識？",
+  "options": [
+   {
+    "k": "A",
+    "t": "將胸腺嘧啶（thymine）上的甲基移除"
+   },
+   {
+    "k": "B",
+    "t": "在尿嘧啶（uracil）上進行甲基化，轉變成胸腺嘧啶（thymine）"
+   },
+   {
+    "k": "C",
+    "t": "在腺嘌呤（adenine）上進行甲基化"
+   },
+   {
+    "k": "D",
+    "t": "在胞嘧啶（cytosine）上進行甲基化"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-083",
+  "source": "114-2 國考考古",
+  "num": 83,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "假設在某種胺醯-tRNA 合成酶（aminoacyl-tRNA synthetase）基因發生突變時，雖不影響其催化活性，但對其識別 tRNA 分子的專一性降低。這種突變最可能導致下列何種後果？",
+  "options": [
+   {
+    "k": "A",
+    "t": "蛋白質合成效率增加，因為 tRNA 分子可以攜帶多種胺基酸"
+   },
+   {
+    "k": "B",
+    "t": "蛋白質合成解碼過程中錯誤增加，導致功能異常的蛋白質產生"
+   },
+   {
+    "k": "C",
+    "t": "蛋白質合成停止，因為胺醯-tRNA 合成酶無法連接任何胺基酸到 tRNA"
+   },
+   {
+    "k": "D",
+    "t": "核糖體無法識別突變 tRNA，導致 tRNA 分子無法進入核糖體的 A 位點，阻止轉譯進行"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-084",
+  "source": "114-2 國考考古",
+  "num": 84,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "下列何者不是真核細胞 RNA 聚合酶Ⅱ之 TFⅡH 次單元所具有的生理功能？",
+  "options": [
+   {
+    "k": "A",
+    "t": "三磷酸腺苷的水解（ATP hydrolysis）"
+   },
+   {
+    "k": "B",
+    "t": "轉錄前起始複合體的形成"
+   },
+   {
+    "k": "C",
+    "t": "具有去氧核糖核酸解旋酶（helicase）與激酶（kinase）的活性"
+   },
+   {
+    "k": "D",
+    "t": "轉錄作用的終止"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-085",
+  "source": "114-2 國考考古",
+  "num": 85,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "原核生物中，調控基因表現的操縱組（operon）其中操作子（operator）序列主要是由下列何種分子進行結合？",
+  "options": [
+   {
+    "k": "A",
+    "t": "suppressor tRNA"
+   },
+   {
+    "k": "B",
+    "t": "miRNA"
+   },
+   {
+    "k": "C",
+    "t": "inducer"
+   },
+   {
+    "k": "D",
+    "t": "repressor"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-086",
+  "source": "114-2 國考考古",
+  "num": 86,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "關於細菌色胺酸操縱組（trp operon）調控方式的敘述，下列何者最適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "前導胜肽是一種催化轉錄衰減（transcription attenuation）的酵素"
+   },
+   {
+    "k": "B",
+    "t": "當色胺酸（tryptophan）水平較低時，trp operon 之轉錄作用在其結構基因被轉錄之前便衰減（attenuation）"
+   },
+   {
+    "k": "C",
+    "t": "前導胜肽在催化轉錄衰減（transcription attenuation）作用中，會直接和核糖核酸聚合酶結合並限制其移動"
+   },
+   {
+    "k": "D",
+    "t": "編碼前導胜肽的序列中包含的色胺酸密碼子會使得 trp operon 的轉錄活性受到細胞中色胺酸（tryptophan）的含量所調控"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-087",
+  "source": "114-2 國考考古",
+  "num": 87,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "下列何種代謝物其磷酸根，只經人體細胞一個代謝反應後，就可直接製造出 ATP？",
+  "options": [
+   {
+    "k": "A",
+    "t": "甘油磷酸（glycerol-3-phosphate）"
+   },
+   {
+    "k": "B",
+    "t": "6-磷酸葡萄糖酸內酯（6-phosphogluconolactone）"
+   },
+   {
+    "k": "C",
+    "t": "果糖 1,6-雙磷酸（fructose 1,6-bisphosphate）"
+   },
+   {
+    "k": "D",
+    "t": "1,3-雙磷酸甘油酸（1,3-bisphosphoglycerate）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-088",
+  "source": "114-2 國考考古",
+  "num": 88,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "下列何者為結構型多醣（structural polysaccharide）而非儲存型多醣（storage polysaccharide）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "cellulose"
+   },
+   {
+    "k": "B",
+    "t": "amylose"
+   },
+   {
+    "k": "C",
+    "t": "amylopectin"
+   },
+   {
+    "k": "D",
+    "t": "glycogen"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-089",
+  "source": "114-2 國考考古",
+  "num": 89,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "細胞膜上包含甘油（glycerol）架構的複合性脂質為：",
+  "options": [
+   {
+    "k": "A",
+    "t": "膽固醇（cholesterol）"
+   },
+   {
+    "k": "B",
+    "t": "磷脂膽鹼（phosphatidylcholine）"
+   },
+   {
+    "k": "C",
+    "t": "神經醯胺（ceramide）"
+   },
+   {
+    "k": "D",
+    "t": "神經鞘磷脂（sphingomyelin）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-090",
+  "source": "114-2 國考考古",
+  "num": 90,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "NADPH 為脂質合成中提供還原能的重要來源，合成 1 莫耳 palmitate 需要幾莫耳的 NADPH？",
+  "options": [
+   {
+    "k": "A",
+    "t": "7"
+   },
+   {
+    "k": "B",
+    "t": "14"
+   },
+   {
+    "k": "C",
+    "t": "16"
+   },
+   {
+    "k": "D",
+    "t": "21"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-091",
+  "source": "114-2 國考考古",
+  "num": 91,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "關於血糖高低與脂質氧化代謝的調控機制，何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "血糖低時，升糖素血中濃度上升，減少脂肪酸進入粒線體進行氧化"
+   },
+   {
+    "k": "B",
+    "t": "血糖高時，升糖素血中濃度上升，減少脂肪酸進入粒線體進行氧化"
+   },
+   {
+    "k": "C",
+    "t": "血糖高時，胰島素血中濃度上升，減少脂肪酸進入粒線體進行氧化"
+   },
+   {
+    "k": "D",
+    "t": "血糖低時，胰島素血中濃度上升，增加脂肪酸進入粒線體進行氧化"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-092",
+  "source": "114-2 國考考古",
+  "num": 92,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "在人體尿素代謝循環（urea cycle）過程中，下列何者論述最適切？",
+  "options": [
+   {
+    "k": "A",
+    "t": "麩胺酸（glutamate）釋放出氨離子（NH4+）的代謝作用發生在肝臟粒線體（mitochondria）中，尿素（urea）的產生是在肝臟細胞質（cytosol）中進行"
+   },
+   {
+    "k": "B",
+    "t": "麩胺酸（glutamate）釋放出氨離子（NH4+）的代謝作用發生在肝臟過氧化體（peroxisome）中，尿素（urea）的產生是在肝臟的粒線體（mitochondria）中進行"
+   },
+   {
+    "k": "C",
+    "t": "麩胺酸（glutamate）釋放出氨離子（NH4+）和尿素（urea）產生的一連串代謝作用均在肝臟的粒線體（mitochondria）中進行。製造出的尿素（urea），主要經由囊泡（vesicle）運送機制至細胞外"
+   },
+   {
+    "k": "D",
+    "t": "麩胺酸（glutamate）釋放出氨離子（NH4+）和尿素（urea）產生的分解作用，一連串的代謝作用均在肝臟的過氧化體（peroxisome）中進行。製造出的尿素（urea），須經由內質網（endoplasmic reticulum）和囊泡（vesicle）共同運送機制至細胞外"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-093",
+  "source": "114-2 國考考古",
+  "num": 93,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "糖尿病患者或在飢餓狀態時會利用下列何種生酮胺基酸（ketogenic amino acid）代謝產生能量提供使用？",
+  "options": [
+   {
+    "k": "A",
+    "t": "白胺酸（leucine）"
+   },
+   {
+    "k": "B",
+    "t": "精胺酸（arginine）"
+   },
+   {
+    "k": "C",
+    "t": "脯胺酸（proline）"
+   },
+   {
+    "k": "D",
+    "t": "麩胺酸（glutamate）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-094",
+  "source": "114-2 國考考古",
+  "num": 94,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "參與粒線體呼吸鏈（或稱電子傳遞鏈）的蛋白質複合體在傳遞電子的同時，也同時扮演氫離子幫浦（hydrogen pump）的角色。下列敘述何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "complex Ⅰ會將 4 個氫離子移轉到粒線體基質（matrix）"
+   },
+   {
+    "k": "B",
+    "t": "complex Ⅲ會將 4 個氫離子移轉到粒線體基質（matrix）"
+   },
+   {
+    "k": "C",
+    "t": "complex Ⅲ會將 4 個氫離子移轉到粒線體膜間腔（intermembrane space）"
+   },
+   {
+    "k": "D",
+    "t": "complex Ⅳ會將 4 個氫離子移轉到粒線體膜間腔（intermembrane space）"
+   }
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "explain": "考選部更正：答 C、D 均給分。",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-095",
+  "source": "114-2 國考考古",
+  "num": 95,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "關於胰島素（insulin）訊息如何活化肝臟細胞的肝醣合成酶（glycogen synthase, GS）的活性，下列描述何者最合理？",
+  "options": [
+   {
+    "k": "A",
+    "t": "造成肝醣合成激酶 3（glycogen synthase kinase 3, GSK3）去磷酸化，提高 GSK3 激酶活性，活化 GS"
+   },
+   {
+    "k": "B",
+    "t": "造成肝醣合成激酶 3（glycogen synthase kinase 3, GSK3）磷酸化，提高 GSK3 激酶活性，活化 GS"
+   },
+   {
+    "k": "C",
+    "t": "造成肝醣合成激酶 3（glycogen synthase kinase 3, GSK3）去磷酸化，抑制 GSK3 激酶活性，活化 GS"
+   },
+   {
+    "k": "D",
+    "t": "造成肝醣合成激酶 3（glycogen synthase kinase 3, GSK3）磷酸化，抑制 GSK3 激酶活性，活化 GS"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-096",
+  "source": "114-2 國考考古",
+  "num": 96,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "下列有關蛋白激酶 A（protein kinase A）活化的描述，何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "需要 cAMP 結合其 R 次單元"
+   },
+   {
+    "k": "B",
+    "t": "需要 cAMP 結合其 C 次單元"
+   },
+   {
+    "k": "C",
+    "t": "需要鈣離子結合其 R 次單元"
+   },
+   {
+    "k": "D",
+    "t": "需要鈣離子結合其 C 次單元"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-097",
+  "source": "114-2 國考考古",
+  "num": 97,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "Phosphoinositide 3-kinase（PI3K）主要以磷酸化細胞膜上的那一個分子來傳遞訊息？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Ras"
+   },
+   {
+    "k": "B",
+    "t": "PKC"
+   },
+   {
+    "k": "C",
+    "t": "PIP2"
+   },
+   {
+    "k": "D",
+    "t": "PKB"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-098",
+  "source": "114-2 國考考古",
+  "num": 98,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "研究人員需要選殖（cloning）大片段的 DNA 進行相關研究時，下列載體（cloning vector）何者可以承載最大的 DNA 片段？",
+  "options": [
+   {
+    "k": "A",
+    "t": "pBR322 質體（pBR322 plasmid）"
+   },
+   {
+    "k": "B",
+    "t": "酵母菌人工染色體（yeast artificial chromosome, YAC）"
+   },
+   {
+    "k": "C",
+    "t": "噬菌體載體（phage vector）"
+   },
+   {
+    "k": "D",
+    "t": "細菌人工染色體（bacterial artificial chromosome, BAC）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-099",
+  "source": "114-2 國考考古",
+  "num": 99,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "在哺乳動物細胞中，RNA 干擾作用（RNA interference, RNAi）是由小干擾 RNA（small interfering RNA,siRNA）所誘發，siRNA 一般由幾個核苷酸組成？",
+  "options": [
+   {
+    "k": "A",
+    "t": "11～13"
+   },
+   {
+    "k": "B",
+    "t": "21～23"
+   },
+   {
+    "k": "C",
+    "t": "31～33"
+   },
+   {
+    "k": "D",
+    "t": "41～43"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m1-100",
+  "source": "114-2 國考考古",
+  "num": 100,
+  "paper": "114 年第二次・醫學（一）",
+  "chapter": "m1-biochem",
+  "type": "mcq",
+  "stem": "下列何種分析方法一般不適用於分析蛋白質與蛋白質之間的交互作用？",
+  "options": [
+   {
+    "k": "A",
+    "t": "串接親和共純化（tandem affinity purification）"
+   },
+   {
+    "k": "B",
+    "t": "免疫共沉澱法（co-immunoprecipitation）"
+   },
+   {
+    "k": "C",
+    "t": "免疫組織化學染色法（immunohistochemical staining）"
+   },
+   {
+    "k": "D",
+    "t": "酵母菌雙雜交測定（yeast two-hybrid assay）"
+   }
+  ],
+  "answer": [],
+  "explain": "考選部更正：本題一律給分。",
+  "topics": [],
+  "pattern": "單選題",
+  "noAnswer": true
+ },
+ {
+  "id": "tw1142-m2-001",
+  "source": "114-2 國考考古",
+  "num": 1,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "下列那一種細菌是兼性厭氧菌（facultative anaerobes）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "大腸桿菌（Escherichia coli）"
+   },
+   {
+    "k": "B",
+    "t": "結核桿菌（Mycobacteria tuberculosis）"
+   },
+   {
+    "k": "C",
+    "t": "破傷風桿菌（Clostridium tetani）"
+   },
+   {
+    "k": "D",
+    "t": "肉毒桿菌（Clostridium botulinum）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-002",
+  "source": "114-2 國考考古",
+  "num": 2,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "大腸桿菌 O157:H7 常引起出血性腹瀉，H7 的 H 指的是細菌的那一部分？",
+  "options": [
+   {
+    "k": "A",
+    "t": "鞭毛（flagella）"
+   },
+   {
+    "k": "B",
+    "t": "脂多醣（lipopolysaccharide）"
+   },
+   {
+    "k": "C",
+    "t": "核心多醣（core polysaccharide）"
+   },
+   {
+    "k": "D",
+    "t": "莢膜（capsule）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-003",
+  "source": "114-2 國考考古",
+  "num": 3,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "關於鈎端螺旋體病（leptospirosis）之敘述，下列何者最不適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "病原體是 Leptospira interrogans，為絕對嗜氧菌（obligate aerobe），容易培養"
+   },
+   {
+    "k": "B",
+    "t": "雖具有主動穿透黏膜的能力，但不會透過性行為傳染"
+   },
+   {
+    "k": "C",
+    "t": "通常以 doxycycline 治療或預防"
+   },
+   {
+    "k": "D",
+    "t": "嚙齒類動物是主要的保菌宿主（reservoir），其帶菌的尿液會污染土壤"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-004",
+  "source": "114-2 國考考古",
+  "num": 4,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "廣泛性抗藥結核桿菌（extensively drug-resistant Mycobacteria tuberculosis, XDR TB）的定義，是指多重抗藥結核桿菌（MDR TB）不只對氟喹諾酮（fluoroquinolones）具抗性，且對下列何種第二線抗生素也具抗性？",
+  "options": [
+   {
+    "k": "A",
+    "t": "胺基糖苷（aminoglycoside）"
+   },
+   {
+    "k": "B",
+    "t": "四環黴素（tetracycline）"
+   },
+   {
+    "k": "C",
+    "t": "beta-內酰胺（beta-lactam）"
+   },
+   {
+    "k": "D",
+    "t": "紅黴素（erythromycin）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-005",
+  "source": "114-2 國考考古",
+  "num": 5,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "下列何種產氣莢膜梭狀芽孢桿菌（Clostridium perfringens）的毒素，主要會造成氣狀壞疽（gasgangrene）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "alpha 毒素"
+   },
+   {
+    "k": "B",
+    "t": "beta 毒素"
+   },
+   {
+    "k": "C",
+    "t": "epsilon 毒素"
+   },
+   {
+    "k": "D",
+    "t": "iota 毒素"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-006",
+  "source": "114-2 國考考古",
+  "num": 6,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "溶菌酶（lysozyme）為人類淚液或唾液中常見之蛋白質，具有抵禦細菌感染的功能，其預防細菌感染最主要之機制為：",
+  "options": [
+   {
+    "k": "A",
+    "t": "破壞細菌細胞膜完整性"
+   },
+   {
+    "k": "B",
+    "t": "抑制細菌電子傳遞鏈運作"
+   },
+   {
+    "k": "C",
+    "t": "分解胜肽聚醣（peptidoglycan）造成細菌細胞壁損壞"
+   },
+   {
+    "k": "D",
+    "t": "切割線毛（pili）使細菌無法黏附於宿主組織或細胞"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-007",
+  "source": "114-2 國考考古",
+  "num": 7,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "下列細菌與氧分子（O2）相關之敘述，何者最不適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "兼性厭氧菌（facultative anaerobic bacteria）雖可在無氧條件下存活，但無法在有氧環境下生長"
+   },
+   {
+    "k": "B",
+    "t": "在一般的大氣環境下，微需氧菌（microaerophilic bacteria）無法正常的生長"
+   },
+   {
+    "k": "C",
+    "t": "氧分子代謝過程中產生的過氧化氫（hydrogen peroxide），為對細菌有害的代謝產物"
+   },
+   {
+    "k": "D",
+    "t": "絕對厭氧菌（obligate anaerobic bacteria）產生的孢子，可在有氧的環境下留存，並在合適的環境轉變為具有生長活性之細菌"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-008",
+  "source": "114-2 國考考古",
+  "num": 8,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "下列何種疾病最不可能經由蜱（tick）媒介傳染？",
+  "options": [
+   {
+    "k": "A",
+    "t": "洛磯山斑疹熱（Rocky Mountain spotted fever）"
+   },
+   {
+    "k": "B",
+    "t": "地方性回歸熱（Endemic relapsing fever）"
+   },
+   {
+    "k": "C",
+    "t": "斑疹傷寒（Scrub typhus）"
+   },
+   {
+    "k": "D",
+    "t": "萊姆病（Lyme disease）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-009",
+  "source": "114-2 國考考古",
+  "num": 9,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "下列那種感染症與無乳鏈球菌（Streptococcus agalactiae）最無關連？",
+  "options": [
+   {
+    "k": "A",
+    "t": "新生兒腦膜炎（neonatal meningitis）"
+   },
+   {
+    "k": "B",
+    "t": "新生兒肺炎（neonatal pneumonia）"
+   },
+   {
+    "k": "C",
+    "t": "懷孕婦女的泌尿道感染（urinary tract infection）"
+   },
+   {
+    "k": "D",
+    "t": "新生兒筋膜炎（neonatal fasciitis）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-010",
+  "source": "114-2 國考考古",
+  "num": 10,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "下列有關病毒複製之敘述，何者最不適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "病毒的基因體複製是在病毒結構蛋白合成之後才開始進行"
+   },
+   {
+    "k": "B",
+    "t": "所有病毒複製過程中均需合成 RNA"
+   },
+   {
+    "k": "C",
+    "t": "B 型肝炎病毒之外套膜來自寄主細胞之細胞膜"
+   },
+   {
+    "k": "D",
+    "t": "在隱蝕期（eclipse period）時可測到極少量之感染性病毒"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-011",
+  "source": "114-2 國考考古",
+  "num": 11,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "下列有關致癌性病毒（oncogenic virus）的敘述，何者最適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "多瘤病毒（polyomavirus, SV40）之 T 抗原可與寄主細胞中之腫瘤抑制蛋白結合"
+   },
+   {
+    "k": "B",
+    "t": "多瘤病毒（polyomavirus, SV40）可在人類形成腫瘤"
+   },
+   {
+    "k": "C",
+    "t": "乳突瘤病毒（papillomavirus）之 E7 蛋白可與寄主細胞中之 p53 蛋白結合"
+   },
+   {
+    "k": "D",
+    "t": "腺病毒（adenovirus）之 E1B 可與寄主細胞中之 p105RB 蛋白結合"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-012",
+  "source": "114-2 國考考古",
+  "num": 12,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "下列那一個肝炎病毒尚未有疫苗可預防其感染，但已經可以經由抗病毒藥物治療病患使其痊癒？",
+  "options": [
+   {
+    "k": "A",
+    "t": "HAV"
+   },
+   {
+    "k": "B",
+    "t": "HBV"
+   },
+   {
+    "k": "C",
+    "t": "HCV"
+   },
+   {
+    "k": "D",
+    "t": "HDV"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-013",
+  "source": "114-2 國考考古",
+  "num": 13,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "有關流行性感冒病毒蛋白 neuraminidase（NA）的敘述，下列何者最不適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "為一種酵素，能幫助病毒離開宿主細胞"
+   },
+   {
+    "k": "B",
+    "t": "A 型流感病毒具有多種 NA 亞型"
+   },
+   {
+    "k": "C",
+    "t": "為抗病毒藥物金剛烷胺類（amantadine）主要抑制對象"
+   },
+   {
+    "k": "D",
+    "t": "在病毒外套膜上形成四倍體（tetramer）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-014",
+  "source": "114-2 國考考古",
+  "num": 14,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "有關輪狀病毒（rotaviruses）的特色，下列敘述何者最不適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "是一個雙股 RNA（double-stranded RNA）病毒"
+   },
+   {
+    "k": "B",
+    "t": "被蛋白酶降解後形成的 intermediate subviral particle（ISVP）不具感染力"
+   },
+   {
+    "k": "C",
+    "t": "基因體（genome）由多段的 RNA 組成"
+   },
+   {
+    "k": "D",
+    "t": "對腸胃道環境的耐受性很高"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-015",
+  "source": "114-2 國考考古",
+  "num": 15,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "關於麻疹（Measles）的敘述，下列何者最適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "其致病原麻疹病毒屬黏液病毒（Myxovirus）"
+   },
+   {
+    "k": "B",
+    "t": "麻疹病毒之基因體為八段單股的 RNA"
+   },
+   {
+    "k": "C",
+    "t": "麻疹病毒具有多種血清型"
+   },
+   {
+    "k": "D",
+    "t": "病毒感染時，體內 T 細胞會攻擊被病毒感染的上皮細胞，造成病人身上的大塊紅斑（maculopapularmeasles rash）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-016",
+  "source": "114-2 國考考古",
+  "num": 16,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "在 2015～2016 年間爆發茲卡（Zika）病毒大流行，下列有關該病毒的敘述何者最不適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "猴子是茲卡病毒的宿主之一"
+   },
+   {
+    "k": "B",
+    "t": "不需要蚊子的媒介，病毒可以直接人傳人"
+   },
+   {
+    "k": "C",
+    "t": "該病毒的遺傳基因為負股(-)RNA"
+   },
+   {
+    "k": "D",
+    "t": "懷孕婦女被茲卡病毒感染會造成胎兒小腦症（microcephaly）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-017",
+  "source": "114-2 國考考古",
+  "num": 17,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "下列何種馬拉色菌（Malassezia）可以在不含脂質的培養基上生長？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Malassezia pachydermatis"
+   },
+   {
+    "k": "B",
+    "t": "Malassezia furfur"
+   },
+   {
+    "k": "C",
+    "t": "Malassezia globosa"
+   },
+   {
+    "k": "D",
+    "t": "Malassezia japonica"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-018",
+  "source": "114-2 國考考古",
+  "num": 18,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "若不小心吃到了一份被沙門氏菌（Salmonella enterica）污染的沙拉，出現了腹瀉的反應，下列何者最有可能是首先辨識並對該病原體產生反應的身體部位？",
+  "options": [
+   {
+    "k": "A",
+    "t": "脾臟"
+   },
+   {
+    "k": "B",
+    "t": "胸腺"
+   },
+   {
+    "k": "C",
+    "t": "腸黏膜相關淋巴組織"
+   },
+   {
+    "k": "D",
+    "t": "肝臟"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-019",
+  "source": "114-2 國考考古",
+  "num": 19,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "在抗體與抗原的交互作用中，下列那個作用力參與最少？",
+  "options": [
+   {
+    "k": "A",
+    "t": "范德瓦爾斯力（van der Waals force）"
+   },
+   {
+    "k": "B",
+    "t": "氫鍵（hydrogen bond）"
+   },
+   {
+    "k": "C",
+    "t": "偶極－偶極力（dipole-dipole force）"
+   },
+   {
+    "k": "D",
+    "t": "共價鍵（covalent bond）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-020",
+  "source": "114-2 國考考古",
+  "num": 20,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "主要組織相容性複合體（major histocompatibility complex, MHC）為 T 細胞辨識抗原過程中重要的分子，關於 MHC 的敘述，下列何者最不適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "MHC class I 呈獻的抗原胜肽較短，而 MHC class II 呈獻的抗原胜肽較長"
+   },
+   {
+    "k": "B",
+    "t": "MHC class I 呈獻抗原給 CD8 T 細胞，而 MHC class II 呈獻抗原給 CD4 T 細胞"
+   },
+   {
+    "k": "C",
+    "t": "組成 MHC class II 的分子有兩個，分別是α chain 與β chain，其中β chain 的變化性（variability）遠高於α chain"
+   },
+   {
+    "k": "D",
+    "t": "MHC class I 與 class II 都有分子不會接觸到抗原，class I 中是β2-microglobulin，而 class II 中是αchain"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-021",
+  "source": "114-2 國考考古",
+  "num": 21,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "下列有關 pre-B 細胞受體（pre-B cell receptor）的敘述，何者最不適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "具有免疫球蛋白輕鏈之κ鏈（κ chain）"
+   },
+   {
+    "k": "B",
+    "t": "可以傳遞存活訊號使 pre-B 細胞繼續發育"
+   },
+   {
+    "k": "C",
+    "t": "具有 Igα和 Igβ兩個訊號傳遞蛋白"
+   },
+   {
+    "k": "D",
+    "t": "可以傳遞訊號抑制免疫球蛋白重鏈（heavy chain）基因進行重組（rearrangement）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-022",
+  "source": "114-2 國考考古",
+  "num": 22,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "下列何者最不可能高度表現於調節性 T 細胞（Treg）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "CD25"
+   },
+   {
+    "k": "B",
+    "t": "IL-10"
+   },
+   {
+    "k": "C",
+    "t": "CTLA-4"
+   },
+   {
+    "k": "D",
+    "t": "B7"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-023",
+  "source": "114-2 國考考古",
+  "num": 23,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "在沒有病原菌感染的情況下，人體腸胃道組織中的樹突細胞（dendritic cell）最常見的特徵是：",
+  "options": [
+   {
+    "k": "A",
+    "t": "會分泌大量細胞激素 IL-12"
+   },
+   {
+    "k": "B",
+    "t": "細胞表面有高量 B7-1 分子，是高效能的抗原呈獻細胞"
+   },
+   {
+    "k": "C",
+    "t": "腸道中的 TGF-β與 IL-10 會增進樹突細胞對共生菌的耐受性"
+   },
+   {
+    "k": "D",
+    "t": "可製造 A 酸（retinoic acid）並增進 T 毒殺細胞功能"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-024",
+  "source": "114-2 國考考古",
+  "num": 24,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "革蘭氏陽性細菌細胞壁的 peptidoglycan 最主要是經由下列何種受體被辨識？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Toll-like receptor 2"
+   },
+   {
+    "k": "B",
+    "t": "Toll-like receptor 4"
+   },
+   {
+    "k": "C",
+    "t": "Toll-like receptor 8"
+   },
+   {
+    "k": "D",
+    "t": "Toll-like receptor 9"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-025",
+  "source": "114-2 國考考古",
+  "num": 25,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "自體免疫疾病一但建立之後，通常會逐漸演化成長期且持續的疾病，在治療上面也缺乏具有特異性且有效的治療方式。下列有關自體免疫疾病難以治癒的原因，何者最不適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "自體免疫疾病的病程中，免疫系統不斷接受抗原的刺激，形成一個正回饋的發炎反應"
+   },
+   {
+    "k": "B",
+    "t": "治療上無法移除自身抗原"
+   },
+   {
+    "k": "C",
+    "t": "表位擴散（epitope spreading）的特性造成更多辨識自身抗原的免疫細胞活化"
+   },
+   {
+    "k": "D",
+    "t": "自體免疫疾病的病人都有調節型 T 細胞（regulatory T cell）的異常"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-026",
+  "source": "114-2 國考考古",
+  "num": 26,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "有關腫瘤免疫反應的敘述，下列何者最適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "有腫瘤特異性抗原的呈獻，可產生並存在著腫瘤專一性 T 淋巴球"
+   },
+   {
+    "k": "B",
+    "t": "免疫細胞無法進入腫瘤組織內，因而無法抑制腫瘤細胞的生長"
+   },
+   {
+    "k": "C",
+    "t": "腫瘤細胞不斷生長增加時，亦產生性質變異，表現突變的細胞表面分子，進而造成免疫細胞的死亡"
+   },
+   {
+    "k": "D",
+    "t": "因腫瘤細胞性質的變異，表現出腫瘤抑制基因（tumor suppressor gene）的產物，引起了腫瘤抑制自然殺手細胞的效果"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-027",
+  "source": "114-2 國考考古",
+  "num": 27,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "下列何種移植最容易發生 graft-versus-host disease（GVHD）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "肝臟"
+   },
+   {
+    "k": "B",
+    "t": "骨髓"
+   },
+   {
+    "k": "C",
+    "t": "腎臟"
+   },
+   {
+    "k": "D",
+    "t": "肺臟"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-028",
+  "source": "114-2 國考考古",
+  "num": 28,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-micro",
+  "type": "mcq",
+  "stem": "腫瘤如黑色素瘤（melanoma）會產生骨髓衍生性抑制細胞（MDSCs），最主要透過分泌下列何種細胞激素以利腫瘤細胞生長？",
+  "options": [
+   {
+    "k": "A",
+    "t": "IL-1"
+   },
+   {
+    "k": "B",
+    "t": "IL-10"
+   },
+   {
+    "k": "C",
+    "t": "TNF-α"
+   },
+   {
+    "k": "D",
+    "t": "IFN-γ"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-029",
+  "source": "114-2 國考考古",
+  "num": 29,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-para",
+  "type": "mcq",
+  "stem": "下列那些寄生蟲具有口部、咽管、食道、腸道與肛門之完整消化系統？①縮小包膜絛蟲（Hymenolepisdiminuta） ②蛔蟲（Ascaris lumbricoides） ③美洲鉤蟲（Necator americanus） ④糞小桿線蟲（Strongyloides stercoralis） ⑤亞洲絛蟲（Taenia asiatica）",
+  "options": [
+   {
+    "k": "A",
+    "t": "①②③"
+   },
+   {
+    "k": "B",
+    "t": "②③④"
+   },
+   {
+    "k": "C",
+    "t": "③④⑤"
+   },
+   {
+    "k": "D",
+    "t": "①③⑤"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-030",
+  "source": "114-2 國考考古",
+  "num": 30,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-para",
+  "type": "mcq",
+  "stem": "一位五歲的小朋友血液中嗜伊紅性白血球（eosinophil）異常增加，同時檢查出肝臟腫大，他最有可能感染下列何種寄生蟲？",
+  "options": [
+   {
+    "k": "A",
+    "t": "旋毛蟲（Trichinella spiralis）"
+   },
+   {
+    "k": "B",
+    "t": "蟯蟲（Enterobius vermicularis）"
+   },
+   {
+    "k": "C",
+    "t": "廣東住血線蟲（Angiostrongylus cantonensis）"
+   },
+   {
+    "k": "D",
+    "t": "犬蛔蟲（Toxocara canis）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-031",
+  "source": "114-2 國考考古",
+  "num": 31,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-para",
+  "type": "mcq",
+  "stem": "下列有關人類包生囊蟲病（hydatid disease）之敘述，何者正確？①人類因食入受污染肉類而感染 ②肺泡包生囊症（alveolar echinococcosis）最具致病危險性 ③歐洲地區以豬為人類主要感染源④囊體破裂將在人體導致過敏性休克（anaphylactic shock）",
+  "options": [
+   {
+    "k": "A",
+    "t": "①②"
+   },
+   {
+    "k": "B",
+    "t": "③④"
+   },
+   {
+    "k": "C",
+    "t": "①③"
+   },
+   {
+    "k": "D",
+    "t": "②④"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-032",
+  "source": "114-2 國考考古",
+  "num": 32,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-para",
+  "type": "mcq",
+  "stem": "李同學於暑假期間赴香港旅遊，期間遍嚐各種魚類美食，返國後因腹部嚴重不適就醫，經醫師診斷疑似膽囊炎住院，隨後經糞便鏡檢而確認診斷，據此病史最可能感染下列何種寄生蟲？",
+  "options": [
+   {
+    "k": "A",
+    "t": "日本血吸蟲（Schistosoma japonicum）"
+   },
+   {
+    "k": "B",
+    "t": "衛氏肺吸蟲（Paragonimus westermani）"
+   },
+   {
+    "k": "C",
+    "t": "薑片蟲（Fasciolopsis buski）"
+   },
+   {
+    "k": "D",
+    "t": "中華肝吸蟲（Clonorchis sinensis）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-033",
+  "source": "114-2 國考考古",
+  "num": 33,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-para",
+  "type": "mcq",
+  "stem": "臨床上，免疫妥協（immunocompromised）患者嚴重腹瀉的症狀，主要不是由下列何種寄生蟲引起？①微孢子蟲（Enterocytozoon bieneusi） ②肺孢子蟲（Pneumosystis carinii 或 Pneumosystis jirovecii ）③貝氏等孢子蟲（Isospora belli） ④弓蟲（Toxoplasma gondii）",
+  "options": [
+   {
+    "k": "A",
+    "t": "①②"
+   },
+   {
+    "k": "B",
+    "t": "③④"
+   },
+   {
+    "k": "C",
+    "t": "①③"
+   },
+   {
+    "k": "D",
+    "t": "②④"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-034",
+  "source": "114-2 國考考古",
+  "num": 34,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-para",
+  "type": "mcq",
+  "stem": "下列何種單細胞原蟲不是感染人類的血鞭毛蟲（hemoflagellate）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "布氏羅德西亞錐蟲（Trypanosoma brucei rhodesiense）"
+   },
+   {
+    "k": "B",
+    "t": "枯西氏錐蟲（Trypanosoma cruzi）"
+   },
+   {
+    "k": "C",
+    "t": "唇形鞭毛蟲（Chilomastix mesnili）"
+   },
+   {
+    "k": "D",
+    "t": "熱帶利什曼原蟲（Leishmania tropica）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-035",
+  "source": "114-2 國考考古",
+  "num": 35,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-para",
+  "type": "mcq",
+  "stem": "下列有關病媒（vector）及其媒介疾病之關係，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "體蝨（body louse）；戰壕熱（trench fever）"
+   },
+   {
+    "k": "B",
+    "t": "軟蜱（soft tick）；日本斑疹熱（Japanese spotted fever）"
+   },
+   {
+    "k": "C",
+    "t": "采采蠅（tsetse fly）；非洲睡眠病（African sleeping sickness）"
+   },
+   {
+    "k": "D",
+    "t": "虻（Chrysops spp.）；羅阿絲蟲病（loaiasis）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-036",
+  "source": "114-2 國考考古",
+  "num": 36,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-ph",
+  "type": "mcq",
+  "stem": "配對（matching）是臨床流行病學方法學中常用的技巧，下列何項是使用配對時可能會出現的錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "在病例對照研究中，將病例和對照的年齡性別加以配對，能增加研究效率"
+   },
+   {
+    "k": "B",
+    "t": "採用密度配對（density matching）時，是指除了配對年齡性別等因子外，還會加入時間做配對"
+   },
+   {
+    "k": "C",
+    "t": "配對是使病例和對照的特性（如年齡性別）具有可比性的研究技巧，不適用於世代研究與病例交叉研究（case crossover design）"
+   },
+   {
+    "k": "D",
+    "t": "病例組和對照組的年齡被配對後，年齡對於疾病風險的主效果就會被降低"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-037",
+  "source": "114-2 國考考古",
+  "num": 37,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-ph",
+  "type": "mcq",
+  "stem": "已知抽菸可導致肺活量降低，亦即香菸攝取量越高，則未來肺活量下降越多，兩者之間有因果關係。若某一研究者想要檢定抽菸與肺活量無關的虛無假說（H0：抽菸與肺活量獨立），隨機抽樣 30 人並完成一次試驗後，由於統計檢定未達顯著水準，P 值（p-value）大於 0.05，統計決策是不拒絕虛無假說，並總結抽菸與肺活量並無統計上顯著的相關性。則此試驗結果為下列那一項？",
+  "options": [
+   {
+    "k": "A",
+    "t": "型一錯誤（Type Ⅰ error）"
+   },
+   {
+    "k": "B",
+    "t": "型二錯誤（Type Ⅱ error）"
+   },
+   {
+    "k": "C",
+    "t": "真陰性（True Negative）"
+   },
+   {
+    "k": "D",
+    "t": "真陽性（True Positive）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-038",
+  "source": "114-2 國考考古",
+  "num": 38,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-ph",
+  "type": "mcq",
+  "stem": "某研究探討吸菸與腎臟癌症間的相關性，研究者從多家醫院蒐集腎臟癌症新發生個案，並進行性別、年齡（±5 歲）、種族以及居住所在鄰里等變項之匹配，選取無任何癌症病史的其他住院病人為對照組個案。該研究之研究數據如下表所示。下列有關吸菸與腎臟癌症相關性的相關分析數據中何者最恰當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "曾經吸菸的人，腎臟癌的發生率為 800/1513"
+   },
+   {
+    "k": "B",
+    "t": "腎臟癌症病人曾經吸菸的勝算（odds）為 800/1157"
+   },
+   {
+    "k": "C",
+    "t": "腎臟癌症病人曾經吸菸的勝算大於沒有任何癌症病史住院病人的吸菸勝算，也就是（800/357）＞（713/444）"
+   },
+   {
+    "k": "D",
+    "t": "吸菸與腎臟癌症發生的相對危險性估計值為（800/1513）/（357/801）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-039",
+  "source": "114-2 國考考古",
+  "num": 39,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-ph",
+  "type": "mcq",
+  "stem": "分析抽菸與口腔癌的關係，針對有酗酒者，抽菸的相對危險性（relative risk）為 4；無酗酒者，抽菸的相對危險性為 2，若將有或無酗酒者合併則抽菸的相對危險性為 1。有關酗酒與抽菸及口腔癌關係的敘述，下列何者最恰當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "是干擾因子而非修飾因子"
+   },
+   {
+    "k": "B",
+    "t": "是修飾因子而非干擾因子"
+   },
+   {
+    "k": "C",
+    "t": "既是干擾因子也是修飾因子"
+   },
+   {
+    "k": "D",
+    "t": "既非干擾因子也非修飾因子"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-040",
+  "source": "114-2 國考考古",
+  "num": 40,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-ph",
+  "type": "mcq",
+  "stem": "下列何者最可能為噪音所致之非聽覺健康影響？",
+  "options": [
+   {
+    "k": "A",
+    "t": "耳鳴"
+   },
+   {
+    "k": "B",
+    "t": "聽力損失"
+   },
+   {
+    "k": "C",
+    "t": "聽覺毛細胞喪失"
+   },
+   {
+    "k": "D",
+    "t": "心血管疾病"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-041",
+  "source": "114-2 國考考古",
+  "num": 41,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-ph",
+  "type": "mcq",
+  "stem": "光化學評估監測站主要是監測下列何種空氣污染物質及其前驅物之濃度？",
+  "options": [
+   {
+    "k": "A",
+    "t": "臭氧"
+   },
+   {
+    "k": "B",
+    "t": "二氧化硫"
+   },
+   {
+    "k": "C",
+    "t": "鉛"
+   },
+   {
+    "k": "D",
+    "t": "戴奧辛"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-042",
+  "source": "114-2 國考考古",
+  "num": 42,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-ph",
+  "type": "mcq",
+  "stem": "風險評估中，苯為已知人類致癌物質，有關其致癌風險的估計，下列敘述何者最恰當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "應用具閾值模式，斜率因子單位為 mg/kg-day"
+   },
+   {
+    "k": "B",
+    "t": "應用無閾值模式，斜率因子單位為 mg/kg-day"
+   },
+   {
+    "k": "C",
+    "t": "應用具閾值模式，斜率因子單位為（mg/kg-day）-1"
+   },
+   {
+    "k": "D",
+    "t": "應用無閾值模式，斜率因子單位為（mg/kg-day）-1"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-043",
+  "source": "114-2 國考考古",
+  "num": 43,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-ph",
+  "type": "mcq",
+  "stem": "有關疫苗注射，下列敘述何者最不適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "有的疫苗一生只要接受一劑就夠了"
+   },
+   {
+    "k": "B",
+    "t": "B 型肝炎疫苗不但能預防 B 型肝炎，也能預防肝癌"
+   },
+   {
+    "k": "C",
+    "t": "各種疫苗都是全民接種最符合公眾利益"
+   },
+   {
+    "k": "D",
+    "t": "經過核准上市的疫苗（非緊急授權），一般來說，較少發生過敏"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-044",
+  "source": "114-2 國考考古",
+  "num": 44,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-ph",
+  "type": "mcq",
+  "stem": "家庭對個人發展的影響至深且遠，學者 Duvall 指出，家庭也有其生命週期，並將之劃分為八個階段，每個階段都有其發展任務，對身處在其中的家人的健康也會受到發展任務的影響。關於家庭生命週期階段會如何影響家人健康之敘述，下列何者最不恰當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "在初為父母階段，新生兒報到是喜悅的事，這時候的家庭是壓力最小的時期"
+   },
+   {
+    "k": "B",
+    "t": "在子女學齡階段，需要建立與孩子的學校、同學家長以及社區的連結，家庭與工作需要取得平衡，以維護身心健康"
+   },
+   {
+    "k": "C",
+    "t": "子女青少年階段的家庭，孩子追求獨立，如何避免孩子涉及危害健康的行為（例如：抽菸），往往需要父母多付出心力"
+   },
+   {
+    "k": "D",
+    "t": "在老齡化的家庭，夫妻雙方因老化而出現病痛的情形增多，對於老化容易引致的疾病以及醫療資源需要有更多了解"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-045",
+  "source": "114-2 國考考古",
+  "num": 45,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-ph",
+  "type": "mcq",
+  "stem": "當今影響人們健康的因素中，下列何因素影響最大？",
+  "options": [
+   {
+    "k": "A",
+    "t": "人的生物特性"
+   },
+   {
+    "k": "B",
+    "t": "環境因素"
+   },
+   {
+    "k": "C",
+    "t": "健康照護體系良窳"
+   },
+   {
+    "k": "D",
+    "t": "生活型態因素"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-046",
+  "source": "114-2 國考考古",
+  "num": 46,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-ph",
+  "type": "mcq",
+  "stem": "近年來新興傳染病對全球健康造成影響，為了進行傳染病防治工作，由中央政府統籌、明訂各部會（內政部、衛生福利部、教育部、勞動部、文化部、經濟部等）共同合作、投入傳染病防治，此一作法最符合渥太華憲章健康促進行動綱領中的那一項？",
+  "options": [
+   {
+    "k": "A",
+    "t": "調整健康服務方向"
+   },
+   {
+    "k": "B",
+    "t": "強化社區行動"
+   },
+   {
+    "k": "C",
+    "t": "發展個人技能"
+   },
+   {
+    "k": "D",
+    "t": "建立健康的公共政策"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-047",
+  "source": "114-2 國考考古",
+  "num": 47,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-ph",
+  "type": "mcq",
+  "stem": "下列有關食品中毒的敘述，何者最不適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "必須至少有三人或三人以上攝取相同的食品而發生相似的症狀"
+   },
+   {
+    "k": "B",
+    "t": "沙門氏桿菌造成的食品中毒屬於細菌性病因"
+   },
+   {
+    "k": "C",
+    "t": "引起仙人掌桿菌食品中毒的來源食品可能為米飯等澱粉類製品"
+   },
+   {
+    "k": "D",
+    "t": "受糞便污染的食品或水源可能引起病原性大腸桿菌食品中毒"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-048",
+  "source": "114-2 國考考古",
+  "num": 48,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-ph",
+  "type": "mcq",
+  "stem": "下列何者是全國食安專線，提供整合跨部會的食安檢舉與諮詢的服務窗口？",
+  "options": [
+   {
+    "k": "A",
+    "t": "1919"
+   },
+   {
+    "k": "B",
+    "t": "1966"
+   },
+   {
+    "k": "C",
+    "t": "1922"
+   },
+   {
+    "k": "D",
+    "t": "1950"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-049",
+  "source": "114-2 國考考古",
+  "num": 49,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-ph",
+  "type": "mcq",
+  "stem": "有關菸害防制法的敘述，何者最不適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "滿十八歲之人，方可吸菸"
+   },
+   {
+    "k": "B",
+    "t": "孕婦或未滿三歲兒童在場之室內場所不得吸菸"
+   },
+   {
+    "k": "C",
+    "t": "菸品容器標示吸菸有害健康之警示圖不得低於百分之五十的面積"
+   },
+   {
+    "k": "D",
+    "t": "攜帶已點燃的菸品視同吸菸行為"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-050",
+  "source": "114-2 國考考古",
+  "num": 50,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-ph",
+  "type": "mcq",
+  "stem": "醫療服務有別於其他商品的特性之一為「外部性（externality）」，下列何者具有外部性？",
+  "options": [
+   {
+    "k": "A",
+    "t": "醫病雙方間的資訊不對稱"
+   },
+   {
+    "k": "B",
+    "t": "代理人問題"
+   },
+   {
+    "k": "C",
+    "t": "傳染病疫苗接種"
+   },
+   {
+    "k": "D",
+    "t": "疾病治療方式的不確定性"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-051",
+  "source": "114-2 國考考古",
+  "num": 51,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "在藥物研發的臨床試驗過程中，那一階段主要是確定藥物的治療效能，及藥物的治療劑量範圍？",
+  "options": [
+   {
+    "k": "A",
+    "t": "第一階段（phase 1）"
+   },
+   {
+    "k": "B",
+    "t": "第二階段（phase 2）"
+   },
+   {
+    "k": "C",
+    "t": "第三階段（phase 3）"
+   },
+   {
+    "k": "D",
+    "t": "第四階段（phase 4）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-052",
+  "source": "114-2 國考考古",
+  "num": 52,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "5-Fluorouracil 為臨床常用的抗腫瘤藥物，下列何者為其抗癌作用機轉？",
+  "options": [
+   {
+    "k": "A",
+    "t": "與 DNA 進行烷基化結合（alkylating）"
+   },
+   {
+    "k": "B",
+    "t": "抑制 topoisomerase II"
+   },
+   {
+    "k": "C",
+    "t": "抑制 thymidylate synthase"
+   },
+   {
+    "k": "D",
+    "t": "抑制 dihydrofolate reductase"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-053",
+  "source": "114-2 國考考古",
+  "num": 53,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "下列抗腫瘤藥物中，何者造成之腎毒性最強？",
+  "options": [
+   {
+    "k": "A",
+    "t": "carboplatin"
+   },
+   {
+    "k": "B",
+    "t": "dacarbazine"
+   },
+   {
+    "k": "C",
+    "t": "temozolomide"
+   },
+   {
+    "k": "D",
+    "t": "mechlorethamine"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-054",
+  "source": "114-2 國考考古",
+  "num": 54,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "下列藥物中，何者可抑制 squalene epoxidase，其主要臨床用途為治療指甲癬（onychomycosis）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "nystatin"
+   },
+   {
+    "k": "B",
+    "t": "terbinafine"
+   },
+   {
+    "k": "C",
+    "t": "voriconazole"
+   },
+   {
+    "k": "D",
+    "t": "itraconazole"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-055",
+  "source": "114-2 國考考古",
+  "num": 55,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "下列關於抗生素應用之敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "cefepime 可單獨用於對 penicillin G 產生抗藥性的鏈球菌（streptococci）感染"
+   },
+   {
+    "k": "B",
+    "t": "ceftolozane-tazobactam 可併用於抗藥性革蘭氏陰性菌株的感染"
+   },
+   {
+    "k": "C",
+    "t": "ceftazidime 可單獨用來治療能產生碳青黴烯酶（carbapenemase）的菌種感染"
+   },
+   {
+    "k": "D",
+    "t": "ceftazidime-avibactam 需合併 metronidazole 以用於治療複雜性腹腔內感染"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-056",
+  "source": "114-2 國考考古",
+  "num": 56,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "下列藥物中，何者為 anti-CD19 chimeric antigen receptor (CAR) T cells 產品，用於治療 relapsedlarge B-cell lymphoma？",
+  "options": [
+   {
+    "k": "A",
+    "t": "abatacept"
+   },
+   {
+    "k": "B",
+    "t": "siponimod"
+   },
+   {
+    "k": "C",
+    "t": "teriflunomide"
+   },
+   {
+    "k": "D",
+    "t": "tisagenlecleucel"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-057",
+  "source": "114-2 國考考古",
+  "num": 57,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "下列何種藥物無法治療血小板缺乏症（thrombocytopenia）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "romiplostim"
+   },
+   {
+    "k": "B",
+    "t": "oprelvekin"
+   },
+   {
+    "k": "C",
+    "t": "eltrombopag"
+   },
+   {
+    "k": "D",
+    "t": "plerixafor"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-058",
+  "source": "114-2 國考考古",
+  "num": 58,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "鐮刀型紅血球疾病（sickle cell disease）屬於溶血性貧血症，下列有關此疾病治療藥物 hydroxyurea 之敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "可抑制 ribonucleotide reductase 而產生抗癌作用"
+   },
+   {
+    "k": "B",
+    "t": "可減少紅血球內β-hemoglobin S 的聚合反應"
+   },
+   {
+    "k": "C",
+    "t": "可減低靜脈內栓塞現象（veno-occlusive events）"
+   },
+   {
+    "k": "D",
+    "t": "可減少 fetal hemoglobin γ生成，而緩解症狀"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-059",
+  "source": "114-2 國考考古",
+  "num": 59,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "下列何者為降血糖藥物 canagliflozin 的主要作用機轉？",
+  "options": [
+   {
+    "k": "A",
+    "t": "dipeptidyl peptidase 4（DPP-4）抑制劑"
+   },
+   {
+    "k": "B",
+    "t": "glucagon-like peptide-1（GLP-1）受體致效劑"
+   },
+   {
+    "k": "C",
+    "t": "sodium-glucose co-transporter 2（SGLT2）抑制劑"
+   },
+   {
+    "k": "D",
+    "t": "α-glucosidase 抑制劑"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-060",
+  "source": "114-2 國考考古",
+  "num": 60,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "下列關於 thioamides 藥理機制之敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "抑制甲狀腺過氧化酶（thyroid peroxidase）和阻斷碘的有機化過程（iodine organification）"
+   },
+   {
+    "k": "B",
+    "t": "propylthiouracil 可抑制周邊 T4 的去碘作用，減少 T3 生成"
+   },
+   {
+    "k": "C",
+    "t": "抑制甲狀腺素釋放"
+   },
+   {
+    "k": "D",
+    "t": "降低碘酪胺酸（iodotyrosines）之偶合反應"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-061",
+  "source": "114-2 國考考古",
+  "num": 61,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "下列關於維生素 D 與其相關活性產物的敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "可能產生高血鈣症之副作用"
+   },
+   {
+    "k": "B",
+    "t": "可用於改善骨質疏鬆症"
+   },
+   {
+    "k": "C",
+    "t": "paricalcitol 可治療慢性腎臟疾病引起的副甲狀腺機能亢進"
+   },
+   {
+    "k": "D",
+    "t": "可使血液中的磷濃度下降"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-062",
+  "source": "114-2 國考考古",
+  "num": 62,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "下列關於 thiazide 類利尿劑的敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "可用於改善骨質疏鬆症（osteoporosis）"
+   },
+   {
+    "k": "B",
+    "t": "可用於治療高鈣尿症（hypercalciuria）"
+   },
+   {
+    "k": "C",
+    "t": "可用於治療高尿酸血症（hyperuricemia）"
+   },
+   {
+    "k": "D",
+    "t": "可用於治療腎因性尿崩症（nephrogenic diabetes insipidus）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-063",
+  "source": "114-2 國考考古",
+  "num": 63,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "Sotalol 可用於治療心律不整，其最主要的作用機制為何？",
+  "options": [
+   {
+    "k": "A",
+    "t": "抑制氯離子通道"
+   },
+   {
+    "k": "B",
+    "t": "抑制鈉離子通道"
+   },
+   {
+    "k": "C",
+    "t": "抑制鉀離子通道"
+   },
+   {
+    "k": "D",
+    "t": "抑制鈣離子通道"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-064",
+  "source": "114-2 國考考古",
+  "num": 64,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "下列藥物產生療效之主要作用機制，何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "ranolazine：抑制鈣離子通道以舒張動脈"
+   },
+   {
+    "k": "B",
+    "t": "nitroprusside：抑制 phosphodiesterase 以增加 cGMP"
+   },
+   {
+    "k": "C",
+    "t": "nitroglycerin：舒張靜脈以減少心臟前負荷（preload）"
+   },
+   {
+    "k": "D",
+    "t": "nicardipine：增加鉀離子傳導以降低周邊血管阻力"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-065",
+  "source": "114-2 國考考古",
+  "num": 65,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "Neostigmine 最不適合用於下列何種疾病的治療？",
+  "options": [
+   {
+    "k": "A",
+    "t": "重症肌無力（myasthenia gravis）"
+   },
+   {
+    "k": "B",
+    "t": "術後癱瘓性腸阻塞（paralytic ileus）"
+   },
+   {
+    "k": "C",
+    "t": "心搏過緩（bradycardia）"
+   },
+   {
+    "k": "D",
+    "t": "術後之尿液滯留（urinary retention）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-066",
+  "source": "114-2 國考考古",
+  "num": 66,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "70 歲王先生在接受白內障開刀手術時，出現了虹膜鬆脫症候群（floppy iris syndrome），經檢視王先生平時服用的藥物，推測最可能是由下列何者所造成？",
+  "options": [
+   {
+    "k": "A",
+    "t": "降血壓藥 atenolol"
+   },
+   {
+    "k": "B",
+    "t": "降血糖藥 sitagliptin"
+   },
+   {
+    "k": "C",
+    "t": "慢性阻塞性肺病用藥 ipratropium"
+   },
+   {
+    "k": "D",
+    "t": "良性攝護腺肥大用藥 tamsulosin"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-067",
+  "source": "114-2 國考考古",
+  "num": 67,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "下列胃腸道藥物中，何者對女性腸躁症伴隨腹瀉，最有療效？",
+  "options": [
+   {
+    "k": "A",
+    "t": "tegaserod"
+   },
+   {
+    "k": "B",
+    "t": "alosetron"
+   },
+   {
+    "k": "C",
+    "t": "prucalopride"
+   },
+   {
+    "k": "D",
+    "t": "granisetron"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-068",
+  "source": "114-2 國考考古",
+  "num": 68,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "有位 70 歲老人，患有心臟病及慢性阻塞肺部疾病，常伴隨著偶發性氣管痙攣的症狀。下列何者可以有效解除此病人的氣管痙攣症狀，且較不易引發心律不整的副作用？",
+  "options": [
+   {
+    "k": "A",
+    "t": "prednisone"
+   },
+   {
+    "k": "B",
+    "t": "salmeterol"
+   },
+   {
+    "k": "C",
+    "t": "zafirlukast"
+   },
+   {
+    "k": "D",
+    "t": "ipratropium"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-069",
+  "source": "114-2 國考考古",
+  "num": 69,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "下列那一個藥物應避免使用於 HLA-B*5801 基因變異的痛風病人？",
+  "options": [
+   {
+    "k": "A",
+    "t": "colchicine"
+   },
+   {
+    "k": "B",
+    "t": "allopurinol"
+   },
+   {
+    "k": "C",
+    "t": "meclofenamate"
+   },
+   {
+    "k": "D",
+    "t": "febuxostat"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-070",
+  "source": "114-2 國考考古",
+  "num": 70,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "下列關於組織胺（histamine）受體的敘述，何者最適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "epinephrine 藉由拮抗組織胺 H1 受體以治療急性過敏反應（anaphylaxis）"
+   },
+   {
+    "k": "B",
+    "t": "組織胺 H1 受體拮抗劑常用於治療氣喘"
+   },
+   {
+    "k": "C",
+    "t": "第一代組織胺 H1 受體拮抗劑可用於協助入眠"
+   },
+   {
+    "k": "D",
+    "t": "組織胺 H2 受體拮抗劑常用於治療過敏性鼻炎"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-071",
+  "source": "114-2 國考考古",
+  "num": 71,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "癌症病人做化療時易引起噁心嘔吐，若在化療開始前先給與下列何種藥物，則可以有效緩解該噁心嘔吐的症狀？",
+  "options": [
+   {
+    "k": "A",
+    "t": "ketanserin"
+   },
+   {
+    "k": "B",
+    "t": "cyproheptadine"
+   },
+   {
+    "k": "C",
+    "t": "ritanserin"
+   },
+   {
+    "k": "D",
+    "t": "ondansetron"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-072",
+  "source": "114-2 國考考古",
+  "num": 72,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "下列關於 sodium channel blockers 類之抗癲癇藥物的敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "phenytoin 是結合在 inactivated state 的 sodium channel，使其快速進入 resting state"
+   },
+   {
+    "k": "B",
+    "t": "lamotrigine 具有 use-dependent blocking 的作用，對高頻放電的神經產生比較強的抑制作用"
+   },
+   {
+    "k": "C",
+    "t": "oxcarbazepine 會加重 Dravet syndrome 的癲癇反應"
+   },
+   {
+    "k": "D",
+    "t": "carbamazepine 可能會引發 Stevens-Johnson syndrome，而產生生命危險"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-073",
+  "source": "114-2 國考考古",
+  "num": 73,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "下列局部麻醉劑中，何者為長效型醯胺類（amide）且具有較明顯的心臟毒性？",
+  "options": [
+   {
+    "k": "A",
+    "t": "bupivacaine"
+   },
+   {
+    "k": "B",
+    "t": "procaine"
+   },
+   {
+    "k": "C",
+    "t": "lidocaine"
+   },
+   {
+    "k": "D",
+    "t": "cocaine"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-074",
+  "source": "114-2 國考考古",
+  "num": 74,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "Entacapone 併用 levodopa 來治療巴金森氏病，主要因為該藥具有下列何種作用？",
+  "options": [
+   {
+    "k": "A",
+    "t": "抑制腦部 monoamine oxidase B，增加腦部 levodopa 的含量"
+   },
+   {
+    "k": "B",
+    "t": "抑制周邊組織 catechol-O-methyltransferase，延長 levodopa 的作用"
+   },
+   {
+    "k": "C",
+    "t": "增加周邊組織 3-O-methyldopa 的含量，加強 levodopa 的作用"
+   },
+   {
+    "k": "D",
+    "t": "促進中樞神經末梢 dopamine 的釋放"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-075",
+  "source": "114-2 國考考古",
+  "num": 75,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-pharm",
+  "type": "mcq",
+  "stem": "Acetylcysteine 可用於治療 acetaminophen 中毒，下列何者為其解毒之主要作用機制？",
+  "options": [
+   {
+    "k": "A",
+    "t": "抑制轉胺酵素（aminotransferase）活性"
+   },
+   {
+    "k": "B",
+    "t": "增加肝臟 cytochrome P450 酵素活性"
+   },
+   {
+    "k": "C",
+    "t": "增加肝臟內 glutathione 含量"
+   },
+   {
+    "k": "D",
+    "t": "抑制促發炎酵素 cyclooxygenase-2 表現"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-076",
+  "source": "114-2 國考考古",
+  "num": 76,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "下列何者於顯微鏡檢死亡之細胞時，通常會呈現「強烈嗜酸性的紅色細胞質，模糊或微紅色之細胞核」等特徵？",
+  "options": [
+   {
+    "k": "A",
+    "t": "liquefactive necrosis"
+   },
+   {
+    "k": "B",
+    "t": "caseous necrosis"
+   },
+   {
+    "k": "C",
+    "t": "fibrinoid necrosis"
+   },
+   {
+    "k": "D",
+    "t": "coagulative necrosis"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-077",
+  "source": "114-2 國考考古",
+  "num": 77,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "下列何者出現時，表示細胞已經進入不可逆的損傷（irreversible damage）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "leakage of mitochondrial proteins"
+   },
+   {
+    "k": "B",
+    "t": "endoplasmic reticulum dilation"
+   },
+   {
+    "k": "C",
+    "t": "rapid glycogen depletion"
+   },
+   {
+    "k": "D",
+    "t": "endoplasmic reticulum ribosomes detachment"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-078",
+  "source": "114-2 國考考古",
+  "num": 78,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "有關馬凡氏症候群（Marfan syndrome）的描述，下列何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "膠原蛋白（collagen）異常所引起的疾病"
+   },
+   {
+    "k": "B",
+    "t": "體染色體隱性遺傳疾病"
+   },
+   {
+    "k": "C",
+    "t": "身材矮小"
+   },
+   {
+    "k": "D",
+    "t": "主動脈根部擴大"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-079",
+  "source": "114-2 國考考古",
+  "num": 79,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "天皰瘡（pemphigus vulgaris）的致病機轉與下列何者最有關係？",
+  "options": [
+   {
+    "k": "A",
+    "t": "第一型過敏反應"
+   },
+   {
+    "k": "B",
+    "t": "第二型過敏反應"
+   },
+   {
+    "k": "C",
+    "t": "第三型過敏反應"
+   },
+   {
+    "k": "D",
+    "t": "第四型過敏反應"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-080",
+  "source": "114-2 國考考古",
+  "num": 80,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "慢性一氧化碳中毒主要造成中樞神經何處缺氧？",
+  "options": [
+   {
+    "k": "A",
+    "t": "大腦半球（cerebral hemisphere）"
+   },
+   {
+    "k": "B",
+    "t": "小腦（cerebellum）"
+   },
+   {
+    "k": "C",
+    "t": "基底核（basal ganglia）"
+   },
+   {
+    "k": "D",
+    "t": "胼胝體（corpus callosum）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-081",
+  "source": "114-2 國考考古",
+  "num": 81,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "用以判斷腫瘤為惡性的特徵，下列何者最不可靠？",
+  "options": [
+   {
+    "k": "A",
+    "t": "生長快速"
+   },
+   {
+    "k": "B",
+    "t": "分化不良"
+   },
+   {
+    "k": "C",
+    "t": "不典型有絲分裂"
+   },
+   {
+    "k": "D",
+    "t": "遠端轉移"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-082",
+  "source": "114-2 國考考古",
+  "num": 82,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "先天性心臟病中，長期處於下列何種狀況最容易造成肺高壓？",
+  "options": [
+   {
+    "k": "A",
+    "t": "明顯的心室中隔缺損（ventricular septal defect）"
+   },
+   {
+    "k": "B",
+    "t": "典型的 Fallot 氏四合症（classic tetralogy of Fallot）"
+   },
+   {
+    "k": "C",
+    "t": "成人型導管後主動脈狹窄（adult form postductal coarctation of aorta）"
+   },
+   {
+    "k": "D",
+    "t": "單獨的肺動脈瓣狹窄（isolated pulmonary stenosis）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-083",
+  "source": "114-2 國考考古",
+  "num": 83,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "下列會造成凝血功能異常的狀況，何者主要不是由於血小板功能的缺失？",
+  "options": [
+   {
+    "k": "A",
+    "t": "von Willebrand 氏病（von Willebrand disease）"
+   },
+   {
+    "k": "B",
+    "t": "尿毒症（uremia）"
+   },
+   {
+    "k": "C",
+    "t": "血友病（hemophilia）"
+   },
+   {
+    "k": "D",
+    "t": "使用阿斯匹靈（aspirin）藥物"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-084",
+  "source": "114-2 國考考古",
+  "num": 84,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "下列何種惡性淋巴瘤，在組織切片中腫瘤細胞通常只占所有細胞的小部分？",
+  "options": [
+   {
+    "k": "A",
+    "t": "瀰漫性大 B 細胞淋巴瘤（diffuse large B-cell lymphoma）"
+   },
+   {
+    "k": "B",
+    "t": "退行性大細胞淋巴瘤（anaplastic large cell lymphoma）"
+   },
+   {
+    "k": "C",
+    "t": "何杰金氏淋巴瘤（Hodgkin lymphoma）"
+   },
+   {
+    "k": "D",
+    "t": "Burkitt 氏淋巴瘤（Burkitt lymphoma）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-085",
+  "source": "114-2 國考考古",
+  "num": 85,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "下列何種貧血，骨髓中的造血細胞量（cellularity）最可能比正常少？",
+  "options": [
+   {
+    "k": "A",
+    "t": "缺鐵性貧血（iron deficiency anemia）"
+   },
+   {
+    "k": "B",
+    "t": "巨母紅血球性貧血（megaloblastic anemia）"
+   },
+   {
+    "k": "C",
+    "t": "地中海型貧血（thalassemia）"
+   },
+   {
+    "k": "D",
+    "t": "再生不良性貧血（aplastic anemia）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-086",
+  "source": "114-2 國考考古",
+  "num": 86,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "下列有關鼻咽癌的敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "與高風險人類乳突病毒（high-risk human papillomavirus, HR-HPV）有關"
+   },
+   {
+    "k": "B",
+    "t": "臺灣與中國東南方的盛行率高於美國及歐洲"
+   },
+   {
+    "k": "C",
+    "t": "形態學上主要分為角化（keratinizing）、非角化（nonkeratinizing）或類基底（basaloid）鱗狀細胞癌"
+   },
+   {
+    "k": "D",
+    "t": "頸部腫塊、聽力障礙或閉塞感、痰中或鼻涕中帶血、鼻塞、頭痛是常見症狀"
+   }
+  ],
+  "answer": [],
+  "explain": "考選部更正：本題一律給分。",
+  "topics": [],
+  "pattern": "單選題",
+  "noAnswer": true
+ },
+ {
+  "id": "tw1142-m2-087",
+  "source": "114-2 國考考古",
+  "num": 87,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "下列有關小細胞肺癌（small cell carcinoma）的敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "與抽菸有強烈相關性"
+   },
+   {
+    "k": "B",
+    "t": "在臺灣，小細胞肺癌有三成帶有 EGFR 突變"
+   },
+   {
+    "k": "C",
+    "t": "大多數小細胞肺癌帶有 TP53 與 RB 基因突變"
+   },
+   {
+    "k": "D",
+    "t": "小細胞肺癌也會有副贅瘤症候群（paraneoplastic syndromes）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-088",
+  "source": "114-2 國考考古",
+  "num": 88,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "下列有關塵肺病（pneumoconiosis）的敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "成因可為無機物或有機物，多與職業或工作環境有關"
+   },
+   {
+    "k": "B",
+    "t": "矽肺病是目前最常見的塵肺病，成因為吸入 silica，形成的肺結節多出現在上肺葉"
+   },
+   {
+    "k": "C",
+    "t": "矽肺病患者停止接觸矽塵暴露後肺功能通常會逐漸恢復，惟嚴重者需接受肺移植治療"
+   },
+   {
+    "k": "D",
+    "t": "矽肺病的肺結節常出現嚴重纖維化且有 whorled collagen fibers，在偏光顯微鏡下可看到 silica 沉積"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-089",
+  "source": "114-2 國考考古",
+  "num": 89,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "下列有關口腔癌的敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "白斑（leukoplakia）與紅斑（erythroplakia）是可觀察到的早期病變"
+   },
+   {
+    "k": "B",
+    "t": "紅斑（erythroplakia）病理上大多數是嚴重異生（severe dysplasia）或原位癌（carcinoma in situ）"
+   },
+   {
+    "k": "C",
+    "t": "口腔癌最常突變的基因有 TP53、CDKN2A、PIK3CA，與肺腺癌類似，目前已有多種有效的標靶藥物"
+   },
+   {
+    "k": "D",
+    "t": "口腔癌的危險因子包含抽菸、喝酒、檳榔，定期篩檢若能早期診斷則可提高患者預後"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-090",
+  "source": "114-2 國考考古",
+  "num": 90,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "關於肝細胞核因子 1-α失活的肝細胞腺瘤（HNF1α-inactivated hepatocellular adenoma），下列敘述何者最不適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "與成熟型青少年糖尿病 3 型（maturity onset diabetes of the young, type 3）相關"
+   },
+   {
+    "k": "B",
+    "t": "好發於女性"
+   },
+   {
+    "k": "C",
+    "t": "轉化為肝細胞癌的風險極小"
+   },
+   {
+    "k": "D",
+    "t": "免疫組織化學染色下，腫瘤細胞的 liver fatty acid binding protein（LFABP）會高度表達"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-091",
+  "source": "114-2 國考考古",
+  "num": 91,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "關於急性膽囊炎，下列敘述何者最不適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "大多數的病例是由於結石阻塞膽囊頸或膽囊管而引發"
+   },
+   {
+    "k": "B",
+    "t": "因前列腺素釋放的減少而導致黏膜和膽囊壁發炎"
+   },
+   {
+    "k": "C",
+    "t": "急性非結石性膽囊炎（acute acalculous cholecystitis）可由缺血而引起"
+   },
+   {
+    "k": "D",
+    "t": "急性非結石性膽囊炎（acute acalculous cholecystitis）的危險因子包括敗血症"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-092",
+  "source": "114-2 國考考古",
+  "num": 92,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "腎嗜酸細胞瘤（renal oncocytoma）在電子顯微鏡下觀察，腫瘤細胞含大量何種結構，而造成染色成嗜酸性？",
+  "options": [
+   {
+    "k": "A",
+    "t": "粒線體"
+   },
+   {
+    "k": "B",
+    "t": "高基氏體"
+   },
+   {
+    "k": "C",
+    "t": "溶酶體"
+   },
+   {
+    "k": "D",
+    "t": "粗糙內質網"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-093",
+  "source": "114-2 國考考古",
+  "num": 93,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "黃瘤肉芽腫性腎盂腎炎（xanthogranulomatous pyelonephritis）與下列何種細菌感染最為密切？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Streptococcus pneumoniae"
+   },
+   {
+    "k": "B",
+    "t": "Mycobacterium tuberculosis"
+   },
+   {
+    "k": "C",
+    "t": "Proteus mirabilis"
+   },
+   {
+    "k": "D",
+    "t": "Salmonella enterica"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-094",
+  "source": "114-2 國考考古",
+  "num": 94,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "下列何者為腎細胞癌最顯著之危險因子？",
+  "options": [
+   {
+    "k": "A",
+    "t": "抽菸"
+   },
+   {
+    "k": "B",
+    "t": "高血壓"
+   },
+   {
+    "k": "C",
+    "t": "石綿之暴露"
+   },
+   {
+    "k": "D",
+    "t": "肥胖之男性"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-095",
+  "source": "114-2 國考考古",
+  "num": 95,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "與放射線治療最相關的乳房惡性腫瘤為：",
+  "options": [
+   {
+    "k": "A",
+    "t": "血管肉瘤（angiosarcoma）"
+   },
+   {
+    "k": "B",
+    "t": "惡性葉狀瘤（malignant phyllodes tumor）"
+   },
+   {
+    "k": "C",
+    "t": "肌纖維母細胞瘤（myofibroblastoma）"
+   },
+   {
+    "k": "D",
+    "t": "平滑肌肉瘤（leiomyosarcoma）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-096",
+  "source": "114-2 國考考古",
+  "num": 96,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "下列何種乳房病變，發生侵襲性乳癌的風險最高？",
+  "options": [
+   {
+    "k": "A",
+    "t": "非典型小葉增生（atypical lobular hyperplasia）"
+   },
+   {
+    "k": "B",
+    "t": "硬化性腺病（sclerosing adenosis）"
+   },
+   {
+    "k": "C",
+    "t": "複雜性硬化病變（complex sclerosing lesion）"
+   },
+   {
+    "k": "D",
+    "t": "複雜性纖維腺瘤（fibroadenoma with complex features）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-097",
+  "source": "114-2 國考考古",
+  "num": 97,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "62 歲女性，子宮頸抹片檢查後，接受子宮頸病理切片（如圖所示）。下列何者為最適合的診斷？\n（本題有圖，請見[原卷 PDF](https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=114090&c=301&s=0102&q=1) 第 97 題）",
+  "options": [
+   {
+    "k": "A",
+    "t": "高度鱗狀上皮內病灶（high-grade squamous intraepithelial lesion）"
+   },
+   {
+    "k": "B",
+    "t": "鱗狀上皮癌（squamous cell carcinoma）"
+   },
+   {
+    "k": "C",
+    "t": "原位腺癌（adenocarcinoma in situ）"
+   },
+   {
+    "k": "D",
+    "t": "低度鱗狀上皮內病灶（low-grade squamous intraepithelial lesion）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題",
+  "hasFigure": true
+ },
+ {
+  "id": "tw1142-m2-098",
+  "source": "114-2 國考考古",
+  "num": 98,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "有關骨骼疾病的病理機轉，下列那一組合與蝕骨細胞（osteoclasts）活性異常較有關係？①osteopetrosis②senile osteoporosis ③post-menopausal osteoporosis④osteomalacia⑤Paget disease（osteitis deformans）",
+  "options": [
+   {
+    "k": "A",
+    "t": "①②④"
+   },
+   {
+    "k": "B",
+    "t": "①③⑤"
+   },
+   {
+    "k": "C",
+    "t": "②③⑤"
+   },
+   {
+    "k": "D",
+    "t": "③④⑤"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-099",
+  "source": "114-2 國考考古",
+  "num": 99,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "下列皮膚病變皆可能與感染有關，何者在皮膚病灶處最有可能培養出致病微生物？",
+  "options": [
+   {
+    "k": "A",
+    "t": "erythema multiforme"
+   },
+   {
+    "k": "B",
+    "t": "erythema induratum"
+   },
+   {
+    "k": "C",
+    "t": "erythema nodosum"
+   },
+   {
+    "k": "D",
+    "t": "erythema migrans"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ },
+ {
+  "id": "tw1142-m2-100",
+  "source": "114-2 國考考古",
+  "num": 100,
+  "paper": "114 年第二次・醫學（二）",
+  "chapter": "m2-path",
+  "type": "mcq",
+  "stem": "關於感染性關節炎，下列敘述何者最不適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "兩歲以下幼兒最常見的化膿性關節炎病原體是沙門氏桿菌（Salmonella）"
+   },
+   {
+    "k": "B",
+    "t": "成年人的化膿性關節炎最常見之病原體是金黃色葡萄球菌（Staphylococcus aureus）"
+   },
+   {
+    "k": "C",
+    "t": "結核病關節炎（mycobacterial arthritis）最常感染承重的關節，如髖關節與膝關節"
+   },
+   {
+    "k": "D",
+    "t": "淋病關節炎（gonococcal arthritis）好發於補體 C5-C9 功能缺損的病人"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "",
+  "topics": [],
+  "pattern": "單選題"
+ }
+]

@@ -31,6 +31,13 @@
   // ------------------------------------------------------------ icons (stroke, 24 grid)
   const P = {
     search: '<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>',
+    // 留言心情
+    rxHeart:
+      '<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>',
+    rxCry:
+      '<circle cx="12" cy="12" r="9"/><path d="M6.8 9.2q1.9-.3 3.2-1.9M17.2 9.2q-1.9-.3-3.2-1.9"/><ellipse cx="9" cy="11.6" rx=".95" ry="1.25" fill="currentColor" stroke="none"/><ellipse cx="15" cy="11.6" rx=".95" ry="1.25" fill="currentColor" stroke="none"/><path d="M16.4 13.2c-.9 1.3-1.4 2.1-1.4 2.7a1.4 1.4 0 0 0 2.8 0c0-.6-.5-1.4-1.4-2.7z" stroke-width="1.5"/><path d="M9.4 17.8q2.3-2.1 4.6 0"/>',
+    rxFire:
+      '<path d="M12 21a6 6 0 0 0 6-6c0-3.5-2.6-5.6-3.6-8.6-.3 2.1-1.4 3.2-2.6 3.8.2-2.6-.8-5-3-6.7.3 3.3-2.8 5.5-2.8 9.5a6 6 0 0 0 6 8z"/><path d="M12 21a2.5 2.5 0 0 1-2.5-2.5c0-1.6 1.3-2.4 2-3.8.8 1.4 3 2.2 3 3.8A2.5 2.5 0 0 1 12 21z"/>',
     sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
     moon: '<path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/>',
     arrowR: '<path d="M5 12h14M13 6l6 6-6 6"/>',
@@ -257,9 +264,22 @@
   // ------------------------------------------------------------ data
   const DB = { index: null, subjects: {} };
   async function loadIndex() {
-    if (!DB.index) DB.index = await fetchJSON("subjects/index.json");
+    if (!DB.index) {
+      const [idx, terms] = await Promise.all([
+        fetchJSON("subjects/index.json"),
+        fetchJSON("subjects/terms.json").catch(() => null),
+      ]);
+      DB.index = idx;
+      DB.terms = terms || { current: "", terms: [] };
+    }
     return DB.index;
   }
+  // 科目屬於哪個學期：index.json 的 "term" ＞ subject.json 的 "semester"（私人科目）＞ 目前學期
+  const termOf = (s) =>
+    DB.index?.find((x) => x.id === s.meta.id)?.term ||
+    s.meta.semester ||
+    DB.terms?.current ||
+    "";
   // 「已上課範圍」：已上課且不在已考完的組；本次範圍還沒上課時退回本次範圍全部章節
   function taughtIds(subj) {
     const live = subj.meta.chapters.filter((c) => !subj.chMap[c.id].done);
@@ -311,9 +331,13 @@
   async function loadSubject(sid) {
     if (DB.subjects[sid]) return DB.subjects[sid];
     const idx = await loadIndex();
-    const ent = idx.find((x) => x.id === sid);
+    const ent =
+      idx.find((x) => x.id === sid) ||
+      (await Private.entries()).find((x) => x.id === sid);
     if (!ent) throw new Error(`找不到科目「${sid}」`);
-    const meta = await fetchJSON(`${ent.path}/subject.json`);
+    const get = (f) =>
+      ent.private ? Private.json(`${sid}/${f}`) : fetchJSON(`${ent.path}/${f}`);
+    const meta = await get("subject.json");
     // 原始模擬考清單留一份，算「期中／期末全部範圍」用
     meta.mocks = [].concat(meta.mock || []);
     // "mock" 可以是一份或陣列（期中、期末⋯）：每份的 until（考試結束時間，或只寫日期＝當天結束）過了就自動換下一份
@@ -330,7 +354,7 @@
           ) || null;
     const lists = await Promise.all(
       (meta.questionFiles || []).map((f) =>
-        fetchJSON(`${ent.path}/${f}`).catch(() => []),
+        get(f).catch(() => []),
       ),
     );
     const questions = lists.flat();
@@ -359,7 +383,9 @@
         prev = q;
       }
     }
-    const figs = await fetchJSON(`${ent.path}/figures.json`).catch(() => []);
+    const figs = ent.private
+      ? []
+      : await fetchJSON(`${ent.path}/figures.json`).catch(() => []);
     // groups 加上 "done": "26/10/30 midterm" → 該組章節標成已考完，不再算進「已上課範圍」
     const doneOf = Object.fromEntries(
       (meta.groups || []).flatMap((g) =>
@@ -376,6 +402,7 @@
     return (DB.subjects[sid] = {
       meta,
       path: ent.path,
+      private: !!ent.private,
       questions,
       qById,
       groups,
@@ -393,14 +420,21 @@
   async function loadAllSubjects() {
     const idx = await loadIndex();
     return (
-      await Promise.all(idx.map((x) => loadSubject(x.id).catch(() => null)))
-    ).filter(Boolean);
+      // 公開科目＋登入帳號有權限的私人科目；subject.json 有 "hidden": true 的不列（只能從上層科目的隱藏入口進去）
+      await Promise.all(
+        [...idx, ...(await Private.entries())].map((x) =>
+          loadSubject(x.id).catch(() => null),
+        ),
+      )
+    ).filter((s) => s && !s.meta.hidden);
   }
   async function loadContent(subj, cid) {
     if (subj.content[cid]) return subj.content[cid];
     let raw = "";
     try {
-      raw = await fetchText(`${subj.path}/content/${cid}.md`);
+      raw = subj.private
+        ? await Private.text(`${subj.meta.id}/content/${cid}.md`)
+        : await fetchText(`${subj.path}/content/${cid}.md`);
     } catch {
       raw = "";
     }
@@ -607,6 +641,56 @@
     }
     return M;
   }
+  // ------------------------------------------------------------ 私人科目（限定帳號）
+  // 內容不放公開 repo：檔案在 Supabase storage 的 private bucket「private-subjects/<科目 id>/…」，
+  // 誰能看由 public.private_access（user_id, subject, parent, title）決定；RLS 只讓使用者讀到自己的列與被授權的檔案。
+  // 沒登入或沒權限時 entries() 是空的，這些科目在網站上完全不存在。
+  const PRIV_BUCKET = "private-subjects";
+  const Private = {
+    list: null, // 已載入的 [{ id, private, parent, title }]
+    _p: null,
+    entries() {
+      if (this._p) return this._p;
+      return (this._p = (async () => {
+        await Cloud.ready;
+        if (!Cloud.sb || !Cloud.user) return (this.list = []);
+        const { data, error } = await Cloud.sb
+          .from("private_access")
+          .select("subject, parent, title");
+        if (error) {
+          console.warn("private_access", error);
+          return (this.list = []);
+        }
+        return (this.list = (data || []).map((r) => ({
+          id: r.subject,
+          private: true,
+          parent: r.parent || "",
+          title: r.title || "",
+        })));
+      })());
+    },
+    async blob(path) {
+      await Cloud.ready;
+      if (!Cloud.sb) throw new Error("需要登入");
+      const { data, error } = await Cloud.sb.storage
+        .from(PRIV_BUCKET)
+        .download(path);
+      if (error) throw new Error(`${path}：${error.message || error}`);
+      return data;
+    },
+    async text(path) {
+      return (await this.blob(path)).text();
+    },
+    async json(path) {
+      return JSON.parse(await this.text(path));
+    },
+    // 登入狀態改變：清掉私人科目快取，下一次 route 重新判斷權限
+    reset() {
+      for (const e of this.list || []) delete DB.subjects[e.id];
+      this.list = null;
+      this._p = null;
+    },
+  };
   const Cloud = {
     on: !!(CFG.supabaseUrl && CFG.supabaseAnonKey),
     sb: null,
@@ -664,6 +748,14 @@
           this.sb.auth.onAuthStateChange((ev, session) => {
             const prev = this.user?.id;
             this.user = session?.user || null;
+            if (this.user?.id !== prev) {
+              Private.reset();
+              // 首頁（學期分頁含私人科目）與私人科目頁要依新的登入狀態重畫
+              const sid = (/^#\/s\/([^/?]+)/.exec(location.hash) || [])[1];
+              const home = /^#?\/?(\?|$)/.test(location.hash);
+              if (home || (sid && !DB.index?.some((x) => x.id === sid)))
+                setTimeout(route, 0);
+            }
             // 不能在這個 callback 裡直接 await supabase 呼叫，延到下一輪
             if (this.user && this.user.id !== prev)
               setTimeout(() => this.sync(), 0);
@@ -952,7 +1044,7 @@
         reset: {},
         T: store.get("sh:T", {}),
       };
-      for (const { id: s } of DB.index || []) {
+      for (const { id: s } of [...(DB.index || []), ...(Private.list || [])]) {
         o.prog[s] = getProg(s);
         o.stars[s] = [...getStars(s)];
         o.read[s] = [...getRead(s)];
@@ -1149,20 +1241,11 @@
     const last = sid || store.get("sh:lastSubject", null) || DB.index?.[0]?.id;
     const cur = (k) => (active === k ? ' aria-current="page"' : "");
     if (sid) {
-      store.set("sh:lastSubject", sid);
+      if (!DB.subjects[sid]?.private) store.set("sh:lastSubject", sid);
       const s = DB.subjects[sid];
       nav.innerHTML = `<a href="#/">所有科目</a><a href="#/s/${sid}"${cur("subject")}>${esc(s?.meta.short || "總覽")}總覽</a><a href="#/s/${sid}/practice"${cur("practice")}>練習區</a><a href="#/s/${sid}/sheet"${cur("sheet")}>速記・圖解</a><a href="#/report?sid=${sid}"${cur("report")}>回報 / 回饋</a>`;
     } else {
       nav.innerHTML = `<a href="#/"${cur("home")}>所有科目</a><a href="#/practice"${cur("practice")}>練習區</a><a href="#/me"${cur("me")}>學習軌跡</a><a href="#/report"${cur("report")}>回報 / 回饋</a>`;
-    }
-    // 留言板固定用上方列的 icon（桌機、手機都是）
-    const bb = $("#boardBtn");
-    if (bb) {
-      bb.hidden = !Cloud.on;
-      if (!bb.firstChild) bb.innerHTML = ic("chat");
-      active === "board"
-        ? bb.setAttribute("aria-current", "page")
-        : bb.removeAttribute("aria-current");
     }
     const tb = $("#tabbar");
     const T = (href, icon, label, k) =>
@@ -1242,7 +1325,7 @@
     if (!keepScroll) scrollTo({ top: 0 });
     try {
       await loadIndex();
-      if (!seg.length) return await pageHome();
+      if (!seg.length) return await pageHome(q);
       if (seg[0] === "report") return await pageReport(q);
       if (seg[0] === "me") return await pageMe();
       if (seg[0] === "board") return await pageBoard();
@@ -1258,6 +1341,7 @@
         if (seg[2] === "sheet") return await pageSheet(sid, seg[3] || "", q);
         if (seg[2] === "practice") return await pagePractice(sid, q);
         if (seg[2] === "mock") return await pageMock(sid, q);
+        if (seg[2] === "cbt") return await pageCBT(sid, q);
         if (seg[2] === "analysis") return await pageAnalysis(sid);
         if (seg[2] === "q" && seg[3]) {
           const subj = await loadSubject(sid);
@@ -2038,12 +2122,35 @@
   }
 
   // ------------------------------------------------------------ pages: home
-  async function pageHome() {
-    const subs = await loadAllSubjects();
+  async function pageHome(q = {}) {
+    const allSubs = await loadAllSubjects();
+    // 學期分層：只列選到的學期；切換紀錄在本機（換學期時改 subjects/terms.json 的 current）
+    const T = DB.terms || { terms: [] };
+    // 私人科目可以帶自己的分頁（subject.json 的 "semester"＋"semesterTitle"），不寫進公開的 terms.json，
+    // 只有登入且有權限的帳號載得到這些科目，分頁也只對他們出現
+    const extraTerms = [];
+    for (const s of allSubs) {
+      const id = s.meta.semester;
+      if (id && !(T.terms || []).some((t) => t.id === id) && !extraTerms.some((t) => t.id === id))
+        extraTerms.push({ id, title: s.meta.semesterTitle || id, note: s.meta.semesterNote || "" });
+    }
+    const usedTerms = [...(T.terms || []), ...extraTerms].filter(
+      (t) => t.id === T.current || allSubs.some((s) => termOf(s) === t.id),
+    );
+    const termId =
+      [q.term, store.get("sh:homeTerm", null), T.current].find((id) =>
+        usedTerms.some((t) => t.id === id),
+      ) || "";
+    if (q.term && termId === q.term) store.set("sh:homeTerm", termId);
+    const curTerm = usedTerms.find((t) => t.id === termId);
+    const subs = termId
+      ? allSubs.filter((s) => termOf(s) === termId)
+      : allSubs;
     setChrome(null, "home");
     const lastSid = store.get("sh:lastSubject", null) || subs[0]?.meta.id;
-    const last = subs.find((s) => s.meta.id === lastSid) || subs[0];
-    const totals = subs.reduce(
+    const last =
+      allSubs.find((s) => s.meta.id === lastSid) || subs[0] || allSubs[0];
+    const totals = allSubs.reduce(
       (a, s) => {
         const st = subjectStats(s);
         a.done += st.done;
@@ -2162,8 +2269,14 @@
       </section>
 
       <section class="wrap section">
-        <div class="section-head"><div><div class="eyebrow">01 — 科目</div><h2 class="display h-m" style="margin-top:8px">選一個科目開始</h2></div></div>
-        <div style="display:grid;gap:14px">${cards}</div>
+        <div class="section-head"><div><div class="eyebrow">01 — 科目${curTerm ? ` · ${esc(curTerm.title)}` : ""}</div><h2 class="display h-m" style="margin-top:8px">選一個科目開始</h2></div></div>
+        ${
+          usedTerms.length
+            ? `<div class="term-pick"${usedTerms.length > 1 ? "" : " data-single"}><button type="button" class="term-btn" id="termBtn" aria-expanded="false" aria-controls="termList" aria-label="切換學期，目前 ${esc(curTerm?.title || "全部")}">${ic("layers")}<b>${esc(curTerm?.title || "全部")}</b>${termId === T.current ? '<span class="dot" title="目前學期"></span>' : ""}${usedTerms.length > 1 ? `<svg class="term-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>` : ""}</button>
+              <nav class="seg term-seg" id="termList" aria-label="學期" hidden>${usedTerms.filter((t) => t.id !== termId).map((t) => `<a href="#/?${qs({ term: t.id })}">${esc(t.title)}${t.id === T.current ? '<span class="dot" title="目前學期"></span>' : ""}</a>`).join("")}</nav></div>${curTerm?.note ? `<p class="muted small" style="margin:-4px 0 14px">${esc(curTerm.note)}</p>` : ""}`
+            : ""
+        }
+        <div style="display:grid;gap:14px">${cards || `<div class="card empty"><p class="muted">這個學期還沒有科目。</p></div>`}</div>
       </section>
 
       <section class="wrap section">
@@ -2176,9 +2289,28 @@
         </div>
       </section>`,
       () => {
+        // 學期切換：按鈕向右展開其他學期，再按一次（或按 Esc）收合
+        const tb = $("#termBtn"),
+          tl = $("#termList");
+        if (tb && tl && tl.children.length) {
+          const set = (open) => {
+            tb.setAttribute("aria-expanded", open);
+            tb.parentElement.classList.toggle("open", open);
+            tl.hidden = !open;
+          };
+          tb.addEventListener("click", () =>
+            set(tb.getAttribute("aria-expanded") !== "true"),
+          );
+          tl.addEventListener("keydown", (e) => {
+            if (e.key === "Escape") {
+              set(false);
+              tb.focus();
+            }
+          });
+        }
         const cv = $("#plate");
         if (cv) {
-          mountPlate(cv, coloniesFromProgress(subs));
+          mountPlate(cv, coloniesFromProgress(allSubs));
           // 彩蛋：連點培養皿 5 下
           let n = 0,
             h = 0;
@@ -2279,7 +2411,7 @@
         <span class="idx">${pad2(c.idx)}</span>
         <span><span class="t">${esc(c.title)}</span>
           <span class="sub"><span>${esc(c.en || "")}</span><span aria-hidden="true">·</span><span>${esc(c.teacher || "")}</span>
-          ${c.done ? `<span class="pill line">${ic("check")}${esc(c.done)}</span>` : c.slides ? `<span class="pill good"><span class="dot"></span>已上課 ${esc(c.week || "")}</span>` : `<span class="pill line">未上課</span>`}
+          ${c.pill ? `<span class="pill line">${esc(c.pill)}</span>` : c.done ? `<span class="pill line">${ic("check")}${esc(c.done)}</span>` : c.slides ? `<span class="pill good"><span class="dot"></span>已上課 ${esc(c.week || "")}</span>` : `<span class="pill line">未上課</span>`}
           ${read.has(c.id) ? `<span class="pill violet">${ic("check")}已讀</span>` : ""}</span></span>
         <span class="heat" title="本章題目 ${s.total} 題（含考古 ${s.exam} 題）"><span class="lbl"><span>題目</span><b class="num">${s.total} 題</b></span><span class="heat-bar"><i style="width:${(s.total / maxTotal) * 100}%"></i></span></span>
         <span class="mastery"><span class="ring" style="--p:${s.mastery}"></span><span><b class="num">${s.mastery}%</b><br><span class="muted num">${s.right} / ${s.total} 題</span></span></span>
@@ -2339,7 +2471,7 @@
     render(
       `
       <div class="wrap">
-        <nav class="crumbs" aria-label="路徑"><a href="#/">所有科目</a><span class="sep">/</span><span>${esc(m.title)}</span></nav>
+        <nav class="crumbs" aria-label="路徑"><a href="#/">所有科目</a><span class="sep">/</span>${parentCrumb(m)}<span>${esc(m.title)}</span></nav>
         ${P ? `<nav class="seg" aria-label="考試範圍" style="margin-top:14px">${P.cards.map((c) => `<a href="#/s/${sid}?${qs({ part: c.cat })}"${c === P.card ? ' aria-current="page"' : ""}>${esc(c.title)}</a>`).join("")}</nav>` : ""}
         <header class="page-head">
           <div>
@@ -2392,6 +2524,12 @@
             <span class="eyebrow">${ic("clock")}${esc(m.mock.title || "模擬考")}</span><h3>限時 ${m.mock.minutes} 分鐘・${m.mock.sections.reduce((a, x) => a + x.n, 0)} 題</h3><p>${mockLine}</p><span class="go">${mockCur ? "繼續作答" : "去考一份"} ${ic("arrowR")}</span></a>`
               : ""
           }
+          ${
+            m.cbt
+              ? `<a class="card next-card feature" href="#/s/${sid}/cbt">
+            <span class="eyebrow">${ic("clock")}國考模式</span><h3>${esc(m.cbt.title || "模擬國考")}・每卷 ${m.cbt.minutes} 分鐘</h3><p>仿國考電腦化測驗畫面：題號作答表、標記待檢查、倒數計時、交卷後依學科算分。可考歷屆真卷或隨機模擬卷。</p><span class="go">${store.get(cbtKey(sid), null) ? "繼續作答" : "開始"} ${ic("arrowR")}</span></a>`
+              : ""
+          }
           <a class="card next-card" href="#/s/${sid}/analysis">
             <span class="eyebrow">${ic("chart")}考題分析</span><h3>哪些考點最常考</h3><p>依考古統計各章題數、出題方式與高頻考點，一眼看出優先順序。</p><span class="go">看分析 ${ic("arrowR")}</span></a>
         </div>
@@ -2412,6 +2550,21 @@
         </section>
       </div>`,
       () => {
+        // 隱藏入口：登入帳號有權限、且 parent 是這一科的私人科目 → 科目標題連點 5 下進去
+        Private.entries().then((list) => {
+          const sec = list.find((x) => x.parent === sid);
+          if (!sec) return;
+          let n = 0,
+            h = 0;
+          $(".page-head h1")?.addEventListener("click", () => {
+            clearTimeout(h);
+            h = setTimeout(() => (n = 0), 700);
+            if (++n < 5) return;
+            n = 0;
+            toast(`🔓 ${sec.title || "隱藏區"}`);
+            setTimeout(() => (location.hash = `#/s/${sec.id}`), 500);
+          });
+        });
         $$("[data-sort]").forEach((b) =>
           b.addEventListener("click", () => {
             store.set("sh:sort", b.dataset.sort);
@@ -2434,6 +2587,24 @@
     ["exam", "考點分析", "chart"],
     ["practice", "練習", "pen"],
   ];
+  // 題目的 "passage"：閱讀測驗／克漏字的文章，顯示在題幹上方（可收合）
+  const passageBox = (q) =>
+    q.passage
+      ? `<details class="q-passage" open><summary>${esc(q.passageTitle || "閱讀文章")}</summary><div class="q-passage-body">${rich(q.passage)}</div></details>`
+      : "";
+  // subject.json 的 "tabs"：{ 分頁: "新名稱" }，值為空字串就不顯示該分頁（例：隱藏科目沒有「上課重點」）
+  const subjTabs = (subj) =>
+    TABS.filter(([k]) => subj.meta.tabs?.[k] !== "").map(([k, t, icn]) => [
+      k,
+      subj.meta.tabs?.[k] || t,
+      icn,
+    ]);
+  // subject.json 的 "parent"：隱藏科目的路徑多一層上層科目
+  const parentCrumb = (m) => {
+    if (!m.parent) return "";
+    const t = DB.subjects[m.parent]?.meta.title || m.parentTitle || m.parent;
+    return `<a href="#/s/${m.parent}">${esc(t)}</a><span class="sep">/</span>`;
+  };
   async function pageChapter(sid, cid, tab, q = {}) {
     const subj = await loadSubject(sid);
     const c = subj.chMap[cid];
@@ -2473,13 +2644,13 @@
     render(
       `
       <div class="wrap">
-        <nav class="crumbs" aria-label="路徑"><a href="#/">所有科目</a><span class="sep">/</span><a href="#/s/${sid}">${esc(subj.meta.title)}</a><span class="sep">/</span><span>第 ${c.idx} 章</span></nav>
+        <nav class="crumbs" aria-label="路徑"><a href="#/">所有科目</a><span class="sep">/</span>${parentCrumb(subj.meta)}<a href="#/s/${sid}">${esc(subj.meta.title)}</a><span class="sep">/</span><span>第 ${c.idx} 章</span></nav>
         <header class="ch-head">
           <div class="eyebrow">Ch.${pad2(c.idx)} · ${esc(c.week || "")} · ${esc(c.teacher || "")}</div>
           <h1 class="display h-l">${esc(c.title)}</h1>
           <div class="en">${esc(c.en || "")}</div>
           <div class="ch-meta">
-            ${c.done ? `<span class="pill line">${ic("check")}${esc(c.done)}</span>` : c.slides ? `<span class="pill good"><span class="dot"></span>已上課</span>` : `<span class="pill warn"><span class="dot"></span>未上課・依去年共筆與考古</span>`}
+            ${c.pill ? `<span class="pill line">${esc(c.pill)}</span>` : c.done ? `<span class="pill line">${ic("check")}${esc(c.done)}</span>` : c.slides ? `<span class="pill good"><span class="dot"></span>已上課</span>` : `<span class="pill warn"><span class="dot"></span>未上課・依去年共筆與考古</span>`}
             <span class="pill line">考古 ${st.exam} 題</span>
             <span class="pill line">可練習 ${st.total} 題</span>
             <span class="pill line">掌握 ${st.mastery}%</span>
@@ -2488,7 +2659,7 @@
         </header>
       </div>
       <div class="ch-tabs"><div class="wrap"><nav class="seg" aria-label="章節分頁">
-        ${TABS.map(([k, t, icn]) => `<a href="#/s/${sid}/c/${cid}/${k}"${k === tab ? ' aria-current="page"' : ""}>${ic(icn)}${t}</a>`).join("")}
+        ${subjTabs(subj).map(([k, t, icn]) => `<a href="#/s/${sid}/c/${cid}/${k}"${k === tab ? ' aria-current="page"' : ""}>${ic(icn)}${t}</a>`).join("")}
       </nav><nav class="seg ch-step" aria-label="切換章節">
         ${prev ? `<a href="#/s/${sid}/c/${prev.id}/${tab}" title="上一章：Ch.${pad2(prev.idx)} ${esc(prev.title)}" aria-label="上一章：${esc(prev.title)}">${ic("chevL")}<span>上一章</span></a>` : `<span class="off" aria-hidden="true">${ic("chevL")}<span>上一章</span></span>`}
         ${next ? `<a href="#/s/${sid}/c/${next.id}/${tab}" title="下一章：Ch.${pad2(next.idx)} ${esc(next.title)}" aria-label="下一章：${esc(next.title)}"><span>下一章</span>${ic("chevR")}</a>` : `<span class="off" aria-hidden="true"><span>下一章</span>${ic("chevR")}</span>`}
@@ -5065,13 +5236,13 @@
               ? `${ic("check")}答對了${S.streak >= 3 && S.i === S.last ? `・連對 ${S.streak} 題` : ""}`
               : `${ic("x")}答錯了，正確答案是 ${ansText(qq)}`;
         verdict = `<div class="verdict ${tone}" role="status"><div class="verdict-head">${head}${a.na ? "" : wrongRateTag(sid, qq)}</div><div class="verdict-body">${mine}
-          ${qq.answerText ? `<div class="answer-text"><div class="explain-title">參考答案</div>${rich(qq.answerText)}</div>` : ""}
+          ${qq.answerText ? `<div class="answer-text${qq.mono ? " mono" : ""}"><div class="explain-title">參考答案</div>${rich(qq.answerText)}</div>` : ""}
           ${qq.explain ? `<div class="explain-title">詳解</div><div class="explain">${rich(qq.explain)}</div>` : qq.answerText ? "" : '<div class="muted">這題沒有附詳解。</div>'}${exImgs(subj, qq)}
           ${qq.note ? `<div class="note">${ic("alert")}<div>${esc(qq.note)}</div></div>` : ""}${figLinks(subj, qq)}${a.na && !a.self ? `
           <div class="self-grade"><button class="btn" type="button" data-self="1">${ic("check")}我會了</button><button class="btn" type="button" data-self="0">${ic("rotate")}還不熟</button></div>` : ""}</div></div>`;
       } else if (isShort && S.revealed === S.i) {
         verdict = `<div class="verdict neutral"><div class="verdict-head">${ic("eye")}參考答案</div><div class="verdict-body">${mine}
-          ${qq.answerText ? `<div class="answer-text">${rich(qq.answerText)}</div>` : ""}${qq.explain ? `<div class="explain">${rich(qq.explain)}</div>` : ""}${exImgs(subj, qq)}
+          ${qq.answerText ? `<div class="answer-text${qq.mono ? " mono" : ""}">${rich(qq.answerText)}</div>` : ""}${qq.explain ? `<div class="explain">${rich(qq.explain)}</div>` : ""}${exImgs(subj, qq)}
           <div class="self-grade"><button class="btn" type="button" data-self="1">${ic("check")}我會了</button><button class="btn" type="button" data-self="0">${ic("rotate")}還不熟</button></div></div></div>`;
       }
       const shortBox =
@@ -5081,7 +5252,7 @@
       const last = S.i === pool.length - 1;
       return `<article class="card qcard" aria-labelledby="qstem">
         ${qMeta(subj, qq)}
-        <div class="q-stem" id="qstem">${rich(qq.stem)}</div>
+        ${passageBox(qq)}<div class="q-stem" id="qstem">${rich(qq.stem)}</div>
         ${qImgs(subj, qq)}${opts}${multiBar}${shortBox}
         <div aria-live="polite">${verdict}</div>
         <div class="q-foot">
@@ -5442,6 +5613,319 @@
   }
   const fmtPts = (v) => (Math.round(v * 10) / 10).toString();
 
+  // ------------------------------------------------------------ 國考模式（仿電腦化測驗畫面）
+  // subject.json "cbt"：{ title, minutes, papers: [{ id, title, blocks: [[章節, 題數], …] }] }
+  // 題目有 "paper"（例：115 年第二次・醫學（一））就能考「歷屆真卷」（依原題號）；也可依 blocks 比例隨機抽「模擬卷」。
+  const cbtKey = (sid) => `sh:${sid}:cbt`;
+  const cbtHistKey = (sid) => `sh:${sid}:cbtHist`;
+  const cbtPapers = (subj) => {
+    const by = new Map();
+    for (const q of subj.questions)
+      if (q.paper) (by.get(q.paper) || by.set(q.paper, []).get(q.paper)).push(q);
+    return [...by.entries()]
+      .map(([title, qs]) => ({ title, qs: qs.sort((a, b) => a.num - b.num) }))
+      .sort((a, b) => b.title.localeCompare(a.title, "zh-Hant"));
+  };
+  function cbtDraw(subj, spec) {
+    const C = subj.meta.cbt;
+    if (spec.real) {
+      const P = cbtPapers(subj).find((p) => p.title === spec.real);
+      if (!P) return null;
+      return { title: P.title, kind: "real", ids: P.qs.map((q) => q.id) };
+    }
+    const paper = C.papers.find((p) => p.id === spec.paper);
+    if (!paper) return null;
+    const ids = [];
+    for (const [ch, n] of paper.blocks) {
+      const pool = subj.questions.filter(
+        (q) => q.chapter === ch && q.type === "mcq" && !q.noAnswer && !q.hasFigure,
+      );
+      ids.push(...shuffle(pool).slice(0, n).map((q) => q.id));
+    }
+    return { title: `模擬卷・${paper.title}`, kind: "mock", ids };
+  }
+  async function pageCBT(sid, q) {
+    const subj = await loadSubject(sid);
+    const C = subj.meta.cbt;
+    setChrome(sid, "mock");
+    if (!C) return render(emptyState("這個科目沒有國考模式"));
+    if (q.go) return runCBT(subj);
+    if (q.real || q.paper) {
+      const d = cbtDraw(subj, q);
+      if (!d) return render(emptyState("找不到這份試卷"));
+      store.set(cbtKey(sid), {
+        ...d,
+        ans: d.ids.map(() => null),
+        flag: d.ids.map(() => false),
+        i: 0,
+        t0: Date.now(),
+        dl: Date.now() + C.minutes * 60e3,
+        font: store.get("sh:cbtFont", 1),
+      });
+      history.replaceState(null, "", `#/s/${sid}/cbt?go=1`);
+      return runCBT(subj);
+    }
+    const cur = store.get(cbtKey(sid), null);
+    const hist = store.get(cbtHistKey(sid), []);
+    const papers = cbtPapers(subj);
+    const bySession = new Map();
+    for (const p of papers) {
+      const [sess, name] = p.title.split("・");
+      (bySession.get(sess) || bySession.set(sess, []).get(sess)).push({ ...p, name });
+    }
+    render(`
+      <div class="wrap">
+        <nav class="crumbs" aria-label="路徑"><a href="#/s/${sid}">${esc(subj.meta.title)}</a><span class="sep">/</span><span>國考模式</span></nav>
+        <header class="page-head"><div>
+          <div class="eyebrow">CBT · 模擬國考</div>
+          <h1 class="display h-l">${esc(C.title || "國考模式")}</h1>
+          <p class="lede">仿國考電腦化測驗的作答畫面：右側題號作答表、可標記待檢查、倒數 ${C.minutes} 分鐘，時間到自動交卷。交卷後依學科算分，答錯的題目可以直接進入檢討。</p>
+        </div></header>
+        ${cur ? `<div class="card panel cbt-resume"><div><b>${esc(cur.title)}</b><div class="small muted">已作答 ${cur.ans.filter((x) => x !== null).length} / ${cur.ids.length} 題・剩 ${fmtTime(Math.max(0, cur.dl - Date.now()))}</div></div><span class="spacer"></span><a class="btn accent" href="#/s/${sid}/cbt?go=1">${ic("arrowR")}繼續作答</a><button class="btn ghost" type="button" id="cbtDrop">放棄這份</button></div>` : ""}
+        <section class="section">
+          <h2 class="display h-m">隨機模擬卷</h2>
+          <p class="muted small">從歷屆考古依實際命題比例抽 100 題（不含有圖、一律給分的題目），每次都不一樣。</p>
+          <div class="cbt-papers">${C.papers.map((p) => `<a class="card next-card" href="#/s/${sid}/cbt?${qs({ paper: p.id })}"><span class="eyebrow">${ic("shuffle")}模擬卷</span><h3>${esc(p.title)}</h3><p class="small">${p.blocks.map(([ch, n]) => `${esc(subj.chMap[ch]?.title || ch)} ${n}`).join("・")}</p><span class="go">開始作答 ${ic("arrowR")}</span></a>`).join("")}</div>
+        </section>
+        <section class="section">
+          <h2 class="display h-m">歷屆真卷</h2>
+          <p class="muted small">依原卷題號作答，答案為考選部公告（含更正答案）。</p>
+          <div class="cbt-real">${[...bySession.entries()].map(([sess, ps]) => `<div class="cbt-real-row"><b>${esc(sess)}</b>${ps.map((p) => `<a class="btn sm" href="#/s/${sid}/cbt?${qs({ real: p.title })}">${esc(p.name)}</a>`).join("")}</div>`).join("")}</div>
+        </section>
+        ${
+          hist.length
+            ? `<section class="section"><h2 class="display h-m">作答紀錄</h2><div class="card panel"><div class="mock-table-wrap"><table class="mock-table"><thead><tr><th>日期</th><th>試卷</th><th class="n">得分</th><th class="n">用時</th></tr></thead><tbody>${hist
+                .slice(-12)
+                .reverse()
+                .map(
+                  (h) =>
+                    `<tr><td>${new Date(h.t).toLocaleString("zh-TW", { month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" })}</td><td>${esc(h.title)}</td><td class="n"><b>${h.score}</b></td><td class="n">${fmtTime(h.ms)}</td></tr>`,
+                )
+                .join("")}</tbody></table></div></div></section>`
+            : ""
+        }
+      </div>`, () => {
+      $("#cbtDrop")?.addEventListener("click", (e) => {
+        const b = e.currentTarget;
+        if (b.dataset.armed !== "1") {
+          b.dataset.armed = "1";
+          b.textContent = "再按一次確認放棄";
+          return;
+        }
+        store.set(cbtKey(sid), null);
+        pageCBT(sid, {});
+      });
+    });
+  }
+  function runCBT(subj) {
+    const sid = subj.meta.id;
+    const C = subj.meta.cbt;
+    const S = store.get(cbtKey(sid), null);
+    if (!S || S.ids.some((id) => !subj.qById[id])) {
+      store.set(cbtKey(sid), null);
+      return pageCBT(sid, {});
+    }
+    const pool = S.ids.map((id) => subj.qById[id]);
+    const save = () => store.set(cbtKey(sid), S);
+    const left = () => Math.max(0, S.dl - Date.now());
+    const user = Cloud.user ? userName(Cloud.user) : "訪客";
+    let confirming = false,
+      gridOpen = false,
+      timer = 0;
+    document.body.classList.add("cbt-on");
+    const grid = () =>
+      pool
+        .map(
+          (_, k) =>
+            `<button type="button" class="cbt-cell${k === S.i ? " cur" : ""}${S.ans[k] ? " done" : ""}${S.flag[k] ? " flag" : ""}" data-go="${k}" aria-label="第 ${k + 1} 題${S.ans[k] ? `，已答 ${S.ans[k]}` : "，未作答"}${S.flag[k] ? "，已標記" : ""}"><span class="n">${k + 1}</span><span class="a">${S.ans[k] || ""}</span></button>`,
+        )
+        .join("");
+    const view = () => {
+      const qq = pool[S.i],
+        a = S.ans[S.i];
+      const done = S.ans.filter(Boolean).length;
+      return `<div class="cbt cbt-f${S.font || 1}">
+        <header class="cbt-bar">
+          <div class="cbt-title"><b>${esc(S.title)}</b><span class="small">考生：${esc(user)}</span></div>
+          <div class="cbt-clock${left() < 10 * 60e3 ? " low" : ""}" aria-label="剩餘時間"><span class="small">剩餘時間</span><b class="num" id="cbtClock">${fmtTime(left())}</b></div>
+          <div class="cbt-tools">
+            <span class="cbt-font" role="group" aria-label="字體大小">${[1, 2, 3].map((f) => `<button type="button" data-font="${f}" aria-pressed="${(S.font || 1) === f}" title="字體${["小", "中", "大"][f - 1]}">${"A".repeat(1)}<sup>${["", "+", "++"][f - 1]}</sup></button>`).join("")}</span>
+            <button class="btn sm ghost cbt-grid-toggle" type="button" id="cbtGridBtn" aria-expanded="${gridOpen}">${ic("grid")}作答表</button>
+            <a class="btn sm ghost" href="#/s/${sid}/cbt" title="離開（保留進度與計時）">離開</a>
+            <button class="btn sm primary" type="button" id="cbtSubmit">交卷</button>
+          </div>
+        </header>
+        <div class="cbt-body">
+          <main class="cbt-main">
+            <div class="cbt-qhead"><span class="cbt-qno">第 ${S.i + 1} 題</span><span class="small muted">${esc(subj.chMap[qq.chapter]?.title || "")}</span>${S.flag[S.i] ? `<span class="pill warn">${ic("flag")}已標記</span>` : ""}</div>
+            <div class="q-stem cbt-stem">${rich(qq.stem)}</div>
+            ${qImgs(subj, qq)}
+            <div class="cbt-opts" role="radiogroup" aria-label="選項">${qq.options
+              .map(
+                (o) =>
+                  `<button type="button" role="radio" aria-checked="${a === o.k}" class="cbt-opt${a === o.k ? " on" : ""}" data-k="${o.k}"><span class="cbt-radio" aria-hidden="true"></span><span class="key">(${o.k})</span><span class="txt">${esc(o.t)}</span></button>`,
+              )
+              .join("")}</div>
+            <footer class="cbt-nav">
+              <button class="btn" type="button" id="cbtPrev" ${S.i === 0 ? "disabled" : ""}>${ic("arrowL")}上一題</button>
+              <button class="btn ${S.flag[S.i] ? "warn" : "ghost"}" type="button" id="cbtFlag" aria-pressed="${S.flag[S.i]}">${ic("flag")}${S.flag[S.i] ? "取消標記" : "標記待檢查"}</button>
+              ${a ? `<button class="btn ghost" type="button" id="cbtClear">清除作答</button>` : ""}
+              <span class="spacer"></span>
+              <button class="btn primary" type="button" id="cbtNext" ${S.i === pool.length - 1 ? "disabled" : ""}>下一題${ic("arrowR")}</button>
+            </footer>
+            <p class="small muted cbt-keys">鍵盤：A–D 或 1–4 作答、← → 換題、F 標記</p>
+          </main>
+          <aside class="cbt-side${gridOpen ? " open" : ""}" aria-label="作答表">
+            <div class="cbt-side-head"><b>作答表</b><span class="small muted">已答 ${done} / ${pool.length}</span></div>
+            <div class="cbt-grid">${grid()}</div>
+            <div class="cbt-legend small"><span><i class="lg done"></i>已作答</span><span><i class="lg"></i>未作答</span><span><i class="lg flag"></i>標記</span></div>
+          </aside>
+        </div>
+        ${confirming ? confirmBox() : ""}
+      </div>`;
+    };
+    const confirmBox = () => {
+      const miss = pool.map((_, k) => k).filter((k) => !S.ans[k]);
+      const fl = pool.map((_, k) => k).filter((k) => S.flag[k]);
+      const list = (arr) =>
+        arr.length
+          ? arr.map((k) => `<button type="button" class="cbt-chip" data-go="${k}">${k + 1}</button>`).join("")
+          : `<span class="muted">無</span>`;
+      return `<div class="cbt-modal" role="dialog" aria-modal="true" aria-labelledby="cbtCfH"><div class="card cbt-modal-card">
+        <h2 class="display" id="cbtCfH">確定要交卷嗎？</h2>
+        <p>已作答 <b>${pool.length - miss.length}</b> / ${pool.length} 題，剩餘時間 ${fmtTime(left())}。</p>
+        <div class="cbt-cf-row"><b>未作答（${miss.length}）</b><div>${list(miss)}</div></div>
+        <div class="cbt-cf-row"><b>標記待檢查（${fl.length}）</b><div>${list(fl)}</div></div>
+        <div class="toolbar"><button class="btn ghost" type="button" id="cbtBack">返回作答</button><span class="spacer"></span><button class="btn primary" type="button" id="cbtConfirm">確認交卷</button></div>
+      </div></div>`;
+    };
+    const paint = () => {
+      $app.innerHTML = view();
+      enhanceProse($app);
+      $(".cbt-grid .cur")?.scrollIntoView({ block: "nearest" });
+    };
+    const go = (k) => {
+      S.i = Math.max(0, Math.min(pool.length - 1, k));
+      confirming = false;
+      if (matchMedia("(max-width: 900px)").matches) gridOpen = false;
+      save();
+      paint();
+      $(".cbt-main")?.scrollTo?.({ top: 0 });
+    };
+    const pick = (k) => {
+      S.ans[S.i] = S.ans[S.i] === k ? S.ans[S.i] : k;
+      save();
+      paint();
+    };
+    const finish = (timeUp) => {
+      clearInterval(timer);
+      document.body.classList.remove("cbt-on");
+      const ms = Math.min(Date.now(), S.dl) - S.t0;
+      const rows = new Map();
+      let right = 0;
+      const wrongIds = [];
+      pool.forEach((qq, k) => {
+        const a = S.ans[k];
+        const ok = qq.noAnswer ? true : !!a && isRight(qq, a);
+        if (ok) right++;
+        else wrongIds.push(qq.id);
+        if (a && !qq.noAnswer) record(sid, qq.id, ok, { mode: "cbt" });
+        const r = rows.get(qq.chapter) || { n: 0, c: 0 };
+        r.n++;
+        if (ok) r.c++;
+        rows.set(qq.chapter, r);
+      });
+      const score = Math.round((right / pool.length) * 1000) / 10;
+      const hist = store.get(cbtHistKey(sid), []);
+      hist.push({ t: Date.now(), title: S.title, score, right, n: pool.length, ms });
+      store.set(cbtHistKey(sid), hist.slice(-50));
+      store.set(cbtKey(sid), null);
+      history.replaceState(null, "", `#/s/${sid}/cbt`);
+      setChrome(sid, "mock");
+      render(`<div class="wrap">
+        <nav class="crumbs" aria-label="路徑"><a href="#/s/${sid}">${esc(subj.meta.title)}</a><span class="sep">/</span><a href="#/s/${sid}/cbt">國考模式</a><span class="sep">/</span><span>成績</span></nav>
+        <header class="page-head"><div>
+          <div class="eyebrow">CBT · ${timeUp ? "時間到自動交卷" : `用時 ${fmtTime(ms)}`}</div>
+          <h1 class="display h-l">${esc(S.title)}</h1>
+          <p class="lede">得分 <b class="num">${score}</b> 分（答對 ${right} / ${pool.length}）。${score >= 60 ? "✅ 達 60 分。" : "⚠️ 未達 60 分。"}國考及格標準為兩科（醫學一、二）平均 60 分。</p>
+        </div></header>
+        <div class="card panel"><div class="mock-table-wrap"><table class="mock-table"><thead><tr><th>學科</th><th class="n">答對</th><th class="n">題數</th><th class="n">答對率</th></tr></thead><tbody>${[...rows.entries()].map(([ch, r]) => `<tr><td>${esc(subj.chMap[ch]?.title || ch)}</td><td class="n">${r.c}</td><td class="n">${r.n}</td><td class="n"><b>${pct(r.c, r.n)}%</b></td></tr>`).join("")}</tbody></table></div></div>
+        <div class="toolbar" style="margin-top:18px">
+          ${wrongIds.length ? `<a class="btn accent" href="#/s/${sid}/practice?${qs({ ids: wrongIds.join(","), mode: "order", start: 1 })}">${ic("rotate")}檢討錯題（${wrongIds.length}）</a>` : ""}
+          <a class="btn" href="#/s/${sid}/cbt">${ic("arrowR")}再考一份</a>
+        </div>
+      </div>`);
+    };
+    paint();
+    timer = setInterval(() => {
+      const el = $("#cbtClock");
+      if (!el) return clearInterval(timer);
+      el.textContent = fmtTime(left());
+      el.parentElement.classList.toggle("low", left() < 10 * 60e3);
+      if (left() <= 0) {
+        toast("時間到，已自動交卷");
+        finish(true);
+      }
+    }, 1000);
+    const onClick = (e) => {
+      const t = e.target.closest("button, a");
+      if (!t || !$app.contains(t)) return;
+      if (t.dataset.k) return pick(t.dataset.k);
+      if (t.dataset.go) return go(+t.dataset.go);
+      if (t.dataset.font) {
+        S.font = +t.dataset.font;
+        store.set("sh:cbtFont", S.font);
+        save();
+        return paint();
+      }
+      switch (t.id) {
+        case "cbtPrev": return go(S.i - 1);
+        case "cbtNext": return go(S.i + 1);
+        case "cbtFlag":
+          S.flag[S.i] = !S.flag[S.i];
+          save();
+          return paint();
+        case "cbtClear":
+          S.ans[S.i] = null;
+          save();
+          return paint();
+        case "cbtGridBtn":
+          gridOpen = !gridOpen;
+          return paint();
+        case "cbtSubmit":
+          confirming = true;
+          return paint();
+        case "cbtBack":
+          confirming = false;
+          return paint();
+        case "cbtConfirm":
+          return finish(false);
+      }
+    };
+    const onKey = (e) => {
+      if (e.metaKey || e.ctrlKey || e.altKey || confirming) return;
+      if (e.target.matches?.("input, textarea")) return;
+      const k = e.key.toUpperCase();
+      if ("ABCD".includes(k) && k.length === 1) return pick(k);
+      if ("1234".includes(k) && k.length === 1) return pick("ABCD"["1234".indexOf(k)]);
+      if (e.key === "ArrowRight") return go(S.i + 1);
+      if (e.key === "ArrowLeft") return go(S.i - 1);
+      if (k === "F") {
+        S.flag[S.i] = !S.flag[S.i];
+        save();
+        paint();
+      }
+    };
+    $app.addEventListener("click", onClick);
+    addEventListener("keydown", onKey);
+    onLeave(() => {
+      clearInterval(timer);
+      $app.removeEventListener("click", onClick);
+      removeEventListener("keydown", onKey);
+      document.body.classList.remove("cbt-on");
+    });
+  }
+
   async function pageMock(sid, q) {
     const subj = await loadSubject(sid);
     setChrome(sid, "mock");
@@ -5556,7 +6040,7 @@
       const last = S.i === pool.length - 1;
       return `<article class="card qcard" aria-labelledby="qstem">
         <div class="q-meta"><span class="pill line">${esc(M.sections[S.sec[S.i]].title)}</span>${S.flag[S.i] ? `<span class="pill warn">${ic("flag")}已標記</span>` : ""}</div>
-        <div class="q-stem" id="qstem">${rich(qq.stem)}</div>
+        ${passageBox(qq)}<div class="q-stem" id="qstem">${rich(qq.stem)}</div>
         ${qImgs(subj, qq)}
         <div class="options" role="radiogroup" aria-label="選項">${qq.options
           .map(
@@ -5774,13 +6258,13 @@
         <div class="flash-inner">
           <section class="card flash-face front"${S.flipped ? " inert" : ""}>
             ${qMeta(subj, x)}
-            <div class="q-stem">${rich(x.stem)}</div>${qImgs(subj, x)}${opts}
+            ${passageBox(x)}<div class="q-stem">${rich(x.stem)}</div>${qImgs(subj, x)}${opts}
             <div class="flip-hint"><button class="btn accent lg" type="button" id="flip">${ic("rotate")}翻面看答案<span class="kbd-hint hide-touch"><kbd>Space</kbd></span></button></div>
           </section>
           <section class="card flash-face back"${S.flipped ? "" : " inert"}>
             <div class="eyebrow">答案${wrongRateTag(subj.meta.id, x)}</div>
             ${big ? `<div class="flash-answer">${big}</div>` : ""}
-            ${x.answerText ? `<div class="answer-text">${rich(x.answerText)}</div>` : ""}
+            ${x.answerText ? `<div class="answer-text${x.mono ? " mono" : ""}">${rich(x.answerText)}</div>` : ""}
             ${optsBack && ans.length ? `<details class="fig-inline" style="border:0;padding:0;margin:0 0 6px"><summary>全部選項</summary>${optsBack}</details>` : ""}
             ${x.explain ? `<div class="explain-title" style="margin-top:14px">詳解</div><div class="explain">${rich(x.explain)}</div>` : ""}${exImgs(subj, x)}
             ${x.note ? `<div class="note">${ic("alert")}<div>${esc(x.note)}</div></div>` : ""}
@@ -5889,11 +6373,11 @@
     const ans = q.answer || [];
     return `<article class="card bq${open ? " open" : ""}">
       ${qMeta(subj, q)}
-      <div class="q-stem">${rich(q.stem)}</div>${qImgs(subj, q)}
+      ${passageBox(q)}<div class="q-stem">${rich(q.stem)}</div>${qImgs(subj, q)}
       ${(q.options || []).length ? `<ol>${q.options.map((o) => `<li class="${ans.includes(o.k) && !q.noAnswer ? "ans" : ""}"><span class="k">${o.k}</span><span>${esc(o.t)}</span></li>`).join("")}</ol>` : ""}
       <details${open ? " open" : ""}><summary>${ic("eye")}答案與詳解</summary>
         <div class="verdict neutral" style="margin-top:0"><div class="verdict-head">答案：${ans.length || q.noAnswer ? `${ansText(q)}${q.multi ? "（多選題）" : ""}` : q.answerText ? "見參考答案" : "無正確選項"}</div><div class="verdict-body">
-        ${q.answerText ? `<div class="answer-text">${rich(q.answerText)}</div>` : ""}
+        ${q.answerText ? `<div class="answer-text${q.mono ? " mono" : ""}">${rich(q.answerText)}</div>` : ""}
         ${q.explain ? `<div class="explain">${rich(q.explain)}</div>` : '<div class="muted">這題沒有附詳解。</div>'}${exImgs(subj, q)}
         ${q.note ? `<div class="note">${ic("alert")}<div>${esc(q.note)}</div></div>` : ""}${figLinks(subj, q)}
         <div style="margin-top:12px;display:flex;gap:14px;font-size:.85rem"><a href="#/s/${subj.meta.id}/q/${q.id}">單獨練這題</a><a href="${reportHref(subj.meta.id, q)}">回報此題</a></div></div></div>
@@ -7360,7 +7844,7 @@
   const BOARD_SEEN = "sh:board:seen";
   const markBoardSeen = (id) => {
     if (id > (store.get(BOARD_SEEN, 0) || 0)) store.set(BOARD_SEEN, id);
-    $$("#boardBtn, #bdFab").forEach((b) => b.classList.remove("ping"));
+    $$("#bdFab").forEach((b) => b.classList.remove("ping"));
   };
   // 訪客鑰匙：沒登入時用來認領、刪除自己的留言；資料庫只存它的 sha256
   const boardKey = () => {
@@ -7383,6 +7867,11 @@
           .join(""),
       )
       .catch(() => ""));
+  const BOARD_REACTS = [
+    ["heart", "rxHeart", "愛心"],
+    ["cry", "rxCry", "哭哭"],
+    ["fire", "rxFire", "加油"],
+  ];
   function mountBoard(root, { limit = 100, rows = 3 } = {}) {
     root.innerHTML = `<div class="board-compose"></div>
       <div class="board-status small muted" aria-live="polite">連線中⋯</div>
@@ -7391,6 +7880,23 @@
       status = $(".board-status", root),
       list = $(".board-list", root);
     const msgs = new Map();
+    // 心情：reacts.get(留言 id) = { kind: Set(reactor) }
+    const reacts = new Map();
+    const me = () => (Cloud.user ? `u:${Cloud.user.id}` : myKey ? `g:${myKey}` : "");
+    const addReact = (r, on) => {
+      const o = reacts.get(r.message_id) || {};
+      (o[r.kind] ||= new Set())[on ? "add" : "delete"](r.reactor);
+      reacts.set(r.message_id, o);
+    };
+    const reactBar = (m) => {
+      const o = reacts.get(m.id) || {},
+        who = me();
+      return `<div class="board-reacts" role="group" aria-label="心情">${BOARD_REACTS.map(([k, e, t]) => {
+        const n = o[k]?.size || 0,
+          on = !!who && !!o[k]?.has(who);
+        return `<button type="button" class="board-react${on ? " on" : ""}${n ? " has" : ""}" data-react="${k}" data-mid="${m.id}" aria-pressed="${on}" title="${t}" aria-label="${t}${n ? ` ${n}` : ""}" data-kind="${k}">${ic(e)}${n ? `<b class="num">${n}</b>` : ""}</button>`;
+      }).join("")}</div>`;
+    };
     const byFloor = (f) => {
       for (const m of msgs.values()) if (m.floor === f) return m;
       return null;
@@ -7441,7 +7947,7 @@
       return `<li data-id="${m.id}"${m.floor ? ` data-floor="${m.floor}"` : ""}${mine ? ' class="mine"' : ""}>
         <span class="board-av">${m.avatar ? `<img src="${esc(m.avatar)}" alt="" referrerpolicy="no-referrer" loading="lazy">` : ic("user")}</span>
         <div><div class="board-meta">${m.floor ? `<span class="board-floor">#${m.floor}</span>` : ""}<b>${esc(m.name || "同學")}</b>${m.guest ? '<span class="board-guest">訪客</span>' : ""}<time datetime="${esc(m.created_at)}" title="${esc(new Date(m.created_at).toLocaleString("zh-TW"))}">${boardTime(m.created_at)}</time><span class="board-acts">${m.floor ? `<button type="button" class="board-act" data-reply="${m.floor}" aria-label="回覆 #${m.floor}" title="回覆">${ic("reply")}</button>` : ""}${mine ? `<button type="button" class="board-act board-del" data-del="${m.id}" aria-label="刪除這則留言" title="刪除">${ic("trash")}</button>` : ""}</span></div>
-        ${quote}<p>${esc(m.body)}</p></div></li>`;
+        ${quote}<p>${esc(m.body)}</p>${reactBar(m)}</div></li>`;
     };
     const paint = () => {
       const arr = [...msgs.values()].sort((a, b) => b.id - a.id);
@@ -7535,6 +8041,31 @@
       li.classList.add("board-flash");
     };
     list.addEventListener("click", async (e) => {
+      const rb = e.target.closest("[data-react]");
+      if (rb) {
+        const mid = +rb.dataset.mid,
+          kind = rb.dataset.react,
+          who = me();
+        if (!who) return;
+        const on = !reacts.get(mid)?.[kind]?.has(who);
+        addReact({ message_id: mid, kind, reactor: who }, on); // 先畫，失敗再還原
+        paint();
+        const { error } = await Cloud.sb.rpc("board_react", {
+          p_id: mid,
+          p_kind: kind,
+          p_key: Cloud.user ? null : boardKey(),
+        });
+        if (error) {
+          addReact({ message_id: mid, kind, reactor: who }, !on);
+          paint();
+          toast(
+            /board_react|function/.test(error.message)
+              ? "還沒建立心情功能：請在 Supabase SQL Editor 執行 supabase/schema.sql 第 7 段"
+              : `沒按到：${error.message}`,
+          );
+        }
+        return;
+      }
       const r = e.target.closest("[data-reply]");
       if (r) {
         setReply(+r.dataset.reply);
@@ -7597,6 +8128,16 @@
             if (p.old?.id != null && msgs.delete(p.old.id)) paint();
           },
         )
+        .on(
+          "postgres_changes",
+          { event: "*", schema: "public", table: "board_reactions" },
+          (p) => {
+            const r = p.eventType === "DELETE" ? p.old : p.new;
+            if (!r?.message_id || !msgs.has(r.message_id)) return;
+            addReact(r, p.eventType !== "DELETE");
+            paint();
+          },
+        )
         .subscribe((st) => {
           if (failed) return;
           status.textContent =
@@ -7625,6 +8166,18 @@
       }
       for (const m of data) msgs.set(m.id, m);
       paint();
+      if (data.length) {
+        const { data: rs } = await sb
+          .from("board_reactions")
+          .select("message_id, kind, reactor")
+          .in(
+            "message_id",
+            data.map((m) => m.id),
+          );
+        if (!alive) return;
+        for (const r of rs || []) addReact(r, true);
+        if (rs?.length) paint();
+      }
     })();
     return cleanup;
   }
@@ -7706,7 +8259,7 @@
       last > (store.get(BOARD_SEEN, 0) || 0) &&
       !location.hash.startsWith("#/board")
     )
-      $$("#boardBtn, #bdFab").forEach((b) => b.classList.add("ping"));
+      $$("#bdFab").forEach((b) => b.classList.add("ping"));
   }
 
   // ------------------------------------------------------------ command palette

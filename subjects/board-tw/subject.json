@@ -1,0 +1,289 @@
+{
+  "id": "board-tw",
+  "title": "醫師一階國考",
+  "short": "一階國考",
+  "term": "專技高考醫師（一）第一階段",
+  "description": "醫學（一）、醫學（二）歷屆試題 12 場、共 2400 題，答案依考選部公告（含更正答案）。有「國考模式」可考歷屆真卷或隨機模擬卷。",
+  "color": "#2f5d8a",
+  "icon": "🩺",
+  "questionFiles": [
+    "data/q-115-2.json",
+    "data/q-115-1.json",
+    "data/q-114-2.json",
+    "data/q-114-1.json",
+    "data/q-113-2.json",
+    "data/q-113-1.json",
+    "data/q-112-2.json",
+    "data/q-112-1.json",
+    "data/q-111-2.json",
+    "data/q-111-1.json",
+    "data/q-110-2.json",
+    "data/q-110-1.json"
+  ],
+  "sources": [
+    {
+      "key": "tw1152",
+      "label": "115-2 國考考古",
+      "kind": "exam",
+      "pill": "violet"
+    },
+    {
+      "key": "tw1151",
+      "label": "115-1 國考考古",
+      "kind": "exam",
+      "pill": "violet"
+    },
+    {
+      "key": "tw1142",
+      "label": "114-2 國考考古",
+      "kind": "exam",
+      "pill": "line"
+    },
+    {
+      "key": "tw1141",
+      "label": "114-1 國考考古",
+      "kind": "exam",
+      "pill": "line"
+    },
+    {
+      "key": "tw1132",
+      "label": "113-2 國考考古",
+      "kind": "exam",
+      "pill": "line"
+    },
+    {
+      "key": "tw1131",
+      "label": "113-1 國考考古",
+      "kind": "exam",
+      "pill": "line"
+    },
+    {
+      "key": "tw1122",
+      "label": "112-2 國考考古",
+      "kind": "exam",
+      "pill": "line"
+    },
+    {
+      "key": "tw1121",
+      "label": "112-1 國考考古",
+      "kind": "exam",
+      "pill": "line"
+    },
+    {
+      "key": "tw1112",
+      "label": "111-2 國考考古",
+      "kind": "exam",
+      "pill": "line"
+    },
+    {
+      "key": "tw1111",
+      "label": "111-1 國考考古",
+      "kind": "exam",
+      "pill": "line"
+    },
+    {
+      "key": "tw1102",
+      "label": "110-2 國考考古",
+      "kind": "exam",
+      "pill": "line"
+    },
+    {
+      "key": "tw1101",
+      "label": "110-1 國考考古",
+      "kind": "exam",
+      "pill": "line"
+    }
+  ],
+  "groups": [
+    {
+      "title": "考試資訊",
+      "chapters": [
+        "ov-info"
+      ]
+    },
+    {
+      "title": "醫學（一）・生化、解剖、胚胎、組織、生理",
+      "chapters": [
+        "m1-anat",
+        "m1-embryo",
+        "m1-histo",
+        "m1-physio",
+        "m1-biochem"
+      ]
+    },
+    {
+      "title": "醫學（二）・微免、寄生蟲、公衛、藥理、病理",
+      "chapters": [
+        "m2-micro",
+        "m2-para",
+        "m2-ph",
+        "m2-pharm",
+        "m2-path"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ov-info",
+      "title": "醫師一階國考：考試資訊",
+      "en": "Exam overview",
+      "teacher": "",
+      "week": "",
+      "slides": true,
+      "pill": "考試資訊"
+    },
+    {
+      "id": "m1-anat",
+      "title": "解剖學",
+      "en": "Anatomy",
+      "teacher": "醫學（一）",
+      "week": "第 1–31 題",
+      "slides": true,
+      "pill": "考古 372 題"
+    },
+    {
+      "id": "m1-embryo",
+      "title": "胚胎及發育生物學",
+      "en": "Embryology",
+      "teacher": "醫學（一）",
+      "week": "第 32–36 題",
+      "slides": true,
+      "pill": "考古 60 題"
+    },
+    {
+      "id": "m1-histo",
+      "title": "組織學",
+      "en": "Histology",
+      "teacher": "醫學（一）",
+      "week": "第 37–46 題",
+      "slides": true,
+      "pill": "考古 120 題"
+    },
+    {
+      "id": "m1-physio",
+      "title": "生理學",
+      "en": "Physiology",
+      "teacher": "醫學（一）",
+      "week": "第 47–73 題",
+      "slides": true,
+      "pill": "考古 324 題"
+    },
+    {
+      "id": "m1-biochem",
+      "title": "生物化學",
+      "en": "Biochemistry",
+      "teacher": "醫學（一）",
+      "week": "第 74–100 題",
+      "slides": true,
+      "pill": "考古 324 題"
+    },
+    {
+      "id": "m2-micro",
+      "title": "微生物免疫學",
+      "en": "Microbiology & immunology",
+      "teacher": "醫學（二）",
+      "week": "第 1–28 題",
+      "slides": true,
+      "pill": "考古 336 題"
+    },
+    {
+      "id": "m2-para",
+      "title": "寄生蟲學",
+      "en": "Parasitology",
+      "teacher": "醫學（二）",
+      "week": "第 29–35 題",
+      "slides": true,
+      "pill": "考古 84 題"
+    },
+    {
+      "id": "m2-ph",
+      "title": "公共衛生學",
+      "en": "Public health",
+      "teacher": "醫學（二）",
+      "week": "第 36–50 題",
+      "slides": true,
+      "pill": "考古 180 題"
+    },
+    {
+      "id": "m2-pharm",
+      "title": "藥理學",
+      "en": "Pharmacology",
+      "teacher": "醫學（二）",
+      "week": "第 51–75 題",
+      "slides": true,
+      "pill": "考古 300 題"
+    },
+    {
+      "id": "m2-path",
+      "title": "病理學",
+      "en": "Pathology",
+      "teacher": "醫學（二）",
+      "week": "第 76–100 題",
+      "slides": true,
+      "pill": "考古 300 題"
+    }
+  ],
+  "tabs": {
+    "slides": "",
+    "sheet": "",
+    "figs": ""
+  },
+  "cbt": {
+    "title": "模擬國考・醫師（一）",
+    "minutes": 120,
+    "papers": [
+      {
+        "id": "m1",
+        "title": "醫學（一）",
+        "blocks": [
+          [
+            "m1-anat",
+            31
+          ],
+          [
+            "m1-embryo",
+            5
+          ],
+          [
+            "m1-histo",
+            10
+          ],
+          [
+            "m1-physio",
+            27
+          ],
+          [
+            "m1-biochem",
+            27
+          ]
+        ]
+      },
+      {
+        "id": "m2",
+        "title": "醫學（二）",
+        "blocks": [
+          [
+            "m2-micro",
+            28
+          ],
+          [
+            "m2-para",
+            7
+          ],
+          [
+            "m2-ph",
+            15
+          ],
+          [
+            "m2-pharm",
+            25
+          ],
+          [
+            "m2-path",
+            25
+          ]
+        ]
+      }
+    ]
+  }
+}

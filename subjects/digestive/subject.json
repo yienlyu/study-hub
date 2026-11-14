@@ -1,0 +1,64 @@
+{
+  "id": "digestive",
+  "title": "消化系統",
+  "short": "消化",
+  "term": "115-2 大二下・尚未上課",
+  "description": "皮膚與消化系統的解剖、組織與生理。目前依系學會「共筆（系學會歷屆）／大二 下／111」（113 學年度上課）建立章節，上課後再依今年 slides、錄影與共筆整理。",
+  "color": "#3f7a4f",
+  "icon": "🫃",
+  "questionFiles": [],
+  "groups": [
+    {
+      "title": "115-2 大二下・消化系統",
+      "chapters": [
+        "integument",
+        "gi-anat-1",
+        "gi-anat-2",
+        "gi-histo",
+        "gi-phys"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "integument",
+      "title": "皮膚",
+      "en": "Integument",
+      "teacher": "李愛薇",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "gi-anat-1",
+      "title": "消化系統解剖（一）",
+      "en": "Digestive system I–III",
+      "teacher": "李愛薇",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "gi-anat-2",
+      "title": "消化系統解剖（二）",
+      "en": "Digestive system IV–V",
+      "teacher": "李愛薇",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "gi-histo",
+      "title": "消化系統組織",
+      "en": "Histology of digestive system",
+      "teacher": "李愛薇",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "gi-phys",
+      "title": "消化生理",
+      "en": "Gastrointestinal physiology",
+      "teacher": "阮淑慧",
+      "week": "",
+      "slides": false
+    }
+  ]
+}

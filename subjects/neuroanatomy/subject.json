@@ -1,0 +1,91 @@
+{
+  "id": "neuroanatomy",
+  "title": "神經解剖學",
+  "short": "神經解剖",
+  "term": "116-2 大三下・尚未上課",
+  "description": "脊髓、感覺與運動系統、小腦、基底核、間腦、邊緣系統、視聽覺。目前依系學會「共筆（系學會歷屆）／大三 下／110」建立章節，上課後再依今年 slides、錄影與共筆整理。",
+  "color": "#4b4b8a",
+  "icon": "🧠",
+  "questionFiles": [],
+  "groups": [
+    {
+      "title": "116-2 大三下・神經解剖學",
+      "chapters": [
+        "spinal-cord",
+        "sensory",
+        "motor",
+        "brainstem",
+        "cerebellum-bg",
+        "limbic",
+        "visual",
+        "auditory"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "spinal-cord",
+      "title": "脊髓",
+      "en": "Spinal cord",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "sensory",
+      "title": "一般感覺系統",
+      "en": "General sensory system",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "motor",
+      "title": "運動系統",
+      "en": "Motor system",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "brainstem",
+      "title": "腦幹與腦神經核",
+      "en": "Brainstem",
+      "teacher": "張宏名",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "cerebellum-bg",
+      "title": "小腦、基底核與間腦",
+      "en": "Cerebellum, basal ganglia & diencephalon",
+      "teacher": "洪君琳",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "limbic",
+      "title": "邊緣系統",
+      "en": "Limbic system",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "visual",
+      "title": "視覺系統",
+      "en": "Visual system",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "auditory",
+      "title": "聽覺系統",
+      "en": "Auditory system",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    }
+  ]
+}

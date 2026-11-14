@@ -1,0 +1,64 @@
+{
+  "id": "pediatrics",
+  "title": "小兒及遺傳疾病",
+  "short": "小兒",
+  "term": "117-2 大四下・尚未上課",
+  "description": "小兒科與遺傳疾病（含小兒常見神經腫瘤補充）。目前依系學會「共筆（系學會歷屆）／大四 下／109」建立章節，上課後再依今年 slides、錄影與共筆整理。",
+  "color": "#c07a2a",
+  "icon": "🧸",
+  "questionFiles": [],
+  "groups": [
+    {
+      "title": "117-2 大四下・小兒及遺傳疾病",
+      "chapters": [
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "b1",
+      "title": "小兒 Book 1",
+      "en": "Book 1",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "b2",
+      "title": "小兒 Book 2",
+      "en": "Book 2",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "b3",
+      "title": "小兒 Book 3",
+      "en": "Book 3",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "b4",
+      "title": "小兒 Book 4",
+      "en": "Book 4",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "b5",
+      "title": "小兒 Book 5",
+      "en": "Book 5",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    }
+  ]
+}

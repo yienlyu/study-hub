@@ -1,0 +1,82 @@
+{
+  "id": "env-health",
+  "title": "環境衛生",
+  "short": "環衛",
+  "term": "116-1 大三上・尚未上課",
+  "description": "環境污染、毒理、健康風險評估與生物偵測。目前依系學會「共筆（系學會歷屆）／大三 上／111」建立章節，上課後再依今年 slides、錄影與共筆整理。",
+  "color": "#3a6b6b",
+  "icon": "🌏",
+  "questionFiles": [],
+  "groups": [
+    {
+      "title": "116-1 大三上・環境衛生",
+      "chapters": [
+        "air",
+        "water",
+        "food",
+        "toxicology",
+        "risk",
+        "biomonitoring",
+        "weekly"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "air",
+      "title": "空氣污染與健康",
+      "en": "Air pollution",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "water",
+      "title": "水污染",
+      "en": "Water pollution",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "food",
+      "title": "食品衛生與安全",
+      "en": "Food safety",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "toxicology",
+      "title": "環境毒理學",
+      "en": "Environmental toxicology",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "risk",
+      "title": "健康風險評估",
+      "en": "Health risk assessment",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "biomonitoring",
+      "title": "生物偵測",
+      "en": "Biomonitoring",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "weekly",
+      "title": "其他週次上課內容",
+      "en": "Weekly lectures (W1–W15)",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "general-intro",
+  "title": "綜合概論",
+  "short": "綜合概論",
+  "term": "116-1 大三上・尚未上課",
+  "description": "病理總論、藥理總論、自主神經藥物與臨床醫學簡介。目前依系學會「共筆（系學會歷屆）／大三 上／111」建立章節，上課後再依今年 slides、錄影與共筆整理。",
+  "color": "#6a4f7a",
+  "icon": "🧩",
+  "questionFiles": [],
+  "groups": [
+    {
+      "title": "116-1 大三上・綜合概論",
+      "chapters": [
+        "pharm-intro",
+        "autonomic-drugs",
+        "cell-injury",
+        "inflammation",
+        "hemodynamic",
+        "genetic",
+        "neoplasia",
+        "antineoplastic",
+        "pediatric-path",
+        "env-nutrition",
+        "clinical-intro"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "pharm-intro",
+      "title": "藥理學概論",
+      "en": "Introduction to pharmacology",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "autonomic-drugs",
+      "title": "自主神經藥物",
+      "en": "Cholinergic & adrenergic drugs",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "cell-injury",
+      "title": "細胞傷害、死亡與適應",
+      "en": "Cell injury, death & adaptation",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "inflammation",
+      "title": "發炎與修復",
+      "en": "Inflammation & repair",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "hemodynamic",
+      "title": "血行動力學異常",
+      "en": "Hemodynamic disorders",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "genetic",
+      "title": "遺傳疾病",
+      "en": "Genetic disorders",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "neoplasia",
+      "title": "腫瘤",
+      "en": "Neoplasia",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "antineoplastic",
+      "title": "抗腫瘤藥物",
+      "en": "Anticancer drugs",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "pediatric-path",
+      "title": "嬰幼兒疾病",
+      "en": "Diseases of infancy and childhood",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "env-nutrition",
+      "title": "環境與營養疾病",
+      "en": "Environmental & nutritional diseases",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "clinical-intro",
+      "title": "內科醫學與檢驗醫學簡介",
+      "en": "Introduction to internal & laboratory medicine",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    }
+  ]
+}

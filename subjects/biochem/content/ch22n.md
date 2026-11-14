@@ -1,8 +1,8 @@
 === summary ===
 
-# 核苷酸代謝 內容整理（依今年 slides 與百十三共筆整理，鄭嘉雄）
+# 核苷酸代謝 內容整理（依百十四共筆整理、對照百十三共筆，鄭嘉雄）
 
-> 📌 **期末範圍。**11/5 上課（鄭嘉雄）。百十四共筆還沒上傳，以下依今年 slides「Lehninger-pob8-ch22」（Chapter 22-4，68 頁）與百十三共筆 W9（Ch22-4）整理；slides 逐頁重點與錄影裡老師提點的考點在「上課重點」。之後會再依照百十四共筆整理。
+> 📌 **期末範圍。**11/5 上課（鄭嘉雄）。依百十四共筆 W9（Chapter 22-4，115. Nov. 5）與今年 slides「Lehninger-pob8-ch22」（68 頁）整理，文末對照百十三共筆；slides 逐頁重點與錄影裡老師提點的考點在「上課重點」。
 
 ## 1. 核苷酸的組成與功能
 
@@ -32,6 +32,7 @@
 
 ## 3. Purine de novo 合成 ⭐⭐⭐
 
+- 百十四共筆：老師說 PRPP → IMP 這段**主要記有哪些分子參與，酵素不用記**；**IMP → AMP／GMP 那張圖很常考，可以整張記下來**。
 - 在 **PRPP 的 C1** 上一步步蓋環，第一個有完整 purine 環的產物是 **IMP（inosinate）**；酵素組成多功能複合體 **purinosome**（metabolon），中間產物在裡面傳遞、不外漏（例如不穩定的 5-phosphoribosylamine）。
 - **第一個 committed step**：**glutamine-PRPP amidotransferase** 把 Gln 的胺基接到 PRPP 的 C1 → **5-phosphoribosylamine（PRA）**（feedback 的主要標的）。
 - 接著依序加入 **glycine**（GAR synthetase，花 ATP）→ **N¹⁰-formyl-THF**（第一個碳）→ **glutamine** → 閉環成五元 imidazole 環 **AIR** → 加 CO₂（**真核一步 AIR carboxylase**；細菌、真菌兩步，且**不需要 biotin**，直接用 HCO₃⁻）→ **aspartate**（SAICAR，脫 fumarate）→ **N¹⁰-formyl-THF**（最後一個碳）→ 第二次閉環 → **IMP**。
@@ -79,6 +80,7 @@
   | **Substrate specificity site** | ATP 或 dATP | 促進 **UDP、CDP** 還原 |
   | | **dTTP** | 促進 **GDP** 還原 |
   | | **dGTP** | 促進 **ADP** 還原 |
+  - 百十四共筆另寫出抑制的一面：**dGTP** 促進 ADP、**抑制 CDP、UDP、GDP**；**dTTP** 促進 GDP、**抑制 CDP、UDP**；primary site 結合 **ATP 時 α、β 合併（開）**，結合 **dATP 時 α、β 分開或形成八聚體（關）**。反應機制（–SH 接電子形成 S–S，再由 glutaredoxin／thioredoxin 還原）老師說**看過即可、不太會考**。
   - 設計目的是讓四種 dNTP 平衡：pyrimidine dNTP 太多 → dTTP 高 → 轉向還原 GDP → dGTP 高 → 轉向 ADP → **dATP 高就把整個酵素關掉**。
 - **dTMP（thymidylate）合成**：DNA 用 T 不用 U，T 的 de novo 路徑只走 deoxyribonucleotide。
   1. dCTP 去胺（deaminase）或 dUDP 磷酸化 → **dUTP** →（**dUTPase**）→ **dUMP**。
@@ -86,6 +88,7 @@
   3. **DHF →（dihydrofolate reductase, DHFR，NADPH）→ THF** →（serine hydroxymethyltransferase）→ 回到 methylene-THF。
   - 植物與部分原生生物的 thymidylate synthase 和 DHFR 在同一條雙功能蛋白上。
   - **Thymidylate synthase 與 DHFR 是細胞合成 thymine 的唯一路徑** → 抗癌藥的重要標的。
+  - 百十四共筆：老師強調 **thymidylate synthase 很重要**、**DHFR 要記住**；**dUMP 是 dTMP 的直接前驅物（immediate precursor）**，DNA 裡看得到 T 看不到 U，就是因為原料要先到 dUMP、去氧之後再甲基化成 dTMP。沒有 DHFR → DHF 無法回到 THF → 甲基來源斷絕 → dTMP 停擺。
 
 <div data-fig="dtmp-cycle"></div>
 
@@ -95,7 +98,7 @@
   - **AMP** →（**5′-nucleotidase** 去磷酸）→ adenosine →（**adenosine deaminase, ADA** 去胺）→ **inosine** →（水解）→ **hypoxanthine** + ribose →（**xanthine oxidase**）→ **xanthine** →（xanthine oxidase）→ **uric acid**。
   - **GMP** → guanosine → **guanine** →（**guanine deaminase**）→ **xanthine** → **uric acid**。
   - **人類終產物是尿酸**；多數哺乳類再由 **urate oxidase** 分解成 **allantoin**，其他生物再往下分解。
-- **Pyrimidine → 尿素**：產生 **NH₄⁺**（進尿素循環）與 CO₂，水溶性好、不會堆積。
+- **Pyrimidine → 尿素**：產生 **NH₄⁺**（進尿素循環）與 CO₂，水溶性好、不會堆積。百十四共筆：單環容易完全拆解、產物可溶，所以**沒有像痛風那樣的結晶性代謝疾病**。
   - **Cytosine** 去胺 → uracil → **β-alanine** → **acetyl-CoA**。
   - **Thymine** → **β-aminoisobutyrate** → **succinyl-CoA**（進 TCA）；尿中可測到 β-aminoisobutyrate。
 
@@ -106,7 +109,7 @@
   - **Guanine → GMP**、**hypoxanthine → IMP**：都由 **HGPRT（hypoxanthine-guanine phosphoribosyltransferase）**。
   - HGPRT **不參與 pyrimidine salvage**；**inosine（nucleoside）不是 PRT 的受質**。
 - **Lesch-Nyhan syndrome**：**HGPRT 先天完全缺乏**、**X-linked**（幾乎都是男孩）、約 2 歲發病；協調差、智能障礙、極度易怒、**咬手指、腳趾、嘴唇的自殘行為**。機轉：hypoxanthine、guanine 無法回收 → **PRPP 堆積 → de novo 大量合成 purine → 尿酸過高**、類痛風組織傷害；腦特別依賴 salvage → 神經症狀。
-- **ADA 缺乏 → 嚴重複合型免疫缺乏（SCID）**：T、B 淋巴球無法正常發育。機轉：細胞內 **dATP 上升約 100 倍 → 抑制 ribonucleotide reductase** → 其他 dNTP 不足 → 淋巴球無法複製 DNA。（不是 dATP 不足、和 allopurinol 治療無關）
+- **ADA 缺乏 → 嚴重複合型免疫缺乏（SCID，俗稱泡泡男孩症）**：T、B 淋巴球無法正常發育。機轉：adenosine／deoxyadenosine 堆積 → 細胞內 **dATP 上升約 100 倍 → 結合 RNR 的 primary regulation site、全面關閉 RNR** → 無法生成 dCTP、dGTP、dTTP → 最需要頻繁複製 DNA 的淋巴球無法發育。（不是 dATP 不足、和 allopurinol 治療無關）百十四共筆：老師補充 **CRISPR-Cas9 基因編輯**修復缺陷基因是這類先天代謝缺陷的潛在治療方向。
 
 <div data-fig="purine-degradation"></div>
 
@@ -120,7 +123,7 @@
   | **HGPRT 部分缺乏** | 無法回收 hypoxanthine、guanine → 只能分解成尿酸；PRPP 堆積再推動 de novo |
   | **Glucose-6-phosphatase 缺乏**（von Gierke） | G6P 無法變 glucose → 改走 **PPP** → ribose-5-P → **PRPP** ↑ |
   - **ADA 缺乏不會造成痛風**。
-- 治療：飲食避開富含核酸的食物（肝臟、腺體類）+ 藥物 **allopurinol**。
+- 治療（飲食控制加藥物最有效）：避開富含核苷酸、核酸的食物（百十四共筆：**肝臟等內臟、部分海鮮、啤酒、大量紅肉**）+ 藥物 **allopurinol**。
 - **Allopurinol**：**hypoxanthine 類似物**（環上 N、C 位置互換）、**xanthine oxidase 的受質** → 被轉成 **oxypurinol（alloxanthine）** → 緊密結合在**還原態**酵素的活性位點使其失活。排出的 purine 代謝物變成 **xanthine 與 hypoxanthine**，比尿酸好溶、不易結晶。
   - 由 Gertrude Elion 與 George Hitchings 開發（1988 諾貝爾獎），兩人也開發了 **acyclovir** 與化療用的 purine analog。
   - 非洲錐蟲沒有 de novo 核苷酸合成、只靠 salvage → allopurinol 等 purine analog 有治療潛力。
@@ -144,9 +147,9 @@
 
 ## 百十三共筆對照
 
-- 百十三共筆把 PRPP 合成寫成「由 ADP 回饋抑制」，並註明「IMP 合成的酵素不用記，主要記有哪些分子參與」、「AMP／GMP 合成那張圖很常考，可以直接記下來」。
-- 百十三共筆把 RNR 的 α 次單元分成 activity site、primary regulation site（ATP 開、dATP 關；dATP 使 α、β 分開或形成八聚體）、substrate specificity site 三種。
-- 百十三共筆的藥物分類表（AZT 系列、抗 HSV、araC、5-FU、葉酸類似物、purine analog、DHFR 抑制劑）註明「老師上課未提及」，參考百十一共筆。
+- **化療與抗病毒藥分類表**：百十三共筆（參考百十一共筆）列了 AZT 系列（ddC、ddI、3TC、d4T）、抗 HSV（acyclovir、ganciclovir、araA）、araC、葉酸類似物（pemetrexed、Tomudex、Thymitaq）、purine analog（6-MP、6-thioguanine、formycin B），並註明「老師上課未提及」；百十四共筆的藥物段只寫 **5-FU／5-FdUrd** 與 **methotrexate、aminopterin、trimethoprim** 兩類。上表其餘藥物來自 slides p41–45 與百十三共筆。
+- **IMP 合成的記憶重點**、**AMP／GMP 圖常考**、**RNR 三種位點**（activity、primary regulation、substrate specificity）：兩屆共筆寫法相同。
+- **PRPP synthetase 的 feedback**：兩屆共筆的調控表都只寫 **ADP**；痛風段落兩屆都寫 ADP、GDP 皆有負回饋。
 
 === slides ===
 

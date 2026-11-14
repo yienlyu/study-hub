@@ -31,6 +31,7 @@
   "questionFiles": [
     "data/questions-k114.json",
     "data/questions-kaogu.json",
+    "data/questions-kaogu-final.json",
     "data/questions-k113mid.json",
     "data/questions-k109.json",
     "data/questions-new.json"
@@ -75,8 +76,12 @@
   ],
   "groups": [
     {
-      "title": "期末・絛蟲（范家堃）W9",
-      "chapters": ["cestodes-pseudo"]
+      "title": "期末・絛蟲（范家堃、莊定武）W9–W10",
+      "chapters": ["cestodes-pseudo", "cestodes-cyclo"]
+    },
+    {
+      "title": "期末・原蟲（莊定武）W10–",
+      "chapters": ["protozoa-lumen"]
     },
     {
       "title": "期末・跑台、混合蟲卵｜線蟲實驗 W3",
@@ -103,35 +108,60 @@
       "done": "26/11/3 midterm"
     }
   ],
-  "mock": {
-    "until": "2026-11-03T19:40+08:00",
-    "title": "期中模擬考",
-    "when": "11/3（二）18:30–19:40",
-    "minutes": 70,
-    "note": "題型依 I'm@TMU 期中考公告（更新重要考訊）：單選 60 題共 105 分、配合 5 題共 5 分，滿分 110。這裡只出單選 60 題；配合題請另外練。公告沒有分老師配分，先依授課時數抓線蟲 60%、吸蟲 40%。寄生蟲名稱、吸蟲的螺類中間宿主一律用英文學名，不會有中文名。課外補充教材也在範圍內。",
-    "sections": [
-      {
-        "title": "范家堃：總論與線蟲",
-        "points": 63,
-        "n": 36,
-        "from": [
-          "intro",
-          "sth",
-          "enterobius-toxocara",
-          "capillaria-strongyloides",
-          "foodborne",
-          "filaria"
-        ]
-      },
-      {
-        "title": "鄭柏青：吸蟲",
-        "points": 42,
-        "n": 24,
-        "from": ["trematodes"]
-      }
-    ],
-    "newRatio": 0.2
-  },
+  "mock": [
+    {
+      "until": "2026-11-03T19:40+08:00",
+      "title": "期中模擬考",
+      "when": "11/3（二）18:30–19:40",
+      "minutes": 70,
+      "note": "題型依 I'm@TMU 期中考公告（更新重要考訊）：單選 60 題共 105 分、配合 5 題共 5 分，滿分 110。這裡只出單選 60 題；配合題請另外練。公告沒有分老師配分，先依授課時數抓線蟲 60%、吸蟲 40%。寄生蟲名稱、吸蟲的螺類中間宿主一律用英文學名，不會有中文名。課外補充教材也在範圍內。",
+      "sections": [
+        {
+          "title": "范家堃：總論與線蟲",
+          "points": 63,
+          "n": 36,
+          "from": [
+            "intro",
+            "sth",
+            "enterobius-toxocara",
+            "capillaria-strongyloides",
+            "foodborne",
+            "filaria"
+          ]
+        },
+        {
+          "title": "鄭柏青：吸蟲",
+          "points": 42,
+          "n": 24,
+          "from": ["trematodes"]
+        }
+      ],
+      "newRatio": 0.2
+    },
+    {
+      "id": "final",
+      "title": "期末模擬考（紙筆）",
+      "when": "12/21（一）",
+      "until": "2026-12-21T23:59+08:00",
+      "minutes": 60,
+      "note": "I'm@TMU 還沒公告期末範圍與配分；題型先比照期中（單選）。目前只出已上課的章節：絛蟲（范家堃、莊定武）與原蟲 I（阿米巴、腸腔道原蟲），題目來自百十三絛蟲與原蟲考古；血液鞭毛蟲、孢子蟲、醫學節肢動物上課後再加入，配分屆時重估。",
+      "sections": [
+        {
+          "title": "絛蟲：假葉目與圓葉目",
+          "points": 60,
+          "n": 30,
+          "from": ["cestodes-pseudo", "cestodes-cyclo"]
+        },
+        {
+          "title": "原蟲：阿米巴與腸腔道原蟲",
+          "points": 40,
+          "n": 20,
+          "from": ["protozoa-lumen"]
+        }
+      ],
+      "newRatio": 0.2
+    }
+  ],
   "chapters": [
     {
       "id": "intro",
@@ -195,6 +225,22 @@
       "en": "Cestodes: Outline & Pseudophyllidea",
       "teacher": "范家堃",
       "week": "W9（11/2）",
+      "slides": true
+    },
+    {
+      "id": "cestodes-cyclo",
+      "title": "絛蟲 II：圓葉目（肉絛蟲、包膜絛蟲、犬複殖器絛蟲、包生絛蟲）",
+      "en": "Cestodes II: Cyclophyllidea",
+      "teacher": "莊定武",
+      "week": "W10（11/9）",
+      "slides": true
+    },
+    {
+      "id": "protozoa-lumen",
+      "title": "原蟲總論、阿米巴與腸腔道原蟲",
+      "en": "Protozoa I: Amoebae & Lumen-dwelling Protozoa",
+      "teacher": "莊定武",
+      "week": "W10（11/9）",
       "slides": true
     },
     {

@@ -1,0 +1,46 @@
+{
+  "id": "anatomy-lab",
+  "title": "大體解剖實驗",
+  "short": "大體實",
+  "term": "116-1 大三上・尚未上課",
+  "description": "大體解剖實驗：頭頸、胸背、腹部與骨盆。目前依系學會「共筆（系學會歷屆）／大三 上／111」建立章節，上課後再依今年 slides、錄影與共筆整理。",
+  "color": "#6b5a45",
+  "icon": "🩻",
+  "questionFiles": [],
+  "groups": [
+    {
+      "title": "116-1 大三上・大體解剖實驗",
+      "chapters": [
+        "head",
+        "neck-thorax-back",
+        "abdomen-pelvis"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "head",
+      "title": "頭部",
+      "en": "Head",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "neck-thorax-back",
+      "title": "頸部、胸部與背部",
+      "en": "Neck, thorax & back",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "abdomen-pelvis",
+      "title": "腹部與骨盆",
+      "en": "Abdomen & pelvis",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    }
+  ]
+}

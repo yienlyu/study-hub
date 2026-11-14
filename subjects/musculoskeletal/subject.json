@@ -1,0 +1,136 @@
+{
+  "id": "musculoskeletal",
+  "title": "骨骼肌肉系統",
+  "short": "骨肌",
+  "term": "115-2 大二下・尚未上課",
+  "description": "骨骼、關節、肌肉的解剖、組織、生理與發育。目前依系學會「共筆（系學會歷屆）／大二 下／111」（113 學年度上課）建立章節，上課後再依今年 slides、錄影與共筆整理。",
+  "color": "#8a6d3b",
+  "icon": "🦴",
+  "questionFiles": [],
+  "groups": [
+    {
+      "title": "115-2 大二下・骨骼肌肉系統",
+      "chapters": [
+        "skeleton-intro",
+        "axial",
+        "appendicular",
+        "excitability",
+        "muscle-intro",
+        "muscles-head-back",
+        "muscles-upper",
+        "muscles-trunk",
+        "muscles-lower",
+        "bone-histo",
+        "muscle-histo",
+        "muscle-phys",
+        "msk-embryo"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "skeleton-intro",
+      "title": "骨骼系統導論、關節與頭骨",
+      "en": "Introduction, joints & skull",
+      "teacher": "陳淑華",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "axial",
+      "title": "中軸骨",
+      "en": "Axial skeleton",
+      "teacher": "陳淑華",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "appendicular",
+      "title": "附肢骨與關節",
+      "en": "Appendicular skeleton & joints",
+      "teacher": "陳淑華",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "excitability",
+      "title": "細胞膜運輸與細胞興奮性",
+      "en": "Membrane transport & cell excitability",
+      "teacher": "黃玲玲",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "muscle-intro",
+      "title": "肌肉系統總論",
+      "en": "Muscular system",
+      "teacher": "陳淑華",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "muscles-head-back",
+      "title": "頭頸部與背部肌肉",
+      "en": "Head, neck & back muscles",
+      "teacher": "陳淑華",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "muscles-upper",
+      "title": "上肢肌肉",
+      "en": "Upper limb muscles",
+      "teacher": "陳淑華",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "muscles-trunk",
+      "title": "呼吸肌、腹後壁與骨盆肌",
+      "en": "Respiratory, posterior abdominal & pelvic muscles",
+      "teacher": "陳淑華",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "muscles-lower",
+      "title": "大腿、小腿與足部肌肉",
+      "en": "Lower limb muscles",
+      "teacher": "陳淑華",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "bone-histo",
+      "title": "骨形成與軟骨、硬骨組織",
+      "en": "Bone formation & cartilage/bone histology",
+      "teacher": "陳淑華",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "muscle-histo",
+      "title": "肌肉組織",
+      "en": "Muscle tissue",
+      "teacher": "陳淑華",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "muscle-phys",
+      "title": "肌肉生理學",
+      "en": "Muscle physiology",
+      "teacher": "徐松柏",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "msk-embryo",
+      "title": "骨骼肌肉系統發育",
+      "en": "Development of skeletal & muscular system",
+      "teacher": "陳淑華",
+      "week": "",
+      "slides": false
+    }
+  ]
+}

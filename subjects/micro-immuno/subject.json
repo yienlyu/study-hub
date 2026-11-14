@@ -21,7 +21,8 @@
       "chapters": [
         "herpes-pox",
         "papova-adeno-parvo",
-        "picorna-cov"
+        "picorna-cov",
+        "ortho-paramyxo"
       ]
     },
     {
@@ -422,6 +423,14 @@
       "en": "Picornaviruses & Coronaviruses",
       "teacher": "林良宗",
       "week": "W9-2（11/6）",
+      "slides": true
+    },
+    {
+      "id": "ortho-paramyxo",
+      "title": "正黏液病毒與副黏液病毒",
+      "en": "Orthomyxoviruses & Paramyxoviruses",
+      "teacher": "陳玫潔",
+      "week": "W10（11/11）",
       "slides": true
     },
     {

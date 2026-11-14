@@ -1,0 +1,136 @@
+{
+  "id": "neuroscience",
+  "title": "神經系統",
+  "short": "神經",
+  "term": "115-2 大二下・尚未上課",
+  "description": "腦神經、周邊神經、特殊感覺、自主神經與神經生理。目前依系學會「共筆（系學會歷屆）／大二 下／111」（113 學年度上課）建立章節，上課後再依今年 slides、錄影與共筆整理。",
+  "color": "#5b4b8a",
+  "icon": "🧠",
+  "questionFiles": [],
+  "groups": [
+    {
+      "title": "115-2 大二下・神經系統",
+      "chapters": [
+        "ns-intro",
+        "cn-orbit",
+        "cn-face-ear",
+        "cn-lower",
+        "pns",
+        "consciousness",
+        "eye",
+        "ear",
+        "ans",
+        "movement",
+        "sensory",
+        "hypothalamus",
+        "eeg"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ns-intro",
+      "title": "神經系統介紹與胚胎發育",
+      "en": "Introduction & development of nervous system",
+      "teacher": "張宏名",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "cn-orbit",
+      "title": "嗅神經、眼球構造與眼球相關神經",
+      "en": "CN I–VI & the orbit",
+      "teacher": "張宏名",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "cn-face-ear",
+      "title": "三叉神經下頷支、顏面神經、聽神經",
+      "en": "CN V3, VII, VIII",
+      "teacher": "張宏名",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "cn-lower",
+      "title": "舌咽、迷走、副神經與舌下神經",
+      "en": "CN IX–XII",
+      "teacher": "張宏名",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "pns",
+      "title": "周邊神經系統與脊神經叢",
+      "en": "PNS, brachial & lumbar plexus",
+      "teacher": "施佑宗",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "consciousness",
+      "title": "意識、學習與記憶",
+      "en": "Consciousness, learning & memory",
+      "teacher": "趙需文",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "eye",
+      "title": "眼睛",
+      "en": "Special senses: eye",
+      "teacher": "施佑宗",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "ear",
+      "title": "耳朵",
+      "en": "Special senses: ear",
+      "teacher": "施佑宗",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "ans",
+      "title": "自主神經系統",
+      "en": "Autonomic nervous system",
+      "teacher": "黃玲玲",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "movement",
+      "title": "運動控制",
+      "en": "Body movement",
+      "teacher": "趙需文",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "sensory",
+      "title": "感覺生理",
+      "en": "Sensory physiology",
+      "teacher": "張敬邦",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "hypothalamus",
+      "title": "下視丘與邊緣系統",
+      "en": "Hypothalamus & limbic system",
+      "teacher": "黃玲玲",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "eeg",
+      "title": "腦電波實驗",
+      "en": "EEG lab",
+      "teacher": "趙需文",
+      "week": "",
+      "slides": false
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "intro-human",
+  "title": "人體概論",
+  "short": "人概",
+  "term": "115-2 大二下・尚未上課",
+  "description": "胚胎學、組織學與人體結構總論。目前依系學會「共筆（系學會歷屆）／大二 下／111」（113 學年度上課）建立章節，上課後再依今年 slides、錄影與共筆整理。",
+  "color": "#7a5c3e",
+  "icon": "🧍",
+  "questionFiles": [],
+  "groups": [
+    {
+      "title": "115-2 大二下・人體概論",
+      "chapters": [
+        "intro",
+        "gameto",
+        "week3",
+        "week4-8",
+        "fetal",
+        "pharyngeal",
+        "synapse",
+        "histology"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "intro",
+      "title": "人體結構概論",
+      "en": "Introduction to human body",
+      "teacher": "馮琮涵",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "gameto",
+      "title": "配子生成與第一、二週",
+      "en": "Gametogenesis, 1st & 2nd week",
+      "teacher": "馮琮涵",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "week3",
+      "title": "第三週與胚胎摺疊",
+      "en": "3rd week & embryonic folding",
+      "teacher": "馮琮涵",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "week4-8",
+      "title": "體腔與第 4–8 週",
+      "en": "Intra-embryonic coelom & weeks 4–8",
+      "teacher": "馮琮涵",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "fetal",
+      "title": "胎兒期、胎盤與胎膜",
+      "en": "Fetal period, placenta & fetal membranes",
+      "teacher": "馮琮涵",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "pharyngeal",
+      "title": "咽弓器官",
+      "en": "Pharyngeal apparatus",
+      "teacher": "馮琮涵",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "synapse",
+      "title": "突觸傳遞與神經傳導物質",
+      "en": "Synapse & neurotransmitters",
+      "teacher": "趙需文",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "histology",
+      "title": "組織學總論與結締組織",
+      "en": "Histology & connective tissue",
+      "teacher": "馮琮涵",
+      "week": "",
+      "slides": false
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "cardiopulmonary",
+  "title": "呼吸循環系統",
+  "short": "呼循",
+  "term": "115-2 大二下・尚未上課",
+  "description": "呼吸、心血管、淋巴與血液的解剖、組織、胚胎與生理。目前依系學會「共筆（系學會歷屆）／大二 下／111」（113 學年度上課）建立章節，上課後再依今年 slides、錄影與共筆整理。",
+  "color": "#a33f3f",
+  "icon": "🫀",
+  "questionFiles": [],
+  "groups": [
+    {
+      "title": "115-2 大二下・呼吸循環系統",
+      "chapters": [
+        "lymphatic",
+        "resp-anat",
+        "resp-histo",
+        "resp-phys",
+        "resp-control",
+        "heart-anat",
+        "arteries",
+        "blood",
+        "cv-histo",
+        "cv-embryo",
+        "cardiac-dyn"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "lymphatic",
+      "title": "淋巴系統",
+      "en": "Lymphatic system",
+      "teacher": "邱瑞珍",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "resp-anat",
+      "title": "呼吸系統解剖與肺的血液供應",
+      "en": "Respiratory system anatomy",
+      "teacher": "邱瑞珍",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "resp-histo",
+      "title": "呼吸與淋巴系統組織",
+      "en": "Histology of respiratory & lymphatic systems",
+      "teacher": "邱瑞珍",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "resp-phys",
+      "title": "呼吸生理",
+      "en": "Respiratory physiology",
+      "teacher": "林佑穗",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "resp-control",
+      "title": "呼吸調節與呼吸生理實驗",
+      "en": "Control of breathing & lab",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "heart-anat",
+      "title": "心臟解剖",
+      "en": "Heart anatomy",
+      "teacher": "蘇柏全",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "arteries",
+      "title": "體循環動脈",
+      "en": "Systemic arteries",
+      "teacher": "蘇柏全",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "blood",
+      "title": "血液組織與血液生理",
+      "en": "Blood tissue & blood physiology",
+      "teacher": "邱瑞珍、林育嬋",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "cv-histo",
+      "title": "心臟與血管組織",
+      "en": "Histology of heart & vessels",
+      "teacher": "蘇柏全",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "cv-embryo",
+      "title": "心血管系統胚胎",
+      "en": "Embryology of cardiovascular system",
+      "teacher": "蘇柏全",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "cardiac-dyn",
+      "title": "心臟動力學",
+      "en": "Cardiac dynamics",
+      "teacher": "林則彬",
+      "week": "",
+      "slides": false
+    }
+  ]
+}

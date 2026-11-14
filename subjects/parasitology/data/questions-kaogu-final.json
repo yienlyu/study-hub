@@ -1,0 +1,3449 @@
+[
+ {
+  "id": "k113-ces-01",
+  "source": "113 考古",
+  "num": 1,
+  "chapter": "cestodes-pseudo",
+  "type": "mcq",
+  "stem": "下列有關人體寄生蟲成蟲形態的敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "A. duodenale 具有兩對齒鉤"
+   },
+   {
+    "k": "B",
+    "t": "E. vermicularis 具有頭翼（cephalic alae）"
+   },
+   {
+    "k": "C",
+    "t": "F. hepatica 具有頭錐（cephalic cone）"
+   },
+   {
+    "k": "D",
+    "t": "D. latum 具有圓形吸盤（sucker）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "(A) A. duodenale 具有兩對大小相似的齒溝\n(B) E. vermicularis 的形態特徵包括cephalic alae 以及esophageal bulb\n(C) 頭錐是F. hepatica 的重要形態特徵\n(D) D. latum 身為Pseudophyllidea 的一員，不具有吸盤，但有吸溝",
+  "topics": [
+   "假葉目絛蟲"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k113-ces-02",
+  "source": "113 考古",
+  "num": 2,
+  "chapter": "cestodes-pseudo",
+  "type": "mcq",
+  "stem": "有一眼眶嚴重浮腫之病患，其病史為數天前以蛙肉塗敷眼框周邊傷口，就診時自傷口取出2 隻約3 公分之白色蟲體，依據以上敘述，該病患最可能感染何種寄生蟲？",
+  "options": [
+   {
+    "k": "A",
+    "t": "A. cantonensis"
+   },
+   {
+    "k": "B",
+    "t": "T. solium"
+   },
+   {
+    "k": "C",
+    "t": "D. mansoni"
+   },
+   {
+    "k": "D",
+    "t": "D. latum"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "看到塗抹蛙肉感染，反射動作想到D. mansoni。曼森裂頭絛蟲的第二中間宿主是蛇或蛙，若貼敷生蛙肉其中的長尾幼蟲可透過傷口穿入感染，侵犯人的組織，尤其是皮下組織及肌肉，也會跑到眼球、腦及腹腔的內臟中，也就是孤蟲症（Sparganosis）。\n(A) 生食含有L3 的中間宿主（蝸牛、蛞蝓、蚯蚓）、保幼宿主（爬蟲類、蝦蟹），或遭其汙染的食物而感染\n(B) 食用未熟豬肉（含有Cysticercus Cellulosae），造成Taeniasis；或誤食蟲卵，造成Cysticercosis\n(D) 食用受汙染的生魚（尤其鮭魚）＊沒有反射動作嗎？速解：(A) mm、(B)(D) m、(C) cm",
+  "topics": [
+   "假葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-03",
+  "source": "113 考古",
+  "num": 3,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "下列寄生蟲與其在人體導致的症狀或疾病之配對中，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "D. caninum——肛門搔癢（pruritus）"
+   },
+   {
+    "k": "B",
+    "t": "S. haematobium——血尿（hematuria）"
+   },
+   {
+    "k": "C",
+    "t": "T. saginata——囊蟲症（cysticercosis）"
+   },
+   {
+    "k": "D",
+    "t": "F. hepatica——異位寄生（ectopic parasitism）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(A) D. caninum 受孕體節脫落、移動時會造成肛門搔癢的症狀\n(B) S. haematobium 寄生於膀胱、前列腺、子宮靜脈叢，血尿為其典型症狀\n(C) Cysticercosis 為誤食T. solium 蟲卵導致的症狀，也可能肇因於Taeniasis 造成的Autoinfection； T. saginata 單純待在腸道，不會在人體形成Cysticercus\n(D) 造成Extrahepatic Fascioliasis，可能寄生於心、肺、皮膚、胰臟、眼睛等器官",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k113-ces-04",
+  "source": "113 考古",
+  "num": 4,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "下列有關H. nana 感染人體的敘述，何者錯誤？ (1)吞食蟲卵為唯一的感染途徑 (2)主要感染小孩 (3)輕度感染即會引起腹痛及腹瀉 (4)有可能引起過度感染（hyperinfection）",
+  "options": [
+   {
+    "k": "A",
+    "t": "(2) (4)"
+   },
+   {
+    "k": "B",
+    "t": "(1) (3)"
+   },
+   {
+    "k": "C",
+    "t": "(1) (2)"
+   },
+   {
+    "k": "D",
+    "t": "(3) (4)"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "(1)錯誤，H. nana 有兩個感染期：Embryonated Egg 以及Cysticercoid (2) H. nana is seen most frequently in children but occurs in adults as well. 參見Markell and Voge’s Medical Parasitology p.246【參考百九共筆】 (3)錯誤，H. nana 因為蟲體小，輕度感染往往無症狀，然而Autoinfection 時會腹瀉、腹痛、厭食 (4) Autoinfection 可能進一步造成Hyperinfection 故(1)(3)錯誤",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k113-ces-05",
+  "source": "113 考古",
+  "num": 5,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "何種絛蟲的幼蟲可以在人體小腸的絨毛內發育？",
+  "options": [
+   {
+    "k": "A",
+    "t": "E. multilocularis"
+   },
+   {
+    "k": "B",
+    "t": "H. nana"
+   },
+   {
+    "k": "C",
+    "t": "D. latum"
+   },
+   {
+    "k": "D",
+    "t": "D. caninum"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "(A) 幼蟲會在各個臟器發育，主要在肝臟\n(B) H. nana 蟲卵可能在腸道中釋放出六鉤幼蟲，鑽入小腸絨毛繼續生活史原文：Swallowed eggs hatch in the small intestine. The six-hooked oncosphere burrows into a villus of the intestinal mucosa, where, within a few days, it develops into a cysticercoid larva. Markell and Voge’s Medical Parasitology p.246【參考百九共筆】",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-06",
+  "source": "113 考古",
+  "num": 6,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "下列為人體感染D. caninum 的途徑，那些是錯誤的？ (1)誤食蟲卵 (2)誤食狗身上的帶蟲跳蚤 (3)誤食GP",
+  "options": [
+   {
+    "k": "A",
+    "t": "(1) (2)"
+   },
+   {
+    "k": "B",
+    "t": "(1) (3)"
+   },
+   {
+    "k": "C",
+    "t": "(2) (3)"
+   },
+   {
+    "k": "D",
+    "t": "(1) (2) (3)"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "人類為D. caninum 的偶然宿主，貓狗親密接觸時誤食中間宿主（跳蚤）的Cysticercoid，而蟲卵和 GP 是診斷的標的",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k113-ces-07",
+  "source": "113 考古",
+  "num": 7,
+  "chapter": "cestodes-pseudo",
+  "type": "mcq",
+  "stem": "D. mansoni 哪些發育時期的蟲體可以感染人？ (1)六鉤幼蟲卵 (2) cysticeroid (3) procercoid (4) plerocercoid",
+  "options": [
+   {
+    "k": "A",
+    "t": "(1) (2)"
+   },
+   {
+    "k": "B",
+    "t": "(1) (3)"
+   },
+   {
+    "k": "C",
+    "t": "(2) (4)"
+   },
+   {
+    "k": "D",
+    "t": "(3) (4)"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "D. mansoni 的感染期有二：Procercoid（人類作為第二中間宿主）以及Plerocercoid（人類作為保幼宿主），其最終宿主是犬、貓，在人體內不會發育為成蟲",
+  "topics": [
+   "假葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-08",
+  "source": "113 考古",
+  "num": 8,
+  "chapter": "cestodes-pseudo",
+  "type": "mcq",
+  "stem": "下列有關D. latum 的敘述，何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "蟲卵具有卵蓋（operculum）"
+   },
+   {
+    "k": "B",
+    "t": "Plerocercoid 具感染人體之能力"
+   },
+   {
+    "k": "C",
+    "t": "感染人體會引起缺鐵性貧血"
+   },
+   {
+    "k": "D",
+    "t": "生活史需經過兩個中間宿主的發育過程"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(C) 缺鐵性貧血是鉤蟲較可能導致的症狀；D. latum 則因為寄生於空腸（jejunum）造成維生素B12 吸收不良，導致的是惡性貧血（Pernicious anemia）缺鐵性貧血（Iron deficiency anemia）惡性貧血（Pernicious anemia）致病原因腸胃道出血導致鐵質流失維生素B12 吸收不良致病寄生蟲鉤蟲、鞭蟲、血吸蟲廣節裂頭絛蟲\n(D) 第一中間宿主為水蚤或劍水蚤，第二中間宿主為鮭科魚類（淡水小魚為主）",
+  "topics": [
+   "假葉目絛蟲"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k113-ces-09",
+  "source": "113 考古",
+  "num": 9,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "What is the lab diagnosis for Hymenolepis diminuta?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Mature Proglottids in the stool"
+   },
+   {
+    "k": "B",
+    "t": "Cysticercoids in the stool"
+   },
+   {
+    "k": "C",
+    "t": "Ova in the stool"
+   },
+   {
+    "k": "D",
+    "t": "Scolex in the stool"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "H. diminuta 以糞檢蟲卵或受孕體節為診斷標準。既然沒有GP 可以選，就選Ova 吧",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-10",
+  "source": "113 考古",
+  "num": 10,
+  "chapter": "cestodes-pseudo",
+  "type": "mcq",
+  "stem": "Which parasite can cause pernicious anemia?",
+  "options": [
+   {
+    "k": "A",
+    "t": "D. mansoni"
+   },
+   {
+    "k": "B",
+    "t": "Hook worm"
+   },
+   {
+    "k": "C",
+    "t": "T. solium"
+   },
+   {
+    "k": "D",
+    "t": "D. caninum"
+   },
+   {
+    "k": "E",
+    "t": "D. latum"
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "同第8 題",
+  "topics": [
+   "假葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-11",
+  "source": "113 考古",
+  "num": 11,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "Who is the intermediate host for Hymenolepis nana?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Rat"
+   },
+   {
+    "k": "B",
+    "t": "Snail"
+   },
+   {
+    "k": "C",
+    "t": "Various arthropod"
+   },
+   {
+    "k": "D",
+    "t": "Dog"
+   },
+   {
+    "k": "E",
+    "t": "Mice"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "H. nana 的中間宿主為穀類甲蟲，也可不用中間宿主，因此會有autoinfection",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-12",
+  "source": "113 考古",
+  "num": 12,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "病人抱怨有白色片狀約1 至2 公分長的物體自肛門蠕動爬出，判斷應是肉絛蟲屬的受孕體節，如果要確認是亞洲無鉤絛蟲，則其子宮形態應是：",
+  "options": [
+   {
+    "k": "A",
+    "t": "子宮形狀分成4 至6 葉"
+   },
+   {
+    "k": "B",
+    "t": "一側分支數小於等於12"
+   },
+   {
+    "k": "C",
+    "t": "一側分支數大於等於13"
+   },
+   {
+    "k": "D",
+    "t": "成熟卵囊"
+   },
+   {
+    "k": "E",
+    "t": "呈麻花似絞繞"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(A) 子宮形狀呈樹枝狀，約十幾個分枝\n(B) (C)任一側的子宮分支數皆在13 以上\n(D) 應是D. caninum 的GP 特徵\n(E) 應是H. diminuta 的GP 特徵豬肉絛蟲Taenia solium 亞洲絛蟲 Taenia saginata asiatica 牛肉絛蟲 Taenia saginata GP 子宮分枝數 7～12（＜13） 16～21（≧13） 15～30（≧13）子宮型態子宮呈樹枝狀，較少且較細子宮分支較整齊",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-13",
+  "source": "113 考古",
+  "num": 13,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "下列哪種絛蟲可auto-infection 形成重度感染：",
+  "options": [
+   {
+    "k": "A",
+    "t": "D. mansoni"
+   },
+   {
+    "k": "B",
+    "t": "T. saginata"
+   },
+   {
+    "k": "C",
+    "t": "H. diminuta"
+   },
+   {
+    "k": "D",
+    "t": "H. nana"
+   },
+   {
+    "k": "E",
+    "t": "E. granulosus"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "絛蟲講義中，有Autoinfection 特性的絛蟲有T. solium 和H. nana，因而兩種蟲的用藥皆不使用會造成體節破裂的Praziquantel（T. solium 用Albendazole，H. nana 用Atabrine）會Autoinfection 的寄生蟲有六隻：  線蟲：蟯蟲（Enterobius vermicularis）、糞小桿線蟲（Strongyloides stercoralis）、菲律賓毛細線蟲（Capillaria philippinensis）  絛蟲：豬肉絛蟲（Taenia solium）、短小包膜絛蟲（Hymenolepis nana）  原蟲：隱孢子蟲（Cryptosporidium parvum）",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-14",
+  "source": "113 考古",
+  "num": 14,
+  "chapter": "cestodes-pseudo",
+  "type": "mcq",
+  "stem": "下列何者是Sparganosis 的病原蟲：",
+  "options": [
+   {
+    "k": "A",
+    "t": "T. saginata"
+   },
+   {
+    "k": "B",
+    "t": "T. solium"
+   },
+   {
+    "k": "C",
+    "t": "D. mansoni"
+   },
+   {
+    "k": "D",
+    "t": "H. nana"
+   },
+   {
+    "k": "E",
+    "t": "E. granulosus"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "D. mansoni 的Plerocercoid 會侵犯各處組織，形成蜂窩狀感染。以侵犯皮下、肌肉較常見，也有機會到眼、腦、內臟寄生，稱為Sparganosis（孤蟲病）",
+  "topics": [
+   "假葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-15",
+  "source": "113 考古",
+  "num": 15,
+  "chapter": "cestodes-pseudo",
+  "type": "mcq",
+  "stem": "下列寄生蟲何者可引致惡性貧血：",
+  "options": [
+   {
+    "k": "A",
+    "t": "D. latum"
+   },
+   {
+    "k": "B",
+    "t": "T. saginata"
+   },
+   {
+    "k": "C",
+    "t": "H. diminuta"
+   },
+   {
+    "k": "D",
+    "t": "H. nana"
+   },
+   {
+    "k": "E",
+    "t": "E. granulosus"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "同第8 題",
+  "topics": [
+   "假葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-16",
+  "source": "113 考古",
+  "num": 16,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "下列何者是Cysticercosis 的病原蟲：",
+  "options": [
+   {
+    "k": "A",
+    "t": "T. saginata"
+   },
+   {
+    "k": "B",
+    "t": "H. nana"
+   },
+   {
+    "k": "C",
+    "t": "D. mansoni"
+   },
+   {
+    "k": "D",
+    "t": "T. solium"
+   },
+   {
+    "k": "E",
+    "t": "E. granulosus"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "人類誤食T. solium 的蟲卵，孵出的Onchosphere 隨血液循環到人體各處發育為Cysticercus，稱為 Cysticercosis，Cysticercus 侵入皮下組織、眼、腦、肌肉、心臟、肝、肺、腹腔，有時無症狀或有癫癇（侵入腦部）、視力損壞等症狀，對人體危害",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-17",
+  "source": "113 考古",
+  "num": 17,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "下列何者是Hydatid Disease 的病原蟲：",
+  "options": [
+   {
+    "k": "A",
+    "t": "T. saginata"
+   },
+   {
+    "k": "B",
+    "t": "H. nana"
+   },
+   {
+    "k": "C",
+    "t": "D. mansoni"
+   },
+   {
+    "k": "D",
+    "t": "T. solium"
+   },
+   {
+    "k": "E",
+    "t": "E. granulosus"
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "Hydatid Disease 的病原蟲為E. granulosus，也稱為Cystic Echinococcosis，對人類的感染期為 Embryonated Egg，食入蟲卵後，Hydatid Cyst 在各個臟器發育，如腦部、肝臟，過去常用手術摘除，但如果破掉會引起嚴重過敏反應，所以現在多用PAIR 治療",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-18",
+  "source": "113 考古",
+  "num": 18,
+  "chapter": "cestodes-pseudo",
+  "type": "mcq",
+  "stem": "可感染人類的蠕蟲，下列何者體型最大：",
+  "options": [
+   {
+    "k": "A",
+    "t": "T. solium"
+   },
+   {
+    "k": "B",
+    "t": "D. latum"
+   },
+   {
+    "k": "C",
+    "t": "D. medinensis"
+   },
+   {
+    "k": "D",
+    "t": "A. lumbricoides"
+   },
+   {
+    "k": "E",
+    "t": "T. saginata asiatica"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "依體長排列如下蟲名體長 D. latum 3～10 公尺 T. saginata asiatica 4～5 公尺 T. solium 2～7 公尺 D. medinensis 約1 公尺 A. lumbricoides 20～35 公分比較大小：D. latum（最大）＞Taenia spp.（公尺）＞Hymenolepis spp.、Dipylidium caninum（公分）＞Echinococcus spp.（毫米），注意：H. nana 是寄生人體內最小的絛蟲成蟲",
+  "topics": [
+   "假葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-19",
+  "source": "113 考古",
+  "num": 19,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "下列那些絛蟲在人類會引起自體感染（autoinfection）？（102-1） (1)有鈎絛蟲（Taenia solium） (2)廣節裂頭絛蟲（Diphyllobothrium latum） (3)短小包膜絛蟲（Hymenolepis nana） (4)顆粒性包生絛蟲（Echinococcus granulosus）",
+  "options": [
+   {
+    "k": "A",
+    "t": "(1) (2)"
+   },
+   {
+    "k": "B",
+    "t": "(1) (3)"
+   },
+   {
+    "k": "C",
+    "t": "(2) (4)"
+   },
+   {
+    "k": "D",
+    "t": "(3) (4)"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "同第13 題",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-20",
+  "source": "113 考古",
+  "num": 20,
+  "chapter": "cestodes-pseudo",
+  "type": "mcq",
+  "stem": "下列那些寄生蟲的幼蟲可穿過皮膚進入人體而造成感染？（102-2） (1)單胞絛蟲（Echinococcus granulosus） (2)曼森裂頭絛蟲（Spirometra mansonoides） (3)日本血吸蟲（Schistosoma japonicum） (4)橫川吸蟲（Metagonimus yokogawai）",
+  "options": [
+   {
+    "k": "A",
+    "t": "(1) (2)"
+   },
+   {
+    "k": "B",
+    "t": "(1) (4)"
+   },
+   {
+    "k": "C",
+    "t": "(2) (3)"
+   },
+   {
+    "k": "D",
+    "t": "(3) (4)"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(1)感染來源為吃到含卵的糞便，在體內發育成Hydatid Cyst (2) S. mansonoides（曼森裂頭絛蟲的別名）Plercercoid 可能經由接觸蛙肉的皮膚侵入 (3) S. japonicum，其cercaria 會鑽入皮膚，造成泳者之癢 (4) M. yokogawai 的感染途徑為食用淡水魚",
+  "topics": [
+   "假葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-21",
+  "source": "113 考古",
+  "num": 21,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "下列有關單胞絛蟲（Echinococcus granulosus）感染人體的敘述，共有幾項敘述錯誤？（105-2） (1)人為終宿主（final host） (2)最容易在肌肉形成包生囊（hydatid cyst） (3)因誤食含未熟帶蟲之牛肉而感染 (4)感染後數週即迅速發病",
+  "options": [
+   {
+    "k": "A",
+    "t": "1 項"
+   },
+   {
+    "k": "B",
+    "t": "2 項"
+   },
+   {
+    "k": "C",
+    "t": "3 項"
+   },
+   {
+    "k": "D",
+    "t": "4 項"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "(1)人類是保幼宿主 (2)胞囊一般在肝、肺，也有可能在脾、腎、心臟、骨頭、腦、眼睛等 (3)感染來源為吃到含卵的糞便汙染的食物 (4)胞囊一般需要幾年才會成熟，出現病症以上選項皆錯誤",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k113-ces-22",
+  "source": "113 考古",
+  "num": 22,
+  "chapter": "cestodes-pseudo",
+  "type": "mcq",
+  "stem": "藉由改善飲用水系統最能達到防治下列何種寄生蟲之感染？",
+  "options": [
+   {
+    "k": "A",
+    "t": "旋毛蟲（Trichinella spiralis）"
+   },
+   {
+    "k": "B",
+    "t": "麥地那線蟲（Dracunculus medinensis）"
+   },
+   {
+    "k": "C",
+    "t": "廣節裂頭絛蟲（Diphyllobothrium latum）"
+   },
+   {
+    "k": "D",
+    "t": "廣東住血線蟲（Angiostrongylus cantonensis）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "不要懷疑，答案就是沒有教過的麥地那線蟲ㄎㄎ，前年全世界甚至只有54 起案例，少到不行還要考，阿我來補充一下這隻蟲蟲——這隻蟲的感染和帶有橈足類的水有關，人類藉由生飲不潔淨的水攝入帶有幼蟲的橈足類後，幼蟲會在體內發育為成蟲。透過為居民建造輸水管道來提供潔淨食水，加上教育配合，可有效減低病發率，例如聯合國於1981～1990 年間推行改善印度和尼加拉瓜的飲水系統，獲得成效\n(B) 旋毛蟲幼蟲寄生於動物肌肉內，透過生肉感染\n(C) 預防廣節裂頭絛蟲應避免生吃魚肉，尤其是鮭魚\n(D) 預防廣東住血線蟲可藉由撲滅鼠類和不食用未完全煮熟的蝸牛、蛞蝓、生菜等",
+  "topics": [
+   "假葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-23",
+  "source": "113 考古",
+  "num": 23,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "下列那些寄生蟲會造成患者之自體感染（autoinfection）？（107-1） ①短小包膜絛蟲（Hymenolepis nana） ②菲律賓毛線蟲（Capillaria philippinensis） ③隱胞子蟲（Cryptosporidium parvum） ④糞小桿線蟲（Strongyloides stercoralis）",
+  "options": [
+   {
+    "k": "A",
+    "t": "1 種"
+   },
+   {
+    "k": "B",
+    "t": "2 種"
+   },
+   {
+    "k": "C",
+    "t": "3 種"
+   },
+   {
+    "k": "D",
+    "t": "4 種"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "【參考百九口訣】幫你整理會自體感染的寄生蟲：菲律賓毛線蟲、短小絛蟲、糞小桿線蟲、蟯蟲、有鉤絛蟲、隱孢子蟲 → 口訣：菲短桿蟯，有隱，所以就是全選的啦！還有T. solium 哦",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-24",
+  "source": "113 考古",
+  "num": 24,
+  "chapter": "cestodes-pseudo",
+  "type": "mcq",
+  "stem": "曼森裂頭絛蟲（Spirometra mansonoides）那些發育時期的蟲體可以感染人？ (1)六鈎幼蟲卵 (2)似囊尾幼蟲（cysticercoid） (3)原尾幼蟲（procercoid） (4)長尾幼蟲（plerocercoid）",
+  "options": [
+   {
+    "k": "A",
+    "t": "(1) (2)"
+   },
+   {
+    "k": "B",
+    "t": "(1) (3)"
+   },
+   {
+    "k": "C",
+    "t": "(2) (4)"
+   },
+   {
+    "k": "D",
+    "t": "(3) (4)"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "曼森裂頭絛蟲的感染型包含第一中間宿主水蚤體內的原尾幼蟲（Procercoid）和第二中間宿主蛙、蛇的長尾幼蟲（Plerocercoid）",
+  "topics": [
+   "假葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-25",
+  "source": "113 考古",
+  "num": 25,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "下列絛蟲中，何者之成蟲體型最小？",
+  "options": [
+   {
+    "k": "A",
+    "t": "多胞絛蟲（Echinococcus multilocularis）"
+   },
+   {
+    "k": "B",
+    "t": "短小包膜絛蟲（Hymenolepis nana）"
+   },
+   {
+    "k": "C",
+    "t": "縮小包膜絛蟲（Hymenolepis diminuta）"
+   },
+   {
+    "k": "D",
+    "t": "犬複殖器絛蟲（Dipylidium caninum）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "成蟲體長如下 E. multicularis：2～4 mm H. nana：25～40 cm H. diminuta：20～60 cm D. caninum：10～70 cm 多胞絛蟲是最小的絛蟲；H. nana 為寄生在人體內最小的絛蟲成蟲。可以參考第18 題的排序",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-26",
+  "source": "113 考古",
+  "num": 26,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "節肢動物可當下列那些絛蟲的中間宿主？（107-1） ①豬肉絛蟲（Taenia solium） ②犬複殖器絛蟲（Dipylidium caninum） ③縮小包膜絛蟲（Hymenolepis diminuta） ④單胞絛蟲（Echinococcus granulosus）",
+  "options": [
+   {
+    "k": "A",
+    "t": "①③"
+   },
+   {
+    "k": "B",
+    "t": "①④"
+   },
+   {
+    "k": "C",
+    "t": "②③"
+   },
+   {
+    "k": "D",
+    "t": "②④"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "節肢動物可當中間宿主：② *D. caninum*（跳蚤）、③ *H. diminuta*（甲蟲、蟑螂）。① *T. solium* 的中間宿主是豬（人也可以）、④ *E. granulosus* 是偶蹄目（羊、牛、豬），都不是節肢動物。\n\n| 絛蟲 | 中間宿主 | 最終宿主 |\n|---|---|---|\n| 廣節裂頭絛蟲 *D. latum* | 1st 水蚤、劍水蚤；2nd 鮭科魚類（保幼宿主：魚） | 人（保蟲宿主：脊椎動物） |\n| 曼氏裂頭絛蟲 *D. mansoni* | 1st 劍水蚤；2nd 蛇、蛙 | 貓、狗、狐狸 |\n| 牛肉絛蟲 *T. saginata* | 牛 | 人 |\n| 亞洲絛蟲 *T. s. asiatica* | 山豬 | 人 |\n| 豬肉絛蟲 *T. solium* | 豬、人 | 人 |\n| 犬複殖器絛蟲 *D. caninum* | **狗蚤、貓蚤、狗蝨** | 貓、狗、狐狸、人 |\n| 縮小包膜絛蟲 *H. diminuta* | **蟑螂、甲蟲** | 鼠、人 |\n| 短小包膜絛蟲 *H. nana* | 穀類甲蟲（可不需要） | 鼠、人 |\n| 單胞絛蟲 *E. granulosus* | 羊、豬、牛 | 狗、狼、狐狸 |\n| 多胞絛蟲 *E. multilocularis* | 鼠、人 | 狐狸、狗 |",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-27",
+  "source": "113 考古",
+  "num": 27,
+  "chapter": "foodborne",
+  "type": "mcq",
+  "stem": "蘇先生因個人養身因素而食用醃漬蝸牛及生蝸牛多年，日前急診就醫因疑似腦炎或腦膜腦炎而住院，經脊髓穿刺發現腦脊髓液（CSF）內有高數量白血球（1500／μL），並伴隨有嗜酸性白血球增多症（eosinophilia）。依據上述結果，蘇先生最可能感染下列何種寄生蟲？（107-2）",
+  "options": [
+   {
+    "k": "A",
+    "t": "旋毛蟲（Trichinella spiralis）"
+   },
+   {
+    "k": "B",
+    "t": "廣節裂頭絛蟲（Diphyllobothrium latum）"
+   },
+   {
+    "k": "C",
+    "t": "棘顎口線蟲（Gnathostoma spinigerum）"
+   },
+   {
+    "k": "D",
+    "t": "廣東住血線蟲（Angiostrongylus cantonensis）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "廣東住血線蟲經由生食蝸牛感染，病狀包含嗜酸性腦膜炎和Eosinophilia，診斷為CSF pleocytosis",
+  "topics": [
+   "食源性線蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-28",
+  "source": "113 考古",
+  "num": 28,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "人類食用未熟或生的帶蟲豬肉，最不可能罹患以下何種寄生蟲病？（107-2）",
+  "options": [
+   {
+    "k": "A",
+    "t": "旋毛蟲症（trichinellosis）"
+   },
+   {
+    "k": "B",
+    "t": "囊蟲症（cysticercosis）"
+   },
+   {
+    "k": "C",
+    "t": "肺吸蟲症（paragonimiasis）"
+   },
+   {
+    "k": "D",
+    "t": "包蟲症（hydatid disease）"
+   }
+  ],
+  "answer": [
+   "C",
+   "D"
+  ],
+  "explain": "或(D) 病症感染寄生蟲感染來源旋毛蟲症（trichinellosis） Trichinella spiralis 吃到生豬肉裡的被囊蚴囊蟲症（cysticercosis） Taenia solium 吃到卵或生豬肉裡的豬囊尾蟲肺吸蟲症（paragonimiasis） Paragonimus westermani 吃入含有囊蚴的蝦蟹包蟲症（hydatid disease） Echinococcus spp. 接觸動物的排泄物，吃入卵",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-29",
+  "source": "113 考古",
+  "num": 29,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "下列那些絛蟲在人類會引起自體感染（autoinfection）？ ①有鉤絛蟲（Taenia solium） ②廣節裂頭絛蟲（Diphyllobothrium latum） ③短小包膜絛蟲（Hymenolepis nana） ④顆粒性包生絛蟲（Echinococcus granulosus）",
+  "options": [
+   {
+    "k": "A",
+    "t": "①②"
+   },
+   {
+    "k": "B",
+    "t": "①③"
+   },
+   {
+    "k": "C",
+    "t": "②④"
+   },
+   {
+    "k": "D",
+    "t": "③④"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "請看第23 題詳解",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-30",
+  "source": "113 考古",
+  "num": 30,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "Recently in mainland China, the outbreak of 非洲豬瘟African swine fever, ASF poses threaten to people’s health and is truly a serious problem. Taiwan government even sent text messages to everyone to notice the transmitted disease. As for eating pork, there is also some risk to be infected by parasites. Some reporters are discussing about in anxiously, please choose the correct statement:",
+  "options": [
+   {
+    "k": "A",
+    "t": "鳴視：Avoid eating raw pig liver reduces the possibility of getting infected by Taenia saginata."
+   },
+   {
+    "k": "B",
+    "t": "滑視：If you steam or fry the pork at high temperature, it will be safe to eat the pork from China."
+   },
+   {
+    "k": "C",
+    "t": "宮視：If you are infected by Taenia solium, you might have cysticercosis. Then, taking some Albendazole or receiving surgery will work."
+   },
+   {
+    "k": "D",
+    "t": "三粒：The infective stage for Taenia solium is cysticercus cellulosae only."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "這題跟非洲豬瘟沒什麼關係，因此題幹看最後一行就好：\n(A) 生吃豬肝可能得到Taenia saginata asiatica\n(B) 非洲豬瘟病毒不會感染人類，但衛福部至今不開放中國豬肉進口就是因為怕有人沒吃完將未完全煮熟的豬肉倒廚餘桶，讓台灣的豬隻也受感染。至於高溫烹煮的中國豬肉安不安全？或許可從中國的病死豬流向來做思考……\n(D) 豬肉絛蟲的感染型包含豬囊尾蚴（Cysticercus cellulosae）、卵和Autoinfection",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-31",
+  "source": "113 考古",
+  "num": 31,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "A 30-year-old man has sudden onset of headache, stomache and diarrhea after a weekend in which he consumed large amount of raw insects. He also developed some utricle-liked lesions on his right thigh. Under bare eye examination, his stool showed no abnormality. However, after examining his stool under the microscope, some parasitic ova and gravid proglottides were discovered. These ova are considered to be infective to human. Which is the most likely parasite to produce these finding?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Eurytrema pancreaticum"
+   },
+   {
+    "k": "B",
+    "t": "Taenia solium"
+   },
+   {
+    "k": "C",
+    "t": "Hymenolepis diminuta"
+   },
+   {
+    "k": "D",
+    "t": "Hymenolepis nana"
+   },
+   {
+    "k": "E",
+    "t": "Enterobius vermiculari"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "看到排出的蟲卵具感染性，就知道這隻蟲可以自體感染，因此從(B)和(D)選。經由昆蟲感染，有腹痛、腹瀉症狀的是H. nana，所以選(D)",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-32",
+  "source": "113 考古",
+  "num": 32,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "Which parasite’s definitive host does not include dogs?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Diphyllobothrium mansoni"
+   },
+   {
+    "k": "B",
+    "t": "Hymenolepis diminuta"
+   },
+   {
+    "k": "C",
+    "t": "Echinococcus granulosus"
+   },
+   {
+    "k": "D",
+    "t": "Dipylidium caninum"
+   },
+   {
+    "k": "E",
+    "t": "Echinococcis multilocularis"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Hymenolepis diminuta 以昆蟲作中間宿主，最終感染人類",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-33",
+  "source": "113 考古",
+  "num": 33,
+  "chapter": "cestodes-pseudo",
+  "type": "mcq",
+  "stem": "Which of the following is not the characteristics of Diphyllobothrium latum？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Calcareous corpuscles can be found in D. latum."
+   },
+   {
+    "k": "B",
+    "t": "It can cause vitamin B12 malabsorption."
+   },
+   {
+    "k": "C",
+    "t": "It can be diagnosed by examing if there is mature proglottides or eggs of D. latum in patients’ stool."
+   },
+   {
+    "k": "D",
+    "t": "Its egg"
+   },
+   {
+    "k": "E",
+    "t": "is bilateral symmetry with operculum."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "注意D. latum 的診斷方法是糞檢蟲卵和GP，不是MP",
+  "topics": [
+   "假葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-34",
+  "source": "113 考古",
+  "num": 34,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "Humanity may be the final and the intermediate host of？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Taenia saginata"
+   },
+   {
+    "k": "B",
+    "t": "Hymenolepis diminuta"
+   },
+   {
+    "k": "C",
+    "t": "Diphyllobothrium mansoni"
+   },
+   {
+    "k": "D",
+    "t": "Taenia solium"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "人類可以同時是豬肉絛蟲的中間宿主（吃入蟲卵）和最終宿主（吃入Cysticercus）",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-35",
+  "source": "113 考古",
+  "num": 35,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "Class Cestoda has the following characteristics, EXCEPT：",
+  "options": [
+   {
+    "k": "A",
+    "t": "Flat worm"
+   },
+   {
+    "k": "B",
+    "t": "The worms are segmented"
+   },
+   {
+    "k": "C",
+    "t": "Has alimentary tract"
+   },
+   {
+    "k": "D",
+    "t": "Hermaphrodite"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(C) 絛蟲沒有消化系統，所有的養分都來自宿主腸道\n(D) Hermaphrodite 雌雄同體",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k113-ces-36",
+  "source": "113 考古",
+  "num": 36,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "Regarding radiation pattern of ovas, which of the following is wrong？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Capillaria hepatica has radiation pattern on the egg shell with plug not protruded."
+   },
+   {
+    "k": "B",
+    "t": "Hymenolepis diminuta has a rather unclear radiation pattern on the egg shell and the eggs are usually in wound shape that’s between 60-100 μm."
+   },
+   {
+    "k": "C",
+    "t": "Taenia sp. has a prominent radiation pattern on the egg shell. The eggs resemble pollens."
+   },
+   {
+    "k": "D",
+    "t": "Trichuris trichiura doesn’t have radiation pattern on the egg shell, but has protruded plugs."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "肉絛蟲（Taenia spp.）的放射紋是位於胎蟲被殼，不是在卵殼上！被殼外透明狀的才是卵殼，但選項中像花粉的描述是對的",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-ces-37",
+  "source": "113 考古",
+  "num": 37,
+  "chapter": "cestodes-pseudo",
+  "type": "mcq",
+  "stem": "After going on a fishing trip with his friend and eating some uncooked fish, a 45-year-old man had sudden onset of dizziness, stomachache and vomiting. He even developed anemia later on and his peripheral blood smear was taken under examination. Under the microscope, the red cells were larger than normal (macrocytic and oval) and contained ample hemoglobin. Stool examination also showed presence of parasite ova. Which is the most likely parasite to produce these finding？",
+  "options": [
+   {
+    "k": "A",
+    "t": "C. philippinensis"
+   },
+   {
+    "k": "B",
+    "t": "A. duodenale"
+   },
+   {
+    "k": "C",
+    "t": "D. mansoni"
+   },
+   {
+    "k": "D",
+    "t": "D. latum"
+   },
+   {
+    "k": "E",
+    "t": "C. sinensis"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "惡性貧血又稱為「巨球性貧血」，因為紅血球缺乏維生素B12 和葉酸，因此TTP 無法合成，導致 DNA 複製異常。DNA 複製異常會導致細胞核不正常變大。由此可知這人是感染了廣節裂頭絛蟲。糞檢出蟲卵可再次驗證這個答案。而A. duodenale 造成是缺鐵性貧血，紅血球會比正常的紅血球小，顏色偏白，又稱為低色性貧血（Hypochromic anemia）",
+  "topics": [
+   "假葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-cesl-01",
+  "source": "113 考古",
+  "num": 1,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "節肢動物不可當下列那個絛蟲的中間宿主？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Dipylidium caninum"
+   },
+   {
+    "k": "B",
+    "t": "Hymenolepis diminuta"
+   },
+   {
+    "k": "C",
+    "t": "Hymenolepis nana"
+   },
+   {
+    "k": "D",
+    "t": "Taenia solium"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "(A)跳蚤、蝨子\n(B) 節肢動物（蟑螂、甲蟲）\n(C) 榖類甲蟲（不一定需要）\n(D) 中間宿主：人、豬，最終宿主：人",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-cesl-02",
+  "source": "113 考古",
+  "num": 2,
+  "chapter": "cestodes-pseudo",
+  "type": "mcq",
+  "stem": "下列那個絛蟲不需要中間宿主？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Hymenolepis nana"
+   },
+   {
+    "k": "B",
+    "t": "Diphyllobothrium latum"
+   },
+   {
+    "k": "C",
+    "t": "Diphyllobothrium mansoni"
+   },
+   {
+    "k": "D",
+    "t": "Echinococcus multilocularis"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "(A)榖類甲蟲（不一定需要）\n(B) 第一中間宿主：劍水蚤，第二中間宿主：鮭魚、淡水魚\n(C) 第一中間宿主：劍水蚤，第二中間宿主：蛙、蛇、人（也是保幼宿主）\n(D) 痢疾阿米巴除了會造成阿米巴結腸炎，還會使肺、肝受損，甚至肝膿瘍",
+  "topics": [
+   "假葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-cesl-03",
+  "source": "113 考古",
+  "num": 3,
+  "chapter": "cestodes-pseudo",
+  "type": "mcq",
+  "stem": "下列那個絛蟲以水蚤或劍水蚤為中間宿主？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Echinococcus granulosus"
+   },
+   {
+    "k": "B",
+    "t": "Taenia saginata asiatica"
+   },
+   {
+    "k": "C",
+    "t": "Diphyllobothrium latum"
+   },
+   {
+    "k": "D",
+    "t": "Dipylidium caninum"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Diphyllobothrium latum、Diphyllobothrium mansoni：劍水蚤 Echinococcus granulosus：人、偶蹄類 Taenia saginata asiatica：山豬 Dipylidium caninum：(A)跳蚤、蝨子",
+  "topics": [
+   "假葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-cesl-04",
+  "source": "113 考古",
+  "num": 4,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "誤食蟑螂最有可能感染下列那個絛蟲？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Hymenolepis diminuta"
+   },
+   {
+    "k": "B",
+    "t": "Taenia solium"
+   },
+   {
+    "k": "C",
+    "t": "Echinococcus granulosus"
+   },
+   {
+    "k": "D",
+    "t": "Taenia saginata"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "(B) Taenia solium：生吃豬肉\n(C) Echinococcus granulosus：誤食蟲卵\n(D) Taenia saginata：吃牛肉",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-cesl-05",
+  "source": "113 考古",
+  "num": 5,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "下列那個絛蟲的幼蟲像心型？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Diphullobothrium latum"
+   },
+   {
+    "k": "B",
+    "t": "Echinococcus multilocularis"
+   },
+   {
+    "k": "C",
+    "t": "Taenia saginata asiatica"
+   },
+   {
+    "k": "D",
+    "t": "Dipylidium caninum"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Dipylidium caninum 感染型：心型擬囊尾蚴（Cysticercoid）",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-cesl-06",
+  "source": "113 考古",
+  "num": 6,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "下列那個絛蟲的的中間宿主為有蹄類？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Diphyllobothrium latum"
+   },
+   {
+    "k": "B",
+    "t": "Echinococcus muitilocularis"
+   },
+   {
+    "k": "C",
+    "t": "Taenia saginata"
+   },
+   {
+    "k": "D",
+    "t": "Echinococcus granulosus"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Echinococcus granulosus 中間宿主：有蹄類（羊、豬、牛）",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-cesl-07",
+  "source": "113 考古",
+  "num": 7,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "下列那個絛蟲的的天然宿主為狗貓？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Diphyllobothrium latum"
+   },
+   {
+    "k": "B",
+    "t": "Dipylidium caninum"
+   },
+   {
+    "k": "C",
+    "t": "Taenia saginata asiatica"
+   },
+   {
+    "k": "D",
+    "t": "Echinococcus multilocularis"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "Dipylidium caninum、Diphyllobothrium mansoni 的最終宿主同時有狗貓",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-cesl-08",
+  "source": "113 考古",
+  "num": 8,
+  "chapter": "cestodes-cyclo",
+  "type": "mcq",
+  "stem": "台灣原住民易感染下列那個絛蟲？",
+  "options": [
+   {
+    "k": "A",
+    "t": "Diphyllobothrium mansoni"
+   },
+   {
+    "k": "B",
+    "t": "Dipylidium caninum"
+   },
+   {
+    "k": "C",
+    "t": "Taenia saginata asiatica"
+   },
+   {
+    "k": "D",
+    "t": "Echinococcus granulosus"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "台灣原住民有生食豬肝的習慣",
+  "topics": [
+   "圓葉目絛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-01",
+  "source": "113 考古",
+  "num": 1,
+  "chapter": "protozoa-spor",
+  "type": "mcq",
+  "stem": "以下何者寄生蟲屬於 Apicomplexa 球蟲? (Which of the following parasite belongs to Apicomplexa coccidia?)",
+  "options": [
+   {
+    "k": "A",
+    "t": "Trypanosoma cruzi"
+   },
+   {
+    "k": "B",
+    "t": "Leishmania infantum"
+   },
+   {
+    "k": "C",
+    "t": "Naegleria fowleri"
+   },
+   {
+    "k": "D",
+    "t": "Cryptosporidium parvum"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "頂端複合門（Apicomplexa）孢子蟲綱（Sporozoa）裡，寄生人體腸道的寄生蟲都屬於球蟲亞綱（Coccidia）。\n(A) Trypanosoma cruzi 是錐蟲屬（動質體綱）\n(B) Leishmania infantum 是錐蟲屬（動質體綱）\n(C) Naegleria fowleri 是內格里蟲屬（根足蟲綱）\n(D) 頂端複合門的小隱孢子蟲，常寄生於哺乳動物的腸道",
+  "topics": [
+   "孢子蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-02",
+  "source": "113 考古",
+  "num": 2,
+  "chapter": "protozoa-spor",
+  "type": "mcq",
+  "stem": "A 67 y/o (year old) female from Western Africa initially presented to the Emergency Department (ED) complaining of fatigue and subjective fevers for the past 2 days. Patient complained that her fevers were associated with headaches, but not chills, rigors, or chest pain. Index of suspicion for malaria was high as patient had recently traveled from an endemic region. Patients travel history to Western Africa and the presenting symptoms also made us consider a possibility of Ebola virus disease. Past medical history included diabetes, hypertension, and a history of recent travel to her home country of Togo for 5 months. Patient had returned 5 days ago from her travel and started to develop symptoms of fevers and fatigue.Blood smears were shown below. What parasitic infection does this patient acquire?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Trypanosoma cruzi"
+   },
+   {
+    "k": "B",
+    "t": "Babesia canis"
+   },
+   {
+    "k": "C",
+    "t": "Toxoplasma gondii"
+   },
+   {
+    "k": "D",
+    "t": "Plasmodium falciparumCarrier"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "判斷依據：Western Africa, fatigue and subjective fevers, headaches but not chills, rigors, or chest pain\n(A) Trypanosoma cruzi 屬於美洲錐蟲，發燒和疲倦符合急性期的症狀，但主要感染區域在中南美洲，和題目所述的西非差的有點遠\n(B) Babesia cani 常出現於美國北部及歐洲，患者多無症狀或產生類流感症狀，在沒有脾臟、免疫不全和老人身上才會出現嚴重症狀；血液抹片中可看到 RBC 內有 tetrad form（四分體，如右圖）\n(C) Toxoplasma gondii 後天感染多無症狀或為類流感症狀，且人為偶然感染，因此感染蟲體數目少，蟲體寄生在小腸細胞而非紅血球，故血液抹片切檢查難直接看到蟲體（補充：主要透過血清學檢查確診）\n(D) Plasmodium falciparum 盛行於非洲中部，會造成惡性瘧，症狀有 Shaking chills（10‐ 15min）→ Fever（2‐6hr）→ Sweat。雖然此病患自述其症狀沒有 chills，但題目提及病患曾到西非，時間也符合，因此推測為惡性瘧感染＊百十一詳解中提到：惡性瘧血液抹片在 ring-form trophozoite 的階段可看到 RBC 內有多於一隻惡性瘧寄生，且在 RBC 外會有依附體，其戒指形狀常見兩個細小點。（右圖僅供參考，但題目看起來是沒辦法用這個判斷）",
+  "topics": [
+   "孢子蟲"
+  ],
+  "pattern": "選正確／單一概念題",
+  "imageOnly": true
+ },
+ {
+  "id": "k113-pz-03",
+  "source": "113 考古",
+  "num": 3,
+  "chapter": "protozoa-spor",
+  "type": "mcq",
+  "stem": "According to question 2, what kind of drug is the best choice to treat this patient?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Doxycycline 100 mg"
+   },
+   {
+    "k": "B",
+    "t": "Praziquantel 400 mg"
+   },
+   {
+    "k": "C",
+    "t": "Albendazole 400 mg"
+   },
+   {
+    "k": "D",
+    "t": "Mebendazole 400 mg"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "(A) 瘧疾的 Multiple drug treatmemt 包含 Doxycycline 和 Mefloquine，可以預防及治療瘧疾，副作用是 Photosensitivity\n(B) Praziquantel：除了 F. hepatica 以外的吸蟲萬用藥\n(C) Albendazole：可用於對抗蠕蟲\n(D) Mebendazole：可用於對抗蠕蟲",
+  "topics": [
+   "孢子蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-04",
+  "source": "113 考古",
+  "num": 4,
+  "chapter": "protozoa-spor",
+  "type": "mcq",
+  "stem": "以下哪一位科學家發現青蒿素可殺滅 Plasmodium falciparum,此一發現拯救數十億人的生命,因而榮獲 2015 年諾貝爾醫學獎?(Who discovered Artemisinin, which is capable of killing Plasmodium falciparum, saves the lives of several billion people that was awarded by the 2015 Nobel Prize in Medicine?)",
+  "options": [
+   {
+    "k": "A",
+    "t": "屠呦呦 Tu Youyou"
+   },
+   {
+    "k": "B",
+    "t": "康貝爾 William C. Campbell"
+   },
+   {
+    "k": "C",
+    "t": "大村智 Satoshi Omura"
+   },
+   {
+    "k": "D",
+    "t": "歐基夫 John O’Keefe"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "(A) 屠呦呦（1930 年 12 月 30 日—），摩羯座，浙江寧波人，抗瘧藥青蒿素和雙氫青蒿素的發現者（節錄自維基百科）\n(B) (C)威廉・康貝爾（William C. Campbell）和大村智兩人發明了一種新藥阿維菌素（Avermectin），這個藥物用於治療蟠尾絲蟲病以及淋巴絲蟲病\n(D) 2013 年與愛德華・莫澤與邁－布里特・莫澤夫妻檔同獲霍維茨獎；2014 年，三人又因「發現構成大腦定位系統的細胞」共同獲得諾貝爾生理學或醫學獎",
+  "topics": [
+   "孢子蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-05",
+  "source": "113 考古",
+  "num": 5,
+  "chapter": "protozoa-blood",
+  "type": "mcq",
+  "stem": ".A 60-year-old Taiwanese woman presented with fevers, chills, myalgias, headache, and two pruritic areas on her back after traveling from Botswana and Zimbabwe. She was found to have thrombocytopenia, and this finding on her blood smear. What organism is responsible for her presentation?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Leishmania donovani"
+   },
+   {
+    "k": "B",
+    "t": "Trypanosoma cruzi"
+   },
+   {
+    "k": "C",
+    "t": "Trypanosoma gambiense"
+   },
+   {
+    "k": "D",
+    "t": "Plasmodium falciparum"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "判斷依據：fevers, chills, myalgias, headache、pruritic areas、thrombocytopenia（血小板低下）\n(A) Leishmania donovani 造成內臟型利什曼原蟲病，若侵犯骨髓會造成血小板低下，但主要感染巨噬細胞，與題幹所述的血液抹片、血小板低下無關聯\n(C) Botsawa 和 Zimbabwe 剛好很尷尬是位於岡比亞錐蟲和羅德西亞錐蟲分布交界附近，就莽原的特性應該是偏向羅德西亞錐蟲。非洲錐蟲也同樣有上述這些非特異症狀，也可能造成 DIC，但是被叮咬後出現的症狀應該是 Trypanosomal Chancre，會有紅腫熱痛和潰瘍，在血液抹片中應會出現 Trypomastigote（錐鞭毛體）",
+  "topics": [
+   "血液鞭毛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-06",
+  "source": "113 考古",
+  "num": 6,
+  "chapter": "protozoa-spor",
+  "type": "mcq",
+  "stem": "下列有關 Toxoplasma gondii 之敘述，何者正確？（Which of the following statement concerning Toxoplasma gondii is TRUE?）",
+  "options": [
+   {
+    "k": "A",
+    "t": "免疫正常之成人後天感染弓蟲，絕大多數都沒有臨床症狀（It is usually asymptomatic for most adults having normal immune function when acquired T. gondii infection）"
+   },
+   {
+    "k": "B",
+    "t": "先天性感染以懷孕的第二個三個月（second trimester）時感染，先天性病變最嚴重（congenital abnormality is the most severe for pregnant women infected by T. gondii in their second trimester）"
+   },
+   {
+    "k": "C",
+    "t": "其終宿主已經確定為犬類（the final host has been confirmed to be the canid）"
+   },
+   {
+    "k": "D",
+    "t": "主要在宿主之紅血球細胞（RBC）內增生繁殖（reproductive replications take place mainly within host’s RBC）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "(A) 正確\n(B) 懷孕越早期感染弓蟲越不容易傳給小孩，但一旦傳染便較嚴重，故 first trimester 最嚴重\n(C) 最終宿主是貓\n(D) 主要寄生在小腸細胞",
+  "topics": [
+   "孢子蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-07",
+  "source": "113 考古",
+  "num": 7,
+  "chapter": "protozoa-lumen",
+  "type": "mcq",
+  "stem": "下列寄生蟲之配對中，何者在患者新鮮糞便中均含有對人類之感染型（infective forms）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "環胞子蟲（Cyclospora cayetanensis）及雙核阿米巴（Dientamoeba fragilis）"
+   },
+   {
+    "k": "B",
+    "t": "人肉胞子蟲（Sarcocystis hominis）及梨形鞭毛蟲（Giardia lamblia）"
+   },
+   {
+    "k": "C",
+    "t": "隱胞子蟲（Cryptosporidium parvum）及嗜碘阿米巴（Iodamoeba butschlii）"
+   },
+   {
+    "k": "D",
+    "t": "等胞子蟲（Isospora belli）及大腸纖毛蟲（Balantidium coli）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "糞便中含有感染型，代表是糞口傳染的寄生蟲。\n(A) 環孢子蟲從人體排出的是 unsporulated oocyst（Diagnostic Stage），而 infectious stage 是進入環境約 7-15 天後形成的 Sporulated oocyst（通常是吃了被汙染的食物和水）；雙核阿米巴沒有 Cyst，傳播方式並非傳統的糞口傳染，而是藏在 intestinal nematode 的卵中（曾有研究在感染蟯蟲的人身上發現它藏在蟯蟲的卵中）\n(B) 人肉孢子蟲從人糞便排出 sporulated oocysts，被中間宿主（cattle for S. hominis and pigs for S. suihominis）吃掉後，在腸道釋放 sporozoites 侵入上皮細胞，形成第一代 schizonts（裂殖體），然後產生第一代 merozoites，第一代 merozoites 會進入微血管和血管，形成第二代 schizonts，然後產生第二代 merozoites，此時第二代 merozoites 會侵入肌肉細胞，形成 bradyzoites（cycst），才是人的感染期\n(C) 嗜碘阿米巴被歸類為非致病型阿米巴，但歷史上曾經有兩次侵入 CNS 的案例被診斷為嗜碘阿米巴附表：寄生蟲感染型與感染型出現位置寄生蟲感染型位置環孢子蟲 Cyclospora cayetanensis Oocyst 糞便雙核阿米巴 Dientamoeba fragilis Trophozoites 可能在蟯蟲卵內人肉孢子蟲 Sarcocystis hominis Cyst 未煮熟的牛肉梨形鞭毛蟲 Giardia lamblia Cyst 糞便隱孢子蟲 Cryptosporidium parvum Oocyst 糞便嗜碘阿米巴 Iodamoeba bütschlii Cyst 糞便等孢子蟲 Isospora belli Matured Oocyte 四到五天的糞便大腸纖毛蟲 Balantidium coli Cyst 糞便",
+  "topics": [
+   "阿米巴與腸腔道原蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-08",
+  "source": "113 考古",
+  "num": 8,
+  "chapter": "protozoa-spor",
+  "type": "mcq",
+  "stem": "Primaquine 的殺傷對象主要是瘧原蟲的那些發育期？",
+  "options": [
+   {
+    "k": "A",
+    "t": "血液裂殖體（blood schizonts）、肝臟裂殖體（liver schizonts）及休眠體（hypnozoites）"
+   },
+   {
+    "k": "B",
+    "t": "肝臟裂殖體（liver schizonts）、休眠體（hypnozoites）及配子母細胞（gametocytes）"
+   },
+   {
+    "k": "C",
+    "t": "休眠體（hypnozoites）、配子母細胞（gametocytes）及血液裂殖體（blood schizonts）"
+   },
+   {
+    "k": "D",
+    "t": "配子母細胞（gametocytes）、血液裂殖體（blood schizonts）及孢子體（sporozoites）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Primaquine 主要消除 Hypnozoite 和 Gametocyte",
+  "topics": [
+   "孢子蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-09",
+  "source": "113 考古",
+  "num": 9,
+  "chapter": "protozoa-lumen",
+  "type": "mcq",
+  "stem": "下列何種寄生蟲之感染，最有可能引起直腸脫垂（rectal prolapse）？",
+  "options": [
+   {
+    "k": "A",
+    "t": "鞭蟲（Trichuris trichiura）"
+   },
+   {
+    "k": "B",
+    "t": "薑片蟲（Fasciolopsis buski）"
+   },
+   {
+    "k": "C",
+    "t": "痢疾阿米巴（Entamoeba histolytica）"
+   },
+   {
+    "k": "D",
+    "t": "曼森裂頭幼蟲（Sparganum mansoni）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "鞭蟲主要寄生在人體大腸區域，感染後會導致直腸脫垂",
+  "topics": [
+   "阿米巴與腸腔道原蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-10",
+  "source": "113 考古",
+  "num": 10,
+  "chapter": "protozoa-blood",
+  "type": "mcq",
+  "stem": "老王至西非工作一年，期間曾多次遭到某種蠅類叮咬，其後叮咬處發生下疳（chancre），接著有週期性發燒、後頸淋巴結腫大（Winterbottom's sign）等症狀，血液及腦脊髓液中檢出的寄生蟲數並不高，他最可能感染的寄生蟲是：",
+  "options": [
+   {
+    "k": "A",
+    "t": "卵形瘧原蟲（Plasmodium ovale）"
+   },
+   {
+    "k": "B",
+    "t": "羅得西亞錐蟲（Trypanosoma brucei rhodesiense）"
+   },
+   {
+    "k": "C",
+    "t": "岡比亞錐蟲（Trypanosoma brucei gambiense）"
+   },
+   {
+    "k": "D",
+    "t": "蟠尾絲蟲（Onchocerca volvulus）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "判斷依據：西非、蠅類叮咬、題幹所述症狀與檢測結果。下疳（chancre）、週期性發燒、後頸淋巴結腫大（Winterbottom's sign）為錐蟲感染後的症狀，又西非盛行之錐蟲為 Trypanosoma brucei gambiense，答案為(C)",
+  "topics": [
+   "血液鞭毛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-11",
+  "source": "113 考古",
+  "num": 11,
+  "chapter": "protozoa-spor",
+  "type": "mcq",
+  "stem": "下列何者與惡性瘧原蟲（Plasmodium falciparum）最無關？",
+  "options": [
+   {
+    "k": "A",
+    "t": "腦性瘧疾（cerebral malaria）"
+   },
+   {
+    "k": "B",
+    "t": "黑熱病（black fever）"
+   },
+   {
+    "k": "C",
+    "t": "赤痢性瘧疾（dysenteric malaria）"
+   },
+   {
+    "k": "D",
+    "t": "黑水熱（blackwater fever）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "惡性瘧原蟲主要症狀：腦性瘧疾、黑水熱、赤痢、黃疸、貧血、休克、腎衰竭、肺水腫\n(A) Cerebral malaria：惡性瘧的最嚴重的併發症，為五歲以下非洲孩童死亡的主要死因\n(B) 黑熱病為內臟型利什曼原蟲症，主要病原為 L. donovani\n(C) Dysenteric malaria：痢疾性瘧疾\n(D) Blackwater fever：血球大量破裂，造成黑尿、黑血",
+  "topics": [
+   "孢子蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-12",
+  "source": "113 考古",
+  "num": 12,
+  "chapter": "protozoa-spor",
+  "type": "mcq",
+  "stem": "下列有關瘧原蟲之敘述中，何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "感染人類之瘧疾中，以卵形瘧（ovale malaria）的地理分布最廣"
+   },
+   {
+    "k": "B",
+    "t": "臺灣近年有境外移入諾氏瘧原蟲（Plasmodium knowlesi）感染的病例"
+   },
+   {
+    "k": "C",
+    "t": "間日瘧原蟲（Plasmodium vivax）喜侵入較成熟的紅血球，且受感染的紅血球會有脹大的現象"
+   },
+   {
+    "k": "D",
+    "t": "惡性瘧（malignant tertian malaria）的復發（relapse）源自患者肝細胞中潛藏之休眠體（hypnozoites）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "(A) 全世界分布最廣的是間日瘧（Plasmodium vivax）\n(B) 正確\n(C) 間日瘧會造成新生紅血球脹大\n(D) 間日瘧和卵圓瘧的休眠子（Hypnozoite）會潛伏在患者肝臟中，因此常在治癒後又復發",
+  "topics": [
+   "孢子蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-13",
+  "source": "113 考古",
+  "num": 13,
+  "chapter": "protozoa-lumen",
+  "type": "mcq",
+  "stem": "下列致病原與其導致疾病之配對中，何者正確？(1041)",
+  "options": [
+   {
+    "k": "A",
+    "t": "微小阿米巴（Endolimax nana）－腹瀉（diarrhea）"
+   },
+   {
+    "k": "B",
+    "t": "大腸纖毛蟲（Balantidium coli）－赤痢（dysentery）"
+   },
+   {
+    "k": "C",
+    "t": "福氏內格里阿米巴（Naegleria fowleri）－阿米巴肉芽腫性腦炎（granulomatous amebic encephalitis）"
+   },
+   {
+    "k": "D",
+    "t": "波列基阿米巴（Entamoeba polecki）－肝膿瘍（amebic liver abscess）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "(A) 微小阿米巴是非致病性，感染後大多無症狀\n(B) 正確\n(C) 棘阿米巴或是巴氏阿米巴的症狀，福氏阿米巴的常見症狀是 Primary Amebic Meningoencephalitis （PAM）\n(D) 波列基阿米巴也是非致病性，感染後大多無症狀",
+  "topics": [
+   "阿米巴與腸腔道原蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-14",
+  "source": "113 考古",
+  "num": 14,
+  "chapter": "protozoa-blood",
+  "type": "mcq",
+  "stem": "王先生奉派駐任中非共和國外交官服務二年，近日因腹部腫脹及週期性發燒而返國就醫，經醫師檢查發現有肝脾腫大（hepatosplenomegaly）及貧血（anemia）病癥，住院後進行骨髓穿刺可見巨噬細胞內有寄生物。依據上述結果，王先生最可能感染何種寄生蟲？(1042)",
+  "options": [
+   {
+    "k": "A",
+    "t": "杜氏利什曼原蟲（Leishmania donovani）"
+   },
+   {
+    "k": "B",
+    "t": "熱帶利什曼原蟲（Leishmania tropica）"
+   },
+   {
+    "k": "C",
+    "t": "岡比亞錐蟲（Trypanosoma brucei gambiense）"
+   },
+   {
+    "k": "D",
+    "t": "枯西氏錐蟲（Trypanosoma cruzi）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "判斷依據：肝脾腫大（hepatosplenomegaly）、巨噬細胞內有寄生物利什曼原蟲會住在巨噬細胞裡，又可依照臨床症狀分為以下三類：分型內臟型 VL 黏膜型 MCL 皮膚型 CL 學名 Leishmania donovani Leishmania braziliensis Leishmania tropica Leishmania mexicana 症狀黑熱病 Kala-azar：發燒、肝脾腫大、貧血 Hyperglobulinemia PKDL 鼻中膈、嘴唇、口腔黏膜潰瘍恢復多年後可能復發東方癤外圍隆起的潰瘍",
+  "topics": [
+   "血液鞭毛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-15",
+  "source": "113 考古",
+  "num": 15,
+  "chapter": "protozoa-lumen",
+  "type": "mcq",
+  "stem": "下列有關陰道滴蟲（Trichomonas vaginalis）或其引起的病症，何者錯誤？(1042)",
+  "options": [
+   {
+    "k": "A",
+    "t": "性伴侶中，男性如果沒有症狀可不必投藥，只需治療出現症狀的女方即可"
+   },
+   {
+    "k": "B",
+    "t": "沒有保蟲宿主（reservoir host）"
+   },
+   {
+    "k": "C",
+    "t": "女性患者之症狀包括陰道搔癢、白帶增多且常呈黃綠色等"
+   },
+   {
+    "k": "D",
+    "t": "根據非洲的研究顯示，陰道滴蟲症（vaginal trichomoniasis）患者感染 HIV 的機率較高"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "感染陰道滴蟲的女性症狀明顯，而男性病患除非侵犯到前列腺，否則無症狀。但如果只有女性接受治療，性生活又無保護，被治癒的女性容易因為性生活再次被男性病患傳染，因此雙方都需治療。(B)人類唯一宿主，正確。",
+  "topics": [
+   "阿米巴與腸腔道原蟲"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k113-pz-16",
+  "source": "113 考古",
+  "num": 16,
+  "chapter": "protozoa-spor",
+  "type": "mcq",
+  "stem": "黑水熱（blackwater fever）通常與何種寄生蟲之感染有關？(1042)",
+  "options": [
+   {
+    "k": "A",
+    "t": "日本血吸蟲（Schistosoma japonicum）"
+   },
+   {
+    "k": "B",
+    "t": "杜氏利什曼原蟲（Leishmania donovani）"
+   },
+   {
+    "k": "C",
+    "t": "班氏絲蟲（Wuchereria bancrofti）"
+   },
+   {
+    "k": "D",
+    "t": "惡性瘧原蟲（Plasmodium falciparum）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "(A)感染日本血吸蟲，常見症狀為片山熱、尾蚴引起的搔癢症狀\n(B) 感染杜氏利什曼原蟲，常見症狀為發燒、肝脾腫大、貧血\n(C) 感染班氏絲蟲，常見症狀為淋巴結腫大、象皮病(淋巴相關疾病)\n(D) 感染惡性瘧原蟲，常見症狀為黑水熱、腦性瘧疾＊惡性瘧原蟲常考特徵：（參考百十一考古詳解） ➢ 瘧原蟲中，最易引起貧血、中樞神經症狀 ➢ 黑水熱（blackwater fever）：破壞 RBC，除了引起貧血，若大量溶血會造成黑尿 ➢ 腦性瘧疾（cerebral malaria）：RBC 被破壞時，釋出的 TNF-alpha 使 RBC 容易凝結，在腦血管造成血塊、堵塞，導致 CNS 症狀",
+  "topics": [
+   "孢子蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-17",
+  "source": "113 考古",
+  "num": 17,
+  "chapter": "protozoa-lumen",
+  "type": "mcq",
+  "stem": "下列寄生蟲之配對，其生活史中皆無囊體期（cyst stage）者為何？(1051)",
+  "options": [
+   {
+    "k": "A",
+    "t": "麥氏唇鞭毛蟲（Chilomastix mesnili）及陰道滴蟲（Trichomonas vaginalis）"
+   },
+   {
+    "k": "B",
+    "t": "雙核阿米巴（Dientamoeba fragilis）及腸道滴蟲［Trichomonas（Pentatrichomonas）hominis］"
+   },
+   {
+    "k": "C",
+    "t": "大腸纖毛蟲（Balantidium coli）及齒齦阿米巴（Entamoeba gingivalis）"
+   },
+   {
+    "k": "D",
+    "t": "嗜碘阿米巴（Iodamoeba butschlii）及口腔滴蟲（Trichomonas tenax）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "國考大難題…無囊體期代表這隻蟲為絕對寄生，沒有住在人體外的階段\n(A) 陰道滴蟲沒有囊體期\n(B) 兩者皆沒有，雙核阿米巴沒有 cyst\n(C) 齒齦阿米巴沒有\n(D) 口腔滴蟲沒有",
+  "topics": [
+   "阿米巴與腸腔道原蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-18",
+  "source": "113 考古",
+  "num": 18,
+  "chapter": "protozoa-lumen",
+  "type": "mcq",
+  "stem": "下列敘述何者錯誤？(1051)",
+  "options": [
+   {
+    "k": "A",
+    "t": "福氏內格里阿米巴（Naegleria fowleri）的患者通常為身體虛弱的老人，發病前一週曾經游泳"
+   },
+   {
+    "k": "B",
+    "t": "原發性阿米巴腦膜腦炎（primary amebic meningoencephalitis）患者，如未及時診治，通常在症狀出現後 3～6 天內死亡"
+   },
+   {
+    "k": "C",
+    "t": "如在患者組織切片中同時發現滋養體（trophozoites）及囊體（cysts），患者最可能是感染了棘阿米巴（Acanthamoeba spp.）"
+   },
+   {
+    "k": "D",
+    "t": "棘阿米巴（Acanthamoeba spp.）也可能造成角膜炎及皮膚潰瘍"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "(A) 福氏內格里阿米巴為伺機性阿米巴，大部分的病例是發生在夏天跑去淡水或半鹹水游泳的年輕人。湖泊、溪流、溫泉或游泳池都是常見的感染源\n(B) 原發性腦炎（PAM）：自由生活的 Naegleria 在患者游泳潛水時進入 CNS 造成急性感染，會有發燒、頭痛、精神錯亂和昏迷，常在感染數天內死亡\n(C) 棘阿米巴能由血液侵入 CNS，在感染組織及血管周圍可見營養體、囊體與肉芽腫反應\n(D) 棘阿米巴角膜炎會導致角膜慢性感染，處理不當可能會失明以下為百十一考古詳解提及內容：福氏內格里阿米巴（Naegleria fowleri）和棘阿米巴（Acanthamoeba spp.）。兩者的鑑別方法在於前者容易從 CSF 取得，但不可能出現在組織；而後者相可以在組織發現囊體。實驗室即是透過 CSF 或是腦組織切片鏡檢中的棘阿米巴營養體或囊體診斷 GAE，而福氏內格里阿米巴則是透過 CSF 診斷原發性腦炎（PAM）。伺機性阿米巴福氏內格里阿米巴 Naegleria fowleri 棘阿米巴 Acanthamoeba spp. 感染原因游泳潛水時受感染皮膚、黏膜潰瘍的次發感染感染對象感染對象所有人（案例多為年輕人）常發生於衰弱、免疫抑制者疾病原發性阿米巴腦膜腦 Primary Amebic Meningoencephalitis（PAM）肉芽腫阿米巴腦膜炎 Granulomatous Amebic Encephalitis （GAE）棘阿米巴角膜炎 Acanthamoeba keratitis 症狀頭痛、發燒，很快發生噁心嘔吐、頸部僵直、全身癲癇、 Kernig’s sign，廣泛的腦膜炎 CNS 局部病變，可能有一或多個病灶，原發感染部位會有肉芽腫反應；嚴重眼痛、角膜潰瘍比較急性 CNS 感染慢性、長期感染實驗室診斷 CSF 中的營養體（不會出現在組織！） CSF 裡的營養體、腦部組織切片、角膜刮取物",
+  "topics": [
+   "阿米巴與腸腔道原蟲"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k113-pz-19",
+  "source": "113 考古",
+  "num": 19,
+  "chapter": "protozoa-spor",
+  "type": "mcq",
+  "stem": "以下關於弓蟲（Toxoplasma gondii）的敘述中，何者錯誤？(1052)",
+  "options": [
+   {
+    "k": "A",
+    "t": "人是其終宿主，而貓是其中間宿主"
+   },
+   {
+    "k": "B",
+    "t": "在愛滋病患者可能導致弓蟲性腦炎（Toxoplasma encephalitis）"
+   },
+   {
+    "k": "C",
+    "t": "文獻記載，孕婦得到急性弓蟲症（toxoplasmosis）時，spiramycin 為預防其胎兒子宮內感染的用藥之一"
+   },
+   {
+    "k": "D",
+    "t": "弓蟲症在台灣屬第四類法定傳染病"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "弓蟲的生活史不一定要經過人類，且貓才是最終宿主（如果弓蟲生活史經過人，人才算中間宿主）",
+  "topics": [
+   "孢子蟲"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k113-pz-20",
+  "source": "113 考古",
+  "num": 20,
+  "chapter": "protozoa-lumen",
+  "type": "mcq",
+  "stem": "下列敘述中，何者錯誤？(1061)",
+  "options": [
+   {
+    "k": "A",
+    "t": "大腸纖毛蟲（Balantidium coli）及梨形鞭毛蟲（Giardia lamblia）之滋養體（trophozoites）都具有兩個細胞核"
+   },
+   {
+    "k": "B",
+    "t": "目前治療陰道滴蟲症（Vaginal trichomoniasis）的首選用藥為 metronidazole"
+   },
+   {
+    "k": "C",
+    "t": "自來水廠之過濾及一般氯處理殺菌方式，可移除及殺死水中隱胞子蟲（Cryptosporidium spp.）的卵囊"
+   },
+   {
+    "k": "D",
+    "t": "野外露營如果無法煮沸飲水，可用碘液處理法殺死水中梨形鞭毛蟲（Giardia lamblia）的囊體"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(A) 大腸纖毛蟲的營養體和囊體核大小各一個；梨形鞭毛蟲營養體有兩核、囊體有二到四個核\n(B) Metronidazole 為原蟲治療用藥\n(C) 隱孢子蟲（Cryptosporidium spp.）和梨形鞭毛蟲都對 chlorine 有抗性，所以自來水消毒無法殺死他們的卵囊\n(D) 碘液處理法可以殺死原蟲",
+  "topics": [
+   "阿米巴與腸腔道原蟲"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k113-pz-21",
+  "source": "113 考古",
+  "num": 21,
+  "chapter": "protozoa-lumen",
+  "type": "mcq",
+  "stem": "下列有關阿米巴之敘述中，何者錯誤？(1061)",
+  "options": [
+   {
+    "k": "A",
+    "t": "利用 PCR 技術可鑑別痢疾阿米巴（Entamoeba histolytica）及迪斯帕阿米巴（Entamoeba dispar）"
+   },
+   {
+    "k": "B",
+    "t": "Metronidazole 為痢疾阿米巴症之首選治療藥物"
+   },
+   {
+    "k": "C",
+    "t": "痢疾阿米巴（Entamoeba histolytica）的滋養體（trophozoites）會吞噬紅血球"
+   },
+   {
+    "k": "D",
+    "t": "人體寄生性阿米巴之寄生部位均在大腸"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "齒齦阿米巴（Entamoeba gingivalis）寄生於口腔，此外痢疾阿米巴有時會跑出腸道，到肝臟、肺等部位，造成腸道外阿米巴症",
+  "topics": [
+   "阿米巴與腸腔道原蟲"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k113-pz-22",
+  "source": "113 考古",
+  "num": 22,
+  "chapter": "protozoa-lumen",
+  "type": "mcq",
+  "stem": "下列那些原蟲的感染型（infective form）通常具有四個細胞核？(1061)",
+  "options": [
+   {
+    "k": "A",
+    "t": "梨形鞭毛蟲（Giardia lamblia）及大腸阿米巴（Entamoeba coli）"
+   },
+   {
+    "k": "B",
+    "t": "梨形鞭毛蟲（Giardia lamblia）及痢疾阿米巴（Entamoeba histolytica）"
+   },
+   {
+    "k": "C",
+    "t": "哈氏阿米巴（Entamoeba hartmanni）及嗜碘阿米巴（Iodamoeba butschlii）"
+   },
+   {
+    "k": "D",
+    "t": "微小阿米巴（Endolimax nana）及雙核阿米巴（Dientamoeba fragilis）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "感染型（infective form）通常是囊體；看各原蟲囊體的核數：\n\n| 屬 | 種 | 感染型 | 核數 |\n|---|---|---|---|\n| *Entamoeba* | *histolytica* | 囊體 | **4** |\n| *Entamoeba* | *hartmanni* | 囊體 | **4** |\n| *Entamoeba* | *coli* | 囊體 | 8 |\n| *Iodamoeba* | *bütschlii* | 囊體 | 1 |\n| *Endolimax* | *nana* | 囊體 | **4** |\n| *Dientamoeba* | *fragilis* | 滋養體 | 2 |\n| *Giardia* | *lamblia* | 囊體 | **4** |\n\n【補充】雙核阿米巴（*Dientamoeba fragilis*）沒有鞭毛，但有 flagellate affinities，近年被歸為鞭毛蟲。沒有囊體期，住在大腸黏液腺，很少攝食紅血球，也沒在組織出現過；感染方式未明，推測可能跟著蟯蟲卵進入人體。",
+  "topics": [
+   "阿米巴與腸腔道原蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-23",
+  "source": "113 考古",
+  "num": 23,
+  "chapter": "protozoa-lumen",
+  "type": "mcq",
+  "stem": "李姓學童日前於居家附近池塘游泳返家後，陸續出現發燒、頭痛、鼻塞及嗅覺失常等症狀，經住院檢查發現白血球高達 24,000/cmm（＞90%為嗜中性白血球）、頸部僵硬及凱尼格氏徵象（Kernig’s sign），並於住院五天後死亡。依據上述結果，李姓學童最可能感染何種寄生蟲？(1062)",
+  "options": [
+   {
+    "k": "A",
+    "t": "福氏內格里阿米巴（Naegleria fowleri）"
+   },
+   {
+    "k": "B",
+    "t": "痢疾阿米巴（Entamoeba histolytica）"
+   },
+   {
+    "k": "C",
+    "t": "棘阿米巴（Acanthamoeba spp.）"
+   },
+   {
+    "k": "D",
+    "t": "大腸阿米巴（Entamoeba coli）"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "福氏阿米巴（Naegleria fowleri）會導致原發性阿米巴腦膜腦炎，由在水域內游泳時從口、鼻吸入囊體所感染",
+  "topics": [
+   "阿米巴與腸腔道原蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-24",
+  "source": "113 考古",
+  "num": 24,
+  "chapter": "protozoa-blood",
+  "type": "mcq",
+  "stem": "陳先生到印度鄉野自助旅行數月，回來後出現腹瀉、發燒、貧血等症狀，之後並出現肝脾腫大（hepatosplenomegaly）現象，骨髓穿刺在其巨噬細胞中發現無鞭毛體（amastigotes），血液及糞便檢查沒有其他發現，他最可能感染的寄生蟲病是：(1062)",
+  "options": [
+   {
+    "k": "A",
+    "t": "黑水熱（blackwater fever）"
+   },
+   {
+    "k": "B",
+    "t": "黑熱病（black fever）"
+   },
+   {
+    "k": "C",
+    "t": "絲蟲症（filariasis）"
+   },
+   {
+    "k": "D",
+    "t": "卡格氏症（Chagas disease）"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "由肝脾腫大、發現無鞭毛體可知是 Leishmania spp.造成的黑熱病",
+  "topics": [
+   "血液鞭毛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-25",
+  "source": "113 考古",
+  "num": 25,
+  "chapter": "protozoa-lumen",
+  "type": "mcq",
+  "stem": "下列有關痢疾阿米巴（Entamoeba histolytica）的敘述中，何者正確？(1062)",
+  "options": [
+   {
+    "k": "A",
+    "t": "阿米巴肝膿瘍（amebic liver abscess）常發生在左葉肝臟"
+   },
+   {
+    "k": "B",
+    "t": "在膿瘍的中央採檢體，檢出其滋養體（trophozoites）的機會比較大"
+   },
+   {
+    "k": "C",
+    "t": "阿米巴肝膿瘍（amebic liver abscess）的第一線用藥為 mebendazole"
+   },
+   {
+    "k": "D",
+    "t": "阿米巴腫（ameboma）常易被誤診為惡性腫瘤"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "(A) 常發生在右葉\n(B) 通常會檢出囊體（Cyst），滋養體則很少見\n(C) Metronidazole",
+  "topics": [
+   "阿米巴與腸腔道原蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-26",
+  "source": "113 考古",
+  "num": 26,
+  "chapter": "protozoa-lumen",
+  "type": "mcq",
+  "stem": "下列敘述，何者錯誤？(1071)",
+  "options": [
+   {
+    "k": "A",
+    "t": "齒齦阿米巴（Entamoeba gingivalis）的滋養體（trophozoites）會吞噬紅血球"
+   },
+   {
+    "k": "B",
+    "t": "嗜碘阿米巴（Iodamoeba butschlii）的滋養體具有一個很大的肝醣泡（glycogen vacuole）"
+   },
+   {
+    "k": "C",
+    "t": "大腸纖毛蟲（Balantidium coli）是體型最大的人體寄生性原蟲"
+   },
+   {
+    "k": "D",
+    "t": "大腸纖毛蟲（Balantidium coli）具有大核及小核"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "嗜碘阿米巴（Iodamoeba bütschlii）是囊體有一個大肝醣泡",
+  "topics": [
+   "阿米巴與腸腔道原蟲"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k113-pz-27",
+  "source": "113 考古",
+  "num": 27,
+  "chapter": "protozoa-lumen",
+  "type": "mcq",
+  "stem": "下列之寄生蟲配對中，何者在患者組織切片皆可能檢出其囊體期（cyststage）？(1072)",
+  "options": [
+   {
+    "k": "A",
+    "t": "哈氏阿米巴（Entamoeba hartmanni）及棘阿米巴（Acanthamoeba spp.）"
+   },
+   {
+    "k": "B",
+    "t": "棘阿米巴（Acanthamoeba spp.）及痢疾阿米巴（Entamoeba histolytica）"
+   },
+   {
+    "k": "C",
+    "t": "棘阿米巴（Acanthamoeba spp.）及巴氏阿米巴（Balamuthia mandrillaris）"
+   },
+   {
+    "k": "D",
+    "t": "棘阿米巴（Acanthamoeba spp.）及福氏內格里阿米巴（Naegleria fowleri）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "先進行分類：哈氏阿米巴與痢疾阿米巴相似、棘阿米巴和巴氏阿米巴很像，他們都是寄生蟲學家原本歸類在一起，後來用分子生物技術才分離的，因此生活模式應非常雷同。解題策略：用刪去法作答 ➢ 人透過食入被痢疾阿米巴囊體污染的食物感染，囊體在小腸時會發育為營養體，到大腸時會侵犯組織造成錐形瓶樣的潰瘍，因此組織檢體應該找到營養體 → 刪去(A)(B) ➢ 福氏阿米巴以營養體的形式感染人類，在受污染的溪流或游泳池游泳，則營養體會經由鼻腔或口腔進入人體，從第 18 題的詳解我們知道了不能在組織中檢出福氏阿米巴 → 刪去(D)；第 18 題詳解中有解釋棘阿米巴能在組織檢出囊體，又巴氏阿米巴和棘阿米巴非常像，所以選(C)",
+  "topics": [
+   "阿米巴與腸腔道原蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-28",
+  "source": "113 考古",
+  "num": 28,
+  "chapter": "protozoa-blood",
+  "type": "mcq",
+  "stem": "下列何種病媒滋生感染症較易藉由輸血途徑而造成人傳人感染？",
+  "options": [
+   {
+    "k": "A",
+    "t": "巴西利什曼原蟲病（leishmaniasis braziliensis）"
+   },
+   {
+    "k": "B",
+    "t": "萊姆病（Lyme disease）"
+   },
+   {
+    "k": "C",
+    "t": "恙蟲病（scrub typhus）"
+   },
+   {
+    "k": "D",
+    "t": "巴貝氏原蟲症（babesiosis）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "巴貝氏原蟲症（babesiosis）的傳染途徑主要是由帶病原體的壁蝨、硬蜱叮咬而傳播，或經帶原動物血液媒介而感染，少數可為母體胎兒的垂直感染，由此可知是由人體血液做為媒介感染的寄生蟲，所以有可能會藉由輸血造成人傳人的感染。\n(A) 巴西利什曼原蟲病傳染方式： 1. 被帶病原體的白蛉叮咬 2. 極少數是藉母體胎兒的垂直感染、輸血或遭污染的針頭感染而傳播 3. 蜱及其他蚊類可能造成機械性傳播\n(B) 萊姆病不會人傳人，只會藉由硬蜱的叮咬傳染\n(C) 恙蟲病不會人傳人，藉由恙蟎幼蟲的叮咬感染",
+  "topics": [
+   "血液鞭毛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-29",
+  "source": "113 考古",
+  "num": 29,
+  "chapter": "protozoa-lumen",
+  "type": "mcq",
+  "stem": "In which stage of the protozoa does the organism possess an undulating membrane?",
+  "options": [
+   {
+    "k": "A",
+    "t": "The cyst of Giardia lamblia"
+   },
+   {
+    "k": "B",
+    "t": "The trophozoite of Entamoeba histolytica"
+   },
+   {
+    "k": "C",
+    "t": "The trophozoite of Balantidium coli"
+   },
+   {
+    "k": "D",
+    "t": "The trophozoite of Trichomonas vaginalis"
+   },
+   {
+    "k": "E",
+    "t": "The trophozoite of Giardia lamblia"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "陰道滴蟲的 trophozoite 和錐蟲的動質體有波動膜（Undulating membrane）",
+  "topics": [
+   "阿米巴與腸腔道原蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-30",
+  "source": "113 考古",
+  "num": 30,
+  "chapter": "protozoa-lumen",
+  "type": "mcq",
+  "stem": "Which of the following statements is CORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Giardia lamblia has no cyst"
+   },
+   {
+    "k": "B",
+    "t": "The matured cyst of Entamoeba coli has 4 nuclei"
+   },
+   {
+    "k": "C",
+    "t": "Trichomonas vaginalis can be treated by Praziquantel"
+   },
+   {
+    "k": "D",
+    "t": "Entamoeba histolytica only cause colitis in large intestine"
+   },
+   {
+    "k": "E",
+    "t": "The trophozoite of Balantidium coli contains macronucleus and micronucleus"
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "(A) 梨形鞭毛蟲有囊體期\n(B) 大腸阿米巴的成熟囊體有 8 個核\n(C) 是 Metronidazole\n(D) 痢疾阿米巴除了會造成阿米巴結腸炎，還會使肺、肝受損，甚至肝膿瘍",
+  "topics": [
+   "阿米巴與腸腔道原蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-31",
+  "source": "113 考古",
+  "num": 31,
+  "chapter": "protozoa-lumen",
+  "type": "mcq",
+  "stem": ".Which of the following statements about Entamoeba histolytica is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Feed on RBC"
+   },
+   {
+    "k": "B",
+    "t": "Adhere mucosal epithelial cells by mannose binding lectin"
+   },
+   {
+    "k": "C",
+    "t": "Can be treated by Metronidazole"
+   },
+   {
+    "k": "D",
+    "t": "The matured cyst of Entamoeba histolytica has 4 nuclei"
+   },
+   {
+    "k": "E",
+    "t": "Can cause extra-intestinal amoebiasis"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "痢疾阿米巴是用半乳糖（Galactose）和 GalNAc specific lectin 黏附在黏液上皮細胞",
+  "topics": [
+   "阿米巴與腸腔道原蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-32",
+  "source": "113 考古",
+  "num": 32,
+  "chapter": "protozoa-blood",
+  "type": "mcq",
+  "stem": "Which of the following statements about Leishmania spp. life cycle is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Has amastigote and promastigote forms"
+   },
+   {
+    "k": "B",
+    "t": "Sandfly is the vector"
+   },
+   {
+    "k": "C",
+    "t": "No animal reservoirs"
+   },
+   {
+    "k": "D",
+    "t": "Prefer to infect macrophage"
+   },
+   {
+    "k": "E",
+    "t": "Promastigote can be found in the midgut of vector"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "利什曼原蟲的生活史分為在白蛉中的前鞭毛體期（Promastigote）和人體巨噬細胞內的無鞭毛體期（Amastigote）。利什曼原蟲以前鞭毛體的形式進入人體，接著以無鞭毛體的形式住在巨噬細胞內。當白蛉吸血吸到受感染的巨噬細胞，細胞會在白蛉後腸破裂，無鞭毛體於白蛉的中腸轉變成前鞭毛體，最後跑到口器，在白蠅吸血時再次進入人體，完成其生活史。其具有多種哺乳類 reservoir。",
+  "topics": [
+   "血液鞭毛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-33",
+  "source": "113 考古",
+  "num": 33,
+  "chapter": "protozoa-blood",
+  "type": "mcq",
+  "stem": "Which of the following statements about Trypanosomes is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "The Romaña’s sign is caused by T.cruzi"
+   },
+   {
+    "k": "B",
+    "t": "T. cruzi is transmitted by Triatomins spp."
+   },
+   {
+    "k": "C",
+    "t": "T. b. gambiense is transmitted by mosquitoes"
+   },
+   {
+    "k": "D",
+    "t": "Chagas disease may cause heart failure"
+   },
+   {
+    "k": "E",
+    "t": "T. b.gambiense can invade central nervous system（CNS）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "岡比亞錐蟲的傳播媒介是是舌蠅（Tsetse fly）",
+  "topics": [
+   "血液鞭毛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-34",
+  "source": "113 考古",
+  "num": 34,
+  "chapter": "protozoa-blood",
+  "type": "mcq",
+  "stem": "Which of the following statements is NOT associated with Kala-azar disease?",
+  "options": [
+   {
+    "k": "A",
+    "t": "L. donovani"
+   },
+   {
+    "k": "B",
+    "t": "Sand fly"
+   },
+   {
+    "k": "C",
+    "t": "Hepatomegaly and splenomegaly"
+   },
+   {
+    "k": "D",
+    "t": "Double or triple fever peak"
+   },
+   {
+    "k": "E",
+    "t": "The gold standard for diagnosis is blood smear"
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "黑熱病（Kala-azar Disease）是內臟型利什曼原蟲症，主要是由 L. donovani 造成，蟲媒是白蛉（Sandfly），症狀包含肝脾腫大、腹水以及皮膚變黑（尤其是額頭和嘴唇周圍），且一天內可能會有兩到三次高熱。\n(E) 診斷黃金準則是進行骨髓、肝臟切片或脾臟穿刺，用 PCR 偵測鞭毛體；血液培養是非常態性做法，而且利什曼原蟲是住在巨噬細胞內，在血液中看不到蟲體，所以無法用血液抹片診斷",
+  "topics": [
+   "血液鞭毛蟲"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k113-pz-35",
+  "source": "113 考古",
+  "num": 35,
+  "chapter": "protozoa-blood",
+  "type": "mcq",
+  "stem": "Mr. Lee has traveled to Africa last month, the Winterbottom’s sign has been diagnosed after he came home. He might be infected by?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Leishmania spp."
+   },
+   {
+    "k": "B",
+    "t": "T. cruzi"
+   },
+   {
+    "k": "C",
+    "t": "P. falciparum"
+   },
+   {
+    "k": "D",
+    "t": "T. b. gambiense"
+   },
+   {
+    "k": "E",
+    "t": "P. vivax"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "非洲錐蟲病第二期的典型症狀",
+  "topics": [
+   "血液鞭毛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-36",
+  "source": "113 考古",
+  "num": 36,
+  "chapter": "protozoa-blood",
+  "type": "mcq",
+  "stem": "Which of the following statements about the difference between T. b. gambiense and T. b. rhodesiense is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "CNS penetration by T. b. rhodesiense only takes few weeks"
+   },
+   {
+    "k": "B",
+    "t": "The infection area of T. b. gambiense is wetland biotope"
+   },
+   {
+    "k": "C",
+    "t": "Both species can be treated by DFMO (eflornithine)"
+   },
+   {
+    "k": "D",
+    "t": "Pentamidine should be used in the early stage of the disease"
+   },
+   {
+    "k": "E",
+    "t": "The transmission cycle of T. b. rhodesiense is usually between wild animals to human"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "(A) 非洲錐蟲病分為三個階段，其中第一階段的急性期發病時間為一到三週\n(B) T. b. gambiense 感染地區是在溼地生態系；T. b. rhodesiense 是在莽原生態系\n(C) DFMO 是治療晚期的藥物，對 T. b. rhodesiense 無效\n(D) Pentamidine 可以作用於血液循環殺死蟲體，適用於早期階段的治療\n(E) 非洲錐蟲為人畜共通，常見狩獵者在打獵時被感染 T. b. rhodesiense",
+  "topics": [
+   "血液鞭毛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-37",
+  "source": "113 考古",
+  "num": 37,
+  "chapter": "protozoa-spor",
+  "type": "mcq",
+  "stem": "Which of the following statements regarding Plasmodium falciparum is CORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "The only cause of cerebral malaria"
+   },
+   {
+    "k": "B",
+    "t": "Associated with recurrent relapses due to hypnozoites in the liver"
+   },
+   {
+    "k": "C",
+    "t": "The transmission route is oral-fecal"
+   },
+   {
+    "k": "D",
+    "t": "Diarrhea is the major symptom"
+   },
+   {
+    "k": "E",
+    "t": "All of the above"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "(B) 在肝臟有休眠子的是間日瘧和卵圓瘧\n(C) 是由瘧蚊傳播\n(D) 亂講…他甚至是直接進到血液欸",
+  "topics": [
+   "孢子蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-38",
+  "source": "113 考古",
+  "num": 38,
+  "chapter": "protozoa-spor",
+  "type": "mcq",
+  "stem": "Which is the WHO recommended treatment for malaria?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Quinine"
+   },
+   {
+    "k": "B",
+    "t": "Artemisinin-based Combination Therapy (ACT)"
+   },
+   {
+    "k": "C",
+    "t": "Halofantrine"
+   },
+   {
+    "k": "D",
+    "t": "Mefloquine"
+   },
+   {
+    "k": "E",
+    "t": "Chloroquine"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "WHO 原文： These are the most common medicines for malaria: • Artemisinin-based combination therapy medicines are the most effective treatment for P. falciparum malaria. • Chloroquine is recommended for treatment of infection with the P. vivax parasite only in places where it is still sensitive to this medicine. • Primaquine should be added to the main treatment to prevent relapses of infection with the P. vivax and P. ovale parasites.",
+  "topics": [
+   "孢子蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-39",
+  "source": "113 考古",
+  "num": 39,
+  "chapter": "protozoa-spor",
+  "type": "mcq",
+  "stem": "Which of the following statement regarding Plasmodium spp. is CORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Transmitted by Anopheles spp."
+   },
+   {
+    "k": "B",
+    "t": "P. vivax can develop hypnozoite which can cause chronic infection."
+   },
+   {
+    "k": "C",
+    "t": "P. malariae can cause kidney syndrome."
+   },
+   {
+    "k": "D",
+    "t": "Sexual stage undergoes midgut of vector."
+   },
+   {
+    "k": "E",
+    "t": "All of the above."
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "(A) Plasmodium 是經由「雌性按蚊（Anopheles spp.）」叮咬傳染給人類，這是瘧疾的典型媒介。\n(B) P. vivax 在肝臟可以形成「hypnozoite（休眠子孢子）」，之後再被活化，造成反覆發作、慢性感染。\n(C) P. malariae 和「quartan malaria nephropathy」有關，會引起腎病症候群等「腎臟相關症候群」，所以說會造成 kidney syndrome 沒錯。\n(D) 瘧原蟲的「有性生殖階段」是在按蚊的中腸（midgut）完成，包括配子受精、形成合子、動合子、卵囊等步驟，之後才產生孢子移到唾腺。",
+  "topics": [
+   "孢子蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-40",
+  "source": "113 考古",
+  "num": 40,
+  "chapter": "protozoa-spor",
+  "type": "mcq",
+  "stem": "Which of the following statements about malaria control is FALSE?",
+  "options": [
+   {
+    "k": "A",
+    "t": "RTS, S/AS01 vaccine is the best way to prevent infection"
+   },
+   {
+    "k": "B",
+    "t": "Indoor residual spray is very effective to kill mosquito resting in the house after blood meal"
+   },
+   {
+    "k": "C",
+    "t": "Intermittent preventive treatment (IPTp) can reduce malaria infection for pregnant women"
+   },
+   {
+    "k": "D",
+    "t": "Drug resistance should be monitored carefully in the malaria endemic regions"
+   },
+   {
+    "k": "E",
+    "t": "Primaquine should be used to kill the hypnozoites in the liver"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "RTS，S/AS01 打完兩年後抗體會下降，可能施打者會誤以為自己很安全，無形中帶來更大的威脅。目前肯亞、迦納和馬拉威選擇了這款疫苗試圖降低瘧原傳播，成效好壞與否還要過幾年才會知道。因此我們只能說 RTS，S/AS01 是有效疫苗，但還不清楚施打疫苗是否為最佳防治方法。",
+  "topics": [
+   "孢子蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-41",
+  "source": "113 考古",
+  "num": 41,
+  "chapter": "protozoa-spor",
+  "type": "mcq",
+  "stem": "If you see a congenital toxoplasmosis patient, which of the following statement is Not true?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Caused by vertical transmission"
+   },
+   {
+    "k": "B",
+    "t": "Retinochoroiditis might occur in adolescence"
+   },
+   {
+    "k": "C",
+    "t": "The severity of the disease could be link to the stage of the pregnancy"
+   },
+   {
+    "k": "D",
+    "t": "The mother might be infected by Toxoplasma gondii many years ago"
+   },
+   {
+    "k": "E",
+    "t": "Could be no symptom at birth"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "先天性弓蟲病（Congenital Toxoplasmosis）會發生母體在懷孕時首次感染且還沒有 IgG 的時候，因為 IgM 不能通過胎盤，所以造成母子垂直感染。眼部弓蟲病主要在青春期發病，先天性多看到兩眼症狀，後天的多為單眼。先天弓蟲病的感染率會隨孕期增加而增加，但感染後的嚴重度會隨孕期增加而降低",
+  "topics": [
+   "孢子蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-42",
+  "source": "113 考古",
+  "num": 42,
+  "chapter": "protozoa-spor",
+  "type": "mcq",
+  "stem": "Which development stage of Toxoplasma gondii can be found exclusively in cats?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Ookinete"
+   },
+   {
+    "k": "B",
+    "t": "Oocyst"
+   },
+   {
+    "k": "C",
+    "t": "Tachyzoite"
+   },
+   {
+    "k": "D",
+    "t": "Merozoite"
+   },
+   {
+    "k": "E",
+    "t": "Cyst"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "(A) 動合子（Ookinete）：在瘧原蟲生活史中瘧蚊體內的有性階段\n(B) 卵囊體（Oocyst）：弓蟲的合子形式，內含四個孢子體。貓會排出卵囊體使孢子體到土壤中\n(C) 速殖子（Tachyzoite）：弓蟲在中間宿主體內會從孢子體（Sporozoite）轉為速殖子\n(D) 裂殖體（Merozoite）：頂端複合門的生活史中，裂殖體會轉為配子體，但通常弓蟲這個階段我們只會叫 Tachyzoite\n(E) 囊體（Cyst）：弓蟲感染貓的形式",
+  "topics": [
+   "孢子蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-43",
+  "source": "113 考古",
+  "num": 43,
+  "chapter": "protozoa-spor",
+  "type": "mcq",
+  "stem": "Which of the following statement regarding Babesia spp. is CORRECT?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Transmitted by mosquito"
+   },
+   {
+    "k": "B",
+    "t": "Human can be infected by blood transfusion"
+   },
+   {
+    "k": "C",
+    "t": "Invade white blood cell"
+   },
+   {
+    "k": "D",
+    "t": "Healthy immunocompetent patient may suffer life-threatening symptoms"
+   },
+   {
+    "k": "E",
+    "t": "None of the above"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "(A) 由蜱（Tick）傳播\n(B) 是感染 RBC\n(D) 健康的感染者通常無症狀或輕微類流感",
+  "topics": [
+   "孢子蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-44",
+  "source": "113 考古",
+  "num": 44,
+  "chapter": "protozoa-blood",
+  "type": "mcq",
+  "stem": "老李至東非野生動物保護區旅遊時，遭到某種蠅類叮咬，不久叮咬處發生下疳（chancre），後來併有發燒、後頸淋巴結腫大等症狀，血液及腦脊髓液中檢出的寄生蟲數亦高，他最可能感染的寄生蟲是：（Mr. Lee visited in a wild zoo in eastern Africa and he was bitten by an unknown fly, later on chancre was developed from the wounded site. Fever and an enlarged lymph node in the back neck (called Winterbottom’s sign) was noted and simultaneously high parasitemia was also found in his blood smear. What parasite did he get?）",
+  "options": [
+   {
+    "k": "A",
+    "t": "Plasmodium falciparum"
+   },
+   {
+    "k": "B",
+    "t": "Trypanosoma cruzi"
+   },
+   {
+    "k": "C",
+    "t": "Leishmanial infantum"
+   },
+   {
+    "k": "D",
+    "t": "Trypanosoma brucei"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "看到急性症狀為下疳，接著發燒、後頸淋巴結腫大（Winterbottom’s sign）就知道應為非洲錐蟲病。又因為老李的旅遊史是到東非，所以可推測他最可能感染到的是 T. b. rhodesiense，但很不幸地沒有這個選項，因此選會造成非洲錐蟲病且也有少許分布於東非的岡比亞錐蟲。",
+  "topics": [
+   "血液鞭毛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-45",
+  "source": "113 考古",
+  "num": 45,
+  "chapter": "protozoa-lumen",
+  "type": "mcq",
+  "stem": "下列有關陰道滴蟲及其病症的敘述，何者不正確？（Which of the following statement concerning Trichomonas vaginalis and associated diseases is FALSE?）",
+  "options": [
+   {
+    "k": "A",
+    "t": "患者之白帶呈白色乳酪狀（The leucorrhea from patients shows cheese-like）"
+   },
+   {
+    "k": "B",
+    "t": "雖夫妻中男性通常沒有症狀，但夫妻仍需同時治療以阻卻彼此再次互相傳染（Although male is usually asymptomatic if couples infected by T. vaginalis, both of them should receive treatment simultaneously to prevent transmission to each other again）"
+   },
+   {
+    "k": "C",
+    "t": "貓科動物是其唯一的宿主（Feline is the final host of T. vaginalis）"
+   },
+   {
+    "k": "D",
+    "t": "感染形式（infective form）為活動體（The infective form is trophozoite）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "陰道滴蟲病是性傳染疾病（STD），是由性接觸人傳人，生活史不會經過貓科動物。\n(D) 陰道滴蟲沒有囊體期，所以感染型是 trophozoite",
+  "topics": [
+   "阿米巴與腸腔道原蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-46",
+  "source": "113 考古",
+  "num": 46,
+  "chapter": "protozoa-lumen",
+  "type": "mcq",
+  "stem": "下列有關各種阿米巴原蟲與其導致之疾病的配對，何者不正確？（Which of the following amoeba-diseases-matchings is FALSE?）",
+  "options": [
+   {
+    "k": "A",
+    "t": "Acanthamoeb spp. – granulomatous amebic encephalitis"
+   },
+   {
+    "k": "B",
+    "t": "Entamoeba histolytica – amebic keratitis"
+   },
+   {
+    "k": "C",
+    "t": "Entamoeba dispar – non-pathogenicity"
+   },
+   {
+    "k": "D",
+    "t": "Naegleria fowleri – primary amebic meningoencephalitis"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "棘阿米巴角膜炎（Acanthamoeba keratitis）由棘阿米巴（Acanthamoeba spp.）感染導致。幾種阿米巴與它們造成的疾病如下表所示：寄生蟲疾病症狀棘阿米巴 Acanthamoeba spp. 肉芽腫阿米巴腦膜炎（GAE） CNS 局部病變，原發感染部位會有肉芽腫反應痢疾阿米巴 Entamoeba histolytica 阿米巴症（Amebiasis）下痢、赤痢、腹痛、絞痛、裡急後重迪斯帕阿米巴 Entamoeba dispar 無無症狀福氏內格里阿米巴 Naegleria fowleri 原發性阿米巴腦膜腦炎（PAM）嚴重前頭痛、發燒、噁心、嘔吐、頸部僵直、全身癲癇、 Kernig’s sign",
+  "topics": [
+   "阿米巴與腸腔道原蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-47",
+  "source": "113 考古",
+  "num": 47,
+  "chapter": "protozoa-lumen",
+  "type": "mcq",
+  "stem": "下列何種是屬於自由生活阿米巴原蟲對人體具致病性？（Which of the following is free-living amoeba and is pathogenic to human beings?）",
+  "options": [
+   {
+    "k": "A",
+    "t": "Entamoeba histolytica"
+   },
+   {
+    "k": "B",
+    "t": "Acanthamoeba spp."
+   },
+   {
+    "k": "C",
+    "t": "Entamoeba dispar"
+   },
+   {
+    "k": "D",
+    "t": "Giardia intestinalis"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "(A) 為致病性阿米巴\n(C) 為非致病型阿米巴\n(D) 不是阿米巴",
+  "topics": [
+   "阿米巴與腸腔道原蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-48",
+  "source": "113 考古",
+  "num": 48,
+  "chapter": "protozoa-lumen",
+  "type": "mcq",
+  "stem": "如何區別 E. histolytica 與 E. dispar 的成熟囊體？（How to differentiate the matured cyst between E. histolytica and E. dispar?）",
+  "options": [
+   {
+    "k": "A",
+    "t": "依賴染色質體：前者的兩端是圓鈍的，而後者的兩端是分裂的（According to the end of chromatoid body: the former one is round and blunt, the latter is splinter）"
+   },
+   {
+    "k": "B",
+    "t": "依細胞核數：前者數目為 4 個，後者數目為 3 個（According to the number of nuclear: the former one has 4, the latter has 3）"
+   },
+   {
+    "k": "C",
+    "t": "依核仁位置：前者的位於中央位置，而後者偏位（According to the location of karyosome: the former one is in the center, the latter is off-center）"
+   },
+   {
+    "k": "D",
+    "t": "依致病性：前者有致病性，而後者無致病性（According to the pathogenicity: the former one is pathogenic, the latter is non-pathogenic）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "E. histolytica、E. dispar 和 E. moshkovskii 無法用形態學區別，寄生蟲學家是後來運用分生技術才發現三者不同。三者中，只有痢疾阿米巴會致病。",
+  "topics": [
+   "阿米巴與腸腔道原蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-49",
+  "source": "113 考古",
+  "num": 49,
+  "chapter": "protozoa-lumen",
+  "type": "mcq",
+  "stem": "某一托兒所近日發生幼兒集體腹瀉的現象，病童糞便有異味但不帶血或黏液，糞便直接鏡檢發現有大量行落葉般運動（falling-leaf motility）且帶有鞭毛的活動體，則下列何者為治療此感染性腹瀉最理想的藥物？（Which of the following drug is the best to treat kindergarten children with diarrhea in which stinky stool contains mucus with no blood and numerous trophozoites showing falling-leaf motility?）",
+  "options": [
+   {
+    "k": "A",
+    "t": "Paromomycin"
+   },
+   {
+    "k": "B",
+    "t": "Metronidazole"
+   },
+   {
+    "k": "C",
+    "t": "Mefloquine"
+   },
+   {
+    "k": "D",
+    "t": "Trimethoprim＋Sulfamethoxazole"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "Falling-leaf movement 是梨形鞭毛蟲的特徵，治療首選藥物為 Metronidazole",
+  "topics": [
+   "阿米巴與腸腔道原蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-50",
+  "source": "113 考古",
+  "num": 50,
+  "chapter": "protozoa-blood",
+  "type": "mcq",
+  "stem": "一位醫學系同學至印度進行志工活動，回台後約兩個月後，開始出現疲憊與肝脾腫大的現象，醫師診治發現他的發燒可以每 24 小時出現 2 次達 39-40℃的高燒。以下敘述何者錯誤：（A medical student who ever had volunteer activity in India and when he went back to Taiwan two months later showed malaise, spleno-hepatomegaly from severe fever with a peak of 39-40℃ every 24hrs. Which of the following statement is FALSE?）",
+  "options": [
+   {
+    "k": "A",
+    "t": "該同學可能是感染 Leishmania donovani （This student may be infected with Leishmania donovani）"
+   },
+   {
+    "k": "B",
+    "t": "該 fever 特稱為 Dum-dum fever （This special type of fever is called as “Dum-dum fever”）"
+   },
+   {
+    "k": "C",
+    "t": "該同學可能是受到 Sand fly 叮咬所造成（This student possibly acquire the infection through the bite of sand fly）"
+   },
+   {
+    "k": "D",
+    "t": "診斷該病的方法之一是偵測同學的血液中是否有 amastigote （One of methods in diagnosis of this disease is detect any amastigote from student’s blood specimen）"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "題幹描述為黑熱病的典型症狀，病因為受 VL 的 L. donovani 感染。內臟型利什曼原蟲的診斷黃金準則為用 PCR 檢測骨髓、肝臟切片或脾臟穿刺檢體中的無鞭毛體（amastigote），血液中主要是檢測內臟型利什曼原蟲的抗體。 Blood tests that detect antibody (an immune response) to the parasite can be helpful for cases of visceral leishmaniasis（參考資料：https://www.cdc.gov/parasites/leishmaniasis/diagnosis.html）\n(B) Dum-dum fever 是黑熱病（Kala-azar）的別稱。",
+  "topics": [
+   "血液鞭毛蟲"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k113-pz-51",
+  "source": "113 考古",
+  "num": 51,
+  "chapter": "protozoa-lumen",
+  "type": "mcq",
+  "stem": "下列敘述，何者錯誤？（Which of the following statement is false?）",
+  "options": [
+   {
+    "k": "A",
+    "t": "配戴隱形眼鏡者是罹患棘阿米巴性角膜炎（Acanthamoeba keratitis）的高危險群（People who wear the contact lens are the high-risk group susceptible to Acanthamoeba infection causing keratitis）"
+   },
+   {
+    "k": "B",
+    "t": "早期棘阿米巴性角膜炎患者常需進行角膜移植恢復視力，近年來多已可用藥物治癒（In early time, patients with Acanthamoeba keratitis require keratoplasty to recover the eye vision; while recently, it can be treated well with drugs）"
+   },
+   {
+    "k": "C",
+    "t": "自營生活的阿米巴（free-living amoebae）所造成的腦部感染均與游泳有關（Cerebral infection by free-living amoeba is always acquired from swimming-related activities）"
+   },
+   {
+    "k": "D",
+    "t": "棘阿米巴的患者通常免疫力較差（Patients with Acanthamoeba infection usually present with weaker immunity）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "Naegleria fowleri 和游泳有關，但 Acanthamoeba spp.和游泳無關（P.5 第 18 題詳解）",
+  "topics": [
+   "阿米巴與腸腔道原蟲"
+  ],
+  "pattern": "選錯誤／否定題"
+ },
+ {
+  "id": "k113-pz-52",
+  "source": "113 考古",
+  "num": 52,
+  "chapter": "protozoa-blood",
+  "type": "mcq",
+  "stem": "對於 Trypanosoma cruzi 和 Leishmania infantum 的相關問題的比較，以下何者正確：",
+  "options": [
+   {
+    "k": "A",
+    "t": "傳播方式：前者乃因 triatomine bug 吸血後將口部的 metacyclic trypomastigote 傳入人體：後者為 tsetse fly 吸血後將後腸部的 metacyclic trypomastigote 傳入人體"
+   },
+   {
+    "k": "B",
+    "t": "急性期的特徵：前者可出現 Romana’s sign：後者可出現 Black water fever"
+   },
+   {
+    "k": "C",
+    "t": "躲避宿主免疫捕殺：前者體表會模仿宿主成分躲過宿主免疫系統的識別：後者會以抗原變異躲避宿主免疫系統的識別"
+   },
+   {
+    "k": "D",
+    "t": "感染期：前者是 trypomastigote：後者是 promastigote"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "內臟型利什曼原蟲是造成黑熱病而非黑水熱，且黑熱病要潛伏兩週到十八個月才會發病其餘比較列如下表： Trypanosoma cruzi Leishmania infantum 傳播方式後位傳播：錐椿吸血時讓存於糞便的後循環期錐蟲體從傷口進入人體白蛉吸血時將口部的前鞭毛體傳入人體急性期特徵 Chagoma、Romaña’s sign 有潛伏期躲避宿主免疫抑制 C3b 和 C4b、負向調控 Th1C4b、負向調控 Th1：感染樹狀細胞以降低 IL 6、IL-12、TNF α、CD40 住在巨噬細胞內躲避宿主免疫系統識別、負向調控 Th1 感染型 Metacyclic trypomastigote promastigote 〔註〕Leishmania infantum 是一種內臟型利什曼原蟲。",
+  "topics": [
+   "血液鞭毛蟲"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k113-pz-53",
+  "source": "113 考古",
+  "num": 53,
+  "chapter": "protozoa-spor",
+  "type": "mcq",
+  "stem": "A woman 27 years of age who was pregnant presented with fetal growth restriction at NTU obstetric clinic on October 12, 2009. Her blood sample was positive for Toxoplasma gondii-specific immunoglobulin M (IgM). She gave birth to a boy at 37 weeks of gestation on February 1, 2010. The infant weighed 2050g. General examination did not show any morphologic abnormality. However, brain magnetic resonance imaging showed diffuse brain tissue loss with direct communication between the lateral ventricle and the adjacent cerebral surface, corpus callosum hypoplasia, porencephaly, encephalomalacia, intracerebral hemorrhage, and multiple calcifications as shown below. What is the most possible explanation for this pregnant woman to acquire this parasite infection?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Drank boiled oocyst-contaminated water"
+   },
+   {
+    "k": "B",
+    "t": "Consumed well-cooked encysted larva-contained meat"
+   },
+   {
+    "k": "C",
+    "t": "Contacted with eggs-contaminated soil"
+   },
+   {
+    "k": "D",
+    "t": "Ate raw and salted pork"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "題幹對小孩病症的描述是先天性弓蟲症（Congenital Toxoplasmosis）的典型症狀，此病發生於母親在懷孕時第一次感染弓蟲，因 IgM 無法通過胎盤，所以會對嬰兒造成傷害。人類感染弓蟲的常見途徑為食入含有囊體的生肉。填空題 1. 弓蟲感染，包含以下兩個時期：急性期：速殖子 Tachyzoite （Trophozoite）慢性期：緩殖子 Bradyzoite （Cyst） 2. 巨噬細胞（Macrophage） 3. 如下： Parasites Infective stage to humans Diagnostic stage from infected patients Does it have autoinfection cycle? Isopora belli Matured oocyst Oocyst No Cryptosporidim parvum Thick-walled Oocyst Thick-walled Oocyst Yes Toxoplasma gondii Sporulated oocysts Tissue cysts Tissue cysts No Plasmodium vivax Sporozoites Immature trophozoite Mature trophozoite Schizont Gametocyte No Babesia microti Sporozoites Trophozoite Merozoite No Leishmania donovani Promastigotes Amastigotes （in macrophage） No Trypanosoma gambiense Metacyclic trypomastigotes Trypomastigotes （in blood） No Trypanosoma cruzi Metacyclic trypomastigotes Trypomastigotes （in blood） No",
+  "topics": [
+   "孢子蟲"
+  ],
+  "pattern": "選正確／單一概念題",
+  "imageOnly": true
+ }
+]

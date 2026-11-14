@@ -1,0 +1,28 @@
+{
+  "id": "med-psych",
+  "title": "醫學心理學",
+  "short": "醫心",
+  "term": "117-1 大四上・尚未上課",
+  "description": "醫學心理學。目前依系學會「共筆（系學會歷屆）／大四 上／109」建立章節，上課後再依今年 slides、錄影與共筆整理。",
+  "color": "#5a6a5a",
+  "icon": "💬",
+  "questionFiles": [],
+  "groups": [
+    {
+      "title": "117-1 大四上・醫學心理學",
+      "chapters": [
+        "main"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "main",
+      "title": "醫學心理學",
+      "en": "Medical psychology",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    }
+  ]
+}

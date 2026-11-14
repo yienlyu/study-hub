@@ -1,0 +1,82 @@
+{
+  "id": "surgery-intro",
+  "title": "外科概論",
+  "short": "外科概論",
+  "term": "116-2 大三下・尚未上課",
+  "description": "外科基本原則、圍手術期照護與外科重症。目前依系學會「共筆（系學會歷屆）／大三 下／110」建立章節，上課後再依今年 slides、錄影與共筆整理。",
+  "color": "#7a4a3a",
+  "icon": "🔪",
+  "questionFiles": [],
+  "groups": [
+    {
+      "title": "116-2 大三下・外科概論",
+      "chapters": [
+        "ethics",
+        "wound",
+        "periop",
+        "complications",
+        "new-tech",
+        "critical-care",
+        "electrolytes"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ethics",
+      "title": "外科專業與醫德",
+      "en": "Surgical professionalism",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "wound",
+      "title": "傷口癒合與再生醫學",
+      "en": "Wound healing",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "periop",
+      "title": "術前評估與術後處置",
+      "en": "Perioperative care",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "complications",
+      "title": "術後合併症",
+      "en": "Postoperative complications",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "new-tech",
+      "title": "外科新科技",
+      "en": "New surgical technology",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "critical-care",
+      "title": "外科重症醫療",
+      "en": "Surgical critical care",
+      "teacher": "",
+      "week": "",
+      "slides": false
+    },
+    {
+      "id": "electrolytes",
+      "title": "水分與電解質",
+      "en": "Fluid & electrolytes",
+      "teacher": "郭立人",
+      "week": "",
+      "slides": false
+    }
+  ]
+}
