@@ -643,11 +643,11 @@
   }
   // ------------------------------------------------------------ 私人科目（限定帳號）
   // 內容不放公開 repo：檔案在 Supabase storage 的 private bucket「private-subjects/<科目 id>/…」，
-  // 誰能看由 public.private_access（user_id, subject, parent, title）決定；RLS 只讓使用者讀到自己的列與被授權的檔案。
+  // 誰能看由 public.private_access（user_id, subject, title）決定；RLS 只讓使用者讀到自己的列與被授權的檔案。
   // 沒登入或沒權限時 entries() 是空的，這些科目在網站上完全不存在。
   const PRIV_BUCKET = "private-subjects";
   const Private = {
-    list: null, // 已載入的 [{ id, private, parent, title }]
+    list: null, // 已載入的 [{ id, private, title }]
     _p: null,
     entries() {
       if (this._p) return this._p;
@@ -656,7 +656,7 @@
         if (!Cloud.sb || !Cloud.user) return (this.list = []);
         const { data, error } = await Cloud.sb
           .from("private_access")
-          .select("subject, parent, title");
+          .select("subject, title");
         if (error) {
           console.warn("private_access", error);
           return (this.list = []);
@@ -664,7 +664,6 @@
         return (this.list = (data || []).map((r) => ({
           id: r.subject,
           private: true,
-          parent: r.parent || "",
           title: r.title || "",
         })));
       })());
@@ -2550,21 +2549,6 @@
         </section>
       </div>`,
       () => {
-        // 隱藏入口：登入帳號有權限、且 parent 是這一科的私人科目 → 科目標題連點 5 下進去
-        Private.entries().then((list) => {
-          const sec = list.find((x) => x.parent === sid);
-          if (!sec) return;
-          let n = 0,
-            h = 0;
-          $(".page-head h1")?.addEventListener("click", () => {
-            clearTimeout(h);
-            h = setTimeout(() => (n = 0), 700);
-            if (++n < 5) return;
-            n = 0;
-            toast(`🔓 ${sec.title || "隱藏區"}`);
-            setTimeout(() => (location.hash = `#/s/${sec.id}`), 500);
-          });
-        });
         $$("[data-sort]").forEach((b) =>
           b.addEventListener("click", () => {
             store.set("sh:sort", b.dataset.sort);
