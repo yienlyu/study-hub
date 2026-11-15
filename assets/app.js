@@ -122,8 +122,36 @@
         "$1<em>$2</em>",
       )
       .replace(/(^|[^\w])_(?![\s_])([^_\n]+?)(?<!\s)_(?!\w)/g, "$1<em>$2</em>");
+  // 題幹／詳解裡的數學式：一整行只有 $$…$$ = 置中公式；行內 $…$。先輸出含 TeX 的佔位元素，
+  // 由 mathObserver 呼叫 renderMath 用 KaTeX 排版（沒載到就顯示原文）。$ 後面、結尾 $ 前面不能是空白（避免一般的錢字號）。
+  const MATH_RE = /\$\$(?!\s)([^$\n]+?)(?<!\s)\$\$|\$(?![\s$])([^$\n]+?)(?<!\s)\$/g;
+  const mathSpan = (tex, display) =>
+    `<span class="math${display ? " math-d" : ""}" data-tex="${escHtml(tex)}">${escHtml(tex)}</span>`;
+  const withMath = (t, fmt) => {
+    let out = "",
+      last = 0;
+    for (const m of t.matchAll(MATH_RE)) {
+      const tex = m[1] ?? m[2];
+      const end = m.index + m[0].length;
+      // 自成一行的 $$…$$ → 置中的區塊公式（前後的換行由區塊本身取代，pre-wrap 才不會多空行）
+      const solo =
+        m[1] != null &&
+        /(^|\n)[ \t]*$/.test(t.slice(0, m.index)) &&
+        /^[ \t]*(\n|$)/.test(t.slice(end));
+      if (solo) {
+        out += fmt(t.slice(last, m.index).replace(/\n[ \t]*$/, ""));
+        out += `<div class="math math-block" data-tex="${escHtml(tex)}">${escHtml(tex)}</div>`;
+        last = end + (t.slice(end).match(/^[ \t]*\n/)?.[0].length ?? 0);
+      } else {
+        out += fmt(t.slice(last, m.index)) + mathSpan(tex, m[1] != null);
+        last = end;
+      }
+    }
+    return out + fmt(t.slice(last));
+  };
+  const optTxt = (t) => withMath(String(t ?? ""), escHtml);
   const rich = (s) => {
-    const esc = (t) => inlineMd(escHtml(t));
+    const esc = (t) => withMath(t, (x) => inlineMd(escHtml(x)));
     const isRow = (l) => l.trim().startsWith("|");
     const isSep = (l) => /^\|?[\s:|-]+\|?$/.test(l.trim()) && l.includes("-");
     const cells = (l) =>
@@ -1533,6 +1561,16 @@
       })
       .catch(() => {});
   }
+  // 題目卡、詳解、彈出視窗等不經 enhanceProse 的地方：有新的數學式佔位元素出現就排版
+  let mathRaf = 0;
+  new MutationObserver(() => {
+    if (mathRaf) return;
+    mathRaf = requestAnimationFrame(() => {
+      mathRaf = 0;
+      if (document.querySelector(".math[data-tex]:not([data-done])"))
+        renderMath(document.body);
+    });
+  }).observe(document.body, { childList: true, subtree: true });
   function enhanceProse(root) {
     renderMath(root);
     $$(".prose", root).forEach((p) => {
@@ -2142,9 +2180,10 @@
       ) || "";
     if (q.term && termId === q.term) store.set("sh:homeTerm", termId);
     const curTerm = usedTerms.find((t) => t.id === termId);
-    const subs = termId
-      ? allSubs.filter((s) => termOf(s) === termId)
-      : allSubs;
+    // subject.json 的 "homeOrder"（數字小的排前面）可調整同一分頁內的卡片順序；沒寫的維持原順序
+    const subs = (termId ? allSubs.filter((s) => termOf(s) === termId) : allSubs)
+      .slice()
+      .sort((a, b) => (a.meta.homeOrder ?? 1e9) - (b.meta.homeOrder ?? 1e9));
     setChrome(null, "home");
     const lastSid = store.get("sh:lastSubject", null) || subs[0]?.meta.id;
     const last =
@@ -5198,7 +5237,7 @@
                 else if (picked.includes(o.k)) cls = "wrong";
                 else cls = "dim";
               } else if (multi && S.sel.has(o.k)) cls = "picked";
-              return `<button type="button" class="option ${cls}" data-k="${o.k}"${multi && !a ? ` aria-pressed="${S.sel.has(o.k)}"` : ""}${a ? " disabled" : ""}><span class="key">${o.k}</span><span class="txt">${esc(o.t)}</span>${ic(cls === "wrong" ? "x" : "check", "mark")}</button>`;
+              return `<button type="button" class="option ${cls}" data-k="${o.k}"${multi && !a ? ` aria-pressed="${S.sel.has(o.k)}"` : ""}${a ? " disabled" : ""}><span class="key">${o.k}</span><span class="txt">${optTxt(o.t)}</span>${ic(cls === "wrong" ? "x" : "check", "mark")}</button>`;
             })
             .join("")}</div>`;
       const multiBar =
@@ -5747,7 +5786,7 @@
             <div class="cbt-opts" role="radiogroup" aria-label="選項">${qq.options
               .map(
                 (o) =>
-                  `<button type="button" role="radio" aria-checked="${a === o.k}" class="cbt-opt${a === o.k ? " on" : ""}" data-k="${o.k}"><span class="cbt-radio" aria-hidden="true"></span><span class="key">(${o.k})</span><span class="txt">${esc(o.t)}</span></button>`,
+                  `<button type="button" role="radio" aria-checked="${a === o.k}" class="cbt-opt${a === o.k ? " on" : ""}" data-k="${o.k}"><span class="cbt-radio" aria-hidden="true"></span><span class="key">(${o.k})</span><span class="txt">${optTxt(o.t)}</span></button>`,
               )
               .join("")}</div>
             <footer class="cbt-nav">
@@ -6029,7 +6068,7 @@
         <div class="options" role="radiogroup" aria-label="選項">${qq.options
           .map(
             (o) =>
-              `<button type="button" role="radio" aria-checked="${a === o.k}" class="option${a === o.k ? " picked" : ""}" data-k="${o.k}"><span class="key">${o.k}</span><span class="txt">${esc(o.t)}</span></button>`,
+              `<button type="button" role="radio" aria-checked="${a === o.k}" class="option${a === o.k ? " picked" : ""}" data-k="${o.k}"><span class="key">${o.k}</span><span class="txt">${optTxt(o.t)}</span></button>`,
           )
           .join("")}</div>
         <div class="q-foot">
@@ -6222,17 +6261,17 @@
       const x = pool[S.i];
       const ans = x.answer || [];
       const opts = (x.options || []).length
-        ? `<ol>${x.options.map((o) => `<li><span class="k">${o.k}</span><span>${esc(o.t)}</span></li>`).join("")}</ol>`
+        ? `<ol>${x.options.map((o) => `<li><span class="k">${o.k}</span><span>${optTxt(o.t)}</span></li>`).join("")}</ol>`
         : "";
       const optsBack = (x.options || []).length
-        ? `<ol>${x.options.map((o) => `<li class="${ans.includes(o.k) ? "ans" : ""}"><span class="k">${o.k}</span><span>${esc(o.t)}</span></li>`).join("")}</ol>`
+        ? `<ol>${x.options.map((o) => `<li class="${ans.includes(o.k) ? "ans" : ""}"><span class="k">${o.k}</span><span>${optTxt(o.t)}</span></li>`).join("")}</ol>`
         : "";
       const big =
         ans.length && !x.noAnswer
           ? ans
               .map((k) => {
                 const o = (x.options || []).find((y) => y.k === k);
-                return o ? `(${k}) ${esc(o.t)}` : `(${k})`;
+                return o ? `(${k}) ${optTxt(o.t)}` : `(${k})`;
               })
               .join(x.multi ? "<br>" : "　或　")
           : x.answerText
@@ -6358,7 +6397,7 @@
     return `<article class="card bq${open ? " open" : ""}">
       ${qMeta(subj, q)}
       ${passageBox(q)}<div class="q-stem">${rich(q.stem)}</div>${qImgs(subj, q)}
-      ${(q.options || []).length ? `<ol>${q.options.map((o) => `<li class="${ans.includes(o.k) && !q.noAnswer ? "ans" : ""}"><span class="k">${o.k}</span><span>${esc(o.t)}</span></li>`).join("")}</ol>` : ""}
+      ${(q.options || []).length ? `<ol>${q.options.map((o) => `<li class="${ans.includes(o.k) && !q.noAnswer ? "ans" : ""}"><span class="k">${o.k}</span><span>${optTxt(o.t)}</span></li>`).join("")}</ol>` : ""}
       <details${open ? " open" : ""}><summary>${ic("eye")}答案與詳解</summary>
         <div class="verdict neutral" style="margin-top:0"><div class="verdict-head">答案：${ans.length || q.noAnswer ? `${ansText(q)}${q.multi ? "（多選題）" : ""}` : q.answerText ? "見參考答案" : "無正確選項"}</div><div class="verdict-body">
         ${q.answerText ? `<div class="answer-text${q.mono ? " mono" : ""}">${rich(q.answerText)}</div>` : ""}
