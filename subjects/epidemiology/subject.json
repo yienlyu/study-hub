@@ -2,9 +2,9 @@
   "id": "epidemiology",
   "title": "流行病學",
   "short": "流病",
-  "term": "115-1 期中考",
-  "examDate": "2026-11-10",
-  "description": "流行病學概論、描述性流病、疾病傳播、疾病率與死亡率，以及篩檢效度、預後與臨床試驗。整合 2026 上課 slides、EverCam 逐字稿、百十四共筆（對照百十三共筆）與 109／110／114 期中考古。",
+  "term": "115-1 期末考",
+  "examDate": "2026-12-21",
+  "description": "流行病學概論、描述性流病、疾病傳播、疾病率與死亡率、篩檢效度、預後與臨床試驗（期中），以及期末的分析性流行病學（生態研究、橫斷研究、世代研究、病例對照研究…）。整合 2026 上課 slides、EverCam 逐字稿、百十四共筆（對照百十三共筆）、109／110／114 期中考古與百十三的 114 期末考古。",
   "color": "#3d5a99",
   "icon": "📊",
   "sheet": "content/_sheet.md",
@@ -14,9 +14,16 @@
     "data/questions-k1151.json",
     "data/questions-class.json",
     "data/questions-new.json",
-    "data/questions-style.json"
+    "data/questions-style.json",
+    "data/questions-k114final.json"
   ],
   "sources": [
+    {
+      "key": "k114f",
+      "label": "114 期末考古",
+      "kind": "exam",
+      "pill": "violet"
+    },
     {
       "key": "k114",
       "label": "114 期中考古",
@@ -62,52 +69,100 @@
   ],
   "groups": [
     {
-      "title": "概論與傳染病流病 W1–W2",
+      "title": "期末・分析性流行病學（陳偉仁）W10–",
+      "chapters": ["ecologic-cross", "cohort-cc"]
+    },
+    {
+      "title": "期中・概論與傳染病流病 W1–W2",
       "chapters": ["intro", "transmission"]
     },
     {
-      "title": "疾病發生的測量 W4–W6",
+      "title": "期中・疾病發生的測量 W4–W6",
       "chapters": ["morbidity", "mortality"]
     },
     {
-      "title": "預後、臨床試驗與篩檢 W7–W9",
-      "chapters": ["prognosis", "rct", "screening"]
+      "title": "期中・預後、臨床試驗與篩檢 W7–W9",
+      "chapters": [
+        "prognosis",
+        "rct",
+        "screening"
+      ]
     }
   ],
-  "mock": {
-    "until": "2026-11-10T18:30+08:00",
-    "title": "期中模擬考",
-    "when": "11/10（二）17:10–18:30",
-    "minutes": 80,
-    "note": "配分依 I'm@TMU 10/22 公告：陳老師 30、謝老師 28、葉老師 14、白老師 28；範圍第 1–9 週，篩檢章由陳偉仁老師上（W9）。題型全為選擇題，共 50 題。",
-    "sections": [
-      {
-        "title": "陳偉仁：概論、篩檢效度與信度",
-        "points": 30,
-        "n": 15,
-        "from": ["intro", "screening"]
-      },
-      {
-        "title": "謝芳宜：疾病率、死亡率",
-        "points": 28,
-        "n": 14,
-        "from": ["morbidity", "mortality"]
-      },
-      {
-        "title": "葉志清：疾病傳播",
-        "points": 14,
-        "n": 7,
-        "from": ["transmission"]
-      },
-      {
-        "title": "白其卉：預後、臨床試驗",
-        "points": 28,
-        "n": 14,
-        "from": ["prognosis", "rct"]
-      }
-    ],
-    "newRatio": 0.2
-  },
+  "mock": [
+    {
+      "until": "2026-11-10T18:30+08:00",
+      "title": "期中模擬考",
+      "when": "11/10（二）17:10–18:30",
+      "minutes": 80,
+      "note": "配分依 I'm@TMU 10/22 公告：陳老師 30、謝老師 28、葉老師 14、白老師 28；範圍第 1–9 週，篩檢章由陳偉仁老師上（W9）。題型全為選擇題，共 50 題。",
+      "sections": [
+        {
+          "title": "陳偉仁：概論、篩檢效度與信度",
+          "points": 30,
+          "n": 15,
+          "from": [
+            "intro",
+            "screening"
+          ]
+        },
+        {
+          "title": "謝芳宜：疾病率、死亡率",
+          "points": 28,
+          "n": 14,
+          "from": [
+            "morbidity",
+            "mortality"
+          ]
+        },
+        {
+          "title": "葉志清：疾病傳播",
+          "points": 14,
+          "n": 7,
+          "from": [
+            "transmission"
+          ]
+        },
+        {
+          "title": "白其卉：預後、臨床試驗",
+          "points": 28,
+          "n": 14,
+          "from": [
+            "prognosis",
+            "rct"
+          ]
+        }
+      ],
+      "newRatio": 0.2
+    },
+    {
+      "id": "final",
+      "title": "期末模擬考",
+      "when": "期末考 12/21（一）9:00–10:20",
+      "until": "2027-01-15T23:59+08:00",
+      "minutes": 80,
+      "note": "陳偉仁老師 11/20 上課宣布期末考 12/21（一）早上 9:00–10:20（I'm@TMU 還沒公告範圍與配分）。W10–W15 都是分析性流行病學，期末考一定有計算題。目前出已上課的 W10 生態研究與橫斷研究、W11 世代研究與病例對照研究（百十三 114 期末考古＋模擬新題）；之後各章上課後再加入，配分屆時重估。",
+      "sections": [
+        {
+          "title": "陳偉仁：生態研究與橫斷研究",
+          "points": 50,
+          "n": 10,
+          "from": [
+            "ecologic-cross"
+          ]
+        },
+        {
+          "title": "陳偉仁：世代研究與病例對照研究",
+          "points": 50,
+          "n": 10,
+          "from": [
+            "cohort-cc"
+          ]
+        }
+      ],
+      "newRatio": 0.6
+    }
+  ],
   "chapters": [
     {
       "id": "intro",
@@ -164,12 +219,28 @@
       "teacher": "陳偉仁",
       "week": "W9（11/6）",
       "slides": true
+    },
+    {
+      "id": "ecologic-cross",
+      "title": "生態研究與橫斷研究",
+      "en": "Ecologic & Cross-sectional Studies",
+      "teacher": "陳偉仁",
+      "week": "W10（11/13）",
+      "slides": true
+    },
+    {
+      "id": "cohort-cc",
+      "title": "世代研究與病例對照研究",
+      "en": "Cohort & Case-control Studies",
+      "teacher": "陳偉仁",
+      "week": "W11（11/20）",
+      "slides": true
     }
   ],
   "insights": [
     [
       "評分：線上作答 12%、期中 40%、期末 40%。",
-      "I'm@TMU 線上作答共 6 次，每週五課後上線、作答到隔週四 23:59，切換視窗會被判為作答異常。期中考 11/10 晚間；期末考統一排考。W18 的內容不考。"
+      "I'm@TMU 線上作答共 6 次，每週五課後上線、作答到隔週四 23:59，切換視窗會被判為作答異常。期中考 11/10 晚間；期末考 12/21（一）9:00–10:20（老師 11/20 上課宣布）。W18 的內容不考。"
     ],
     [
       "今年題目改成全中文。",

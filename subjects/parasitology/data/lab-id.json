@@ -1,0 +1,6023 @@
+{
+ "note": "build_para_lab.py 產生",
+ "groups": [
+  "線蟲",
+  "吸蟲",
+  "絛蟲",
+  "原蟲",
+  "節肢動物"
+ ],
+ "ovaList": [
+  "ascaris-f",
+  "ascaris-uf",
+  "toxocara",
+  "enterobius",
+  "hookworm",
+  "trichuris",
+  "strongyloides",
+  "c-hepatica",
+  "c-philippinensis",
+  "clonorchis",
+  "metagonimus",
+  "eurytrema",
+  "echinostoma",
+  "f-hepatica",
+  "f-buski",
+  "paragonimus",
+  "s-japonicum",
+  "s-mansoni",
+  "s-haematobium",
+  "d-latum",
+  "d-mansoni",
+  "h-diminuta",
+  "h-nana",
+  "taenia",
+  "dipylidium"
+ ],
+ "cycKinds": {
+  "fh": "最終宿主是？（有保蟲宿主也寫）",
+  "ih": "中間宿主（或保幼宿主）是？",
+  "inf": "感染期是哪一期？怎麼感染人？",
+  "site": "在人體寄生在哪裡？",
+  "dx": "怎麼診斷？（找什麼、用什麼檢體或方法）",
+  "dz": "造成什麼特殊疾病或重要症狀？",
+  "carry": "這是哪種寄生蟲的中間宿主？是第幾中間宿主、帶的是哪一期？",
+  "vec": "會傳播什麼疾病或病原？",
+  "stage": "照片裡是這個寄生蟲的哪一期（或哪個構造）？"
+ },
+ "taxa": {
+  "ascaris": {
+   "sci": "Ascaris lumbricoides",
+   "zh": "蛔蟲",
+   "group": "線蟲",
+   "acc": [
+    "a lumbricoides",
+    "ascaris lumbricoides"
+   ],
+   "cyc": {
+    "fh": "人",
+    "inf": "含 L3 幼蟲的感染性蟲卵（土壤中胚胎化），經口吃入",
+    "site": "小腸（幼蟲經肝 → 肺移行）",
+    "dx": "糞便找蟲卵（受孕卵、未受孕卵）",
+    "dz": "幼蟲肺部移行：Ascaris pneumonia／Loeffler syndrome；大量感染腸阻塞；異位鑽膽管、胰管"
+   }
+  },
+  "ascaris-f": {
+   "sci": "Ascaris lumbricoides (f)",
+   "zh": "蛔蟲（受孕卵）",
+   "group": "線蟲",
+   "acc": [
+    "a lumbricoides f",
+    "ascaris lumbricoides f"
+   ]
+  },
+  "ascaris-uf": {
+   "sci": "Ascaris lumbricoides (uf)",
+   "zh": "蛔蟲（未受孕卵）",
+   "group": "線蟲",
+   "acc": [
+    "a lumbricoides uf",
+    "ascaris lumbricoides uf"
+   ]
+  },
+  "enterobius": {
+   "sci": "Enterobius vermicularis",
+   "zh": "蟯蟲",
+   "group": "線蟲",
+   "acc": [
+    "e vermicularis",
+    "enterobius vermicularis"
+   ],
+   "cyc": {
+    "fh": "人",
+    "inf": "含幼蟲的蟲卵，手 → 口（自體再感染）、塵埃吸入",
+    "site": "盲腸一帶；雌蟲夜間爬到肛門外產卵",
+    "dx": "肛圍擦拭法（Scotch tape，早上排便、清洗前）找蟲卵；糞便很難找到",
+    "dz": "肛門搔癢（perianal pruritus）；闌尾炎；女性陰道炎"
+   }
+  },
+  "trichuris": {
+   "sci": "Trichuris trichiura",
+   "zh": "鞭蟲",
+   "group": "線蟲",
+   "acc": [
+    "t trichiura",
+    "trichuris trichiura"
+   ],
+   "cyc": {
+    "fh": "人",
+    "inf": "含幼蟲的感染性蟲卵，經口吃入（不經過肺）",
+    "site": "大腸、盲腸（前端埋進黏膜）",
+    "dx": "糞便找蟲卵（濃縮法、Kato-Katz）",
+    "dz": "脫肛（rectal prolapse）、缺鐵性貧血、生長遲緩"
+   }
+  },
+  "hookworm": {
+   "sci": "Hook worm",
+   "zh": "鉤蟲",
+   "group": "線蟲",
+   "acc": [
+    "a duodenale",
+    "ancylostoma duodenale",
+    "h worm",
+    "hook worm",
+    "hookworm",
+    "n americanus",
+    "necator americanus"
+   ],
+   "cyc": {
+    "fh": "人（美洲鉤蟲、十二指腸鉤蟲）",
+    "inf": "L3 絲狀幼蟲（filariform larva）鑽皮膚；十二指腸鉤蟲也可經口、母乳",
+    "site": "小腸（咬住腸壁吸血）；幼蟲經肺移行",
+    "dx": "糞便找蟲卵",
+    "dz": "Ground itch；缺鐵性貧血、異食癖（pica）；arrested development"
+   }
+  },
+  "necator": {
+   "sci": "Necator americanus",
+   "zh": "美洲鉤蟲",
+   "group": "線蟲",
+   "acc": [
+    "n americanus",
+    "necator americanus"
+   ],
+   "cyc": {
+    "fh": "人",
+    "inf": "L3 絲狀幼蟲鑽皮膚",
+    "site": "小腸（咬住腸壁吸血）",
+    "dx": "糞便找蟲卵",
+    "dz": "Ground itch；缺鐵性貧血、pica、潛血"
+   }
+  },
+  "a-duodenale": {
+   "sci": "Ancylostoma duodenale",
+   "zh": "十二指腸鉤蟲",
+   "group": "線蟲",
+   "acc": [
+    "a duodenale",
+    "ancylostoma duodenale"
+   ],
+   "cyc": {
+    "fh": "人",
+    "inf": "L3 絲狀幼蟲鑽皮膚（主要），也可經口、經母乳",
+    "site": "小腸（咬住腸壁吸血）",
+    "dx": "糞便找蟲卵",
+    "dz": "Ground itch；缺鐵性貧血；幼蟲發育停滯（arrested development）"
+   }
+  },
+  "a-caninum": {
+   "sci": "Ancylostoma caninum",
+   "zh": "犬鉤蟲",
+   "group": "線蟲",
+   "acc": [
+    "a caninum",
+    "ancylostoma caninum"
+   ],
+   "cyc": {
+    "fh": "狗（人不是適合宿主，不會長成成蟲）",
+    "inf": "狗糞汙染土壤中的 L3 鑽人的皮膚",
+    "site": "人：幼蟲在皮膚裡移行",
+    "dx": "人體沒有成蟲、蟲卵，依皮膚表現診斷",
+    "dz": "皮膚幼蟲移行症 CLM（cutaneous larva migrans）"
+   }
+  },
+  "a-braziliense": {
+   "sci": "Ancylostoma braziliense",
+   "zh": "巴西鉤蟲",
+   "group": "線蟲",
+   "acc": [
+    "a braziliense",
+    "ancylostoma braziliense"
+   ],
+   "cyc": {
+    "fh": "狗、貓（人不是適合宿主）",
+    "inf": "狗貓糞汙染土壤中的 L3 鑽人的皮膚（沙灘）",
+    "site": "人：幼蟲在皮膚裡亂鑽",
+    "dx": "人體沒有成蟲、蟲卵，依皮膚爬行病灶診斷",
+    "dz": "CLM（creeping eruption）"
+   }
+  },
+  "strongyloides": {
+   "sci": "Strongyloides stercoralis",
+   "zh": "糞小桿線蟲",
+   "group": "線蟲",
+   "acc": [
+    "s stercoralis",
+    "strongyloides stercoralis"
+   ],
+   "cyc": {
+    "fh": "人",
+    "inf": "L3 絲狀幼蟲鑽皮膚；會自體感染（autoinfection）",
+    "site": "小腸（雌蟲埋在黏膜）",
+    "dx": "糞便找桿狀幼蟲（不是蟲卵）；Baermann、Harada-Mori、洋菜平板；十二指腸液",
+    "dz": "Larva currens；免疫低下（類固醇）時 hyperinfection、播散性感染"
+   }
+  },
+  "trichinella": {
+   "sci": "Trichinella spiralis",
+   "zh": "旋毛蟲",
+   "group": "線蟲",
+   "acc": [
+    "t spiralis",
+    "trichinella spiralis"
+   ],
+   "cyc": {
+    "fh": "人（人同時是中間宿主）",
+    "ih": "豬、鼠（保蟲宿主＋中間宿主）",
+    "inf": "生豬肉等肉類中的被囊幼蟲（encysted larva）",
+    "site": "成蟲在小腸；幼蟲在橫紋肌形成包囊",
+    "dx": "肌肉切片找被囊幼蟲；IgG 抗體",
+    "dz": "肌肉痛、眼眶與臉部水腫、指甲下線狀出血（splinter hemorrhage）、嗜酸性球增多；心肌炎"
+   }
+  },
+  "t-canis": {
+   "sci": "Toxocara canis",
+   "zh": "犬蛔蟲",
+   "group": "線蟲",
+   "acc": [
+    "t canis",
+    "toxocara canis"
+   ],
+   "cyc": {
+    "fh": "狗",
+    "ih": "保幼宿主：人、哺乳類、雞鴨",
+    "inf": "吃入狗糞中的胚胎化蟲卵（沙坑、公園）；或吃生的保幼宿主肉、內臟",
+    "site": "人：幼蟲在內臟移行（肝、肺、眼、腦），不會長成成蟲",
+    "dx": "人的糞便找不到卵；血清學 TES-ELISA、Western blot",
+    "dz": "內臟幼蟲移行症 VLM、眼幼蟲移行症 OLM、神經型 NT"
+   }
+  },
+  "t-cati": {
+   "sci": "Toxocara cati",
+   "zh": "貓蛔蟲",
+   "group": "線蟲",
+   "acc": [
+    "t cati",
+    "toxocara cati"
+   ],
+   "cyc": {
+    "fh": "貓",
+    "ih": "保幼宿主：人、齧齒類",
+    "inf": "吃入貓糞中的胚胎化蟲卵",
+    "site": "人：幼蟲在內臟移行，不會長成成蟲",
+    "dx": "人的糞便找不到卵；血清學",
+    "dz": "VLM、OLM"
+   }
+  },
+  "toxocara": {
+   "sci": "Toxocara spp.",
+   "zh": "犬蛔蟲",
+   "group": "線蟲",
+   "acc": [
+    "t canis",
+    "t cati",
+    "t sp",
+    "toxocara",
+    "toxocara canis",
+    "toxocara cati",
+    "toxocara sp"
+   ]
+  },
+  "angiostrongylus": {
+   "sci": "Angiostrongylus cantonensis",
+   "zh": "廣東住血線蟲",
+   "group": "線蟲",
+   "acc": [
+    "a cantonensis",
+    "angiostrongylus cantonensis"
+   ],
+   "cyc": {
+    "fh": "大鼠（成蟲在肺動脈）",
+    "ih": "中間宿主：螺類（非洲大蝸牛、福壽螺）、蛞蝓；保幼宿主：淡水蝦、陸蟹、青蛙",
+    "inf": "L3 幼蟲：吃生的螺、保幼宿主，或被螺黏液汙染的生菜",
+    "site": "人：幼蟲到腦（人不是適當宿主）",
+    "dx": "腦脊髓液嗜酸性球增多、找幼蟲；血清學",
+    "dz": "嗜酸性腦膜炎（eosinophilic meningitis）"
+   }
+  },
+  "anisakis": {
+   "sci": "Anisakis spp.",
+   "zh": "海獸胃線蟲",
+   "group": "線蟲",
+   "acc": [
+    "a simplex",
+    "a sp",
+    "anisakis",
+    "anisakis simplex",
+    "anisakis sp"
+   ],
+   "cyc": {
+    "fh": "海洋哺乳類（鯨、海豚、海豹）",
+    "ih": "甲殼類 → 海魚、魷魚（人是意外宿主）",
+    "inf": "L3 幼蟲：吃生海魚、生魚片",
+    "site": "人：幼蟲鑽胃、腸壁，不會長成成蟲",
+    "dx": "胃鏡看到並取出幼蟲（也是治療）",
+    "dz": "吃生魚片數小時後劇烈上腹痛（anisakiasis）；過敏反應"
+   }
+  },
+  "c-hepatica": {
+   "sci": "Capillaria hepatica",
+   "zh": "鼠肝鞭蟲（肝毛細線蟲）",
+   "group": "線蟲",
+   "acc": [
+    "c hepatica",
+    "c hepaticum",
+    "calodium hepaticum",
+    "capillaria hepatica"
+   ]
+  },
+  "c-philippinensis": {
+   "sci": "Capillaria philippinensis",
+   "zh": "菲律賓毛細線蟲",
+   "group": "線蟲",
+   "acc": [
+    "c philippinensis",
+    "capillaria philippinensis",
+    "p philippinensis",
+    "paracapillaria philippinensis"
+   ]
+  },
+  "wuchereria": {
+   "sci": "Wuchereria bancrofti",
+   "zh": "班氏絲蟲",
+   "group": "線蟲",
+   "acc": [
+    "w bancrofti",
+    "wuchereria bancrofti"
+   ],
+   "cyc": {
+    "fh": "人",
+    "ih": "蚊子（家蚊 Culex、斑蚊、瘧蚊）",
+    "inf": "L3 幼蟲經蚊子叮咬傳入",
+    "site": "淋巴管、淋巴結；微絲蚴在血液",
+    "dx": "夜間採末梢血（10 PM–4 AM）找微絲蚴，厚薄血片 Giemsa、Knott 濃縮",
+    "dz": "象皮病（elephantiasis）、乳糜尿、熱帶肺嗜酸性球增多症"
+   }
+  },
+  "brugia": {
+   "sci": "Brugia malayi",
+   "zh": "馬來絲蟲",
+   "group": "線蟲",
+   "acc": [
+    "b malayi",
+    "brugia malayi"
+   ],
+   "cyc": {
+    "fh": "人",
+    "ih": "蚊子（曼蚊 Mansonia、斑蚊、瘧蚊）",
+    "inf": "L3 幼蟲經蚊子叮咬傳入",
+    "site": "淋巴管；微絲蚴在血液",
+    "dx": "夜間採血找微絲蚴（有鞘、尾端兩個分離的核）",
+    "dz": "象皮病（多在下肢）、淋巴管炎"
+   }
+  },
+  "dirofilaria": {
+   "sci": "Dirofilaria immitis",
+   "zh": "犬心絲蟲",
+   "group": "線蟲",
+   "acc": [
+    "d immitis",
+    "dirofilaria immitis"
+   ],
+   "cyc": {
+    "fh": "狗",
+    "ih": "蚊子",
+    "inf": "L3 幼蟲經蚊子叮咬傳入",
+    "site": "狗：右心室、肺動脈；人：幼蟲無法成熟，卡在肺部小血管",
+    "dx": "人：胸部 X 光錢幣狀病灶（coin lesion），切片才確診",
+    "dz": "犬心絲蟲病；人肺部錢幣狀病灶（常被誤認為腫瘤）"
+   }
+  },
+  "f-buski": {
+   "sci": "Fasciolopsis buski",
+   "zh": "布氏薑片蟲",
+   "group": "吸蟲",
+   "acc": [
+    "f buski",
+    "fasciolopsis buski"
+   ],
+   "cyc": {
+    "fh": "人、豬（保蟲宿主）",
+    "ih": "第一：扁捲螺；第二：水生植物（菱角、荸薺、茭白筍）",
+    "inf": "囊蚴（metacercaria）：生吃或用牙齒剝水生植物",
+    "site": "小腸",
+    "dx": "糞便找蟲卵（最大的寄生蟲卵）",
+    "dz": "腹痛、腹瀉、腸阻塞；人體最大的吸蟲"
+   }
+  },
+  "echinostoma": {
+   "sci": "Echinostoma spp.",
+   "zh": "棘口吸蟲",
+   "group": "吸蟲",
+   "acc": [
+    "e sp",
+    "echinostoma",
+    "echinostoma sp"
+   ],
+   "cyc": {
+    "fh": "鳥、哺乳類（人是偶發感染）",
+    "ih": "第一：淡水螺；第二：螺、蛙、魚、水生植物（很廣）",
+    "inf": "囊蚴：生吃第二中間宿主",
+    "site": "小腸",
+    "dx": "糞便找蟲卵",
+    "dz": "腹痛、腹瀉（腹吸盤造成黏膜損傷）"
+   }
+  },
+  "metagonimus": {
+   "sci": "Metagonimus yokogawai",
+   "zh": "橫川氏吸蟲",
+   "group": "吸蟲",
+   "acc": [
+    "m yokogawai",
+    "metagonimus yokogawai"
+   ]
+  },
+  "heterophyes": {
+   "sci": "Heterophyes spp.",
+   "zh": "異形吸蟲",
+   "group": "吸蟲",
+   "acc": [
+    "h heterophyes",
+    "h sp",
+    "heterophyes",
+    "heterophyes heterophyes",
+    "heterophyes sp"
+   ],
+   "cyc": {
+    "fh": "人、海鳥",
+    "ih": "第一：半鹹水螺；第二：海水魚（烏魚）",
+    "inf": "囊蚴：吃生魚",
+    "site": "小腸",
+    "dx": "糞便找蟲卵",
+    "dz": "腹痛、腹瀉；蟲卵可隨血流到心、腦形成肉芽腫；人體最小的吸蟲"
+   }
+  },
+  "eurytrema": {
+   "sci": "Eurytrema pancreaticum",
+   "zh": "胰臟吸蟲",
+   "group": "吸蟲",
+   "acc": [
+    "e pancreaticum",
+    "eurytrema pancreaticum"
+   ]
+  },
+  "paragonimus": {
+   "sci": "Paragonimus westermani",
+   "zh": "衛氏肺吸蟲",
+   "group": "吸蟲",
+   "acc": [
+    "p westermani",
+    "paragonimus westermani"
+   ],
+   "cyc": {
+    "fh": "人；保蟲宿主：貓、狗、豬",
+    "ih": "第一：川蜷 Semisulcospira；第二：淡水蝦蟹（澤蟹 Potamon、毛蟹 Eriocheir）",
+    "inf": "囊蚴：吃醉蝦、醉蟹（小腸脫囊 → 腹腔 → 穿橫膈到肺）",
+    "site": "肺（異位：腦）",
+    "dx": "痰、糞便找蟲卵（痰中有 Charcot-Leyden 結晶）；ELISA、胸部 X 光",
+    "dz": "咳嗽、鐵鏽色血痰，常被誤診為肺結核；腦部異位造成癲癇"
+   }
+  },
+  "clonorchis": {
+   "sci": "Clonorchis sinensis",
+   "zh": "中華肝吸蟲",
+   "group": "吸蟲",
+   "acc": [
+    "c sinensis",
+    "clonorchis sinensis"
+   ],
+   "cyc": {
+    "fh": "人；保蟲宿主：貓、狗、豬、鼠",
+    "ih": "第一：滿州泥螺 Parafossarulus；第二：鯉科淡水魚",
+    "inf": "囊蚴：吃生的淡水魚",
+    "site": "膽管（經總膽管進入，不是肝實質）",
+    "dx": "糞便、十二指腸液、膽汁找蟲卵",
+    "dz": "膽管炎、膽結石、膽管癌（cholangiocarcinoma）"
+   }
+  },
+  "opisthorchis": {
+   "sci": "Opisthorchis viverrini",
+   "zh": "泰國肝吸蟲",
+   "group": "吸蟲",
+   "acc": [
+    "o viverrini",
+    "opisthorchis viverrini"
+   ],
+   "cyc": {
+    "fh": "人；保蟲宿主：貓、狗",
+    "ih": "第一：螺（Bithynia）；第二：淡水魚",
+    "inf": "囊蚴：吃生的淡水魚",
+    "site": "膽管",
+    "dx": "糞便、十二指腸液、膽汁找蟲卵",
+    "dz": "膽管炎、膽管癌（泰國膽管癌約一半和它有關）"
+   }
+  },
+  "f-hepatica": {
+   "sci": "Fasciola hepatica",
+   "zh": "牛羊肝吸蟲",
+   "group": "吸蟲",
+   "acc": [
+    "f hepatica",
+    "fasciola hepatica"
+   ],
+   "cyc": {
+    "fh": "牛、羊等反芻動物（人是偶發感染）",
+    "ih": "椎實螺 Lymnaea；囊蚴附在水生植物（水田芥）",
+    "inf": "囊蚴：吃汙染的水生植物或喝生水",
+    "site": "膽管（童蟲穿腸壁 → 腹腔 → 穿肝被膜，在肝實質移行）",
+    "dx": "糞便、十二指腸液、膽汁找蟲卵；血清學",
+    "dz": "急性損傷性肝炎、膽道阻塞；生吃肝 → Halzoun syndrome；唯一不能用 praziquantel（用 triclabendazole）"
+   }
+  },
+  "schistosoma": {
+   "sci": "Schistosoma spp.",
+   "zh": "血吸蟲",
+   "group": "吸蟲",
+   "acc": [
+    "s haematobium",
+    "s japonicum",
+    "s mansoni",
+    "s sp",
+    "schistosoma",
+    "schistosoma haematobium",
+    "schistosoma japonicum",
+    "schistosoma mansoni",
+    "schistosoma sp"
+   ],
+   "cyc": {
+    "fh": "人（日本血吸蟲另有很多保蟲宿主）",
+    "ih": "螺（只有一個中間宿主）：日本－釘螺 Oncomelania、曼森－雙臍扁螺 Biomphalaria、埃及－浦螺 Bulinus",
+    "inf": "尾蚴（cercaria，尾巴分叉）在水中鑽皮膚",
+    "site": "靜脈叢：日本－上腸繫膜、曼森－下腸繫膜、埃及－膀胱靜脈叢",
+    "dx": "日本、曼森：糞便找蟲卵、直腸切片；埃及：尿液找蟲卵",
+    "dz": "尾蚴皮膚炎（swimmer's itch）、片山熱（Katayama fever）、蟲卵肉芽腫 → 肝纖維化"
+   }
+  },
+  "s-japonicum": {
+   "sci": "Schistosoma japonicum",
+   "zh": "日本血吸蟲",
+   "group": "吸蟲",
+   "acc": [
+    "s japonicum",
+    "schistosoma japonicum"
+   ],
+   "cyc": {
+    "fh": "人；保蟲宿主很多（牛、豬、狗、鼠）",
+    "ih": "湖北釘螺 Oncomelania hupensis（只有一個中間宿主）",
+    "inf": "尾蚴（尾巴分叉）在水中鑽皮膚",
+    "site": "上腸繫膜靜脈叢",
+    "dx": "糞便找蟲卵（Kato thick smear）、直腸切片、纖毛幼蟲孵化法",
+    "dz": "片山熱；蟲卵肉芽腫 → 肝纖維化、門脈高壓；症狀比曼森嚴重；異位到腦"
+   }
+  },
+  "s-haematobium": {
+   "sci": "Schistosoma haematobium",
+   "zh": "埃及血吸蟲",
+   "group": "吸蟲",
+   "acc": [
+    "s haematobium",
+    "schistosoma haematobium"
+   ],
+   "cyc": {
+    "fh": "人",
+    "ih": "浦螺 Bulinus（小泡螺）",
+    "inf": "尾蚴在水中鑽皮膚",
+    "site": "膀胱、骨盆腔靜脈叢",
+    "dx": "尿液找蟲卵（中午 12–14 點收尿）、膀胱切片",
+    "dz": "血尿、膀胱鈣化、膀胱癌（squamous cell carcinoma）"
+   }
+  },
+  "s-mansoni": {
+   "sci": "Schistosoma mansoni",
+   "zh": "曼氏血吸蟲",
+   "group": "吸蟲",
+   "acc": [
+    "s mansoni",
+    "schistosoma mansoni"
+   ],
+   "cyc": {
+    "fh": "人",
+    "ih": "雙臍扁螺 Biomphalaria",
+    "inf": "尾蚴在水中鑽皮膚",
+    "site": "下腸繫膜靜脈叢",
+    "dx": "糞便找蟲卵（側棘）、直腸切片",
+    "dz": "肝脾腫大、門脈高壓；片山熱"
+   }
+  },
+  "semisulcospira": {
+   "sci": "Semisulcospira libertina",
+   "zh": "川蜷（橫川氏吸蟲、衛氏肺吸蟲第一中間宿主）",
+   "group": "吸蟲",
+   "acc": [
+    "s libertina",
+    "semisulcospira libertina"
+   ],
+   "cyc": {
+    "carry": "第一中間宿主：衛氏肺吸蟲 Paragonimus westermani、橫川氏吸蟲 Metagonimus yokogawai（螺體內有 sporocyst、redia、cercaria）"
+   }
+  },
+  "parafossarulus": {
+   "sci": "Parafossarulus manchouricus",
+   "zh": "滿洲泥螺（中華肝吸蟲第一中間宿主）",
+   "group": "吸蟲",
+   "acc": [
+    "p manchourica",
+    "p manchouricus",
+    "parafossarulus manchourica",
+    "parafossarulus manchouricus"
+   ],
+   "cyc": {
+    "carry": "第一中間宿主：中華肝吸蟲 Clonorchis sinensis"
+   }
+  },
+  "lymnaea": {
+   "sci": "Lymnaea spp.",
+   "zh": "椎實螺（牛羊肝吸蟲中間宿主）",
+   "group": "吸蟲",
+   "acc": [
+    "l sp",
+    "lymnaea",
+    "lymnaea sp",
+    "lymnea",
+    "lymnea sp"
+   ],
+   "cyc": {
+    "carry": "中間宿主：牛羊肝吸蟲 Fasciola hepatica（尾蚴離開螺後在水生植物上結囊）"
+   }
+  },
+  "oncomelania": {
+   "sci": "Oncomelania spp.",
+   "zh": "釘螺（日本血吸蟲中間宿主）",
+   "group": "吸蟲",
+   "acc": [
+    "o hupensis",
+    "o sp",
+    "oncomelania",
+    "oncomelania hupensis",
+    "oncomelania sp"
+   ],
+   "cyc": {
+    "carry": "唯一中間宿主：日本血吸蟲 Schistosoma japonicum（放出尾蚴）"
+   }
+  },
+  "bulinus": {
+   "sci": "Bulinus spp.",
+   "zh": "浦螺（埃及血吸蟲中間宿主）",
+   "group": "吸蟲",
+   "acc": [
+    "b sp",
+    "bulinus",
+    "bulinus sp"
+   ],
+   "cyc": {
+    "carry": "唯一中間宿主：埃及血吸蟲 Schistosoma haematobium"
+   }
+  },
+  "biomphalaria": {
+   "sci": "Biomphalaria spp.",
+   "zh": "雙臍扁螺（曼氏血吸蟲中間宿主）",
+   "group": "吸蟲",
+   "acc": [
+    "b sp",
+    "biomphalaria",
+    "biomphalaria sp"
+   ],
+   "cyc": {
+    "carry": "唯一中間宿主：曼氏血吸蟲 Schistosoma mansoni"
+   }
+  },
+  "d-latum": {
+   "sci": "Diphyllobothrium latum",
+   "zh": "廣節裂頭絛蟲",
+   "group": "絛蟲",
+   "acc": [
+    "d latum",
+    "diphyllobothrium latum"
+   ],
+   "cyc": {
+    "fh": "人；保蟲宿主：狗、貓等吃魚哺乳類",
+    "ih": "第一：橈足類（劍水蚤 Cyclops）；第二：淡水魚（鮭、鱒）",
+    "inf": "長尾蚴（plerocercoid）：吃生的淡水魚",
+    "site": "小腸",
+    "dx": "糞便找蟲卵（有卵蓋）與受孕體節 GP（不是 MP）",
+    "dz": "維生素 B12 缺乏 → 巨球性（惡性）貧血；寄生人體最大的絛蟲"
+   }
+  },
+  "d-mansoni": {
+   "sci": "Diphyllobothrium mansoni",
+   "zh": "曼氏裂頭絛蟲",
+   "group": "絛蟲",
+   "acc": [
+    "d mansoni",
+    "diphyllobothrium mansoni",
+    "s mansoni",
+    "spirometra mansoni"
+   ],
+   "cyc": {
+    "fh": "狗、貓（人不是最終宿主）",
+    "ih": "第一：橈足類；第二：蛙、蛇、魚；人可以是第二中間宿主或保幼宿主",
+    "inf": "兩種感染期：原尾蚴 procercoid（喝生水中的橈足類）、裂頭蚴 plerocercoid（吃生蛙蛇、蛙肉敷傷口）",
+    "site": "人：裂頭蚴在皮下、眼、腦",
+    "dx": "從組織取出裂頭蚴（sparganum）",
+    "dz": "裂頭蚴病（sparganosis）"
+   }
+  },
+  "t-saginata": {
+   "sci": "Taenia saginata",
+   "zh": "無鉤絛蟲（牛肉絛蟲）",
+   "group": "絛蟲",
+   "acc": [
+    "t saginata",
+    "taenia saginata"
+   ],
+   "cyc": {
+    "fh": "人（只當最終宿主）",
+    "ih": "牛",
+    "inf": "囊尾蚴（cysticercus bovis）：吃未煮熟的牛肉",
+    "site": "小腸",
+    "dx": "糞便找蟲卵與受孕體節 GP（子宮側枝 15–20 對）；膠紙肛圍擦拭",
+    "dz": "腸道絛蟲症（taeniasis），節片會自己爬出肛門"
+   }
+  },
+  "t-asiatica": {
+   "sci": "Taenia saginata asiatica",
+   "zh": "亞洲絛蟲",
+   "group": "絛蟲",
+   "acc": [
+    "t asiatica",
+    "t s asiatica",
+    "t saginata asiatica",
+    "taenia asiatica",
+    "taenia saginata asiatica"
+   ],
+   "cyc": {
+    "fh": "人",
+    "ih": "野豬（幼蟲在肝臟）",
+    "inf": "囊尾蚴：吃生的豬（野豬）肝臟",
+    "site": "小腸",
+    "dx": "糞便找蟲卵、GP；分子診斷區分",
+    "dz": "台灣原住民病例；腸道絛蟲症"
+   }
+  },
+  "t-solium": {
+   "sci": "Taenia solium",
+   "zh": "有鉤絛蟲（豬肉絛蟲）",
+   "group": "絛蟲",
+   "acc": [
+    "t solium",
+    "taenia solium"
+   ],
+   "cyc": {
+    "fh": "人",
+    "ih": "豬；人也可以當意外中間宿主",
+    "inf": "吃生豬肉中的囊尾蚴 → 成蟲在腸（taeniasis）；吃入蟲卵 → 人當中間宿主（cysticercosis）",
+    "site": "成蟲在小腸；囊尾蚴在肌肉、皮下、腦、眼",
+    "dx": "糞便找蟲卵、GP（子宮側枝 7–13 對）；囊尾蚴症用 CT／MRI、血清學",
+    "dz": "囊尾蚴症（cysticercosis），腦囊尾蚴症（neurocysticercosis）造成癲癇"
+   }
+  },
+  "taenia": {
+   "sci": "Taenia spp.",
+   "zh": "肉絛蟲",
+   "group": "絛蟲",
+   "acc": [
+    "t saginata",
+    "t solium",
+    "t sp",
+    "taenia",
+    "taenia saginata",
+    "taenia solium",
+    "taenia sp"
+   ]
+  },
+  "echinococcus": {
+   "sci": "Echinococcus granulosus",
+   "zh": "單胞絛蟲",
+   "group": "絛蟲",
+   "acc": [
+    "e granulosus",
+    "echinococcus granulosus"
+   ],
+   "cyc": {
+    "fh": "狗（食肉動物）",
+    "ih": "偶蹄目（羊、牛）；人是意外中間宿主",
+    "inf": "蟲卵：誤食狗糞汙染的食物（畜牧地區）",
+    "site": "人：包囊（hydatid cyst）在肝最多，其次肺",
+    "dx": "病史＋超音波、影像＋血清學；不要隨便細針穿刺（囊液外漏）",
+    "dz": "包蟲病（hydatid disease），囊破裂造成過敏性休克；絛蟲界最小"
+   }
+  },
+  "dipylidium": {
+   "sci": "Dipylidium caninum",
+   "zh": "犬複殖器絛蟲",
+   "group": "絛蟲",
+   "acc": [
+    "d caninum",
+    "dipylidium caninum"
+   ],
+   "cyc": {
+    "fh": "狗、貓（人偶發，可長成成蟲）",
+    "ih": "跳蚤（貓蚤、狗蚤；是跳蚤幼蟲吃下蟲卵）、狗咬蝨",
+    "inf": "擬囊尾蚴（cysticercoid）：誤食帶蟲的跳蚤（多為幼童）",
+    "site": "小腸",
+    "dx": "糞便找卵囊（egg packet）與節片（兩側都有生殖孔，像黃瓜子）",
+    "dz": "多無症狀；肛門搔癢"
+   }
+  },
+  "h-diminuta": {
+   "sci": "Hymenolepis diminuta",
+   "zh": "縮小包膜絛蟲",
+   "group": "絛蟲",
+   "acc": [
+    "h diminuta",
+    "hymenolepis diminuta"
+   ],
+   "cyc": {
+    "fh": "齧齒類（鼠），人偶發",
+    "ih": "甲蟲、跳蚤等昆蟲（一定需要）",
+    "inf": "擬囊尾蚴：誤食帶蟲的穀類甲蟲",
+    "site": "小腸",
+    "dx": "糞便找蟲卵（沒有極絲）",
+    "dz": "多無症狀；沒有自體感染"
+   }
+  },
+  "h-nana": {
+   "sci": "Hymenolepis nana",
+   "zh": "短小包膜絛蟲",
+   "group": "絛蟲",
+   "acc": [
+    "h nana",
+    "hymenolepis nana"
+   ],
+   "cyc": {
+    "fh": "人或齧齒類",
+    "ih": "穀類甲蟲（可以不需要）",
+    "inf": "蟲卵（直接感染、自體感染）或擬囊尾蚴（誤食甲蟲）",
+    "site": "小腸（六鉤蚴先鑽入腸絨毛發育）",
+    "dx": "糞便找蟲卵（有極絲 polar filaments）",
+    "dz": "寄生人體最小的絛蟲；兒童多，可自體感染"
+   }
+  },
+  "e-histolytica": {
+   "sci": "Entamoeba histolytica",
+   "zh": "痢疾阿米巴",
+   "group": "原蟲",
+   "acc": [
+    "e dispar",
+    "e h dispar",
+    "e histolytica",
+    "e histolytica dispar",
+    "entamoeba dispar",
+    "entamoeba histolytica",
+    "entamoeba histolytica dispar"
+   ],
+   "cyc": {
+    "inf": "成熟囊體（4 核）：糞口傳播，汙染的水或食物；無症狀帶原者是主要感染源",
+    "site": "大腸；可到肝（肝膿瘍，右葉）",
+    "dx": "糞便找囊體或吞紅血球的滋養體；抗原、PCR（要和 E. dispar 區分）",
+    "dz": "阿米巴痢疾、燒瓶狀潰瘍（flask-shaped ulcer）、阿米巴肝膿瘍、amoeboma"
+   }
+  },
+  "e-coli": {
+   "sci": "Entamoeba coli",
+   "zh": "大腸阿米巴",
+   "group": "原蟲",
+   "acc": [
+    "e coli",
+    "entamoeba coli"
+   ],
+   "cyc": {
+    "inf": "囊體（≥ 5 核，可到 8 核）：糞口",
+    "site": "大腸（共生，不致病）",
+    "dx": "糞便找囊體、滋養體",
+    "dz": "不致病；有它代表吃過糞便汙染的東西"
+   }
+  },
+  "iodamoeba": {
+   "sci": "Iodamoeba butschlii",
+   "zh": "嗜碘阿米巴",
+   "group": "原蟲",
+   "acc": [
+    "i butschlii",
+    "i butsclii",
+    "iodamoeba butschlii",
+    "iodamoeba butsclii"
+   ],
+   "cyc": {
+    "inf": "囊體：糞口",
+    "site": "大腸（不致病）",
+    "dx": "糞便找囊體（碘染色有大肝醣泡）",
+    "dz": "不致病"
+   }
+  },
+  "blastocystis": {
+   "sci": "Blastocystis hominis",
+   "zh": "人芽囊原蟲",
+   "group": "原蟲",
+   "acc": [
+    "b hominis",
+    "blastocystis hominis"
+   ],
+   "cyc": {
+    "inf": "厚壁囊體：糞口",
+    "site": "腸道",
+    "dx": "糞便找空泡型等型態",
+    "dz": "致病性仍有爭議；腹瀉、腹痛"
+   }
+  },
+  "balantidium": {
+   "sci": "Balantidium coli",
+   "zh": "大腸纖毛蟲",
+   "group": "原蟲",
+   "acc": [
+    "b coli",
+    "balantidium coli"
+   ],
+   "cyc": {
+    "fh": "豬是主要保蟲宿主",
+    "inf": "囊體：糞口（接觸豬）",
+    "site": "大腸",
+    "dx": "糞便或大腸鏡潰瘍切片找蟲體；沒有血清學",
+    "dz": "大腸纖毛蟲痢疾；唯一寄生人體的纖毛蟲、最大的原蟲"
+   }
+  },
+  "giardia": {
+   "sci": "Giardia intestinalis",
+   "zh": "梨形鞭毛蟲",
+   "group": "原蟲",
+   "acc": [
+    "g duodenalis",
+    "g intestinalis",
+    "g lamblia",
+    "giardia duodenalis",
+    "giardia intestinalis",
+    "giardia lamblia"
+   ],
+   "cyc": {
+    "inf": "囊體（4 核）：糞口，生飲汙染的水（河狸可當保蟲宿主）",
+    "site": "十二指腸、空腸（吸盤附著）",
+    "dx": "糞便找囊體或滋養體，要採 3 次（不連續的日子）；抗原快篩、PCR",
+    "dz": "脂肪痢（steatorrhea）、吸收不良；旅行者腹瀉"
+   }
+  },
+  "trichomonas": {
+   "sci": "Trichomonas vaginalis",
+   "zh": "陰道滴蟲",
+   "group": "原蟲",
+   "acc": [
+    "t vaginalis",
+    "trichomonas vaginalis"
+   ],
+   "cyc": {
+    "inf": "滋養體：性接觸（沒有囊體期）",
+    "site": "陰道、尿道、前列腺",
+    "dx": "陰道分泌物濕抹片（10 分鐘內看）、培養、NAAT",
+    "dz": "陰道炎、草莓狀子宮頸（strawberry cervix）、泡沫狀黃綠色分泌物"
+   }
+  },
+  "leishmania": {
+   "sci": "Leishmania spp.",
+   "zh": "利什曼原蟲",
+   "group": "原蟲",
+   "acc": [
+    "l sp",
+    "leishmania",
+    "leishmania sp"
+   ],
+   "cyc": {
+    "ih": "白蛉（sandfly；Phlebotomus、Lutzomyia）",
+    "inf": "前鞭毛體（promastigote）經白蛉叮咬傳入",
+    "site": "巨噬細胞內的無鞭毛體（amastigote）：皮膚、黏膜或內臟（肝、脾、骨髓）",
+    "dx": "皮膚病灶、骨髓、脾臟抽吸找無鞭毛體（LD body）",
+    "dz": "內臟型 kala-azar（黑熱病）、皮膚型（東方癤）、黏膜皮膚型"
+   }
+  },
+  "t-gambiense": {
+   "sci": "Trypanosoma brucei gambiense",
+   "zh": "岡比亞錐蟲（非洲錐蟲）",
+   "group": "原蟲",
+   "acc": [
+    "t b gambiense",
+    "t brucei",
+    "t brucei gambiense",
+    "t gambiense",
+    "trypanosoma brucei",
+    "trypanosoma brucei gambiense",
+    "trypanosoma gambiense"
+   ],
+   "cyc": {
+    "ih": "采采蠅（舌蠅 Glossina）",
+    "inf": "後循環型錐鞭毛體（metacyclic trypomastigote）經采采蠅叮咬傳入",
+    "site": "血液、淋巴，晚期進中樞神經",
+    "dx": "血液、淋巴結抽吸液、腦脊髓液找錐鞭毛體",
+    "dz": "非洲錐蟲病＝昏睡病（sleeping sickness）；Winterbottom's sign（頸後淋巴結腫）"
+   }
+  },
+  "t-cruzi": {
+   "sci": "Trypanosoma cruzi",
+   "zh": "枯西氏錐蟲（美洲錐蟲）",
+   "group": "原蟲",
+   "acc": [
+    "t cruzi",
+    "trypanosoma cruzi"
+   ],
+   "cyc": {
+    "ih": "錐鼻蟲（kissing bug，Rhodnius、Triatoma）",
+    "inf": "錐鞭毛體：錐鼻蟲吸血後排在皮膚上的糞便，經傷口或結膜進入（不是叮咬直接注入）；輸血、器官移植",
+    "site": "血液中錐鞭毛體；無鞭毛體在心肌、平滑肌細胞內",
+    "dx": "急性期血片找錐鞭毛體；慢性期血清學、xenodiagnosis",
+    "dz": "美洲錐蟲病＝Chagas disease；Romaña's sign（單眼眼瞼腫）、chagoma；心肌病變、巨食道、巨結腸"
+   }
+  },
+  "toxoplasma": {
+   "sci": "Toxoplasma gondii",
+   "zh": "弓形蟲",
+   "group": "原蟲",
+   "acc": [
+    "t gondii",
+    "toxoplasma gondii"
+   ],
+   "cyc": {
+    "fh": "貓科動物（有性生殖）",
+    "ih": "人、鼠、豬等溫血動物",
+    "inf": "吃入貓糞中的卵囊（oocyst），或生肉中的組織囊體（bradyzoite）；經胎盤傳給胎兒",
+    "site": "有核細胞內（速殖子 tachyzoite）；組織囊體在腦、肌肉",
+    "dx": "血清學（IgM、IgG avidity）、PCR",
+    "dz": "先天性弓形蟲症（水腦、脈絡膜視網膜炎、腦鈣化）；AIDS 病人腦炎"
+   }
+  },
+  "p-falciparum": {
+   "sci": "Plasmodium falciparum",
+   "zh": "惡性瘧原蟲",
+   "group": "原蟲",
+   "acc": [
+    "p falciparum",
+    "plasmodium falciparum"
+   ],
+   "cyc": {
+    "fh": "瘧蚊 Anopheles（有性生殖；人是中間宿主）",
+    "inf": "孢子體（sporozoite）經雌瘧蚊叮咬傳入",
+    "site": "肝細胞 → 紅血球",
+    "dx": "厚薄血片 Giemsa 染色：環狀體多、香蕉形配子體；快篩",
+    "dz": "惡性瘧：腦性瘧疾、黑尿熱、嚴重貧血；不規則高燒"
+   }
+  },
+  "p-vivax": {
+   "sci": "Plasmodium vivax",
+   "zh": "間日瘧原蟲",
+   "group": "原蟲",
+   "acc": [
+    "p vivax",
+    "plasmodium vivax"
+   ],
+   "cyc": {
+    "fh": "瘧蚊（人是中間宿主）",
+    "inf": "孢子體經瘧蚊叮咬傳入",
+    "site": "肝細胞（hypnozoite 可休眠復發）→ 網狀紅血球",
+    "dx": "血片：被感染紅血球變大、有 Schüffner's dots",
+    "dz": "間日瘧：每 48 小時發燒一次；會復發（relapse，要給 primaquine）"
+   }
+  },
+  "p-malariae": {
+   "sci": "Plasmodium malariae",
+   "zh": "三日瘧原蟲",
+   "group": "原蟲",
+   "acc": [
+    "p malaria",
+    "p malariae",
+    "plasmodium malaria",
+    "plasmodium malariae"
+   ],
+   "cyc": {
+    "fh": "瘧蚊（人是中間宿主）",
+    "inf": "孢子體經瘧蚊叮咬傳入",
+    "site": "肝細胞 → 老化紅血球",
+    "dx": "血片：帶狀滋養體（band form）、菊花狀裂殖體",
+    "dz": "三日瘧：每 72 小時發燒一次；腎病症候群"
+   }
+  },
+  "babesia": {
+   "sci": "Babesia spp.",
+   "zh": "巴貝氏蟲",
+   "group": "原蟲",
+   "acc": [
+    "b sp",
+    "babesia",
+    "babesia sp"
+   ],
+   "cyc": {
+    "fh": "硬蜱 Ixodes",
+    "ih": "鼠、牛等；人偶發",
+    "inf": "經硬蜱叮咬傳入；輸血",
+    "site": "紅血球",
+    "dx": "血片：紅血球內四分體（Maltese cross，十字形）",
+    "dz": "巴貝氏蟲病：溶血性貧血、發燒；脾臟切除者嚴重"
+   }
+  },
+  "cryptosporidium": {
+   "sci": "Cryptosporidium spp.",
+   "zh": "隱孢子蟲",
+   "group": "原蟲",
+   "acc": [
+    "c parvum",
+    "c sp",
+    "cryptosporidium",
+    "cryptosporidium parvum",
+    "cryptosporidium sp"
+   ],
+   "cyc": {
+    "inf": "卵囊（oocyst，排出就有感染力）：糞口、喝汙染的水（耐氯）",
+    "site": "小腸上皮細胞刷狀緣（細胞內、細胞質外）",
+    "dx": "糞便 modified acid-fast 染色找卵囊（紅色）、抗原",
+    "dz": "水瀉；AIDS 病人慢性致命腹瀉"
+   }
+  },
+  "eriocheir": {
+   "sci": "Eriocheir japonicus",
+   "zh": "日本絨螯蟹（衛氏肺吸蟲第二中間宿主）",
+   "group": "節肢動物",
+   "acc": [
+    "e japonica",
+    "e japonicus",
+    "eriocheir japonica",
+    "eriocheir japonicus"
+   ],
+   "cyc": {
+    "carry": "第二中間宿主：衛氏肺吸蟲 Paragonimus westermani，帶囊蚴（metacercaria）"
+   }
+  },
+  "culex": {
+   "sci": "Culex spp.",
+   "zh": "家蚊（庫蚊）",
+   "group": "節肢動物",
+   "acc": [
+    "c sp",
+    "culex",
+    "culex sp"
+   ],
+   "cyc": {
+    "vec": "日本腦炎、西尼羅病毒、絲蟲病（班氏絲蟲）"
+   }
+  },
+  "anopheles": {
+   "sci": "Anopheles sinensis",
+   "zh": "中華瘧蚊",
+   "group": "節肢動物",
+   "acc": [
+    "a sinensis",
+    "anopheles sinensis"
+   ],
+   "cyc": {
+    "vec": "瘧疾（瘧原蟲）、淋巴絲蟲病"
+   }
+  },
+  "aedes": {
+   "sci": "Aedes spp.",
+   "zh": "斑蚊",
+   "group": "節肢動物",
+   "acc": [
+    "a sp",
+    "aedes",
+    "aedes sp"
+   ],
+   "cyc": {
+    "vec": "登革熱、黃熱病、茲卡、屈公病（白天叮人）"
+   }
+  },
+  "musca": {
+   "sci": "Musca domestica",
+   "zh": "家蠅",
+   "group": "節肢動物",
+   "acc": [
+    "m domestica",
+    "musca domestica"
+   ],
+   "cyc": {
+    "vec": "機械性傳播 100 多種病原（腸道細菌、原蟲囊體、蠕蟲卵）"
+   }
+  },
+  "glossina": {
+   "sci": "Glossina spp.",
+   "zh": "采采蠅（舌蠅）",
+   "group": "節肢動物",
+   "acc": [
+    "g sp",
+    "glossina",
+    "glossina sp"
+   ],
+   "cyc": {
+    "vec": "非洲錐蟲病（昏睡病，Trypanosoma brucei）"
+   }
+  },
+  "pulex": {
+   "sci": "Pulex irritans",
+   "zh": "人蚤",
+   "group": "節肢動物",
+   "acc": [
+    "p irritans",
+    "pulex irritans"
+   ],
+   "cyc": {
+    "vec": "不是有效的病媒；叮咬過敏；犬複殖器絛蟲、短小包膜絛蟲的中間宿主"
+   }
+  },
+  "ctenocephalides": {
+   "sci": "Ctenocephalides felis",
+   "zh": "貓蚤",
+   "group": "節肢動物",
+   "acc": [
+    "c felis",
+    "ctenocephalides felis"
+   ],
+   "cyc": {
+    "vec": "犬複殖器絛蟲的中間宿主；貓抓病（Bartonella henselae）、Rickettsia felis"
+   }
+  },
+  "xenopsylla": {
+   "sci": "Xenopsylla cheopis",
+   "zh": "印度鼠蚤",
+   "group": "節肢動物",
+   "acc": [
+    "x cheopis",
+    "xenopsylla cheopis"
+   ],
+   "cyc": {
+    "vec": "鼠疫（Yersinia pestis，黑死病）、鼠型斑疹傷寒（murine typhus）"
+   }
+  },
+  "cimex": {
+   "sci": "Cimex hemipterus",
+   "zh": "臭蟲",
+   "group": "節肢動物",
+   "acc": [
+    "c hemipterus",
+    "cimex hemipterus"
+   ],
+   "cyc": {
+    "vec": "不是有效的病媒；主要是叮咬造成發炎"
+   }
+  },
+  "rhodnius": {
+   "sci": "Rhodnius prolixus",
+   "zh": "錐鼻蟲（美洲錐蟲病媒）",
+   "group": "節肢動物",
+   "acc": [
+    "r prolixus",
+    "rhodnius prolixus",
+    "t sp",
+    "triatoma",
+    "triatoma sp"
+   ],
+   "cyc": {
+    "vec": "Chagas disease（美洲錐蟲病，T. cruzi；經糞便傳播）"
+   }
+  },
+  "ph-capitis": {
+   "sci": "Pediculus humanus capitis",
+   "zh": "頭蝨",
+   "group": "節肢動物",
+   "acc": [
+    "p h capitis",
+    "p humanus capitis",
+    "pediculus humanus capitis"
+   ],
+   "cyc": {
+    "vec": "頭蝨症（多無症狀，搔癢、繼發細菌感染）；卵（nit）黏在髮幹"
+   }
+  },
+  "ph-corporis": {
+   "sci": "Pediculus humanus corporis",
+   "zh": "體蝨",
+   "group": "節肢動物",
+   "acc": [
+    "p h corporis",
+    "p humanus corporis",
+    "pediculus humanus corporis"
+   ],
+   "cyc": {
+    "vec": "流行性斑疹傷寒（Rickettsia prowazekii）、戰壕熱（Bartonella quintana）、回歸熱（Borrelia recurrentis）"
+   }
+  },
+  "pthirus": {
+   "sci": "Pthirus pubis",
+   "zh": "陰蝨",
+   "group": "節肢動物",
+   "acc": [
+    "p pubis",
+    "phthirus pubis",
+    "pthirus pubis"
+   ],
+   "cyc": {
+    "vec": "陰蝨症（性接觸傳染），也會在睫毛；不傳播病原"
+   }
+  },
+  "dermatophagoides": {
+   "sci": "Dermatophagoides spp.",
+   "zh": "塵蟎",
+   "group": "節肢動物",
+   "acc": [
+    "d sp",
+    "dermatophagoides",
+    "dermatophagoides sp"
+   ],
+   "cyc": {
+    "vec": "不傳病，吃皮屑；過敏（氣喘、過敏性鼻炎、皮膚過敏）"
+   }
+  },
+  "demodex": {
+   "sci": "Demodex folliculorum",
+   "zh": "毛囊蟎",
+   "group": "節肢動物",
+   "acc": [
+    "d folliculorum",
+    "demodex folliculorum"
+   ],
+   "cyc": {
+    "vec": "寄生毛囊、皮脂腺（臉頰、鼻、眉毛、睫毛）；酒糟、毛囊炎、眼瞼炎"
+   }
+  },
+  "trombicula": {
+   "sci": "Trombicula akamushi",
+   "zh": "恙蟲（恙蟎）",
+   "group": "節肢動物",
+   "acc": [
+    "l akamushi",
+    "leptotrombidium akamushi",
+    "t akamushi",
+    "trombicula akamushi"
+   ],
+   "cyc": {
+    "vec": "恙蟲病（叢林型斑疹傷寒，Orientia tsutsugamushi）；只有幼蟲叮人"
+   }
+  },
+  "ixodes": {
+   "sci": "Ixodes dammini",
+   "zh": "硬蜱（鹿蜱）",
+   "group": "節肢動物",
+   "acc": [
+    "i dammini",
+    "i scapularis",
+    "ixodes dammini",
+    "ixodes scapularis"
+   ],
+   "cyc": {
+    "vec": "萊姆病（Borrelia burgdorferi）、巴貝氏蟲病、立克次體病、蜱癱瘓症"
+   }
+  },
+  "dermacentor": {
+   "sci": "Dermacentor variabilis",
+   "zh": "美洲犬蜱",
+   "group": "節肢動物",
+   "acc": [
+    "d variabilis",
+    "dermacentor variabilis"
+   ],
+   "cyc": {
+    "vec": "落磯山斑疹熱（RMSF）、兔熱病（tularemia）、蜱癱瘓症"
+   }
+  },
+  "argas": {
+   "sci": "Argas persicus",
+   "zh": "波斯銳緣蜱（軟蜱）",
+   "group": "節肢動物",
+   "acc": [
+    "a persicus",
+    "argas persicus"
+   ],
+   "cyc": {
+    "vec": "家禽的 Borrelia anserina、Aegyptianella pullorum（雞鴨疾病）；軟蜱吸血快、吸完就離開"
+   }
+  }
+ },
+ "station": [
+  {
+   "id": "nem-02-3",
+   "t": "ascaris",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.2",
+   "src": "figures/lab/st-nem-02-3.webp",
+   "w": 400,
+   "h": 261
+  },
+  {
+   "id": "nem-02-5",
+   "t": "ascaris",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.2",
+   "src": "figures/lab/st-nem-02-5.webp",
+   "w": 640,
+   "h": 468
+  },
+  {
+   "id": "nem-05-6",
+   "t": "enterobius",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.5",
+   "src": "figures/lab/st-nem-05-6.webp",
+   "w": 640,
+   "h": 558
+  },
+  {
+   "id": "nem-06-2",
+   "t": "enterobius",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.6",
+   "src": "figures/lab/st-nem-06-2.webp",
+   "w": 640,
+   "h": 601
+  },
+  {
+   "id": "nem-09-4",
+   "t": "trichuris",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.9",
+   "src": "figures/lab/st-nem-09-4.webp",
+   "w": 238,
+   "h": 182
+  },
+  {
+   "id": "nem-09-5",
+   "t": "trichuris",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.9",
+   "src": "figures/lab/st-nem-09-5.webp",
+   "w": 640,
+   "h": 418
+  },
+  {
+   "id": "nem-10-12",
+   "t": "trichuris",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.10",
+   "src": "figures/lab/st-nem-10-12.webp",
+   "w": 397,
+   "h": 274
+  },
+  {
+   "id": "nem-11-3",
+   "t": "trichuris",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.11",
+   "src": "figures/lab/st-nem-11-3.webp",
+   "w": 575,
+   "h": 325
+  },
+  {
+   "id": "nem-11-4",
+   "t": "trichuris",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.11",
+   "src": "figures/lab/st-nem-11-4.webp",
+   "w": 494,
+   "h": 640
+  },
+  {
+   "id": "nem-11-5",
+   "t": "trichuris",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.11",
+   "src": "figures/lab/st-nem-11-5.webp",
+   "w": 266,
+   "h": 385
+  },
+  {
+   "id": "nem-12-3",
+   "t": "trichuris",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.12",
+   "src": "figures/lab/st-nem-12-3.webp",
+   "w": 230,
+   "h": 152
+  },
+  {
+   "id": "nem-12-6",
+   "t": "trichuris",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.12",
+   "src": "figures/lab/st-nem-12-6.webp",
+   "w": 351,
+   "h": 263
+  },
+  {
+   "id": "nem-12-7",
+   "t": "trichuris",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.12",
+   "src": "figures/lab/st-nem-12-7.webp",
+   "w": 640,
+   "h": 550
+  },
+  {
+   "id": "nem-15-4",
+   "t": "hookworm",
+   "stage": "幼蟲",
+   "from": "線蟲圖檔 p.15",
+   "src": "figures/lab/st-nem-15-4.webp",
+   "w": 640,
+   "h": 621
+  },
+  {
+   "id": "nem-15-5",
+   "t": "hookworm",
+   "stage": "幼蟲",
+   "from": "線蟲圖檔 p.15",
+   "src": "figures/lab/st-nem-15-5.webp",
+   "w": 369,
+   "h": 364
+  },
+  {
+   "id": "nem-16-5",
+   "t": "necator",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.16",
+   "src": "figures/lab/st-nem-16-5.webp",
+   "w": 109,
+   "h": 161
+  },
+  {
+   "id": "nem-16-6",
+   "t": "necator",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.16",
+   "src": "figures/lab/st-nem-16-6.webp",
+   "w": 640,
+   "h": 471
+  },
+  {
+   "id": "nem-17-1",
+   "t": "necator",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.17",
+   "src": "figures/lab/st-nem-17-1.webp",
+   "w": 245,
+   "h": 306
+  },
+  {
+   "id": "nem-18-5",
+   "t": "necator",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.18",
+   "src": "figures/lab/st-nem-18-5.webp",
+   "w": 617,
+   "h": 640
+  },
+  {
+   "id": "nem-19-7",
+   "t": "a-duodenale",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.19",
+   "src": "figures/lab/st-nem-19-7.webp",
+   "w": 316,
+   "h": 237
+  },
+  {
+   "id": "nem-20-6",
+   "t": "a-duodenale",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.20",
+   "src": "figures/lab/st-nem-20-6.webp",
+   "w": 640,
+   "h": 488
+  },
+  {
+   "id": "nem-21-5",
+   "t": "a-duodenale",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.21",
+   "src": "figures/lab/st-nem-21-5.webp",
+   "w": 640,
+   "h": 623
+  },
+  {
+   "id": "nem-22-1",
+   "t": "a-caninum",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.22",
+   "src": "figures/lab/st-nem-22-1.webp",
+   "w": 640,
+   "h": 472
+  },
+  {
+   "id": "nem-23-3",
+   "t": "a-caninum",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.23",
+   "src": "figures/lab/st-nem-23-3.webp",
+   "w": 640,
+   "h": 472
+  },
+  {
+   "id": "nem-24-3",
+   "t": "a-braziliense",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.24",
+   "src": "figures/lab/st-nem-24-3.webp",
+   "w": 640,
+   "h": 590
+  },
+  {
+   "id": "nem-25-3",
+   "t": "a-braziliense",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.25",
+   "src": "figures/lab/st-nem-25-3.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "nem-27-5",
+   "t": "trichinella",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.27",
+   "src": "figures/lab/st-nem-27-5.webp",
+   "w": 374,
+   "h": 640
+  },
+  {
+   "id": "nem-28-8",
+   "t": "trichinella",
+   "stage": "囊體 cyst",
+   "from": "線蟲圖檔 p.28",
+   "src": "figures/lab/st-nem-28-8.webp",
+   "w": 640,
+   "h": 450
+  },
+  {
+   "id": "nem-28-10",
+   "t": "trichinella",
+   "stage": "囊體 cyst",
+   "from": "線蟲圖檔 p.28",
+   "src": "figures/lab/st-nem-28-10.webp",
+   "w": 587,
+   "h": 357
+  },
+  {
+   "id": "nem-29-4",
+   "t": "t-canis",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.29",
+   "src": "figures/lab/st-nem-29-4.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "nem-29-7",
+   "t": "t-canis",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.29",
+   "src": "figures/lab/st-nem-29-7.webp",
+   "w": 362,
+   "h": 231
+  },
+  {
+   "id": "nem-31-4",
+   "t": "t-cati",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.31",
+   "src": "figures/lab/st-nem-31-4.webp",
+   "w": 300,
+   "h": 300
+  },
+  {
+   "id": "nem-32-3",
+   "t": "angiostrongylus",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.32",
+   "src": "figures/lab/st-nem-32-3.webp",
+   "w": 640,
+   "h": 448
+  },
+  {
+   "id": "nem-32-5",
+   "t": "angiostrongylus",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.32",
+   "src": "figures/lab/st-nem-32-5.webp",
+   "w": 348,
+   "h": 490
+  },
+  {
+   "id": "nem-33-4",
+   "t": "angiostrongylus",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.33",
+   "src": "figures/lab/st-nem-33-4.webp",
+   "w": 640,
+   "h": 522
+  },
+  {
+   "id": "nem-33-5",
+   "t": "angiostrongylus",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.33",
+   "src": "figures/lab/st-nem-33-5.webp",
+   "w": 502,
+   "h": 337
+  },
+  {
+   "id": "nem-33-6",
+   "t": "angiostrongylus",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.33",
+   "src": "figures/lab/st-nem-33-6.webp",
+   "w": 379,
+   "h": 291
+  },
+  {
+   "id": "nem-34-1",
+   "t": "angiostrongylus",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.34",
+   "src": "figures/lab/st-nem-34-1.webp",
+   "w": 640,
+   "h": 488
+  },
+  {
+   "id": "nem-35-3",
+   "t": "angiostrongylus",
+   "stage": "幼蟲",
+   "from": "線蟲圖檔 p.35",
+   "src": "figures/lab/st-nem-35-3.webp",
+   "w": 640,
+   "h": 472
+  },
+  {
+   "id": "nem-35-4",
+   "t": "angiostrongylus",
+   "stage": "幼蟲",
+   "from": "線蟲圖檔 p.35",
+   "src": "figures/lab/st-nem-35-4.webp",
+   "w": 610,
+   "h": 505
+  },
+  {
+   "id": "nem-37-4",
+   "t": "anisakis",
+   "stage": "幼蟲",
+   "from": "線蟲圖檔 p.37",
+   "src": "figures/lab/st-nem-37-4.webp",
+   "w": 640,
+   "h": 433
+  },
+  {
+   "id": "nem-40-10",
+   "t": "wuchereria",
+   "stage": "微絲蚴 microfilaria",
+   "from": "線蟲圖檔 p.40",
+   "src": "figures/lab/st-nem-40-10.webp",
+   "w": 448,
+   "h": 640
+  },
+  {
+   "id": "nem-41-1",
+   "t": "brugia",
+   "stage": "微絲蚴 microfilaria",
+   "from": "線蟲圖檔 p.41",
+   "src": "figures/lab/st-nem-41-1.webp",
+   "w": 621,
+   "h": 397
+  },
+  {
+   "id": "nem-42-4",
+   "t": "dirofilaria",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.42",
+   "src": "figures/lab/st-nem-42-4.webp",
+   "w": 362,
+   "h": 260
+  },
+  {
+   "id": "nem-42-5",
+   "t": "dirofilaria",
+   "stage": "成蟲",
+   "from": "線蟲圖檔 p.42",
+   "src": "figures/lab/st-nem-42-5.webp",
+   "w": 640,
+   "h": 476
+  },
+  {
+   "id": "nem-43-3",
+   "t": "dirofilaria",
+   "stage": "微絲蚴 microfilaria",
+   "from": "線蟲圖檔 p.43",
+   "src": "figures/lab/st-nem-43-3.webp",
+   "w": 640,
+   "h": 471
+  },
+  {
+   "id": "nem-43-4",
+   "t": "dirofilaria",
+   "stage": "微絲蚴 microfilaria",
+   "from": "線蟲圖檔 p.43",
+   "src": "figures/lab/st-nem-43-4.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "tre-03-3",
+   "t": "f-buski",
+   "stage": "成蟲",
+   "from": "吸蟲圖檔 p.3",
+   "src": "figures/lab/st-tre-03-3.webp",
+   "w": 344,
+   "h": 640
+  },
+  {
+   "id": "tre-05-3",
+   "t": "echinostoma",
+   "stage": "成蟲",
+   "from": "吸蟲圖檔 p.5",
+   "src": "figures/lab/st-tre-05-3.webp",
+   "w": 191,
+   "h": 640
+  },
+  {
+   "id": "tre-05-6",
+   "t": "echinostoma",
+   "stage": "成蟲",
+   "from": "吸蟲圖檔 p.5",
+   "src": "figures/lab/st-tre-05-6.webp",
+   "w": 292,
+   "h": 205
+  },
+  {
+   "id": "tre-09-1",
+   "t": "semisulcospira",
+   "stage": "中間宿主",
+   "from": "吸蟲圖檔 p.9",
+   "src": "figures/lab/st-tre-09-1.webp",
+   "w": 640,
+   "h": 251
+  },
+  {
+   "id": "tre-10-1",
+   "t": "heterophyes",
+   "stage": "成蟲",
+   "from": "吸蟲圖檔 p.10",
+   "src": "figures/lab/st-tre-10-1.webp",
+   "w": 640,
+   "h": 426
+  },
+  {
+   "id": "tre-15-3",
+   "t": "paragonimus",
+   "stage": "成蟲",
+   "from": "吸蟲圖檔 p.15",
+   "src": "figures/lab/st-tre-15-3.webp",
+   "w": 432,
+   "h": 640
+  },
+  {
+   "id": "tre-18-1",
+   "t": "semisulcospira",
+   "stage": "中間宿主",
+   "from": "吸蟲圖檔 p.18",
+   "src": "figures/lab/st-tre-18-1.webp",
+   "w": 640,
+   "h": 251
+  },
+  {
+   "id": "tre-21-2",
+   "t": "clonorchis",
+   "stage": "成蟲",
+   "from": "吸蟲圖檔 p.21",
+   "src": "figures/lab/st-tre-21-2.webp",
+   "w": 269,
+   "h": 640
+  },
+  {
+   "id": "tre-22-1",
+   "t": "clonorchis",
+   "stage": "成蟲",
+   "from": "吸蟲圖檔 p.22",
+   "src": "figures/lab/st-tre-22-1.webp",
+   "w": 174,
+   "h": 640
+  },
+  {
+   "id": "tre-24-5",
+   "t": "parafossarulus",
+   "stage": "中間宿主",
+   "from": "吸蟲圖檔 p.24",
+   "src": "figures/lab/st-tre-24-5.webp",
+   "w": 640,
+   "h": 267
+  },
+  {
+   "id": "tre-24-6",
+   "t": "parafossarulus",
+   "stage": "中間宿主",
+   "from": "吸蟲圖檔 p.24",
+   "src": "figures/lab/st-tre-24-6.webp",
+   "w": 522,
+   "h": 334
+  },
+  {
+   "id": "tre-24-7",
+   "t": "parafossarulus",
+   "stage": "中間宿主",
+   "from": "吸蟲圖檔 p.24",
+   "src": "figures/lab/st-tre-24-7.webp",
+   "w": 191,
+   "h": 160
+  },
+  {
+   "id": "tre-25-4",
+   "t": "opisthorchis",
+   "stage": "成蟲",
+   "from": "吸蟲圖檔 p.25",
+   "src": "figures/lab/st-tre-25-4.webp",
+   "w": 150,
+   "h": 640
+  },
+  {
+   "id": "tre-27-4",
+   "t": "f-hepatica",
+   "stage": "成蟲",
+   "from": "吸蟲圖檔 p.27",
+   "src": "figures/lab/st-tre-27-4.webp",
+   "w": 640,
+   "h": 546
+  },
+  {
+   "id": "tre-28-1",
+   "t": "f-hepatica",
+   "stage": "成蟲",
+   "from": "吸蟲圖檔 p.28",
+   "src": "figures/lab/st-tre-28-1.webp",
+   "w": 446,
+   "h": 416
+  },
+  {
+   "id": "tre-28-4",
+   "t": "f-hepatica",
+   "stage": "成蟲",
+   "from": "吸蟲圖檔 p.28",
+   "src": "figures/lab/st-tre-28-4.webp",
+   "w": 320,
+   "h": 640
+  },
+  {
+   "id": "tre-30-1",
+   "t": "lymnaea",
+   "stage": "中間宿主",
+   "from": "吸蟲圖檔 p.30",
+   "src": "figures/lab/st-tre-30-1.webp",
+   "w": 640,
+   "h": 168
+  },
+  {
+   "id": "tre-31-1",
+   "t": "f-hepatica",
+   "stage": "纖毛幼蟲 miracidium",
+   "from": "吸蟲圖檔 p.31",
+   "src": "figures/lab/st-tre-31-1.webp",
+   "w": 640,
+   "h": 483
+  },
+  {
+   "id": "tre-32-3",
+   "t": "f-hepatica",
+   "stage": "雷氏幼蟲 redia",
+   "from": "吸蟲圖檔 p.32",
+   "src": "figures/lab/st-tre-32-3.webp",
+   "w": 640,
+   "h": 472
+  },
+  {
+   "id": "tre-32-4",
+   "t": "f-hepatica",
+   "stage": "雷氏幼蟲 redia",
+   "from": "吸蟲圖檔 p.32",
+   "src": "figures/lab/st-tre-32-4.webp",
+   "w": 464,
+   "h": 155
+  },
+  {
+   "id": "tre-32-6",
+   "t": "f-hepatica",
+   "stage": "雷氏幼蟲 redia",
+   "from": "吸蟲圖檔 p.32",
+   "src": "figures/lab/st-tre-32-6.webp",
+   "w": 433,
+   "h": 163
+  },
+  {
+   "id": "tre-33-3",
+   "t": "f-hepatica",
+   "stage": "成蟲",
+   "from": "吸蟲圖檔 p.33",
+   "src": "figures/lab/st-tre-33-3.webp",
+   "w": 640,
+   "h": 374
+  },
+  {
+   "id": "tre-35-5",
+   "t": "schistosoma",
+   "stage": "纖毛幼蟲 miracidium",
+   "from": "吸蟲圖檔 p.35",
+   "src": "figures/lab/st-tre-35-5.webp",
+   "w": 490,
+   "h": 606
+  },
+  {
+   "id": "tre-35-6",
+   "t": "schistosoma",
+   "stage": "纖毛幼蟲 miracidium",
+   "from": "吸蟲圖檔 p.35",
+   "src": "figures/lab/st-tre-35-6.webp",
+   "w": 257,
+   "h": 196
+  },
+  {
+   "id": "tre-36-2",
+   "t": "schistosoma",
+   "stage": "尾動幼蟲 cercaria",
+   "from": "吸蟲圖檔 p.36",
+   "src": "figures/lab/st-tre-36-2.webp",
+   "w": 591,
+   "h": 640
+  },
+  {
+   "id": "tre-36-6",
+   "t": "schistosoma",
+   "stage": "尾動幼蟲 cercaria",
+   "from": "吸蟲圖檔 p.36",
+   "src": "figures/lab/st-tre-36-6.webp",
+   "w": 255,
+   "h": 322
+  },
+  {
+   "id": "tre-37-1",
+   "t": "s-japonicum",
+   "stage": "成蟲",
+   "from": "吸蟲圖檔 p.37",
+   "src": "figures/lab/st-tre-37-1.webp",
+   "w": 640,
+   "h": 617
+  },
+  {
+   "id": "tre-38-4",
+   "t": "s-japonicum",
+   "stage": "成蟲",
+   "from": "吸蟲圖檔 p.38",
+   "src": "figures/lab/st-tre-38-4.webp",
+   "w": 640,
+   "h": 426
+  },
+  {
+   "id": "tre-38-5",
+   "t": "s-japonicum",
+   "stage": "成蟲",
+   "from": "吸蟲圖檔 p.38",
+   "src": "figures/lab/st-tre-38-5.webp",
+   "w": 290,
+   "h": 393
+  },
+  {
+   "id": "tre-40-3",
+   "t": "oncomelania",
+   "stage": "中間宿主",
+   "from": "吸蟲圖檔 p.40",
+   "src": "figures/lab/st-tre-40-3.webp",
+   "w": 640,
+   "h": 100
+  },
+  {
+   "id": "tre-41-4",
+   "t": "s-haematobium",
+   "stage": "成蟲",
+   "from": "吸蟲圖檔 p.41",
+   "src": "figures/lab/st-tre-41-4.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "tre-42-4",
+   "t": "s-haematobium",
+   "stage": "成蟲",
+   "from": "吸蟲圖檔 p.42",
+   "src": "figures/lab/st-tre-42-4.webp",
+   "w": 375,
+   "h": 640
+  },
+  {
+   "id": "tre-43-4",
+   "t": "s-haematobium",
+   "stage": "纖毛幼蟲 miracidium",
+   "from": "吸蟲圖檔 p.43",
+   "src": "figures/lab/st-tre-43-4.webp",
+   "w": 323,
+   "h": 361
+  },
+  {
+   "id": "tre-43-5",
+   "t": "s-haematobium",
+   "stage": "纖毛幼蟲 miracidium",
+   "from": "吸蟲圖檔 p.43",
+   "src": "figures/lab/st-tre-43-5.webp",
+   "w": 640,
+   "h": 441
+  },
+  {
+   "id": "tre-44-3",
+   "t": "bulinus",
+   "stage": "中間宿主",
+   "from": "吸蟲圖檔 p.44",
+   "src": "figures/lab/st-tre-44-3.webp",
+   "w": 640,
+   "h": 149
+  },
+  {
+   "id": "tre-45-5",
+   "t": "s-mansoni",
+   "stage": "成蟲",
+   "from": "吸蟲圖檔 p.45",
+   "src": "figures/lab/st-tre-45-5.webp",
+   "w": 481,
+   "h": 361
+  },
+  {
+   "id": "tre-45-6",
+   "t": "s-mansoni",
+   "stage": "成蟲",
+   "from": "吸蟲圖檔 p.45",
+   "src": "figures/lab/st-tre-45-6.webp",
+   "w": 521,
+   "h": 640
+  },
+  {
+   "id": "tre-46-4",
+   "t": "s-mansoni",
+   "stage": "成蟲",
+   "from": "吸蟲圖檔 p.46",
+   "src": "figures/lab/st-tre-46-4.webp",
+   "w": 320,
+   "h": 640
+  },
+  {
+   "id": "tre-47-1",
+   "t": "s-mansoni",
+   "stage": "成蟲",
+   "from": "吸蟲圖檔 p.47",
+   "src": "figures/lab/st-tre-47-1.webp",
+   "w": 640,
+   "h": 497
+  },
+  {
+   "id": "tre-49-4",
+   "t": "biomphalaria",
+   "stage": "中間宿主",
+   "from": "吸蟲圖檔 p.49",
+   "src": "figures/lab/st-tre-49-4.webp",
+   "w": 640,
+   "h": 147
+  },
+  {
+   "id": "ces-02-4",
+   "t": "d-latum",
+   "stage": "成蟲",
+   "from": "絛蟲圖檔 p.2",
+   "src": "figures/lab/st-ces-02-4.webp",
+   "w": 640,
+   "h": 572
+  },
+  {
+   "id": "ces-03-3",
+   "t": "d-latum",
+   "stage": "頭節 scolex",
+   "from": "絛蟲圖檔 p.3",
+   "src": "figures/lab/st-ces-03-3.webp",
+   "w": 640,
+   "h": 466
+  },
+  {
+   "id": "ces-04-3",
+   "t": "d-latum",
+   "stage": "受孕體節 GP",
+   "from": "絛蟲圖檔 p.4",
+   "src": "figures/lab/st-ces-04-3.webp",
+   "w": 640,
+   "h": 362
+  },
+  {
+   "id": "ces-06-3",
+   "t": "d-mansoni",
+   "stage": "頭節 scolex",
+   "from": "絛蟲圖檔 p.6",
+   "src": "figures/lab/st-ces-06-3.webp",
+   "w": 640,
+   "h": 407
+  },
+  {
+   "id": "ces-07-3",
+   "t": "d-mansoni",
+   "stage": "受孕體節 GP",
+   "from": "絛蟲圖檔 p.7",
+   "src": "figures/lab/st-ces-07-3.webp",
+   "w": 613,
+   "h": 628
+  },
+  {
+   "id": "ces-09-4",
+   "t": "t-saginata",
+   "stage": "頭節 scolex",
+   "from": "絛蟲圖檔 p.9",
+   "src": "figures/lab/st-ces-09-4.webp",
+   "w": 609,
+   "h": 640
+  },
+  {
+   "id": "ces-10-4",
+   "t": "t-saginata",
+   "stage": "成熟體節 MP",
+   "from": "絛蟲圖檔 p.10",
+   "src": "figures/lab/st-ces-10-4.webp",
+   "w": 640,
+   "h": 513
+  },
+  {
+   "id": "ces-11-3",
+   "t": "t-saginata",
+   "stage": "受孕體節 GP",
+   "from": "絛蟲圖檔 p.11",
+   "src": "figures/lab/st-ces-11-3.webp",
+   "w": 253,
+   "h": 428
+  },
+  {
+   "id": "ces-11-5",
+   "t": "t-saginata",
+   "stage": "受孕體節 GP",
+   "from": "絛蟲圖檔 p.11",
+   "src": "figures/lab/st-ces-11-5.webp",
+   "w": 516,
+   "h": 640
+  },
+  {
+   "id": "ces-12-5",
+   "t": "t-asiatica",
+   "stage": "頭節 scolex",
+   "from": "絛蟲圖檔 p.12",
+   "src": "figures/lab/st-ces-12-5.webp",
+   "w": 640,
+   "h": 256
+  },
+  {
+   "id": "ces-12-7",
+   "t": "t-asiatica",
+   "stage": "頭節 scolex",
+   "from": "絛蟲圖檔 p.12",
+   "src": "figures/lab/st-ces-12-7.webp",
+   "w": 429,
+   "h": 148
+  },
+  {
+   "id": "ces-13-1",
+   "t": "t-asiatica",
+   "stage": "頭節 scolex",
+   "from": "絛蟲圖檔 p.13",
+   "src": "figures/lab/st-ces-13-1.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "ces-14-3",
+   "t": "t-solium",
+   "stage": "頭節 scolex",
+   "from": "絛蟲圖檔 p.14",
+   "src": "figures/lab/st-ces-14-3.webp",
+   "w": 640,
+   "h": 509
+  },
+  {
+   "id": "ces-14-4",
+   "t": "t-solium",
+   "stage": "頭節 scolex",
+   "from": "絛蟲圖檔 p.14",
+   "src": "figures/lab/st-ces-14-4.webp",
+   "w": 640,
+   "h": 479
+  },
+  {
+   "id": "ces-15-1",
+   "t": "t-solium",
+   "stage": "受孕體節 GP",
+   "from": "絛蟲圖檔 p.15",
+   "src": "figures/lab/st-ces-15-1.webp",
+   "w": 578,
+   "h": 545
+  },
+  {
+   "id": "ces-16-3",
+   "t": "t-solium",
+   "stage": "囊尾幼 cysticercus",
+   "from": "絛蟲圖檔 p.16",
+   "src": "figures/lab/st-ces-16-3.webp",
+   "w": 640,
+   "h": 278
+  },
+  {
+   "id": "ces-17-3",
+   "t": "t-solium",
+   "stage": "囊尾幼 cysticercus",
+   "from": "絛蟲圖檔 p.17",
+   "src": "figures/lab/st-ces-17-3.webp",
+   "w": 640,
+   "h": 479
+  },
+  {
+   "id": "ces-17-5",
+   "t": "t-solium",
+   "stage": "囊尾幼 cysticercus",
+   "from": "絛蟲圖檔 p.17",
+   "src": "figures/lab/st-ces-17-5.webp",
+   "w": 467,
+   "h": 412
+  },
+  {
+   "id": "ces-19-5",
+   "t": "echinococcus",
+   "stage": "體節",
+   "from": "絛蟲圖檔 p.19",
+   "src": "figures/lab/st-ces-19-5.webp",
+   "w": 640,
+   "h": 221
+  },
+  {
+   "id": "ces-20-4",
+   "t": "echinococcus",
+   "stage": "頭砂 hydatid sand",
+   "from": "絛蟲圖檔 p.20",
+   "src": "figures/lab/st-ces-20-4.webp",
+   "w": 640,
+   "h": 488
+  },
+  {
+   "id": "ces-20-5",
+   "t": "echinococcus",
+   "stage": "頭砂 hydatid sand",
+   "from": "絛蟲圖檔 p.20",
+   "src": "figures/lab/st-ces-20-5.webp",
+   "w": 538,
+   "h": 353
+  },
+  {
+   "id": "ces-21-3",
+   "t": "echinococcus",
+   "stage": "頭砂 hydatid sand",
+   "from": "絛蟲圖檔 p.21",
+   "src": "figures/lab/st-ces-21-3.webp",
+   "w": 630,
+   "h": 640
+  },
+  {
+   "id": "ces-21-4",
+   "t": "echinococcus",
+   "stage": "頭砂 hydatid sand",
+   "from": "絛蟲圖檔 p.21",
+   "src": "figures/lab/st-ces-21-4.webp",
+   "w": 624,
+   "h": 640
+  },
+  {
+   "id": "ces-21-5",
+   "t": "echinococcus",
+   "stage": "頭砂 hydatid sand",
+   "from": "絛蟲圖檔 p.21",
+   "src": "figures/lab/st-ces-21-5.webp",
+   "w": 499,
+   "h": 472
+  },
+  {
+   "id": "ces-22-3",
+   "t": "dipylidium",
+   "stage": "成蟲",
+   "from": "絛蟲圖檔 p.22",
+   "src": "figures/lab/st-ces-22-3.webp",
+   "w": 640,
+   "h": 297
+  },
+  {
+   "id": "ces-23-3",
+   "t": "dipylidium",
+   "stage": "頭節 scolex",
+   "from": "絛蟲圖檔 p.23",
+   "src": "figures/lab/st-ces-23-3.webp",
+   "w": 593,
+   "h": 596
+  },
+  {
+   "id": "ces-23-4",
+   "t": "dipylidium",
+   "stage": "頭節 scolex",
+   "from": "絛蟲圖檔 p.23",
+   "src": "figures/lab/st-ces-23-4.webp",
+   "w": 607,
+   "h": 640
+  },
+  {
+   "id": "ces-24-1",
+   "t": "dipylidium",
+   "stage": "成熟體節 MP",
+   "from": "絛蟲圖檔 p.24",
+   "src": "figures/lab/st-ces-24-1.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "ces-25-3",
+   "t": "dipylidium",
+   "stage": "受孕體節 GP",
+   "from": "絛蟲圖檔 p.25",
+   "src": "figures/lab/st-ces-25-3.webp",
+   "w": 640,
+   "h": 254
+  },
+  {
+   "id": "ces-27-4",
+   "t": "h-diminuta",
+   "stage": "成蟲",
+   "from": "絛蟲圖檔 p.27",
+   "src": "figures/lab/st-ces-27-4.webp",
+   "w": 640,
+   "h": 564
+  },
+  {
+   "id": "ces-28-4",
+   "t": "h-diminuta",
+   "stage": "成熟體節 MP",
+   "from": "絛蟲圖檔 p.28",
+   "src": "figures/lab/st-ces-28-4.webp",
+   "w": 436,
+   "h": 413
+  },
+  {
+   "id": "ces-28-5",
+   "t": "h-diminuta",
+   "stage": "成熟體節 MP",
+   "from": "絛蟲圖檔 p.28",
+   "src": "figures/lab/st-ces-28-5.webp",
+   "w": 640,
+   "h": 428
+  },
+  {
+   "id": "ces-29-3",
+   "t": "h-diminuta",
+   "stage": "受孕體節 GP",
+   "from": "絛蟲圖檔 p.29",
+   "src": "figures/lab/st-ces-29-3.webp",
+   "w": 640,
+   "h": 537
+  },
+  {
+   "id": "ces-29-4",
+   "t": "h-diminuta",
+   "stage": "受孕體節 GP",
+   "from": "絛蟲圖檔 p.29",
+   "src": "figures/lab/st-ces-29-4.webp",
+   "w": 578,
+   "h": 464
+  },
+  {
+   "id": "ces-31-1",
+   "t": "h-diminuta",
+   "stage": "擬囊尾幼 cysticercoid",
+   "from": "絛蟲圖檔 p.31",
+   "src": "figures/lab/st-ces-31-1.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "ces-32-3",
+   "t": "h-nana",
+   "stage": "頭節 scolex",
+   "from": "絛蟲圖檔 p.32",
+   "src": "figures/lab/st-ces-32-3.webp",
+   "w": 640,
+   "h": 572
+  },
+  {
+   "id": "ces-33-4",
+   "t": "h-nana",
+   "stage": "成熟體節 MP",
+   "from": "絛蟲圖檔 p.33",
+   "src": "figures/lab/st-ces-33-4.webp",
+   "w": 640,
+   "h": 500
+  },
+  {
+   "id": "ces-33-5",
+   "t": "h-nana",
+   "stage": "成熟體節 MP",
+   "from": "絛蟲圖檔 p.33",
+   "src": "figures/lab/st-ces-33-5.webp",
+   "w": 640,
+   "h": 449
+  },
+  {
+   "id": "ces-34-3",
+   "t": "h-nana",
+   "stage": "受孕體節 GP",
+   "from": "絛蟲圖檔 p.34",
+   "src": "figures/lab/st-ces-34-3.webp",
+   "w": 640,
+   "h": 534
+  },
+  {
+   "id": "ces-34-4",
+   "t": "h-nana",
+   "stage": "受孕體節 GP",
+   "from": "絛蟲圖檔 p.34",
+   "src": "figures/lab/st-ces-34-4.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "pro-02-5",
+   "t": "e-histolytica",
+   "stage": "活動體 trophozoite",
+   "from": "原蟲圖檔 p.2",
+   "src": "figures/lab/st-pro-02-5.webp",
+   "w": 505,
+   "h": 468
+  },
+  {
+   "id": "pro-02-7",
+   "t": "e-histolytica",
+   "stage": "活動體 trophozoite",
+   "from": "原蟲圖檔 p.2",
+   "src": "figures/lab/st-pro-02-7.webp",
+   "w": 237,
+   "h": 204
+  },
+  {
+   "id": "pro-02-8",
+   "t": "e-histolytica",
+   "stage": "活動體 trophozoite",
+   "from": "原蟲圖檔 p.2",
+   "src": "figures/lab/st-pro-02-8.webp",
+   "w": 198,
+   "h": 300
+  },
+  {
+   "id": "pro-03-3",
+   "t": "e-histolytica",
+   "stage": "囊體 cyst",
+   "from": "原蟲圖檔 p.3",
+   "src": "figures/lab/st-pro-03-3.webp",
+   "w": 200,
+   "h": 159
+  },
+  {
+   "id": "pro-03-5",
+   "t": "e-histolytica",
+   "stage": "囊體 cyst",
+   "from": "原蟲圖檔 p.3",
+   "src": "figures/lab/st-pro-03-5.webp",
+   "w": 248,
+   "h": 206
+  },
+  {
+   "id": "pro-04-6",
+   "t": "e-coli",
+   "stage": "活動體 trophozoite",
+   "from": "原蟲圖檔 p.4",
+   "src": "figures/lab/st-pro-04-6.webp",
+   "w": 534,
+   "h": 533
+  },
+  {
+   "id": "pro-04-7",
+   "t": "e-coli",
+   "stage": "活動體 trophozoite",
+   "from": "原蟲圖檔 p.4",
+   "src": "figures/lab/st-pro-04-7.webp",
+   "w": 420,
+   "h": 420
+  },
+  {
+   "id": "pro-04-8",
+   "t": "e-coli",
+   "stage": "活動體 trophozoite",
+   "from": "原蟲圖檔 p.4",
+   "src": "figures/lab/st-pro-04-8.webp",
+   "w": 300,
+   "h": 300
+  },
+  {
+   "id": "pro-05-5",
+   "t": "e-coli",
+   "stage": "囊體 cyst",
+   "from": "原蟲圖檔 p.5",
+   "src": "figures/lab/st-pro-05-5.webp",
+   "w": 253,
+   "h": 241
+  },
+  {
+   "id": "pro-05-6",
+   "t": "e-coli",
+   "stage": "囊體 cyst",
+   "from": "原蟲圖檔 p.5",
+   "src": "figures/lab/st-pro-05-6.webp",
+   "w": 513,
+   "h": 508
+  },
+  {
+   "id": "pro-05-7",
+   "t": "e-coli",
+   "stage": "囊體 cyst",
+   "from": "原蟲圖檔 p.5",
+   "src": "figures/lab/st-pro-05-7.webp",
+   "w": 408,
+   "h": 394
+  },
+  {
+   "id": "pro-06-5",
+   "t": "iodamoeba",
+   "stage": "囊體 cyst",
+   "from": "原蟲圖檔 p.6",
+   "src": "figures/lab/st-pro-06-5.webp",
+   "w": 171,
+   "h": 165
+  },
+  {
+   "id": "pro-06-7",
+   "t": "iodamoeba",
+   "stage": "囊體 cyst",
+   "from": "原蟲圖檔 p.6",
+   "src": "figures/lab/st-pro-06-7.webp",
+   "w": 260,
+   "h": 249
+  },
+  {
+   "id": "pro-06-8",
+   "t": "iodamoeba",
+   "stage": "囊體 cyst",
+   "from": "原蟲圖檔 p.6",
+   "src": "figures/lab/st-pro-06-8.webp",
+   "w": 260,
+   "h": 249
+  },
+  {
+   "id": "pro-07-6",
+   "t": "blastocystis",
+   "stage": "囊體 cyst",
+   "from": "原蟲圖檔 p.7",
+   "src": "figures/lab/st-pro-07-6.webp",
+   "w": 243,
+   "h": 241
+  },
+  {
+   "id": "pro-07-7",
+   "t": "blastocystis",
+   "stage": "囊體 cyst",
+   "from": "原蟲圖檔 p.7",
+   "src": "figures/lab/st-pro-07-7.webp",
+   "w": 515,
+   "h": 572
+  },
+  {
+   "id": "pro-08-5",
+   "t": "balantidium",
+   "stage": "活動體 trophozoite",
+   "from": "原蟲圖檔 p.8",
+   "src": "figures/lab/st-pro-08-5.webp",
+   "w": 640,
+   "h": 564
+  },
+  {
+   "id": "pro-09-6",
+   "t": "balantidium",
+   "stage": "囊體 cyst",
+   "from": "原蟲圖檔 p.9",
+   "src": "figures/lab/st-pro-09-6.webp",
+   "w": 640,
+   "h": 516
+  },
+  {
+   "id": "pro-10-5",
+   "t": "giardia",
+   "stage": "活動體 trophozoite",
+   "from": "原蟲圖檔 p.10",
+   "src": "figures/lab/st-pro-10-5.webp",
+   "w": 633,
+   "h": 466
+  },
+  {
+   "id": "pro-11-5",
+   "t": "giardia",
+   "stage": "囊體 cyst",
+   "from": "原蟲圖檔 p.11",
+   "src": "figures/lab/st-pro-11-5.webp",
+   "w": 566,
+   "h": 280
+  },
+  {
+   "id": "pro-11-6",
+   "t": "giardia",
+   "stage": "囊體 cyst",
+   "from": "原蟲圖檔 p.11",
+   "src": "figures/lab/st-pro-11-6.webp",
+   "w": 202,
+   "h": 156
+  },
+  {
+   "id": "pro-11-7",
+   "t": "giardia",
+   "stage": "囊體 cyst",
+   "from": "原蟲圖檔 p.11",
+   "src": "figures/lab/st-pro-11-7.webp",
+   "w": 198,
+   "h": 117
+  },
+  {
+   "id": "pro-11-8",
+   "t": "giardia",
+   "stage": "囊體 cyst",
+   "from": "原蟲圖檔 p.11",
+   "src": "figures/lab/st-pro-11-8.webp",
+   "w": 198,
+   "h": 117
+  },
+  {
+   "id": "pro-12-7",
+   "t": "trichomonas",
+   "stage": "活動體 trophozoite",
+   "from": "原蟲圖檔 p.12",
+   "src": "figures/lab/st-pro-12-7.webp",
+   "w": 526,
+   "h": 498
+  },
+  {
+   "id": "pro-12-8",
+   "t": "trichomonas",
+   "stage": "活動體 trophozoite",
+   "from": "原蟲圖檔 p.12",
+   "src": "figures/lab/st-pro-12-8.webp",
+   "w": 551,
+   "h": 497
+  },
+  {
+   "id": "pro-12-9",
+   "t": "trichomonas",
+   "stage": "活動體 trophozoite",
+   "from": "原蟲圖檔 p.12",
+   "src": "figures/lab/st-pro-12-9.webp",
+   "w": 198,
+   "h": 246
+  },
+  {
+   "id": "pro-13-6",
+   "t": "leishmania",
+   "stage": "無鞭毛體 amastigote",
+   "from": "原蟲圖檔 p.13",
+   "src": "figures/lab/st-pro-13-6.webp",
+   "w": 221,
+   "h": 256
+  },
+  {
+   "id": "pro-13-9",
+   "t": "leishmania",
+   "stage": "無鞭毛體 amastigote",
+   "from": "原蟲圖檔 p.13",
+   "src": "figures/lab/st-pro-13-9.webp",
+   "w": 247,
+   "h": 229
+  },
+  {
+   "id": "pro-14-1",
+   "t": "leishmania",
+   "stage": "前鞭毛體 promastigote",
+   "from": "原蟲圖檔 p.14",
+   "src": "figures/lab/st-pro-14-1.webp",
+   "w": 400,
+   "h": 332
+  },
+  {
+   "id": "pro-14-6",
+   "t": "leishmania",
+   "stage": "前鞭毛體 promastigote",
+   "from": "原蟲圖檔 p.14",
+   "src": "figures/lab/st-pro-14-6.webp",
+   "w": 300,
+   "h": 269
+  },
+  {
+   "id": "pro-15-8",
+   "t": "t-gambiense",
+   "stage": "錐鞭毛體 trypomastigote",
+   "from": "原蟲圖檔 p.15",
+   "src": "figures/lab/st-pro-15-8.webp",
+   "w": 300,
+   "h": 240
+  },
+  {
+   "id": "pro-17-5",
+   "t": "t-cruzi",
+   "stage": "錐鞭毛體 trypomastigote",
+   "from": "原蟲圖檔 p.17",
+   "src": "figures/lab/st-pro-17-5.webp",
+   "w": 615,
+   "h": 425
+  },
+  {
+   "id": "pro-17-6",
+   "t": "t-cruzi",
+   "stage": "錐鞭毛體 trypomastigote",
+   "from": "原蟲圖檔 p.17",
+   "src": "figures/lab/st-pro-17-6.webp",
+   "w": 300,
+   "h": 300
+  },
+  {
+   "id": "pro-17-7",
+   "t": "t-cruzi",
+   "stage": "錐鞭毛體 trypomastigote",
+   "from": "原蟲圖檔 p.17",
+   "src": "figures/lab/st-pro-17-7.webp",
+   "w": 300,
+   "h": 300
+  },
+  {
+   "id": "pro-18-5",
+   "t": "t-cruzi",
+   "stage": "上鞭毛體 epimastigote",
+   "from": "原蟲圖檔 p.18",
+   "src": "figures/lab/st-pro-18-5.webp",
+   "w": 510,
+   "h": 640
+  },
+  {
+   "id": "pro-18-7",
+   "t": "t-cruzi",
+   "stage": "上鞭毛體 epimastigote",
+   "from": "原蟲圖檔 p.18",
+   "src": "figures/lab/st-pro-18-7.webp",
+   "w": 119,
+   "h": 172
+  },
+  {
+   "id": "pro-18-8",
+   "t": "t-cruzi",
+   "stage": "上鞭毛體 epimastigote",
+   "from": "原蟲圖檔 p.18",
+   "src": "figures/lab/st-pro-18-8.webp",
+   "w": 189,
+   "h": 228
+  },
+  {
+   "id": "pro-20-5",
+   "t": "toxoplasma",
+   "stage": "速殖子 tachyzoite",
+   "from": "原蟲圖檔 p.20",
+   "src": "figures/lab/st-pro-20-5.webp",
+   "w": 640,
+   "h": 528
+  },
+  {
+   "id": "pro-20-7",
+   "t": "toxoplasma",
+   "stage": "速殖子 tachyzoite",
+   "from": "原蟲圖檔 p.20",
+   "src": "figures/lab/st-pro-20-7.webp",
+   "w": 200,
+   "h": 148
+  },
+  {
+   "id": "pro-21-6",
+   "t": "p-falciparum",
+   "stage": "活動體 trophozoite",
+   "from": "原蟲圖檔 p.21",
+   "src": "figures/lab/st-pro-21-6.webp",
+   "w": 300,
+   "h": 279
+  },
+  {
+   "id": "pro-22-5",
+   "t": "p-falciparum",
+   "stage": "配子體 gametocyte",
+   "from": "原蟲圖檔 p.22",
+   "src": "figures/lab/st-pro-22-5.webp",
+   "w": 191,
+   "h": 222
+  },
+  {
+   "id": "pro-22-6",
+   "t": "p-falciparum",
+   "stage": "配子體 gametocyte",
+   "from": "原蟲圖檔 p.22",
+   "src": "figures/lab/st-pro-22-6.webp",
+   "w": 174,
+   "h": 224
+  },
+  {
+   "id": "pro-22-8",
+   "t": "p-falciparum",
+   "stage": "配子體 gametocyte",
+   "from": "原蟲圖檔 p.22",
+   "src": "figures/lab/st-pro-22-8.webp",
+   "w": 231,
+   "h": 241
+  },
+  {
+   "id": "pro-22-9",
+   "t": "p-falciparum",
+   "stage": "配子體 gametocyte",
+   "from": "原蟲圖檔 p.22",
+   "src": "figures/lab/st-pro-22-9.webp",
+   "w": 180,
+   "h": 222
+  },
+  {
+   "id": "pro-23-5",
+   "t": "p-falciparum",
+   "stage": "裂殖體 schizont",
+   "from": "原蟲圖檔 p.23",
+   "src": "figures/lab/st-pro-23-5.webp",
+   "w": 162,
+   "h": 285
+  },
+  {
+   "id": "pro-23-6",
+   "t": "p-falciparum",
+   "stage": "裂殖體 schizont",
+   "from": "原蟲圖檔 p.23",
+   "src": "figures/lab/st-pro-23-6.webp",
+   "w": 162,
+   "h": 287
+  },
+  {
+   "id": "pro-24-5",
+   "t": "p-vivax",
+   "stage": "活動體 trophozoite",
+   "from": "原蟲圖檔 p.24",
+   "src": "figures/lab/st-pro-24-5.webp",
+   "w": 300,
+   "h": 262
+  },
+  {
+   "id": "pro-24-6",
+   "t": "p-vivax",
+   "stage": "活動體 trophozoite",
+   "from": "原蟲圖檔 p.24",
+   "src": "figures/lab/st-pro-24-6.webp",
+   "w": 300,
+   "h": 260
+  },
+  {
+   "id": "pro-25-5",
+   "t": "p-vivax",
+   "stage": "活動體 trophozoite",
+   "from": "原蟲圖檔 p.25",
+   "src": "figures/lab/st-pro-25-5.webp",
+   "w": 300,
+   "h": 300
+  },
+  {
+   "id": "pro-25-6",
+   "t": "p-vivax",
+   "stage": "活動體 trophozoite",
+   "from": "原蟲圖檔 p.25",
+   "src": "figures/lab/st-pro-25-6.webp",
+   "w": 300,
+   "h": 300
+  },
+  {
+   "id": "pro-26-5",
+   "t": "p-vivax",
+   "stage": "裂殖體 schizont",
+   "from": "原蟲圖檔 p.26",
+   "src": "figures/lab/st-pro-26-5.webp",
+   "w": 300,
+   "h": 300
+  },
+  {
+   "id": "pro-26-6",
+   "t": "p-vivax",
+   "stage": "裂殖體 schizont",
+   "from": "原蟲圖檔 p.26",
+   "src": "figures/lab/st-pro-26-6.webp",
+   "w": 300,
+   "h": 300
+  },
+  {
+   "id": "pro-27-6",
+   "t": "p-malariae",
+   "stage": "活動體 trophozoite",
+   "from": "原蟲圖檔 p.27",
+   "src": "figures/lab/st-pro-27-6.webp",
+   "w": 300,
+   "h": 300
+  },
+  {
+   "id": "pro-28-5",
+   "t": "p-malariae",
+   "stage": "活動體 trophozoite",
+   "from": "原蟲圖檔 p.28",
+   "src": "figures/lab/st-pro-28-5.webp",
+   "w": 300,
+   "h": 255
+  },
+  {
+   "id": "pro-28-6",
+   "t": "p-malariae",
+   "stage": "活動體 trophozoite",
+   "from": "原蟲圖檔 p.28",
+   "src": "figures/lab/st-pro-28-6.webp",
+   "w": 300,
+   "h": 255
+  },
+  {
+   "id": "pro-29-5",
+   "t": "p-malariae",
+   "stage": "裂殖體 schizont",
+   "from": "原蟲圖檔 p.29",
+   "src": "figures/lab/st-pro-29-5.webp",
+   "w": 300,
+   "h": 283
+  },
+  {
+   "id": "pro-29-6",
+   "t": "p-malariae",
+   "stage": "裂殖體 schizont",
+   "from": "原蟲圖檔 p.29",
+   "src": "figures/lab/st-pro-29-6.webp",
+   "w": 300,
+   "h": 282
+  },
+  {
+   "id": "pro-30-7",
+   "t": "babesia",
+   "stage": "活動體 trophozoite",
+   "from": "原蟲圖檔 p.30",
+   "src": "figures/lab/st-pro-30-7.webp",
+   "w": 300,
+   "h": 162
+  },
+  {
+   "id": "pro-30-8",
+   "t": "babesia",
+   "stage": "活動體 trophozoite",
+   "from": "原蟲圖檔 p.30",
+   "src": "figures/lab/st-pro-30-8.webp",
+   "w": 300,
+   "h": 170
+  },
+  {
+   "id": "pro-32-5",
+   "t": "cryptosporidium",
+   "stage": "卵囊 oocyst",
+   "from": "原蟲圖檔 p.32",
+   "src": "figures/lab/st-pro-32-5.webp",
+   "w": 640,
+   "h": 429
+  },
+  {
+   "id": "art-03-1",
+   "t": "eriocheir",
+   "stage": "中間宿主",
+   "from": "節肢動物 p.3",
+   "src": "figures/lab/st-art-03-1.webp",
+   "w": 155,
+   "h": 112
+  },
+  {
+   "id": "art-03-2",
+   "t": "eriocheir",
+   "stage": "中間宿主",
+   "from": "節肢動物 p.3",
+   "src": "figures/lab/st-art-03-2.webp",
+   "w": 640,
+   "h": 456
+  },
+  {
+   "id": "art-04-1",
+   "t": "culex",
+   "stage": "",
+   "from": "節肢動物 p.4",
+   "src": "figures/lab/st-art-04-1.webp",
+   "w": 610,
+   "h": 640
+  },
+  {
+   "id": "art-05-1",
+   "t": "culex",
+   "stage": "",
+   "from": "節肢動物 p.5",
+   "src": "figures/lab/st-art-05-1.webp",
+   "w": 489,
+   "h": 640
+  },
+  {
+   "id": "art-06-4",
+   "t": "culex",
+   "stage": "幼蟲",
+   "from": "節肢動物 p.6",
+   "src": "figures/lab/st-art-06-4.webp",
+   "w": 309,
+   "h": 640
+  },
+  {
+   "id": "art-07-5",
+   "t": "anopheles",
+   "stage": "幼蟲",
+   "from": "節肢動物 p.7",
+   "src": "figures/lab/st-art-07-5.webp",
+   "w": 325,
+   "h": 640
+  },
+  {
+   "id": "art-08-3",
+   "t": "aedes",
+   "stage": "",
+   "from": "節肢動物 p.8",
+   "src": "figures/lab/st-art-08-3.webp",
+   "w": 640,
+   "h": 615
+  },
+  {
+   "id": "art-09-1",
+   "t": "aedes",
+   "stage": "幼蟲",
+   "from": "節肢動物 p.9",
+   "src": "figures/lab/st-art-09-1.webp",
+   "w": 409,
+   "h": 640
+  },
+  {
+   "id": "art-10-3",
+   "t": "musca",
+   "stage": "成蟲",
+   "from": "節肢動物 p.10",
+   "src": "figures/lab/st-art-10-3.webp",
+   "w": 101,
+   "h": 107
+  },
+  {
+   "id": "art-10-5",
+   "t": "musca",
+   "stage": "成蟲",
+   "from": "節肢動物 p.10",
+   "src": "figures/lab/st-art-10-5.webp",
+   "w": 640,
+   "h": 358
+  },
+  {
+   "id": "art-10-6",
+   "t": "musca",
+   "stage": "成蟲",
+   "from": "節肢動物 p.10",
+   "src": "figures/lab/st-art-10-6.webp",
+   "w": 457,
+   "h": 340
+  },
+  {
+   "id": "art-11-7",
+   "t": "glossina",
+   "stage": "",
+   "from": "節肢動物 p.11",
+   "src": "figures/lab/st-art-11-7.webp",
+   "w": 560,
+   "h": 640
+  },
+  {
+   "id": "art-12-3",
+   "t": "pulex",
+   "stage": "",
+   "from": "節肢動物 p.12",
+   "src": "figures/lab/st-art-12-3.webp",
+   "w": 592,
+   "h": 640
+  },
+  {
+   "id": "art-12-4",
+   "t": "pulex",
+   "stage": "",
+   "from": "節肢動物 p.12",
+   "src": "figures/lab/st-art-12-4.webp",
+   "w": 400,
+   "h": 300
+  },
+  {
+   "id": "art-13-3",
+   "t": "ctenocephalides",
+   "stage": "",
+   "from": "節肢動物 p.13",
+   "src": "figures/lab/st-art-13-3.webp",
+   "w": 640,
+   "h": 606
+  },
+  {
+   "id": "art-14-3",
+   "t": "xenopsylla",
+   "stage": "",
+   "from": "節肢動物 p.14",
+   "src": "figures/lab/st-art-14-3.webp",
+   "w": 400,
+   "h": 338
+  },
+  {
+   "id": "art-15-3",
+   "t": "cimex",
+   "stage": "蟲卵",
+   "from": "節肢動物 p.15",
+   "src": "figures/lab/st-art-15-3.webp",
+   "w": 431,
+   "h": 640
+  },
+  {
+   "id": "art-16-3",
+   "t": "cimex",
+   "stage": "蟲卵",
+   "from": "節肢動物 p.16",
+   "src": "figures/lab/st-art-16-3.webp",
+   "w": 378,
+   "h": 640
+  },
+  {
+   "id": "art-17-4",
+   "t": "rhodnius",
+   "stage": "",
+   "from": "節肢動物 p.17",
+   "src": "figures/lab/st-art-17-4.webp",
+   "w": 640,
+   "h": 463
+  },
+  {
+   "id": "art-17-5",
+   "t": "rhodnius",
+   "stage": "",
+   "from": "節肢動物 p.17",
+   "src": "figures/lab/st-art-17-5.webp",
+   "w": 246,
+   "h": 279
+  },
+  {
+   "id": "art-18-4",
+   "t": "ph-capitis",
+   "stage": "蟲卵",
+   "from": "節肢動物 p.18",
+   "src": "figures/lab/st-art-18-4.webp",
+   "w": 456,
+   "h": 640
+  },
+  {
+   "id": "art-18-5",
+   "t": "ph-capitis",
+   "stage": "蟲卵",
+   "from": "節肢動物 p.18",
+   "src": "figures/lab/st-art-18-5.webp",
+   "w": 267,
+   "h": 401
+  },
+  {
+   "id": "art-19-1",
+   "t": "ph-capitis",
+   "stage": "",
+   "from": "節肢動物 p.19",
+   "src": "figures/lab/st-art-19-1.webp",
+   "w": 640,
+   "h": 489
+  },
+  {
+   "id": "art-20-5",
+   "t": "ph-corporis",
+   "stage": "蟲卵",
+   "from": "節肢動物 p.20",
+   "src": "figures/lab/st-art-20-5.webp",
+   "w": 356,
+   "h": 312
+  },
+  {
+   "id": "art-20-7",
+   "t": "ph-corporis",
+   "stage": "蟲卵",
+   "from": "節肢動物 p.20",
+   "src": "figures/lab/st-art-20-7.webp",
+   "w": 466,
+   "h": 640
+  },
+  {
+   "id": "art-20-8",
+   "t": "ph-corporis",
+   "stage": "蟲卵",
+   "from": "節肢動物 p.20",
+   "src": "figures/lab/st-art-20-8.webp",
+   "w": 224,
+   "h": 287
+  },
+  {
+   "id": "art-21-1",
+   "t": "pthirus",
+   "stage": "",
+   "from": "節肢動物 p.21",
+   "src": "figures/lab/st-art-21-1.webp",
+   "w": 640,
+   "h": 483
+  },
+  {
+   "id": "art-21-4",
+   "t": "pthirus",
+   "stage": "",
+   "from": "節肢動物 p.21",
+   "src": "figures/lab/st-art-21-4.webp",
+   "w": 158,
+   "h": 129
+  },
+  {
+   "id": "art-21-6",
+   "t": "pthirus",
+   "stage": "",
+   "from": "節肢動物 p.21",
+   "src": "figures/lab/st-art-21-6.webp",
+   "w": 169,
+   "h": 129
+  },
+  {
+   "id": "art-21-7",
+   "t": "pthirus",
+   "stage": "",
+   "from": "節肢動物 p.21",
+   "src": "figures/lab/st-art-21-7.webp",
+   "w": 169,
+   "h": 129
+  },
+  {
+   "id": "art-22-1",
+   "t": "pthirus",
+   "stage": "",
+   "from": "節肢動物 p.22",
+   "src": "figures/lab/st-art-22-1.webp",
+   "w": 640,
+   "h": 483
+  },
+  {
+   "id": "art-22-5",
+   "t": "pthirus",
+   "stage": "",
+   "from": "節肢動物 p.22",
+   "src": "figures/lab/st-art-22-5.webp",
+   "w": 169,
+   "h": 129
+  },
+  {
+   "id": "art-22-6",
+   "t": "pthirus",
+   "stage": "",
+   "from": "節肢動物 p.22",
+   "src": "figures/lab/st-art-22-6.webp",
+   "w": 169,
+   "h": 129
+  },
+  {
+   "id": "art-23-4",
+   "t": "dermatophagoides",
+   "stage": "",
+   "from": "節肢動物 p.23",
+   "src": "figures/lab/st-art-23-4.webp",
+   "w": 640,
+   "h": 591
+  },
+  {
+   "id": "art-24-5",
+   "t": "demodex",
+   "stage": "",
+   "from": "節肢動物 p.24",
+   "src": "figures/lab/st-art-24-5.webp",
+   "w": 560,
+   "h": 640
+  },
+  {
+   "id": "art-25-3",
+   "t": "trombicula",
+   "stage": "幼蟲",
+   "from": "節肢動物 p.25",
+   "src": "figures/lab/st-art-25-3.webp",
+   "w": 552,
+   "h": 599
+  },
+  {
+   "id": "art-26-4",
+   "t": "trombicula",
+   "stage": "蟲卵",
+   "from": "節肢動物 p.26",
+   "src": "figures/lab/st-art-26-4.webp",
+   "w": 583,
+   "h": 640
+  },
+  {
+   "id": "art-27-3",
+   "t": "ixodes",
+   "stage": "",
+   "from": "節肢動物 p.27",
+   "src": "figures/lab/st-art-27-3.webp",
+   "w": 640,
+   "h": 471
+  },
+  {
+   "id": "art-28-3",
+   "t": "dermacentor",
+   "stage": "",
+   "from": "節肢動物 p.28",
+   "src": "figures/lab/st-art-28-3.webp",
+   "w": 591,
+   "h": 640
+  },
+  {
+   "id": "art-29-1",
+   "t": "dermacentor",
+   "stage": "",
+   "from": "節肢動物 p.29",
+   "src": "figures/lab/st-art-29-1.webp",
+   "w": 640,
+   "h": 540
+  },
+  {
+   "id": "art-30-1",
+   "t": "argas",
+   "stage": "",
+   "from": "節肢動物 p.30",
+   "src": "figures/lab/st-art-30-1.webp",
+   "w": 600,
+   "h": 640
+  },
+  {
+   "id": "art-30-4",
+   "t": "argas",
+   "stage": "",
+   "from": "節肢動物 p.30",
+   "src": "figures/lab/st-art-30-4.webp",
+   "w": 279,
+   "h": 176
+  },
+  {
+   "id": "b109-01-0",
+   "t": "pthirus",
+   "stage": "成蟲",
+   "from": "109 成蟲線上考試 第 1 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-01-0.webp",
+   "w": 640,
+   "h": 486
+  },
+  {
+   "id": "b109-02-0",
+   "t": "glossina",
+   "stage": "成蟲",
+   "from": "109 成蟲線上考試 第 2 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-02-0.webp",
+   "w": 480,
+   "h": 537
+  },
+  {
+   "id": "b109-03-0",
+   "t": "echinococcus",
+   "stage": "原頭節 protoscolex",
+   "from": "109 成蟲線上考試 第 3 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-03-0.webp",
+   "w": 640,
+   "h": 381
+  },
+  {
+   "id": "b109-04-0",
+   "t": "f-buski",
+   "stage": "成蟲",
+   "from": "109 成蟲線上考試 第 4 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-04-0.webp",
+   "w": 350,
+   "h": 640
+  },
+  {
+   "id": "b109-06-0",
+   "t": "t-solium",
+   "stage": "囊尾幼 cysticercus",
+   "from": "109 成蟲線上考試 第 6 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-06-0.webp",
+   "w": 342,
+   "h": 303
+  },
+  {
+   "id": "b109-06-1",
+   "t": "t-solium",
+   "stage": "囊尾幼 cysticercus",
+   "from": "109 成蟲線上考試 第 6 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-06-1.webp",
+   "w": 614,
+   "h": 285
+  },
+  {
+   "id": "b109-07-0",
+   "t": "t-solium",
+   "stage": "頭節 scolex",
+   "from": "109 成蟲線上考試 第 7 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-07-0.webp",
+   "w": 483,
+   "h": 640
+  },
+  {
+   "id": "b109-09-0",
+   "t": "rhodnius",
+   "stage": "成蟲",
+   "from": "109 成蟲線上考試 第 9 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-09-0.webp",
+   "w": 640,
+   "h": 455
+  },
+  {
+   "id": "b109-10-0",
+   "t": "cryptosporidium",
+   "stage": "卵囊 oocyst（modified acid-fast 染色）",
+   "from": "109 成蟲線上考試 第 10 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-10-0.webp",
+   "w": 611,
+   "h": 435
+  },
+  {
+   "id": "b109-12-0",
+   "t": "t-gambiense",
+   "stage": "錐鞭毛體 trypomastigote",
+   "from": "109 成蟲線上考試 第 12 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-12-0.webp",
+   "w": 580,
+   "h": 487
+  },
+  {
+   "id": "b109-13-0",
+   "t": "t-saginata",
+   "stage": "受孕體節 GP",
+   "from": "109 成蟲線上考試 第 13 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-13-0.webp",
+   "w": 524,
+   "h": 608
+  },
+  {
+   "id": "b109-14-0",
+   "t": "p-vivax",
+   "stage": "活動體 trophozoite",
+   "from": "109 成蟲線上考試 第 14 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-14-0.webp",
+   "w": 472,
+   "h": 495
+  },
+  {
+   "id": "b109-15-0",
+   "t": "s-haematobium",
+   "stage": "尾動幼蟲 cercaria",
+   "from": "109 成蟲線上考試 第 15 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-15-0.webp",
+   "w": 513,
+   "h": 629
+  },
+  {
+   "id": "b109-16-0",
+   "t": "clonorchis",
+   "stage": "成蟲",
+   "from": "109 成蟲線上考試 第 16 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-16-0.webp",
+   "w": 640,
+   "h": 175
+  },
+  {
+   "id": "b109-17-0",
+   "t": "necator",
+   "stage": "成蟲口器",
+   "from": "109 成蟲線上考試 第 17 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-17-0.webp",
+   "w": 625,
+   "h": 450
+  },
+  {
+   "id": "b109-19-0",
+   "t": "oncomelania",
+   "stage": "中間宿主",
+   "from": "109 成蟲線上考試 第 19 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-19-0.webp",
+   "w": 640,
+   "h": 110
+  },
+  {
+   "id": "b109-20-0",
+   "t": "ascaris",
+   "stage": "成蟲",
+   "from": "109 成蟲線上考試 第 20 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-20-0.webp",
+   "w": 457,
+   "h": 367
+  },
+  {
+   "id": "b109-20-1",
+   "t": "ascaris",
+   "stage": "成蟲",
+   "from": "109 成蟲線上考試 第 20 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-20-1.webp",
+   "w": 493,
+   "h": 360
+  },
+  {
+   "id": "b109-21-0",
+   "t": "p-falciparum",
+   "stage": "配子體 gametocyte",
+   "from": "109 成蟲線上考試 第 21 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-21-0.webp",
+   "w": 444,
+   "h": 501
+  },
+  {
+   "id": "b109-22-0",
+   "t": "enterobius",
+   "stage": "成蟲",
+   "from": "109 成蟲線上考試 第 22 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-22-0.webp",
+   "w": 555,
+   "h": 487
+  },
+  {
+   "id": "b109-23-0",
+   "t": "giardia",
+   "stage": "囊體 cyst",
+   "from": "109 成蟲線上考試 第 23 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-23-0.webp",
+   "w": 640,
+   "h": 136
+  },
+  {
+   "id": "b109-24-0",
+   "t": "trichinella",
+   "stage": "被囊幼蟲 encysted larva",
+   "from": "109 成蟲線上考試 第 24 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-24-0.webp",
+   "w": 640,
+   "h": 403
+  },
+  {
+   "id": "b109-25-0",
+   "t": "t-solium",
+   "stage": "受孕體節 GP",
+   "from": "109 成蟲線上考試 第 25 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-25-0.webp",
+   "w": 523,
+   "h": 490
+  },
+  {
+   "id": "b109-27-0",
+   "t": "echinococcus",
+   "stage": "成蟲",
+   "from": "109 成蟲線上考試 第 27 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-27-0.webp",
+   "w": 640,
+   "h": 218
+  },
+  {
+   "id": "b109-28-0",
+   "t": "paragonimus",
+   "stage": "成蟲",
+   "from": "109 成蟲線上考試 第 28 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-28-0.webp",
+   "w": 435,
+   "h": 640
+  },
+  {
+   "id": "b109-29-0",
+   "t": "toxoplasma",
+   "stage": "速殖子 tachyzoite",
+   "from": "109 成蟲線上考試 第 29 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-29-0.webp",
+   "w": 640,
+   "h": 528
+  },
+  {
+   "id": "b109-31-0",
+   "t": "biomphalaria",
+   "stage": "中間宿主",
+   "from": "109 成蟲線上考試 第 31 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-31-0.webp",
+   "w": 640,
+   "h": 146
+  },
+  {
+   "id": "b109-32-0",
+   "t": "e-coli",
+   "stage": "囊體 cyst（MIF 染色）",
+   "from": "109 成蟲線上考試 第 32 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-32-0.webp",
+   "w": 640,
+   "h": 631
+  },
+  {
+   "id": "b109-33-0",
+   "t": "e-histolytica",
+   "stage": "活動體 trophozoite",
+   "from": "109 成蟲線上考試 第 33 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-33-0.webp",
+   "w": 640,
+   "h": 190
+  },
+  {
+   "id": "b109-34-0",
+   "t": "angiostrongylus",
+   "stage": "雌成蟲",
+   "from": "109 成蟲線上考試 第 34 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-34-0.webp",
+   "w": 640,
+   "h": 330
+  },
+  {
+   "id": "b109-36-0",
+   "t": "dipylidium",
+   "stage": "受孕體節 GP",
+   "from": "109 成蟲線上考試 第 36 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-36-0.webp",
+   "w": 640,
+   "h": 253
+  },
+  {
+   "id": "b109-38-0",
+   "t": "trichuris",
+   "stage": "成蟲念珠狀食道",
+   "from": "109 成蟲線上考試 第 38 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-38-0.webp",
+   "w": 640,
+   "h": 437
+  },
+  {
+   "id": "b109-39-0",
+   "t": "p-malariae",
+   "stage": "活動體 trophozoite（band form）",
+   "from": "109 成蟲線上考試 第 39 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-39-0.webp",
+   "w": 640,
+   "h": 640
+  },
+  {
+   "id": "b109-40-0",
+   "t": "e-histolytica",
+   "stage": "囊體 cyst",
+   "from": "109 成蟲線上考試 第 40 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-40-0.webp",
+   "w": 640,
+   "h": 328
+  },
+  {
+   "id": "b109-44-0",
+   "t": "brugia",
+   "stage": "微絲蚴 microfilaria",
+   "from": "109 成蟲線上考試 第 44 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-44-0.webp",
+   "w": 640,
+   "h": 490
+  },
+  {
+   "id": "b109-45-0",
+   "t": "t-saginata",
+   "stage": "頭節 scolex",
+   "from": "109 成蟲線上考試 第 45 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-45-0.webp",
+   "w": 614,
+   "h": 640
+  },
+  {
+   "id": "b109-47-0",
+   "t": "a-duodenale",
+   "stage": "成蟲口器",
+   "from": "109 成蟲線上考試 第 47 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-47-0.webp",
+   "w": 640,
+   "h": 507
+  },
+  {
+   "id": "b109-48-0",
+   "t": "leishmania",
+   "stage": "無鞭毛體 amastigote",
+   "from": "109 成蟲線上考試 第 48 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-48-0.webp",
+   "w": 640,
+   "h": 376
+  },
+  {
+   "id": "b109-49-0",
+   "t": "s-japonicum",
+   "stage": "成蟲",
+   "from": "109 成蟲線上考試 第 49 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-49-0.webp",
+   "w": 640,
+   "h": 620
+  }
+ ],
+ "ova": [
+  {
+   "id": "dnem-03-3",
+   "t": [
+    "ascaris-f"
+   ],
+   "from": "線蟲圖檔 p.3",
+   "src": "figures/lab/st-nem-03-3.webp",
+   "w": 595,
+   "h": 568
+  },
+  {
+   "id": "dnem-03-4",
+   "t": [
+    "ascaris-f"
+   ],
+   "from": "線蟲圖檔 p.3",
+   "src": "figures/lab/st-nem-03-4.webp",
+   "w": 595,
+   "h": 568
+  },
+  {
+   "id": "dnem-03-5",
+   "t": [
+    "ascaris-f"
+   ],
+   "from": "線蟲圖檔 p.3",
+   "src": "figures/lab/st-nem-03-5.webp",
+   "w": 595,
+   "h": 568
+  },
+  {
+   "id": "dnem-04-7",
+   "t": [
+    "ascaris-uf"
+   ],
+   "from": "線蟲圖檔 p.4",
+   "src": "figures/lab/st-nem-04-7.webp",
+   "w": 640,
+   "h": 523
+  },
+  {
+   "id": "dnem-04-8",
+   "t": [
+    "ascaris-uf"
+   ],
+   "from": "線蟲圖檔 p.4",
+   "src": "figures/lab/st-nem-04-8.webp",
+   "w": 640,
+   "h": 523
+  },
+  {
+   "id": "dnem-04-9",
+   "t": [
+    "ascaris-uf"
+   ],
+   "from": "線蟲圖檔 p.4",
+   "src": "figures/lab/st-nem-04-9.webp",
+   "w": 311,
+   "h": 276
+  },
+  {
+   "id": "dnem-07-2",
+   "t": [
+    "enterobius"
+   ],
+   "from": "線蟲圖檔 p.7",
+   "src": "figures/lab/st-nem-07-2.webp",
+   "w": 640,
+   "h": 556
+  },
+  {
+   "id": "dnem-07-3",
+   "t": [
+    "enterobius"
+   ],
+   "from": "線蟲圖檔 p.7",
+   "src": "figures/lab/st-nem-07-3.webp",
+   "w": 455,
+   "h": 334
+  },
+  {
+   "id": "dnem-07-4",
+   "t": [
+    "enterobius"
+   ],
+   "from": "線蟲圖檔 p.7",
+   "src": "figures/lab/st-nem-07-4.webp",
+   "w": 455,
+   "h": 335
+  },
+  {
+   "id": "dnem-08-7",
+   "t": [
+    "enterobius"
+   ],
+   "from": "線蟲圖檔 p.8",
+   "src": "figures/lab/st-nem-08-7.webp",
+   "w": 640,
+   "h": 472
+  },
+  {
+   "id": "dnem-08-10",
+   "t": [
+    "enterobius"
+   ],
+   "from": "線蟲圖檔 p.8",
+   "src": "figures/lab/st-nem-08-10.webp",
+   "w": 596,
+   "h": 230
+  },
+  {
+   "id": "dnem-13-3",
+   "t": [
+    "trichuris"
+   ],
+   "from": "線蟲圖檔 p.13",
+   "src": "figures/lab/st-nem-13-3.webp",
+   "w": 640,
+   "h": 427
+  },
+  {
+   "id": "dnem-13-4",
+   "t": [
+    "trichuris"
+   ],
+   "from": "線蟲圖檔 p.13",
+   "src": "figures/lab/st-nem-13-4.webp",
+   "w": 400,
+   "h": 357
+  },
+  {
+   "id": "dnem-14-4",
+   "t": [
+    "hookworm"
+   ],
+   "from": "線蟲圖檔 p.14",
+   "src": "figures/lab/st-nem-14-4.webp",
+   "w": 640,
+   "h": 516
+  },
+  {
+   "id": "dnem-14-5",
+   "t": [
+    "hookworm"
+   ],
+   "from": "線蟲圖檔 p.14",
+   "src": "figures/lab/st-nem-14-5.webp",
+   "w": 415,
+   "h": 405
+  },
+  {
+   "id": "dnem-26-1",
+   "t": [
+    "strongyloides"
+   ],
+   "from": "線蟲圖檔 p.26",
+   "src": "figures/lab/st-nem-26-1.webp",
+   "w": 264,
+   "h": 211
+  },
+  {
+   "id": "dnem-26-4",
+   "t": [
+    "strongyloides"
+   ],
+   "from": "線蟲圖檔 p.26",
+   "src": "figures/lab/st-nem-26-4.webp",
+   "w": 161,
+   "h": 207
+  },
+  {
+   "id": "dnem-30-3",
+   "t": [
+    "toxocara"
+   ],
+   "from": "線蟲圖檔 p.30",
+   "src": "figures/lab/st-nem-30-3.webp",
+   "w": 640,
+   "h": 587
+  },
+  {
+   "id": "dnem-30-4",
+   "t": [
+    "toxocara"
+   ],
+   "from": "線蟲圖檔 p.30",
+   "src": "figures/lab/st-nem-30-4.webp",
+   "w": 640,
+   "h": 606
+  },
+  {
+   "id": "dnem-30-5",
+   "t": [
+    "toxocara"
+   ],
+   "from": "線蟲圖檔 p.30",
+   "src": "figures/lab/st-nem-30-5.webp",
+   "w": 204,
+   "h": 218
+  },
+  {
+   "id": "dnem-38-3",
+   "t": [
+    "c-hepatica"
+   ],
+   "from": "線蟲圖檔 p.38",
+   "src": "figures/lab/st-nem-38-3.webp",
+   "w": 604,
+   "h": 640
+  },
+  {
+   "id": "dnem-38-5",
+   "t": [
+    "c-hepatica"
+   ],
+   "from": "線蟲圖檔 p.38",
+   "src": "figures/lab/st-nem-38-5.webp",
+   "w": 547,
+   "h": 267
+  },
+  {
+   "id": "dnem-39-3",
+   "t": [
+    "c-philippinensis"
+   ],
+   "from": "線蟲圖檔 p.39",
+   "src": "figures/lab/st-nem-39-3.webp",
+   "w": 640,
+   "h": 472
+  },
+  {
+   "id": "dtre-04-3",
+   "t": [
+    "f-buski"
+   ],
+   "from": "吸蟲圖檔 p.4",
+   "src": "figures/lab/st-tre-04-3.webp",
+   "w": 493,
+   "h": 444
+  },
+  {
+   "id": "dtre-04-4",
+   "t": [
+    "f-buski"
+   ],
+   "from": "吸蟲圖檔 p.4",
+   "src": "figures/lab/st-tre-04-4.webp",
+   "w": 565,
+   "h": 444
+  },
+  {
+   "id": "dtre-04-5",
+   "t": [
+    "f-buski"
+   ],
+   "from": "吸蟲圖檔 p.4",
+   "src": "figures/lab/st-tre-04-5.webp",
+   "w": 547,
+   "h": 440
+  },
+  {
+   "id": "dtre-04-6",
+   "t": [
+    "f-buski"
+   ],
+   "from": "吸蟲圖檔 p.4",
+   "src": "figures/lab/st-tre-04-6.webp",
+   "w": 280,
+   "h": 249
+  },
+  {
+   "id": "dtre-06-3",
+   "t": [
+    "echinostoma"
+   ],
+   "from": "吸蟲圖檔 p.6",
+   "src": "figures/lab/st-tre-06-3.webp",
+   "w": 484,
+   "h": 565
+  },
+  {
+   "id": "dtre-06-4",
+   "t": [
+    "echinostoma"
+   ],
+   "from": "吸蟲圖檔 p.6",
+   "src": "figures/lab/st-tre-06-4.webp",
+   "w": 544,
+   "h": 565
+  },
+  {
+   "id": "dtre-06-5",
+   "t": [
+    "echinostoma"
+   ],
+   "from": "吸蟲圖檔 p.6",
+   "src": "figures/lab/st-tre-06-5.webp",
+   "w": 489,
+   "h": 567
+  },
+  {
+   "id": "dtre-06-6",
+   "t": [
+    "echinostoma"
+   ],
+   "from": "吸蟲圖檔 p.6",
+   "src": "figures/lab/st-tre-06-6.webp",
+   "w": 216,
+   "h": 229
+  },
+  {
+   "id": "dtre-07-3",
+   "t": [
+    "metagonimus"
+   ],
+   "from": "吸蟲圖檔 p.7",
+   "src": "figures/lab/st-tre-07-3.webp",
+   "w": 640,
+   "h": 461
+  },
+  {
+   "id": "dtre-08-1",
+   "t": [
+    "metagonimus"
+   ],
+   "from": "吸蟲圖檔 p.8",
+   "src": "figures/lab/st-tre-08-1.webp",
+   "w": 603,
+   "h": 609
+  },
+  {
+   "id": "dtre-08-2",
+   "t": [
+    "metagonimus"
+   ],
+   "from": "吸蟲圖檔 p.8",
+   "src": "figures/lab/st-tre-08-2.webp",
+   "w": 409,
+   "h": 503
+  },
+  {
+   "id": "dtre-11-3",
+   "t": [
+    "eurytrema"
+   ],
+   "from": "吸蟲圖檔 p.11",
+   "src": "figures/lab/st-tre-11-3.webp",
+   "w": 380,
+   "h": 640
+  },
+  {
+   "id": "dtre-11-4",
+   "t": [
+    "eurytrema"
+   ],
+   "from": "吸蟲圖檔 p.11",
+   "src": "figures/lab/st-tre-11-4.webp",
+   "w": 338,
+   "h": 334
+  },
+  {
+   "id": "dtre-12-3",
+   "t": [
+    "eurytrema"
+   ],
+   "from": "吸蟲圖檔 p.12",
+   "src": "figures/lab/st-tre-12-3.webp",
+   "w": 380,
+   "h": 640
+  },
+  {
+   "id": "dtre-13-3",
+   "t": [
+    "eurytrema"
+   ],
+   "from": "吸蟲圖檔 p.13",
+   "src": "figures/lab/st-tre-13-3.webp",
+   "w": 610,
+   "h": 450
+  },
+  {
+   "id": "dtre-13-4",
+   "t": [
+    "eurytrema"
+   ],
+   "from": "吸蟲圖檔 p.13",
+   "src": "figures/lab/st-tre-13-4.webp",
+   "w": 378,
+   "h": 302
+  },
+  {
+   "id": "dtre-13-5",
+   "t": [
+    "eurytrema"
+   ],
+   "from": "吸蟲圖檔 p.13",
+   "src": "figures/lab/st-tre-13-5.webp",
+   "w": 378,
+   "h": 441
+  },
+  {
+   "id": "dtre-13-7",
+   "t": [
+    "eurytrema"
+   ],
+   "from": "吸蟲圖檔 p.13",
+   "src": "figures/lab/st-tre-13-7.webp",
+   "w": 303,
+   "h": 302
+  },
+  {
+   "id": "dtre-16-4",
+   "t": [
+    "paragonimus"
+   ],
+   "from": "吸蟲圖檔 p.16",
+   "src": "figures/lab/st-tre-16-4.webp",
+   "w": 489,
+   "h": 609
+  },
+  {
+   "id": "dtre-16-5",
+   "t": [
+    "paragonimus"
+   ],
+   "from": "吸蟲圖檔 p.16",
+   "src": "figures/lab/st-tre-16-5.webp",
+   "w": 518,
+   "h": 609
+  },
+  {
+   "id": "dtre-16-6",
+   "t": [
+    "paragonimus"
+   ],
+   "from": "吸蟲圖檔 p.16",
+   "src": "figures/lab/st-tre-16-6.webp",
+   "w": 499,
+   "h": 609
+  },
+  {
+   "id": "dtre-23-3",
+   "t": [
+    "clonorchis"
+   ],
+   "from": "吸蟲圖檔 p.23",
+   "src": "figures/lab/st-tre-23-3.webp",
+   "w": 455,
+   "h": 401
+  },
+  {
+   "id": "dtre-23-4",
+   "t": [
+    "clonorchis"
+   ],
+   "from": "吸蟲圖檔 p.23",
+   "src": "figures/lab/st-tre-23-4.webp",
+   "w": 450,
+   "h": 401
+  },
+  {
+   "id": "dtre-23-5",
+   "t": [
+    "clonorchis"
+   ],
+   "from": "吸蟲圖檔 p.23",
+   "src": "figures/lab/st-tre-23-5.webp",
+   "w": 458,
+   "h": 413
+  },
+  {
+   "id": "dtre-23-6",
+   "t": [
+    "clonorchis"
+   ],
+   "from": "吸蟲圖檔 p.23",
+   "src": "figures/lab/st-tre-23-6.webp",
+   "w": 451,
+   "h": 401
+  },
+  {
+   "id": "dtre-29-3",
+   "t": [
+    "f-hepatica"
+   ],
+   "from": "吸蟲圖檔 p.29",
+   "src": "figures/lab/st-tre-29-3.webp",
+   "w": 533,
+   "h": 486
+  },
+  {
+   "id": "dtre-29-4",
+   "t": [
+    "f-hepatica"
+   ],
+   "from": "吸蟲圖檔 p.29",
+   "src": "figures/lab/st-tre-29-4.webp",
+   "w": 555,
+   "h": 486
+  },
+  {
+   "id": "dtre-29-5",
+   "t": [
+    "f-hepatica"
+   ],
+   "from": "吸蟲圖檔 p.29",
+   "src": "figures/lab/st-tre-29-5.webp",
+   "w": 548,
+   "h": 486
+  },
+  {
+   "id": "dtre-29-6",
+   "t": [
+    "f-hepatica"
+   ],
+   "from": "吸蟲圖檔 p.29",
+   "src": "figures/lab/st-tre-29-6.webp",
+   "w": 250,
+   "h": 240
+  },
+  {
+   "id": "dtre-39-5",
+   "t": [
+    "s-japonicum"
+   ],
+   "from": "吸蟲圖檔 p.39",
+   "src": "figures/lab/st-tre-39-5.webp",
+   "w": 640,
+   "h": 536
+  },
+  {
+   "id": "dtre-48-4",
+   "t": [
+    "s-mansoni"
+   ],
+   "from": "吸蟲圖檔 p.48",
+   "src": "figures/lab/st-tre-48-4.webp",
+   "w": 578,
+   "h": 609
+  },
+  {
+   "id": "dtre-48-6",
+   "t": [
+    "s-mansoni"
+   ],
+   "from": "吸蟲圖檔 p.48",
+   "src": "figures/lab/st-tre-48-6.webp",
+   "w": 613,
+   "h": 460
+  },
+  {
+   "id": "dces-05-3",
+   "t": [
+    "d-latum"
+   ],
+   "from": "絛蟲圖檔 p.5",
+   "src": "figures/lab/st-ces-05-3.webp",
+   "w": 640,
+   "h": 552
+  },
+  {
+   "id": "dces-05-4",
+   "t": [
+    "d-latum"
+   ],
+   "from": "絛蟲圖檔 p.5",
+   "src": "figures/lab/st-ces-05-4.webp",
+   "w": 640,
+   "h": 552
+  },
+  {
+   "id": "dces-08-3",
+   "t": [
+    "d-mansoni"
+   ],
+   "from": "絛蟲圖檔 p.8",
+   "src": "figures/lab/st-ces-08-3.webp",
+   "w": 640,
+   "h": 542
+  },
+  {
+   "id": "dces-08-4",
+   "t": [
+    "d-mansoni"
+   ],
+   "from": "絛蟲圖檔 p.8",
+   "src": "figures/lab/st-ces-08-4.webp",
+   "w": 640,
+   "h": 499
+  },
+  {
+   "id": "dces-18-1",
+   "t": [
+    "taenia"
+   ],
+   "from": "絛蟲圖檔 p.18",
+   "src": "figures/lab/st-ces-18-1.webp",
+   "w": 543,
+   "h": 557
+  },
+  {
+   "id": "dces-18-2",
+   "t": [
+    "taenia"
+   ],
+   "from": "絛蟲圖檔 p.18",
+   "src": "figures/lab/st-ces-18-2.webp",
+   "w": 531,
+   "h": 555
+  },
+  {
+   "id": "dces-18-3",
+   "t": [
+    "taenia"
+   ],
+   "from": "絛蟲圖檔 p.18",
+   "src": "figures/lab/st-ces-18-3.webp",
+   "w": 541,
+   "h": 557
+  },
+  {
+   "id": "dces-26-3",
+   "t": [
+    "dipylidium"
+   ],
+   "from": "絛蟲圖檔 p.26",
+   "src": "figures/lab/st-ces-26-3.webp",
+   "w": 640,
+   "h": 579
+  },
+  {
+   "id": "dces-26-4",
+   "t": [
+    "dipylidium"
+   ],
+   "from": "絛蟲圖檔 p.26",
+   "src": "figures/lab/st-ces-26-4.webp",
+   "w": 640,
+   "h": 605
+  },
+  {
+   "id": "dces-30-4",
+   "t": [
+    "h-diminuta"
+   ],
+   "from": "絛蟲圖檔 p.30",
+   "src": "figures/lab/st-ces-30-4.webp",
+   "w": 421,
+   "h": 363
+  },
+  {
+   "id": "dces-30-5",
+   "t": [
+    "h-diminuta"
+   ],
+   "from": "絛蟲圖檔 p.30",
+   "src": "figures/lab/st-ces-30-5.webp",
+   "w": 591,
+   "h": 535
+  },
+  {
+   "id": "dces-30-6",
+   "t": [
+    "h-diminuta"
+   ],
+   "from": "絛蟲圖檔 p.30",
+   "src": "figures/lab/st-ces-30-6.webp",
+   "w": 591,
+   "h": 535
+  },
+  {
+   "id": "dces-35-4",
+   "t": [
+    "h-nana"
+   ],
+   "from": "絛蟲圖檔 p.35",
+   "src": "figures/lab/st-ces-35-4.webp",
+   "w": 640,
+   "h": 444
+  },
+  {
+   "id": "dces-35-5",
+   "t": [
+    "h-nana"
+   ],
+   "from": "絛蟲圖檔 p.35",
+   "src": "figures/lab/st-ces-35-5.webp",
+   "w": 640,
+   "h": 461
+  },
+  {
+   "id": "b109-05-0",
+   "t": [
+    "s-japonicum"
+   ],
+   "from": "109 成蟲線上考試 第 5 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-05-0.webp",
+   "w": 640,
+   "h": 499
+  },
+  {
+   "id": "b109-08-0",
+   "t": [
+    "trichuris"
+   ],
+   "from": "109 成蟲線上考試 第 8 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-08-0.webp",
+   "w": 640,
+   "h": 446
+  },
+  {
+   "id": "b109-18-0",
+   "t": [
+    "hookworm"
+   ],
+   "from": "109 成蟲線上考試 第 18 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-18-0.webp",
+   "w": 620,
+   "h": 345
+  },
+  {
+   "id": "b109-30-0",
+   "t": [
+    "toxocara"
+   ],
+   "from": "109 成蟲線上考試 第 30 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-30-0.webp",
+   "w": 640,
+   "h": 579
+  },
+  {
+   "id": "b109-35-0",
+   "t": [
+    "c-hepatica"
+   ],
+   "from": "109 成蟲線上考試 第 35 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-35-0.webp",
+   "w": 640,
+   "h": 489
+  },
+  {
+   "id": "b109-42-0",
+   "t": [
+    "clonorchis"
+   ],
+   "from": "109 成蟲線上考試 第 42 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-42-0.webp",
+   "w": 640,
+   "h": 531
+  },
+  {
+   "id": "b109-43-0",
+   "t": [
+    "paragonimus"
+   ],
+   "from": "109 成蟲線上考試 第 43 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-43-0.webp",
+   "w": 640,
+   "h": 468
+  },
+  {
+   "id": "b109-46-0",
+   "t": [
+    "enterobius"
+   ],
+   "from": "109 成蟲線上考試 第 46 題",
+   "exam": 1,
+   "src": "figures/lab/st-b109-46-0.webp",
+   "w": 640,
+   "h": 506
+  },
+  {
+   "id": "ws-01",
+   "t": [
+    "ascaris-uf"
+   ],
+   "from": "混合蟲卵工作坊 第 1 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-01.webp",
+   "w": 640,
+   "h": 361
+  },
+  {
+   "id": "ws-02",
+   "t": [
+    "hookworm"
+   ],
+   "from": "混合蟲卵工作坊 第 2 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-02.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "ws-03",
+   "t": [
+    "toxocara"
+   ],
+   "from": "混合蟲卵工作坊 第 3 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-03.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "ws-04",
+   "t": [
+    "c-hepatica"
+   ],
+   "from": "混合蟲卵工作坊 第 4 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-04.webp",
+   "w": 640,
+   "h": 417
+  },
+  {
+   "id": "ws-05",
+   "t": [
+    "d-mansoni"
+   ],
+   "from": "混合蟲卵工作坊 第 5 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-05.webp",
+   "w": 640,
+   "h": 412
+  },
+  {
+   "id": "ws-06",
+   "t": [
+    "ascaris-f"
+   ],
+   "from": "混合蟲卵工作坊 第 6 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-06.webp",
+   "w": 640,
+   "h": 431
+  },
+  {
+   "id": "ws-07",
+   "t": [
+    "c-philippinensis"
+   ],
+   "from": "混合蟲卵工作坊 第 7 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-07.webp",
+   "w": 640,
+   "h": 434
+  },
+  {
+   "id": "ws-08",
+   "t": [
+    "dipylidium"
+   ],
+   "from": "混合蟲卵工作坊 第 8 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-08.webp",
+   "w": 640,
+   "h": 464
+  },
+  {
+   "id": "ws-09",
+   "t": [
+    "s-haematobium"
+   ],
+   "from": "混合蟲卵工作坊 第 9 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-09.webp",
+   "w": 640,
+   "h": 427
+  },
+  {
+   "id": "ws-10",
+   "t": [
+    "trichuris"
+   ],
+   "from": "混合蟲卵工作坊 第 10 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-10.webp",
+   "w": 640,
+   "h": 431
+  },
+  {
+   "id": "ws-11",
+   "t": [
+    "strongyloides"
+   ],
+   "from": "混合蟲卵工作坊 第 11 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-11.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "ws-12",
+   "t": [
+    "d-mansoni"
+   ],
+   "from": "混合蟲卵工作坊 第 12 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-12.webp",
+   "w": 640,
+   "h": 477
+  },
+  {
+   "id": "ws-13",
+   "t": [
+    "h-diminuta"
+   ],
+   "from": "混合蟲卵工作坊 第 13 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-13.webp",
+   "w": 640,
+   "h": 438
+  },
+  {
+   "id": "ws-14",
+   "t": [
+    "echinostoma"
+   ],
+   "from": "混合蟲卵工作坊 第 14 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-14.webp",
+   "w": 640,
+   "h": 437
+  },
+  {
+   "id": "ws-15",
+   "t": [
+    "taenia"
+   ],
+   "from": "混合蟲卵工作坊 第 15 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-15.webp",
+   "w": 640,
+   "h": 443
+  },
+  {
+   "id": "ws-16",
+   "t": [
+    "h-nana"
+   ],
+   "from": "混合蟲卵工作坊 第 16 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-16.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "ws-17",
+   "t": [
+    "s-mansoni"
+   ],
+   "from": "混合蟲卵工作坊 第 17 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-17.webp",
+   "w": 640,
+   "h": 443
+  },
+  {
+   "id": "ws-18",
+   "t": [
+    "clonorchis"
+   ],
+   "from": "混合蟲卵工作坊 第 18 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-18.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "ws-19",
+   "t": [
+    "eurytrema"
+   ],
+   "from": "混合蟲卵工作坊 第 19 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-19.webp",
+   "w": 640,
+   "h": 443
+  },
+  {
+   "id": "ws-20",
+   "t": [
+    "f-hepatica"
+   ],
+   "from": "混合蟲卵工作坊 第 20 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-20.webp",
+   "w": 640,
+   "h": 430
+  },
+  {
+   "id": "ws-21",
+   "t": [
+    "metagonimus"
+   ],
+   "from": "混合蟲卵工作坊 第 21 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-21.webp",
+   "w": 640,
+   "h": 449
+  },
+  {
+   "id": "ws-22",
+   "t": [
+    "enterobius"
+   ],
+   "from": "混合蟲卵工作坊 第 22 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-22.webp",
+   "w": 640,
+   "h": 435
+  },
+  {
+   "id": "ws-23",
+   "t": [
+    "f-buski"
+   ],
+   "from": "混合蟲卵工作坊 第 23 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-23.webp",
+   "w": 640,
+   "h": 427
+  },
+  {
+   "id": "ws-24",
+   "t": [
+    "paragonimus"
+   ],
+   "from": "混合蟲卵工作坊 第 24 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-24.webp",
+   "w": 640,
+   "h": 440
+  },
+  {
+   "id": "ws-25",
+   "t": [
+    "s-japonicum"
+   ],
+   "from": "混合蟲卵工作坊 第 25 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-25.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "ws-26",
+   "t": [
+    "ascaris-f",
+    "toxocara"
+   ],
+   "from": "混合蟲卵工作坊 第 26–27 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-26.webp",
+   "w": 779,
+   "h": 523,
+   "labels": [
+    "26",
+    "27"
+   ]
+  },
+  {
+   "id": "ws-28",
+   "t": [
+    "metagonimus",
+    "clonorchis",
+    "eurytrema"
+   ],
+   "from": "混合蟲卵工作坊 第 28–30 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-28.webp",
+   "w": 1000,
+   "h": 750,
+   "labels": [
+    "28",
+    "29",
+    "30"
+   ]
+  },
+  {
+   "id": "ws-31",
+   "t": [
+    "echinostoma",
+    "f-buski",
+    "f-hepatica"
+   ],
+   "from": "混合蟲卵工作坊 第 31–33 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-31.webp",
+   "w": 1000,
+   "h": 750,
+   "labels": [
+    "31",
+    "32",
+    "33"
+   ]
+  },
+  {
+   "id": "ws-34",
+   "t": [
+    "taenia",
+    "h-nana",
+    "dipylidium"
+   ],
+   "from": "混合蟲卵工作坊 第 34–36 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-34.webp",
+   "w": 1000,
+   "h": 749,
+   "labels": [
+    "34",
+    "35",
+    "36"
+   ]
+  },
+  {
+   "id": "ws-37",
+   "t": [
+    "d-mansoni",
+    "d-latum",
+    "paragonimus"
+   ],
+   "from": "混合蟲卵工作坊 第 37–39 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-37.webp",
+   "w": 1000,
+   "h": 750,
+   "labels": [
+    "37",
+    "38",
+    "39"
+   ]
+  },
+  {
+   "id": "ws-40",
+   "t": [
+    "h-diminuta",
+    "s-japonicum",
+    "ascaris-f"
+   ],
+   "from": "混合蟲卵工作坊 第 40–42 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-40.webp",
+   "w": 1000,
+   "h": 750,
+   "labels": [
+    "40",
+    "41",
+    "42"
+   ]
+  },
+  {
+   "id": "ws-43",
+   "t": [
+    "c-philippinensis",
+    "trichuris",
+    "c-hepatica"
+   ],
+   "from": "混合蟲卵工作坊 第 43–45 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-43.webp",
+   "w": 1000,
+   "h": 750,
+   "labels": [
+    "43",
+    "44",
+    "45"
+   ]
+  },
+  {
+   "id": "ws-46",
+   "t": [
+    "enterobius",
+    "strongyloides",
+    "hookworm"
+   ],
+   "from": "混合蟲卵工作坊 第 46–48 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-46.webp",
+   "w": 830,
+   "h": 622,
+   "labels": [
+    "46",
+    "47",
+    "48"
+   ]
+  },
+  {
+   "id": "ws-49",
+   "t": [
+    "s-haematobium",
+    "s-mansoni"
+   ],
+   "from": "混合蟲卵工作坊 第 49–50 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-49.webp",
+   "w": 803,
+   "h": 602,
+   "labels": [
+    "49",
+    "50"
+   ]
+  },
+  {
+   "id": "ws-51",
+   "t": [
+    "f-hepatica"
+   ],
+   "from": "混合蟲卵工作坊 第 51 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-51.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "ws-52",
+   "t": [
+    "ascaris-f"
+   ],
+   "from": "混合蟲卵工作坊 第 52 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-52.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "ws-53",
+   "t": [
+    "h-nana"
+   ],
+   "from": "混合蟲卵工作坊 第 53 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-53.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "ws-54",
+   "t": [
+    "dipylidium"
+   ],
+   "from": "混合蟲卵工作坊 第 54 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-54.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "ws-55",
+   "t": [
+    "clonorchis"
+   ],
+   "from": "混合蟲卵工作坊 第 55 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-55.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "ws-56",
+   "t": [
+    "ascaris-f"
+   ],
+   "from": "混合蟲卵工作坊 第 56 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-56.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "ws-57",
+   "t": [
+    "toxocara"
+   ],
+   "from": "混合蟲卵工作坊 第 57 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-57.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "ws-58",
+   "t": [
+    "d-mansoni"
+   ],
+   "from": "混合蟲卵工作坊 第 58 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-58.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "ws-59",
+   "t": [
+    "f-buski"
+   ],
+   "from": "混合蟲卵工作坊 第 59 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-59.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "ws-60",
+   "t": [
+    "h-diminuta"
+   ],
+   "from": "混合蟲卵工作坊 第 60 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-60.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "ws-61",
+   "t": [
+    "c-philippinensis"
+   ],
+   "from": "混合蟲卵工作坊 第 61 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-61.webp",
+   "w": 640,
+   "h": 479
+  },
+  {
+   "id": "ws-62",
+   "t": [
+    "trichuris"
+   ],
+   "from": "混合蟲卵工作坊 第 62 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-62.webp",
+   "w": 640,
+   "h": 479
+  },
+  {
+   "id": "ws-63",
+   "t": [
+    "enterobius"
+   ],
+   "from": "混合蟲卵工作坊 第 63 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-63.webp",
+   "w": 640,
+   "h": 479
+  },
+  {
+   "id": "ws-64",
+   "t": [
+    "taenia"
+   ],
+   "from": "混合蟲卵工作坊 第 64 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-64.webp",
+   "w": 640,
+   "h": 479
+  },
+  {
+   "id": "ws-65",
+   "t": [
+    "s-mansoni"
+   ],
+   "from": "混合蟲卵工作坊 第 65 題",
+   "exam": 1,
+   "src": "figures/lab/ov-ws-65.webp",
+   "w": 640,
+   "h": 479
+  },
+  {
+   "id": "o109-01",
+   "t": [
+    "taenia"
+   ],
+   "from": "109 混合蟲卵線上考試 第 1 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-01.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-02",
+   "t": [
+    "paragonimus"
+   ],
+   "from": "109 混合蟲卵線上考試 第 2 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-02.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-03",
+   "t": [
+    "h-diminuta"
+   ],
+   "from": "109 混合蟲卵線上考試 第 3 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-03.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-04",
+   "t": [
+    "d-mansoni"
+   ],
+   "from": "109 混合蟲卵線上考試 第 4 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-04.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-05",
+   "t": [
+    "f-hepatica"
+   ],
+   "from": "109 混合蟲卵線上考試 第 5 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-05.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-06",
+   "t": [
+    "h-nana"
+   ],
+   "from": "109 混合蟲卵線上考試 第 6 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-06.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-07",
+   "t": [
+    "enterobius"
+   ],
+   "from": "109 混合蟲卵線上考試 第 7 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-07.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-08",
+   "t": [
+    "h-diminuta"
+   ],
+   "from": "109 混合蟲卵線上考試 第 8 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-08.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-09",
+   "t": [
+    "hookworm"
+   ],
+   "from": "109 混合蟲卵線上考試 第 9 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-09.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-10",
+   "t": [
+    "d-latum"
+   ],
+   "from": "109 混合蟲卵線上考試 第 10 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-10.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-11",
+   "t": [
+    "echinostoma"
+   ],
+   "from": "109 混合蟲卵線上考試 第 11 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-11.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-12",
+   "t": [
+    "strongyloides"
+   ],
+   "from": "109 混合蟲卵線上考試 第 12 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-12.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-13",
+   "t": [
+    "s-japonicum"
+   ],
+   "from": "109 混合蟲卵線上考試 第 13 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-13.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-14",
+   "t": [
+    "echinostoma"
+   ],
+   "from": "109 混合蟲卵線上考試 第 14 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-14.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-15",
+   "t": [
+    "c-hepatica"
+   ],
+   "from": "109 混合蟲卵線上考試 第 15 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-15.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-16",
+   "t": [
+    "s-haematobium"
+   ],
+   "from": "109 混合蟲卵線上考試 第 16 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-16.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-17",
+   "t": [
+    "strongyloides"
+   ],
+   "from": "109 混合蟲卵線上考試 第 17 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-17.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-18",
+   "t": [
+    "paragonimus"
+   ],
+   "from": "109 混合蟲卵線上考試 第 18 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-18.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-19",
+   "t": [
+    "s-japonicum"
+   ],
+   "from": "109 混合蟲卵線上考試 第 19 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-19.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-20",
+   "t": [
+    "f-hepatica"
+   ],
+   "from": "109 混合蟲卵線上考試 第 20 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-20.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-21",
+   "t": [
+    "d-mansoni"
+   ],
+   "from": "109 混合蟲卵線上考試 第 21 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-21.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-22",
+   "t": [
+    "clonorchis"
+   ],
+   "from": "109 混合蟲卵線上考試 第 22 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-22.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-23",
+   "t": [
+    "toxocara"
+   ],
+   "from": "109 混合蟲卵線上考試 第 23 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-23.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-24",
+   "t": [
+    "ascaris-f"
+   ],
+   "from": "109 混合蟲卵線上考試 第 24 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-24.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-25",
+   "t": [
+    "trichuris"
+   ],
+   "from": "109 混合蟲卵線上考試 第 25 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-25.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-26",
+   "t": [
+    "hookworm"
+   ],
+   "from": "109 混合蟲卵線上考試 第 26 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-26.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-27",
+   "t": [
+    "eurytrema"
+   ],
+   "from": "109 混合蟲卵線上考試 第 27 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-27.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-28",
+   "t": [
+    "ascaris-uf"
+   ],
+   "from": "109 混合蟲卵線上考試 第 28 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-28.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-29",
+   "t": [
+    "hookworm"
+   ],
+   "from": "109 混合蟲卵線上考試 第 29 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-29.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-30",
+   "t": [
+    "metagonimus"
+   ],
+   "from": "109 混合蟲卵線上考試 第 30 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-30.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-31",
+   "t": [
+    "toxocara"
+   ],
+   "from": "109 混合蟲卵線上考試 第 31 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-31.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-32",
+   "t": [
+    "dipylidium"
+   ],
+   "from": "109 混合蟲卵線上考試 第 32 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-32.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-33",
+   "t": [
+    "d-mansoni"
+   ],
+   "from": "109 混合蟲卵線上考試 第 33 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-33.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-34",
+   "t": [
+    "strongyloides"
+   ],
+   "from": "109 混合蟲卵線上考試 第 34 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-34.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-35",
+   "t": [
+    "c-hepatica"
+   ],
+   "from": "109 混合蟲卵線上考試 第 35 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-35.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-36",
+   "t": [
+    "dipylidium"
+   ],
+   "from": "109 混合蟲卵線上考試 第 36 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-36.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-37",
+   "t": [
+    "clonorchis"
+   ],
+   "from": "109 混合蟲卵線上考試 第 37 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-37.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-38",
+   "t": [
+    "s-japonicum"
+   ],
+   "from": "109 混合蟲卵線上考試 第 38 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-38.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-39",
+   "t": [
+    "c-philippinensis"
+   ],
+   "from": "109 混合蟲卵線上考試 第 39 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-39.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-40",
+   "t": [
+    "s-mansoni"
+   ],
+   "from": "109 混合蟲卵線上考試 第 40 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-40.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-41",
+   "t": [
+    "f-buski"
+   ],
+   "from": "109 混合蟲卵線上考試 第 41 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-41.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-42",
+   "t": [
+    "trichuris"
+   ],
+   "from": "109 混合蟲卵線上考試 第 42 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-42.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-43",
+   "t": [
+    "eurytrema"
+   ],
+   "from": "109 混合蟲卵線上考試 第 43 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-43.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-44",
+   "t": [
+    "f-buski"
+   ],
+   "from": "109 混合蟲卵線上考試 第 44 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-44.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-45",
+   "t": [
+    "trichuris"
+   ],
+   "from": "109 混合蟲卵線上考試 第 45 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-45.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-46",
+   "t": [
+    "ascaris-uf"
+   ],
+   "from": "109 混合蟲卵線上考試 第 46 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-46.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-47",
+   "t": [
+    "enterobius"
+   ],
+   "from": "109 混合蟲卵線上考試 第 47 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-47.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-48",
+   "t": [
+    "c-hepatica"
+   ],
+   "from": "109 混合蟲卵線上考試 第 48 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-48.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-49",
+   "t": [
+    "h-diminuta"
+   ],
+   "from": "109 混合蟲卵線上考試 第 49 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-49.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "o109-50",
+   "t": [
+    "ascaris-f"
+   ],
+   "from": "109 混合蟲卵線上考試 第 50 題",
+   "exam": 1,
+   "src": "figures/lab/ov-109-50.webp",
+   "w": 640,
+   "h": 480
+  },
+  {
+   "id": "atlas-ascaris-f",
+   "t": [
+    "ascaris-f"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-ascaris-f.webp",
+   "w": 420,
+   "h": 330
+  },
+  {
+   "id": "atlas-ascaris-uf",
+   "t": [
+    "ascaris-uf"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-ascaris-uf.webp",
+   "w": 260,
+   "h": 330
+  },
+  {
+   "id": "atlas-toxocara",
+   "t": [
+    "toxocara"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-toxocara.webp",
+   "w": 462,
+   "h": 250
+  },
+  {
+   "id": "atlas-enterobius",
+   "t": [
+    "enterobius"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-enterobius.webp",
+   "w": 376,
+   "h": 250
+  },
+  {
+   "id": "atlas-strongyloides",
+   "t": [
+    "strongyloides"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-strongyloides.webp",
+   "w": 254,
+   "h": 144
+  },
+  {
+   "id": "atlas-hookworm",
+   "t": [
+    "hookworm"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-hookworm.webp",
+   "w": 592,
+   "h": 144
+  },
+  {
+   "id": "atlas-trichuris",
+   "t": [
+    "trichuris"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-trichuris.webp",
+   "w": 196,
+   "h": 176
+  },
+  {
+   "id": "atlas-c-hepatica",
+   "t": [
+    "c-hepatica"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-c-hepatica.webp",
+   "w": 280,
+   "h": 176
+  },
+  {
+   "id": "atlas-c-philippinensis",
+   "t": [
+    "c-philippinensis"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-c-philippinensis.webp",
+   "w": 186,
+   "h": 154
+  },
+  {
+   "id": "atlas-clonorchis",
+   "t": [
+    "clonorchis"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-clonorchis.webp",
+   "w": 480,
+   "h": 154
+  },
+  {
+   "id": "atlas-metagonimus",
+   "t": [
+    "metagonimus"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-metagonimus.webp",
+   "w": 94,
+   "h": 154
+  },
+  {
+   "id": "atlas-eurytrema",
+   "t": [
+    "eurytrema"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-eurytrema.webp",
+   "w": 232,
+   "h": 120
+  },
+  {
+   "id": "atlas-echinostoma",
+   "t": [
+    "echinostoma"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-echinostoma.webp",
+   "w": 390,
+   "h": 298
+  },
+  {
+   "id": "atlas-f-buski",
+   "t": [
+    "f-buski"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-f-buski.webp",
+   "w": 570,
+   "h": 544
+  },
+  {
+   "id": "atlas-f-hepatica",
+   "t": [
+    "f-hepatica"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-f-hepatica.webp",
+   "w": 472,
+   "h": 374
+  },
+  {
+   "id": "atlas-paragonimus",
+   "t": [
+    "paragonimus"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-paragonimus.webp",
+   "w": 494,
+   "h": 180
+  },
+  {
+   "id": "atlas-s-japonicum",
+   "t": [
+    "s-japonicum"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-s-japonicum.webp",
+   "w": 472,
+   "h": 194
+  },
+  {
+   "id": "atlas-s-mansoni",
+   "t": [
+    "s-mansoni"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-s-mansoni.webp",
+   "w": 344,
+   "h": 390
+  },
+  {
+   "id": "atlas-s-haematobium",
+   "t": [
+    "s-haematobium"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-s-haematobium.webp",
+   "w": 386,
+   "h": 390
+  },
+  {
+   "id": "atlas-d-latum",
+   "t": [
+    "d-latum"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-d-latum.webp",
+   "w": 346,
+   "h": 200
+  },
+  {
+   "id": "atlas-d-mansoni",
+   "t": [
+    "d-mansoni"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-d-mansoni.webp",
+   "w": 416,
+   "h": 200
+  },
+  {
+   "id": "atlas-h-nana",
+   "t": [
+    "h-nana"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-h-nana.webp",
+   "w": 420,
+   "h": 166
+  },
+  {
+   "id": "atlas-taenia",
+   "t": [
+    "taenia"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-taenia.webp",
+   "w": 344,
+   "h": 254
+  },
+  {
+   "id": "atlas-h-diminuta",
+   "t": [
+    "h-diminuta"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-h-diminuta.webp",
+   "w": 640,
+   "h": 241
+  },
+  {
+   "id": "atlas-dipylidium",
+   "t": [
+    "dipylidium"
+   ],
+   "from": "Mixed ova 圖譜",
+   "src": "figures/lab/ov-atlas-dipylidium.webp",
+   "w": 560,
+   "h": 270
+  }
+ ]
+}

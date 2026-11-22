@@ -1560,3 +1560,49 @@ body.cbt-on .bd-fab, body.cbt-on .bd-pop, body.cbt-on .mx-nudge, body.cbt-on .mx
   .cbt-grid { grid-template-columns: repeat(8, 1fr); }
   .cbt-keys { display: none; }
 }
+
+/* 實驗考圖片練習（跑台、混合蟲卵） */
+.lab-setup { margin-top: 16px; padding: 18px 20px; display: grid; gap: 14px; }
+.lab-filter { display: grid; gap: 8px; }
+.lab-key { margin-top: 16px; padding: 16px 20px; }
+.lab-key summary { cursor: pointer; }
+.lab-key-body { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 6px 24px; margin-top: 12px; }
+.lab-key h3 { font-size: .95rem; margin: 8px 0 6px; }
+.lab-key ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.lab-key li { display: flex; gap: 8px; align-items: baseline; font-size: .9rem; }
+.lab-key li .zh { flex: 1; min-width: 0; }
+.lab-key li .num { white-space: nowrap; font-size: .78rem; }
+.lab-run .lab-stage { margin-top: 18px; padding: clamp(16px, 3vw, 28px); }
+.lab-photo { display: block; width: 100%; padding: 0; border: 1px solid var(--rule); border-radius: 12px; background: #111; overflow: hidden; cursor: zoom-in; }
+.lab-photo img { display: block; width: 100%; height: auto; max-height: 52vh; object-fit: contain; margin: 0 auto; }
+.lab-photo.sm img { max-height: 180px; }
+.lab-form { display: grid; gap: 10px; margin-top: 16px; }
+.lab-row { display: flex; gap: 10px; align-items: center; }
+.lab-row .input { flex: 1; font-style: italic; }
+.lab-row .input::placeholder { font-style: normal; }
+.tag { display: inline-block; min-width: 2.2em; padding: 1px 6px; border-radius: 6px; border: 1px solid var(--rule-strong); font-size: .8rem; text-align: center; font-variant-numeric: tabular-nums; }
+.lab-verdict { padding: 12px 14px; border-radius: 12px; border: 1px solid var(--rule); }
+.lab-verdict.ok { border-color: color-mix(in srgb, var(--good) 55%, transparent); background: color-mix(in srgb, var(--good) 10%, transparent); }
+.lab-verdict.ng { border-color: color-mix(in srgb, var(--bad) 55%, transparent); background: color-mix(in srgb, var(--bad) 8%, transparent); }
+.lab-verdict-head { display: flex; gap: 8px; align-items: center; }
+.lab-verdict-head svg { width: 18px; height: 18px; }
+.lab-verdict.ok .lab-verdict-head { color: var(--good); }
+.lab-verdict.ng .lab-verdict-head { color: var(--bad); }
+.lab-verdict ul { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 6px; }
+.lab-verdict li { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
+.lab-verdict .sci, .lab-miss .sci { font-weight: 650; font-size: 1.05rem; }
+.lab-run .zh, .lab-miss .zh, .lab-key .zh { color: var(--ink-2); }
+.lab-run .you, .lab-miss .you { color: var(--bad); font-size: .88rem; }
+.lab-from { margin: 8px 0 0; font-size: .82rem; }
+.lab-miss-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; margin-top: 20px; }
+.lab-miss { padding: 12px; display: grid; gap: 10px; align-content: start; }
+/* 跑台生活史題 */
+.lab-qt-note { margin: 6px 0 0; font-size: .88rem; }
+.lab-verdict.info { background: var(--paper-2, transparent); }
+.lab-cyc { margin-top: 12px; padding: 12px 14px; border-radius: 12px; border: 1px dashed var(--rule); display: grid; gap: 10px; }
+.lab-cyc.ok { border-style: solid; border-color: color-mix(in srgb, var(--good) 55%, transparent); }
+.lab-cyc.ng { border-style: solid; border-color: color-mix(in srgb, var(--bad) 55%, transparent); }
+.lab-cyc-q { margin: 0; font-weight: 600; display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.lab-cyc-a { padding: 10px 12px; border-radius: 10px; background: color-mix(in srgb, var(--accent, #888) 8%, transparent); line-height: 1.6; }
+.lab-cyc .toolbar, .lab-cyc .self-grade { margin: 0; }
+.lab-cyc-miss { margin: 8px 0 0; font-size: .9rem; line-height: 1.55; }

@@ -124,7 +124,8 @@
       .replace(/(^|[^\w])_(?![\s_])([^_\n]+?)(?<!\s)_(?!\w)/g, "$1<em>$2</em>");
   // 題幹／詳解裡的數學式：一整行只有 $$…$$ = 置中公式；行內 $…$。先輸出含 TeX 的佔位元素，
   // 由 mathObserver 呼叫 renderMath 用 KaTeX 排版（沒載到就顯示原文）。$ 後面、結尾 $ 前面不能是空白（避免一般的錢字號）。
-  const MATH_RE = /\$\$(?!\s)([^$\n]+?)(?<!\s)\$\$|\$(?![\s$])([^$\n]+?)(?<!\s)\$/g;
+  const MATH_RE =
+    /\$\$(?!\s)([^$\n]+?)(?<!\s)\$\$|\$(?![\s$])([^$\n]+?)(?<!\s)\$/g;
   const mathSpan = (tex, display) =>
     `<span class="math${display ? " math-d" : ""}" data-tex="${escHtml(tex)}">${escHtml(tex)}</span>`;
   const withMath = (t, fmt) => {
@@ -381,9 +382,7 @@
               ) > new Date(),
           ) || null;
     const lists = await Promise.all(
-      (meta.questionFiles || []).map((f) =>
-        get(f).catch(() => []),
-      ),
+      (meta.questionFiles || []).map((f) => get(f).catch(() => [])),
     );
     const questions = lists.flat();
     // 題組：「承上題…」接在同檔前一題後面；「（題組 a–b）」開頭相同的連續題目同一組。
@@ -449,12 +448,14 @@
     const idx = await loadIndex();
     return (
       // 公開科目＋登入帳號有權限的私人科目；subject.json 有 "hidden": true 的不列（只能從上層科目的隱藏入口進去）
-      await Promise.all(
-        [...idx, ...(await Private.entries())].map((x) =>
-          loadSubject(x.id).catch(() => null),
-        ),
-      )
-    ).filter((s) => s && !s.meta.hidden);
+      (
+        await Promise.all(
+          [...idx, ...(await Private.entries())].map((x) =>
+            loadSubject(x.id).catch(() => null),
+          ),
+        )
+      ).filter((s) => s && !s.meta.hidden)
+    );
   }
   async function loadContent(subj, cid) {
     if (subj.content[cid]) return subj.content[cid];
@@ -1655,11 +1656,17 @@
     `<span class="hint"><i></i>虛線底線的名詞可以${IS_TOUCH ? "點一下" : "滑過"}看說明</span>`;
   const isSlide = (f) => f?.type === "slide";
   const figLabel = (f) =>
-    isSlide(f) ? `Slides · p.${f.page}` : `Fig. ${pad2(f.n)}`;
+    isSlide(f)
+      ? f.nosrc
+        ? "Photo"
+        : `Slides · p.${f.page}`
+      : `Fig. ${pad2(f.n)}`;
   const slideImg = (subj, f, cls = "") =>
     `<img class="${cls}" src="${esc(subj.path)}/${esc(f.src)}" width="${f.w || 1400}" height="${f.h || 788}" loading="lazy" decoding="async" alt="${esc(`上課投影片：${f.title}（${f.deck} 第 ${f.page} 頁）`)}">`;
   const slideCaption = (f) =>
-    `${f.caption ? `${f.caption} ` : ""}<span class="src">出自上課 slides <span class="mono">${esc(f.deck)}</span> page ${esc(f.page)}</span>`;
+    f.nosrc
+      ? esc(f.caption || "")
+      : `${f.caption ? `${f.caption} ` : ""}<span class="src">出自上課 slides <span class="mono">${esc(f.deck)}</span> page ${esc(f.page)}</span>`;
   function figureHTML(subj, id) {
     const f = subj.figById?.[id];
     if (!f) return "";
@@ -2168,8 +2175,16 @@
     const extraTerms = [];
     for (const s of allSubs) {
       const id = s.meta.semester;
-      if (id && !(T.terms || []).some((t) => t.id === id) && !extraTerms.some((t) => t.id === id))
-        extraTerms.push({ id, title: s.meta.semesterTitle || id, note: s.meta.semesterNote || "" });
+      if (
+        id &&
+        !(T.terms || []).some((t) => t.id === id) &&
+        !extraTerms.some((t) => t.id === id)
+      )
+        extraTerms.push({
+          id,
+          title: s.meta.semesterTitle || id,
+          note: s.meta.semesterNote || "",
+        });
     }
     const usedTerms = [...(T.terms || []), ...extraTerms].filter(
       (t) => t.id === T.current || allSubs.some((s) => termOf(s) === t.id),
@@ -2181,7 +2196,9 @@
     if (q.term && termId === q.term) store.set("sh:homeTerm", termId);
     const curTerm = usedTerms.find((t) => t.id === termId);
     // subject.json 的 "homeOrder"（數字小的排前面）可調整同一分頁內的卡片順序；沒寫的維持原順序
-    const subs = (termId ? allSubs.filter((s) => termOf(s) === termId) : allSubs)
+    const subs = (
+      termId ? allSubs.filter((s) => termOf(s) === termId) : allSubs
+    )
       .slice()
       .sort((a, b) => (a.meta.homeOrder ?? 1e9) - (b.meta.homeOrder ?? 1e9));
     setChrome(null, "home");
@@ -2311,7 +2328,15 @@
         ${
           usedTerms.length
             ? `<div class="term-pick"${usedTerms.length > 1 ? "" : " data-single"}><button type="button" class="term-btn" id="termBtn" aria-expanded="false" aria-controls="termList" aria-label="切換學期，目前 ${esc(curTerm?.title || "全部")}">${ic("layers")}<b>${esc(curTerm?.title || "全部")}</b>${termId === T.current ? '<span class="dot" title="目前學期"></span>' : ""}${usedTerms.length > 1 ? `<svg class="term-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>` : ""}</button>
-              <nav class="seg term-seg" id="termList" aria-label="學期" hidden>${usedTerms.filter((t) => t.id !== termId).map((t) => `<a href="#/?${qs({ term: t.id })}">${esc(t.title)}${t.id === T.current ? '<span class="dot" title="目前學期"></span>' : ""}</a>`).join("")}</nav></div>${curTerm?.note ? `<p class="muted small" style="margin:-4px 0 14px">${esc(curTerm.note)}</p>` : ""}`
+              <nav class="seg term-seg" id="termList" aria-label="學期" hidden>${usedTerms
+                .filter((t) => t.id !== termId)
+                .map(
+                  (t) =>
+                    `<a href="#/?${qs({ term: t.id })}">${esc(t.title)}${t.id === T.current ? '<span class="dot" title="目前學期"></span>' : ""}</a>`,
+                )
+                .join(
+                  "",
+                )}</nav></div>${curTerm?.note ? `<p class="muted small" style="margin:-4px 0 14px">${esc(curTerm.note)}</p>` : ""}`
             : ""
         }
         <div style="display:grid;gap:14px">${cards || `<div class="card empty"><p class="muted">這個學期還沒有科目。</p></div>`}</div>
@@ -2568,6 +2593,14 @@
             <span class="eyebrow">${ic("clock")}國考模式</span><h3>${esc(m.cbt.title || "模擬國考")}・每卷 ${m.cbt.minutes} 分鐘</h3><p>仿國考電腦化測驗畫面：題號作答表、標記待檢查、倒數計時、交卷後依學科算分。可考歷屆真卷或隨機模擬卷。</p><span class="go">${store.get(cbtKey(sid), null) ? "繼續作答" : "開始"} ${ic("arrowR")}</span></a>`
               : ""
           }
+          ${
+            m.labId && (!P || P.card.lab)
+              ? `<a class="card next-card feature" href="#/s/${sid}/sheet/lab">
+            <span class="eyebrow">${ic("target")}跑台圖片練習</span><h3>看標本寫學名</h3><p>蟲卵以外的實體標本：蟲體、幼蟲、體節、原蟲、節肢動物、中間宿主，加上 109 成蟲線上考試的照片。屬名可縮寫、部分寫 spp.。</p><span class="go">開始 ${ic("arrowR")}</span></a>
+          <a class="card next-card feature" href="#/s/${sid}/sheet/ova">
+            <span class="eyebrow">${ic("search")}混合蟲卵圖片練習</span><h3>找蟲卵寫學名</h3><p>獨立一場考試，只考蟲卵，學名表 25 種：Mixed ova 圖譜、上課圖檔與考古的蟲卵照。藍 7、綠 4 沒有玻片，不考。</p><span class="go">開始 ${ic("arrowR")}</span></a>`
+              : ""
+          }
           <a class="card next-card" href="#/s/${sid}/analysis">
             <span class="eyebrow">${ic("chart")}考題分析</span><h3>哪些考點最常考</h3><p>依考古統計各章題數、出題方式與高頻考點，一眼看出優先順序。</p><span class="go">看分析 ${ic("arrowR")}</span></a>
         </div>
@@ -2682,7 +2715,12 @@
         </header>
       </div>
       <div class="ch-tabs"><div class="wrap"><nav class="seg" aria-label="章節分頁">
-        ${subjTabs(subj).map(([k, t, icn]) => `<a href="#/s/${sid}/c/${cid}/${k}"${k === tab ? ' aria-current="page"' : ""}>${ic(icn)}${t}</a>`).join("")}
+        ${subjTabs(subj)
+          .map(
+            ([k, t, icn]) =>
+              `<a href="#/s/${sid}/c/${cid}/${k}"${k === tab ? ' aria-current="page"' : ""}>${ic(icn)}${t}</a>`,
+          )
+          .join("")}
       </nav><nav class="seg ch-step" aria-label="切換章節">
         ${prev ? `<a href="#/s/${sid}/c/${prev.id}/${tab}" title="上一章：Ch.${pad2(prev.idx)} ${esc(prev.title)}" aria-label="上一章：${esc(prev.title)}">${ic("chevL")}<span>上一章</span></a>` : `<span class="off" aria-hidden="true">${ic("chevL")}<span>上一章</span></span>`}
         ${next ? `<a href="#/s/${sid}/c/${next.id}/${tab}" title="下一章：Ch.${pad2(next.idx)} ${esc(next.title)}" aria-label="下一章：${esc(next.title)}"><span>下一章</span>${ic("chevR")}</a>` : `<span class="off" aria-hidden="true"><span>下一章</span>${ic("chevR")}</span>`}
@@ -5251,18 +5289,23 @@
       let verdict = "";
       if (a) {
         const tone = a.self || a.na ? "neutral" : a.ok ? "good" : "bad";
-        const head = a.na && !a.self
-          ? `${ic("alert")}這題沒有正確選項（題目有誤）：看完詳解再自我評分`
-          : a.self
-            ? `${ic("check")}已自我評分：${a.ok ? "我會了" : "還不熟"}${a.na ? "（這題沒有正確選項）" : ""}`
-            : a.ok
-              ? `${ic("check")}答對了${S.streak >= 3 && S.i === S.last ? `・連對 ${S.streak} 題` : ""}`
-              : `${ic("x")}答錯了，正確答案是 ${ansText(qq)}`;
+        const head =
+          a.na && !a.self
+            ? `${ic("alert")}這題沒有正確選項（題目有誤）：看完詳解再自我評分`
+            : a.self
+              ? `${ic("check")}已自我評分：${a.ok ? "我會了" : "還不熟"}${a.na ? "（這題沒有正確選項）" : ""}`
+              : a.ok
+                ? `${ic("check")}答對了${S.streak >= 3 && S.i === S.last ? `・連對 ${S.streak} 題` : ""}`
+                : `${ic("x")}答錯了，正確答案是 ${ansText(qq)}`;
         verdict = `<div class="verdict ${tone}" role="status"><div class="verdict-head">${head}${a.na ? "" : wrongRateTag(sid, qq)}</div><div class="verdict-body">${mine}
           ${qq.answerText ? `<div class="answer-text${qq.mono ? " mono" : ""}"><div class="explain-title">參考答案</div>${rich(qq.answerText)}</div>` : ""}
           ${qq.explain ? `<div class="explain-title">詳解</div><div class="explain">${rich(qq.explain)}</div>` : qq.answerText ? "" : '<div class="muted">這題沒有附詳解。</div>'}${exImgs(subj, qq)}
-          ${qq.note ? `<div class="note">${ic("alert")}<div>${esc(qq.note)}</div></div>` : ""}${figLinks(subj, qq)}${a.na && !a.self ? `
-          <div class="self-grade"><button class="btn" type="button" data-self="1">${ic("check")}我會了</button><button class="btn" type="button" data-self="0">${ic("rotate")}還不熟</button></div>` : ""}</div></div>`;
+          ${qq.note ? `<div class="note">${ic("alert")}<div>${esc(qq.note)}</div></div>` : ""}${figLinks(subj, qq)}${
+            a.na && !a.self
+              ? `
+          <div class="self-grade"><button class="btn" type="button" data-self="1">${ic("check")}我會了</button><button class="btn" type="button" data-self="0">${ic("rotate")}還不熟</button></div>`
+              : ""
+          }</div></div>`;
       } else if (isShort && S.revealed === S.i) {
         verdict = `<div class="verdict neutral"><div class="verdict-head">${ic("eye")}參考答案</div><div class="verdict-body">${mine}
           ${qq.answerText ? `<div class="answer-text${qq.mono ? " mono" : ""}">${rich(qq.answerText)}</div>` : ""}${qq.explain ? `<div class="explain">${rich(qq.explain)}</div>` : ""}${exImgs(subj, qq)}
@@ -5644,7 +5687,8 @@
   const cbtPapers = (subj) => {
     const by = new Map();
     for (const q of subj.questions)
-      if (q.paper) (by.get(q.paper) || by.set(q.paper, []).get(q.paper)).push(q);
+      if (q.paper)
+        (by.get(q.paper) || by.set(q.paper, []).get(q.paper)).push(q);
     return [...by.entries()]
       .map(([title, qs]) => ({ title, qs: qs.sort((a, b) => a.num - b.num) }))
       .sort((a, b) => b.title.localeCompare(a.title, "zh-Hant"));
@@ -5661,9 +5705,14 @@
     const ids = [];
     for (const [ch, n] of paper.blocks) {
       const pool = subj.questions.filter(
-        (q) => q.chapter === ch && q.type === "mcq" && !q.noAnswer && !q.hasFigure,
+        (q) =>
+          q.chapter === ch && q.type === "mcq" && !q.noAnswer && !q.hasFigure,
       );
-      ids.push(...shuffle(pool).slice(0, n).map((q) => q.id));
+      ids.push(
+        ...shuffle(pool)
+          .slice(0, n)
+          .map((q) => q.id),
+      );
     }
     return { title: `模擬卷・${paper.title}`, kind: "mock", ids };
   }
@@ -5694,9 +5743,13 @@
     const bySession = new Map();
     for (const p of papers) {
       const [sess, name] = p.title.split("・");
-      (bySession.get(sess) || bySession.set(sess, []).get(sess)).push({ ...p, name });
+      (bySession.get(sess) || bySession.set(sess, []).get(sess)).push({
+        ...p,
+        name,
+      });
     }
-    render(`
+    render(
+      `
       <div class="wrap">
         <nav class="crumbs" aria-label="路徑"><a href="#/s/${sid}">${esc(subj.meta.title)}</a><span class="sep">/</span><span>國考模式</span></nav>
         <header class="page-head"><div>
@@ -5727,18 +5780,20 @@
                 .join("")}</tbody></table></div></div></section>`
             : ""
         }
-      </div>`, () => {
-      $("#cbtDrop")?.addEventListener("click", (e) => {
-        const b = e.currentTarget;
-        if (b.dataset.armed !== "1") {
-          b.dataset.armed = "1";
-          b.textContent = "再按一次確認放棄";
-          return;
-        }
-        store.set(cbtKey(sid), null);
-        pageCBT(sid, {});
-      });
-    });
+      </div>`,
+      () => {
+        $("#cbtDrop")?.addEventListener("click", (e) => {
+          const b = e.currentTarget;
+          if (b.dataset.armed !== "1") {
+            b.dataset.armed = "1";
+            b.textContent = "再按一次確認放棄";
+            return;
+          }
+          store.set(cbtKey(sid), null);
+          pageCBT(sid, {});
+        });
+      },
+    );
   }
   function runCBT(subj) {
     const sid = subj.meta.id;
@@ -5812,7 +5867,12 @@
       const fl = pool.map((_, k) => k).filter((k) => S.flag[k]);
       const list = (arr) =>
         arr.length
-          ? arr.map((k) => `<button type="button" class="cbt-chip" data-go="${k}">${k + 1}</button>`).join("")
+          ? arr
+              .map(
+                (k) =>
+                  `<button type="button" class="cbt-chip" data-go="${k}">${k + 1}</button>`,
+              )
+              .join("")
           : `<span class="muted">無</span>`;
       return `<div class="cbt-modal" role="dialog" aria-modal="true" aria-labelledby="cbtCfH"><div class="card cbt-modal-card">
         <h2 class="display" id="cbtCfH">確定要交卷嗎？</h2>
@@ -5860,7 +5920,14 @@
       });
       const score = Math.round((right / pool.length) * 1000) / 10;
       const hist = store.get(cbtHistKey(sid), []);
-      hist.push({ t: Date.now(), title: S.title, score, right, n: pool.length, ms });
+      hist.push({
+        t: Date.now(),
+        title: S.title,
+        score,
+        right,
+        n: pool.length,
+        ms,
+      });
       store.set(cbtHistKey(sid), hist.slice(-50));
       store.set(cbtKey(sid), null);
       history.replaceState(null, "", `#/s/${sid}/cbt`);
@@ -5902,8 +5969,10 @@
         return paint();
       }
       switch (t.id) {
-        case "cbtPrev": return go(S.i - 1);
-        case "cbtNext": return go(S.i + 1);
+        case "cbtPrev":
+          return go(S.i - 1);
+        case "cbtNext":
+          return go(S.i + 1);
         case "cbtFlag":
           S.flag[S.i] = !S.flag[S.i];
           save();
@@ -5930,7 +5999,8 @@
       if (e.target.matches?.("input, textarea")) return;
       const k = e.key.toUpperCase();
       if ("ABCD".includes(k) && k.length === 1) return pick(k);
-      if ("1234".includes(k) && k.length === 1) return pick("ABCD"["1234".indexOf(k)]);
+      if ("1234".includes(k) && k.length === 1)
+        return pick("ABCD"["1234".indexOf(k)]);
       if (e.key === "ArrowRight") return go(S.i + 1);
       if (e.key === "ArrowLeft") return go(S.i - 1);
       if (k === "F") {
@@ -6412,17 +6482,23 @@
     const pool = buildPool(subj, { ...q, n: 0, mode: "order" });
     const one = q.ch && q.ch.split(",").length === 1 ? subj.chMap[q.ch] : null;
     const star = q.filter === "star";
-    const img = star ? 0 : subj.questions.filter(
-      (x) => x.imageOnly && (!q.ch || q.ch.split(",").includes(x.chapter)),
-    ).length;
+    const img = star
+      ? 0
+      : subj.questions.filter(
+          (x) => x.imageOnly && (!q.ch || q.ch.split(",").includes(x.chapter)),
+        ).length;
     render(
       `<div class="wrap">
       <nav class="crumbs" aria-label="路徑"><a href="#/s/${sid}">${esc(subj.meta.title)}</a><span class="sep">/</span>${one ? `<a href="#/s/${sid}/c/${one.id}/practice">${esc(one.title)}</a><span class="sep">/</span>` : ""}<span>${star ? "收藏題" : "瀏覽題目"}</span></nav>
       <header style="padding-top:14px" class="section-head">
         <div><div class="eyebrow">Browse · ${pool.length} 題${img ? `（另有 ${img} 題看圖題未收錄）` : ""}</div><h1 class="display h-l" style="margin-top:12px">${star ? "收藏題" : one ? esc(one.title) : "瀏覽題目"}</h1></div>
-        ${pool.length ? `<div class="toolbar"><button class="btn" type="button" id="toggleAll">${ic("eye")}全部顯示答案</button>
+        ${
+          pool.length
+            ? `<div class="toolbar"><button class="btn" type="button" id="toggleAll">${ic("eye")}全部顯示答案</button>
           ${star ? `<button class="btn ghost" type="button" id="clearStarsBtn" style="color:var(--bad)">${ic("x")}清除全部收藏</button>` : ""}
-          <a class="btn primary" href="#/s/${sid}/practice?${qs({ ...q, view: "", start: 1, n: 0, mode: "random" })}">${ic("pen")}改成作答模式</a></div>` : ""}
+          <a class="btn primary" href="#/s/${sid}/practice?${qs({ ...q, view: "", start: 1, n: 0, mode: "random" })}">${ic("pen")}改成作答模式</a></div>`
+            : ""
+        }
       </header>
       <div style="margin-top:24px">${pool.map((x) => browseCard(subj, x, false, star)).join("") || (star ? `<div class="card empty"><p>還沒有收藏。作答時按「收藏」或鍵盤 S，就能把題目加進這裡。</p><p><a class="btn primary" href="#/s/${sid}/practice">回練習設定</a></p></div>` : '<div class="card empty"><p>沒有符合的題目。</p></div>')}</div>
     </div>`,
@@ -6482,7 +6558,7 @@
   const sheetTabs = (sid, m, cur) => {
     const T = (k, href, icon, label) =>
       `<a href="#/s/${sid}/sheet${href}"${cur === k ? ' aria-current="page"' : ""}>${ic(icon)}${label}</a>`;
-    return `<nav class="seg" aria-label="切換">${m.sheet ? T("sheet", "", "grid", "速記表") : ""}${m.worms ? T("worms", "/worms", "cards", "蟲卡") : ""}${m.bigtable ? T("table", "/table", "layers", "比較大表") : ""}${m.roots ? T("roots", "/roots", "book", "字根字首") : ""}${T("figs", "/figs", "image", "圖庫")}</nav>`;
+    return `<nav class="seg" aria-label="切換">${m.sheet ? T("sheet", "", "grid", "速記表") : ""}${m.worms ? T("worms", "/worms", "cards", "蟲卡") : ""}${m.bigtable ? T("table", "/table", "layers", "比較大表") : ""}${m.labId ? T("lab", "/lab", "target", "跑台") + T("ova", "/ova", "search", "混合蟲卵") : ""}${m.roots ? T("roots", "/roots", "book", "字根字首") : ""}${T("figs", "/figs", "image", "圖庫")}</nav>`;
   };
   const figCardHTML = (subj, f) => {
     const sid = subj.meta.id;
@@ -6526,6 +6602,11 @@
     setChrome(sid, "sheet");
     const m = subj.meta;
     if (tab === "table") return pageBigTable(subj, q);
+    if ((tab === "lab" || tab === "ova") && m.labId)
+      return pageLab(subj, {
+        ...q,
+        mode: tab === "ova" || q.mode === "ova" ? "ova" : "station",
+      });
     if (tab === "worms" || (!tab && !m.sheet && m.worms))
       return pageWorms(subj, q);
     const figs = subj.figs || [];
@@ -6913,6 +6994,467 @@
     paint();
     addEventListener("keydown", onKey);
     onLeave(() => removeEventListener("keydown", onKey));
+  }
+
+  // ------------------------------------------------------------ 實驗考圖片練習：跑台（看標本寫學名）、混合蟲卵（找蟲卵寫學名）
+  // 資料在 subject.json 的 labId（data/lab-id.json），由 tools/build_para_lab.py 產生。
+  // labNorm 要和 build 腳本的 norm() 一致：taxa[].acc 是已正規化的可接受寫法（全名、屬名縮寫、spp./sp.、只寫屬名）。
+  const labNorm = (s) =>
+    String(s || "")
+      .toLowerCase()
+      .replace(/ü/g, "u")
+      .replace(/unfertili[sz]ed|未受孕|未受精/g, " uf ")
+      .replace(/fertili[sz]ed|受孕|受精/g, " f ")
+      .replace(/[^a-z0-9]+/g, " ")
+      .trim()
+      .split(" ")
+      .filter(Boolean)
+      .map((t) => (t === "spp" ? "sp" : t))
+      .join(" ");
+  const editDist = (a, b) => {
+    const m = a.length,
+      n = b.length;
+    let prev = Array.from({ length: n + 1 }, (_, j) => j);
+    for (let i = 1; i <= m; i++) {
+      const cur = [i];
+      for (let j = 1; j <= n; j++)
+        cur[j] = Math.min(
+          prev[j] + 1,
+          cur[j - 1] + 1,
+          prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1),
+        );
+      prev = cur;
+    }
+    return prev[n];
+  };
+  const LAB_MODE = {
+    station: {
+      label: "跑台",
+      icon: "target",
+      h: "跑台：看標本寫學名",
+      lede: "看顯微鏡下的實體標本寫學名（蟲卵另外考，在「混合蟲卵」）。",
+      rule: "考試時看顯微鏡下的實體標本（蟲體、幼蟲、體節、原蟲、節肢動物、中間宿主；寄生蟲蟲卵歸混合蟲卵），寫出學名。屬名可以縮寫（<i>A. lumbricoides</i>），部分寫 spp. 即可（<i>Echinostoma</i> spp.）。這裡的照片來自 I'm@TMU 寄生蟲學的線蟲／吸蟲／絛蟲／原蟲圖檔與節肢動物圖檔（已去掉生活史圖、手繪圖和電顯圖），另外加上百十三考古「109 成蟲線上考試」的照片。寄生蟲蟲卵不在這裡，在「混合蟲卵」練。<br>老師說跑台「不會問你這是什麼，會問你其他的問題」：生活史、診斷期、特殊病名（VLM、CLM）等；109 成蟲線上考試也有問感染期、寄生器官、檢驗材料、傳播疾病。所以預設是「學名＋生活史」，生活史答案依網站比較大表、蟲卡、絛蟲／原蟲章節與節肢動物圖檔整理。",
+      srcs: [
+        ["", "全部"],
+        ["deck", "上課圖檔"],
+        ["exam", "考古照片"],
+      ],
+    },
+    ova: {
+      label: "混合蟲卵",
+      icon: "search",
+      h: "混合蟲卵：找蟲卵寫學名",
+      lede: "在玻片裡找蟲卵寫學名，和跑台是不同場考試。",
+      rule: "考試時在玻片裡找蟲卵，寫出學名，答案範圍是「寄生蟲學 實驗考試 Mixed ova 學名」的 25 種，寫法照學名表：蛔蟲要標受孕 (f)／未受孕 (uf)，鉤蟲寫 Hook worm，犬蛔蟲寫 <i>Toxocara</i> spp.，肉絛蟲寫 <i>Taenia</i> spp.。圖譜的藍 7（<i>Raillietina</i>）、綠 4（<i>Dicrocoelium</i>）沒有玻片，不會考；綠 2 泰國肝吸蟲也不在學名表。照片來自 Mixed ova 圖譜、上課圖檔的蟲卵，以及百十三考古「混合蟲卵工作坊」「109 混合蟲卵線上考試」的玻片照與「109 成蟲線上考試」的蟲卵題。",
+      srcs: [
+        ["", "全部"],
+        ["exam", "考古玻片照"],
+        ["atlas", "圖譜"],
+        ["deck", "上課圖檔"],
+      ],
+    },
+  };
+  const labTab = (mode) => (mode === "ova" ? "ova" : "lab");
+  // 跑台題型：老師說跑台常不問「這是什麼」，而是問生活史（中間宿主、感染期、診斷期、疾病名稱…）
+  const LAB_QT = { mix: "學名＋生活史", name: "只考學名", cyc: "只考生活史" };
+  const LAB_QT_NOTE = {
+    mix: "先寫學名，對完答案再回答一題生活史（自己對答案）。",
+    name: "只寫學名。",
+    cyc: "不問學名，直接問生活史：中間宿主、最終宿主、感染期、寄生部位、診斷、疾病名稱，或中間宿主帶什麼蟲、節肢動物傳什麼病。自己對答案。",
+  };
+  // 每張照片抽一題生活史：題型來自 taxa[].cyc；照片是幼蟲、體節等特定時期時也可能問「這是哪一期」
+  function labCycPick(lab, it) {
+    const x = lab.taxa[labTaxa(lab, it)[0]];
+    const ks = Object.keys(x.cyc || {}).map((k) => [k, x.cyc[k]]);
+    if (
+      it.stage &&
+      !/^(成蟲|中間宿主|)$/.test(it.stage) &&
+      x.group !== "節肢動物"
+    )
+      ks.push(["stage", it.stage], ["stage", it.stage]);
+    if (!ks.length) return null;
+    const [k, a] = ks[Math.floor(Math.random() * ks.length)];
+    return { k, q: lab.cycKinds[k], a };
+  }
+  const labSrcOf = (it) =>
+    it.exam ? "exam" : it.id.startsWith("atlas-") ? "atlas" : "deck";
+  async function loadLab(subj) {
+    if (subj.lab) return subj.lab;
+    const d = await fetchJSON(`${subj.path}/${subj.meta.labId}`);
+    // 放大檢視沿用 figzoom；nosrc：說明列不顯示出處，作答前不洩漏是哪一份圖檔
+    for (const it of [...d.station, ...d.ova])
+      subj.figById[`lab:${it.id}`] = {
+        type: "slide",
+        nosrc: true,
+        src: it.src,
+        w: it.w,
+        h: it.h,
+        title: "放大看",
+        caption: "",
+      };
+    return (subj.lab = d);
+  }
+  const labTaxa = (lab, it) => (Array.isArray(it.t) ? it.t : [it.t]);
+  const labGroupOf = (lab, it) => lab.taxa[labTaxa(lab, it)[0]].group;
+  function labGrade(lab, tid, input) {
+    const n = labNorm(input);
+    if (!n) return { ok: false, why: "沒有作答" };
+    const acc = lab.taxa[tid].acc;
+    if (acc.includes(n)) return { ok: true };
+    if (/^ascaris-u?f$/.test(tid) && /^(a|ascaris) lumbricoides$/.test(n))
+      return { ok: false, why: "要標受孕 (f) 或未受孕 (uf)" };
+    if (n.length > 5 && Math.min(...acc.map((a) => editDist(a, n))) <= 2)
+      return { ok: false, why: "拼字差一點" };
+    return { ok: false };
+  }
+  const labSci = (x) =>
+    esc(x.sci).replace(/^(.+?)( spp?\.| \((?:u?f)\))?$/, (_, a, b) =>
+      x.sci === "Hook worm" ? a : `<i>${a}</i>${b || ""}`,
+    );
+
+  async function pageLab(subj, q) {
+    const sid = subj.meta.id;
+    const m = subj.meta;
+    const lab = await loadLab(subj);
+    const mode = LAB_MODE[q.mode] ? q.mode : "station";
+    const M = LAB_MODE[mode];
+    const missKey = `sh:${sid}:lab-miss`;
+    const miss = new Set(store.get(missKey, []));
+    const all = lab[mode];
+    const g = q.g || "";
+    const src = q.src || "";
+    const qt = mode === "station" ? (LAB_QT[q.qt] ? q.qt : "mix") : "name";
+    const pick = (o = {}) => {
+      const gg = o.g ?? g,
+        ss = o.src ?? src;
+      return all.filter(
+        (it) =>
+          (gg === "miss"
+            ? miss.has(it.id)
+            : !gg || labGroupOf(lab, it) === gg) &&
+          (!ss || labSrcOf(it) === ss),
+      );
+    };
+    if (q.play) {
+      const ids = q.ids ? q.ids.split(",") : null;
+      let pool = shuffle(
+        ids ? all.filter((it) => ids.includes(it.id)) : pick(),
+      );
+      const n = +q.n || 0;
+      if (n && !ids) pool = pool.slice(0, n);
+      return runLab(subj, lab, pool, q, missKey);
+    }
+    const href = (o) =>
+      `#/s/${sid}/sheet/${labTab(mode)}?${qs({ g, src, qt: q.qt || "", ...o })}`;
+    const groups = lab.groups.filter((x) =>
+      all.some((it) => labGroupOf(lab, it) === x),
+    );
+    const chip = (key, val, label, n) =>
+      `<a class="chip" href="${href({ [key]: val })}"${{ g, src, qt }[key] === val ? ' aria-current="true"' : ""}>${esc(label)}${n == null ? "" : `<span class="n">${n}</span>`}</a>`;
+    const pool = pick();
+    const missN = all.filter((it) => miss.has(it.id)).length;
+    // 答案範圍：混合蟲卵＝學名表 25 種；跑台＝圖檔裡出現的所有學名，依類別
+    const keyIds =
+      mode === "ova"
+        ? lab.ovaList
+        : [...new Set(lab.station.map((it) => it.t))].sort(
+            (a, b) =>
+              lab.groups.indexOf(lab.taxa[a].group) -
+                lab.groups.indexOf(lab.taxa[b].group) ||
+              lab.taxa[a].sci.localeCompare(lab.taxa[b].sci),
+          );
+    const cnt = countBy(all, (it) => labTaxa(lab, it));
+    const keyHTML = lab.groups
+      .map((gr) => {
+        const ids = keyIds.filter((t) => lab.taxa[t].group === gr);
+        return ids.length
+          ? `<section><h3>${esc(gr)}<span class="muted num"> ${ids.length}</span></h3><ul>${ids.map((t) => `<li><span class="sci">${labSci(lab.taxa[t])}</span><span class="zh">${esc(lab.taxa[t].zh)}</span><span class="muted num">${cnt.get(t) || 0} 張</span></li>`).join("")}</ul></section>`
+          : "";
+      })
+      .join("");
+    const start = (n) => href({ play: 1, n });
+    render(
+      `<div class="wrap">
+        <nav class="crumbs" aria-label="路徑"><a href="#/s/${sid}">${esc(m.title)}</a><span class="sep">/</span><span>${M.label}</span></nav>
+        <header class="section-head" style="padding-top:14px;align-items:end">
+          <div><div class="eyebrow">Lab practice · ${M.label} · ${all.length} 張</div>
+          <h1 class="display h-l" style="margin-top:12px">${M.label}圖片練習</h1>
+          <p class="lede" style="margin-bottom:0">${M.lede}看照片打出學名，送出後自動對答案；寫法有爭議時可以按「我其實答對了」。答錯的照片會記下來，之後可以只練這些。</p></div>
+          <div class="toolbar noprint">${sheetTabs(sid, m, labTab(mode))}</div>
+        </header>
+        <div class="note" style="margin-top:16px">${ic(M.icon)}<div><b>${esc(M.h)}</b><br>${M.rule}</div></div>
+        <div class="card lab-setup">
+          <div class="lab-filter"><span class="eyebrow">類別</span><div class="chips">${chip("g", "", "全部", pick({ g: "" }).length)}${groups.map((x) => chip("g", x, x, pick({ g: x }).length)).join("")}${missN ? chip("g", "miss", "答錯過", pick({ g: "miss" }).length) : ""}</div></div>
+          ${
+            mode === "station"
+              ? `<div class="lab-filter"><span class="eyebrow">題型</span><div class="chips">${Object.entries(
+                  LAB_QT,
+                )
+                  .map(([k, x]) => chip("qt", k, x))
+                  .join(
+                    "",
+                  )}</div><p class="muted lab-qt-note">${esc(LAB_QT_NOTE[qt])}</p></div>`
+              : ""
+          }
+          <div class="lab-filter"><span class="eyebrow">照片來源</span><div class="chips">${M.srcs.map(([k, t]) => chip("src", k, t, pick({ src: k }).length)).join("")}</div></div>
+          <div class="toolbar" style="margin-top:6px">
+            ${
+              pool.length
+                ? [10, 20, 50]
+                    .filter((n) => n < pool.length)
+                    .map(
+                      (n) =>
+                        `<a class="btn${n === 20 ? " accent" : ""}" href="${start(n)}">${ic("shuffle")}隨機 ${n} 張</a>`,
+                    )
+                    .join("") +
+                  `<a class="btn${pool.length <= 20 ? " accent" : ""}" href="${start(0)}">${ic("cards")}全部 ${pool.length} 張</a>`
+                : `<span class="muted">這個範圍沒有照片。</span>`
+            }
+          </div>
+        </div>
+        <details class="card lab-key"${mode === "ova" ? " open" : ""}>
+          <summary><b>${mode === "ova" ? "Mixed ova 學名表（答案範圍）" : "跑台會出現的學名"}</b><span class="muted"> · ${keyIds.length} 種</span></summary>
+          <div class="lab-key-body">${keyHTML}</div>
+        </details>
+      </div>`,
+    );
+  }
+
+  function runLab(subj, lab, pool, q, missKey) {
+    const sid = subj.meta.id;
+    const mode = LAB_MODE[q.mode] ? q.mode : "station";
+    const qt = mode === "station" ? (LAB_QT[q.qt] ? q.qt : "mix") : "name";
+    const back = `#/s/${sid}/sheet/${labTab(mode)}?${qs({ g: q.g || "", src: q.src || "", qt: q.qt || "" })}`;
+    if (!pool.length) {
+      render(
+        emptyState(
+          "沒有可以練的照片",
+          "換個範圍試試看。",
+          `<a class="btn primary" href="${back}">回練習首頁</a>`,
+        ),
+      );
+      return;
+    }
+    autoHideTabbar();
+    // res[i] = { typed: [..], marks: [{ok, why}], nameOk, over, cyc: {typed, shown, ok} }；ok＝學名與生活史都對
+    let cycs = pool.map((it) => (qt === "name" ? null : labCycPick(lab, it)));
+    if (qt === "cyc") {
+      pool = pool.filter((_, k) => cycs[k]);
+      cycs = cycs.filter(Boolean);
+    }
+    const S = { i: 0, res: pool.map(() => null) };
+    const done = (r, k) => r && (qt === "cyc" ? r.cyc.ok != null : !!r.marks);
+    const okOf = (r) =>
+      (qt === "cyc" || r.nameOk || r.over) && (!r.cyc || r.cyc.ok !== false);
+    const tally = () =>
+      S.res.reduce((a, r) => (done(r) ? (okOf(r) ? a.y++ : a.n++, a) : a), {
+        y: 0,
+        n: 0,
+      });
+    const setMiss = (it, bad) => {
+      const s = new Set(store.get(missKey, []));
+      s[bad ? "add" : "delete"](it.id);
+      store.set(missKey, [...s]);
+    };
+    const sync = (it, r) => {
+      r.ok = okOf(r);
+      setMiss(it, !r.ok);
+    };
+    const cycHTML = (c, r) => {
+      if (!c) return "";
+      const y = r?.cyc;
+      return `<div class="lab-cyc${y?.ok === true ? " ok" : y?.ok === false ? " ng" : ""}">
+        <p class="lab-cyc-q"><span class="pill line">${qt === "cyc" ? "跑台題" : "生活史"}</span>${esc(c.q)}</p>
+        <label class="lab-row"><span class="sr-only">你的答案</span><input class="input" name="cyc" type="text" autocomplete="off" placeholder="寫下答案（自己對）" value="${esc(y?.typed || "")}"${y?.shown ? " readonly" : ""}></label>
+        ${
+          y?.shown
+            ? `<div class="lab-cyc-a"><b>答案</b>　${inlineMd(esc(c.a))}</div>
+          <div class="toolbar">${y.ok == null ? `<div class="self-grade"><button class="btn" type="button" data-self="1">${ic("check")}我答對了</button><button class="btn" type="button" data-self="0">${ic("rotate")}沒答對</button></div>` : `<span class="pill ${y.ok ? "good" : "bad"}">${y.ok ? "自評：答對" : "自評：沒答對"}</span><button class="btn ghost sm" type="button" data-self="${y.ok ? 0 : 1}">${ic("rotate")}改判</button>`}</div>`
+            : `<div class="toolbar"><button class="btn accent" type="submit">${ic("eye")}看答案<span class="kbd-hint hide-touch"><kbd>Enter</kbd></span></button></div>`
+        }
+      </div>`;
+    };
+    const answerHTML = (it, r) => {
+      const ts = labTaxa(lab, it);
+      const ok = qt === "cyc" ? true : r.nameOk || r.over;
+      return `<div class="lab-verdict ${qt === "cyc" ? "info" : ok ? "ok" : "ng"}" role="status">
+        <div class="lab-verdict-head">${qt === "cyc" ? `${ic("target")}<b>這是</b>` : ok ? `${ic("check")}<b>學名答對</b>` : `${ic("x")}<b>學名答錯</b>`}${r.over ? '<span class="pill line">自己改判</span>' : ""}</div>
+        <ul>${ts
+          .map((t, k) => {
+            const x = lab.taxa[t],
+              mk = r.marks?.[k];
+            return `<li>${it.labels ? `<span class="tag">${esc(it.labels[k])}</span>` : ""}<span class="sci">${labSci(x)}</span><span class="zh">${esc(x.zh)}</span>${mk && !mk.ok ? `<span class="you">你寫：${r.typed[k] ? `<i>${esc(r.typed[k])}</i>` : "（空白）"}${mk.why ? `・${esc(mk.why)}` : ""}</span>` : ""}</li>`;
+          })
+          .join("")}</ul>
+        <p class="muted lab-from">${it.stage ? `${esc(it.stage)} · ` : ""}出處：${esc(it.from)}</p>
+      </div>`;
+    };
+    const paint = () => {
+      const it = pool[S.i];
+      const r = S.res[S.i];
+      const t = tally();
+      const n = pool.length;
+      const ts = labTaxa(lab, it);
+      const c = cycs[S.i];
+      const nameStep = qt !== "cyc";
+      const named = !!r?.marks;
+      const stem =
+        ts.length > 1
+          ? `圖中標號 ${it.labels.join("、")} 各是什麼蟲卵？寫出學名。`
+          : mode === "ova"
+            ? "這是什麼蟲卵？寫出學名。"
+            : qt === "cyc"
+              ? "看照片，回答下面的問題。"
+              : "這是什麼？寫出學名。";
+      const canNext = qt === "cyc" ? r?.cyc?.ok != null : named;
+      $app.innerHTML = `<div class="enter"><div class="wrap"><div class="flash lab-run">
+        <div class="quiz-top">
+          <a class="btn ghost sm" href="${back}" aria-label="結束練習">${ic("x")}<span class="hide-s">結束</span></a>
+          <span class="prog"><b>${S.i + 1}</b> / ${n}</span>
+          <div class="quiz-stats">
+            <span title="答對" style="color:var(--good)">${ic("check")}<b class="num">${t.y}</b></span>
+            <span title="答錯" style="color:var(--bad)">${ic("x")}<b class="num">${t.n}</b></span>
+          </div>
+        </div>
+        <div class="flash-bar" aria-hidden="true"><i style="width:${(t.y / n) * 100}%;background:var(--good)"></i><i style="width:${(t.n / n) * 100}%;background:var(--bad)"></i></div>
+        <section class="card lab-stage" data-sid="${esc(sid)}">
+          <p class="q-stem">${stem}</p>
+          <button type="button" class="lab-photo" data-zoom="lab:${esc(it.id)}" aria-label="放大照片"><img src="${esc(subj.path)}/${esc(it.src)}" width="${it.w}" height="${it.h}" alt="第 ${S.i + 1} 張練習照片" decoding="async"></button>
+          <form class="lab-form" autocomplete="off">
+            ${(nameStep ? ts : [])
+              .map(
+                (_, k) =>
+                  `<label class="lab-row">${it.labels ? `<span class="tag">${esc(it.labels[k])}</span>` : `<span class="sr-only">學名</span>`}<input class="input" name="a${k}" type="text" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="輸入學名" value="${esc(r?.typed[k] || "")}"${r ? " readonly" : ""}></label>`,
+              )
+              .join("")}
+            ${
+              nameStep
+                ? named
+                  ? answerHTML(it, r) +
+                    (r.nameOk && !r.over
+                      ? ""
+                      : `<div class="toolbar"><button class="btn ghost" type="button" id="override">${ic(r.over ? "rotate" : "check")}${r.over ? "改回答錯" : "我其實答對了"}</button></div>`)
+                  : `<div class="toolbar"><button class="btn accent" type="submit">${ic("check")}送出<span class="kbd-hint hide-touch"><kbd>Enter</kbd></span></button><button class="btn ghost" type="button" id="giveup">${ic("eye")}不會，看答案</button></div>`
+                : ""
+            }
+            ${!nameStep || named ? cycHTML(c, r) : ""}
+            ${qt === "cyc" && r?.cyc?.shown ? answerHTML(it, r) : ""}
+            ${
+              (nameStep ? named : r?.cyc?.shown)
+                ? `<div class="toolbar"><button class="btn primary" type="button" id="next">${S.i + 1 < n ? "下一張" : "看結果"}${ic("arrowR")}${canNext ? `<span class="kbd-hint hide-touch"><kbd>Enter</kbd></span>` : ""}</button></div>`
+                : ""
+            }
+          </form>
+        </section>
+        <div class="shortcut-hint" aria-hidden="true"><span><kbd>Enter</kbd> 送出／下一張</span><span>點照片放大</span></div>
+      </div></div></div>`;
+      const form = $(".lab-form");
+      const grade = (typed) => {
+        const marks = ts.map((t, k) => labGrade(lab, t, typed[k]));
+        const x = (S.res[S.i] = {
+          typed,
+          marks,
+          nameOk: marks.every((m) => m.ok),
+          cyc: c ? { typed: "" } : null,
+        });
+        sync(it, x);
+        paint();
+        ($(".lab-form").elements.cyc || $("#next"))?.focus({
+          preventScroll: true,
+        });
+        $(".lab-verdict")?.scrollIntoView({
+          block: "nearest",
+          behavior: "smooth",
+        });
+      };
+      const reveal = () => {
+        const x = (S.res[S.i] ||= { typed: [], cyc: { typed: "" } });
+        x.cyc.typed = form.elements.cyc.value.trim();
+        x.cyc.shown = true;
+        paint();
+        $(".lab-cyc-a")?.scrollIntoView({
+          block: "nearest",
+          behavior: "smooth",
+        });
+      };
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        if (nameStep && !named)
+          return grade(ts.map((_, k) => form.elements[`a${k}`].value.trim()));
+        if (c && !r?.cyc?.shown) return reveal();
+        if (canNext || nameStep) go(S.i + 1);
+      });
+      $("#next")?.addEventListener("click", () => go(S.i + 1));
+      $("#giveup")?.addEventListener("click", () => grade(ts.map(() => "")));
+      $("#override")?.addEventListener("click", () => {
+        const x = S.res[S.i];
+        x.over = !x.over;
+        sync(it, x);
+        paint();
+      });
+      $app.querySelectorAll("[data-self]").forEach((b) =>
+        b.addEventListener("click", () => {
+          const x = S.res[S.i];
+          x.cyc.ok = b.dataset.self === "1";
+          sync(it, x);
+          paint();
+          $("#next")?.focus({ preventScroll: true });
+        }),
+      );
+      if (!r)
+        (nameStep ? form.elements.a0 : form.elements.cyc)?.focus({
+          preventScroll: true,
+        });
+      else if (named && c && !r.cyc.shown)
+        form.elements.cyc?.focus({ preventScroll: true });
+    };
+    const go = (k) => {
+      if (k < 0) return;
+      if (k >= pool.length) return finish();
+      S.i = k;
+      paint();
+      if (innerWidth < 760) scrollTo({ top: 0 });
+    };
+    const finish = () => {
+      const t = tally();
+      const bad = pool.filter((_, k) => done(S.res[k]) && !S.res[k].ok);
+      const again = (o) =>
+        `#/s/${sid}/sheet/${labTab(mode)}?${qs({ g: q.g || "", src: q.src || "", qt: q.qt || "", n: q.n || "", play: 1, ...o })}`;
+      render(`<div class="wrap"><div class="result">
+        <div class="card result-hero">
+          <div class="score-ring" style="--p:${pct(t.y, t.y + t.n)}"><div><b>${t.y}<small style="font-size:.4em"> / ${t.y + t.n}</small></b><span>答對</span></div></div>
+          <div>
+            <div class="eyebrow">${esc(LAB_MODE[mode].label)} · practice complete</div>
+            <h1 class="display h-m" style="margin:10px 0 6px">${t.n ? `${t.n} 張要再看` : t.y ? "全部答對！" : "還沒有作答"}</h1>
+            <p class="muted" style="margin:0 0 18px">答錯的照片已記下來，練習首頁選「答錯過」就能只練這些；之後答對會自動移除。</p>
+            <div class="toolbar">
+              ${bad.length ? `<a class="btn accent" href="${again({ ids: bad.map((it) => it.id).join(","), n: "" })}">${ic("rotate")}只練這 ${bad.length} 張</a>` : ""}
+              <a class="btn primary" href="${again({})}">${ic("shuffle")}再一輪</a>
+              <a class="btn" href="${back}">回練習首頁</a>
+            </div>
+          </div>
+        </div>
+        ${
+          bad.length
+            ? `<div class="lab-miss-grid" data-sid="${esc(sid)}">${bad
+                .map((it) => {
+                  const r = S.res[pool.indexOf(it)];
+                  return `<article class="card lab-miss"><button type="button" class="lab-photo sm" data-zoom="lab:${esc(it.id)}" aria-label="放大照片"><img src="${esc(subj.path)}/${esc(it.src)}" width="${it.w}" height="${it.h}" alt="答錯的照片" loading="lazy" decoding="async"></button>
+                  <div>${labTaxa(lab, it)
+                    .map(
+                      (tid, k) =>
+                        `<div>${it.labels ? `<span class="tag">${esc(it.labels[k])}</span> ` : ""}<span class="sci">${labSci(lab.taxa[tid])}</span> <span class="zh">${esc(lab.taxa[tid].zh)}</span>${!r.marks || r.marks[k].ok || r.over ? "" : `<br><span class="you">你寫：${r.typed[k] ? `<i>${esc(r.typed[k])}</i>` : "（空白）"}</span>`}</div>`,
+                    )
+                    .join(
+                      "",
+                    )}${r.cyc?.ok === false ? `<p class="lab-cyc-miss"><b>${esc(cycs[pool.indexOf(it)].q)}</b><br>${inlineMd(esc(cycs[pool.indexOf(it)].a))}</p>` : ""}<p class="muted lab-from">${esc(it.from)}</p></div></article>`;
+                })
+                .join("")}</div>`
+            : ""
+        }
+      </div></div>`);
+    };
+    paint();
   }
 
   // ------------------------------------------------------------ 比較大表（學長姐大表）
@@ -7905,7 +8447,8 @@
     const msgs = new Map();
     // 心情：reacts.get(留言 id) = { kind: Set(reactor) }
     const reacts = new Map();
-    const me = () => (Cloud.user ? `u:${Cloud.user.id}` : myKey ? `g:${myKey}` : "");
+    const me = () =>
+      Cloud.user ? `u:${Cloud.user.id}` : myKey ? `g:${myKey}` : "";
     const addReact = (r, on) => {
       const o = reacts.get(r.message_id) || {};
       (o[r.kind] ||= new Set())[on ? "add" : "delete"](r.reactor);
@@ -7914,11 +8457,13 @@
     const reactBar = (m) => {
       const o = reacts.get(m.id) || {},
         who = me();
-      return `<div class="board-reacts" role="group" aria-label="心情">${BOARD_REACTS.map(([k, e, t]) => {
-        const n = o[k]?.size || 0,
-          on = !!who && !!o[k]?.has(who);
-        return `<button type="button" class="board-react${on ? " on" : ""}${n ? " has" : ""}" data-react="${k}" data-mid="${m.id}" aria-pressed="${on}" title="${t}" aria-label="${t}${n ? ` ${n}` : ""}" data-kind="${k}">${ic(e)}${n ? `<b class="num">${n}</b>` : ""}</button>`;
-      }).join("")}</div>`;
+      return `<div class="board-reacts" role="group" aria-label="心情">${BOARD_REACTS.map(
+        ([k, e, t]) => {
+          const n = o[k]?.size || 0,
+            on = !!who && !!o[k]?.has(who);
+          return `<button type="button" class="board-react${on ? " on" : ""}${n ? " has" : ""}" data-react="${k}" data-mid="${m.id}" aria-pressed="${on}" title="${t}" aria-label="${t}${n ? ` ${n}` : ""}" data-kind="${k}">${ic(e)}${n ? `<b class="num">${n}</b>` : ""}</button>`;
+        },
+      ).join("")}</div>`;
     };
     const byFloor = (f) => {
       for (const m of msgs.values()) if (m.floor === f) return m;
@@ -8372,6 +8917,25 @@
           href: `#/s/${sid}/sheet/worms`,
           k: "蟲卡 記憶卡 學名 蟲卵 蟲體 worm cards flashcards",
         });
+      if (s.meta.labId)
+        items.push(
+          {
+            g: "頁面",
+            icon: "target",
+            t: "跑台圖片練習",
+            s: s.meta.title,
+            href: `#/s/${sid}/sheet/lab`,
+            k: "跑台 實驗考 標本 學名 顯微鏡 lab practical station",
+          },
+          {
+            g: "頁面",
+            icon: "search",
+            t: "混合蟲卵圖片練習",
+            s: s.meta.title,
+            href: `#/s/${sid}/sheet/ova`,
+            k: "混合蟲卵 mixed ova 蟲卵 學名 玻片 實驗考",
+          },
+        );
       if (s.meta.bigtable)
         items.push({
           g: "頁面",

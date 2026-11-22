@@ -192,15 +192,15 @@
       "en": "Ch24 · Genes and chromosomes",
       "teacher": "施純明",
       "week": "W11（11/19）",
-      "slides": false
+      "slides": true
     },
     {
       "id": "ch25",
       "title": "DNA 代謝：複製、修復與重組",
       "en": "Ch25 · DNA metabolism",
       "teacher": "施純明",
-      "week": "W12（11/26）",
-      "slides": false
+      "week": "W11–W12（11/19、11/26）",
+      "slides": true
     },
     {
       "id": "ch26",

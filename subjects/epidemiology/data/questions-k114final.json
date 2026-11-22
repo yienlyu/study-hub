@@ -1,0 +1,960 @@
+[
+ {
+  "id": "k114f-02",
+  "source": "114 期末考古",
+  "num": 2,
+  "chapter": "ecologic-cross",
+  "type": "mcq",
+  "stem": "Which of the following is a characteristic of cross-sectional study designs?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Exposure and outcome are measured in a geographic unit"
+   },
+   {
+    "k": "B",
+    "t": "Not useful for studying rare diseases or diseases with short duration"
+   },
+   {
+    "k": "C",
+    "t": "Cases identified are incidence cases"
+   },
+   {
+    "k": "D",
+    "t": "Can establish strong causal relationships"
+   },
+   {
+    "k": "E",
+    "t": "Exposure and outcome are measured at different points in time"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "橫斷研究找到的是盛行病例，罕見疾病抽不到幾個、病程很短的疾病在某個時間點也很難剛好抓到，所以**不適合罕見或短病程疾病**（B）。\n(A) 以地理單位測量是**生態研究**；(C) 橫斷研究的病例是**盛行病例**（新發生＋既存）；(D) 時序不明、**不能建立因果**；(E) 暴露與結果在**同一時間點**測量。",
+  "topics": [
+   "橫斷研究特徵"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114f-28",
+  "source": "114 期末考古",
+  "num": 28,
+  "chapter": "ecologic-cross",
+  "type": "mcq",
+  "stem": "Dr. Chen and his team conducted a study to investigate the association between urban greenspace distribution and mortality risk in Taipei City. They collected the information on greenspaces, all-cause mortality, and socioeconomic characteristics in year 2020 for 456 villages（原文 villagers）. The figure shows the association between greenspace metrics component and mortality stratified by age.\n（圖：x 軸綠地指標、y 軸 log 面積加權死亡率；依各里 65 歲以上人口比例分三層——0 to <10%、10 to <15%、≥15%——三條迴歸線都向右下，但斜率不同，≥15% 那層最陡。）\nGiven the information above, what type of study design is this?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Experimental study"
+   },
+   {
+    "k": "B",
+    "t": "Ecological study"
+   },
+   {
+    "k": "C",
+    "t": "Cross-sectional study"
+   },
+   {
+    "k": "D",
+    "t": "Cohort study"
+   },
+   {
+    "k": "E",
+    "t": "Case-control study"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "分析單位是**里（群體）**，綠地、死亡率、社經都是里的層級資料（平均、比例、率），沒有個人的暴露與死亡資料 → **生態研究**。這題就是今年講義的費城綠地研究換成台北。\n雖然資料都在 2020 年同一時間收，但橫斷研究要在**個人層級**測量暴露與疾病，所以不是 (C)。",
+  "topics": [
+   "研究設計判斷",
+   "生態研究"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114f-29",
+  "source": "114 期末考古",
+  "num": 29,
+  "chapter": "ecologic-cross",
+  "type": "mcq",
+  "stem": "Dr. Chen and his team conducted a study to investigate the association between urban greenspace distribution and mortality risk in Taipei City. They collected the information on greenspaces, all-cause mortality, and socioeconomic characteristics in year 2020 for 456 villages（原文 villagers）. The figure shows the association between greenspace metrics component and mortality stratified by age.\n（圖：x 軸綠地指標、y 軸 log 面積加權死亡率；依各里 65 歲以上人口比例分三層——0 to <10%、10 to <15%、≥15%——三條迴歸線都向右下，但斜率不同，≥15% 那層最陡。）\nWhich of the following statements best describes the figure above?",
+  "options": [
+   {
+    "k": "A",
+    "t": "The straight line indicates there is a positive association between the greenspace metrics component and mortality."
+   },
+   {
+    "k": "B",
+    "t": "The homogeneous associations were observed when stratified by the percentage of elderly individuals among villages."
+   },
+   {
+    "k": "C",
+    "t": "The heterogeneous associations were observed when stratified by the percentage of elderly individuals among villages, indicating a potential effect modification by age."
+   },
+   {
+    "k": "D",
+    "t": "There is a causal relationship between the greenspace metrics component and mortality."
+   },
+   {
+    "k": "E",
+    "t": "An individual who is exposed to more greenspace may reduce the risk of death."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "三層的迴歸線**都向下**（負相關，A 錯），但**斜率不同**（老年人口比例越高的里，綠地與死亡率的負相關越強）→ 關聯在各層**不一致（heterogeneous）**，表示年齡可能是**效應修飾因子**（C）。\n(D) 生態研究不能證明因果；(E) 用群體資料推論個人＝**生態謬誤**。",
+  "topics": [
+   "生態研究",
+   "效應修飾",
+   "生態謬誤"
+  ],
+  "pattern": "圖表判讀"
+ },
+ {
+  "id": "k114f-30",
+  "source": "114 期末考古",
+  "num": 30,
+  "chapter": "ecologic-cross",
+  "type": "mcq",
+  "stem": "Dr. Chen and his team conducted a study to investigate the association between urban greenspace distribution and mortality risk in Taipei City. They collected the information on greenspaces, all-cause mortality, and socioeconomic characteristics in year 2020 for 456 villages（原文 villagers）. The figure shows the association between greenspace metrics component and mortality stratified by age.\n（圖：x 軸綠地指標、y 軸 log 面積加權死亡率；依各里 65 歲以上人口比例分三層——0 to <10%、10 to <15%、≥15%——三條迴歸線都向右下，但斜率不同，≥15% 那層最陡。）\nWhich of the following is the best reason for conducting this type of study design?",
+  "options": [
+   {
+    "k": "A",
+    "t": "No aggregate information for geographic units is available."
+   },
+   {
+    "k": "B",
+    "t": "Only individual-level data are available."
+   },
+   {
+    "k": "C",
+    "t": "For hypothesis testing, we want to infer the causal relationship."
+   },
+   {
+    "k": "D",
+    "t": "The exposure of interest varies substantially between individuals but varies little between geographic units."
+   },
+   {
+    "k": "E",
+    "t": "The exposure or interest varies substantially between geographic units but varies little between individuals."
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "生態研究的使用時機：只有群體資料，或**暴露主要在群體（地理單位）之間變化、同一群體內的個人差異很小**（例：同一里的人面對同樣的綠地、飲水含氟量）→ (E)。\n(A)(B) 剛好相反；(C) 生態研究用來**產生假說**，不適合推論因果；(D) 個人間差異大時應該做個人層級的研究。",
+  "topics": [
+   "生態研究使用時機"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-ec-01",
+  "source": "模擬新題",
+  "num": 1,
+  "chapter": "ecologic-cross",
+  "type": "mcq",
+  "stem": "橫斷研究調查越戰退伍軍人血清戴奧辛濃度與糖尿病：高戴奧辛 200 人中 80 人有糖尿病，低戴奧辛 400 人中 60 人有糖尿病。下列敘述何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "高戴奧辛者罹患糖尿病的風險是低戴奧辛者的 2.67 倍"
+   },
+   {
+    "k": "B",
+    "t": "高戴奧辛者的糖尿病盛行率是低戴奧辛者的 2.67 倍"
+   },
+   {
+    "k": "C",
+    "t": "高戴奧辛者的糖尿病發生率是低戴奧辛者的 2.67 倍"
+   },
+   {
+    "k": "D",
+    "t": "糖尿病患者中高戴奧辛的比例為 40%"
+   },
+   {
+    "k": "E",
+    "t": "此研究可確定戴奧辛暴露發生在糖尿病之前"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "$$\\text{PPR} = \\frac{80/200}{60/400} = \\frac{0.40}{0.15} = 2.67$$\n橫斷研究比較的是**盛行率**，解釋時要說「盛行率是 2.67 倍」（B）。老師特別提醒：因為是橫斷研究，要說清楚比的是盛行率，不是風險（A）也不是發生率（C）。\n(D) 糖尿病患者中高戴奧辛的比例是 $\\frac{80}{140} = 57\\%$，40% 是高戴奧辛者中的糖尿病盛行率；(E) 橫斷研究**無法確定時序**。",
+  "topics": [
+   "盛行率比",
+   "橫斷研究"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "new-ec-02",
+  "source": "模擬新題",
+  "num": 2,
+  "chapter": "ecologic-cross",
+  "type": "mcq",
+  "stem": "某研究以 50 個國家為單位，發現人均脂肪攝取量與乳癌死亡率的相關係數 $r = 0.8$。研究者因此主張「吃比較多脂肪的女性比較容易死於乳癌」。這個推論最主要的問題是什麼？",
+  "options": [
+   {
+    "k": "A",
+    "t": "資訊偏差（information bias）"
+   },
+   {
+    "k": "B",
+    "t": "選樣偏差（selection bias）"
+   },
+   {
+    "k": "C",
+    "t": "生態謬誤（ecologic fallacy）"
+   },
+   {
+    "k": "D",
+    "t": "存活偏差（survival bias）"
+   },
+   {
+    "k": "E",
+    "t": "回憶偏差（recall bias）"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "資料是**國家層級**（人均攝取、國家死亡率），卻推論到**個人**（吃比較多脂肪的女性）→ **生態謬誤**：沒有個人資料，不知道在各國內部，真正死於乳癌的是不是吃比較多脂肪的人。老師說這是「很重要的 term，請大家要記得」。",
+  "topics": [
+   "生態謬誤"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-ec-03",
+  "source": "模擬新題",
+  "num": 3,
+  "chapter": "ecologic-cross",
+  "type": "mcq",
+  "stem": "關於生態研究中的相關係數 $r$ 與迴歸係數 $\\beta$，下列何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "$r$ 經過標準化，沒有單位"
+   },
+   {
+    "k": "B",
+    "t": "$\\beta$ 有單位，可以用真實單位解釋暴露每增加一單位時結果的改變"
+   },
+   {
+    "k": "C",
+    "t": "$r$ 與 $\\beta$ 的正負號一定相同"
+   },
+   {
+    "k": "D",
+    "t": "若 $\\beta = 0$，則 $r = 0$"
+   },
+   {
+    "k": "E",
+    "t": "$\\lvert r\\rvert$ 越大，$\\lvert \\beta\\rvert$ 一定越大"
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "講義 p.15：$r$ 與 $\\beta$ **同號**、$\\beta = 0$ 時 $r = 0$，但**大小不能直接比較**——$r$ 是標準化（共變異數除以兩個標準差）、沒有單位；$\\beta$ 有單位，會隨 $X$、$Y$ 的單位改變。所以 (E) 錯。",
+  "topics": [
+   "相關係數",
+   "迴歸係數"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-ec-04",
+  "source": "模擬新題",
+  "num": 4,
+  "chapter": "ecologic-cross",
+  "type": "mcq",
+  "stem": "在某次橫斷研究中，危險職業（Job A）工人的呼吸道症狀盛行率為 11%，安全職業（Job B）為 14%，盛行率比 0.8。若已知部分 A 工人因呼吸道症狀轉到 B，下列解釋何者最適當？",
+  "options": [
+   {
+    "k": "A",
+    "t": "危險職業對呼吸道有保護作用"
+   },
+   {
+    "k": "B",
+    "t": "這是隨機誤差造成的"
+   },
+   {
+    "k": "C",
+    "t": "因暴露狀態隨結果改變，橫斷研究無法確定時序，結果被低估甚至反轉"
+   },
+   {
+    "k": "D",
+    "t": "這是回憶偏差"
+   },
+   {
+    "k": "E",
+    "t": "應改用生態研究即可解決"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "講義 p.46–47（McMichael 1976）：在還沒換工作的時間點 X，A 為 20%、B 為 5%，PPR = 4.0；生病的 A 工人轉到 B 後，在時間點 Y 做橫斷研究只看到 A 10/90、B 15/110，PPR 變 0.8。\n橫斷研究只知道**現在**的暴露，而暴露改變又**和結果有關**（因病轉職）→ 時序問題；這也是**健康工人效應**。",
+  "topics": [
+   "時序",
+   "健康工人效應",
+   "橫斷研究限制"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-ec-05",
+  "source": "模擬新題",
+  "num": 5,
+  "chapter": "ecologic-cross",
+  "type": "mcq",
+  "stem": "橫斷研究發現服用 NSAIDs 者的失智症盛行率較低。下列哪一種解釋「不能」被這個研究排除？",
+  "options": [
+   {
+    "k": "A",
+    "t": "NSAIDs 可預防失智症發生"
+   },
+   {
+    "k": "B",
+    "t": "使用 NSAIDs 的失智症患者較容易死亡，使盛行病例變少"
+   },
+   {
+    "k": "C",
+    "t": "兩者皆不能排除"
+   },
+   {
+    "k": "D",
+    "t": "兩者皆可排除"
+   },
+   {
+    "k": "E",
+    "t": "只要樣本夠大就能區分"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "盛行病例同時反映**發生率**（病因）與**病程**（存活）：$P \\approx I \\times D$。盛行率較低可能是 NSAIDs 真的降低發生率（情境 1），也可能是用 NSAIDs 的失智症患者**存活較短**、還沒被調查就死了（情境 2，存活偏差）。橫斷研究兩者都無法排除；樣本再大也不會解決這種偏差。",
+  "topics": [
+   "盛行／發生偏差",
+   "存活偏差"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-ec-06",
+  "source": "模擬新題",
+  "num": 6,
+  "chapter": "ecologic-cross",
+  "type": "mcq",
+  "stem": "下列哪一個研究最適合用生態研究設計？",
+  "options": [
+   {
+    "k": "A",
+    "t": "比較不同縣市自來水含氟量與兒童蛀牙盛行率"
+   },
+   {
+    "k": "B",
+    "t": "比較每位病人的抽菸量與肺癌發生"
+   },
+   {
+    "k": "C",
+    "t": "追蹤孕婦孕期空污暴露與早產"
+   },
+   {
+    "k": "D",
+    "t": "比較肝癌病人與對照組過去的飲酒史"
+   },
+   {
+    "k": "E",
+    "t": "隨機分派長者服用維生素 D 與跌倒"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "生態研究適合**暴露只在群體層級變化**的情況：同一個縣市的人喝同樣的自來水，含氟量是群體特性 → (A)（1938 年含氟與蛀牙正是生態研究的經典例子）。\n(B) 個人層級資料（世代或病例對照）；(C) 世代研究；(D) 病例對照；(E) 隨機臨床試驗。",
+  "topics": [
+   "生態研究使用時機"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114f-01",
+  "source": "114 期末考古",
+  "num": 1,
+  "chapter": "cohort-cc",
+  "type": "mcq",
+  "stem": "The investigator plans to study a low-incidence disease with a long induction period and highly prevalent risk factors. Which study design would be the most appropriate?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Experimental study"
+   },
+   {
+    "k": "B",
+    "t": "Case-crossover study"
+   },
+   {
+    "k": "C",
+    "t": "Cross-sectional study"
+   },
+   {
+    "k": "D",
+    "t": "Cohort study"
+   },
+   {
+    "k": "E",
+    "t": "Case-control study"
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "疾病**發生率低**、**誘導期長** → 世代研究要追蹤非常多人、非常久才等得到病例，不划算；**病例對照**直接從已發病的人出發、回問過去暴露，最適合罕見且潛伏期長的疾病（E）。危險因子很普遍也表示對照組中有足夠的暴露者可以比較。\n(A) 實驗研究不能讓人去暴露危險因子；(B) 病例交叉適合**短暫暴露、急性事件**；(C) 橫斷研究抓到的是盛行病例，罕見疾病抽不到；(D) 世代研究適合**罕見暴露**，不適合罕見疾病。",
+  "topics": [
+   "研究設計選擇"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114f-03",
+  "source": "114 期末考古",
+  "num": 3,
+  "chapter": "cohort-cc",
+  "type": "mcq",
+  "stem": "A study was conducted to determine the association between low-level lead exposure and intellectual function among young adulthood. Investigators enrolled children at birth and followed them until they were 10 years old. Blood lead levels were obtained at birth and several times thereafter. Children were given development assessments when they reached 10 years of age. What type of study design is this?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Case-control study"
+   },
+   {
+    "k": "B",
+    "t": "Cross-sectional study"
+   },
+   {
+    "k": "C",
+    "t": "Ambidirectional cohort study"
+   },
+   {
+    "k": "D",
+    "t": "Retrospective cohort study(i.e., Non-concurrent cohort study)"
+   },
+   {
+    "k": "E",
+    "t": "Prospective cohort study(i.e., Concurrent cohort study)"
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "**出生時收案**，出生時與之後多次測血鉛（暴露），一路**往後追蹤到 10 歲**才評估發展（結果）——研究開始時確定暴露、往未來追蹤，是**前瞻性（同期）世代研究**（E）。\n(C) 雙向世代要**回溯過去紀錄**再往未來追；(D) 回溯性世代的追蹤期在研究開始前就已經發生；(A) 病例對照從疾病出發；(B) 橫斷研究暴露與結果同時測量。",
+  "topics": [
+   "世代研究類型判斷"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114f-05",
+  "source": "114 期末考古",
+  "num": 5,
+  "chapter": "cohort-cc",
+  "type": "mcq",
+  "stem": "A cohort study is planned to investigate the potential adverse health effects of daily alcohol consumption. In assessing the risk of liver cancer related to alcoholism, which of the following is not an important methodological consideration in terms of study design?",
+  "options": [
+   {
+    "k": "A",
+    "t": "The difficulty of finding enough persons with liver cancer at the beginning of the study in whom alcohol consumption could be determined."
+   },
+   {
+    "k": "B",
+    "t": "The need to study a large number of persons for a common disease outcome."
+   },
+   {
+    "k": "C",
+    "t": "The possible bias associated with persons describing alcohol usage."
+   },
+   {
+    "k": "D",
+    "t": "The likelihood that doctors would monitor alcoholics more closely for liver cancers."
+   },
+   {
+    "k": "E",
+    "t": "The possibility that persons would change their alcohol consumption practices during the study period."
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "世代研究是從**無病**的人依暴露分組再往後追，**不需要**在研究開始時找肝癌病人——「開始時很難找到足夠的肝癌病人」是**病例對照研究**的考量（A）。\n其他都是世代研究要注意的：(B) 需要大量樣本；(C) 自述飲酒量的偏差；(D) 醫師可能更密切追蹤酗酒者 → 判定結果的偏差（應 blinded）；(E) 追蹤期間暴露狀態改變。",
+  "topics": [
+   "世代研究設計考量"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114f-06",
+  "source": "114 期末考古",
+  "num": 6,
+  "chapter": "cohort-cc",
+  "type": "mcq",
+  "stem": "Which of the following best describes the type of situation for which case-control studies are most advantageous compared to other designs?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Common exposure and rare disease"
+   },
+   {
+    "k": "B",
+    "t": "Rare exposure and rare disease"
+   },
+   {
+    "k": "C",
+    "t": "Common exposure and common disease"
+   },
+   {
+    "k": "D",
+    "t": "Rare exposure and common disease"
+   },
+   {
+    "k": "E",
+    "t": "No advantage in any of these situations"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "病例對照研究從疾病出發，**罕見疾病**時最有效率；而要在對照組中觀察到足夠的暴露差異，暴露要**常見** → **常見暴露、罕見疾病**（A）。\n罕見暴露應用**世代研究**（從暴露出發，可以特別找暴露族群）。",
+  "topics": [
+   "病例對照適用情境"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114f-07",
+  "source": "114 期末考古",
+  "num": 7,
+  "chapter": "cohort-cc",
+  "type": "mcq",
+  "stem": "Which of the following is NOT an advantage of a prospective cohort study?",
+  "options": [
+   {
+    "k": "A",
+    "t": "Precise measurement of exposure is possible."
+   },
+   {
+    "k": "B",
+    "t": "Incidence can be calculated."
+   },
+   {
+    "k": "C",
+    "t": "It usually costs less than a case-control study."
+   },
+   {
+    "k": "D",
+    "t": "Many disease outcomes can be studied simultaneously."
+   },
+   {
+    "k": "E",
+    "t": "Rare exposures are more easily studied than with a case-control study."
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "前瞻性世代研究要追蹤大量的人很多年，**通常比病例對照研究貴**，所以 (C) 不是優點。\n其他都是優點：(A) 暴露可以準確測量（在結果發生前、可重複測）；(B) 可以算發生率；(D) 一個暴露可以看多種結果；(E) 罕見暴露較適合世代研究（可以特別挑暴露族群）。",
+  "topics": [
+   "前瞻性世代優缺點"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114f-09",
+  "source": "114 期末考古",
+  "num": 9,
+  "chapter": "cohort-cc",
+  "type": "mcq",
+  "stem": "The odds ratio (OR) may be a good approximation of the risk ratio (RR). Thus, we could interpret OR as a RR. Which of the following statements best describes this situation?",
+  "options": [
+   {
+    "k": "A",
+    "t": "The OR may overestimate the RR when the outcome is rare."
+   },
+   {
+    "k": "B",
+    "t": "The OR may underestimate the RR when the outcome is common."
+   },
+   {
+    "k": "C",
+    "t": "The OR approximates the RR when the outcome is common."
+   },
+   {
+    "k": "D",
+    "t": "The OR approximates the RR when the outcome is rare."
+   },
+   {
+    "k": "E",
+    "t": "The OR approximates the RR when the outcome is rare or common."
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "當結果（疾病）**罕見**時，a、c 相對 b、d 很小，a/(a+b) ≈ a/b、c/(c+d) ≈ c/d，所以 **OR ≈ RR**（D；罕見疾病假設）。\n疾病常見時 OR 會**高估** RR（離 1 更遠），所以 (B) 低估、(C) 常見時近似、(E) 都近似都錯；(A) 罕見時是近似、不是高估。",
+  "topics": [
+   "OR 與 RR"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114f-21",
+  "source": "114 期末考古",
+  "num": 21,
+  "chapter": "cohort-cc",
+  "type": "mcq",
+  "stem": "A case-control study of maternal use of Bendectin (吡哆醇：緩減孕吐藥物) during pregnancy as a possible risk factor for congenital pyloric stenosis (嬰兒肥厚性幽門狹窄) in the offspring is conducted. Bendectin use is assessed with a mailed self-administered questionnaire in a case group of mothers of infants with congenital pyloric stenosis and a control group of mothers of normal infants. The bias most likely to result in this study is:",
+  "options": [
+   {
+    "k": "A",
+    "t": "Recall bias"
+   },
+   {
+    "k": "B",
+    "t": "Surveillance bias"
+   },
+   {
+    "k": "C",
+    "t": "Interviewer bias"
+   },
+   {
+    "k": "D",
+    "t": "Observer bias"
+   },
+   {
+    "k": "E",
+    "t": "Self-selection bias"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "病例對照研究用**問卷回憶**孕期用藥：生出幽門狹窄寶寶的母親會努力回想孕期吃過什麼，正常寶寶的母親比較不會 → 兩組回憶的完整度不同 → **回憶偏差（recall bias）**（A），是病例對照研究的主要限制之一。\n(C) 訪員偏差需要有訪員（這裡是郵寄自填問卷）；(B) 監測偏差、(D) 觀察者偏差多見於判定結果時；(E) 自我選擇偏差和參與意願有關。",
+  "topics": [
+   "病例對照偏差"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114f-22",
+  "source": "114 期末考古",
+  "num": 22,
+  "chapter": "cohort-cc",
+  "type": "mcq",
+  "stem": "Among patients with liver cancer, current alcohol drinkers have a worse prognosis for survival than nondrinkers. What would be the impact on the odds ratio (OR) for a case-control study of current alcohol use and liver cancer mortality if prevalent cases were included with incident cases of the cancer?",
+  "options": [
+   {
+    "k": "A",
+    "t": "The OR would be affected by the information bias."
+   },
+   {
+    "k": "B",
+    "t": "The OR would be a better approximation of the relative risk (RR)."
+   },
+   {
+    "k": "C",
+    "t": "There would be no difference in the OR when including prevalent cases."
+   },
+   {
+    "k": "D",
+    "t": "Increase the OR when prevalent cases are included."
+   },
+   {
+    "k": "E",
+    "t": "Decrease the OR when prevalent cases are included."
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "飲酒的肝癌病人**存活較差、死得比較快** → 在某個時間點還活著的**盛行病例**中，飲酒者會被低估 → case 組的暴露勝算變小 → **OR 變小**（E）。\n這就是老師說病例對照要盡量用**新發病例**的原因：盛行病例受**存活／病程**影響，量到的是「和存活有關的因素」而不只是病因。",
+  "topics": [
+   "新發 vs 盛行病例"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "k114f-32",
+  "source": "114 期末考古",
+  "num": 32,
+  "chapter": "cohort-cc",
+  "type": "mcq",
+  "stem": "The table below shows statistics of death incidence for low and high exposure groups only. Readers want to know the mortality for ESRD patients with high PM2.5 levels compared to low levels. Calculate the incidence rate ratio (IRR):\n\n| | Low PM2.5 levels | High PM2.5 levels |\n|---|---|---|\n| No. of patients | 6618 | 6935 |\n| No. of death cases | 1971 | 2340 |\n| Person-years | 40084.56 | 49692.74 |",
+  "options": [
+   {
+    "k": "A",
+    "t": "0.833"
+   },
+   {
+    "k": "B",
+    "t": "0.958"
+   },
+   {
+    "k": "C",
+    "t": "1.044"
+   },
+   {
+    "k": "D",
+    "t": "1.133"
+   },
+   {
+    "k": "E",
+    "t": "1.201"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "發生比率（incidence rate）的分母是**人時**：\n- 高 PM2.5：2340 / 49692.74 = 0.04709 /人年\n- 低 PM2.5：1971 / 40084.56 = 0.04917 /人年\n- **IRR = 0.04709 / 0.04917 ≈ 0.958**（B）\n陷阱：用人數當分母（2340/6935 ÷ 1971/6618 = 1.133，選項 D）算的是累積發生率的比（RR），題目問的是 **IRR**。",
+  "topics": [
+   "IRR 計算"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "new-cc-01",
+  "source": "模擬新題",
+  "num": 1,
+  "chapter": "cohort-cc",
+  "type": "mcq",
+  "stem": "某世代研究追蹤 1,000 名吸菸者與 2,000 名不吸菸者 10 年，吸菸者中 50 人、不吸菸者中 20 人發生慢性阻塞性肺病。下列何者正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "吸菸者的累積發生率是 5%，相對危險性（RR）為 5.0"
+   },
+   {
+    "k": "B",
+    "t": "吸菸者的累積發生率是 5%，RR 為 2.5"
+   },
+   {
+    "k": "C",
+    "t": "RR 為 5.0，表示吸菸者得 COPD 的勝算是不吸菸者的 5 倍"
+   },
+   {
+    "k": "D",
+    "t": "因為是世代研究，只能算勝算比（OR）"
+   },
+   {
+    "k": "E",
+    "t": "RR 為 2.5，表示吸菸是 COPD 的保護因子"
+   }
+  ],
+  "answer": [
+   "A"
+  ],
+  "explain": "- 吸菸者 risk = 50/1000 = **0.05**；不吸菸者 = 20/2000 = **0.01**\n- **RR = 0.05/0.01 = 5.0** → (A)\n- 解釋：經過 10 年追蹤，吸菸者發生 COPD 的**危險性**是不吸菸者的 5 倍（不是「勝算」，(C) 錯）。\n- (D) 世代研究可以直接算發生率與 RR；病例對照才只能算 OR。(E) RR > 1 是危險因子。",
+  "topics": [
+   "RR 計算與解釋"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "new-cc-02",
+  "source": "模擬新題",
+  "num": 2,
+  "chapter": "cohort-cc",
+  "type": "mcq",
+  "stem": "一項病例對照研究收 200 位膀胱癌病人與 400 位對照，病人中 120 位曾在染料工廠工作，對照中 100 位曾在染料工廠工作。勝算比（OR）為何？",
+  "options": [
+   {
+    "k": "A",
+    "t": "1.2"
+   },
+   {
+    "k": "B",
+    "t": "2.4"
+   },
+   {
+    "k": "C",
+    "t": "3.0"
+   },
+   {
+    "k": "D",
+    "t": "4.5"
+   },
+   {
+    "k": "E",
+    "t": "無法計算，因為病例對照研究不能算發生率"
+   }
+  ],
+  "answer": [
+   "D"
+  ],
+  "explain": "先畫 2×2 表（暴露在列、疾病在行）：\n\n| | 膀胱癌 | 對照 |\n|---|---|---|\n| 染料工廠 | a = 120 | b = 100 |\n| 未暴露 | c = 80 | d = 300 |\n\n**OR = ad/bc = (120 × 300)/(100 × 80) = 36000/8000 = 4.5**（D）。\n- case 的暴露勝算 = 120/80 = 1.5；control = 100/300 = 0.33；1.5/0.33 = 4.5。\n- (E) 病例對照**不能算 RR**，但可以算 **OR**。",
+  "topics": [
+   "OR 計算"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "new-cc-03",
+  "source": "模擬新題",
+  "num": 3,
+  "chapter": "cohort-cc",
+  "type": "mcq",
+  "stem": "承上題（OR = 4.5），下列哪一種解釋最正確？",
+  "options": [
+   {
+    "k": "A",
+    "t": "在染料工廠工作的人得膀胱癌的機率是未工作者的 4.5 倍"
+   },
+   {
+    "k": "B",
+    "t": "膀胱癌病人曾在染料工廠工作的勝算是對照的 4.5 倍"
+   },
+   {
+    "k": "C",
+    "t": "膀胱癌病人中有 4.5 倍的人在染料工廠工作"
+   },
+   {
+    "k": "D",
+    "t": "在染料工廠工作的人得膀胱癌的累積發生率為 4.5%"
+   },
+   {
+    "k": "E",
+    "t": "染料工廠工作對膀胱癌有保護作用"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "病例對照研究比較的是**暴露的勝算**：「**膀胱癌病人曾在染料工廠工作的勝算是沒有膀胱癌對照的 4.5 倍**」（B）。\n老師：算出 OR 之後**不可以說「暴露者的疾病發生是幾倍」**（A、D 是 RR／發生率的說法，病例對照算不出來）；(C) 混淆了比例與勝算；(E) OR > 1 是正相關。",
+  "topics": [
+   "OR 的解釋"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-cc-04",
+  "source": "模擬新題",
+  "num": 4,
+  "chapter": "cohort-cc",
+  "type": "mcq",
+  "stem": "一項個別配對的病例對照研究（每個 case 配一個同性別、同年齡的 control）有 100 對：case 與 control 都暴露 15 對、case 暴露而 control 未暴露 30 對、case 未暴露而 control 暴露 10 對、兩者都未暴露 45 對。配對勝算比為何？",
+  "options": [
+   {
+    "k": "A",
+    "t": "1.5"
+   },
+   {
+    "k": "B",
+    "t": "2.0"
+   },
+   {
+    "k": "C",
+    "t": "3.0"
+   },
+   {
+    "k": "D",
+    "t": "4.5"
+   },
+   {
+    "k": "E",
+    "t": "6.0"
+   }
+  ],
+  "answer": [
+   "C"
+  ],
+  "explain": "配對資料**只看不一致的配對（discordant pairs）**：\n- 分子：case 暴露、control 未暴露 = **30**（支持假說）\n- 分母：case 未暴露、control 暴露 = **10**\n- **Matched OR = 30/10 = 3.0**（C）\n一致的配對（15、45）不提供資訊；每一格是**配對數**，不能拿一般 2×2 表的 ad/bc 算。",
+  "topics": [
+   "配對 OR"
+  ],
+  "pattern": "計算題"
+ },
+ {
+  "id": "new-cc-05",
+  "source": "模擬新題",
+  "num": 5,
+  "chapter": "cohort-cc",
+  "type": "mcq",
+  "stem": "關於世代研究，下列敘述何者錯誤？",
+  "options": [
+   {
+    "k": "A",
+    "t": "前瞻性與回溯性世代研究都是比較暴露組與非暴露組的疾病發生"
+   },
+   {
+    "k": "B",
+    "t": "回溯性世代研究依賴既有紀錄，資料可能不完整"
+   },
+   {
+    "k": "C",
+    "t": "封閉世代研究常用累積發生率（risk）作為指標"
+   },
+   {
+    "k": "D",
+    "t": "開放（動態）世代的成員在追蹤期間可以進出，常用人時計算發生比率"
+   },
+   {
+    "k": "E",
+    "t": "世代研究適合罕見疾病，因為可以追蹤很長的時間"
+   }
+  ],
+  "answer": [
+   "E"
+  ],
+  "explain": "世代研究要等疾病發生，**罕見疾病**需要非常大的樣本、追蹤很久，**不適合**（E 錯）；罕見疾病用**病例對照**。\n(A) 兩者差別只在日曆時間；(B) 回溯性的限制；(C) 封閉世代人數固定，用累積發生率（0–1 的比例）；(D) 開放世代用人時當分母算 incidence rate。",
+  "topics": [
+   "世代研究特性"
+  ],
+  "pattern": "選正確／單一概念題"
+ },
+ {
+  "id": "new-cc-06",
+  "source": "模擬新題",
+  "num": 6,
+  "chapter": "cohort-cc",
+  "type": "mcq",
+  "stem": "在台北市以全市癌症登記資料收集淋巴瘤病例，研究扁桃腺切除與淋巴瘤的關係。對照組最適合從哪裡選？",
+  "options": [
+   {
+    "k": "A",
+    "t": "北醫附醫耳鼻喉科門診病人"
+   },
+   {
+    "k": "B",
+    "t": "全台北市一般族群的隨機樣本"
+   },
+   {
+    "k": "C",
+    "t": "淋巴瘤病人的家屬"
+   },
+   {
+    "k": "D",
+    "t": "全台灣健保資料中的隨機樣本"
+   },
+   {
+    "k": "E",
+    "t": "曾接受扁桃腺切除手術的人"
+   }
+  ],
+  "answer": [
+   "B"
+  ],
+  "explain": "老師：「**你的 case 從哪裡來，你的 control 就從哪裡來**」——control 要代表產生 case 的**同一來源族群**。case 來自**全台北市**的癌症登記，control 也要從**全台北市**選（B）。\n(A) 單一醫院且耳鼻喉科病人和扁桃腺有關；(C) 家屬和病人共享環境與基因；(D) 來源族群不同（全台灣）；(E) 依暴露選對照，違反「選 control 時不知道暴露」的原則。",
+  "topics": [
+   "對照的選擇"
+  ],
+  "pattern": "選正確／單一概念題"
+ }
+]
