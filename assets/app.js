@@ -7079,14 +7079,16 @@
     const cand =
       k === "stage"
         ? [
-            ...shuffle(lab.station.filter((s) => labGroupOf(lab, s) === x.group)),
+            ...shuffle(
+              lab.station.filter((s) => labGroupOf(lab, s) === x.group),
+            ),
             ...shuffle(lab.station),
           ]
             .map((s) => s.stage)
             .filter((v) => v && !/^(成蟲|中間宿主)$/.test(v))
-        : shuffle(Object.values(lab.taxa).filter((y) => y !== x && y.cyc?.[k])).map(
-            (y) => y.cyc[k],
-          );
+        : shuffle(
+            Object.values(lab.taxa).filter((y) => y !== x && y.cyc?.[k]),
+          ).map((y) => y.cyc[k]);
     const seen = new Set([base(a)]);
     const wrong = [];
     for (const v of cand) {
@@ -7106,14 +7108,18 @@
     );
     const same = shuffle(ids.filter((y) => lab.taxa[y].group === g));
     const other = shuffle(ids.filter((y) => lab.taxa[y].group !== g));
-    return shuffle([t, ...[...same.slice(0, 3), ...other, ...same.slice(3)].slice(0, 4)]);
+    return shuffle([
+      t,
+      ...[...same.slice(0, 3), ...other, ...same.slice(3)].slice(0, 4),
+    ]);
   }
   const LAB_ABC = "ABCDE";
   // 跑台作答方式：考試是選擇題（預設），也可以切成手寫學名、生活史自己對答案
   const LAB_AM = { mc: "選擇題", write: "手寫" };
   const LAB_AM_NOTE = {
-    mc: "跑台考的是選擇題：學名 5 選 1、生活史 4 選 1，選完自動對答案。",
-    write: "手寫學名（送出後自動判分，寫法有爭議可以按「我其實答對了」），生活史寫完自己對答案。",
+    mc: "選擇題：學名 5 選 1、生活史 4 選 1，選完自動對答案。",
+    write:
+      "手寫學名（送出後自動判分，寫法有爭議可以按「我其實答對了」），生活史寫完自己對答案。",
   };
   const labSrcOf = (it) =>
     it.exam ? "exam" : it.id.startsWith("atlas-") ? "atlas" : "deck";
@@ -7227,9 +7233,13 @@
           <div class="lab-filter"><span class="eyebrow">類別</span><div class="chips">${chip("g", "", "全部", pick({ g: "" }).length)}${groups.map((x) => chip("g", x, x, pick({ g: x }).length)).join("")}${missN ? chip("g", "miss", "答錯過", pick({ g: "miss" }).length) : ""}</div></div>
           ${
             mode === "station"
-              ? `<div class="lab-filter"><span class="eyebrow">作答方式</span><div class="chips">${Object.entries(LAB_AM)
+              ? `<div class="lab-filter"><span class="eyebrow">作答方式</span><div class="chips">${Object.entries(
+                  LAB_AM,
+                )
                   .map(([k, x]) => chip("am", k === "mc" ? "" : k, x))
-                  .join("")}</div><p class="muted lab-qt-note">${esc(LAB_AM_NOTE[am])}</p></div><div class="lab-filter"><span class="eyebrow">題型</span><div class="chips">${Object.entries(
+                  .join(
+                    "",
+                  )}</div><p class="muted lab-qt-note">${esc(LAB_AM_NOTE[am])}</p></div><div class="lab-filter"><span class="eyebrow">題型</span><div class="chips">${Object.entries(
                   LAB_QT,
                 )
                   .map(([k, x]) => chip("qt", k, x))
@@ -7290,7 +7300,13 @@
       `<div class="options lab-mc" role="group" aria-label="選項">${list
         .map((v, j) => {
           const cls =
-            picked == null ? "" : v === right ? "correct" : j === picked ? "wrong" : "dim";
+            picked == null
+              ? ""
+              : v === right
+                ? "correct"
+                : j === picked
+                  ? "wrong"
+                  : "dim";
           return `<button type="button" class="option ${cls}" ${attr}="${j}"${picked == null ? "" : " disabled"}><span class="key">${LAB_ABC[j]}</span><span class="txt">${txt(v)}</span>${ic(cls === "wrong" ? "x" : "check", "mark")}</button>`;
         })
         .join("")}</div>`;
@@ -7381,7 +7397,13 @@
           <form class="lab-form" autocomplete="off">
             ${
               mc && nameStep
-                ? optsHTML(nameOpts[S.i], ts[0], named ? r.pick : null, (v) => `<span class="sci">${labSci(lab.taxa[v])}</span>`, "data-pick") +
+                ? optsHTML(
+                    nameOpts[S.i],
+                    ts[0],
+                    named ? r.pick : null,
+                    (v) => `<span class="sci">${labSci(lab.taxa[v])}</span>`,
+                    "data-pick",
+                  ) +
                   (named
                     ? answerHTML(it, r)
                     : `<div class="toolbar"><button class="btn ghost" type="button" id="giveup">${ic("eye")}不會，看答案</button></div>`)
@@ -7456,7 +7478,10 @@
         sync(it, S.res[S.i]);
         paint();
         ($(".lab-cyc .option") || $("#next"))?.focus({ preventScroll: true });
-        $(".lab-verdict")?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+        $(".lab-verdict")?.scrollIntoView({
+          block: "nearest",
+          behavior: "smooth",
+        });
       };
       form.addEventListener("submit", (e) => {
         e.preventDefault();
@@ -7473,18 +7498,28 @@
       $("#giveup")?.addEventListener("click", () =>
         mc ? pickName(-1) : grade(ts.map(() => "")),
       );
-      $app.querySelectorAll("[data-pick]").forEach((b) =>
-        b.addEventListener("click", () => pickName(+b.dataset.pick)),
-      );
+      $app
+        .querySelectorAll("[data-pick]")
+        .forEach((b) =>
+          b.addEventListener("click", () => pickName(+b.dataset.pick)),
+        );
       $app.querySelectorAll("[data-cpick]").forEach((b) =>
         b.addEventListener("click", () => {
           const j = +b.dataset.cpick;
           const x = (S.res[S.i] ||= { typed: [], cyc: { typed: "" } });
-          x.cyc = { typed: c.opts[j], pick: j, shown: true, ok: c.opts[j] === c.a };
+          x.cyc = {
+            typed: c.opts[j],
+            pick: j,
+            shown: true,
+            ok: c.opts[j] === c.a,
+          };
           sync(it, x);
           paint();
           $("#next")?.focus({ preventScroll: true });
-          $(".lab-cyc-a")?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+          $(".lab-cyc-a")?.scrollIntoView({
+            block: "nearest",
+            behavior: "smooth",
+          });
         }),
       );
       $("#override")?.addEventListener("click", () => {
