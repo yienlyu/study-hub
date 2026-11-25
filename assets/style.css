@@ -1577,6 +1577,15 @@ body.cbt-on .bd-fab, body.cbt-on .bd-pop, body.cbt-on .mx-nudge, body.cbt-on .mx
 .lab-photo img { display: block; width: 100%; height: auto; max-height: 52vh; object-fit: contain; margin: 0 auto; }
 .lab-photo.sm img { max-height: 180px; }
 .lab-form { display: grid; gap: 10px; margin-top: 16px; }
+/* 寬螢幕：照片在左、選項在右，不用上下捲動 */
+@media (min-width: 880px) {
+  .flash.lab-run { max-width: 1180px; }
+  .lab-split { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(320px, 1fr); gap: clamp(18px, 2.4vw, 32px); align-items: start; }
+  .lab-split .lab-photo { position: sticky; top: 80px; }
+  .lab-split .lab-photo img { max-height: calc(100vh - 230px); }
+  .lab-split .lab-form { margin-top: 0; }
+  .lab-split .lab-form > .lab-cyc:first-child { margin-top: 0; }
+}
 .lab-row { display: flex; gap: 10px; align-items: center; }
 .lab-row .input { flex: 1; font-style: italic; }
 .lab-row .input::placeholder { font-style: normal; }

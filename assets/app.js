@@ -7393,6 +7393,7 @@
         <div class="flash-bar" aria-hidden="true"><i style="width:${(t.y / n) * 100}%;background:var(--good)"></i><i style="width:${(t.n / n) * 100}%;background:var(--bad)"></i></div>
         <section class="card lab-stage" data-sid="${esc(sid)}">
           <p class="q-stem">${stem}</p>
+          <div class="lab-split">
           <button type="button" class="lab-photo" data-zoom="lab:${esc(it.id)}" aria-label="放大照片"><img src="${esc(subj.path)}/${esc(it.src)}" width="${it.w}" height="${it.h}" alt="第 ${S.i + 1} 張練習照片" decoding="async"></button>
           <form class="lab-form" autocomplete="off">
             ${
@@ -7433,6 +7434,7 @@
                 : ""
             }
           </form>
+          </div>
         </section>
         <div class="shortcut-hint" aria-hidden="true"><span><kbd>Enter</kbd> 送出／下一張</span><span>點照片放大</span></div>
       </div></div></div>`;
