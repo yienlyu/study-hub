@@ -7031,9 +7031,9 @@
     station: {
       label: "跑台",
       icon: "target",
-      h: "跑台：看標本寫學名",
-      lede: "看顯微鏡下的實體標本寫學名（蟲卵另外考，在「混合蟲卵」）。",
-      rule: "考試時看顯微鏡下的實體標本（蟲體、幼蟲、體節、原蟲、節肢動物、中間宿主；寄生蟲蟲卵歸混合蟲卵），寫出學名。屬名可以縮寫（<i>A. lumbricoides</i>），部分寫 spp. 即可（<i>Echinostoma</i> spp.）。這裡的照片來自 I'm@TMU 寄生蟲學的線蟲／吸蟲／絛蟲／原蟲圖檔與節肢動物圖檔（已去掉生活史圖、手繪圖和電顯圖），另外加上百十三考古「109 成蟲線上考試」的照片。寄生蟲蟲卵不在這裡，在「混合蟲卵」練。<br>老師說跑台「不會問你這是什麼，會問你其他的問題」：生活史、診斷期、特殊病名（VLM、CLM）等；109 成蟲線上考試也有問感染期、寄生器官、檢驗材料、傳播疾病。所以預設是「學名＋生活史」，生活史答案依網站比較大表、蟲卡、絛蟲／原蟲章節與節肢動物圖檔整理。",
+      h: "跑台：看標本答選擇題",
+      lede: "看顯微鏡下的實體標本答選擇題（蟲卵另外考，在「混合蟲卵」，那場才要手寫學名）。",
+      rule: "跑台考的是<b>選擇題</b>：看顯微鏡下的實體標本（蟲體、幼蟲、體節、原蟲、節肢動物、中間宿主；寄生蟲蟲卵歸混合蟲卵）作答。練習預設是選擇題、自動對答案；想練得更熟可以切到「手寫」（屬名可縮寫、部分寫 spp. 即可）。要手寫英文學名的考試是混合蟲卵。這裡的照片來自 I'm@TMU 寄生蟲學的線蟲／吸蟲／絛蟲／原蟲圖檔與節肢動物圖檔（已去掉生活史圖、手繪圖和電顯圖），另外加上百十三考古「109 成蟲線上考試」的照片。寄生蟲蟲卵不在這裡，在「混合蟲卵」練。<br>老師說跑台「不會問你這是什麼，會問你其他的問題」：生活史、診斷期、特殊病名（VLM、CLM）等；109 成蟲線上考試也有問感染期、寄生器官、檢驗材料、傳播疾病。所以預設是「學名＋生活史」，生活史答案依網站比較大表、蟲卡、絛蟲／原蟲章節與節肢動物圖檔整理。",
       srcs: [
         ["", "全部"],
         ["deck", "上課圖檔"],
@@ -7058,9 +7058,9 @@
   // 跑台題型：老師說跑台常不問「這是什麼」，而是問生活史（中間宿主、感染期、診斷期、疾病名稱…）
   const LAB_QT = { mix: "學名＋生活史", name: "只考學名", cyc: "只考生活史" };
   const LAB_QT_NOTE = {
-    mix: "先寫學名，對完答案再回答一題生活史（自己對答案）。",
-    name: "只寫學名。",
-    cyc: "不問學名，直接問生活史：中間宿主、最終宿主、感染期、寄生部位、診斷、疾病名稱，或中間宿主帶什麼蟲、節肢動物傳什麼病。自己對答案。",
+    mix: "先選學名，再答一題生活史選擇題。",
+    name: "只選學名。",
+    cyc: "不問學名，直接問生活史：中間宿主、最終宿主、感染期、寄生部位、診斷、疾病名稱，或中間宿主帶什麼蟲、節肢動物傳什麼病，也可能問照片是哪一期。",
   };
   // 每張照片抽一題生活史：題型來自 taxa[].cyc；照片是幼蟲、體節等特定時期時也可能問「這是哪一期」
   function labCycPick(lab, it) {
@@ -7074,8 +7074,47 @@
       ks.push(["stage", it.stage], ["stage", it.stage]);
     if (!ks.length) return null;
     const [k, a] = ks[Math.floor(Math.random() * ks.length)];
-    return { k, q: lab.cycKinds[k], a };
+    // 選擇題：干擾選項取同一題型的其他答案；「哪一期」優先用同類別的時期
+    const base = (v) => v.replace(/（[^）]*）/g, "").trim();
+    const cand =
+      k === "stage"
+        ? [
+            ...shuffle(lab.station.filter((s) => labGroupOf(lab, s) === x.group)),
+            ...shuffle(lab.station),
+          ]
+            .map((s) => s.stage)
+            .filter((v) => v && !/^(成蟲|中間宿主)$/.test(v))
+        : shuffle(Object.values(lab.taxa).filter((y) => y !== x && y.cyc?.[k])).map(
+            (y) => y.cyc[k],
+          );
+    const seen = new Set([base(a)]);
+    const wrong = [];
+    for (const v of cand) {
+      if (wrong.length >= 3) break;
+      if (seen.has(base(v))) continue;
+      seen.add(base(v));
+      wrong.push(v);
+    }
+    return { k, q: lab.cycKinds[k], a, opts: shuffle([a, ...wrong]) };
   }
+  // 跑台學名選擇題：正解＋4 個干擾（優先同類別）
+  function labNameOpts(lab, it) {
+    const t = labTaxa(lab, it)[0];
+    const g = lab.taxa[t].group;
+    const ids = [...new Set(lab.station.map((s) => labTaxa(lab, s)[0]))].filter(
+      (y) => y !== t && lab.taxa[y].sci !== lab.taxa[t].sci,
+    );
+    const same = shuffle(ids.filter((y) => lab.taxa[y].group === g));
+    const other = shuffle(ids.filter((y) => lab.taxa[y].group !== g));
+    return shuffle([t, ...[...same.slice(0, 3), ...other, ...same.slice(3)].slice(0, 4)]);
+  }
+  const LAB_ABC = "ABCDE";
+  // 跑台作答方式：考試是選擇題（預設），也可以切成手寫學名、生活史自己對答案
+  const LAB_AM = { mc: "選擇題", write: "手寫" };
+  const LAB_AM_NOTE = {
+    mc: "跑台考的是選擇題：學名 5 選 1、生活史 4 選 1，選完自動對答案。",
+    write: "手寫學名（送出後自動判分，寫法有爭議可以按「我其實答對了」），生活史寫完自己對答案。",
+  };
   const labSrcOf = (it) =>
     it.exam ? "exam" : it.id.startsWith("atlas-") ? "atlas" : "deck";
   async function loadLab(subj) {
@@ -7124,6 +7163,7 @@
     const g = q.g || "";
     const src = q.src || "";
     const qt = mode === "station" ? (LAB_QT[q.qt] ? q.qt : "mix") : "name";
+    const am = mode === "station" && q.am === "write" ? "write" : "mc";
     const pick = (o = {}) => {
       const gg = o.g ?? g,
         ss = o.src ?? src;
@@ -7145,12 +7185,12 @@
       return runLab(subj, lab, pool, q, missKey);
     }
     const href = (o) =>
-      `#/s/${sid}/sheet/${labTab(mode)}?${qs({ g, src, qt: q.qt || "", ...o })}`;
+      `#/s/${sid}/sheet/${labTab(mode)}?${qs({ g, src, qt: q.qt || "", am: q.am || "", ...o })}`;
     const groups = lab.groups.filter((x) =>
       all.some((it) => labGroupOf(lab, it) === x),
     );
     const chip = (key, val, label, n) =>
-      `<a class="chip" href="${href({ [key]: val })}"${{ g, src, qt }[key] === val ? ' aria-current="true"' : ""}>${esc(label)}${n == null ? "" : `<span class="n">${n}</span>`}</a>`;
+      `<a class="chip" href="${href({ [key]: val })}"${{ g, src, qt, am: am === "write" ? "write" : "" }[key] === val ? ' aria-current="true"' : ""}>${esc(label)}${n == null ? "" : `<span class="n">${n}</span>`}</a>`;
     const pool = pick();
     const missN = all.filter((it) => miss.has(it.id)).length;
     // 答案範圍：混合蟲卵＝學名表 25 種；跑台＝圖檔裡出現的所有學名，依類別
@@ -7179,7 +7219,7 @@
         <header class="section-head" style="padding-top:14px;align-items:end">
           <div><div class="eyebrow">Lab practice · ${M.label} · ${all.length} 張</div>
           <h1 class="display h-l" style="margin-top:12px">${M.label}圖片練習</h1>
-          <p class="lede" style="margin-bottom:0">${M.lede}看照片打出學名，送出後自動對答案；寫法有爭議時可以按「我其實答對了」。答錯的照片會記下來，之後可以只練這些。</p></div>
+          <p class="lede" style="margin-bottom:0">${M.lede}${mode === "station" && am === "mc" ? "選完自動對答案。" : "看照片打出學名，送出後自動對答案；寫法有爭議時可以按「我其實答對了」。"}答錯的照片會記下來，之後可以只練這些。</p></div>
           <div class="toolbar noprint">${sheetTabs(sid, m, labTab(mode))}</div>
         </header>
         <div class="note" style="margin-top:16px">${ic(M.icon)}<div><b>${esc(M.h)}</b><br>${M.rule}</div></div>
@@ -7187,7 +7227,9 @@
           <div class="lab-filter"><span class="eyebrow">類別</span><div class="chips">${chip("g", "", "全部", pick({ g: "" }).length)}${groups.map((x) => chip("g", x, x, pick({ g: x }).length)).join("")}${missN ? chip("g", "miss", "答錯過", pick({ g: "miss" }).length) : ""}</div></div>
           ${
             mode === "station"
-              ? `<div class="lab-filter"><span class="eyebrow">題型</span><div class="chips">${Object.entries(
+              ? `<div class="lab-filter"><span class="eyebrow">作答方式</span><div class="chips">${Object.entries(LAB_AM)
+                  .map(([k, x]) => chip("am", k === "mc" ? "" : k, x))
+                  .join("")}</div><p class="muted lab-qt-note">${esc(LAB_AM_NOTE[am])}</p></div><div class="lab-filter"><span class="eyebrow">題型</span><div class="chips">${Object.entries(
                   LAB_QT,
                 )
                   .map(([k, x]) => chip("qt", k, x))
@@ -7224,7 +7266,7 @@
     const sid = subj.meta.id;
     const mode = LAB_MODE[q.mode] ? q.mode : "station";
     const qt = mode === "station" ? (LAB_QT[q.qt] ? q.qt : "mix") : "name";
-    const back = `#/s/${sid}/sheet/${labTab(mode)}?${qs({ g: q.g || "", src: q.src || "", qt: q.qt || "" })}`;
+    const back = `#/s/${sid}/sheet/${labTab(mode)}?${qs({ g: q.g || "", src: q.src || "", qt: q.qt || "", am: q.am || "" })}`;
     if (!pool.length) {
       render(
         emptyState(
@@ -7242,6 +7284,16 @@
       pool = pool.filter((_, k) => cycs[k]);
       cycs = cycs.filter(Boolean);
     }
+    const mc = mode === "station" && q.am !== "write";
+    const nameOpts = pool.map((it) => (mc ? labNameOpts(lab, it) : null));
+    const optsHTML = (list, right, picked, txt, attr) =>
+      `<div class="options lab-mc" role="group" aria-label="選項">${list
+        .map((v, j) => {
+          const cls =
+            picked == null ? "" : v === right ? "correct" : j === picked ? "wrong" : "dim";
+          return `<button type="button" class="option ${cls}" ${attr}="${j}"${picked == null ? "" : " disabled"}><span class="key">${LAB_ABC[j]}</span><span class="txt">${txt(v)}</span>${ic(cls === "wrong" ? "x" : "check", "mark")}</button>`;
+        })
+        .join("")}</div>`;
     const S = { i: 0, res: pool.map(() => null) };
     const done = (r, k) => r && (qt === "cyc" ? r.cyc.ok != null : !!r.marks);
     const okOf = (r) =>
@@ -7263,6 +7315,12 @@
     const cycHTML = (c, r) => {
       if (!c) return "";
       const y = r?.cyc;
+      if (mc && c.opts)
+        return `<div class="lab-cyc${y?.ok === true ? " ok" : y?.ok === false ? " ng" : ""}">
+        <p class="lab-cyc-q"><span class="pill line">${qt === "cyc" ? "跑台題" : "生活史"}</span>${esc(c.q)}</p>
+        ${optsHTML(c.opts, c.a, y?.shown ? y.pick : null, (v) => inlineMd(esc(v)), "data-cpick")}
+        ${y?.shown ? `<div class="lab-cyc-a"><b>${y.ok ? "答對" : "答案"}</b>　${inlineMd(esc(c.a))}</div>` : ""}
+      </div>`;
       return `<div class="lab-cyc${y?.ok === true ? " ok" : y?.ok === false ? " ng" : ""}">
         <p class="lab-cyc-q"><span class="pill line">${qt === "cyc" ? "跑台題" : "生活史"}</span>${esc(c.q)}</p>
         <label class="lab-row"><span class="sr-only">你的答案</span><input class="input" name="cyc" type="text" autocomplete="off" placeholder="寫下答案（自己對）" value="${esc(y?.typed || "")}"${y?.shown ? " readonly" : ""}></label>
@@ -7283,7 +7341,7 @@
           .map((t, k) => {
             const x = lab.taxa[t],
               mk = r.marks?.[k];
-            return `<li>${it.labels ? `<span class="tag">${esc(it.labels[k])}</span>` : ""}<span class="sci">${labSci(x)}</span><span class="zh">${esc(x.zh)}</span>${mk && !mk.ok ? `<span class="you">你寫：${r.typed[k] ? `<i>${esc(r.typed[k])}</i>` : "（空白）"}${mk.why ? `・${esc(mk.why)}` : ""}</span>` : ""}</li>`;
+            return `<li>${it.labels ? `<span class="tag">${esc(it.labels[k])}</span>` : ""}<span class="sci">${labSci(x)}</span><span class="zh">${esc(x.zh)}</span>${mk && !mk.ok ? `<span class="you">${mc ? "你選" : "你寫"}：${r.typed[k] ? `<i>${esc(r.typed[k])}</i>` : mc ? "（沒選）" : "（空白）"}${mk.why ? `・${esc(mk.why)}` : ""}</span>` : ""}</li>`;
           })
           .join("")}</ul>
         <p class="muted lab-from">${it.stage ? `${esc(it.stage)} · ` : ""}出處：${esc(it.from)}</p>
@@ -7305,7 +7363,7 @@
             ? "這是什麼蟲卵？寫出學名。"
             : qt === "cyc"
               ? "看照片，回答下面的問題。"
-              : "這是什麼？寫出學名。";
+              : "這是什麼？選出學名。";
       const canNext = qt === "cyc" ? r?.cyc?.ok != null : named;
       $app.innerHTML = `<div class="enter"><div class="wrap"><div class="flash lab-run">
         <div class="quiz-top">
@@ -7321,14 +7379,22 @@
           <p class="q-stem">${stem}</p>
           <button type="button" class="lab-photo" data-zoom="lab:${esc(it.id)}" aria-label="放大照片"><img src="${esc(subj.path)}/${esc(it.src)}" width="${it.w}" height="${it.h}" alt="第 ${S.i + 1} 張練習照片" decoding="async"></button>
           <form class="lab-form" autocomplete="off">
-            ${(nameStep ? ts : [])
+            ${
+              mc && nameStep
+                ? optsHTML(nameOpts[S.i], ts[0], named ? r.pick : null, (v) => `<span class="sci">${labSci(lab.taxa[v])}</span>`, "data-pick") +
+                  (named
+                    ? answerHTML(it, r)
+                    : `<div class="toolbar"><button class="btn ghost" type="button" id="giveup">${ic("eye")}不會，看答案</button></div>`)
+                : ""
+            }
+            ${(nameStep && !mc ? ts : [])
               .map(
                 (_, k) =>
                   `<label class="lab-row">${it.labels ? `<span class="tag">${esc(it.labels[k])}</span>` : `<span class="sr-only">學名</span>`}<input class="input" name="a${k}" type="text" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="輸入學名" value="${esc(r?.typed[k] || "")}"${r ? " readonly" : ""}></label>`,
               )
               .join("")}
             ${
-              nameStep
+              nameStep && !mc
                 ? named
                   ? answerHTML(it, r) +
                     (r.nameOk && !r.over
@@ -7377,15 +7443,50 @@
           behavior: "smooth",
         });
       };
+      const pickName = (j) => {
+        const tid = j < 0 ? null : nameOpts[S.i][j];
+        const ok = tid === ts[0];
+        S.res[S.i] = {
+          typed: [tid ? lab.taxa[tid].sci : ""],
+          pick: j < 0 ? null : j,
+          marks: [{ ok }],
+          nameOk: ok,
+          cyc: c ? { typed: "" } : null,
+        };
+        sync(it, S.res[S.i]);
+        paint();
+        ($(".lab-cyc .option") || $("#next"))?.focus({ preventScroll: true });
+        $(".lab-verdict")?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+      };
       form.addEventListener("submit", (e) => {
         e.preventDefault();
+        if (mc) {
+          if (canNext) go(S.i + 1);
+          return;
+        }
         if (nameStep && !named)
           return grade(ts.map((_, k) => form.elements[`a${k}`].value.trim()));
         if (c && !r?.cyc?.shown) return reveal();
         if (canNext || nameStep) go(S.i + 1);
       });
       $("#next")?.addEventListener("click", () => go(S.i + 1));
-      $("#giveup")?.addEventListener("click", () => grade(ts.map(() => "")));
+      $("#giveup")?.addEventListener("click", () =>
+        mc ? pickName(-1) : grade(ts.map(() => "")),
+      );
+      $app.querySelectorAll("[data-pick]").forEach((b) =>
+        b.addEventListener("click", () => pickName(+b.dataset.pick)),
+      );
+      $app.querySelectorAll("[data-cpick]").forEach((b) =>
+        b.addEventListener("click", () => {
+          const j = +b.dataset.cpick;
+          const x = (S.res[S.i] ||= { typed: [], cyc: { typed: "" } });
+          x.cyc = { typed: c.opts[j], pick: j, shown: true, ok: c.opts[j] === c.a };
+          sync(it, x);
+          paint();
+          $("#next")?.focus({ preventScroll: true });
+          $(".lab-cyc-a")?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+        }),
+      );
       $("#override")?.addEventListener("click", () => {
         const x = S.res[S.i];
         x.over = !x.over;
@@ -7401,7 +7502,11 @@
           $("#next")?.focus({ preventScroll: true });
         }),
       );
-      if (!r)
+      if (mc) {
+        if (!r) $(".lab-mc .option")?.focus({ preventScroll: true });
+        else if (named && c && !r.cyc?.shown)
+          $(".lab-cyc .option")?.focus({ preventScroll: true });
+      } else if (!r)
         (nameStep ? form.elements.a0 : form.elements.cyc)?.focus({
           preventScroll: true,
         });
@@ -7419,7 +7524,7 @@
       const t = tally();
       const bad = pool.filter((_, k) => done(S.res[k]) && !S.res[k].ok);
       const again = (o) =>
-        `#/s/${sid}/sheet/${labTab(mode)}?${qs({ g: q.g || "", src: q.src || "", qt: q.qt || "", n: q.n || "", play: 1, ...o })}`;
+        `#/s/${sid}/sheet/${labTab(mode)}?${qs({ g: q.g || "", src: q.src || "", qt: q.qt || "", am: q.am || "", n: q.n || "", play: 1, ...o })}`;
       render(`<div class="wrap"><div class="result">
         <div class="card result-hero">
           <div class="score-ring" style="--p:${pct(t.y, t.y + t.n)}"><div><b>${t.y}<small style="font-size:.4em"> / ${t.y + t.n}</small></b><span>答對</span></div></div>
@@ -7443,7 +7548,7 @@
                   <div>${labTaxa(lab, it)
                     .map(
                       (tid, k) =>
-                        `<div>${it.labels ? `<span class="tag">${esc(it.labels[k])}</span> ` : ""}<span class="sci">${labSci(lab.taxa[tid])}</span> <span class="zh">${esc(lab.taxa[tid].zh)}</span>${!r.marks || r.marks[k].ok || r.over ? "" : `<br><span class="you">你寫：${r.typed[k] ? `<i>${esc(r.typed[k])}</i>` : "（空白）"}</span>`}</div>`,
+                        `<div>${it.labels ? `<span class="tag">${esc(it.labels[k])}</span> ` : ""}<span class="sci">${labSci(lab.taxa[tid])}</span> <span class="zh">${esc(lab.taxa[tid].zh)}</span>${!r.marks || r.marks[k].ok || r.over ? "" : `<br><span class="you">${mc ? "你選" : "你寫"}：${r.typed[k] ? `<i>${esc(r.typed[k])}</i>` : mc ? "（沒選）" : "（空白）"}</span>`}</div>`,
                     )
                     .join(
                       "",

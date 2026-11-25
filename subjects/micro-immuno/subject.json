@@ -22,22 +22,18 @@
         "herpes-pox",
         "papova-adeno-parvo",
         "picorna-cov",
-        "ortho-paramyxo"
+        "ortho-paramyxo",
+        "toga-flavi-hep",
+        "retro-prion"
       ]
     },
     {
       "title": "期末・過敏反應（李岳倫）W14",
-      "chapters": [
-        "hypersensitivity"
-      ]
+      "chapters": ["hypersensitivity"]
     },
     {
       "title": "期中・細菌學總論（黃姿雯）W1",
-      "chapters": [
-        "bact-structure",
-        "bact-genetics",
-        "sterilization"
-      ],
+      "chapters": ["bact-structure", "bact-genetics", "sterilization"],
       "done": "26/11/4 midterm"
     },
     {
@@ -66,11 +62,7 @@
     },
     {
       "title": "期中・非同步遠距（W17–W18，期中考範圍）",
-      "chapters": [
-        "mhc",
-        "pathogenesis",
-        "immunodeficiency"
-      ],
+      "chapters": ["mhc", "pathogenesis", "immunodeficiency"],
       "done": "26/11/4 midterm"
     }
   ],
@@ -86,117 +78,85 @@
           "title": "細菌構造",
           "points": 6,
           "n": 5,
-          "from": [
-            "bact-structure"
-          ]
+          "from": ["bact-structure"]
         },
         {
           "title": "代謝遺傳＋滅菌",
           "points": 7,
           "n": 6,
-          "from": [
-            "bact-genetics",
-            "sterilization"
-          ]
+          "from": ["bact-genetics", "sterilization"]
         },
         {
           "title": "致病機制",
           "points": 3,
           "n": 2,
-          "from": [
-            "pathogenesis"
-          ]
+          "from": ["pathogenesis"]
         },
         {
           "title": "腸內菌、弧菌",
           "points": 7,
           "n": 6,
-          "from": [
-            "enterobacteriaceae",
-            "neisseria:Vibrio"
-          ]
+          "from": ["enterobacteriaceae", "neisseria:Vibrio"]
         },
         {
           "title": "桿菌、李斯特菌、棒狀桿菌",
           "points": 7,
           "n": 6,
-          "from": [
-            "bacillus"
-          ]
+          "from": ["bacillus"]
         },
         {
           "title": "葡萄球菌、鏈球菌、奈瑟氏菌",
           "points": 7,
           "n": 6,
-          "from": [
-            "staph-strep",
-            "neisseria:Neisseria"
-          ]
+          "from": ["staph-strep", "neisseria:Neisseria"]
         },
         {
           "title": "綠膿桿菌、彎曲桿菌",
           "points": 4,
           "n": 3,
-          "from": [
-            "neisseria:Pseudomonas|H. pylori／Campylobacter"
-          ]
+          "from": ["neisseria:Pseudomonas|H. pylori／Campylobacter"]
         },
         {
           "title": "真菌構造與抗真菌藥",
           "points": 3,
           "n": 3,
-          "from": [
-            "fungi:真菌構造與分類|抗真菌藥物"
-          ]
+          "from": ["fungi:真菌構造與分類|抗真菌藥物"]
         },
         {
           "title": "真菌感染",
           "points": 6,
           "n": 5,
-          "from": [
-            "fungi:!真菌構造與分類|抗真菌藥物"
-          ]
+          "from": ["fungi:!真菌構造與分類|抗真菌藥物"]
         },
         {
           "title": "病毒構造、複製、分類與抗病毒藥",
           "points": 6,
           "n": 5,
-          "from": [
-            "viruses"
-          ]
+          "from": ["viruses"]
         },
         {
           "title": "免疫基本概念",
           "points": 6,
           "n": 5,
-          "from": [
-            "immuno-basic"
-          ]
+          "from": ["immuno-basic"]
         },
         {
           "title": "先天免疫",
           "points": 7,
           "n": 6,
-          "from": [
-            "innate"
-          ]
+          "from": ["innate"]
         },
         {
           "title": "B 細胞與體液性免疫",
           "points": 7,
           "n": 6,
-          "from": [
-            "agab",
-            "tcell-act:B 細胞活化／class switch／生發中心"
-          ]
+          "from": ["agab", "tcell-act:B 細胞活化／class switch／生發中心"]
         },
         {
           "title": "抗原呈現與 MHC",
           "points": 7,
           "n": 6,
-          "from": [
-            "mhc"
-          ]
+          "from": ["mhc"]
         },
         {
           "title": "T 細胞與細胞性免疫",
@@ -221,17 +181,13 @@
           "title": "宿主對感染之防衛",
           "points": 7,
           "n": 6,
-          "from": [
-            "infection-immunity"
-          ]
+          "from": ["infection-immunity"]
         },
         {
           "title": "免疫缺陷",
           "points": 3,
           "n": 3,
-          "from": [
-            "immunodeficiency"
-          ]
+          "from": ["immunodeficiency"]
         }
       ],
       "newRatio": 0.2
@@ -248,9 +204,7 @@
           "title": "過敏反應（李岳倫）",
           "points": 7,
           "n": 7,
-          "from": [
-            "hypersensitivity"
-          ]
+          "from": ["hypersensitivity"]
         }
       ],
       "newRatio": 0.2
@@ -434,6 +388,22 @@
       "slides": true
     },
     {
+      "id": "toga-flavi-hep",
+      "title": "披衣病毒、黃病毒與肝炎病毒",
+      "en": "Togaviruses, Flaviviruses & Hepatitis viruses",
+      "teacher": "林良宗",
+      "week": "W11-1",
+      "slides": true
+    },
+    {
+      "id": "retro-prion",
+      "title": "反轉錄病毒與普利昂疾病",
+      "en": "Retroviruses & Prion diseases",
+      "teacher": "吳珊瑩",
+      "week": "W11-2（11/20）",
+      "slides": true
+    },
+    {
       "id": "hypersensitivity",
       "title": "過敏反應",
       "en": "Hypersensitivity",
@@ -478,10 +448,7 @@
       "各論以臨床情境＋實驗室鑑別為主。",
       "catalase、溶血、CAMP、optochin、乳糖發酵是固定考法。"
     ],
-    [
-      "真菌章約有 10 題看圖題。",
-      "孢子型態、皮癬菌大孢子需要搭配課本圖譜複習。"
-    ]
+    ["真菌章約有 10 題看圖題。", "孢子型態、皮癬菌大孢子需要搭配課本圖譜複習。"]
   ],
   "sources": [
     {
