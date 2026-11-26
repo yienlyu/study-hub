@@ -3840,6 +3840,2643 @@
    "src": "figures/lab/st-b109-49-0.webp",
    "w": 640,
    "h": 620
+  },
+  {
+   "id": "cdc-int-010-0",
+   "t": "strongyloides",
+   "stage": "桿狀幼蟲 rhabditiform larva",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.5",
+   "src": "figures/lab/st-cdc-int-010-0.webp",
+   "w": 321,
+   "h": 321
+  },
+  {
+   "id": "cdc-int-010-1",
+   "t": "strongyloides",
+   "stage": "桿狀幼蟲 rhabditiform larva",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.5",
+   "src": "figures/lab/st-cdc-int-010-1.webp",
+   "w": 640,
+   "h": 320
+  },
+  {
+   "id": "cdc-int-010-2",
+   "t": "strongyloides",
+   "stage": "桿狀幼蟲 rhabditiform larva",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.5",
+   "src": "figures/lab/st-cdc-int-010-2.webp",
+   "w": 640,
+   "h": 640
+  },
+  {
+   "id": "cdc-int-010-3",
+   "t": "strongyloides",
+   "stage": "桿狀幼蟲 rhabditiform larva",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.5",
+   "src": "figures/lab/st-cdc-int-010-3.webp",
+   "w": 314,
+   "h": 321
+  },
+  {
+   "id": "cdc-int-010-4",
+   "t": "strongyloides",
+   "stage": "桿狀幼蟲 rhabditiform larva",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.5",
+   "src": "figures/lab/st-cdc-int-010-4.webp",
+   "w": 321,
+   "h": 320
+  },
+  {
+   "id": "cdc-int-010-5",
+   "t": "strongyloides",
+   "stage": "桿狀幼蟲 rhabditiform larva",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.5",
+   "src": "figures/lab/st-cdc-int-010-5.webp",
+   "w": 640,
+   "h": 314
+  },
+  {
+   "id": "cdc-int-050-0",
+   "t": "ascaris",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.45",
+   "src": "figures/lab/st-cdc-int-050-0.webp",
+   "w": 552,
+   "h": 410
+  },
+  {
+   "id": "cdc-int-050-1",
+   "t": "ascaris",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.45",
+   "src": "figures/lab/st-cdc-int-050-1.webp",
+   "w": 418,
+   "h": 562
+  },
+  {
+   "id": "cdc-int-050-2",
+   "t": "ascaris",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.45",
+   "src": "figures/lab/st-cdc-int-050-2.webp",
+   "w": 640,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-050-3",
+   "t": "ascaris",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.45",
+   "src": "figures/lab/st-cdc-int-050-3.webp",
+   "w": 640,
+   "h": 475
+  },
+  {
+   "id": "cdc-int-050-4",
+   "t": "ascaris",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.45",
+   "src": "figures/lab/st-cdc-int-050-4.webp",
+   "w": 639,
+   "h": 478
+  },
+  {
+   "id": "cdc-int-052-0",
+   "t": "trichuris",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.47",
+   "src": "figures/lab/st-cdc-int-052-0.webp",
+   "w": 556,
+   "h": 414
+  },
+  {
+   "id": "cdc-int-052-1",
+   "t": "trichuris",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.47",
+   "src": "figures/lab/st-cdc-int-052-1.webp",
+   "w": 640,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-052-2",
+   "t": "trichuris",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.47",
+   "src": "figures/lab/st-cdc-int-052-2.webp",
+   "w": 640,
+   "h": 465
+  },
+  {
+   "id": "cdc-int-052-3",
+   "t": "trichuris",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.47",
+   "src": "figures/lab/st-cdc-int-052-3.webp",
+   "w": 640,
+   "h": 475
+  },
+  {
+   "id": "cdc-int-052-4",
+   "t": "trichuris",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.47",
+   "src": "figures/lab/st-cdc-int-052-4.webp",
+   "w": 452,
+   "h": 620
+  },
+  {
+   "id": "cdc-int-054-0",
+   "t": "a-duodenale",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.49",
+   "src": "figures/lab/st-cdc-int-054-0.webp",
+   "w": 273,
+   "h": 202
+  },
+  {
+   "id": "cdc-int-054-1",
+   "t": "a-duodenale",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.49",
+   "src": "figures/lab/st-cdc-int-054-1.webp",
+   "w": 640,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-054-2",
+   "t": "a-duodenale",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.49",
+   "src": "figures/lab/st-cdc-int-054-2.webp",
+   "w": 640,
+   "h": 475
+  },
+  {
+   "id": "cdc-int-054-3",
+   "t": "a-duodenale",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.49",
+   "src": "figures/lab/st-cdc-int-054-3.webp",
+   "w": 640,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-054-4",
+   "t": "a-duodenale",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.49",
+   "src": "figures/lab/st-cdc-int-054-4.webp",
+   "w": 640,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-056-0",
+   "t": "necator",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.51",
+   "src": "figures/lab/st-cdc-int-056-0.webp",
+   "w": 640,
+   "h": 475
+  },
+  {
+   "id": "cdc-int-056-1",
+   "t": "necator",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.51",
+   "src": "figures/lab/st-cdc-int-056-1.webp",
+   "w": 640,
+   "h": 475
+  },
+  {
+   "id": "cdc-int-056-2",
+   "t": "necator",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.51",
+   "src": "figures/lab/st-cdc-int-056-2.webp",
+   "w": 518,
+   "h": 385
+  },
+  {
+   "id": "cdc-int-056-3",
+   "t": "necator",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.51",
+   "src": "figures/lab/st-cdc-int-056-3.webp",
+   "w": 640,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-056-4",
+   "t": "necator",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.51",
+   "src": "figures/lab/st-cdc-int-056-4.webp",
+   "w": 640,
+   "h": 475
+  },
+  {
+   "id": "cdc-int-056-5",
+   "t": "necator",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.51",
+   "src": "figures/lab/st-cdc-int-056-5.webp",
+   "w": 640,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-060-0",
+   "t": "enterobius",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.55",
+   "src": "figures/lab/st-cdc-int-060-0.webp",
+   "w": 640,
+   "h": 474
+  },
+  {
+   "id": "cdc-int-060-1",
+   "t": "enterobius",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.55",
+   "src": "figures/lab/st-cdc-int-060-1.webp",
+   "w": 640,
+   "h": 475
+  },
+  {
+   "id": "cdc-int-060-2",
+   "t": "enterobius",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.55",
+   "src": "figures/lab/st-cdc-int-060-2.webp",
+   "w": 640,
+   "h": 475
+  },
+  {
+   "id": "cdc-int-060-3",
+   "t": "enterobius",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.55",
+   "src": "figures/lab/st-cdc-int-060-3.webp",
+   "w": 640,
+   "h": 475
+  },
+  {
+   "id": "cdc-int-060-4",
+   "t": "enterobius",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.55",
+   "src": "figures/lab/st-cdc-int-060-4.webp",
+   "w": 266,
+   "h": 358
+  },
+  {
+   "id": "cdc-int-062-0",
+   "t": "strongyloides",
+   "stage": "幼蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.57",
+   "src": "figures/lab/st-cdc-int-062-0.webp",
+   "w": 640,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-062-1",
+   "t": "strongyloides",
+   "stage": "幼蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.57",
+   "src": "figures/lab/st-cdc-int-062-1.webp",
+   "w": 640,
+   "h": 475
+  },
+  {
+   "id": "cdc-int-062-2",
+   "t": "strongyloides",
+   "stage": "幼蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.57",
+   "src": "figures/lab/st-cdc-int-062-2.webp",
+   "w": 640,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-062-3",
+   "t": "strongyloides",
+   "stage": "幼蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.57",
+   "src": "figures/lab/st-cdc-int-062-3.webp",
+   "w": 640,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-062-4",
+   "t": "strongyloides",
+   "stage": "幼蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.57",
+   "src": "figures/lab/st-cdc-int-062-4.webp",
+   "w": 462,
+   "h": 343
+  },
+  {
+   "id": "cdc-int-062-5",
+   "t": "strongyloides",
+   "stage": "幼蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.57",
+   "src": "figures/lab/st-cdc-int-062-5.webp",
+   "w": 640,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-064-0",
+   "t": "hookworm",
+   "stage": "幼蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.59",
+   "src": "figures/lab/st-cdc-int-064-0.webp",
+   "w": 640,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-064-1",
+   "t": "hookworm",
+   "stage": "幼蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.59",
+   "src": "figures/lab/st-cdc-int-064-1.webp",
+   "w": 640,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-064-2",
+   "t": "hookworm",
+   "stage": "幼蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.59",
+   "src": "figures/lab/st-cdc-int-064-2.webp",
+   "w": 640,
+   "h": 475
+  },
+  {
+   "id": "cdc-int-064-3",
+   "t": "hookworm",
+   "stage": "幼蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.59",
+   "src": "figures/lab/st-cdc-int-064-3.webp",
+   "w": 640,
+   "h": 475
+  },
+  {
+   "id": "cdc-int-064-4",
+   "t": "hookworm",
+   "stage": "幼蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.59",
+   "src": "figures/lab/st-cdc-int-064-4.webp",
+   "w": 603,
+   "h": 425
+  },
+  {
+   "id": "cdc-int-064-5",
+   "t": "hookworm",
+   "stage": "幼蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.59",
+   "src": "figures/lab/st-cdc-int-064-5.webp",
+   "w": 286,
+   "h": 384
+  },
+  {
+   "id": "cdc-int-065-0",
+   "t": "anisakis",
+   "stage": "幼蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.60",
+   "src": "figures/lab/st-cdc-int-065-0.webp",
+   "w": 424,
+   "h": 390
+  },
+  {
+   "id": "cdc-int-065-1",
+   "t": "anisakis",
+   "stage": "幼蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.60",
+   "src": "figures/lab/st-cdc-int-065-1.webp",
+   "w": 424,
+   "h": 393
+  },
+  {
+   "id": "cdc-int-065-2",
+   "t": "anisakis",
+   "stage": "幼蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.60",
+   "src": "figures/lab/st-cdc-int-065-2.webp",
+   "w": 424,
+   "h": 389
+  },
+  {
+   "id": "cdc-int-066-1",
+   "t": "t-asiatica",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.61",
+   "src": "figures/lab/st-cdc-int-066-1.webp",
+   "w": 424,
+   "h": 390
+  },
+  {
+   "id": "cdc-int-066-2",
+   "t": "t-asiatica",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.61",
+   "src": "figures/lab/st-cdc-int-066-2.webp",
+   "w": 423,
+   "h": 390
+  },
+  {
+   "id": "cdc-int-068-0",
+   "t": "d-latum",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.63",
+   "src": "figures/lab/st-cdc-int-068-0.webp",
+   "w": 640,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-068-1",
+   "t": "d-latum",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.63",
+   "src": "figures/lab/st-cdc-int-068-1.webp",
+   "w": 582,
+   "h": 433
+  },
+  {
+   "id": "cdc-int-068-2",
+   "t": "d-latum",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.63",
+   "src": "figures/lab/st-cdc-int-068-2.webp",
+   "w": 257,
+   "h": 191
+  },
+  {
+   "id": "cdc-int-068-3",
+   "t": "d-latum",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.63",
+   "src": "figures/lab/st-cdc-int-068-3.webp",
+   "w": 640,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-068-4",
+   "t": "d-latum",
+   "stage": "成蟲",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.63",
+   "src": "figures/lab/st-cdc-int-068-4.webp",
+   "w": 640,
+   "h": 475
+  },
+  {
+   "id": "cdc-int-072-0",
+   "t": "e-histolytica",
+   "stage": "活動體 trophozoite（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.67",
+   "src": "figures/lab/st-cdc-int-072-0.webp",
+   "w": 139,
+   "h": 166
+  },
+  {
+   "id": "cdc-int-072-1",
+   "t": "e-histolytica",
+   "stage": "活動體 trophozoite（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.67",
+   "src": "figures/lab/st-cdc-int-072-1.webp",
+   "w": 137,
+   "h": 166
+  },
+  {
+   "id": "cdc-int-072-2",
+   "t": "e-histolytica",
+   "stage": "活動體 trophozoite（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.67",
+   "src": "figures/lab/st-cdc-int-072-2.webp",
+   "w": 139,
+   "h": 166
+  },
+  {
+   "id": "cdc-int-072-3",
+   "t": "e-histolytica",
+   "stage": "活動體 trophozoite（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.67",
+   "src": "figures/lab/st-cdc-int-072-3.webp",
+   "w": 137,
+   "h": 166
+  },
+  {
+   "id": "cdc-int-072-4",
+   "t": "e-histolytica",
+   "stage": "活動體 trophozoite（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.67",
+   "src": "figures/lab/st-cdc-int-072-4.webp",
+   "w": 140,
+   "h": 166
+  },
+  {
+   "id": "cdc-int-072-5",
+   "t": "e-histolytica",
+   "stage": "活動體 trophozoite（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.67",
+   "src": "figures/lab/st-cdc-int-072-5.webp",
+   "w": 145,
+   "h": 166
+  },
+  {
+   "id": "cdc-int-074-0",
+   "t": "e-histolytica",
+   "stage": "前囊體 precyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.69",
+   "src": "figures/lab/st-cdc-int-074-0.webp",
+   "w": 448,
+   "h": 400
+  },
+  {
+   "id": "cdc-int-074-1",
+   "t": "e-histolytica",
+   "stage": "前囊體 precyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.69",
+   "src": "figures/lab/st-cdc-int-074-1.webp",
+   "w": 285,
+   "h": 310
+  },
+  {
+   "id": "cdc-int-074-2",
+   "t": "e-histolytica",
+   "stage": "前囊體 precyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.69",
+   "src": "figures/lab/st-cdc-int-074-2.webp",
+   "w": 252,
+   "h": 278
+  },
+  {
+   "id": "cdc-int-074-3",
+   "t": "e-histolytica",
+   "stage": "前囊體 precyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.69",
+   "src": "figures/lab/st-cdc-int-074-3.webp",
+   "w": 405,
+   "h": 456
+  },
+  {
+   "id": "cdc-int-074-4",
+   "t": "e-histolytica",
+   "stage": "前囊體 precyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.69",
+   "src": "figures/lab/st-cdc-int-074-4.webp",
+   "w": 400,
+   "h": 428
+  },
+  {
+   "id": "cdc-int-074-5",
+   "t": "e-histolytica",
+   "stage": "前囊體 precyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.69",
+   "src": "figures/lab/st-cdc-int-074-5.webp",
+   "w": 394,
+   "h": 429
+  },
+  {
+   "id": "cdc-int-076-0",
+   "t": "e-histolytica",
+   "stage": "囊體 cyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.71",
+   "src": "figures/lab/st-cdc-int-076-0.webp",
+   "w": 291,
+   "h": 432
+  },
+  {
+   "id": "cdc-int-076-1",
+   "t": "e-histolytica",
+   "stage": "囊體 cyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.71",
+   "src": "figures/lab/st-cdc-int-076-1.webp",
+   "w": 322,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-076-2",
+   "t": "e-histolytica",
+   "stage": "囊體 cyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.71",
+   "src": "figures/lab/st-cdc-int-076-2.webp",
+   "w": 321,
+   "h": 477
+  },
+  {
+   "id": "cdc-int-076-3",
+   "t": "e-histolytica",
+   "stage": "囊體 cyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.71",
+   "src": "figures/lab/st-cdc-int-076-3.webp",
+   "w": 214,
+   "h": 317
+  },
+  {
+   "id": "cdc-int-076-4",
+   "t": "e-histolytica",
+   "stage": "囊體 cyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.71",
+   "src": "figures/lab/st-cdc-int-076-4.webp",
+   "w": 214,
+   "h": 315
+  },
+  {
+   "id": "cdc-int-076-5",
+   "t": "e-histolytica",
+   "stage": "囊體 cyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.71",
+   "src": "figures/lab/st-cdc-int-076-5.webp",
+   "w": 311,
+   "h": 446
+  },
+  {
+   "id": "cdc-int-078-0",
+   "t": "e-coli",
+   "stage": "活動體 trophozoite（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.73",
+   "src": "figures/lab/st-cdc-int-078-0.webp",
+   "w": 401,
+   "h": 446
+  },
+  {
+   "id": "cdc-int-078-1",
+   "t": "e-coli",
+   "stage": "活動體 trophozoite（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.73",
+   "src": "figures/lab/st-cdc-int-078-1.webp",
+   "w": 402,
+   "h": 430
+  },
+  {
+   "id": "cdc-int-078-2",
+   "t": "e-coli",
+   "stage": "活動體 trophozoite（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.73",
+   "src": "figures/lab/st-cdc-int-078-2.webp",
+   "w": 401,
+   "h": 449
+  },
+  {
+   "id": "cdc-int-078-3",
+   "t": "e-coli",
+   "stage": "活動體 trophozoite（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.73",
+   "src": "figures/lab/st-cdc-int-078-3.webp",
+   "w": 355,
+   "h": 385
+  },
+  {
+   "id": "cdc-int-078-4",
+   "t": "e-coli",
+   "stage": "活動體 trophozoite（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.73",
+   "src": "figures/lab/st-cdc-int-078-4.webp",
+   "w": 321,
+   "h": 344
+  },
+  {
+   "id": "cdc-int-078-5",
+   "t": "e-coli",
+   "stage": "活動體 trophozoite（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.73",
+   "src": "figures/lab/st-cdc-int-078-5.webp",
+   "w": 363,
+   "h": 383
+  },
+  {
+   "id": "cdc-int-080-0",
+   "t": "e-coli",
+   "stage": "囊體 cyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.75",
+   "src": "figures/lab/st-cdc-int-080-0.webp",
+   "w": 326,
+   "h": 366
+  },
+  {
+   "id": "cdc-int-080-1",
+   "t": "e-coli",
+   "stage": "囊體 cyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.75",
+   "src": "figures/lab/st-cdc-int-080-1.webp",
+   "w": 331,
+   "h": 373
+  },
+  {
+   "id": "cdc-int-080-2",
+   "t": "e-coli",
+   "stage": "囊體 cyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.75",
+   "src": "figures/lab/st-cdc-int-080-2.webp",
+   "w": 335,
+   "h": 377
+  },
+  {
+   "id": "cdc-int-080-3",
+   "t": "e-coli",
+   "stage": "囊體 cyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.75",
+   "src": "figures/lab/st-cdc-int-080-3.webp",
+   "w": 337,
+   "h": 379
+  },
+  {
+   "id": "cdc-int-080-4",
+   "t": "e-coli",
+   "stage": "囊體 cyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.75",
+   "src": "figures/lab/st-cdc-int-080-4.webp",
+   "w": 425,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-080-5",
+   "t": "e-coli",
+   "stage": "囊體 cyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.75",
+   "src": "figures/lab/st-cdc-int-080-5.webp",
+   "w": 186,
+   "h": 199
+  },
+  {
+   "id": "cdc-int-088-0",
+   "t": "iodamoeba",
+   "stage": "活動體 trophozoite（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.83",
+   "src": "figures/lab/st-cdc-int-088-0.webp",
+   "w": 387,
+   "h": 441
+  },
+  {
+   "id": "cdc-int-088-1",
+   "t": "iodamoeba",
+   "stage": "活動體 trophozoite（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.83",
+   "src": "figures/lab/st-cdc-int-088-1.webp",
+   "w": 440,
+   "h": 361
+  },
+  {
+   "id": "cdc-int-088-2",
+   "t": "iodamoeba",
+   "stage": "活動體 trophozoite（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.83",
+   "src": "figures/lab/st-cdc-int-088-2.webp",
+   "w": 424,
+   "h": 477
+  },
+  {
+   "id": "cdc-int-088-3",
+   "t": "iodamoeba",
+   "stage": "活動體 trophozoite（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.83",
+   "src": "figures/lab/st-cdc-int-088-3.webp",
+   "w": 394,
+   "h": 423
+  },
+  {
+   "id": "cdc-int-088-4",
+   "t": "iodamoeba",
+   "stage": "活動體 trophozoite（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.83",
+   "src": "figures/lab/st-cdc-int-088-4.webp",
+   "w": 375,
+   "h": 424
+  },
+  {
+   "id": "cdc-int-088-5",
+   "t": "iodamoeba",
+   "stage": "活動體 trophozoite（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.83",
+   "src": "figures/lab/st-cdc-int-088-5.webp",
+   "w": 387,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-090-0",
+   "t": "iodamoeba",
+   "stage": "囊體 cyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.85",
+   "src": "figures/lab/st-cdc-int-090-0.webp",
+   "w": 338,
+   "h": 380
+  },
+  {
+   "id": "cdc-int-090-1",
+   "t": "iodamoeba",
+   "stage": "囊體 cyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.85",
+   "src": "figures/lab/st-cdc-int-090-1.webp",
+   "w": 303,
+   "h": 330
+  },
+  {
+   "id": "cdc-int-090-2",
+   "t": "iodamoeba",
+   "stage": "囊體 cyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.85",
+   "src": "figures/lab/st-cdc-int-090-2.webp",
+   "w": 330,
+   "h": 352
+  },
+  {
+   "id": "cdc-int-090-3",
+   "t": "iodamoeba",
+   "stage": "囊體 cyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.85",
+   "src": "figures/lab/st-cdc-int-090-3.webp",
+   "w": 155,
+   "h": 174
+  },
+  {
+   "id": "cdc-int-090-4",
+   "t": "iodamoeba",
+   "stage": "囊體 cyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.85",
+   "src": "figures/lab/st-cdc-int-090-4.webp",
+   "w": 358,
+   "h": 396
+  },
+  {
+   "id": "cdc-int-090-5",
+   "t": "iodamoeba",
+   "stage": "囊體 cyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.85",
+   "src": "figures/lab/st-cdc-int-090-5.webp",
+   "w": 382,
+   "h": 418
+  },
+  {
+   "id": "cdc-int-094-0",
+   "t": "giardia",
+   "stage": "活動體 trophozoite（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.89",
+   "src": "figures/lab/st-cdc-int-094-0.webp",
+   "w": 254,
+   "h": 285
+  },
+  {
+   "id": "cdc-int-094-1",
+   "t": "giardia",
+   "stage": "活動體 trophozoite（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.89",
+   "src": "figures/lab/st-cdc-int-094-1.webp",
+   "w": 424,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-094-2",
+   "t": "giardia",
+   "stage": "活動體 trophozoite（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.89",
+   "src": "figures/lab/st-cdc-int-094-2.webp",
+   "w": 418,
+   "h": 477
+  },
+  {
+   "id": "cdc-int-094-3",
+   "t": "giardia",
+   "stage": "活動體 trophozoite（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.89",
+   "src": "figures/lab/st-cdc-int-094-3.webp",
+   "w": 375,
+   "h": 427
+  },
+  {
+   "id": "cdc-int-094-4",
+   "t": "giardia",
+   "stage": "活動體 trophozoite（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.89",
+   "src": "figures/lab/st-cdc-int-094-4.webp",
+   "w": 300,
+   "h": 251
+  },
+  {
+   "id": "cdc-int-094-5",
+   "t": "giardia",
+   "stage": "活動體 trophozoite（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.89",
+   "src": "figures/lab/st-cdc-int-094-5.webp",
+   "w": 424,
+   "h": 466
+  },
+  {
+   "id": "cdc-int-096-0",
+   "t": "giardia",
+   "stage": "囊體 cyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.91",
+   "src": "figures/lab/st-cdc-int-096-0.webp",
+   "w": 375,
+   "h": 413
+  },
+  {
+   "id": "cdc-int-096-1",
+   "t": "giardia",
+   "stage": "囊體 cyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.91",
+   "src": "figures/lab/st-cdc-int-096-1.webp",
+   "w": 423,
+   "h": 477
+  },
+  {
+   "id": "cdc-int-096-2",
+   "t": "giardia",
+   "stage": "囊體 cyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.91",
+   "src": "figures/lab/st-cdc-int-096-2.webp",
+   "w": 421,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-096-3",
+   "t": "giardia",
+   "stage": "囊體 cyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.91",
+   "src": "figures/lab/st-cdc-int-096-3.webp",
+   "w": 424,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-096-4",
+   "t": "giardia",
+   "stage": "囊體 cyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.91",
+   "src": "figures/lab/st-cdc-int-096-4.webp",
+   "w": 424,
+   "h": 429
+  },
+  {
+   "id": "cdc-int-096-5",
+   "t": "giardia",
+   "stage": "囊體 cyst（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.91",
+   "src": "figures/lab/st-cdc-int-096-5.webp",
+   "w": 419,
+   "h": 477
+  },
+  {
+   "id": "cdc-int-102-0",
+   "t": "blastocystis",
+   "stage": "空泡型（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.97",
+   "src": "figures/lab/st-cdc-int-102-0.webp",
+   "w": 131,
+   "h": 180
+  },
+  {
+   "id": "cdc-int-102-1",
+   "t": "blastocystis",
+   "stage": "空泡型（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.97",
+   "src": "figures/lab/st-cdc-int-102-1.webp",
+   "w": 291,
+   "h": 395
+  },
+  {
+   "id": "cdc-int-102-2",
+   "t": "blastocystis",
+   "stage": "空泡型（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.97",
+   "src": "figures/lab/st-cdc-int-102-2.webp",
+   "w": 157,
+   "h": 235
+  },
+  {
+   "id": "cdc-int-102-3",
+   "t": "blastocystis",
+   "stage": "空泡型（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.97",
+   "src": "figures/lab/st-cdc-int-102-3.webp",
+   "w": 197,
+   "h": 300
+  },
+  {
+   "id": "cdc-int-102-4",
+   "t": "blastocystis",
+   "stage": "空泡型（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.97",
+   "src": "figures/lab/st-cdc-int-102-4.webp",
+   "w": 321,
+   "h": 477
+  },
+  {
+   "id": "cdc-int-102-5",
+   "t": "blastocystis",
+   "stage": "空泡型（Trichrome）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.97",
+   "src": "figures/lab/st-cdc-int-102-5.webp",
+   "w": 432,
+   "h": 291
+  },
+  {
+   "id": "cdc-int-104-0",
+   "t": "balantidium",
+   "stage": "活動體 trophozoite",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.99",
+   "src": "figures/lab/st-cdc-int-104-0.webp",
+   "w": 640,
+   "h": 469
+  },
+  {
+   "id": "cdc-int-104-1",
+   "t": "balantidium",
+   "stage": "活動體 trophozoite",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.99",
+   "src": "figures/lab/st-cdc-int-104-1.webp",
+   "w": 631,
+   "h": 477
+  },
+  {
+   "id": "cdc-int-104-2",
+   "t": "balantidium",
+   "stage": "活動體 trophozoite",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.99",
+   "src": "figures/lab/st-cdc-int-104-2.webp",
+   "w": 640,
+   "h": 468
+  },
+  {
+   "id": "cdc-int-104-3",
+   "t": "balantidium",
+   "stage": "活動體 trophozoite",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.99",
+   "src": "figures/lab/st-cdc-int-104-3.webp",
+   "w": 640,
+   "h": 470
+  },
+  {
+   "id": "cdc-int-104-4",
+   "t": "balantidium",
+   "stage": "活動體 trophozoite",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.99",
+   "src": "figures/lab/st-cdc-int-104-4.webp",
+   "w": 633,
+   "h": 477
+  },
+  {
+   "id": "cdc-int-104-5",
+   "t": "balantidium",
+   "stage": "活動體 trophozoite",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.99",
+   "src": "figures/lab/st-cdc-int-104-5.webp",
+   "w": 640,
+   "h": 469
+  },
+  {
+   "id": "cdc-int-106-0",
+   "t": "balantidium",
+   "stage": "囊體 cyst",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.101",
+   "src": "figures/lab/st-cdc-int-106-0.webp",
+   "w": 640,
+   "h": 470
+  },
+  {
+   "id": "cdc-int-106-1",
+   "t": "balantidium",
+   "stage": "囊體 cyst",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.101",
+   "src": "figures/lab/st-cdc-int-106-1.webp",
+   "w": 632,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-106-2",
+   "t": "balantidium",
+   "stage": "囊體 cyst",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.101",
+   "src": "figures/lab/st-cdc-int-106-2.webp",
+   "w": 640,
+   "h": 469
+  },
+  {
+   "id": "cdc-int-106-3",
+   "t": "balantidium",
+   "stage": "囊體 cyst",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.101",
+   "src": "figures/lab/st-cdc-int-106-3.webp",
+   "w": 640,
+   "h": 469
+  },
+  {
+   "id": "cdc-int-106-4",
+   "t": "balantidium",
+   "stage": "囊體 cyst",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.101",
+   "src": "figures/lab/st-cdc-int-106-4.webp",
+   "w": 632,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-106-5",
+   "t": "balantidium",
+   "stage": "囊體 cyst",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.101",
+   "src": "figures/lab/st-cdc-int-106-5.webp",
+   "w": 640,
+   "h": 470
+  },
+  {
+   "id": "cdc-int-108-0",
+   "t": "cryptosporidium",
+   "stage": "卵囊 oocyst（modified acid-fast）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.103",
+   "src": "figures/lab/st-cdc-int-108-0.webp",
+   "w": 640,
+   "h": 470
+  },
+  {
+   "id": "cdc-int-108-1",
+   "t": "cryptosporidium",
+   "stage": "卵囊 oocyst（modified acid-fast）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.103",
+   "src": "figures/lab/st-cdc-int-108-1.webp",
+   "w": 240,
+   "h": 179
+  },
+  {
+   "id": "cdc-int-108-2",
+   "t": "cryptosporidium",
+   "stage": "卵囊 oocyst（modified acid-fast）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.103",
+   "src": "figures/lab/st-cdc-int-108-2.webp",
+   "w": 551,
+   "h": 380
+  },
+  {
+   "id": "cdc-int-108-3",
+   "t": "cryptosporidium",
+   "stage": "卵囊 oocyst（modified acid-fast）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.103",
+   "src": "figures/lab/st-cdc-int-108-3.webp",
+   "w": 640,
+   "h": 469
+  },
+  {
+   "id": "cdc-int-108-4",
+   "t": "cryptosporidium",
+   "stage": "卵囊 oocyst（modified acid-fast）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.103",
+   "src": "figures/lab/st-cdc-int-108-4.webp",
+   "w": 533,
+   "h": 386
+  },
+  {
+   "id": "cdc-int-108-5",
+   "t": "cryptosporidium",
+   "stage": "卵囊 oocyst（modified acid-fast）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.103",
+   "src": "figures/lab/st-cdc-int-108-5.webp",
+   "w": 280,
+   "h": 201
+  },
+  {
+   "id": "cdc-int-112-0",
+   "t": "e-histolytica",
+   "stage": "活動體 trophozoite（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.107",
+   "src": "figures/lab/st-cdc-int-112-0.webp",
+   "w": 291,
+   "h": 346
+  },
+  {
+   "id": "cdc-int-112-1",
+   "t": "e-histolytica",
+   "stage": "活動體 trophozoite（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.107",
+   "src": "figures/lab/st-cdc-int-112-1.webp",
+   "w": 381,
+   "h": 321
+  },
+  {
+   "id": "cdc-int-112-2",
+   "t": "e-histolytica",
+   "stage": "活動體 trophozoite（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.107",
+   "src": "figures/lab/st-cdc-int-112-2.webp",
+   "w": 380,
+   "h": 320
+  },
+  {
+   "id": "cdc-int-112-3",
+   "t": "e-histolytica",
+   "stage": "活動體 trophozoite（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.107",
+   "src": "figures/lab/st-cdc-int-112-3.webp",
+   "w": 306,
+   "h": 299
+  },
+  {
+   "id": "cdc-int-112-4",
+   "t": "e-histolytica",
+   "stage": "活動體 trophozoite（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.107",
+   "src": "figures/lab/st-cdc-int-112-4.webp",
+   "w": 346,
+   "h": 291
+  },
+  {
+   "id": "cdc-int-112-5",
+   "t": "e-histolytica",
+   "stage": "活動體 trophozoite（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.107",
+   "src": "figures/lab/st-cdc-int-112-5.webp",
+   "w": 297,
+   "h": 360
+  },
+  {
+   "id": "cdc-int-114-0",
+   "t": "e-histolytica",
+   "stage": "前囊體 precyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.109",
+   "src": "figures/lab/st-cdc-int-114-0.webp",
+   "w": 416,
+   "h": 288
+  },
+  {
+   "id": "cdc-int-114-1",
+   "t": "e-histolytica",
+   "stage": "前囊體 precyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.109",
+   "src": "figures/lab/st-cdc-int-114-1.webp",
+   "w": 573,
+   "h": 417
+  },
+  {
+   "id": "cdc-int-114-2",
+   "t": "e-histolytica",
+   "stage": "前囊體 precyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.109",
+   "src": "figures/lab/st-cdc-int-114-2.webp",
+   "w": 590,
+   "h": 433
+  },
+  {
+   "id": "cdc-int-114-3",
+   "t": "e-histolytica",
+   "stage": "前囊體 precyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.109",
+   "src": "figures/lab/st-cdc-int-114-3.webp",
+   "w": 564,
+   "h": 413
+  },
+  {
+   "id": "cdc-int-114-4",
+   "t": "e-histolytica",
+   "stage": "前囊體 precyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.109",
+   "src": "figures/lab/st-cdc-int-114-4.webp",
+   "w": 610,
+   "h": 446
+  },
+  {
+   "id": "cdc-int-114-5",
+   "t": "e-histolytica",
+   "stage": "前囊體 precyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.109",
+   "src": "figures/lab/st-cdc-int-114-5.webp",
+   "w": 215,
+   "h": 158
+  },
+  {
+   "id": "cdc-int-116-0",
+   "t": "e-histolytica",
+   "stage": "囊體 cyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.111",
+   "src": "figures/lab/st-cdc-int-116-0.webp",
+   "w": 298,
+   "h": 413
+  },
+  {
+   "id": "cdc-int-116-1",
+   "t": "e-histolytica",
+   "stage": "囊體 cyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.111",
+   "src": "figures/lab/st-cdc-int-116-1.webp",
+   "w": 294,
+   "h": 432
+  },
+  {
+   "id": "cdc-int-116-2",
+   "t": "e-histolytica",
+   "stage": "囊體 cyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.111",
+   "src": "figures/lab/st-cdc-int-116-2.webp",
+   "w": 96,
+   "h": 142
+  },
+  {
+   "id": "cdc-int-116-3",
+   "t": "e-histolytica",
+   "stage": "囊體 cyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.111",
+   "src": "figures/lab/st-cdc-int-116-3.webp",
+   "w": 292,
+   "h": 434
+  },
+  {
+   "id": "cdc-int-116-4",
+   "t": "e-histolytica",
+   "stage": "囊體 cyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.111",
+   "src": "figures/lab/st-cdc-int-116-4.webp",
+   "w": 398,
+   "h": 241
+  },
+  {
+   "id": "cdc-int-116-5",
+   "t": "e-histolytica",
+   "stage": "囊體 cyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.111",
+   "src": "figures/lab/st-cdc-int-116-5.webp",
+   "w": 321,
+   "h": 475
+  },
+  {
+   "id": "cdc-int-118-0",
+   "t": "e-coli",
+   "stage": "活動體 trophozoite（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.113",
+   "src": "figures/lab/st-cdc-int-118-0.webp",
+   "w": 640,
+   "h": 470
+  },
+  {
+   "id": "cdc-int-118-1",
+   "t": "e-coli",
+   "stage": "活動體 trophozoite（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.113",
+   "src": "figures/lab/st-cdc-int-118-1.webp",
+   "w": 464,
+   "h": 341
+  },
+  {
+   "id": "cdc-int-118-2",
+   "t": "e-coli",
+   "stage": "活動體 trophozoite（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.113",
+   "src": "figures/lab/st-cdc-int-118-2.webp",
+   "w": 640,
+   "h": 470
+  },
+  {
+   "id": "cdc-int-118-3",
+   "t": "e-coli",
+   "stage": "活動體 trophozoite（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.113",
+   "src": "figures/lab/st-cdc-int-118-3.webp",
+   "w": 468,
+   "h": 344
+  },
+  {
+   "id": "cdc-int-118-4",
+   "t": "e-coli",
+   "stage": "活動體 trophozoite（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.113",
+   "src": "figures/lab/st-cdc-int-118-4.webp",
+   "w": 640,
+   "h": 470
+  },
+  {
+   "id": "cdc-int-118-5",
+   "t": "e-coli",
+   "stage": "活動體 trophozoite（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.113",
+   "src": "figures/lab/st-cdc-int-118-5.webp",
+   "w": 640,
+   "h": 470
+  },
+  {
+   "id": "cdc-int-120-0",
+   "t": "e-coli",
+   "stage": "囊體 cyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.115",
+   "src": "figures/lab/st-cdc-int-120-0.webp",
+   "w": 185,
+   "h": 207
+  },
+  {
+   "id": "cdc-int-120-1",
+   "t": "e-coli",
+   "stage": "囊體 cyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.115",
+   "src": "figures/lab/st-cdc-int-120-1.webp",
+   "w": 185,
+   "h": 202
+  },
+  {
+   "id": "cdc-int-120-2",
+   "t": "e-coli",
+   "stage": "囊體 cyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.115",
+   "src": "figures/lab/st-cdc-int-120-2.webp",
+   "w": 185,
+   "h": 207
+  },
+  {
+   "id": "cdc-int-120-3",
+   "t": "e-coli",
+   "stage": "囊體 cyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.115",
+   "src": "figures/lab/st-cdc-int-120-3.webp",
+   "w": 185,
+   "h": 207
+  },
+  {
+   "id": "cdc-int-120-4",
+   "t": "e-coli",
+   "stage": "囊體 cyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.115",
+   "src": "figures/lab/st-cdc-int-120-4.webp",
+   "w": 185,
+   "h": 207
+  },
+  {
+   "id": "cdc-int-120-5",
+   "t": "e-coli",
+   "stage": "囊體 cyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.115",
+   "src": "figures/lab/st-cdc-int-120-5.webp",
+   "w": 195,
+   "h": 207
+  },
+  {
+   "id": "cdc-int-128-0",
+   "t": "iodamoeba",
+   "stage": "囊體 cyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.123",
+   "src": "figures/lab/st-cdc-int-128-0.webp",
+   "w": 393,
+   "h": 396
+  },
+  {
+   "id": "cdc-int-128-1",
+   "t": "iodamoeba",
+   "stage": "囊體 cyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.123",
+   "src": "figures/lab/st-cdc-int-128-1.webp",
+   "w": 397,
+   "h": 440
+  },
+  {
+   "id": "cdc-int-128-2",
+   "t": "iodamoeba",
+   "stage": "囊體 cyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.123",
+   "src": "figures/lab/st-cdc-int-128-2.webp",
+   "w": 424,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-128-3",
+   "t": "iodamoeba",
+   "stage": "囊體 cyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.123",
+   "src": "figures/lab/st-cdc-int-128-3.webp",
+   "w": 399,
+   "h": 449
+  },
+  {
+   "id": "cdc-int-128-4",
+   "t": "iodamoeba",
+   "stage": "囊體 cyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.123",
+   "src": "figures/lab/st-cdc-int-128-4.webp",
+   "w": 423,
+   "h": 475
+  },
+  {
+   "id": "cdc-int-128-5",
+   "t": "iodamoeba",
+   "stage": "囊體 cyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.123",
+   "src": "figures/lab/st-cdc-int-128-5.webp",
+   "w": 123,
+   "h": 138
+  },
+  {
+   "id": "cdc-int-130-0",
+   "t": "giardia",
+   "stage": "活動體 trophozoite（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.125",
+   "src": "figures/lab/st-cdc-int-130-0.webp",
+   "w": 279,
+   "h": 207
+  },
+  {
+   "id": "cdc-int-130-1",
+   "t": "giardia",
+   "stage": "活動體 trophozoite（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.125",
+   "src": "figures/lab/st-cdc-int-130-1.webp",
+   "w": 139,
+   "h": 207
+  },
+  {
+   "id": "cdc-int-130-2",
+   "t": "giardia",
+   "stage": "活動體 trophozoite（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.125",
+   "src": "figures/lab/st-cdc-int-130-2.webp",
+   "w": 203,
+   "h": 137
+  },
+  {
+   "id": "cdc-int-130-3",
+   "t": "giardia",
+   "stage": "活動體 trophozoite（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.125",
+   "src": "figures/lab/st-cdc-int-130-3.webp",
+   "w": 207,
+   "h": 139
+  },
+  {
+   "id": "cdc-int-130-4",
+   "t": "giardia",
+   "stage": "活動體 trophozoite（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.125",
+   "src": "figures/lab/st-cdc-int-130-4.webp",
+   "w": 139,
+   "h": 207
+  },
+  {
+   "id": "cdc-int-130-5",
+   "t": "giardia",
+   "stage": "活動體 trophozoite（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.125",
+   "src": "figures/lab/st-cdc-int-130-5.webp",
+   "w": 279,
+   "h": 207
+  },
+  {
+   "id": "cdc-int-132-0",
+   "t": "giardia",
+   "stage": "囊體 cyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.127",
+   "src": "figures/lab/st-cdc-int-132-0.webp",
+   "w": 320,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-132-1",
+   "t": "giardia",
+   "stage": "囊體 cyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.127",
+   "src": "figures/lab/st-cdc-int-132-1.webp",
+   "w": 299,
+   "h": 436
+  },
+  {
+   "id": "cdc-int-132-2",
+   "t": "giardia",
+   "stage": "囊體 cyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.127",
+   "src": "figures/lab/st-cdc-int-132-2.webp",
+   "w": 640,
+   "h": 502
+  },
+  {
+   "id": "cdc-int-132-3",
+   "t": "giardia",
+   "stage": "囊體 cyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.127",
+   "src": "figures/lab/st-cdc-int-132-3.webp",
+   "w": 517,
+   "h": 348
+  },
+  {
+   "id": "cdc-int-132-4",
+   "t": "giardia",
+   "stage": "囊體 cyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.127",
+   "src": "figures/lab/st-cdc-int-132-4.webp",
+   "w": 309,
+   "h": 456
+  },
+  {
+   "id": "cdc-int-132-5",
+   "t": "giardia",
+   "stage": "囊體 cyst（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.127",
+   "src": "figures/lab/st-cdc-int-132-5.webp",
+   "w": 346,
+   "h": 544
+  },
+  {
+   "id": "cdc-int-138-0",
+   "t": "blastocystis",
+   "stage": "空泡型（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.133",
+   "src": "figures/lab/st-cdc-int-138-0.webp",
+   "w": 320,
+   "h": 475
+  },
+  {
+   "id": "cdc-int-138-1",
+   "t": "blastocystis",
+   "stage": "空泡型（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.133",
+   "src": "figures/lab/st-cdc-int-138-1.webp",
+   "w": 321,
+   "h": 477
+  },
+  {
+   "id": "cdc-int-138-2",
+   "t": "blastocystis",
+   "stage": "空泡型（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.133",
+   "src": "figures/lab/st-cdc-int-138-2.webp",
+   "w": 315,
+   "h": 476
+  },
+  {
+   "id": "cdc-int-138-3",
+   "t": "blastocystis",
+   "stage": "空泡型（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.133",
+   "src": "figures/lab/st-cdc-int-138-3.webp",
+   "w": 477,
+   "h": 314
+  },
+  {
+   "id": "cdc-int-138-4",
+   "t": "blastocystis",
+   "stage": "空泡型（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.133",
+   "src": "figures/lab/st-cdc-int-138-4.webp",
+   "w": 339,
+   "h": 520
+  },
+  {
+   "id": "cdc-int-138-5",
+   "t": "blastocystis",
+   "stage": "空泡型（MIF）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.133",
+   "src": "figures/lab/st-cdc-int-138-5.webp",
+   "w": 326,
+   "h": 478
+  },
+  {
+   "id": "cdc-int-144-0",
+   "t": "trichomonas",
+   "stage": "活動體 trophozoite（Giemsa）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.139",
+   "src": "figures/lab/st-cdc-int-144-0.webp",
+   "w": 640,
+   "h": 470
+  },
+  {
+   "id": "cdc-int-144-1",
+   "t": "trichomonas",
+   "stage": "活動體 trophozoite（Giemsa）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.139",
+   "src": "figures/lab/st-cdc-int-144-1.webp",
+   "w": 631,
+   "h": 441
+  },
+  {
+   "id": "cdc-int-144-2",
+   "t": "trichomonas",
+   "stage": "活動體 trophozoite（Giemsa）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.139",
+   "src": "figures/lab/st-cdc-int-144-2.webp",
+   "w": 640,
+   "h": 469
+  },
+  {
+   "id": "cdc-int-144-3",
+   "t": "trichomonas",
+   "stage": "活動體 trophozoite（Giemsa）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.139",
+   "src": "figures/lab/st-cdc-int-144-3.webp",
+   "w": 640,
+   "h": 470
+  },
+  {
+   "id": "cdc-int-144-4",
+   "t": "trichomonas",
+   "stage": "活動體 trophozoite（Giemsa）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.139",
+   "src": "figures/lab/st-cdc-int-144-4.webp",
+   "w": 628,
+   "h": 454
+  },
+  {
+   "id": "cdc-int-144-5",
+   "t": "trichomonas",
+   "stage": "活動體 trophozoite（Giemsa）",
+   "from": "疾管署人體腸道寄生蟲圖譜 p.139",
+   "src": "figures/lab/st-cdc-int-144-5.webp",
+   "w": 640,
+   "h": 470
+  },
+  {
+   "id": "cdc-bld-010-0",
+   "t": "p-falciparum",
+   "stage": "環狀體 ring form",
+   "from": "疾管署人體血液寄生蟲圖譜 p.4",
+   "src": "figures/lab/st-cdc-bld-010-0.webp",
+   "w": 312,
+   "h": 311
+  },
+  {
+   "id": "cdc-bld-010-1",
+   "t": "p-falciparum",
+   "stage": "環狀體 ring form",
+   "from": "疾管署人體血液寄生蟲圖譜 p.4",
+   "src": "figures/lab/st-cdc-bld-010-1.webp",
+   "w": 303,
+   "h": 306
+  },
+  {
+   "id": "cdc-bld-010-2",
+   "t": "p-falciparum",
+   "stage": "環狀體 ring form",
+   "from": "疾管署人體血液寄生蟲圖譜 p.4",
+   "src": "figures/lab/st-cdc-bld-010-2.webp",
+   "w": 260,
+   "h": 260
+  },
+  {
+   "id": "cdc-bld-010-3",
+   "t": "p-falciparum",
+   "stage": "環狀體 ring form",
+   "from": "疾管署人體血液寄生蟲圖譜 p.4",
+   "src": "figures/lab/st-cdc-bld-010-3.webp",
+   "w": 304,
+   "h": 301
+  },
+  {
+   "id": "cdc-bld-010-4",
+   "t": "p-falciparum",
+   "stage": "環狀體 ring form",
+   "from": "疾管署人體血液寄生蟲圖譜 p.4",
+   "src": "figures/lab/st-cdc-bld-010-4.webp",
+   "w": 313,
+   "h": 322
+  },
+  {
+   "id": "cdc-bld-010-5",
+   "t": "p-falciparum",
+   "stage": "環狀體 ring form",
+   "from": "疾管署人體血液寄生蟲圖譜 p.4",
+   "src": "figures/lab/st-cdc-bld-010-5.webp",
+   "w": 285,
+   "h": 285
+  },
+  {
+   "id": "cdc-bld-012-0",
+   "t": "p-falciparum",
+   "stage": "活動體 trophozoite",
+   "from": "疾管署人體血液寄生蟲圖譜 p.6",
+   "src": "figures/lab/st-cdc-bld-012-0.webp",
+   "w": 414,
+   "h": 315
+  },
+  {
+   "id": "cdc-bld-012-1",
+   "t": "p-falciparum",
+   "stage": "活動體 trophozoite",
+   "from": "疾管署人體血液寄生蟲圖譜 p.6",
+   "src": "figures/lab/st-cdc-bld-012-1.webp",
+   "w": 452,
+   "h": 331
+  },
+  {
+   "id": "cdc-bld-012-2",
+   "t": "p-falciparum",
+   "stage": "活動體 trophozoite",
+   "from": "疾管署人體血液寄生蟲圖譜 p.6",
+   "src": "figures/lab/st-cdc-bld-012-2.webp",
+   "w": 414,
+   "h": 307
+  },
+  {
+   "id": "cdc-bld-012-3",
+   "t": "p-falciparum",
+   "stage": "活動體 trophozoite",
+   "from": "疾管署人體血液寄生蟲圖譜 p.6",
+   "src": "figures/lab/st-cdc-bld-012-3.webp",
+   "w": 424,
+   "h": 314
+  },
+  {
+   "id": "cdc-bld-012-4",
+   "t": "p-falciparum",
+   "stage": "活動體 trophozoite",
+   "from": "疾管署人體血液寄生蟲圖譜 p.6",
+   "src": "figures/lab/st-cdc-bld-012-4.webp",
+   "w": 424,
+   "h": 314
+  },
+  {
+   "id": "cdc-bld-012-5",
+   "t": "p-falciparum",
+   "stage": "活動體 trophozoite",
+   "from": "疾管署人體血液寄生蟲圖譜 p.6",
+   "src": "figures/lab/st-cdc-bld-012-5.webp",
+   "w": 415,
+   "h": 312
+  },
+  {
+   "id": "cdc-bld-014-0",
+   "t": "p-falciparum",
+   "stage": "裂殖體 schizont",
+   "from": "疾管署人體血液寄生蟲圖譜 p.8",
+   "src": "figures/lab/st-cdc-bld-014-0.webp",
+   "w": 179,
+   "h": 187
+  },
+  {
+   "id": "cdc-bld-014-1",
+   "t": "p-falciparum",
+   "stage": "裂殖體 schizont",
+   "from": "疾管署人體血液寄生蟲圖譜 p.8",
+   "src": "figures/lab/st-cdc-bld-014-1.webp",
+   "w": 138,
+   "h": 137
+  },
+  {
+   "id": "cdc-bld-014-2",
+   "t": "p-falciparum",
+   "stage": "裂殖體 schizont",
+   "from": "疾管署人體血液寄生蟲圖譜 p.8",
+   "src": "figures/lab/st-cdc-bld-014-2.webp",
+   "w": 411,
+   "h": 207
+  },
+  {
+   "id": "cdc-bld-014-3",
+   "t": "p-falciparum",
+   "stage": "裂殖體 schizont",
+   "from": "疾管署人體血液寄生蟲圖譜 p.8",
+   "src": "figures/lab/st-cdc-bld-014-3.webp",
+   "w": 203,
+   "h": 205
+  },
+  {
+   "id": "cdc-bld-014-4",
+   "t": "p-falciparum",
+   "stage": "裂殖體 schizont",
+   "from": "疾管署人體血液寄生蟲圖譜 p.8",
+   "src": "figures/lab/st-cdc-bld-014-4.webp",
+   "w": 121,
+   "h": 121
+  },
+  {
+   "id": "cdc-bld-014-5",
+   "t": "p-falciparum",
+   "stage": "裂殖體 schizont",
+   "from": "疾管署人體血液寄生蟲圖譜 p.8",
+   "src": "figures/lab/st-cdc-bld-014-5.webp",
+   "w": 204,
+   "h": 408
+  },
+  {
+   "id": "cdc-bld-016-0",
+   "t": "p-falciparum",
+   "stage": "配子體 gametocyte",
+   "from": "疾管署人體血液寄生蟲圖譜 p.10",
+   "src": "figures/lab/st-cdc-bld-016-0.webp",
+   "w": 381,
+   "h": 279
+  },
+  {
+   "id": "cdc-bld-016-1",
+   "t": "p-falciparum",
+   "stage": "配子體 gametocyte",
+   "from": "疾管署人體血液寄生蟲圖譜 p.10",
+   "src": "figures/lab/st-cdc-bld-016-1.webp",
+   "w": 506,
+   "h": 371
+  },
+  {
+   "id": "cdc-bld-016-2",
+   "t": "p-falciparum",
+   "stage": "配子體 gametocyte",
+   "from": "疾管署人體血液寄生蟲圖譜 p.10",
+   "src": "figures/lab/st-cdc-bld-016-2.webp",
+   "w": 458,
+   "h": 324
+  },
+  {
+   "id": "cdc-bld-016-3",
+   "t": "p-falciparum",
+   "stage": "配子體 gametocyte",
+   "from": "疾管署人體血液寄生蟲圖譜 p.10",
+   "src": "figures/lab/st-cdc-bld-016-3.webp",
+   "w": 493,
+   "h": 366
+  },
+  {
+   "id": "cdc-bld-016-4",
+   "t": "p-falciparum",
+   "stage": "配子體 gametocyte",
+   "from": "疾管署人體血液寄生蟲圖譜 p.10",
+   "src": "figures/lab/st-cdc-bld-016-4.webp",
+   "w": 424,
+   "h": 322
+  },
+  {
+   "id": "cdc-bld-016-5",
+   "t": "p-falciparum",
+   "stage": "配子體 gametocyte",
+   "from": "疾管署人體血液寄生蟲圖譜 p.10",
+   "src": "figures/lab/st-cdc-bld-016-5.webp",
+   "w": 212,
+   "h": 216
+  },
+  {
+   "id": "cdc-bld-020-0",
+   "t": "p-vivax",
+   "stage": "環狀體 ring form",
+   "from": "疾管署人體血液寄生蟲圖譜 p.14",
+   "src": "figures/lab/st-cdc-bld-020-0.webp",
+   "w": 141,
+   "h": 141
+  },
+  {
+   "id": "cdc-bld-020-1",
+   "t": "p-vivax",
+   "stage": "環狀體 ring form",
+   "from": "疾管署人體血液寄生蟲圖譜 p.14",
+   "src": "figures/lab/st-cdc-bld-020-1.webp",
+   "w": 314,
+   "h": 314
+  },
+  {
+   "id": "cdc-bld-020-2",
+   "t": "p-vivax",
+   "stage": "環狀體 ring form",
+   "from": "疾管署人體血液寄生蟲圖譜 p.14",
+   "src": "figures/lab/st-cdc-bld-020-2.webp",
+   "w": 242,
+   "h": 251
+  },
+  {
+   "id": "cdc-bld-020-3",
+   "t": "p-vivax",
+   "stage": "環狀體 ring form",
+   "from": "疾管署人體血液寄生蟲圖譜 p.14",
+   "src": "figures/lab/st-cdc-bld-020-3.webp",
+   "w": 328,
+   "h": 340
+  },
+  {
+   "id": "cdc-bld-020-4",
+   "t": "p-vivax",
+   "stage": "環狀體 ring form",
+   "from": "疾管署人體血液寄生蟲圖譜 p.14",
+   "src": "figures/lab/st-cdc-bld-020-4.webp",
+   "w": 313,
+   "h": 310
+  },
+  {
+   "id": "cdc-bld-020-5",
+   "t": "p-vivax",
+   "stage": "環狀體 ring form",
+   "from": "疾管署人體血液寄生蟲圖譜 p.14",
+   "src": "figures/lab/st-cdc-bld-020-5.webp",
+   "w": 315,
+   "h": 321
+  },
+  {
+   "id": "cdc-bld-022-0",
+   "t": "p-vivax",
+   "stage": "活動體 trophozoite",
+   "from": "疾管署人體血液寄生蟲圖譜 p.16",
+   "src": "figures/lab/st-cdc-bld-022-0.webp",
+   "w": 333,
+   "h": 328
+  },
+  {
+   "id": "cdc-bld-022-1",
+   "t": "p-vivax",
+   "stage": "活動體 trophozoite",
+   "from": "疾管署人體血液寄生蟲圖譜 p.16",
+   "src": "figures/lab/st-cdc-bld-022-1.webp",
+   "w": 350,
+   "h": 348
+  },
+  {
+   "id": "cdc-bld-022-2",
+   "t": "p-vivax",
+   "stage": "活動體 trophozoite",
+   "from": "疾管署人體血液寄生蟲圖譜 p.16",
+   "src": "figures/lab/st-cdc-bld-022-2.webp",
+   "w": 332,
+   "h": 309
+  },
+  {
+   "id": "cdc-bld-022-3",
+   "t": "p-vivax",
+   "stage": "活動體 trophozoite",
+   "from": "疾管署人體血液寄生蟲圖譜 p.16",
+   "src": "figures/lab/st-cdc-bld-022-3.webp",
+   "w": 342,
+   "h": 354
+  },
+  {
+   "id": "cdc-bld-022-4",
+   "t": "p-vivax",
+   "stage": "活動體 trophozoite",
+   "from": "疾管署人體血液寄生蟲圖譜 p.16",
+   "src": "figures/lab/st-cdc-bld-022-4.webp",
+   "w": 350,
+   "h": 338
+  },
+  {
+   "id": "cdc-bld-022-5",
+   "t": "p-vivax",
+   "stage": "活動體 trophozoite",
+   "from": "疾管署人體血液寄生蟲圖譜 p.16",
+   "src": "figures/lab/st-cdc-bld-022-5.webp",
+   "w": 269,
+   "h": 286
+  },
+  {
+   "id": "cdc-bld-024-0",
+   "t": "p-vivax",
+   "stage": "裂殖體 schizont",
+   "from": "疾管署人體血液寄生蟲圖譜 p.18",
+   "src": "figures/lab/st-cdc-bld-024-0.webp",
+   "w": 590,
+   "h": 296
+  },
+  {
+   "id": "cdc-bld-024-1",
+   "t": "p-vivax",
+   "stage": "裂殖體 schizont",
+   "from": "疾管署人體血液寄生蟲圖譜 p.18",
+   "src": "figures/lab/st-cdc-bld-024-1.webp",
+   "w": 398,
+   "h": 196
+  },
+  {
+   "id": "cdc-bld-024-2",
+   "t": "p-vivax",
+   "stage": "裂殖體 schizont",
+   "from": "疾管署人體血液寄生蟲圖譜 p.18",
+   "src": "figures/lab/st-cdc-bld-024-2.webp",
+   "w": 640,
+   "h": 310
+  },
+  {
+   "id": "cdc-bld-024-3",
+   "t": "p-vivax",
+   "stage": "裂殖體 schizont",
+   "from": "疾管署人體血液寄生蟲圖譜 p.18",
+   "src": "figures/lab/st-cdc-bld-024-3.webp",
+   "w": 541,
+   "h": 329
+  },
+  {
+   "id": "cdc-bld-024-4",
+   "t": "p-vivax",
+   "stage": "裂殖體 schizont",
+   "from": "疾管署人體血液寄生蟲圖譜 p.18",
+   "src": "figures/lab/st-cdc-bld-024-4.webp",
+   "w": 536,
+   "h": 298
+  },
+  {
+   "id": "cdc-bld-024-5",
+   "t": "p-vivax",
+   "stage": "裂殖體 schizont",
+   "from": "疾管署人體血液寄生蟲圖譜 p.18",
+   "src": "figures/lab/st-cdc-bld-024-5.webp",
+   "w": 321,
+   "h": 159
+  },
+  {
+   "id": "cdc-bld-026-0",
+   "t": "p-vivax",
+   "stage": "配子體 gametocyte",
+   "from": "疾管署人體血液寄生蟲圖譜 p.20",
+   "src": "figures/lab/st-cdc-bld-026-0.webp",
+   "w": 258,
+   "h": 247
+  },
+  {
+   "id": "cdc-bld-026-1",
+   "t": "p-vivax",
+   "stage": "配子體 gametocyte",
+   "from": "疾管署人體血液寄生蟲圖譜 p.20",
+   "src": "figures/lab/st-cdc-bld-026-1.webp",
+   "w": 246,
+   "h": 257
+  },
+  {
+   "id": "cdc-bld-026-2",
+   "t": "p-vivax",
+   "stage": "配子體 gametocyte",
+   "from": "疾管署人體血液寄生蟲圖譜 p.20",
+   "src": "figures/lab/st-cdc-bld-026-2.webp",
+   "w": 248,
+   "h": 250
+  },
+  {
+   "id": "cdc-bld-026-3",
+   "t": "p-vivax",
+   "stage": "配子體 gametocyte",
+   "from": "疾管署人體血液寄生蟲圖譜 p.20",
+   "src": "figures/lab/st-cdc-bld-026-3.webp",
+   "w": 332,
+   "h": 333
+  },
+  {
+   "id": "cdc-bld-026-4",
+   "t": "p-vivax",
+   "stage": "配子體 gametocyte",
+   "from": "疾管署人體血液寄生蟲圖譜 p.20",
+   "src": "figures/lab/st-cdc-bld-026-4.webp",
+   "w": 131,
+   "h": 129
+  },
+  {
+   "id": "cdc-bld-026-5",
+   "t": "p-vivax",
+   "stage": "配子體 gametocyte",
+   "from": "疾管署人體血液寄生蟲圖譜 p.20",
+   "src": "figures/lab/st-cdc-bld-026-5.webp",
+   "w": 301,
+   "h": 306
+  },
+  {
+   "id": "cdc-bld-040-0",
+   "t": "p-malariae",
+   "stage": "環狀體 ring form",
+   "from": "疾管署人體血液寄生蟲圖譜 p.34",
+   "src": "figures/lab/st-cdc-bld-040-0.webp",
+   "w": 424,
+   "h": 314
+  },
+  {
+   "id": "cdc-bld-040-1",
+   "t": "p-malariae",
+   "stage": "環狀體 ring form",
+   "from": "疾管署人體血液寄生蟲圖譜 p.34",
+   "src": "figures/lab/st-cdc-bld-040-1.webp",
+   "w": 432,
+   "h": 323
+  },
+  {
+   "id": "cdc-bld-040-2",
+   "t": "p-malariae",
+   "stage": "環狀體 ring form",
+   "from": "疾管署人體血液寄生蟲圖譜 p.34",
+   "src": "figures/lab/st-cdc-bld-040-2.webp",
+   "w": 314,
+   "h": 425
+  },
+  {
+   "id": "cdc-bld-040-3",
+   "t": "p-malariae",
+   "stage": "環狀體 ring form",
+   "from": "疾管署人體血液寄生蟲圖譜 p.34",
+   "src": "figures/lab/st-cdc-bld-040-3.webp",
+   "w": 375,
+   "h": 276
+  },
+  {
+   "id": "cdc-bld-040-4",
+   "t": "p-malariae",
+   "stage": "環狀體 ring form",
+   "from": "疾管署人體血液寄生蟲圖譜 p.34",
+   "src": "figures/lab/st-cdc-bld-040-4.webp",
+   "w": 400,
+   "h": 293
+  },
+  {
+   "id": "cdc-bld-040-5",
+   "t": "p-malariae",
+   "stage": "環狀體 ring form",
+   "from": "疾管署人體血液寄生蟲圖譜 p.34",
+   "src": "figures/lab/st-cdc-bld-040-5.webp",
+   "w": 302,
+   "h": 236
+  },
+  {
+   "id": "cdc-bld-042-0",
+   "t": "p-malariae",
+   "stage": "活動體 trophozoite",
+   "from": "疾管署人體血液寄生蟲圖譜 p.36",
+   "src": "figures/lab/st-cdc-bld-042-0.webp",
+   "w": 411,
+   "h": 314
+  },
+  {
+   "id": "cdc-bld-042-1",
+   "t": "p-malariae",
+   "stage": "活動體 trophozoite",
+   "from": "疾管署人體血液寄生蟲圖譜 p.36",
+   "src": "figures/lab/st-cdc-bld-042-1.webp",
+   "w": 343,
+   "h": 268
+  },
+  {
+   "id": "cdc-bld-042-2",
+   "t": "p-malariae",
+   "stage": "活動體 trophozoite",
+   "from": "疾管署人體血液寄生蟲圖譜 p.36",
+   "src": "figures/lab/st-cdc-bld-042-2.webp",
+   "w": 297,
+   "h": 224
+  },
+  {
+   "id": "cdc-bld-042-3",
+   "t": "p-malariae",
+   "stage": "活動體 trophozoite",
+   "from": "疾管署人體血液寄生蟲圖譜 p.36",
+   "src": "figures/lab/st-cdc-bld-042-3.webp",
+   "w": 424,
+   "h": 314
+  },
+  {
+   "id": "cdc-bld-042-4",
+   "t": "p-malariae",
+   "stage": "活動體 trophozoite",
+   "from": "疾管署人體血液寄生蟲圖譜 p.36",
+   "src": "figures/lab/st-cdc-bld-042-4.webp",
+   "w": 425,
+   "h": 315
+  },
+  {
+   "id": "cdc-bld-042-5",
+   "t": "p-malariae",
+   "stage": "活動體 trophozoite",
+   "from": "疾管署人體血液寄生蟲圖譜 p.36",
+   "src": "figures/lab/st-cdc-bld-042-5.webp",
+   "w": 148,
+   "h": 169
+  },
+  {
+   "id": "cdc-bld-044-0",
+   "t": "p-malariae",
+   "stage": "裂殖體 schizont",
+   "from": "疾管署人體血液寄生蟲圖譜 p.38",
+   "src": "figures/lab/st-cdc-bld-044-0.webp",
+   "w": 574,
+   "h": 314
+  },
+  {
+   "id": "cdc-bld-044-1",
+   "t": "p-malariae",
+   "stage": "裂殖體 schizont",
+   "from": "疾管署人體血液寄生蟲圖譜 p.38",
+   "src": "figures/lab/st-cdc-bld-044-1.webp",
+   "w": 507,
+   "h": 248
+  },
+  {
+   "id": "cdc-bld-044-2",
+   "t": "p-malariae",
+   "stage": "裂殖體 schizont",
+   "from": "疾管署人體血液寄生蟲圖譜 p.38",
+   "src": "figures/lab/st-cdc-bld-044-2.webp",
+   "w": 533,
+   "h": 297
+  },
+  {
+   "id": "cdc-bld-044-3",
+   "t": "p-malariae",
+   "stage": "裂殖體 schizont",
+   "from": "疾管署人體血液寄生蟲圖譜 p.38",
+   "src": "figures/lab/st-cdc-bld-044-3.webp",
+   "w": 438,
+   "h": 200
+  },
+  {
+   "id": "cdc-bld-044-4",
+   "t": "p-malariae",
+   "stage": "裂殖體 schizont",
+   "from": "疾管署人體血液寄生蟲圖譜 p.38",
+   "src": "figures/lab/st-cdc-bld-044-4.webp",
+   "w": 555,
+   "h": 286
+  },
+  {
+   "id": "cdc-bld-044-5",
+   "t": "p-malariae",
+   "stage": "裂殖體 schizont",
+   "from": "疾管署人體血液寄生蟲圖譜 p.38",
+   "src": "figures/lab/st-cdc-bld-044-5.webp",
+   "w": 557,
+   "h": 254
+  },
+  {
+   "id": "cdc-bld-046-0",
+   "t": "p-malariae",
+   "stage": "配子體 gametocyte",
+   "from": "疾管署人體血液寄生蟲圖譜 p.40",
+   "src": "figures/lab/st-cdc-bld-046-0.webp",
+   "w": 419,
+   "h": 310
+  },
+  {
+   "id": "cdc-bld-046-1",
+   "t": "p-malariae",
+   "stage": "配子體 gametocyte",
+   "from": "疾管署人體血液寄生蟲圖譜 p.40",
+   "src": "figures/lab/st-cdc-bld-046-1.webp",
+   "w": 391,
+   "h": 288
+  },
+  {
+   "id": "cdc-bld-046-2",
+   "t": "p-malariae",
+   "stage": "配子體 gametocyte",
+   "from": "疾管署人體血液寄生蟲圖譜 p.40",
+   "src": "figures/lab/st-cdc-bld-046-2.webp",
+   "w": 311,
+   "h": 422
+  },
+  {
+   "id": "cdc-bld-046-3",
+   "t": "p-malariae",
+   "stage": "配子體 gametocyte",
+   "from": "疾管署人體血液寄生蟲圖譜 p.40",
+   "src": "figures/lab/st-cdc-bld-046-3.webp",
+   "w": 420,
+   "h": 262
+  },
+  {
+   "id": "cdc-bld-046-4",
+   "t": "p-malariae",
+   "stage": "配子體 gametocyte",
+   "from": "疾管署人體血液寄生蟲圖譜 p.40",
+   "src": "figures/lab/st-cdc-bld-046-4.webp",
+   "w": 410,
+   "h": 302
+  },
+  {
+   "id": "cdc-bld-046-5",
+   "t": "p-malariae",
+   "stage": "配子體 gametocyte",
+   "from": "疾管署人體血液寄生蟲圖譜 p.40",
+   "src": "figures/lab/st-cdc-bld-046-5.webp",
+   "w": 148,
+   "h": 102
+  },
+  {
+   "id": "cdc-bld-048-0",
+   "t": "babesia",
+   "stage": "紅血球內環狀體",
+   "from": "疾管署人體血液寄生蟲圖譜 p.42",
+   "src": "figures/lab/st-cdc-bld-048-0.webp",
+   "w": 456,
+   "h": 368
+  },
+  {
+   "id": "cdc-bld-048-1",
+   "t": "babesia",
+   "stage": "紅血球內環狀體",
+   "from": "疾管署人體血液寄生蟲圖譜 p.42",
+   "src": "figures/lab/st-cdc-bld-048-1.webp",
+   "w": 424,
+   "h": 313
+  },
+  {
+   "id": "cdc-bld-048-2",
+   "t": "babesia",
+   "stage": "紅血球內環狀體",
+   "from": "疾管署人體血液寄生蟲圖譜 p.42",
+   "src": "figures/lab/st-cdc-bld-048-2.webp",
+   "w": 430,
+   "h": 324
+  },
+  {
+   "id": "cdc-bld-048-3",
+   "t": "babesia",
+   "stage": "紅血球內環狀體",
+   "from": "疾管署人體血液寄生蟲圖譜 p.42",
+   "src": "figures/lab/st-cdc-bld-048-3.webp",
+   "w": 428,
+   "h": 313
+  },
+  {
+   "id": "cdc-bld-048-4",
+   "t": "babesia",
+   "stage": "紅血球內環狀體",
+   "from": "疾管署人體血液寄生蟲圖譜 p.42",
+   "src": "figures/lab/st-cdc-bld-048-4.webp",
+   "w": 403,
+   "h": 295
+  },
+  {
+   "id": "cdc-bld-048-5",
+   "t": "babesia",
+   "stage": "紅血球內環狀體",
+   "from": "疾管署人體血液寄生蟲圖譜 p.42",
+   "src": "figures/lab/st-cdc-bld-048-5.webp",
+   "w": 426,
+   "h": 314
+  },
+  {
+   "id": "cdc-bld-050-0",
+   "t": "t-gambiense",
+   "stage": "錐鞭毛體 trypomastigote",
+   "from": "疾管署人體血液寄生蟲圖譜 p.44",
+   "src": "figures/lab/st-cdc-bld-050-0.webp",
+   "w": 627,
+   "h": 325
+  },
+  {
+   "id": "cdc-bld-050-1",
+   "t": "t-gambiense",
+   "stage": "錐鞭毛體 trypomastigote",
+   "from": "疾管署人體血液寄生蟲圖譜 p.44",
+   "src": "figures/lab/st-cdc-bld-050-1.webp",
+   "w": 603,
+   "h": 295
+  },
+  {
+   "id": "cdc-bld-050-2",
+   "t": "t-gambiense",
+   "stage": "錐鞭毛體 trypomastigote",
+   "from": "疾管署人體血液寄生蟲圖譜 p.44",
+   "src": "figures/lab/st-cdc-bld-050-2.webp",
+   "w": 623,
+   "h": 317
+  },
+  {
+   "id": "cdc-bld-050-3",
+   "t": "t-gambiense",
+   "stage": "錐鞭毛體 trypomastigote",
+   "from": "疾管署人體血液寄生蟲圖譜 p.44",
+   "src": "figures/lab/st-cdc-bld-050-3.webp",
+   "w": 630,
+   "h": 313
+  },
+  {
+   "id": "cdc-bld-050-4",
+   "t": "t-gambiense",
+   "stage": "錐鞭毛體 trypomastigote",
+   "from": "疾管署人體血液寄生蟲圖譜 p.44",
+   "src": "figures/lab/st-cdc-bld-050-4.webp",
+   "w": 624,
+   "h": 312
+  },
+  {
+   "id": "cdc-bld-050-5",
+   "t": "t-gambiense",
+   "stage": "錐鞭毛體 trypomastigote",
+   "from": "疾管署人體血液寄生蟲圖譜 p.44",
+   "src": "figures/lab/st-cdc-bld-050-5.webp",
+   "w": 632,
+   "h": 313
+  },
+  {
+   "id": "cdc-bld-052-0",
+   "t": "t-cruzi",
+   "stage": "錐鞭毛體 trypomastigote",
+   "from": "疾管署人體血液寄生蟲圖譜 p.46",
+   "src": "figures/lab/st-cdc-bld-052-0.webp",
+   "w": 640,
+   "h": 333
+  },
+  {
+   "id": "cdc-bld-052-1",
+   "t": "t-cruzi",
+   "stage": "錐鞭毛體 trypomastigote",
+   "from": "疾管署人體血液寄生蟲圖譜 p.46",
+   "src": "figures/lab/st-cdc-bld-052-1.webp",
+   "w": 583,
+   "h": 291
+  },
+  {
+   "id": "cdc-bld-052-2",
+   "t": "t-cruzi",
+   "stage": "錐鞭毛體 trypomastigote",
+   "from": "疾管署人體血液寄生蟲圖譜 p.46",
+   "src": "figures/lab/st-cdc-bld-052-2.webp",
+   "w": 624,
+   "h": 313
+  },
+  {
+   "id": "cdc-bld-052-3",
+   "t": "t-cruzi",
+   "stage": "錐鞭毛體 trypomastigote",
+   "from": "疾管署人體血液寄生蟲圖譜 p.46",
+   "src": "figures/lab/st-cdc-bld-052-3.webp",
+   "w": 622,
+   "h": 294
+  },
+  {
+   "id": "cdc-bld-052-4",
+   "t": "t-cruzi",
+   "stage": "錐鞭毛體 trypomastigote",
+   "from": "疾管署人體血液寄生蟲圖譜 p.46",
+   "src": "figures/lab/st-cdc-bld-052-4.webp",
+   "w": 197,
+   "h": 99
+  },
+  {
+   "id": "cdc-bld-052-5",
+   "t": "t-cruzi",
+   "stage": "錐鞭毛體 trypomastigote",
+   "from": "疾管署人體血液寄生蟲圖譜 p.46",
+   "src": "figures/lab/st-cdc-bld-052-5.webp",
+   "w": 622,
+   "h": 314
+  },
+  {
+   "id": "cdc-bld-054-0",
+   "t": "wuchereria",
+   "stage": "微絲蚴 microfilaria",
+   "from": "疾管署人體血液寄生蟲圖譜 p.48",
+   "src": "figures/lab/st-cdc-bld-054-0.webp",
+   "w": 611,
+   "h": 396
+  },
+  {
+   "id": "cdc-bld-054-1",
+   "t": "wuchereria",
+   "stage": "微絲蚴 microfilaria",
+   "from": "疾管署人體血液寄生蟲圖譜 p.48",
+   "src": "figures/lab/st-cdc-bld-054-1.webp",
+   "w": 312,
+   "h": 604
+  },
+  {
+   "id": "cdc-bld-054-2",
+   "t": "wuchereria",
+   "stage": "微絲蚴 microfilaria",
+   "from": "疾管署人體血液寄生蟲圖譜 p.48",
+   "src": "figures/lab/st-cdc-bld-054-2.webp",
+   "w": 471,
+   "h": 312
+  },
+  {
+   "id": "cdc-bld-054-3",
+   "t": "wuchereria",
+   "stage": "微絲蚴 microfilaria",
+   "from": "疾管署人體血液寄生蟲圖譜 p.48",
+   "src": "figures/lab/st-cdc-bld-054-3.webp",
+   "w": 313,
+   "h": 604
+  },
+  {
+   "id": "cdc-bld-054-4",
+   "t": "wuchereria",
+   "stage": "微絲蚴 microfilaria",
+   "from": "疾管署人體血液寄生蟲圖譜 p.48",
+   "src": "figures/lab/st-cdc-bld-054-4.webp",
+   "w": 424,
+   "h": 640
+  },
+  {
+   "id": "cdc-bld-056-0",
+   "t": "brugia",
+   "stage": "微絲蚴 microfilaria",
+   "from": "疾管署人體血液寄生蟲圖譜 p.50",
+   "src": "figures/lab/st-cdc-bld-056-0.webp",
+   "w": 617,
+   "h": 314
+  },
+  {
+   "id": "cdc-bld-056-1",
+   "t": "brugia",
+   "stage": "微絲蚴 microfilaria",
+   "from": "疾管署人體血液寄生蟲圖譜 p.50",
+   "src": "figures/lab/st-cdc-bld-056-1.webp",
+   "w": 284,
+   "h": 597
+  },
+  {
+   "id": "cdc-bld-056-2",
+   "t": "brugia",
+   "stage": "微絲蚴 microfilaria",
+   "from": "疾管署人體血液寄生蟲圖譜 p.50",
+   "src": "figures/lab/st-cdc-bld-056-2.webp",
+   "w": 632,
+   "h": 314
+  },
+  {
+   "id": "cdc-bld-056-3",
+   "t": "brugia",
+   "stage": "微絲蚴 microfilaria",
+   "from": "疾管署人體血液寄生蟲圖譜 p.50",
+   "src": "figures/lab/st-cdc-bld-056-3.webp",
+   "w": 623,
+   "h": 292
+  },
+  {
+   "id": "cdc-bld-056-4",
+   "t": "brugia",
+   "stage": "微絲蚴 microfilaria",
+   "from": "疾管署人體血液寄生蟲圖譜 p.50",
+   "src": "figures/lab/st-cdc-bld-056-4.webp",
+   "w": 607,
+   "h": 314
+  },
+  {
+   "id": "cdc-bld-056-5",
+   "t": "brugia",
+   "stage": "微絲蚴 microfilaria",
+   "from": "疾管署人體血液寄生蟲圖譜 p.50",
+   "src": "figures/lab/st-cdc-bld-056-5.webp",
+   "w": 624,
+   "h": 314
   }
  ],
  "ova": [
@@ -5768,6 +8405,1216 @@
    "src": "figures/lab/ov-109-50.webp",
    "w": 640,
    "h": 480
+  },
+  {
+   "id": "cdc-int-008-0",
+   "t": [
+    "hookworm"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.3",
+   "src": "figures/lab/ov-cdc-int-008-0.webp",
+   "w": 321,
+   "h": 321
+  },
+  {
+   "id": "cdc-int-008-1",
+   "t": [
+    "hookworm"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.3",
+   "src": "figures/lab/ov-cdc-int-008-1.webp",
+   "w": 330,
+   "h": 330
+  },
+  {
+   "id": "cdc-int-008-2",
+   "t": [
+    "hookworm"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.3",
+   "src": "figures/lab/ov-cdc-int-008-2.webp",
+   "w": 147,
+   "h": 147
+  },
+  {
+   "id": "cdc-int-008-3",
+   "t": [
+    "hookworm"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.3",
+   "src": "figures/lab/ov-cdc-int-008-3.webp",
+   "w": 320,
+   "h": 320
+  },
+  {
+   "id": "cdc-int-008-4",
+   "t": [
+    "hookworm"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.3",
+   "src": "figures/lab/ov-cdc-int-008-4.webp",
+   "w": 320,
+   "h": 320
+  },
+  {
+   "id": "cdc-int-008-5",
+   "t": [
+    "hookworm"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.3",
+   "src": "figures/lab/ov-cdc-int-008-5.webp",
+   "w": 321,
+   "h": 320
+  },
+  {
+   "id": "cdc-int-014-0",
+   "t": [
+    "ascaris-f"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.9",
+   "src": "figures/lab/ov-cdc-int-014-0.webp",
+   "w": 139,
+   "h": 139
+  },
+  {
+   "id": "cdc-int-014-1",
+   "t": [
+    "ascaris-f"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.9",
+   "src": "figures/lab/ov-cdc-int-014-1.webp",
+   "w": 139,
+   "h": 139
+  },
+  {
+   "id": "cdc-int-014-2",
+   "t": [
+    "ascaris-f"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.9",
+   "src": "figures/lab/ov-cdc-int-014-2.webp",
+   "w": 140,
+   "h": 139
+  },
+  {
+   "id": "cdc-int-014-3",
+   "t": [
+    "ascaris-f"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.9",
+   "src": "figures/lab/ov-cdc-int-014-3.webp",
+   "w": 139,
+   "h": 139
+  },
+  {
+   "id": "cdc-int-014-4",
+   "t": [
+    "ascaris-f"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.9",
+   "src": "figures/lab/ov-cdc-int-014-4.webp",
+   "w": 139,
+   "h": 139
+  },
+  {
+   "id": "cdc-int-014-5",
+   "t": [
+    "ascaris-f"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.9",
+   "src": "figures/lab/ov-cdc-int-014-5.webp",
+   "w": 439,
+   "h": 439
+  },
+  {
+   "id": "cdc-int-016-0",
+   "t": [
+    "ascaris-uf"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.11",
+   "src": "figures/lab/ov-cdc-int-016-0.webp",
+   "w": 185,
+   "h": 139
+  },
+  {
+   "id": "cdc-int-016-1",
+   "t": [
+    "ascaris-uf"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.11",
+   "src": "figures/lab/ov-cdc-int-016-1.webp",
+   "w": 139,
+   "h": 185
+  },
+  {
+   "id": "cdc-int-016-2",
+   "t": [
+    "ascaris-uf"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.11",
+   "src": "figures/lab/ov-cdc-int-016-2.webp",
+   "w": 185,
+   "h": 139
+  },
+  {
+   "id": "cdc-int-016-3",
+   "t": [
+    "ascaris-uf"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.11",
+   "src": "figures/lab/ov-cdc-int-016-3.webp",
+   "w": 185,
+   "h": 139
+  },
+  {
+   "id": "cdc-int-016-4",
+   "t": [
+    "ascaris-uf"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.11",
+   "src": "figures/lab/ov-cdc-int-016-4.webp",
+   "w": 162,
+   "h": 185
+  },
+  {
+   "id": "cdc-int-016-5",
+   "t": [
+    "ascaris-uf"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.11",
+   "src": "figures/lab/ov-cdc-int-016-5.webp",
+   "w": 184,
+   "h": 139
+  },
+  {
+   "id": "cdc-int-018-0",
+   "t": [
+    "trichuris"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.13",
+   "src": "figures/lab/ov-cdc-int-018-0.webp",
+   "w": 185,
+   "h": 139
+  },
+  {
+   "id": "cdc-int-018-1",
+   "t": [
+    "trichuris"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.13",
+   "src": "figures/lab/ov-cdc-int-018-1.webp",
+   "w": 185,
+   "h": 139
+  },
+  {
+   "id": "cdc-int-018-2",
+   "t": [
+    "trichuris"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.13",
+   "src": "figures/lab/ov-cdc-int-018-2.webp",
+   "w": 184,
+   "h": 139
+  },
+  {
+   "id": "cdc-int-018-3",
+   "t": [
+    "trichuris"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.13",
+   "src": "figures/lab/ov-cdc-int-018-3.webp",
+   "w": 185,
+   "h": 139
+  },
+  {
+   "id": "cdc-int-018-4",
+   "t": [
+    "trichuris"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.13",
+   "src": "figures/lab/ov-cdc-int-018-4.webp",
+   "w": 201,
+   "h": 151
+  },
+  {
+   "id": "cdc-int-018-5",
+   "t": [
+    "trichuris"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.13",
+   "src": "figures/lab/ov-cdc-int-018-5.webp",
+   "w": 184,
+   "h": 139
+  },
+  {
+   "id": "cdc-int-020-0",
+   "t": [
+    "enterobius"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.15",
+   "src": "figures/lab/ov-cdc-int-020-0.webp",
+   "w": 321,
+   "h": 321
+  },
+  {
+   "id": "cdc-int-020-1",
+   "t": [
+    "enterobius"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.15",
+   "src": "figures/lab/ov-cdc-int-020-1.webp",
+   "w": 294,
+   "h": 293
+  },
+  {
+   "id": "cdc-int-020-2",
+   "t": [
+    "enterobius"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.15",
+   "src": "figures/lab/ov-cdc-int-020-2.webp",
+   "w": 315,
+   "h": 316
+  },
+  {
+   "id": "cdc-int-020-3",
+   "t": [
+    "enterobius"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.15",
+   "src": "figures/lab/ov-cdc-int-020-3.webp",
+   "w": 321,
+   "h": 321
+  },
+  {
+   "id": "cdc-int-020-4",
+   "t": [
+    "enterobius"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.15",
+   "src": "figures/lab/ov-cdc-int-020-4.webp",
+   "w": 376,
+   "h": 377
+  },
+  {
+   "id": "cdc-int-020-5",
+   "t": [
+    "enterobius"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.15",
+   "src": "figures/lab/ov-cdc-int-020-5.webp",
+   "w": 322,
+   "h": 321
+  },
+  {
+   "id": "cdc-int-022-0",
+   "t": [
+    "f-buski"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.17",
+   "src": "figures/lab/ov-cdc-int-022-0.webp",
+   "w": 640,
+   "h": 640
+  },
+  {
+   "id": "cdc-int-022-1",
+   "t": [
+    "f-buski"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.17",
+   "src": "figures/lab/ov-cdc-int-022-1.webp",
+   "w": 565,
+   "h": 565
+  },
+  {
+   "id": "cdc-int-022-2",
+   "t": [
+    "f-buski"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.17",
+   "src": "figures/lab/ov-cdc-int-022-2.webp",
+   "w": 639,
+   "h": 640
+  },
+  {
+   "id": "cdc-int-022-3",
+   "t": [
+    "f-buski"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.17",
+   "src": "figures/lab/ov-cdc-int-022-3.webp",
+   "w": 445,
+   "h": 446
+  },
+  {
+   "id": "cdc-int-022-4",
+   "t": [
+    "f-buski"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.17",
+   "src": "figures/lab/ov-cdc-int-022-4.webp",
+   "w": 640,
+   "h": 640
+  },
+  {
+   "id": "cdc-int-022-5",
+   "t": [
+    "f-buski"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.17",
+   "src": "figures/lab/ov-cdc-int-022-5.webp",
+   "w": 578,
+   "h": 579
+  },
+  {
+   "id": "cdc-int-024-0",
+   "t": [
+    "echinostoma"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.19",
+   "src": "figures/lab/ov-cdc-int-024-0.webp",
+   "w": 279,
+   "h": 272
+  },
+  {
+   "id": "cdc-int-024-1",
+   "t": [
+    "echinostoma"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.19",
+   "src": "figures/lab/ov-cdc-int-024-1.webp",
+   "w": 279,
+   "h": 271
+  },
+  {
+   "id": "cdc-int-024-2",
+   "t": [
+    "echinostoma"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.19",
+   "src": "figures/lab/ov-cdc-int-024-2.webp",
+   "w": 279,
+   "h": 272
+  },
+  {
+   "id": "cdc-int-024-3",
+   "t": [
+    "echinostoma"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.19",
+   "src": "figures/lab/ov-cdc-int-024-3.webp",
+   "w": 274,
+   "h": 272
+  },
+  {
+   "id": "cdc-int-024-4",
+   "t": [
+    "echinostoma"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.19",
+   "src": "figures/lab/ov-cdc-int-024-4.webp",
+   "w": 279,
+   "h": 279
+  },
+  {
+   "id": "cdc-int-024-5",
+   "t": [
+    "echinostoma"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.19",
+   "src": "figures/lab/ov-cdc-int-024-5.webp",
+   "w": 279,
+   "h": 275
+  },
+  {
+   "id": "cdc-int-026-0",
+   "t": [
+    "clonorchis"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.21",
+   "src": "figures/lab/ov-cdc-int-026-0.webp",
+   "w": 319,
+   "h": 321
+  },
+  {
+   "id": "cdc-int-026-1",
+   "t": [
+    "clonorchis"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.21",
+   "src": "figures/lab/ov-cdc-int-026-1.webp",
+   "w": 319,
+   "h": 321
+  },
+  {
+   "id": "cdc-int-026-2",
+   "t": [
+    "clonorchis"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.21",
+   "src": "figures/lab/ov-cdc-int-026-2.webp",
+   "w": 320,
+   "h": 321
+  },
+  {
+   "id": "cdc-int-026-3",
+   "t": [
+    "clonorchis"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.21",
+   "src": "figures/lab/ov-cdc-int-026-3.webp",
+   "w": 319,
+   "h": 320
+  },
+  {
+   "id": "cdc-int-026-4",
+   "t": [
+    "clonorchis"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.21",
+   "src": "figures/lab/ov-cdc-int-026-4.webp",
+   "w": 312,
+   "h": 305
+  },
+  {
+   "id": "cdc-int-026-5",
+   "t": [
+    "clonorchis"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.21",
+   "src": "figures/lab/ov-cdc-int-026-5.webp",
+   "w": 335,
+   "h": 320
+  },
+  {
+   "id": "cdc-int-028-0",
+   "t": [
+    "f-hepatica"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.23",
+   "src": "figures/lab/ov-cdc-int-028-0.webp",
+   "w": 640,
+   "h": 640
+  },
+  {
+   "id": "cdc-int-028-1",
+   "t": [
+    "f-hepatica"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.23",
+   "src": "figures/lab/ov-cdc-int-028-1.webp",
+   "w": 640,
+   "h": 640
+  },
+  {
+   "id": "cdc-int-028-2",
+   "t": [
+    "f-hepatica"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.23",
+   "src": "figures/lab/ov-cdc-int-028-2.webp",
+   "w": 608,
+   "h": 608
+  },
+  {
+   "id": "cdc-int-028-3",
+   "t": [
+    "f-hepatica"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.23",
+   "src": "figures/lab/ov-cdc-int-028-3.webp",
+   "w": 640,
+   "h": 640
+  },
+  {
+   "id": "cdc-int-028-4",
+   "t": [
+    "f-hepatica"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.23",
+   "src": "figures/lab/ov-cdc-int-028-4.webp",
+   "w": 573,
+   "h": 554
+  },
+  {
+   "id": "cdc-int-028-5",
+   "t": [
+    "f-hepatica"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.23",
+   "src": "figures/lab/ov-cdc-int-028-5.webp",
+   "w": 640,
+   "h": 640
+  },
+  {
+   "id": "cdc-int-030-0",
+   "t": [
+    "paragonimus"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.25",
+   "src": "figures/lab/ov-cdc-int-030-0.webp",
+   "w": 638,
+   "h": 640
+  },
+  {
+   "id": "cdc-int-030-1",
+   "t": [
+    "paragonimus"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.25",
+   "src": "figures/lab/ov-cdc-int-030-1.webp",
+   "w": 640,
+   "h": 320
+  },
+  {
+   "id": "cdc-int-030-2",
+   "t": [
+    "paragonimus"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.25",
+   "src": "figures/lab/ov-cdc-int-030-2.webp",
+   "w": 640,
+   "h": 617
+  },
+  {
+   "id": "cdc-int-030-3",
+   "t": [
+    "paragonimus"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.25",
+   "src": "figures/lab/ov-cdc-int-030-3.webp",
+   "w": 633,
+   "h": 606
+  },
+  {
+   "id": "cdc-int-030-4",
+   "t": [
+    "paragonimus"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.25",
+   "src": "figures/lab/ov-cdc-int-030-4.webp",
+   "w": 320,
+   "h": 640
+  },
+  {
+   "id": "cdc-int-030-5",
+   "t": [
+    "paragonimus"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.25",
+   "src": "figures/lab/ov-cdc-int-030-5.webp",
+   "w": 640,
+   "h": 320
+  },
+  {
+   "id": "cdc-int-032-0",
+   "t": [
+    "eurytrema"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.27",
+   "src": "figures/lab/ov-cdc-int-032-0.webp",
+   "w": 430,
+   "h": 640
+  },
+  {
+   "id": "cdc-int-032-1",
+   "t": [
+    "eurytrema"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.27",
+   "src": "figures/lab/ov-cdc-int-032-1.webp",
+   "w": 359,
+   "h": 533
+  },
+  {
+   "id": "cdc-int-032-2",
+   "t": [
+    "eurytrema"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.27",
+   "src": "figures/lab/ov-cdc-int-032-2.webp",
+   "w": 189,
+   "h": 282
+  },
+  {
+   "id": "cdc-int-032-3",
+   "t": [
+    "eurytrema"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.27",
+   "src": "figures/lab/ov-cdc-int-032-3.webp",
+   "w": 429,
+   "h": 640
+  },
+  {
+   "id": "cdc-int-034-0",
+   "t": [
+    "s-japonicum"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.29",
+   "src": "figures/lab/ov-cdc-int-034-0.webp",
+   "w": 640,
+   "h": 640
+  },
+  {
+   "id": "cdc-int-034-1",
+   "t": [
+    "s-japonicum"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.29",
+   "src": "figures/lab/ov-cdc-int-034-1.webp",
+   "w": 517,
+   "h": 517
+  },
+  {
+   "id": "cdc-int-034-2",
+   "t": [
+    "s-japonicum"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.29",
+   "src": "figures/lab/ov-cdc-int-034-2.webp",
+   "w": 571,
+   "h": 571
+  },
+  {
+   "id": "cdc-int-034-3",
+   "t": [
+    "s-japonicum"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.29",
+   "src": "figures/lab/ov-cdc-int-034-3.webp",
+   "w": 613,
+   "h": 594
+  },
+  {
+   "id": "cdc-int-034-4",
+   "t": [
+    "s-japonicum"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.29",
+   "src": "figures/lab/ov-cdc-int-034-4.webp",
+   "w": 464,
+   "h": 482
+  },
+  {
+   "id": "cdc-int-034-5",
+   "t": [
+    "s-japonicum"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.29",
+   "src": "figures/lab/ov-cdc-int-034-5.webp",
+   "w": 513,
+   "h": 511
+  },
+  {
+   "id": "cdc-int-036-0",
+   "t": [
+    "s-mansoni"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.31",
+   "src": "figures/lab/ov-cdc-int-036-0.webp",
+   "w": 577,
+   "h": 582
+  },
+  {
+   "id": "cdc-int-036-1",
+   "t": [
+    "s-mansoni"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.31",
+   "src": "figures/lab/ov-cdc-int-036-1.webp",
+   "w": 499,
+   "h": 253
+  },
+  {
+   "id": "cdc-int-036-2",
+   "t": [
+    "s-mansoni"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.31",
+   "src": "figures/lab/ov-cdc-int-036-2.webp",
+   "w": 386,
+   "h": 211
+  },
+  {
+   "id": "cdc-int-036-3",
+   "t": [
+    "s-mansoni"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.31",
+   "src": "figures/lab/ov-cdc-int-036-3.webp",
+   "w": 307,
+   "h": 307
+  },
+  {
+   "id": "cdc-int-036-4",
+   "t": [
+    "s-mansoni"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.31",
+   "src": "figures/lab/ov-cdc-int-036-4.webp",
+   "w": 640,
+   "h": 320
+  },
+  {
+   "id": "cdc-int-036-5",
+   "t": [
+    "s-mansoni"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.31",
+   "src": "figures/lab/ov-cdc-int-036-5.webp",
+   "w": 640,
+   "h": 320
+  },
+  {
+   "id": "cdc-int-038-0",
+   "t": [
+    "d-latum"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.33",
+   "src": "figures/lab/ov-cdc-int-038-0.webp",
+   "w": 185,
+   "h": 139
+  },
+  {
+   "id": "cdc-int-038-1",
+   "t": [
+    "d-latum"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.33",
+   "src": "figures/lab/ov-cdc-int-038-1.webp",
+   "w": 185,
+   "h": 139
+  },
+  {
+   "id": "cdc-int-038-2",
+   "t": [
+    "d-latum"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.33",
+   "src": "figures/lab/ov-cdc-int-038-2.webp",
+   "w": 185,
+   "h": 139
+  },
+  {
+   "id": "cdc-int-038-3",
+   "t": [
+    "d-latum"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.33",
+   "src": "figures/lab/ov-cdc-int-038-3.webp",
+   "w": 185,
+   "h": 139
+  },
+  {
+   "id": "cdc-int-038-4",
+   "t": [
+    "d-latum"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.33",
+   "src": "figures/lab/ov-cdc-int-038-4.webp",
+   "w": 185,
+   "h": 139
+  },
+  {
+   "id": "cdc-int-038-5",
+   "t": [
+    "d-latum"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.33",
+   "src": "figures/lab/ov-cdc-int-038-5.webp",
+   "w": 185,
+   "h": 139
+  },
+  {
+   "id": "cdc-int-040-0",
+   "t": [
+    "taenia"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.35",
+   "src": "figures/lab/ov-cdc-int-040-0.webp",
+   "w": 321,
+   "h": 321
+  },
+  {
+   "id": "cdc-int-040-1",
+   "t": [
+    "taenia"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.35",
+   "src": "figures/lab/ov-cdc-int-040-1.webp",
+   "w": 624,
+   "h": 640
+  },
+  {
+   "id": "cdc-int-040-2",
+   "t": [
+    "taenia"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.35",
+   "src": "figures/lab/ov-cdc-int-040-2.webp",
+   "w": 335,
+   "h": 320
+  },
+  {
+   "id": "cdc-int-040-3",
+   "t": [
+    "taenia"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.35",
+   "src": "figures/lab/ov-cdc-int-040-3.webp",
+   "w": 338,
+   "h": 326
+  },
+  {
+   "id": "cdc-int-040-4",
+   "t": [
+    "taenia"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.35",
+   "src": "figures/lab/ov-cdc-int-040-4.webp",
+   "w": 305,
+   "h": 320
+  },
+  {
+   "id": "cdc-int-040-5",
+   "t": [
+    "taenia"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.35",
+   "src": "figures/lab/ov-cdc-int-040-5.webp",
+   "w": 640,
+   "h": 639
+  },
+  {
+   "id": "cdc-int-042-0",
+   "t": [
+    "h-nana"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.37",
+   "src": "figures/lab/ov-cdc-int-042-0.webp",
+   "w": 425,
+   "h": 329
+  },
+  {
+   "id": "cdc-int-042-1",
+   "t": [
+    "h-nana"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.37",
+   "src": "figures/lab/ov-cdc-int-042-1.webp",
+   "w": 296,
+   "h": 230
+  },
+  {
+   "id": "cdc-int-042-2",
+   "t": [
+    "h-nana"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.37",
+   "src": "figures/lab/ov-cdc-int-042-2.webp",
+   "w": 344,
+   "h": 263
+  },
+  {
+   "id": "cdc-int-042-3",
+   "t": [
+    "h-nana"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.37",
+   "src": "figures/lab/ov-cdc-int-042-3.webp",
+   "w": 424,
+   "h": 329
+  },
+  {
+   "id": "cdc-int-042-4",
+   "t": [
+    "h-nana"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.37",
+   "src": "figures/lab/ov-cdc-int-042-4.webp",
+   "w": 424,
+   "h": 329
+  },
+  {
+   "id": "cdc-int-042-5",
+   "t": [
+    "h-nana"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.37",
+   "src": "figures/lab/ov-cdc-int-042-5.webp",
+   "w": 411,
+   "h": 317
+  },
+  {
+   "id": "cdc-int-044-0",
+   "t": [
+    "h-diminuta"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.39",
+   "src": "figures/lab/ov-cdc-int-044-0.webp",
+   "w": 390,
+   "h": 286
+  },
+  {
+   "id": "cdc-int-044-1",
+   "t": [
+    "h-diminuta"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.39",
+   "src": "figures/lab/ov-cdc-int-044-1.webp",
+   "w": 366,
+   "h": 283
+  },
+  {
+   "id": "cdc-int-044-2",
+   "t": [
+    "h-diminuta"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.39",
+   "src": "figures/lab/ov-cdc-int-044-2.webp",
+   "w": 448,
+   "h": 321
+  },
+  {
+   "id": "cdc-int-044-3",
+   "t": [
+    "h-diminuta"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.39",
+   "src": "figures/lab/ov-cdc-int-044-3.webp",
+   "w": 640,
+   "h": 483
+  },
+  {
+   "id": "cdc-int-044-4",
+   "t": [
+    "h-diminuta"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.39",
+   "src": "figures/lab/ov-cdc-int-044-4.webp",
+   "w": 402,
+   "h": 301
+  },
+  {
+   "id": "cdc-int-044-5",
+   "t": [
+    "h-diminuta"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.39",
+   "src": "figures/lab/ov-cdc-int-044-5.webp",
+   "w": 425,
+   "h": 321
+  },
+  {
+   "id": "cdc-int-046-0",
+   "t": [
+    "dipylidium"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.41",
+   "src": "figures/lab/ov-cdc-int-046-0.webp",
+   "w": 281,
+   "h": 283
+  },
+  {
+   "id": "cdc-int-046-1",
+   "t": [
+    "dipylidium"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.41",
+   "src": "figures/lab/ov-cdc-int-046-1.webp",
+   "w": 275,
+   "h": 283
+  },
+  {
+   "id": "cdc-int-046-2",
+   "t": [
+    "dipylidium"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.41",
+   "src": "figures/lab/ov-cdc-int-046-2.webp",
+   "w": 275,
+   "h": 283
+  },
+  {
+   "id": "cdc-int-046-3",
+   "t": [
+    "dipylidium"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.41",
+   "src": "figures/lab/ov-cdc-int-046-3.webp",
+   "w": 275,
+   "h": 283
+  },
+  {
+   "id": "cdc-int-046-4",
+   "t": [
+    "dipylidium"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.41",
+   "src": "figures/lab/ov-cdc-int-046-4.webp",
+   "w": 275,
+   "h": 283
+  },
+  {
+   "id": "cdc-int-046-5",
+   "t": [
+    "dipylidium"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.41",
+   "src": "figures/lab/ov-cdc-int-046-5.webp",
+   "w": 275,
+   "h": 283
+  },
+  {
+   "id": "cdc-int-142-0",
+   "t": [
+    "s-haematobium"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.137",
+   "src": "figures/lab/ov-cdc-int-142-0.webp",
+   "w": 434,
+   "h": 640
+  },
+  {
+   "id": "cdc-int-142-1",
+   "t": [
+    "s-haematobium"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.137",
+   "src": "figures/lab/ov-cdc-int-142-1.webp",
+   "w": 639,
+   "h": 640
+  },
+  {
+   "id": "cdc-int-142-2",
+   "t": [
+    "s-haematobium"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.137",
+   "src": "figures/lab/ov-cdc-int-142-2.webp",
+   "w": 319,
+   "h": 640
+  },
+  {
+   "id": "cdc-int-142-3",
+   "t": [
+    "s-haematobium"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.137",
+   "src": "figures/lab/ov-cdc-int-142-3.webp",
+   "w": 640,
+   "h": 640
+  },
+  {
+   "id": "cdc-int-142-4",
+   "t": [
+    "s-haematobium"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.137",
+   "src": "figures/lab/ov-cdc-int-142-4.webp",
+   "w": 539,
+   "h": 270
+  },
+  {
+   "id": "cdc-int-142-5",
+   "t": [
+    "s-haematobium"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.137",
+   "src": "figures/lab/ov-cdc-int-142-5.webp",
+   "w": 508,
+   "h": 508
+  },
+  {
+   "id": "cdc-int-146-0",
+   "t": [
+    "c-philippinensis"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.141",
+   "src": "figures/lab/ov-cdc-int-146-0.webp",
+   "w": 424,
+   "h": 390
+  },
+  {
+   "id": "cdc-int-146-1",
+   "t": [
+    "c-philippinensis"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.141",
+   "src": "figures/lab/ov-cdc-int-146-1.webp",
+   "w": 399,
+   "h": 361
+  },
+  {
+   "id": "cdc-int-146-2",
+   "t": [
+    "c-philippinensis"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.141",
+   "src": "figures/lab/ov-cdc-int-146-2.webp",
+   "w": 393,
+   "h": 358
+  },
+  {
+   "id": "cdc-int-147-0",
+   "t": [
+    "c-hepatica"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.142",
+   "src": "figures/lab/ov-cdc-int-147-0.webp",
+   "w": 426,
+   "h": 392
+  },
+  {
+   "id": "cdc-int-147-1",
+   "t": [
+    "c-hepatica"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.142",
+   "src": "figures/lab/ov-cdc-int-147-1.webp",
+   "w": 392,
+   "h": 351
+  },
+  {
+   "id": "cdc-int-147-2",
+   "t": [
+    "c-hepatica"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.142",
+   "src": "figures/lab/ov-cdc-int-147-2.webp",
+   "w": 425,
+   "h": 390
+  },
+  {
+   "id": "cdc-int-149-0",
+   "t": [
+    "toxocara"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.144",
+   "src": "figures/lab/ov-cdc-int-149-0.webp",
+   "w": 425,
+   "h": 390
+  },
+  {
+   "id": "cdc-int-149-1",
+   "t": [
+    "toxocara"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.144",
+   "src": "figures/lab/ov-cdc-int-149-1.webp",
+   "w": 424,
+   "h": 390
+  },
+  {
+   "id": "cdc-int-149-2",
+   "t": [
+    "toxocara"
+   ],
+   "from": "疾管署人體腸道寄生蟲圖譜 p.144",
+   "src": "figures/lab/ov-cdc-int-149-2.webp",
+   "w": 424,
+   "h": 389
   },
   {
    "id": "atlas-ascaris-f",
