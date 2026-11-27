@@ -1600,6 +1600,10 @@ body.cbt-on .bd-fab, body.cbt-on .bd-pop, body.cbt-on .mx-nudge, body.cbt-on .mx
 .lab-verdict ul { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 6px; }
 .lab-verdict li { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
 .lab-verdict .sci, .lab-miss .sci { font-weight: 650; font-size: 1.05rem; }
+.lab-tip { margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--rule); display: grid; gap: 8px; color: var(--ink); }
+.lab-tip p { margin: 0; line-height: 1.65; }
+.lab-tip .pill { margin-right: 8px; vertical-align: 1px; }
+.lab-tip-you .sci { font-size: inherit; font-weight: 650; }
 .lab-run .zh, .lab-miss .zh, .lab-key .zh { color: var(--ink-2); }
 .lab-run .you, .lab-miss .you { color: var(--bad); font-size: .88rem; }
 .lab-from { margin: 8px 0 0; font-size: .82rem; }
